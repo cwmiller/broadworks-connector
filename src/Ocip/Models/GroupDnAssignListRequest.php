@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:3992","type":"sequence"}]
+ * @Groups [{"id":"15129cd25fa2d5581f4edfd652c24f93:3992","type":"sequence"}]
  */
 class GroupDnAssignListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class GroupDnAssignListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:3992
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:3992
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -28,7 +28,7 @@ class GroupDnAssignListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:3992
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:3992
      * @var string|null
      */
     private $groupId = null;
@@ -38,7 +38,7 @@ class GroupDnAssignListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @Type string
      * @Array
      * @Optional
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:3992
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:3992
      * @var string[]
      */
     private $phoneNumber = array(
@@ -50,7 +50,7 @@ class GroupDnAssignListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DNRange
      * @Array
      * @Optional
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:3992
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:3992
      * @var \CWM\BroadWorksConnector\Ocip\Models\DNRange[]
      */
     private $dnRange = array(

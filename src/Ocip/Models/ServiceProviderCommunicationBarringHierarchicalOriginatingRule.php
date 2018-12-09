@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Service Provider Communication Barring Hierarchical Originating Rule
  *
- * @Groups [{"id":"18b369af88e42ffdb4166615c670ce2c:3338","type":"sequence","children":[{"id":"18b369af88e42ffdb4166615c670ce2c:3339","type":"choice"}]}]
+ * @Groups [{"id":"8e629edbac315ae7889caca732382c44:3338","type":"sequence","children":[{"id":"8e629edbac315ae7889caca732382c44:3339","type":"choice"}]}]
  */
 class ServiceProviderCommunicationBarringHierarchicalOriginatingRule
 {
@@ -15,7 +15,7 @@ class ServiceProviderCommunicationBarringHierarchicalOriginatingRule
     /**
      * @ElementName criteria
      * @Type string
-     * @Group 18b369af88e42ffdb4166615c670ce2c:3339
+     * @Group 8e629edbac315ae7889caca732382c44:3339
      * @var string|null
      */
     private $criteria = null;
@@ -23,7 +23,7 @@ class ServiceProviderCommunicationBarringHierarchicalOriginatingRule
     /**
      * @ElementName digitPatternCriteria
      * @Type string
-     * @Group 18b369af88e42ffdb4166615c670ce2c:3339
+     * @Group 8e629edbac315ae7889caca732382c44:3339
      * @var string|null
      */
     private $digitPatternCriteria = null;
@@ -31,7 +31,7 @@ class ServiceProviderCommunicationBarringHierarchicalOriginatingRule
     /**
      * @ElementName action
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringOriginatingAction
-     * @Group 18b369af88e42ffdb4166615c670ce2c:3338
+     * @Group 8e629edbac315ae7889caca732382c44:3338
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringOriginatingAction|null
      */
     private $action = null;
@@ -41,7 +41,7 @@ class ServiceProviderCommunicationBarringHierarchicalOriginatingRule
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 18b369af88e42ffdb4166615c670ce2c:3338
+     * @Group 8e629edbac315ae7889caca732382c44:3338
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $treatmentId = null;
@@ -51,7 +51,7 @@ class ServiceProviderCommunicationBarringHierarchicalOriginatingRule
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 18b369af88e42ffdb4166615c670ce2c:3338
+     * @Group 8e629edbac315ae7889caca732382c44:3338
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $transferNumber = null;
@@ -60,7 +60,7 @@ class ServiceProviderCommunicationBarringHierarchicalOriginatingRule
      * @ElementName callTimeoutSeconds
      * @Type int
      * @Optional
-     * @Group 18b369af88e42ffdb4166615c670ce2c:3338
+     * @Group 8e629edbac315ae7889caca732382c44:3338
      * @var int|null
      */
     private $callTimeoutSeconds = null;
@@ -69,7 +69,7 @@ class ServiceProviderCommunicationBarringHierarchicalOriginatingRule
      * @ElementName timeSchedule
      * @Type string
      * @Optional
-     * @Group 18b369af88e42ffdb4166615c670ce2c:3338
+     * @Group 8e629edbac315ae7889caca732382c44:3338
      * @var string|null
      */
     private $timeSchedule = null;
@@ -78,7 +78,7 @@ class ServiceProviderCommunicationBarringHierarchicalOriginatingRule
      * @ElementName holidaySchedule
      * @Type string
      * @Optional
-     * @Group 18b369af88e42ffdb4166615c670ce2c:3338
+     * @Group 8e629edbac315ae7889caca732382c44:3338
      * @var string|null
      */
     private $holidaySchedule = null;
@@ -86,7 +86,7 @@ class ServiceProviderCommunicationBarringHierarchicalOriginatingRule
     /**
      * @ElementName priority
      * @Type float
-     * @Group 18b369af88e42ffdb4166615c670ce2c:3338
+     * @Group 8e629edbac315ae7889caca732382c44:3338
      * @var float|null
      */
     private $priority = null;

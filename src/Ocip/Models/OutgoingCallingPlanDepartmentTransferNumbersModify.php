@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Outgoing Calling Plan transfer numbers for a department.
  *
- * @Groups [{"id":"8366f5f5d1fbfb9742236aba282c1dab:1848","type":"sequence"}]
+ * @Groups [{"id":"80676ea6f2582b1b88573623a6affc0e:1848","type":"sequence"}]
  */
 class OutgoingCallingPlanDepartmentTransferNumbersModify
 {
@@ -15,7 +15,7 @@ class OutgoingCallingPlanDepartmentTransferNumbersModify
     /**
      * @ElementName departmentKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey
-     * @Group 8366f5f5d1fbfb9742236aba282c1dab:1848
+     * @Group 80676ea6f2582b1b88573623a6affc0e:1848
      * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null
      */
     private $departmentKey = null;
@@ -24,7 +24,7 @@ class OutgoingCallingPlanDepartmentTransferNumbersModify
      * @ElementName transferNumbers
      * @Type \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanTransferNumbersModify
      * @Optional
-     * @Group 8366f5f5d1fbfb9742236aba282c1dab:1848
+     * @Group 80676ea6f2582b1b88573623a6affc0e:1848
      * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanTransferNumbersModify|null
      */
     private $transferNumbers = null;

@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserCallCenterGetAvailableDNISListResponse
  * @see ErrorResponse
- * @Groups [{"id":"69c2aeb1186dc97a4f4c36d9609ddb49:6296","type":"sequence"}]
+ * @Groups [{"id":"3ac5f05d969bc771d6ba8d344d95aa72:6296","type":"sequence"}]
  */
 class UserCallCenterGetAvailableDNISListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserCallCenterGetAvailableDNISListRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName agentUserId
      * @Type string
-     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:6296
+     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:6296
      * @var string|null
      */
     private $agentUserId = null;

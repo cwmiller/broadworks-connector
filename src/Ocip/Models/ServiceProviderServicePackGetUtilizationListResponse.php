@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The utilization table column headings are "Group", "Total Packs" and "Assigned".
  *
  * @see ServiceProviderServicePackGetUtilizationListRequest
- * @Groups [{"id":"8f3ed38751e86ebcc639b5bc5cdef0ec:5201","type":"sequence"}]
+ * @Groups [{"id":"8eb862aea0ee5d4211db0a0d3fe7c164:5201","type":"sequence"}]
  */
 class ServiceProviderServicePackGetUtilizationListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -20,7 +20,7 @@ class ServiceProviderServicePackGetUtilizationListResponse extends \CWM\BroadWor
      * @Type string
      * @Array
      * @Optional
-     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:5201
+     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:5201
      * @var string[]
      */
     private $servicePackName = array(
@@ -32,7 +32,7 @@ class ServiceProviderServicePackGetUtilizationListResponse extends \CWM\BroadWor
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @Array
      * @Optional
-     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:5201
+     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:5201
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable[]
      */
     private $serviceUtilizationTable = array(

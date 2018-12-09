@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to UserOutgoingCallingPlanAuthorizationCodeGetRequest.
  *
  * @see UserOutgoingCallingPlanAuthorizationCodeGetRequest
- * @Groups [{"id":"8366f5f5d1fbfb9742236aba282c1dab:1648","type":"sequence"}]
+ * @Groups [{"id":"80676ea6f2582b1b88573623a6affc0e:1648","type":"sequence"}]
  */
 class UserOutgoingCallingPlanSustainedAuthorizationCodeGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class UserOutgoingCallingPlanSustainedAuthorizationCodeGetResponse extends \CWM\
      * @ElementName code
      * @Type string
      * @Optional
-     * @Group 8366f5f5d1fbfb9742236aba282c1dab:1648
+     * @Group 80676ea6f2582b1b88573623a6affc0e:1648
      * @var string|null
      */
     private $code = null;

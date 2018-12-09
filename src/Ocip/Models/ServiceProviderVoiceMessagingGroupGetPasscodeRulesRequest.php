@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see ServiceProviderVoiceMessagingGroupGetPasscodeRulesResponse
  * @see ErrorResponse
  * @see ServiceProviderPortalPasscodeRulesGetRequest
- * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:16717","type":"sequence"}]
+ * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:16717","type":"sequence"}]
  */
 class ServiceProviderVoiceMessagingGroupGetPasscodeRulesRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class ServiceProviderVoiceMessagingGroupGetPasscodeRulesRequest extends \CWM\Bro
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 1a79c7896cb04feac6eff47a5321756e:16717
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:16717
      * @var string|null
      */
     private $serviceProviderId = null;

@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"96f8ef6c412295109568d733c1596c87:174","type":"sequence"}]
+ * @Groups [{"id":"8dbe603c659187d0985d1e5fb7f32eb1:174","type":"sequence"}]
  */
 class UserSelectiveCallAcceptanceModifyActiveCriteriaListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserSelectiveCallAcceptanceModifyActiveCriteriaListRequest extends \CWM\Br
     /**
      * @ElementName userId
      * @Type string
-     * @Group 96f8ef6c412295109568d733c1596c87:174
+     * @Group 8dbe603c659187d0985d1e5fb7f32eb1:174
      * @var string|null
      */
     private $userId = null;
@@ -28,7 +28,7 @@ class UserSelectiveCallAcceptanceModifyActiveCriteriaListRequest extends \CWM\Br
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CriteriaActivation
      * @Array
      * @Optional
-     * @Group 96f8ef6c412295109568d733c1596c87:174
+     * @Group 8dbe603c659187d0985d1e5fb7f32eb1:174
      * @var \CWM\BroadWorksConnector\Ocip\Models\CriteriaActivation[]
      */
     private $criteriaActivation = array(

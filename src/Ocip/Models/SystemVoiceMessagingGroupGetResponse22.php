@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemVoiceMessagingGroupGetResponse22
  * @see SystemVoiceMessagingGroupGetResponse22V2
- * @Groups [{"id":"499b56264fbe226bfef3c338c8d4750d:4567","type":"sequence"}]
+ * @Groups [{"id":"bb12a3589ab4748963f28f7ac9310f70:4567","type":"sequence"}]
  */
 class SystemVoiceMessagingGroupGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,7 +19,7 @@ class SystemVoiceMessagingGroupGetResponse22 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName realDeleteForImap
      * @Type bool
-     * @Group 499b56264fbe226bfef3c338c8d4750d:4567
+     * @Group bb12a3589ab4748963f28f7ac9310f70:4567
      * @var bool|null
      */
     private $realDeleteForImap = null;
@@ -27,7 +27,7 @@ class SystemVoiceMessagingGroupGetResponse22 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName useDnInMailBody
      * @Type bool
-     * @Group 499b56264fbe226bfef3c338c8d4750d:4567
+     * @Group bb12a3589ab4748963f28f7ac9310f70:4567
      * @var bool|null
      */
     private $useDnInMailBody = null;
@@ -35,7 +35,7 @@ class SystemVoiceMessagingGroupGetResponse22 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName useShortSubjectLine
      * @Type bool
-     * @Group 499b56264fbe226bfef3c338c8d4750d:4567
+     * @Group bb12a3589ab4748963f28f7ac9310f70:4567
      * @var bool|null
      */
     private $useShortSubjectLine = null;
@@ -43,7 +43,7 @@ class SystemVoiceMessagingGroupGetResponse22 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName maxMessageLengthMinutes
      * @Type int
-     * @Group 499b56264fbe226bfef3c338c8d4750d:4567
+     * @Group bb12a3589ab4748963f28f7ac9310f70:4567
      * @var int|null
      */
     private $maxMessageLengthMinutes = null;
@@ -51,7 +51,7 @@ class SystemVoiceMessagingGroupGetResponse22 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName maxMailboxLengthMinutes
      * @Type \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingMailboxLengthMinutes
-     * @Group 499b56264fbe226bfef3c338c8d4750d:4567
+     * @Group bb12a3589ab4748963f28f7ac9310f70:4567
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingMailboxLengthMinutes|null
      */
     private $maxMailboxLengthMinutes = null;
@@ -59,7 +59,7 @@ class SystemVoiceMessagingGroupGetResponse22 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName doesMessageAge
      * @Type bool
-     * @Group 499b56264fbe226bfef3c338c8d4750d:4567
+     * @Group bb12a3589ab4748963f28f7ac9310f70:4567
      * @var bool|null
      */
     private $doesMessageAge = null;
@@ -67,7 +67,7 @@ class SystemVoiceMessagingGroupGetResponse22 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName holdPeriodDays
      * @Type \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingHoldPeriodDays
-     * @Group 499b56264fbe226bfef3c338c8d4750d:4567
+     * @Group bb12a3589ab4748963f28f7ac9310f70:4567
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingHoldPeriodDays|null
      */
     private $holdPeriodDays = null;
@@ -76,7 +76,7 @@ class SystemVoiceMessagingGroupGetResponse22 extends \CWM\BroadWorksConnector\Oc
      * @ElementName mailServerNetAddress
      * @Type string
      * @Optional
-     * @Group 499b56264fbe226bfef3c338c8d4750d:4567
+     * @Group bb12a3589ab4748963f28f7ac9310f70:4567
      * @var string|null
      */
     private $mailServerNetAddress = null;
@@ -84,7 +84,7 @@ class SystemVoiceMessagingGroupGetResponse22 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName mailServerProtocol
      * @Type \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingMailServerProtocol
-     * @Group 499b56264fbe226bfef3c338c8d4750d:4567
+     * @Group bb12a3589ab4748963f28f7ac9310f70:4567
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingMailServerProtocol|null
      */
     private $mailServerProtocol = null;
@@ -92,7 +92,7 @@ class SystemVoiceMessagingGroupGetResponse22 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName defaultDeliveryFromAddress
      * @Type string
-     * @Group 499b56264fbe226bfef3c338c8d4750d:4567
+     * @Group bb12a3589ab4748963f28f7ac9310f70:4567
      * @var string|null
      */
     private $defaultDeliveryFromAddress = null;
@@ -100,7 +100,7 @@ class SystemVoiceMessagingGroupGetResponse22 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName defaultNotificationFromAddress
      * @Type string
-     * @Group 499b56264fbe226bfef3c338c8d4750d:4567
+     * @Group bb12a3589ab4748963f28f7ac9310f70:4567
      * @var string|null
      */
     private $defaultNotificationFromAddress = null;
@@ -108,7 +108,7 @@ class SystemVoiceMessagingGroupGetResponse22 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName defaultVoicePortalLockoutFromAddress
      * @Type string
-     * @Group 499b56264fbe226bfef3c338c8d4750d:4567
+     * @Group bb12a3589ab4748963f28f7ac9310f70:4567
      * @var string|null
      */
     private $defaultVoicePortalLockoutFromAddress = null;
@@ -116,7 +116,7 @@ class SystemVoiceMessagingGroupGetResponse22 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName useOutgoingMWIOnSMDI
      * @Type bool
-     * @Group 499b56264fbe226bfef3c338c8d4750d:4567
+     * @Group bb12a3589ab4748963f28f7ac9310f70:4567
      * @var bool|null
      */
     private $useOutgoingMWIOnSMDI = null;
@@ -124,7 +124,7 @@ class SystemVoiceMessagingGroupGetResponse22 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName mwiDelayInSeconds
      * @Type int
-     * @Group 499b56264fbe226bfef3c338c8d4750d:4567
+     * @Group bb12a3589ab4748963f28f7ac9310f70:4567
      * @var int|null
      */
     private $mwiDelayInSeconds = null;
@@ -132,7 +132,7 @@ class SystemVoiceMessagingGroupGetResponse22 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName voicePortalScope
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemVoicePortalScope
-     * @Group 499b56264fbe226bfef3c338c8d4750d:4567
+     * @Group bb12a3589ab4748963f28f7ac9310f70:4567
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemVoicePortalScope|null
      */
     private $voicePortalScope = null;
@@ -140,7 +140,7 @@ class SystemVoiceMessagingGroupGetResponse22 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName enterpriseVoicePortalLicensed
      * @Type bool
-     * @Group 499b56264fbe226bfef3c338c8d4750d:4567
+     * @Group bb12a3589ab4748963f28f7ac9310f70:4567
      * @var bool|null
      */
     private $enterpriseVoicePortalLicensed = null;
@@ -148,7 +148,7 @@ class SystemVoiceMessagingGroupGetResponse22 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName networkWideMessaging
      * @Type bool
-     * @Group 499b56264fbe226bfef3c338c8d4750d:4567
+     * @Group bb12a3589ab4748963f28f7ac9310f70:4567
      * @var bool|null
      */
     private $networkWideMessaging = null;
@@ -156,7 +156,7 @@ class SystemVoiceMessagingGroupGetResponse22 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName useExternalRouting
      * @Type bool
-     * @Group 499b56264fbe226bfef3c338c8d4750d:4567
+     * @Group bb12a3589ab4748963f28f7ac9310f70:4567
      * @var bool|null
      */
     private $useExternalRouting = null;
@@ -165,7 +165,7 @@ class SystemVoiceMessagingGroupGetResponse22 extends \CWM\BroadWorksConnector\Oc
      * @ElementName defaultExternalRoutingAddress
      * @Type string
      * @Optional
-     * @Group 499b56264fbe226bfef3c338c8d4750d:4567
+     * @Group bb12a3589ab4748963f28f7ac9310f70:4567
      * @var string|null
      */
     private $defaultExternalRoutingAddress = null;
@@ -173,7 +173,7 @@ class SystemVoiceMessagingGroupGetResponse22 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName vmOnlySystem
      * @Type bool
-     * @Group 499b56264fbe226bfef3c338c8d4750d:4567
+     * @Group bb12a3589ab4748963f28f7ac9310f70:4567
      * @var bool|null
      */
     private $vmOnlySystem = null;
@@ -181,7 +181,7 @@ class SystemVoiceMessagingGroupGetResponse22 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName clientInitiatedMailServerSessionTimeoutMinutes
      * @Type int
-     * @Group 499b56264fbe226bfef3c338c8d4750d:4567
+     * @Group bb12a3589ab4748963f28f7ac9310f70:4567
      * @var int|null
      */
     private $clientInitiatedMailServerSessionTimeoutMinutes = null;
@@ -189,7 +189,7 @@ class SystemVoiceMessagingGroupGetResponse22 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName recordingAudioFileFormat
      * @Type \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingRecordingAudioFileFormat
-     * @Group 499b56264fbe226bfef3c338c8d4750d:4567
+     * @Group bb12a3589ab4748963f28f7ac9310f70:4567
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingRecordingAudioFileFormat|null
      */
     private $recordingAudioFileFormat = null;
@@ -197,7 +197,7 @@ class SystemVoiceMessagingGroupGetResponse22 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName allowVoicePortalAccessFromVMDepositMenu
      * @Type bool
-     * @Group 499b56264fbe226bfef3c338c8d4750d:4567
+     * @Group bb12a3589ab4748963f28f7ac9310f70:4567
      * @var bool|null
      */
     private $allowVoicePortalAccessFromVMDepositMenu = null;

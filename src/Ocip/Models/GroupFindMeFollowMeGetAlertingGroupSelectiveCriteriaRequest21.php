@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupFindMeFollowMeGetAlertingGroupSelectiveCriteriaResponse21
  * @see ErrorResponse
- * @Groups [{"id":"d0d5b8a5908815c6ae522efe732e363a:303","type":"sequence"}]
+ * @Groups [{"id":"c81ec650475acb5cc7b075c4582c12ba:303","type":"sequence"}]
  */
 class GroupFindMeFollowMeGetAlertingGroupSelectiveCriteriaRequest21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupFindMeFollowMeGetAlertingGroupSelectiveCriteriaRequest21 extends \CWM
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group d0d5b8a5908815c6ae522efe732e363a:303
+     * @Group c81ec650475acb5cc7b075c4582c12ba:303
      * @var string|null
      */
     private $serviceUserId = null;
@@ -26,7 +26,7 @@ class GroupFindMeFollowMeGetAlertingGroupSelectiveCriteriaRequest21 extends \CWM
     /**
      * @ElementName alertingGroupName
      * @Type string
-     * @Group d0d5b8a5908815c6ae522efe732e363a:303
+     * @Group c81ec650475acb5cc7b075c4582c12ba:303
      * @var string|null
      */
     private $alertingGroupName = null;
@@ -34,7 +34,7 @@ class GroupFindMeFollowMeGetAlertingGroupSelectiveCriteriaRequest21 extends \CWM
     /**
      * @ElementName criteriaName
      * @Type string
-     * @Group d0d5b8a5908815c6ae522efe732e363a:303
+     * @Group c81ec650475acb5cc7b075c4582c12ba:303
      * @var string|null
      */
     private $criteriaName = null;

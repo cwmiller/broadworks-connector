@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"8f3ed38751e86ebcc639b5bc5cdef0ec:729","type":"sequence"}]
+ * @Groups [{"id":"8eb862aea0ee5d4211db0a0d3fe7c164:729","type":"sequence"}]
  */
 class ServiceProviderAccessDeviceModifyUserRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class ServiceProviderAccessDeviceModifyUserRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:729
+     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:729
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -28,7 +28,7 @@ class ServiceProviderAccessDeviceModifyUserRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName deviceName
      * @Type string
-     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:729
+     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:729
      * @var string|null
      */
     private $deviceName = null;
@@ -36,7 +36,7 @@ class ServiceProviderAccessDeviceModifyUserRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName linePort
      * @Type string
-     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:729
+     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:729
      * @var string|null
      */
     private $linePort = null;
@@ -45,7 +45,7 @@ class ServiceProviderAccessDeviceModifyUserRequest extends \CWM\BroadWorksConnec
      * @ElementName privateIdentity
      * @Type string
      * @Optional
-     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:729
+     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:729
      * @var string|null
      */
     private $privateIdentity = null;
@@ -54,7 +54,7 @@ class ServiceProviderAccessDeviceModifyUserRequest extends \CWM\BroadWorksConnec
      * @ElementName isPrimaryLinePort
      * @Type bool
      * @Optional
-     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:729
+     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:729
      * @var bool|null
      */
     private $isPrimaryLinePort = null;

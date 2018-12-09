@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains the currently configured carriers for a specified country code for a service provider / enterprise.
  *
  * @see ServiceProviderPreferredCarrierGetRequest
- * @Groups [{"id":"1384777ce7bd407156102bad44751987:275","type":"sequence"}]
+ * @Groups [{"id":"56f1bd27c6955cc11e0869b6463fb814:275","type":"sequence"}]
  */
 class ServiceProviderPreferredCarrierGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class ServiceProviderPreferredCarrierGetResponse extends \CWM\BroadWorksConnecto
      * @ElementName intraLataCarrier
      * @Type string
      * @Optional
-     * @Group 1384777ce7bd407156102bad44751987:275
+     * @Group 56f1bd27c6955cc11e0869b6463fb814:275
      * @var string|null
      */
     private $intraLataCarrier = null;
@@ -27,7 +27,7 @@ class ServiceProviderPreferredCarrierGetResponse extends \CWM\BroadWorksConnecto
      * @ElementName interLataCarrier
      * @Type string
      * @Optional
-     * @Group 1384777ce7bd407156102bad44751987:275
+     * @Group 56f1bd27c6955cc11e0869b6463fb814:275
      * @var string|null
      */
     private $interLataCarrier = null;
@@ -36,7 +36,7 @@ class ServiceProviderPreferredCarrierGetResponse extends \CWM\BroadWorksConnecto
      * @ElementName internationalCarrier
      * @Type string
      * @Optional
-     * @Group 1384777ce7bd407156102bad44751987:275
+     * @Group 56f1bd27c6955cc11e0869b6463fb814:275
      * @var string|null
      */
     private $internationalCarrier = null;

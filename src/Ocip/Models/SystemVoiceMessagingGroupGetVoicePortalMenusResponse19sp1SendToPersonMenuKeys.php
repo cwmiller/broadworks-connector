@@ -5,7 +5,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1SendToPersonMenuKeys
  *
- * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:31112","type":"sequence"}]
+ * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:31112","type":"sequence"}]
  */
 class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1SendToPersonMenuKeys
 {
@@ -13,7 +13,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1SendToPersonMenuK
     /**
      * @ElementName confirmSendingMessage
      * @Type string
-     * @Group 1a79c7896cb04feac6eff47a5321756e:31112
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:31112
      * @var string|null
      */
     private $confirmSendingMessage = null;
@@ -21,7 +21,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1SendToPersonMenuK
     /**
      * @ElementName cancelSendingMessage
      * @Type string
-     * @Group 1a79c7896cb04feac6eff47a5321756e:31112
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:31112
      * @var string|null
      */
     private $cancelSendingMessage = null;
@@ -29,7 +29,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1SendToPersonMenuK
     /**
      * @ElementName finishEnteringNumberWhereToSendMessageTo
      * @Type string
-     * @Group 1a79c7896cb04feac6eff47a5321756e:31112
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:31112
      * @var string|null
      */
     private $finishEnteringNumberWhereToSendMessageTo = null;
@@ -37,7 +37,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1SendToPersonMenuK
     /**
      * @ElementName finishForwardingOrSendingMessage
      * @Type string
-     * @Group 1a79c7896cb04feac6eff47a5321756e:31112
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:31112
      * @var string|null
      */
     private $finishForwardingOrSendingMessage = null;

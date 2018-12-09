@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"1750031558e0dc42a0a00f232dbf5d41:71","type":"sequence"}]
+ * @Groups [{"id":"35bc49dd76db7a0307d9954d0dfac240:71","type":"sequence"}]
  */
 class SystemThirdPartyIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class SystemThirdPartyIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 1750031558e0dc42a0a00f232dbf5d41:71
+     * @Group 35bc49dd76db7a0307d9954d0dfac240:71
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $serviceNetAddress = null;
@@ -30,7 +30,7 @@ class SystemThirdPartyIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Type int
      * @Nillable
      * @Optional
-     * @Group 1750031558e0dc42a0a00f232dbf5d41:71
+     * @Group 35bc49dd76db7a0307d9954d0dfac240:71
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $servicePort = null;
@@ -40,7 +40,7 @@ class SystemThirdPartyIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 1750031558e0dc42a0a00f232dbf5d41:71
+     * @Group 35bc49dd76db7a0307d9954d0dfac240:71
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $boshURL = null;

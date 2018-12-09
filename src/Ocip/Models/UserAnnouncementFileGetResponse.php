@@ -16,7 +16,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         For Auto Attendants with submenus and the announcement is used by a submenu the "Instance Name" column will contain the submenu name
  *
  * @see UserAnnouncementFileGetRequest
- * @Groups [{"id":"489b2153267470be8e945bf6b778e0d0:555","type":"sequence"}]
+ * @Groups [{"id":"ee3830ce42f01a3ef2a105d473fc3b17:555","type":"sequence"}]
  */
 class UserAnnouncementFileGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -24,7 +24,7 @@ class UserAnnouncementFileGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName description
      * @Type string
-     * @Group 489b2153267470be8e945bf6b778e0d0:555
+     * @Group ee3830ce42f01a3ef2a105d473fc3b17:555
      * @var string|null
      */
     private $description = null;
@@ -32,7 +32,7 @@ class UserAnnouncementFileGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName filesize
      * @Type int
-     * @Group 489b2153267470be8e945bf6b778e0d0:555
+     * @Group ee3830ce42f01a3ef2a105d473fc3b17:555
      * @var int|null
      */
     private $filesize = null;
@@ -40,7 +40,7 @@ class UserAnnouncementFileGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName lastUploaded
      * @Type string
-     * @Group 489b2153267470be8e945bf6b778e0d0:555
+     * @Group ee3830ce42f01a3ef2a105d473fc3b17:555
      * @var string|null
      */
     private $lastUploaded = null;
@@ -48,7 +48,7 @@ class UserAnnouncementFileGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName usageTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 489b2153267470be8e945bf6b778e0d0:555
+     * @Group ee3830ce42f01a3ef2a105d473fc3b17:555
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $usageTable = null;

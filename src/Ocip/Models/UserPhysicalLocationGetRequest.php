@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserPhysicalLocationGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"85df52bad9c98cf1c97d487c0041b427:89","type":"sequence"}]
+ * @Groups [{"id":"128440369582696b2b7120a6047a3faa:89","type":"sequence"}]
  */
 class UserPhysicalLocationGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserPhysicalLocationGetRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName userId
      * @Type string
-     * @Group 85df52bad9c98cf1c97d487c0041b427:89
+     * @Group 128440369582696b2b7120a6047a3faa:89
      * @var string|null
      */
     private $userId = null;

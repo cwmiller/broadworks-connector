@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserCollaborateBridgeGetResponse20sp1
  * @see ErrorResponse
- * @Groups [{"id":"2f13ead3f217ca6eb3f52b517fb04a6f:411","type":"sequence"}]
+ * @Groups [{"id":"1d655a4f2853eddf47018e01b685b65b:411","type":"sequence"}]
  */
 class UserCollaborateBridgeGetRequest20sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class UserCollaborateBridgeGetRequest20sp1 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName userId
      * @Type string
-     * @Group 2f13ead3f217ca6eb3f52b517fb04a6f:411
+     * @Group 1d655a4f2853eddf47018e01b685b65b:411
      * @var string|null
      */
     private $userId = null;

@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The possible values for "Report Template Level" are "System" and "Group".
  *
  * @see GroupCallCenterEnhancedReportingScheduledReportGetCompletedListRequest
- * @Groups [{"id":"69c2aeb1186dc97a4f4c36d9609ddb49:3364","type":"sequence"}]
+ * @Groups [{"id":"3ac5f05d969bc771d6ba8d344d95aa72:3364","type":"sequence"}]
  */
 class GroupCallCenterEnhancedReportingScheduledReportGetCompletedListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -21,7 +21,7 @@ class GroupCallCenterEnhancedReportingScheduledReportGetCompletedListResponse ex
     /**
      * @ElementName scheduledReportTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:3364
+     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:3364
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $scheduledReportTable = null;

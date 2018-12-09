@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserTwoStageDialingGetResponse13Mp20
  * @see ErrorResponse
- * @Groups [{"id":"6fd6a21bc6d7eb5a1e621396e2e662da:131","type":"sequence"}]
+ * @Groups [{"id":"25fccbf16e98061b338758dd7d75d8f2:131","type":"sequence"}]
  */
 class UserTwoStageDialingGetRequest13Mp20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserTwoStageDialingGetRequest13Mp20 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName userId
      * @Type string
-     * @Group 6fd6a21bc6d7eb5a1e621396e2e662da:131
+     * @Group 25fccbf16e98061b338758dd7d75d8f2:131
      * @var string|null
      */
     private $userId = null;

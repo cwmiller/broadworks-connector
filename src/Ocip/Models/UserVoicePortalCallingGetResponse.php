@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to UserVoicePortalCallingGetRequest.
  *
  * @see UserVoicePortalCallingGetRequest
- * @Groups [{"id":"d9e71f5e4ef1555a03e2effebea2ea8d:57","type":"sequence"}]
+ * @Groups [{"id":"34994c501f2310387f7577dc8f9ec1e7:57","type":"sequence"}]
  */
 class UserVoicePortalCallingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class UserVoicePortalCallingGetResponse extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group d9e71f5e4ef1555a03e2effebea2ea8d:57
+     * @Group 34994c501f2310387f7577dc8f9ec1e7:57
      * @var bool|null
      */
     private $isActive = null;

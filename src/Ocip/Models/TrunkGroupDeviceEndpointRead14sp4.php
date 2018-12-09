@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Trunk group device endpoint.
  *
- * @Groups [{"id":"18b369af88e42ffdb4166615c670ce2c:3779","type":"sequence"}]
+ * @Groups [{"id":"8e629edbac315ae7889caca732382c44:3779","type":"sequence"}]
  */
 class TrunkGroupDeviceEndpointRead14sp4
 {
@@ -15,7 +15,7 @@ class TrunkGroupDeviceEndpointRead14sp4
     /**
      * @ElementName name
      * @Type string
-     * @Group 18b369af88e42ffdb4166615c670ce2c:3779
+     * @Group 8e629edbac315ae7889caca732382c44:3779
      * @var string|null
      */
     private $name = null;
@@ -23,7 +23,7 @@ class TrunkGroupDeviceEndpointRead14sp4
     /**
      * @ElementName linePort
      * @Type string
-     * @Group 18b369af88e42ffdb4166615c670ce2c:3779
+     * @Group 8e629edbac315ae7889caca732382c44:3779
      * @var string|null
      */
     private $linePort = null;
@@ -32,7 +32,7 @@ class TrunkGroupDeviceEndpointRead14sp4
      * @ElementName contact
      * @Type string
      * @Optional
-     * @Group 18b369af88e42ffdb4166615c670ce2c:3779
+     * @Group 8e629edbac315ae7889caca732382c44:3779
      * @var string|null
      */
     private $contact = null;
@@ -40,7 +40,7 @@ class TrunkGroupDeviceEndpointRead14sp4
     /**
      * @ElementName staticRegistrationCapable
      * @Type bool
-     * @Group 18b369af88e42ffdb4166615c670ce2c:3779
+     * @Group 8e629edbac315ae7889caca732382c44:3779
      * @var bool|null
      */
     private $staticRegistrationCapable = null;
@@ -48,7 +48,7 @@ class TrunkGroupDeviceEndpointRead14sp4
     /**
      * @ElementName useDomain
      * @Type bool
-     * @Group 18b369af88e42ffdb4166615c670ce2c:3779
+     * @Group 8e629edbac315ae7889caca732382c44:3779
      * @var bool|null
      */
     private $useDomain = null;
@@ -56,7 +56,7 @@ class TrunkGroupDeviceEndpointRead14sp4
     /**
      * @ElementName isPilotUser
      * @Type bool
-     * @Group 18b369af88e42ffdb4166615c670ce2c:3779
+     * @Group 8e629edbac315ae7889caca732382c44:3779
      * @var bool|null
      */
     private $isPilotUser = null;

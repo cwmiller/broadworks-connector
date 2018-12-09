@@ -16,7 +16,8 @@ use CWM\BroadWorksConnector\Ocip\Models\SystemInterceptUserModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserInterceptUserGetRequest21sp1;
 use CWM\BroadWorksConnector\Ocip\Models\UserInterceptUserGetResponse21sp1;
 use CWM\BroadWorksConnector\Ocip\Models\UserInterceptUserModifyRequest21sp1;
-use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceIntercept
@@ -26,6 +27,7 @@ trait OCISchemaServiceIntercept
      * @param GroupInterceptGroupGetRequest21sp1 $request
      * @return GroupInterceptGroupGetResponse21sp1
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupInterceptGroupGetRequest21sp1(\CWM\BroadWorksConnector\Ocip\Models\GroupInterceptGroupGetRequest21sp1 $request)
     {
@@ -36,6 +38,7 @@ trait OCISchemaServiceIntercept
      * @param GroupInterceptGroupModifyRequest21sp1 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupInterceptGroupModifyRequest21sp1(\CWM\BroadWorksConnector\Ocip\Models\GroupInterceptGroupModifyRequest21sp1 $request)
     {
@@ -46,6 +49,7 @@ trait OCISchemaServiceIntercept
      * @param SystemInterceptUserAddDnListRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemInterceptUserAddDnListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemInterceptUserAddDnListRequest $request)
     {
@@ -56,6 +60,7 @@ trait OCISchemaServiceIntercept
      * @param SystemInterceptUserDeleteDnListRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemInterceptUserDeleteDnListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemInterceptUserDeleteDnListRequest $request)
     {
@@ -66,6 +71,7 @@ trait OCISchemaServiceIntercept
      * @param SystemInterceptUserGetDnListRequest $request
      * @return SystemInterceptUserGetDnListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemInterceptUserGetDnListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemInterceptUserGetDnListRequest $request)
     {
@@ -76,6 +82,7 @@ trait OCISchemaServiceIntercept
      * @param SystemInterceptUserGetRequest $request
      * @return SystemInterceptUserGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemInterceptUserGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemInterceptUserGetRequest $request)
     {
@@ -86,6 +93,7 @@ trait OCISchemaServiceIntercept
      * @param SystemInterceptUserModifyDnRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemInterceptUserModifyDnRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemInterceptUserModifyDnRequest $request)
     {
@@ -96,6 +104,7 @@ trait OCISchemaServiceIntercept
      * @param SystemInterceptUserModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemInterceptUserModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemInterceptUserModifyRequest $request)
     {
@@ -106,6 +115,7 @@ trait OCISchemaServiceIntercept
      * @param UserInterceptUserGetRequest21sp1 $request
      * @return UserInterceptUserGetResponse21sp1
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userInterceptUserGetRequest21sp1(\CWM\BroadWorksConnector\Ocip\Models\UserInterceptUserGetRequest21sp1 $request)
     {
@@ -116,6 +126,7 @@ trait OCISchemaServiceIntercept
      * @param UserInterceptUserModifyRequest21sp1 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userInterceptUserModifyRequest21sp1(\CWM\BroadWorksConnector\Ocip\Models\UserInterceptUserModifyRequest21sp1 $request)
     {

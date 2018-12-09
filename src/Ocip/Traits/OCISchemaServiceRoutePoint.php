@@ -62,7 +62,8 @@ use CWM\BroadWorksConnector\Ocip\Models\UserRoutePointCallDispositionCodeGetAvai
 use CWM\BroadWorksConnector\Ocip\Models\UserRoutePointCallDispositionCodeGetAvailableListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserRoutePointSupervisorGetListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserRoutePointSupervisorModifyListRequest;
-use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceRoutePoint
@@ -72,6 +73,7 @@ trait OCISchemaServiceRoutePoint
      * @param GroupRoutePointAddDNISRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupRoutePointAddDNISRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointAddDNISRequest $request)
     {
@@ -82,6 +84,7 @@ trait OCISchemaServiceRoutePoint
      * @param GroupRoutePointAddInstanceRequest22 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupRoutePointAddInstanceRequest22(\CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointAddInstanceRequest22 $request)
     {
@@ -92,6 +95,7 @@ trait OCISchemaServiceRoutePoint
      * @param GroupRoutePointBouncedCallGetRequest $request
      * @return GroupRoutePointBouncedCallGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupRoutePointBouncedCallGetRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointBouncedCallGetRequest $request)
     {
@@ -102,6 +106,7 @@ trait OCISchemaServiceRoutePoint
      * @param GroupRoutePointBouncedCallModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupRoutePointBouncedCallModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointBouncedCallModifyRequest $request)
     {
@@ -112,6 +117,7 @@ trait OCISchemaServiceRoutePoint
      * @param GroupRoutePointDeleteDNISRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupRoutePointDeleteDNISRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointDeleteDNISRequest $request)
     {
@@ -122,6 +128,7 @@ trait OCISchemaServiceRoutePoint
      * @param GroupRoutePointDeleteInstanceRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupRoutePointDeleteInstanceRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointDeleteInstanceRequest $request)
     {
@@ -132,6 +139,7 @@ trait OCISchemaServiceRoutePoint
      * @param GroupRoutePointDistinctiveRingingGetRequest $request
      * @return GroupRoutePointDistinctiveRingingGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupRoutePointDistinctiveRingingGetRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointDistinctiveRingingGetRequest $request)
     {
@@ -142,6 +150,7 @@ trait OCISchemaServiceRoutePoint
      * @param GroupRoutePointDistinctiveRingingModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupRoutePointDistinctiveRingingModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointDistinctiveRingingModifyRequest $request)
     {
@@ -152,6 +161,7 @@ trait OCISchemaServiceRoutePoint
      * @param GroupRoutePointForcedForwardingGetRequest20 $request
      * @return GroupRoutePointForcedForwardingGetResponse20
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupRoutePointForcedForwardingGetRequest20(\CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointForcedForwardingGetRequest20 $request)
     {
@@ -162,6 +172,7 @@ trait OCISchemaServiceRoutePoint
      * @param GroupRoutePointForcedForwardingModifyRequest20 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupRoutePointForcedForwardingModifyRequest20(\CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointForcedForwardingModifyRequest20 $request)
     {
@@ -172,6 +183,7 @@ trait OCISchemaServiceRoutePoint
      * @param GroupRoutePointGetAnnouncementRequest20 $request
      * @return GroupRoutePointGetAnnouncementResponse20
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupRoutePointGetAnnouncementRequest20(\CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointGetAnnouncementRequest20 $request)
     {
@@ -182,6 +194,7 @@ trait OCISchemaServiceRoutePoint
      * @param GroupRoutePointGetDNISAgentListRequest $request
      * @return GroupRoutePointGetDNISAgentListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupRoutePointGetDNISAgentListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointGetDNISAgentListRequest $request)
     {
@@ -192,6 +205,7 @@ trait OCISchemaServiceRoutePoint
      * @param GroupRoutePointGetDNISAnnouncementRequest20 $request
      * @return GroupRoutePointGetDNISAnnouncementResponse20
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupRoutePointGetDNISAnnouncementRequest20(\CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointGetDNISAnnouncementRequest20 $request)
     {
@@ -202,6 +216,7 @@ trait OCISchemaServiceRoutePoint
      * @param GroupRoutePointGetDNISListRequest $request
      * @return GroupRoutePointGetDNISListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupRoutePointGetDNISListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointGetDNISListRequest $request)
     {
@@ -212,6 +227,7 @@ trait OCISchemaServiceRoutePoint
      * @param GroupRoutePointGetDNISRequest $request
      * @return GroupRoutePointGetDNISResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupRoutePointGetDNISRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointGetDNISRequest $request)
     {
@@ -222,6 +238,7 @@ trait OCISchemaServiceRoutePoint
      * @param GroupRoutePointGetFailoverPolicyRequest $request
      * @return GroupRoutePointGetFailoverPolicyResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupRoutePointGetFailoverPolicyRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointGetFailoverPolicyRequest $request)
     {
@@ -232,6 +249,7 @@ trait OCISchemaServiceRoutePoint
      * @param GroupRoutePointGetInstanceListRequest $request
      * @return GroupRoutePointGetInstanceListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupRoutePointGetInstanceListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointGetInstanceListRequest $request)
     {
@@ -242,6 +260,7 @@ trait OCISchemaServiceRoutePoint
      * @param GroupRoutePointGetInstanceRequest22 $request
      * @return GroupRoutePointGetInstanceResponse19sp1
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupRoutePointGetInstanceRequest22(\CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointGetInstanceRequest22 $request)
     {
@@ -252,6 +271,7 @@ trait OCISchemaServiceRoutePoint
      * @param GroupRoutePointHolidayServiceGetRequest20 $request
      * @return GroupRoutePointHolidayServiceGetResponse20
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupRoutePointHolidayServiceGetRequest20(\CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointHolidayServiceGetRequest20 $request)
     {
@@ -262,6 +282,7 @@ trait OCISchemaServiceRoutePoint
      * @param GroupRoutePointHolidayServiceModifyRequest20 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupRoutePointHolidayServiceModifyRequest20(\CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointHolidayServiceModifyRequest20 $request)
     {
@@ -272,6 +293,7 @@ trait OCISchemaServiceRoutePoint
      * @param GroupRoutePointManualFailoverRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupRoutePointManualFailoverRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointManualFailoverRequest $request)
     {
@@ -282,6 +304,7 @@ trait OCISchemaServiceRoutePoint
      * @param GroupRoutePointModifyActiveInstanceListRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupRoutePointModifyActiveInstanceListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointModifyActiveInstanceListRequest $request)
     {
@@ -292,6 +315,7 @@ trait OCISchemaServiceRoutePoint
      * @param GroupRoutePointModifyAnnouncementRequest20 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupRoutePointModifyAnnouncementRequest20(\CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointModifyAnnouncementRequest20 $request)
     {
@@ -302,6 +326,7 @@ trait OCISchemaServiceRoutePoint
      * @param GroupRoutePointModifyDNISAnnouncementRequest20 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupRoutePointModifyDNISAnnouncementRequest20(\CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointModifyDNISAnnouncementRequest20 $request)
     {
@@ -312,6 +337,7 @@ trait OCISchemaServiceRoutePoint
      * @param GroupRoutePointModifyDNISParametersRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupRoutePointModifyDNISParametersRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointModifyDNISParametersRequest $request)
     {
@@ -322,6 +348,7 @@ trait OCISchemaServiceRoutePoint
      * @param GroupRoutePointModifyDNISRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupRoutePointModifyDNISRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointModifyDNISRequest $request)
     {
@@ -332,6 +359,7 @@ trait OCISchemaServiceRoutePoint
      * @param GroupRoutePointModifyFailoverPolicyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupRoutePointModifyFailoverPolicyRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointModifyFailoverPolicyRequest $request)
     {
@@ -342,6 +370,7 @@ trait OCISchemaServiceRoutePoint
      * @param GroupRoutePointModifyInstanceRequest22 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupRoutePointModifyInstanceRequest22(\CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointModifyInstanceRequest22 $request)
     {
@@ -352,6 +381,7 @@ trait OCISchemaServiceRoutePoint
      * @param GroupRoutePointNightServiceGetRequest20 $request
      * @return GroupRoutePointNightServiceGetResponse20
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupRoutePointNightServiceGetRequest20(\CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointNightServiceGetRequest20 $request)
     {
@@ -362,6 +392,7 @@ trait OCISchemaServiceRoutePoint
      * @param GroupRoutePointNightServiceModifyRequest20 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupRoutePointNightServiceModifyRequest20(\CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointNightServiceModifyRequest20 $request)
     {
@@ -372,6 +403,7 @@ trait OCISchemaServiceRoutePoint
      * @param GroupRoutePointOverflowGetRequest20 $request
      * @return GroupRoutePointOverflowGetResponse20
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupRoutePointOverflowGetRequest20(\CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointOverflowGetRequest20 $request)
     {
@@ -382,6 +414,7 @@ trait OCISchemaServiceRoutePoint
      * @param GroupRoutePointOverflowModifyRequest20 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupRoutePointOverflowModifyRequest20(\CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointOverflowModifyRequest20 $request)
     {
@@ -392,6 +425,7 @@ trait OCISchemaServiceRoutePoint
      * @param GroupRoutePointQueueCallDispositionCodeAddRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupRoutePointQueueCallDispositionCodeAddRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointQueueCallDispositionCodeAddRequest $request)
     {
@@ -402,6 +436,7 @@ trait OCISchemaServiceRoutePoint
      * @param GroupRoutePointQueueCallDispositionCodeDeleteRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupRoutePointQueueCallDispositionCodeDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointQueueCallDispositionCodeDeleteRequest $request)
     {
@@ -412,6 +447,7 @@ trait OCISchemaServiceRoutePoint
      * @param GroupRoutePointQueueCallDispositionCodeGetListRequest $request
      * @return GroupRoutePointQueueCallDispositionCodeGetListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupRoutePointQueueCallDispositionCodeGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointQueueCallDispositionCodeGetListRequest $request)
     {
@@ -422,6 +458,7 @@ trait OCISchemaServiceRoutePoint
      * @param GroupRoutePointQueueCallDispositionCodeGetRequest $request
      * @return GroupRoutePointQueueCallDispositionCodeGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupRoutePointQueueCallDispositionCodeGetRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointQueueCallDispositionCodeGetRequest $request)
     {
@@ -432,6 +469,7 @@ trait OCISchemaServiceRoutePoint
      * @param GroupRoutePointQueueCallDispositionCodeModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupRoutePointQueueCallDispositionCodeModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointQueueCallDispositionCodeModifyRequest $request)
     {
@@ -442,6 +480,7 @@ trait OCISchemaServiceRoutePoint
      * @param GroupRoutePointQueueCallDispositionCodeSettingsGetRequest $request
      * @return GroupRoutePointQueueCallDispositionCodeSettingsGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupRoutePointQueueCallDispositionCodeSettingsGetRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointQueueCallDispositionCodeSettingsGetRequest $request)
     {
@@ -452,6 +491,7 @@ trait OCISchemaServiceRoutePoint
      * @param GroupRoutePointQueueCallDispositionCodeSettingsModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupRoutePointQueueCallDispositionCodeSettingsModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointQueueCallDispositionCodeSettingsModifyRequest $request)
     {
@@ -462,6 +502,7 @@ trait OCISchemaServiceRoutePoint
      * @param UserRoutePointCallDispositionCodeGetAvailableListRequest $request
      * @return UserRoutePointCallDispositionCodeGetAvailableListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userRoutePointCallDispositionCodeGetAvailableListRequest(\CWM\BroadWorksConnector\Ocip\Models\UserRoutePointCallDispositionCodeGetAvailableListRequest $request)
     {
@@ -472,6 +513,7 @@ trait OCISchemaServiceRoutePoint
      * @param UserRoutePointSupervisorGetListRequest $request
      * @return 
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userRoutePointSupervisorGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\UserRoutePointSupervisorGetListRequest $request)
     {
@@ -482,6 +524,7 @@ trait OCISchemaServiceRoutePoint
      * @param UserRoutePointSupervisorModifyListRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userRoutePointSupervisorModifyListRequest(\CWM\BroadWorksConnector\Ocip\Models\UserRoutePointSupervisorModifyListRequest $request)
     {

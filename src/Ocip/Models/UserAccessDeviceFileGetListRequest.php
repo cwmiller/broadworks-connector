@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserAccessDeviceFileGetListResponse
  * @see ErrorResponse
- * @Groups [{"id":"489b2153267470be8e945bf6b778e0d0:129","type":"sequence"}]
+ * @Groups [{"id":"ee3830ce42f01a3ef2a105d473fc3b17:129","type":"sequence"}]
  */
 class UserAccessDeviceFileGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserAccessDeviceFileGetListRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName userId
      * @Type string
-     * @Group 489b2153267470be8e945bf6b778e0d0:129
+     * @Group ee3830ce42f01a3ef2a105d473fc3b17:129
      * @var string|null
      */
     private $userId = null;
@@ -26,7 +26,7 @@ class UserAccessDeviceFileGetListRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName accessDevice
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDevice
-     * @Group 489b2153267470be8e945bf6b778e0d0:129
+     * @Group ee3830ce42f01a3ef2a105d473fc3b17:129
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDevice|null
      */
     private $accessDevice = null;

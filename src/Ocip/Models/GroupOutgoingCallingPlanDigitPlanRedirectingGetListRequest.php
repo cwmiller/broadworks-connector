@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupOutgoingCallingPlanDigitPlanRedirectingGetListResponse
  * @see ErrorResponse
- * @Groups [{"id":"8366f5f5d1fbfb9742236aba282c1dab:371","type":"sequence"}]
+ * @Groups [{"id":"80676ea6f2582b1b88573623a6affc0e:371","type":"sequence"}]
  */
 class GroupOutgoingCallingPlanDigitPlanRedirectingGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupOutgoingCallingPlanDigitPlanRedirectingGetListRequest extends \CWM\Br
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 8366f5f5d1fbfb9742236aba282c1dab:371
+     * @Group 80676ea6f2582b1b88573623a6affc0e:371
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,7 +26,7 @@ class GroupOutgoingCallingPlanDigitPlanRedirectingGetListRequest extends \CWM\Br
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 8366f5f5d1fbfb9742236aba282c1dab:371
+     * @Group 80676ea6f2582b1b88573623a6affc0e:371
      * @var string|null
      */
     private $groupId = null;

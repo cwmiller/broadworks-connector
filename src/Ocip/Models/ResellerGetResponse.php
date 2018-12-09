@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the ResellerGetRequest.
  *
  * @see ResellerGetRequest
- * @Groups [{"id":"7e8feb1c28b49a3b8755f86e716ebee7:259","type":"sequence"}]
+ * @Groups [{"id":"c542c6e8c7bdabb9276b67d4d39efb85:259","type":"sequence"}]
  */
 class ResellerGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class ResellerGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIData
      * @ElementName resellerName
      * @Type string
      * @Optional
-     * @Group 7e8feb1c28b49a3b8755f86e716ebee7:259
+     * @Group c542c6e8c7bdabb9276b67d4d39efb85:259
      * @var string|null
      */
     private $resellerName = null;

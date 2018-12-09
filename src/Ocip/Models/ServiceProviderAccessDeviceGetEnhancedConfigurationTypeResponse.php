@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to ServiceProviderAccessDeviceGetEnhancedConfigurationTypeRequest.
  *
  * @see ServiceProviderAccessDeviceGetEnhancedConfigurationTypeRequest
- * @Groups [{"id":"8f3ed38751e86ebcc639b5bc5cdef0ec:525","type":"sequence"}]
+ * @Groups [{"id":"8eb862aea0ee5d4211db0a0d3fe7c164:525","type":"sequence"}]
  */
 class ServiceProviderAccessDeviceGetEnhancedConfigurationTypeResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class ServiceProviderAccessDeviceGetEnhancedConfigurationTypeResponse extends \C
     /**
      * @ElementName supportsEnhancedConfiguration
      * @Type bool
-     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:525
+     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:525
      * @var bool|null
      */
     private $supportsEnhancedConfiguration = null;
@@ -24,7 +24,7 @@ class ServiceProviderAccessDeviceGetEnhancedConfigurationTypeResponse extends \C
     /**
      * @ElementName supportsReset
      * @Type bool
-     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:525
+     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:525
      * @var bool|null
      */
     private $supportsReset = null;
@@ -33,7 +33,7 @@ class ServiceProviderAccessDeviceGetEnhancedConfigurationTypeResponse extends \C
      * @ElementName configurationType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationType14
      * @Optional
-     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:525
+     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:525
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationType14|null
      */
     private $configurationType = null;
@@ -42,7 +42,7 @@ class ServiceProviderAccessDeviceGetEnhancedConfigurationTypeResponse extends \C
      * @ElementName configurationFileName
      * @Type string
      * @Optional
-     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:525
+     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:525
      * @var string|null
      */
     private $configurationFileName = null;

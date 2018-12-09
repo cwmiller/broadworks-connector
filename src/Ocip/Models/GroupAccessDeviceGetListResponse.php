@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The column headings are: "Device Name", "Device Type", "Available Ports", "Net Address", "MAC Address", "Status" and "Version".
  *
  * @see GroupAccessDeviceGetListRequest
- * @Groups [{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:690","type":"sequence"}]
+ * @Groups [{"id":"15129cd25fa2d5581f4edfd652c24f93:690","type":"sequence"}]
  */
 class GroupAccessDeviceGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class GroupAccessDeviceGetListResponse extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName accessDeviceTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:690
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:690
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $accessDeviceTable = null;

@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SuccessResponse
  * @see ErrorResponse
  * @see SystemBroadWorksMobilityServiceAccessCodeDeleteRequest21
- * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:17777","type":"sequence"}]
+ * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:17777","type":"sequence"}]
  */
 class SystemBroadWorksMobilityServiceAccessCodeDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class SystemBroadWorksMobilityServiceAccessCodeDeleteRequest extends \CWM\BroadW
     /**
      * @ElementName countryCode
      * @Type string
-     * @Group 1a79c7896cb04feac6eff47a5321756e:17777
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:17777
      * @var string|null
      */
     private $countryCode = null;
@@ -28,7 +28,7 @@ class SystemBroadWorksMobilityServiceAccessCodeDeleteRequest extends \CWM\BroadW
     /**
      * @ElementName serviceAccessCode
      * @Type string
-     * @Group 1a79c7896cb04feac6eff47a5321756e:17777
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:17777
      * @var string|null
      */
     private $serviceAccessCode = null;

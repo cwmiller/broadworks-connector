@@ -14,7 +14,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SuccessResponse
  * @see ErrorResponse
  * @see UserHotelingGuestModifyRequest21
- * @Groups [{"id":"499b56264fbe226bfef3c338c8d4750d:5156","type":"sequence"}]
+ * @Groups [{"id":"bb12a3589ab4748963f28f7ac9310f70:5156","type":"sequence"}]
  */
 class UserHotelingGuestModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -22,7 +22,7 @@ class UserHotelingGuestModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName userId
      * @Type string
-     * @Group 499b56264fbe226bfef3c338c8d4750d:5156
+     * @Group bb12a3589ab4748963f28f7ac9310f70:5156
      * @var string|null
      */
     private $userId = null;
@@ -31,7 +31,7 @@ class UserHotelingGuestModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName isActive
      * @Type bool
      * @Optional
-     * @Group 499b56264fbe226bfef3c338c8d4750d:5156
+     * @Group bb12a3589ab4748963f28f7ac9310f70:5156
      * @var bool|null
      */
     private $isActive = null;
@@ -40,7 +40,7 @@ class UserHotelingGuestModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName enableAssociationLimit
      * @Type bool
      * @Optional
-     * @Group 499b56264fbe226bfef3c338c8d4750d:5156
+     * @Group bb12a3589ab4748963f28f7ac9310f70:5156
      * @var bool|null
      */
     private $enableAssociationLimit = null;
@@ -49,7 +49,7 @@ class UserHotelingGuestModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName associationLimitHours
      * @Type int
      * @Optional
-     * @Group 499b56264fbe226bfef3c338c8d4750d:5156
+     * @Group bb12a3589ab4748963f28f7ac9310f70:5156
      * @var int|null
      */
     private $associationLimitHours = null;
@@ -59,7 +59,7 @@ class UserHotelingGuestModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 499b56264fbe226bfef3c338c8d4750d:5156
+     * @Group bb12a3589ab4748963f28f7ac9310f70:5156
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $hostUserId = null;

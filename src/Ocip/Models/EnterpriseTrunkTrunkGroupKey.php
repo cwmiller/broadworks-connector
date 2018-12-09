@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Identifies a trunk group within an Enterprise Trunk where the service provider id is already known.
  *
- * @Groups [{"id":"5472d4b45ad0ad56e4f82361e2a66a53:1761","type":"sequence"}]
+ * @Groups [{"id":"762df656d5a3c5800001b37599b1e4ce:1761","type":"sequence"}]
  */
 class EnterpriseTrunkTrunkGroupKey
 {
@@ -15,7 +15,7 @@ class EnterpriseTrunkTrunkGroupKey
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 5472d4b45ad0ad56e4f82361e2a66a53:1761
+     * @Group 762df656d5a3c5800001b37599b1e4ce:1761
      * @var string|null
      */
     private $groupId = null;
@@ -23,7 +23,7 @@ class EnterpriseTrunkTrunkGroupKey
     /**
      * @ElementName trunkGroupName
      * @Type string
-     * @Group 5472d4b45ad0ad56e4f82361e2a66a53:1761
+     * @Group 762df656d5a3c5800001b37599b1e4ce:1761
      * @var string|null
      */
     private $trunkGroupName = null;

@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Trunk group endpoint that can have multiple contacts.
  *         Replaced by: TrunkAddressingMultipleContactRead21
  *
- * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:39585","type":"sequence"}]
+ * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:39585","type":"sequence"}]
  */
 class TrunkAddressingMultipleContactRead
 {
@@ -17,7 +17,7 @@ class TrunkAddressingMultipleContactRead
      * @ElementName trunkGroupDeviceEndpoint
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupDeviceMultipleContactEndpointRead
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:39585
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:39585
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupDeviceMultipleContactEndpointRead|null
      */
     private $trunkGroupDeviceEndpoint = null;
@@ -26,7 +26,7 @@ class TrunkAddressingMultipleContactRead
      * @ElementName enterpriseTrunkName
      * @Type string
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:39585
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:39585
      * @var string|null
      */
     private $enterpriseTrunkName = null;
@@ -35,7 +35,7 @@ class TrunkAddressingMultipleContactRead
      * @ElementName alternateTrunkIdentity
      * @Type string
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:39585
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:39585
      * @var string|null
      */
     private $alternateTrunkIdentity = null;

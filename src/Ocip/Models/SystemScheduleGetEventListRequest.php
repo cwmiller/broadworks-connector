@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemScheduleGetEventListResponse
  * @see ErrorResponse
- * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:13764","type":"sequence"}]
+ * @Groups [{"id":"b5f5416d9e71f8e4246cda16c4723744:13764","type":"sequence"}]
  */
 class SystemScheduleGetEventListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemScheduleGetEventListRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName scheduleKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ScheduleKey
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:13764
+     * @Group b5f5416d9e71f8e4246cda16c4723744:13764
      * @var \CWM\BroadWorksConnector\Ocip\Models\ScheduleKey|null
      */
     private $scheduleKey = null;

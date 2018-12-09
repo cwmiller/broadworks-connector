@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see ServiceProviderTrunkGroupGetResponse14sp1
  * @see ErrorResponse
- * @Groups [{"id":"5472d4b45ad0ad56e4f82361e2a66a53:1501","type":"sequence"}]
+ * @Groups [{"id":"762df656d5a3c5800001b37599b1e4ce:1501","type":"sequence"}]
  */
 class ServiceProviderTrunkGroupGetRequest14sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class ServiceProviderTrunkGroupGetRequest14sp1 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 5472d4b45ad0ad56e4f82361e2a66a53:1501
+     * @Group 762df656d5a3c5800001b37599b1e4ce:1501
      * @var string|null
      */
     private $serviceProviderId = null;

@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"d4c49f89cfe55a0de4f3a1a82738b5d4:123","type":"sequence"}]
+ * @Groups [{"id":"b1cd97c56a75178a30eef82c2fa39248:123","type":"sequence"}]
  */
 class UserPushToTalkModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserPushToTalkModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName userId
      * @Type string
-     * @Group d4c49f89cfe55a0de4f3a1a82738b5d4:123
+     * @Group b1cd97c56a75178a30eef82c2fa39248:123
      * @var string|null
      */
     private $userId = null;
@@ -27,7 +27,7 @@ class UserPushToTalkModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @ElementName allowAutoAnswer
      * @Type bool
      * @Optional
-     * @Group d4c49f89cfe55a0de4f3a1a82738b5d4:123
+     * @Group b1cd97c56a75178a30eef82c2fa39248:123
      * @var bool|null
      */
     private $allowAutoAnswer = null;
@@ -36,7 +36,7 @@ class UserPushToTalkModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @ElementName outgoingConnectionSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\PushToTalkOutgoingConnectionSelection
      * @Optional
-     * @Group d4c49f89cfe55a0de4f3a1a82738b5d4:123
+     * @Group b1cd97c56a75178a30eef82c2fa39248:123
      * @var \CWM\BroadWorksConnector\Ocip\Models\PushToTalkOutgoingConnectionSelection|null
      */
     private $outgoingConnectionSelection = null;
@@ -45,7 +45,7 @@ class UserPushToTalkModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @ElementName accessListSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\PushToTalkAccessListSelection
      * @Optional
-     * @Group d4c49f89cfe55a0de4f3a1a82738b5d4:123
+     * @Group b1cd97c56a75178a30eef82c2fa39248:123
      * @var \CWM\BroadWorksConnector\Ocip\Models\PushToTalkAccessListSelection|null
      */
     private $accessListSelection = null;
@@ -55,7 +55,7 @@ class UserPushToTalkModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList
      * @Nillable
      * @Optional
-     * @Group d4c49f89cfe55a0de4f3a1a82738b5d4:123
+     * @Group b1cd97c56a75178a30eef82c2fa39248:123
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $selectedUserIdList = null;

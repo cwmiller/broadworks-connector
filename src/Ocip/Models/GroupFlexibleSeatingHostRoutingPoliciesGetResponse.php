@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the GroupFlexibleSeatingHostRoutingPoliciesGetRequest.
  *
  * @see GroupFlexibleSeatingHostRoutingPoliciesGetRequest
- * @Groups [{"id":"26a62df68b13c020e844e2a188f1e6e1:329","type":"sequence"}]
+ * @Groups [{"id":"93e99b1f9cf4a71b31301a1fe7f0e190:329","type":"sequence"}]
  */
 class GroupFlexibleSeatingHostRoutingPoliciesGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class GroupFlexibleSeatingHostRoutingPoliciesGetResponse extends \CWM\BroadWorks
     /**
      * @ElementName allowEmergencyCalls
      * @Type bool
-     * @Group 26a62df68b13c020e844e2a188f1e6e1:329
+     * @Group 93e99b1f9cf4a71b31301a1fe7f0e190:329
      * @var bool|null
      */
     private $allowEmergencyCalls = null;
@@ -24,7 +24,7 @@ class GroupFlexibleSeatingHostRoutingPoliciesGetResponse extends \CWM\BroadWorks
     /**
      * @ElementName allowCallsToVoicePortal
      * @Type bool
-     * @Group 26a62df68b13c020e844e2a188f1e6e1:329
+     * @Group 93e99b1f9cf4a71b31301a1fe7f0e190:329
      * @var bool|null
      */
     private $allowCallsToVoicePortal = null;

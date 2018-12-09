@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see LoginRequest14sp4
  * @see LoginRequest22
- * @Groups [{"id":"499b56264fbe226bfef3c338c8d4750d:2258","type":"sequence"}]
+ * @Groups [{"id":"bb12a3589ab4748963f28f7ac9310f70:2258","type":"sequence"}]
  */
 class LoginRequest14sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class LoginRequest14sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReques
     /**
      * @ElementName userId
      * @Type string
-     * @Group 499b56264fbe226bfef3c338c8d4750d:2258
+     * @Group bb12a3589ab4748963f28f7ac9310f70:2258
      * @var string|null
      */
     private $userId = null;
@@ -29,7 +29,7 @@ class LoginRequest14sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReques
      * @ElementName signedPassword
      * @Type string
      * @Optional
-     * @Group 499b56264fbe226bfef3c338c8d4750d:2258
+     * @Group bb12a3589ab4748963f28f7ac9310f70:2258
      * @var string|null
      */
     private $signedPassword = null;
@@ -38,7 +38,7 @@ class LoginRequest14sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReques
      * @ElementName plainTextPassword
      * @Type string
      * @Optional
-     * @Group 499b56264fbe226bfef3c338c8d4750d:2258
+     * @Group bb12a3589ab4748963f28f7ac9310f70:2258
      * @var string|null
      */
     private $plainTextPassword = null;

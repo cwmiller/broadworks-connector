@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f1072a3da53dcabbd043a43a74c5d05f:205","type":"sequence"}]
+ * @Groups [{"id":"00144d4cd6b46fb2a87b2e4d8760f200:205","type":"sequence"}]
  */
 class UserCallForwardingSelectiveModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserCallForwardingSelectiveModifyRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName userId
      * @Type string
-     * @Group f1072a3da53dcabbd043a43a74c5d05f:205
+     * @Group 00144d4cd6b46fb2a87b2e4d8760f200:205
      * @var string|null
      */
     private $userId = null;
@@ -27,7 +27,7 @@ class UserCallForwardingSelectiveModifyRequest extends \CWM\BroadWorksConnector\
      * @ElementName isActive
      * @Type bool
      * @Optional
-     * @Group f1072a3da53dcabbd043a43a74c5d05f:205
+     * @Group 00144d4cd6b46fb2a87b2e4d8760f200:205
      * @var bool|null
      */
     private $isActive = null;
@@ -37,7 +37,7 @@ class UserCallForwardingSelectiveModifyRequest extends \CWM\BroadWorksConnector\
      * @Type string
      * @Nillable
      * @Optional
-     * @Group f1072a3da53dcabbd043a43a74c5d05f:205
+     * @Group 00144d4cd6b46fb2a87b2e4d8760f200:205
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $defaultForwardToPhoneNumber = null;
@@ -46,7 +46,7 @@ class UserCallForwardingSelectiveModifyRequest extends \CWM\BroadWorksConnector\
      * @ElementName playRingReminder
      * @Type bool
      * @Optional
-     * @Group f1072a3da53dcabbd043a43a74c5d05f:205
+     * @Group 00144d4cd6b46fb2a87b2e4d8760f200:205
      * @var bool|null
      */
     private $playRingReminder = null;
@@ -56,7 +56,7 @@ class UserCallForwardingSelectiveModifyRequest extends \CWM\BroadWorksConnector\
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CriteriaActivation
      * @Array
      * @Optional
-     * @Group f1072a3da53dcabbd043a43a74c5d05f:205
+     * @Group 00144d4cd6b46fb2a87b2e4d8760f200:205
      * @var \CWM\BroadWorksConnector\Ocip\Models\CriteriaActivation[]
      */
     private $criteriaActivation = array(

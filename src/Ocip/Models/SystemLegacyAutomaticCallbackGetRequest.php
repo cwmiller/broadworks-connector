@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemLegacyAutomaticCallbackGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"a7cf2420de189d76c278c486b4b2b0c3:80","type":"sequence"}]
+ * @Groups [{"id":"b13911393ae4d700b4d51c80e9950cad:80","type":"sequence"}]
  */
 class SystemLegacyAutomaticCallbackGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

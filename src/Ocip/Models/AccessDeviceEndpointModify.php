@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Access device end point used in the context of modify.
  * 		Port numbers are only used by devices with static line ordering.
  *
- * @Groups [{"id":"18b369af88e42ffdb4166615c670ce2c:67","type":"sequence"}]
+ * @Groups [{"id":"8e629edbac315ae7889caca732382c44:67","type":"sequence"}]
  */
 class AccessDeviceEndpointModify
 {
@@ -16,7 +16,7 @@ class AccessDeviceEndpointModify
     /**
      * @ElementName accessDevice
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDevice
-     * @Group 18b369af88e42ffdb4166615c670ce2c:67
+     * @Group 8e629edbac315ae7889caca732382c44:67
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDevice|null
      */
     private $accessDevice = null;
@@ -24,7 +24,7 @@ class AccessDeviceEndpointModify
     /**
      * @ElementName linePort
      * @Type string
-     * @Group 18b369af88e42ffdb4166615c670ce2c:67
+     * @Group 8e629edbac315ae7889caca732382c44:67
      * @var string|null
      */
     private $linePort = null;
@@ -34,7 +34,7 @@ class AccessDeviceEndpointModify
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 18b369af88e42ffdb4166615c670ce2c:67
+     * @Group 8e629edbac315ae7889caca732382c44:67
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $contact = null;
@@ -43,7 +43,7 @@ class AccessDeviceEndpointModify
      * @ElementName portNumber
      * @Type int
      * @Optional
-     * @Group 18b369af88e42ffdb4166615c670ce2c:67
+     * @Group 8e629edbac315ae7889caca732382c44:67
      * @var int|null
      */
     private $portNumber = null;

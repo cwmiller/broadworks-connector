@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains the service profile information and a list of phone numbers.
  *
  * @see GroupInstantGroupCallGetInstanceRequest14
- * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:9162","type":"sequence"}]
+ * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:9162","type":"sequence"}]
  */
 class GroupInstantGroupCallGetInstanceResponse14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class GroupInstantGroupCallGetInstanceResponse14 extends \CWM\BroadWorksConnecto
     /**
      * @ElementName serviceInstanceProfile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile
-     * @Group 1a79c7896cb04feac6eff47a5321756e:9162
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:9162
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile|null
      */
     private $serviceInstanceProfile = null;
@@ -27,7 +27,7 @@ class GroupInstantGroupCallGetInstanceResponse14 extends \CWM\BroadWorksConnecto
      * @Type string
      * @Array
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:9162
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:9162
      * @var string[]
      */
     private $destinationPhoneNumber = array(
@@ -37,7 +37,7 @@ class GroupInstantGroupCallGetInstanceResponse14 extends \CWM\BroadWorksConnecto
     /**
      * @ElementName isAnswerTimeoutEnabled
      * @Type bool
-     * @Group 1a79c7896cb04feac6eff47a5321756e:9162
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:9162
      * @var bool|null
      */
     private $isAnswerTimeoutEnabled = null;
@@ -46,7 +46,7 @@ class GroupInstantGroupCallGetInstanceResponse14 extends \CWM\BroadWorksConnecto
      * @ElementName answerTimeoutMinutes
      * @Type int
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:9162
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:9162
      * @var int|null
      */
     private $answerTimeoutMinutes = null;

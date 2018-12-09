@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SuccessResponse
  * @see ErrorResponse
  * @see SystemCallRecordingAddPlatformRequest19
- * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:20487","type":"sequence"}]
+ * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:20487","type":"sequence"}]
  */
 class SystemCallRecordingAddPlatformRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,7 +21,7 @@ class SystemCallRecordingAddPlatformRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName name
      * @Type string
-     * @Group 1a79c7896cb04feac6eff47a5321756e:20487
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:20487
      * @var string|null
      */
     private $name = null;
@@ -29,7 +29,7 @@ class SystemCallRecordingAddPlatformRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName netAddress
      * @Type string
-     * @Group 1a79c7896cb04feac6eff47a5321756e:20487
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:20487
      * @var string|null
      */
     private $netAddress = null;
@@ -37,7 +37,7 @@ class SystemCallRecordingAddPlatformRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName port
      * @Type int
-     * @Group 1a79c7896cb04feac6eff47a5321756e:20487
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:20487
      * @var int|null
      */
     private $port = null;
@@ -45,7 +45,7 @@ class SystemCallRecordingAddPlatformRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName mediaStream
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MediaStream
-     * @Group 1a79c7896cb04feac6eff47a5321756e:20487
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:20487
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaStream|null
      */
     private $mediaStream = null;
@@ -53,7 +53,7 @@ class SystemCallRecordingAddPlatformRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName transportType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol
-     * @Group 1a79c7896cb04feac6eff47a5321756e:20487
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:20487
      * @var \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol|null
      */
     private $transportType = null;
@@ -62,7 +62,7 @@ class SystemCallRecordingAddPlatformRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName description
      * @Type string
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:20487
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:20487
      * @var string|null
      */
     private $description = null;

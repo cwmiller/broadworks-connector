@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *       Contains a table with column headings: "Instance Name", "Actual Users", "Potential Users".
  *
  * @see SystemEnhancedCallLogsSchemaInstanceGetListRequest
- * @Groups [{"id":"1b1edb32782550c1a52523b734e3143d:269","type":"sequence"}]
+ * @Groups [{"id":"04a33199b8359d9cc787bc7a2d16ab12:269","type":"sequence"}]
  */
 class SystemEnhancedCallLogsSchemaInstanceGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class SystemEnhancedCallLogsSchemaInstanceGetListResponse extends \CWM\BroadWork
     /**
      * @ElementName schemaInstanceUsageTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 1b1edb32782550c1a52523b734e3143d:269
+     * @Group 04a33199b8359d9cc787bc7a2d16ab12:269
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $schemaInstanceUsageTable = null;

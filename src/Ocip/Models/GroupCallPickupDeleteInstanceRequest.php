@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"1d2c67d4a97adca57d9953b2182b4b0d:66","type":"sequence"}]
+ * @Groups [{"id":"33d260a6ccad8df129f1531c1189d405:66","type":"sequence"}]
  */
 class GroupCallPickupDeleteInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupCallPickupDeleteInstanceRequest extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 1d2c67d4a97adca57d9953b2182b4b0d:66
+     * @Group 33d260a6ccad8df129f1531c1189d405:66
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,7 +26,7 @@ class GroupCallPickupDeleteInstanceRequest extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 1d2c67d4a97adca57d9953b2182b4b0d:66
+     * @Group 33d260a6ccad8df129f1531c1189d405:66
      * @var string|null
      */
     private $groupId = null;
@@ -34,7 +34,7 @@ class GroupCallPickupDeleteInstanceRequest extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName name
      * @Type string
-     * @Group 1d2c67d4a97adca57d9953b2182b4b0d:66
+     * @Group 33d260a6ccad8df129f1531c1189d405:66
      * @var string|null
      */
     private $name = null;

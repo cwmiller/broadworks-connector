@@ -5,7 +5,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19VoiceMessagingMenuKeys
  *
- * @Groups [{"id":"1624846b7d87d3ab55e907c443fca9d6:1220","type":"sequence"}]
+ * @Groups [{"id":"80c5986946137c505e41f6008c7f75a8:1220","type":"sequence"}]
  */
 class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19VoiceMessagingMenuKeys
 {
@@ -15,7 +15,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19VoiceMessagingMenu
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 1624846b7d87d3ab55e907c443fca9d6:1220
+     * @Group 80c5986946137c505e41f6008c7f75a8:1220
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $playMessages = null;
@@ -25,7 +25,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19VoiceMessagingMenu
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 1624846b7d87d3ab55e907c443fca9d6:1220
+     * @Group 80c5986946137c505e41f6008c7f75a8:1220
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $changeBusyGreeting = null;
@@ -35,7 +35,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19VoiceMessagingMenu
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 1624846b7d87d3ab55e907c443fca9d6:1220
+     * @Group 80c5986946137c505e41f6008c7f75a8:1220
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $changeNoAnswerGreeting = null;
@@ -45,7 +45,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19VoiceMessagingMenu
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 1624846b7d87d3ab55e907c443fca9d6:1220
+     * @Group 80c5986946137c505e41f6008c7f75a8:1220
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $changeExtendedAwayGreeting = null;
@@ -55,7 +55,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19VoiceMessagingMenu
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 1624846b7d87d3ab55e907c443fca9d6:1220
+     * @Group 80c5986946137c505e41f6008c7f75a8:1220
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $composeMessage = null;
@@ -65,7 +65,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19VoiceMessagingMenu
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 1624846b7d87d3ab55e907c443fca9d6:1220
+     * @Group 80c5986946137c505e41f6008c7f75a8:1220
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $deleteAllMessages = null;
@@ -75,7 +75,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19VoiceMessagingMenu
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 1624846b7d87d3ab55e907c443fca9d6:1220
+     * @Group 80c5986946137c505e41f6008c7f75a8:1220
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $passcode = null;
@@ -85,7 +85,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19VoiceMessagingMenu
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 1624846b7d87d3ab55e907c443fca9d6:1220
+     * @Group 80c5986946137c505e41f6008c7f75a8:1220
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $personalizedName = null;
@@ -95,7 +95,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19VoiceMessagingMenu
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 1624846b7d87d3ab55e907c443fca9d6:1220
+     * @Group 80c5986946137c505e41f6008c7f75a8:1220
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $messageDeposit = null;
@@ -104,7 +104,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19VoiceMessagingMenu
      * @ElementName returnToPreviousMenu
      * @Type string
      * @Optional
-     * @Group 1624846b7d87d3ab55e907c443fca9d6:1220
+     * @Group 80c5986946137c505e41f6008c7f75a8:1220
      * @var string|null
      */
     private $returnToPreviousMenu = null;
@@ -114,7 +114,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19VoiceMessagingMenu
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 1624846b7d87d3ab55e907c443fca9d6:1220
+     * @Group 80c5986946137c505e41f6008c7f75a8:1220
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $repeatMenu = null;

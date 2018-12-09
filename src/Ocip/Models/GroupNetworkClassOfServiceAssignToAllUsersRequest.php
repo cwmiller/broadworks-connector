@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:5201","type":"sequence"}]
+ * @Groups [{"id":"15129cd25fa2d5581f4edfd652c24f93:5201","type":"sequence"}]
  */
 class GroupNetworkClassOfServiceAssignToAllUsersRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class GroupNetworkClassOfServiceAssignToAllUsersRequest extends \CWM\BroadWorksC
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:5201
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:5201
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -28,7 +28,7 @@ class GroupNetworkClassOfServiceAssignToAllUsersRequest extends \CWM\BroadWorksC
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:5201
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:5201
      * @var string|null
      */
     private $groupId = null;
@@ -36,7 +36,7 @@ class GroupNetworkClassOfServiceAssignToAllUsersRequest extends \CWM\BroadWorksC
     /**
      * @ElementName networkClassOfService
      * @Type string
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:5201
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:5201
      * @var string|null
      */
     private $networkClassOfService = null;

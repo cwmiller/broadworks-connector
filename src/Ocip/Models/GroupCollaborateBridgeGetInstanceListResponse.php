@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The column values for "Is default" can either be true, or false.
  *
  * @see GroupCollaborateBridgeGetInstanceListRequest
- * @Groups [{"id":"2f13ead3f217ca6eb3f52b517fb04a6f:262","type":"sequence"}]
+ * @Groups [{"id":"1d655a4f2853eddf47018e01b685b65b:262","type":"sequence"}]
  */
 class GroupCollaborateBridgeGetInstanceListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class GroupCollaborateBridgeGetInstanceListResponse extends \CWM\BroadWorksConne
     /**
      * @ElementName collaborateBridgeTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 2f13ead3f217ca6eb3f52b517fb04a6f:262
+     * @Group 1d655a4f2853eddf47018e01b685b65b:262
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $collaborateBridgeTable = null;

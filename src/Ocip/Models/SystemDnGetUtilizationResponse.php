@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemDnGetUtilizationRequest
  * @see SystemDnGetUtilizationResponse14sp3
- * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:22043","type":"sequence"}]
+ * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:22043","type":"sequence"}]
  */
 class SystemDnGetUtilizationResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class SystemDnGetUtilizationResponse extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 1a79c7896cb04feac6eff47a5321756e:22043
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:22043
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,7 +27,7 @@ class SystemDnGetUtilizationResponse extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName groupId
      * @Type string
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:22043
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:22043
      * @var string|null
      */
     private $groupId = null;
@@ -36,7 +36,7 @@ class SystemDnGetUtilizationResponse extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName userId
      * @Type string
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:22043
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:22043
      * @var string|null
      */
     private $userId = null;
@@ -45,7 +45,7 @@ class SystemDnGetUtilizationResponse extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName userType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UserType
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:22043
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:22043
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserType|null
      */
     private $userType = null;
@@ -53,7 +53,7 @@ class SystemDnGetUtilizationResponse extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName isGroupCallingLineId
      * @Type bool
-     * @Group 1a79c7896cb04feac6eff47a5321756e:22043
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:22043
      * @var bool|null
      */
     private $isGroupCallingLineId = null;

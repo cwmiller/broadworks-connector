@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see GroupGroupPagingGetInstanceRequest17sp3
  * @see GroupGroupPagingGetInstanceResponse
  * @see ErrorResponse
- * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:8450","type":"sequence"}]
+ * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:8450","type":"sequence"}]
  */
 class GroupGroupPagingGetInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class GroupGroupPagingGetInstanceRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group 1a79c7896cb04feac6eff47a5321756e:8450
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:8450
      * @var string|null
      */
     private $serviceUserId = null;

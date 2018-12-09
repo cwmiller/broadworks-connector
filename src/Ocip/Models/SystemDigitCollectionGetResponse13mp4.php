@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemDigitCollectionGetRequest13mp4.
  *
  * @see SystemDigitCollectionGetRequest13mp4
- * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:7711","type":"sequence"}]
+ * @Groups [{"id":"b5f5416d9e71f8e4246cda16c4723744:7711","type":"sequence"}]
  */
 class SystemDigitCollectionGetResponse13mp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class SystemDigitCollectionGetResponse13mp4 extends \CWM\BroadWorksConnector\Oci
      * @ElementName accessCode
      * @Type string
      * @Optional
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:7711
+     * @Group b5f5416d9e71f8e4246cda16c4723744:7711
      * @var string|null
      */
     private $accessCode = null;
@@ -25,7 +25,7 @@ class SystemDigitCollectionGetResponse13mp4 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName publicDigitMap
      * @Type string
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:7711
+     * @Group b5f5416d9e71f8e4246cda16c4723744:7711
      * @var string|null
      */
     private $publicDigitMap = null;
@@ -34,7 +34,7 @@ class SystemDigitCollectionGetResponse13mp4 extends \CWM\BroadWorksConnector\Oci
      * @ElementName privateDigitMap
      * @Type string
      * @Optional
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:7711
+     * @Group b5f5416d9e71f8e4246cda16c4723744:7711
      * @var string|null
      */
     private $privateDigitMap = null;

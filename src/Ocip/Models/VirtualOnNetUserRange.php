@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Virtual On-Net User Range.
  *
- * @Groups [{"id":"73530229e066070baac4c09dac256d69:352","type":"sequence"}]
+ * @Groups [{"id":"f72eed3624b2f8f1013e6751cb17c899:352","type":"sequence"}]
  */
 class VirtualOnNetUserRange
 {
@@ -15,7 +15,7 @@ class VirtualOnNetUserRange
     /**
      * @ElementName dnRange
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DNRange
-     * @Group 73530229e066070baac4c09dac256d69:352
+     * @Group f72eed3624b2f8f1013e6751cb17c899:352
      * @var \CWM\BroadWorksConnector\Ocip\Models\DNRange|null
      */
     private $dnRange = null;
@@ -23,7 +23,7 @@ class VirtualOnNetUserRange
     /**
      * @ElementName extensionRange
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtensionRange17
-     * @Group 73530229e066070baac4c09dac256d69:352
+     * @Group f72eed3624b2f8f1013e6751cb17c899:352
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtensionRange17|null
      */
     private $extensionRange = null;
@@ -31,7 +31,7 @@ class VirtualOnNetUserRange
     /**
      * @ElementName firstName
      * @Type string
-     * @Group 73530229e066070baac4c09dac256d69:352
+     * @Group f72eed3624b2f8f1013e6751cb17c899:352
      * @var string|null
      */
     private $firstName = null;
@@ -39,7 +39,7 @@ class VirtualOnNetUserRange
     /**
      * @ElementName lastName
      * @Type string
-     * @Group 73530229e066070baac4c09dac256d69:352
+     * @Group f72eed3624b2f8f1013e6751cb17c899:352
      * @var string|null
      */
     private $lastName = null;
@@ -47,7 +47,7 @@ class VirtualOnNetUserRange
     /**
      * @ElementName callingLineIdFirstName
      * @Type string
-     * @Group 73530229e066070baac4c09dac256d69:352
+     * @Group f72eed3624b2f8f1013e6751cb17c899:352
      * @var string|null
      */
     private $callingLineIdFirstName = null;
@@ -55,7 +55,7 @@ class VirtualOnNetUserRange
     /**
      * @ElementName callingLineIdLastName
      * @Type string
-     * @Group 73530229e066070baac4c09dac256d69:352
+     * @Group f72eed3624b2f8f1013e6751cb17c899:352
      * @var string|null
      */
     private $callingLineIdLastName = null;
@@ -63,7 +63,7 @@ class VirtualOnNetUserRange
     /**
      * @ElementName virtualOnNetCallTypeName
      * @Type string
-     * @Group 73530229e066070baac4c09dac256d69:352
+     * @Group f72eed3624b2f8f1013e6751cb17c899:352
      * @var string|null
      */
     private $virtualOnNetCallTypeName = null;

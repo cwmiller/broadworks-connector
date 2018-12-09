@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:9313","type":"sequence"}]
+ * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:9313","type":"sequence"}]
  */
 class GroupMeetMeConferencingAddInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class GroupMeetMeConferencingAddInstanceRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 1a79c7896cb04feac6eff47a5321756e:9313
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:9313
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,7 +27,7 @@ class GroupMeetMeConferencingAddInstanceRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 1a79c7896cb04feac6eff47a5321756e:9313
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:9313
      * @var string|null
      */
     private $groupId = null;
@@ -35,7 +35,7 @@ class GroupMeetMeConferencingAddInstanceRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group 1a79c7896cb04feac6eff47a5321756e:9313
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:9313
      * @var string|null
      */
     private $serviceUserId = null;
@@ -43,7 +43,7 @@ class GroupMeetMeConferencingAddInstanceRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName serviceInstanceProfile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceAddProfile
-     * @Group 1a79c7896cb04feac6eff47a5321756e:9313
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:9313
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceAddProfile|null
      */
     private $serviceInstanceProfile = null;
@@ -51,7 +51,7 @@ class GroupMeetMeConferencingAddInstanceRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName allocatedPorts
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferencePorts
-     * @Group 1a79c7896cb04feac6eff47a5321756e:9313
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:9313
      * @var \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferencePorts|null
      */
     private $allocatedPorts = null;
@@ -60,7 +60,7 @@ class GroupMeetMeConferencingAddInstanceRequest extends \CWM\BroadWorksConnector
      * @ElementName networkClassOfService
      * @Type string
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:9313
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:9313
      * @var string|null
      */
     private $networkClassOfService = null;
@@ -68,7 +68,7 @@ class GroupMeetMeConferencingAddInstanceRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName allowIndividualOutDial
      * @Type bool
-     * @Group 1a79c7896cb04feac6eff47a5321756e:9313
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:9313
      * @var bool|null
      */
     private $allowIndividualOutDial = null;
@@ -77,7 +77,7 @@ class GroupMeetMeConferencingAddInstanceRequest extends \CWM\BroadWorksConnector
      * @ElementName operatorNumber
      * @Type string
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:9313
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:9313
      * @var string|null
      */
     private $operatorNumber = null;
@@ -87,7 +87,7 @@ class GroupMeetMeConferencingAddInstanceRequest extends \CWM\BroadWorksConnector
      * @Type string
      * @Array
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:9313
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:9313
      * @var string[]
      */
     private $conferenceHostUserId = array(

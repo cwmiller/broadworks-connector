@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the GroupCallCenterGetDistinctiveRingingRequest.
  *
  * @see GroupCallCenterGetDistinctiveRingingRequest
- * @Groups [{"id":"69c2aeb1186dc97a4f4c36d9609ddb49:3824","type":"sequence"}]
+ * @Groups [{"id":"3ac5f05d969bc771d6ba8d344d95aa72:3824","type":"sequence"}]
  */
 class GroupCallCenterGetDistinctiveRingingResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class GroupCallCenterGetDistinctiveRingingResponse extends \CWM\BroadWorksConnec
     /**
      * @ElementName distinctiveRingingCallCenterCalls
      * @Type bool
-     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:3824
+     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:3824
      * @var bool|null
      */
     private $distinctiveRingingCallCenterCalls = null;
@@ -24,7 +24,7 @@ class GroupCallCenterGetDistinctiveRingingResponse extends \CWM\BroadWorksConnec
     /**
      * @ElementName distinctiveRingingRingPatternForCallCenter
      * @Type \CWM\BroadWorksConnector\Ocip\Models\RingPattern
-     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:3824
+     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:3824
      * @var \CWM\BroadWorksConnector\Ocip\Models\RingPattern|null
      */
     private $distinctiveRingingRingPatternForCallCenter = null;
@@ -33,7 +33,7 @@ class GroupCallCenterGetDistinctiveRingingResponse extends \CWM\BroadWorksConnec
      * @ElementName distinctiveRingingForceDeliveryRingPattern
      * @Type \CWM\BroadWorksConnector\Ocip\Models\RingPattern
      * @Optional
-     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:3824
+     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:3824
      * @var \CWM\BroadWorksConnector\Ocip\Models\RingPattern|null
      */
     private $distinctiveRingingForceDeliveryRingPattern = null;

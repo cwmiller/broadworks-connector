@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Criteria for searching for a system zone's IP Address.
  *
- * @Groups [{"id":"d37849f5e289836ccd316323a7a3799a:2126","type":"sequence"}]
+ * @Groups [{"id":"e446bfcbd1f39cbef57d1547014f2bb9:2126","type":"sequence"}]
  */
 class SearchCriteriaZoneIPAddress extends SearchCriteria
 {
@@ -15,7 +15,7 @@ class SearchCriteriaZoneIPAddress extends SearchCriteria
     /**
      * @ElementName mode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchMode
-     * @Group d37849f5e289836ccd316323a7a3799a:2126
+     * @Group e446bfcbd1f39cbef57d1547014f2bb9:2126
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchMode|null
      */
     private $mode = null;
@@ -23,7 +23,7 @@ class SearchCriteriaZoneIPAddress extends SearchCriteria
     /**
      * @ElementName value
      * @Type string
-     * @Group d37849f5e289836ccd316323a7a3799a:2126
+     * @Group e446bfcbd1f39cbef57d1547014f2bb9:2126
      * @var string|null
      */
     private $value = null;
@@ -31,7 +31,7 @@ class SearchCriteriaZoneIPAddress extends SearchCriteria
     /**
      * @ElementName isCaseInsensitive
      * @Type bool
-     * @Group d37849f5e289836ccd316323a7a3799a:2126
+     * @Group e446bfcbd1f39cbef57d1547014f2bb9:2126
      * @var bool|null
      */
     private $isCaseInsensitive = null;

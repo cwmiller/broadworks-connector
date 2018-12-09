@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * The from dn criteria used within an executive call filtering criteria add/get request.
  *
- * @Groups [{"id":"18b369af88e42ffdb4166615c670ce2c:1911","type":"sequence"}]
+ * @Groups [{"id":"8e629edbac315ae7889caca732382c44:1911","type":"sequence"}]
  */
 class ExecutiveCallFilteringCriteriaFromDn
 {
@@ -15,7 +15,7 @@ class ExecutiveCallFilteringCriteriaFromDn
     /**
      * @ElementName fromDnCriteriaSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExecutiveCallFilteringCriteriaDnSelection
-     * @Group 18b369af88e42ffdb4166615c670ce2c:1911
+     * @Group 8e629edbac315ae7889caca732382c44:1911
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExecutiveCallFilteringCriteriaDnSelection|null
      */
     private $fromDnCriteriaSelection = null;
@@ -23,7 +23,7 @@ class ExecutiveCallFilteringCriteriaFromDn
     /**
      * @ElementName includeAnonymousCallers
      * @Type bool
-     * @Group 18b369af88e42ffdb4166615c670ce2c:1911
+     * @Group 8e629edbac315ae7889caca732382c44:1911
      * @var bool|null
      */
     private $includeAnonymousCallers = null;
@@ -31,7 +31,7 @@ class ExecutiveCallFilteringCriteriaFromDn
     /**
      * @ElementName includeUnavailableCallers
      * @Type bool
-     * @Group 18b369af88e42ffdb4166615c670ce2c:1911
+     * @Group 8e629edbac315ae7889caca732382c44:1911
      * @var bool|null
      */
     private $includeUnavailableCallers = null;
@@ -41,7 +41,7 @@ class ExecutiveCallFilteringCriteriaFromDn
      * @Type string
      * @Array
      * @Optional
-     * @Group 18b369af88e42ffdb4166615c670ce2c:1911
+     * @Group 8e629edbac315ae7889caca732382c44:1911
      * @var string[]
      */
     private $phoneNumber = array(

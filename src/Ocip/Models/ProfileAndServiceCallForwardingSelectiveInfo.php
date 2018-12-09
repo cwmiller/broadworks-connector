@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * 			
  * 			The "Calls From" column is a string containing call numbers
  *
- * @Groups [{"id":"489b2153267470be8e945bf6b778e0d0:3512","type":"sequence"}]
+ * @Groups [{"id":"ee3830ce42f01a3ef2a105d473fc3b17:3512","type":"sequence"}]
  */
 class ProfileAndServiceCallForwardingSelectiveInfo
 {
@@ -20,7 +20,7 @@ class ProfileAndServiceCallForwardingSelectiveInfo
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group 489b2153267470be8e945bf6b778e0d0:3512
+     * @Group ee3830ce42f01a3ef2a105d473fc3b17:3512
      * @var bool|null
      */
     private $isActive = null;
@@ -29,7 +29,7 @@ class ProfileAndServiceCallForwardingSelectiveInfo
      * @ElementName defaultForwardToPhoneNumber
      * @Type string
      * @Optional
-     * @Group 489b2153267470be8e945bf6b778e0d0:3512
+     * @Group ee3830ce42f01a3ef2a105d473fc3b17:3512
      * @var string|null
      */
     private $defaultForwardToPhoneNumber = null;
@@ -37,7 +37,7 @@ class ProfileAndServiceCallForwardingSelectiveInfo
     /**
      * @ElementName playRingReminder
      * @Type bool
-     * @Group 489b2153267470be8e945bf6b778e0d0:3512
+     * @Group ee3830ce42f01a3ef2a105d473fc3b17:3512
      * @var bool|null
      */
     private $playRingReminder = null;
@@ -45,7 +45,7 @@ class ProfileAndServiceCallForwardingSelectiveInfo
     /**
      * @ElementName criteriaTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 489b2153267470be8e945bf6b778e0d0:3512
+     * @Group ee3830ce42f01a3ef2a105d473fc3b17:3512
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $criteriaTable = null;

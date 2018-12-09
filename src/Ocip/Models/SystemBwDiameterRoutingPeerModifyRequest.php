@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:2376","type":"sequence"}]
+ * @Groups [{"id":"b5f5416d9e71f8e4246cda16c4723744:2376","type":"sequence"}]
  */
 class SystemBwDiameterRoutingPeerModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemBwDiameterRoutingPeerModifyRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName instance
      * @Type \CWM\BroadWorksConnector\Ocip\Models\BwDiameterPeerInstance
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:2376
+     * @Group b5f5416d9e71f8e4246cda16c4723744:2376
      * @var \CWM\BroadWorksConnector\Ocip\Models\BwDiameterPeerInstance|null
      */
     private $instance = null;
@@ -26,7 +26,7 @@ class SystemBwDiameterRoutingPeerModifyRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName realm
      * @Type string
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:2376
+     * @Group b5f5416d9e71f8e4246cda16c4723744:2376
      * @var string|null
      */
     private $realm = null;
@@ -34,7 +34,7 @@ class SystemBwDiameterRoutingPeerModifyRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName applicationId
      * @Type \CWM\BroadWorksConnector\Ocip\Models\BwDiameterApplicationId
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:2376
+     * @Group b5f5416d9e71f8e4246cda16c4723744:2376
      * @var \CWM\BroadWorksConnector\Ocip\Models\BwDiameterApplicationId|null
      */
     private $applicationId = null;
@@ -42,7 +42,7 @@ class SystemBwDiameterRoutingPeerModifyRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName identity
      * @Type string
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:2376
+     * @Group b5f5416d9e71f8e4246cda16c4723744:2376
      * @var string|null
      */
     private $identity = null;
@@ -51,7 +51,7 @@ class SystemBwDiameterRoutingPeerModifyRequest extends \CWM\BroadWorksConnector\
      * @ElementName priority
      * @Type int
      * @Optional
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:2376
+     * @Group b5f5416d9e71f8e4246cda16c4723744:2376
      * @var int|null
      */
     private $priority = null;
@@ -60,7 +60,7 @@ class SystemBwDiameterRoutingPeerModifyRequest extends \CWM\BroadWorksConnector\
      * @ElementName weight
      * @Type int
      * @Optional
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:2376
+     * @Group b5f5416d9e71f8e4246cda16c4723744:2376
      * @var int|null
      */
     private $weight = null;

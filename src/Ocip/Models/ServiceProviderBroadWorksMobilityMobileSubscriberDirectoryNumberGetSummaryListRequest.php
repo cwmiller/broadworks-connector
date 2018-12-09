@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see ServiceProviderBroadWorksMobilityMobileSubscriberDirectoryNumberGetSummaryListResponse
  * @see ErrorResponse
- * @Groups [{"id":"5d94cb4fd2bf88ffe6e6d2193917a6ff:456","type":"sequence"}]
+ * @Groups [{"id":"6536ac9946b3d8422bec81ad9d995e2b:456","type":"sequence"}]
  */
 class ServiceProviderBroadWorksMobilityMobileSubscriberDirectoryNumberGetSummaryListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class ServiceProviderBroadWorksMobilityMobileSubscriberDirectoryNumberGetSummary
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 5d94cb4fd2bf88ffe6e6d2193917a6ff:456
+     * @Group 6536ac9946b3d8422bec81ad9d995e2b:456
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,7 +27,7 @@ class ServiceProviderBroadWorksMobilityMobileSubscriberDirectoryNumberGetSummary
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group 5d94cb4fd2bf88ffe6e6d2193917a6ff:456
+     * @Group 6536ac9946b3d8422bec81ad9d995e2b:456
      * @var int|null
      */
     private $responseSizeLimit = null;
@@ -37,7 +37,7 @@ class ServiceProviderBroadWorksMobilityMobileSubscriberDirectoryNumberGetSummary
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaMobileSubscriberDirectoryNumber
      * @Array
      * @Optional
-     * @Group 5d94cb4fd2bf88ffe6e6d2193917a6ff:456
+     * @Group 6536ac9946b3d8422bec81ad9d995e2b:456
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaMobileSubscriberDirectoryNumber[]
      */
     private $searchCriteriaMobileSubscriberDirectoryNumber = array(
@@ -49,7 +49,7 @@ class ServiceProviderBroadWorksMobilityMobileSubscriberDirectoryNumberGetSummary
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId
      * @Array
      * @Optional
-     * @Group 5d94cb4fd2bf88ffe6e6d2193917a6ff:456
+     * @Group 6536ac9946b3d8422bec81ad9d995e2b:456
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId[]
      */
     private $searchCriteriaGroupId = array(
@@ -60,7 +60,7 @@ class ServiceProviderBroadWorksMobilityMobileSubscriberDirectoryNumberGetSummary
      * @ElementName searchCriteriaExactMobileNetwork
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactMobileNetwork
      * @Optional
-     * @Group 5d94cb4fd2bf88ffe6e6d2193917a6ff:456
+     * @Group 6536ac9946b3d8422bec81ad9d995e2b:456
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactMobileNetwork|null
      */
     private $searchCriteriaExactMobileNetwork = null;

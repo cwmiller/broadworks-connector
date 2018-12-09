@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"15e95c3084e805ff6b4582dadf82fee1:73","type":"sequence"}]
+ * @Groups [{"id":"4d9b5452a87dd4ae64ca1609d0e55e87:73","type":"sequence"}]
  */
 class UserSilentAlertingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserSilentAlertingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName userId
      * @Type string
-     * @Group 15e95c3084e805ff6b4582dadf82fee1:73
+     * @Group 4d9b5452a87dd4ae64ca1609d0e55e87:73
      * @var string|null
      */
     private $userId = null;
@@ -27,7 +27,7 @@ class UserSilentAlertingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName isActive
      * @Type bool
      * @Optional
-     * @Group 15e95c3084e805ff6b4582dadf82fee1:73
+     * @Group 4d9b5452a87dd4ae64ca1609d0e55e87:73
      * @var bool|null
      */
     private $isActive = null;

@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupFindMeFollowMeGetInstanceListResponse
  * @see ErrorResponse
- * @Groups [{"id":"d0d5b8a5908815c6ae522efe732e363a:342","type":"sequence"}]
+ * @Groups [{"id":"c81ec650475acb5cc7b075c4582c12ba:342","type":"sequence"}]
  */
 class GroupFindMeFollowMeGetInstanceListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class GroupFindMeFollowMeGetInstanceListRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group d0d5b8a5908815c6ae522efe732e363a:342
+     * @Group c81ec650475acb5cc7b075c4582c12ba:342
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,7 +27,7 @@ class GroupFindMeFollowMeGetInstanceListRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName groupId
      * @Type string
-     * @Group d0d5b8a5908815c6ae522efe732e363a:342
+     * @Group c81ec650475acb5cc7b075c4582c12ba:342
      * @var string|null
      */
     private $groupId = null;
@@ -36,7 +36,7 @@ class GroupFindMeFollowMeGetInstanceListRequest extends \CWM\BroadWorksConnector
      * @ElementName groupDepartmentName
      * @Type string
      * @Optional
-     * @Group d0d5b8a5908815c6ae522efe732e363a:342
+     * @Group c81ec650475acb5cc7b075c4582c12ba:342
      * @var string|null
      */
     private $groupDepartmentName = null;

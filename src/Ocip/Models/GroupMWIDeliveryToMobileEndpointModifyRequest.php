@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"c2306c3f9cea4bfa8682bbf7a2c099a0:191","type":"sequence"}]
+ * @Groups [{"id":"26ea37e78b67054650c3445a62638977:191","type":"sequence"}]
  */
 class GroupMWIDeliveryToMobileEndpointModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class GroupMWIDeliveryToMobileEndpointModifyRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group c2306c3f9cea4bfa8682bbf7a2c099a0:191
+     * @Group 26ea37e78b67054650c3445a62638977:191
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -28,7 +28,7 @@ class GroupMWIDeliveryToMobileEndpointModifyRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName groupId
      * @Type string
-     * @Group c2306c3f9cea4bfa8682bbf7a2c099a0:191
+     * @Group 26ea37e78b67054650c3445a62638977:191
      * @var string|null
      */
     private $groupId = null;
@@ -37,7 +37,7 @@ class GroupMWIDeliveryToMobileEndpointModifyRequest extends \CWM\BroadWorksConne
      * @ElementName useSettingLevel
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointGroupSettingLevel
      * @Optional
-     * @Group c2306c3f9cea4bfa8682bbf7a2c099a0:191
+     * @Group 26ea37e78b67054650c3445a62638977:191
      * @var \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointGroupSettingLevel|null
      */
     private $useSettingLevel = null;
@@ -47,7 +47,7 @@ class GroupMWIDeliveryToMobileEndpointModifyRequest extends \CWM\BroadWorksConne
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointTemplateActivation
      * @Array
      * @Optional
-     * @Group c2306c3f9cea4bfa8682bbf7a2c099a0:191
+     * @Group 26ea37e78b67054650c3445a62638977:191
      * @var \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointTemplateActivation[]
      */
     private $templateActivation = array(

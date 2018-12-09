@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"531ef68c70e2768c02c1d0afcfe979ab:62","type":"sequence"}]
+ * @Groups [{"id":"3cba5f323319ae2171c7c634ba1811e2:62","type":"sequence"}]
  */
 class SystemAutomaticCallbackDeleteReleaseCauseListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class SystemAutomaticCallbackDeleteReleaseCauseListRequest extends \CWM\BroadWor
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AutomaticCallbackReleaseCause
      * @Array
      * @Optional
-     * @Group 531ef68c70e2768c02c1d0afcfe979ab:62
+     * @Group 3cba5f323319ae2171c7c634ba1811e2:62
      * @var \CWM\BroadWorksConnector\Ocip\Models\AutomaticCallbackReleaseCause[]
      */
     private $releaseCause = array(

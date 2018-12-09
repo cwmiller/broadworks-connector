@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to UserAttendantConsoleGetRequest.
  *
  * @see UserAttendantConsoleGetRequest
- * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:32390","type":"sequence"}]
+ * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:32390","type":"sequence"}]
  */
 class UserAttendantConsoleGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class UserAttendantConsoleGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName launchOnLogin
      * @Type bool
-     * @Group 1a79c7896cb04feac6eff47a5321756e:32390
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:32390
      * @var bool|null
      */
     private $launchOnLogin = null;
@@ -24,7 +24,7 @@ class UserAttendantConsoleGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName allowUserConfigCallDetails
      * @Type bool
-     * @Group 1a79c7896cb04feac6eff47a5321756e:32390
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:32390
      * @var bool|null
      */
     private $allowUserConfigCallDetails = null;
@@ -32,7 +32,7 @@ class UserAttendantConsoleGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName allowUserViewCallDetails
      * @Type bool
-     * @Group 1a79c7896cb04feac6eff47a5321756e:32390
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:32390
      * @var bool|null
      */
     private $allowUserViewCallDetails = null;
@@ -42,7 +42,7 @@ class UserAttendantConsoleGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AttendantConsoleDisplayColumn
      * @Array
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:32390
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:32390
      * @var \CWM\BroadWorksConnector\Ocip\Models\AttendantConsoleDisplayColumn[]
      */
     private $displayColumn = array(

@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemSIPGetContentTypeListResponse
  * @see ErrorResponse
- * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:15512","type":"sequence"}]
+ * @Groups [{"id":"b5f5416d9e71f8e4246cda16c4723744:15512","type":"sequence"}]
  */
 class SystemSIPGetContentTypeListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

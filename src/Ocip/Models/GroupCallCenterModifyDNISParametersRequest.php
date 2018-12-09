@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"69c2aeb1186dc97a4f4c36d9609ddb49:4565","type":"sequence"}]
+ * @Groups [{"id":"3ac5f05d969bc771d6ba8d344d95aa72:4565","type":"sequence"}]
  */
 class GroupCallCenterModifyDNISParametersRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupCallCenterModifyDNISParametersRequest extends \CWM\BroadWorksConnecto
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:4565
+     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:4565
      * @var string|null
      */
     private $serviceUserId = null;
@@ -27,7 +27,7 @@ class GroupCallCenterModifyDNISParametersRequest extends \CWM\BroadWorksConnecto
      * @ElementName displayDNISNumber
      * @Type bool
      * @Optional
-     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:4565
+     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:4565
      * @var bool|null
      */
     private $displayDNISNumber = null;
@@ -36,7 +36,7 @@ class GroupCallCenterModifyDNISParametersRequest extends \CWM\BroadWorksConnecto
      * @ElementName displayDNISName
      * @Type bool
      * @Optional
-     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:4565
+     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:4565
      * @var bool|null
      */
     private $displayDNISName = null;
@@ -45,7 +45,7 @@ class GroupCallCenterModifyDNISParametersRequest extends \CWM\BroadWorksConnecto
      * @ElementName promoteCallsFromPriority1to0
      * @Type bool
      * @Optional
-     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:4565
+     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:4565
      * @var bool|null
      */
     private $promoteCallsFromPriority1to0 = null;
@@ -54,7 +54,7 @@ class GroupCallCenterModifyDNISParametersRequest extends \CWM\BroadWorksConnecto
      * @ElementName promoteCallsFromPriority2to1
      * @Type bool
      * @Optional
-     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:4565
+     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:4565
      * @var bool|null
      */
     private $promoteCallsFromPriority2to1 = null;
@@ -63,7 +63,7 @@ class GroupCallCenterModifyDNISParametersRequest extends \CWM\BroadWorksConnecto
      * @ElementName promoteCallsFromPriority3to2
      * @Type bool
      * @Optional
-     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:4565
+     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:4565
      * @var bool|null
      */
     private $promoteCallsFromPriority3to2 = null;
@@ -72,7 +72,7 @@ class GroupCallCenterModifyDNISParametersRequest extends \CWM\BroadWorksConnecto
      * @ElementName promoteCallsFromPriority1to0Seconds
      * @Type int
      * @Optional
-     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:4565
+     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:4565
      * @var int|null
      */
     private $promoteCallsFromPriority1to0Seconds = null;
@@ -81,7 +81,7 @@ class GroupCallCenterModifyDNISParametersRequest extends \CWM\BroadWorksConnecto
      * @ElementName promoteCallsFromPriority2to1Seconds
      * @Type int
      * @Optional
-     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:4565
+     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:4565
      * @var int|null
      */
     private $promoteCallsFromPriority2to1Seconds = null;
@@ -90,7 +90,7 @@ class GroupCallCenterModifyDNISParametersRequest extends \CWM\BroadWorksConnecto
      * @ElementName promoteCallsFromPriority3to2Seconds
      * @Type int
      * @Optional
-     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:4565
+     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:4565
      * @var int|null
      */
     private $promoteCallsFromPriority3to2Seconds = null;

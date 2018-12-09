@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response contains the system or provisioning administrators profile information.
  *
  * @see SystemAdminGetRequest
- * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:1707","type":"sequence"}]
+ * @Groups [{"id":"b5f5416d9e71f8e4246cda16c4723744:1707","type":"sequence"}]
  */
 class SystemAdminGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class SystemAdminGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCID
      * @ElementName firstName
      * @Type string
      * @Optional
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:1707
+     * @Group b5f5416d9e71f8e4246cda16c4723744:1707
      * @var string|null
      */
     private $firstName = null;
@@ -27,7 +27,7 @@ class SystemAdminGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCID
      * @ElementName lastName
      * @Type string
      * @Optional
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:1707
+     * @Group b5f5416d9e71f8e4246cda16c4723744:1707
      * @var string|null
      */
     private $lastName = null;
@@ -35,7 +35,7 @@ class SystemAdminGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCID
     /**
      * @ElementName language
      * @Type string
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:1707
+     * @Group b5f5416d9e71f8e4246cda16c4723744:1707
      * @var string|null
      */
     private $language = null;
@@ -43,7 +43,7 @@ class SystemAdminGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCID
     /**
      * @ElementName adminType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemAdminType
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:1707
+     * @Group b5f5416d9e71f8e4246cda16c4723744:1707
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemAdminType|null
      */
     private $adminType = null;
@@ -51,7 +51,7 @@ class SystemAdminGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCID
     /**
      * @ElementName readOnly
      * @Type bool
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:1707
+     * @Group b5f5416d9e71f8e4246cda16c4723744:1707
      * @var bool|null
      */
     private $readOnly = null;

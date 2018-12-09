@@ -5,7 +5,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemVoiceMessagingGroupGetVoicePortalMenusResponse21CommPilotExpressProfileMenuKeys
  *
- * @Groups [{"id":"1624846b7d87d3ab55e907c443fca9d6:772","type":"sequence"}]
+ * @Groups [{"id":"80c5986946137c505e41f6008c7f75a8:772","type":"sequence"}]
  */
 class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21CommPilotExpressProfileMenuKeys
 {
@@ -14,7 +14,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21CommPilotExpressProf
      * @ElementName activateAvailableInOfficeProfile
      * @Type string
      * @Optional
-     * @Group 1624846b7d87d3ab55e907c443fca9d6:772
+     * @Group 80c5986946137c505e41f6008c7f75a8:772
      * @var string|null
      */
     private $activateAvailableInOfficeProfile = null;
@@ -23,7 +23,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21CommPilotExpressProf
      * @ElementName activateAvailableOutOfOfficeProfile
      * @Type string
      * @Optional
-     * @Group 1624846b7d87d3ab55e907c443fca9d6:772
+     * @Group 80c5986946137c505e41f6008c7f75a8:772
      * @var string|null
      */
     private $activateAvailableOutOfOfficeProfile = null;
@@ -32,7 +32,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21CommPilotExpressProf
      * @ElementName activateBusyProfile
      * @Type string
      * @Optional
-     * @Group 1624846b7d87d3ab55e907c443fca9d6:772
+     * @Group 80c5986946137c505e41f6008c7f75a8:772
      * @var string|null
      */
     private $activateBusyProfile = null;
@@ -41,7 +41,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21CommPilotExpressProf
      * @ElementName activateUnavailableProfile
      * @Type string
      * @Optional
-     * @Group 1624846b7d87d3ab55e907c443fca9d6:772
+     * @Group 80c5986946137c505e41f6008c7f75a8:772
      * @var string|null
      */
     private $activateUnavailableProfile = null;
@@ -50,7 +50,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21CommPilotExpressProf
      * @ElementName noProfile
      * @Type string
      * @Optional
-     * @Group 1624846b7d87d3ab55e907c443fca9d6:772
+     * @Group 80c5986946137c505e41f6008c7f75a8:772
      * @var string|null
      */
     private $noProfile = null;
@@ -58,7 +58,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21CommPilotExpressProf
     /**
      * @ElementName returnToPreviousMenu
      * @Type string
-     * @Group 1624846b7d87d3ab55e907c443fca9d6:772
+     * @Group 80c5986946137c505e41f6008c7f75a8:772
      * @var string|null
      */
     private $returnToPreviousMenu = null;
@@ -67,7 +67,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21CommPilotExpressProf
      * @ElementName repeatMenu
      * @Type string
      * @Optional
-     * @Group 1624846b7d87d3ab55e907c443fca9d6:772
+     * @Group 80c5986946137c505e41f6008c7f75a8:772
      * @var string|null
      */
     private $repeatMenu = null;

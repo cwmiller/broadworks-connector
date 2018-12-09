@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupDepartmentGetListRequest
  * @see GroupDepartmentGetListResponse18
- * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:7695","type":"sequence"}]
+ * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:7695","type":"sequence"}]
  */
 class GroupDepartmentGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -22,7 +22,7 @@ class GroupDepartmentGetListResponse extends \CWM\BroadWorksConnector\Ocip\Model
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey
      * @Array
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:7695
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:7695
      * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey[]
      */
     private $departmentKey = array(
@@ -34,7 +34,7 @@ class GroupDepartmentGetListResponse extends \CWM\BroadWorksConnector\Ocip\Model
      * @Type string
      * @Array
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:7695
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:7695
      * @var string[]
      */
     private $fullPathName = array(

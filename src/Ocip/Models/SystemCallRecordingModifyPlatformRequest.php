@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"604d9297550842860022313f3cf2dc8f:242","type":"sequence"}]
+ * @Groups [{"id":"f913e539ecbb63cf455f6c316963b896:242","type":"sequence"}]
  */
 class SystemCallRecordingModifyPlatformRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemCallRecordingModifyPlatformRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName name
      * @Type string
-     * @Group 604d9297550842860022313f3cf2dc8f:242
+     * @Group f913e539ecbb63cf455f6c316963b896:242
      * @var string|null
      */
     private $name = null;
@@ -27,7 +27,7 @@ class SystemCallRecordingModifyPlatformRequest extends \CWM\BroadWorksConnector\
      * @ElementName netAddress
      * @Type string
      * @Optional
-     * @Group 604d9297550842860022313f3cf2dc8f:242
+     * @Group f913e539ecbb63cf455f6c316963b896:242
      * @var string|null
      */
     private $netAddress = null;
@@ -37,7 +37,7 @@ class SystemCallRecordingModifyPlatformRequest extends \CWM\BroadWorksConnector\
      * @Type int
      * @Nillable
      * @Optional
-     * @Group 604d9297550842860022313f3cf2dc8f:242
+     * @Group f913e539ecbb63cf455f6c316963b896:242
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $port = null;
@@ -46,7 +46,7 @@ class SystemCallRecordingModifyPlatformRequest extends \CWM\BroadWorksConnector\
      * @ElementName mediaStream
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MediaStream
      * @Optional
-     * @Group 604d9297550842860022313f3cf2dc8f:242
+     * @Group f913e539ecbb63cf455f6c316963b896:242
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaStream|null
      */
     private $mediaStream = null;
@@ -55,7 +55,7 @@ class SystemCallRecordingModifyPlatformRequest extends \CWM\BroadWorksConnector\
      * @ElementName becomeSystemDefault
      * @Type bool
      * @Optional
-     * @Group 604d9297550842860022313f3cf2dc8f:242
+     * @Group f913e539ecbb63cf455f6c316963b896:242
      * @var bool|null
      */
     private $becomeSystemDefault = null;
@@ -64,7 +64,7 @@ class SystemCallRecordingModifyPlatformRequest extends \CWM\BroadWorksConnector\
      * @ElementName transportType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol
      * @Optional
-     * @Group 604d9297550842860022313f3cf2dc8f:242
+     * @Group f913e539ecbb63cf455f6c316963b896:242
      * @var \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol|null
      */
     private $transportType = null;
@@ -74,7 +74,7 @@ class SystemCallRecordingModifyPlatformRequest extends \CWM\BroadWorksConnector\
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 604d9297550842860022313f3cf2dc8f:242
+     * @Group f913e539ecbb63cf455f6c316963b896:242
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $description = null;
@@ -83,7 +83,7 @@ class SystemCallRecordingModifyPlatformRequest extends \CWM\BroadWorksConnector\
      * @ElementName schemaVersion
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallRecordingPlatformSchemaVersion
      * @Optional
-     * @Group 604d9297550842860022313f3cf2dc8f:242
+     * @Group f913e539ecbb63cf455f6c316963b896:242
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallRecordingPlatformSchemaVersion|null
      */
     private $schemaVersion = null;
@@ -92,7 +92,7 @@ class SystemCallRecordingModifyPlatformRequest extends \CWM\BroadWorksConnector\
      * @ElementName supportVideoRecording
      * @Type bool
      * @Optional
-     * @Group 604d9297550842860022313f3cf2dc8f:242
+     * @Group f913e539ecbb63cf455f6c316963b896:242
      * @var bool|null
      */
     private $supportVideoRecording = null;

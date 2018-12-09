@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The column headings are: "File Format", "Is Authenticated", "Access URL", "Repository URL", "Template URL", "Extended Capture".
  *
  * @see ServiceProviderAccessDeviceFileGetListRequest14sp8
- * @Groups [{"id":"8f3ed38751e86ebcc639b5bc5cdef0ec:398","type":"sequence"}]
+ * @Groups [{"id":"8eb862aea0ee5d4211db0a0d3fe7c164:398","type":"sequence"}]
  */
 class ServiceProviderAccessDeviceFileGetListResponse14sp8 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class ServiceProviderAccessDeviceFileGetListResponse14sp8 extends \CWM\BroadWork
     /**
      * @ElementName deviceFilesTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:398
+     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:398
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $deviceFilesTable = null;

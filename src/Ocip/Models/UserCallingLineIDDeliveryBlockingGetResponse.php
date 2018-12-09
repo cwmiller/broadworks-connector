@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to UserCallingLineIDDeliveryBlockingGetRequest.
  *
  * @see UserCallingLineIDDeliveryBlockingGetRequest
- * @Groups [{"id":"c7e1e3b76f28550991db52aad50eeec3:59","type":"sequence"}]
+ * @Groups [{"id":"97a8e92b576d9f637877b59bdb62f1dd:59","type":"sequence"}]
  */
 class UserCallingLineIDDeliveryBlockingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class UserCallingLineIDDeliveryBlockingGetResponse extends \CWM\BroadWorksConnec
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group c7e1e3b76f28550991db52aad50eeec3:59
+     * @Group 97a8e92b576d9f637877b59bdb62f1dd:59
      * @var bool|null
      */
     private $isActive = null;

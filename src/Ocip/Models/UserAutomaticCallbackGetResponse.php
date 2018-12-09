@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to UserAutomaticCallbackGetRequest.
  *
  * @see UserAutomaticCallbackGetRequest
- * @Groups [{"id":"531ef68c70e2768c02c1d0afcfe979ab:182","type":"sequence"}]
+ * @Groups [{"id":"3cba5f323319ae2171c7c634ba1811e2:182","type":"sequence"}]
  */
 class UserAutomaticCallbackGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class UserAutomaticCallbackGetResponse extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group 531ef68c70e2768c02c1d0afcfe979ab:182
+     * @Group 3cba5f323319ae2171c7c634ba1811e2:182
      * @var bool|null
      */
     private $isActive = null;

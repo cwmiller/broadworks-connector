@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupBroadWorksAnywhereGetInstanceListResponse
  * @see ErrorResponse
- * @Groups [{"id":"ce478a57dacaeb5f25b35de0633a14fa:103","type":"sequence"}]
+ * @Groups [{"id":"b2dd0919a492fbd36c0e7f346f843ff2:103","type":"sequence"}]
  */
 class GroupBroadWorksAnywhereGetInstanceListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class GroupBroadWorksAnywhereGetInstanceListRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group ce478a57dacaeb5f25b35de0633a14fa:103
+     * @Group b2dd0919a492fbd36c0e7f346f843ff2:103
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,7 +27,7 @@ class GroupBroadWorksAnywhereGetInstanceListRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName groupId
      * @Type string
-     * @Group ce478a57dacaeb5f25b35de0633a14fa:103
+     * @Group b2dd0919a492fbd36c0e7f346f843ff2:103
      * @var string|null
      */
     private $groupId = null;
@@ -36,7 +36,7 @@ class GroupBroadWorksAnywhereGetInstanceListRequest extends \CWM\BroadWorksConne
      * @ElementName groupDepartmentName
      * @Type string
      * @Optional
-     * @Group ce478a57dacaeb5f25b35de0633a14fa:103
+     * @Group b2dd0919a492fbd36c0e7f346f843ff2:103
      * @var string|null
      */
     private $groupDepartmentName = null;

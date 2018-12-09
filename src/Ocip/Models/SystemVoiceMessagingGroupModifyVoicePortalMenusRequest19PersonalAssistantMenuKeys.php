@@ -5,7 +5,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19PersonalAssistantMenuKeys
  *
- * @Groups [{"id":"1624846b7d87d3ab55e907c443fca9d6:1574","type":"sequence"}]
+ * @Groups [{"id":"80c5986946137c505e41f6008c7f75a8:1574","type":"sequence"}]
  */
 class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19PersonalAssistantMenuKeys
 {
@@ -15,7 +15,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19PersonalAssistantM
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 1624846b7d87d3ab55e907c443fca9d6:1574
+     * @Group 80c5986946137c505e41f6008c7f75a8:1574
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $setPresenceToNone = null;
@@ -25,7 +25,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19PersonalAssistantM
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 1624846b7d87d3ab55e907c443fca9d6:1574
+     * @Group 80c5986946137c505e41f6008c7f75a8:1574
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $setPresenceToBusinessTrip = null;
@@ -35,7 +35,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19PersonalAssistantM
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 1624846b7d87d3ab55e907c443fca9d6:1574
+     * @Group 80c5986946137c505e41f6008c7f75a8:1574
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $setPresenceToGoneForTheDay = null;
@@ -45,7 +45,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19PersonalAssistantM
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 1624846b7d87d3ab55e907c443fca9d6:1574
+     * @Group 80c5986946137c505e41f6008c7f75a8:1574
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $setPresenceToLunch = null;
@@ -55,7 +55,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19PersonalAssistantM
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 1624846b7d87d3ab55e907c443fca9d6:1574
+     * @Group 80c5986946137c505e41f6008c7f75a8:1574
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $setPresenceToMeeting = null;
@@ -65,7 +65,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19PersonalAssistantM
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 1624846b7d87d3ab55e907c443fca9d6:1574
+     * @Group 80c5986946137c505e41f6008c7f75a8:1574
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $setPresenceToOutOfOffice = null;
@@ -75,7 +75,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19PersonalAssistantM
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 1624846b7d87d3ab55e907c443fca9d6:1574
+     * @Group 80c5986946137c505e41f6008c7f75a8:1574
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $setPresenceToTemporarilyOut = null;
@@ -85,7 +85,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19PersonalAssistantM
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 1624846b7d87d3ab55e907c443fca9d6:1574
+     * @Group 80c5986946137c505e41f6008c7f75a8:1574
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $setPresenceToTraining = null;
@@ -95,7 +95,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19PersonalAssistantM
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 1624846b7d87d3ab55e907c443fca9d6:1574
+     * @Group 80c5986946137c505e41f6008c7f75a8:1574
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $setPresenceToUnavailable = null;
@@ -105,7 +105,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19PersonalAssistantM
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 1624846b7d87d3ab55e907c443fca9d6:1574
+     * @Group 80c5986946137c505e41f6008c7f75a8:1574
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $setPresenceToVacation = null;
@@ -114,7 +114,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19PersonalAssistantM
      * @ElementName returnToPreviousMenu
      * @Type string
      * @Optional
-     * @Group 1624846b7d87d3ab55e907c443fca9d6:1574
+     * @Group 80c5986946137c505e41f6008c7f75a8:1574
      * @var string|null
      */
     private $returnToPreviousMenu = null;
@@ -124,7 +124,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19PersonalAssistantM
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 1624846b7d87d3ab55e907c443fca9d6:1574
+     * @Group 80c5986946137c505e41f6008c7f75a8:1574
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $repeatMenu = null;

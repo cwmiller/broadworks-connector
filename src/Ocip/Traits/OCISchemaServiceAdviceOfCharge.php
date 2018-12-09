@@ -19,7 +19,8 @@ use CWM\BroadWorksConnector\Ocip\Models\SystemAdviceOfChargeModifyRequest19sp1;
 use CWM\BroadWorksConnector\Ocip\Models\UserAdviceOfChargeGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserAdviceOfChargeGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserAdviceOfChargeModifyRequest;
-use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceAdviceOfCharge
@@ -29,6 +30,7 @@ trait OCISchemaServiceAdviceOfCharge
      * @param GroupAdviceOfChargeGetRequest $request
      * @return GroupAdviceOfChargeGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupAdviceOfChargeGetRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupAdviceOfChargeGetRequest $request)
     {
@@ -39,6 +41,7 @@ trait OCISchemaServiceAdviceOfCharge
      * @param GroupAdviceOfChargeModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupAdviceOfChargeModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupAdviceOfChargeModifyRequest $request)
     {
@@ -49,6 +52,7 @@ trait OCISchemaServiceAdviceOfCharge
      * @param ServiceProviderAdviceOfChargeGetRequest $request
      * @return ServiceProviderAdviceOfChargeGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderAdviceOfChargeGetRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdviceOfChargeGetRequest $request)
     {
@@ -59,6 +63,7 @@ trait OCISchemaServiceAdviceOfCharge
      * @param ServiceProviderAdviceOfChargeModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderAdviceOfChargeModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdviceOfChargeModifyRequest $request)
     {
@@ -69,6 +74,7 @@ trait OCISchemaServiceAdviceOfCharge
      * @param SystemAdviceOfChargeCostInformationSourceAddRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemAdviceOfChargeCostInformationSourceAddRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemAdviceOfChargeCostInformationSourceAddRequest $request)
     {
@@ -79,6 +85,7 @@ trait OCISchemaServiceAdviceOfCharge
      * @param SystemAdviceOfChargeCostInformationSourceDeleteRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemAdviceOfChargeCostInformationSourceDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemAdviceOfChargeCostInformationSourceDeleteRequest $request)
     {
@@ -89,6 +96,7 @@ trait OCISchemaServiceAdviceOfCharge
      * @param SystemAdviceOfChargeCostInformationSourceGetListRequest $request
      * @return SystemAdviceOfChargeCostInformationSourceGetListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemAdviceOfChargeCostInformationSourceGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemAdviceOfChargeCostInformationSourceGetListRequest $request)
     {
@@ -99,6 +107,7 @@ trait OCISchemaServiceAdviceOfCharge
      * @param SystemAdviceOfChargeCostInformationSourceModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemAdviceOfChargeCostInformationSourceModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemAdviceOfChargeCostInformationSourceModifyRequest $request)
     {
@@ -109,6 +118,7 @@ trait OCISchemaServiceAdviceOfCharge
      * @param SystemAdviceOfChargeGetRequest19sp1 $request
      * @return SystemAdviceOfChargeGetResponse19sp1
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemAdviceOfChargeGetRequest19sp1(\CWM\BroadWorksConnector\Ocip\Models\SystemAdviceOfChargeGetRequest19sp1 $request)
     {
@@ -119,6 +129,7 @@ trait OCISchemaServiceAdviceOfCharge
      * @param SystemAdviceOfChargeModifyRequest19sp1 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemAdviceOfChargeModifyRequest19sp1(\CWM\BroadWorksConnector\Ocip\Models\SystemAdviceOfChargeModifyRequest19sp1 $request)
     {
@@ -129,6 +140,7 @@ trait OCISchemaServiceAdviceOfCharge
      * @param UserAdviceOfChargeGetRequest $request
      * @return UserAdviceOfChargeGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userAdviceOfChargeGetRequest(\CWM\BroadWorksConnector\Ocip\Models\UserAdviceOfChargeGetRequest $request)
     {
@@ -139,6 +151,7 @@ trait OCISchemaServiceAdviceOfCharge
      * @param UserAdviceOfChargeModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userAdviceOfChargeModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\UserAdviceOfChargeModifyRequest $request)
     {

@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemAccessDeviceFileGetRequest20.
  *
  * @see SystemAccessDeviceFileGetRequest20
- * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:827","type":"sequence"}]
+ * @Groups [{"id":"b5f5416d9e71f8e4246cda16c4723744:827","type":"sequence"}]
  */
 class SystemAccessDeviceFileGetResponse20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class SystemAccessDeviceFileGetResponse20 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName fileSource
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationMode
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:827
+     * @Group b5f5416d9e71f8e4246cda16c4723744:827
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationMode|null
      */
     private $fileSource = null;
@@ -25,7 +25,7 @@ class SystemAccessDeviceFileGetResponse20 extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName configurationFileName
      * @Type string
      * @Optional
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:827
+     * @Group b5f5416d9e71f8e4246cda16c4723744:827
      * @var string|null
      */
     private $configurationFileName = null;
@@ -33,7 +33,7 @@ class SystemAccessDeviceFileGetResponse20 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName accessUrl
      * @Type string
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:827
+     * @Group b5f5416d9e71f8e4246cda16c4723744:827
      * @var string|null
      */
     private $accessUrl = null;
@@ -42,7 +42,7 @@ class SystemAccessDeviceFileGetResponse20 extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName repositoryUrl
      * @Type string
      * @Optional
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:827
+     * @Group b5f5416d9e71f8e4246cda16c4723744:827
      * @var string|null
      */
     private $repositoryUrl = null;
@@ -51,7 +51,7 @@ class SystemAccessDeviceFileGetResponse20 extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName templateUrl
      * @Type string
      * @Optional
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:827
+     * @Group b5f5416d9e71f8e4246cda16c4723744:827
      * @var string|null
      */
     private $templateUrl = null;
@@ -60,7 +60,7 @@ class SystemAccessDeviceFileGetResponse20 extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName extendedCaptureEnabled
      * @Type bool
      * @Optional
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:827
+     * @Group b5f5416d9e71f8e4246cda16c4723744:827
      * @var bool|null
      */
     private $extendedCaptureEnabled = null;
@@ -69,7 +69,7 @@ class SystemAccessDeviceFileGetResponse20 extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName extendedCaptureURL
      * @Type string
      * @Optional
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:827
+     * @Group b5f5416d9e71f8e4246cda16c4723744:827
      * @var string|null
      */
     private $extendedCaptureURL = null;

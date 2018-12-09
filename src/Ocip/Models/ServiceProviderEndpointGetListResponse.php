@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * 		Possible values for User Type are "User", "CCBasic", "CCStandard", "CCPremium", "RP", "MOH", "MOHVideo".
  *
  * @see ServiceProviderEndpointGetListRequest
- * @Groups [{"id":"8f3ed38751e86ebcc639b5bc5cdef0ec:3320","type":"sequence"}]
+ * @Groups [{"id":"8eb862aea0ee5d4211db0a0d3fe7c164:3320","type":"sequence"}]
  */
 class ServiceProviderEndpointGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,7 +19,7 @@ class ServiceProviderEndpointGetListResponse extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName endpointTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:3320
+     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:3320
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $endpointTable = null;

@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemDeviceManagementTagSetGetListRequest
  * @see SystemDeviceManagementTagSetGetListResponse22
- * @Groups [{"id":"e9727a9f98db3fe2db7ad08079031b73:692","type":"sequence"}]
+ * @Groups [{"id":"bd46fc427b2b0dc182dcd53cf03e95b4:692","type":"sequence"}]
  */
 class SystemDeviceManagementTagSetGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -23,7 +23,7 @@ class SystemDeviceManagementTagSetGetListResponse extends \CWM\BroadWorksConnect
      * @Type string
      * @Array
      * @Optional
-     * @Group e9727a9f98db3fe2db7ad08079031b73:692
+     * @Group bd46fc427b2b0dc182dcd53cf03e95b4:692
      * @var string[]
      */
     private $tagSetName = array(

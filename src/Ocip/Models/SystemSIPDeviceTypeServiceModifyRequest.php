@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:15417","type":"sequence"}]
+ * @Groups [{"id":"b5f5416d9e71f8e4246cda16c4723744:15417","type":"sequence"}]
  */
 class SystemSIPDeviceTypeServiceModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemSIPDeviceTypeServiceModifyRequest extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName deviceType
      * @Type string
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:15417
+     * @Group b5f5416d9e71f8e4246cda16c4723744:15417
      * @var string|null
      */
     private $deviceType = null;
@@ -27,7 +27,7 @@ class SystemSIPDeviceTypeServiceModifyRequest extends \CWM\BroadWorksConnector\O
      * @ElementName supportsPolycomPhoneServices
      * @Type bool
      * @Optional
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:15417
+     * @Group b5f5416d9e71f8e4246cda16c4723744:15417
      * @var bool|null
      */
     private $supportsPolycomPhoneServices = null;

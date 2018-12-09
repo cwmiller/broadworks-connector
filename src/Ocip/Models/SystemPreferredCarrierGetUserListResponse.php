@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "Hiragana Last Name", and "Hiragana First Name", "Extension", "Department".
  *
  * @see SystemPreferredCarrierGetUserListRequest
- * @Groups [{"id":"1384777ce7bd407156102bad44751987:497","type":"sequence"}]
+ * @Groups [{"id":"56f1bd27c6955cc11e0869b6463fb814:497","type":"sequence"}]
  */
 class SystemPreferredCarrierGetUserListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,7 +19,7 @@ class SystemPreferredCarrierGetUserListResponse extends \CWM\BroadWorksConnector
     /**
      * @ElementName usersUsingCarrierTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 1384777ce7bd407156102bad44751987:497
+     * @Group 56f1bd27c6955cc11e0869b6463fb814:497
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $usersUsingCarrierTable = null;

@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to ServiceProviderCallProcessingGetPolicyRequest14.
  *
  * @see ServiceProviderCallProcessingGetPolicyRequest14
- * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:15494","type":"sequence"}]
+ * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:15494","type":"sequence"}]
  */
 class ServiceProviderCallProcessingGetPolicyResponse14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class ServiceProviderCallProcessingGetPolicyResponse14 extends \CWM\BroadWorksCo
     /**
      * @ElementName useMaxSimultaneousCalls
      * @Type bool
-     * @Group 1a79c7896cb04feac6eff47a5321756e:15494
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:15494
      * @var bool|null
      */
     private $useMaxSimultaneousCalls = null;
@@ -24,7 +24,7 @@ class ServiceProviderCallProcessingGetPolicyResponse14 extends \CWM\BroadWorksCo
     /**
      * @ElementName maxSimultaneousCalls
      * @Type int
-     * @Group 1a79c7896cb04feac6eff47a5321756e:15494
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:15494
      * @var int|null
      */
     private $maxSimultaneousCalls = null;
@@ -32,7 +32,7 @@ class ServiceProviderCallProcessingGetPolicyResponse14 extends \CWM\BroadWorksCo
     /**
      * @ElementName useMaxSimultaneousVideoCalls
      * @Type bool
-     * @Group 1a79c7896cb04feac6eff47a5321756e:15494
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:15494
      * @var bool|null
      */
     private $useMaxSimultaneousVideoCalls = null;
@@ -40,7 +40,7 @@ class ServiceProviderCallProcessingGetPolicyResponse14 extends \CWM\BroadWorksCo
     /**
      * @ElementName maxSimultaneousVideoCalls
      * @Type int
-     * @Group 1a79c7896cb04feac6eff47a5321756e:15494
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:15494
      * @var int|null
      */
     private $maxSimultaneousVideoCalls = null;
@@ -48,7 +48,7 @@ class ServiceProviderCallProcessingGetPolicyResponse14 extends \CWM\BroadWorksCo
     /**
      * @ElementName useMaxCallTimeForAnsweredCalls
      * @Type bool
-     * @Group 1a79c7896cb04feac6eff47a5321756e:15494
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:15494
      * @var bool|null
      */
     private $useMaxCallTimeForAnsweredCalls = null;
@@ -56,7 +56,7 @@ class ServiceProviderCallProcessingGetPolicyResponse14 extends \CWM\BroadWorksCo
     /**
      * @ElementName maxCallTimeForAnsweredCallsMinutes
      * @Type int
-     * @Group 1a79c7896cb04feac6eff47a5321756e:15494
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:15494
      * @var int|null
      */
     private $maxCallTimeForAnsweredCallsMinutes = null;
@@ -64,7 +64,7 @@ class ServiceProviderCallProcessingGetPolicyResponse14 extends \CWM\BroadWorksCo
     /**
      * @ElementName useMaxCallTimeForUnansweredCalls
      * @Type bool
-     * @Group 1a79c7896cb04feac6eff47a5321756e:15494
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:15494
      * @var bool|null
      */
     private $useMaxCallTimeForUnansweredCalls = null;
@@ -72,7 +72,7 @@ class ServiceProviderCallProcessingGetPolicyResponse14 extends \CWM\BroadWorksCo
     /**
      * @ElementName maxCallTimeForUnansweredCallsMinutes
      * @Type int
-     * @Group 1a79c7896cb04feac6eff47a5321756e:15494
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:15494
      * @var int|null
      */
     private $maxCallTimeForUnansweredCallsMinutes = null;
@@ -80,7 +80,7 @@ class ServiceProviderCallProcessingGetPolicyResponse14 extends \CWM\BroadWorksCo
     /**
      * @ElementName mediaPolicySelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MediaPolicySelection
-     * @Group 1a79c7896cb04feac6eff47a5321756e:15494
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:15494
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaPolicySelection|null
      */
     private $mediaPolicySelection = null;
@@ -89,7 +89,7 @@ class ServiceProviderCallProcessingGetPolicyResponse14 extends \CWM\BroadWorksCo
      * @ElementName supportedMediaSetName
      * @Type string
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:15494
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:15494
      * @var string|null
      */
     private $supportedMediaSetName = null;
@@ -97,7 +97,7 @@ class ServiceProviderCallProcessingGetPolicyResponse14 extends \CWM\BroadWorksCo
     /**
      * @ElementName networkUsageSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\NetworkUsageSelection
-     * @Group 1a79c7896cb04feac6eff47a5321756e:15494
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:15494
      * @var \CWM\BroadWorksConnector\Ocip\Models\NetworkUsageSelection|null
      */
     private $networkUsageSelection = null;
@@ -105,7 +105,7 @@ class ServiceProviderCallProcessingGetPolicyResponse14 extends \CWM\BroadWorksCo
     /**
      * @ElementName enforceGroupCallingLineIdentityRestriction
      * @Type bool
-     * @Group 1a79c7896cb04feac6eff47a5321756e:15494
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:15494
      * @var bool|null
      */
     private $enforceGroupCallingLineIdentityRestriction = null;
@@ -113,7 +113,7 @@ class ServiceProviderCallProcessingGetPolicyResponse14 extends \CWM\BroadWorksCo
     /**
      * @ElementName enforceEnterpriseCallingLineIdentityRestriction
      * @Type bool
-     * @Group 1a79c7896cb04feac6eff47a5321756e:15494
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:15494
      * @var bool|null
      */
     private $enforceEnterpriseCallingLineIdentityRestriction = null;
@@ -121,7 +121,7 @@ class ServiceProviderCallProcessingGetPolicyResponse14 extends \CWM\BroadWorksCo
     /**
      * @ElementName useSettingLevel
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderConferenceURISettingLevel
-     * @Group 1a79c7896cb04feac6eff47a5321756e:15494
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:15494
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderConferenceURISettingLevel|null
      */
     private $useSettingLevel = null;
@@ -130,7 +130,7 @@ class ServiceProviderCallProcessingGetPolicyResponse14 extends \CWM\BroadWorksCo
      * @ElementName conferenceURI
      * @Type string
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:15494
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:15494
      * @var string|null
      */
     private $conferenceURI = null;

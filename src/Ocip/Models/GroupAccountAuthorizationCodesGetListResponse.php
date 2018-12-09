@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to GroupAccountAuthorizationCodesGetListRequest.
  *
  * @see GroupAccountAuthorizationCodesGetListRequest
- * @Groups [{"id":"ab77d49abc146ee44a9626534896ad51:141","type":"sequence"}]
+ * @Groups [{"id":"cf39a77cc27bd00da9f2520a22424344:141","type":"sequence"}]
  */
 class GroupAccountAuthorizationCodesGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class GroupAccountAuthorizationCodesGetListResponse extends \CWM\BroadWorksConne
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccountAuthorizationCodeEntry
      * @Array
      * @Optional
-     * @Group ab77d49abc146ee44a9626534896ad51:141
+     * @Group cf39a77cc27bd00da9f2520a22424344:141
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccountAuthorizationCodeEntry[]
      */
     private $codeEntry = array(

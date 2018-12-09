@@ -5,7 +5,8 @@ namespace CWM\BroadWorksConnector\Ocip\Traits;
 use CWM\BroadWorksConnector\Ocip\Models\UserCallForwardingAlwaysGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserCallForwardingAlwaysGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserCallForwardingAlwaysModifyRequest;
-use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceCallForwardingAlways
@@ -15,6 +16,7 @@ trait OCISchemaServiceCallForwardingAlways
      * @param UserCallForwardingAlwaysGetRequest $request
      * @return UserCallForwardingAlwaysGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userCallForwardingAlwaysGetRequest(\CWM\BroadWorksConnector\Ocip\Models\UserCallForwardingAlwaysGetRequest $request)
     {
@@ -25,6 +27,7 @@ trait OCISchemaServiceCallForwardingAlways
      * @param UserCallForwardingAlwaysModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userCallForwardingAlwaysModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\UserCallForwardingAlwaysModifyRequest $request)
     {

@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"d7a3faa291b985d963cf43a21af19b28:267","type":"sequence"}]
+ * @Groups [{"id":"fb1070190f79a86aa955448146b539c7:267","type":"sequence"}]
  */
 class SystemAdviceOfChargeModifyRequest19sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class SystemAdviceOfChargeModifyRequest19sp1 extends \CWM\BroadWorksConnector\Oc
      * @ElementName delayBetweenNotificationSeconds
      * @Type int
      * @Optional
-     * @Group d7a3faa291b985d963cf43a21af19b28:267
+     * @Group fb1070190f79a86aa955448146b539c7:267
      * @var int|null
      */
     private $delayBetweenNotificationSeconds = null;
@@ -28,7 +28,7 @@ class SystemAdviceOfChargeModifyRequest19sp1 extends \CWM\BroadWorksConnector\Oc
      * @ElementName incomingAocHandling
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AdviceOfChargeIncomingAocHandling
      * @Optional
-     * @Group d7a3faa291b985d963cf43a21af19b28:267
+     * @Group fb1070190f79a86aa955448146b539c7:267
      * @var \CWM\BroadWorksConnector\Ocip\Models\AdviceOfChargeIncomingAocHandling|null
      */
     private $incomingAocHandling = null;
@@ -37,7 +37,7 @@ class SystemAdviceOfChargeModifyRequest19sp1 extends \CWM\BroadWorksConnector\Oc
      * @ElementName useOCSEnquiry
      * @Type bool
      * @Optional
-     * @Group d7a3faa291b985d963cf43a21af19b28:267
+     * @Group fb1070190f79a86aa955448146b539c7:267
      * @var bool|null
      */
     private $useOCSEnquiry = null;
@@ -46,7 +46,7 @@ class SystemAdviceOfChargeModifyRequest19sp1 extends \CWM\BroadWorksConnector\Oc
      * @ElementName OCSEnquiryType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AdviceOfChargeOCSEnquiryType
      * @Optional
-     * @Group d7a3faa291b985d963cf43a21af19b28:267
+     * @Group fb1070190f79a86aa955448146b539c7:267
      * @var \CWM\BroadWorksConnector\Ocip\Models\AdviceOfChargeOCSEnquiryType|null
      */
     private $OCSEnquiryType = null;

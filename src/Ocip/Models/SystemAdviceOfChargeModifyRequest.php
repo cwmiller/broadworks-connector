@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SuccessResponse
  * @see ErrorResponse
  * @see SystemAdviceOfChargeModifyRequest19sp1
- * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:17252","type":"sequence"}]
+ * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:17252","type":"sequence"}]
  */
 class SystemAdviceOfChargeModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -22,7 +22,7 @@ class SystemAdviceOfChargeModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName delayBetweenNotificationSeconds
      * @Type int
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:17252
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:17252
      * @var int|null
      */
     private $delayBetweenNotificationSeconds = null;
@@ -31,7 +31,7 @@ class SystemAdviceOfChargeModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName incomingAocHandling
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AdviceOfChargeIncomingAocHandling
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:17252
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:17252
      * @var \CWM\BroadWorksConnector\Ocip\Models\AdviceOfChargeIncomingAocHandling|null
      */
     private $incomingAocHandling = null;
@@ -41,7 +41,7 @@ class SystemAdviceOfChargeModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:17252
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:17252
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $costInformationSource = null;

@@ -11,7 +11,8 @@ use CWM\BroadWorksConnector\Ocip\Models\SystemGroupNightForwardingModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserGroupNightForwardingGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserGroupNightForwardingGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserGroupNightForwardingModifyRequest;
-use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceGroupNightForwarding
@@ -21,6 +22,7 @@ trait OCISchemaServiceGroupNightForwarding
      * @param GroupGroupNightForwardingGetRequest $request
      * @return GroupGroupNightForwardingGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupGroupNightForwardingGetRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupGroupNightForwardingGetRequest $request)
     {
@@ -31,6 +33,7 @@ trait OCISchemaServiceGroupNightForwarding
      * @param GroupGroupNightForwardingModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupGroupNightForwardingModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupGroupNightForwardingModifyRequest $request)
     {
@@ -41,6 +44,7 @@ trait OCISchemaServiceGroupNightForwarding
      * @param SystemGroupNightForwardingGetRequest $request
      * @return SystemGroupNightForwardingGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemGroupNightForwardingGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemGroupNightForwardingGetRequest $request)
     {
@@ -51,6 +55,7 @@ trait OCISchemaServiceGroupNightForwarding
      * @param SystemGroupNightForwardingModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemGroupNightForwardingModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemGroupNightForwardingModifyRequest $request)
     {
@@ -61,6 +66,7 @@ trait OCISchemaServiceGroupNightForwarding
      * @param UserGroupNightForwardingGetRequest $request
      * @return UserGroupNightForwardingGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userGroupNightForwardingGetRequest(\CWM\BroadWorksConnector\Ocip\Models\UserGroupNightForwardingGetRequest $request)
     {
@@ -71,6 +77,7 @@ trait OCISchemaServiceGroupNightForwarding
      * @param UserGroupNightForwardingModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userGroupNightForwardingModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\UserGroupNightForwardingModifyRequest $request)
     {

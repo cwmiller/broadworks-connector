@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserCallWaitingGetResponse17sp4
  * @see ErrorResponse
- * @Groups [{"id":"2ac069c193b2fa3e8e56b9a8c28151b7:90","type":"sequence"}]
+ * @Groups [{"id":"d1af39406de4d2ca185b7dffa8e67779:90","type":"sequence"}]
  */
 class UserCallWaitingGetRequest17sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class UserCallWaitingGetRequest17sp4 extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName userId
      * @Type string
-     * @Group 2ac069c193b2fa3e8e56b9a8c28151b7:90
+     * @Group d1af39406de4d2ca185b7dffa8e67779:90
      * @var string|null
      */
     private $userId = null;

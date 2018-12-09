@@ -11,7 +11,8 @@ use CWM\BroadWorksConnector\Ocip\Models\GroupAccountAuthorizationCodesGetListRes
 use CWM\BroadWorksConnector\Ocip\Models\GroupAccountAuthorizationCodesGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupAccountAuthorizationCodesGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupAccountAuthorizationCodesModifyRequest;
-use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceAccountAuthorizationCodes
@@ -21,6 +22,7 @@ trait OCISchemaServiceAccountAuthorizationCodes
      * @param GroupAccountAuthorizationCodesAddListRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupAccountAuthorizationCodesAddListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupAccountAuthorizationCodesAddListRequest $request)
     {
@@ -31,6 +33,7 @@ trait OCISchemaServiceAccountAuthorizationCodes
      * @param GroupAccountAuthorizationCodesDeleteListRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupAccountAuthorizationCodesDeleteListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupAccountAuthorizationCodesDeleteListRequest $request)
     {
@@ -41,6 +44,7 @@ trait OCISchemaServiceAccountAuthorizationCodes
      * @param GroupAccountAuthorizationCodesGetAvailableUserListRequest $request
      * @return GroupAccountAuthorizationCodesGetAvailableUserListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupAccountAuthorizationCodesGetAvailableUserListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupAccountAuthorizationCodesGetAvailableUserListRequest $request)
     {
@@ -51,6 +55,7 @@ trait OCISchemaServiceAccountAuthorizationCodes
      * @param GroupAccountAuthorizationCodesGetListRequest $request
      * @return GroupAccountAuthorizationCodesGetListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupAccountAuthorizationCodesGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupAccountAuthorizationCodesGetListRequest $request)
     {
@@ -61,6 +66,7 @@ trait OCISchemaServiceAccountAuthorizationCodes
      * @param GroupAccountAuthorizationCodesGetRequest $request
      * @return GroupAccountAuthorizationCodesGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupAccountAuthorizationCodesGetRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupAccountAuthorizationCodesGetRequest $request)
     {
@@ -71,6 +77,7 @@ trait OCISchemaServiceAccountAuthorizationCodes
      * @param GroupAccountAuthorizationCodesModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupAccountAuthorizationCodesModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupAccountAuthorizationCodesModifyRequest $request)
     {

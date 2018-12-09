@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:9210","type":"sequence"}]
+ * @Groups [{"id":"b5f5416d9e71f8e4246cda16c4723744:9210","type":"sequence"}]
  */
 class SystemGETSModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,7 +21,7 @@ class SystemGETSModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @ElementName enabled
      * @Type bool
      * @Optional
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:9210
+     * @Group b5f5416d9e71f8e4246cda16c4723744:9210
      * @var bool|null
      */
     private $enabled = null;
@@ -30,7 +30,7 @@ class SystemGETSModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @ElementName enableRequireResourcePriority
      * @Type bool
      * @Optional
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:9210
+     * @Group b5f5416d9e71f8e4246cda16c4723744:9210
      * @var bool|null
      */
     private $enableRequireResourcePriority = null;
@@ -39,7 +39,7 @@ class SystemGETSModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @ElementName sendAccessResourcePriority
      * @Type bool
      * @Optional
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:9210
+     * @Group b5f5416d9e71f8e4246cda16c4723744:9210
      * @var bool|null
      */
     private $sendAccessResourcePriority = null;
@@ -48,7 +48,7 @@ class SystemGETSModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @ElementName callIdentifierMode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GETSCallIdentifierMode
      * @Optional
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:9210
+     * @Group b5f5416d9e71f8e4246cda16c4723744:9210
      * @var \CWM\BroadWorksConnector\Ocip\Models\GETSCallIdentifierMode|null
      */
     private $callIdentifierMode = null;
@@ -57,7 +57,7 @@ class SystemGETSModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @ElementName defaultPriorityAVP
      * @Type int
      * @Optional
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:9210
+     * @Group b5f5416d9e71f8e4246cda16c4723744:9210
      * @var int|null
      */
     private $defaultPriorityAVP = null;
@@ -66,7 +66,7 @@ class SystemGETSModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @ElementName signalingDSCP
      * @Type int
      * @Optional
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:9210
+     * @Group b5f5416d9e71f8e4246cda16c4723744:9210
      * @var int|null
      */
     private $signalingDSCP = null;
@@ -75,7 +75,7 @@ class SystemGETSModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @ElementName defaultRValue
      * @Type string
      * @Optional
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:9210
+     * @Group b5f5416d9e71f8e4246cda16c4723744:9210
      * @var string|null
      */
     private $defaultRValue = null;
@@ -84,7 +84,7 @@ class SystemGETSModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @ElementName bypassRoRelease
      * @Type bool
      * @Optional
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:9210
+     * @Group b5f5416d9e71f8e4246cda16c4723744:9210
      * @var bool|null
      */
     private $bypassRoRelease = null;

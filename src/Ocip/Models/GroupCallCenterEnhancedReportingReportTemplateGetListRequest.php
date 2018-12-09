@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupCallCenterEnhancedReportingReportTemplateGetListResponse
  * @see ErrorResponse
- * @Groups [{"id":"69c2aeb1186dc97a4f4c36d9609ddb49:3132","type":"sequence"}]
+ * @Groups [{"id":"3ac5f05d969bc771d6ba8d344d95aa72:3132","type":"sequence"}]
  */
 class GroupCallCenterEnhancedReportingReportTemplateGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupCallCenterEnhancedReportingReportTemplateGetListRequest extends \CWM\
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:3132
+     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:3132
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,7 +26,7 @@ class GroupCallCenterEnhancedReportingReportTemplateGetListRequest extends \CWM\
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:3132
+     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:3132
      * @var string|null
      */
     private $groupId = null;

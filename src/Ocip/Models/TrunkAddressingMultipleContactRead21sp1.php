@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The following elements are only used in AS data mode and are ignored in XS data mode:
  *           physicalLocation
  *
- * @Groups [{"id":"18b369af88e42ffdb4166615c670ce2c:3725","type":"sequence"}]
+ * @Groups [{"id":"8e629edbac315ae7889caca732382c44:3725","type":"sequence"}]
  */
 class TrunkAddressingMultipleContactRead21sp1
 {
@@ -19,7 +19,7 @@ class TrunkAddressingMultipleContactRead21sp1
      * @ElementName trunkGroupDeviceEndpoint
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupDeviceMultipleContactEndpointRead
      * @Optional
-     * @Group 18b369af88e42ffdb4166615c670ce2c:3725
+     * @Group 8e629edbac315ae7889caca732382c44:3725
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupDeviceMultipleContactEndpointRead|null
      */
     private $trunkGroupDeviceEndpoint = null;
@@ -28,7 +28,7 @@ class TrunkAddressingMultipleContactRead21sp1
      * @ElementName enterpriseTrunkName
      * @Type string
      * @Optional
-     * @Group 18b369af88e42ffdb4166615c670ce2c:3725
+     * @Group 8e629edbac315ae7889caca732382c44:3725
      * @var string|null
      */
     private $enterpriseTrunkName = null;
@@ -37,7 +37,7 @@ class TrunkAddressingMultipleContactRead21sp1
      * @ElementName alternateTrunkIdentity
      * @Type string
      * @Optional
-     * @Group 18b369af88e42ffdb4166615c670ce2c:3725
+     * @Group 8e629edbac315ae7889caca732382c44:3725
      * @var string|null
      */
     private $alternateTrunkIdentity = null;
@@ -46,7 +46,7 @@ class TrunkAddressingMultipleContactRead21sp1
      * @ElementName alternateTrunkIdentityDomain
      * @Type string
      * @Optional
-     * @Group 18b369af88e42ffdb4166615c670ce2c:3725
+     * @Group 8e629edbac315ae7889caca732382c44:3725
      * @var string|null
      */
     private $alternateTrunkIdentityDomain = null;
@@ -55,7 +55,7 @@ class TrunkAddressingMultipleContactRead21sp1
      * @ElementName physicalLocation
      * @Type string
      * @Optional
-     * @Group 18b369af88e42ffdb4166615c670ce2c:3725
+     * @Group 8e629edbac315ae7889caca732382c44:3725
      * @var string|null
      */
     private $physicalLocation = null;

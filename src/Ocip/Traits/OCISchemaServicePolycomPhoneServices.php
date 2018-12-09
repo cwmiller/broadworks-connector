@@ -10,7 +10,8 @@ use CWM\BroadWorksConnector\Ocip\Models\UserPolycomPhoneServicesGetPrimaryEndpoi
 use CWM\BroadWorksConnector\Ocip\Models\UserPolycomPhoneServicesGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserPolycomPhoneServicesGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserPolycomPhoneServicesModifyRequest;
-use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServicePolycomPhoneServices
@@ -20,6 +21,7 @@ trait OCISchemaServicePolycomPhoneServices
      * @param GroupPolycomPhoneServicesGetRequest $request
      * @return GroupPolycomPhoneServicesGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupPolycomPhoneServicesGetRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupPolycomPhoneServicesGetRequest $request)
     {
@@ -30,6 +32,7 @@ trait OCISchemaServicePolycomPhoneServices
      * @param GroupPolycomPhoneServicesModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupPolycomPhoneServicesModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupPolycomPhoneServicesModifyRequest $request)
     {
@@ -40,6 +43,7 @@ trait OCISchemaServicePolycomPhoneServices
      * @param UserPolycomPhoneServicesGetPrimaryEndpointListRequest $request
      * @return UserPolycomPhoneServicesGetPrimaryEndpointListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userPolycomPhoneServicesGetPrimaryEndpointListRequest(\CWM\BroadWorksConnector\Ocip\Models\UserPolycomPhoneServicesGetPrimaryEndpointListRequest $request)
     {
@@ -50,6 +54,7 @@ trait OCISchemaServicePolycomPhoneServices
      * @param UserPolycomPhoneServicesGetRequest $request
      * @return UserPolycomPhoneServicesGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userPolycomPhoneServicesGetRequest(\CWM\BroadWorksConnector\Ocip\Models\UserPolycomPhoneServicesGetRequest $request)
     {
@@ -60,6 +65,7 @@ trait OCISchemaServicePolycomPhoneServices
      * @param UserPolycomPhoneServicesModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userPolycomPhoneServicesModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\UserPolycomPhoneServicesModifyRequest $request)
     {

@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:22928","type":"sequence"}]
+ * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:22928","type":"sequence"}]
  */
 class SystemMediaAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemMediaAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRe
     /**
      * @ElementName mediaName
      * @Type string
-     * @Group 1a79c7896cb04feac6eff47a5321756e:22928
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:22928
      * @var string|null
      */
     private $mediaName = null;
@@ -26,7 +26,7 @@ class SystemMediaAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRe
     /**
      * @ElementName codecName
      * @Type string
-     * @Group 1a79c7896cb04feac6eff47a5321756e:22928
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:22928
      * @var string|null
      */
     private $codecName = null;
@@ -34,7 +34,7 @@ class SystemMediaAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRe
     /**
      * @ElementName mediaType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MediaType
-     * @Group 1a79c7896cb04feac6eff47a5321756e:22928
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:22928
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaType|null
      */
     private $mediaType = null;
@@ -42,7 +42,7 @@ class SystemMediaAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRe
     /**
      * @ElementName bandwidthEnforcementType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MediaBandwidthEnforcementType
-     * @Group 1a79c7896cb04feac6eff47a5321756e:22928
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:22928
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaBandwidthEnforcementType|null
      */
     private $bandwidthEnforcementType = null;
@@ -51,7 +51,7 @@ class SystemMediaAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRe
      * @ElementName mediaBandwidth
      * @Type int
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:22928
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:22928
      * @var int|null
      */
     private $mediaBandwidth = null;

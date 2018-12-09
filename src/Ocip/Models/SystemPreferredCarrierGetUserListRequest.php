@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemPreferredCarrierGetUserListResponse
  * @see ErrorResponse
- * @Groups [{"id":"1384777ce7bd407156102bad44751987:472","type":"sequence"}]
+ * @Groups [{"id":"56f1bd27c6955cc11e0869b6463fb814:472","type":"sequence"}]
  */
 class SystemPreferredCarrierGetUserListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,7 +21,7 @@ class SystemPreferredCarrierGetUserListRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName carrier
      * @Type string
-     * @Group 1384777ce7bd407156102bad44751987:472
+     * @Group 56f1bd27c6955cc11e0869b6463fb814:472
      * @var string|null
      */
     private $carrier = null;
@@ -30,7 +30,7 @@ class SystemPreferredCarrierGetUserListRequest extends \CWM\BroadWorksConnector\
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group 1384777ce7bd407156102bad44751987:472
+     * @Group 56f1bd27c6955cc11e0869b6463fb814:472
      * @var int|null
      */
     private $responseSizeLimit = null;
@@ -40,7 +40,7 @@ class SystemPreferredCarrierGetUserListRequest extends \CWM\BroadWorksConnector\
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName
      * @Array
      * @Optional
-     * @Group 1384777ce7bd407156102bad44751987:472
+     * @Group 56f1bd27c6955cc11e0869b6463fb814:472
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[]
      */
     private $searchCriteriaUserLastName = array(
@@ -52,7 +52,7 @@ class SystemPreferredCarrierGetUserListRequest extends \CWM\BroadWorksConnector\
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName
      * @Array
      * @Optional
-     * @Group 1384777ce7bd407156102bad44751987:472
+     * @Group 56f1bd27c6955cc11e0869b6463fb814:472
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName[]
      */
     private $searchCriteriaUserFirstName = array(
@@ -64,7 +64,7 @@ class SystemPreferredCarrierGetUserListRequest extends \CWM\BroadWorksConnector\
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn
      * @Array
      * @Optional
-     * @Group 1384777ce7bd407156102bad44751987:472
+     * @Group 56f1bd27c6955cc11e0869b6463fb814:472
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[]
      */
     private $searchCriteriaDn = array(
@@ -76,7 +76,7 @@ class SystemPreferredCarrierGetUserListRequest extends \CWM\BroadWorksConnector\
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaEmailAddress
      * @Array
      * @Optional
-     * @Group 1384777ce7bd407156102bad44751987:472
+     * @Group 56f1bd27c6955cc11e0869b6463fb814:472
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaEmailAddress[]
      */
     private $searchCriteriaEmailAddress = array(
@@ -88,7 +88,7 @@ class SystemPreferredCarrierGetUserListRequest extends \CWM\BroadWorksConnector\
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId
      * @Array
      * @Optional
-     * @Group 1384777ce7bd407156102bad44751987:472
+     * @Group 56f1bd27c6955cc11e0869b6463fb814:472
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId[]
      */
     private $searchCriteriaUserId = array(
@@ -100,7 +100,7 @@ class SystemPreferredCarrierGetUserListRequest extends \CWM\BroadWorksConnector\
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension
      * @Array
      * @Optional
-     * @Group 1384777ce7bd407156102bad44751987:472
+     * @Group 56f1bd27c6955cc11e0869b6463fb814:472
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension[]
      */
     private $searchCriteriaExtension = array(

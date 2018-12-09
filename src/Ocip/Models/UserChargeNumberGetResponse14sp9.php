@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to UserChargeNumberGetRequest14sp9.
  *
  * @see UserChargeNumberGetRequest14sp9
- * @Groups [{"id":"90740443ad13cd13b6013286b20750fc:56","type":"sequence"}]
+ * @Groups [{"id":"071191af90cb04dd7933dec3923aa3ce:56","type":"sequence"}]
  */
 class UserChargeNumberGetResponse14sp9 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class UserChargeNumberGetResponse14sp9 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName phoneNumber
      * @Type string
      * @Optional
-     * @Group 90740443ad13cd13b6013286b20750fc:56
+     * @Group 071191af90cb04dd7933dec3923aa3ce:56
      * @var string|null
      */
     private $phoneNumber = null;
@@ -25,7 +25,7 @@ class UserChargeNumberGetResponse14sp9 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName useChargeNumberForEnhancedTranslations
      * @Type bool
-     * @Group 90740443ad13cd13b6013286b20750fc:56
+     * @Group 071191af90cb04dd7933dec3923aa3ce:56
      * @var bool|null
      */
     private $useChargeNumberForEnhancedTranslations = null;
@@ -33,7 +33,7 @@ class UserChargeNumberGetResponse14sp9 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName sendChargeNumberToNetwork
      * @Type bool
-     * @Group 90740443ad13cd13b6013286b20750fc:56
+     * @Group 071191af90cb04dd7933dec3923aa3ce:56
      * @var bool|null
      */
     private $sendChargeNumberToNetwork = null;

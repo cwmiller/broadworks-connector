@@ -14,7 +14,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SystemCallProcessingPolicyProfileMeetMeConferencingProfileGetResponse
  * @see ErrorResponse
  * @see SystemCallProcessingPolicyProfileMeetMeConferencingProfileGetRequest22
- * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:19956","type":"sequence"}]
+ * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:19956","type":"sequence"}]
  */
 class SystemCallProcessingPolicyProfileMeetMeConferencingProfileGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -22,7 +22,7 @@ class SystemCallProcessingPolicyProfileMeetMeConferencingProfileGetRequest exten
     /**
      * @ElementName callProcessingPolicyProfileName
      * @Type string
-     * @Group 1a79c7896cb04feac6eff47a5321756e:19956
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:19956
      * @var string|null
      */
     private $callProcessingPolicyProfileName = null;

@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"a7cf2420de189d76c278c486b4b2b0c3:195","type":"sequence"}]
+ * @Groups [{"id":"b13911393ae4d700b4d51c80e9950cad:195","type":"sequence"}]
  */
 class UserLegacyAutomaticCallbackModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserLegacyAutomaticCallbackModifyRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName userId
      * @Type string
-     * @Group a7cf2420de189d76c278c486b4b2b0c3:195
+     * @Group b13911393ae4d700b4d51c80e9950cad:195
      * @var string|null
      */
     private $userId = null;
@@ -27,7 +27,7 @@ class UserLegacyAutomaticCallbackModifyRequest extends \CWM\BroadWorksConnector\
      * @ElementName isActive
      * @Type bool
      * @Optional
-     * @Group a7cf2420de189d76c278c486b4b2b0c3:195
+     * @Group b13911393ae4d700b4d51c80e9950cad:195
      * @var bool|null
      */
     private $isActive = null;

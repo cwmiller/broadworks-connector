@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to GroupPolycomPhoneServicesGetRequest.
  *
  * @see GroupPolycomPhoneServicesGetRequest
- * @Groups [{"id":"ddf1151cc200dc2ff4c778831927e902:62","type":"sequence"}]
+ * @Groups [{"id":"dfb97f73716e9f703ab24fbcfb1f433a:62","type":"sequence"}]
  */
 class GroupPolycomPhoneServicesGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class GroupPolycomPhoneServicesGetResponse extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName includeGroupCommonPhoneListInDirectory
      * @Type bool
-     * @Group ddf1151cc200dc2ff4c778831927e902:62
+     * @Group dfb97f73716e9f703ab24fbcfb1f433a:62
      * @var bool|null
      */
     private $includeGroupCommonPhoneListInDirectory = null;
@@ -24,7 +24,7 @@ class GroupPolycomPhoneServicesGetResponse extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName includeGroupCustomContactDirectoryInDirectory
      * @Type bool
-     * @Group ddf1151cc200dc2ff4c778831927e902:62
+     * @Group dfb97f73716e9f703ab24fbcfb1f433a:62
      * @var bool|null
      */
     private $includeGroupCustomContactDirectoryInDirectory = null;
@@ -33,7 +33,7 @@ class GroupPolycomPhoneServicesGetResponse extends \CWM\BroadWorksConnector\Ocip
      * @ElementName groupCustomContactDirectory
      * @Type string
      * @Optional
-     * @Group ddf1151cc200dc2ff4c778831927e902:62
+     * @Group dfb97f73716e9f703ab24fbcfb1f433a:62
      * @var string|null
      */
     private $groupCustomContactDirectory = null;

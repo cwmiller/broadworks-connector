@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupSeriesCompletionGetInstanceResponse
  * @see ErrorResponse
- * @Groups [{"id":"32aa045fae08b992230059afdb58d2a9:160","type":"sequence"}]
+ * @Groups [{"id":"50d7061385a4ccc59235c104f69a18f0:160","type":"sequence"}]
  */
 class GroupSeriesCompletionGetInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupSeriesCompletionGetInstanceRequest extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 32aa045fae08b992230059afdb58d2a9:160
+     * @Group 50d7061385a4ccc59235c104f69a18f0:160
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,7 +26,7 @@ class GroupSeriesCompletionGetInstanceRequest extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 32aa045fae08b992230059afdb58d2a9:160
+     * @Group 50d7061385a4ccc59235c104f69a18f0:160
      * @var string|null
      */
     private $groupId = null;
@@ -34,7 +34,7 @@ class GroupSeriesCompletionGetInstanceRequest extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName name
      * @Type string
-     * @Group 32aa045fae08b992230059afdb58d2a9:160
+     * @Group 50d7061385a4ccc59235c104f69a18f0:160
      * @var string|null
      */
     private $name = null;

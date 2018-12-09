@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"8366f5f5d1fbfb9742236aba282c1dab:545","type":"sequence"}]
+ * @Groups [{"id":"80676ea6f2582b1b88573623a6affc0e:545","type":"sequence"}]
  */
 class GroupOutgoingCallingPlanPinholeDigitPatternModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupOutgoingCallingPlanPinholeDigitPatternModifyRequest extends \CWM\Broa
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 8366f5f5d1fbfb9742236aba282c1dab:545
+     * @Group 80676ea6f2582b1b88573623a6affc0e:545
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,7 +26,7 @@ class GroupOutgoingCallingPlanPinholeDigitPatternModifyRequest extends \CWM\Broa
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 8366f5f5d1fbfb9742236aba282c1dab:545
+     * @Group 80676ea6f2582b1b88573623a6affc0e:545
      * @var string|null
      */
     private $groupId = null;
@@ -34,7 +34,7 @@ class GroupOutgoingCallingPlanPinholeDigitPatternModifyRequest extends \CWM\Broa
     /**
      * @ElementName name
      * @Type string
-     * @Group 8366f5f5d1fbfb9742236aba282c1dab:545
+     * @Group 80676ea6f2582b1b88573623a6affc0e:545
      * @var string|null
      */
     private $name = null;
@@ -43,7 +43,7 @@ class GroupOutgoingCallingPlanPinholeDigitPatternModifyRequest extends \CWM\Broa
      * @ElementName digitPattern
      * @Type string
      * @Optional
-     * @Group 8366f5f5d1fbfb9742236aba282c1dab:545
+     * @Group 80676ea6f2582b1b88573623a6affc0e:545
      * @var string|null
      */
     private $digitPattern = null;

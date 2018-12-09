@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Enterprise Voice VPN Digit Manipulation Entry that has no value.
  *
- * @Groups [{"id":"b561eca19800e0898f471e5e91eb3baa:1589","type":"sequence"}]
+ * @Groups [{"id":"889c8c305076ef39cc50c70d0c2dc820:1589","type":"sequence"}]
  */
 class EnterpriseVoiceVPNDigitManipulationNoValue extends EnterpriseVoiceVPNDigitManipulation
 {
@@ -15,7 +15,7 @@ class EnterpriseVoiceVPNDigitManipulationNoValue extends EnterpriseVoiceVPNDigit
     /**
      * @ElementName operation
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNDigitManipulationOperationNoValue
-     * @Group b561eca19800e0898f471e5e91eb3baa:1589
+     * @Group 889c8c305076ef39cc50c70d0c2dc820:1589
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNDigitManipulationOperationNoValue|null
      */
     private $operation = null;

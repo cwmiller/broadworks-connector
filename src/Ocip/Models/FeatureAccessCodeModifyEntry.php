@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Feature Access Code Entry to be used in all the system, service provider and 
  *           group modify commands.
  *
- * @Groups [{"id":"18b369af88e42ffdb4166615c670ce2c:2000","type":"sequence"}]
+ * @Groups [{"id":"8e629edbac315ae7889caca732382c44:2000","type":"sequence"}]
  */
 class FeatureAccessCodeModifyEntry
 {
@@ -16,7 +16,7 @@ class FeatureAccessCodeModifyEntry
     /**
      * @ElementName featureAccessCodeName
      * @Type string
-     * @Group 18b369af88e42ffdb4166615c670ce2c:2000
+     * @Group 8e629edbac315ae7889caca732382c44:2000
      * @var string|null
      */
     private $featureAccessCodeName = null;
@@ -25,7 +25,7 @@ class FeatureAccessCodeModifyEntry
      * @ElementName mainCode
      * @Type string
      * @Optional
-     * @Group 18b369af88e42ffdb4166615c670ce2c:2000
+     * @Group 8e629edbac315ae7889caca732382c44:2000
      * @var string|null
      */
     private $mainCode = null;
@@ -35,7 +35,7 @@ class FeatureAccessCodeModifyEntry
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 18b369af88e42ffdb4166615c670ce2c:2000
+     * @Group 8e629edbac315ae7889caca732382c44:2000
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $alternateCode = null;
@@ -44,7 +44,7 @@ class FeatureAccessCodeModifyEntry
      * @ElementName enableFAC
      * @Type bool
      * @Optional
-     * @Group 18b369af88e42ffdb4166615c670ce2c:2000
+     * @Group 8e629edbac315ae7889caca732382c44:2000
      * @var bool|null
      */
     private $enableFAC = null;

@@ -10,7 +10,8 @@ use CWM\BroadWorksConnector\Ocip\Models\UserSimultaneousRingPersonalGetRequest17
 use CWM\BroadWorksConnector\Ocip\Models\UserSimultaneousRingPersonalGetResponse17;
 use CWM\BroadWorksConnector\Ocip\Models\UserSimultaneousRingPersonalModifyCriteriaRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserSimultaneousRingPersonalModifyRequest17;
-use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceSimultaneousRingPersonal
@@ -20,6 +21,7 @@ trait OCISchemaServiceSimultaneousRingPersonal
      * @param UserSimultaneousRingPersonalAddCriteriaRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userSimultaneousRingPersonalAddCriteriaRequest(\CWM\BroadWorksConnector\Ocip\Models\UserSimultaneousRingPersonalAddCriteriaRequest $request)
     {
@@ -30,6 +32,7 @@ trait OCISchemaServiceSimultaneousRingPersonal
      * @param UserSimultaneousRingPersonalDeleteCriteriaRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userSimultaneousRingPersonalDeleteCriteriaRequest(\CWM\BroadWorksConnector\Ocip\Models\UserSimultaneousRingPersonalDeleteCriteriaRequest $request)
     {
@@ -40,6 +43,7 @@ trait OCISchemaServiceSimultaneousRingPersonal
      * @param UserSimultaneousRingPersonalGetCriteriaRequest $request
      * @return UserSimultaneousRingPersonalGetCriteriaResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userSimultaneousRingPersonalGetCriteriaRequest(\CWM\BroadWorksConnector\Ocip\Models\UserSimultaneousRingPersonalGetCriteriaRequest $request)
     {
@@ -50,6 +54,7 @@ trait OCISchemaServiceSimultaneousRingPersonal
      * @param UserSimultaneousRingPersonalGetRequest17 $request
      * @return UserSimultaneousRingPersonalGetResponse17
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userSimultaneousRingPersonalGetRequest17(\CWM\BroadWorksConnector\Ocip\Models\UserSimultaneousRingPersonalGetRequest17 $request)
     {
@@ -60,6 +65,7 @@ trait OCISchemaServiceSimultaneousRingPersonal
      * @param UserSimultaneousRingPersonalModifyCriteriaRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userSimultaneousRingPersonalModifyCriteriaRequest(\CWM\BroadWorksConnector\Ocip\Models\UserSimultaneousRingPersonalModifyCriteriaRequest $request)
     {
@@ -70,6 +76,7 @@ trait OCISchemaServiceSimultaneousRingPersonal
      * @param UserSimultaneousRingPersonalModifyRequest17 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userSimultaneousRingPersonalModifyRequest17(\CWM\BroadWorksConnector\Ocip\Models\UserSimultaneousRingPersonalModifyRequest17 $request)
     {

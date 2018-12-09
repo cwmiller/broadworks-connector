@@ -16,7 +16,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupDnGetAssignmentListRequest
  * @see GroupDnGetAssignmentListResponse18
- * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:7996","type":"sequence"}]
+ * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:7996","type":"sequence"}]
  */
 class GroupDnGetAssignmentListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -24,7 +24,7 @@ class GroupDnGetAssignmentListResponse extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName dnTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 1a79c7896cb04feac6eff47a5321756e:7996
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:7996
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $dnTable = null;

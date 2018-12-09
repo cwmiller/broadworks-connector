@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response contains the Office Zone information.
  *
  * @see SystemOfficeZoneGetRequest
- * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:12224","type":"sequence"}]
+ * @Groups [{"id":"b5f5416d9e71f8e4246cda16c4723744:12224","type":"sequence"}]
  */
 class SystemOfficeZoneGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class SystemOfficeZoneGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @ElementName description
      * @Type string
      * @Optional
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:12224
+     * @Group b5f5416d9e71f8e4246cda16c4723744:12224
      * @var string|null
      */
     private $description = null;
@@ -27,7 +27,7 @@ class SystemOfficeZoneGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @ElementName zoneName
      * @Type string
      * @Array
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:12224
+     * @Group b5f5416d9e71f8e4246cda16c4723744:12224
      * @var string[]
      */
     private $zoneName = array(
@@ -37,7 +37,7 @@ class SystemOfficeZoneGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName primaryZoneName
      * @Type string
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:12224
+     * @Group b5f5416d9e71f8e4246cda16c4723744:12224
      * @var string|null
      */
     private $primaryZoneName = null;

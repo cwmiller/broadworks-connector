@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"4d373d11d8022fd17bc1bdfe8e07cc37:134","type":"sequence"}]
+ * @Groups [{"id":"19bd5fd2bc588aeb4f5ac00683616732:134","type":"sequence"}]
  */
 class UserCommunicationBarringUserControlModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,7 +21,7 @@ class UserCommunicationBarringUserControlModifyRequest extends \CWM\BroadWorksCo
     /**
      * @ElementName userId
      * @Type string
-     * @Group 4d373d11d8022fd17bc1bdfe8e07cc37:134
+     * @Group 19bd5fd2bc588aeb4f5ac00683616732:134
      * @var string|null
      */
     private $userId = null;
@@ -31,7 +31,7 @@ class UserCommunicationBarringUserControlModifyRequest extends \CWM\BroadWorksCo
      * @Type int
      * @Nillable
      * @Optional
-     * @Group 4d373d11d8022fd17bc1bdfe8e07cc37:134
+     * @Group 19bd5fd2bc588aeb4f5ac00683616732:134
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $enableProfile = null;
@@ -40,7 +40,7 @@ class UserCommunicationBarringUserControlModifyRequest extends \CWM\BroadWorksCo
      * @ElementName oldPasscode
      * @Type string
      * @Optional
-     * @Group 4d373d11d8022fd17bc1bdfe8e07cc37:134
+     * @Group 19bd5fd2bc588aeb4f5ac00683616732:134
      * @var string|null
      */
     private $oldPasscode = null;
@@ -49,7 +49,7 @@ class UserCommunicationBarringUserControlModifyRequest extends \CWM\BroadWorksCo
      * @ElementName newPasscode
      * @Type string
      * @Optional
-     * @Group 4d373d11d8022fd17bc1bdfe8e07cc37:134
+     * @Group 19bd5fd2bc588aeb4f5ac00683616732:134
      * @var string|null
      */
     private $newPasscode = null;
@@ -58,7 +58,7 @@ class UserCommunicationBarringUserControlModifyRequest extends \CWM\BroadWorksCo
      * @ElementName resetLockout
      * @Type bool
      * @Optional
-     * @Group 4d373d11d8022fd17bc1bdfe8e07cc37:134
+     * @Group 19bd5fd2bc588aeb4f5ac00683616732:134
      * @var bool|null
      */
     private $resetLockout = null;

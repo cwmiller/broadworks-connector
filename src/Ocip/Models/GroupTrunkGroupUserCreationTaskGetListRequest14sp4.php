@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupTrunkGroupUserCreationTaskGetListResponse14sp4
  * @see ErrorResponse
- * @Groups [{"id":"5472d4b45ad0ad56e4f82361e2a66a53:1420","type":"sequence"}]
+ * @Groups [{"id":"762df656d5a3c5800001b37599b1e4ce:1420","type":"sequence"}]
  */
 class GroupTrunkGroupUserCreationTaskGetListRequest14sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupTrunkGroupUserCreationTaskGetListRequest14sp4 extends \CWM\BroadWorks
     /**
      * @ElementName trunkGroupKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey
-     * @Group 5472d4b45ad0ad56e4f82361e2a66a53:1420
+     * @Group 762df656d5a3c5800001b37599b1e4ce:1420
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey|null
      */
     private $trunkGroupKey = null;

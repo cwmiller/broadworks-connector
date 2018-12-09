@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupEnterpriseTrunkGetResponse21
  * @see ErrorResponse
- * @Groups [{"id":"5472d4b45ad0ad56e4f82361e2a66a53:699","type":"sequence"}]
+ * @Groups [{"id":"762df656d5a3c5800001b37599b1e4ce:699","type":"sequence"}]
  */
 class GroupEnterpriseTrunkGetRequest21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupEnterpriseTrunkGetRequest21 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 5472d4b45ad0ad56e4f82361e2a66a53:699
+     * @Group 762df656d5a3c5800001b37599b1e4ce:699
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,7 +26,7 @@ class GroupEnterpriseTrunkGetRequest21 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 5472d4b45ad0ad56e4f82361e2a66a53:699
+     * @Group 762df656d5a3c5800001b37599b1e4ce:699
      * @var string|null
      */
     private $groupId = null;
@@ -34,7 +34,7 @@ class GroupEnterpriseTrunkGetRequest21 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName enterpriseTrunkName
      * @Type string
-     * @Group 5472d4b45ad0ad56e4f82361e2a66a53:699
+     * @Group 762df656d5a3c5800001b37599b1e4ce:699
      * @var string|null
      */
     private $enterpriseTrunkName = null;

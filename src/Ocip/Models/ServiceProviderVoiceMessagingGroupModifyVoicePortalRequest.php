@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"1624846b7d87d3ab55e907c443fca9d6:464","type":"sequence"}]
+ * @Groups [{"id":"80c5986946137c505e41f6008c7f75a8:464","type":"sequence"}]
  */
 class ServiceProviderVoiceMessagingGroupModifyVoicePortalRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class ServiceProviderVoiceMessagingGroupModifyVoicePortalRequest extends \CWM\Br
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 1624846b7d87d3ab55e907c443fca9d6:464
+     * @Group 80c5986946137c505e41f6008c7f75a8:464
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,7 +27,7 @@ class ServiceProviderVoiceMessagingGroupModifyVoicePortalRequest extends \CWM\Br
      * @ElementName voicePortalScope
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderVoicePortalScope
      * @Optional
-     * @Group 1624846b7d87d3ab55e907c443fca9d6:464
+     * @Group 80c5986946137c505e41f6008c7f75a8:464
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderVoicePortalScope|null
      */
     private $voicePortalScope = null;

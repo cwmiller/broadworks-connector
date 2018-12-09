@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"d83be92ebac098705e715f24f025a9a9:628","type":"sequence"}]
+ * @Groups [{"id":"21fd3c6abc11c44e52803121f7739a76:628","type":"sequence"}]
  */
 class VerifySessionIsValidRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

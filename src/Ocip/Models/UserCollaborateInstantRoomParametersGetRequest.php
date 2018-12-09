@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserCollaborateInstantRoomParametersGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"2f13ead3f217ca6eb3f52b517fb04a6f:539","type":"sequence"}]
+ * @Groups [{"id":"1d655a4f2853eddf47018e01b685b65b:539","type":"sequence"}]
  */
 class UserCollaborateInstantRoomParametersGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class UserCollaborateInstantRoomParametersGetRequest extends \CWM\BroadWorksConn
     /**
      * @ElementName userId
      * @Type string
-     * @Group 2f13ead3f217ca6eb3f52b517fb04a6f:539
+     * @Group 1d655a4f2853eddf47018e01b685b65b:539
      * @var string|null
      */
     private $userId = null;

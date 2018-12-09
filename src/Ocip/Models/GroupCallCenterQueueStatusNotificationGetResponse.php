@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response contains the call center status configuration information.
  *
  * @see GroupCallCenterQueueStatusNotificationGetRequest
- * @Groups [{"id":"69c2aeb1186dc97a4f4c36d9609ddb49:5102","type":"sequence"}]
+ * @Groups [{"id":"3ac5f05d969bc771d6ba8d344d95aa72:5102","type":"sequence"}]
  */
 class GroupCallCenterQueueStatusNotificationGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class GroupCallCenterQueueStatusNotificationGetResponse extends \CWM\BroadWorksC
     /**
      * @ElementName enableQueueStatusNotification
      * @Type bool
-     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:5102
+     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:5102
      * @var bool|null
      */
     private $enableQueueStatusNotification = null;
@@ -25,7 +25,7 @@ class GroupCallCenterQueueStatusNotificationGetResponse extends \CWM\BroadWorksC
     /**
      * @ElementName enableQueueDepthThreshold
      * @Type bool
-     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:5102
+     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:5102
      * @var bool|null
      */
     private $enableQueueDepthThreshold = null;
@@ -33,7 +33,7 @@ class GroupCallCenterQueueStatusNotificationGetResponse extends \CWM\BroadWorksC
     /**
      * @ElementName enableWaitingTimeThreshold
      * @Type bool
-     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:5102
+     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:5102
      * @var bool|null
      */
     private $enableWaitingTimeThreshold = null;
@@ -41,7 +41,7 @@ class GroupCallCenterQueueStatusNotificationGetResponse extends \CWM\BroadWorksC
     /**
      * @ElementName numberOfCallsThreshold
      * @Type int
-     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:5102
+     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:5102
      * @var int|null
      */
     private $numberOfCallsThreshold = null;
@@ -49,7 +49,7 @@ class GroupCallCenterQueueStatusNotificationGetResponse extends \CWM\BroadWorksC
     /**
      * @ElementName waitingTimeOfCallsThreshold
      * @Type int
-     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:5102
+     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:5102
      * @var int|null
      */
     private $waitingTimeOfCallsThreshold = null;

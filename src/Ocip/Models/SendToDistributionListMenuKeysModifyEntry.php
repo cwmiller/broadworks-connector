@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * The voice portal send to distribution list menu keys modify entry.
  *
- * @Groups [{"id":"1624846b7d87d3ab55e907c443fca9d6:3041","type":"sequence"}]
+ * @Groups [{"id":"80c5986946137c505e41f6008c7f75a8:3041","type":"sequence"}]
  */
 class SendToDistributionListMenuKeysModifyEntry
 {
@@ -16,7 +16,7 @@ class SendToDistributionListMenuKeysModifyEntry
      * @ElementName sendMessageToSelectedDistributionList
      * @Type string
      * @Optional
-     * @Group 1624846b7d87d3ab55e907c443fca9d6:3041
+     * @Group 80c5986946137c505e41f6008c7f75a8:3041
      * @var string|null
      */
     private $sendMessageToSelectedDistributionList = null;
@@ -26,7 +26,7 @@ class SendToDistributionListMenuKeysModifyEntry
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 1624846b7d87d3ab55e907c443fca9d6:3041
+     * @Group 80c5986946137c505e41f6008c7f75a8:3041
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $selectDistributionList = null;
@@ -36,7 +36,7 @@ class SendToDistributionListMenuKeysModifyEntry
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 1624846b7d87d3ab55e907c443fca9d6:3041
+     * @Group 80c5986946137c505e41f6008c7f75a8:3041
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $reviewSelectedDistributionList = null;
@@ -45,7 +45,7 @@ class SendToDistributionListMenuKeysModifyEntry
      * @ElementName returnToPreviousMenu
      * @Type string
      * @Optional
-     * @Group 1624846b7d87d3ab55e907c443fca9d6:3041
+     * @Group 80c5986946137c505e41f6008c7f75a8:3041
      * @var string|null
      */
     private $returnToPreviousMenu = null;
@@ -55,7 +55,7 @@ class SendToDistributionListMenuKeysModifyEntry
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 1624846b7d87d3ab55e907c443fca9d6:3041
+     * @Group 80c5986946137c505e41f6008c7f75a8:3041
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $repeatMenu = null;

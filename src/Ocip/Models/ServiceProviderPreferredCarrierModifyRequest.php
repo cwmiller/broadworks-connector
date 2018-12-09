@@ -16,7 +16,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"1384777ce7bd407156102bad44751987:299","type":"sequence"}]
+ * @Groups [{"id":"56f1bd27c6955cc11e0869b6463fb814:299","type":"sequence"}]
  */
 class ServiceProviderPreferredCarrierModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -24,7 +24,7 @@ class ServiceProviderPreferredCarrierModifyRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 1384777ce7bd407156102bad44751987:299
+     * @Group 56f1bd27c6955cc11e0869b6463fb814:299
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -32,7 +32,7 @@ class ServiceProviderPreferredCarrierModifyRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName countryCode
      * @Type string
-     * @Group 1384777ce7bd407156102bad44751987:299
+     * @Group 56f1bd27c6955cc11e0869b6463fb814:299
      * @var string|null
      */
     private $countryCode = null;
@@ -42,7 +42,7 @@ class ServiceProviderPreferredCarrierModifyRequest extends \CWM\BroadWorksConnec
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 1384777ce7bd407156102bad44751987:299
+     * @Group 56f1bd27c6955cc11e0869b6463fb814:299
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $intraLataCarrier = null;
@@ -52,7 +52,7 @@ class ServiceProviderPreferredCarrierModifyRequest extends \CWM\BroadWorksConnec
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 1384777ce7bd407156102bad44751987:299
+     * @Group 56f1bd27c6955cc11e0869b6463fb814:299
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $interLataCarrier = null;
@@ -62,7 +62,7 @@ class ServiceProviderPreferredCarrierModifyRequest extends \CWM\BroadWorksConnec
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 1384777ce7bd407156102bad44751987:299
+     * @Group 56f1bd27c6955cc11e0869b6463fb814:299
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $internationalCarrier = null;

@@ -18,7 +18,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SystemDeviceTypeGetAvailableListResponse14sp3
  * @see ErrorResponse
  * @see SystemDeviceTypeGetAvailableListRequest19
- * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:21587","type":"sequence"}]
+ * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:21587","type":"sequence"}]
  */
 class SystemDeviceTypeGetAvailableListRequest14sp3 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -26,7 +26,7 @@ class SystemDeviceTypeGetAvailableListRequest14sp3 extends \CWM\BroadWorksConnec
     /**
      * @ElementName allowConference
      * @Type bool
-     * @Group 1a79c7896cb04feac6eff47a5321756e:21587
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:21587
      * @var bool|null
      */
     private $allowConference = null;
@@ -34,7 +34,7 @@ class SystemDeviceTypeGetAvailableListRequest14sp3 extends \CWM\BroadWorksConnec
     /**
      * @ElementName allowMusicOnHold
      * @Type bool
-     * @Group 1a79c7896cb04feac6eff47a5321756e:21587
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:21587
      * @var bool|null
      */
     private $allowMusicOnHold = null;
@@ -42,7 +42,7 @@ class SystemDeviceTypeGetAvailableListRequest14sp3 extends \CWM\BroadWorksConnec
     /**
      * @ElementName onlyConference
      * @Type bool
-     * @Group 1a79c7896cb04feac6eff47a5321756e:21587
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:21587
      * @var bool|null
      */
     private $onlyConference = null;
@@ -50,7 +50,7 @@ class SystemDeviceTypeGetAvailableListRequest14sp3 extends \CWM\BroadWorksConnec
     /**
      * @ElementName onlyVideoCapable
      * @Type bool
-     * @Group 1a79c7896cb04feac6eff47a5321756e:21587
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:21587
      * @var bool|null
      */
     private $onlyVideoCapable = null;
@@ -58,7 +58,7 @@ class SystemDeviceTypeGetAvailableListRequest14sp3 extends \CWM\BroadWorksConnec
     /**
      * @ElementName onlyOptionalIpAddress
      * @Type bool
-     * @Group 1a79c7896cb04feac6eff47a5321756e:21587
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:21587
      * @var bool|null
      */
     private $onlyOptionalIpAddress = null;

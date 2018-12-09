@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"6bf4f72aac7e65e943bfe17abe76c88f:74","type":"sequence"}]
+ * @Groups [{"id":"578e8f783de3e881008912f5d1277f4e:74","type":"sequence"}]
  */
 class UserVideoAddOnModifyRequest14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserVideoAddOnModifyRequest14 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName userId
      * @Type string
-     * @Group 6bf4f72aac7e65e943bfe17abe76c88f:74
+     * @Group 578e8f783de3e881008912f5d1277f4e:74
      * @var string|null
      */
     private $userId = null;
@@ -27,7 +27,7 @@ class UserVideoAddOnModifyRequest14 extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName isActive
      * @Type bool
      * @Optional
-     * @Group 6bf4f72aac7e65e943bfe17abe76c88f:74
+     * @Group 578e8f783de3e881008912f5d1277f4e:74
      * @var bool|null
      */
     private $isActive = null;
@@ -36,7 +36,7 @@ class UserVideoAddOnModifyRequest14 extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName maxOriginatingCallDelaySeconds
      * @Type \CWM\BroadWorksConnector\Ocip\Models\VideoAddOnMaxOriginatingCallDelaySeconds
      * @Optional
-     * @Group 6bf4f72aac7e65e943bfe17abe76c88f:74
+     * @Group 578e8f783de3e881008912f5d1277f4e:74
      * @var \CWM\BroadWorksConnector\Ocip\Models\VideoAddOnMaxOriginatingCallDelaySeconds|null
      */
     private $maxOriginatingCallDelaySeconds = null;
@@ -46,7 +46,7 @@ class UserVideoAddOnModifyRequest14 extends \CWM\BroadWorksConnector\Ocip\Models
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointModify
      * @Nillable
      * @Optional
-     * @Group 6bf4f72aac7e65e943bfe17abe76c88f:74
+     * @Group 578e8f783de3e881008912f5d1277f4e:74
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointModify|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $accessDeviceEndpoint = null;

@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to GroupExtensionLengthGetRequest17.
  *
  * @see GroupExtensionLengthGetRequest17
- * @Groups [{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:4629","type":"sequence"}]
+ * @Groups [{"id":"15129cd25fa2d5581f4edfd652c24f93:4629","type":"sequence"}]
  */
 class GroupExtensionLengthGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class GroupExtensionLengthGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName minExtensionLength
      * @Type int
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:4629
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:4629
      * @var int|null
      */
     private $minExtensionLength = null;
@@ -24,7 +24,7 @@ class GroupExtensionLengthGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName maxExtensionLength
      * @Type int
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:4629
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:4629
      * @var int|null
      */
     private $maxExtensionLength = null;
@@ -32,7 +32,7 @@ class GroupExtensionLengthGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName defaultExtensionLength
      * @Type int
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:4629
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:4629
      * @var int|null
      */
     private $defaultExtensionLength = null;

@@ -5,7 +5,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemVoiceMessagingGroupGetVoicePortalMenusResponse18ForwardOrComposeMessageMenuKeys
  *
- * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:29844","type":"sequence"}]
+ * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:29844","type":"sequence"}]
  */
 class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18ForwardOrComposeMessageMenuKeys
 {
@@ -14,7 +14,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18ForwardOrComposeMess
      * @ElementName sendToPerson
      * @Type string
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:29844
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:29844
      * @var string|null
      */
     private $sendToPerson = null;
@@ -23,7 +23,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18ForwardOrComposeMess
      * @ElementName sendToAllGroupMembers
      * @Type string
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:29844
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:29844
      * @var string|null
      */
     private $sendToAllGroupMembers = null;
@@ -32,7 +32,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18ForwardOrComposeMess
      * @ElementName sendToDistributionList
      * @Type string
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:29844
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:29844
      * @var string|null
      */
     private $sendToDistributionList = null;
@@ -41,7 +41,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18ForwardOrComposeMess
      * @ElementName changeCurrentIntroductionOrMessage
      * @Type string
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:29844
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:29844
      * @var string|null
      */
     private $changeCurrentIntroductionOrMessage = null;
@@ -50,7 +50,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18ForwardOrComposeMess
      * @ElementName listenToCurrentIntroductionOrMessage
      * @Type string
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:29844
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:29844
      * @var string|null
      */
     private $listenToCurrentIntroductionOrMessage = null;
@@ -59,7 +59,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18ForwardOrComposeMess
      * @ElementName setOrClearUrgentIndicator
      * @Type string
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:29844
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:29844
      * @var string|null
      */
     private $setOrClearUrgentIndicator = null;
@@ -68,7 +68,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18ForwardOrComposeMess
      * @ElementName setOrClearConfidentialIndicator
      * @Type string
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:29844
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:29844
      * @var string|null
      */
     private $setOrClearConfidentialIndicator = null;
@@ -76,7 +76,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18ForwardOrComposeMess
     /**
      * @ElementName returnToPreviousMenu
      * @Type string
-     * @Group 1a79c7896cb04feac6eff47a5321756e:29844
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:29844
      * @var string|null
      */
     private $returnToPreviousMenu = null;
@@ -85,7 +85,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18ForwardOrComposeMess
      * @ElementName repeatMenu
      * @Type string
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:29844
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:29844
      * @var string|null
      */
     private $repeatMenu = null;

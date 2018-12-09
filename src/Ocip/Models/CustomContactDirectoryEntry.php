@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         within an Enterprise, however the groupId is not used with Service 
  *         Providers.
  *
- * @Groups [{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:7269","type":"sequence","children":[{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:7270","type":"choice","children":[{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:7272","type":"sequence"}]}]}]
+ * @Groups [{"id":"15129cd25fa2d5581f4edfd652c24f93:7269","type":"sequence","children":[{"id":"15129cd25fa2d5581f4edfd652c24f93:7270","type":"choice","children":[{"id":"15129cd25fa2d5581f4edfd652c24f93:7272","type":"sequence"}]}]}]
  */
 class CustomContactDirectoryEntry
 {
@@ -18,7 +18,7 @@ class CustomContactDirectoryEntry
     /**
      * @ElementName userId
      * @Type string
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:7270
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:7270
      * @var string|null
      */
     private $userId = null;
@@ -26,7 +26,7 @@ class CustomContactDirectoryEntry
     /**
      * @ElementName virtualOnNetPhoneNumber
      * @Type string
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:7272
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:7272
      * @var string|null
      */
     private $virtualOnNetPhoneNumber = null;
@@ -35,7 +35,7 @@ class CustomContactDirectoryEntry
      * @ElementName groupId
      * @Type string
      * @Optional
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:7272
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:7272
      * @var string|null
      */
     private $groupId = null;

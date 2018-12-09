@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * User's Mobile Identity Read Entry
  *
- * @Groups [{"id":"e9727a9f98db3fe2db7ad08079031b73:1893","type":"sequence"}]
+ * @Groups [{"id":"bd46fc427b2b0dc182dcd53cf03e95b4:1893","type":"sequence"}]
  */
 class BroadWorksMobilityUserMobileIdentityEntry
 {
@@ -15,7 +15,7 @@ class BroadWorksMobilityUserMobileIdentityEntry
     /**
      * @ElementName mobileNumber
      * @Type string
-     * @Group e9727a9f98db3fe2db7ad08079031b73:1893
+     * @Group bd46fc427b2b0dc182dcd53cf03e95b4:1893
      * @var string|null
      */
     private $mobileNumber = null;
@@ -24,7 +24,7 @@ class BroadWorksMobilityUserMobileIdentityEntry
      * @ElementName description
      * @Type string
      * @Optional
-     * @Group e9727a9f98db3fe2db7ad08079031b73:1893
+     * @Group bd46fc427b2b0dc182dcd53cf03e95b4:1893
      * @var string|null
      */
     private $description = null;
@@ -32,7 +32,7 @@ class BroadWorksMobilityUserMobileIdentityEntry
     /**
      * @ElementName isPrimary
      * @Type bool
-     * @Group e9727a9f98db3fe2db7ad08079031b73:1893
+     * @Group bd46fc427b2b0dc182dcd53cf03e95b4:1893
      * @var bool|null
      */
     private $isPrimary = null;
@@ -40,7 +40,7 @@ class BroadWorksMobilityUserMobileIdentityEntry
     /**
      * @ElementName enableAlerting
      * @Type bool
-     * @Group e9727a9f98db3fe2db7ad08079031b73:1893
+     * @Group bd46fc427b2b0dc182dcd53cf03e95b4:1893
      * @var bool|null
      */
     private $enableAlerting = null;

@@ -5,7 +5,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * AuthenticationVerificationRequest22NormalLogin
  *
- * @Groups [{"id":"e9727a9f98db3fe2db7ad08079031b73:78","type":"sequence"}]
+ * @Groups [{"id":"bd46fc427b2b0dc182dcd53cf03e95b4:78","type":"sequence"}]
  */
 class AuthenticationVerificationRequest22NormalLogin
 {
@@ -13,7 +13,7 @@ class AuthenticationVerificationRequest22NormalLogin
     /**
      * @ElementName userId
      * @Type string
-     * @Group e9727a9f98db3fe2db7ad08079031b73:78
+     * @Group bd46fc427b2b0dc182dcd53cf03e95b4:78
      * @var string|null
      */
     private $userId = null;
@@ -21,7 +21,7 @@ class AuthenticationVerificationRequest22NormalLogin
     /**
      * @ElementName password
      * @Type string
-     * @Group e9727a9f98db3fe2db7ad08079031b73:78
+     * @Group bd46fc427b2b0dc182dcd53cf03e95b4:78
      * @var string|null
      */
     private $password = null;
@@ -29,7 +29,7 @@ class AuthenticationVerificationRequest22NormalLogin
     /**
      * @ElementName isPasswordHashed
      * @Type bool
-     * @Group e9727a9f98db3fe2db7ad08079031b73:78
+     * @Group bd46fc427b2b0dc182dcd53cf03e95b4:78
      * @var bool|null
      */
     private $isPasswordHashed = null;

@@ -4,7 +4,8 @@ namespace CWM\BroadWorksConnector\Ocip\Traits;
 
 use CWM\BroadWorksConnector\Ocip\Models\SystemConnectedLineIdentificationPresentationGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemConnectedLineIdentificationPresentationModifyRequest;
-use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceConnectedLineIdentificationPresentation
@@ -14,6 +15,7 @@ trait OCISchemaServiceConnectedLineIdentificationPresentation
      * @param SystemConnectedLineIdentificationPresentationGetRequest $request
      * @return 
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemConnectedLineIdentificationPresentationGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemConnectedLineIdentificationPresentationGetRequest $request)
     {
@@ -24,6 +26,7 @@ trait OCISchemaServiceConnectedLineIdentificationPresentation
      * @param SystemConnectedLineIdentificationPresentationModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemConnectedLineIdentificationPresentationModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemConnectedLineIdentificationPresentationModifyRequest $request)
     {

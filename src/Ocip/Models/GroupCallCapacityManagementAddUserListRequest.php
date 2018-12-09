@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"ec414f584634edfc7ab45285fc8bb597:73","type":"sequence"}]
+ * @Groups [{"id":"a508c8d47cf6dc9787cc3865bf94b9f5:73","type":"sequence"}]
  */
 class GroupCallCapacityManagementAddUserListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupCallCapacityManagementAddUserListRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group ec414f584634edfc7ab45285fc8bb597:73
+     * @Group a508c8d47cf6dc9787cc3865bf94b9f5:73
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,7 +26,7 @@ class GroupCallCapacityManagementAddUserListRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName groupId
      * @Type string
-     * @Group ec414f584634edfc7ab45285fc8bb597:73
+     * @Group a508c8d47cf6dc9787cc3865bf94b9f5:73
      * @var string|null
      */
     private $groupId = null;
@@ -34,7 +34,7 @@ class GroupCallCapacityManagementAddUserListRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName name
      * @Type string
-     * @Group ec414f584634edfc7ab45285fc8bb597:73
+     * @Group a508c8d47cf6dc9787cc3865bf94b9f5:73
      * @var string|null
      */
     private $name = null;
@@ -43,7 +43,7 @@ class GroupCallCapacityManagementAddUserListRequest extends \CWM\BroadWorksConne
      * @ElementName userId
      * @Type string
      * @Array
-     * @Group ec414f584634edfc7ab45285fc8bb597:73
+     * @Group a508c8d47cf6dc9787cc3865bf94b9f5:73
      * @var string[]
      */
     private $userId = array(

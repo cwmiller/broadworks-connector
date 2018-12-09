@@ -16,7 +16,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserPhoneDirectoryGetSearchedListResponse
  * @see ErrorResponse
- * @Groups [{"id":"489b2153267470be8e945bf6b778e0d0:2618","type":"sequence"}]
+ * @Groups [{"id":"ee3830ce42f01a3ef2a105d473fc3b17:2618","type":"sequence"}]
  */
 class UserPhoneDirectoryGetSearchedListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -24,7 +24,7 @@ class UserPhoneDirectoryGetSearchedListRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName userId
      * @Type string
-     * @Group 489b2153267470be8e945bf6b778e0d0:2618
+     * @Group ee3830ce42f01a3ef2a105d473fc3b17:2618
      * @var string|null
      */
     private $userId = null;
@@ -33,7 +33,7 @@ class UserPhoneDirectoryGetSearchedListRequest extends \CWM\BroadWorksConnector\
      * @ElementName nameSearchString
      * @Type string
      * @Optional
-     * @Group 489b2153267470be8e945bf6b778e0d0:2618
+     * @Group ee3830ce42f01a3ef2a105d473fc3b17:2618
      * @var string|null
      */
     private $nameSearchString = null;

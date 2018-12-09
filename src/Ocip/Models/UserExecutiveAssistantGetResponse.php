@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The possible values for "Assistant Opt-in Status" and "Executive Allow Opt-in" columns are "true" and "false".
  *
  * @see UserExecutiveAssistantGetRequest
- * @Groups [{"id":"970d474b574fc7b8f11edd02aa83e017:62","type":"sequence"}]
+ * @Groups [{"id":"f8c53af8d29cee415f617104e2393659:62","type":"sequence"}]
  */
 class UserExecutiveAssistantGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -21,7 +21,7 @@ class UserExecutiveAssistantGetResponse extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName enableDivert
      * @Type bool
-     * @Group 970d474b574fc7b8f11edd02aa83e017:62
+     * @Group f8c53af8d29cee415f617104e2393659:62
      * @var bool|null
      */
     private $enableDivert = null;
@@ -30,7 +30,7 @@ class UserExecutiveAssistantGetResponse extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName divertToPhoneNumber
      * @Type string
      * @Optional
-     * @Group 970d474b574fc7b8f11edd02aa83e017:62
+     * @Group f8c53af8d29cee415f617104e2393659:62
      * @var string|null
      */
     private $divertToPhoneNumber = null;
@@ -38,7 +38,7 @@ class UserExecutiveAssistantGetResponse extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName executiveTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 970d474b574fc7b8f11edd02aa83e017:62
+     * @Group f8c53af8d29cee415f617104e2393659:62
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $executiveTable = null;

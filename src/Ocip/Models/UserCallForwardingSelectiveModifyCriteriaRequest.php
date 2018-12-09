@@ -14,7 +14,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f1072a3da53dcabbd043a43a74c5d05f:181","type":"sequence"}]
+ * @Groups [{"id":"00144d4cd6b46fb2a87b2e4d8760f200:181","type":"sequence"}]
  */
 class UserCallForwardingSelectiveModifyCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -22,7 +22,7 @@ class UserCallForwardingSelectiveModifyCriteriaRequest extends \CWM\BroadWorksCo
     /**
      * @ElementName userId
      * @Type string
-     * @Group f1072a3da53dcabbd043a43a74c5d05f:181
+     * @Group 00144d4cd6b46fb2a87b2e4d8760f200:181
      * @var string|null
      */
     private $userId = null;
@@ -30,7 +30,7 @@ class UserCallForwardingSelectiveModifyCriteriaRequest extends \CWM\BroadWorksCo
     /**
      * @ElementName criteriaName
      * @Type string
-     * @Group f1072a3da53dcabbd043a43a74c5d05f:181
+     * @Group 00144d4cd6b46fb2a87b2e4d8760f200:181
      * @var string|null
      */
     private $criteriaName = null;
@@ -39,7 +39,7 @@ class UserCallForwardingSelectiveModifyCriteriaRequest extends \CWM\BroadWorksCo
      * @ElementName newCriteriaName
      * @Type string
      * @Optional
-     * @Group f1072a3da53dcabbd043a43a74c5d05f:181
+     * @Group 00144d4cd6b46fb2a87b2e4d8760f200:181
      * @var string|null
      */
     private $newCriteriaName = null;
@@ -49,7 +49,7 @@ class UserCallForwardingSelectiveModifyCriteriaRequest extends \CWM\BroadWorksCo
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule
      * @Nillable
      * @Optional
-     * @Group f1072a3da53dcabbd043a43a74c5d05f:181
+     * @Group 00144d4cd6b46fb2a87b2e4d8760f200:181
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $timeSchedule = null;
@@ -59,7 +59,7 @@ class UserCallForwardingSelectiveModifyCriteriaRequest extends \CWM\BroadWorksCo
      * @Type \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule
      * @Nillable
      * @Optional
-     * @Group f1072a3da53dcabbd043a43a74c5d05f:181
+     * @Group 00144d4cd6b46fb2a87b2e4d8760f200:181
      * @var \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $holidaySchedule = null;
@@ -68,7 +68,7 @@ class UserCallForwardingSelectiveModifyCriteriaRequest extends \CWM\BroadWorksCo
      * @ElementName forwardToNumberSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallForwardingSelectiveNumberSelection16
      * @Optional
-     * @Group f1072a3da53dcabbd043a43a74c5d05f:181
+     * @Group 00144d4cd6b46fb2a87b2e4d8760f200:181
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallForwardingSelectiveNumberSelection16|null
      */
     private $forwardToNumberSelection = null;
@@ -78,7 +78,7 @@ class UserCallForwardingSelectiveModifyCriteriaRequest extends \CWM\BroadWorksCo
      * @Type string
      * @Nillable
      * @Optional
-     * @Group f1072a3da53dcabbd043a43a74c5d05f:181
+     * @Group 00144d4cd6b46fb2a87b2e4d8760f200:181
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $forwardToPhoneNumber = null;
@@ -87,7 +87,7 @@ class UserCallForwardingSelectiveModifyCriteriaRequest extends \CWM\BroadWorksCo
      * @ElementName fromDnCriteria
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDnModify
      * @Optional
-     * @Group f1072a3da53dcabbd043a43a74c5d05f:181
+     * @Group 00144d4cd6b46fb2a87b2e4d8760f200:181
      * @var \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDnModify|null
      */
     private $fromDnCriteria = null;
@@ -97,7 +97,7 @@ class UserCallForwardingSelectiveModifyCriteriaRequest extends \CWM\BroadWorksCo
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementCallToNumberList
      * @Nillable
      * @Optional
-     * @Group f1072a3da53dcabbd043a43a74c5d05f:181
+     * @Group 00144d4cd6b46fb2a87b2e4d8760f200:181
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementCallToNumberList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $callToNumberList = null;

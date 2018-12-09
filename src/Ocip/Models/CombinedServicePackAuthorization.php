@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Authorize a service pack.
  *
- * @Groups [{"id":"18b369af88e42ffdb4166615c670ce2c:977","type":"sequence"}]
+ * @Groups [{"id":"8e629edbac315ae7889caca732382c44:977","type":"sequence"}]
  */
 class CombinedServicePackAuthorization
 {
@@ -15,7 +15,7 @@ class CombinedServicePackAuthorization
     /**
      * @ElementName servicePackName
      * @Type string
-     * @Group 18b369af88e42ffdb4166615c670ce2c:977
+     * @Group 8e629edbac315ae7889caca732382c44:977
      * @var string|null
      */
     private $servicePackName = null;
@@ -24,7 +24,7 @@ class CombinedServicePackAuthorization
      * @ElementName authorizedQuantity
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt
      * @Optional
-     * @Group 18b369af88e42ffdb4166615c670ce2c:977
+     * @Group 8e629edbac315ae7889caca732382c44:977
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt|null
      */
     private $authorizedQuantity = null;

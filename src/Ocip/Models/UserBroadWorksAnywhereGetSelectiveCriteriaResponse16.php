@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserBroadWorksAnywhereGetSelectiveCriteriaRequest16
  * @see UserBroadWorksAnywhereGetSelectiveCriteriaResponse21
- * @Groups [{"id":"499b56264fbe226bfef3c338c8d4750d:4669","type":"sequence"}]
+ * @Groups [{"id":"bb12a3589ab4748963f28f7ac9310f70:4669","type":"sequence"}]
  */
 class UserBroadWorksAnywhereGetSelectiveCriteriaResponse16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,7 +19,7 @@ class UserBroadWorksAnywhereGetSelectiveCriteriaResponse16 extends \CWM\BroadWor
      * @ElementName timeSchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule
      * @Optional
-     * @Group 499b56264fbe226bfef3c338c8d4750d:4669
+     * @Group bb12a3589ab4748963f28f7ac9310f70:4669
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null
      */
     private $timeSchedule = null;
@@ -28,7 +28,7 @@ class UserBroadWorksAnywhereGetSelectiveCriteriaResponse16 extends \CWM\BroadWor
      * @ElementName holidaySchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule
      * @Optional
-     * @Group 499b56264fbe226bfef3c338c8d4750d:4669
+     * @Group bb12a3589ab4748963f28f7ac9310f70:4669
      * @var \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null
      */
     private $holidaySchedule = null;
@@ -36,7 +36,7 @@ class UserBroadWorksAnywhereGetSelectiveCriteriaResponse16 extends \CWM\BroadWor
     /**
      * @ElementName blacklisted
      * @Type bool
-     * @Group 499b56264fbe226bfef3c338c8d4750d:4669
+     * @Group bb12a3589ab4748963f28f7ac9310f70:4669
      * @var bool|null
      */
     private $blacklisted = null;
@@ -44,7 +44,7 @@ class UserBroadWorksAnywhereGetSelectiveCriteriaResponse16 extends \CWM\BroadWor
     /**
      * @ElementName fromDnCriteria
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDn
-     * @Group 499b56264fbe226bfef3c338c8d4750d:4669
+     * @Group bb12a3589ab4748963f28f7ac9310f70:4669
      * @var \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDn|null
      */
     private $fromDnCriteria = null;

@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         in the system. The column headings are "Name" and "Description"
  *
  * @see SystemNetworkClassOfServiceGetListRequest
- * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:10809","type":"sequence"}]
+ * @Groups [{"id":"b5f5416d9e71f8e4246cda16c4723744:10809","type":"sequence"}]
  */
 class SystemNetworkClassOfServiceGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class SystemNetworkClassOfServiceGetListResponse extends \CWM\BroadWorksConnecto
     /**
      * @ElementName networkClassOfServiceTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:10809
+     * @Group b5f5416d9e71f8e4246cda16c4723744:10809
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $networkClassOfServiceTable = null;

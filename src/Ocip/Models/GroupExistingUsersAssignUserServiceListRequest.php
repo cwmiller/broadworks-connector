@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:4572","type":"sequence"}]
+ * @Groups [{"id":"15129cd25fa2d5581f4edfd652c24f93:4572","type":"sequence"}]
  */
 class GroupExistingUsersAssignUserServiceListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,7 +21,7 @@ class GroupExistingUsersAssignUserServiceListRequest extends \CWM\BroadWorksConn
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:4572
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:4572
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -29,7 +29,7 @@ class GroupExistingUsersAssignUserServiceListRequest extends \CWM\BroadWorksConn
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:4572
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:4572
      * @var string|null
      */
     private $groupId = null;
@@ -39,7 +39,7 @@ class GroupExistingUsersAssignUserServiceListRequest extends \CWM\BroadWorksConn
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UserService
      * @Array
      * @Optional
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:4572
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:4572
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserService[]
      */
     private $serviceName = array(
@@ -51,7 +51,7 @@ class GroupExistingUsersAssignUserServiceListRequest extends \CWM\BroadWorksConn
      * @Type string
      * @Array
      * @Optional
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:4572
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:4572
      * @var string[]
      */
     private $servicePackName = array(

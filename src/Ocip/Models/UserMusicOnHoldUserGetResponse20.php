@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to UserMusicOnHoldUserGetRequest20.
  *
  * @see UserMusicOnHoldUserGetRequest20
- * @Groups [{"id":"5f16cf9ee64e260667cb51201cb18cef:302","type":"sequence"}]
+ * @Groups [{"id":"130a60503dce5611168ce780c0797cc9:302","type":"sequence"}]
  */
 class UserMusicOnHoldUserGetResponse20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class UserMusicOnHoldUserGetResponse20 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName enableVideo
      * @Type bool
-     * @Group 5f16cf9ee64e260667cb51201cb18cef:302
+     * @Group 130a60503dce5611168ce780c0797cc9:302
      * @var bool|null
      */
     private $enableVideo = null;
@@ -24,7 +24,7 @@ class UserMusicOnHoldUserGetResponse20 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName source
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserSourceRead20
-     * @Group 5f16cf9ee64e260667cb51201cb18cef:302
+     * @Group 130a60503dce5611168ce780c0797cc9:302
      * @var \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserSourceRead20|null
      */
     private $source = null;
@@ -32,7 +32,7 @@ class UserMusicOnHoldUserGetResponse20 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName useAlternateSourceForInternalCalls
      * @Type bool
-     * @Group 5f16cf9ee64e260667cb51201cb18cef:302
+     * @Group 130a60503dce5611168ce780c0797cc9:302
      * @var bool|null
      */
     private $useAlternateSourceForInternalCalls = null;
@@ -41,7 +41,7 @@ class UserMusicOnHoldUserGetResponse20 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName internalSource
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserSourceRead20
      * @Optional
-     * @Group 5f16cf9ee64e260667cb51201cb18cef:302
+     * @Group 130a60503dce5611168ce780c0797cc9:302
      * @var \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserSourceRead20|null
      */
     private $internalSource = null;

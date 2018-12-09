@@ -72,7 +72,8 @@ use CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNGetRequest14sp3;
 use CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNGetResponse14sp3;
 use CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNModifyPolicyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNModifyRequest;
-use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaEnterprise
@@ -82,6 +83,7 @@ trait OCISchemaEnterprise
      * @param EnterpriseBroadWorksMobileManagerActivationRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function enterpriseBroadWorksMobileManagerActivationRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseBroadWorksMobileManagerActivationRequest $request)
     {
@@ -92,6 +94,7 @@ trait OCISchemaEnterprise
      * @param EnterpriseBroadWorksMobileManagerAddHomeZoneRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function enterpriseBroadWorksMobileManagerAddHomeZoneRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseBroadWorksMobileManagerAddHomeZoneRequest $request)
     {
@@ -102,6 +105,7 @@ trait OCISchemaEnterprise
      * @param EnterpriseBroadWorksMobileManagerAddRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function enterpriseBroadWorksMobileManagerAddRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseBroadWorksMobileManagerAddRequest $request)
     {
@@ -112,6 +116,7 @@ trait OCISchemaEnterprise
      * @param EnterpriseBroadWorksMobileManagerDeleteHomeZoneListRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function enterpriseBroadWorksMobileManagerDeleteHomeZoneListRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseBroadWorksMobileManagerDeleteHomeZoneListRequest $request)
     {
@@ -122,6 +127,7 @@ trait OCISchemaEnterprise
      * @param EnterpriseBroadWorksMobileManagerDeleteHomeZoneRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function enterpriseBroadWorksMobileManagerDeleteHomeZoneRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseBroadWorksMobileManagerDeleteHomeZoneRequest $request)
     {
@@ -132,6 +138,7 @@ trait OCISchemaEnterprise
      * @param EnterpriseBroadWorksMobileManagerDeleteRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function enterpriseBroadWorksMobileManagerDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseBroadWorksMobileManagerDeleteRequest $request)
     {
@@ -142,6 +149,7 @@ trait OCISchemaEnterprise
      * @param EnterpriseBroadWorksMobileManagerGetDomainListRequest $request
      * @return EnterpriseBroadWorksMobileManagerGetDomainListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function enterpriseBroadWorksMobileManagerGetDomainListRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseBroadWorksMobileManagerGetDomainListRequest $request)
     {
@@ -152,6 +160,7 @@ trait OCISchemaEnterprise
      * @param EnterpriseBroadWorksMobileManagerGetHomeZoneListRequest $request
      * @return EnterpriseBroadWorksMobileManagerGetHomeZoneListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function enterpriseBroadWorksMobileManagerGetHomeZoneListRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseBroadWorksMobileManagerGetHomeZoneListRequest $request)
     {
@@ -162,6 +171,7 @@ trait OCISchemaEnterprise
      * @param EnterpriseBroadWorksMobileManagerGetHomeZoneRequest $request
      * @return EnterpriseBroadWorksMobileManagerGetHomeZoneResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function enterpriseBroadWorksMobileManagerGetHomeZoneRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseBroadWorksMobileManagerGetHomeZoneRequest $request)
     {
@@ -172,6 +182,7 @@ trait OCISchemaEnterprise
      * @param EnterpriseBroadWorksMobileManagerGetRequest $request
      * @return EnterpriseBroadWorksMobileManagerGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function enterpriseBroadWorksMobileManagerGetRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseBroadWorksMobileManagerGetRequest $request)
     {
@@ -182,6 +193,7 @@ trait OCISchemaEnterprise
      * @param EnterpriseBroadWorksMobileManagerModifyHomeZoneRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function enterpriseBroadWorksMobileManagerModifyHomeZoneRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseBroadWorksMobileManagerModifyHomeZoneRequest $request)
     {
@@ -192,6 +204,7 @@ trait OCISchemaEnterprise
      * @param EnterpriseBroadWorksMobileManagerModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function enterpriseBroadWorksMobileManagerModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseBroadWorksMobileManagerModifyRequest $request)
     {
@@ -202,6 +215,7 @@ trait OCISchemaEnterprise
      * @param EnterpriseBroadWorksMobileManagerSendCarrierFilesRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function enterpriseBroadWorksMobileManagerSendCarrierFilesRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseBroadWorksMobileManagerSendCarrierFilesRequest $request)
     {
@@ -212,6 +226,7 @@ trait OCISchemaEnterprise
      * @param EnterpriseCommonPhoneListAddListRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function enterpriseCommonPhoneListAddListRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseCommonPhoneListAddListRequest $request)
     {
@@ -222,6 +237,7 @@ trait OCISchemaEnterprise
      * @param EnterpriseCommonPhoneListDeleteListRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function enterpriseCommonPhoneListDeleteListRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseCommonPhoneListDeleteListRequest $request)
     {
@@ -232,6 +248,7 @@ trait OCISchemaEnterprise
      * @param EnterpriseCommonPhoneListGetListRequest $request
      * @return EnterpriseCommonPhoneListGetListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function enterpriseCommonPhoneListGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseCommonPhoneListGetListRequest $request)
     {
@@ -242,6 +259,7 @@ trait OCISchemaEnterprise
      * @param EnterpriseCommonPhoneListModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function enterpriseCommonPhoneListModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseCommonPhoneListModifyRequest $request)
     {
@@ -252,6 +270,7 @@ trait OCISchemaEnterprise
      * @param EnterpriseCommunicationBarringAuthorizationCodeAddListRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function enterpriseCommunicationBarringAuthorizationCodeAddListRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseCommunicationBarringAuthorizationCodeAddListRequest $request)
     {
@@ -262,6 +281,7 @@ trait OCISchemaEnterprise
      * @param EnterpriseCommunicationBarringAuthorizationCodeDeleteListRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function enterpriseCommunicationBarringAuthorizationCodeDeleteListRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseCommunicationBarringAuthorizationCodeDeleteListRequest $request)
     {
@@ -272,6 +292,7 @@ trait OCISchemaEnterprise
      * @param EnterpriseCommunicationBarringAuthorizationCodeGetListRequest $request
      * @return EnterpriseCommunicationBarringAuthorizationCodeGetListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function enterpriseCommunicationBarringAuthorizationCodeGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseCommunicationBarringAuthorizationCodeGetListRequest $request)
     {
@@ -282,6 +303,7 @@ trait OCISchemaEnterprise
      * @param EnterpriseCommunicationBarringAuthorizationCodeGetRequest $request
      * @return 
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function enterpriseCommunicationBarringAuthorizationCodeGetRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseCommunicationBarringAuthorizationCodeGetRequest $request)
     {
@@ -292,6 +314,7 @@ trait OCISchemaEnterprise
      * @param EnterpriseCommunicationBarringAuthorizationCodeModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function enterpriseCommunicationBarringAuthorizationCodeModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseCommunicationBarringAuthorizationCodeModifyRequest $request)
     {
@@ -302,6 +325,7 @@ trait OCISchemaEnterprise
      * @param EnterpriseDepartmentAddRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function enterpriseDepartmentAddRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseDepartmentAddRequest $request)
     {
@@ -312,6 +336,7 @@ trait OCISchemaEnterprise
      * @param EnterpriseDepartmentDeleteRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function enterpriseDepartmentDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseDepartmentDeleteRequest $request)
     {
@@ -322,6 +347,7 @@ trait OCISchemaEnterprise
      * @param EnterpriseDepartmentGetAvailableParentListRequest $request
      * @return EnterpriseDepartmentGetAvailableParentListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function enterpriseDepartmentGetAvailableParentListRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseDepartmentGetAvailableParentListRequest $request)
     {
@@ -332,6 +358,7 @@ trait OCISchemaEnterprise
      * @param EnterpriseDepartmentGetListRequest $request
      * @return EnterpriseDepartmentGetListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function enterpriseDepartmentGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseDepartmentGetListRequest $request)
     {
@@ -342,6 +369,7 @@ trait OCISchemaEnterprise
      * @param EnterpriseDepartmentModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function enterpriseDepartmentModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseDepartmentModifyRequest $request)
     {
@@ -352,6 +380,7 @@ trait OCISchemaEnterprise
      * @param EnterprisePhoneDirectoryGetListRequest18 $request
      * @return EnterprisePhoneDirectoryGetListResponse18
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function enterprisePhoneDirectoryGetListRequest18(\CWM\BroadWorksConnector\Ocip\Models\EnterprisePhoneDirectoryGetListRequest18 $request)
     {
@@ -362,6 +391,7 @@ trait OCISchemaEnterprise
      * @param EnterpriseSecurityClassificationCustomizationGetAvailableListRequest $request
      * @return EnterpriseSecurityClassificationCustomizationGetAvailableListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function enterpriseSecurityClassificationCustomizationGetAvailableListRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseSecurityClassificationCustomizationGetAvailableListRequest $request)
     {
@@ -372,6 +402,7 @@ trait OCISchemaEnterprise
      * @param EnterpriseSessionAdmissionControlGetAvailableDeviceListRequest $request
      * @return EnterpriseSessionAdmissionControlGetAvailableDeviceListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function enterpriseSessionAdmissionControlGetAvailableDeviceListRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseSessionAdmissionControlGetAvailableDeviceListRequest $request)
     {
@@ -382,6 +413,7 @@ trait OCISchemaEnterprise
      * @param EnterpriseSessionAdmissionControlGroupAddDeviceListRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function enterpriseSessionAdmissionControlGroupAddDeviceListRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseSessionAdmissionControlGroupAddDeviceListRequest $request)
     {
@@ -392,6 +424,7 @@ trait OCISchemaEnterprise
      * @param EnterpriseSessionAdmissionControlGroupAddRequest19sp1 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function enterpriseSessionAdmissionControlGroupAddRequest19sp1(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseSessionAdmissionControlGroupAddRequest19sp1 $request)
     {
@@ -402,6 +435,7 @@ trait OCISchemaEnterprise
      * @param EnterpriseSessionAdmissionControlGroupDeleteDeviceListRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function enterpriseSessionAdmissionControlGroupDeleteDeviceListRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseSessionAdmissionControlGroupDeleteDeviceListRequest $request)
     {
@@ -412,6 +446,7 @@ trait OCISchemaEnterprise
      * @param EnterpriseSessionAdmissionControlGroupDeleteListRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function enterpriseSessionAdmissionControlGroupDeleteListRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseSessionAdmissionControlGroupDeleteListRequest $request)
     {
@@ -422,6 +457,7 @@ trait OCISchemaEnterprise
      * @param EnterpriseSessionAdmissionControlGroupGetListRequest $request
      * @return EnterpriseSessionAdmissionControlGroupGetListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function enterpriseSessionAdmissionControlGroupGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseSessionAdmissionControlGroupGetListRequest $request)
     {
@@ -432,6 +468,7 @@ trait OCISchemaEnterprise
      * @param EnterpriseSessionAdmissionControlGroupGetRequest21sp1V2 $request
      * @return EnterpriseSessionAdmissionControlGroupGetResponse21sp1V2
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function enterpriseSessionAdmissionControlGroupGetRequest21sp1V2(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseSessionAdmissionControlGroupGetRequest21sp1V2 $request)
     {
@@ -442,6 +479,7 @@ trait OCISchemaEnterprise
      * @param EnterpriseSessionAdmissionControlGroupModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function enterpriseSessionAdmissionControlGroupModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseSessionAdmissionControlGroupModifyRequest $request)
     {
@@ -452,6 +490,7 @@ trait OCISchemaEnterprise
      * @param EnterpriseUserCallForwardingSettingsGetListRequest $request
      * @return EnterpriseUserCallForwardingSettingsGetListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function enterpriseUserCallForwardingSettingsGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseUserCallForwardingSettingsGetListRequest $request)
     {
@@ -462,6 +501,7 @@ trait OCISchemaEnterprise
      * @param EnterpriseUserCallingPlanSettingsGetListRequest $request
      * @return EnterpriseUserCallingPlanSettingsGetListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function enterpriseUserCallingPlanSettingsGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseUserCallingPlanSettingsGetListRequest $request)
     {
@@ -472,6 +512,7 @@ trait OCISchemaEnterprise
      * @param EnterpriseUserCallWaitingSettingsGetListRequest $request
      * @return EnterpriseUserCallWaitingSettingsGetListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function enterpriseUserCallWaitingSettingsGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseUserCallWaitingSettingsGetListRequest $request)
     {
@@ -482,6 +523,7 @@ trait OCISchemaEnterprise
      * @param EnterpriseUserHotelingGuestSettingsGetListRequest $request
      * @return EnterpriseUserHotelingGuestSettingsGetListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function enterpriseUserHotelingGuestSettingsGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseUserHotelingGuestSettingsGetListRequest $request)
     {
@@ -492,6 +534,7 @@ trait OCISchemaEnterprise
      * @param EnterpriseVoiceVPNAddPolicyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function enterpriseVoiceVPNAddPolicyRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNAddPolicyRequest $request)
     {
@@ -502,6 +545,7 @@ trait OCISchemaEnterprise
      * @param EnterpriseVoiceVPNDeletePolicyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function enterpriseVoiceVPNDeletePolicyRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNDeletePolicyRequest $request)
     {
@@ -512,6 +556,7 @@ trait OCISchemaEnterprise
      * @param EnterpriseVoiceVPNGetDefaultRequest $request
      * @return EnterpriseVoiceVPNGetDefaultResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function enterpriseVoiceVPNGetDefaultRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNGetDefaultRequest $request)
     {
@@ -522,6 +567,7 @@ trait OCISchemaEnterprise
      * @param EnterpriseVoiceVPNGetPolicyListRequest $request
      * @return EnterpriseVoiceVPNGetPolicyListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function enterpriseVoiceVPNGetPolicyListRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNGetPolicyListRequest $request)
     {
@@ -532,6 +578,7 @@ trait OCISchemaEnterprise
      * @param EnterpriseVoiceVPNGetPolicyRequest $request
      * @return EnterpriseVoiceVPNGetPolicyResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function enterpriseVoiceVPNGetPolicyRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNGetPolicyRequest $request)
     {
@@ -542,6 +589,7 @@ trait OCISchemaEnterprise
      * @param EnterpriseVoiceVPNGetRequest14sp3 $request
      * @return EnterpriseVoiceVPNGetResponse14sp3
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function enterpriseVoiceVPNGetRequest14sp3(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNGetRequest14sp3 $request)
     {
@@ -552,6 +600,7 @@ trait OCISchemaEnterprise
      * @param EnterpriseVoiceVPNModifyPolicyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function enterpriseVoiceVPNModifyPolicyRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNModifyPolicyRequest $request)
     {
@@ -562,6 +611,7 @@ trait OCISchemaEnterprise
      * @param EnterpriseVoiceVPNModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function enterpriseVoiceVPNModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNModifyRequest $request)
     {

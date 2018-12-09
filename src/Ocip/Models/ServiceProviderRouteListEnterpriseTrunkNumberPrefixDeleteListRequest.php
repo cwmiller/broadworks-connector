@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"1b22a3a92e05eea2e752345aa4faa131:486","type":"sequence"}]
+ * @Groups [{"id":"6c3e6c5ded8862d72e92e5d067442775:486","type":"sequence"}]
  */
 class ServiceProviderRouteListEnterpriseTrunkNumberPrefixDeleteListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class ServiceProviderRouteListEnterpriseTrunkNumberPrefixDeleteListRequest exten
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 1b22a3a92e05eea2e752345aa4faa131:486
+     * @Group 6c3e6c5ded8862d72e92e5d067442775:486
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,7 +27,7 @@ class ServiceProviderRouteListEnterpriseTrunkNumberPrefixDeleteListRequest exten
      * @ElementName numberPrefix
      * @Type string
      * @Array
-     * @Group 1b22a3a92e05eea2e752345aa4faa131:486
+     * @Group 6c3e6c5ded8862d72e92e5d067442775:486
      * @var string[]
      */
     private $numberPrefix = array(

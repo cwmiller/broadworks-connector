@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the EnterpriseBroadWorksMobileManagerGetHomeZoneRequest
  *
  * @see EnterpriseBroadWorksMobileManagerGetHomeZoneRequest
- * @Groups [{"id":"b561eca19800e0898f471e5e91eb3baa:289","type":"sequence"}]
+ * @Groups [{"id":"889c8c305076ef39cc50c70d0c2dc820:289","type":"sequence"}]
  */
 class EnterpriseBroadWorksMobileManagerGetHomeZoneResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class EnterpriseBroadWorksMobileManagerGetHomeZoneResponse extends \CWM\BroadWor
     /**
      * @ElementName homeZoneDomainName
      * @Type string
-     * @Group b561eca19800e0898f471e5e91eb3baa:289
+     * @Group 889c8c305076ef39cc50c70d0c2dc820:289
      * @var string|null
      */
     private $homeZoneDomainName = null;
@@ -24,7 +24,7 @@ class EnterpriseBroadWorksMobileManagerGetHomeZoneResponse extends \CWM\BroadWor
     /**
      * @ElementName mobileCountryCode
      * @Type string
-     * @Group b561eca19800e0898f471e5e91eb3baa:289
+     * @Group 889c8c305076ef39cc50c70d0c2dc820:289
      * @var string|null
      */
     private $mobileCountryCode = null;
@@ -32,7 +32,7 @@ class EnterpriseBroadWorksMobileManagerGetHomeZoneResponse extends \CWM\BroadWor
     /**
      * @ElementName mobileNetworkCode
      * @Type string
-     * @Group b561eca19800e0898f471e5e91eb3baa:289
+     * @Group 889c8c305076ef39cc50c70d0c2dc820:289
      * @var string|null
      */
     private $mobileNetworkCode = null;
@@ -40,7 +40,7 @@ class EnterpriseBroadWorksMobileManagerGetHomeZoneResponse extends \CWM\BroadWor
     /**
      * @ElementName locationAreaCode
      * @Type string
-     * @Group b561eca19800e0898f471e5e91eb3baa:289
+     * @Group 889c8c305076ef39cc50c70d0c2dc820:289
      * @var string|null
      */
     private $locationAreaCode = null;
@@ -48,7 +48,7 @@ class EnterpriseBroadWorksMobileManagerGetHomeZoneResponse extends \CWM\BroadWor
     /**
      * @ElementName cellIdentity
      * @Type string
-     * @Group b561eca19800e0898f471e5e91eb3baa:289
+     * @Group 889c8c305076ef39cc50c70d0c2dc820:289
      * @var string|null
      */
     private $cellIdentity = null;

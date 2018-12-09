@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The column headings are "Number Range Start", "Number Range End" and "Is Active".
  *
  * @see EnterpriseRouteListEnterpriseTrunkNumberRangeGetAvailableListRequest
- * @Groups [{"id":"1b22a3a92e05eea2e752345aa4faa131:157","type":"sequence"}]
+ * @Groups [{"id":"6c3e6c5ded8862d72e92e5d067442775:157","type":"sequence"}]
  */
 class EnterpriseRouteListEnterpriseTrunkNumberRangeGetAvailableListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class EnterpriseRouteListEnterpriseTrunkNumberRangeGetAvailableListResponse exte
     /**
      * @ElementName availableNumberRangeTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 1b22a3a92e05eea2e752345aa4faa131:157
+     * @Group 6c3e6c5ded8862d72e92e5d067442775:157
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $availableNumberRangeTable = null;

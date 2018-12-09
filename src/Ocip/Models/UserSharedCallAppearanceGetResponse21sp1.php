@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Port numbers are only used by devices with static line ordering.
  *
  * @see UserSharedCallAppearanceGetRequest21sp1
- * @Groups [{"id":"aed5e8b28baf936d317b8fc1c8b5e92f:139","type":"sequence"}]
+ * @Groups [{"id":"cd1bbb4af6c2895f6719cc668c0bbf4f:139","type":"sequence"}]
  */
 class UserSharedCallAppearanceGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -21,7 +21,7 @@ class UserSharedCallAppearanceGetResponse21sp1 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName alertAllAppearancesForClickToDialCalls
      * @Type bool
-     * @Group aed5e8b28baf936d317b8fc1c8b5e92f:139
+     * @Group cd1bbb4af6c2895f6719cc668c0bbf4f:139
      * @var bool|null
      */
     private $alertAllAppearancesForClickToDialCalls = null;
@@ -29,7 +29,7 @@ class UserSharedCallAppearanceGetResponse21sp1 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName alertAllAppearancesForGroupPagingCalls
      * @Type bool
-     * @Group aed5e8b28baf936d317b8fc1c8b5e92f:139
+     * @Group cd1bbb4af6c2895f6719cc668c0bbf4f:139
      * @var bool|null
      */
     private $alertAllAppearancesForGroupPagingCalls = null;
@@ -37,7 +37,7 @@ class UserSharedCallAppearanceGetResponse21sp1 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName maxAppearances
      * @Type int
-     * @Group aed5e8b28baf936d317b8fc1c8b5e92f:139
+     * @Group cd1bbb4af6c2895f6719cc668c0bbf4f:139
      * @var int|null
      */
     private $maxAppearances = null;
@@ -45,7 +45,7 @@ class UserSharedCallAppearanceGetResponse21sp1 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName allowSCACallRetrieve
      * @Type bool
-     * @Group aed5e8b28baf936d317b8fc1c8b5e92f:139
+     * @Group cd1bbb4af6c2895f6719cc668c0bbf4f:139
      * @var bool|null
      */
     private $allowSCACallRetrieve = null;
@@ -53,7 +53,7 @@ class UserSharedCallAppearanceGetResponse21sp1 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName enableMultipleCallArrangement
      * @Type bool
-     * @Group aed5e8b28baf936d317b8fc1c8b5e92f:139
+     * @Group cd1bbb4af6c2895f6719cc668c0bbf4f:139
      * @var bool|null
      */
     private $enableMultipleCallArrangement = null;
@@ -61,7 +61,7 @@ class UserSharedCallAppearanceGetResponse21sp1 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName multipleCallArrangementIsActive
      * @Type bool
-     * @Group aed5e8b28baf936d317b8fc1c8b5e92f:139
+     * @Group cd1bbb4af6c2895f6719cc668c0bbf4f:139
      * @var bool|null
      */
     private $multipleCallArrangementIsActive = null;
@@ -69,7 +69,7 @@ class UserSharedCallAppearanceGetResponse21sp1 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName endpointTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group aed5e8b28baf936d317b8fc1c8b5e92f:139
+     * @Group cd1bbb4af6c2895f6719cc668c0bbf4f:139
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $endpointTable = null;
@@ -77,7 +77,7 @@ class UserSharedCallAppearanceGetResponse21sp1 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName allowBridgingBetweenLocations
      * @Type bool
-     * @Group aed5e8b28baf936d317b8fc1c8b5e92f:139
+     * @Group cd1bbb4af6c2895f6719cc668c0bbf4f:139
      * @var bool|null
      */
     private $allowBridgingBetweenLocations = null;
@@ -85,7 +85,7 @@ class UserSharedCallAppearanceGetResponse21sp1 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName bridgeWarningTone
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SharedCallAppearanceBridgeWarningTone
-     * @Group aed5e8b28baf936d317b8fc1c8b5e92f:139
+     * @Group cd1bbb4af6c2895f6719cc668c0bbf4f:139
      * @var \CWM\BroadWorksConnector\Ocip\Models\SharedCallAppearanceBridgeWarningTone|null
      */
     private $bridgeWarningTone = null;
@@ -93,7 +93,7 @@ class UserSharedCallAppearanceGetResponse21sp1 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName enableCallParkNotification
      * @Type bool
-     * @Group aed5e8b28baf936d317b8fc1c8b5e92f:139
+     * @Group cd1bbb4af6c2895f6719cc668c0bbf4f:139
      * @var bool|null
      */
     private $enableCallParkNotification = null;

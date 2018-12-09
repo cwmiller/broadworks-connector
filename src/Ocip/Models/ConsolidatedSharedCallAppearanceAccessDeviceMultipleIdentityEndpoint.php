@@ -19,7 +19,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The following elements are only used in XS data mode and ignored in AS data mode: 
  *           privateIdentity
  *
- * @Groups [{"id":"18b369af88e42ffdb4166615c670ce2c:1319","type":"sequence"}]
+ * @Groups [{"id":"8e629edbac315ae7889caca732382c44:1319","type":"sequence"}]
  */
 class ConsolidatedSharedCallAppearanceAccessDeviceMultipleIdentityEndpoint
 {
@@ -27,7 +27,7 @@ class ConsolidatedSharedCallAppearanceAccessDeviceMultipleIdentityEndpoint
     /**
      * @ElementName accessDevice
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDevice
-     * @Group 18b369af88e42ffdb4166615c670ce2c:1319
+     * @Group 8e629edbac315ae7889caca732382c44:1319
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDevice|null
      */
     private $accessDevice = null;
@@ -35,7 +35,7 @@ class ConsolidatedSharedCallAppearanceAccessDeviceMultipleIdentityEndpoint
     /**
      * @ElementName linePort
      * @Type string
-     * @Group 18b369af88e42ffdb4166615c670ce2c:1319
+     * @Group 8e629edbac315ae7889caca732382c44:1319
      * @var string|null
      */
     private $linePort = null;
@@ -44,7 +44,7 @@ class ConsolidatedSharedCallAppearanceAccessDeviceMultipleIdentityEndpoint
      * @ElementName privateIdentity
      * @Type string
      * @Optional
-     * @Group 18b369af88e42ffdb4166615c670ce2c:1319
+     * @Group 8e629edbac315ae7889caca732382c44:1319
      * @var string|null
      */
     private $privateIdentity = null;
@@ -53,7 +53,7 @@ class ConsolidatedSharedCallAppearanceAccessDeviceMultipleIdentityEndpoint
      * @ElementName contact
      * @Type string
      * @Optional
-     * @Group 18b369af88e42ffdb4166615c670ce2c:1319
+     * @Group 8e629edbac315ae7889caca732382c44:1319
      * @var string|null
      */
     private $contact = null;
@@ -62,7 +62,7 @@ class ConsolidatedSharedCallAppearanceAccessDeviceMultipleIdentityEndpoint
      * @ElementName portNumber
      * @Type int
      * @Optional
-     * @Group 18b369af88e42ffdb4166615c670ce2c:1319
+     * @Group 8e629edbac315ae7889caca732382c44:1319
      * @var int|null
      */
     private $portNumber = null;
@@ -70,7 +70,7 @@ class ConsolidatedSharedCallAppearanceAccessDeviceMultipleIdentityEndpoint
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group 18b369af88e42ffdb4166615c670ce2c:1319
+     * @Group 8e629edbac315ae7889caca732382c44:1319
      * @var bool|null
      */
     private $isActive = null;
@@ -78,7 +78,7 @@ class ConsolidatedSharedCallAppearanceAccessDeviceMultipleIdentityEndpoint
     /**
      * @ElementName allowOrigination
      * @Type bool
-     * @Group 18b369af88e42ffdb4166615c670ce2c:1319
+     * @Group 8e629edbac315ae7889caca732382c44:1319
      * @var bool|null
      */
     private $allowOrigination = null;
@@ -86,7 +86,7 @@ class ConsolidatedSharedCallAppearanceAccessDeviceMultipleIdentityEndpoint
     /**
      * @ElementName allowTermination
      * @Type bool
-     * @Group 18b369af88e42ffdb4166615c670ce2c:1319
+     * @Group 8e629edbac315ae7889caca732382c44:1319
      * @var bool|null
      */
     private $allowTermination = null;
@@ -95,7 +95,7 @@ class ConsolidatedSharedCallAppearanceAccessDeviceMultipleIdentityEndpoint
      * @ElementName deviceType
      * @Type string
      * @Optional
-     * @Group 18b369af88e42ffdb4166615c670ce2c:1319
+     * @Group 8e629edbac315ae7889caca732382c44:1319
      * @var string|null
      */
     private $deviceType = null;
@@ -104,7 +104,7 @@ class ConsolidatedSharedCallAppearanceAccessDeviceMultipleIdentityEndpoint
      * @ElementName protocol
      * @Type string
      * @Optional
-     * @Group 18b369af88e42ffdb4166615c670ce2c:1319
+     * @Group 8e629edbac315ae7889caca732382c44:1319
      * @var string|null
      */
     private $protocol = null;
@@ -113,7 +113,7 @@ class ConsolidatedSharedCallAppearanceAccessDeviceMultipleIdentityEndpoint
      * @ElementName netAddress
      * @Type string
      * @Optional
-     * @Group 18b369af88e42ffdb4166615c670ce2c:1319
+     * @Group 8e629edbac315ae7889caca732382c44:1319
      * @var string|null
      */
     private $netAddress = null;
@@ -122,7 +122,7 @@ class ConsolidatedSharedCallAppearanceAccessDeviceMultipleIdentityEndpoint
      * @ElementName port
      * @Type int
      * @Optional
-     * @Group 18b369af88e42ffdb4166615c670ce2c:1319
+     * @Group 8e629edbac315ae7889caca732382c44:1319
      * @var int|null
      */
     private $port = null;
@@ -131,7 +131,7 @@ class ConsolidatedSharedCallAppearanceAccessDeviceMultipleIdentityEndpoint
      * @ElementName outboundProxyServerNetAddress
      * @Type string
      * @Optional
-     * @Group 18b369af88e42ffdb4166615c670ce2c:1319
+     * @Group 8e629edbac315ae7889caca732382c44:1319
      * @var string|null
      */
     private $outboundProxyServerNetAddress = null;
@@ -140,7 +140,7 @@ class ConsolidatedSharedCallAppearanceAccessDeviceMultipleIdentityEndpoint
      * @ElementName stunServerNetAddress
      * @Type string
      * @Optional
-     * @Group 18b369af88e42ffdb4166615c670ce2c:1319
+     * @Group 8e629edbac315ae7889caca732382c44:1319
      * @var string|null
      */
     private $stunServerNetAddress = null;
@@ -149,7 +149,7 @@ class ConsolidatedSharedCallAppearanceAccessDeviceMultipleIdentityEndpoint
      * @ElementName macAddress
      * @Type string
      * @Optional
-     * @Group 18b369af88e42ffdb4166615c670ce2c:1319
+     * @Group 8e629edbac315ae7889caca732382c44:1319
      * @var string|null
      */
     private $macAddress = null;
@@ -158,7 +158,7 @@ class ConsolidatedSharedCallAppearanceAccessDeviceMultipleIdentityEndpoint
      * @ElementName serialNumber
      * @Type string
      * @Optional
-     * @Group 18b369af88e42ffdb4166615c670ce2c:1319
+     * @Group 8e629edbac315ae7889caca732382c44:1319
      * @var string|null
      */
     private $serialNumber = null;
@@ -167,7 +167,7 @@ class ConsolidatedSharedCallAppearanceAccessDeviceMultipleIdentityEndpoint
      * @ElementName description
      * @Type string
      * @Optional
-     * @Group 18b369af88e42ffdb4166615c670ce2c:1319
+     * @Group 8e629edbac315ae7889caca732382c44:1319
      * @var string|null
      */
     private $description = null;
@@ -176,7 +176,7 @@ class ConsolidatedSharedCallAppearanceAccessDeviceMultipleIdentityEndpoint
      * @ElementName physicalLocation
      * @Type string
      * @Optional
-     * @Group 18b369af88e42ffdb4166615c670ce2c:1319
+     * @Group 8e629edbac315ae7889caca732382c44:1319
      * @var string|null
      */
     private $physicalLocation = null;
@@ -185,7 +185,7 @@ class ConsolidatedSharedCallAppearanceAccessDeviceMultipleIdentityEndpoint
      * @ElementName transportProtocol
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol
      * @Optional
-     * @Group 18b369af88e42ffdb4166615c670ce2c:1319
+     * @Group 8e629edbac315ae7889caca732382c44:1319
      * @var \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol|null
      */
     private $transportProtocol = null;
@@ -194,7 +194,7 @@ class ConsolidatedSharedCallAppearanceAccessDeviceMultipleIdentityEndpoint
      * @ElementName useCustomUserNamePassword
      * @Type bool
      * @Optional
-     * @Group 18b369af88e42ffdb4166615c670ce2c:1319
+     * @Group 8e629edbac315ae7889caca732382c44:1319
      * @var bool|null
      */
     private $useCustomUserNamePassword = null;
@@ -203,7 +203,7 @@ class ConsolidatedSharedCallAppearanceAccessDeviceMultipleIdentityEndpoint
      * @ElementName accessDeviceCredentials
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementUserNamePassword16
      * @Optional
-     * @Group 18b369af88e42ffdb4166615c670ce2c:1319
+     * @Group 8e629edbac315ae7889caca732382c44:1319
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementUserNamePassword16|null
      */
     private $accessDeviceCredentials = null;

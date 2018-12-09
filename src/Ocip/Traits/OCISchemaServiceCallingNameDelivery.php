@@ -4,7 +4,8 @@ namespace CWM\BroadWorksConnector\Ocip\Traits;
 
 use CWM\BroadWorksConnector\Ocip\Models\UserCallingNameDeliveryGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserCallingNameDeliveryModifyRequest;
-use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceCallingNameDelivery
@@ -14,6 +15,7 @@ trait OCISchemaServiceCallingNameDelivery
      * @param UserCallingNameDeliveryGetRequest $request
      * @return 
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userCallingNameDeliveryGetRequest(\CWM\BroadWorksConnector\Ocip\Models\UserCallingNameDeliveryGetRequest $request)
     {
@@ -24,6 +26,7 @@ trait OCISchemaServiceCallingNameDelivery
      * @param UserCallingNameDeliveryModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userCallingNameDeliveryModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\UserCallingNameDeliveryModifyRequest $request)
     {

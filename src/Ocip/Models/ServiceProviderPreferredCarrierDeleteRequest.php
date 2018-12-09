@@ -16,7 +16,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SuccessResponse
  * @see ErrorResponse
  * @see ErrorResponse
- * @Groups [{"id":"1384777ce7bd407156102bad44751987:141","type":"sequence"}]
+ * @Groups [{"id":"56f1bd27c6955cc11e0869b6463fb814:141","type":"sequence"}]
  */
 class ServiceProviderPreferredCarrierDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -24,7 +24,7 @@ class ServiceProviderPreferredCarrierDeleteRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 1384777ce7bd407156102bad44751987:141
+     * @Group 56f1bd27c6955cc11e0869b6463fb814:141
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -32,7 +32,7 @@ class ServiceProviderPreferredCarrierDeleteRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName countryCode
      * @Type string
-     * @Group 1384777ce7bd407156102bad44751987:141
+     * @Group 56f1bd27c6955cc11e0869b6463fb814:141
      * @var string|null
      */
     private $countryCode = null;

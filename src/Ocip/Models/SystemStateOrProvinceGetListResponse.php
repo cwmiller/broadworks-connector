@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Contains a 2 column table with column headings 'Key' and 'Display Name' and a row
  *         for each state or province.
  *
- * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:15829","type":"sequence"}]
+ * @Groups [{"id":"b5f5416d9e71f8e4246cda16c4723744:15829","type":"sequence"}]
  */
 class SystemStateOrProvinceGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class SystemStateOrProvinceGetListResponse extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName stateOrProvinceTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:15829
+     * @Group b5f5416d9e71f8e4246cda16c4723744:15829
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $stateOrProvinceTable = null;

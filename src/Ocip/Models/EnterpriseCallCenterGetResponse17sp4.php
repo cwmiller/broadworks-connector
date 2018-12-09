@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to EnterpriseCallCenterGetRequest17sp4.
  *
  * @see EnterpriseCallCenterGetRequest17sp4
- * @Groups [{"id":"69c2aeb1186dc97a4f4c36d9609ddb49:1673","type":"sequence"}]
+ * @Groups [{"id":"3ac5f05d969bc771d6ba8d344d95aa72:1673","type":"sequence"}]
  */
 class EnterpriseCallCenterGetResponse17sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class EnterpriseCallCenterGetResponse17sp4 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName useSystemDefaultGuardTimer
      * @Type bool
-     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:1673
+     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:1673
      * @var bool|null
      */
     private $useSystemDefaultGuardTimer = null;
@@ -24,7 +24,7 @@ class EnterpriseCallCenterGetResponse17sp4 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName enableGuardTimer
      * @Type bool
-     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:1673
+     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:1673
      * @var bool|null
      */
     private $enableGuardTimer = null;
@@ -32,7 +32,7 @@ class EnterpriseCallCenterGetResponse17sp4 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName guardTimerSeconds
      * @Type int
-     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:1673
+     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:1673
      * @var int|null
      */
     private $guardTimerSeconds = null;
@@ -41,7 +41,7 @@ class EnterpriseCallCenterGetResponse17sp4 extends \CWM\BroadWorksConnector\Ocip
      * @ElementName useSystemDefaultUnavailableSettings
      * @Type bool
      * @Optional
-     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:1673
+     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:1673
      * @var bool|null
      */
     private $useSystemDefaultUnavailableSettings = null;
@@ -50,7 +50,7 @@ class EnterpriseCallCenterGetResponse17sp4 extends \CWM\BroadWorksConnector\Ocip
      * @ElementName forceAgentUnavailableOnDNDActivation
      * @Type bool
      * @Optional
-     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:1673
+     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:1673
      * @var bool|null
      */
     private $forceAgentUnavailableOnDNDActivation = null;
@@ -59,7 +59,7 @@ class EnterpriseCallCenterGetResponse17sp4 extends \CWM\BroadWorksConnector\Ocip
      * @ElementName forceAgentUnavailableOnPersonalCalls
      * @Type bool
      * @Optional
-     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:1673
+     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:1673
      * @var bool|null
      */
     private $forceAgentUnavailableOnPersonalCalls = null;
@@ -68,7 +68,7 @@ class EnterpriseCallCenterGetResponse17sp4 extends \CWM\BroadWorksConnector\Ocip
      * @ElementName forceAgentUnavailableOnBouncedCallLimit
      * @Type bool
      * @Optional
-     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:1673
+     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:1673
      * @var bool|null
      */
     private $forceAgentUnavailableOnBouncedCallLimit = null;
@@ -77,7 +77,7 @@ class EnterpriseCallCenterGetResponse17sp4 extends \CWM\BroadWorksConnector\Ocip
      * @ElementName numberConsecutiveBouncedCallsToForceAgentUnavailable
      * @Type int
      * @Optional
-     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:1673
+     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:1673
      * @var int|null
      */
     private $numberConsecutiveBouncedCallsToForceAgentUnavailable = null;
@@ -86,7 +86,7 @@ class EnterpriseCallCenterGetResponse17sp4 extends \CWM\BroadWorksConnector\Ocip
      * @ElementName forceAgentUnavailableOnNotReachable
      * @Type bool
      * @Optional
-     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:1673
+     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:1673
      * @var bool|null
      */
     private $forceAgentUnavailableOnNotReachable = null;

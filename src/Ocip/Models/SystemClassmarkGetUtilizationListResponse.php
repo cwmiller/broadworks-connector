@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "Last Name", "First Name", and "Phone Number", "Extension", "Department", "Email Address".
  *
  * @see SystemClassmarkGetUtilizationListRequest
- * @Groups [{"id":"18819b2191ab2f91f6d92ec2df9e32dd:138","type":"sequence"}]
+ * @Groups [{"id":"cab89edc38c11aa1d780290f00d72d0c:138","type":"sequence"}]
  */
 class SystemClassmarkGetUtilizationListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class SystemClassmarkGetUtilizationListResponse extends \CWM\BroadWorksConnector
     /**
      * @ElementName classmarkUserTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 18819b2191ab2f91f6d92ec2df9e32dd:138
+     * @Group cab89edc38c11aa1d780290f00d72d0c:138
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $classmarkUserTable = null;

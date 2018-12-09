@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserMaliciousCallTraceGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"1dd735379d6024e13a98599c2b534f6d:153","type":"sequence"}]
+ * @Groups [{"id":"6969635204f8e96ba65121dc046a703e:153","type":"sequence"}]
  */
 class UserMaliciousCallTraceGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class UserMaliciousCallTraceGetRequest extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName userId
      * @Type string
-     * @Group 1dd735379d6024e13a98599c2b534f6d:153
+     * @Group 6969635204f8e96ba65121dc046a703e:153
      * @var string|null
      */
     private $userId = null;

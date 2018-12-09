@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SuccessResponse
  * @see ErrorResponse
  * @see EnterpriseCallCenterEnhancedReportingModifyRequest19
- * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:1276","type":"sequence"}]
+ * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:1276","type":"sequence"}]
  */
 class EnterpriseCallCenterEnhancedReportingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,7 +21,7 @@ class EnterpriseCallCenterEnhancedReportingModifyRequest extends \CWM\BroadWorks
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 1a79c7896cb04feac6eff47a5321756e:1276
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:1276
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -30,7 +30,7 @@ class EnterpriseCallCenterEnhancedReportingModifyRequest extends \CWM\BroadWorks
      * @ElementName reportingServer
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportServerChoice
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:1276
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:1276
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportServerChoice|null
      */
     private $reportingServer = null;
@@ -39,7 +39,7 @@ class EnterpriseCallCenterEnhancedReportingModifyRequest extends \CWM\BroadWorks
      * @ElementName webStatisticSource
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportWebStatisticsSource
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:1276
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:1276
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportWebStatisticsSource|null
      */
     private $webStatisticSource = null;

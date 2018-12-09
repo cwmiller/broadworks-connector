@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Criteria for searching for a particular Voice VPN policy selection.
  *
- * @Groups [{"id":"d37849f5e289836ccd316323a7a3799a:962","type":"sequence"}]
+ * @Groups [{"id":"e446bfcbd1f39cbef57d1547014f2bb9:962","type":"sequence"}]
  */
 class SearchCriteriaExactPolicySelection extends SearchCriteria
 {
@@ -15,7 +15,7 @@ class SearchCriteriaExactPolicySelection extends SearchCriteria
     /**
      * @ElementName policySelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNPolicySelection
-     * @Group d37849f5e289836ccd316323a7a3799a:962
+     * @Group e446bfcbd1f39cbef57d1547014f2bb9:962
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNPolicySelection|null
      */
     private $policySelection = null;

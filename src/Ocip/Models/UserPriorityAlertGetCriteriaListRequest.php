@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserPriorityAlertGetCriteriaListResponse
  * @see ErrorResponse
- * @Groups [{"id":"e7f33ca76d98d6dd6ff692896cd06c21:88","type":"sequence"}]
+ * @Groups [{"id":"f0b48f08dedafaaf6fbc18823d9a94df:88","type":"sequence"}]
  */
 class UserPriorityAlertGetCriteriaListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserPriorityAlertGetCriteriaListRequest extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName userId
      * @Type string
-     * @Group e7f33ca76d98d6dd6ff692896cd06c21:88
+     * @Group f0b48f08dedafaaf6fbc18823d9a94df:88
      * @var string|null
      */
     private $userId = null;

@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"8f3ed38751e86ebcc639b5bc5cdef0ec:5467","type":"sequence"}]
+ * @Groups [{"id":"8eb862aea0ee5d4211db0a0d3fe7c164:5467","type":"sequence"}]
  */
 class ServiceProviderServicePackMigrationTaskModifyRemovalListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class ServiceProviderServicePackMigrationTaskModifyRemovalListRequest extends \C
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:5467
+     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:5467
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,7 +27,7 @@ class ServiceProviderServicePackMigrationTaskModifyRemovalListRequest extends \C
     /**
      * @ElementName taskName
      * @Type string
-     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:5467
+     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:5467
      * @var string|null
      */
     private $taskName = null;
@@ -37,7 +37,7 @@ class ServiceProviderServicePackMigrationTaskModifyRemovalListRequest extends \C
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserServiceList
      * @Nillable
      * @Optional
-     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:5467
+     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:5467
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserServiceList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $userServiceNameList = null;
@@ -47,7 +47,7 @@ class ServiceProviderServicePackMigrationTaskModifyRemovalListRequest extends \C
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementServicePackNameList
      * @Nillable
      * @Optional
-     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:5467
+     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:5467
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementServicePackNameList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $servicePackNameList = null;

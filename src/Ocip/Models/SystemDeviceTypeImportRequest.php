@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:7345","type":"sequence"}]
+ * @Groups [{"id":"b5f5416d9e71f8e4246cda16c4723744:7345","type":"sequence"}]
  */
 class SystemDeviceTypeImportRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class SystemDeviceTypeImportRequest extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName file
      * @Type string
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:7345
+     * @Group b5f5416d9e71f8e4246cda16c4723744:7345
      * @var string|null
      */
     private $file = null;
@@ -28,7 +28,7 @@ class SystemDeviceTypeImportRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName resellerId
      * @Type string
      * @Optional
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:7345
+     * @Group b5f5416d9e71f8e4246cda16c4723744:7345
      * @var string|null
      */
     private $resellerId = null;

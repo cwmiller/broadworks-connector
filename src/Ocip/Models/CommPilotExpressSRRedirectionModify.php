@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * CommPilot Express SR type to transfer to voice Mail or forward to a number
  *         used in the context of a modify.
  *
- * @Groups [{"id":"0a20cd20692e84aeff051c5071901f47:174","type":"sequence"}]
+ * @Groups [{"id":"9035ce6c9d1f5c483ddb27dc6c140d91:174","type":"sequence"}]
  */
 class CommPilotExpressSRRedirectionModify
 {
@@ -17,7 +17,7 @@ class CommPilotExpressSRRedirectionModify
      * @ElementName action
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressSRRedirectionAction
      * @Optional
-     * @Group 0a20cd20692e84aeff051c5071901f47:174
+     * @Group 9035ce6c9d1f5c483ddb27dc6c140d91:174
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressSRRedirectionAction|null
      */
     private $action = null;
@@ -27,7 +27,7 @@ class CommPilotExpressSRRedirectionModify
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 0a20cd20692e84aeff051c5071901f47:174
+     * @Group 9035ce6c9d1f5c483ddb27dc6c140d91:174
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $forwardingPhoneNumber = null;

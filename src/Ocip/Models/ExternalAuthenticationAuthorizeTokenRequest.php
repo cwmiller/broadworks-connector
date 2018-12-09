@@ -17,7 +17,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f63b5273e12f283713f4aab9400bb342:61","type":"sequence"}]
+ * @Groups [{"id":"41b97abf851f90806786d3c9083c0604:61","type":"sequence"}]
  */
 class ExternalAuthenticationAuthorizeTokenRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -25,7 +25,7 @@ class ExternalAuthenticationAuthorizeTokenRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName userId
      * @Type string
-     * @Group f63b5273e12f283713f4aab9400bb342:61
+     * @Group 41b97abf851f90806786d3c9083c0604:61
      * @var string|null
      */
     private $userId = null;
@@ -34,7 +34,7 @@ class ExternalAuthenticationAuthorizeTokenRequest extends \CWM\BroadWorksConnect
      * @ElementName password
      * @Type string
      * @Optional
-     * @Group f63b5273e12f283713f4aab9400bb342:61
+     * @Group 41b97abf851f90806786d3c9083c0604:61
      * @var string|null
      */
     private $password = null;
@@ -42,7 +42,7 @@ class ExternalAuthenticationAuthorizeTokenRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName loginToken
      * @Type string
-     * @Group f63b5273e12f283713f4aab9400bb342:61
+     * @Group 41b97abf851f90806786d3c9083c0604:61
      * @var string|null
      */
     private $loginToken = null;

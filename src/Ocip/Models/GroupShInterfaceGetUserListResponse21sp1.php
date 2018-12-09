@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         information for every Public User Identity in the group.
  *
  * @see GroupShInterfaceGetUserListRequest21sp1
- * @Groups [{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:6969","type":"sequence"}]
+ * @Groups [{"id":"15129cd25fa2d5581f4edfd652c24f93:6969","type":"sequence"}]
  */
 class GroupShInterfaceGetUserListResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -20,7 +20,7 @@ class GroupShInterfaceGetUserListResponse21sp1 extends \CWM\BroadWorksConnector\
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ShInterfaceUserListEntry21sp1
      * @Array
      * @Optional
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:6969
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:6969
      * @var \CWM\BroadWorksConnector\Ocip\Models\ShInterfaceUserListEntry21sp1[]
      */
     private $entry = array(

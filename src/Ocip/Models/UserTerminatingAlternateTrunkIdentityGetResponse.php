@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to UserTerminatingAlternateTrunkIdentityGetRequest.
  *
  * @see UserTerminatingAlternateTrunkIdentityGetRequest
- * @Groups [{"id":"489b2153267470be8e945bf6b778e0d0:3393","type":"sequence"}]
+ * @Groups [{"id":"ee3830ce42f01a3ef2a105d473fc3b17:3393","type":"sequence"}]
  */
 class UserTerminatingAlternateTrunkIdentityGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class UserTerminatingAlternateTrunkIdentityGetResponse extends \CWM\BroadWorksCo
      * @ElementName terminatingTrunkIdentity
      * @Type string
      * @Optional
-     * @Group 489b2153267470be8e945bf6b778e0d0:3393
+     * @Group ee3830ce42f01a3ef2a105d473fc3b17:3393
      * @var string|null
      */
     private $terminatingTrunkIdentity = null;

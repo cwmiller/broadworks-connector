@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The table has column headings: "User Id", "Last Name", "First Name", "Hiragana Last Name", and "Hiragana First Name".
  *
  * @see GroupMeetMeConferencingGetInstanceRequest17sp3
- * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:9471","type":"sequence"}]
+ * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:9471","type":"sequence"}]
  */
 class GroupMeetMeConferencingGetInstanceResponse17sp3 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class GroupMeetMeConferencingGetInstanceResponse17sp3 extends \CWM\BroadWorksCon
     /**
      * @ElementName serviceInstanceProfile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile17
-     * @Group 1a79c7896cb04feac6eff47a5321756e:9471
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:9471
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile17|null
      */
     private $serviceInstanceProfile = null;
@@ -26,7 +26,7 @@ class GroupMeetMeConferencingGetInstanceResponse17sp3 extends \CWM\BroadWorksCon
     /**
      * @ElementName allocatedPorts
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferencePorts
-     * @Group 1a79c7896cb04feac6eff47a5321756e:9471
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:9471
      * @var \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferencePorts|null
      */
     private $allocatedPorts = null;
@@ -35,7 +35,7 @@ class GroupMeetMeConferencingGetInstanceResponse17sp3 extends \CWM\BroadWorksCon
      * @ElementName networkClassOfService
      * @Type string
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:9471
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:9471
      * @var string|null
      */
     private $networkClassOfService = null;
@@ -43,7 +43,7 @@ class GroupMeetMeConferencingGetInstanceResponse17sp3 extends \CWM\BroadWorksCon
     /**
      * @ElementName allowIndividualOutDial
      * @Type bool
-     * @Group 1a79c7896cb04feac6eff47a5321756e:9471
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:9471
      * @var bool|null
      */
     private $allowIndividualOutDial = null;
@@ -52,7 +52,7 @@ class GroupMeetMeConferencingGetInstanceResponse17sp3 extends \CWM\BroadWorksCon
      * @ElementName operatorNumber
      * @Type string
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:9471
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:9471
      * @var string|null
      */
     private $operatorNumber = null;
@@ -60,7 +60,7 @@ class GroupMeetMeConferencingGetInstanceResponse17sp3 extends \CWM\BroadWorksCon
     /**
      * @ElementName conferenceHostUserTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 1a79c7896cb04feac6eff47a5321756e:9471
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:9471
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $conferenceHostUserTable = null;

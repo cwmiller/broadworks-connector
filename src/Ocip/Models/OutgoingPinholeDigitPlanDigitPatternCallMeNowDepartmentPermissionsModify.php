@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Modify Outgoing Pinhole Digit Plan Call Me Now call permissions for specified digit patterns.
  *
- * @Groups [{"id":"8366f5f5d1fbfb9742236aba282c1dab:2247","type":"sequence"}]
+ * @Groups [{"id":"80676ea6f2582b1b88573623a6affc0e:2247","type":"sequence"}]
  */
 class OutgoingPinholeDigitPlanDigitPatternCallMeNowDepartmentPermissionsModify
 {
@@ -15,7 +15,7 @@ class OutgoingPinholeDigitPlanDigitPatternCallMeNowDepartmentPermissionsModify
     /**
      * @ElementName departmentKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey
-     * @Group 8366f5f5d1fbfb9742236aba282c1dab:2247
+     * @Group 80676ea6f2582b1b88573623a6affc0e:2247
      * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null
      */
     private $departmentKey = null;
@@ -23,7 +23,7 @@ class OutgoingPinholeDigitPlanDigitPatternCallMeNowDepartmentPermissionsModify
     /**
      * @ElementName digitPatternPermissions
      * @Type \CWM\BroadWorksConnector\Ocip\Models\OutgoingPinholeDigitPlanDigitPatternCallMeNowPermissions
-     * @Group 8366f5f5d1fbfb9742236aba282c1dab:2247
+     * @Group 80676ea6f2582b1b88573623a6affc0e:2247
      * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingPinholeDigitPlanDigitPatternCallMeNowPermissions|null
      */
     private $digitPatternPermissions = null;

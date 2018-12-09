@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "Department", "Email Address", "IMP Id", "Location Code".
  *
  * @see UserCallCenterGetSupervisedAgentListRequest
- * @Groups [{"id":"69c2aeb1186dc97a4f4c36d9609ddb49:6416","type":"sequence"}]
+ * @Groups [{"id":"3ac5f05d969bc771d6ba8d344d95aa72:6416","type":"sequence"}]
  */
 class UserCallCenterGetSupervisedAgentListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,7 +19,7 @@ class UserCallCenterGetSupervisedAgentListResponse extends \CWM\BroadWorksConnec
     /**
      * @ElementName agentUserTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:6416
+     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:6416
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $agentUserTable = null;

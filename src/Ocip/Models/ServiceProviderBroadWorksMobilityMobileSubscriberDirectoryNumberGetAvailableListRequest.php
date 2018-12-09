@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see ServiceProviderBroadWorksMobilityMobileSubscriberDirectoryNumberGetAvailableListResponse
  * @see ErrorResponse
- * @Groups [{"id":"5d94cb4fd2bf88ffe6e6d2193917a6ff:424","type":"sequence"}]
+ * @Groups [{"id":"6536ac9946b3d8422bec81ad9d995e2b:424","type":"sequence"}]
  */
 class ServiceProviderBroadWorksMobilityMobileSubscriberDirectoryNumberGetAvailableListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class ServiceProviderBroadWorksMobilityMobileSubscriberDirectoryNumberGetAvailab
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 5d94cb4fd2bf88ffe6e6d2193917a6ff:424
+     * @Group 6536ac9946b3d8422bec81ad9d995e2b:424
      * @var string|null
      */
     private $serviceProviderId = null;

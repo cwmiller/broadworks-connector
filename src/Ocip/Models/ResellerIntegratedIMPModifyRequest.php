@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"8351e8f51540f77c264b2f9bdf7fada4:142","type":"sequence"}]
+ * @Groups [{"id":"1145a01488507071407c5896ff2e4ef5:142","type":"sequence"}]
  */
 class ResellerIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class ResellerIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName resellerId
      * @Type string
-     * @Group 8351e8f51540f77c264b2f9bdf7fada4:142
+     * @Group 1145a01488507071407c5896ff2e4ef5:142
      * @var string|null
      */
     private $resellerId = null;
@@ -27,7 +27,7 @@ class ResellerIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName useSystemServiceDomain
      * @Type bool
      * @Optional
-     * @Group 8351e8f51540f77c264b2f9bdf7fada4:142
+     * @Group 1145a01488507071407c5896ff2e4ef5:142
      * @var bool|null
      */
     private $useSystemServiceDomain = null;
@@ -37,7 +37,7 @@ class ResellerIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 8351e8f51540f77c264b2f9bdf7fada4:142
+     * @Group 1145a01488507071407c5896ff2e4ef5:142
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $serviceDomain = null;
@@ -47,7 +47,7 @@ class ResellerIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @Type int
      * @Nillable
      * @Optional
-     * @Group 8351e8f51540f77c264b2f9bdf7fada4:142
+     * @Group 1145a01488507071407c5896ff2e4ef5:142
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $servicePort = null;
@@ -56,7 +56,7 @@ class ResellerIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName useSystemMessagingServer
      * @Type bool
      * @Optional
-     * @Group 8351e8f51540f77c264b2f9bdf7fada4:142
+     * @Group 1145a01488507071407c5896ff2e4ef5:142
      * @var bool|null
      */
     private $useSystemMessagingServer = null;
@@ -66,7 +66,7 @@ class ResellerIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 8351e8f51540f77c264b2f9bdf7fada4:142
+     * @Group 1145a01488507071407c5896ff2e4ef5:142
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $provisioningUrl = null;
@@ -76,7 +76,7 @@ class ResellerIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 8351e8f51540f77c264b2f9bdf7fada4:142
+     * @Group 1145a01488507071407c5896ff2e4ef5:142
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $provisioningUserId = null;
@@ -86,7 +86,7 @@ class ResellerIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 8351e8f51540f77c264b2f9bdf7fada4:142
+     * @Group 1145a01488507071407c5896ff2e4ef5:142
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $provisioningPassword = null;
@@ -96,7 +96,7 @@ class ResellerIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 8351e8f51540f77c264b2f9bdf7fada4:142
+     * @Group 1145a01488507071407c5896ff2e4ef5:142
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $boshURL = null;

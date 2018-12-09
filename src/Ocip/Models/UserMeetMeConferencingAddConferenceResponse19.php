@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains the information of a conference.
  *
  * @see UserMeetMeConferencingAddConferenceRequest19
- * @Groups [{"id":"e51a0a16349851c3fad768a24a35838d:486","type":"sequence"}]
+ * @Groups [{"id":"7a29c84abb8473449085e6657fc6948d:486","type":"sequence"}]
  */
 class UserMeetMeConferencingAddConferenceResponse19 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class UserMeetMeConferencingAddConferenceResponse19 extends \CWM\BroadWorksConne
     /**
      * @ElementName conferenceId
      * @Type string
-     * @Group e51a0a16349851c3fad768a24a35838d:486
+     * @Group 7a29c84abb8473449085e6657fc6948d:486
      * @var string|null
      */
     private $conferenceId = null;
@@ -25,7 +25,7 @@ class UserMeetMeConferencingAddConferenceResponse19 extends \CWM\BroadWorksConne
     /**
      * @ElementName moderatorPin
      * @Type string
-     * @Group e51a0a16349851c3fad768a24a35838d:486
+     * @Group 7a29c84abb8473449085e6657fc6948d:486
      * @var string|null
      */
     private $moderatorPin = null;
@@ -34,7 +34,7 @@ class UserMeetMeConferencingAddConferenceResponse19 extends \CWM\BroadWorksConne
      * @ElementName securityPin
      * @Type string
      * @Optional
-     * @Group e51a0a16349851c3fad768a24a35838d:486
+     * @Group 7a29c84abb8473449085e6657fc6948d:486
      * @var string|null
      */
     private $securityPin = null;

@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to UserDevicePoliciesGetRequest. enableDeviceFeatureSynchronization is ignored by the application server in Multiple User Shared mode.
  *
  * @see UserDevicePoliciesGetRequest
- * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:34337","type":"sequence"}]
+ * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:34337","type":"sequence"}]
  */
 class UserDevicePoliciesGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class UserDevicePoliciesGetResponse extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName lineMode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UserDevicePolicyLineMode
-     * @Group 1a79c7896cb04feac6eff47a5321756e:34337
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:34337
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserDevicePolicyLineMode|null
      */
     private $lineMode = null;
@@ -24,7 +24,7 @@ class UserDevicePoliciesGetResponse extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName enableDeviceFeatureSynchronization
      * @Type bool
-     * @Group 1a79c7896cb04feac6eff47a5321756e:34337
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:34337
      * @var bool|null
      */
     private $enableDeviceFeatureSynchronization = null;

@@ -14,7 +14,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see ServiceProviderCallProcessingGetPolicyResponse18sp1
  * @see ErrorResponse
  * @see ServiceProviderCallProcessingGetPolicyRequest19sp1
- * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:15442","type":"sequence"}]
+ * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:15442","type":"sequence"}]
  */
 class ServiceProviderCallProcessingGetPolicyRequest18sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -22,7 +22,7 @@ class ServiceProviderCallProcessingGetPolicyRequest18sp1 extends \CWM\BroadWorks
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 1a79c7896cb04feac6eff47a5321756e:15442
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:15442
      * @var string|null
      */
     private $serviceProviderId = null;

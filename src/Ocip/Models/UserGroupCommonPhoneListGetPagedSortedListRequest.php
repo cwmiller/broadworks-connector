@@ -21,7 +21,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see UserGroupCommonPhoneListGetPagedSortedListResponse
  * @see ErrorResponse
  * @see ErrorResponse
- * @Groups [{"id":"489b2153267470be8e945bf6b778e0d0:1854","type":"sequence","children":[{"id":"489b2153267470be8e945bf6b778e0d0:1857","type":"choice"}]}]
+ * @Groups [{"id":"ee3830ce42f01a3ef2a105d473fc3b17:1854","type":"sequence","children":[{"id":"ee3830ce42f01a3ef2a105d473fc3b17:1857","type":"choice"}]}]
  */
 class UserGroupCommonPhoneListGetPagedSortedListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -29,7 +29,7 @@ class UserGroupCommonPhoneListGetPagedSortedListRequest extends \CWM\BroadWorksC
     /**
      * @ElementName userId
      * @Type string
-     * @Group 489b2153267470be8e945bf6b778e0d0:1854
+     * @Group ee3830ce42f01a3ef2a105d473fc3b17:1854
      * @var string|null
      */
     private $userId = null;
@@ -37,7 +37,7 @@ class UserGroupCommonPhoneListGetPagedSortedListRequest extends \CWM\BroadWorksC
     /**
      * @ElementName responsePagingControl
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl
-     * @Group 489b2153267470be8e945bf6b778e0d0:1854
+     * @Group ee3830ce42f01a3ef2a105d473fc3b17:1854
      * @var \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl|null
      */
     private $responsePagingControl = null;
@@ -45,7 +45,7 @@ class UserGroupCommonPhoneListGetPagedSortedListRequest extends \CWM\BroadWorksC
     /**
      * @ElementName sortByGroupCommonPhoneListNumber
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByGroupCommonPhoneListNumber
-     * @Group 489b2153267470be8e945bf6b778e0d0:1857
+     * @Group ee3830ce42f01a3ef2a105d473fc3b17:1857
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByGroupCommonPhoneListNumber|null
      */
     private $sortByGroupCommonPhoneListNumber = null;
@@ -53,7 +53,7 @@ class UserGroupCommonPhoneListGetPagedSortedListRequest extends \CWM\BroadWorksC
     /**
      * @ElementName sortByGroupCommonPhoneListName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByGroupCommonPhoneListName
-     * @Group 489b2153267470be8e945bf6b778e0d0:1857
+     * @Group ee3830ce42f01a3ef2a105d473fc3b17:1857
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByGroupCommonPhoneListName|null
      */
     private $sortByGroupCommonPhoneListName = null;
@@ -62,7 +62,7 @@ class UserGroupCommonPhoneListGetPagedSortedListRequest extends \CWM\BroadWorksC
      * @ElementName searchCriteriaModeOr
      * @Type bool
      * @Optional
-     * @Group 489b2153267470be8e945bf6b778e0d0:1854
+     * @Group ee3830ce42f01a3ef2a105d473fc3b17:1854
      * @var bool|null
      */
     private $searchCriteriaModeOr = null;
@@ -72,7 +72,7 @@ class UserGroupCommonPhoneListGetPagedSortedListRequest extends \CWM\BroadWorksC
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupCommonPhoneListName
      * @Array
      * @Optional
-     * @Group 489b2153267470be8e945bf6b778e0d0:1854
+     * @Group ee3830ce42f01a3ef2a105d473fc3b17:1854
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupCommonPhoneListName[]
      */
     private $searchCriteriaGroupCommonPhoneListName = array(
@@ -84,7 +84,7 @@ class UserGroupCommonPhoneListGetPagedSortedListRequest extends \CWM\BroadWorksC
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupCommonPhoneListNumber
      * @Array
      * @Optional
-     * @Group 489b2153267470be8e945bf6b778e0d0:1854
+     * @Group ee3830ce42f01a3ef2a105d473fc3b17:1854
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupCommonPhoneListNumber[]
      */
     private $searchCriteriaGroupCommonPhoneListNumber = array(

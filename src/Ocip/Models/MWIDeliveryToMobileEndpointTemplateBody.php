@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * MWI Delivery To Mobile Endpoint template body.
  *
- * @Groups [{"id":"c2306c3f9cea4bfa8682bbf7a2c099a0:420","type":"sequence"}]
+ * @Groups [{"id":"26ea37e78b67054650c3445a62638977:420","type":"sequence"}]
  */
 class MWIDeliveryToMobileEndpointTemplateBody
 {
@@ -16,7 +16,7 @@ class MWIDeliveryToMobileEndpointTemplateBody
      * @ElementName line
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointTemplateLine
      * @Array
-     * @Group c2306c3f9cea4bfa8682bbf7a2c099a0:420
+     * @Group 26ea37e78b67054650c3445a62638977:420
      * @var \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointTemplateLine[]
      */
     private $line = array(

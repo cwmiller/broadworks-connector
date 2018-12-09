@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * The voice portal commPilot express profile menu keys modify entry.
  *
- * @Groups [{"id":"1624846b7d87d3ab55e907c443fca9d6:2379","type":"sequence"}]
+ * @Groups [{"id":"80c5986946137c505e41f6008c7f75a8:2379","type":"sequence"}]
  */
 class CommPilotExpressProfileMenuKeysModifyEntry
 {
@@ -17,7 +17,7 @@ class CommPilotExpressProfileMenuKeysModifyEntry
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 1624846b7d87d3ab55e907c443fca9d6:2379
+     * @Group 80c5986946137c505e41f6008c7f75a8:2379
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $activateAvailableInOfficeProfile = null;
@@ -27,7 +27,7 @@ class CommPilotExpressProfileMenuKeysModifyEntry
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 1624846b7d87d3ab55e907c443fca9d6:2379
+     * @Group 80c5986946137c505e41f6008c7f75a8:2379
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $activateAvailableOutOfOfficeProfile = null;
@@ -37,7 +37,7 @@ class CommPilotExpressProfileMenuKeysModifyEntry
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 1624846b7d87d3ab55e907c443fca9d6:2379
+     * @Group 80c5986946137c505e41f6008c7f75a8:2379
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $activateBusyProfile = null;
@@ -47,7 +47,7 @@ class CommPilotExpressProfileMenuKeysModifyEntry
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 1624846b7d87d3ab55e907c443fca9d6:2379
+     * @Group 80c5986946137c505e41f6008c7f75a8:2379
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $activateUnavailableProfile = null;
@@ -57,7 +57,7 @@ class CommPilotExpressProfileMenuKeysModifyEntry
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 1624846b7d87d3ab55e907c443fca9d6:2379
+     * @Group 80c5986946137c505e41f6008c7f75a8:2379
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $noProfile = null;
@@ -66,7 +66,7 @@ class CommPilotExpressProfileMenuKeysModifyEntry
      * @ElementName returnToPreviousMenu
      * @Type string
      * @Optional
-     * @Group 1624846b7d87d3ab55e907c443fca9d6:2379
+     * @Group 80c5986946137c505e41f6008c7f75a8:2379
      * @var string|null
      */
     private $returnToPreviousMenu = null;
@@ -76,7 +76,7 @@ class CommPilotExpressProfileMenuKeysModifyEntry
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 1624846b7d87d3ab55e907c443fca9d6:2379
+     * @Group 80c5986946137c505e41f6008c7f75a8:2379
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $repeatMenu = null;

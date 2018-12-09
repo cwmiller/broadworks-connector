@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Contact information.
  *
- * @Groups [{"id":"18b369af88e42ffdb4166615c670ce2c:1362","type":"sequence"}]
+ * @Groups [{"id":"8e629edbac315ae7889caca732382c44:1362","type":"sequence"}]
  */
 class Contact
 {
@@ -17,7 +17,7 @@ class Contact
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 18b369af88e42ffdb4166615c670ce2c:1362
+     * @Group 8e629edbac315ae7889caca732382c44:1362
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $contactName = null;
@@ -27,7 +27,7 @@ class Contact
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 18b369af88e42ffdb4166615c670ce2c:1362
+     * @Group 8e629edbac315ae7889caca732382c44:1362
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $contactNumber = null;
@@ -37,7 +37,7 @@ class Contact
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 18b369af88e42ffdb4166615c670ce2c:1362
+     * @Group 8e629edbac315ae7889caca732382c44:1362
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $contactEmail = null;

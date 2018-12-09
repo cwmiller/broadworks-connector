@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the SystemCrInterfaceGetRequest.
  *
  * @see SystemCrInterfaceGetRequest
- * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:21467","type":"sequence"}]
+ * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:21467","type":"sequence"}]
  */
 class SystemCrInterfaceGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class SystemCrInterfaceGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName crAuditEnabled
      * @Type bool
-     * @Group 1a79c7896cb04feac6eff47a5321756e:21467
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:21467
      * @var bool|null
      */
     private $crAuditEnabled = null;
@@ -24,7 +24,7 @@ class SystemCrInterfaceGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName crAuditIntervalMilliseconds
      * @Type int
-     * @Group 1a79c7896cb04feac6eff47a5321756e:21467
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:21467
      * @var int|null
      */
     private $crAuditIntervalMilliseconds = null;
@@ -32,7 +32,7 @@ class SystemCrInterfaceGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName crAuditTimeoutMilliseconds
      * @Type int
-     * @Group 1a79c7896cb04feac6eff47a5321756e:21467
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:21467
      * @var int|null
      */
     private $crAuditTimeoutMilliseconds = null;
@@ -40,7 +40,7 @@ class SystemCrInterfaceGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName crConnectionEnabled
      * @Type bool
-     * @Group 1a79c7896cb04feac6eff47a5321756e:21467
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:21467
      * @var bool|null
      */
     private $crConnectionEnabled = null;
@@ -48,7 +48,7 @@ class SystemCrInterfaceGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName crConnectionTimeoutMilliseconds
      * @Type int
-     * @Group 1a79c7896cb04feac6eff47a5321756e:21467
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:21467
      * @var int|null
      */
     private $crConnectionTimeoutMilliseconds = null;

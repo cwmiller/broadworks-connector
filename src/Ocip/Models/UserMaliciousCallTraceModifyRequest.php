@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"1dd735379d6024e13a98599c2b534f6d:187","type":"sequence"}]
+ * @Groups [{"id":"6969635204f8e96ba65121dc046a703e:187","type":"sequence"}]
  */
 class UserMaliciousCallTraceModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserMaliciousCallTraceModifyRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName userId
      * @Type string
-     * @Group 1dd735379d6024e13a98599c2b534f6d:187
+     * @Group 6969635204f8e96ba65121dc046a703e:187
      * @var string|null
      */
     private $userId = null;
@@ -27,7 +27,7 @@ class UserMaliciousCallTraceModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName isActive
      * @Type bool
      * @Optional
-     * @Group 1dd735379d6024e13a98599c2b534f6d:187
+     * @Group 6969635204f8e96ba65121dc046a703e:187
      * @var bool|null
      */
     private $isActive = null;
@@ -36,7 +36,7 @@ class UserMaliciousCallTraceModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName traceTypeSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MaliciousCallTraceCallTypeSelection
      * @Optional
-     * @Group 1dd735379d6024e13a98599c2b534f6d:187
+     * @Group 6969635204f8e96ba65121dc046a703e:187
      * @var \CWM\BroadWorksConnector\Ocip\Models\MaliciousCallTraceCallTypeSelection|null
      */
     private $traceTypeSelection = null;
@@ -45,7 +45,7 @@ class UserMaliciousCallTraceModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName traceForTimePeriod
      * @Type bool
      * @Optional
-     * @Group 1dd735379d6024e13a98599c2b534f6d:187
+     * @Group 6969635204f8e96ba65121dc046a703e:187
      * @var bool|null
      */
     private $traceForTimePeriod = null;
@@ -55,7 +55,7 @@ class UserMaliciousCallTraceModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MaliciousCallTraceTimePeriod
      * @Nillable
      * @Optional
-     * @Group 1dd735379d6024e13a98599c2b534f6d:187
+     * @Group 6969635204f8e96ba65121dc046a703e:187
      * @var \CWM\BroadWorksConnector\Ocip\Models\MaliciousCallTraceTimePeriod|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $traceTimePeriod = null;

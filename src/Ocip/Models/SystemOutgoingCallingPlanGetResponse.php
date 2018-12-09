@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemOutgoingCallingPlanGetRequest.
  *
  * @see SystemOutgoingCallingPlanGetRequest
- * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:23344","type":"sequence"}]
+ * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:23344","type":"sequence"}]
  */
 class SystemOutgoingCallingPlanGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class SystemOutgoingCallingPlanGetResponse extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName directTransferScreening
      * @Type bool
-     * @Group 1a79c7896cb04feac6eff47a5321756e:23344
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:23344
      * @var bool|null
      */
     private $directTransferScreening = null;

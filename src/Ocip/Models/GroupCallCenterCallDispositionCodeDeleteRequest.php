@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"69c2aeb1186dc97a4f4c36d9609ddb49:2479","type":"sequence"}]
+ * @Groups [{"id":"3ac5f05d969bc771d6ba8d344d95aa72:2479","type":"sequence"}]
  */
 class GroupCallCenterCallDispositionCodeDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupCallCenterCallDispositionCodeDeleteRequest extends \CWM\BroadWorksCon
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:2479
+     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:2479
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,7 +26,7 @@ class GroupCallCenterCallDispositionCodeDeleteRequest extends \CWM\BroadWorksCon
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:2479
+     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:2479
      * @var string|null
      */
     private $groupId = null;
@@ -34,7 +34,7 @@ class GroupCallCenterCallDispositionCodeDeleteRequest extends \CWM\BroadWorksCon
     /**
      * @ElementName code
      * @Type string
-     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:2479
+     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:2479
      * @var string|null
      */
     private $code = null;

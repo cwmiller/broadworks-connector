@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the GroupRoutePointBouncedCallGetRequest.
  *
  * @see GroupRoutePointBouncedCallGetRequest
- * @Groups [{"id":"307cc214f72f448b9a7e28f218444528:159","type":"sequence"}]
+ * @Groups [{"id":"08c06bb3683a696d340b1644025134a4:159","type":"sequence"}]
  */
 class GroupRoutePointBouncedCallGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class GroupRoutePointBouncedCallGetResponse extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group 307cc214f72f448b9a7e28f218444528:159
+     * @Group 08c06bb3683a696d340b1644025134a4:159
      * @var bool|null
      */
     private $isActive = null;
@@ -24,7 +24,7 @@ class GroupRoutePointBouncedCallGetResponse extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName numberOfRingsBeforeBouncingCall
      * @Type int
-     * @Group 307cc214f72f448b9a7e28f218444528:159
+     * @Group 08c06bb3683a696d340b1644025134a4:159
      * @var int|null
      */
     private $numberOfRingsBeforeBouncingCall = null;
@@ -33,7 +33,7 @@ class GroupRoutePointBouncedCallGetResponse extends \CWM\BroadWorksConnector\Oci
      * @ElementName enableTransfer
      * @Type bool
      * @Optional
-     * @Group 307cc214f72f448b9a7e28f218444528:159
+     * @Group 08c06bb3683a696d340b1644025134a4:159
      * @var bool|null
      */
     private $enableTransfer = null;
@@ -42,7 +42,7 @@ class GroupRoutePointBouncedCallGetResponse extends \CWM\BroadWorksConnector\Oci
      * @ElementName transferPhoneNumber
      * @Type string
      * @Optional
-     * @Group 307cc214f72f448b9a7e28f218444528:159
+     * @Group 08c06bb3683a696d340b1644025134a4:159
      * @var string|null
      */
     private $transferPhoneNumber = null;
@@ -50,7 +50,7 @@ class GroupRoutePointBouncedCallGetResponse extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName bounceCallWhenAgentUnavailable
      * @Type bool
-     * @Group 307cc214f72f448b9a7e28f218444528:159
+     * @Group 08c06bb3683a696d340b1644025134a4:159
      * @var bool|null
      */
     private $bounceCallWhenAgentUnavailable = null;

@@ -13,7 +13,8 @@ use CWM\BroadWorksConnector\Ocip\Models\GroupCallPickupGetInstanceResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupCallPickupModifyInstanceRequest;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserCallPickupGetRequest;
-use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\UserCallPickupGetResponse;
 
 trait OCISchemaServiceCallPickup
@@ -23,6 +24,7 @@ trait OCISchemaServiceCallPickup
      * @param GroupCallPickupAddInstanceRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallPickupAddInstanceRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallPickupAddInstanceRequest $request)
     {
@@ -33,6 +35,7 @@ trait OCISchemaServiceCallPickup
      * @param GroupCallPickupDeleteInstanceRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallPickupDeleteInstanceRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallPickupDeleteInstanceRequest $request)
     {
@@ -43,6 +46,7 @@ trait OCISchemaServiceCallPickup
      * @param GroupCallPickupGetAvailableUserListRequest $request
      * @return GroupCallPickupGetAvailableUserListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallPickupGetAvailableUserListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallPickupGetAvailableUserListRequest $request)
     {
@@ -53,6 +57,7 @@ trait OCISchemaServiceCallPickup
      * @param GroupCallPickupGetInstanceListRequest $request
      * @return GroupCallPickupGetInstanceListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallPickupGetInstanceListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallPickupGetInstanceListRequest $request)
     {
@@ -63,6 +68,7 @@ trait OCISchemaServiceCallPickup
      * @param GroupCallPickupGetInstanceRequest $request
      * @return GroupCallPickupGetInstanceResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallPickupGetInstanceRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallPickupGetInstanceRequest $request)
     {
@@ -73,6 +79,7 @@ trait OCISchemaServiceCallPickup
      * @param GroupCallPickupModifyInstanceRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallPickupModifyInstanceRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallPickupModifyInstanceRequest $request)
     {
@@ -83,6 +90,7 @@ trait OCISchemaServiceCallPickup
      * @param UserCallPickupGetRequest $request
      * @return UserCallPickupGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userCallPickupGetRequest(\CWM\BroadWorksConnector\Ocip\Models\UserCallPickupGetRequest $request)
     {

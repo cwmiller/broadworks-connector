@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"e51a0a16349851c3fad768a24a35838d:97","type":"sequence"}]
+ * @Groups [{"id":"7a29c84abb8473449085e6657fc6948d:97","type":"sequence"}]
  */
 class GroupMeetMeConferencingDeleteInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupMeetMeConferencingDeleteInstanceRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group e51a0a16349851c3fad768a24a35838d:97
+     * @Group 7a29c84abb8473449085e6657fc6948d:97
      * @var string|null
      */
     private $serviceUserId = null;

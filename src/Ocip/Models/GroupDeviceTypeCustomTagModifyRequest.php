@@ -16,7 +16,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:3369","type":"sequence","children":[{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:3374","type":"choice"}]}]
+ * @Groups [{"id":"15129cd25fa2d5581f4edfd652c24f93:3369","type":"sequence","children":[{"id":"15129cd25fa2d5581f4edfd652c24f93:3374","type":"choice"}]}]
  */
 class GroupDeviceTypeCustomTagModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -24,7 +24,7 @@ class GroupDeviceTypeCustomTagModifyRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:3369
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:3369
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -32,7 +32,7 @@ class GroupDeviceTypeCustomTagModifyRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:3369
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:3369
      * @var string|null
      */
     private $groupId = null;
@@ -40,7 +40,7 @@ class GroupDeviceTypeCustomTagModifyRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName deviceType
      * @Type string
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:3369
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:3369
      * @var string|null
      */
     private $deviceType = null;
@@ -48,7 +48,7 @@ class GroupDeviceTypeCustomTagModifyRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName tagName
      * @Type string
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:3369
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:3369
      * @var string|null
      */
     private $tagName = null;
@@ -58,7 +58,7 @@ class GroupDeviceTypeCustomTagModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:3374
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:3374
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $tagValue = null;
@@ -68,7 +68,7 @@ class GroupDeviceTypeCustomTagModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:3374
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:3374
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $tagValueToEncrypt = null;

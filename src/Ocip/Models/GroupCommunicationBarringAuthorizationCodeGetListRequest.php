@@ -14,7 +14,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see GroupCommunicationBarringAuthorizationCodeGetListResponse
  * @see ErorResponse
  * @see GroupCommunicationBarringAuthorizationCodeGetListRequest21sp1
- * @Groups [{"id":"499b56264fbe226bfef3c338c8d4750d:981","type":"sequence"}]
+ * @Groups [{"id":"bb12a3589ab4748963f28f7ac9310f70:981","type":"sequence"}]
  */
 class GroupCommunicationBarringAuthorizationCodeGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -22,7 +22,7 @@ class GroupCommunicationBarringAuthorizationCodeGetListRequest extends \CWM\Broa
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 499b56264fbe226bfef3c338c8d4750d:981
+     * @Group bb12a3589ab4748963f28f7ac9310f70:981
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -30,7 +30,7 @@ class GroupCommunicationBarringAuthorizationCodeGetListRequest extends \CWM\Broa
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 499b56264fbe226bfef3c338c8d4750d:981
+     * @Group bb12a3589ab4748963f28f7ac9310f70:981
      * @var string|null
      */
     private $groupId = null;

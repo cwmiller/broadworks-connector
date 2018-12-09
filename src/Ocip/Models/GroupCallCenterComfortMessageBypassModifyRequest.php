@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:3361","type":"sequence"}]
+ * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:3361","type":"sequence"}]
  */
 class GroupCallCenterComfortMessageBypassModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupCallCenterComfortMessageBypassModifyRequest extends \CWM\BroadWorksCo
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group 1a79c7896cb04feac6eff47a5321756e:3361
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:3361
      * @var string|null
      */
     private $serviceUserId = null;
@@ -27,7 +27,7 @@ class GroupCallCenterComfortMessageBypassModifyRequest extends \CWM\BroadWorksCo
      * @ElementName isActive
      * @Type bool
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:3361
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:3361
      * @var bool|null
      */
     private $isActive = null;
@@ -36,7 +36,7 @@ class GroupCallCenterComfortMessageBypassModifyRequest extends \CWM\BroadWorksCo
      * @ElementName callWaitingAgeThresholdSeconds
      * @Type int
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:3361
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:3361
      * @var int|null
      */
     private $callWaitingAgeThresholdSeconds = null;
@@ -45,7 +45,7 @@ class GroupCallCenterComfortMessageBypassModifyRequest extends \CWM\BroadWorksCo
      * @ElementName playAnnouncementAfterRinging
      * @Type bool
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:3361
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:3361
      * @var bool|null
      */
     private $playAnnouncementAfterRinging = null;
@@ -54,7 +54,7 @@ class GroupCallCenterComfortMessageBypassModifyRequest extends \CWM\BroadWorksCo
      * @ElementName ringTimeBeforePlayingAnnouncementSeconds
      * @Type int
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:3361
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:3361
      * @var int|null
      */
     private $ringTimeBeforePlayingAnnouncementSeconds = null;
@@ -63,7 +63,7 @@ class GroupCallCenterComfortMessageBypassModifyRequest extends \CWM\BroadWorksCo
      * @ElementName audioMessageSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:3361
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:3361
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     private $audioMessageSelection = null;
@@ -72,7 +72,7 @@ class GroupCallCenterComfortMessageBypassModifyRequest extends \CWM\BroadWorksCo
      * @ElementName audioFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileResource
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:3361
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:3361
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileResource|null
      */
     private $audioFile = null;
@@ -81,7 +81,7 @@ class GroupCallCenterComfortMessageBypassModifyRequest extends \CWM\BroadWorksCo
      * @ElementName videoMessageSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:3361
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:3361
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     private $videoMessageSelection = null;
@@ -90,7 +90,7 @@ class GroupCallCenterComfortMessageBypassModifyRequest extends \CWM\BroadWorksCo
      * @ElementName videoFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileResource
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:3361
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:3361
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileResource|null
      */
     private $videoFile = null;

@@ -16,7 +16,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see GroupDirectoryNumberHuntingGetResponse
  * @see ErrorResponse
  * @see GroupDirectoryNumberHuntingGetRequest17sp1
- * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:7928","type":"sequence"}]
+ * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:7928","type":"sequence"}]
  */
 class GroupDirectoryNumberHuntingGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -24,7 +24,7 @@ class GroupDirectoryNumberHuntingGetRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group 1a79c7896cb04feac6eff47a5321756e:7928
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:7928
      * @var string|null
      */
     private $serviceUserId = null;

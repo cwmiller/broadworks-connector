@@ -5,7 +5,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * RecurrenceRecurMonthlyByWeek
  *
- * @Groups [{"id":"18b369af88e42ffdb4166615c670ce2c:2639","type":"sequence"}]
+ * @Groups [{"id":"8e629edbac315ae7889caca732382c44:2639","type":"sequence"}]
  */
 class RecurrenceRecurMonthlyByWeek
 {
@@ -14,7 +14,7 @@ class RecurrenceRecurMonthlyByWeek
      * @ElementName recurInterval
      * @Type int
      * @Optional
-     * @Group 18b369af88e42ffdb4166615c670ce2c:2639
+     * @Group 8e629edbac315ae7889caca732382c44:2639
      * @var int|null
      */
     private $recurInterval = null;
@@ -22,7 +22,7 @@ class RecurrenceRecurMonthlyByWeek
     /**
      * @ElementName dayOfWeekInMonth
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DayOfWeekInMonth
-     * @Group 18b369af88e42ffdb4166615c670ce2c:2639
+     * @Group 8e629edbac315ae7889caca732382c44:2639
      * @var \CWM\BroadWorksConnector\Ocip\Models\DayOfWeekInMonth|null
      */
     private $dayOfWeekInMonth = null;
@@ -30,7 +30,7 @@ class RecurrenceRecurMonthlyByWeek
     /**
      * @ElementName dayOfWeek
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DayOfWeek
-     * @Group 18b369af88e42ffdb4166615c670ce2c:2639
+     * @Group 8e629edbac315ae7889caca732382c44:2639
      * @var \CWM\BroadWorksConnector\Ocip\Models\DayOfWeek|null
      */
     private $dayOfWeek = null;

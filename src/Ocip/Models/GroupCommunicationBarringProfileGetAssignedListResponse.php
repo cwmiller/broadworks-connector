@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response contains a simple list of all communication barring profiles assigned to the group.
  *
  * @see GroupCommunicationBarringProfileGetAssignedListRequest
- * @Groups [{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:2369","type":"sequence"}]
+ * @Groups [{"id":"15129cd25fa2d5581f4edfd652c24f93:2369","type":"sequence"}]
  */
 class GroupCommunicationBarringProfileGetAssignedListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,7 +19,7 @@ class GroupCommunicationBarringProfileGetAssignedListResponse extends \CWM\Broad
      * @Type string
      * @Array
      * @Optional
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:2369
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:2369
      * @var string[]
      */
     private $profileName = array(

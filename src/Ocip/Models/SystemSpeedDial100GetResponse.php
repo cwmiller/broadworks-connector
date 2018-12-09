@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemSpeedDial100GetRequest
  * @see SystemSpeedDial100GetResponse17sp1
- * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:28185","type":"sequence"}]
+ * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:28185","type":"sequence"}]
  */
 class SystemSpeedDial100GetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,7 +19,7 @@ class SystemSpeedDial100GetResponse extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName prefix
      * @Type string
-     * @Group 1a79c7896cb04feac6eff47a5321756e:28185
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:28185
      * @var string|null
      */
     private $prefix = null;

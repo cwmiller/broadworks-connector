@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:8552","type":"sequence"}]
+ * @Groups [{"id":"b5f5416d9e71f8e4246cda16c4723744:8552","type":"sequence"}]
  */
 class SystemExternalEmergencyRoutingParametersModifyRequest13mp13 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class SystemExternalEmergencyRoutingParametersModifyRequest13mp13 extends \CWM\B
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:8552
+     * @Group b5f5416d9e71f8e4246cda16c4723744:8552
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $serviceURI = null;
@@ -30,7 +30,7 @@ class SystemExternalEmergencyRoutingParametersModifyRequest13mp13 extends \CWM\B
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:8552
+     * @Group b5f5416d9e71f8e4246cda16c4723744:8552
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $defaultEmergencyNumber = null;
@@ -39,7 +39,7 @@ class SystemExternalEmergencyRoutingParametersModifyRequest13mp13 extends \CWM\B
      * @ElementName isActive
      * @Type bool
      * @Optional
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:8552
+     * @Group b5f5416d9e71f8e4246cda16c4723744:8552
      * @var bool|null
      */
     private $isActive = null;
@@ -48,7 +48,7 @@ class SystemExternalEmergencyRoutingParametersModifyRequest13mp13 extends \CWM\B
      * @ElementName supportsDNSSRV
      * @Type bool
      * @Optional
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:8552
+     * @Group b5f5416d9e71f8e4246cda16c4723744:8552
      * @var bool|null
      */
     private $supportsDNSSRV = null;
@@ -57,7 +57,7 @@ class SystemExternalEmergencyRoutingParametersModifyRequest13mp13 extends \CWM\B
      * @ElementName connectionTimeoutSeconds
      * @Type int
      * @Optional
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:8552
+     * @Group b5f5416d9e71f8e4246cda16c4723744:8552
      * @var int|null
      */
     private $connectionTimeoutSeconds = null;

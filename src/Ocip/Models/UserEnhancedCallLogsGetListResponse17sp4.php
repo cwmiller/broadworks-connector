@@ -19,7 +19,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see UserEnhancedCallLogsGetListRequest17sp4
  * @see UserEnhancedCallLogsGetListRequest17sp4
  * @see UserEnhancedCallLogsGetListResponse17sp4V2
- * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:34668","type":"sequence","children":[{"id":"1a79c7896cb04feac6eff47a5321756e:34670","type":"choice","children":[{"id":"1a79c7896cb04feac6eff47a5321756e:34674","type":"sequence"},{"id":"1a79c7896cb04feac6eff47a5321756e:34682","type":"sequence"}]}]}]
+ * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:34668","type":"sequence","children":[{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:34670","type":"choice","children":[{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:34674","type":"sequence"},{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:34682","type":"sequence"}]}]}]
  */
 class UserEnhancedCallLogsGetListResponse17sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -27,7 +27,7 @@ class UserEnhancedCallLogsGetListResponse17sp4 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName totalNumberOfRows
      * @Type int
-     * @Group 1a79c7896cb04feac6eff47a5321756e:34668
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:34668
      * @var int|null
      */
     private $totalNumberOfRows = null;
@@ -35,7 +35,7 @@ class UserEnhancedCallLogsGetListResponse17sp4 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName legacyEntry
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UserEnhancedCallLogsGetListResponse17sp4LegacyEntry
-     * @Group 1a79c7896cb04feac6eff47a5321756e:34670
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:34670
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserEnhancedCallLogsGetListResponse17sp4LegacyEntry|null
      */
     private $legacyEntry = null;
@@ -43,7 +43,7 @@ class UserEnhancedCallLogsGetListResponse17sp4 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName extendedEntry
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UserEnhancedCallLogsGetListResponse17sp4ExtendedEntry
-     * @Group 1a79c7896cb04feac6eff47a5321756e:34670
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:34670
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserEnhancedCallLogsGetListResponse17sp4ExtendedEntry|null
      */
     private $extendedEntry = null;

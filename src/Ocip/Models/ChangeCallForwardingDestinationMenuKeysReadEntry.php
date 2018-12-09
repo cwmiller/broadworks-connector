@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * The voice portal change call forwarding destination menu keys.
  *
- * @Groups [{"id":"1624846b7d87d3ab55e907c443fca9d6:2312","type":"sequence"}]
+ * @Groups [{"id":"80c5986946137c505e41f6008c7f75a8:2312","type":"sequence"}]
  */
 class ChangeCallForwardingDestinationMenuKeysReadEntry
 {
@@ -15,7 +15,7 @@ class ChangeCallForwardingDestinationMenuKeysReadEntry
     /**
      * @ElementName finishEnteringNewDestinationNumber
      * @Type string
-     * @Group 1624846b7d87d3ab55e907c443fca9d6:2312
+     * @Group 80c5986946137c505e41f6008c7f75a8:2312
      * @var string|null
      */
     private $finishEnteringNewDestinationNumber = null;

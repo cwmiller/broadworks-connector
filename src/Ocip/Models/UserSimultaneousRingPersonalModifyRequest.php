@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SuccessResponse
  * @see ErrorResponse
  * @see UserSimultaneousRingPersonalModifyRequest14sp4
- * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:37490","type":"sequence"}]
+ * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:37490","type":"sequence"}]
  */
 class UserSimultaneousRingPersonalModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class UserSimultaneousRingPersonalModifyRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName userId
      * @Type string
-     * @Group 1a79c7896cb04feac6eff47a5321756e:37490
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:37490
      * @var string|null
      */
     private $userId = null;
@@ -29,7 +29,7 @@ class UserSimultaneousRingPersonalModifyRequest extends \CWM\BroadWorksConnector
      * @ElementName isActive
      * @Type bool
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:37490
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:37490
      * @var bool|null
      */
     private $isActive = null;
@@ -38,7 +38,7 @@ class UserSimultaneousRingPersonalModifyRequest extends \CWM\BroadWorksConnector
      * @ElementName incomingCalls
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SimultaneousRingSelection
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:37490
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:37490
      * @var \CWM\BroadWorksConnector\Ocip\Models\SimultaneousRingSelection|null
      */
     private $incomingCalls = null;
@@ -48,7 +48,7 @@ class UserSimultaneousRingPersonalModifyRequest extends \CWM\BroadWorksConnector
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementOutgoingDNorSIPURIList
      * @Nillable
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:37490
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:37490
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementOutgoingDNorSIPURIList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $simRingPhoneNumberList = null;

@@ -5,7 +5,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemVoiceMessagingGroupGetVoicePortalMenusResponse21SendToDistributionListMenuKeys
  *
- * @Groups [{"id":"1624846b7d87d3ab55e907c443fca9d6:932","type":"sequence"}]
+ * @Groups [{"id":"80c5986946137c505e41f6008c7f75a8:932","type":"sequence"}]
  */
 class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21SendToDistributionListMenuKeys
 {
@@ -13,7 +13,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21SendToDistributionLi
     /**
      * @ElementName sendMessageToSelectedDistributionList
      * @Type string
-     * @Group 1624846b7d87d3ab55e907c443fca9d6:932
+     * @Group 80c5986946137c505e41f6008c7f75a8:932
      * @var string|null
      */
     private $sendMessageToSelectedDistributionList = null;
@@ -22,7 +22,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21SendToDistributionLi
      * @ElementName selectDistributionList
      * @Type string
      * @Optional
-     * @Group 1624846b7d87d3ab55e907c443fca9d6:932
+     * @Group 80c5986946137c505e41f6008c7f75a8:932
      * @var string|null
      */
     private $selectDistributionList = null;
@@ -31,7 +31,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21SendToDistributionLi
      * @ElementName reviewSelectedDistributionList
      * @Type string
      * @Optional
-     * @Group 1624846b7d87d3ab55e907c443fca9d6:932
+     * @Group 80c5986946137c505e41f6008c7f75a8:932
      * @var string|null
      */
     private $reviewSelectedDistributionList = null;
@@ -39,7 +39,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21SendToDistributionLi
     /**
      * @ElementName returnToPreviousMenu
      * @Type string
-     * @Group 1624846b7d87d3ab55e907c443fca9d6:932
+     * @Group 80c5986946137c505e41f6008c7f75a8:932
      * @var string|null
      */
     private $returnToPreviousMenu = null;
@@ -48,7 +48,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21SendToDistributionLi
      * @ElementName repeatMenu
      * @Type string
      * @Optional
-     * @Group 1624846b7d87d3ab55e907c443fca9d6:932
+     * @Group 80c5986946137c505e41f6008c7f75a8:932
      * @var string|null
      */
     private $repeatMenu = null;

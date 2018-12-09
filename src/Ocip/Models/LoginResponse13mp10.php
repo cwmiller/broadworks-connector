@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * LoginRequest13mp10/Response13mp10 is 2nd stage of the 2 stage OCI login process.
  *
  * @see LoginRequest13mp10
- * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:14419","type":"sequence"}]
+ * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:14419","type":"sequence"}]
  */
 class LoginResponse13mp10 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class LoginResponse13mp10 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIData
     /**
      * @ElementName loginType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LoginType
-     * @Group 1a79c7896cb04feac6eff47a5321756e:14419
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:14419
      * @var \CWM\BroadWorksConnector\Ocip\Models\LoginType|null
      */
     private $loginType = null;
@@ -24,7 +24,7 @@ class LoginResponse13mp10 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIData
     /**
      * @ElementName locale
      * @Type string
-     * @Group 1a79c7896cb04feac6eff47a5321756e:14419
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:14419
      * @var string|null
      */
     private $locale = null;
@@ -32,7 +32,7 @@ class LoginResponse13mp10 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIData
     /**
      * @ElementName encoding
      * @Type string
-     * @Group 1a79c7896cb04feac6eff47a5321756e:14419
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:14419
      * @var string|null
      */
     private $encoding = null;

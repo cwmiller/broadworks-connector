@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * The voice portal calling menu keys modify entry.
  *
- * @Groups [{"id":"1624846b7d87d3ab55e907c443fca9d6:3194","type":"sequence"}]
+ * @Groups [{"id":"80c5986946137c505e41f6008c7f75a8:3194","type":"sequence"}]
  */
 class VoicePortalCallingMenuKeysModifyEntry
 {
@@ -16,7 +16,7 @@ class VoicePortalCallingMenuKeysModifyEntry
      * @ElementName endCurrentCallAndGoBackToPreviousMenu
      * @Type string
      * @Optional
-     * @Group 1624846b7d87d3ab55e907c443fca9d6:3194
+     * @Group 80c5986946137c505e41f6008c7f75a8:3194
      * @var string|null
      */
     private $endCurrentCallAndGoBackToPreviousMenu = null;
@@ -25,7 +25,7 @@ class VoicePortalCallingMenuKeysModifyEntry
      * @ElementName returnToPreviousMenu
      * @Type string
      * @Optional
-     * @Group 1624846b7d87d3ab55e907c443fca9d6:3194
+     * @Group 80c5986946137c505e41f6008c7f75a8:3194
      * @var string|null
      */
     private $returnToPreviousMenu = null;

@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response contains the password security parameters for the system.
  *
  * @see SystemPasswordSecurityParametersGetResponse
- * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:12408","type":"sequence"}]
+ * @Groups [{"id":"b5f5416d9e71f8e4246cda16c4723744:12408","type":"sequence"}]
  */
 class SystemPasswordSecurityParametersGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class SystemPasswordSecurityParametersGetResponse extends \CWM\BroadWorksConnect
     /**
      * @ElementName useExistingHashing
      * @Type bool
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:12408
+     * @Group b5f5416d9e71f8e4246cda16c4723744:12408
      * @var bool|null
      */
     private $useExistingHashing = null;
@@ -25,7 +25,7 @@ class SystemPasswordSecurityParametersGetResponse extends \CWM\BroadWorksConnect
     /**
      * @ElementName enforcePasswordChangeOnExpiry
      * @Type bool
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:12408
+     * @Group b5f5416d9e71f8e4246cda16c4723744:12408
      * @var bool|null
      */
     private $enforcePasswordChangeOnExpiry = null;

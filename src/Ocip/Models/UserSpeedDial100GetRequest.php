@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"36d45d852a06f31a5078c9ad46622b49:209","type":"sequence"}]
+ * @Groups [{"id":"4de7b677f1eb49af9cc84bc14731a3bb:209","type":"sequence"}]
  */
 class UserSpeedDial100GetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserSpeedDial100GetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * @ElementName userId
      * @Type string
-     * @Group 36d45d852a06f31a5078c9ad46622b49:209
+     * @Group 4de7b677f1eb49af9cc84bc14731a3bb:209
      * @var string|null
      */
     private $userId = null;
@@ -26,7 +26,7 @@ class UserSpeedDial100GetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * @ElementName speedCode
      * @Type int
-     * @Group 36d45d852a06f31a5078c9ad46622b49:209
+     * @Group 4de7b677f1eb49af9cc84bc14731a3bb:209
      * @var int|null
      */
     private $speedCode = null;

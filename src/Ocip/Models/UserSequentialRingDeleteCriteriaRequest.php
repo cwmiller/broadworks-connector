@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"579a0a0fbfa9c619aa147d6b41841eff:66","type":"sequence"}]
+ * @Groups [{"id":"67e3a7b2c00678707dc6a05a489120bc:66","type":"sequence"}]
  */
 class UserSequentialRingDeleteCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserSequentialRingDeleteCriteriaRequest extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName userId
      * @Type string
-     * @Group 579a0a0fbfa9c619aa147d6b41841eff:66
+     * @Group 67e3a7b2c00678707dc6a05a489120bc:66
      * @var string|null
      */
     private $userId = null;
@@ -26,7 +26,7 @@ class UserSequentialRingDeleteCriteriaRequest extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName criteriaName
      * @Type string
-     * @Group 579a0a0fbfa9c619aa147d6b41841eff:66
+     * @Group 67e3a7b2c00678707dc6a05a489120bc:66
      * @var string|null
      */
     private $criteriaName = null;

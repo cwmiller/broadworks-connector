@@ -20,7 +20,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           - When no extension is available a blank space is provided instead.
  *
  * @see GroupFindMeFollowMeGetAlertingGroupRequest
- * @Groups [{"id":"d0d5b8a5908815c6ae522efe732e363a:281","type":"sequence"}]
+ * @Groups [{"id":"c81ec650475acb5cc7b075c4582c12ba:281","type":"sequence"}]
  */
 class GroupFindMeFollowMeGetAlertingGroupResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -29,7 +29,7 @@ class GroupFindMeFollowMeGetAlertingGroupResponse extends \CWM\BroadWorksConnect
      * @ElementName alertingGroupDescription
      * @Type string
      * @Optional
-     * @Group d0d5b8a5908815c6ae522efe732e363a:281
+     * @Group c81ec650475acb5cc7b075c4582c12ba:281
      * @var string|null
      */
     private $alertingGroupDescription = null;
@@ -37,7 +37,7 @@ class GroupFindMeFollowMeGetAlertingGroupResponse extends \CWM\BroadWorksConnect
     /**
      * @ElementName useDiversionInhibitor
      * @Type bool
-     * @Group d0d5b8a5908815c6ae522efe732e363a:281
+     * @Group c81ec650475acb5cc7b075c4582c12ba:281
      * @var bool|null
      */
     private $useDiversionInhibitor = null;
@@ -45,7 +45,7 @@ class GroupFindMeFollowMeGetAlertingGroupResponse extends \CWM\BroadWorksConnect
     /**
      * @ElementName answerConfirmationRequired
      * @Type bool
-     * @Group d0d5b8a5908815c6ae522efe732e363a:281
+     * @Group c81ec650475acb5cc7b075c4582c12ba:281
      * @var bool|null
      */
     private $answerConfirmationRequired = null;
@@ -53,7 +53,7 @@ class GroupFindMeFollowMeGetAlertingGroupResponse extends \CWM\BroadWorksConnect
     /**
      * @ElementName numberOfRings
      * @Type int
-     * @Group d0d5b8a5908815c6ae522efe732e363a:281
+     * @Group c81ec650475acb5cc7b075c4582c12ba:281
      * @var int|null
      */
     private $numberOfRings = null;
@@ -63,7 +63,7 @@ class GroupFindMeFollowMeGetAlertingGroupResponse extends \CWM\BroadWorksConnect
      * @Type string
      * @Array
      * @Optional
-     * @Group d0d5b8a5908815c6ae522efe732e363a:281
+     * @Group c81ec650475acb5cc7b075c4582c12ba:281
      * @var string[]
      */
     private $phoneNumber = array(
@@ -73,7 +73,7 @@ class GroupFindMeFollowMeGetAlertingGroupResponse extends \CWM\BroadWorksConnect
     /**
      * @ElementName userTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group d0d5b8a5908815c6ae522efe732e363a:281
+     * @Group c81ec650475acb5cc7b075c4582c12ba:281
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $userTable = null;
@@ -81,7 +81,7 @@ class GroupFindMeFollowMeGetAlertingGroupResponse extends \CWM\BroadWorksConnect
     /**
      * @ElementName criteriaTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group d0d5b8a5908815c6ae522efe732e363a:281
+     * @Group c81ec650475acb5cc7b075c4582c12ba:281
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $criteriaTable = null;

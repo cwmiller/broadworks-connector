@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemCallRecordingGetRequest22.
  *
  * @see SystemCallRecordingGetRequest22
- * @Groups [{"id":"604d9297550842860022313f3cf2dc8f:224","type":"sequence"}]
+ * @Groups [{"id":"f913e539ecbb63cf455f6c316963b896:224","type":"sequence"}]
  */
 class SystemCallRecordingGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class SystemCallRecordingGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName continueCallAfterRecordingFailure
      * @Type bool
-     * @Group 604d9297550842860022313f3cf2dc8f:224
+     * @Group f913e539ecbb63cf455f6c316963b896:224
      * @var bool|null
      */
     private $continueCallAfterRecordingFailure = null;
@@ -24,7 +24,7 @@ class SystemCallRecordingGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName maxResponseWaitTimeMilliseconds
      * @Type int
-     * @Group 604d9297550842860022313f3cf2dc8f:224
+     * @Group f913e539ecbb63cf455f6c316963b896:224
      * @var int|null
      */
     private $maxResponseWaitTimeMilliseconds = null;
@@ -32,7 +32,7 @@ class SystemCallRecordingGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName continueCallAfterVideoRecordingFailure
      * @Type bool
-     * @Group 604d9297550842860022313f3cf2dc8f:224
+     * @Group f913e539ecbb63cf455f6c316963b896:224
      * @var bool|null
      */
     private $continueCallAfterVideoRecordingFailure = null;

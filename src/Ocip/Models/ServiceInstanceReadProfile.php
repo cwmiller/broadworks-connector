@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         It is identical to the ServiceInstanceAddProfile, but without the password.
  *         Prior to release 14 this was called ServiceInstanceProfile.
  *
- * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:39545","type":"sequence"}]
+ * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:39545","type":"sequence"}]
  */
 class ServiceInstanceReadProfile
 {
@@ -17,7 +17,7 @@ class ServiceInstanceReadProfile
     /**
      * @ElementName name
      * @Type string
-     * @Group 1a79c7896cb04feac6eff47a5321756e:39545
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:39545
      * @var string|null
      */
     private $name = null;
@@ -25,7 +25,7 @@ class ServiceInstanceReadProfile
     /**
      * @ElementName callingLineIdLastName
      * @Type string
-     * @Group 1a79c7896cb04feac6eff47a5321756e:39545
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:39545
      * @var string|null
      */
     private $callingLineIdLastName = null;
@@ -33,7 +33,7 @@ class ServiceInstanceReadProfile
     /**
      * @ElementName callingLineIdFirstName
      * @Type string
-     * @Group 1a79c7896cb04feac6eff47a5321756e:39545
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:39545
      * @var string|null
      */
     private $callingLineIdFirstName = null;
@@ -42,7 +42,7 @@ class ServiceInstanceReadProfile
      * @ElementName hiraganaLastName
      * @Type string
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:39545
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:39545
      * @var string|null
      */
     private $hiraganaLastName = null;
@@ -51,7 +51,7 @@ class ServiceInstanceReadProfile
      * @ElementName hiraganaFirstName
      * @Type string
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:39545
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:39545
      * @var string|null
      */
     private $hiraganaFirstName = null;
@@ -60,7 +60,7 @@ class ServiceInstanceReadProfile
      * @ElementName phoneNumber
      * @Type string
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:39545
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:39545
      * @var string|null
      */
     private $phoneNumber = null;
@@ -69,7 +69,7 @@ class ServiceInstanceReadProfile
      * @ElementName extension
      * @Type string
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:39545
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:39545
      * @var string|null
      */
     private $extension = null;
@@ -78,7 +78,7 @@ class ServiceInstanceReadProfile
      * @ElementName department
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:39545
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:39545
      * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null
      */
     private $department = null;
@@ -87,7 +87,7 @@ class ServiceInstanceReadProfile
      * @ElementName language
      * @Type string
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:39545
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:39545
      * @var string|null
      */
     private $language = null;
@@ -96,7 +96,7 @@ class ServiceInstanceReadProfile
      * @ElementName timeZone
      * @Type string
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:39545
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:39545
      * @var string|null
      */
     private $timeZone = null;
@@ -105,7 +105,7 @@ class ServiceInstanceReadProfile
      * @ElementName timeZoneDisplayName
      * @Type string
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:39545
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:39545
      * @var string|null
      */
     private $timeZoneDisplayName = null;
@@ -115,7 +115,7 @@ class ServiceInstanceReadProfile
      * @Type string
      * @Array
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:39545
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:39545
      * @var string[]
      */
     private $alias = array(
@@ -126,7 +126,7 @@ class ServiceInstanceReadProfile
      * @ElementName publicUserIdentity
      * @Type string
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:39545
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:39545
      * @var string|null
      */
     private $publicUserIdentity = null;

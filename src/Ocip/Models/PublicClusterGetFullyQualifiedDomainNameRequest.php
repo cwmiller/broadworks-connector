@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see PublicClusterGetFullyQualifiedDomainNameResponse
  * @see ErrorResponse
- * @Groups [{"id":"d83be92ebac098705e715f24f025a9a9:460","type":"sequence"}]
+ * @Groups [{"id":"21fd3c6abc11c44e52803121f7739a76:460","type":"sequence"}]
  */
 class PublicClusterGetFullyQualifiedDomainNameRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

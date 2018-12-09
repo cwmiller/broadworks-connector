@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"69c2aeb1186dc97a4f4c36d9609ddb49:772","type":"sequence"}]
+ * @Groups [{"id":"3ac5f05d969bc771d6ba8d344d95aa72:772","type":"sequence"}]
  */
 class EnterpriseCallCenterCallDispositionCodeAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class EnterpriseCallCenterCallDispositionCodeAddRequest extends \CWM\BroadWorksC
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:772
+     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:772
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,7 +26,7 @@ class EnterpriseCallCenterCallDispositionCodeAddRequest extends \CWM\BroadWorksC
     /**
      * @ElementName code
      * @Type string
-     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:772
+     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:772
      * @var string|null
      */
     private $code = null;
@@ -34,7 +34,7 @@ class EnterpriseCallCenterCallDispositionCodeAddRequest extends \CWM\BroadWorksC
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:772
+     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:772
      * @var bool|null
      */
     private $isActive = null;
@@ -43,7 +43,7 @@ class EnterpriseCallCenterCallDispositionCodeAddRequest extends \CWM\BroadWorksC
      * @ElementName description
      * @Type string
      * @Optional
-     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:772
+     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:772
      * @var string|null
      */
     private $description = null;

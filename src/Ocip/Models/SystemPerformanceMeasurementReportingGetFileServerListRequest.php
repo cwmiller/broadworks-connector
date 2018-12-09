@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemPerformanceMeasurementReportingGetFileServerListResponse
  * @see ErrorResponse
- * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:12491","type":"sequence"}]
+ * @Groups [{"id":"b5f5416d9e71f8e4246cda16c4723744:12491","type":"sequence"}]
  */
 class SystemPerformanceMeasurementReportingGetFileServerListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

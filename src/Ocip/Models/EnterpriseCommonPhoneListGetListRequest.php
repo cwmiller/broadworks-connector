@@ -19,7 +19,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see ErrorResponse
  * @see ErrorResponse
  * @see ErrorResponse
- * @Groups [{"id":"b561eca19800e0898f471e5e91eb3baa:455","type":"sequence"}]
+ * @Groups [{"id":"889c8c305076ef39cc50c70d0c2dc820:455","type":"sequence"}]
  */
 class EnterpriseCommonPhoneListGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -27,7 +27,7 @@ class EnterpriseCommonPhoneListGetListRequest extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group b561eca19800e0898f471e5e91eb3baa:455
+     * @Group 889c8c305076ef39cc50c70d0c2dc820:455
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -36,7 +36,7 @@ class EnterpriseCommonPhoneListGetListRequest extends \CWM\BroadWorksConnector\O
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group b561eca19800e0898f471e5e91eb3baa:455
+     * @Group 889c8c305076ef39cc50c70d0c2dc820:455
      * @var int|null
      */
     private $responseSizeLimit = null;
@@ -45,7 +45,7 @@ class EnterpriseCommonPhoneListGetListRequest extends \CWM\BroadWorksConnector\O
      * @ElementName searchCriteriaModeOr
      * @Type bool
      * @Optional
-     * @Group b561eca19800e0898f471e5e91eb3baa:455
+     * @Group 889c8c305076ef39cc50c70d0c2dc820:455
      * @var bool|null
      */
     private $searchCriteriaModeOr = null;
@@ -55,7 +55,7 @@ class EnterpriseCommonPhoneListGetListRequest extends \CWM\BroadWorksConnector\O
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaEnterpriseCommonPhoneListName
      * @Array
      * @Optional
-     * @Group b561eca19800e0898f471e5e91eb3baa:455
+     * @Group 889c8c305076ef39cc50c70d0c2dc820:455
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaEnterpriseCommonPhoneListName[]
      */
     private $searchCriteriaEnterpriseCommonPhoneListName = array(
@@ -67,7 +67,7 @@ class EnterpriseCommonPhoneListGetListRequest extends \CWM\BroadWorksConnector\O
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaEnterpriseCommonPhoneListNumber
      * @Array
      * @Optional
-     * @Group b561eca19800e0898f471e5e91eb3baa:455
+     * @Group 889c8c305076ef39cc50c70d0c2dc820:455
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaEnterpriseCommonPhoneListNumber[]
      */
     private $searchCriteriaEnterpriseCommonPhoneListNumber = array(

@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the UserVoiceMessagingUserGetOutgoingSMDIMWIRequest.
  *
  * @see UserVoiceMessagingUserGetOutgoingSMDIMWIRequest
- * @Groups [{"id":"1624846b7d87d3ab55e907c443fca9d6:1817","type":"sequence"}]
+ * @Groups [{"id":"80c5986946137c505e41f6008c7f75a8:1817","type":"sequence"}]
  */
 class UserVoiceMessagingUserGetOutgoingSMDIMWIResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class UserVoiceMessagingUserGetOutgoingSMDIMWIResponse extends \CWM\BroadWorksCo
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group 1624846b7d87d3ab55e907c443fca9d6:1817
+     * @Group 80c5986946137c505e41f6008c7f75a8:1817
      * @var bool|null
      */
     private $isActive = null;
@@ -26,7 +26,7 @@ class UserVoiceMessagingUserGetOutgoingSMDIMWIResponse extends \CWM\BroadWorksCo
      * @Type string
      * @Array
      * @Optional
-     * @Group 1624846b7d87d3ab55e907c443fca9d6:1817
+     * @Group 80c5986946137c505e41f6008c7f75a8:1817
      * @var string[]
      */
     private $outgoingSMDIMWIPhoneNumber = array(

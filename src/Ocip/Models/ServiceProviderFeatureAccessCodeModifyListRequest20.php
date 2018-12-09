@@ -14,7 +14,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SuccessResponse
  * @see ErrorResponse
  * @see ServiceProviderFeatureAccessCodeModifyListRequest21
- * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:16378","type":"sequence"}]
+ * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:16378","type":"sequence"}]
  */
 class ServiceProviderFeatureAccessCodeModifyListRequest20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -22,7 +22,7 @@ class ServiceProviderFeatureAccessCodeModifyListRequest20 extends \CWM\BroadWork
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 1a79c7896cb04feac6eff47a5321756e:16378
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:16378
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -32,7 +32,7 @@ class ServiceProviderFeatureAccessCodeModifyListRequest20 extends \CWM\BroadWork
      * @Type \CWM\BroadWorksConnector\Ocip\Models\FeatureAccessCodeEntry
      * @Array
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:16378
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:16378
      * @var \CWM\BroadWorksConnector\Ocip\Models\FeatureAccessCodeEntry[]
      */
     private $featureAccessCode = array(

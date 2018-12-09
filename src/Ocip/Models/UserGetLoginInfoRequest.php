@@ -16,7 +16,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see UserGetLoginInfoResponse
  * @see ErrorResponse
  * @see UserGetLoginInfoRequest22
- * @Groups [{"id":"e9727a9f98db3fe2db7ad08079031b73:1656","type":"sequence","children":[{"id":"e9727a9f98db3fe2db7ad08079031b73:1657","type":"choice"}]}]
+ * @Groups [{"id":"bd46fc427b2b0dc182dcd53cf03e95b4:1656","type":"sequence","children":[{"id":"bd46fc427b2b0dc182dcd53cf03e95b4:1657","type":"choice"}]}]
  */
 class UserGetLoginInfoRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -24,7 +24,7 @@ class UserGetLoginInfoRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
     /**
      * @ElementName userId
      * @Type string
-     * @Group e9727a9f98db3fe2db7ad08079031b73:1657
+     * @Group bd46fc427b2b0dc182dcd53cf03e95b4:1657
      * @var string|null
      */
     private $userId = null;
@@ -32,7 +32,7 @@ class UserGetLoginInfoRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
     /**
      * @ElementName phoneNumber
      * @Type string
-     * @Group e9727a9f98db3fe2db7ad08079031b73:1657
+     * @Group bd46fc427b2b0dc182dcd53cf03e95b4:1657
      * @var string|null
      */
     private $phoneNumber = null;

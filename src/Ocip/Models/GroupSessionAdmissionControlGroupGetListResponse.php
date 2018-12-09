@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The column headings are: "Name", "Is Default", "Maximum Sessions", "Maximum Originating Sessions", "Maximum Terminating Sessions".
  *
  * @see GroupSessionAdmissionControlGroupGetListRequest
- * @Groups [{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:6835","type":"sequence"}]
+ * @Groups [{"id":"15129cd25fa2d5581f4edfd652c24f93:6835","type":"sequence"}]
  */
 class GroupSessionAdmissionControlGroupGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class GroupSessionAdmissionControlGroupGetListResponse extends \CWM\BroadWorksCo
     /**
      * @ElementName sessionAdmissionControlGroupTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:6835
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:6835
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $sessionAdmissionControlGroupTable = null;

@@ -14,7 +14,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"8a4618c2ca5bbd628e5c8e748d988b06:83","type":"sequence"}]
+ * @Groups [{"id":"1db4babb977f19001ba1773c35e08052:83","type":"sequence"}]
  */
 class SystemBusyLampFieldModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -23,7 +23,7 @@ class SystemBusyLampFieldModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName displayLocalUserIdentityLastNameFirst
      * @Type bool
      * @Optional
-     * @Group 8a4618c2ca5bbd628e5c8e748d988b06:83
+     * @Group 1db4babb977f19001ba1773c35e08052:83
      * @var bool|null
      */
     private $displayLocalUserIdentityLastNameFirst = null;
@@ -32,7 +32,7 @@ class SystemBusyLampFieldModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName forceUseOfTCP
      * @Type bool
      * @Optional
-     * @Group 8a4618c2ca5bbd628e5c8e748d988b06:83
+     * @Group 1db4babb977f19001ba1773c35e08052:83
      * @var bool|null
      */
     private $forceUseOfTCP = null;

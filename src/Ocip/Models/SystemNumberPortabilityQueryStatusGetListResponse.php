@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "Status and Treatment File Name".
  *
  * @see SystemNumberPortabilityQueryStatusGetListRequest
- * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:11498","type":"sequence"}]
+ * @Groups [{"id":"b5f5416d9e71f8e4246cda16c4723744:11498","type":"sequence"}]
  */
 class SystemNumberPortabilityQueryStatusGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class SystemNumberPortabilityQueryStatusGetListResponse extends \CWM\BroadWorksC
     /**
      * @ElementName statusTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:11498
+     * @Group b5f5416d9e71f8e4246cda16c4723744:11498
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $statusTable = null;

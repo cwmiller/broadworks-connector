@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         included or included but is not an existing user in the group, a password will be generated based on only
  *         the rules applicable for a new user.
  *
- * @Groups [{"id":"d83be92ebac098705e715f24f025a9a9:731","type":"sequence"}]
+ * @Groups [{"id":"21fd3c6abc11c44e52803121f7739a76:731","type":"sequence"}]
  */
 class PasswordForUser
 {
@@ -17,7 +17,7 @@ class PasswordForUser
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group d83be92ebac098705e715f24f025a9a9:731
+     * @Group 21fd3c6abc11c44e52803121f7739a76:731
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -25,7 +25,7 @@ class PasswordForUser
     /**
      * @ElementName groupId
      * @Type string
-     * @Group d83be92ebac098705e715f24f025a9a9:731
+     * @Group 21fd3c6abc11c44e52803121f7739a76:731
      * @var string|null
      */
     private $groupId = null;
@@ -34,7 +34,7 @@ class PasswordForUser
      * @ElementName userId
      * @Type string
      * @Optional
-     * @Group d83be92ebac098705e715f24f025a9a9:731
+     * @Group 21fd3c6abc11c44e52803121f7739a76:731
      * @var string|null
      */
     private $userId = null;
@@ -43,7 +43,7 @@ class PasswordForUser
      * @ElementName generatePassword
      * @Type bool
      * @Optional
-     * @Group d83be92ebac098705e715f24f025a9a9:731
+     * @Group 21fd3c6abc11c44e52803121f7739a76:731
      * @var bool|null
      */
     private $generatePassword = null;
@@ -52,7 +52,7 @@ class PasswordForUser
      * @ElementName generatePasscode
      * @Type bool
      * @Optional
-     * @Group d83be92ebac098705e715f24f025a9a9:731
+     * @Group 21fd3c6abc11c44e52803121f7739a76:731
      * @var bool|null
      */
     private $generatePasscode = null;
@@ -61,7 +61,7 @@ class PasswordForUser
      * @ElementName generateSipPassword
      * @Type bool
      * @Optional
-     * @Group d83be92ebac098705e715f24f025a9a9:731
+     * @Group 21fd3c6abc11c44e52803121f7739a76:731
      * @var bool|null
      */
     private $generateSipPassword = null;

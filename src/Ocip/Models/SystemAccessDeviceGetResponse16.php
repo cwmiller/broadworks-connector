@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemAccessDeviceGetRequest16
  *
  * @see SystemAccessDeviceGetRequest16
- * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:17179","type":"sequence"}]
+ * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:17179","type":"sequence"}]
  */
 class SystemAccessDeviceGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class SystemAccessDeviceGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName deviceType
      * @Type string
-     * @Group 1a79c7896cb04feac6eff47a5321756e:17179
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:17179
      * @var string|null
      */
     private $deviceType = null;
@@ -24,7 +24,7 @@ class SystemAccessDeviceGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName protocol
      * @Type string
-     * @Group 1a79c7896cb04feac6eff47a5321756e:17179
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:17179
      * @var string|null
      */
     private $protocol = null;
@@ -33,7 +33,7 @@ class SystemAccessDeviceGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName netAddress
      * @Type string
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:17179
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:17179
      * @var string|null
      */
     private $netAddress = null;
@@ -42,7 +42,7 @@ class SystemAccessDeviceGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName port
      * @Type int
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:17179
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:17179
      * @var int|null
      */
     private $port = null;
@@ -51,7 +51,7 @@ class SystemAccessDeviceGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName outboundProxyServerNetAddress
      * @Type string
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:17179
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:17179
      * @var string|null
      */
     private $outboundProxyServerNetAddress = null;
@@ -60,7 +60,7 @@ class SystemAccessDeviceGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName stunServerNetAddress
      * @Type string
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:17179
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:17179
      * @var string|null
      */
     private $stunServerNetAddress = null;
@@ -69,7 +69,7 @@ class SystemAccessDeviceGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName macAddress
      * @Type string
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:17179
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:17179
      * @var string|null
      */
     private $macAddress = null;
@@ -78,7 +78,7 @@ class SystemAccessDeviceGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName serialNumber
      * @Type string
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:17179
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:17179
      * @var string|null
      */
     private $serialNumber = null;
@@ -87,7 +87,7 @@ class SystemAccessDeviceGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName description
      * @Type string
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:17179
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:17179
      * @var string|null
      */
     private $description = null;
@@ -95,7 +95,7 @@ class SystemAccessDeviceGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName numberOfPorts
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt
-     * @Group 1a79c7896cb04feac6eff47a5321756e:17179
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:17179
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt|null
      */
     private $numberOfPorts = null;
@@ -103,7 +103,7 @@ class SystemAccessDeviceGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName numberOfAssignedPorts
      * @Type int
-     * @Group 1a79c7896cb04feac6eff47a5321756e:17179
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:17179
      * @var int|null
      */
     private $numberOfAssignedPorts = null;
@@ -111,7 +111,7 @@ class SystemAccessDeviceGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName status
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceStatus
-     * @Group 1a79c7896cb04feac6eff47a5321756e:17179
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:17179
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceStatus|null
      */
     private $status = null;
@@ -120,7 +120,7 @@ class SystemAccessDeviceGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName physicalLocation
      * @Type string
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:17179
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:17179
      * @var string|null
      */
     private $physicalLocation = null;
@@ -129,7 +129,7 @@ class SystemAccessDeviceGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName transportProtocol
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:17179
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:17179
      * @var \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol|null
      */
     private $transportProtocol = null;
@@ -138,7 +138,7 @@ class SystemAccessDeviceGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName mobilityManagerProvisioningURL
      * @Type string
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:17179
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:17179
      * @var string|null
      */
     private $mobilityManagerProvisioningURL = null;
@@ -147,7 +147,7 @@ class SystemAccessDeviceGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName mobilityManagerProvisioningUserName
      * @Type string
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:17179
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:17179
      * @var string|null
      */
     private $mobilityManagerProvisioningUserName = null;
@@ -156,7 +156,7 @@ class SystemAccessDeviceGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName mobilityManagerDefaultOriginatingServiceKey
      * @Type int
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:17179
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:17179
      * @var int|null
      */
     private $mobilityManagerDefaultOriginatingServiceKey = null;
@@ -165,7 +165,7 @@ class SystemAccessDeviceGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName mobilityManagerDefaultTerminatingServiceKey
      * @Type int
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:17179
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:17179
      * @var int|null
      */
     private $mobilityManagerDefaultTerminatingServiceKey = null;
@@ -174,7 +174,7 @@ class SystemAccessDeviceGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName useCustomUserNamePassword
      * @Type bool
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:17179
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:17179
      * @var bool|null
      */
     private $useCustomUserNamePassword = null;
@@ -183,7 +183,7 @@ class SystemAccessDeviceGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName userName
      * @Type string
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:17179
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:17179
      * @var string|null
      */
     private $userName = null;

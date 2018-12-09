@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:1749","type":"sequence"}]
+ * @Groups [{"id":"b5f5416d9e71f8e4246cda16c4723744:1749","type":"sequence"}]
  */
 class SystemAliasAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemAliasAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRe
     /**
      * @ElementName aliasNetAddress
      * @Type string
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:1749
+     * @Group b5f5416d9e71f8e4246cda16c4723744:1749
      * @var string|null
      */
     private $aliasNetAddress = null;

@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * CommPilot Express SR No Answer Settings used in the context of a get.
  *
- * @Groups [{"id":"0a20cd20692e84aeff051c5071901f47:134","type":"sequence"}]
+ * @Groups [{"id":"9035ce6c9d1f5c483ddb27dc6c140d91:134","type":"sequence"}]
  */
 class CommPilotExpressSRNoAnswer
 {
@@ -15,7 +15,7 @@ class CommPilotExpressSRNoAnswer
     /**
      * @ElementName ringForwardNumbers
      * @Type bool
-     * @Group 0a20cd20692e84aeff051c5071901f47:134
+     * @Group 9035ce6c9d1f5c483ddb27dc6c140d91:134
      * @var bool|null
      */
     private $ringForwardNumbers = null;
@@ -23,7 +23,7 @@ class CommPilotExpressSRNoAnswer
     /**
      * @ElementName forwardingNumberList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressSRRedirectionWithRingList
-     * @Group 0a20cd20692e84aeff051c5071901f47:134
+     * @Group 9035ce6c9d1f5c483ddb27dc6c140d91:134
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressSRRedirectionWithRingList|null
      */
     private $forwardingNumberList = null;
@@ -31,7 +31,7 @@ class CommPilotExpressSRNoAnswer
     /**
      * @ElementName stillNoAnswer
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressSRRedirection
-     * @Group 0a20cd20692e84aeff051c5071901f47:134
+     * @Group 9035ce6c9d1f5c483ddb27dc6c140d91:134
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressSRRedirection|null
      */
     private $stillNoAnswer = null;

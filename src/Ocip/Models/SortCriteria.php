@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         and	whether the sort is case sensitive. Sort order defaults to
  *         ascending and case sensitive.
  *
- * @Groups [{"id":"58f663eead958d798597598c4d3ef3e7:576","type":"sequence"}]
+ * @Groups [{"id":"448476806043edb64fb9ce2b7f95cb59:576","type":"sequence"}]
  */
 abstract class SortCriteria
 {
@@ -17,7 +17,7 @@ abstract class SortCriteria
     /**
      * @ElementName isAscending
      * @Type bool
-     * @Group 58f663eead958d798597598c4d3ef3e7:576
+     * @Group 448476806043edb64fb9ce2b7f95cb59:576
      * @var bool|null
      */
     private $isAscending = null;
@@ -25,7 +25,7 @@ abstract class SortCriteria
     /**
      * @ElementName isCaseSensitive
      * @Type bool
-     * @Group 58f663eead958d798597598c4d3ef3e7:576
+     * @Group 448476806043edb64fb9ce2b7f95cb59:576
      * @var bool|null
      */
     private $isCaseSensitive = null;

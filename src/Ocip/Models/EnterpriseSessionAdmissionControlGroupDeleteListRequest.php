@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"b561eca19800e0898f471e5e91eb3baa:964","type":"sequence"}]
+ * @Groups [{"id":"889c8c305076ef39cc50c70d0c2dc820:964","type":"sequence"}]
  */
 class EnterpriseSessionAdmissionControlGroupDeleteListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class EnterpriseSessionAdmissionControlGroupDeleteListRequest extends \CWM\Broad
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group b561eca19800e0898f471e5e91eb3baa:964
+     * @Group 889c8c305076ef39cc50c70d0c2dc820:964
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,7 +27,7 @@ class EnterpriseSessionAdmissionControlGroupDeleteListRequest extends \CWM\Broad
      * @ElementName name
      * @Type string
      * @Array
-     * @Group b561eca19800e0898f471e5e91eb3baa:964
+     * @Group 889c8c305076ef39cc50c70d0c2dc820:964
      * @var string[]
      */
     private $name = array(

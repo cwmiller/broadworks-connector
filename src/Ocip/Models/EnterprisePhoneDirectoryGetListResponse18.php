@@ -24,7 +24,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           "Service Name"
  *
  * @see EnterprisePhoneDirectoryGetListRequest18
- * @Groups [{"id":"b561eca19800e0898f471e5e91eb3baa:808","type":"sequence"}]
+ * @Groups [{"id":"889c8c305076ef39cc50c70d0c2dc820:808","type":"sequence"}]
  */
 class EnterprisePhoneDirectoryGetListResponse18 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -32,7 +32,7 @@ class EnterprisePhoneDirectoryGetListResponse18 extends \CWM\BroadWorksConnector
     /**
      * @ElementName directoryTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group b561eca19800e0898f471e5e91eb3baa:808
+     * @Group 889c8c305076ef39cc50c70d0c2dc820:808
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $directoryTable = null;

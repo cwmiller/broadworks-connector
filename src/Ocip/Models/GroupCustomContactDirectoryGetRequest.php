@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see GroupCustomContactDirectoryGetResponse
  * @see ErrorResponse
  * @see GroupCustomContactDirectoryGetRequest17
- * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:7550","type":"sequence"}]
+ * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:7550","type":"sequence"}]
  */
 class GroupCustomContactDirectoryGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class GroupCustomContactDirectoryGetRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 1a79c7896cb04feac6eff47a5321756e:7550
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:7550
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -28,7 +28,7 @@ class GroupCustomContactDirectoryGetRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 1a79c7896cb04feac6eff47a5321756e:7550
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:7550
      * @var string|null
      */
     private $groupId = null;
@@ -36,7 +36,7 @@ class GroupCustomContactDirectoryGetRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName name
      * @Type string
-     * @Group 1a79c7896cb04feac6eff47a5321756e:7550
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:7550
      * @var string|null
      */
     private $name = null;

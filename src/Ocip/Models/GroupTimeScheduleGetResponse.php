@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response contains the group's time schedule information.
  *
  * @see GroupTimeScheduleGetRequest
- * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:11358","type":"sequence"}]
+ * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:11358","type":"sequence"}]
  */
 class GroupTimeScheduleGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class GroupTimeScheduleGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName timeScheduleName
      * @Type string
-     * @Group 1a79c7896cb04feac6eff47a5321756e:11358
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:11358
      * @var string|null
      */
     private $timeScheduleName = null;
@@ -26,7 +26,7 @@ class GroupTimeScheduleGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\
      * @ElementName timeInterval01
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeInterval
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:11358
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:11358
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeInterval|null
      */
     private $timeInterval01 = null;
@@ -35,7 +35,7 @@ class GroupTimeScheduleGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\
      * @ElementName timeInterval02
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeInterval
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:11358
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:11358
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeInterval|null
      */
     private $timeInterval02 = null;
@@ -44,7 +44,7 @@ class GroupTimeScheduleGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\
      * @ElementName timeInterval03
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeInterval
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:11358
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:11358
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeInterval|null
      */
     private $timeInterval03 = null;
@@ -53,7 +53,7 @@ class GroupTimeScheduleGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\
      * @ElementName timeInterval04
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeInterval
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:11358
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:11358
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeInterval|null
      */
     private $timeInterval04 = null;
@@ -62,7 +62,7 @@ class GroupTimeScheduleGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\
      * @ElementName timeInterval05
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeInterval
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:11358
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:11358
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeInterval|null
      */
     private $timeInterval05 = null;
@@ -71,7 +71,7 @@ class GroupTimeScheduleGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\
      * @ElementName timeInterval06
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeInterval
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:11358
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:11358
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeInterval|null
      */
     private $timeInterval06 = null;
@@ -80,7 +80,7 @@ class GroupTimeScheduleGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\
      * @ElementName timeInterval07
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeInterval
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:11358
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:11358
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeInterval|null
      */
     private $timeInterval07 = null;
@@ -89,7 +89,7 @@ class GroupTimeScheduleGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\
      * @ElementName timeInterval08
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeInterval
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:11358
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:11358
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeInterval|null
      */
     private $timeInterval08 = null;
@@ -98,7 +98,7 @@ class GroupTimeScheduleGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\
      * @ElementName timeInterval09
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeInterval
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:11358
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:11358
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeInterval|null
      */
     private $timeInterval09 = null;
@@ -107,7 +107,7 @@ class GroupTimeScheduleGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\
      * @ElementName timeInterval10
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeInterval
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:11358
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:11358
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeInterval|null
      */
     private $timeInterval10 = null;
@@ -116,7 +116,7 @@ class GroupTimeScheduleGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\
      * @ElementName timeInterval11
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeInterval
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:11358
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:11358
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeInterval|null
      */
     private $timeInterval11 = null;
@@ -125,7 +125,7 @@ class GroupTimeScheduleGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\
      * @ElementName timeInterval12
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeInterval
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:11358
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:11358
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeInterval|null
      */
     private $timeInterval12 = null;
@@ -134,7 +134,7 @@ class GroupTimeScheduleGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\
      * @ElementName timeInterval13
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeInterval
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:11358
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:11358
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeInterval|null
      */
     private $timeInterval13 = null;
@@ -143,7 +143,7 @@ class GroupTimeScheduleGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\
      * @ElementName timeInterval14
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeInterval
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:11358
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:11358
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeInterval|null
      */
     private $timeInterval14 = null;
@@ -152,7 +152,7 @@ class GroupTimeScheduleGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\
      * @ElementName timeInterval15
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeInterval
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:11358
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:11358
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeInterval|null
      */
     private $timeInterval15 = null;
@@ -161,7 +161,7 @@ class GroupTimeScheduleGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\
      * @ElementName timeInterval16
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeInterval
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:11358
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:11358
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeInterval|null
      */
     private $timeInterval16 = null;
@@ -170,7 +170,7 @@ class GroupTimeScheduleGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\
      * @ElementName timeInterval17
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeInterval
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:11358
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:11358
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeInterval|null
      */
     private $timeInterval17 = null;
@@ -179,7 +179,7 @@ class GroupTimeScheduleGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\
      * @ElementName timeInterval18
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeInterval
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:11358
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:11358
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeInterval|null
      */
     private $timeInterval18 = null;
@@ -188,7 +188,7 @@ class GroupTimeScheduleGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\
      * @ElementName timeInterval19
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeInterval
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:11358
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:11358
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeInterval|null
      */
     private $timeInterval19 = null;
@@ -197,7 +197,7 @@ class GroupTimeScheduleGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\
      * @ElementName timeInterval20
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeInterval
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:11358
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:11358
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeInterval|null
      */
     private $timeInterval20 = null;

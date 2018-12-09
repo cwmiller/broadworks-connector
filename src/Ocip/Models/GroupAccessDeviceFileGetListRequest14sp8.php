@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupAccessDeviceFileGetListResponse14sp8
  * @see ErrorResponse
- * @Groups [{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:452","type":"sequence"}]
+ * @Groups [{"id":"15129cd25fa2d5581f4edfd652c24f93:452","type":"sequence"}]
  */
 class GroupAccessDeviceFileGetListRequest14sp8 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupAccessDeviceFileGetListRequest14sp8 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:452
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:452
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,7 +26,7 @@ class GroupAccessDeviceFileGetListRequest14sp8 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:452
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:452
      * @var string|null
      */
     private $groupId = null;
@@ -34,7 +34,7 @@ class GroupAccessDeviceFileGetListRequest14sp8 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName deviceName
      * @Type string
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:452
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:452
      * @var string|null
      */
     private $deviceName = null;

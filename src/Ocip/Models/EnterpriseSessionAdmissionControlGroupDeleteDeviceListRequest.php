@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"b561eca19800e0898f471e5e91eb3baa:946","type":"sequence"}]
+ * @Groups [{"id":"889c8c305076ef39cc50c70d0c2dc820:946","type":"sequence"}]
  */
 class EnterpriseSessionAdmissionControlGroupDeleteDeviceListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class EnterpriseSessionAdmissionControlGroupDeleteDeviceListRequest extends \CWM
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group b561eca19800e0898f471e5e91eb3baa:946
+     * @Group 889c8c305076ef39cc50c70d0c2dc820:946
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,7 +26,7 @@ class EnterpriseSessionAdmissionControlGroupDeleteDeviceListRequest extends \CWM
     /**
      * @ElementName name
      * @Type string
-     * @Group b561eca19800e0898f471e5e91eb3baa:946
+     * @Group 889c8c305076ef39cc50c70d0c2dc820:946
      * @var string|null
      */
     private $name = null;
@@ -35,7 +35,7 @@ class EnterpriseSessionAdmissionControlGroupDeleteDeviceListRequest extends \CWM
      * @ElementName devices
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EnterpriseAccessDevice
      * @Array
-     * @Group b561eca19800e0898f471e5e91eb3baa:946
+     * @Group 889c8c305076ef39cc50c70d0c2dc820:946
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseAccessDevice[]
      */
     private $devices = array(

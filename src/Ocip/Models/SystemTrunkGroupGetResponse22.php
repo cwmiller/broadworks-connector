@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           sipIdentityForPilotAndProxyTrunkModesPolicy
  *
  * @see SystemTrunkGroupGetRequest22
- * @Groups [{"id":"5472d4b45ad0ad56e4f82361e2a66a53:1568","type":"sequence"}]
+ * @Groups [{"id":"762df656d5a3c5800001b37599b1e4ce:1568","type":"sequence"}]
  */
 class SystemTrunkGroupGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,7 +19,7 @@ class SystemTrunkGroupGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName enforceCLIDServiceAssignmentForPilotUser
      * @Type bool
-     * @Group 5472d4b45ad0ad56e4f82361e2a66a53:1568
+     * @Group 762df656d5a3c5800001b37599b1e4ce:1568
      * @var bool|null
      */
     private $enforceCLIDServiceAssignmentForPilotUser = null;
@@ -27,7 +27,7 @@ class SystemTrunkGroupGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName terminateUnreachableTriggerDetectionOnReceiptOf18x
      * @Type bool
-     * @Group 5472d4b45ad0ad56e4f82361e2a66a53:1568
+     * @Group 762df656d5a3c5800001b37599b1e4ce:1568
      * @var bool|null
      */
     private $terminateUnreachableTriggerDetectionOnReceiptOf18x = null;
@@ -35,7 +35,7 @@ class SystemTrunkGroupGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName pilotUserCallingLineAssertedIdentityPolicy
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupPilotUserCallingLineAssertedIdentityUsagePolicy
-     * @Group 5472d4b45ad0ad56e4f82361e2a66a53:1568
+     * @Group 762df656d5a3c5800001b37599b1e4ce:1568
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupPilotUserCallingLineAssertedIdentityUsagePolicy|null
      */
     private $pilotUserCallingLineAssertedIdentityPolicy = null;
@@ -43,7 +43,7 @@ class SystemTrunkGroupGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName enforceOutOfDialogPBXRedirectionPolicies
      * @Type bool
-     * @Group 5472d4b45ad0ad56e4f82361e2a66a53:1568
+     * @Group 762df656d5a3c5800001b37599b1e4ce:1568
      * @var bool|null
      */
     private $enforceOutOfDialogPBXRedirectionPolicies = null;
@@ -51,7 +51,7 @@ class SystemTrunkGroupGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName unscreenedRedirectionHandling
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupUnscreenedRedirectionHandling
-     * @Group 5472d4b45ad0ad56e4f82361e2a66a53:1568
+     * @Group 762df656d5a3c5800001b37599b1e4ce:1568
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupUnscreenedRedirectionHandling|null
      */
     private $unscreenedRedirectionHandling = null;
@@ -59,7 +59,7 @@ class SystemTrunkGroupGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName enableHoldoverOfHighwaterCallCounts
      * @Type bool
-     * @Group 5472d4b45ad0ad56e4f82361e2a66a53:1568
+     * @Group 762df656d5a3c5800001b37599b1e4ce:1568
      * @var bool|null
      */
     private $enableHoldoverOfHighwaterCallCounts = null;
@@ -67,7 +67,7 @@ class SystemTrunkGroupGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName holdoverPeriod
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupHighwaterCallCountHoldoverPeriodMinutes
-     * @Group 5472d4b45ad0ad56e4f82361e2a66a53:1568
+     * @Group 762df656d5a3c5800001b37599b1e4ce:1568
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupHighwaterCallCountHoldoverPeriodMinutes|null
      */
     private $holdoverPeriod = null;
@@ -75,7 +75,7 @@ class SystemTrunkGroupGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName timeZoneOffsetMinutes
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupTimeZoneOffsetMinutes
-     * @Group 5472d4b45ad0ad56e4f82361e2a66a53:1568
+     * @Group 762df656d5a3c5800001b37599b1e4ce:1568
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupTimeZoneOffsetMinutes|null
      */
     private $timeZoneOffsetMinutes = null;
@@ -83,7 +83,7 @@ class SystemTrunkGroupGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName clidSourceForScreenedCallsPolicy
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupCLIDSourceForScreenedCallsPolicy
-     * @Group 5472d4b45ad0ad56e4f82361e2a66a53:1568
+     * @Group 762df656d5a3c5800001b37599b1e4ce:1568
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupCLIDSourceForScreenedCallsPolicy|null
      */
     private $clidSourceForScreenedCallsPolicy = null;
@@ -91,7 +91,7 @@ class SystemTrunkGroupGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName userLookupPolicy
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupUserLookupPolicy
-     * @Group 5472d4b45ad0ad56e4f82361e2a66a53:1568
+     * @Group 762df656d5a3c5800001b37599b1e4ce:1568
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupUserLookupPolicy|null
      */
     private $userLookupPolicy = null;
@@ -99,7 +99,7 @@ class SystemTrunkGroupGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName outOfDialogPBXRedirectionCLIDMapping
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupOutOfDialogPBXRedirectionCLIDMapping
-     * @Group 5472d4b45ad0ad56e4f82361e2a66a53:1568
+     * @Group 762df656d5a3c5800001b37599b1e4ce:1568
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupOutOfDialogPBXRedirectionCLIDMapping|null
      */
     private $outOfDialogPBXRedirectionCLIDMapping = null;
@@ -107,7 +107,7 @@ class SystemTrunkGroupGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName enforceOutOfDialogPBXRedirectionTrunkGroupCapacity
      * @Type bool
-     * @Group 5472d4b45ad0ad56e4f82361e2a66a53:1568
+     * @Group 762df656d5a3c5800001b37599b1e4ce:1568
      * @var bool|null
      */
     private $enforceOutOfDialogPBXRedirectionTrunkGroupCapacity = null;
@@ -115,7 +115,7 @@ class SystemTrunkGroupGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName implicitRegistrationSetSupportPolicy
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupImplicitRegistrationSetSupportPolicy
-     * @Group 5472d4b45ad0ad56e4f82361e2a66a53:1568
+     * @Group 762df656d5a3c5800001b37599b1e4ce:1568
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupImplicitRegistrationSetSupportPolicy|null
      */
     private $implicitRegistrationSetSupportPolicy = null;
@@ -123,7 +123,7 @@ class SystemTrunkGroupGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName sipIdentityForPilotAndProxyTrunkModesPolicy
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupSIPIdentityForPilotAndProxyTrunkModesPolicy
-     * @Group 5472d4b45ad0ad56e4f82361e2a66a53:1568
+     * @Group 762df656d5a3c5800001b37599b1e4ce:1568
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupSIPIdentityForPilotAndProxyTrunkModesPolicy|null
      */
     private $sipIdentityForPilotAndProxyTrunkModesPolicy = null;
@@ -131,7 +131,7 @@ class SystemTrunkGroupGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName supportConnectedIdentityPolicy
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupSupportConnectedIdentityPolicy
-     * @Group 5472d4b45ad0ad56e4f82361e2a66a53:1568
+     * @Group 762df656d5a3c5800001b37599b1e4ce:1568
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupSupportConnectedIdentityPolicy|null
      */
     private $supportConnectedIdentityPolicy = null;
@@ -139,7 +139,7 @@ class SystemTrunkGroupGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName useUnmappedSessionsForTrunkUsers
      * @Type bool
-     * @Group 5472d4b45ad0ad56e4f82361e2a66a53:1568
+     * @Group 762df656d5a3c5800001b37599b1e4ce:1568
      * @var bool|null
      */
     private $useUnmappedSessionsForTrunkUsers = null;

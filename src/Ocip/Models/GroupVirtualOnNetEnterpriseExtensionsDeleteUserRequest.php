@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"73530229e066070baac4c09dac256d69:116","type":"sequence"}]
+ * @Groups [{"id":"f72eed3624b2f8f1013e6751cb17c899:116","type":"sequence"}]
  */
 class GroupVirtualOnNetEnterpriseExtensionsDeleteUserRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupVirtualOnNetEnterpriseExtensionsDeleteUserRequest extends \CWM\BroadW
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 73530229e066070baac4c09dac256d69:116
+     * @Group f72eed3624b2f8f1013e6751cb17c899:116
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,7 +26,7 @@ class GroupVirtualOnNetEnterpriseExtensionsDeleteUserRequest extends \CWM\BroadW
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 73530229e066070baac4c09dac256d69:116
+     * @Group f72eed3624b2f8f1013e6751cb17c899:116
      * @var string|null
      */
     private $groupId = null;
@@ -34,7 +34,7 @@ class GroupVirtualOnNetEnterpriseExtensionsDeleteUserRequest extends \CWM\BroadW
     /**
      * @ElementName phoneNumber
      * @Type string
-     * @Group 73530229e066070baac4c09dac256d69:116
+     * @Group f72eed3624b2f8f1013e6751cb17c899:116
      * @var string|null
      */
     private $phoneNumber = null;

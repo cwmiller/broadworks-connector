@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * The configuration of a key for Auto Attendant.
  *
- * @Groups [{"id":"18b369af88e42ffdb4166615c670ce2c:406","type":"sequence"}]
+ * @Groups [{"id":"8e629edbac315ae7889caca732382c44:406","type":"sequence"}]
  */
 class AutoAttendantKeyConfiguration19
 {
@@ -15,7 +15,7 @@ class AutoAttendantKeyConfiguration19
     /**
      * @ElementName key
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantMenuKey
-     * @Group 18b369af88e42ffdb4166615c670ce2c:406
+     * @Group 8e629edbac315ae7889caca732382c44:406
      * @var \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantMenuKey|null
      */
     private $key = null;
@@ -23,7 +23,7 @@ class AutoAttendantKeyConfiguration19
     /**
      * @ElementName entry
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantKeyConfigurationEntry19
-     * @Group 18b369af88e42ffdb4166615c670ce2c:406
+     * @Group 8e629edbac315ae7889caca732382c44:406
      * @var \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantKeyConfigurationEntry19|null
      */
     private $entry = null;

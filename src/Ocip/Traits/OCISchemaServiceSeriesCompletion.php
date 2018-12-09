@@ -13,7 +13,8 @@ use CWM\BroadWorksConnector\Ocip\Models\GroupSeriesCompletionGetInstanceResponse
 use CWM\BroadWorksConnector\Ocip\Models\GroupSeriesCompletionModifyInstanceRequest;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserSeriesCompletionGetRequest;
-use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\UserSeriesCompletionGetResponse;
 
 trait OCISchemaServiceSeriesCompletion
@@ -23,6 +24,7 @@ trait OCISchemaServiceSeriesCompletion
      * @param GroupSeriesCompletionAddInstanceRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupSeriesCompletionAddInstanceRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupSeriesCompletionAddInstanceRequest $request)
     {
@@ -33,6 +35,7 @@ trait OCISchemaServiceSeriesCompletion
      * @param GroupSeriesCompletionDeleteInstanceRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupSeriesCompletionDeleteInstanceRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupSeriesCompletionDeleteInstanceRequest $request)
     {
@@ -43,6 +46,7 @@ trait OCISchemaServiceSeriesCompletion
      * @param GroupSeriesCompletionGetAvailableUserListRequest $request
      * @return GroupSeriesCompletionGetAvailableUserListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupSeriesCompletionGetAvailableUserListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupSeriesCompletionGetAvailableUserListRequest $request)
     {
@@ -53,6 +57,7 @@ trait OCISchemaServiceSeriesCompletion
      * @param GroupSeriesCompletionGetInstanceListRequest $request
      * @return GroupSeriesCompletionGetInstanceListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupSeriesCompletionGetInstanceListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupSeriesCompletionGetInstanceListRequest $request)
     {
@@ -63,6 +68,7 @@ trait OCISchemaServiceSeriesCompletion
      * @param GroupSeriesCompletionGetInstanceRequest $request
      * @return GroupSeriesCompletionGetInstanceResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupSeriesCompletionGetInstanceRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupSeriesCompletionGetInstanceRequest $request)
     {
@@ -73,6 +79,7 @@ trait OCISchemaServiceSeriesCompletion
      * @param GroupSeriesCompletionModifyInstanceRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupSeriesCompletionModifyInstanceRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupSeriesCompletionModifyInstanceRequest $request)
     {
@@ -83,6 +90,7 @@ trait OCISchemaServiceSeriesCompletion
      * @param UserSeriesCompletionGetRequest $request
      * @return UserSeriesCompletionGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userSeriesCompletionGetRequest(\CWM\BroadWorksConnector\Ocip\Models\UserSeriesCompletionGetRequest $request)
     {

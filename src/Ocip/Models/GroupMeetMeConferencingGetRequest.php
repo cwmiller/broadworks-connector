@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupMeetMeConferencingGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"e51a0a16349851c3fad768a24a35838d:237","type":"sequence"}]
+ * @Groups [{"id":"7a29c84abb8473449085e6657fc6948d:237","type":"sequence"}]
  */
 class GroupMeetMeConferencingGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupMeetMeConferencingGetRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group e51a0a16349851c3fad768a24a35838d:237
+     * @Group 7a29c84abb8473449085e6657fc6948d:237
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,7 +26,7 @@ class GroupMeetMeConferencingGetRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName groupId
      * @Type string
-     * @Group e51a0a16349851c3fad768a24a35838d:237
+     * @Group 7a29c84abb8473449085e6657fc6948d:237
      * @var string|null
      */
     private $groupId = null;

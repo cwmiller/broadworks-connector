@@ -34,7 +34,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *     "Service Name", "Receptionist Notes"
  *
  * @see UserPhoneDirectoryGetPagedSortedListRequest
- * @Groups [{"id":"489b2153267470be8e945bf6b778e0d0:2595","type":"sequence"}]
+ * @Groups [{"id":"ee3830ce42f01a3ef2a105d473fc3b17:2595","type":"sequence"}]
  */
 class UserPhoneDirectoryGetPagedSortedListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -42,7 +42,7 @@ class UserPhoneDirectoryGetPagedSortedListResponse extends \CWM\BroadWorksConnec
     /**
      * @ElementName totalNumberOfRows
      * @Type int
-     * @Group 489b2153267470be8e945bf6b778e0d0:2595
+     * @Group ee3830ce42f01a3ef2a105d473fc3b17:2595
      * @var int|null
      */
     private $totalNumberOfRows = null;
@@ -50,7 +50,7 @@ class UserPhoneDirectoryGetPagedSortedListResponse extends \CWM\BroadWorksConnec
     /**
      * @ElementName directoryTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 489b2153267470be8e945bf6b778e0d0:2595
+     * @Group ee3830ce42f01a3ef2a105d473fc3b17:2595
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $directoryTable = null;

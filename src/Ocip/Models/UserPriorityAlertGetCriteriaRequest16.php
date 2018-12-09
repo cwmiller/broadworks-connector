@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see UserPriorityAlertGetCriteriaResponse16
  * @see ErrorResponse
  * @see UserPriorityAlertGetCriteriaRequest21
- * @Groups [{"id":"499b56264fbe226bfef3c338c8d4750d:5425","type":"sequence"}]
+ * @Groups [{"id":"bb12a3589ab4748963f28f7ac9310f70:5425","type":"sequence"}]
  */
 class UserPriorityAlertGetCriteriaRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class UserPriorityAlertGetCriteriaRequest16 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName userId
      * @Type string
-     * @Group 499b56264fbe226bfef3c338c8d4750d:5425
+     * @Group bb12a3589ab4748963f28f7ac9310f70:5425
      * @var string|null
      */
     private $userId = null;
@@ -28,7 +28,7 @@ class UserPriorityAlertGetCriteriaRequest16 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName criteriaName
      * @Type string
-     * @Group 499b56264fbe226bfef3c338c8d4750d:5425
+     * @Group bb12a3589ab4748963f28f7ac9310f70:5425
      * @var string|null
      */
     private $criteriaName = null;

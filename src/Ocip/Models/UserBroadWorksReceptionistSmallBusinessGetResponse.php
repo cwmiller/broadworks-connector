@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           "Group Id", "Phone Number", "Extension", "Mobile", "Email Address", "Department", "IMP Id", "Title".
  *
  * @see UserBroadWorksReceptionistSmallBusinessGetRequest
- * @Groups [{"id":"f8d6e78d32461454e3cb9f1deb7bb626:106","type":"sequence"}]
+ * @Groups [{"id":"452824ff4ca32a49de7f4a39514ef560:106","type":"sequence"}]
  */
 class UserBroadWorksReceptionistSmallBusinessGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,7 +19,7 @@ class UserBroadWorksReceptionistSmallBusinessGetResponse extends \CWM\BroadWorks
     /**
      * @ElementName monitoredUserTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group f8d6e78d32461454e3cb9f1deb7bb626:106
+     * @Group 452824ff4ca32a49de7f4a39514ef560:106
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $monitoredUserTable = null;

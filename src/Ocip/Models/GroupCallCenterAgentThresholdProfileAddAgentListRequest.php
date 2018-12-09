@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"69c2aeb1186dc97a4f4c36d9609ddb49:1945","type":"sequence"}]
+ * @Groups [{"id":"3ac5f05d969bc771d6ba8d344d95aa72:1945","type":"sequence"}]
  */
 class GroupCallCenterAgentThresholdProfileAddAgentListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class GroupCallCenterAgentThresholdProfileAddAgentListRequest extends \CWM\Broad
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:1945
+     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:1945
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,7 +27,7 @@ class GroupCallCenterAgentThresholdProfileAddAgentListRequest extends \CWM\Broad
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:1945
+     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:1945
      * @var string|null
      */
     private $groupId = null;
@@ -35,7 +35,7 @@ class GroupCallCenterAgentThresholdProfileAddAgentListRequest extends \CWM\Broad
     /**
      * @ElementName profileName
      * @Type string
-     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:1945
+     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:1945
      * @var string|null
      */
     private $profileName = null;
@@ -44,7 +44,7 @@ class GroupCallCenterAgentThresholdProfileAddAgentListRequest extends \CWM\Broad
      * @ElementName agentUserId
      * @Type string
      * @Array
-     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:1945
+     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:1945
      * @var string[]
      */
     private $agentUserId = array(

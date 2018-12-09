@@ -5,7 +5,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * GroupTrunkGroupUserCreationTaskAddRequest14sp4UserExtensions
  *
- * @Groups [{"id":"5472d4b45ad0ad56e4f82361e2a66a53:1380","type":"sequence"}]
+ * @Groups [{"id":"762df656d5a3c5800001b37599b1e4ce:1380","type":"sequence"}]
  */
 class GroupTrunkGroupUserCreationTaskAddRequest14sp4UserExtensions
 {
@@ -15,7 +15,7 @@ class GroupTrunkGroupUserCreationTaskAddRequest14sp4UserExtensions
      * @Type string
      * @Array
      * @Optional
-     * @Group 5472d4b45ad0ad56e4f82361e2a66a53:1380
+     * @Group 762df656d5a3c5800001b37599b1e4ce:1380
      * @var string[]
      */
     private $extension = array(
@@ -27,7 +27,7 @@ class GroupTrunkGroupUserCreationTaskAddRequest14sp4UserExtensions
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtensionRange17
      * @Array
      * @Optional
-     * @Group 5472d4b45ad0ad56e4f82361e2a66a53:1380
+     * @Group 762df656d5a3c5800001b37599b1e4ce:1380
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtensionRange17[]
      */
     private $extensionRange = array(

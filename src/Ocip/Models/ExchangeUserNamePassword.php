@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Exchange server user name and password.
  *
- * @Groups [{"id":"18b369af88e42ffdb4166615c670ce2c:1899","type":"sequence"}]
+ * @Groups [{"id":"8e629edbac315ae7889caca732382c44:1899","type":"sequence"}]
  */
 class ExchangeUserNamePassword
 {
@@ -15,7 +15,7 @@ class ExchangeUserNamePassword
     /**
      * @ElementName userName
      * @Type string
-     * @Group 18b369af88e42ffdb4166615c670ce2c:1899
+     * @Group 8e629edbac315ae7889caca732382c44:1899
      * @var string|null
      */
     private $userName = null;
@@ -23,7 +23,7 @@ class ExchangeUserNamePassword
     /**
      * @ElementName password
      * @Type string
-     * @Group 18b369af88e42ffdb4166615c670ce2c:1899
+     * @Group 8e629edbac315ae7889caca732382c44:1899
      * @var string|null
      */
     private $password = null;

@@ -15,7 +15,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see ServiceProviderServicePackMigrationTaskGetListRequest
  * @see ServiceProviderServicePackMigrationTaskGetListResponse21
- * @Groups [{"id":"499b56264fbe226bfef3c338c8d4750d:2980","type":"sequence"}]
+ * @Groups [{"id":"bb12a3589ab4748963f28f7ac9310f70:2980","type":"sequence"}]
  */
 class ServiceProviderServicePackMigrationTaskGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -23,7 +23,7 @@ class ServiceProviderServicePackMigrationTaskGetListResponse extends \CWM\BroadW
     /**
      * @ElementName taskTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 499b56264fbe226bfef3c338c8d4750d:2980
+     * @Group bb12a3589ab4748963f28f7ac9310f70:2980
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $taskTable = null;

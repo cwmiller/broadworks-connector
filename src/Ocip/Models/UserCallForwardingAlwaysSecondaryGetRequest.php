@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserCallForwardingAlwaysSecondaryGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"0827ab6145bdf0e64efa1c9fc778e509:44","type":"sequence"}]
+ * @Groups [{"id":"4287a1a729e0194f81cd19fb89cec945:44","type":"sequence"}]
  */
 class UserCallForwardingAlwaysSecondaryGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class UserCallForwardingAlwaysSecondaryGetRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName userId
      * @Type string
-     * @Group 0827ab6145bdf0e64efa1c9fc778e509:44
+     * @Group 4287a1a729e0194f81cd19fb89cec945:44
      * @var string|null
      */
     private $userId = null;

@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"d0d5b8a5908815c6ae522efe732e363a:411","type":"sequence"}]
+ * @Groups [{"id":"c81ec650475acb5cc7b075c4582c12ba:411","type":"sequence"}]
  */
 class GroupFindMeFollowMeModifyActiveInstanceListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class GroupFindMeFollowMeModifyActiveInstanceListRequest extends \CWM\BroadWorks
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceActivation
      * @Array
      * @Optional
-     * @Group d0d5b8a5908815c6ae522efe732e363a:411
+     * @Group c81ec650475acb5cc7b075c4582c12ba:411
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceActivation[]
      */
     private $serviceActivation = array(

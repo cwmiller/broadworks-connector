@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"4b461d8be4f7bfba1e05db8efbd896b6:201","type":"sequence"}]
+ * @Groups [{"id":"ddf57759ad9d63b4ce76f3f789cde156:201","type":"sequence"}]
  */
 class UserCallMeNowModifyCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserCallMeNowModifyCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName userId
      * @Type string
-     * @Group 4b461d8be4f7bfba1e05db8efbd896b6:201
+     * @Group ddf57759ad9d63b4ce76f3f789cde156:201
      * @var string|null
      */
     private $userId = null;
@@ -26,7 +26,7 @@ class UserCallMeNowModifyCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName criteriaName
      * @Type string
-     * @Group 4b461d8be4f7bfba1e05db8efbd896b6:201
+     * @Group ddf57759ad9d63b4ce76f3f789cde156:201
      * @var string|null
      */
     private $criteriaName = null;
@@ -35,7 +35,7 @@ class UserCallMeNowModifyCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName newCriteriaName
      * @Type string
      * @Optional
-     * @Group 4b461d8be4f7bfba1e05db8efbd896b6:201
+     * @Group ddf57759ad9d63b4ce76f3f789cde156:201
      * @var string|null
      */
     private $newCriteriaName = null;
@@ -45,7 +45,7 @@ class UserCallMeNowModifyCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule
      * @Nillable
      * @Optional
-     * @Group 4b461d8be4f7bfba1e05db8efbd896b6:201
+     * @Group ddf57759ad9d63b4ce76f3f789cde156:201
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $timeSchedule = null;
@@ -55,7 +55,7 @@ class UserCallMeNowModifyCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @Type \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule
      * @Nillable
      * @Optional
-     * @Group 4b461d8be4f7bfba1e05db8efbd896b6:201
+     * @Group ddf57759ad9d63b4ce76f3f789cde156:201
      * @var \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $holidaySchedule = null;
@@ -64,7 +64,7 @@ class UserCallMeNowModifyCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName rejectCall
      * @Type bool
      * @Optional
-     * @Group 4b461d8be4f7bfba1e05db8efbd896b6:201
+     * @Group ddf57759ad9d63b4ce76f3f789cde156:201
      * @var bool|null
      */
     private $rejectCall = null;
@@ -73,7 +73,7 @@ class UserCallMeNowModifyCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName toDnCriteria
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallMeNowToDnCriteriaModify
      * @Optional
-     * @Group 4b461d8be4f7bfba1e05db8efbd896b6:201
+     * @Group ddf57759ad9d63b4ce76f3f789cde156:201
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallMeNowToDnCriteriaModify|null
      */
     private $toDnCriteria = null;

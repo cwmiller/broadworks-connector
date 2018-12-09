@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"e51a0a16349851c3fad768a24a35838d:521","type":"sequence"}]
+ * @Groups [{"id":"7a29c84abb8473449085e6657fc6948d:521","type":"sequence"}]
  */
 class UserMeetMeConferencingDeleteConferenceRecordingListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserMeetMeConferencingDeleteConferenceRecordingListRequest extends \CWM\Br
     /**
      * @ElementName userId
      * @Type string
-     * @Group e51a0a16349851c3fad768a24a35838d:521
+     * @Group 7a29c84abb8473449085e6657fc6948d:521
      * @var string|null
      */
     private $userId = null;
@@ -27,7 +27,7 @@ class UserMeetMeConferencingDeleteConferenceRecordingListRequest extends \CWM\Br
      * @ElementName recordingKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceRecordingKey
      * @Array
-     * @Group e51a0a16349851c3fad768a24a35838d:521
+     * @Group 7a29c84abb8473449085e6657fc6948d:521
      * @var \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceRecordingKey[]
      */
     private $recordingKey = array(

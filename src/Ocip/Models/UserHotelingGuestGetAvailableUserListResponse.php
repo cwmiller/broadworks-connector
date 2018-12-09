@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "Phone Number", "Extension", "Department", "Email Address".
  *
  * @see UserHotelingGuestGetAvailableUserListRequest
- * @Groups [{"id":"13758dca4b1e7aaa8febe2ec5809ebf9:67","type":"sequence"}]
+ * @Groups [{"id":"f3f841d19cccb645df66568fd6abbde1:67","type":"sequence"}]
  */
 class UserHotelingGuestGetAvailableUserListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class UserHotelingGuestGetAvailableUserListResponse extends \CWM\BroadWorksConne
     /**
      * @ElementName hostUserTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 13758dca4b1e7aaa8febe2ec5809ebf9:67
+     * @Group f3f841d19cccb645df66568fd6abbde1:67
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $hostUserTable = null;

@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see ServiceProviderRouteListEnterpriseTrunkNumberPrefixGetSummaryListResponse
  * @see ErrorResponse
- * @Groups [{"id":"1b22a3a92e05eea2e752345aa4faa131:536","type":"sequence"}]
+ * @Groups [{"id":"6c3e6c5ded8862d72e92e5d067442775:536","type":"sequence"}]
  */
 class ServiceProviderRouteListEnterpriseTrunkNumberPrefixGetSummaryListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class ServiceProviderRouteListEnterpriseTrunkNumberPrefixGetSummaryListRequest e
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 1b22a3a92e05eea2e752345aa4faa131:536
+     * @Group 6c3e6c5ded8862d72e92e5d067442775:536
      * @var string|null
      */
     private $serviceProviderId = null;

@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"c689e88c0ff061c491155e92929e7018:46","type":"sequence"}]
+ * @Groups [{"id":"942d6d52bb90de674123c4718d7e1483:46","type":"sequence"}]
  */
 class GroupInstantGroupCallAddInstanceRequest14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class GroupInstantGroupCallAddInstanceRequest14 extends \CWM\BroadWorksConnector
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group c689e88c0ff061c491155e92929e7018:46
+     * @Group 942d6d52bb90de674123c4718d7e1483:46
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,7 +27,7 @@ class GroupInstantGroupCallAddInstanceRequest14 extends \CWM\BroadWorksConnector
     /**
      * @ElementName groupId
      * @Type string
-     * @Group c689e88c0ff061c491155e92929e7018:46
+     * @Group 942d6d52bb90de674123c4718d7e1483:46
      * @var string|null
      */
     private $groupId = null;
@@ -35,7 +35,7 @@ class GroupInstantGroupCallAddInstanceRequest14 extends \CWM\BroadWorksConnector
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group c689e88c0ff061c491155e92929e7018:46
+     * @Group 942d6d52bb90de674123c4718d7e1483:46
      * @var string|null
      */
     private $serviceUserId = null;
@@ -43,7 +43,7 @@ class GroupInstantGroupCallAddInstanceRequest14 extends \CWM\BroadWorksConnector
     /**
      * @ElementName serviceInstanceProfile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceAddProfile
-     * @Group c689e88c0ff061c491155e92929e7018:46
+     * @Group 942d6d52bb90de674123c4718d7e1483:46
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceAddProfile|null
      */
     private $serviceInstanceProfile = null;
@@ -53,7 +53,7 @@ class GroupInstantGroupCallAddInstanceRequest14 extends \CWM\BroadWorksConnector
      * @Type string
      * @Array
      * @Optional
-     * @Group c689e88c0ff061c491155e92929e7018:46
+     * @Group 942d6d52bb90de674123c4718d7e1483:46
      * @var string[]
      */
     private $destinationPhoneNumber = array(
@@ -63,7 +63,7 @@ class GroupInstantGroupCallAddInstanceRequest14 extends \CWM\BroadWorksConnector
     /**
      * @ElementName isAnswerTimeoutEnabled
      * @Type bool
-     * @Group c689e88c0ff061c491155e92929e7018:46
+     * @Group 942d6d52bb90de674123c4718d7e1483:46
      * @var bool|null
      */
     private $isAnswerTimeoutEnabled = null;
@@ -72,7 +72,7 @@ class GroupInstantGroupCallAddInstanceRequest14 extends \CWM\BroadWorksConnector
      * @ElementName answerTimeoutMinutes
      * @Type int
      * @Optional
-     * @Group c689e88c0ff061c491155e92929e7018:46
+     * @Group 942d6d52bb90de674123c4718d7e1483:46
      * @var int|null
      */
     private $answerTimeoutMinutes = null;
@@ -81,7 +81,7 @@ class GroupInstantGroupCallAddInstanceRequest14 extends \CWM\BroadWorksConnector
      * @ElementName networkClassOfService
      * @Type string
      * @Optional
-     * @Group c689e88c0ff061c491155e92929e7018:46
+     * @Group 942d6d52bb90de674123c4718d7e1483:46
      * @var string|null
      */
     private $networkClassOfService = null;

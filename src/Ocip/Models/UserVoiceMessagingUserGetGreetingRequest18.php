@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see UserVoiceMessagingUserGetGreetingResponse18
  * @see ErrorResponse
  * @see UserVoiceMessagingUserGetGreetingRequest18sp1
- * @Groups [{"id":"499b56264fbe226bfef3c338c8d4750d:5711","type":"sequence"}]
+ * @Groups [{"id":"bb12a3589ab4748963f28f7ac9310f70:5711","type":"sequence"}]
  */
 class UserVoiceMessagingUserGetGreetingRequest18 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,7 +21,7 @@ class UserVoiceMessagingUserGetGreetingRequest18 extends \CWM\BroadWorksConnecto
     /**
      * @ElementName userId
      * @Type string
-     * @Group 499b56264fbe226bfef3c338c8d4750d:5711
+     * @Group bb12a3589ab4748963f28f7ac9310f70:5711
      * @var string|null
      */
     private $userId = null;

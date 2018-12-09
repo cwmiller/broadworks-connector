@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserAnonymousCallRejectionGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"0ec8a935bbd9452dccb33508d52d5e43:95","type":"sequence"}]
+ * @Groups [{"id":"717e1e4342421a820b1b313f1eb4eb01:95","type":"sequence"}]
  */
 class UserAnonymousCallRejectionGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class UserAnonymousCallRejectionGetRequest extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName userId
      * @Type string
-     * @Group 0ec8a935bbd9452dccb33508d52d5e43:95
+     * @Group 717e1e4342421a820b1b313f1eb4eb01:95
      * @var string|null
      */
     private $userId = null;

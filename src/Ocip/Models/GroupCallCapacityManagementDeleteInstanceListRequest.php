@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"ec414f584634edfc7ab45285fc8bb597:92","type":"sequence"}]
+ * @Groups [{"id":"a508c8d47cf6dc9787cc3865bf94b9f5:92","type":"sequence"}]
  */
 class GroupCallCapacityManagementDeleteInstanceListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupCallCapacityManagementDeleteInstanceListRequest extends \CWM\BroadWor
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group ec414f584634edfc7ab45285fc8bb597:92
+     * @Group a508c8d47cf6dc9787cc3865bf94b9f5:92
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,7 +26,7 @@ class GroupCallCapacityManagementDeleteInstanceListRequest extends \CWM\BroadWor
     /**
      * @ElementName groupId
      * @Type string
-     * @Group ec414f584634edfc7ab45285fc8bb597:92
+     * @Group a508c8d47cf6dc9787cc3865bf94b9f5:92
      * @var string|null
      */
     private $groupId = null;
@@ -35,7 +35,7 @@ class GroupCallCapacityManagementDeleteInstanceListRequest extends \CWM\BroadWor
      * @ElementName name
      * @Type string
      * @Array
-     * @Group ec414f584634edfc7ab45285fc8bb597:92
+     * @Group a508c8d47cf6dc9787cc3865bf94b9f5:92
      * @var string[]
      */
     private $name = array(

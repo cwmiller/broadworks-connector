@@ -13,7 +13,8 @@ use CWM\BroadWorksConnector\Ocip\Models\GroupCallCapacityManagementGetInstanceLi
 use CWM\BroadWorksConnector\Ocip\Models\GroupCallCapacityManagementGetInstanceRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupCallCapacityManagementGetInstanceResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupCallCapacityManagementModifyInstanceRequest;
-use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceCallCapacityManagement
@@ -23,6 +24,7 @@ trait OCISchemaServiceCallCapacityManagement
      * @param GroupCallCapacityManagementAddInstanceRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCapacityManagementAddInstanceRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCapacityManagementAddInstanceRequest $request)
     {
@@ -33,6 +35,7 @@ trait OCISchemaServiceCallCapacityManagement
      * @param GroupCallCapacityManagementAddUserListRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCapacityManagementAddUserListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCapacityManagementAddUserListRequest $request)
     {
@@ -43,6 +46,7 @@ trait OCISchemaServiceCallCapacityManagement
      * @param GroupCallCapacityManagementDeleteInstanceListRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCapacityManagementDeleteInstanceListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCapacityManagementDeleteInstanceListRequest $request)
     {
@@ -53,6 +57,7 @@ trait OCISchemaServiceCallCapacityManagement
      * @param GroupCallCapacityManagementDeleteUserListRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCapacityManagementDeleteUserListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCapacityManagementDeleteUserListRequest $request)
     {
@@ -63,6 +68,7 @@ trait OCISchemaServiceCallCapacityManagement
      * @param GroupCallCapacityManagementGetAvailableUserListRequest $request
      * @return GroupCallCapacityManagementGetAvailableUserListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCapacityManagementGetAvailableUserListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCapacityManagementGetAvailableUserListRequest $request)
     {
@@ -73,6 +79,7 @@ trait OCISchemaServiceCallCapacityManagement
      * @param GroupCallCapacityManagementGetInstanceListRequest $request
      * @return GroupCallCapacityManagementGetInstanceListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCapacityManagementGetInstanceListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCapacityManagementGetInstanceListRequest $request)
     {
@@ -83,6 +90,7 @@ trait OCISchemaServiceCallCapacityManagement
      * @param GroupCallCapacityManagementGetInstanceRequest $request
      * @return GroupCallCapacityManagementGetInstanceResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCapacityManagementGetInstanceRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCapacityManagementGetInstanceRequest $request)
     {
@@ -93,6 +101,7 @@ trait OCISchemaServiceCallCapacityManagement
      * @param GroupCallCapacityManagementModifyInstanceRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCapacityManagementModifyInstanceRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCapacityManagementModifyInstanceRequest $request)
     {

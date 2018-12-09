@@ -45,7 +45,8 @@ use CWM\BroadWorksConnector\Ocip\Models\SystemRouteListEnterpriseTrunkNumberRang
 use CWM\BroadWorksConnector\Ocip\Models\UserRouteListGetRequest22;
 use CWM\BroadWorksConnector\Ocip\Models\UserRouteListGetResponse22;
 use CWM\BroadWorksConnector\Ocip\Models\UserRouteListModifyRequest;
-use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceRouteList
@@ -55,6 +56,7 @@ trait OCISchemaServiceRouteList
      * @param EnterpriseRouteListEnterpriseTrunkNumberPrefixGetAvailableListRequest $request
      * @return EnterpriseRouteListEnterpriseTrunkNumberPrefixGetAvailableListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function enterpriseRouteListEnterpriseTrunkNumberPrefixGetAvailableListRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseRouteListEnterpriseTrunkNumberPrefixGetAvailableListRequest $request)
     {
@@ -65,6 +67,7 @@ trait OCISchemaServiceRouteList
      * @param EnterpriseRouteListEnterpriseTrunkNumberPrefixGetSummaryListRequest $request
      * @return EnterpriseRouteListEnterpriseTrunkNumberPrefixGetSummaryListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function enterpriseRouteListEnterpriseTrunkNumberPrefixGetSummaryListRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseRouteListEnterpriseTrunkNumberPrefixGetSummaryListRequest $request)
     {
@@ -75,6 +78,7 @@ trait OCISchemaServiceRouteList
      * @param EnterpriseRouteListEnterpriseTrunkNumberRangeGetAvailableListRequest $request
      * @return EnterpriseRouteListEnterpriseTrunkNumberRangeGetAvailableListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function enterpriseRouteListEnterpriseTrunkNumberRangeGetAvailableListRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseRouteListEnterpriseTrunkNumberRangeGetAvailableListRequest $request)
     {
@@ -85,6 +89,7 @@ trait OCISchemaServiceRouteList
      * @param EnterpriseRouteListEnterpriseTrunkNumberRangeGetSummaryListRequest $request
      * @return EnterpriseRouteListEnterpriseTrunkNumberRangeGetSummaryListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function enterpriseRouteListEnterpriseTrunkNumberRangeGetSummaryListRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseRouteListEnterpriseTrunkNumberRangeGetSummaryListRequest $request)
     {
@@ -95,6 +100,7 @@ trait OCISchemaServiceRouteList
      * @param GroupRouteListEnterpriseTrunkNumberPrefixAssignListRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupRouteListEnterpriseTrunkNumberPrefixAssignListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupRouteListEnterpriseTrunkNumberPrefixAssignListRequest $request)
     {
@@ -105,6 +111,7 @@ trait OCISchemaServiceRouteList
      * @param GroupRouteListEnterpriseTrunkNumberPrefixGetAvailableListRequest $request
      * @return GroupRouteListEnterpriseTrunkNumberPrefixGetAvailableListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupRouteListEnterpriseTrunkNumberPrefixGetAvailableListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupRouteListEnterpriseTrunkNumberPrefixGetAvailableListRequest $request)
     {
@@ -115,6 +122,7 @@ trait OCISchemaServiceRouteList
      * @param GroupRouteListEnterpriseTrunkNumberPrefixGetSummaryListRequest $request
      * @return GroupRouteListEnterpriseTrunkNumberPrefixGetSummaryListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupRouteListEnterpriseTrunkNumberPrefixGetSummaryListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupRouteListEnterpriseTrunkNumberPrefixGetSummaryListRequest $request)
     {
@@ -125,6 +133,7 @@ trait OCISchemaServiceRouteList
      * @param GroupRouteListEnterpriseTrunkNumberPrefixUnassignListRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupRouteListEnterpriseTrunkNumberPrefixUnassignListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupRouteListEnterpriseTrunkNumberPrefixUnassignListRequest $request)
     {
@@ -135,6 +144,7 @@ trait OCISchemaServiceRouteList
      * @param GroupRouteListEnterpriseTrunkNumberRangeAssignListRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupRouteListEnterpriseTrunkNumberRangeAssignListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupRouteListEnterpriseTrunkNumberRangeAssignListRequest $request)
     {
@@ -145,6 +155,7 @@ trait OCISchemaServiceRouteList
      * @param GroupRouteListEnterpriseTrunkNumberRangeGetAvailableListRequest $request
      * @return GroupRouteListEnterpriseTrunkNumberRangeGetAvailableListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupRouteListEnterpriseTrunkNumberRangeGetAvailableListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupRouteListEnterpriseTrunkNumberRangeGetAvailableListRequest $request)
     {
@@ -155,6 +166,7 @@ trait OCISchemaServiceRouteList
      * @param GroupRouteListEnterpriseTrunkNumberRangeGetSummaryListRequest $request
      * @return GroupRouteListEnterpriseTrunkNumberRangeGetSummaryListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupRouteListEnterpriseTrunkNumberRangeGetSummaryListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupRouteListEnterpriseTrunkNumberRangeGetSummaryListRequest $request)
     {
@@ -165,6 +177,7 @@ trait OCISchemaServiceRouteList
      * @param GroupRouteListEnterpriseTrunkNumberRangeUnassignListRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupRouteListEnterpriseTrunkNumberRangeUnassignListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupRouteListEnterpriseTrunkNumberRangeUnassignListRequest $request)
     {
@@ -175,6 +188,7 @@ trait OCISchemaServiceRouteList
      * @param ServiceProviderRouteListEnterpriseTrunkNumberPrefixActivateListRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderRouteListEnterpriseTrunkNumberPrefixActivateListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderRouteListEnterpriseTrunkNumberPrefixActivateListRequest $request)
     {
@@ -185,6 +199,7 @@ trait OCISchemaServiceRouteList
      * @param ServiceProviderRouteListEnterpriseTrunkNumberPrefixAddListRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderRouteListEnterpriseTrunkNumberPrefixAddListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderRouteListEnterpriseTrunkNumberPrefixAddListRequest $request)
     {
@@ -195,6 +210,7 @@ trait OCISchemaServiceRouteList
      * @param ServiceProviderRouteListEnterpriseTrunkNumberPrefixDeactivateListRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderRouteListEnterpriseTrunkNumberPrefixDeactivateListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderRouteListEnterpriseTrunkNumberPrefixDeactivateListRequest $request)
     {
@@ -205,6 +221,7 @@ trait OCISchemaServiceRouteList
      * @param ServiceProviderRouteListEnterpriseTrunkNumberPrefixDeleteListRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderRouteListEnterpriseTrunkNumberPrefixDeleteListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderRouteListEnterpriseTrunkNumberPrefixDeleteListRequest $request)
     {
@@ -215,6 +232,7 @@ trait OCISchemaServiceRouteList
      * @param ServiceProviderRouteListEnterpriseTrunkNumberPrefixGetAvailableListRequest $request
      * @return ServiceProviderRouteListEnterpriseTrunkNumberPrefixGetAvailableListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderRouteListEnterpriseTrunkNumberPrefixGetAvailableListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderRouteListEnterpriseTrunkNumberPrefixGetAvailableListRequest $request)
     {
@@ -225,6 +243,7 @@ trait OCISchemaServiceRouteList
      * @param ServiceProviderRouteListEnterpriseTrunkNumberPrefixGetSummaryListRequest $request
      * @return ServiceProviderRouteListEnterpriseTrunkNumberPrefixGetSummaryListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderRouteListEnterpriseTrunkNumberPrefixGetSummaryListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderRouteListEnterpriseTrunkNumberPrefixGetSummaryListRequest $request)
     {
@@ -235,6 +254,7 @@ trait OCISchemaServiceRouteList
      * @param ServiceProviderRouteListEnterpriseTrunkNumberRangeActivateListRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderRouteListEnterpriseTrunkNumberRangeActivateListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderRouteListEnterpriseTrunkNumberRangeActivateListRequest $request)
     {
@@ -245,6 +265,7 @@ trait OCISchemaServiceRouteList
      * @param ServiceProviderRouteListEnterpriseTrunkNumberRangeAddListRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderRouteListEnterpriseTrunkNumberRangeAddListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderRouteListEnterpriseTrunkNumberRangeAddListRequest $request)
     {
@@ -255,6 +276,7 @@ trait OCISchemaServiceRouteList
      * @param ServiceProviderRouteListEnterpriseTrunkNumberRangeDeactivateListRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderRouteListEnterpriseTrunkNumberRangeDeactivateListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderRouteListEnterpriseTrunkNumberRangeDeactivateListRequest $request)
     {
@@ -265,6 +287,7 @@ trait OCISchemaServiceRouteList
      * @param ServiceProviderRouteListEnterpriseTrunkNumberRangeDeleteListRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderRouteListEnterpriseTrunkNumberRangeDeleteListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderRouteListEnterpriseTrunkNumberRangeDeleteListRequest $request)
     {
@@ -275,6 +298,7 @@ trait OCISchemaServiceRouteList
      * @param ServiceProviderRouteListEnterpriseTrunkNumberRangeGetAvailableListRequest $request
      * @return ServiceProviderRouteListEnterpriseTrunkNumberRangeGetAvailableListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderRouteListEnterpriseTrunkNumberRangeGetAvailableListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderRouteListEnterpriseTrunkNumberRangeGetAvailableListRequest $request)
     {
@@ -285,6 +309,7 @@ trait OCISchemaServiceRouteList
      * @param ServiceProviderRouteListEnterpriseTrunkNumberRangeGetSummaryListRequest $request
      * @return ServiceProviderRouteListEnterpriseTrunkNumberRangeGetSummaryListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderRouteListEnterpriseTrunkNumberRangeGetSummaryListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderRouteListEnterpriseTrunkNumberRangeGetSummaryListRequest $request)
     {
@@ -295,6 +320,7 @@ trait OCISchemaServiceRouteList
      * @param SystemRouteListEnterpriseTrunkNumberPrefixGetSummaryListRequest $request
      * @return SystemRouteListEnterpriseTrunkNumberPrefixGetSummaryListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemRouteListEnterpriseTrunkNumberPrefixGetSummaryListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemRouteListEnterpriseTrunkNumberPrefixGetSummaryListRequest $request)
     {
@@ -305,6 +331,7 @@ trait OCISchemaServiceRouteList
      * @param SystemRouteListEnterpriseTrunkNumberRangeGetSummaryListRequest $request
      * @return SystemRouteListEnterpriseTrunkNumberRangeGetSummaryListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemRouteListEnterpriseTrunkNumberRangeGetSummaryListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemRouteListEnterpriseTrunkNumberRangeGetSummaryListRequest $request)
     {
@@ -315,6 +342,7 @@ trait OCISchemaServiceRouteList
      * @param UserRouteListGetRequest22 $request
      * @return UserRouteListGetResponse22
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userRouteListGetRequest22(\CWM\BroadWorksConnector\Ocip\Models\UserRouteListGetRequest22 $request)
     {
@@ -325,6 +353,7 @@ trait OCISchemaServiceRouteList
      * @param UserRouteListModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userRouteListModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\UserRouteListModifyRequest $request)
     {

@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Criteria for searching for a particular call center scheduled report's service provider.
  *
- * @Groups [{"id":"d37849f5e289836ccd316323a7a3799a:647","type":"sequence"}]
+ * @Groups [{"id":"e446bfcbd1f39cbef57d1547014f2bb9:647","type":"sequence"}]
  */
 class SearchCriteriaExactCallCenterScheduledReportServiceProvider extends SearchCriteria
 {
@@ -15,7 +15,7 @@ class SearchCriteriaExactCallCenterScheduledReportServiceProvider extends Search
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group d37849f5e289836ccd316323a7a3799a:647
+     * @Group e446bfcbd1f39cbef57d1547014f2bb9:647
      * @var string|null
      */
     private $serviceProviderId = null;

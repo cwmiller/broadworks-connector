@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see UserCallTransferGetResponse
  * @see ErrorResponse
  * @see UserCallTransferGetRequest14Sp4
- * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:33955","type":"sequence"}]
+ * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:33955","type":"sequence"}]
  */
 class UserCallTransferGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class UserCallTransferGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * @ElementName userId
      * @Type string
-     * @Group 1a79c7896cb04feac6eff47a5321756e:33955
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:33955
      * @var string|null
      */
     private $userId = null;

@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupDepartmentGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:3003","type":"sequence"}]
+ * @Groups [{"id":"15129cd25fa2d5581f4edfd652c24f93:3003","type":"sequence"}]
  */
 class GroupDepartmentGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupDepartmentGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\O
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:3003
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:3003
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,7 +26,7 @@ class GroupDepartmentGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\O
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:3003
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:3003
      * @var string|null
      */
     private $groupId = null;
@@ -34,7 +34,7 @@ class GroupDepartmentGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\O
     /**
      * @ElementName departmentName
      * @Type string
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:3003
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:3003
      * @var string|null
      */
     private $departmentName = null;

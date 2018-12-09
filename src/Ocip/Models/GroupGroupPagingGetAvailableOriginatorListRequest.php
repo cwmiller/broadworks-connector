@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupGroupPagingGetAvailableOriginatorListResponse
  * @see ErrorResponse
- * @Groups [{"id":"76de8409eddf3e150e3b79f9c41e6cc0:170","type":"sequence"}]
+ * @Groups [{"id":"756d4171668642e53d80bfcb4d781d63:170","type":"sequence"}]
  */
 class GroupGroupPagingGetAvailableOriginatorListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class GroupGroupPagingGetAvailableOriginatorListRequest extends \CWM\BroadWorksC
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 76de8409eddf3e150e3b79f9c41e6cc0:170
+     * @Group 756d4171668642e53d80bfcb4d781d63:170
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,7 +27,7 @@ class GroupGroupPagingGetAvailableOriginatorListRequest extends \CWM\BroadWorksC
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 76de8409eddf3e150e3b79f9c41e6cc0:170
+     * @Group 756d4171668642e53d80bfcb4d781d63:170
      * @var string|null
      */
     private $groupId = null;
@@ -36,7 +36,7 @@ class GroupGroupPagingGetAvailableOriginatorListRequest extends \CWM\BroadWorksC
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group 76de8409eddf3e150e3b79f9c41e6cc0:170
+     * @Group 756d4171668642e53d80bfcb4d781d63:170
      * @var int|null
      */
     private $responseSizeLimit = null;
@@ -46,7 +46,7 @@ class GroupGroupPagingGetAvailableOriginatorListRequest extends \CWM\BroadWorksC
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName
      * @Array
      * @Optional
-     * @Group 76de8409eddf3e150e3b79f9c41e6cc0:170
+     * @Group 756d4171668642e53d80bfcb4d781d63:170
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[]
      */
     private $searchCriteriaUserLastName = array(
@@ -58,7 +58,7 @@ class GroupGroupPagingGetAvailableOriginatorListRequest extends \CWM\BroadWorksC
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName
      * @Array
      * @Optional
-     * @Group 76de8409eddf3e150e3b79f9c41e6cc0:170
+     * @Group 756d4171668642e53d80bfcb4d781d63:170
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName[]
      */
     private $searchCriteriaUserFirstName = array(
@@ -69,7 +69,7 @@ class GroupGroupPagingGetAvailableOriginatorListRequest extends \CWM\BroadWorksC
      * @ElementName searchCriteriaExactUserDepartment
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment
      * @Optional
-     * @Group 76de8409eddf3e150e3b79f9c41e6cc0:170
+     * @Group 756d4171668642e53d80bfcb4d781d63:170
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment|null
      */
     private $searchCriteriaExactUserDepartment = null;
@@ -78,7 +78,7 @@ class GroupGroupPagingGetAvailableOriginatorListRequest extends \CWM\BroadWorksC
      * @ElementName searchCriteriaExactUserGroup
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserGroup
      * @Optional
-     * @Group 76de8409eddf3e150e3b79f9c41e6cc0:170
+     * @Group 756d4171668642e53d80bfcb4d781d63:170
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserGroup|null
      */
     private $searchCriteriaExactUserGroup = null;
@@ -88,7 +88,7 @@ class GroupGroupPagingGetAvailableOriginatorListRequest extends \CWM\BroadWorksC
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId
      * @Array
      * @Optional
-     * @Group 76de8409eddf3e150e3b79f9c41e6cc0:170
+     * @Group 756d4171668642e53d80bfcb4d781d63:170
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId[]
      */
     private $searchCriteriaUserId = array(
@@ -100,7 +100,7 @@ class GroupGroupPagingGetAvailableOriginatorListRequest extends \CWM\BroadWorksC
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn
      * @Array
      * @Optional
-     * @Group 76de8409eddf3e150e3b79f9c41e6cc0:170
+     * @Group 756d4171668642e53d80bfcb4d781d63:170
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[]
      */
     private $searchCriteriaDn = array(
@@ -112,7 +112,7 @@ class GroupGroupPagingGetAvailableOriginatorListRequest extends \CWM\BroadWorksC
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension
      * @Array
      * @Optional
-     * @Group 76de8409eddf3e150e3b79f9c41e6cc0:170
+     * @Group 756d4171668642e53d80bfcb4d781d63:170
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension[]
      */
     private $searchCriteriaExtension = array(

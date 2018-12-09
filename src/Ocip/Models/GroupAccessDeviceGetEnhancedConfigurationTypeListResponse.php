@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to GroupAccessDeviceGetEnhancedConfigurationTypeListRequest.
  *
  * @see GroupAccessDeviceGetEnhancedConfigurationTypeListRequest
- * @Groups [{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:613","type":"sequence"}]
+ * @Groups [{"id":"15129cd25fa2d5581f4edfd652c24f93:613","type":"sequence"}]
  */
 class GroupAccessDeviceGetEnhancedConfigurationTypeListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class GroupAccessDeviceGetEnhancedConfigurationTypeListResponse extends \CWM\Bro
      * @Type string
      * @Array
      * @Optional
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:613
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:613
      * @var string[]
      */
     private $deviceType = array(

@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see ServiceProviderServiceGetAuthorizationResponse
  * @see ErrorResponse
- * @Groups [{"id":"8f3ed38751e86ebcc639b5bc5cdef0ec:4930","type":"sequence","children":[{"id":"8f3ed38751e86ebcc639b5bc5cdef0ec:4932","type":"choice"}]}]
+ * @Groups [{"id":"8eb862aea0ee5d4211db0a0d3fe7c164:4930","type":"sequence","children":[{"id":"8eb862aea0ee5d4211db0a0d3fe7c164:4932","type":"choice"}]}]
  */
 class ServiceProviderServiceGetAuthorizationRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class ServiceProviderServiceGetAuthorizationRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:4930
+     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:4930
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,7 +26,7 @@ class ServiceProviderServiceGetAuthorizationRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName userServiceName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UserService
-     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:4932
+     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:4932
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserService|null
      */
     private $userServiceName = null;
@@ -34,7 +34,7 @@ class ServiceProviderServiceGetAuthorizationRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName groupServiceName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupService
-     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:4932
+     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:4932
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupService|null
      */
     private $groupServiceName = null;
@@ -42,7 +42,7 @@ class ServiceProviderServiceGetAuthorizationRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName servicePackName
      * @Type string
-     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:4932
+     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:4932
      * @var string|null
      */
     private $servicePackName = null;

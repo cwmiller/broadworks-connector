@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"c6760dd4e8dfb4aeba3a11bfab1c6524:337","type":"sequence"}]
+ * @Groups [{"id":"f04e7de96ed87c401bee5b5d2e80ccd3:337","type":"sequence"}]
  */
 class UserPersonalAssistantModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserPersonalAssistantModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName userId
      * @Type string
-     * @Group c6760dd4e8dfb4aeba3a11bfab1c6524:337
+     * @Group f04e7de96ed87c401bee5b5d2e80ccd3:337
      * @var string|null
      */
     private $userId = null;
@@ -27,7 +27,7 @@ class UserPersonalAssistantModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName presence
      * @Type \CWM\BroadWorksConnector\Ocip\Models\PersonalAssistantPresence
      * @Optional
-     * @Group c6760dd4e8dfb4aeba3a11bfab1c6524:337
+     * @Group f04e7de96ed87c401bee5b5d2e80ccd3:337
      * @var \CWM\BroadWorksConnector\Ocip\Models\PersonalAssistantPresence|null
      */
     private $presence = null;
@@ -36,7 +36,7 @@ class UserPersonalAssistantModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName enableTransferToAttendant
      * @Type bool
      * @Optional
-     * @Group c6760dd4e8dfb4aeba3a11bfab1c6524:337
+     * @Group f04e7de96ed87c401bee5b5d2e80ccd3:337
      * @var bool|null
      */
     private $enableTransferToAttendant = null;
@@ -46,7 +46,7 @@ class UserPersonalAssistantModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @Type string
      * @Nillable
      * @Optional
-     * @Group c6760dd4e8dfb4aeba3a11bfab1c6524:337
+     * @Group f04e7de96ed87c401bee5b5d2e80ccd3:337
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $attendantNumber = null;
@@ -55,7 +55,7 @@ class UserPersonalAssistantModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName enableRingSplash
      * @Type bool
      * @Optional
-     * @Group c6760dd4e8dfb4aeba3a11bfab1c6524:337
+     * @Group f04e7de96ed87c401bee5b5d2e80ccd3:337
      * @var bool|null
      */
     private $enableRingSplash = null;
@@ -64,7 +64,7 @@ class UserPersonalAssistantModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName enableExpirationTime
      * @Type bool
      * @Optional
-     * @Group c6760dd4e8dfb4aeba3a11bfab1c6524:337
+     * @Group f04e7de96ed87c401bee5b5d2e80ccd3:337
      * @var bool|null
      */
     private $enableExpirationTime = null;
@@ -74,7 +74,7 @@ class UserPersonalAssistantModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @Type string
      * @Nillable
      * @Optional
-     * @Group c6760dd4e8dfb4aeba3a11bfab1c6524:337
+     * @Group f04e7de96ed87c401bee5b5d2e80ccd3:337
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $expirationTime = null;

@@ -18,7 +18,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         all media types and the maximum total file size (MB) allowed for the user.
  *
  * @see UserAnnouncementFileGetListRequest
- * @Groups [{"id":"489b2153267470be8e945bf6b778e0d0:513","type":"sequence"}]
+ * @Groups [{"id":"ee3830ce42f01a3ef2a105d473fc3b17:513","type":"sequence"}]
  */
 class UserAnnouncementFileGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -27,7 +27,7 @@ class UserAnnouncementFileGetListResponse extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName announcementTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @Optional
-     * @Group 489b2153267470be8e945bf6b778e0d0:513
+     * @Group ee3830ce42f01a3ef2a105d473fc3b17:513
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $announcementTable = null;
@@ -35,7 +35,7 @@ class UserAnnouncementFileGetListResponse extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName totalFileSize
      * @Type int
-     * @Group 489b2153267470be8e945bf6b778e0d0:513
+     * @Group ee3830ce42f01a3ef2a105d473fc3b17:513
      * @var int|null
      */
     private $totalFileSize = null;
@@ -43,7 +43,7 @@ class UserAnnouncementFileGetListResponse extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName maxFileSize
      * @Type int
-     * @Group 489b2153267470be8e945bf6b778e0d0:513
+     * @Group ee3830ce42f01a3ef2a105d473fc3b17:513
      * @var int|null
      */
     private $maxFileSize = null;

@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * This is the configuration parameters for Directed Call Pickup With Barge In service
  *
- * @Groups [{"id":"489b2153267470be8e945bf6b778e0d0:3627","type":"sequence"}]
+ * @Groups [{"id":"ee3830ce42f01a3ef2a105d473fc3b17:3627","type":"sequence"}]
  */
 class ProfileAndServiceDirectedCallPickupWithBargeInInfo
 {
@@ -15,7 +15,7 @@ class ProfileAndServiceDirectedCallPickupWithBargeInInfo
     /**
      * @ElementName enableBargeInWarningTone
      * @Type bool
-     * @Group 489b2153267470be8e945bf6b778e0d0:3627
+     * @Group ee3830ce42f01a3ef2a105d473fc3b17:3627
      * @var bool|null
      */
     private $enableBargeInWarningTone = null;
@@ -23,7 +23,7 @@ class ProfileAndServiceDirectedCallPickupWithBargeInInfo
     /**
      * @ElementName enableAutomaticTargetSelection
      * @Type bool
-     * @Group 489b2153267470be8e945bf6b778e0d0:3627
+     * @Group ee3830ce42f01a3ef2a105d473fc3b17:3627
      * @var bool|null
      */
     private $enableAutomaticTargetSelection = null;

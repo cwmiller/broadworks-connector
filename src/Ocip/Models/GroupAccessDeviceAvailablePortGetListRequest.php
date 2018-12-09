@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupAccessDeviceAvailablePortGetListResponse
  * @see ErrorResponse
- * @Groups [{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:293","type":"sequence"}]
+ * @Groups [{"id":"15129cd25fa2d5581f4edfd652c24f93:293","type":"sequence"}]
  */
 class GroupAccessDeviceAvailablePortGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupAccessDeviceAvailablePortGetListRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:293
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:293
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,7 +26,7 @@ class GroupAccessDeviceAvailablePortGetListRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:293
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:293
      * @var string|null
      */
     private $groupId = null;
@@ -34,7 +34,7 @@ class GroupAccessDeviceAvailablePortGetListRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName accessDevice
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDevice
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:293
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:293
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDevice|null
      */
     private $accessDevice = null;

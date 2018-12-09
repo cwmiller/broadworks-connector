@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "SystemSecurityClassification", "CustomizedSecurityClassification"
  *
  * @see GroupClassificationCustomizationGetAvailableListRequest
- * @Groups [{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:6392","type":"sequence"}]
+ * @Groups [{"id":"15129cd25fa2d5581f4edfd652c24f93:6392","type":"sequence"}]
  */
 class GroupSecurityClassificationCustomizationGetAvailableListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,7 +19,7 @@ class GroupSecurityClassificationCustomizationGetAvailableListResponse extends \
     /**
      * @ElementName securityClassificationNameTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:6392
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:6392
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $securityClassificationNameTable = null;

@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupGroupPagingGetOriginatorListResponse
  * @see ErrorResponse
- * @Groups [{"id":"76de8409eddf3e150e3b79f9c41e6cc0:328","type":"sequence"}]
+ * @Groups [{"id":"756d4171668642e53d80bfcb4d781d63:328","type":"sequence"}]
  */
 class GroupGroupPagingGetOriginatorListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class GroupGroupPagingGetOriginatorListRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group 76de8409eddf3e150e3b79f9c41e6cc0:328
+     * @Group 756d4171668642e53d80bfcb4d781d63:328
      * @var string|null
      */
     private $serviceUserId = null;

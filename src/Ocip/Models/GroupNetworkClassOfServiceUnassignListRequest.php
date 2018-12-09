@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"499b56264fbe226bfef3c338c8d4750d:1626","type":"sequence"}]
+ * @Groups [{"id":"bb12a3589ab4748963f28f7ac9310f70:1626","type":"sequence"}]
  */
 class GroupNetworkClassOfServiceUnassignListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupNetworkClassOfServiceUnassignListRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 499b56264fbe226bfef3c338c8d4750d:1626
+     * @Group bb12a3589ab4748963f28f7ac9310f70:1626
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,7 +26,7 @@ class GroupNetworkClassOfServiceUnassignListRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 499b56264fbe226bfef3c338c8d4750d:1626
+     * @Group bb12a3589ab4748963f28f7ac9310f70:1626
      * @var string|null
      */
     private $groupId = null;
@@ -36,7 +36,7 @@ class GroupNetworkClassOfServiceUnassignListRequest extends \CWM\BroadWorksConne
      * @Type string
      * @Array
      * @Optional
-     * @Group 499b56264fbe226bfef3c338c8d4750d:1626
+     * @Group bb12a3589ab4748963f28f7ac9310f70:1626
      * @var string[]
      */
     private $networkClassOfService = array(
@@ -47,7 +47,7 @@ class GroupNetworkClassOfServiceUnassignListRequest extends \CWM\BroadWorksConne
      * @ElementName defaultNetworkClassOfService
      * @Type string
      * @Optional
-     * @Group 499b56264fbe226bfef3c338c8d4750d:1626
+     * @Group bb12a3589ab4748963f28f7ac9310f70:1626
      * @var string|null
      */
     private $defaultNetworkClassOfService = null;

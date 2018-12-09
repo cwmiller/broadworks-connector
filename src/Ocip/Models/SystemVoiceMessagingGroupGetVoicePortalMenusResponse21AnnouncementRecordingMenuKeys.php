@@ -5,7 +5,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemVoiceMessagingGroupGetVoicePortalMenusResponse21AnnouncementRecordingMenuKeys
  *
- * @Groups [{"id":"1624846b7d87d3ab55e907c443fca9d6:664","type":"sequence"}]
+ * @Groups [{"id":"80c5986946137c505e41f6008c7f75a8:664","type":"sequence"}]
  */
 class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21AnnouncementRecordingMenuKeys
 {
@@ -13,7 +13,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21AnnouncementRecordin
     /**
      * @ElementName acceptRecording
      * @Type string
-     * @Group 1624846b7d87d3ab55e907c443fca9d6:664
+     * @Group 80c5986946137c505e41f6008c7f75a8:664
      * @var string|null
      */
     private $acceptRecording = null;
@@ -21,7 +21,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21AnnouncementRecordin
     /**
      * @ElementName rejectRerecord
      * @Type string
-     * @Group 1624846b7d87d3ab55e907c443fca9d6:664
+     * @Group 80c5986946137c505e41f6008c7f75a8:664
      * @var string|null
      */
     private $rejectRerecord = null;
@@ -29,7 +29,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21AnnouncementRecordin
     /**
      * @ElementName returnToPreviousMenu
      * @Type string
-     * @Group 1624846b7d87d3ab55e907c443fca9d6:664
+     * @Group 80c5986946137c505e41f6008c7f75a8:664
      * @var string|null
      */
     private $returnToPreviousMenu = null;
@@ -38,7 +38,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21AnnouncementRecordin
      * @ElementName repeatMenu
      * @Type string
      * @Optional
-     * @Group 1624846b7d87d3ab55e907c443fca9d6:664
+     * @Group 80c5986946137c505e41f6008c7f75a8:664
      * @var string|null
      */
     private $repeatMenu = null;
@@ -46,7 +46,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21AnnouncementRecordin
     /**
      * @ElementName end
      * @Type string
-     * @Group 1624846b7d87d3ab55e907c443fca9d6:664
+     * @Group 80c5986946137c505e41f6008c7f75a8:664
      * @var string|null
      */
     private $end = null;

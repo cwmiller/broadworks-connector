@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"b561eca19800e0898f471e5e91eb3baa:350","type":"sequence"}]
+ * @Groups [{"id":"889c8c305076ef39cc50c70d0c2dc820:350","type":"sequence"}]
  */
 class EnterpriseBroadWorksMobileManagerModifyHomeZoneRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class EnterpriseBroadWorksMobileManagerModifyHomeZoneRequest extends \CWM\BroadW
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group b561eca19800e0898f471e5e91eb3baa:350
+     * @Group 889c8c305076ef39cc50c70d0c2dc820:350
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,7 +26,7 @@ class EnterpriseBroadWorksMobileManagerModifyHomeZoneRequest extends \CWM\BroadW
     /**
      * @ElementName homeZoneId
      * @Type string
-     * @Group b561eca19800e0898f471e5e91eb3baa:350
+     * @Group 889c8c305076ef39cc50c70d0c2dc820:350
      * @var string|null
      */
     private $homeZoneId = null;
@@ -35,7 +35,7 @@ class EnterpriseBroadWorksMobileManagerModifyHomeZoneRequest extends \CWM\BroadW
      * @ElementName homeZoneDomainName
      * @Type string
      * @Optional
-     * @Group b561eca19800e0898f471e5e91eb3baa:350
+     * @Group 889c8c305076ef39cc50c70d0c2dc820:350
      * @var string|null
      */
     private $homeZoneDomainName = null;
@@ -44,7 +44,7 @@ class EnterpriseBroadWorksMobileManagerModifyHomeZoneRequest extends \CWM\BroadW
      * @ElementName mobileCountryCode
      * @Type string
      * @Optional
-     * @Group b561eca19800e0898f471e5e91eb3baa:350
+     * @Group 889c8c305076ef39cc50c70d0c2dc820:350
      * @var string|null
      */
     private $mobileCountryCode = null;
@@ -53,7 +53,7 @@ class EnterpriseBroadWorksMobileManagerModifyHomeZoneRequest extends \CWM\BroadW
      * @ElementName mobileNetworkCode
      * @Type string
      * @Optional
-     * @Group b561eca19800e0898f471e5e91eb3baa:350
+     * @Group 889c8c305076ef39cc50c70d0c2dc820:350
      * @var string|null
      */
     private $mobileNetworkCode = null;
@@ -62,7 +62,7 @@ class EnterpriseBroadWorksMobileManagerModifyHomeZoneRequest extends \CWM\BroadW
      * @ElementName locationAreaCode
      * @Type string
      * @Optional
-     * @Group b561eca19800e0898f471e5e91eb3baa:350
+     * @Group 889c8c305076ef39cc50c70d0c2dc820:350
      * @var string|null
      */
     private $locationAreaCode = null;
@@ -71,7 +71,7 @@ class EnterpriseBroadWorksMobileManagerModifyHomeZoneRequest extends \CWM\BroadW
      * @ElementName cellIdentity
      * @Type string
      * @Optional
-     * @Group b561eca19800e0898f471e5e91eb3baa:350
+     * @Group 889c8c305076ef39cc50c70d0c2dc820:350
      * @var string|null
      */
     private $cellIdentity = null;

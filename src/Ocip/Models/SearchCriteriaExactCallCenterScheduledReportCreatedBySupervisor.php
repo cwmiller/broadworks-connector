@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Criteria for searching for call center scheduled report created by a
  *         supervisor or administrator.
  *
- * @Groups [{"id":"d37849f5e289836ccd316323a7a3799a:615","type":"sequence"}]
+ * @Groups [{"id":"e446bfcbd1f39cbef57d1547014f2bb9:615","type":"sequence"}]
  */
 class SearchCriteriaExactCallCenterScheduledReportCreatedBySupervisor extends SearchCriteria
 {
@@ -16,7 +16,7 @@ class SearchCriteriaExactCallCenterScheduledReportCreatedBySupervisor extends Se
     /**
      * @ElementName createdBySupervisor
      * @Type bool
-     * @Group d37849f5e289836ccd316323a7a3799a:615
+     * @Group e446bfcbd1f39cbef57d1547014f2bb9:615
      * @var bool|null
      */
     private $createdBySupervisor = null;

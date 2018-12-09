@@ -17,7 +17,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SystemDeviceTypeGetAvailableListResponse19
  * @see ErrorResponse
  * @see SystemDeviceTypeGetAvailableListRequest22
- * @Groups [{"id":"e9727a9f98db3fe2db7ad08079031b73:712","type":"sequence"}]
+ * @Groups [{"id":"bd46fc427b2b0dc182dcd53cf03e95b4:712","type":"sequence"}]
  */
 class SystemDeviceTypeGetAvailableListRequest19 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -25,7 +25,7 @@ class SystemDeviceTypeGetAvailableListRequest19 extends \CWM\BroadWorksConnector
     /**
      * @ElementName allowConference
      * @Type bool
-     * @Group e9727a9f98db3fe2db7ad08079031b73:712
+     * @Group bd46fc427b2b0dc182dcd53cf03e95b4:712
      * @var bool|null
      */
     private $allowConference = null;
@@ -33,7 +33,7 @@ class SystemDeviceTypeGetAvailableListRequest19 extends \CWM\BroadWorksConnector
     /**
      * @ElementName allowMusicOnHold
      * @Type bool
-     * @Group e9727a9f98db3fe2db7ad08079031b73:712
+     * @Group bd46fc427b2b0dc182dcd53cf03e95b4:712
      * @var bool|null
      */
     private $allowMusicOnHold = null;
@@ -41,7 +41,7 @@ class SystemDeviceTypeGetAvailableListRequest19 extends \CWM\BroadWorksConnector
     /**
      * @ElementName onlyConference
      * @Type bool
-     * @Group e9727a9f98db3fe2db7ad08079031b73:712
+     * @Group bd46fc427b2b0dc182dcd53cf03e95b4:712
      * @var bool|null
      */
     private $onlyConference = null;
@@ -49,7 +49,7 @@ class SystemDeviceTypeGetAvailableListRequest19 extends \CWM\BroadWorksConnector
     /**
      * @ElementName onlyVideoCapable
      * @Type bool
-     * @Group e9727a9f98db3fe2db7ad08079031b73:712
+     * @Group bd46fc427b2b0dc182dcd53cf03e95b4:712
      * @var bool|null
      */
     private $onlyVideoCapable = null;
@@ -57,7 +57,7 @@ class SystemDeviceTypeGetAvailableListRequest19 extends \CWM\BroadWorksConnector
     /**
      * @ElementName onlyOptionalIpAddress
      * @Type bool
-     * @Group e9727a9f98db3fe2db7ad08079031b73:712
+     * @Group bd46fc427b2b0dc182dcd53cf03e95b4:712
      * @var bool|null
      */
     private $onlyOptionalIpAddress = null;

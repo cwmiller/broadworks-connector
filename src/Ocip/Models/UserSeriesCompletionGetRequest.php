@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserSeriesCompletionGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"32aa045fae08b992230059afdb58d2a9:216","type":"sequence"}]
+ * @Groups [{"id":"50d7061385a4ccc59235c104f69a18f0:216","type":"sequence"}]
  */
 class UserSeriesCompletionGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class UserSeriesCompletionGetRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName userId
      * @Type string
-     * @Group 32aa045fae08b992230059afdb58d2a9:216
+     * @Group 50d7061385a4ccc59235c104f69a18f0:216
      * @var string|null
      */
     private $userId = null;

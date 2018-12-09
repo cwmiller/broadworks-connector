@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"23795cc8a851f0b06c683fee78a45964:123","type":"sequence"}]
+ * @Groups [{"id":"023f6ec367b65a7f37f7a30e155f1985:123","type":"sequence"}]
  */
 class UserCallNotifyDeleteCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserCallNotifyDeleteCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName userId
      * @Type string
-     * @Group 23795cc8a851f0b06c683fee78a45964:123
+     * @Group 023f6ec367b65a7f37f7a30e155f1985:123
      * @var string|null
      */
     private $userId = null;
@@ -26,7 +26,7 @@ class UserCallNotifyDeleteCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName criteriaName
      * @Type string
-     * @Group 23795cc8a851f0b06c683fee78a45964:123
+     * @Group 023f6ec367b65a7f37f7a30e155f1985:123
      * @var string|null
      */
     private $criteriaName = null;

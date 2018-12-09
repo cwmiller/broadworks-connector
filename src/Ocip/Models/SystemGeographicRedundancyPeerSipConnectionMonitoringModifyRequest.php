@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:8943","type":"sequence"}]
+ * @Groups [{"id":"b5f5416d9e71f8e4246cda16c4723744:8943","type":"sequence"}]
  */
 class SystemGeographicRedundancyPeerSipConnectionMonitoringModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class SystemGeographicRedundancyPeerSipConnectionMonitoringModifyRequest extends
      * @ElementName enabled
      * @Type bool
      * @Optional
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:8943
+     * @Group b5f5416d9e71f8e4246cda16c4723744:8943
      * @var bool|null
      */
     private $enabled = null;
@@ -28,7 +28,7 @@ class SystemGeographicRedundancyPeerSipConnectionMonitoringModifyRequest extends
      * @ElementName heartbeatInterval
      * @Type int
      * @Optional
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:8943
+     * @Group b5f5416d9e71f8e4246cda16c4723744:8943
      * @var int|null
      */
     private $heartbeatInterval = null;
@@ -37,7 +37,7 @@ class SystemGeographicRedundancyPeerSipConnectionMonitoringModifyRequest extends
      * @ElementName heartbeatTimeout
      * @Type int
      * @Optional
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:8943
+     * @Group b5f5416d9e71f8e4246cda16c4723744:8943
      * @var int|null
      */
     private $heartbeatTimeout = null;

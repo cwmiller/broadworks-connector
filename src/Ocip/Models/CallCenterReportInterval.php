@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Report interval for call center enhanced reporting scheduled reports.
  *
- * @Groups [{"id":"69c2aeb1186dc97a4f4c36d9609ddb49:6691","type":"choice"}]
+ * @Groups [{"id":"3ac5f05d969bc771d6ba8d344d95aa72:6691","type":"choice"}]
  */
 class CallCenterReportInterval
 {
@@ -15,7 +15,7 @@ class CallCenterReportInterval
     /**
      * @ElementName dates
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportIntervalDates
-     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:6691
+     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:6691
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportIntervalDates|null
      */
     private $dates = null;
@@ -23,7 +23,7 @@ class CallCenterReportInterval
     /**
      * @ElementName current
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportCurrentInterval
-     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:6691
+     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:6691
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportCurrentInterval|null
      */
     private $current = null;
@@ -31,7 +31,7 @@ class CallCenterReportInterval
     /**
      * @ElementName past
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportPastInterval
-     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:6691
+     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:6691
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportPastInterval|null
      */
     private $past = null;

@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to EnterpriseVoiceVPNGetRequest14sp3.
  *
  * @see EnterpriseVoiceVPNGetRequest14sp3
- * @Groups [{"id":"b561eca19800e0898f471e5e91eb3baa:1496","type":"sequence"}]
+ * @Groups [{"id":"889c8c305076ef39cc50c70d0c2dc820:1496","type":"sequence"}]
  */
 class EnterpriseVoiceVPNGetResponse14sp3 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class EnterpriseVoiceVPNGetResponse14sp3 extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group b561eca19800e0898f471e5e91eb3baa:1496
+     * @Group 889c8c305076ef39cc50c70d0c2dc820:1496
      * @var bool|null
      */
     private $isActive = null;
@@ -24,7 +24,7 @@ class EnterpriseVoiceVPNGetResponse14sp3 extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName defaultSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNDefaultSelection
-     * @Group b561eca19800e0898f471e5e91eb3baa:1496
+     * @Group 889c8c305076ef39cc50c70d0c2dc820:1496
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNDefaultSelection|null
      */
     private $defaultSelection = null;
@@ -32,7 +32,7 @@ class EnterpriseVoiceVPNGetResponse14sp3 extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName e164Selection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNNonMatchingE164NumberSelection
-     * @Group b561eca19800e0898f471e5e91eb3baa:1496
+     * @Group 889c8c305076ef39cc50c70d0c2dc820:1496
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNNonMatchingE164NumberSelection|null
      */
     private $e164Selection = null;
@@ -40,7 +40,7 @@ class EnterpriseVoiceVPNGetResponse14sp3 extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName usePhoneContext
      * @Type bool
-     * @Group b561eca19800e0898f471e5e91eb3baa:1496
+     * @Group 889c8c305076ef39cc50c70d0c2dc820:1496
      * @var bool|null
      */
     private $usePhoneContext = null;

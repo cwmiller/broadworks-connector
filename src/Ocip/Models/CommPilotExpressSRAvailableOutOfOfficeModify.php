@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * CommPilot Express SR Available Out Of Office Configuration used in the context of a modify.
  *
- * @Groups [{"id":"0a20cd20692e84aeff051c5071901f47:73","type":"sequence"}]
+ * @Groups [{"id":"9035ce6c9d1f5c483ddb27dc6c140d91:73","type":"sequence"}]
  */
 class CommPilotExpressSRAvailableOutOfOfficeModify
 {
@@ -17,7 +17,7 @@ class CommPilotExpressSRAvailableOutOfOfficeModify
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 0a20cd20692e84aeff051c5071901f47:73
+     * @Group 9035ce6c9d1f5c483ddb27dc6c140d91:73
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $remotePhoneNumber = null;
@@ -26,7 +26,7 @@ class CommPilotExpressSRAvailableOutOfOfficeModify
      * @ElementName noAnswerSetting
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressSRNoAnswerModify
      * @Optional
-     * @Group 0a20cd20692e84aeff051c5071901f47:73
+     * @Group 9035ce6c9d1f5c483ddb27dc6c140d91:73
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressSRNoAnswerModify|null
      */
     private $noAnswerSetting = null;
@@ -35,7 +35,7 @@ class CommPilotExpressSRAvailableOutOfOfficeModify
      * @ElementName incomingCallNotify
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressSREmailNotifyModify
      * @Optional
-     * @Group 0a20cd20692e84aeff051c5071901f47:73
+     * @Group 9035ce6c9d1f5c483ddb27dc6c140d91:73
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressSREmailNotifyModify|null
      */
     private $incomingCallNotify = null;

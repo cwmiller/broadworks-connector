@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemSecurityClassificationGetClassificationUserUsageListResponse
  * @see ErrorResponse
- * @Groups [{"id":"b91fcb7aba1afd62c15b3e7e36708d08:205","type":"sequence"}]
+ * @Groups [{"id":"03b1e8852a59a842f834331786163273:205","type":"sequence"}]
  */
 class SystemSecurityClassificationGetClassificationUserUsageListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemSecurityClassificationGetClassificationUserUsageListRequest extends 
     /**
      * @ElementName securityClassification
      * @Type string
-     * @Group b91fcb7aba1afd62c15b3e7e36708d08:205
+     * @Group 03b1e8852a59a842f834331786163273:205
      * @var string|null
      */
     private $securityClassification = null;
@@ -27,7 +27,7 @@ class SystemSecurityClassificationGetClassificationUserUsageListRequest extends 
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group b91fcb7aba1afd62c15b3e7e36708d08:205
+     * @Group 03b1e8852a59a842f834331786163273:205
      * @var int|null
      */
     private $responseSizeLimit = null;
@@ -37,7 +37,7 @@ class SystemSecurityClassificationGetClassificationUserUsageListRequest extends 
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId
      * @Array
      * @Optional
-     * @Group b91fcb7aba1afd62c15b3e7e36708d08:205
+     * @Group 03b1e8852a59a842f834331786163273:205
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId[]
      */
     private $searchCriteriaUserId = array(
@@ -49,7 +49,7 @@ class SystemSecurityClassificationGetClassificationUserUsageListRequest extends 
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName
      * @Array
      * @Optional
-     * @Group b91fcb7aba1afd62c15b3e7e36708d08:205
+     * @Group 03b1e8852a59a842f834331786163273:205
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[]
      */
     private $searchCriteriaUserLastName = array(
@@ -61,7 +61,7 @@ class SystemSecurityClassificationGetClassificationUserUsageListRequest extends 
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName
      * @Array
      * @Optional
-     * @Group b91fcb7aba1afd62c15b3e7e36708d08:205
+     * @Group 03b1e8852a59a842f834331786163273:205
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName[]
      */
     private $searchCriteriaUserFirstName = array(
@@ -73,7 +73,7 @@ class SystemSecurityClassificationGetClassificationUserUsageListRequest extends 
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn
      * @Array
      * @Optional
-     * @Group b91fcb7aba1afd62c15b3e7e36708d08:205
+     * @Group 03b1e8852a59a842f834331786163273:205
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[]
      */
     private $searchCriteriaDn = array(
@@ -85,7 +85,7 @@ class SystemSecurityClassificationGetClassificationUserUsageListRequest extends 
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension
      * @Array
      * @Optional
-     * @Group b91fcb7aba1afd62c15b3e7e36708d08:205
+     * @Group 03b1e8852a59a842f834331786163273:205
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension[]
      */
     private $searchCriteriaExtension = array(

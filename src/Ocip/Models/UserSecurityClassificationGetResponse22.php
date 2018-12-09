@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           customizedSecurityClassification
  *
  * @see UserSecurityClassificationGetRequest22
- * @Groups [{"id":"b91fcb7aba1afd62c15b3e7e36708d08:329","type":"sequence"}]
+ * @Groups [{"id":"03b1e8852a59a842f834331786163273:329","type":"sequence"}]
  */
 class UserSecurityClassificationGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,7 +19,7 @@ class UserSecurityClassificationGetResponse22 extends \CWM\BroadWorksConnector\O
      * @ElementName securityClassification
      * @Type string
      * @Optional
-     * @Group b91fcb7aba1afd62c15b3e7e36708d08:329
+     * @Group 03b1e8852a59a842f834331786163273:329
      * @var string|null
      */
     private $securityClassification = null;
@@ -28,7 +28,7 @@ class UserSecurityClassificationGetResponse22 extends \CWM\BroadWorksConnector\O
      * @ElementName customizedSecurityClassification
      * @Type string
      * @Optional
-     * @Group b91fcb7aba1afd62c15b3e7e36708d08:329
+     * @Group 03b1e8852a59a842f834331786163273:329
      * @var string|null
      */
     private $customizedSecurityClassification = null;

@@ -16,7 +16,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemDnGetUtilizationListResponse
  * @see ErrorResponse
- * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:7801","type":"sequence"}]
+ * @Groups [{"id":"b5f5416d9e71f8e4246cda16c4723744:7801","type":"sequence"}]
  */
 class SystemDnGetUtilizationListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -25,7 +25,7 @@ class SystemDnGetUtilizationListRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName resellerId
      * @Type string
      * @Optional
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:7801
+     * @Group b5f5416d9e71f8e4246cda16c4723744:7801
      * @var string|null
      */
     private $resellerId = null;

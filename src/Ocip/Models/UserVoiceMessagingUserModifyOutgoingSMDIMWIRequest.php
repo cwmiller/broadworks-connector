@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"1624846b7d87d3ab55e907c443fca9d6:1998","type":"sequence"}]
+ * @Groups [{"id":"80c5986946137c505e41f6008c7f75a8:1998","type":"sequence"}]
  */
 class UserVoiceMessagingUserModifyOutgoingSMDIMWIRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserVoiceMessagingUserModifyOutgoingSMDIMWIRequest extends \CWM\BroadWorks
     /**
      * @ElementName userId
      * @Type string
-     * @Group 1624846b7d87d3ab55e907c443fca9d6:1998
+     * @Group 80c5986946137c505e41f6008c7f75a8:1998
      * @var string|null
      */
     private $userId = null;
@@ -27,7 +27,7 @@ class UserVoiceMessagingUserModifyOutgoingSMDIMWIRequest extends \CWM\BroadWorks
      * @ElementName isActive
      * @Type bool
      * @Optional
-     * @Group 1624846b7d87d3ab55e907c443fca9d6:1998
+     * @Group 80c5986946137c505e41f6008c7f75a8:1998
      * @var bool|null
      */
     private $isActive = null;
@@ -37,7 +37,7 @@ class UserVoiceMessagingUserModifyOutgoingSMDIMWIRequest extends \CWM\BroadWorks
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementOutgoingDNList
      * @Nillable
      * @Optional
-     * @Group 1624846b7d87d3ab55e907c443fca9d6:1998
+     * @Group 80c5986946137c505e41f6008c7f75a8:1998
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementOutgoingDNList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $outgoingSMDIMWIPhoneNumberList = null;

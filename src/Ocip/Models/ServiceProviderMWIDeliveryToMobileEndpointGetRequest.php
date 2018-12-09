@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see ServiceProviderMWIDeliveryToMobileEndpointGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"c2306c3f9cea4bfa8682bbf7a2c099a0:301","type":"sequence"}]
+ * @Groups [{"id":"26ea37e78b67054650c3445a62638977:301","type":"sequence"}]
  */
 class ServiceProviderMWIDeliveryToMobileEndpointGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class ServiceProviderMWIDeliveryToMobileEndpointGetRequest extends \CWM\BroadWor
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group c2306c3f9cea4bfa8682bbf7a2c099a0:301
+     * @Group 26ea37e78b67054650c3445a62638977:301
      * @var string|null
      */
     private $serviceProviderId = null;

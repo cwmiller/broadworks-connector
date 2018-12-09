@@ -21,7 +21,8 @@ use CWM\BroadWorksConnector\Ocip\Models\UserExecutiveModifyAssistantRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserExecutiveModifyFilteringRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserExecutiveModifyFilteringSelectiveCriteriaRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserExecutiveModifyScreeningAlertingRequest;
-use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceExecutive
@@ -31,6 +32,7 @@ trait OCISchemaServiceExecutive
      * @param SystemExecutiveGetRequest $request
      * @return SystemExecutiveGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemExecutiveGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemExecutiveGetRequest $request)
     {
@@ -41,6 +43,7 @@ trait OCISchemaServiceExecutive
      * @param SystemExecutiveModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemExecutiveModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemExecutiveModifyRequest $request)
     {
@@ -51,6 +54,7 @@ trait OCISchemaServiceExecutive
      * @param UserExecutiveAddFilteringSelectiveCriteriaRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userExecutiveAddFilteringSelectiveCriteriaRequest(\CWM\BroadWorksConnector\Ocip\Models\UserExecutiveAddFilteringSelectiveCriteriaRequest $request)
     {
@@ -61,6 +65,7 @@ trait OCISchemaServiceExecutive
      * @param UserExecutiveDeleteFilteringSelectiveCriteriaRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userExecutiveDeleteFilteringSelectiveCriteriaRequest(\CWM\BroadWorksConnector\Ocip\Models\UserExecutiveDeleteFilteringSelectiveCriteriaRequest $request)
     {
@@ -71,6 +76,7 @@ trait OCISchemaServiceExecutive
      * @param UserExecutiveGetAssistantRequest $request
      * @return UserExecutiveGetAssistantResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userExecutiveGetAssistantRequest(\CWM\BroadWorksConnector\Ocip\Models\UserExecutiveGetAssistantRequest $request)
     {
@@ -81,6 +87,7 @@ trait OCISchemaServiceExecutive
      * @param UserExecutiveGetAvailableAssistantListRequest $request
      * @return UserExecutiveGetAvailableAssistantListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userExecutiveGetAvailableAssistantListRequest(\CWM\BroadWorksConnector\Ocip\Models\UserExecutiveGetAvailableAssistantListRequest $request)
     {
@@ -91,6 +98,7 @@ trait OCISchemaServiceExecutive
      * @param UserExecutiveGetFilteringRequest $request
      * @return UserExecutiveGetFilteringResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userExecutiveGetFilteringRequest(\CWM\BroadWorksConnector\Ocip\Models\UserExecutiveGetFilteringRequest $request)
     {
@@ -101,6 +109,7 @@ trait OCISchemaServiceExecutive
      * @param UserExecutiveGetFilteringSelectiveCriteriaRequest21 $request
      * @return UserExecutiveGetFilteringSelectiveCriteriaResponse21
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userExecutiveGetFilteringSelectiveCriteriaRequest21(\CWM\BroadWorksConnector\Ocip\Models\UserExecutiveGetFilteringSelectiveCriteriaRequest21 $request)
     {
@@ -111,6 +120,7 @@ trait OCISchemaServiceExecutive
      * @param UserExecutiveGetScreeningAlertingRequest $request
      * @return UserExecutiveGetScreeningAlertingResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userExecutiveGetScreeningAlertingRequest(\CWM\BroadWorksConnector\Ocip\Models\UserExecutiveGetScreeningAlertingRequest $request)
     {
@@ -121,6 +131,7 @@ trait OCISchemaServiceExecutive
      * @param UserExecutiveModifyAssistantRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userExecutiveModifyAssistantRequest(\CWM\BroadWorksConnector\Ocip\Models\UserExecutiveModifyAssistantRequest $request)
     {
@@ -131,6 +142,7 @@ trait OCISchemaServiceExecutive
      * @param UserExecutiveModifyFilteringRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userExecutiveModifyFilteringRequest(\CWM\BroadWorksConnector\Ocip\Models\UserExecutiveModifyFilteringRequest $request)
     {
@@ -141,6 +153,7 @@ trait OCISchemaServiceExecutive
      * @param UserExecutiveModifyFilteringSelectiveCriteriaRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userExecutiveModifyFilteringSelectiveCriteriaRequest(\CWM\BroadWorksConnector\Ocip\Models\UserExecutiveModifyFilteringSelectiveCriteriaRequest $request)
     {
@@ -151,6 +164,7 @@ trait OCISchemaServiceExecutive
      * @param UserExecutiveModifyScreeningAlertingRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userExecutiveModifyScreeningAlertingRequest(\CWM\BroadWorksConnector\Ocip\Models\UserExecutiveModifyScreeningAlertingRequest $request)
     {

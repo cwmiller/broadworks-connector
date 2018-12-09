@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7791e65363a51bce3d1d264fa0ceee32:73","type":"sequence"}]
+ * @Groups [{"id":"cd7100d14817792d906c1a75ef892768:73","type":"sequence"}]
  */
 class UserBargeInExemptModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserBargeInExemptModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName userId
      * @Type string
-     * @Group 7791e65363a51bce3d1d264fa0ceee32:73
+     * @Group cd7100d14817792d906c1a75ef892768:73
      * @var string|null
      */
     private $userId = null;
@@ -27,7 +27,7 @@ class UserBargeInExemptModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName isActive
      * @Type bool
      * @Optional
-     * @Group 7791e65363a51bce3d1d264fa0ceee32:73
+     * @Group cd7100d14817792d906c1a75ef892768:73
      * @var bool|null
      */
     private $isActive = null;

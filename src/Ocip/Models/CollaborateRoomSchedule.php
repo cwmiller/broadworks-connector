@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Collaborate room schedule.
  *
- * @Groups [{"id":"18b369af88e42ffdb4166615c670ce2c:786","type":"sequence","children":[{"id":"18b369af88e42ffdb4166615c670ce2c:787","type":"choice","children":[{"id":"18b369af88e42ffdb4166615c670ce2c:791","type":"sequence"},{"id":"18b369af88e42ffdb4166615c670ce2c:800","type":"sequence"},{"id":"18b369af88e42ffdb4166615c670ce2c:809","type":"sequence"}]}]}]
+ * @Groups [{"id":"8e629edbac315ae7889caca732382c44:786","type":"sequence","children":[{"id":"8e629edbac315ae7889caca732382c44:787","type":"choice","children":[{"id":"8e629edbac315ae7889caca732382c44:791","type":"sequence"},{"id":"8e629edbac315ae7889caca732382c44:800","type":"sequence"},{"id":"8e629edbac315ae7889caca732382c44:809","type":"sequence"}]}]}]
  */
 class CollaborateRoomSchedule
 {
@@ -15,7 +15,7 @@ class CollaborateRoomSchedule
     /**
      * @ElementName scheduleReservationless
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CollaborateRoomScheduleScheduleReservationless
-     * @Group 18b369af88e42ffdb4166615c670ce2c:787
+     * @Group 8e629edbac315ae7889caca732382c44:787
      * @var \CWM\BroadWorksConnector\Ocip\Models\CollaborateRoomScheduleScheduleReservationless|null
      */
     private $scheduleReservationless = null;
@@ -23,7 +23,7 @@ class CollaborateRoomSchedule
     /**
      * @ElementName scheduleOneTime
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CollaborateRoomScheduleScheduleOneTime
-     * @Group 18b369af88e42ffdb4166615c670ce2c:787
+     * @Group 8e629edbac315ae7889caca732382c44:787
      * @var \CWM\BroadWorksConnector\Ocip\Models\CollaborateRoomScheduleScheduleOneTime|null
      */
     private $scheduleOneTime = null;
@@ -31,7 +31,7 @@ class CollaborateRoomSchedule
     /**
      * @ElementName scheduleRecurring
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CollaborateRoomScheduleScheduleRecurring
-     * @Group 18b369af88e42ffdb4166615c670ce2c:787
+     * @Group 8e629edbac315ae7889caca732382c44:787
      * @var \CWM\BroadWorksConnector\Ocip\Models\CollaborateRoomScheduleScheduleRecurring|null
      */
     private $scheduleRecurring = null;

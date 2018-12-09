@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to UserCallTransferGetRequest.
  *
  * @see UserCallTransferGetRequest
- * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:33970","type":"sequence"}]
+ * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:33970","type":"sequence"}]
  */
 class UserCallTransferGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class UserCallTransferGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName isRecallActive
      * @Type bool
-     * @Group 1a79c7896cb04feac6eff47a5321756e:33970
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:33970
      * @var bool|null
      */
     private $isRecallActive = null;
@@ -24,7 +24,7 @@ class UserCallTransferGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName recallNumberOfRings
      * @Type int
-     * @Group 1a79c7896cb04feac6eff47a5321756e:33970
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:33970
      * @var int|null
      */
     private $recallNumberOfRings = null;
@@ -32,7 +32,7 @@ class UserCallTransferGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName useDiversionInhibitorForBlindTransfer
      * @Type bool
-     * @Group 1a79c7896cb04feac6eff47a5321756e:33970
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:33970
      * @var bool|null
      */
     private $useDiversionInhibitorForBlindTransfer = null;
@@ -40,7 +40,7 @@ class UserCallTransferGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName useDiversionInhibitorForConsultativeCalls
      * @Type bool
-     * @Group 1a79c7896cb04feac6eff47a5321756e:33970
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:33970
      * @var bool|null
      */
     private $useDiversionInhibitorForConsultativeCalls = null;

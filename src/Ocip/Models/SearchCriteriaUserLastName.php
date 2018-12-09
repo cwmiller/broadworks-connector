@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Criteria for searching for a user's last name.
  *
- * @Groups [{"id":"d37849f5e289836ccd316323a7a3799a:2025","type":"sequence"}]
+ * @Groups [{"id":"e446bfcbd1f39cbef57d1547014f2bb9:2025","type":"sequence"}]
  */
 class SearchCriteriaUserLastName extends SearchCriteria
 {
@@ -15,7 +15,7 @@ class SearchCriteriaUserLastName extends SearchCriteria
     /**
      * @ElementName mode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchMode
-     * @Group d37849f5e289836ccd316323a7a3799a:2025
+     * @Group e446bfcbd1f39cbef57d1547014f2bb9:2025
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchMode|null
      */
     private $mode = null;
@@ -23,7 +23,7 @@ class SearchCriteriaUserLastName extends SearchCriteria
     /**
      * @ElementName value
      * @Type string
-     * @Group d37849f5e289836ccd316323a7a3799a:2025
+     * @Group e446bfcbd1f39cbef57d1547014f2bb9:2025
      * @var string|null
      */
     private $value = null;
@@ -31,7 +31,7 @@ class SearchCriteriaUserLastName extends SearchCriteria
     /**
      * @ElementName isCaseInsensitive
      * @Type bool
-     * @Group d37849f5e289836ccd316323a7a3799a:2025
+     * @Group e446bfcbd1f39cbef57d1547014f2bb9:2025
      * @var bool|null
      */
     private $isCaseInsensitive = null;

@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemPhysicalLocationGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"85df52bad9c98cf1c97d487c0041b427:43","type":"sequence"}]
+ * @Groups [{"id":"128440369582696b2b7120a6047a3faa:43","type":"sequence"}]
  */
 class SystemPhysicalLocationGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

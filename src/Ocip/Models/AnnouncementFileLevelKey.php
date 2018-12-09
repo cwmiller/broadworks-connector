@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Includes level to distinguish between group and user announcements 
  *         in scenarios where both are listed.
  *
- * @Groups [{"id":"18b369af88e42ffdb4166615c670ce2c:348","type":"sequence"}]
+ * @Groups [{"id":"8e629edbac315ae7889caca732382c44:348","type":"sequence"}]
  */
 class AnnouncementFileLevelKey
 {
@@ -17,7 +17,7 @@ class AnnouncementFileLevelKey
     /**
      * @ElementName name
      * @Type string
-     * @Group 18b369af88e42ffdb4166615c670ce2c:348
+     * @Group 8e629edbac315ae7889caca732382c44:348
      * @var string|null
      */
     private $name = null;
@@ -25,7 +25,7 @@ class AnnouncementFileLevelKey
     /**
      * @ElementName mediaFileType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MediaFileType
-     * @Group 18b369af88e42ffdb4166615c670ce2c:348
+     * @Group 8e629edbac315ae7889caca732382c44:348
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     private $mediaFileType = null;
@@ -33,7 +33,7 @@ class AnnouncementFileLevelKey
     /**
      * @ElementName level
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementRepositoryType
-     * @Group 18b369af88e42ffdb4166615c670ce2c:348
+     * @Group 8e629edbac315ae7889caca732382c44:348
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementRepositoryType|null
      */
     private $level = null;

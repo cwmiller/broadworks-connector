@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * User for admin read. Either all call centers or 2 lists of call centers: one for current and one for deleted call centers.
  *
- * @Groups [{"id":"69c2aeb1186dc97a4f4c36d9609ddb49:6860","type":"choice","children":[{"id":"69c2aeb1186dc97a4f4c36d9609ddb49:6862","type":"sequence"}]}]
+ * @Groups [{"id":"3ac5f05d969bc771d6ba8d344d95aa72:6860","type":"choice","children":[{"id":"3ac5f05d969bc771d6ba8d344d95aa72:6862","type":"sequence"}]}]
  */
 class CallCenterScheduledReportCallCenterSelectionRead
 {
@@ -15,7 +15,7 @@ class CallCenterScheduledReportCallCenterSelectionRead
     /**
      * @ElementName allCallCenter
      * @Type bool
-     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:6860
+     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:6860
      * @var bool|null
      */
     private $allCallCenter = null;
@@ -25,7 +25,7 @@ class CallCenterScheduledReportCallCenterSelectionRead
      * @Type string
      * @Array
      * @Optional
-     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:6862
+     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:6862
      * @var string[]
      */
     private $currentUserId = array(
@@ -37,7 +37,7 @@ class CallCenterScheduledReportCallCenterSelectionRead
      * @Type string
      * @Array
      * @Optional
-     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:6862
+     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:6862
      * @var string[]
      */
     private $pastUserId = array(

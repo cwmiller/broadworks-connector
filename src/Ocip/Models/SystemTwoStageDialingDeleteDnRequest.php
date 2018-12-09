@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"6fd6a21bc6d7eb5a1e621396e2e662da:63","type":"sequence"}]
+ * @Groups [{"id":"25fccbf16e98061b338758dd7d75d8f2:63","type":"sequence"}]
  */
 class SystemTwoStageDialingDeleteDnRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemTwoStageDialingDeleteDnRequest extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName phoneNumber
      * @Type string
-     * @Group 6fd6a21bc6d7eb5a1e621396e2e662da:63
+     * @Group 25fccbf16e98061b338758dd7d75d8f2:63
      * @var string|null
      */
     private $phoneNumber = null;

@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see EnterpriseVoiceVPNGetPolicyListResponse
  * @see ErrorResponse
- * @Groups [{"id":"b561eca19800e0898f471e5e91eb3baa:1405","type":"sequence"}]
+ * @Groups [{"id":"889c8c305076ef39cc50c70d0c2dc820:1405","type":"sequence"}]
  */
 class EnterpriseVoiceVPNGetPolicyListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class EnterpriseVoiceVPNGetPolicyListRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group b561eca19800e0898f471e5e91eb3baa:1405
+     * @Group 889c8c305076ef39cc50c70d0c2dc820:1405
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -29,7 +29,7 @@ class EnterpriseVoiceVPNGetPolicyListRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group b561eca19800e0898f471e5e91eb3baa:1405
+     * @Group 889c8c305076ef39cc50c70d0c2dc820:1405
      * @var int|null
      */
     private $responseSizeLimit = null;
@@ -39,7 +39,7 @@ class EnterpriseVoiceVPNGetPolicyListRequest extends \CWM\BroadWorksConnector\Oc
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupLocationCode
      * @Array
      * @Optional
-     * @Group b561eca19800e0898f471e5e91eb3baa:1405
+     * @Group 889c8c305076ef39cc50c70d0c2dc820:1405
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupLocationCode[]
      */
     private $searchCriteriaGroupLocationCode = array(
@@ -50,7 +50,7 @@ class EnterpriseVoiceVPNGetPolicyListRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName searchCriteriaExactPolicySelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactPolicySelection
      * @Optional
-     * @Group b561eca19800e0898f471e5e91eb3baa:1405
+     * @Group 889c8c305076ef39cc50c70d0c2dc820:1405
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactPolicySelection|null
      */
     private $searchCriteriaExactPolicySelection = null;

@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see ServiceProviderExternalCustomRingbackGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"fe688087ec2e31030f7ebdcdf92555d1:46","type":"sequence"}]
+ * @Groups [{"id":"ecf978efc1c280089e38b3f7b8fc97fb:46","type":"sequence"}]
  */
 class ServiceProviderExternalCustomRingbackGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class ServiceProviderExternalCustomRingbackGetRequest extends \CWM\BroadWorksCon
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group fe688087ec2e31030f7ebdcdf92555d1:46
+     * @Group ecf978efc1c280089e38b3f7b8fc97fb:46
      * @var string|null
      */
     private $serviceProviderId = null;

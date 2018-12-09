@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"18819b2191ab2f91f6d92ec2df9e32dd:154","type":"sequence"}]
+ * @Groups [{"id":"cab89edc38c11aa1d780290f00d72d0c:154","type":"sequence"}]
  */
 class SystemClassmarkModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemClassmarkModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName classmark
      * @Type string
-     * @Group 18819b2191ab2f91f6d92ec2df9e32dd:154
+     * @Group cab89edc38c11aa1d780290f00d72d0c:154
      * @var string|null
      */
     private $classmark = null;
@@ -27,7 +27,7 @@ class SystemClassmarkModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @ElementName value
      * @Type string
      * @Optional
-     * @Group 18819b2191ab2f91f6d92ec2df9e32dd:154
+     * @Group cab89edc38c11aa1d780290f00d72d0c:154
      * @var string|null
      */
     private $value = null;
@@ -37,7 +37,7 @@ class SystemClassmarkModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 18819b2191ab2f91f6d92ec2df9e32dd:154
+     * @Group cab89edc38c11aa1d780290f00d72d0c:154
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $webDisplayKey = null;

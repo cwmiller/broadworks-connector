@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemCollaborateGetResponse20sp1V2
  * @see ErrorResponse
- * @Groups [{"id":"2f13ead3f217ca6eb3f52b517fb04a6f:347","type":"sequence"}]
+ * @Groups [{"id":"1d655a4f2853eddf47018e01b685b65b:347","type":"sequence"}]
  */
 class SystemCollaborateGetRequest20sp1V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

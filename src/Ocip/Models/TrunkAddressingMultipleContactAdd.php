@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The following elements are only used in AS data mode and are ignored in XS data mode:        
  *          physicalLocation
  *
- * @Groups [{"id":"18b369af88e42ffdb4166615c670ce2c:3671","type":"sequence"}]
+ * @Groups [{"id":"8e629edbac315ae7889caca732382c44:3671","type":"sequence"}]
  */
 class TrunkAddressingMultipleContactAdd
 {
@@ -20,7 +20,7 @@ class TrunkAddressingMultipleContactAdd
      * @ElementName trunkGroupDeviceEndpoint
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupDeviceMultipleContactEndpointAdd
      * @Optional
-     * @Group 18b369af88e42ffdb4166615c670ce2c:3671
+     * @Group 8e629edbac315ae7889caca732382c44:3671
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupDeviceMultipleContactEndpointAdd|null
      */
     private $trunkGroupDeviceEndpoint = null;
@@ -29,7 +29,7 @@ class TrunkAddressingMultipleContactAdd
      * @ElementName enterpriseTrunkName
      * @Type string
      * @Optional
-     * @Group 18b369af88e42ffdb4166615c670ce2c:3671
+     * @Group 8e629edbac315ae7889caca732382c44:3671
      * @var string|null
      */
     private $enterpriseTrunkName = null;
@@ -38,7 +38,7 @@ class TrunkAddressingMultipleContactAdd
      * @ElementName alternateTrunkIdentity
      * @Type string
      * @Optional
-     * @Group 18b369af88e42ffdb4166615c670ce2c:3671
+     * @Group 8e629edbac315ae7889caca732382c44:3671
      * @var string|null
      */
     private $alternateTrunkIdentity = null;
@@ -47,7 +47,7 @@ class TrunkAddressingMultipleContactAdd
      * @ElementName alternateTrunkIdentityDomain
      * @Type string
      * @Optional
-     * @Group 18b369af88e42ffdb4166615c670ce2c:3671
+     * @Group 8e629edbac315ae7889caca732382c44:3671
      * @var string|null
      */
     private $alternateTrunkIdentityDomain = null;
@@ -56,7 +56,7 @@ class TrunkAddressingMultipleContactAdd
      * @ElementName physicalLocation
      * @Type string
      * @Optional
-     * @Group 18b369af88e42ffdb4166615c670ce2c:3671
+     * @Group 8e629edbac315ae7889caca732382c44:3671
      * @var string|null
      */
     private $physicalLocation = null;

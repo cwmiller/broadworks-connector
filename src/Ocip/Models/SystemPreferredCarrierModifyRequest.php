@@ -16,7 +16,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see ErrorResponse
  * @see ErrorResponse
  * @see ErrorResponse
- * @Groups [{"id":"1384777ce7bd407156102bad44751987:516","type":"sequence"}]
+ * @Groups [{"id":"56f1bd27c6955cc11e0869b6463fb814:516","type":"sequence"}]
  */
 class SystemPreferredCarrierModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -24,7 +24,7 @@ class SystemPreferredCarrierModifyRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName carrier
      * @Type string
-     * @Group 1384777ce7bd407156102bad44751987:516
+     * @Group 56f1bd27c6955cc11e0869b6463fb814:516
      * @var string|null
      */
     private $carrier = null;
@@ -33,7 +33,7 @@ class SystemPreferredCarrierModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName cic
      * @Type string
      * @Optional
-     * @Group 1384777ce7bd407156102bad44751987:516
+     * @Group 56f1bd27c6955cc11e0869b6463fb814:516
      * @var string|null
      */
     private $cic = null;
@@ -42,7 +42,7 @@ class SystemPreferredCarrierModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName countryCode
      * @Type string
      * @Optional
-     * @Group 1384777ce7bd407156102bad44751987:516
+     * @Group 56f1bd27c6955cc11e0869b6463fb814:516
      * @var string|null
      */
     private $countryCode = null;
@@ -51,7 +51,7 @@ class SystemPreferredCarrierModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName isIntraLata
      * @Type bool
      * @Optional
-     * @Group 1384777ce7bd407156102bad44751987:516
+     * @Group 56f1bd27c6955cc11e0869b6463fb814:516
      * @var bool|null
      */
     private $isIntraLata = null;
@@ -60,7 +60,7 @@ class SystemPreferredCarrierModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName isInterLata
      * @Type bool
      * @Optional
-     * @Group 1384777ce7bd407156102bad44751987:516
+     * @Group 56f1bd27c6955cc11e0869b6463fb814:516
      * @var bool|null
      */
     private $isInterLata = null;
@@ -69,7 +69,7 @@ class SystemPreferredCarrierModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName isInternational
      * @Type bool
      * @Optional
-     * @Group 1384777ce7bd407156102bad44751987:516
+     * @Group 56f1bd27c6955cc11e0869b6463fb814:516
      * @var bool|null
      */
     private $isInternational = null;

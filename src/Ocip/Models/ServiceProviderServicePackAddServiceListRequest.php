@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"8f3ed38751e86ebcc639b5bc5cdef0ec:5044","type":"sequence"}]
+ * @Groups [{"id":"8eb862aea0ee5d4211db0a0d3fe7c164:5044","type":"sequence"}]
  */
 class ServiceProviderServicePackAddServiceListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class ServiceProviderServicePackAddServiceListRequest extends \CWM\BroadWorksCon
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:5044
+     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:5044
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,7 +26,7 @@ class ServiceProviderServicePackAddServiceListRequest extends \CWM\BroadWorksCon
     /**
      * @ElementName servicePackName
      * @Type string
-     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:5044
+     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:5044
      * @var string|null
      */
     private $servicePackName = null;
@@ -35,7 +35,7 @@ class ServiceProviderServicePackAddServiceListRequest extends \CWM\BroadWorksCon
      * @ElementName serviceName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UserService
      * @Array
-     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:5044
+     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:5044
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserService[]
      */
     private $serviceName = array(

@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupCallPickupGetInstanceListResponse
  * @see ErrorResponse
- * @Groups [{"id":"1d2c67d4a97adca57d9953b2182b4b0d:128","type":"sequence"}]
+ * @Groups [{"id":"33d260a6ccad8df129f1531c1189d405:128","type":"sequence"}]
  */
 class GroupCallPickupGetInstanceListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupCallPickupGetInstanceListRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 1d2c67d4a97adca57d9953b2182b4b0d:128
+     * @Group 33d260a6ccad8df129f1531c1189d405:128
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,7 +26,7 @@ class GroupCallPickupGetInstanceListRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 1d2c67d4a97adca57d9953b2182b4b0d:128
+     * @Group 33d260a6ccad8df129f1531c1189d405:128
      * @var string|null
      */
     private $groupId = null;

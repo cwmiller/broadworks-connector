@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:3267","type":"sequence"}]
+ * @Groups [{"id":"15129cd25fa2d5581f4edfd652c24f93:3267","type":"sequence"}]
  */
 class GroupDeviceManagementInProgressAndPendingEventCancelRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class GroupDeviceManagementInProgressAndPendingEventCancelRequest extends \CWM\B
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:3267
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:3267
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,7 +27,7 @@ class GroupDeviceManagementInProgressAndPendingEventCancelRequest extends \CWM\B
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:3267
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:3267
      * @var string|null
      */
     private $groupId = null;
@@ -36,7 +36,7 @@ class GroupDeviceManagementInProgressAndPendingEventCancelRequest extends \CWM\B
      * @ElementName eventId
      * @Type int
      * @Array
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:3267
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:3267
      * @var int[]
      */
     private $eventId = array(

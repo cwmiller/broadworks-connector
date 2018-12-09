@@ -14,7 +14,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:13031","type":"sequence"}]
+ * @Groups [{"id":"b5f5416d9e71f8e4246cda16c4723744:13031","type":"sequence"}]
  */
 class SystemPushNotificationParametersModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -23,7 +23,7 @@ class SystemPushNotificationParametersModifyRequest extends \CWM\BroadWorksConne
      * @ElementName enforceAllowedApplicationList
      * @Type bool
      * @Optional
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:13031
+     * @Group b5f5416d9e71f8e4246cda16c4723744:13031
      * @var bool|null
      */
     private $enforceAllowedApplicationList = null;
@@ -32,7 +32,7 @@ class SystemPushNotificationParametersModifyRequest extends \CWM\BroadWorksConne
      * @ElementName maximumRegistrationsPerUser
      * @Type int
      * @Optional
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:13031
+     * @Group b5f5416d9e71f8e4246cda16c4723744:13031
      * @var int|null
      */
     private $maximumRegistrationsPerUser = null;
@@ -41,7 +41,7 @@ class SystemPushNotificationParametersModifyRequest extends \CWM\BroadWorksConne
      * @ElementName maximumRegistrationAgeDays
      * @Type int
      * @Optional
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:13031
+     * @Group b5f5416d9e71f8e4246cda16c4723744:13031
      * @var int|null
      */
     private $maximumRegistrationAgeDays = null;
@@ -50,7 +50,7 @@ class SystemPushNotificationParametersModifyRequest extends \CWM\BroadWorksConne
      * @ElementName newCallTimeout
      * @Type int
      * @Optional
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:13031
+     * @Group b5f5416d9e71f8e4246cda16c4723744:13031
      * @var int|null
      */
     private $newCallTimeout = null;
@@ -59,7 +59,7 @@ class SystemPushNotificationParametersModifyRequest extends \CWM\BroadWorksConne
      * @ElementName subscriptionEventsPerSecond
      * @Type int
      * @Optional
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:13031
+     * @Group b5f5416d9e71f8e4246cda16c4723744:13031
      * @var int|null
      */
     private $subscriptionEventsPerSecond = null;

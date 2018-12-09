@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Conference schedule.
  *
- * @Groups [{"id":"e51a0a16349851c3fad768a24a35838d:919","type":"sequence","children":[{"id":"e51a0a16349851c3fad768a24a35838d:920","type":"choice","children":[{"id":"e51a0a16349851c3fad768a24a35838d:924","type":"sequence"},{"id":"e51a0a16349851c3fad768a24a35838d:933","type":"sequence"},{"id":"e51a0a16349851c3fad768a24a35838d:942","type":"sequence"}]}]}]
+ * @Groups [{"id":"7a29c84abb8473449085e6657fc6948d:919","type":"sequence","children":[{"id":"7a29c84abb8473449085e6657fc6948d:920","type":"choice","children":[{"id":"7a29c84abb8473449085e6657fc6948d:924","type":"sequence"},{"id":"7a29c84abb8473449085e6657fc6948d:933","type":"sequence"},{"id":"7a29c84abb8473449085e6657fc6948d:942","type":"sequence"}]}]}]
  */
 class MeetMeConferencingConferenceSchedule
 {
@@ -15,7 +15,7 @@ class MeetMeConferencingConferenceSchedule
     /**
      * @ElementName scheduleReservationless
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceScheduleScheduleReservationless
-     * @Group e51a0a16349851c3fad768a24a35838d:920
+     * @Group 7a29c84abb8473449085e6657fc6948d:920
      * @var \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceScheduleScheduleReservationless|null
      */
     private $scheduleReservationless = null;
@@ -23,7 +23,7 @@ class MeetMeConferencingConferenceSchedule
     /**
      * @ElementName scheduleOneTime
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceScheduleScheduleOneTime
-     * @Group e51a0a16349851c3fad768a24a35838d:920
+     * @Group 7a29c84abb8473449085e6657fc6948d:920
      * @var \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceScheduleScheduleOneTime|null
      */
     private $scheduleOneTime = null;
@@ -31,7 +31,7 @@ class MeetMeConferencingConferenceSchedule
     /**
      * @ElementName scheduleRecurring
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceScheduleScheduleRecurring
-     * @Group e51a0a16349851c3fad768a24a35838d:920
+     * @Group 7a29c84abb8473449085e6657fc6948d:920
      * @var \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceScheduleScheduleRecurring|null
      */
     private $scheduleRecurring = null;

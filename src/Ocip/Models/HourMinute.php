@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Represents a specific time with hour and minute granularity
  *
- * @Groups [{"id":"18b369af88e42ffdb4166615c670ce2c:2112","type":"sequence"}]
+ * @Groups [{"id":"8e629edbac315ae7889caca732382c44:2112","type":"sequence"}]
  */
 class HourMinute
 {
@@ -15,7 +15,7 @@ class HourMinute
     /**
      * @ElementName hour
      * @Type int
-     * @Group 18b369af88e42ffdb4166615c670ce2c:2112
+     * @Group 8e629edbac315ae7889caca732382c44:2112
      * @var int|null
      */
     private $hour = null;
@@ -23,7 +23,7 @@ class HourMinute
     /**
      * @ElementName minute
      * @Type int
-     * @Group 18b369af88e42ffdb4166615c670ce2c:2112
+     * @Group 8e629edbac315ae7889caca732382c44:2112
      * @var int|null
      */
     private $minute = null;

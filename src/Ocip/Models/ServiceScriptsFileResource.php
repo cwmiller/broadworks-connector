@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Service Scripts File Resource for uploading file content.
  *
- * @Groups [{"id":"6d2fe94f74b33d09baa45f68834840d6:33","type":"sequence"}]
+ * @Groups [{"id":"64542b9cd6b14c78aeb3b329fa9eb03c:33","type":"sequence"}]
  */
 class ServiceScriptsFileResource
 {
@@ -15,7 +15,7 @@ class ServiceScriptsFileResource
     /**
      * @ElementName fileName
      * @Type string
-     * @Group 6d2fe94f74b33d09baa45f68834840d6:33
+     * @Group 64542b9cd6b14c78aeb3b329fa9eb03c:33
      * @var string|null
      */
     private $fileName = null;
@@ -23,7 +23,7 @@ class ServiceScriptsFileResource
     /**
      * @ElementName scriptContent
      * @Type string
-     * @Group 6d2fe94f74b33d09baa45f68834840d6:33
+     * @Group 64542b9cd6b14c78aeb3b329fa9eb03c:33
      * @var string|null
      */
     private $scriptContent = null;

@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Outgoing Calling Plan originating call permissions.
  *
- * @Groups [{"id":"8366f5f5d1fbfb9742236aba282c1dab:2064","type":"sequence"}]
+ * @Groups [{"id":"80676ea6f2582b1b88573623a6affc0e:2064","type":"sequence"}]
  */
 class OutgoingCallingPlanOriginatingPermissionsModify
 {
@@ -16,7 +16,7 @@ class OutgoingCallingPlanOriginatingPermissionsModify
      * @ElementName group
      * @Type \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission
      * @Optional
-     * @Group 8366f5f5d1fbfb9742236aba282c1dab:2064
+     * @Group 80676ea6f2582b1b88573623a6affc0e:2064
      * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission|null
      */
     private $group = null;
@@ -25,7 +25,7 @@ class OutgoingCallingPlanOriginatingPermissionsModify
      * @ElementName local
      * @Type \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission
      * @Optional
-     * @Group 8366f5f5d1fbfb9742236aba282c1dab:2064
+     * @Group 80676ea6f2582b1b88573623a6affc0e:2064
      * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission|null
      */
     private $local = null;
@@ -34,7 +34,7 @@ class OutgoingCallingPlanOriginatingPermissionsModify
      * @ElementName tollFree
      * @Type \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission
      * @Optional
-     * @Group 8366f5f5d1fbfb9742236aba282c1dab:2064
+     * @Group 80676ea6f2582b1b88573623a6affc0e:2064
      * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission|null
      */
     private $tollFree = null;
@@ -43,7 +43,7 @@ class OutgoingCallingPlanOriginatingPermissionsModify
      * @ElementName toll
      * @Type \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission
      * @Optional
-     * @Group 8366f5f5d1fbfb9742236aba282c1dab:2064
+     * @Group 80676ea6f2582b1b88573623a6affc0e:2064
      * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission|null
      */
     private $toll = null;
@@ -52,7 +52,7 @@ class OutgoingCallingPlanOriginatingPermissionsModify
      * @ElementName international
      * @Type \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission
      * @Optional
-     * @Group 8366f5f5d1fbfb9742236aba282c1dab:2064
+     * @Group 80676ea6f2582b1b88573623a6affc0e:2064
      * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission|null
      */
     private $international = null;
@@ -61,7 +61,7 @@ class OutgoingCallingPlanOriginatingPermissionsModify
      * @ElementName operatorAssisted
      * @Type \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission
      * @Optional
-     * @Group 8366f5f5d1fbfb9742236aba282c1dab:2064
+     * @Group 80676ea6f2582b1b88573623a6affc0e:2064
      * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission|null
      */
     private $operatorAssisted = null;
@@ -70,7 +70,7 @@ class OutgoingCallingPlanOriginatingPermissionsModify
      * @ElementName chargeableDirectoryAssisted
      * @Type \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission
      * @Optional
-     * @Group 8366f5f5d1fbfb9742236aba282c1dab:2064
+     * @Group 80676ea6f2582b1b88573623a6affc0e:2064
      * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission|null
      */
     private $chargeableDirectoryAssisted = null;
@@ -79,7 +79,7 @@ class OutgoingCallingPlanOriginatingPermissionsModify
      * @ElementName specialServicesI
      * @Type \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission
      * @Optional
-     * @Group 8366f5f5d1fbfb9742236aba282c1dab:2064
+     * @Group 80676ea6f2582b1b88573623a6affc0e:2064
      * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission|null
      */
     private $specialServicesI = null;
@@ -88,7 +88,7 @@ class OutgoingCallingPlanOriginatingPermissionsModify
      * @ElementName specialServicesII
      * @Type \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission
      * @Optional
-     * @Group 8366f5f5d1fbfb9742236aba282c1dab:2064
+     * @Group 80676ea6f2582b1b88573623a6affc0e:2064
      * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission|null
      */
     private $specialServicesII = null;
@@ -97,7 +97,7 @@ class OutgoingCallingPlanOriginatingPermissionsModify
      * @ElementName premiumServicesI
      * @Type \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission
      * @Optional
-     * @Group 8366f5f5d1fbfb9742236aba282c1dab:2064
+     * @Group 80676ea6f2582b1b88573623a6affc0e:2064
      * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission|null
      */
     private $premiumServicesI = null;
@@ -106,7 +106,7 @@ class OutgoingCallingPlanOriginatingPermissionsModify
      * @ElementName premiumServicesII
      * @Type \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission
      * @Optional
-     * @Group 8366f5f5d1fbfb9742236aba282c1dab:2064
+     * @Group 80676ea6f2582b1b88573623a6affc0e:2064
      * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission|null
      */
     private $premiumServicesII = null;
@@ -115,7 +115,7 @@ class OutgoingCallingPlanOriginatingPermissionsModify
      * @ElementName casual
      * @Type \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission
      * @Optional
-     * @Group 8366f5f5d1fbfb9742236aba282c1dab:2064
+     * @Group 80676ea6f2582b1b88573623a6affc0e:2064
      * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission|null
      */
     private $casual = null;
@@ -124,7 +124,7 @@ class OutgoingCallingPlanOriginatingPermissionsModify
      * @ElementName urlDialing
      * @Type \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission
      * @Optional
-     * @Group 8366f5f5d1fbfb9742236aba282c1dab:2064
+     * @Group 80676ea6f2582b1b88573623a6affc0e:2064
      * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission|null
      */
     private $urlDialing = null;
@@ -133,7 +133,7 @@ class OutgoingCallingPlanOriginatingPermissionsModify
      * @ElementName unknown
      * @Type \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission
      * @Optional
-     * @Group 8366f5f5d1fbfb9742236aba282c1dab:2064
+     * @Group 80676ea6f2582b1b88573623a6affc0e:2064
      * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission|null
      */
     private $unknown = null;

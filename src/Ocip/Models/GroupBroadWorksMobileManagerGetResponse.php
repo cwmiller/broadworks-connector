@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the GroupBroadWorksMobileManagerGetRequest
  *
  * @see GroupBroadWorksMobileManagerGetRequest
- * @Groups [{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:1755","type":"sequence"}]
+ * @Groups [{"id":"15129cd25fa2d5581f4edfd652c24f93:1755","type":"sequence"}]
  */
 class GroupBroadWorksMobileManagerGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class GroupBroadWorksMobileManagerGetResponse extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName mobileManagerId
      * @Type string
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:1755
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:1755
      * @var string|null
      */
     private $mobileManagerId = null;
@@ -24,7 +24,7 @@ class GroupBroadWorksMobileManagerGetResponse extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName name
      * @Type string
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:1755
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:1755
      * @var string|null
      */
     private $name = null;
@@ -32,7 +32,7 @@ class GroupBroadWorksMobileManagerGetResponse extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:1755
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:1755
      * @var bool|null
      */
     private $isActive = null;
@@ -40,7 +40,7 @@ class GroupBroadWorksMobileManagerGetResponse extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName localToCarrier
      * @Type bool
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:1755
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:1755
      * @var bool|null
      */
     private $localToCarrier = null;
@@ -49,7 +49,7 @@ class GroupBroadWorksMobileManagerGetResponse extends \CWM\BroadWorksConnector\O
      * @ElementName deactivationReason
      * @Type string
      * @Optional
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:1755
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:1755
      * @var string|null
      */
     private $deactivationReason = null;
@@ -57,7 +57,7 @@ class GroupBroadWorksMobileManagerGetResponse extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName maxTxPerSecondEnabled
      * @Type bool
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:1755
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:1755
      * @var bool|null
      */
     private $maxTxPerSecondEnabled = null;
@@ -66,7 +66,7 @@ class GroupBroadWorksMobileManagerGetResponse extends \CWM\BroadWorksConnector\O
      * @ElementName maxTxPerSecond
      * @Type int
      * @Optional
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:1755
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:1755
      * @var int|null
      */
     private $maxTxPerSecond = null;
@@ -74,7 +74,7 @@ class GroupBroadWorksMobileManagerGetResponse extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName tldnEnabled
      * @Type bool
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:1755
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:1755
      * @var bool|null
      */
     private $tldnEnabled = null;
@@ -82,7 +82,7 @@ class GroupBroadWorksMobileManagerGetResponse extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName genericNumberEnabled
      * @Type bool
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:1755
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:1755
      * @var bool|null
      */
     private $genericNumberEnabled = null;
@@ -90,7 +90,7 @@ class GroupBroadWorksMobileManagerGetResponse extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName mobileStateCheckEnabled
      * @Type bool
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:1755
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:1755
      * @var bool|null
      */
     private $mobileStateCheckEnabled = null;
@@ -98,7 +98,7 @@ class GroupBroadWorksMobileManagerGetResponse extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName locationBasedServicesEnabled
      * @Type bool
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:1755
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:1755
      * @var bool|null
      */
     private $locationBasedServicesEnabled = null;

@@ -5,7 +5,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemVoiceMessagingGroupGetVoicePortalMenusResponse18SendToAllGroupMembersMenuKeys
  *
- * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:29912","type":"sequence"}]
+ * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:29912","type":"sequence"}]
  */
 class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18SendToAllGroupMembersMenuKeys
 {
@@ -13,7 +13,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18SendToAllGroupMember
     /**
      * @ElementName confirmSendingToEntireGroup
      * @Type string
-     * @Group 1a79c7896cb04feac6eff47a5321756e:29912
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:29912
      * @var string|null
      */
     private $confirmSendingToEntireGroup = null;
@@ -21,7 +21,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18SendToAllGroupMember
     /**
      * @ElementName cancelSendingToEntireGroup
      * @Type string
-     * @Group 1a79c7896cb04feac6eff47a5321756e:29912
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:29912
      * @var string|null
      */
     private $cancelSendingToEntireGroup = null;

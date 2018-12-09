@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see UserExecutiveGetFilteringSelectiveCriteriaResponse
  * @see ErrorResponse
  * @see UserExecutiveGetFilteringSelectiveCriteriaRequest21
- * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:34784","type":"sequence"}]
+ * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:34784","type":"sequence"}]
  */
 class UserExecutiveGetFilteringSelectiveCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,7 +21,7 @@ class UserExecutiveGetFilteringSelectiveCriteriaRequest extends \CWM\BroadWorksC
     /**
      * @ElementName userId
      * @Type string
-     * @Group 1a79c7896cb04feac6eff47a5321756e:34784
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:34784
      * @var string|null
      */
     private $userId = null;
@@ -29,7 +29,7 @@ class UserExecutiveGetFilteringSelectiveCriteriaRequest extends \CWM\BroadWorksC
     /**
      * @ElementName criteriaName
      * @Type string
-     * @Group 1a79c7896cb04feac6eff47a5321756e:34784
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:34784
      * @var string|null
      */
     private $criteriaName = null;

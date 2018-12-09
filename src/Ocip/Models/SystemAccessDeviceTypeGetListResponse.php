@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemAccessDeviceTypeGetListRequest.
  *
  * @see SystemAccessDeviceTypeGetListRequest
- * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:1352","type":"sequence"}]
+ * @Groups [{"id":"b5f5416d9e71f8e4246cda16c4723744:1352","type":"sequence"}]
  */
 class SystemAccessDeviceTypeGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class SystemAccessDeviceTypeGetListResponse extends \CWM\BroadWorksConnector\Oci
      * @ElementName deviceType
      * @Type string
      * @Array
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:1352
+     * @Group b5f5416d9e71f8e4246cda16c4723744:1352
      * @var string[]
      */
     private $deviceType = array(

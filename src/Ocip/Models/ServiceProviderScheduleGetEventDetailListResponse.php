@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         If the scheduleKey doesn't refer to an existing schedule on the AS, then the response will be empty.
  *
  * @see ServiceProviderScheduleGetEventDetailListRequest
- * @Groups [{"id":"8f3ed38751e86ebcc639b5bc5cdef0ec:4719","type":"sequence"}]
+ * @Groups [{"id":"8eb862aea0ee5d4211db0a0d3fe7c164:4719","type":"sequence"}]
  */
 class ServiceProviderScheduleGetEventDetailListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -20,7 +20,7 @@ class ServiceProviderScheduleGetEventDetailListResponse extends \CWM\BroadWorksC
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ScheduleEvents
      * @Array
      * @Optional
-     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:4719
+     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:4719
      * @var \CWM\BroadWorksConnector\Ocip\Models\ScheduleEvents[]
      */
     private $scheduleEventsList = array(

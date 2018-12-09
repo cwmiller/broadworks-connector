@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SuccessResponse
  * @see ErrorResponse
  * @see GroupCommunicationBarringAuthorizationCodeAddListRequest21sp1
- * @Groups [{"id":"499b56264fbe226bfef3c338c8d4750d:960","type":"sequence"}]
+ * @Groups [{"id":"bb12a3589ab4748963f28f7ac9310f70:960","type":"sequence"}]
  */
 class GroupCommunicationBarringAuthorizationCodeAddListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,7 +21,7 @@ class GroupCommunicationBarringAuthorizationCodeAddListRequest extends \CWM\Broa
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 499b56264fbe226bfef3c338c8d4750d:960
+     * @Group bb12a3589ab4748963f28f7ac9310f70:960
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -29,7 +29,7 @@ class GroupCommunicationBarringAuthorizationCodeAddListRequest extends \CWM\Broa
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 499b56264fbe226bfef3c338c8d4750d:960
+     * @Group bb12a3589ab4748963f28f7ac9310f70:960
      * @var string|null
      */
     private $groupId = null;
@@ -38,7 +38,7 @@ class GroupCommunicationBarringAuthorizationCodeAddListRequest extends \CWM\Broa
      * @ElementName code
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringAuthorizationCodeEntry
      * @Array
-     * @Group 499b56264fbe226bfef3c338c8d4750d:960
+     * @Group bb12a3589ab4748963f28f7ac9310f70:960
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringAuthorizationCodeEntry[]
      */
     private $code = array(

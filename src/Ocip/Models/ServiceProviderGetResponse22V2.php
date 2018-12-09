@@ -19,7 +19,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           resellerId
  *
  * @see ServiceProviderGetRequest22V2
- * @Groups [{"id":"8f3ed38751e86ebcc639b5bc5cdef0ec:3597","type":"sequence","children":[{"id":"8f3ed38751e86ebcc639b5bc5cdef0ec:3598","type":"choice"}]}]
+ * @Groups [{"id":"8eb862aea0ee5d4211db0a0d3fe7c164:3597","type":"sequence","children":[{"id":"8eb862aea0ee5d4211db0a0d3fe7c164:3598","type":"choice"}]}]
  */
 class ServiceProviderGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -27,7 +27,7 @@ class ServiceProviderGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName isEnterprise
      * @Type bool
-     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:3598
+     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:3598
      * @var bool|null
      */
     private $isEnterprise = null;
@@ -35,7 +35,7 @@ class ServiceProviderGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName useCustomRoutingProfile
      * @Type bool
-     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:3598
+     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:3598
      * @var bool|null
      */
     private $useCustomRoutingProfile = null;
@@ -43,7 +43,7 @@ class ServiceProviderGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName defaultDomain
      * @Type string
-     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:3597
+     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:3597
      * @var string|null
      */
     private $defaultDomain = null;
@@ -52,7 +52,7 @@ class ServiceProviderGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName serviceProviderName
      * @Type string
      * @Optional
-     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:3597
+     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:3597
      * @var string|null
      */
     private $serviceProviderName = null;
@@ -61,7 +61,7 @@ class ServiceProviderGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName supportEmail
      * @Type string
      * @Optional
-     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:3597
+     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:3597
      * @var string|null
      */
     private $supportEmail = null;
@@ -70,7 +70,7 @@ class ServiceProviderGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName contact
      * @Type \CWM\BroadWorksConnector\Ocip\Models\Contact
      * @Optional
-     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:3597
+     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:3597
      * @var \CWM\BroadWorksConnector\Ocip\Models\Contact|null
      */
     private $contact = null;
@@ -79,7 +79,7 @@ class ServiceProviderGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName address
      * @Type \CWM\BroadWorksConnector\Ocip\Models\StreetAddress
      * @Optional
-     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:3597
+     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:3597
      * @var \CWM\BroadWorksConnector\Ocip\Models\StreetAddress|null
      */
     private $address = null;
@@ -87,7 +87,7 @@ class ServiceProviderGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName useServiceProviderLanguages
      * @Type bool
-     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:3597
+     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:3597
      * @var bool|null
      */
     private $useServiceProviderLanguages = null;
@@ -96,7 +96,7 @@ class ServiceProviderGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName servicePolicy
      * @Type string
      * @Optional
-     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:3597
+     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:3597
      * @var string|null
      */
     private $servicePolicy = null;
@@ -105,7 +105,7 @@ class ServiceProviderGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName callProcessingSliceId
      * @Type string
      * @Optional
-     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:3597
+     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:3597
      * @var string|null
      */
     private $callProcessingSliceId = null;
@@ -114,7 +114,7 @@ class ServiceProviderGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName provisioningSliceId
      * @Type string
      * @Optional
-     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:3597
+     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:3597
      * @var string|null
      */
     private $provisioningSliceId = null;
@@ -123,7 +123,7 @@ class ServiceProviderGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName subscriberPartition
      * @Type string
      * @Optional
-     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:3597
+     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:3597
      * @var string|null
      */
     private $subscriberPartition = null;
@@ -132,7 +132,7 @@ class ServiceProviderGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName preferredDataCenter
      * @Type string
      * @Optional
-     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:3597
+     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:3597
      * @var string|null
      */
     private $preferredDataCenter = null;
@@ -141,7 +141,7 @@ class ServiceProviderGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName resellerId
      * @Type string
      * @Optional
-     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:3597
+     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:3597
      * @var string|null
      */
     private $resellerId = null;

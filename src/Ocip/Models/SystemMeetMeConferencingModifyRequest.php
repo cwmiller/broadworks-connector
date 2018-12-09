@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"e51a0a16349851c3fad768a24a35838d:423","type":"sequence"}]
+ * @Groups [{"id":"7a29c84abb8473449085e6657fc6948d:423","type":"sequence"}]
  */
 class SystemMeetMeConferencingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class SystemMeetMeConferencingModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName conferenceIdLength
      * @Type int
      * @Optional
-     * @Group e51a0a16349851c3fad768a24a35838d:423
+     * @Group 7a29c84abb8473449085e6657fc6948d:423
      * @var int|null
      */
     private $conferenceIdLength = null;
@@ -28,7 +28,7 @@ class SystemMeetMeConferencingModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName moderatorPinLength
      * @Type int
      * @Optional
-     * @Group e51a0a16349851c3fad768a24a35838d:423
+     * @Group 7a29c84abb8473449085e6657fc6948d:423
      * @var int|null
      */
     private $moderatorPinLength = null;
@@ -37,7 +37,7 @@ class SystemMeetMeConferencingModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName enableConferenceEndDateRestriction
      * @Type bool
      * @Optional
-     * @Group e51a0a16349851c3fad768a24a35838d:423
+     * @Group 7a29c84abb8473449085e6657fc6948d:423
      * @var bool|null
      */
     private $enableConferenceEndDateRestriction = null;
@@ -46,7 +46,7 @@ class SystemMeetMeConferencingModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName conferenceEndDateRestrictionMonths
      * @Type int
      * @Optional
-     * @Group e51a0a16349851c3fad768a24a35838d:423
+     * @Group 7a29c84abb8473449085e6657fc6948d:423
      * @var int|null
      */
     private $conferenceEndDateRestrictionMonths = null;
@@ -55,7 +55,7 @@ class SystemMeetMeConferencingModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName deleteExpiredConferencesAfterHoldPeriod
      * @Type bool
      * @Optional
-     * @Group e51a0a16349851c3fad768a24a35838d:423
+     * @Group 7a29c84abb8473449085e6657fc6948d:423
      * @var bool|null
      */
     private $deleteExpiredConferencesAfterHoldPeriod = null;
@@ -64,7 +64,7 @@ class SystemMeetMeConferencingModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName expiredConferenceHoldPeriodDays
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingExpiredConferenceHoldPeriodDays
      * @Optional
-     * @Group e51a0a16349851c3fad768a24a35838d:423
+     * @Group 7a29c84abb8473449085e6657fc6948d:423
      * @var \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingExpiredConferenceHoldPeriodDays|null
      */
     private $expiredConferenceHoldPeriodDays = null;
@@ -74,7 +74,7 @@ class SystemMeetMeConferencingModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @Type string
      * @Nillable
      * @Optional
-     * @Group e51a0a16349851c3fad768a24a35838d:423
+     * @Group 7a29c84abb8473449085e6657fc6948d:423
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $recordingWebAppURL = null;
@@ -83,7 +83,7 @@ class SystemMeetMeConferencingModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName recordingFileFormat
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingRecordingFileFormat
      * @Optional
-     * @Group e51a0a16349851c3fad768a24a35838d:423
+     * @Group 7a29c84abb8473449085e6657fc6948d:423
      * @var \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingRecordingFileFormat|null
      */
     private $recordingFileFormat = null;
@@ -92,7 +92,7 @@ class SystemMeetMeConferencingModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName terminateAfterGracePeriod
      * @Type bool
      * @Optional
-     * @Group e51a0a16349851c3fad768a24a35838d:423
+     * @Group 7a29c84abb8473449085e6657fc6948d:423
      * @var bool|null
      */
     private $terminateAfterGracePeriod = null;
@@ -101,7 +101,7 @@ class SystemMeetMeConferencingModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName conferenceGracePeriodMinutes
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceDuration
      * @Optional
-     * @Group e51a0a16349851c3fad768a24a35838d:423
+     * @Group 7a29c84abb8473449085e6657fc6948d:423
      * @var \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceDuration|null
      */
     private $conferenceGracePeriodMinutes = null;
@@ -110,7 +110,7 @@ class SystemMeetMeConferencingModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName conferenceParticipantEarlyEntryMinutes
      * @Type int
      * @Optional
-     * @Group e51a0a16349851c3fad768a24a35838d:423
+     * @Group 7a29c84abb8473449085e6657fc6948d:423
      * @var int|null
      */
     private $conferenceParticipantEarlyEntryMinutes = null;
@@ -119,7 +119,7 @@ class SystemMeetMeConferencingModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName enableConferenceExpiryNotification
      * @Type bool
      * @Optional
-     * @Group e51a0a16349851c3fad768a24a35838d:423
+     * @Group 7a29c84abb8473449085e6657fc6948d:423
      * @var bool|null
      */
     private $enableConferenceExpiryNotification = null;
@@ -128,7 +128,7 @@ class SystemMeetMeConferencingModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName enableActiveConferenceNotification
      * @Type bool
      * @Optional
-     * @Group e51a0a16349851c3fad768a24a35838d:423
+     * @Group 7a29c84abb8473449085e6657fc6948d:423
      * @var bool|null
      */
     private $enableActiveConferenceNotification = null;
@@ -137,7 +137,7 @@ class SystemMeetMeConferencingModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName conferenceFromAddress
      * @Type string
      * @Optional
-     * @Group e51a0a16349851c3fad768a24a35838d:423
+     * @Group 7a29c84abb8473449085e6657fc6948d:423
      * @var string|null
      */
     private $conferenceFromAddress = null;
@@ -146,7 +146,7 @@ class SystemMeetMeConferencingModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName conferenceActiveTalkerRefreshIntervalSeconds
      * @Type int
      * @Optional
-     * @Group e51a0a16349851c3fad768a24a35838d:423
+     * @Group 7a29c84abb8473449085e6657fc6948d:423
      * @var int|null
      */
     private $conferenceActiveTalkerRefreshIntervalSeconds = null;

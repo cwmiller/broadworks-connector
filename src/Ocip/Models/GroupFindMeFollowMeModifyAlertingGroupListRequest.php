@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"d0d5b8a5908815c6ae522efe732e363a:428","type":"sequence"}]
+ * @Groups [{"id":"c81ec650475acb5cc7b075c4582c12ba:428","type":"sequence"}]
  */
 class GroupFindMeFollowMeModifyAlertingGroupListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class GroupFindMeFollowMeModifyAlertingGroupListRequest extends \CWM\BroadWorksC
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group d0d5b8a5908815c6ae522efe732e363a:428
+     * @Group c81ec650475acb5cc7b075c4582c12ba:428
      * @var string|null
      */
     private $serviceUserId = null;
@@ -29,7 +29,7 @@ class GroupFindMeFollowMeModifyAlertingGroupListRequest extends \CWM\BroadWorksC
      * @Type string
      * @Array
      * @Optional
-     * @Group d0d5b8a5908815c6ae522efe732e363a:428
+     * @Group c81ec650475acb5cc7b075c4582c12ba:428
      * @var string[]
      */
     private $alertingGroupName = array(

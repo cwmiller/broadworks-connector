@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemLegacyAutomaticCallbackGetLineTypeListResponse
  * @see ErrorResponse
- * @Groups [{"id":"a7cf2420de189d76c278c486b4b2b0c3:49","type":"sequence"}]
+ * @Groups [{"id":"b13911393ae4d700b4d51c80e9950cad:49","type":"sequence"}]
  */
 class SystemLegacyAutomaticCallbackGetLineTypeListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

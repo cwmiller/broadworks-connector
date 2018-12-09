@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see ServiceProviderServicePackMigrationTaskGetAvailableGroupListResponse
  * @see ErrorResponse
- * @Groups [{"id":"8f3ed38751e86ebcc639b5bc5cdef0ec:5283","type":"sequence"}]
+ * @Groups [{"id":"8eb862aea0ee5d4211db0a0d3fe7c164:5283","type":"sequence"}]
  */
 class ServiceProviderServicePackMigrationTaskGetAvailableGroupListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class ServiceProviderServicePackMigrationTaskGetAvailableGroupListRequest extend
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:5283
+     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:5283
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -28,7 +28,7 @@ class ServiceProviderServicePackMigrationTaskGetAvailableGroupListRequest extend
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:5283
+     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:5283
      * @var int|null
      */
     private $responseSizeLimit = null;
@@ -38,7 +38,7 @@ class ServiceProviderServicePackMigrationTaskGetAvailableGroupListRequest extend
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId
      * @Array
      * @Optional
-     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:5283
+     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:5283
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId[]
      */
     private $searchCriteriaGroupId = array(
@@ -50,7 +50,7 @@ class ServiceProviderServicePackMigrationTaskGetAvailableGroupListRequest extend
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupName
      * @Array
      * @Optional
-     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:5283
+     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:5283
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupName[]
      */
     private $searchCriteriaGroupName = array(

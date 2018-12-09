@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to GroupDeviceManagementGetAccessDeviceCountForDeviceTypeGroupRequest.
  *
  * @see GroupDeviceManagementGetAccessDeviceCountForDeviceTypeGroupRequest
- * @Groups [{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:3250","type":"sequence"}]
+ * @Groups [{"id":"15129cd25fa2d5581f4edfd652c24f93:3250","type":"sequence"}]
  */
 class GroupDeviceManagementGetAccessDeviceCountForDeviceTypeGroupResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class GroupDeviceManagementGetAccessDeviceCountForDeviceTypeGroupResponse extend
     /**
      * @ElementName accessDeviceCount
      * @Type int
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:3250
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:3250
      * @var int|null
      */
     private $accessDeviceCount = null;

@@ -16,7 +16,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserCallRecordingGetResponse20
  * @see ErrorResponse
- * @Groups [{"id":"604d9297550842860022313f3cf2dc8f:290","type":"sequence"}]
+ * @Groups [{"id":"f913e539ecbb63cf455f6c316963b896:290","type":"sequence"}]
  */
 class UserCallRecordingGetRequest20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -24,7 +24,7 @@ class UserCallRecordingGetRequest20 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName userId
      * @Type string
-     * @Group 604d9297550842860022313f3cf2dc8f:290
+     * @Group f913e539ecbb63cf455f6c316963b896:290
      * @var string|null
      */
     private $userId = null;

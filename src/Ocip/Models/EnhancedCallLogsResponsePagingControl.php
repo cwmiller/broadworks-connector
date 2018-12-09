@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         starting row and the number of rows requested. 
  *         The server only provides those rows in results, if available.
  *
- * @Groups [{"id":"18b369af88e42ffdb4166615c670ce2c:1857","type":"sequence"}]
+ * @Groups [{"id":"8e629edbac315ae7889caca732382c44:1857","type":"sequence"}]
  */
 class EnhancedCallLogsResponsePagingControl
 {
@@ -18,7 +18,7 @@ class EnhancedCallLogsResponsePagingControl
     /**
      * @ElementName responseStartIndex
      * @Type int
-     * @Group 18b369af88e42ffdb4166615c670ce2c:1857
+     * @Group 8e629edbac315ae7889caca732382c44:1857
      * @var int|null
      */
     private $responseStartIndex = null;
@@ -26,7 +26,7 @@ class EnhancedCallLogsResponsePagingControl
     /**
      * @ElementName responsePageSize
      * @Type int
-     * @Group 18b369af88e42ffdb4166615c670ce2c:1857
+     * @Group 8e629edbac315ae7889caca732382c44:1857
      * @var int|null
      */
     private $responsePageSize = null;

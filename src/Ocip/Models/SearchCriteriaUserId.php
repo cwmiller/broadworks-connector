@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Criteria for searching for a user's userId.
  *
- * @Groups [{"id":"d37849f5e289836ccd316323a7a3799a:2008","type":"sequence"}]
+ * @Groups [{"id":"e446bfcbd1f39cbef57d1547014f2bb9:2008","type":"sequence"}]
  */
 class SearchCriteriaUserId extends SearchCriteria
 {
@@ -15,7 +15,7 @@ class SearchCriteriaUserId extends SearchCriteria
     /**
      * @ElementName mode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchMode
-     * @Group d37849f5e289836ccd316323a7a3799a:2008
+     * @Group e446bfcbd1f39cbef57d1547014f2bb9:2008
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchMode|null
      */
     private $mode = null;
@@ -23,7 +23,7 @@ class SearchCriteriaUserId extends SearchCriteria
     /**
      * @ElementName value
      * @Type string
-     * @Group d37849f5e289836ccd316323a7a3799a:2008
+     * @Group e446bfcbd1f39cbef57d1547014f2bb9:2008
      * @var string|null
      */
     private $value = null;
@@ -31,7 +31,7 @@ class SearchCriteriaUserId extends SearchCriteria
     /**
      * @ElementName isCaseInsensitive
      * @Type bool
-     * @Group d37849f5e289836ccd316323a7a3799a:2008
+     * @Group e446bfcbd1f39cbef57d1547014f2bb9:2008
      * @var bool|null
      */
     private $isCaseInsensitive = null;

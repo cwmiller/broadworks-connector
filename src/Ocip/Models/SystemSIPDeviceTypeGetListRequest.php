@@ -17,7 +17,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SystemDeviceTypeGetAvailableListRequest19
  * @see SystemSIPDeviceTypeGetListResponse
  * @see ErrorResponse
- * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:15102","type":"sequence"}]
+ * @Groups [{"id":"b5f5416d9e71f8e4246cda16c4723744:15102","type":"sequence"}]
  */
 class SystemSIPDeviceTypeGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -26,7 +26,7 @@ class SystemSIPDeviceTypeGetListRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:15102
+     * @Group b5f5416d9e71f8e4246cda16c4723744:15102
      * @var int|null
      */
     private $responseSizeLimit = null;
@@ -36,7 +36,7 @@ class SystemSIPDeviceTypeGetListRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceType
      * @Array
      * @Optional
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:15102
+     * @Group b5f5416d9e71f8e4246cda16c4723744:15102
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceType[]
      */
     private $searchCriteriaDeviceType = array(
@@ -47,7 +47,7 @@ class SystemSIPDeviceTypeGetListRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName searchCriteriaExactSignalingAddressType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactSignalingAddressType
      * @Optional
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:15102
+     * @Group b5f5416d9e71f8e4246cda16c4723744:15102
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactSignalingAddressType|null
      */
     private $searchCriteriaExactSignalingAddressType = null;
@@ -57,7 +57,7 @@ class SystemSIPDeviceTypeGetListRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaResellerId
      * @Array
      * @Optional
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:15102
+     * @Group b5f5416d9e71f8e4246cda16c4723744:15102
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaResellerId[]
      */
     private $searchCriteriaResellerId = array(
@@ -68,7 +68,7 @@ class SystemSIPDeviceTypeGetListRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName includeSystemLevel
      * @Type bool
      * @Optional
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:15102
+     * @Group b5f5416d9e71f8e4246cda16c4723744:15102
      * @var bool|null
      */
     private $includeSystemLevel = null;

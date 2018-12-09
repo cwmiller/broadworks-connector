@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserHotelingHostGetRequest14
  * @see UserHotelingHostGetResponse14sp4
- * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:36077","type":"sequence"}]
+ * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:36077","type":"sequence"}]
  */
 class UserHotelingHostGetResponse14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class UserHotelingHostGetResponse14 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group 1a79c7896cb04feac6eff47a5321756e:36077
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:36077
      * @var bool|null
      */
     private $isActive = null;
@@ -26,7 +26,7 @@ class UserHotelingHostGetResponse14 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName associationLimitHours
      * @Type int
-     * @Group 1a79c7896cb04feac6eff47a5321756e:36077
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:36077
      * @var int|null
      */
     private $associationLimitHours = null;
@@ -34,7 +34,7 @@ class UserHotelingHostGetResponse14 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName accessLevel
      * @Type \CWM\BroadWorksConnector\Ocip\Models\HotelingHostAccessLevel
-     * @Group 1a79c7896cb04feac6eff47a5321756e:36077
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:36077
      * @var \CWM\BroadWorksConnector\Ocip\Models\HotelingHostAccessLevel|null
      */
     private $accessLevel = null;
@@ -43,7 +43,7 @@ class UserHotelingHostGetResponse14 extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName guestLastName
      * @Type string
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:36077
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:36077
      * @var string|null
      */
     private $guestLastName = null;
@@ -52,7 +52,7 @@ class UserHotelingHostGetResponse14 extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName guestFirstName
      * @Type string
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:36077
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:36077
      * @var string|null
      */
     private $guestFirstName = null;
@@ -61,7 +61,7 @@ class UserHotelingHostGetResponse14 extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName guestPhoneNumber
      * @Type string
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:36077
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:36077
      * @var string|null
      */
     private $guestPhoneNumber = null;
@@ -70,7 +70,7 @@ class UserHotelingHostGetResponse14 extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName guestExtension
      * @Type string
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:36077
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:36077
      * @var string|null
      */
     private $guestExtension = null;
@@ -79,7 +79,7 @@ class UserHotelingHostGetResponse14 extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName guestLocationDialingCode
      * @Type string
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:36077
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:36077
      * @var string|null
      */
     private $guestLocationDialingCode = null;
@@ -88,7 +88,7 @@ class UserHotelingHostGetResponse14 extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName guestAssociationDateTime
      * @Type string
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:36077
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:36077
      * @var string|null
      */
     private $guestAssociationDateTime = null;

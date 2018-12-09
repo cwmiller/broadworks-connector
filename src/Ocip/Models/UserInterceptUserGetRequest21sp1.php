@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserInterceptUserGetResponse21sp1
  * @see ErrorResponse
- * @Groups [{"id":"bf05ea6ea4a301f45f76ff5756023e2d:268","type":"sequence"}]
+ * @Groups [{"id":"3783f30df600d0ca3ee6dab86707b98b:268","type":"sequence"}]
  */
 class UserInterceptUserGetRequest21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserInterceptUserGetRequest21sp1 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName userId
      * @Type string
-     * @Group bf05ea6ea4a301f45f76ff5756023e2d:268
+     * @Group 3783f30df600d0ca3ee6dab86707b98b:268
      * @var string|null
      */
     private $userId = null;

@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupVirtualOnNetEnterpriseExtensionsGetUserResponse
  * @see ErrorResponse
- * @Groups [{"id":"73530229e066070baac4c09dac256d69:183","type":"sequence"}]
+ * @Groups [{"id":"f72eed3624b2f8f1013e6751cb17c899:183","type":"sequence"}]
  */
 class GroupVirtualOnNetEnterpriseExtensionsGetUserRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class GroupVirtualOnNetEnterpriseExtensionsGetUserRequest extends \CWM\BroadWork
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 73530229e066070baac4c09dac256d69:183
+     * @Group f72eed3624b2f8f1013e6751cb17c899:183
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -28,7 +28,7 @@ class GroupVirtualOnNetEnterpriseExtensionsGetUserRequest extends \CWM\BroadWork
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 73530229e066070baac4c09dac256d69:183
+     * @Group f72eed3624b2f8f1013e6751cb17c899:183
      * @var string|null
      */
     private $groupId = null;
@@ -36,7 +36,7 @@ class GroupVirtualOnNetEnterpriseExtensionsGetUserRequest extends \CWM\BroadWork
     /**
      * @ElementName phoneNumber
      * @Type string
-     * @Group 73530229e066070baac4c09dac256d69:183
+     * @Group f72eed3624b2f8f1013e6751cb17c899:183
      * @var string|null
      */
     private $phoneNumber = null;

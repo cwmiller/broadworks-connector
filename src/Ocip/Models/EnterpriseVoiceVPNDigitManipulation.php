@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Enterprise Voice VPN Digit Manipulation Entry.
  *
- * @Groups [{"id":"b561eca19800e0898f471e5e91eb3baa:1578","type":"sequence"}]
+ * @Groups [{"id":"889c8c305076ef39cc50c70d0c2dc820:1578","type":"sequence"}]
  */
 abstract class EnterpriseVoiceVPNDigitManipulation
 {

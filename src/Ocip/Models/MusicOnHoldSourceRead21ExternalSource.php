@@ -5,7 +5,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * MusicOnHoldSourceRead21ExternalSource
  *
- * @Groups [{"id":"18b369af88e42ffdb4166615c670ce2c:2431","type":"sequence"}]
+ * @Groups [{"id":"8e629edbac315ae7889caca732382c44:2431","type":"sequence"}]
  */
 class MusicOnHoldSourceRead21ExternalSource
 {
@@ -13,7 +13,7 @@ class MusicOnHoldSourceRead21ExternalSource
     /**
      * @ElementName accessDeviceEndpoint
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointWithPortNumberRead
-     * @Group 18b369af88e42ffdb4166615c670ce2c:2431
+     * @Group 8e629edbac315ae7889caca732382c44:2431
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointWithPortNumberRead|null
      */
     private $accessDeviceEndpoint = null;

@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see AuthenticationVerifyRequest14sp8
  * @see AuthenticationVerifyResponse22
- * @Groups [{"id":"e9727a9f98db3fe2db7ad08079031b73:268","type":"sequence"}]
+ * @Groups [{"id":"bd46fc427b2b0dc182dcd53cf03e95b4:268","type":"sequence"}]
  */
 class AuthenticationVerifyResponse14sp8 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -20,7 +20,7 @@ class AuthenticationVerifyResponse14sp8 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName loginType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LoginType
-     * @Group e9727a9f98db3fe2db7ad08079031b73:268
+     * @Group bd46fc427b2b0dc182dcd53cf03e95b4:268
      * @var \CWM\BroadWorksConnector\Ocip\Models\LoginType|null
      */
     private $loginType = null;
@@ -28,7 +28,7 @@ class AuthenticationVerifyResponse14sp8 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName locale
      * @Type string
-     * @Group e9727a9f98db3fe2db7ad08079031b73:268
+     * @Group bd46fc427b2b0dc182dcd53cf03e95b4:268
      * @var string|null
      */
     private $locale = null;
@@ -36,7 +36,7 @@ class AuthenticationVerifyResponse14sp8 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName encoding
      * @Type string
-     * @Group e9727a9f98db3fe2db7ad08079031b73:268
+     * @Group bd46fc427b2b0dc182dcd53cf03e95b4:268
      * @var string|null
      */
     private $encoding = null;
@@ -45,7 +45,7 @@ class AuthenticationVerifyResponse14sp8 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName groupId
      * @Type string
      * @Optional
-     * @Group e9727a9f98db3fe2db7ad08079031b73:268
+     * @Group bd46fc427b2b0dc182dcd53cf03e95b4:268
      * @var string|null
      */
     private $groupId = null;
@@ -54,7 +54,7 @@ class AuthenticationVerifyResponse14sp8 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName serviceProviderId
      * @Type string
      * @Optional
-     * @Group e9727a9f98db3fe2db7ad08079031b73:268
+     * @Group bd46fc427b2b0dc182dcd53cf03e95b4:268
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -62,7 +62,7 @@ class AuthenticationVerifyResponse14sp8 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName isEnterprise
      * @Type bool
-     * @Group e9727a9f98db3fe2db7ad08079031b73:268
+     * @Group bd46fc427b2b0dc182dcd53cf03e95b4:268
      * @var bool|null
      */
     private $isEnterprise = null;
@@ -71,7 +71,7 @@ class AuthenticationVerifyResponse14sp8 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName passwordExpiresDays
      * @Type int
      * @Optional
-     * @Group e9727a9f98db3fe2db7ad08079031b73:268
+     * @Group bd46fc427b2b0dc182dcd53cf03e95b4:268
      * @var int|null
      */
     private $passwordExpiresDays = null;
@@ -80,7 +80,7 @@ class AuthenticationVerifyResponse14sp8 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName lastName
      * @Type string
      * @Optional
-     * @Group e9727a9f98db3fe2db7ad08079031b73:268
+     * @Group bd46fc427b2b0dc182dcd53cf03e95b4:268
      * @var string|null
      */
     private $lastName = null;
@@ -89,7 +89,7 @@ class AuthenticationVerifyResponse14sp8 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName firstName
      * @Type string
      * @Optional
-     * @Group e9727a9f98db3fe2db7ad08079031b73:268
+     * @Group bd46fc427b2b0dc182dcd53cf03e95b4:268
      * @var string|null
      */
     private $firstName = null;
@@ -97,7 +97,7 @@ class AuthenticationVerifyResponse14sp8 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName userId
      * @Type string
-     * @Group e9727a9f98db3fe2db7ad08079031b73:268
+     * @Group bd46fc427b2b0dc182dcd53cf03e95b4:268
      * @var string|null
      */
     private $userId = null;
@@ -106,7 +106,7 @@ class AuthenticationVerifyResponse14sp8 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName phoneNumber
      * @Type string
      * @Optional
-     * @Group e9727a9f98db3fe2db7ad08079031b73:268
+     * @Group bd46fc427b2b0dc182dcd53cf03e95b4:268
      * @var string|null
      */
     private $phoneNumber = null;

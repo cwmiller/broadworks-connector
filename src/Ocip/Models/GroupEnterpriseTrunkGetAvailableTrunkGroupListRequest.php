@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupEnterpriseTrunkGetAvailableTrunkGroupListResponse
  * @see ErrorResponse
- * @Groups [{"id":"5472d4b45ad0ad56e4f82361e2a66a53:586","type":"sequence"}]
+ * @Groups [{"id":"762df656d5a3c5800001b37599b1e4ce:586","type":"sequence"}]
  */
 class GroupEnterpriseTrunkGetAvailableTrunkGroupListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class GroupEnterpriseTrunkGetAvailableTrunkGroupListRequest extends \CWM\BroadWo
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 5472d4b45ad0ad56e4f82361e2a66a53:586
+     * @Group 762df656d5a3c5800001b37599b1e4ce:586
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -28,7 +28,7 @@ class GroupEnterpriseTrunkGetAvailableTrunkGroupListRequest extends \CWM\BroadWo
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 5472d4b45ad0ad56e4f82361e2a66a53:586
+     * @Group 762df656d5a3c5800001b37599b1e4ce:586
      * @var string|null
      */
     private $groupId = null;
@@ -37,7 +37,7 @@ class GroupEnterpriseTrunkGetAvailableTrunkGroupListRequest extends \CWM\BroadWo
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group 5472d4b45ad0ad56e4f82361e2a66a53:586
+     * @Group 762df656d5a3c5800001b37599b1e4ce:586
      * @var int|null
      */
     private $responseSizeLimit = null;
@@ -47,7 +47,7 @@ class GroupEnterpriseTrunkGetAvailableTrunkGroupListRequest extends \CWM\BroadWo
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaTrunkGroupName
      * @Array
      * @Optional
-     * @Group 5472d4b45ad0ad56e4f82361e2a66a53:586
+     * @Group 762df656d5a3c5800001b37599b1e4ce:586
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaTrunkGroupName[]
      */
     private $searchCriteriaTrunkGroupName = array(

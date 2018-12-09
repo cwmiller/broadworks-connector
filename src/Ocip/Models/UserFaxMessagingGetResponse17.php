@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to UserFaxMessagingGetRequest17.
  *
  * @see UserFaxMessagingGetRequest17
- * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:34868","type":"sequence"}]
+ * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:34868","type":"sequence"}]
  */
 class UserFaxMessagingGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class UserFaxMessagingGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group 1a79c7896cb04feac6eff47a5321756e:34868
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:34868
      * @var bool|null
      */
     private $isActive = null;
@@ -25,7 +25,7 @@ class UserFaxMessagingGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName phoneNumber
      * @Type string
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:34868
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:34868
      * @var string|null
      */
     private $phoneNumber = null;
@@ -34,7 +34,7 @@ class UserFaxMessagingGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName extension
      * @Type string
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:34868
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:34868
      * @var string|null
      */
     private $extension = null;

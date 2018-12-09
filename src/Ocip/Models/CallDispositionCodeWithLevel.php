@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Contains a Call Center Call Disposition Code and its Level
  *
- * @Groups [{"id":"69c2aeb1186dc97a4f4c36d9609ddb49:6973","type":"sequence"}]
+ * @Groups [{"id":"3ac5f05d969bc771d6ba8d344d95aa72:6973","type":"sequence"}]
  */
 class CallDispositionCodeWithLevel
 {
@@ -15,7 +15,7 @@ class CallDispositionCodeWithLevel
     /**
      * @ElementName code
      * @Type string
-     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:6973
+     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:6973
      * @var string|null
      */
     private $code = null;
@@ -23,7 +23,7 @@ class CallDispositionCodeWithLevel
     /**
      * @ElementName level
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallDispositionCodeLevel
-     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:6973
+     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:6973
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallDispositionCodeLevel|null
      */
     private $level = null;

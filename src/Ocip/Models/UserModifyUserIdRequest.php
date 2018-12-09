@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"489b2153267470be8e945bf6b778e0d0:2079","type":"sequence"}]
+ * @Groups [{"id":"ee3830ce42f01a3ef2a105d473fc3b17:2079","type":"sequence"}]
  */
 class UserModifyUserIdRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserModifyUserIdRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
     /**
      * @ElementName userId
      * @Type string
-     * @Group 489b2153267470be8e945bf6b778e0d0:2079
+     * @Group ee3830ce42f01a3ef2a105d473fc3b17:2079
      * @var string|null
      */
     private $userId = null;
@@ -26,7 +26,7 @@ class UserModifyUserIdRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
     /**
      * @ElementName newUserId
      * @Type string
-     * @Group 489b2153267470be8e945bf6b778e0d0:2079
+     * @Group ee3830ce42f01a3ef2a105d473fc3b17:2079
      * @var string|null
      */
     private $newUserId = null;

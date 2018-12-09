@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"8f3ed38751e86ebcc639b5bc5cdef0ec:5438","type":"sequence","children":[{"id":"8f3ed38751e86ebcc639b5bc5cdef0ec:5441","type":"choice","children":[{"id":"8f3ed38751e86ebcc639b5bc5cdef0ec:5446","type":"sequence"}]}]}]
+ * @Groups [{"id":"8eb862aea0ee5d4211db0a0d3fe7c164:5438","type":"sequence","children":[{"id":"8eb862aea0ee5d4211db0a0d3fe7c164:5441","type":"choice","children":[{"id":"8eb862aea0ee5d4211db0a0d3fe7c164:5446","type":"sequence"}]}]}]
  */
 class ServiceProviderServicePackMigrationTaskModifyGroupListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class ServiceProviderServicePackMigrationTaskModifyGroupListRequest extends \CWM
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:5438
+     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:5438
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,7 +27,7 @@ class ServiceProviderServicePackMigrationTaskModifyGroupListRequest extends \CWM
     /**
      * @ElementName taskName
      * @Type string
-     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:5438
+     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:5438
      * @var string|null
      */
     private $taskName = null;
@@ -35,7 +35,7 @@ class ServiceProviderServicePackMigrationTaskModifyGroupListRequest extends \CWM
     /**
      * @ElementName migrateAllGroups
      * @Type bool
-     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:5441
+     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:5441
      * @var bool|null
      */
     private $migrateAllGroups = null;
@@ -45,7 +45,7 @@ class ServiceProviderServicePackMigrationTaskModifyGroupListRequest extends \CWM
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderServicePackMigrationTaskModifyGroupListRequestGroupIdList
      * @Nillable
      * @Optional
-     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:5441
+     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:5441
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderServicePackMigrationTaskModifyGroupListRequestGroupIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $groupIdList = null;

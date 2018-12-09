@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"22021b993135fadb1ded1619493a5a0c:160","type":"sequence"}]
+ * @Groups [{"id":"c856d5d86d5da482525eb01056f273da:160","type":"sequence"}]
  */
 class SystemCallingPartyCategoryModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemCallingPartyCategoryModifyRequest extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName category
      * @Type string
-     * @Group 22021b993135fadb1ded1619493a5a0c:160
+     * @Group c856d5d86d5da482525eb01056f273da:160
      * @var string|null
      */
     private $category = null;
@@ -28,7 +28,7 @@ class SystemCallingPartyCategoryModifyRequest extends \CWM\BroadWorksConnector\O
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 22021b993135fadb1ded1619493a5a0c:160
+     * @Group c856d5d86d5da482525eb01056f273da:160
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $cpcValue = null;
@@ -38,7 +38,7 @@ class SystemCallingPartyCategoryModifyRequest extends \CWM\BroadWorksConnector\O
      * @Type int
      * @Nillable
      * @Optional
-     * @Group 22021b993135fadb1ded1619493a5a0c:160
+     * @Group c856d5d86d5da482525eb01056f273da:160
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $isupOliValue = null;
@@ -48,7 +48,7 @@ class SystemCallingPartyCategoryModifyRequest extends \CWM\BroadWorksConnector\O
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 22021b993135fadb1ded1619493a5a0c:160
+     * @Group c856d5d86d5da482525eb01056f273da:160
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $gtdOliValue = null;
@@ -57,7 +57,7 @@ class SystemCallingPartyCategoryModifyRequest extends \CWM\BroadWorksConnector\O
      * @ElementName userCategory
      * @Type bool
      * @Optional
-     * @Group 22021b993135fadb1ded1619493a5a0c:160
+     * @Group c856d5d86d5da482525eb01056f273da:160
      * @var bool|null
      */
     private $userCategory = null;
@@ -66,7 +66,7 @@ class SystemCallingPartyCategoryModifyRequest extends \CWM\BroadWorksConnector\O
      * @ElementName payPhone
      * @Type bool
      * @Optional
-     * @Group 22021b993135fadb1ded1619493a5a0c:160
+     * @Group c856d5d86d5da482525eb01056f273da:160
      * @var bool|null
      */
     private $payPhone = null;
@@ -75,7 +75,7 @@ class SystemCallingPartyCategoryModifyRequest extends \CWM\BroadWorksConnector\O
      * @ElementName operator
      * @Type bool
      * @Optional
-     * @Group 22021b993135fadb1ded1619493a5a0c:160
+     * @Group c856d5d86d5da482525eb01056f273da:160
      * @var bool|null
      */
     private $operator = null;
@@ -84,7 +84,7 @@ class SystemCallingPartyCategoryModifyRequest extends \CWM\BroadWorksConnector\O
      * @ElementName becomeDefault
      * @Type bool
      * @Optional
-     * @Group 22021b993135fadb1ded1619493a5a0c:160
+     * @Group c856d5d86d5da482525eb01056f273da:160
      * @var bool|null
      */
     private $becomeDefault = null;
@@ -93,7 +93,7 @@ class SystemCallingPartyCategoryModifyRequest extends \CWM\BroadWorksConnector\O
      * @ElementName collectCall
      * @Type bool
      * @Optional
-     * @Group 22021b993135fadb1ded1619493a5a0c:160
+     * @Group c856d5d86d5da482525eb01056f273da:160
      * @var bool|null
      */
     private $collectCall = null;
@@ -103,7 +103,7 @@ class SystemCallingPartyCategoryModifyRequest extends \CWM\BroadWorksConnector\O
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 22021b993135fadb1ded1619493a5a0c:160
+     * @Group c856d5d86d5da482525eb01056f273da:160
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $webDisplayKey = null;

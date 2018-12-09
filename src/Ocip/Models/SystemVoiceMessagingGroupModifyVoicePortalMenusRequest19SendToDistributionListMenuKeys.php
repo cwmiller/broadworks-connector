@@ -5,7 +5,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19SendToDistributionListMenuKeys
  *
- * @Groups [{"id":"1624846b7d87d3ab55e907c443fca9d6:1454","type":"sequence"}]
+ * @Groups [{"id":"80c5986946137c505e41f6008c7f75a8:1454","type":"sequence"}]
  */
 class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19SendToDistributionListMenuKeys
 {
@@ -14,7 +14,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19SendToDistribution
      * @ElementName sendMessageToSelectedDistributionList
      * @Type string
      * @Optional
-     * @Group 1624846b7d87d3ab55e907c443fca9d6:1454
+     * @Group 80c5986946137c505e41f6008c7f75a8:1454
      * @var string|null
      */
     private $sendMessageToSelectedDistributionList = null;
@@ -24,7 +24,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19SendToDistribution
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 1624846b7d87d3ab55e907c443fca9d6:1454
+     * @Group 80c5986946137c505e41f6008c7f75a8:1454
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $selectDistributionList = null;
@@ -34,7 +34,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19SendToDistribution
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 1624846b7d87d3ab55e907c443fca9d6:1454
+     * @Group 80c5986946137c505e41f6008c7f75a8:1454
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $reviewSelectedDistributionList = null;
@@ -43,7 +43,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19SendToDistribution
      * @ElementName returnToPreviousMenu
      * @Type string
      * @Optional
-     * @Group 1624846b7d87d3ab55e907c443fca9d6:1454
+     * @Group 80c5986946137c505e41f6008c7f75a8:1454
      * @var string|null
      */
     private $returnToPreviousMenu = null;
@@ -53,7 +53,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19SendToDistribution
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 1624846b7d87d3ab55e907c443fca9d6:1454
+     * @Group 80c5986946137c505e41f6008c7f75a8:1454
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $repeatMenu = null;

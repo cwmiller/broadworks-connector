@@ -1314,7 +1314,8 @@ use CWM\BroadWorksConnector\Ocip\Models\UserVoiceMessagingUserGetVoicePortalResp
 use CWM\BroadWorksConnector\Ocip\Models\UserVoiceMessagingUserModifyGreetingRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserVoiceMessagingUserModifyVoicePortalPasswordRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserVoiceMessagingUserModifyVoicePortalRequest;
-use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaDeprecated
@@ -1324,6 +1325,7 @@ trait OCISchemaDeprecated
      * @param AuthenticationVerifyRequest $request
      * @return AuthenticationVerifyResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function authenticationVerifyRequest(\CWM\BroadWorksConnector\Ocip\Models\AuthenticationVerifyRequest $request)
     {
@@ -1334,6 +1336,7 @@ trait OCISchemaDeprecated
      * @param DeviceManagementFileAuthLocationGetRequest $request
      * @return DeviceManagementFileAuthLocationGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function deviceManagementFileAuthLocationGetRequest(\CWM\BroadWorksConnector\Ocip\Models\DeviceManagementFileAuthLocationGetRequest $request)
     {
@@ -1344,6 +1347,7 @@ trait OCISchemaDeprecated
      * @param DeviceManagementFileAuthLocationGetRequest17 $request
      * @return DeviceManagementFileAuthLocationGetResponse17
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function deviceManagementFileAuthLocationGetRequest17(\CWM\BroadWorksConnector\Ocip\Models\DeviceManagementFileAuthLocationGetRequest17 $request)
     {
@@ -1354,6 +1358,7 @@ trait OCISchemaDeprecated
      * @param DeviceManagementFileAuthLocationGetRequest18 $request
      * @return DeviceManagementFileAuthLocationGetResponse18
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function deviceManagementFileAuthLocationGetRequest18(\CWM\BroadWorksConnector\Ocip\Models\DeviceManagementFileAuthLocationGetRequest18 $request)
     {
@@ -1364,6 +1369,7 @@ trait OCISchemaDeprecated
      * @param DeviceManagementFileAuthLocationGetRequest20sp1 $request
      * @return DeviceManagementFileAuthLocationGetResponse20sp1
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function deviceManagementFileAuthLocationGetRequest20sp1(\CWM\BroadWorksConnector\Ocip\Models\DeviceManagementFileAuthLocationGetRequest20sp1 $request)
     {
@@ -1374,6 +1380,7 @@ trait OCISchemaDeprecated
      * @param DeviceManagementFileAuthLocationGetRequest21 $request
      * @return DeviceManagementFileAuthLocationGetResponse21
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function deviceManagementFileAuthLocationGetRequest21(\CWM\BroadWorksConnector\Ocip\Models\DeviceManagementFileAuthLocationGetRequest21 $request)
     {
@@ -1384,6 +1391,7 @@ trait OCISchemaDeprecated
      * @param EnterpriseCallCenterAgentUnavailableCodeSettingsGetRequest $request
      * @return EnterpriseCallCenterAgentUnavailableCodeSettingsGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function enterpriseCallCenterAgentUnavailableCodeSettingsGetRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseCallCenterAgentUnavailableCodeSettingsGetRequest $request)
     {
@@ -1394,6 +1402,7 @@ trait OCISchemaDeprecated
      * @param EnterpriseCallCenterEnhancedReportingGetRequest $request
      * @return EnterpriseCallCenterEnhancedReportingGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function enterpriseCallCenterEnhancedReportingGetRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseCallCenterEnhancedReportingGetRequest $request)
     {
@@ -1404,6 +1413,7 @@ trait OCISchemaDeprecated
      * @param EnterpriseCallCenterEnhancedReportingModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function enterpriseCallCenterEnhancedReportingModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseCallCenterEnhancedReportingModifyRequest $request)
     {
@@ -1414,6 +1424,7 @@ trait OCISchemaDeprecated
      * @param EnterpriseCallCenterGetRequest $request
      * @return EnterpriseCallCenterGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function enterpriseCallCenterGetRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseCallCenterGetRequest $request)
     {
@@ -1424,6 +1435,7 @@ trait OCISchemaDeprecated
      * @param EnterpriseEnterpriseTrunkAddRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function enterpriseEnterpriseTrunkAddRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseEnterpriseTrunkAddRequest $request)
     {
@@ -1434,6 +1446,7 @@ trait OCISchemaDeprecated
      * @param EnterpriseEnterpriseTrunkGetRequest $request
      * @return EnterpriseEnterpriseTrunkGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function enterpriseEnterpriseTrunkGetRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseEnterpriseTrunkGetRequest $request)
     {
@@ -1444,6 +1457,7 @@ trait OCISchemaDeprecated
      * @param EnterprisePhoneDirectoryGetListRequest $request
      * @return EnterprisePhoneDirectoryGetListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function enterprisePhoneDirectoryGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterprisePhoneDirectoryGetListRequest $request)
     {
@@ -1454,6 +1468,7 @@ trait OCISchemaDeprecated
      * @param EnterprisePhoneDirectoryGetListRequest17 $request
      * @return EnterprisePhoneDirectoryGetListResponse17
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function enterprisePhoneDirectoryGetListRequest17(\CWM\BroadWorksConnector\Ocip\Models\EnterprisePhoneDirectoryGetListRequest17 $request)
     {
@@ -1464,6 +1479,7 @@ trait OCISchemaDeprecated
      * @param EnterprisePhoneDirectoryGetListRequest17sp3 $request
      * @return EnterprisePhoneDirectoryGetListResponse17sp3
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function enterprisePhoneDirectoryGetListRequest17sp3(\CWM\BroadWorksConnector\Ocip\Models\EnterprisePhoneDirectoryGetListRequest17sp3 $request)
     {
@@ -1474,6 +1490,7 @@ trait OCISchemaDeprecated
      * @param EnterpriseSessionAdmissionControlGroupAddRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function enterpriseSessionAdmissionControlGroupAddRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseSessionAdmissionControlGroupAddRequest $request)
     {
@@ -1484,6 +1501,7 @@ trait OCISchemaDeprecated
      * @param EnterpriseSessionAdmissionControlGroupGetRequest $request
      * @return EnterpriseSessionAdmissionControlGroupGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function enterpriseSessionAdmissionControlGroupGetRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseSessionAdmissionControlGroupGetRequest $request)
     {
@@ -1494,6 +1512,7 @@ trait OCISchemaDeprecated
      * @param EnterpriseSessionAdmissionControlGroupGetRequest19sp1 $request
      * @return EnterpriseSessionAdmissionControlGroupGetResponse19sp1
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function enterpriseSessionAdmissionControlGroupGetRequest19sp1(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseSessionAdmissionControlGroupGetRequest19sp1 $request)
     {
@@ -1504,6 +1523,7 @@ trait OCISchemaDeprecated
      * @param EnterpriseSessionAdmissionControlGroupGetRequest21sp1 $request
      * @return EnterpriseSessionAdmissionControlGroupGetResponse21sp1
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function enterpriseSessionAdmissionControlGroupGetRequest21sp1(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseSessionAdmissionControlGroupGetRequest21sp1 $request)
     {
@@ -1514,6 +1534,7 @@ trait OCISchemaDeprecated
      * @param EnterpriseVoiceVPNGetRequest $request
      * @return EnterpriseVoiceVPNGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function enterpriseVoiceVPNGetRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNGetRequest $request)
     {
@@ -1524,6 +1545,7 @@ trait OCISchemaDeprecated
      * @param GroupAccessDeviceFileGetListRequest $request
      * @return GroupAccessDeviceFileGetListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupAccessDeviceFileGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupAccessDeviceFileGetListRequest $request)
     {
@@ -1534,6 +1556,7 @@ trait OCISchemaDeprecated
      * @param GroupAccessDeviceFileGetRequest $request
      * @return GroupAccessDeviceFileGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupAccessDeviceFileGetRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupAccessDeviceFileGetRequest $request)
     {
@@ -1544,6 +1567,7 @@ trait OCISchemaDeprecated
      * @param GroupAccessDeviceFileGetRequest14sp8 $request
      * @return GroupAccessDeviceFileGetResponse14sp8
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupAccessDeviceFileGetRequest14sp8(\CWM\BroadWorksConnector\Ocip\Models\GroupAccessDeviceFileGetRequest14sp8 $request)
     {
@@ -1554,6 +1578,7 @@ trait OCISchemaDeprecated
      * @param GroupAccessDeviceFileGetRequest16sp1 $request
      * @return GroupAccessDeviceFileGetResponse16sp1
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupAccessDeviceFileGetRequest16sp1(\CWM\BroadWorksConnector\Ocip\Models\GroupAccessDeviceFileGetRequest16sp1 $request)
     {
@@ -1564,6 +1589,7 @@ trait OCISchemaDeprecated
      * @param GroupAccessDeviceFileModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupAccessDeviceFileModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupAccessDeviceFileModifyRequest $request)
     {
@@ -1574,6 +1600,7 @@ trait OCISchemaDeprecated
      * @param GroupAccessDeviceGetAvailableDetailListRequest14 $request
      * @return GroupAccessDeviceGetAvailableDetailListResponse14
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupAccessDeviceGetAvailableDetailListRequest14(\CWM\BroadWorksConnector\Ocip\Models\GroupAccessDeviceGetAvailableDetailListRequest14 $request)
     {
@@ -1584,6 +1611,7 @@ trait OCISchemaDeprecated
      * @param GroupAccessDeviceGetRequest14 $request
      * @return GroupAccessDeviceGetResponse14
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupAccessDeviceGetRequest14(\CWM\BroadWorksConnector\Ocip\Models\GroupAccessDeviceGetRequest14 $request)
     {
@@ -1594,6 +1622,7 @@ trait OCISchemaDeprecated
      * @param GroupAccessDeviceGetRequest14sp3 $request
      * @return GroupAccessDeviceGetResponse14sp3
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupAccessDeviceGetRequest14sp3(\CWM\BroadWorksConnector\Ocip\Models\GroupAccessDeviceGetRequest14sp3 $request)
     {
@@ -1604,6 +1633,7 @@ trait OCISchemaDeprecated
      * @param GroupAccessDeviceGetRequest14sp6 $request
      * @return GroupAccessDeviceGetResponse14sp6
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupAccessDeviceGetRequest14sp6(\CWM\BroadWorksConnector\Ocip\Models\GroupAccessDeviceGetRequest14sp6 $request)
     {
@@ -1614,6 +1644,7 @@ trait OCISchemaDeprecated
      * @param GroupAccessDeviceGetRequest16 $request
      * @return GroupAccessDeviceGetResponse16
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupAccessDeviceGetRequest16(\CWM\BroadWorksConnector\Ocip\Models\GroupAccessDeviceGetRequest16 $request)
     {
@@ -1624,6 +1655,7 @@ trait OCISchemaDeprecated
      * @param GroupAdminGetPolicyRequest $request
      * @return GroupAdminGetPolicyResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupAdminGetPolicyRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupAdminGetPolicyRequest $request)
     {
@@ -1634,6 +1666,7 @@ trait OCISchemaDeprecated
      * @param GroupAdminGetPolicyRequest14sp1 $request
      * @return GroupAdminGetPolicyResponse14sp1
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupAdminGetPolicyRequest14sp1(\CWM\BroadWorksConnector\Ocip\Models\GroupAdminGetPolicyRequest14sp1 $request)
     {
@@ -1644,6 +1677,7 @@ trait OCISchemaDeprecated
      * @param GroupAdminGetPolicyRequest16sp1 $request
      * @return GroupAdminGetPolicyResponse16sp1
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupAdminGetPolicyRequest16sp1(\CWM\BroadWorksConnector\Ocip\Models\GroupAdminGetPolicyRequest16sp1 $request)
     {
@@ -1654,6 +1688,7 @@ trait OCISchemaDeprecated
      * @param GroupAdminGetPolicyRequest16sp2 $request
      * @return GroupAdminGetPolicyResponse16sp2
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupAdminGetPolicyRequest16sp2(\CWM\BroadWorksConnector\Ocip\Models\GroupAdminGetPolicyRequest16sp2 $request)
     {
@@ -1664,6 +1699,7 @@ trait OCISchemaDeprecated
      * @param GroupAdminGetPolicyRequest17 $request
      * @return GroupAdminGetPolicyResponse17
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupAdminGetPolicyRequest17(\CWM\BroadWorksConnector\Ocip\Models\GroupAdminGetPolicyRequest17 $request)
     {
@@ -1674,6 +1710,7 @@ trait OCISchemaDeprecated
      * @param GroupAdminGetPolicyRequest17sp3 $request
      * @return GroupAdminGetPolicyResponse17sp3
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupAdminGetPolicyRequest17sp3(\CWM\BroadWorksConnector\Ocip\Models\GroupAdminGetPolicyRequest17sp3 $request)
     {
@@ -1684,6 +1721,7 @@ trait OCISchemaDeprecated
      * @param GroupAutoAttendantAddInstanceRequest14 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupAutoAttendantAddInstanceRequest14(\CWM\BroadWorksConnector\Ocip\Models\GroupAutoAttendantAddInstanceRequest14 $request)
     {
@@ -1694,6 +1732,7 @@ trait OCISchemaDeprecated
      * @param GroupAutoAttendantAddInstanceRequest16 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupAutoAttendantAddInstanceRequest16(\CWM\BroadWorksConnector\Ocip\Models\GroupAutoAttendantAddInstanceRequest16 $request)
     {
@@ -1704,6 +1743,7 @@ trait OCISchemaDeprecated
      * @param GroupAutoAttendantAddInstanceRequest17sp1 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupAutoAttendantAddInstanceRequest17sp1(\CWM\BroadWorksConnector\Ocip\Models\GroupAutoAttendantAddInstanceRequest17sp1 $request)
     {
@@ -1714,6 +1754,7 @@ trait OCISchemaDeprecated
      * @param GroupAutoAttendantGetInstanceRequest14 $request
      * @return GroupAutoAttendantGetInstanceResponse14
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupAutoAttendantGetInstanceRequest14(\CWM\BroadWorksConnector\Ocip\Models\GroupAutoAttendantGetInstanceRequest14 $request)
     {
@@ -1724,6 +1765,7 @@ trait OCISchemaDeprecated
      * @param GroupAutoAttendantGetInstanceRequest16 $request
      * @return GroupAutoAttendantGetInstanceResponse16
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupAutoAttendantGetInstanceRequest16(\CWM\BroadWorksConnector\Ocip\Models\GroupAutoAttendantGetInstanceRequest16 $request)
     {
@@ -1734,6 +1776,7 @@ trait OCISchemaDeprecated
      * @param GroupAutoAttendantGetInstanceRequest17 $request
      * @return GroupAutoAttendantGetInstanceResponse17
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupAutoAttendantGetInstanceRequest17(\CWM\BroadWorksConnector\Ocip\Models\GroupAutoAttendantGetInstanceRequest17 $request)
     {
@@ -1744,6 +1787,7 @@ trait OCISchemaDeprecated
      * @param GroupAutoAttendantGetInstanceRequest17sp1 $request
      * @return GroupAutoAttendantGetInstanceResponse17sp1
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupAutoAttendantGetInstanceRequest17sp1(\CWM\BroadWorksConnector\Ocip\Models\GroupAutoAttendantGetInstanceRequest17sp1 $request)
     {
@@ -1754,6 +1798,7 @@ trait OCISchemaDeprecated
      * @param GroupAutoAttendantModifyInstanceRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupAutoAttendantModifyInstanceRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupAutoAttendantModifyInstanceRequest $request)
     {
@@ -1764,6 +1809,7 @@ trait OCISchemaDeprecated
      * @param GroupAutoAttendantModifyInstanceRequest16 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupAutoAttendantModifyInstanceRequest16(\CWM\BroadWorksConnector\Ocip\Models\GroupAutoAttendantModifyInstanceRequest16 $request)
     {
@@ -1774,6 +1820,7 @@ trait OCISchemaDeprecated
      * @param GroupBroadWorksAnywhereGetInstanceRequest $request
      * @return GroupBroadWorksAnywhereGetInstanceResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupBroadWorksAnywhereGetInstanceRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupBroadWorksAnywhereGetInstanceRequest $request)
     {
@@ -1784,6 +1831,7 @@ trait OCISchemaDeprecated
      * @param GroupBroadWorksMobilityGetRequest $request
      * @return GroupBroadWorksMobilityGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupBroadWorksMobilityGetRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupBroadWorksMobilityGetRequest $request)
     {
@@ -1794,6 +1842,7 @@ trait OCISchemaDeprecated
      * @param GroupBroadWorksMobilityGetRequest19sp1 $request
      * @return GroupBroadWorksMobilityGetResponse19sp1
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupBroadWorksMobilityGetRequest19sp1(\CWM\BroadWorksConnector\Ocip\Models\GroupBroadWorksMobilityGetRequest19sp1 $request)
     {
@@ -1804,6 +1853,7 @@ trait OCISchemaDeprecated
      * @param GroupCallCenterAddInstanceRequest14 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterAddInstanceRequest14(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterAddInstanceRequest14 $request)
     {
@@ -1814,6 +1864,7 @@ trait OCISchemaDeprecated
      * @param GroupCallCenterAddInstanceRequest14sp3 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterAddInstanceRequest14sp3(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterAddInstanceRequest14sp3 $request)
     {
@@ -1824,6 +1875,7 @@ trait OCISchemaDeprecated
      * @param GroupCallCenterAddInstanceRequest14sp9 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterAddInstanceRequest14sp9(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterAddInstanceRequest14sp9 $request)
     {
@@ -1834,6 +1886,7 @@ trait OCISchemaDeprecated
      * @param GroupCallCenterAddInstanceRequest16 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterAddInstanceRequest16(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterAddInstanceRequest16 $request)
     {
@@ -1844,6 +1897,7 @@ trait OCISchemaDeprecated
      * @param GroupCallCenterAddInstanceRequest17 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterAddInstanceRequest17(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterAddInstanceRequest17 $request)
     {
@@ -1854,6 +1908,7 @@ trait OCISchemaDeprecated
      * @param GroupCallCenterAddInstanceRequest17sp1 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterAddInstanceRequest17sp1(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterAddInstanceRequest17sp1 $request)
     {
@@ -1864,6 +1919,7 @@ trait OCISchemaDeprecated
      * @param GroupCallCenterAddInstanceRequest17sp3 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterAddInstanceRequest17sp3(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterAddInstanceRequest17sp3 $request)
     {
@@ -1874,6 +1930,7 @@ trait OCISchemaDeprecated
      * @param GroupCallCenterAgentUnavailableCodeSettingsGetRequest $request
      * @return GroupCallCenterAgentUnavailableCodeSettingsGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterAgentUnavailableCodeSettingsGetRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterAgentUnavailableCodeSettingsGetRequest $request)
     {
@@ -1884,6 +1941,7 @@ trait OCISchemaDeprecated
      * @param GroupCallCenterBouncedCallGetRequest $request
      * @return GroupCallCenterBouncedCallGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterBouncedCallGetRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterBouncedCallGetRequest $request)
     {
@@ -1894,6 +1952,7 @@ trait OCISchemaDeprecated
      * @param GroupCallCenterComfortMessageBypassGetRequest $request
      * @return GroupCallCenterComfortMessageBypassGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterComfortMessageBypassGetRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterComfortMessageBypassGetRequest $request)
     {
@@ -1904,6 +1963,7 @@ trait OCISchemaDeprecated
      * @param GroupCallCenterComfortMessageBypassGetRequest17 $request
      * @return GroupCallCenterComfortMessageBypassGetResponse17
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterComfortMessageBypassGetRequest17(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterComfortMessageBypassGetRequest17 $request)
     {
@@ -1914,6 +1974,7 @@ trait OCISchemaDeprecated
      * @param GroupCallCenterComfortMessageBypassModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterComfortMessageBypassModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterComfortMessageBypassModifyRequest $request)
     {
@@ -1924,6 +1985,7 @@ trait OCISchemaDeprecated
      * @param GroupCallCenterComfortMessageBypassModifyRequest17 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterComfortMessageBypassModifyRequest17(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterComfortMessageBypassModifyRequest17 $request)
     {
@@ -1934,6 +1996,7 @@ trait OCISchemaDeprecated
      * @param GroupCallCenterEnhancedGetRequest $request
      * @return GroupCallCenterEnhancedGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterEnhancedGetRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterEnhancedGetRequest $request)
     {
@@ -1944,6 +2007,7 @@ trait OCISchemaDeprecated
      * @param GroupCallCenterEnhancedModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterEnhancedModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterEnhancedModifyRequest $request)
     {
@@ -1954,6 +2018,7 @@ trait OCISchemaDeprecated
      * @param GroupCallCenterEnhancedReportingGetRequest $request
      * @return GroupCallCenterEnhancedReportingGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterEnhancedReportingGetRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterEnhancedReportingGetRequest $request)
     {
@@ -1964,6 +2029,7 @@ trait OCISchemaDeprecated
      * @param GroupCallCenterEnhancedReportingModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterEnhancedReportingModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterEnhancedReportingModifyRequest $request)
     {
@@ -1974,6 +2040,7 @@ trait OCISchemaDeprecated
      * @param GroupCallCenterForcedForwardingGetRequest $request
      * @return GroupCallCenterForcedForwardingGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterForcedForwardingGetRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterForcedForwardingGetRequest $request)
     {
@@ -1984,6 +2051,7 @@ trait OCISchemaDeprecated
      * @param GroupCallCenterForcedForwardingGetRequest17 $request
      * @return GroupCallCenterForcedForwardingGetResponse17
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterForcedForwardingGetRequest17(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterForcedForwardingGetRequest17 $request)
     {
@@ -1994,6 +2062,7 @@ trait OCISchemaDeprecated
      * @param GroupCallCenterForcedForwardingModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterForcedForwardingModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterForcedForwardingModifyRequest $request)
     {
@@ -2004,6 +2073,7 @@ trait OCISchemaDeprecated
      * @param GroupCallCenterGetAnnouncementRequest $request
      * @return GroupCallCenterGetAnnouncementResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterGetAnnouncementRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterGetAnnouncementRequest $request)
     {
@@ -2014,6 +2084,7 @@ trait OCISchemaDeprecated
      * @param GroupCallCenterGetAnnouncementRequest14sp6 $request
      * @return GroupCallCenterGetAnnouncementResponse14sp6
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterGetAnnouncementRequest14sp6(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterGetAnnouncementRequest14sp6 $request)
     {
@@ -2024,6 +2095,7 @@ trait OCISchemaDeprecated
      * @param GroupCallCenterGetAnnouncementRequest16 $request
      * @return GroupCallCenterGetAnnouncementResponse16
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterGetAnnouncementRequest16(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterGetAnnouncementRequest16 $request)
     {
@@ -2034,6 +2106,7 @@ trait OCISchemaDeprecated
      * @param GroupCallCenterGetAnnouncementRequest17 $request
      * @return GroupCallCenterGetAnnouncementResponse17
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterGetAnnouncementRequest17(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterGetAnnouncementRequest17 $request)
     {
@@ -2044,6 +2117,7 @@ trait OCISchemaDeprecated
      * @param GroupCallCenterGetAnnouncementRequest17sp4 $request
      * @return GroupCallCenterGetAnnouncementResponse17sp4
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterGetAnnouncementRequest17sp4(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterGetAnnouncementRequest17sp4 $request)
     {
@@ -2054,6 +2128,7 @@ trait OCISchemaDeprecated
      * @param GroupCallCenterGetAnnouncementRequest19 $request
      * @return GroupCallCenterGetAnnouncementResponse19
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterGetAnnouncementRequest19(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterGetAnnouncementRequest19 $request)
     {
@@ -2064,6 +2139,7 @@ trait OCISchemaDeprecated
      * @param GroupCallCenterGetAvailableUserListRequest $request
      * @return GroupCallCenterGetAvailableUserListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterGetAvailableUserListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterGetAvailableUserListRequest $request)
     {
@@ -2074,6 +2150,7 @@ trait OCISchemaDeprecated
      * @param GroupCallCenterGetDNISAnnouncementRequest $request
      * @return 
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterGetDNISAnnouncementRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterGetDNISAnnouncementRequest $request)
     {
@@ -2084,6 +2161,7 @@ trait OCISchemaDeprecated
      * @param GroupCallCenterGetDNISAnnouncementRequest17sp4 $request
      * @return 
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterGetDNISAnnouncementRequest17sp4(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterGetDNISAnnouncementRequest17sp4 $request)
     {
@@ -2094,6 +2172,7 @@ trait OCISchemaDeprecated
      * @param GroupCallCenterGetDNISAnnouncementRequest19 $request
      * @return 
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterGetDNISAnnouncementRequest19(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterGetDNISAnnouncementRequest19 $request)
     {
@@ -2104,6 +2183,7 @@ trait OCISchemaDeprecated
      * @param GroupCallCenterGetInstanceRequest14 $request
      * @return GroupCallCenterGetInstanceResponse14
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterGetInstanceRequest14(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterGetInstanceRequest14 $request)
     {
@@ -2114,6 +2194,7 @@ trait OCISchemaDeprecated
      * @param GroupCallCenterGetInstanceRequest14sp3 $request
      * @return GroupCallCenterGetInstanceResponse14sp3
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterGetInstanceRequest14sp3(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterGetInstanceRequest14sp3 $request)
     {
@@ -2124,6 +2205,7 @@ trait OCISchemaDeprecated
      * @param GroupCallCenterGetInstanceRequest14sp9 $request
      * @return GroupCallCenterGetInstanceResponse14sp9
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterGetInstanceRequest14sp9(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterGetInstanceRequest14sp9 $request)
     {
@@ -2134,6 +2216,7 @@ trait OCISchemaDeprecated
      * @param GroupCallCenterGetInstanceRequest16 $request
      * @return GroupCallCenterGetInstanceResponse16
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterGetInstanceRequest16(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterGetInstanceRequest16 $request)
     {
@@ -2144,6 +2227,7 @@ trait OCISchemaDeprecated
      * @param GroupCallCenterGetInstanceRequest17 $request
      * @return GroupCallCenterGetInstanceResponse17
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterGetInstanceRequest17(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterGetInstanceRequest17 $request)
     {
@@ -2154,6 +2238,7 @@ trait OCISchemaDeprecated
      * @param GroupCallCenterGetInstanceRequest17sp1 $request
      * @return GroupCallCenterGetInstanceResponse17sp1
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterGetInstanceRequest17sp1(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterGetInstanceRequest17sp1 $request)
     {
@@ -2164,6 +2249,7 @@ trait OCISchemaDeprecated
      * @param GroupCallCenterGetInstanceRequest17sp3 $request
      * @return GroupCallCenterGetInstanceResponse17sp3
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterGetInstanceRequest17sp3(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterGetInstanceRequest17sp3 $request)
     {
@@ -2174,6 +2260,7 @@ trait OCISchemaDeprecated
      * @param GroupCallCenterGetInstanceRequest19 $request
      * @return GroupCallCenterGetInstanceResponse19
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterGetInstanceRequest19(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterGetInstanceRequest19 $request)
     {
@@ -2184,6 +2271,7 @@ trait OCISchemaDeprecated
      * @param GroupCallCenterGetInstanceStatisticsReportingRequest $request
      * @return GroupCallCenterGetInstanceStatisticsReportingResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterGetInstanceStatisticsReportingRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterGetInstanceStatisticsReportingRequest $request)
     {
@@ -2194,6 +2282,7 @@ trait OCISchemaDeprecated
      * @param GroupCallCenterGetInstanceStatisticsReportingRequest16 $request
      * @return GroupCallCenterGetInstanceStatisticsReportingResponse16
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterGetInstanceStatisticsReportingRequest16(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterGetInstanceStatisticsReportingRequest16 $request)
     {
@@ -2204,6 +2293,7 @@ trait OCISchemaDeprecated
      * @param GroupCallCenterGetInstanceStatisticsRequest13mp8 $request
      * @return GroupCallCenterGetInstanceStatisticsResponse13mp8
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterGetInstanceStatisticsRequest13mp8(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterGetInstanceStatisticsRequest13mp8 $request)
     {
@@ -2214,6 +2304,7 @@ trait OCISchemaDeprecated
      * @param GroupCallCenterGetRequest $request
      * @return GroupCallCenterGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterGetRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterGetRequest $request)
     {
@@ -2224,6 +2315,7 @@ trait OCISchemaDeprecated
      * @param GroupCallCenterGetSupervisorListRequest $request
      * @return GroupCallCenterGetSupervisorListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterGetSupervisorListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterGetSupervisorListRequest $request)
     {
@@ -2234,6 +2326,7 @@ trait OCISchemaDeprecated
      * @param GroupCallCenterHolidayServiceGetRequest $request
      * @return GroupCallCenterHolidayServiceGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterHolidayServiceGetRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterHolidayServiceGetRequest $request)
     {
@@ -2244,6 +2337,7 @@ trait OCISchemaDeprecated
      * @param GroupCallCenterHolidayServiceGetRequest17 $request
      * @return GroupCallCenterHolidayServiceGetResponse17
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterHolidayServiceGetRequest17(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterHolidayServiceGetRequest17 $request)
     {
@@ -2254,6 +2348,7 @@ trait OCISchemaDeprecated
      * @param GroupCallCenterHolidayServiceGetRequest17sp1 $request
      * @return GroupCallCenterHolidayServiceGetResponse17sp1
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterHolidayServiceGetRequest17sp1(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterHolidayServiceGetRequest17sp1 $request)
     {
@@ -2264,6 +2359,7 @@ trait OCISchemaDeprecated
      * @param GroupCallCenterHolidayServiceModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterHolidayServiceModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterHolidayServiceModifyRequest $request)
     {
@@ -2274,6 +2370,7 @@ trait OCISchemaDeprecated
      * @param GroupCallCenterHolidayServiceModifyRequest17 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterHolidayServiceModifyRequest17(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterHolidayServiceModifyRequest17 $request)
     {
@@ -2284,6 +2381,7 @@ trait OCISchemaDeprecated
      * @param GroupCallCenterHolidayServiceModifyRequest17sp1 $request
      * @return 
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterHolidayServiceModifyRequest17sp1(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterHolidayServiceModifyRequest17sp1 $request)
     {
@@ -2294,6 +2392,7 @@ trait OCISchemaDeprecated
      * @param GroupCallCenterModifyAnnouncementRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterModifyAnnouncementRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterModifyAnnouncementRequest $request)
     {
@@ -2304,6 +2403,7 @@ trait OCISchemaDeprecated
      * @param GroupCallCenterModifyAnnouncementRequest14sp6 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterModifyAnnouncementRequest14sp6(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterModifyAnnouncementRequest14sp6 $request)
     {
@@ -2314,6 +2414,7 @@ trait OCISchemaDeprecated
      * @param GroupCallCenterModifyAnnouncementRequest16 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterModifyAnnouncementRequest16(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterModifyAnnouncementRequest16 $request)
     {
@@ -2324,6 +2425,7 @@ trait OCISchemaDeprecated
      * @param GroupCallCenterModifyAnnouncementRequest17 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterModifyAnnouncementRequest17(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterModifyAnnouncementRequest17 $request)
     {
@@ -2334,6 +2436,7 @@ trait OCISchemaDeprecated
      * @param GroupCallCenterModifyDNISAnnouncementRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterModifyDNISAnnouncementRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterModifyDNISAnnouncementRequest $request)
     {
@@ -2344,6 +2447,7 @@ trait OCISchemaDeprecated
      * @param GroupCallCenterModifyInstanceRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterModifyInstanceRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterModifyInstanceRequest $request)
     {
@@ -2354,6 +2458,7 @@ trait OCISchemaDeprecated
      * @param GroupCallCenterModifyInstanceRequest16 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterModifyInstanceRequest16(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterModifyInstanceRequest16 $request)
     {
@@ -2364,6 +2469,7 @@ trait OCISchemaDeprecated
      * @param GroupCallCenterModifyInstanceRequest17sp1 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterModifyInstanceRequest17sp1(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterModifyInstanceRequest17sp1 $request)
     {
@@ -2374,6 +2480,7 @@ trait OCISchemaDeprecated
      * @param GroupCallCenterModifyInstanceStatisticsReportingRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterModifyInstanceStatisticsReportingRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterModifyInstanceStatisticsReportingRequest $request)
     {
@@ -2384,6 +2491,7 @@ trait OCISchemaDeprecated
      * @param GroupCallCenterModifyInstanceStatisticsReportingRequest14sp9 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterModifyInstanceStatisticsReportingRequest14sp9(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterModifyInstanceStatisticsReportingRequest14sp9 $request)
     {
@@ -2394,6 +2502,7 @@ trait OCISchemaDeprecated
      * @param GroupCallCenterModifySupervisorListRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterModifySupervisorListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterModifySupervisorListRequest $request)
     {
@@ -2404,6 +2513,7 @@ trait OCISchemaDeprecated
      * @param GroupCallCenterNightServiceGetRequest $request
      * @return GroupCallCenterNightServiceGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterNightServiceGetRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterNightServiceGetRequest $request)
     {
@@ -2414,6 +2524,7 @@ trait OCISchemaDeprecated
      * @param GroupCallCenterNightServiceGetRequest17 $request
      * @return GroupCallCenterNightServiceGetResponse17
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterNightServiceGetRequest17(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterNightServiceGetRequest17 $request)
     {
@@ -2424,6 +2535,7 @@ trait OCISchemaDeprecated
      * @param GroupCallCenterNightServiceModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterNightServiceModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterNightServiceModifyRequest $request)
     {
@@ -2434,6 +2546,7 @@ trait OCISchemaDeprecated
      * @param GroupCallCenterNightServiceModifyRequest17 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterNightServiceModifyRequest17(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterNightServiceModifyRequest17 $request)
     {
@@ -2444,6 +2557,7 @@ trait OCISchemaDeprecated
      * @param GroupCallCenterOverflowGetRequest $request
      * @return GroupCallCenterOverflowGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterOverflowGetRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterOverflowGetRequest $request)
     {
@@ -2454,6 +2568,7 @@ trait OCISchemaDeprecated
      * @param GroupCallCenterOverflowGetRequest17 $request
      * @return GroupCallCenterOverflowGetResponse17
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterOverflowGetRequest17(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterOverflowGetRequest17 $request)
     {
@@ -2464,6 +2579,7 @@ trait OCISchemaDeprecated
      * @param GroupCallCenterOverflowModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterOverflowModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterOverflowModifyRequest $request)
     {
@@ -2474,6 +2590,7 @@ trait OCISchemaDeprecated
      * @param GroupCallCenterOverflowModifyRequest17 $request
      * @return 
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterOverflowModifyRequest17(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterOverflowModifyRequest17 $request)
     {
@@ -2484,6 +2601,7 @@ trait OCISchemaDeprecated
      * @param GroupCallCenterStrandedCallGetRequest $request
      * @return GroupCallCenterStrandedCallGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterStrandedCallGetRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterStrandedCallGetRequest $request)
     {
@@ -2494,6 +2612,7 @@ trait OCISchemaDeprecated
      * @param GroupCallCenterStrandedCallGetRequest17 $request
      * @return GroupCallCenterStrandedCallGetResponse17
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterStrandedCallGetRequest17(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterStrandedCallGetRequest17 $request)
     {
@@ -2504,6 +2623,7 @@ trait OCISchemaDeprecated
      * @param GroupCallCenterStrandedCallModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterStrandedCallModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterStrandedCallModifyRequest $request)
     {
@@ -2514,6 +2634,7 @@ trait OCISchemaDeprecated
      * @param GroupCallCenterStrandedCallModifyRequest17 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterStrandedCallModifyRequest17(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterStrandedCallModifyRequest17 $request)
     {
@@ -2524,6 +2645,7 @@ trait OCISchemaDeprecated
      * @param GroupCallCenterStrandedCallUnavailableGetRequest $request
      * @return GroupCallCenterStrandedCallUnavailableGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterStrandedCallUnavailableGetRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterStrandedCallUnavailableGetRequest $request)
     {
@@ -2534,6 +2656,7 @@ trait OCISchemaDeprecated
      * @param GroupCallCenterStrandedCallUnavailableModifyRequest $request
      * @return 
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterStrandedCallUnavailableModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterStrandedCallUnavailableModifyRequest $request)
     {
@@ -2544,6 +2667,7 @@ trait OCISchemaDeprecated
      * @param GroupCallCenterSupervisorReportingGetRequest $request
      * @return 
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterSupervisorReportingGetRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterSupervisorReportingGetRequest $request)
     {
@@ -2554,6 +2678,7 @@ trait OCISchemaDeprecated
      * @param GroupCallCenterSupervisorReportingModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterSupervisorReportingModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterSupervisorReportingModifyRequest $request)
     {
@@ -2564,6 +2689,7 @@ trait OCISchemaDeprecated
      * @param GroupCallingLineIdGetRequest $request
      * @return GroupCallingLineIdGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallingLineIdGetRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallingLineIdGetRequest $request)
     {
@@ -2574,6 +2700,7 @@ trait OCISchemaDeprecated
      * @param GroupCallingLineIdModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallingLineIdModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallingLineIdModifyRequest $request)
     {
@@ -2584,6 +2711,7 @@ trait OCISchemaDeprecated
      * @param GroupCallParkAddInstanceRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallParkAddInstanceRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallParkAddInstanceRequest $request)
     {
@@ -2594,6 +2722,7 @@ trait OCISchemaDeprecated
      * @param GroupCallParkGetInstanceRequest $request
      * @return GroupCallParkGetInstanceResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallParkGetInstanceRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallParkGetInstanceRequest $request)
     {
@@ -2604,6 +2733,7 @@ trait OCISchemaDeprecated
      * @param GroupCallParkGetRequest $request
      * @return GroupCallParkGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallParkGetRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallParkGetRequest $request)
     {
@@ -2614,6 +2744,7 @@ trait OCISchemaDeprecated
      * @param GroupCallProcessingGetPolicyRequest14 $request
      * @return GroupCallProcessingGetPolicyResponse14
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallProcessingGetPolicyRequest14(\CWM\BroadWorksConnector\Ocip\Models\GroupCallProcessingGetPolicyRequest14 $request)
     {
@@ -2624,6 +2755,7 @@ trait OCISchemaDeprecated
      * @param GroupCallProcessingGetPolicyRequest14sp1 $request
      * @return GroupCallProcessingGetPolicyResponse14sp1
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallProcessingGetPolicyRequest14sp1(\CWM\BroadWorksConnector\Ocip\Models\GroupCallProcessingGetPolicyRequest14sp1 $request)
     {
@@ -2634,6 +2766,7 @@ trait OCISchemaDeprecated
      * @param GroupCallProcessingGetPolicyRequest14sp4 $request
      * @return GroupCallProcessingGetPolicyResponse14sp4
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallProcessingGetPolicyRequest14sp4(\CWM\BroadWorksConnector\Ocip\Models\GroupCallProcessingGetPolicyRequest14sp4 $request)
     {
@@ -2644,6 +2777,7 @@ trait OCISchemaDeprecated
      * @param GroupCallProcessingGetPolicyRequest14sp7 $request
      * @return GroupCallProcessingGetPolicyResponse14sp7
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallProcessingGetPolicyRequest14sp7(\CWM\BroadWorksConnector\Ocip\Models\GroupCallProcessingGetPolicyRequest14sp7 $request)
     {
@@ -2654,6 +2788,7 @@ trait OCISchemaDeprecated
      * @param GroupCallProcessingGetPolicyRequest15 $request
      * @return GroupCallProcessingGetPolicyResponse15
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallProcessingGetPolicyRequest15(\CWM\BroadWorksConnector\Ocip\Models\GroupCallProcessingGetPolicyRequest15 $request)
     {
@@ -2664,6 +2799,7 @@ trait OCISchemaDeprecated
      * @param GroupCallProcessingGetPolicyRequest15sp2 $request
      * @return GroupCallProcessingGetPolicyResponse15sp2
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallProcessingGetPolicyRequest15sp2(\CWM\BroadWorksConnector\Ocip\Models\GroupCallProcessingGetPolicyRequest15sp2 $request)
     {
@@ -2674,6 +2810,7 @@ trait OCISchemaDeprecated
      * @param GroupCallProcessingGetPolicyRequest16 $request
      * @return GroupCallProcessingGetPolicyResponse16
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallProcessingGetPolicyRequest16(\CWM\BroadWorksConnector\Ocip\Models\GroupCallProcessingGetPolicyRequest16 $request)
     {
@@ -2684,6 +2821,7 @@ trait OCISchemaDeprecated
      * @param GroupCallProcessingGetPolicyRequest16sp2 $request
      * @return GroupCallProcessingGetPolicyResponse16sp2
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallProcessingGetPolicyRequest16sp2(\CWM\BroadWorksConnector\Ocip\Models\GroupCallProcessingGetPolicyRequest16sp2 $request)
     {
@@ -2694,6 +2832,7 @@ trait OCISchemaDeprecated
      * @param GroupCallProcessingGetPolicyRequest17 $request
      * @return GroupCallProcessingGetPolicyResponse17
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallProcessingGetPolicyRequest17(\CWM\BroadWorksConnector\Ocip\Models\GroupCallProcessingGetPolicyRequest17 $request)
     {
@@ -2704,6 +2843,7 @@ trait OCISchemaDeprecated
      * @param GroupCallProcessingGetPolicyRequest17sp3 $request
      * @return GroupCallProcessingGetPolicyResponse17sp3
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallProcessingGetPolicyRequest17sp3(\CWM\BroadWorksConnector\Ocip\Models\GroupCallProcessingGetPolicyRequest17sp3 $request)
     {
@@ -2714,6 +2854,7 @@ trait OCISchemaDeprecated
      * @param GroupCallProcessingGetPolicyRequest17sp4 $request
      * @return GroupCallProcessingGetPolicyResponse17sp4
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallProcessingGetPolicyRequest17sp4(\CWM\BroadWorksConnector\Ocip\Models\GroupCallProcessingGetPolicyRequest17sp4 $request)
     {
@@ -2724,6 +2865,7 @@ trait OCISchemaDeprecated
      * @param GroupCallProcessingGetPolicyRequest18 $request
      * @return GroupCallProcessingGetPolicyResponse18
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallProcessingGetPolicyRequest18(\CWM\BroadWorksConnector\Ocip\Models\GroupCallProcessingGetPolicyRequest18 $request)
     {
@@ -2734,6 +2876,7 @@ trait OCISchemaDeprecated
      * @param GroupCallProcessingGetPolicyRequest18sp1 $request
      * @return GroupCallProcessingGetPolicyResponse18sp1
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallProcessingGetPolicyRequest18sp1(\CWM\BroadWorksConnector\Ocip\Models\GroupCallProcessingGetPolicyRequest18sp1 $request)
     {
@@ -2744,6 +2887,7 @@ trait OCISchemaDeprecated
      * @param GroupCallProcessingGetPolicyRequest19sp1 $request
      * @return GroupCallProcessingGetPolicyResponse19sp1
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallProcessingGetPolicyRequest19sp1(\CWM\BroadWorksConnector\Ocip\Models\GroupCallProcessingGetPolicyRequest19sp1 $request)
     {
@@ -2754,6 +2898,7 @@ trait OCISchemaDeprecated
      * @param GroupCallProcessingGetPolicyRequest21sp1 $request
      * @return GroupCallProcessingGetPolicyResponse21sp1
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallProcessingGetPolicyRequest21sp1(\CWM\BroadWorksConnector\Ocip\Models\GroupCallProcessingGetPolicyRequest21sp1 $request)
     {
@@ -2764,6 +2909,7 @@ trait OCISchemaDeprecated
      * @param GroupCallProcessingModifyPolicyRequest14 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallProcessingModifyPolicyRequest14(\CWM\BroadWorksConnector\Ocip\Models\GroupCallProcessingModifyPolicyRequest14 $request)
     {
@@ -2774,6 +2920,7 @@ trait OCISchemaDeprecated
      * @param GroupCallProcessingModifyPolicyRequest14sp7 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallProcessingModifyPolicyRequest14sp7(\CWM\BroadWorksConnector\Ocip\Models\GroupCallProcessingModifyPolicyRequest14sp7 $request)
     {
@@ -2784,6 +2931,7 @@ trait OCISchemaDeprecated
      * @param GroupCallProcessingModifyPolicyRequest15 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallProcessingModifyPolicyRequest15(\CWM\BroadWorksConnector\Ocip\Models\GroupCallProcessingModifyPolicyRequest15 $request)
     {
@@ -2794,6 +2942,7 @@ trait OCISchemaDeprecated
      * @param GroupCollaborateBridgeAddInstanceRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCollaborateBridgeAddInstanceRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCollaborateBridgeAddInstanceRequest $request)
     {
@@ -2804,6 +2953,7 @@ trait OCISchemaDeprecated
      * @param GroupCollaborateBridgeGetInstanceRequest $request
      * @return GroupCollaborateBridgeGetInstanceResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCollaborateBridgeGetInstanceRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCollaborateBridgeGetInstanceRequest $request)
     {
@@ -2814,6 +2964,7 @@ trait OCISchemaDeprecated
      * @param GroupCollaborateBridgeModifyInstanceRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCollaborateBridgeModifyInstanceRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCollaborateBridgeModifyInstanceRequest $request)
     {
@@ -2824,6 +2975,7 @@ trait OCISchemaDeprecated
      * @param GroupCustomContactDirectoryAddRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCustomContactDirectoryAddRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCustomContactDirectoryAddRequest $request)
     {
@@ -2834,6 +2986,7 @@ trait OCISchemaDeprecated
      * @param GroupCustomContactDirectoryGetAvailableUserListRequest $request
      * @return GroupCustomContactDirectoryGetAvailableUserListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCustomContactDirectoryGetAvailableUserListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCustomContactDirectoryGetAvailableUserListRequest $request)
     {
@@ -2844,6 +2997,7 @@ trait OCISchemaDeprecated
      * @param GroupCustomContactDirectoryGetRequest $request
      * @return GroupCustomContactDirectoryGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCustomContactDirectoryGetRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCustomContactDirectoryGetRequest $request)
     {
@@ -2854,6 +3008,7 @@ trait OCISchemaDeprecated
      * @param GroupCustomContactDirectoryModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCustomContactDirectoryModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCustomContactDirectoryModifyRequest $request)
     {
@@ -2864,6 +3019,7 @@ trait OCISchemaDeprecated
      * @param GroupCustomRingbackGroupGetRequest $request
      * @return GroupCustomRingbackGroupGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCustomRingbackGroupGetRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCustomRingbackGroupGetRequest $request)
     {
@@ -2874,6 +3030,7 @@ trait OCISchemaDeprecated
      * @param GroupCustomRingbackGroupModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCustomRingbackGroupModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCustomRingbackGroupModifyRequest $request)
     {
@@ -2884,6 +3041,7 @@ trait OCISchemaDeprecated
      * @param GroupDepartmentGetListRequest $request
      * @return GroupDepartmentGetListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupDepartmentGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentGetListRequest $request)
     {
@@ -2894,6 +3052,7 @@ trait OCISchemaDeprecated
      * @param GroupDeviceTypeFileGetListRequest $request
      * @return GroupDeviceTypeFileGetListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupDeviceTypeFileGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupDeviceTypeFileGetListRequest $request)
     {
@@ -2904,6 +3063,7 @@ trait OCISchemaDeprecated
      * @param GroupDeviceTypeFileGetListRequest14sp8 $request
      * @return GroupDeviceTypeFileGetListResponse14sp8
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupDeviceTypeFileGetListRequest14sp8(\CWM\BroadWorksConnector\Ocip\Models\GroupDeviceTypeFileGetListRequest14sp8 $request)
     {
@@ -2914,6 +3074,7 @@ trait OCISchemaDeprecated
      * @param GroupDeviceTypeFileGetRequest $request
      * @return GroupDeviceTypeFileGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupDeviceTypeFileGetRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupDeviceTypeFileGetRequest $request)
     {
@@ -2924,6 +3085,7 @@ trait OCISchemaDeprecated
      * @param GroupDeviceTypeFileGetRequest14sp8 $request
      * @return GroupDeviceTypeFileGetResponse14sp8
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupDeviceTypeFileGetRequest14sp8(\CWM\BroadWorksConnector\Ocip\Models\GroupDeviceTypeFileGetRequest14sp8 $request)
     {
@@ -2934,6 +3096,7 @@ trait OCISchemaDeprecated
      * @param GroupDeviceTypeFileModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupDeviceTypeFileModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupDeviceTypeFileModifyRequest $request)
     {
@@ -2944,6 +3107,7 @@ trait OCISchemaDeprecated
      * @param GroupDialPlanPolicyGetRequest $request
      * @return GroupDialPlanPolicyGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupDialPlanPolicyGetRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupDialPlanPolicyGetRequest $request)
     {
@@ -2954,6 +3118,7 @@ trait OCISchemaDeprecated
      * @param GroupDirectoryNumberHuntingGetRequest $request
      * @return GroupDirectoryNumberHuntingGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupDirectoryNumberHuntingGetRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupDirectoryNumberHuntingGetRequest $request)
     {
@@ -2964,6 +3129,7 @@ trait OCISchemaDeprecated
      * @param GroupDnGetAssignmentListRequest $request
      * @return GroupDnGetAssignmentListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupDnGetAssignmentListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupDnGetAssignmentListRequest $request)
     {
@@ -2974,6 +3140,7 @@ trait OCISchemaDeprecated
      * @param GroupEnterpriseTrunkAddRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupEnterpriseTrunkAddRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupEnterpriseTrunkAddRequest $request)
     {
@@ -2984,6 +3151,7 @@ trait OCISchemaDeprecated
      * @param GroupEnterpriseTrunkGetRequest $request
      * @return GroupEnterpriseTrunkGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupEnterpriseTrunkGetRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupEnterpriseTrunkGetRequest $request)
     {
@@ -2994,6 +3162,7 @@ trait OCISchemaDeprecated
      * @param GroupExtensionLengthGetRequest $request
      * @return GroupExtensionLengthGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupExtensionLengthGetRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupExtensionLengthGetRequest $request)
     {
@@ -3004,6 +3173,7 @@ trait OCISchemaDeprecated
      * @param GroupExtensionLengthModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupExtensionLengthModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupExtensionLengthModifyRequest $request)
     {
@@ -3014,6 +3184,7 @@ trait OCISchemaDeprecated
      * @param GroupFeatureAccessCodeGetListRequest $request
      * @return GroupFeatureAccessCodeGetListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupFeatureAccessCodeGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupFeatureAccessCodeGetListRequest $request)
     {
@@ -3024,6 +3195,7 @@ trait OCISchemaDeprecated
      * @param GroupFeatureAccessCodeGetRequest20 $request
      * @return GroupFeatureAccessCodeGetResponse20
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupFeatureAccessCodeGetRequest20(\CWM\BroadWorksConnector\Ocip\Models\GroupFeatureAccessCodeGetRequest20 $request)
     {
@@ -3034,6 +3206,7 @@ trait OCISchemaDeprecated
      * @param GroupFeatureAccessCodeModifyListRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupFeatureAccessCodeModifyListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupFeatureAccessCodeModifyListRequest $request)
     {
@@ -3044,6 +3217,7 @@ trait OCISchemaDeprecated
      * @param GroupFeatureAccessCodeModifyRequest20 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupFeatureAccessCodeModifyRequest20(\CWM\BroadWorksConnector\Ocip\Models\GroupFeatureAccessCodeModifyRequest20 $request)
     {
@@ -3054,6 +3228,7 @@ trait OCISchemaDeprecated
      * @param GroupFindMeFollowMeGetAlertingGroupSelectiveCriteriaRequest $request
      * @return GroupFindMeFollowMeGetAlertingGroupResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupFindMeFollowMeGetAlertingGroupSelectiveCriteriaRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupFindMeFollowMeGetAlertingGroupSelectiveCriteriaRequest $request)
     {
@@ -3064,6 +3239,7 @@ trait OCISchemaDeprecated
      * @param GroupFindMeFollowMeGetInstanceRequest $request
      * @return GroupFindMeFollowMeGetInstanceResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupFindMeFollowMeGetInstanceRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupFindMeFollowMeGetInstanceRequest $request)
     {
@@ -3074,6 +3250,7 @@ trait OCISchemaDeprecated
      * @param GroupGetRequest $request
      * @return GroupGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupGetRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupGetRequest $request)
     {
@@ -3084,6 +3261,7 @@ trait OCISchemaDeprecated
      * @param GroupGetRequest14sp7 $request
      * @return GroupGetResponse14sp7
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupGetRequest14sp7(\CWM\BroadWorksConnector\Ocip\Models\GroupGetRequest14sp7 $request)
     {
@@ -3094,6 +3272,7 @@ trait OCISchemaDeprecated
      * @param GroupGroupPagingGetInstanceRequest $request
      * @return GroupGroupPagingGetInstanceResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupGroupPagingGetInstanceRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupGroupPagingGetInstanceRequest $request)
     {
@@ -3104,6 +3283,7 @@ trait OCISchemaDeprecated
      * @param GroupGroupPagingGetInstanceRequest17sp3 $request
      * @return GroupGroupPagingGetInstanceResponse17sp3
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupGroupPagingGetInstanceRequest17sp3(\CWM\BroadWorksConnector\Ocip\Models\GroupGroupPagingGetInstanceRequest17sp3 $request)
     {
@@ -3114,6 +3294,7 @@ trait OCISchemaDeprecated
      * @param GroupHolidayScheduleAddRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupHolidayScheduleAddRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupHolidayScheduleAddRequest $request)
     {
@@ -3124,6 +3305,7 @@ trait OCISchemaDeprecated
      * @param GroupHolidayScheduleDeleteRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupHolidayScheduleDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupHolidayScheduleDeleteRequest $request)
     {
@@ -3134,6 +3316,7 @@ trait OCISchemaDeprecated
      * @param GroupHolidayScheduleGetListRequest $request
      * @return GroupHolidayScheduleGetListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupHolidayScheduleGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupHolidayScheduleGetListRequest $request)
     {
@@ -3144,6 +3327,7 @@ trait OCISchemaDeprecated
      * @param GroupHolidayScheduleGetRequest $request
      * @return GroupHolidayScheduleGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupHolidayScheduleGetRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupHolidayScheduleGetRequest $request)
     {
@@ -3154,6 +3338,7 @@ trait OCISchemaDeprecated
      * @param GroupHolidayScheduleModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupHolidayScheduleModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupHolidayScheduleModifyRequest $request)
     {
@@ -3164,6 +3349,7 @@ trait OCISchemaDeprecated
      * @param GroupHuntGroupAddInstanceRequest14 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupHuntGroupAddInstanceRequest14(\CWM\BroadWorksConnector\Ocip\Models\GroupHuntGroupAddInstanceRequest14 $request)
     {
@@ -3174,6 +3360,7 @@ trait OCISchemaDeprecated
      * @param GroupHuntGroupAddInstanceRequest17sp1V1 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupHuntGroupAddInstanceRequest17sp1V1(\CWM\BroadWorksConnector\Ocip\Models\GroupHuntGroupAddInstanceRequest17sp1V1 $request)
     {
@@ -3184,6 +3371,7 @@ trait OCISchemaDeprecated
      * @param GroupHuntGroupAddInstanceRequest17sp3 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupHuntGroupAddInstanceRequest17sp3(\CWM\BroadWorksConnector\Ocip\Models\GroupHuntGroupAddInstanceRequest17sp3 $request)
     {
@@ -3194,6 +3382,7 @@ trait OCISchemaDeprecated
      * @param GroupHuntGroupAddInstanceRequest17sp4 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupHuntGroupAddInstanceRequest17sp4(\CWM\BroadWorksConnector\Ocip\Models\GroupHuntGroupAddInstanceRequest17sp4 $request)
     {
@@ -3204,6 +3393,7 @@ trait OCISchemaDeprecated
      * @param GroupHuntGroupGetInstanceRequest14 $request
      * @return GroupHuntGroupGetInstanceResponse14
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupHuntGroupGetInstanceRequest14(\CWM\BroadWorksConnector\Ocip\Models\GroupHuntGroupGetInstanceRequest14 $request)
     {
@@ -3214,6 +3404,7 @@ trait OCISchemaDeprecated
      * @param GroupHuntGroupGetInstanceRequest17 $request
      * @return GroupHuntGroupGetInstanceResponse17
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupHuntGroupGetInstanceRequest17(\CWM\BroadWorksConnector\Ocip\Models\GroupHuntGroupGetInstanceRequest17 $request)
     {
@@ -3224,6 +3415,7 @@ trait OCISchemaDeprecated
      * @param GroupHuntGroupGetInstanceRequest17sp1V1 $request
      * @return GroupHuntGroupGetInstanceResponse17sp1V1
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupHuntGroupGetInstanceRequest17sp1V1(\CWM\BroadWorksConnector\Ocip\Models\GroupHuntGroupGetInstanceRequest17sp1V1 $request)
     {
@@ -3234,6 +3426,7 @@ trait OCISchemaDeprecated
      * @param GroupHuntGroupGetInstanceRequest17sp3 $request
      * @return GroupHuntGroupGetInstanceResponse17sp3
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupHuntGroupGetInstanceRequest17sp3(\CWM\BroadWorksConnector\Ocip\Models\GroupHuntGroupGetInstanceRequest17sp3 $request)
     {
@@ -3244,6 +3437,7 @@ trait OCISchemaDeprecated
      * @param GroupHuntGroupGetInstanceRequest17sp4 $request
      * @return GroupHuntGroupGetInstanceResponse17sp4
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupHuntGroupGetInstanceRequest17sp4(\CWM\BroadWorksConnector\Ocip\Models\GroupHuntGroupGetInstanceRequest17sp4 $request)
     {
@@ -3254,6 +3448,7 @@ trait OCISchemaDeprecated
      * @param GroupHuntGroupGetInstanceRequest19sp1 $request
      * @return GroupHuntGroupGetInstanceResponse19sp1
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupHuntGroupGetInstanceRequest19sp1(\CWM\BroadWorksConnector\Ocip\Models\GroupHuntGroupGetInstanceRequest19sp1 $request)
     {
@@ -3264,6 +3459,7 @@ trait OCISchemaDeprecated
      * @param GroupInstantGroupCallGetInstanceRequest14 $request
      * @return GroupInstantGroupCallGetInstanceResponse14
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupInstantGroupCallGetInstanceRequest14(\CWM\BroadWorksConnector\Ocip\Models\GroupInstantGroupCallGetInstanceRequest14 $request)
     {
@@ -3274,6 +3470,7 @@ trait OCISchemaDeprecated
      * @param GroupInstantGroupCallGetInstanceRequest17 $request
      * @return GroupInstantGroupCallGetInstanceResponse17
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupInstantGroupCallGetInstanceRequest17(\CWM\BroadWorksConnector\Ocip\Models\GroupInstantGroupCallGetInstanceRequest17 $request)
     {
@@ -3284,6 +3481,7 @@ trait OCISchemaDeprecated
      * @param GroupInterceptGroupGetRequest $request
      * @return GroupInterceptGroupGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupInterceptGroupGetRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupInterceptGroupGetRequest $request)
     {
@@ -3294,6 +3492,7 @@ trait OCISchemaDeprecated
      * @param GroupInterceptGroupGetRequest16 $request
      * @return GroupInterceptGroupGetResponse16
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupInterceptGroupGetRequest16(\CWM\BroadWorksConnector\Ocip\Models\GroupInterceptGroupGetRequest16 $request)
     {
@@ -3304,6 +3503,7 @@ trait OCISchemaDeprecated
      * @param GroupInterceptGroupModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupInterceptGroupModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupInterceptGroupModifyRequest $request)
     {
@@ -3314,6 +3514,7 @@ trait OCISchemaDeprecated
      * @param GroupMeetMeConferencingAddInstanceRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupMeetMeConferencingAddInstanceRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupMeetMeConferencingAddInstanceRequest $request)
     {
@@ -3324,6 +3525,7 @@ trait OCISchemaDeprecated
      * @param GroupMeetMeConferencingAddInstanceRequest18 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupMeetMeConferencingAddInstanceRequest18(\CWM\BroadWorksConnector\Ocip\Models\GroupMeetMeConferencingAddInstanceRequest18 $request)
     {
@@ -3334,6 +3536,7 @@ trait OCISchemaDeprecated
      * @param GroupMeetMeConferencingGetInstanceRequest $request
      * @return GroupMeetMeConferencingGetInstanceResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupMeetMeConferencingGetInstanceRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupMeetMeConferencingGetInstanceRequest $request)
     {
@@ -3344,6 +3547,7 @@ trait OCISchemaDeprecated
      * @param GroupMeetMeConferencingGetInstanceRequest17sp3 $request
      * @return GroupMeetMeConferencingGetInstanceResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupMeetMeConferencingGetInstanceRequest17sp3(\CWM\BroadWorksConnector\Ocip\Models\GroupMeetMeConferencingGetInstanceRequest17sp3 $request)
     {
@@ -3354,6 +3558,7 @@ trait OCISchemaDeprecated
      * @param GroupMeetMeConferencingGetInstanceRequest17sp4 $request
      * @return GroupMeetMeConferencingGetInstanceResponse17sp4
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupMeetMeConferencingGetInstanceRequest17sp4(\CWM\BroadWorksConnector\Ocip\Models\GroupMeetMeConferencingGetInstanceRequest17sp4 $request)
     {
@@ -3364,6 +3569,7 @@ trait OCISchemaDeprecated
      * @param GroupMeetMeConferencingGetInstanceRequest18 $request
      * @return GroupMeetMeConferencingGetInstanceResponse18
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupMeetMeConferencingGetInstanceRequest18(\CWM\BroadWorksConnector\Ocip\Models\GroupMeetMeConferencingGetInstanceRequest18 $request)
     {
@@ -3374,6 +3580,7 @@ trait OCISchemaDeprecated
      * @param GroupMeetMeConferencingGetInstanceRequest19 $request
      * @return GroupMeetMeConferencingGetInstanceResponse19
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupMeetMeConferencingGetInstanceRequest19(\CWM\BroadWorksConnector\Ocip\Models\GroupMeetMeConferencingGetInstanceRequest19 $request)
     {
@@ -3384,6 +3591,7 @@ trait OCISchemaDeprecated
      * @param GroupMusicOnHoldAddInstanceRequest14 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupMusicOnHoldAddInstanceRequest14(\CWM\BroadWorksConnector\Ocip\Models\GroupMusicOnHoldAddInstanceRequest14 $request)
     {
@@ -3394,6 +3602,7 @@ trait OCISchemaDeprecated
      * @param GroupMusicOnHoldAddInstanceRequest14sp4 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupMusicOnHoldAddInstanceRequest14sp4(\CWM\BroadWorksConnector\Ocip\Models\GroupMusicOnHoldAddInstanceRequest14sp4 $request)
     {
@@ -3404,6 +3613,7 @@ trait OCISchemaDeprecated
      * @param GroupMusicOnHoldAddInstanceRequest14sp6 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupMusicOnHoldAddInstanceRequest14sp6(\CWM\BroadWorksConnector\Ocip\Models\GroupMusicOnHoldAddInstanceRequest14sp6 $request)
     {
@@ -3414,6 +3624,7 @@ trait OCISchemaDeprecated
      * @param GroupMusicOnHoldAddInstanceRequest16 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupMusicOnHoldAddInstanceRequest16(\CWM\BroadWorksConnector\Ocip\Models\GroupMusicOnHoldAddInstanceRequest16 $request)
     {
@@ -3424,6 +3635,7 @@ trait OCISchemaDeprecated
      * @param GroupMusicOnHoldGetInstanceRequest14 $request
      * @return GroupMusicOnHoldGetInstanceResponse14
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupMusicOnHoldGetInstanceRequest14(\CWM\BroadWorksConnector\Ocip\Models\GroupMusicOnHoldGetInstanceRequest14 $request)
     {
@@ -3434,6 +3646,7 @@ trait OCISchemaDeprecated
      * @param GroupMusicOnHoldGetInstanceRequest14sp4 $request
      * @return GroupMusicOnHoldGetInstanceResponse14sp4
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupMusicOnHoldGetInstanceRequest14sp4(\CWM\BroadWorksConnector\Ocip\Models\GroupMusicOnHoldGetInstanceRequest14sp4 $request)
     {
@@ -3444,6 +3657,7 @@ trait OCISchemaDeprecated
      * @param GroupMusicOnHoldGetInstanceRequest14sp6 $request
      * @return GroupMusicOnHoldGetInstanceResponse14sp6
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupMusicOnHoldGetInstanceRequest14sp6(\CWM\BroadWorksConnector\Ocip\Models\GroupMusicOnHoldGetInstanceRequest14sp6 $request)
     {
@@ -3454,6 +3668,7 @@ trait OCISchemaDeprecated
      * @param GroupMusicOnHoldGetInstanceRequest16 $request
      * @return GroupMusicOnHoldGetInstanceResponse16
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupMusicOnHoldGetInstanceRequest16(\CWM\BroadWorksConnector\Ocip\Models\GroupMusicOnHoldGetInstanceRequest16 $request)
     {
@@ -3464,6 +3679,7 @@ trait OCISchemaDeprecated
      * @param GroupMusicOnHoldModifyInstanceRequest14 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupMusicOnHoldModifyInstanceRequest14(\CWM\BroadWorksConnector\Ocip\Models\GroupMusicOnHoldModifyInstanceRequest14 $request)
     {
@@ -3474,6 +3690,7 @@ trait OCISchemaDeprecated
      * @param GroupMusicOnHoldModifyInstanceRequest14sp6 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupMusicOnHoldModifyInstanceRequest14sp6(\CWM\BroadWorksConnector\Ocip\Models\GroupMusicOnHoldModifyInstanceRequest14sp6 $request)
     {
@@ -3484,6 +3701,7 @@ trait OCISchemaDeprecated
      * @param GroupMusicOnHoldModifyInstanceRequest16 $request
      * @return 
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupMusicOnHoldModifyInstanceRequest16(\CWM\BroadWorksConnector\Ocip\Models\GroupMusicOnHoldModifyInstanceRequest16 $request)
     {
@@ -3494,6 +3712,7 @@ trait OCISchemaDeprecated
      * @param GroupPasswordRulesGetRequest $request
      * @return GroupPasswordRulesGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupPasswordRulesGetRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupPasswordRulesGetRequest $request)
     {
@@ -3504,6 +3723,7 @@ trait OCISchemaDeprecated
      * @param GroupPhoneDirectoryGetListRequest $request
      * @return GroupPhoneDirectoryGetListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupPhoneDirectoryGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupPhoneDirectoryGetListRequest $request)
     {
@@ -3514,6 +3734,7 @@ trait OCISchemaDeprecated
      * @param GroupPhoneDirectoryGetListRequest17 $request
      * @return GroupPhoneDirectoryGetListResponse17
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupPhoneDirectoryGetListRequest17(\CWM\BroadWorksConnector\Ocip\Models\GroupPhoneDirectoryGetListRequest17 $request)
     {
@@ -3524,6 +3745,7 @@ trait OCISchemaDeprecated
      * @param GroupPhoneDirectoryGetListRequest17sp3 $request
      * @return GroupPhoneDirectoryGetListResponse17sp3
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupPhoneDirectoryGetListRequest17sp3(\CWM\BroadWorksConnector\Ocip\Models\GroupPhoneDirectoryGetListRequest17sp3 $request)
     {
@@ -3534,6 +3756,7 @@ trait OCISchemaDeprecated
      * @param GroupPolicyGetRequest $request
      * @return GroupPolicyGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupPolicyGetRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupPolicyGetRequest $request)
     {
@@ -3544,6 +3767,7 @@ trait OCISchemaDeprecated
      * @param GroupPolicyGetRequest14sp1 $request
      * @return GroupPolicyGetResponse14sp1
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupPolicyGetRequest14sp1(\CWM\BroadWorksConnector\Ocip\Models\GroupPolicyGetRequest14sp1 $request)
     {
@@ -3554,6 +3778,7 @@ trait OCISchemaDeprecated
      * @param GroupPolicyGetRequest14sp4 $request
      * @return GroupPolicyGetResponse14sp4
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupPolicyGetRequest14sp4(\CWM\BroadWorksConnector\Ocip\Models\GroupPolicyGetRequest14sp4 $request)
     {
@@ -3564,6 +3789,7 @@ trait OCISchemaDeprecated
      * @param GroupPortalPasscodeRulesGetRequest $request
      * @return GroupPortalPasscodeRulesGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupPortalPasscodeRulesGetRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupPortalPasscodeRulesGetRequest $request)
     {
@@ -3574,6 +3800,7 @@ trait OCISchemaDeprecated
      * @param GroupRoutePointForcedForwardingGetRequest $request
      * @return GroupRoutePointForcedForwardingGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupRoutePointForcedForwardingGetRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointForcedForwardingGetRequest $request)
     {
@@ -3584,6 +3811,7 @@ trait OCISchemaDeprecated
      * @param GroupRoutePointForcedForwardingModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupRoutePointForcedForwardingModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointForcedForwardingModifyRequest $request)
     {
@@ -3594,6 +3822,7 @@ trait OCISchemaDeprecated
      * @param GroupRoutePointGetAnnouncementRequest $request
      * @return GroupRoutePointGetAnnouncementResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupRoutePointGetAnnouncementRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointGetAnnouncementRequest $request)
     {
@@ -3604,6 +3833,7 @@ trait OCISchemaDeprecated
      * @param GroupRoutePointGetAnnouncementRequest19 $request
      * @return GroupRoutePointGetAnnouncementResponse19
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupRoutePointGetAnnouncementRequest19(\CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointGetAnnouncementRequest19 $request)
     {
@@ -3614,6 +3844,7 @@ trait OCISchemaDeprecated
      * @param GroupRoutePointGetDNISAnnouncementRequest $request
      * @return GroupRoutePointGetDNISAnnouncementResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupRoutePointGetDNISAnnouncementRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointGetDNISAnnouncementRequest $request)
     {
@@ -3624,6 +3855,7 @@ trait OCISchemaDeprecated
      * @param GroupRoutePointGetDNISAnnouncementRequest19 $request
      * @return GroupRoutePointGetDNISAnnouncementResponse19
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupRoutePointGetDNISAnnouncementRequest19(\CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointGetDNISAnnouncementRequest19 $request)
     {
@@ -3634,6 +3866,7 @@ trait OCISchemaDeprecated
      * @param GroupRoutePointGetInstanceRequest $request
      * @return GroupRoutePointGetInstanceResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupRoutePointGetInstanceRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointGetInstanceRequest $request)
     {
@@ -3644,6 +3877,7 @@ trait OCISchemaDeprecated
      * @param GroupRoutePointHolidayServiceGetRequest $request
      * @return GroupRoutePointHolidayServiceGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupRoutePointHolidayServiceGetRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointHolidayServiceGetRequest $request)
     {
@@ -3654,6 +3888,7 @@ trait OCISchemaDeprecated
      * @param GroupRoutePointHolidayServiceGetRequest17sp1 $request
      * @return GroupRoutePointHolidayServiceGetResponse17sp1
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupRoutePointHolidayServiceGetRequest17sp1(\CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointHolidayServiceGetRequest17sp1 $request)
     {
@@ -3664,6 +3899,7 @@ trait OCISchemaDeprecated
      * @param GroupRoutePointHolidayServiceModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupRoutePointHolidayServiceModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointHolidayServiceModifyRequest $request)
     {
@@ -3674,6 +3910,7 @@ trait OCISchemaDeprecated
      * @param GroupRoutePointHolidayServiceModifyRequest17sp1 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupRoutePointHolidayServiceModifyRequest17sp1(\CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointHolidayServiceModifyRequest17sp1 $request)
     {
@@ -3684,6 +3921,7 @@ trait OCISchemaDeprecated
      * @param GroupRoutePointModifyAnnouncementRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupRoutePointModifyAnnouncementRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointModifyAnnouncementRequest $request)
     {
@@ -3694,6 +3932,7 @@ trait OCISchemaDeprecated
      * @param GroupRoutePointModifyDNISAnnouncementRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupRoutePointModifyDNISAnnouncementRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointModifyDNISAnnouncementRequest $request)
     {
@@ -3704,6 +3943,7 @@ trait OCISchemaDeprecated
      * @param GroupRoutePointNightServiceGetRequest $request
      * @return GroupRoutePointNightServiceGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupRoutePointNightServiceGetRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointNightServiceGetRequest $request)
     {
@@ -3714,6 +3954,7 @@ trait OCISchemaDeprecated
      * @param GroupRoutePointNightServiceGetRequest17sp1 $request
      * @return GroupRoutePointNightServiceGetResponse17sp1
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupRoutePointNightServiceGetRequest17sp1(\CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointNightServiceGetRequest17sp1 $request)
     {
@@ -3724,6 +3965,7 @@ trait OCISchemaDeprecated
      * @param GroupRoutePointNightServiceModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupRoutePointNightServiceModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointNightServiceModifyRequest $request)
     {
@@ -3734,6 +3976,7 @@ trait OCISchemaDeprecated
      * @param GroupRoutePointNightServiceModifyRequest17sp1 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupRoutePointNightServiceModifyRequest17sp1(\CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointNightServiceModifyRequest17sp1 $request)
     {
@@ -3744,6 +3987,7 @@ trait OCISchemaDeprecated
      * @param GroupRoutePointOverflowGetRequest $request
      * @return GroupRoutePointOverflowGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupRoutePointOverflowGetRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointOverflowGetRequest $request)
     {
@@ -3754,6 +3998,7 @@ trait OCISchemaDeprecated
      * @param GroupRoutePointOverflowModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupRoutePointOverflowModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointOverflowModifyRequest $request)
     {
@@ -3764,6 +4009,7 @@ trait OCISchemaDeprecated
      * @param GroupScheduleGetListRequest $request
      * @return GroupScheduleGetListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupScheduleGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupScheduleGetListRequest $request)
     {
@@ -3774,6 +4020,7 @@ trait OCISchemaDeprecated
      * @param GroupServiceInstancePrivacyGetRequest $request
      * @return GroupServiceInstancePrivacyGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupServiceInstancePrivacyGetRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupServiceInstancePrivacyGetRequest $request)
     {
@@ -3784,6 +4031,7 @@ trait OCISchemaDeprecated
      * @param GroupSessionAdmissionControlGroupAddRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupSessionAdmissionControlGroupAddRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupSessionAdmissionControlGroupAddRequest $request)
     {
@@ -3794,6 +4042,7 @@ trait OCISchemaDeprecated
      * @param GroupSessionAdmissionControlGroupGetRequest $request
      * @return GroupSessionAdmissionControlGroupGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupSessionAdmissionControlGroupGetRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupSessionAdmissionControlGroupGetRequest $request)
     {
@@ -3804,6 +4053,7 @@ trait OCISchemaDeprecated
      * @param GroupSessionAdmissionControlGroupGetRequest19sp1 $request
      * @return GroupSessionAdmissionControlGroupGetResponse19sp1
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupSessionAdmissionControlGroupGetRequest19sp1(\CWM\BroadWorksConnector\Ocip\Models\GroupSessionAdmissionControlGroupGetRequest19sp1 $request)
     {
@@ -3814,6 +4064,7 @@ trait OCISchemaDeprecated
      * @param GroupSessionAdmissionControlGroupGetRequest21sp1 $request
      * @return GroupSessionAdmissionControlGroupGetResponse21sp1
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupSessionAdmissionControlGroupGetRequest21sp1(\CWM\BroadWorksConnector\Ocip\Models\GroupSessionAdmissionControlGroupGetRequest21sp1 $request)
     {
@@ -3824,6 +4075,7 @@ trait OCISchemaDeprecated
      * @param GroupSpeedDial100GetRequest $request
      * @return GroupSpeedDial100GetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupSpeedDial100GetRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupSpeedDial100GetRequest $request)
     {
@@ -3834,6 +4086,7 @@ trait OCISchemaDeprecated
      * @param GroupTimeScheduleAddRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupTimeScheduleAddRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupTimeScheduleAddRequest $request)
     {
@@ -3844,6 +4097,7 @@ trait OCISchemaDeprecated
      * @param GroupTimeScheduleDeleteRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupTimeScheduleDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupTimeScheduleDeleteRequest $request)
     {
@@ -3854,6 +4108,7 @@ trait OCISchemaDeprecated
      * @param GroupTimeScheduleGetListRequest $request
      * @return GroupTimeScheduleGetListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupTimeScheduleGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupTimeScheduleGetListRequest $request)
     {
@@ -3864,6 +4119,7 @@ trait OCISchemaDeprecated
      * @param GroupTimeScheduleGetRequest $request
      * @return GroupTimeScheduleGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupTimeScheduleGetRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupTimeScheduleGetRequest $request)
     {
@@ -3874,6 +4130,7 @@ trait OCISchemaDeprecated
      * @param GroupTimeScheduleModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupTimeScheduleModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupTimeScheduleModifyRequest $request)
     {
@@ -3884,6 +4141,7 @@ trait OCISchemaDeprecated
      * @param GroupTrunkGroupAddInstanceRequest14 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupTrunkGroupAddInstanceRequest14(\CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupAddInstanceRequest14 $request)
     {
@@ -3894,6 +4152,7 @@ trait OCISchemaDeprecated
      * @param GroupTrunkGroupAddInstanceRequest14sp1 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupTrunkGroupAddInstanceRequest14sp1(\CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupAddInstanceRequest14sp1 $request)
     {
@@ -3904,6 +4163,7 @@ trait OCISchemaDeprecated
      * @param GroupTrunkGroupAddInstanceRequest14sp4 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupTrunkGroupAddInstanceRequest14sp4(\CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupAddInstanceRequest14sp4 $request)
     {
@@ -3914,6 +4174,7 @@ trait OCISchemaDeprecated
      * @param GroupTrunkGroupAddInstanceRequest14sp9 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupTrunkGroupAddInstanceRequest14sp9(\CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupAddInstanceRequest14sp9 $request)
     {
@@ -3924,6 +4185,7 @@ trait OCISchemaDeprecated
      * @param GroupTrunkGroupAddInstanceRequest14sp9A $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupTrunkGroupAddInstanceRequest14sp9A(\CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupAddInstanceRequest14sp9A $request)
     {
@@ -3934,6 +4196,7 @@ trait OCISchemaDeprecated
      * @param GroupTrunkGroupAddInstanceRequest15 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupTrunkGroupAddInstanceRequest15(\CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupAddInstanceRequest15 $request)
     {
@@ -3944,6 +4207,7 @@ trait OCISchemaDeprecated
      * @param GroupTrunkGroupAddInstanceRequest15sp2 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupTrunkGroupAddInstanceRequest15sp2(\CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupAddInstanceRequest15sp2 $request)
     {
@@ -3954,6 +4218,7 @@ trait OCISchemaDeprecated
      * @param GroupTrunkGroupAddInstanceRequest17 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupTrunkGroupAddInstanceRequest17(\CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupAddInstanceRequest17 $request)
     {
@@ -3964,6 +4229,7 @@ trait OCISchemaDeprecated
      * @param GroupTrunkGroupAddInstanceRequest17sp3 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupTrunkGroupAddInstanceRequest17sp3(\CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupAddInstanceRequest17sp3 $request)
     {
@@ -3974,6 +4240,7 @@ trait OCISchemaDeprecated
      * @param GroupTrunkGroupAddInstanceRequest17sp4 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupTrunkGroupAddInstanceRequest17sp4(\CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupAddInstanceRequest17sp4 $request)
     {
@@ -3984,6 +4251,7 @@ trait OCISchemaDeprecated
      * @param GroupTrunkGroupAddInstanceRequest19 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupTrunkGroupAddInstanceRequest19(\CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupAddInstanceRequest19 $request)
     {
@@ -3994,6 +4262,7 @@ trait OCISchemaDeprecated
      * @param GroupTrunkGroupAddInstanceRequest19sp1 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupTrunkGroupAddInstanceRequest19sp1(\CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupAddInstanceRequest19sp1 $request)
     {
@@ -4004,6 +4273,7 @@ trait OCISchemaDeprecated
      * @param GroupTrunkGroupAddInstanceRequest20sp1 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupTrunkGroupAddInstanceRequest20sp1(\CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupAddInstanceRequest20sp1 $request)
     {
@@ -4014,6 +4284,7 @@ trait OCISchemaDeprecated
      * @param GroupTrunkGroupDeleteInstanceRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupTrunkGroupDeleteInstanceRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupDeleteInstanceRequest $request)
     {
@@ -4024,6 +4295,7 @@ trait OCISchemaDeprecated
      * @param GroupTrunkGroupGetInstanceListRequest14 $request
      * @return GroupTrunkGroupGetInstanceListResponse14
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupTrunkGroupGetInstanceListRequest14(\CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupGetInstanceListRequest14 $request)
     {
@@ -4034,6 +4306,7 @@ trait OCISchemaDeprecated
      * @param GroupTrunkGroupGetInstanceRequest14 $request
      * @return GroupTrunkGroupGetInstanceResponse14
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupTrunkGroupGetInstanceRequest14(\CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupGetInstanceRequest14 $request)
     {
@@ -4044,6 +4317,7 @@ trait OCISchemaDeprecated
      * @param GroupTrunkGroupGetInstanceRequest14sp1 $request
      * @return GroupTrunkGroupGetInstanceResponse14sp1
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupTrunkGroupGetInstanceRequest14sp1(\CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupGetInstanceRequest14sp1 $request)
     {
@@ -4054,6 +4328,7 @@ trait OCISchemaDeprecated
      * @param GroupTrunkGroupGetInstanceRequest14sp4 $request
      * @return GroupTrunkGroupGetInstanceResponse14sp4
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupTrunkGroupGetInstanceRequest14sp4(\CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupGetInstanceRequest14sp4 $request)
     {
@@ -4064,6 +4339,7 @@ trait OCISchemaDeprecated
      * @param GroupTrunkGroupGetInstanceRequest14sp5 $request
      * @return GroupTrunkGroupGetInstanceResponse14sp5
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupTrunkGroupGetInstanceRequest14sp5(\CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupGetInstanceRequest14sp5 $request)
     {
@@ -4074,6 +4350,7 @@ trait OCISchemaDeprecated
      * @param GroupTrunkGroupGetInstanceRequest14sp9 $request
      * @return GroupTrunkGroupGetInstanceResponse14sp9
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupTrunkGroupGetInstanceRequest14sp9(\CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupGetInstanceRequest14sp9 $request)
     {
@@ -4084,6 +4361,7 @@ trait OCISchemaDeprecated
      * @param GroupTrunkGroupGetInstanceRequest14sp9A $request
      * @return GroupTrunkGroupGetInstanceResponse14sp9
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupTrunkGroupGetInstanceRequest14sp9A(\CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupGetInstanceRequest14sp9A $request)
     {
@@ -4094,6 +4372,7 @@ trait OCISchemaDeprecated
      * @param GroupTrunkGroupGetInstanceRequest15 $request
      * @return GroupTrunkGroupGetInstanceResponse15
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupTrunkGroupGetInstanceRequest15(\CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupGetInstanceRequest15 $request)
     {
@@ -4104,6 +4383,7 @@ trait OCISchemaDeprecated
      * @param GroupTrunkGroupGetInstanceRequest15sp2 $request
      * @return GroupTrunkGroupGetInstanceResponse15sp2
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupTrunkGroupGetInstanceRequest15sp2(\CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupGetInstanceRequest15sp2 $request)
     {
@@ -4114,6 +4394,7 @@ trait OCISchemaDeprecated
      * @param GroupTrunkGroupGetInstanceRequest17 $request
      * @return GroupTrunkGroupGetInstanceResponse17
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupTrunkGroupGetInstanceRequest17(\CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupGetInstanceRequest17 $request)
     {
@@ -4124,6 +4405,7 @@ trait OCISchemaDeprecated
      * @param GroupTrunkGroupGetInstanceRequest17sp3 $request
      * @return GroupTrunkGroupGetInstanceResponse17sp3
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupTrunkGroupGetInstanceRequest17sp3(\CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupGetInstanceRequest17sp3 $request)
     {
@@ -4134,6 +4416,7 @@ trait OCISchemaDeprecated
      * @param GroupTrunkGroupGetInstanceRequest17sp4 $request
      * @return GroupTrunkGroupGetInstanceResponse17sp4
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupTrunkGroupGetInstanceRequest17sp4(\CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupGetInstanceRequest17sp4 $request)
     {
@@ -4144,6 +4427,7 @@ trait OCISchemaDeprecated
      * @param GroupTrunkGroupGetInstanceRequest17sp4V2 $request
      * @return GroupTrunkGroupGetInstanceResponse17sp4V2
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupTrunkGroupGetInstanceRequest17sp4V2(\CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupGetInstanceRequest17sp4V2 $request)
     {
@@ -4154,6 +4438,7 @@ trait OCISchemaDeprecated
      * @param GroupTrunkGroupGetInstanceRequest19 $request
      * @return GroupTrunkGroupGetInstanceResponse19
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupTrunkGroupGetInstanceRequest19(\CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupGetInstanceRequest19 $request)
     {
@@ -4164,6 +4449,7 @@ trait OCISchemaDeprecated
      * @param GroupTrunkGroupGetInstanceRequest19sp1 $request
      * @return GroupTrunkGroupGetInstanceResponse19sp1
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupTrunkGroupGetInstanceRequest19sp1(\CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupGetInstanceRequest19sp1 $request)
     {
@@ -4174,6 +4460,7 @@ trait OCISchemaDeprecated
      * @param GroupTrunkGroupGetInstanceRequest19sp1V2 $request
      * @return GroupTrunkGroupGetInstanceResponse19sp1V2
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupTrunkGroupGetInstanceRequest19sp1V2(\CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupGetInstanceRequest19sp1V2 $request)
     {
@@ -4184,6 +4471,7 @@ trait OCISchemaDeprecated
      * @param GroupTrunkGroupGetInstanceRequest19V2 $request
      * @return GroupTrunkGroupGetInstanceResponse19V2
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupTrunkGroupGetInstanceRequest19V2(\CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupGetInstanceRequest19V2 $request)
     {
@@ -4194,6 +4482,7 @@ trait OCISchemaDeprecated
      * @param GroupTrunkGroupGetInstanceRequest20sp1 $request
      * @return GroupTrunkGroupGetInstanceResponse20sp1
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupTrunkGroupGetInstanceRequest20sp1(\CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupGetInstanceRequest20sp1 $request)
     {
@@ -4204,6 +4493,7 @@ trait OCISchemaDeprecated
      * @param GroupTrunkGroupGetInstanceUserListRequest $request
      * @return GroupTrunkGroupGetInstanceUserListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupTrunkGroupGetInstanceUserListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupGetInstanceUserListRequest $request)
     {
@@ -4214,6 +4504,7 @@ trait OCISchemaDeprecated
      * @param GroupTrunkGroupGetRequest $request
      * @return GroupTrunkGroupGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupTrunkGroupGetRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupGetRequest $request)
     {
@@ -4224,6 +4515,7 @@ trait OCISchemaDeprecated
      * @param GroupTrunkGroupGetRequest14sp1 $request
      * @return GroupTrunkGroupGetResponse14sp1
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupTrunkGroupGetRequest14sp1(\CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupGetRequest14sp1 $request)
     {
@@ -4234,6 +4526,7 @@ trait OCISchemaDeprecated
      * @param GroupTrunkGroupModifyInstanceRequest14 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupTrunkGroupModifyInstanceRequest14(\CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupModifyInstanceRequest14 $request)
     {
@@ -4244,6 +4537,7 @@ trait OCISchemaDeprecated
      * @param GroupTrunkGroupModifyInstanceRequest14sp4 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupTrunkGroupModifyInstanceRequest14sp4(\CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupModifyInstanceRequest14sp4 $request)
     {
@@ -4254,6 +4548,7 @@ trait OCISchemaDeprecated
      * @param GroupTrunkGroupModifyInstanceRequest14sp9A $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupTrunkGroupModifyInstanceRequest14sp9A(\CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupModifyInstanceRequest14sp9A $request)
     {
@@ -4264,6 +4559,7 @@ trait OCISchemaDeprecated
      * @param GroupTrunkGroupModifyInstanceRequest15 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupTrunkGroupModifyInstanceRequest15(\CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupModifyInstanceRequest15 $request)
     {
@@ -4274,6 +4570,7 @@ trait OCISchemaDeprecated
      * @param GroupTrunkGroupModifyInstanceRequest19sp1 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupTrunkGroupModifyInstanceRequest19sp1(\CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupModifyInstanceRequest19sp1 $request)
     {
@@ -4284,6 +4581,7 @@ trait OCISchemaDeprecated
      * @param GroupTrunkGroupModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupTrunkGroupModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupModifyRequest $request)
     {
@@ -4294,6 +4592,7 @@ trait OCISchemaDeprecated
      * @param GroupTrunkGroupUserCreationTaskAddRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupTrunkGroupUserCreationTaskAddRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupUserCreationTaskAddRequest $request)
     {
@@ -4304,6 +4603,7 @@ trait OCISchemaDeprecated
      * @param GroupTrunkGroupUserCreationTaskDeleteRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupTrunkGroupUserCreationTaskDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupUserCreationTaskDeleteRequest $request)
     {
@@ -4314,6 +4614,7 @@ trait OCISchemaDeprecated
      * @param GroupTrunkGroupUserCreationTaskGetListRequest $request
      * @return GroupTrunkGroupUserCreationTaskGetListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupTrunkGroupUserCreationTaskGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupUserCreationTaskGetListRequest $request)
     {
@@ -4324,6 +4625,7 @@ trait OCISchemaDeprecated
      * @param GroupTrunkGroupUserCreationTaskGetRequest $request
      * @return GroupTrunkGroupUserCreationTaskGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupTrunkGroupUserCreationTaskGetRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupUserCreationTaskGetRequest $request)
     {
@@ -4334,6 +4636,7 @@ trait OCISchemaDeprecated
      * @param GroupVoiceMessagingGroupGetPasscodeRulesRequest $request
      * @return GroupVoiceMessagingGroupGetPasscodeRulesResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupVoiceMessagingGroupGetPasscodeRulesRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupVoiceMessagingGroupGetPasscodeRulesRequest $request)
     {
@@ -4344,6 +4647,7 @@ trait OCISchemaDeprecated
      * @param GroupVoiceMessagingGroupGetVoicePortalBrandingRequest $request
      * @return GroupVoiceMessagingGroupGetVoicePortalBrandingResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupVoiceMessagingGroupGetVoicePortalBrandingRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupVoiceMessagingGroupGetVoicePortalBrandingRequest $request)
     {
@@ -4354,6 +4658,7 @@ trait OCISchemaDeprecated
      * @param GroupVoiceMessagingGroupGetVoicePortalRequest14 $request
      * @return GroupVoiceMessagingGroupGetVoicePortalResponse14
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupVoiceMessagingGroupGetVoicePortalRequest14(\CWM\BroadWorksConnector\Ocip\Models\GroupVoiceMessagingGroupGetVoicePortalRequest14 $request)
     {
@@ -4364,6 +4669,7 @@ trait OCISchemaDeprecated
      * @param GroupVoiceMessagingGroupGetVoicePortalRequest15 $request
      * @return GroupVoiceMessagingGroupGetVoicePortalResponse15
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupVoiceMessagingGroupGetVoicePortalRequest15(\CWM\BroadWorksConnector\Ocip\Models\GroupVoiceMessagingGroupGetVoicePortalRequest15 $request)
     {
@@ -4374,6 +4680,7 @@ trait OCISchemaDeprecated
      * @param GroupVoiceMessagingGroupGetVoicePortalRequest17 $request
      * @return GroupVoiceMessagingGroupGetVoicePortalResponse17
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupVoiceMessagingGroupGetVoicePortalRequest17(\CWM\BroadWorksConnector\Ocip\Models\GroupVoiceMessagingGroupGetVoicePortalRequest17 $request)
     {
@@ -4384,6 +4691,7 @@ trait OCISchemaDeprecated
      * @param GroupVoiceMessagingGroupModifyPasscodeRulesRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupVoiceMessagingGroupModifyPasscodeRulesRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupVoiceMessagingGroupModifyPasscodeRulesRequest $request)
     {
@@ -4394,6 +4702,7 @@ trait OCISchemaDeprecated
      * @param GroupVoiceMessagingGroupModifyVoicePortalBrandingRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupVoiceMessagingGroupModifyVoicePortalBrandingRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupVoiceMessagingGroupModifyVoicePortalBrandingRequest $request)
     {
@@ -4404,6 +4713,7 @@ trait OCISchemaDeprecated
      * @param LoginRequest13mp10 $request
      * @return 
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function loginRequest13mp10(\CWM\BroadWorksConnector\Ocip\Models\LoginRequest13mp10 $request)
     {
@@ -4414,6 +4724,7 @@ trait OCISchemaDeprecated
      * @param ServiceProviderAccessDeviceFileGetListRequest $request
      * @return ServiceProviderAccessDeviceFileGetListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderAccessDeviceFileGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceFileGetListRequest $request)
     {
@@ -4424,6 +4735,7 @@ trait OCISchemaDeprecated
      * @param ServiceProviderAccessDeviceFileGetRequest $request
      * @return ServiceProviderAccessDeviceFileGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderAccessDeviceFileGetRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceFileGetRequest $request)
     {
@@ -4434,6 +4746,7 @@ trait OCISchemaDeprecated
      * @param ServiceProviderAccessDeviceFileGetRequest14sp8 $request
      * @return ServiceProviderAccessDeviceFileGetResponse14sp8
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderAccessDeviceFileGetRequest14sp8(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceFileGetRequest14sp8 $request)
     {
@@ -4444,6 +4757,7 @@ trait OCISchemaDeprecated
      * @param ServiceProviderAccessDeviceFileGetRequest16sp1 $request
      * @return ServiceProviderAccessDeviceFileGetResponse16sp1
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderAccessDeviceFileGetRequest16sp1(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceFileGetRequest16sp1 $request)
     {
@@ -4454,6 +4768,7 @@ trait OCISchemaDeprecated
      * @param ServiceProviderAccessDeviceFileModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderAccessDeviceFileModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceFileModifyRequest $request)
     {
@@ -4464,6 +4779,7 @@ trait OCISchemaDeprecated
      * @param ServiceProviderAccessDeviceGetRequest14 $request
      * @return ServiceProviderAccessDeviceGetResponse14
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderAccessDeviceGetRequest14(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceGetRequest14 $request)
     {
@@ -4474,6 +4790,7 @@ trait OCISchemaDeprecated
      * @param ServiceProviderAccessDeviceGetRequest14sp3 $request
      * @return ServiceProviderAccessDeviceGetResponse14sp3
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderAccessDeviceGetRequest14sp3(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceGetRequest14sp3 $request)
     {
@@ -4484,6 +4801,7 @@ trait OCISchemaDeprecated
      * @param ServiceProviderAccessDeviceGetRequest14sp6 $request
      * @return ServiceProviderAccessDeviceGetResponse14sp6
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderAccessDeviceGetRequest14sp6(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceGetRequest14sp6 $request)
     {
@@ -4494,6 +4812,7 @@ trait OCISchemaDeprecated
      * @param ServiceProviderAccessDeviceGetRequest16 $request
      * @return ServiceProviderAccessDeviceGetResponse16
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderAccessDeviceGetRequest16(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceGetRequest16 $request)
     {
@@ -4504,6 +4823,7 @@ trait OCISchemaDeprecated
      * @param ServiceProviderAdminGetPolicyRequest14 $request
      * @return ServiceProviderAdminGetPolicyResponse14
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderAdminGetPolicyRequest14(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminGetPolicyRequest14 $request)
     {
@@ -4514,6 +4834,7 @@ trait OCISchemaDeprecated
      * @param ServiceProviderAdminGetPolicyRequest16sp1 $request
      * @return ServiceProviderAdminGetPolicyResponse16sp1
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderAdminGetPolicyRequest16sp1(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminGetPolicyRequest16sp1 $request)
     {
@@ -4524,6 +4845,7 @@ trait OCISchemaDeprecated
      * @param ServiceProviderAdminGetPolicyRequest16sp2 $request
      * @return ServiceProviderAdminGetPolicyResponse16sp2
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderAdminGetPolicyRequest16sp2(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminGetPolicyRequest16sp2 $request)
     {
@@ -4534,6 +4856,7 @@ trait OCISchemaDeprecated
      * @param ServiceProviderAdminGetPolicyRequest17 $request
      * @return ServiceProviderAdminGetPolicyResponse17
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderAdminGetPolicyRequest17(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminGetPolicyRequest17 $request)
     {
@@ -4544,6 +4867,7 @@ trait OCISchemaDeprecated
      * @param ServiceProviderAdminGetPolicyRequest17sp1 $request
      * @return ServiceProviderAdminGetPolicyResponse17sp1
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderAdminGetPolicyRequest17sp1(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminGetPolicyRequest17sp1 $request)
     {
@@ -4554,6 +4878,7 @@ trait OCISchemaDeprecated
      * @param ServiceProviderAdminGetPolicyRequest17sp3 $request
      * @return ServiceProviderAdminGetPolicyResponse17sp3
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderAdminGetPolicyRequest17sp3(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminGetPolicyRequest17sp3 $request)
     {
@@ -4564,6 +4889,7 @@ trait OCISchemaDeprecated
      * @param ServiceProviderAnswerConfirmationGetRequest $request
      * @return ServiceProviderAnswerConfirmationGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderAnswerConfirmationGetRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAnswerConfirmationGetRequest $request)
     {
@@ -4574,6 +4900,7 @@ trait OCISchemaDeprecated
      * @param ServiceProviderAnswerConfirmationModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderAnswerConfirmationModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAnswerConfirmationModifyRequest $request)
     {
@@ -4584,6 +4911,7 @@ trait OCISchemaDeprecated
      * @param ServiceProviderBroadWorksMobilityGetRequest $request
      * @return ServiceProviderBroadWorksMobilityGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderBroadWorksMobilityGetRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderBroadWorksMobilityGetRequest $request)
     {
@@ -4594,6 +4922,7 @@ trait OCISchemaDeprecated
      * @param ServiceProviderBroadWorksMobilityGetRequest19sp1 $request
      * @return ServiceProviderBroadWorksMobilityGetResponse19sp1
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderBroadWorksMobilityGetRequest19sp1(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderBroadWorksMobilityGetRequest19sp1 $request)
     {
@@ -4604,6 +4933,7 @@ trait OCISchemaDeprecated
      * @param ServiceProviderBroadWorksMobilityMobileSubscriberDirectoryNumberAddListRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderBroadWorksMobilityMobileSubscriberDirectoryNumberAddListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderBroadWorksMobilityMobileSubscriberDirectoryNumberAddListRequest $request)
     {
@@ -4614,6 +4944,7 @@ trait OCISchemaDeprecated
      * @param ServiceProviderCallProcessingGetPolicyRequest14 $request
      * @return 
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderCallProcessingGetPolicyRequest14(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCallProcessingGetPolicyRequest14 $request)
     {
@@ -4624,6 +4955,7 @@ trait OCISchemaDeprecated
      * @param ServiceProviderCallProcessingGetPolicyRequest14sp1 $request
      * @return 
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderCallProcessingGetPolicyRequest14sp1(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCallProcessingGetPolicyRequest14sp1 $request)
     {
@@ -4634,6 +4966,7 @@ trait OCISchemaDeprecated
      * @param ServiceProviderCallProcessingGetPolicyRequest14sp4 $request
      * @return 
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderCallProcessingGetPolicyRequest14sp4(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCallProcessingGetPolicyRequest14sp4 $request)
     {
@@ -4644,6 +4977,7 @@ trait OCISchemaDeprecated
      * @param ServiceProviderCallProcessingGetPolicyRequest14sp7 $request
      * @return 
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderCallProcessingGetPolicyRequest14sp7(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCallProcessingGetPolicyRequest14sp7 $request)
     {
@@ -4654,6 +4988,7 @@ trait OCISchemaDeprecated
      * @param ServiceProviderCallProcessingGetPolicyRequest15 $request
      * @return 
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderCallProcessingGetPolicyRequest15(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCallProcessingGetPolicyRequest15 $request)
     {
@@ -4664,6 +4999,7 @@ trait OCISchemaDeprecated
      * @param ServiceProviderCallProcessingGetPolicyRequest15sp2 $request
      * @return 
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderCallProcessingGetPolicyRequest15sp2(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCallProcessingGetPolicyRequest15sp2 $request)
     {
@@ -4674,6 +5010,7 @@ trait OCISchemaDeprecated
      * @param ServiceProviderCallProcessingGetPolicyRequest16 $request
      * @return 
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderCallProcessingGetPolicyRequest16(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCallProcessingGetPolicyRequest16 $request)
     {
@@ -4684,6 +5021,7 @@ trait OCISchemaDeprecated
      * @param ServiceProviderCallProcessingGetPolicyRequest16sp2 $request
      * @return 
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderCallProcessingGetPolicyRequest16sp2(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCallProcessingGetPolicyRequest16sp2 $request)
     {
@@ -4694,6 +5032,7 @@ trait OCISchemaDeprecated
      * @param ServiceProviderCallProcessingGetPolicyRequest17 $request
      * @return 
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderCallProcessingGetPolicyRequest17(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCallProcessingGetPolicyRequest17 $request)
     {
@@ -4704,6 +5043,7 @@ trait OCISchemaDeprecated
      * @param ServiceProviderCallProcessingGetPolicyRequest17sp3 $request
      * @return 
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderCallProcessingGetPolicyRequest17sp3(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCallProcessingGetPolicyRequest17sp3 $request)
     {
@@ -4714,6 +5054,7 @@ trait OCISchemaDeprecated
      * @param ServiceProviderCallProcessingGetPolicyRequest17sp4 $request
      * @return 
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderCallProcessingGetPolicyRequest17sp4(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCallProcessingGetPolicyRequest17sp4 $request)
     {
@@ -4724,6 +5065,7 @@ trait OCISchemaDeprecated
      * @param ServiceProviderCallProcessingGetPolicyRequest18sp1 $request
      * @return 
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderCallProcessingGetPolicyRequest18sp1(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCallProcessingGetPolicyRequest18sp1 $request)
     {
@@ -4734,6 +5076,7 @@ trait OCISchemaDeprecated
      * @param ServiceProviderCallProcessingGetPolicyRequest19sp1 $request
      * @return 
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderCallProcessingGetPolicyRequest19sp1(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCallProcessingGetPolicyRequest19sp1 $request)
     {
@@ -4744,6 +5087,7 @@ trait OCISchemaDeprecated
      * @param ServiceProviderCallProcessingGetPolicyRequest21sp1 $request
      * @return 
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderCallProcessingGetPolicyRequest21sp1(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCallProcessingGetPolicyRequest21sp1 $request)
     {
@@ -4754,6 +5098,7 @@ trait OCISchemaDeprecated
      * @param ServiceProviderCallProcessingModifyPolicyRequest14 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderCallProcessingModifyPolicyRequest14(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCallProcessingModifyPolicyRequest14 $request)
     {
@@ -4764,6 +5109,7 @@ trait OCISchemaDeprecated
      * @param ServiceProviderCommunicationBarringProfileAddRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderCommunicationBarringProfileAddRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCommunicationBarringProfileAddRequest $request)
     {
@@ -4774,6 +5120,7 @@ trait OCISchemaDeprecated
      * @param ServiceProviderCommunicationBarringProfileGetRequest $request
      * @return ServiceProviderCommunicationBarringProfileGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderCommunicationBarringProfileGetRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCommunicationBarringProfileGetRequest $request)
     {
@@ -4784,6 +5131,7 @@ trait OCISchemaDeprecated
      * @param ServiceProviderDialPlanPolicyGetRequest $request
      * @return ServiceProviderDialPlanPolicyGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderDialPlanPolicyGetRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDialPlanPolicyGetRequest $request)
     {
@@ -4794,6 +5142,7 @@ trait OCISchemaDeprecated
      * @param ServiceProviderEnhancedCallLogsGetRequest $request
      * @return ServiceProviderEnhancedCallLogsGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderEnhancedCallLogsGetRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderEnhancedCallLogsGetRequest $request)
     {
@@ -4804,6 +5153,7 @@ trait OCISchemaDeprecated
      * @param ServiceProviderFeatureAccessCodeGetListRequest20 $request
      * @return ServiceProviderFeatureAccessCodeGetListResponse20
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderFeatureAccessCodeGetListRequest20(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderFeatureAccessCodeGetListRequest20 $request)
     {
@@ -4814,6 +5164,7 @@ trait OCISchemaDeprecated
      * @param ServiceProviderFeatureAccessCodeModifyListRequest20 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderFeatureAccessCodeModifyListRequest20(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderFeatureAccessCodeModifyListRequest20 $request)
     {
@@ -4824,6 +5175,7 @@ trait OCISchemaDeprecated
      * @param ServiceProviderGetRequest13mp2 $request
      * @return ServiceProviderGetResponse13mp2
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderGetRequest13mp2(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderGetRequest13mp2 $request)
     {
@@ -4834,6 +5186,7 @@ trait OCISchemaDeprecated
      * @param ServiceProviderInCallServiceActivationGetRequest $request
      * @return ServiceProviderInCallServiceActivationGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderInCallServiceActivationGetRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderInCallServiceActivationGetRequest $request)
     {
@@ -4844,6 +5197,7 @@ trait OCISchemaDeprecated
      * @param ServiceProviderInCallServiceActivationModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderInCallServiceActivationModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderInCallServiceActivationModifyRequest $request)
     {
@@ -4854,6 +5208,7 @@ trait OCISchemaDeprecated
      * @param ServiceProviderPasswordRulesGetRequest13mp2 $request
      * @return ServiceProviderPasswordRulesGetResponse13mp2
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderPasswordRulesGetRequest13mp2(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderPasswordRulesGetRequest13mp2 $request)
     {
@@ -4864,6 +5219,7 @@ trait OCISchemaDeprecated
      * @param ServiceProviderPasswordRulesModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderPasswordRulesModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderPasswordRulesModifyRequest $request)
     {
@@ -4874,6 +5230,7 @@ trait OCISchemaDeprecated
      * @param ServiceProviderPortalPasscodeRulesGetRequest $request
      * @return ServiceProviderPortalPasscodeRulesGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderPortalPasscodeRulesGetRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderPortalPasscodeRulesGetRequest $request)
     {
@@ -4884,6 +5241,7 @@ trait OCISchemaDeprecated
      * @param ServiceProviderServicePackMigrationTaskGetRequest $request
      * @return ServiceProviderServicePackMigrationTaskGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderServicePackMigrationTaskGetRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderServicePackMigrationTaskGetRequest $request)
     {
@@ -4894,6 +5252,7 @@ trait OCISchemaDeprecated
      * @param ServiceProviderTrunkGroupGetRequest $request
      * @return ServiceProviderTrunkGroupGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderTrunkGroupGetRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderTrunkGroupGetRequest $request)
     {
@@ -4904,6 +5263,7 @@ trait OCISchemaDeprecated
      * @param ServiceProviderVoiceMessagingGroupGetPasscodeRulesRequest $request
      * @return ServiceProviderVoiceMessagingGroupGetPasscodeRulesResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderVoiceMessagingGroupGetPasscodeRulesRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderVoiceMessagingGroupGetPasscodeRulesRequest $request)
     {
@@ -4914,6 +5274,7 @@ trait OCISchemaDeprecated
      * @param ServiceProviderVoiceMessagingGroupGetVoicePortalBrandingRequest $request
      * @return ServiceProviderVoiceMessagingGroupGetVoicePortalBrandingResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderVoiceMessagingGroupGetVoicePortalBrandingRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderVoiceMessagingGroupGetVoicePortalBrandingRequest $request)
     {
@@ -4924,6 +5285,7 @@ trait OCISchemaDeprecated
      * @param ServiceProviderVoiceMessagingGroupModifyPasscodeRulesRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderVoiceMessagingGroupModifyPasscodeRulesRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderVoiceMessagingGroupModifyPasscodeRulesRequest $request)
     {
@@ -4934,6 +5296,7 @@ trait OCISchemaDeprecated
      * @param ServiceProviderVoiceMessagingGroupModifyVoicePortalBrandingRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderVoiceMessagingGroupModifyVoicePortalBrandingRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderVoiceMessagingGroupModifyVoicePortalBrandingRequest $request)
     {
@@ -4944,6 +5307,7 @@ trait OCISchemaDeprecated
      * @param SystemAccessDeviceFileGetListRequest $request
      * @return SystemAccessDeviceFileGetListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemAccessDeviceFileGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemAccessDeviceFileGetListRequest $request)
     {
@@ -4954,6 +5318,7 @@ trait OCISchemaDeprecated
      * @param SystemAccessDeviceFileGetRequest $request
      * @return SystemAccessDeviceFileGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemAccessDeviceFileGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemAccessDeviceFileGetRequest $request)
     {
@@ -4964,6 +5329,7 @@ trait OCISchemaDeprecated
      * @param SystemAccessDeviceFileGetRequest14sp8 $request
      * @return SystemAccessDeviceFileGetResponse14sp8
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemAccessDeviceFileGetRequest14sp8(\CWM\BroadWorksConnector\Ocip\Models\SystemAccessDeviceFileGetRequest14sp8 $request)
     {
@@ -4974,6 +5340,7 @@ trait OCISchemaDeprecated
      * @param SystemAccessDeviceFileGetRequest16sp1 $request
      * @return SystemAccessDeviceFileGetResponse16sp1
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemAccessDeviceFileGetRequest16sp1(\CWM\BroadWorksConnector\Ocip\Models\SystemAccessDeviceFileGetRequest16sp1 $request)
     {
@@ -4984,6 +5351,7 @@ trait OCISchemaDeprecated
      * @param SystemAccessDeviceFileModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemAccessDeviceFileModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemAccessDeviceFileModifyRequest $request)
     {
@@ -4994,6 +5362,7 @@ trait OCISchemaDeprecated
      * @param SystemAccessDeviceGetRequest $request
      * @return SystemAccessDeviceGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemAccessDeviceGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemAccessDeviceGetRequest $request)
     {
@@ -5004,6 +5373,7 @@ trait OCISchemaDeprecated
      * @param SystemAccessDeviceGetRequest14sp3 $request
      * @return SystemAccessDeviceGetResponse14sp3
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemAccessDeviceGetRequest14sp3(\CWM\BroadWorksConnector\Ocip\Models\SystemAccessDeviceGetRequest14sp3 $request)
     {
@@ -5014,6 +5384,7 @@ trait OCISchemaDeprecated
      * @param SystemAccessDeviceGetRequest14sp6 $request
      * @return SystemAccessDeviceGetResponse14sp6
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemAccessDeviceGetRequest14sp6(\CWM\BroadWorksConnector\Ocip\Models\SystemAccessDeviceGetRequest14sp6 $request)
     {
@@ -5024,6 +5395,7 @@ trait OCISchemaDeprecated
      * @param SystemAccessDeviceGetRequest16 $request
      * @return SystemAccessDeviceGetResponse16
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemAccessDeviceGetRequest16(\CWM\BroadWorksConnector\Ocip\Models\SystemAccessDeviceGetRequest16 $request)
     {
@@ -5034,6 +5406,7 @@ trait OCISchemaDeprecated
      * @param SystemAdviceOfChargeGetRequest $request
      * @return SystemAdviceOfChargeGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemAdviceOfChargeGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemAdviceOfChargeGetRequest $request)
     {
@@ -5044,6 +5417,7 @@ trait OCISchemaDeprecated
      * @param SystemAdviceOfChargeModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemAdviceOfChargeModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemAdviceOfChargeModifyRequest $request)
     {
@@ -5054,6 +5428,7 @@ trait OCISchemaDeprecated
      * @param SystemASRParametersGetRequest $request
      * @return SystemASRParametersGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemASRParametersGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemASRParametersGetRequest $request)
     {
@@ -5064,6 +5439,7 @@ trait OCISchemaDeprecated
      * @param SystemASRParametersGetRequest14sp5 $request
      * @return SystemASRParametersGetResponse14sp5
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemASRParametersGetRequest14sp5(\CWM\BroadWorksConnector\Ocip\Models\SystemASRParametersGetRequest14sp5 $request)
     {
@@ -5074,6 +5450,7 @@ trait OCISchemaDeprecated
      * @param SystemASRParametersModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemASRParametersModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemASRParametersModifyRequest $request)
     {
@@ -5084,6 +5461,7 @@ trait OCISchemaDeprecated
      * @param SystemAutomaticCallbackGetRequest $request
      * @return SystemAutomaticCallbackGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemAutomaticCallbackGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemAutomaticCallbackGetRequest $request)
     {
@@ -5094,6 +5472,7 @@ trait OCISchemaDeprecated
      * @param SystemAutomaticCallbackGetRequest15 $request
      * @return SystemAutomaticCallbackGetResponse15
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemAutomaticCallbackGetRequest15(\CWM\BroadWorksConnector\Ocip\Models\SystemAutomaticCallbackGetRequest15 $request)
     {
@@ -5104,6 +5483,7 @@ trait OCISchemaDeprecated
      * @param SystemAutomaticCallbackGetRequest15sp2 $request
      * @return SystemAutomaticCallbackGetResponse15sp2
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemAutomaticCallbackGetRequest15sp2(\CWM\BroadWorksConnector\Ocip\Models\SystemAutomaticCallbackGetRequest15sp2 $request)
     {
@@ -5114,6 +5494,7 @@ trait OCISchemaDeprecated
      * @param SystemAutomaticCallbackModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemAutomaticCallbackModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemAutomaticCallbackModifyRequest $request)
     {
@@ -5124,6 +5505,7 @@ trait OCISchemaDeprecated
      * @param SystemBCCTAddOCIInterfaceAddressRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemBCCTAddOCIInterfaceAddressRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemBCCTAddOCIInterfaceAddressRequest $request)
     {
@@ -5134,6 +5516,7 @@ trait OCISchemaDeprecated
      * @param SystemBCCTDeleteOCIInterfaceAddressRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemBCCTDeleteOCIInterfaceAddressRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemBCCTDeleteOCIInterfaceAddressRequest $request)
     {
@@ -5144,6 +5527,7 @@ trait OCISchemaDeprecated
      * @param SystemBCCTGetOCIInterfaceAddressListRequest $request
      * @return SystemBCCTGetOCIInterfaceAddressListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemBCCTGetOCIInterfaceAddressListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemBCCTGetOCIInterfaceAddressListRequest $request)
     {
@@ -5154,6 +5538,7 @@ trait OCISchemaDeprecated
      * @param SystemBroadWorksMobilityGetRequest $request
      * @return SystemBroadWorksMobilityGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemBroadWorksMobilityGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemBroadWorksMobilityGetRequest $request)
     {
@@ -5164,6 +5549,7 @@ trait OCISchemaDeprecated
      * @param SystemBroadWorksMobilityGetRequest17sp4 $request
      * @return SystemBroadWorksMobilityGetResponse17sp4
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemBroadWorksMobilityGetRequest17sp4(\CWM\BroadWorksConnector\Ocip\Models\SystemBroadWorksMobilityGetRequest17sp4 $request)
     {
@@ -5174,6 +5560,7 @@ trait OCISchemaDeprecated
      * @param SystemBroadWorksMobilityGetRequest19sp1 $request
      * @return SystemBroadWorksMobilityGetResponse19sp1
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemBroadWorksMobilityGetRequest19sp1(\CWM\BroadWorksConnector\Ocip\Models\SystemBroadWorksMobilityGetRequest19sp1 $request)
     {
@@ -5184,6 +5571,7 @@ trait OCISchemaDeprecated
      * @param SystemBroadWorksMobilityGetRequest21 $request
      * @return SystemBroadWorksMobilityGetResponse21
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemBroadWorksMobilityGetRequest21(\CWM\BroadWorksConnector\Ocip\Models\SystemBroadWorksMobilityGetRequest21 $request)
     {
@@ -5194,6 +5582,7 @@ trait OCISchemaDeprecated
      * @param SystemBroadWorksMobilityModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemBroadWorksMobilityModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemBroadWorksMobilityModifyRequest $request)
     {
@@ -5204,6 +5593,7 @@ trait OCISchemaDeprecated
      * @param SystemBroadWorksMobilityModifyRequest17sp4 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemBroadWorksMobilityModifyRequest17sp4(\CWM\BroadWorksConnector\Ocip\Models\SystemBroadWorksMobilityModifyRequest17sp4 $request)
     {
@@ -5214,6 +5604,7 @@ trait OCISchemaDeprecated
      * @param SystemBroadWorksMobilityServiceAccessCodeAddRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemBroadWorksMobilityServiceAccessCodeAddRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemBroadWorksMobilityServiceAccessCodeAddRequest $request)
     {
@@ -5224,6 +5615,7 @@ trait OCISchemaDeprecated
      * @param SystemBroadWorksMobilityServiceAccessCodeDeleteRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemBroadWorksMobilityServiceAccessCodeDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemBroadWorksMobilityServiceAccessCodeDeleteRequest $request)
     {
@@ -5234,6 +5626,7 @@ trait OCISchemaDeprecated
      * @param SystemBroadWorksMobilityServiceAccessCodeGetListRequest $request
      * @return SystemBroadWorksMobilityServiceAccessCodeGetListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemBroadWorksMobilityServiceAccessCodeGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemBroadWorksMobilityServiceAccessCodeGetListRequest $request)
     {
@@ -5244,6 +5637,7 @@ trait OCISchemaDeprecated
      * @param SystemBroadWorksMobilityServiceAccessCodeModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemBroadWorksMobilityServiceAccessCodeModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemBroadWorksMobilityServiceAccessCodeModifyRequest $request)
     {
@@ -5254,6 +5648,7 @@ trait OCISchemaDeprecated
      * @param SystemBusyLampFieldGetRequest $request
      * @return 
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemBusyLampFieldGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemBusyLampFieldGetRequest $request)
     {
@@ -5264,6 +5659,7 @@ trait OCISchemaDeprecated
      * @param SystemBwDiameterBaseDataGetRequest $request
      * @return SystemBwDiameterBaseDataGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemBwDiameterBaseDataGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemBwDiameterBaseDataGetRequest $request)
     {
@@ -5274,6 +5670,7 @@ trait OCISchemaDeprecated
      * @param SystemCallCenterGetRequest $request
      * @return SystemCallCenterGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemCallCenterGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCallCenterGetRequest $request)
     {
@@ -5284,6 +5681,7 @@ trait OCISchemaDeprecated
      * @param SystemCallCenterGetRequest14sp9 $request
      * @return SystemCallCenterGetResponse14sp9
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemCallCenterGetRequest14sp9(\CWM\BroadWorksConnector\Ocip\Models\SystemCallCenterGetRequest14sp9 $request)
     {
@@ -5294,6 +5692,7 @@ trait OCISchemaDeprecated
      * @param SystemCallCenterGetRequest16 $request
      * @return SystemCallCenterGetResponse16
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemCallCenterGetRequest16(\CWM\BroadWorksConnector\Ocip\Models\SystemCallCenterGetRequest16 $request)
     {
@@ -5304,6 +5703,7 @@ trait OCISchemaDeprecated
      * @param SystemCallCenterGetRequest17 $request
      * @return SystemCallCenterGetResponse17
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemCallCenterGetRequest17(\CWM\BroadWorksConnector\Ocip\Models\SystemCallCenterGetRequest17 $request)
     {
@@ -5314,6 +5714,7 @@ trait OCISchemaDeprecated
      * @param SystemCallCenterGetRequest17sp4 $request
      * @return SystemCallCenterGetResponse17sp4
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemCallCenterGetRequest17sp4(\CWM\BroadWorksConnector\Ocip\Models\SystemCallCenterGetRequest17sp4 $request)
     {
@@ -5324,6 +5725,7 @@ trait OCISchemaDeprecated
      * @param SystemCallCenterGetRequest19 $request
      * @return SystemCallCenterGetResponse19
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemCallCenterGetRequest19(\CWM\BroadWorksConnector\Ocip\Models\SystemCallCenterGetRequest19 $request)
     {
@@ -5334,6 +5736,7 @@ trait OCISchemaDeprecated
      * @param SystemCallCenterReportingServerGetListRequest $request
      * @return SystemCallCenterReportingServerGetListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemCallCenterReportingServerGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCallCenterReportingServerGetListRequest $request)
     {
@@ -5344,6 +5747,7 @@ trait OCISchemaDeprecated
      * @param SystemCallingNameRetrievalGetRequest14 $request
      * @return SystemCallingNameRetrievalGetResponse14
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemCallingNameRetrievalGetRequest14(\CWM\BroadWorksConnector\Ocip\Models\SystemCallingNameRetrievalGetRequest14 $request)
     {
@@ -5354,6 +5758,7 @@ trait OCISchemaDeprecated
      * @param SystemCallingNameRetrievalGetRequest16sp1 $request
      * @return SystemCallingNameRetrievalGetResponse16sp1
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemCallingNameRetrievalGetRequest16sp1(\CWM\BroadWorksConnector\Ocip\Models\SystemCallingNameRetrievalGetRequest16sp1 $request)
     {
@@ -5364,6 +5769,7 @@ trait OCISchemaDeprecated
      * @param SystemCallingNameRetrievalGetRequest17sp4 $request
      * @return SystemCallingNameRetrievalGetResponse17sp4
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemCallingNameRetrievalGetRequest17sp4(\CWM\BroadWorksConnector\Ocip\Models\SystemCallingNameRetrievalGetRequest17sp4 $request)
     {
@@ -5374,6 +5780,7 @@ trait OCISchemaDeprecated
      * @param SystemCallingNameRetrievalModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemCallingNameRetrievalModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCallingNameRetrievalModifyRequest $request)
     {
@@ -5384,6 +5791,7 @@ trait OCISchemaDeprecated
      * @param SystemCallingNameRetrievalModifyRequest16sp1 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemCallingNameRetrievalModifyRequest16sp1(\CWM\BroadWorksConnector\Ocip\Models\SystemCallingNameRetrievalModifyRequest16sp1 $request)
     {
@@ -5394,6 +5802,7 @@ trait OCISchemaDeprecated
      * @param SystemCallProcessingGetPolicyRequest14 $request
      * @return SystemCallProcessingGetPolicyResponse14
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemCallProcessingGetPolicyRequest14(\CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingGetPolicyRequest14 $request)
     {
@@ -5404,6 +5813,7 @@ trait OCISchemaDeprecated
      * @param SystemCallProcessingGetPolicyRequest14sp1 $request
      * @return SystemCallProcessingGetPolicyResponse14sp1
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemCallProcessingGetPolicyRequest14sp1(\CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingGetPolicyRequest14sp1 $request)
     {
@@ -5414,6 +5824,7 @@ trait OCISchemaDeprecated
      * @param SystemCallProcessingGetPolicyRequest14sp4 $request
      * @return SystemCallProcessingGetPolicyResponse14sp4
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemCallProcessingGetPolicyRequest14sp4(\CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingGetPolicyRequest14sp4 $request)
     {
@@ -5424,6 +5835,7 @@ trait OCISchemaDeprecated
      * @param SystemCallProcessingGetPolicyRequest14sp7 $request
      * @return SystemCallProcessingGetPolicyResponse14sp7
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemCallProcessingGetPolicyRequest14sp7(\CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingGetPolicyRequest14sp7 $request)
     {
@@ -5434,6 +5846,7 @@ trait OCISchemaDeprecated
      * @param SystemCallProcessingGetPolicyRequest15 $request
      * @return SystemCallProcessingGetPolicyResponse15
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemCallProcessingGetPolicyRequest15(\CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingGetPolicyRequest15 $request)
     {
@@ -5444,6 +5857,7 @@ trait OCISchemaDeprecated
      * @param SystemCallProcessingGetPolicyRequest15sp2 $request
      * @return SystemCallProcessingGetPolicyResponse15sp2
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemCallProcessingGetPolicyRequest15sp2(\CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingGetPolicyRequest15sp2 $request)
     {
@@ -5454,6 +5868,7 @@ trait OCISchemaDeprecated
      * @param SystemCallProcessingGetPolicyRequest16 $request
      * @return SystemCallProcessingGetPolicyResponse16
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemCallProcessingGetPolicyRequest16(\CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingGetPolicyRequest16 $request)
     {
@@ -5464,6 +5879,7 @@ trait OCISchemaDeprecated
      * @param SystemCallProcessingGetPolicyRequest16sp2 $request
      * @return SystemCallProcessingGetPolicyResponse16sp2
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemCallProcessingGetPolicyRequest16sp2(\CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingGetPolicyRequest16sp2 $request)
     {
@@ -5474,6 +5890,7 @@ trait OCISchemaDeprecated
      * @param SystemCallProcessingGetPolicyRequest17 $request
      * @return SystemCallProcessingGetPolicyResponse17
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemCallProcessingGetPolicyRequest17(\CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingGetPolicyRequest17 $request)
     {
@@ -5484,6 +5901,7 @@ trait OCISchemaDeprecated
      * @param SystemCallProcessingGetPolicyRequest17sp3 $request
      * @return SystemCallProcessingGetPolicyResponse17sp3
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemCallProcessingGetPolicyRequest17sp3(\CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingGetPolicyRequest17sp3 $request)
     {
@@ -5494,6 +5912,7 @@ trait OCISchemaDeprecated
      * @param SystemCallProcessingGetPolicyRequest17sp4 $request
      * @return SystemCallProcessingGetPolicyResponse17sp4
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemCallProcessingGetPolicyRequest17sp4(\CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingGetPolicyRequest17sp4 $request)
     {
@@ -5504,6 +5923,7 @@ trait OCISchemaDeprecated
      * @param SystemCallProcessingGetPolicyRequest18sp1 $request
      * @return SystemCallProcessingGetPolicyResponse18sp1
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemCallProcessingGetPolicyRequest18sp1(\CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingGetPolicyRequest18sp1 $request)
     {
@@ -5514,6 +5934,7 @@ trait OCISchemaDeprecated
      * @param SystemCallProcessingGetPolicyRequest19sp1 $request
      * @return SystemCallProcessingGetPolicyResponse19sp1
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemCallProcessingGetPolicyRequest19sp1(\CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingGetPolicyRequest19sp1 $request)
     {
@@ -5524,6 +5945,7 @@ trait OCISchemaDeprecated
      * @param SystemCallProcessingGetPolicyRequest21sp1 $request
      * @return SystemCallProcessingGetPolicyResponse21sp1
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemCallProcessingGetPolicyRequest21sp1(\CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingGetPolicyRequest21sp1 $request)
     {
@@ -5534,6 +5956,7 @@ trait OCISchemaDeprecated
      * @param SystemCallProcessingModifyPolicyRequest14 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemCallProcessingModifyPolicyRequest14(\CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingModifyPolicyRequest14 $request)
     {
@@ -5544,6 +5967,7 @@ trait OCISchemaDeprecated
      * @param SystemCallProcessingPolicyProfileAddRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemCallProcessingPolicyProfileAddRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingPolicyProfileAddRequest $request)
     {
@@ -5554,6 +5978,7 @@ trait OCISchemaDeprecated
      * @param SystemCallProcessingPolicyProfileAddRequest20 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemCallProcessingPolicyProfileAddRequest20(\CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingPolicyProfileAddRequest20 $request)
     {
@@ -5564,6 +5989,7 @@ trait OCISchemaDeprecated
      * @param SystemCallProcessingPolicyProfileAutoAttendantProfileGetRequest $request
      * @return SystemCallProcessingPolicyProfileAutoAttendantProfileGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemCallProcessingPolicyProfileAutoAttendantProfileGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingPolicyProfileAutoAttendantProfileGetRequest $request)
     {
@@ -5574,6 +6000,7 @@ trait OCISchemaDeprecated
      * @param SystemCallProcessingPolicyProfileBroadWorksAnywhereProfileGetRequest $request
      * @return SystemCallProcessingPolicyProfileBroadWorksAnywhereProfileGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemCallProcessingPolicyProfileBroadWorksAnywhereProfileGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingPolicyProfileBroadWorksAnywhereProfileGetRequest $request)
     {
@@ -5584,6 +6011,7 @@ trait OCISchemaDeprecated
      * @param SystemCallProcessingPolicyProfileCallCenterProfileGetRequest $request
      * @return SystemCallProcessingPolicyProfileCallCenterProfileGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemCallProcessingPolicyProfileCallCenterProfileGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingPolicyProfileCallCenterProfileGetRequest $request)
     {
@@ -5594,6 +6022,7 @@ trait OCISchemaDeprecated
      * @param SystemCallProcessingPolicyProfileCollaborateProfileGetRequest $request
      * @return SystemCallProcessingPolicyProfileCollaborateProfileGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemCallProcessingPolicyProfileCollaborateProfileGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingPolicyProfileCollaborateProfileGetRequest $request)
     {
@@ -5604,6 +6033,7 @@ trait OCISchemaDeprecated
      * @param SystemCallProcessingPolicyProfileFindMeFollowMeProfileGetRequest $request
      * @return SystemCallProcessingPolicyProfileFindMeFollowMeProfileGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemCallProcessingPolicyProfileFindMeFollowMeProfileGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingPolicyProfileFindMeFollowMeProfileGetRequest $request)
     {
@@ -5614,6 +6044,7 @@ trait OCISchemaDeprecated
      * @param SystemCallProcessingPolicyProfileFlexibleSeatingHostProfileGetRequest $request
      * @return SystemCallProcessingPolicyProfileFlexibleSeatingHostProfileGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemCallProcessingPolicyProfileFlexibleSeatingHostProfileGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingPolicyProfileFlexibleSeatingHostProfileGetRequest $request)
     {
@@ -5624,6 +6055,7 @@ trait OCISchemaDeprecated
      * @param SystemCallProcessingPolicyProfileGetRequest $request
      * @return SystemCallProcessingPolicyProfileGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemCallProcessingPolicyProfileGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingPolicyProfileGetRequest $request)
     {
@@ -5634,6 +6066,7 @@ trait OCISchemaDeprecated
      * @param SystemCallProcessingPolicyProfileGetRequest20 $request
      * @return SystemCallProcessingPolicyProfileGetResponse20
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemCallProcessingPolicyProfileGetRequest20(\CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingPolicyProfileGetRequest20 $request)
     {
@@ -5644,6 +6077,7 @@ trait OCISchemaDeprecated
      * @param SystemCallProcessingPolicyProfileGroupPagingProfileGetRequest $request
      * @return SystemCallProcessingPolicyProfileGroupPagingProfileGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemCallProcessingPolicyProfileGroupPagingProfileGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingPolicyProfileGroupPagingProfileGetRequest $request)
     {
@@ -5654,6 +6088,7 @@ trait OCISchemaDeprecated
      * @param SystemCallProcessingPolicyProfileHuntGroupProfileGetRequest $request
      * @return SystemCallProcessingPolicyProfileHuntGroupProfileGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemCallProcessingPolicyProfileHuntGroupProfileGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingPolicyProfileHuntGroupProfileGetRequest $request)
     {
@@ -5664,6 +6099,7 @@ trait OCISchemaDeprecated
      * @param SystemCallProcessingPolicyProfileInstantGroupCallProfileGetRequest $request
      * @return SystemCallProcessingPolicyProfileInstantGroupCallProfileGetResponse22
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemCallProcessingPolicyProfileInstantGroupCallProfileGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingPolicyProfileInstantGroupCallProfileGetRequest $request)
     {
@@ -5674,6 +6110,7 @@ trait OCISchemaDeprecated
      * @param SystemCallProcessingPolicyProfileMeetMeConferencingProfileGetRequest $request
      * @return SystemCallProcessingPolicyProfileMeetMeConferencingProfileGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemCallProcessingPolicyProfileMeetMeConferencingProfileGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingPolicyProfileMeetMeConferencingProfileGetRequest $request)
     {
@@ -5684,6 +6121,7 @@ trait OCISchemaDeprecated
      * @param SystemCallProcessingPolicyProfileModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemCallProcessingPolicyProfileModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingPolicyProfileModifyRequest $request)
     {
@@ -5694,6 +6132,7 @@ trait OCISchemaDeprecated
      * @param SystemCallProcessingPolicyProfileModifyRequest20 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemCallProcessingPolicyProfileModifyRequest20(\CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingPolicyProfileModifyRequest20 $request)
     {
@@ -5704,6 +6143,7 @@ trait OCISchemaDeprecated
      * @param SystemCallProcessingPolicyProfileRoutePointProfileGetRequest $request
      * @return SystemCallProcessingPolicyProfileRoutePointProfileGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemCallProcessingPolicyProfileRoutePointProfileGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingPolicyProfileRoutePointProfileGetRequest $request)
     {
@@ -5714,6 +6154,7 @@ trait OCISchemaDeprecated
      * @param SystemCallProcessingPolicyProfileTrunkGroupPilotProfileGetRequest $request
      * @return SystemCallProcessingPolicyProfileTrunkGroupPilotProfileGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemCallProcessingPolicyProfileTrunkGroupPilotProfileGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingPolicyProfileTrunkGroupPilotProfileGetRequest $request)
     {
@@ -5724,6 +6165,7 @@ trait OCISchemaDeprecated
      * @param SystemCallProcessingPolicyProfileUserProfileGetRequest $request
      * @return SystemCallProcessingPolicyProfileUserProfileGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemCallProcessingPolicyProfileUserProfileGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingPolicyProfileUserProfileGetRequest $request)
     {
@@ -5734,6 +6176,7 @@ trait OCISchemaDeprecated
      * @param SystemCallProcessingPolicyProfileUserProfileGetRequest21sp1 $request
      * @return SystemCallProcessingPolicyProfileUserProfileGetResponse21sp1
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemCallProcessingPolicyProfileUserProfileGetRequest21sp1(\CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingPolicyProfileUserProfileGetRequest21sp1 $request)
     {
@@ -5744,6 +6187,7 @@ trait OCISchemaDeprecated
      * @param SystemCallProcessingPolicyProfileVoicePortalProfileGetRequest $request
      * @return SystemCallProcessingPolicyProfileVoicePortalProfileGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemCallProcessingPolicyProfileVoicePortalProfileGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingPolicyProfileVoicePortalProfileGetRequest $request)
     {
@@ -5754,6 +6198,7 @@ trait OCISchemaDeprecated
      * @param SystemCallProcessingPolicyProfileVoiceXMLProfileGetRequest $request
      * @return SystemCallProcessingPolicyProfileVoiceXMLProfileGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemCallProcessingPolicyProfileVoiceXMLProfileGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingPolicyProfileVoiceXMLProfileGetRequest $request)
     {
@@ -5764,6 +6209,7 @@ trait OCISchemaDeprecated
      * @param SystemCallRecordingAddPlatformRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemCallRecordingAddPlatformRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCallRecordingAddPlatformRequest $request)
     {
@@ -5774,6 +6220,7 @@ trait OCISchemaDeprecated
      * @param SystemCallRecordingAddPlatformRequest19 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemCallRecordingAddPlatformRequest19(\CWM\BroadWorksConnector\Ocip\Models\SystemCallRecordingAddPlatformRequest19 $request)
     {
@@ -5784,6 +6231,7 @@ trait OCISchemaDeprecated
      * @param SystemCallRecordingGetPlatformListRequest $request
      * @return SystemCallRecordingGetPlatformListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemCallRecordingGetPlatformListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCallRecordingGetPlatformListRequest $request)
     {
@@ -5794,6 +6242,7 @@ trait OCISchemaDeprecated
      * @param SystemCallRecordingGetRequest $request
      * @return SystemCallRecordingGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemCallRecordingGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCallRecordingGetRequest $request)
     {
@@ -5804,6 +6253,7 @@ trait OCISchemaDeprecated
      * @param SystemCallRecordingModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemCallRecordingModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCallRecordingModifyRequest $request)
     {
@@ -5814,6 +6264,7 @@ trait OCISchemaDeprecated
      * @param SystemCollaborateGetRequest $request
      * @return SystemCollaborateGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemCollaborateGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCollaborateGetRequest $request)
     {
@@ -5824,6 +6275,7 @@ trait OCISchemaDeprecated
      * @param SystemCollaborateGetRequest20sp1 $request
      * @return SystemCollaborateGetResponse20sp1
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemCollaborateGetRequest20sp1(\CWM\BroadWorksConnector\Ocip\Models\SystemCollaborateGetRequest20sp1 $request)
     {
@@ -5834,6 +6286,7 @@ trait OCISchemaDeprecated
      * @param SystemCollaborateModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemCollaborateModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCollaborateModifyRequest $request)
     {
@@ -5844,6 +6297,7 @@ trait OCISchemaDeprecated
      * @param SystemCollaborateModifyRequest20sp1 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemCollaborateModifyRequest20sp1(\CWM\BroadWorksConnector\Ocip\Models\SystemCollaborateModifyRequest20sp1 $request)
     {
@@ -5854,6 +6308,7 @@ trait OCISchemaDeprecated
      * @param SystemCommunicationBarringCriteriaAddRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemCommunicationBarringCriteriaAddRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCommunicationBarringCriteriaAddRequest $request)
     {
@@ -5864,6 +6319,7 @@ trait OCISchemaDeprecated
      * @param SystemCommunicationBarringCriteriaGetRequest $request
      * @return SystemCommunicationBarringCriteriaGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemCommunicationBarringCriteriaGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCommunicationBarringCriteriaGetRequest $request)
     {
@@ -5874,6 +6330,7 @@ trait OCISchemaDeprecated
      * @param SystemCommunicationBarringCriteriaGetRequest17 $request
      * @return 
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemCommunicationBarringCriteriaGetRequest17(\CWM\BroadWorksConnector\Ocip\Models\SystemCommunicationBarringCriteriaGetRequest17 $request)
     {
@@ -5884,6 +6341,7 @@ trait OCISchemaDeprecated
      * @param SystemCommunicationBarringProfileAddRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemCommunicationBarringProfileAddRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCommunicationBarringProfileAddRequest $request)
     {
@@ -5894,6 +6352,7 @@ trait OCISchemaDeprecated
      * @param SystemCommunicationBarringProfileAddRequest17sp1 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemCommunicationBarringProfileAddRequest17sp1(\CWM\BroadWorksConnector\Ocip\Models\SystemCommunicationBarringProfileAddRequest17sp1 $request)
     {
@@ -5904,6 +6363,7 @@ trait OCISchemaDeprecated
      * @param SystemCommunicationBarringProfileGetRequest $request
      * @return SystemCommunicationBarringProfileGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemCommunicationBarringProfileGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCommunicationBarringProfileGetRequest $request)
     {
@@ -5914,6 +6374,7 @@ trait OCISchemaDeprecated
      * @param SystemCommunicationBarringProfileGetRequest16 $request
      * @return SystemCommunicationBarringProfileGetResponse16
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemCommunicationBarringProfileGetRequest16(\CWM\BroadWorksConnector\Ocip\Models\SystemCommunicationBarringProfileGetRequest16 $request)
     {
@@ -5924,6 +6385,7 @@ trait OCISchemaDeprecated
      * @param SystemCommunicationBarringProfileGetRequest17sp1 $request
      * @return SystemCommunicationBarringProfileGetResponse17sp1
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemCommunicationBarringProfileGetRequest17sp1(\CWM\BroadWorksConnector\Ocip\Models\SystemCommunicationBarringProfileGetRequest17sp1 $request)
     {
@@ -5934,6 +6396,7 @@ trait OCISchemaDeprecated
      * @param SystemConfigurableTreatmentGetRequest $request
      * @return SystemConfigurableTreatmentGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemConfigurableTreatmentGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemConfigurableTreatmentGetRequest $request)
     {
@@ -5944,6 +6407,7 @@ trait OCISchemaDeprecated
      * @param SystemCPEConfigAddFileServerRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemCPEConfigAddFileServerRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCPEConfigAddFileServerRequest $request)
     {
@@ -5954,6 +6418,7 @@ trait OCISchemaDeprecated
      * @param SystemCPEConfigGetFileServerListRequest $request
      * @return SystemCPEConfigGetFileServerListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemCPEConfigGetFileServerListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCPEConfigGetFileServerListRequest $request)
     {
@@ -5964,6 +6429,7 @@ trait OCISchemaDeprecated
      * @param SystemCPEConfigModifyFileServerRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemCPEConfigModifyFileServerRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCPEConfigModifyFileServerRequest $request)
     {
@@ -5974,6 +6440,7 @@ trait OCISchemaDeprecated
      * @param SystemCPEConfigParametersGetRequest $request
      * @return SystemCPEConfigParametersGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemCPEConfigParametersGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCPEConfigParametersGetRequest $request)
     {
@@ -5984,6 +6451,7 @@ trait OCISchemaDeprecated
      * @param SystemCPEConfigParametersGetRequest14sp6 $request
      * @return SystemCPEConfigParametersGetResponse14sp6
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemCPEConfigParametersGetRequest14sp6(\CWM\BroadWorksConnector\Ocip\Models\SystemCPEConfigParametersGetRequest14sp6 $request)
     {
@@ -5994,6 +6462,7 @@ trait OCISchemaDeprecated
      * @param SystemCPEConfigParametersGetRequest20 $request
      * @return SystemCPEConfigParametersGetResponse20
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemCPEConfigParametersGetRequest20(\CWM\BroadWorksConnector\Ocip\Models\SystemCPEConfigParametersGetRequest20 $request)
     {
@@ -6004,6 +6473,7 @@ trait OCISchemaDeprecated
      * @param SystemCPEConfigParametersModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemCPEConfigParametersModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCPEConfigParametersModifyRequest $request)
     {
@@ -6014,6 +6484,7 @@ trait OCISchemaDeprecated
      * @param SystemCPEConfigParametersModifyRequest20 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemCPEConfigParametersModifyRequest20(\CWM\BroadWorksConnector\Ocip\Models\SystemCPEConfigParametersModifyRequest20 $request)
     {
@@ -6024,6 +6495,7 @@ trait OCISchemaDeprecated
      * @param SystemCrInterfaceGetRequest $request
      * @return SystemCrInterfaceGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemCrInterfaceGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCrInterfaceGetRequest $request)
     {
@@ -6034,6 +6506,7 @@ trait OCISchemaDeprecated
      * @param SystemDeviceManagementTagAddRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemDeviceManagementTagAddRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemDeviceManagementTagAddRequest $request)
     {
@@ -6044,6 +6517,7 @@ trait OCISchemaDeprecated
      * @param SystemDeviceManagementTagAddRequest21sp2 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemDeviceManagementTagAddRequest21sp2(\CWM\BroadWorksConnector\Ocip\Models\SystemDeviceManagementTagAddRequest21sp2 $request)
     {
@@ -6054,6 +6528,7 @@ trait OCISchemaDeprecated
      * @param SystemDeviceTypeGetAvailableListRequest $request
      * @return SystemDeviceTypeGetAvailableListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemDeviceTypeGetAvailableListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemDeviceTypeGetAvailableListRequest $request)
     {
@@ -6064,6 +6539,7 @@ trait OCISchemaDeprecated
      * @param SystemDeviceTypeGetAvailableListRequest14sp1 $request
      * @return SystemDeviceTypeGetAvailableListResponse14sp1
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemDeviceTypeGetAvailableListRequest14sp1(\CWM\BroadWorksConnector\Ocip\Models\SystemDeviceTypeGetAvailableListRequest14sp1 $request)
     {
@@ -6074,6 +6550,7 @@ trait OCISchemaDeprecated
      * @param SystemDeviceTypeGetAvailableListRequest14sp3 $request
      * @return SystemDeviceTypeGetAvailableListResponse14sp3
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemDeviceTypeGetAvailableListRequest14sp3(\CWM\BroadWorksConnector\Ocip\Models\SystemDeviceTypeGetAvailableListRequest14sp3 $request)
     {
@@ -6084,6 +6561,7 @@ trait OCISchemaDeprecated
      * @param SystemDeviceTypeGetRequest $request
      * @return SystemDeviceTypeGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemDeviceTypeGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemDeviceTypeGetRequest $request)
     {
@@ -6094,6 +6572,7 @@ trait OCISchemaDeprecated
      * @param SystemDeviceTypeGetRequest14sp3 $request
      * @return SystemDeviceTypeGetResponse14sp3
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemDeviceTypeGetRequest14sp3(\CWM\BroadWorksConnector\Ocip\Models\SystemDeviceTypeGetRequest14sp3 $request)
     {
@@ -6104,6 +6583,7 @@ trait OCISchemaDeprecated
      * @param SystemDeviceTypeGetRequest14sp6 $request
      * @return SystemDeviceTypeGetResponse14sp6
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemDeviceTypeGetRequest14sp6(\CWM\BroadWorksConnector\Ocip\Models\SystemDeviceTypeGetRequest14sp6 $request)
     {
@@ -6114,6 +6594,7 @@ trait OCISchemaDeprecated
      * @param SystemDeviceTypeGetRequest16 $request
      * @return SystemDeviceTypeGetResponse16
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemDeviceTypeGetRequest16(\CWM\BroadWorksConnector\Ocip\Models\SystemDeviceTypeGetRequest16 $request)
     {
@@ -6124,6 +6605,7 @@ trait OCISchemaDeprecated
      * @param SystemDeviceTypeGetRequest16sp1 $request
      * @return SystemDeviceTypeGetResponse16sp1
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemDeviceTypeGetRequest16sp1(\CWM\BroadWorksConnector\Ocip\Models\SystemDeviceTypeGetRequest16sp1 $request)
     {
@@ -6134,6 +6616,7 @@ trait OCISchemaDeprecated
      * @param SystemDeviceTypeGetRequest18 $request
      * @return SystemDeviceTypeGetResponse18
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemDeviceTypeGetRequest18(\CWM\BroadWorksConnector\Ocip\Models\SystemDeviceTypeGetRequest18 $request)
     {
@@ -6144,6 +6627,7 @@ trait OCISchemaDeprecated
      * @param SystemDeviceTypeGetRequest19 $request
      * @return SystemDeviceTypeGetResponse19
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemDeviceTypeGetRequest19(\CWM\BroadWorksConnector\Ocip\Models\SystemDeviceTypeGetRequest19 $request)
     {
@@ -6154,6 +6638,7 @@ trait OCISchemaDeprecated
      * @param SystemDialPlanPolicyGetRequest $request
      * @return SystemDialPlanPolicyGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemDialPlanPolicyGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemDialPlanPolicyGetRequest $request)
     {
@@ -6164,6 +6649,7 @@ trait OCISchemaDeprecated
      * @param SystemDnGetUtilizationRequest $request
      * @return SystemDnGetUtilizationResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemDnGetUtilizationRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemDnGetUtilizationRequest $request)
     {
@@ -6174,6 +6660,7 @@ trait OCISchemaDeprecated
      * @param SystemEnhancedCallLogsGetRequest $request
      * @return SystemEnhancedCallLogsGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemEnhancedCallLogsGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemEnhancedCallLogsGetRequest $request)
     {
@@ -6184,6 +6671,7 @@ trait OCISchemaDeprecated
      * @param SystemEnhancedCallLogsGetRequest20sp1 $request
      * @return 
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemEnhancedCallLogsGetRequest20sp1(\CWM\BroadWorksConnector\Ocip\Models\SystemEnhancedCallLogsGetRequest20sp1 $request)
     {
@@ -6194,6 +6682,7 @@ trait OCISchemaDeprecated
      * @param SystemEnhancedCallLogsModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemEnhancedCallLogsModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemEnhancedCallLogsModifyRequest $request)
     {
@@ -6204,6 +6693,7 @@ trait OCISchemaDeprecated
      * @param SystemExpensiveCallTypeGetListRequest $request
      * @return SystemExpensiveCallTypeGetListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemExpensiveCallTypeGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemExpensiveCallTypeGetListRequest $request)
     {
@@ -6214,6 +6704,7 @@ trait OCISchemaDeprecated
      * @param SystemExternalAuthenticationAddACLEntryRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemExternalAuthenticationAddACLEntryRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemExternalAuthenticationAddACLEntryRequest $request)
     {
@@ -6224,6 +6715,7 @@ trait OCISchemaDeprecated
      * @param SystemExternalAuthenticationDeleteACLEntryRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemExternalAuthenticationDeleteACLEntryRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemExternalAuthenticationDeleteACLEntryRequest $request)
     {
@@ -6234,6 +6726,7 @@ trait OCISchemaDeprecated
      * @param SystemExternalAuthenticationModifyACLEntryRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemExternalAuthenticationModifyACLEntryRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemExternalAuthenticationModifyACLEntryRequest $request)
     {
@@ -6244,6 +6737,7 @@ trait OCISchemaDeprecated
      * @param SystemFeatureAccessCodeGetListRequest20 $request
      * @return SystemFeatureAccessCodeGetListResponse20
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemFeatureAccessCodeGetListRequest20(\CWM\BroadWorksConnector\Ocip\Models\SystemFeatureAccessCodeGetListRequest20 $request)
     {
@@ -6254,6 +6748,7 @@ trait OCISchemaDeprecated
      * @param SystemFeatureAccessCodeModifyListRequest20 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemFeatureAccessCodeModifyListRequest20(\CWM\BroadWorksConnector\Ocip\Models\SystemFeatureAccessCodeModifyListRequest20 $request)
     {
@@ -6264,6 +6759,7 @@ trait OCISchemaDeprecated
      * @param SystemFileRepositoryDeviceAddRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemFileRepositoryDeviceAddRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemFileRepositoryDeviceAddRequest $request)
     {
@@ -6274,6 +6770,7 @@ trait OCISchemaDeprecated
      * @param SystemFileRepositoryDeviceAddRequest16 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemFileRepositoryDeviceAddRequest16(\CWM\BroadWorksConnector\Ocip\Models\SystemFileRepositoryDeviceAddRequest16 $request)
     {
@@ -6284,6 +6781,7 @@ trait OCISchemaDeprecated
      * @param SystemFileRepositoryDeviceGetRequest $request
      * @return SystemFileRepositoryDeviceGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemFileRepositoryDeviceGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemFileRepositoryDeviceGetRequest $request)
     {
@@ -6294,6 +6792,7 @@ trait OCISchemaDeprecated
      * @param SystemFileRepositoryDeviceGetRequest16 $request
      * @return SystemFileRepositoryDeviceGetResponse16
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemFileRepositoryDeviceGetRequest16(\CWM\BroadWorksConnector\Ocip\Models\SystemFileRepositoryDeviceGetRequest16 $request)
     {
@@ -6304,6 +6803,7 @@ trait OCISchemaDeprecated
      * @param SystemGeographicRedundancyUnreachableFromPrimaryGetUserListRequest $request
      * @return SystemGeographicRedundancyUnreachableFromPrimaryGetUserListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemGeographicRedundancyUnreachableFromPrimaryGetUserListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemGeographicRedundancyUnreachableFromPrimaryGetUserListRequest $request)
     {
@@ -6314,6 +6814,7 @@ trait OCISchemaDeprecated
      * @param SystemHolidayScheduleAddRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemHolidayScheduleAddRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemHolidayScheduleAddRequest $request)
     {
@@ -6324,6 +6825,7 @@ trait OCISchemaDeprecated
      * @param SystemHolidayScheduleDeleteRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemHolidayScheduleDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemHolidayScheduleDeleteRequest $request)
     {
@@ -6334,6 +6836,7 @@ trait OCISchemaDeprecated
      * @param SystemHolidayScheduleGetListRequest $request
      * @return SystemHolidayScheduleGetListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemHolidayScheduleGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemHolidayScheduleGetListRequest $request)
     {
@@ -6344,6 +6847,7 @@ trait OCISchemaDeprecated
      * @param SystemHolidayScheduleGetRequest $request
      * @return SystemHolidayScheduleGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemHolidayScheduleGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemHolidayScheduleGetRequest $request)
     {
@@ -6354,6 +6858,7 @@ trait OCISchemaDeprecated
      * @param SystemHolidayScheduleModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemHolidayScheduleModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemHolidayScheduleModifyRequest $request)
     {
@@ -6364,6 +6869,7 @@ trait OCISchemaDeprecated
      * @param SystemHuntGroupGetRequest $request
      * @return SystemHuntGroupGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemHuntGroupGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemHuntGroupGetRequest $request)
     {
@@ -6374,6 +6880,7 @@ trait OCISchemaDeprecated
      * @param SystemInCallServiceActivationGetRequest $request
      * @return SystemInCallServiceActivationGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemInCallServiceActivationGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemInCallServiceActivationGetRequest $request)
     {
@@ -6384,6 +6891,7 @@ trait OCISchemaDeprecated
      * @param SystemInCallServiceActivationModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemInCallServiceActivationModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemInCallServiceActivationModifyRequest $request)
     {
@@ -6394,6 +6902,7 @@ trait OCISchemaDeprecated
      * @param SystemIntegratedIMPGetRequest $request
      * @return SystemIntegratedIMPGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemIntegratedIMPGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemIntegratedIMPGetRequest $request)
     {
@@ -6404,6 +6913,7 @@ trait OCISchemaDeprecated
      * @param SystemLicensingGetRequest $request
      * @return SystemLicensingGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemLicensingGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemLicensingGetRequest $request)
     {
@@ -6414,6 +6924,7 @@ trait OCISchemaDeprecated
      * @param SystemLocationBasedCallingRestrictionsGetRequest $request
      * @return SystemLocationBasedCallingRestrictionsGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemLocationBasedCallingRestrictionsGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemLocationBasedCallingRestrictionsGetRequest $request)
     {
@@ -6424,6 +6935,7 @@ trait OCISchemaDeprecated
      * @param SystemMailParametersGetRequest $request
      * @return SystemMailParametersGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemMailParametersGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemMailParametersGetRequest $request)
     {
@@ -6434,6 +6946,7 @@ trait OCISchemaDeprecated
      * @param SystemMaliciousCallTraceGetUserListRequest $request
      * @return SystemMaliciousCallTraceGetUserListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemMaliciousCallTraceGetUserListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemMaliciousCallTraceGetUserListRequest $request)
     {
@@ -6444,6 +6957,7 @@ trait OCISchemaDeprecated
      * @param SystemMediaAddRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemMediaAddRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemMediaAddRequest $request)
     {
@@ -6454,6 +6968,7 @@ trait OCISchemaDeprecated
      * @param SystemMeetMeConferencingGetRequest $request
      * @return SystemMeetMeConferencingGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemMeetMeConferencingGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemMeetMeConferencingGetRequest $request)
     {
@@ -6464,6 +6979,7 @@ trait OCISchemaDeprecated
      * @param SystemMeetMeConferencingGetRequest17sp3 $request
      * @return SystemMeetMeConferencingGetResponse17sp3
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemMeetMeConferencingGetRequest17sp3(\CWM\BroadWorksConnector\Ocip\Models\SystemMeetMeConferencingGetRequest17sp3 $request)
     {
@@ -6474,6 +6990,7 @@ trait OCISchemaDeprecated
      * @param SystemMeetMeConferencingGetRequest18 $request
      * @return SystemMeetMeConferencingGetResponse18
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemMeetMeConferencingGetRequest18(\CWM\BroadWorksConnector\Ocip\Models\SystemMeetMeConferencingGetRequest18 $request)
     {
@@ -6484,6 +7001,7 @@ trait OCISchemaDeprecated
      * @param SystemNetworkClassOfServiceGetRequest $request
      * @return SystemNetworkClassOfServiceGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemNetworkClassOfServiceGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemNetworkClassOfServiceGetRequest $request)
     {
@@ -6494,6 +7012,7 @@ trait OCISchemaDeprecated
      * @param SystemNetworkServerSyncParametersGetRequest $request
      * @return SystemNetworkServerSyncParametersGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemNetworkServerSyncParametersGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemNetworkServerSyncParametersGetRequest $request)
     {
@@ -6504,6 +7023,7 @@ trait OCISchemaDeprecated
      * @param SystemNetworkServerSyncParametersGetRequest14sp2 $request
      * @return SystemNetworkServerSyncParametersGetResponse14sp2
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemNetworkServerSyncParametersGetRequest14sp2(\CWM\BroadWorksConnector\Ocip\Models\SystemNetworkServerSyncParametersGetRequest14sp2 $request)
     {
@@ -6514,6 +7034,7 @@ trait OCISchemaDeprecated
      * @param SystemNetworkServerSyncParametersGetRequest16 $request
      * @return SystemNetworkServerSyncParametersGetResponse16
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemNetworkServerSyncParametersGetRequest16(\CWM\BroadWorksConnector\Ocip\Models\SystemNetworkServerSyncParametersGetRequest16 $request)
     {
@@ -6524,6 +7045,7 @@ trait OCISchemaDeprecated
      * @param SystemNumberActivationGetRequest $request
      * @return SystemNumberActivationGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemNumberActivationGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemNumberActivationGetRequest $request)
     {
@@ -6534,6 +7056,7 @@ trait OCISchemaDeprecated
      * @param SystemNumberActivationModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemNumberActivationModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemNumberActivationModifyRequest $request)
     {
@@ -6544,6 +7067,7 @@ trait OCISchemaDeprecated
      * @param SystemOCICallControlApplicationAddRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemOCICallControlApplicationAddRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemOCICallControlApplicationAddRequest $request)
     {
@@ -6554,6 +7078,7 @@ trait OCISchemaDeprecated
      * @param SystemOCICallControlApplicationAddRequest14sp9 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemOCICallControlApplicationAddRequest14sp9(\CWM\BroadWorksConnector\Ocip\Models\SystemOCICallControlApplicationAddRequest14sp9 $request)
     {
@@ -6564,6 +7089,7 @@ trait OCISchemaDeprecated
      * @param SystemOCIReportingParametersGetRequest $request
      * @return SystemOCIReportingParametersGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemOCIReportingParametersGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemOCIReportingParametersGetRequest $request)
     {
@@ -6574,6 +7100,7 @@ trait OCISchemaDeprecated
      * @param SystemOutgoingCallingPlanGetRequest $request
      * @return SystemOutgoingCallingPlanGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemOutgoingCallingPlanGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemOutgoingCallingPlanGetRequest $request)
     {
@@ -6584,6 +7111,7 @@ trait OCISchemaDeprecated
      * @param SystemPasswordRulesGetRequest13mp2 $request
      * @return SystemPasswordRulesGetResponse13mp2
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemPasswordRulesGetRequest13mp2(\CWM\BroadWorksConnector\Ocip\Models\SystemPasswordRulesGetRequest13mp2 $request)
     {
@@ -6594,6 +7122,7 @@ trait OCISchemaDeprecated
      * @param SystemPasswordRulesModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemPasswordRulesModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemPasswordRulesModifyRequest $request)
     {
@@ -6604,6 +7133,7 @@ trait OCISchemaDeprecated
      * @param SystemPerformanceMeasurementReportingGetRequest $request
      * @return SystemPerformanceMeasurementReportingGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemPerformanceMeasurementReportingGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemPerformanceMeasurementReportingGetRequest $request)
     {
@@ -6614,6 +7144,7 @@ trait OCISchemaDeprecated
      * @param SystemPolicyGetDefaultRequest14 $request
      * @return SystemPolicyGetDefaultResponse14
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemPolicyGetDefaultRequest14(\CWM\BroadWorksConnector\Ocip\Models\SystemPolicyGetDefaultRequest14 $request)
     {
@@ -6624,6 +7155,7 @@ trait OCISchemaDeprecated
      * @param SystemPolicyGetDefaultRequest14sp1 $request
      * @return SystemPolicyGetDefaultResponse14sp1
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemPolicyGetDefaultRequest14sp1(\CWM\BroadWorksConnector\Ocip\Models\SystemPolicyGetDefaultRequest14sp1 $request)
     {
@@ -6634,6 +7166,7 @@ trait OCISchemaDeprecated
      * @param SystemPolicyGetDefaultRequest14sp4 $request
      * @return SystemPolicyGetDefaultResponse14sp4
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemPolicyGetDefaultRequest14sp4(\CWM\BroadWorksConnector\Ocip\Models\SystemPolicyGetDefaultRequest14sp4 $request)
     {
@@ -6644,6 +7177,7 @@ trait OCISchemaDeprecated
      * @param SystemPolicyGetDefaultRequest16sp1 $request
      * @return SystemPolicyGetDefaultResponse16sp1
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemPolicyGetDefaultRequest16sp1(\CWM\BroadWorksConnector\Ocip\Models\SystemPolicyGetDefaultRequest16sp1 $request)
     {
@@ -6654,6 +7188,7 @@ trait OCISchemaDeprecated
      * @param SystemPolicyGetDefaultRequest16sp2 $request
      * @return SystemPolicyGetDefaultResponse16sp2
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemPolicyGetDefaultRequest16sp2(\CWM\BroadWorksConnector\Ocip\Models\SystemPolicyGetDefaultRequest16sp2 $request)
     {
@@ -6664,6 +7199,7 @@ trait OCISchemaDeprecated
      * @param SystemPolicyGetDefaultRequest17 $request
      * @return SystemPolicyGetDefaultResponse17
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemPolicyGetDefaultRequest17(\CWM\BroadWorksConnector\Ocip\Models\SystemPolicyGetDefaultRequest17 $request)
     {
@@ -6674,6 +7210,7 @@ trait OCISchemaDeprecated
      * @param SystemPolicyGetDefaultRequest17sp1 $request
      * @return SystemPolicyGetDefaultResponse17sp1
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemPolicyGetDefaultRequest17sp1(\CWM\BroadWorksConnector\Ocip\Models\SystemPolicyGetDefaultRequest17sp1 $request)
     {
@@ -6684,6 +7221,7 @@ trait OCISchemaDeprecated
      * @param SystemPolicyGetDefaultRequest17sp3 $request
      * @return SystemPolicyGetDefaultResponse17sp3
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemPolicyGetDefaultRequest17sp3(\CWM\BroadWorksConnector\Ocip\Models\SystemPolicyGetDefaultRequest17sp3 $request)
     {
@@ -6694,6 +7232,7 @@ trait OCISchemaDeprecated
      * @param SystemPortalPasscodeRulesGetRequest $request
      * @return SystemPortalPasscodeRulesGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemPortalPasscodeRulesGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemPortalPasscodeRulesGetRequest $request)
     {
@@ -6704,6 +7243,7 @@ trait OCISchemaDeprecated
      * @param SystemProvisioningValidationGetRequest $request
      * @return SystemProvisioningValidationGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemProvisioningValidationGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemProvisioningValidationGetRequest $request)
     {
@@ -6714,6 +7254,7 @@ trait OCISchemaDeprecated
      * @param SystemRedundancyParametersGetRequest $request
      * @return SystemRedundancyParametersGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemRedundancyParametersGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemRedundancyParametersGetRequest $request)
     {
@@ -6724,6 +7265,7 @@ trait OCISchemaDeprecated
      * @param SystemSecurityClassificationGetRequest $request
      * @return SystemSecurityClassificationGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemSecurityClassificationGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemSecurityClassificationGetRequest $request)
     {
@@ -6734,6 +7276,7 @@ trait OCISchemaDeprecated
      * @param SystemSelectiveServicesGetRequest $request
      * @return SystemSelectiveServicesGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemSelectiveServicesGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemSelectiveServicesGetRequest $request)
     {
@@ -6744,6 +7287,7 @@ trait OCISchemaDeprecated
      * @param SystemSelectiveServicesGetRequest18sp1 $request
      * @return SystemSelectiveServicesGetResponse18sp1
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemSelectiveServicesGetRequest18sp1(\CWM\BroadWorksConnector\Ocip\Models\SystemSelectiveServicesGetRequest18sp1 $request)
     {
@@ -6754,6 +7298,7 @@ trait OCISchemaDeprecated
      * @param SystemSessionAdmissionControlGetRequest $request
      * @return SystemSessionAdmissionControlGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemSessionAdmissionControlGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemSessionAdmissionControlGetRequest $request)
     {
@@ -6764,6 +7309,7 @@ trait OCISchemaDeprecated
      * @param SystemSessionAdmissionControlGetRequest21sp1 $request
      * @return SystemSessionAdmissionControlGetResponse21sp1
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemSessionAdmissionControlGetRequest21sp1(\CWM\BroadWorksConnector\Ocip\Models\SystemSessionAdmissionControlGetRequest21sp1 $request)
     {
@@ -6774,6 +7320,7 @@ trait OCISchemaDeprecated
      * @param SystemSessionAuditGetRequest $request
      * @return SystemSessionAuditGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemSessionAuditGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemSessionAuditGetRequest $request)
     {
@@ -6784,6 +7331,7 @@ trait OCISchemaDeprecated
      * @param SystemSessionAuditGetRequest14sp3 $request
      * @return SystemSessionAuditGetResponse14sp3
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemSessionAuditGetRequest14sp3(\CWM\BroadWorksConnector\Ocip\Models\SystemSessionAuditGetRequest14sp3 $request)
     {
@@ -6794,6 +7342,7 @@ trait OCISchemaDeprecated
      * @param SystemSessionAuditModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemSessionAuditModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemSessionAuditModifyRequest $request)
     {
@@ -6804,6 +7353,7 @@ trait OCISchemaDeprecated
      * @param SystemShInterfaceParametersGetRequest $request
      * @return SystemShInterfaceParametersGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemShInterfaceParametersGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemShInterfaceParametersGetRequest $request)
     {
@@ -6814,6 +7364,7 @@ trait OCISchemaDeprecated
      * @param SystemShInterfaceParametersModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemShInterfaceParametersModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemShInterfaceParametersModifyRequest $request)
     {
@@ -6824,6 +7375,7 @@ trait OCISchemaDeprecated
      * @param SystemSIPAddACLEntryRequest14 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemSIPAddACLEntryRequest14(\CWM\BroadWorksConnector\Ocip\Models\SystemSIPAddACLEntryRequest14 $request)
     {
@@ -6834,6 +7386,7 @@ trait OCISchemaDeprecated
      * @param SystemSIPDeleteACLEntryRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemSIPDeleteACLEntryRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeleteACLEntryRequest $request)
     {
@@ -6844,6 +7397,7 @@ trait OCISchemaDeprecated
      * @param SystemSIPDeviceTypeAddRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemSIPDeviceTypeAddRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeAddRequest $request)
     {
@@ -6854,6 +7408,7 @@ trait OCISchemaDeprecated
      * @param SystemSIPDeviceTypeAddRequest14sp1 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemSIPDeviceTypeAddRequest14sp1(\CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeAddRequest14sp1 $request)
     {
@@ -6864,6 +7419,7 @@ trait OCISchemaDeprecated
      * @param SystemSIPDeviceTypeAddRequest14sp2 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemSIPDeviceTypeAddRequest14sp2(\CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeAddRequest14sp2 $request)
     {
@@ -6874,6 +7430,7 @@ trait OCISchemaDeprecated
      * @param SystemSIPDeviceTypeAddRequest14sp3 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemSIPDeviceTypeAddRequest14sp3(\CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeAddRequest14sp3 $request)
     {
@@ -6884,6 +7441,7 @@ trait OCISchemaDeprecated
      * @param SystemSIPDeviceTypeAddRequest14sp6 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemSIPDeviceTypeAddRequest14sp6(\CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeAddRequest14sp6 $request)
     {
@@ -6894,6 +7452,7 @@ trait OCISchemaDeprecated
      * @param SystemSIPDeviceTypeAddRequest15 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemSIPDeviceTypeAddRequest15(\CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeAddRequest15 $request)
     {
@@ -6904,6 +7463,7 @@ trait OCISchemaDeprecated
      * @param SystemSIPDeviceTypeAddRequest16 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemSIPDeviceTypeAddRequest16(\CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeAddRequest16 $request)
     {
@@ -6914,6 +7474,7 @@ trait OCISchemaDeprecated
      * @param SystemSIPDeviceTypeAddRequest16sp1 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemSIPDeviceTypeAddRequest16sp1(\CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeAddRequest16sp1 $request)
     {
@@ -6924,6 +7485,7 @@ trait OCISchemaDeprecated
      * @param SystemSIPDeviceTypeAddRequest17 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemSIPDeviceTypeAddRequest17(\CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeAddRequest17 $request)
     {
@@ -6934,6 +7496,7 @@ trait OCISchemaDeprecated
      * @param SystemSIPDeviceTypeAddRequest17sp4 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemSIPDeviceTypeAddRequest17sp4(\CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeAddRequest17sp4 $request)
     {
@@ -6944,6 +7507,7 @@ trait OCISchemaDeprecated
      * @param SystemSIPDeviceTypeAddRequest18 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemSIPDeviceTypeAddRequest18(\CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeAddRequest18 $request)
     {
@@ -6954,6 +7518,7 @@ trait OCISchemaDeprecated
      * @param SystemSIPDeviceTypeAddRequest18sp1 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemSIPDeviceTypeAddRequest18sp1(\CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeAddRequest18sp1 $request)
     {
@@ -6964,6 +7529,7 @@ trait OCISchemaDeprecated
      * @param SystemSIPDeviceTypeAddRequest18sp1V2 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemSIPDeviceTypeAddRequest18sp1V2(\CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeAddRequest18sp1V2 $request)
     {
@@ -6974,6 +7540,7 @@ trait OCISchemaDeprecated
      * @param SystemSIPDeviceTypeAddRequest19 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemSIPDeviceTypeAddRequest19(\CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeAddRequest19 $request)
     {
@@ -6984,6 +7551,7 @@ trait OCISchemaDeprecated
      * @param SystemSIPDeviceTypeAddRequest19sp1 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemSIPDeviceTypeAddRequest19sp1(\CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeAddRequest19sp1 $request)
     {
@@ -6994,6 +7562,7 @@ trait OCISchemaDeprecated
      * @param SystemSIPDeviceTypeAddRequest20 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemSIPDeviceTypeAddRequest20(\CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeAddRequest20 $request)
     {
@@ -7004,6 +7573,7 @@ trait OCISchemaDeprecated
      * @param SystemSIPDeviceTypeAddRequest20sp1 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemSIPDeviceTypeAddRequest20sp1(\CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeAddRequest20sp1 $request)
     {
@@ -7014,6 +7584,7 @@ trait OCISchemaDeprecated
      * @param SystemSIPDeviceTypeAddRequest21 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemSIPDeviceTypeAddRequest21(\CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeAddRequest21 $request)
     {
@@ -7024,6 +7595,7 @@ trait OCISchemaDeprecated
      * @param SystemSIPDeviceTypeAddRequest21sp1 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemSIPDeviceTypeAddRequest21sp1(\CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeAddRequest21sp1 $request)
     {
@@ -7034,6 +7606,7 @@ trait OCISchemaDeprecated
      * @param SystemSIPDeviceTypeAddRequest21sp1V2 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemSIPDeviceTypeAddRequest21sp1V2(\CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeAddRequest21sp1V2 $request)
     {
@@ -7044,6 +7617,7 @@ trait OCISchemaDeprecated
      * @param SystemSIPDeviceTypeFileAddRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemSIPDeviceTypeFileAddRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeFileAddRequest $request)
     {
@@ -7054,6 +7628,7 @@ trait OCISchemaDeprecated
      * @param SystemSIPDeviceTypeFileAddRequest14sp8 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemSIPDeviceTypeFileAddRequest14sp8(\CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeFileAddRequest14sp8 $request)
     {
@@ -7064,6 +7639,7 @@ trait OCISchemaDeprecated
      * @param SystemSIPDeviceTypeFileAddRequest16sp1 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemSIPDeviceTypeFileAddRequest16sp1(\CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeFileAddRequest16sp1 $request)
     {
@@ -7074,6 +7650,7 @@ trait OCISchemaDeprecated
      * @param SystemSIPDeviceTypeFileAddRequest18 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemSIPDeviceTypeFileAddRequest18(\CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeFileAddRequest18 $request)
     {
@@ -7084,6 +7661,7 @@ trait OCISchemaDeprecated
      * @param SystemSIPDeviceTypeFileAddRequest19 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemSIPDeviceTypeFileAddRequest19(\CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeFileAddRequest19 $request)
     {
@@ -7094,6 +7672,7 @@ trait OCISchemaDeprecated
      * @param SystemSIPDeviceTypeFileAddRequest20 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemSIPDeviceTypeFileAddRequest20(\CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeFileAddRequest20 $request)
     {
@@ -7104,6 +7683,7 @@ trait OCISchemaDeprecated
      * @param SystemSIPDeviceTypeFileDeleteRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemSIPDeviceTypeFileDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeFileDeleteRequest $request)
     {
@@ -7114,6 +7694,7 @@ trait OCISchemaDeprecated
      * @param SystemSIPDeviceTypeFileGetListRequest $request
      * @return SystemSIPDeviceTypeFileGetListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemSIPDeviceTypeFileGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeFileGetListRequest $request)
     {
@@ -7124,6 +7705,7 @@ trait OCISchemaDeprecated
      * @param SystemSIPDeviceTypeFileGetRequest $request
      * @return SystemSIPDeviceTypeFileGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemSIPDeviceTypeFileGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeFileGetRequest $request)
     {
@@ -7134,6 +7716,7 @@ trait OCISchemaDeprecated
      * @param SystemSIPDeviceTypeFileGetRequest14sp8 $request
      * @return SystemSIPDeviceTypeFileGetResponse14sp8
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemSIPDeviceTypeFileGetRequest14sp8(\CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeFileGetRequest14sp8 $request)
     {
@@ -7144,6 +7727,7 @@ trait OCISchemaDeprecated
      * @param SystemSIPDeviceTypeFileGetRequest16sp1 $request
      * @return SystemSIPDeviceTypeFileGetResponse16sp1
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemSIPDeviceTypeFileGetRequest16sp1(\CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeFileGetRequest16sp1 $request)
     {
@@ -7154,6 +7738,7 @@ trait OCISchemaDeprecated
      * @param SystemSIPDeviceTypeFileGetRequest18 $request
      * @return SystemSIPDeviceTypeFileGetResponse18
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemSIPDeviceTypeFileGetRequest18(\CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeFileGetRequest18 $request)
     {
@@ -7164,6 +7749,7 @@ trait OCISchemaDeprecated
      * @param SystemSIPDeviceTypeFileGetRequest19 $request
      * @return SystemSIPDeviceTypeFileGetResponse19
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemSIPDeviceTypeFileGetRequest19(\CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeFileGetRequest19 $request)
     {
@@ -7174,6 +7760,7 @@ trait OCISchemaDeprecated
      * @param SystemSIPDeviceTypeFileGetRequest20 $request
      * @return SystemSIPDeviceTypeFileGetResponse20
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemSIPDeviceTypeFileGetRequest20(\CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeFileGetRequest20 $request)
     {
@@ -7184,6 +7771,7 @@ trait OCISchemaDeprecated
      * @param SystemSIPDeviceTypeFileModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemSIPDeviceTypeFileModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeFileModifyRequest $request)
     {
@@ -7194,6 +7782,7 @@ trait OCISchemaDeprecated
      * @param SystemSIPDeviceTypeFileModifyRequest14sp8 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemSIPDeviceTypeFileModifyRequest14sp8(\CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeFileModifyRequest14sp8 $request)
     {
@@ -7204,6 +7793,7 @@ trait OCISchemaDeprecated
      * @param SystemSIPDeviceTypeGetRequest $request
      * @return SystemSIPDeviceTypeGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemSIPDeviceTypeGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeGetRequest $request)
     {
@@ -7214,6 +7804,7 @@ trait OCISchemaDeprecated
      * @param SystemSIPDeviceTypeGetRequest14sp1 $request
      * @return SystemSIPDeviceTypeGetResponse14sp1
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemSIPDeviceTypeGetRequest14sp1(\CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeGetRequest14sp1 $request)
     {
@@ -7224,6 +7815,7 @@ trait OCISchemaDeprecated
      * @param SystemSIPDeviceTypeGetRequest14sp2 $request
      * @return SystemSIPDeviceTypeGetResponse14sp2
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemSIPDeviceTypeGetRequest14sp2(\CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeGetRequest14sp2 $request)
     {
@@ -7234,6 +7826,7 @@ trait OCISchemaDeprecated
      * @param SystemSIPDeviceTypeGetRequest14sp3 $request
      * @return SystemSIPDeviceTypeGetResponse14sp3
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemSIPDeviceTypeGetRequest14sp3(\CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeGetRequest14sp3 $request)
     {
@@ -7244,6 +7837,7 @@ trait OCISchemaDeprecated
      * @param SystemSIPDeviceTypeGetRequest14sp6 $request
      * @return SystemSIPDeviceTypeGetResponse14sp6
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemSIPDeviceTypeGetRequest14sp6(\CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeGetRequest14sp6 $request)
     {
@@ -7254,6 +7848,7 @@ trait OCISchemaDeprecated
      * @param SystemSIPDeviceTypeGetRequest15 $request
      * @return SystemSIPDeviceTypeGetResponse15
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemSIPDeviceTypeGetRequest15(\CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeGetRequest15 $request)
     {
@@ -7264,6 +7859,7 @@ trait OCISchemaDeprecated
      * @param SystemSIPDeviceTypeGetRequest16 $request
      * @return SystemSIPDeviceTypeGetResponse16
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemSIPDeviceTypeGetRequest16(\CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeGetRequest16 $request)
     {
@@ -7274,6 +7870,7 @@ trait OCISchemaDeprecated
      * @param SystemSIPDeviceTypeGetRequest16sp1 $request
      * @return SystemSIPDeviceTypeGetResponse16sp1
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemSIPDeviceTypeGetRequest16sp1(\CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeGetRequest16sp1 $request)
     {
@@ -7284,6 +7881,7 @@ trait OCISchemaDeprecated
      * @param SystemSIPDeviceTypeGetRequest17 $request
      * @return SystemSIPDeviceTypeGetResponse17
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemSIPDeviceTypeGetRequest17(\CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeGetRequest17 $request)
     {
@@ -7294,6 +7892,7 @@ trait OCISchemaDeprecated
      * @param SystemSIPDeviceTypeGetRequest17sp4 $request
      * @return SystemSIPDeviceTypeGetResponse17sp4
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemSIPDeviceTypeGetRequest17sp4(\CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeGetRequest17sp4 $request)
     {
@@ -7304,6 +7903,7 @@ trait OCISchemaDeprecated
      * @param SystemSIPDeviceTypeGetRequest18 $request
      * @return SystemSIPDeviceTypeGetResponse18
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemSIPDeviceTypeGetRequest18(\CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeGetRequest18 $request)
     {
@@ -7314,6 +7914,7 @@ trait OCISchemaDeprecated
      * @param SystemSIPDeviceTypeGetRequest18sp1 $request
      * @return SystemSIPDeviceTypeGetResponse18sp1
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemSIPDeviceTypeGetRequest18sp1(\CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeGetRequest18sp1 $request)
     {
@@ -7324,6 +7925,7 @@ trait OCISchemaDeprecated
      * @param SystemSIPDeviceTypeGetRequest18sp1V2 $request
      * @return SystemSIPDeviceTypeGetResponse19
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemSIPDeviceTypeGetRequest18sp1V2(\CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeGetRequest18sp1V2 $request)
     {
@@ -7334,6 +7936,7 @@ trait OCISchemaDeprecated
      * @param SystemSIPDeviceTypeGetRequest19 $request
      * @return SystemSIPDeviceTypeGetResponse19
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemSIPDeviceTypeGetRequest19(\CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeGetRequest19 $request)
     {
@@ -7344,6 +7947,7 @@ trait OCISchemaDeprecated
      * @param SystemSIPDeviceTypeGetRequest19sp1 $request
      * @return SystemSIPDeviceTypeGetResponse19sp1
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemSIPDeviceTypeGetRequest19sp1(\CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeGetRequest19sp1 $request)
     {
@@ -7354,6 +7958,7 @@ trait OCISchemaDeprecated
      * @param SystemSIPDeviceTypeGetRequest20 $request
      * @return SystemSIPDeviceTypeGetResponse20
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemSIPDeviceTypeGetRequest20(\CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeGetRequest20 $request)
     {
@@ -7364,6 +7969,7 @@ trait OCISchemaDeprecated
      * @param SystemSIPDeviceTypeGetRequest20sp1 $request
      * @return SystemSIPDeviceTypeGetResponse20
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemSIPDeviceTypeGetRequest20sp1(\CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeGetRequest20sp1 $request)
     {
@@ -7374,6 +7980,7 @@ trait OCISchemaDeprecated
      * @param SystemSIPDeviceTypeGetRequest21 $request
      * @return SystemSIPDeviceTypeGetResponse21
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemSIPDeviceTypeGetRequest21(\CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeGetRequest21 $request)
     {
@@ -7384,6 +7991,7 @@ trait OCISchemaDeprecated
      * @param SystemSIPDeviceTypeGetRequest21sp1 $request
      * @return SystemSIPDeviceTypeGetResponse21sp1
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemSIPDeviceTypeGetRequest21sp1(\CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeGetRequest21sp1 $request)
     {
@@ -7394,6 +8002,7 @@ trait OCISchemaDeprecated
      * @param SystemSIPDeviceTypeGetRequest21sp1V2 $request
      * @return SystemSIPDeviceTypeGetResponse21sp1V2
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemSIPDeviceTypeGetRequest21sp1V2(\CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeGetRequest21sp1V2 $request)
     {
@@ -7404,6 +8013,7 @@ trait OCISchemaDeprecated
      * @param SystemSIPDeviceTypeModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemSIPDeviceTypeModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeModifyRequest $request)
     {
@@ -7414,6 +8024,7 @@ trait OCISchemaDeprecated
      * @param SystemSIPDeviceTypeModifyRequest14sp2 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemSIPDeviceTypeModifyRequest14sp2(\CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeModifyRequest14sp2 $request)
     {
@@ -7424,6 +8035,7 @@ trait OCISchemaDeprecated
      * @param SystemSIPDeviceTypeModifyRequest15 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemSIPDeviceTypeModifyRequest15(\CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeModifyRequest15 $request)
     {
@@ -7434,6 +8046,7 @@ trait OCISchemaDeprecated
      * @param SystemSIPDeviceTypeModifyRequest16 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemSIPDeviceTypeModifyRequest16(\CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeModifyRequest16 $request)
     {
@@ -7444,6 +8057,7 @@ trait OCISchemaDeprecated
      * @param SystemSIPDeviceTypeModifyRequest16sp1 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemSIPDeviceTypeModifyRequest16sp1(\CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeModifyRequest16sp1 $request)
     {
@@ -7454,6 +8068,7 @@ trait OCISchemaDeprecated
      * @param SystemSIPDeviceTypeModifyRequest17 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemSIPDeviceTypeModifyRequest17(\CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeModifyRequest17 $request)
     {
@@ -7464,6 +8079,7 @@ trait OCISchemaDeprecated
      * @param SystemSIPDeviceTypeModifyRequest18sp1 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemSIPDeviceTypeModifyRequest18sp1(\CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeModifyRequest18sp1 $request)
     {
@@ -7474,6 +8090,7 @@ trait OCISchemaDeprecated
      * @param SystemSIPDeviceTypeModifyRequest21 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemSIPDeviceTypeModifyRequest21(\CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeModifyRequest21 $request)
     {
@@ -7484,6 +8101,7 @@ trait OCISchemaDeprecated
      * @param SystemSIPModifyACLEntryRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemSIPModifyACLEntryRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemSIPModifyACLEntryRequest $request)
     {
@@ -7494,6 +8112,7 @@ trait OCISchemaDeprecated
      * @param SystemSMDIAddACLEntryRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemSMDIAddACLEntryRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemSMDIAddACLEntryRequest $request)
     {
@@ -7504,6 +8123,7 @@ trait OCISchemaDeprecated
      * @param SystemSMDIDeleteACLEntryRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemSMDIDeleteACLEntryRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemSMDIDeleteACLEntryRequest $request)
     {
@@ -7514,6 +8134,7 @@ trait OCISchemaDeprecated
      * @param SystemSMDIModifyACLEntryRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemSMDIModifyACLEntryRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemSMDIModifyACLEntryRequest $request)
     {
@@ -7524,6 +8145,7 @@ trait OCISchemaDeprecated
      * @param SystemSMPPGetRequest $request
      * @return SystemSMPPGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemSMPPGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemSMPPGetRequest $request)
     {
@@ -7534,6 +8156,7 @@ trait OCISchemaDeprecated
      * @param SystemSpeedDial100GetRequest $request
      * @return SystemSpeedDial100GetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemSpeedDial100GetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemSpeedDial100GetRequest $request)
     {
@@ -7544,6 +8167,7 @@ trait OCISchemaDeprecated
      * @param SystemSubscriberGetCallProcessingParametersRequest $request
      * @return SystemSubscriberGetCallProcessingParametersResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemSubscriberGetCallProcessingParametersRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemSubscriberGetCallProcessingParametersRequest $request)
     {
@@ -7554,6 +8178,7 @@ trait OCISchemaDeprecated
      * @param SystemSubscriberGetCallProcessingParametersRequest14sp3 $request
      * @return SystemSubscriberGetCallProcessingParametersResponse14sp3
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemSubscriberGetCallProcessingParametersRequest14sp3(\CWM\BroadWorksConnector\Ocip\Models\SystemSubscriberGetCallProcessingParametersRequest14sp3 $request)
     {
@@ -7564,6 +8189,7 @@ trait OCISchemaDeprecated
      * @param SystemSubscriberGetCallProcessingParametersRequest14sp7 $request
      * @return SystemSubscriberGetCallProcessingParametersResponse14sp7
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemSubscriberGetCallProcessingParametersRequest14sp7(\CWM\BroadWorksConnector\Ocip\Models\SystemSubscriberGetCallProcessingParametersRequest14sp7 $request)
     {
@@ -7574,6 +8200,7 @@ trait OCISchemaDeprecated
      * @param SystemSubscriberGetCallProcessingParametersRequest15 $request
      * @return SystemSubscriberGetCallProcessingParametersResponse15
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemSubscriberGetCallProcessingParametersRequest15(\CWM\BroadWorksConnector\Ocip\Models\SystemSubscriberGetCallProcessingParametersRequest15 $request)
     {
@@ -7584,6 +8211,7 @@ trait OCISchemaDeprecated
      * @param SystemSubscriberGetCallProcessingParametersRequest15sp2 $request
      * @return SystemSubscriberGetCallProcessingParametersResponse15sp2
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemSubscriberGetCallProcessingParametersRequest15sp2(\CWM\BroadWorksConnector\Ocip\Models\SystemSubscriberGetCallProcessingParametersRequest15sp2 $request)
     {
@@ -7594,6 +8222,7 @@ trait OCISchemaDeprecated
      * @param SystemSubscriberGetCallProcessingParametersRequest17 $request
      * @return SystemSubscriberGetCallProcessingParametersResponse17
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemSubscriberGetCallProcessingParametersRequest17(\CWM\BroadWorksConnector\Ocip\Models\SystemSubscriberGetCallProcessingParametersRequest17 $request)
     {
@@ -7604,6 +8233,7 @@ trait OCISchemaDeprecated
      * @param SystemSubscriberGetCallProcessingParametersRequest17sp3 $request
      * @return SystemSubscriberGetCallProcessingParametersResponse17sp3
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemSubscriberGetCallProcessingParametersRequest17sp3(\CWM\BroadWorksConnector\Ocip\Models\SystemSubscriberGetCallProcessingParametersRequest17sp3 $request)
     {
@@ -7614,6 +8244,7 @@ trait OCISchemaDeprecated
      * @param SystemSubscriberGetCallProcessingParametersRequest17sp4 $request
      * @return SystemSubscriberGetCallProcessingParametersResponse17sp4
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemSubscriberGetCallProcessingParametersRequest17sp4(\CWM\BroadWorksConnector\Ocip\Models\SystemSubscriberGetCallProcessingParametersRequest17sp4 $request)
     {
@@ -7624,6 +8255,7 @@ trait OCISchemaDeprecated
      * @param SystemSubscriberModifyCallProcessingParametersRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemSubscriberModifyCallProcessingParametersRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemSubscriberModifyCallProcessingParametersRequest $request)
     {
@@ -7634,6 +8266,7 @@ trait OCISchemaDeprecated
      * @param SystemSystemVoicePortalAddRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemSystemVoicePortalAddRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemSystemVoicePortalAddRequest $request)
     {
@@ -7644,6 +8277,7 @@ trait OCISchemaDeprecated
      * @param SystemSystemVoicePortalGetRequest $request
      * @return SystemSystemVoicePortalGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemSystemVoicePortalGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemSystemVoicePortalGetRequest $request)
     {
@@ -7654,6 +8288,7 @@ trait OCISchemaDeprecated
      * @param SystemThirdPartyIMPGetRequest $request
      * @return SystemThirdPartyIMPGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemThirdPartyIMPGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemThirdPartyIMPGetRequest $request)
     {
@@ -7664,6 +8299,7 @@ trait OCISchemaDeprecated
      * @param SystemThirdPartyVoiceMailSupportGetRequest $request
      * @return SystemThirdPartyVoiceMailSupportGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemThirdPartyVoiceMailSupportGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemThirdPartyVoiceMailSupportGetRequest $request)
     {
@@ -7674,6 +8310,7 @@ trait OCISchemaDeprecated
      * @param SystemTimeScheduleAddRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemTimeScheduleAddRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemTimeScheduleAddRequest $request)
     {
@@ -7684,6 +8321,7 @@ trait OCISchemaDeprecated
      * @param SystemTimeScheduleDeleteRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemTimeScheduleDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemTimeScheduleDeleteRequest $request)
     {
@@ -7694,6 +8332,7 @@ trait OCISchemaDeprecated
      * @param SystemTimeScheduleGetListRequest $request
      * @return SystemTimeScheduleGetListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemTimeScheduleGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemTimeScheduleGetListRequest $request)
     {
@@ -7704,6 +8343,7 @@ trait OCISchemaDeprecated
      * @param SystemTimeScheduleGetRequest $request
      * @return SystemTimeScheduleGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemTimeScheduleGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemTimeScheduleGetRequest $request)
     {
@@ -7714,6 +8354,7 @@ trait OCISchemaDeprecated
      * @param SystemTimeScheduleModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemTimeScheduleModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemTimeScheduleModifyRequest $request)
     {
@@ -7724,6 +8365,7 @@ trait OCISchemaDeprecated
      * @param SystemTreatmentMappingCallBlockingServiceGetListRequest19sp1 $request
      * @return SystemTreatmentMappingCallBlockingServiceGetListResponse19sp1
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemTreatmentMappingCallBlockingServiceGetListRequest19sp1(\CWM\BroadWorksConnector\Ocip\Models\SystemTreatmentMappingCallBlockingServiceGetListRequest19sp1 $request)
     {
@@ -7734,6 +8376,7 @@ trait OCISchemaDeprecated
      * @param SystemTrunkGroupGetRequest $request
      * @return SystemTrunkGroupGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemTrunkGroupGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemTrunkGroupGetRequest $request)
     {
@@ -7744,6 +8387,7 @@ trait OCISchemaDeprecated
      * @param SystemTrunkGroupGetRequest19sp1 $request
      * @return SystemTrunkGroupGetResponse19sp1
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemTrunkGroupGetRequest19sp1(\CWM\BroadWorksConnector\Ocip\Models\SystemTrunkGroupGetRequest19sp1 $request)
     {
@@ -7754,6 +8398,7 @@ trait OCISchemaDeprecated
      * @param SystemTrunkGroupUserCreationTaskGetListRequest $request
      * @return SystemTrunkGroupUserCreationTaskGetListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemTrunkGroupUserCreationTaskGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemTrunkGroupUserCreationTaskGetListRequest $request)
     {
@@ -7764,6 +8409,7 @@ trait OCISchemaDeprecated
      * @param SystemVoiceMessagingGroupGetPasscodeRulesRequest14 $request
      * @return SystemVoiceMessagingGroupGetPasscodeRulesResponse14
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemVoiceMessagingGroupGetPasscodeRulesRequest14(\CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetPasscodeRulesRequest14 $request)
     {
@@ -7774,6 +8420,7 @@ trait OCISchemaDeprecated
      * @param SystemVoiceMessagingGroupGetRequest14 $request
      * @return SystemVoiceMessagingGroupGetResponse14
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemVoiceMessagingGroupGetRequest14(\CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetRequest14 $request)
     {
@@ -7784,6 +8431,7 @@ trait OCISchemaDeprecated
      * @param SystemVoiceMessagingGroupGetRequest16 $request
      * @return SystemVoiceMessagingGroupGetResponse16
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemVoiceMessagingGroupGetRequest16(\CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetRequest16 $request)
     {
@@ -7794,6 +8442,7 @@ trait OCISchemaDeprecated
      * @param SystemVoiceMessagingGroupGetRequest20 $request
      * @return SystemVoiceMessagingGroupGetResponse20
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemVoiceMessagingGroupGetRequest20(\CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetRequest20 $request)
     {
@@ -7804,6 +8453,7 @@ trait OCISchemaDeprecated
      * @param SystemVoiceMessagingGroupGetVoicePortalMenusRequest14 $request
      * @return SystemVoiceMessagingGroupGetVoicePortalMenusResponse14
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemVoiceMessagingGroupGetVoicePortalMenusRequest14(\CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusRequest14 $request)
     {
@@ -7814,6 +8464,7 @@ trait OCISchemaDeprecated
      * @param SystemVoiceMessagingGroupGetVoicePortalMenusRequest18 $request
      * @return SystemVoiceMessagingGroupGetVoicePortalMenusResponse18
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemVoiceMessagingGroupGetVoicePortalMenusRequest18(\CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusRequest18 $request)
     {
@@ -7824,6 +8475,7 @@ trait OCISchemaDeprecated
      * @param SystemVoiceMessagingGroupGetVoicePortalMenusRequest18sp1 $request
      * @return SystemVoiceMessagingGroupGetVoicePortalMenusResponse18sp1
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemVoiceMessagingGroupGetVoicePortalMenusRequest18sp1(\CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusRequest18sp1 $request)
     {
@@ -7834,6 +8486,7 @@ trait OCISchemaDeprecated
      * @param SystemVoiceMessagingGroupGetVoicePortalMenusRequest19 $request
      * @return SystemVoiceMessagingGroupGetVoicePortalMenusResponse19
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemVoiceMessagingGroupGetVoicePortalMenusRequest19(\CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusRequest19 $request)
     {
@@ -7844,6 +8497,7 @@ trait OCISchemaDeprecated
      * @param SystemVoiceMessagingGroupGetVoicePortalMenusRequest19sp1 $request
      * @return SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemVoiceMessagingGroupGetVoicePortalMenusRequest19sp1(\CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusRequest19sp1 $request)
     {
@@ -7854,6 +8508,7 @@ trait OCISchemaDeprecated
      * @param SystemVoiceMessagingGroupGetVoicePortalMenusRequest20 $request
      * @return SystemVoiceMessagingGroupGetVoicePortalMenusResponse20
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemVoiceMessagingGroupGetVoicePortalMenusRequest20(\CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusRequest20 $request)
     {
@@ -7864,6 +8519,7 @@ trait OCISchemaDeprecated
      * @param SystemVoiceMessagingGroupModifyPasscodeRulesRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemVoiceMessagingGroupModifyPasscodeRulesRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupModifyPasscodeRulesRequest $request)
     {
@@ -7874,6 +8530,7 @@ trait OCISchemaDeprecated
      * @param SystemVoiceMessagingGroupModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemVoiceMessagingGroupModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupModifyRequest $request)
     {
@@ -7884,6 +8541,7 @@ trait OCISchemaDeprecated
      * @param SystemVoiceMessagingGroupModifyVoicePortalMenusRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemVoiceMessagingGroupModifyVoicePortalMenusRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupModifyVoicePortalMenusRequest $request)
     {
@@ -7894,6 +8552,7 @@ trait OCISchemaDeprecated
      * @param SystemZoneCallingRestrictionsNetAddressAddListRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemZoneCallingRestrictionsNetAddressAddListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemZoneCallingRestrictionsNetAddressAddListRequest $request)
     {
@@ -7904,6 +8563,7 @@ trait OCISchemaDeprecated
      * @param SystemZoneCallingRestrictionsNetAddressDeleteListRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemZoneCallingRestrictionsNetAddressDeleteListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemZoneCallingRestrictionsNetAddressDeleteListRequest $request)
     {
@@ -7914,6 +8574,7 @@ trait OCISchemaDeprecated
      * @param SystemZoneCallingRestrictionsNetAddressGetListRequest $request
      * @return 
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemZoneCallingRestrictionsNetAddressGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemZoneCallingRestrictionsNetAddressGetListRequest $request)
     {
@@ -7924,6 +8585,7 @@ trait OCISchemaDeprecated
      * @param SystemZoneCallingRestrictionsZoneAddRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemZoneCallingRestrictionsZoneAddRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemZoneCallingRestrictionsZoneAddRequest $request)
     {
@@ -7934,6 +8596,7 @@ trait OCISchemaDeprecated
      * @param SystemZoneCallingRestrictionsZoneDeleteRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemZoneCallingRestrictionsZoneDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemZoneCallingRestrictionsZoneDeleteRequest $request)
     {
@@ -7944,6 +8607,7 @@ trait OCISchemaDeprecated
      * @param SystemZoneCallingRestrictionsZoneGetListRequest $request
      * @return SystemZoneCallingRestrictionsZoneGetListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemZoneCallingRestrictionsZoneGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemZoneCallingRestrictionsZoneGetListRequest $request)
     {
@@ -7954,6 +8618,7 @@ trait OCISchemaDeprecated
      * @param SystemZoneCallingRestrictionsZoneModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemZoneCallingRestrictionsZoneModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemZoneCallingRestrictionsZoneModifyRequest $request)
     {
@@ -7964,6 +8629,7 @@ trait OCISchemaDeprecated
      * @param UserAddRequest14 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userAddRequest14(\CWM\BroadWorksConnector\Ocip\Models\UserAddRequest14 $request)
     {
@@ -7974,6 +8640,7 @@ trait OCISchemaDeprecated
      * @param UserAddRequest14sp9 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userAddRequest14sp9(\CWM\BroadWorksConnector\Ocip\Models\UserAddRequest14sp9 $request)
     {
@@ -7984,6 +8651,7 @@ trait OCISchemaDeprecated
      * @param UserAlternateNumbersGetRequest $request
      * @return UserAlternateNumbersGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userAlternateNumbersGetRequest(\CWM\BroadWorksConnector\Ocip\Models\UserAlternateNumbersGetRequest $request)
     {
@@ -7994,6 +8662,7 @@ trait OCISchemaDeprecated
      * @param UserAttendantConsoleGetRequest $request
      * @return UserAttendantConsoleGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userAttendantConsoleGetRequest(\CWM\BroadWorksConnector\Ocip\Models\UserAttendantConsoleGetRequest $request)
     {
@@ -8004,6 +8673,7 @@ trait OCISchemaDeprecated
      * @param UserBasicCallLogsGetListRequest $request
      * @return UserBasicCallLogsGetListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userBasicCallLogsGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\UserBasicCallLogsGetListRequest $request)
     {
@@ -8014,6 +8684,7 @@ trait OCISchemaDeprecated
      * @param UserBroadWorksAnywhereAddSelectiveCriteriaRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userBroadWorksAnywhereAddSelectiveCriteriaRequest(\CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksAnywhereAddSelectiveCriteriaRequest $request)
     {
@@ -8024,6 +8695,7 @@ trait OCISchemaDeprecated
      * @param UserBroadWorksAnywhereGetAvailablePortalListRequest $request
      * @return UserBroadWorksAnywhereGetAvailablePortalListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userBroadWorksAnywhereGetAvailablePortalListRequest(\CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksAnywhereGetAvailablePortalListRequest $request)
     {
@@ -8034,6 +8706,7 @@ trait OCISchemaDeprecated
      * @param UserBroadWorksAnywhereGetRequest $request
      * @return UserBroadWorksAnywhereGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userBroadWorksAnywhereGetRequest(\CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksAnywhereGetRequest $request)
     {
@@ -8044,6 +8717,7 @@ trait OCISchemaDeprecated
      * @param UserBroadWorksAnywhereGetSelectiveCriteriaRequest $request
      * @return UserBroadWorksAnywhereGetSelectiveCriteriaResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userBroadWorksAnywhereGetSelectiveCriteriaRequest(\CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksAnywhereGetSelectiveCriteriaRequest $request)
     {
@@ -8054,6 +8728,7 @@ trait OCISchemaDeprecated
      * @param UserBusyLampFieldGetRequest $request
      * @return UserBusyLampFieldGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userBusyLampFieldGetRequest(\CWM\BroadWorksConnector\Ocip\Models\UserBusyLampFieldGetRequest $request)
     {
@@ -8064,6 +8739,7 @@ trait OCISchemaDeprecated
      * @param UserCallCenterGetListRequest $request
      * @return UserCallCenterGetListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userCallCenterGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\UserCallCenterGetListRequest $request)
     {
@@ -8074,6 +8750,7 @@ trait OCISchemaDeprecated
      * @param UserCallCenterGetRequest $request
      * @return UserCallCenterGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userCallCenterGetRequest(\CWM\BroadWorksConnector\Ocip\Models\UserCallCenterGetRequest $request)
     {
@@ -8084,6 +8761,7 @@ trait OCISchemaDeprecated
      * @param UserCallCenterGetRequest16 $request
      * @return UserCallCenterGetResponse16
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userCallCenterGetRequest16(\CWM\BroadWorksConnector\Ocip\Models\UserCallCenterGetRequest16 $request)
     {
@@ -8094,6 +8772,7 @@ trait OCISchemaDeprecated
      * @param UserCallCenterGetRequest17 $request
      * @return UserCallCenterGetResponse17
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userCallCenterGetRequest17(\CWM\BroadWorksConnector\Ocip\Models\UserCallCenterGetRequest17 $request)
     {
@@ -8104,6 +8783,7 @@ trait OCISchemaDeprecated
      * @param UserCallCenterGetRequest17sp4 $request
      * @return UserCallCenterGetResponse17sp4
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userCallCenterGetRequest17sp4(\CWM\BroadWorksConnector\Ocip\Models\UserCallCenterGetRequest17sp4 $request)
     {
@@ -8114,6 +8794,7 @@ trait OCISchemaDeprecated
      * @param UserCallCenterModifyAvailabilityListRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userCallCenterModifyAvailabilityListRequest(\CWM\BroadWorksConnector\Ocip\Models\UserCallCenterModifyAvailabilityListRequest $request)
     {
@@ -8124,6 +8805,7 @@ trait OCISchemaDeprecated
      * @param UserCallCenterModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userCallCenterModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\UserCallCenterModifyRequest $request)
     {
@@ -8134,6 +8816,7 @@ trait OCISchemaDeprecated
      * @param UserCallCenterModifyRequest17sp4 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userCallCenterModifyRequest17sp4(\CWM\BroadWorksConnector\Ocip\Models\UserCallCenterModifyRequest17sp4 $request)
     {
@@ -8144,6 +8827,7 @@ trait OCISchemaDeprecated
      * @param UserCallForwardingSelectiveAddCriteriaRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userCallForwardingSelectiveAddCriteriaRequest(\CWM\BroadWorksConnector\Ocip\Models\UserCallForwardingSelectiveAddCriteriaRequest $request)
     {
@@ -8154,6 +8838,7 @@ trait OCISchemaDeprecated
      * @param UserCallForwardingSelectiveGetCriteriaRequest $request
      * @return UserCallForwardingSelectiveGetCriteriaResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userCallForwardingSelectiveGetCriteriaRequest(\CWM\BroadWorksConnector\Ocip\Models\UserCallForwardingSelectiveGetCriteriaRequest $request)
     {
@@ -8164,6 +8849,7 @@ trait OCISchemaDeprecated
      * @param UserCallForwardingSelectiveGetRequest $request
      * @return UserCallForwardingSelectiveGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userCallForwardingSelectiveGetRequest(\CWM\BroadWorksConnector\Ocip\Models\UserCallForwardingSelectiveGetRequest $request)
     {
@@ -8174,6 +8860,7 @@ trait OCISchemaDeprecated
      * @param UserCallingPartyCategoryGetRequest $request
      * @return UserCallingPartyCategoryGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userCallingPartyCategoryGetRequest(\CWM\BroadWorksConnector\Ocip\Models\UserCallingPartyCategoryGetRequest $request)
     {
@@ -8184,6 +8871,7 @@ trait OCISchemaDeprecated
      * @param UserCallingPartyCategoryModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userCallingPartyCategoryModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\UserCallingPartyCategoryModifyRequest $request)
     {
@@ -8194,6 +8882,7 @@ trait OCISchemaDeprecated
      * @param UserCallLogsClearRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userCallLogsClearRequest(\CWM\BroadWorksConnector\Ocip\Models\UserCallLogsClearRequest $request)
     {
@@ -8204,6 +8893,7 @@ trait OCISchemaDeprecated
      * @param UserCallNotifyAddCriteriaRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userCallNotifyAddCriteriaRequest(\CWM\BroadWorksConnector\Ocip\Models\UserCallNotifyAddCriteriaRequest $request)
     {
@@ -8214,6 +8904,7 @@ trait OCISchemaDeprecated
      * @param UserCallNotifyGetCriteriaRequest $request
      * @return UserCallNotifyGetCriteriaResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userCallNotifyGetCriteriaRequest(\CWM\BroadWorksConnector\Ocip\Models\UserCallNotifyGetCriteriaRequest $request)
     {
@@ -8224,6 +8915,7 @@ trait OCISchemaDeprecated
      * @param UserCallPoliciesGetRequest $request
      * @return UserCallPoliciesGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userCallPoliciesGetRequest(\CWM\BroadWorksConnector\Ocip\Models\UserCallPoliciesGetRequest $request)
     {
@@ -8234,6 +8926,7 @@ trait OCISchemaDeprecated
      * @param UserCallProcessingGetPolicyRequest14 $request
      * @return UserCallProcessingGetPolicyResponse14
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userCallProcessingGetPolicyRequest14(\CWM\BroadWorksConnector\Ocip\Models\UserCallProcessingGetPolicyRequest14 $request)
     {
@@ -8244,6 +8937,7 @@ trait OCISchemaDeprecated
      * @param UserCallProcessingGetPolicyRequest14sp1 $request
      * @return UserCallProcessingGetPolicyResponse14sp1
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userCallProcessingGetPolicyRequest14sp1(\CWM\BroadWorksConnector\Ocip\Models\UserCallProcessingGetPolicyRequest14sp1 $request)
     {
@@ -8254,6 +8948,7 @@ trait OCISchemaDeprecated
      * @param UserCallProcessingGetPolicyRequest14sp7 $request
      * @return UserCallProcessingGetPolicyResponse14sp7
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userCallProcessingGetPolicyRequest14sp7(\CWM\BroadWorksConnector\Ocip\Models\UserCallProcessingGetPolicyRequest14sp7 $request)
     {
@@ -8264,6 +8959,7 @@ trait OCISchemaDeprecated
      * @param UserCallProcessingGetPolicyRequest16 $request
      * @return UserCallProcessingGetPolicyResponse16
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userCallProcessingGetPolicyRequest16(\CWM\BroadWorksConnector\Ocip\Models\UserCallProcessingGetPolicyRequest16 $request)
     {
@@ -8274,6 +8970,7 @@ trait OCISchemaDeprecated
      * @param UserCallProcessingGetPolicyRequest16sp2 $request
      * @return UserCallProcessingGetPolicyResponse16
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userCallProcessingGetPolicyRequest16sp2(\CWM\BroadWorksConnector\Ocip\Models\UserCallProcessingGetPolicyRequest16sp2 $request)
     {
@@ -8284,6 +8981,7 @@ trait OCISchemaDeprecated
      * @param UserCallProcessingGetPolicyRequest17 $request
      * @return UserCallProcessingGetPolicyResponse17
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userCallProcessingGetPolicyRequest17(\CWM\BroadWorksConnector\Ocip\Models\UserCallProcessingGetPolicyRequest17 $request)
     {
@@ -8294,6 +8992,7 @@ trait OCISchemaDeprecated
      * @param UserCallProcessingGetPolicyRequest17sp3 $request
      * @return UserCallProcessingGetPolicyResponse17sp3
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userCallProcessingGetPolicyRequest17sp3(\CWM\BroadWorksConnector\Ocip\Models\UserCallProcessingGetPolicyRequest17sp3 $request)
     {
@@ -8304,6 +9003,7 @@ trait OCISchemaDeprecated
      * @param UserCallProcessingGetPolicyRequest17sp4 $request
      * @return UserCallProcessingGetPolicyResponse17sp4
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userCallProcessingGetPolicyRequest17sp4(\CWM\BroadWorksConnector\Ocip\Models\UserCallProcessingGetPolicyRequest17sp4 $request)
     {
@@ -8314,6 +9014,7 @@ trait OCISchemaDeprecated
      * @param UserCallProcessingGetPolicyRequest18 $request
      * @return UserCallProcessingGetPolicyResponse18
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userCallProcessingGetPolicyRequest18(\CWM\BroadWorksConnector\Ocip\Models\UserCallProcessingGetPolicyRequest18 $request)
     {
@@ -8324,6 +9025,7 @@ trait OCISchemaDeprecated
      * @param UserCallProcessingGetPolicyRequest19sp1 $request
      * @return UserCallProcessingGetPolicyResponse19sp1
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userCallProcessingGetPolicyRequest19sp1(\CWM\BroadWorksConnector\Ocip\Models\UserCallProcessingGetPolicyRequest19sp1 $request)
     {
@@ -8334,6 +9036,7 @@ trait OCISchemaDeprecated
      * @param UserCallProcessingGetPolicyRequest21sp1 $request
      * @return UserCallProcessingGetPolicyResponse21sp1
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userCallProcessingGetPolicyRequest21sp1(\CWM\BroadWorksConnector\Ocip\Models\UserCallProcessingGetPolicyRequest21sp1 $request)
     {
@@ -8344,6 +9047,7 @@ trait OCISchemaDeprecated
      * @param UserCallProcessingModifyPolicyRequest14 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userCallProcessingModifyPolicyRequest14(\CWM\BroadWorksConnector\Ocip\Models\UserCallProcessingModifyPolicyRequest14 $request)
     {
@@ -8354,6 +9058,7 @@ trait OCISchemaDeprecated
      * @param UserCallRecordingGetRequest $request
      * @return UserCallRecordingGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userCallRecordingGetRequest(\CWM\BroadWorksConnector\Ocip\Models\UserCallRecordingGetRequest $request)
     {
@@ -8364,6 +9069,7 @@ trait OCISchemaDeprecated
      * @param UserCallTransferGetRequest $request
      * @return UserCallTransferGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userCallTransferGetRequest(\CWM\BroadWorksConnector\Ocip\Models\UserCallTransferGetRequest $request)
     {
@@ -8374,6 +9080,7 @@ trait OCISchemaDeprecated
      * @param UserCallWaitingGetRequest $request
      * @return UserCallWaitingGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userCallWaitingGetRequest(\CWM\BroadWorksConnector\Ocip\Models\UserCallWaitingGetRequest $request)
     {
@@ -8384,6 +9091,7 @@ trait OCISchemaDeprecated
      * @param UserChargeNumberGetRequest $request
      * @return UserChargeNumberGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userChargeNumberGetRequest(\CWM\BroadWorksConnector\Ocip\Models\UserChargeNumberGetRequest $request)
     {
@@ -8394,6 +9102,7 @@ trait OCISchemaDeprecated
      * @param UserCollaborateBridgeGetRequest $request
      * @return UserCollaborateBridgeGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userCollaborateBridgeGetRequest(\CWM\BroadWorksConnector\Ocip\Models\UserCollaborateBridgeGetRequest $request)
     {
@@ -8404,6 +9113,7 @@ trait OCISchemaDeprecated
      * @param UserCustomRingbackUserAddCriteriaRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userCustomRingbackUserAddCriteriaRequest(\CWM\BroadWorksConnector\Ocip\Models\UserCustomRingbackUserAddCriteriaRequest $request)
     {
@@ -8414,6 +9124,7 @@ trait OCISchemaDeprecated
      * @param UserCustomRingbackUserGetCriteriaRequest $request
      * @return UserCustomRingbackUserGetCriteriaResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userCustomRingbackUserGetCriteriaRequest(\CWM\BroadWorksConnector\Ocip\Models\UserCustomRingbackUserGetCriteriaRequest $request)
     {
@@ -8424,6 +9135,7 @@ trait OCISchemaDeprecated
      * @param UserCustomRingbackUserGetCriteriaRequest15sp2 $request
      * @return UserCustomRingbackUserGetCriteriaResponse15sp2
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userCustomRingbackUserGetCriteriaRequest15sp2(\CWM\BroadWorksConnector\Ocip\Models\UserCustomRingbackUserGetCriteriaRequest15sp2 $request)
     {
@@ -8434,6 +9146,7 @@ trait OCISchemaDeprecated
      * @param UserCustomRingbackUserGetCriteriaRequest20 $request
      * @return UserCustomRingbackUserGetCriteriaResponse20
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userCustomRingbackUserGetCriteriaRequest20(\CWM\BroadWorksConnector\Ocip\Models\UserCustomRingbackUserGetCriteriaRequest20 $request)
     {
@@ -8444,6 +9157,7 @@ trait OCISchemaDeprecated
      * @param UserCustomRingbackUserModifyCriteriaRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userCustomRingbackUserModifyCriteriaRequest(\CWM\BroadWorksConnector\Ocip\Models\UserCustomRingbackUserModifyCriteriaRequest $request)
     {
@@ -8454,6 +9168,7 @@ trait OCISchemaDeprecated
      * @param UserDevicePoliciesGetRequest $request
      * @return UserDevicePoliciesGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userDevicePoliciesGetRequest(\CWM\BroadWorksConnector\Ocip\Models\UserDevicePoliciesGetRequest $request)
     {
@@ -8464,6 +9179,7 @@ trait OCISchemaDeprecated
      * @param UserDevicePoliciesGetRequest19sp1 $request
      * @return UserDevicePoliciesGetResponse19sp1
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userDevicePoliciesGetRequest19sp1(\CWM\BroadWorksConnector\Ocip\Models\UserDevicePoliciesGetRequest19sp1 $request)
     {
@@ -8474,6 +9190,7 @@ trait OCISchemaDeprecated
      * @param UserDevicePoliciesGetRequest20 $request
      * @return UserDevicePoliciesGetResponse20
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userDevicePoliciesGetRequest20(\CWM\BroadWorksConnector\Ocip\Models\UserDevicePoliciesGetRequest20 $request)
     {
@@ -8484,6 +9201,7 @@ trait OCISchemaDeprecated
      * @param UserDirectedCallPickupWithBargeInGetRequest $request
      * @return UserDirectedCallPickupWithBargeInGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userDirectedCallPickupWithBargeInGetRequest(\CWM\BroadWorksConnector\Ocip\Models\UserDirectedCallPickupWithBargeInGetRequest $request)
     {
@@ -8494,6 +9212,7 @@ trait OCISchemaDeprecated
      * @param UserEnhancedCallLogsGetListRequest $request
      * @return UserEnhancedCallLogsGetListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userEnhancedCallLogsGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\UserEnhancedCallLogsGetListRequest $request)
     {
@@ -8504,6 +9223,7 @@ trait OCISchemaDeprecated
      * @param UserEnhancedCallLogsGetListRequest14sp4 $request
      * @return UserEnhancedCallLogsGetListResponse14sp4
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userEnhancedCallLogsGetListRequest14sp4(\CWM\BroadWorksConnector\Ocip\Models\UserEnhancedCallLogsGetListRequest14sp4 $request)
     {
@@ -8514,6 +9234,7 @@ trait OCISchemaDeprecated
      * @param UserEnhancedCallLogsGetListRequest16 $request
      * @return UserEnhancedCallLogsGetListResponse16
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userEnhancedCallLogsGetListRequest16(\CWM\BroadWorksConnector\Ocip\Models\UserEnhancedCallLogsGetListRequest16 $request)
     {
@@ -8524,6 +9245,7 @@ trait OCISchemaDeprecated
      * @param UserEnhancedCallLogsGetListRequest17sp4 $request
      * @return UserEnhancedCallLogsGetListResponse17sp4
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userEnhancedCallLogsGetListRequest17sp4(\CWM\BroadWorksConnector\Ocip\Models\UserEnhancedCallLogsGetListRequest17sp4 $request)
     {
@@ -8534,6 +9256,7 @@ trait OCISchemaDeprecated
      * @param UserEnhancedCallLogsGetListRequest17sp4V2 $request
      * @return UserEnhancedCallLogsGetListResponse17sp4V2
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userEnhancedCallLogsGetListRequest17sp4V2(\CWM\BroadWorksConnector\Ocip\Models\UserEnhancedCallLogsGetListRequest17sp4V2 $request)
     {
@@ -8544,6 +9267,7 @@ trait OCISchemaDeprecated
      * @param UserEnhancedCallLogsGetListRequest20 $request
      * @return UserEnhancedCallLogsGetListResponse20
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userEnhancedCallLogsGetListRequest20(\CWM\BroadWorksConnector\Ocip\Models\UserEnhancedCallLogsGetListRequest20 $request)
     {
@@ -8554,6 +9278,7 @@ trait OCISchemaDeprecated
      * @param UserExecutiveGetFilteringSelectiveCriteriaRequest $request
      * @return UserExecutiveGetFilteringSelectiveCriteriaResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userExecutiveGetFilteringSelectiveCriteriaRequest(\CWM\BroadWorksConnector\Ocip\Models\UserExecutiveGetFilteringSelectiveCriteriaRequest $request)
     {
@@ -8564,6 +9289,7 @@ trait OCISchemaDeprecated
      * @param UserFaxMessagingGetRequest $request
      * @return UserFaxMessagingGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userFaxMessagingGetRequest(\CWM\BroadWorksConnector\Ocip\Models\UserFaxMessagingGetRequest $request)
     {
@@ -8574,6 +9300,7 @@ trait OCISchemaDeprecated
      * @param UserFaxMessagingGetRequest17 $request
      * @return UserFaxMessagingGetResponse17
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userFaxMessagingGetRequest17(\CWM\BroadWorksConnector\Ocip\Models\UserFaxMessagingGetRequest17 $request)
     {
@@ -8584,6 +9311,7 @@ trait OCISchemaDeprecated
      * @param UserFeatureAccessCodeGetListRequest20 $request
      * @return UserFeatureAccessCodeGetListResponse20
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userFeatureAccessCodeGetListRequest20(\CWM\BroadWorksConnector\Ocip\Models\UserFeatureAccessCodeGetListRequest20 $request)
     {
@@ -8594,6 +9322,7 @@ trait OCISchemaDeprecated
      * @param UserGetRequest14 $request
      * @return UserGetResponse14
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userGetRequest14(\CWM\BroadWorksConnector\Ocip\Models\UserGetRequest14 $request)
     {
@@ -8604,6 +9333,7 @@ trait OCISchemaDeprecated
      * @param UserGetRequest14sp4 $request
      * @return UserGetResponse14sp4
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userGetRequest14sp4(\CWM\BroadWorksConnector\Ocip\Models\UserGetRequest14sp4 $request)
     {
@@ -8614,6 +9344,7 @@ trait OCISchemaDeprecated
      * @param UserGetRequest14sp9 $request
      * @return UserGetResponse14sp4
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userGetRequest14sp9(\CWM\BroadWorksConnector\Ocip\Models\UserGetRequest14sp9 $request)
     {
@@ -8624,6 +9355,7 @@ trait OCISchemaDeprecated
      * @param UserGetRequest15sp2 $request
      * @return 
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userGetRequest15sp2(\CWM\BroadWorksConnector\Ocip\Models\UserGetRequest15sp2 $request)
     {
@@ -8634,6 +9366,7 @@ trait OCISchemaDeprecated
      * @param UserGetRequest17 $request
      * @return 
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userGetRequest17(\CWM\BroadWorksConnector\Ocip\Models\UserGetRequest17 $request)
     {
@@ -8644,6 +9377,7 @@ trait OCISchemaDeprecated
      * @param UserGetRequest17sp3 $request
      * @return 
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userGetRequest17sp3(\CWM\BroadWorksConnector\Ocip\Models\UserGetRequest17sp3 $request)
     {
@@ -8654,6 +9388,7 @@ trait OCISchemaDeprecated
      * @param UserGetRequest17sp4 $request
      * @return 
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userGetRequest17sp4(\CWM\BroadWorksConnector\Ocip\Models\UserGetRequest17sp4 $request)
     {
@@ -8664,6 +9399,7 @@ trait OCISchemaDeprecated
      * @param UserGetRequest18 $request
      * @return 
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userGetRequest18(\CWM\BroadWorksConnector\Ocip\Models\UserGetRequest18 $request)
     {
@@ -8674,6 +9410,7 @@ trait OCISchemaDeprecated
      * @param UserGetRequest19 $request
      * @return 
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userGetRequest19(\CWM\BroadWorksConnector\Ocip\Models\UserGetRequest19 $request)
     {
@@ -8684,6 +9421,7 @@ trait OCISchemaDeprecated
      * @param UserGetRequest20 $request
      * @return 
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userGetRequest20(\CWM\BroadWorksConnector\Ocip\Models\UserGetRequest20 $request)
     {
@@ -8694,6 +9432,7 @@ trait OCISchemaDeprecated
      * @param UserGetRequest21 $request
      * @return 
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userGetRequest21(\CWM\BroadWorksConnector\Ocip\Models\UserGetRequest21 $request)
     {
@@ -8704,6 +9443,7 @@ trait OCISchemaDeprecated
      * @param UserGetRequest21sp1 $request
      * @return 
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userGetRequest21sp1(\CWM\BroadWorksConnector\Ocip\Models\UserGetRequest21sp1 $request)
     {
@@ -8714,6 +9454,7 @@ trait OCISchemaDeprecated
      * @param UserHolidayScheduleAddRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userHolidayScheduleAddRequest(\CWM\BroadWorksConnector\Ocip\Models\UserHolidayScheduleAddRequest $request)
     {
@@ -8724,6 +9465,7 @@ trait OCISchemaDeprecated
      * @param UserHolidayScheduleDeleteRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userHolidayScheduleDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\UserHolidayScheduleDeleteRequest $request)
     {
@@ -8734,6 +9476,7 @@ trait OCISchemaDeprecated
      * @param UserHolidayScheduleGetListRequest $request
      * @return UserHolidayScheduleGetListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userHolidayScheduleGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\UserHolidayScheduleGetListRequest $request)
     {
@@ -8744,6 +9487,7 @@ trait OCISchemaDeprecated
      * @param UserHolidayScheduleGetRequest $request
      * @return UserHolidayScheduleGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userHolidayScheduleGetRequest(\CWM\BroadWorksConnector\Ocip\Models\UserHolidayScheduleGetRequest $request)
     {
@@ -8754,6 +9498,7 @@ trait OCISchemaDeprecated
      * @param UserHolidayScheduleModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userHolidayScheduleModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\UserHolidayScheduleModifyRequest $request)
     {
@@ -8764,6 +9509,7 @@ trait OCISchemaDeprecated
      * @param UserHotelingGuestGetRequest14 $request
      * @return UserHotelingGuestGetResponse14
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userHotelingGuestGetRequest14(\CWM\BroadWorksConnector\Ocip\Models\UserHotelingGuestGetRequest14 $request)
     {
@@ -8774,6 +9520,7 @@ trait OCISchemaDeprecated
      * @param UserHotelingGuestGetRequest14sp2 $request
      * @return UserHotelingGuestGetResponse14
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userHotelingGuestGetRequest14sp2(\CWM\BroadWorksConnector\Ocip\Models\UserHotelingGuestGetRequest14sp2 $request)
     {
@@ -8784,6 +9531,7 @@ trait OCISchemaDeprecated
      * @param UserHotelingHostGetRequest14 $request
      * @return UserHotelingHostGetResponse14
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userHotelingHostGetRequest14(\CWM\BroadWorksConnector\Ocip\Models\UserHotelingHostGetRequest14 $request)
     {
@@ -8794,6 +9542,7 @@ trait OCISchemaDeprecated
      * @param UserHotelingHostGetRequest14sp4 $request
      * @return UserHotelingHostGetResponse14sp4
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userHotelingHostGetRequest14sp4(\CWM\BroadWorksConnector\Ocip\Models\UserHotelingHostGetRequest14sp4 $request)
     {
@@ -8804,6 +9553,7 @@ trait OCISchemaDeprecated
      * @param UserInterceptUserGetRequest $request
      * @return UserInterceptUserGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userInterceptUserGetRequest(\CWM\BroadWorksConnector\Ocip\Models\UserInterceptUserGetRequest $request)
     {
@@ -8814,6 +9564,7 @@ trait OCISchemaDeprecated
      * @param UserInterceptUserGetRequest16 $request
      * @return UserInterceptUserGetResponse16
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userInterceptUserGetRequest16(\CWM\BroadWorksConnector\Ocip\Models\UserInterceptUserGetRequest16 $request)
     {
@@ -8824,6 +9575,7 @@ trait OCISchemaDeprecated
      * @param UserInterceptUserModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userInterceptUserModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\UserInterceptUserModifyRequest $request)
     {
@@ -8834,6 +9586,7 @@ trait OCISchemaDeprecated
      * @param UserMeetMeConferencingAddConferenceRequest $request
      * @return UserMeetMeConferencingAddConferenceResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userMeetMeConferencingAddConferenceRequest(\CWM\BroadWorksConnector\Ocip\Models\UserMeetMeConferencingAddConferenceRequest $request)
     {
@@ -8844,6 +9597,7 @@ trait OCISchemaDeprecated
      * @param UserMeetMeConferencingGetConferenceGreetingRequest $request
      * @return UserMeetMeConferencingGetConferenceGreetingResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userMeetMeConferencingGetConferenceGreetingRequest(\CWM\BroadWorksConnector\Ocip\Models\UserMeetMeConferencingGetConferenceGreetingRequest $request)
     {
@@ -8854,6 +9608,7 @@ trait OCISchemaDeprecated
      * @param UserMeetMeConferencingGetConferenceRequest $request
      * @return UserMeetMeConferencingGetConferenceResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userMeetMeConferencingGetConferenceRequest(\CWM\BroadWorksConnector\Ocip\Models\UserMeetMeConferencingGetConferenceRequest $request)
     {
@@ -8864,6 +9619,7 @@ trait OCISchemaDeprecated
      * @param UserMeetMeConferencingGetConferenceRequest19 $request
      * @return UserMeetMeConferencingGetConferenceResponse19
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userMeetMeConferencingGetConferenceRequest19(\CWM\BroadWorksConnector\Ocip\Models\UserMeetMeConferencingGetConferenceRequest19 $request)
     {
@@ -8874,6 +9630,7 @@ trait OCISchemaDeprecated
      * @param UserMeetMeConferencingModifyConferenceGreetingRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userMeetMeConferencingModifyConferenceGreetingRequest(\CWM\BroadWorksConnector\Ocip\Models\UserMeetMeConferencingModifyConferenceGreetingRequest $request)
     {
@@ -8884,6 +9641,7 @@ trait OCISchemaDeprecated
      * @param UserModifyRequest14 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userModifyRequest14(\CWM\BroadWorksConnector\Ocip\Models\UserModifyRequest14 $request)
     {
@@ -8894,6 +9652,7 @@ trait OCISchemaDeprecated
      * @param UserModifyRequest14sp9 $request
      * @return 
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userModifyRequest14sp9(\CWM\BroadWorksConnector\Ocip\Models\UserModifyRequest14sp9 $request)
     {
@@ -8904,6 +9663,7 @@ trait OCISchemaDeprecated
      * @param UserModifyRequest16 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userModifyRequest16(\CWM\BroadWorksConnector\Ocip\Models\UserModifyRequest16 $request)
     {
@@ -8914,6 +9674,7 @@ trait OCISchemaDeprecated
      * @param UserMusicOnHoldUserGetRequest $request
      * @return UserMusicOnHoldUserGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userMusicOnHoldUserGetRequest(\CWM\BroadWorksConnector\Ocip\Models\UserMusicOnHoldUserGetRequest $request)
     {
@@ -8924,6 +9685,7 @@ trait OCISchemaDeprecated
      * @param UserMusicOnHoldUserModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userMusicOnHoldUserModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\UserMusicOnHoldUserModifyRequest $request)
     {
@@ -8934,6 +9696,7 @@ trait OCISchemaDeprecated
      * @param UserPriorityAlertAddCriteriaRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userPriorityAlertAddCriteriaRequest(\CWM\BroadWorksConnector\Ocip\Models\UserPriorityAlertAddCriteriaRequest $request)
     {
@@ -8944,6 +9707,7 @@ trait OCISchemaDeprecated
      * @param UserPriorityAlertGetCriteriaRequest $request
      * @return UserPriorityAlertGetCriteriaResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userPriorityAlertGetCriteriaRequest(\CWM\BroadWorksConnector\Ocip\Models\UserPriorityAlertGetCriteriaRequest $request)
     {
@@ -8954,6 +9718,7 @@ trait OCISchemaDeprecated
      * @param UserPrivacyGetRequest $request
      * @return UserPrivacyGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userPrivacyGetRequest(\CWM\BroadWorksConnector\Ocip\Models\UserPrivacyGetRequest $request)
     {
@@ -8964,6 +9729,7 @@ trait OCISchemaDeprecated
      * @param UserScheduleGetListRequest $request
      * @return UserScheduleGetListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userScheduleGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\UserScheduleGetListRequest $request)
     {
@@ -8974,6 +9740,7 @@ trait OCISchemaDeprecated
      * @param UserSecurityClassificationGetRequest $request
      * @return UserSecurityClassificationGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userSecurityClassificationGetRequest(\CWM\BroadWorksConnector\Ocip\Models\UserSecurityClassificationGetRequest $request)
     {
@@ -8984,6 +9751,7 @@ trait OCISchemaDeprecated
      * @param UserSelectiveCallAcceptanceAddCriteriaRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userSelectiveCallAcceptanceAddCriteriaRequest(\CWM\BroadWorksConnector\Ocip\Models\UserSelectiveCallAcceptanceAddCriteriaRequest $request)
     {
@@ -8994,6 +9762,7 @@ trait OCISchemaDeprecated
      * @param UserSelectiveCallAcceptanceGetCriteriaRequest $request
      * @return UserSelectiveCallAcceptanceGetCriteriaResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userSelectiveCallAcceptanceGetCriteriaRequest(\CWM\BroadWorksConnector\Ocip\Models\UserSelectiveCallAcceptanceGetCriteriaRequest $request)
     {
@@ -9004,6 +9773,7 @@ trait OCISchemaDeprecated
      * @param UserSelectiveCallRejectionAddCriteriaRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userSelectiveCallRejectionAddCriteriaRequest(\CWM\BroadWorksConnector\Ocip\Models\UserSelectiveCallRejectionAddCriteriaRequest $request)
     {
@@ -9014,6 +9784,7 @@ trait OCISchemaDeprecated
      * @param UserSelectiveCallRejectionGetCriteriaRequest $request
      * @return UserSelectiveCallRejectionGetCriteriaResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userSelectiveCallRejectionGetCriteriaRequest(\CWM\BroadWorksConnector\Ocip\Models\UserSelectiveCallRejectionGetCriteriaRequest $request)
     {
@@ -9024,6 +9795,7 @@ trait OCISchemaDeprecated
      * @param UserSelectiveCallRejectionGetCriteriaRequest16 $request
      * @return UserSelectiveCallRejectionGetCriteriaResponse16
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userSelectiveCallRejectionGetCriteriaRequest16(\CWM\BroadWorksConnector\Ocip\Models\UserSelectiveCallRejectionGetCriteriaRequest16 $request)
     {
@@ -9034,6 +9806,7 @@ trait OCISchemaDeprecated
      * @param UserSelectiveCallRejectionModifyCriteriaRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userSelectiveCallRejectionModifyCriteriaRequest(\CWM\BroadWorksConnector\Ocip\Models\UserSelectiveCallRejectionModifyCriteriaRequest $request)
     {
@@ -9044,6 +9817,7 @@ trait OCISchemaDeprecated
      * @param UserSequentialRingAddCriteriaRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userSequentialRingAddCriteriaRequest(\CWM\BroadWorksConnector\Ocip\Models\UserSequentialRingAddCriteriaRequest $request)
     {
@@ -9054,6 +9828,7 @@ trait OCISchemaDeprecated
      * @param UserSequentialRingGetCriteriaRequest $request
      * @return UserSequentialRingGetCriteriaResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userSequentialRingGetCriteriaRequest(\CWM\BroadWorksConnector\Ocip\Models\UserSequentialRingGetCriteriaRequest $request)
     {
@@ -9064,6 +9839,7 @@ trait OCISchemaDeprecated
      * @param UserSequentialRingGetRequest13mp16 $request
      * @return UserSequentialRingGetResponse13mp16
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userSequentialRingGetRequest13mp16(\CWM\BroadWorksConnector\Ocip\Models\UserSequentialRingGetRequest13mp16 $request)
     {
@@ -9074,6 +9850,7 @@ trait OCISchemaDeprecated
      * @param UserSharedCallAppearanceAddEndpointRequest14 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userSharedCallAppearanceAddEndpointRequest14(\CWM\BroadWorksConnector\Ocip\Models\UserSharedCallAppearanceAddEndpointRequest14 $request)
     {
@@ -9084,6 +9861,7 @@ trait OCISchemaDeprecated
      * @param UserSharedCallAppearanceGetRequest14 $request
      * @return UserSharedCallAppearanceGetResponse14
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userSharedCallAppearanceGetRequest14(\CWM\BroadWorksConnector\Ocip\Models\UserSharedCallAppearanceGetRequest14 $request)
     {
@@ -9094,6 +9872,7 @@ trait OCISchemaDeprecated
      * @param UserSharedCallAppearanceGetRequest14sp2 $request
      * @return UserSharedCallAppearanceGetResponse14sp2
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userSharedCallAppearanceGetRequest14sp2(\CWM\BroadWorksConnector\Ocip\Models\UserSharedCallAppearanceGetRequest14sp2 $request)
     {
@@ -9104,6 +9883,7 @@ trait OCISchemaDeprecated
      * @param UserSimultaneousRingFamilyAddPhoneNumberRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userSimultaneousRingFamilyAddPhoneNumberRequest(\CWM\BroadWorksConnector\Ocip\Models\UserSimultaneousRingFamilyAddPhoneNumberRequest $request)
     {
@@ -9114,6 +9894,7 @@ trait OCISchemaDeprecated
      * @param UserSimultaneousRingFamilyDeletePhoneNumberRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userSimultaneousRingFamilyDeletePhoneNumberRequest(\CWM\BroadWorksConnector\Ocip\Models\UserSimultaneousRingFamilyDeletePhoneNumberRequest $request)
     {
@@ -9124,6 +9905,7 @@ trait OCISchemaDeprecated
      * @param UserSimultaneousRingFamilyGetPhoneNumberRequest $request
      * @return UserSimultaneousRingFamilyGetPhoneNumberResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userSimultaneousRingFamilyGetPhoneNumberRequest(\CWM\BroadWorksConnector\Ocip\Models\UserSimultaneousRingFamilyGetPhoneNumberRequest $request)
     {
@@ -9134,6 +9916,7 @@ trait OCISchemaDeprecated
      * @param UserSimultaneousRingFamilyGetRequest $request
      * @return UserSimultaneousRingFamilyGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userSimultaneousRingFamilyGetRequest(\CWM\BroadWorksConnector\Ocip\Models\UserSimultaneousRingFamilyGetRequest $request)
     {
@@ -9144,6 +9927,7 @@ trait OCISchemaDeprecated
      * @param UserSimultaneousRingFamilyGetRequest14sp4 $request
      * @return UserSimultaneousRingFamilyGetResponse14sp4
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userSimultaneousRingFamilyGetRequest14sp4(\CWM\BroadWorksConnector\Ocip\Models\UserSimultaneousRingFamilyGetRequest14sp4 $request)
     {
@@ -9154,6 +9938,7 @@ trait OCISchemaDeprecated
      * @param UserSimultaneousRingFamilyModifyPhoneNumberRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userSimultaneousRingFamilyModifyPhoneNumberRequest(\CWM\BroadWorksConnector\Ocip\Models\UserSimultaneousRingFamilyModifyPhoneNumberRequest $request)
     {
@@ -9164,6 +9949,7 @@ trait OCISchemaDeprecated
      * @param UserSimultaneousRingFamilyModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userSimultaneousRingFamilyModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\UserSimultaneousRingFamilyModifyRequest $request)
     {
@@ -9174,6 +9960,7 @@ trait OCISchemaDeprecated
      * @param UserSimultaneousRingFamilyModifyRequest14sp4 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userSimultaneousRingFamilyModifyRequest14sp4(\CWM\BroadWorksConnector\Ocip\Models\UserSimultaneousRingFamilyModifyRequest14sp4 $request)
     {
@@ -9184,6 +9971,7 @@ trait OCISchemaDeprecated
      * @param UserSimultaneousRingPersonalAddPhoneNumberRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userSimultaneousRingPersonalAddPhoneNumberRequest(\CWM\BroadWorksConnector\Ocip\Models\UserSimultaneousRingPersonalAddPhoneNumberRequest $request)
     {
@@ -9194,6 +9982,7 @@ trait OCISchemaDeprecated
      * @param UserSimultaneousRingPersonalDeletePhoneNumberRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userSimultaneousRingPersonalDeletePhoneNumberRequest(\CWM\BroadWorksConnector\Ocip\Models\UserSimultaneousRingPersonalDeletePhoneNumberRequest $request)
     {
@@ -9204,6 +9993,7 @@ trait OCISchemaDeprecated
      * @param UserSimultaneousRingPersonalGetPhoneNumberRequest $request
      * @return UserSimultaneousRingPersonalGetPhoneNumberResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userSimultaneousRingPersonalGetPhoneNumberRequest(\CWM\BroadWorksConnector\Ocip\Models\UserSimultaneousRingPersonalGetPhoneNumberRequest $request)
     {
@@ -9214,6 +10004,7 @@ trait OCISchemaDeprecated
      * @param UserSimultaneousRingPersonalGetRequest $request
      * @return UserSimultaneousRingPersonalGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userSimultaneousRingPersonalGetRequest(\CWM\BroadWorksConnector\Ocip\Models\UserSimultaneousRingPersonalGetRequest $request)
     {
@@ -9224,6 +10015,7 @@ trait OCISchemaDeprecated
      * @param UserSimultaneousRingPersonalGetRequest14sp4 $request
      * @return UserSimultaneousRingPersonalGetResponse14sp4
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userSimultaneousRingPersonalGetRequest14sp4(\CWM\BroadWorksConnector\Ocip\Models\UserSimultaneousRingPersonalGetRequest14sp4 $request)
     {
@@ -9234,6 +10026,7 @@ trait OCISchemaDeprecated
      * @param UserSimultaneousRingPersonalModifyPhoneNumberRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userSimultaneousRingPersonalModifyPhoneNumberRequest(\CWM\BroadWorksConnector\Ocip\Models\UserSimultaneousRingPersonalModifyPhoneNumberRequest $request)
     {
@@ -9244,6 +10037,7 @@ trait OCISchemaDeprecated
      * @param UserSimultaneousRingPersonalModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userSimultaneousRingPersonalModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\UserSimultaneousRingPersonalModifyRequest $request)
     {
@@ -9254,6 +10048,7 @@ trait OCISchemaDeprecated
      * @param UserSimultaneousRingPersonalModifyRequest14sp4 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userSimultaneousRingPersonalModifyRequest14sp4(\CWM\BroadWorksConnector\Ocip\Models\UserSimultaneousRingPersonalModifyRequest14sp4 $request)
     {
@@ -9264,6 +10059,7 @@ trait OCISchemaDeprecated
      * @param UserSpeedDial100GetListRequest $request
      * @return UserSpeedDial100GetListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userSpeedDial100GetListRequest(\CWM\BroadWorksConnector\Ocip\Models\UserSpeedDial100GetListRequest $request)
     {
@@ -9274,6 +10070,7 @@ trait OCISchemaDeprecated
      * @param UserThirdPartyVoiceMailSupportGetRequest13mp16 $request
      * @return UserThirdPartyVoiceMailSupportGetResponse13mp16
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userThirdPartyVoiceMailSupportGetRequest13mp16(\CWM\BroadWorksConnector\Ocip\Models\UserThirdPartyVoiceMailSupportGetRequest13mp16 $request)
     {
@@ -9284,6 +10081,7 @@ trait OCISchemaDeprecated
      * @param UserTimeScheduleAddRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userTimeScheduleAddRequest(\CWM\BroadWorksConnector\Ocip\Models\UserTimeScheduleAddRequest $request)
     {
@@ -9294,6 +10092,7 @@ trait OCISchemaDeprecated
      * @param UserTimeScheduleDeleteRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userTimeScheduleDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\UserTimeScheduleDeleteRequest $request)
     {
@@ -9304,6 +10103,7 @@ trait OCISchemaDeprecated
      * @param UserTimeScheduleGetListRequest $request
      * @return UserTimeScheduleGetListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userTimeScheduleGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\UserTimeScheduleGetListRequest $request)
     {
@@ -9314,6 +10114,7 @@ trait OCISchemaDeprecated
      * @param UserTimeScheduleGetRequest $request
      * @return UserTimeScheduleGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userTimeScheduleGetRequest(\CWM\BroadWorksConnector\Ocip\Models\UserTimeScheduleGetRequest $request)
     {
@@ -9324,6 +10125,7 @@ trait OCISchemaDeprecated
      * @param UserTimeScheduleModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userTimeScheduleModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\UserTimeScheduleModifyRequest $request)
     {
@@ -9334,6 +10136,7 @@ trait OCISchemaDeprecated
      * @param UserVideoAddOnGetRequest14 $request
      * @return UserVideoAddOnGetResponse14
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userVideoAddOnGetRequest14(\CWM\BroadWorksConnector\Ocip\Models\UserVideoAddOnGetRequest14 $request)
     {
@@ -9344,6 +10147,7 @@ trait OCISchemaDeprecated
      * @param UserVoiceMessagingUserGetAdvancedVoiceManagementRequest $request
      * @return UserVoiceMessagingUserGetAdvancedVoiceManagementResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userVoiceMessagingUserGetAdvancedVoiceManagementRequest(\CWM\BroadWorksConnector\Ocip\Models\UserVoiceMessagingUserGetAdvancedVoiceManagementRequest $request)
     {
@@ -9354,6 +10158,7 @@ trait OCISchemaDeprecated
      * @param UserVoiceMessagingUserGetGreetingRequest13mp16 $request
      * @return UserVoiceMessagingUserGetGreetingResponse13mp16
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userVoiceMessagingUserGetGreetingRequest13mp16(\CWM\BroadWorksConnector\Ocip\Models\UserVoiceMessagingUserGetGreetingRequest13mp16 $request)
     {
@@ -9364,6 +10169,7 @@ trait OCISchemaDeprecated
      * @param UserVoiceMessagingUserGetGreetingRequest16 $request
      * @return UserVoiceMessagingUserGetGreetingResponse16
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userVoiceMessagingUserGetGreetingRequest16(\CWM\BroadWorksConnector\Ocip\Models\UserVoiceMessagingUserGetGreetingRequest16 $request)
     {
@@ -9374,6 +10180,7 @@ trait OCISchemaDeprecated
      * @param UserVoiceMessagingUserGetVoiceManagementRequest13mp8 $request
      * @return UserVoiceMessagingUserGetVoiceManagementResponse13mp8
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userVoiceMessagingUserGetVoiceManagementRequest13mp8(\CWM\BroadWorksConnector\Ocip\Models\UserVoiceMessagingUserGetVoiceManagementRequest13mp8 $request)
     {
@@ -9384,6 +10191,7 @@ trait OCISchemaDeprecated
      * @param UserVoiceMessagingUserGetVoicePortalPasswordInfoRequest $request
      * @return UserVoiceMessagingUserGetVoicePortalPasswordInfoResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userVoiceMessagingUserGetVoicePortalPasswordInfoRequest(\CWM\BroadWorksConnector\Ocip\Models\UserVoiceMessagingUserGetVoicePortalPasswordInfoRequest $request)
     {
@@ -9394,6 +10202,7 @@ trait OCISchemaDeprecated
      * @param UserVoiceMessagingUserGetVoicePortalRequest $request
      * @return UserVoiceMessagingUserGetVoicePortalResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userVoiceMessagingUserGetVoicePortalRequest(\CWM\BroadWorksConnector\Ocip\Models\UserVoiceMessagingUserGetVoicePortalRequest $request)
     {
@@ -9404,6 +10213,7 @@ trait OCISchemaDeprecated
      * @param UserVoiceMessagingUserModifyGreetingRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userVoiceMessagingUserModifyGreetingRequest(\CWM\BroadWorksConnector\Ocip\Models\UserVoiceMessagingUserModifyGreetingRequest $request)
     {
@@ -9414,6 +10224,7 @@ trait OCISchemaDeprecated
      * @param UserVoiceMessagingUserModifyVoicePortalPasswordRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userVoiceMessagingUserModifyVoicePortalPasswordRequest(\CWM\BroadWorksConnector\Ocip\Models\UserVoiceMessagingUserModifyVoicePortalPasswordRequest $request)
     {
@@ -9424,6 +10235,7 @@ trait OCISchemaDeprecated
      * @param UserVoiceMessagingUserModifyVoicePortalRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userVoiceMessagingUserModifyVoicePortalRequest(\CWM\BroadWorksConnector\Ocip\Models\UserVoiceMessagingUserModifyVoicePortalRequest $request)
     {

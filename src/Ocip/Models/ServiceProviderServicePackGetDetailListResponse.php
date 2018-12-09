@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "Allocated" and "Available".
  *
  * @see ServiceProviderServicePackGetDetailListRequest
- * @Groups [{"id":"8f3ed38751e86ebcc639b5bc5cdef0ec:5097","type":"sequence"}]
+ * @Groups [{"id":"8eb862aea0ee5d4211db0a0d3fe7c164:5097","type":"sequence"}]
  */
 class ServiceProviderServicePackGetDetailListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class ServiceProviderServicePackGetDetailListResponse extends \CWM\BroadWorksCon
     /**
      * @ElementName servicePackName
      * @Type string
-     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:5097
+     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:5097
      * @var string|null
      */
     private $servicePackName = null;
@@ -27,7 +27,7 @@ class ServiceProviderServicePackGetDetailListResponse extends \CWM\BroadWorksCon
      * @ElementName servicePackDescription
      * @Type string
      * @Optional
-     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:5097
+     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:5097
      * @var string|null
      */
     private $servicePackDescription = null;
@@ -35,7 +35,7 @@ class ServiceProviderServicePackGetDetailListResponse extends \CWM\BroadWorksCon
     /**
      * @ElementName isAvailableForUse
      * @Type bool
-     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:5097
+     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:5097
      * @var bool|null
      */
     private $isAvailableForUse = null;
@@ -43,7 +43,7 @@ class ServiceProviderServicePackGetDetailListResponse extends \CWM\BroadWorksCon
     /**
      * @ElementName servicePackQuantity
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt
-     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:5097
+     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:5097
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt|null
      */
     private $servicePackQuantity = null;
@@ -51,7 +51,7 @@ class ServiceProviderServicePackGetDetailListResponse extends \CWM\BroadWorksCon
     /**
      * @ElementName assignedQuantity
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt
-     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:5097
+     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:5097
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt|null
      */
     private $assignedQuantity = null;
@@ -59,7 +59,7 @@ class ServiceProviderServicePackGetDetailListResponse extends \CWM\BroadWorksCon
     /**
      * @ElementName allowedQuantity
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt
-     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:5097
+     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:5097
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt|null
      */
     private $allowedQuantity = null;
@@ -67,7 +67,7 @@ class ServiceProviderServicePackGetDetailListResponse extends \CWM\BroadWorksCon
     /**
      * @ElementName userServiceTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:5097
+     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:5097
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $userServiceTable = null;

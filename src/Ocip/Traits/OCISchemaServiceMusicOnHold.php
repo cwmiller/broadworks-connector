@@ -18,7 +18,8 @@ use CWM\BroadWorksConnector\Ocip\Models\UserMusicOnHoldModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserMusicOnHoldUserGetRequest20;
 use CWM\BroadWorksConnector\Ocip\Models\UserMusicOnHoldUserGetResponse20;
 use CWM\BroadWorksConnector\Ocip\Models\UserMusicOnHoldUserModifyRequest20;
-use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceMusicOnHold
@@ -28,6 +29,7 @@ trait OCISchemaServiceMusicOnHold
      * @param GroupMusicOnHoldAddInstanceRequest22 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupMusicOnHoldAddInstanceRequest22(\CWM\BroadWorksConnector\Ocip\Models\GroupMusicOnHoldAddInstanceRequest22 $request)
     {
@@ -38,6 +40,7 @@ trait OCISchemaServiceMusicOnHold
      * @param GroupMusicOnHoldDeleteInstanceRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupMusicOnHoldDeleteInstanceRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupMusicOnHoldDeleteInstanceRequest $request)
     {
@@ -48,6 +51,7 @@ trait OCISchemaServiceMusicOnHold
      * @param GroupMusicOnHoldGetDepartmentListRequest $request
      * @return GroupMusicOnHoldGetDepartmentListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupMusicOnHoldGetDepartmentListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupMusicOnHoldGetDepartmentListRequest $request)
     {
@@ -58,6 +62,7 @@ trait OCISchemaServiceMusicOnHold
      * @param GroupMusicOnHoldGetInstanceRequest22 $request
      * @return GroupMusicOnHoldGetInstanceResponse22
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupMusicOnHoldGetInstanceRequest22(\CWM\BroadWorksConnector\Ocip\Models\GroupMusicOnHoldGetInstanceRequest22 $request)
     {
@@ -68,6 +73,7 @@ trait OCISchemaServiceMusicOnHold
      * @param GroupMusicOnHoldModifyInstanceRequest22 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupMusicOnHoldModifyInstanceRequest22(\CWM\BroadWorksConnector\Ocip\Models\GroupMusicOnHoldModifyInstanceRequest22 $request)
     {
@@ -78,6 +84,7 @@ trait OCISchemaServiceMusicOnHold
      * @param SystemMusicOnHoldGetRequest $request
      * @return SystemMusicOnHoldGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemMusicOnHoldGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemMusicOnHoldGetRequest $request)
     {
@@ -88,6 +95,7 @@ trait OCISchemaServiceMusicOnHold
      * @param SystemMusicOnHoldModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemMusicOnHoldModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemMusicOnHoldModifyRequest $request)
     {
@@ -98,6 +106,7 @@ trait OCISchemaServiceMusicOnHold
      * @param UserMusicOnHoldGetRequest $request
      * @return UserMusicOnHoldGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userMusicOnHoldGetRequest(\CWM\BroadWorksConnector\Ocip\Models\UserMusicOnHoldGetRequest $request)
     {
@@ -108,6 +117,7 @@ trait OCISchemaServiceMusicOnHold
      * @param UserMusicOnHoldModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userMusicOnHoldModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\UserMusicOnHoldModifyRequest $request)
     {
@@ -118,6 +128,7 @@ trait OCISchemaServiceMusicOnHold
      * @param UserMusicOnHoldUserGetRequest20 $request
      * @return UserMusicOnHoldUserGetResponse20
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userMusicOnHoldUserGetRequest20(\CWM\BroadWorksConnector\Ocip\Models\UserMusicOnHoldUserGetRequest20 $request)
     {
@@ -128,6 +139,7 @@ trait OCISchemaServiceMusicOnHold
      * @param UserMusicOnHoldUserModifyRequest20 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userMusicOnHoldUserModifyRequest20(\CWM\BroadWorksConnector\Ocip\Models\UserMusicOnHoldUserModifyRequest20 $request)
     {

@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * A list of phone numbers/sipuris or user ids that replaces a previously configured list.
  *         By convention, an element of this type may be set nill to clear the list.
  *
- * @Groups [{"id":"d0d5b8a5908815c6ae522efe732e363a:518","type":"sequence","children":[{"id":"d0d5b8a5908815c6ae522efe732e363a:519","type":"choice","optional":true}]}]
+ * @Groups [{"id":"c81ec650475acb5cc7b075c4582c12ba:518","type":"sequence","children":[{"id":"c81ec650475acb5cc7b075c4582c12ba:519","type":"choice","optional":true}]}]
  */
 class FindMeFollowMeAlertingGroupReplacementOutgoingDNSIPURIorUserIdList
 {
@@ -16,7 +16,7 @@ class FindMeFollowMeAlertingGroupReplacementOutgoingDNSIPURIorUserIdList
     /**
      * @ElementName phoneNumber
      * @Type string
-     * @Group d0d5b8a5908815c6ae522efe732e363a:519
+     * @Group c81ec650475acb5cc7b075c4582c12ba:519
      * @var string|null
      */
     private $phoneNumber = null;
@@ -24,7 +24,7 @@ class FindMeFollowMeAlertingGroupReplacementOutgoingDNSIPURIorUserIdList
     /**
      * @ElementName userId
      * @Type string
-     * @Group d0d5b8a5908815c6ae522efe732e363a:519
+     * @Group c81ec650475acb5cc7b075c4582c12ba:519
      * @var string|null
      */
     private $userId = null;

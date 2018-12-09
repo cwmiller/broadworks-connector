@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"06fc006748da1632379fc9603b619dca:71","type":"sequence"}]
+ * @Groups [{"id":"bcea7a1f459e3e037da541b681a13f82:71","type":"sequence"}]
  */
 class GroupCallParkDeleteInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupCallParkDeleteInstanceRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 06fc006748da1632379fc9603b619dca:71
+     * @Group bcea7a1f459e3e037da541b681a13f82:71
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,7 +26,7 @@ class GroupCallParkDeleteInstanceRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 06fc006748da1632379fc9603b619dca:71
+     * @Group bcea7a1f459e3e037da541b681a13f82:71
      * @var string|null
      */
     private $groupId = null;
@@ -34,7 +34,7 @@ class GroupCallParkDeleteInstanceRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName name
      * @Type string
-     * @Group 06fc006748da1632379fc9603b619dca:71
+     * @Group bcea7a1f459e3e037da541b681a13f82:71
      * @var string|null
      */
     private $name = null;

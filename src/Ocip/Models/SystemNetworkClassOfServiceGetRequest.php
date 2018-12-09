@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SystemNetworkClassOfServiceGetResponse
  * @see ErrorResponse
  * @see SystemNetworkClassOfServiceGetRequest17
- * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:23073","type":"sequence"}]
+ * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:23073","type":"sequence"}]
  */
 class SystemNetworkClassOfServiceGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,7 +21,7 @@ class SystemNetworkClassOfServiceGetRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName name
      * @Type string
-     * @Group 1a79c7896cb04feac6eff47a5321756e:23073
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:23073
      * @var string|null
      */
     private $name = null;

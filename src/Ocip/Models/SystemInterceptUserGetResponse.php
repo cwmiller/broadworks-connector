@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the SystemInterceptUserGetRequest.
  *
  * @see SystemInterceptUserGetRequest
- * @Groups [{"id":"bf05ea6ea4a301f45f76ff5756023e2d:219","type":"sequence"}]
+ * @Groups [{"id":"3783f30df600d0ca3ee6dab86707b98b:219","type":"sequence"}]
  */
 class SystemInterceptUserGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class SystemInterceptUserGetResponse extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName emergencyAndRepairIntercept
      * @Type bool
-     * @Group bf05ea6ea4a301f45f76ff5756023e2d:219
+     * @Group 3783f30df600d0ca3ee6dab86707b98b:219
      * @var bool|null
      */
     private $emergencyAndRepairIntercept = null;

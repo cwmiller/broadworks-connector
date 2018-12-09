@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupCallingPlanGetDigitPatternListResponse
  * @see ErrorResponse
- * @Groups [{"id":"8c19d38547fd912f1c58e12fecf951e2:80","type":"sequence"}]
+ * @Groups [{"id":"070ca42611935afd08f156e8287a49c4:80","type":"sequence"}]
  */
 class GroupCallingPlanGetDigitPatternListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupCallingPlanGetDigitPatternListRequest extends \CWM\BroadWorksConnecto
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 8c19d38547fd912f1c58e12fecf951e2:80
+     * @Group 070ca42611935afd08f156e8287a49c4:80
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,7 +26,7 @@ class GroupCallingPlanGetDigitPatternListRequest extends \CWM\BroadWorksConnecto
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 8c19d38547fd912f1c58e12fecf951e2:80
+     * @Group 070ca42611935afd08f156e8287a49c4:80
      * @var string|null
      */
     private $groupId = null;

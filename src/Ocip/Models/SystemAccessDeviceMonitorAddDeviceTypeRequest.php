@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:1127","type":"sequence","children":[{"id":"610f84d3e188f0477c3ae1a82ee036da:1128","type":"choice"}]}]
+ * @Groups [{"id":"b5f5416d9e71f8e4246cda16c4723744:1127","type":"sequence","children":[{"id":"b5f5416d9e71f8e4246cda16c4723744:1128","type":"choice"}]}]
  */
 class SystemAccessDeviceMonitorAddDeviceTypeRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemAccessDeviceMonitorAddDeviceTypeRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName addAllDeviceTypes
      * @Type bool
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:1128
+     * @Group b5f5416d9e71f8e4246cda16c4723744:1128
      * @var bool|null
      */
     private $addAllDeviceTypes = null;
@@ -26,7 +26,7 @@ class SystemAccessDeviceMonitorAddDeviceTypeRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName deviceType
      * @Type string
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:1128
+     * @Group b5f5416d9e71f8e4246cda16c4723744:1128
      * @var string|null
      */
     private $deviceType = null;

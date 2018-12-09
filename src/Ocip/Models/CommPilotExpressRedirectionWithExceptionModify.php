@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * CommPilot Express type to transfer to voice mail or forward to a number
  *         with certain exceptions used in the context of a modify.
  *
- * @Groups [{"id":"3634139a4e18662a8fde423f112abbbc:244","type":"sequence"}]
+ * @Groups [{"id":"cc98d71eafb1a94fd4bd31d597159369:244","type":"sequence"}]
  */
 class CommPilotExpressRedirectionWithExceptionModify
 {
@@ -17,7 +17,7 @@ class CommPilotExpressRedirectionWithExceptionModify
      * @ElementName sendCallsToVoiceMailExceptExcludedNumbers
      * @Type bool
      * @Optional
-     * @Group 3634139a4e18662a8fde423f112abbbc:244
+     * @Group cc98d71eafb1a94fd4bd31d597159369:244
      * @var bool|null
      */
     private $sendCallsToVoiceMailExceptExcludedNumbers = null;
@@ -27,7 +27,7 @@ class CommPilotExpressRedirectionWithExceptionModify
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 3634139a4e18662a8fde423f112abbbc:244
+     * @Group cc98d71eafb1a94fd4bd31d597159369:244
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $excludedPhoneNumber01 = null;
@@ -37,7 +37,7 @@ class CommPilotExpressRedirectionWithExceptionModify
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 3634139a4e18662a8fde423f112abbbc:244
+     * @Group cc98d71eafb1a94fd4bd31d597159369:244
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $excludedPhoneNumber02 = null;
@@ -47,7 +47,7 @@ class CommPilotExpressRedirectionWithExceptionModify
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 3634139a4e18662a8fde423f112abbbc:244
+     * @Group cc98d71eafb1a94fd4bd31d597159369:244
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $excludedPhoneNumber03 = null;
@@ -57,7 +57,7 @@ class CommPilotExpressRedirectionWithExceptionModify
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 3634139a4e18662a8fde423f112abbbc:244
+     * @Group cc98d71eafb1a94fd4bd31d597159369:244
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $forwardExcludedNumbersTo = null;

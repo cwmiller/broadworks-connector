@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "Net Address", "MAC Address", "Status", and "Version".
  *
  * @see ServiceProviderAccessDeviceGetListRequest
- * @Groups [{"id":"8f3ed38751e86ebcc639b5bc5cdef0ec:568","type":"sequence"}]
+ * @Groups [{"id":"8eb862aea0ee5d4211db0a0d3fe7c164:568","type":"sequence"}]
  */
 class ServiceProviderAccessDeviceGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,7 +19,7 @@ class ServiceProviderAccessDeviceGetListResponse extends \CWM\BroadWorksConnecto
     /**
      * @ElementName accessDeviceTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:568
+     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:568
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $accessDeviceTable = null;

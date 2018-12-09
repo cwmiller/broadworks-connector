@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see GroupInterceptGroupGetResponse16sp1
  * @see ErrorResponse
  * @see GroupInterceptGroupGetRequest21sp1
- * @Groups [{"id":"499b56264fbe226bfef3c338c8d4750d:1252","type":"sequence"}]
+ * @Groups [{"id":"bb12a3589ab4748963f28f7ac9310f70:1252","type":"sequence"}]
  */
 class GroupInterceptGroupGetRequest16sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,7 +21,7 @@ class GroupInterceptGroupGetRequest16sp1 extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 499b56264fbe226bfef3c338c8d4750d:1252
+     * @Group bb12a3589ab4748963f28f7ac9310f70:1252
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -29,7 +29,7 @@ class GroupInterceptGroupGetRequest16sp1 extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 499b56264fbe226bfef3c338c8d4750d:1252
+     * @Group bb12a3589ab4748963f28f7ac9310f70:1252
      * @var string|null
      */
     private $groupId = null;

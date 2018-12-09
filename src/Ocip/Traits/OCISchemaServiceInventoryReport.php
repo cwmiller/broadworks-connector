@@ -7,7 +7,8 @@ use CWM\BroadWorksConnector\Ocip\Models\GroupInventoryReportGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\SystemInventoryReportGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemInventoryReportGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\SystemInventoryReportModifyRequest;
-use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceInventoryReport
@@ -17,6 +18,7 @@ trait OCISchemaServiceInventoryReport
      * @param GroupInventoryReportGetRequest $request
      * @return GroupInventoryReportGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupInventoryReportGetRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupInventoryReportGetRequest $request)
     {
@@ -27,6 +29,7 @@ trait OCISchemaServiceInventoryReport
      * @param SystemInventoryReportGetRequest $request
      * @return SystemInventoryReportGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemInventoryReportGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemInventoryReportGetRequest $request)
     {
@@ -37,6 +40,7 @@ trait OCISchemaServiceInventoryReport
      * @param SystemInventoryReportModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemInventoryReportModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemInventoryReportModifyRequest $request)
     {

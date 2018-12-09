@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"8f3ed38751e86ebcc639b5bc5cdef0ec:2661","type":"sequence"}]
+ * @Groups [{"id":"8eb862aea0ee5d4211db0a0d3fe7c164:2661","type":"sequence"}]
  */
 class ServiceProviderDialableCallerIDCriteriaAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,7 +17,7 @@ class ServiceProviderDialableCallerIDCriteriaAddRequest extends \CWM\BroadWorksC
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:2661
+     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:2661
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -25,7 +25,7 @@ class ServiceProviderDialableCallerIDCriteriaAddRequest extends \CWM\BroadWorksC
     /**
      * @ElementName name
      * @Type string
-     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:2661
+     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:2661
      * @var string|null
      */
     private $name = null;
@@ -34,7 +34,7 @@ class ServiceProviderDialableCallerIDCriteriaAddRequest extends \CWM\BroadWorksC
      * @ElementName description
      * @Type string
      * @Optional
-     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:2661
+     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:2661
      * @var string|null
      */
     private $description = null;
@@ -43,7 +43,7 @@ class ServiceProviderDialableCallerIDCriteriaAddRequest extends \CWM\BroadWorksC
      * @ElementName prefixDigits
      * @Type string
      * @Optional
-     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:2661
+     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:2661
      * @var string|null
      */
     private $prefixDigits = null;
@@ -53,7 +53,7 @@ class ServiceProviderDialableCallerIDCriteriaAddRequest extends \CWM\BroadWorksC
      * @Type string
      * @Array
      * @Optional
-     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:2661
+     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:2661
      * @var string[]
      */
     private $matchCallType = array(
@@ -65,7 +65,7 @@ class ServiceProviderDialableCallerIDCriteriaAddRequest extends \CWM\BroadWorksC
      * @Type string
      * @Array
      * @Optional
-     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:2661
+     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:2661
      * @var string[]
      */
     private $matchAlternateCallIndicator = array(
@@ -75,7 +75,7 @@ class ServiceProviderDialableCallerIDCriteriaAddRequest extends \CWM\BroadWorksC
     /**
      * @ElementName matchLocalCategory
      * @Type bool
-     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:2661
+     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:2661
      * @var bool|null
      */
     private $matchLocalCategory = null;
@@ -83,7 +83,7 @@ class ServiceProviderDialableCallerIDCriteriaAddRequest extends \CWM\BroadWorksC
     /**
      * @ElementName matchNationalCategory
      * @Type bool
-     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:2661
+     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:2661
      * @var bool|null
      */
     private $matchNationalCategory = null;
@@ -91,7 +91,7 @@ class ServiceProviderDialableCallerIDCriteriaAddRequest extends \CWM\BroadWorksC
     /**
      * @ElementName matchInterlataCategory
      * @Type bool
-     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:2661
+     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:2661
      * @var bool|null
      */
     private $matchInterlataCategory = null;
@@ -99,7 +99,7 @@ class ServiceProviderDialableCallerIDCriteriaAddRequest extends \CWM\BroadWorksC
     /**
      * @ElementName matchIntralataCategory
      * @Type bool
-     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:2661
+     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:2661
      * @var bool|null
      */
     private $matchIntralataCategory = null;
@@ -107,7 +107,7 @@ class ServiceProviderDialableCallerIDCriteriaAddRequest extends \CWM\BroadWorksC
     /**
      * @ElementName matchInternationalCategory
      * @Type bool
-     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:2661
+     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:2661
      * @var bool|null
      */
     private $matchInternationalCategory = null;
@@ -115,7 +115,7 @@ class ServiceProviderDialableCallerIDCriteriaAddRequest extends \CWM\BroadWorksC
     /**
      * @ElementName matchPrivateCategory
      * @Type bool
-     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:2661
+     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:2661
      * @var bool|null
      */
     private $matchPrivateCategory = null;
@@ -123,7 +123,7 @@ class ServiceProviderDialableCallerIDCriteriaAddRequest extends \CWM\BroadWorksC
     /**
      * @ElementName matchEmergencyCategory
      * @Type bool
-     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:2661
+     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:2661
      * @var bool|null
      */
     private $matchEmergencyCategory = null;
@@ -131,7 +131,7 @@ class ServiceProviderDialableCallerIDCriteriaAddRequest extends \CWM\BroadWorksC
     /**
      * @ElementName matchOtherCategory
      * @Type bool
-     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:2661
+     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:2661
      * @var bool|null
      */
     private $matchOtherCategory = null;

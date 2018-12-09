@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserShInterfaceGetPublicIdDataRequest
  * @see UserShInterfaceGetPublicIdDataResponse21sp1
- * @Groups [{"id":"499b56264fbe226bfef3c338c8d4750d:5652","type":"sequence"}]
+ * @Groups [{"id":"bb12a3589ab4748963f28f7ac9310f70:5652","type":"sequence"}]
  */
 class UserShInterfaceGetPublicIdDataResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -21,7 +21,7 @@ class UserShInterfaceGetPublicIdDataResponse extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName userId
      * @Type string
-     * @Group 499b56264fbe226bfef3c338c8d4750d:5652
+     * @Group bb12a3589ab4748963f28f7ac9310f70:5652
      * @var string|null
      */
     private $userId = null;
@@ -29,7 +29,7 @@ class UserShInterfaceGetPublicIdDataResponse extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName userType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UserType
-     * @Group 499b56264fbe226bfef3c338c8d4750d:5652
+     * @Group bb12a3589ab4748963f28f7ac9310f70:5652
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserType|null
      */
     private $userType = null;
@@ -37,7 +37,7 @@ class UserShInterfaceGetPublicIdDataResponse extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName endpointType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EndpointType
-     * @Group 499b56264fbe226bfef3c338c8d4750d:5652
+     * @Group bb12a3589ab4748963f28f7ac9310f70:5652
      * @var \CWM\BroadWorksConnector\Ocip\Models\EndpointType|null
      */
     private $endpointType = null;
@@ -46,7 +46,7 @@ class UserShInterfaceGetPublicIdDataResponse extends \CWM\BroadWorksConnector\Oc
      * @ElementName SCSCFName
      * @Type string
      * @Optional
-     * @Group 499b56264fbe226bfef3c338c8d4750d:5652
+     * @Group bb12a3589ab4748963f28f7ac9310f70:5652
      * @var string|null
      */
     private $SCSCFName = null;
@@ -54,7 +54,7 @@ class UserShInterfaceGetPublicIdDataResponse extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName IMSUserState
      * @Type \CWM\BroadWorksConnector\Ocip\Models\IMSUserState
-     * @Group 499b56264fbe226bfef3c338c8d4750d:5652
+     * @Group bb12a3589ab4748963f28f7ac9310f70:5652
      * @var \CWM\BroadWorksConnector\Ocip\Models\IMSUserState|null
      */
     private $IMSUserState = null;

@@ -296,7 +296,8 @@ use CWM\BroadWorksConnector\Ocip\Models\UserCallCenterGetSupervisorCallCenterLis
 use CWM\BroadWorksConnector\Ocip\Models\UserCallCenterModifyCallCenterListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserCallCenterModifyRequest19;
 use CWM\BroadWorksConnector\Ocip\Models\UserCallCenterModifySupervisedAgentListRequest;
-use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceCallCenter
@@ -306,6 +307,7 @@ trait OCISchemaServiceCallCenter
      * @param CallCenterAgentAvailability $request
      * @return 
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function callCenterAgentAvailability(\CWM\BroadWorksConnector\Ocip\Models\CallCenterAgentAvailability $request)
     {
@@ -316,6 +318,7 @@ trait OCISchemaServiceCallCenter
      * @param CallCenterAgentSettings $request
      * @return 
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function callCenterAgentSettings(\CWM\BroadWorksConnector\Ocip\Models\CallCenterAgentSettings $request)
     {
@@ -326,6 +329,7 @@ trait OCISchemaServiceCallCenter
      * @param EnterpriseCallCenterAgentThresholdDefaultProfileGetRequest $request
      * @return EnterpriseCallCenterAgentThresholdDefaultProfileGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function enterpriseCallCenterAgentThresholdDefaultProfileGetRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseCallCenterAgentThresholdDefaultProfileGetRequest $request)
     {
@@ -336,6 +340,7 @@ trait OCISchemaServiceCallCenter
      * @param EnterpriseCallCenterAgentThresholdProfileAddAgentListRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function enterpriseCallCenterAgentThresholdProfileAddAgentListRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseCallCenterAgentThresholdProfileAddAgentListRequest $request)
     {
@@ -346,6 +351,7 @@ trait OCISchemaServiceCallCenter
      * @param EnterpriseCallCenterAgentThresholdProfileAddRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function enterpriseCallCenterAgentThresholdProfileAddRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseCallCenterAgentThresholdProfileAddRequest $request)
     {
@@ -356,6 +362,7 @@ trait OCISchemaServiceCallCenter
      * @param EnterpriseCallCenterAgentThresholdProfileDeleteAgentListRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function enterpriseCallCenterAgentThresholdProfileDeleteAgentListRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseCallCenterAgentThresholdProfileDeleteAgentListRequest $request)
     {
@@ -366,6 +373,7 @@ trait OCISchemaServiceCallCenter
      * @param EnterpriseCallCenterAgentThresholdProfileDeleteRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function enterpriseCallCenterAgentThresholdProfileDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseCallCenterAgentThresholdProfileDeleteRequest $request)
     {
@@ -376,6 +384,7 @@ trait OCISchemaServiceCallCenter
      * @param EnterpriseCallCenterAgentThresholdProfileGetAvailableAgentListRequest $request
      * @return EnterpriseCallCenterAgentThresholdProfileGetAvailableAgentListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function enterpriseCallCenterAgentThresholdProfileGetAvailableAgentListRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseCallCenterAgentThresholdProfileGetAvailableAgentListRequest $request)
     {
@@ -386,6 +395,7 @@ trait OCISchemaServiceCallCenter
      * @param EnterpriseCallCenterAgentThresholdProfileGetListRequest $request
      * @return EnterpriseCallCenterAgentThresholdProfileGetListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function enterpriseCallCenterAgentThresholdProfileGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseCallCenterAgentThresholdProfileGetListRequest $request)
     {
@@ -396,6 +406,7 @@ trait OCISchemaServiceCallCenter
      * @param EnterpriseCallCenterAgentThresholdProfileGetRequest $request
      * @return EnterpriseCallCenterAgentThresholdProfileGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function enterpriseCallCenterAgentThresholdProfileGetRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseCallCenterAgentThresholdProfileGetRequest $request)
     {
@@ -406,6 +417,7 @@ trait OCISchemaServiceCallCenter
      * @param EnterpriseCallCenterAgentThresholdProfileModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function enterpriseCallCenterAgentThresholdProfileModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseCallCenterAgentThresholdProfileModifyRequest $request)
     {
@@ -416,6 +428,7 @@ trait OCISchemaServiceCallCenter
      * @param EnterpriseCallCenterAgentUnavailableCodeAddRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function enterpriseCallCenterAgentUnavailableCodeAddRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseCallCenterAgentUnavailableCodeAddRequest $request)
     {
@@ -426,6 +439,7 @@ trait OCISchemaServiceCallCenter
      * @param EnterpriseCallCenterAgentUnavailableCodeDeleteRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function enterpriseCallCenterAgentUnavailableCodeDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseCallCenterAgentUnavailableCodeDeleteRequest $request)
     {
@@ -436,6 +450,7 @@ trait OCISchemaServiceCallCenter
      * @param EnterpriseCallCenterAgentUnavailableCodeGetListRequest $request
      * @return EnterpriseCallCenterAgentUnavailableCodeGetListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function enterpriseCallCenterAgentUnavailableCodeGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseCallCenterAgentUnavailableCodeGetListRequest $request)
     {
@@ -446,6 +461,7 @@ trait OCISchemaServiceCallCenter
      * @param EnterpriseCallCenterAgentUnavailableCodeGetRequest $request
      * @return EnterpriseCallCenterAgentUnavailableCodeGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function enterpriseCallCenterAgentUnavailableCodeGetRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseCallCenterAgentUnavailableCodeGetRequest $request)
     {
@@ -456,6 +472,7 @@ trait OCISchemaServiceCallCenter
      * @param EnterpriseCallCenterAgentUnavailableCodeModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function enterpriseCallCenterAgentUnavailableCodeModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseCallCenterAgentUnavailableCodeModifyRequest $request)
     {
@@ -466,6 +483,7 @@ trait OCISchemaServiceCallCenter
      * @param EnterpriseCallCenterAgentUnavailableCodeSettingsGetRequest17sp4 $request
      * @return EnterpriseCallCenterAgentUnavailableCodeSettingsGetResponse17sp4
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function enterpriseCallCenterAgentUnavailableCodeSettingsGetRequest17sp4(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseCallCenterAgentUnavailableCodeSettingsGetRequest17sp4 $request)
     {
@@ -476,6 +494,7 @@ trait OCISchemaServiceCallCenter
      * @param EnterpriseCallCenterAgentUnavailableCodeSettingsModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function enterpriseCallCenterAgentUnavailableCodeSettingsModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseCallCenterAgentUnavailableCodeSettingsModifyRequest $request)
     {
@@ -486,6 +505,7 @@ trait OCISchemaServiceCallCenter
      * @param EnterpriseCallCenterCallDispositionCodeAddRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function enterpriseCallCenterCallDispositionCodeAddRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseCallCenterCallDispositionCodeAddRequest $request)
     {
@@ -496,6 +516,7 @@ trait OCISchemaServiceCallCenter
      * @param EnterpriseCallCenterCallDispositionCodeDeleteRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function enterpriseCallCenterCallDispositionCodeDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseCallCenterCallDispositionCodeDeleteRequest $request)
     {
@@ -506,6 +527,7 @@ trait OCISchemaServiceCallCenter
      * @param EnterpriseCallCenterCallDispositionCodeGetListRequest $request
      * @return EnterpriseCallCenterCallDispositionCodeGetListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function enterpriseCallCenterCallDispositionCodeGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseCallCenterCallDispositionCodeGetListRequest $request)
     {
@@ -516,6 +538,7 @@ trait OCISchemaServiceCallCenter
      * @param EnterpriseCallCenterCallDispositionCodeGetRequest $request
      * @return EnterpriseCallCenterCallDispositionCodeGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function enterpriseCallCenterCallDispositionCodeGetRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseCallCenterCallDispositionCodeGetRequest $request)
     {
@@ -526,6 +549,7 @@ trait OCISchemaServiceCallCenter
      * @param EnterpriseCallCenterCallDispositionCodeGetUsageListRequest $request
      * @return EnterpriseCallCenterCallDispositionCodeGetUsageListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function enterpriseCallCenterCallDispositionCodeGetUsageListRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseCallCenterCallDispositionCodeGetUsageListRequest $request)
     {
@@ -536,6 +560,7 @@ trait OCISchemaServiceCallCenter
      * @param EnterpriseCallCenterCallDispositionCodeModifyActiveListRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function enterpriseCallCenterCallDispositionCodeModifyActiveListRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseCallCenterCallDispositionCodeModifyActiveListRequest $request)
     {
@@ -546,6 +571,7 @@ trait OCISchemaServiceCallCenter
      * @param EnterpriseCallCenterCallDispositionCodeModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function enterpriseCallCenterCallDispositionCodeModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseCallCenterCallDispositionCodeModifyRequest $request)
     {
@@ -556,6 +582,7 @@ trait OCISchemaServiceCallCenter
      * @param EnterpriseCallCenterCurrentAndPastAgentGetListRequest $request
      * @return EnterpriseCallCenterCurrentAndPastAgentGetListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function enterpriseCallCenterCurrentAndPastAgentGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseCallCenterCurrentAndPastAgentGetListRequest $request)
     {
@@ -566,6 +593,7 @@ trait OCISchemaServiceCallCenter
      * @param EnterpriseCallCenterCurrentAndPastCallCenterGetListRequest $request
      * @return EnterpriseCallCenterCurrentAndPastCallCenterGetListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function enterpriseCallCenterCurrentAndPastCallCenterGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseCallCenterCurrentAndPastCallCenterGetListRequest $request)
     {
@@ -576,6 +604,7 @@ trait OCISchemaServiceCallCenter
      * @param EnterpriseCallCenterCurrentAndPastDNISGetListRequest $request
      * @return EnterpriseCallCenterCurrentAndPastDNISGetListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function enterpriseCallCenterCurrentAndPastDNISGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseCallCenterCurrentAndPastDNISGetListRequest $request)
     {
@@ -586,6 +615,7 @@ trait OCISchemaServiceCallCenter
      * @param EnterpriseCallCenterEnhancedReportingBrandingGetRequest $request
      * @return EnterpriseCallCenterEnhancedReportingBrandingGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function enterpriseCallCenterEnhancedReportingBrandingGetRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseCallCenterEnhancedReportingBrandingGetRequest $request)
     {
@@ -596,6 +626,7 @@ trait OCISchemaServiceCallCenter
      * @param EnterpriseCallCenterEnhancedReportingBrandingModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function enterpriseCallCenterEnhancedReportingBrandingModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseCallCenterEnhancedReportingBrandingModifyRequest $request)
     {
@@ -606,6 +637,7 @@ trait OCISchemaServiceCallCenter
      * @param EnterpriseCallCenterEnhancedReportingGetAvailableReportTemplateListRequest $request
      * @return EnterpriseCallCenterEnhancedReportingGetAvailableReportTemplateListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function enterpriseCallCenterEnhancedReportingGetAvailableReportTemplateListRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseCallCenterEnhancedReportingGetAvailableReportTemplateListRequest $request)
     {
@@ -616,6 +648,7 @@ trait OCISchemaServiceCallCenter
      * @param EnterpriseCallCenterEnhancedReportingGetRequest19 $request
      * @return EnterpriseCallCenterEnhancedReportingGetResponse19
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function enterpriseCallCenterEnhancedReportingGetRequest19(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseCallCenterEnhancedReportingGetRequest19 $request)
     {
@@ -626,6 +659,7 @@ trait OCISchemaServiceCallCenter
      * @param EnterpriseCallCenterEnhancedReportingModifyRequest19 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function enterpriseCallCenterEnhancedReportingModifyRequest19(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseCallCenterEnhancedReportingModifyRequest19 $request)
     {
@@ -636,6 +670,7 @@ trait OCISchemaServiceCallCenter
      * @param EnterpriseCallCenterEnhancedReportingReportTemplateAddRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function enterpriseCallCenterEnhancedReportingReportTemplateAddRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseCallCenterEnhancedReportingReportTemplateAddRequest $request)
     {
@@ -646,6 +681,7 @@ trait OCISchemaServiceCallCenter
      * @param EnterpriseCallCenterEnhancedReportingReportTemplateDeleteRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function enterpriseCallCenterEnhancedReportingReportTemplateDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseCallCenterEnhancedReportingReportTemplateDeleteRequest $request)
     {
@@ -656,6 +692,7 @@ trait OCISchemaServiceCallCenter
      * @param EnterpriseCallCenterEnhancedReportingReportTemplateGetListRequest $request
      * @return EnterpriseCallCenterEnhancedReportingReportTemplateGetListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function enterpriseCallCenterEnhancedReportingReportTemplateGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseCallCenterEnhancedReportingReportTemplateGetListRequest $request)
     {
@@ -666,6 +703,7 @@ trait OCISchemaServiceCallCenter
      * @param EnterpriseCallCenterEnhancedReportingReportTemplateGetRequest $request
      * @return EnterpriseCallCenterEnhancedReportingReportTemplateGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function enterpriseCallCenterEnhancedReportingReportTemplateGetRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseCallCenterEnhancedReportingReportTemplateGetRequest $request)
     {
@@ -676,6 +714,7 @@ trait OCISchemaServiceCallCenter
      * @param EnterpriseCallCenterEnhancedReportingReportTemplateModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function enterpriseCallCenterEnhancedReportingReportTemplateModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseCallCenterEnhancedReportingReportTemplateModifyRequest $request)
     {
@@ -686,6 +725,7 @@ trait OCISchemaServiceCallCenter
      * @param EnterpriseCallCenterEnhancedReportingScheduledReportAddRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function enterpriseCallCenterEnhancedReportingScheduledReportAddRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseCallCenterEnhancedReportingScheduledReportAddRequest $request)
     {
@@ -696,6 +736,7 @@ trait OCISchemaServiceCallCenter
      * @param EnterpriseCallCenterEnhancedReportingScheduledReportDeleteRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function enterpriseCallCenterEnhancedReportingScheduledReportDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseCallCenterEnhancedReportingScheduledReportDeleteRequest $request)
     {
@@ -706,6 +747,7 @@ trait OCISchemaServiceCallCenter
      * @param EnterpriseCallCenterEnhancedReportingScheduledReportGetActiveListRequest $request
      * @return EnterpriseCallCenterEnhancedReportingScheduledReportGetActiveListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function enterpriseCallCenterEnhancedReportingScheduledReportGetActiveListRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseCallCenterEnhancedReportingScheduledReportGetActiveListRequest $request)
     {
@@ -716,6 +758,7 @@ trait OCISchemaServiceCallCenter
      * @param EnterpriseCallCenterEnhancedReportingScheduledReportGetCompletedListRequest $request
      * @return EnterpriseCallCenterEnhancedReportingScheduledReportGetCompletedListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function enterpriseCallCenterEnhancedReportingScheduledReportGetCompletedListRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseCallCenterEnhancedReportingScheduledReportGetCompletedListRequest $request)
     {
@@ -726,6 +769,7 @@ trait OCISchemaServiceCallCenter
      * @param EnterpriseCallCenterEnhancedReportingScheduledReportGetListRequest $request
      * @return EnterpriseCallCenterEnhancedReportingScheduledReportGetListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function enterpriseCallCenterEnhancedReportingScheduledReportGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseCallCenterEnhancedReportingScheduledReportGetListRequest $request)
     {
@@ -736,6 +780,7 @@ trait OCISchemaServiceCallCenter
      * @param EnterpriseCallCenterEnhancedReportingScheduledReportGetReportTemplateUsageListRequest $request
      * @return EnterpriseCallCenterEnhancedReportingScheduledReportGetReportTemplateUsageListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function enterpriseCallCenterEnhancedReportingScheduledReportGetReportTemplateUsageListRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseCallCenterEnhancedReportingScheduledReportGetReportTemplateUsageListRequest $request)
     {
@@ -746,6 +791,7 @@ trait OCISchemaServiceCallCenter
      * @param EnterpriseCallCenterEnhancedReportingScheduledReportGetRequest $request
      * @return EnterpriseCallCenterEnhancedReportingScheduledReportGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function enterpriseCallCenterEnhancedReportingScheduledReportGetRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseCallCenterEnhancedReportingScheduledReportGetRequest $request)
     {
@@ -756,6 +802,7 @@ trait OCISchemaServiceCallCenter
      * @param EnterpriseCallCenterEnhancedReportingScheduledReportModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function enterpriseCallCenterEnhancedReportingScheduledReportModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseCallCenterEnhancedReportingScheduledReportModifyRequest $request)
     {
@@ -766,6 +813,7 @@ trait OCISchemaServiceCallCenter
      * @param EnterpriseCallCenterGetRequest17sp4 $request
      * @return EnterpriseCallCenterGetResponse17sp4
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function enterpriseCallCenterGetRequest17sp4(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseCallCenterGetRequest17sp4 $request)
     {
@@ -776,6 +824,7 @@ trait OCISchemaServiceCallCenter
      * @param EnterpriseCallCenterGetRoutingPolicyRequest $request
      * @return EnterpriseCallCenterGetRoutingPolicyResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function enterpriseCallCenterGetRoutingPolicyRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseCallCenterGetRoutingPolicyRequest $request)
     {
@@ -786,6 +835,7 @@ trait OCISchemaServiceCallCenter
      * @param EnterpriseCallCenterModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function enterpriseCallCenterModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseCallCenterModifyRequest $request)
     {
@@ -796,6 +846,7 @@ trait OCISchemaServiceCallCenter
      * @param EnterpriseCallCenterModifyRoutingPolicyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function enterpriseCallCenterModifyRoutingPolicyRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseCallCenterModifyRoutingPolicyRequest $request)
     {
@@ -806,6 +857,7 @@ trait OCISchemaServiceCallCenter
      * @param GroupCallCenterAddAgentListRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterAddAgentListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterAddAgentListRequest $request)
     {
@@ -816,6 +868,7 @@ trait OCISchemaServiceCallCenter
      * @param GroupCallCenterAddDNISRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterAddDNISRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterAddDNISRequest $request)
     {
@@ -826,6 +879,7 @@ trait OCISchemaServiceCallCenter
      * @param GroupCallCenterAddInstanceRequest22 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterAddInstanceRequest22(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterAddInstanceRequest22 $request)
     {
@@ -836,6 +890,7 @@ trait OCISchemaServiceCallCenter
      * @param GroupCallCenterAddSupervisorListRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterAddSupervisorListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterAddSupervisorListRequest $request)
     {
@@ -846,6 +901,7 @@ trait OCISchemaServiceCallCenter
      * @param GroupCallCenterAgentThresholdDefaultProfileGetRequest $request
      * @return GroupCallCenterAgentThresholdDefaultProfileGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterAgentThresholdDefaultProfileGetRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterAgentThresholdDefaultProfileGetRequest $request)
     {
@@ -856,6 +912,7 @@ trait OCISchemaServiceCallCenter
      * @param GroupCallCenterAgentThresholdProfileAddAgentListRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterAgentThresholdProfileAddAgentListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterAgentThresholdProfileAddAgentListRequest $request)
     {
@@ -866,6 +923,7 @@ trait OCISchemaServiceCallCenter
      * @param GroupCallCenterAgentThresholdProfileAddRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterAgentThresholdProfileAddRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterAgentThresholdProfileAddRequest $request)
     {
@@ -876,6 +934,7 @@ trait OCISchemaServiceCallCenter
      * @param GroupCallCenterAgentThresholdProfileDeleteAgentListRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterAgentThresholdProfileDeleteAgentListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterAgentThresholdProfileDeleteAgentListRequest $request)
     {
@@ -886,6 +945,7 @@ trait OCISchemaServiceCallCenter
      * @param GroupCallCenterAgentThresholdProfileDeleteRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterAgentThresholdProfileDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterAgentThresholdProfileDeleteRequest $request)
     {
@@ -896,6 +956,7 @@ trait OCISchemaServiceCallCenter
      * @param GroupCallCenterAgentThresholdProfileGetAvailableAgentListRequest $request
      * @return GroupCallCenterAgentThresholdProfileGetAvailableAgentListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterAgentThresholdProfileGetAvailableAgentListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterAgentThresholdProfileGetAvailableAgentListRequest $request)
     {
@@ -906,6 +967,7 @@ trait OCISchemaServiceCallCenter
      * @param GroupCallCenterAgentThresholdProfileGetListRequest $request
      * @return GroupCallCenterAgentThresholdProfileGetListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterAgentThresholdProfileGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterAgentThresholdProfileGetListRequest $request)
     {
@@ -916,6 +978,7 @@ trait OCISchemaServiceCallCenter
      * @param GroupCallCenterAgentThresholdProfileGetRequest $request
      * @return GroupCallCenterAgentThresholdProfileGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterAgentThresholdProfileGetRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterAgentThresholdProfileGetRequest $request)
     {
@@ -926,6 +989,7 @@ trait OCISchemaServiceCallCenter
      * @param GroupCallCenterAgentThresholdProfileModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterAgentThresholdProfileModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterAgentThresholdProfileModifyRequest $request)
     {
@@ -936,6 +1000,7 @@ trait OCISchemaServiceCallCenter
      * @param GroupCallCenterAgentUnavailableCodeAddRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterAgentUnavailableCodeAddRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterAgentUnavailableCodeAddRequest $request)
     {
@@ -946,6 +1011,7 @@ trait OCISchemaServiceCallCenter
      * @param GroupCallCenterAgentUnavailableCodeDeleteRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterAgentUnavailableCodeDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterAgentUnavailableCodeDeleteRequest $request)
     {
@@ -956,6 +1022,7 @@ trait OCISchemaServiceCallCenter
      * @param GroupCallCenterAgentUnavailableCodeGetListRequest $request
      * @return GroupCallCenterAgentUnavailableCodeGetListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterAgentUnavailableCodeGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterAgentUnavailableCodeGetListRequest $request)
     {
@@ -966,6 +1033,7 @@ trait OCISchemaServiceCallCenter
      * @param GroupCallCenterAgentUnavailableCodeGetRequest $request
      * @return GroupCallCenterAgentUnavailableCodeGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterAgentUnavailableCodeGetRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterAgentUnavailableCodeGetRequest $request)
     {
@@ -976,6 +1044,7 @@ trait OCISchemaServiceCallCenter
      * @param GroupCallCenterAgentUnavailableCodeModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterAgentUnavailableCodeModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterAgentUnavailableCodeModifyRequest $request)
     {
@@ -986,6 +1055,7 @@ trait OCISchemaServiceCallCenter
      * @param GroupCallCenterAgentUnavailableCodeSettingsGetRequest17sp4 $request
      * @return GroupCallCenterAgentUnavailableCodeSettingsGetResponse17sp4
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterAgentUnavailableCodeSettingsGetRequest17sp4(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterAgentUnavailableCodeSettingsGetRequest17sp4 $request)
     {
@@ -996,6 +1066,7 @@ trait OCISchemaServiceCallCenter
      * @param GroupCallCenterAgentUnavailableCodeSettingsModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterAgentUnavailableCodeSettingsModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterAgentUnavailableCodeSettingsModifyRequest $request)
     {
@@ -1006,6 +1077,7 @@ trait OCISchemaServiceCallCenter
      * @param GroupCallCenterBouncedCallGetRequest17 $request
      * @return GroupCallCenterBouncedCallGetResponse17
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterBouncedCallGetRequest17(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterBouncedCallGetRequest17 $request)
     {
@@ -1016,6 +1088,7 @@ trait OCISchemaServiceCallCenter
      * @param GroupCallCenterBouncedCallModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterBouncedCallModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterBouncedCallModifyRequest $request)
     {
@@ -1026,6 +1099,7 @@ trait OCISchemaServiceCallCenter
      * @param GroupCallCenterCallDispositionCodeAddRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterCallDispositionCodeAddRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterCallDispositionCodeAddRequest $request)
     {
@@ -1036,6 +1110,7 @@ trait OCISchemaServiceCallCenter
      * @param GroupCallCenterCallDispositionCodeDeleteRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterCallDispositionCodeDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterCallDispositionCodeDeleteRequest $request)
     {
@@ -1046,6 +1121,7 @@ trait OCISchemaServiceCallCenter
      * @param GroupCallCenterCallDispositionCodeGetListRequest $request
      * @return GroupCallCenterCallDispositionCodeGetListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterCallDispositionCodeGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterCallDispositionCodeGetListRequest $request)
     {
@@ -1056,6 +1132,7 @@ trait OCISchemaServiceCallCenter
      * @param GroupCallCenterCallDispositionCodeGetRequest $request
      * @return GroupCallCenterCallDispositionCodeGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterCallDispositionCodeGetRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterCallDispositionCodeGetRequest $request)
     {
@@ -1066,6 +1143,7 @@ trait OCISchemaServiceCallCenter
      * @param GroupCallCenterCallDispositionCodeGetUsageListRequest $request
      * @return GroupCallCenterCallDispositionCodeGetUsageListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterCallDispositionCodeGetUsageListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterCallDispositionCodeGetUsageListRequest $request)
     {
@@ -1076,6 +1154,7 @@ trait OCISchemaServiceCallCenter
      * @param GroupCallCenterCallDispositionCodeModifyActiveListRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterCallDispositionCodeModifyActiveListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterCallDispositionCodeModifyActiveListRequest $request)
     {
@@ -1086,6 +1165,7 @@ trait OCISchemaServiceCallCenter
      * @param GroupCallCenterCallDispositionCodeModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterCallDispositionCodeModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterCallDispositionCodeModifyRequest $request)
     {
@@ -1096,6 +1176,7 @@ trait OCISchemaServiceCallCenter
      * @param GroupCallCenterComfortMessageBypassGetRequest20 $request
      * @return GroupCallCenterComfortMessageBypassGetResponse20
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterComfortMessageBypassGetRequest20(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterComfortMessageBypassGetRequest20 $request)
     {
@@ -1106,6 +1187,7 @@ trait OCISchemaServiceCallCenter
      * @param GroupCallCenterComfortMessageBypassModifyRequest20 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterComfortMessageBypassModifyRequest20(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterComfortMessageBypassModifyRequest20 $request)
     {
@@ -1116,6 +1198,7 @@ trait OCISchemaServiceCallCenter
      * @param GroupCallCenterCurrentAndPastAgentGetListRequest $request
      * @return GroupCallCenterCurrentAndPastAgentGetListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterCurrentAndPastAgentGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterCurrentAndPastAgentGetListRequest $request)
     {
@@ -1126,6 +1209,7 @@ trait OCISchemaServiceCallCenter
      * @param GroupCallCenterCurrentAndPastCallCenterGetListRequest $request
      * @return GroupCallCenterCurrentAndPastCallCenterGetListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterCurrentAndPastCallCenterGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterCurrentAndPastCallCenterGetListRequest $request)
     {
@@ -1136,6 +1220,7 @@ trait OCISchemaServiceCallCenter
      * @param GroupCallCenterCurrentAndPastDNISGetListRequest $request
      * @return GroupCallCenterCurrentAndPastDNISGetListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterCurrentAndPastDNISGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterCurrentAndPastDNISGetListRequest $request)
     {
@@ -1146,6 +1231,7 @@ trait OCISchemaServiceCallCenter
      * @param GroupCallCenterDeleteAgentListRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterDeleteAgentListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterDeleteAgentListRequest $request)
     {
@@ -1156,6 +1242,7 @@ trait OCISchemaServiceCallCenter
      * @param GroupCallCenterDeleteDNISRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterDeleteDNISRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterDeleteDNISRequest $request)
     {
@@ -1166,6 +1253,7 @@ trait OCISchemaServiceCallCenter
      * @param GroupCallCenterDeleteInstanceRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterDeleteInstanceRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterDeleteInstanceRequest $request)
     {
@@ -1176,6 +1264,7 @@ trait OCISchemaServiceCallCenter
      * @param GroupCallCenterDeleteSupervisorListRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterDeleteSupervisorListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterDeleteSupervisorListRequest $request)
     {
@@ -1186,6 +1275,7 @@ trait OCISchemaServiceCallCenter
      * @param GroupCallCenterDistinctiveRingingGetRequest $request
      * @return GroupCallCenterDistinctiveRingingGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterDistinctiveRingingGetRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterDistinctiveRingingGetRequest $request)
     {
@@ -1196,6 +1286,7 @@ trait OCISchemaServiceCallCenter
      * @param GroupCallCenterDistinctiveRingingModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterDistinctiveRingingModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterDistinctiveRingingModifyRequest $request)
     {
@@ -1206,6 +1297,7 @@ trait OCISchemaServiceCallCenter
      * @param GroupCallCenterEnhancedReportingBrandingGetRequest $request
      * @return GroupCallCenterEnhancedReportingBrandingGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterEnhancedReportingBrandingGetRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterEnhancedReportingBrandingGetRequest $request)
     {
@@ -1216,6 +1308,7 @@ trait OCISchemaServiceCallCenter
      * @param GroupCallCenterEnhancedReportingBrandingModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterEnhancedReportingBrandingModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterEnhancedReportingBrandingModifyRequest $request)
     {
@@ -1226,6 +1319,7 @@ trait OCISchemaServiceCallCenter
      * @param GroupCallCenterEnhancedReportingGetAvailableReportTemplateListRequest $request
      * @return GroupCallCenterEnhancedReportingGetAvailableReportTemplateListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterEnhancedReportingGetAvailableReportTemplateListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterEnhancedReportingGetAvailableReportTemplateListRequest $request)
     {
@@ -1236,6 +1330,7 @@ trait OCISchemaServiceCallCenter
      * @param GroupCallCenterEnhancedReportingGetRequest19 $request
      * @return GroupCallCenterEnhancedReportingGetResponse19
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterEnhancedReportingGetRequest19(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterEnhancedReportingGetRequest19 $request)
     {
@@ -1246,6 +1341,7 @@ trait OCISchemaServiceCallCenter
      * @param GroupCallCenterEnhancedReportingModifyRequest19 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterEnhancedReportingModifyRequest19(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterEnhancedReportingModifyRequest19 $request)
     {
@@ -1256,6 +1352,7 @@ trait OCISchemaServiceCallCenter
      * @param GroupCallCenterEnhancedReportingReportTemplateAddRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterEnhancedReportingReportTemplateAddRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterEnhancedReportingReportTemplateAddRequest $request)
     {
@@ -1266,6 +1363,7 @@ trait OCISchemaServiceCallCenter
      * @param GroupCallCenterEnhancedReportingReportTemplateDeleteRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterEnhancedReportingReportTemplateDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterEnhancedReportingReportTemplateDeleteRequest $request)
     {
@@ -1276,6 +1374,7 @@ trait OCISchemaServiceCallCenter
      * @param GroupCallCenterEnhancedReportingReportTemplateGetListRequest $request
      * @return GroupCallCenterEnhancedReportingReportTemplateGetListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterEnhancedReportingReportTemplateGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterEnhancedReportingReportTemplateGetListRequest $request)
     {
@@ -1286,6 +1385,7 @@ trait OCISchemaServiceCallCenter
      * @param GroupCallCenterEnhancedReportingReportTemplateGetRequest $request
      * @return GroupCallCenterEnhancedReportingReportTemplateGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterEnhancedReportingReportTemplateGetRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterEnhancedReportingReportTemplateGetRequest $request)
     {
@@ -1296,6 +1396,7 @@ trait OCISchemaServiceCallCenter
      * @param GroupCallCenterEnhancedReportingReportTemplateModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterEnhancedReportingReportTemplateModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterEnhancedReportingReportTemplateModifyRequest $request)
     {
@@ -1306,6 +1407,7 @@ trait OCISchemaServiceCallCenter
      * @param GroupCallCenterEnhancedReportingScheduledReportAddRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterEnhancedReportingScheduledReportAddRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterEnhancedReportingScheduledReportAddRequest $request)
     {
@@ -1316,6 +1418,7 @@ trait OCISchemaServiceCallCenter
      * @param GroupCallCenterEnhancedReportingScheduledReportDeleteRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterEnhancedReportingScheduledReportDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterEnhancedReportingScheduledReportDeleteRequest $request)
     {
@@ -1326,6 +1429,7 @@ trait OCISchemaServiceCallCenter
      * @param GroupCallCenterEnhancedReportingScheduledReportGetActiveListRequest $request
      * @return GroupCallCenterEnhancedReportingScheduledReportGetActiveListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterEnhancedReportingScheduledReportGetActiveListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterEnhancedReportingScheduledReportGetActiveListRequest $request)
     {
@@ -1336,6 +1440,7 @@ trait OCISchemaServiceCallCenter
      * @param GroupCallCenterEnhancedReportingScheduledReportGetCompletedListRequest $request
      * @return GroupCallCenterEnhancedReportingScheduledReportGetCompletedListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterEnhancedReportingScheduledReportGetCompletedListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterEnhancedReportingScheduledReportGetCompletedListRequest $request)
     {
@@ -1346,6 +1451,7 @@ trait OCISchemaServiceCallCenter
      * @param GroupCallCenterEnhancedReportingScheduledReportGetListRequest $request
      * @return GroupCallCenterEnhancedReportingScheduledReportGetListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterEnhancedReportingScheduledReportGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterEnhancedReportingScheduledReportGetListRequest $request)
     {
@@ -1356,6 +1462,7 @@ trait OCISchemaServiceCallCenter
      * @param GroupCallCenterEnhancedReportingScheduledReportGetReportTemplateUsageListRequest $request
      * @return GroupCallCenterEnhancedReportingScheduledReportGetReportTemplateUsageListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterEnhancedReportingScheduledReportGetReportTemplateUsageListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterEnhancedReportingScheduledReportGetReportTemplateUsageListRequest $request)
     {
@@ -1366,6 +1473,7 @@ trait OCISchemaServiceCallCenter
      * @param GroupCallCenterEnhancedReportingScheduledReportGetRequest $request
      * @return GroupCallCenterEnhancedReportingScheduledReportGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterEnhancedReportingScheduledReportGetRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterEnhancedReportingScheduledReportGetRequest $request)
     {
@@ -1376,6 +1484,7 @@ trait OCISchemaServiceCallCenter
      * @param GroupCallCenterEnhancedReportingScheduledReportModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterEnhancedReportingScheduledReportModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterEnhancedReportingScheduledReportModifyRequest $request)
     {
@@ -1386,6 +1495,7 @@ trait OCISchemaServiceCallCenter
      * @param GroupCallCenterForcedForwardingGetRequest20 $request
      * @return GroupCallCenterForcedForwardingGetResponse20
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterForcedForwardingGetRequest20(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterForcedForwardingGetRequest20 $request)
     {
@@ -1396,6 +1506,7 @@ trait OCISchemaServiceCallCenter
      * @param GroupCallCenterForcedForwardingModifyRequest20 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterForcedForwardingModifyRequest20(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterForcedForwardingModifyRequest20 $request)
     {
@@ -1406,6 +1517,7 @@ trait OCISchemaServiceCallCenter
      * @param GroupCallCenterGetAgentListRequest $request
      * @return 
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterGetAgentListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterGetAgentListRequest $request)
     {
@@ -1416,6 +1528,7 @@ trait OCISchemaServiceCallCenter
      * @param GroupCallCenterGetAnnouncementRequest20 $request
      * @return GroupCallCenterGetAnnouncementResponse20
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterGetAnnouncementRequest20(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterGetAnnouncementRequest20 $request)
     {
@@ -1426,6 +1539,7 @@ trait OCISchemaServiceCallCenter
      * @param GroupCallCenterGetAvailableAgentListRequest $request
      * @return GroupCallCenterGetAvailableAgentListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterGetAvailableAgentListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterGetAvailableAgentListRequest $request)
     {
@@ -1436,6 +1550,7 @@ trait OCISchemaServiceCallCenter
      * @param GroupCallCenterGetAvailableSupervisorListRequest $request
      * @return GroupCallCenterGetAvailableSupervisorListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterGetAvailableSupervisorListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterGetAvailableSupervisorListRequest $request)
     {
@@ -1446,6 +1561,7 @@ trait OCISchemaServiceCallCenter
      * @param GroupCallCenterGetDistinctiveRingingRequest $request
      * @return GroupCallCenterGetDistinctiveRingingResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterGetDistinctiveRingingRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterGetDistinctiveRingingRequest $request)
     {
@@ -1456,6 +1572,7 @@ trait OCISchemaServiceCallCenter
      * @param GroupCallCenterGetDNISAgentListRequest $request
      * @return GroupCallCenterGetDNISAgentListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterGetDNISAgentListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterGetDNISAgentListRequest $request)
     {
@@ -1466,6 +1583,7 @@ trait OCISchemaServiceCallCenter
      * @param GroupCallCenterGetDNISAnnouncementRequest20 $request
      * @return 
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterGetDNISAnnouncementRequest20(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterGetDNISAnnouncementRequest20 $request)
     {
@@ -1476,6 +1594,7 @@ trait OCISchemaServiceCallCenter
      * @param GroupCallCenterGetDNISListRequest $request
      * @return GroupCallCenterGetDNISListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterGetDNISListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterGetDNISListRequest $request)
     {
@@ -1486,6 +1605,7 @@ trait OCISchemaServiceCallCenter
      * @param GroupCallCenterGetDNISRequest $request
      * @return 
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterGetDNISRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterGetDNISRequest $request)
     {
@@ -1496,6 +1616,7 @@ trait OCISchemaServiceCallCenter
      * @param GroupCallCenterGetInstanceListRequest $request
      * @return GroupCallCenterGetInstanceListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterGetInstanceListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterGetInstanceListRequest $request)
     {
@@ -1506,6 +1627,7 @@ trait OCISchemaServiceCallCenter
      * @param GroupCallCenterGetInstanceQueueStatusRequest $request
      * @return GroupCallCenterGetInstanceQueueStatusResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterGetInstanceQueueStatusRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterGetInstanceQueueStatusRequest $request)
     {
@@ -1516,6 +1638,7 @@ trait OCISchemaServiceCallCenter
      * @param GroupCallCenterGetInstanceRequest22 $request
      * @return GroupCallCenterGetInstanceResponse22
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterGetInstanceRequest22(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterGetInstanceRequest22 $request)
     {
@@ -1526,6 +1649,7 @@ trait OCISchemaServiceCallCenter
      * @param GroupCallCenterGetInstanceStatisticsReportingRequest17sp1 $request
      * @return GroupCallCenterGetInstanceStatisticsReportingResponse17sp1
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterGetInstanceStatisticsReportingRequest17sp1(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterGetInstanceStatisticsReportingRequest17sp1 $request)
     {
@@ -1536,6 +1660,7 @@ trait OCISchemaServiceCallCenter
      * @param GroupCallCenterGetInstanceStatisticsRequest14sp9 $request
      * @return GroupCallCenterGetInstanceStatisticsResponse14sp9
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterGetInstanceStatisticsRequest14sp9(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterGetInstanceStatisticsRequest14sp9 $request)
     {
@@ -1546,6 +1671,7 @@ trait OCISchemaServiceCallCenter
      * @param GroupCallCenterGetRequest17sp4 $request
      * @return GroupCallCenterGetResponse17sp4
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterGetRequest17sp4(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterGetRequest17sp4 $request)
     {
@@ -1556,6 +1682,7 @@ trait OCISchemaServiceCallCenter
      * @param GroupCallCenterGetRoutingPolicyRequest $request
      * @return GroupCallCenterGetRoutingPolicyResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterGetRoutingPolicyRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterGetRoutingPolicyRequest $request)
     {
@@ -1566,6 +1693,7 @@ trait OCISchemaServiceCallCenter
      * @param GroupCallCenterGetSupervisorListRequest16 $request
      * @return 
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterGetSupervisorListRequest16(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterGetSupervisorListRequest16 $request)
     {
@@ -1576,6 +1704,7 @@ trait OCISchemaServiceCallCenter
      * @param GroupCallCenterGetUnlicensedAgentListRequest $request
      * @return 
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterGetUnlicensedAgentListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterGetUnlicensedAgentListRequest $request)
     {
@@ -1586,6 +1715,7 @@ trait OCISchemaServiceCallCenter
      * @param GroupCallCenterHolidayServiceGetRequest20 $request
      * @return GroupCallCenterHolidayServiceGetResponse20
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterHolidayServiceGetRequest20(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterHolidayServiceGetRequest20 $request)
     {
@@ -1596,6 +1726,7 @@ trait OCISchemaServiceCallCenter
      * @param GroupCallCenterHolidayServiceModifyRequest20 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterHolidayServiceModifyRequest20(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterHolidayServiceModifyRequest20 $request)
     {
@@ -1606,6 +1737,7 @@ trait OCISchemaServiceCallCenter
      * @param GroupCallCenterModifyActiveInstanceListRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterModifyActiveInstanceListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterModifyActiveInstanceListRequest $request)
     {
@@ -1616,6 +1748,7 @@ trait OCISchemaServiceCallCenter
      * @param GroupCallCenterModifyAgentListRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterModifyAgentListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterModifyAgentListRequest $request)
     {
@@ -1626,6 +1759,7 @@ trait OCISchemaServiceCallCenter
      * @param GroupCallCenterModifyAnnouncementRequest20 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterModifyAnnouncementRequest20(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterModifyAnnouncementRequest20 $request)
     {
@@ -1636,6 +1770,7 @@ trait OCISchemaServiceCallCenter
      * @param GroupCallCenterModifyDistinctiveRingingRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterModifyDistinctiveRingingRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterModifyDistinctiveRingingRequest $request)
     {
@@ -1646,6 +1781,7 @@ trait OCISchemaServiceCallCenter
      * @param GroupCallCenterModifyDNISAnnouncementRequest20 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterModifyDNISAnnouncementRequest20(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterModifyDNISAnnouncementRequest20 $request)
     {
@@ -1656,6 +1792,7 @@ trait OCISchemaServiceCallCenter
      * @param GroupCallCenterModifyDNISParametersRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterModifyDNISParametersRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterModifyDNISParametersRequest $request)
     {
@@ -1666,6 +1803,7 @@ trait OCISchemaServiceCallCenter
      * @param GroupCallCenterModifyDNISRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterModifyDNISRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterModifyDNISRequest $request)
     {
@@ -1676,6 +1814,7 @@ trait OCISchemaServiceCallCenter
      * @param GroupCallCenterModifyInstanceRequest22 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterModifyInstanceRequest22(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterModifyInstanceRequest22 $request)
     {
@@ -1686,6 +1825,7 @@ trait OCISchemaServiceCallCenter
      * @param GroupCallCenterModifyInstanceStatisticsReportingRequest17sp1 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterModifyInstanceStatisticsReportingRequest17sp1(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterModifyInstanceStatisticsReportingRequest17sp1 $request)
     {
@@ -1696,6 +1836,7 @@ trait OCISchemaServiceCallCenter
      * @param GroupCallCenterModifyInstanceWeightedCallDistributionRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterModifyInstanceWeightedCallDistributionRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterModifyInstanceWeightedCallDistributionRequest $request)
     {
@@ -1706,6 +1847,7 @@ trait OCISchemaServiceCallCenter
      * @param GroupCallCenterModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterModifyRequest $request)
     {
@@ -1716,6 +1858,7 @@ trait OCISchemaServiceCallCenter
      * @param GroupCallCenterModifyRoutingPolicyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterModifyRoutingPolicyRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterModifyRoutingPolicyRequest $request)
     {
@@ -1726,6 +1869,7 @@ trait OCISchemaServiceCallCenter
      * @param GroupCallCenterModifySupervisorListRequest16 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterModifySupervisorListRequest16(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterModifySupervisorListRequest16 $request)
     {
@@ -1736,6 +1880,7 @@ trait OCISchemaServiceCallCenter
      * @param GroupCallCenterNightServiceGetRequest20 $request
      * @return GroupCallCenterNightServiceGetResponse20
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterNightServiceGetRequest20(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterNightServiceGetRequest20 $request)
     {
@@ -1746,6 +1891,7 @@ trait OCISchemaServiceCallCenter
      * @param GroupCallCenterNightServiceModifyRequest20 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterNightServiceModifyRequest20(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterNightServiceModifyRequest20 $request)
     {
@@ -1756,6 +1902,7 @@ trait OCISchemaServiceCallCenter
      * @param GroupCallCenterOverflowGetRequest20 $request
      * @return GroupCallCenterOverflowGetResponse20
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterOverflowGetRequest20(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterOverflowGetRequest20 $request)
     {
@@ -1766,6 +1913,7 @@ trait OCISchemaServiceCallCenter
      * @param GroupCallCenterOverflowModifyRequest20 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterOverflowModifyRequest20(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterOverflowModifyRequest20 $request)
     {
@@ -1776,6 +1924,7 @@ trait OCISchemaServiceCallCenter
      * @param GroupCallCenterQueueCallDispositionCodeAddRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterQueueCallDispositionCodeAddRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterQueueCallDispositionCodeAddRequest $request)
     {
@@ -1786,6 +1935,7 @@ trait OCISchemaServiceCallCenter
      * @param GroupCallCenterQueueCallDispositionCodeDeleteRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterQueueCallDispositionCodeDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterQueueCallDispositionCodeDeleteRequest $request)
     {
@@ -1796,6 +1946,7 @@ trait OCISchemaServiceCallCenter
      * @param GroupCallCenterQueueCallDispositionCodeGetListRequest $request
      * @return GroupCallCenterQueueCallDispositionCodeGetListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterQueueCallDispositionCodeGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterQueueCallDispositionCodeGetListRequest $request)
     {
@@ -1806,6 +1957,7 @@ trait OCISchemaServiceCallCenter
      * @param GroupCallCenterQueueCallDispositionCodeGetRequest $request
      * @return GroupCallCenterQueueCallDispositionCodeGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterQueueCallDispositionCodeGetRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterQueueCallDispositionCodeGetRequest $request)
     {
@@ -1816,6 +1968,7 @@ trait OCISchemaServiceCallCenter
      * @param GroupCallCenterQueueCallDispositionCodeModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterQueueCallDispositionCodeModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterQueueCallDispositionCodeModifyRequest $request)
     {
@@ -1826,6 +1979,7 @@ trait OCISchemaServiceCallCenter
      * @param GroupCallCenterQueueCallDispositionCodeSettingsGetRequest $request
      * @return GroupCallCenterQueueCallDispositionCodeSettingsGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterQueueCallDispositionCodeSettingsGetRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterQueueCallDispositionCodeSettingsGetRequest $request)
     {
@@ -1836,6 +1990,7 @@ trait OCISchemaServiceCallCenter
      * @param GroupCallCenterQueueCallDispositionCodeSettingsModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterQueueCallDispositionCodeSettingsModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterQueueCallDispositionCodeSettingsModifyRequest $request)
     {
@@ -1846,6 +2001,7 @@ trait OCISchemaServiceCallCenter
      * @param GroupCallCenterQueueStatusNotificationGetRequest $request
      * @return GroupCallCenterQueueStatusNotificationGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterQueueStatusNotificationGetRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterQueueStatusNotificationGetRequest $request)
     {
@@ -1856,6 +2012,7 @@ trait OCISchemaServiceCallCenter
      * @param GroupCallCenterQueueStatusNotificationModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterQueueStatusNotificationModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterQueueStatusNotificationModifyRequest $request)
     {
@@ -1866,6 +2023,7 @@ trait OCISchemaServiceCallCenter
      * @param GroupCallCenterQueueThresholdsGetRequest $request
      * @return 
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterQueueThresholdsGetRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterQueueThresholdsGetRequest $request)
     {
@@ -1876,6 +2034,7 @@ trait OCISchemaServiceCallCenter
      * @param GroupCallCenterQueueThresholdsModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterQueueThresholdsModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterQueueThresholdsModifyRequest $request)
     {
@@ -1886,6 +2045,7 @@ trait OCISchemaServiceCallCenter
      * @param GroupCallCenterStrandedCallGetRequest20 $request
      * @return GroupCallCenterStrandedCallGetResponse20
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterStrandedCallGetRequest20(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterStrandedCallGetRequest20 $request)
     {
@@ -1896,6 +2056,7 @@ trait OCISchemaServiceCallCenter
      * @param GroupCallCenterStrandedCallModifyRequest20 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterStrandedCallModifyRequest20(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterStrandedCallModifyRequest20 $request)
     {
@@ -1906,6 +2067,7 @@ trait OCISchemaServiceCallCenter
      * @param GroupCallCenterStrandedCallUnavailableGetRequest20 $request
      * @return GroupCallCenterStrandedCallUnavailableGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterStrandedCallUnavailableGetRequest20(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterStrandedCallUnavailableGetRequest20 $request)
     {
@@ -1916,6 +2078,7 @@ trait OCISchemaServiceCallCenter
      * @param GroupCallCenterStrandedCallUnavailableModifyRequest20 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallCenterStrandedCallUnavailableModifyRequest20(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterStrandedCallUnavailableModifyRequest20 $request)
     {
@@ -1926,6 +2089,7 @@ trait OCISchemaServiceCallCenter
      * @param SystemCallCenterEnhancedReportingBrandingGetRequest $request
      * @return SystemCallCenterEnhancedReportingBrandingGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemCallCenterEnhancedReportingBrandingGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCallCenterEnhancedReportingBrandingGetRequest $request)
     {
@@ -1936,6 +2100,7 @@ trait OCISchemaServiceCallCenter
      * @param SystemCallCenterEnhancedReportingBrandingModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemCallCenterEnhancedReportingBrandingModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCallCenterEnhancedReportingBrandingModifyRequest $request)
     {
@@ -1946,6 +2111,7 @@ trait OCISchemaServiceCallCenter
      * @param SystemCallCenterEnhancedReportingDataTemplateGetListRequest $request
      * @return SystemCallCenterEnhancedReportingDataTemplateGetListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemCallCenterEnhancedReportingDataTemplateGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCallCenterEnhancedReportingDataTemplateGetListRequest $request)
     {
@@ -1956,6 +2122,7 @@ trait OCISchemaServiceCallCenter
      * @param SystemCallCenterEnhancedReportingGetRequest $request
      * @return SystemCallCenterEnhancedReportingGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemCallCenterEnhancedReportingGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCallCenterEnhancedReportingGetRequest $request)
     {
@@ -1966,6 +2133,7 @@ trait OCISchemaServiceCallCenter
      * @param SystemCallCenterEnhancedReportingModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemCallCenterEnhancedReportingModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCallCenterEnhancedReportingModifyRequest $request)
     {
@@ -1976,6 +2144,7 @@ trait OCISchemaServiceCallCenter
      * @param SystemCallCenterEnhancedReportingReportTemplateAddRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemCallCenterEnhancedReportingReportTemplateAddRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCallCenterEnhancedReportingReportTemplateAddRequest $request)
     {
@@ -1986,6 +2155,7 @@ trait OCISchemaServiceCallCenter
      * @param SystemCallCenterEnhancedReportingReportTemplateDeleteRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemCallCenterEnhancedReportingReportTemplateDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCallCenterEnhancedReportingReportTemplateDeleteRequest $request)
     {
@@ -1996,6 +2166,7 @@ trait OCISchemaServiceCallCenter
      * @param SystemCallCenterEnhancedReportingReportTemplateGetListRequest $request
      * @return SystemCallCenterEnhancedReportingReportTemplateGetListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemCallCenterEnhancedReportingReportTemplateGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCallCenterEnhancedReportingReportTemplateGetListRequest $request)
     {
@@ -2006,6 +2177,7 @@ trait OCISchemaServiceCallCenter
      * @param SystemCallCenterEnhancedReportingReportTemplateGetRequest $request
      * @return SystemCallCenterEnhancedReportingReportTemplateGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemCallCenterEnhancedReportingReportTemplateGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCallCenterEnhancedReportingReportTemplateGetRequest $request)
     {
@@ -2016,6 +2188,7 @@ trait OCISchemaServiceCallCenter
      * @param SystemCallCenterEnhancedReportingReportTemplateModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemCallCenterEnhancedReportingReportTemplateModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCallCenterEnhancedReportingReportTemplateModifyRequest $request)
     {
@@ -2026,6 +2199,7 @@ trait OCISchemaServiceCallCenter
      * @param SystemCallCenterEnhancedReportingScheduledReportGetActiveListRequest $request
      * @return SystemCallCenterEnhancedReportingScheduledReportGetActiveListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemCallCenterEnhancedReportingScheduledReportGetActiveListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCallCenterEnhancedReportingScheduledReportGetActiveListRequest $request)
     {
@@ -2036,6 +2210,7 @@ trait OCISchemaServiceCallCenter
      * @param SystemCallCenterEnhancedReportingScheduledReportGetCompletedListRequest $request
      * @return SystemCallCenterEnhancedReportingScheduledReportGetCompletedListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemCallCenterEnhancedReportingScheduledReportGetCompletedListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCallCenterEnhancedReportingScheduledReportGetCompletedListRequest $request)
     {
@@ -2046,6 +2221,7 @@ trait OCISchemaServiceCallCenter
      * @param SystemCallCenterEnhancedReportingScheduledReportGetListRequest $request
      * @return SystemCallCenterEnhancedReportingScheduledReportGetListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemCallCenterEnhancedReportingScheduledReportGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCallCenterEnhancedReportingScheduledReportGetListRequest $request)
     {
@@ -2056,6 +2232,7 @@ trait OCISchemaServiceCallCenter
      * @param SystemCallCenterEnhancedReportingScheduledReportGetReportTemplateUsageListRequest $request
      * @return SystemCallCenterEnhancedReportingScheduledReportGetReportTemplateUsageListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemCallCenterEnhancedReportingScheduledReportGetReportTemplateUsageListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCallCenterEnhancedReportingScheduledReportGetReportTemplateUsageListRequest $request)
     {
@@ -2066,6 +2243,7 @@ trait OCISchemaServiceCallCenter
      * @param SystemCallCenterEnhancedReportingScheduledTaskParametersGetRequest $request
      * @return SystemCallCenterEnhancedReportingScheduledTaskParametersGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemCallCenterEnhancedReportingScheduledTaskParametersGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCallCenterEnhancedReportingScheduledTaskParametersGetRequest $request)
     {
@@ -2076,6 +2254,7 @@ trait OCISchemaServiceCallCenter
      * @param SystemCallCenterEnhancedReportingScheduledTaskParametersModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemCallCenterEnhancedReportingScheduledTaskParametersModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCallCenterEnhancedReportingScheduledTaskParametersModifyRequest $request)
     {
@@ -2086,6 +2265,7 @@ trait OCISchemaServiceCallCenter
      * @param SystemCallCenterGetRequest21 $request
      * @return SystemCallCenterGetResponse21
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemCallCenterGetRequest21(\CWM\BroadWorksConnector\Ocip\Models\SystemCallCenterGetRequest21 $request)
     {
@@ -2096,6 +2276,7 @@ trait OCISchemaServiceCallCenter
      * @param SystemCallCenterModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemCallCenterModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCallCenterModifyRequest $request)
     {
@@ -2106,6 +2287,7 @@ trait OCISchemaServiceCallCenter
      * @param UserCallCenterAddSupervisedAgentListRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userCallCenterAddSupervisedAgentListRequest(\CWM\BroadWorksConnector\Ocip\Models\UserCallCenterAddSupervisedAgentListRequest $request)
     {
@@ -2116,6 +2298,7 @@ trait OCISchemaServiceCallCenter
      * @param UserCallCenterAgentDetailsGetRequest $request
      * @return UserCallCenterAgentDetailsGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userCallCenterAgentDetailsGetRequest(\CWM\BroadWorksConnector\Ocip\Models\UserCallCenterAgentDetailsGetRequest $request)
     {
@@ -2126,6 +2309,7 @@ trait OCISchemaServiceCallCenter
      * @param UserCallCenterAgentSignOutRequest $request
      * @return UserCallCenterAgentSignOutResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userCallCenterAgentSignOutRequest(\CWM\BroadWorksConnector\Ocip\Models\UserCallCenterAgentSignOutRequest $request)
     {
@@ -2136,6 +2320,7 @@ trait OCISchemaServiceCallCenter
      * @param UserCallCenterCallDispositionCodeGetAvailableListRequest $request
      * @return UserCallCenterCallDispositionCodeGetAvailableListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userCallCenterCallDispositionCodeGetAvailableListRequest(\CWM\BroadWorksConnector\Ocip\Models\UserCallCenterCallDispositionCodeGetAvailableListRequest $request)
     {
@@ -2146,6 +2331,7 @@ trait OCISchemaServiceCallCenter
      * @param UserCallCenterDeleteSupervisedAgentListRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userCallCenterDeleteSupervisedAgentListRequest(\CWM\BroadWorksConnector\Ocip\Models\UserCallCenterDeleteSupervisedAgentListRequest $request)
     {
@@ -2156,6 +2342,7 @@ trait OCISchemaServiceCallCenter
      * @param UserCallCenterEnhancedReportingReportTemplateParamInfoGetRequest $request
      * @return UserCallCenterEnhancedReportingReportTemplateParamInfoGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userCallCenterEnhancedReportingReportTemplateParamInfoGetRequest(\CWM\BroadWorksConnector\Ocip\Models\UserCallCenterEnhancedReportingReportTemplateParamInfoGetRequest $request)
     {
@@ -2166,6 +2353,7 @@ trait OCISchemaServiceCallCenter
      * @param UserCallCenterEnhancedReportingScheduledReportDeleteRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userCallCenterEnhancedReportingScheduledReportDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\UserCallCenterEnhancedReportingScheduledReportDeleteRequest $request)
     {
@@ -2176,6 +2364,7 @@ trait OCISchemaServiceCallCenter
      * @param UserCallCenterEnhancedReportingScheduledReportGetRequest $request
      * @return UserCallCenterEnhancedReportingScheduledReportGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userCallCenterEnhancedReportingScheduledReportGetRequest(\CWM\BroadWorksConnector\Ocip\Models\UserCallCenterEnhancedReportingScheduledReportGetRequest $request)
     {
@@ -2186,6 +2375,7 @@ trait OCISchemaServiceCallCenter
      * @param UserCallCenterEnhancedReportingScheduledReportModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userCallCenterEnhancedReportingScheduledReportModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\UserCallCenterEnhancedReportingScheduledReportModifyRequest $request)
     {
@@ -2196,6 +2386,7 @@ trait OCISchemaServiceCallCenter
      * @param UserCallCenterGetAgentSupervisorListRequest $request
      * @return UserCallCenterGetAgentSupervisorListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userCallCenterGetAgentSupervisorListRequest(\CWM\BroadWorksConnector\Ocip\Models\UserCallCenterGetAgentSupervisorListRequest $request)
     {
@@ -2206,6 +2397,7 @@ trait OCISchemaServiceCallCenter
      * @param UserCallCenterGetAvailableCallCenterListRequest $request
      * @return UserCallCenterGetAvailableCallCenterListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userCallCenterGetAvailableCallCenterListRequest(\CWM\BroadWorksConnector\Ocip\Models\UserCallCenterGetAvailableCallCenterListRequest $request)
     {
@@ -2216,6 +2408,7 @@ trait OCISchemaServiceCallCenter
      * @param UserCallCenterGetAvailableDNISListRequest $request
      * @return UserCallCenterGetAvailableDNISListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userCallCenterGetAvailableDNISListRequest(\CWM\BroadWorksConnector\Ocip\Models\UserCallCenterGetAvailableDNISListRequest $request)
     {
@@ -2226,6 +2419,7 @@ trait OCISchemaServiceCallCenter
      * @param UserCallCenterGetRequest19 $request
      * @return UserCallCenterGetResponse19
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userCallCenterGetRequest19(\CWM\BroadWorksConnector\Ocip\Models\UserCallCenterGetRequest19 $request)
     {
@@ -2236,6 +2430,7 @@ trait OCISchemaServiceCallCenter
      * @param UserCallCenterGetSupervisedAgentListRequest $request
      * @return UserCallCenterGetSupervisedAgentListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userCallCenterGetSupervisedAgentListRequest(\CWM\BroadWorksConnector\Ocip\Models\UserCallCenterGetSupervisedAgentListRequest $request)
     {
@@ -2246,6 +2441,7 @@ trait OCISchemaServiceCallCenter
      * @param UserCallCenterGetSupervisorCallCenterListRequest $request
      * @return UserCallCenterGetSupervisorCallCenterListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userCallCenterGetSupervisorCallCenterListRequest(\CWM\BroadWorksConnector\Ocip\Models\UserCallCenterGetSupervisorCallCenterListRequest $request)
     {
@@ -2256,6 +2452,7 @@ trait OCISchemaServiceCallCenter
      * @param UserCallCenterModifyCallCenterListRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userCallCenterModifyCallCenterListRequest(\CWM\BroadWorksConnector\Ocip\Models\UserCallCenterModifyCallCenterListRequest $request)
     {
@@ -2266,6 +2463,7 @@ trait OCISchemaServiceCallCenter
      * @param UserCallCenterModifyRequest19 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userCallCenterModifyRequest19(\CWM\BroadWorksConnector\Ocip\Models\UserCallCenterModifyRequest19 $request)
     {
@@ -2276,6 +2474,7 @@ trait OCISchemaServiceCallCenter
      * @param UserCallCenterModifySupervisedAgentListRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userCallCenterModifySupervisedAgentListRequest(\CWM\BroadWorksConnector\Ocip\Models\UserCallCenterModifySupervisedAgentListRequest $request)
     {

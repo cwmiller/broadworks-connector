@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupDeviceTypeFileGetListRequest14sp8
  * @see GroupDeviceTypeFileGetListResponse21
- * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:7772","type":"sequence"}]
+ * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:7772","type":"sequence"}]
  */
 class GroupDeviceTypeFileGetListResponse14sp8 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -21,7 +21,7 @@ class GroupDeviceTypeFileGetListResponse14sp8 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName groupDeviceTypeFilesTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 1a79c7896cb04feac6eff47a5321756e:7772
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:7772
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $groupDeviceTypeFilesTable = null;

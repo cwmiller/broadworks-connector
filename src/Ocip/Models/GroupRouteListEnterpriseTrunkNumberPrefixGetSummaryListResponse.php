@@ -15,7 +15,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The "Is Active" column indicates if the number prefix has been activated.
  *
  * @see GroupRouteListEnterpriseTrunkNumberRangeGetSummaryListRequest
- * @Groups [{"id":"1b22a3a92e05eea2e752345aa4faa131:287","type":"sequence"}]
+ * @Groups [{"id":"6c3e6c5ded8862d72e92e5d067442775:287","type":"sequence"}]
  */
 class GroupRouteListEnterpriseTrunkNumberPrefixGetSummaryListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -23,7 +23,7 @@ class GroupRouteListEnterpriseTrunkNumberPrefixGetSummaryListResponse extends \C
     /**
      * @ElementName numberPrefixSummaryTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 1b22a3a92e05eea2e752345aa4faa131:287
+     * @Group 6c3e6c5ded8862d72e92e5d067442775:287
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $numberPrefixSummaryTable = null;

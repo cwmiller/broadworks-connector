@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to GroupOutgoingCallingPlanAuthorizationCodeGetListRequest.
  *
  * @see GroupOutgoingCallingPlanAuthorizationCodeGetListRequest
- * @Groups [{"id":"8366f5f5d1fbfb9742236aba282c1dab:124","type":"sequence"}]
+ * @Groups [{"id":"80676ea6f2582b1b88573623a6affc0e:124","type":"sequence"}]
  */
 class GroupOutgoingCallingPlanAuthorizationCodeGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class GroupOutgoingCallingPlanAuthorizationCodeGetListResponse extends \CWM\Broa
     /**
      * @ElementName groupCodeList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanGroupAuthorizationCodes
-     * @Group 8366f5f5d1fbfb9742236aba282c1dab:124
+     * @Group 80676ea6f2582b1b88573623a6affc0e:124
      * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanGroupAuthorizationCodes|null
      */
     private $groupCodeList = null;
@@ -26,7 +26,7 @@ class GroupOutgoingCallingPlanAuthorizationCodeGetListResponse extends \CWM\Broa
      * @Type \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanDepartmentAuthorizationCodes
      * @Array
      * @Optional
-     * @Group 8366f5f5d1fbfb9742236aba282c1dab:124
+     * @Group 80676ea6f2582b1b88573623a6affc0e:124
      * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanDepartmentAuthorizationCodes[]
      */
     private $departmentCodeList = array(

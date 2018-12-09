@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupAccountAuthorizationCodesGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"ab77d49abc146ee44a9626534896ad51:157","type":"sequence"}]
+ * @Groups [{"id":"cf39a77cc27bd00da9f2520a22424344:157","type":"sequence"}]
  */
 class GroupAccountAuthorizationCodesGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupAccountAuthorizationCodesGetRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group ab77d49abc146ee44a9626534896ad51:157
+     * @Group cf39a77cc27bd00da9f2520a22424344:157
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,7 +26,7 @@ class GroupAccountAuthorizationCodesGetRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName groupId
      * @Type string
-     * @Group ab77d49abc146ee44a9626534896ad51:157
+     * @Group cf39a77cc27bd00da9f2520a22424344:157
      * @var string|null
      */
     private $groupId = null;

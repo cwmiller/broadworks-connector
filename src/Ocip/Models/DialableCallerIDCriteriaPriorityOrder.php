@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Dialable Caller ID routing order
  *
- * @Groups [{"id":"18b369af88e42ffdb4166615c670ce2c:1779","type":"sequence"}]
+ * @Groups [{"id":"8e629edbac315ae7889caca732382c44:1779","type":"sequence"}]
  */
 class DialableCallerIDCriteriaPriorityOrder
 {
@@ -15,7 +15,7 @@ class DialableCallerIDCriteriaPriorityOrder
     /**
      * @ElementName criteriaName
      * @Type string
-     * @Group 18b369af88e42ffdb4166615c670ce2c:1779
+     * @Group 8e629edbac315ae7889caca732382c44:1779
      * @var string|null
      */
     private $criteriaName = null;
@@ -23,7 +23,7 @@ class DialableCallerIDCriteriaPriorityOrder
     /**
      * @ElementName priority
      * @Type float
-     * @Group 18b369af88e42ffdb4166615c670ce2c:1779
+     * @Group 8e629edbac315ae7889caca732382c44:1779
      * @var float|null
      */
     private $priority = null;

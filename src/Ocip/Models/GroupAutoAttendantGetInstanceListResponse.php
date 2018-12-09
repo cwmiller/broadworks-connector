@@ -14,7 +14,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         In XS Mode the value for the "Type" column will always be populated with Basic.
  *
  * @see GroupAutoAttendantGetInstanceListRequest
- * @Groups [{"id":"991f3e2b8774e7414716848f9b5935fc:254","type":"sequence"}]
+ * @Groups [{"id":"481f6171444d5c316baa2066a7396d29:254","type":"sequence"}]
  */
 class GroupAutoAttendantGetInstanceListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -22,7 +22,7 @@ class GroupAutoAttendantGetInstanceListResponse extends \CWM\BroadWorksConnector
     /**
      * @ElementName autoAttendantTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 991f3e2b8774e7414716848f9b5935fc:254
+     * @Group 481f6171444d5c316baa2066a7396d29:254
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $autoAttendantTable = null;

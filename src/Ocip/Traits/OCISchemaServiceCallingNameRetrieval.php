@@ -8,7 +8,8 @@ use CWM\BroadWorksConnector\Ocip\Models\SystemCallingNameRetrievalModifyRequest2
 use CWM\BroadWorksConnector\Ocip\Models\UserCallingNameRetrievalGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserCallingNameRetrievalGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserCallingNameRetrievalModifyRequest;
-use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceCallingNameRetrieval
@@ -18,6 +19,7 @@ trait OCISchemaServiceCallingNameRetrieval
      * @param SystemCallingNameRetrievalGetRequest20 $request
      * @return SystemCallingNameRetrievalGetResponse20
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemCallingNameRetrievalGetRequest20(\CWM\BroadWorksConnector\Ocip\Models\SystemCallingNameRetrievalGetRequest20 $request)
     {
@@ -28,6 +30,7 @@ trait OCISchemaServiceCallingNameRetrieval
      * @param SystemCallingNameRetrievalModifyRequest20 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemCallingNameRetrievalModifyRequest20(\CWM\BroadWorksConnector\Ocip\Models\SystemCallingNameRetrievalModifyRequest20 $request)
     {
@@ -38,6 +41,7 @@ trait OCISchemaServiceCallingNameRetrieval
      * @param UserCallingNameRetrievalGetRequest $request
      * @return UserCallingNameRetrievalGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userCallingNameRetrievalGetRequest(\CWM\BroadWorksConnector\Ocip\Models\UserCallingNameRetrievalGetRequest $request)
     {
@@ -48,6 +52,7 @@ trait OCISchemaServiceCallingNameRetrieval
      * @param UserCallingNameRetrievalModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userCallingNameRetrievalModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\UserCallingNameRetrievalModifyRequest $request)
     {

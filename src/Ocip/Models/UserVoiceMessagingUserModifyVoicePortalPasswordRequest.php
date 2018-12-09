@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SuccessResponse
  * @see ErrorResponse
  * @see UserPortalPasscodeModifyRequest
- * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:38105","type":"sequence"}]
+ * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:38105","type":"sequence"}]
  */
 class UserVoiceMessagingUserModifyVoicePortalPasswordRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,7 +21,7 @@ class UserVoiceMessagingUserModifyVoicePortalPasswordRequest extends \CWM\BroadW
     /**
      * @ElementName userId
      * @Type string
-     * @Group 1a79c7896cb04feac6eff47a5321756e:38105
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:38105
      * @var string|null
      */
     private $userId = null;
@@ -30,7 +30,7 @@ class UserVoiceMessagingUserModifyVoicePortalPasswordRequest extends \CWM\BroadW
      * @ElementName oldPassword
      * @Type string
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:38105
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:38105
      * @var string|null
      */
     private $oldPassword = null;
@@ -38,7 +38,7 @@ class UserVoiceMessagingUserModifyVoicePortalPasswordRequest extends \CWM\BroadW
     /**
      * @ElementName newPassword
      * @Type string
-     * @Group 1a79c7896cb04feac6eff47a5321756e:38105
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:38105
      * @var string|null
      */
     private $newPassword = null;

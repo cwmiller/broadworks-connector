@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "Hiragana First Name".  The users are in the table in the order they will try to be parked on.
  *
  * @see UserCallParkGetRequest
- * @Groups [{"id":"06fc006748da1632379fc9603b619dca:344","type":"sequence"}]
+ * @Groups [{"id":"bcea7a1f459e3e037da541b681a13f82:344","type":"sequence"}]
  */
 class UserCallParkGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -20,7 +20,7 @@ class UserCallParkGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @ElementName name
      * @Type string
      * @Optional
-     * @Group 06fc006748da1632379fc9603b619dca:344
+     * @Group bcea7a1f459e3e037da541b681a13f82:344
      * @var string|null
      */
     private $name = null;
@@ -28,7 +28,7 @@ class UserCallParkGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
     /**
      * @ElementName userTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 06fc006748da1632379fc9603b619dca:344
+     * @Group bcea7a1f459e3e037da541b681a13f82:344
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $userTable = null;

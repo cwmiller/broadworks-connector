@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupAdminGetRequest
  * @see GroupAdminGetResponse21sp1
- * @Groups [{"id":"499b56264fbe226bfef3c338c8d4750d:379","type":"sequence"}]
+ * @Groups [{"id":"bb12a3589ab4748963f28f7ac9310f70:379","type":"sequence"}]
  */
 class GroupAdminGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,7 +19,7 @@ class GroupAdminGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDa
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 499b56264fbe226bfef3c338c8d4750d:379
+     * @Group bb12a3589ab4748963f28f7ac9310f70:379
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,7 +27,7 @@ class GroupAdminGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDa
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 499b56264fbe226bfef3c338c8d4750d:379
+     * @Group bb12a3589ab4748963f28f7ac9310f70:379
      * @var string|null
      */
     private $groupId = null;
@@ -36,7 +36,7 @@ class GroupAdminGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDa
      * @ElementName firstName
      * @Type string
      * @Optional
-     * @Group 499b56264fbe226bfef3c338c8d4750d:379
+     * @Group bb12a3589ab4748963f28f7ac9310f70:379
      * @var string|null
      */
     private $firstName = null;
@@ -45,7 +45,7 @@ class GroupAdminGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDa
      * @ElementName lastName
      * @Type string
      * @Optional
-     * @Group 499b56264fbe226bfef3c338c8d4750d:379
+     * @Group bb12a3589ab4748963f28f7ac9310f70:379
      * @var string|null
      */
     private $lastName = null;
@@ -53,7 +53,7 @@ class GroupAdminGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDa
     /**
      * @ElementName language
      * @Type string
-     * @Group 499b56264fbe226bfef3c338c8d4750d:379
+     * @Group bb12a3589ab4748963f28f7ac9310f70:379
      * @var string|null
      */
     private $language = null;

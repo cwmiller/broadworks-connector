@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserVoiceMessagingUserGetDistributionListResponse
  * @see ErrorResponse
- * @Groups [{"id":"1624846b7d87d3ab55e907c443fca9d6:1711","type":"sequence"}]
+ * @Groups [{"id":"80c5986946137c505e41f6008c7f75a8:1711","type":"sequence"}]
  */
 class UserVoiceMessagingUserGetDistributionListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserVoiceMessagingUserGetDistributionListRequest extends \CWM\BroadWorksCo
     /**
      * @ElementName userId
      * @Type string
-     * @Group 1624846b7d87d3ab55e907c443fca9d6:1711
+     * @Group 80c5986946137c505e41f6008c7f75a8:1711
      * @var string|null
      */
     private $userId = null;
@@ -26,7 +26,7 @@ class UserVoiceMessagingUserGetDistributionListRequest extends \CWM\BroadWorksCo
     /**
      * @ElementName listId
      * @Type int
-     * @Group 1624846b7d87d3ab55e907c443fca9d6:1711
+     * @Group 80c5986946137c505e41f6008c7f75a8:1711
      * @var int|null
      */
     private $listId = null;

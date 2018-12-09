@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupFlexibleSeatingHostGetInstanceResponse
  * @see ErrorResponse
- * @Groups [{"id":"26a62df68b13c020e844e2a188f1e6e1:183","type":"sequence"}]
+ * @Groups [{"id":"93e99b1f9cf4a71b31301a1fe7f0e190:183","type":"sequence"}]
  */
 class GroupFlexibleSeatingHostGetInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupFlexibleSeatingHostGetInstanceRequest extends \CWM\BroadWorksConnecto
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group 26a62df68b13c020e844e2a188f1e6e1:183
+     * @Group 93e99b1f9cf4a71b31301a1fe7f0e190:183
      * @var string|null
      */
     private $serviceUserId = null;

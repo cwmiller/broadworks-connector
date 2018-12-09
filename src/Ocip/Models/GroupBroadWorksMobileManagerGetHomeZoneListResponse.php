@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "Mobile Network Code", "Local Area Code" and "Cell Identity".
  *
  * @see GroupBroadWorksMobileManagerGetHomeZoneListRequest
- * @Groups [{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:1686","type":"sequence"}]
+ * @Groups [{"id":"15129cd25fa2d5581f4edfd652c24f93:1686","type":"sequence"}]
  */
 class GroupBroadWorksMobileManagerGetHomeZoneListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,7 +19,7 @@ class GroupBroadWorksMobileManagerGetHomeZoneListResponse extends \CWM\BroadWork
     /**
      * @ElementName homeZonesTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:1686
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:1686
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $homeZonesTable = null;

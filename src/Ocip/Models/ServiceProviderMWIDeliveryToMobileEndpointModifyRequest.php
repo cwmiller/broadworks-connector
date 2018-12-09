@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"c2306c3f9cea4bfa8682bbf7a2c099a0:335","type":"sequence"}]
+ * @Groups [{"id":"26ea37e78b67054650c3445a62638977:335","type":"sequence"}]
  */
 class ServiceProviderMWIDeliveryToMobileEndpointModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class ServiceProviderMWIDeliveryToMobileEndpointModifyRequest extends \CWM\Broad
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group c2306c3f9cea4bfa8682bbf7a2c099a0:335
+     * @Group 26ea37e78b67054650c3445a62638977:335
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -28,7 +28,7 @@ class ServiceProviderMWIDeliveryToMobileEndpointModifyRequest extends \CWM\Broad
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointTemplateActivation
      * @Array
      * @Optional
-     * @Group c2306c3f9cea4bfa8682bbf7a2c099a0:335
+     * @Group 26ea37e78b67054650c3445a62638977:335
      * @var \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointTemplateActivation[]
      */
     private $templateActivation = array(

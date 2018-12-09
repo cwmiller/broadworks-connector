@@ -14,7 +14,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SuccessResponse
  * @see ErrorResponse
  * @see GroupCallCenterModifyInstanceRequest16
- * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:3453","type":"sequence"}]
+ * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:3453","type":"sequence"}]
  */
 class GroupCallCenterEnhancedModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -22,7 +22,7 @@ class GroupCallCenterEnhancedModifyRequest extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group 1a79c7896cb04feac6eff47a5321756e:3453
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:3453
      * @var string|null
      */
     private $serviceUserId = null;
@@ -31,7 +31,7 @@ class GroupCallCenterEnhancedModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @ElementName overrideAgentWrapUpTime
      * @Type bool
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:3453
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:3453
      * @var bool|null
      */
     private $overrideAgentWrapUpTime = null;
@@ -41,7 +41,7 @@ class GroupCallCenterEnhancedModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @Type int
      * @Nillable
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:3453
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:3453
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $wrapUpSeconds = null;

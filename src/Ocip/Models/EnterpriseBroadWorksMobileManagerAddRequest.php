@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"b561eca19800e0898f471e5e91eb3baa:130","type":"sequence"}]
+ * @Groups [{"id":"889c8c305076ef39cc50c70d0c2dc820:130","type":"sequence"}]
  */
 class EnterpriseBroadWorksMobileManagerAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class EnterpriseBroadWorksMobileManagerAddRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group b561eca19800e0898f471e5e91eb3baa:130
+     * @Group 889c8c305076ef39cc50c70d0c2dc820:130
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -28,7 +28,7 @@ class EnterpriseBroadWorksMobileManagerAddRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName informationFile
      * @Type string
-     * @Group b561eca19800e0898f471e5e91eb3baa:130
+     * @Group 889c8c305076ef39cc50c70d0c2dc820:130
      * @var string|null
      */
     private $informationFile = null;
@@ -36,7 +36,7 @@ class EnterpriseBroadWorksMobileManagerAddRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName certificateFile
      * @Type string
-     * @Group b561eca19800e0898f471e5e91eb3baa:130
+     * @Group 889c8c305076ef39cc50c70d0c2dc820:130
      * @var string|null
      */
     private $certificateFile = null;
@@ -44,7 +44,7 @@ class EnterpriseBroadWorksMobileManagerAddRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group b561eca19800e0898f471e5e91eb3baa:130
+     * @Group 889c8c305076ef39cc50c70d0c2dc820:130
      * @var bool|null
      */
     private $isActive = null;
@@ -52,7 +52,7 @@ class EnterpriseBroadWorksMobileManagerAddRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName localToCarrier
      * @Type bool
-     * @Group b561eca19800e0898f471e5e91eb3baa:130
+     * @Group 889c8c305076ef39cc50c70d0c2dc820:130
      * @var bool|null
      */
     private $localToCarrier = null;
@@ -60,7 +60,7 @@ class EnterpriseBroadWorksMobileManagerAddRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName maxTxPerSecondEnabled
      * @Type bool
-     * @Group b561eca19800e0898f471e5e91eb3baa:130
+     * @Group 889c8c305076ef39cc50c70d0c2dc820:130
      * @var bool|null
      */
     private $maxTxPerSecondEnabled = null;
@@ -69,7 +69,7 @@ class EnterpriseBroadWorksMobileManagerAddRequest extends \CWM\BroadWorksConnect
      * @ElementName maxTxPerSecond
      * @Type int
      * @Optional
-     * @Group b561eca19800e0898f471e5e91eb3baa:130
+     * @Group 889c8c305076ef39cc50c70d0c2dc820:130
      * @var int|null
      */
     private $maxTxPerSecond = null;
@@ -77,7 +77,7 @@ class EnterpriseBroadWorksMobileManagerAddRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName tldnEnabled
      * @Type bool
-     * @Group b561eca19800e0898f471e5e91eb3baa:130
+     * @Group 889c8c305076ef39cc50c70d0c2dc820:130
      * @var bool|null
      */
     private $tldnEnabled = null;
@@ -85,7 +85,7 @@ class EnterpriseBroadWorksMobileManagerAddRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName genericNumberEnabled
      * @Type bool
-     * @Group b561eca19800e0898f471e5e91eb3baa:130
+     * @Group 889c8c305076ef39cc50c70d0c2dc820:130
      * @var bool|null
      */
     private $genericNumberEnabled = null;
@@ -93,7 +93,7 @@ class EnterpriseBroadWorksMobileManagerAddRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName mobileStateCheckEnabled
      * @Type bool
-     * @Group b561eca19800e0898f471e5e91eb3baa:130
+     * @Group 889c8c305076ef39cc50c70d0c2dc820:130
      * @var bool|null
      */
     private $mobileStateCheckEnabled = null;
@@ -101,7 +101,7 @@ class EnterpriseBroadWorksMobileManagerAddRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName locationBasedServicesEnabled
      * @Type bool
-     * @Group b561eca19800e0898f471e5e91eb3baa:130
+     * @Group 889c8c305076ef39cc50c70d0c2dc820:130
      * @var bool|null
      */
     private $locationBasedServicesEnabled = null;

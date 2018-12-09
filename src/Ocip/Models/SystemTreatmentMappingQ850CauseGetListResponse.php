@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The table columns are: "Q850 Cause Value", "Treatment Id".
  *
  * @see SystemTreatmentMappingQ850CauseGetListRequest
- * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:16844","type":"sequence"}]
+ * @Groups [{"id":"b5f5416d9e71f8e4246cda16c4723744:16844","type":"sequence"}]
  */
 class SystemTreatmentMappingQ850CauseGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class SystemTreatmentMappingQ850CauseGetListResponse extends \CWM\BroadWorksConn
     /**
      * @ElementName treatmentMappingTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:16844
+     * @Group b5f5416d9e71f8e4246cda16c4723744:16844
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $treatmentMappingTable = null;

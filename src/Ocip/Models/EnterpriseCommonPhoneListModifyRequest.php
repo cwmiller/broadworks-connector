@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"b561eca19800e0898f471e5e91eb3baa:491","type":"sequence"}]
+ * @Groups [{"id":"889c8c305076ef39cc50c70d0c2dc820:491","type":"sequence"}]
  */
 class EnterpriseCommonPhoneListModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class EnterpriseCommonPhoneListModifyRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group b561eca19800e0898f471e5e91eb3baa:491
+     * @Group 889c8c305076ef39cc50c70d0c2dc820:491
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,7 +26,7 @@ class EnterpriseCommonPhoneListModifyRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName entryName
      * @Type string
-     * @Group b561eca19800e0898f471e5e91eb3baa:491
+     * @Group 889c8c305076ef39cc50c70d0c2dc820:491
      * @var string|null
      */
     private $entryName = null;
@@ -35,7 +35,7 @@ class EnterpriseCommonPhoneListModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName newEntryName
      * @Type string
      * @Optional
-     * @Group b561eca19800e0898f471e5e91eb3baa:491
+     * @Group 889c8c305076ef39cc50c70d0c2dc820:491
      * @var string|null
      */
     private $newEntryName = null;
@@ -44,7 +44,7 @@ class EnterpriseCommonPhoneListModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName phoneNumber
      * @Type string
      * @Optional
-     * @Group b561eca19800e0898f471e5e91eb3baa:491
+     * @Group 889c8c305076ef39cc50c70d0c2dc820:491
      * @var string|null
      */
     private $phoneNumber = null;

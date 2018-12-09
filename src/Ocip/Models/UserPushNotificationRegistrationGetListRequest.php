@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserPushNotificationRegistrationGetListResponse
  * @see ErrorResponse
- * @Groups [{"id":"489b2153267470be8e945bf6b778e0d0:2844","type":"sequence","children":[{"id":"489b2153267470be8e945bf6b778e0d0:2845","type":"choice"}]}]
+ * @Groups [{"id":"ee3830ce42f01a3ef2a105d473fc3b17:2844","type":"sequence","children":[{"id":"ee3830ce42f01a3ef2a105d473fc3b17:2845","type":"choice"}]}]
  */
 class UserPushNotificationRegistrationGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class UserPushNotificationRegistrationGetListRequest extends \CWM\BroadWorksConn
     /**
      * @ElementName registrationId
      * @Type string
-     * @Group 489b2153267470be8e945bf6b778e0d0:2845
+     * @Group ee3830ce42f01a3ef2a105d473fc3b17:2845
      * @var string|null
      */
     private $registrationId = null;
@@ -27,7 +27,7 @@ class UserPushNotificationRegistrationGetListRequest extends \CWM\BroadWorksConn
     /**
      * @ElementName userId
      * @Type string
-     * @Group 489b2153267470be8e945bf6b778e0d0:2845
+     * @Group ee3830ce42f01a3ef2a105d473fc3b17:2845
      * @var string|null
      */
     private $userId = null;

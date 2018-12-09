@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:11467","type":"sequence"}]
+ * @Groups [{"id":"b5f5416d9e71f8e4246cda16c4723744:11467","type":"sequence"}]
  */
 class SystemNumberPortabilityQueryStatusDeleteListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class SystemNumberPortabilityQueryStatusDeleteListRequest extends \CWM\BroadWork
      * @ElementName status
      * @Type string
      * @Array
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:11467
+     * @Group b5f5416d9e71f8e4246cda16c4723744:11467
      * @var string[]
      */
     private $status = array(

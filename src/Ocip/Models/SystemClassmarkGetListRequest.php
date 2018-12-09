@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemClassmarkGetListResponse
  * @see ErrorResponse
- * @Groups [{"id":"18819b2191ab2f91f6d92ec2df9e32dd:81","type":"sequence"}]
+ * @Groups [{"id":"cab89edc38c11aa1d780290f00d72d0c:81","type":"sequence"}]
  */
 class SystemClassmarkGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

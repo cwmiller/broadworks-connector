@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * This is the configuration parameters for anonymous Call Rejection service
  *
- * @Groups [{"id":"489b2153267470be8e945bf6b778e0d0:3442","type":"sequence"}]
+ * @Groups [{"id":"ee3830ce42f01a3ef2a105d473fc3b17:3442","type":"sequence"}]
  */
 class ProfileAndServiceAutomaticCallbackInfo
 {
@@ -15,7 +15,7 @@ class ProfileAndServiceAutomaticCallbackInfo
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group 489b2153267470be8e945bf6b778e0d0:3442
+     * @Group ee3830ce42f01a3ef2a105d473fc3b17:3442
      * @var bool|null
      */
     private $isActive = null;

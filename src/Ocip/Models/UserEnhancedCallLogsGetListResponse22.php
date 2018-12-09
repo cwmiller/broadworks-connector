@@ -16,7 +16,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserEnhancedCallLogsGetListRequest22
  * @see UserEnhancedCallLogsGetListRequest22
- * @Groups [{"id":"1b1edb32782550c1a52523b734e3143d:325","type":"sequence","children":[{"id":"1b1edb32782550c1a52523b734e3143d:327","type":"choice","children":[{"id":"1b1edb32782550c1a52523b734e3143d:331","type":"sequence"},{"id":"1b1edb32782550c1a52523b734e3143d:339","type":"sequence"}]}]}]
+ * @Groups [{"id":"04a33199b8359d9cc787bc7a2d16ab12:325","type":"sequence","children":[{"id":"04a33199b8359d9cc787bc7a2d16ab12:327","type":"choice","children":[{"id":"04a33199b8359d9cc787bc7a2d16ab12:331","type":"sequence"},{"id":"04a33199b8359d9cc787bc7a2d16ab12:339","type":"sequence"}]}]}]
  */
 class UserEnhancedCallLogsGetListResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -24,7 +24,7 @@ class UserEnhancedCallLogsGetListResponse22 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName totalNumberOfRows
      * @Type int
-     * @Group 1b1edb32782550c1a52523b734e3143d:325
+     * @Group 04a33199b8359d9cc787bc7a2d16ab12:325
      * @var int|null
      */
     private $totalNumberOfRows = null;
@@ -32,7 +32,7 @@ class UserEnhancedCallLogsGetListResponse22 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName legacyEntry
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UserEnhancedCallLogsGetListResponse22LegacyEntry
-     * @Group 1b1edb32782550c1a52523b734e3143d:327
+     * @Group 04a33199b8359d9cc787bc7a2d16ab12:327
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserEnhancedCallLogsGetListResponse22LegacyEntry|null
      */
     private $legacyEntry = null;
@@ -40,7 +40,7 @@ class UserEnhancedCallLogsGetListResponse22 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName extendedEntry
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UserEnhancedCallLogsGetListResponse22ExtendedEntry
-     * @Group 1b1edb32782550c1a52523b734e3143d:327
+     * @Group 04a33199b8359d9cc787bc7a2d16ab12:327
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserEnhancedCallLogsGetListResponse22ExtendedEntry|null
      */
     private $extendedEntry = null;

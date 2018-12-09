@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"8f3ed38751e86ebcc639b5bc5cdef0ec:1617","type":"sequence"}]
+ * @Groups [{"id":"8eb862aea0ee5d4211db0a0d3fe7c164:1617","type":"sequence"}]
  */
 class ServiceProviderCommunicationBarringDigitPatternCriteriaModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class ServiceProviderCommunicationBarringDigitPatternCriteriaModifyRequest exten
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:1617
+     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:1617
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,7 +26,7 @@ class ServiceProviderCommunicationBarringDigitPatternCriteriaModifyRequest exten
     /**
      * @ElementName name
      * @Type string
-     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:1617
+     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:1617
      * @var string|null
      */
     private $name = null;
@@ -35,7 +35,7 @@ class ServiceProviderCommunicationBarringDigitPatternCriteriaModifyRequest exten
      * @ElementName newName
      * @Type string
      * @Optional
-     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:1617
+     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:1617
      * @var string|null
      */
     private $newName = null;
@@ -45,7 +45,7 @@ class ServiceProviderCommunicationBarringDigitPatternCriteriaModifyRequest exten
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:1617
+     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:1617
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $description = null;
@@ -55,7 +55,7 @@ class ServiceProviderCommunicationBarringDigitPatternCriteriaModifyRequest exten
      * @Type string
      * @Array
      * @Optional
-     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:1617
+     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:1617
      * @var string[]
      */
     private $addMatchDigitPattern = array(
@@ -67,7 +67,7 @@ class ServiceProviderCommunicationBarringDigitPatternCriteriaModifyRequest exten
      * @Type string
      * @Array
      * @Optional
-     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:1617
+     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:1617
      * @var string[]
      */
     private $deleteMatchDigitPattern = array(

@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserClassmarkGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"18819b2191ab2f91f6d92ec2df9e32dd:172","type":"sequence"}]
+ * @Groups [{"id":"cab89edc38c11aa1d780290f00d72d0c:172","type":"sequence"}]
  */
 class UserClassmarkGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserClassmarkGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
     /**
      * @ElementName userId
      * @Type string
-     * @Group 18819b2191ab2f91f6d92ec2df9e32dd:172
+     * @Group cab89edc38c11aa1d780290f00d72d0c:172
      * @var string|null
      */
     private $userId = null;

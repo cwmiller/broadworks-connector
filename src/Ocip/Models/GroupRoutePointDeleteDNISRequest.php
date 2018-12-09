@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"307cc214f72f448b9a7e28f218444528:200","type":"sequence"}]
+ * @Groups [{"id":"08c06bb3683a696d340b1644025134a4:200","type":"sequence"}]
  */
 class GroupRoutePointDeleteDNISRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupRoutePointDeleteDNISRequest extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName dnisKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DNISKey
-     * @Group 307cc214f72f448b9a7e28f218444528:200
+     * @Group 08c06bb3683a696d340b1644025134a4:200
      * @var \CWM\BroadWorksConnector\Ocip\Models\DNISKey|null
      */
     private $dnisKey = null;

@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to UserDirectedCallPickupWithBargeInGetRequest14sp7.
  *
  * @see UserDirectedCallPickupWithBargeInGetRequest14sp7
- * @Groups [{"id":"c88ffc1dbd7ff62dcbf867e366ce2ee8:59","type":"sequence"}]
+ * @Groups [{"id":"4280f1ec40e3fa4e98abe7b25b490d22:59","type":"sequence"}]
  */
 class UserDirectedCallPickupWithBargeInGetResponse14sp7 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class UserDirectedCallPickupWithBargeInGetResponse14sp7 extends \CWM\BroadWorksC
     /**
      * @ElementName enableBargeInWarningTone
      * @Type bool
-     * @Group c88ffc1dbd7ff62dcbf867e366ce2ee8:59
+     * @Group 4280f1ec40e3fa4e98abe7b25b490d22:59
      * @var bool|null
      */
     private $enableBargeInWarningTone = null;
@@ -24,7 +24,7 @@ class UserDirectedCallPickupWithBargeInGetResponse14sp7 extends \CWM\BroadWorksC
     /**
      * @ElementName enableAutomaticTargetSelection
      * @Type bool
-     * @Group c88ffc1dbd7ff62dcbf867e366ce2ee8:59
+     * @Group 4280f1ec40e3fa4e98abe7b25b490d22:59
      * @var bool|null
      */
     private $enableAutomaticTargetSelection = null;

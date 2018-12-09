@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"c2306c3f9cea4bfa8682bbf7a2c099a0:130","type":"sequence"}]
+ * @Groups [{"id":"26ea37e78b67054650c3445a62638977:130","type":"sequence"}]
  */
 class GroupMWIDeliveryToMobileEndpointCustomTemplateModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupMWIDeliveryToMobileEndpointCustomTemplateModifyRequest extends \CWM\B
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group c2306c3f9cea4bfa8682bbf7a2c099a0:130
+     * @Group 26ea37e78b67054650c3445a62638977:130
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,7 +26,7 @@ class GroupMWIDeliveryToMobileEndpointCustomTemplateModifyRequest extends \CWM\B
     /**
      * @ElementName groupId
      * @Type string
-     * @Group c2306c3f9cea4bfa8682bbf7a2c099a0:130
+     * @Group 26ea37e78b67054650c3445a62638977:130
      * @var string|null
      */
     private $groupId = null;
@@ -34,7 +34,7 @@ class GroupMWIDeliveryToMobileEndpointCustomTemplateModifyRequest extends \CWM\B
     /**
      * @ElementName language
      * @Type string
-     * @Group c2306c3f9cea4bfa8682bbf7a2c099a0:130
+     * @Group 26ea37e78b67054650c3445a62638977:130
      * @var string|null
      */
     private $language = null;
@@ -42,7 +42,7 @@ class GroupMWIDeliveryToMobileEndpointCustomTemplateModifyRequest extends \CWM\B
     /**
      * @ElementName type
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointTemplateType
-     * @Group c2306c3f9cea4bfa8682bbf7a2c099a0:130
+     * @Group 26ea37e78b67054650c3445a62638977:130
      * @var \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointTemplateType|null
      */
     private $type = null;
@@ -51,7 +51,7 @@ class GroupMWIDeliveryToMobileEndpointCustomTemplateModifyRequest extends \CWM\B
      * @ElementName isEnabled
      * @Type bool
      * @Optional
-     * @Group c2306c3f9cea4bfa8682bbf7a2c099a0:130
+     * @Group 26ea37e78b67054650c3445a62638977:130
      * @var bool|null
      */
     private $isEnabled = null;
@@ -60,7 +60,7 @@ class GroupMWIDeliveryToMobileEndpointCustomTemplateModifyRequest extends \CWM\B
      * @ElementName templateBody
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointTemplateBody
      * @Optional
-     * @Group c2306c3f9cea4bfa8682bbf7a2c099a0:130
+     * @Group 26ea37e78b67054650c3445a62638977:130
      * @var \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointTemplateBody|null
      */
     private $templateBody = null;

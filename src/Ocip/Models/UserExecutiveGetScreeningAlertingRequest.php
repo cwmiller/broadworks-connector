@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserExecutiveGetScreeningAlertingResponse
  * @see ErrorResponse
- * @Groups [{"id":"f5d58d7e1c3de827d7f1ff867a413cdd:306","type":"sequence"}]
+ * @Groups [{"id":"bcf25f15fde8fb6d519675293110ce09:306","type":"sequence"}]
  */
 class UserExecutiveGetScreeningAlertingRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserExecutiveGetScreeningAlertingRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName userId
      * @Type string
-     * @Group f5d58d7e1c3de827d7f1ff867a413cdd:306
+     * @Group bcf25f15fde8fb6d519675293110ce09:306
      * @var string|null
      */
     private $userId = null;

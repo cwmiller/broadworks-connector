@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemMeetMeConferencingGetRequest
  * @see SystemMeetMeConferencingGetResponse17sp3
- * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:22997","type":"sequence"}]
+ * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:22997","type":"sequence"}]
  */
 class SystemMeetMeConferencingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,7 +19,7 @@ class SystemMeetMeConferencingGetResponse extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName conferenceIdLength
      * @Type int
-     * @Group 1a79c7896cb04feac6eff47a5321756e:22997
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:22997
      * @var int|null
      */
     private $conferenceIdLength = null;
@@ -27,7 +27,7 @@ class SystemMeetMeConferencingGetResponse extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName moderatorPinLength
      * @Type int
-     * @Group 1a79c7896cb04feac6eff47a5321756e:22997
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:22997
      * @var int|null
      */
     private $moderatorPinLength = null;
@@ -35,7 +35,7 @@ class SystemMeetMeConferencingGetResponse extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName enableConferenceEndDateRestriction
      * @Type bool
-     * @Group 1a79c7896cb04feac6eff47a5321756e:22997
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:22997
      * @var bool|null
      */
     private $enableConferenceEndDateRestriction = null;
@@ -43,7 +43,7 @@ class SystemMeetMeConferencingGetResponse extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName conferenceEndDateRestrictionMonths
      * @Type int
-     * @Group 1a79c7896cb04feac6eff47a5321756e:22997
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:22997
      * @var int|null
      */
     private $conferenceEndDateRestrictionMonths = null;
@@ -51,7 +51,7 @@ class SystemMeetMeConferencingGetResponse extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName deleteExpiredConferencesAfterHoldPeriod
      * @Type bool
-     * @Group 1a79c7896cb04feac6eff47a5321756e:22997
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:22997
      * @var bool|null
      */
     private $deleteExpiredConferencesAfterHoldPeriod = null;
@@ -59,7 +59,7 @@ class SystemMeetMeConferencingGetResponse extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName expiredConferenceHoldPeriodDays
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingExpiredConferenceHoldPeriodDays
-     * @Group 1a79c7896cb04feac6eff47a5321756e:22997
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:22997
      * @var \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingExpiredConferenceHoldPeriodDays|null
      */
     private $expiredConferenceHoldPeriodDays = null;
@@ -68,7 +68,7 @@ class SystemMeetMeConferencingGetResponse extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName recordingWebAppURL
      * @Type string
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:22997
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:22997
      * @var string|null
      */
     private $recordingWebAppURL = null;

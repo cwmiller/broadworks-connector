@@ -17,7 +17,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see ErrorResponse
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"991f3e2b8774e7414716848f9b5935fc:214","type":"sequence"}]
+ * @Groups [{"id":"481f6171444d5c316baa2066a7396d29:214","type":"sequence"}]
  */
 class GroupAutoAttendantDeleteInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -25,7 +25,7 @@ class GroupAutoAttendantDeleteInstanceRequest extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group 991f3e2b8774e7414716848f9b5935fc:214
+     * @Group 481f6171444d5c316baa2066a7396d29:214
      * @var string|null
      */
     private $serviceUserId = null;

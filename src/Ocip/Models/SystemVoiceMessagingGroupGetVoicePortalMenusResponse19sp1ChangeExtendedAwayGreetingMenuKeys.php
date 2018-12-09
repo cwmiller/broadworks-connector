@@ -5,7 +5,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1ChangeExtendedAwayGreetingMenuKeys
  *
- * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:30875","type":"sequence"}]
+ * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:30875","type":"sequence"}]
  */
 class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1ChangeExtendedAwayGreetingMenuKeys
 {
@@ -14,7 +14,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1ChangeExtendedAwa
      * @ElementName activateExtendedAwayGreeting
      * @Type string
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:30875
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:30875
      * @var string|null
      */
     private $activateExtendedAwayGreeting = null;
@@ -23,7 +23,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1ChangeExtendedAwa
      * @ElementName deactivateExtendedAwayGreeting
      * @Type string
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:30875
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:30875
      * @var string|null
      */
     private $deactivateExtendedAwayGreeting = null;
@@ -32,7 +32,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1ChangeExtendedAwa
      * @ElementName recordNewGreeting
      * @Type string
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:30875
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:30875
      * @var string|null
      */
     private $recordNewGreeting = null;
@@ -41,7 +41,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1ChangeExtendedAwa
      * @ElementName listenToCurrentGreeting
      * @Type string
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:30875
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:30875
      * @var string|null
      */
     private $listenToCurrentGreeting = null;
@@ -49,7 +49,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1ChangeExtendedAwa
     /**
      * @ElementName returnToPreviousMenu
      * @Type string
-     * @Group 1a79c7896cb04feac6eff47a5321756e:30875
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:30875
      * @var string|null
      */
     private $returnToPreviousMenu = null;
@@ -58,7 +58,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1ChangeExtendedAwa
      * @ElementName repeatMenu
      * @Type string
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:30875
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:30875
      * @var string|null
      */
     private $repeatMenu = null;

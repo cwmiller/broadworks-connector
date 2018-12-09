@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:22238","type":"sequence"}]
+ * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:22238","type":"sequence"}]
  */
 class SystemExternalAuthenticationAddACLEntryRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemExternalAuthenticationAddACLEntryRequest extends \CWM\BroadWorksConn
     /**
      * @ElementName netAddress
      * @Type string
-     * @Group 1a79c7896cb04feac6eff47a5321756e:22238
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:22238
      * @var string|null
      */
     private $netAddress = null;
@@ -27,7 +27,7 @@ class SystemExternalAuthenticationAddACLEntryRequest extends \CWM\BroadWorksConn
      * @ElementName description
      * @Type string
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:22238
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:22238
      * @var string|null
      */
     private $description = null;

@@ -5,7 +5,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * GroupEmergencyZonesModifyHomeZoneListRequestHomeZoneIpAddressRangeList
  *
- * @Groups [{"id":"6692e70a4ddc3776956b67ac9efa1c1a:168","type":"sequence"}]
+ * @Groups [{"id":"d7882d78f308b028a917e52a926dc22c:168","type":"sequence"}]
  */
 class GroupEmergencyZonesModifyHomeZoneListRequestHomeZoneIpAddressRangeList
 {
@@ -13,7 +13,7 @@ class GroupEmergencyZonesModifyHomeZoneListRequestHomeZoneIpAddressRangeList
     /**
      * @ElementName homeZoneIpAddressRange
      * @Type \CWM\BroadWorksConnector\Ocip\Models\IPAddressRange
-     * @Group 6692e70a4ddc3776956b67ac9efa1c1a:168
+     * @Group d7882d78f308b028a917e52a926dc22c:168
      * @var \CWM\BroadWorksConnector\Ocip\Models\IPAddressRange|null
      */
     private $homeZoneIpAddressRange = null;
@@ -21,7 +21,7 @@ class GroupEmergencyZonesModifyHomeZoneListRequestHomeZoneIpAddressRangeList
     /**
      * @ElementName newHomeZoneIpAddressRange
      * @Type \CWM\BroadWorksConnector\Ocip\Models\IPAddressRange
-     * @Group 6692e70a4ddc3776956b67ac9efa1c1a:168
+     * @Group d7882d78f308b028a917e52a926dc22c:168
      * @var \CWM\BroadWorksConnector\Ocip\Models\IPAddressRange|null
      */
     private $newHomeZoneIpAddressRange = null;

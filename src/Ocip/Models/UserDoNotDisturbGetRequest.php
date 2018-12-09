@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserDoNotDisturbGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"fd1c00f3c251856c83a28820f45fb91d:42","type":"sequence"}]
+ * @Groups [{"id":"2ca660fa9785f46a407bf13c3354a5d7:42","type":"sequence"}]
  */
 class UserDoNotDisturbGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class UserDoNotDisturbGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * @ElementName userId
      * @Type string
-     * @Group fd1c00f3c251856c83a28820f45fb91d:42
+     * @Group 2ca660fa9785f46a407bf13c3354a5d7:42
      * @var string|null
      */
     private $userId = null;

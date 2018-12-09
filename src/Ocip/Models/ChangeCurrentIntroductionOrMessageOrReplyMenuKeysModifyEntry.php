@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * The voice portal change current introduction or message or reply menu keys modify entry.
  *
- * @Groups [{"id":"1624846b7d87d3ab55e907c443fca9d6:2323","type":"sequence"}]
+ * @Groups [{"id":"80c5986946137c505e41f6008c7f75a8:2323","type":"sequence"}]
  */
 class ChangeCurrentIntroductionOrMessageOrReplyMenuKeysModifyEntry
 {
@@ -16,7 +16,7 @@ class ChangeCurrentIntroductionOrMessageOrReplyMenuKeysModifyEntry
      * @ElementName endRecording
      * @Type string
      * @Optional
-     * @Group 1624846b7d87d3ab55e907c443fca9d6:2323
+     * @Group 80c5986946137c505e41f6008c7f75a8:2323
      * @var string|null
      */
     private $endRecording = null;

@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:17230","type":"sequence"}]
+ * @Groups [{"id":"b5f5416d9e71f8e4246cda16c4723744:17230","type":"sequence"}]
  */
 class SystemZoneNetAddressAddListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemZoneNetAddressAddListRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName zoneName
      * @Type string
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:17230
+     * @Group b5f5416d9e71f8e4246cda16c4723744:17230
      * @var string|null
      */
     private $zoneName = null;
@@ -28,7 +28,7 @@ class SystemZoneNetAddressAddListRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @Type string
      * @Array
      * @Optional
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:17230
+     * @Group b5f5416d9e71f8e4246cda16c4723744:17230
      * @var string[]
      */
     private $netAddress = array(
@@ -40,7 +40,7 @@ class SystemZoneNetAddressAddListRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @Type \CWM\BroadWorksConnector\Ocip\Models\IPAddressRange
      * @Array
      * @Optional
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:17230
+     * @Group b5f5416d9e71f8e4246cda16c4723744:17230
      * @var \CWM\BroadWorksConnector\Ocip\Models\IPAddressRange[]
      */
     private $netAddressRange = array(

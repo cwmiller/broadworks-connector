@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemRedundancyParametersGetResponse16sp2
  * @see SystemRedundancyParametersGetRequest
- * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:24102","type":"sequence"}]
+ * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:24102","type":"sequence"}]
  */
 class SystemRedundancyParametersGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -20,7 +20,7 @@ class SystemRedundancyParametersGetResponse extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName rollBackTimerMinutes
      * @Type int
-     * @Group 1a79c7896cb04feac6eff47a5321756e:24102
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:24102
      * @var int|null
      */
     private $rollBackTimerMinutes = null;

@@ -21,7 +21,8 @@ use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderMWIDeliveryToMobileEndpoi
 use CWM\BroadWorksConnector\Ocip\Models\UserMWIDeliveryToMobileEndpointGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserMWIDeliveryToMobileEndpointGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserMWIDeliveryToMobileEndpointModifyRequest;
-use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceMWIDeliveryToMobileEndpoint
@@ -31,6 +32,7 @@ trait OCISchemaServiceMWIDeliveryToMobileEndpoint
      * @param GroupMWIDeliveryToMobileEndpointCustomTemplateAddRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupMWIDeliveryToMobileEndpointCustomTemplateAddRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupMWIDeliveryToMobileEndpointCustomTemplateAddRequest $request)
     {
@@ -41,6 +43,7 @@ trait OCISchemaServiceMWIDeliveryToMobileEndpoint
      * @param GroupMWIDeliveryToMobileEndpointCustomTemplateDeleteRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupMWIDeliveryToMobileEndpointCustomTemplateDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupMWIDeliveryToMobileEndpointCustomTemplateDeleteRequest $request)
     {
@@ -51,6 +54,7 @@ trait OCISchemaServiceMWIDeliveryToMobileEndpoint
      * @param GroupMWIDeliveryToMobileEndpointCustomTemplateGetRequest $request
      * @return GroupMWIDeliveryToMobileEndpointCustomTemplateGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupMWIDeliveryToMobileEndpointCustomTemplateGetRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupMWIDeliveryToMobileEndpointCustomTemplateGetRequest $request)
     {
@@ -61,6 +65,7 @@ trait OCISchemaServiceMWIDeliveryToMobileEndpoint
      * @param GroupMWIDeliveryToMobileEndpointCustomTemplateModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupMWIDeliveryToMobileEndpointCustomTemplateModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupMWIDeliveryToMobileEndpointCustomTemplateModifyRequest $request)
     {
@@ -71,6 +76,7 @@ trait OCISchemaServiceMWIDeliveryToMobileEndpoint
      * @param GroupMWIDeliveryToMobileEndpointGetRequest $request
      * @return GroupMWIDeliveryToMobileEndpointGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupMWIDeliveryToMobileEndpointGetRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupMWIDeliveryToMobileEndpointGetRequest $request)
     {
@@ -81,6 +87,7 @@ trait OCISchemaServiceMWIDeliveryToMobileEndpoint
      * @param GroupMWIDeliveryToMobileEndpointModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupMWIDeliveryToMobileEndpointModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupMWIDeliveryToMobileEndpointModifyRequest $request)
     {
@@ -91,6 +98,7 @@ trait OCISchemaServiceMWIDeliveryToMobileEndpoint
      * @param ServiceProviderMWIDeliveryToMobileEndpointCustomTemplateAddRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderMWIDeliveryToMobileEndpointCustomTemplateAddRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderMWIDeliveryToMobileEndpointCustomTemplateAddRequest $request)
     {
@@ -101,6 +109,7 @@ trait OCISchemaServiceMWIDeliveryToMobileEndpoint
      * @param ServiceProviderMWIDeliveryToMobileEndpointCustomTemplateDeleteRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderMWIDeliveryToMobileEndpointCustomTemplateDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderMWIDeliveryToMobileEndpointCustomTemplateDeleteRequest $request)
     {
@@ -111,6 +120,7 @@ trait OCISchemaServiceMWIDeliveryToMobileEndpoint
      * @param ServiceProviderMWIDeliveryToMobileEndpointCustomTemplateGetRequest $request
      * @return ServiceProviderMWIDeliveryToMobileEndpointCustomTemplateGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderMWIDeliveryToMobileEndpointCustomTemplateGetRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderMWIDeliveryToMobileEndpointCustomTemplateGetRequest $request)
     {
@@ -121,6 +131,7 @@ trait OCISchemaServiceMWIDeliveryToMobileEndpoint
      * @param ServiceProviderMWIDeliveryToMobileEndpointCustomTemplateModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderMWIDeliveryToMobileEndpointCustomTemplateModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderMWIDeliveryToMobileEndpointCustomTemplateModifyRequest $request)
     {
@@ -131,6 +142,7 @@ trait OCISchemaServiceMWIDeliveryToMobileEndpoint
      * @param ServiceProviderMWIDeliveryToMobileEndpointGetRequest $request
      * @return ServiceProviderMWIDeliveryToMobileEndpointGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderMWIDeliveryToMobileEndpointGetRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderMWIDeliveryToMobileEndpointGetRequest $request)
     {
@@ -141,6 +153,7 @@ trait OCISchemaServiceMWIDeliveryToMobileEndpoint
      * @param ServiceProviderMWIDeliveryToMobileEndpointModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderMWIDeliveryToMobileEndpointModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderMWIDeliveryToMobileEndpointModifyRequest $request)
     {
@@ -151,6 +164,7 @@ trait OCISchemaServiceMWIDeliveryToMobileEndpoint
      * @param UserMWIDeliveryToMobileEndpointGetRequest $request
      * @return UserMWIDeliveryToMobileEndpointGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userMWIDeliveryToMobileEndpointGetRequest(\CWM\BroadWorksConnector\Ocip\Models\UserMWIDeliveryToMobileEndpointGetRequest $request)
     {
@@ -161,6 +175,7 @@ trait OCISchemaServiceMWIDeliveryToMobileEndpoint
      * @param UserMWIDeliveryToMobileEndpointModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userMWIDeliveryToMobileEndpointModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\UserMWIDeliveryToMobileEndpointModifyRequest $request)
     {

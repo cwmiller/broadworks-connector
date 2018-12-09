@@ -14,7 +14,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SystemCallCenterGetResponse16
  * @see ErrorResponse
  * @see SystemCallCenterGetRequest17
- * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:17952","type":"sequence"}]
+ * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:17952","type":"sequence"}]
  */
 class SystemCallCenterGetRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

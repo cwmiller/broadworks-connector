@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:8321","type":"sequence","children":[{"id":"610f84d3e188f0477c3ae1a82ee036da:8323","type":"choice"}]}]
+ * @Groups [{"id":"b5f5416d9e71f8e4246cda16c4723744:8321","type":"sequence","children":[{"id":"b5f5416d9e71f8e4246cda16c4723744:8323","type":"choice"}]}]
  */
 class SystemExpensiveCallTypeModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemExpensiveCallTypeModifyRequest extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName alternateCallIndicator
      * @Type string
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:8321
+     * @Group b5f5416d9e71f8e4246cda16c4723744:8321
      * @var string|null
      */
     private $alternateCallIndicator = null;
@@ -28,7 +28,7 @@ class SystemExpensiveCallTypeModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:8323
+     * @Group b5f5416d9e71f8e4246cda16c4723744:8323
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $treatmentAudioFile = null;

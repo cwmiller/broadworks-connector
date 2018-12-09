@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"26a62df68b13c020e844e2a188f1e6e1:295","type":"sequence"}]
+ * @Groups [{"id":"93e99b1f9cf4a71b31301a1fe7f0e190:295","type":"sequence"}]
  */
 class GroupFlexibleSeatingHostModifyInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupFlexibleSeatingHostModifyInstanceRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group 26a62df68b13c020e844e2a188f1e6e1:295
+     * @Group 93e99b1f9cf4a71b31301a1fe7f0e190:295
      * @var string|null
      */
     private $serviceUserId = null;
@@ -27,7 +27,7 @@ class GroupFlexibleSeatingHostModifyInstanceRequest extends \CWM\BroadWorksConne
      * @ElementName serviceInstanceProfile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceModifyProfileFlexibleSeatingHost
      * @Optional
-     * @Group 26a62df68b13c020e844e2a188f1e6e1:295
+     * @Group 93e99b1f9cf4a71b31301a1fe7f0e190:295
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceModifyProfileFlexibleSeatingHost|null
      */
     private $serviceInstanceProfile = null;
@@ -37,7 +37,7 @@ class GroupFlexibleSeatingHostModifyInstanceRequest extends \CWM\BroadWorksConne
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceMultipleContactEndpointModify
      * @Nillable
      * @Optional
-     * @Group 26a62df68b13c020e844e2a188f1e6e1:295
+     * @Group 93e99b1f9cf4a71b31301a1fe7f0e190:295
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceMultipleContactEndpointModify|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $accessDeviceEndpoint = null;
@@ -46,7 +46,7 @@ class GroupFlexibleSeatingHostModifyInstanceRequest extends \CWM\BroadWorksConne
      * @ElementName networkClassOfService
      * @Type string
      * @Optional
-     * @Group 26a62df68b13c020e844e2a188f1e6e1:295
+     * @Group 93e99b1f9cf4a71b31301a1fe7f0e190:295
      * @var string|null
      */
     private $networkClassOfService = null;

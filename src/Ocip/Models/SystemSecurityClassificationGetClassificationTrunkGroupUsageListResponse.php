@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "Trunk Group Name","Group ID","Organization ID" and "Organization Type"
  *
  * @see SystemSecurityClassificationGetClassificationTrunkGroupUsageListRequest
- * @Groups [{"id":"b91fcb7aba1afd62c15b3e7e36708d08:189","type":"sequence"}]
+ * @Groups [{"id":"03b1e8852a59a842f834331786163273:189","type":"sequence"}]
  */
 class SystemSecurityClassificationGetClassificationTrunkGroupUsageListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class SystemSecurityClassificationGetClassificationTrunkGroupUsageListResponse e
     /**
      * @ElementName usageTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group b91fcb7aba1afd62c15b3e7e36708d08:189
+     * @Group 03b1e8852a59a842f834331786163273:189
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $usageTable = null;

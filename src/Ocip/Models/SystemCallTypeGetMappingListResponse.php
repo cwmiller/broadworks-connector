@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "Country Code", "Digit Map" and "Call Type".
  *
  * @see SystemCallTypeGetMappingListRequest
- * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:4588","type":"sequence"}]
+ * @Groups [{"id":"b5f5416d9e71f8e4246cda16c4723744:4588","type":"sequence"}]
  */
 class SystemCallTypeGetMappingListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class SystemCallTypeGetMappingListResponse extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName callTypeMapping
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:4588
+     * @Group b5f5416d9e71f8e4246cda16c4723744:4588
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $callTypeMapping = null;

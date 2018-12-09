@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * CommPilot Express SR Available In Office Configuration used in the context of a get.
  *
- * @Groups [{"id":"0a20cd20692e84aeff051c5071901f47:86","type":"sequence"}]
+ * @Groups [{"id":"9035ce6c9d1f5c483ddb27dc6c140d91:86","type":"sequence"}]
  */
 class CommPilotExpressSRBusy
 {
@@ -15,7 +15,7 @@ class CommPilotExpressSRBusy
     /**
      * @ElementName incomingCalls
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressSRRedirectionWithException
-     * @Group 0a20cd20692e84aeff051c5071901f47:86
+     * @Group 9035ce6c9d1f5c483ddb27dc6c140d91:86
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressSRRedirectionWithException|null
      */
     private $incomingCalls = null;
@@ -23,7 +23,7 @@ class CommPilotExpressSRBusy
     /**
      * @ElementName incomingCallNotify
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressSREmailNotify
-     * @Group 0a20cd20692e84aeff051c5071901f47:86
+     * @Group 9035ce6c9d1f5c483ddb27dc6c140d91:86
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressSREmailNotify|null
      */
     private $incomingCallNotify = null;

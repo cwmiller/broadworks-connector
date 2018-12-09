@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"bfedaa58d92112a4eb49c69d8d3c8520:74","type":"sequence"}]
+ * @Groups [{"id":"a3db848ff82c292b536bc023d23eea50:74","type":"sequence"}]
  */
 class UserPrepaidModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class UserPrepaidModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
     /**
      * @ElementName userId
      * @Type string
-     * @Group bfedaa58d92112a4eb49c69d8d3c8520:74
+     * @Group a3db848ff82c292b536bc023d23eea50:74
      * @var string|null
      */
     private $userId = null;
@@ -28,7 +28,7 @@ class UserPrepaidModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @ElementName isActive
      * @Type bool
      * @Optional
-     * @Group bfedaa58d92112a4eb49c69d8d3c8520:74
+     * @Group a3db848ff82c292b536bc023d23eea50:74
      * @var bool|null
      */
     private $isActive = null;

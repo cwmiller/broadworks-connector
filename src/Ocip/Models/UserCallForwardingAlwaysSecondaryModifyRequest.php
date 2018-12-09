@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"0827ab6145bdf0e64efa1c9fc778e509:77","type":"sequence"}]
+ * @Groups [{"id":"4287a1a729e0194f81cd19fb89cec945:77","type":"sequence"}]
  */
 class UserCallForwardingAlwaysSecondaryModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserCallForwardingAlwaysSecondaryModifyRequest extends \CWM\BroadWorksConn
     /**
      * @ElementName userId
      * @Type string
-     * @Group 0827ab6145bdf0e64efa1c9fc778e509:77
+     * @Group 4287a1a729e0194f81cd19fb89cec945:77
      * @var string|null
      */
     private $userId = null;
@@ -27,7 +27,7 @@ class UserCallForwardingAlwaysSecondaryModifyRequest extends \CWM\BroadWorksConn
      * @ElementName isActive
      * @Type bool
      * @Optional
-     * @Group 0827ab6145bdf0e64efa1c9fc778e509:77
+     * @Group 4287a1a729e0194f81cd19fb89cec945:77
      * @var bool|null
      */
     private $isActive = null;
@@ -37,7 +37,7 @@ class UserCallForwardingAlwaysSecondaryModifyRequest extends \CWM\BroadWorksConn
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 0827ab6145bdf0e64efa1c9fc778e509:77
+     * @Group 4287a1a729e0194f81cd19fb89cec945:77
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $forwardToPhoneNumber = null;
@@ -46,7 +46,7 @@ class UserCallForwardingAlwaysSecondaryModifyRequest extends \CWM\BroadWorksConn
      * @ElementName isRingSplashActive
      * @Type bool
      * @Optional
-     * @Group 0827ab6145bdf0e64efa1c9fc778e509:77
+     * @Group 4287a1a729e0194f81cd19fb89cec945:77
      * @var bool|null
      */
     private $isRingSplashActive = null;

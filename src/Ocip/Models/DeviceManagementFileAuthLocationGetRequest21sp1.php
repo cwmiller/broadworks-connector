@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see DeviceManagementFileAuthLocationGetResponse21sp1
  * @see ErrorResponse
- * @Groups [{"id":"d83be92ebac098705e715f24f025a9a9:138","type":"sequence"}]
+ * @Groups [{"id":"21fd3c6abc11c44e52803121f7739a76:138","type":"sequence"}]
  */
 class DeviceManagementFileAuthLocationGetRequest21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,7 +21,7 @@ class DeviceManagementFileAuthLocationGetRequest21sp1 extends \CWM\BroadWorksCon
     /**
      * @ElementName deviceAccessProtocol
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DeviceAccessProtocol16
-     * @Group d83be92ebac098705e715f24f025a9a9:138
+     * @Group 21fd3c6abc11c44e52803121f7739a76:138
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceAccessProtocol16|null
      */
     private $deviceAccessProtocol = null;
@@ -29,7 +29,7 @@ class DeviceManagementFileAuthLocationGetRequest21sp1 extends \CWM\BroadWorksCon
     /**
      * @ElementName deviceAccessMethod
      * @Type string
-     * @Group d83be92ebac098705e715f24f025a9a9:138
+     * @Group 21fd3c6abc11c44e52803121f7739a76:138
      * @var string|null
      */
     private $deviceAccessMethod = null;
@@ -37,7 +37,7 @@ class DeviceManagementFileAuthLocationGetRequest21sp1 extends \CWM\BroadWorksCon
     /**
      * @ElementName deviceAccessURI
      * @Type string
-     * @Group d83be92ebac098705e715f24f025a9a9:138
+     * @Group 21fd3c6abc11c44e52803121f7739a76:138
      * @var string|null
      */
     private $deviceAccessURI = null;
@@ -46,7 +46,7 @@ class DeviceManagementFileAuthLocationGetRequest21sp1 extends \CWM\BroadWorksCon
      * @ElementName accessDeviceUserName
      * @Type string
      * @Optional
-     * @Group d83be92ebac098705e715f24f025a9a9:138
+     * @Group 21fd3c6abc11c44e52803121f7739a76:138
      * @var string|null
      */
     private $accessDeviceUserName = null;
@@ -55,7 +55,7 @@ class DeviceManagementFileAuthLocationGetRequest21sp1 extends \CWM\BroadWorksCon
      * @ElementName accessDeviceUserPassword
      * @Type string
      * @Optional
-     * @Group d83be92ebac098705e715f24f025a9a9:138
+     * @Group 21fd3c6abc11c44e52803121f7739a76:138
      * @var string|null
      */
     private $accessDeviceUserPassword = null;
@@ -64,7 +64,7 @@ class DeviceManagementFileAuthLocationGetRequest21sp1 extends \CWM\BroadWorksCon
      * @ElementName deviceToken
      * @Type string
      * @Optional
-     * @Group d83be92ebac098705e715f24f025a9a9:138
+     * @Group 21fd3c6abc11c44e52803121f7739a76:138
      * @var string|null
      */
     private $deviceToken = null;
@@ -73,7 +73,7 @@ class DeviceManagementFileAuthLocationGetRequest21sp1 extends \CWM\BroadWorksCon
      * @ElementName signedPassword
      * @Type string
      * @Optional
-     * @Group d83be92ebac098705e715f24f025a9a9:138
+     * @Group 21fd3c6abc11c44e52803121f7739a76:138
      * @var string|null
      */
     private $signedPassword = null;
@@ -82,7 +82,7 @@ class DeviceManagementFileAuthLocationGetRequest21sp1 extends \CWM\BroadWorksCon
      * @ElementName macAddress
      * @Type string
      * @Optional
-     * @Group d83be92ebac098705e715f24f025a9a9:138
+     * @Group 21fd3c6abc11c44e52803121f7739a76:138
      * @var string|null
      */
     private $macAddress = null;
@@ -91,7 +91,7 @@ class DeviceManagementFileAuthLocationGetRequest21sp1 extends \CWM\BroadWorksCon
      * @ElementName realmName
      * @Type string
      * @Optional
-     * @Group d83be92ebac098705e715f24f025a9a9:138
+     * @Group 21fd3c6abc11c44e52803121f7739a76:138
      * @var string|null
      */
     private $realmName = null;
@@ -100,7 +100,7 @@ class DeviceManagementFileAuthLocationGetRequest21sp1 extends \CWM\BroadWorksCon
      * @ElementName digestHa1Complement
      * @Type string
      * @Optional
-     * @Group d83be92ebac098705e715f24f025a9a9:138
+     * @Group 21fd3c6abc11c44e52803121f7739a76:138
      * @var string|null
      */
     private $digestHa1Complement = null;
@@ -109,7 +109,7 @@ class DeviceManagementFileAuthLocationGetRequest21sp1 extends \CWM\BroadWorksCon
      * @ElementName digestResponse
      * @Type string
      * @Optional
-     * @Group d83be92ebac098705e715f24f025a9a9:138
+     * @Group 21fd3c6abc11c44e52803121f7739a76:138
      * @var string|null
      */
     private $digestResponse = null;

@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Indicates whether Call Me Now calls using specified digit patterns are permitted.
  *
- * @Groups [{"id":"8366f5f5d1fbfb9742236aba282c1dab:1885","type":"sequence"}]
+ * @Groups [{"id":"80676ea6f2582b1b88573623a6affc0e:1885","type":"sequence"}]
  */
 class OutgoingCallingPlanDigitPatternCallMeNowPermission
 {
@@ -15,7 +15,7 @@ class OutgoingCallingPlanDigitPatternCallMeNowPermission
     /**
      * @ElementName digitPatternName
      * @Type string
-     * @Group 8366f5f5d1fbfb9742236aba282c1dab:1885
+     * @Group 80676ea6f2582b1b88573623a6affc0e:1885
      * @var string|null
      */
     private $digitPatternName = null;
@@ -23,7 +23,7 @@ class OutgoingCallingPlanDigitPatternCallMeNowPermission
     /**
      * @ElementName permission
      * @Type bool
-     * @Group 8366f5f5d1fbfb9742236aba282c1dab:1885
+     * @Group 80676ea6f2582b1b88573623a6affc0e:1885
      * @var bool|null
      */
     private $permission = null;

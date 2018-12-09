@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains a list of system push notification parameters.
  *
  * @see SystemPushNotificationParametersGetRequest
- * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:13007","type":"sequence"}]
+ * @Groups [{"id":"b5f5416d9e71f8e4246cda16c4723744:13007","type":"sequence"}]
  */
 class SystemPushNotificationParametersGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -21,7 +21,7 @@ class SystemPushNotificationParametersGetResponse extends \CWM\BroadWorksConnect
     /**
      * @ElementName enforceAllowedApplicationList
      * @Type bool
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:13007
+     * @Group b5f5416d9e71f8e4246cda16c4723744:13007
      * @var bool|null
      */
     private $enforceAllowedApplicationList = null;
@@ -29,7 +29,7 @@ class SystemPushNotificationParametersGetResponse extends \CWM\BroadWorksConnect
     /**
      * @ElementName maximumRegistrationsPerUser
      * @Type int
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:13007
+     * @Group b5f5416d9e71f8e4246cda16c4723744:13007
      * @var int|null
      */
     private $maximumRegistrationsPerUser = null;
@@ -37,7 +37,7 @@ class SystemPushNotificationParametersGetResponse extends \CWM\BroadWorksConnect
     /**
      * @ElementName maximumRegistrationAgeDays
      * @Type int
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:13007
+     * @Group b5f5416d9e71f8e4246cda16c4723744:13007
      * @var int|null
      */
     private $maximumRegistrationAgeDays = null;
@@ -45,7 +45,7 @@ class SystemPushNotificationParametersGetResponse extends \CWM\BroadWorksConnect
     /**
      * @ElementName newCallTimeout
      * @Type int
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:13007
+     * @Group b5f5416d9e71f8e4246cda16c4723744:13007
      * @var int|null
      */
     private $newCallTimeout = null;
@@ -53,7 +53,7 @@ class SystemPushNotificationParametersGetResponse extends \CWM\BroadWorksConnect
     /**
      * @ElementName subscriptionEventsPerSecond
      * @Type int
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:13007
+     * @Group b5f5416d9e71f8e4246cda16c4723744:13007
      * @var int|null
      */
     private $subscriptionEventsPerSecond = null;

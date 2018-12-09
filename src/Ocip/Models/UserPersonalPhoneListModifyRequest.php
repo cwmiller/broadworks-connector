@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"489b2153267470be8e945bf6b778e0d0:2340","type":"sequence"}]
+ * @Groups [{"id":"ee3830ce42f01a3ef2a105d473fc3b17:2340","type":"sequence"}]
  */
 class UserPersonalPhoneListModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserPersonalPhoneListModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName userId
      * @Type string
-     * @Group 489b2153267470be8e945bf6b778e0d0:2340
+     * @Group ee3830ce42f01a3ef2a105d473fc3b17:2340
      * @var string|null
      */
     private $userId = null;
@@ -26,7 +26,7 @@ class UserPersonalPhoneListModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName entryName
      * @Type string
-     * @Group 489b2153267470be8e945bf6b778e0d0:2340
+     * @Group ee3830ce42f01a3ef2a105d473fc3b17:2340
      * @var string|null
      */
     private $entryName = null;
@@ -35,7 +35,7 @@ class UserPersonalPhoneListModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName newEntryName
      * @Type string
      * @Optional
-     * @Group 489b2153267470be8e945bf6b778e0d0:2340
+     * @Group ee3830ce42f01a3ef2a105d473fc3b17:2340
      * @var string|null
      */
     private $newEntryName = null;
@@ -44,7 +44,7 @@ class UserPersonalPhoneListModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName phoneNumber
      * @Type string
      * @Optional
-     * @Group 489b2153267470be8e945bf6b778e0d0:2340
+     * @Group ee3830ce42f01a3ef2a105d473fc3b17:2340
      * @var string|null
      */
     private $phoneNumber = null;

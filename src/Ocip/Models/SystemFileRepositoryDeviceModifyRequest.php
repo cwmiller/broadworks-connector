@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:8763","type":"sequence"}]
+ * @Groups [{"id":"b5f5416d9e71f8e4246cda16c4723744:8763","type":"sequence"}]
  */
 class SystemFileRepositoryDeviceModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemFileRepositoryDeviceModifyRequest extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName name
      * @Type string
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:8763
+     * @Group b5f5416d9e71f8e4246cda16c4723744:8763
      * @var string|null
      */
     private $name = null;
@@ -28,7 +28,7 @@ class SystemFileRepositoryDeviceModifyRequest extends \CWM\BroadWorksConnector\O
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:8763
+     * @Group b5f5416d9e71f8e4246cda16c4723744:8763
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $rootDirectory = null;
@@ -37,7 +37,7 @@ class SystemFileRepositoryDeviceModifyRequest extends \CWM\BroadWorksConnector\O
      * @ElementName secure
      * @Type bool
      * @Optional
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:8763
+     * @Group b5f5416d9e71f8e4246cda16c4723744:8763
      * @var bool|null
      */
     private $secure = null;
@@ -46,7 +46,7 @@ class SystemFileRepositoryDeviceModifyRequest extends \CWM\BroadWorksConnector\O
      * @ElementName netAddress
      * @Type string
      * @Optional
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:8763
+     * @Group b5f5416d9e71f8e4246cda16c4723744:8763
      * @var string|null
      */
     private $netAddress = null;
@@ -55,7 +55,7 @@ class SystemFileRepositoryDeviceModifyRequest extends \CWM\BroadWorksConnector\O
      * @ElementName ftpPassive
      * @Type bool
      * @Optional
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:8763
+     * @Group b5f5416d9e71f8e4246cda16c4723744:8763
      * @var bool|null
      */
     private $ftpPassive = null;
@@ -64,7 +64,7 @@ class SystemFileRepositoryDeviceModifyRequest extends \CWM\BroadWorksConnector\O
      * @ElementName protocol
      * @Type \CWM\BroadWorksConnector\Ocip\Models\FileRepositoryProtocol
      * @Optional
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:8763
+     * @Group b5f5416d9e71f8e4246cda16c4723744:8763
      * @var \CWM\BroadWorksConnector\Ocip\Models\FileRepositoryProtocol|null
      */
     private $protocol = null;
@@ -74,7 +74,7 @@ class SystemFileRepositoryDeviceModifyRequest extends \CWM\BroadWorksConnector\O
      * @Type int
      * @Nillable
      * @Optional
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:8763
+     * @Group b5f5416d9e71f8e4246cda16c4723744:8763
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $port = null;
@@ -83,7 +83,7 @@ class SystemFileRepositoryDeviceModifyRequest extends \CWM\BroadWorksConnector\O
      * @ElementName ftpRemoteVerification
      * @Type bool
      * @Optional
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:8763
+     * @Group b5f5416d9e71f8e4246cda16c4723744:8763
      * @var bool|null
      */
     private $ftpRemoteVerification = null;

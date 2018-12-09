@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"69c2aeb1186dc97a4f4c36d9609ddb49:4589","type":"sequence"}]
+ * @Groups [{"id":"3ac5f05d969bc771d6ba8d344d95aa72:4589","type":"sequence"}]
  */
 class GroupCallCenterModifyDNISRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupCallCenterModifyDNISRequest extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName dnisKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DNISKey
-     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:4589
+     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:4589
      * @var \CWM\BroadWorksConnector\Ocip\Models\DNISKey|null
      */
     private $dnisKey = null;
@@ -27,7 +27,7 @@ class GroupCallCenterModifyDNISRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName newDNISName
      * @Type string
      * @Optional
-     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:4589
+     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:4589
      * @var string|null
      */
     private $newDNISName = null;
@@ -37,7 +37,7 @@ class GroupCallCenterModifyDNISRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:4589
+     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:4589
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $dnisPhoneNumber = null;
@@ -47,7 +47,7 @@ class GroupCallCenterModifyDNISRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:4589
+     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:4589
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $extension = null;
@@ -56,7 +56,7 @@ class GroupCallCenterModifyDNISRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName useCustomCLIDSettings
      * @Type bool
      * @Optional
-     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:4589
+     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:4589
      * @var bool|null
      */
     private $useCustomCLIDSettings = null;
@@ -66,7 +66,7 @@ class GroupCallCenterModifyDNISRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:4589
+     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:4589
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $callingLineIdPhoneNumber = null;
@@ -76,7 +76,7 @@ class GroupCallCenterModifyDNISRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:4589
+     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:4589
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $callingLineIdLastName = null;
@@ -86,7 +86,7 @@ class GroupCallCenterModifyDNISRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:4589
+     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:4589
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $callingLineIdFirstName = null;
@@ -95,7 +95,7 @@ class GroupCallCenterModifyDNISRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName useCustomDnisAnnouncementSettings
      * @Type bool
      * @Optional
-     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:4589
+     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:4589
      * @var bool|null
      */
     private $useCustomDnisAnnouncementSettings = null;
@@ -104,7 +104,7 @@ class GroupCallCenterModifyDNISRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName priority
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DNISPriority
      * @Optional
-     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:4589
+     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:4589
      * @var \CWM\BroadWorksConnector\Ocip\Models\DNISPriority|null
      */
     private $priority = null;
@@ -113,7 +113,7 @@ class GroupCallCenterModifyDNISRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName allowOutgoingACDCall
      * @Type bool
      * @Optional
-     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:4589
+     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:4589
      * @var bool|null
      */
     private $allowOutgoingACDCall = null;

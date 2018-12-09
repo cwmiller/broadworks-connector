@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupPolycomPhoneServicesGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"ddf1151cc200dc2ff4c778831927e902:46","type":"sequence"}]
+ * @Groups [{"id":"dfb97f73716e9f703ab24fbcfb1f433a:46","type":"sequence"}]
  */
 class GroupPolycomPhoneServicesGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupPolycomPhoneServicesGetRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group ddf1151cc200dc2ff4c778831927e902:46
+     * @Group dfb97f73716e9f703ab24fbcfb1f433a:46
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,7 +26,7 @@ class GroupPolycomPhoneServicesGetRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName groupId
      * @Type string
-     * @Group ddf1151cc200dc2ff4c778831927e902:46
+     * @Group dfb97f73716e9f703ab24fbcfb1f433a:46
      * @var string|null
      */
     private $groupId = null;

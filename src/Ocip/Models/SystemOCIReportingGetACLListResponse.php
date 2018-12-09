@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The table columns are "Net Address", "Description" and "Restrict Messages".
  *
  * @see SystemOCIReportingACLListGetRequest
- * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:11986","type":"sequence"}]
+ * @Groups [{"id":"b5f5416d9e71f8e4246cda16c4723744:11986","type":"sequence"}]
  */
 class SystemOCIReportingGetACLListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class SystemOCIReportingGetACLListResponse extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName ociReportingACLTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:11986
+     * @Group b5f5416d9e71f8e4246cda16c4723744:11986
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $ociReportingACLTable = null;

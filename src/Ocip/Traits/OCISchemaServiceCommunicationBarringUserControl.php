@@ -8,7 +8,8 @@ use CWM\BroadWorksConnector\Ocip\Models\SystemCommunicationBarringUserControlMod
 use CWM\BroadWorksConnector\Ocip\Models\UserCommunicationBarringUserControlGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserCommunicationBarringUserControlGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserCommunicationBarringUserControlModifyRequest;
-use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceCommunicationBarringUserControl
@@ -18,6 +19,7 @@ trait OCISchemaServiceCommunicationBarringUserControl
      * @param SystemCommunicationBarringUserControlGetRequest $request
      * @return SystemCommunicationBarringUserControlGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemCommunicationBarringUserControlGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCommunicationBarringUserControlGetRequest $request)
     {
@@ -28,6 +30,7 @@ trait OCISchemaServiceCommunicationBarringUserControl
      * @param SystemCommunicationBarringUserControlModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemCommunicationBarringUserControlModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCommunicationBarringUserControlModifyRequest $request)
     {
@@ -38,6 +41,7 @@ trait OCISchemaServiceCommunicationBarringUserControl
      * @param UserCommunicationBarringUserControlGetRequest $request
      * @return UserCommunicationBarringUserControlGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userCommunicationBarringUserControlGetRequest(\CWM\BroadWorksConnector\Ocip\Models\UserCommunicationBarringUserControlGetRequest $request)
     {
@@ -48,6 +52,7 @@ trait OCISchemaServiceCommunicationBarringUserControl
      * @param UserCommunicationBarringUserControlModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userCommunicationBarringUserControlModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\UserCommunicationBarringUserControlModifyRequest $request)
     {

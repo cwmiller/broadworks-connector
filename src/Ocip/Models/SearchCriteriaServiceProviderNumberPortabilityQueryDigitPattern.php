@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Criteria for searching for digit pattern.
  *
- * @Groups [{"id":"d37849f5e289836ccd316323a7a3799a:1887","type":"sequence"}]
+ * @Groups [{"id":"e446bfcbd1f39cbef57d1547014f2bb9:1887","type":"sequence"}]
  */
 class SearchCriteriaServiceProviderNumberPortabilityQueryDigitPattern extends SearchCriteria
 {
@@ -15,7 +15,7 @@ class SearchCriteriaServiceProviderNumberPortabilityQueryDigitPattern extends Se
     /**
      * @ElementName mode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchMode
-     * @Group d37849f5e289836ccd316323a7a3799a:1887
+     * @Group e446bfcbd1f39cbef57d1547014f2bb9:1887
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchMode|null
      */
     private $mode = null;
@@ -23,7 +23,7 @@ class SearchCriteriaServiceProviderNumberPortabilityQueryDigitPattern extends Se
     /**
      * @ElementName value
      * @Type string
-     * @Group d37849f5e289836ccd316323a7a3799a:1887
+     * @Group e446bfcbd1f39cbef57d1547014f2bb9:1887
      * @var string|null
      */
     private $value = null;
@@ -31,7 +31,7 @@ class SearchCriteriaServiceProviderNumberPortabilityQueryDigitPattern extends Se
     /**
      * @ElementName isCaseInsensitive
      * @Type bool
-     * @Group d37849f5e289836ccd316323a7a3799a:1887
+     * @Group e446bfcbd1f39cbef57d1547014f2bb9:1887
      * @var bool|null
      */
     private $isCaseInsensitive = null;

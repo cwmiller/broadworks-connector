@@ -18,7 +18,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see EnterpriseUserCallForwardingSettingsGetListRequest
  * @see GroupUserCallForwardingSettingsGetListRequest
- * @Groups [{"id":"58f663eead958d798597598c4d3ef3e7:312","type":"sequence"}]
+ * @Groups [{"id":"448476806043edb64fb9ce2b7f95cb59:312","type":"sequence"}]
  */
 class SortByForwardedToNumber extends SortCriteria
 {

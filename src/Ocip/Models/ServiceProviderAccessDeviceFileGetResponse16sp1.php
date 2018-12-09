@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see ServiceProviderAccessDeviceFileGetRequest16sp1
  * @see ServiceProviderAccessDeviceFileGetResponse20
- * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:14566","type":"sequence"}]
+ * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:14566","type":"sequence"}]
  */
 class ServiceProviderAccessDeviceFileGetResponse16sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,7 +19,7 @@ class ServiceProviderAccessDeviceFileGetResponse16sp1 extends \CWM\BroadWorksCon
     /**
      * @ElementName fileSource
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationMode
-     * @Group 1a79c7896cb04feac6eff47a5321756e:14566
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:14566
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationMode|null
      */
     private $fileSource = null;
@@ -28,7 +28,7 @@ class ServiceProviderAccessDeviceFileGetResponse16sp1 extends \CWM\BroadWorksCon
      * @ElementName configurationFileName
      * @Type string
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:14566
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:14566
      * @var string|null
      */
     private $configurationFileName = null;
@@ -36,7 +36,7 @@ class ServiceProviderAccessDeviceFileGetResponse16sp1 extends \CWM\BroadWorksCon
     /**
      * @ElementName accessUrl
      * @Type string
-     * @Group 1a79c7896cb04feac6eff47a5321756e:14566
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:14566
      * @var string|null
      */
     private $accessUrl = null;
@@ -45,7 +45,7 @@ class ServiceProviderAccessDeviceFileGetResponse16sp1 extends \CWM\BroadWorksCon
      * @ElementName repositoryUrl
      * @Type string
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:14566
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:14566
      * @var string|null
      */
     private $repositoryUrl = null;
@@ -54,7 +54,7 @@ class ServiceProviderAccessDeviceFileGetResponse16sp1 extends \CWM\BroadWorksCon
      * @ElementName templateUrl
      * @Type string
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:14566
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:14566
      * @var string|null
      */
     private $templateUrl = null;

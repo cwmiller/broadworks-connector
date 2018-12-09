@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains Call Center statistics reporting settings.
  *
  * @see GroupCallCenterGetInstanceStatisticsReportingRequest17sp1
- * @Groups [{"id":"69c2aeb1186dc97a4f4c36d9609ddb49:4154","type":"sequence"}]
+ * @Groups [{"id":"3ac5f05d969bc771d6ba8d344d95aa72:4154","type":"sequence"}]
  */
 class GroupCallCenterGetInstanceStatisticsReportingResponse17sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class GroupCallCenterGetInstanceStatisticsReportingResponse17sp1 extends \CWM\Br
     /**
      * @ElementName generateDailyReport
      * @Type bool
-     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:4154
+     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:4154
      * @var bool|null
      */
     private $generateDailyReport = null;
@@ -25,7 +25,7 @@ class GroupCallCenterGetInstanceStatisticsReportingResponse17sp1 extends \CWM\Br
     /**
      * @ElementName collectionPeriodMinutes
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterStatisticsCollectionPeriodMinutes
-     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:4154
+     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:4154
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterStatisticsCollectionPeriodMinutes|null
      */
     private $collectionPeriodMinutes = null;
@@ -34,7 +34,7 @@ class GroupCallCenterGetInstanceStatisticsReportingResponse17sp1 extends \CWM\Br
      * @ElementName reportingEmailAddress1
      * @Type string
      * @Optional
-     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:4154
+     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:4154
      * @var string|null
      */
     private $reportingEmailAddress1 = null;
@@ -43,7 +43,7 @@ class GroupCallCenterGetInstanceStatisticsReportingResponse17sp1 extends \CWM\Br
      * @ElementName reportingEmailAddress2
      * @Type string
      * @Optional
-     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:4154
+     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:4154
      * @var string|null
      */
     private $reportingEmailAddress2 = null;
@@ -51,7 +51,7 @@ class GroupCallCenterGetInstanceStatisticsReportingResponse17sp1 extends \CWM\Br
     /**
      * @ElementName statisticsSource
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterStatisticsSource17sp1
-     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:4154
+     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:4154
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterStatisticsSource17sp1|null
      */
     private $statisticsSource = null;

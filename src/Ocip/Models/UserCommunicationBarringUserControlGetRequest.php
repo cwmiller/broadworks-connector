@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserCommunicationBarringUserControlGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"4d373d11d8022fd17bc1bdfe8e07cc37:96","type":"sequence"}]
+ * @Groups [{"id":"19bd5fd2bc588aeb4f5ac00683616732:96","type":"sequence"}]
  */
 class UserCommunicationBarringUserControlGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class UserCommunicationBarringUserControlGetRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName userId
      * @Type string
-     * @Group 4d373d11d8022fd17bc1bdfe8e07cc37:96
+     * @Group 19bd5fd2bc588aeb4f5ac00683616732:96
      * @var string|null
      */
     private $userId = null;

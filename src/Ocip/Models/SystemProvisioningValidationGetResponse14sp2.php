@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the SystemProvisioningValidationGetRequest14sp2.
  *
  * @see SystemProvisioningValidationGetRequest14sp2
- * @Groups [{"id":"499b56264fbe226bfef3c338c8d4750d:4218","type":"sequence"}]
+ * @Groups [{"id":"bb12a3589ab4748963f28f7ac9310f70:4218","type":"sequence"}]
  */
 class SystemProvisioningValidationGetResponse14sp2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class SystemProvisioningValidationGetResponse14sp2 extends \CWM\BroadWorksConnec
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group 499b56264fbe226bfef3c338c8d4750d:4218
+     * @Group bb12a3589ab4748963f28f7ac9310f70:4218
      * @var bool|null
      */
     private $isActive = null;
@@ -24,7 +24,7 @@ class SystemProvisioningValidationGetResponse14sp2 extends \CWM\BroadWorksConnec
     /**
      * @ElementName isNetworkServerQueryActive
      * @Type bool
-     * @Group 499b56264fbe226bfef3c338c8d4750d:4218
+     * @Group bb12a3589ab4748963f28f7ac9310f70:4218
      * @var bool|null
      */
     private $isNetworkServerQueryActive = null;
@@ -32,7 +32,7 @@ class SystemProvisioningValidationGetResponse14sp2 extends \CWM\BroadWorksConnec
     /**
      * @ElementName timeoutSeconds
      * @Type int
-     * @Group 499b56264fbe226bfef3c338c8d4750d:4218
+     * @Group bb12a3589ab4748963f28f7ac9310f70:4218
      * @var int|null
      */
     private $timeoutSeconds = null;

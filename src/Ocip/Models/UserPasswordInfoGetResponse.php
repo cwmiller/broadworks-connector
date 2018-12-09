@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to UserPasswordInfoGetRequest.
  *
  * @see UserPasswordInfoGetRequest
- * @Groups [{"id":"489b2153267470be8e945bf6b778e0d0:2191","type":"sequence","children":[{"id":"489b2153267470be8e945bf6b778e0d0:2193","type":"choice"}]}]
+ * @Groups [{"id":"ee3830ce42f01a3ef2a105d473fc3b17:2191","type":"sequence","children":[{"id":"ee3830ce42f01a3ef2a105d473fc3b17:2193","type":"choice"}]}]
  */
 class UserPasswordInfoGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class UserPasswordInfoGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName isLoginDisabled
      * @Type bool
-     * @Group 489b2153267470be8e945bf6b778e0d0:2191
+     * @Group ee3830ce42f01a3ef2a105d473fc3b17:2191
      * @var bool|null
      */
     private $isLoginDisabled = null;
@@ -24,7 +24,7 @@ class UserPasswordInfoGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName expirationDays
      * @Type int
-     * @Group 489b2153267470be8e945bf6b778e0d0:2193
+     * @Group ee3830ce42f01a3ef2a105d473fc3b17:2193
      * @var int|null
      */
     private $expirationDays = null;
@@ -32,7 +32,7 @@ class UserPasswordInfoGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName doesNotExpire
      * @Type bool
-     * @Group 489b2153267470be8e945bf6b778e0d0:2193
+     * @Group ee3830ce42f01a3ef2a105d473fc3b17:2193
      * @var bool|null
      */
     private $doesNotExpire = null;

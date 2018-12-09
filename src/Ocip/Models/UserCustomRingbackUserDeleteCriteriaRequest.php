@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"4ee063914ac10ed9a7e410797bb131c4:138","type":"sequence"}]
+ * @Groups [{"id":"8a23aaf1ac27e4cc24358bde118786dd:138","type":"sequence"}]
  */
 class UserCustomRingbackUserDeleteCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserCustomRingbackUserDeleteCriteriaRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName userId
      * @Type string
-     * @Group 4ee063914ac10ed9a7e410797bb131c4:138
+     * @Group 8a23aaf1ac27e4cc24358bde118786dd:138
      * @var string|null
      */
     private $userId = null;
@@ -26,7 +26,7 @@ class UserCustomRingbackUserDeleteCriteriaRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName criteriaName
      * @Type string
-     * @Group 4ee063914ac10ed9a7e410797bb131c4:138
+     * @Group 8a23aaf1ac27e4cc24358bde118786dd:138
      * @var string|null
      */
     private $criteriaName = null;

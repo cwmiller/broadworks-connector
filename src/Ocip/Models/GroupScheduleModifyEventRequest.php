@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:6324","type":"sequence","children":[{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:6331","type":"choice","optional":true,"children":[{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:6333","type":"sequence"}]}]}]
+ * @Groups [{"id":"15129cd25fa2d5581f4edfd652c24f93:6324","type":"sequence","children":[{"id":"15129cd25fa2d5581f4edfd652c24f93:6331","type":"choice","optional":true,"children":[{"id":"15129cd25fa2d5581f4edfd652c24f93:6333","type":"sequence"}]}]}]
  */
 class GroupScheduleModifyEventRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class GroupScheduleModifyEventRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:6324
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:6324
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -28,7 +28,7 @@ class GroupScheduleModifyEventRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:6324
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:6324
      * @var string|null
      */
     private $groupId = null;
@@ -36,7 +36,7 @@ class GroupScheduleModifyEventRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName scheduleKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ScheduleKey
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:6324
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:6324
      * @var \CWM\BroadWorksConnector\Ocip\Models\ScheduleKey|null
      */
     private $scheduleKey = null;
@@ -44,7 +44,7 @@ class GroupScheduleModifyEventRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName eventName
      * @Type string
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:6324
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:6324
      * @var string|null
      */
     private $eventName = null;
@@ -53,7 +53,7 @@ class GroupScheduleModifyEventRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName newEventName
      * @Type string
      * @Optional
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:6324
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:6324
      * @var string|null
      */
     private $newEventName = null;
@@ -62,7 +62,7 @@ class GroupScheduleModifyEventRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName startDate
      * @Type string
      * @Optional
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:6324
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:6324
      * @var string|null
      */
     private $startDate = null;
@@ -70,7 +70,7 @@ class GroupScheduleModifyEventRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName allDayEvent
      * @Type bool
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:6331
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:6331
      * @var bool|null
      */
     private $allDayEvent = null;
@@ -78,7 +78,7 @@ class GroupScheduleModifyEventRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName startTime
      * @Type \CWM\BroadWorksConnector\Ocip\Models\HourMinute
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:6333
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:6333
      * @var \CWM\BroadWorksConnector\Ocip\Models\HourMinute|null
      */
     private $startTime = null;
@@ -86,7 +86,7 @@ class GroupScheduleModifyEventRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName endTime
      * @Type \CWM\BroadWorksConnector\Ocip\Models\HourMinute
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:6333
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:6333
      * @var \CWM\BroadWorksConnector\Ocip\Models\HourMinute|null
      */
     private $endTime = null;
@@ -95,7 +95,7 @@ class GroupScheduleModifyEventRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName endDate
      * @Type string
      * @Optional
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:6324
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:6324
      * @var string|null
      */
     private $endDate = null;
@@ -105,7 +105,7 @@ class GroupScheduleModifyEventRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\Recurrence
      * @Nillable
      * @Optional
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:6324
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:6324
      * @var \CWM\BroadWorksConnector\Ocip\Models\Recurrence|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $recurrence = null;

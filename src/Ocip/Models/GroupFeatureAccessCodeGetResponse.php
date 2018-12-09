@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupFeatureAccessCodeGetRequest
  * @see GroupFeatureAccessCodeGetResponse21
- * @Groups [{"id":"499b56264fbe226bfef3c338c8d4750d:1106","type":"sequence"}]
+ * @Groups [{"id":"bb12a3589ab4748963f28f7ac9310f70:1106","type":"sequence"}]
  */
 class GroupFeatureAccessCodeGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,7 +19,7 @@ class GroupFeatureAccessCodeGetResponse extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName useFeatureAccessCodeLevel
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupFeatureAccessCodeLevel
-     * @Group 499b56264fbe226bfef3c338c8d4750d:1106
+     * @Group bb12a3589ab4748963f28f7ac9310f70:1106
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupFeatureAccessCodeLevel|null
      */
     private $useFeatureAccessCodeLevel = null;
@@ -29,7 +29,7 @@ class GroupFeatureAccessCodeGetResponse extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Type \CWM\BroadWorksConnector\Ocip\Models\FeatureAccessCodeEntry
      * @Array
      * @Optional
-     * @Group 499b56264fbe226bfef3c338c8d4750d:1106
+     * @Group bb12a3589ab4748963f28f7ac9310f70:1106
      * @var \CWM\BroadWorksConnector\Ocip\Models\FeatureAccessCodeEntry[]
      */
     private $featureAccessCode = array(

@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * A list of attendant console display columns that replaces a previously configured list.
  *         By convention, an element of this type may be set nil to clear the list.
  *
- * @Groups [{"id":"9abee99ae539b76cbd5d04216ff22215:35","type":"sequence"}]
+ * @Groups [{"id":"aaa6bc199aae473a6d70016f1f004bb2:35","type":"sequence"}]
  */
 class AttendantConsoleReplacementDisplayColumnList
 {
@@ -17,7 +17,7 @@ class AttendantConsoleReplacementDisplayColumnList
      * @ElementName displayColumn
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AttendantConsoleDisplayColumn
      * @Array
-     * @Group 9abee99ae539b76cbd5d04216ff22215:35
+     * @Group aaa6bc199aae473a6d70016f1f004bb2:35
      * @var \CWM\BroadWorksConnector\Ocip\Models\AttendantConsoleDisplayColumn[]
      */
     private $displayColumn = array(

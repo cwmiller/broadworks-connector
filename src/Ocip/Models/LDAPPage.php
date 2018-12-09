@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Type to retrieve a particular page or the last page.
  *
- * @Groups [{"id":"71d62705f0bdec15169e7cf0a3eff281:45","type":"choice"}]
+ * @Groups [{"id":"231c9d5e24dad81018b882aac56545ca:45","type":"choice"}]
  */
 class LDAPPage
 {
@@ -15,7 +15,7 @@ class LDAPPage
     /**
      * @ElementName lastPage
      * @Type bool
-     * @Group 71d62705f0bdec15169e7cf0a3eff281:45
+     * @Group 231c9d5e24dad81018b882aac56545ca:45
      * @var bool|null
      */
     private $lastPage = null;
@@ -23,7 +23,7 @@ class LDAPPage
     /**
      * @ElementName number
      * @Type int
-     * @Group 71d62705f0bdec15169e7cf0a3eff281:45
+     * @Group 231c9d5e24dad81018b882aac56545ca:45
      * @var int|null
      */
     private $number = null;

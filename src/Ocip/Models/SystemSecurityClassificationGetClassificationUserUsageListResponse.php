@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "User ID", "Last Name", "First Name", "Phone Number", "Extension", "Service Provider Id", "Group Id".
  *
  * @see SystemSecurityClassificationGetClassificationUserUsageListRequest
- * @Groups [{"id":"b91fcb7aba1afd62c15b3e7e36708d08:228","type":"sequence"}]
+ * @Groups [{"id":"03b1e8852a59a842f834331786163273:228","type":"sequence"}]
  */
 class SystemSecurityClassificationGetClassificationUserUsageListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class SystemSecurityClassificationGetClassificationUserUsageListResponse extends
     /**
      * @ElementName usageTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group b91fcb7aba1afd62c15b3e7e36708d08:228
+     * @Group 03b1e8852a59a842f834331786163273:228
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $usageTable = null;

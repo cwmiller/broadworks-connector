@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Instant Room.
  *
  * @see UserCollaborateRoomListGetRequest
- * @Groups [{"id":"2f13ead3f217ca6eb3f52b517fb04a6f:849","type":"sequence"}]
+ * @Groups [{"id":"1d655a4f2853eddf47018e01b685b65b:849","type":"sequence"}]
  */
 class UserCollaborateRoomListGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -20,7 +20,7 @@ class UserCollaborateRoomListGetResponse extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName roomInstanceTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 2f13ead3f217ca6eb3f52b517fb04a6f:849
+     * @Group 1d655a4f2853eddf47018e01b685b65b:849
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $roomInstanceTable = null;

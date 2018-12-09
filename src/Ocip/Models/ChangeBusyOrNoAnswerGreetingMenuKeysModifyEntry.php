@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * The voice portal change busy or not answer greeting menu keys modify entry.
  *
- * @Groups [{"id":"1624846b7d87d3ab55e907c443fca9d6:2271","type":"sequence"}]
+ * @Groups [{"id":"80c5986946137c505e41f6008c7f75a8:2271","type":"sequence"}]
  */
 class ChangeBusyOrNoAnswerGreetingMenuKeysModifyEntry
 {
@@ -17,7 +17,7 @@ class ChangeBusyOrNoAnswerGreetingMenuKeysModifyEntry
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 1624846b7d87d3ab55e907c443fca9d6:2271
+     * @Group 80c5986946137c505e41f6008c7f75a8:2271
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $recordNewGreeting = null;
@@ -27,7 +27,7 @@ class ChangeBusyOrNoAnswerGreetingMenuKeysModifyEntry
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 1624846b7d87d3ab55e907c443fca9d6:2271
+     * @Group 80c5986946137c505e41f6008c7f75a8:2271
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $listenToCurrentGreeting = null;
@@ -37,7 +37,7 @@ class ChangeBusyOrNoAnswerGreetingMenuKeysModifyEntry
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 1624846b7d87d3ab55e907c443fca9d6:2271
+     * @Group 80c5986946137c505e41f6008c7f75a8:2271
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $revertToSystemDefaultGreeting = null;
@@ -46,7 +46,7 @@ class ChangeBusyOrNoAnswerGreetingMenuKeysModifyEntry
      * @ElementName returnToPreviousMenu
      * @Type string
      * @Optional
-     * @Group 1624846b7d87d3ab55e907c443fca9d6:2271
+     * @Group 80c5986946137c505e41f6008c7f75a8:2271
      * @var string|null
      */
     private $returnToPreviousMenu = null;
@@ -56,7 +56,7 @@ class ChangeBusyOrNoAnswerGreetingMenuKeysModifyEntry
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 1624846b7d87d3ab55e907c443fca9d6:2271
+     * @Group 80c5986946137c505e41f6008c7f75a8:2271
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $repeatMenu = null;

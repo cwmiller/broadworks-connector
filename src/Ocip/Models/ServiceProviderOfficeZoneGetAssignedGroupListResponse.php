@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to ServiceProviderOfficeZoneGetAssignedGroupListRequest.  Contains a table of groups that have the Office Zone assigned. The column headings are: "Group Id" and "Group Name".
  *
  * @see ServiceProviderOfficeZoneGetAssignedGroupListRequest
- * @Groups [{"id":"8f3ed38751e86ebcc639b5bc5cdef0ec:4197","type":"sequence"}]
+ * @Groups [{"id":"8eb862aea0ee5d4211db0a0d3fe7c164:4197","type":"sequence"}]
  */
 class ServiceProviderOfficeZoneGetAssignedGroupListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class ServiceProviderOfficeZoneGetAssignedGroupListResponse extends \CWM\BroadWo
     /**
      * @ElementName groupTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:4197
+     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:4197
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $groupTable = null;

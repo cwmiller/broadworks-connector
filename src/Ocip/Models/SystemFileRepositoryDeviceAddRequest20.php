@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:8660","type":"sequence","children":[{"id":"610f84d3e188f0477c3ae1a82ee036da:8664","type":"choice"}]}]
+ * @Groups [{"id":"b5f5416d9e71f8e4246cda16c4723744:8660","type":"sequence","children":[{"id":"b5f5416d9e71f8e4246cda16c4723744:8664","type":"choice"}]}]
  */
 class SystemFileRepositoryDeviceAddRequest20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemFileRepositoryDeviceAddRequest20 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName name
      * @Type string
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:8660
+     * @Group b5f5416d9e71f8e4246cda16c4723744:8660
      * @var string|null
      */
     private $name = null;
@@ -27,7 +27,7 @@ class SystemFileRepositoryDeviceAddRequest20 extends \CWM\BroadWorksConnector\Oc
      * @ElementName rootDirectory
      * @Type string
      * @Optional
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:8660
+     * @Group b5f5416d9e71f8e4246cda16c4723744:8660
      * @var string|null
      */
     private $rootDirectory = null;
@@ -36,7 +36,7 @@ class SystemFileRepositoryDeviceAddRequest20 extends \CWM\BroadWorksConnector\Oc
      * @ElementName port
      * @Type int
      * @Optional
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:8660
+     * @Group b5f5416d9e71f8e4246cda16c4723744:8660
      * @var int|null
      */
     private $port = null;
@@ -44,7 +44,7 @@ class SystemFileRepositoryDeviceAddRequest20 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName protocolWebDAV
      * @Type \CWM\BroadWorksConnector\Ocip\Models\FileRepositoryProtocolWebDAV20
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:8664
+     * @Group b5f5416d9e71f8e4246cda16c4723744:8664
      * @var \CWM\BroadWorksConnector\Ocip\Models\FileRepositoryProtocolWebDAV20|null
      */
     private $protocolWebDAV = null;
@@ -52,7 +52,7 @@ class SystemFileRepositoryDeviceAddRequest20 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName protocolFTP
      * @Type \CWM\BroadWorksConnector\Ocip\Models\FileRepositoryProtocolFTP16
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:8664
+     * @Group b5f5416d9e71f8e4246cda16c4723744:8664
      * @var \CWM\BroadWorksConnector\Ocip\Models\FileRepositoryProtocolFTP16|null
      */
     private $protocolFTP = null;

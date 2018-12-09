@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"69c2aeb1186dc97a4f4c36d9609ddb49:1732","type":"sequence"}]
+ * @Groups [{"id":"3ac5f05d969bc771d6ba8d344d95aa72:1732","type":"sequence"}]
  */
 class EnterpriseCallCenterModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class EnterpriseCallCenterModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:1732
+     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:1732
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,7 +27,7 @@ class EnterpriseCallCenterModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName useSystemDefaultGuardTimer
      * @Type bool
      * @Optional
-     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:1732
+     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:1732
      * @var bool|null
      */
     private $useSystemDefaultGuardTimer = null;
@@ -36,7 +36,7 @@ class EnterpriseCallCenterModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName enableGuardTimer
      * @Type bool
      * @Optional
-     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:1732
+     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:1732
      * @var bool|null
      */
     private $enableGuardTimer = null;
@@ -45,7 +45,7 @@ class EnterpriseCallCenterModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName guardTimerSeconds
      * @Type int
      * @Optional
-     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:1732
+     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:1732
      * @var int|null
      */
     private $guardTimerSeconds = null;
@@ -54,7 +54,7 @@ class EnterpriseCallCenterModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName useSystemDefaultUnavailableSettings
      * @Type bool
      * @Optional
-     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:1732
+     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:1732
      * @var bool|null
      */
     private $useSystemDefaultUnavailableSettings = null;
@@ -63,7 +63,7 @@ class EnterpriseCallCenterModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName forceAgentUnavailableOnDNDActivation
      * @Type bool
      * @Optional
-     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:1732
+     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:1732
      * @var bool|null
      */
     private $forceAgentUnavailableOnDNDActivation = null;
@@ -72,7 +72,7 @@ class EnterpriseCallCenterModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName forceAgentUnavailableOnPersonalCalls
      * @Type bool
      * @Optional
-     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:1732
+     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:1732
      * @var bool|null
      */
     private $forceAgentUnavailableOnPersonalCalls = null;
@@ -81,7 +81,7 @@ class EnterpriseCallCenterModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName forceAgentUnavailableOnBouncedCallLimit
      * @Type bool
      * @Optional
-     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:1732
+     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:1732
      * @var bool|null
      */
     private $forceAgentUnavailableOnBouncedCallLimit = null;
@@ -90,7 +90,7 @@ class EnterpriseCallCenterModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName numberConsecutiveBouncedCallsToForceAgentUnavailable
      * @Type int
      * @Optional
-     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:1732
+     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:1732
      * @var int|null
      */
     private $numberConsecutiveBouncedCallsToForceAgentUnavailable = null;
@@ -99,7 +99,7 @@ class EnterpriseCallCenterModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName forceAgentUnavailableOnNotReachable
      * @Type bool
      * @Optional
-     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:1732
+     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:1732
      * @var bool|null
      */
     private $forceAgentUnavailableOnNotReachable = null;

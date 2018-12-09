@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:6118","type":"sequence"}]
+ * @Groups [{"id":"15129cd25fa2d5581f4edfd652c24f93:6118","type":"sequence"}]
  */
 class GroupScheduleAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupScheduleAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:6118
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:6118
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,7 +26,7 @@ class GroupScheduleAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:6118
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:6118
      * @var string|null
      */
     private $groupId = null;
@@ -34,7 +34,7 @@ class GroupScheduleAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
     /**
      * @ElementName scheduleName
      * @Type string
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:6118
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:6118
      * @var string|null
      */
     private $scheduleName = null;
@@ -42,7 +42,7 @@ class GroupScheduleAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
     /**
      * @ElementName scheduleType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ScheduleType
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:6118
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:6118
      * @var \CWM\BroadWorksConnector\Ocip\Models\ScheduleType|null
      */
     private $scheduleType = null;

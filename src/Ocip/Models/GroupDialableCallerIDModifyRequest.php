@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:3699","type":"sequence"}]
+ * @Groups [{"id":"15129cd25fa2d5581f4edfd652c24f93:3699","type":"sequence"}]
  */
 class GroupDialableCallerIDModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupDialableCallerIDModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:3699
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:3699
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,7 +26,7 @@ class GroupDialableCallerIDModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:3699
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:3699
      * @var string|null
      */
     private $groupId = null;
@@ -35,7 +35,7 @@ class GroupDialableCallerIDModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName useGroupCriteria
      * @Type bool
      * @Optional
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:3699
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:3699
      * @var bool|null
      */
     private $useGroupCriteria = null;
@@ -44,7 +44,7 @@ class GroupDialableCallerIDModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName nsScreeningFailurePolicy
      * @Type \CWM\BroadWorksConnector\Ocip\Models\NsScreeningFailurePolicy
      * @Optional
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:3699
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:3699
      * @var \CWM\BroadWorksConnector\Ocip\Models\NsScreeningFailurePolicy|null
      */
     private $nsScreeningFailurePolicy = null;
@@ -54,7 +54,7 @@ class GroupDialableCallerIDModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DialableCallerIDCriteriaPriorityOrder
      * @Array
      * @Optional
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:3699
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:3699
      * @var \CWM\BroadWorksConnector\Ocip\Models\DialableCallerIDCriteriaPriorityOrder[]
      */
     private $criteriaPriorityOrder = array(

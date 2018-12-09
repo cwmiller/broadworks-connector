@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to UserCallingPartyCategoryGetRequest16.
  *
  * @see UserCallingPartyCategoryGetRequest16
- * @Groups [{"id":"22021b993135fadb1ded1619493a5a0c:201","type":"sequence"}]
+ * @Groups [{"id":"c856d5d86d5da482525eb01056f273da:201","type":"sequence"}]
  */
 class UserCallingPartyCategoryGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class UserCallingPartyCategoryGetResponse16 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName category
      * @Type string
-     * @Group 22021b993135fadb1ded1619493a5a0c:201
+     * @Group c856d5d86d5da482525eb01056f273da:201
      * @var string|null
      */
     private $category = null;

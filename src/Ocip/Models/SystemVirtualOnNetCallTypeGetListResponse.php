@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         in a row for each Virtual On-Net Call Type.
  *
  * @see SystemVirtualOnNetCallTypeGetListRequest
- * @Groups [{"id":"73530229e066070baac4c09dac256d69:297","type":"sequence"}]
+ * @Groups [{"id":"f72eed3624b2f8f1013e6751cb17c899:297","type":"sequence"}]
  */
 class SystemVirtualOnNetCallTypeGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,7 +19,7 @@ class SystemVirtualOnNetCallTypeGetListResponse extends \CWM\BroadWorksConnector
     /**
      * @ElementName virtualOnNetCallTypeTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 73530229e066070baac4c09dac256d69:297
+     * @Group f72eed3624b2f8f1013e6751cb17c899:297
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $virtualOnNetCallTypeTable = null;

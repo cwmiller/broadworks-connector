@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "Hiragana First Name", "Department", "Phone Number", "Extension", "Email Address".
  *
  * @see UserSeriesCompletionGetRequest
- * @Groups [{"id":"32aa045fae08b992230059afdb58d2a9:234","type":"sequence"}]
+ * @Groups [{"id":"50d7061385a4ccc59235c104f69a18f0:234","type":"sequence"}]
  */
 class UserSeriesCompletionGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -20,7 +20,7 @@ class UserSeriesCompletionGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName name
      * @Type string
      * @Optional
-     * @Group 32aa045fae08b992230059afdb58d2a9:234
+     * @Group 50d7061385a4ccc59235c104f69a18f0:234
      * @var string|null
      */
     private $name = null;
@@ -28,7 +28,7 @@ class UserSeriesCompletionGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName userTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 32aa045fae08b992230059afdb58d2a9:234
+     * @Group 50d7061385a4ccc59235c104f69a18f0:234
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $userTable = null;

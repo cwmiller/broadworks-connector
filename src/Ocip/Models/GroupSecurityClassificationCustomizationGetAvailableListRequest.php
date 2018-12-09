@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupSecurityClassificationCustomizationGetAvailableListResponse
  * @see ErrorResponse
- * @Groups [{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:6373","type":"sequence"}]
+ * @Groups [{"id":"15129cd25fa2d5581f4edfd652c24f93:6373","type":"sequence"}]
  */
 class GroupSecurityClassificationCustomizationGetAvailableListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupSecurityClassificationCustomizationGetAvailableListRequest extends \C
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:6373
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:6373
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,7 +26,7 @@ class GroupSecurityClassificationCustomizationGetAvailableListRequest extends \C
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:6373
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:6373
      * @var string|null
      */
     private $groupId = null;

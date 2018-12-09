@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupAccountAuthorizationCodesGetAvailableUserListResponse
  * @see ErrorResponse
- * @Groups [{"id":"ab77d49abc146ee44a9626534896ad51:84","type":"sequence"}]
+ * @Groups [{"id":"cf39a77cc27bd00da9f2520a22424344:84","type":"sequence"}]
  */
 class GroupAccountAuthorizationCodesGetAvailableUserListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupAccountAuthorizationCodesGetAvailableUserListRequest extends \CWM\Bro
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group ab77d49abc146ee44a9626534896ad51:84
+     * @Group cf39a77cc27bd00da9f2520a22424344:84
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,7 +26,7 @@ class GroupAccountAuthorizationCodesGetAvailableUserListRequest extends \CWM\Bro
     /**
      * @ElementName groupId
      * @Type string
-     * @Group ab77d49abc146ee44a9626534896ad51:84
+     * @Group cf39a77cc27bd00da9f2520a22424344:84
      * @var string|null
      */
     private $groupId = null;
@@ -35,7 +35,7 @@ class GroupAccountAuthorizationCodesGetAvailableUserListRequest extends \CWM\Bro
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group ab77d49abc146ee44a9626534896ad51:84
+     * @Group cf39a77cc27bd00da9f2520a22424344:84
      * @var int|null
      */
     private $responseSizeLimit = null;
@@ -45,7 +45,7 @@ class GroupAccountAuthorizationCodesGetAvailableUserListRequest extends \CWM\Bro
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName
      * @Array
      * @Optional
-     * @Group ab77d49abc146ee44a9626534896ad51:84
+     * @Group cf39a77cc27bd00da9f2520a22424344:84
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[]
      */
     private $searchCriteriaUserLastName = array(
@@ -57,7 +57,7 @@ class GroupAccountAuthorizationCodesGetAvailableUserListRequest extends \CWM\Bro
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName
      * @Array
      * @Optional
-     * @Group ab77d49abc146ee44a9626534896ad51:84
+     * @Group cf39a77cc27bd00da9f2520a22424344:84
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName[]
      */
     private $searchCriteriaUserFirstName = array(
@@ -68,7 +68,7 @@ class GroupAccountAuthorizationCodesGetAvailableUserListRequest extends \CWM\Bro
      * @ElementName searchCriteriaExactUserDepartment
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment
      * @Optional
-     * @Group ab77d49abc146ee44a9626534896ad51:84
+     * @Group cf39a77cc27bd00da9f2520a22424344:84
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment|null
      */
     private $searchCriteriaExactUserDepartment = null;
@@ -78,7 +78,7 @@ class GroupAccountAuthorizationCodesGetAvailableUserListRequest extends \CWM\Bro
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId
      * @Array
      * @Optional
-     * @Group ab77d49abc146ee44a9626534896ad51:84
+     * @Group cf39a77cc27bd00da9f2520a22424344:84
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId[]
      */
     private $searchCriteriaUserId = array(
@@ -90,7 +90,7 @@ class GroupAccountAuthorizationCodesGetAvailableUserListRequest extends \CWM\Bro
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn
      * @Array
      * @Optional
-     * @Group ab77d49abc146ee44a9626534896ad51:84
+     * @Group cf39a77cc27bd00da9f2520a22424344:84
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[]
      */
     private $searchCriteriaDn = array(
@@ -102,7 +102,7 @@ class GroupAccountAuthorizationCodesGetAvailableUserListRequest extends \CWM\Bro
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension
      * @Array
      * @Optional
-     * @Group ab77d49abc146ee44a9626534896ad51:84
+     * @Group cf39a77cc27bd00da9f2520a22424344:84
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension[]
      */
     private $searchCriteriaExtension = array(

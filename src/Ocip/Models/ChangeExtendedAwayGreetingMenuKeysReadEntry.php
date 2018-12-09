@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * The voice portal change extended away greeting menu keys.
  *
- * @Groups [{"id":"1624846b7d87d3ab55e907c443fca9d6:2363","type":"sequence"}]
+ * @Groups [{"id":"80c5986946137c505e41f6008c7f75a8:2363","type":"sequence"}]
  */
 class ChangeExtendedAwayGreetingMenuKeysReadEntry
 {
@@ -16,7 +16,7 @@ class ChangeExtendedAwayGreetingMenuKeysReadEntry
      * @ElementName activateExtendedAwayGreeting
      * @Type string
      * @Optional
-     * @Group 1624846b7d87d3ab55e907c443fca9d6:2363
+     * @Group 80c5986946137c505e41f6008c7f75a8:2363
      * @var string|null
      */
     private $activateExtendedAwayGreeting = null;
@@ -25,7 +25,7 @@ class ChangeExtendedAwayGreetingMenuKeysReadEntry
      * @ElementName deactivateExtendedAwayGreeting
      * @Type string
      * @Optional
-     * @Group 1624846b7d87d3ab55e907c443fca9d6:2363
+     * @Group 80c5986946137c505e41f6008c7f75a8:2363
      * @var string|null
      */
     private $deactivateExtendedAwayGreeting = null;
@@ -34,7 +34,7 @@ class ChangeExtendedAwayGreetingMenuKeysReadEntry
      * @ElementName recordNewGreeting
      * @Type string
      * @Optional
-     * @Group 1624846b7d87d3ab55e907c443fca9d6:2363
+     * @Group 80c5986946137c505e41f6008c7f75a8:2363
      * @var string|null
      */
     private $recordNewGreeting = null;
@@ -43,7 +43,7 @@ class ChangeExtendedAwayGreetingMenuKeysReadEntry
      * @ElementName listenToCurrentGreeting
      * @Type string
      * @Optional
-     * @Group 1624846b7d87d3ab55e907c443fca9d6:2363
+     * @Group 80c5986946137c505e41f6008c7f75a8:2363
      * @var string|null
      */
     private $listenToCurrentGreeting = null;
@@ -51,7 +51,7 @@ class ChangeExtendedAwayGreetingMenuKeysReadEntry
     /**
      * @ElementName returnToPreviousMenu
      * @Type string
-     * @Group 1624846b7d87d3ab55e907c443fca9d6:2363
+     * @Group 80c5986946137c505e41f6008c7f75a8:2363
      * @var string|null
      */
     private $returnToPreviousMenu = null;
@@ -60,7 +60,7 @@ class ChangeExtendedAwayGreetingMenuKeysReadEntry
      * @ElementName repeatMenu
      * @Type string
      * @Optional
-     * @Group 1624846b7d87d3ab55e907c443fca9d6:2363
+     * @Group 80c5986946137c505e41f6008c7f75a8:2363
      * @var string|null
      */
     private $repeatMenu = null;

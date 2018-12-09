@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SuccessResponse
  * @see ErrorResponse
  * @see SystemAutomaticCallbackModifyRequest15
- * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:17463","type":"sequence"}]
+ * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:17463","type":"sequence"}]
  */
 class SystemAutomaticCallbackModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,7 +21,7 @@ class SystemAutomaticCallbackModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @ElementName monitorMinutes
      * @Type int
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:17463
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:17463
      * @var int|null
      */
     private $monitorMinutes = null;
@@ -30,7 +30,7 @@ class SystemAutomaticCallbackModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @ElementName waitBetweenRetryOriginatorMinutes
      * @Type int
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:17463
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:17463
      * @var int|null
      */
     private $waitBetweenRetryOriginatorMinutes = null;
@@ -39,7 +39,7 @@ class SystemAutomaticCallbackModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @ElementName maxMonitorsPerOriginator
      * @Type int
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:17463
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:17463
      * @var int|null
      */
     private $maxMonitorsPerOriginator = null;
@@ -48,7 +48,7 @@ class SystemAutomaticCallbackModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @ElementName maxCallbackRings
      * @Type int
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:17463
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:17463
      * @var int|null
      */
     private $maxCallbackRings = null;
@@ -57,7 +57,7 @@ class SystemAutomaticCallbackModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @ElementName maxRetryOriginatorMinutes
      * @Type int
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:17463
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:17463
      * @var int|null
      */
     private $maxRetryOriginatorMinutes = null;

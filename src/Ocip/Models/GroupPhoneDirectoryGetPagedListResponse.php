@@ -23,7 +23,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         For a Regular User or a Virtual On Network Enterprise Extensions, the Service Name is empty.
  *
  * @see GroupPhoneDirectoryGetPagedListRequest
- * @Groups [{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:5731","type":"sequence"}]
+ * @Groups [{"id":"15129cd25fa2d5581f4edfd652c24f93:5731","type":"sequence"}]
  */
 class GroupPhoneDirectoryGetPagedListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -31,7 +31,7 @@ class GroupPhoneDirectoryGetPagedListResponse extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName totalNumberOfRows
      * @Type int
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:5731
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:5731
      * @var int|null
      */
     private $totalNumberOfRows = null;
@@ -39,7 +39,7 @@ class GroupPhoneDirectoryGetPagedListResponse extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName directoryTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:5731
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:5731
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $directoryTable = null;

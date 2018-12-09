@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SystemGeographicRedundancyUnreachableFromPrimaryGetUserListResponse
  * @see ErrorResponse
  * @see SystemGeographicRedundancyUnreachableFromPrimaryGetUserListRequest22
- * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:22471","type":"sequence"}]
+ * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:22471","type":"sequence"}]
  */
 class SystemGeographicRedundancyUnreachableFromPrimaryGetUserListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

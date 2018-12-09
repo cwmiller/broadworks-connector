@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"69c2aeb1186dc97a4f4c36d9609ddb49:5122","type":"sequence"}]
+ * @Groups [{"id":"3ac5f05d969bc771d6ba8d344d95aa72:5122","type":"sequence"}]
  */
 class GroupCallCenterQueueStatusNotificationModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupCallCenterQueueStatusNotificationModifyRequest extends \CWM\BroadWork
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:5122
+     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:5122
      * @var string|null
      */
     private $serviceUserId = null;
@@ -27,7 +27,7 @@ class GroupCallCenterQueueStatusNotificationModifyRequest extends \CWM\BroadWork
      * @ElementName enableQueueStatusNotification
      * @Type bool
      * @Optional
-     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:5122
+     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:5122
      * @var bool|null
      */
     private $enableQueueStatusNotification = null;
@@ -36,7 +36,7 @@ class GroupCallCenterQueueStatusNotificationModifyRequest extends \CWM\BroadWork
      * @ElementName enableQueueDepthThreshold
      * @Type bool
      * @Optional
-     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:5122
+     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:5122
      * @var bool|null
      */
     private $enableQueueDepthThreshold = null;
@@ -45,7 +45,7 @@ class GroupCallCenterQueueStatusNotificationModifyRequest extends \CWM\BroadWork
      * @ElementName enableWaitingTimeThreshold
      * @Type bool
      * @Optional
-     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:5122
+     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:5122
      * @var bool|null
      */
     private $enableWaitingTimeThreshold = null;
@@ -54,7 +54,7 @@ class GroupCallCenterQueueStatusNotificationModifyRequest extends \CWM\BroadWork
      * @ElementName numberOfCallsThreshold
      * @Type int
      * @Optional
-     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:5122
+     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:5122
      * @var int|null
      */
     private $numberOfCallsThreshold = null;
@@ -63,7 +63,7 @@ class GroupCallCenterQueueStatusNotificationModifyRequest extends \CWM\BroadWork
      * @ElementName waitingTimeOfCallsThreshold
      * @Type int
      * @Optional
-     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:5122
+     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:5122
      * @var int|null
      */
     private $waitingTimeOfCallsThreshold = null;

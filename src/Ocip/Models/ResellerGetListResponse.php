@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains a 2 column table with column headings "Reseller Id", "Reseller Name". A row for each reseller.
  *
  * @see ResellerGetListRequest
- * @Groups [{"id":"7e8feb1c28b49a3b8755f86e716ebee7:228","type":"sequence"}]
+ * @Groups [{"id":"c542c6e8c7bdabb9276b67d4d39efb85:228","type":"sequence"}]
  */
 class ResellerGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class ResellerGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
     /**
      * @ElementName resellerTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 7e8feb1c28b49a3b8755f86e716ebee7:228
+     * @Group c542c6e8c7bdabb9276b67d4d39efb85:228
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $resellerTable = null;

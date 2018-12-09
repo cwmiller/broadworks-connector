@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"13758dca4b1e7aaa8febe2ec5809ebf9:123","type":"sequence"}]
+ * @Groups [{"id":"f3f841d19cccb645df66568fd6abbde1:123","type":"sequence"}]
  */
 class UserHotelingGuestModifyRequest21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class UserHotelingGuestModifyRequest21 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName userId
      * @Type string
-     * @Group 13758dca4b1e7aaa8febe2ec5809ebf9:123
+     * @Group f3f841d19cccb645df66568fd6abbde1:123
      * @var string|null
      */
     private $userId = null;
@@ -28,7 +28,7 @@ class UserHotelingGuestModifyRequest21 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName isActive
      * @Type bool
      * @Optional
-     * @Group 13758dca4b1e7aaa8febe2ec5809ebf9:123
+     * @Group f3f841d19cccb645df66568fd6abbde1:123
      * @var bool|null
      */
     private $isActive = null;
@@ -37,7 +37,7 @@ class UserHotelingGuestModifyRequest21 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName enableAssociationLimit
      * @Type bool
      * @Optional
-     * @Group 13758dca4b1e7aaa8febe2ec5809ebf9:123
+     * @Group f3f841d19cccb645df66568fd6abbde1:123
      * @var bool|null
      */
     private $enableAssociationLimit = null;
@@ -46,7 +46,7 @@ class UserHotelingGuestModifyRequest21 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName associationLimitHours
      * @Type int
      * @Optional
-     * @Group 13758dca4b1e7aaa8febe2ec5809ebf9:123
+     * @Group f3f841d19cccb645df66568fd6abbde1:123
      * @var int|null
      */
     private $associationLimitHours = null;
@@ -56,7 +56,7 @@ class UserHotelingGuestModifyRequest21 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 13758dca4b1e7aaa8febe2ec5809ebf9:123
+     * @Group f3f841d19cccb645df66568fd6abbde1:123
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $hostUserId = null;

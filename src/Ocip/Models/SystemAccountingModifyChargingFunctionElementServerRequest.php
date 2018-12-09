@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:1568","type":"sequence"}]
+ * @Groups [{"id":"b5f5416d9e71f8e4246cda16c4723744:1568","type":"sequence"}]
  */
 class SystemAccountingModifyChargingFunctionElementServerRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemAccountingModifyChargingFunctionElementServerRequest extends \CWM\Br
     /**
      * @ElementName address
      * @Type string
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:1568
+     * @Group b5f5416d9e71f8e4246cda16c4723744:1568
      * @var string|null
      */
     private $address = null;
@@ -27,7 +27,7 @@ class SystemAccountingModifyChargingFunctionElementServerRequest extends \CWM\Br
      * @ElementName type
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ChargingFunctionElementServerType
      * @Optional
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:1568
+     * @Group b5f5416d9e71f8e4246cda16c4723744:1568
      * @var \CWM\BroadWorksConnector\Ocip\Models\ChargingFunctionElementServerType|null
      */
     private $type = null;
@@ -37,7 +37,7 @@ class SystemAccountingModifyChargingFunctionElementServerRequest extends \CWM\Br
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:1568
+     * @Group b5f5416d9e71f8e4246cda16c4723744:1568
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $description = null;

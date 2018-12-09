@@ -20,7 +20,8 @@ use CWM\BroadWorksConnector\Ocip\Models\UserPersonalAssistantExclusionNumberModi
 use CWM\BroadWorksConnector\Ocip\Models\UserPersonalAssistantGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserPersonalAssistantGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserPersonalAssistantModifyRequest;
-use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServicePersonalAssistant
@@ -30,6 +31,7 @@ trait OCISchemaServicePersonalAssistant
      * @param SystemPersonalAssistantGetRequest $request
      * @return SystemPersonalAssistantGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemPersonalAssistantGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemPersonalAssistantGetRequest $request)
     {
@@ -40,6 +42,7 @@ trait OCISchemaServicePersonalAssistant
      * @param SystemPersonalAssistantModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemPersonalAssistantModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemPersonalAssistantModifyRequest $request)
     {
@@ -50,6 +53,7 @@ trait OCISchemaServicePersonalAssistant
      * @param UserCallToNumberGetAvailableListRequest $request
      * @return UserCallToNumberGetAvailableListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userCallToNumberGetAvailableListRequest(\CWM\BroadWorksConnector\Ocip\Models\UserCallToNumberGetAvailableListRequest $request)
     {
@@ -60,6 +64,7 @@ trait OCISchemaServicePersonalAssistant
      * @param UserPersonalAssistantCallToNumberGetListRequest $request
      * @return UserPersonalAssistantCallToNumberGetListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userPersonalAssistantCallToNumberGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\UserPersonalAssistantCallToNumberGetListRequest $request)
     {
@@ -70,6 +75,7 @@ trait OCISchemaServicePersonalAssistant
      * @param UserPersonalAssistantCallToNumberModifyListRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userPersonalAssistantCallToNumberModifyListRequest(\CWM\BroadWorksConnector\Ocip\Models\UserPersonalAssistantCallToNumberModifyListRequest $request)
     {
@@ -80,6 +86,7 @@ trait OCISchemaServicePersonalAssistant
      * @param UserPersonalAssistantExclusionNumberAddRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userPersonalAssistantExclusionNumberAddRequest(\CWM\BroadWorksConnector\Ocip\Models\UserPersonalAssistantExclusionNumberAddRequest $request)
     {
@@ -90,6 +97,7 @@ trait OCISchemaServicePersonalAssistant
      * @param UserPersonalAssistantExclusionNumberDeleteListRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userPersonalAssistantExclusionNumberDeleteListRequest(\CWM\BroadWorksConnector\Ocip\Models\UserPersonalAssistantExclusionNumberDeleteListRequest $request)
     {
@@ -100,6 +108,7 @@ trait OCISchemaServicePersonalAssistant
      * @param UserPersonalAssistantExclusionNumberGetListRequest $request
      * @return userPersonalAssistantExclusionNumberGetListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userPersonalAssistantExclusionNumberGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\UserPersonalAssistantExclusionNumberGetListRequest $request)
     {
@@ -110,6 +119,7 @@ trait OCISchemaServicePersonalAssistant
      * @param UserPersonalAssistantExclusionNumberGetRequest $request
      * @return UserPersonalAssistantExclusionNumberGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userPersonalAssistantExclusionNumberGetRequest(\CWM\BroadWorksConnector\Ocip\Models\UserPersonalAssistantExclusionNumberGetRequest $request)
     {
@@ -120,6 +130,7 @@ trait OCISchemaServicePersonalAssistant
      * @param UserPersonalAssistantExclusionNumberModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userPersonalAssistantExclusionNumberModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\UserPersonalAssistantExclusionNumberModifyRequest $request)
     {
@@ -130,6 +141,7 @@ trait OCISchemaServicePersonalAssistant
      * @param UserPersonalAssistantGetRequest $request
      * @return UserPersonalAssistantGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userPersonalAssistantGetRequest(\CWM\BroadWorksConnector\Ocip\Models\UserPersonalAssistantGetRequest $request)
     {
@@ -140,6 +152,7 @@ trait OCISchemaServicePersonalAssistant
      * @param UserPersonalAssistantModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userPersonalAssistantModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\UserPersonalAssistantModifyRequest $request)
     {

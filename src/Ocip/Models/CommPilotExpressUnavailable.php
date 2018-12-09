@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * CommPilot Express Unavailable Configuration used in the context of a get.
  *
- * @Groups [{"id":"3634139a4e18662a8fde423f112abbbc:259","type":"sequence"}]
+ * @Groups [{"id":"cc98d71eafb1a94fd4bd31d597159369:259","type":"sequence"}]
  */
 class CommPilotExpressUnavailable
 {
@@ -15,7 +15,7 @@ class CommPilotExpressUnavailable
     /**
      * @ElementName incomingCalls
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressRedirectionWithException
-     * @Group 3634139a4e18662a8fde423f112abbbc:259
+     * @Group cc98d71eafb1a94fd4bd31d597159369:259
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressRedirectionWithException|null
      */
     private $incomingCalls = null;
@@ -23,7 +23,7 @@ class CommPilotExpressUnavailable
     /**
      * @ElementName voiceMailGreeting
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressVoiceMailGreeting
-     * @Group 3634139a4e18662a8fde423f112abbbc:259
+     * @Group cc98d71eafb1a94fd4bd31d597159369:259
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressVoiceMailGreeting|null
      */
     private $voiceMailGreeting = null;

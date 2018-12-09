@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see UserVoiceMessagingUserGetVoicePortalResponse
  * @see ErrorResponse
  * @see UserVoiceMessagingUserGetVoicePortalRequest16
- * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:38041","type":"sequence"}]
+ * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:38041","type":"sequence"}]
  */
 class UserVoiceMessagingUserGetVoicePortalRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class UserVoiceMessagingUserGetVoicePortalRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName userId
      * @Type string
-     * @Group 1a79c7896cb04feac6eff47a5321756e:38041
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:38041
      * @var string|null
      */
     private $userId = null;

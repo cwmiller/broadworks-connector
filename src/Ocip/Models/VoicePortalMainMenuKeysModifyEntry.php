@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * The voice portal main menu keys modify entry.
  *
- * @Groups [{"id":"1624846b7d87d3ab55e907c443fca9d6:3240","type":"sequence"}]
+ * @Groups [{"id":"80c5986946137c505e41f6008c7f75a8:3240","type":"sequence"}]
  */
 class VoicePortalMainMenuKeysModifyEntry
 {
@@ -17,7 +17,7 @@ class VoicePortalMainMenuKeysModifyEntry
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 1624846b7d87d3ab55e907c443fca9d6:3240
+     * @Group 80c5986946137c505e41f6008c7f75a8:3240
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $voiceMessaging = null;
@@ -27,7 +27,7 @@ class VoicePortalMainMenuKeysModifyEntry
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 1624846b7d87d3ab55e907c443fca9d6:3240
+     * @Group 80c5986946137c505e41f6008c7f75a8:3240
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $commPilotExpressProfile = null;
@@ -37,7 +37,7 @@ class VoicePortalMainMenuKeysModifyEntry
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 1624846b7d87d3ab55e907c443fca9d6:3240
+     * @Group 80c5986946137c505e41f6008c7f75a8:3240
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $greetings = null;
@@ -47,7 +47,7 @@ class VoicePortalMainMenuKeysModifyEntry
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 1624846b7d87d3ab55e907c443fca9d6:3240
+     * @Group 80c5986946137c505e41f6008c7f75a8:3240
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $callForwardingOptions = null;
@@ -57,7 +57,7 @@ class VoicePortalMainMenuKeysModifyEntry
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 1624846b7d87d3ab55e907c443fca9d6:3240
+     * @Group 80c5986946137c505e41f6008c7f75a8:3240
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $voicePortalCalling = null;
@@ -67,7 +67,7 @@ class VoicePortalMainMenuKeysModifyEntry
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 1624846b7d87d3ab55e907c443fca9d6:3240
+     * @Group 80c5986946137c505e41f6008c7f75a8:3240
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $hoteling = null;
@@ -77,7 +77,7 @@ class VoicePortalMainMenuKeysModifyEntry
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 1624846b7d87d3ab55e907c443fca9d6:3240
+     * @Group 80c5986946137c505e41f6008c7f75a8:3240
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $passcode = null;
@@ -87,7 +87,7 @@ class VoicePortalMainMenuKeysModifyEntry
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 1624846b7d87d3ab55e907c443fca9d6:3240
+     * @Group 80c5986946137c505e41f6008c7f75a8:3240
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $exitVoicePortal = null;
@@ -97,7 +97,7 @@ class VoicePortalMainMenuKeysModifyEntry
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 1624846b7d87d3ab55e907c443fca9d6:3240
+     * @Group 80c5986946137c505e41f6008c7f75a8:3240
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $repeatMenu = null;
@@ -107,7 +107,7 @@ class VoicePortalMainMenuKeysModifyEntry
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 1624846b7d87d3ab55e907c443fca9d6:3240
+     * @Group 80c5986946137c505e41f6008c7f75a8:3240
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $externalRouting = null;
@@ -117,7 +117,7 @@ class VoicePortalMainMenuKeysModifyEntry
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 1624846b7d87d3ab55e907c443fca9d6:3240
+     * @Group 80c5986946137c505e41f6008c7f75a8:3240
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $announcement = null;
@@ -127,7 +127,7 @@ class VoicePortalMainMenuKeysModifyEntry
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 1624846b7d87d3ab55e907c443fca9d6:3240
+     * @Group 80c5986946137c505e41f6008c7f75a8:3240
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $personalAssistant = null;

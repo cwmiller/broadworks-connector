@@ -5,7 +5,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * CollaborateRoomScheduleScheduleRecurring
  *
- * @Groups [{"id":"18b369af88e42ffdb4166615c670ce2c:809","type":"sequence"}]
+ * @Groups [{"id":"8e629edbac315ae7889caca732382c44:809","type":"sequence"}]
  */
 class CollaborateRoomScheduleScheduleRecurring
 {
@@ -13,7 +13,7 @@ class CollaborateRoomScheduleScheduleRecurring
     /**
      * @ElementName startTime
      * @Type string
-     * @Group 18b369af88e42ffdb4166615c670ce2c:809
+     * @Group 8e629edbac315ae7889caca732382c44:809
      * @var string|null
      */
     private $startTime = null;
@@ -21,7 +21,7 @@ class CollaborateRoomScheduleScheduleRecurring
     /**
      * @ElementName duration
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CollaborateRoomScheduleDuration
-     * @Group 18b369af88e42ffdb4166615c670ce2c:809
+     * @Group 8e629edbac315ae7889caca732382c44:809
      * @var \CWM\BroadWorksConnector\Ocip\Models\CollaborateRoomScheduleDuration|null
      */
     private $duration = null;
@@ -29,7 +29,7 @@ class CollaborateRoomScheduleScheduleRecurring
     /**
      * @ElementName recurrence
      * @Type \CWM\BroadWorksConnector\Ocip\Models\Recurrence
-     * @Group 18b369af88e42ffdb4166615c670ce2c:809
+     * @Group 8e629edbac315ae7889caca732382c44:809
      * @var \CWM\BroadWorksConnector\Ocip\Models\Recurrence|null
      */
     private $recurrence = null;

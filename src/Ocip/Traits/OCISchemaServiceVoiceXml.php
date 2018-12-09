@@ -10,7 +10,8 @@ use CWM\BroadWorksConnector\Ocip\Models\GroupVoiceXmlGetInstanceRequest19sp1;
 use CWM\BroadWorksConnector\Ocip\Models\GroupVoiceXmlGetInstanceResponse19sp1;
 use CWM\BroadWorksConnector\Ocip\Models\GroupVoiceXmlModifyActiveInstanceListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupVoiceXmlModifyInstanceRequest;
-use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceVoiceXml
@@ -20,6 +21,7 @@ trait OCISchemaServiceVoiceXml
      * @param GroupVoiceXmlAddInstanceRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupVoiceXmlAddInstanceRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupVoiceXmlAddInstanceRequest $request)
     {
@@ -30,6 +32,7 @@ trait OCISchemaServiceVoiceXml
      * @param GroupVoiceXmlDeleteInstanceRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupVoiceXmlDeleteInstanceRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupVoiceXmlDeleteInstanceRequest $request)
     {
@@ -40,6 +43,7 @@ trait OCISchemaServiceVoiceXml
      * @param GroupVoiceXmlGetInstanceListRequest $request
      * @return GroupVoiceXmlGetInstanceListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupVoiceXmlGetInstanceListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupVoiceXmlGetInstanceListRequest $request)
     {
@@ -50,6 +54,7 @@ trait OCISchemaServiceVoiceXml
      * @param GroupVoiceXmlGetInstanceRequest19sp1 $request
      * @return GroupVoiceXmlGetInstanceResponse19sp1
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupVoiceXmlGetInstanceRequest19sp1(\CWM\BroadWorksConnector\Ocip\Models\GroupVoiceXmlGetInstanceRequest19sp1 $request)
     {
@@ -60,6 +65,7 @@ trait OCISchemaServiceVoiceXml
      * @param GroupVoiceXmlModifyActiveInstanceListRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupVoiceXmlModifyActiveInstanceListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupVoiceXmlModifyActiveInstanceListRequest $request)
     {
@@ -70,6 +76,7 @@ trait OCISchemaServiceVoiceXml
      * @param GroupVoiceXmlModifyInstanceRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupVoiceXmlModifyInstanceRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupVoiceXmlModifyInstanceRequest $request)
     {

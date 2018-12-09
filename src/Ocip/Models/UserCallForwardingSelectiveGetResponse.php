@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *          "Is Active", "Criteria Name", "Time Schedule", "Calls From" and "Forward To".
  *
  * @see UserCallForwardingSelectiveGetRequest
- * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:32988","type":"sequence"}]
+ * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:32988","type":"sequence"}]
  */
 class UserCallForwardingSelectiveGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class UserCallForwardingSelectiveGetResponse extends \CWM\BroadWorksConnector\Oc
      * @ElementName defaultForwardToPhoneNumber
      * @Type string
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:32988
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:32988
      * @var string|null
      */
     private $defaultForwardToPhoneNumber = null;
@@ -26,7 +26,7 @@ class UserCallForwardingSelectiveGetResponse extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName playRingReminder
      * @Type bool
-     * @Group 1a79c7896cb04feac6eff47a5321756e:32988
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:32988
      * @var bool|null
      */
     private $playRingReminder = null;
@@ -34,7 +34,7 @@ class UserCallForwardingSelectiveGetResponse extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName criteriaTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 1a79c7896cb04feac6eff47a5321756e:32988
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:32988
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $criteriaTable = null;

@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the SystemBroadWorksMobileManagerGetRequest
  *
  * @see SystemBroadWorksMobileManagerGetRequest
- * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:2105","type":"sequence"}]
+ * @Groups [{"id":"b5f5416d9e71f8e4246cda16c4723744:2105","type":"sequence"}]
  */
 class SystemBroadWorksMobileManagerGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class SystemBroadWorksMobileManagerGetResponse extends \CWM\BroadWorksConnector\
      * @ElementName scfApiNetAddress1
      * @Type string
      * @Optional
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:2105
+     * @Group b5f5416d9e71f8e4246cda16c4723744:2105
      * @var string|null
      */
     private $scfApiNetAddress1 = null;
@@ -26,7 +26,7 @@ class SystemBroadWorksMobileManagerGetResponse extends \CWM\BroadWorksConnector\
      * @ElementName scfApiNetAddress2
      * @Type string
      * @Optional
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:2105
+     * @Group b5f5416d9e71f8e4246cda16c4723744:2105
      * @var string|null
      */
     private $scfApiNetAddress2 = null;
@@ -35,7 +35,7 @@ class SystemBroadWorksMobileManagerGetResponse extends \CWM\BroadWorksConnector\
      * @ElementName userName
      * @Type string
      * @Optional
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:2105
+     * @Group b5f5416d9e71f8e4246cda16c4723744:2105
      * @var string|null
      */
     private $userName = null;
@@ -44,7 +44,7 @@ class SystemBroadWorksMobileManagerGetResponse extends \CWM\BroadWorksConnector\
      * @ElementName emailFromAddress
      * @Type string
      * @Optional
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:2105
+     * @Group b5f5416d9e71f8e4246cda16c4723744:2105
      * @var string|null
      */
     private $emailFromAddress = null;
@@ -52,7 +52,7 @@ class SystemBroadWorksMobileManagerGetResponse extends \CWM\BroadWorksConnector\
     /**
      * @ElementName scfIMSOnly
      * @Type bool
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:2105
+     * @Group b5f5416d9e71f8e4246cda16c4723744:2105
      * @var bool|null
      */
     private $scfIMSOnly = null;
@@ -61,7 +61,7 @@ class SystemBroadWorksMobileManagerGetResponse extends \CWM\BroadWorksConnector\
      * @ElementName signalingIPAddress
      * @Type string
      * @Optional
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:2105
+     * @Group b5f5416d9e71f8e4246cda16c4723744:2105
      * @var string|null
      */
     private $signalingIPAddress = null;
@@ -70,7 +70,7 @@ class SystemBroadWorksMobileManagerGetResponse extends \CWM\BroadWorksConnector\
      * @ElementName signalingPort
      * @Type int
      * @Optional
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:2105
+     * @Group b5f5416d9e71f8e4246cda16c4723744:2105
      * @var int|null
      */
     private $signalingPort = null;

@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"8f3ed38751e86ebcc639b5bc5cdef0ec:5218","type":"sequence"}]
+ * @Groups [{"id":"8eb862aea0ee5d4211db0a0d3fe7c164:5218","type":"sequence"}]
  */
 class ServiceProviderServicePackMigrationTaskAddRequest21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class ServiceProviderServicePackMigrationTaskAddRequest21 extends \CWM\BroadWork
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:5218
+     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:5218
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,7 +26,7 @@ class ServiceProviderServicePackMigrationTaskAddRequest21 extends \CWM\BroadWork
     /**
      * @ElementName taskName
      * @Type string
-     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:5218
+     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:5218
      * @var string|null
      */
     private $taskName = null;
@@ -34,7 +34,7 @@ class ServiceProviderServicePackMigrationTaskAddRequest21 extends \CWM\BroadWork
     /**
      * @ElementName startTimestamp
      * @Type string
-     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:5218
+     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:5218
      * @var string|null
      */
     private $startTimestamp = null;
@@ -42,7 +42,7 @@ class ServiceProviderServicePackMigrationTaskAddRequest21 extends \CWM\BroadWork
     /**
      * @ElementName expireAfterNumHours
      * @Type int
-     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:5218
+     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:5218
      * @var int|null
      */
     private $expireAfterNumHours = null;
@@ -50,7 +50,7 @@ class ServiceProviderServicePackMigrationTaskAddRequest21 extends \CWM\BroadWork
     /**
      * @ElementName maxDurationHours
      * @Type int
-     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:5218
+     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:5218
      * @var int|null
      */
     private $maxDurationHours = null;
@@ -58,7 +58,7 @@ class ServiceProviderServicePackMigrationTaskAddRequest21 extends \CWM\BroadWork
     /**
      * @ElementName sendReportEmail
      * @Type bool
-     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:5218
+     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:5218
      * @var bool|null
      */
     private $sendReportEmail = null;
@@ -67,7 +67,7 @@ class ServiceProviderServicePackMigrationTaskAddRequest21 extends \CWM\BroadWork
      * @ElementName reportDeliveryEmailAddress
      * @Type string
      * @Optional
-     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:5218
+     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:5218
      * @var string|null
      */
     private $reportDeliveryEmailAddress = null;
@@ -75,7 +75,7 @@ class ServiceProviderServicePackMigrationTaskAddRequest21 extends \CWM\BroadWork
     /**
      * @ElementName abortOnError
      * @Type bool
-     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:5218
+     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:5218
      * @var bool|null
      */
     private $abortOnError = null;
@@ -84,7 +84,7 @@ class ServiceProviderServicePackMigrationTaskAddRequest21 extends \CWM\BroadWork
      * @ElementName abortErrorThreshold
      * @Type int
      * @Optional
-     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:5218
+     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:5218
      * @var int|null
      */
     private $abortErrorThreshold = null;
@@ -92,7 +92,7 @@ class ServiceProviderServicePackMigrationTaskAddRequest21 extends \CWM\BroadWork
     /**
      * @ElementName reportAllUsers
      * @Type bool
-     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:5218
+     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:5218
      * @var bool|null
      */
     private $reportAllUsers = null;
@@ -100,7 +100,7 @@ class ServiceProviderServicePackMigrationTaskAddRequest21 extends \CWM\BroadWork
     /**
      * @ElementName automaticallyIncrementServiceQuantity
      * @Type bool
-     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:5218
+     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:5218
      * @var bool|null
      */
     private $automaticallyIncrementServiceQuantity = null;

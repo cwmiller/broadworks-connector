@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupDepartmentGetAvailableParentListResponse
  * @see ErrorResponse
- * @Groups [{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:2930","type":"sequence"}]
+ * @Groups [{"id":"15129cd25fa2d5581f4edfd652c24f93:2930","type":"sequence"}]
  */
 class GroupDepartmentGetAvailableParentListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,7 +21,7 @@ class GroupDepartmentGetAvailableParentListRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:2930
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:2930
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -29,7 +29,7 @@ class GroupDepartmentGetAvailableParentListRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:2930
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:2930
      * @var string|null
      */
     private $groupId = null;
@@ -37,7 +37,7 @@ class GroupDepartmentGetAvailableParentListRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName departmentName
      * @Type string
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:2930
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:2930
      * @var string|null
      */
     private $departmentName = null;

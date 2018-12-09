@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"75fc596c21103d0c2b08c717c36f4ff1:48","type":"sequence"}]
+ * @Groups [{"id":"faa3513e1056a71169f28b6219f96cad:48","type":"sequence"}]
  */
 class GroupVoiceXmlAddInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class GroupVoiceXmlAddInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 75fc596c21103d0c2b08c717c36f4ff1:48
+     * @Group faa3513e1056a71169f28b6219f96cad:48
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -28,7 +28,7 @@ class GroupVoiceXmlAddInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 75fc596c21103d0c2b08c717c36f4ff1:48
+     * @Group faa3513e1056a71169f28b6219f96cad:48
      * @var string|null
      */
     private $groupId = null;
@@ -36,7 +36,7 @@ class GroupVoiceXmlAddInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group 75fc596c21103d0c2b08c717c36f4ff1:48
+     * @Group faa3513e1056a71169f28b6219f96cad:48
      * @var string|null
      */
     private $serviceUserId = null;
@@ -44,7 +44,7 @@ class GroupVoiceXmlAddInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName serviceInstanceProfile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceAddProfile
-     * @Group 75fc596c21103d0c2b08c717c36f4ff1:48
+     * @Group faa3513e1056a71169f28b6219f96cad:48
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceAddProfile|null
      */
     private $serviceInstanceProfile = null;
@@ -53,7 +53,7 @@ class GroupVoiceXmlAddInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName networkClassOfService
      * @Type string
      * @Optional
-     * @Group 75fc596c21103d0c2b08c717c36f4ff1:48
+     * @Group faa3513e1056a71169f28b6219f96cad:48
      * @var string|null
      */
     private $networkClassOfService = null;
@@ -62,7 +62,7 @@ class GroupVoiceXmlAddInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName accessDeviceEndpoint
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointAdd
      * @Optional
-     * @Group 75fc596c21103d0c2b08c717c36f4ff1:48
+     * @Group faa3513e1056a71169f28b6219f96cad:48
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointAdd|null
      */
     private $accessDeviceEndpoint = null;

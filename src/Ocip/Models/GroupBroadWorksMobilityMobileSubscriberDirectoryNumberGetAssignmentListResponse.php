@@ -14,7 +14,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The "Department" column contains the department of the user if it is part of a department.
  *
  * @see GroupBroadWorksMobilityMobileSubscriberDirectoryNumberGetAssignmentListRequest
- * @Groups [{"id":"5d94cb4fd2bf88ffe6e6d2193917a6ff:255","type":"sequence"}]
+ * @Groups [{"id":"6536ac9946b3d8422bec81ad9d995e2b:255","type":"sequence"}]
  */
 class GroupBroadWorksMobilityMobileSubscriberDirectoryNumberGetAssignmentListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -22,7 +22,7 @@ class GroupBroadWorksMobilityMobileSubscriberDirectoryNumberGetAssignmentListRes
     /**
      * @ElementName mobileSubscriberDirectoryNumberTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 5d94cb4fd2bf88ffe6e6d2193917a6ff:255
+     * @Group 6536ac9946b3d8422bec81ad9d995e2b:255
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $mobileSubscriberDirectoryNumberTable = null;

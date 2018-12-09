@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:2152","type":"sequence"}]
+ * @Groups [{"id":"15129cd25fa2d5581f4edfd652c24f93:2152","type":"sequence"}]
  */
 class GroupCommonPhoneListModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupCommonPhoneListModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:2152
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:2152
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,7 +26,7 @@ class GroupCommonPhoneListModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:2152
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:2152
      * @var string|null
      */
     private $groupId = null;
@@ -34,7 +34,7 @@ class GroupCommonPhoneListModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName entryName
      * @Type string
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:2152
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:2152
      * @var string|null
      */
     private $entryName = null;
@@ -43,7 +43,7 @@ class GroupCommonPhoneListModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName newEntryName
      * @Type string
      * @Optional
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:2152
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:2152
      * @var string|null
      */
     private $newEntryName = null;
@@ -52,7 +52,7 @@ class GroupCommonPhoneListModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName phoneNumber
      * @Type string
      * @Optional
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:2152
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:2152
      * @var string|null
      */
     private $phoneNumber = null;

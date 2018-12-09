@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:5995","type":"sequence"}]
+ * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:5995","type":"sequence"}]
  */
 class GroupCallingLineIdModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupCallingLineIdModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 1a79c7896cb04feac6eff47a5321756e:5995
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:5995
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,7 +26,7 @@ class GroupCallingLineIdModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 1a79c7896cb04feac6eff47a5321756e:5995
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:5995
      * @var string|null
      */
     private $groupId = null;
@@ -35,7 +35,7 @@ class GroupCallingLineIdModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName useGroupNumber
      * @Type bool
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:5995
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:5995
      * @var bool|null
      */
     private $useGroupNumber = null;
@@ -44,7 +44,7 @@ class GroupCallingLineIdModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName useGroupName
      * @Type bool
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:5995
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:5995
      * @var bool|null
      */
     private $useGroupName = null;
@@ -54,7 +54,7 @@ class GroupCallingLineIdModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:5995
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:5995
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $callingLineIdPhoneNumber = null;

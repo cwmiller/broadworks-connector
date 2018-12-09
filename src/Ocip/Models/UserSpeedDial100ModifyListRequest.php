@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"36d45d852a06f31a5078c9ad46622b49:243","type":"sequence"}]
+ * @Groups [{"id":"4de7b677f1eb49af9cc84bc14731a3bb:243","type":"sequence"}]
  */
 class UserSpeedDial100ModifyListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class UserSpeedDial100ModifyListRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName userId
      * @Type string
-     * @Group 36d45d852a06f31a5078c9ad46622b49:243
+     * @Group 4de7b677f1eb49af9cc84bc14731a3bb:243
      * @var string|null
      */
     private $userId = null;
@@ -29,7 +29,7 @@ class UserSpeedDial100ModifyListRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SpeedDial100EntryModify
      * @Array
      * @Optional
-     * @Group 36d45d852a06f31a5078c9ad46622b49:243
+     * @Group 4de7b677f1eb49af9cc84bc14731a3bb:243
      * @var \CWM\BroadWorksConnector\Ocip\Models\SpeedDial100EntryModify[]
      */
     private $speedDialEntry = array(

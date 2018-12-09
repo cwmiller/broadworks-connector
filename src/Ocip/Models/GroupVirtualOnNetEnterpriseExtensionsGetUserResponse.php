@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to GroupVirtualOnNetEnterpriseExtensionsGetUserRequest.
  *
  * @see GroupVirtualOnNetEnterpriseExtensionsGetUserRequest
- * @Groups [{"id":"73530229e066070baac4c09dac256d69:200","type":"sequence"}]
+ * @Groups [{"id":"f72eed3624b2f8f1013e6751cb17c899:200","type":"sequence"}]
  */
 class GroupVirtualOnNetEnterpriseExtensionsGetUserResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class GroupVirtualOnNetEnterpriseExtensionsGetUserResponse extends \CWM\BroadWor
     /**
      * @ElementName extension
      * @Type string
-     * @Group 73530229e066070baac4c09dac256d69:200
+     * @Group f72eed3624b2f8f1013e6751cb17c899:200
      * @var string|null
      */
     private $extension = null;
@@ -24,7 +24,7 @@ class GroupVirtualOnNetEnterpriseExtensionsGetUserResponse extends \CWM\BroadWor
     /**
      * @ElementName firstName
      * @Type string
-     * @Group 73530229e066070baac4c09dac256d69:200
+     * @Group f72eed3624b2f8f1013e6751cb17c899:200
      * @var string|null
      */
     private $firstName = null;
@@ -32,7 +32,7 @@ class GroupVirtualOnNetEnterpriseExtensionsGetUserResponse extends \CWM\BroadWor
     /**
      * @ElementName lastName
      * @Type string
-     * @Group 73530229e066070baac4c09dac256d69:200
+     * @Group f72eed3624b2f8f1013e6751cb17c899:200
      * @var string|null
      */
     private $lastName = null;
@@ -40,7 +40,7 @@ class GroupVirtualOnNetEnterpriseExtensionsGetUserResponse extends \CWM\BroadWor
     /**
      * @ElementName callingLineIdFirstName
      * @Type string
-     * @Group 73530229e066070baac4c09dac256d69:200
+     * @Group f72eed3624b2f8f1013e6751cb17c899:200
      * @var string|null
      */
     private $callingLineIdFirstName = null;
@@ -48,7 +48,7 @@ class GroupVirtualOnNetEnterpriseExtensionsGetUserResponse extends \CWM\BroadWor
     /**
      * @ElementName callingLineIdLastName
      * @Type string
-     * @Group 73530229e066070baac4c09dac256d69:200
+     * @Group f72eed3624b2f8f1013e6751cb17c899:200
      * @var string|null
      */
     private $callingLineIdLastName = null;
@@ -56,7 +56,7 @@ class GroupVirtualOnNetEnterpriseExtensionsGetUserResponse extends \CWM\BroadWor
     /**
      * @ElementName virtualOnNetCallTypeName
      * @Type string
-     * @Group 73530229e066070baac4c09dac256d69:200
+     * @Group f72eed3624b2f8f1013e6751cb17c899:200
      * @var string|null
      */
     private $virtualOnNetCallTypeName = null;

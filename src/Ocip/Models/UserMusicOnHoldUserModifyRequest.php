@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SuccessResponse
  * @see ErrorResponse
  * @see UserMusicOnHoldUserModifyRequest16
- * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:36614","type":"sequence"}]
+ * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:36614","type":"sequence"}]
  */
 class UserMusicOnHoldUserModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,7 +21,7 @@ class UserMusicOnHoldUserModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName userId
      * @Type string
-     * @Group 1a79c7896cb04feac6eff47a5321756e:36614
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:36614
      * @var string|null
      */
     private $userId = null;
@@ -30,7 +30,7 @@ class UserMusicOnHoldUserModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName source
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserSourceModify
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:36614
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:36614
      * @var \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserSourceModify|null
      */
     private $source = null;
@@ -39,7 +39,7 @@ class UserMusicOnHoldUserModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName useAlternateSourceForInternalCalls
      * @Type bool
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:36614
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:36614
      * @var bool|null
      */
     private $useAlternateSourceForInternalCalls = null;
@@ -48,7 +48,7 @@ class UserMusicOnHoldUserModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName internalSource
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserSourceModify
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:36614
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:36614
      * @var \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserSourceModify|null
      */
     private $internalSource = null;

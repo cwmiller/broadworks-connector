@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see DeviceManagementFileAuthLocationGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:893","type":"sequence"}]
+ * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:893","type":"sequence"}]
  */
 class DeviceManagementFileAuthLocationGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,7 +17,7 @@ class DeviceManagementFileAuthLocationGetRequest extends \CWM\BroadWorksConnecto
     /**
      * @ElementName deviceAccessProtocol
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DeviceAccessProtocol16
-     * @Group 1a79c7896cb04feac6eff47a5321756e:893
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:893
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceAccessProtocol16|null
      */
     private $deviceAccessProtocol = null;
@@ -25,7 +25,7 @@ class DeviceManagementFileAuthLocationGetRequest extends \CWM\BroadWorksConnecto
     /**
      * @ElementName deviceAccessMethod
      * @Type string
-     * @Group 1a79c7896cb04feac6eff47a5321756e:893
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:893
      * @var string|null
      */
     private $deviceAccessMethod = null;
@@ -33,7 +33,7 @@ class DeviceManagementFileAuthLocationGetRequest extends \CWM\BroadWorksConnecto
     /**
      * @ElementName deviceAccessURI
      * @Type string
-     * @Group 1a79c7896cb04feac6eff47a5321756e:893
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:893
      * @var string|null
      */
     private $deviceAccessURI = null;
@@ -42,7 +42,7 @@ class DeviceManagementFileAuthLocationGetRequest extends \CWM\BroadWorksConnecto
      * @ElementName accessDeviceUserName
      * @Type string
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:893
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:893
      * @var string|null
      */
     private $accessDeviceUserName = null;
@@ -51,7 +51,7 @@ class DeviceManagementFileAuthLocationGetRequest extends \CWM\BroadWorksConnecto
      * @ElementName accessDeviceUserPassword
      * @Type string
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:893
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:893
      * @var string|null
      */
     private $accessDeviceUserPassword = null;
@@ -60,7 +60,7 @@ class DeviceManagementFileAuthLocationGetRequest extends \CWM\BroadWorksConnecto
      * @ElementName signedPassword
      * @Type string
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:893
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:893
      * @var string|null
      */
     private $signedPassword = null;
@@ -69,7 +69,7 @@ class DeviceManagementFileAuthLocationGetRequest extends \CWM\BroadWorksConnecto
      * @ElementName macAddress
      * @Type string
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:893
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:893
      * @var string|null
      */
     private $macAddress = null;
@@ -78,7 +78,7 @@ class DeviceManagementFileAuthLocationGetRequest extends \CWM\BroadWorksConnecto
      * @ElementName realmName
      * @Type string
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:893
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:893
      * @var string|null
      */
     private $realmName = null;
@@ -87,7 +87,7 @@ class DeviceManagementFileAuthLocationGetRequest extends \CWM\BroadWorksConnecto
      * @ElementName digestHa1Complement
      * @Type string
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:893
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:893
      * @var string|null
      */
     private $digestHa1Complement = null;
@@ -96,7 +96,7 @@ class DeviceManagementFileAuthLocationGetRequest extends \CWM\BroadWorksConnecto
      * @ElementName digestResponse
      * @Type string
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:893
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:893
      * @var string|null
      */
     private $digestResponse = null;

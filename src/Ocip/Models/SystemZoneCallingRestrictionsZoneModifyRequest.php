@@ -14,7 +14,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see ErrorResponse
  * @see SystemZonePhysicalLocationAddListRequest
  * @see SystemZonePhysicalLocationDeleteListRequest
- * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:32221","type":"sequence"}]
+ * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:32221","type":"sequence"}]
  */
 class SystemZoneCallingRestrictionsZoneModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -22,7 +22,7 @@ class SystemZoneCallingRestrictionsZoneModifyRequest extends \CWM\BroadWorksConn
     /**
      * @ElementName zoneName
      * @Type string
-     * @Group 1a79c7896cb04feac6eff47a5321756e:32221
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:32221
      * @var string|null
      */
     private $zoneName = null;
@@ -32,7 +32,7 @@ class SystemZoneCallingRestrictionsZoneModifyRequest extends \CWM\BroadWorksConn
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:32221
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:32221
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $physicalLocation = null;

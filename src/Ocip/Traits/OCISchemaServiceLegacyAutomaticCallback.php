@@ -11,7 +11,8 @@ use CWM\BroadWorksConnector\Ocip\Models\SystemLegacyAutomaticCallbackModifyReque
 use CWM\BroadWorksConnector\Ocip\Models\UserLegacyAutomaticCallbackGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserLegacyAutomaticCallbackGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserLegacyAutomaticCallbackModifyRequest;
-use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceLegacyAutomaticCallback
@@ -21,6 +22,7 @@ trait OCISchemaServiceLegacyAutomaticCallback
      * @param SystemLegacyAutomaticCallbackGetLineTypeListRequest $request
      * @return SystemLegacyAutomaticCallbackGetLineTypeListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemLegacyAutomaticCallbackGetLineTypeListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemLegacyAutomaticCallbackGetLineTypeListRequest $request)
     {
@@ -31,6 +33,7 @@ trait OCISchemaServiceLegacyAutomaticCallback
      * @param SystemLegacyAutomaticCallbackGetRequest $request
      * @return SystemLegacyAutomaticCallbackGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemLegacyAutomaticCallbackGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemLegacyAutomaticCallbackGetRequest $request)
     {
@@ -41,6 +44,7 @@ trait OCISchemaServiceLegacyAutomaticCallback
      * @param SystemLegacyAutomaticCallbackModifyLineTypeRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemLegacyAutomaticCallbackModifyLineTypeRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemLegacyAutomaticCallbackModifyLineTypeRequest $request)
     {
@@ -51,6 +55,7 @@ trait OCISchemaServiceLegacyAutomaticCallback
      * @param SystemLegacyAutomaticCallbackModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemLegacyAutomaticCallbackModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemLegacyAutomaticCallbackModifyRequest $request)
     {
@@ -61,6 +66,7 @@ trait OCISchemaServiceLegacyAutomaticCallback
      * @param UserLegacyAutomaticCallbackGetRequest $request
      * @return UserLegacyAutomaticCallbackGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userLegacyAutomaticCallbackGetRequest(\CWM\BroadWorksConnector\Ocip\Models\UserLegacyAutomaticCallbackGetRequest $request)
     {
@@ -71,6 +77,7 @@ trait OCISchemaServiceLegacyAutomaticCallback
      * @param UserLegacyAutomaticCallbackModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userLegacyAutomaticCallbackModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\UserLegacyAutomaticCallbackModifyRequest $request)
     {

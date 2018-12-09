@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"8366f5f5d1fbfb9742236aba282c1dab:1665","type":"sequence"}]
+ * @Groups [{"id":"80676ea6f2582b1b88573623a6affc0e:1665","type":"sequence"}]
  */
 class UserOutgoingCallingPlanSustainedAuthorizationCodeModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class UserOutgoingCallingPlanSustainedAuthorizationCodeModifyRequest extends \CW
     /**
      * @ElementName userId
      * @Type string
-     * @Group 8366f5f5d1fbfb9742236aba282c1dab:1665
+     * @Group 80676ea6f2582b1b88573623a6affc0e:1665
      * @var string|null
      */
     private $userId = null;
@@ -29,7 +29,7 @@ class UserOutgoingCallingPlanSustainedAuthorizationCodeModifyRequest extends \CW
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 8366f5f5d1fbfb9742236aba282c1dab:1665
+     * @Group 80676ea6f2582b1b88573623a6affc0e:1665
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $code = null;

@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *     
  *       Replaced by AccessDeviceMultipleContactEndpointRead20.
  *
- * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:38169","type":"sequence"}]
+ * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:38169","type":"sequence"}]
  */
 class AccessDeviceMultipleContactEndpointRead19
 {
@@ -18,7 +18,7 @@ class AccessDeviceMultipleContactEndpointRead19
     /**
      * @ElementName accessDevice
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDevice
-     * @Group 1a79c7896cb04feac6eff47a5321756e:38169
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:38169
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDevice|null
      */
     private $accessDevice = null;
@@ -26,7 +26,7 @@ class AccessDeviceMultipleContactEndpointRead19
     /**
      * @ElementName linePort
      * @Type string
-     * @Group 1a79c7896cb04feac6eff47a5321756e:38169
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:38169
      * @var string|null
      */
     private $linePort = null;
@@ -36,7 +36,7 @@ class AccessDeviceMultipleContactEndpointRead19
      * @Type string
      * @Array
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:38169
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:38169
      * @var string[]
      */
     private $contact = array(
@@ -46,7 +46,7 @@ class AccessDeviceMultipleContactEndpointRead19
     /**
      * @ElementName staticRegistrationCapable
      * @Type bool
-     * @Group 1a79c7896cb04feac6eff47a5321756e:38169
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:38169
      * @var bool|null
      */
     private $staticRegistrationCapable = null;
@@ -54,7 +54,7 @@ class AccessDeviceMultipleContactEndpointRead19
     /**
      * @ElementName useDomain
      * @Type bool
-     * @Group 1a79c7896cb04feac6eff47a5321756e:38169
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:38169
      * @var bool|null
      */
     private $useDomain = null;
@@ -63,7 +63,7 @@ class AccessDeviceMultipleContactEndpointRead19
      * @ElementName portNumber
      * @Type int
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:38169
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:38169
      * @var int|null
      */
     private $portNumber = null;

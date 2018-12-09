@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:2288","type":"sequence"}]
+ * @Groups [{"id":"b5f5416d9e71f8e4246cda16c4723744:2288","type":"sequence"}]
  */
 class SystemBwDiameterPeerModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemBwDiameterPeerModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName instance
      * @Type \CWM\BroadWorksConnector\Ocip\Models\BwDiameterPeerInstance
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:2288
+     * @Group b5f5416d9e71f8e4246cda16c4723744:2288
      * @var \CWM\BroadWorksConnector\Ocip\Models\BwDiameterPeerInstance|null
      */
     private $instance = null;
@@ -26,7 +26,7 @@ class SystemBwDiameterPeerModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName identity
      * @Type string
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:2288
+     * @Group b5f5416d9e71f8e4246cda16c4723744:2288
      * @var string|null
      */
     private $identity = null;
@@ -36,7 +36,7 @@ class SystemBwDiameterPeerModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:2288
+     * @Group b5f5416d9e71f8e4246cda16c4723744:2288
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $ipAddress = null;
@@ -45,7 +45,7 @@ class SystemBwDiameterPeerModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName port
      * @Type int
      * @Optional
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:2288
+     * @Group b5f5416d9e71f8e4246cda16c4723744:2288
      * @var int|null
      */
     private $port = null;
@@ -54,7 +54,7 @@ class SystemBwDiameterPeerModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName enabled
      * @Type bool
      * @Optional
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:2288
+     * @Group b5f5416d9e71f8e4246cda16c4723744:2288
      * @var bool|null
      */
     private $enabled = null;

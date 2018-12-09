@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"1b22a3a92e05eea2e752345aa4faa131:212","type":"sequence"}]
+ * @Groups [{"id":"6c3e6c5ded8862d72e92e5d067442775:212","type":"sequence"}]
  */
 class GroupRouteListEnterpriseTrunkNumberPrefixAssignListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class GroupRouteListEnterpriseTrunkNumberPrefixAssignListRequest extends \CWM\Br
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 1b22a3a92e05eea2e752345aa4faa131:212
+     * @Group 6c3e6c5ded8862d72e92e5d067442775:212
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,7 +27,7 @@ class GroupRouteListEnterpriseTrunkNumberPrefixAssignListRequest extends \CWM\Br
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 1b22a3a92e05eea2e752345aa4faa131:212
+     * @Group 6c3e6c5ded8862d72e92e5d067442775:212
      * @var string|null
      */
     private $groupId = null;
@@ -37,7 +37,7 @@ class GroupRouteListEnterpriseTrunkNumberPrefixAssignListRequest extends \CWM\Br
      * @Type string
      * @Array
      * @Optional
-     * @Group 1b22a3a92e05eea2e752345aa4faa131:212
+     * @Group 6c3e6c5ded8862d72e92e5d067442775:212
      * @var string[]
      */
     private $numberPrefix = array(

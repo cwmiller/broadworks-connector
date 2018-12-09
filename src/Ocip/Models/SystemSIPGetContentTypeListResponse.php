@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           "Content Type" and "Supported Interface".
  *
  * @see SystemSIPGetContentTypeListRequest
- * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:15527","type":"sequence"}]
+ * @Groups [{"id":"b5f5416d9e71f8e4246cda16c4723744:15527","type":"sequence"}]
  */
 class SystemSIPGetContentTypeListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class SystemSIPGetContentTypeListResponse extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName contentTypeTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:15527
+     * @Group b5f5416d9e71f8e4246cda16c4723744:15527
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $contentTypeTable = null;

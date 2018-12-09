@@ -42,7 +42,8 @@ use CWM\BroadWorksConnector\Ocip\Models\UserMeetMeConferencingGetConferenceRespo
 use CWM\BroadWorksConnector\Ocip\Models\UserMeetMeConferencingModifyConferenceDelegateListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserMeetMeConferencingModifyConferenceGreetingRequest20;
 use CWM\BroadWorksConnector\Ocip\Models\UserMeetMeConferencingModifyConferenceRequest;
-use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceMeetMeConferencing
@@ -52,6 +53,7 @@ trait OCISchemaServiceMeetMeConferencing
      * @param GroupMeetMeConferencingAddInstanceRequest19 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupMeetMeConferencingAddInstanceRequest19(\CWM\BroadWorksConnector\Ocip\Models\GroupMeetMeConferencingAddInstanceRequest19 $request)
     {
@@ -62,6 +64,7 @@ trait OCISchemaServiceMeetMeConferencing
      * @param GroupMeetMeConferencingDeleteInstanceRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupMeetMeConferencingDeleteInstanceRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupMeetMeConferencingDeleteInstanceRequest $request)
     {
@@ -72,6 +75,7 @@ trait OCISchemaServiceMeetMeConferencing
      * @param GroupMeetMeConferencingGetAvailableUserListRequest $request
      * @return GroupMeetMeConferencingGetAvailableUserListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupMeetMeConferencingGetAvailableUserListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupMeetMeConferencingGetAvailableUserListRequest $request)
     {
@@ -82,6 +86,7 @@ trait OCISchemaServiceMeetMeConferencing
      * @param GroupMeetMeConferencingGetInstanceListRequest $request
      * @return GroupMeetMeConferencingGetInstanceListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupMeetMeConferencingGetInstanceListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupMeetMeConferencingGetInstanceListRequest $request)
     {
@@ -92,6 +97,7 @@ trait OCISchemaServiceMeetMeConferencing
      * @param GroupMeetMeConferencingGetInstanceRequest19sp1 $request
      * @return GroupMeetMeConferencingGetInstanceResponse19sp1
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupMeetMeConferencingGetInstanceRequest19sp1(\CWM\BroadWorksConnector\Ocip\Models\GroupMeetMeConferencingGetInstanceRequest19sp1 $request)
     {
@@ -102,6 +108,7 @@ trait OCISchemaServiceMeetMeConferencing
      * @param GroupMeetMeConferencingGetRequest $request
      * @return GroupMeetMeConferencingGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupMeetMeConferencingGetRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupMeetMeConferencingGetRequest $request)
     {
@@ -112,6 +119,7 @@ trait OCISchemaServiceMeetMeConferencing
      * @param GroupMeetMeConferencingModifyActiveInstanceListRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupMeetMeConferencingModifyActiveInstanceListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupMeetMeConferencingModifyActiveInstanceListRequest $request)
     {
@@ -122,6 +130,7 @@ trait OCISchemaServiceMeetMeConferencing
      * @param GroupMeetMeConferencingModifyInstanceRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupMeetMeConferencingModifyInstanceRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupMeetMeConferencingModifyInstanceRequest $request)
     {
@@ -132,6 +141,7 @@ trait OCISchemaServiceMeetMeConferencing
      * @param GroupMeetMeConferencingModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupMeetMeConferencingModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupMeetMeConferencingModifyRequest $request)
     {
@@ -142,6 +152,7 @@ trait OCISchemaServiceMeetMeConferencing
      * @param ServiceProviderMeetMeConferencingGetRequest $request
      * @return ServiceProviderMeetMeConferencingGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderMeetMeConferencingGetRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderMeetMeConferencingGetRequest $request)
     {
@@ -152,6 +163,7 @@ trait OCISchemaServiceMeetMeConferencing
      * @param ServiceProviderMeetMeConferencingModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderMeetMeConferencingModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderMeetMeConferencingModifyRequest $request)
     {
@@ -162,6 +174,7 @@ trait OCISchemaServiceMeetMeConferencing
      * @param SystemMeetMeConferencingGetRequest19 $request
      * @return SystemMeetMeConferencingGetResponse19
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemMeetMeConferencingGetRequest19(\CWM\BroadWorksConnector\Ocip\Models\SystemMeetMeConferencingGetRequest19 $request)
     {
@@ -172,6 +185,7 @@ trait OCISchemaServiceMeetMeConferencing
      * @param SystemMeetMeConferencingModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemMeetMeConferencingModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemMeetMeConferencingModifyRequest $request)
     {
@@ -182,6 +196,7 @@ trait OCISchemaServiceMeetMeConferencing
      * @param UserMeetMeConferencingAddConferenceRequest19 $request
      * @return UserMeetMeConferencingAddConferenceResponse19
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userMeetMeConferencingAddConferenceRequest19(\CWM\BroadWorksConnector\Ocip\Models\UserMeetMeConferencingAddConferenceRequest19 $request)
     {
@@ -192,6 +207,7 @@ trait OCISchemaServiceMeetMeConferencing
      * @param UserMeetMeConferencingDeleteConferenceListRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userMeetMeConferencingDeleteConferenceListRequest(\CWM\BroadWorksConnector\Ocip\Models\UserMeetMeConferencingDeleteConferenceListRequest $request)
     {
@@ -202,6 +218,7 @@ trait OCISchemaServiceMeetMeConferencing
      * @param UserMeetMeConferencingDeleteConferenceRecordingListRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userMeetMeConferencingDeleteConferenceRecordingListRequest(\CWM\BroadWorksConnector\Ocip\Models\UserMeetMeConferencingDeleteConferenceRecordingListRequest $request)
     {
@@ -212,6 +229,7 @@ trait OCISchemaServiceMeetMeConferencing
      * @param UserMeetMeConferencingGetAvailableDelegateListRequest $request
      * @return UserMeetMeConferencingGetAvailableDelegateListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userMeetMeConferencingGetAvailableDelegateListRequest(\CWM\BroadWorksConnector\Ocip\Models\UserMeetMeConferencingGetAvailableDelegateListRequest $request)
     {
@@ -222,6 +240,7 @@ trait OCISchemaServiceMeetMeConferencing
      * @param UserMeetMeConferencingGetBridgeListRequest $request
      * @return UserMeetMeConferencingGetBridgeListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userMeetMeConferencingGetBridgeListRequest(\CWM\BroadWorksConnector\Ocip\Models\UserMeetMeConferencingGetBridgeListRequest $request)
     {
@@ -232,6 +251,7 @@ trait OCISchemaServiceMeetMeConferencing
      * @param UserMeetMeConferencingGetConferenceDelegateListRequest $request
      * @return UserMeetMeConferencingGetConferenceDelegateListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userMeetMeConferencingGetConferenceDelegateListRequest(\CWM\BroadWorksConnector\Ocip\Models\UserMeetMeConferencingGetConferenceDelegateListRequest $request)
     {
@@ -242,6 +262,7 @@ trait OCISchemaServiceMeetMeConferencing
      * @param UserMeetMeConferencingGetConferenceGreetingRequest20 $request
      * @return UserMeetMeConferencingGetConferenceGreetingResponse20
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userMeetMeConferencingGetConferenceGreetingRequest20(\CWM\BroadWorksConnector\Ocip\Models\UserMeetMeConferencingGetConferenceGreetingRequest20 $request)
     {
@@ -252,6 +273,7 @@ trait OCISchemaServiceMeetMeConferencing
      * @param UserMeetMeConferencingGetConferenceListRequest $request
      * @return UserMeetMeConferencingGetConferenceListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userMeetMeConferencingGetConferenceListRequest(\CWM\BroadWorksConnector\Ocip\Models\UserMeetMeConferencingGetConferenceListRequest $request)
     {
@@ -262,6 +284,7 @@ trait OCISchemaServiceMeetMeConferencing
      * @param UserMeetMeConferencingGetConferenceRecordingListRequest $request
      * @return UserMeetMeConferencingGetConferenceRecordingListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userMeetMeConferencingGetConferenceRecordingListRequest(\CWM\BroadWorksConnector\Ocip\Models\UserMeetMeConferencingGetConferenceRecordingListRequest $request)
     {
@@ -272,6 +295,7 @@ trait OCISchemaServiceMeetMeConferencing
      * @param UserMeetMeConferencingGetConferenceRequest20 $request
      * @return UserMeetMeConferencingGetConferenceResponse20
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userMeetMeConferencingGetConferenceRequest20(\CWM\BroadWorksConnector\Ocip\Models\UserMeetMeConferencingGetConferenceRequest20 $request)
     {
@@ -282,6 +306,7 @@ trait OCISchemaServiceMeetMeConferencing
      * @param UserMeetMeConferencingModifyConferenceDelegateListRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userMeetMeConferencingModifyConferenceDelegateListRequest(\CWM\BroadWorksConnector\Ocip\Models\UserMeetMeConferencingModifyConferenceDelegateListRequest $request)
     {
@@ -292,6 +317,7 @@ trait OCISchemaServiceMeetMeConferencing
      * @param UserMeetMeConferencingModifyConferenceGreetingRequest20 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userMeetMeConferencingModifyConferenceGreetingRequest20(\CWM\BroadWorksConnector\Ocip\Models\UserMeetMeConferencingModifyConferenceGreetingRequest20 $request)
     {
@@ -302,6 +328,7 @@ trait OCISchemaServiceMeetMeConferencing
      * @param UserMeetMeConferencingModifyConferenceRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userMeetMeConferencingModifyConferenceRequest(\CWM\BroadWorksConnector\Ocip\Models\UserMeetMeConferencingModifyConferenceRequest $request)
     {

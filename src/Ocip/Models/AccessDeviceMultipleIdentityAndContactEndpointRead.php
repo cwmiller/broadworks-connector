@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The following elements are only used in AS data mode and a value false is returned in the XS mode:
  *           supportVisualDeviceManagement
  *
- * @Groups [{"id":"18b369af88e42ffdb4166615c670ce2c:222","type":"sequence"}]
+ * @Groups [{"id":"8e629edbac315ae7889caca732382c44:222","type":"sequence"}]
  */
 class AccessDeviceMultipleIdentityAndContactEndpointRead
 {
@@ -21,7 +21,7 @@ class AccessDeviceMultipleIdentityAndContactEndpointRead
     /**
      * @ElementName accessDevice
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDevice
-     * @Group 18b369af88e42ffdb4166615c670ce2c:222
+     * @Group 8e629edbac315ae7889caca732382c44:222
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDevice|null
      */
     private $accessDevice = null;
@@ -29,7 +29,7 @@ class AccessDeviceMultipleIdentityAndContactEndpointRead
     /**
      * @ElementName linePort
      * @Type string
-     * @Group 18b369af88e42ffdb4166615c670ce2c:222
+     * @Group 8e629edbac315ae7889caca732382c44:222
      * @var string|null
      */
     private $linePort = null;
@@ -38,7 +38,7 @@ class AccessDeviceMultipleIdentityAndContactEndpointRead
      * @ElementName privateIdentity
      * @Type string
      * @Optional
-     * @Group 18b369af88e42ffdb4166615c670ce2c:222
+     * @Group 8e629edbac315ae7889caca732382c44:222
      * @var string|null
      */
     private $privateIdentity = null;
@@ -48,7 +48,7 @@ class AccessDeviceMultipleIdentityAndContactEndpointRead
      * @Type string
      * @Array
      * @Optional
-     * @Group 18b369af88e42ffdb4166615c670ce2c:222
+     * @Group 8e629edbac315ae7889caca732382c44:222
      * @var string[]
      */
     private $contact = array(
@@ -58,7 +58,7 @@ class AccessDeviceMultipleIdentityAndContactEndpointRead
     /**
      * @ElementName staticRegistrationCapable
      * @Type bool
-     * @Group 18b369af88e42ffdb4166615c670ce2c:222
+     * @Group 8e629edbac315ae7889caca732382c44:222
      * @var bool|null
      */
     private $staticRegistrationCapable = null;
@@ -66,7 +66,7 @@ class AccessDeviceMultipleIdentityAndContactEndpointRead
     /**
      * @ElementName useDomain
      * @Type bool
-     * @Group 18b369af88e42ffdb4166615c670ce2c:222
+     * @Group 8e629edbac315ae7889caca732382c44:222
      * @var bool|null
      */
     private $useDomain = null;
@@ -75,7 +75,7 @@ class AccessDeviceMultipleIdentityAndContactEndpointRead
      * @ElementName portNumber
      * @Type int
      * @Optional
-     * @Group 18b369af88e42ffdb4166615c670ce2c:222
+     * @Group 8e629edbac315ae7889caca732382c44:222
      * @var int|null
      */
     private $portNumber = null;
@@ -83,7 +83,7 @@ class AccessDeviceMultipleIdentityAndContactEndpointRead
     /**
      * @ElementName supportVisualDeviceManagement
      * @Type bool
-     * @Group 18b369af88e42ffdb4166615c670ce2c:222
+     * @Group 8e629edbac315ae7889caca732382c44:222
      * @var bool|null
      */
     private $supportVisualDeviceManagement = null;

@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to EnterpriseCallCenterAgentUnavailableCodeSettingsGetRequest17sp4.
  *
  * @see EnterpriseCallCenterAgentUnavailableCodeSettingsGetRequest17sp4
- * @Groups [{"id":"69c2aeb1186dc97a4f4c36d9609ddb49:726","type":"sequence"}]
+ * @Groups [{"id":"3ac5f05d969bc771d6ba8d344d95aa72:726","type":"sequence"}]
  */
 class EnterpriseCallCenterAgentUnavailableCodeSettingsGetResponse17sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class EnterpriseCallCenterAgentUnavailableCodeSettingsGetResponse17sp4 extends \
     /**
      * @ElementName enableAgentUnavailableCodes
      * @Type bool
-     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:726
+     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:726
      * @var bool|null
      */
     private $enableAgentUnavailableCodes = null;
@@ -25,7 +25,7 @@ class EnterpriseCallCenterAgentUnavailableCodeSettingsGetResponse17sp4 extends \
      * @ElementName defaultAgentUnavailableCodeOnDND
      * @Type string
      * @Optional
-     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:726
+     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:726
      * @var string|null
      */
     private $defaultAgentUnavailableCodeOnDND = null;
@@ -34,7 +34,7 @@ class EnterpriseCallCenterAgentUnavailableCodeSettingsGetResponse17sp4 extends \
      * @ElementName defaultAgentUnavailableCodeOnPersonalCalls
      * @Type string
      * @Optional
-     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:726
+     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:726
      * @var string|null
      */
     private $defaultAgentUnavailableCodeOnPersonalCalls = null;
@@ -43,7 +43,7 @@ class EnterpriseCallCenterAgentUnavailableCodeSettingsGetResponse17sp4 extends \
      * @ElementName defaultAgentUnavailableCodeOnConsecutiveBounces
      * @Type string
      * @Optional
-     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:726
+     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:726
      * @var string|null
      */
     private $defaultAgentUnavailableCodeOnConsecutiveBounces = null;
@@ -52,7 +52,7 @@ class EnterpriseCallCenterAgentUnavailableCodeSettingsGetResponse17sp4 extends \
      * @ElementName defaultAgentUnavailableCodeOnNotReachable
      * @Type string
      * @Optional
-     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:726
+     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:726
      * @var string|null
      */
     private $defaultAgentUnavailableCodeOnNotReachable = null;
@@ -60,7 +60,7 @@ class EnterpriseCallCenterAgentUnavailableCodeSettingsGetResponse17sp4 extends \
     /**
      * @ElementName forceUseOfAgentUnavailableCodes
      * @Type bool
-     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:726
+     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:726
      * @var bool|null
      */
     private $forceUseOfAgentUnavailableCodes = null;
@@ -69,7 +69,7 @@ class EnterpriseCallCenterAgentUnavailableCodeSettingsGetResponse17sp4 extends \
      * @ElementName defaultAgentUnavailableCode
      * @Type string
      * @Optional
-     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:726
+     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:726
      * @var string|null
      */
     private $defaultAgentUnavailableCode = null;

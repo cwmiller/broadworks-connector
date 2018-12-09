@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response contains the anonymous call rejection system.".
  *
  * @see SystemAnonymousCallRejectionGetRequest
- * @Groups [{"id":"0ec8a935bbd9452dccb33508d52d5e43:60","type":"sequence"}]
+ * @Groups [{"id":"717e1e4342421a820b1b313f1eb4eb01:60","type":"sequence"}]
  */
 class SystemAnonymousCallRejectionGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class SystemAnonymousCallRejectionGetResponse extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName paiRequired
      * @Type bool
-     * @Group 0ec8a935bbd9452dccb33508d52d5e43:60
+     * @Group 717e1e4342421a820b1b313f1eb4eb01:60
      * @var bool|null
      */
     private $paiRequired = null;
@@ -25,7 +25,7 @@ class SystemAnonymousCallRejectionGetResponse extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName screenOnlyLocalCalls
      * @Type bool
-     * @Group 0ec8a935bbd9452dccb33508d52d5e43:60
+     * @Group 717e1e4342421a820b1b313f1eb4eb01:60
      * @var bool|null
      */
     private $screenOnlyLocalCalls = null;

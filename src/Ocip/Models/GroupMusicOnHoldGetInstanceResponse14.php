@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the GroupMusicOnHoldGetInstanceRequest14.
  *
  * @see GroupMusicOnHoldGetInstanceRequest14
- * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:9747","type":"sequence"}]
+ * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:9747","type":"sequence"}]
  */
 class GroupMusicOnHoldGetInstanceResponse14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class GroupMusicOnHoldGetInstanceResponse14 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group 1a79c7896cb04feac6eff47a5321756e:9747
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:9747
      * @var string|null
      */
     private $serviceUserId = null;
@@ -24,7 +24,7 @@ class GroupMusicOnHoldGetInstanceResponse14 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName isActiveDuringCallHold
      * @Type bool
-     * @Group 1a79c7896cb04feac6eff47a5321756e:9747
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:9747
      * @var bool|null
      */
     private $isActiveDuringCallHold = null;
@@ -32,7 +32,7 @@ class GroupMusicOnHoldGetInstanceResponse14 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName isActiveDuringCallPark
      * @Type bool
-     * @Group 1a79c7896cb04feac6eff47a5321756e:9747
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:9747
      * @var bool|null
      */
     private $isActiveDuringCallPark = null;
@@ -40,7 +40,7 @@ class GroupMusicOnHoldGetInstanceResponse14 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName messageSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldMessageSelection
-     * @Group 1a79c7896cb04feac6eff47a5321756e:9747
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:9747
      * @var \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldMessageSelection|null
      */
     private $messageSelection = null;
@@ -49,7 +49,7 @@ class GroupMusicOnHoldGetInstanceResponse14 extends \CWM\BroadWorksConnector\Oci
      * @ElementName accessDeviceEndpoint
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointRead14
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:9747
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:9747
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointRead14|null
      */
     private $accessDeviceEndpoint = null;
@@ -57,7 +57,7 @@ class GroupMusicOnHoldGetInstanceResponse14 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName enableVideo
      * @Type bool
-     * @Group 1a79c7896cb04feac6eff47a5321756e:9747
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:9747
      * @var bool|null
      */
     private $enableVideo = null;
@@ -66,7 +66,7 @@ class GroupMusicOnHoldGetInstanceResponse14 extends \CWM\BroadWorksConnector\Oci
      * @ElementName audioFileDescription
      * @Type string
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:9747
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:9747
      * @var string|null
      */
     private $audioFileDescription = null;
@@ -75,7 +75,7 @@ class GroupMusicOnHoldGetInstanceResponse14 extends \CWM\BroadWorksConnector\Oci
      * @ElementName videoFileDescription
      * @Type string
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:9747
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:9747
      * @var string|null
      */
     private $videoFileDescription = null;

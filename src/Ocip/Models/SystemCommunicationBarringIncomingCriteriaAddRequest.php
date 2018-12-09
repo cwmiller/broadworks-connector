@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:5351","type":"sequence"}]
+ * @Groups [{"id":"b5f5416d9e71f8e4246cda16c4723744:5351","type":"sequence"}]
  */
 class SystemCommunicationBarringIncomingCriteriaAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemCommunicationBarringIncomingCriteriaAddRequest extends \CWM\BroadWor
     /**
      * @ElementName name
      * @Type string
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:5351
+     * @Group b5f5416d9e71f8e4246cda16c4723744:5351
      * @var string|null
      */
     private $name = null;
@@ -27,7 +27,7 @@ class SystemCommunicationBarringIncomingCriteriaAddRequest extends \CWM\BroadWor
      * @ElementName description
      * @Type string
      * @Optional
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:5351
+     * @Group b5f5416d9e71f8e4246cda16c4723744:5351
      * @var string|null
      */
     private $description = null;
@@ -36,7 +36,7 @@ class SystemCommunicationBarringIncomingCriteriaAddRequest extends \CWM\BroadWor
      * @ElementName timeSchedule
      * @Type string
      * @Optional
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:5351
+     * @Group b5f5416d9e71f8e4246cda16c4723744:5351
      * @var string|null
      */
     private $timeSchedule = null;
@@ -45,7 +45,7 @@ class SystemCommunicationBarringIncomingCriteriaAddRequest extends \CWM\BroadWor
      * @ElementName holidaySchedule
      * @Type string
      * @Optional
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:5351
+     * @Group b5f5416d9e71f8e4246cda16c4723744:5351
      * @var string|null
      */
     private $holidaySchedule = null;
@@ -55,7 +55,7 @@ class SystemCommunicationBarringIncomingCriteriaAddRequest extends \CWM\BroadWor
      * @Type string
      * @Array
      * @Optional
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:5351
+     * @Group b5f5416d9e71f8e4246cda16c4723744:5351
      * @var string[]
      */
     private $matchNumberPortabilityStatus = array(

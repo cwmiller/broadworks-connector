@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupAccessDeviceGetRequest14
  * @see GroupAccessDeviceGetResponse14sp3
- * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:2092","type":"sequence"}]
+ * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:2092","type":"sequence"}]
  */
 class GroupAccessDeviceGetResponse14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class GroupAccessDeviceGetResponse14 extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName deviceType
      * @Type string
-     * @Group 1a79c7896cb04feac6eff47a5321756e:2092
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:2092
      * @var string|null
      */
     private $deviceType = null;
@@ -27,7 +27,7 @@ class GroupAccessDeviceGetResponse14 extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName protocol
      * @Type string
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:2092
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:2092
      * @var string|null
      */
     private $protocol = null;
@@ -36,7 +36,7 @@ class GroupAccessDeviceGetResponse14 extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName netAddress
      * @Type string
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:2092
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:2092
      * @var string|null
      */
     private $netAddress = null;
@@ -45,7 +45,7 @@ class GroupAccessDeviceGetResponse14 extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName port
      * @Type int
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:2092
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:2092
      * @var int|null
      */
     private $port = null;
@@ -54,7 +54,7 @@ class GroupAccessDeviceGetResponse14 extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName outboundProxyServerNetAddress
      * @Type string
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:2092
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:2092
      * @var string|null
      */
     private $outboundProxyServerNetAddress = null;
@@ -63,7 +63,7 @@ class GroupAccessDeviceGetResponse14 extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName stunServerNetAddress
      * @Type string
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:2092
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:2092
      * @var string|null
      */
     private $stunServerNetAddress = null;
@@ -72,7 +72,7 @@ class GroupAccessDeviceGetResponse14 extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName macAddress
      * @Type string
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:2092
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:2092
      * @var string|null
      */
     private $macAddress = null;
@@ -81,7 +81,7 @@ class GroupAccessDeviceGetResponse14 extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName serialNumber
      * @Type string
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:2092
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:2092
      * @var string|null
      */
     private $serialNumber = null;
@@ -90,7 +90,7 @@ class GroupAccessDeviceGetResponse14 extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName description
      * @Type string
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:2092
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:2092
      * @var string|null
      */
     private $description = null;
@@ -98,7 +98,7 @@ class GroupAccessDeviceGetResponse14 extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName numberOfPorts
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt
-     * @Group 1a79c7896cb04feac6eff47a5321756e:2092
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:2092
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt|null
      */
     private $numberOfPorts = null;
@@ -106,7 +106,7 @@ class GroupAccessDeviceGetResponse14 extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName numberOfAssignedPorts
      * @Type int
-     * @Group 1a79c7896cb04feac6eff47a5321756e:2092
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:2092
      * @var int|null
      */
     private $numberOfAssignedPorts = null;
@@ -114,7 +114,7 @@ class GroupAccessDeviceGetResponse14 extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName status
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceStatus
-     * @Group 1a79c7896cb04feac6eff47a5321756e:2092
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:2092
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceStatus|null
      */
     private $status = null;
@@ -123,7 +123,7 @@ class GroupAccessDeviceGetResponse14 extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName configurationMode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationMode
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:2092
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:2092
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationMode|null
      */
     private $configurationMode = null;
@@ -132,7 +132,7 @@ class GroupAccessDeviceGetResponse14 extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName configurationFileName
      * @Type string
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:2092
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:2092
      * @var string|null
      */
     private $configurationFileName = null;
@@ -141,7 +141,7 @@ class GroupAccessDeviceGetResponse14 extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName physicalLocation
      * @Type string
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:2092
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:2092
      * @var string|null
      */
     private $physicalLocation = null;
@@ -150,7 +150,7 @@ class GroupAccessDeviceGetResponse14 extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName transportProtocol
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:2092
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:2092
      * @var \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol|null
      */
     private $transportProtocol = null;

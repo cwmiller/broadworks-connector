@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:14285","type":"sequence"}]
+ * @Groups [{"id":"b5f5416d9e71f8e4246cda16c4723744:14285","type":"sequence"}]
  */
 class SystemSessionAdmissionControlModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class SystemSessionAdmissionControlModifyRequest extends \CWM\BroadWorksConnecto
      * @ElementName countLongConnectionsToMediaServer
      * @Type bool
      * @Optional
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:14285
+     * @Group b5f5416d9e71f8e4246cda16c4723744:14285
      * @var bool|null
      */
     private $countLongConnectionsToMediaServer = null;
@@ -28,7 +28,7 @@ class SystemSessionAdmissionControlModifyRequest extends \CWM\BroadWorksConnecto
      * @ElementName sacHandlingForMoH
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SessionAdmissionControlForMusicOnHoldType
      * @Optional
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:14285
+     * @Group b5f5416d9e71f8e4246cda16c4723744:14285
      * @var \CWM\BroadWorksConnector\Ocip\Models\SessionAdmissionControlForMusicOnHoldType|null
      */
     private $sacHandlingForMoH = null;
@@ -37,7 +37,7 @@ class SystemSessionAdmissionControlModifyRequest extends \CWM\BroadWorksConnecto
      * @ElementName blockVMDepositDueToSACLimits
      * @Type bool
      * @Optional
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:14285
+     * @Group b5f5416d9e71f8e4246cda16c4723744:14285
      * @var bool|null
      */
     private $blockVMDepositDueToSACLimits = null;
@@ -46,7 +46,7 @@ class SystemSessionAdmissionControlModifyRequest extends \CWM\BroadWorksConnecto
      * @ElementName sacCodecSelectionPolicy
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SessionAdmissionControlCodecSelectionPolicyType
      * @Optional
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:14285
+     * @Group b5f5416d9e71f8e4246cda16c4723744:14285
      * @var \CWM\BroadWorksConnector\Ocip\Models\SessionAdmissionControlCodecSelectionPolicyType|null
      */
     private $sacCodecSelectionPolicy = null;
@@ -55,7 +55,7 @@ class SystemSessionAdmissionControlModifyRequest extends \CWM\BroadWorksConnecto
      * @ElementName countCallToMobileNumberForSACSubscriber
      * @Type bool
      * @Optional
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:14285
+     * @Group b5f5416d9e71f8e4246cda16c4723744:14285
      * @var bool|null
      */
     private $countCallToMobileNumberForSACSubscriber = null;
@@ -64,7 +64,7 @@ class SystemSessionAdmissionControlModifyRequest extends \CWM\BroadWorksConnecto
      * @ElementName countBWAnywhereForSACSubscriber
      * @Type bool
      * @Optional
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:14285
+     * @Group b5f5416d9e71f8e4246cda16c4723744:14285
      * @var bool|null
      */
     private $countBWAnywhereForSACSubscriber = null;
@@ -73,7 +73,7 @@ class SystemSessionAdmissionControlModifyRequest extends \CWM\BroadWorksConnecto
      * @ElementName countROForSACSubscriber
      * @Type bool
      * @Optional
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:14285
+     * @Group b5f5416d9e71f8e4246cda16c4723744:14285
      * @var bool|null
      */
     private $countROForSACSubscriber = null;
@@ -82,7 +82,7 @@ class SystemSessionAdmissionControlModifyRequest extends \CWM\BroadWorksConnecto
      * @ElementName excludeBWMobilityForSACSubscriber
      * @Type bool
      * @Optional
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:14285
+     * @Group b5f5416d9e71f8e4246cda16c4723744:14285
      * @var bool|null
      */
     private $excludeBWMobilityForSACSubscriber = null;

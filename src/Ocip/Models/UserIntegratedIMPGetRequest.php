@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserIntegratedIMPGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"8351e8f51540f77c264b2f9bdf7fada4:315","type":"sequence"}]
+ * @Groups [{"id":"1145a01488507071407c5896ff2e4ef5:315","type":"sequence"}]
  */
 class UserIntegratedIMPGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserIntegratedIMPGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName userId
      * @Type string
-     * @Group 8351e8f51540f77c264b2f9bdf7fada4:315
+     * @Group 1145a01488507071407c5896ff2e4ef5:315
      * @var string|null
      */
     private $userId = null;

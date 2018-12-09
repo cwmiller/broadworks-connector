@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to a SystemFileGetContentRequest. The fileContent length returned is limited to 128KBytes.
  *
  * @see SystemFileGetContentRequest
- * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:8644","type":"sequence"}]
+ * @Groups [{"id":"b5f5416d9e71f8e4246cda16c4723744:8644","type":"sequence"}]
  */
 class SystemFileGetContentResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class SystemFileGetContentResponse extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName fileContent
      * @Type string
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:8644
+     * @Group b5f5416d9e71f8e4246cda16c4723744:8644
      * @var string|null
      */
     private $fileContent = null;

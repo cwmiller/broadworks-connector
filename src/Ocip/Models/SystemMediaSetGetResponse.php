@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Returns a list of media names in the set.
  *
  * @see SystemMediaSetGetRequest
- * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:10473","type":"sequence"}]
+ * @Groups [{"id":"b5f5416d9e71f8e4246cda16c4723744:10473","type":"sequence"}]
  */
 class SystemMediaSetGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class SystemMediaSetGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\O
      * @ElementName mediaName
      * @Type string
      * @Array
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:10473
+     * @Group b5f5416d9e71f8e4246cda16c4723744:10473
      * @var string[]
      */
     private $mediaName = array(

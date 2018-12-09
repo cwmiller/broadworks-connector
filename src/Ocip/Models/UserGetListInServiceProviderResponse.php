@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         in a row for each user.
  *
  * @see UserGetListInServiceProviderRequest
- * @Groups [{"id":"489b2153267470be8e945bf6b778e0d0:1537","type":"sequence"}]
+ * @Groups [{"id":"ee3830ce42f01a3ef2a105d473fc3b17:1537","type":"sequence"}]
  */
 class UserGetListInServiceProviderResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,7 +19,7 @@ class UserGetListInServiceProviderResponse extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName userTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 489b2153267470be8e945bf6b778e0d0:1537
+     * @Group ee3830ce42f01a3ef2a105d473fc3b17:1537
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $userTable = null;

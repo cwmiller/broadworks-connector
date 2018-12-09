@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Criteria for searching for a Login Id.
  *
- * @Groups [{"id":"d37849f5e289836ccd316323a7a3799a:1479","type":"sequence"}]
+ * @Groups [{"id":"e446bfcbd1f39cbef57d1547014f2bb9:1479","type":"sequence"}]
  */
 class SearchCriteriaLoginId extends SearchCriteria
 {
@@ -15,7 +15,7 @@ class SearchCriteriaLoginId extends SearchCriteria
     /**
      * @ElementName mode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchMode
-     * @Group d37849f5e289836ccd316323a7a3799a:1479
+     * @Group e446bfcbd1f39cbef57d1547014f2bb9:1479
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchMode|null
      */
     private $mode = null;
@@ -23,7 +23,7 @@ class SearchCriteriaLoginId extends SearchCriteria
     /**
      * @ElementName value
      * @Type string
-     * @Group d37849f5e289836ccd316323a7a3799a:1479
+     * @Group e446bfcbd1f39cbef57d1547014f2bb9:1479
      * @var string|null
      */
     private $value = null;
@@ -31,7 +31,7 @@ class SearchCriteriaLoginId extends SearchCriteria
     /**
      * @ElementName isCaseInsensitive
      * @Type bool
-     * @Group d37849f5e289836ccd316323a7a3799a:1479
+     * @Group e446bfcbd1f39cbef57d1547014f2bb9:1479
      * @var bool|null
      */
     private $isCaseInsensitive = null;

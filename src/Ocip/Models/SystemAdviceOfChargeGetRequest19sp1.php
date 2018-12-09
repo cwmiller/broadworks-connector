@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemAdviceOfChargeGetResponse19sp1
  * @see ErrorResponse
- * @Groups [{"id":"d7a3faa291b985d963cf43a21af19b28:234","type":"sequence"}]
+ * @Groups [{"id":"fb1070190f79a86aa955448146b539c7:234","type":"sequence"}]
  */
 class SystemAdviceOfChargeGetRequest19sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

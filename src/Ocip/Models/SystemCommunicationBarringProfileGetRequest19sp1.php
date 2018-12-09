@@ -14,7 +14,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SystemCommunicationBarringProfileGetResponse19sp1
  * @see ErrorResponse
  * @see SystemCommunicationBarringProfileGetRequest19sp1V2
- * @Groups [{"id":"499b56264fbe226bfef3c338c8d4750d:3294","type":"sequence"}]
+ * @Groups [{"id":"bb12a3589ab4748963f28f7ac9310f70:3294","type":"sequence"}]
  */
 class SystemCommunicationBarringProfileGetRequest19sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -22,7 +22,7 @@ class SystemCommunicationBarringProfileGetRequest19sp1 extends \CWM\BroadWorksCo
     /**
      * @ElementName name
      * @Type string
-     * @Group 499b56264fbe226bfef3c338c8d4750d:3294
+     * @Group bb12a3589ab4748963f28f7ac9310f70:3294
      * @var string|null
      */
     private $name = null;

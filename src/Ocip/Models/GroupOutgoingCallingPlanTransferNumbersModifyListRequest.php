@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"8366f5f5d1fbfb9742236aba282c1dab:857","type":"sequence"}]
+ * @Groups [{"id":"80676ea6f2582b1b88573623a6affc0e:857","type":"sequence"}]
  */
 class GroupOutgoingCallingPlanTransferNumbersModifyListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupOutgoingCallingPlanTransferNumbersModifyListRequest extends \CWM\Broa
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 8366f5f5d1fbfb9742236aba282c1dab:857
+     * @Group 80676ea6f2582b1b88573623a6affc0e:857
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,7 +26,7 @@ class GroupOutgoingCallingPlanTransferNumbersModifyListRequest extends \CWM\Broa
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 8366f5f5d1fbfb9742236aba282c1dab:857
+     * @Group 80676ea6f2582b1b88573623a6affc0e:857
      * @var string|null
      */
     private $groupId = null;
@@ -35,7 +35,7 @@ class GroupOutgoingCallingPlanTransferNumbersModifyListRequest extends \CWM\Broa
      * @ElementName groupNumbers
      * @Type \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanTransferNumbersModify
      * @Optional
-     * @Group 8366f5f5d1fbfb9742236aba282c1dab:857
+     * @Group 80676ea6f2582b1b88573623a6affc0e:857
      * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanTransferNumbersModify|null
      */
     private $groupNumbers = null;
@@ -45,7 +45,7 @@ class GroupOutgoingCallingPlanTransferNumbersModifyListRequest extends \CWM\Broa
      * @Type \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanDepartmentTransferNumbersModify
      * @Array
      * @Optional
-     * @Group 8366f5f5d1fbfb9742236aba282c1dab:857
+     * @Group 80676ea6f2582b1b88573623a6affc0e:857
      * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanDepartmentTransferNumbersModify[]
      */
     private $departmentNumbers = array(

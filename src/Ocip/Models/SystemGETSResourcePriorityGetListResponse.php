@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The table columns are: "Priority Value", "Priority Level" and "Priority Class".
  *
  * @see SystemGETSResourcePriorityGetListRequest
- * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:9438","type":"sequence"}]
+ * @Groups [{"id":"b5f5416d9e71f8e4246cda16c4723744:9438","type":"sequence"}]
  */
 class SystemGETSResourcePriorityGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class SystemGETSResourcePriorityGetListResponse extends \CWM\BroadWorksConnector
     /**
      * @ElementName resourcePriorityTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:9438
+     * @Group b5f5416d9e71f8e4246cda16c4723744:9438
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $resourcePriorityTable = null;

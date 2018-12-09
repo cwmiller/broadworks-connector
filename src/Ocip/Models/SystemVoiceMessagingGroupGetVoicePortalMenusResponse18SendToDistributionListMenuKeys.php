@@ -5,7 +5,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemVoiceMessagingGroupGetVoicePortalMenusResponse18SendToDistributionListMenuKeys
  *
- * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:29874","type":"sequence"}]
+ * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:29874","type":"sequence"}]
  */
 class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18SendToDistributionListMenuKeys
 {
@@ -13,7 +13,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18SendToDistributionLi
     /**
      * @ElementName sendMessageToSelectedDistributionList
      * @Type string
-     * @Group 1a79c7896cb04feac6eff47a5321756e:29874
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:29874
      * @var string|null
      */
     private $sendMessageToSelectedDistributionList = null;
@@ -22,7 +22,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18SendToDistributionLi
      * @ElementName selectDistributionList
      * @Type string
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:29874
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:29874
      * @var string|null
      */
     private $selectDistributionList = null;
@@ -31,7 +31,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18SendToDistributionLi
      * @ElementName reviewSelectedDistributionList
      * @Type string
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:29874
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:29874
      * @var string|null
      */
     private $reviewSelectedDistributionList = null;
@@ -39,7 +39,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18SendToDistributionLi
     /**
      * @ElementName returnToPreviousMenu
      * @Type string
-     * @Group 1a79c7896cb04feac6eff47a5321756e:29874
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:29874
      * @var string|null
      */
     private $returnToPreviousMenu = null;
@@ -48,7 +48,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18SendToDistributionLi
      * @ElementName repeatMenu
      * @Type string
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:29874
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:29874
      * @var string|null
      */
     private $repeatMenu = null;

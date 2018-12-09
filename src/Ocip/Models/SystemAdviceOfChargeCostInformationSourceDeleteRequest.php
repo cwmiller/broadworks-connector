@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"d7a3faa291b985d963cf43a21af19b28:171","type":"sequence"}]
+ * @Groups [{"id":"fb1070190f79a86aa955448146b539c7:171","type":"sequence"}]
  */
 class SystemAdviceOfChargeCostInformationSourceDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemAdviceOfChargeCostInformationSourceDeleteRequest extends \CWM\BroadW
     /**
      * @ElementName peerIdentity
      * @Type string
-     * @Group d7a3faa291b985d963cf43a21af19b28:171
+     * @Group fb1070190f79a86aa955448146b539c7:171
      * @var string|null
      */
     private $peerIdentity = null;

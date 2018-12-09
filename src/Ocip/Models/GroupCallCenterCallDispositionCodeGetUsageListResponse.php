@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains a table with column headings: "Id", "Name" and "Type".
  *
  * @see GroupCallCenterCallDispositionCodeGetUsageListRequest
- * @Groups [{"id":"69c2aeb1186dc97a4f4c36d9609ddb49:2583","type":"sequence"}]
+ * @Groups [{"id":"3ac5f05d969bc771d6ba8d344d95aa72:2583","type":"sequence"}]
  */
 class GroupCallCenterCallDispositionCodeGetUsageListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class GroupCallCenterCallDispositionCodeGetUsageListResponse extends \CWM\BroadW
     /**
      * @ElementName callCenterTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:2583
+     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:2583
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $callCenterTable = null;

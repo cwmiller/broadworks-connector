@@ -266,7 +266,8 @@ use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderSessionAdmissionControlWh
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderSIPAuthenticationPasswordRulesGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderSIPAuthenticationPasswordRulesGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderSIPAuthenticationPasswordRulesModifyRequest;
-use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceProvider
@@ -276,6 +277,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderAccessDeviceAddRequest14 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderAccessDeviceAddRequest14(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceAddRequest14 $request)
     {
@@ -286,6 +288,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderAccessDeviceCustomTagAddRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderAccessDeviceCustomTagAddRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceCustomTagAddRequest $request)
     {
@@ -296,6 +299,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderAccessDeviceCustomTagDeleteListRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderAccessDeviceCustomTagDeleteListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceCustomTagDeleteListRequest $request)
     {
@@ -306,6 +310,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderAccessDeviceCustomTagGetListRequest $request
      * @return ServiceProviderAccessDeviceCustomTagGetListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderAccessDeviceCustomTagGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceCustomTagGetListRequest $request)
     {
@@ -316,6 +321,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderAccessDeviceCustomTagModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderAccessDeviceCustomTagModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceCustomTagModifyRequest $request)
     {
@@ -326,6 +332,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderAccessDeviceDeleteRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderAccessDeviceDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceDeleteRequest $request)
     {
@@ -336,6 +343,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderAccessDeviceFileGetListRequest14sp8 $request
      * @return ServiceProviderAccessDeviceFileGetListResponse14sp8
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderAccessDeviceFileGetListRequest14sp8(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceFileGetListRequest14sp8 $request)
     {
@@ -346,6 +354,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderAccessDeviceFileGetRequest20 $request
      * @return ServiceProviderAccessDeviceFileGetResponse20
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderAccessDeviceFileGetRequest20(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceFileGetRequest20 $request)
     {
@@ -356,6 +365,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderAccessDeviceFileModifyRequest14sp8 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderAccessDeviceFileModifyRequest14sp8(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceFileModifyRequest14sp8 $request)
     {
@@ -366,6 +376,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderAccessDeviceGetEnhancedConfigurationTypeListRequest $request
      * @return ServiceProviderAccessDeviceGetEnhancedConfigurationTypeListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderAccessDeviceGetEnhancedConfigurationTypeListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceGetEnhancedConfigurationTypeListRequest $request)
     {
@@ -376,6 +387,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderAccessDeviceGetEnhancedConfigurationTypeRequest $request
      * @return ServiceProviderAccessDeviceGetEnhancedConfigurationTypeResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderAccessDeviceGetEnhancedConfigurationTypeRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceGetEnhancedConfigurationTypeRequest $request)
     {
@@ -386,6 +398,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderAccessDeviceGetListRequest $request
      * @return ServiceProviderAccessDeviceGetListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderAccessDeviceGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceGetListRequest $request)
     {
@@ -396,6 +409,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderAccessDeviceGetRequest18sp1 $request
      * @return ServiceProviderAccessDeviceGetResponse18sp1
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderAccessDeviceGetRequest18sp1(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceGetRequest18sp1 $request)
     {
@@ -406,6 +420,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderAccessDeviceGetUserListRequest21sp1 $request
      * @return ServiceProviderAccessDeviceGetUserListResponse21sp1
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderAccessDeviceGetUserListRequest21sp1(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceGetUserListRequest21sp1 $request)
     {
@@ -416,6 +431,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderAccessDeviceModifyRequest14 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderAccessDeviceModifyRequest14(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceModifyRequest14 $request)
     {
@@ -426,6 +442,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderAccessDeviceModifyUserRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderAccessDeviceModifyUserRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceModifyUserRequest $request)
     {
@@ -436,6 +453,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderAccessDeviceResetRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderAccessDeviceResetRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceResetRequest $request)
     {
@@ -446,6 +464,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderAccessDeviceTagSetGetRequest $request
      * @return ServiceProviderAccessDeviceTagSetGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderAccessDeviceTagSetGetRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceTagSetGetRequest $request)
     {
@@ -456,6 +475,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderAccessDeviceTagSetModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderAccessDeviceTagSetModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceTagSetModifyRequest $request)
     {
@@ -466,6 +486,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderAddRequest13mp2 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderAddRequest13mp2(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAddRequest13mp2 $request)
     {
@@ -476,6 +497,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderAdminAddRequest14 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderAdminAddRequest14(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminAddRequest14 $request)
     {
@@ -486,6 +508,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderAdminDeleteRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderAdminDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminDeleteRequest $request)
     {
@@ -496,6 +519,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderAdminGetListRequest14 $request
      * @return ServiceProviderAdminGetListResponse14
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderAdminGetListRequest14(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminGetListRequest14 $request)
     {
@@ -506,6 +530,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderAdminGetPolicyRequest20 $request
      * @return ServiceProviderAdminGetPolicyResponse20
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderAdminGetPolicyRequest20(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminGetPolicyRequest20 $request)
     {
@@ -516,6 +541,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderAdminGetRequest21sp1 $request
      * @return ServiceProviderAdminGetResponse21sp1
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderAdminGetRequest21sp1(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminGetRequest21sp1 $request)
     {
@@ -526,6 +552,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderAdministratorPasswordRulesGetRequest $request
      * @return ServiceProviderAdministratorPasswordRulesGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderAdministratorPasswordRulesGetRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdministratorPasswordRulesGetRequest $request)
     {
@@ -536,6 +563,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderAdminModifyPolicyRequest14 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderAdminModifyPolicyRequest14(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminModifyPolicyRequest14 $request)
     {
@@ -546,6 +574,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderAdminModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderAdminModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminModifyRequest $request)
     {
@@ -556,6 +585,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderAnswerConfirmationGetRequest16 $request
      * @return ServiceProviderAnswerConfirmationGetResponse16
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderAnswerConfirmationGetRequest16(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAnswerConfirmationGetRequest16 $request)
     {
@@ -566,6 +596,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderAnswerConfirmationModifyRequest16 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderAnswerConfirmationModifyRequest16(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAnswerConfirmationModifyRequest16 $request)
     {
@@ -576,6 +607,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderApplicationServerSetGetRequest $request
      * @return ServiceProviderApplicationServerSetGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderApplicationServerSetGetRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderApplicationServerSetGetRequest $request)
     {
@@ -586,6 +618,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderApplicationServerSetModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderApplicationServerSetModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderApplicationServerSetModifyRequest $request)
     {
@@ -596,6 +629,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderCallProcessingGetPolicyRequest22 $request
      * @return 
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderCallProcessingGetPolicyRequest22(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCallProcessingGetPolicyRequest22 $request)
     {
@@ -606,6 +640,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderCallProcessingModifyPolicyRequest15 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderCallProcessingModifyPolicyRequest15(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCallProcessingModifyPolicyRequest15 $request)
     {
@@ -616,6 +651,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderCommunicationBarringCriteriaAssignListRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderCommunicationBarringCriteriaAssignListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCommunicationBarringCriteriaAssignListRequest $request)
     {
@@ -626,6 +662,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderCommunicationBarringCriteriaGetAssignedListRequest $request
      * @return ServiceProviderCommunicationBarringCriteriaGetAssignedListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderCommunicationBarringCriteriaGetAssignedListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCommunicationBarringCriteriaGetAssignedListRequest $request)
     {
@@ -636,6 +673,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderCommunicationBarringCriteriaUnassignListRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderCommunicationBarringCriteriaUnassignListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCommunicationBarringCriteriaUnassignListRequest $request)
     {
@@ -646,6 +684,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderCommunicationBarringDigitPatternCriteriaAddRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderCommunicationBarringDigitPatternCriteriaAddRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCommunicationBarringDigitPatternCriteriaAddRequest $request)
     {
@@ -656,6 +695,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderCommunicationBarringDigitPatternCriteriaDeleteRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderCommunicationBarringDigitPatternCriteriaDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCommunicationBarringDigitPatternCriteriaDeleteRequest $request)
     {
@@ -666,6 +706,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderCommunicationBarringDigitPatternCriteriaGetListRequest $request
      * @return ServiceProviderCommunicationBarringDigitPatternCriteriaGetListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderCommunicationBarringDigitPatternCriteriaGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCommunicationBarringDigitPatternCriteriaGetListRequest $request)
     {
@@ -676,6 +717,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderCommunicationBarringDigitPatternCriteriaGetPatternListRequest $request
      * @return ServiceProviderCommunicationBarringDigitPatternCriteriaGetPatternListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderCommunicationBarringDigitPatternCriteriaGetPatternListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCommunicationBarringDigitPatternCriteriaGetPatternListRequest $request)
     {
@@ -686,6 +728,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderCommunicationBarringDigitPatternCriteriaGetRequest $request
      * @return ServiceProviderCommunicationBarringDigitPatternCriteriaGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderCommunicationBarringDigitPatternCriteriaGetRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCommunicationBarringDigitPatternCriteriaGetRequest $request)
     {
@@ -696,6 +739,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderCommunicationBarringDigitPatternCriteriaModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderCommunicationBarringDigitPatternCriteriaModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCommunicationBarringDigitPatternCriteriaModifyRequest $request)
     {
@@ -706,6 +750,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderCommunicationBarringIncomingCriteriaAssignListRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderCommunicationBarringIncomingCriteriaAssignListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCommunicationBarringIncomingCriteriaAssignListRequest $request)
     {
@@ -716,6 +761,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderCommunicationBarringIncomingCriteriaGetAssignedListRequest $request
      * @return ServiceProviderCommunicationBarringIncomingCriteriaGetAssignedListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderCommunicationBarringIncomingCriteriaGetAssignedListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCommunicationBarringIncomingCriteriaGetAssignedListRequest $request)
     {
@@ -726,6 +772,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderCommunicationBarringIncomingCriteriaUnassignListRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderCommunicationBarringIncomingCriteriaUnassignListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCommunicationBarringIncomingCriteriaUnassignListRequest $request)
     {
@@ -736,6 +783,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderCommunicationBarringProfileAddRequest19sp1 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderCommunicationBarringProfileAddRequest19sp1(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCommunicationBarringProfileAddRequest19sp1 $request)
     {
@@ -746,6 +794,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderCommunicationBarringProfileDeleteRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderCommunicationBarringProfileDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCommunicationBarringProfileDeleteRequest $request)
     {
@@ -756,6 +805,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderCommunicationBarringProfileGetAssignedGroupListRequest $request
      * @return ServiceProviderCommunicationBarringProfileGetAssignedGroupListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderCommunicationBarringProfileGetAssignedGroupListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCommunicationBarringProfileGetAssignedGroupListRequest $request)
     {
@@ -766,6 +816,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderCommunicationBarringProfileGetCriteriaUsageListRequest $request
      * @return ServiceProviderCommunicationBarringProfileGetCriteriaUsageListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderCommunicationBarringProfileGetCriteriaUsageListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCommunicationBarringProfileGetCriteriaUsageListRequest $request)
     {
@@ -776,6 +827,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderCommunicationBarringProfileGetDigitPatternCriteriaUsageListRequest $request
      * @return ServiceProviderCommunicationBarringProfileGetDigitPatternCriteriaUsageListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderCommunicationBarringProfileGetDigitPatternCriteriaUsageListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCommunicationBarringProfileGetDigitPatternCriteriaUsageListRequest $request)
     {
@@ -786,6 +838,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderCommunicationBarringProfileGetIncomingCriteriaUsageListRequest $request
      * @return ServiceProviderCommunicationBarringProfileGetIncomingCriteriaUsageListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderCommunicationBarringProfileGetIncomingCriteriaUsageListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCommunicationBarringProfileGetIncomingCriteriaUsageListRequest $request)
     {
@@ -796,6 +849,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderCommunicationBarringProfileGetListRequest $request
      * @return 
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderCommunicationBarringProfileGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCommunicationBarringProfileGetListRequest $request)
     {
@@ -806,6 +860,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderCommunicationBarringProfileGetRequest19sp1V2 $request
      * @return ServiceProviderCommunicationBarringProfileGetResponse19sp1V2
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderCommunicationBarringProfileGetRequest19sp1V2(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCommunicationBarringProfileGetRequest19sp1V2 $request)
     {
@@ -816,6 +871,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderCommunicationBarringProfileModifyDefaultRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderCommunicationBarringProfileModifyDefaultRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCommunicationBarringProfileModifyDefaultRequest $request)
     {
@@ -826,6 +882,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderCommunicationBarringProfileModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderCommunicationBarringProfileModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCommunicationBarringProfileModifyRequest $request)
     {
@@ -836,6 +893,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderCPEConfigRebuildConfigFileRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderCPEConfigRebuildConfigFileRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCPEConfigRebuildConfigFileRequest $request)
     {
@@ -846,6 +904,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderCPEConfigRebuildDeviceConfigFileRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderCPEConfigRebuildDeviceConfigFileRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCPEConfigRebuildDeviceConfigFileRequest $request)
     {
@@ -856,6 +915,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderCPEConfigReorderDeviceLinePortsRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderCPEConfigReorderDeviceLinePortsRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCPEConfigReorderDeviceLinePortsRequest $request)
     {
@@ -866,6 +926,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderCPEConfigResetDeviceRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderCPEConfigResetDeviceRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCPEConfigResetDeviceRequest $request)
     {
@@ -876,6 +937,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderCPEConfigResetDeviceTypeRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderCPEConfigResetDeviceTypeRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCPEConfigResetDeviceTypeRequest $request)
     {
@@ -886,6 +948,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderCPEConfigSetConfigFileRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderCPEConfigSetConfigFileRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCPEConfigSetConfigFileRequest $request)
     {
@@ -896,6 +959,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderDeleteRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDeleteRequest $request)
     {
@@ -906,6 +970,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderDeviceManagementEventGetListRequest22 $request
      * @return ServiceProviderDeviceManagementEventGetListResponse22
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderDeviceManagementEventGetListRequest22(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDeviceManagementEventGetListRequest22 $request)
     {
@@ -916,6 +981,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderDeviceManagementGetAccessDeviceCountForDeviceTypeServiceProviderRequest $request
      * @return ServiceProviderDeviceManagementGetAccessDeviceCountForDeviceTypeServiceProviderResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderDeviceManagementGetAccessDeviceCountForDeviceTypeServiceProviderRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDeviceManagementGetAccessDeviceCountForDeviceTypeServiceProviderRequest $request)
     {
@@ -926,6 +992,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderDeviceManagementInProgressAndPendingEventCancelRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderDeviceManagementInProgressAndPendingEventCancelRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDeviceManagementInProgressAndPendingEventCancelRequest $request)
     {
@@ -936,6 +1003,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderDeviceProfileAuthenticationPasswordRulesGetRequest $request
      * @return ServiceProviderDeviceProfileAuthenticationPasswordRulesGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderDeviceProfileAuthenticationPasswordRulesGetRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDeviceProfileAuthenticationPasswordRulesGetRequest $request)
     {
@@ -946,6 +1014,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderDeviceProfileAuthenticationPasswordRulesModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderDeviceProfileAuthenticationPasswordRulesModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDeviceProfileAuthenticationPasswordRulesModifyRequest $request)
     {
@@ -956,6 +1025,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderDeviceTypeCustomTagAddRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderDeviceTypeCustomTagAddRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDeviceTypeCustomTagAddRequest $request)
     {
@@ -966,6 +1036,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderDeviceTypeCustomTagDeleteListRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderDeviceTypeCustomTagDeleteListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDeviceTypeCustomTagDeleteListRequest $request)
     {
@@ -976,6 +1047,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderDeviceTypeCustomTagGetListRequest $request
      * @return ServiceProviderDeviceTypeCustomTagGetListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderDeviceTypeCustomTagGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDeviceTypeCustomTagGetListRequest $request)
     {
@@ -986,6 +1058,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderDeviceTypeCustomTagModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderDeviceTypeCustomTagModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDeviceTypeCustomTagModifyRequest $request)
     {
@@ -996,6 +1069,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderDeviceTypeFileGetListRequest $request
      * @return ServiceProviderDeviceTypeFileGetListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderDeviceTypeFileGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDeviceTypeFileGetListRequest $request)
     {
@@ -1006,6 +1080,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderDeviceTypeFileGetRequest $request
      * @return ServiceProviderDeviceTypeFileGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderDeviceTypeFileGetRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDeviceTypeFileGetRequest $request)
     {
@@ -1016,6 +1091,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderDeviceTypeFileModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderDeviceTypeFileModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDeviceTypeFileModifyRequest $request)
     {
@@ -1026,6 +1102,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderDeviceTypeTagSetGetRequest $request
      * @return ServiceProviderDeviceTypeTagSetGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderDeviceTypeTagSetGetRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDeviceTypeTagSetGetRequest $request)
     {
@@ -1036,6 +1113,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderDeviceTypeTagSetModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderDeviceTypeTagSetModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDeviceTypeTagSetModifyRequest $request)
     {
@@ -1046,6 +1124,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderDialableCallerIDCriteriaAddRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderDialableCallerIDCriteriaAddRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDialableCallerIDCriteriaAddRequest $request)
     {
@@ -1056,6 +1135,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderDialableCallerIDCriteriaDeleteRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderDialableCallerIDCriteriaDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDialableCallerIDCriteriaDeleteRequest $request)
     {
@@ -1066,6 +1146,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderDialableCallerIDCriteriaGetRequest $request
      * @return 
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderDialableCallerIDCriteriaGetRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDialableCallerIDCriteriaGetRequest $request)
     {
@@ -1076,6 +1157,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderDialableCallerIDCriteriaModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderDialableCallerIDCriteriaModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDialableCallerIDCriteriaModifyRequest $request)
     {
@@ -1086,6 +1168,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderDialableCallerIDGetRequest $request
      * @return 
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderDialableCallerIDGetRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDialableCallerIDGetRequest $request)
     {
@@ -1096,6 +1179,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderDialableCallerIDModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderDialableCallerIDModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDialableCallerIDModifyRequest $request)
     {
@@ -1106,6 +1190,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderDialPlanPolicyAddAccessCodeRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderDialPlanPolicyAddAccessCodeRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDialPlanPolicyAddAccessCodeRequest $request)
     {
@@ -1116,6 +1201,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderDialPlanPolicyDeleteAccessCodeRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderDialPlanPolicyDeleteAccessCodeRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDialPlanPolicyDeleteAccessCodeRequest $request)
     {
@@ -1126,6 +1212,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderDialPlanPolicyGetAccessCodeListRequest $request
      * @return ServiceProviderDialPlanPolicyGetAccessCodeListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderDialPlanPolicyGetAccessCodeListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDialPlanPolicyGetAccessCodeListRequest $request)
     {
@@ -1136,6 +1223,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderDialPlanPolicyGetAccessCodeRequest $request
      * @return ServiceProviderDialPlanPolicyGetAccessCodeResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderDialPlanPolicyGetAccessCodeRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDialPlanPolicyGetAccessCodeRequest $request)
     {
@@ -1146,6 +1234,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderDialPlanPolicyGetRequest17 $request
      * @return ServiceProviderDialPlanPolicyGetResponse17
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderDialPlanPolicyGetRequest17(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDialPlanPolicyGetRequest17 $request)
     {
@@ -1156,6 +1245,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderDialPlanPolicyModifyAccessCodeRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderDialPlanPolicyModifyAccessCodeRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDialPlanPolicyModifyAccessCodeRequest $request)
     {
@@ -1166,6 +1256,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderDialPlanPolicyModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderDialPlanPolicyModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDialPlanPolicyModifyRequest $request)
     {
@@ -1176,6 +1267,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderDigitCollectionGetRequest13mp4 $request
      * @return ServiceProviderDigitCollectionGetResponse13mp4
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderDigitCollectionGetRequest13mp4(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDigitCollectionGetRequest13mp4 $request)
     {
@@ -1186,6 +1278,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderDigitCollectionModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderDigitCollectionModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDigitCollectionModifyRequest $request)
     {
@@ -1196,6 +1289,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderDnAddListRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderDnAddListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDnAddListRequest $request)
     {
@@ -1206,6 +1300,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderDnDeleteListRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderDnDeleteListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDnDeleteListRequest $request)
     {
@@ -1216,6 +1311,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderDnGetAvailableListRequest $request
      * @return ServiceProviderDnGetAvailableListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderDnGetAvailableListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDnGetAvailableListRequest $request)
     {
@@ -1226,6 +1322,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderDnGetSummaryListRequest $request
      * @return ServiceProviderDnGetSummaryListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderDnGetSummaryListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDnGetSummaryListRequest $request)
     {
@@ -1236,6 +1333,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderDomainAssignListRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderDomainAssignListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDomainAssignListRequest $request)
     {
@@ -1246,6 +1344,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderDomainGetAssignedGroupListRequest $request
      * @return ServiceProviderDomainGetAssignedGroupListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderDomainGetAssignedGroupListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDomainGetAssignedGroupListRequest $request)
     {
@@ -1256,6 +1355,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderDomainGetAssignedListRequest $request
      * @return ServiceProviderDomainGetAssignedListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderDomainGetAssignedListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDomainGetAssignedListRequest $request)
     {
@@ -1266,6 +1366,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderDomainUnassignListRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderDomainUnassignListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDomainUnassignListRequest $request)
     {
@@ -1276,6 +1377,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderEndpointGetListRequest $request
      * @return ServiceProviderEndpointGetListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderEndpointGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderEndpointGetListRequest $request)
     {
@@ -1286,6 +1388,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderFeatureAccessCodeGetListRequest21 $request
      * @return ServiceProviderFeatureAccessCodeGetListResponse21
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderFeatureAccessCodeGetListRequest21(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderFeatureAccessCodeGetListRequest21 $request)
     {
@@ -1296,6 +1399,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderFeatureAccessCodeModifyListRequest21 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderFeatureAccessCodeModifyListRequest21(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderFeatureAccessCodeModifyListRequest21 $request)
     {
@@ -1306,6 +1410,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderFileRepositoryDeviceUserAddRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderFileRepositoryDeviceUserAddRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderFileRepositoryDeviceUserAddRequest $request)
     {
@@ -1316,6 +1421,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderFileRepositoryDeviceUserDeleteRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderFileRepositoryDeviceUserDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderFileRepositoryDeviceUserDeleteRequest $request)
     {
@@ -1326,6 +1432,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderFileRepositoryDeviceUserGetListRequest $request
      * @return ServiceProviderFileRepositoryDeviceUserGetListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderFileRepositoryDeviceUserGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderFileRepositoryDeviceUserGetListRequest $request)
     {
@@ -1336,6 +1443,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderFileRepositoryDeviceUserModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderFileRepositoryDeviceUserModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderFileRepositoryDeviceUserModifyRequest $request)
     {
@@ -1346,6 +1454,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderGetDefaultRequest $request
      * @return ServiceProviderGetDefaultResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderGetDefaultRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderGetDefaultRequest $request)
     {
@@ -1356,6 +1465,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderGetListRequest $request
      * @return ServiceProviderGetListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderGetListRequest $request)
     {
@@ -1366,6 +1476,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderGetRequest22V2 $request
      * @return ServiceProviderGetResponse22V2
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderGetRequest22V2(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderGetRequest22V2 $request)
     {
@@ -1376,6 +1487,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderHPBXAlternateCarrierSelectionGetRequest $request
      * @return ServiceProviderHPBXAlternateCarrierSelectionGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderHPBXAlternateCarrierSelectionGetRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderHPBXAlternateCarrierSelectionGetRequest $request)
     {
@@ -1386,6 +1498,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderHPBXAlternateCarrierSelectionModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderHPBXAlternateCarrierSelectionModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderHPBXAlternateCarrierSelectionModifyRequest $request)
     {
@@ -1396,6 +1509,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderIMRNAssignListRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderIMRNAssignListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderIMRNAssignListRequest $request)
     {
@@ -1406,6 +1520,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderIMRNGetListRequest $request
      * @return ServiceProviderIMRNGetListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderIMRNGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderIMRNGetListRequest $request)
     {
@@ -1416,6 +1531,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderIMRNUnassignListRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderIMRNUnassignListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderIMRNUnassignListRequest $request)
     {
@@ -1426,6 +1542,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderLanguageAddRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderLanguageAddRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderLanguageAddRequest $request)
     {
@@ -1436,6 +1553,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderLanguageDeleteRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderLanguageDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderLanguageDeleteRequest $request)
     {
@@ -1446,6 +1564,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderLanguageGetAvailableListRequest $request
      * @return ServiceProviderLanguageGetAvailableListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderLanguageGetAvailableListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderLanguageGetAvailableListRequest $request)
     {
@@ -1456,6 +1575,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderLanguageGetListRequest $request
      * @return ServiceProviderLanguageGetListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderLanguageGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderLanguageGetListRequest $request)
     {
@@ -1466,6 +1586,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderLanguageModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderLanguageModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderLanguageModifyRequest $request)
     {
@@ -1476,6 +1597,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderModifyRequest $request)
     {
@@ -1486,6 +1608,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderNetworkClassOfServiceAssignListRequest21 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderNetworkClassOfServiceAssignListRequest21(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderNetworkClassOfServiceAssignListRequest21 $request)
     {
@@ -1496,6 +1619,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderNetworkClassOfServiceAssignListToAllGroupsRequest $request
      * @return 
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderNetworkClassOfServiceAssignListToAllGroupsRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderNetworkClassOfServiceAssignListToAllGroupsRequest $request)
     {
@@ -1506,6 +1630,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderNetworkClassOfServiceAssignToAllUsersRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderNetworkClassOfServiceAssignToAllUsersRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderNetworkClassOfServiceAssignToAllUsersRequest $request)
     {
@@ -1516,6 +1641,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderNetworkClassOfServiceGetAssignedGroupListRequest $request
      * @return ServiceProviderNetworkClassOfServiceGetAssignedGroupListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderNetworkClassOfServiceGetAssignedGroupListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderNetworkClassOfServiceGetAssignedGroupListRequest $request)
     {
@@ -1526,6 +1652,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderNetworkClassOfServiceGetAssignedListRequest $request
      * @return ServiceProviderNetworkClassOfServiceGetAssignedListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderNetworkClassOfServiceGetAssignedListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderNetworkClassOfServiceGetAssignedListRequest $request)
     {
@@ -1536,6 +1663,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderNetworkClassOfServiceModifyDefaultRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderNetworkClassOfServiceModifyDefaultRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderNetworkClassOfServiceModifyDefaultRequest $request)
     {
@@ -1546,6 +1674,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderNetworkClassOfServiceUnassignListRequest21 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderNetworkClassOfServiceUnassignListRequest21(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderNetworkClassOfServiceUnassignListRequest21 $request)
     {
@@ -1556,6 +1685,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderNumberPortabilityQueryAddListRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderNumberPortabilityQueryAddListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderNumberPortabilityQueryAddListRequest $request)
     {
@@ -1566,6 +1696,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderNumberPortabilityQueryGetRequest $request
      * @return ServiceProviderNumberPortabilityQueryGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderNumberPortabilityQueryGetRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderNumberPortabilityQueryGetRequest $request)
     {
@@ -1576,6 +1707,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderNumberPortabilityQueryModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderNumberPortabilityQueryModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderNumberPortabilityQueryModifyRequest $request)
     {
@@ -1586,6 +1718,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderOfficeZoneAssignListRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderOfficeZoneAssignListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderOfficeZoneAssignListRequest $request)
     {
@@ -1596,6 +1729,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderOfficeZoneGetAssignedGroupListRequest $request
      * @return ServiceProviderOfficeZoneGetAssignedGroupListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderOfficeZoneGetAssignedGroupListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderOfficeZoneGetAssignedGroupListRequest $request)
     {
@@ -1606,6 +1740,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderOfficeZoneGetAssignedListRequest $request
      * @return ServiceProviderOfficeZoneGetAssignedListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderOfficeZoneGetAssignedListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderOfficeZoneGetAssignedListRequest $request)
     {
@@ -1616,6 +1751,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderOfficeZoneUnassignListRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderOfficeZoneUnassignListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderOfficeZoneUnassignListRequest $request)
     {
@@ -1626,6 +1762,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderPasswordRulesGetRequest22 $request
      * @return ServiceProviderPasswordRulesGetResponse22
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderPasswordRulesGetRequest22(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderPasswordRulesGetRequest22 $request)
     {
@@ -1636,6 +1773,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderPasswordRulesModifyRequest14sp3 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderPasswordRulesModifyRequest14sp3(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderPasswordRulesModifyRequest14sp3 $request)
     {
@@ -1646,6 +1784,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderPortalPasscodeRulesGetRequest19 $request
      * @return ServiceProviderPortalPasscodeRulesGetResponse19
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderPortalPasscodeRulesGetRequest19(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderPortalPasscodeRulesGetRequest19 $request)
     {
@@ -1656,6 +1795,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderPortalPasscodeRulesModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderPortalPasscodeRulesModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderPortalPasscodeRulesModifyRequest $request)
     {
@@ -1666,6 +1806,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderRoutePointExternalSystemAssignListRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderRoutePointExternalSystemAssignListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderRoutePointExternalSystemAssignListRequest $request)
     {
@@ -1676,6 +1817,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderRoutePointExternalSystemGetAssignedGroupListRequest $request
      * @return ServiceProviderRoutePointExternalSystemGetAssignedGroupListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderRoutePointExternalSystemGetAssignedGroupListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderRoutePointExternalSystemGetAssignedGroupListRequest $request)
     {
@@ -1686,6 +1828,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderRoutePointExternalSystemGetAssignedListRequest $request
      * @return ServiceProviderRoutePointExternalSystemGetAssignedListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderRoutePointExternalSystemGetAssignedListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderRoutePointExternalSystemGetAssignedListRequest $request)
     {
@@ -1696,6 +1839,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderRoutePointExternalSystemUnassignListRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderRoutePointExternalSystemUnassignListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderRoutePointExternalSystemUnassignListRequest $request)
     {
@@ -1706,6 +1850,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderRoutingProfileGetRequest $request
      * @return ServiceProviderRoutingProfileGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderRoutingProfileGetRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderRoutingProfileGetRequest $request)
     {
@@ -1716,6 +1861,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderRoutingProfileModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderRoutingProfileModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderRoutingProfileModifyRequest $request)
     {
@@ -1726,6 +1872,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderScheduleAddEventRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderScheduleAddEventRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderScheduleAddEventRequest $request)
     {
@@ -1736,6 +1883,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderScheduleAddRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderScheduleAddRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderScheduleAddRequest $request)
     {
@@ -1746,6 +1894,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderScheduleDeleteEventListRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderScheduleDeleteEventListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderScheduleDeleteEventListRequest $request)
     {
@@ -1756,6 +1905,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderScheduleDeleteListRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderScheduleDeleteListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderScheduleDeleteListRequest $request)
     {
@@ -1766,6 +1916,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderScheduleGetEventDetailListRequest $request
      * @return ServiceProviderScheduleGetEventDetailListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderScheduleGetEventDetailListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderScheduleGetEventDetailListRequest $request)
     {
@@ -1776,6 +1927,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderScheduleGetEventListRequest $request
      * @return ServiceProviderScheduleGetEventListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderScheduleGetEventListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderScheduleGetEventListRequest $request)
     {
@@ -1786,6 +1938,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderScheduleGetEventRequest $request
      * @return ServiceProviderScheduleGetEventResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderScheduleGetEventRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderScheduleGetEventRequest $request)
     {
@@ -1796,6 +1949,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderScheduleGetListRequest $request
      * @return ServiceProviderScheduleGetListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderScheduleGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderScheduleGetListRequest $request)
     {
@@ -1806,6 +1960,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderScheduleModifyEventRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderScheduleModifyEventRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderScheduleModifyEventRequest $request)
     {
@@ -1816,6 +1971,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderScheduleModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderScheduleModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderScheduleModifyRequest $request)
     {
@@ -1826,6 +1982,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderServiceGetAuthorizationListRequest $request
      * @return ServiceProviderServiceGetAuthorizationListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderServiceGetAuthorizationListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderServiceGetAuthorizationListRequest $request)
     {
@@ -1836,6 +1993,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderServiceGetAuthorizationRequest $request
      * @return ServiceProviderServiceGetAuthorizationResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderServiceGetAuthorizationRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderServiceGetAuthorizationRequest $request)
     {
@@ -1846,6 +2004,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderServiceGetUserAssignableListRequest $request
      * @return ServiceProviderServiceGetUserAssignableListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderServiceGetUserAssignableListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderServiceGetUserAssignableListRequest $request)
     {
@@ -1856,6 +2015,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderServiceModifyAuthorizationListRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderServiceModifyAuthorizationListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderServiceModifyAuthorizationListRequest $request)
     {
@@ -1866,6 +2026,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderServicePackAddRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderServicePackAddRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderServicePackAddRequest $request)
     {
@@ -1876,6 +2037,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderServicePackAddServiceListRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderServicePackAddServiceListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderServicePackAddServiceListRequest $request)
     {
@@ -1886,6 +2048,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderServicePackDeleteRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderServicePackDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderServicePackDeleteRequest $request)
     {
@@ -1896,6 +2059,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderServicePackGetDetailListRequest $request
      * @return ServiceProviderServicePackGetDetailListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderServicePackGetDetailListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderServicePackGetDetailListRequest $request)
     {
@@ -1906,6 +2070,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderServicePackGetListRequest $request
      * @return ServiceProviderServicePackGetListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderServicePackGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderServicePackGetListRequest $request)
     {
@@ -1916,6 +2081,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderServicePackGetServiceUsageListRequest $request
      * @return ServiceProviderServicePackGetServiceUsageListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderServicePackGetServiceUsageListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderServicePackGetServiceUsageListRequest $request)
     {
@@ -1926,6 +2092,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderServicePackGetUtilizationListRequest $request
      * @return ServiceProviderServicePackGetUtilizationListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderServicePackGetUtilizationListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderServicePackGetUtilizationListRequest $request)
     {
@@ -1936,6 +2103,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderServicePackMigrationTaskAddRequest21 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderServicePackMigrationTaskAddRequest21(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderServicePackMigrationTaskAddRequest21 $request)
     {
@@ -1946,6 +2114,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderServicePackMigrationTaskCopyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderServicePackMigrationTaskCopyRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderServicePackMigrationTaskCopyRequest $request)
     {
@@ -1956,6 +2125,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderServicePackMigrationTaskDeleteRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderServicePackMigrationTaskDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderServicePackMigrationTaskDeleteRequest $request)
     {
@@ -1966,6 +2136,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderServicePackMigrationTaskGetAvailableGroupListRequest $request
      * @return ServiceProviderServicePackMigrationTaskGetAvailableGroupListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderServicePackMigrationTaskGetAvailableGroupListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderServicePackMigrationTaskGetAvailableGroupListRequest $request)
     {
@@ -1976,6 +2147,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderServicePackMigrationTaskGetListRequest21 $request
      * @return ServiceProviderServicePackMigrationTaskGetListResponse21
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderServicePackMigrationTaskGetListRequest21(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderServicePackMigrationTaskGetListRequest21 $request)
     {
@@ -1986,6 +2158,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderServicePackMigrationTaskGetRequest21 $request
      * @return ServiceProviderServicePackMigrationTaskGetResponse21
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderServicePackMigrationTaskGetRequest21(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderServicePackMigrationTaskGetRequest21 $request)
     {
@@ -1996,6 +2169,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderServicePackMigrationTaskModifyAssignmentListRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderServicePackMigrationTaskModifyAssignmentListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderServicePackMigrationTaskModifyAssignmentListRequest $request)
     {
@@ -2006,6 +2180,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderServicePackMigrationTaskModifyGroupListRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderServicePackMigrationTaskModifyGroupListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderServicePackMigrationTaskModifyGroupListRequest $request)
     {
@@ -2016,6 +2191,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderServicePackMigrationTaskModifyRemovalListRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderServicePackMigrationTaskModifyRemovalListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderServicePackMigrationTaskModifyRemovalListRequest $request)
     {
@@ -2026,6 +2202,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderServicePackMigrationTaskModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderServicePackMigrationTaskModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderServicePackMigrationTaskModifyRequest $request)
     {
@@ -2036,6 +2213,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderServicePackMigrationTaskModifyUserSelectionRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderServicePackMigrationTaskModifyUserSelectionRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderServicePackMigrationTaskModifyUserSelectionRequest $request)
     {
@@ -2046,6 +2224,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderServicePackMigrationTaskTerminateRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderServicePackMigrationTaskTerminateRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderServicePackMigrationTaskTerminateRequest $request)
     {
@@ -2056,6 +2235,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderServicePackModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderServicePackModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderServicePackModifyRequest $request)
     {
@@ -2066,6 +2246,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderServicePhoneNumberLookupRequest $request
      * @return ServiceProviderServicePhoneNumberLookupResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderServicePhoneNumberLookupRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderServicePhoneNumberLookupRequest $request)
     {
@@ -2076,6 +2257,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderSessionAdmissionControlGetRequest $request
      * @return ServiceProviderSessionAdmissionControlGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderSessionAdmissionControlGetRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderSessionAdmissionControlGetRequest $request)
     {
@@ -2086,6 +2268,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderSessionAdmissionControlModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderSessionAdmissionControlModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderSessionAdmissionControlModifyRequest $request)
     {
@@ -2096,6 +2279,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderSessionAdmissionControlWhiteListGetRequest $request
      * @return ServiceProviderSessionAdmissionControlWhiteListGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderSessionAdmissionControlWhiteListGetRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderSessionAdmissionControlWhiteListGetRequest $request)
     {
@@ -2106,6 +2290,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderSessionAdmissionControlWhiteListModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderSessionAdmissionControlWhiteListModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderSessionAdmissionControlWhiteListModifyRequest $request)
     {
@@ -2116,6 +2301,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderSIPAuthenticationPasswordRulesGetRequest $request
      * @return ServiceProviderSIPAuthenticationPasswordRulesGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderSIPAuthenticationPasswordRulesGetRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderSIPAuthenticationPasswordRulesGetRequest $request)
     {
@@ -2126,6 +2312,7 @@ trait OCISchemaServiceProvider
      * @param ServiceProviderSIPAuthenticationPasswordRulesModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderSIPAuthenticationPasswordRulesModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderSIPAuthenticationPasswordRulesModifyRequest $request)
     {

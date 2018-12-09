@@ -8,7 +8,8 @@ use CWM\BroadWorksConnector\Ocip\Models\GroupIncomingCallingPlanModifyListReques
 use CWM\BroadWorksConnector\Ocip\Models\UserIncomingCallingPlanGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserIncomingCallingPlanGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserIncomingCallingPlanModifyRequest;
-use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceIncomingCallingPlan
@@ -18,6 +19,7 @@ trait OCISchemaServiceIncomingCallingPlan
      * @param GroupIncomingCallingPlanGetListRequest $request
      * @return GroupIncomingCallingPlanGetListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupIncomingCallingPlanGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupIncomingCallingPlanGetListRequest $request)
     {
@@ -28,6 +30,7 @@ trait OCISchemaServiceIncomingCallingPlan
      * @param GroupIncomingCallingPlanModifyListRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupIncomingCallingPlanModifyListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupIncomingCallingPlanModifyListRequest $request)
     {
@@ -38,6 +41,7 @@ trait OCISchemaServiceIncomingCallingPlan
      * @param UserIncomingCallingPlanGetRequest $request
      * @return UserIncomingCallingPlanGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userIncomingCallingPlanGetRequest(\CWM\BroadWorksConnector\Ocip\Models\UserIncomingCallingPlanGetRequest $request)
     {
@@ -48,6 +52,7 @@ trait OCISchemaServiceIncomingCallingPlan
      * @param UserIncomingCallingPlanModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userIncomingCallingPlanModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\UserIncomingCallingPlanModifyRequest $request)
     {

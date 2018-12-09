@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           boshURL
  *
  * @see SystemIntegratedIMPGetRequest21
- * @Groups [{"id":"8351e8f51540f77c264b2f9bdf7fada4:255","type":"sequence"}]
+ * @Groups [{"id":"1145a01488507071407c5896ff2e4ef5:255","type":"sequence"}]
  */
 class SystemIntegratedIMPGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -21,7 +21,7 @@ class SystemIntegratedIMPGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName serviceDomain
      * @Type string
      * @Optional
-     * @Group 8351e8f51540f77c264b2f9bdf7fada4:255
+     * @Group 1145a01488507071407c5896ff2e4ef5:255
      * @var string|null
      */
     private $serviceDomain = null;
@@ -30,7 +30,7 @@ class SystemIntegratedIMPGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName servicePort
      * @Type int
      * @Optional
-     * @Group 8351e8f51540f77c264b2f9bdf7fada4:255
+     * @Group 1145a01488507071407c5896ff2e4ef5:255
      * @var int|null
      */
     private $servicePort = null;
@@ -38,7 +38,7 @@ class SystemIntegratedIMPGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName addServiceProviderInIMPUserId
      * @Type bool
-     * @Group 8351e8f51540f77c264b2f9bdf7fada4:255
+     * @Group 1145a01488507071407c5896ff2e4ef5:255
      * @var bool|null
      */
     private $addServiceProviderInIMPUserId = null;
@@ -47,7 +47,7 @@ class SystemIntegratedIMPGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName boshURL
      * @Type string
      * @Optional
-     * @Group 8351e8f51540f77c264b2f9bdf7fada4:255
+     * @Group 1145a01488507071407c5896ff2e4ef5:255
      * @var string|null
      */
     private $boshURL = null;
@@ -55,7 +55,7 @@ class SystemIntegratedIMPGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName allowImpPasswordRetrieval
      * @Type bool
-     * @Group 8351e8f51540f77c264b2f9bdf7fada4:255
+     * @Group 1145a01488507071407c5896ff2e4ef5:255
      * @var bool|null
      */
     private $allowImpPasswordRetrieval = null;

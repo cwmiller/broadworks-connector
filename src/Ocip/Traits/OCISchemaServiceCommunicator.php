@@ -7,7 +7,8 @@ use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderBroadWorksCommunicatorGet
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderBroadWorksCommunicatorModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksCommunicatorGetRequest;
-use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksCommunicatorGetResponse;
 
 trait OCISchemaServiceCommunicator
@@ -17,6 +18,7 @@ trait OCISchemaServiceCommunicator
      * @param ServiceProviderBroadWorksCommunicatorGetRequest $request
      * @return ServiceProviderBroadWorksCommunicatorGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderBroadWorksCommunicatorGetRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderBroadWorksCommunicatorGetRequest $request)
     {
@@ -27,6 +29,7 @@ trait OCISchemaServiceCommunicator
      * @param ServiceProviderBroadWorksCommunicatorModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderBroadWorksCommunicatorModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderBroadWorksCommunicatorModifyRequest $request)
     {
@@ -37,6 +40,7 @@ trait OCISchemaServiceCommunicator
      * @param UserBroadWorksCommunicatorGetRequest $request
      * @return UserBroadWorksCommunicatorGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userBroadWorksCommunicatorGetRequest(\CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksCommunicatorGetRequest $request)
     {

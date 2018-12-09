@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"a84192748d1a3645bcd397d847a21d07:204","type":"sequence"}]
+ * @Groups [{"id":"978bd59aab7d92332d5c069142e3c8ac:204","type":"sequence"}]
  */
 class SystemThirdPartyVoiceMailSupportModifyDnRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemThirdPartyVoiceMailSupportModifyDnRequest extends \CWM\BroadWorksCon
     /**
      * @ElementName phoneNumber
      * @Type string
-     * @Group a84192748d1a3645bcd397d847a21d07:204
+     * @Group 978bd59aab7d92332d5c069142e3c8ac:204
      * @var string|null
      */
     private $phoneNumber = null;
@@ -28,7 +28,7 @@ class SystemThirdPartyVoiceMailSupportModifyDnRequest extends \CWM\BroadWorksCon
      * @Type string
      * @Nillable
      * @Optional
-     * @Group a84192748d1a3645bcd397d847a21d07:204
+     * @Group 978bd59aab7d92332d5c069142e3c8ac:204
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $description = null;

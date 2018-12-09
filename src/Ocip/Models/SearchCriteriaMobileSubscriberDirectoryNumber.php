@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Criteria for searching for a BroadWorks Mobility Mobile Subscriber Directory Number.
  *
- * @Groups [{"id":"d37849f5e289836ccd316323a7a3799a:1513","type":"sequence"}]
+ * @Groups [{"id":"e446bfcbd1f39cbef57d1547014f2bb9:1513","type":"sequence"}]
  */
 class SearchCriteriaMobileSubscriberDirectoryNumber extends SearchCriteria
 {
@@ -15,7 +15,7 @@ class SearchCriteriaMobileSubscriberDirectoryNumber extends SearchCriteria
     /**
      * @ElementName mode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchMode
-     * @Group d37849f5e289836ccd316323a7a3799a:1513
+     * @Group e446bfcbd1f39cbef57d1547014f2bb9:1513
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchMode|null
      */
     private $mode = null;
@@ -23,7 +23,7 @@ class SearchCriteriaMobileSubscriberDirectoryNumber extends SearchCriteria
     /**
      * @ElementName value
      * @Type string
-     * @Group d37849f5e289836ccd316323a7a3799a:1513
+     * @Group e446bfcbd1f39cbef57d1547014f2bb9:1513
      * @var string|null
      */
     private $value = null;
@@ -31,7 +31,7 @@ class SearchCriteriaMobileSubscriberDirectoryNumber extends SearchCriteria
     /**
      * @ElementName isCaseInsensitive
      * @Type bool
-     * @Group d37849f5e289836ccd316323a7a3799a:1513
+     * @Group e446bfcbd1f39cbef57d1547014f2bb9:1513
      * @var bool|null
      */
     private $isCaseInsensitive = null;

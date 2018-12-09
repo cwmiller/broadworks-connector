@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see GroupCallCenterGetAnnouncementResponse14sp6
  * @see ErrorResponse
  * @see GroupCallCenterGetAnnouncementRequest16
- * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:3655","type":"sequence"}]
+ * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:3655","type":"sequence"}]
  */
 class GroupCallCenterGetAnnouncementRequest14sp6 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,7 +21,7 @@ class GroupCallCenterGetAnnouncementRequest14sp6 extends \CWM\BroadWorksConnecto
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group 1a79c7896cb04feac6eff47a5321756e:3655
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:3655
      * @var string|null
      */
     private $serviceUserId = null;

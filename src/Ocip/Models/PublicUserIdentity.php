@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Public User Identity
  *
- * @Groups [{"id":"18b369af88e42ffdb4166615c670ce2c:2563","type":"choice"}]
+ * @Groups [{"id":"8e629edbac315ae7889caca732382c44:2563","type":"choice"}]
  */
 class PublicUserIdentity
 {
@@ -15,7 +15,7 @@ class PublicUserIdentity
     /**
      * @ElementName sipURI
      * @Type string
-     * @Group 18b369af88e42ffdb4166615c670ce2c:2563
+     * @Group 8e629edbac315ae7889caca732382c44:2563
      * @var string|null
      */
     private $sipURI = null;
@@ -23,7 +23,7 @@ class PublicUserIdentity
     /**
      * @ElementName telURI
      * @Type string
-     * @Group 18b369af88e42ffdb4166615c670ce2c:2563
+     * @Group 8e629edbac315ae7889caca732382c44:2563
      * @var string|null
      */
     private $telURI = null;

@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"c689e88c0ff061c491155e92929e7018:174","type":"sequence"}]
+ * @Groups [{"id":"942d6d52bb90de674123c4718d7e1483:174","type":"sequence"}]
  */
 class GroupInstantGroupCallModifyInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupInstantGroupCallModifyInstanceRequest extends \CWM\BroadWorksConnecto
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group c689e88c0ff061c491155e92929e7018:174
+     * @Group 942d6d52bb90de674123c4718d7e1483:174
      * @var string|null
      */
     private $serviceUserId = null;
@@ -27,7 +27,7 @@ class GroupInstantGroupCallModifyInstanceRequest extends \CWM\BroadWorksConnecto
      * @ElementName serviceInstanceProfile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceModifyProfile
      * @Optional
-     * @Group c689e88c0ff061c491155e92929e7018:174
+     * @Group 942d6d52bb90de674123c4718d7e1483:174
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceModifyProfile|null
      */
     private $serviceInstanceProfile = null;
@@ -37,7 +37,7 @@ class GroupInstantGroupCallModifyInstanceRequest extends \CWM\BroadWorksConnecto
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementOutgoingDNorSIPURIList
      * @Nillable
      * @Optional
-     * @Group c689e88c0ff061c491155e92929e7018:174
+     * @Group 942d6d52bb90de674123c4718d7e1483:174
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementOutgoingDNorSIPURIList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $destinationPhoneNumberList = null;
@@ -46,7 +46,7 @@ class GroupInstantGroupCallModifyInstanceRequest extends \CWM\BroadWorksConnecto
      * @ElementName isAnswerTimeoutEnabled
      * @Type bool
      * @Optional
-     * @Group c689e88c0ff061c491155e92929e7018:174
+     * @Group 942d6d52bb90de674123c4718d7e1483:174
      * @var bool|null
      */
     private $isAnswerTimeoutEnabled = null;
@@ -56,7 +56,7 @@ class GroupInstantGroupCallModifyInstanceRequest extends \CWM\BroadWorksConnecto
      * @Type int
      * @Nillable
      * @Optional
-     * @Group c689e88c0ff061c491155e92929e7018:174
+     * @Group 942d6d52bb90de674123c4718d7e1483:174
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $answerTimeoutMinutes = null;
@@ -65,7 +65,7 @@ class GroupInstantGroupCallModifyInstanceRequest extends \CWM\BroadWorksConnecto
      * @ElementName networkClassOfService
      * @Type string
      * @Optional
-     * @Group c689e88c0ff061c491155e92929e7018:174
+     * @Group 942d6d52bb90de674123c4718d7e1483:174
      * @var string|null
      */
     private $networkClassOfService = null;

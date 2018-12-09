@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemEnhancedCallLogsGetResponse22
  * @see ErrorResponse
- * @Groups [{"id":"1b1edb32782550c1a52523b734e3143d:203","type":"sequence"}]
+ * @Groups [{"id":"04a33199b8359d9cc787bc7a2d16ab12:203","type":"sequence"}]
  */
 class SystemEnhancedCallLogsGetRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

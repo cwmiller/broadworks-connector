@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserPreAlertingAnnouncementGetCriteriaResponse21
  * @see ErrorResponse
- * @Groups [{"id":"05c6a69cc12c52fede8d3d09ca9155dc:219","type":"sequence"}]
+ * @Groups [{"id":"e593fc1eb817b8da7ed0973006bf55c1:219","type":"sequence"}]
  */
 class UserPreAlertingAnnouncementGetCriteriaRequest21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserPreAlertingAnnouncementGetCriteriaRequest21 extends \CWM\BroadWorksCon
     /**
      * @ElementName userId
      * @Type string
-     * @Group 05c6a69cc12c52fede8d3d09ca9155dc:219
+     * @Group e593fc1eb817b8da7ed0973006bf55c1:219
      * @var string|null
      */
     private $userId = null;
@@ -26,7 +26,7 @@ class UserPreAlertingAnnouncementGetCriteriaRequest21 extends \CWM\BroadWorksCon
     /**
      * @ElementName criteriaName
      * @Type string
-     * @Group 05c6a69cc12c52fede8d3d09ca9155dc:219
+     * @Group e593fc1eb817b8da7ed0973006bf55c1:219
      * @var string|null
      */
     private $criteriaName = null;

@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserCallMeNowGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"4b461d8be4f7bfba1e05db8efbd896b6:167","type":"sequence"}]
+ * @Groups [{"id":"ddf57759ad9d63b4ce76f3f789cde156:167","type":"sequence"}]
  */
 class UserCallMeNowGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserCallMeNowGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
     /**
      * @ElementName userId
      * @Type string
-     * @Group 4b461d8be4f7bfba1e05db8efbd896b6:167
+     * @Group ddf57759ad9d63b4ce76f3f789cde156:167
      * @var string|null
      */
     private $userId = null;

@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "Number", "Description".
  *
  * @see UserPersonalAssistantExclusionNumberGetListRequest
- * @Groups [{"id":"c6760dd4e8dfb4aeba3a11bfab1c6524:234","type":"sequence"}]
+ * @Groups [{"id":"f04e7de96ed87c401bee5b5d2e80ccd3:234","type":"sequence"}]
  */
 class UserPersonalAssistantExclusionNumberGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class UserPersonalAssistantExclusionNumberGetListResponse extends \CWM\BroadWork
     /**
      * @ElementName exclusionNumberTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group c6760dd4e8dfb4aeba3a11bfab1c6524:234
+     * @Group f04e7de96ed87c401bee5b5d2e80ccd3:234
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $exclusionNumberTable = null;

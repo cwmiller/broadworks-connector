@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"69c2aeb1186dc97a4f4c36d9609ddb49:4806","type":"sequence"}]
+ * @Groups [{"id":"3ac5f05d969bc771d6ba8d344d95aa72:4806","type":"sequence"}]
  */
 class GroupCallCenterNightServiceModifyRequest20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class GroupCallCenterNightServiceModifyRequest20 extends \CWM\BroadWorksConnecto
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:4806
+     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:4806
      * @var string|null
      */
     private $serviceUserId = null;
@@ -28,7 +28,7 @@ class GroupCallCenterNightServiceModifyRequest20 extends \CWM\BroadWorksConnecto
      * @ElementName action
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterScheduledServiceAction
      * @Optional
-     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:4806
+     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:4806
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterScheduledServiceAction|null
      */
     private $action = null;
@@ -38,7 +38,7 @@ class GroupCallCenterNightServiceModifyRequest20 extends \CWM\BroadWorksConnecto
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule
      * @Nillable
      * @Optional
-     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:4806
+     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:4806
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $businessHours = null;
@@ -47,7 +47,7 @@ class GroupCallCenterNightServiceModifyRequest20 extends \CWM\BroadWorksConnecto
      * @ElementName forceNightService
      * @Type bool
      * @Optional
-     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:4806
+     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:4806
      * @var bool|null
      */
     private $forceNightService = null;
@@ -56,7 +56,7 @@ class GroupCallCenterNightServiceModifyRequest20 extends \CWM\BroadWorksConnecto
      * @ElementName allowManualOverrideViaFAC
      * @Type bool
      * @Optional
-     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:4806
+     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:4806
      * @var bool|null
      */
     private $allowManualOverrideViaFAC = null;
@@ -66,7 +66,7 @@ class GroupCallCenterNightServiceModifyRequest20 extends \CWM\BroadWorksConnecto
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:4806
+     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:4806
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $transferPhoneNumber = null;
@@ -75,7 +75,7 @@ class GroupCallCenterNightServiceModifyRequest20 extends \CWM\BroadWorksConnecto
      * @ElementName playAnnouncementBeforeAction
      * @Type bool
      * @Optional
-     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:4806
+     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:4806
      * @var bool|null
      */
     private $playAnnouncementBeforeAction = null;
@@ -84,7 +84,7 @@ class GroupCallCenterNightServiceModifyRequest20 extends \CWM\BroadWorksConnecto
      * @ElementName audioMessageSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
      * @Optional
-     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:4806
+     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:4806
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     private $audioMessageSelection = null;
@@ -93,7 +93,7 @@ class GroupCallCenterNightServiceModifyRequest20 extends \CWM\BroadWorksConnecto
      * @ElementName audioUrlList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLListModify
      * @Optional
-     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:4806
+     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:4806
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLListModify|null
      */
     private $audioUrlList = null;
@@ -102,7 +102,7 @@ class GroupCallCenterNightServiceModifyRequest20 extends \CWM\BroadWorksConnecto
      * @ElementName audioFileList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListModify20
      * @Optional
-     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:4806
+     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:4806
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListModify20|null
      */
     private $audioFileList = null;
@@ -111,7 +111,7 @@ class GroupCallCenterNightServiceModifyRequest20 extends \CWM\BroadWorksConnecto
      * @ElementName videoMessageSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
      * @Optional
-     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:4806
+     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:4806
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     private $videoMessageSelection = null;
@@ -120,7 +120,7 @@ class GroupCallCenterNightServiceModifyRequest20 extends \CWM\BroadWorksConnecto
      * @ElementName videoUrlList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLListModify
      * @Optional
-     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:4806
+     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:4806
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLListModify|null
      */
     private $videoUrlList = null;
@@ -129,7 +129,7 @@ class GroupCallCenterNightServiceModifyRequest20 extends \CWM\BroadWorksConnecto
      * @ElementName videoFileList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListModify20
      * @Optional
-     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:4806
+     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:4806
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListModify20|null
      */
     private $videoFileList = null;
@@ -138,7 +138,7 @@ class GroupCallCenterNightServiceModifyRequest20 extends \CWM\BroadWorksConnecto
      * @ElementName manualAnnouncementMode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterManualNightServiceAnnouncementMode
      * @Optional
-     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:4806
+     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:4806
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterManualNightServiceAnnouncementMode|null
      */
     private $manualAnnouncementMode = null;
@@ -147,7 +147,7 @@ class GroupCallCenterNightServiceModifyRequest20 extends \CWM\BroadWorksConnecto
      * @ElementName manualAudioMessageSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
      * @Optional
-     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:4806
+     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:4806
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     private $manualAudioMessageSelection = null;
@@ -156,7 +156,7 @@ class GroupCallCenterNightServiceModifyRequest20 extends \CWM\BroadWorksConnecto
      * @ElementName manualAudioUrlList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLListModify
      * @Optional
-     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:4806
+     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:4806
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLListModify|null
      */
     private $manualAudioUrlList = null;
@@ -165,7 +165,7 @@ class GroupCallCenterNightServiceModifyRequest20 extends \CWM\BroadWorksConnecto
      * @ElementName manualAudioFileList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListModify20
      * @Optional
-     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:4806
+     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:4806
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListModify20|null
      */
     private $manualAudioFileList = null;
@@ -174,7 +174,7 @@ class GroupCallCenterNightServiceModifyRequest20 extends \CWM\BroadWorksConnecto
      * @ElementName manualVideoMessageSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
      * @Optional
-     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:4806
+     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:4806
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     private $manualVideoMessageSelection = null;
@@ -183,7 +183,7 @@ class GroupCallCenterNightServiceModifyRequest20 extends \CWM\BroadWorksConnecto
      * @ElementName manualVideoUrlList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLListModify
      * @Optional
-     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:4806
+     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:4806
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLListModify|null
      */
     private $manualVideoUrlList = null;
@@ -192,7 +192,7 @@ class GroupCallCenterNightServiceModifyRequest20 extends \CWM\BroadWorksConnecto
      * @ElementName manualVideoFileList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListModify20
      * @Optional
-     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:4806
+     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:4806
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListModify20|null
      */
     private $manualVideoFileList = null;

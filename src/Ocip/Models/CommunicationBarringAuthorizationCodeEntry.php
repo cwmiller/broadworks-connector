@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Communication Barring Authorization Code entry.
  *
- * @Groups [{"id":"18b369af88e42ffdb4166615c670ce2c:1077","type":"sequence"}]
+ * @Groups [{"id":"8e629edbac315ae7889caca732382c44:1077","type":"sequence"}]
  */
 class CommunicationBarringAuthorizationCodeEntry
 {
@@ -15,7 +15,7 @@ class CommunicationBarringAuthorizationCodeEntry
     /**
      * @ElementName code
      * @Type string
-     * @Group 18b369af88e42ffdb4166615c670ce2c:1077
+     * @Group 8e629edbac315ae7889caca732382c44:1077
      * @var string|null
      */
     private $code = null;
@@ -24,7 +24,7 @@ class CommunicationBarringAuthorizationCodeEntry
      * @ElementName description
      * @Type string
      * @Optional
-     * @Group 18b369af88e42ffdb4166615c670ce2c:1077
+     * @Group 8e629edbac315ae7889caca732382c44:1077
      * @var string|null
      */
     private $description = null;

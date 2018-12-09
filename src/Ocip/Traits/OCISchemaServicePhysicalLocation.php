@@ -8,7 +8,8 @@ use CWM\BroadWorksConnector\Ocip\Models\SystemPhysicalLocationModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserPhysicalLocationGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserPhysicalLocationGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserPhysicalLocationModifyRequest;
-use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServicePhysicalLocation
@@ -18,6 +19,7 @@ trait OCISchemaServicePhysicalLocation
      * @param SystemPhysicalLocationGetRequest $request
      * @return SystemPhysicalLocationGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemPhysicalLocationGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemPhysicalLocationGetRequest $request)
     {
@@ -28,6 +30,7 @@ trait OCISchemaServicePhysicalLocation
      * @param SystemPhysicalLocationModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemPhysicalLocationModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemPhysicalLocationModifyRequest $request)
     {
@@ -38,6 +41,7 @@ trait OCISchemaServicePhysicalLocation
      * @param UserPhysicalLocationGetRequest $request
      * @return UserPhysicalLocationGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userPhysicalLocationGetRequest(\CWM\BroadWorksConnector\Ocip\Models\UserPhysicalLocationGetRequest $request)
     {
@@ -48,6 +52,7 @@ trait OCISchemaServicePhysicalLocation
      * @param UserPhysicalLocationModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userPhysicalLocationModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\UserPhysicalLocationModifyRequest $request)
     {

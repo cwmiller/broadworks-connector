@@ -5,7 +5,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * CollaborateRoomScheduleScheduleOneTime
  *
- * @Groups [{"id":"18b369af88e42ffdb4166615c670ce2c:800","type":"sequence"}]
+ * @Groups [{"id":"8e629edbac315ae7889caca732382c44:800","type":"sequence"}]
  */
 class CollaborateRoomScheduleScheduleOneTime
 {
@@ -13,7 +13,7 @@ class CollaborateRoomScheduleScheduleOneTime
     /**
      * @ElementName startTime
      * @Type string
-     * @Group 18b369af88e42ffdb4166615c670ce2c:800
+     * @Group 8e629edbac315ae7889caca732382c44:800
      * @var string|null
      */
     private $startTime = null;
@@ -21,7 +21,7 @@ class CollaborateRoomScheduleScheduleOneTime
     /**
      * @ElementName duration
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CollaborateRoomScheduleDuration
-     * @Group 18b369af88e42ffdb4166615c670ce2c:800
+     * @Group 8e629edbac315ae7889caca732382c44:800
      * @var \CWM\BroadWorksConnector\Ocip\Models\CollaborateRoomScheduleDuration|null
      */
     private $duration = null;

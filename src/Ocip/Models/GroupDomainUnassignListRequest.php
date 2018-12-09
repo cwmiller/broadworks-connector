@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:4449","type":"sequence"}]
+ * @Groups [{"id":"15129cd25fa2d5581f4edfd652c24f93:4449","type":"sequence"}]
  */
 class GroupDomainUnassignListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupDomainUnassignListRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:4449
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:4449
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,7 +26,7 @@ class GroupDomainUnassignListRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:4449
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:4449
      * @var string|null
      */
     private $groupId = null;
@@ -35,7 +35,7 @@ class GroupDomainUnassignListRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName domain
      * @Type string
      * @Array
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:4449
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:4449
      * @var string[]
      */
     private $domain = array(

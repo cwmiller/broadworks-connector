@@ -16,7 +16,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "Phone Number" field is presented in the E164 format.
  *
  * @see EnterpriseUserCallForwardingSettingsGetListRequest
- * @Groups [{"id":"b561eca19800e0898f471e5e91eb3baa:1136","type":"sequence"}]
+ * @Groups [{"id":"889c8c305076ef39cc50c70d0c2dc820:1136","type":"sequence"}]
  */
 class EnterpriseUserCallForwardingSettingsGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -24,7 +24,7 @@ class EnterpriseUserCallForwardingSettingsGetListResponse extends \CWM\BroadWork
     /**
      * @ElementName userCallForwardingTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group b561eca19800e0898f471e5e91eb3baa:1136
+     * @Group 889c8c305076ef39cc50c70d0c2dc820:1136
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $userCallForwardingTable = null;

@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemMaliciousCallTraceGetUserListRequest
  * @see SystemMaliciousCallTraceGetResponse
- * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:22912","type":"sequence"}]
+ * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:22912","type":"sequence"}]
  */
 class SystemMaliciousCallTraceGetUserListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -21,7 +21,7 @@ class SystemMaliciousCallTraceGetUserListResponse extends \CWM\BroadWorksConnect
     /**
      * @ElementName userTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 1a79c7896cb04feac6eff47a5321756e:22912
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:22912
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $userTable = null;

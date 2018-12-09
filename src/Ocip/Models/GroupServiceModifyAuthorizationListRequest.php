@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:6579","type":"sequence"}]
+ * @Groups [{"id":"15129cd25fa2d5581f4edfd652c24f93:6579","type":"sequence"}]
  */
 class GroupServiceModifyAuthorizationListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class GroupServiceModifyAuthorizationListRequest extends \CWM\BroadWorksConnecto
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:6579
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:6579
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,7 +27,7 @@ class GroupServiceModifyAuthorizationListRequest extends \CWM\BroadWorksConnecto
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:6579
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:6579
      * @var string|null
      */
     private $groupId = null;
@@ -37,7 +37,7 @@ class GroupServiceModifyAuthorizationListRequest extends \CWM\BroadWorksConnecto
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServicePackAuthorization
      * @Array
      * @Optional
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:6579
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:6579
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServicePackAuthorization[]
      */
     private $servicePackAuthorization = array(
@@ -49,7 +49,7 @@ class GroupServiceModifyAuthorizationListRequest extends \CWM\BroadWorksConnecto
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupServiceAuthorization
      * @Array
      * @Optional
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:6579
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:6579
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupServiceAuthorization[]
      */
     private $groupServiceAuthorization = array(
@@ -61,7 +61,7 @@ class GroupServiceModifyAuthorizationListRequest extends \CWM\BroadWorksConnecto
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UserServiceAuthorization
      * @Array
      * @Optional
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:6579
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:6579
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserServiceAuthorization[]
      */
     private $userServiceAuthorization = array(

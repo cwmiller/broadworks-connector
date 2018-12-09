@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         	
  *         	The "Calls From" column is a string containing call numbers
  *
- * @Groups [{"id":"489b2153267470be8e945bf6b778e0d0:3692","type":"sequence"}]
+ * @Groups [{"id":"ee3830ce42f01a3ef2a105d473fc3b17:3692","type":"sequence"}]
  */
 class ProfileAndServicePreAlertingAnnouncementInfo
 {
@@ -20,7 +20,7 @@ class ProfileAndServicePreAlertingAnnouncementInfo
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group 489b2153267470be8e945bf6b778e0d0:3692
+     * @Group ee3830ce42f01a3ef2a105d473fc3b17:3692
      * @var bool|null
      */
     private $isActive = null;
@@ -28,7 +28,7 @@ class ProfileAndServicePreAlertingAnnouncementInfo
     /**
      * @ElementName audioSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
-     * @Group 489b2153267470be8e945bf6b778e0d0:3692
+     * @Group ee3830ce42f01a3ef2a105d473fc3b17:3692
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     private $audioSelection = null;
@@ -37,7 +37,7 @@ class ProfileAndServicePreAlertingAnnouncementInfo
      * @ElementName audioFileDescription
      * @Type string
      * @Optional
-     * @Group 489b2153267470be8e945bf6b778e0d0:3692
+     * @Group ee3830ce42f01a3ef2a105d473fc3b17:3692
      * @var string|null
      */
     private $audioFileDescription = null;
@@ -46,7 +46,7 @@ class ProfileAndServicePreAlertingAnnouncementInfo
      * @ElementName audioMediaType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MediaFileType
      * @Optional
-     * @Group 489b2153267470be8e945bf6b778e0d0:3692
+     * @Group ee3830ce42f01a3ef2a105d473fc3b17:3692
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     private $audioMediaType = null;
@@ -55,7 +55,7 @@ class ProfileAndServicePreAlertingAnnouncementInfo
      * @ElementName audioFileUrl
      * @Type string
      * @Optional
-     * @Group 489b2153267470be8e945bf6b778e0d0:3692
+     * @Group ee3830ce42f01a3ef2a105d473fc3b17:3692
      * @var string|null
      */
     private $audioFileUrl = null;
@@ -63,7 +63,7 @@ class ProfileAndServicePreAlertingAnnouncementInfo
     /**
      * @ElementName videoSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
-     * @Group 489b2153267470be8e945bf6b778e0d0:3692
+     * @Group ee3830ce42f01a3ef2a105d473fc3b17:3692
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     private $videoSelection = null;
@@ -72,7 +72,7 @@ class ProfileAndServicePreAlertingAnnouncementInfo
      * @ElementName videoFileDescription
      * @Type string
      * @Optional
-     * @Group 489b2153267470be8e945bf6b778e0d0:3692
+     * @Group ee3830ce42f01a3ef2a105d473fc3b17:3692
      * @var string|null
      */
     private $videoFileDescription = null;
@@ -81,7 +81,7 @@ class ProfileAndServicePreAlertingAnnouncementInfo
      * @ElementName videoMediaType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MediaFileType
      * @Optional
-     * @Group 489b2153267470be8e945bf6b778e0d0:3692
+     * @Group ee3830ce42f01a3ef2a105d473fc3b17:3692
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     private $videoMediaType = null;
@@ -90,7 +90,7 @@ class ProfileAndServicePreAlertingAnnouncementInfo
      * @ElementName videoFileUrl
      * @Type string
      * @Optional
-     * @Group 489b2153267470be8e945bf6b778e0d0:3692
+     * @Group ee3830ce42f01a3ef2a105d473fc3b17:3692
      * @var string|null
      */
     private $videoFileUrl = null;
@@ -98,7 +98,7 @@ class ProfileAndServicePreAlertingAnnouncementInfo
     /**
      * @ElementName criteriaTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 489b2153267470be8e945bf6b778e0d0:3692
+     * @Group ee3830ce42f01a3ef2a105d473fc3b17:3692
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $criteriaTable = null;

@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemOfficeZoneGetZoneUsageListResponse
  * @see ErrorResponse
- * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:12244","type":"sequence"}]
+ * @Groups [{"id":"b5f5416d9e71f8e4246cda16c4723744:12244","type":"sequence"}]
  */
 class SystemOfficeZoneGetZoneUsageListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class SystemOfficeZoneGetZoneUsageListRequest extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName zoneName
      * @Type string
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:12244
+     * @Group b5f5416d9e71f8e4246cda16c4723744:12244
      * @var string|null
      */
     private $zoneName = null;

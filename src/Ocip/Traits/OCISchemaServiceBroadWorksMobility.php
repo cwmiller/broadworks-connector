@@ -65,7 +65,8 @@ use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksMobilityMobileIdentityGetR
 use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksMobilityMobileIdentityGetResponse21sp1V2;
 use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksMobilityMobileIdentityModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksMobilityModifyRequest21;
-use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceBroadWorksMobility
@@ -75,6 +76,7 @@ trait OCISchemaServiceBroadWorksMobility
      * @param EnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAssignmentListRequest $request
      * @return EnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAssignmentListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function enterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAssignmentListRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAssignmentListRequest $request)
     {
@@ -85,6 +87,7 @@ trait OCISchemaServiceBroadWorksMobility
      * @param EnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAvailableListRequest $request
      * @return EnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAvailableListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function enterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAvailableListRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAvailableListRequest $request)
     {
@@ -95,6 +98,7 @@ trait OCISchemaServiceBroadWorksMobility
      * @param GroupBroadWorksMobilityGetRequest22 $request
      * @return GroupBroadWorksMobilityGetResponse22
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupBroadWorksMobilityGetRequest22(\CWM\BroadWorksConnector\Ocip\Models\GroupBroadWorksMobilityGetRequest22 $request)
     {
@@ -105,6 +109,7 @@ trait OCISchemaServiceBroadWorksMobility
      * @param GroupBroadWorksMobilityMobileSubscriberDirectoryNumberAssignListRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupBroadWorksMobilityMobileSubscriberDirectoryNumberAssignListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupBroadWorksMobilityMobileSubscriberDirectoryNumberAssignListRequest $request)
     {
@@ -115,6 +120,7 @@ trait OCISchemaServiceBroadWorksMobility
      * @param GroupBroadWorksMobilityMobileSubscriberDirectoryNumberGetAssignmentListRequest $request
      * @return GroupBroadWorksMobilityMobileSubscriberDirectoryNumberGetAssignmentListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupBroadWorksMobilityMobileSubscriberDirectoryNumberGetAssignmentListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupBroadWorksMobilityMobileSubscriberDirectoryNumberGetAssignmentListRequest $request)
     {
@@ -125,6 +131,7 @@ trait OCISchemaServiceBroadWorksMobility
      * @param GroupBroadWorksMobilityMobileSubscriberDirectoryNumberGetAvailableListRequest $request
      * @return GroupBroadWorksMobilityMobileSubscriberDirectoryNumberGetAvailableListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupBroadWorksMobilityMobileSubscriberDirectoryNumberGetAvailableListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupBroadWorksMobilityMobileSubscriberDirectoryNumberGetAvailableListRequest $request)
     {
@@ -135,6 +142,7 @@ trait OCISchemaServiceBroadWorksMobility
      * @param GroupBroadWorksMobilityMobileSubscriberDirectoryNumberUnassignListRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupBroadWorksMobilityMobileSubscriberDirectoryNumberUnassignListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupBroadWorksMobilityMobileSubscriberDirectoryNumberUnassignListRequest $request)
     {
@@ -145,6 +153,7 @@ trait OCISchemaServiceBroadWorksMobility
      * @param GroupBroadWorksMobilityModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupBroadWorksMobilityModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupBroadWorksMobilityModifyRequest $request)
     {
@@ -155,6 +164,7 @@ trait OCISchemaServiceBroadWorksMobility
      * @param ServiceProviderBroadWorksMobilityGetRequest22 $request
      * @return ServiceProviderBroadWorksMobilityGetResponse22
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderBroadWorksMobilityGetRequest22(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderBroadWorksMobilityGetRequest22 $request)
     {
@@ -165,6 +175,7 @@ trait OCISchemaServiceBroadWorksMobility
      * @param ServiceProviderBroadWorksMobilityMobileSubscriberDirectoryNumberAddListRequest21 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderBroadWorksMobilityMobileSubscriberDirectoryNumberAddListRequest21(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderBroadWorksMobilityMobileSubscriberDirectoryNumberAddListRequest21 $request)
     {
@@ -175,6 +186,7 @@ trait OCISchemaServiceBroadWorksMobility
      * @param ServiceProviderBroadWorksMobilityMobileSubscriberDirectoryNumberDeleteListRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderBroadWorksMobilityMobileSubscriberDirectoryNumberDeleteListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderBroadWorksMobilityMobileSubscriberDirectoryNumberDeleteListRequest $request)
     {
@@ -185,6 +197,7 @@ trait OCISchemaServiceBroadWorksMobility
      * @param ServiceProviderBroadWorksMobilityMobileSubscriberDirectoryNumberGetAvailableListRequest $request
      * @return ServiceProviderBroadWorksMobilityMobileSubscriberDirectoryNumberGetAvailableListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderBroadWorksMobilityMobileSubscriberDirectoryNumberGetAvailableListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderBroadWorksMobilityMobileSubscriberDirectoryNumberGetAvailableListRequest $request)
     {
@@ -195,6 +208,7 @@ trait OCISchemaServiceBroadWorksMobility
      * @param ServiceProviderBroadWorksMobilityMobileSubscriberDirectoryNumberGetSummaryListRequest $request
      * @return ServiceProviderBroadWorksMobilityMobileSubscriberDirectoryNumberGetSummaryListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderBroadWorksMobilityMobileSubscriberDirectoryNumberGetSummaryListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderBroadWorksMobilityMobileSubscriberDirectoryNumberGetSummaryListRequest $request)
     {
@@ -205,6 +219,7 @@ trait OCISchemaServiceBroadWorksMobility
      * @param ServiceProviderBroadWorksMobilityModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderBroadWorksMobilityModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderBroadWorksMobilityModifyRequest $request)
     {
@@ -215,6 +230,7 @@ trait OCISchemaServiceBroadWorksMobility
      * @param SystemBroadWorksMobilityAddIMRNListRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemBroadWorksMobilityAddIMRNListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemBroadWorksMobilityAddIMRNListRequest $request)
     {
@@ -225,6 +241,7 @@ trait OCISchemaServiceBroadWorksMobility
      * @param SystemBroadWorksMobilityAddMobileNetworkIMRNListRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemBroadWorksMobilityAddMobileNetworkIMRNListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemBroadWorksMobilityAddMobileNetworkIMRNListRequest $request)
     {
@@ -235,6 +252,7 @@ trait OCISchemaServiceBroadWorksMobility
      * @param SystemBroadWorksMobilityDeleteIMRNListRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemBroadWorksMobilityDeleteIMRNListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemBroadWorksMobilityDeleteIMRNListRequest $request)
     {
@@ -245,6 +263,7 @@ trait OCISchemaServiceBroadWorksMobility
      * @param SystemBroadWorksMobilityDeleteMobileNetworkIMRNListRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemBroadWorksMobilityDeleteMobileNetworkIMRNListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemBroadWorksMobilityDeleteMobileNetworkIMRNListRequest $request)
     {
@@ -255,6 +274,7 @@ trait OCISchemaServiceBroadWorksMobility
      * @param SystemBroadWorksMobilityGetIMRNListRequest $request
      * @return SystemBroadWorksMobilityGetIMRNListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemBroadWorksMobilityGetIMRNListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemBroadWorksMobilityGetIMRNListRequest $request)
     {
@@ -265,6 +285,7 @@ trait OCISchemaServiceBroadWorksMobility
      * @param SystemBroadWorksMobilityGetMobileNetworkIMRNListRequest $request
      * @return SystemBroadWorksMobilityGetMobileNetworkIMRNListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemBroadWorksMobilityGetMobileNetworkIMRNListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemBroadWorksMobilityGetMobileNetworkIMRNListRequest $request)
     {
@@ -275,6 +296,7 @@ trait OCISchemaServiceBroadWorksMobility
      * @param SystemBroadWorksMobilityGetRequest22 $request
      * @return SystemBroadWorksMobilityGetResponse22
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemBroadWorksMobilityGetRequest22(\CWM\BroadWorksConnector\Ocip\Models\SystemBroadWorksMobilityGetRequest22 $request)
     {
@@ -285,6 +307,7 @@ trait OCISchemaServiceBroadWorksMobility
      * @param SystemBroadWorksMobilityMobileNetworkAddRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemBroadWorksMobilityMobileNetworkAddRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemBroadWorksMobilityMobileNetworkAddRequest $request)
     {
@@ -295,6 +318,7 @@ trait OCISchemaServiceBroadWorksMobility
      * @param SystemBroadWorksMobilityMobileNetworkDeleteRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemBroadWorksMobilityMobileNetworkDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemBroadWorksMobilityMobileNetworkDeleteRequest $request)
     {
@@ -305,6 +329,7 @@ trait OCISchemaServiceBroadWorksMobility
      * @param SystemBroadWorksMobilityMobileNetworkGetListRequest $request
      * @return SystemBroadWorksMobilityMobileNetworkGetListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemBroadWorksMobilityMobileNetworkGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemBroadWorksMobilityMobileNetworkGetListRequest $request)
     {
@@ -315,6 +340,7 @@ trait OCISchemaServiceBroadWorksMobility
      * @param SystemBroadWorksMobilityMobileNetworkGetRequest $request
      * @return SystemBroadWorksMobilityMobileNetworkGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemBroadWorksMobilityMobileNetworkGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemBroadWorksMobilityMobileNetworkGetRequest $request)
     {
@@ -325,6 +351,7 @@ trait OCISchemaServiceBroadWorksMobility
      * @param SystemBroadWorksMobilityMobileNetworkModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemBroadWorksMobilityMobileNetworkModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemBroadWorksMobilityMobileNetworkModifyRequest $request)
     {
@@ -335,6 +362,7 @@ trait OCISchemaServiceBroadWorksMobility
      * @param SystemBroadWorksMobilityMobileSubscriberDirectoryNumberGetSummaryListRequest $request
      * @return SystemBroadWorksMobilityMobileSubscriberDirectoryNumberGetSummaryListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemBroadWorksMobilityMobileSubscriberDirectoryNumberGetSummaryListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemBroadWorksMobilityMobileSubscriberDirectoryNumberGetSummaryListRequest $request)
     {
@@ -345,6 +373,7 @@ trait OCISchemaServiceBroadWorksMobility
      * @param SystemBroadWorksMobilityModifyRequest21 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemBroadWorksMobilityModifyRequest21(\CWM\BroadWorksConnector\Ocip\Models\SystemBroadWorksMobilityModifyRequest21 $request)
     {
@@ -355,6 +384,7 @@ trait OCISchemaServiceBroadWorksMobility
      * @param SystemBroadWorksMobilityServiceAccessCodeAddRequest21 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemBroadWorksMobilityServiceAccessCodeAddRequest21(\CWM\BroadWorksConnector\Ocip\Models\SystemBroadWorksMobilityServiceAccessCodeAddRequest21 $request)
     {
@@ -365,6 +395,7 @@ trait OCISchemaServiceBroadWorksMobility
      * @param SystemBroadWorksMobilityServiceAccessCodeDeleteRequest21 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemBroadWorksMobilityServiceAccessCodeDeleteRequest21(\CWM\BroadWorksConnector\Ocip\Models\SystemBroadWorksMobilityServiceAccessCodeDeleteRequest21 $request)
     {
@@ -375,6 +406,7 @@ trait OCISchemaServiceBroadWorksMobility
      * @param SystemBroadWorksMobilityServiceAccessCodeGetListRequest21 $request
      * @return SystemBroadWorksMobilityServiceAccessCodeGetListResponse21
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemBroadWorksMobilityServiceAccessCodeGetListRequest21(\CWM\BroadWorksConnector\Ocip\Models\SystemBroadWorksMobilityServiceAccessCodeGetListRequest21 $request)
     {
@@ -385,6 +417,7 @@ trait OCISchemaServiceBroadWorksMobility
      * @param SystemBroadWorksMobilityServiceAccessCodeListAddRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemBroadWorksMobilityServiceAccessCodeListAddRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemBroadWorksMobilityServiceAccessCodeListAddRequest $request)
     {
@@ -395,6 +428,7 @@ trait OCISchemaServiceBroadWorksMobility
      * @param SystemBroadWorksMobilityServiceAccessCodeListDeleteRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemBroadWorksMobilityServiceAccessCodeListDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemBroadWorksMobilityServiceAccessCodeListDeleteRequest $request)
     {
@@ -405,6 +439,7 @@ trait OCISchemaServiceBroadWorksMobility
      * @param SystemBroadWorksMobilityServiceAccessCodeListGetListRequest $request
      * @return SystemBroadWorksMobilityServiceAccessCodeListGetListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemBroadWorksMobilityServiceAccessCodeListGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemBroadWorksMobilityServiceAccessCodeListGetListRequest $request)
     {
@@ -415,6 +450,7 @@ trait OCISchemaServiceBroadWorksMobility
      * @param SystemBroadWorksMobilityServiceAccessCodeListModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemBroadWorksMobilityServiceAccessCodeListModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemBroadWorksMobilityServiceAccessCodeListModifyRequest $request)
     {
@@ -425,6 +461,7 @@ trait OCISchemaServiceBroadWorksMobility
      * @param SystemBroadWorksMobilityServiceAccessCodeListUsageGetRequest $request
      * @return SystemBroadWorksMobilityServiceAccessCodeListUsageGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemBroadWorksMobilityServiceAccessCodeListUsageGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemBroadWorksMobilityServiceAccessCodeListUsageGetRequest $request)
     {
@@ -435,6 +472,7 @@ trait OCISchemaServiceBroadWorksMobility
      * @param SystemBroadWorksMobilityServiceAccessCodeModifyRequest21 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemBroadWorksMobilityServiceAccessCodeModifyRequest21(\CWM\BroadWorksConnector\Ocip\Models\SystemBroadWorksMobilityServiceAccessCodeModifyRequest21 $request)
     {
@@ -445,6 +483,7 @@ trait OCISchemaServiceBroadWorksMobility
      * @param UserBroadworksMobilityAddMobileIdentityUsingSharedCallAppearanceRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userBroadworksMobilityAddMobileIdentityUsingSharedCallAppearanceRequest(\CWM\BroadWorksConnector\Ocip\Models\UserBroadworksMobilityAddMobileIdentityUsingSharedCallAppearanceRequest $request)
     {
@@ -455,6 +494,7 @@ trait OCISchemaServiceBroadWorksMobility
      * @param UserBroadWorksMobilityGetRequest21sp1 $request
      * @return UserBroadWorksMobilityGetResponse21sp1
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userBroadWorksMobilityGetRequest21sp1(\CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksMobilityGetRequest21sp1 $request)
     {
@@ -465,6 +505,7 @@ trait OCISchemaServiceBroadWorksMobility
      * @param UserBroadWorksMobilityMobileIdentityAddRequest21sp1 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userBroadWorksMobilityMobileIdentityAddRequest21sp1(\CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksMobilityMobileIdentityAddRequest21sp1 $request)
     {
@@ -475,6 +516,7 @@ trait OCISchemaServiceBroadWorksMobility
      * @param UserBroadWorksMobilityMobileIdentityDeleteRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userBroadWorksMobilityMobileIdentityDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksMobilityMobileIdentityDeleteRequest $request)
     {
@@ -485,6 +527,7 @@ trait OCISchemaServiceBroadWorksMobility
      * @param UserBroadWorksMobilityMobileIdentityGetRequest21sp1V2 $request
      * @return UserBroadWorksMobilityMobileIdentityGetResponse21sp1V2
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userBroadWorksMobilityMobileIdentityGetRequest21sp1V2(\CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksMobilityMobileIdentityGetRequest21sp1V2 $request)
     {
@@ -495,6 +538,7 @@ trait OCISchemaServiceBroadWorksMobility
      * @param UserBroadWorksMobilityMobileIdentityModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userBroadWorksMobilityMobileIdentityModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksMobilityMobileIdentityModifyRequest $request)
     {
@@ -505,6 +549,7 @@ trait OCISchemaServiceBroadWorksMobility
      * @param UserBroadWorksMobilityModifyRequest21 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userBroadWorksMobilityModifyRequest21(\CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksMobilityModifyRequest21 $request)
     {

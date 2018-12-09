@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"aa560dddb8347907da38ad0275907b2a:74","type":"sequence"}]
+ * @Groups [{"id":"e575f3e072d70cc36cad3d20022156c5:74","type":"sequence"}]
  */
 class SystemConnectedLineIdentificationPresentationModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class SystemConnectedLineIdentificationPresentationModifyRequest extends \CWM\Br
      * @ElementName enforceUserServiceAssignment
      * @Type bool
      * @Optional
-     * @Group aa560dddb8347907da38ad0275907b2a:74
+     * @Group e575f3e072d70cc36cad3d20022156c5:74
      * @var bool|null
      */
     private $enforceUserServiceAssignment = null;

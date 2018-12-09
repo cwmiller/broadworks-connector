@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the UserPreAlertingAnnouncementGetCriteriaRequest21.
  *
  * @see UserPreAlertingAnnouncementGetCriteriaRequest21
- * @Groups [{"id":"05c6a69cc12c52fede8d3d09ca9155dc:235","type":"sequence"}]
+ * @Groups [{"id":"e593fc1eb817b8da7ed0973006bf55c1:235","type":"sequence"}]
  */
 class UserPreAlertingAnnouncementGetCriteriaResponse21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class UserPreAlertingAnnouncementGetCriteriaResponse21 extends \CWM\BroadWorksCo
      * @ElementName timeSchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule
      * @Optional
-     * @Group 05c6a69cc12c52fede8d3d09ca9155dc:235
+     * @Group e593fc1eb817b8da7ed0973006bf55c1:235
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null
      */
     private $timeSchedule = null;
@@ -26,7 +26,7 @@ class UserPreAlertingAnnouncementGetCriteriaResponse21 extends \CWM\BroadWorksCo
      * @ElementName holidaySchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule
      * @Optional
-     * @Group 05c6a69cc12c52fede8d3d09ca9155dc:235
+     * @Group e593fc1eb817b8da7ed0973006bf55c1:235
      * @var \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null
      */
     private $holidaySchedule = null;
@@ -34,7 +34,7 @@ class UserPreAlertingAnnouncementGetCriteriaResponse21 extends \CWM\BroadWorksCo
     /**
      * @ElementName blacklisted
      * @Type bool
-     * @Group 05c6a69cc12c52fede8d3d09ca9155dc:235
+     * @Group e593fc1eb817b8da7ed0973006bf55c1:235
      * @var bool|null
      */
     private $blacklisted = null;
@@ -42,7 +42,7 @@ class UserPreAlertingAnnouncementGetCriteriaResponse21 extends \CWM\BroadWorksCo
     /**
      * @ElementName fromDnCriteria
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDn
-     * @Group 05c6a69cc12c52fede8d3d09ca9155dc:235
+     * @Group e593fc1eb817b8da7ed0973006bf55c1:235
      * @var \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDn|null
      */
     private $fromDnCriteria = null;
@@ -52,7 +52,7 @@ class UserPreAlertingAnnouncementGetCriteriaResponse21 extends \CWM\BroadWorksCo
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallToNumber
      * @Array
      * @Optional
-     * @Group 05c6a69cc12c52fede8d3d09ca9155dc:235
+     * @Group e593fc1eb817b8da7ed0973006bf55c1:235
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallToNumber[]
      */
     private $callToNumber = array(

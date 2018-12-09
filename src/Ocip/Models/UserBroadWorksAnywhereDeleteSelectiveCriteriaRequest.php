@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"ce478a57dacaeb5f25b35de0633a14fa:328","type":"sequence"}]
+ * @Groups [{"id":"b2dd0919a492fbd36c0e7f346f843ff2:328","type":"sequence"}]
  */
 class UserBroadWorksAnywhereDeleteSelectiveCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserBroadWorksAnywhereDeleteSelectiveCriteriaRequest extends \CWM\BroadWor
     /**
      * @ElementName userId
      * @Type string
-     * @Group ce478a57dacaeb5f25b35de0633a14fa:328
+     * @Group b2dd0919a492fbd36c0e7f346f843ff2:328
      * @var string|null
      */
     private $userId = null;
@@ -26,7 +26,7 @@ class UserBroadWorksAnywhereDeleteSelectiveCriteriaRequest extends \CWM\BroadWor
     /**
      * @ElementName phoneNumber
      * @Type string
-     * @Group ce478a57dacaeb5f25b35de0633a14fa:328
+     * @Group b2dd0919a492fbd36c0e7f346f843ff2:328
      * @var string|null
      */
     private $phoneNumber = null;
@@ -34,7 +34,7 @@ class UserBroadWorksAnywhereDeleteSelectiveCriteriaRequest extends \CWM\BroadWor
     /**
      * @ElementName criteriaName
      * @Type string
-     * @Group ce478a57dacaeb5f25b35de0633a14fa:328
+     * @Group b2dd0919a492fbd36c0e7f346f843ff2:328
      * @var string|null
      */
     private $criteriaName = null;

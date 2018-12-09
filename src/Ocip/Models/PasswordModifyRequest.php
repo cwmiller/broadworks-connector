@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"d83be92ebac098705e715f24f025a9a9:374","type":"sequence"}]
+ * @Groups [{"id":"21fd3c6abc11c44e52803121f7739a76:374","type":"sequence"}]
  */
 class PasswordModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class PasswordModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRe
     /**
      * @ElementName userId
      * @Type string
-     * @Group d83be92ebac098705e715f24f025a9a9:374
+     * @Group 21fd3c6abc11c44e52803121f7739a76:374
      * @var string|null
      */
     private $userId = null;
@@ -29,7 +29,7 @@ class PasswordModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRe
      * @ElementName oldPassword
      * @Type string
      * @Optional
-     * @Group d83be92ebac098705e715f24f025a9a9:374
+     * @Group 21fd3c6abc11c44e52803121f7739a76:374
      * @var string|null
      */
     private $oldPassword = null;
@@ -37,7 +37,7 @@ class PasswordModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRe
     /**
      * @ElementName newPassword
      * @Type string
-     * @Group d83be92ebac098705e715f24f025a9a9:374
+     * @Group 21fd3c6abc11c44e52803121f7739a76:374
      * @var string|null
      */
     private $newPassword = null;

@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserCallingLineIDBlockingOverrideGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"9534ca515e49b553aa36713311fa3dbc:44","type":"sequence"}]
+ * @Groups [{"id":"5218800b0b007ea45aba5460926f9783:44","type":"sequence"}]
  */
 class UserCallingLineIDBlockingOverrideGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class UserCallingLineIDBlockingOverrideGetRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName userId
      * @Type string
-     * @Group 9534ca515e49b553aa36713311fa3dbc:44
+     * @Group 5218800b0b007ea45aba5460926f9783:44
      * @var string|null
      */
     private $userId = null;

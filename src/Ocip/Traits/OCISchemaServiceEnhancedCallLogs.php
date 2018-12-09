@@ -17,7 +17,8 @@ use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 use CWM\BroadWorksConnector\Ocip\Models\SystemEnhancedCallLogsSchemaInstanceGetListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemEnhancedCallLogsSchemaInstanceGetListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserEnhancedCallLogsGetListRequest22;
-use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\UserEnhancedCallLogsGetListResponse22;
 
 trait OCISchemaServiceEnhancedCallLogs
@@ -27,6 +28,7 @@ trait OCISchemaServiceEnhancedCallLogs
      * @param GroupEnhancedCallLogsSchemaInstanceGetRequest $request
      * @return GroupEnhancedCallLogsSchemaInstanceGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupEnhancedCallLogsSchemaInstanceGetRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupEnhancedCallLogsSchemaInstanceGetRequest $request)
     {
@@ -37,6 +39,7 @@ trait OCISchemaServiceEnhancedCallLogs
      * @param GroupEnhancedCallLogsSchemaInstanceModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupEnhancedCallLogsSchemaInstanceModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupEnhancedCallLogsSchemaInstanceModifyRequest $request)
     {
@@ -47,6 +50,7 @@ trait OCISchemaServiceEnhancedCallLogs
      * @param ServiceProviderEnhancedCallLogsGetRequest17sp4 $request
      * @return ServiceProviderEnhancedCallLogsGetResponse17sp4
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderEnhancedCallLogsGetRequest17sp4(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderEnhancedCallLogsGetRequest17sp4 $request)
     {
@@ -57,6 +61,7 @@ trait OCISchemaServiceEnhancedCallLogs
      * @param ServiceProviderEnhancedCallLogsModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderEnhancedCallLogsModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderEnhancedCallLogsModifyRequest $request)
     {
@@ -67,6 +72,7 @@ trait OCISchemaServiceEnhancedCallLogs
      * @param ServiceProviderEnhancedCallLogsSchemaInstanceGetRequest $request
      * @return ServiceProviderEnhancedCallLogsSchemaInstanceGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderEnhancedCallLogsSchemaInstanceGetRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderEnhancedCallLogsSchemaInstanceGetRequest $request)
     {
@@ -77,6 +83,7 @@ trait OCISchemaServiceEnhancedCallLogs
      * @param ServiceProviderEnhancedCallLogsSchemaInstanceModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function serviceProviderEnhancedCallLogsSchemaInstanceModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderEnhancedCallLogsSchemaInstanceModifyRequest $request)
     {
@@ -87,6 +94,7 @@ trait OCISchemaServiceEnhancedCallLogs
      * @param SystemEnhancedCallLogsGetRequest22 $request
      * @return 
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemEnhancedCallLogsGetRequest22(\CWM\BroadWorksConnector\Ocip\Models\SystemEnhancedCallLogsGetRequest22 $request)
     {
@@ -97,6 +105,7 @@ trait OCISchemaServiceEnhancedCallLogs
      * @param SystemEnhancedCallLogsModifyRequest22 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemEnhancedCallLogsModifyRequest22(\CWM\BroadWorksConnector\Ocip\Models\SystemEnhancedCallLogsModifyRequest22 $request)
     {
@@ -107,6 +116,7 @@ trait OCISchemaServiceEnhancedCallLogs
      * @param SystemEnhancedCallLogsSchemaInstanceGetListRequest $request
      * @return SystemEnhancedCallLogsSchemaInstanceGetListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemEnhancedCallLogsSchemaInstanceGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemEnhancedCallLogsSchemaInstanceGetListRequest $request)
     {
@@ -117,6 +127,7 @@ trait OCISchemaServiceEnhancedCallLogs
      * @param UserEnhancedCallLogsGetListRequest22 $request
      * @return UserEnhancedCallLogsGetListResponse22
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userEnhancedCallLogsGetListRequest22(\CWM\BroadWorksConnector\Ocip\Models\UserEnhancedCallLogsGetListRequest22 $request)
     {

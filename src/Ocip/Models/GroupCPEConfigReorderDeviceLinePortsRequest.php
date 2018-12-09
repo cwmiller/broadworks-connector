@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see GroupAccessDeviceGetRequest16
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:2447","type":"sequence"}]
+ * @Groups [{"id":"15129cd25fa2d5581f4edfd652c24f93:2447","type":"sequence"}]
  */
 class GroupCPEConfigReorderDeviceLinePortsRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,7 +21,7 @@ class GroupCPEConfigReorderDeviceLinePortsRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:2447
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:2447
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -29,7 +29,7 @@ class GroupCPEConfigReorderDeviceLinePortsRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:2447
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:2447
      * @var string|null
      */
     private $groupId = null;
@@ -37,7 +37,7 @@ class GroupCPEConfigReorderDeviceLinePortsRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName deviceName
      * @Type string
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:2447
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:2447
      * @var string|null
      */
     private $deviceName = null;
@@ -46,7 +46,7 @@ class GroupCPEConfigReorderDeviceLinePortsRequest extends \CWM\BroadWorksConnect
      * @ElementName orderedLinePortList
      * @Type string
      * @Array
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:2447
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:2447
      * @var string[]
      */
     private $orderedLinePortList = array(

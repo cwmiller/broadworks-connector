@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupCallCapacityManagementGetInstanceListResponse
  * @see ErrorResponse
- * @Groups [{"id":"ec414f584634edfc7ab45285fc8bb597:173","type":"sequence"}]
+ * @Groups [{"id":"a508c8d47cf6dc9787cc3865bf94b9f5:173","type":"sequence"}]
  */
 class GroupCallCapacityManagementGetInstanceListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupCallCapacityManagementGetInstanceListRequest extends \CWM\BroadWorksC
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group ec414f584634edfc7ab45285fc8bb597:173
+     * @Group a508c8d47cf6dc9787cc3865bf94b9f5:173
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,7 +26,7 @@ class GroupCallCapacityManagementGetInstanceListRequest extends \CWM\BroadWorksC
     /**
      * @ElementName groupId
      * @Type string
-     * @Group ec414f584634edfc7ab45285fc8bb597:173
+     * @Group a508c8d47cf6dc9787cc3865bf94b9f5:173
      * @var string|null
      */
     private $groupId = null;

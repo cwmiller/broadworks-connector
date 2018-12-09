@@ -24,7 +24,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           - When no extension is available a blank space is provided instead.
  *
  * @see UserSelectiveCallRejectionGetCriteriaListRequest
- * @Groups [{"id":"5e18575f19e96a95702b7106029484b0:122","type":"sequence"}]
+ * @Groups [{"id":"4b7289c8f4277798c695334874edd510:122","type":"sequence"}]
  */
 class UserSelectiveCallRejectionGetCriteriaListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -32,7 +32,7 @@ class UserSelectiveCallRejectionGetCriteriaListResponse extends \CWM\BroadWorksC
     /**
      * @ElementName criteriaTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 5e18575f19e96a95702b7106029484b0:122
+     * @Group 4b7289c8f4277798c695334874edd510:122
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $criteriaTable = null;

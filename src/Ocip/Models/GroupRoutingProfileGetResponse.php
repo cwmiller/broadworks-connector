@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to GroupRoutingProfileGetRequest.
  *
  * @see GroupRoutingProfileGetRequest
- * @Groups [{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:6053","type":"sequence"}]
+ * @Groups [{"id":"15129cd25fa2d5581f4edfd652c24f93:6053","type":"sequence"}]
  */
 class GroupRoutingProfileGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class GroupRoutingProfileGetResponse extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName routingProfile
      * @Type string
      * @Optional
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:6053
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:6053
      * @var string|null
      */
     private $routingProfile = null;

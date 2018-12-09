@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "authorizable" is applicable for user services and group services; it is not returned for service packs.
  *
  * @see ServiceProviderServiceGetAuthorizationRequest
- * @Groups [{"id":"8f3ed38751e86ebcc639b5bc5cdef0ec:4954","type":"sequence"}]
+ * @Groups [{"id":"8eb862aea0ee5d4211db0a0d3fe7c164:4954","type":"sequence"}]
  */
 class ServiceProviderServiceGetAuthorizationResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -20,7 +20,7 @@ class ServiceProviderServiceGetAuthorizationResponse extends \CWM\BroadWorksConn
     /**
      * @ElementName authorized
      * @Type bool
-     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:4954
+     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:4954
      * @var bool|null
      */
     private $authorized = null;
@@ -29,7 +29,7 @@ class ServiceProviderServiceGetAuthorizationResponse extends \CWM\BroadWorksConn
      * @ElementName authorizedQuantity
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt
      * @Optional
-     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:4954
+     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:4954
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt|null
      */
     private $authorizedQuantity = null;
@@ -38,7 +38,7 @@ class ServiceProviderServiceGetAuthorizationResponse extends \CWM\BroadWorksConn
      * @ElementName usedQuantity
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt
      * @Optional
-     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:4954
+     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:4954
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt|null
      */
     private $usedQuantity = null;
@@ -47,7 +47,7 @@ class ServiceProviderServiceGetAuthorizationResponse extends \CWM\BroadWorksConn
      * @ElementName authorizable
      * @Type bool
      * @Optional
-     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:4954
+     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:4954
      * @var bool|null
      */
     private $authorizable = null;

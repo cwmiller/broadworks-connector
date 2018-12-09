@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserSequentialRingGetResponse14sp4
  * @see ErrorResponse
- * @Groups [{"id":"579a0a0fbfa9c619aa147d6b41841eff:118","type":"sequence"}]
+ * @Groups [{"id":"67e3a7b2c00678707dc6a05a489120bc:118","type":"sequence"}]
  */
 class UserSequentialRingGetRequest14sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserSequentialRingGetRequest14sp4 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName userId
      * @Type string
-     * @Group 579a0a0fbfa9c619aa147d6b41841eff:118
+     * @Group 67e3a7b2c00678707dc6a05a489120bc:118
      * @var string|null
      */
     private $userId = null;

@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserThirdPartyVoiceMailSupportGetResponse17
  * @see ErrorResponse
- * @Groups [{"id":"a84192748d1a3645bcd397d847a21d07:242","type":"sequence"}]
+ * @Groups [{"id":"978bd59aab7d92332d5c069142e3c8ac:242","type":"sequence"}]
  */
 class UserThirdPartyVoiceMailSupportGetRequest17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class UserThirdPartyVoiceMailSupportGetRequest17 extends \CWM\BroadWorksConnecto
     /**
      * @ElementName userId
      * @Type string
-     * @Group a84192748d1a3645bcd397d847a21d07:242
+     * @Group 978bd59aab7d92332d5c069142e3c8ac:242
      * @var string|null
      */
     private $userId = null;

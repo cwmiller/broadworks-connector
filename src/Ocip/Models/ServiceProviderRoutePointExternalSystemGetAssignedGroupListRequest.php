@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see ServiceProviderRoutePointExternalSystemGetAssignedGroupListResponse
  * @see ErrorResponse
- * @Groups [{"id":"8f3ed38751e86ebcc639b5bc5cdef0ec:4483","type":"sequence"}]
+ * @Groups [{"id":"8eb862aea0ee5d4211db0a0d3fe7c164:4483","type":"sequence"}]
  */
 class ServiceProviderRoutePointExternalSystemGetAssignedGroupListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class ServiceProviderRoutePointExternalSystemGetAssignedGroupListRequest extends
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:4483
+     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:4483
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -28,7 +28,7 @@ class ServiceProviderRoutePointExternalSystemGetAssignedGroupListRequest extends
     /**
      * @ElementName externalSystem
      * @Type string
-     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:4483
+     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:4483
      * @var string|null
      */
     private $externalSystem = null;
@@ -37,7 +37,7 @@ class ServiceProviderRoutePointExternalSystemGetAssignedGroupListRequest extends
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:4483
+     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:4483
      * @var int|null
      */
     private $responseSizeLimit = null;
@@ -47,7 +47,7 @@ class ServiceProviderRoutePointExternalSystemGetAssignedGroupListRequest extends
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId
      * @Array
      * @Optional
-     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:4483
+     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:4483
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId[]
      */
     private $searchCriteriaGroupId = array(
@@ -59,7 +59,7 @@ class ServiceProviderRoutePointExternalSystemGetAssignedGroupListRequest extends
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupName
      * @Array
      * @Optional
-     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:4483
+     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:4483
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupName[]
      */
     private $searchCriteriaGroupName = array(

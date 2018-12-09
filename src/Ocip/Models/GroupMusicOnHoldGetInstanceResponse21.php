@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupMusicOnHoldGetInstanceRequest21
  * @see GroupMusicOnHoldGetInstanceResponse22
- * @Groups [{"id":"499b56264fbe226bfef3c338c8d4750d:1486","type":"sequence"}]
+ * @Groups [{"id":"bb12a3589ab4748963f28f7ac9310f70:1486","type":"sequence"}]
  */
 class GroupMusicOnHoldGetInstanceResponse21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class GroupMusicOnHoldGetInstanceResponse21 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group 499b56264fbe226bfef3c338c8d4750d:1486
+     * @Group bb12a3589ab4748963f28f7ac9310f70:1486
      * @var string|null
      */
     private $serviceUserId = null;
@@ -26,7 +26,7 @@ class GroupMusicOnHoldGetInstanceResponse21 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName isActiveDuringCallHold
      * @Type bool
-     * @Group 499b56264fbe226bfef3c338c8d4750d:1486
+     * @Group bb12a3589ab4748963f28f7ac9310f70:1486
      * @var bool|null
      */
     private $isActiveDuringCallHold = null;
@@ -34,7 +34,7 @@ class GroupMusicOnHoldGetInstanceResponse21 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName isActiveDuringCallPark
      * @Type bool
-     * @Group 499b56264fbe226bfef3c338c8d4750d:1486
+     * @Group bb12a3589ab4748963f28f7ac9310f70:1486
      * @var bool|null
      */
     private $isActiveDuringCallPark = null;
@@ -42,7 +42,7 @@ class GroupMusicOnHoldGetInstanceResponse21 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName isActiveDuringBusyCampOn
      * @Type bool
-     * @Group 499b56264fbe226bfef3c338c8d4750d:1486
+     * @Group bb12a3589ab4748963f28f7ac9310f70:1486
      * @var bool|null
      */
     private $isActiveDuringBusyCampOn = null;
@@ -50,7 +50,7 @@ class GroupMusicOnHoldGetInstanceResponse21 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName enableVideo
      * @Type bool
-     * @Group 499b56264fbe226bfef3c338c8d4750d:1486
+     * @Group bb12a3589ab4748963f28f7ac9310f70:1486
      * @var bool|null
      */
     private $enableVideo = null;
@@ -58,7 +58,7 @@ class GroupMusicOnHoldGetInstanceResponse21 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName source
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceRead21
-     * @Group 499b56264fbe226bfef3c338c8d4750d:1486
+     * @Group bb12a3589ab4748963f28f7ac9310f70:1486
      * @var \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceRead21|null
      */
     private $source = null;
@@ -66,7 +66,7 @@ class GroupMusicOnHoldGetInstanceResponse21 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName useAlternateSourceForInternalCalls
      * @Type bool
-     * @Group 499b56264fbe226bfef3c338c8d4750d:1486
+     * @Group bb12a3589ab4748963f28f7ac9310f70:1486
      * @var bool|null
      */
     private $useAlternateSourceForInternalCalls = null;
@@ -74,7 +74,7 @@ class GroupMusicOnHoldGetInstanceResponse21 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName internalSource
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceRead21
-     * @Group 499b56264fbe226bfef3c338c8d4750d:1486
+     * @Group bb12a3589ab4748963f28f7ac9310f70:1486
      * @var \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceRead21|null
      */
     private $internalSource = null;

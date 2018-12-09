@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserGroupPagingGetListResponse
  * @see ErrorResponse
- * @Groups [{"id":"76de8409eddf3e150e3b79f9c41e6cc0:569","type":"sequence"}]
+ * @Groups [{"id":"756d4171668642e53d80bfcb4d781d63:569","type":"sequence"}]
  */
 class UserGroupPagingGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserGroupPagingGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName userId
      * @Type string
-     * @Group 76de8409eddf3e150e3b79f9c41e6cc0:569
+     * @Group 756d4171668642e53d80bfcb4d781d63:569
      * @var string|null
      */
     private $userId = null;

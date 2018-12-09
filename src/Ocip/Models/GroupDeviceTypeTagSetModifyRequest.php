@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:3520","type":"sequence"}]
+ * @Groups [{"id":"15129cd25fa2d5581f4edfd652c24f93:3520","type":"sequence"}]
  */
 class GroupDeviceTypeTagSetModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupDeviceTypeTagSetModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:3520
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:3520
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,7 +26,7 @@ class GroupDeviceTypeTagSetModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:3520
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:3520
      * @var string|null
      */
     private $groupId = null;
@@ -34,7 +34,7 @@ class GroupDeviceTypeTagSetModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName deviceType
      * @Type string
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:3520
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:3520
      * @var string|null
      */
     private $deviceType = null;
@@ -44,7 +44,7 @@ class GroupDeviceTypeTagSetModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:3520
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:3520
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $tagSetName = null;

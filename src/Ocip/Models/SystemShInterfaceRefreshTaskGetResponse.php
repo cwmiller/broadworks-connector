@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemShInterfaceRefreshTaskGetRequest.  Provides the status of the system refresh task.  If isRunning is false, numberPublicIdentityRefreshStarted and numberPublicIdentities are omitted.  If isRunning is true, numberPublicIdentities indicates the total number of public identities in the system that will be refreshed by the system refresh task; numberPublicIdentityRefreshesStarted indicates the total number of public identities for which a refresh has been started.
  *
  * @see SystemShInterfaceRefreshTaskGetRequest
- * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:14446","type":"sequence"}]
+ * @Groups [{"id":"b5f5416d9e71f8e4246cda16c4723744:14446","type":"sequence"}]
  */
 class SystemShInterfaceRefreshTaskGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class SystemShInterfaceRefreshTaskGetResponse extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName isRunning
      * @Type bool
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:14446
+     * @Group b5f5416d9e71f8e4246cda16c4723744:14446
      * @var bool|null
      */
     private $isRunning = null;
@@ -25,7 +25,7 @@ class SystemShInterfaceRefreshTaskGetResponse extends \CWM\BroadWorksConnector\O
      * @ElementName numberPublicIdentityRefreshesStarted
      * @Type int
      * @Optional
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:14446
+     * @Group b5f5416d9e71f8e4246cda16c4723744:14446
      * @var int|null
      */
     private $numberPublicIdentityRefreshesStarted = null;
@@ -34,7 +34,7 @@ class SystemShInterfaceRefreshTaskGetResponse extends \CWM\BroadWorksConnector\O
      * @ElementName numberPublicIdentities
      * @Type int
      * @Optional
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:14446
+     * @Group b5f5416d9e71f8e4246cda16c4723744:14446
      * @var int|null
      */
     private $numberPublicIdentities = null;

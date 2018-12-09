@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Criteria for searching for a particular BroadWorks Mobility Mobile Network.
  *
- * @Groups [{"id":"d37849f5e289836ccd316323a7a3799a:932","type":"sequence"}]
+ * @Groups [{"id":"e446bfcbd1f39cbef57d1547014f2bb9:932","type":"sequence"}]
  */
 class SearchCriteriaExactMobileNetwork extends SearchCriteria
 {
@@ -15,7 +15,7 @@ class SearchCriteriaExactMobileNetwork extends SearchCriteria
     /**
      * @ElementName mobileNetworkName
      * @Type string
-     * @Group d37849f5e289836ccd316323a7a3799a:932
+     * @Group e446bfcbd1f39cbef57d1547014f2bb9:932
      * @var string|null
      */
     private $mobileNetworkName = null;

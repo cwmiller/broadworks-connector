@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models\C;
  *         merely a success or failure indication.
  *
  * @see OCIDataResponse
- * @Groups [{"id":"5df1e3f9f11b14b45dd8cb0f82dc29a6:164","type":"sequence"}]
+ * @Groups [{"id":"b5c92103b335c0ad3e7b255e39a5cba4:164","type":"sequence"}]
  */
 abstract class OCIDataResponse extends OCIResponse
 {

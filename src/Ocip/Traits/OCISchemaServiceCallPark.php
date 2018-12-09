@@ -18,7 +18,8 @@ use CWM\BroadWorksConnector\Ocip\Models\GroupCallParkModifyInstanceRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupCallParkModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserCallParkGetRequest;
-use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\UserCallParkGetResponse;
 
 trait OCISchemaServiceCallPark
@@ -28,6 +29,7 @@ trait OCISchemaServiceCallPark
      * @param GroupCallParkAddInstanceRequest16sp2 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallParkAddInstanceRequest16sp2(\CWM\BroadWorksConnector\Ocip\Models\GroupCallParkAddInstanceRequest16sp2 $request)
     {
@@ -38,6 +40,7 @@ trait OCISchemaServiceCallPark
      * @param GroupCallParkDeleteInstanceRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallParkDeleteInstanceRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallParkDeleteInstanceRequest $request)
     {
@@ -48,6 +51,7 @@ trait OCISchemaServiceCallPark
      * @param GroupCallParkGetAvailableAlternateRecallUserListRequest $request
      * @return GroupCallParkGetAvailableAlternateRecallUserListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallParkGetAvailableAlternateRecallUserListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallParkGetAvailableAlternateRecallUserListRequest $request)
     {
@@ -58,6 +62,7 @@ trait OCISchemaServiceCallPark
      * @param GroupCallParkGetAvailableUserListRequest $request
      * @return GroupCallParkGetAvailableUserListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallParkGetAvailableUserListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallParkGetAvailableUserListRequest $request)
     {
@@ -68,6 +73,7 @@ trait OCISchemaServiceCallPark
      * @param GroupCallParkGetInstanceListRequest $request
      * @return GroupCallParkGetInstanceListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallParkGetInstanceListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallParkGetInstanceListRequest $request)
     {
@@ -78,6 +84,7 @@ trait OCISchemaServiceCallPark
      * @param GroupCallParkGetInstanceRequest16sp2 $request
      * @return GroupCallParkGetInstanceResponse16sp2
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallParkGetInstanceRequest16sp2(\CWM\BroadWorksConnector\Ocip\Models\GroupCallParkGetInstanceRequest16sp2 $request)
     {
@@ -88,6 +95,7 @@ trait OCISchemaServiceCallPark
      * @param GroupCallParkGetRequest16sp2 $request
      * @return GroupCallParkGetResponse16sp2
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallParkGetRequest16sp2(\CWM\BroadWorksConnector\Ocip\Models\GroupCallParkGetRequest16sp2 $request)
     {
@@ -98,6 +106,7 @@ trait OCISchemaServiceCallPark
      * @param GroupCallParkModifyInstanceRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallParkModifyInstanceRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallParkModifyInstanceRequest $request)
     {
@@ -108,6 +117,7 @@ trait OCISchemaServiceCallPark
      * @param GroupCallParkModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCallParkModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallParkModifyRequest $request)
     {
@@ -118,6 +128,7 @@ trait OCISchemaServiceCallPark
      * @param UserCallParkGetRequest $request
      * @return UserCallParkGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userCallParkGetRequest(\CWM\BroadWorksConnector\Ocip\Models\UserCallParkGetRequest $request)
     {

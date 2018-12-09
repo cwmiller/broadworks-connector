@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see UserBusyLampFieldGetResponse
  * @see ErrorResponse
  * @see UserBusyLampFieldGetRequest16sp2
- * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:32570","type":"sequence"}]
+ * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:32570","type":"sequence"}]
  */
 class UserBusyLampFieldGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class UserBusyLampFieldGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName userId
      * @Type string
-     * @Group 1a79c7896cb04feac6eff47a5321756e:32570
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:32570
      * @var string|null
      */
     private $userId = null;

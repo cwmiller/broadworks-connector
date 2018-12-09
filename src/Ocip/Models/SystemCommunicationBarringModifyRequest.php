@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:5479","type":"sequence"}]
+ * @Groups [{"id":"b5f5416d9e71f8e4246cda16c4723744:5479","type":"sequence"}]
  */
 class SystemCommunicationBarringModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -22,7 +22,7 @@ class SystemCommunicationBarringModifyRequest extends \CWM\BroadWorksConnector\O
      * @ElementName directTransferScreening
      * @Type bool
      * @Optional
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:5479
+     * @Group b5f5416d9e71f8e4246cda16c4723744:5479
      * @var bool|null
      */
     private $directTransferScreening = null;
@@ -31,7 +31,7 @@ class SystemCommunicationBarringModifyRequest extends \CWM\BroadWorksConnector\O
      * @ElementName vmCallbackScreening
      * @Type bool
      * @Optional
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:5479
+     * @Group b5f5416d9e71f8e4246cda16c4723744:5479
      * @var bool|null
      */
     private $vmCallbackScreening = null;

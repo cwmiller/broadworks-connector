@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to UserDoNotDisturbGetRequest.
  *
  * @see UserDoNotDisturbGetRequest
- * @Groups [{"id":"fd1c00f3c251856c83a28820f45fb91d:57","type":"sequence"}]
+ * @Groups [{"id":"2ca660fa9785f46a407bf13c3354a5d7:57","type":"sequence"}]
  */
 class UserDoNotDisturbGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class UserDoNotDisturbGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group fd1c00f3c251856c83a28820f45fb91d:57
+     * @Group 2ca660fa9785f46a407bf13c3354a5d7:57
      * @var bool|null
      */
     private $isActive = null;
@@ -24,7 +24,7 @@ class UserDoNotDisturbGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName ringSplash
      * @Type bool
-     * @Group fd1c00f3c251856c83a28820f45fb91d:57
+     * @Group 2ca660fa9785f46a407bf13c3354a5d7:57
      * @var bool|null
      */
     private $ringSplash = null;

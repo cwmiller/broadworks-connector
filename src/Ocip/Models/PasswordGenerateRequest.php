@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see PasswordGenerateResponse
  * @see ErrorResponse
- * @Groups [{"id":"d83be92ebac098705e715f24f025a9a9:328","type":"sequence"}]
+ * @Groups [{"id":"21fd3c6abc11c44e52803121f7739a76:328","type":"sequence"}]
  */
 class PasswordGenerateRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class PasswordGenerateRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @ElementName systemAdministratorPassword
      * @Type \CWM\BroadWorksConnector\Ocip\Models\PasswordForSystemAdministrator
      * @Optional
-     * @Group d83be92ebac098705e715f24f025a9a9:328
+     * @Group 21fd3c6abc11c44e52803121f7739a76:328
      * @var \CWM\BroadWorksConnector\Ocip\Models\PasswordForSystemAdministrator|null
      */
     private $systemAdministratorPassword = null;
@@ -28,7 +28,7 @@ class PasswordGenerateRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @ElementName serviceProviderAdministratorPassword
      * @Type \CWM\BroadWorksConnector\Ocip\Models\PasswordForServiceProviderAdministrator
      * @Optional
-     * @Group d83be92ebac098705e715f24f025a9a9:328
+     * @Group 21fd3c6abc11c44e52803121f7739a76:328
      * @var \CWM\BroadWorksConnector\Ocip\Models\PasswordForServiceProviderAdministrator|null
      */
     private $serviceProviderAdministratorPassword = null;
@@ -37,7 +37,7 @@ class PasswordGenerateRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @ElementName groupAdministratorPassword
      * @Type \CWM\BroadWorksConnector\Ocip\Models\PasswordForGroupAdministrator
      * @Optional
-     * @Group d83be92ebac098705e715f24f025a9a9:328
+     * @Group 21fd3c6abc11c44e52803121f7739a76:328
      * @var \CWM\BroadWorksConnector\Ocip\Models\PasswordForGroupAdministrator|null
      */
     private $groupAdministratorPassword = null;
@@ -46,7 +46,7 @@ class PasswordGenerateRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @ElementName userPassword
      * @Type \CWM\BroadWorksConnector\Ocip\Models\PasswordForUser
      * @Optional
-     * @Group d83be92ebac098705e715f24f025a9a9:328
+     * @Group 21fd3c6abc11c44e52803121f7739a76:328
      * @var \CWM\BroadWorksConnector\Ocip\Models\PasswordForUser|null
      */
     private $userPassword = null;
@@ -55,7 +55,7 @@ class PasswordGenerateRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @ElementName accessDeviceAuthenticationPassword
      * @Type \CWM\BroadWorksConnector\Ocip\Models\PasswordForAccessDevice
      * @Optional
-     * @Group d83be92ebac098705e715f24f025a9a9:328
+     * @Group 21fd3c6abc11c44e52803121f7739a76:328
      * @var \CWM\BroadWorksConnector\Ocip\Models\PasswordForAccessDevice|null
      */
     private $accessDeviceAuthenticationPassword = null;
@@ -64,7 +64,7 @@ class PasswordGenerateRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @ElementName trunkGroupAuthenticationPassword
      * @Type \CWM\BroadWorksConnector\Ocip\Models\PasswordForTrunkGroup
      * @Optional
-     * @Group d83be92ebac098705e715f24f025a9a9:328
+     * @Group 21fd3c6abc11c44e52803121f7739a76:328
      * @var \CWM\BroadWorksConnector\Ocip\Models\PasswordForTrunkGroup|null
      */
     private $trunkGroupAuthenticationPassword = null;

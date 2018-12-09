@@ -24,7 +24,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           
  *         ExtendedMixedCallLogsEntry21sp1 version: only the ServiceInvocationDisposition21sp1 name changed.
  *
- * @Groups [{"id":"499b56264fbe226bfef3c338c8d4750d:5918","type":"sequence"}]
+ * @Groups [{"id":"bb12a3589ab4748963f28f7ac9310f70:5918","type":"sequence"}]
  */
 class ExtendedMixedCallLogsEntry21sp1
 {
@@ -32,7 +32,7 @@ class ExtendedMixedCallLogsEntry21sp1
     /**
      * @ElementName callLogType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallLogsType
-     * @Group 499b56264fbe226bfef3c338c8d4750d:5918
+     * @Group bb12a3589ab4748963f28f7ac9310f70:5918
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallLogsType|null
      */
     private $callLogType = null;
@@ -40,7 +40,7 @@ class ExtendedMixedCallLogsEntry21sp1
     /**
      * @ElementName countryCode
      * @Type string
-     * @Group 499b56264fbe226bfef3c338c8d4750d:5918
+     * @Group bb12a3589ab4748963f28f7ac9310f70:5918
      * @var string|null
      */
     private $countryCode = null;
@@ -48,7 +48,7 @@ class ExtendedMixedCallLogsEntry21sp1
     /**
      * @ElementName callLogId
      * @Type string
-     * @Group 499b56264fbe226bfef3c338c8d4750d:5918
+     * @Group bb12a3589ab4748963f28f7ac9310f70:5918
      * @var string|null
      */
     private $callLogId = null;
@@ -56,7 +56,7 @@ class ExtendedMixedCallLogsEntry21sp1
     /**
      * @ElementName callId
      * @Type string
-     * @Group 499b56264fbe226bfef3c338c8d4750d:5918
+     * @Group bb12a3589ab4748963f28f7ac9310f70:5918
      * @var string|null
      */
     private $callId = null;
@@ -64,7 +64,7 @@ class ExtendedMixedCallLogsEntry21sp1
     /**
      * @ElementName subscriberType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EnhancedCallLogsSubscriberType20
-     * @Group 499b56264fbe226bfef3c338c8d4750d:5918
+     * @Group bb12a3589ab4748963f28f7ac9310f70:5918
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnhancedCallLogsSubscriberType20|null
      */
     private $subscriberType = null;
@@ -73,7 +73,7 @@ class ExtendedMixedCallLogsEntry21sp1
      * @ElementName dialedNumber
      * @Type string
      * @Optional
-     * @Group 499b56264fbe226bfef3c338c8d4750d:5918
+     * @Group bb12a3589ab4748963f28f7ac9310f70:5918
      * @var string|null
      */
     private $dialedNumber = null;
@@ -82,7 +82,7 @@ class ExtendedMixedCallLogsEntry21sp1
      * @ElementName calledNumber
      * @Type string
      * @Optional
-     * @Group 499b56264fbe226bfef3c338c8d4750d:5918
+     * @Group bb12a3589ab4748963f28f7ac9310f70:5918
      * @var string|null
      */
     private $calledNumber = null;
@@ -91,7 +91,7 @@ class ExtendedMixedCallLogsEntry21sp1
      * @ElementName networkTranslatedAddress
      * @Type string
      * @Optional
-     * @Group 499b56264fbe226bfef3c338c8d4750d:5918
+     * @Group bb12a3589ab4748963f28f7ac9310f70:5918
      * @var string|null
      */
     private $networkTranslatedAddress = null;
@@ -100,7 +100,7 @@ class ExtendedMixedCallLogsEntry21sp1
      * @ElementName callingAssertedNumber
      * @Type string
      * @Optional
-     * @Group 499b56264fbe226bfef3c338c8d4750d:5918
+     * @Group bb12a3589ab4748963f28f7ac9310f70:5918
      * @var string|null
      */
     private $callingAssertedNumber = null;
@@ -109,7 +109,7 @@ class ExtendedMixedCallLogsEntry21sp1
      * @ElementName callingPresentationNumber
      * @Type string
      * @Optional
-     * @Group 499b56264fbe226bfef3c338c8d4750d:5918
+     * @Group bb12a3589ab4748963f28f7ac9310f70:5918
      * @var string|null
      */
     private $callingPresentationNumber = null;
@@ -118,7 +118,7 @@ class ExtendedMixedCallLogsEntry21sp1
      * @ElementName callingPresentationNumberSource
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallingPresentationNumberSource
      * @Optional
-     * @Group 499b56264fbe226bfef3c338c8d4750d:5918
+     * @Group bb12a3589ab4748963f28f7ac9310f70:5918
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallingPresentationNumberSource|null
      */
     private $callingPresentationNumberSource = null;
@@ -127,7 +127,7 @@ class ExtendedMixedCallLogsEntry21sp1
      * @ElementName callingPresentationName
      * @Type string
      * @Optional
-     * @Group 499b56264fbe226bfef3c338c8d4750d:5918
+     * @Group bb12a3589ab4748963f28f7ac9310f70:5918
      * @var string|null
      */
     private $callingPresentationName = null;
@@ -135,7 +135,7 @@ class ExtendedMixedCallLogsEntry21sp1
     /**
      * @ElementName callingPresentationIndicator
      * @Type \CWM\BroadWorksConnector\Ocip\Models\PresentationIndicator
-     * @Group 499b56264fbe226bfef3c338c8d4750d:5918
+     * @Group bb12a3589ab4748963f28f7ac9310f70:5918
      * @var \CWM\BroadWorksConnector\Ocip\Models\PresentationIndicator|null
      */
     private $callingPresentationIndicator = null;
@@ -144,7 +144,7 @@ class ExtendedMixedCallLogsEntry21sp1
      * @ElementName callingGroupId
      * @Type string
      * @Optional
-     * @Group 499b56264fbe226bfef3c338c8d4750d:5918
+     * @Group bb12a3589ab4748963f28f7ac9310f70:5918
      * @var string|null
      */
     private $callingGroupId = null;
@@ -153,7 +153,7 @@ class ExtendedMixedCallLogsEntry21sp1
      * @ElementName calledDirectoryName
      * @Type string
      * @Optional
-     * @Group 499b56264fbe226bfef3c338c8d4750d:5918
+     * @Group bb12a3589ab4748963f28f7ac9310f70:5918
      * @var string|null
      */
     private $calledDirectoryName = null;
@@ -162,7 +162,7 @@ class ExtendedMixedCallLogsEntry21sp1
      * @ElementName calledGroupId
      * @Type string
      * @Optional
-     * @Group 499b56264fbe226bfef3c338c8d4750d:5918
+     * @Group bb12a3589ab4748963f28f7ac9310f70:5918
      * @var string|null
      */
     private $calledGroupId = null;
@@ -171,7 +171,7 @@ class ExtendedMixedCallLogsEntry21sp1
      * @ElementName connectedNumber
      * @Type string
      * @Optional
-     * @Group 499b56264fbe226bfef3c338c8d4750d:5918
+     * @Group bb12a3589ab4748963f28f7ac9310f70:5918
      * @var string|null
      */
     private $connectedNumber = null;
@@ -180,7 +180,7 @@ class ExtendedMixedCallLogsEntry21sp1
      * @ElementName connectedNumberSource
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ConnectedNumberSource
      * @Optional
-     * @Group 499b56264fbe226bfef3c338c8d4750d:5918
+     * @Group bb12a3589ab4748963f28f7ac9310f70:5918
      * @var \CWM\BroadWorksConnector\Ocip\Models\ConnectedNumberSource|null
      */
     private $connectedNumberSource = null;
@@ -189,7 +189,7 @@ class ExtendedMixedCallLogsEntry21sp1
      * @ElementName connectedName
      * @Type string
      * @Optional
-     * @Group 499b56264fbe226bfef3c338c8d4750d:5918
+     * @Group bb12a3589ab4748963f28f7ac9310f70:5918
      * @var string|null
      */
     private $connectedName = null;
@@ -198,7 +198,7 @@ class ExtendedMixedCallLogsEntry21sp1
      * @ElementName connectedPresentationIndicator
      * @Type \CWM\BroadWorksConnector\Ocip\Models\PresentationIndicator
      * @Optional
-     * @Group 499b56264fbe226bfef3c338c8d4750d:5918
+     * @Group bb12a3589ab4748963f28f7ac9310f70:5918
      * @var \CWM\BroadWorksConnector\Ocip\Models\PresentationIndicator|null
      */
     private $connectedPresentationIndicator = null;
@@ -207,7 +207,7 @@ class ExtendedMixedCallLogsEntry21sp1
      * @ElementName typeOfNetwork
      * @Type \CWM\BroadWorksConnector\Ocip\Models\NetworkType
      * @Optional
-     * @Group 499b56264fbe226bfef3c338c8d4750d:5918
+     * @Group bb12a3589ab4748963f28f7ac9310f70:5918
      * @var \CWM\BroadWorksConnector\Ocip\Models\NetworkType|null
      */
     private $typeOfNetwork = null;
@@ -216,7 +216,7 @@ class ExtendedMixedCallLogsEntry21sp1
      * @ElementName callCategory
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCategory
      * @Optional
-     * @Group 499b56264fbe226bfef3c338c8d4750d:5918
+     * @Group bb12a3589ab4748963f28f7ac9310f70:5918
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCategory|null
      */
     private $callCategory = null;
@@ -224,7 +224,7 @@ class ExtendedMixedCallLogsEntry21sp1
     /**
      * @ElementName basicCallType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\BasicCallType
-     * @Group 499b56264fbe226bfef3c338c8d4750d:5918
+     * @Group bb12a3589ab4748963f28f7ac9310f70:5918
      * @var \CWM\BroadWorksConnector\Ocip\Models\BasicCallType|null
      */
     private $basicCallType = null;
@@ -233,7 +233,7 @@ class ExtendedMixedCallLogsEntry21sp1
      * @ElementName configurableCallType
      * @Type string
      * @Optional
-     * @Group 499b56264fbe226bfef3c338c8d4750d:5918
+     * @Group bb12a3589ab4748963f28f7ac9310f70:5918
      * @var string|null
      */
     private $configurableCallType = null;
@@ -242,7 +242,7 @@ class ExtendedMixedCallLogsEntry21sp1
      * @ElementName alternateCallIndicator
      * @Type string
      * @Optional
-     * @Group 499b56264fbe226bfef3c338c8d4750d:5918
+     * @Group bb12a3589ab4748963f28f7ac9310f70:5918
      * @var string|null
      */
     private $alternateCallIndicator = null;
@@ -251,7 +251,7 @@ class ExtendedMixedCallLogsEntry21sp1
      * @ElementName virtualOnNetCallType
      * @Type string
      * @Optional
-     * @Group 499b56264fbe226bfef3c338c8d4750d:5918
+     * @Group bb12a3589ab4748963f28f7ac9310f70:5918
      * @var string|null
      */
     private $virtualOnNetCallType = null;
@@ -259,7 +259,7 @@ class ExtendedMixedCallLogsEntry21sp1
     /**
      * @ElementName time
      * @Type string
-     * @Group 499b56264fbe226bfef3c338c8d4750d:5918
+     * @Group bb12a3589ab4748963f28f7ac9310f70:5918
      * @var string|null
      */
     private $time = null;
@@ -267,7 +267,7 @@ class ExtendedMixedCallLogsEntry21sp1
     /**
      * @ElementName startTime
      * @Type string
-     * @Group 499b56264fbe226bfef3c338c8d4750d:5918
+     * @Group bb12a3589ab4748963f28f7ac9310f70:5918
      * @var string|null
      */
     private $startTime = null;
@@ -276,7 +276,7 @@ class ExtendedMixedCallLogsEntry21sp1
      * @ElementName answerTime
      * @Type string
      * @Optional
-     * @Group 499b56264fbe226bfef3c338c8d4750d:5918
+     * @Group bb12a3589ab4748963f28f7ac9310f70:5918
      * @var string|null
      */
     private $answerTime = null;
@@ -285,7 +285,7 @@ class ExtendedMixedCallLogsEntry21sp1
      * @ElementName releaseTime
      * @Type string
      * @Optional
-     * @Group 499b56264fbe226bfef3c338c8d4750d:5918
+     * @Group bb12a3589ab4748963f28f7ac9310f70:5918
      * @var string|null
      */
     private $releaseTime = null;
@@ -294,7 +294,7 @@ class ExtendedMixedCallLogsEntry21sp1
      * @ElementName detachedTime
      * @Type string
      * @Optional
-     * @Group 499b56264fbe226bfef3c338c8d4750d:5918
+     * @Group bb12a3589ab4748963f28f7ac9310f70:5918
      * @var string|null
      */
     private $detachedTime = null;
@@ -303,7 +303,7 @@ class ExtendedMixedCallLogsEntry21sp1
      * @ElementName detachedAnswerTime
      * @Type string
      * @Optional
-     * @Group 499b56264fbe226bfef3c338c8d4750d:5918
+     * @Group bb12a3589ab4748963f28f7ac9310f70:5918
      * @var string|null
      */
     private $detachedAnswerTime = null;
@@ -312,7 +312,7 @@ class ExtendedMixedCallLogsEntry21sp1
      * @ElementName outgoingDnis
      * @Type string
      * @Optional
-     * @Group 499b56264fbe226bfef3c338c8d4750d:5918
+     * @Group bb12a3589ab4748963f28f7ac9310f70:5918
      * @var string|null
      */
     private $outgoingDnis = null;
@@ -321,7 +321,7 @@ class ExtendedMixedCallLogsEntry21sp1
      * @ElementName serviceInvocationDisposition
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceInvocationDisposition21sp1
      * @Optional
-     * @Group 499b56264fbe226bfef3c338c8d4750d:5918
+     * @Group bb12a3589ab4748963f28f7ac9310f70:5918
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInvocationDisposition21sp1|null
      */
     private $serviceInvocationDisposition = null;
@@ -330,7 +330,7 @@ class ExtendedMixedCallLogsEntry21sp1
      * @ElementName serviceInvocationDialedNumber
      * @Type string
      * @Optional
-     * @Group 499b56264fbe226bfef3c338c8d4750d:5918
+     * @Group bb12a3589ab4748963f28f7ac9310f70:5918
      * @var string|null
      */
     private $serviceInvocationDialedNumber = null;
@@ -339,7 +339,7 @@ class ExtendedMixedCallLogsEntry21sp1
      * @ElementName serviceInvocationCalledNumber
      * @Type string
      * @Optional
-     * @Group 499b56264fbe226bfef3c338c8d4750d:5918
+     * @Group bb12a3589ab4748963f28f7ac9310f70:5918
      * @var string|null
      */
     private $serviceInvocationCalledNumber = null;
@@ -348,7 +348,7 @@ class ExtendedMixedCallLogsEntry21sp1
      * @ElementName serviceInvocationNetworkTranslatedAddress
      * @Type string
      * @Optional
-     * @Group 499b56264fbe226bfef3c338c8d4750d:5918
+     * @Group bb12a3589ab4748963f28f7ac9310f70:5918
      * @var string|null
      */
     private $serviceInvocationNetworkTranslatedAddress = null;
@@ -357,7 +357,7 @@ class ExtendedMixedCallLogsEntry21sp1
      * @ElementName serviceInvocationTypeOfNetwork
      * @Type \CWM\BroadWorksConnector\Ocip\Models\NetworkType
      * @Optional
-     * @Group 499b56264fbe226bfef3c338c8d4750d:5918
+     * @Group bb12a3589ab4748963f28f7ac9310f70:5918
      * @var \CWM\BroadWorksConnector\Ocip\Models\NetworkType|null
      */
     private $serviceInvocationTypeOfNetwork = null;
@@ -366,7 +366,7 @@ class ExtendedMixedCallLogsEntry21sp1
      * @ElementName serviceInvocationCallCategory
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCategory
      * @Optional
-     * @Group 499b56264fbe226bfef3c338c8d4750d:5918
+     * @Group bb12a3589ab4748963f28f7ac9310f70:5918
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCategory|null
      */
     private $serviceInvocationCallCategory = null;
@@ -375,7 +375,7 @@ class ExtendedMixedCallLogsEntry21sp1
      * @ElementName serviceInvocationBasicCallType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\BasicCallType
      * @Optional
-     * @Group 499b56264fbe226bfef3c338c8d4750d:5918
+     * @Group bb12a3589ab4748963f28f7ac9310f70:5918
      * @var \CWM\BroadWorksConnector\Ocip\Models\BasicCallType|null
      */
     private $serviceInvocationBasicCallType = null;
@@ -384,7 +384,7 @@ class ExtendedMixedCallLogsEntry21sp1
      * @ElementName serviceInvocationConfigurableCallType
      * @Type string
      * @Optional
-     * @Group 499b56264fbe226bfef3c338c8d4750d:5918
+     * @Group bb12a3589ab4748963f28f7ac9310f70:5918
      * @var string|null
      */
     private $serviceInvocationConfigurableCallType = null;
@@ -393,7 +393,7 @@ class ExtendedMixedCallLogsEntry21sp1
      * @ElementName serviceInvocationAlternateCallIndicator
      * @Type string
      * @Optional
-     * @Group 499b56264fbe226bfef3c338c8d4750d:5918
+     * @Group bb12a3589ab4748963f28f7ac9310f70:5918
      * @var string|null
      */
     private $serviceInvocationAlternateCallIndicator = null;
@@ -402,7 +402,7 @@ class ExtendedMixedCallLogsEntry21sp1
      * @ElementName serviceInvocationVirtualOnNetCallType
      * @Type string
      * @Optional
-     * @Group 499b56264fbe226bfef3c338c8d4750d:5918
+     * @Group bb12a3589ab4748963f28f7ac9310f70:5918
      * @var string|null
      */
     private $serviceInvocationVirtualOnNetCallType = null;
@@ -411,7 +411,7 @@ class ExtendedMixedCallLogsEntry21sp1
      * @ElementName serviceInvocationCalledDirectoryName
      * @Type string
      * @Optional
-     * @Group 499b56264fbe226bfef3c338c8d4750d:5918
+     * @Group bb12a3589ab4748963f28f7ac9310f70:5918
      * @var string|null
      */
     private $serviceInvocationCalledDirectoryName = null;
@@ -420,7 +420,7 @@ class ExtendedMixedCallLogsEntry21sp1
      * @ElementName serviceInvocationCalledGroupId
      * @Type string
      * @Optional
-     * @Group 499b56264fbe226bfef3c338c8d4750d:5918
+     * @Group bb12a3589ab4748963f28f7ac9310f70:5918
      * @var string|null
      */
     private $serviceInvocationCalledGroupId = null;
@@ -429,7 +429,7 @@ class ExtendedMixedCallLogsEntry21sp1
      * @ElementName redirectingNumber
      * @Type string
      * @Optional
-     * @Group 499b56264fbe226bfef3c338c8d4750d:5918
+     * @Group bb12a3589ab4748963f28f7ac9310f70:5918
      * @var string|null
      */
     private $redirectingNumber = null;
@@ -438,7 +438,7 @@ class ExtendedMixedCallLogsEntry21sp1
      * @ElementName redirectingName
      * @Type string
      * @Optional
-     * @Group 499b56264fbe226bfef3c338c8d4750d:5918
+     * @Group bb12a3589ab4748963f28f7ac9310f70:5918
      * @var string|null
      */
     private $redirectingName = null;
@@ -447,7 +447,7 @@ class ExtendedMixedCallLogsEntry21sp1
      * @ElementName redirectingPresentationIndicator
      * @Type \CWM\BroadWorksConnector\Ocip\Models\RedirectingPresentationIndicator
      * @Optional
-     * @Group 499b56264fbe226bfef3c338c8d4750d:5918
+     * @Group bb12a3589ab4748963f28f7ac9310f70:5918
      * @var \CWM\BroadWorksConnector\Ocip\Models\RedirectingPresentationIndicator|null
      */
     private $redirectingPresentationIndicator = null;
@@ -456,7 +456,7 @@ class ExtendedMixedCallLogsEntry21sp1
      * @ElementName RedirectingReason
      * @Type string
      * @Optional
-     * @Group 499b56264fbe226bfef3c338c8d4750d:5918
+     * @Group bb12a3589ab4748963f28f7ac9310f70:5918
      * @var string|null
      */
     private $RedirectingReason = null;
@@ -465,7 +465,7 @@ class ExtendedMixedCallLogsEntry21sp1
      * @ElementName accountAuthorizationCode
      * @Type string
      * @Optional
-     * @Group 499b56264fbe226bfef3c338c8d4750d:5918
+     * @Group bb12a3589ab4748963f28f7ac9310f70:5918
      * @var string|null
      */
     private $accountAuthorizationCode = null;
@@ -474,7 +474,7 @@ class ExtendedMixedCallLogsEntry21sp1
      * @ElementName callAuthorizationCode
      * @Type string
      * @Optional
-     * @Group 499b56264fbe226bfef3c338c8d4750d:5918
+     * @Group bb12a3589ab4748963f28f7ac9310f70:5918
      * @var string|null
      */
     private $callAuthorizationCode = null;
@@ -483,7 +483,7 @@ class ExtendedMixedCallLogsEntry21sp1
      * @ElementName userGroupId
      * @Type string
      * @Optional
-     * @Group 499b56264fbe226bfef3c338c8d4750d:5918
+     * @Group bb12a3589ab4748963f28f7ac9310f70:5918
      * @var string|null
      */
     private $userGroupId = null;
@@ -492,7 +492,7 @@ class ExtendedMixedCallLogsEntry21sp1
      * @ElementName userId
      * @Type string
      * @Optional
-     * @Group 499b56264fbe226bfef3c338c8d4750d:5918
+     * @Group bb12a3589ab4748963f28f7ac9310f70:5918
      * @var string|null
      */
     private $userId = null;
@@ -501,7 +501,7 @@ class ExtendedMixedCallLogsEntry21sp1
      * @ElementName userPrimaryDn
      * @Type string
      * @Optional
-     * @Group 499b56264fbe226bfef3c338c8d4750d:5918
+     * @Group bb12a3589ab4748963f28f7ac9310f70:5918
      * @var string|null
      */
     private $userPrimaryDn = null;
@@ -510,7 +510,7 @@ class ExtendedMixedCallLogsEntry21sp1
      * @ElementName userPrimaryExtension
      * @Type string
      * @Optional
-     * @Group 499b56264fbe226bfef3c338c8d4750d:5918
+     * @Group bb12a3589ab4748963f28f7ac9310f70:5918
      * @var string|null
      */
     private $userPrimaryExtension = null;
@@ -519,7 +519,7 @@ class ExtendedMixedCallLogsEntry21sp1
      * @ElementName securityClassification
      * @Type string
      * @Optional
-     * @Group 499b56264fbe226bfef3c338c8d4750d:5918
+     * @Group bb12a3589ab4748963f28f7ac9310f70:5918
      * @var string|null
      */
     private $securityClassification = null;

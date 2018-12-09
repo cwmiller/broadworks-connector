@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *       "External System", "Description".
  *
  * @see SystemRoutePointExternalSystemGetListRequest
- * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:13297","type":"sequence"}]
+ * @Groups [{"id":"b5f5416d9e71f8e4246cda16c4723744:13297","type":"sequence"}]
  */
 class SystemRoutePointExternalSystemGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,7 +19,7 @@ class SystemRoutePointExternalSystemGetListResponse extends \CWM\BroadWorksConne
     /**
      * @ElementName externalSystemTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:13297
+     * @Group b5f5416d9e71f8e4246cda16c4723744:13297
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $externalSystemTable = null;

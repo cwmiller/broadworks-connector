@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"1dd735379d6024e13a98599c2b534f6d:80","type":"sequence"}]
+ * @Groups [{"id":"6969635204f8e96ba65121dc046a703e:80","type":"sequence"}]
  */
 class ServiceProviderMaliciousCallTraceModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class ServiceProviderMaliciousCallTraceModifyRequest extends \CWM\BroadWorksConn
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 1dd735379d6024e13a98599c2b534f6d:80
+     * @Group 6969635204f8e96ba65121dc046a703e:80
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,7 +27,7 @@ class ServiceProviderMaliciousCallTraceModifyRequest extends \CWM\BroadWorksConn
      * @ElementName useSystemPlayMCTWarningAnnouncement
      * @Type bool
      * @Optional
-     * @Group 1dd735379d6024e13a98599c2b534f6d:80
+     * @Group 6969635204f8e96ba65121dc046a703e:80
      * @var bool|null
      */
     private $useSystemPlayMCTWarningAnnouncement = null;
@@ -36,7 +36,7 @@ class ServiceProviderMaliciousCallTraceModifyRequest extends \CWM\BroadWorksConn
      * @ElementName playMCTWarningAnnouncement
      * @Type bool
      * @Optional
-     * @Group 1dd735379d6024e13a98599c2b534f6d:80
+     * @Group 6969635204f8e96ba65121dc046a703e:80
      * @var bool|null
      */
     private $playMCTWarningAnnouncement = null;

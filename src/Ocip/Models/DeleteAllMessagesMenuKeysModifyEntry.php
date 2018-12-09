@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * The voice portal delete all messages menu keys modify entry modify entry.
  *
- * @Groups [{"id":"1624846b7d87d3ab55e907c443fca9d6:2445","type":"sequence"}]
+ * @Groups [{"id":"80c5986946137c505e41f6008c7f75a8:2445","type":"sequence"}]
  */
 class DeleteAllMessagesMenuKeysModifyEntry
 {
@@ -16,7 +16,7 @@ class DeleteAllMessagesMenuKeysModifyEntry
      * @ElementName confirmDeletion
      * @Type string
      * @Optional
-     * @Group 1624846b7d87d3ab55e907c443fca9d6:2445
+     * @Group 80c5986946137c505e41f6008c7f75a8:2445
      * @var string|null
      */
     private $confirmDeletion = null;
@@ -25,7 +25,7 @@ class DeleteAllMessagesMenuKeysModifyEntry
      * @ElementName cancelDeletion
      * @Type string
      * @Optional
-     * @Group 1624846b7d87d3ab55e907c443fca9d6:2445
+     * @Group 80c5986946137c505e41f6008c7f75a8:2445
      * @var string|null
      */
     private $cancelDeletion = null;

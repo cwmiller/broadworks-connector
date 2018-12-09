@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserGroupNightForwardingGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"1e611fe2e9c068beaf5994d1c997a350:148","type":"sequence"}]
+ * @Groups [{"id":"7aa3724e3d252a8e4882cf2fcd9d3961:148","type":"sequence"}]
  */
 class UserGroupNightForwardingGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserGroupNightForwardingGetRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName userId
      * @Type string
-     * @Group 1e611fe2e9c068beaf5994d1c997a350:148
+     * @Group 7aa3724e3d252a8e4882cf2fcd9d3961:148
      * @var string|null
      */
     private $userId = null;

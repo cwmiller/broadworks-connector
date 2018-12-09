@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the SystemSoftwareVersionGetRequest.
  *
  * @see SystemSoftwareVersionGetRequest
- * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:15799","type":"sequence"}]
+ * @Groups [{"id":"b5f5416d9e71f8e4246cda16c4723744:15799","type":"sequence"}]
  */
 class SystemSoftwareVersionGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class SystemSoftwareVersionGetResponse extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName version
      * @Type string
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:15799
+     * @Group b5f5416d9e71f8e4246cda16c4723744:15799
      * @var string|null
      */
     private $version = null;

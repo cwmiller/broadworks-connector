@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"489b2153267470be8e945bf6b778e0d0:2701","type":"sequence"}]
+ * @Groups [{"id":"ee3830ce42f01a3ef2a105d473fc3b17:2701","type":"sequence"}]
  */
 class UserPortalPasscodeModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserPortalPasscodeModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName userId
      * @Type string
-     * @Group 489b2153267470be8e945bf6b778e0d0:2701
+     * @Group ee3830ce42f01a3ef2a105d473fc3b17:2701
      * @var string|null
      */
     private $userId = null;
@@ -27,7 +27,7 @@ class UserPortalPasscodeModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName oldPasscode
      * @Type string
      * @Optional
-     * @Group 489b2153267470be8e945bf6b778e0d0:2701
+     * @Group ee3830ce42f01a3ef2a105d473fc3b17:2701
      * @var string|null
      */
     private $oldPasscode = null;
@@ -35,7 +35,7 @@ class UserPortalPasscodeModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName newPasscode
      * @Type string
-     * @Group 489b2153267470be8e945bf6b778e0d0:2701
+     * @Group ee3830ce42f01a3ef2a105d473fc3b17:2701
      * @var string|null
      */
     private $newPasscode = null;

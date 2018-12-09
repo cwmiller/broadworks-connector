@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"543ae3e2b01b690007f70e12d0e8b897:72","type":"sequence","children":[{"id":"543ae3e2b01b690007f70e12d0e8b897:75","type":"choice","children":[{"id":"543ae3e2b01b690007f70e12d0e8b897:80","type":"sequence"}]}]}]
+ * @Groups [{"id":"54d69397476ad35e338e87eedfeefacf:72","type":"sequence","children":[{"id":"54d69397476ad35e338e87eedfeefacf:75","type":"choice","children":[{"id":"54d69397476ad35e338e87eedfeefacf:80","type":"sequence"}]}]}]
  */
 class UserAuthenticationModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserAuthenticationModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName userId
      * @Type string
-     * @Group 543ae3e2b01b690007f70e12d0e8b897:72
+     * @Group 54d69397476ad35e338e87eedfeefacf:72
      * @var string|null
      */
     private $userId = null;
@@ -27,7 +27,7 @@ class UserAuthenticationModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName userName
      * @Type string
      * @Optional
-     * @Group 543ae3e2b01b690007f70e12d0e8b897:72
+     * @Group 54d69397476ad35e338e87eedfeefacf:72
      * @var string|null
      */
     private $userName = null;
@@ -36,7 +36,7 @@ class UserAuthenticationModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName newPassword
      * @Type string
      * @Optional
-     * @Group 543ae3e2b01b690007f70e12d0e8b897:75
+     * @Group 54d69397476ad35e338e87eedfeefacf:75
      * @var string|null
      */
     private $newPassword = null;
@@ -45,7 +45,7 @@ class UserAuthenticationModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName password
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UserAuthenticationModifyRequestPassword
      * @Optional
-     * @Group 543ae3e2b01b690007f70e12d0e8b897:75
+     * @Group 54d69397476ad35e338e87eedfeefacf:75
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserAuthenticationModifyRequestPassword|null
      */
     private $password = null;

@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The following elements are only used in AS data mode and are ignored in XS data mode:        
  *          physicalLocation
  *
- * @Groups [{"id":"18b369af88e42ffdb4166615c670ce2c:3690","type":"sequence"}]
+ * @Groups [{"id":"8e629edbac315ae7889caca732382c44:3690","type":"sequence"}]
  */
 class TrunkAddressingMultipleContactModify
 {
@@ -21,7 +21,7 @@ class TrunkAddressingMultipleContactModify
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupDeviceMultipleContactEndpointModify
      * @Nillable
      * @Optional
-     * @Group 18b369af88e42ffdb4166615c670ce2c:3690
+     * @Group 8e629edbac315ae7889caca732382c44:3690
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupDeviceMultipleContactEndpointModify|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $trunkGroupDeviceEndpoint = null;
@@ -31,7 +31,7 @@ class TrunkAddressingMultipleContactModify
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 18b369af88e42ffdb4166615c670ce2c:3690
+     * @Group 8e629edbac315ae7889caca732382c44:3690
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $enterpriseTrunkName = null;
@@ -41,7 +41,7 @@ class TrunkAddressingMultipleContactModify
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 18b369af88e42ffdb4166615c670ce2c:3690
+     * @Group 8e629edbac315ae7889caca732382c44:3690
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $alternateTrunkIdentity = null;
@@ -51,7 +51,7 @@ class TrunkAddressingMultipleContactModify
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 18b369af88e42ffdb4166615c670ce2c:3690
+     * @Group 8e629edbac315ae7889caca732382c44:3690
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $alternateTrunkIdentityDomain = null;
@@ -61,7 +61,7 @@ class TrunkAddressingMultipleContactModify
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 18b369af88e42ffdb4166615c670ce2c:3690
+     * @Group 8e629edbac315ae7889caca732382c44:3690
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $physicalLocation = null;

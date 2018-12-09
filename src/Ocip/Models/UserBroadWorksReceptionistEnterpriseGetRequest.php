@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserBroadWorksReceptionistEnterpriseGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"0951a6054c9016924c2aed90d0af404b:179","type":"sequence"}]
+ * @Groups [{"id":"b99e2521b171f47568831e973c09aa33:179","type":"sequence"}]
  */
 class UserBroadWorksReceptionistEnterpriseGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserBroadWorksReceptionistEnterpriseGetRequest extends \CWM\BroadWorksConn
     /**
      * @ElementName userId
      * @Type string
-     * @Group 0951a6054c9016924c2aed90d0af404b:179
+     * @Group b99e2521b171f47568831e973c09aa33:179
      * @var string|null
      */
     private $userId = null;

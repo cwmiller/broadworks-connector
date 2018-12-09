@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see ServiceProviderIntegratedIMPGetResponse21
  * @see ErrorResponse
- * @Groups [{"id":"8351e8f51540f77c264b2f9bdf7fada4:166","type":"sequence"}]
+ * @Groups [{"id":"1145a01488507071407c5896ff2e4ef5:166","type":"sequence"}]
  */
 class ServiceProviderIntegratedIMPGetRequest21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class ServiceProviderIntegratedIMPGetRequest21 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 8351e8f51540f77c264b2f9bdf7fada4:166
+     * @Group 1145a01488507071407c5896ff2e4ef5:166
      * @var string|null
      */
     private $serviceProviderId = null;

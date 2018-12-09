@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SuccessResponse
  * @see ErrorResponse
  * @see UserCallLogsClearRequest14sp4
- * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:33057","type":"sequence"}]
+ * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:33057","type":"sequence"}]
  */
 class UserCallLogsClearRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,7 +21,7 @@ class UserCallLogsClearRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
     /**
      * @ElementName userId
      * @Type string
-     * @Group 1a79c7896cb04feac6eff47a5321756e:33057
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:33057
      * @var string|null
      */
     private $userId = null;

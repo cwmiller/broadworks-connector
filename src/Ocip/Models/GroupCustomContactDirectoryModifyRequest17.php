@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:2719","type":"sequence"}]
+ * @Groups [{"id":"15129cd25fa2d5581f4edfd652c24f93:2719","type":"sequence"}]
  */
 class GroupCustomContactDirectoryModifyRequest17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupCustomContactDirectoryModifyRequest17 extends \CWM\BroadWorksConnecto
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:2719
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:2719
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,7 +26,7 @@ class GroupCustomContactDirectoryModifyRequest17 extends \CWM\BroadWorksConnecto
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:2719
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:2719
      * @var string|null
      */
     private $groupId = null;
@@ -34,7 +34,7 @@ class GroupCustomContactDirectoryModifyRequest17 extends \CWM\BroadWorksConnecto
     /**
      * @ElementName name
      * @Type string
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:2719
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:2719
      * @var string|null
      */
     private $name = null;
@@ -43,7 +43,7 @@ class GroupCustomContactDirectoryModifyRequest17 extends \CWM\BroadWorksConnecto
      * @ElementName newName
      * @Type string
      * @Optional
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:2719
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:2719
      * @var string|null
      */
     private $newName = null;
@@ -53,7 +53,7 @@ class GroupCustomContactDirectoryModifyRequest17 extends \CWM\BroadWorksConnecto
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementCustomContactDirectoryEntryList
      * @Nillable
      * @Optional
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:2719
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:2719
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementCustomContactDirectoryEntryList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $entryList = null;

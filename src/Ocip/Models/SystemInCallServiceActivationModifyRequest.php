@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SuccessResponse
  * @see ErrorResponse
  * @see SystemInCallServiceActivationModifyRequest17
- * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:22737","type":"sequence"}]
+ * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:22737","type":"sequence"}]
  */
 class SystemInCallServiceActivationModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class SystemInCallServiceActivationModifyRequest extends \CWM\BroadWorksConnecto
      * @ElementName defaultActivationDigits
      * @Type string
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:22737
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:22737
      * @var string|null
      */
     private $defaultActivationDigits = null;

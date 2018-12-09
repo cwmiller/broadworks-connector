@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemInterceptUserGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"bf05ea6ea4a301f45f76ff5756023e2d:206","type":"sequence"}]
+ * @Groups [{"id":"3783f30df600d0ca3ee6dab86707b98b:206","type":"sequence"}]
  */
 class SystemInterceptUserGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

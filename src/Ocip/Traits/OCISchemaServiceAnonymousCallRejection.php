@@ -8,7 +8,8 @@ use CWM\BroadWorksConnector\Ocip\Models\SystemAnonymousCallRejectionModifyReques
 use CWM\BroadWorksConnector\Ocip\Models\UserAnonymousCallRejectionGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserAnonymousCallRejectionGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserAnonymousCallRejectionModifyRequest;
-use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceAnonymousCallRejection
@@ -18,6 +19,7 @@ trait OCISchemaServiceAnonymousCallRejection
      * @param SystemAnonymousCallRejectionGetRequest $request
      * @return SystemAnonymousCallRejectionGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemAnonymousCallRejectionGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemAnonymousCallRejectionGetRequest $request)
     {
@@ -28,6 +30,7 @@ trait OCISchemaServiceAnonymousCallRejection
      * @param SystemAnonymousCallRejectionModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemAnonymousCallRejectionModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemAnonymousCallRejectionModifyRequest $request)
     {
@@ -38,6 +41,7 @@ trait OCISchemaServiceAnonymousCallRejection
      * @param UserAnonymousCallRejectionGetRequest $request
      * @return UserAnonymousCallRejectionGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userAnonymousCallRejectionGetRequest(\CWM\BroadWorksConnector\Ocip\Models\UserAnonymousCallRejectionGetRequest $request)
     {
@@ -48,6 +52,7 @@ trait OCISchemaServiceAnonymousCallRejection
      * @param UserAnonymousCallRejectionModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userAnonymousCallRejectionModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\UserAnonymousCallRejectionModifyRequest $request)
     {

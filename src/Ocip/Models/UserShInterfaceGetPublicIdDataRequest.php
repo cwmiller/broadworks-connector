@@ -14,7 +14,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see UserShInterfaceGetPublicIdDataResponse
  * @see ErrorResponse
  * @see UserShInterfaceGetPublicIdDataRequest21sp1
- * @Groups [{"id":"499b56264fbe226bfef3c338c8d4750d:5633","type":"sequence"}]
+ * @Groups [{"id":"bb12a3589ab4748963f28f7ac9310f70:5633","type":"sequence"}]
  */
 class UserShInterfaceGetPublicIdDataRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -22,7 +22,7 @@ class UserShInterfaceGetPublicIdDataRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName publicUserIdentity
      * @Type \CWM\BroadWorksConnector\Ocip\Models\PublicUserIdentity
-     * @Group 499b56264fbe226bfef3c338c8d4750d:5633
+     * @Group bb12a3589ab4748963f28f7ac9310f70:5633
      * @var \CWM\BroadWorksConnector\Ocip\Models\PublicUserIdentity|null
      */
     private $publicUserIdentity = null;

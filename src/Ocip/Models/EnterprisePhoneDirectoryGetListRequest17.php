@@ -16,7 +16,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see EnterprisePhoneDirectoryGetListResponse17
  * @see ErrorResponse
  * @see EnterprisePhoneDirectoryGetListRequest18
- * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:1471","type":"sequence"}]
+ * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:1471","type":"sequence"}]
  */
 class EnterprisePhoneDirectoryGetListRequest17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -24,7 +24,7 @@ class EnterprisePhoneDirectoryGetListRequest17 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName enterpriseId
      * @Type string
-     * @Group 1a79c7896cb04feac6eff47a5321756e:1471
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:1471
      * @var string|null
      */
     private $enterpriseId = null;
@@ -32,7 +32,7 @@ class EnterprisePhoneDirectoryGetListRequest17 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName isExtendedInfoRequested
      * @Type bool
-     * @Group 1a79c7896cb04feac6eff47a5321756e:1471
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:1471
      * @var bool|null
      */
     private $isExtendedInfoRequested = null;
@@ -41,7 +41,7 @@ class EnterprisePhoneDirectoryGetListRequest17 extends \CWM\BroadWorksConnector\
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:1471
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:1471
      * @var int|null
      */
     private $responseSizeLimit = null;
@@ -51,7 +51,7 @@ class EnterprisePhoneDirectoryGetListRequest17 extends \CWM\BroadWorksConnector\
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName
      * @Array
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:1471
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:1471
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[]
      */
     private $searchCriteriaUserLastName = array(
@@ -63,7 +63,7 @@ class EnterprisePhoneDirectoryGetListRequest17 extends \CWM\BroadWorksConnector\
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName
      * @Array
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:1471
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:1471
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName[]
      */
     private $searchCriteriaUserFirstName = array(
@@ -75,7 +75,7 @@ class EnterprisePhoneDirectoryGetListRequest17 extends \CWM\BroadWorksConnector\
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn
      * @Array
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:1471
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:1471
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[]
      */
     private $searchCriteriaDn = array(
@@ -87,7 +87,7 @@ class EnterprisePhoneDirectoryGetListRequest17 extends \CWM\BroadWorksConnector\
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupLocationCode
      * @Array
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:1471
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:1471
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupLocationCode[]
      */
     private $searchCriteriaGroupLocationCode = array(
@@ -99,7 +99,7 @@ class EnterprisePhoneDirectoryGetListRequest17 extends \CWM\BroadWorksConnector\
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension
      * @Array
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:1471
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:1471
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension[]
      */
     private $searchCriteriaExtension = array(
@@ -111,7 +111,7 @@ class EnterprisePhoneDirectoryGetListRequest17 extends \CWM\BroadWorksConnector\
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaMobilePhoneNumber
      * @Array
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:1471
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:1471
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaMobilePhoneNumber[]
      */
     private $searchCriteriaMobilePhoneNumber = array(
@@ -123,7 +123,7 @@ class EnterprisePhoneDirectoryGetListRequest17 extends \CWM\BroadWorksConnector\
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaEmailAddress
      * @Array
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:1471
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:1471
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaEmailAddress[]
      */
     private $searchCriteriaEmailAddress = array(
@@ -135,7 +135,7 @@ class EnterprisePhoneDirectoryGetListRequest17 extends \CWM\BroadWorksConnector\
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaYahooId
      * @Array
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:1471
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:1471
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaYahooId[]
      */
     private $searchCriteriaYahooId = array(
@@ -146,7 +146,7 @@ class EnterprisePhoneDirectoryGetListRequest17 extends \CWM\BroadWorksConnector\
      * @ElementName searchCriteriaExactUserGroup
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserGroup
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:1471
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:1471
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserGroup|null
      */
     private $searchCriteriaExactUserGroup = null;
@@ -155,7 +155,7 @@ class EnterprisePhoneDirectoryGetListRequest17 extends \CWM\BroadWorksConnector\
      * @ElementName searchCriteriaExactUserDepartment
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:1471
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:1471
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment|null
      */
     private $searchCriteriaExactUserDepartment = null;

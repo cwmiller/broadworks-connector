@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains a table with column headings: "Is Active", "Code", "Description".
  *
  * @see EnterpriseCallCenterAgentUnavailableCodeGetListRequest
- * @Groups [{"id":"69c2aeb1186dc97a4f4c36d9609ddb49:642","type":"sequence"}]
+ * @Groups [{"id":"3ac5f05d969bc771d6ba8d344d95aa72:642","type":"sequence"}]
  */
 class EnterpriseCallCenterAgentUnavailableCodeGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class EnterpriseCallCenterAgentUnavailableCodeGetListResponse extends \CWM\Broad
     /**
      * @ElementName unavailableCodesTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:642
+     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:642
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $unavailableCodesTable = null;

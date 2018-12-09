@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:22539","type":"sequence"}]
+ * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:22539","type":"sequence"}]
  */
 class SystemHolidayScheduleDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemHolidayScheduleDeleteRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName holidayScheduleName
      * @Type string
-     * @Group 1a79c7896cb04feac6eff47a5321756e:22539
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:22539
      * @var string|null
      */
     private $holidayScheduleName = null;

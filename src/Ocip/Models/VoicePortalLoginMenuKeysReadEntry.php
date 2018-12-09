@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * The voice portal login menu keys.
  *
- * @Groups [{"id":"1624846b7d87d3ab55e907c443fca9d6:3229","type":"sequence"}]
+ * @Groups [{"id":"80c5986946137c505e41f6008c7f75a8:3229","type":"sequence"}]
  */
 class VoicePortalLoginMenuKeysReadEntry
 {
@@ -16,7 +16,7 @@ class VoicePortalLoginMenuKeysReadEntry
      * @ElementName accessUsingOtherMailboxId
      * @Type string
      * @Optional
-     * @Group 1624846b7d87d3ab55e907c443fca9d6:3229
+     * @Group 80c5986946137c505e41f6008c7f75a8:3229
      * @var string|null
      */
     private $accessUsingOtherMailboxId = null;

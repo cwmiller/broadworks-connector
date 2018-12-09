@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemCallCenterEnhancedReportingDataTemplateGetListRequest.
  *
  * @see SystemCallCenterEnhancedReportingDataTemplateGetListRequest
- * @Groups [{"id":"69c2aeb1186dc97a4f4c36d9609ddb49:5405","type":"sequence"}]
+ * @Groups [{"id":"3ac5f05d969bc771d6ba8d344d95aa72:5405","type":"sequence"}]
  */
 class SystemCallCenterEnhancedReportingDataTemplateGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class SystemCallCenterEnhancedReportingDataTemplateGetListResponse extends \CWM\
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportDataTemplateInfo
      * @Array
      * @Optional
-     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:5405
+     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:5405
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportDataTemplateInfo[]
      */
     private $info = array(

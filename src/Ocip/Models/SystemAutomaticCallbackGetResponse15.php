@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemAutomaticCallbackGetRequest15
  * @see SystemAutomaticCallbackGetResponse15sp2
- * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:17421","type":"sequence"}]
+ * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:17421","type":"sequence"}]
  */
 class SystemAutomaticCallbackGetResponse15 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class SystemAutomaticCallbackGetResponse15 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName monitorMinutes
      * @Type int
-     * @Group 1a79c7896cb04feac6eff47a5321756e:17421
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:17421
      * @var int|null
      */
     private $monitorMinutes = null;
@@ -26,7 +26,7 @@ class SystemAutomaticCallbackGetResponse15 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName maxMonitorsPerOriginator
      * @Type int
-     * @Group 1a79c7896cb04feac6eff47a5321756e:17421
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:17421
      * @var int|null
      */
     private $maxMonitorsPerOriginator = null;
@@ -34,7 +34,7 @@ class SystemAutomaticCallbackGetResponse15 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName maxCallbackRings
      * @Type int
-     * @Group 1a79c7896cb04feac6eff47a5321756e:17421
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:17421
      * @var int|null
      */
     private $maxCallbackRings = null;
@@ -42,7 +42,7 @@ class SystemAutomaticCallbackGetResponse15 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName maxMonitorsPerTerminator
      * @Type int
-     * @Group 1a79c7896cb04feac6eff47a5321756e:17421
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:17421
      * @var int|null
      */
     private $maxMonitorsPerTerminator = null;
@@ -50,7 +50,7 @@ class SystemAutomaticCallbackGetResponse15 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName terminatorIdleGuardSeconds
      * @Type int
-     * @Group 1a79c7896cb04feac6eff47a5321756e:17421
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:17421
      * @var int|null
      */
     private $terminatorIdleGuardSeconds = null;

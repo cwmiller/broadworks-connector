@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserMeetMeConferencingGetConferenceRecordingListResponse
  * @see ErrorResponse
- * @Groups [{"id":"e51a0a16349851c3fad768a24a35838d:717","type":"sequence"}]
+ * @Groups [{"id":"7a29c84abb8473449085e6657fc6948d:717","type":"sequence"}]
  */
 class UserMeetMeConferencingGetConferenceRecordingListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserMeetMeConferencingGetConferenceRecordingListRequest extends \CWM\Broad
     /**
      * @ElementName userId
      * @Type string
-     * @Group e51a0a16349851c3fad768a24a35838d:717
+     * @Group 7a29c84abb8473449085e6657fc6948d:717
      * @var string|null
      */
     private $userId = null;

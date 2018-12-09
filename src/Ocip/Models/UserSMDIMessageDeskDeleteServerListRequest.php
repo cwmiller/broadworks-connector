@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"cd03b563fec121b562411c9b734b5953:243","type":"sequence"}]
+ * @Groups [{"id":"584e9b2c2c8a6d282376c11d0e3ab848:243","type":"sequence"}]
  */
 class UserSMDIMessageDeskDeleteServerListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserSMDIMessageDeskDeleteServerListRequest extends \CWM\BroadWorksConnecto
     /**
      * @ElementName userId
      * @Type string
-     * @Group cd03b563fec121b562411c9b734b5953:243
+     * @Group 584e9b2c2c8a6d282376c11d0e3ab848:243
      * @var string|null
      */
     private $userId = null;
@@ -27,7 +27,7 @@ class UserSMDIMessageDeskDeleteServerListRequest extends \CWM\BroadWorksConnecto
      * @ElementName deviceName
      * @Type string
      * @Array
-     * @Group cd03b563fec121b562411c9b734b5953:243
+     * @Group 584e9b2c2c8a6d282376c11d0e3ab848:243
      * @var string[]
      */
     private $deviceName = array(

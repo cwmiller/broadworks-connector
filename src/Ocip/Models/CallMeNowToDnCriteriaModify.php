@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * The To dn criteria used on the call me now external number to be modified.
  *
- * @Groups [{"id":"4b461d8be4f7bfba1e05db8efbd896b6:259","type":"sequence"}]
+ * @Groups [{"id":"ddf57759ad9d63b4ce76f3f789cde156:259","type":"sequence"}]
  */
 class CallMeNowToDnCriteriaModify
 {
@@ -16,7 +16,7 @@ class CallMeNowToDnCriteriaModify
      * @ElementName toDnCriteriaSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CriteriaDnSelection
      * @Optional
-     * @Group 4b461d8be4f7bfba1e05db8efbd896b6:259
+     * @Group ddf57759ad9d63b4ce76f3f789cde156:259
      * @var \CWM\BroadWorksConnector\Ocip\Models\CriteriaDnSelection|null
      */
     private $toDnCriteriaSelection = null;
@@ -26,7 +26,7 @@ class CallMeNowToDnCriteriaModify
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CriteriaReplacementDNList
      * @Nillable
      * @Optional
-     * @Group 4b461d8be4f7bfba1e05db8efbd896b6:259
+     * @Group ddf57759ad9d63b4ce76f3f789cde156:259
      * @var \CWM\BroadWorksConnector\Ocip\Models\CriteriaReplacementDNList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $phoneNumberList = null;

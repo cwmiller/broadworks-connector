@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains a table of devices can be assigned to session admission control group in the group.
  *
  * @see GroupSessionAdmissionControlGetAvailableDeviceListRequest
- * @Groups [{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:6676","type":"sequence"}]
+ * @Groups [{"id":"15129cd25fa2d5581f4edfd652c24f93:6676","type":"sequence"}]
  */
 class GroupSessionAdmissionControlGetAvailableDeviceListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,7 +19,7 @@ class GroupSessionAdmissionControlGetAvailableDeviceListResponse extends \CWM\Br
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDevice
      * @Array
      * @Optional
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:6676
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:6676
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDevice[]
      */
     private $accessDevice = array(

@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:817","type":"sequence"}]
+ * @Groups [{"id":"15129cd25fa2d5581f4edfd652c24f93:817","type":"sequence"}]
  */
 class GroupAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:817
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:817
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,7 +26,7 @@ class GroupAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:817
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:817
      * @var string|null
      */
     private $groupId = null;
@@ -34,7 +34,7 @@ class GroupAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName deviceName
      * @Type string
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:817
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:817
      * @var string|null
      */
     private $deviceName = null;
@@ -43,7 +43,7 @@ class GroupAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName protocol
      * @Type string
      * @Optional
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:817
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:817
      * @var string|null
      */
     private $protocol = null;
@@ -53,7 +53,7 @@ class GroupAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:817
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:817
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $netAddress = null;
@@ -63,7 +63,7 @@ class GroupAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Type int
      * @Nillable
      * @Optional
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:817
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:817
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $port = null;
@@ -73,7 +73,7 @@ class GroupAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:817
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:817
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $outboundProxyServerNetAddress = null;
@@ -83,7 +83,7 @@ class GroupAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:817
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:817
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $stunServerNetAddress = null;
@@ -93,7 +93,7 @@ class GroupAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:817
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:817
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $macAddress = null;
@@ -103,7 +103,7 @@ class GroupAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:817
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:817
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $serialNumber = null;
@@ -113,7 +113,7 @@ class GroupAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:817
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:817
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $description = null;
@@ -123,7 +123,7 @@ class GroupAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationMode
      * @Nillable
      * @Optional
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:817
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:817
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationMode|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $configurationMode = null;
@@ -132,7 +132,7 @@ class GroupAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName configurationFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\FileResource
      * @Optional
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:817
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:817
      * @var \CWM\BroadWorksConnector\Ocip\Models\FileResource|null
      */
     private $configurationFile = null;
@@ -142,7 +142,7 @@ class GroupAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:817
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:817
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $physicalLocation = null;
@@ -151,7 +151,7 @@ class GroupAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName transportProtocol
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol
      * @Optional
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:817
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:817
      * @var \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol|null
      */
     private $transportProtocol = null;
@@ -160,7 +160,7 @@ class GroupAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName mobilityManagerProvisioningURL
      * @Type string
      * @Optional
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:817
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:817
      * @var string|null
      */
     private $mobilityManagerProvisioningURL = null;
@@ -169,7 +169,7 @@ class GroupAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName mobilityManagerProvisioningUserName
      * @Type string
      * @Optional
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:817
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:817
      * @var string|null
      */
     private $mobilityManagerProvisioningUserName = null;
@@ -178,7 +178,7 @@ class GroupAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName mobilityManagerProvisioningPassword
      * @Type string
      * @Optional
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:817
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:817
      * @var string|null
      */
     private $mobilityManagerProvisioningPassword = null;
@@ -188,7 +188,7 @@ class GroupAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Type int
      * @Nillable
      * @Optional
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:817
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:817
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $mobilityManagerDefaultOriginatingServiceKey = null;
@@ -198,7 +198,7 @@ class GroupAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Type int
      * @Nillable
      * @Optional
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:817
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:817
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $mobilityManagerDefaultTerminatingServiceKey = null;
@@ -207,7 +207,7 @@ class GroupAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName useCustomUserNamePassword
      * @Type bool
      * @Optional
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:817
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:817
      * @var bool|null
      */
     private $useCustomUserNamePassword = null;
@@ -217,7 +217,7 @@ class GroupAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementUserNamePassword16
      * @Nillable
      * @Optional
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:817
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:817
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementUserNamePassword16|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $accessDeviceCredentials = null;

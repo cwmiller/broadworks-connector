@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "Hiragana Last Name", "Hiragana First Name", "Weight".
  *
  * @see GroupHuntGroupGetInstanceRequest17
- * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:8963","type":"sequence"}]
+ * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:8963","type":"sequence"}]
  */
 class GroupHuntGroupGetInstanceResponse17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,7 +19,7 @@ class GroupHuntGroupGetInstanceResponse17 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName serviceInstanceProfile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile17
-     * @Group 1a79c7896cb04feac6eff47a5321756e:8963
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:8963
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile17|null
      */
     private $serviceInstanceProfile = null;
@@ -27,7 +27,7 @@ class GroupHuntGroupGetInstanceResponse17 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName policy
      * @Type \CWM\BroadWorksConnector\Ocip\Models\HuntPolicy
-     * @Group 1a79c7896cb04feac6eff47a5321756e:8963
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:8963
      * @var \CWM\BroadWorksConnector\Ocip\Models\HuntPolicy|null
      */
     private $policy = null;
@@ -35,7 +35,7 @@ class GroupHuntGroupGetInstanceResponse17 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName huntAfterNoAnswer
      * @Type bool
-     * @Group 1a79c7896cb04feac6eff47a5321756e:8963
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:8963
      * @var bool|null
      */
     private $huntAfterNoAnswer = null;
@@ -43,7 +43,7 @@ class GroupHuntGroupGetInstanceResponse17 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName noAnswerNumberOfRings
      * @Type int
-     * @Group 1a79c7896cb04feac6eff47a5321756e:8963
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:8963
      * @var int|null
      */
     private $noAnswerNumberOfRings = null;
@@ -51,7 +51,7 @@ class GroupHuntGroupGetInstanceResponse17 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName forwardAfterTimeout
      * @Type bool
-     * @Group 1a79c7896cb04feac6eff47a5321756e:8963
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:8963
      * @var bool|null
      */
     private $forwardAfterTimeout = null;
@@ -59,7 +59,7 @@ class GroupHuntGroupGetInstanceResponse17 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName forwardTimeoutSeconds
      * @Type int
-     * @Group 1a79c7896cb04feac6eff47a5321756e:8963
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:8963
      * @var int|null
      */
     private $forwardTimeoutSeconds = null;
@@ -68,7 +68,7 @@ class GroupHuntGroupGetInstanceResponse17 extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName forwardToPhoneNumber
      * @Type string
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:8963
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:8963
      * @var string|null
      */
     private $forwardToPhoneNumber = null;
@@ -76,7 +76,7 @@ class GroupHuntGroupGetInstanceResponse17 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName agentUserTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 1a79c7896cb04feac6eff47a5321756e:8963
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:8963
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $agentUserTable = null;
@@ -84,7 +84,7 @@ class GroupHuntGroupGetInstanceResponse17 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName allowCallWaitingForAgents
      * @Type bool
-     * @Group 1a79c7896cb04feac6eff47a5321756e:8963
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:8963
      * @var bool|null
      */
     private $allowCallWaitingForAgents = null;

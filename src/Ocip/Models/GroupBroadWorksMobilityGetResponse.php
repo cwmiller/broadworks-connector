@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * The response to a GroupBroadWorksMobilityGetRequest.
  *
  * @see GroupBroadWorksMobilityGetRequest
- * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:2861","type":"sequence"}]
+ * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:2861","type":"sequence"}]
  */
 class GroupBroadWorksMobilityGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class GroupBroadWorksMobilityGetResponse extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName useSettingLevel
      * @Type \CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityGroupSettingLevel
-     * @Group 1a79c7896cb04feac6eff47a5321756e:2861
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:2861
      * @var \CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityGroupSettingLevel|null
      */
     private $useSettingLevel = null;
@@ -24,7 +24,7 @@ class GroupBroadWorksMobilityGetResponse extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName enableLocationServices
      * @Type bool
-     * @Group 1a79c7896cb04feac6eff47a5321756e:2861
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:2861
      * @var bool|null
      */
     private $enableLocationServices = null;
@@ -32,7 +32,7 @@ class GroupBroadWorksMobilityGetResponse extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName enableMSRNLookup
      * @Type bool
-     * @Group 1a79c7896cb04feac6eff47a5321756e:2861
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:2861
      * @var bool|null
      */
     private $enableMSRNLookup = null;
@@ -40,7 +40,7 @@ class GroupBroadWorksMobilityGetResponse extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName enableMobileStateChecking
      * @Type bool
-     * @Group 1a79c7896cb04feac6eff47a5321756e:2861
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:2861
      * @var bool|null
      */
     private $enableMobileStateChecking = null;
@@ -48,7 +48,7 @@ class GroupBroadWorksMobilityGetResponse extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName denyCallOriginations
      * @Type bool
-     * @Group 1a79c7896cb04feac6eff47a5321756e:2861
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:2861
      * @var bool|null
      */
     private $denyCallOriginations = null;
@@ -56,7 +56,7 @@ class GroupBroadWorksMobilityGetResponse extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName denyCallTerminations
      * @Type bool
-     * @Group 1a79c7896cb04feac6eff47a5321756e:2861
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:2861
      * @var bool|null
      */
     private $denyCallTerminations = null;

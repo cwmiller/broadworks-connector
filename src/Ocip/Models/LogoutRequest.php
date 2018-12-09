@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see LogoutRequest
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"d83be92ebac098705e715f24f025a9a9:311","type":"sequence"}]
+ * @Groups [{"id":"21fd3c6abc11c44e52803121f7739a76:311","type":"sequence"}]
  */
 class LogoutRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class LogoutRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
     /**
      * @ElementName userId
      * @Type string
-     * @Group d83be92ebac098705e715f24f025a9a9:311
+     * @Group 21fd3c6abc11c44e52803121f7739a76:311
      * @var string|null
      */
     private $userId = null;
@@ -29,7 +29,7 @@ class LogoutRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
      * @ElementName reason
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LogoutRequestReason
      * @Optional
-     * @Group d83be92ebac098705e715f24f025a9a9:311
+     * @Group 21fd3c6abc11c44e52803121f7739a76:311
      * @var \CWM\BroadWorksConnector\Ocip\Models\LogoutRequestReason|null
      */
     private $reason = null;

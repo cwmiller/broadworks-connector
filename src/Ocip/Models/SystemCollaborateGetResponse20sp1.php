@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemCollaborateGetRequest20sp1
  * @see SystemCollaborateGetResponse20sp1V2
- * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:20692","type":"sequence"}]
+ * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:20692","type":"sequence"}]
  */
 class SystemCollaborateGetResponse20sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,7 +19,7 @@ class SystemCollaborateGetResponse20sp1 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName collaborateRoomIdLength
      * @Type int
-     * @Group 1a79c7896cb04feac6eff47a5321756e:20692
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:20692
      * @var int|null
      */
     private $collaborateRoomIdLength = null;
@@ -27,7 +27,7 @@ class SystemCollaborateGetResponse20sp1 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName instantRoomIdleTimeoutSeconds
      * @Type int
-     * @Group 1a79c7896cb04feac6eff47a5321756e:20692
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:20692
      * @var int|null
      */
     private $instantRoomIdleTimeoutSeconds = null;
@@ -35,7 +35,7 @@ class SystemCollaborateGetResponse20sp1 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName collaborateRoomMaximumDurationMinutes
      * @Type int
-     * @Group 1a79c7896cb04feac6eff47a5321756e:20692
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:20692
      * @var int|null
      */
     private $collaborateRoomMaximumDurationMinutes = null;
@@ -43,7 +43,7 @@ class SystemCollaborateGetResponse20sp1 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName supportOutdial
      * @Type bool
-     * @Group 1a79c7896cb04feac6eff47a5321756e:20692
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:20692
      * @var bool|null
      */
     private $supportOutdial = null;
@@ -51,7 +51,7 @@ class SystemCollaborateGetResponse20sp1 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName maxCollaborateRoomParticipants
      * @Type int
-     * @Group 1a79c7896cb04feac6eff47a5321756e:20692
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:20692
      * @var int|null
      */
     private $maxCollaborateRoomParticipants = null;
@@ -59,7 +59,7 @@ class SystemCollaborateGetResponse20sp1 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName collaborateActiveTalkerRefreshIntervalSeconds
      * @Type int
-     * @Group 1a79c7896cb04feac6eff47a5321756e:20692
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:20692
      * @var int|null
      */
     private $collaborateActiveTalkerRefreshIntervalSeconds = null;
@@ -67,7 +67,7 @@ class SystemCollaborateGetResponse20sp1 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName terminateCollaborateAfterGracePeriod
      * @Type bool
-     * @Group 1a79c7896cb04feac6eff47a5321756e:20692
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:20692
      * @var bool|null
      */
     private $terminateCollaborateAfterGracePeriod = null;
@@ -75,7 +75,7 @@ class SystemCollaborateGetResponse20sp1 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName collaborateGracePeriod
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CollaborateGracePeriodDuration
-     * @Group 1a79c7896cb04feac6eff47a5321756e:20692
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:20692
      * @var \CWM\BroadWorksConnector\Ocip\Models\CollaborateGracePeriodDuration|null
      */
     private $collaborateGracePeriod = null;
@@ -83,7 +83,7 @@ class SystemCollaborateGetResponse20sp1 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName enableActiveCollaborateNotification
      * @Type bool
-     * @Group 1a79c7896cb04feac6eff47a5321756e:20692
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:20692
      * @var bool|null
      */
     private $enableActiveCollaborateNotification = null;
@@ -92,7 +92,7 @@ class SystemCollaborateGetResponse20sp1 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName collaborateFromAddress
      * @Type string
      * @Optional
-     * @Group 1a79c7896cb04feac6eff47a5321756e:20692
+     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:20692
      * @var string|null
      */
     private $collaborateFromAddress = null;

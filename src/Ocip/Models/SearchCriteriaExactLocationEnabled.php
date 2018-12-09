@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Criteria for searching for a particular Location enabled state.
  *
- * @Groups [{"id":"d37849f5e289836ccd316323a7a3799a:887","type":"sequence"}]
+ * @Groups [{"id":"e446bfcbd1f39cbef57d1547014f2bb9:887","type":"sequence"}]
  */
 class SearchCriteriaExactLocationEnabled extends SearchCriteria
 {
@@ -15,7 +15,7 @@ class SearchCriteriaExactLocationEnabled extends SearchCriteria
     /**
      * @ElementName enabled
      * @Type bool
-     * @Group d37849f5e289836ccd316323a7a3799a:887
+     * @Group e446bfcbd1f39cbef57d1547014f2bb9:887
      * @var bool|null
      */
     private $enabled = null;

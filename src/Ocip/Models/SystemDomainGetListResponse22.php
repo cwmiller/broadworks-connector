@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The following elements are only used in AS and XS data mode and not returned in Amplify data mode:
  *           systemDefaultDomain
  *
- * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:7977","type":"sequence"}]
+ * @Groups [{"id":"b5f5416d9e71f8e4246cda16c4723744:7977","type":"sequence"}]
  */
 class SystemDomainGetListResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,7 +19,7 @@ class SystemDomainGetListResponse22 extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName systemDefaultDomain
      * @Type string
      * @Optional
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:7977
+     * @Group b5f5416d9e71f8e4246cda16c4723744:7977
      * @var string|null
      */
     private $systemDefaultDomain = null;
@@ -27,7 +27,7 @@ class SystemDomainGetListResponse22 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName domainTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:7977
+     * @Group b5f5416d9e71f8e4246cda16c4723744:7977
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $domainTable = null;

@@ -42,7 +42,8 @@ use CWM\BroadWorksConnector\Ocip\Models\UserCollaborateRoomIDRegenerateResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserCollaborateRoomListGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserCollaborateRoomListGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserCollaborateRoomModifyRequest;
-use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceCollaborate
@@ -52,6 +53,7 @@ trait OCISchemaServiceCollaborate
      * @param GroupCollaborateBridgeAddInstanceRequest20sp1 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCollaborateBridgeAddInstanceRequest20sp1(\CWM\BroadWorksConnector\Ocip\Models\GroupCollaborateBridgeAddInstanceRequest20sp1 $request)
     {
@@ -62,6 +64,7 @@ trait OCISchemaServiceCollaborate
      * @param GroupCollaborateBridgeConsolidatedAddInstanceRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCollaborateBridgeConsolidatedAddInstanceRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCollaborateBridgeConsolidatedAddInstanceRequest $request)
     {
@@ -72,6 +75,7 @@ trait OCISchemaServiceCollaborate
      * @param GroupCollaborateBridgeConsolidatedDeleteInstanceRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCollaborateBridgeConsolidatedDeleteInstanceRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCollaborateBridgeConsolidatedDeleteInstanceRequest $request)
     {
@@ -82,6 +86,7 @@ trait OCISchemaServiceCollaborate
      * @param GroupCollaborateBridgeConsolidatedModifyInstanceRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCollaborateBridgeConsolidatedModifyInstanceRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCollaborateBridgeConsolidatedModifyInstanceRequest $request)
     {
@@ -92,6 +97,7 @@ trait OCISchemaServiceCollaborate
      * @param GroupCollaborateBridgeDeleteInstanceRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCollaborateBridgeDeleteInstanceRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCollaborateBridgeDeleteInstanceRequest $request)
     {
@@ -102,6 +108,7 @@ trait OCISchemaServiceCollaborate
      * @param GroupCollaborateBridgeGetAvailableUserListRequest $request
      * @return GroupCollaborateBridgeGetAvailableUserListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCollaborateBridgeGetAvailableUserListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCollaborateBridgeGetAvailableUserListRequest $request)
     {
@@ -112,6 +119,7 @@ trait OCISchemaServiceCollaborate
      * @param GroupCollaborateBridgeGetInstanceListRequest $request
      * @return GroupCollaborateBridgeGetInstanceListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCollaborateBridgeGetInstanceListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCollaborateBridgeGetInstanceListRequest $request)
     {
@@ -122,6 +130,7 @@ trait OCISchemaServiceCollaborate
      * @param GroupCollaborateBridgeGetInstanceRequest20sp1 $request
      * @return GroupCollaborateBridgeGetInstanceResponse20sp1
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCollaborateBridgeGetInstanceRequest20sp1(\CWM\BroadWorksConnector\Ocip\Models\GroupCollaborateBridgeGetInstanceRequest20sp1 $request)
     {
@@ -132,6 +141,7 @@ trait OCISchemaServiceCollaborate
      * @param GroupCollaborateBridgeModifyInstanceRequest20sp1 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function groupCollaborateBridgeModifyInstanceRequest20sp1(\CWM\BroadWorksConnector\Ocip\Models\GroupCollaborateBridgeModifyInstanceRequest20sp1 $request)
     {
@@ -142,6 +152,7 @@ trait OCISchemaServiceCollaborate
      * @param SystemCollaborateGetRequest20sp1V2 $request
      * @return SystemCollaborateGetResponse20sp1V2
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemCollaborateGetRequest20sp1V2(\CWM\BroadWorksConnector\Ocip\Models\SystemCollaborateGetRequest20sp1V2 $request)
     {
@@ -152,6 +163,7 @@ trait OCISchemaServiceCollaborate
      * @param SystemCollaborateModifyRequest20sp1V2 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemCollaborateModifyRequest20sp1V2(\CWM\BroadWorksConnector\Ocip\Models\SystemCollaborateModifyRequest20sp1V2 $request)
     {
@@ -162,6 +174,7 @@ trait OCISchemaServiceCollaborate
      * @param UserCollaborateBridgeGetRequest20sp1 $request
      * @return UserCollaborateBridgeGetResponse20sp1
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userCollaborateBridgeGetRequest20sp1(\CWM\BroadWorksConnector\Ocip\Models\UserCollaborateBridgeGetRequest20sp1 $request)
     {
@@ -172,6 +185,7 @@ trait OCISchemaServiceCollaborate
      * @param UserCollaborateDeleteRoomRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userCollaborateDeleteRoomRequest(\CWM\BroadWorksConnector\Ocip\Models\UserCollaborateDeleteRoomRequest $request)
     {
@@ -182,6 +196,7 @@ trait OCISchemaServiceCollaborate
      * @param UserCollaborateInstantRoomAddRequest $request
      * @return UserCollaborateInstantRoomAddResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userCollaborateInstantRoomAddRequest(\CWM\BroadWorksConnector\Ocip\Models\UserCollaborateInstantRoomAddRequest $request)
     {
@@ -192,6 +207,7 @@ trait OCISchemaServiceCollaborate
      * @param UserCollaborateInstantRoomGetRequest $request
      * @return UserCollaborateInstantRoomGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userCollaborateInstantRoomGetRequest(\CWM\BroadWorksConnector\Ocip\Models\UserCollaborateInstantRoomGetRequest $request)
     {
@@ -202,6 +218,7 @@ trait OCISchemaServiceCollaborate
      * @param UserCollaborateInstantRoomParametersGetRequest $request
      * @return UserCollaborateInstantRoomParametersGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userCollaborateInstantRoomParametersGetRequest(\CWM\BroadWorksConnector\Ocip\Models\UserCollaborateInstantRoomParametersGetRequest $request)
     {
@@ -212,6 +229,7 @@ trait OCISchemaServiceCollaborate
      * @param UserCollaborateInstantRoomParametersModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userCollaborateInstantRoomParametersModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\UserCollaborateInstantRoomParametersModifyRequest $request)
     {
@@ -222,6 +240,7 @@ trait OCISchemaServiceCollaborate
      * @param UserCollaborateMyRoomGetRequest $request
      * @return UserCollaborateMyRoomGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userCollaborateMyRoomGetRequest(\CWM\BroadWorksConnector\Ocip\Models\UserCollaborateMyRoomGetRequest $request)
     {
@@ -232,6 +251,7 @@ trait OCISchemaServiceCollaborate
      * @param UserCollaborateMyRoomModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userCollaborateMyRoomModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\UserCollaborateMyRoomModifyRequest $request)
     {
@@ -242,6 +262,7 @@ trait OCISchemaServiceCollaborate
      * @param UserCollaborateProjectRoomAddRequest $request
      * @return UserCollaborateProjectRoomAddResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userCollaborateProjectRoomAddRequest(\CWM\BroadWorksConnector\Ocip\Models\UserCollaborateProjectRoomAddRequest $request)
     {
@@ -252,6 +273,7 @@ trait OCISchemaServiceCollaborate
      * @param UserCollaborateProjectRoomGetRequest $request
      * @return UserCollaborateProjectRoomGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userCollaborateProjectRoomGetRequest(\CWM\BroadWorksConnector\Ocip\Models\UserCollaborateProjectRoomGetRequest $request)
     {
@@ -262,6 +284,7 @@ trait OCISchemaServiceCollaborate
      * @param UserCollaborateProjectRoomModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userCollaborateProjectRoomModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\UserCollaborateProjectRoomModifyRequest $request)
     {
@@ -272,6 +295,7 @@ trait OCISchemaServiceCollaborate
      * @param UserCollaborateRoomGetRequest $request
      * @return UserCollaborateRoomGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userCollaborateRoomGetRequest(\CWM\BroadWorksConnector\Ocip\Models\UserCollaborateRoomGetRequest $request)
     {
@@ -282,6 +306,7 @@ trait OCISchemaServiceCollaborate
      * @param UserCollaborateRoomIDRegenerateRequest $request
      * @return UserCollaborateRoomIDRegenerateResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userCollaborateRoomIDRegenerateRequest(\CWM\BroadWorksConnector\Ocip\Models\UserCollaborateRoomIDRegenerateRequest $request)
     {
@@ -292,6 +317,7 @@ trait OCISchemaServiceCollaborate
      * @param UserCollaborateRoomListGetRequest $request
      * @return UserCollaborateRoomListGetResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userCollaborateRoomListGetRequest(\CWM\BroadWorksConnector\Ocip\Models\UserCollaborateRoomListGetRequest $request)
     {
@@ -302,6 +328,7 @@ trait OCISchemaServiceCollaborate
      * @param UserCollaborateRoomModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userCollaborateRoomModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\UserCollaborateRoomModifyRequest $request)
     {

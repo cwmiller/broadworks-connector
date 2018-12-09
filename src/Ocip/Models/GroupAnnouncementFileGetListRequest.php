@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupAnnouncementFileGetListResponse
  * @see ErrorResponse
- * @Groups [{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:1313","type":"sequence"}]
+ * @Groups [{"id":"15129cd25fa2d5581f4edfd652c24f93:1313","type":"sequence"}]
  */
 class GroupAnnouncementFileGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupAnnouncementFileGetListRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:1313
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:1313
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,7 +26,7 @@ class GroupAnnouncementFileGetListRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:1313
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:1313
      * @var string|null
      */
     private $groupId = null;
@@ -35,7 +35,7 @@ class GroupAnnouncementFileGetListRequest extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName announcementFileType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileType
      * @Optional
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:1313
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:1313
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileType|null
      */
     private $announcementFileType = null;
@@ -43,7 +43,7 @@ class GroupAnnouncementFileGetListRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName includeAnnouncementTable
      * @Type bool
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:1313
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:1313
      * @var bool|null
      */
     private $includeAnnouncementTable = null;
@@ -52,7 +52,7 @@ class GroupAnnouncementFileGetListRequest extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:1313
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:1313
      * @var int|null
      */
     private $responseSizeLimit = null;
@@ -62,7 +62,7 @@ class GroupAnnouncementFileGetListRequest extends \CWM\BroadWorksConnector\Ocip\
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaAnnouncementFileName
      * @Array
      * @Optional
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:1313
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:1313
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaAnnouncementFileName[]
      */
     private $searchCriteriaAnnouncementFileName = array(

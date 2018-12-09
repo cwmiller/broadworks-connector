@@ -14,7 +14,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:11214","type":"sequence"}]
+ * @Groups [{"id":"b5f5416d9e71f8e4246cda16c4723744:11214","type":"sequence"}]
  */
 class SystemNetworkSynchingServerModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -22,7 +22,7 @@ class SystemNetworkSynchingServerModifyRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName netAddress
      * @Type string
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:11214
+     * @Group b5f5416d9e71f8e4246cda16c4723744:11214
      * @var string|null
      */
     private $netAddress = null;
@@ -32,7 +32,7 @@ class SystemNetworkSynchingServerModifyRequest extends \CWM\BroadWorksConnector\
      * @Type int
      * @Nillable
      * @Optional
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:11214
+     * @Group b5f5416d9e71f8e4246cda16c4723744:11214
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $port = null;
@@ -42,7 +42,7 @@ class SystemNetworkSynchingServerModifyRequest extends \CWM\BroadWorksConnector\
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:11214
+     * @Group b5f5416d9e71f8e4246cda16c4723744:11214
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $description = null;
@@ -51,7 +51,7 @@ class SystemNetworkSynchingServerModifyRequest extends \CWM\BroadWorksConnector\
      * @ElementName becomePreferred
      * @Type bool
      * @Optional
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:11214
+     * @Group b5f5416d9e71f8e4246cda16c4723744:11214
      * @var bool|null
      */
     private $becomePreferred = null;
@@ -60,7 +60,7 @@ class SystemNetworkSynchingServerModifyRequest extends \CWM\BroadWorksConnector\
      * @ElementName order
      * @Type int
      * @Optional
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:11214
+     * @Group b5f5416d9e71f8e4246cda16c4723744:11214
      * @var int|null
      */
     private $order = null;

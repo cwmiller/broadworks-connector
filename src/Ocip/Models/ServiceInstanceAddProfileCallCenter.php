@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Service Profile Information for a call center.
  *         Password is required.
  *
- * @Groups [{"id":"18b369af88e42ffdb4166615c670ce2c:3133","type":"sequence"}]
+ * @Groups [{"id":"8e629edbac315ae7889caca732382c44:3133","type":"sequence"}]
  */
 class ServiceInstanceAddProfileCallCenter
 {
@@ -16,7 +16,7 @@ class ServiceInstanceAddProfileCallCenter
     /**
      * @ElementName name
      * @Type string
-     * @Group 18b369af88e42ffdb4166615c670ce2c:3133
+     * @Group 8e629edbac315ae7889caca732382c44:3133
      * @var string|null
      */
     private $name = null;
@@ -24,7 +24,7 @@ class ServiceInstanceAddProfileCallCenter
     /**
      * @ElementName callingLineIdLastName
      * @Type string
-     * @Group 18b369af88e42ffdb4166615c670ce2c:3133
+     * @Group 8e629edbac315ae7889caca732382c44:3133
      * @var string|null
      */
     private $callingLineIdLastName = null;
@@ -32,7 +32,7 @@ class ServiceInstanceAddProfileCallCenter
     /**
      * @ElementName callingLineIdFirstName
      * @Type string
-     * @Group 18b369af88e42ffdb4166615c670ce2c:3133
+     * @Group 8e629edbac315ae7889caca732382c44:3133
      * @var string|null
      */
     private $callingLineIdFirstName = null;
@@ -41,7 +41,7 @@ class ServiceInstanceAddProfileCallCenter
      * @ElementName hiraganaLastName
      * @Type string
      * @Optional
-     * @Group 18b369af88e42ffdb4166615c670ce2c:3133
+     * @Group 8e629edbac315ae7889caca732382c44:3133
      * @var string|null
      */
     private $hiraganaLastName = null;
@@ -50,7 +50,7 @@ class ServiceInstanceAddProfileCallCenter
      * @ElementName hiraganaFirstName
      * @Type string
      * @Optional
-     * @Group 18b369af88e42ffdb4166615c670ce2c:3133
+     * @Group 8e629edbac315ae7889caca732382c44:3133
      * @var string|null
      */
     private $hiraganaFirstName = null;
@@ -59,7 +59,7 @@ class ServiceInstanceAddProfileCallCenter
      * @ElementName phoneNumber
      * @Type string
      * @Optional
-     * @Group 18b369af88e42ffdb4166615c670ce2c:3133
+     * @Group 8e629edbac315ae7889caca732382c44:3133
      * @var string|null
      */
     private $phoneNumber = null;
@@ -68,7 +68,7 @@ class ServiceInstanceAddProfileCallCenter
      * @ElementName extension
      * @Type string
      * @Optional
-     * @Group 18b369af88e42ffdb4166615c670ce2c:3133
+     * @Group 8e629edbac315ae7889caca732382c44:3133
      * @var string|null
      */
     private $extension = null;
@@ -76,7 +76,7 @@ class ServiceInstanceAddProfileCallCenter
     /**
      * @ElementName password
      * @Type string
-     * @Group 18b369af88e42ffdb4166615c670ce2c:3133
+     * @Group 8e629edbac315ae7889caca732382c44:3133
      * @var string|null
      */
     private $password = null;
@@ -85,7 +85,7 @@ class ServiceInstanceAddProfileCallCenter
      * @ElementName department
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey
      * @Optional
-     * @Group 18b369af88e42ffdb4166615c670ce2c:3133
+     * @Group 8e629edbac315ae7889caca732382c44:3133
      * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null
      */
     private $department = null;
@@ -94,7 +94,7 @@ class ServiceInstanceAddProfileCallCenter
      * @ElementName language
      * @Type string
      * @Optional
-     * @Group 18b369af88e42ffdb4166615c670ce2c:3133
+     * @Group 8e629edbac315ae7889caca732382c44:3133
      * @var string|null
      */
     private $language = null;
@@ -103,7 +103,7 @@ class ServiceInstanceAddProfileCallCenter
      * @ElementName timeZone
      * @Type string
      * @Optional
-     * @Group 18b369af88e42ffdb4166615c670ce2c:3133
+     * @Group 8e629edbac315ae7889caca732382c44:3133
      * @var string|null
      */
     private $timeZone = null;
@@ -113,7 +113,7 @@ class ServiceInstanceAddProfileCallCenter
      * @Type string
      * @Array
      * @Optional
-     * @Group 18b369af88e42ffdb4166615c670ce2c:3133
+     * @Group 8e629edbac315ae7889caca732382c44:3133
      * @var string[]
      */
     private $alias = array(
@@ -124,7 +124,7 @@ class ServiceInstanceAddProfileCallCenter
      * @ElementName publicUserIdentity
      * @Type string
      * @Optional
-     * @Group 18b369af88e42ffdb4166615c670ce2c:3133
+     * @Group 8e629edbac315ae7889caca732382c44:3133
      * @var string|null
      */
     private $publicUserIdentity = null;
@@ -133,7 +133,7 @@ class ServiceInstanceAddProfileCallCenter
      * @ElementName callingLineIdPhoneNumber
      * @Type string
      * @Optional
-     * @Group 18b369af88e42ffdb4166615c670ce2c:3133
+     * @Group 8e629edbac315ae7889caca732382c44:3133
      * @var string|null
      */
     private $callingLineIdPhoneNumber = null;

@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Call center reporting data template info.
  *
- * @Groups [{"id":"69c2aeb1186dc97a4f4c36d9609ddb49:6656","type":"sequence"}]
+ * @Groups [{"id":"3ac5f05d969bc771d6ba8d344d95aa72:6656","type":"sequence"}]
  */
 class CallCenterReportDataTemplateInfo
 {
@@ -15,7 +15,7 @@ class CallCenterReportDataTemplateInfo
     /**
      * @ElementName dataTemplate
      * @Type string
-     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:6656
+     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:6656
      * @var string|null
      */
     private $dataTemplate = null;
@@ -23,7 +23,7 @@ class CallCenterReportDataTemplateInfo
     /**
      * @ElementName reportType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportType
-     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:6656
+     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:6656
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportType|null
      */
     private $reportType = null;
@@ -31,7 +31,7 @@ class CallCenterReportDataTemplateInfo
     /**
      * @ElementName isRealtimeReport
      * @Type bool
-     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:6656
+     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:6656
      * @var bool|null
      */
     private $isRealtimeReport = null;
@@ -39,7 +39,7 @@ class CallCenterReportDataTemplateInfo
     /**
      * @ElementName isAgentParamRequired
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportDataTemplateInputParameterOption
-     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:6656
+     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:6656
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportDataTemplateInputParameterOption|null
      */
     private $isAgentParamRequired = null;
@@ -47,7 +47,7 @@ class CallCenterReportDataTemplateInfo
     /**
      * @ElementName isCallCenterParamRequired
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportDataTemplateInputParameterOption
-     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:6656
+     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:6656
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportDataTemplateInputParameterOption|null
      */
     private $isCallCenterParamRequired = null;
@@ -55,7 +55,7 @@ class CallCenterReportDataTemplateInfo
     /**
      * @ElementName isCallCenterDnisParamRequired
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportDataTemplateInputParameterOption
-     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:6656
+     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:6656
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportDataTemplateInputParameterOption|null
      */
     private $isCallCenterDnisParamRequired = null;
@@ -63,7 +63,7 @@ class CallCenterReportDataTemplateInfo
     /**
      * @ElementName isSamplingPeriodParamRequired
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportDataTemplateInputParameterOption
-     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:6656
+     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:6656
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportDataTemplateInputParameterOption|null
      */
     private $isSamplingPeriodParamRequired = null;
@@ -71,7 +71,7 @@ class CallCenterReportDataTemplateInfo
     /**
      * @ElementName isCallCompletionThresholdParamRequired
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportDataTemplateInputParameterOption
-     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:6656
+     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:6656
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportDataTemplateInputParameterOption|null
      */
     private $isCallCompletionThresholdParamRequired = null;
@@ -79,7 +79,7 @@ class CallCenterReportDataTemplateInfo
     /**
      * @ElementName isShortDurationThresholdParamRequired
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportDataTemplateInputParameterOption
-     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:6656
+     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:6656
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportDataTemplateInputParameterOption|null
      */
     private $isShortDurationThresholdParamRequired = null;
@@ -87,7 +87,7 @@ class CallCenterReportDataTemplateInfo
     /**
      * @ElementName isServiceLevelThresholdParamRequired
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportDataTemplateInputParameterOption
-     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:6656
+     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:6656
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportDataTemplateInputParameterOption|null
      */
     private $isServiceLevelThresholdParamRequired = null;
@@ -95,7 +95,7 @@ class CallCenterReportDataTemplateInfo
     /**
      * @ElementName isServiceLevelInclusionsParamRequired
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportDataTemplateInputParameterOption
-     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:6656
+     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:6656
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportDataTemplateInputParameterOption|null
      */
     private $isServiceLevelInclusionsParamRequired = null;
@@ -103,7 +103,7 @@ class CallCenterReportDataTemplateInfo
     /**
      * @ElementName isServiceLevelObjectiveThresholdParamRequired
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportDataTemplateInputParameterOption
-     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:6656
+     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:6656
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportDataTemplateInputParameterOption|null
      */
     private $isServiceLevelObjectiveThresholdParamRequired = null;
@@ -111,7 +111,7 @@ class CallCenterReportDataTemplateInfo
     /**
      * @ElementName isAbandonedCallThresholdParamRequired
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportDataTemplateInputParameterOption
-     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:6656
+     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:6656
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportDataTemplateInputParameterOption|null
      */
     private $isAbandonedCallThresholdParamRequired = null;

@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to GroupInventoryReportGetRequest.
  *
  * @see GroupInventoryReportGetRequest
- * @Groups [{"id":"2878f00c36207d82fdd6133ab70c3d87:64","type":"sequence"}]
+ * @Groups [{"id":"b7ea90fba6513b5a795776dbab169f4f:64","type":"sequence"}]
  */
 class GroupInventoryReportGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class GroupInventoryReportGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName inventoryReportTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 2878f00c36207d82fdd6133ab70c3d87:64
+     * @Group b7ea90fba6513b5a795776dbab169f4f:64
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $inventoryReportTable = null;

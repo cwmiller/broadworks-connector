@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"cd03b563fec121b562411c9b734b5953:324","type":"sequence"}]
+ * @Groups [{"id":"584e9b2c2c8a6d282376c11d0e3ab848:324","type":"sequence"}]
  */
 class UserSMDIMessageDeskModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserSMDIMessageDeskModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName userId
      * @Type string
-     * @Group cd03b563fec121b562411c9b734b5953:324
+     * @Group 584e9b2c2c8a6d282376c11d0e3ab848:324
      * @var string|null
      */
     private $userId = null;
@@ -27,7 +27,7 @@ class UserSMDIMessageDeskModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName isActive
      * @Type bool
      * @Optional
-     * @Group cd03b563fec121b562411c9b734b5953:324
+     * @Group 584e9b2c2c8a6d282376c11d0e3ab848:324
      * @var bool|null
      */
     private $isActive = null;
@@ -37,7 +37,7 @@ class UserSMDIMessageDeskModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Type string
      * @Nillable
      * @Optional
-     * @Group cd03b563fec121b562411c9b734b5953:324
+     * @Group 584e9b2c2c8a6d282376c11d0e3ab848:324
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $messageDeskNumber = null;

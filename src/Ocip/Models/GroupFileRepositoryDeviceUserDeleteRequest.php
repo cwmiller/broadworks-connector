@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:4760","type":"sequence"}]
+ * @Groups [{"id":"15129cd25fa2d5581f4edfd652c24f93:4760","type":"sequence"}]
  */
 class GroupFileRepositoryDeviceUserDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupFileRepositoryDeviceUserDeleteRequest extends \CWM\BroadWorksConnecto
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:4760
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:4760
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,7 +26,7 @@ class GroupFileRepositoryDeviceUserDeleteRequest extends \CWM\BroadWorksConnecto
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:4760
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:4760
      * @var string|null
      */
     private $groupId = null;
@@ -34,7 +34,7 @@ class GroupFileRepositoryDeviceUserDeleteRequest extends \CWM\BroadWorksConnecto
     /**
      * @ElementName fileRepositoryName
      * @Type string
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:4760
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:4760
      * @var string|null
      */
     private $fileRepositoryName = null;
@@ -42,7 +42,7 @@ class GroupFileRepositoryDeviceUserDeleteRequest extends \CWM\BroadWorksConnecto
     /**
      * @ElementName userName
      * @Type string
-     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:4760
+     * @Group 15129cd25fa2d5581f4edfd652c24f93:4760
      * @var string|null
      */
     private $userName = null;

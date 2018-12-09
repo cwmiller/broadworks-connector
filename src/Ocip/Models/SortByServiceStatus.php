@@ -17,7 +17,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see GroupUserCallWaitingSettingsGetListRequest
  * @see EnterpriseUserHotelingGuestSettingsGetListRequest
  * @see GroupUserHotelingGuestSettingsGetListRequest
- * @Groups [{"id":"58f663eead958d798597598c4d3ef3e7:478","type":"sequence"}]
+ * @Groups [{"id":"448476806043edb64fb9ce2b7f95cb59:478","type":"sequence"}]
  */
 class SortByServiceStatus extends SortCriteria
 {

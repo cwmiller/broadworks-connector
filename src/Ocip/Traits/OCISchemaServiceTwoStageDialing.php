@@ -10,7 +10,8 @@ use CWM\BroadWorksConnector\Ocip\Models\SystemTwoStageDialingModifyDnRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserTwoStageDialingGetRequest13Mp20;
 use CWM\BroadWorksConnector\Ocip\Models\UserTwoStageDialingGetResponse13Mp20;
 use CWM\BroadWorksConnector\Ocip\Models\UserTwoStageDialingModifyRequest;
-use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceTwoStageDialing
@@ -20,6 +21,7 @@ trait OCISchemaServiceTwoStageDialing
      * @param SystemTwoStageDialingAddDnRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemTwoStageDialingAddDnRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemTwoStageDialingAddDnRequest $request)
     {
@@ -30,6 +32,7 @@ trait OCISchemaServiceTwoStageDialing
      * @param SystemTwoStageDialingDeleteDnRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemTwoStageDialingDeleteDnRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemTwoStageDialingDeleteDnRequest $request)
     {
@@ -40,6 +43,7 @@ trait OCISchemaServiceTwoStageDialing
      * @param SystemTwoStageDialingGetDnListRequest $request
      * @return SystemTwoStageDialingGetDnListResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemTwoStageDialingGetDnListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemTwoStageDialingGetDnListRequest $request)
     {
@@ -50,6 +54,7 @@ trait OCISchemaServiceTwoStageDialing
      * @param SystemTwoStageDialingModifyDnRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function systemTwoStageDialingModifyDnRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemTwoStageDialingModifyDnRequest $request)
     {
@@ -60,6 +65,7 @@ trait OCISchemaServiceTwoStageDialing
      * @param UserTwoStageDialingGetRequest13Mp20 $request
      * @return UserTwoStageDialingGetResponse13Mp20
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userTwoStageDialingGetRequest13Mp20(\CWM\BroadWorksConnector\Ocip\Models\UserTwoStageDialingGetRequest13Mp20 $request)
     {
@@ -70,6 +76,7 @@ trait OCISchemaServiceTwoStageDialing
      * @param UserTwoStageDialingModifyRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
+     * @throws ValidationException
      */
     public function userTwoStageDialingModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\UserTwoStageDialingModifyRequest $request)
     {

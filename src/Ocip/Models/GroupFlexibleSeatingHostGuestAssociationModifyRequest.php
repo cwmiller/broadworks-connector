@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"26a62df68b13c020e844e2a188f1e6e1:259","type":"sequence"}]
+ * @Groups [{"id":"93e99b1f9cf4a71b31301a1fe7f0e190:259","type":"sequence"}]
  */
 class GroupFlexibleSeatingHostGuestAssociationModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class GroupFlexibleSeatingHostGuestAssociationModifyRequest extends \CWM\BroadWo
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group 26a62df68b13c020e844e2a188f1e6e1:259
+     * @Group 93e99b1f9cf4a71b31301a1fe7f0e190:259
      * @var string|null
      */
     private $serviceUserId = null;
@@ -28,7 +28,7 @@ class GroupFlexibleSeatingHostGuestAssociationModifyRequest extends \CWM\BroadWo
      * @ElementName enforceAssociationLimit
      * @Type bool
      * @Optional
-     * @Group 26a62df68b13c020e844e2a188f1e6e1:259
+     * @Group 93e99b1f9cf4a71b31301a1fe7f0e190:259
      * @var bool|null
      */
     private $enforceAssociationLimit = null;
@@ -37,7 +37,7 @@ class GroupFlexibleSeatingHostGuestAssociationModifyRequest extends \CWM\BroadWo
      * @ElementName associationLimitHours
      * @Type int
      * @Optional
-     * @Group 26a62df68b13c020e844e2a188f1e6e1:259
+     * @Group 93e99b1f9cf4a71b31301a1fe7f0e190:259
      * @var int|null
      */
     private $associationLimitHours = null;
@@ -46,7 +46,7 @@ class GroupFlexibleSeatingHostGuestAssociationModifyRequest extends \CWM\BroadWo
      * @ElementName accessLevel
      * @Type \CWM\BroadWorksConnector\Ocip\Models\FlexibleSeatingHostAccessLevel
      * @Optional
-     * @Group 26a62df68b13c020e844e2a188f1e6e1:259
+     * @Group 93e99b1f9cf4a71b31301a1fe7f0e190:259
      * @var \CWM\BroadWorksConnector\Ocip\Models\FlexibleSeatingHostAccessLevel|null
      */
     private $accessLevel = null;
@@ -55,7 +55,7 @@ class GroupFlexibleSeatingHostGuestAssociationModifyRequest extends \CWM\BroadWo
      * @ElementName removeGuestAssociation
      * @Type bool
      * @Optional
-     * @Group 26a62df68b13c020e844e2a188f1e6e1:259
+     * @Group 93e99b1f9cf4a71b31301a1fe7f0e190:259
      * @var bool|null
      */
     private $removeGuestAssociation = null;

@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:9490","type":"sequence"}]
+ * @Groups [{"id":"b5f5416d9e71f8e4246cda16c4723744:9490","type":"sequence"}]
  */
 class SystemGETSSessionPriorityMapDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemGETSSessionPriorityMapDeleteRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName priorityLevel
      * @Type int
-     * @Group 610f84d3e188f0477c3ae1a82ee036da:9490
+     * @Group b5f5416d9e71f8e4246cda16c4723744:9490
      * @var int|null
      */
     private $priorityLevel = null;

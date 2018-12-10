@@ -5,22 +5,22 @@ namespace CWM\BroadWorksConnector\Ocip;
 class TcpTransport implements ITransport
 {
     /** @var string */
-    private $host;
+    private $url;
 
-    /** @var int */
-    private $port;
+    /** @var array */
+    private $sslOptions;
 
     /** @var resource */
     private $socket;
 
     /**
-     * @param string $host
-     * @param int $port
+     * @param string $url
+     * @param array $sslOptions
      */
-    public function __construct($host, $port = 2208)
+    public function __construct($url, array $sslOptions)
     {
-        $this->host = $host;
-        $this->port = $port;
+        $this->url = $url;
+        $this->sslOptions = $sslOptions;
     }
 
     /**
@@ -31,23 +31,25 @@ class TcpTransport implements ITransport
     public function send($request)
     {
         if ($this->socket === null) {
-            $address = gethostbyname($this->host);
+            $context = stream_context_create([
+                'ssl' => $this->sslOptions
+            ]);
 
-            $this->socket = socket_create(AF_INET, SOCK_STREAM, SOL_TCP);
+            $this->socket = stream_socket_client($this->url, $errno, $errstr, 30, STREAM_CLIENT_CONNECT, $context);
 
-            if ($this->socket === false) {
-                throw new \RuntimeException('Unable to create socket: ' . socket_strerror(socket_last_error($this->socket)));
+            if ($errno !== 0) {
+                throw new \RuntimeException('Unable to create socket: ' . $errstr);
             }
 
-            if (!socket_connect($this->socket, $address, $this->port)) {
-                throw new \RuntimeException('Unable to connect: ' . socket_strerror(socket_last_error($this->socket)));
+            if (!$this->socket) {
+                throw new \RuntimeException('Unable to create socket.');
             }
         }
 
-        socket_write($this->socket, $request, strlen($request));
-
         $response = '';
-        while ($bytes = socket_read($this->socket, 2048)) {
+
+        while (!feof($this->socket)) {
+            $bytes = fgets($this->socket, 1024);
             $response .= $bytes;
 
             if (strpos($response, "</BroadsoftDocument>\n") !== false) {
@@ -55,23 +57,6 @@ class TcpTransport implements ITransport
             }
         }
 
-
         return trim($response);
-    }
-
-    /**
-     * @return string
-     */
-    public function getHost()
-    {
-        return $this->host;
-    }
-
-    /**
-     * @return int
-     */
-    public function getPort()
-    {
-        return $this->port;
     }
 }

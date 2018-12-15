@@ -346,7 +346,27 @@ class OcipClient
                 $this->transport = new SoapTransport($url, $this->options->getSoapClientOptions());
                 break;
             case 'tcp':
-                $this->transport = new TcpTransport($parsedUrl['host'], isset($parsedUrl['port']) ? $parsedUrl['port'] : 2208);
+                if (!isset($parsedUrl['port'])) {
+                    $parsedUrl['port'] = 2208;
+                }
+
+                $this->transport = new TcpTransport(
+                    sprintf('%s://%s:%d', $parsedUrl['scheme'], $parsedUrl['host'], $parsedUrl['port']),
+                    []
+                );
+                break;
+            case 'ssl':
+            case 'sslv2':
+            case 'sslv3':
+            case 'tls':
+                if (!isset($parsedUrl['port'])) {
+                    $parsedUrl['port'] = 2209;
+                }
+
+                $this->transport = new TcpTransport(
+                    sprintf('%s://%s:%d', $parsedUrl['scheme'], $parsedUrl['host'], $parsedUrl['port']),
+                    $this->options->getSslOptions()
+                );
                 break;
             default:
                 throw new \InvalidArgumentException('Unsupported scheme ' . $parsedUrl['scheme']);

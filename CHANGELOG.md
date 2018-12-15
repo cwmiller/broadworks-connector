@@ -1,8 +1,12 @@
 # Changelog
 
+## [2.2.0] - 2018-12-15
+### Added
+- SSL support for TCP connections. 
+
 ## [2.1.2] - 2018-11-22
 ### Fixed
-- Chance of BadResponseException being thrown randomly when using TCP due to not accounting for the newline that follows a response.
+- Chance of `BadResponseException` being thrown randomly when using TCP due to not accounting for the newline that follows a response.
 
 ## [2.1.1] - 2018-11-12
 ### Changed
@@ -41,6 +45,7 @@
 ### Added
 - `OcipClient` now exposes helper methods for every request object.
 
+[2.2.0]: https://github.com/cwmiller/broadworks-connector/compare/2.1.2...2.2.0
 [2.1.2]: https://github.com/cwmiller/broadworks-connector/compare/2.1.1...2.1.2
 [2.1.1]: https://github.com/cwmiller/broadworks-connector/compare/2.1.0...2.1.1
 [2.1.0]: https://github.com/cwmiller/broadworks-connector/compare/2.0.3...2.1.0

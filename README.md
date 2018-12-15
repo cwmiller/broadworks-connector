@@ -26,6 +26,9 @@ $ocip = new OcipClient('https://your-service-provider-portal.com/webservice/serv
 // .. or if connecting via TCP:
 //$ocip = new OcipClient('tcp://your-service-provider-portal.com:2208', 'portal-username', 'portal-password');
 
+// .. or if connecting via TCP+SSL/TLS:
+//$ocip = new OcipClient('tls://your-service-provider-portal.com:2209', 'portal-username', 'portal-password');
+
 // In this example, a single request is made to get all users in a group.
 
 $request1 = (new UserGetListInGroupRequest())

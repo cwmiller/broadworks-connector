@@ -14,6 +14,12 @@ class Options
         'cache_wsdl' => WSDL_CACHE_MEMORY,
     ];
 
+    private $sslOptions = [
+        'verify_peer' => true,
+        'verify_peer_name' => true,
+        'allow_self_signed' => false
+    ];
+
     /**
      * @return string
      */
@@ -49,10 +55,33 @@ class Options
      * Options to set on the SoapClient instance when using SOAP for OCI.
      *
      * @see SoapClient
+     * @see http://php.net/manual/en/soapclient.soapclient.php
      * @param array $soapClientOptions
      */
     public function setSoapClientOptions($soapClientOptions)
     {
         $this->soapClientOptions = $soapClientOptions;
+    }
+
+    /**
+     * @return array
+     */
+    public function getSslOptions()
+    {
+        return $this->sslOptions;
+    }
+
+    /**
+     * SSL options to set on the stream context when using SOAP over TCP+SSL
+     *
+     * @see http://php.net/manual/en/context.ssl.php
+     *
+     * @param array $sslOptions
+     * @return Options
+     */
+    public function setSslOptions($sslOptions)
+    {
+        $this->sslOptions = $sslOptions;
+        return $this;
     }
 }

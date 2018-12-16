@@ -21,14 +21,14 @@ class OcipTest extends \PHPUnit\Framework\TestCase
 
     public function testTcpTransport()
     {
-        $ocip = new OcipClient('tcp://test.com:8080', 'username', 'password');
+        $ocip = new OcipClient('tcp://test.com:2209', 'username', 'password');
         $this->assertInstanceOf('\\CWM\\BroadWorksConnector\\Ocip\TcpTransport', $ocip->getTransport());
+    }
 
-        /** @var TcpTransport $transport */
-        $transport = $ocip->getTransport();
-
-        $this->assertEquals('test.com', $transport->getHost());
-        $this->assertEquals(8080, $transport->getPort());
+    public function testSslTransport()
+    {
+        $ocip = new OcipClient('tls://test.com:2209', 'username', 'password');
+        $this->assertInstanceOf('\\CWM\\BroadWorksConnector\\Ocip\TcpTransport', $ocip->getTransport());
     }
 
     public function testUnhandledScheme()

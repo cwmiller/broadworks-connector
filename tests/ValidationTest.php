@@ -3,9 +3,13 @@
 namespace CWM\BroadWorksConnector\Tests;
 
 use CWM\BroadWorksConnector\Ocip\Models\C\OCIMessage;
+use CWM\BroadWorksConnector\Ocip\Models\GroupAccessDeviceGetListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\LoginRequest14sp4;
 use CWM\BroadWorksConnector\Ocip\Models\LoginResponse14sp4;
 use CWM\BroadWorksConnector\Ocip\Models\LoginType;
+use CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceMACAddress;
+use CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceName;
+use CWM\BroadWorksConnector\Ocip\Models\SearchMode;
 use CWM\BroadWorksConnector\Ocip\Models\SystemGetRegistrationContactListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserModifyRequest16Endpoint;
 use CWM\BroadWorksConnector\Ocip\Validation\Validator;
@@ -23,16 +27,16 @@ class ValidationTest extends \PHPUnit\Framework\TestCase
             $this->setExpectedException('CWM\BroadWorksConnector\Ocip\Validation\FieldNotSetException');
         }
 
-        $instance = new LoginRequest14sp4();
-        Validator::validate($instance);
+        $request = new LoginRequest14sp4();
+        Validator::validate($request);
     }
 
     public function testRequirementMet()
     {
-        $instance = (new LoginRequest14sp4())
+        $request = (new LoginRequest14sp4())
             ->setUserId('username');
 
-        $this->assertEquals(true, Validator::validate($instance));
+        $this->assertEquals(true, Validator::validate($request));
     }
 
     public function testChoiceNotMet()
@@ -44,9 +48,9 @@ class ValidationTest extends \PHPUnit\Framework\TestCase
             $this->setExpectedException('CWM\BroadWorksConnector\Ocip\Validation\ChoiceNotSetException');
         }
 
-        $instance = new UserModifyRequest16Endpoint();
+        $request = new UserModifyRequest16Endpoint();
 
-        Validator::validate($instance);
+        Validator::validate($request);
     }
 
     public function testMultipleChoiceSelections()
@@ -58,19 +62,19 @@ class ValidationTest extends \PHPUnit\Framework\TestCase
             $this->setExpectedException('CWM\BroadWorksConnector\Ocip\Validation\InvalidChoiceException');
         }
 
-        $instance = (new SystemGetRegistrationContactListRequest())
+        $request = (new SystemGetRegistrationContactListRequest())
             ->setResellerId('reseller')
             ->setServiceProviderId('serviceProvider');
 
-        Validator::validate($instance);
+        Validator::validate($request);
     }
 
     public function testSequenceSetInChoice()
     {
-        $instance = (new SystemGetRegistrationContactListRequest())
+        $request = (new SystemGetRegistrationContactListRequest())
             ->setGroupId('group');
 
-        $this->assertEquals(true, Validator::validate($instance));
+        $this->assertEquals(true, Validator::validate($request));
     }
 
     public function testMultipleChoiceWithSequenceSequence()
@@ -82,17 +86,56 @@ class ValidationTest extends \PHPUnit\Framework\TestCase
             $this->setExpectedException('CWM\BroadWorksConnector\Ocip\Validation\InvalidChoiceException');
         }
 
-        $instance = (new SystemGetRegistrationContactListRequest())
+        $request = (new SystemGetRegistrationContactListRequest())
             ->setGroupId('group')
             ->setResellerId('reseller');
 
-        Validator::validate($instance);
+        Validator::validate($request);
     }
 
     public function testOptionalGroup()
     {
-        $instance = new SystemGetRegistrationContactListRequest();
+        $request = new SystemGetRegistrationContactListRequest();
 
-        $this->assertEquals(true, Validator::validate($instance));
+        $this->assertEquals(true, Validator::validate($request));
+    }
+
+    public function testIncompleteObjectInArray()
+    {
+        // setExpectedException is gone from phpunit 5
+        if (method_exists($this, 'expectException')) {
+            $this->expectException('CWM\BroadWorksConnector\Ocip\Validation\FieldNotSetException');
+        } else {
+            $this->setExpectedException('CWM\BroadWorksConnector\Ocip\Validation\FieldNotSetException');
+        }
+
+        $request = (new GroupAccessDeviceGetListRequest())
+            ->setServiceProviderId('SP')
+            ->setGroupId('G')
+            ->setSearchCriteriaDeviceMACAddress(
+                [(new SearchCriteriaDeviceMACAddress())
+                    ->setValue('000000000000')]);
+
+        Validator::validate($request);
+    }
+
+    public function testCompletedObjectsInArray()
+    {
+        $request = (new GroupAccessDeviceGetListRequest())
+            ->setServiceProviderId('SP')
+            ->setGroupId('G')
+            ->setSearchCriteriaDeviceMACAddress(
+                [
+                    (new SearchCriteriaDeviceMACAddress())
+                    ->setIsCaseInsensitive(false)
+                    ->setMode(SearchMode::EQUAL_TO())
+                    ->setValue('000000000000'),
+                    (new SearchCriteriaDeviceName())
+                        ->setIsCaseInsensitive(false)
+                        ->setMode(SearchMode::EQUAL_TO())
+                        ->setValue('test')
+                ]);
+
+        $this->assertEquals(true, Validator::validate($request));
     }
 }

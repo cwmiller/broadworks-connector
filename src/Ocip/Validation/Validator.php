@@ -3,6 +3,7 @@
 namespace CWM\BroadWorksConnector\Ocip\Validation;
 
 use CWM\BroadWorksConnector\ReflectionUtils;
+use MyCLabs\Enum\Enum;
 use ReflectionClass;
 
 class Validator
@@ -13,6 +14,7 @@ class Validator
      * @throws \InvalidArgumentException
      * @throws \ReflectionException
      * @throws ValidationException
+     * @throws ConfigurationNotFoundException
      */
     public static function validate($instance)
     {
@@ -28,8 +30,17 @@ class Validator
         foreach ($class->getProperties() as $property) {
             $property->setAccessible(true);
             $value = $property->getValue($instance);
-            if (($value !== null) && is_object($value)) {
+
+            // Enums are technically an object, but we should skip over them.
+            // They already do their own validation on construction.
+            if (is_object($value) && !($value instanceof Enum)) {
                 self::validate($value);
+            } else if (is_array($value)) {
+                foreach ($value as $element) {
+                    if (is_object($element) && !($element instanceof Enum)) {
+                        self::validate($element);
+                    }
+                }
             }
         }
 
@@ -41,6 +52,7 @@ class Validator
      * @return Group[]
      * @throws \InvalidArgumentException
      * @throws \ReflectionException
+     * @throws ConfigurationNotFoundException
      */
     private static function getGroups($instance)
     {

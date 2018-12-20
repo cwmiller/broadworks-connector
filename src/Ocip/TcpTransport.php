@@ -46,6 +46,8 @@ class TcpTransport implements ITransport
             }
         }
 
+        fwrite($this->socket, $request, strlen($request));
+
         $response = '';
 
         while (!feof($this->socket)) {

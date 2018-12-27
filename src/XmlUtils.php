@@ -48,7 +48,7 @@ class XmlUtils
                     preg_match('/@param (.*) \$/', $docblock, $matches);
                     if (isset($matches[1])) {
                         $types = array_filter(explode('|', $matches[1]), function ($type) {
-                            return $type !== 'null';
+                            return $type !== 'null' && $type !== '\CWM\BroadWorksConnector\Ocip\Nil';
                         });
 
                         if (count($types) > 0) {

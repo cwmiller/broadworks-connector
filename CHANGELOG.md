@@ -1,5 +1,9 @@
 # Changelog
 
+## [2.2.2] - 2018-12-27
+### Fixed
+- Nillable properties on response objects were incorrectly getting set to an instance of Nil when they shouldn't have been.
+
 ## [2.2.1] - 2018-12-19
 ### Fixed
 - `TcpTransport` was not sending requests to the server after connecting. 
@@ -49,6 +53,7 @@
 ### Added
 - `OcipClient` now exposes helper methods for every request object.
 
+[2.2.2]: https://github.com/cwmiller/broadworks-connector/compare/2.2.1...2.2.2
 [2.2.1]: https://github.com/cwmiller/broadworks-connector/compare/2.2.0...2.2.1
 [2.2.0]: https://github.com/cwmiller/broadworks-connector/compare/2.1.2...2.2.0
 [2.1.2]: https://github.com/cwmiller/broadworks-connector/compare/2.1.1...2.1.2

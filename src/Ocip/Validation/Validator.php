@@ -2,6 +2,7 @@
 
 namespace CWM\BroadWorksConnector\Ocip\Validation;
 
+use CWM\BroadWorksConnector\Ocip\Nil;
 use CWM\BroadWorksConnector\ReflectionUtils;
 use MyCLabs\Enum\Enum;
 use ReflectionClass;
@@ -33,11 +34,11 @@ class Validator
 
             // Enums are technically an object, but we should skip over them.
             // They already do their own validation on construction.
-            if (is_object($value) && !($value instanceof Enum)) {
+            if (is_object($value) && !($value instanceof Enum) && !($value instanceof Nil)) {
                 self::validate($value);
             } else if (is_array($value)) {
                 foreach ($value as $element) {
-                    if (is_object($element) && !($element instanceof Enum)) {
+                    if (is_object($element) && !($element instanceof Enum) && !($element instanceof Nil)) {
                         self::validate($element);
                     }
                 }

@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to GroupAccessDeviceGetAvailableDetailListRequest19.
  *
  * @see GroupAccessDeviceGetAvailableDetailListRequest19
- * @Groups [{"id":"15129cd25fa2d5581f4edfd652c24f93:569","type":"sequence","children":[{"id":"15129cd25fa2d5581f4edfd652c24f93:573","type":"sequence"}]}]
+ * @Groups [{"id":"15129cd25fa2d5581f4edfd652c24f93:569","type":"sequence"}]
  */
 class GroupAccessDeviceGetAvailableDetailListResponse19 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

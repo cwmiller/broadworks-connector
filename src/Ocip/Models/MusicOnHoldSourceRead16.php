@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *     
  *       Replaced by: MusicOnHoldSourceRead19.
  *
- * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:39371","type":"sequence","children":[{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:39377","type":"sequence"},{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:39388","type":"sequence"}]}]
+ * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:39371","type":"sequence"}]
  */
 class MusicOnHoldSourceRead16
 {

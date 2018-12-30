@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to GroupFlexibleSeatingAccessDeviceGetListRequest
  *
  * @see GroupFlexibleSeatingAccessDeviceGetListRequest
- * @Groups [{"id":"93e99b1f9cf4a71b31301a1fe7f0e190:76","type":"sequence","children":[{"id":"93e99b1f9cf4a71b31301a1fe7f0e190:80","type":"sequence"}]}]
+ * @Groups [{"id":"93e99b1f9cf4a71b31301a1fe7f0e190:76","type":"sequence"}]
  */
 class GroupFlexibleSeatingAccessDeviceGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

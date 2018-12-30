@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Contains the music on hold user source configuration.
  *
- * @Groups [{"id":"130a60503dce5611168ce780c0797cc9:365","type":"sequence","children":[{"id":"130a60503dce5611168ce780c0797cc9:370","type":"sequence"}]}]
+ * @Groups [{"id":"130a60503dce5611168ce780c0797cc9:365","type":"sequence"}]
  */
 class MusicOnHoldUserSourceRead20
 {

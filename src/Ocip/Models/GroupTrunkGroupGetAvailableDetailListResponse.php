@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to GroupTrunkGroupGetAvailableDetailListRequest.
  *
  * @see GroupTrunkGroupGetAvailableDetailListRequest
- * @Groups [{"id":"15129cd25fa2d5581f4edfd652c24f93:7002","type":"sequence","children":[{"id":"15129cd25fa2d5581f4edfd652c24f93:7006","type":"sequence"}]}]
+ * @Groups [{"id":"15129cd25fa2d5581f4edfd652c24f93:7002","type":"sequence"}]
  */
 class GroupTrunkGroupGetAvailableDetailListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

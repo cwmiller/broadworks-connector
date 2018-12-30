@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Collaborate room schedule.
  *
- * @Groups [{"id":"8e629edbac315ae7889caca732382c44:786","type":"sequence","children":[{"id":"8e629edbac315ae7889caca732382c44:787","type":"choice","children":[{"id":"8e629edbac315ae7889caca732382c44:791","type":"sequence"},{"id":"8e629edbac315ae7889caca732382c44:800","type":"sequence"},{"id":"8e629edbac315ae7889caca732382c44:809","type":"sequence"}]}]}]
+ * @Groups [{"id":"8e629edbac315ae7889caca732382c44:786","type":"sequence","children":[{"id":"8e629edbac315ae7889caca732382c44:787","type":"choice"}]}]
  */
 class CollaborateRoomSchedule
 {

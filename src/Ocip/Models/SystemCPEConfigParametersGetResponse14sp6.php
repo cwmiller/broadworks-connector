@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemCPEConfigParametersGetListRequest14sp6
  * @see SystemCPEConfigParametersGetResponse20
- * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:21325","type":"sequence","children":[{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:21332","type":"choice","children":[{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:21337","type":"sequence"},{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:21346","type":"sequence"}]}]}]
+ * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:21325","type":"sequence","children":[{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:21332","type":"choice"}]}]
  */
 class SystemCPEConfigParametersGetResponse14sp6 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

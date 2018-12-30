@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"54d69397476ad35e338e87eedfeefacf:72","type":"sequence","children":[{"id":"54d69397476ad35e338e87eedfeefacf:75","type":"choice","children":[{"id":"54d69397476ad35e338e87eedfeefacf:80","type":"sequence"}]}]}]
+ * @Groups [{"id":"54d69397476ad35e338e87eedfeefacf:72","type":"sequence","children":[{"id":"54d69397476ad35e338e87eedfeefacf:75","type":"choice"}]}]
  */
 class UserAuthenticationModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

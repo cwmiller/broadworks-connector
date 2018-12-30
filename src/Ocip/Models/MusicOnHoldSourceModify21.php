@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The following elements are only used in AS data mode and ignored in HSS data mode:
  *           announcementMediaFiles
  *
- * @Groups [{"id":"8e629edbac315ae7889caca732382c44:2315","type":"sequence","children":[{"id":"8e629edbac315ae7889caca732382c44:2318","type":"choice","optional":true,"children":[{"id":"8e629edbac315ae7889caca732382c44:2322","type":"sequence"},{"id":"8e629edbac315ae7889caca732382c44:2331","type":"sequence"}]},{"id":"8e629edbac315ae7889caca732382c44:2341","type":"sequence"}]}]
+ * @Groups [{"id":"8e629edbac315ae7889caca732382c44:2315","type":"sequence","children":[{"id":"8e629edbac315ae7889caca732382c44:2318","type":"choice","optional":true}]}]
  */
 class MusicOnHoldSourceModify21
 {

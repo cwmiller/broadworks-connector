@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SuccessResponse
  * @see ErrorResponse
  * @see UserModifyRequest16
- * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:36472","type":"sequence","children":[{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:36492","type":"choice"}]}]
+ * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:36472","type":"sequence"}]
  */
 class UserModifyRequest14sp9 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

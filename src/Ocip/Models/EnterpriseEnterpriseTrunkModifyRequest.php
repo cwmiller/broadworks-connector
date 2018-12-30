@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"762df656d5a3c5800001b37599b1e4ce:418","type":"sequence","children":[{"id":"762df656d5a3c5800001b37599b1e4ce:425","type":"choice","optional":true,"children":[{"id":"762df656d5a3c5800001b37599b1e4ce:429","type":"sequence"},{"id":"762df656d5a3c5800001b37599b1e4ce:438","type":"sequence"}]}]}]
+ * @Groups [{"id":"762df656d5a3c5800001b37599b1e4ce:418","type":"sequence","children":[{"id":"762df656d5a3c5800001b37599b1e4ce:425","type":"choice","optional":true}]}]
  */
 class EnterpriseEnterpriseTrunkModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

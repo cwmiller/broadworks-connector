@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Contains the music on hold source configuration.
  *         Replaced by: MusicOnHoldSourceModify21
  *
- * @Groups [{"id":"bb12a3589ab4748963f28f7ac9310f70:6099","type":"sequence","children":[{"id":"bb12a3589ab4748963f28f7ac9310f70:6105","type":"sequence"},{"id":"bb12a3589ab4748963f28f7ac9310f70:6114","type":"sequence"}]}]
+ * @Groups [{"id":"bb12a3589ab4748963f28f7ac9310f70:6099","type":"sequence"}]
  */
 class MusicOnHoldSourceModify20
 {

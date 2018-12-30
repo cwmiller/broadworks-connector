@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:13999","type":"sequence","children":[{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:14010","type":"choice","children":[{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:14014","type":"sequence"},{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:14023","type":"sequence"}]}]}]
+ * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:13999","type":"sequence","children":[{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:14010","type":"choice"}]}]
  */
 class GroupTrunkGroupUserCreationTaskAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"ee3830ce42f01a3ef2a105d473fc3b17:667","type":"sequence","children":[{"id":"ee3830ce42f01a3ef2a105d473fc3b17:669","type":"choice","children":[{"id":"ee3830ce42f01a3ef2a105d473fc3b17:674","type":"sequence"}]}]}]
+ * @Groups [{"id":"ee3830ce42f01a3ef2a105d473fc3b17:667","type":"sequence","children":[{"id":"ee3830ce42f01a3ef2a105d473fc3b17:669","type":"choice"}]}]
  */
 class UserCallLogsClearRequest14sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

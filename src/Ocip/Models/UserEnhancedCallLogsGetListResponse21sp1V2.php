@@ -16,7 +16,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserEnhancedCallLogsGetListRequest21sp1V2
  * @see UserEnhancedCallLogsGetListRequest21sp1V2
- * @Groups [{"id":"bb12a3589ab4748963f28f7ac9310f70:5084","type":"sequence","children":[{"id":"bb12a3589ab4748963f28f7ac9310f70:5086","type":"choice","children":[{"id":"bb12a3589ab4748963f28f7ac9310f70:5090","type":"sequence"},{"id":"bb12a3589ab4748963f28f7ac9310f70:5098","type":"sequence"}]}]}]
+ * @Groups [{"id":"bb12a3589ab4748963f28f7ac9310f70:5084","type":"sequence","children":[{"id":"bb12a3589ab4748963f28f7ac9310f70:5086","type":"choice"}]}]
  */
 class UserEnhancedCallLogsGetListResponse21sp1V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

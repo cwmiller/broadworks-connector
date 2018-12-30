@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupEnterpriseTrunkGetRequest
  * @see GroupEnterpriseTrunkGetResponse21
- * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:8073","type":"sequence","children":[{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:8077","type":"choice","children":[{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:8081","type":"sequence"},{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:8090","type":"sequence"}]}]}]
+ * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:8073","type":"sequence","children":[{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:8077","type":"choice"}]}]
  */
 class GroupEnterpriseTrunkGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

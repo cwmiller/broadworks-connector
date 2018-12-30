@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"584e9b2c2c8a6d282376c11d0e3ab848:200","type":"sequence","children":[{"id":"584e9b2c2c8a6d282376c11d0e3ab848:205","type":"sequence"}]}]
+ * @Groups [{"id":"584e9b2c2c8a6d282376c11d0e3ab848:200","type":"sequence"}]
  */
 class SystemSMDIMessageDeskModifyServerRouteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

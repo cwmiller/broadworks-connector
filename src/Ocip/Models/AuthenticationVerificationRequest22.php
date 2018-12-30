@@ -16,7 +16,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see AuthenticationVerificationRequest
  * @see AuthenticationVerificationRequest22V2
- * @Groups [{"id":"bd46fc427b2b0dc182dcd53cf03e95b4:73","type":"sequence","children":[{"id":"bd46fc427b2b0dc182dcd53cf03e95b4:74","type":"choice","children":[{"id":"bd46fc427b2b0dc182dcd53cf03e95b4:78","type":"sequence"},{"id":"bd46fc427b2b0dc182dcd53cf03e95b4:88","type":"sequence"},{"id":"bd46fc427b2b0dc182dcd53cf03e95b4:96","type":"sequence"}]}]}]
+ * @Groups [{"id":"bd46fc427b2b0dc182dcd53cf03e95b4:73","type":"sequence","children":[{"id":"bd46fc427b2b0dc182dcd53cf03e95b4:74","type":"choice"}]}]
  */
 class AuthenticationVerificationRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

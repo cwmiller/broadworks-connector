@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to GroupEnterpriseTrunkGetRequest21.
  *
  * @see GroupEnterpriseTrunkGetRequest21
- * @Groups [{"id":"762df656d5a3c5800001b37599b1e4ce:716","type":"sequence","children":[{"id":"762df656d5a3c5800001b37599b1e4ce:720","type":"choice","children":[{"id":"762df656d5a3c5800001b37599b1e4ce:724","type":"sequence"},{"id":"762df656d5a3c5800001b37599b1e4ce:733","type":"sequence"}]}]}]
+ * @Groups [{"id":"762df656d5a3c5800001b37599b1e4ce:716","type":"sequence","children":[{"id":"762df656d5a3c5800001b37599b1e4ce:720","type":"choice"}]}]
  */
 class GroupEnterpriseTrunkGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

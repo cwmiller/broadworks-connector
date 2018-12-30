@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"8eb862aea0ee5d4211db0a0d3fe7c164:5438","type":"sequence","children":[{"id":"8eb862aea0ee5d4211db0a0d3fe7c164:5441","type":"choice","children":[{"id":"8eb862aea0ee5d4211db0a0d3fe7c164:5446","type":"sequence"}]}]}]
+ * @Groups [{"id":"8eb862aea0ee5d4211db0a0d3fe7c164:5438","type":"sequence","children":[{"id":"8eb862aea0ee5d4211db0a0d3fe7c164:5441","type":"choice"}]}]
  */
 class ServiceProviderServicePackMigrationTaskModifyGroupListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

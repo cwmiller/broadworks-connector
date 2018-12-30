@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SessionStartRequest
  * @see SessionStartRequest22
- * @Groups [{"id":"bd46fc427b2b0dc182dcd53cf03e95b4:537","type":"sequence","children":[{"id":"bd46fc427b2b0dc182dcd53cf03e95b4:538","type":"choice","children":[{"id":"bd46fc427b2b0dc182dcd53cf03e95b4:542","type":"sequence"}]}]}]
+ * @Groups [{"id":"bd46fc427b2b0dc182dcd53cf03e95b4:537","type":"sequence","children":[{"id":"bd46fc427b2b0dc182dcd53cf03e95b4:538","type":"choice"}]}]
  */
 class SessionStartRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

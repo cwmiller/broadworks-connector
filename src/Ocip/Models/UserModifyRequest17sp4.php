@@ -20,7 +20,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"ee3830ce42f01a3ef2a105d473fc3b17:2025","type":"sequence","children":[{"id":"ee3830ce42f01a3ef2a105d473fc3b17:2046","type":"choice"}]}]
+ * @Groups [{"id":"ee3830ce42f01a3ef2a105d473fc3b17:2025","type":"sequence"}]
  */
 class UserModifyRequest17sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SuccessResponse
  * @see ErrorResponse
  * @see EnterpriseEnterpriseTrunkAddRequest21
- * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:1338","type":"sequence","children":[{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:1344","type":"choice","children":[{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:1348","type":"sequence"},{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:1357","type":"sequence"}]}]}]
+ * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:1338","type":"sequence","children":[{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:1344","type":"choice"}]}]
  */
 class EnterpriseEnterpriseTrunkAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

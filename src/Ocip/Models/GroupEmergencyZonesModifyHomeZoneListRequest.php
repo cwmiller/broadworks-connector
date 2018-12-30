@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"d7882d78f308b028a917e52a926dc22c:153","type":"sequence","children":[{"id":"d7882d78f308b028a917e52a926dc22c:159","type":"sequence"},{"id":"d7882d78f308b028a917e52a926dc22c:168","type":"sequence"}]}]
+ * @Groups [{"id":"d7882d78f308b028a917e52a926dc22c:153","type":"sequence"}]
  */
 class GroupEmergencyZonesModifyHomeZoneListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

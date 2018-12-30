@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemDeviceTypeGetAvailableListRequest19
  * @see SystemDeviceTypeGetAvailableListResponse22
- * @Groups [{"id":"bd46fc427b2b0dc182dcd53cf03e95b4:733","type":"sequence","children":[{"id":"bd46fc427b2b0dc182dcd53cf03e95b4:738","type":"sequence"}]}]
+ * @Groups [{"id":"bd46fc427b2b0dc182dcd53cf03e95b4:733","type":"sequence"}]
  */
 class SystemDeviceTypeGetAvailableListResponse19 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

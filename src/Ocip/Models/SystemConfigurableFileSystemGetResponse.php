@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains the File System parameters.
  *
  * @see SystemConfigurableFileSystemGetRequest
- * @Groups [{"id":"b5f5416d9e71f8e4246cda16c4723744:5866","type":"sequence","children":[{"id":"b5f5416d9e71f8e4246cda16c4723744:5868","type":"choice","children":[{"id":"b5f5416d9e71f8e4246cda16c4723744:5872","type":"sequence"},{"id":"b5f5416d9e71f8e4246cda16c4723744:5880","type":"sequence"}]}]}]
+ * @Groups [{"id":"b5f5416d9e71f8e4246cda16c4723744:5866","type":"sequence","children":[{"id":"b5f5416d9e71f8e4246cda16c4723744:5868","type":"choice"}]}]
  */
 class SystemConfigurableFileSystemGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

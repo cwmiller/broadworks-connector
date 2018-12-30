@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Defines recurrence.
  *
- * @Groups [{"id":"8e629edbac315ae7889caca732382c44:2602","type":"sequence","children":[{"id":"8e629edbac315ae7889caca732382c44:2603","type":"choice","children":[{"id":"8e629edbac315ae7889caca732382c44:2607","type":"sequence"},{"id":"8e629edbac315ae7889caca732382c44:2615","type":"sequence"},{"id":"8e629edbac315ae7889caca732382c44:2630","type":"sequence"},{"id":"8e629edbac315ae7889caca732382c44:2639","type":"sequence"},{"id":"8e629edbac315ae7889caca732382c44:2649","type":"sequence"},{"id":"8e629edbac315ae7889caca732382c44:2659","type":"sequence"}]},{"id":"8e629edbac315ae7889caca732382c44:2668","type":"choice"}]}]
+ * @Groups [{"id":"8e629edbac315ae7889caca732382c44:2602","type":"sequence","children":[{"id":"8e629edbac315ae7889caca732382c44:2603","type":"choice"},{"id":"8e629edbac315ae7889caca732382c44:2668","type":"choice"}]}]
  */
 class Recurrence
 {

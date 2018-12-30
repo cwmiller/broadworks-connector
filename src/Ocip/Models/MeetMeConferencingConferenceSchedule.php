@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Conference schedule.
  *
- * @Groups [{"id":"7a29c84abb8473449085e6657fc6948d:919","type":"sequence","children":[{"id":"7a29c84abb8473449085e6657fc6948d:920","type":"choice","children":[{"id":"7a29c84abb8473449085e6657fc6948d:924","type":"sequence"},{"id":"7a29c84abb8473449085e6657fc6948d:933","type":"sequence"},{"id":"7a29c84abb8473449085e6657fc6948d:942","type":"sequence"}]}]}]
+ * @Groups [{"id":"7a29c84abb8473449085e6657fc6948d:919","type":"sequence","children":[{"id":"7a29c84abb8473449085e6657fc6948d:920","type":"choice"}]}]
  */
 class MeetMeConferencingConferenceSchedule
 {

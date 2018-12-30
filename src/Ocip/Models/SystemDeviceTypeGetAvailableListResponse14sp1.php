@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemDeviceTypeGetAvailableListRequest14sp1
  * @see SystemDeviceTypeGetAvailableListResponse14sp3
- * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:21634","type":"sequence","children":[{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:21639","type":"sequence"}]}]
+ * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:21634","type":"sequence"}]
  */
 class SystemDeviceTypeGetAvailableListResponse14sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"b5f5416d9e71f8e4246cda16c4723744:5903","type":"sequence","children":[{"id":"b5f5416d9e71f8e4246cda16c4723744:5905","type":"choice","optional":true,"children":[{"id":"b5f5416d9e71f8e4246cda16c4723744:5909","type":"sequence"},{"id":"b5f5416d9e71f8e4246cda16c4723744:5917","type":"sequence"}]}]}]
+ * @Groups [{"id":"b5f5416d9e71f8e4246cda16c4723744:5903","type":"sequence","children":[{"id":"b5f5416d9e71f8e4246cda16c4723744:5905","type":"choice","optional":true}]}]
  */
 class SystemConfigurableFileSystemModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

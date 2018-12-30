@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SuccessResponse
  * @see ErrorResponse
  * @see SystemCPEConfigParametersModifyRequest20
- * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:21390","type":"sequence","children":[{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:21397","type":"choice","optional":true,"children":[{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:21402","type":"sequence"},{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:21411","type":"sequence"}]}]}]
+ * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:21390","type":"sequence","children":[{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:21397","type":"choice","optional":true}]}]
  */
 class SystemCPEConfigParametersModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

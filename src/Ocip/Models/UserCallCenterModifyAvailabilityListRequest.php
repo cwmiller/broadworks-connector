@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SuccessResponse
  * @see ErrorResponse
  * @see UserCallCenterModifyRequest17sp4
- * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:32830","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:6669","type":"sequence"}]
  */
 class UserCallCenterModifyAvailabilityListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,7 +21,7 @@ class UserCallCenterModifyAvailabilityListRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName userId
      * @Type string
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:32830
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:6669
      * @var string|null
      */
     private $userId = null;
@@ -31,7 +31,7 @@ class UserCallCenterModifyAvailabilityListRequest extends \CWM\BroadWorksConnect
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAgentAvailability
      * @Array
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:32830
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:6669
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAgentAvailability[]
      */
     private $callCenterAvailability = array(

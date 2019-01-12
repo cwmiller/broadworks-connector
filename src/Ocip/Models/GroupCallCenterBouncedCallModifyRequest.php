@@ -7,10 +7,19 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Modify a call center's bounced call settings.
  *         The response is either a SuccessResponse or an ErrorResponse.
+ *         
+ *         The following elements are only used in AS data mode and ignored in XS data mode:
+ *           enableTransfer
+ *           transferPhoneNumber
+ *           bounceCallWhenAgentUnavailable
+ *           alertCallCenterCallOnHold
+ *           alertCallCenterCallOnHoldSeconds
+ *           bounceCallCenterCallOnHold
+ *           bounceCallCenterCallOnHoldSeconds
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"3ac5f05d969bc771d6ba8d344d95aa72:2434","type":"sequence"}]
+ * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:2770","type":"sequence"}]
  */
 class GroupCallCenterBouncedCallModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +27,7 @@ class GroupCallCenterBouncedCallModifyRequest extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:2434
+     * @Group e2c537e3e39483b96620673a7012ffdd:2770
      * @var string|null
      */
     private $serviceUserId = null;
@@ -27,7 +36,7 @@ class GroupCallCenterBouncedCallModifyRequest extends \CWM\BroadWorksConnector\O
      * @ElementName isActive
      * @Type bool
      * @Optional
-     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:2434
+     * @Group e2c537e3e39483b96620673a7012ffdd:2770
      * @var bool|null
      */
     private $isActive = null;
@@ -36,7 +45,7 @@ class GroupCallCenterBouncedCallModifyRequest extends \CWM\BroadWorksConnector\O
      * @ElementName numberOfRingsBeforeBouncingCall
      * @Type int
      * @Optional
-     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:2434
+     * @Group e2c537e3e39483b96620673a7012ffdd:2770
      * @var int|null
      */
     private $numberOfRingsBeforeBouncingCall = null;
@@ -45,7 +54,7 @@ class GroupCallCenterBouncedCallModifyRequest extends \CWM\BroadWorksConnector\O
      * @ElementName enableTransfer
      * @Type bool
      * @Optional
-     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:2434
+     * @Group e2c537e3e39483b96620673a7012ffdd:2770
      * @var bool|null
      */
     private $enableTransfer = null;
@@ -55,7 +64,7 @@ class GroupCallCenterBouncedCallModifyRequest extends \CWM\BroadWorksConnector\O
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:2434
+     * @Group e2c537e3e39483b96620673a7012ffdd:2770
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $transferPhoneNumber = null;
@@ -64,7 +73,7 @@ class GroupCallCenterBouncedCallModifyRequest extends \CWM\BroadWorksConnector\O
      * @ElementName bounceCallWhenAgentUnavailable
      * @Type bool
      * @Optional
-     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:2434
+     * @Group e2c537e3e39483b96620673a7012ffdd:2770
      * @var bool|null
      */
     private $bounceCallWhenAgentUnavailable = null;
@@ -73,7 +82,7 @@ class GroupCallCenterBouncedCallModifyRequest extends \CWM\BroadWorksConnector\O
      * @ElementName alertCallCenterCallOnHold
      * @Type bool
      * @Optional
-     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:2434
+     * @Group e2c537e3e39483b96620673a7012ffdd:2770
      * @var bool|null
      */
     private $alertCallCenterCallOnHold = null;
@@ -82,7 +91,7 @@ class GroupCallCenterBouncedCallModifyRequest extends \CWM\BroadWorksConnector\O
      * @ElementName alertCallCenterCallOnHoldSeconds
      * @Type int
      * @Optional
-     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:2434
+     * @Group e2c537e3e39483b96620673a7012ffdd:2770
      * @var int|null
      */
     private $alertCallCenterCallOnHoldSeconds = null;
@@ -91,7 +100,7 @@ class GroupCallCenterBouncedCallModifyRequest extends \CWM\BroadWorksConnector\O
      * @ElementName bounceCallCenterCallOnHold
      * @Type bool
      * @Optional
-     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:2434
+     * @Group e2c537e3e39483b96620673a7012ffdd:2770
      * @var bool|null
      */
     private $bounceCallCenterCallOnHold = null;
@@ -100,7 +109,7 @@ class GroupCallCenterBouncedCallModifyRequest extends \CWM\BroadWorksConnector\O
      * @ElementName bounceCallCenterCallOnHoldSeconds
      * @Type int
      * @Optional
-     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:2434
+     * @Group e2c537e3e39483b96620673a7012ffdd:2770
      * @var int|null
      */
     private $bounceCallCenterCallOnHoldSeconds = null;

@@ -9,10 +9,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either SuccessResponse or ErrorResponse.
  *         If the agentUserIdList is used for Skill Based Premium call centers, 
  *         the agents will be set to skill level 1.
+ *         
+ *         The following element is only used in AS data mode and ignored in XS data mode:
+ *           skilledAgentUserIdList
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"3ac5f05d969bc771d6ba8d344d95aa72:4440","type":"sequence","children":[{"id":"3ac5f05d969bc771d6ba8d344d95aa72:4442","type":"choice"}]}]
+ * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:4990","type":"sequence","children":[{"id":"e2c537e3e39483b96620673a7012ffdd:4992","type":"choice"}]}]
  */
 class GroupCallCenterModifyAgentListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +23,7 @@ class GroupCallCenterModifyAgentListRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:4440
+     * @Group e2c537e3e39483b96620673a7012ffdd:4990
      * @var string|null
      */
     private $serviceUserId = null;
@@ -30,7 +33,7 @@ class GroupCallCenterModifyAgentListRequest extends \CWM\BroadWorksConnector\Oci
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList
      * @Nillable
      * @Optional
-     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:4442
+     * @Group e2c537e3e39483b96620673a7012ffdd:4992
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $agentUserIdList = null;
@@ -40,7 +43,7 @@ class GroupCallCenterModifyAgentListRequest extends \CWM\BroadWorksConnector\Oci
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterReplacementSkilledAgents
      * @Array
      * @Optional
-     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:4442
+     * @Group e2c537e3e39483b96620673a7012ffdd:4992
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterReplacementSkilledAgents[]
      */
     private $skilledAgentUserIdList = array(

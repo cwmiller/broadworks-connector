@@ -6,14 +6,18 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserGetLoginInfoRequest22
  *
  * UserGetLoginInfoRequest22 is used to access login information for a user
- *         either by a userId, dn or lineport.  The phone number may be any
- *         DN associated with a user.
+ *         either by a userId, dn or lineport.  
+ *         The phone number may be any DN associated with a user.
+ *         The lineport may be any lineport associated with a user.
+ *         
  *         The response is a UserGetLoginInfoResponse22 or an ErrorResponse
+ *         Replaced by UserGetLoginInfoRequest22V2.
  *
  * @see UserGetLoginInfoRequest22
  * @see UserGetLoginInfoResponse22
  * @see ErrorResponse
- * @Groups [{"id":"21fd3c6abc11c44e52803121f7739a76:539","type":"sequence","children":[{"id":"21fd3c6abc11c44e52803121f7739a76:540","type":"choice"}]}]
+ * @see UserGetLoginInfoRequest22V2
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:40930","type":"sequence","children":[{"id":"ab0042aa512abc10edb3c55e4b416b0b:40931","type":"choice"}]}]
  */
 class UserGetLoginInfoRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,7 +25,7 @@ class UserGetLoginInfoRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\O
     /**
      * @ElementName userId
      * @Type string
-     * @Group 21fd3c6abc11c44e52803121f7739a76:540
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:40931
      * @var string|null
      */
     private $userId = null;
@@ -29,7 +33,7 @@ class UserGetLoginInfoRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\O
     /**
      * @ElementName phoneNumber
      * @Type string
-     * @Group 21fd3c6abc11c44e52803121f7739a76:540
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:40931
      * @var string|null
      */
     private $phoneNumber = null;
@@ -37,7 +41,7 @@ class UserGetLoginInfoRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\O
     /**
      * @ElementName linePort
      * @Type string
-     * @Group 21fd3c6abc11c44e52803121f7739a76:540
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:40931
      * @var string|null
      */
     private $linePort = null;

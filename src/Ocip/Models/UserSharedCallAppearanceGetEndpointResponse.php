@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the UserSharedCallAppearanceGetEndpointRequest.
  *
  * @see UserSharedCallAppearanceGetEndpointRequest
- * @Groups [{"id":"cd1bbb4af6c2895f6719cc668c0bbf4f:100","type":"sequence"}]
+ * @Groups [{"id":"524e0d071a229a44af2f953d6b50db35:100","type":"sequence"}]
  */
 class UserSharedCallAppearanceGetEndpointResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class UserSharedCallAppearanceGetEndpointResponse extends \CWM\BroadWorksConnect
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group cd1bbb4af6c2895f6719cc668c0bbf4f:100
+     * @Group 524e0d071a229a44af2f953d6b50db35:100
      * @var bool|null
      */
     private $isActive = null;
@@ -24,7 +24,7 @@ class UserSharedCallAppearanceGetEndpointResponse extends \CWM\BroadWorksConnect
     /**
      * @ElementName allowOrigination
      * @Type bool
-     * @Group cd1bbb4af6c2895f6719cc668c0bbf4f:100
+     * @Group 524e0d071a229a44af2f953d6b50db35:100
      * @var bool|null
      */
     private $allowOrigination = null;
@@ -32,7 +32,7 @@ class UserSharedCallAppearanceGetEndpointResponse extends \CWM\BroadWorksConnect
     /**
      * @ElementName allowTermination
      * @Type bool
-     * @Group cd1bbb4af6c2895f6719cc668c0bbf4f:100
+     * @Group 524e0d071a229a44af2f953d6b50db35:100
      * @var bool|null
      */
     private $allowTermination = null;

@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * The configuration of the automated receptionist greeting
  *         prompt and dialing menu to be used during after business hours.
  *
- * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:38312","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:41820","type":"sequence"}]
  */
 class AutoAttendantReadMenu
 {
@@ -16,7 +16,7 @@ class AutoAttendantReadMenu
     /**
      * @ElementName announcementSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:38312
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:41820
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection|null
      */
     private $announcementSelection = null;
@@ -25,7 +25,7 @@ class AutoAttendantReadMenu
      * @ElementName audioFileDescription
      * @Type string
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:38312
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:41820
      * @var string|null
      */
     private $audioFileDescription = null;
@@ -34,7 +34,7 @@ class AutoAttendantReadMenu
      * @ElementName videoFileDescription
      * @Type string
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:38312
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:41820
      * @var string|null
      */
     private $videoFileDescription = null;
@@ -42,7 +42,7 @@ class AutoAttendantReadMenu
     /**
      * @ElementName enableFirstMenuLevelExtensionDialing
      * @Type bool
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:38312
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:41820
      * @var bool|null
      */
     private $enableFirstMenuLevelExtensionDialing = null;
@@ -52,7 +52,7 @@ class AutoAttendantReadMenu
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantKeyConfiguration
      * @Array
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:38312
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:41820
      * @var \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantKeyConfiguration[]
      */
     private $keyConfiguration = array(

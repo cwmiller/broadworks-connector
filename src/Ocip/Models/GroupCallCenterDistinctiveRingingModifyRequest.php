@@ -8,10 +8,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Modify the distinctive ringing configuration values for call center.
  *         
  *         The response is either a SuccessResponse or an ErrorResponse.
+ *         
+ *         The following element is only used in AS data mode and ignored in XS data mode:
+ *           distinctiveRingingForceDeliveryRingPattern
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"3ac5f05d969bc771d6ba8d344d95aa72:2915","type":"sequence"}]
+ * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:3257","type":"sequence"}]
  */
 class GroupCallCenterDistinctiveRingingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +22,7 @@ class GroupCallCenterDistinctiveRingingModifyRequest extends \CWM\BroadWorksConn
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:2915
+     * @Group e2c537e3e39483b96620673a7012ffdd:3257
      * @var string|null
      */
     private $serviceUserId = null;
@@ -28,7 +31,7 @@ class GroupCallCenterDistinctiveRingingModifyRequest extends \CWM\BroadWorksConn
      * @ElementName distinctiveRingingCallCenterCalls
      * @Type bool
      * @Optional
-     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:2915
+     * @Group e2c537e3e39483b96620673a7012ffdd:3257
      * @var bool|null
      */
     private $distinctiveRingingCallCenterCalls = null;
@@ -37,7 +40,7 @@ class GroupCallCenterDistinctiveRingingModifyRequest extends \CWM\BroadWorksConn
      * @ElementName distinctiveRingingRingPatternForCallCenter
      * @Type \CWM\BroadWorksConnector\Ocip\Models\RingPattern
      * @Optional
-     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:2915
+     * @Group e2c537e3e39483b96620673a7012ffdd:3257
      * @var \CWM\BroadWorksConnector\Ocip\Models\RingPattern|null
      */
     private $distinctiveRingingRingPatternForCallCenter = null;
@@ -46,7 +49,7 @@ class GroupCallCenterDistinctiveRingingModifyRequest extends \CWM\BroadWorksConn
      * @ElementName distinctiveRingingForceDeliveryRingPattern
      * @Type \CWM\BroadWorksConnector\Ocip\Models\RingPattern
      * @Optional
-     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:2915
+     * @Group e2c537e3e39483b96620673a7012ffdd:3257
      * @var \CWM\BroadWorksConnector\Ocip\Models\RingPattern|null
      */
     private $distinctiveRingingForceDeliveryRingPattern = null;

@@ -9,8 +9,12 @@ use CWM\BroadWorksConnector\Ocip\Models\GroupHuntGroupConsolidatedModifyInstance
 use CWM\BroadWorksConnector\Ocip\Models\GroupHuntGroupDeleteInstanceRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupHuntGroupGetAvailableUserListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupHuntGroupGetAvailableUserListResponse;
+use CWM\BroadWorksConnector\Ocip\Models\GroupHuntGroupGetAvailableUserPagedSortedListRequest;
+use CWM\BroadWorksConnector\Ocip\Models\GroupHuntGroupGetAvailableUserPagedSortedListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupHuntGroupGetInstanceListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupHuntGroupGetInstanceListResponse;
+use CWM\BroadWorksConnector\Ocip\Models\GroupHuntGroupGetInstancePagedSortedListRequest;
+use CWM\BroadWorksConnector\Ocip\Models\GroupHuntGroupGetInstancePagedSortedListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupHuntGroupGetInstanceRequest20;
 use CWM\BroadWorksConnector\Ocip\Models\GroupHuntGroupGetInstanceResponse20;
 use CWM\BroadWorksConnector\Ocip\Models\GroupHuntGroupModifyActiveInstanceListRequest;
@@ -93,12 +97,34 @@ trait OCISchemaServiceHuntGroup
     }
 
     /**
+     * @param GroupHuntGroupGetAvailableUserPagedSortedListRequest $request
+     * @return GroupHuntGroupGetAvailableUserPagedSortedListResponse
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function groupHuntGroupGetAvailableUserPagedSortedListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupHuntGroupGetAvailableUserPagedSortedListRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
      * @param GroupHuntGroupGetInstanceListRequest $request
      * @return GroupHuntGroupGetInstanceListResponse
      * @throws ErrorResponseException
      * @throws ValidationException
      */
     public function groupHuntGroupGetInstanceListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupHuntGroupGetInstanceListRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param GroupHuntGroupGetInstancePagedSortedListRequest $request
+     * @return GroupHuntGroupGetInstancePagedSortedListResponse
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function groupHuntGroupGetInstancePagedSortedListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupHuntGroupGetInstancePagedSortedListRequest $request)
     {
         return $this->call($request);
     }

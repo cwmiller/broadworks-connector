@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to GroupFlexibleSeatingHostGuestAssociationGetRequest.
  *
  * @see GroupFlexibleSeatingHostGuestAssociationGetRequest
- * @Groups [{"id":"93e99b1f9cf4a71b31301a1fe7f0e190:234","type":"sequence"}]
+ * @Groups [{"id":"43afb2158d313a1d1a148124d7caba1e:233","type":"sequence"}]
  */
 class GroupFlexibleSeatingHostGuestAssociationGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class GroupFlexibleSeatingHostGuestAssociationGetResponse extends \CWM\BroadWork
     /**
      * @ElementName enforceAssociationLimit
      * @Type bool
-     * @Group 93e99b1f9cf4a71b31301a1fe7f0e190:234
+     * @Group 43afb2158d313a1d1a148124d7caba1e:233
      * @var bool|null
      */
     private $enforceAssociationLimit = null;
@@ -24,7 +24,7 @@ class GroupFlexibleSeatingHostGuestAssociationGetResponse extends \CWM\BroadWork
     /**
      * @ElementName associationLimitHours
      * @Type int
-     * @Group 93e99b1f9cf4a71b31301a1fe7f0e190:234
+     * @Group 43afb2158d313a1d1a148124d7caba1e:233
      * @var int|null
      */
     private $associationLimitHours = null;
@@ -32,7 +32,7 @@ class GroupFlexibleSeatingHostGuestAssociationGetResponse extends \CWM\BroadWork
     /**
      * @ElementName accessLevel
      * @Type \CWM\BroadWorksConnector\Ocip\Models\FlexibleSeatingHostAccessLevel
-     * @Group 93e99b1f9cf4a71b31301a1fe7f0e190:234
+     * @Group 43afb2158d313a1d1a148124d7caba1e:233
      * @var \CWM\BroadWorksConnector\Ocip\Models\FlexibleSeatingHostAccessLevel|null
      */
     private $accessLevel = null;
@@ -41,7 +41,7 @@ class GroupFlexibleSeatingHostGuestAssociationGetResponse extends \CWM\BroadWork
      * @ElementName guestLastName
      * @Type string
      * @Optional
-     * @Group 93e99b1f9cf4a71b31301a1fe7f0e190:234
+     * @Group 43afb2158d313a1d1a148124d7caba1e:233
      * @var string|null
      */
     private $guestLastName = null;
@@ -50,7 +50,7 @@ class GroupFlexibleSeatingHostGuestAssociationGetResponse extends \CWM\BroadWork
      * @ElementName guestFirstName
      * @Type string
      * @Optional
-     * @Group 93e99b1f9cf4a71b31301a1fe7f0e190:234
+     * @Group 43afb2158d313a1d1a148124d7caba1e:233
      * @var string|null
      */
     private $guestFirstName = null;
@@ -59,7 +59,7 @@ class GroupFlexibleSeatingHostGuestAssociationGetResponse extends \CWM\BroadWork
      * @ElementName guestPhoneNumber
      * @Type string
      * @Optional
-     * @Group 93e99b1f9cf4a71b31301a1fe7f0e190:234
+     * @Group 43afb2158d313a1d1a148124d7caba1e:233
      * @var string|null
      */
     private $guestPhoneNumber = null;
@@ -68,7 +68,7 @@ class GroupFlexibleSeatingHostGuestAssociationGetResponse extends \CWM\BroadWork
      * @ElementName guestExtension
      * @Type string
      * @Optional
-     * @Group 93e99b1f9cf4a71b31301a1fe7f0e190:234
+     * @Group 43afb2158d313a1d1a148124d7caba1e:233
      * @var string|null
      */
     private $guestExtension = null;
@@ -77,7 +77,7 @@ class GroupFlexibleSeatingHostGuestAssociationGetResponse extends \CWM\BroadWork
      * @ElementName guestLocationDialingCode
      * @Type string
      * @Optional
-     * @Group 93e99b1f9cf4a71b31301a1fe7f0e190:234
+     * @Group 43afb2158d313a1d1a148124d7caba1e:233
      * @var string|null
      */
     private $guestLocationDialingCode = null;
@@ -86,7 +86,7 @@ class GroupFlexibleSeatingHostGuestAssociationGetResponse extends \CWM\BroadWork
      * @ElementName guestAssociationDateTime
      * @Type string
      * @Optional
-     * @Group 93e99b1f9cf4a71b31301a1fe7f0e190:234
+     * @Group 43afb2158d313a1d1a148124d7caba1e:233
      * @var string|null
      */
     private $guestAssociationDateTime = null;

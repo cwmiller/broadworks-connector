@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "Hiragana First Name", "Phone Number", "Extension", "Department", "Email Address".
  *
  * @see GroupFindMeFollowMeAlertingGroupGetAvailableUserListRequest
- * @Groups [{"id":"c81ec650475acb5cc7b075c4582c12ba:153","type":"sequence"}]
+ * @Groups [{"id":"79f226053ee345f2ff4c37c37c8e9114:152","type":"sequence"}]
  */
 class GroupFindMeFollowMeAlertingGroupGetAvailableUserListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class GroupFindMeFollowMeAlertingGroupGetAvailableUserListResponse extends \CWM\
     /**
      * @ElementName userTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group c81ec650475acb5cc7b075c4582c12ba:153
+     * @Group 79f226053ee345f2ff4c37c37c8e9114:152
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $userTable = null;

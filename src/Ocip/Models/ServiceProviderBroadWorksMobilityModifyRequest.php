@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"6536ac9946b3d8422bec81ad9d995e2b:492","type":"sequence"}]
+ * @Groups [{"id":"f7ae3539fd471e995b07dc1bf8836e2d:623","type":"sequence"}]
  */
 class ServiceProviderBroadWorksMobilityModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class ServiceProviderBroadWorksMobilityModifyRequest extends \CWM\BroadWorksConn
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 6536ac9946b3d8422bec81ad9d995e2b:492
+     * @Group f7ae3539fd471e995b07dc1bf8836e2d:623
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,7 +27,7 @@ class ServiceProviderBroadWorksMobilityModifyRequest extends \CWM\BroadWorksConn
      * @ElementName useSettingLevel
      * @Type \CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityServiceProviderSettingLevel
      * @Optional
-     * @Group 6536ac9946b3d8422bec81ad9d995e2b:492
+     * @Group f7ae3539fd471e995b07dc1bf8836e2d:623
      * @var \CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityServiceProviderSettingLevel|null
      */
     private $useSettingLevel = null;
@@ -36,7 +36,7 @@ class ServiceProviderBroadWorksMobilityModifyRequest extends \CWM\BroadWorksConn
      * @ElementName enableLocationServices
      * @Type bool
      * @Optional
-     * @Group 6536ac9946b3d8422bec81ad9d995e2b:492
+     * @Group f7ae3539fd471e995b07dc1bf8836e2d:623
      * @var bool|null
      */
     private $enableLocationServices = null;
@@ -45,7 +45,7 @@ class ServiceProviderBroadWorksMobilityModifyRequest extends \CWM\BroadWorksConn
      * @ElementName enableMSRNLookup
      * @Type bool
      * @Optional
-     * @Group 6536ac9946b3d8422bec81ad9d995e2b:492
+     * @Group f7ae3539fd471e995b07dc1bf8836e2d:623
      * @var bool|null
      */
     private $enableMSRNLookup = null;
@@ -54,7 +54,7 @@ class ServiceProviderBroadWorksMobilityModifyRequest extends \CWM\BroadWorksConn
      * @ElementName enableMobileStateChecking
      * @Type bool
      * @Optional
-     * @Group 6536ac9946b3d8422bec81ad9d995e2b:492
+     * @Group f7ae3539fd471e995b07dc1bf8836e2d:623
      * @var bool|null
      */
     private $enableMobileStateChecking = null;
@@ -63,7 +63,7 @@ class ServiceProviderBroadWorksMobilityModifyRequest extends \CWM\BroadWorksConn
      * @ElementName denyCallOriginations
      * @Type bool
      * @Optional
-     * @Group 6536ac9946b3d8422bec81ad9d995e2b:492
+     * @Group f7ae3539fd471e995b07dc1bf8836e2d:623
      * @var bool|null
      */
     private $denyCallOriginations = null;
@@ -72,7 +72,7 @@ class ServiceProviderBroadWorksMobilityModifyRequest extends \CWM\BroadWorksConn
      * @ElementName denyCallTerminations
      * @Type bool
      * @Optional
-     * @Group 6536ac9946b3d8422bec81ad9d995e2b:492
+     * @Group f7ae3539fd471e995b07dc1bf8836e2d:623
      * @var bool|null
      */
     private $denyCallTerminations = null;
@@ -81,7 +81,7 @@ class ServiceProviderBroadWorksMobilityModifyRequest extends \CWM\BroadWorksConn
      * @ElementName enableAnnouncementSuppression
      * @Type bool
      * @Optional
-     * @Group 6536ac9946b3d8422bec81ad9d995e2b:492
+     * @Group f7ae3539fd471e995b07dc1bf8836e2d:623
      * @var bool|null
      */
     private $enableAnnouncementSuppression = null;
@@ -90,10 +90,47 @@ class ServiceProviderBroadWorksMobilityModifyRequest extends \CWM\BroadWorksConn
      * @ElementName enableInternalCLIDDelivery
      * @Type bool
      * @Optional
-     * @Group 6536ac9946b3d8422bec81ad9d995e2b:492
+     * @Group f7ae3539fd471e995b07dc1bf8836e2d:623
      * @var bool|null
      */
     private $enableInternalCLIDDelivery = null;
+
+    /**
+     * @ElementName enableInternalCLIDDeliveryAccessLocations
+     * @Type bool
+     * @Optional
+     * @Group f7ae3539fd471e995b07dc1bf8836e2d:623
+     * @var bool|null
+     */
+    private $enableInternalCLIDDeliveryAccessLocations = null;
+
+    /**
+     * @ElementName enableEnhancedUnreachableStateChecking
+     * @Type bool
+     * @Optional
+     * @Group f7ae3539fd471e995b07dc1bf8836e2d:623
+     * @var bool|null
+     */
+    private $enableEnhancedUnreachableStateChecking = null;
+
+    /**
+     * @ElementName enableNetworkCallBarringStatusCheck
+     * @Type bool
+     * @Optional
+     * @Group f7ae3539fd471e995b07dc1bf8836e2d:623
+     * @var bool|null
+     */
+    private $enableNetworkCallBarringStatusCheck = null;
+
+    /**
+     * @ElementName networkTranslationIndex
+     * @Type string
+     * @Nillable
+     * @Optional
+     * @Group f7ae3539fd471e995b07dc1bf8836e2d:623
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     */
+    private $networkTranslationIndex = null;
 
     /**
      * Getter for serviceProviderId
@@ -371,6 +408,134 @@ class ServiceProviderBroadWorksMobilityModifyRequest extends \CWM\BroadWorksConn
     public function unsetEnableInternalCLIDDelivery()
     {
         $this->enableInternalCLIDDelivery = null;
+        return $this;
+    }
+
+    /**
+     * Getter for enableInternalCLIDDeliveryAccessLocations
+     *
+     * @return bool
+     */
+    public function getEnableInternalCLIDDeliveryAccessLocations()
+    {
+        return $this->enableInternalCLIDDeliveryAccessLocations instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableInternalCLIDDeliveryAccessLocations;
+    }
+
+    /**
+     * Setter for enableInternalCLIDDeliveryAccessLocations
+     *
+     * @param bool $enableInternalCLIDDeliveryAccessLocations
+     * @return $this
+     */
+    public function setEnableInternalCLIDDeliveryAccessLocations($enableInternalCLIDDeliveryAccessLocations)
+    {
+        $this->enableInternalCLIDDeliveryAccessLocations = $enableInternalCLIDDeliveryAccessLocations;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetEnableInternalCLIDDeliveryAccessLocations()
+    {
+        $this->enableInternalCLIDDeliveryAccessLocations = null;
+        return $this;
+    }
+
+    /**
+     * Getter for enableEnhancedUnreachableStateChecking
+     *
+     * @return bool
+     */
+    public function getEnableEnhancedUnreachableStateChecking()
+    {
+        return $this->enableEnhancedUnreachableStateChecking instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableEnhancedUnreachableStateChecking;
+    }
+
+    /**
+     * Setter for enableEnhancedUnreachableStateChecking
+     *
+     * @param bool $enableEnhancedUnreachableStateChecking
+     * @return $this
+     */
+    public function setEnableEnhancedUnreachableStateChecking($enableEnhancedUnreachableStateChecking)
+    {
+        $this->enableEnhancedUnreachableStateChecking = $enableEnhancedUnreachableStateChecking;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetEnableEnhancedUnreachableStateChecking()
+    {
+        $this->enableEnhancedUnreachableStateChecking = null;
+        return $this;
+    }
+
+    /**
+     * Getter for enableNetworkCallBarringStatusCheck
+     *
+     * @return bool
+     */
+    public function getEnableNetworkCallBarringStatusCheck()
+    {
+        return $this->enableNetworkCallBarringStatusCheck instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableNetworkCallBarringStatusCheck;
+    }
+
+    /**
+     * Setter for enableNetworkCallBarringStatusCheck
+     *
+     * @param bool $enableNetworkCallBarringStatusCheck
+     * @return $this
+     */
+    public function setEnableNetworkCallBarringStatusCheck($enableNetworkCallBarringStatusCheck)
+    {
+        $this->enableNetworkCallBarringStatusCheck = $enableNetworkCallBarringStatusCheck;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetEnableNetworkCallBarringStatusCheck()
+    {
+        $this->enableNetworkCallBarringStatusCheck = null;
+        return $this;
+    }
+
+    /**
+     * Getter for networkTranslationIndex
+     *
+     * @return string|null
+     */
+    public function getNetworkTranslationIndex()
+    {
+        return $this->networkTranslationIndex instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->networkTranslationIndex;
+    }
+
+    /**
+     * Setter for networkTranslationIndex
+     *
+     * @param string|null $networkTranslationIndex
+     * @return $this
+     */
+    public function setNetworkTranslationIndex($networkTranslationIndex)
+    {
+        if ($networkTranslationIndex === null) {
+            $this->networkTranslationIndex = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->networkTranslationIndex = $networkTranslationIndex;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetNetworkTranslationIndex()
+    {
+        $this->networkTranslationIndex = null;
         return $this;
     }
 

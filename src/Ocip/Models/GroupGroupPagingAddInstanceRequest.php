@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"756d4171668642e53d80bfcb4d781d63:62","type":"sequence"}]
+ * @Groups [{"id":"0d36df8c109e3ea7324f79031368c661:62","type":"sequence"}]
  */
 class GroupGroupPagingAddInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class GroupGroupPagingAddInstanceRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 756d4171668642e53d80bfcb4d781d63:62
+     * @Group 0d36df8c109e3ea7324f79031368c661:62
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,7 +27,7 @@ class GroupGroupPagingAddInstanceRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 756d4171668642e53d80bfcb4d781d63:62
+     * @Group 0d36df8c109e3ea7324f79031368c661:62
      * @var string|null
      */
     private $groupId = null;
@@ -35,7 +35,7 @@ class GroupGroupPagingAddInstanceRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group 756d4171668642e53d80bfcb4d781d63:62
+     * @Group 0d36df8c109e3ea7324f79031368c661:62
      * @var string|null
      */
     private $serviceUserId = null;
@@ -43,7 +43,7 @@ class GroupGroupPagingAddInstanceRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName serviceInstanceProfile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceAddProfile
-     * @Group 756d4171668642e53d80bfcb4d781d63:62
+     * @Group 0d36df8c109e3ea7324f79031368c661:62
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceAddProfile|null
      */
     private $serviceInstanceProfile = null;
@@ -51,7 +51,7 @@ class GroupGroupPagingAddInstanceRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName confirmationToneTimeoutSeconds
      * @Type int
-     * @Group 756d4171668642e53d80bfcb4d781d63:62
+     * @Group 0d36df8c109e3ea7324f79031368c661:62
      * @var int|null
      */
     private $confirmationToneTimeoutSeconds = null;
@@ -59,7 +59,7 @@ class GroupGroupPagingAddInstanceRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName deliverOriginatorCLIDInstead
      * @Type bool
-     * @Group 756d4171668642e53d80bfcb4d781d63:62
+     * @Group 0d36df8c109e3ea7324f79031368c661:62
      * @var bool|null
      */
     private $deliverOriginatorCLIDInstead = null;
@@ -68,7 +68,7 @@ class GroupGroupPagingAddInstanceRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName originatorCLIDPrefix
      * @Type string
      * @Optional
-     * @Group 756d4171668642e53d80bfcb4d781d63:62
+     * @Group 0d36df8c109e3ea7324f79031368c661:62
      * @var string|null
      */
     private $originatorCLIDPrefix = null;
@@ -77,7 +77,7 @@ class GroupGroupPagingAddInstanceRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName networkClassOfService
      * @Type string
      * @Optional
-     * @Group 756d4171668642e53d80bfcb4d781d63:62
+     * @Group 0d36df8c109e3ea7324f79031368c661:62
      * @var string|null
      */
     private $networkClassOfService = null;

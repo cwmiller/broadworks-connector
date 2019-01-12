@@ -14,7 +14,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"023f6ec367b65a7f37f7a30e155f1985:227","type":"sequence"}]
+ * @Groups [{"id":"26f62134ab1693f4bdddc7c70b20d2eb:278","type":"sequence"}]
  */
 class UserCallNotifyModifyCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -22,7 +22,7 @@ class UserCallNotifyModifyCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName userId
      * @Type string
-     * @Group 023f6ec367b65a7f37f7a30e155f1985:227
+     * @Group 26f62134ab1693f4bdddc7c70b20d2eb:278
      * @var string|null
      */
     private $userId = null;
@@ -30,7 +30,7 @@ class UserCallNotifyModifyCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName criteriaName
      * @Type string
-     * @Group 023f6ec367b65a7f37f7a30e155f1985:227
+     * @Group 26f62134ab1693f4bdddc7c70b20d2eb:278
      * @var string|null
      */
     private $criteriaName = null;
@@ -39,7 +39,7 @@ class UserCallNotifyModifyCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName newCriteriaName
      * @Type string
      * @Optional
-     * @Group 023f6ec367b65a7f37f7a30e155f1985:227
+     * @Group 26f62134ab1693f4bdddc7c70b20d2eb:278
      * @var string|null
      */
     private $newCriteriaName = null;
@@ -49,7 +49,7 @@ class UserCallNotifyModifyCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule
      * @Nillable
      * @Optional
-     * @Group 023f6ec367b65a7f37f7a30e155f1985:227
+     * @Group 26f62134ab1693f4bdddc7c70b20d2eb:278
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $timeSchedule = null;
@@ -58,7 +58,7 @@ class UserCallNotifyModifyCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName fromDnCriteria
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDnModify
      * @Optional
-     * @Group 023f6ec367b65a7f37f7a30e155f1985:227
+     * @Group 26f62134ab1693f4bdddc7c70b20d2eb:278
      * @var \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDnModify|null
      */
     private $fromDnCriteria = null;
@@ -68,7 +68,7 @@ class UserCallNotifyModifyCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\
      * @Type \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule
      * @Nillable
      * @Optional
-     * @Group 023f6ec367b65a7f37f7a30e155f1985:227
+     * @Group 26f62134ab1693f4bdddc7c70b20d2eb:278
      * @var \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $holidaySchedule = null;
@@ -77,7 +77,7 @@ class UserCallNotifyModifyCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName blacklisted
      * @Type bool
      * @Optional
-     * @Group 023f6ec367b65a7f37f7a30e155f1985:227
+     * @Group 26f62134ab1693f4bdddc7c70b20d2eb:278
      * @var bool|null
      */
     private $blacklisted = null;
@@ -87,7 +87,7 @@ class UserCallNotifyModifyCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementCallToNumberList
      * @Nillable
      * @Optional
-     * @Group 023f6ec367b65a7f37f7a30e155f1985:227
+     * @Group 26f62134ab1693f4bdddc7c70b20d2eb:278
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementCallToNumberList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $callToNumberList = null;

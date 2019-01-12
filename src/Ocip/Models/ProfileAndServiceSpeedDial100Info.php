@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * This is the configuration parameters for Speed Dial 100 service
  *
- * @Groups [{"id":"ee3830ce42f01a3ef2a105d473fc3b17:3775","type":"sequence"}]
+ * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:4162","type":"sequence"}]
  */
 class ProfileAndServiceSpeedDial100Info
 {
@@ -16,7 +16,7 @@ class ProfileAndServiceSpeedDial100Info
      * @ElementName prefix
      * @Type string
      * @Optional
-     * @Group ee3830ce42f01a3ef2a105d473fc3b17:3775
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:4162
      * @var string|null
      */
     private $prefix = null;
@@ -26,7 +26,7 @@ class ProfileAndServiceSpeedDial100Info
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SpeedDial100Entry
      * @Array
      * @Optional
-     * @Group ee3830ce42f01a3ef2a105d473fc3b17:3775
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:4162
      * @var \CWM\BroadWorksConnector\Ocip\Models\SpeedDial100Entry[]
      */
     private $speedDialEntry = array(

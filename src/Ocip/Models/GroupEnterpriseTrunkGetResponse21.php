@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to GroupEnterpriseTrunkGetRequest21.
  *
  * @see GroupEnterpriseTrunkGetRequest21
- * @Groups [{"id":"762df656d5a3c5800001b37599b1e4ce:716","type":"sequence","children":[{"id":"762df656d5a3c5800001b37599b1e4ce:720","type":"choice"}]}]
+ * @Groups [{"id":"b9c14e2d80e4e7749688ca13ba233b44:716","type":"sequence","children":[{"id":"b9c14e2d80e4e7749688ca13ba233b44:720","type":"choice"}]}]
  */
 class GroupEnterpriseTrunkGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class GroupEnterpriseTrunkGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName maximumRerouteAttempts
      * @Type int
-     * @Group 762df656d5a3c5800001b37599b1e4ce:716
+     * @Group b9c14e2d80e4e7749688ca13ba233b44:716
      * @var int|null
      */
     private $maximumRerouteAttempts = null;
@@ -24,7 +24,7 @@ class GroupEnterpriseTrunkGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName routeExhaustionAction
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EnterpriseTrunkRouteExhaustionAction
-     * @Group 762df656d5a3c5800001b37599b1e4ce:716
+     * @Group b9c14e2d80e4e7749688ca13ba233b44:716
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseTrunkRouteExhaustionAction|null
      */
     private $routeExhaustionAction = null;
@@ -33,7 +33,7 @@ class GroupEnterpriseTrunkGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName routeExhaustionForwardAddress
      * @Type string
      * @Optional
-     * @Group 762df656d5a3c5800001b37599b1e4ce:716
+     * @Group b9c14e2d80e4e7749688ca13ba233b44:716
      * @var string|null
      */
     private $routeExhaustionForwardAddress = null;
@@ -41,7 +41,7 @@ class GroupEnterpriseTrunkGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName orderedRouting
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupEnterpriseTrunkGetResponse21OrderedRouting
-     * @Group 762df656d5a3c5800001b37599b1e4ce:720
+     * @Group b9c14e2d80e4e7749688ca13ba233b44:720
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupEnterpriseTrunkGetResponse21OrderedRouting|null
      */
     private $orderedRouting = null;
@@ -49,7 +49,7 @@ class GroupEnterpriseTrunkGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName priorityWeightedRouting
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupEnterpriseTrunkGetResponse21PriorityWeightedRouting
-     * @Group 762df656d5a3c5800001b37599b1e4ce:720
+     * @Group b9c14e2d80e4e7749688ca13ba233b44:720
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupEnterpriseTrunkGetResponse21PriorityWeightedRouting|null
      */
     private $priorityWeightedRouting = null;
@@ -57,7 +57,7 @@ class GroupEnterpriseTrunkGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName enableCapacityManagement
      * @Type bool
-     * @Group 762df656d5a3c5800001b37599b1e4ce:716
+     * @Group b9c14e2d80e4e7749688ca13ba233b44:716
      * @var bool|null
      */
     private $enableCapacityManagement = null;
@@ -66,7 +66,7 @@ class GroupEnterpriseTrunkGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName maxActiveCalls
      * @Type int
      * @Optional
-     * @Group 762df656d5a3c5800001b37599b1e4ce:716
+     * @Group b9c14e2d80e4e7749688ca13ba233b44:716
      * @var int|null
      */
     private $maxActiveCalls = null;
@@ -75,7 +75,7 @@ class GroupEnterpriseTrunkGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName capacityExceededTrapInitialCalls
      * @Type int
      * @Optional
-     * @Group 762df656d5a3c5800001b37599b1e4ce:716
+     * @Group b9c14e2d80e4e7749688ca13ba233b44:716
      * @var int|null
      */
     private $capacityExceededTrapInitialCalls = null;
@@ -84,7 +84,7 @@ class GroupEnterpriseTrunkGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName capacityExceededTrapOffsetCalls
      * @Type int
      * @Optional
-     * @Group 762df656d5a3c5800001b37599b1e4ce:716
+     * @Group b9c14e2d80e4e7749688ca13ba233b44:716
      * @var int|null
      */
     private $capacityExceededTrapOffsetCalls = null;

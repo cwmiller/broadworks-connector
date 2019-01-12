@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupRoutePointOverflowGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:10920","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:29630","type":"sequence"}]
  */
 class GroupRoutePointOverflowGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupRoutePointOverflowGetRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:10920
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:29630
      * @var string|null
      */
     private $serviceUserId = null;

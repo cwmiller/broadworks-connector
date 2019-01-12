@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"15129cd25fa2d5581f4edfd652c24f93:6156","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:6372","type":"sequence"}]
  */
 class GroupScheduleDeleteListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupScheduleDeleteListRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 15129cd25fa2d5581f4edfd652c24f93:6156
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:6372
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,7 +26,7 @@ class GroupScheduleDeleteListRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 15129cd25fa2d5581f4edfd652c24f93:6156
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:6372
      * @var string|null
      */
     private $groupId = null;
@@ -35,7 +35,7 @@ class GroupScheduleDeleteListRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName scheduleKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ScheduleKey
      * @Array
-     * @Group 15129cd25fa2d5581f4edfd652c24f93:6156
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:6372
      * @var \CWM\BroadWorksConnector\Ocip\Models\ScheduleKey[]
      */
     private $scheduleKey = array(

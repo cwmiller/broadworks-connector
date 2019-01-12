@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupAccessDeviceCustomTagGetListResponse
  * @see ErrorResponse
- * @Groups [{"id":"15129cd25fa2d5581f4edfd652c24f93:366","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:372","type":"sequence"}]
  */
 class GroupAccessDeviceCustomTagGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupAccessDeviceCustomTagGetListRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 15129cd25fa2d5581f4edfd652c24f93:366
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:372
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,7 +26,7 @@ class GroupAccessDeviceCustomTagGetListRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 15129cd25fa2d5581f4edfd652c24f93:366
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:372
      * @var string|null
      */
     private $groupId = null;
@@ -34,7 +34,7 @@ class GroupAccessDeviceCustomTagGetListRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName deviceName
      * @Type string
-     * @Group 15129cd25fa2d5581f4edfd652c24f93:366
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:372
      * @var string|null
      */
     private $deviceName = null;

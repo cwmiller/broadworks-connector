@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * A list of agents grouped by skill levels.
  *
- * @Groups [{"id":"3ac5f05d969bc771d6ba8d344d95aa72:6622","type":"sequence"}]
+ * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:7319","type":"sequence"}]
  */
 class CallCenterReplacementSkilledAgents
 {
@@ -15,7 +15,7 @@ class CallCenterReplacementSkilledAgents
     /**
      * @ElementName skillLevel
      * @Type int
-     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:6622
+     * @Group e2c537e3e39483b96620673a7012ffdd:7319
      * @var int|null
      */
     private $skillLevel = null;
@@ -24,7 +24,7 @@ class CallCenterReplacementSkilledAgents
      * @ElementName agents
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList
      * @Nillable
-     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:6622
+     * @Group e2c537e3e39483b96620673a7012ffdd:7319
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $agents = null;

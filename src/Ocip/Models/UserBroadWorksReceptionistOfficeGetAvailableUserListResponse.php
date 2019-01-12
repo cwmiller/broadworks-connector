@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           "Group Id", "Phone Number", "Extension", "Mobile", "Email Address", "Department", "IMP Id", "Title".
  *
  * @see UserBroadWorksReceptionistOfficeGetAvailableUserListRequest
- * @Groups [{"id":"65f3eb452056e4cda1627e1225a693dd:69","type":"sequence"}]
+ * @Groups [{"id":"4085b673b5035cde8e8ce380d60d6aed:69","type":"sequence"}]
  */
 class UserBroadWorksReceptionistOfficeGetAvailableUserListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,7 +19,7 @@ class UserBroadWorksReceptionistOfficeGetAvailableUserListResponse extends \CWM\
     /**
      * @ElementName userTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 65f3eb452056e4cda1627e1225a693dd:69
+     * @Group 4085b673b5035cde8e8ce380d60d6aed:69
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $userTable = null;

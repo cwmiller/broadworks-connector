@@ -8,13 +8,13 @@ use CWM\BroadWorksConnector\Ocip\Models\SystemExecutiveModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserExecutiveAddFilteringSelectiveCriteriaRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserExecutiveDeleteFilteringSelectiveCriteriaRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserExecutiveGetAssistantRequest;
-use CWM\BroadWorksConnector\Ocip\Models\UserExecutiveGetAssistantResponse;
+use CWM\BroadWorksConnector\Ocip\Models\UserExecutiveGetAssistantsResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserExecutiveGetAvailableAssistantListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserExecutiveGetAvailableAssistantListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserExecutiveGetFilteringRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserExecutiveGetFilteringResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserExecutiveGetFilteringSelectiveCriteriaRequest21;
-use CWM\BroadWorksConnector\Ocip\Models\UserExecutiveGetFilteringSelectiveCriteriaResponse21;
+use CWM\BroadWorksConnector\Ocip\Models\UserExecutiveGetSelectiveCriteriaResponse21;
 use CWM\BroadWorksConnector\Ocip\Models\UserExecutiveGetScreeningAlertingRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserExecutiveGetScreeningAlertingResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserExecutiveModifyAssistantRequest;
@@ -74,7 +74,7 @@ trait OCISchemaServiceExecutive
 
     /**
      * @param UserExecutiveGetAssistantRequest $request
-     * @return UserExecutiveGetAssistantResponse
+     * @return UserExecutiveGetAssistantsResponse
      * @throws ErrorResponseException
      * @throws ValidationException
      */
@@ -107,7 +107,7 @@ trait OCISchemaServiceExecutive
 
     /**
      * @param UserExecutiveGetFilteringSelectiveCriteriaRequest21 $request
-     * @return UserExecutiveGetFilteringSelectiveCriteriaResponse21
+     * @return UserExecutiveGetSelectiveCriteriaResponse21
      * @throws ErrorResponseException
      * @throws ValidationException
      */

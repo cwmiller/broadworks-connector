@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserPushToTalkGetAvailableUserListResponse
  * @see ErrorResponse
- * @Groups [{"id":"b1cd97c56a75178a30eef82c2fa39248:43","type":"sequence"}]
+ * @Groups [{"id":"f32f4b57593f3e1ac6ed1cf45ed62b7c:43","type":"sequence"}]
  */
 class UserPushToTalkGetAvailableUserListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserPushToTalkGetAvailableUserListRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName userId
      * @Type string
-     * @Group b1cd97c56a75178a30eef82c2fa39248:43
+     * @Group f32f4b57593f3e1ac6ed1cf45ed62b7c:43
      * @var string|null
      */
     private $userId = null;
@@ -27,7 +27,7 @@ class UserPushToTalkGetAvailableUserListRequest extends \CWM\BroadWorksConnector
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group b1cd97c56a75178a30eef82c2fa39248:43
+     * @Group f32f4b57593f3e1ac6ed1cf45ed62b7c:43
      * @var int|null
      */
     private $responseSizeLimit = null;
@@ -37,7 +37,7 @@ class UserPushToTalkGetAvailableUserListRequest extends \CWM\BroadWorksConnector
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName
      * @Array
      * @Optional
-     * @Group b1cd97c56a75178a30eef82c2fa39248:43
+     * @Group f32f4b57593f3e1ac6ed1cf45ed62b7c:43
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[]
      */
     private $searchCriteriaUserLastName = array(
@@ -49,7 +49,7 @@ class UserPushToTalkGetAvailableUserListRequest extends \CWM\BroadWorksConnector
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName
      * @Array
      * @Optional
-     * @Group b1cd97c56a75178a30eef82c2fa39248:43
+     * @Group f32f4b57593f3e1ac6ed1cf45ed62b7c:43
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName[]
      */
     private $searchCriteriaUserFirstName = array(
@@ -60,7 +60,7 @@ class UserPushToTalkGetAvailableUserListRequest extends \CWM\BroadWorksConnector
      * @ElementName searchCriteriaExactUserDepartment
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment
      * @Optional
-     * @Group b1cd97c56a75178a30eef82c2fa39248:43
+     * @Group f32f4b57593f3e1ac6ed1cf45ed62b7c:43
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment|null
      */
     private $searchCriteriaExactUserDepartment = null;
@@ -69,7 +69,7 @@ class UserPushToTalkGetAvailableUserListRequest extends \CWM\BroadWorksConnector
      * @ElementName searchCriteriaExactUserGroup
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserGroup
      * @Optional
-     * @Group b1cd97c56a75178a30eef82c2fa39248:43
+     * @Group f32f4b57593f3e1ac6ed1cf45ed62b7c:43
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserGroup|null
      */
     private $searchCriteriaExactUserGroup = null;
@@ -79,7 +79,7 @@ class UserPushToTalkGetAvailableUserListRequest extends \CWM\BroadWorksConnector
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId
      * @Array
      * @Optional
-     * @Group b1cd97c56a75178a30eef82c2fa39248:43
+     * @Group f32f4b57593f3e1ac6ed1cf45ed62b7c:43
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId[]
      */
     private $searchCriteriaUserId = array(
@@ -91,7 +91,7 @@ class UserPushToTalkGetAvailableUserListRequest extends \CWM\BroadWorksConnector
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn
      * @Array
      * @Optional
-     * @Group b1cd97c56a75178a30eef82c2fa39248:43
+     * @Group f32f4b57593f3e1ac6ed1cf45ed62b7c:43
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[]
      */
     private $searchCriteriaDn = array(
@@ -103,7 +103,7 @@ class UserPushToTalkGetAvailableUserListRequest extends \CWM\BroadWorksConnector
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension
      * @Array
      * @Optional
-     * @Group b1cd97c56a75178a30eef82c2fa39248:43
+     * @Group f32f4b57593f3e1ac6ed1cf45ed62b7c:43
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension[]
      */
     private $searchCriteriaExtension = array(
@@ -115,7 +115,7 @@ class UserPushToTalkGetAvailableUserListRequest extends \CWM\BroadWorksConnector
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaImpId
      * @Array
      * @Optional
-     * @Group b1cd97c56a75178a30eef82c2fa39248:43
+     * @Group f32f4b57593f3e1ac6ed1cf45ed62b7c:43
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaImpId[]
      */
     private $searchCriteriaImpId = array(

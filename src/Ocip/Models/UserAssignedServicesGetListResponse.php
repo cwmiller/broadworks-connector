@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         A user can have both user services and group services because of music on hold.
  *
  * @see UserAssignedServicesGetListRequest
- * @Groups [{"id":"ee3830ce42f01a3ef2a105d473fc3b17:648","type":"sequence"}]
+ * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:725","type":"sequence"}]
  */
 class UserAssignedServicesGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,7 +19,7 @@ class UserAssignedServicesGetListResponse extends \CWM\BroadWorksConnector\Ocip\
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AssignedGroupServicesEntry
      * @Array
      * @Optional
-     * @Group ee3830ce42f01a3ef2a105d473fc3b17:648
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:725
      * @var \CWM\BroadWorksConnector\Ocip\Models\AssignedGroupServicesEntry[]
      */
     private $groupServiceEntry = array(
@@ -31,7 +31,7 @@ class UserAssignedServicesGetListResponse extends \CWM\BroadWorksConnector\Ocip\
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AssignedUserServicesEntry
      * @Array
      * @Optional
-     * @Group ee3830ce42f01a3ef2a105d473fc3b17:648
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:725
      * @var \CWM\BroadWorksConnector\Ocip\Models\AssignedUserServicesEntry[]
      */
     private $userServiceEntry = array(

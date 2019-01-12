@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"8eb862aea0ee5d4211db0a0d3fe7c164:1178","type":"sequence"}]
+ * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:1233","type":"sequence"}]
  */
 class ServiceProviderAnswerConfirmationModifyRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class ServiceProviderAnswerConfirmationModifyRequest16 extends \CWM\BroadWorksCo
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:1178
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1233
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,7 +27,7 @@ class ServiceProviderAnswerConfirmationModifyRequest16 extends \CWM\BroadWorksCo
      * @ElementName announcementMessageSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnswerConfirmationAnnouncementSelection
      * @Optional
-     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:1178
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1233
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnswerConfirmationAnnouncementSelection|null
      */
     private $announcementMessageSelection = null;
@@ -36,7 +36,7 @@ class ServiceProviderAnswerConfirmationModifyRequest16 extends \CWM\BroadWorksCo
      * @ElementName confirmationMessageAudioFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource
      * @Optional
-     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:1178
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1233
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null
      */
     private $confirmationMessageAudioFile = null;
@@ -45,7 +45,7 @@ class ServiceProviderAnswerConfirmationModifyRequest16 extends \CWM\BroadWorksCo
      * @ElementName confirmationTimoutSeconds
      * @Type int
      * @Optional
-     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:1178
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1233
      * @var int|null
      */
     private $confirmationTimoutSeconds = null;

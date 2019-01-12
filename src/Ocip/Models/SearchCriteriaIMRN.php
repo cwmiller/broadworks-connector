@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Criteria for searching for an IMRN Number.
  *
- * @Groups [{"id":"e446bfcbd1f39cbef57d1547014f2bb9:1386","type":"sequence"}]
+ * @Groups [{"id":"f0ada2681ca347fa83b464734259b304:1486","type":"sequence"}]
  */
 class SearchCriteriaIMRN extends SearchCriteria
 {
@@ -15,7 +15,7 @@ class SearchCriteriaIMRN extends SearchCriteria
     /**
      * @ElementName mode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchMode
-     * @Group e446bfcbd1f39cbef57d1547014f2bb9:1386
+     * @Group f0ada2681ca347fa83b464734259b304:1486
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchMode|null
      */
     private $mode = null;
@@ -23,7 +23,7 @@ class SearchCriteriaIMRN extends SearchCriteria
     /**
      * @ElementName value
      * @Type string
-     * @Group e446bfcbd1f39cbef57d1547014f2bb9:1386
+     * @Group f0ada2681ca347fa83b464734259b304:1486
      * @var string|null
      */
     private $value = null;
@@ -31,7 +31,7 @@ class SearchCriteriaIMRN extends SearchCriteria
     /**
      * @ElementName isCaseInsensitive
      * @Type bool
-     * @Group e446bfcbd1f39cbef57d1547014f2bb9:1386
+     * @Group f0ada2681ca347fa83b464734259b304:1486
      * @var bool|null
      */
     private $isCaseInsensitive = null;

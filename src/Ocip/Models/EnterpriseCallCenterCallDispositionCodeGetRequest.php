@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see EnterpriseCallCenterCallDispositionCodeGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"3ac5f05d969bc771d6ba8d344d95aa72:840","type":"sequence"}]
+ * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:992","type":"sequence"}]
  */
 class EnterpriseCallCenterCallDispositionCodeGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class EnterpriseCallCenterCallDispositionCodeGetRequest extends \CWM\BroadWorksC
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:840
+     * @Group e2c537e3e39483b96620673a7012ffdd:992
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,7 +26,7 @@ class EnterpriseCallCenterCallDispositionCodeGetRequest extends \CWM\BroadWorksC
     /**
      * @ElementName code
      * @Type string
-     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:840
+     * @Group e2c537e3e39483b96620673a7012ffdd:992
      * @var string|null
      */
     private $code = null;

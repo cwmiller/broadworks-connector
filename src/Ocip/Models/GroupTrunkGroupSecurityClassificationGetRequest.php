@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupTrunkGroupSecurityClassificationGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"03b1e8852a59a842f834331786163273:54","type":"sequence"}]
+ * @Groups [{"id":"6b3afea8308b7fdaab8d385357ca9c2d:54","type":"sequence"}]
  */
 class GroupTrunkGroupSecurityClassificationGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupTrunkGroupSecurityClassificationGetRequest extends \CWM\BroadWorksCon
     /**
      * @ElementName trunkGroupKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey
-     * @Group 03b1e8852a59a842f834331786163273:54
+     * @Group 6b3afea8308b7fdaab8d385357ca9c2d:54
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey|null
      */
     private $trunkGroupKey = null;

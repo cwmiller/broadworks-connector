@@ -5,7 +5,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19SelectDistributionListMenuKeys
  *
- * @Groups [{"id":"80c5986946137c505e41f6008c7f75a8:1466","type":"sequence"}]
+ * @Groups [{"id":"3347d430e0d5c93a9ff8dcf0e3b60d6c:1520","type":"sequence"}]
  */
 class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19SelectDistributionListMenuKeys
 {
@@ -14,7 +14,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19SelectDistribution
      * @ElementName returnToPreviousMenu
      * @Type string
      * @Optional
-     * @Group 80c5986946137c505e41f6008c7f75a8:1466
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1520
      * @var string|null
      */
     private $returnToPreviousMenu = null;
@@ -24,7 +24,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19SelectDistribution
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 80c5986946137c505e41f6008c7f75a8:1466
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1520
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $repeatMenuOrFinishEnteringDistributionListNumber = null;

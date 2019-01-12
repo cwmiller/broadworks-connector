@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models\C;
  * The ErrorResponse is concrete response sent whenever a transaction fails and does not return any data.
  *
  * @see ErrorResponse
- * @Groups [{"id":"b5c92103b335c0ad3e7b255e39a5cba4:198","type":"sequence"}]
+ * @Groups [{"id":"77f32f6c8e214eb5c1a80dedfce1cb56:178","type":"sequence"}]
  */
 class ErrorResponse extends OCIResponse
 {
@@ -17,7 +17,7 @@ class ErrorResponse extends OCIResponse
      * @ElementName errorCode
      * @Type int
      * @Optional
-     * @Group b5c92103b335c0ad3e7b255e39a5cba4:198
+     * @Group 77f32f6c8e214eb5c1a80dedfce1cb56:178
      * @var int|null
      */
     private $errorCode = null;
@@ -25,7 +25,7 @@ class ErrorResponse extends OCIResponse
     /**
      * @ElementName summary
      * @Type string
-     * @Group b5c92103b335c0ad3e7b255e39a5cba4:198
+     * @Group 77f32f6c8e214eb5c1a80dedfce1cb56:178
      * @var string|null
      */
     private $summary = null;
@@ -33,7 +33,7 @@ class ErrorResponse extends OCIResponse
     /**
      * @ElementName summaryEnglish
      * @Type string
-     * @Group b5c92103b335c0ad3e7b255e39a5cba4:198
+     * @Group 77f32f6c8e214eb5c1a80dedfce1cb56:178
      * @var string|null
      */
     private $summaryEnglish = null;
@@ -42,7 +42,7 @@ class ErrorResponse extends OCIResponse
      * @ElementName detail
      * @Type string
      * @Optional
-     * @Group b5c92103b335c0ad3e7b255e39a5cba4:198
+     * @Group 77f32f6c8e214eb5c1a80dedfce1cb56:178
      * @var string|null
      */
     private $detail = null;

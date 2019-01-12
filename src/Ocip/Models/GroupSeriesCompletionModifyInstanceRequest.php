@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"50d7061385a4ccc59235c104f69a18f0:195","type":"sequence"}]
+ * @Groups [{"id":"b974dc59b4b32d9f5952a0442ecaefa8:195","type":"sequence"}]
  */
 class GroupSeriesCompletionModifyInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupSeriesCompletionModifyInstanceRequest extends \CWM\BroadWorksConnecto
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 50d7061385a4ccc59235c104f69a18f0:195
+     * @Group b974dc59b4b32d9f5952a0442ecaefa8:195
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,7 +26,7 @@ class GroupSeriesCompletionModifyInstanceRequest extends \CWM\BroadWorksConnecto
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 50d7061385a4ccc59235c104f69a18f0:195
+     * @Group b974dc59b4b32d9f5952a0442ecaefa8:195
      * @var string|null
      */
     private $groupId = null;
@@ -34,7 +34,7 @@ class GroupSeriesCompletionModifyInstanceRequest extends \CWM\BroadWorksConnecto
     /**
      * @ElementName name
      * @Type string
-     * @Group 50d7061385a4ccc59235c104f69a18f0:195
+     * @Group b974dc59b4b32d9f5952a0442ecaefa8:195
      * @var string|null
      */
     private $name = null;
@@ -43,7 +43,7 @@ class GroupSeriesCompletionModifyInstanceRequest extends \CWM\BroadWorksConnecto
      * @ElementName newName
      * @Type string
      * @Optional
-     * @Group 50d7061385a4ccc59235c104f69a18f0:195
+     * @Group b974dc59b4b32d9f5952a0442ecaefa8:195
      * @var string|null
      */
     private $newName = null;
@@ -53,7 +53,7 @@ class GroupSeriesCompletionModifyInstanceRequest extends \CWM\BroadWorksConnecto
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList
      * @Nillable
      * @Optional
-     * @Group 50d7061385a4ccc59235c104f69a18f0:195
+     * @Group b974dc59b4b32d9f5952a0442ecaefa8:195
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $userIdList = null;

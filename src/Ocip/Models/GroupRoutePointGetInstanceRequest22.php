@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupRoutePointGetInstanceResponse19sp1
  * @see ErrorResponse
- * @Groups [{"id":"08c06bb3683a696d340b1644025134a4:596","type":"sequence"}]
+ * @Groups [{"id":"a27224a048c30ff69eab9209dec841cc:596","type":"sequence"}]
  */
 class GroupRoutePointGetInstanceRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupRoutePointGetInstanceRequest22 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group 08c06bb3683a696d340b1644025134a4:596
+     * @Group a27224a048c30ff69eab9209dec841cc:596
      * @var string|null
      */
     private $serviceUserId = null;

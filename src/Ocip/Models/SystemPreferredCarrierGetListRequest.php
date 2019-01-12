@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemPreferredCarrierGetListResponse
  * @see ErrorResponse
- * @Groups [{"id":"56f1bd27c6955cc11e0869b6463fb814:402","type":"sequence"}]
+ * @Groups [{"id":"74a46a9bfccb54713c1d19735843f1df:401","type":"sequence"}]
  */
 class SystemPreferredCarrierGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

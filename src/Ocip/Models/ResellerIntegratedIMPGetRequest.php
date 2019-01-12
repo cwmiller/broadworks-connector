@@ -7,10 +7,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Get the Integrated IMP service attributes for the reseller.
  *         The response is either ResellerIntegratedIMPGetResponse or ErrorResponse.
+ *         
+ *         Replaced by: ResellerIntegratedIMPGetRequest22 in AS data mode
  *
  * @see ResellerIntegratedIMPGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"1145a01488507071407c5896ff2e4ef5:104","type":"sequence"}]
+ * @see ResellerIntegratedIMPGetRequest22
+ * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:5528","type":"sequence"}]
  */
 class ResellerIntegratedIMPGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +21,7 @@ class ResellerIntegratedIMPGetRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName resellerId
      * @Type string
-     * @Group 1145a01488507071407c5896ff2e4ef5:104
+     * @Group de4d76f01f337fe4694212ec9f771753:5528
      * @var string|null
      */
     private $resellerId = null;

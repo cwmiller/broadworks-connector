@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupNetworkClassOfServiceGetAssignedUserListResponse
  * @see ErorResponse
- * @Groups [{"id":"bb12a3589ab4748963f28f7ac9310f70:1581","type":"sequence"}]
+ * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:2582","type":"sequence"}]
  */
 class GroupNetworkClassOfServiceGetAssignedUserListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class GroupNetworkClassOfServiceGetAssignedUserListRequest extends \CWM\BroadWor
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group bb12a3589ab4748963f28f7ac9310f70:1581
+     * @Group de4d76f01f337fe4694212ec9f771753:2582
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -28,7 +28,7 @@ class GroupNetworkClassOfServiceGetAssignedUserListRequest extends \CWM\BroadWor
     /**
      * @ElementName groupId
      * @Type string
-     * @Group bb12a3589ab4748963f28f7ac9310f70:1581
+     * @Group de4d76f01f337fe4694212ec9f771753:2582
      * @var string|null
      */
     private $groupId = null;
@@ -36,7 +36,7 @@ class GroupNetworkClassOfServiceGetAssignedUserListRequest extends \CWM\BroadWor
     /**
      * @ElementName networkClassOfService
      * @Type string
-     * @Group bb12a3589ab4748963f28f7ac9310f70:1581
+     * @Group de4d76f01f337fe4694212ec9f771753:2582
      * @var string|null
      */
     private $networkClassOfService = null;
@@ -45,7 +45,7 @@ class GroupNetworkClassOfServiceGetAssignedUserListRequest extends \CWM\BroadWor
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group bb12a3589ab4748963f28f7ac9310f70:1581
+     * @Group de4d76f01f337fe4694212ec9f771753:2582
      * @var int|null
      */
     private $responseSizeLimit = null;
@@ -55,7 +55,7 @@ class GroupNetworkClassOfServiceGetAssignedUserListRequest extends \CWM\BroadWor
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName
      * @Array
      * @Optional
-     * @Group bb12a3589ab4748963f28f7ac9310f70:1581
+     * @Group de4d76f01f337fe4694212ec9f771753:2582
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[]
      */
     private $searchCriteriaUserLastName = array(
@@ -67,7 +67,7 @@ class GroupNetworkClassOfServiceGetAssignedUserListRequest extends \CWM\BroadWor
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName
      * @Array
      * @Optional
-     * @Group bb12a3589ab4748963f28f7ac9310f70:1581
+     * @Group de4d76f01f337fe4694212ec9f771753:2582
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName[]
      */
     private $searchCriteriaUserFirstName = array(
@@ -79,7 +79,7 @@ class GroupNetworkClassOfServiceGetAssignedUserListRequest extends \CWM\BroadWor
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn
      * @Array
      * @Optional
-     * @Group bb12a3589ab4748963f28f7ac9310f70:1581
+     * @Group de4d76f01f337fe4694212ec9f771753:2582
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[]
      */
     private $searchCriteriaDn = array(
@@ -91,7 +91,7 @@ class GroupNetworkClassOfServiceGetAssignedUserListRequest extends \CWM\BroadWor
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaEmailAddress
      * @Array
      * @Optional
-     * @Group bb12a3589ab4748963f28f7ac9310f70:1581
+     * @Group de4d76f01f337fe4694212ec9f771753:2582
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaEmailAddress[]
      */
     private $searchCriteriaEmailAddress = array(
@@ -102,7 +102,7 @@ class GroupNetworkClassOfServiceGetAssignedUserListRequest extends \CWM\BroadWor
      * @ElementName searchCriteriaExactUserDepartment
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment
      * @Optional
-     * @Group bb12a3589ab4748963f28f7ac9310f70:1581
+     * @Group de4d76f01f337fe4694212ec9f771753:2582
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment|null
      */
     private $searchCriteriaExactUserDepartment = null;
@@ -112,7 +112,7 @@ class GroupNetworkClassOfServiceGetAssignedUserListRequest extends \CWM\BroadWor
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId
      * @Array
      * @Optional
-     * @Group bb12a3589ab4748963f28f7ac9310f70:1581
+     * @Group de4d76f01f337fe4694212ec9f771753:2582
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId[]
      */
     private $searchCriteriaUserId = array(
@@ -124,7 +124,7 @@ class GroupNetworkClassOfServiceGetAssignedUserListRequest extends \CWM\BroadWor
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension
      * @Array
      * @Optional
-     * @Group bb12a3589ab4748963f28f7ac9310f70:1581
+     * @Group de4d76f01f337fe4694212ec9f771753:2582
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension[]
      */
     private $searchCriteriaExtension = array(

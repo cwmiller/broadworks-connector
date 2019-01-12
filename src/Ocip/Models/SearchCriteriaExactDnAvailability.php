@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Criteria for searching for a particular dn availability.
  *
- * @Groups [{"id":"e446bfcbd1f39cbef57d1547014f2bb9:812","type":"sequence"}]
+ * @Groups [{"id":"f0ada2681ca347fa83b464734259b304:895","type":"sequence"}]
  */
 class SearchCriteriaExactDnAvailability extends SearchCriteria
 {
@@ -15,7 +15,7 @@ class SearchCriteriaExactDnAvailability extends SearchCriteria
     /**
      * @ElementName available
      * @Type bool
-     * @Group e446bfcbd1f39cbef57d1547014f2bb9:812
+     * @Group f0ada2681ca347fa83b464734259b304:895
      * @var bool|null
      */
     private $available = null;

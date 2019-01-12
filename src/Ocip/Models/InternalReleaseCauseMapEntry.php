@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * The internal release cause map entry.
  *
- * @Groups [{"id":"b5f5416d9e71f8e4246cda16c4723744:17403","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:17716","type":"sequence"}]
  */
 class InternalReleaseCauseMapEntry
 {
@@ -15,7 +15,7 @@ class InternalReleaseCauseMapEntry
     /**
      * @ElementName internalReleaseCause
      * @Type \CWM\BroadWorksConnector\Ocip\Models\InternalReleaseCause16
-     * @Group b5f5416d9e71f8e4246cda16c4723744:17403
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17716
      * @var \CWM\BroadWorksConnector\Ocip\Models\InternalReleaseCause16|null
      */
     private $internalReleaseCause = null;
@@ -24,7 +24,7 @@ class InternalReleaseCauseMapEntry
      * @ElementName treatmentId
      * @Type string
      * @Optional
-     * @Group b5f5416d9e71f8e4246cda16c4723744:17403
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17716
      * @var string|null
      */
     private $treatmentId = null;

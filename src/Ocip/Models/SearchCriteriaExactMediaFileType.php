@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Criteria for searching for a particular media file type.
  *
- * @Groups [{"id":"e446bfcbd1f39cbef57d1547014f2bb9:902","type":"sequence"}]
+ * @Groups [{"id":"f0ada2681ca347fa83b464734259b304:985","type":"sequence"}]
  */
 class SearchCriteriaExactMediaFileType extends SearchCriteria
 {
@@ -15,7 +15,7 @@ class SearchCriteriaExactMediaFileType extends SearchCriteria
     /**
      * @ElementName type
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MediaFileType
-     * @Group e446bfcbd1f39cbef57d1547014f2bb9:902
+     * @Group f0ada2681ca347fa83b464734259b304:985
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     private $type = null;

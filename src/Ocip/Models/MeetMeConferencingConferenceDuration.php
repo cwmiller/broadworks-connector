@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Conference duration.
  *
- * @Groups [{"id":"7a29c84abb8473449085e6657fc6948d:874","type":"sequence"}]
+ * @Groups [{"id":"0fd24121d16995c994d40bc408dbcfa5:930","type":"sequence"}]
  */
 class MeetMeConferencingConferenceDuration
 {
@@ -15,7 +15,7 @@ class MeetMeConferencingConferenceDuration
     /**
      * @ElementName hours
      * @Type int
-     * @Group 7a29c84abb8473449085e6657fc6948d:874
+     * @Group 0fd24121d16995c994d40bc408dbcfa5:930
      * @var int|null
      */
     private $hours = null;
@@ -23,7 +23,7 @@ class MeetMeConferencingConferenceDuration
     /**
      * @ElementName minutes
      * @Type int
-     * @Group 7a29c84abb8473449085e6657fc6948d:874
+     * @Group 0fd24121d16995c994d40bc408dbcfa5:930
      * @var int|null
      */
     private $minutes = null;

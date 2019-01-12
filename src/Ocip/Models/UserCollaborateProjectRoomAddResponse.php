@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to UserCollaborateProjectRoomAddRequest.
  *
  * @see UserCollaborateProjectRoomAddRequest
- * @Groups [{"id":"1d655a4f2853eddf47018e01b685b65b:667","type":"sequence"}]
+ * @Groups [{"id":"939fd5846dfae8bdf58308d6cb9ebb12:831","type":"sequence"}]
  */
 class UserCollaborateProjectRoomAddResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class UserCollaborateProjectRoomAddResponse extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName roomId
      * @Type string
-     * @Group 1d655a4f2853eddf47018e01b685b65b:667
+     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:831
      * @var string|null
      */
     private $roomId = null;

@@ -14,7 +14,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see ServiceProviderDeviceManagementGetAccessDeviceCountForDeviceTypeServiceProviderResponse
  * @see ErrorResponse
- * @Groups [{"id":"8eb862aea0ee5d4211db0a0d3fe7c164:2265","type":"sequence"}]
+ * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:2324","type":"sequence"}]
  */
 class ServiceProviderDeviceManagementGetAccessDeviceCountForDeviceTypeServiceProviderRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -22,7 +22,7 @@ class ServiceProviderDeviceManagementGetAccessDeviceCountForDeviceTypeServicePro
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:2265
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2324
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -30,7 +30,7 @@ class ServiceProviderDeviceManagementGetAccessDeviceCountForDeviceTypeServicePro
     /**
      * @ElementName deviceType
      * @Type string
-     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:2265
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2324
      * @var string|null
      */
     private $deviceType = null;
@@ -39,7 +39,7 @@ class ServiceProviderDeviceManagementGetAccessDeviceCountForDeviceTypeServicePro
      * @ElementName countOnlyResetSupportedDevice
      * @Type bool
      * @Optional
-     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:2265
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2324
      * @var bool|null
      */
     private $countOnlyResetSupportedDevice = null;
@@ -48,7 +48,7 @@ class ServiceProviderDeviceManagementGetAccessDeviceCountForDeviceTypeServicePro
      * @ElementName allowUnmanagedDeviceType
      * @Type bool
      * @Optional
-     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:2265
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2324
      * @var bool|null
      */
     private $allowUnmanagedDeviceType = null;

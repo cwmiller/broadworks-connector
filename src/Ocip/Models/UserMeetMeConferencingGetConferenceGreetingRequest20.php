@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserMeetMeConferencingGetConferenceGreetingResponse20
  * @see ErrorResponse
- * @Groups [{"id":"7a29c84abb8473449085e6657fc6948d:647","type":"sequence"}]
+ * @Groups [{"id":"0fd24121d16995c994d40bc408dbcfa5:701","type":"sequence"}]
  */
 class UserMeetMeConferencingGetConferenceGreetingRequest20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserMeetMeConferencingGetConferenceGreetingRequest20 extends \CWM\BroadWor
     /**
      * @ElementName userId
      * @Type string
-     * @Group 7a29c84abb8473449085e6657fc6948d:647
+     * @Group 0fd24121d16995c994d40bc408dbcfa5:701
      * @var string|null
      */
     private $userId = null;
@@ -26,7 +26,7 @@ class UserMeetMeConferencingGetConferenceGreetingRequest20 extends \CWM\BroadWor
     /**
      * @ElementName conferenceKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceKey
-     * @Group 7a29c84abb8473449085e6657fc6948d:647
+     * @Group 0fd24121d16995c994d40bc408dbcfa5:701
      * @var \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceKey|null
      */
     private $conferenceKey = null;

@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"fb1070190f79a86aa955448146b539c7:137","type":"sequence"}]
+ * @Groups [{"id":"a69fde15f3aa7494d83b57461a7a70bb:137","type":"sequence"}]
  */
 class ServiceProviderAdviceOfChargeModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class ServiceProviderAdviceOfChargeModifyRequest extends \CWM\BroadWorksConnecto
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group fb1070190f79a86aa955448146b539c7:137
+     * @Group a69fde15f3aa7494d83b57461a7a70bb:137
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,7 +27,7 @@ class ServiceProviderAdviceOfChargeModifyRequest extends \CWM\BroadWorksConnecto
      * @ElementName useSPLevelAoCSettings
      * @Type bool
      * @Optional
-     * @Group fb1070190f79a86aa955448146b539c7:137
+     * @Group a69fde15f3aa7494d83b57461a7a70bb:137
      * @var bool|null
      */
     private $useSPLevelAoCSettings = null;
@@ -36,7 +36,7 @@ class ServiceProviderAdviceOfChargeModifyRequest extends \CWM\BroadWorksConnecto
      * @ElementName delayBetweenNotificationSeconds
      * @Type int
      * @Optional
-     * @Group fb1070190f79a86aa955448146b539c7:137
+     * @Group a69fde15f3aa7494d83b57461a7a70bb:137
      * @var int|null
      */
     private $delayBetweenNotificationSeconds = null;

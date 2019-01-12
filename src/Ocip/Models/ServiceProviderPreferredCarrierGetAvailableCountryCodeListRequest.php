@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see ServiceProviderPreferredCarrierGetAvailableCountryCodeListResponse
  * @see ErrorResponse
- * @Groups [{"id":"56f1bd27c6955cc11e0869b6463fb814:158","type":"sequence"}]
+ * @Groups [{"id":"74a46a9bfccb54713c1d19735843f1df:157","type":"sequence"}]
  */
 class ServiceProviderPreferredCarrierGetAvailableCountryCodeListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class ServiceProviderPreferredCarrierGetAvailableCountryCodeListRequest extends 
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 56f1bd27c6955cc11e0869b6463fb814:158
+     * @Group 74a46a9bfccb54713c1d19735843f1df:157
      * @var string|null
      */
     private $serviceProviderId = null;

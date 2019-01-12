@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the SystemCallCenterEnhancedReportingBrandingGetRequest.
  *
  * @see SystemCallCenterEnhancedReportingBrandingGetRequest
- * @Groups [{"id":"3ac5f05d969bc771d6ba8d344d95aa72:5358","type":"sequence"}]
+ * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:5979","type":"sequence"}]
  */
 class SystemCallCenterEnhancedReportingBrandingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class SystemCallCenterEnhancedReportingBrandingGetResponse extends \CWM\BroadWor
     /**
      * @ElementName brandingChoice
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterEnhancedReportingSystemBrandingChoice
-     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:5358
+     * @Group e2c537e3e39483b96620673a7012ffdd:5979
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterEnhancedReportingSystemBrandingChoice|null
      */
     private $brandingChoice = null;
@@ -25,7 +25,7 @@ class SystemCallCenterEnhancedReportingBrandingGetResponse extends \CWM\BroadWor
      * @ElementName customBrandingFileDescription
      * @Type string
      * @Optional
-     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:5358
+     * @Group e2c537e3e39483b96620673a7012ffdd:5979
      * @var string|null
      */
     private $customBrandingFileDescription = null;

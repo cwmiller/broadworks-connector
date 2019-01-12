@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The column value for "Is Active" can either be true, or false.
  *
  * @see GroupBroadWorksAnywhereGetInstanceListRequest
- * @Groups [{"id":"b2dd0919a492fbd36c0e7f346f843ff2:123","type":"sequence"}]
+ * @Groups [{"id":"72f634ecc58842ce9d362ca629a47ea9:125","type":"sequence"}]
  */
 class GroupBroadWorksAnywhereGetInstanceListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,7 +19,7 @@ class GroupBroadWorksAnywhereGetInstanceListResponse extends \CWM\BroadWorksConn
     /**
      * @ElementName broadWorksAnywhereTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group b2dd0919a492fbd36c0e7f346f843ff2:123
+     * @Group 72f634ecc58842ce9d362ca629a47ea9:125
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $broadWorksAnywhereTable = null;

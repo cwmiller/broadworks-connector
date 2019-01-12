@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see EnterpriseSessionAdmissionControlGetAvailableDeviceListResponse
  * @see ErrorResponse
- * @Groups [{"id":"889c8c305076ef39cc50c70d0c2dc820:858","type":"sequence"}]
+ * @Groups [{"id":"5395c7df0157d44aa22f3351d1a5f3da:878","type":"sequence"}]
  */
 class EnterpriseSessionAdmissionControlGetAvailableDeviceListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class EnterpriseSessionAdmissionControlGetAvailableDeviceListRequest extends \CW
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 889c8c305076ef39cc50c70d0c2dc820:858
+     * @Group 5395c7df0157d44aa22f3351d1a5f3da:878
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,7 +27,7 @@ class EnterpriseSessionAdmissionControlGetAvailableDeviceListRequest extends \CW
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group 889c8c305076ef39cc50c70d0c2dc820:858
+     * @Group 5395c7df0157d44aa22f3351d1a5f3da:878
      * @var int|null
      */
     private $responseSizeLimit = null;
@@ -37,7 +37,7 @@ class EnterpriseSessionAdmissionControlGetAvailableDeviceListRequest extends \CW
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceName
      * @Array
      * @Optional
-     * @Group 889c8c305076ef39cc50c70d0c2dc820:858
+     * @Group 5395c7df0157d44aa22f3351d1a5f3da:878
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceName[]
      */
     private $searchCriteriaDeviceName = array(
@@ -49,7 +49,7 @@ class EnterpriseSessionAdmissionControlGetAvailableDeviceListRequest extends \CW
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceMACAddress
      * @Array
      * @Optional
-     * @Group 889c8c305076ef39cc50c70d0c2dc820:858
+     * @Group 5395c7df0157d44aa22f3351d1a5f3da:878
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceMACAddress[]
      */
     private $searchCriteriaDeviceMACAddress = array(
@@ -61,7 +61,7 @@ class EnterpriseSessionAdmissionControlGetAvailableDeviceListRequest extends \CW
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceNetAddress
      * @Array
      * @Optional
-     * @Group 889c8c305076ef39cc50c70d0c2dc820:858
+     * @Group 5395c7df0157d44aa22f3351d1a5f3da:878
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceNetAddress[]
      */
     private $searchCriteriaDeviceNetAddress = array(
@@ -73,7 +73,7 @@ class EnterpriseSessionAdmissionControlGetAvailableDeviceListRequest extends \CW
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId
      * @Array
      * @Optional
-     * @Group 889c8c305076ef39cc50c70d0c2dc820:858
+     * @Group 5395c7df0157d44aa22f3351d1a5f3da:878
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId[]
      */
     private $searchCriteriaGroupId = array(
@@ -84,7 +84,7 @@ class EnterpriseSessionAdmissionControlGetAvailableDeviceListRequest extends \CW
      * @ElementName searchCriteriaExactDeviceType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDeviceType
      * @Optional
-     * @Group 889c8c305076ef39cc50c70d0c2dc820:858
+     * @Group 5395c7df0157d44aa22f3351d1a5f3da:878
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDeviceType|null
      */
     private $searchCriteriaExactDeviceType = null;
@@ -93,7 +93,7 @@ class EnterpriseSessionAdmissionControlGetAvailableDeviceListRequest extends \CW
      * @ElementName searchCriteriaExactDeviceLevel
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDeviceLevel
      * @Optional
-     * @Group 889c8c305076ef39cc50c70d0c2dc820:858
+     * @Group 5395c7df0157d44aa22f3351d1a5f3da:878
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDeviceLevel|null
      */
     private $searchCriteriaExactDeviceLevel = null;

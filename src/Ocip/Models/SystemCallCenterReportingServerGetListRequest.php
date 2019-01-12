@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemCallCenterReportingServerGetListResponse
  * @see ErrorResponse
- * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:18162","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:25071","type":"sequence"}]
  */
 class SystemCallCenterReportingServerGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

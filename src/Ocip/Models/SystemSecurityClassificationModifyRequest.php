@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"03b1e8852a59a842f834331786163273:294","type":"sequence"}]
+ * @Groups [{"id":"6b3afea8308b7fdaab8d385357ca9c2d:294","type":"sequence"}]
  */
 class SystemSecurityClassificationModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class SystemSecurityClassificationModifyRequest extends \CWM\BroadWorksConnector
      * @ElementName meetMeAnncThreshold
      * @Type int
      * @Optional
-     * @Group 03b1e8852a59a842f834331786163273:294
+     * @Group 6b3afea8308b7fdaab8d385357ca9c2d:294
      * @var int|null
      */
     private $meetMeAnncThreshold = null;
@@ -29,7 +29,7 @@ class SystemSecurityClassificationModifyRequest extends \CWM\BroadWorksConnector
      * @ElementName playTrunkUserSecurityClassificationAnnouncement
      * @Type bool
      * @Optional
-     * @Group 03b1e8852a59a842f834331786163273:294
+     * @Group 6b3afea8308b7fdaab8d385357ca9c2d:294
      * @var bool|null
      */
     private $playTrunkUserSecurityClassificationAnnouncement = null;
@@ -39,7 +39,7 @@ class SystemSecurityClassificationModifyRequest extends \CWM\BroadWorksConnector
      * @Type string
      * @Array
      * @Optional
-     * @Group 03b1e8852a59a842f834331786163273:294
+     * @Group 6b3afea8308b7fdaab8d385357ca9c2d:294
      * @var string[]
      */
     private $securityClassificationName = array(

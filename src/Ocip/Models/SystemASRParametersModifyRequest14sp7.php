@@ -7,10 +7,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Request to modify Application Server Registration system parameters.
  *         The response is either SuccessResponse or ErrorResponse.
+ *         
+ *         The following elements are only used in AS data mode and ignored in XS data mode:
+ *           enableCustomMessageControl
+ *           customNumberOfUsersPerMessage
+ *           customMessageIntervalMilliseconds
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"b5f5416d9e71f8e4246cda16c4723744:1957","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:1978","type":"sequence"}]
  */
 class SystemASRParametersModifyRequest14sp7 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +24,7 @@ class SystemASRParametersModifyRequest14sp7 extends \CWM\BroadWorksConnector\Oci
      * @ElementName maxTransmissions
      * @Type int
      * @Optional
-     * @Group b5f5416d9e71f8e4246cda16c4723744:1957
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1978
      * @var int|null
      */
     private $maxTransmissions = null;
@@ -28,7 +33,7 @@ class SystemASRParametersModifyRequest14sp7 extends \CWM\BroadWorksConnector\Oci
      * @ElementName retransmissionDelayMilliSeconds
      * @Type int
      * @Optional
-     * @Group b5f5416d9e71f8e4246cda16c4723744:1957
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1978
      * @var int|null
      */
     private $retransmissionDelayMilliSeconds = null;
@@ -37,10 +42,37 @@ class SystemASRParametersModifyRequest14sp7 extends \CWM\BroadWorksConnector\Oci
      * @ElementName listeningPort
      * @Type int
      * @Optional
-     * @Group b5f5416d9e71f8e4246cda16c4723744:1957
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1978
      * @var int|null
      */
     private $listeningPort = null;
+
+    /**
+     * @ElementName enableCustomMessageControl
+     * @Type bool
+     * @Optional
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1978
+     * @var bool|null
+     */
+    private $enableCustomMessageControl = null;
+
+    /**
+     * @ElementName customNumberOfUsersPerMessage
+     * @Type int
+     * @Optional
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1978
+     * @var int|null
+     */
+    private $customNumberOfUsersPerMessage = null;
+
+    /**
+     * @ElementName customMessageIntervalMilliseconds
+     * @Type int
+     * @Optional
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1978
+     * @var int|null
+     */
+    private $customMessageIntervalMilliseconds = null;
 
     /**
      * Getter for maxTransmissions
@@ -132,6 +164,99 @@ class SystemASRParametersModifyRequest14sp7 extends \CWM\BroadWorksConnector\Oci
     public function unsetListeningPort()
     {
         $this->listeningPort = null;
+        return $this;
+    }
+
+    /**
+     * Getter for enableCustomMessageControl
+     *
+     * @return bool
+     */
+    public function getEnableCustomMessageControl()
+    {
+        return $this->enableCustomMessageControl instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableCustomMessageControl;
+    }
+
+    /**
+     * Setter for enableCustomMessageControl
+     *
+     * @param bool $enableCustomMessageControl
+     * @return $this
+     */
+    public function setEnableCustomMessageControl($enableCustomMessageControl)
+    {
+        $this->enableCustomMessageControl = $enableCustomMessageControl;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetEnableCustomMessageControl()
+    {
+        $this->enableCustomMessageControl = null;
+        return $this;
+    }
+
+    /**
+     * Getter for customNumberOfUsersPerMessage
+     *
+     * @return int
+     */
+    public function getCustomNumberOfUsersPerMessage()
+    {
+        return $this->customNumberOfUsersPerMessage instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->customNumberOfUsersPerMessage;
+    }
+
+    /**
+     * Setter for customNumberOfUsersPerMessage
+     *
+     * @param int $customNumberOfUsersPerMessage
+     * @return $this
+     */
+    public function setCustomNumberOfUsersPerMessage($customNumberOfUsersPerMessage)
+    {
+        $this->customNumberOfUsersPerMessage = $customNumberOfUsersPerMessage;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetCustomNumberOfUsersPerMessage()
+    {
+        $this->customNumberOfUsersPerMessage = null;
+        return $this;
+    }
+
+    /**
+     * Getter for customMessageIntervalMilliseconds
+     *
+     * @return int
+     */
+    public function getCustomMessageIntervalMilliseconds()
+    {
+        return $this->customMessageIntervalMilliseconds instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->customMessageIntervalMilliseconds;
+    }
+
+    /**
+     * Setter for customMessageIntervalMilliseconds
+     *
+     * @param int $customMessageIntervalMilliseconds
+     * @return $this
+     */
+    public function setCustomMessageIntervalMilliseconds($customMessageIntervalMilliseconds)
+    {
+        $this->customMessageIntervalMilliseconds = $customMessageIntervalMilliseconds;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetCustomMessageIntervalMilliseconds()
+    {
+        $this->customMessageIntervalMilliseconds = null;
         return $this;
     }
 

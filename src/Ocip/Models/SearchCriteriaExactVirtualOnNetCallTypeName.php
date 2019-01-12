@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Criteria for searching for a particular fully specified Virtual On-Net Call Type Name.
  *
- * @Groups [{"id":"e446bfcbd1f39cbef57d1547014f2bb9:1203","type":"sequence"}]
+ * @Groups [{"id":"f0ada2681ca347fa83b464734259b304:1286","type":"sequence"}]
  */
 class SearchCriteriaExactVirtualOnNetCallTypeName extends SearchCriteria
 {
@@ -15,7 +15,7 @@ class SearchCriteriaExactVirtualOnNetCallTypeName extends SearchCriteria
     /**
      * @ElementName virtualOnNetCallTypeName
      * @Type string
-     * @Group e446bfcbd1f39cbef57d1547014f2bb9:1203
+     * @Group f0ada2681ca347fa83b464734259b304:1286
      * @var string|null
      */
     private $virtualOnNetCallTypeName = null;

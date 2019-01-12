@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupRoutePointDistinctiveRingingGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"08c06bb3683a696d340b1644025134a4:233","type":"sequence"}]
+ * @Groups [{"id":"a27224a048c30ff69eab9209dec841cc:233","type":"sequence"}]
  */
 class GroupRoutePointDistinctiveRingingGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class GroupRoutePointDistinctiveRingingGetRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group 08c06bb3683a696d340b1644025134a4:233
+     * @Group a27224a048c30ff69eab9209dec841cc:233
      * @var string|null
      */
     private $serviceUserId = null;

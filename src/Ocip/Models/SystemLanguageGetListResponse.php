@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The language table column headings are: "Language", "Locale" and "Encoding".
  *
  * @see SystemLanguageGetListRequest
- * @Groups [{"id":"b5f5416d9e71f8e4246cda16c4723744:9794","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:9979","type":"sequence"}]
  */
 class SystemLanguageGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class SystemLanguageGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName defaultLanguage
      * @Type string
-     * @Group b5f5416d9e71f8e4246cda16c4723744:9794
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9979
      * @var string|null
      */
     private $defaultLanguage = null;
@@ -25,7 +25,7 @@ class SystemLanguageGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName languageTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group b5f5416d9e71f8e4246cda16c4723744:9794
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9979
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $languageTable = null;

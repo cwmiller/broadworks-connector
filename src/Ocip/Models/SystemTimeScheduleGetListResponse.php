@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response contains all the system time schedule names.
  *
  * @see SystemTimeScheduleGetListRequest
- * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:28726","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:16017","type":"sequence"}]
  */
 class SystemTimeScheduleGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,7 +19,7 @@ class SystemTimeScheduleGetListResponse extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Type string
      * @Array
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:28726
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:16017
      * @var string[]
      */
     private $timeSchedule = array(

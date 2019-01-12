@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupDirectoryNumberHuntingGetAvailableUserListResponse
  * @see ErrorResponse
- * @Groups [{"id":"62dd97d230d4f161d47e3a5eb26e7b7d:47","type":"sequence"}]
+ * @Groups [{"id":"7c509136e6ce6be616e313c3b28a0449:47","type":"sequence"}]
  */
 class GroupDirectoryNumberHuntingGetAvailableUserListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,7 +21,7 @@ class GroupDirectoryNumberHuntingGetAvailableUserListRequest extends \CWM\BroadW
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group 62dd97d230d4f161d47e3a5eb26e7b7d:47
+     * @Group 7c509136e6ce6be616e313c3b28a0449:47
      * @var string|null
      */
     private $serviceUserId = null;

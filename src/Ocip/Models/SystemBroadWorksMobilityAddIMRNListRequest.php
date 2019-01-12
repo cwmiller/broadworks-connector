@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"6536ac9946b3d8422bec81ad9d995e2b:517","type":"sequence"}]
+ * @Groups [{"id":"f7ae3539fd471e995b07dc1bf8836e2d:652","type":"sequence"}]
  */
 class SystemBroadWorksMobilityAddIMRNListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,7 +21,7 @@ class SystemBroadWorksMobilityAddIMRNListRequest extends \CWM\BroadWorksConnecto
      * @Type string
      * @Array
      * @Optional
-     * @Group 6536ac9946b3d8422bec81ad9d995e2b:517
+     * @Group f7ae3539fd471e995b07dc1bf8836e2d:652
      * @var string[]
      */
     private $imrnNumber = array(
@@ -33,7 +33,7 @@ class SystemBroadWorksMobilityAddIMRNListRequest extends \CWM\BroadWorksConnecto
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DNRange
      * @Array
      * @Optional
-     * @Group 6536ac9946b3d8422bec81ad9d995e2b:517
+     * @Group f7ae3539fd471e995b07dc1bf8836e2d:652
      * @var \CWM\BroadWorksConnector\Ocip\Models\DNRange[]
      */
     private $numberRange = array(

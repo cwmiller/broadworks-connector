@@ -23,7 +23,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           - When no extension is available a blank space is provided instead.
  *
  * @see UserCallNotifyGetRequest
- * @Groups [{"id":"023f6ec367b65a7f37f7a30e155f1985:206","type":"sequence"}]
+ * @Groups [{"id":"26f62134ab1693f4bdddc7c70b20d2eb:257","type":"sequence"}]
  */
 class UserCallNotifyGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -32,7 +32,7 @@ class UserCallNotifyGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\O
      * @ElementName callNotifyEmailAddress
      * @Type string
      * @Optional
-     * @Group 023f6ec367b65a7f37f7a30e155f1985:206
+     * @Group 26f62134ab1693f4bdddc7c70b20d2eb:257
      * @var string|null
      */
     private $callNotifyEmailAddress = null;
@@ -40,7 +40,7 @@ class UserCallNotifyGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\O
     /**
      * @ElementName criteriaTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 023f6ec367b65a7f37f7a30e155f1985:206
+     * @Group 26f62134ab1693f4bdddc7c70b20d2eb:257
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $criteriaTable = null;

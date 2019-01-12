@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the SystemEmergencyCallDDoSProtectionGetRequest.
  *
  * @see SystemEmergencyCallDDoSProtectionGetRequest
- * @Groups [{"id":"b5f5416d9e71f8e4246cda16c4723744:8114","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:8248","type":"sequence"}]
  */
 class SystemEmergencyCallDDoSProtectionGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class SystemEmergencyCallDDoSProtectionGetResponse extends \CWM\BroadWorksConnec
     /**
      * @ElementName enabled
      * @Type bool
-     * @Group b5f5416d9e71f8e4246cda16c4723744:8114
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8248
      * @var bool|null
      */
     private $enabled = null;
@@ -24,7 +24,7 @@ class SystemEmergencyCallDDoSProtectionGetResponse extends \CWM\BroadWorksConnec
     /**
      * @ElementName sampleIntervalSeconds
      * @Type int
-     * @Group b5f5416d9e71f8e4246cda16c4723744:8114
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8248
      * @var int|null
      */
     private $sampleIntervalSeconds = null;
@@ -33,7 +33,7 @@ class SystemEmergencyCallDDoSProtectionGetResponse extends \CWM\BroadWorksConnec
      * @ElementName protectionRate
      * @Type int
      * @Optional
-     * @Group b5f5416d9e71f8e4246cda16c4723744:8114
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8248
      * @var int|null
      */
     private $protectionRate = null;
@@ -41,7 +41,7 @@ class SystemEmergencyCallDDoSProtectionGetResponse extends \CWM\BroadWorksConnec
     /**
      * @ElementName protectionAction
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ProtectionAction
-     * @Group b5f5416d9e71f8e4246cda16c4723744:8114
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8248
      * @var \CWM\BroadWorksConnector\Ocip\Models\ProtectionAction|null
      */
     private $protectionAction = null;

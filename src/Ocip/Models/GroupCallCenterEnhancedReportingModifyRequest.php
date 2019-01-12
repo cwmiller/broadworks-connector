@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SuccessResponse
  * @see ErrorResponse
  * @see GroupCallCenterEnhancedReportingModifyRequest19
- * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:3510","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:23757","type":"sequence"}]
  */
 class GroupCallCenterEnhancedReportingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,7 +21,7 @@ class GroupCallCenterEnhancedReportingModifyRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:3510
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:23757
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -29,7 +29,7 @@ class GroupCallCenterEnhancedReportingModifyRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:3510
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:23757
      * @var string|null
      */
     private $groupId = null;
@@ -38,7 +38,7 @@ class GroupCallCenterEnhancedReportingModifyRequest extends \CWM\BroadWorksConne
      * @ElementName reportingServer
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportServerChoice
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:3510
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:23757
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportServerChoice|null
      */
     private $reportingServer = null;
@@ -47,7 +47,7 @@ class GroupCallCenterEnhancedReportingModifyRequest extends \CWM\BroadWorksConne
      * @ElementName webStatisticSource
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportWebStatisticsSource
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:3510
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:23757
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportWebStatisticsSource|null
      */
     private $webStatisticSource = null;

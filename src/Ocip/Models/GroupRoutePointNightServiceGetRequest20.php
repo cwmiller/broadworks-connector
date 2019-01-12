@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupRoutePointNightServiceGetResponse20
  * @see ErrorResponse
- * @Groups [{"id":"08c06bb3683a696d340b1644025134a4:871","type":"sequence"}]
+ * @Groups [{"id":"a27224a048c30ff69eab9209dec841cc:871","type":"sequence"}]
  */
 class GroupRoutePointNightServiceGetRequest20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupRoutePointNightServiceGetRequest20 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group 08c06bb3683a696d340b1644025134a4:871
+     * @Group a27224a048c30ff69eab9209dec841cc:871
      * @var string|null
      */
     private $serviceUserId = null;

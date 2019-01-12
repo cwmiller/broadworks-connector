@@ -5,7 +5,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemVoiceMessagingGroupModifyVoicePortalMenusRequestVoicePortalLoginMenuKeys
  *
- * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:32013","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:27648","type":"sequence"}]
  */
 class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestVoicePortalLoginMenuKeys
 {
@@ -15,7 +15,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestVoicePortalLoginMenu
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:32013
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:27648
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $accessUsingOtherMailboxId = null;

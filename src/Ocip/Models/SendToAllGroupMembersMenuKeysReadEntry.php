@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * The voice portal send to all group memeber menu keys.
  *
- * @Groups [{"id":"80c5986946137c505e41f6008c7f75a8:3029","type":"sequence"}]
+ * @Groups [{"id":"3347d430e0d5c93a9ff8dcf0e3b60d6c:3083","type":"sequence"}]
  */
 class SendToAllGroupMembersMenuKeysReadEntry
 {
@@ -15,7 +15,7 @@ class SendToAllGroupMembersMenuKeysReadEntry
     /**
      * @ElementName confirmSendingToEntireGroup
      * @Type string
-     * @Group 80c5986946137c505e41f6008c7f75a8:3029
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:3083
      * @var string|null
      */
     private $confirmSendingToEntireGroup = null;
@@ -23,7 +23,7 @@ class SendToAllGroupMembersMenuKeysReadEntry
     /**
      * @ElementName cancelSendingToEntireGroup
      * @Type string
-     * @Group 80c5986946137c505e41f6008c7f75a8:3029
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:3083
      * @var string|null
      */
     private $cancelSendingToEntireGroup = null;

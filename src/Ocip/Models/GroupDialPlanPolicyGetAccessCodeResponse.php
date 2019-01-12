@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to GroupDialPlanPolicyGetAccessCodeRequest
  *
  * @see GroupDialPlanPolicyGetAccessCodeRequest
- * @Groups [{"id":"15129cd25fa2d5581f4edfd652c24f93:3811","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:3911","type":"sequence"}]
  */
 class GroupDialPlanPolicyGetAccessCodeResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class GroupDialPlanPolicyGetAccessCodeResponse extends \CWM\BroadWorksConnector\
     /**
      * @ElementName includeCodeForNetworkTranslationsAndRouting
      * @Type bool
-     * @Group 15129cd25fa2d5581f4edfd652c24f93:3811
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:3911
      * @var bool|null
      */
     private $includeCodeForNetworkTranslationsAndRouting = null;
@@ -24,7 +24,7 @@ class GroupDialPlanPolicyGetAccessCodeResponse extends \CWM\BroadWorksConnector\
     /**
      * @ElementName includeCodeForScreeningServices
      * @Type bool
-     * @Group 15129cd25fa2d5581f4edfd652c24f93:3811
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:3911
      * @var bool|null
      */
     private $includeCodeForScreeningServices = null;
@@ -32,7 +32,7 @@ class GroupDialPlanPolicyGetAccessCodeResponse extends \CWM\BroadWorksConnector\
     /**
      * @ElementName enableSecondaryDialTone
      * @Type bool
-     * @Group 15129cd25fa2d5581f4edfd652c24f93:3811
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:3911
      * @var bool|null
      */
     private $enableSecondaryDialTone = null;
@@ -41,7 +41,7 @@ class GroupDialPlanPolicyGetAccessCodeResponse extends \CWM\BroadWorksConnector\
      * @ElementName description
      * @Type string
      * @Optional
-     * @Group 15129cd25fa2d5581f4edfd652c24f93:3811
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:3911
      * @var string|null
      */
     private $description = null;

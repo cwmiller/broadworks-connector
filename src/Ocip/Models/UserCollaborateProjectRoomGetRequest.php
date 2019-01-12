@@ -7,12 +7,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Request collaborate room settings for a project room.
  *         The request fails when requesting collaborate room settings for instant rooms or My Room.
- *         The response is either UserCollaborateProjectRoomGetResponse or
+ *         The response is either UserCollaboratProjectRoomGetResponse or 
  *         ErrorResponse.
  *
- * @see UserCollaborateProjectRoomGetResponse
+ * @see UserCollaboratProjectRoomGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"1d655a4f2853eddf47018e01b685b65b:685","type":"sequence"}]
+ * @Groups [{"id":"939fd5846dfae8bdf58308d6cb9ebb12:849","type":"sequence"}]
  */
 class UserCollaborateProjectRoomGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class UserCollaborateProjectRoomGetRequest extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName userId
      * @Type string
-     * @Group 1d655a4f2853eddf47018e01b685b65b:685
+     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:849
      * @var string|null
      */
     private $userId = null;
@@ -28,7 +28,7 @@ class UserCollaborateProjectRoomGetRequest extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName roomId
      * @Type string
-     * @Group 1d655a4f2853eddf47018e01b685b65b:685
+     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:849
      * @var string|null
      */
     private $roomId = null;

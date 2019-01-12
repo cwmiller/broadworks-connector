@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserSelectiveCallAcceptanceGetCriteriaListRequest
  *
  * Get the user's selective call acceptance criteria listing.
- *         The response is either a UserSelectiveCallAcceptanceGetCriteriaListResponse or an ErrorResponse.
+ *         The response is either a UserSelectiveCallAcceptanceGetResponse or an ErrorResponse.
  *
- * @see UserSelectiveCallAcceptanceGetCriteriaListResponse
+ * @see UserSelectiveCallAcceptanceGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"8dbe603c659187d0985d1e5fb7f32eb1:91","type":"sequence"}]
+ * @Groups [{"id":"e8517420bc6d5462dc1b2d9f82295894:90","type":"sequence"}]
  */
 class UserSelectiveCallAcceptanceGetCriteriaListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserSelectiveCallAcceptanceGetCriteriaListRequest extends \CWM\BroadWorksC
     /**
      * @ElementName userId
      * @Type string
-     * @Group 8dbe603c659187d0985d1e5fb7f32eb1:91
+     * @Group e8517420bc6d5462dc1b2d9f82295894:90
      * @var string|null
      */
     private $userId = null;

@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Outgoing Calling Plan being forwarded/transferred permissions.
  *
- * @Groups [{"id":"80676ea6f2582b1b88573623a6affc0e:2124","type":"sequence"}]
+ * @Groups [{"id":"6f793dfca9bd3d121bb35e0f9cf1cb2e:2123","type":"sequence"}]
  */
 class OutgoingCallingPlanRedirectedPermissionsModify
 {
@@ -16,7 +16,7 @@ class OutgoingCallingPlanRedirectedPermissionsModify
      * @ElementName outsideGroup
      * @Type bool
      * @Optional
-     * @Group 80676ea6f2582b1b88573623a6affc0e:2124
+     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:2123
      * @var bool|null
      */
     private $outsideGroup = null;

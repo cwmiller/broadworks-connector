@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"b5f5416d9e71f8e4246cda16c4723744:15998","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:16311","type":"sequence"}]
  */
 class SystemSubscriberModifyProvisioningParametersRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class SystemSubscriberModifyProvisioningParametersRequest extends \CWM\BroadWork
      * @ElementName configurableCLIDNormalization
      * @Type bool
      * @Optional
-     * @Group b5f5416d9e71f8e4246cda16c4723744:15998
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16311
      * @var bool|null
      */
     private $configurableCLIDNormalization = null;

@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * MWI Delivery To Mobile Endpoint template section associated with a specific tag.
  *
- * @Groups [{"id":"26ea37e78b67054650c3445a62638977:431","type":"sequence"}]
+ * @Groups [{"id":"958b78cc2a785d78259c1e8a474eb40d:431","type":"sequence"}]
  */
 class MWIDeliveryToMobileEndpointTemplateLine
 {
@@ -16,7 +16,7 @@ class MWIDeliveryToMobileEndpointTemplateLine
      * @ElementName prefix
      * @Type string
      * @Optional
-     * @Group 26ea37e78b67054650c3445a62638977:431
+     * @Group 958b78cc2a785d78259c1e8a474eb40d:431
      * @var string|null
      */
     private $prefix = null;
@@ -25,7 +25,7 @@ class MWIDeliveryToMobileEndpointTemplateLine
      * @ElementName tag
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointTemplateTag
      * @Optional
-     * @Group 26ea37e78b67054650c3445a62638977:431
+     * @Group 958b78cc2a785d78259c1e8a474eb40d:431
      * @var \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointTemplateTag|null
      */
     private $tag = null;
@@ -34,7 +34,7 @@ class MWIDeliveryToMobileEndpointTemplateLine
      * @ElementName postfix
      * @Type string
      * @Optional
-     * @Group 26ea37e78b67054650c3445a62638977:431
+     * @Group 958b78cc2a785d78259c1e8a474eb40d:431
      * @var string|null
      */
     private $postfix = null;

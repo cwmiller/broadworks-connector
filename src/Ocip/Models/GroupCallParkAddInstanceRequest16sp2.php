@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"bcea7a1f459e3e037da541b681a13f82:50","type":"sequence"}]
+ * @Groups [{"id":"7a925e891158dfa3cb1319e045608894:55","type":"sequence"}]
  */
 class GroupCallParkAddInstanceRequest16sp2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupCallParkAddInstanceRequest16sp2 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group bcea7a1f459e3e037da541b681a13f82:50
+     * @Group 7a925e891158dfa3cb1319e045608894:55
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,7 +26,7 @@ class GroupCallParkAddInstanceRequest16sp2 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName groupId
      * @Type string
-     * @Group bcea7a1f459e3e037da541b681a13f82:50
+     * @Group 7a925e891158dfa3cb1319e045608894:55
      * @var string|null
      */
     private $groupId = null;
@@ -34,7 +34,7 @@ class GroupCallParkAddInstanceRequest16sp2 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName name
      * @Type string
-     * @Group bcea7a1f459e3e037da541b681a13f82:50
+     * @Group 7a925e891158dfa3cb1319e045608894:55
      * @var string|null
      */
     private $name = null;
@@ -44,7 +44,7 @@ class GroupCallParkAddInstanceRequest16sp2 extends \CWM\BroadWorksConnector\Ocip
      * @Type string
      * @Array
      * @Optional
-     * @Group bcea7a1f459e3e037da541b681a13f82:50
+     * @Group 7a925e891158dfa3cb1319e045608894:55
      * @var string[]
      */
     private $userId = array(
@@ -55,7 +55,7 @@ class GroupCallParkAddInstanceRequest16sp2 extends \CWM\BroadWorksConnector\Ocip
      * @ElementName recallAlternateUserId
      * @Type string
      * @Optional
-     * @Group bcea7a1f459e3e037da541b681a13f82:50
+     * @Group 7a925e891158dfa3cb1319e045608894:55
      * @var string|null
      */
     private $recallAlternateUserId = null;
@@ -63,7 +63,7 @@ class GroupCallParkAddInstanceRequest16sp2 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName recallTo
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallParkRecallTo
-     * @Group bcea7a1f459e3e037da541b681a13f82:50
+     * @Group 7a925e891158dfa3cb1319e045608894:55
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallParkRecallTo|null
      */
     private $recallTo = null;

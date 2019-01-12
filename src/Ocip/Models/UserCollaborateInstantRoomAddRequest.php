@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserCollaborateInstantRoomAddResponse
  * @see ErrorResponse
- * @Groups [{"id":"1d655a4f2853eddf47018e01b685b65b:467","type":"sequence","children":[{"id":"1d655a4f2853eddf47018e01b685b65b:469","type":"choice"}]}]
+ * @Groups [{"id":"939fd5846dfae8bdf58308d6cb9ebb12:631","type":"sequence","children":[{"id":"939fd5846dfae8bdf58308d6cb9ebb12:633","type":"choice"}]}]
  */
 class UserCollaborateInstantRoomAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserCollaborateInstantRoomAddRequest extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName userId
      * @Type string
-     * @Group 1d655a4f2853eddf47018e01b685b65b:467
+     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:631
      * @var string|null
      */
     private $userId = null;
@@ -26,7 +26,7 @@ class UserCollaborateInstantRoomAddRequest extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName roomName
      * @Type string
-     * @Group 1d655a4f2853eddf47018e01b685b65b:469
+     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:633
      * @var string|null
      */
     private $roomName = null;
@@ -34,7 +34,7 @@ class UserCollaborateInstantRoomAddRequest extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName useRoomIdAsRoomName
      * @Type bool
-     * @Group 1d655a4f2853eddf47018e01b685b65b:469
+     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:633
      * @var bool|null
      */
     private $useRoomIdAsRoomName = null;

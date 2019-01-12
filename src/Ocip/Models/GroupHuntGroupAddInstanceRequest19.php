@@ -17,7 +17,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SuccessResponse
  * @see ErrorResponse
  * @see GroupHuntGroupAddInstanceRequest20
- * @Groups [{"id":"bb12a3589ab4748963f28f7ac9310f70:1154","type":"sequence"}]
+ * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:621","type":"sequence"}]
  */
 class GroupHuntGroupAddInstanceRequest19 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -25,7 +25,7 @@ class GroupHuntGroupAddInstanceRequest19 extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group bb12a3589ab4748963f28f7ac9310f70:1154
+     * @Group de4d76f01f337fe4694212ec9f771753:621
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -33,7 +33,7 @@ class GroupHuntGroupAddInstanceRequest19 extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName groupId
      * @Type string
-     * @Group bb12a3589ab4748963f28f7ac9310f70:1154
+     * @Group de4d76f01f337fe4694212ec9f771753:621
      * @var string|null
      */
     private $groupId = null;
@@ -41,7 +41,7 @@ class GroupHuntGroupAddInstanceRequest19 extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group bb12a3589ab4748963f28f7ac9310f70:1154
+     * @Group de4d76f01f337fe4694212ec9f771753:621
      * @var string|null
      */
     private $serviceUserId = null;
@@ -49,7 +49,7 @@ class GroupHuntGroupAddInstanceRequest19 extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName serviceInstanceProfile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceAddProfile
-     * @Group bb12a3589ab4748963f28f7ac9310f70:1154
+     * @Group de4d76f01f337fe4694212ec9f771753:621
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceAddProfile|null
      */
     private $serviceInstanceProfile = null;
@@ -57,7 +57,7 @@ class GroupHuntGroupAddInstanceRequest19 extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName policy
      * @Type \CWM\BroadWorksConnector\Ocip\Models\HuntPolicy
-     * @Group bb12a3589ab4748963f28f7ac9310f70:1154
+     * @Group de4d76f01f337fe4694212ec9f771753:621
      * @var \CWM\BroadWorksConnector\Ocip\Models\HuntPolicy|null
      */
     private $policy = null;
@@ -65,7 +65,7 @@ class GroupHuntGroupAddInstanceRequest19 extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName huntAfterNoAnswer
      * @Type bool
-     * @Group bb12a3589ab4748963f28f7ac9310f70:1154
+     * @Group de4d76f01f337fe4694212ec9f771753:621
      * @var bool|null
      */
     private $huntAfterNoAnswer = null;
@@ -73,7 +73,7 @@ class GroupHuntGroupAddInstanceRequest19 extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName noAnswerNumberOfRings
      * @Type int
-     * @Group bb12a3589ab4748963f28f7ac9310f70:1154
+     * @Group de4d76f01f337fe4694212ec9f771753:621
      * @var int|null
      */
     private $noAnswerNumberOfRings = null;
@@ -81,7 +81,7 @@ class GroupHuntGroupAddInstanceRequest19 extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName forwardAfterTimeout
      * @Type bool
-     * @Group bb12a3589ab4748963f28f7ac9310f70:1154
+     * @Group de4d76f01f337fe4694212ec9f771753:621
      * @var bool|null
      */
     private $forwardAfterTimeout = null;
@@ -89,7 +89,7 @@ class GroupHuntGroupAddInstanceRequest19 extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName forwardTimeoutSeconds
      * @Type int
-     * @Group bb12a3589ab4748963f28f7ac9310f70:1154
+     * @Group de4d76f01f337fe4694212ec9f771753:621
      * @var int|null
      */
     private $forwardTimeoutSeconds = null;
@@ -98,7 +98,7 @@ class GroupHuntGroupAddInstanceRequest19 extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName forwardToPhoneNumber
      * @Type string
      * @Optional
-     * @Group bb12a3589ab4748963f28f7ac9310f70:1154
+     * @Group de4d76f01f337fe4694212ec9f771753:621
      * @var string|null
      */
     private $forwardToPhoneNumber = null;
@@ -108,7 +108,7 @@ class GroupHuntGroupAddInstanceRequest19 extends \CWM\BroadWorksConnector\Ocip\M
      * @Type string
      * @Array
      * @Optional
-     * @Group bb12a3589ab4748963f28f7ac9310f70:1154
+     * @Group de4d76f01f337fe4694212ec9f771753:621
      * @var string[]
      */
     private $agentUserId = array(
@@ -118,7 +118,7 @@ class GroupHuntGroupAddInstanceRequest19 extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName allowCallWaitingForAgents
      * @Type bool
-     * @Group bb12a3589ab4748963f28f7ac9310f70:1154
+     * @Group de4d76f01f337fe4694212ec9f771753:621
      * @var bool|null
      */
     private $allowCallWaitingForAgents = null;
@@ -126,7 +126,7 @@ class GroupHuntGroupAddInstanceRequest19 extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName useSystemHuntGroupCLIDSetting
      * @Type bool
-     * @Group bb12a3589ab4748963f28f7ac9310f70:1154
+     * @Group de4d76f01f337fe4694212ec9f771753:621
      * @var bool|null
      */
     private $useSystemHuntGroupCLIDSetting = null;
@@ -134,7 +134,7 @@ class GroupHuntGroupAddInstanceRequest19 extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName includeHuntGroupNameInCLID
      * @Type bool
-     * @Group bb12a3589ab4748963f28f7ac9310f70:1154
+     * @Group de4d76f01f337fe4694212ec9f771753:621
      * @var bool|null
      */
     private $includeHuntGroupNameInCLID = null;
@@ -142,7 +142,7 @@ class GroupHuntGroupAddInstanceRequest19 extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName enableNotReachableForwarding
      * @Type bool
-     * @Group bb12a3589ab4748963f28f7ac9310f70:1154
+     * @Group de4d76f01f337fe4694212ec9f771753:621
      * @var bool|null
      */
     private $enableNotReachableForwarding = null;
@@ -151,7 +151,7 @@ class GroupHuntGroupAddInstanceRequest19 extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName notReachableForwardToPhoneNumber
      * @Type string
      * @Optional
-     * @Group bb12a3589ab4748963f28f7ac9310f70:1154
+     * @Group de4d76f01f337fe4694212ec9f771753:621
      * @var string|null
      */
     private $notReachableForwardToPhoneNumber = null;
@@ -159,7 +159,7 @@ class GroupHuntGroupAddInstanceRequest19 extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName makeBusyWhenNotReachable
      * @Type bool
-     * @Group bb12a3589ab4748963f28f7ac9310f70:1154
+     * @Group de4d76f01f337fe4694212ec9f771753:621
      * @var bool|null
      */
     private $makeBusyWhenNotReachable = null;
@@ -167,7 +167,7 @@ class GroupHuntGroupAddInstanceRequest19 extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName allowMembersToControlGroupBusy
      * @Type bool
-     * @Group bb12a3589ab4748963f28f7ac9310f70:1154
+     * @Group de4d76f01f337fe4694212ec9f771753:621
      * @var bool|null
      */
     private $allowMembersToControlGroupBusy = null;
@@ -175,7 +175,7 @@ class GroupHuntGroupAddInstanceRequest19 extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName enableGroupBusy
      * @Type bool
-     * @Group bb12a3589ab4748963f28f7ac9310f70:1154
+     * @Group de4d76f01f337fe4694212ec9f771753:621
      * @var bool|null
      */
     private $enableGroupBusy = null;
@@ -184,7 +184,7 @@ class GroupHuntGroupAddInstanceRequest19 extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName networkClassOfService
      * @Type string
      * @Optional
-     * @Group bb12a3589ab4748963f28f7ac9310f70:1154
+     * @Group de4d76f01f337fe4694212ec9f771753:621
      * @var string|null
      */
     private $networkClassOfService = null;

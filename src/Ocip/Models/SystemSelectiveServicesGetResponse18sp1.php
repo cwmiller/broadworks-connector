@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemSelectiveServicesGetRequest18sp1.
  *
  * @see SystemSelectiveServicesGetRequest18sp1
- * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:24192","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:37453","type":"sequence"}]
  */
 class SystemSelectiveServicesGetResponse18sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class SystemSelectiveServicesGetResponse18sp1 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName scheduleCombination
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ScheduleCombinationType
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:24192
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:37453
      * @var \CWM\BroadWorksConnector\Ocip\Models\ScheduleCombinationType|null
      */
     private $scheduleCombination = null;
@@ -24,7 +24,7 @@ class SystemSelectiveServicesGetResponse18sp1 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName screenPrivateNumber
      * @Type bool
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:24192
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:37453
      * @var bool|null
      */
     private $screenPrivateNumber = null;

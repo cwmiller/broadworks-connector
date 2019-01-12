@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserCallForwardingNotReachableGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"0b08bcdbff7b3c2f555d0cdaf5652e32:44","type":"sequence"}]
+ * @Groups [{"id":"894e3bfe658bf9c3ec06aa2fd09fdd43:44","type":"sequence"}]
  */
 class UserCallForwardingNotReachableGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class UserCallForwardingNotReachableGetRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName userId
      * @Type string
-     * @Group 0b08bcdbff7b3c2f555d0cdaf5652e32:44
+     * @Group 894e3bfe658bf9c3ec06aa2fd09fdd43:44
      * @var string|null
      */
     private $userId = null;

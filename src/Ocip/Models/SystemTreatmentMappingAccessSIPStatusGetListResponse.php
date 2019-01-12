@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The table columns are: "SIP Status Code", "Treatment Id".
  *
  * @see SystemTreatmentMappingAccessSIPStatusGetListRequest
- * @Groups [{"id":"b5f5416d9e71f8e4246cda16c4723744:16437","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:16750","type":"sequence"}]
  */
 class SystemTreatmentMappingAccessSIPStatusGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class SystemTreatmentMappingAccessSIPStatusGetListResponse extends \CWM\BroadWor
     /**
      * @ElementName treatmentMappingTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group b5f5416d9e71f8e4246cda16c4723744:16437
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16750
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $treatmentMappingTable = null;

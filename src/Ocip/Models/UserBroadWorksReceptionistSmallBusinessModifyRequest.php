@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"452824ff4ca32a49de7f4a39514ef560:122","type":"sequence"}]
+ * @Groups [{"id":"d8ae66e5f02195a36162958f9d5115db:122","type":"sequence"}]
  */
 class UserBroadWorksReceptionistSmallBusinessModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserBroadWorksReceptionistSmallBusinessModifyRequest extends \CWM\BroadWor
     /**
      * @ElementName userId
      * @Type string
-     * @Group 452824ff4ca32a49de7f4a39514ef560:122
+     * @Group d8ae66e5f02195a36162958f9d5115db:122
      * @var string|null
      */
     private $userId = null;
@@ -28,7 +28,7 @@ class UserBroadWorksReceptionistSmallBusinessModifyRequest extends \CWM\BroadWor
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList
      * @Nillable
      * @Optional
-     * @Group 452824ff4ca32a49de7f4a39514ef560:122
+     * @Group d8ae66e5f02195a36162958f9d5115db:122
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $monitoredUserIdList = null;

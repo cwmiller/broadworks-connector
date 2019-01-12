@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the GroupCustomRingbackGroupGetRequest20.
  *
  * @see GroupCustomRingbackGroupGetRequest20
- * @Groups [{"id":"8a23aaf1ac27e4cc24358bde118786dd:63","type":"sequence"}]
+ * @Groups [{"id":"80acd3e6f38b9682dcefe7cd473392c3:63","type":"sequence"}]
  */
 class GroupCustomRingbackGroupGetResponse20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class GroupCustomRingbackGroupGetResponse20 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group 8a23aaf1ac27e4cc24358bde118786dd:63
+     * @Group 80acd3e6f38b9682dcefe7cd473392c3:63
      * @var bool|null
      */
     private $isActive = null;
@@ -24,7 +24,7 @@ class GroupCustomRingbackGroupGetResponse20 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName audioSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
-     * @Group 8a23aaf1ac27e4cc24358bde118786dd:63
+     * @Group 80acd3e6f38b9682dcefe7cd473392c3:63
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     private $audioSelection = null;
@@ -33,7 +33,7 @@ class GroupCustomRingbackGroupGetResponse20 extends \CWM\BroadWorksConnector\Oci
      * @ElementName audioFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey
      * @Optional
-     * @Group 8a23aaf1ac27e4cc24358bde118786dd:63
+     * @Group 80acd3e6f38b9682dcefe7cd473392c3:63
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey|null
      */
     private $audioFile = null;
@@ -42,7 +42,7 @@ class GroupCustomRingbackGroupGetResponse20 extends \CWM\BroadWorksConnector\Oci
      * @ElementName audioFileUrl
      * @Type string
      * @Optional
-     * @Group 8a23aaf1ac27e4cc24358bde118786dd:63
+     * @Group 80acd3e6f38b9682dcefe7cd473392c3:63
      * @var string|null
      */
     private $audioFileUrl = null;
@@ -50,7 +50,7 @@ class GroupCustomRingbackGroupGetResponse20 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName videoSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
-     * @Group 8a23aaf1ac27e4cc24358bde118786dd:63
+     * @Group 80acd3e6f38b9682dcefe7cd473392c3:63
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     private $videoSelection = null;
@@ -59,7 +59,7 @@ class GroupCustomRingbackGroupGetResponse20 extends \CWM\BroadWorksConnector\Oci
      * @ElementName videoFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey
      * @Optional
-     * @Group 8a23aaf1ac27e4cc24358bde118786dd:63
+     * @Group 80acd3e6f38b9682dcefe7cd473392c3:63
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey|null
      */
     private $videoFile = null;
@@ -68,7 +68,7 @@ class GroupCustomRingbackGroupGetResponse20 extends \CWM\BroadWorksConnector\Oci
      * @ElementName videoFileUrl
      * @Type string
      * @Optional
-     * @Group 8a23aaf1ac27e4cc24358bde118786dd:63
+     * @Group 80acd3e6f38b9682dcefe7cd473392c3:63
      * @var string|null
      */
     private $videoFileUrl = null;

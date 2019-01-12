@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         are "Name" and "Description"
  *
  * @see SystemCommunicationBarringProfileGetIncomingCriteriaUsageListRequest
- * @Groups [{"id":"b5f5416d9e71f8e4246cda16c4723744:5640","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:5759","type":"sequence"}]
  */
 class SystemCommunicationBarringProfileGetIncomingCriteriaUsageListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,7 +19,7 @@ class SystemCommunicationBarringProfileGetIncomingCriteriaUsageListResponse exte
     /**
      * @ElementName profileTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group b5f5416d9e71f8e4246cda16c4723744:5640
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:5759
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $profileTable = null;

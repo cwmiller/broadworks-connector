@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *        Contains the authentication lockout settings in the system.
  *
  * @see SystemAuthenticationLockoutSettingsGetRequest
- * @Groups [{"id":"b5f5416d9e71f8e4246cda16c4723744:2005","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:2029","type":"sequence"}]
  */
 class SystemAuthenticationLockoutSettingsGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class SystemAuthenticationLockoutSettingsGetResponse extends \CWM\BroadWorksConn
     /**
      * @ElementName counterResetIntervalDays
      * @Type int
-     * @Group b5f5416d9e71f8e4246cda16c4723744:2005
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2029
      * @var int|null
      */
     private $counterResetIntervalDays = null;
@@ -25,7 +25,7 @@ class SystemAuthenticationLockoutSettingsGetResponse extends \CWM\BroadWorksConn
     /**
      * @ElementName counterResetHour
      * @Type int
-     * @Group b5f5416d9e71f8e4246cda16c4723744:2005
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2029
      * @var int|null
      */
     private $counterResetHour = null;
@@ -33,7 +33,7 @@ class SystemAuthenticationLockoutSettingsGetResponse extends \CWM\BroadWorksConn
     /**
      * @ElementName counterResetMinute
      * @Type int
-     * @Group b5f5416d9e71f8e4246cda16c4723744:2005
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2029
      * @var int|null
      */
     private $counterResetMinute = null;
@@ -41,7 +41,7 @@ class SystemAuthenticationLockoutSettingsGetResponse extends \CWM\BroadWorksConn
     /**
      * @ElementName emergencySIPBypassAllowed
      * @Type bool
-     * @Group b5f5416d9e71f8e4246cda16c4723744:2005
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2029
      * @var bool|null
      */
     private $emergencySIPBypassAllowed = null;

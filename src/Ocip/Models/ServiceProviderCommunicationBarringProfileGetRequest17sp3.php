@@ -14,7 +14,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see ServiceProviderCommunicationBarringProfileGetResponse17sp3
  * @see ErrorResponse
  * @see ServiceProviderCommunicationBarringProfileGetRequest19sp1V2
- * @Groups [{"id":"bb12a3589ab4748963f28f7ac9310f70:2580","type":"sequence"}]
+ * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:1207","type":"sequence"}]
  */
 class ServiceProviderCommunicationBarringProfileGetRequest17sp3 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -22,7 +22,7 @@ class ServiceProviderCommunicationBarringProfileGetRequest17sp3 extends \CWM\Bro
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group bb12a3589ab4748963f28f7ac9310f70:2580
+     * @Group de4d76f01f337fe4694212ec9f771753:1207
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -30,7 +30,7 @@ class ServiceProviderCommunicationBarringProfileGetRequest17sp3 extends \CWM\Bro
     /**
      * @ElementName name
      * @Type string
-     * @Group bb12a3589ab4748963f28f7ac9310f70:2580
+     * @Group de4d76f01f337fe4694212ec9f771753:1207
      * @var string|null
      */
     private $name = null;

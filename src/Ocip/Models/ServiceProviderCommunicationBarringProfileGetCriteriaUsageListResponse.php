@@ -5,10 +5,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * ServiceProviderCommunicationBarringProfileGetCriteriaUsageListResponse
  *
- * Response to ServiceProviderCommunicationBarringProfileGetCriteriaUsageListRequest.  Contains a table of profiles that have the Communication Barring Criteria assigned. The column headings are: "Name" and "Description".
+ * Response to ServiceProviderCommunicationBarring ProfileGetCriteriaUsageListRequest.  Contains a table of profiles that have the Communication Barring Criteria assigned. The column headings are: "Name" and "Description".
  *
- * @see ServiceProviderCommunicationBarringProfileGetCriteriaUsageListRequest
- * @Groups [{"id":"8eb862aea0ee5d4211db0a0d3fe7c164:1820","type":"sequence"}]
+ * @see ProfileGetCriteriaUsageListRequest
+ * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:1879","type":"sequence"}]
  */
 class ServiceProviderCommunicationBarringProfileGetCriteriaUsageListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class ServiceProviderCommunicationBarringProfileGetCriteriaUsageListResponse ext
     /**
      * @ElementName profileTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:1820
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1879
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $profileTable = null;

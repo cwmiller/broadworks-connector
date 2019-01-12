@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"c81ec650475acb5cc7b075c4582c12ba:58","type":"sequence","children":[{"id":"c81ec650475acb5cc7b075c4582c12ba:65","type":"choice","optional":true}]}]
+ * @Groups [{"id":"79f226053ee345f2ff4c37c37c8e9114:57","type":"sequence","children":[{"id":"79f226053ee345f2ff4c37c37c8e9114:64","type":"choice","optional":true}]}]
  */
 class GroupFindMeFollowMeAddAlertingGroupRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupFindMeFollowMeAddAlertingGroupRequest extends \CWM\BroadWorksConnecto
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group c81ec650475acb5cc7b075c4582c12ba:58
+     * @Group 79f226053ee345f2ff4c37c37c8e9114:57
      * @var string|null
      */
     private $serviceUserId = null;
@@ -26,7 +26,7 @@ class GroupFindMeFollowMeAddAlertingGroupRequest extends \CWM\BroadWorksConnecto
     /**
      * @ElementName alertingGroupName
      * @Type string
-     * @Group c81ec650475acb5cc7b075c4582c12ba:58
+     * @Group 79f226053ee345f2ff4c37c37c8e9114:57
      * @var string|null
      */
     private $alertingGroupName = null;
@@ -35,7 +35,7 @@ class GroupFindMeFollowMeAddAlertingGroupRequest extends \CWM\BroadWorksConnecto
      * @ElementName alertingGroupDescription
      * @Type string
      * @Optional
-     * @Group c81ec650475acb5cc7b075c4582c12ba:58
+     * @Group 79f226053ee345f2ff4c37c37c8e9114:57
      * @var string|null
      */
     private $alertingGroupDescription = null;
@@ -43,7 +43,7 @@ class GroupFindMeFollowMeAddAlertingGroupRequest extends \CWM\BroadWorksConnecto
     /**
      * @ElementName useDiversionInhibitor
      * @Type bool
-     * @Group c81ec650475acb5cc7b075c4582c12ba:58
+     * @Group 79f226053ee345f2ff4c37c37c8e9114:57
      * @var bool|null
      */
     private $useDiversionInhibitor = null;
@@ -51,7 +51,7 @@ class GroupFindMeFollowMeAddAlertingGroupRequest extends \CWM\BroadWorksConnecto
     /**
      * @ElementName answerConfirmationRequired
      * @Type bool
-     * @Group c81ec650475acb5cc7b075c4582c12ba:58
+     * @Group 79f226053ee345f2ff4c37c37c8e9114:57
      * @var bool|null
      */
     private $answerConfirmationRequired = null;
@@ -59,7 +59,7 @@ class GroupFindMeFollowMeAddAlertingGroupRequest extends \CWM\BroadWorksConnecto
     /**
      * @ElementName numberOfRings
      * @Type int
-     * @Group c81ec650475acb5cc7b075c4582c12ba:58
+     * @Group 79f226053ee345f2ff4c37c37c8e9114:57
      * @var int|null
      */
     private $numberOfRings = null;
@@ -67,7 +67,7 @@ class GroupFindMeFollowMeAddAlertingGroupRequest extends \CWM\BroadWorksConnecto
     /**
      * @ElementName phoneNumber
      * @Type string
-     * @Group c81ec650475acb5cc7b075c4582c12ba:65
+     * @Group 79f226053ee345f2ff4c37c37c8e9114:64
      * @var string|null
      */
     private $phoneNumber = null;
@@ -75,7 +75,7 @@ class GroupFindMeFollowMeAddAlertingGroupRequest extends \CWM\BroadWorksConnecto
     /**
      * @ElementName userId
      * @Type string
-     * @Group c81ec650475acb5cc7b075c4582c12ba:65
+     * @Group 79f226053ee345f2ff4c37c37c8e9114:64
      * @var string|null
      */
     private $userId = null;

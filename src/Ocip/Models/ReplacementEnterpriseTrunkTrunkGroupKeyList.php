@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * A list of Enterprise Trunk Krunk Group Keys that replaces a previously configured list.
  *         By convention, an element of this type may be set nill to clear the list.
  *
- * @Groups [{"id":"762df656d5a3c5800001b37599b1e4ce:1811","type":"sequence"}]
+ * @Groups [{"id":"b9c14e2d80e4e7749688ca13ba233b44:1817","type":"sequence"}]
  */
 class ReplacementEnterpriseTrunkTrunkGroupKeyList
 {
@@ -17,7 +17,7 @@ class ReplacementEnterpriseTrunkTrunkGroupKeyList
      * @ElementName trunkGroupList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EnterpriseTrunkTrunkGroupKey
      * @Array
-     * @Group 762df656d5a3c5800001b37599b1e4ce:1811
+     * @Group b9c14e2d80e4e7749688ca13ba233b44:1817
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseTrunkTrunkGroupKey[]
      */
     private $trunkGroupList = array(

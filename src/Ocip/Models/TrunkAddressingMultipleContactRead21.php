@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * TrunkAddressingMultipleContactRead21
  *
  * Trunk group endpoint that can have multiple contacts.
- *         alternateTrunkIdentityDomain is only used in XS mode.
+ *         alternateTrunkIdentityDomain is only used in XS mode and the AS when deployed in IMS mode.
  *         The following elements are only used in AS data mode and ignored in XS data mode:
  *           alternateTrunkIdentityDomain
  *
- * @Groups [{"id":"8e629edbac315ae7889caca732382c44:3708","type":"sequence"}]
+ * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:4072","type":"sequence"}]
  */
 class TrunkAddressingMultipleContactRead21
 {
@@ -19,7 +19,7 @@ class TrunkAddressingMultipleContactRead21
      * @ElementName trunkGroupDeviceEndpoint
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupDeviceMultipleContactEndpointRead
      * @Optional
-     * @Group 8e629edbac315ae7889caca732382c44:3708
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:4072
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupDeviceMultipleContactEndpointRead|null
      */
     private $trunkGroupDeviceEndpoint = null;
@@ -28,7 +28,7 @@ class TrunkAddressingMultipleContactRead21
      * @ElementName enterpriseTrunkName
      * @Type string
      * @Optional
-     * @Group 8e629edbac315ae7889caca732382c44:3708
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:4072
      * @var string|null
      */
     private $enterpriseTrunkName = null;
@@ -37,7 +37,7 @@ class TrunkAddressingMultipleContactRead21
      * @ElementName alternateTrunkIdentity
      * @Type string
      * @Optional
-     * @Group 8e629edbac315ae7889caca732382c44:3708
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:4072
      * @var string|null
      */
     private $alternateTrunkIdentity = null;
@@ -46,7 +46,7 @@ class TrunkAddressingMultipleContactRead21
      * @ElementName alternateTrunkIdentityDomain
      * @Type string
      * @Optional
-     * @Group 8e629edbac315ae7889caca732382c44:3708
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:4072
      * @var string|null
      */
     private $alternateTrunkIdentityDomain = null;

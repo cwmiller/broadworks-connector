@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserBroadWorksReceptionistOfficeGetAvailableUserListResponse
  * @see ErrorResponse
- * @Groups [{"id":"65f3eb452056e4cda1627e1225a693dd:43","type":"sequence"}]
+ * @Groups [{"id":"4085b673b5035cde8e8ce380d60d6aed:43","type":"sequence"}]
  */
 class UserBroadWorksReceptionistOfficeGetAvailableUserListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserBroadWorksReceptionistOfficeGetAvailableUserListRequest extends \CWM\B
     /**
      * @ElementName userId
      * @Type string
-     * @Group 65f3eb452056e4cda1627e1225a693dd:43
+     * @Group 4085b673b5035cde8e8ce380d60d6aed:43
      * @var string|null
      */
     private $userId = null;
@@ -27,7 +27,7 @@ class UserBroadWorksReceptionistOfficeGetAvailableUserListRequest extends \CWM\B
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group 65f3eb452056e4cda1627e1225a693dd:43
+     * @Group 4085b673b5035cde8e8ce380d60d6aed:43
      * @var int|null
      */
     private $responseSizeLimit = null;
@@ -37,7 +37,7 @@ class UserBroadWorksReceptionistOfficeGetAvailableUserListRequest extends \CWM\B
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName
      * @Array
      * @Optional
-     * @Group 65f3eb452056e4cda1627e1225a693dd:43
+     * @Group 4085b673b5035cde8e8ce380d60d6aed:43
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[]
      */
     private $searchCriteriaUserLastName = array(
@@ -49,7 +49,7 @@ class UserBroadWorksReceptionistOfficeGetAvailableUserListRequest extends \CWM\B
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName
      * @Array
      * @Optional
-     * @Group 65f3eb452056e4cda1627e1225a693dd:43
+     * @Group 4085b673b5035cde8e8ce380d60d6aed:43
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName[]
      */
     private $searchCriteriaUserFirstName = array(
@@ -60,7 +60,7 @@ class UserBroadWorksReceptionistOfficeGetAvailableUserListRequest extends \CWM\B
      * @ElementName searchCriteriaExactUserDepartment
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment
      * @Optional
-     * @Group 65f3eb452056e4cda1627e1225a693dd:43
+     * @Group 4085b673b5035cde8e8ce380d60d6aed:43
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment|null
      */
     private $searchCriteriaExactUserDepartment = null;
@@ -70,7 +70,7 @@ class UserBroadWorksReceptionistOfficeGetAvailableUserListRequest extends \CWM\B
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId
      * @Array
      * @Optional
-     * @Group 65f3eb452056e4cda1627e1225a693dd:43
+     * @Group 4085b673b5035cde8e8ce380d60d6aed:43
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId[]
      */
     private $searchCriteriaUserId = array(
@@ -82,7 +82,7 @@ class UserBroadWorksReceptionistOfficeGetAvailableUserListRequest extends \CWM\B
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn
      * @Array
      * @Optional
-     * @Group 65f3eb452056e4cda1627e1225a693dd:43
+     * @Group 4085b673b5035cde8e8ce380d60d6aed:43
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[]
      */
     private $searchCriteriaDn = array(
@@ -94,7 +94,7 @@ class UserBroadWorksReceptionistOfficeGetAvailableUserListRequest extends \CWM\B
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension
      * @Array
      * @Optional
-     * @Group 65f3eb452056e4cda1627e1225a693dd:43
+     * @Group 4085b673b5035cde8e8ce380d60d6aed:43
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension[]
      */
     private $searchCriteriaExtension = array(
@@ -106,7 +106,7 @@ class UserBroadWorksReceptionistOfficeGetAvailableUserListRequest extends \CWM\B
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaImpId
      * @Array
      * @Optional
-     * @Group 65f3eb452056e4cda1627e1225a693dd:43
+     * @Group 4085b673b5035cde8e8ce380d60d6aed:43
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaImpId[]
      */
     private $searchCriteriaImpId = array(

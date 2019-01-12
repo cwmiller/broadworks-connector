@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see GroupPolicyGetResponse14sp1
  * @see ErrorResponse
  * @see GroupPolicyGetRequest14sp4
- * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:10179","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:1878","type":"sequence"}]
  */
 class GroupPolicyGetRequest14sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class GroupPolicyGetRequest14sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:10179
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:1878
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -28,7 +28,7 @@ class GroupPolicyGetRequest14sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:10179
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:1878
      * @var string|null
      */
     private $groupId = null;

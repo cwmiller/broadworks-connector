@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"54d69397476ad35e338e87eedfeefacf:72","type":"sequence","children":[{"id":"54d69397476ad35e338e87eedfeefacf:75","type":"choice"}]}]
+ * @Groups [{"id":"9db4d5fa1bbf70f2626f52a5d6e3420e:72","type":"sequence","children":[{"id":"9db4d5fa1bbf70f2626f52a5d6e3420e:75","type":"choice"}]}]
  */
 class UserAuthenticationModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserAuthenticationModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName userId
      * @Type string
-     * @Group 54d69397476ad35e338e87eedfeefacf:72
+     * @Group 9db4d5fa1bbf70f2626f52a5d6e3420e:72
      * @var string|null
      */
     private $userId = null;
@@ -27,7 +27,7 @@ class UserAuthenticationModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName userName
      * @Type string
      * @Optional
-     * @Group 54d69397476ad35e338e87eedfeefacf:72
+     * @Group 9db4d5fa1bbf70f2626f52a5d6e3420e:72
      * @var string|null
      */
     private $userName = null;
@@ -36,7 +36,7 @@ class UserAuthenticationModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName newPassword
      * @Type string
      * @Optional
-     * @Group 54d69397476ad35e338e87eedfeefacf:75
+     * @Group 9db4d5fa1bbf70f2626f52a5d6e3420e:75
      * @var string|null
      */
     private $newPassword = null;
@@ -45,7 +45,7 @@ class UserAuthenticationModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName password
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UserAuthenticationModifyRequestPassword
      * @Optional
-     * @Group 54d69397476ad35e338e87eedfeefacf:75
+     * @Group 9db4d5fa1bbf70f2626f52a5d6e3420e:75
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserAuthenticationModifyRequestPassword|null
      */
     private $password = null;

@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see GroupAccessDeviceGetResponse16
  * @see ErrorResponse
  * @see GroupAccessDeviceGetRequest18sp1
- * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:2074","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:23509","type":"sequence"}]
  */
 class GroupAccessDeviceGetRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,7 +21,7 @@ class GroupAccessDeviceGetRequest16 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:2074
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:23509
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -29,7 +29,7 @@ class GroupAccessDeviceGetRequest16 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:2074
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:23509
      * @var string|null
      */
     private $groupId = null;
@@ -37,7 +37,7 @@ class GroupAccessDeviceGetRequest16 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName deviceName
      * @Type string
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:2074
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:23509
      * @var string|null
      */
     private $deviceName = null;

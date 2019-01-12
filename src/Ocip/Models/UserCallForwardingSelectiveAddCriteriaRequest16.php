@@ -14,7 +14,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"00144d4cd6b46fb2a87b2e4d8760f200:51","type":"sequence"}]
+ * @Groups [{"id":"543304bb75006bfa60814c897fa03ec0:51","type":"sequence"}]
  */
 class UserCallForwardingSelectiveAddCriteriaRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -22,7 +22,7 @@ class UserCallForwardingSelectiveAddCriteriaRequest16 extends \CWM\BroadWorksCon
     /**
      * @ElementName userId
      * @Type string
-     * @Group 00144d4cd6b46fb2a87b2e4d8760f200:51
+     * @Group 543304bb75006bfa60814c897fa03ec0:51
      * @var string|null
      */
     private $userId = null;
@@ -30,7 +30,7 @@ class UserCallForwardingSelectiveAddCriteriaRequest16 extends \CWM\BroadWorksCon
     /**
      * @ElementName criteriaName
      * @Type string
-     * @Group 00144d4cd6b46fb2a87b2e4d8760f200:51
+     * @Group 543304bb75006bfa60814c897fa03ec0:51
      * @var string|null
      */
     private $criteriaName = null;
@@ -39,7 +39,7 @@ class UserCallForwardingSelectiveAddCriteriaRequest16 extends \CWM\BroadWorksCon
      * @ElementName timeSchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule
      * @Optional
-     * @Group 00144d4cd6b46fb2a87b2e4d8760f200:51
+     * @Group 543304bb75006bfa60814c897fa03ec0:51
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null
      */
     private $timeSchedule = null;
@@ -48,7 +48,7 @@ class UserCallForwardingSelectiveAddCriteriaRequest16 extends \CWM\BroadWorksCon
      * @ElementName holidaySchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule
      * @Optional
-     * @Group 00144d4cd6b46fb2a87b2e4d8760f200:51
+     * @Group 543304bb75006bfa60814c897fa03ec0:51
      * @var \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null
      */
     private $holidaySchedule = null;
@@ -57,7 +57,7 @@ class UserCallForwardingSelectiveAddCriteriaRequest16 extends \CWM\BroadWorksCon
      * @ElementName forwardToNumberSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallForwardingSelectiveNumberSelection16
      * @Optional
-     * @Group 00144d4cd6b46fb2a87b2e4d8760f200:51
+     * @Group 543304bb75006bfa60814c897fa03ec0:51
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallForwardingSelectiveNumberSelection16|null
      */
     private $forwardToNumberSelection = null;
@@ -66,7 +66,7 @@ class UserCallForwardingSelectiveAddCriteriaRequest16 extends \CWM\BroadWorksCon
      * @ElementName forwardToPhoneNumber
      * @Type string
      * @Optional
-     * @Group 00144d4cd6b46fb2a87b2e4d8760f200:51
+     * @Group 543304bb75006bfa60814c897fa03ec0:51
      * @var string|null
      */
     private $forwardToPhoneNumber = null;
@@ -74,7 +74,7 @@ class UserCallForwardingSelectiveAddCriteriaRequest16 extends \CWM\BroadWorksCon
     /**
      * @ElementName fromDnCriteria
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDn
-     * @Group 00144d4cd6b46fb2a87b2e4d8760f200:51
+     * @Group 543304bb75006bfa60814c897fa03ec0:51
      * @var \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDn|null
      */
     private $fromDnCriteria = null;
@@ -84,7 +84,7 @@ class UserCallForwardingSelectiveAddCriteriaRequest16 extends \CWM\BroadWorksCon
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallToNumber
      * @Array
      * @Optional
-     * @Group 00144d4cd6b46fb2a87b2e4d8760f200:51
+     * @Group 543304bb75006bfa60814c897fa03ec0:51
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallToNumber[]
      */
     private $callToNumber = array(

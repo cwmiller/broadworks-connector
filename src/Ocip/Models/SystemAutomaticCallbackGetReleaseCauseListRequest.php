@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemAutomaticCallbackGetReleaseCauseListResponse
  * @see ErrorResponse
- * @Groups [{"id":"3cba5f323319ae2171c7c634ba1811e2:78","type":"sequence"}]
+ * @Groups [{"id":"e8188f390ad4fcfad616cb409dd0e896:78","type":"sequence"}]
  */
 class SystemAutomaticCallbackGetReleaseCauseListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

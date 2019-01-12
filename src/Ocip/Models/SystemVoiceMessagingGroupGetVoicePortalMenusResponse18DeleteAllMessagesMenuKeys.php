@@ -5,7 +5,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemVoiceMessagingGroupGetVoicePortalMenusResponse18DeleteAllMessagesMenuKeys
  *
- * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:29706","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:26247","type":"sequence"}]
  */
 class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18DeleteAllMessagesMenuKeys
 {
@@ -13,7 +13,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18DeleteAllMessagesMen
     /**
      * @ElementName confirmDeletion
      * @Type string
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:29706
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:26247
      * @var string|null
      */
     private $confirmDeletion = null;
@@ -21,7 +21,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18DeleteAllMessagesMen
     /**
      * @ElementName cancelDeletion
      * @Type string
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:29706
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:26247
      * @var string|null
      */
     private $cancelDeletion = null;

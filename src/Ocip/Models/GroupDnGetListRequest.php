@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupDnGetListResponse
  * @see ErrorResponse
- * @Groups [{"id":"15129cd25fa2d5581f4edfd652c24f93:4240","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:4415","type":"sequence"}]
  */
 class GroupDnGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class GroupDnGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRe
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 15129cd25fa2d5581f4edfd652c24f93:4240
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:4415
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,7 +27,7 @@ class GroupDnGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRe
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 15129cd25fa2d5581f4edfd652c24f93:4240
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:4415
      * @var string|null
      */
     private $groupId = null;

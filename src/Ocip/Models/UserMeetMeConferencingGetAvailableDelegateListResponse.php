@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The table has column headings: "User Id", "Last Name", "First Name", "Hiragana Last Name", "Hiragana First Name", "Phone Number", "Extension", "Department" and "Email Address".
  *
  * @see UserMeetMeConferencingGetAvailableDelegateListRequest
- * @Groups [{"id":"7a29c84abb8473449085e6657fc6948d:564","type":"sequence"}]
+ * @Groups [{"id":"0fd24121d16995c994d40bc408dbcfa5:618","type":"sequence"}]
  */
 class UserMeetMeConferencingGetAvailableDelegateListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class UserMeetMeConferencingGetAvailableDelegateListResponse extends \CWM\BroadW
     /**
      * @ElementName conferenceDelegateUserTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 7a29c84abb8473449085e6657fc6948d:564
+     * @Group 0fd24121d16995c994d40bc408dbcfa5:618
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $conferenceDelegateUserTable = null;

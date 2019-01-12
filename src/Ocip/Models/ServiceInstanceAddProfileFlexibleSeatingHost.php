@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Service Profile Information for a flexible seating host.
  *
- * @Groups [{"id":"93e99b1f9cf4a71b31301a1fe7f0e190:477","type":"sequence"}]
+ * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:3427","type":"sequence"}]
  */
 class ServiceInstanceAddProfileFlexibleSeatingHost
 {
@@ -15,7 +15,7 @@ class ServiceInstanceAddProfileFlexibleSeatingHost
     /**
      * @ElementName name
      * @Type string
-     * @Group 93e99b1f9cf4a71b31301a1fe7f0e190:477
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:3427
      * @var string|null
      */
     private $name = null;
@@ -23,7 +23,7 @@ class ServiceInstanceAddProfileFlexibleSeatingHost
     /**
      * @ElementName callingLineIdLastName
      * @Type string
-     * @Group 93e99b1f9cf4a71b31301a1fe7f0e190:477
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:3427
      * @var string|null
      */
     private $callingLineIdLastName = null;
@@ -31,7 +31,7 @@ class ServiceInstanceAddProfileFlexibleSeatingHost
     /**
      * @ElementName callingLineIdFirstName
      * @Type string
-     * @Group 93e99b1f9cf4a71b31301a1fe7f0e190:477
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:3427
      * @var string|null
      */
     private $callingLineIdFirstName = null;
@@ -40,7 +40,7 @@ class ServiceInstanceAddProfileFlexibleSeatingHost
      * @ElementName hiraganaLastName
      * @Type string
      * @Optional
-     * @Group 93e99b1f9cf4a71b31301a1fe7f0e190:477
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:3427
      * @var string|null
      */
     private $hiraganaLastName = null;
@@ -49,7 +49,7 @@ class ServiceInstanceAddProfileFlexibleSeatingHost
      * @ElementName hiraganaFirstName
      * @Type string
      * @Optional
-     * @Group 93e99b1f9cf4a71b31301a1fe7f0e190:477
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:3427
      * @var string|null
      */
     private $hiraganaFirstName = null;
@@ -58,7 +58,7 @@ class ServiceInstanceAddProfileFlexibleSeatingHost
      * @ElementName phoneNumber
      * @Type string
      * @Optional
-     * @Group 93e99b1f9cf4a71b31301a1fe7f0e190:477
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:3427
      * @var string|null
      */
     private $phoneNumber = null;
@@ -67,7 +67,7 @@ class ServiceInstanceAddProfileFlexibleSeatingHost
      * @ElementName extension
      * @Type string
      * @Optional
-     * @Group 93e99b1f9cf4a71b31301a1fe7f0e190:477
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:3427
      * @var string|null
      */
     private $extension = null;
@@ -76,7 +76,7 @@ class ServiceInstanceAddProfileFlexibleSeatingHost
      * @ElementName password
      * @Type string
      * @Optional
-     * @Group 93e99b1f9cf4a71b31301a1fe7f0e190:477
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:3427
      * @var string|null
      */
     private $password = null;
@@ -85,7 +85,7 @@ class ServiceInstanceAddProfileFlexibleSeatingHost
      * @ElementName department
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey
      * @Optional
-     * @Group 93e99b1f9cf4a71b31301a1fe7f0e190:477
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:3427
      * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null
      */
     private $department = null;
@@ -94,7 +94,7 @@ class ServiceInstanceAddProfileFlexibleSeatingHost
      * @ElementName language
      * @Type string
      * @Optional
-     * @Group 93e99b1f9cf4a71b31301a1fe7f0e190:477
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:3427
      * @var string|null
      */
     private $language = null;
@@ -103,7 +103,7 @@ class ServiceInstanceAddProfileFlexibleSeatingHost
      * @ElementName timeZone
      * @Type string
      * @Optional
-     * @Group 93e99b1f9cf4a71b31301a1fe7f0e190:477
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:3427
      * @var string|null
      */
     private $timeZone = null;
@@ -112,7 +112,7 @@ class ServiceInstanceAddProfileFlexibleSeatingHost
      * @ElementName callingLineIdPhoneNumber
      * @Type string
      * @Optional
-     * @Group 93e99b1f9cf4a71b31301a1fe7f0e190:477
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:3427
      * @var string|null
      */
     private $callingLineIdPhoneNumber = null;

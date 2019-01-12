@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *       quantity will come from the group template for the service. If a template does 
  *       not exist, the service quantity will be set to unlimited.
  *
- * @Groups [{"id":"8e629edbac315ae7889caca732382c44:1040","type":"sequence"}]
+ * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:1286","type":"sequence"}]
  */
 class CombinedUserServiceAssignment
 {
@@ -21,7 +21,7 @@ class CombinedUserServiceAssignment
     /**
      * @ElementName userService
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UserService
-     * @Group 8e629edbac315ae7889caca732382c44:1040
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:1286
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserService|null
      */
     private $userService = null;
@@ -30,7 +30,7 @@ class CombinedUserServiceAssignment
      * @ElementName authorizedQuantity
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt
      * @Optional
-     * @Group 8e629edbac315ae7889caca732382c44:1040
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:1286
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt|null
      */
     private $authorizedQuantity = null;

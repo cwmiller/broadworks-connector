@@ -9,6 +9,9 @@ use CWM\BroadWorksConnector\Ocip\Models\GroupEmergencyZonesGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupEmergencyZonesGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupEmergencyZonesModifyHomeZoneListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupEmergencyZonesModifyRequest;
+use CWM\BroadWorksConnector\Ocip\Models\ResellerEmergencyZonesGetRequest;
+use CWM\BroadWorksConnector\Ocip\Models\ResellerEmergencyZonesGetResponse;
+use CWM\BroadWorksConnector\Ocip\Models\ResellerEmergencyZonesModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemEmergencyZonesGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemEmergencyZonesGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\SystemEmergencyZonesModifyRequest;
@@ -81,6 +84,28 @@ trait OCISchemaServiceEmergencyZones
      * @throws ValidationException
      */
     public function groupEmergencyZonesModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupEmergencyZonesModifyRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param ResellerEmergencyZonesGetRequest $request
+     * @return ResellerEmergencyZonesGetResponse
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function resellerEmergencyZonesGetRequest(\CWM\BroadWorksConnector\Ocip\Models\ResellerEmergencyZonesGetRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param ResellerEmergencyZonesModifyRequest $request
+     * @return SuccessResponse
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function resellerEmergencyZonesModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\ResellerEmergencyZonesModifyRequest $request)
     {
         return $this->call($request);
     }

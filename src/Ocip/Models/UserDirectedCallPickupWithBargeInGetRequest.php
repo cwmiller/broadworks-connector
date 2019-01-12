@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserDirectedCallPickupWithBargeInGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:34403","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:6899","type":"sequence"}]
  */
 class UserDirectedCallPickupWithBargeInGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class UserDirectedCallPickupWithBargeInGetRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName userId
      * @Type string
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:34403
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:6899
      * @var string|null
      */
     private $userId = null;

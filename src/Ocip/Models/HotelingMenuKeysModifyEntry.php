@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * The voice portal hoteling menu keys modify entry.
  *
- * @Groups [{"id":"80c5986946137c505e41f6008c7f75a8:2621","type":"sequence"}]
+ * @Groups [{"id":"3347d430e0d5c93a9ff8dcf0e3b60d6c:2675","type":"sequence"}]
  */
 class HotelingMenuKeysModifyEntry
 {
@@ -17,7 +17,7 @@ class HotelingMenuKeysModifyEntry
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 80c5986946137c505e41f6008c7f75a8:2621
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2675
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $checkHostStatus = null;
@@ -27,7 +27,7 @@ class HotelingMenuKeysModifyEntry
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 80c5986946137c505e41f6008c7f75a8:2621
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2675
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $associateWithHost = null;
@@ -37,7 +37,7 @@ class HotelingMenuKeysModifyEntry
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 80c5986946137c505e41f6008c7f75a8:2621
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2675
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $disassociateFromHost = null;
@@ -47,7 +47,7 @@ class HotelingMenuKeysModifyEntry
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 80c5986946137c505e41f6008c7f75a8:2621
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2675
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $disassociateFromRemoteHost = null;
@@ -56,7 +56,7 @@ class HotelingMenuKeysModifyEntry
      * @ElementName returnToPreviousMenu
      * @Type string
      * @Optional
-     * @Group 80c5986946137c505e41f6008c7f75a8:2621
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2675
      * @var string|null
      */
     private $returnToPreviousMenu = null;
@@ -66,7 +66,7 @@ class HotelingMenuKeysModifyEntry
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 80c5986946137c505e41f6008c7f75a8:2621
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2675
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $repeatMenu = null;

@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserCallMeNowGetCriteriaResponse
  * @see ErrorResponse
- * @Groups [{"id":"ddf57759ad9d63b4ce76f3f789cde156:132","type":"sequence"}]
+ * @Groups [{"id":"1f0f230fee2817fe00157925859dc28e:132","type":"sequence"}]
  */
 class UserCallMeNowGetCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserCallMeNowGetCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName userId
      * @Type string
-     * @Group ddf57759ad9d63b4ce76f3f789cde156:132
+     * @Group 1f0f230fee2817fe00157925859dc28e:132
      * @var string|null
      */
     private $userId = null;
@@ -26,7 +26,7 @@ class UserCallMeNowGetCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName criteriaName
      * @Type string
-     * @Group ddf57759ad9d63b4ce76f3f789cde156:132
+     * @Group 1f0f230fee2817fe00157925859dc28e:132
      * @var string|null
      */
     private $criteriaName = null;

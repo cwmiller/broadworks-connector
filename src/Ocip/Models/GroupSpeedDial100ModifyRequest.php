@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"4de7b677f1eb49af9cc84bc14731a3bb:80","type":"sequence"}]
+ * @Groups [{"id":"066a3d16bce438447d23cbe6ff0885a6:80","type":"sequence"}]
  */
 class GroupSpeedDial100ModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupSpeedDial100ModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 4de7b677f1eb49af9cc84bc14731a3bb:80
+     * @Group 066a3d16bce438447d23cbe6ff0885a6:80
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,7 +26,7 @@ class GroupSpeedDial100ModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 4de7b677f1eb49af9cc84bc14731a3bb:80
+     * @Group 066a3d16bce438447d23cbe6ff0885a6:80
      * @var string|null
      */
     private $groupId = null;
@@ -36,7 +36,7 @@ class GroupSpeedDial100ModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 4de7b677f1eb49af9cc84bc14731a3bb:80
+     * @Group 066a3d16bce438447d23cbe6ff0885a6:80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $prefix = null;

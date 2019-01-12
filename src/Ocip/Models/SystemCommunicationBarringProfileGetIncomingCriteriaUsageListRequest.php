@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemCommunicationBarringProfileGetIncomingCriteriaUsageListResponse
  * @see ErrorResponse
- * @Groups [{"id":"b5f5416d9e71f8e4246cda16c4723744:5622","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:5741","type":"sequence"}]
  */
 class SystemCommunicationBarringProfileGetIncomingCriteriaUsageListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class SystemCommunicationBarringProfileGetIncomingCriteriaUsageListRequest exten
     /**
      * @ElementName name
      * @Type string
-     * @Group b5f5416d9e71f8e4246cda16c4723744:5622
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:5741
      * @var string|null
      */
     private $name = null;

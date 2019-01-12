@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * A list of dns that replaces a previously configured list.
  *         By convention, an element of this type may be set nill to clear the list.
  *
- * @Groups [{"id":"6c3e6c5ded8862d72e92e5d067442775:853","type":"sequence"}]
+ * @Groups [{"id":"3f28429898a57a7f7846d3877b22df9f:852","type":"sequence"}]
  */
 class ReplacementDNList
 {
@@ -17,7 +17,7 @@ class ReplacementDNList
      * @ElementName phoneNumber
      * @Type string
      * @Array
-     * @Group 6c3e6c5ded8862d72e92e5d067442775:853
+     * @Group 3f28429898a57a7f7846d3877b22df9f:852
      * @var string[]
      */
     private $phoneNumber = array(

@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserSharedCallAppearanceGetResponse21sp1
  * @see ErrorResponse
- * @Groups [{"id":"cd1bbb4af6c2895f6719cc668c0bbf4f:118","type":"sequence"}]
+ * @Groups [{"id":"524e0d071a229a44af2f953d6b50db35:118","type":"sequence"}]
  */
 class UserSharedCallAppearanceGetRequest21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserSharedCallAppearanceGetRequest21sp1 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName userId
      * @Type string
-     * @Group cd1bbb4af6c2895f6719cc668c0bbf4f:118
+     * @Group 524e0d071a229a44af2f953d6b50db35:118
      * @var string|null
      */
     private $userId = null;

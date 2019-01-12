@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * The voice portal disable message deposit menu keys modify entry.
  *
- * @Groups [{"id":"80c5986946137c505e41f6008c7f75a8:2469","type":"sequence"}]
+ * @Groups [{"id":"3347d430e0d5c93a9ff8dcf0e3b60d6c:2523","type":"sequence"}]
  */
 class DisableMessageDepositMenuKeysModifyEntry
 {
@@ -17,7 +17,7 @@ class DisableMessageDepositMenuKeysModifyEntry
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 80c5986946137c505e41f6008c7f75a8:2469
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2523
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $disconnectAfterGreeting = null;
@@ -27,7 +27,7 @@ class DisableMessageDepositMenuKeysModifyEntry
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 80c5986946137c505e41f6008c7f75a8:2469
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2523
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $forwardAfterGreeting = null;
@@ -37,7 +37,7 @@ class DisableMessageDepositMenuKeysModifyEntry
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 80c5986946137c505e41f6008c7f75a8:2469
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2523
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $changeForwardingDestination = null;
@@ -46,7 +46,7 @@ class DisableMessageDepositMenuKeysModifyEntry
      * @ElementName returnToPreviousMenu
      * @Type string
      * @Optional
-     * @Group 80c5986946137c505e41f6008c7f75a8:2469
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2523
      * @var string|null
      */
     private $returnToPreviousMenu = null;
@@ -56,7 +56,7 @@ class DisableMessageDepositMenuKeysModifyEntry
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 80c5986946137c505e41f6008c7f75a8:2469
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2523
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $repeatMenu = null;

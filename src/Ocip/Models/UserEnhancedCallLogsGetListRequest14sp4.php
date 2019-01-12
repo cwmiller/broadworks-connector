@@ -15,7 +15,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see UserEnhancedCallLogsGetListResponse14sp4
  * @see ErrorResponse
  * @see UserEnhancedCallLogsGetListRequest16
- * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:34460","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:10979","type":"sequence"}]
  */
 class UserEnhancedCallLogsGetListRequest14sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -23,7 +23,7 @@ class UserEnhancedCallLogsGetListRequest14sp4 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName userId
      * @Type string
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:34460
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:10979
      * @var string|null
      */
     private $userId = null;
@@ -32,7 +32,7 @@ class UserEnhancedCallLogsGetListRequest14sp4 extends \CWM\BroadWorksConnector\O
      * @ElementName callLogType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallLogsType
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:34460
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:10979
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallLogsType|null
      */
     private $callLogType = null;
@@ -40,7 +40,7 @@ class UserEnhancedCallLogsGetListRequest14sp4 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName startingOffset
      * @Type int
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:34460
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:10979
      * @var int|null
      */
     private $startingOffset = null;
@@ -48,7 +48,7 @@ class UserEnhancedCallLogsGetListRequest14sp4 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName numCalls
      * @Type int
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:34460
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:10979
      * @var int|null
      */
     private $numCalls = null;

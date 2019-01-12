@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupAccessDeviceGetUserListResponse21sp1
  * @see ErrorResponse
- * @Groups [{"id":"15129cd25fa2d5581f4edfd652c24f93:763","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:823","type":"sequence"}]
  */
 class GroupAccessDeviceGetUserListRequest21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class GroupAccessDeviceGetUserListRequest21sp1 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 15129cd25fa2d5581f4edfd652c24f93:763
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:823
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -28,7 +28,7 @@ class GroupAccessDeviceGetUserListRequest21sp1 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 15129cd25fa2d5581f4edfd652c24f93:763
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:823
      * @var string|null
      */
     private $groupId = null;
@@ -36,7 +36,7 @@ class GroupAccessDeviceGetUserListRequest21sp1 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName deviceName
      * @Type string
-     * @Group 15129cd25fa2d5581f4edfd652c24f93:763
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:823
      * @var string|null
      */
     private $deviceName = null;
@@ -45,7 +45,7 @@ class GroupAccessDeviceGetUserListRequest21sp1 extends \CWM\BroadWorksConnector\
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group 15129cd25fa2d5581f4edfd652c24f93:763
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:823
      * @var int|null
      */
     private $responseSizeLimit = null;
@@ -55,7 +55,7 @@ class GroupAccessDeviceGetUserListRequest21sp1 extends \CWM\BroadWorksConnector\
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaLinePortUserPart
      * @Array
      * @Optional
-     * @Group 15129cd25fa2d5581f4edfd652c24f93:763
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:823
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaLinePortUserPart[]
      */
     private $searchCriteriaLinePortUserPart = array(
@@ -67,7 +67,7 @@ class GroupAccessDeviceGetUserListRequest21sp1 extends \CWM\BroadWorksConnector\
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaLinePortDomain
      * @Array
      * @Optional
-     * @Group 15129cd25fa2d5581f4edfd652c24f93:763
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:823
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaLinePortDomain[]
      */
     private $searchCriteriaLinePortDomain = array(
@@ -79,7 +79,7 @@ class GroupAccessDeviceGetUserListRequest21sp1 extends \CWM\BroadWorksConnector\
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName
      * @Array
      * @Optional
-     * @Group 15129cd25fa2d5581f4edfd652c24f93:763
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:823
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[]
      */
     private $searchCriteriaUserLastName = array(
@@ -91,7 +91,7 @@ class GroupAccessDeviceGetUserListRequest21sp1 extends \CWM\BroadWorksConnector\
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName
      * @Array
      * @Optional
-     * @Group 15129cd25fa2d5581f4edfd652c24f93:763
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:823
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName[]
      */
     private $searchCriteriaUserFirstName = array(
@@ -103,7 +103,7 @@ class GroupAccessDeviceGetUserListRequest21sp1 extends \CWM\BroadWorksConnector\
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn
      * @Array
      * @Optional
-     * @Group 15129cd25fa2d5581f4edfd652c24f93:763
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:823
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[]
      */
     private $searchCriteriaDn = array(
@@ -115,7 +115,7 @@ class GroupAccessDeviceGetUserListRequest21sp1 extends \CWM\BroadWorksConnector\
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId
      * @Array
      * @Optional
-     * @Group 15129cd25fa2d5581f4edfd652c24f93:763
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:823
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId[]
      */
     private $searchCriteriaUserId = array(
@@ -126,7 +126,7 @@ class GroupAccessDeviceGetUserListRequest21sp1 extends \CWM\BroadWorksConnector\
      * @ElementName searchCriteriaExactEndpointType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactEndpointType21sp1
      * @Optional
-     * @Group 15129cd25fa2d5581f4edfd652c24f93:763
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:823
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactEndpointType21sp1|null
      */
     private $searchCriteriaExactEndpointType = null;
@@ -135,7 +135,7 @@ class GroupAccessDeviceGetUserListRequest21sp1 extends \CWM\BroadWorksConnector\
      * @ElementName searchCriteriaExactUserType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserType
      * @Optional
-     * @Group 15129cd25fa2d5581f4edfd652c24f93:763
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:823
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserType|null
      */
     private $searchCriteriaExactUserType = null;
@@ -145,7 +145,7 @@ class GroupAccessDeviceGetUserListRequest21sp1 extends \CWM\BroadWorksConnector\
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension
      * @Array
      * @Optional
-     * @Group 15129cd25fa2d5581f4edfd652c24f93:763
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:823
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension[]
      */
     private $searchCriteriaExtension = array(
@@ -156,7 +156,7 @@ class GroupAccessDeviceGetUserListRequest21sp1 extends \CWM\BroadWorksConnector\
      * @ElementName searchCriteriaExactUserDepartment
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment
      * @Optional
-     * @Group 15129cd25fa2d5581f4edfd652c24f93:763
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:823
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment|null
      */
     private $searchCriteriaExactUserDepartment = null;
@@ -165,7 +165,7 @@ class GroupAccessDeviceGetUserListRequest21sp1 extends \CWM\BroadWorksConnector\
      * @ElementName searchCriteriaExactPortNumber
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactPortNumber
      * @Optional
-     * @Group 15129cd25fa2d5581f4edfd652c24f93:763
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:823
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactPortNumber|null
      */
     private $searchCriteriaExactPortNumber = null;
@@ -175,7 +175,7 @@ class GroupAccessDeviceGetUserListRequest21sp1 extends \CWM\BroadWorksConnector\
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaAccessDeviceEndpointPrivateIdentity
      * @Array
      * @Optional
-     * @Group 15129cd25fa2d5581f4edfd652c24f93:763
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:823
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaAccessDeviceEndpointPrivateIdentity[]
      */
     private $searchCriteriaAccessDeviceEndpointPrivateIdentity = array(

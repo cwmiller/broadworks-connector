@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to GroupGroupNightForwardingGetRequest.
  *
  * @see GroupGroupNightForwardingGetRequest
- * @Groups [{"id":"7aa3724e3d252a8e4882cf2fcd9d3961:63","type":"sequence"}]
+ * @Groups [{"id":"1a3849774e8d2ffd90c3a2c57cbdd7a0:63","type":"sequence"}]
  */
 class GroupGroupNightForwardingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class GroupGroupNightForwardingGetResponse extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName nightForwarding
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupNightForwardingGroupServiceActivationMode
-     * @Group 7aa3724e3d252a8e4882cf2fcd9d3961:63
+     * @Group 1a3849774e8d2ffd90c3a2c57cbdd7a0:63
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupNightForwardingGroupServiceActivationMode|null
      */
     private $nightForwarding = null;
@@ -25,7 +25,7 @@ class GroupGroupNightForwardingGetResponse extends \CWM\BroadWorksConnector\Ocip
      * @ElementName businessHours
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule
      * @Optional
-     * @Group 7aa3724e3d252a8e4882cf2fcd9d3961:63
+     * @Group 1a3849774e8d2ffd90c3a2c57cbdd7a0:63
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null
      */
     private $businessHours = null;
@@ -34,7 +34,7 @@ class GroupGroupNightForwardingGetResponse extends \CWM\BroadWorksConnector\Ocip
      * @ElementName holidaySchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule
      * @Optional
-     * @Group 7aa3724e3d252a8e4882cf2fcd9d3961:63
+     * @Group 1a3849774e8d2ffd90c3a2c57cbdd7a0:63
      * @var \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null
      */
     private $holidaySchedule = null;
@@ -43,7 +43,7 @@ class GroupGroupNightForwardingGetResponse extends \CWM\BroadWorksConnector\Ocip
      * @ElementName forwardToPhoneNumber
      * @Type string
      * @Optional
-     * @Group 7aa3724e3d252a8e4882cf2fcd9d3961:63
+     * @Group 1a3849774e8d2ffd90c3a2c57cbdd7a0:63
      * @var string|null
      */
     private $forwardToPhoneNumber = null;

@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SystemAccessDeviceGetRequest16
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"b5f5416d9e71f8e4246cda16c4723744:6412","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:6537","type":"sequence"}]
  */
 class SystemCPEConfigReorderDeviceLinePortsRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,7 +21,7 @@ class SystemCPEConfigReorderDeviceLinePortsRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName deviceName
      * @Type string
-     * @Group b5f5416d9e71f8e4246cda16c4723744:6412
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6537
      * @var string|null
      */
     private $deviceName = null;
@@ -30,7 +30,7 @@ class SystemCPEConfigReorderDeviceLinePortsRequest extends \CWM\BroadWorksConnec
      * @ElementName orderedLinePortList
      * @Type string
      * @Array
-     * @Group b5f5416d9e71f8e4246cda16c4723744:6412
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6537
      * @var string[]
      */
     private $orderedLinePortList = array(

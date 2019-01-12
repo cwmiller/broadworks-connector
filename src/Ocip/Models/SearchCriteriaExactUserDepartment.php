@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Criteria for searching for a particular fully specified user's department.
  *
- * @Groups [{"id":"e446bfcbd1f39cbef57d1547014f2bb9:1097","type":"sequence"}]
+ * @Groups [{"id":"f0ada2681ca347fa83b464734259b304:1180","type":"sequence"}]
  */
 class SearchCriteriaExactUserDepartment extends SearchCriteria
 {
@@ -15,7 +15,7 @@ class SearchCriteriaExactUserDepartment extends SearchCriteria
     /**
      * @ElementName departmentKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey
-     * @Group e446bfcbd1f39cbef57d1547014f2bb9:1097
+     * @Group f0ada2681ca347fa83b464734259b304:1180
      * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null
      */
     private $departmentKey = null;

@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemInventoryReportGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"b7ea90fba6513b5a795776dbab169f4f:81","type":"sequence"}]
+ * @Groups [{"id":"5c0fc3a03773b4f430e938115770c82d:81","type":"sequence"}]
  */
 class SystemInventoryReportGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

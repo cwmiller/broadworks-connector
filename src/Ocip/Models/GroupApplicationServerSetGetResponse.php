@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response contains the group's Application Server set information.
  *
  * @see GroupApplicationServerSetGetRequest
- * @Groups [{"id":"15129cd25fa2d5581f4edfd652c24f93:1477","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:1652","type":"sequence"}]
  */
 class GroupApplicationServerSetGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class GroupApplicationServerSetGetResponse extends \CWM\BroadWorksConnector\Ocip
      * @ElementName applicationServerSetName
      * @Type string
      * @Optional
-     * @Group 15129cd25fa2d5581f4edfd652c24f93:1477
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:1652
      * @var string|null
      */
     private $applicationServerSetName = null;

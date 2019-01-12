@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemSecurityClassificationGetClassificationResponse
  * @see ErrorResponse
- * @Groups [{"id":"03b1e8852a59a842f834331786163273:135","type":"sequence"}]
+ * @Groups [{"id":"6b3afea8308b7fdaab8d385357ca9c2d:135","type":"sequence"}]
  */
 class SystemSecurityClassificationGetClassificationRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemSecurityClassificationGetClassificationRequest extends \CWM\BroadWor
     /**
      * @ElementName securityClassificationName
      * @Type string
-     * @Group 03b1e8852a59a842f834331786163273:135
+     * @Group 6b3afea8308b7fdaab8d385357ca9c2d:135
      * @var string|null
      */
     private $securityClassificationName = null;

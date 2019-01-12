@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"80676ea6f2582b1b88573623a6affc0e:805","type":"sequence"}]
+ * @Groups [{"id":"6f793dfca9bd3d121bb35e0f9cf1cb2e:804","type":"sequence"}]
  */
 class GroupOutgoingCallingPlanRedirectingModifyListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupOutgoingCallingPlanRedirectingModifyListRequest extends \CWM\BroadWor
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 80676ea6f2582b1b88573623a6affc0e:805
+     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:804
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,7 +26,7 @@ class GroupOutgoingCallingPlanRedirectingModifyListRequest extends \CWM\BroadWor
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 80676ea6f2582b1b88573623a6affc0e:805
+     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:804
      * @var string|null
      */
     private $groupId = null;
@@ -35,7 +35,7 @@ class GroupOutgoingCallingPlanRedirectingModifyListRequest extends \CWM\BroadWor
      * @ElementName groupPermissions
      * @Type \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanRedirectingPermissionsModify
      * @Optional
-     * @Group 80676ea6f2582b1b88573623a6affc0e:805
+     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:804
      * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanRedirectingPermissionsModify|null
      */
     private $groupPermissions = null;
@@ -45,7 +45,7 @@ class GroupOutgoingCallingPlanRedirectingModifyListRequest extends \CWM\BroadWor
      * @Type \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanRedirectingDepartmentPermissionsModify
      * @Array
      * @Optional
-     * @Group 80676ea6f2582b1b88573623a6affc0e:805
+     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:804
      * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanRedirectingDepartmentPermissionsModify[]
      */
     private $departmentPermissions = array(

@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * A list of userIds that replaces a previously configured list.
  *         By convention, an element of this type may be set nill to clear the list.
  *
- * @Groups [{"id":"8e629edbac315ae7889caca732382c44:2973","type":"sequence"}]
+ * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:3241","type":"sequence"}]
  */
 class ReplacementUserIdList
 {
@@ -17,7 +17,7 @@ class ReplacementUserIdList
      * @ElementName userId
      * @Type string
      * @Array
-     * @Group 8e629edbac315ae7889caca732382c44:2973
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:3241
      * @var string[]
      */
     private $userId = array(

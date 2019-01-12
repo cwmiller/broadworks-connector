@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see GroupSessionAdmissionControlGroupGetResponse19sp1
  * @see ErrorResponse
  * @see GroupSessionAdmissionControlGroupGetRequest21sp1
- * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:11107","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:1944","type":"sequence"}]
  */
 class GroupSessionAdmissionControlGroupGetRequest19sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,7 +21,7 @@ class GroupSessionAdmissionControlGroupGetRequest19sp1 extends \CWM\BroadWorksCo
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:11107
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:1944
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -29,7 +29,7 @@ class GroupSessionAdmissionControlGroupGetRequest19sp1 extends \CWM\BroadWorksCo
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:11107
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:1944
      * @var string|null
      */
     private $groupId = null;
@@ -37,7 +37,7 @@ class GroupSessionAdmissionControlGroupGetRequest19sp1 extends \CWM\BroadWorksCo
     /**
      * @ElementName name
      * @Type string
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:11107
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:1944
      * @var string|null
      */
     private $name = null;

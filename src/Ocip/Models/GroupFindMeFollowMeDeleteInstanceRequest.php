@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"c81ec650475acb5cc7b075c4582c12ba:204","type":"sequence"}]
+ * @Groups [{"id":"79f226053ee345f2ff4c37c37c8e9114:203","type":"sequence"}]
  */
 class GroupFindMeFollowMeDeleteInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupFindMeFollowMeDeleteInstanceRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group c81ec650475acb5cc7b075c4582c12ba:204
+     * @Group 79f226053ee345f2ff4c37c37c8e9114:203
      * @var string|null
      */
     private $serviceUserId = null;

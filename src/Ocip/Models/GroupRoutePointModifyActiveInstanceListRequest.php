@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"08c06bb3683a696d340b1644025134a4:724","type":"sequence"}]
+ * @Groups [{"id":"a27224a048c30ff69eab9209dec841cc:724","type":"sequence"}]
  */
 class GroupRoutePointModifyActiveInstanceListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class GroupRoutePointModifyActiveInstanceListRequest extends \CWM\BroadWorksConn
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceActivation
      * @Array
      * @Optional
-     * @Group 08c06bb3683a696d340b1644025134a4:724
+     * @Group a27224a048c30ff69eab9209dec841cc:724
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceActivation[]
      */
     private $serviceActivation = array(

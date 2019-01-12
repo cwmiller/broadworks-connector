@@ -6,8 +6,8 @@ use CWM\BroadWorksConnector\Ocip\Models\GroupMusicOnHoldAddInstanceRequest22;
 use CWM\BroadWorksConnector\Ocip\Models\GroupMusicOnHoldDeleteInstanceRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupMusicOnHoldGetDepartmentListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupMusicOnHoldGetDepartmentListResponse;
-use CWM\BroadWorksConnector\Ocip\Models\GroupMusicOnHoldGetInstanceRequest22;
-use CWM\BroadWorksConnector\Ocip\Models\GroupMusicOnHoldGetInstanceResponse22;
+use CWM\BroadWorksConnector\Ocip\Models\GroupMusicOnHoldGetInstanceRequest22V2;
+use CWM\BroadWorksConnector\Ocip\Models\GroupMusicOnHoldGetInstanceResponse22V2;
 use CWM\BroadWorksConnector\Ocip\Models\GroupMusicOnHoldModifyInstanceRequest22;
 use CWM\BroadWorksConnector\Ocip\Models\SystemMusicOnHoldGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemMusicOnHoldGetResponse;
@@ -59,12 +59,12 @@ trait OCISchemaServiceMusicOnHold
     }
 
     /**
-     * @param GroupMusicOnHoldGetInstanceRequest22 $request
-     * @return GroupMusicOnHoldGetInstanceResponse22
+     * @param GroupMusicOnHoldGetInstanceRequest22V2 $request
+     * @return GroupMusicOnHoldGetInstanceResponse22V2
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function groupMusicOnHoldGetInstanceRequest22(\CWM\BroadWorksConnector\Ocip\Models\GroupMusicOnHoldGetInstanceRequest22 $request)
+    public function groupMusicOnHoldGetInstanceRequest22V2(\CWM\BroadWorksConnector\Ocip\Models\GroupMusicOnHoldGetInstanceRequest22V2 $request)
     {
         return $this->call($request);
     }

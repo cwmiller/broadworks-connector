@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"b5f5416d9e71f8e4246cda16c4723744:11951","type":"sequence","children":[{"id":"b5f5416d9e71f8e4246cda16c4723744:11953","type":"choice"}]}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:12142","type":"sequence","children":[{"id":"7f663d5135470c33ca64b0eed3c3aa0c:12144","type":"choice"}]}]
  */
 class SystemOCIReportingDeleteMessageNameListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class SystemOCIReportingDeleteMessageNameListRequest extends \CWM\BroadWorksConn
     /**
      * @ElementName netAddress
      * @Type string
-     * @Group b5f5416d9e71f8e4246cda16c4723744:11951
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12142
      * @var string|null
      */
     private $netAddress = null;
@@ -27,7 +27,7 @@ class SystemOCIReportingDeleteMessageNameListRequest extends \CWM\BroadWorksConn
     /**
      * @ElementName deleteAllMessageNames
      * @Type bool
-     * @Group b5f5416d9e71f8e4246cda16c4723744:11953
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12144
      * @var bool|null
      */
     private $deleteAllMessageNames = null;
@@ -36,7 +36,7 @@ class SystemOCIReportingDeleteMessageNameListRequest extends \CWM\BroadWorksConn
      * @ElementName messageNameStartsWith
      * @Type string
      * @Array
-     * @Group b5f5416d9e71f8e4246cda16c4723744:11953
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12144
      * @var string[]
      */
     private $messageNameStartsWith = array(

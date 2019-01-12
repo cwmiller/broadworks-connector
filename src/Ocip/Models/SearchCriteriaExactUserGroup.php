@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Criteria for searching for a particular fully specified user's group.
  *
- * @Groups [{"id":"e446bfcbd1f39cbef57d1547014f2bb9:1112","type":"sequence"}]
+ * @Groups [{"id":"f0ada2681ca347fa83b464734259b304:1195","type":"sequence"}]
  */
 class SearchCriteriaExactUserGroup extends SearchCriteria
 {
@@ -15,7 +15,7 @@ class SearchCriteriaExactUserGroup extends SearchCriteria
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group e446bfcbd1f39cbef57d1547014f2bb9:1112
+     * @Group f0ada2681ca347fa83b464734259b304:1195
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -23,7 +23,7 @@ class SearchCriteriaExactUserGroup extends SearchCriteria
     /**
      * @ElementName groupId
      * @Type string
-     * @Group e446bfcbd1f39cbef57d1547014f2bb9:1112
+     * @Group f0ada2681ca347fa83b464734259b304:1195
      * @var string|null
      */
     private $groupId = null;

@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * A list of criteria DNs that replaces a previously configured list.
  *         By convention, an element of this type may be set nill to clear the list.
  *
- * @Groups [{"id":"8e629edbac315ae7889caca732382c44:1526","type":"sequence"}]
+ * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:1749","type":"sequence"}]
  */
 class CriteriaReplacementDNList
 {
@@ -17,7 +17,7 @@ class CriteriaReplacementDNList
      * @ElementName phoneNumber
      * @Type string
      * @Array
-     * @Group 8e629edbac315ae7889caca732382c44:1526
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:1749
      * @var string[]
      */
     private $phoneNumber = array(

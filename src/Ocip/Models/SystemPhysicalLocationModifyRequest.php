@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"128440369582696b2b7120a6047a3faa:73","type":"sequence"}]
+ * @Groups [{"id":"4a26e5fa0592a0fd3b4e60e9432f8588:73","type":"sequence"}]
  */
 class SystemPhysicalLocationModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class SystemPhysicalLocationModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName alwaysAllowEmergencyCalls
      * @Type bool
      * @Optional
-     * @Group 128440369582696b2b7120a6047a3faa:73
+     * @Group 4a26e5fa0592a0fd3b4e60e9432f8588:73
      * @var bool|null
      */
     private $alwaysAllowEmergencyCalls = null;

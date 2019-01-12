@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupMWIDeliveryToMobileEndpointCustomTemplateGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"26ea37e78b67054650c3445a62638977:95","type":"sequence"}]
+ * @Groups [{"id":"958b78cc2a785d78259c1e8a474eb40d:95","type":"sequence"}]
  */
 class GroupMWIDeliveryToMobileEndpointCustomTemplateGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupMWIDeliveryToMobileEndpointCustomTemplateGetRequest extends \CWM\Broa
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 26ea37e78b67054650c3445a62638977:95
+     * @Group 958b78cc2a785d78259c1e8a474eb40d:95
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,7 +26,7 @@ class GroupMWIDeliveryToMobileEndpointCustomTemplateGetRequest extends \CWM\Broa
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 26ea37e78b67054650c3445a62638977:95
+     * @Group 958b78cc2a785d78259c1e8a474eb40d:95
      * @var string|null
      */
     private $groupId = null;
@@ -34,7 +34,7 @@ class GroupMWIDeliveryToMobileEndpointCustomTemplateGetRequest extends \CWM\Broa
     /**
      * @ElementName language
      * @Type string
-     * @Group 26ea37e78b67054650c3445a62638977:95
+     * @Group 958b78cc2a785d78259c1e8a474eb40d:95
      * @var string|null
      */
     private $language = null;
@@ -42,7 +42,7 @@ class GroupMWIDeliveryToMobileEndpointCustomTemplateGetRequest extends \CWM\Broa
     /**
      * @ElementName type
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointTemplateType
-     * @Group 26ea37e78b67054650c3445a62638977:95
+     * @Group 958b78cc2a785d78259c1e8a474eb40d:95
      * @var \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointTemplateType|null
      */
     private $type = null;

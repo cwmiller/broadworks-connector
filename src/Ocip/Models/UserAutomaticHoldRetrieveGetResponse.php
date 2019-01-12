@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to UserAutomaticHoldRetrieveGetRequest.
  *
  * @see UserAutomaticHoldRetrieveGetRequest
- * @Groups [{"id":"e3a97228b634c609e4367ca913b0d207:59","type":"sequence"}]
+ * @Groups [{"id":"83fee6d8bc1cbca3d5ef05a88de706cf:59","type":"sequence"}]
  */
 class UserAutomaticHoldRetrieveGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class UserAutomaticHoldRetrieveGetResponse extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group e3a97228b634c609e4367ca913b0d207:59
+     * @Group 83fee6d8bc1cbca3d5ef05a88de706cf:59
      * @var bool|null
      */
     private $isActive = null;
@@ -24,7 +24,7 @@ class UserAutomaticHoldRetrieveGetResponse extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName recallTimerSeconds
      * @Type int
-     * @Group e3a97228b634c609e4367ca913b0d207:59
+     * @Group 83fee6d8bc1cbca3d5ef05a88de706cf:59
      * @var int|null
      */
     private $recallTimerSeconds = null;

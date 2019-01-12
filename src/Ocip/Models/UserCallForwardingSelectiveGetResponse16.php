@@ -23,7 +23,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           - When no extension is available a blank space is provided instead.
  *
  * @see UserCallForwardingSelectiveGetRequest16
- * @Groups [{"id":"00144d4cd6b46fb2a87b2e4d8760f200:158","type":"sequence"}]
+ * @Groups [{"id":"543304bb75006bfa60814c897fa03ec0:158","type":"sequence"}]
  */
 class UserCallForwardingSelectiveGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -31,7 +31,7 @@ class UserCallForwardingSelectiveGetResponse16 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group 00144d4cd6b46fb2a87b2e4d8760f200:158
+     * @Group 543304bb75006bfa60814c897fa03ec0:158
      * @var bool|null
      */
     private $isActive = null;
@@ -40,7 +40,7 @@ class UserCallForwardingSelectiveGetResponse16 extends \CWM\BroadWorksConnector\
      * @ElementName defaultForwardToPhoneNumber
      * @Type string
      * @Optional
-     * @Group 00144d4cd6b46fb2a87b2e4d8760f200:158
+     * @Group 543304bb75006bfa60814c897fa03ec0:158
      * @var string|null
      */
     private $defaultForwardToPhoneNumber = null;
@@ -48,7 +48,7 @@ class UserCallForwardingSelectiveGetResponse16 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName playRingReminder
      * @Type bool
-     * @Group 00144d4cd6b46fb2a87b2e4d8760f200:158
+     * @Group 543304bb75006bfa60814c897fa03ec0:158
      * @var bool|null
      */
     private $playRingReminder = null;
@@ -56,7 +56,7 @@ class UserCallForwardingSelectiveGetResponse16 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName criteriaTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 00144d4cd6b46fb2a87b2e4d8760f200:158
+     * @Group 543304bb75006bfa60814c897fa03ec0:158
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $criteriaTable = null;

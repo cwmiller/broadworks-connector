@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupCallCenterGetAvailableSupervisorListResponse
  * @see ErrorResponse
- * @Groups [{"id":"3ac5f05d969bc771d6ba8d344d95aa72:3766","type":"sequence"}]
+ * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:4231","type":"sequence"}]
  */
 class GroupCallCenterGetAvailableSupervisorListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class GroupCallCenterGetAvailableSupervisorListRequest extends \CWM\BroadWorksCo
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:3766
+     * @Group e2c537e3e39483b96620673a7012ffdd:4231
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,7 +27,7 @@ class GroupCallCenterGetAvailableSupervisorListRequest extends \CWM\BroadWorksCo
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:3766
+     * @Group e2c537e3e39483b96620673a7012ffdd:4231
      * @var string|null
      */
     private $groupId = null;
@@ -36,7 +36,7 @@ class GroupCallCenterGetAvailableSupervisorListRequest extends \CWM\BroadWorksCo
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:3766
+     * @Group e2c537e3e39483b96620673a7012ffdd:4231
      * @var int|null
      */
     private $responseSizeLimit = null;
@@ -46,7 +46,7 @@ class GroupCallCenterGetAvailableSupervisorListRequest extends \CWM\BroadWorksCo
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName
      * @Array
      * @Optional
-     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:3766
+     * @Group e2c537e3e39483b96620673a7012ffdd:4231
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[]
      */
     private $searchCriteriaUserLastName = array(
@@ -58,7 +58,7 @@ class GroupCallCenterGetAvailableSupervisorListRequest extends \CWM\BroadWorksCo
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName
      * @Array
      * @Optional
-     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:3766
+     * @Group e2c537e3e39483b96620673a7012ffdd:4231
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName[]
      */
     private $searchCriteriaUserFirstName = array(
@@ -69,7 +69,7 @@ class GroupCallCenterGetAvailableSupervisorListRequest extends \CWM\BroadWorksCo
      * @ElementName searchCriteriaExactUserDepartment
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment
      * @Optional
-     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:3766
+     * @Group e2c537e3e39483b96620673a7012ffdd:4231
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment|null
      */
     private $searchCriteriaExactUserDepartment = null;
@@ -78,7 +78,7 @@ class GroupCallCenterGetAvailableSupervisorListRequest extends \CWM\BroadWorksCo
      * @ElementName searchCriteriaExactUserGroup
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserGroup
      * @Optional
-     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:3766
+     * @Group e2c537e3e39483b96620673a7012ffdd:4231
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserGroup|null
      */
     private $searchCriteriaExactUserGroup = null;
@@ -88,7 +88,7 @@ class GroupCallCenterGetAvailableSupervisorListRequest extends \CWM\BroadWorksCo
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId
      * @Array
      * @Optional
-     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:3766
+     * @Group e2c537e3e39483b96620673a7012ffdd:4231
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId[]
      */
     private $searchCriteriaUserId = array(
@@ -100,7 +100,7 @@ class GroupCallCenterGetAvailableSupervisorListRequest extends \CWM\BroadWorksCo
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn
      * @Array
      * @Optional
-     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:3766
+     * @Group e2c537e3e39483b96620673a7012ffdd:4231
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[]
      */
     private $searchCriteriaDn = array(
@@ -112,7 +112,7 @@ class GroupCallCenterGetAvailableSupervisorListRequest extends \CWM\BroadWorksCo
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension
      * @Array
      * @Optional
-     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:3766
+     * @Group e2c537e3e39483b96620673a7012ffdd:4231
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension[]
      */
     private $searchCriteriaExtension = array(

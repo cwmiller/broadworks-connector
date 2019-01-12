@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           defaultDomain
  *
  * @see ServiceProviderGetDefaultRequest
- * @Groups [{"id":"8eb862aea0ee5d4211db0a0d3fe7c164:3507","type":"sequence"}]
+ * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:3625","type":"sequence"}]
  */
 class ServiceProviderGetDefaultResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -20,7 +20,7 @@ class ServiceProviderGetDefaultResponse extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName isEnterprise
      * @Type bool
-     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:3507
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3625
      * @var bool|null
      */
     private $isEnterprise = null;
@@ -29,7 +29,7 @@ class ServiceProviderGetDefaultResponse extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName defaultDomain
      * @Type string
      * @Optional
-     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:3507
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3625
      * @var string|null
      */
     private $defaultDomain = null;

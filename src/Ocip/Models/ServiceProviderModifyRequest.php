@@ -12,16 +12,19 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         servicePolicy,
  *         callProcessingSliceId, 
  *         provisioningSliceId, 
- *         subscriberPartition,
- *         preferredDataCenter.
+ *         subscriberPartition.
  *         When the callProcessingSliceId or provisioningSliceId is set to nillable, 
  *         it will be assigned to the default Slice.
  *         Only Provisioning admin and above can change the callProcessingSliceId, 
- *         provisioningSliceId, subscriberPartition and preferredDataCenter.
+ *         provisioningSliceId, and subscriberPartition.
+ *         
+ *         The following elements are only used in Amplify and XS data mode and ignored in AS data mode:
+ *         preferredDataCenter.
+ *         Only Provisioning admin and above can change the preferredDataCenter.
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"8eb862aea0ee5d4211db0a0d3fe7c164:3881","type":"sequence"}]
+ * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:4053","type":"sequence"}]
  */
 class ServiceProviderModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -29,7 +32,7 @@ class ServiceProviderModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:3881
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4053
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -38,7 +41,7 @@ class ServiceProviderModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @ElementName defaultDomain
      * @Type string
      * @Optional
-     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:3881
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4053
      * @var string|null
      */
     private $defaultDomain = null;
@@ -48,7 +51,7 @@ class ServiceProviderModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:3881
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4053
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $serviceProviderName = null;
@@ -58,7 +61,7 @@ class ServiceProviderModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:3881
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4053
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $supportEmail = null;
@@ -67,7 +70,7 @@ class ServiceProviderModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @ElementName contact
      * @Type \CWM\BroadWorksConnector\Ocip\Models\Contact
      * @Optional
-     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:3881
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4053
      * @var \CWM\BroadWorksConnector\Ocip\Models\Contact|null
      */
     private $contact = null;
@@ -76,7 +79,7 @@ class ServiceProviderModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @ElementName address
      * @Type \CWM\BroadWorksConnector\Ocip\Models\StreetAddress
      * @Optional
-     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:3881
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4053
      * @var \CWM\BroadWorksConnector\Ocip\Models\StreetAddress|null
      */
     private $address = null;
@@ -85,7 +88,7 @@ class ServiceProviderModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @ElementName useServiceProviderLanguages
      * @Type bool
      * @Optional
-     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:3881
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4053
      * @var bool|null
      */
     private $useServiceProviderLanguages = null;
@@ -95,7 +98,7 @@ class ServiceProviderModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:3881
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4053
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $servicePolicy = null;
@@ -105,7 +108,7 @@ class ServiceProviderModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:3881
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4053
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $callProcessingSliceId = null;
@@ -115,7 +118,7 @@ class ServiceProviderModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:3881
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4053
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $provisioningSliceId = null;
@@ -125,7 +128,7 @@ class ServiceProviderModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:3881
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4053
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $subscriberPartition = null;
@@ -135,7 +138,7 @@ class ServiceProviderModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:3881
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4053
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $preferredDataCenter = null;

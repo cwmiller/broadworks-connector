@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           systemFileName
  *           deviceFileFormat
  *
- * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:38596","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:42212","type":"sequence"}]
  */
 class CPEDeviceModifyOptions16
 {
@@ -20,7 +20,7 @@ class CPEDeviceModifyOptions16
      * @ElementName enableMonitoring
      * @Type bool
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:38596
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:42212
      * @var bool|null
      */
     private $enableMonitoring = null;
@@ -30,7 +30,7 @@ class CPEDeviceModifyOptions16
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CPEDeviceResetEventType
      * @Nillable
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:38596
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:42212
      * @var \CWM\BroadWorksConnector\Ocip\Models\CPEDeviceResetEventType|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $resetEvent = null;
@@ -39,7 +39,7 @@ class CPEDeviceModifyOptions16
      * @ElementName deviceManagementDeviceTypeOptions
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementDeviceTypeModifyOptions16
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:38596
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:42212
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementDeviceTypeModifyOptions16|null
      */
     private $deviceManagementDeviceTypeOptions = null;

@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Request to determine if a UserService or service pack is assigned to the user.
  *
- * @Groups [{"id":"ee3830ce42f01a3ef2a105d473fc3b17:3217","type":"sequence","children":[{"id":"ee3830ce42f01a3ef2a105d473fc3b17:3219","type":"choice"}]}]
+ * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:3604","type":"sequence","children":[{"id":"53d18cc797d03d802cbc411ad821f1d4:3606","type":"choice"}]}]
  */
 class UserServiceIsAssignedRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -15,7 +15,7 @@ class UserServiceIsAssignedRequest extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName userId
      * @Type string
-     * @Group ee3830ce42f01a3ef2a105d473fc3b17:3217
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:3604
      * @var string|null
      */
     private $userId = null;
@@ -23,7 +23,7 @@ class UserServiceIsAssignedRequest extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName serviceName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UserService
-     * @Group ee3830ce42f01a3ef2a105d473fc3b17:3219
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:3606
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserService|null
      */
     private $serviceName = null;
@@ -31,7 +31,7 @@ class UserServiceIsAssignedRequest extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName servicePackName
      * @Type string
-     * @Group ee3830ce42f01a3ef2a105d473fc3b17:3219
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:3606
      * @var string|null
      */
     private $servicePackName = null;

@@ -7,10 +7,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * The response is either a SystemCallProcessingGetPolicyResponse22 or an
  *         ErrorResponse.
+ *         
+ *         Replaced by: SystemCallProcessingGetPolicyRequest22V2 in AS data mode.
  *
  * @see SystemCallProcessingGetPolicyResponse22
  * @see ErrorResponse
- * @Groups [{"id":"b5f5416d9e71f8e4246cda16c4723744:2482","type":"sequence"}]
+ * @see SystemCallProcessingGetPolicyRequest22V2
+ * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:6125","type":"sequence"}]
  */
 class SystemCallProcessingGetPolicyRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

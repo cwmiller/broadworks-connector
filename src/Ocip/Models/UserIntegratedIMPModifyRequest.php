@@ -7,10 +7,21 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Modifies the Integrated IMP specific service attribute for the user.
  *         The response is either a SuccessResponse or an ErrorResponse.
+ *         If the impId element is set in the request, the impId element does 
+ *         not take effect on the service for the user unless the request also 
+ *         has the isActive element set to true to turn the service from off 
+ *         to on.
+ *         If impId is based on an alternate user ID and the impId and userId 
+ *         are identical, isAlternateImpId should be set to true to determine 
+ *         that impId is the user's alternate ID.
+ *         The following elements are only used in AS data mode and ignored in 
+ *         XS data mode:
+ *           impId
+ *           isAlternateImpId
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"1145a01488507071407c5896ff2e4ef5:347","type":"sequence"}]
+ * @Groups [{"id":"23389100b68cef3aa07ee12ac7a2bd16:380","type":"sequence"}]
  */
 class UserIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +29,7 @@ class UserIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName userId
      * @Type string
-     * @Group 1145a01488507071407c5896ff2e4ef5:347
+     * @Group 23389100b68cef3aa07ee12ac7a2bd16:380
      * @var string|null
      */
     private $userId = null;
@@ -27,10 +38,28 @@ class UserIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName isActive
      * @Type bool
      * @Optional
-     * @Group 1145a01488507071407c5896ff2e4ef5:347
+     * @Group 23389100b68cef3aa07ee12ac7a2bd16:380
      * @var bool|null
      */
     private $isActive = null;
+
+    /**
+     * @ElementName impId
+     * @Type string
+     * @Optional
+     * @Group 23389100b68cef3aa07ee12ac7a2bd16:380
+     * @var string|null
+     */
+    private $impId = null;
+
+    /**
+     * @ElementName isAlternateImpId
+     * @Type bool
+     * @Optional
+     * @Group 23389100b68cef3aa07ee12ac7a2bd16:380
+     * @var bool|null
+     */
+    private $isAlternateImpId = null;
 
     /**
      * Getter for userId
@@ -91,6 +120,68 @@ class UserIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
     public function unsetIsActive()
     {
         $this->isActive = null;
+        return $this;
+    }
+
+    /**
+     * Getter for impId
+     *
+     * @return string
+     */
+    public function getImpId()
+    {
+        return $this->impId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->impId;
+    }
+
+    /**
+     * Setter for impId
+     *
+     * @param string $impId
+     * @return $this
+     */
+    public function setImpId($impId)
+    {
+        $this->impId = $impId;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetImpId()
+    {
+        $this->impId = null;
+        return $this;
+    }
+
+    /**
+     * Getter for isAlternateImpId
+     *
+     * @return bool
+     */
+    public function getIsAlternateImpId()
+    {
+        return $this->isAlternateImpId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isAlternateImpId;
+    }
+
+    /**
+     * Setter for isAlternateImpId
+     *
+     * @param bool $isAlternateImpId
+     * @return $this
+     */
+    public function setIsAlternateImpId($isAlternateImpId)
+    {
+        $this->isAlternateImpId = $isAlternateImpId;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetIsAlternateImpId()
+    {
+        $this->isAlternateImpId = null;
         return $this;
     }
 

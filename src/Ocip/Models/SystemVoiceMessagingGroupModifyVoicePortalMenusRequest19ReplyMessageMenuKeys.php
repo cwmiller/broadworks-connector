@@ -5,7 +5,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19ReplyMessageMenuKeys
  *
- * @Groups [{"id":"80c5986946137c505e41f6008c7f75a8:1440","type":"sequence"}]
+ * @Groups [{"id":"3347d430e0d5c93a9ff8dcf0e3b60d6c:1494","type":"sequence"}]
  */
 class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19ReplyMessageMenuKeys
 {
@@ -14,7 +14,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19ReplyMessageMenuKe
      * @ElementName sendReplyToCaller
      * @Type string
      * @Optional
-     * @Group 80c5986946137c505e41f6008c7f75a8:1440
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1494
      * @var string|null
      */
     private $sendReplyToCaller = null;
@@ -24,7 +24,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19ReplyMessageMenuKe
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 80c5986946137c505e41f6008c7f75a8:1440
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1494
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $changeCurrentReply = null;
@@ -34,7 +34,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19ReplyMessageMenuKe
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 80c5986946137c505e41f6008c7f75a8:1440
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1494
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $listenToCurrentReply = null;
@@ -44,7 +44,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19ReplyMessageMenuKe
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 80c5986946137c505e41f6008c7f75a8:1440
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1494
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $setOrClearUrgentIndicator = null;
@@ -54,7 +54,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19ReplyMessageMenuKe
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 80c5986946137c505e41f6008c7f75a8:1440
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1494
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $setOrClearConfidentialIndicator = null;
@@ -63,7 +63,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19ReplyMessageMenuKe
      * @ElementName returnToPreviousMenu
      * @Type string
      * @Optional
-     * @Group 80c5986946137c505e41f6008c7f75a8:1440
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1494
      * @var string|null
      */
     private $returnToPreviousMenu = null;
@@ -73,7 +73,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19ReplyMessageMenuKe
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 80c5986946137c505e41f6008c7f75a8:1440
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1494
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $repeatMenu = null;

@@ -18,7 +18,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see ErrorResponse
  * @see ErrorResponse
  * @see GroupFeatureAccessCodeModifyRequest21
- * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:8265","type":"sequence","children":[{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:8269","type":"choice"}]}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:32135","type":"sequence","children":[{"id":"ab0042aa512abc10edb3c55e4b416b0b:32139","type":"choice"}]}]
  */
 class GroupFeatureAccessCodeModifyRequest20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -26,7 +26,7 @@ class GroupFeatureAccessCodeModifyRequest20 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:8265
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:32135
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -34,7 +34,7 @@ class GroupFeatureAccessCodeModifyRequest20 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:8265
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:32135
      * @var string|null
      */
     private $groupId = null;
@@ -43,7 +43,7 @@ class GroupFeatureAccessCodeModifyRequest20 extends \CWM\BroadWorksConnector\Oci
      * @ElementName useFeatureAccessCodeLevel
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupFeatureAccessCodeLevel
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:8265
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:32135
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupFeatureAccessCodeLevel|null
      */
     private $useFeatureAccessCodeLevel = null;
@@ -52,7 +52,7 @@ class GroupFeatureAccessCodeModifyRequest20 extends \CWM\BroadWorksConnector\Oci
      * @ElementName restoreDefaultCodes
      * @Type bool
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:8269
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:32139
      * @var bool|null
      */
     private $restoreDefaultCodes = null;
@@ -62,7 +62,7 @@ class GroupFeatureAccessCodeModifyRequest20 extends \CWM\BroadWorksConnector\Oci
      * @Type \CWM\BroadWorksConnector\Ocip\Models\FeatureAccessCodeEntry
      * @Array
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:8269
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:32139
      * @var \CWM\BroadWorksConnector\Ocip\Models\FeatureAccessCodeEntry[]
      */
     private $featureAccessCode = array(

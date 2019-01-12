@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserConnectedLineIdentificationRestrictionGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"8d0b9bd58ad0a89c4d681f6256f73f06:44","type":"sequence"}]
+ * @Groups [{"id":"755f02354120ea5249923372461f5503:44","type":"sequence"}]
  */
 class UserConnectedLineIdentificationRestrictionGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class UserConnectedLineIdentificationRestrictionGetRequest extends \CWM\BroadWor
     /**
      * @ElementName userId
      * @Type string
-     * @Group 8d0b9bd58ad0a89c4d681f6256f73f06:44
+     * @Group 755f02354120ea5249923372461f5503:44
      * @var string|null
      */
     private $userId = null;

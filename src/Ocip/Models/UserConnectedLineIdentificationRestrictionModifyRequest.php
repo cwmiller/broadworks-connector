@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"8d0b9bd58ad0a89c4d681f6256f73f06:75","type":"sequence"}]
+ * @Groups [{"id":"755f02354120ea5249923372461f5503:75","type":"sequence"}]
  */
 class UserConnectedLineIdentificationRestrictionModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserConnectedLineIdentificationRestrictionModifyRequest extends \CWM\Broad
     /**
      * @ElementName userId
      * @Type string
-     * @Group 8d0b9bd58ad0a89c4d681f6256f73f06:75
+     * @Group 755f02354120ea5249923372461f5503:75
      * @var string|null
      */
     private $userId = null;
@@ -27,7 +27,7 @@ class UserConnectedLineIdentificationRestrictionModifyRequest extends \CWM\Broad
      * @ElementName isActive
      * @Type bool
      * @Optional
-     * @Group 8d0b9bd58ad0a89c4d681f6256f73f06:75
+     * @Group 755f02354120ea5249923372461f5503:75
      * @var bool|null
      */
     private $isActive = null;

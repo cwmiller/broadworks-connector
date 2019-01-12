@@ -7,11 +7,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Request the Receptionist notes for the specified Receptionist and Contact User IDs.  
  *         The response is either a UserBroadWorksReceptionistEnterpriseNoteGetResponse or an
- *         ErrorResponse.
+ *         ErrorResponse.  If the user sending the request is the not the owner of the 
+ *         Receptionist Note, then an ErrorResponse will be returned.
  *
  * @see UserBroadWorksReceptionistEnterpriseNoteGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"b99e2521b171f47568831e973c09aa33:234","type":"sequence","children":[{"id":"b99e2521b171f47568831e973c09aa33:236","type":"choice"}]}]
+ * @see ErrorResponse
+ * @Groups [{"id":"fb12998f4f9e45cedde01f08569f4c7c:235","type":"sequence","children":[{"id":"fb12998f4f9e45cedde01f08569f4c7c:237","type":"choice"}]}]
  */
 class UserBroadWorksReceptionistEnterpriseNoteGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +21,7 @@ class UserBroadWorksReceptionistEnterpriseNoteGetRequest extends \CWM\BroadWorks
     /**
      * @ElementName receptionistUserId
      * @Type string
-     * @Group b99e2521b171f47568831e973c09aa33:234
+     * @Group fb12998f4f9e45cedde01f08569f4c7c:235
      * @var string|null
      */
     private $receptionistUserId = null;
@@ -27,7 +29,7 @@ class UserBroadWorksReceptionistEnterpriseNoteGetRequest extends \CWM\BroadWorks
     /**
      * @ElementName contactUserId
      * @Type string
-     * @Group b99e2521b171f47568831e973c09aa33:236
+     * @Group fb12998f4f9e45cedde01f08569f4c7c:237
      * @var string|null
      */
     private $contactUserId = null;
@@ -35,7 +37,7 @@ class UserBroadWorksReceptionistEnterpriseNoteGetRequest extends \CWM\BroadWorks
     /**
      * @ElementName vonUser
      * @Type \CWM\BroadWorksConnector\Ocip\Models\VirtualOnNetUserKey
-     * @Group b99e2521b171f47568831e973c09aa33:236
+     * @Group fb12998f4f9e45cedde01f08569f4c7c:237
      * @var \CWM\BroadWorksConnector\Ocip\Models\VirtualOnNetUserKey|null
      */
     private $vonUser = null;

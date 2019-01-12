@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the UserSimultaneousRingFamilyGetCriteriaRequest.
  *
  * @see UserSimultaneousRingFamilyGetCriteriaRequest
- * @Groups [{"id":"e5e2d2259eb3c3343c7c35c64b1fba49:101","type":"sequence"}]
+ * @Groups [{"id":"239d22a382d3190a183f2ff4efdc404f:101","type":"sequence"}]
  */
 class UserSimultaneousRingFamilyGetCriteriaResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class UserSimultaneousRingFamilyGetCriteriaResponse extends \CWM\BroadWorksConne
      * @ElementName timeSchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule
      * @Optional
-     * @Group e5e2d2259eb3c3343c7c35c64b1fba49:101
+     * @Group 239d22a382d3190a183f2ff4efdc404f:101
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null
      */
     private $timeSchedule = null;
@@ -26,7 +26,7 @@ class UserSimultaneousRingFamilyGetCriteriaResponse extends \CWM\BroadWorksConne
      * @ElementName holidaySchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule
      * @Optional
-     * @Group e5e2d2259eb3c3343c7c35c64b1fba49:101
+     * @Group 239d22a382d3190a183f2ff4efdc404f:101
      * @var \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null
      */
     private $holidaySchedule = null;
@@ -34,7 +34,7 @@ class UserSimultaneousRingFamilyGetCriteriaResponse extends \CWM\BroadWorksConne
     /**
      * @ElementName blacklisted
      * @Type bool
-     * @Group e5e2d2259eb3c3343c7c35c64b1fba49:101
+     * @Group 239d22a382d3190a183f2ff4efdc404f:101
      * @var bool|null
      */
     private $blacklisted = null;
@@ -42,7 +42,7 @@ class UserSimultaneousRingFamilyGetCriteriaResponse extends \CWM\BroadWorksConne
     /**
      * @ElementName fromDnCriteria
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDn
-     * @Group e5e2d2259eb3c3343c7c35c64b1fba49:101
+     * @Group 239d22a382d3190a183f2ff4efdc404f:101
      * @var \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDn|null
      */
     private $fromDnCriteria = null;

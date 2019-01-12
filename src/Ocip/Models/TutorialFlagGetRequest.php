@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see TutorialFlagGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"21fd3c6abc11c44e52803121f7739a76:489","type":"sequence"}]
+ * @Groups [{"id":"6b27fcc79475236456fc113a42b75543:533","type":"sequence"}]
  */
 class TutorialFlagGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class TutorialFlagGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIR
     /**
      * @ElementName userId
      * @Type string
-     * @Group 21fd3c6abc11c44e52803121f7739a76:489
+     * @Group 6b27fcc79475236456fc113a42b75543:533
      * @var string|null
      */
     private $userId = null;

@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * 				contains a table with column headings: "Name" and "Phone Number".
  *
  * @see UserGroupCommonPhoneListGetPagedSortedListRequest
- * @Groups [{"id":"ee3830ce42f01a3ef2a105d473fc3b17:1879","type":"sequence"}]
+ * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:2169","type":"sequence"}]
  */
 class UserGroupCommonPhoneListGetPagedSortedListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class UserGroupCommonPhoneListGetPagedSortedListResponse extends \CWM\BroadWorks
     /**
      * @ElementName totalNumberOfRows
      * @Type int
-     * @Group ee3830ce42f01a3ef2a105d473fc3b17:1879
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:2169
      * @var int|null
      */
     private $totalNumberOfRows = null;
@@ -26,7 +26,7 @@ class UserGroupCommonPhoneListGetPagedSortedListResponse extends \CWM\BroadWorks
     /**
      * @ElementName groupCommonPhoneListTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group ee3830ce42f01a3ef2a105d473fc3b17:1879
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:2169
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $groupCommonPhoneListTable = null;

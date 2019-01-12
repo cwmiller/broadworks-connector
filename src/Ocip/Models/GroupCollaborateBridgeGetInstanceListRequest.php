@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupCollaborateBridgeGetInstanceListResponse
  * @see ErrorResponse
- * @Groups [{"id":"1d655a4f2853eddf47018e01b685b65b:243","type":"sequence"}]
+ * @Groups [{"id":"939fd5846dfae8bdf58308d6cb9ebb12:302","type":"sequence"}]
  */
 class GroupCollaborateBridgeGetInstanceListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class GroupCollaborateBridgeGetInstanceListRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 1d655a4f2853eddf47018e01b685b65b:243
+     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:302
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,7 +27,7 @@ class GroupCollaborateBridgeGetInstanceListRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 1d655a4f2853eddf47018e01b685b65b:243
+     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:302
      * @var string|null
      */
     private $groupId = null;
@@ -36,7 +36,7 @@ class GroupCollaborateBridgeGetInstanceListRequest extends \CWM\BroadWorksConnec
      * @ElementName departmentName
      * @Type string
      * @Optional
-     * @Group 1d655a4f2853eddf47018e01b685b65b:243
+     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:302
      * @var string|null
      */
     private $departmentName = null;

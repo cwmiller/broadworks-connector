@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupSessionAdmissionControlGroupGetRequest19sp1
  * @see GroupSessionAdmissionControlGroupGetResponse21sp1
- * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:11168","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:1981","type":"sequence"}]
  */
 class GroupSessionAdmissionControlGroupGetResponse19sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,7 +19,7 @@ class GroupSessionAdmissionControlGroupGetResponse19sp1 extends \CWM\BroadWorksC
     /**
      * @ElementName maxSession
      * @Type int
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:11168
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:1981
      * @var int|null
      */
     private $maxSession = null;
@@ -28,7 +28,7 @@ class GroupSessionAdmissionControlGroupGetResponse19sp1 extends \CWM\BroadWorksC
      * @ElementName maxUserOriginatingSessions
      * @Type int
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:11168
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:1981
      * @var int|null
      */
     private $maxUserOriginatingSessions = null;
@@ -37,7 +37,7 @@ class GroupSessionAdmissionControlGroupGetResponse19sp1 extends \CWM\BroadWorksC
      * @ElementName maxUserTerminatingSessions
      * @Type int
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:11168
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:1981
      * @var int|null
      */
     private $maxUserTerminatingSessions = null;
@@ -45,7 +45,7 @@ class GroupSessionAdmissionControlGroupGetResponse19sp1 extends \CWM\BroadWorksC
     /**
      * @ElementName reservedSession
      * @Type int
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:11168
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:1981
      * @var int|null
      */
     private $reservedSession = null;
@@ -54,7 +54,7 @@ class GroupSessionAdmissionControlGroupGetResponse19sp1 extends \CWM\BroadWorksC
      * @ElementName reservedUserOriginatingSessions
      * @Type int
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:11168
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:1981
      * @var int|null
      */
     private $reservedUserOriginatingSessions = null;
@@ -63,7 +63,7 @@ class GroupSessionAdmissionControlGroupGetResponse19sp1 extends \CWM\BroadWorksC
      * @ElementName reservedUserTerminatingSessions
      * @Type int
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:11168
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:1981
      * @var int|null
      */
     private $reservedUserTerminatingSessions = null;
@@ -71,7 +71,7 @@ class GroupSessionAdmissionControlGroupGetResponse19sp1 extends \CWM\BroadWorksC
     /**
      * @ElementName defaultGroup
      * @Type bool
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:11168
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:1981
      * @var bool|null
      */
     private $defaultGroup = null;
@@ -79,7 +79,7 @@ class GroupSessionAdmissionControlGroupGetResponse19sp1 extends \CWM\BroadWorksC
     /**
      * @ElementName countIntraSACGroupSessions
      * @Type bool
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:11168
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:1981
      * @var bool|null
      */
     private $countIntraSACGroupSessions = null;
@@ -89,7 +89,7 @@ class GroupSessionAdmissionControlGroupGetResponse19sp1 extends \CWM\BroadWorksC
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDevice
      * @Array
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:11168
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:1981
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDevice[]
      */
     private $devices = array(
@@ -99,7 +99,7 @@ class GroupSessionAdmissionControlGroupGetResponse19sp1 extends \CWM\BroadWorksC
     /**
      * @ElementName blockEmergencyAndRepairCallsDueToSACLimits
      * @Type bool
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:11168
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:1981
      * @var bool|null
      */
     private $blockEmergencyAndRepairCallsDueToSACLimits = null;

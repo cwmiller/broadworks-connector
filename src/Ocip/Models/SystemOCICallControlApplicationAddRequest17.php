@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SuccessResponse
  * @see ErrorResponse
  * @see SystemOCICallControlApplicationAddRequest22
- * @Groups [{"id":"bb12a3589ab4748963f28f7ac9310f70:3799","type":"sequence"}]
+ * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:6539","type":"sequence"}]
  */
 class SystemOCICallControlApplicationAddRequest17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,7 +21,7 @@ class SystemOCICallControlApplicationAddRequest17 extends \CWM\BroadWorksConnect
     /**
      * @ElementName applicationId
      * @Type string
-     * @Group bb12a3589ab4748963f28f7ac9310f70:3799
+     * @Group de4d76f01f337fe4694212ec9f771753:6539
      * @var string|null
      */
     private $applicationId = null;
@@ -29,7 +29,7 @@ class SystemOCICallControlApplicationAddRequest17 extends \CWM\BroadWorksConnect
     /**
      * @ElementName enableSystemWide
      * @Type bool
-     * @Group bb12a3589ab4748963f28f7ac9310f70:3799
+     * @Group de4d76f01f337fe4694212ec9f771753:6539
      * @var bool|null
      */
     private $enableSystemWide = null;
@@ -37,7 +37,7 @@ class SystemOCICallControlApplicationAddRequest17 extends \CWM\BroadWorksConnect
     /**
      * @ElementName notificationTimeoutSeconds
      * @Type int
-     * @Group bb12a3589ab4748963f28f7ac9310f70:3799
+     * @Group de4d76f01f337fe4694212ec9f771753:6539
      * @var int|null
      */
     private $notificationTimeoutSeconds = null;
@@ -46,7 +46,7 @@ class SystemOCICallControlApplicationAddRequest17 extends \CWM\BroadWorksConnect
      * @ElementName description
      * @Type string
      * @Optional
-     * @Group bb12a3589ab4748963f28f7ac9310f70:3799
+     * @Group de4d76f01f337fe4694212ec9f771753:6539
      * @var string|null
      */
     private $description = null;
@@ -54,7 +54,7 @@ class SystemOCICallControlApplicationAddRequest17 extends \CWM\BroadWorksConnect
     /**
      * @ElementName maxEventChannelsPerSet
      * @Type int
-     * @Group bb12a3589ab4748963f28f7ac9310f70:3799
+     * @Group de4d76f01f337fe4694212ec9f771753:6539
      * @var int|null
      */
     private $maxEventChannelsPerSet = null;

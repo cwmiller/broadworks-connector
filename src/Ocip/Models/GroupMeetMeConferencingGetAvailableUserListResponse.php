@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "Phone Number", "Extension", "Department", "Email Address".
  *
  * @see GroupMeetMeConferencingGetAvailableUserListRequest
- * @Groups [{"id":"7a29c84abb8473449085e6657fc6948d:140","type":"sequence"}]
+ * @Groups [{"id":"0fd24121d16995c994d40bc408dbcfa5:142","type":"sequence"}]
  */
 class GroupMeetMeConferencingGetAvailableUserListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class GroupMeetMeConferencingGetAvailableUserListResponse extends \CWM\BroadWork
     /**
      * @ElementName userTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 7a29c84abb8473449085e6657fc6948d:140
+     * @Group 0fd24121d16995c994d40bc408dbcfa5:142
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $userTable = null;

@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains a table with column headings: "User Id", "Last Name", "First Name", "Hiragana Last Name", "Hiragana First Name".
  *
  * @see GroupCallCenterGetAvailableUserListRequest
- * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:3994","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:8168","type":"sequence"}]
  */
 class GroupCallCenterGetAvailableUserListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class GroupCallCenterGetAvailableUserListResponse extends \CWM\BroadWorksConnect
     /**
      * @ElementName userTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:3994
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:8168
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $userTable = null;

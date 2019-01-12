@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemAutomaticCallbackGetResponse17
  * @see ErrorResponse
- * @Groups [{"id":"3cba5f323319ae2171c7c634ba1811e2:107","type":"sequence"}]
+ * @Groups [{"id":"e8188f390ad4fcfad616cb409dd0e896:107","type":"sequence"}]
  */
 class SystemAutomaticCallbackGetRequest17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

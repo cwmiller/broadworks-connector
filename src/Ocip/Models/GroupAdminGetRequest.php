@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see GroupAdminGetResponse
  * @see ErrorResponse
  * @see GroupAdminGetRequest21sp1
- * @Groups [{"id":"bb12a3589ab4748963f28f7ac9310f70:362","type":"sequence"}]
+ * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:4186","type":"sequence"}]
  */
 class GroupAdminGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class GroupAdminGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReq
     /**
      * @ElementName userId
      * @Type string
-     * @Group bb12a3589ab4748963f28f7ac9310f70:362
+     * @Group de4d76f01f337fe4694212ec9f771753:4186
      * @var string|null
      */
     private $userId = null;

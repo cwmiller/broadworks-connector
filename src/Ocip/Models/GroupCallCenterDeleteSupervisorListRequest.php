@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"3ac5f05d969bc771d6ba8d344d95aa72:2863","type":"sequence"}]
+ * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:3199","type":"sequence"}]
  */
 class GroupCallCenterDeleteSupervisorListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupCallCenterDeleteSupervisorListRequest extends \CWM\BroadWorksConnecto
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:2863
+     * @Group e2c537e3e39483b96620673a7012ffdd:3199
      * @var string|null
      */
     private $serviceUserId = null;
@@ -27,7 +27,7 @@ class GroupCallCenterDeleteSupervisorListRequest extends \CWM\BroadWorksConnecto
      * @ElementName supervisorUserId
      * @Type string
      * @Array
-     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:2863
+     * @Group e2c537e3e39483b96620673a7012ffdd:3199
      * @var string[]
      */
     private $supervisorUserId = array(

@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response contains the session admission control capacity allocated for the group.
  *
  * @see GroupSessionAdmissionControlGetRequest
- * @Groups [{"id":"15129cd25fa2d5581f4edfd652c24f93:6709","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:7008","type":"sequence"}]
  */
 class GroupSessionAdmissionControlGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class GroupSessionAdmissionControlGetResponse extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName restrictAggregateSessions
      * @Type bool
-     * @Group 15129cd25fa2d5581f4edfd652c24f93:6709
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:7008
      * @var bool|null
      */
     private $restrictAggregateSessions = null;
@@ -26,7 +26,7 @@ class GroupSessionAdmissionControlGetResponse extends \CWM\BroadWorksConnector\O
      * @ElementName maxSessions
      * @Type int
      * @Optional
-     * @Group 15129cd25fa2d5581f4edfd652c24f93:6709
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:7008
      * @var int|null
      */
     private $maxSessions = null;
@@ -35,7 +35,7 @@ class GroupSessionAdmissionControlGetResponse extends \CWM\BroadWorksConnector\O
      * @ElementName maxUserOriginatingSessions
      * @Type int
      * @Optional
-     * @Group 15129cd25fa2d5581f4edfd652c24f93:6709
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:7008
      * @var int|null
      */
     private $maxUserOriginatingSessions = null;
@@ -44,7 +44,7 @@ class GroupSessionAdmissionControlGetResponse extends \CWM\BroadWorksConnector\O
      * @ElementName maxUserTerminatingSessions
      * @Type int
      * @Optional
-     * @Group 15129cd25fa2d5581f4edfd652c24f93:6709
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:7008
      * @var int|null
      */
     private $maxUserTerminatingSessions = null;
@@ -52,7 +52,7 @@ class GroupSessionAdmissionControlGetResponse extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName countIntraGroupSessions
      * @Type bool
-     * @Group 15129cd25fa2d5581f4edfd652c24f93:6709
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:7008
      * @var bool|null
      */
     private $countIntraGroupSessions = null;

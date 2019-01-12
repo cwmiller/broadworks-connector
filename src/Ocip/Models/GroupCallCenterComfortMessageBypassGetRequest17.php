@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see GroupCallCenterComfortMessageBypassGetResponse17
  * @see ErrorResponse
  * @see GroupCallCenterComfortMessageBypassGetRequest20
- * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:3291","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:28361","type":"sequence"}]
  */
 class GroupCallCenterComfortMessageBypassGetRequest17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,7 +21,7 @@ class GroupCallCenterComfortMessageBypassGetRequest17 extends \CWM\BroadWorksCon
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:3291
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:28361
      * @var string|null
      */
     private $serviceUserId = null;

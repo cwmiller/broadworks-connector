@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"d7882d78f308b028a917e52a926dc22c:239","type":"sequence"}]
+ * @Groups [{"id":"e71c2205fb31894f87810b330a85ede2:290","type":"sequence"}]
  */
 class SystemEmergencyZonesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class SystemEmergencyZonesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName defaultFromAddress
      * @Type string
      * @Optional
-     * @Group d7882d78f308b028a917e52a926dc22c:239
+     * @Group e71c2205fb31894f87810b330a85ede2:290
      * @var string|null
      */
     private $defaultFromAddress = null;

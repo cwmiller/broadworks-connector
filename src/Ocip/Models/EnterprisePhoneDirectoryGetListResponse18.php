@@ -22,9 +22,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         
  *         The following columns are returned in AS data mode only:
  *           "Service Name"
+ *         
+ *         Replaced By: EnterprisePhoneDirectoryGetPagedSortedListResponse
  *
  * @see EnterprisePhoneDirectoryGetListRequest18
- * @Groups [{"id":"889c8c305076ef39cc50c70d0c2dc820:808","type":"sequence"}]
+ * @see EnterprisePhoneDirectoryGetPagedSortedListResponse
+ * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:4110","type":"sequence"}]
  */
 class EnterprisePhoneDirectoryGetListResponse18 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -32,7 +35,7 @@ class EnterprisePhoneDirectoryGetListResponse18 extends \CWM\BroadWorksConnector
     /**
      * @ElementName directoryTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 889c8c305076ef39cc50c70d0c2dc820:808
+     * @Group de4d76f01f337fe4694212ec9f771753:4110
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $directoryTable = null;

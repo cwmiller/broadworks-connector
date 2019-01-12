@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response contains a table of all Digit Pattern Criteria defined for the service provider. The column headings are "Name" and "Description"
  *
  * @see ServiceProviderCommunicationBarringDigitPatternCriteriaGetListRequest
- * @Groups [{"id":"8eb862aea0ee5d4211db0a0d3fe7c164:1533","type":"sequence"}]
+ * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:1592","type":"sequence"}]
  */
 class ServiceProviderCommunicationBarringDigitPatternCriteriaGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class ServiceProviderCommunicationBarringDigitPatternCriteriaGetListResponse ext
     /**
      * @ElementName criteriaTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:1533
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1592
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $criteriaTable = null;

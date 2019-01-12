@@ -5,7 +5,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * RecurrenceRecurDaily
  *
- * @Groups [{"id":"8e629edbac315ae7889caca732382c44:2607","type":"sequence"}]
+ * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:2863","type":"sequence"}]
  */
 class RecurrenceRecurDaily
 {
@@ -14,7 +14,7 @@ class RecurrenceRecurDaily
      * @ElementName recurInterval
      * @Type int
      * @Optional
-     * @Group 8e629edbac315ae7889caca732382c44:2607
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:2863
      * @var int|null
      */
     private $recurInterval = null;

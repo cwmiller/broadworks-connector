@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"40322112e72600d53590e48b9c64c76b:177","type":"sequence"}]
+ * @Groups [{"id":"f64c4e06b22d19cc74a21048a08a84c7:177","type":"sequence"}]
  */
 class UserSimultaneousRingPersonalModifyRequest17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserSimultaneousRingPersonalModifyRequest17 extends \CWM\BroadWorksConnect
     /**
      * @ElementName userId
      * @Type string
-     * @Group 40322112e72600d53590e48b9c64c76b:177
+     * @Group f64c4e06b22d19cc74a21048a08a84c7:177
      * @var string|null
      */
     private $userId = null;
@@ -27,7 +27,7 @@ class UserSimultaneousRingPersonalModifyRequest17 extends \CWM\BroadWorksConnect
      * @ElementName isActive
      * @Type bool
      * @Optional
-     * @Group 40322112e72600d53590e48b9c64c76b:177
+     * @Group f64c4e06b22d19cc74a21048a08a84c7:177
      * @var bool|null
      */
     private $isActive = null;
@@ -36,7 +36,7 @@ class UserSimultaneousRingPersonalModifyRequest17 extends \CWM\BroadWorksConnect
      * @ElementName doNotRingIfOnCall
      * @Type bool
      * @Optional
-     * @Group 40322112e72600d53590e48b9c64c76b:177
+     * @Group f64c4e06b22d19cc74a21048a08a84c7:177
      * @var bool|null
      */
     private $doNotRingIfOnCall = null;
@@ -46,7 +46,7 @@ class UserSimultaneousRingPersonalModifyRequest17 extends \CWM\BroadWorksConnect
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SimultaneousRingReplacementNumberList
      * @Nillable
      * @Optional
-     * @Group 40322112e72600d53590e48b9c64c76b:177
+     * @Group f64c4e06b22d19cc74a21048a08a84c7:177
      * @var \CWM\BroadWorksConnector\Ocip\Models\SimultaneousRingReplacementNumberList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $simultaneousRingNumberList = null;
@@ -56,7 +56,7 @@ class UserSimultaneousRingPersonalModifyRequest17 extends \CWM\BroadWorksConnect
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CriteriaActivation
      * @Array
      * @Optional
-     * @Group 40322112e72600d53590e48b9c64c76b:177
+     * @Group f64c4e06b22d19cc74a21048a08a84c7:177
      * @var \CWM\BroadWorksConnector\Ocip\Models\CriteriaActivation[]
      */
     private $criteriaActivation = array(

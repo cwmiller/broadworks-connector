@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         With the exception of the string "Voice Portal" which is returned when the announcement is being used by Voice Portal Personalized Name.
  *
  * @see GroupAnnouncementFileGetRequest
- * @Groups [{"id":"15129cd25fa2d5581f4edfd652c24f93:1384","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:1559","type":"sequence"}]
  */
 class GroupAnnouncementFileGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -21,7 +21,7 @@ class GroupAnnouncementFileGetResponse extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName description
      * @Type string
-     * @Group 15129cd25fa2d5581f4edfd652c24f93:1384
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:1559
      * @var string|null
      */
     private $description = null;
@@ -29,7 +29,7 @@ class GroupAnnouncementFileGetResponse extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName filesize
      * @Type int
-     * @Group 15129cd25fa2d5581f4edfd652c24f93:1384
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:1559
      * @var int|null
      */
     private $filesize = null;
@@ -37,7 +37,7 @@ class GroupAnnouncementFileGetResponse extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName lastUploaded
      * @Type string
-     * @Group 15129cd25fa2d5581f4edfd652c24f93:1384
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:1559
      * @var string|null
      */
     private $lastUploaded = null;
@@ -45,7 +45,7 @@ class GroupAnnouncementFileGetResponse extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName usageTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 15129cd25fa2d5581f4edfd652c24f93:1384
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:1559
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $usageTable = null;

@@ -5,7 +5,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemConfigurableFileSystemModifyRequestProtocolWebDAV
  *
- * @Groups [{"id":"b5f5416d9e71f8e4246cda16c4723744:5917","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:6036","type":"sequence"}]
  */
 class SystemConfigurableFileSystemModifyRequestProtocolWebDAV
 {
@@ -14,7 +14,7 @@ class SystemConfigurableFileSystemModifyRequestProtocolWebDAV
      * @ElementName secure
      * @Type bool
      * @Optional
-     * @Group b5f5416d9e71f8e4246cda16c4723744:5917
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6036
      * @var bool|null
      */
     private $secure = null;
@@ -24,7 +24,7 @@ class SystemConfigurableFileSystemModifyRequestProtocolWebDAV
      * @Type string
      * @Nillable
      * @Optional
-     * @Group b5f5416d9e71f8e4246cda16c4723744:5917
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6036
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $userName = null;
@@ -34,7 +34,7 @@ class SystemConfigurableFileSystemModifyRequestProtocolWebDAV
      * @Type string
      * @Nillable
      * @Optional
-     * @Group b5f5416d9e71f8e4246cda16c4723744:5917
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6036
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $password = null;
@@ -43,7 +43,7 @@ class SystemConfigurableFileSystemModifyRequestProtocolWebDAV
      * @ElementName fileServerFQDN
      * @Type string
      * @Optional
-     * @Group b5f5416d9e71f8e4246cda16c4723744:5917
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6036
      * @var string|null
      */
     private $fileServerFQDN = null;

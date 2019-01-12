@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"b5f5416d9e71f8e4246cda16c4723744:849","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:857","type":"sequence"}]
  */
 class SystemAccessDeviceFileModifyRequest14sp8 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemAccessDeviceFileModifyRequest14sp8 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName deviceName
      * @Type string
-     * @Group b5f5416d9e71f8e4246cda16c4723744:849
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:857
      * @var string|null
      */
     private $deviceName = null;
@@ -26,7 +26,7 @@ class SystemAccessDeviceFileModifyRequest14sp8 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName fileFormat
      * @Type string
-     * @Group b5f5416d9e71f8e4246cda16c4723744:849
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:857
      * @var string|null
      */
     private $fileFormat = null;
@@ -35,7 +35,7 @@ class SystemAccessDeviceFileModifyRequest14sp8 extends \CWM\BroadWorksConnector\
      * @ElementName fileSource
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationMode
      * @Optional
-     * @Group b5f5416d9e71f8e4246cda16c4723744:849
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:857
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationMode|null
      */
     private $fileSource = null;
@@ -44,7 +44,7 @@ class SystemAccessDeviceFileModifyRequest14sp8 extends \CWM\BroadWorksConnector\
      * @ElementName uploadFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\FileResource
      * @Optional
-     * @Group b5f5416d9e71f8e4246cda16c4723744:849
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:857
      * @var \CWM\BroadWorksConnector\Ocip\Models\FileResource|null
      */
     private $uploadFile = null;
@@ -53,7 +53,7 @@ class SystemAccessDeviceFileModifyRequest14sp8 extends \CWM\BroadWorksConnector\
      * @ElementName extendedCaptureEnabled
      * @Type bool
      * @Optional
-     * @Group b5f5416d9e71f8e4246cda16c4723744:849
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:857
      * @var bool|null
      */
     private $extendedCaptureEnabled = null;

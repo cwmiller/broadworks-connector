@@ -5,7 +5,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PlayGreetingMenuKeys
  *
- * @Groups [{"id":"80c5986946137c505e41f6008c7f75a8:718","type":"sequence"}]
+ * @Groups [{"id":"3347d430e0d5c93a9ff8dcf0e3b60d6c:773","type":"sequence"}]
  */
 class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PlayGreetingMenuKeys
 {
@@ -14,7 +14,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PlayGreetingMenuKeys
      * @ElementName skipBackward
      * @Type string
      * @Optional
-     * @Group 80c5986946137c505e41f6008c7f75a8:718
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:773
      * @var string|null
      */
     private $skipBackward = null;
@@ -23,7 +23,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PlayGreetingMenuKeys
      * @ElementName pauseOrResume
      * @Type string
      * @Optional
-     * @Group 80c5986946137c505e41f6008c7f75a8:718
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:773
      * @var string|null
      */
     private $pauseOrResume = null;
@@ -32,7 +32,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PlayGreetingMenuKeys
      * @ElementName skipForward
      * @Type string
      * @Optional
-     * @Group 80c5986946137c505e41f6008c7f75a8:718
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:773
      * @var string|null
      */
     private $skipForward = null;
@@ -41,7 +41,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PlayGreetingMenuKeys
      * @ElementName jumpToBegin
      * @Type string
      * @Optional
-     * @Group 80c5986946137c505e41f6008c7f75a8:718
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:773
      * @var string|null
      */
     private $jumpToBegin = null;
@@ -50,7 +50,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PlayGreetingMenuKeys
      * @ElementName jumpToEnd
      * @Type string
      * @Optional
-     * @Group 80c5986946137c505e41f6008c7f75a8:718
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:773
      * @var string|null
      */
     private $jumpToEnd = null;

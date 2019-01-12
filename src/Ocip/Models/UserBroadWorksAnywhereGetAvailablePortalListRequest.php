@@ -6,13 +6,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserBroadWorksAnywhereGetAvailablePortalListRequest
  *
  * Get a list of all the available BroadWorks Anywhere portal instances for a specific user
- *         The response is either UserBroadWorksAnywhereGetAvailablePortalListResponse or ErrorResponse.
+ *         The response is either UserBroadWorksAnywhereGetAvailableListResponse or ErrorResponse.
  *         Replaced by UserBroadWorksAnywhereGetAvailablePortalListRequest21sp1
  *
- * @see UserBroadWorksAnywhereGetAvailablePortalListResponse
+ * @see UserBroadWorksAnywhereGetAvailableListResponse
  * @see ErrorResponse
  * @see UserBroadWorksAnywhereGetAvailablePortalListRequest21sp1
- * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:32467","type":"sequence"}]
+ * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:7180","type":"sequence"}]
  */
 class UserBroadWorksAnywhereGetAvailablePortalListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class UserBroadWorksAnywhereGetAvailablePortalListRequest extends \CWM\BroadWork
     /**
      * @ElementName userId
      * @Type string
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:32467
+     * @Group de4d76f01f337fe4694212ec9f771753:7180
      * @var string|null
      */
     private $userId = null;

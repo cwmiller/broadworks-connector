@@ -5,7 +5,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemVoiceMessagingGroupGetVoicePortalMenusResponse21ChangeBusyOrNoAnswerGreetingMenuKeys
  *
- * @Groups [{"id":"80c5986946137c505e41f6008c7f75a8:730","type":"sequence"}]
+ * @Groups [{"id":"3347d430e0d5c93a9ff8dcf0e3b60d6c:785","type":"sequence"}]
  */
 class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21ChangeBusyOrNoAnswerGreetingMenuKeys
 {
@@ -14,7 +14,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21ChangeBusyOrNoAnswer
      * @ElementName recordNewGreeting
      * @Type string
      * @Optional
-     * @Group 80c5986946137c505e41f6008c7f75a8:730
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:785
      * @var string|null
      */
     private $recordNewGreeting = null;
@@ -23,7 +23,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21ChangeBusyOrNoAnswer
      * @ElementName listenToCurrentGreeting
      * @Type string
      * @Optional
-     * @Group 80c5986946137c505e41f6008c7f75a8:730
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:785
      * @var string|null
      */
     private $listenToCurrentGreeting = null;
@@ -32,7 +32,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21ChangeBusyOrNoAnswer
      * @ElementName revertToSystemDefaultGreeting
      * @Type string
      * @Optional
-     * @Group 80c5986946137c505e41f6008c7f75a8:730
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:785
      * @var string|null
      */
     private $revertToSystemDefaultGreeting = null;
@@ -40,7 +40,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21ChangeBusyOrNoAnswer
     /**
      * @ElementName returnToPreviousMenu
      * @Type string
-     * @Group 80c5986946137c505e41f6008c7f75a8:730
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:785
      * @var string|null
      */
     private $returnToPreviousMenu = null;
@@ -49,7 +49,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21ChangeBusyOrNoAnswer
      * @ElementName repeatMenu
      * @Type string
      * @Optional
-     * @Group 80c5986946137c505e41f6008c7f75a8:730
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:785
      * @var string|null
      */
     private $repeatMenu = null;

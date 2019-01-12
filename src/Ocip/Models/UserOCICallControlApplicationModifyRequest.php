@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"ee3830ce42f01a3ef2a105d473fc3b17:2159","type":"sequence"}]
+ * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:2490","type":"sequence"}]
  */
 class UserOCICallControlApplicationModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserOCICallControlApplicationModifyRequest extends \CWM\BroadWorksConnecto
     /**
      * @ElementName userId
      * @Type string
-     * @Group ee3830ce42f01a3ef2a105d473fc3b17:2159
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:2490
      * @var string|null
      */
     private $userId = null;
@@ -28,7 +28,7 @@ class UserOCICallControlApplicationModifyRequest extends \CWM\BroadWorksConnecto
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementOCICallControlApplicationIdList
      * @Nillable
      * @Optional
-     * @Group ee3830ce42f01a3ef2a105d473fc3b17:2159
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:2490
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementOCICallControlApplicationIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $applicationIdList = null;

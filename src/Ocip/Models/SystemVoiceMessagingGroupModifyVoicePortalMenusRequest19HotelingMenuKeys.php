@@ -5,7 +5,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19HotelingMenuKeys
  *
- * @Groups [{"id":"80c5986946137c505e41f6008c7f75a8:1350","type":"sequence"}]
+ * @Groups [{"id":"3347d430e0d5c93a9ff8dcf0e3b60d6c:1404","type":"sequence"}]
  */
 class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19HotelingMenuKeys
 {
@@ -15,7 +15,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19HotelingMenuKeys
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 80c5986946137c505e41f6008c7f75a8:1350
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1404
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $checkHostStatus = null;
@@ -25,7 +25,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19HotelingMenuKeys
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 80c5986946137c505e41f6008c7f75a8:1350
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1404
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $associateWithHost = null;
@@ -35,7 +35,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19HotelingMenuKeys
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 80c5986946137c505e41f6008c7f75a8:1350
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1404
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $disassociateFromHost = null;
@@ -45,7 +45,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19HotelingMenuKeys
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 80c5986946137c505e41f6008c7f75a8:1350
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1404
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $disassociateFromRemoteHost = null;
@@ -54,7 +54,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19HotelingMenuKeys
      * @ElementName returnToPreviousMenu
      * @Type string
      * @Optional
-     * @Group 80c5986946137c505e41f6008c7f75a8:1350
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1404
      * @var string|null
      */
     private $returnToPreviousMenu = null;
@@ -64,7 +64,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19HotelingMenuKeys
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 80c5986946137c505e41f6008c7f75a8:1350
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1404
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $repeatMenu = null;

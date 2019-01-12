@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"b5f5416d9e71f8e4246cda16c4723744:13632","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:13825","type":"sequence"}]
  */
 class SystemRoutingModifyTranslationRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemRoutingModifyTranslationRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName digits
      * @Type string
-     * @Group b5f5416d9e71f8e4246cda16c4723744:13632
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:13825
      * @var string|null
      */
     private $digits = null;
@@ -27,7 +27,7 @@ class SystemRoutingModifyTranslationRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName routeName
      * @Type string
      * @Optional
-     * @Group b5f5416d9e71f8e4246cda16c4723744:13632
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:13825
      * @var string|null
      */
     private $routeName = null;

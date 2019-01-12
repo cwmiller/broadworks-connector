@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"8eb862aea0ee5d4211db0a0d3fe7c164:2436","type":"sequence"}]
+ * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:2495","type":"sequence"}]
  */
 class ServiceProviderDeviceTypeCustomTagDeleteListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class ServiceProviderDeviceTypeCustomTagDeleteListRequest extends \CWM\BroadWork
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:2436
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2495
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,7 +26,7 @@ class ServiceProviderDeviceTypeCustomTagDeleteListRequest extends \CWM\BroadWork
     /**
      * @ElementName deviceType
      * @Type string
-     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:2436
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2495
      * @var string|null
      */
     private $deviceType = null;
@@ -35,7 +35,7 @@ class ServiceProviderDeviceTypeCustomTagDeleteListRequest extends \CWM\BroadWork
      * @ElementName tagName
      * @Type string
      * @Array
-     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:2436
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2495
      * @var string[]
      */
     private $tagName = array(

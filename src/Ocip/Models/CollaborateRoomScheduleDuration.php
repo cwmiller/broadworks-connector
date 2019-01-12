@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Collaborate room schedule duration.
  *
- * @Groups [{"id":"8e629edbac315ae7889caca732382c44:826","type":"sequence"}]
+ * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:1072","type":"sequence"}]
  */
 class CollaborateRoomScheduleDuration
 {
@@ -15,7 +15,7 @@ class CollaborateRoomScheduleDuration
     /**
      * @ElementName hours
      * @Type int
-     * @Group 8e629edbac315ae7889caca732382c44:826
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:1072
      * @var int|null
      */
     private $hours = null;
@@ -23,7 +23,7 @@ class CollaborateRoomScheduleDuration
     /**
      * @ElementName minutes
      * @Type int
-     * @Group 8e629edbac315ae7889caca732382c44:826
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:1072
      * @var int|null
      */
     private $minutes = null;

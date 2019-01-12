@@ -9,12 +9,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either a SuccessResponse or an ErrorResponse.
  *         If some of the users add and some users fail to add, then the
  *         response will contain a WarningResponse containing only the 
- *         a comma delimited list of users that failed to add.
+ *         a comma delimited list of users that failed to add. If the user 
+ *         sending the request is the not the owner of the Receptionist Note, 
+ *         then an ErrorResponse will be returned.
  *
  * @see SuccessResponse
  * @see ErrorResponse
  * @see WarningResponse
- * @Groups [{"id":"b99e2521b171f47568831e973c09aa33:272","type":"sequence"}]
+ * @see ErrorResponse
+ * @Groups [{"id":"fb12998f4f9e45cedde01f08569f4c7c:275","type":"sequence"}]
  */
 class UserBroadWorksReceptionistEnterpriseNoteModifyListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -22,7 +25,7 @@ class UserBroadWorksReceptionistEnterpriseNoteModifyListRequest extends \CWM\Bro
     /**
      * @ElementName receptionistUserId
      * @Type string
-     * @Group b99e2521b171f47568831e973c09aa33:272
+     * @Group fb12998f4f9e45cedde01f08569f4c7c:275
      * @var string|null
      */
     private $receptionistUserId = null;
@@ -31,7 +34,7 @@ class UserBroadWorksReceptionistEnterpriseNoteModifyListRequest extends \CWM\Bro
      * @ElementName receptionistUserAndNote
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ReceptionistContactUserAndNote
      * @Array
-     * @Group b99e2521b171f47568831e973c09aa33:272
+     * @Group fb12998f4f9e45cedde01f08569f4c7c:275
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReceptionistContactUserAndNote[]
      */
     private $receptionistUserAndNote = array(

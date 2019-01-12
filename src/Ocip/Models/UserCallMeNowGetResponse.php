@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "Is Active", "Criteria Name", "Time Schedule", "Call To", "Reject Call" and "Holiday Schedule".
  *
  * @see UserCallMeNowGetRequest
- * @Groups [{"id":"ddf57759ad9d63b4ce76f3f789cde156:183","type":"sequence"}]
+ * @Groups [{"id":"1f0f230fee2817fe00157925859dc28e:183","type":"sequence"}]
  */
 class UserCallMeNowGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class UserCallMeNowGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group ddf57759ad9d63b4ce76f3f789cde156:183
+     * @Group 1f0f230fee2817fe00157925859dc28e:183
      * @var bool|null
      */
     private $isActive = null;
@@ -25,7 +25,7 @@ class UserCallMeNowGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
     /**
      * @ElementName answerConfirmation
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallMeNowAnswerConfirmation
-     * @Group ddf57759ad9d63b4ce76f3f789cde156:183
+     * @Group 1f0f230fee2817fe00157925859dc28e:183
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallMeNowAnswerConfirmation|null
      */
     private $answerConfirmation = null;
@@ -33,7 +33,7 @@ class UserCallMeNowGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
     /**
      * @ElementName criteriaTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group ddf57759ad9d63b4ce76f3f789cde156:183
+     * @Group 1f0f230fee2817fe00157925859dc28e:183
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $criteriaTable = null;

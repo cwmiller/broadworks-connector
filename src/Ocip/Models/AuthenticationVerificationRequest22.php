@@ -16,15 +16,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see AuthenticationVerificationRequest
  * @see AuthenticationVerificationRequest22V2
- * @Groups [{"id":"bd46fc427b2b0dc182dcd53cf03e95b4:73","type":"sequence","children":[{"id":"bd46fc427b2b0dc182dcd53cf03e95b4:74","type":"choice"}]}]
+ * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:3901","type":"sequence","children":[{"id":"de4d76f01f337fe4694212ec9f771753:3902","type":"choice"}]}]
  */
-class AuthenticationVerificationRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
+class AuthenticationVerificationRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIHiddenRequest
 {
 
     /**
      * @ElementName normalLogin
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AuthenticationVerificationRequest22NormalLogin
-     * @Group bd46fc427b2b0dc182dcd53cf03e95b4:74
+     * @Group de4d76f01f337fe4694212ec9f771753:3902
      * @var \CWM\BroadWorksConnector\Ocip\Models\AuthenticationVerificationRequest22NormalLogin|null
      */
     private $normalLogin = null;
@@ -32,7 +32,7 @@ class AuthenticationVerificationRequest22 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName trustedExternalAuthenticationLogin
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AuthenticationVerificationRequest22TrustedExternalAuthenticationLogin
-     * @Group bd46fc427b2b0dc182dcd53cf03e95b4:74
+     * @Group de4d76f01f337fe4694212ec9f771753:3902
      * @var \CWM\BroadWorksConnector\Ocip\Models\AuthenticationVerificationRequest22TrustedExternalAuthenticationLogin|null
      */
     private $trustedExternalAuthenticationLogin = null;
@@ -40,7 +40,7 @@ class AuthenticationVerificationRequest22 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName preAuthorizedExternalAuthenticationLogin
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AuthenticationVerificationRequest22PreAuthorizedExternalAuthenticationLogin
-     * @Group bd46fc427b2b0dc182dcd53cf03e95b4:74
+     * @Group de4d76f01f337fe4694212ec9f771753:3902
      * @var \CWM\BroadWorksConnector\Ocip\Models\AuthenticationVerificationRequest22PreAuthorizedExternalAuthenticationLogin|null
      */
     private $preAuthorizedExternalAuthenticationLogin = null;

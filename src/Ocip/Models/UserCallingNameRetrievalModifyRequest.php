@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"ed9874e26a444d790a2881033c6c8fab:146","type":"sequence"}]
+ * @Groups [{"id":"7abfb1e02a3465af832e0a8a8adfc741:146","type":"sequence"}]
  */
 class UserCallingNameRetrievalModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserCallingNameRetrievalModifyRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName userId
      * @Type string
-     * @Group ed9874e26a444d790a2881033c6c8fab:146
+     * @Group 7abfb1e02a3465af832e0a8a8adfc741:146
      * @var string|null
      */
     private $userId = null;
@@ -27,7 +27,7 @@ class UserCallingNameRetrievalModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName isActive
      * @Type bool
      * @Optional
-     * @Group ed9874e26a444d790a2881033c6c8fab:146
+     * @Group 7abfb1e02a3465af832e0a8a8adfc741:146
      * @var bool|null
      */
     private $isActive = null;

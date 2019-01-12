@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The "Description" is only present for alternate user Ids.
  *
  * @see UserAlternateUserIdGetListRequest
- * @Groups [{"id":"ee3830ce42f01a3ef2a105d473fc3b17:371","type":"sequence"}]
+ * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:390","type":"sequence"}]
  */
 class UserAlternateUserIdGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,7 +19,7 @@ class UserAlternateUserIdGetListResponse extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName userIdTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group ee3830ce42f01a3ef2a105d473fc3b17:371
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:390
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $userIdTable = null;

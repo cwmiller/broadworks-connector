@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to GroupThirdPartyVoiceMailSupportGetRequest.
  *
  * @see GroupThirdPartyVoiceMailSupportGetRequest
- * @Groups [{"id":"978bd59aab7d92332d5c069142e3c8ac:69","type":"sequence"}]
+ * @Groups [{"id":"3c311aa5c89c0cf5b46e1cdefd5bc387:69","type":"sequence"}]
  */
 class GroupThirdPartyVoiceMailSupportGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class GroupThirdPartyVoiceMailSupportGetResponse extends \CWM\BroadWorksConnecto
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group 978bd59aab7d92332d5c069142e3c8ac:69
+     * @Group 3c311aa5c89c0cf5b46e1cdefd5bc387:69
      * @var bool|null
      */
     private $isActive = null;
@@ -25,7 +25,7 @@ class GroupThirdPartyVoiceMailSupportGetResponse extends \CWM\BroadWorksConnecto
      * @ElementName groupServer
      * @Type string
      * @Optional
-     * @Group 978bd59aab7d92332d5c069142e3c8ac:69
+     * @Group 3c311aa5c89c0cf5b46e1cdefd5bc387:69
      * @var string|null
      */
     private $groupServer = null;

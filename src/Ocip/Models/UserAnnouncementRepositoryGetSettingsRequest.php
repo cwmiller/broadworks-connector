@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Return the disk space being used.
  *
- * @Groups [{"id":"ee3830ce42f01a3ef2a105d473fc3b17:595","type":"sequence"}]
+ * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:672","type":"sequence"}]
  */
 class UserAnnouncementRepositoryGetSettingsRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -15,7 +15,7 @@ class UserAnnouncementRepositoryGetSettingsRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName userId
      * @Type string
-     * @Group ee3830ce42f01a3ef2a105d473fc3b17:595
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:672
      * @var string|null
      */
     private $userId = null;

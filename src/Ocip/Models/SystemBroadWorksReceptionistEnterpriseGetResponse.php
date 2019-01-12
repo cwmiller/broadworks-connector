@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains a list of BroadWorks Receptionist - Enterprise parameters.
  *
  * @see SystemBroadWorksReceptionistEnterpriseGetRequest
- * @Groups [{"id":"b99e2521b171f47568831e973c09aa33:65","type":"sequence"}]
+ * @Groups [{"id":"fb12998f4f9e45cedde01f08569f4c7c:65","type":"sequence"}]
  */
 class SystemBroadWorksReceptionistEnterpriseGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class SystemBroadWorksReceptionistEnterpriseGetResponse extends \CWM\BroadWorksC
     /**
      * @ElementName maxMonitoredUsers
      * @Type int
-     * @Group b99e2521b171f47568831e973c09aa33:65
+     * @Group fb12998f4f9e45cedde01f08569f4c7c:65
      * @var int|null
      */
     private $maxMonitoredUsers = null;

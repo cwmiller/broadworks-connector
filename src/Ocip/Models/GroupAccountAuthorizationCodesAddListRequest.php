@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"cf39a77cc27bd00da9f2520a22424344:48","type":"sequence"}]
+ * @Groups [{"id":"65df37199ec43e5d21a187db39d63158:48","type":"sequence"}]
  */
 class GroupAccountAuthorizationCodesAddListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupAccountAuthorizationCodesAddListRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group cf39a77cc27bd00da9f2520a22424344:48
+     * @Group 65df37199ec43e5d21a187db39d63158:48
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,7 +26,7 @@ class GroupAccountAuthorizationCodesAddListRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName groupId
      * @Type string
-     * @Group cf39a77cc27bd00da9f2520a22424344:48
+     * @Group 65df37199ec43e5d21a187db39d63158:48
      * @var string|null
      */
     private $groupId = null;
@@ -35,7 +35,7 @@ class GroupAccountAuthorizationCodesAddListRequest extends \CWM\BroadWorksConnec
      * @ElementName codeEntry
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccountAuthorizationCodeEntry
      * @Array
-     * @Group cf39a77cc27bd00da9f2520a22424344:48
+     * @Group 65df37199ec43e5d21a187db39d63158:48
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccountAuthorizationCodeEntry[]
      */
     private $codeEntry = array(

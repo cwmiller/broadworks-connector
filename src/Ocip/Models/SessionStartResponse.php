@@ -18,7 +18,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SessionStartRequest
  * @see SessionStartResponse22
- * @Groups [{"id":"bd46fc427b2b0dc182dcd53cf03e95b4:571","type":"sequence"}]
+ * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:6025","type":"sequence"}]
  */
 class SessionStartResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -27,7 +27,7 @@ class SessionStartResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDat
      * @ElementName loginType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LoginType
      * @Optional
-     * @Group bd46fc427b2b0dc182dcd53cf03e95b4:571
+     * @Group de4d76f01f337fe4694212ec9f771753:6025
      * @var \CWM\BroadWorksConnector\Ocip\Models\LoginType|null
      */
     private $loginType = null;
@@ -36,7 +36,7 @@ class SessionStartResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDat
      * @ElementName encoding
      * @Type string
      * @Optional
-     * @Group bd46fc427b2b0dc182dcd53cf03e95b4:571
+     * @Group de4d76f01f337fe4694212ec9f771753:6025
      * @var string|null
      */
     private $encoding = null;
@@ -44,7 +44,7 @@ class SessionStartResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDat
     /**
      * @ElementName isIMSMode
      * @Type bool
-     * @Group bd46fc427b2b0dc182dcd53cf03e95b4:571
+     * @Group de4d76f01f337fe4694212ec9f771753:6025
      * @var bool|null
      */
     private $isIMSMode = null;
@@ -52,7 +52,7 @@ class SessionStartResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDat
     /**
      * @ElementName deploymentMode
      * @Type string
-     * @Group bd46fc427b2b0dc182dcd53cf03e95b4:571
+     * @Group de4d76f01f337fe4694212ec9f771753:6025
      * @var string|null
      */
     private $deploymentMode = null;
@@ -60,7 +60,7 @@ class SessionStartResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDat
     /**
      * @ElementName isHPBXLicensed
      * @Type bool
-     * @Group bd46fc427b2b0dc182dcd53cf03e95b4:571
+     * @Group de4d76f01f337fe4694212ec9f771753:6025
      * @var bool|null
      */
     private $isHPBXLicensed = null;
@@ -68,7 +68,7 @@ class SessionStartResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDat
     /**
      * @ElementName isLawfulInterceptLicensed
      * @Type bool
-     * @Group bd46fc427b2b0dc182dcd53cf03e95b4:571
+     * @Group de4d76f01f337fe4694212ec9f771753:6025
      * @var bool|null
      */
     private $isLawfulInterceptLicensed = null;
@@ -76,7 +76,7 @@ class SessionStartResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDat
     /**
      * @ElementName isSecurityAdministrationLicensed
      * @Type bool
-     * @Group bd46fc427b2b0dc182dcd53cf03e95b4:571
+     * @Group de4d76f01f337fe4694212ec9f771753:6025
      * @var bool|null
      */
     private $isSecurityAdministrationLicensed = null;
@@ -84,7 +84,7 @@ class SessionStartResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDat
     /**
      * @ElementName isCLIDDeliveryPrefixLicensed
      * @Type bool
-     * @Group bd46fc427b2b0dc182dcd53cf03e95b4:571
+     * @Group de4d76f01f337fe4694212ec9f771753:6025
      * @var bool|null
      */
     private $isCLIDDeliveryPrefixLicensed = null;

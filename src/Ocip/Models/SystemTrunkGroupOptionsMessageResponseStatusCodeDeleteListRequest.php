@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"762df656d5a3c5800001b37599b1e4ce:1650","type":"sequence"}]
+ * @Groups [{"id":"b9c14e2d80e4e7749688ca13ba233b44:1656","type":"sequence"}]
  */
 class SystemTrunkGroupOptionsMessageResponseStatusCodeDeleteListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class SystemTrunkGroupOptionsMessageResponseStatusCodeDeleteListRequest extends 
      * @ElementName statusCode
      * @Type string
      * @Array
-     * @Group 762df656d5a3c5800001b37599b1e4ce:1650
+     * @Group b9c14e2d80e4e7749688ca13ba233b44:1656
      * @var string[]
      */
     private $statusCode = array(

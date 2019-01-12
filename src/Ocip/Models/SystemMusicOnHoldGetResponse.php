@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemMusicOnHoldGetRequest.
  *
  * @see SystemMusicOnHoldGetRequest
- * @Groups [{"id":"130a60503dce5611168ce780c0797cc9:206","type":"sequence"}]
+ * @Groups [{"id":"66fe518a637c74cc4b2c97aa7f68fc49:206","type":"sequence"}]
  */
 class SystemMusicOnHoldGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class SystemMusicOnHoldGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName delayMilliseconds
      * @Type int
-     * @Group 130a60503dce5611168ce780c0797cc9:206
+     * @Group 66fe518a637c74cc4b2c97aa7f68fc49:206
      * @var int|null
      */
     private $delayMilliseconds = null;

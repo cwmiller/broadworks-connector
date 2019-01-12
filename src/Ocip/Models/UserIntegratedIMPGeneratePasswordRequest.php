@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"1145a01488507071407c5896ff2e4ef5:299","type":"sequence"}]
+ * @Groups [{"id":"23389100b68cef3aa07ee12ac7a2bd16:316","type":"sequence"}]
  */
 class UserIntegratedIMPGeneratePasswordRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserIntegratedIMPGeneratePasswordRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName userId
      * @Type string
-     * @Group 1145a01488507071407c5896ff2e4ef5:299
+     * @Group 23389100b68cef3aa07ee12ac7a2bd16:316
      * @var string|null
      */
     private $userId = null;

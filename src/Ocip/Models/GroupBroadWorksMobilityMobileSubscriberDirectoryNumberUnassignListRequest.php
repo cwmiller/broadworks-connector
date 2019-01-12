@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"6536ac9946b3d8422bec81ad9d995e2b:306","type":"sequence"}]
+ * @Groups [{"id":"f7ae3539fd471e995b07dc1bf8836e2d:429","type":"sequence"}]
  */
 class GroupBroadWorksMobilityMobileSubscriberDirectoryNumberUnassignListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class GroupBroadWorksMobilityMobileSubscriberDirectoryNumberUnassignListRequest 
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 6536ac9946b3d8422bec81ad9d995e2b:306
+     * @Group f7ae3539fd471e995b07dc1bf8836e2d:429
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,7 +27,7 @@ class GroupBroadWorksMobilityMobileSubscriberDirectoryNumberUnassignListRequest 
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 6536ac9946b3d8422bec81ad9d995e2b:306
+     * @Group f7ae3539fd471e995b07dc1bf8836e2d:429
      * @var string|null
      */
     private $groupId = null;
@@ -37,7 +37,7 @@ class GroupBroadWorksMobilityMobileSubscriberDirectoryNumberUnassignListRequest 
      * @Type string
      * @Array
      * @Optional
-     * @Group 6536ac9946b3d8422bec81ad9d995e2b:306
+     * @Group f7ae3539fd471e995b07dc1bf8836e2d:429
      * @var string[]
      */
     private $mobileSubscriberDirectoryNumber = array(

@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see GroupEnterpriseTrunkGetResponse
  * @see ErrorResponse
  * @see GroupEnterpriseTrunkGetRequest21
- * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:8055","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:32031","type":"sequence"}]
  */
 class GroupEnterpriseTrunkGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class GroupEnterpriseTrunkGetRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:8055
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:32031
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -28,7 +28,7 @@ class GroupEnterpriseTrunkGetRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:8055
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:32031
      * @var string|null
      */
     private $groupId = null;
@@ -36,7 +36,7 @@ class GroupEnterpriseTrunkGetRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName enterpriseTrunkName
      * @Type string
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:8055
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:32031
      * @var string|null
      */
     private $enterpriseTrunkName = null;

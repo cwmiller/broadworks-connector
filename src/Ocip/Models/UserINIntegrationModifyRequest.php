@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"06d4954a0a03fb9a2ab562bdd6f2de26:73","type":"sequence"}]
+ * @Groups [{"id":"e2b7b9ea45350592016ce6935a4d7694:73","type":"sequence"}]
  */
 class UserINIntegrationModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserINIntegrationModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName userId
      * @Type string
-     * @Group 06d4954a0a03fb9a2ab562bdd6f2de26:73
+     * @Group e2b7b9ea45350592016ce6935a4d7694:73
      * @var string|null
      */
     private $userId = null;
@@ -28,7 +28,7 @@ class UserINIntegrationModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @Type int
      * @Nillable
      * @Optional
-     * @Group 06d4954a0a03fb9a2ab562bdd6f2de26:73
+     * @Group e2b7b9ea45350592016ce6935a4d7694:73
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $originatingServiceKey = null;
@@ -38,7 +38,7 @@ class UserINIntegrationModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @Type int
      * @Nillable
      * @Optional
-     * @Group 06d4954a0a03fb9a2ab562bdd6f2de26:73
+     * @Group e2b7b9ea45350592016ce6935a4d7694:73
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $terminatingServiceKey = null;

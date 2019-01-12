@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"2ca660fa9785f46a407bf13c3354a5d7:75","type":"sequence"}]
+ * @Groups [{"id":"5999b2d9c77e3f1626cad635ea37a4a7:75","type":"sequence"}]
  */
 class UserDoNotDisturbModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class UserDoNotDisturbModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName userId
      * @Type string
-     * @Group 2ca660fa9785f46a407bf13c3354a5d7:75
+     * @Group 5999b2d9c77e3f1626cad635ea37a4a7:75
      * @var string|null
      */
     private $userId = null;
@@ -28,7 +28,7 @@ class UserDoNotDisturbModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName isActive
      * @Type bool
      * @Optional
-     * @Group 2ca660fa9785f46a407bf13c3354a5d7:75
+     * @Group 5999b2d9c77e3f1626cad635ea37a4a7:75
      * @var bool|null
      */
     private $isActive = null;
@@ -37,7 +37,7 @@ class UserDoNotDisturbModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName ringSplash
      * @Type bool
      * @Optional
-     * @Group 2ca660fa9785f46a407bf13c3354a5d7:75
+     * @Group 5999b2d9c77e3f1626cad635ea37a4a7:75
      * @var bool|null
      */
     private $ringSplash = null;

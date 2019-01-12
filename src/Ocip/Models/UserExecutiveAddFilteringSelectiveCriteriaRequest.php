@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"bcf25f15fde8fb6d519675293110ce09:101","type":"sequence"}]
+ * @Groups [{"id":"9a6dbade05624033cf7fe782b7c9a9a7:100","type":"sequence"}]
  */
 class UserExecutiveAddFilteringSelectiveCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class UserExecutiveAddFilteringSelectiveCriteriaRequest extends \CWM\BroadWorksC
     /**
      * @ElementName userId
      * @Type string
-     * @Group bcf25f15fde8fb6d519675293110ce09:101
+     * @Group 9a6dbade05624033cf7fe782b7c9a9a7:100
      * @var string|null
      */
     private $userId = null;
@@ -28,7 +28,7 @@ class UserExecutiveAddFilteringSelectiveCriteriaRequest extends \CWM\BroadWorksC
     /**
      * @ElementName criteriaName
      * @Type string
-     * @Group bcf25f15fde8fb6d519675293110ce09:101
+     * @Group 9a6dbade05624033cf7fe782b7c9a9a7:100
      * @var string|null
      */
     private $criteriaName = null;
@@ -37,7 +37,7 @@ class UserExecutiveAddFilteringSelectiveCriteriaRequest extends \CWM\BroadWorksC
      * @ElementName timeSchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule
      * @Optional
-     * @Group bcf25f15fde8fb6d519675293110ce09:101
+     * @Group 9a6dbade05624033cf7fe782b7c9a9a7:100
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null
      */
     private $timeSchedule = null;
@@ -46,7 +46,7 @@ class UserExecutiveAddFilteringSelectiveCriteriaRequest extends \CWM\BroadWorksC
      * @ElementName holidaySchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule
      * @Optional
-     * @Group bcf25f15fde8fb6d519675293110ce09:101
+     * @Group 9a6dbade05624033cf7fe782b7c9a9a7:100
      * @var \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null
      */
     private $holidaySchedule = null;
@@ -54,7 +54,7 @@ class UserExecutiveAddFilteringSelectiveCriteriaRequest extends \CWM\BroadWorksC
     /**
      * @ElementName filter
      * @Type bool
-     * @Group bcf25f15fde8fb6d519675293110ce09:101
+     * @Group 9a6dbade05624033cf7fe782b7c9a9a7:100
      * @var bool|null
      */
     private $filter = null;
@@ -62,7 +62,7 @@ class UserExecutiveAddFilteringSelectiveCriteriaRequest extends \CWM\BroadWorksC
     /**
      * @ElementName fromDnCriteria
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExecutiveCallFilteringCriteriaFromDn
-     * @Group bcf25f15fde8fb6d519675293110ce09:101
+     * @Group 9a6dbade05624033cf7fe782b7c9a9a7:100
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExecutiveCallFilteringCriteriaFromDn|null
      */
     private $fromDnCriteria = null;
@@ -72,7 +72,7 @@ class UserExecutiveAddFilteringSelectiveCriteriaRequest extends \CWM\BroadWorksC
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallToNumber
      * @Array
      * @Optional
-     * @Group bcf25f15fde8fb6d519675293110ce09:101
+     * @Group 9a6dbade05624033cf7fe782b7c9a9a7:100
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallToNumber[]
      */
     private $callToNumber = array(

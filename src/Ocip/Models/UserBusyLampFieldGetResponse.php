@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserBusyLampFieldGetResponse16sp2
  * @see UserBusyLampFieldGetRequest
- * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:32589","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:22332","type":"sequence"}]
  */
 class UserBusyLampFieldGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -22,7 +22,7 @@ class UserBusyLampFieldGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\
      * @ElementName listURI
      * @Type string
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:32589
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:22332
      * @var string|null
      */
     private $listURI = null;
@@ -30,7 +30,7 @@ class UserBusyLampFieldGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName monitoredUserTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:32589
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:22332
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $monitoredUserTable = null;

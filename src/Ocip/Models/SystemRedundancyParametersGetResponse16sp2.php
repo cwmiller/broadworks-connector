@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains a list of system Redundancy parameters.
  *
  * @see SystemRedundancyParametersGetRequest16sp2
- * @Groups [{"id":"b5f5416d9e71f8e4246cda16c4723744:13065","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:13258","type":"sequence"}]
  */
 class SystemRedundancyParametersGetResponse16sp2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class SystemRedundancyParametersGetResponse16sp2 extends \CWM\BroadWorksConnecto
     /**
      * @ElementName rollBackTimerMinutes
      * @Type int
-     * @Group b5f5416d9e71f8e4246cda16c4723744:13065
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:13258
      * @var int|null
      */
     private $rollBackTimerMinutes = null;
@@ -25,7 +25,7 @@ class SystemRedundancyParametersGetResponse16sp2 extends \CWM\BroadWorksConnecto
     /**
      * @ElementName sendSipOptionMessageUponMigration
      * @Type bool
-     * @Group b5f5416d9e71f8e4246cda16c4723744:13065
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:13258
      * @var bool|null
      */
     private $sendSipOptionMessageUponMigration = null;

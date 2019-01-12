@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"25fccbf16e98061b338758dd7d75d8f2:163","type":"sequence"}]
+ * @Groups [{"id":"2a1428f64736d8f970ea802e5a73c495:163","type":"sequence"}]
  */
 class UserTwoStageDialingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserTwoStageDialingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName userId
      * @Type string
-     * @Group 25fccbf16e98061b338758dd7d75d8f2:163
+     * @Group 2a1428f64736d8f970ea802e5a73c495:163
      * @var string|null
      */
     private $userId = null;
@@ -27,7 +27,7 @@ class UserTwoStageDialingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName isActive
      * @Type bool
      * @Optional
-     * @Group 25fccbf16e98061b338758dd7d75d8f2:163
+     * @Group 2a1428f64736d8f970ea802e5a73c495:163
      * @var bool|null
      */
     private $isActive = null;
@@ -36,7 +36,7 @@ class UserTwoStageDialingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName allowActivationWithUserAddresses
      * @Type bool
      * @Optional
-     * @Group 25fccbf16e98061b338758dd7d75d8f2:163
+     * @Group 2a1428f64736d8f970ea802e5a73c495:163
      * @var bool|null
      */
     private $allowActivationWithUserAddresses = null;

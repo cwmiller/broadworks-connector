@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SuccessResponse
  * @see ErrorResponse
  * @see SystemZoneNetAddressDeleteListRequest
- * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:32098","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:16141","type":"sequence"}]
  */
 class SystemZoneCallingRestrictionsNetAddressDeleteListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class SystemZoneCallingRestrictionsNetAddressDeleteListRequest extends \CWM\Broa
     /**
      * @ElementName zoneName
      * @Type string
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:32098
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:16141
      * @var string|null
      */
     private $zoneName = null;
@@ -30,7 +30,7 @@ class SystemZoneCallingRestrictionsNetAddressDeleteListRequest extends \CWM\Broa
      * @Type string
      * @Array
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:32098
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:16141
      * @var string[]
      */
     private $netAddress = array(
@@ -42,7 +42,7 @@ class SystemZoneCallingRestrictionsNetAddressDeleteListRequest extends \CWM\Broa
      * @Type \CWM\BroadWorksConnector\Ocip\Models\IPAddressRange
      * @Array
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:32098
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:16141
      * @var \CWM\BroadWorksConnector\Ocip\Models\IPAddressRange[]
      */
     private $netAddressRange = array(

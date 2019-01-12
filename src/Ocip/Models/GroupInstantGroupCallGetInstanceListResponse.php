@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The column values for Is Active can either be true, or false.
  *
  * @see GroupInstantGroupCallGetInstanceListRequest
- * @Groups [{"id":"942d6d52bb90de674123c4718d7e1483:106","type":"sequence"}]
+ * @Groups [{"id":"f41dea4708922d4a3f0e26f198cc953f:106","type":"sequence"}]
  */
 class GroupInstantGroupCallGetInstanceListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,7 +19,7 @@ class GroupInstantGroupCallGetInstanceListResponse extends \CWM\BroadWorksConnec
     /**
      * @ElementName instantGroupCallTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 942d6d52bb90de674123c4718d7e1483:106
+     * @Group f41dea4708922d4a3f0e26f198cc953f:106
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $instantGroupCallTable = null;

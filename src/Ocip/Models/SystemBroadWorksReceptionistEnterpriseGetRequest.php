@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemBroadWorksReceptionistEnterpriseGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"b99e2521b171f47568831e973c09aa33:51","type":"sequence"}]
+ * @Groups [{"id":"fb12998f4f9e45cedde01f08569f4c7c:51","type":"sequence"}]
  */
 class SystemBroadWorksReceptionistEnterpriseGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

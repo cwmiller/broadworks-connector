@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           "Reseller Id"
  *
  * @see ServiceProviderGetListRequest
- * @Groups [{"id":"8eb862aea0ee5d4211db0a0d3fe7c164:3555","type":"sequence"}]
+ * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:3673","type":"sequence"}]
  */
 class ServiceProviderGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -21,7 +21,7 @@ class ServiceProviderGetListResponse extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName serviceProviderTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:3555
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3673
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $serviceProviderTable = null;

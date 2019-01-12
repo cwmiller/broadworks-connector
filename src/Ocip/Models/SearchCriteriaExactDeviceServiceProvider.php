@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Criteria for searching for a particular fully specified service provider associated with a device.
  *
- * @Groups [{"id":"e446bfcbd1f39cbef57d1547014f2bb9:767","type":"sequence"}]
+ * @Groups [{"id":"f0ada2681ca347fa83b464734259b304:850","type":"sequence"}]
  */
 class SearchCriteriaExactDeviceServiceProvider extends SearchCriteria
 {
@@ -15,7 +15,7 @@ class SearchCriteriaExactDeviceServiceProvider extends SearchCriteria
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group e446bfcbd1f39cbef57d1547014f2bb9:767
+     * @Group f0ada2681ca347fa83b464734259b304:850
      * @var string|null
      */
     private $serviceProviderId = null;

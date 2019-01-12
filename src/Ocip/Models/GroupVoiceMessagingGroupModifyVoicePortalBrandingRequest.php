@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SuccessResponse
  * @see ErrorResponse
  * @see GroupVoiceMessagingGroupModifyVoicePortalBrandingRequest16
- * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:14382","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:9167","type":"sequence"}]
  */
 class GroupVoiceMessagingGroupModifyVoicePortalBrandingRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class GroupVoiceMessagingGroupModifyVoicePortalBrandingRequest extends \CWM\Broa
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:14382
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:9167
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -28,7 +28,7 @@ class GroupVoiceMessagingGroupModifyVoicePortalBrandingRequest extends \CWM\Broa
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:14382
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:9167
      * @var string|null
      */
     private $groupId = null;
@@ -37,7 +37,7 @@ class GroupVoiceMessagingGroupModifyVoicePortalBrandingRequest extends \CWM\Broa
      * @ElementName voicePortalGreetingSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingBrandingSelection
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:14382
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:9167
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingBrandingSelection|null
      */
     private $voicePortalGreetingSelection = null;
@@ -46,7 +46,7 @@ class GroupVoiceMessagingGroupModifyVoicePortalBrandingRequest extends \CWM\Broa
      * @ElementName voicePortalGreetingFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:14382
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:9167
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource|null
      */
     private $voicePortalGreetingFile = null;
@@ -55,7 +55,7 @@ class GroupVoiceMessagingGroupModifyVoicePortalBrandingRequest extends \CWM\Broa
      * @ElementName voiceMessagingGreetingSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingBrandingSelection
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:14382
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:9167
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingBrandingSelection|null
      */
     private $voiceMessagingGreetingSelection = null;
@@ -64,7 +64,7 @@ class GroupVoiceMessagingGroupModifyVoicePortalBrandingRequest extends \CWM\Broa
      * @ElementName voiceMessagingGreetingFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:14382
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:9167
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource|null
      */
     private $voiceMessagingGreetingFile = null;

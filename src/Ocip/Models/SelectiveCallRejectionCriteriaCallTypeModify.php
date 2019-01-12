@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * The call type criteria used within a modify request.
  *
- * @Groups [{"id":"4b7289c8f4277798c695334874edd510:225","type":"sequence"}]
+ * @Groups [{"id":"41cdd93743bd17548f1ded5691680d5a:224","type":"sequence"}]
  */
 class SelectiveCallRejectionCriteriaCallTypeModify
 {
@@ -16,7 +16,7 @@ class SelectiveCallRejectionCriteriaCallTypeModify
      * @ElementName fromDnCriteriaSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SelectiveCallRejectionCriteriaCallTypeSelection
      * @Optional
-     * @Group 4b7289c8f4277798c695334874edd510:225
+     * @Group 41cdd93743bd17548f1ded5691680d5a:224
      * @var \CWM\BroadWorksConnector\Ocip\Models\SelectiveCallRejectionCriteriaCallTypeSelection|null
      */
     private $fromDnCriteriaSelection = null;
@@ -25,7 +25,7 @@ class SelectiveCallRejectionCriteriaCallTypeModify
      * @ElementName includeAnonymousCallers
      * @Type bool
      * @Optional
-     * @Group 4b7289c8f4277798c695334874edd510:225
+     * @Group 41cdd93743bd17548f1ded5691680d5a:224
      * @var bool|null
      */
     private $includeAnonymousCallers = null;
@@ -34,7 +34,7 @@ class SelectiveCallRejectionCriteriaCallTypeModify
      * @ElementName includeUnavailableCallers
      * @Type bool
      * @Optional
-     * @Group 4b7289c8f4277798c695334874edd510:225
+     * @Group 41cdd93743bd17548f1ded5691680d5a:224
      * @var bool|null
      */
     private $includeUnavailableCallers = null;
@@ -44,7 +44,7 @@ class SelectiveCallRejectionCriteriaCallTypeModify
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CriteriaReplacementDNList
      * @Nillable
      * @Optional
-     * @Group 4b7289c8f4277798c695334874edd510:225
+     * @Group 41cdd93743bd17548f1ded5691680d5a:224
      * @var \CWM\BroadWorksConnector\Ocip\Models\CriteriaReplacementDNList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $phoneNumberList = null;

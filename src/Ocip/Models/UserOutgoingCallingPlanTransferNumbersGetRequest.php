@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserOutgoingCallingPlanTransferNumbersGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"80676ea6f2582b1b88573623a6affc0e:1682","type":"sequence"}]
+ * @Groups [{"id":"6f793dfca9bd3d121bb35e0f9cf1cb2e:1681","type":"sequence"}]
  */
 class UserOutgoingCallingPlanTransferNumbersGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserOutgoingCallingPlanTransferNumbersGetRequest extends \CWM\BroadWorksCo
     /**
      * @ElementName userId
      * @Type string
-     * @Group 80676ea6f2582b1b88573623a6affc0e:1682
+     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:1681
      * @var string|null
      */
     private $userId = null;

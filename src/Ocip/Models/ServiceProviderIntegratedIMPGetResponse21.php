@@ -9,9 +9,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response contains the service provider Integrated IMP service attributes.
  *         If the service provider is within a reseller, useSystemServiceDomain means using reseller level service 
  *         domain setting. And useSystemMessagingServer means using the reseller level messaging server setting.
+ *         
+ *         Replaced by: ServiceProviderIntegratedIMPGetResponse21sp1 in AS data mode
  *
  * @see ServiceProviderIntegratedIMPGetRequest21
- * @Groups [{"id":"1145a01488507071407c5896ff2e4ef5:184","type":"sequence"}]
+ * @see ServiceProviderIntegratedIMPGetResponse21sp1
+ * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:5883","type":"sequence"}]
  */
 class ServiceProviderIntegratedIMPGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,7 +22,7 @@ class ServiceProviderIntegratedIMPGetResponse21 extends \CWM\BroadWorksConnector
     /**
      * @ElementName useSystemServiceDomain
      * @Type bool
-     * @Group 1145a01488507071407c5896ff2e4ef5:184
+     * @Group de4d76f01f337fe4694212ec9f771753:5883
      * @var bool|null
      */
     private $useSystemServiceDomain = null;
@@ -28,7 +31,7 @@ class ServiceProviderIntegratedIMPGetResponse21 extends \CWM\BroadWorksConnector
      * @ElementName serviceDomain
      * @Type string
      * @Optional
-     * @Group 1145a01488507071407c5896ff2e4ef5:184
+     * @Group de4d76f01f337fe4694212ec9f771753:5883
      * @var string|null
      */
     private $serviceDomain = null;
@@ -37,7 +40,7 @@ class ServiceProviderIntegratedIMPGetResponse21 extends \CWM\BroadWorksConnector
      * @ElementName servicePort
      * @Type int
      * @Optional
-     * @Group 1145a01488507071407c5896ff2e4ef5:184
+     * @Group de4d76f01f337fe4694212ec9f771753:5883
      * @var int|null
      */
     private $servicePort = null;
@@ -45,7 +48,7 @@ class ServiceProviderIntegratedIMPGetResponse21 extends \CWM\BroadWorksConnector
     /**
      * @ElementName useSystemMessagingServer
      * @Type bool
-     * @Group 1145a01488507071407c5896ff2e4ef5:184
+     * @Group de4d76f01f337fe4694212ec9f771753:5883
      * @var bool|null
      */
     private $useSystemMessagingServer = null;
@@ -54,7 +57,7 @@ class ServiceProviderIntegratedIMPGetResponse21 extends \CWM\BroadWorksConnector
      * @ElementName provisioningUrl
      * @Type string
      * @Optional
-     * @Group 1145a01488507071407c5896ff2e4ef5:184
+     * @Group de4d76f01f337fe4694212ec9f771753:5883
      * @var string|null
      */
     private $provisioningUrl = null;
@@ -63,7 +66,7 @@ class ServiceProviderIntegratedIMPGetResponse21 extends \CWM\BroadWorksConnector
      * @ElementName provisioningUserId
      * @Type string
      * @Optional
-     * @Group 1145a01488507071407c5896ff2e4ef5:184
+     * @Group de4d76f01f337fe4694212ec9f771753:5883
      * @var string|null
      */
     private $provisioningUserId = null;
@@ -72,7 +75,7 @@ class ServiceProviderIntegratedIMPGetResponse21 extends \CWM\BroadWorksConnector
      * @ElementName boshURL
      * @Type string
      * @Optional
-     * @Group 1145a01488507071407c5896ff2e4ef5:184
+     * @Group de4d76f01f337fe4694212ec9f771753:5883
      * @var string|null
      */
     private $boshURL = null;

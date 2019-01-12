@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * The voice portal select distribution list menu keys modify entry.
  *
- * @Groups [{"id":"80c5986946137c505e41f6008c7f75a8:2969","type":"sequence"}]
+ * @Groups [{"id":"3347d430e0d5c93a9ff8dcf0e3b60d6c:3023","type":"sequence"}]
  */
 class SelectDistributionListMenuKeysModifyEntry
 {
@@ -16,7 +16,7 @@ class SelectDistributionListMenuKeysModifyEntry
      * @ElementName returnToPreviousMenu
      * @Type string
      * @Optional
-     * @Group 80c5986946137c505e41f6008c7f75a8:2969
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:3023
      * @var string|null
      */
     private $returnToPreviousMenu = null;
@@ -26,7 +26,7 @@ class SelectDistributionListMenuKeysModifyEntry
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 80c5986946137c505e41f6008c7f75a8:2969
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:3023
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $repeatMenuOrFinishEnteringDistributionListNumber = null;

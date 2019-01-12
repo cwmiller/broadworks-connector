@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"4915e543002c33d10df7353b0c6ebf0a:73","type":"sequence"}]
+ * @Groups [{"id":"55636b88804490cf0ead7c9d4f44f28d:73","type":"sequence"}]
  */
 class SystemCustomerOriginatedTraceModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class SystemCustomerOriginatedTraceModifyRequest extends \CWM\BroadWorksConnecto
      * @ElementName screenMaliciousCallers
      * @Type bool
      * @Optional
-     * @Group 4915e543002c33d10df7353b0c6ebf0a:73
+     * @Group 55636b88804490cf0ead7c9d4f44f28d:73
      * @var bool|null
      */
     private $screenMaliciousCallers = null;

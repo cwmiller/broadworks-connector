@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Communication Barring Call Me Now Rule
  *
- * @Groups [{"id":"8e629edbac315ae7889caca732382c44:1089","type":"sequence"}]
+ * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:1335","type":"sequence"}]
  */
 class CommunicationBarringCallMeNowRule
 {
@@ -15,7 +15,7 @@ class CommunicationBarringCallMeNowRule
     /**
      * @ElementName criteria
      * @Type string
-     * @Group 8e629edbac315ae7889caca732382c44:1089
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:1335
      * @var string|null
      */
     private $criteria = null;
@@ -23,7 +23,7 @@ class CommunicationBarringCallMeNowRule
     /**
      * @ElementName action
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringCallMeNowAction
-     * @Group 8e629edbac315ae7889caca732382c44:1089
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:1335
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringCallMeNowAction|null
      */
     private $action = null;
@@ -33,7 +33,7 @@ class CommunicationBarringCallMeNowRule
      * @Type int
      * @Nillable
      * @Optional
-     * @Group 8e629edbac315ae7889caca732382c44:1089
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:1335
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $callTimeoutSeconds = null;

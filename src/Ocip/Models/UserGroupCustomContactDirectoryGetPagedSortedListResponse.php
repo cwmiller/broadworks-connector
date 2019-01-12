@@ -29,7 +29,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Note exists.
  *
  * @see UserGroupCustomContactDirectoryGetPagedSortedListRequest
- * @Groups [{"id":"ee3830ce42f01a3ef2a105d473fc3b17:1964","type":"sequence"}]
+ * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:2254","type":"sequence"}]
  */
 class UserGroupCustomContactDirectoryGetPagedSortedListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -37,7 +37,7 @@ class UserGroupCustomContactDirectoryGetPagedSortedListResponse extends \CWM\Bro
     /**
      * @ElementName totalNumberOfRows
      * @Type int
-     * @Group ee3830ce42f01a3ef2a105d473fc3b17:1964
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:2254
      * @var int|null
      */
     private $totalNumberOfRows = null;
@@ -45,7 +45,7 @@ class UserGroupCustomContactDirectoryGetPagedSortedListResponse extends \CWM\Bro
     /**
      * @ElementName userTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group ee3830ce42f01a3ef2a105d473fc3b17:1964
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:2254
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $userTable = null;

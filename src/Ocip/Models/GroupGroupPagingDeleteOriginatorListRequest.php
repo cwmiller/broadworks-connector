@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"756d4171668642e53d80bfcb4d781d63:135","type":"sequence"}]
+ * @Groups [{"id":"0d36df8c109e3ea7324f79031368c661:135","type":"sequence"}]
  */
 class GroupGroupPagingDeleteOriginatorListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupGroupPagingDeleteOriginatorListRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group 756d4171668642e53d80bfcb4d781d63:135
+     * @Group 0d36df8c109e3ea7324f79031368c661:135
      * @var string|null
      */
     private $serviceUserId = null;
@@ -27,7 +27,7 @@ class GroupGroupPagingDeleteOriginatorListRequest extends \CWM\BroadWorksConnect
      * @ElementName originatorUserId
      * @Type string
      * @Array
-     * @Group 756d4171668642e53d80bfcb4d781d63:135
+     * @Group 0d36df8c109e3ea7324f79031368c661:135
      * @var string[]
      */
     private $originatorUserId = array(

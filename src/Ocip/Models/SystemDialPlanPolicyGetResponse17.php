@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemDialPlanPolicyGetRequest17
  *
  * @see SystemDialPlanPolicyGetRequest17
- * @Groups [{"id":"b5f5416d9e71f8e4246cda16c4723744:7638","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:7766","type":"sequence"}]
  */
 class SystemDialPlanPolicyGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class SystemDialPlanPolicyGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName requiresAccessCodeForPublicCalls
      * @Type bool
-     * @Group b5f5416d9e71f8e4246cda16c4723744:7638
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7766
      * @var bool|null
      */
     private $requiresAccessCodeForPublicCalls = null;
@@ -24,7 +24,7 @@ class SystemDialPlanPolicyGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName allowE164PublicCalls
      * @Type bool
-     * @Group b5f5416d9e71f8e4246cda16c4723744:7638
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7766
      * @var bool|null
      */
     private $allowE164PublicCalls = null;
@@ -32,7 +32,7 @@ class SystemDialPlanPolicyGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName preferE164NumberFormatForCallbackServices
      * @Type bool
-     * @Group b5f5416d9e71f8e4246cda16c4723744:7638
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7766
      * @var bool|null
      */
     private $preferE164NumberFormatForCallbackServices = null;
@@ -40,7 +40,7 @@ class SystemDialPlanPolicyGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName publicDigitMap
      * @Type string
-     * @Group b5f5416d9e71f8e4246cda16c4723744:7638
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7766
      * @var string|null
      */
     private $publicDigitMap = null;
@@ -49,7 +49,7 @@ class SystemDialPlanPolicyGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName privateDigitMap
      * @Type string
      * @Optional
-     * @Group b5f5416d9e71f8e4246cda16c4723744:7638
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7766
      * @var string|null
      */
     private $privateDigitMap = null;

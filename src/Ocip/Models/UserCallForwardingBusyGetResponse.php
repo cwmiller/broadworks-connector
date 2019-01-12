@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to UserCallForwardingBusyGetRequest.
  *
  * @see UserCallForwardingBusyGetRequest
- * @Groups [{"id":"e7d595471b9d1aa19c8306be64e2a10a:57","type":"sequence"}]
+ * @Groups [{"id":"abb5674e0e8c679a722da3c2b8dc2182:57","type":"sequence"}]
  */
 class UserCallForwardingBusyGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class UserCallForwardingBusyGetResponse extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group e7d595471b9d1aa19c8306be64e2a10a:57
+     * @Group abb5674e0e8c679a722da3c2b8dc2182:57
      * @var bool|null
      */
     private $isActive = null;
@@ -25,7 +25,7 @@ class UserCallForwardingBusyGetResponse extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName forwardToPhoneNumber
      * @Type string
      * @Optional
-     * @Group e7d595471b9d1aa19c8306be64e2a10a:57
+     * @Group abb5674e0e8c679a722da3c2b8dc2182:57
      * @var string|null
      */
     private $forwardToPhoneNumber = null;

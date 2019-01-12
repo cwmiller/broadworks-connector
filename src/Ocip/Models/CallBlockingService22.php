@@ -19,6 +19,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *            Incoming Communication Barring
  *            Hierarchical Communication Barring
  *            Incoming Hierarchical Communication Barring
+ *            
+ *            Replaced by: CallBlockingService22V2
  *
  * @method static CallBlockingService22 OCP()
  * @method static CallBlockingService22 EOCP()

@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"8eb862aea0ee5d4211db0a0d3fe7c164:1746","type":"sequence"}]
+ * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:1805","type":"sequence"}]
  */
 class ServiceProviderCommunicationBarringProfileDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class ServiceProviderCommunicationBarringProfileDeleteRequest extends \CWM\Broad
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:1746
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1805
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,7 +26,7 @@ class ServiceProviderCommunicationBarringProfileDeleteRequest extends \CWM\Broad
     /**
      * @ElementName name
      * @Type string
-     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:1746
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1805
      * @var string|null
      */
     private $name = null;
@@ -35,7 +35,7 @@ class ServiceProviderCommunicationBarringProfileDeleteRequest extends \CWM\Broad
      * @ElementName defaultProfile
      * @Type string
      * @Optional
-     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:1746
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1805
      * @var string|null
      */
     private $defaultProfile = null;

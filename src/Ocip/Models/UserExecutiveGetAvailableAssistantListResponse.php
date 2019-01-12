@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "Hiragana First Name", "Phone Number", "Extension", "Department" and "Email Address".
  *
  * @see UserExecutiveGetAvailableAssistantListResponse
- * @Groups [{"id":"bcf25f15fde8fb6d519675293110ce09:203","type":"sequence"}]
+ * @Groups [{"id":"9a6dbade05624033cf7fe782b7c9a9a7:202","type":"sequence"}]
  */
 class UserExecutiveGetAvailableAssistantListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class UserExecutiveGetAvailableAssistantListResponse extends \CWM\BroadWorksConn
     /**
      * @ElementName userTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group bcf25f15fde8fb6d519675293110ce09:203
+     * @Group 9a6dbade05624033cf7fe782b7c9a9a7:202
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $userTable = null;

@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see EnterpriseCommunicationBarringAuthorizationCodeGetListResponse
  * @see ErrorResponse
- * @Groups [{"id":"889c8c305076ef39cc50c70d0c2dc820:544","type":"sequence"}]
+ * @Groups [{"id":"5395c7df0157d44aa22f3351d1a5f3da:544","type":"sequence"}]
  */
 class EnterpriseCommunicationBarringAuthorizationCodeGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class EnterpriseCommunicationBarringAuthorizationCodeGetListRequest extends \CWM
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 889c8c305076ef39cc50c70d0c2dc820:544
+     * @Group 5395c7df0157d44aa22f3351d1a5f3da:544
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,7 +27,7 @@ class EnterpriseCommunicationBarringAuthorizationCodeGetListRequest extends \CWM
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group 889c8c305076ef39cc50c70d0c2dc820:544
+     * @Group 5395c7df0157d44aa22f3351d1a5f3da:544
      * @var int|null
      */
     private $responseSizeLimit = null;
@@ -37,7 +37,7 @@ class EnterpriseCommunicationBarringAuthorizationCodeGetListRequest extends \CWM
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaCommunicationBarringAuthorizationCode
      * @Array
      * @Optional
-     * @Group 889c8c305076ef39cc50c70d0c2dc820:544
+     * @Group 5395c7df0157d44aa22f3351d1a5f3da:544
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaCommunicationBarringAuthorizationCode[]
      */
     private $searchCriteriaCommunicationBarringAuthorizationCode = array(
@@ -49,7 +49,7 @@ class EnterpriseCommunicationBarringAuthorizationCodeGetListRequest extends \CWM
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaCommunicationBarringAuthorizationCodeDescription
      * @Array
      * @Optional
-     * @Group 889c8c305076ef39cc50c70d0c2dc820:544
+     * @Group 5395c7df0157d44aa22f3351d1a5f3da:544
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaCommunicationBarringAuthorizationCodeDescription[]
      */
     private $searchCriteriaCommunicationBarringAuthorizationCodeDescription = array(
@@ -61,7 +61,7 @@ class EnterpriseCommunicationBarringAuthorizationCodeGetListRequest extends \CWM
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaNetworkClassOfServiceName
      * @Array
      * @Optional
-     * @Group 889c8c305076ef39cc50c70d0c2dc820:544
+     * @Group 5395c7df0157d44aa22f3351d1a5f3da:544
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaNetworkClassOfServiceName[]
      */
     private $searchCriteriaNetworkClassOfServiceName = array(

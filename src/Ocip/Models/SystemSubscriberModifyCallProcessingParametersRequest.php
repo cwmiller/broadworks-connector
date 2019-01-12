@@ -13,13 +13,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           isRingTimeOutActive
  *           ringTimeoutSeconds
  *           allowEmergencyRemoteOfficeOriginations
- *         
  *         Replaced By: SystemSubscriberModifyCallProcessingParametersRequest14sp7
  *
  * @see SuccessResponse
  * @see ErrorResponse
  * @see SystemSubscriberModifyCallProcessingParametersRequest14sp7
- * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:28489","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:6417","type":"sequence"}]
  */
 class SystemSubscriberModifyCallProcessingParametersRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -28,7 +27,7 @@ class SystemSubscriberModifyCallProcessingParametersRequest extends \CWM\BroadWo
      * @ElementName userCallingLineIdSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemUserCallingLineIdSelection
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:28489
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:6417
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemUserCallingLineIdSelection|null
      */
     private $userCallingLineIdSelection = null;
@@ -37,7 +36,7 @@ class SystemSubscriberModifyCallProcessingParametersRequest extends \CWM\BroadWo
      * @ElementName isExtendedCallingLineIdActive
      * @Type bool
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:28489
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:6417
      * @var bool|null
      */
     private $isExtendedCallingLineIdActive = null;
@@ -46,7 +45,7 @@ class SystemSubscriberModifyCallProcessingParametersRequest extends \CWM\BroadWo
      * @ElementName isRingTimeOutActive
      * @Type bool
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:28489
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:6417
      * @var bool|null
      */
     private $isRingTimeOutActive = null;
@@ -55,7 +54,7 @@ class SystemSubscriberModifyCallProcessingParametersRequest extends \CWM\BroadWo
      * @ElementName ringTimeoutSeconds
      * @Type int
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:28489
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:6417
      * @var int|null
      */
     private $ringTimeoutSeconds = null;
@@ -64,7 +63,7 @@ class SystemSubscriberModifyCallProcessingParametersRequest extends \CWM\BroadWo
      * @ElementName allowEmergencyRemoteOfficeOriginations
      * @Type bool
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:28489
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:6417
      * @var bool|null
      */
     private $allowEmergencyRemoteOfficeOriginations = null;
@@ -73,7 +72,7 @@ class SystemSubscriberModifyCallProcessingParametersRequest extends \CWM\BroadWo
      * @ElementName maxNoAnswerNumberOfRings
      * @Type int
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:28489
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:6417
      * @var int|null
      */
     private $maxNoAnswerNumberOfRings = null;

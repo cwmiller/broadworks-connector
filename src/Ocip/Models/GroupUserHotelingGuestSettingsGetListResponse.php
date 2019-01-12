@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "Phone Number" is presented in the E164 format.
  *
  * @see GroupUserHotelingGuestSettingsGetListRequest
- * @Groups [{"id":"15129cd25fa2d5581f4edfd652c24f93:7245","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:7544","type":"sequence"}]
  */
 class GroupUserHotelingGuestSettingsGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -21,7 +21,7 @@ class GroupUserHotelingGuestSettingsGetListResponse extends \CWM\BroadWorksConne
     /**
      * @ElementName userHotelingGuestTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 15129cd25fa2d5581f4edfd652c24f93:7245
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:7544
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $userHotelingGuestTable = null;

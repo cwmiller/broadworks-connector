@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"c542c6e8c7bdabb9276b67d4d39efb85:87","type":"sequence"}]
+ * @Groups [{"id":"b009175f2a2a9d38115e319a6ad64d7f:100","type":"sequence"}]
  */
 class ResellerAdminDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class ResellerAdminDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * @ElementName userId
      * @Type string
-     * @Group c542c6e8c7bdabb9276b67d4d39efb85:87
+     * @Group b009175f2a2a9d38115e319a6ad64d7f:100
      * @var string|null
      */
     private $userId = null;

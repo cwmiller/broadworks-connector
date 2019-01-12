@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to UserAdviceOfChargeGetRequest.
  *
  * @see UserAdviceOfChargeGetRequest
- * @Groups [{"id":"fb1070190f79a86aa955448146b539c7:302","type":"sequence"}]
+ * @Groups [{"id":"a69fde15f3aa7494d83b57461a7a70bb:302","type":"sequence"}]
  */
 class UserAdviceOfChargeGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class UserAdviceOfChargeGetResponse extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group fb1070190f79a86aa955448146b539c7:302
+     * @Group a69fde15f3aa7494d83b57461a7a70bb:302
      * @var bool|null
      */
     private $isActive = null;
@@ -24,7 +24,7 @@ class UserAdviceOfChargeGetResponse extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName aocType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AdviceOfChargeType
-     * @Group fb1070190f79a86aa955448146b539c7:302
+     * @Group a69fde15f3aa7494d83b57461a7a70bb:302
      * @var \CWM\BroadWorksConnector\Ocip\Models\AdviceOfChargeType|null
      */
     private $aocType = null;

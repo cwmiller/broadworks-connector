@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The "Created By" can be either "Administrator" or user id if created by supervisor.
  *
  * @see EnterpriseCallCenterEnhancedReportingScheduledReportGetReportTemplateUsageListRequest
- * @Groups [{"id":"3ac5f05d969bc771d6ba8d344d95aa72:1548","type":"sequence"}]
+ * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:1700","type":"sequence"}]
  */
 class EnterpriseCallCenterEnhancedReportingScheduledReportGetReportTemplateUsageListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,7 +19,7 @@ class EnterpriseCallCenterEnhancedReportingScheduledReportGetReportTemplateUsage
     /**
      * @ElementName scheduleReportTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:1548
+     * @Group e2c537e3e39483b96620673a7012ffdd:1700
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $scheduleReportTable = null;

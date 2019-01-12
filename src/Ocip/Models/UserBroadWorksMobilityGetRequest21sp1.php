@@ -5,12 +5,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * UserBroadWorksMobilityGetRequest21sp1
  *
- * Get the user's BroadWorks Mobility service settings.
+ * Get the user's BroadWorks Mobility service settings with details for DNs.
  *         The response is either a UserBroadWorksMobilityGetResponse21sp1 or an ErrorResponse.
  *
  * @see UserBroadWorksMobilityGetResponse21sp1
  * @see ErrorResponse
- * @Groups [{"id":"6536ac9946b3d8422bec81ad9d995e2b:1133","type":"sequence"}]
+ * @Groups [{"id":"f7ae3539fd471e995b07dc1bf8836e2d:1276","type":"sequence"}]
  */
 class UserBroadWorksMobilityGetRequest21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserBroadWorksMobilityGetRequest21sp1 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName userId
      * @Type string
-     * @Group 6536ac9946b3d8422bec81ad9d995e2b:1133
+     * @Group f7ae3539fd471e995b07dc1bf8836e2d:1276
      * @var string|null
      */
     private $userId = null;

@@ -16,7 +16,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The "Mobile Network" column contains the Mobile Network the number belongs to.
  *
  * @see EnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAssignmentListRequest
- * @Groups [{"id":"6536ac9946b3d8422bec81ad9d995e2b:117","type":"sequence"}]
+ * @Groups [{"id":"f7ae3539fd471e995b07dc1bf8836e2d:123","type":"sequence"}]
  */
 class EnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAssignmentListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -24,7 +24,7 @@ class EnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAssignmentLi
     /**
      * @ElementName mobileSubscriberDirectoryNumbersAssignmentTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 6536ac9946b3d8422bec81ad9d995e2b:117
+     * @Group f7ae3539fd471e995b07dc1bf8836e2d:123
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $mobileSubscriberDirectoryNumbersAssignmentTable = null;

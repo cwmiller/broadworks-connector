@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemHPBXMobileTerminationGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"b5f5416d9e71f8e4246cda16c4723744:9700","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:9885","type":"sequence"}]
  */
 class SystemHPBXMobileTerminationGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

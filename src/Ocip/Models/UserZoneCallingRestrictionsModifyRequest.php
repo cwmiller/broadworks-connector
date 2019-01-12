@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"07380fdcfb18253c57c357aa0080f72a:132","type":"sequence"}]
+ * @Groups [{"id":"da5cd0d79ddb505982e08d164e405660:132","type":"sequence"}]
  */
 class UserZoneCallingRestrictionsModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserZoneCallingRestrictionsModifyRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName userId
      * @Type string
-     * @Group 07380fdcfb18253c57c357aa0080f72a:132
+     * @Group da5cd0d79ddb505982e08d164e405660:132
      * @var string|null
      */
     private $userId = null;
@@ -28,7 +28,7 @@ class UserZoneCallingRestrictionsModifyRequest extends \CWM\BroadWorksConnector\
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 07380fdcfb18253c57c357aa0080f72a:132
+     * @Group da5cd0d79ddb505982e08d164e405660:132
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $homeZoneName = null;

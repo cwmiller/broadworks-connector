@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"12a5240b3c551d23cab4f27462925188:123","type":"sequence"}]
+ * @Groups [{"id":"ece0b65e69189d3e8b8deee895f0a7ff:123","type":"sequence"}]
  */
 class SystemInCallServiceActivationModifyRequest17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemInCallServiceActivationModifyRequest17 extends \CWM\BroadWorksConnec
      * @ElementName defaultFlashActivationDigits
      * @Type string
      * @Optional
-     * @Group 12a5240b3c551d23cab4f27462925188:123
+     * @Group ece0b65e69189d3e8b8deee895f0a7ff:123
      * @var string|null
      */
     private $defaultFlashActivationDigits = null;
@@ -27,7 +27,7 @@ class SystemInCallServiceActivationModifyRequest17 extends \CWM\BroadWorksConnec
      * @ElementName defaultCallTransferActivationDigits
      * @Type string
      * @Optional
-     * @Group 12a5240b3c551d23cab4f27462925188:123
+     * @Group ece0b65e69189d3e8b8deee895f0a7ff:123
      * @var string|null
      */
     private $defaultCallTransferActivationDigits = null;

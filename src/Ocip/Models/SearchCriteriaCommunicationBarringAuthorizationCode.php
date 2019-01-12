@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Criteria for searching for a Communication Barring Authorization Code.
  *
- * @Groups [{"id":"e446bfcbd1f39cbef57d1547014f2bb9:283","type":"sequence"}]
+ * @Groups [{"id":"f0ada2681ca347fa83b464734259b304:317","type":"sequence"}]
  */
 class SearchCriteriaCommunicationBarringAuthorizationCode extends SearchCriteria
 {
@@ -15,7 +15,7 @@ class SearchCriteriaCommunicationBarringAuthorizationCode extends SearchCriteria
     /**
      * @ElementName mode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchMode
-     * @Group e446bfcbd1f39cbef57d1547014f2bb9:283
+     * @Group f0ada2681ca347fa83b464734259b304:317
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchMode|null
      */
     private $mode = null;
@@ -23,7 +23,7 @@ class SearchCriteriaCommunicationBarringAuthorizationCode extends SearchCriteria
     /**
      * @ElementName value
      * @Type string
-     * @Group e446bfcbd1f39cbef57d1547014f2bb9:283
+     * @Group f0ada2681ca347fa83b464734259b304:317
      * @var string|null
      */
     private $value = null;
@@ -31,7 +31,7 @@ class SearchCriteriaCommunicationBarringAuthorizationCode extends SearchCriteria
     /**
      * @ElementName isCaseInsensitive
      * @Type bool
-     * @Group e446bfcbd1f39cbef57d1547014f2bb9:283
+     * @Group f0ada2681ca347fa83b464734259b304:317
      * @var bool|null
      */
     private $isCaseInsensitive = null;

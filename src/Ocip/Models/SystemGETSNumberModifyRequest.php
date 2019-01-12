@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"b5f5416d9e71f8e4246cda16c4723744:9295","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:9480","type":"sequence"}]
  */
 class SystemGETSNumberModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemGETSNumberModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName number
      * @Type string
-     * @Group b5f5416d9e71f8e4246cda16c4723744:9295
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9480
      * @var string|null
      */
     private $number = null;
@@ -27,7 +27,7 @@ class SystemGETSNumberModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName type
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GETSNumberType
      * @Optional
-     * @Group b5f5416d9e71f8e4246cda16c4723744:9295
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9480
      * @var \CWM\BroadWorksConnector\Ocip\Models\GETSNumberType|null
      */
     private $type = null;
@@ -37,7 +37,7 @@ class SystemGETSNumberModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @Type string
      * @Nillable
      * @Optional
-     * @Group b5f5416d9e71f8e4246cda16c4723744:9295
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9480
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $description = null;

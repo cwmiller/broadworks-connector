@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupServiceInstancePrivacyGetResponse17sp4
  * @see ErrorResponse
- * @Groups [{"id":"979f00619273c0e67fc6ac4ef7b3359a:46","type":"sequence"}]
+ * @Groups [{"id":"b87b6355d5858fdbeb8c1eb05dc1651a:46","type":"sequence"}]
  */
 class GroupServiceInstancePrivacyGetRequest17sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class GroupServiceInstancePrivacyGetRequest17sp4 extends \CWM\BroadWorksConnecto
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group 979f00619273c0e67fc6ac4ef7b3359a:46
+     * @Group b87b6355d5858fdbeb8c1eb05dc1651a:46
      * @var string|null
      */
     private $serviceUserId = null;

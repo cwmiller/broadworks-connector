@@ -18,7 +18,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see ErrorResponse
  * @see ErrorResponse
- * @Groups [{"id":"ee3830ce42f01a3ef2a105d473fc3b17:1183","type":"sequence"}]
+ * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:1283","type":"sequence"}]
  */
 class UserConsolidatedDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -26,7 +26,7 @@ class UserConsolidatedDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName userId
      * @Type string
-     * @Group ee3830ce42f01a3ef2a105d473fc3b17:1183
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:1283
      * @var string|null
      */
     private $userId = null;
@@ -35,7 +35,7 @@ class UserConsolidatedDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName deleteExistingDevices
      * @Type bool
      * @Optional
-     * @Group ee3830ce42f01a3ef2a105d473fc3b17:1183
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:1283
      * @var bool|null
      */
     private $deleteExistingDevices = null;
@@ -44,7 +44,7 @@ class UserConsolidatedDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName unassignPhoneNumbers
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UnassignPhoneNumbersLevel
      * @Optional
-     * @Group ee3830ce42f01a3ef2a105d473fc3b17:1183
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:1283
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnassignPhoneNumbersLevel|null
      */
     private $unassignPhoneNumbers = null;

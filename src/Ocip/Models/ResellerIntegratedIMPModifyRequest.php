@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"1145a01488507071407c5896ff2e4ef5:142","type":"sequence"}]
+ * @Groups [{"id":"23389100b68cef3aa07ee12ac7a2bd16:145","type":"sequence"}]
  */
 class ResellerIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class ResellerIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName resellerId
      * @Type string
-     * @Group 1145a01488507071407c5896ff2e4ef5:142
+     * @Group 23389100b68cef3aa07ee12ac7a2bd16:145
      * @var string|null
      */
     private $resellerId = null;
@@ -27,7 +27,7 @@ class ResellerIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName useSystemServiceDomain
      * @Type bool
      * @Optional
-     * @Group 1145a01488507071407c5896ff2e4ef5:142
+     * @Group 23389100b68cef3aa07ee12ac7a2bd16:145
      * @var bool|null
      */
     private $useSystemServiceDomain = null;
@@ -37,7 +37,7 @@ class ResellerIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 1145a01488507071407c5896ff2e4ef5:142
+     * @Group 23389100b68cef3aa07ee12ac7a2bd16:145
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $serviceDomain = null;
@@ -47,7 +47,7 @@ class ResellerIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @Type int
      * @Nillable
      * @Optional
-     * @Group 1145a01488507071407c5896ff2e4ef5:142
+     * @Group 23389100b68cef3aa07ee12ac7a2bd16:145
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $servicePort = null;
@@ -56,7 +56,7 @@ class ResellerIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName useSystemMessagingServer
      * @Type bool
      * @Optional
-     * @Group 1145a01488507071407c5896ff2e4ef5:142
+     * @Group 23389100b68cef3aa07ee12ac7a2bd16:145
      * @var bool|null
      */
     private $useSystemMessagingServer = null;
@@ -66,7 +66,7 @@ class ResellerIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 1145a01488507071407c5896ff2e4ef5:142
+     * @Group 23389100b68cef3aa07ee12ac7a2bd16:145
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $provisioningUrl = null;
@@ -76,7 +76,7 @@ class ResellerIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 1145a01488507071407c5896ff2e4ef5:142
+     * @Group 23389100b68cef3aa07ee12ac7a2bd16:145
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $provisioningUserId = null;
@@ -86,7 +86,7 @@ class ResellerIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 1145a01488507071407c5896ff2e4ef5:142
+     * @Group 23389100b68cef3aa07ee12ac7a2bd16:145
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $provisioningPassword = null;
@@ -96,10 +96,19 @@ class ResellerIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 1145a01488507071407c5896ff2e4ef5:142
+     * @Group 23389100b68cef3aa07ee12ac7a2bd16:145
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $boshURL = null;
+
+    /**
+     * @ElementName defaultImpIdType
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\IntegratedIMPUserIDType
+     * @Optional
+     * @Group 23389100b68cef3aa07ee12ac7a2bd16:145
+     * @var \CWM\BroadWorksConnector\Ocip\Models\IntegratedIMPUserIDType|null
+     */
+    private $defaultImpIdType = null;
 
     /**
      * Getter for resellerId
@@ -401,6 +410,37 @@ class ResellerIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
     public function unsetBoshURL()
     {
         $this->boshURL = null;
+        return $this;
+    }
+
+    /**
+     * Getter for defaultImpIdType
+     *
+     * @return \CWM\BroadWorksConnector\Ocip\Models\IntegratedIMPUserIDType
+     */
+    public function getDefaultImpIdType()
+    {
+        return $this->defaultImpIdType instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->defaultImpIdType;
+    }
+
+    /**
+     * Setter for defaultImpIdType
+     *
+     * @param \CWM\BroadWorksConnector\Ocip\Models\IntegratedIMPUserIDType $defaultImpIdType
+     * @return $this
+     */
+    public function setDefaultImpIdType(\CWM\BroadWorksConnector\Ocip\Models\IntegratedIMPUserIDType $defaultImpIdType)
+    {
+        $this->defaultImpIdType = $defaultImpIdType;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDefaultImpIdType()
+    {
+        $this->defaultImpIdType = null;
         return $this;
     }
 

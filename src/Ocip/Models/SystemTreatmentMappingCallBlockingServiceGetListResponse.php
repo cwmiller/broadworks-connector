@@ -8,11 +8,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to a SystemTreatmentMappingCallBlockingServiceGetListRequest. Contains a table with one row per mapping.
  *         The table columns are: "Service", "Treatment Id".
  *         
- *         Replaced by: SystemTreatmentMappingCallBlockingServiceGetListResponse22 in AS data mode
+ *         Replaced by: SystemTreatmentMappingCallBlockingServiceGetListResponse19sp1 in AS data mode
  *
  * @see SystemTreatmentMappingCallBlockingServiceGetListRequest
- * @see SystemTreatmentMappingCallBlockingServiceGetListResponse22
- * @Groups [{"id":"bb12a3589ab4748963f28f7ac9310f70:4367","type":"sequence"}]
+ * @see SystemTreatmentMappingCallBlockingServiceGetListResponse19sp1
+ * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:6894","type":"sequence"}]
  */
 class SystemTreatmentMappingCallBlockingServiceGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -20,7 +20,7 @@ class SystemTreatmentMappingCallBlockingServiceGetListResponse extends \CWM\Broa
     /**
      * @ElementName treatmentMappingTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group bb12a3589ab4748963f28f7ac9310f70:4367
+     * @Group de4d76f01f337fe4694212ec9f771753:6894
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $treatmentMappingTable = null;

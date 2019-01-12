@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"c81ec650475acb5cc7b075c4582c12ba:108","type":"sequence"}]
+ * @Groups [{"id":"79f226053ee345f2ff4c37c37c8e9114:107","type":"sequence"}]
  */
 class GroupFindMeFollowMeAddInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class GroupFindMeFollowMeAddInstanceRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group c81ec650475acb5cc7b075c4582c12ba:108
+     * @Group 79f226053ee345f2ff4c37c37c8e9114:107
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,7 +27,7 @@ class GroupFindMeFollowMeAddInstanceRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName groupId
      * @Type string
-     * @Group c81ec650475acb5cc7b075c4582c12ba:108
+     * @Group 79f226053ee345f2ff4c37c37c8e9114:107
      * @var string|null
      */
     private $groupId = null;
@@ -35,7 +35,7 @@ class GroupFindMeFollowMeAddInstanceRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group c81ec650475acb5cc7b075c4582c12ba:108
+     * @Group 79f226053ee345f2ff4c37c37c8e9114:107
      * @var string|null
      */
     private $serviceUserId = null;
@@ -43,7 +43,7 @@ class GroupFindMeFollowMeAddInstanceRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName serviceInstanceProfile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceAddProfile
-     * @Group c81ec650475acb5cc7b075c4582c12ba:108
+     * @Group 79f226053ee345f2ff4c37c37c8e9114:107
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceAddProfile|null
      */
     private $serviceInstanceProfile = null;
@@ -52,7 +52,7 @@ class GroupFindMeFollowMeAddInstanceRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName networkClassOfService
      * @Type string
      * @Optional
-     * @Group c81ec650475acb5cc7b075c4582c12ba:108
+     * @Group 79f226053ee345f2ff4c37c37c8e9114:107
      * @var string|null
      */
     private $networkClassOfService = null;

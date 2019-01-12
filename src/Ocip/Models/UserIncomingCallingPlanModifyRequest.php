@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"fefa11f6b138d87bf7b497c92a51e2ba:130","type":"sequence"}]
+ * @Groups [{"id":"3dd296d55b56269ae23d86a934b8b35c:129","type":"sequence"}]
  */
 class UserIncomingCallingPlanModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserIncomingCallingPlanModifyRequest extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName userId
      * @Type string
-     * @Group fefa11f6b138d87bf7b497c92a51e2ba:130
+     * @Group 3dd296d55b56269ae23d86a934b8b35c:129
      * @var string|null
      */
     private $userId = null;
@@ -27,7 +27,7 @@ class UserIncomingCallingPlanModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @ElementName useCustomSettings
      * @Type bool
      * @Optional
-     * @Group fefa11f6b138d87bf7b497c92a51e2ba:130
+     * @Group 3dd296d55b56269ae23d86a934b8b35c:129
      * @var bool|null
      */
     private $useCustomSettings = null;
@@ -36,7 +36,7 @@ class UserIncomingCallingPlanModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @ElementName userPermissions
      * @Type \CWM\BroadWorksConnector\Ocip\Models\IncomingCallingPlanPermissionsModify
      * @Optional
-     * @Group fefa11f6b138d87bf7b497c92a51e2ba:130
+     * @Group 3dd296d55b56269ae23d86a934b8b35c:129
      * @var \CWM\BroadWorksConnector\Ocip\Models\IncomingCallingPlanPermissionsModify|null
      */
     private $userPermissions = null;

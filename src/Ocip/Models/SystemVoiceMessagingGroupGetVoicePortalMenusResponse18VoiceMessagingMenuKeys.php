@@ -5,7 +5,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemVoiceMessagingGroupGetVoicePortalMenusResponse18VoiceMessagingMenuKeys
  *
- * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:29657","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:26198","type":"sequence"}]
  */
 class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18VoiceMessagingMenuKeys
 {
@@ -14,7 +14,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18VoiceMessagingMenuKe
      * @ElementName playMessages
      * @Type string
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:29657
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:26198
      * @var string|null
      */
     private $playMessages = null;
@@ -23,7 +23,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18VoiceMessagingMenuKe
      * @ElementName changeBusyGreeting
      * @Type string
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:29657
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:26198
      * @var string|null
      */
     private $changeBusyGreeting = null;
@@ -32,7 +32,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18VoiceMessagingMenuKe
      * @ElementName changeNoAnswerGreeting
      * @Type string
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:29657
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:26198
      * @var string|null
      */
     private $changeNoAnswerGreeting = null;
@@ -41,7 +41,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18VoiceMessagingMenuKe
      * @ElementName composeMessage
      * @Type string
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:29657
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:26198
      * @var string|null
      */
     private $composeMessage = null;
@@ -50,7 +50,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18VoiceMessagingMenuKe
      * @ElementName deleteAllMessages
      * @Type string
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:29657
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:26198
      * @var string|null
      */
     private $deleteAllMessages = null;
@@ -59,7 +59,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18VoiceMessagingMenuKe
      * @ElementName passcode
      * @Type string
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:29657
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:26198
      * @var string|null
      */
     private $passcode = null;
@@ -68,7 +68,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18VoiceMessagingMenuKe
      * @ElementName personalizedName
      * @Type string
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:29657
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:26198
      * @var string|null
      */
     private $personalizedName = null;
@@ -77,7 +77,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18VoiceMessagingMenuKe
      * @ElementName messageDeposit
      * @Type string
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:29657
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:26198
      * @var string|null
      */
     private $messageDeposit = null;
@@ -85,7 +85,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18VoiceMessagingMenuKe
     /**
      * @ElementName returnToPreviousMenu
      * @Type string
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:29657
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:26198
      * @var string|null
      */
     private $returnToPreviousMenu = null;
@@ -94,7 +94,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18VoiceMessagingMenuKe
      * @ElementName repeatMenu
      * @Type string
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:29657
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:26198
      * @var string|null
      */
     private $repeatMenu = null;

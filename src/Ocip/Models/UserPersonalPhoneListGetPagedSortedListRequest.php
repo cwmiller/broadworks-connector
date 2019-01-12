@@ -17,11 +17,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * 				Specifying searchCriteriaModeOr without any search criteria results
  * 				in an ErrorResponse.
  * 				The sort can done by the personal phone list number or name.
+ * 				The following elements are only used in AS data mode and ignored in XS data  
+ * 				mode:
+ * 				searchCriteriaUserPersonalMultiPartPhoneListName
  *
  * @see UserPersonalPhoneListGetPagedSortedListResponse
  * @see ErrorResponse
  * @see ErrorResponse
- * @Groups [{"id":"ee3830ce42f01a3ef2a105d473fc3b17:2298","type":"sequence","children":[{"id":"ee3830ce42f01a3ef2a105d473fc3b17:2301","type":"choice"}]}]
+ * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:2632","type":"sequence","children":[{"id":"53d18cc797d03d802cbc411ad821f1d4:2635","type":"choice"}]}]
  */
 class UserPersonalPhoneListGetPagedSortedListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -29,7 +32,7 @@ class UserPersonalPhoneListGetPagedSortedListRequest extends \CWM\BroadWorksConn
     /**
      * @ElementName userId
      * @Type string
-     * @Group ee3830ce42f01a3ef2a105d473fc3b17:2298
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:2632
      * @var string|null
      */
     private $userId = null;
@@ -37,7 +40,7 @@ class UserPersonalPhoneListGetPagedSortedListRequest extends \CWM\BroadWorksConn
     /**
      * @ElementName responsePagingControl
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl
-     * @Group ee3830ce42f01a3ef2a105d473fc3b17:2298
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:2632
      * @var \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl|null
      */
     private $responsePagingControl = null;
@@ -45,7 +48,7 @@ class UserPersonalPhoneListGetPagedSortedListRequest extends \CWM\BroadWorksConn
     /**
      * @ElementName sortByUserPersonalPhoneListNumber
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByUserPersonalPhoneListNumber
-     * @Group ee3830ce42f01a3ef2a105d473fc3b17:2301
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:2635
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByUserPersonalPhoneListNumber|null
      */
     private $sortByUserPersonalPhoneListNumber = null;
@@ -53,7 +56,7 @@ class UserPersonalPhoneListGetPagedSortedListRequest extends \CWM\BroadWorksConn
     /**
      * @ElementName sortByUserPersonalPhoneListName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByUserPersonalPhoneListName
-     * @Group ee3830ce42f01a3ef2a105d473fc3b17:2301
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:2635
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByUserPersonalPhoneListName|null
      */
     private $sortByUserPersonalPhoneListName = null;
@@ -62,7 +65,7 @@ class UserPersonalPhoneListGetPagedSortedListRequest extends \CWM\BroadWorksConn
      * @ElementName searchCriteriaModeOr
      * @Type bool
      * @Optional
-     * @Group ee3830ce42f01a3ef2a105d473fc3b17:2298
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:2632
      * @var bool|null
      */
     private $searchCriteriaModeOr = null;
@@ -72,7 +75,7 @@ class UserPersonalPhoneListGetPagedSortedListRequest extends \CWM\BroadWorksConn
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserPersonalPhoneListName
      * @Array
      * @Optional
-     * @Group ee3830ce42f01a3ef2a105d473fc3b17:2298
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:2632
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserPersonalPhoneListName[]
      */
     private $searchCriteriaUserPersonalPhoneListName = array(
@@ -84,10 +87,22 @@ class UserPersonalPhoneListGetPagedSortedListRequest extends \CWM\BroadWorksConn
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserPersonalPhoneListNumber
      * @Array
      * @Optional
-     * @Group ee3830ce42f01a3ef2a105d473fc3b17:2298
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:2632
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserPersonalPhoneListNumber[]
      */
     private $searchCriteriaUserPersonalPhoneListNumber = array(
+        
+    );
+
+    /**
+     * @ElementName searchCriteriaUserPersonalMultiPartPhoneListName
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserPersonalMultiPartPhoneListName
+     * @Array
+     * @Optional
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:2632
+     * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserPersonalMultiPartPhoneListName[]
+     */
+    private $searchCriteriaUserPersonalMultiPartPhoneListName = array(
         
     );
 
@@ -329,6 +344,49 @@ class UserPersonalPhoneListGetPagedSortedListRequest extends \CWM\BroadWorksConn
     public function addSearchCriteriaUserPersonalPhoneListNumber($searchCriteriaUserPersonalPhoneListNumber)
     {
         $this->searchCriteriaUserPersonalPhoneListNumber[] = $searchCriteriaUserPersonalPhoneListNumber;
+        return $this;
+    }
+
+    /**
+     * Getter for searchCriteriaUserPersonalMultiPartPhoneListName
+     *
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserPersonalMultiPartPhoneListName[]
+     */
+    public function getSearchCriteriaUserPersonalMultiPartPhoneListName()
+    {
+        return $this->searchCriteriaUserPersonalMultiPartPhoneListName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->searchCriteriaUserPersonalMultiPartPhoneListName;
+    }
+
+    /**
+     * Setter for searchCriteriaUserPersonalMultiPartPhoneListName
+     *
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserPersonalMultiPartPhoneListName[] $searchCriteriaUserPersonalMultiPartPhoneListName
+     * @return $this
+     */
+    public function setSearchCriteriaUserPersonalMultiPartPhoneListName(array $searchCriteriaUserPersonalMultiPartPhoneListName)
+    {
+        $this->searchCriteriaUserPersonalMultiPartPhoneListName = $searchCriteriaUserPersonalMultiPartPhoneListName;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetSearchCriteriaUserPersonalMultiPartPhoneListName()
+    {
+        $this->searchCriteriaUserPersonalMultiPartPhoneListName = null;
+        return $this;
+    }
+
+    /**
+     * Adder for searchCriteriaUserPersonalMultiPartPhoneListName
+     *
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserPersonalMultiPartPhoneListName $searchCriteriaUserPersonalMultiPartPhoneListName
+     * @return $this
+     */
+    public function addSearchCriteriaUserPersonalMultiPartPhoneListName($searchCriteriaUserPersonalMultiPartPhoneListName)
+    {
+        $this->searchCriteriaUserPersonalMultiPartPhoneListName[] = $searchCriteriaUserPersonalMultiPartPhoneListName;
         return $this;
     }
 

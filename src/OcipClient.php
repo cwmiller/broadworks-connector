@@ -20,9 +20,7 @@ use CWM\BroadWorksConnector\Ocip\Models\LoginResponse22V2;
 use CWM\BroadWorksConnector\Ocip\Options;
 use CWM\BroadWorksConnector\Ocip\SoapTransport;
 use CWM\BroadWorksConnector\Ocip\TcpTransport;
-use CWM\BroadWorksConnector\Ocip\Traits\OCISchemaASDeprecatedSpecialExceptions;
 use CWM\BroadWorksConnector\Ocip\Traits\OCISchemaDeprecated;
-use CWM\BroadWorksConnector\Ocip\Traits\OCISchemaDeprecated22;
 use CWM\BroadWorksConnector\Ocip\Traits\OCISchemaDeprecatedAS;
 use CWM\BroadWorksConnector\Ocip\Traits\OCISchemaEnterprise;
 use CWM\BroadWorksConnector\Ocip\Traits\OCISchemaGroup;
@@ -35,6 +33,7 @@ use CWM\BroadWorksConnector\Ocip\Traits\OCISchemaServiceAnonymousCallRejection;
 use CWM\BroadWorksConnector\Ocip\Traits\OCISchemaServiceAuthentication;
 use CWM\BroadWorksConnector\Ocip\Traits\OCISchemaServiceAutoAttendant;
 use CWM\BroadWorksConnector\Ocip\Traits\OCISchemaServiceAutomaticCallback;
+use CWM\BroadWorksConnector\Ocip\Traits\OCISchemaServiceAutomaticCollectCall;
 use CWM\BroadWorksConnector\Ocip\Traits\OCISchemaServiceAutomaticHoldRetrieve;
 use CWM\BroadWorksConnector\Ocip\Traits\OCISchemaServiceBargeInExempt;
 use CWM\BroadWorksConnector\Ocip\Traits\OCISchemaServiceBasicCallLogs;
@@ -123,6 +122,7 @@ use CWM\BroadWorksConnector\Ocip\Traits\OCISchemaServiceReceptionistEnterprise;
 use CWM\BroadWorksConnector\Ocip\Traits\OCISchemaServiceReceptionistOffice;
 use CWM\BroadWorksConnector\Ocip\Traits\OCISchemaServiceReceptionistSmallBusiness;
 use CWM\BroadWorksConnector\Ocip\Traits\OCISchemaServiceRemoteOffice;
+use CWM\BroadWorksConnector\Ocip\Traits\OCISchemaServiceResourcePriority;
 use CWM\BroadWorksConnector\Ocip\Traits\OCISchemaServiceRouteList;
 use CWM\BroadWorksConnector\Ocip\Traits\OCISchemaServiceRoutePoint;
 use CWM\BroadWorksConnector\Ocip\Traits\OCISchemaServiceSecurityClassification;
@@ -149,7 +149,6 @@ use CWM\BroadWorksConnector\Ocip\Traits\OCISchemaServiceVoiceXml;
 use CWM\BroadWorksConnector\Ocip\Traits\OCISchemaServiceZoneCallingRestrictions;
 use CWM\BroadWorksConnector\Ocip\Traits\OCISchemaSystem;
 use CWM\BroadWorksConnector\Ocip\Traits\OCISchemaUser;
-use CWM\BroadWorksConnector\Ocip\Traits\XSOCI;
 use CWM\BroadWorksConnector\Ocip\UserDetails;
 use CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Validation\Validator;
@@ -163,8 +162,6 @@ use DOMElement;
  */
 class OcipClient
 {
-    use OCISchemaASDeprecatedSpecialExceptions;
-    use OCISchemaDeprecated22;
     use OCISchemaDeprecatedAS;
     use OCISchemaDeprecated;
     use OCISchemaEnterprise;
@@ -178,6 +175,7 @@ class OcipClient
     use OCISchemaServiceAuthentication;
     use OCISchemaServiceAutoAttendant;
     use OCISchemaServiceAutomaticCallback;
+    use OCISchemaServiceAutomaticCollectCall;
     use OCISchemaServiceAutomaticHoldRetrieve;
     use OCISchemaServiceBargeInExempt;
     use OCISchemaServiceBasicCallLogs;
@@ -266,6 +264,7 @@ class OcipClient
     use OCISchemaServiceReceptionistOffice;
     use OCISchemaServiceReceptionistSmallBusiness;
     use OCISchemaServiceRemoteOffice;
+    use OCISchemaServiceResourcePriority;
     use OCISchemaServiceRouteList;
     use OCISchemaServiceRoutePoint;
     use OCISchemaServiceSecurityClassification;
@@ -292,7 +291,6 @@ class OcipClient
     use OCISchemaServiceZoneCallingRestrictions;
     use OCISchemaSystem;
     use OCISchemaUser;
-    use XSOCI;
 
 
     /** @var string */

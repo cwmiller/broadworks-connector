@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           "Phone Number", "Extension", "Department", "Email Address", "IMP Id".
  *
  * @see UserPushToTalkGetAvailableUserListRequest
- * @Groups [{"id":"b1cd97c56a75178a30eef82c2fa39248:70","type":"sequence"}]
+ * @Groups [{"id":"f32f4b57593f3e1ac6ed1cf45ed62b7c:70","type":"sequence"}]
  */
 class UserPushToTalkGetAvailableUserListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,7 +19,7 @@ class UserPushToTalkGetAvailableUserListResponse extends \CWM\BroadWorksConnecto
     /**
      * @ElementName userTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group b1cd97c56a75178a30eef82c2fa39248:70
+     * @Group f32f4b57593f3e1ac6ed1cf45ed62b7c:70
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $userTable = null;

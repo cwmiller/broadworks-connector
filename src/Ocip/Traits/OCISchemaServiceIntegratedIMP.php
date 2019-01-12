@@ -2,21 +2,21 @@
 
 namespace CWM\BroadWorksConnector\Ocip\Traits;
 
-use CWM\BroadWorksConnector\Ocip\Models\GroupIntegratedIMPGetRequest;
-use CWM\BroadWorksConnector\Ocip\Models\GroupIntegratedIMPGetResponse;
+use CWM\BroadWorksConnector\Ocip\Models\GroupIntegratedIMPGetRequest21sp1;
+use CWM\BroadWorksConnector\Ocip\Models\GroupIntegratedIMPGetResponse21sp1;
 use CWM\BroadWorksConnector\Ocip\Models\GroupIntegratedIMPModifyRequest;
-use CWM\BroadWorksConnector\Ocip\Models\ResellerIntegratedIMPGetRequest;
-use CWM\BroadWorksConnector\Ocip\Models\ResellerIntegratedIMPGetResponse;
+use CWM\BroadWorksConnector\Ocip\Models\ResellerIntegratedIMPGetRequest22;
+use CWM\BroadWorksConnector\Ocip\Models\ResellerIntegratedIMPGetResponse22;
 use CWM\BroadWorksConnector\Ocip\Models\ResellerIntegratedIMPModifyRequest;
-use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderIntegratedIMPGetRequest21;
-use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderIntegratedIMPGetResponse21;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderIntegratedIMPGetRequest22;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderIntegratedIMPGetResponse22;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderIntegratedIMPModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemIntegratedIMPGetRequest21;
 use CWM\BroadWorksConnector\Ocip\Models\SystemIntegratedIMPGetResponse19;
 use CWM\BroadWorksConnector\Ocip\Models\SystemIntegratedIMPModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserIntegratedIMPGeneratePasswordRequest;
-use CWM\BroadWorksConnector\Ocip\Models\UserIntegratedIMPGetRequest;
-use CWM\BroadWorksConnector\Ocip\Models\UserIntegratedIMPGetResponse;
+use CWM\BroadWorksConnector\Ocip\Models\UserIntegratedIMPGetRequest21sp1;
+use CWM\BroadWorksConnector\Ocip\Models\UserIMPGetResponse21sp1;
 use CWM\BroadWorksConnector\Ocip\Models\UserIntegratedIMPModifyRequest;
 use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
 use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
@@ -26,12 +26,12 @@ trait OCISchemaServiceIntegratedIMP
 {
 
     /**
-     * @param GroupIntegratedIMPGetRequest $request
-     * @return GroupIntegratedIMPGetResponse
+     * @param GroupIntegratedIMPGetRequest21sp1 $request
+     * @return GroupIntegratedIMPGetResponse21sp1
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function groupIntegratedIMPGetRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupIntegratedIMPGetRequest $request)
+    public function groupIntegratedIMPGetRequest21sp1(\CWM\BroadWorksConnector\Ocip\Models\GroupIntegratedIMPGetRequest21sp1 $request)
     {
         return $this->call($request);
     }
@@ -48,12 +48,12 @@ trait OCISchemaServiceIntegratedIMP
     }
 
     /**
-     * @param ResellerIntegratedIMPGetRequest $request
-     * @return ResellerIntegratedIMPGetResponse
+     * @param ResellerIntegratedIMPGetRequest22 $request
+     * @return ResellerIntegratedIMPGetResponse22
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function resellerIntegratedIMPGetRequest(\CWM\BroadWorksConnector\Ocip\Models\ResellerIntegratedIMPGetRequest $request)
+    public function resellerIntegratedIMPGetRequest22(\CWM\BroadWorksConnector\Ocip\Models\ResellerIntegratedIMPGetRequest22 $request)
     {
         return $this->call($request);
     }
@@ -70,12 +70,12 @@ trait OCISchemaServiceIntegratedIMP
     }
 
     /**
-     * @param ServiceProviderIntegratedIMPGetRequest21 $request
-     * @return ServiceProviderIntegratedIMPGetResponse21
+     * @param ServiceProviderIntegratedIMPGetRequest22 $request
+     * @return ServiceProviderIntegratedIMPGetResponse22
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function serviceProviderIntegratedIMPGetRequest21(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderIntegratedIMPGetRequest21 $request)
+    public function serviceProviderIntegratedIMPGetRequest22(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderIntegratedIMPGetRequest22 $request)
     {
         return $this->call($request);
     }
@@ -125,12 +125,12 @@ trait OCISchemaServiceIntegratedIMP
     }
 
     /**
-     * @param UserIntegratedIMPGetRequest $request
-     * @return UserIntegratedIMPGetResponse
+     * @param UserIntegratedIMPGetRequest21sp1 $request
+     * @return UserIMPGetResponse21sp1
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function userIntegratedIMPGetRequest(\CWM\BroadWorksConnector\Ocip\Models\UserIntegratedIMPGetRequest $request)
+    public function userIntegratedIMPGetRequest21sp1(\CWM\BroadWorksConnector\Ocip\Models\UserIntegratedIMPGetRequest21sp1 $request)
     {
         return $this->call($request);
     }

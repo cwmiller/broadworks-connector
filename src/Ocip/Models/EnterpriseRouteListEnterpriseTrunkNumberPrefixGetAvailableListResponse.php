@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The column headings are "Number Prefix" and "Is Active".
  *
  * @see EnterpriseRouteListEnterpriseTrunkNumberPrefixGetAvailableListRequest
- * @Groups [{"id":"6c3e6c5ded8862d72e92e5d067442775:86","type":"sequence"}]
+ * @Groups [{"id":"3f28429898a57a7f7846d3877b22df9f:85","type":"sequence"}]
  */
 class EnterpriseRouteListEnterpriseTrunkNumberPrefixGetAvailableListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class EnterpriseRouteListEnterpriseTrunkNumberPrefixGetAvailableListResponse ext
     /**
      * @ElementName availableNumberPrefixTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 6c3e6c5ded8862d72e92e5d067442775:86
+     * @Group 3f28429898a57a7f7846d3877b22df9f:85
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $availableNumberPrefixTable = null;

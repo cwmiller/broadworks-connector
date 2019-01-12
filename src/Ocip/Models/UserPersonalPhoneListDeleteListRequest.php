@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"ee3830ce42f01a3ef2a105d473fc3b17:2228","type":"sequence"}]
+ * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:2559","type":"sequence"}]
  */
 class UserPersonalPhoneListDeleteListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserPersonalPhoneListDeleteListRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName userId
      * @Type string
-     * @Group ee3830ce42f01a3ef2a105d473fc3b17:2228
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:2559
      * @var string|null
      */
     private $userId = null;
@@ -27,7 +27,7 @@ class UserPersonalPhoneListDeleteListRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName entryName
      * @Type string
      * @Array
-     * @Group ee3830ce42f01a3ef2a105d473fc3b17:2228
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:2559
      * @var string[]
      */
     private $entryName = array(

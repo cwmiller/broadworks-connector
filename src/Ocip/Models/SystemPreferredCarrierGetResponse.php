@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains the attributes of a carrier.
  *
  * @see SystemPreferredCarrierGetRequest
- * @Groups [{"id":"56f1bd27c6955cc11e0869b6463fb814:449","type":"sequence"}]
+ * @Groups [{"id":"74a46a9bfccb54713c1d19735843f1df:448","type":"sequence"}]
  */
 class SystemPreferredCarrierGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class SystemPreferredCarrierGetResponse extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName cic
      * @Type string
-     * @Group 56f1bd27c6955cc11e0869b6463fb814:449
+     * @Group 74a46a9bfccb54713c1d19735843f1df:448
      * @var string|null
      */
     private $cic = null;
@@ -25,7 +25,7 @@ class SystemPreferredCarrierGetResponse extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName countryCode
      * @Type string
-     * @Group 56f1bd27c6955cc11e0869b6463fb814:449
+     * @Group 74a46a9bfccb54713c1d19735843f1df:448
      * @var string|null
      */
     private $countryCode = null;
@@ -33,7 +33,7 @@ class SystemPreferredCarrierGetResponse extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName isIntraLata
      * @Type bool
-     * @Group 56f1bd27c6955cc11e0869b6463fb814:449
+     * @Group 74a46a9bfccb54713c1d19735843f1df:448
      * @var bool|null
      */
     private $isIntraLata = null;
@@ -41,7 +41,7 @@ class SystemPreferredCarrierGetResponse extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName isInterLata
      * @Type bool
-     * @Group 56f1bd27c6955cc11e0869b6463fb814:449
+     * @Group 74a46a9bfccb54713c1d19735843f1df:448
      * @var bool|null
      */
     private $isInterLata = null;
@@ -49,7 +49,7 @@ class SystemPreferredCarrierGetResponse extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName isInternational
      * @Type bool
-     * @Group 56f1bd27c6955cc11e0869b6463fb814:449
+     * @Group 74a46a9bfccb54713c1d19735843f1df:448
      * @var bool|null
      */
     private $isInternational = null;

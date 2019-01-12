@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserExecutiveGetFilteringResponse
  * @see ErrorResponse
- * @Groups [{"id":"bcf25f15fde8fb6d519675293110ce09:220","type":"sequence"}]
+ * @Groups [{"id":"9a6dbade05624033cf7fe782b7c9a9a7:219","type":"sequence"}]
  */
 class UserExecutiveGetFilteringRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class UserExecutiveGetFilteringRequest extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName userId
      * @Type string
-     * @Group bcf25f15fde8fb6d519675293110ce09:220
+     * @Group 9a6dbade05624033cf7fe782b7c9a9a7:219
      * @var string|null
      */
     private $userId = null;

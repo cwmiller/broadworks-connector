@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"b5f5416d9e71f8e4246cda16c4723744:14510","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:14815","type":"sequence"}]
  */
 class SystemSIPAddContentTypeRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemSIPAddContentTypeRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName contentType
      * @Type string
-     * @Group b5f5416d9e71f8e4246cda16c4723744:14510
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14815
      * @var string|null
      */
     private $contentType = null;
@@ -26,7 +26,7 @@ class SystemSIPAddContentTypeRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName interface
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemSIPSupportedInterface
-     * @Group b5f5416d9e71f8e4246cda16c4723744:14510
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14815
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemSIPSupportedInterface|null
      */
     private $interface = null;

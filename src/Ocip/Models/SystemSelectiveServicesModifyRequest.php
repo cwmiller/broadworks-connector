@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SystemSelectiveServicesRequest
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"b5f5416d9e71f8e4246cda16c4723744:13950","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:14197","type":"sequence"}]
  */
 class SystemSelectiveServicesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class SystemSelectiveServicesModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @ElementName scheduleCombination
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ScheduleCombinationType
      * @Optional
-     * @Group b5f5416d9e71f8e4246cda16c4723744:13950
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14197
      * @var \CWM\BroadWorksConnector\Ocip\Models\ScheduleCombinationType|null
      */
     private $scheduleCombination = null;
@@ -29,7 +29,7 @@ class SystemSelectiveServicesModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @ElementName screenPrivateNumber
      * @Type bool
      * @Optional
-     * @Group b5f5416d9e71f8e4246cda16c4723744:13950
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14197
      * @var bool|null
      */
     private $screenPrivateNumber = null;
@@ -38,7 +38,7 @@ class SystemSelectiveServicesModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @ElementName emptyHolidayScheduleIsOutOfSchedule
      * @Type bool
      * @Optional
-     * @Group b5f5416d9e71f8e4246cda16c4723744:13950
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14197
      * @var bool|null
      */
     private $emptyHolidayScheduleIsOutOfSchedule = null;

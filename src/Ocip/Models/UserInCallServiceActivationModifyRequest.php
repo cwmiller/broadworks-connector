@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"12a5240b3c551d23cab4f27462925188:172","type":"sequence"}]
+ * @Groups [{"id":"ece0b65e69189d3e8b8deee895f0a7ff:172","type":"sequence"}]
  */
 class UserInCallServiceActivationModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserInCallServiceActivationModifyRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName userId
      * @Type string
-     * @Group 12a5240b3c551d23cab4f27462925188:172
+     * @Group ece0b65e69189d3e8b8deee895f0a7ff:172
      * @var string|null
      */
     private $userId = null;
@@ -27,7 +27,7 @@ class UserInCallServiceActivationModifyRequest extends \CWM\BroadWorksConnector\
      * @ElementName isActive
      * @Type bool
      * @Optional
-     * @Group 12a5240b3c551d23cab4f27462925188:172
+     * @Group ece0b65e69189d3e8b8deee895f0a7ff:172
      * @var bool|null
      */
     private $isActive = null;

@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to UserCallForwardingAlwaysGetRequest.
  *
  * @see UserCallForwardingAlwaysGetRequest
- * @Groups [{"id":"cf59e6eedefd146b678155972f1d752b:59","type":"sequence"}]
+ * @Groups [{"id":"97105b92fc80f353d25e39a7ecc8e22f:59","type":"sequence"}]
  */
 class UserCallForwardingAlwaysGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class UserCallForwardingAlwaysGetResponse extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group cf59e6eedefd146b678155972f1d752b:59
+     * @Group 97105b92fc80f353d25e39a7ecc8e22f:59
      * @var bool|null
      */
     private $isActive = null;
@@ -25,7 +25,7 @@ class UserCallForwardingAlwaysGetResponse extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName forwardToPhoneNumber
      * @Type string
      * @Optional
-     * @Group cf59e6eedefd146b678155972f1d752b:59
+     * @Group 97105b92fc80f353d25e39a7ecc8e22f:59
      * @var string|null
      */
     private $forwardToPhoneNumber = null;
@@ -33,7 +33,7 @@ class UserCallForwardingAlwaysGetResponse extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName isRingSplashActive
      * @Type bool
-     * @Group cf59e6eedefd146b678155972f1d752b:59
+     * @Group 97105b92fc80f353d25e39a7ecc8e22f:59
      * @var bool|null
      */
     private $isRingSplashActive = null;

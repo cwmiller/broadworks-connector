@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"56f1bd27c6955cc11e0869b6463fb814:570","type":"sequence"}]
+ * @Groups [{"id":"74a46a9bfccb54713c1d19735843f1df:569","type":"sequence"}]
  */
 class UserPreferredCarrierUserModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserPreferredCarrierUserModifyRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName userId
      * @Type string
-     * @Group 56f1bd27c6955cc11e0869b6463fb814:570
+     * @Group 74a46a9bfccb54713c1d19735843f1df:569
      * @var string|null
      */
     private $userId = null;
@@ -27,7 +27,7 @@ class UserPreferredCarrierUserModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName intraLataCarrier
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UserPreferredCarrierNameModify
      * @Optional
-     * @Group 56f1bd27c6955cc11e0869b6463fb814:570
+     * @Group 74a46a9bfccb54713c1d19735843f1df:569
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserPreferredCarrierNameModify|null
      */
     private $intraLataCarrier = null;
@@ -36,7 +36,7 @@ class UserPreferredCarrierUserModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName interLataCarrier
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UserPreferredCarrierNameModify
      * @Optional
-     * @Group 56f1bd27c6955cc11e0869b6463fb814:570
+     * @Group 74a46a9bfccb54713c1d19735843f1df:569
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserPreferredCarrierNameModify|null
      */
     private $interLataCarrier = null;
@@ -45,7 +45,7 @@ class UserPreferredCarrierUserModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName internationalCarrier
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UserPreferredCarrierNameModify
      * @Optional
-     * @Group 56f1bd27c6955cc11e0869b6463fb814:570
+     * @Group 74a46a9bfccb54713c1d19735843f1df:569
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserPreferredCarrierNameModify|null
      */
     private $internationalCarrier = null;

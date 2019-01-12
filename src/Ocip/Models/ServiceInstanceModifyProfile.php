@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Service Profile Information for group service used when modifying an existing service instance.
  *
- * @Groups [{"id":"8e629edbac315ae7889caca732382c44:3187","type":"sequence"}]
+ * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:3477","type":"sequence"}]
  */
 class ServiceInstanceModifyProfile
 {
@@ -16,7 +16,7 @@ class ServiceInstanceModifyProfile
      * @ElementName name
      * @Type string
      * @Optional
-     * @Group 8e629edbac315ae7889caca732382c44:3187
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:3477
      * @var string|null
      */
     private $name = null;
@@ -25,7 +25,7 @@ class ServiceInstanceModifyProfile
      * @ElementName callingLineIdLastName
      * @Type string
      * @Optional
-     * @Group 8e629edbac315ae7889caca732382c44:3187
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:3477
      * @var string|null
      */
     private $callingLineIdLastName = null;
@@ -34,7 +34,7 @@ class ServiceInstanceModifyProfile
      * @ElementName callingLineIdFirstName
      * @Type string
      * @Optional
-     * @Group 8e629edbac315ae7889caca732382c44:3187
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:3477
      * @var string|null
      */
     private $callingLineIdFirstName = null;
@@ -43,7 +43,7 @@ class ServiceInstanceModifyProfile
      * @ElementName hiraganaLastName
      * @Type string
      * @Optional
-     * @Group 8e629edbac315ae7889caca732382c44:3187
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:3477
      * @var string|null
      */
     private $hiraganaLastName = null;
@@ -52,7 +52,7 @@ class ServiceInstanceModifyProfile
      * @ElementName hiraganaFirstName
      * @Type string
      * @Optional
-     * @Group 8e629edbac315ae7889caca732382c44:3187
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:3477
      * @var string|null
      */
     private $hiraganaFirstName = null;
@@ -62,7 +62,7 @@ class ServiceInstanceModifyProfile
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 8e629edbac315ae7889caca732382c44:3187
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:3477
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $phoneNumber = null;
@@ -72,7 +72,7 @@ class ServiceInstanceModifyProfile
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 8e629edbac315ae7889caca732382c44:3187
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:3477
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $extension = null;
@@ -81,7 +81,7 @@ class ServiceInstanceModifyProfile
      * @ElementName password
      * @Type string
      * @Optional
-     * @Group 8e629edbac315ae7889caca732382c44:3187
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:3477
      * @var string|null
      */
     private $password = null;
@@ -91,7 +91,7 @@ class ServiceInstanceModifyProfile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey
      * @Nillable
      * @Optional
-     * @Group 8e629edbac315ae7889caca732382c44:3187
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:3477
      * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $department = null;
@@ -100,7 +100,7 @@ class ServiceInstanceModifyProfile
      * @ElementName language
      * @Type string
      * @Optional
-     * @Group 8e629edbac315ae7889caca732382c44:3187
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:3477
      * @var string|null
      */
     private $language = null;
@@ -109,7 +109,7 @@ class ServiceInstanceModifyProfile
      * @ElementName timeZone
      * @Type string
      * @Optional
-     * @Group 8e629edbac315ae7889caca732382c44:3187
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:3477
      * @var string|null
      */
     private $timeZone = null;
@@ -119,7 +119,7 @@ class ServiceInstanceModifyProfile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementSIPAliasList
      * @Nillable
      * @Optional
-     * @Group 8e629edbac315ae7889caca732382c44:3187
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:3477
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementSIPAliasList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $sipAliasList = null;
@@ -129,7 +129,7 @@ class ServiceInstanceModifyProfile
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 8e629edbac315ae7889caca732382c44:3187
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:3477
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $publicUserIdentity = null;
@@ -139,7 +139,7 @@ class ServiceInstanceModifyProfile
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 8e629edbac315ae7889caca732382c44:3187
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:3477
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $callingLineIdPhoneNumber = null;

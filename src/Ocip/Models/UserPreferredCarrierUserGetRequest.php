@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserPreferredCarrierUserGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"56f1bd27c6955cc11e0869b6463fb814:537","type":"sequence"}]
+ * @Groups [{"id":"74a46a9bfccb54713c1d19735843f1df:536","type":"sequence"}]
  */
 class UserPreferredCarrierUserGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserPreferredCarrierUserGetRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName userId
      * @Type string
-     * @Group 56f1bd27c6955cc11e0869b6463fb814:537
+     * @Group 74a46a9bfccb54713c1d19735843f1df:536
      * @var string|null
      */
     private $userId = null;

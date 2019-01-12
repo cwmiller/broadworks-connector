@@ -2,7 +2,7 @@
 
 namespace CWM\BroadWorksConnector\Ocip\Traits;
 
-use CWM\BroadWorksConnector\Ocip\Models\SystemBusyLampFieldGetRequest18;
+use CWM\BroadWorksConnector\Ocip\Models\SystemBusyLampFieldGetRequest23;
 use CWM\BroadWorksConnector\Ocip\Models\SystemBusyLampFieldModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserBusyLampFieldGetAvailableUserListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserBusyLampFieldGetAvailableUserListResponse;
@@ -17,12 +17,12 @@ trait OCISchemaServiceBusyLampField
 {
 
     /**
-     * @param SystemBusyLampFieldGetRequest18 $request
+     * @param SystemBusyLampFieldGetRequest23 $request
      * @return 
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function systemBusyLampFieldGetRequest18(\CWM\BroadWorksConnector\Ocip\Models\SystemBusyLampFieldGetRequest18 $request)
+    public function systemBusyLampFieldGetRequest23(\CWM\BroadWorksConnector\Ocip\Models\SystemBusyLampFieldGetRequest23 $request)
     {
         return $this->call($request);
     }

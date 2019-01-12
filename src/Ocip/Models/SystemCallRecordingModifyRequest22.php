@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f913e539ecbb63cf455f6c316963b896:266","type":"sequence"}]
+ * @Groups [{"id":"9741e074fbfeb4c7312bfa4dfbaee3d3:285","type":"sequence"}]
  */
 class SystemCallRecordingModifyRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class SystemCallRecordingModifyRequest22 extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName continueCallAfterRecordingFailure
      * @Type bool
      * @Optional
-     * @Group f913e539ecbb63cf455f6c316963b896:266
+     * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:285
      * @var bool|null
      */
     private $continueCallAfterRecordingFailure = null;
@@ -28,7 +28,7 @@ class SystemCallRecordingModifyRequest22 extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName maxResponseWaitTimeMilliseconds
      * @Type int
      * @Optional
-     * @Group f913e539ecbb63cf455f6c316963b896:266
+     * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:285
      * @var int|null
      */
     private $maxResponseWaitTimeMilliseconds = null;
@@ -37,10 +37,37 @@ class SystemCallRecordingModifyRequest22 extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName continueCallAfterVideoRecordingFailure
      * @Type bool
      * @Optional
-     * @Group f913e539ecbb63cf455f6c316963b896:266
+     * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:285
      * @var bool|null
      */
     private $continueCallAfterVideoRecordingFailure = null;
+
+    /**
+     * @ElementName useContinueCallAfterRecordingFailureForOnDemandMode
+     * @Type bool
+     * @Optional
+     * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:285
+     * @var bool|null
+     */
+    private $useContinueCallAfterRecordingFailureForOnDemandMode = null;
+
+    /**
+     * @ElementName useContinueCallAfterRecordingFailureForOnDemandUserInitiatedStartMode
+     * @Type bool
+     * @Optional
+     * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:285
+     * @var bool|null
+     */
+    private $useContinueCallAfterRecordingFailureForOnDemandUserInitiatedStartMode = null;
+
+    /**
+     * @ElementName restrictCallRecordingProvisioningAccess
+     * @Type bool
+     * @Optional
+     * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:285
+     * @var bool|null
+     */
+    private $restrictCallRecordingProvisioningAccess = null;
 
     /**
      * Getter for continueCallAfterRecordingFailure
@@ -132,6 +159,99 @@ class SystemCallRecordingModifyRequest22 extends \CWM\BroadWorksConnector\Ocip\M
     public function unsetContinueCallAfterVideoRecordingFailure()
     {
         $this->continueCallAfterVideoRecordingFailure = null;
+        return $this;
+    }
+
+    /**
+     * Getter for useContinueCallAfterRecordingFailureForOnDemandMode
+     *
+     * @return bool
+     */
+    public function getUseContinueCallAfterRecordingFailureForOnDemandMode()
+    {
+        return $this->useContinueCallAfterRecordingFailureForOnDemandMode instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->useContinueCallAfterRecordingFailureForOnDemandMode;
+    }
+
+    /**
+     * Setter for useContinueCallAfterRecordingFailureForOnDemandMode
+     *
+     * @param bool $useContinueCallAfterRecordingFailureForOnDemandMode
+     * @return $this
+     */
+    public function setUseContinueCallAfterRecordingFailureForOnDemandMode($useContinueCallAfterRecordingFailureForOnDemandMode)
+    {
+        $this->useContinueCallAfterRecordingFailureForOnDemandMode = $useContinueCallAfterRecordingFailureForOnDemandMode;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetUseContinueCallAfterRecordingFailureForOnDemandMode()
+    {
+        $this->useContinueCallAfterRecordingFailureForOnDemandMode = null;
+        return $this;
+    }
+
+    /**
+     * Getter for useContinueCallAfterRecordingFailureForOnDemandUserInitiatedStartMode
+     *
+     * @return bool
+     */
+    public function getUseContinueCallAfterRecordingFailureForOnDemandUserInitiatedStartMode()
+    {
+        return $this->useContinueCallAfterRecordingFailureForOnDemandUserInitiatedStartMode instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->useContinueCallAfterRecordingFailureForOnDemandUserInitiatedStartMode;
+    }
+
+    /**
+     * Setter for useContinueCallAfterRecordingFailureForOnDemandUserInitiatedStartMode
+     *
+     * @param bool $useContinueCallAfterRecordingFailureForOnDemandUserInitiatedStartMode
+     * @return $this
+     */
+    public function setUseContinueCallAfterRecordingFailureForOnDemandUserInitiatedStartMode($useContinueCallAfterRecordingFailureForOnDemandUserInitiatedStartMode)
+    {
+        $this->useContinueCallAfterRecordingFailureForOnDemandUserInitiatedStartMode = $useContinueCallAfterRecordingFailureForOnDemandUserInitiatedStartMode;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetUseContinueCallAfterRecordingFailureForOnDemandUserInitiatedStartMode()
+    {
+        $this->useContinueCallAfterRecordingFailureForOnDemandUserInitiatedStartMode = null;
+        return $this;
+    }
+
+    /**
+     * Getter for restrictCallRecordingProvisioningAccess
+     *
+     * @return bool
+     */
+    public function getRestrictCallRecordingProvisioningAccess()
+    {
+        return $this->restrictCallRecordingProvisioningAccess instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->restrictCallRecordingProvisioningAccess;
+    }
+
+    /**
+     * Setter for restrictCallRecordingProvisioningAccess
+     *
+     * @param bool $restrictCallRecordingProvisioningAccess
+     * @return $this
+     */
+    public function setRestrictCallRecordingProvisioningAccess($restrictCallRecordingProvisioningAccess)
+    {
+        $this->restrictCallRecordingProvisioningAccess = $restrictCallRecordingProvisioningAccess;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetRestrictCallRecordingProvisioningAccess()
+    {
+        $this->restrictCallRecordingProvisioningAccess = null;
         return $this;
     }
 

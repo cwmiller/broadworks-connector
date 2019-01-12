@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Indicates whether calls from specified digit patterns are permitted.
  *
- * @Groups [{"id":"fefa11f6b138d87bf7b497c92a51e2ba:185","type":"sequence"}]
+ * @Groups [{"id":"3dd296d55b56269ae23d86a934b8b35c:184","type":"sequence"}]
  */
 class IncomingCallingPlanDigitPatternPermission
 {
@@ -15,7 +15,7 @@ class IncomingCallingPlanDigitPatternPermission
     /**
      * @ElementName digitPatternName
      * @Type string
-     * @Group fefa11f6b138d87bf7b497c92a51e2ba:185
+     * @Group 3dd296d55b56269ae23d86a934b8b35c:184
      * @var string|null
      */
     private $digitPatternName = null;
@@ -23,7 +23,7 @@ class IncomingCallingPlanDigitPatternPermission
     /**
      * @ElementName allow
      * @Type bool
-     * @Group fefa11f6b138d87bf7b497c92a51e2ba:185
+     * @Group 3dd296d55b56269ae23d86a934b8b35c:184
      * @var bool|null
      */
     private $allow = null;

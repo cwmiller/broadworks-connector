@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"b5f5416d9e71f8e4246cda16c4723744:17163","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:17476","type":"sequence"}]
  */
 class SystemZoneLocationBasedPhysicalLocationAddListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemZoneLocationBasedPhysicalLocationAddListRequest extends \CWM\BroadWo
     /**
      * @ElementName zoneName
      * @Type string
-     * @Group b5f5416d9e71f8e4246cda16c4723744:17163
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17476
      * @var string|null
      */
     private $zoneName = null;
@@ -28,7 +28,7 @@ class SystemZoneLocationBasedPhysicalLocationAddListRequest extends \CWM\BroadWo
      * @Type string
      * @Array
      * @Optional
-     * @Group b5f5416d9e71f8e4246cda16c4723744:17163
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17476
      * @var string[]
      */
     private $physicalLocation = array(

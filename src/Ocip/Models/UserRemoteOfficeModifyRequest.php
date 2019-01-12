@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"cd13183ea1594e025e217f61ef9e0137:73","type":"sequence"}]
+ * @Groups [{"id":"70aea661491074f1e7cc845c9a6c7ea3:73","type":"sequence"}]
  */
 class UserRemoteOfficeModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserRemoteOfficeModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName userId
      * @Type string
-     * @Group cd13183ea1594e025e217f61ef9e0137:73
+     * @Group 70aea661491074f1e7cc845c9a6c7ea3:73
      * @var string|null
      */
     private $userId = null;
@@ -27,7 +27,7 @@ class UserRemoteOfficeModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName isActive
      * @Type bool
      * @Optional
-     * @Group cd13183ea1594e025e217f61ef9e0137:73
+     * @Group 70aea661491074f1e7cc845c9a6c7ea3:73
      * @var bool|null
      */
     private $isActive = null;
@@ -37,7 +37,7 @@ class UserRemoteOfficeModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @Type string
      * @Nillable
      * @Optional
-     * @Group cd13183ea1594e025e217f61ef9e0137:73
+     * @Group 70aea661491074f1e7cc845c9a6c7ea3:73
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $remoteOfficePhoneNumber = null;

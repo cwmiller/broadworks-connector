@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"b5f5416d9e71f8e4246cda16c4723744:2463","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:2507","type":"sequence"}]
  */
 class SystemBwDiameterRoutingRealmModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemBwDiameterRoutingRealmModifyRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName instance
      * @Type \CWM\BroadWorksConnector\Ocip\Models\BwDiameterPeerInstance
-     * @Group b5f5416d9e71f8e4246cda16c4723744:2463
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2507
      * @var \CWM\BroadWorksConnector\Ocip\Models\BwDiameterPeerInstance|null
      */
     private $instance = null;
@@ -26,7 +26,7 @@ class SystemBwDiameterRoutingRealmModifyRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName realm
      * @Type string
-     * @Group b5f5416d9e71f8e4246cda16c4723744:2463
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2507
      * @var string|null
      */
     private $realm = null;
@@ -34,7 +34,7 @@ class SystemBwDiameterRoutingRealmModifyRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName applicationId
      * @Type \CWM\BroadWorksConnector\Ocip\Models\BwDiameterApplicationId
-     * @Group b5f5416d9e71f8e4246cda16c4723744:2463
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2507
      * @var \CWM\BroadWorksConnector\Ocip\Models\BwDiameterApplicationId|null
      */
     private $applicationId = null;
@@ -43,7 +43,7 @@ class SystemBwDiameterRoutingRealmModifyRequest extends \CWM\BroadWorksConnector
      * @ElementName default
      * @Type bool
      * @Optional
-     * @Group b5f5416d9e71f8e4246cda16c4723744:2463
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2507
      * @var bool|null
      */
     private $default = null;

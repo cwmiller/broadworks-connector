@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemMeetMeConferencingGetResponse19
  * @see ErrorResponse
- * @Groups [{"id":"7a29c84abb8473449085e6657fc6948d:380","type":"sequence"}]
+ * @Groups [{"id":"0fd24121d16995c994d40bc408dbcfa5:433","type":"sequence"}]
  */
 class SystemMeetMeConferencingGetRequest19 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

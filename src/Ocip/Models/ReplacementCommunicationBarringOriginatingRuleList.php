@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         previously configured list. By convention, an element of this type
  *         may be set nill to clear the list.
  *
- * @Groups [{"id":"b5f5416d9e71f8e4246cda16c4723744:17467","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:17780","type":"sequence"}]
  */
 class ReplacementCommunicationBarringOriginatingRuleList
 {
@@ -18,7 +18,7 @@ class ReplacementCommunicationBarringOriginatingRuleList
      * @ElementName rule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringOriginatingRule
      * @Array
-     * @Group b5f5416d9e71f8e4246cda16c4723744:17467
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17780
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringOriginatingRule[]
      */
     private $rule = array(

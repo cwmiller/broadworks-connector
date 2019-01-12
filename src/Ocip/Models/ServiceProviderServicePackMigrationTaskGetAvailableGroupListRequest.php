@@ -6,12 +6,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ServiceProviderServicePackMigrationTaskGetAvailableGroupListRequest
  *
  * Requests a list of groups to migrate.
- *         The response is either ServiceProviderServicePackMigrationTaskGetAvailableGroupListResponse
+ *         The response is either ServiceProviderServicePackMigrationTaskGetAvailabeGroupListResponse
  *         or ErrorResponse.
  *
- * @see ServiceProviderServicePackMigrationTaskGetAvailableGroupListResponse
+ * @see ServiceProviderServicePackMigrationTaskGetAvailabeGroupListResponse
  * @see ErrorResponse
- * @Groups [{"id":"8eb862aea0ee5d4211db0a0d3fe7c164:5283","type":"sequence"}]
+ * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:5455","type":"sequence"}]
  */
 class ServiceProviderServicePackMigrationTaskGetAvailableGroupListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class ServiceProviderServicePackMigrationTaskGetAvailableGroupListRequest extend
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:5283
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5455
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -28,7 +28,7 @@ class ServiceProviderServicePackMigrationTaskGetAvailableGroupListRequest extend
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:5283
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5455
      * @var int|null
      */
     private $responseSizeLimit = null;
@@ -38,7 +38,7 @@ class ServiceProviderServicePackMigrationTaskGetAvailableGroupListRequest extend
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId
      * @Array
      * @Optional
-     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:5283
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5455
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId[]
      */
     private $searchCriteriaGroupId = array(
@@ -50,7 +50,7 @@ class ServiceProviderServicePackMigrationTaskGetAvailableGroupListRequest extend
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupName
      * @Array
      * @Optional
-     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:5283
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5455
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupName[]
      */
     private $searchCriteriaGroupName = array(

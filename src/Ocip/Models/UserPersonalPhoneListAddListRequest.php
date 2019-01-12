@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"ee3830ce42f01a3ef2a105d473fc3b17:2211","type":"sequence"}]
+ * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:2542","type":"sequence"}]
  */
 class UserPersonalPhoneListAddListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserPersonalPhoneListAddListRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName userId
      * @Type string
-     * @Group ee3830ce42f01a3ef2a105d473fc3b17:2211
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:2542
      * @var string|null
      */
     private $userId = null;
@@ -27,7 +27,7 @@ class UserPersonalPhoneListAddListRequest extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName entry
      * @Type \CWM\BroadWorksConnector\Ocip\Models\PhoneListEntry
      * @Array
-     * @Group ee3830ce42f01a3ef2a105d473fc3b17:2211
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:2542
      * @var \CWM\BroadWorksConnector\Ocip\Models\PhoneListEntry[]
      */
     private $entry = array(

@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Replaced by LoginRequest22V2 in AS data mode.
  *
  * @see LoginRequest22V2
- * @Groups [{"id":"bd46fc427b2b0dc182dcd53cf03e95b4:356","type":"sequence"}]
+ * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:5388","type":"sequence"}]
  */
 class LoginRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class LoginRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
     /**
      * @ElementName userId
      * @Type string
-     * @Group bd46fc427b2b0dc182dcd53cf03e95b4:356
+     * @Group de4d76f01f337fe4694212ec9f771753:5388
      * @var string|null
      */
     private $userId = null;
@@ -28,7 +28,7 @@ class LoginRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
      * @ElementName password
      * @Type string
      * @Optional
-     * @Group bd46fc427b2b0dc182dcd53cf03e95b4:356
+     * @Group de4d76f01f337fe4694212ec9f771753:5388
      * @var string|null
      */
     private $password = null;

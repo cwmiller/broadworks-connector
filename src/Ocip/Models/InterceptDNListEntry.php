@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Intercept User Entry containing the phone number and a Description.
  *
- * @Groups [{"id":"3783f30df600d0ca3ee6dab86707b98b:365","type":"sequence"}]
+ * @Groups [{"id":"88893c72abbbb9aaf5aecca970191d94:365","type":"sequence"}]
  */
 class InterceptDNListEntry
 {
@@ -15,7 +15,7 @@ class InterceptDNListEntry
     /**
      * @ElementName phoneNumber
      * @Type string
-     * @Group 3783f30df600d0ca3ee6dab86707b98b:365
+     * @Group 88893c72abbbb9aaf5aecca970191d94:365
      * @var string|null
      */
     private $phoneNumber = null;
@@ -25,7 +25,7 @@ class InterceptDNListEntry
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 3783f30df600d0ca3ee6dab86707b98b:365
+     * @Group 88893c72abbbb9aaf5aecca970191d94:365
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $description = null;

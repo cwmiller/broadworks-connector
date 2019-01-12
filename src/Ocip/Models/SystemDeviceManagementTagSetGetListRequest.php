@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SystemDeviceManagementTagSetGetListResponse
  * @see ErrorResponse
  * @see SystemDeviceManagementTagSetGetListRequest22
- * @Groups [{"id":"bd46fc427b2b0dc182dcd53cf03e95b4:675","type":"sequence"}]
+ * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:6409","type":"sequence"}]
  */
 class SystemDeviceManagementTagSetGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

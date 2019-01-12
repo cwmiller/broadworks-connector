@@ -24,7 +24,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f913e539ecbb63cf455f6c316963b896:351","type":"sequence"}]
+ * @Groups [{"id":"9741e074fbfeb4c7312bfa4dfbaee3d3:378","type":"sequence"}]
  */
 class UserCallRecordingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -32,7 +32,7 @@ class UserCallRecordingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName userId
      * @Type string
-     * @Group f913e539ecbb63cf455f6c316963b896:351
+     * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:378
      * @var string|null
      */
     private $userId = null;
@@ -41,7 +41,7 @@ class UserCallRecordingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName recordingOption
      * @Type \CWM\BroadWorksConnector\Ocip\Models\RecordingOption20
      * @Optional
-     * @Group f913e539ecbb63cf455f6c316963b896:351
+     * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:378
      * @var \CWM\BroadWorksConnector\Ocip\Models\RecordingOption20|null
      */
     private $recordingOption = null;
@@ -50,7 +50,7 @@ class UserCallRecordingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName pauseResumeNotification
      * @Type \CWM\BroadWorksConnector\Ocip\Models\RecordingPauseResumeNotificationType
      * @Optional
-     * @Group f913e539ecbb63cf455f6c316963b896:351
+     * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:378
      * @var \CWM\BroadWorksConnector\Ocip\Models\RecordingPauseResumeNotificationType|null
      */
     private $pauseResumeNotification = null;
@@ -59,7 +59,7 @@ class UserCallRecordingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName enableCallRecordingAnnouncement
      * @Type bool
      * @Optional
-     * @Group f913e539ecbb63cf455f6c316963b896:351
+     * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:378
      * @var bool|null
      */
     private $enableCallRecordingAnnouncement = null;
@@ -68,7 +68,7 @@ class UserCallRecordingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName enableRecordCallRepeatWarningTone
      * @Type bool
      * @Optional
-     * @Group f913e539ecbb63cf455f6c316963b896:351
+     * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:378
      * @var bool|null
      */
     private $enableRecordCallRepeatWarningTone = null;
@@ -77,7 +77,7 @@ class UserCallRecordingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName recordCallRepeatWarningToneTimerSeconds
      * @Type int
      * @Optional
-     * @Group f913e539ecbb63cf455f6c316963b896:351
+     * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:378
      * @var int|null
      */
     private $recordCallRepeatWarningToneTimerSeconds = null;
@@ -86,7 +86,7 @@ class UserCallRecordingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName enableVoiceMailRecording
      * @Type bool
      * @Optional
-     * @Group f913e539ecbb63cf455f6c316963b896:351
+     * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:378
      * @var bool|null
      */
     private $enableVoiceMailRecording = null;

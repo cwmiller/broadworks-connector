@@ -18,7 +18,9 @@ use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksAnywhereAddSelectiveCriter
 use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksAnywhereDeletePhoneNumberRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksAnywhereDeleteSelectiveCriteriaRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksAnywhereGetAvailablePortalListRequest21sp1;
-use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksAnywhereGetAvailablePortalListResponse21sp1;
+use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksAnywhereGetAvailableListResponse21sp1;
+use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksAnywhereGetPhoneNumberPagedSortedListRequest;
+use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksAnywhereGetPhoneNumberPagedSortedListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksAnywhereGetPhoneNumberRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksAnywhereGetPhoneNumberResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksAnywhereGetRequest16sp2;
@@ -169,11 +171,22 @@ trait OCISchemaServiceBroadWorksAnywhere
 
     /**
      * @param UserBroadWorksAnywhereGetAvailablePortalListRequest21sp1 $request
-     * @return UserBroadWorksAnywhereGetAvailablePortalListResponse21sp1
+     * @return UserBroadWorksAnywhereGetAvailableListResponse21sp1
      * @throws ErrorResponseException
      * @throws ValidationException
      */
     public function userBroadWorksAnywhereGetAvailablePortalListRequest21sp1(\CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksAnywhereGetAvailablePortalListRequest21sp1 $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param UserBroadWorksAnywhereGetPhoneNumberPagedSortedListRequest $request
+     * @return UserBroadWorksAnywhereGetPhoneNumberPagedSortedListResponse
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function userBroadWorksAnywhereGetPhoneNumberPagedSortedListRequest(\CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksAnywhereGetPhoneNumberPagedSortedListRequest $request)
     {
         return $this->call($request);
     }

@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemCallMeNowGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"ddf57759ad9d63b4ce76f3f789cde156:47","type":"sequence"}]
+ * @Groups [{"id":"1f0f230fee2817fe00157925859dc28e:47","type":"sequence"}]
  */
 class SystemCallMeNowGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

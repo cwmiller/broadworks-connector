@@ -24,7 +24,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemGetRegistrationContactListResponse
  * @see ErrorResponse
- * @Groups [{"id":"bd46fc427b2b0dc182dcd53cf03e95b4:864","type":"sequence","children":[{"id":"bd46fc427b2b0dc182dcd53cf03e95b4:865","type":"choice","optional":true,"children":[{"id":"bd46fc427b2b0dc182dcd53cf03e95b4:868","type":"sequence"}]}]}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:37316","type":"sequence","children":[{"id":"ab0042aa512abc10edb3c55e4b416b0b:37317","type":"choice","optional":true,"children":[{"id":"ab0042aa512abc10edb3c55e4b416b0b:37320","type":"sequence"}]}]}]
  */
 class SystemGetRegistrationContactListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -32,7 +32,7 @@ class SystemGetRegistrationContactListRequest extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName resellerId
      * @Type string
-     * @Group bd46fc427b2b0dc182dcd53cf03e95b4:865
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:37317
      * @var string|null
      */
     private $resellerId = null;
@@ -40,7 +40,7 @@ class SystemGetRegistrationContactListRequest extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group bd46fc427b2b0dc182dcd53cf03e95b4:865
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:37317
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -48,7 +48,7 @@ class SystemGetRegistrationContactListRequest extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName svcProviderId
      * @Type string
-     * @Group bd46fc427b2b0dc182dcd53cf03e95b4:868
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:37320
      * @var string|null
      */
     private $svcProviderId = null;
@@ -56,7 +56,7 @@ class SystemGetRegistrationContactListRequest extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName groupId
      * @Type string
-     * @Group bd46fc427b2b0dc182dcd53cf03e95b4:868
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:37320
      * @var string|null
      */
     private $groupId = null;
@@ -64,7 +64,7 @@ class SystemGetRegistrationContactListRequest extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName userId
      * @Type string
-     * @Group bd46fc427b2b0dc182dcd53cf03e95b4:865
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:37317
      * @var string|null
      */
     private $userId = null;
@@ -72,7 +72,7 @@ class SystemGetRegistrationContactListRequest extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName linePort
      * @Type string
-     * @Group bd46fc427b2b0dc182dcd53cf03e95b4:865
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:37317
      * @var string|null
      */
     private $linePort = null;
@@ -81,7 +81,7 @@ class SystemGetRegistrationContactListRequest extends \CWM\BroadWorksConnector\O
      * @ElementName deviceLevel
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceLevel
      * @Optional
-     * @Group bd46fc427b2b0dc182dcd53cf03e95b4:864
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:37316
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceLevel|null
      */
     private $deviceLevel = null;
@@ -90,7 +90,7 @@ class SystemGetRegistrationContactListRequest extends \CWM\BroadWorksConnector\O
      * @ElementName deviceName
      * @Type string
      * @Optional
-     * @Group bd46fc427b2b0dc182dcd53cf03e95b4:864
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:37316
      * @var string|null
      */
     private $deviceName = null;
@@ -99,7 +99,7 @@ class SystemGetRegistrationContactListRequest extends \CWM\BroadWorksConnector\O
      * @ElementName deviceType
      * @Type string
      * @Optional
-     * @Group bd46fc427b2b0dc182dcd53cf03e95b4:864
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:37316
      * @var string|null
      */
     private $deviceType = null;
@@ -109,7 +109,7 @@ class SystemGetRegistrationContactListRequest extends \CWM\BroadWorksConnector\O
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaRegistrationURI
      * @Array
      * @Optional
-     * @Group bd46fc427b2b0dc182dcd53cf03e95b4:864
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:37316
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaRegistrationURI[]
      */
     private $searchCriteriaRegistrationURI = array(
@@ -121,7 +121,7 @@ class SystemGetRegistrationContactListRequest extends \CWM\BroadWorksConnector\O
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaSIPContact
      * @Array
      * @Optional
-     * @Group bd46fc427b2b0dc182dcd53cf03e95b4:864
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:37316
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaSIPContact[]
      */
     private $searchCriteriaSIPContact = array(
@@ -132,7 +132,7 @@ class SystemGetRegistrationContactListRequest extends \CWM\BroadWorksConnector\O
      * @ElementName endpointType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\RegistrationEndpointType
      * @Optional
-     * @Group bd46fc427b2b0dc182dcd53cf03e95b4:864
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:37316
      * @var \CWM\BroadWorksConnector\Ocip\Models\RegistrationEndpointType|null
      */
     private $endpointType = null;
@@ -141,7 +141,7 @@ class SystemGetRegistrationContactListRequest extends \CWM\BroadWorksConnector\O
      * @ElementName expired
      * @Type bool
      * @Optional
-     * @Group bd46fc427b2b0dc182dcd53cf03e95b4:864
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:37316
      * @var bool|null
      */
     private $expired = null;

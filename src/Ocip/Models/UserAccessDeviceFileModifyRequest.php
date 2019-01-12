@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"ee3830ce42f01a3ef2a105d473fc3b17:196","type":"sequence"}]
+ * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:201","type":"sequence"}]
  */
 class UserAccessDeviceFileModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserAccessDeviceFileModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName userId
      * @Type string
-     * @Group ee3830ce42f01a3ef2a105d473fc3b17:196
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:201
      * @var string|null
      */
     private $userId = null;
@@ -26,7 +26,7 @@ class UserAccessDeviceFileModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName accessDevice
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDevice
-     * @Group ee3830ce42f01a3ef2a105d473fc3b17:196
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:201
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDevice|null
      */
     private $accessDevice = null;
@@ -34,7 +34,7 @@ class UserAccessDeviceFileModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName fileFormat
      * @Type string
-     * @Group ee3830ce42f01a3ef2a105d473fc3b17:196
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:201
      * @var string|null
      */
     private $fileFormat = null;
@@ -42,7 +42,7 @@ class UserAccessDeviceFileModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName uploadFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\FileResource
-     * @Group ee3830ce42f01a3ef2a105d473fc3b17:196
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:201
      * @var \CWM\BroadWorksConnector\Ocip\Models\FileResource|null
      */
     private $uploadFile = null;

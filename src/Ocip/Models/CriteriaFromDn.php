@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * The from dn criteria used within an add/get request.
  *
- * @Groups [{"id":"8e629edbac315ae7889caca732382c44:1497","type":"sequence"}]
+ * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:1720","type":"sequence"}]
  */
 class CriteriaFromDn
 {
@@ -15,7 +15,7 @@ class CriteriaFromDn
     /**
      * @ElementName fromDnCriteriaSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CriteriaDnSelection
-     * @Group 8e629edbac315ae7889caca732382c44:1497
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:1720
      * @var \CWM\BroadWorksConnector\Ocip\Models\CriteriaDnSelection|null
      */
     private $fromDnCriteriaSelection = null;
@@ -23,7 +23,7 @@ class CriteriaFromDn
     /**
      * @ElementName includeAnonymousCallers
      * @Type bool
-     * @Group 8e629edbac315ae7889caca732382c44:1497
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:1720
      * @var bool|null
      */
     private $includeAnonymousCallers = null;
@@ -31,7 +31,7 @@ class CriteriaFromDn
     /**
      * @ElementName includeUnavailableCallers
      * @Type bool
-     * @Group 8e629edbac315ae7889caca732382c44:1497
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:1720
      * @var bool|null
      */
     private $includeUnavailableCallers = null;
@@ -41,7 +41,7 @@ class CriteriaFromDn
      * @Type string
      * @Array
      * @Optional
-     * @Group 8e629edbac315ae7889caca732382c44:1497
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:1720
      * @var string[]
      */
     private $phoneNumber = array(

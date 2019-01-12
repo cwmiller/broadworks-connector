@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * A list of call center reporting abandoned call threshold seconds that replaces a previously configured list.
  *
- * @Groups [{"id":"3ac5f05d969bc771d6ba8d344d95aa72:6634","type":"sequence"}]
+ * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:7331","type":"sequence"}]
  */
 class CallCenterReportAbandonedCallThresholdReplacementList
 {
@@ -16,7 +16,7 @@ class CallCenterReportAbandonedCallThresholdReplacementList
      * @ElementName abandonedCallThresholdSeconds
      * @Type int
      * @Array
-     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:6634
+     * @Group e2c537e3e39483b96620673a7012ffdd:7331
      * @var int[]
      */
     private $abandonedCallThresholdSeconds = array(

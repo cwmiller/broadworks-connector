@@ -8,13 +8,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemAlternateUserIdGetListRequest.
  *         The "User Type" column contains the corresponding enumerated UserType value.
  *         Contains a table of alternate user ids, the column headings are: 
- *           "User Id", "Alternate User Id", "Group Id", "Organization Id" ,"Reseller Id" and  "User Type".
+ *           "User Id", "Alternate User Id", "Group Id", "Organization Id", "Reseller Id" and "User Type".
  *           
  *         The following columns are only returned in AS data mode:       
  *           "Reseller Id"
  *
  * @see SystemAlternateUserIdGetListRequest
- * @Groups [{"id":"b5f5416d9e71f8e4246cda16c4723744:1843","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:1851","type":"sequence"}]
  */
 class SystemAlternateUserIdGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -22,7 +22,7 @@ class SystemAlternateUserIdGetListResponse extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName alternateUserIdTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group b5f5416d9e71f8e4246cda16c4723744:1843
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1851
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $alternateUserIdTable = null;

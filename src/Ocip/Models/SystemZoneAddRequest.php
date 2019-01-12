@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"b5f5416d9e71f8e4246cda16c4723744:17050","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:17363","type":"sequence"}]
  */
 class SystemZoneAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemZoneAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReq
     /**
      * @ElementName zoneName
      * @Type string
-     * @Group b5f5416d9e71f8e4246cda16c4723744:17050
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17363
      * @var string|null
      */
     private $zoneName = null;
@@ -28,7 +28,7 @@ class SystemZoneAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReq
      * @Type string
      * @Array
      * @Optional
-     * @Group b5f5416d9e71f8e4246cda16c4723744:17050
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17363
      * @var string[]
      */
     private $netAddress = array(
@@ -40,7 +40,7 @@ class SystemZoneAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReq
      * @Type \CWM\BroadWorksConnector\Ocip\Models\IPAddressRange
      * @Array
      * @Optional
-     * @Group b5f5416d9e71f8e4246cda16c4723744:17050
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17363
      * @var \CWM\BroadWorksConnector\Ocip\Models\IPAddressRange[]
      */
     private $netAddressRange = array(
@@ -52,7 +52,7 @@ class SystemZoneAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReq
      * @Type string
      * @Array
      * @Optional
-     * @Group b5f5416d9e71f8e4246cda16c4723744:17050
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17363
      * @var string[]
      */
     private $locationBasedPhysicalLocation = array(
@@ -63,7 +63,7 @@ class SystemZoneAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReq
      * @ElementName callingZonePhysicalLocation
      * @Type string
      * @Optional
-     * @Group b5f5416d9e71f8e4246cda16c4723744:17050
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17363
      * @var string|null
      */
     private $callingZonePhysicalLocation = null;

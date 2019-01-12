@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to UserCallCenterMonitoringGetRequest.
  *
  * @see UserCallCenterMonitoringGetRequest
- * @Groups [{"id":"23d9cf1608afed0e8614858cbc410a94:58","type":"sequence"}]
+ * @Groups [{"id":"41b968f87257b8dd553215179161ccb4:58","type":"sequence"}]
  */
 class UserCallCenterMonitoringGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class UserCallCenterMonitoringGetResponse extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName playToneToAgentForSilentMonitoring
      * @Type bool
-     * @Group 23d9cf1608afed0e8614858cbc410a94:58
+     * @Group 41b968f87257b8dd553215179161ccb4:58
      * @var bool|null
      */
     private $playToneToAgentForSilentMonitoring = null;

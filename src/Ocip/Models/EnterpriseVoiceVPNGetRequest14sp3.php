@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see EnterpriseVoiceVPNGetResponse14sp3
  * @see ErrorResponse
- * @Groups [{"id":"889c8c305076ef39cc50c70d0c2dc820:1481","type":"sequence"}]
+ * @Groups [{"id":"5395c7df0157d44aa22f3351d1a5f3da:1501","type":"sequence"}]
  */
 class EnterpriseVoiceVPNGetRequest14sp3 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class EnterpriseVoiceVPNGetRequest14sp3 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 889c8c305076ef39cc50c70d0c2dc820:1481
+     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1501
      * @var string|null
      */
     private $serviceProviderId = null;

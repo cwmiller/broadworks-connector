@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the GroupCallCenterStrandedCallGetRequest.
  *
  * @see GroupCallCenterStrandedCallGetRequest
- * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:5729","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:12822","type":"sequence"}]
  */
 class GroupCallCenterStrandedCallGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class GroupCallCenterStrandedCallGetResponse extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName action
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterStrandedCallProcessingAction
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:5729
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:12822
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterStrandedCallProcessingAction|null
      */
     private $action = null;
@@ -25,7 +25,7 @@ class GroupCallCenterStrandedCallGetResponse extends \CWM\BroadWorksConnector\Oc
      * @ElementName transferPhoneNumber
      * @Type string
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:5729
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:12822
      * @var string|null
      */
     private $transferPhoneNumber = null;
@@ -34,7 +34,7 @@ class GroupCallCenterStrandedCallGetResponse extends \CWM\BroadWorksConnector\Oc
      * @ElementName audioMessageSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:5729
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:12822
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     private $audioMessageSelection = null;
@@ -43,7 +43,7 @@ class GroupCallCenterStrandedCallGetResponse extends \CWM\BroadWorksConnector\Oc
      * @ElementName audioFileUrl
      * @Type string
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:5729
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:12822
      * @var string|null
      */
     private $audioFileUrl = null;
@@ -52,7 +52,7 @@ class GroupCallCenterStrandedCallGetResponse extends \CWM\BroadWorksConnector\Oc
      * @ElementName audioFileDescription
      * @Type string
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:5729
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:12822
      * @var string|null
      */
     private $audioFileDescription = null;
@@ -61,7 +61,7 @@ class GroupCallCenterStrandedCallGetResponse extends \CWM\BroadWorksConnector\Oc
      * @ElementName audioMediaType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MediaFileType
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:5729
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:12822
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     private $audioMediaType = null;
@@ -70,7 +70,7 @@ class GroupCallCenterStrandedCallGetResponse extends \CWM\BroadWorksConnector\Oc
      * @ElementName videoMessageSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:5729
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:12822
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     private $videoMessageSelection = null;
@@ -79,7 +79,7 @@ class GroupCallCenterStrandedCallGetResponse extends \CWM\BroadWorksConnector\Oc
      * @ElementName videoFileUrl
      * @Type string
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:5729
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:12822
      * @var string|null
      */
     private $videoFileUrl = null;
@@ -88,7 +88,7 @@ class GroupCallCenterStrandedCallGetResponse extends \CWM\BroadWorksConnector\Oc
      * @ElementName videoFileDescription
      * @Type string
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:5729
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:12822
      * @var string|null
      */
     private $videoFileDescription = null;
@@ -97,7 +97,7 @@ class GroupCallCenterStrandedCallGetResponse extends \CWM\BroadWorksConnector\Oc
      * @ElementName videoMediaType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MediaFileType
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:5729
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:12822
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     private $videoMediaType = null;

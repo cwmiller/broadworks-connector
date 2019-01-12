@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserExecutiveGetFilteringSelectiveCriteriaRequest
  * @see UserExecutiveGetFilteringSelectiveCriteriaResponse21
- * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:34801","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:34533","type":"sequence"}]
  */
 class UserExecutiveGetFilteringSelectiveCriteriaResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,7 +19,7 @@ class UserExecutiveGetFilteringSelectiveCriteriaResponse extends \CWM\BroadWorks
      * @ElementName timeSchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:34801
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:34533
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null
      */
     private $timeSchedule = null;
@@ -28,7 +28,7 @@ class UserExecutiveGetFilteringSelectiveCriteriaResponse extends \CWM\BroadWorks
      * @ElementName holidaySchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:34801
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:34533
      * @var \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null
      */
     private $holidaySchedule = null;
@@ -36,7 +36,7 @@ class UserExecutiveGetFilteringSelectiveCriteriaResponse extends \CWM\BroadWorks
     /**
      * @ElementName filter
      * @Type bool
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:34801
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:34533
      * @var bool|null
      */
     private $filter = null;
@@ -44,7 +44,7 @@ class UserExecutiveGetFilteringSelectiveCriteriaResponse extends \CWM\BroadWorks
     /**
      * @ElementName fromDnCriteria
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExecutiveCallFilteringCriteriaFromDn
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:34801
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:34533
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExecutiveCallFilteringCriteriaFromDn|null
      */
     private $fromDnCriteria = null;

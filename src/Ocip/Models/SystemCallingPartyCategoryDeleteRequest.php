@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"c856d5d86d5da482525eb01056f273da:73","type":"sequence"}]
+ * @Groups [{"id":"89aa8c9a341a3cccb2453b1ee467bf94:73","type":"sequence"}]
  */
 class SystemCallingPartyCategoryDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemCallingPartyCategoryDeleteRequest extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName category
      * @Type string
-     * @Group c856d5d86d5da482525eb01056f273da:73
+     * @Group 89aa8c9a341a3cccb2453b1ee467bf94:73
      * @var string|null
      */
     private $category = null;

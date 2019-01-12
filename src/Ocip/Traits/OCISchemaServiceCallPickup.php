@@ -6,8 +6,14 @@ use CWM\BroadWorksConnector\Ocip\Models\GroupCallPickupAddInstanceRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupCallPickupDeleteInstanceRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupCallPickupGetAvailableUserListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupCallPickupGetAvailableUserListResponse;
+use CWM\BroadWorksConnector\Ocip\Models\GroupCallPickupGetAvailableUserPagedSortedListRequest;
+use CWM\BroadWorksConnector\Ocip\Models\GroupCallPickupGetAvailableUserPagedSortedListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupCallPickupGetInstanceListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupCallPickupGetInstanceListResponse;
+use CWM\BroadWorksConnector\Ocip\Models\GroupCallPickupGetInstancePagedSortedListRequest;
+use CWM\BroadWorksConnector\Ocip\Models\GroupCallPickupGetInstancePagedSortedListResponse;
+use CWM\BroadWorksConnector\Ocip\Models\GroupCallPickupGetInstancePagedSortedRequest;
+use CWM\BroadWorksConnector\Ocip\Models\GroupCallPickupGetInstancePagedSortedResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupCallPickupGetInstanceRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupCallPickupGetInstanceResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupCallPickupModifyInstanceRequest;
@@ -54,12 +60,45 @@ trait OCISchemaServiceCallPickup
     }
 
     /**
+     * @param GroupCallPickupGetAvailableUserPagedSortedListRequest $request
+     * @return GroupCallPickupGetAvailableUserPagedSortedListResponse
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function groupCallPickupGetAvailableUserPagedSortedListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallPickupGetAvailableUserPagedSortedListRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
      * @param GroupCallPickupGetInstanceListRequest $request
      * @return GroupCallPickupGetInstanceListResponse
      * @throws ErrorResponseException
      * @throws ValidationException
      */
     public function groupCallPickupGetInstanceListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallPickupGetInstanceListRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param GroupCallPickupGetInstancePagedSortedListRequest $request
+     * @return GroupCallPickupGetInstancePagedSortedListResponse
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function groupCallPickupGetInstancePagedSortedListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallPickupGetInstancePagedSortedListRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param GroupCallPickupGetInstancePagedSortedRequest $request
+     * @return GroupCallPickupGetInstancePagedSortedResponse
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function groupCallPickupGetInstancePagedSortedRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallPickupGetInstancePagedSortedRequest $request)
     {
         return $this->call($request);
     }

@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The column values for "Is Used" can either be true, or false.
  *
  * @see GroupAutoAttendantSubmenuGetListRequest
- * @Groups [{"id":"481f6171444d5c316baa2066a7396d29:433","type":"sequence"}]
+ * @Groups [{"id":"ed0640d8ef49eb8b4eaa14d7c6f6c033:499","type":"sequence"}]
  */
 class GroupAutoAttendantSubmenuGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,7 +19,7 @@ class GroupAutoAttendantSubmenuGetListResponse extends \CWM\BroadWorksConnector\
     /**
      * @ElementName submenuTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 481f6171444d5c316baa2066a7396d29:433
+     * @Group ed0640d8ef49eb8b4eaa14d7c6f6c033:499
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $submenuTable = null;

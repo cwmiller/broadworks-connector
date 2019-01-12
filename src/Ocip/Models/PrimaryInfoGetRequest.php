@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Requests information about the primary server for high-availability support.
  *
- * @Groups [{"id":"21fd3c6abc11c44e52803121f7739a76:391","type":"sequence"}]
+ * @Groups [{"id":"6b27fcc79475236456fc113a42b75543:435","type":"sequence"}]
  */
 class PrimaryInfoGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -15,7 +15,7 @@ class PrimaryInfoGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRe
     /**
      * @ElementName isPrivate
      * @Type bool
-     * @Group 21fd3c6abc11c44e52803121f7739a76:391
+     * @Group 6b27fcc79475236456fc113a42b75543:435
      * @var bool|null
      */
     private $isPrivate = null;
@@ -23,7 +23,7 @@ class PrimaryInfoGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRe
     /**
      * @ElementName isAddressInfoRequested
      * @Type bool
-     * @Group 21fd3c6abc11c44e52803121f7739a76:391
+     * @Group 6b27fcc79475236456fc113a42b75543:435
      * @var bool|null
      */
     private $isAddressInfoRequested = null;

@@ -6,12 +6,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemTreatmentMappingCallBlockingServiceGetListRequest22
  *
  * Requests a table of all the existing Call Blocking Service Mappings in the system.
- *         The response is either a SystemTreatmentMappingCallBlockingServiceGetListResponse22
+ *         The response is either a SystemTreatmentMappingCallBlockingServicesGetListResponse22
  *         or an ErrorResponse.
+ *         Replaced by: SystemTreatmentMappingCallBlockingServiceGetListRequest23
  *
- * @see SystemTreatmentMappingCallBlockingServiceGetListResponse22
+ * @see SystemTreatmentMappingCallBlockingServicesGetListResponse22
  * @see ErrorResponse
- * @Groups [{"id":"b5f5416d9e71f8e4246cda16c4723744:16504","type":"sequence"}]
+ * @see SystemTreatmentMappingCallBlockingServiceGetListRequest23
+ * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:6878","type":"sequence"}]
  */
 class SystemTreatmentMappingCallBlockingServiceGetListRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

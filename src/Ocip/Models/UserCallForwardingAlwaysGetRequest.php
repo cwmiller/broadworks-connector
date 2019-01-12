@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserCallForwardingAlwaysGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"cf59e6eedefd146b678155972f1d752b:44","type":"sequence"}]
+ * @Groups [{"id":"97105b92fc80f353d25e39a7ecc8e22f:44","type":"sequence"}]
  */
 class UserCallForwardingAlwaysGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class UserCallForwardingAlwaysGetRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName userId
      * @Type string
-     * @Group cf59e6eedefd146b678155972f1d752b:44
+     * @Group 97105b92fc80f353d25e39a7ecc8e22f:44
      * @var string|null
      */
     private $userId = null;

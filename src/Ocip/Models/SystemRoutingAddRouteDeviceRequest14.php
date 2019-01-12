@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"b5f5416d9e71f8e4246cda16c4723744:13363","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:13556","type":"sequence"}]
  */
 class SystemRoutingAddRouteDeviceRequest14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemRoutingAddRouteDeviceRequest14 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName routeName
      * @Type string
-     * @Group b5f5416d9e71f8e4246cda16c4723744:13363
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:13556
      * @var string|null
      */
     private $routeName = null;
@@ -26,7 +26,7 @@ class SystemRoutingAddRouteDeviceRequest14 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName netAddress
      * @Type string
-     * @Group b5f5416d9e71f8e4246cda16c4723744:13363
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:13556
      * @var string|null
      */
     private $netAddress = null;
@@ -35,7 +35,7 @@ class SystemRoutingAddRouteDeviceRequest14 extends \CWM\BroadWorksConnector\Ocip
      * @ElementName port
      * @Type int
      * @Optional
-     * @Group b5f5416d9e71f8e4246cda16c4723744:13363
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:13556
      * @var int|null
      */
     private $port = null;
@@ -43,7 +43,7 @@ class SystemRoutingAddRouteDeviceRequest14 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName transportProtocol
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol
-     * @Group b5f5416d9e71f8e4246cda16c4723744:13363
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:13556
      * @var \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol|null
      */
     private $transportProtocol = null;
@@ -52,7 +52,7 @@ class SystemRoutingAddRouteDeviceRequest14 extends \CWM\BroadWorksConnector\Ocip
      * @ElementName description
      * @Type string
      * @Optional
-     * @Group b5f5416d9e71f8e4246cda16c4723744:13363
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:13556
      * @var string|null
      */
     private $description = null;

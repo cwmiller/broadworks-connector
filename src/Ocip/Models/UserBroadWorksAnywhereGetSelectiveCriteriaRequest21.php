@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserBroadWorksAnywhereGetSelectiveCriteriaResponse21
  * @see ErrorResponse
- * @Groups [{"id":"b2dd0919a492fbd36c0e7f346f843ff2:466","type":"sequence"}]
+ * @Groups [{"id":"72f634ecc58842ce9d362ca629a47ea9:508","type":"sequence"}]
  */
 class UserBroadWorksAnywhereGetSelectiveCriteriaRequest21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserBroadWorksAnywhereGetSelectiveCriteriaRequest21 extends \CWM\BroadWork
     /**
      * @ElementName userId
      * @Type string
-     * @Group b2dd0919a492fbd36c0e7f346f843ff2:466
+     * @Group 72f634ecc58842ce9d362ca629a47ea9:508
      * @var string|null
      */
     private $userId = null;
@@ -26,7 +26,7 @@ class UserBroadWorksAnywhereGetSelectiveCriteriaRequest21 extends \CWM\BroadWork
     /**
      * @ElementName phoneNumber
      * @Type string
-     * @Group b2dd0919a492fbd36c0e7f346f843ff2:466
+     * @Group 72f634ecc58842ce9d362ca629a47ea9:508
      * @var string|null
      */
     private $phoneNumber = null;
@@ -34,7 +34,7 @@ class UserBroadWorksAnywhereGetSelectiveCriteriaRequest21 extends \CWM\BroadWork
     /**
      * @ElementName criteriaName
      * @Type string
-     * @Group b2dd0919a492fbd36c0e7f346f843ff2:466
+     * @Group 72f634ecc58842ce9d362ca629a47ea9:508
      * @var string|null
      */
     private $criteriaName = null;

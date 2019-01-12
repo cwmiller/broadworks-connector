@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserEnhancedCallLogsGetListRequest
  * @see UserEnhancedCallLogsGetListResponse14sp4
- * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:34602","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:6952","type":"sequence"}]
  */
 class UserEnhancedCallLogsGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -20,7 +20,7 @@ class UserEnhancedCallLogsGetListResponse extends \CWM\BroadWorksConnector\Ocip\
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EnhancedCallLogsEntry
      * @Array
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:34602
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:6952
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnhancedCallLogsEntry[]
      */
     private $placed = array(
@@ -32,7 +32,7 @@ class UserEnhancedCallLogsGetListResponse extends \CWM\BroadWorksConnector\Ocip\
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EnhancedCallLogsEntry
      * @Array
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:34602
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:6952
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnhancedCallLogsEntry[]
      */
     private $received = array(
@@ -44,7 +44,7 @@ class UserEnhancedCallLogsGetListResponse extends \CWM\BroadWorksConnector\Ocip\
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EnhancedCallLogsEntry
      * @Array
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:34602
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:6952
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnhancedCallLogsEntry[]
      */
     private $missed = array(

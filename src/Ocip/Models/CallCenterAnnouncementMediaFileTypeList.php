@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Contains list of file media types for audio or video files
  *
- * @Groups [{"id":"8e629edbac315ae7889caca732382c44:636","type":"sequence"}]
+ * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:864","type":"sequence"}]
  */
 class CallCenterAnnouncementMediaFileTypeList
 {
@@ -16,7 +16,7 @@ class CallCenterAnnouncementMediaFileTypeList
      * @ElementName mediaType1
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MediaFileType
      * @Optional
-     * @Group 8e629edbac315ae7889caca732382c44:636
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:864
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     private $mediaType1 = null;
@@ -25,7 +25,7 @@ class CallCenterAnnouncementMediaFileTypeList
      * @ElementName mediaType2
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MediaFileType
      * @Optional
-     * @Group 8e629edbac315ae7889caca732382c44:636
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:864
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     private $mediaType2 = null;
@@ -34,7 +34,7 @@ class CallCenterAnnouncementMediaFileTypeList
      * @ElementName mediaType3
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MediaFileType
      * @Optional
-     * @Group 8e629edbac315ae7889caca732382c44:636
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:864
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     private $mediaType3 = null;
@@ -43,7 +43,7 @@ class CallCenterAnnouncementMediaFileTypeList
      * @ElementName mediaType4
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MediaFileType
      * @Optional
-     * @Group 8e629edbac315ae7889caca732382c44:636
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:864
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     private $mediaType4 = null;

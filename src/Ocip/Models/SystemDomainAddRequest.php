@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"b5f5416d9e71f8e4246cda16c4723744:7876","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:8004","type":"sequence"}]
  */
 class SystemDomainAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemDomainAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIR
     /**
      * @ElementName domain
      * @Type string
-     * @Group b5f5416d9e71f8e4246cda16c4723744:7876
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8004
      * @var string|null
      */
     private $domain = null;
@@ -27,7 +27,7 @@ class SystemDomainAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIR
      * @ElementName resellerId
      * @Type string
      * @Optional
-     * @Group b5f5416d9e71f8e4246cda16c4723744:7876
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8004
      * @var string|null
      */
     private $resellerId = null;

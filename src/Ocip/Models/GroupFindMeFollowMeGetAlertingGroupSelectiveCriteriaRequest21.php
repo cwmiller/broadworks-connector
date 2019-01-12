@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupFindMeFollowMeGetAlertingGroupSelectiveCriteriaRequest21
  *
  * Request to get all the information of a specific Find-me/Follow-me alerting group selective criteria.
- *         The response is either GroupFindMeFollowMeGetAlertingGroupSelectiveCriteriaResponse21 or ErrorResponse.
+ *         The response is either GroupFindMeFollowMeGetAlertingGroupResponse21 or ErrorResponse.
  *
- * @see GroupFindMeFollowMeGetAlertingGroupSelectiveCriteriaResponse21
+ * @see GroupFindMeFollowMeGetAlertingGroupResponse21
  * @see ErrorResponse
- * @Groups [{"id":"c81ec650475acb5cc7b075c4582c12ba:303","type":"sequence"}]
+ * @Groups [{"id":"79f226053ee345f2ff4c37c37c8e9114:302","type":"sequence"}]
  */
 class GroupFindMeFollowMeGetAlertingGroupSelectiveCriteriaRequest21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupFindMeFollowMeGetAlertingGroupSelectiveCriteriaRequest21 extends \CWM
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group c81ec650475acb5cc7b075c4582c12ba:303
+     * @Group 79f226053ee345f2ff4c37c37c8e9114:302
      * @var string|null
      */
     private $serviceUserId = null;
@@ -26,7 +26,7 @@ class GroupFindMeFollowMeGetAlertingGroupSelectiveCriteriaRequest21 extends \CWM
     /**
      * @ElementName alertingGroupName
      * @Type string
-     * @Group c81ec650475acb5cc7b075c4582c12ba:303
+     * @Group 79f226053ee345f2ff4c37c37c8e9114:302
      * @var string|null
      */
     private $alertingGroupName = null;
@@ -34,7 +34,7 @@ class GroupFindMeFollowMeGetAlertingGroupSelectiveCriteriaRequest21 extends \CWM
     /**
      * @ElementName criteriaName
      * @Type string
-     * @Group c81ec650475acb5cc7b075c4582c12ba:303
+     * @Group 79f226053ee345f2ff4c37c37c8e9114:302
      * @var string|null
      */
     private $criteriaName = null;

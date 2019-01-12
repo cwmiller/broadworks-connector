@@ -8,12 +8,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request to get the user information.  The response is either 
  *         UserGetResponse21sp1 or ErrorResponse.
  *         
- *         Replaced by UserGetRequest22 in AS data mode
+ *         Replaced by UserGetRequest22
  *
  * @see UserGetResponse21sp1
  * @see ErrorResponse
  * @see UserGetRequest22
- * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:35112","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:41058","type":"sequence"}]
  */
 class UserGetRequest21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,7 +21,7 @@ class UserGetRequest21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
     /**
      * @ElementName userId
      * @Type string
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:35112
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:41058
      * @var string|null
      */
     private $userId = null;

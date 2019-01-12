@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"80676ea6f2582b1b88573623a6affc0e:649","type":"sequence"}]
+ * @Groups [{"id":"6f793dfca9bd3d121bb35e0f9cf1cb2e:648","type":"sequence"}]
  */
 class GroupOutgoingCallingPlanPinholeDigitPlanOriginatingModifyListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupOutgoingCallingPlanPinholeDigitPlanOriginatingModifyListRequest exten
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 80676ea6f2582b1b88573623a6affc0e:649
+     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:648
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,7 +26,7 @@ class GroupOutgoingCallingPlanPinholeDigitPlanOriginatingModifyListRequest exten
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 80676ea6f2582b1b88573623a6affc0e:649
+     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:648
      * @var string|null
      */
     private $groupId = null;
@@ -35,7 +35,7 @@ class GroupOutgoingCallingPlanPinholeDigitPlanOriginatingModifyListRequest exten
      * @ElementName groupPermissions
      * @Type \CWM\BroadWorksConnector\Ocip\Models\OutgoingPinholeDigitPlanDigitPatternOriginatingPermissions
      * @Optional
-     * @Group 80676ea6f2582b1b88573623a6affc0e:649
+     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:648
      * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingPinholeDigitPlanDigitPatternOriginatingPermissions|null
      */
     private $groupPermissions = null;
@@ -45,7 +45,7 @@ class GroupOutgoingCallingPlanPinholeDigitPlanOriginatingModifyListRequest exten
      * @Type \CWM\BroadWorksConnector\Ocip\Models\OutgoingPinholeDigitPlanDigitPatternOriginatingDepartmentPermissionsModify
      * @Array
      * @Optional
-     * @Group 80676ea6f2582b1b88573623a6affc0e:649
+     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:648
      * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingPinholeDigitPlanDigitPatternOriginatingDepartmentPermissionsModify[]
      */
     private $departmentPermissions = array(

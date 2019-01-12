@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models\C;
  * A message contains a list of requests or responses. The server processes all the requests
  *         and returns a message with a corresponding list of responses.
  *
- * @Groups [{"id":"b5c92103b335c0ad3e7b255e39a5cba4:42","type":"sequence","children":[{"id":"b5c92103b335c0ad3e7b255e39a5cba4:43","type":"choice"}]}]
+ * @Groups [{"id":"77f32f6c8e214eb5c1a80dedfce1cb56:28","type":"sequence","children":[{"id":"77f32f6c8e214eb5c1a80dedfce1cb56:29","type":"choice"}]}]
  */
 class OCIMessage
 {
@@ -16,7 +16,7 @@ class OCIMessage
     /**
      * @ElementName sessionId
      * @Type string
-     * @Group b5c92103b335c0ad3e7b255e39a5cba4:43
+     * @Group 77f32f6c8e214eb5c1a80dedfce1cb56:29
      * @var string|null
      */
     private $sessionId = null;
@@ -24,7 +24,7 @@ class OCIMessage
     /**
      * @ElementName userId
      * @Type string
-     * @Group b5c92103b335c0ad3e7b255e39a5cba4:43
+     * @Group 77f32f6c8e214eb5c1a80dedfce1cb56:29
      * @var string|null
      */
     private $userId = null;
@@ -32,16 +32,24 @@ class OCIMessage
     /**
      * @ElementName phoneNumber
      * @Type string
-     * @Group b5c92103b335c0ad3e7b255e39a5cba4:43
+     * @Group 77f32f6c8e214eb5c1a80dedfce1cb56:29
      * @var string|null
      */
     private $phoneNumber = null;
 
     /**
+     * @ElementName linePort
+     * @Type string
+     * @Group 77f32f6c8e214eb5c1a80dedfce1cb56:29
+     * @var string|null
+     */
+    private $linePort = null;
+
+    /**
      * @ElementName command
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCICommand
      * @Array
-     * @Group b5c92103b335c0ad3e7b255e39a5cba4:42
+     * @Group 77f32f6c8e214eb5c1a80dedfce1cb56:28
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCICommand[]
      */
     private $command = array(
@@ -170,6 +178,49 @@ class OCIMessage
     public function unsetPhoneNumber()
     {
         $this->phoneNumber = null;
+        return $this;
+    }
+
+    /**
+     * Getter for linePort
+     *
+     *
+     *               The lineport identifies a preauthenticated user performing a session-less OCI request. The source of the request must be in the external authentication access control list.
+     *               The lineport may be any lineport associated with a user. 
+     *               BroadSoft recommends only using this element in the rare case when the userId is not known.              
+     *             
+     *
+     * @return string
+     */
+    public function getLinePort()
+    {
+        return $this->linePort instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->linePort;
+    }
+
+    /**
+     * Setter for linePort
+     *
+     *
+     *               The lineport identifies a preauthenticated user performing a session-less OCI request. The source of the request must be in the external authentication access control list.
+     *               The lineport may be any lineport associated with a user. 
+     *               BroadSoft recommends only using this element in the rare case when the userId is not known.              
+     *             
+     *
+     * @param string $linePort
+     * @return $this
+     */
+    public function setLinePort($linePort)
+    {
+        $this->linePort = $linePort;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetLinePort()
+    {
+        $this->linePort = null;
         return $this;
     }
 

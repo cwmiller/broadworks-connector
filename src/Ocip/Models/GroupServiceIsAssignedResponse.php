@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Returns true if the GroupService is assigned, otherwise false.
  *
- * @Groups [{"id":"15129cd25fa2d5581f4edfd652c24f93:6562","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:6861","type":"sequence"}]
  */
 class GroupServiceIsAssignedResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -15,7 +15,7 @@ class GroupServiceIsAssignedResponse extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName isAssigned
      * @Type bool
-     * @Group 15129cd25fa2d5581f4edfd652c24f93:6562
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:6861
      * @var bool|null
      */
     private $isAssigned = null;

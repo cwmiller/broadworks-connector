@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SuccessResponse
  * @see ErrorResponse
  * @see GroupInterceptGroupModifyRequest16
- * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:9287","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:8860","type":"sequence"}]
  */
 class GroupInterceptGroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class GroupInterceptGroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:9287
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:8860
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -28,7 +28,7 @@ class GroupInterceptGroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:9287
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:8860
      * @var string|null
      */
     private $groupId = null;
@@ -37,7 +37,7 @@ class GroupInterceptGroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName isActive
      * @Type bool
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:9287
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:8860
      * @var bool|null
      */
     private $isActive = null;
@@ -46,7 +46,7 @@ class GroupInterceptGroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName announcementSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:9287
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:8860
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection|null
      */
     private $announcementSelection = null;
@@ -55,7 +55,7 @@ class GroupInterceptGroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName audioFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:9287
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:8860
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource|null
      */
     private $audioFile = null;
@@ -64,7 +64,7 @@ class GroupInterceptGroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName videoFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:9287
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:8860
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource|null
      */
     private $videoFile = null;
@@ -73,7 +73,7 @@ class GroupInterceptGroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName playNewPhoneNumber
      * @Type bool
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:9287
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:8860
      * @var bool|null
      */
     private $playNewPhoneNumber = null;
@@ -83,7 +83,7 @@ class GroupInterceptGroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:9287
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:8860
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $newPhoneNumber = null;
@@ -92,7 +92,7 @@ class GroupInterceptGroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName transferOnZeroToPhoneNumber
      * @Type bool
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:9287
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:8860
      * @var bool|null
      */
     private $transferOnZeroToPhoneNumber = null;
@@ -102,7 +102,7 @@ class GroupInterceptGroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:9287
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:8860
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $transferPhoneNumber = null;

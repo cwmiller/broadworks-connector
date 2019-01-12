@@ -7,11 +7,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to SystemMigratedUsersGetListRequest.
  *         
- *          Replaced by: SystemMigratedUsersGetListResponse22 in AS data mode
+ *         Replaced by: SystemMigratedUsersGetListResponse22 in AS data mode
  *
  * @see SystemMigratedUsersGetListRequest
  * @see SystemMigratedUsersGetListResponse22
- * @Groups [{"id":"bb12a3589ab4748963f28f7ac9310f70:3702","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:40399","type":"sequence"}]
  */
 class SystemMigratedUsersGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -21,7 +21,7 @@ class SystemMigratedUsersGetListResponse extends \CWM\BroadWorksConnector\Ocip\M
      * @Type string
      * @Array
      * @Optional
-     * @Group bb12a3589ab4748963f28f7ac9310f70:3702
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:40399
      * @var string[]
      */
     private $userId = array(

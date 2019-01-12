@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"130a60503dce5611168ce780c0797cc9:222","type":"sequence"}]
+ * @Groups [{"id":"66fe518a637c74cc4b2c97aa7f68fc49:222","type":"sequence"}]
  */
 class SystemMusicOnHoldModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class SystemMusicOnHoldModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName delayMilliseconds
      * @Type int
      * @Optional
-     * @Group 130a60503dce5611168ce780c0797cc9:222
+     * @Group 66fe518a637c74cc4b2c97aa7f68fc49:222
      * @var int|null
      */
     private $delayMilliseconds = null;

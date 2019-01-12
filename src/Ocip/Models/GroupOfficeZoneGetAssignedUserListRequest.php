@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupOfficeZoneGetAssignedUserListResponse
  * @see ErrorResponse
- * @Groups [{"id":"15129cd25fa2d5581f4edfd652c24f93:5440","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:5713","type":"sequence"}]
  */
 class GroupOfficeZoneGetAssignedUserListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class GroupOfficeZoneGetAssignedUserListRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 15129cd25fa2d5581f4edfd652c24f93:5440
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:5713
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,7 +27,7 @@ class GroupOfficeZoneGetAssignedUserListRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 15129cd25fa2d5581f4edfd652c24f93:5440
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:5713
      * @var string|null
      */
     private $groupId = null;
@@ -35,7 +35,7 @@ class GroupOfficeZoneGetAssignedUserListRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName officeZoneName
      * @Type string
-     * @Group 15129cd25fa2d5581f4edfd652c24f93:5440
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:5713
      * @var string|null
      */
     private $officeZoneName = null;
@@ -44,7 +44,7 @@ class GroupOfficeZoneGetAssignedUserListRequest extends \CWM\BroadWorksConnector
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group 15129cd25fa2d5581f4edfd652c24f93:5440
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:5713
      * @var int|null
      */
     private $responseSizeLimit = null;
@@ -54,7 +54,7 @@ class GroupOfficeZoneGetAssignedUserListRequest extends \CWM\BroadWorksConnector
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName
      * @Array
      * @Optional
-     * @Group 15129cd25fa2d5581f4edfd652c24f93:5440
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:5713
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[]
      */
     private $searchCriteriaUserLastName = array(
@@ -66,7 +66,7 @@ class GroupOfficeZoneGetAssignedUserListRequest extends \CWM\BroadWorksConnector
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName
      * @Array
      * @Optional
-     * @Group 15129cd25fa2d5581f4edfd652c24f93:5440
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:5713
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName[]
      */
     private $searchCriteriaUserFirstName = array(
@@ -78,7 +78,7 @@ class GroupOfficeZoneGetAssignedUserListRequest extends \CWM\BroadWorksConnector
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn
      * @Array
      * @Optional
-     * @Group 15129cd25fa2d5581f4edfd652c24f93:5440
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:5713
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[]
      */
     private $searchCriteriaDn = array(
@@ -90,7 +90,7 @@ class GroupOfficeZoneGetAssignedUserListRequest extends \CWM\BroadWorksConnector
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaEmailAddress
      * @Array
      * @Optional
-     * @Group 15129cd25fa2d5581f4edfd652c24f93:5440
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:5713
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaEmailAddress[]
      */
     private $searchCriteriaEmailAddress = array(
@@ -101,7 +101,7 @@ class GroupOfficeZoneGetAssignedUserListRequest extends \CWM\BroadWorksConnector
      * @ElementName searchCriteriaExactUserDepartment
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment
      * @Optional
-     * @Group 15129cd25fa2d5581f4edfd652c24f93:5440
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:5713
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment|null
      */
     private $searchCriteriaExactUserDepartment = null;
@@ -111,7 +111,7 @@ class GroupOfficeZoneGetAssignedUserListRequest extends \CWM\BroadWorksConnector
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId
      * @Array
      * @Optional
-     * @Group 15129cd25fa2d5581f4edfd652c24f93:5440
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:5713
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId[]
      */
     private $searchCriteriaUserId = array(
@@ -123,7 +123,7 @@ class GroupOfficeZoneGetAssignedUserListRequest extends \CWM\BroadWorksConnector
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension
      * @Array
      * @Optional
-     * @Group 15129cd25fa2d5581f4edfd652c24f93:5440
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:5713
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension[]
      */
     private $searchCriteriaExtension = array(

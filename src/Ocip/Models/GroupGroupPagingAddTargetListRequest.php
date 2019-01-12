@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"756d4171668642e53d80bfcb4d781d63:102","type":"sequence"}]
+ * @Groups [{"id":"0d36df8c109e3ea7324f79031368c661:102","type":"sequence"}]
  */
 class GroupGroupPagingAddTargetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupGroupPagingAddTargetListRequest extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group 756d4171668642e53d80bfcb4d781d63:102
+     * @Group 0d36df8c109e3ea7324f79031368c661:102
      * @var string|null
      */
     private $serviceUserId = null;
@@ -27,7 +27,7 @@ class GroupGroupPagingAddTargetListRequest extends \CWM\BroadWorksConnector\Ocip
      * @ElementName targetUserId
      * @Type string
      * @Array
-     * @Group 756d4171668642e53d80bfcb4d781d63:102
+     * @Group 0d36df8c109e3ea7324f79031368c661:102
      * @var string[]
      */
     private $targetUserId = array(

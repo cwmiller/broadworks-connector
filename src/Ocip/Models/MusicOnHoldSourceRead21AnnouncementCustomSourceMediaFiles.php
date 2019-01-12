@@ -5,7 +5,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * MusicOnHoldSourceRead21AnnouncementCustomSourceMediaFiles
  *
- * @Groups [{"id":"8e629edbac315ae7889caca732382c44:2421","type":"sequence"}]
+ * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:2631","type":"sequence"}]
  */
 class MusicOnHoldSourceRead21AnnouncementCustomSourceMediaFiles
 {
@@ -14,7 +14,7 @@ class MusicOnHoldSourceRead21AnnouncementCustomSourceMediaFiles
      * @ElementName audioFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey
      * @Optional
-     * @Group 8e629edbac315ae7889caca732382c44:2421
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:2631
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey|null
      */
     private $audioFile = null;
@@ -23,7 +23,7 @@ class MusicOnHoldSourceRead21AnnouncementCustomSourceMediaFiles
      * @ElementName videoFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey
      * @Optional
-     * @Group 8e629edbac315ae7889caca732382c44:2421
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:2631
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey|null
      */
     private $videoFile = null;

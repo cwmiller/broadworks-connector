@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The column headings are: "Category Name", "User Category", "Collect Call", "Default" and "Web Display Key".
  *
  * @see SystemCallingPartyCategoryGetListRequest
- * @Groups [{"id":"c856d5d86d5da482525eb01056f273da:104","type":"sequence"}]
+ * @Groups [{"id":"89aa8c9a341a3cccb2453b1ee467bf94:104","type":"sequence"}]
  */
 class SystemCallingPartyCategoryGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class SystemCallingPartyCategoryGetListResponse extends \CWM\BroadWorksConnector
     /**
      * @ElementName callingPartyCategoryTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group c856d5d86d5da482525eb01056f273da:104
+     * @Group 89aa8c9a341a3cccb2453b1ee467bf94:104
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $callingPartyCategoryTable = null;

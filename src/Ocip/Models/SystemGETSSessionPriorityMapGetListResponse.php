@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The table columns are: "Priority Level" and "Session Priority Value".
  *
  * @see SystemGETSSessionPriorityMapGetListRequest
- * @Groups [{"id":"b5f5416d9e71f8e4246cda16c4723744:9518","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:9703","type":"sequence"}]
  */
 class SystemGETSSessionPriorityMapGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class SystemGETSSessionPriorityMapGetListResponse extends \CWM\BroadWorksConnect
     /**
      * @ElementName sessionPriorityTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group b5f5416d9e71f8e4246cda16c4723744:9518
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9703
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $sessionPriorityTable = null;

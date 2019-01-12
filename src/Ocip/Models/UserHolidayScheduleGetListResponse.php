@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response contains all the user's personal and user's group holiday schedule names.
  *
  * @see UserHolidayScheduleGetListRequest
- * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:35861","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:16734","type":"sequence"}]
  */
 class UserHolidayScheduleGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class UserHolidayScheduleGetListResponse extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName holidayScheduleTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:35861
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:16734
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $holidayScheduleTable = null;

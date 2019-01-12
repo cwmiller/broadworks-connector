@@ -15,7 +15,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemDeviceManagementTagSetGetListResponse22
  * @see ErrorResponse
- * @Groups [{"id":"b5f5416d9e71f8e4246cda16c4723744:6990","type":"sequence","children":[{"id":"b5f5416d9e71f8e4246cda16c4723744:6991","type":"choice"}]}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:7115","type":"sequence","children":[{"id":"7f663d5135470c33ca64b0eed3c3aa0c:7116","type":"choice"}]}]
  */
 class SystemDeviceManagementTagSetGetListRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -24,7 +24,7 @@ class SystemDeviceManagementTagSetGetListRequest22 extends \CWM\BroadWorksConnec
      * @ElementName excludeReseller
      * @Type bool
      * @Optional
-     * @Group b5f5416d9e71f8e4246cda16c4723744:6991
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7116
      * @var bool|null
      */
     private $excludeReseller = null;
@@ -33,7 +33,7 @@ class SystemDeviceManagementTagSetGetListRequest22 extends \CWM\BroadWorksConnec
      * @ElementName resellerId
      * @Type string
      * @Optional
-     * @Group b5f5416d9e71f8e4246cda16c4723744:6991
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7116
      * @var string|null
      */
     private $resellerId = null;

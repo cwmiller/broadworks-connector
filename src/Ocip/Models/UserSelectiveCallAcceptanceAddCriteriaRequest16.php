@@ -14,7 +14,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"8dbe603c659187d0985d1e5fb7f32eb1:52","type":"sequence"}]
+ * @Groups [{"id":"e8517420bc6d5462dc1b2d9f82295894:51","type":"sequence"}]
  */
 class UserSelectiveCallAcceptanceAddCriteriaRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -22,7 +22,7 @@ class UserSelectiveCallAcceptanceAddCriteriaRequest16 extends \CWM\BroadWorksCon
     /**
      * @ElementName userId
      * @Type string
-     * @Group 8dbe603c659187d0985d1e5fb7f32eb1:52
+     * @Group e8517420bc6d5462dc1b2d9f82295894:51
      * @var string|null
      */
     private $userId = null;
@@ -30,7 +30,7 @@ class UserSelectiveCallAcceptanceAddCriteriaRequest16 extends \CWM\BroadWorksCon
     /**
      * @ElementName criteriaName
      * @Type string
-     * @Group 8dbe603c659187d0985d1e5fb7f32eb1:52
+     * @Group e8517420bc6d5462dc1b2d9f82295894:51
      * @var string|null
      */
     private $criteriaName = null;
@@ -39,7 +39,7 @@ class UserSelectiveCallAcceptanceAddCriteriaRequest16 extends \CWM\BroadWorksCon
      * @ElementName timeSchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule
      * @Optional
-     * @Group 8dbe603c659187d0985d1e5fb7f32eb1:52
+     * @Group e8517420bc6d5462dc1b2d9f82295894:51
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null
      */
     private $timeSchedule = null;
@@ -48,7 +48,7 @@ class UserSelectiveCallAcceptanceAddCriteriaRequest16 extends \CWM\BroadWorksCon
      * @ElementName holidaySchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule
      * @Optional
-     * @Group 8dbe603c659187d0985d1e5fb7f32eb1:52
+     * @Group e8517420bc6d5462dc1b2d9f82295894:51
      * @var \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null
      */
     private $holidaySchedule = null;
@@ -56,7 +56,7 @@ class UserSelectiveCallAcceptanceAddCriteriaRequest16 extends \CWM\BroadWorksCon
     /**
      * @ElementName blacklisted
      * @Type bool
-     * @Group 8dbe603c659187d0985d1e5fb7f32eb1:52
+     * @Group e8517420bc6d5462dc1b2d9f82295894:51
      * @var bool|null
      */
     private $blacklisted = null;
@@ -64,7 +64,7 @@ class UserSelectiveCallAcceptanceAddCriteriaRequest16 extends \CWM\BroadWorksCon
     /**
      * @ElementName fromDnCriteria
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDn
-     * @Group 8dbe603c659187d0985d1e5fb7f32eb1:52
+     * @Group e8517420bc6d5462dc1b2d9f82295894:51
      * @var \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDn|null
      */
     private $fromDnCriteria = null;
@@ -74,7 +74,7 @@ class UserSelectiveCallAcceptanceAddCriteriaRequest16 extends \CWM\BroadWorksCon
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallToNumber
      * @Array
      * @Optional
-     * @Group 8dbe603c659187d0985d1e5fb7f32eb1:52
+     * @Group e8517420bc6d5462dc1b2d9f82295894:51
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallToNumber[]
      */
     private $callToNumber = array(

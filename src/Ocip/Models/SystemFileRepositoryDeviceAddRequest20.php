@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"b5f5416d9e71f8e4246cda16c4723744:8660","type":"sequence","children":[{"id":"b5f5416d9e71f8e4246cda16c4723744:8664","type":"choice"}]}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:8841","type":"sequence","children":[{"id":"7f663d5135470c33ca64b0eed3c3aa0c:8845","type":"choice"}]}]
  */
 class SystemFileRepositoryDeviceAddRequest20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemFileRepositoryDeviceAddRequest20 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName name
      * @Type string
-     * @Group b5f5416d9e71f8e4246cda16c4723744:8660
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8841
      * @var string|null
      */
     private $name = null;
@@ -27,7 +27,7 @@ class SystemFileRepositoryDeviceAddRequest20 extends \CWM\BroadWorksConnector\Oc
      * @ElementName rootDirectory
      * @Type string
      * @Optional
-     * @Group b5f5416d9e71f8e4246cda16c4723744:8660
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8841
      * @var string|null
      */
     private $rootDirectory = null;
@@ -36,7 +36,7 @@ class SystemFileRepositoryDeviceAddRequest20 extends \CWM\BroadWorksConnector\Oc
      * @ElementName port
      * @Type int
      * @Optional
-     * @Group b5f5416d9e71f8e4246cda16c4723744:8660
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8841
      * @var int|null
      */
     private $port = null;
@@ -44,7 +44,7 @@ class SystemFileRepositoryDeviceAddRequest20 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName protocolWebDAV
      * @Type \CWM\BroadWorksConnector\Ocip\Models\FileRepositoryProtocolWebDAV20
-     * @Group b5f5416d9e71f8e4246cda16c4723744:8664
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8845
      * @var \CWM\BroadWorksConnector\Ocip\Models\FileRepositoryProtocolWebDAV20|null
      */
     private $protocolWebDAV = null;
@@ -52,10 +52,26 @@ class SystemFileRepositoryDeviceAddRequest20 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName protocolFTP
      * @Type \CWM\BroadWorksConnector\Ocip\Models\FileRepositoryProtocolFTP16
-     * @Group b5f5416d9e71f8e4246cda16c4723744:8664
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8845
      * @var \CWM\BroadWorksConnector\Ocip\Models\FileRepositoryProtocolFTP16|null
      */
     private $protocolFTP = null;
+
+    /**
+     * @ElementName protocolSFTP
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\FileRepositoryProtocolFTP16
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8845
+     * @var \CWM\BroadWorksConnector\Ocip\Models\FileRepositoryProtocolFTP16|null
+     */
+    private $protocolSFTP = null;
+
+    /**
+     * @ElementName protocolFTPS
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\FileRepositoryProtocolFTP16
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8845
+     * @var \CWM\BroadWorksConnector\Ocip\Models\FileRepositoryProtocolFTP16|null
+     */
+    private $protocolFTPS = null;
 
     /**
      * Getter for name
@@ -209,6 +225,68 @@ class SystemFileRepositoryDeviceAddRequest20 extends \CWM\BroadWorksConnector\Oc
     public function unsetProtocolFTP()
     {
         $this->protocolFTP = null;
+        return $this;
+    }
+
+    /**
+     * Getter for protocolSFTP
+     *
+     * @return \CWM\BroadWorksConnector\Ocip\Models\FileRepositoryProtocolFTP16
+     */
+    public function getProtocolSFTP()
+    {
+        return $this->protocolSFTP instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->protocolSFTP;
+    }
+
+    /**
+     * Setter for protocolSFTP
+     *
+     * @param \CWM\BroadWorksConnector\Ocip\Models\FileRepositoryProtocolFTP16 $protocolSFTP
+     * @return $this
+     */
+    public function setProtocolSFTP(\CWM\BroadWorksConnector\Ocip\Models\FileRepositoryProtocolFTP16 $protocolSFTP)
+    {
+        $this->protocolSFTP = $protocolSFTP;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetProtocolSFTP()
+    {
+        $this->protocolSFTP = null;
+        return $this;
+    }
+
+    /**
+     * Getter for protocolFTPS
+     *
+     * @return \CWM\BroadWorksConnector\Ocip\Models\FileRepositoryProtocolFTP16
+     */
+    public function getProtocolFTPS()
+    {
+        return $this->protocolFTPS instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->protocolFTPS;
+    }
+
+    /**
+     * Setter for protocolFTPS
+     *
+     * @param \CWM\BroadWorksConnector\Ocip\Models\FileRepositoryProtocolFTP16 $protocolFTPS
+     * @return $this
+     */
+    public function setProtocolFTPS(\CWM\BroadWorksConnector\Ocip\Models\FileRepositoryProtocolFTP16 $protocolFTPS)
+    {
+        $this->protocolFTPS = $protocolFTPS;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetProtocolFTPS()
+    {
+        $this->protocolFTPS = null;
         return $this;
     }
 

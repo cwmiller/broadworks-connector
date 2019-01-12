@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         parameters or a request containing a SIP message. Returns a SystemVerifyTranslationAndRoutingResponse.
  *
  * @see SystemVerifyTranslationAndRoutingResponse
- * @Groups [{"id":"b5f5416d9e71f8e4246cda16c4723744:16877","type":"choice"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:17190","type":"choice"}]
  */
 class SystemVerifyTranslationAndRoutingRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,7 +17,7 @@ class SystemVerifyTranslationAndRoutingRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName parameters
      * @Type \CWM\BroadWorksConnector\Ocip\Models\VerifyTranslationAndRoutingParameters
-     * @Group b5f5416d9e71f8e4246cda16c4723744:16877
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17190
      * @var \CWM\BroadWorksConnector\Ocip\Models\VerifyTranslationAndRoutingParameters|null
      */
     private $parameters = null;
@@ -25,7 +25,7 @@ class SystemVerifyTranslationAndRoutingRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName sipMessage
      * @Type string
-     * @Group b5f5416d9e71f8e4246cda16c4723744:16877
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17190
      * @var string|null
      */
     private $sipMessage = null;

@@ -23,7 +23,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           eclQueryDataRepositoryURL
  *
  * @see SystemEnhancedCallLogsGetRequest20sp1
- * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:22132","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:20928","type":"sequence"}]
  */
 class SystemEnhancedCallLogsGetResponse20sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -31,7 +31,7 @@ class SystemEnhancedCallLogsGetResponse20sp1 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName isSendEnabled
      * @Type bool
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:22132
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:20928
      * @var bool|null
      */
     private $isSendEnabled = null;
@@ -40,7 +40,7 @@ class SystemEnhancedCallLogsGetResponse20sp1 extends \CWM\BroadWorksConnector\Oc
      * @ElementName server1NetAddress
      * @Type string
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:22132
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:20928
      * @var string|null
      */
     private $server1NetAddress = null;
@@ -48,7 +48,7 @@ class SystemEnhancedCallLogsGetResponse20sp1 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName server1SendPort
      * @Type int
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:22132
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:20928
      * @var int|null
      */
     private $server1SendPort = null;
@@ -56,7 +56,7 @@ class SystemEnhancedCallLogsGetResponse20sp1 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName server1RetrievePort
      * @Type int
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:22132
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:20928
      * @var int|null
      */
     private $server1RetrievePort = null;
@@ -65,7 +65,7 @@ class SystemEnhancedCallLogsGetResponse20sp1 extends \CWM\BroadWorksConnector\Oc
      * @ElementName server2NetAddress
      * @Type string
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:22132
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:20928
      * @var string|null
      */
     private $server2NetAddress = null;
@@ -73,7 +73,7 @@ class SystemEnhancedCallLogsGetResponse20sp1 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName server2SendPort
      * @Type int
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:22132
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:20928
      * @var int|null
      */
     private $server2SendPort = null;
@@ -81,7 +81,7 @@ class SystemEnhancedCallLogsGetResponse20sp1 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName server2RetrievePort
      * @Type int
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:22132
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:20928
      * @var int|null
      */
     private $server2RetrievePort = null;
@@ -90,7 +90,7 @@ class SystemEnhancedCallLogsGetResponse20sp1 extends \CWM\BroadWorksConnector\Oc
      * @ElementName sharedSecret
      * @Type string
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:22132
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:20928
      * @var string|null
      */
     private $sharedSecret = null;
@@ -98,7 +98,7 @@ class SystemEnhancedCallLogsGetResponse20sp1 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName retransmissionDelayMilliSeconds
      * @Type int
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:22132
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:20928
      * @var int|null
      */
     private $retransmissionDelayMilliSeconds = null;
@@ -106,7 +106,7 @@ class SystemEnhancedCallLogsGetResponse20sp1 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName maxTransmissions
      * @Type int
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:22132
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:20928
      * @var int|null
      */
     private $maxTransmissions = null;
@@ -114,7 +114,7 @@ class SystemEnhancedCallLogsGetResponse20sp1 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName soapTimeoutSeconds
      * @Type int
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:22132
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:20928
      * @var int|null
      */
     private $soapTimeoutSeconds = null;
@@ -122,7 +122,7 @@ class SystemEnhancedCallLogsGetResponse20sp1 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName useDBS
      * @Type bool
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:22132
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:20928
      * @var bool|null
      */
     private $useDBS = null;
@@ -130,7 +130,7 @@ class SystemEnhancedCallLogsGetResponse20sp1 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName maxNonPagedResponseSize
      * @Type int
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:22132
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:20928
      * @var int|null
      */
     private $maxNonPagedResponseSize = null;
@@ -139,7 +139,7 @@ class SystemEnhancedCallLogsGetResponse20sp1 extends \CWM\BroadWorksConnector\Oc
      * @ElementName eclQueryApplicationURL
      * @Type string
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:22132
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:20928
      * @var string|null
      */
     private $eclQueryApplicationURL = null;
@@ -148,7 +148,7 @@ class SystemEnhancedCallLogsGetResponse20sp1 extends \CWM\BroadWorksConnector\Oc
      * @ElementName eclQueryDataRepositoryURL
      * @Type string
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:22132
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:20928
      * @var string|null
      */
     private $eclQueryDataRepositoryURL = null;

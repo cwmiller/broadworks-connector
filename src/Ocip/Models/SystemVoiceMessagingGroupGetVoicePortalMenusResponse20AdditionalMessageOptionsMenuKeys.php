@@ -5,7 +5,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemVoiceMessagingGroupGetVoicePortalMenusResponse20AdditionalMessageOptionsMenuKeys
  *
- * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:31449","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:34169","type":"sequence"}]
  */
 class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20AdditionalMessageOptionsMenuKeys
 {
@@ -14,7 +14,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20AdditionalMessageOpt
      * @ElementName saveMessage
      * @Type string
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:31449
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:34169
      * @var string|null
      */
     private $saveMessage = null;
@@ -23,7 +23,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20AdditionalMessageOpt
      * @ElementName deleteMessage
      * @Type string
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:31449
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:34169
      * @var string|null
      */
     private $deleteMessage = null;
@@ -32,7 +32,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20AdditionalMessageOpt
      * @ElementName playEnvelope
      * @Type string
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:31449
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:34169
      * @var string|null
      */
     private $playEnvelope = null;
@@ -41,7 +41,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20AdditionalMessageOpt
      * @ElementName callbackCaller
      * @Type string
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:31449
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:34169
      * @var string|null
      */
     private $callbackCaller = null;
@@ -50,7 +50,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20AdditionalMessageOpt
      * @ElementName composeMessage
      * @Type string
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:31449
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:34169
      * @var string|null
      */
     private $composeMessage = null;
@@ -59,7 +59,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20AdditionalMessageOpt
      * @ElementName replyMessage
      * @Type string
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:31449
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:34169
      * @var string|null
      */
     private $replyMessage = null;
@@ -68,7 +68,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20AdditionalMessageOpt
      * @ElementName forwardMessage
      * @Type string
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:31449
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:34169
      * @var string|null
      */
     private $forwardMessage = null;
@@ -77,7 +77,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20AdditionalMessageOpt
      * @ElementName personalizedName
      * @Type string
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:31449
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:34169
      * @var string|null
      */
     private $personalizedName = null;
@@ -86,7 +86,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20AdditionalMessageOpt
      * @ElementName passcode
      * @Type string
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:31449
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:34169
      * @var string|null
      */
     private $passcode = null;
@@ -94,7 +94,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20AdditionalMessageOpt
     /**
      * @ElementName returnToPreviousMenu
      * @Type string
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:31449
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:34169
      * @var string|null
      */
     private $returnToPreviousMenu = null;
@@ -103,7 +103,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20AdditionalMessageOpt
      * @ElementName repeatMenu
      * @Type string
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:31449
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:34169
      * @var string|null
      */
     private $repeatMenu = null;

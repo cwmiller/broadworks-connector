@@ -9,11 +9,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either a SuccessResponse or an ErrorResponse.
  *         
  *         When the element configFile is set to nil, the configuration file defined
- *         at the parent level is used (in AS mode only).
+ *         at the parent level is used.
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"15129cd25fa2d5581f4edfd652c24f93:2505","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:2684","type":"sequence"}]
  */
 class GroupCPEConfigSetConfigFileRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,7 +21,7 @@ class GroupCPEConfigSetConfigFileRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 15129cd25fa2d5581f4edfd652c24f93:2505
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:2684
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -29,7 +29,7 @@ class GroupCPEConfigSetConfigFileRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 15129cd25fa2d5581f4edfd652c24f93:2505
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:2684
      * @var string|null
      */
     private $groupId = null;
@@ -37,7 +37,7 @@ class GroupCPEConfigSetConfigFileRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName deviceType
      * @Type string
-     * @Group 15129cd25fa2d5581f4edfd652c24f93:2505
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:2684
      * @var string|null
      */
     private $deviceType = null;
@@ -46,7 +46,7 @@ class GroupCPEConfigSetConfigFileRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName configFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\FileResource
      * @Nillable
-     * @Group 15129cd25fa2d5581f4edfd652c24f93:2505
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:2684
      * @var \CWM\BroadWorksConnector\Ocip\Models\FileResource|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $configFile = null;

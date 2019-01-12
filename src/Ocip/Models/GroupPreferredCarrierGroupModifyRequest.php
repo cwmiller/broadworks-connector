@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"56f1bd27c6955cc11e0869b6463fb814:93","type":"sequence"}]
+ * @Groups [{"id":"74a46a9bfccb54713c1d19735843f1df:92","type":"sequence"}]
  */
 class GroupPreferredCarrierGroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupPreferredCarrierGroupModifyRequest extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 56f1bd27c6955cc11e0869b6463fb814:93
+     * @Group 74a46a9bfccb54713c1d19735843f1df:92
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,7 +26,7 @@ class GroupPreferredCarrierGroupModifyRequest extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 56f1bd27c6955cc11e0869b6463fb814:93
+     * @Group 74a46a9bfccb54713c1d19735843f1df:92
      * @var string|null
      */
     private $groupId = null;
@@ -35,7 +35,7 @@ class GroupPreferredCarrierGroupModifyRequest extends \CWM\BroadWorksConnector\O
      * @ElementName intraLataCarrier
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupPreferredCarrierNameModify
      * @Optional
-     * @Group 56f1bd27c6955cc11e0869b6463fb814:93
+     * @Group 74a46a9bfccb54713c1d19735843f1df:92
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupPreferredCarrierNameModify|null
      */
     private $intraLataCarrier = null;
@@ -44,7 +44,7 @@ class GroupPreferredCarrierGroupModifyRequest extends \CWM\BroadWorksConnector\O
      * @ElementName interLataCarrier
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupPreferredCarrierNameModify
      * @Optional
-     * @Group 56f1bd27c6955cc11e0869b6463fb814:93
+     * @Group 74a46a9bfccb54713c1d19735843f1df:92
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupPreferredCarrierNameModify|null
      */
     private $interLataCarrier = null;
@@ -53,7 +53,7 @@ class GroupPreferredCarrierGroupModifyRequest extends \CWM\BroadWorksConnector\O
      * @ElementName internationalCarrier
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupPreferredCarrierNameModify
      * @Optional
-     * @Group 56f1bd27c6955cc11e0869b6463fb814:93
+     * @Group 74a46a9bfccb54713c1d19735843f1df:92
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupPreferredCarrierNameModify|null
      */
     private $internationalCarrier = null;

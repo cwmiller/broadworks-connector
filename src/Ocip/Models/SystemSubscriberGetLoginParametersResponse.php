@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the SystemSubscriberGetLoginParametersRequest.
  *
  * @see SystemSubscriberGetLoginParametersRequest
- * @Groups [{"id":"b5f5416d9e71f8e4246cda16c4723744:15896","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:16209","type":"sequence"}]
  */
 class SystemSubscriberGetLoginParametersResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class SystemSubscriberGetLoginParametersResponse extends \CWM\BroadWorksConnecto
     /**
      * @ElementName maxFailedLoginAttempts
      * @Type int
-     * @Group b5f5416d9e71f8e4246cda16c4723744:15896
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16209
      * @var int|null
      */
     private $maxFailedLoginAttempts = null;
@@ -24,7 +24,7 @@ class SystemSubscriberGetLoginParametersResponse extends \CWM\BroadWorksConnecto
     /**
      * @ElementName minLoginIdLength
      * @Type int
-     * @Group b5f5416d9e71f8e4246cda16c4723744:15896
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16209
      * @var int|null
      */
     private $minLoginIdLength = null;

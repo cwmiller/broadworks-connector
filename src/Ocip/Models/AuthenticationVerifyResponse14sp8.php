@@ -7,12 +7,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to AuthenticationVerifyRequest14sp8
  *         If a phoneNumber is returned, it will be the primay DN of the user
- *         
- *         Replaced by AuthenticationVerifyResponse22 in AS data mode.
  *
  * @see AuthenticationVerifyRequest14sp8
- * @see AuthenticationVerifyResponse22
- * @Groups [{"id":"bd46fc427b2b0dc182dcd53cf03e95b4:268","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:39195","type":"sequence"}]
  */
 class AuthenticationVerifyResponse14sp8 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -20,7 +17,7 @@ class AuthenticationVerifyResponse14sp8 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName loginType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LoginType
-     * @Group bd46fc427b2b0dc182dcd53cf03e95b4:268
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:39195
      * @var \CWM\BroadWorksConnector\Ocip\Models\LoginType|null
      */
     private $loginType = null;
@@ -28,7 +25,7 @@ class AuthenticationVerifyResponse14sp8 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName locale
      * @Type string
-     * @Group bd46fc427b2b0dc182dcd53cf03e95b4:268
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:39195
      * @var string|null
      */
     private $locale = null;
@@ -36,7 +33,7 @@ class AuthenticationVerifyResponse14sp8 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName encoding
      * @Type string
-     * @Group bd46fc427b2b0dc182dcd53cf03e95b4:268
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:39195
      * @var string|null
      */
     private $encoding = null;
@@ -45,7 +42,7 @@ class AuthenticationVerifyResponse14sp8 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName groupId
      * @Type string
      * @Optional
-     * @Group bd46fc427b2b0dc182dcd53cf03e95b4:268
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:39195
      * @var string|null
      */
     private $groupId = null;
@@ -54,7 +51,7 @@ class AuthenticationVerifyResponse14sp8 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName serviceProviderId
      * @Type string
      * @Optional
-     * @Group bd46fc427b2b0dc182dcd53cf03e95b4:268
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:39195
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -62,7 +59,7 @@ class AuthenticationVerifyResponse14sp8 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName isEnterprise
      * @Type bool
-     * @Group bd46fc427b2b0dc182dcd53cf03e95b4:268
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:39195
      * @var bool|null
      */
     private $isEnterprise = null;
@@ -71,7 +68,7 @@ class AuthenticationVerifyResponse14sp8 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName passwordExpiresDays
      * @Type int
      * @Optional
-     * @Group bd46fc427b2b0dc182dcd53cf03e95b4:268
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:39195
      * @var int|null
      */
     private $passwordExpiresDays = null;
@@ -80,7 +77,7 @@ class AuthenticationVerifyResponse14sp8 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName lastName
      * @Type string
      * @Optional
-     * @Group bd46fc427b2b0dc182dcd53cf03e95b4:268
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:39195
      * @var string|null
      */
     private $lastName = null;
@@ -89,7 +86,7 @@ class AuthenticationVerifyResponse14sp8 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName firstName
      * @Type string
      * @Optional
-     * @Group bd46fc427b2b0dc182dcd53cf03e95b4:268
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:39195
      * @var string|null
      */
     private $firstName = null;
@@ -97,7 +94,7 @@ class AuthenticationVerifyResponse14sp8 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName userId
      * @Type string
-     * @Group bd46fc427b2b0dc182dcd53cf03e95b4:268
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:39195
      * @var string|null
      */
     private $userId = null;
@@ -106,7 +103,7 @@ class AuthenticationVerifyResponse14sp8 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName phoneNumber
      * @Type string
      * @Optional
-     * @Group bd46fc427b2b0dc182dcd53cf03e95b4:268
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:39195
      * @var string|null
      */
     private $phoneNumber = null;

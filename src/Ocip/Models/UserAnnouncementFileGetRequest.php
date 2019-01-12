@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserAnnouncementFileGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"ee3830ce42f01a3ef2a105d473fc3b17:531","type":"sequence"}]
+ * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:608","type":"sequence"}]
  */
 class UserAnnouncementFileGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserAnnouncementFileGetRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName userId
      * @Type string
-     * @Group ee3830ce42f01a3ef2a105d473fc3b17:531
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:608
      * @var string|null
      */
     private $userId = null;
@@ -26,7 +26,7 @@ class UserAnnouncementFileGetRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName announcementFileKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey
-     * @Group ee3830ce42f01a3ef2a105d473fc3b17:531
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:608
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey|null
      */
     private $announcementFileKey = null;

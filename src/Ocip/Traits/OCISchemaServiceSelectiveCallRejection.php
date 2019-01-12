@@ -5,7 +5,7 @@ namespace CWM\BroadWorksConnector\Ocip\Traits;
 use CWM\BroadWorksConnector\Ocip\Models\UserSelectiveCallRejectionAddCriteriaRequest16;
 use CWM\BroadWorksConnector\Ocip\Models\UserSelectiveCallRejectionDeleteCriteriaRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserSelectiveCallRejectionGetCriteriaListRequest;
-use CWM\BroadWorksConnector\Ocip\Models\UserSelectiveCallRejectionGetCriteriaListResponse;
+use CWM\BroadWorksConnector\Ocip\Models\UserSelectiveCallRejectionGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserSelectiveCallRejectionGetCriteriaRequest21;
 use CWM\BroadWorksConnector\Ocip\Models\UserSelectiveCallRejectionGetCriteriaResponse21;
 use CWM\BroadWorksConnector\Ocip\Models\UserSelectiveCallRejectionModifyActiveCriteriaListRequest;
@@ -41,7 +41,7 @@ trait OCISchemaServiceSelectiveCallRejection
 
     /**
      * @param UserSelectiveCallRejectionGetCriteriaListRequest $request
-     * @return UserSelectiveCallRejectionGetCriteriaListResponse
+     * @return UserSelectiveCallRejectionGetResponse
      * @throws ErrorResponseException
      * @throws ValidationException
      */

@@ -5,7 +5,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemCPEConfigParametersModifyRequestFileRebuildDaily
  *
- * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:21402","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:33326","type":"sequence"}]
  */
 class SystemCPEConfigParametersModifyRequestFileRebuildDaily
 {
@@ -13,7 +13,7 @@ class SystemCPEConfigParametersModifyRequestFileRebuildDaily
     /**
      * @ElementName startHour
      * @Type int
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:21402
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:33326
      * @var int|null
      */
     private $startHour = null;
@@ -21,7 +21,7 @@ class SystemCPEConfigParametersModifyRequestFileRebuildDaily
     /**
      * @ElementName startMinute
      * @Type int
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:21402
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:33326
      * @var int|null
      */
     private $startMinute = null;

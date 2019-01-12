@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to ServiceProviderExternalCustomRingbackGetRequest.
  *
  * @see ServiceProviderExternalCustomRingbackGetRequest
- * @Groups [{"id":"ecf978efc1c280089e38b3f7b8fc97fb:61","type":"sequence"}]
+ * @Groups [{"id":"a8df43dca23d99d8ab44c0082aadfbe0:61","type":"sequence"}]
  */
 class ServiceProviderExternalCustomRingbackGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class ServiceProviderExternalCustomRingbackGetResponse extends \CWM\BroadWorksCo
      * @ElementName prefixDigits
      * @Type string
      * @Optional
-     * @Group ecf978efc1c280089e38b3f7b8fc97fb:61
+     * @Group a8df43dca23d99d8ab44c0082aadfbe0:61
      * @var string|null
      */
     private $prefixDigits = null;
@@ -26,7 +26,7 @@ class ServiceProviderExternalCustomRingbackGetResponse extends \CWM\BroadWorksCo
      * @ElementName serverNetAddress
      * @Type string
      * @Optional
-     * @Group ecf978efc1c280089e38b3f7b8fc97fb:61
+     * @Group a8df43dca23d99d8ab44c0082aadfbe0:61
      * @var string|null
      */
     private $serverNetAddress = null;
@@ -35,7 +35,7 @@ class ServiceProviderExternalCustomRingbackGetResponse extends \CWM\BroadWorksCo
      * @ElementName serverPort
      * @Type int
      * @Optional
-     * @Group ecf978efc1c280089e38b3f7b8fc97fb:61
+     * @Group a8df43dca23d99d8ab44c0082aadfbe0:61
      * @var int|null
      */
     private $serverPort = null;
@@ -43,7 +43,7 @@ class ServiceProviderExternalCustomRingbackGetResponse extends \CWM\BroadWorksCo
     /**
      * @ElementName timeoutSeconds
      * @Type int
-     * @Group ecf978efc1c280089e38b3f7b8fc97fb:61
+     * @Group a8df43dca23d99d8ab44c0082aadfbe0:61
      * @var int|null
      */
     private $timeoutSeconds = null;

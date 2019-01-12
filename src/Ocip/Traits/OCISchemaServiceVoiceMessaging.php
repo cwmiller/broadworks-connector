@@ -12,6 +12,9 @@ use CWM\BroadWorksConnector\Ocip\Models\GroupVoiceMessagingGroupGetVoicePortalRe
 use CWM\BroadWorksConnector\Ocip\Models\GroupVoiceMessagingGroupModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupVoiceMessagingGroupModifyVoicePortalBrandingRequest20;
 use CWM\BroadWorksConnector\Ocip\Models\GroupVoiceMessagingGroupModifyVoicePortalRequest;
+use CWM\BroadWorksConnector\Ocip\Models\ResellerVoiceMessagingGroupGetRequest;
+use CWM\BroadWorksConnector\Ocip\Models\ResellerVoiceMessagingGroupGetResponse;
+use CWM\BroadWorksConnector\Ocip\Models\ResellerVoiceMessagingGroupModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderVoiceMessagingGroupGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderVoiceMessagingGroupGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderVoiceMessagingGroupGetVoicePortalBrandingRequest16;
@@ -50,7 +53,7 @@ use CWM\BroadWorksConnector\Ocip\Models\UserVoiceMessagingUserModifyAdvancedVoic
 use CWM\BroadWorksConnector\Ocip\Models\UserVoiceMessagingUserModifyDistributionListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserVoiceMessagingUserModifyGreetingRequest20;
 use CWM\BroadWorksConnector\Ocip\Models\UserVoiceMessagingUserModifyOutgoingSMDIMWIRequest;
-use CWM\BroadWorksConnector\Ocip\Models\UserVoiceMessagingUserModifyRequest;
+use CWM\BroadWorksConnector\Ocip\Models\UserVoiceMessagingUserModifyRequest23;
 use CWM\BroadWorksConnector\Ocip\Models\UserVoiceMessagingUserModifyVoiceManagementRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserVoiceMessagingUserModifyVoicePortalRequest20;
 use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
@@ -133,6 +136,28 @@ trait OCISchemaServiceVoiceMessaging
      * @throws ValidationException
      */
     public function groupVoiceMessagingGroupModifyVoicePortalRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupVoiceMessagingGroupModifyVoicePortalRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param ResellerVoiceMessagingGroupGetRequest $request
+     * @return ResellerVoiceMessagingGroupGetResponse
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function resellerVoiceMessagingGroupGetRequest(\CWM\BroadWorksConnector\Ocip\Models\ResellerVoiceMessagingGroupGetRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param ResellerVoiceMessagingGroupModifyRequest $request
+     * @return SuccessResponse
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function resellerVoiceMessagingGroupModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\ResellerVoiceMessagingGroupModifyRequest $request)
     {
         return $this->call($request);
     }
@@ -413,12 +438,12 @@ trait OCISchemaServiceVoiceMessaging
     }
 
     /**
-     * @param UserVoiceMessagingUserModifyRequest $request
+     * @param UserVoiceMessagingUserModifyRequest23 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function userVoiceMessagingUserModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\UserVoiceMessagingUserModifyRequest $request)
+    public function userVoiceMessagingUserModifyRequest23(\CWM\BroadWorksConnector\Ocip\Models\UserVoiceMessagingUserModifyRequest23 $request)
     {
         return $this->call($request);
     }

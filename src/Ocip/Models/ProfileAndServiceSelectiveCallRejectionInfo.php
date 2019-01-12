@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         	
  *         	The "Calls From" column is a string containing call numbers
  *
- * @Groups [{"id":"ee3830ce42f01a3ef2a105d473fc3b17:3717","type":"sequence"}]
+ * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:4104","type":"sequence"}]
  */
 class ProfileAndServiceSelectiveCallRejectionInfo
 {
@@ -20,7 +20,7 @@ class ProfileAndServiceSelectiveCallRejectionInfo
     /**
      * @ElementName criteriaTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group ee3830ce42f01a3ef2a105d473fc3b17:3717
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:4104
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $criteriaTable = null;

@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * The voice portal forward or compose message menu keys.
  *
- * @Groups [{"id":"80c5986946137c505e41f6008c7f75a8:2552","type":"sequence"}]
+ * @Groups [{"id":"3347d430e0d5c93a9ff8dcf0e3b60d6c:2606","type":"sequence"}]
  */
 class ForwardOrComposeMessageMenuKeysReadEntry
 {
@@ -16,7 +16,7 @@ class ForwardOrComposeMessageMenuKeysReadEntry
      * @ElementName sendToPerson
      * @Type string
      * @Optional
-     * @Group 80c5986946137c505e41f6008c7f75a8:2552
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2606
      * @var string|null
      */
     private $sendToPerson = null;
@@ -25,7 +25,7 @@ class ForwardOrComposeMessageMenuKeysReadEntry
      * @ElementName sendToAllGroupMembers
      * @Type string
      * @Optional
-     * @Group 80c5986946137c505e41f6008c7f75a8:2552
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2606
      * @var string|null
      */
     private $sendToAllGroupMembers = null;
@@ -34,7 +34,7 @@ class ForwardOrComposeMessageMenuKeysReadEntry
      * @ElementName sendToDistributionList
      * @Type string
      * @Optional
-     * @Group 80c5986946137c505e41f6008c7f75a8:2552
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2606
      * @var string|null
      */
     private $sendToDistributionList = null;
@@ -43,7 +43,7 @@ class ForwardOrComposeMessageMenuKeysReadEntry
      * @ElementName changeCurrentIntroductionOrMessage
      * @Type string
      * @Optional
-     * @Group 80c5986946137c505e41f6008c7f75a8:2552
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2606
      * @var string|null
      */
     private $changeCurrentIntroductionOrMessage = null;
@@ -52,7 +52,7 @@ class ForwardOrComposeMessageMenuKeysReadEntry
      * @ElementName listenToCurrentIntroductionOrMessage
      * @Type string
      * @Optional
-     * @Group 80c5986946137c505e41f6008c7f75a8:2552
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2606
      * @var string|null
      */
     private $listenToCurrentIntroductionOrMessage = null;
@@ -61,7 +61,7 @@ class ForwardOrComposeMessageMenuKeysReadEntry
      * @ElementName setOrClearUrgentIndicator
      * @Type string
      * @Optional
-     * @Group 80c5986946137c505e41f6008c7f75a8:2552
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2606
      * @var string|null
      */
     private $setOrClearUrgentIndicator = null;
@@ -70,7 +70,7 @@ class ForwardOrComposeMessageMenuKeysReadEntry
      * @ElementName setOrClearConfidentialIndicator
      * @Type string
      * @Optional
-     * @Group 80c5986946137c505e41f6008c7f75a8:2552
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2606
      * @var string|null
      */
     private $setOrClearConfidentialIndicator = null;
@@ -78,7 +78,7 @@ class ForwardOrComposeMessageMenuKeysReadEntry
     /**
      * @ElementName returnToPreviousMenu
      * @Type string
-     * @Group 80c5986946137c505e41f6008c7f75a8:2552
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2606
      * @var string|null
      */
     private $returnToPreviousMenu = null;
@@ -87,7 +87,7 @@ class ForwardOrComposeMessageMenuKeysReadEntry
      * @ElementName repeatMenu
      * @Type string
      * @Optional
-     * @Group 80c5986946137c505e41f6008c7f75a8:2552
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2606
      * @var string|null
      */
     private $repeatMenu = null;

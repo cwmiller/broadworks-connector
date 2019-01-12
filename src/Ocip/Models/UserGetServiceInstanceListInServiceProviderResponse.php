@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "Name", "Phone Number", "Extension", "Department" in a row for each Service Instance.  Possible values for Service Type column are ServiceType enums.
  *
  * @see UserGetServiceInstanceListInServiceProviderRequest
- * @Groups [{"id":"ee3830ce42f01a3ef2a105d473fc3b17:1776","type":"sequence"}]
+ * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:2062","type":"sequence"}]
  */
 class UserGetServiceInstanceListInServiceProviderResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class UserGetServiceInstanceListInServiceProviderResponse extends \CWM\BroadWork
     /**
      * @ElementName serviceInstanceTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group ee3830ce42f01a3ef2a105d473fc3b17:1776
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:2062
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $serviceInstanceTable = null;

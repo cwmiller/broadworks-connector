@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Office Zones can only be unassigned if the Location-Based Calling Restrictions has been authorized to the group otherwise the request will fail.
  *
  * @see GroupOfiiceZoneGetAssignedUserListRequest
- * @Groups [{"id":"15129cd25fa2d5581f4edfd652c24f93:5468","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:5741","type":"sequence"}]
  */
 class GroupOfficeZoneGetAssignedUserListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,7 +19,7 @@ class GroupOfficeZoneGetAssignedUserListResponse extends \CWM\BroadWorksConnecto
     /**
      * @ElementName userTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 15129cd25fa2d5581f4edfd652c24f93:5468
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:5741
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $userTable = null;

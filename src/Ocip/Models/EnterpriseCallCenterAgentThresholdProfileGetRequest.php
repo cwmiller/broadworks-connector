@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see EnterpriseCallCenterAgentThresholdProfileGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"3ac5f05d969bc771d6ba8d344d95aa72:506","type":"sequence"}]
+ * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:658","type":"sequence"}]
  */
 class EnterpriseCallCenterAgentThresholdProfileGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class EnterpriseCallCenterAgentThresholdProfileGetRequest extends \CWM\BroadWork
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:506
+     * @Group e2c537e3e39483b96620673a7012ffdd:658
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,7 +26,7 @@ class EnterpriseCallCenterAgentThresholdProfileGetRequest extends \CWM\BroadWork
     /**
      * @ElementName profileName
      * @Type string
-     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:506
+     * @Group e2c537e3e39483b96620673a7012ffdd:658
      * @var string|null
      */
     private $profileName = null;

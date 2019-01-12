@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemNetworkServerSyncParametersGetRequest14sp2
  * @see SystemNetworkServerSyncParametersGetResponse16
- * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:23177","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:10115","type":"sequence"}]
  */
 class SystemNetworkServerSyncParametersGetResponse14sp2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,7 +19,7 @@ class SystemNetworkServerSyncParametersGetResponse14sp2 extends \CWM\BroadWorksC
     /**
      * @ElementName enableSync
      * @Type bool
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:23177
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:10115
      * @var bool|null
      */
     private $enableSync = null;
@@ -27,7 +27,7 @@ class SystemNetworkServerSyncParametersGetResponse14sp2 extends \CWM\BroadWorksC
     /**
      * @ElementName syncLinePorts
      * @Type bool
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:23177
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:10115
      * @var bool|null
      */
     private $syncLinePorts = null;

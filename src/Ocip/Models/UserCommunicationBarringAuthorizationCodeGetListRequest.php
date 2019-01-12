@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserCommunicationBarringAuthorizationCodeGetListResponse
  * @see ErorResponse
- * @Groups [{"id":"ee3830ce42f01a3ef2a105d473fc3b17:986","type":"sequence"}]
+ * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:1067","type":"sequence"}]
  */
 class UserCommunicationBarringAuthorizationCodeGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class UserCommunicationBarringAuthorizationCodeGetListRequest extends \CWM\Broad
     /**
      * @ElementName userId
      * @Type string
-     * @Group ee3830ce42f01a3ef2a105d473fc3b17:986
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:1067
      * @var string|null
      */
     private $userId = null;

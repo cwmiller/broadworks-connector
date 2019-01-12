@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserPushToTalkGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"b1cd97c56a75178a30eef82c2fa39248:86","type":"sequence"}]
+ * @Groups [{"id":"f32f4b57593f3e1ac6ed1cf45ed62b7c:86","type":"sequence"}]
  */
 class UserPushToTalkGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserPushToTalkGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
     /**
      * @ElementName userId
      * @Type string
-     * @Group b1cd97c56a75178a30eef82c2fa39248:86
+     * @Group f32f4b57593f3e1ac6ed1cf45ed62b7c:86
      * @var string|null
      */
     private $userId = null;

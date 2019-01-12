@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           the request is the owner of the Receptionist Note and a Note exists.
  *
  * @see UserBroadWorksReceptionistEnterpriseGetAvailableUserListRequest
- * @Groups [{"id":"b99e2521b171f47568831e973c09aa33:163","type":"sequence"}]
+ * @Groups [{"id":"fb12998f4f9e45cedde01f08569f4c7c:163","type":"sequence"}]
  */
 class UserBroadWorksReceptionistEnterpriseGetAvailableUserListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -21,7 +21,7 @@ class UserBroadWorksReceptionistEnterpriseGetAvailableUserListResponse extends \
     /**
      * @ElementName userTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group b99e2521b171f47568831e973c09aa33:163
+     * @Group fb12998f4f9e45cedde01f08569f4c7c:163
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $userTable = null;

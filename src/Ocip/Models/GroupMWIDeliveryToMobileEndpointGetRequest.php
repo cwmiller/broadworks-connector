@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupMWIDeliveryToMobileEndpointGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"26ea37e78b67054650c3445a62638977:151","type":"sequence"}]
+ * @Groups [{"id":"958b78cc2a785d78259c1e8a474eb40d:151","type":"sequence"}]
  */
 class GroupMWIDeliveryToMobileEndpointGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupMWIDeliveryToMobileEndpointGetRequest extends \CWM\BroadWorksConnecto
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 26ea37e78b67054650c3445a62638977:151
+     * @Group 958b78cc2a785d78259c1e8a474eb40d:151
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,7 +26,7 @@ class GroupMWIDeliveryToMobileEndpointGetRequest extends \CWM\BroadWorksConnecto
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 26ea37e78b67054650c3445a62638977:151
+     * @Group 958b78cc2a785d78259c1e8a474eb40d:151
      * @var string|null
      */
     private $groupId = null;

@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           audioFile
  *           videoFile
  *
- * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:38245","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:42673","type":"sequence"}]
  */
 class AutoAttendantKeyConfigurationEntry
 {
@@ -19,7 +19,7 @@ class AutoAttendantKeyConfigurationEntry
      * @ElementName description
      * @Type string
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:38245
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:42673
      * @var string|null
      */
     private $description = null;
@@ -27,7 +27,7 @@ class AutoAttendantKeyConfigurationEntry
     /**
      * @ElementName action
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantKeyAction
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:38245
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:42673
      * @var \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantKeyAction|null
      */
     private $action = null;
@@ -36,7 +36,7 @@ class AutoAttendantKeyConfigurationEntry
      * @ElementName phoneNumber
      * @Type string
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:38245
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:42673
      * @var string|null
      */
     private $phoneNumber = null;
@@ -45,7 +45,7 @@ class AutoAttendantKeyConfigurationEntry
      * @ElementName audioFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:38245
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:42673
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null
      */
     private $audioFile = null;
@@ -54,7 +54,7 @@ class AutoAttendantKeyConfigurationEntry
      * @ElementName videoFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:38245
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:42673
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null
      */
     private $videoFile = null;

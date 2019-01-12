@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * The voice portal greeting menu keys modify entry.
  *
- * @Groups [{"id":"80c5986946137c505e41f6008c7f75a8:2413","type":"sequence"}]
+ * @Groups [{"id":"3347d430e0d5c93a9ff8dcf0e3b60d6c:2467","type":"sequence"}]
  */
 class ConferenceGreetingMenuKeysModifyEntry
 {
@@ -17,7 +17,7 @@ class ConferenceGreetingMenuKeysModifyEntry
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 80c5986946137c505e41f6008c7f75a8:2413
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2467
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $activateConfGreeting = null;
@@ -27,7 +27,7 @@ class ConferenceGreetingMenuKeysModifyEntry
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 80c5986946137c505e41f6008c7f75a8:2413
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2467
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $deactivateConfGreeting = null;
@@ -37,7 +37,7 @@ class ConferenceGreetingMenuKeysModifyEntry
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 80c5986946137c505e41f6008c7f75a8:2413
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2467
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $recordNewConfGreeting = null;
@@ -47,7 +47,7 @@ class ConferenceGreetingMenuKeysModifyEntry
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 80c5986946137c505e41f6008c7f75a8:2413
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2467
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $listenToCurrentConfGreeting = null;
@@ -56,7 +56,7 @@ class ConferenceGreetingMenuKeysModifyEntry
      * @ElementName returnToPreviousMenu
      * @Type string
      * @Optional
-     * @Group 80c5986946137c505e41f6008c7f75a8:2413
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2467
      * @var string|null
      */
     private $returnToPreviousMenu = null;
@@ -66,7 +66,7 @@ class ConferenceGreetingMenuKeysModifyEntry
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 80c5986946137c505e41f6008c7f75a8:2413
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2467
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $repeatMenu = null;

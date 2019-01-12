@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Criteria for searching for users with/without Route List feature assigned.
  *
- * @Groups [{"id":"e446bfcbd1f39cbef57d1547014f2bb9:1158","type":"sequence"}]
+ * @Groups [{"id":"f0ada2681ca347fa83b464734259b304:1241","type":"sequence"}]
  */
 class SearchCriteriaExactUserRouteListAssigned extends SearchCriteria
 {
@@ -15,7 +15,7 @@ class SearchCriteriaExactUserRouteListAssigned extends SearchCriteria
     /**
      * @ElementName routeListAssigned
      * @Type bool
-     * @Group e446bfcbd1f39cbef57d1547014f2bb9:1158
+     * @Group f0ada2681ca347fa83b464734259b304:1241
      * @var bool|null
      */
     private $routeListAssigned = null;

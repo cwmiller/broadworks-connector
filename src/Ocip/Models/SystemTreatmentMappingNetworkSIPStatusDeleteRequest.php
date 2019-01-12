@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"b5f5416d9e71f8e4246cda16c4723744:16732","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:17045","type":"sequence"}]
  */
 class SystemTreatmentMappingNetworkSIPStatusDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemTreatmentMappingNetworkSIPStatusDeleteRequest extends \CWM\BroadWork
     /**
      * @ElementName sipStatusCode
      * @Type int
-     * @Group b5f5416d9e71f8e4246cda16c4723744:16732
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17045
      * @var int|null
      */
     private $sipStatusCode = null;

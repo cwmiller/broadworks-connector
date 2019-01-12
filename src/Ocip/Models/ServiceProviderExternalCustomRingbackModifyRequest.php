@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"ecf978efc1c280089e38b3f7b8fc97fb:80","type":"sequence"}]
+ * @Groups [{"id":"a8df43dca23d99d8ab44c0082aadfbe0:80","type":"sequence"}]
  */
 class ServiceProviderExternalCustomRingbackModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class ServiceProviderExternalCustomRingbackModifyRequest extends \CWM\BroadWorks
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group ecf978efc1c280089e38b3f7b8fc97fb:80
+     * @Group a8df43dca23d99d8ab44c0082aadfbe0:80
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -28,7 +28,7 @@ class ServiceProviderExternalCustomRingbackModifyRequest extends \CWM\BroadWorks
      * @Type string
      * @Nillable
      * @Optional
-     * @Group ecf978efc1c280089e38b3f7b8fc97fb:80
+     * @Group a8df43dca23d99d8ab44c0082aadfbe0:80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $prefixDigits = null;
@@ -38,7 +38,7 @@ class ServiceProviderExternalCustomRingbackModifyRequest extends \CWM\BroadWorks
      * @Type string
      * @Nillable
      * @Optional
-     * @Group ecf978efc1c280089e38b3f7b8fc97fb:80
+     * @Group a8df43dca23d99d8ab44c0082aadfbe0:80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $serverNetAddress = null;
@@ -48,7 +48,7 @@ class ServiceProviderExternalCustomRingbackModifyRequest extends \CWM\BroadWorks
      * @Type int
      * @Nillable
      * @Optional
-     * @Group ecf978efc1c280089e38b3f7b8fc97fb:80
+     * @Group a8df43dca23d99d8ab44c0082aadfbe0:80
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $serverPort = null;
@@ -57,7 +57,7 @@ class ServiceProviderExternalCustomRingbackModifyRequest extends \CWM\BroadWorks
      * @ElementName timeoutSeconds
      * @Type int
      * @Optional
-     * @Group ecf978efc1c280089e38b3f7b8fc97fb:80
+     * @Group a8df43dca23d99d8ab44c0082aadfbe0:80
      * @var int|null
      */
     private $timeoutSeconds = null;

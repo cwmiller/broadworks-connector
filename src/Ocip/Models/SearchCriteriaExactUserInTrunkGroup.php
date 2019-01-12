@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Criteria for searching for user in/not in a trunk group.
  *
- * @Groups [{"id":"e446bfcbd1f39cbef57d1547014f2bb9:1128","type":"sequence"}]
+ * @Groups [{"id":"f0ada2681ca347fa83b464734259b304:1211","type":"sequence"}]
  */
 class SearchCriteriaExactUserInTrunkGroup extends SearchCriteria
 {
@@ -15,7 +15,7 @@ class SearchCriteriaExactUserInTrunkGroup extends SearchCriteria
     /**
      * @ElementName userInTrunkGroup
      * @Type bool
-     * @Group e446bfcbd1f39cbef57d1547014f2bb9:1128
+     * @Group f0ada2681ca347fa83b464734259b304:1211
      * @var bool|null
      */
     private $userInTrunkGroup = null;

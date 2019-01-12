@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see ServiceProviderGetRequest13mp2
  * @see ServiceProviderGetResponse17sp1
- * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:16415","type":"sequence","children":[{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:16416","type":"choice"}]}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:20344","type":"sequence","children":[{"id":"ab0042aa512abc10edb3c55e4b416b0b:20345","type":"choice"}]}]
  */
 class ServiceProviderGetResponse13mp2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -20,7 +20,7 @@ class ServiceProviderGetResponse13mp2 extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName isEnterprise
      * @Type bool
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:16416
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:20345
      * @var bool|null
      */
     private $isEnterprise = null;
@@ -28,7 +28,7 @@ class ServiceProviderGetResponse13mp2 extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName useCustomRoutingProfile
      * @Type bool
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:16416
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:20345
      * @var bool|null
      */
     private $useCustomRoutingProfile = null;
@@ -36,7 +36,7 @@ class ServiceProviderGetResponse13mp2 extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName defaultDomain
      * @Type string
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:16415
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:20344
      * @var string|null
      */
     private $defaultDomain = null;
@@ -45,7 +45,7 @@ class ServiceProviderGetResponse13mp2 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName serviceProviderName
      * @Type string
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:16415
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:20344
      * @var string|null
      */
     private $serviceProviderName = null;
@@ -54,7 +54,7 @@ class ServiceProviderGetResponse13mp2 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName supportEmail
      * @Type string
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:16415
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:20344
      * @var string|null
      */
     private $supportEmail = null;
@@ -63,7 +63,7 @@ class ServiceProviderGetResponse13mp2 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName contact
      * @Type \CWM\BroadWorksConnector\Ocip\Models\Contact
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:16415
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:20344
      * @var \CWM\BroadWorksConnector\Ocip\Models\Contact|null
      */
     private $contact = null;
@@ -72,7 +72,7 @@ class ServiceProviderGetResponse13mp2 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName address
      * @Type \CWM\BroadWorksConnector\Ocip\Models\StreetAddress
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:16415
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:20344
      * @var \CWM\BroadWorksConnector\Ocip\Models\StreetAddress|null
      */
     private $address = null;

@@ -5,7 +5,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PersonalizedNameMenuKeys
  *
- * @Groups [{"id":"80c5986946137c505e41f6008c7f75a8:786","type":"sequence"}]
+ * @Groups [{"id":"3347d430e0d5c93a9ff8dcf0e3b60d6c:841","type":"sequence"}]
  */
 class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PersonalizedNameMenuKeys
 {
@@ -14,7 +14,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PersonalizedNameMenu
      * @ElementName recordNewPersonalizedName
      * @Type string
      * @Optional
-     * @Group 80c5986946137c505e41f6008c7f75a8:786
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:841
      * @var string|null
      */
     private $recordNewPersonalizedName = null;
@@ -23,7 +23,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PersonalizedNameMenu
      * @ElementName listenToCurrentPersonalizedName
      * @Type string
      * @Optional
-     * @Group 80c5986946137c505e41f6008c7f75a8:786
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:841
      * @var string|null
      */
     private $listenToCurrentPersonalizedName = null;
@@ -32,7 +32,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PersonalizedNameMenu
      * @ElementName deletePersonalizedName
      * @Type string
      * @Optional
-     * @Group 80c5986946137c505e41f6008c7f75a8:786
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:841
      * @var string|null
      */
     private $deletePersonalizedName = null;
@@ -40,7 +40,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PersonalizedNameMenu
     /**
      * @ElementName returnToPreviousMenu
      * @Type string
-     * @Group 80c5986946137c505e41f6008c7f75a8:786
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:841
      * @var string|null
      */
     private $returnToPreviousMenu = null;
@@ -49,7 +49,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PersonalizedNameMenu
      * @ElementName repeatMenu
      * @Type string
      * @Optional
-     * @Group 80c5986946137c505e41f6008c7f75a8:786
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:841
      * @var string|null
      */
     private $repeatMenu = null;

@@ -14,7 +14,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SystemCallProcessingPolicyProfileRoutePointProfileGetResponse
  * @see ErrorResponse
  * @see SystemCallProcessingPolicyProfileRoutePointProfileGetRequest22
- * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:20065","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:36746","type":"sequence"}]
  */
 class SystemCallProcessingPolicyProfileRoutePointProfileGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -22,7 +22,7 @@ class SystemCallProcessingPolicyProfileRoutePointProfileGetRequest extends \CWM\
     /**
      * @ElementName callProcessingPolicyProfileName
      * @Type string
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:20065
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:36746
      * @var string|null
      */
     private $callProcessingPolicyProfileName = null;

@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see UserSelectiveCallRejectionGetCriteriaResponse16sp1
  * @see ErrorResponse
  * @see UserSelectiveCallRejectionGetCriteriaRequest21
- * @Groups [{"id":"bb12a3589ab4748963f28f7ac9310f70:5539","type":"sequence"}]
+ * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:3669","type":"sequence"}]
  */
 class UserSelectiveCallRejectionGetCriteriaRequest16sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class UserSelectiveCallRejectionGetCriteriaRequest16sp1 extends \CWM\BroadWorksC
     /**
      * @ElementName userId
      * @Type string
-     * @Group bb12a3589ab4748963f28f7ac9310f70:5539
+     * @Group de4d76f01f337fe4694212ec9f771753:3669
      * @var string|null
      */
     private $userId = null;
@@ -28,7 +28,7 @@ class UserSelectiveCallRejectionGetCriteriaRequest16sp1 extends \CWM\BroadWorksC
     /**
      * @ElementName criteriaName
      * @Type string
-     * @Group bb12a3589ab4748963f28f7ac9310f70:5539
+     * @Group de4d76f01f337fe4694212ec9f771753:3669
      * @var string|null
      */
     private $criteriaName = null;

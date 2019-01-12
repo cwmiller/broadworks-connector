@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * The voice portal greeting only forwarding destination menu keys.
  *
- * @Groups [{"id":"80c5986946137c505e41f6008c7f75a8:2582","type":"sequence"}]
+ * @Groups [{"id":"3347d430e0d5c93a9ff8dcf0e3b60d6c:2636","type":"sequence"}]
  */
 class GreetingOnlyForwardingDestinationMenuKeysReadEntry
 {
@@ -16,7 +16,7 @@ class GreetingOnlyForwardingDestinationMenuKeysReadEntry
      * @ElementName greetingOnlyForwardingDestination
      * @Type string
      * @Optional
-     * @Group 80c5986946137c505e41f6008c7f75a8:2582
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2636
      * @var string|null
      */
     private $greetingOnlyForwardingDestination = null;

@@ -14,7 +14,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"56f1bd27c6955cc11e0869b6463fb814:117","type":"sequence"}]
+ * @Groups [{"id":"74a46a9bfccb54713c1d19735843f1df:116","type":"sequence"}]
  */
 class ServiceProviderPreferredCarrierAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -22,7 +22,7 @@ class ServiceProviderPreferredCarrierAddRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 56f1bd27c6955cc11e0869b6463fb814:117
+     * @Group 74a46a9bfccb54713c1d19735843f1df:116
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -30,7 +30,7 @@ class ServiceProviderPreferredCarrierAddRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName countryCode
      * @Type string
-     * @Group 56f1bd27c6955cc11e0869b6463fb814:117
+     * @Group 74a46a9bfccb54713c1d19735843f1df:116
      * @var string|null
      */
     private $countryCode = null;
@@ -39,7 +39,7 @@ class ServiceProviderPreferredCarrierAddRequest extends \CWM\BroadWorksConnector
      * @ElementName intraLataCarrier
      * @Type string
      * @Optional
-     * @Group 56f1bd27c6955cc11e0869b6463fb814:117
+     * @Group 74a46a9bfccb54713c1d19735843f1df:116
      * @var string|null
      */
     private $intraLataCarrier = null;
@@ -48,7 +48,7 @@ class ServiceProviderPreferredCarrierAddRequest extends \CWM\BroadWorksConnector
      * @ElementName interLataCarrier
      * @Type string
      * @Optional
-     * @Group 56f1bd27c6955cc11e0869b6463fb814:117
+     * @Group 74a46a9bfccb54713c1d19735843f1df:116
      * @var string|null
      */
     private $interLataCarrier = null;
@@ -57,7 +57,7 @@ class ServiceProviderPreferredCarrierAddRequest extends \CWM\BroadWorksConnector
      * @ElementName internationalCarrier
      * @Type string
      * @Optional
-     * @Group 56f1bd27c6955cc11e0869b6463fb814:117
+     * @Group 74a46a9bfccb54713c1d19735843f1df:116
      * @var string|null
      */
     private $internationalCarrier = null;

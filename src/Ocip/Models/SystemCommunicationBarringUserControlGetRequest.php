@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemCommunicationBarringUserControlGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"19bd5fd2bc588aeb4f5ac00683616732:45","type":"sequence"}]
+ * @Groups [{"id":"4277c572e54919d6e29f4c0fa69aaad1:45","type":"sequence"}]
  */
 class SystemCommunicationBarringUserControlGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

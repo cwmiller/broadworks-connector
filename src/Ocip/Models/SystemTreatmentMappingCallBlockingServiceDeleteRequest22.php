@@ -7,10 +7,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Delete a Call Blocking Service mapping.
  *         The response is either a SuccessResponse or an ErrorResponse.
+ *         
+ *         Replaced by: SystemTreatmentMappingCallBlockingServiceDeleteRequest22V2 in AS data mode
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"b5f5416d9e71f8e4246cda16c4723744:16487","type":"sequence"}]
+ * @see SystemTreatmentMappingCallBlockingServiceDeleteRequest22V2
+ * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:6825","type":"sequence"}]
  */
 class SystemTreatmentMappingCallBlockingServiceDeleteRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +21,7 @@ class SystemTreatmentMappingCallBlockingServiceDeleteRequest22 extends \CWM\Broa
     /**
      * @ElementName callBlockingService
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallBlockingService22
-     * @Group b5f5416d9e71f8e4246cda16c4723744:16487
+     * @Group de4d76f01f337fe4694212ec9f771753:6825
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallBlockingService22|null
      */
     private $callBlockingService = null;

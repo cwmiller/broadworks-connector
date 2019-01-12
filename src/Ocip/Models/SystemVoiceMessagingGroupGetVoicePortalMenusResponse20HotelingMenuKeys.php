@@ -5,7 +5,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemVoiceMessagingGroupGetVoicePortalMenusResponse20HotelingMenuKeys
  *
- * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:31393","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:34113","type":"sequence"}]
  */
 class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20HotelingMenuKeys
 {
@@ -14,7 +14,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20HotelingMenuKeys
      * @ElementName checkHostStatus
      * @Type string
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:31393
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:34113
      * @var string|null
      */
     private $checkHostStatus = null;
@@ -23,7 +23,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20HotelingMenuKeys
      * @ElementName associateWithHost
      * @Type string
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:31393
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:34113
      * @var string|null
      */
     private $associateWithHost = null;
@@ -32,7 +32,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20HotelingMenuKeys
      * @ElementName disassociateFromHost
      * @Type string
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:31393
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:34113
      * @var string|null
      */
     private $disassociateFromHost = null;
@@ -41,7 +41,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20HotelingMenuKeys
      * @ElementName disassociateFromRemoteHost
      * @Type string
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:31393
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:34113
      * @var string|null
      */
     private $disassociateFromRemoteHost = null;
@@ -49,7 +49,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20HotelingMenuKeys
     /**
      * @ElementName returnToPreviousMenu
      * @Type string
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:31393
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:34113
      * @var string|null
      */
     private $returnToPreviousMenu = null;
@@ -58,7 +58,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20HotelingMenuKeys
      * @ElementName repeatMenu
      * @Type string
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:31393
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:34113
      * @var string|null
      */
     private $repeatMenu = null;

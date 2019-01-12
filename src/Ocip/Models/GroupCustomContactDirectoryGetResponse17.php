@@ -24,7 +24,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Note and a Note exists.
  *
  * @see GroupCustomContactDirectoryGetRequest17
- * @Groups [{"id":"15129cd25fa2d5581f4edfd652c24f93:2703","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:2882","type":"sequence"}]
  */
 class GroupCustomContactDirectoryGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -32,7 +32,7 @@ class GroupCustomContactDirectoryGetResponse17 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName userTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 15129cd25fa2d5581f4edfd652c24f93:2703
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:2882
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $userTable = null;

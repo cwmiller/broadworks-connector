@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"b5f5416d9e71f8e4246cda16c4723744:2193","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:2226","type":"sequence"}]
  */
 class SystemBwDiameterBaseDataModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class SystemBwDiameterBaseDataModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @Type string
      * @Nillable
      * @Optional
-     * @Group b5f5416d9e71f8e4246cda16c4723744:2193
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2226
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $xsRealm = null;
@@ -29,17 +29,44 @@ class SystemBwDiameterBaseDataModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName xsListeningPort
      * @Type int
      * @Optional
-     * @Group b5f5416d9e71f8e4246cda16c4723744:2193
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2226
      * @var int|null
      */
     private $xsListeningPort = null;
+
+    /**
+     * @ElementName xsListeningPortEnabled
+     * @Type bool
+     * @Optional
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2226
+     * @var bool|null
+     */
+    private $xsListeningPortEnabled = null;
+
+    /**
+     * @ElementName xsListeningSecurePort
+     * @Type int
+     * @Optional
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2226
+     * @var int|null
+     */
+    private $xsListeningSecurePort = null;
+
+    /**
+     * @ElementName xsListeningSecurePortEnabled
+     * @Type bool
+     * @Optional
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2226
+     * @var bool|null
+     */
+    private $xsListeningSecurePortEnabled = null;
 
     /**
      * @ElementName psRealm
      * @Type string
      * @Nillable
      * @Optional
-     * @Group b5f5416d9e71f8e4246cda16c4723744:2193
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2226
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $psRealm = null;
@@ -48,16 +75,43 @@ class SystemBwDiameterBaseDataModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName psListeningPort
      * @Type int
      * @Optional
-     * @Group b5f5416d9e71f8e4246cda16c4723744:2193
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2226
      * @var int|null
      */
     private $psListeningPort = null;
 
     /**
+     * @ElementName psListeningPortEnabled
+     * @Type bool
+     * @Optional
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2226
+     * @var bool|null
+     */
+    private $psListeningPortEnabled = null;
+
+    /**
+     * @ElementName psListeningSecurePort
+     * @Type int
+     * @Optional
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2226
+     * @var int|null
+     */
+    private $psListeningSecurePort = null;
+
+    /**
+     * @ElementName psListeningSecurePortEnabled
+     * @Type bool
+     * @Optional
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2226
+     * @var bool|null
+     */
+    private $psListeningSecurePortEnabled = null;
+
+    /**
      * @ElementName psRelayThroughXs
      * @Type bool
      * @Optional
-     * @Group b5f5416d9e71f8e4246cda16c4723744:2193
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2226
      * @var bool|null
      */
     private $psRelayThroughXs = null;
@@ -66,7 +120,7 @@ class SystemBwDiameterBaseDataModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName xsRelayListeningPort
      * @Type int
      * @Optional
-     * @Group b5f5416d9e71f8e4246cda16c4723744:2193
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2226
      * @var int|null
      */
     private $xsRelayListeningPort = null;
@@ -75,7 +129,7 @@ class SystemBwDiameterBaseDataModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName tcTimerSeconds
      * @Type int
      * @Optional
-     * @Group b5f5416d9e71f8e4246cda16c4723744:2193
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2226
      * @var int|null
      */
     private $tcTimerSeconds = null;
@@ -84,7 +138,7 @@ class SystemBwDiameterBaseDataModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName twTimerSeconds
      * @Type int
      * @Optional
-     * @Group b5f5416d9e71f8e4246cda16c4723744:2193
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2226
      * @var int|null
      */
     private $twTimerSeconds = null;
@@ -93,7 +147,7 @@ class SystemBwDiameterBaseDataModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName requestTimerSeconds
      * @Type int
      * @Optional
-     * @Group b5f5416d9e71f8e4246cda16c4723744:2193
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2226
      * @var int|null
      */
     private $requestTimerSeconds = null;
@@ -102,7 +156,7 @@ class SystemBwDiameterBaseDataModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName busyPeerDetectionOutstandingTxnCount
      * @Type int
      * @Optional
-     * @Group b5f5416d9e71f8e4246cda16c4723744:2193
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2226
      * @var int|null
      */
     private $busyPeerDetectionOutstandingTxnCount = null;
@@ -111,7 +165,7 @@ class SystemBwDiameterBaseDataModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName busyPeerRestoreOutstandingTxnCount
      * @Type int
      * @Optional
-     * @Group b5f5416d9e71f8e4246cda16c4723744:2193
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2226
      * @var int|null
      */
     private $busyPeerRestoreOutstandingTxnCount = null;
@@ -120,7 +174,7 @@ class SystemBwDiameterBaseDataModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName dynamicEntryInactivityTimerHours
      * @Type int
      * @Optional
-     * @Group b5f5416d9e71f8e4246cda16c4723744:2193
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2226
      * @var int|null
      */
     private $dynamicEntryInactivityTimerHours = null;
@@ -129,7 +183,7 @@ class SystemBwDiameterBaseDataModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName advertisedOfflineBillingApplication
      * @Type \CWM\BroadWorksConnector\Ocip\Models\BwDiameterAdvertisedApplication
      * @Optional
-     * @Group b5f5416d9e71f8e4246cda16c4723744:2193
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2226
      * @var \CWM\BroadWorksConnector\Ocip\Models\BwDiameterAdvertisedApplication|null
      */
     private $advertisedOfflineBillingApplication = null;
@@ -138,10 +192,37 @@ class SystemBwDiameterBaseDataModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName advertisedOnlineBillingApplication
      * @Type \CWM\BroadWorksConnector\Ocip\Models\BwDiameterAdvertisedApplication
      * @Optional
-     * @Group b5f5416d9e71f8e4246cda16c4723744:2193
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2226
      * @var \CWM\BroadWorksConnector\Ocip\Models\BwDiameterAdvertisedApplication|null
      */
     private $advertisedOnlineBillingApplication = null;
+
+    /**
+     * @ElementName defaultPort
+     * @Type int
+     * @Optional
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2226
+     * @var int|null
+     */
+    private $defaultPort = null;
+
+    /**
+     * @ElementName defaultSecurePort
+     * @Type int
+     * @Optional
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2226
+     * @var int|null
+     */
+    private $defaultSecurePort = null;
+
+    /**
+     * @ElementName peerDiscoveryMode
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\DiameterPeerDiscoveryMode
+     * @Optional
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2226
+     * @var \CWM\BroadWorksConnector\Ocip\Models\DiameterPeerDiscoveryMode|null
+     */
+    private $peerDiscoveryMode = null;
 
     /**
      * Getter for xsRealm
@@ -210,6 +291,99 @@ class SystemBwDiameterBaseDataModifyRequest extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * Getter for xsListeningPortEnabled
+     *
+     * @return bool
+     */
+    public function getXsListeningPortEnabled()
+    {
+        return $this->xsListeningPortEnabled instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->xsListeningPortEnabled;
+    }
+
+    /**
+     * Setter for xsListeningPortEnabled
+     *
+     * @param bool $xsListeningPortEnabled
+     * @return $this
+     */
+    public function setXsListeningPortEnabled($xsListeningPortEnabled)
+    {
+        $this->xsListeningPortEnabled = $xsListeningPortEnabled;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetXsListeningPortEnabled()
+    {
+        $this->xsListeningPortEnabled = null;
+        return $this;
+    }
+
+    /**
+     * Getter for xsListeningSecurePort
+     *
+     * @return int
+     */
+    public function getXsListeningSecurePort()
+    {
+        return $this->xsListeningSecurePort instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->xsListeningSecurePort;
+    }
+
+    /**
+     * Setter for xsListeningSecurePort
+     *
+     * @param int $xsListeningSecurePort
+     * @return $this
+     */
+    public function setXsListeningSecurePort($xsListeningSecurePort)
+    {
+        $this->xsListeningSecurePort = $xsListeningSecurePort;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetXsListeningSecurePort()
+    {
+        $this->xsListeningSecurePort = null;
+        return $this;
+    }
+
+    /**
+     * Getter for xsListeningSecurePortEnabled
+     *
+     * @return bool
+     */
+    public function getXsListeningSecurePortEnabled()
+    {
+        return $this->xsListeningSecurePortEnabled instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->xsListeningSecurePortEnabled;
+    }
+
+    /**
+     * Setter for xsListeningSecurePortEnabled
+     *
+     * @param bool $xsListeningSecurePortEnabled
+     * @return $this
+     */
+    public function setXsListeningSecurePortEnabled($xsListeningSecurePortEnabled)
+    {
+        $this->xsListeningSecurePortEnabled = $xsListeningSecurePortEnabled;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetXsListeningSecurePortEnabled()
+    {
+        $this->xsListeningSecurePortEnabled = null;
+        return $this;
+    }
+
+    /**
      * Getter for psRealm
      *
      * @return string|null
@@ -272,6 +446,99 @@ class SystemBwDiameterBaseDataModifyRequest extends \CWM\BroadWorksConnector\Oci
     public function unsetPsListeningPort()
     {
         $this->psListeningPort = null;
+        return $this;
+    }
+
+    /**
+     * Getter for psListeningPortEnabled
+     *
+     * @return bool
+     */
+    public function getPsListeningPortEnabled()
+    {
+        return $this->psListeningPortEnabled instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->psListeningPortEnabled;
+    }
+
+    /**
+     * Setter for psListeningPortEnabled
+     *
+     * @param bool $psListeningPortEnabled
+     * @return $this
+     */
+    public function setPsListeningPortEnabled($psListeningPortEnabled)
+    {
+        $this->psListeningPortEnabled = $psListeningPortEnabled;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetPsListeningPortEnabled()
+    {
+        $this->psListeningPortEnabled = null;
+        return $this;
+    }
+
+    /**
+     * Getter for psListeningSecurePort
+     *
+     * @return int
+     */
+    public function getPsListeningSecurePort()
+    {
+        return $this->psListeningSecurePort instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->psListeningSecurePort;
+    }
+
+    /**
+     * Setter for psListeningSecurePort
+     *
+     * @param int $psListeningSecurePort
+     * @return $this
+     */
+    public function setPsListeningSecurePort($psListeningSecurePort)
+    {
+        $this->psListeningSecurePort = $psListeningSecurePort;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetPsListeningSecurePort()
+    {
+        $this->psListeningSecurePort = null;
+        return $this;
+    }
+
+    /**
+     * Getter for psListeningSecurePortEnabled
+     *
+     * @return bool
+     */
+    public function getPsListeningSecurePortEnabled()
+    {
+        return $this->psListeningSecurePortEnabled instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->psListeningSecurePortEnabled;
+    }
+
+    /**
+     * Setter for psListeningSecurePortEnabled
+     *
+     * @param bool $psListeningSecurePortEnabled
+     * @return $this
+     */
+    public function setPsListeningSecurePortEnabled($psListeningSecurePortEnabled)
+    {
+        $this->psListeningSecurePortEnabled = $psListeningSecurePortEnabled;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetPsListeningSecurePortEnabled()
+    {
+        $this->psListeningSecurePortEnabled = null;
         return $this;
     }
 
@@ -582,6 +849,99 @@ class SystemBwDiameterBaseDataModifyRequest extends \CWM\BroadWorksConnector\Oci
     public function unsetAdvertisedOnlineBillingApplication()
     {
         $this->advertisedOnlineBillingApplication = null;
+        return $this;
+    }
+
+    /**
+     * Getter for defaultPort
+     *
+     * @return int
+     */
+    public function getDefaultPort()
+    {
+        return $this->defaultPort instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->defaultPort;
+    }
+
+    /**
+     * Setter for defaultPort
+     *
+     * @param int $defaultPort
+     * @return $this
+     */
+    public function setDefaultPort($defaultPort)
+    {
+        $this->defaultPort = $defaultPort;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDefaultPort()
+    {
+        $this->defaultPort = null;
+        return $this;
+    }
+
+    /**
+     * Getter for defaultSecurePort
+     *
+     * @return int
+     */
+    public function getDefaultSecurePort()
+    {
+        return $this->defaultSecurePort instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->defaultSecurePort;
+    }
+
+    /**
+     * Setter for defaultSecurePort
+     *
+     * @param int $defaultSecurePort
+     * @return $this
+     */
+    public function setDefaultSecurePort($defaultSecurePort)
+    {
+        $this->defaultSecurePort = $defaultSecurePort;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDefaultSecurePort()
+    {
+        $this->defaultSecurePort = null;
+        return $this;
+    }
+
+    /**
+     * Getter for peerDiscoveryMode
+     *
+     * @return \CWM\BroadWorksConnector\Ocip\Models\DiameterPeerDiscoveryMode
+     */
+    public function getPeerDiscoveryMode()
+    {
+        return $this->peerDiscoveryMode instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->peerDiscoveryMode;
+    }
+
+    /**
+     * Setter for peerDiscoveryMode
+     *
+     * @param \CWM\BroadWorksConnector\Ocip\Models\DiameterPeerDiscoveryMode $peerDiscoveryMode
+     * @return $this
+     */
+    public function setPeerDiscoveryMode(\CWM\BroadWorksConnector\Ocip\Models\DiameterPeerDiscoveryMode $peerDiscoveryMode)
+    {
+        $this->peerDiscoveryMode = $peerDiscoveryMode;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetPeerDiscoveryMode()
+    {
+        $this->peerDiscoveryMode = null;
         return $this;
     }
 

@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * A replacement list of direct route parameters.
  *
- * @Groups [{"id":"a23ada2e46d8597752a0a7f9f0e59f98:113","type":"sequence","children":[{"id":"a23ada2e46d8597752a0a7f9f0e59f98:114","type":"choice","optional":true}]}]
+ * @Groups [{"id":"4e1b40cd187e65e0dc647394b1e74e3c:113","type":"sequence","children":[{"id":"4e1b40cd187e65e0dc647394b1e74e3c:114","type":"choice","optional":true}]}]
  */
 class DirectRouteReplacementIdentityList
 {
@@ -15,7 +15,7 @@ class DirectRouteReplacementIdentityList
     /**
      * @ElementName dtgIdentity
      * @Type string
-     * @Group a23ada2e46d8597752a0a7f9f0e59f98:114
+     * @Group 4e1b40cd187e65e0dc647394b1e74e3c:114
      * @var string|null
      */
     private $dtgIdentity = null;
@@ -23,7 +23,7 @@ class DirectRouteReplacementIdentityList
     /**
      * @ElementName trunkIdentity
      * @Type string
-     * @Group a23ada2e46d8597752a0a7f9f0e59f98:114
+     * @Group 4e1b40cd187e65e0dc647394b1e74e3c:114
      * @var string|null
      */
     private $trunkIdentity = null;

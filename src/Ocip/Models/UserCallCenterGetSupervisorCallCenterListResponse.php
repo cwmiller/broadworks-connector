@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "Extension", "Type" and "Priority".
  *
  * @see UserCallCenterGetSupervisorCallCenterListRequest
- * @Groups [{"id":"3ac5f05d969bc771d6ba8d344d95aa72:6450","type":"sequence"}]
+ * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:7134","type":"sequence"}]
  */
 class UserCallCenterGetSupervisorCallCenterListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class UserCallCenterGetSupervisorCallCenterListResponse extends \CWM\BroadWorksC
     /**
      * @ElementName callCenterTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:6450
+     * @Group e2c537e3e39483b96620673a7012ffdd:7134
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $callCenterTable = null;

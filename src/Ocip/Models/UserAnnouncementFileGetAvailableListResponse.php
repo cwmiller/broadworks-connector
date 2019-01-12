@@ -18,7 +18,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The "File Size" column contains the file size in kB of the announcement file.
  *
  * @see UserAnnouncementFileGetAvailableListRequest
- * @Groups [{"id":"ee3830ce42f01a3ef2a105d473fc3b17:467","type":"sequence"}]
+ * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:486","type":"sequence"}]
  */
 class UserAnnouncementFileGetAvailableListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -26,7 +26,7 @@ class UserAnnouncementFileGetAvailableListResponse extends \CWM\BroadWorksConnec
     /**
      * @ElementName announcementTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group ee3830ce42f01a3ef2a105d473fc3b17:467
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:486
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $announcementTable = null;

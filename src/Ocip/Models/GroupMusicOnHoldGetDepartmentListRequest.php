@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupMusicOnHoldGetDepartmentListResponse
  * @see ErrorResponse
- * @Groups [{"id":"130a60503dce5611168ce780c0797cc9:93","type":"sequence"}]
+ * @Groups [{"id":"66fe518a637c74cc4b2c97aa7f68fc49:93","type":"sequence"}]
  */
 class GroupMusicOnHoldGetDepartmentListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class GroupMusicOnHoldGetDepartmentListRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 130a60503dce5611168ce780c0797cc9:93
+     * @Group 66fe518a637c74cc4b2c97aa7f68fc49:93
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,7 +27,7 @@ class GroupMusicOnHoldGetDepartmentListRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 130a60503dce5611168ce780c0797cc9:93
+     * @Group 66fe518a637c74cc4b2c97aa7f68fc49:93
      * @var string|null
      */
     private $groupId = null;
@@ -36,7 +36,7 @@ class GroupMusicOnHoldGetDepartmentListRequest extends \CWM\BroadWorksConnector\
      * @ElementName groupDepartmentName
      * @Type string
      * @Optional
-     * @Group 130a60503dce5611168ce780c0797cc9:93
+     * @Group 66fe518a637c74cc4b2c97aa7f68fc49:93
      * @var string|null
      */
     private $groupDepartmentName = null;

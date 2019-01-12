@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SystemSMPPGetResponse14sp5
  * @see ErrorResponse
  * @see SystemSMPPGetRequest21
- * @Groups [{"id":"bb12a3589ab4748963f28f7ac9310f70:4238","type":"sequence"}]
+ * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:3298","type":"sequence"}]
  */
 class SystemSMPPGetRequest14sp5 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

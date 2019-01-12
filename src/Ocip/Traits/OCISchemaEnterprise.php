@@ -37,8 +37,8 @@ use CWM\BroadWorksConnector\Ocip\Models\EnterpriseDepartmentGetAvailableParentLi
 use CWM\BroadWorksConnector\Ocip\Models\EnterpriseDepartmentGetListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\EnterpriseDepartmentGetListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\EnterpriseDepartmentModifyRequest;
-use CWM\BroadWorksConnector\Ocip\Models\EnterprisePhoneDirectoryGetListRequest18;
-use CWM\BroadWorksConnector\Ocip\Models\EnterprisePhoneDirectoryGetListResponse18;
+use CWM\BroadWorksConnector\Ocip\Models\EnterprisePhoneDirectoryGetPagedSortedListRequest;
+use CWM\BroadWorksConnector\Ocip\Models\EnterprisePhoneDirectoryGetPagedSortedListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\EnterpriseSecurityClassificationCustomizationGetAvailableListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\EnterpriseSecurityClassificationCustomizationGetAvailableListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\EnterpriseSessionAdmissionControlGetAvailableDeviceListRequest;
@@ -377,12 +377,12 @@ trait OCISchemaEnterprise
     }
 
     /**
-     * @param EnterprisePhoneDirectoryGetListRequest18 $request
-     * @return EnterprisePhoneDirectoryGetListResponse18
+     * @param EnterprisePhoneDirectoryGetPagedSortedListRequest $request
+     * @return EnterprisePhoneDirectoryGetPagedSortedListResponse
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function enterprisePhoneDirectoryGetListRequest18(\CWM\BroadWorksConnector\Ocip\Models\EnterprisePhoneDirectoryGetListRequest18 $request)
+    public function enterprisePhoneDirectoryGetPagedSortedListRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterprisePhoneDirectoryGetPagedSortedListRequest $request)
     {
         return $this->call($request);
     }

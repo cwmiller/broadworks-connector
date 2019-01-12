@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupFlexibleSeatingHostRoutingPoliciesGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"93e99b1f9cf4a71b31301a1fe7f0e190:314","type":"sequence"}]
+ * @Groups [{"id":"43afb2158d313a1d1a148124d7caba1e:313","type":"sequence"}]
  */
 class GroupFlexibleSeatingHostRoutingPoliciesGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupFlexibleSeatingHostRoutingPoliciesGetRequest extends \CWM\BroadWorksC
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group 93e99b1f9cf4a71b31301a1fe7f0e190:314
+     * @Group 43afb2158d313a1d1a148124d7caba1e:313
      * @var string|null
      */
     private $serviceUserId = null;

@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The value Mobility in Endpoint Type is only applicable in AS data mode.
  *
  * @see UserShInterfaceGetUserIdDataRequest21sp1
- * @Groups [{"id":"ee3830ce42f01a3ef2a105d473fc3b17:3327","type":"sequence"}]
+ * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:3714","type":"sequence"}]
  */
 class UserShInterfaceGetUserIdDataResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -21,7 +21,7 @@ class UserShInterfaceGetUserIdDataResponse21sp1 extends \CWM\BroadWorksConnector
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ShInterfaceUserIdDataEntry21sp1
      * @Array
      * @Optional
-     * @Group ee3830ce42f01a3ef2a105d473fc3b17:3327
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:3714
      * @var \CWM\BroadWorksConnector\Ocip\Models\ShInterfaceUserIdDataEntry21sp1[]
      */
     private $entry = array(

@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see UserHotelingHostGetResponse14
  * @see ErrorResponse
  * @see UserHotelingHostGetRequest14sp4
- * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:36045","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:7169","type":"sequence"}]
  */
 class UserHotelingHostGetRequest14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class UserHotelingHostGetRequest14 extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName userId
      * @Type string
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:36045
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:7169
      * @var string|null
      */
     private $userId = null;

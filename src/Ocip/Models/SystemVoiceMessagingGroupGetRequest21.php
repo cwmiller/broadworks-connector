@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SystemVoiceMessagingGroupGetResponse21
  * @see ErrorResponse
  * @see SystemVoiceMessagingGroupGetRequest22
- * @Groups [{"id":"bb12a3589ab4748963f28f7ac9310f70:4420","type":"sequence"}]
+ * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:6987","type":"sequence"}]
  */
 class SystemVoiceMessagingGroupGetRequest21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

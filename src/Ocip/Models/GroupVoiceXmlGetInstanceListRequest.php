@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupVoiceXmlGetInstanceListResponse
  * @see ErrorResponse
- * @Groups [{"id":"faa3513e1056a71169f28b6219f96cad:86","type":"sequence"}]
+ * @Groups [{"id":"0639a23b2e14be05c11ead49c23bd0bd:86","type":"sequence"}]
  */
 class GroupVoiceXmlGetInstanceListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class GroupVoiceXmlGetInstanceListRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group faa3513e1056a71169f28b6219f96cad:86
+     * @Group 0639a23b2e14be05c11ead49c23bd0bd:86
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,7 +27,7 @@ class GroupVoiceXmlGetInstanceListRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName groupId
      * @Type string
-     * @Group faa3513e1056a71169f28b6219f96cad:86
+     * @Group 0639a23b2e14be05c11ead49c23bd0bd:86
      * @var string|null
      */
     private $groupId = null;
@@ -36,7 +36,7 @@ class GroupVoiceXmlGetInstanceListRequest extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName groupDepartmentName
      * @Type string
      * @Optional
-     * @Group faa3513e1056a71169f28b6219f96cad:86
+     * @Group 0639a23b2e14be05c11ead49c23bd0bd:86
      * @var string|null
      */
     private $groupDepartmentName = null;

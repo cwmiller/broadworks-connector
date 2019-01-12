@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * The configuration of the automated receptionist greeting
  *         prompt and dialing menu to be used during after business hours.
  *
- * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:38328","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:42723","type":"sequence"}]
  */
 class AutoAttendantReadMenu16
 {
@@ -16,7 +16,7 @@ class AutoAttendantReadMenu16
     /**
      * @ElementName announcementSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:38328
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:42723
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection|null
      */
     private $announcementSelection = null;
@@ -25,7 +25,7 @@ class AutoAttendantReadMenu16
      * @ElementName audioFileDescription
      * @Type string
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:38328
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:42723
      * @var string|null
      */
     private $audioFileDescription = null;
@@ -34,7 +34,7 @@ class AutoAttendantReadMenu16
      * @ElementName audioMediaType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MediaFileType
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:38328
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:42723
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     private $audioMediaType = null;
@@ -43,7 +43,7 @@ class AutoAttendantReadMenu16
      * @ElementName videoFileDescription
      * @Type string
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:38328
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:42723
      * @var string|null
      */
     private $videoFileDescription = null;
@@ -52,7 +52,7 @@ class AutoAttendantReadMenu16
      * @ElementName videoMediaType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MediaFileType
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:38328
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:42723
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     private $videoMediaType = null;
@@ -60,7 +60,7 @@ class AutoAttendantReadMenu16
     /**
      * @ElementName enableFirstMenuLevelExtensionDialing
      * @Type bool
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:38328
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:42723
      * @var bool|null
      */
     private $enableFirstMenuLevelExtensionDialing = null;
@@ -70,7 +70,7 @@ class AutoAttendantReadMenu16
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantKeyConfiguration
      * @Array
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:38328
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:42723
      * @var \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantKeyConfiguration[]
      */
     private $keyConfiguration = array(

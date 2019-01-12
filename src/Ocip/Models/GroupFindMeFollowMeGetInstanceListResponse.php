@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The column value for "Is Active" can either be true, or false.
  *
  * @see GroupFindMeFollowMeGetInstanceListRequest
- * @Groups [{"id":"c81ec650475acb5cc7b075c4582c12ba:362","type":"sequence"}]
+ * @Groups [{"id":"79f226053ee345f2ff4c37c37c8e9114:361","type":"sequence"}]
  */
 class GroupFindMeFollowMeGetInstanceListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,7 +19,7 @@ class GroupFindMeFollowMeGetInstanceListResponse extends \CWM\BroadWorksConnecto
     /**
      * @ElementName findMeFollowMeTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group c81ec650475acb5cc7b075c4582c12ba:362
+     * @Group 79f226053ee345f2ff4c37c37c8e9114:361
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $findMeFollowMeTable = null;

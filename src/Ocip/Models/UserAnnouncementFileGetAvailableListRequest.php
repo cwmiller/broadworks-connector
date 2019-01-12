@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get the list of available announcement files for a User from the Announcement Repository,
  *         for Virtual subscribers the list will also include the announcements for it's group.
  *
- * @Groups [{"id":"ee3830ce42f01a3ef2a105d473fc3b17:441","type":"sequence"}]
+ * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:460","type":"sequence"}]
  */
 class UserAnnouncementFileGetAvailableListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -16,7 +16,7 @@ class UserAnnouncementFileGetAvailableListRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName userId
      * @Type string
-     * @Group ee3830ce42f01a3ef2a105d473fc3b17:441
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:460
      * @var string|null
      */
     private $userId = null;
@@ -25,7 +25,7 @@ class UserAnnouncementFileGetAvailableListRequest extends \CWM\BroadWorksConnect
      * @ElementName announcementFileType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileType
      * @Optional
-     * @Group ee3830ce42f01a3ef2a105d473fc3b17:441
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:460
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileType|null
      */
     private $announcementFileType = null;

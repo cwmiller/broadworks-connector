@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"3ac5f05d969bc771d6ba8d344d95aa72:6115","type":"sequence"}]
+ * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:6736","type":"sequence"}]
  */
 class UserCallCenterEnhancedReportingScheduledReportDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserCallCenterEnhancedReportingScheduledReportDeleteRequest extends \CWM\B
     /**
      * @ElementName supervisorUserId
      * @Type string
-     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:6115
+     * @Group e2c537e3e39483b96620673a7012ffdd:6736
      * @var string|null
      */
     private $supervisorUserId = null;
@@ -26,7 +26,7 @@ class UserCallCenterEnhancedReportingScheduledReportDeleteRequest extends \CWM\B
     /**
      * @ElementName name
      * @Type string
-     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:6115
+     * @Group e2c537e3e39483b96620673a7012ffdd:6736
      * @var string|null
      */
     private $name = null;

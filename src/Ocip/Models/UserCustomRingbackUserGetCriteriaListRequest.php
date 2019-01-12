@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserCustomRingbackUserGetCriteriaListResponse
  * @see ErrorResponse
- * @Groups [{"id":"8a23aaf1ac27e4cc24358bde118786dd:155","type":"sequence"}]
+ * @Groups [{"id":"80acd3e6f38b9682dcefe7cd473392c3:155","type":"sequence"}]
  */
 class UserCustomRingbackUserGetCriteriaListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserCustomRingbackUserGetCriteriaListRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName userId
      * @Type string
-     * @Group 8a23aaf1ac27e4cc24358bde118786dd:155
+     * @Group 80acd3e6f38b9682dcefe7cd473392c3:155
      * @var string|null
      */
     private $userId = null;

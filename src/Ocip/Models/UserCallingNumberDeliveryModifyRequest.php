@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"414c5033bdc91aec8d1c5dae72aaebd2:76","type":"sequence"}]
+ * @Groups [{"id":"2739e54a6c7a2ab6abe092f89482573e:76","type":"sequence"}]
  */
 class UserCallingNumberDeliveryModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserCallingNumberDeliveryModifyRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName userId
      * @Type string
-     * @Group 414c5033bdc91aec8d1c5dae72aaebd2:76
+     * @Group 2739e54a6c7a2ab6abe092f89482573e:76
      * @var string|null
      */
     private $userId = null;
@@ -27,7 +27,7 @@ class UserCallingNumberDeliveryModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName isActiveForExternalCalls
      * @Type bool
      * @Optional
-     * @Group 414c5033bdc91aec8d1c5dae72aaebd2:76
+     * @Group 2739e54a6c7a2ab6abe092f89482573e:76
      * @var bool|null
      */
     private $isActiveForExternalCalls = null;
@@ -36,7 +36,7 @@ class UserCallingNumberDeliveryModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName isActiveForInternalCalls
      * @Type bool
      * @Optional
-     * @Group 414c5033bdc91aec8d1c5dae72aaebd2:76
+     * @Group 2739e54a6c7a2ab6abe092f89482573e:76
      * @var bool|null
      */
     private $isActiveForInternalCalls = null;

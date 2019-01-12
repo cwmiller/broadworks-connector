@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response contains the list of DNs assigned to the group.
  *
  * @see GroupDnGetListRequest
- * @Groups [{"id":"15129cd25fa2d5581f4edfd652c24f93:4257","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:4432","type":"sequence"}]
  */
 class GroupDnGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,7 +19,7 @@ class GroupDnGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCID
      * @Type string
      * @Array
      * @Optional
-     * @Group 15129cd25fa2d5581f4edfd652c24f93:4257
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:4432
      * @var string[]
      */
     private $phoneNumber = array(

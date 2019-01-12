@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"762df656d5a3c5800001b37599b1e4ce:1356","type":"sequence","children":[{"id":"762df656d5a3c5800001b37599b1e4ce:1367","type":"choice"}]}]
+ * @Groups [{"id":"b9c14e2d80e4e7749688ca13ba233b44:1356","type":"sequence","children":[{"id":"b9c14e2d80e4e7749688ca13ba233b44:1367","type":"choice"}]}]
  */
 class GroupTrunkGroupUserCreationTaskAddRequest14sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupTrunkGroupUserCreationTaskAddRequest14sp4 extends \CWM\BroadWorksConn
     /**
      * @ElementName trunkGroupKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey
-     * @Group 762df656d5a3c5800001b37599b1e4ce:1356
+     * @Group b9c14e2d80e4e7749688ca13ba233b44:1356
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey|null
      */
     private $trunkGroupKey = null;
@@ -26,7 +26,7 @@ class GroupTrunkGroupUserCreationTaskAddRequest14sp4 extends \CWM\BroadWorksConn
     /**
      * @ElementName taskName
      * @Type string
-     * @Group 762df656d5a3c5800001b37599b1e4ce:1356
+     * @Group b9c14e2d80e4e7749688ca13ba233b44:1356
      * @var string|null
      */
     private $taskName = null;
@@ -34,7 +34,7 @@ class GroupTrunkGroupUserCreationTaskAddRequest14sp4 extends \CWM\BroadWorksConn
     /**
      * @ElementName userIdFormat
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupUserCreationUserIdFormat
-     * @Group 762df656d5a3c5800001b37599b1e4ce:1356
+     * @Group b9c14e2d80e4e7749688ca13ba233b44:1356
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupUserCreationUserIdFormat|null
      */
     private $userIdFormat = null;
@@ -42,7 +42,7 @@ class GroupTrunkGroupUserCreationTaskAddRequest14sp4 extends \CWM\BroadWorksConn
     /**
      * @ElementName userIdDomain
      * @Type string
-     * @Group 762df656d5a3c5800001b37599b1e4ce:1356
+     * @Group b9c14e2d80e4e7749688ca13ba233b44:1356
      * @var string|null
      */
     private $userIdDomain = null;
@@ -50,7 +50,7 @@ class GroupTrunkGroupUserCreationTaskAddRequest14sp4 extends \CWM\BroadWorksConn
     /**
      * @ElementName populateExtension
      * @Type bool
-     * @Group 762df656d5a3c5800001b37599b1e4ce:1356
+     * @Group b9c14e2d80e4e7749688ca13ba233b44:1356
      * @var bool|null
      */
     private $populateExtension = null;
@@ -58,7 +58,7 @@ class GroupTrunkGroupUserCreationTaskAddRequest14sp4 extends \CWM\BroadWorksConn
     /**
      * @ElementName linePortFormat
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupUserCreationSIPURIFormat
-     * @Group 762df656d5a3c5800001b37599b1e4ce:1356
+     * @Group b9c14e2d80e4e7749688ca13ba233b44:1356
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupUserCreationSIPURIFormat|null
      */
     private $linePortFormat = null;
@@ -66,7 +66,7 @@ class GroupTrunkGroupUserCreationTaskAddRequest14sp4 extends \CWM\BroadWorksConn
     /**
      * @ElementName linePortDomain
      * @Type string
-     * @Group 762df656d5a3c5800001b37599b1e4ce:1356
+     * @Group b9c14e2d80e4e7749688ca13ba233b44:1356
      * @var string|null
      */
     private $linePortDomain = null;
@@ -74,7 +74,7 @@ class GroupTrunkGroupUserCreationTaskAddRequest14sp4 extends \CWM\BroadWorksConn
     /**
      * @ElementName populateContact
      * @Type bool
-     * @Group 762df656d5a3c5800001b37599b1e4ce:1356
+     * @Group b9c14e2d80e4e7749688ca13ba233b44:1356
      * @var bool|null
      */
     private $populateContact = null;
@@ -83,7 +83,7 @@ class GroupTrunkGroupUserCreationTaskAddRequest14sp4 extends \CWM\BroadWorksConn
      * @ElementName contactFormat
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupUserCreationSIPURIFormat
      * @Optional
-     * @Group 762df656d5a3c5800001b37599b1e4ce:1356
+     * @Group b9c14e2d80e4e7749688ca13ba233b44:1356
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupUserCreationSIPURIFormat|null
      */
     private $contactFormat = null;
@@ -92,7 +92,7 @@ class GroupTrunkGroupUserCreationTaskAddRequest14sp4 extends \CWM\BroadWorksConn
      * @ElementName contactDomain
      * @Type string
      * @Optional
-     * @Group 762df656d5a3c5800001b37599b1e4ce:1356
+     * @Group b9c14e2d80e4e7749688ca13ba233b44:1356
      * @var string|null
      */
     private $contactDomain = null;
@@ -100,7 +100,7 @@ class GroupTrunkGroupUserCreationTaskAddRequest14sp4 extends \CWM\BroadWorksConn
     /**
      * @ElementName userPhoneNumbers
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupUserCreationTaskAddRequest14sp4UserPhoneNumbers
-     * @Group 762df656d5a3c5800001b37599b1e4ce:1367
+     * @Group b9c14e2d80e4e7749688ca13ba233b44:1367
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupUserCreationTaskAddRequest14sp4UserPhoneNumbers|null
      */
     private $userPhoneNumbers = null;
@@ -108,7 +108,7 @@ class GroupTrunkGroupUserCreationTaskAddRequest14sp4 extends \CWM\BroadWorksConn
     /**
      * @ElementName userExtensions
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupUserCreationTaskAddRequest14sp4UserExtensions
-     * @Group 762df656d5a3c5800001b37599b1e4ce:1367
+     * @Group b9c14e2d80e4e7749688ca13ba233b44:1367
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupUserCreationTaskAddRequest14sp4UserExtensions|null
      */
     private $userExtensions = null;
@@ -118,7 +118,7 @@ class GroupTrunkGroupUserCreationTaskAddRequest14sp4 extends \CWM\BroadWorksConn
      * @Type string
      * @Array
      * @Optional
-     * @Group 762df656d5a3c5800001b37599b1e4ce:1356
+     * @Group b9c14e2d80e4e7749688ca13ba233b44:1356
      * @var string[]
      */
     private $servicePackName = array(
@@ -130,7 +130,7 @@ class GroupTrunkGroupUserCreationTaskAddRequest14sp4 extends \CWM\BroadWorksConn
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UserService
      * @Array
      * @Optional
-     * @Group 762df656d5a3c5800001b37599b1e4ce:1356
+     * @Group b9c14e2d80e4e7749688ca13ba233b44:1356
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserService[]
      */
     private $userService = array(

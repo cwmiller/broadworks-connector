@@ -7,11 +7,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Get a filtering criteria for an executive user.
  *         Both executive and the executive assistant can run this command.
- *         The response is either UserExecutiveGetFilteringSelectiveCriteriaResponse21 or ErrorResponse.
+ *         The response is either UserExecutiveGetSelectiveCriteriaResponse21 or ErrorResponse.
  *
- * @see UserExecutiveGetFilteringSelectiveCriteriaResponse21
+ * @see UserExecutiveGetSelectiveCriteriaResponse21
  * @see ErrorResponse
- * @Groups [{"id":"bcf25f15fde8fb6d519675293110ce09:270","type":"sequence"}]
+ * @Groups [{"id":"9a6dbade05624033cf7fe782b7c9a9a7:269","type":"sequence"}]
  */
 class UserExecutiveGetFilteringSelectiveCriteriaRequest21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class UserExecutiveGetFilteringSelectiveCriteriaRequest21 extends \CWM\BroadWork
     /**
      * @ElementName userId
      * @Type string
-     * @Group bcf25f15fde8fb6d519675293110ce09:270
+     * @Group 9a6dbade05624033cf7fe782b7c9a9a7:269
      * @var string|null
      */
     private $userId = null;
@@ -27,7 +27,7 @@ class UserExecutiveGetFilteringSelectiveCriteriaRequest21 extends \CWM\BroadWork
     /**
      * @ElementName criteriaName
      * @Type string
-     * @Group bcf25f15fde8fb6d519675293110ce09:270
+     * @Group 9a6dbade05624033cf7fe782b7c9a9a7:269
      * @var string|null
      */
     private $criteriaName = null;

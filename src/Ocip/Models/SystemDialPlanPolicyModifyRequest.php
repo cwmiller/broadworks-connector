@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"b5f5416d9e71f8e4246cda16c4723744:7678","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:7806","type":"sequence"}]
  */
 class SystemDialPlanPolicyModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class SystemDialPlanPolicyModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName requiresAccessCodeForPublicCalls
      * @Type bool
      * @Optional
-     * @Group b5f5416d9e71f8e4246cda16c4723744:7678
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7806
      * @var bool|null
      */
     private $requiresAccessCodeForPublicCalls = null;
@@ -28,7 +28,7 @@ class SystemDialPlanPolicyModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName allowE164PublicCalls
      * @Type bool
      * @Optional
-     * @Group b5f5416d9e71f8e4246cda16c4723744:7678
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7806
      * @var bool|null
      */
     private $allowE164PublicCalls = null;
@@ -37,7 +37,7 @@ class SystemDialPlanPolicyModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName preferE164NumberFormatForCallbackServices
      * @Type bool
      * @Optional
-     * @Group b5f5416d9e71f8e4246cda16c4723744:7678
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7806
      * @var bool|null
      */
     private $preferE164NumberFormatForCallbackServices = null;
@@ -46,7 +46,7 @@ class SystemDialPlanPolicyModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName publicDigitMap
      * @Type string
      * @Optional
-     * @Group b5f5416d9e71f8e4246cda16c4723744:7678
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7806
      * @var string|null
      */
     private $publicDigitMap = null;
@@ -56,7 +56,7 @@ class SystemDialPlanPolicyModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Type string
      * @Nillable
      * @Optional
-     * @Group b5f5416d9e71f8e4246cda16c4723744:7678
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7806
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $privateDigitMap = null;

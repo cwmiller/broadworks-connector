@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains a table of with the column headings: "Class Mark", "Value" and "Web Display Key".
  *
  * @see SystemClassmarkGetListRequest
- * @Groups [{"id":"cab89edc38c11aa1d780290f00d72d0c:95","type":"sequence"}]
+ * @Groups [{"id":"0d0e878cbc947aebb19ad489b2ffef11:95","type":"sequence"}]
  */
 class SystemClassmarkGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class SystemClassmarkGetListResponse extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName classmarkTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group cab89edc38c11aa1d780290f00d72d0c:95
+     * @Group 0d0e878cbc947aebb19ad489b2ffef11:95
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $classmarkTable = null;

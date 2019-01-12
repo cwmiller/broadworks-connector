@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           "Phone Number", "Extension", "Department", "Email Address", "IMP Id".
  *
  * @see UserPushToTalkGetRequest
- * @Groups [{"id":"b1cd97c56a75178a30eef82c2fa39248:104","type":"sequence"}]
+ * @Groups [{"id":"f32f4b57593f3e1ac6ed1cf45ed62b7c:104","type":"sequence"}]
  */
 class UserPushToTalkGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,7 +19,7 @@ class UserPushToTalkGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\O
     /**
      * @ElementName allowAutoAnswer
      * @Type bool
-     * @Group b1cd97c56a75178a30eef82c2fa39248:104
+     * @Group f32f4b57593f3e1ac6ed1cf45ed62b7c:104
      * @var bool|null
      */
     private $allowAutoAnswer = null;
@@ -27,7 +27,7 @@ class UserPushToTalkGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\O
     /**
      * @ElementName outgoingConnectionSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\PushToTalkOutgoingConnectionSelection
-     * @Group b1cd97c56a75178a30eef82c2fa39248:104
+     * @Group f32f4b57593f3e1ac6ed1cf45ed62b7c:104
      * @var \CWM\BroadWorksConnector\Ocip\Models\PushToTalkOutgoingConnectionSelection|null
      */
     private $outgoingConnectionSelection = null;
@@ -35,7 +35,7 @@ class UserPushToTalkGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\O
     /**
      * @ElementName accessListSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\PushToTalkAccessListSelection
-     * @Group b1cd97c56a75178a30eef82c2fa39248:104
+     * @Group f32f4b57593f3e1ac6ed1cf45ed62b7c:104
      * @var \CWM\BroadWorksConnector\Ocip\Models\PushToTalkAccessListSelection|null
      */
     private $accessListSelection = null;
@@ -43,7 +43,7 @@ class UserPushToTalkGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\O
     /**
      * @ElementName selectedUserTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group b1cd97c56a75178a30eef82c2fa39248:104
+     * @Group f32f4b57593f3e1ac6ed1cf45ed62b7c:104
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $selectedUserTable = null;

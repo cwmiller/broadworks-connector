@@ -23,7 +23,7 @@ use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceGetListRespon
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceGetRequest18sp1;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceGetResponse18sp1;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceGetUserListRequest21sp1;
-use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceGetUserListResponse21sp1;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceGetResponse21sp1;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceModifyRequest14;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceModifyUserRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceResetRequest;
@@ -35,6 +35,8 @@ use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminAddRequest14;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminDeleteRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminGetListRequest14;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminGetListResponse14;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminGetPagedSortedListRequest;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminGetPagedSortedListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminGetPolicyRequest20;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminGetPolicyResponse20;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminGetRequest21sp1;
@@ -49,7 +51,7 @@ use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAnswerConfirmationModifyR
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderApplicationServerSetGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderApplicationServerSetGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderApplicationServerSetModifyRequest;
-use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCallProcessingGetPolicyRequest22;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCallProcessingGetPolicyRequest22V2;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCallProcessingModifyPolicyRequest15;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCommunicationBarringCriteriaAssignListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCommunicationBarringCriteriaGetAssignedListRequest;
@@ -73,11 +75,11 @@ use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCommunicationBarringProfi
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCommunicationBarringProfileGetAssignedGroupListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCommunicationBarringProfileGetAssignedGroupListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCommunicationBarringProfileGetCriteriaUsageListRequest;
-use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCommunicationBarringProfileGetCriteriaUsageListResponse;
+use CWM\BroadWorksConnector\Ocip\Models\ProfileGetCriteriaUsageListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCommunicationBarringProfileGetDigitPatternCriteriaUsageListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCommunicationBarringProfileGetDigitPatternCriteriaUsageListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCommunicationBarringProfileGetIncomingCriteriaUsageListRequest;
-use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCommunicationBarringProfileGetIncomingCriteriaUsageListResponse;
+use CWM\BroadWorksConnector\Ocip\Models\ProfileGetIncomingCriteriaUsageListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCommunicationBarringProfileGetListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCommunicationBarringProfileGetRequest19sp1V2;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCommunicationBarringProfileGetResponse19sp1V2;
@@ -139,9 +141,12 @@ use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDnGetSummaryListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDomainAssignListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDomainGetAssignedGroupListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDomainGetAssignedGroupListResponse;
-use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDomainGetAssignedListRequest;
-use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDomainGetAssignedListResponse;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDomainGetAssignedListRequest22;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDomainGetAssignedListResponse22;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDomainUnassignListRequest;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderEmergencyCallNotificationGetRequest;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderEmergencyCallNotificationGetResponse;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderEmergencyCallNotificationModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderEndpointGetListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderEndpointGetListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderFeatureAccessCodeGetListRequest21;
@@ -156,6 +161,8 @@ use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderGetDefaultRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderGetDefaultResponse;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderGetListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderGetListResponse;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderGetPagedSortedListRequest;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderGetPagedSortedListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderGetRequest22V2;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderGetResponse22V2;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderHPBXAlternateCarrierSelectionGetRequest;
@@ -243,7 +250,7 @@ use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderServicePackMigrationTaskA
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderServicePackMigrationTaskCopyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderServicePackMigrationTaskDeleteRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderServicePackMigrationTaskGetAvailableGroupListRequest;
-use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderServicePackMigrationTaskGetAvailableGroupListResponse;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderServicePackMigrationTaskGetAvailabeGroupListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderServicePackMigrationTaskGetListRequest21;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderServicePackMigrationTaskGetListResponse21;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderServicePackMigrationTaskGetRequest21;
@@ -418,7 +425,7 @@ trait OCISchemaServiceProvider
 
     /**
      * @param ServiceProviderAccessDeviceGetUserListRequest21sp1 $request
-     * @return ServiceProviderAccessDeviceGetUserListResponse21sp1
+     * @return ServiceProviderAccessDeviceGetResponse21sp1
      * @throws ErrorResponseException
      * @throws ValidationException
      */
@@ -527,6 +534,17 @@ trait OCISchemaServiceProvider
     }
 
     /**
+     * @param ServiceProviderAdminGetPagedSortedListRequest $request
+     * @return ServiceProviderAdminGetPagedSortedListResponse
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function serviceProviderAdminGetPagedSortedListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminGetPagedSortedListRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
      * @param ServiceProviderAdminGetPolicyRequest20 $request
      * @return ServiceProviderAdminGetPolicyResponse20
      * @throws ErrorResponseException
@@ -626,12 +644,12 @@ trait OCISchemaServiceProvider
     }
 
     /**
-     * @param ServiceProviderCallProcessingGetPolicyRequest22 $request
+     * @param ServiceProviderCallProcessingGetPolicyRequest22V2 $request
      * @return 
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function serviceProviderCallProcessingGetPolicyRequest22(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCallProcessingGetPolicyRequest22 $request)
+    public function serviceProviderCallProcessingGetPolicyRequest22V2(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCallProcessingGetPolicyRequest22V2 $request)
     {
         return $this->call($request);
     }
@@ -814,7 +832,7 @@ trait OCISchemaServiceProvider
 
     /**
      * @param ServiceProviderCommunicationBarringProfileGetCriteriaUsageListRequest $request
-     * @return ServiceProviderCommunicationBarringProfileGetCriteriaUsageListResponse
+     * @return ProfileGetCriteriaUsageListResponse
      * @throws ErrorResponseException
      * @throws ValidationException
      */
@@ -836,7 +854,7 @@ trait OCISchemaServiceProvider
 
     /**
      * @param ServiceProviderCommunicationBarringProfileGetIncomingCriteriaUsageListRequest $request
-     * @return ServiceProviderCommunicationBarringProfileGetIncomingCriteriaUsageListResponse
+     * @return ProfileGetIncomingCriteriaUsageListResponse
      * @throws ErrorResponseException
      * @throws ValidationException
      */
@@ -1352,12 +1370,12 @@ trait OCISchemaServiceProvider
     }
 
     /**
-     * @param ServiceProviderDomainGetAssignedListRequest $request
-     * @return ServiceProviderDomainGetAssignedListResponse
+     * @param ServiceProviderDomainGetAssignedListRequest22 $request
+     * @return ServiceProviderDomainGetAssignedListResponse22
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function serviceProviderDomainGetAssignedListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDomainGetAssignedListRequest $request)
+    public function serviceProviderDomainGetAssignedListRequest22(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDomainGetAssignedListRequest22 $request)
     {
         return $this->call($request);
     }
@@ -1369,6 +1387,28 @@ trait OCISchemaServiceProvider
      * @throws ValidationException
      */
     public function serviceProviderDomainUnassignListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDomainUnassignListRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param ServiceProviderEmergencyCallNotificationGetRequest $request
+     * @return ServiceProviderEmergencyCallNotificationGetResponse
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function serviceProviderEmergencyCallNotificationGetRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderEmergencyCallNotificationGetRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param ServiceProviderEmergencyCallNotificationModifyRequest $request
+     * @return SuccessResponse
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function serviceProviderEmergencyCallNotificationModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderEmergencyCallNotificationModifyRequest $request)
     {
         return $this->call($request);
     }
@@ -1468,6 +1508,17 @@ trait OCISchemaServiceProvider
      * @throws ValidationException
      */
     public function serviceProviderGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderGetListRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param ServiceProviderGetPagedSortedListRequest $request
+     * @return ServiceProviderGetPagedSortedListResponse
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function serviceProviderGetPagedSortedListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderGetPagedSortedListRequest $request)
     {
         return $this->call($request);
     }
@@ -2134,7 +2185,7 @@ trait OCISchemaServiceProvider
 
     /**
      * @param ServiceProviderServicePackMigrationTaskGetAvailableGroupListRequest $request
-     * @return ServiceProviderServicePackMigrationTaskGetAvailableGroupListResponse
+     * @return ServiceProviderServicePackMigrationTaskGetAvailabeGroupListResponse
      * @throws ErrorResponseException
      * @throws ValidationException
      */

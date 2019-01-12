@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SuccessResponse
  * @see ErrorResponse
  * @see GroupFeatureAccessCodeModifyRequest
- * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:8238","type":"sequence","children":[{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:8241","type":"choice"}]}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:1515","type":"sequence","children":[{"id":"ab0042aa512abc10edb3c55e4b416b0b:1518","type":"choice"}]}]
  */
 class GroupFeatureAccessCodeModifyListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class GroupFeatureAccessCodeModifyListRequest extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:8238
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:1515
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -28,7 +28,7 @@ class GroupFeatureAccessCodeModifyListRequest extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:8238
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:1515
      * @var string|null
      */
     private $groupId = null;
@@ -38,7 +38,7 @@ class GroupFeatureAccessCodeModifyListRequest extends \CWM\BroadWorksConnector\O
      * @Type \CWM\BroadWorksConnector\Ocip\Models\FeatureAccessCodeEntry
      * @Array
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:8241
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:1518
      * @var \CWM\BroadWorksConnector\Ocip\Models\FeatureAccessCodeEntry[]
      */
     private $featureAccessCode = array(
@@ -49,7 +49,7 @@ class GroupFeatureAccessCodeModifyListRequest extends \CWM\BroadWorksConnector\O
      * @ElementName restoreDefaultCodes
      * @Type bool
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:8241
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:1518
      * @var bool|null
      */
     private $restoreDefaultCodes = null;

@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"40322112e72600d53590e48b9c64c76b:68","type":"sequence"}]
+ * @Groups [{"id":"f64c4e06b22d19cc74a21048a08a84c7:68","type":"sequence"}]
  */
 class UserSimultaneousRingPersonalDeleteCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserSimultaneousRingPersonalDeleteCriteriaRequest extends \CWM\BroadWorksC
     /**
      * @ElementName userId
      * @Type string
-     * @Group 40322112e72600d53590e48b9c64c76b:68
+     * @Group f64c4e06b22d19cc74a21048a08a84c7:68
      * @var string|null
      */
     private $userId = null;
@@ -26,7 +26,7 @@ class UserSimultaneousRingPersonalDeleteCriteriaRequest extends \CWM\BroadWorksC
     /**
      * @ElementName criteriaName
      * @Type string
-     * @Group 40322112e72600d53590e48b9c64c76b:68
+     * @Group f64c4e06b22d19cc74a21048a08a84c7:68
      * @var string|null
      */
     private $criteriaName = null;

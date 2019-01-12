@@ -16,7 +16,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see GroupTrunkGroupGetInstanceResponse19sp1
  * @see ErrorResponse
  * @see GroupTrunkGroupGetInstanceRequest19sp1V2
- * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:12485","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:29871","type":"sequence"}]
  */
 class GroupTrunkGroupGetInstanceRequest19sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -24,7 +24,7 @@ class GroupTrunkGroupGetInstanceRequest19sp1 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName trunkGroupKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:12485
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:29871
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey|null
      */
     private $trunkGroupKey = null;

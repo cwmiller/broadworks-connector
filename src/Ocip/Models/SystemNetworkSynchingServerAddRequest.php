@@ -7,10 +7,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Request to add a Network Server to the system.
  *         The response is either a SuccessResponse or an ErrorResponse.
+ *         Replaced by SystemNetworkSynchingServerAddRequest22V2
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"b5f5416d9e71f8e4246cda16c4723744:11141","type":"sequence"}]
+ * @see SystemNetworkSynchingServerAddRequest22V2
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:5083","type":"sequence"}]
  */
 class SystemNetworkSynchingServerAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +20,7 @@ class SystemNetworkSynchingServerAddRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName netAddress
      * @Type string
-     * @Group b5f5416d9e71f8e4246cda16c4723744:11141
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:5083
      * @var string|null
      */
     private $netAddress = null;
@@ -27,7 +29,7 @@ class SystemNetworkSynchingServerAddRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName port
      * @Type int
      * @Optional
-     * @Group b5f5416d9e71f8e4246cda16c4723744:11141
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:5083
      * @var int|null
      */
     private $port = null;
@@ -36,7 +38,7 @@ class SystemNetworkSynchingServerAddRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName description
      * @Type string
      * @Optional
-     * @Group b5f5416d9e71f8e4246cda16c4723744:11141
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:5083
      * @var string|null
      */
     private $description = null;

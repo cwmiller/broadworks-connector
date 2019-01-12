@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"b5f5416d9e71f8e4246cda16c4723744:1421","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:1429","type":"sequence"}]
  */
 class SystemAccountingDeleteRadiusServerRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemAccountingDeleteRadiusServerRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName netAddress
      * @Type string
-     * @Group b5f5416d9e71f8e4246cda16c4723744:1421
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1429
      * @var string|null
      */
     private $netAddress = null;
@@ -26,7 +26,7 @@ class SystemAccountingDeleteRadiusServerRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName port
      * @Type int
-     * @Group b5f5416d9e71f8e4246cda16c4723744:1421
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1429
      * @var int|null
      */
     private $port = null;

@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains a criteria table wich column heading: "Is Active", "Criteria Name", "Time Schedule", "Holiday Schedule", "Calls From" and "Blacklisted".
  *
  * @see UserSimultaneousRingFamilyGetRequest17
- * @Groups [{"id":"e5e2d2259eb3c3343c7c35c64b1fba49:136","type":"sequence"}]
+ * @Groups [{"id":"239d22a382d3190a183f2ff4efdc404f:136","type":"sequence"}]
  */
 class UserSimultaneousRingFamilyGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class UserSimultaneousRingFamilyGetResponse17 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group e5e2d2259eb3c3343c7c35c64b1fba49:136
+     * @Group 239d22a382d3190a183f2ff4efdc404f:136
      * @var bool|null
      */
     private $isActive = null;
@@ -25,7 +25,7 @@ class UserSimultaneousRingFamilyGetResponse17 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName doNotRingIfOnCall
      * @Type bool
-     * @Group e5e2d2259eb3c3343c7c35c64b1fba49:136
+     * @Group 239d22a382d3190a183f2ff4efdc404f:136
      * @var bool|null
      */
     private $doNotRingIfOnCall = null;
@@ -35,7 +35,7 @@ class UserSimultaneousRingFamilyGetResponse17 extends \CWM\BroadWorksConnector\O
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SimultaneousRingNumber
      * @Array
      * @Optional
-     * @Group e5e2d2259eb3c3343c7c35c64b1fba49:136
+     * @Group 239d22a382d3190a183f2ff4efdc404f:136
      * @var \CWM\BroadWorksConnector\Ocip\Models\SimultaneousRingNumber[]
      */
     private $simultaneousRingNumber = array(
@@ -45,7 +45,7 @@ class UserSimultaneousRingFamilyGetResponse17 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName criteriaTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group e5e2d2259eb3c3343c7c35c64b1fba49:136
+     * @Group 239d22a382d3190a183f2ff4efdc404f:136
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $criteriaTable = null;

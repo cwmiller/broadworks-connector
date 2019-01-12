@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the ServiceProviderAnswerConfirmationGetRequest16.
  *
  * @see ServiceProviderAnswerConfirmationGetRequest16
- * @Groups [{"id":"8eb862aea0ee5d4211db0a0d3fe7c164:1159","type":"sequence"}]
+ * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:1214","type":"sequence"}]
  */
 class ServiceProviderAnswerConfirmationGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class ServiceProviderAnswerConfirmationGetResponse16 extends \CWM\BroadWorksConn
     /**
      * @ElementName announcementMessageSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnswerConfirmationAnnouncementSelection
-     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:1159
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1214
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnswerConfirmationAnnouncementSelection|null
      */
     private $announcementMessageSelection = null;
@@ -25,7 +25,7 @@ class ServiceProviderAnswerConfirmationGetResponse16 extends \CWM\BroadWorksConn
      * @ElementName confirmationMessageAudioFileDescription
      * @Type string
      * @Optional
-     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:1159
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1214
      * @var string|null
      */
     private $confirmationMessageAudioFileDescription = null;
@@ -34,7 +34,7 @@ class ServiceProviderAnswerConfirmationGetResponse16 extends \CWM\BroadWorksConn
      * @ElementName confirmationMessageMediaType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MediaFileType
      * @Optional
-     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:1159
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1214
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     private $confirmationMessageMediaType = null;
@@ -42,7 +42,7 @@ class ServiceProviderAnswerConfirmationGetResponse16 extends \CWM\BroadWorksConn
     /**
      * @ElementName confirmationTimoutSeconds
      * @Type int
-     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:1159
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1214
      * @var int|null
      */
     private $confirmationTimoutSeconds = null;

@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserPrivacyGetResponse13mp17
  * @see ErrorResponse
- * @Groups [{"id":"979f00619273c0e67fc6ac4ef7b3359a:145","type":"sequence"}]
+ * @Groups [{"id":"b87b6355d5858fdbeb8c1eb05dc1651a:145","type":"sequence"}]
  */
 class UserPrivacyGetRequest13mp17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class UserPrivacyGetRequest13mp17 extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName userId
      * @Type string
-     * @Group 979f00619273c0e67fc6ac4ef7b3359a:145
+     * @Group b87b6355d5858fdbeb8c1eb05dc1651a:145
      * @var string|null
      */
     private $userId = null;

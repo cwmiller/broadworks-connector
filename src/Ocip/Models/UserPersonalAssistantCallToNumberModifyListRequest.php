@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f04e7de96ed87c401bee5b5d2e80ccd3:162","type":"sequence"}]
+ * @Groups [{"id":"f53ece1c00394ef2d3d76f532f9a9663:162","type":"sequence"}]
  */
 class UserPersonalAssistantCallToNumberModifyListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class UserPersonalAssistantCallToNumberModifyListRequest extends \CWM\BroadWorks
     /**
      * @ElementName userId
      * @Type string
-     * @Group f04e7de96ed87c401bee5b5d2e80ccd3:162
+     * @Group f53ece1c00394ef2d3d76f532f9a9663:162
      * @var string|null
      */
     private $userId = null;
@@ -30,7 +30,7 @@ class UserPersonalAssistantCallToNumberModifyListRequest extends \CWM\BroadWorks
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementCallToNumberList
      * @Nillable
      * @Optional
-     * @Group f04e7de96ed87c401bee5b5d2e80ccd3:162
+     * @Group f53ece1c00394ef2d3d76f532f9a9663:162
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementCallToNumberList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $callToNumberList = null;

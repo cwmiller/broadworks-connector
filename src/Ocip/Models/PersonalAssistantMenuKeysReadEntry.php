@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * The voice portal personal assistant menu keys.
  *
- * @Groups [{"id":"80c5986946137c505e41f6008c7f75a8:2729","type":"sequence"}]
+ * @Groups [{"id":"3347d430e0d5c93a9ff8dcf0e3b60d6c:2783","type":"sequence"}]
  */
 class PersonalAssistantMenuKeysReadEntry
 {
@@ -16,7 +16,7 @@ class PersonalAssistantMenuKeysReadEntry
      * @ElementName setPresenceToNone
      * @Type string
      * @Optional
-     * @Group 80c5986946137c505e41f6008c7f75a8:2729
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2783
      * @var string|null
      */
     private $setPresenceToNone = null;
@@ -25,7 +25,7 @@ class PersonalAssistantMenuKeysReadEntry
      * @ElementName setPresenceToBusinessTrip
      * @Type string
      * @Optional
-     * @Group 80c5986946137c505e41f6008c7f75a8:2729
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2783
      * @var string|null
      */
     private $setPresenceToBusinessTrip = null;
@@ -34,7 +34,7 @@ class PersonalAssistantMenuKeysReadEntry
      * @ElementName setPresenceToGoneForTheDay
      * @Type string
      * @Optional
-     * @Group 80c5986946137c505e41f6008c7f75a8:2729
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2783
      * @var string|null
      */
     private $setPresenceToGoneForTheDay = null;
@@ -43,7 +43,7 @@ class PersonalAssistantMenuKeysReadEntry
      * @ElementName setPresenceToLunch
      * @Type string
      * @Optional
-     * @Group 80c5986946137c505e41f6008c7f75a8:2729
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2783
      * @var string|null
      */
     private $setPresenceToLunch = null;
@@ -52,7 +52,7 @@ class PersonalAssistantMenuKeysReadEntry
      * @ElementName setPresenceToMeeting
      * @Type string
      * @Optional
-     * @Group 80c5986946137c505e41f6008c7f75a8:2729
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2783
      * @var string|null
      */
     private $setPresenceToMeeting = null;
@@ -61,7 +61,7 @@ class PersonalAssistantMenuKeysReadEntry
      * @ElementName setPresenceToOutOfOffice
      * @Type string
      * @Optional
-     * @Group 80c5986946137c505e41f6008c7f75a8:2729
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2783
      * @var string|null
      */
     private $setPresenceToOutOfOffice = null;
@@ -70,7 +70,7 @@ class PersonalAssistantMenuKeysReadEntry
      * @ElementName setPresenceToTemporarilyOut
      * @Type string
      * @Optional
-     * @Group 80c5986946137c505e41f6008c7f75a8:2729
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2783
      * @var string|null
      */
     private $setPresenceToTemporarilyOut = null;
@@ -79,7 +79,7 @@ class PersonalAssistantMenuKeysReadEntry
      * @ElementName setPresenceToTraining
      * @Type string
      * @Optional
-     * @Group 80c5986946137c505e41f6008c7f75a8:2729
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2783
      * @var string|null
      */
     private $setPresenceToTraining = null;
@@ -88,7 +88,7 @@ class PersonalAssistantMenuKeysReadEntry
      * @ElementName setPresenceToUnavailable
      * @Type string
      * @Optional
-     * @Group 80c5986946137c505e41f6008c7f75a8:2729
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2783
      * @var string|null
      */
     private $setPresenceToUnavailable = null;
@@ -97,7 +97,7 @@ class PersonalAssistantMenuKeysReadEntry
      * @ElementName setPresenceToVacation
      * @Type string
      * @Optional
-     * @Group 80c5986946137c505e41f6008c7f75a8:2729
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2783
      * @var string|null
      */
     private $setPresenceToVacation = null;
@@ -105,7 +105,7 @@ class PersonalAssistantMenuKeysReadEntry
     /**
      * @ElementName returnToPreviousMenu
      * @Type string
-     * @Group 80c5986946137c505e41f6008c7f75a8:2729
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2783
      * @var string|null
      */
     private $returnToPreviousMenu = null;
@@ -114,7 +114,7 @@ class PersonalAssistantMenuKeysReadEntry
      * @ElementName repeatMenu
      * @Type string
      * @Optional
-     * @Group 80c5986946137c505e41f6008c7f75a8:2729
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2783
      * @var string|null
      */
     private $repeatMenu = null;

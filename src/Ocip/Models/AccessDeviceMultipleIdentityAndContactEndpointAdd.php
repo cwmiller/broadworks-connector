@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           The following elements are only used in XS data mode and ignored in AS data mode:
  *             privateIdentity
  *
- * @Groups [{"id":"8e629edbac315ae7889caca732382c44:181","type":"sequence"}]
+ * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:242","type":"sequence"}]
  */
 class AccessDeviceMultipleIdentityAndContactEndpointAdd
 {
@@ -20,7 +20,7 @@ class AccessDeviceMultipleIdentityAndContactEndpointAdd
     /**
      * @ElementName accessDevice
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDevice
-     * @Group 8e629edbac315ae7889caca732382c44:181
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:242
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDevice|null
      */
     private $accessDevice = null;
@@ -28,7 +28,7 @@ class AccessDeviceMultipleIdentityAndContactEndpointAdd
     /**
      * @ElementName linePort
      * @Type string
-     * @Group 8e629edbac315ae7889caca732382c44:181
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:242
      * @var string|null
      */
     private $linePort = null;
@@ -37,7 +37,7 @@ class AccessDeviceMultipleIdentityAndContactEndpointAdd
      * @ElementName privateIdentity
      * @Type string
      * @Optional
-     * @Group 8e629edbac315ae7889caca732382c44:181
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:242
      * @var string|null
      */
     private $privateIdentity = null;
@@ -47,7 +47,7 @@ class AccessDeviceMultipleIdentityAndContactEndpointAdd
      * @Type string
      * @Array
      * @Optional
-     * @Group 8e629edbac315ae7889caca732382c44:181
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:242
      * @var string[]
      */
     private $contact = array(
@@ -58,7 +58,7 @@ class AccessDeviceMultipleIdentityAndContactEndpointAdd
      * @ElementName portNumber
      * @Type int
      * @Optional
-     * @Group 8e629edbac315ae7889caca732382c44:181
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:242
      * @var int|null
      */
     private $portNumber = null;

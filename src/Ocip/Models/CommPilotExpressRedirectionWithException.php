@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * CommPilot Express type to transfer to voice mail or forward to a number
  *         with certain exceptions used in the context of a get.
  *
- * @Groups [{"id":"cc98d71eafb1a94fd4bd31d597159369:228","type":"sequence"}]
+ * @Groups [{"id":"8c204d784d1904d9eeea996d46de69be:228","type":"sequence"}]
  */
 class CommPilotExpressRedirectionWithException
 {
@@ -16,7 +16,7 @@ class CommPilotExpressRedirectionWithException
     /**
      * @ElementName sendCallsToVoiceMailExceptExcludedNumbers
      * @Type bool
-     * @Group cc98d71eafb1a94fd4bd31d597159369:228
+     * @Group 8c204d784d1904d9eeea996d46de69be:228
      * @var bool|null
      */
     private $sendCallsToVoiceMailExceptExcludedNumbers = null;
@@ -25,7 +25,7 @@ class CommPilotExpressRedirectionWithException
      * @ElementName excludedPhoneNumber01
      * @Type string
      * @Optional
-     * @Group cc98d71eafb1a94fd4bd31d597159369:228
+     * @Group 8c204d784d1904d9eeea996d46de69be:228
      * @var string|null
      */
     private $excludedPhoneNumber01 = null;
@@ -34,7 +34,7 @@ class CommPilotExpressRedirectionWithException
      * @ElementName excludedPhoneNumber02
      * @Type string
      * @Optional
-     * @Group cc98d71eafb1a94fd4bd31d597159369:228
+     * @Group 8c204d784d1904d9eeea996d46de69be:228
      * @var string|null
      */
     private $excludedPhoneNumber02 = null;
@@ -43,7 +43,7 @@ class CommPilotExpressRedirectionWithException
      * @ElementName excludedPhoneNumber03
      * @Type string
      * @Optional
-     * @Group cc98d71eafb1a94fd4bd31d597159369:228
+     * @Group 8c204d784d1904d9eeea996d46de69be:228
      * @var string|null
      */
     private $excludedPhoneNumber03 = null;
@@ -52,7 +52,7 @@ class CommPilotExpressRedirectionWithException
      * @ElementName forwardExcludedNumbersTo
      * @Type string
      * @Optional
-     * @Group cc98d71eafb1a94fd4bd31d597159369:228
+     * @Group 8c204d784d1904d9eeea996d46de69be:228
      * @var string|null
      */
     private $forwardExcludedNumbersTo = null;

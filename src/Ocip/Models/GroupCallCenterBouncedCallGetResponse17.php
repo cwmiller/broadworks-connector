@@ -7,8 +7,17 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to the GroupCallCenterBouncedCallGetRequest17.
  *
+ *         The following elements are only used in AS data mode and not returned in XS data mode:
+ *           enableTransfer
+ *           transferPhoneNumber
+ *           bounceCallWhenAgentUnavailable
+ *           alertCallCenterCallOnHold
+ *           alertCallCenterCallOnHoldSeconds
+ *           bounceCallCenterCallOnHold
+ *           bounceCallCenterCallOnHoldSeconds
+ *
  * @see GroupCallCenterBouncedCallGetRequest17
- * @Groups [{"id":"3ac5f05d969bc771d6ba8d344d95aa72:2410","type":"sequence"}]
+ * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:2737","type":"sequence"}]
  */
 class GroupCallCenterBouncedCallGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +25,7 @@ class GroupCallCenterBouncedCallGetResponse17 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:2410
+     * @Group e2c537e3e39483b96620673a7012ffdd:2737
      * @var bool|null
      */
     private $isActive = null;
@@ -24,7 +33,7 @@ class GroupCallCenterBouncedCallGetResponse17 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName numberOfRingsBeforeBouncingCall
      * @Type int
-     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:2410
+     * @Group e2c537e3e39483b96620673a7012ffdd:2737
      * @var int|null
      */
     private $numberOfRingsBeforeBouncingCall = null;
@@ -33,7 +42,7 @@ class GroupCallCenterBouncedCallGetResponse17 extends \CWM\BroadWorksConnector\O
      * @ElementName enableTransfer
      * @Type bool
      * @Optional
-     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:2410
+     * @Group e2c537e3e39483b96620673a7012ffdd:2737
      * @var bool|null
      */
     private $enableTransfer = null;
@@ -42,7 +51,7 @@ class GroupCallCenterBouncedCallGetResponse17 extends \CWM\BroadWorksConnector\O
      * @ElementName transferPhoneNumber
      * @Type string
      * @Optional
-     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:2410
+     * @Group e2c537e3e39483b96620673a7012ffdd:2737
      * @var string|null
      */
     private $transferPhoneNumber = null;
@@ -51,7 +60,7 @@ class GroupCallCenterBouncedCallGetResponse17 extends \CWM\BroadWorksConnector\O
      * @ElementName bounceCallWhenAgentUnavailable
      * @Type bool
      * @Optional
-     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:2410
+     * @Group e2c537e3e39483b96620673a7012ffdd:2737
      * @var bool|null
      */
     private $bounceCallWhenAgentUnavailable = null;
@@ -60,7 +69,7 @@ class GroupCallCenterBouncedCallGetResponse17 extends \CWM\BroadWorksConnector\O
      * @ElementName alertCallCenterCallOnHold
      * @Type bool
      * @Optional
-     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:2410
+     * @Group e2c537e3e39483b96620673a7012ffdd:2737
      * @var bool|null
      */
     private $alertCallCenterCallOnHold = null;
@@ -69,7 +78,7 @@ class GroupCallCenterBouncedCallGetResponse17 extends \CWM\BroadWorksConnector\O
      * @ElementName alertCallCenterCallOnHoldSeconds
      * @Type int
      * @Optional
-     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:2410
+     * @Group e2c537e3e39483b96620673a7012ffdd:2737
      * @var int|null
      */
     private $alertCallCenterCallOnHoldSeconds = null;
@@ -78,7 +87,7 @@ class GroupCallCenterBouncedCallGetResponse17 extends \CWM\BroadWorksConnector\O
      * @ElementName bounceCallCenterCallOnHold
      * @Type bool
      * @Optional
-     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:2410
+     * @Group e2c537e3e39483b96620673a7012ffdd:2737
      * @var bool|null
      */
     private $bounceCallCenterCallOnHold = null;
@@ -87,7 +96,7 @@ class GroupCallCenterBouncedCallGetResponse17 extends \CWM\BroadWorksConnector\O
      * @ElementName bounceCallCenterCallOnHoldSeconds
      * @Type int
      * @Optional
-     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:2410
+     * @Group e2c537e3e39483b96620673a7012ffdd:2737
      * @var int|null
      */
     private $bounceCallCenterCallOnHoldSeconds = null;

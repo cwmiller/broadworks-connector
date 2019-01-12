@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemMultimediaPolicyGetRequest
  *
  * @see SystemMultimediaPolicyGetRequest
- * @Groups [{"id":"b5f5416d9e71f8e4246cda16c4723744:10639","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:10824","type":"sequence"}]
  */
 class SystemMultimediaPolicyGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class SystemMultimediaPolicyGetResponse extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName restrictNonAudioVideoMediaTypes
      * @Type bool
-     * @Group b5f5416d9e71f8e4246cda16c4723744:10639
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10824
      * @var bool|null
      */
     private $restrictNonAudioVideoMediaTypes = null;

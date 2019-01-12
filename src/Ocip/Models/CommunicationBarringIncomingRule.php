@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Communication Barring Incoming Rule
  *
- * @Groups [{"id":"8e629edbac315ae7889caca732382c44:1102","type":"sequence"}]
+ * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:1348","type":"sequence"}]
  */
 class CommunicationBarringIncomingRule
 {
@@ -15,7 +15,7 @@ class CommunicationBarringIncomingRule
     /**
      * @ElementName digitPatternCriteria
      * @Type string
-     * @Group 8e629edbac315ae7889caca732382c44:1102
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:1348
      * @var string|null
      */
     private $digitPatternCriteria = null;
@@ -23,7 +23,7 @@ class CommunicationBarringIncomingRule
     /**
      * @ElementName action
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringIncomingAction
-     * @Group 8e629edbac315ae7889caca732382c44:1102
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:1348
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringIncomingAction|null
      */
     private $action = null;
@@ -32,7 +32,7 @@ class CommunicationBarringIncomingRule
      * @ElementName callTimeoutSeconds
      * @Type int
      * @Optional
-     * @Group 8e629edbac315ae7889caca732382c44:1102
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:1348
      * @var int|null
      */
     private $callTimeoutSeconds = null;
@@ -41,7 +41,7 @@ class CommunicationBarringIncomingRule
      * @ElementName timeSchedule
      * @Type string
      * @Optional
-     * @Group 8e629edbac315ae7889caca732382c44:1102
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:1348
      * @var string|null
      */
     private $timeSchedule = null;
@@ -50,7 +50,7 @@ class CommunicationBarringIncomingRule
      * @ElementName holidaySchedule
      * @Type string
      * @Optional
-     * @Group 8e629edbac315ae7889caca732382c44:1102
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:1348
      * @var string|null
      */
     private $holidaySchedule = null;
@@ -58,7 +58,7 @@ class CommunicationBarringIncomingRule
     /**
      * @ElementName priority
      * @Type float
-     * @Group 8e629edbac315ae7889caca732382c44:1102
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:1348
      * @var float|null
      */
     private $priority = null;

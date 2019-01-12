@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains a table with column headings: "User Id", "Last Name", "First Name", "Hiragana Last Name", "Hiragana First Name".
  *
  * @see GroupCallParkGetAvailableAlternateRecallUserListResponse
- * @Groups [{"id":"bcea7a1f459e3e037da541b681a13f82:110","type":"sequence"}]
+ * @Groups [{"id":"7a925e891158dfa3cb1319e045608894:115","type":"sequence"}]
  */
 class GroupCallParkGetAvailableAlternateRecallUserListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class GroupCallParkGetAvailableAlternateRecallUserListResponse extends \CWM\Broa
     /**
      * @ElementName availableHuntGroupTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group bcea7a1f459e3e037da541b681a13f82:110
+     * @Group 7a925e891158dfa3cb1319e045608894:115
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $availableHuntGroupTable = null;

@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"070ca42611935afd08f156e8287a49c4:113","type":"sequence"}]
+ * @Groups [{"id":"00a30b95794e8eb54c36eccd0a6188fa:113","type":"sequence"}]
  */
 class GroupCallingPlanModifyDigitPatternRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupCallingPlanModifyDigitPatternRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 070ca42611935afd08f156e8287a49c4:113
+     * @Group 00a30b95794e8eb54c36eccd0a6188fa:113
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,7 +26,7 @@ class GroupCallingPlanModifyDigitPatternRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 070ca42611935afd08f156e8287a49c4:113
+     * @Group 00a30b95794e8eb54c36eccd0a6188fa:113
      * @var string|null
      */
     private $groupId = null;
@@ -34,7 +34,7 @@ class GroupCallingPlanModifyDigitPatternRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName name
      * @Type string
-     * @Group 070ca42611935afd08f156e8287a49c4:113
+     * @Group 00a30b95794e8eb54c36eccd0a6188fa:113
      * @var string|null
      */
     private $name = null;
@@ -43,7 +43,7 @@ class GroupCallingPlanModifyDigitPatternRequest extends \CWM\BroadWorksConnector
      * @ElementName digitPattern
      * @Type string
      * @Optional
-     * @Group 070ca42611935afd08f156e8287a49c4:113
+     * @Group 00a30b95794e8eb54c36eccd0a6188fa:113
      * @var string|null
      */
     private $digitPattern = null;

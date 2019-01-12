@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Service Profile Information for a flexible seating host
  *
- * @Groups [{"id":"93e99b1f9cf4a71b31301a1fe7f0e190:499","type":"sequence"}]
+ * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:3501","type":"sequence"}]
  */
 class ServiceInstanceModifyProfileFlexibleSeatingHost
 {
@@ -16,7 +16,7 @@ class ServiceInstanceModifyProfileFlexibleSeatingHost
      * @ElementName name
      * @Type string
      * @Optional
-     * @Group 93e99b1f9cf4a71b31301a1fe7f0e190:499
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:3501
      * @var string|null
      */
     private $name = null;
@@ -25,7 +25,7 @@ class ServiceInstanceModifyProfileFlexibleSeatingHost
      * @ElementName callingLineIdLastName
      * @Type string
      * @Optional
-     * @Group 93e99b1f9cf4a71b31301a1fe7f0e190:499
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:3501
      * @var string|null
      */
     private $callingLineIdLastName = null;
@@ -34,7 +34,7 @@ class ServiceInstanceModifyProfileFlexibleSeatingHost
      * @ElementName callingLineIdFirstName
      * @Type string
      * @Optional
-     * @Group 93e99b1f9cf4a71b31301a1fe7f0e190:499
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:3501
      * @var string|null
      */
     private $callingLineIdFirstName = null;
@@ -43,7 +43,7 @@ class ServiceInstanceModifyProfileFlexibleSeatingHost
      * @ElementName hiraganaLastName
      * @Type string
      * @Optional
-     * @Group 93e99b1f9cf4a71b31301a1fe7f0e190:499
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:3501
      * @var string|null
      */
     private $hiraganaLastName = null;
@@ -52,7 +52,7 @@ class ServiceInstanceModifyProfileFlexibleSeatingHost
      * @ElementName hiraganaFirstName
      * @Type string
      * @Optional
-     * @Group 93e99b1f9cf4a71b31301a1fe7f0e190:499
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:3501
      * @var string|null
      */
     private $hiraganaFirstName = null;
@@ -62,7 +62,7 @@ class ServiceInstanceModifyProfileFlexibleSeatingHost
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 93e99b1f9cf4a71b31301a1fe7f0e190:499
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:3501
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $phoneNumber = null;
@@ -72,7 +72,7 @@ class ServiceInstanceModifyProfileFlexibleSeatingHost
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 93e99b1f9cf4a71b31301a1fe7f0e190:499
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:3501
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $extension = null;
@@ -81,7 +81,7 @@ class ServiceInstanceModifyProfileFlexibleSeatingHost
      * @ElementName password
      * @Type string
      * @Optional
-     * @Group 93e99b1f9cf4a71b31301a1fe7f0e190:499
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:3501
      * @var string|null
      */
     private $password = null;
@@ -91,7 +91,7 @@ class ServiceInstanceModifyProfileFlexibleSeatingHost
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey
      * @Nillable
      * @Optional
-     * @Group 93e99b1f9cf4a71b31301a1fe7f0e190:499
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:3501
      * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $department = null;
@@ -100,7 +100,7 @@ class ServiceInstanceModifyProfileFlexibleSeatingHost
      * @ElementName language
      * @Type string
      * @Optional
-     * @Group 93e99b1f9cf4a71b31301a1fe7f0e190:499
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:3501
      * @var string|null
      */
     private $language = null;
@@ -109,7 +109,7 @@ class ServiceInstanceModifyProfileFlexibleSeatingHost
      * @ElementName timeZone
      * @Type string
      * @Optional
-     * @Group 93e99b1f9cf4a71b31301a1fe7f0e190:499
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:3501
      * @var string|null
      */
     private $timeZone = null;
@@ -119,7 +119,7 @@ class ServiceInstanceModifyProfileFlexibleSeatingHost
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 93e99b1f9cf4a71b31301a1fe7f0e190:499
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:3501
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $callingLineIdPhoneNumber = null;

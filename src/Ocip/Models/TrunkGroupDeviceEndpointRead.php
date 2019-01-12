@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Trunk group device endpoint.
  *
- * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:39598","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:41624","type":"sequence"}]
  */
 class TrunkGroupDeviceEndpointRead
 {
@@ -15,7 +15,7 @@ class TrunkGroupDeviceEndpointRead
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:39598
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:41624
      * @var string|null
      */
     private $serviceUserId = null;
@@ -23,7 +23,7 @@ class TrunkGroupDeviceEndpointRead
     /**
      * @ElementName name
      * @Type string
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:39598
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:41624
      * @var string|null
      */
     private $name = null;
@@ -31,7 +31,7 @@ class TrunkGroupDeviceEndpointRead
     /**
      * @ElementName linePort
      * @Type string
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:39598
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:41624
      * @var string|null
      */
     private $linePort = null;
@@ -40,7 +40,7 @@ class TrunkGroupDeviceEndpointRead
      * @ElementName contact
      * @Type string
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:39598
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:41624
      * @var string|null
      */
     private $contact = null;
@@ -48,7 +48,7 @@ class TrunkGroupDeviceEndpointRead
     /**
      * @ElementName staticRegistrationCapable
      * @Type bool
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:39598
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:41624
      * @var bool|null
      */
     private $staticRegistrationCapable = null;
@@ -56,7 +56,7 @@ class TrunkGroupDeviceEndpointRead
     /**
      * @ElementName useDomain
      * @Type bool
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:39598
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:41624
      * @var bool|null
      */
     private $useDomain = null;

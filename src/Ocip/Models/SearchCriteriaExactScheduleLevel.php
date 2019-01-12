@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Criteria for searching for a particular schedule level.
  *
- * @Groups [{"id":"e446bfcbd1f39cbef57d1547014f2bb9:992","type":"sequence"}]
+ * @Groups [{"id":"f0ada2681ca347fa83b464734259b304:1075","type":"sequence"}]
  */
 class SearchCriteriaExactScheduleLevel extends SearchCriteria
 {
@@ -15,7 +15,7 @@ class SearchCriteriaExactScheduleLevel extends SearchCriteria
     /**
      * @ElementName level
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ScheduleLevel
-     * @Group e446bfcbd1f39cbef57d1547014f2bb9:992
+     * @Group f0ada2681ca347fa83b464734259b304:1075
      * @var \CWM\BroadWorksConnector\Ocip\Models\ScheduleLevel|null
      */
     private $level = null;

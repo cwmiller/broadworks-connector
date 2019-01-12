@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "Phone Number", "Extension", "Department", "Email Address";
  *
  * @see GroupCallCenterAgentThresholdProfileGetRequest
- * @Groups [{"id":"3ac5f05d969bc771d6ba8d344d95aa72:2140","type":"sequence"}]
+ * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:2458","type":"sequence"}]
  */
 class GroupCallCenterAgentThresholdProfileGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -20,7 +20,7 @@ class GroupCallCenterAgentThresholdProfileGetResponse extends \CWM\BroadWorksCon
      * @ElementName profileDescription
      * @Type string
      * @Optional
-     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:2140
+     * @Group e2c537e3e39483b96620673a7012ffdd:2458
      * @var string|null
      */
     private $profileDescription = null;
@@ -29,7 +29,7 @@ class GroupCallCenterAgentThresholdProfileGetResponse extends \CWM\BroadWorksCon
      * @ElementName thresholdCurrentCallStateIdleTimeYellow
      * @Type int
      * @Optional
-     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:2140
+     * @Group e2c537e3e39483b96620673a7012ffdd:2458
      * @var int|null
      */
     private $thresholdCurrentCallStateIdleTimeYellow = null;
@@ -38,7 +38,7 @@ class GroupCallCenterAgentThresholdProfileGetResponse extends \CWM\BroadWorksCon
      * @ElementName thresholdCurrentCallStateIdleTimeRed
      * @Type int
      * @Optional
-     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:2140
+     * @Group e2c537e3e39483b96620673a7012ffdd:2458
      * @var int|null
      */
     private $thresholdCurrentCallStateIdleTimeRed = null;
@@ -47,7 +47,7 @@ class GroupCallCenterAgentThresholdProfileGetResponse extends \CWM\BroadWorksCon
      * @ElementName thresholdCurrentCallStateOnCallTimeYellow
      * @Type int
      * @Optional
-     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:2140
+     * @Group e2c537e3e39483b96620673a7012ffdd:2458
      * @var int|null
      */
     private $thresholdCurrentCallStateOnCallTimeYellow = null;
@@ -56,7 +56,7 @@ class GroupCallCenterAgentThresholdProfileGetResponse extends \CWM\BroadWorksCon
      * @ElementName thresholdCurrentCallStateOnCallTimeRed
      * @Type int
      * @Optional
-     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:2140
+     * @Group e2c537e3e39483b96620673a7012ffdd:2458
      * @var int|null
      */
     private $thresholdCurrentCallStateOnCallTimeRed = null;
@@ -65,7 +65,7 @@ class GroupCallCenterAgentThresholdProfileGetResponse extends \CWM\BroadWorksCon
      * @ElementName thresholdCurrentAgentStateUnavailableTimeYellow
      * @Type int
      * @Optional
-     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:2140
+     * @Group e2c537e3e39483b96620673a7012ffdd:2458
      * @var int|null
      */
     private $thresholdCurrentAgentStateUnavailableTimeYellow = null;
@@ -74,7 +74,7 @@ class GroupCallCenterAgentThresholdProfileGetResponse extends \CWM\BroadWorksCon
      * @ElementName thresholdCurrentAgentStateUnavailableTimeRed
      * @Type int
      * @Optional
-     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:2140
+     * @Group e2c537e3e39483b96620673a7012ffdd:2458
      * @var int|null
      */
     private $thresholdCurrentAgentStateUnavailableTimeRed = null;
@@ -83,7 +83,7 @@ class GroupCallCenterAgentThresholdProfileGetResponse extends \CWM\BroadWorksCon
      * @ElementName thresholdAverageBusyInTimeYellow
      * @Type int
      * @Optional
-     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:2140
+     * @Group e2c537e3e39483b96620673a7012ffdd:2458
      * @var int|null
      */
     private $thresholdAverageBusyInTimeYellow = null;
@@ -92,7 +92,7 @@ class GroupCallCenterAgentThresholdProfileGetResponse extends \CWM\BroadWorksCon
      * @ElementName thresholdAverageBusyInTimeRed
      * @Type int
      * @Optional
-     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:2140
+     * @Group e2c537e3e39483b96620673a7012ffdd:2458
      * @var int|null
      */
     private $thresholdAverageBusyInTimeRed = null;
@@ -101,7 +101,7 @@ class GroupCallCenterAgentThresholdProfileGetResponse extends \CWM\BroadWorksCon
      * @ElementName thresholdAverageBusyOutTimeYellow
      * @Type int
      * @Optional
-     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:2140
+     * @Group e2c537e3e39483b96620673a7012ffdd:2458
      * @var int|null
      */
     private $thresholdAverageBusyOutTimeYellow = null;
@@ -110,7 +110,7 @@ class GroupCallCenterAgentThresholdProfileGetResponse extends \CWM\BroadWorksCon
      * @ElementName thresholdAverageBusyOutTimeRed
      * @Type int
      * @Optional
-     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:2140
+     * @Group e2c537e3e39483b96620673a7012ffdd:2458
      * @var int|null
      */
     private $thresholdAverageBusyOutTimeRed = null;
@@ -119,7 +119,7 @@ class GroupCallCenterAgentThresholdProfileGetResponse extends \CWM\BroadWorksCon
      * @ElementName thresholdAverageWrapUpTimeYellow
      * @Type int
      * @Optional
-     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:2140
+     * @Group e2c537e3e39483b96620673a7012ffdd:2458
      * @var int|null
      */
     private $thresholdAverageWrapUpTimeYellow = null;
@@ -128,7 +128,7 @@ class GroupCallCenterAgentThresholdProfileGetResponse extends \CWM\BroadWorksCon
      * @ElementName thresholdAverageWrapUpTimeRed
      * @Type int
      * @Optional
-     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:2140
+     * @Group e2c537e3e39483b96620673a7012ffdd:2458
      * @var int|null
      */
     private $thresholdAverageWrapUpTimeRed = null;
@@ -136,7 +136,7 @@ class GroupCallCenterAgentThresholdProfileGetResponse extends \CWM\BroadWorksCon
     /**
      * @ElementName enableNotificationEmail
      * @Type bool
-     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:2140
+     * @Group e2c537e3e39483b96620673a7012ffdd:2458
      * @var bool|null
      */
     private $enableNotificationEmail = null;
@@ -146,7 +146,7 @@ class GroupCallCenterAgentThresholdProfileGetResponse extends \CWM\BroadWorksCon
      * @Type string
      * @Array
      * @Optional
-     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:2140
+     * @Group e2c537e3e39483b96620673a7012ffdd:2458
      * @var string[]
      */
     private $notificationEmailAddress = array(
@@ -156,7 +156,7 @@ class GroupCallCenterAgentThresholdProfileGetResponse extends \CWM\BroadWorksCon
     /**
      * @ElementName agentTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:2140
+     * @Group e2c537e3e39483b96620673a7012ffdd:2458
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $agentTable = null;

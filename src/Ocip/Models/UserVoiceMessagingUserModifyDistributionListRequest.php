@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"80c5986946137c505e41f6008c7f75a8:1941","type":"sequence"}]
+ * @Groups [{"id":"3347d430e0d5c93a9ff8dcf0e3b60d6c:1995","type":"sequence"}]
  */
 class UserVoiceMessagingUserModifyDistributionListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserVoiceMessagingUserModifyDistributionListRequest extends \CWM\BroadWork
     /**
      * @ElementName userId
      * @Type string
-     * @Group 80c5986946137c505e41f6008c7f75a8:1941
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1995
      * @var string|null
      */
     private $userId = null;
@@ -26,7 +26,7 @@ class UserVoiceMessagingUserModifyDistributionListRequest extends \CWM\BroadWork
     /**
      * @ElementName listId
      * @Type int
-     * @Group 80c5986946137c505e41f6008c7f75a8:1941
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1995
      * @var int|null
      */
     private $listId = null;
@@ -36,7 +36,7 @@ class UserVoiceMessagingUserModifyDistributionListRequest extends \CWM\BroadWork
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 80c5986946137c505e41f6008c7f75a8:1941
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1995
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $description = null;
@@ -46,7 +46,7 @@ class UserVoiceMessagingUserModifyDistributionListRequest extends \CWM\BroadWork
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementOutgoingDNorSIPURIList
      * @Nillable
      * @Optional
-     * @Group 80c5986946137c505e41f6008c7f75a8:1941
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1995
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementOutgoingDNorSIPURIList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $phoneNumberList = null;

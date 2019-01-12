@@ -6,10 +6,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemConfigurableFileSystemGetResponse
  *
  * Response to SystemConfigurableFileSystemGetRequest.
+ *         Regardless of element password being there in the response, the request is never going
+ *         to return the password in response.
  *         Contains the File System parameters.
  *
  * @see SystemConfigurableFileSystemGetRequest
- * @Groups [{"id":"b5f5416d9e71f8e4246cda16c4723744:5866","type":"sequence","children":[{"id":"b5f5416d9e71f8e4246cda16c4723744:5868","type":"choice"}]}]
+ * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:1549","type":"sequence","children":[{"id":"de4d76f01f337fe4694212ec9f771753:1551","type":"choice"}]}]
  */
 class SystemConfigurableFileSystemGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +19,7 @@ class SystemConfigurableFileSystemGetResponse extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName mediaDirectory
      * @Type string
-     * @Group b5f5416d9e71f8e4246cda16c4723744:5866
+     * @Group de4d76f01f337fe4694212ec9f771753:1549
      * @var string|null
      */
     private $mediaDirectory = null;
@@ -25,7 +27,7 @@ class SystemConfigurableFileSystemGetResponse extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName protocolFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemConfigurableFileSystemGetResponseProtocolFile
-     * @Group b5f5416d9e71f8e4246cda16c4723744:5868
+     * @Group de4d76f01f337fe4694212ec9f771753:1551
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemConfigurableFileSystemGetResponseProtocolFile|null
      */
     private $protocolFile = null;
@@ -33,7 +35,7 @@ class SystemConfigurableFileSystemGetResponse extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName protocolWebDAV
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemConfigurableFileSystemGetResponseProtocolWebDAV
-     * @Group b5f5416d9e71f8e4246cda16c4723744:5868
+     * @Group de4d76f01f337fe4694212ec9f771753:1551
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemConfigurableFileSystemGetResponseProtocolWebDAV|null
      */
     private $protocolWebDAV = null;

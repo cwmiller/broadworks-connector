@@ -5,7 +5,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1GreetingsMenuKeys
  *
- * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:30809","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:30925","type":"sequence"}]
  */
 class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1GreetingsMenuKeys
 {
@@ -14,7 +14,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1GreetingsMenuKeys
      * @ElementName personalizedName
      * @Type string
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:30809
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:30925
      * @var string|null
      */
     private $personalizedName = null;
@@ -23,7 +23,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1GreetingsMenuKeys
      * @ElementName conferenceGreeting
      * @Type string
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:30809
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:30925
      * @var string|null
      */
     private $conferenceGreeting = null;
@@ -31,7 +31,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1GreetingsMenuKeys
     /**
      * @ElementName returnToPreviousMenu
      * @Type string
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:30809
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:30925
      * @var string|null
      */
     private $returnToPreviousMenu = null;
@@ -40,7 +40,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1GreetingsMenuKeys
      * @ElementName repeatMenu
      * @Type string
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:30809
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:30925
      * @var string|null
      */
     private $repeatMenu = null;

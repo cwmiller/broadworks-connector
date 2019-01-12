@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * This is the configuration parameters for Do Not Disturb service
  *
- * @Groups [{"id":"ee3830ce42f01a3ef2a105d473fc3b17:3639","type":"sequence"}]
+ * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:4026","type":"sequence"}]
  */
 class ProfileAndServiceDoNotDisturbInfo
 {
@@ -15,7 +15,7 @@ class ProfileAndServiceDoNotDisturbInfo
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group ee3830ce42f01a3ef2a105d473fc3b17:3639
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:4026
      * @var bool|null
      */
     private $isActive = null;
@@ -23,7 +23,7 @@ class ProfileAndServiceDoNotDisturbInfo
     /**
      * @ElementName ringSplash
      * @Type bool
-     * @Group ee3830ce42f01a3ef2a105d473fc3b17:3639
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:4026
      * @var bool|null
      */
     private $ringSplash = null;

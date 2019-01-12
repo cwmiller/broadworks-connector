@@ -15,7 +15,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see EnterprisePhoneDirectoryGetListResponse
  * @see ErrorResponse
  * @see EnterprisePhoneDirectoryGetListRequest17
- * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:1438","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:11954","type":"sequence"}]
  */
 class EnterprisePhoneDirectoryGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -23,7 +23,7 @@ class EnterprisePhoneDirectoryGetListRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName enterpriseId
      * @Type string
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:1438
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:11954
      * @var string|null
      */
     private $enterpriseId = null;
@@ -31,7 +31,7 @@ class EnterprisePhoneDirectoryGetListRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName isExtendedInfoRequested
      * @Type bool
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:1438
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:11954
      * @var bool|null
      */
     private $isExtendedInfoRequested = null;
@@ -40,7 +40,7 @@ class EnterprisePhoneDirectoryGetListRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:1438
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:11954
      * @var int|null
      */
     private $responseSizeLimit = null;
@@ -50,7 +50,7 @@ class EnterprisePhoneDirectoryGetListRequest extends \CWM\BroadWorksConnector\Oc
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName
      * @Array
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:1438
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:11954
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[]
      */
     private $searchCriteriaUserLastName = array(
@@ -62,7 +62,7 @@ class EnterprisePhoneDirectoryGetListRequest extends \CWM\BroadWorksConnector\Oc
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName
      * @Array
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:1438
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:11954
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName[]
      */
     private $searchCriteriaUserFirstName = array(
@@ -74,7 +74,7 @@ class EnterprisePhoneDirectoryGetListRequest extends \CWM\BroadWorksConnector\Oc
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn
      * @Array
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:1438
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:11954
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[]
      */
     private $searchCriteriaDn = array(
@@ -86,7 +86,7 @@ class EnterprisePhoneDirectoryGetListRequest extends \CWM\BroadWorksConnector\Oc
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupLocationCode
      * @Array
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:1438
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:11954
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupLocationCode[]
      */
     private $searchCriteriaGroupLocationCode = array(
@@ -98,7 +98,7 @@ class EnterprisePhoneDirectoryGetListRequest extends \CWM\BroadWorksConnector\Oc
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension
      * @Array
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:1438
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:11954
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension[]
      */
     private $searchCriteriaExtension = array(
@@ -110,7 +110,7 @@ class EnterprisePhoneDirectoryGetListRequest extends \CWM\BroadWorksConnector\Oc
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaMobilePhoneNumber
      * @Array
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:1438
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:11954
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaMobilePhoneNumber[]
      */
     private $searchCriteriaMobilePhoneNumber = array(
@@ -122,7 +122,7 @@ class EnterprisePhoneDirectoryGetListRequest extends \CWM\BroadWorksConnector\Oc
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaEmailAddress
      * @Array
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:1438
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:11954
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaEmailAddress[]
      */
     private $searchCriteriaEmailAddress = array(
@@ -134,7 +134,7 @@ class EnterprisePhoneDirectoryGetListRequest extends \CWM\BroadWorksConnector\Oc
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaYahooId
      * @Array
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:1438
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:11954
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaYahooId[]
      */
     private $searchCriteriaYahooId = array(
@@ -145,7 +145,7 @@ class EnterprisePhoneDirectoryGetListRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName searchCriteriaExactUserGroup
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserGroup
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:1438
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:11954
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserGroup|null
      */
     private $searchCriteriaExactUserGroup = null;
@@ -154,7 +154,7 @@ class EnterprisePhoneDirectoryGetListRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName searchCriteriaExactUserDepartment
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:1438
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:11954
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment|null
      */
     private $searchCriteriaExactUserDepartment = null;

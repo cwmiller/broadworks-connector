@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"e7d595471b9d1aa19c8306be64e2a10a:75","type":"sequence"}]
+ * @Groups [{"id":"abb5674e0e8c679a722da3c2b8dc2182:75","type":"sequence"}]
  */
 class UserCallForwardingBusyModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class UserCallForwardingBusyModifyRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName userId
      * @Type string
-     * @Group e7d595471b9d1aa19c8306be64e2a10a:75
+     * @Group abb5674e0e8c679a722da3c2b8dc2182:75
      * @var string|null
      */
     private $userId = null;
@@ -28,7 +28,7 @@ class UserCallForwardingBusyModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName isActive
      * @Type bool
      * @Optional
-     * @Group e7d595471b9d1aa19c8306be64e2a10a:75
+     * @Group abb5674e0e8c679a722da3c2b8dc2182:75
      * @var bool|null
      */
     private $isActive = null;
@@ -38,7 +38,7 @@ class UserCallForwardingBusyModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @Type string
      * @Nillable
      * @Optional
-     * @Group e7d595471b9d1aa19c8306be64e2a10a:75
+     * @Group abb5674e0e8c679a722da3c2b8dc2182:75
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $forwardToPhoneNumber = null;

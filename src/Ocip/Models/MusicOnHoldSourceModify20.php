@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Contains the music on hold source configuration.
  *         Replaced by: MusicOnHoldSourceModify21
  *
- * @Groups [{"id":"bb12a3589ab4748963f28f7ac9310f70:6099","type":"sequence"}]
+ * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:8429","type":"sequence"}]
  */
 class MusicOnHoldSourceModify20
 {
@@ -17,7 +17,7 @@ class MusicOnHoldSourceModify20
      * @ElementName audioFilePreferredCodec
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AudioFileCodec
      * @Optional
-     * @Group bb12a3589ab4748963f28f7ac9310f70:6099
+     * @Group de4d76f01f337fe4694212ec9f771753:8429
      * @var \CWM\BroadWorksConnector\Ocip\Models\AudioFileCodec|null
      */
     private $audioFilePreferredCodec = null;
@@ -26,7 +26,7 @@ class MusicOnHoldSourceModify20
      * @ElementName messageSourceSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldMessageSelection
      * @Optional
-     * @Group bb12a3589ab4748963f28f7ac9310f70:6099
+     * @Group de4d76f01f337fe4694212ec9f771753:8429
      * @var \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldMessageSelection|null
      */
     private $messageSourceSelection = null;
@@ -35,7 +35,7 @@ class MusicOnHoldSourceModify20
      * @ElementName customSource
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceModify20CustomSource
      * @Optional
-     * @Group bb12a3589ab4748963f28f7ac9310f70:6099
+     * @Group de4d76f01f337fe4694212ec9f771753:8429
      * @var \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceModify20CustomSource|null
      */
     private $customSource = null;
@@ -44,7 +44,7 @@ class MusicOnHoldSourceModify20
      * @ElementName externalSource
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceModify20ExternalSource
      * @Optional
-     * @Group bb12a3589ab4748963f28f7ac9310f70:6099
+     * @Group de4d76f01f337fe4694212ec9f771753:8429
      * @var \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceModify20ExternalSource|null
      */
     private $externalSource = null;

@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to UserCallForwardingNotReachableGetRequest.
  *
  * @see UserCallForwardingNotReachableGetRequest
- * @Groups [{"id":"0b08bcdbff7b3c2f555d0cdaf5652e32:59","type":"sequence"}]
+ * @Groups [{"id":"894e3bfe658bf9c3ec06aa2fd09fdd43:59","type":"sequence"}]
  */
 class UserCallForwardingNotReachableGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class UserCallForwardingNotReachableGetResponse extends \CWM\BroadWorksConnector
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group 0b08bcdbff7b3c2f555d0cdaf5652e32:59
+     * @Group 894e3bfe658bf9c3ec06aa2fd09fdd43:59
      * @var bool|null
      */
     private $isActive = null;
@@ -25,7 +25,7 @@ class UserCallForwardingNotReachableGetResponse extends \CWM\BroadWorksConnector
      * @ElementName forwardToPhoneNumber
      * @Type string
      * @Optional
-     * @Group 0b08bcdbff7b3c2f555d0cdaf5652e32:59
+     * @Group 894e3bfe658bf9c3ec06aa2fd09fdd43:59
      * @var string|null
      */
     private $forwardToPhoneNumber = null;

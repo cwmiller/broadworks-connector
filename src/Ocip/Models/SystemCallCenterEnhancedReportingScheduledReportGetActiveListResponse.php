@@ -15,7 +15,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         For the rows with "Is Enterprise" column value "true", the "Group Id" column will be empty.
  *
  * @see SystemCallCenterEnhancedReportingScheduledReportGetActiveListRequest
- * @Groups [{"id":"3ac5f05d969bc771d6ba8d344d95aa72:5646","type":"sequence"}]
+ * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:6267","type":"sequence"}]
  */
 class SystemCallCenterEnhancedReportingScheduledReportGetActiveListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -23,7 +23,7 @@ class SystemCallCenterEnhancedReportingScheduledReportGetActiveListResponse exte
     /**
      * @ElementName scheduledReportTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:5646
+     * @Group e2c537e3e39483b96620673a7012ffdd:6267
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $scheduledReportTable = null;

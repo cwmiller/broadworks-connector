@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to ServiceProviderZoneCallingRestrictionsGetRequest
  *
  * @see ServiceProviderZoneCallingRestrictionsGetRequest
- * @Groups [{"id":"07380fdcfb18253c57c357aa0080f72a:61","type":"sequence"}]
+ * @Groups [{"id":"da5cd0d79ddb505982e08d164e405660:61","type":"sequence"}]
  */
 class ServiceProviderZoneCallingRestrictionsGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class ServiceProviderZoneCallingRestrictionsGetResponse extends \CWM\BroadWorksC
     /**
      * @ElementName enableZoneCallingRestrictions
      * @Type bool
-     * @Group 07380fdcfb18253c57c357aa0080f72a:61
+     * @Group da5cd0d79ddb505982e08d164e405660:61
      * @var bool|null
      */
     private $enableZoneCallingRestrictions = null;
@@ -24,7 +24,7 @@ class ServiceProviderZoneCallingRestrictionsGetResponse extends \CWM\BroadWorksC
     /**
      * @ElementName enableOriginationRoamingRestrictions
      * @Type bool
-     * @Group 07380fdcfb18253c57c357aa0080f72a:61
+     * @Group da5cd0d79ddb505982e08d164e405660:61
      * @var bool|null
      */
     private $enableOriginationRoamingRestrictions = null;
@@ -32,7 +32,7 @@ class ServiceProviderZoneCallingRestrictionsGetResponse extends \CWM\BroadWorksC
     /**
      * @ElementName enableEmergencyOriginationRoamingRestrictions
      * @Type bool
-     * @Group 07380fdcfb18253c57c357aa0080f72a:61
+     * @Group da5cd0d79ddb505982e08d164e405660:61
      * @var bool|null
      */
     private $enableEmergencyOriginationRoamingRestrictions = null;
@@ -40,7 +40,7 @@ class ServiceProviderZoneCallingRestrictionsGetResponse extends \CWM\BroadWorksC
     /**
      * @ElementName enableTerminationRoamingRestrictions
      * @Type bool
-     * @Group 07380fdcfb18253c57c357aa0080f72a:61
+     * @Group da5cd0d79ddb505982e08d164e405660:61
      * @var bool|null
      */
     private $enableTerminationRoamingRestrictions = null;

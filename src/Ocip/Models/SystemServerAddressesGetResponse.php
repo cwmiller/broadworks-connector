@@ -16,7 +16,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see PrimaryInfoGetResponse
  * @see PublicClusterGetFullyQualifiedDomainNameResponse
  * @see ServingInfoGetResponse
- * @Groups [{"id":"b5f5416d9e71f8e4246cda16c4723744:13989","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:14236","type":"sequence"}]
  */
 class SystemServerAddressesGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -25,7 +25,7 @@ class SystemServerAddressesGetResponse extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName webServerClusterPublicFQDN
      * @Type string
      * @Optional
-     * @Group b5f5416d9e71f8e4246cda16c4723744:13989
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14236
      * @var string|null
      */
     private $webServerClusterPublicFQDN = null;
@@ -34,7 +34,7 @@ class SystemServerAddressesGetResponse extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName applicationServerClusterPrimaryPublicFQDN
      * @Type string
      * @Optional
-     * @Group b5f5416d9e71f8e4246cda16c4723744:13989
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14236
      * @var string|null
      */
     private $applicationServerClusterPrimaryPublicFQDN = null;
@@ -43,7 +43,7 @@ class SystemServerAddressesGetResponse extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName applicationServerClusterSecondaryPublicFQDN
      * @Type string
      * @Optional
-     * @Group b5f5416d9e71f8e4246cda16c4723744:13989
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14236
      * @var string|null
      */
     private $applicationServerClusterSecondaryPublicFQDN = null;
@@ -52,7 +52,7 @@ class SystemServerAddressesGetResponse extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName applicationServerClusterPrimaryPrivateFQDN
      * @Type string
      * @Optional
-     * @Group b5f5416d9e71f8e4246cda16c4723744:13989
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14236
      * @var string|null
      */
     private $applicationServerClusterPrimaryPrivateFQDN = null;
@@ -61,7 +61,7 @@ class SystemServerAddressesGetResponse extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName applicationServerClusterSecondaryPrivateFQDN
      * @Type string
      * @Optional
-     * @Group b5f5416d9e71f8e4246cda16c4723744:13989
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14236
      * @var string|null
      */
     private $applicationServerClusterSecondaryPrivateFQDN = null;

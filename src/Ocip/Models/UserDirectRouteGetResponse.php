@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains the direct route setting and the list of DTGs/Trunk Identities assigned to a user.
  *
  * @see UserDirectRouteGetRequest
- * @Groups [{"id":"a23ada2e46d8597752a0a7f9f0e59f98:57","type":"sequence"}]
+ * @Groups [{"id":"4e1b40cd187e65e0dc647394b1e74e3c:57","type":"sequence"}]
  */
 class UserDirectRouteGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class UserDirectRouteGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * @ElementName outgoingDTGPolicy
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DirectRouteOutgoingDTGPolicy
-     * @Group a23ada2e46d8597752a0a7f9f0e59f98:57
+     * @Group 4e1b40cd187e65e0dc647394b1e74e3c:57
      * @var \CWM\BroadWorksConnector\Ocip\Models\DirectRouteOutgoingDTGPolicy|null
      */
     private $outgoingDTGPolicy = null;
@@ -25,7 +25,7 @@ class UserDirectRouteGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * @ElementName outgoingTrunkIdentityPolicy
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DirectRouteOutgoingTrunkIdentityPolicy
-     * @Group a23ada2e46d8597752a0a7f9f0e59f98:57
+     * @Group 4e1b40cd187e65e0dc647394b1e74e3c:57
      * @var \CWM\BroadWorksConnector\Ocip\Models\DirectRouteOutgoingTrunkIdentityPolicy|null
      */
     private $outgoingTrunkIdentityPolicy = null;
@@ -34,7 +34,7 @@ class UserDirectRouteGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @ElementName directRouteIdentityList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DirectRouteIdentifiers
      * @Optional
-     * @Group a23ada2e46d8597752a0a7f9f0e59f98:57
+     * @Group 4e1b40cd187e65e0dc647394b1e74e3c:57
      * @var \CWM\BroadWorksConnector\Ocip\Models\DirectRouteIdentifiers|null
      */
     private $directRouteIdentityList = null;

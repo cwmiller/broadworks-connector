@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemEnhancedCallLogsGetRequest22.
  *
  * @see SystemEnhancedCallLogsGetRequest22
- * @Groups [{"id":"04a33199b8359d9cc787bc7a2d16ab12:216","type":"sequence"}]
+ * @Groups [{"id":"f6b3702edb5f67fa12c2c426d98657db:111","type":"sequence"}]
  */
 class SystemEnhancedCallLogsGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class SystemEnhancedCallLogsGetResponse22 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName maxNonPagedResponseSize
      * @Type int
-     * @Group 04a33199b8359d9cc787bc7a2d16ab12:216
+     * @Group f6b3702edb5f67fa12c2c426d98657db:111
      * @var int|null
      */
     private $maxNonPagedResponseSize = null;
@@ -25,7 +25,7 @@ class SystemEnhancedCallLogsGetResponse22 extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName eclQueryApplicationURL
      * @Type string
      * @Optional
-     * @Group 04a33199b8359d9cc787bc7a2d16ab12:216
+     * @Group f6b3702edb5f67fa12c2c426d98657db:111
      * @var string|null
      */
     private $eclQueryApplicationURL = null;
@@ -34,7 +34,7 @@ class SystemEnhancedCallLogsGetResponse22 extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName eclQueryDataRepositoryURL
      * @Type string
      * @Optional
-     * @Group 04a33199b8359d9cc787bc7a2d16ab12:216
+     * @Group f6b3702edb5f67fa12c2c426d98657db:111
      * @var string|null
      */
     private $eclQueryDataRepositoryURL = null;

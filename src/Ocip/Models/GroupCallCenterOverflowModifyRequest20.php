@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"3ac5f05d969bc771d6ba8d344d95aa72:4882","type":"sequence"}]
+ * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:5454","type":"sequence"}]
  */
 class GroupCallCenterOverflowModifyRequest20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupCallCenterOverflowModifyRequest20 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:4882
+     * @Group e2c537e3e39483b96620673a7012ffdd:5454
      * @var string|null
      */
     private $serviceUserId = null;
@@ -27,7 +27,7 @@ class GroupCallCenterOverflowModifyRequest20 extends \CWM\BroadWorksConnector\Oc
      * @ElementName action
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterOverflowProcessingAction
      * @Optional
-     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:4882
+     * @Group e2c537e3e39483b96620673a7012ffdd:5454
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterOverflowProcessingAction|null
      */
     private $action = null;
@@ -37,7 +37,7 @@ class GroupCallCenterOverflowModifyRequest20 extends \CWM\BroadWorksConnector\Oc
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:4882
+     * @Group e2c537e3e39483b96620673a7012ffdd:5454
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $transferPhoneNumber = null;
@@ -46,7 +46,7 @@ class GroupCallCenterOverflowModifyRequest20 extends \CWM\BroadWorksConnector\Oc
      * @ElementName overflowAfterTimeout
      * @Type bool
      * @Optional
-     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:4882
+     * @Group e2c537e3e39483b96620673a7012ffdd:5454
      * @var bool|null
      */
     private $overflowAfterTimeout = null;
@@ -55,7 +55,7 @@ class GroupCallCenterOverflowModifyRequest20 extends \CWM\BroadWorksConnector\Oc
      * @ElementName timeoutSeconds
      * @Type int
      * @Optional
-     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:4882
+     * @Group e2c537e3e39483b96620673a7012ffdd:5454
      * @var int|null
      */
     private $timeoutSeconds = null;
@@ -64,7 +64,7 @@ class GroupCallCenterOverflowModifyRequest20 extends \CWM\BroadWorksConnector\Oc
      * @ElementName playAnnouncementBeforeOverflowProcessing
      * @Type bool
      * @Optional
-     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:4882
+     * @Group e2c537e3e39483b96620673a7012ffdd:5454
      * @var bool|null
      */
     private $playAnnouncementBeforeOverflowProcessing = null;
@@ -73,7 +73,7 @@ class GroupCallCenterOverflowModifyRequest20 extends \CWM\BroadWorksConnector\Oc
      * @ElementName audioMessageSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
      * @Optional
-     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:4882
+     * @Group e2c537e3e39483b96620673a7012ffdd:5454
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     private $audioMessageSelection = null;
@@ -82,7 +82,7 @@ class GroupCallCenterOverflowModifyRequest20 extends \CWM\BroadWorksConnector\Oc
      * @ElementName audioUrlList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLListModify
      * @Optional
-     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:4882
+     * @Group e2c537e3e39483b96620673a7012ffdd:5454
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLListModify|null
      */
     private $audioUrlList = null;
@@ -91,7 +91,7 @@ class GroupCallCenterOverflowModifyRequest20 extends \CWM\BroadWorksConnector\Oc
      * @ElementName audioFileList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListModify20
      * @Optional
-     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:4882
+     * @Group e2c537e3e39483b96620673a7012ffdd:5454
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListModify20|null
      */
     private $audioFileList = null;
@@ -100,7 +100,7 @@ class GroupCallCenterOverflowModifyRequest20 extends \CWM\BroadWorksConnector\Oc
      * @ElementName videoMessageSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
      * @Optional
-     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:4882
+     * @Group e2c537e3e39483b96620673a7012ffdd:5454
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     private $videoMessageSelection = null;
@@ -109,7 +109,7 @@ class GroupCallCenterOverflowModifyRequest20 extends \CWM\BroadWorksConnector\Oc
      * @ElementName videoUrlList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLListModify
      * @Optional
-     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:4882
+     * @Group e2c537e3e39483b96620673a7012ffdd:5454
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLListModify|null
      */
     private $videoUrlList = null;
@@ -118,7 +118,7 @@ class GroupCallCenterOverflowModifyRequest20 extends \CWM\BroadWorksConnector\Oc
      * @ElementName videoFileList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListModify20
      * @Optional
-     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:4882
+     * @Group e2c537e3e39483b96620673a7012ffdd:5454
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListModify20|null
      */
     private $videoFileList = null;

@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "Phone Number", "Extension", "Department", "Email Address".
  *
  * @see GroupSeriesCompletionGetAvailableUserListRequest
- * @Groups [{"id":"50d7061385a4ccc59235c104f69a18f0:112","type":"sequence"}]
+ * @Groups [{"id":"b974dc59b4b32d9f5952a0442ecaefa8:112","type":"sequence"}]
  */
 class GroupSeriesCompletionGetAvailableUserListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class GroupSeriesCompletionGetAvailableUserListResponse extends \CWM\BroadWorksC
     /**
      * @ElementName userTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 50d7061385a4ccc59235c104f69a18f0:112
+     * @Group b974dc59b4b32d9f5952a0442ecaefa8:112
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $userTable = null;

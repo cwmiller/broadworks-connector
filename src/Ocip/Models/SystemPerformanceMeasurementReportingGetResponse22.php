@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemPerformanceMeasurementReportingGetRequest22.
  *
  * @see SystemPerformanceMeasurementReportingGetRequest22
- * @Groups [{"id":"b5f5416d9e71f8e4246cda16c4723744:12534","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:12727","type":"sequence"}]
  */
 class SystemPerformanceMeasurementReportingGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class SystemPerformanceMeasurementReportingGetResponse22 extends \CWM\BroadWorks
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group b5f5416d9e71f8e4246cda16c4723744:12534
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12727
      * @var bool|null
      */
     private $isActive = null;
@@ -24,7 +24,7 @@ class SystemPerformanceMeasurementReportingGetResponse22 extends \CWM\BroadWorks
     /**
      * @ElementName reportingInterval
      * @Type int
-     * @Group b5f5416d9e71f8e4246cda16c4723744:12534
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12727
      * @var int|null
      */
     private $reportingInterval = null;
@@ -32,7 +32,7 @@ class SystemPerformanceMeasurementReportingGetResponse22 extends \CWM\BroadWorks
     /**
      * @ElementName resetMeasurementsAfterEachReport
      * @Type bool
-     * @Group b5f5416d9e71f8e4246cda16c4723744:12534
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12727
      * @var bool|null
      */
     private $resetMeasurementsAfterEachReport = null;
@@ -40,7 +40,7 @@ class SystemPerformanceMeasurementReportingGetResponse22 extends \CWM\BroadWorks
     /**
      * @ElementName reportEnterprise
      * @Type bool
-     * @Group b5f5416d9e71f8e4246cda16c4723744:12534
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12727
      * @var bool|null
      */
     private $reportEnterprise = null;
@@ -48,7 +48,7 @@ class SystemPerformanceMeasurementReportingGetResponse22 extends \CWM\BroadWorks
     /**
      * @ElementName reportServiceProvider
      * @Type bool
-     * @Group b5f5416d9e71f8e4246cda16c4723744:12534
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12727
      * @var bool|null
      */
     private $reportServiceProvider = null;
@@ -56,7 +56,7 @@ class SystemPerformanceMeasurementReportingGetResponse22 extends \CWM\BroadWorks
     /**
      * @ElementName reportDevice
      * @Type bool
-     * @Group b5f5416d9e71f8e4246cda16c4723744:12534
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12727
      * @var bool|null
      */
     private $reportDevice = null;
@@ -64,7 +64,7 @@ class SystemPerformanceMeasurementReportingGetResponse22 extends \CWM\BroadWorks
     /**
      * @ElementName reportTable
      * @Type bool
-     * @Group b5f5416d9e71f8e4246cda16c4723744:12534
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12727
      * @var bool|null
      */
     private $reportTable = null;

@@ -5,7 +5,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * GroupEmergencyZonesModifyHomeZoneListRequestHomeZoneIpAddressList
  *
- * @Groups [{"id":"d7882d78f308b028a917e52a926dc22c:159","type":"sequence"}]
+ * @Groups [{"id":"e71c2205fb31894f87810b330a85ede2:161","type":"sequence"}]
  */
 class GroupEmergencyZonesModifyHomeZoneListRequestHomeZoneIpAddressList
 {
@@ -13,7 +13,7 @@ class GroupEmergencyZonesModifyHomeZoneListRequestHomeZoneIpAddressList
     /**
      * @ElementName homeZoneIpAddress
      * @Type string
-     * @Group d7882d78f308b028a917e52a926dc22c:159
+     * @Group e71c2205fb31894f87810b330a85ede2:161
      * @var string|null
      */
     private $homeZoneIpAddress = null;
@@ -21,7 +21,7 @@ class GroupEmergencyZonesModifyHomeZoneListRequestHomeZoneIpAddressList
     /**
      * @ElementName newHomeZoneIpAddress
      * @Type string
-     * @Group d7882d78f308b028a917e52a926dc22c:159
+     * @Group e71c2205fb31894f87810b330a85ede2:161
      * @var string|null
      */
     private $newHomeZoneIpAddress = null;

@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "Phone Number", "Extension", "Department", "Email Address".
  *
  * @see GroupGroupPagingGetAvailableTargetListRequest
- * @Groups [{"id":"756d4171668642e53d80bfcb4d781d63:238","type":"sequence"}]
+ * @Groups [{"id":"0d36df8c109e3ea7324f79031368c661:238","type":"sequence"}]
  */
 class GroupGroupPagingGetAvailableTargetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class GroupGroupPagingGetAvailableTargetListResponse extends \CWM\BroadWorksConn
     /**
      * @ElementName userTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 756d4171668642e53d80bfcb4d781d63:238
+     * @Group 0d36df8c109e3ea7324f79031368c661:238
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $userTable = null;

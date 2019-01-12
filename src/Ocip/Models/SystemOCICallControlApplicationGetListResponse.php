@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         and "Channel Set Grace Period Seconds".
  *
  * @see SystemOCICallControlApplicationGetListRequest
- * @Groups [{"id":"b5f5416d9e71f8e4246cda16c4723744:11716","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:11907","type":"sequence"}]
  */
 class SystemOCICallControlApplicationGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class SystemOCICallControlApplicationGetListResponse extends \CWM\BroadWorksConn
     /**
      * @ElementName appTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group b5f5416d9e71f8e4246cda16c4723744:11716
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11907
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $appTable = null;

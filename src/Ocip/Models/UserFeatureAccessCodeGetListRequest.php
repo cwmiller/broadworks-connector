@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see UserFeatureAccessCodeGetListResponse
  * @see ErrorResponse
  * @see UserFeatureAccessCodeGetListRequest20
- * @Groups [{"id":"bb12a3589ab4748963f28f7ac9310f70:5120","type":"sequence"}]
+ * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:2110","type":"sequence"}]
  */
 class UserFeatureAccessCodeGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,7 +21,7 @@ class UserFeatureAccessCodeGetListRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName userId
      * @Type string
-     * @Group bb12a3589ab4748963f28f7ac9310f70:5120
+     * @Group de4d76f01f337fe4694212ec9f771753:2110
      * @var string|null
      */
     private $userId = null;

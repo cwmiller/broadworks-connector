@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains the service profile information.
  *
  * @see GroupGroupPagingGetInstanceRequest19sp1
- * @Groups [{"id":"756d4171668642e53d80bfcb4d781d63:307","type":"sequence"}]
+ * @Groups [{"id":"0d36df8c109e3ea7324f79031368c661:307","type":"sequence"}]
  */
 class GroupGroupPagingGetInstanceResponse19sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class GroupGroupPagingGetInstanceResponse19sp1 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName serviceInstanceProfile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile19sp1
-     * @Group 756d4171668642e53d80bfcb4d781d63:307
+     * @Group 0d36df8c109e3ea7324f79031368c661:307
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile19sp1|null
      */
     private $serviceInstanceProfile = null;
@@ -25,7 +25,7 @@ class GroupGroupPagingGetInstanceResponse19sp1 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName confirmationToneTimeoutSeconds
      * @Type int
-     * @Group 756d4171668642e53d80bfcb4d781d63:307
+     * @Group 0d36df8c109e3ea7324f79031368c661:307
      * @var int|null
      */
     private $confirmationToneTimeoutSeconds = null;
@@ -33,7 +33,7 @@ class GroupGroupPagingGetInstanceResponse19sp1 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName deliverOriginatorCLIDInstead
      * @Type bool
-     * @Group 756d4171668642e53d80bfcb4d781d63:307
+     * @Group 0d36df8c109e3ea7324f79031368c661:307
      * @var bool|null
      */
     private $deliverOriginatorCLIDInstead = null;
@@ -42,7 +42,7 @@ class GroupGroupPagingGetInstanceResponse19sp1 extends \CWM\BroadWorksConnector\
      * @ElementName originatorCLIDPrefix
      * @Type string
      * @Optional
-     * @Group 756d4171668642e53d80bfcb4d781d63:307
+     * @Group 0d36df8c109e3ea7324f79031368c661:307
      * @var string|null
      */
     private $originatorCLIDPrefix = null;
@@ -51,7 +51,7 @@ class GroupGroupPagingGetInstanceResponse19sp1 extends \CWM\BroadWorksConnector\
      * @ElementName networkClassOfService
      * @Type string
      * @Optional
-     * @Group 756d4171668642e53d80bfcb4d781d63:307
+     * @Group 0d36df8c109e3ea7324f79031368c661:307
      * @var string|null
      */
     private $networkClassOfService = null;

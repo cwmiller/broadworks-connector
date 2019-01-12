@@ -9,15 +9,17 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         dn/passcode, lineport/password or a token previously authorized with the ExternalAuthenticationAuthorizeTokenRequest. 
  *         The phone number may be any DN associated with a user.
  *         The lineport may be any lineport associated with a user.
- *         The password used for the lineport is the user’s password associated with userId.
+ *         The password used for the lineport is the user's password associated with userId.
  *           
  *         The response is a AuthenticationVerifyResponse22 or an ErrorResponse
+ *         Replaced by AuthenticationVerifyRequest22V2.
  *
  * @see AuthenticationVerifyRequest22
  * @see ExternalAuthenticationAuthorizeTokenRequest
  * @see AuthenticationVerifyResponse22
  * @see ErrorResponse
- * @Groups [{"id":"21fd3c6abc11c44e52803121f7739a76:59","type":"choice","children":[{"id":"21fd3c6abc11c44e52803121f7739a76:60","type":"sequence"},{"id":"21fd3c6abc11c44e52803121f7739a76:64","type":"sequence"},{"id":"21fd3c6abc11c44e52803121f7739a76:68","type":"sequence"},{"id":"21fd3c6abc11c44e52803121f7739a76:72","type":"sequence"},{"id":"21fd3c6abc11c44e52803121f7739a76:75","type":"sequence"}]}]
+ * @see AuthenticationVerifyRequest22V2
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:39160","type":"choice","children":[{"id":"ab0042aa512abc10edb3c55e4b416b0b:39161","type":"sequence"},{"id":"ab0042aa512abc10edb3c55e4b416b0b:39165","type":"sequence"},{"id":"ab0042aa512abc10edb3c55e4b416b0b:39169","type":"sequence"},{"id":"ab0042aa512abc10edb3c55e4b416b0b:39173","type":"sequence"},{"id":"ab0042aa512abc10edb3c55e4b416b0b:39176","type":"sequence"}]}]
  */
 class AuthenticationVerifyRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -25,7 +27,7 @@ class AuthenticationVerifyRequest22 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName userId
      * @Type string
-     * @Group 21fd3c6abc11c44e52803121f7739a76:75
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:39176
      * @var string|null
      */
     private $userId = null;
@@ -33,7 +35,7 @@ class AuthenticationVerifyRequest22 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName password
      * @Type string
-     * @Group 21fd3c6abc11c44e52803121f7739a76:68
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:39169
      * @var string|null
      */
     private $password = null;
@@ -41,7 +43,7 @@ class AuthenticationVerifyRequest22 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName phoneNumber
      * @Type string
-     * @Group 21fd3c6abc11c44e52803121f7739a76:64
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:39165
      * @var string|null
      */
     private $phoneNumber = null;
@@ -49,7 +51,7 @@ class AuthenticationVerifyRequest22 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName passcode
      * @Type string
-     * @Group 21fd3c6abc11c44e52803121f7739a76:64
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:39165
      * @var string|null
      */
     private $passcode = null;
@@ -57,7 +59,7 @@ class AuthenticationVerifyRequest22 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName linePort
      * @Type string
-     * @Group 21fd3c6abc11c44e52803121f7739a76:68
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:39169
      * @var string|null
      */
     private $linePort = null;
@@ -65,7 +67,7 @@ class AuthenticationVerifyRequest22 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName loginToken
      * @Type string
-     * @Group 21fd3c6abc11c44e52803121f7739a76:72
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:39173
      * @var string|null
      */
     private $loginToken = null;
@@ -73,7 +75,7 @@ class AuthenticationVerifyRequest22 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName sipAuthenticationUserName
      * @Type string
-     * @Group 21fd3c6abc11c44e52803121f7739a76:75
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:39176
      * @var string|null
      */
     private $sipAuthenticationUserName = null;
@@ -81,7 +83,7 @@ class AuthenticationVerifyRequest22 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName sipAuthenticationPassword
      * @Type string
-     * @Group 21fd3c6abc11c44e52803121f7739a76:75
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:39176
      * @var string|null
      */
     private $sipAuthenticationPassword = null;

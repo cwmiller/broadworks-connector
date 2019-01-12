@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemDeviceTypeGetAvailableListRequest19
  * @see SystemDeviceTypeGetAvailableListResponse22
- * @Groups [{"id":"bd46fc427b2b0dc182dcd53cf03e95b4:733","type":"sequence"}]
+ * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:6467","type":"sequence"}]
  */
 class SystemDeviceTypeGetAvailableListResponse19 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -21,7 +21,7 @@ class SystemDeviceTypeGetAvailableListResponse19 extends \CWM\BroadWorksConnecto
      * @Type string
      * @Array
      * @Optional
-     * @Group bd46fc427b2b0dc182dcd53cf03e95b4:733
+     * @Group de4d76f01f337fe4694212ec9f771753:6467
      * @var string[]
      */
     private $deviceType = array(
@@ -33,7 +33,7 @@ class SystemDeviceTypeGetAvailableListResponse19 extends \CWM\BroadWorksConnecto
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemDeviceTypeGetAvailableListResponse19TypeInfo
      * @Array
      * @Optional
-     * @Group bd46fc427b2b0dc182dcd53cf03e95b4:733
+     * @Group de4d76f01f337fe4694212ec9f771753:6467
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemDeviceTypeGetAvailableListResponse19TypeInfo[]
      */
     private $typeInfo = array(

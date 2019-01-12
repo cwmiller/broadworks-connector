@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"b5f5416d9e71f8e4246cda16c4723744:9313","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:9498","type":"sequence"}]
  */
 class SystemGETSReservedFeatureAccessCodeAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemGETSReservedFeatureAccessCodeAddRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName code
      * @Type string
-     * @Group b5f5416d9e71f8e4246cda16c4723744:9313
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9498
      * @var string|null
      */
     private $code = null;
@@ -27,7 +27,7 @@ class SystemGETSReservedFeatureAccessCodeAddRequest extends \CWM\BroadWorksConne
      * @ElementName description
      * @Type string
      * @Optional
-     * @Group b5f5416d9e71f8e4246cda16c4723744:9313
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9498
      * @var string|null
      */
     private $description = null;

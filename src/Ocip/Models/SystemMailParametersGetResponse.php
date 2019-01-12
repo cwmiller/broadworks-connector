@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains a list of system Mail parameters.
  *
  * @see SystemMailParametersGetListRequest
- * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:22873","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:37381","type":"sequence"}]
  */
 class SystemMailParametersGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class SystemMailParametersGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName primaryServerNetAddress
      * @Type string
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:22873
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:37381
      * @var string|null
      */
     private $primaryServerNetAddress = null;
@@ -27,7 +27,7 @@ class SystemMailParametersGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName secondaryServerNetAddress
      * @Type string
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:22873
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:37381
      * @var string|null
      */
     private $secondaryServerNetAddress = null;
@@ -35,7 +35,7 @@ class SystemMailParametersGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName defaultFromAddress
      * @Type string
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:22873
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:37381
      * @var string|null
      */
     private $defaultFromAddress = null;
@@ -44,7 +44,7 @@ class SystemMailParametersGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName defaultSubject
      * @Type string
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:22873
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:37381
      * @var string|null
      */
     private $defaultSubject = null;
@@ -52,7 +52,7 @@ class SystemMailParametersGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName supportDNSSRVForMailServerAccess
      * @Type bool
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:22873
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:37381
      * @var bool|null
      */
     private $supportDNSSRVForMailServerAccess = null;

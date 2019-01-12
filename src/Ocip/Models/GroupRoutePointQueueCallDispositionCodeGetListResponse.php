@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Level column can be any of the values in the data type CallDispositionCodeLevel.
  *
  * @see GroupRoutePointQueueCallDispositionCodeGetListRequest
- * @Groups [{"id":"08c06bb3683a696d340b1644025134a4:1075","type":"sequence"}]
+ * @Groups [{"id":"a27224a048c30ff69eab9209dec841cc:1075","type":"sequence"}]
  */
 class GroupRoutePointQueueCallDispositionCodeGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class GroupRoutePointQueueCallDispositionCodeGetListResponse extends \CWM\BroadW
     /**
      * @ElementName dispositionCodesTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 08c06bb3683a696d340b1644025134a4:1075
+     * @Group a27224a048c30ff69eab9209dec841cc:1075
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $dispositionCodesTable = null;

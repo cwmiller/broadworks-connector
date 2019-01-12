@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "Hiragana First Name", "Phone Number", "Extension", "Department", "Email Address".
  *
  * @see GroupAccountAuthorizationCodesGetAvailableUserListRequest
- * @Groups [{"id":"cf39a77cc27bd00da9f2520a22424344:109","type":"sequence"}]
+ * @Groups [{"id":"65df37199ec43e5d21a187db39d63158:109","type":"sequence"}]
  */
 class GroupAccountAuthorizationCodesGetAvailableUserListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class GroupAccountAuthorizationCodesGetAvailableUserListResponse extends \CWM\Br
     /**
      * @ElementName userTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group cf39a77cc27bd00da9f2520a22424344:109
+     * @Group 65df37199ec43e5d21a187db39d63158:109
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $userTable = null;

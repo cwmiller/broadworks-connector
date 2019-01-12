@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"8eb862aea0ee5d4211db0a0d3fe7c164:1229","type":"sequence"}]
+ * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:1284","type":"sequence"}]
  */
 class ServiceProviderApplicationServerSetModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class ServiceProviderApplicationServerSetModifyRequest extends \CWM\BroadWorksCo
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:1229
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1284
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -28,7 +28,7 @@ class ServiceProviderApplicationServerSetModifyRequest extends \CWM\BroadWorksCo
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:1229
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1284
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $applicationServerSetName = null;

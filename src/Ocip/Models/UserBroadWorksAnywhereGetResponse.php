@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserBroadWorksAnywhereGetRequest
  * @see UserBroadWorksAnywhereGetResponse16sp2
- * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:32518","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:16340","type":"sequence"}]
  */
 class UserBroadWorksAnywhereGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,7 +19,7 @@ class UserBroadWorksAnywhereGetResponse extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName alertAllLocationsForClickToDialCalls
      * @Type bool
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:32518
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:16340
      * @var bool|null
      */
     private $alertAllLocationsForClickToDialCalls = null;
@@ -27,7 +27,7 @@ class UserBroadWorksAnywhereGetResponse extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName phoneNumberTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:32518
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:16340
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $phoneNumberTable = null;

@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"15129cd25fa2d5581f4edfd652c24f93:856","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:916","type":"sequence"}]
  */
 class GroupAccessDeviceModifyUserRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class GroupAccessDeviceModifyUserRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 15129cd25fa2d5581f4edfd652c24f93:856
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:916
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -28,7 +28,7 @@ class GroupAccessDeviceModifyUserRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 15129cd25fa2d5581f4edfd652c24f93:856
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:916
      * @var string|null
      */
     private $groupId = null;
@@ -36,7 +36,7 @@ class GroupAccessDeviceModifyUserRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName deviceName
      * @Type string
-     * @Group 15129cd25fa2d5581f4edfd652c24f93:856
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:916
      * @var string|null
      */
     private $deviceName = null;
@@ -44,7 +44,7 @@ class GroupAccessDeviceModifyUserRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName linePort
      * @Type string
-     * @Group 15129cd25fa2d5581f4edfd652c24f93:856
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:916
      * @var string|null
      */
     private $linePort = null;
@@ -53,7 +53,7 @@ class GroupAccessDeviceModifyUserRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName privateIdentity
      * @Type string
      * @Optional
-     * @Group 15129cd25fa2d5581f4edfd652c24f93:856
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:916
      * @var string|null
      */
     private $privateIdentity = null;
@@ -62,7 +62,7 @@ class GroupAccessDeviceModifyUserRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName isPrimaryLinePort
      * @Type bool
      * @Optional
-     * @Group 15129cd25fa2d5581f4edfd652c24f93:856
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:916
      * @var bool|null
      */
     private $isPrimaryLinePort = null;

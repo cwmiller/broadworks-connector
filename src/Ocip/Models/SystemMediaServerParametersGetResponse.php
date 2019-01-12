@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains a list of system Media Server parameters.
  *
  * @see SystemMediaServerParametersGetListRequest
- * @Groups [{"id":"b5f5416d9e71f8e4246cda16c4723744:10359","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:10544","type":"sequence"}]
  */
 class SystemMediaServerParametersGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class SystemMediaServerParametersGetResponse extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName mediaServerResponseTimerMilliseconds
      * @Type int
-     * @Group b5f5416d9e71f8e4246cda16c4723744:10359
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10544
      * @var int|null
      */
     private $mediaServerResponseTimerMilliseconds = null;
@@ -25,7 +25,7 @@ class SystemMediaServerParametersGetResponse extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName mediaServerSelectionRouteTimerMilliseconds
      * @Type int
-     * @Group b5f5416d9e71f8e4246cda16c4723744:10359
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10544
      * @var int|null
      */
     private $mediaServerSelectionRouteTimerMilliseconds = null;
@@ -33,7 +33,7 @@ class SystemMediaServerParametersGetResponse extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName useStaticMediaServerDevice
      * @Type bool
-     * @Group b5f5416d9e71f8e4246cda16c4723744:10359
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10544
      * @var bool|null
      */
     private $useStaticMediaServerDevice = null;

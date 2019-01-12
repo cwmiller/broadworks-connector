@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SuccessResponse
  * @see ErrorResponse
  * @see SystemZoneDeleteRequest
- * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:32171","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:16214","type":"sequence"}]
  */
 class SystemZoneCallingRestrictionsZoneDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class SystemZoneCallingRestrictionsZoneDeleteRequest extends \CWM\BroadWorksConn
     /**
      * @ElementName zoneName
      * @Type string
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:32171
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:16214
      * @var string|null
      */
     private $zoneName = null;

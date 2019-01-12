@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           "Reseller Id"
  *
  * @see UserGetServiceInstanceListInSystemRequest
- * @Groups [{"id":"ee3830ce42f01a3ef2a105d473fc3b17:1828","type":"sequence"}]
+ * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:2114","type":"sequence"}]
  */
 class UserGetServiceInstanceListInSystemResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -20,7 +20,7 @@ class UserGetServiceInstanceListInSystemResponse extends \CWM\BroadWorksConnecto
     /**
      * @ElementName serviceInstanceTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group ee3830ce42f01a3ef2a105d473fc3b17:1828
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:2114
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $serviceInstanceTable = null;

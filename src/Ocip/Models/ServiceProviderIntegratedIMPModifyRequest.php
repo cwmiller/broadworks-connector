@@ -17,10 +17,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           provisioningUserId
  *           provisioningPassword
  *           boshURL
+ *           defaultImpIdType
+ *           useResellerIMPIdSetting
+ *        
+ *         The element useResellerIMPIdSetting is only applicable for a service provider within a reseller.
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"1145a01488507071407c5896ff2e4ef5:216","type":"sequence"}]
+ * @Groups [{"id":"23389100b68cef3aa07ee12ac7a2bd16:229","type":"sequence","children":[{"id":"23389100b68cef3aa07ee12ac7a2bd16:239","type":"choice","optional":true}]}]
  */
 class ServiceProviderIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -28,7 +32,7 @@ class ServiceProviderIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 1145a01488507071407c5896ff2e4ef5:216
+     * @Group 23389100b68cef3aa07ee12ac7a2bd16:229
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -37,7 +41,7 @@ class ServiceProviderIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector
      * @ElementName useSystemServiceDomain
      * @Type bool
      * @Optional
-     * @Group 1145a01488507071407c5896ff2e4ef5:216
+     * @Group 23389100b68cef3aa07ee12ac7a2bd16:229
      * @var bool|null
      */
     private $useSystemServiceDomain = null;
@@ -47,7 +51,7 @@ class ServiceProviderIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 1145a01488507071407c5896ff2e4ef5:216
+     * @Group 23389100b68cef3aa07ee12ac7a2bd16:229
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $serviceDomain = null;
@@ -57,7 +61,7 @@ class ServiceProviderIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector
      * @Type int
      * @Nillable
      * @Optional
-     * @Group 1145a01488507071407c5896ff2e4ef5:216
+     * @Group 23389100b68cef3aa07ee12ac7a2bd16:229
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $servicePort = null;
@@ -66,7 +70,7 @@ class ServiceProviderIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector
      * @ElementName useSystemMessagingServer
      * @Type bool
      * @Optional
-     * @Group 1145a01488507071407c5896ff2e4ef5:216
+     * @Group 23389100b68cef3aa07ee12ac7a2bd16:229
      * @var bool|null
      */
     private $useSystemMessagingServer = null;
@@ -76,7 +80,7 @@ class ServiceProviderIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 1145a01488507071407c5896ff2e4ef5:216
+     * @Group 23389100b68cef3aa07ee12ac7a2bd16:229
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $provisioningUrl = null;
@@ -86,7 +90,7 @@ class ServiceProviderIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 1145a01488507071407c5896ff2e4ef5:216
+     * @Group 23389100b68cef3aa07ee12ac7a2bd16:229
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $provisioningUserId = null;
@@ -96,7 +100,7 @@ class ServiceProviderIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 1145a01488507071407c5896ff2e4ef5:216
+     * @Group 23389100b68cef3aa07ee12ac7a2bd16:229
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $provisioningPassword = null;
@@ -106,10 +110,26 @@ class ServiceProviderIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 1145a01488507071407c5896ff2e4ef5:216
+     * @Group 23389100b68cef3aa07ee12ac7a2bd16:229
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $boshURL = null;
+
+    /**
+     * @ElementName defaultImpIdType
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\IntegratedIMPUserIDType
+     * @Group 23389100b68cef3aa07ee12ac7a2bd16:239
+     * @var \CWM\BroadWorksConnector\Ocip\Models\IntegratedIMPUserIDType|null
+     */
+    private $defaultImpIdType = null;
+
+    /**
+     * @ElementName useResellerIMPIdSetting
+     * @Type bool
+     * @Group 23389100b68cef3aa07ee12ac7a2bd16:239
+     * @var bool|null
+     */
+    private $useResellerIMPIdSetting = null;
 
     /**
      * Getter for serviceProviderId
@@ -411,6 +431,68 @@ class ServiceProviderIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector
     public function unsetBoshURL()
     {
         $this->boshURL = null;
+        return $this;
+    }
+
+    /**
+     * Getter for defaultImpIdType
+     *
+     * @return \CWM\BroadWorksConnector\Ocip\Models\IntegratedIMPUserIDType
+     */
+    public function getDefaultImpIdType()
+    {
+        return $this->defaultImpIdType instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->defaultImpIdType;
+    }
+
+    /**
+     * Setter for defaultImpIdType
+     *
+     * @param \CWM\BroadWorksConnector\Ocip\Models\IntegratedIMPUserIDType $defaultImpIdType
+     * @return $this
+     */
+    public function setDefaultImpIdType(\CWM\BroadWorksConnector\Ocip\Models\IntegratedIMPUserIDType $defaultImpIdType)
+    {
+        $this->defaultImpIdType = $defaultImpIdType;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDefaultImpIdType()
+    {
+        $this->defaultImpIdType = null;
+        return $this;
+    }
+
+    /**
+     * Getter for useResellerIMPIdSetting
+     *
+     * @return bool
+     */
+    public function getUseResellerIMPIdSetting()
+    {
+        return $this->useResellerIMPIdSetting instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->useResellerIMPIdSetting;
+    }
+
+    /**
+     * Setter for useResellerIMPIdSetting
+     *
+     * @param bool $useResellerIMPIdSetting
+     * @return $this
+     */
+    public function setUseResellerIMPIdSetting($useResellerIMPIdSetting)
+    {
+        $this->useResellerIMPIdSetting = $useResellerIMPIdSetting;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetUseResellerIMPIdSetting()
+    {
+        $this->useResellerIMPIdSetting = null;
         return $this;
     }
 

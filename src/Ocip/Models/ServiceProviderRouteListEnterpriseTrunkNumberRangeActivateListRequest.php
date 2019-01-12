@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"6c3e6c5ded8862d72e92e5d067442775:570","type":"sequence"}]
+ * @Groups [{"id":"3f28429898a57a7f7846d3877b22df9f:569","type":"sequence"}]
  */
 class ServiceProviderRouteListEnterpriseTrunkNumberRangeActivateListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class ServiceProviderRouteListEnterpriseTrunkNumberRangeActivateListRequest exte
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 6c3e6c5ded8862d72e92e5d067442775:570
+     * @Group 3f28429898a57a7f7846d3877b22df9f:569
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -30,7 +30,7 @@ class ServiceProviderRouteListEnterpriseTrunkNumberRangeActivateListRequest exte
      * @Type string
      * @Array
      * @Optional
-     * @Group 6c3e6c5ded8862d72e92e5d067442775:570
+     * @Group 3f28429898a57a7f7846d3877b22df9f:569
      * @var string[]
      */
     private $numberRangeStart = array(

@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupGetListInServiceProviderResponse
  * @see ErrorResponse
- * @Groups [{"id":"15129cd25fa2d5581f4edfd652c24f93:4872","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:5143","type":"sequence"}]
  */
 class GroupGetListInServiceProviderRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class GroupGetListInServiceProviderRequest extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 15129cd25fa2d5581f4edfd652c24f93:4872
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:5143
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -29,7 +29,7 @@ class GroupGetListInServiceProviderRequest extends \CWM\BroadWorksConnector\Ocip
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group 15129cd25fa2d5581f4edfd652c24f93:4872
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:5143
      * @var int|null
      */
     private $responseSizeLimit = null;
@@ -39,7 +39,7 @@ class GroupGetListInServiceProviderRequest extends \CWM\BroadWorksConnector\Ocip
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId
      * @Array
      * @Optional
-     * @Group 15129cd25fa2d5581f4edfd652c24f93:4872
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:5143
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId[]
      */
     private $searchCriteriaGroupId = array(
@@ -51,7 +51,7 @@ class GroupGetListInServiceProviderRequest extends \CWM\BroadWorksConnector\Ocip
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupName
      * @Array
      * @Optional
-     * @Group 15129cd25fa2d5581f4edfd652c24f93:4872
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:5143
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupName[]
      */
     private $searchCriteriaGroupName = array(

@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the UserVoiceMessagingUserGetAdvancedVoiceManagementRequest14sp3.
  *
  * @see UserVoiceMessagingUserGetAdvancedVoiceManagementRequest14sp3
- * @Groups [{"id":"80c5986946137c505e41f6008c7f75a8:1653","type":"sequence","children":[{"id":"80c5986946137c505e41f6008c7f75a8:1657","type":"choice"}]}]
+ * @Groups [{"id":"3347d430e0d5c93a9ff8dcf0e3b60d6c:1707","type":"sequence","children":[{"id":"3347d430e0d5c93a9ff8dcf0e3b60d6c:1711","type":"choice"}]}]
  */
 class UserVoiceMessagingUserGetAdvancedVoiceManagementResponse14sp3 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class UserVoiceMessagingUserGetAdvancedVoiceManagementResponse14sp3 extends \CWM
     /**
      * @ElementName mailServerSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingUserMailServerSelection
-     * @Group 80c5986946137c505e41f6008c7f75a8:1653
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1707
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingUserMailServerSelection|null
      */
     private $mailServerSelection = null;
@@ -25,7 +25,7 @@ class UserVoiceMessagingUserGetAdvancedVoiceManagementResponse14sp3 extends \CWM
      * @ElementName groupMailServerEmailAddress
      * @Type string
      * @Optional
-     * @Group 80c5986946137c505e41f6008c7f75a8:1653
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1707
      * @var string|null
      */
     private $groupMailServerEmailAddress = null;
@@ -34,7 +34,7 @@ class UserVoiceMessagingUserGetAdvancedVoiceManagementResponse14sp3 extends \CWM
      * @ElementName groupMailServerUserId
      * @Type string
      * @Optional
-     * @Group 80c5986946137c505e41f6008c7f75a8:1653
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1707
      * @var string|null
      */
     private $groupMailServerUserId = null;
@@ -42,7 +42,7 @@ class UserVoiceMessagingUserGetAdvancedVoiceManagementResponse14sp3 extends \CWM
     /**
      * @ElementName useGroupDefaultMailServerFullMailboxLimit
      * @Type bool
-     * @Group 80c5986946137c505e41f6008c7f75a8:1657
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1711
      * @var bool|null
      */
     private $useGroupDefaultMailServerFullMailboxLimit = null;
@@ -50,7 +50,7 @@ class UserVoiceMessagingUserGetAdvancedVoiceManagementResponse14sp3 extends \CWM
     /**
      * @ElementName groupMailServerFullMailboxLimit
      * @Type \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingMailboxLengthMinutes
-     * @Group 80c5986946137c505e41f6008c7f75a8:1657
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1711
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingMailboxLengthMinutes|null
      */
     private $groupMailServerFullMailboxLimit = null;
@@ -59,7 +59,7 @@ class UserVoiceMessagingUserGetAdvancedVoiceManagementResponse14sp3 extends \CWM
      * @ElementName personalMailServerNetAddress
      * @Type string
      * @Optional
-     * @Group 80c5986946137c505e41f6008c7f75a8:1653
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1707
      * @var string|null
      */
     private $personalMailServerNetAddress = null;
@@ -67,7 +67,7 @@ class UserVoiceMessagingUserGetAdvancedVoiceManagementResponse14sp3 extends \CWM
     /**
      * @ElementName personalMailServerProtocol
      * @Type \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingMailServerProtocol
-     * @Group 80c5986946137c505e41f6008c7f75a8:1653
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1707
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingMailServerProtocol|null
      */
     private $personalMailServerProtocol = null;
@@ -75,7 +75,7 @@ class UserVoiceMessagingUserGetAdvancedVoiceManagementResponse14sp3 extends \CWM
     /**
      * @ElementName personalMailServerRealDeleteForImap
      * @Type bool
-     * @Group 80c5986946137c505e41f6008c7f75a8:1653
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1707
      * @var bool|null
      */
     private $personalMailServerRealDeleteForImap = null;
@@ -84,7 +84,7 @@ class UserVoiceMessagingUserGetAdvancedVoiceManagementResponse14sp3 extends \CWM
      * @ElementName personalMailServerEmailAddress
      * @Type string
      * @Optional
-     * @Group 80c5986946137c505e41f6008c7f75a8:1653
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1707
      * @var string|null
      */
     private $personalMailServerEmailAddress = null;
@@ -93,7 +93,7 @@ class UserVoiceMessagingUserGetAdvancedVoiceManagementResponse14sp3 extends \CWM
      * @ElementName personalMailServerUserId
      * @Type string
      * @Optional
-     * @Group 80c5986946137c505e41f6008c7f75a8:1653
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1707
      * @var string|null
      */
     private $personalMailServerUserId = null;

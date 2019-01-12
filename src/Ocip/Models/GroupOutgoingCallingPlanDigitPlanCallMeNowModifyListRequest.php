@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"80676ea6f2582b1b88573623a6affc0e:300","type":"sequence"}]
+ * @Groups [{"id":"6f793dfca9bd3d121bb35e0f9cf1cb2e:299","type":"sequence"}]
  */
 class GroupOutgoingCallingPlanDigitPlanCallMeNowModifyListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupOutgoingCallingPlanDigitPlanCallMeNowModifyListRequest extends \CWM\B
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 80676ea6f2582b1b88573623a6affc0e:300
+     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:299
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,7 +26,7 @@ class GroupOutgoingCallingPlanDigitPlanCallMeNowModifyListRequest extends \CWM\B
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 80676ea6f2582b1b88573623a6affc0e:300
+     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:299
      * @var string|null
      */
     private $groupId = null;
@@ -35,7 +35,7 @@ class GroupOutgoingCallingPlanDigitPlanCallMeNowModifyListRequest extends \CWM\B
      * @ElementName groupPermissions
      * @Type \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanDigitPatternCallMeNowPermissions
      * @Optional
-     * @Group 80676ea6f2582b1b88573623a6affc0e:300
+     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:299
      * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanDigitPatternCallMeNowPermissions|null
      */
     private $groupPermissions = null;
@@ -45,7 +45,7 @@ class GroupOutgoingCallingPlanDigitPlanCallMeNowModifyListRequest extends \CWM\B
      * @Type \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanDigitPatternCallMeNowDepartmentPermissionsModify
      * @Array
      * @Optional
-     * @Group 80676ea6f2582b1b88573623a6affc0e:300
+     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:299
      * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanDigitPatternCallMeNowDepartmentPermissionsModify[]
      */
     private $departmentPermissions = array(

@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserRemoteOfficeGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"cd13183ea1594e025e217f61ef9e0137:41","type":"sequence"}]
+ * @Groups [{"id":"70aea661491074f1e7cc845c9a6c7ea3:41","type":"sequence"}]
  */
 class UserRemoteOfficeGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserRemoteOfficeGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * @ElementName userId
      * @Type string
-     * @Group cd13183ea1594e025e217f61ef9e0137:41
+     * @Group 70aea661491074f1e7cc845c9a6c7ea3:41
      * @var string|null
      */
     private $userId = null;

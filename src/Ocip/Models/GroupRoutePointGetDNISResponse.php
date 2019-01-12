@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the GroupRoutePointGetDNISRequest.
  *
  * @see GroupRoutePointGetDNISRequest
- * @Groups [{"id":"08c06bb3683a696d340b1644025134a4:495","type":"sequence"}]
+ * @Groups [{"id":"a27224a048c30ff69eab9209dec841cc:495","type":"sequence"}]
  */
 class GroupRoutePointGetDNISResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class GroupRoutePointGetDNISResponse extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName dnisPhoneNumber
      * @Type string
      * @Optional
-     * @Group 08c06bb3683a696d340b1644025134a4:495
+     * @Group a27224a048c30ff69eab9209dec841cc:495
      * @var string|null
      */
     private $dnisPhoneNumber = null;
@@ -26,7 +26,7 @@ class GroupRoutePointGetDNISResponse extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName extension
      * @Type string
      * @Optional
-     * @Group 08c06bb3683a696d340b1644025134a4:495
+     * @Group a27224a048c30ff69eab9209dec841cc:495
      * @var string|null
      */
     private $extension = null;
@@ -34,7 +34,7 @@ class GroupRoutePointGetDNISResponse extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName useCustomCLIDSettings
      * @Type bool
-     * @Group 08c06bb3683a696d340b1644025134a4:495
+     * @Group a27224a048c30ff69eab9209dec841cc:495
      * @var bool|null
      */
     private $useCustomCLIDSettings = null;
@@ -43,7 +43,7 @@ class GroupRoutePointGetDNISResponse extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName callingLineIdPhoneNumber
      * @Type string
      * @Optional
-     * @Group 08c06bb3683a696d340b1644025134a4:495
+     * @Group a27224a048c30ff69eab9209dec841cc:495
      * @var string|null
      */
     private $callingLineIdPhoneNumber = null;
@@ -52,7 +52,7 @@ class GroupRoutePointGetDNISResponse extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName callingLineIdLastName
      * @Type string
      * @Optional
-     * @Group 08c06bb3683a696d340b1644025134a4:495
+     * @Group a27224a048c30ff69eab9209dec841cc:495
      * @var string|null
      */
     private $callingLineIdLastName = null;
@@ -61,7 +61,7 @@ class GroupRoutePointGetDNISResponse extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName callingLineIdFirstName
      * @Type string
      * @Optional
-     * @Group 08c06bb3683a696d340b1644025134a4:495
+     * @Group a27224a048c30ff69eab9209dec841cc:495
      * @var string|null
      */
     private $callingLineIdFirstName = null;
@@ -69,7 +69,7 @@ class GroupRoutePointGetDNISResponse extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName useCustomDnisAnnouncementSettings
      * @Type bool
-     * @Group 08c06bb3683a696d340b1644025134a4:495
+     * @Group a27224a048c30ff69eab9209dec841cc:495
      * @var bool|null
      */
     private $useCustomDnisAnnouncementSettings = null;
@@ -77,7 +77,7 @@ class GroupRoutePointGetDNISResponse extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName allowOutgoingACDCall
      * @Type bool
-     * @Group 08c06bb3683a696d340b1644025134a4:495
+     * @Group a27224a048c30ff69eab9209dec841cc:495
      * @var bool|null
      */
     private $allowOutgoingACDCall = null;

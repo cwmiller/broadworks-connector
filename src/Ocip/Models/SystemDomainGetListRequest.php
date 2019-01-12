@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SystemDomainGetListResponse
  * @see ErrorResponse
  * @see SystemDomainGetListRequest22
- * @Groups [{"id":"bd46fc427b2b0dc182dcd53cf03e95b4:815","type":"sequence"}]
+ * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:6502","type":"sequence"}]
  */
 class SystemDomainGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -5,7 +5,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SessionStartRequestNormalLogin
  *
- * @Groups [{"id":"bd46fc427b2b0dc182dcd53cf03e95b4:542","type":"sequence"}]
+ * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:5996","type":"sequence"}]
  */
 class SessionStartRequestNormalLogin
 {
@@ -13,7 +13,7 @@ class SessionStartRequestNormalLogin
     /**
      * @ElementName userId
      * @Type string
-     * @Group bd46fc427b2b0dc182dcd53cf03e95b4:542
+     * @Group de4d76f01f337fe4694212ec9f771753:5996
      * @var string|null
      */
     private $userId = null;
@@ -21,7 +21,7 @@ class SessionStartRequestNormalLogin
     /**
      * @ElementName password
      * @Type string
-     * @Group bd46fc427b2b0dc182dcd53cf03e95b4:542
+     * @Group de4d76f01f337fe4694212ec9f771753:5996
      * @var string|null
      */
     private $password = null;

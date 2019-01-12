@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"b5f5416d9e71f8e4246cda16c4723744:1518","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:1526","type":"sequence"}]
  */
 class SystemAccountingInhibitedAttributeValuePairCodeDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemAccountingInhibitedAttributeValuePairCodeDeleteRequest extends \CWM\
     /**
      * @ElementName attributeValuePairCode
      * @Type int
-     * @Group b5f5416d9e71f8e4246cda16c4723744:1518
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1526
      * @var int|null
      */
     private $attributeValuePairCode = null;
@@ -26,7 +26,7 @@ class SystemAccountingInhibitedAttributeValuePairCodeDeleteRequest extends \CWM\
     /**
      * @ElementName vendorId
      * @Type int
-     * @Group b5f5416d9e71f8e4246cda16c4723744:1518
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1526
      * @var int|null
      */
     private $vendorId = null;

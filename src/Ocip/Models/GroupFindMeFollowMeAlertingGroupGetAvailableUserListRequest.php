@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupFindMeFollowMeAlertingGroupGetAvailableUserListResponse
  * @see ErrorResponse
- * @Groups [{"id":"c81ec650475acb5cc7b075c4582c12ba:128","type":"sequence"}]
+ * @Groups [{"id":"79f226053ee345f2ff4c37c37c8e9114:127","type":"sequence"}]
  */
 class GroupFindMeFollowMeAlertingGroupGetAvailableUserListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupFindMeFollowMeAlertingGroupGetAvailableUserListRequest extends \CWM\B
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group c81ec650475acb5cc7b075c4582c12ba:128
+     * @Group 79f226053ee345f2ff4c37c37c8e9114:127
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,7 +26,7 @@ class GroupFindMeFollowMeAlertingGroupGetAvailableUserListRequest extends \CWM\B
     /**
      * @ElementName groupId
      * @Type string
-     * @Group c81ec650475acb5cc7b075c4582c12ba:128
+     * @Group 79f226053ee345f2ff4c37c37c8e9114:127
      * @var string|null
      */
     private $groupId = null;
@@ -35,7 +35,7 @@ class GroupFindMeFollowMeAlertingGroupGetAvailableUserListRequest extends \CWM\B
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group c81ec650475acb5cc7b075c4582c12ba:128
+     * @Group 79f226053ee345f2ff4c37c37c8e9114:127
      * @var int|null
      */
     private $responseSizeLimit = null;
@@ -45,7 +45,7 @@ class GroupFindMeFollowMeAlertingGroupGetAvailableUserListRequest extends \CWM\B
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName
      * @Array
      * @Optional
-     * @Group c81ec650475acb5cc7b075c4582c12ba:128
+     * @Group 79f226053ee345f2ff4c37c37c8e9114:127
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[]
      */
     private $searchCriteriaUserLastName = array(
@@ -57,7 +57,7 @@ class GroupFindMeFollowMeAlertingGroupGetAvailableUserListRequest extends \CWM\B
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName
      * @Array
      * @Optional
-     * @Group c81ec650475acb5cc7b075c4582c12ba:128
+     * @Group 79f226053ee345f2ff4c37c37c8e9114:127
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName[]
      */
     private $searchCriteriaUserFirstName = array(
@@ -68,7 +68,7 @@ class GroupFindMeFollowMeAlertingGroupGetAvailableUserListRequest extends \CWM\B
      * @ElementName searchCriteriaExactUserDepartment
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment
      * @Optional
-     * @Group c81ec650475acb5cc7b075c4582c12ba:128
+     * @Group 79f226053ee345f2ff4c37c37c8e9114:127
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment|null
      */
     private $searchCriteriaExactUserDepartment = null;
@@ -78,7 +78,7 @@ class GroupFindMeFollowMeAlertingGroupGetAvailableUserListRequest extends \CWM\B
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId
      * @Array
      * @Optional
-     * @Group c81ec650475acb5cc7b075c4582c12ba:128
+     * @Group 79f226053ee345f2ff4c37c37c8e9114:127
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId[]
      */
     private $searchCriteriaUserId = array(
@@ -90,7 +90,7 @@ class GroupFindMeFollowMeAlertingGroupGetAvailableUserListRequest extends \CWM\B
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn
      * @Array
      * @Optional
-     * @Group c81ec650475acb5cc7b075c4582c12ba:128
+     * @Group 79f226053ee345f2ff4c37c37c8e9114:127
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[]
      */
     private $searchCriteriaDn = array(
@@ -102,7 +102,7 @@ class GroupFindMeFollowMeAlertingGroupGetAvailableUserListRequest extends \CWM\B
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension
      * @Array
      * @Optional
-     * @Group c81ec650475acb5cc7b075c4582c12ba:128
+     * @Group 79f226053ee345f2ff4c37c37c8e9114:127
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension[]
      */
     private $searchCriteriaExtension = array(

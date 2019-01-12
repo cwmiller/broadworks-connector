@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see GroupDialPlanPolicyGetResponse
  * @see ErrorResponse
  * @see GroupDialPlanPolicyGetRequest17
- * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:7886","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:13178","type":"sequence"}]
  */
 class GroupDialPlanPolicyGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,7 +21,7 @@ class GroupDialPlanPolicyGetRequest extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:7886
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:13178
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -29,7 +29,7 @@ class GroupDialPlanPolicyGetRequest extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:7886
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:13178
      * @var string|null
      */
     private $groupId = null;

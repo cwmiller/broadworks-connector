@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Criteria for searching for a particular fully specified custom contact directory.
  *
- * @Groups [{"id":"e446bfcbd1f39cbef57d1547014f2bb9:662","type":"sequence"}]
+ * @Groups [{"id":"f0ada2681ca347fa83b464734259b304:745","type":"sequence"}]
  */
 class SearchCriteriaExactCustomContactDirectory extends SearchCriteria
 {
@@ -15,7 +15,7 @@ class SearchCriteriaExactCustomContactDirectory extends SearchCriteria
     /**
      * @ElementName customContactDirectoryName
      * @Type string
-     * @Group e446bfcbd1f39cbef57d1547014f2bb9:662
+     * @Group f0ada2681ca347fa83b464734259b304:745
      * @var string|null
      */
     private $customContactDirectoryName = null;

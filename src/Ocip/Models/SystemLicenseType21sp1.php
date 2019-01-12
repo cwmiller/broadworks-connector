@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemLicenseType21sp1
  *
  * System License type.
+ *         
+ *         Replaced by: SystemLicenseType22.
  *
  * @method static SystemLicenseType21sp1 LAWFUL_INTERCEPT_EVENT_MONITORING()
  * @method static SystemLicenseType21sp1 LAWFUL_INTERCEPT_MEDIA_MONITORING()

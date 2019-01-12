@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the SystemSecurityClassificationGetClassificationRequest.
  *
  * @see SystemSecurityClassificationGetClassificationRequest
- * @Groups [{"id":"03b1e8852a59a842f834331786163273:150","type":"sequence"}]
+ * @Groups [{"id":"6b3afea8308b7fdaab8d385357ca9c2d:150","type":"sequence"}]
  */
 class SystemSecurityClassificationGetClassificationResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class SystemSecurityClassificationGetClassificationResponse extends \CWM\BroadWo
     /**
      * @ElementName audioAnnouncementFileDescription
      * @Type string
-     * @Group 03b1e8852a59a842f834331786163273:150
+     * @Group 6b3afea8308b7fdaab8d385357ca9c2d:150
      * @var string|null
      */
     private $audioAnnouncementFileDescription = null;
@@ -24,7 +24,7 @@ class SystemSecurityClassificationGetClassificationResponse extends \CWM\BroadWo
     /**
      * @ElementName audioAnnouncementFileType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MediaFileType
-     * @Group 03b1e8852a59a842f834331786163273:150
+     * @Group 6b3afea8308b7fdaab8d385357ca9c2d:150
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     private $audioAnnouncementFileType = null;

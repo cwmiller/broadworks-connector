@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Criteria for searching for a particular schedule type.
  *
- * @Groups [{"id":"e446bfcbd1f39cbef57d1547014f2bb9:1007","type":"sequence"}]
+ * @Groups [{"id":"f0ada2681ca347fa83b464734259b304:1090","type":"sequence"}]
  */
 class SearchCriteriaExactScheduleType extends SearchCriteria
 {
@@ -15,7 +15,7 @@ class SearchCriteriaExactScheduleType extends SearchCriteria
     /**
      * @ElementName type
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ScheduleType
-     * @Group e446bfcbd1f39cbef57d1547014f2bb9:1007
+     * @Group f0ada2681ca347fa83b464734259b304:1090
      * @var \CWM\BroadWorksConnector\Ocip\Models\ScheduleType|null
      */
     private $type = null;

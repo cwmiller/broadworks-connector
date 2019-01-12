@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to ServiceProviderDigitCollectionGetRequest13mp4.
  *
  * @see ServiceProviderDigitCollectionGetRequest13mp4
- * @Groups [{"id":"8eb862aea0ee5d4211db0a0d3fe7c164:3036","type":"sequence"}]
+ * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:3095","type":"sequence"}]
  */
 class ServiceProviderDigitCollectionGetResponse13mp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class ServiceProviderDigitCollectionGetResponse13mp4 extends \CWM\BroadWorksConn
      * @ElementName accessCode
      * @Type string
      * @Optional
-     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:3036
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3095
      * @var string|null
      */
     private $accessCode = null;
@@ -26,7 +26,7 @@ class ServiceProviderDigitCollectionGetResponse13mp4 extends \CWM\BroadWorksConn
      * @ElementName publicDigitMap
      * @Type string
      * @Optional
-     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:3036
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3095
      * @var string|null
      */
     private $publicDigitMap = null;
@@ -35,7 +35,7 @@ class ServiceProviderDigitCollectionGetResponse13mp4 extends \CWM\BroadWorksConn
      * @ElementName privateDigitMap
      * @Type string
      * @Optional
-     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:3036
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3095
      * @var string|null
      */
     private $privateDigitMap = null;

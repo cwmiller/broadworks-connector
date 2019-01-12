@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"c542c6e8c7bdabb9276b67d4d39efb85:66","type":"sequence"}]
+ * @Groups [{"id":"b009175f2a2a9d38115e319a6ad64d7f:79","type":"sequence"}]
  */
 class ResellerAdminAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class ResellerAdminAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
     /**
      * @ElementName resellerId
      * @Type string
-     * @Group c542c6e8c7bdabb9276b67d4d39efb85:66
+     * @Group b009175f2a2a9d38115e319a6ad64d7f:79
      * @var string|null
      */
     private $resellerId = null;
@@ -26,7 +26,7 @@ class ResellerAdminAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
     /**
      * @ElementName userId
      * @Type string
-     * @Group c542c6e8c7bdabb9276b67d4d39efb85:66
+     * @Group b009175f2a2a9d38115e319a6ad64d7f:79
      * @var string|null
      */
     private $userId = null;
@@ -35,7 +35,7 @@ class ResellerAdminAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @ElementName firstName
      * @Type string
      * @Optional
-     * @Group c542c6e8c7bdabb9276b67d4d39efb85:66
+     * @Group b009175f2a2a9d38115e319a6ad64d7f:79
      * @var string|null
      */
     private $firstName = null;
@@ -44,7 +44,7 @@ class ResellerAdminAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @ElementName lastName
      * @Type string
      * @Optional
-     * @Group c542c6e8c7bdabb9276b67d4d39efb85:66
+     * @Group b009175f2a2a9d38115e319a6ad64d7f:79
      * @var string|null
      */
     private $lastName = null;
@@ -53,7 +53,7 @@ class ResellerAdminAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @ElementName password
      * @Type string
      * @Optional
-     * @Group c542c6e8c7bdabb9276b67d4d39efb85:66
+     * @Group b009175f2a2a9d38115e319a6ad64d7f:79
      * @var string|null
      */
     private $password = null;
@@ -62,7 +62,7 @@ class ResellerAdminAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @ElementName language
      * @Type string
      * @Optional
-     * @Group c542c6e8c7bdabb9276b67d4d39efb85:66
+     * @Group b009175f2a2a9d38115e319a6ad64d7f:79
      * @var string|null
      */
     private $language = null;

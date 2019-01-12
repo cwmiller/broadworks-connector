@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f913e539ecbb63cf455f6c316963b896:124","type":"sequence"}]
+ * @Groups [{"id":"9741e074fbfeb4c7312bfa4dfbaee3d3:129","type":"sequence"}]
  */
 class SystemCallRecordingDeletePlatformRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemCallRecordingDeletePlatformRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName name
      * @Type string
-     * @Group f913e539ecbb63cf455f6c316963b896:124
+     * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:129
      * @var string|null
      */
     private $name = null;

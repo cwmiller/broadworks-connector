@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"889c8c305076ef39cc50c70d0c2dc820:1352","type":"sequence"}]
+ * @Groups [{"id":"5395c7df0157d44aa22f3351d1a5f3da:1372","type":"sequence"}]
  */
 class EnterpriseVoiceVPNDeletePolicyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class EnterpriseVoiceVPNDeletePolicyRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 889c8c305076ef39cc50c70d0c2dc820:1352
+     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1372
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,7 +26,7 @@ class EnterpriseVoiceVPNDeletePolicyRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName locationDialingCode
      * @Type string
-     * @Group 889c8c305076ef39cc50c70d0c2dc820:1352
+     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1372
      * @var string|null
      */
     private $locationDialingCode = null;

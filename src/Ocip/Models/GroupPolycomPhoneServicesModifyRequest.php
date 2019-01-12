@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"dfb97f73716e9f703ab24fbcfb1f433a:80","type":"sequence"}]
+ * @Groups [{"id":"4f074d986b998636e2bcb0d67372b0f4:80","type":"sequence"}]
  */
 class GroupPolycomPhoneServicesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupPolycomPhoneServicesModifyRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group dfb97f73716e9f703ab24fbcfb1f433a:80
+     * @Group 4f074d986b998636e2bcb0d67372b0f4:80
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,7 +26,7 @@ class GroupPolycomPhoneServicesModifyRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName groupId
      * @Type string
-     * @Group dfb97f73716e9f703ab24fbcfb1f433a:80
+     * @Group 4f074d986b998636e2bcb0d67372b0f4:80
      * @var string|null
      */
     private $groupId = null;
@@ -35,7 +35,7 @@ class GroupPolycomPhoneServicesModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName includeGroupCommonPhoneListInDirectory
      * @Type bool
      * @Optional
-     * @Group dfb97f73716e9f703ab24fbcfb1f433a:80
+     * @Group 4f074d986b998636e2bcb0d67372b0f4:80
      * @var bool|null
      */
     private $includeGroupCommonPhoneListInDirectory = null;
@@ -44,7 +44,7 @@ class GroupPolycomPhoneServicesModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName includeGroupCustomContactDirectoryInDirectory
      * @Type bool
      * @Optional
-     * @Group dfb97f73716e9f703ab24fbcfb1f433a:80
+     * @Group 4f074d986b998636e2bcb0d67372b0f4:80
      * @var bool|null
      */
     private $includeGroupCustomContactDirectoryInDirectory = null;
@@ -54,7 +54,7 @@ class GroupPolycomPhoneServicesModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @Type string
      * @Nillable
      * @Optional
-     * @Group dfb97f73716e9f703ab24fbcfb1f433a:80
+     * @Group 4f074d986b998636e2bcb0d67372b0f4:80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $groupCustomContactDirectory = null;

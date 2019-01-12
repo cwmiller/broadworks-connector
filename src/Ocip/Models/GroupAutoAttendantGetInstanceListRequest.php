@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupAutoAttendantGetInstanceListResponse
  * @see ErrorResponse
- * @Groups [{"id":"481f6171444d5c316baa2066a7396d29:231","type":"sequence"}]
+ * @Groups [{"id":"ed0640d8ef49eb8b4eaa14d7c6f6c033:234","type":"sequence"}]
  */
 class GroupAutoAttendantGetInstanceListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class GroupAutoAttendantGetInstanceListRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 481f6171444d5c316baa2066a7396d29:231
+     * @Group ed0640d8ef49eb8b4eaa14d7c6f6c033:234
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,7 +27,7 @@ class GroupAutoAttendantGetInstanceListRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 481f6171444d5c316baa2066a7396d29:231
+     * @Group ed0640d8ef49eb8b4eaa14d7c6f6c033:234
      * @var string|null
      */
     private $groupId = null;
@@ -36,7 +36,7 @@ class GroupAutoAttendantGetInstanceListRequest extends \CWM\BroadWorksConnector\
      * @ElementName groupDepartmentName
      * @Type string
      * @Optional
-     * @Group 481f6171444d5c316baa2066a7396d29:231
+     * @Group ed0640d8ef49eb8b4eaa14d7c6f6c033:234
      * @var string|null
      */
     private $groupDepartmentName = null;

@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         OrganizationType OCI data type.  Please see OCISchemaDataTypes.xsd for details on OrganizationType.
  *
  * @see SystemTrunkGroupUserCreationTaskGetListRequest14sp4
- * @Groups [{"id":"762df656d5a3c5800001b37599b1e4ce:1714","type":"sequence"}]
+ * @Groups [{"id":"b9c14e2d80e4e7749688ca13ba233b44:1720","type":"sequence"}]
  */
 class SystemTrunkGroupUserCreationTaskGetListResponse14sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -21,7 +21,7 @@ class SystemTrunkGroupUserCreationTaskGetListResponse14sp4 extends \CWM\BroadWor
     /**
      * @ElementName taskTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 762df656d5a3c5800001b37599b1e4ce:1714
+     * @Group b9c14e2d80e4e7749688ca13ba233b44:1720
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $taskTable = null;

@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * The service policy attributes name and value pair.
  *
- * @Groups [{"id":"b5f5416d9e71f8e4246cda16c4723744:17525","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:17862","type":"sequence"}]
  */
 class ServicePolicyAttributeModifyEntry
 {
@@ -15,7 +15,7 @@ class ServicePolicyAttributeModifyEntry
     /**
      * @ElementName name
      * @Type string
-     * @Group b5f5416d9e71f8e4246cda16c4723744:17525
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17862
      * @var string|null
      */
     private $name = null;
@@ -24,7 +24,7 @@ class ServicePolicyAttributeModifyEntry
      * @ElementName value
      * @Type string
      * @Nillable
-     * @Group b5f5416d9e71f8e4246cda16c4723744:17525
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17862
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $value = null;

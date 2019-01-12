@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see GroupPreAlertingAnnouncementGetResponse
  * @see ErrorResponse
  * @see GroupPreAlertingAnnouncementGetRequest20
- * @Groups [{"id":"bb12a3589ab4748963f28f7ac9310f70:1833","type":"sequence"}]
+ * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:889","type":"sequence"}]
  */
 class GroupPreAlertingAnnouncementGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,7 +21,7 @@ class GroupPreAlertingAnnouncementGetRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group bb12a3589ab4748963f28f7ac9310f70:1833
+     * @Group de4d76f01f337fe4694212ec9f771753:889
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -29,7 +29,7 @@ class GroupPreAlertingAnnouncementGetRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName groupId
      * @Type string
-     * @Group bb12a3589ab4748963f28f7ac9310f70:1833
+     * @Group de4d76f01f337fe4694212ec9f771753:889
      * @var string|null
      */
     private $groupId = null;

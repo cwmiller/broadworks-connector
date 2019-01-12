@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemOutgoingCallingPlanCallTypeGetListRequest.
  *
  * @see SystemOutgoingCallingPlanCallTypeGetListRequest
- * @Groups [{"id":"80676ea6f2582b1b88573623a6affc0e:924","type":"sequence"}]
+ * @Groups [{"id":"6f793dfca9bd3d121bb35e0f9cf1cb2e:923","type":"sequence"}]
  */
 class SystemOutgoingCallingPlanCallTypeGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class SystemOutgoingCallingPlanCallTypeGetListResponse extends \CWM\BroadWorksCo
      * @ElementName callType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanCallType
      * @Array
-     * @Group 80676ea6f2582b1b88573623a6affc0e:924
+     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:923
      * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanCallType[]
      */
     private $callType = array(

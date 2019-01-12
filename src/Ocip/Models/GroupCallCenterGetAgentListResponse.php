@@ -10,8 +10,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "First Name", "Hiragana Last Name", "Hiragana First Name", "Weight",
  *         "Phone Number", "Extension", "Department", "Email Address", "Skill Level".
  *
+ *         The following column is only returned in AS data mode:
+ *           "Skill Level"
+ *
  * @see GroupCallCenterGetAgentListRequest
- * @Groups [{"id":"3ac5f05d969bc771d6ba8d344d95aa72:3647","type":"sequence"}]
+ * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:3995","type":"sequence"}]
  */
 class GroupCallCenterGetAgentListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,7 +22,7 @@ class GroupCallCenterGetAgentListResponse extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName agentTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:3647
+     * @Group e2c537e3e39483b96620673a7012ffdd:3995
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $agentTable = null;

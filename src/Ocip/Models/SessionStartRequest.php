@@ -13,15 +13,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SessionStartRequest
  * @see SessionStartRequest22
- * @Groups [{"id":"bd46fc427b2b0dc182dcd53cf03e95b4:537","type":"sequence","children":[{"id":"bd46fc427b2b0dc182dcd53cf03e95b4:538","type":"choice"}]}]
+ * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:5991","type":"sequence","children":[{"id":"de4d76f01f337fe4694212ec9f771753:5992","type":"choice"}]}]
  */
-class SessionStartRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
+class SessionStartRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIHiddenRequest
 {
 
     /**
      * @ElementName normalLogin
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SessionStartRequestNormalLogin
-     * @Group bd46fc427b2b0dc182dcd53cf03e95b4:538
+     * @Group de4d76f01f337fe4694212ec9f771753:5992
      * @var \CWM\BroadWorksConnector\Ocip\Models\SessionStartRequestNormalLogin|null
      */
     private $normalLogin = null;

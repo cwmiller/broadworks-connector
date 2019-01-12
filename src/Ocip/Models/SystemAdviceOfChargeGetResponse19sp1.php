@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains a list of system Advice of Charge parameters.
  *
  * @see SystemAdviceOfChargeGetRequest
- * @Groups [{"id":"fb1070190f79a86aa955448146b539c7:248","type":"sequence"}]
+ * @Groups [{"id":"a69fde15f3aa7494d83b57461a7a70bb:248","type":"sequence"}]
  */
 class SystemAdviceOfChargeGetResponse19sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class SystemAdviceOfChargeGetResponse19sp1 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName delayBetweenNotificationSeconds
      * @Type int
-     * @Group fb1070190f79a86aa955448146b539c7:248
+     * @Group a69fde15f3aa7494d83b57461a7a70bb:248
      * @var int|null
      */
     private $delayBetweenNotificationSeconds = null;
@@ -25,7 +25,7 @@ class SystemAdviceOfChargeGetResponse19sp1 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName incomingAocHandling
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AdviceOfChargeIncomingAocHandling
-     * @Group fb1070190f79a86aa955448146b539c7:248
+     * @Group a69fde15f3aa7494d83b57461a7a70bb:248
      * @var \CWM\BroadWorksConnector\Ocip\Models\AdviceOfChargeIncomingAocHandling|null
      */
     private $incomingAocHandling = null;
@@ -33,7 +33,7 @@ class SystemAdviceOfChargeGetResponse19sp1 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName useOCSEnquiry
      * @Type bool
-     * @Group fb1070190f79a86aa955448146b539c7:248
+     * @Group a69fde15f3aa7494d83b57461a7a70bb:248
      * @var bool|null
      */
     private $useOCSEnquiry = null;
@@ -41,7 +41,7 @@ class SystemAdviceOfChargeGetResponse19sp1 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName OCSEnquiryType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AdviceOfChargeOCSEnquiryType
-     * @Group fb1070190f79a86aa955448146b539c7:248
+     * @Group a69fde15f3aa7494d83b57461a7a70bb:248
      * @var \CWM\BroadWorksConnector\Ocip\Models\AdviceOfChargeOCSEnquiryType|null
      */
     private $OCSEnquiryType = null;

@@ -14,6 +14,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static UserService ATTENDANT_CONSOLE()
  * @method static UserService AUTHENTICATION()
  * @method static UserService AUTOMATIC_CALLBACK()
+ * @method static UserService AUTOMATIC_COLLECT_CALL()
  * @method static UserService AUTOMATIC_HOLD_RETRIEVE()
  * @method static UserService BARGE_IN_EXEMPT()
  * @method static UserService BASIC_CALL_LOGS()
@@ -180,6 +181,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static UserService PRIVACY()
  * @method static UserService PUSH_TO_TALK()
  * @method static UserService REMOTE_OFFICE()
+ * @method static UserService RESOURCE_PRIORITY()
  * @method static UserService ROUTE_LIST()
  * @method static UserService SMDI_MESSAGE_DESK()
  * @method static UserService SECURITY_CLASSIFICATION()
@@ -232,6 +234,8 @@ class UserService extends \MyCLabs\Enum\Enum
     const AUTHENTICATION = 'Authentication';
 
     const AUTOMATIC_CALLBACK = 'Automatic Callback';
+
+    const AUTOMATIC_COLLECT_CALL = 'Automatic Collect Call';
 
     const AUTOMATIC_HOLD_RETRIEVE = 'Automatic Hold/Retrieve';
 
@@ -564,6 +568,8 @@ class UserService extends \MyCLabs\Enum\Enum
     const PUSH_TO_TALK = 'Push to Talk';
 
     const REMOTE_OFFICE = 'Remote Office';
+
+    const RESOURCE_PRIORITY = 'Resource Priority';
 
     const ROUTE_LIST = 'Route List';
 

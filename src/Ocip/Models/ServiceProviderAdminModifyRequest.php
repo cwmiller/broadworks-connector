@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"8eb862aea0ee5d4211db0a0d3fe7c164:1124","type":"sequence"}]
+ * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:1179","type":"sequence"}]
  */
 class ServiceProviderAdminModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class ServiceProviderAdminModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName userId
      * @Type string
-     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:1124
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1179
      * @var string|null
      */
     private $userId = null;
@@ -30,7 +30,7 @@ class ServiceProviderAdminModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:1124
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1179
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $firstName = null;
@@ -40,7 +40,7 @@ class ServiceProviderAdminModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:1124
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1179
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $lastName = null;
@@ -50,7 +50,7 @@ class ServiceProviderAdminModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:1124
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1179
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $password = null;
@@ -59,7 +59,7 @@ class ServiceProviderAdminModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName language
      * @Type string
      * @Optional
-     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:1124
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1179
      * @var string|null
      */
     private $language = null;

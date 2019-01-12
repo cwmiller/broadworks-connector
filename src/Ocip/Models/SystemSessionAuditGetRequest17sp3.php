@@ -8,10 +8,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request the system level data associated with session audit.
  *         The response is either a SystemSessionAuditGetResponse17sp3 or
  *         an ErrorResponse.
+ *         
+ *         Replaced by: SystemSessionAuditGetRequest23 in AS data mode.
  *
  * @see SystemSessionAuditGetResponse17sp3
  * @see ErrorResponse
- * @Groups [{"id":"b5f5416d9e71f8e4246cda16c4723744:14309","type":"sequence"}]
+ * @see SystemSessionAuditGetRequest23
+ * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:6650","type":"sequence"}]
  */
 class SystemSessionAuditGetRequest17sp3 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

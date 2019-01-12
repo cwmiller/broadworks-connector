@@ -2,17 +2,18 @@
 
 namespace CWM\BroadWorksConnector\Ocip\Traits;
 
-use CWM\BroadWorksConnector\Ocip\Models\AuthenticationVerifyRequest22;
-use CWM\BroadWorksConnector\Ocip\Models\AuthenticationVerifyResponse22;
+use CWM\BroadWorksConnector\Ocip\Models\AuthenticationVerifyRequest22V2;
+use CWM\BroadWorksConnector\Ocip\Models\AuthenticationVerifyResponse22V2;
 use CWM\BroadWorksConnector\Ocip\Models\AvailabilityTestRequest;
-use CWM\BroadWorksConnector\Ocip\Models\DeviceManagementFileAuthLocationGetRequest21sp1;
-use CWM\BroadWorksConnector\Ocip\Models\DeviceManagementFileAuthLocationGetResponse21sp1;
+use CWM\BroadWorksConnector\Ocip\Models\DeviceManagementFileAuthLocationGetRequest22V2;
+use CWM\BroadWorksConnector\Ocip\Models\DeviceManagementFileAuthLocationGetResponse22V2;
 use CWM\BroadWorksConnector\Ocip\Models\DeviceManagementPutFileRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ExternalAuthenticationAuthorizeTokenRequest22;
 use CWM\BroadWorksConnector\Ocip\Models\ExternalAuthenticationCreateLoginTokenRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ExternalAuthenticationCreateLoginTokenResponse;
-use CWM\BroadWorksConnector\Ocip\Models\LoginRequest22V2;
+use CWM\BroadWorksConnector\Ocip\Models\LoginRequest22V3;
 use CWM\BroadWorksConnector\Ocip\Models\LogoutRequest;
+use CWM\BroadWorksConnector\Ocip\Models\LongLivedTokenRevokeRequest;
 use CWM\BroadWorksConnector\Ocip\Models\PasswordGenerateRequest;
 use CWM\BroadWorksConnector\Ocip\Models\PasswordGenerateResponse;
 use CWM\BroadWorksConnector\Ocip\Models\PasswordModifyRequest;
@@ -22,8 +23,8 @@ use CWM\BroadWorksConnector\Ocip\Models\PublicClusterGetFullyQualifiedDomainName
 use CWM\BroadWorksConnector\Ocip\Models\TutorialFlagGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\TutorialFlagGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\TutorialFlagModifyRequest;
-use CWM\BroadWorksConnector\Ocip\Models\UserGetLoginInfoRequest22;
-use CWM\BroadWorksConnector\Ocip\Models\UserGetLoginInfoResponse22;
+use CWM\BroadWorksConnector\Ocip\Models\UserGetLoginInfoRequest22V2;
+use CWM\BroadWorksConnector\Ocip\Models\UserGetLoginInfoResponse22V2;
 use CWM\BroadWorksConnector\Ocip\Models\UserSingleSignOnCreateDeviceTokenRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserSingleSignOnCreateDeviceTokenResponse;
 use CWM\BroadWorksConnector\Ocip\Models\VerifySessionIsValidRequest;
@@ -35,12 +36,12 @@ trait OCISchemaLogin
 {
 
     /**
-     * @param AuthenticationVerifyRequest22 $request
-     * @return AuthenticationVerifyResponse22
+     * @param AuthenticationVerifyRequest22V2 $request
+     * @return AuthenticationVerifyResponse22V2
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function authenticationVerifyRequest22(\CWM\BroadWorksConnector\Ocip\Models\AuthenticationVerifyRequest22 $request)
+    public function authenticationVerifyRequest22V2(\CWM\BroadWorksConnector\Ocip\Models\AuthenticationVerifyRequest22V2 $request)
     {
         return $this->call($request);
     }
@@ -57,12 +58,12 @@ trait OCISchemaLogin
     }
 
     /**
-     * @param DeviceManagementFileAuthLocationGetRequest21sp1 $request
-     * @return DeviceManagementFileAuthLocationGetResponse21sp1
+     * @param DeviceManagementFileAuthLocationGetRequest22V2 $request
+     * @return DeviceManagementFileAuthLocationGetResponse22V2
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function deviceManagementFileAuthLocationGetRequest21sp1(\CWM\BroadWorksConnector\Ocip\Models\DeviceManagementFileAuthLocationGetRequest21sp1 $request)
+    public function deviceManagementFileAuthLocationGetRequest22V2(\CWM\BroadWorksConnector\Ocip\Models\DeviceManagementFileAuthLocationGetRequest22V2 $request)
     {
         return $this->call($request);
     }
@@ -101,12 +102,12 @@ trait OCISchemaLogin
     }
 
     /**
-     * @param LoginRequest22V2 $request
+     * @param LoginRequest22V3 $request
      * @return 
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function loginRequest22V2(\CWM\BroadWorksConnector\Ocip\Models\LoginRequest22V2 $request)
+    public function loginRequest22V3(\CWM\BroadWorksConnector\Ocip\Models\LoginRequest22V3 $request)
     {
         return $this->call($request);
     }
@@ -118,6 +119,17 @@ trait OCISchemaLogin
      * @throws ValidationException
      */
     public function logoutRequest(\CWM\BroadWorksConnector\Ocip\Models\LogoutRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param LongLivedTokenRevokeRequest $request
+     * @return SuccessResponse
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function longLivedTokenRevokeRequest(\CWM\BroadWorksConnector\Ocip\Models\LongLivedTokenRevokeRequest $request)
     {
         return $this->call($request);
     }
@@ -189,12 +201,12 @@ trait OCISchemaLogin
     }
 
     /**
-     * @param UserGetLoginInfoRequest22 $request
-     * @return UserGetLoginInfoResponse22
+     * @param UserGetLoginInfoRequest22V2 $request
+     * @return UserGetLoginInfoResponse22V2
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function userGetLoginInfoRequest22(\CWM\BroadWorksConnector\Ocip\Models\UserGetLoginInfoRequest22 $request)
+    public function userGetLoginInfoRequest22V2(\CWM\BroadWorksConnector\Ocip\Models\UserGetLoginInfoRequest22V2 $request)
     {
         return $this->call($request);
     }

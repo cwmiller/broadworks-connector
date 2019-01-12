@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         and a row for each group.
  *
  * @see ServiceProviderRoutePointExternalSystemGetAssignedGroupListRequest
- * @Groups [{"id":"8eb862aea0ee5d4211db0a0d3fe7c164:4504","type":"sequence"}]
+ * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:4676","type":"sequence"}]
  */
 class ServiceProviderRoutePointExternalSystemGetAssignedGroupListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class ServiceProviderRoutePointExternalSystemGetAssignedGroupListResponse extend
     /**
      * @ElementName groupTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:4504
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4676
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $groupTable = null;

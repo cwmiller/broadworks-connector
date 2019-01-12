@@ -9,6 +9,8 @@ use CWM\BroadWorksConnector\Ocip\Models\GroupAutoAttendantConsolidatedModifyInst
 use CWM\BroadWorksConnector\Ocip\Models\GroupAutoAttendantDeleteInstanceRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupAutoAttendantGetInstanceListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupAutoAttendantGetInstanceListResponse;
+use CWM\BroadWorksConnector\Ocip\Models\GroupAutoAttendantGetInstancePagedSortedListRequest;
+use CWM\BroadWorksConnector\Ocip\Models\GroupAutoAttendantGetInstancePagedSortedListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupAutoAttendantGetInstanceRequest20;
 use CWM\BroadWorksConnector\Ocip\Models\GroupAutoAttendantGetInstanceResponse20;
 use CWM\BroadWorksConnector\Ocip\Models\GroupAutoAttendantModifyActiveInstanceListRequest;
@@ -91,6 +93,17 @@ trait OCISchemaServiceAutoAttendant
      * @throws ValidationException
      */
     public function groupAutoAttendantGetInstanceListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupAutoAttendantGetInstanceListRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param GroupAutoAttendantGetInstancePagedSortedListRequest $request
+     * @return GroupAutoAttendantGetInstancePagedSortedListResponse
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function groupAutoAttendantGetInstancePagedSortedListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupAutoAttendantGetInstancePagedSortedListRequest $request)
     {
         return $this->call($request);
     }

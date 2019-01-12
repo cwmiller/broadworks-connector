@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemCallProcessingPolicyProfileCollaborateProfileGetRequest
  * @see SystemCallProcessingPolicyProfileCollaborateProfileGetResponse22
- * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:19512","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:36299","type":"sequence"}]
  */
 class SystemCallProcessingPolicyProfileCollaborateProfileGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,7 +19,7 @@ class SystemCallProcessingPolicyProfileCollaborateProfileGetResponse extends \CW
     /**
      * @ElementName useCLIDPolicy
      * @Type bool
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:19512
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:36299
      * @var bool|null
      */
     private $useCLIDPolicy = null;
@@ -27,7 +27,7 @@ class SystemCallProcessingPolicyProfileCollaborateProfileGetResponse extends \CW
     /**
      * @ElementName clidPolicy
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupCLIDPolicy
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:19512
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:36299
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupCLIDPolicy|null
      */
     private $clidPolicy = null;
@@ -35,7 +35,7 @@ class SystemCallProcessingPolicyProfileCollaborateProfileGetResponse extends \CW
     /**
      * @ElementName emergencyClidPolicy
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupCLIDPolicy
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:19512
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:36299
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupCLIDPolicy|null
      */
     private $emergencyClidPolicy = null;
@@ -43,7 +43,7 @@ class SystemCallProcessingPolicyProfileCollaborateProfileGetResponse extends \CW
     /**
      * @ElementName allowAlternateNumbersForRedirectingIdentity
      * @Type bool
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:19512
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:36299
      * @var bool|null
      */
     private $allowAlternateNumbersForRedirectingIdentity = null;
@@ -51,7 +51,7 @@ class SystemCallProcessingPolicyProfileCollaborateProfileGetResponse extends \CW
     /**
      * @ElementName useGroupName
      * @Type bool
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:19512
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:36299
      * @var bool|null
      */
     private $useGroupName = null;
@@ -59,7 +59,7 @@ class SystemCallProcessingPolicyProfileCollaborateProfileGetResponse extends \CW
     /**
      * @ElementName blockCallingNameForExternalCalls
      * @Type bool
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:19512
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:36299
      * @var bool|null
      */
     private $blockCallingNameForExternalCalls = null;
@@ -67,7 +67,7 @@ class SystemCallProcessingPolicyProfileCollaborateProfileGetResponse extends \CW
     /**
      * @ElementName allowConfigurableCLIDForRedirectingIdentity
      * @Type bool
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:19512
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:36299
      * @var bool|null
      */
     private $allowConfigurableCLIDForRedirectingIdentity = null;
@@ -75,7 +75,7 @@ class SystemCallProcessingPolicyProfileCollaborateProfileGetResponse extends \CW
     /**
      * @ElementName allowDepartmentCLIDNameOverride
      * @Type bool
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:19512
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:36299
      * @var bool|null
      */
     private $allowDepartmentCLIDNameOverride = null;
@@ -83,7 +83,7 @@ class SystemCallProcessingPolicyProfileCollaborateProfileGetResponse extends \CW
     /**
      * @ElementName enterpriseCallsCLIDPolicy
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EnterpriseInternalCallsCLIDPolicy
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:19512
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:36299
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseInternalCallsCLIDPolicy|null
      */
     private $enterpriseCallsCLIDPolicy = null;
@@ -91,7 +91,7 @@ class SystemCallProcessingPolicyProfileCollaborateProfileGetResponse extends \CW
     /**
      * @ElementName enterpriseGroupCallsCLIDPolicy
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EnterpriseInternalCallsCLIDPolicy
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:19512
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:36299
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseInternalCallsCLIDPolicy|null
      */
     private $enterpriseGroupCallsCLIDPolicy = null;
@@ -99,7 +99,7 @@ class SystemCallProcessingPolicyProfileCollaborateProfileGetResponse extends \CW
     /**
      * @ElementName serviceProviderGroupCallsCLIDPolicy
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderInternalCallsCLIDPolicy
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:19512
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:36299
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderInternalCallsCLIDPolicy|null
      */
     private $serviceProviderGroupCallsCLIDPolicy = null;
@@ -107,7 +107,7 @@ class SystemCallProcessingPolicyProfileCollaborateProfileGetResponse extends \CW
     /**
      * @ElementName useCallLimitsPolicy
      * @Type bool
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:19512
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:36299
      * @var bool|null
      */
     private $useCallLimitsPolicy = null;
@@ -115,7 +115,7 @@ class SystemCallProcessingPolicyProfileCollaborateProfileGetResponse extends \CW
     /**
      * @ElementName useMaxSimultaneousCalls
      * @Type bool
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:19512
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:36299
      * @var bool|null
      */
     private $useMaxSimultaneousCalls = null;
@@ -123,7 +123,7 @@ class SystemCallProcessingPolicyProfileCollaborateProfileGetResponse extends \CW
     /**
      * @ElementName maxSimultaneousCalls
      * @Type int
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:19512
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:36299
      * @var int|null
      */
     private $maxSimultaneousCalls = null;
@@ -131,7 +131,7 @@ class SystemCallProcessingPolicyProfileCollaborateProfileGetResponse extends \CW
     /**
      * @ElementName useMaxSimultaneousVideoCalls
      * @Type bool
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:19512
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:36299
      * @var bool|null
      */
     private $useMaxSimultaneousVideoCalls = null;
@@ -139,7 +139,7 @@ class SystemCallProcessingPolicyProfileCollaborateProfileGetResponse extends \CW
     /**
      * @ElementName maxSimultaneousVideoCalls
      * @Type int
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:19512
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:36299
      * @var int|null
      */
     private $maxSimultaneousVideoCalls = null;
@@ -147,7 +147,7 @@ class SystemCallProcessingPolicyProfileCollaborateProfileGetResponse extends \CW
     /**
      * @ElementName useMaxCallTimeForAnsweredCalls
      * @Type bool
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:19512
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:36299
      * @var bool|null
      */
     private $useMaxCallTimeForAnsweredCalls = null;
@@ -155,7 +155,7 @@ class SystemCallProcessingPolicyProfileCollaborateProfileGetResponse extends \CW
     /**
      * @ElementName maxCallTimeForAnsweredCallsMinutes
      * @Type int
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:19512
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:36299
      * @var int|null
      */
     private $maxCallTimeForAnsweredCallsMinutes = null;
@@ -163,7 +163,7 @@ class SystemCallProcessingPolicyProfileCollaborateProfileGetResponse extends \CW
     /**
      * @ElementName useMaxCallTimeForUnansweredCalls
      * @Type bool
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:19512
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:36299
      * @var bool|null
      */
     private $useMaxCallTimeForUnansweredCalls = null;
@@ -171,7 +171,7 @@ class SystemCallProcessingPolicyProfileCollaborateProfileGetResponse extends \CW
     /**
      * @ElementName maxCallTimeForUnansweredCallsMinutes
      * @Type int
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:19512
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:36299
      * @var int|null
      */
     private $maxCallTimeForUnansweredCallsMinutes = null;
@@ -179,7 +179,7 @@ class SystemCallProcessingPolicyProfileCollaborateProfileGetResponse extends \CW
     /**
      * @ElementName useMaxConcurrentRedirectedCalls
      * @Type bool
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:19512
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:36299
      * @var bool|null
      */
     private $useMaxConcurrentRedirectedCalls = null;
@@ -187,7 +187,7 @@ class SystemCallProcessingPolicyProfileCollaborateProfileGetResponse extends \CW
     /**
      * @ElementName maxConcurrentRedirectedCalls
      * @Type int
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:19512
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:36299
      * @var int|null
      */
     private $maxConcurrentRedirectedCalls = null;
@@ -195,7 +195,7 @@ class SystemCallProcessingPolicyProfileCollaborateProfileGetResponse extends \CW
     /**
      * @ElementName maxRedirectionDepth
      * @Type int
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:19512
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:36299
      * @var int|null
      */
     private $maxRedirectionDepth = null;
@@ -203,7 +203,7 @@ class SystemCallProcessingPolicyProfileCollaborateProfileGetResponse extends \CW
     /**
      * @ElementName useTranslationRoutingPolicy
      * @Type bool
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:19512
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:36299
      * @var bool|null
      */
     private $useTranslationRoutingPolicy = null;
@@ -211,7 +211,7 @@ class SystemCallProcessingPolicyProfileCollaborateProfileGetResponse extends \CW
     /**
      * @ElementName networkUsageSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\NetworkUsageSelection
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:19512
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:36299
      * @var \CWM\BroadWorksConnector\Ocip\Models\NetworkUsageSelection|null
      */
     private $networkUsageSelection = null;
@@ -219,7 +219,7 @@ class SystemCallProcessingPolicyProfileCollaborateProfileGetResponse extends \CW
     /**
      * @ElementName enableEnterpriseExtensionDialing
      * @Type bool
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:19512
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:36299
      * @var bool|null
      */
     private $enableEnterpriseExtensionDialing = null;
@@ -227,7 +227,7 @@ class SystemCallProcessingPolicyProfileCollaborateProfileGetResponse extends \CW
     /**
      * @ElementName enforceGroupCallingLineIdentityRestriction
      * @Type bool
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:19512
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:36299
      * @var bool|null
      */
     private $enforceGroupCallingLineIdentityRestriction = null;
@@ -235,7 +235,7 @@ class SystemCallProcessingPolicyProfileCollaborateProfileGetResponse extends \CW
     /**
      * @ElementName enforceEnterpriseCallingLineIdentityRestriction
      * @Type bool
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:19512
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:36299
      * @var bool|null
      */
     private $enforceEnterpriseCallingLineIdentityRestriction = null;
@@ -243,7 +243,7 @@ class SystemCallProcessingPolicyProfileCollaborateProfileGetResponse extends \CW
     /**
      * @ElementName allowEnterpriseGroupCallTypingForPrivateDialingPlan
      * @Type bool
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:19512
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:36299
      * @var bool|null
      */
     private $allowEnterpriseGroupCallTypingForPrivateDialingPlan = null;
@@ -251,7 +251,7 @@ class SystemCallProcessingPolicyProfileCollaborateProfileGetResponse extends \CW
     /**
      * @ElementName allowEnterpriseGroupCallTypingForPublicDialingPlan
      * @Type bool
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:19512
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:36299
      * @var bool|null
      */
     private $allowEnterpriseGroupCallTypingForPublicDialingPlan = null;
@@ -259,7 +259,7 @@ class SystemCallProcessingPolicyProfileCollaborateProfileGetResponse extends \CW
     /**
      * @ElementName overrideCLIDRestrictionForPrivateCallCategory
      * @Type bool
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:19512
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:36299
      * @var bool|null
      */
     private $overrideCLIDRestrictionForPrivateCallCategory = null;
@@ -267,7 +267,7 @@ class SystemCallProcessingPolicyProfileCollaborateProfileGetResponse extends \CW
     /**
      * @ElementName useEnterpriseCLIDForPrivateCallCategory
      * @Type bool
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:19512
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:36299
      * @var bool|null
      */
     private $useEnterpriseCLIDForPrivateCallCategory = null;
@@ -275,7 +275,7 @@ class SystemCallProcessingPolicyProfileCollaborateProfileGetResponse extends \CW
     /**
      * @ElementName useIncomingCLIDPolicy
      * @Type bool
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:19512
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:36299
      * @var bool|null
      */
     private $useIncomingCLIDPolicy = null;
@@ -283,7 +283,7 @@ class SystemCallProcessingPolicyProfileCollaborateProfileGetResponse extends \CW
     /**
      * @ElementName enableDialableCallerID
      * @Type bool
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:19512
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:36299
      * @var bool|null
      */
     private $enableDialableCallerID = null;

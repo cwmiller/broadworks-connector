@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"584e9b2c2c8a6d282376c11d0e3ab848:52","type":"sequence"}]
+ * @Groups [{"id":"ee7bb69368e23a56a82c5d9cf07b5433:52","type":"sequence"}]
  */
 class SystemSMDIMessageDeskAddServerRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemSMDIMessageDeskAddServerRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName deviceName
      * @Type string
-     * @Group 584e9b2c2c8a6d282376c11d0e3ab848:52
+     * @Group ee7bb69368e23a56a82c5d9cf07b5433:52
      * @var string|null
      */
     private $deviceName = null;
@@ -26,7 +26,7 @@ class SystemSMDIMessageDeskAddServerRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName netAddress
      * @Type string
-     * @Group 584e9b2c2c8a6d282376c11d0e3ab848:52
+     * @Group ee7bb69368e23a56a82c5d9cf07b5433:52
      * @var string|null
      */
     private $netAddress = null;
@@ -34,7 +34,7 @@ class SystemSMDIMessageDeskAddServerRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName port
      * @Type int
-     * @Group 584e9b2c2c8a6d282376c11d0e3ab848:52
+     * @Group ee7bb69368e23a56a82c5d9cf07b5433:52
      * @var int|null
      */
     private $port = null;
@@ -43,7 +43,7 @@ class SystemSMDIMessageDeskAddServerRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName description
      * @Type string
      * @Optional
-     * @Group 584e9b2c2c8a6d282376c11d0e3ab848:52
+     * @Group ee7bb69368e23a56a82c5d9cf07b5433:52
      * @var string|null
      */
     private $description = null;

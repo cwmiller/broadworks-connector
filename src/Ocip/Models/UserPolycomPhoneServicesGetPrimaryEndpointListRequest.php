@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserPolycomPhoneServicesGetPrimaryEndpointListResponse
  * @see ErrorResponse
- * @Groups [{"id":"dfb97f73716e9f703ab24fbcfb1f433a:100","type":"sequence"}]
+ * @Groups [{"id":"4f074d986b998636e2bcb0d67372b0f4:100","type":"sequence"}]
  */
 class UserPolycomPhoneServicesGetPrimaryEndpointListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserPolycomPhoneServicesGetPrimaryEndpointListRequest extends \CWM\BroadWo
     /**
      * @ElementName userId
      * @Type string
-     * @Group dfb97f73716e9f703ab24fbcfb1f433a:100
+     * @Group 4f074d986b998636e2bcb0d67372b0f4:100
      * @var string|null
      */
     private $userId = null;

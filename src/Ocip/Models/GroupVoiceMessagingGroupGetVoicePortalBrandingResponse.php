@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupVoiceMessagingGroupGetVoicePortalBrandingRequest
  * @see GroupVoiceMessagingGroupGetVoicePortalBrandingResponse16
- * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:14209","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:9147","type":"sequence"}]
  */
 class GroupVoiceMessagingGroupGetVoicePortalBrandingResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class GroupVoiceMessagingGroupGetVoicePortalBrandingResponse extends \CWM\BroadW
     /**
      * @ElementName voicePortalGreetingSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingBrandingSelection
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:14209
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:9147
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingBrandingSelection|null
      */
     private $voicePortalGreetingSelection = null;
@@ -27,7 +27,7 @@ class GroupVoiceMessagingGroupGetVoicePortalBrandingResponse extends \CWM\BroadW
      * @ElementName voicePortalGreetingFileDescription
      * @Type string
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:14209
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:9147
      * @var string|null
      */
     private $voicePortalGreetingFileDescription = null;
@@ -35,7 +35,7 @@ class GroupVoiceMessagingGroupGetVoicePortalBrandingResponse extends \CWM\BroadW
     /**
      * @ElementName voiceMessagingGreetingSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingBrandingSelection
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:14209
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:9147
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingBrandingSelection|null
      */
     private $voiceMessagingGreetingSelection = null;
@@ -44,7 +44,7 @@ class GroupVoiceMessagingGroupGetVoicePortalBrandingResponse extends \CWM\BroadW
      * @ElementName voiceMessagingGreetingFileDescription
      * @Type string
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:14209
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:9147
      * @var string|null
      */
     private $voiceMessagingGreetingFileDescription = null;

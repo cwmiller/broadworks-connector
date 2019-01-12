@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         service provider, a password will be generated
  *         based on only the rules applicable for a new user.
  *
- * @Groups [{"id":"21fd3c6abc11c44e52803121f7739a76:699","type":"sequence"}]
+ * @Groups [{"id":"6b27fcc79475236456fc113a42b75543:754","type":"sequence"}]
  */
 class PasswordForSystemAdministrator
 {
@@ -19,7 +19,7 @@ class PasswordForSystemAdministrator
      * @ElementName administratorId
      * @Type string
      * @Optional
-     * @Group 21fd3c6abc11c44e52803121f7739a76:699
+     * @Group 6b27fcc79475236456fc113a42b75543:754
      * @var string|null
      */
     private $administratorId = null;
@@ -27,7 +27,7 @@ class PasswordForSystemAdministrator
     /**
      * @ElementName generatePassword
      * @Type bool
-     * @Group 21fd3c6abc11c44e52803121f7739a76:699
+     * @Group 6b27fcc79475236456fc113a42b75543:754
      * @var bool|null
      */
     private $generatePassword = null;

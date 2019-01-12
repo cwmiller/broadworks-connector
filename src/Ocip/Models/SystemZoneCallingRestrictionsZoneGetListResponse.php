@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemZoneCallingRestrictionsZoneGetListRequest
  * @see SystemZoneGetListResponse
- * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:32203","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:16246","type":"sequence"}]
  */
 class SystemZoneCallingRestrictionsZoneGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,7 +19,7 @@ class SystemZoneCallingRestrictionsZoneGetListResponse extends \CWM\BroadWorksCo
     /**
      * @ElementName zoneTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:32203
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:16246
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $zoneTable = null;

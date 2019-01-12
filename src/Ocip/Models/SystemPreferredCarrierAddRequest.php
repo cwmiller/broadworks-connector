@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"56f1bd27c6955cc11e0869b6463fb814:320","type":"sequence"}]
+ * @Groups [{"id":"74a46a9bfccb54713c1d19735843f1df:319","type":"sequence"}]
  */
 class SystemPreferredCarrierAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class SystemPreferredCarrierAddRequest extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName carrier
      * @Type string
-     * @Group 56f1bd27c6955cc11e0869b6463fb814:320
+     * @Group 74a46a9bfccb54713c1d19735843f1df:319
      * @var string|null
      */
     private $carrier = null;
@@ -27,7 +27,7 @@ class SystemPreferredCarrierAddRequest extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName cic
      * @Type string
-     * @Group 56f1bd27c6955cc11e0869b6463fb814:320
+     * @Group 74a46a9bfccb54713c1d19735843f1df:319
      * @var string|null
      */
     private $cic = null;
@@ -35,7 +35,7 @@ class SystemPreferredCarrierAddRequest extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName countryCode
      * @Type string
-     * @Group 56f1bd27c6955cc11e0869b6463fb814:320
+     * @Group 74a46a9bfccb54713c1d19735843f1df:319
      * @var string|null
      */
     private $countryCode = null;
@@ -43,7 +43,7 @@ class SystemPreferredCarrierAddRequest extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName isIntraLata
      * @Type bool
-     * @Group 56f1bd27c6955cc11e0869b6463fb814:320
+     * @Group 74a46a9bfccb54713c1d19735843f1df:319
      * @var bool|null
      */
     private $isIntraLata = null;
@@ -51,7 +51,7 @@ class SystemPreferredCarrierAddRequest extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName isInterLata
      * @Type bool
-     * @Group 56f1bd27c6955cc11e0869b6463fb814:320
+     * @Group 74a46a9bfccb54713c1d19735843f1df:319
      * @var bool|null
      */
     private $isInterLata = null;
@@ -59,7 +59,7 @@ class SystemPreferredCarrierAddRequest extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName isInternational
      * @Type bool
-     * @Group 56f1bd27c6955cc11e0869b6463fb814:320
+     * @Group 74a46a9bfccb54713c1d19735843f1df:319
      * @var bool|null
      */
     private $isInternational = null;

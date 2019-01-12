@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemNetworkProgressionGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"b5f5416d9e71f8e4246cda16c4723744:10952","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:11137","type":"sequence"}]
  */
 class SystemNetworkProgressionGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

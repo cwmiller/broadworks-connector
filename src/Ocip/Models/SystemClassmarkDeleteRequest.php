@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"cab89edc38c11aa1d780290f00d72d0c:65","type":"sequence"}]
+ * @Groups [{"id":"0d0e878cbc947aebb19ad489b2ffef11:65","type":"sequence"}]
  */
 class SystemClassmarkDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemClassmarkDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName classmark
      * @Type string
-     * @Group cab89edc38c11aa1d780290f00d72d0c:65
+     * @Group 0d0e878cbc947aebb19ad489b2ffef11:65
      * @var string|null
      */
     private $classmark = null;

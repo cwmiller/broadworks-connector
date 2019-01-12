@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * A list of user services that replaces a previously configured list.
  *         By convention, an element of this type may be set nill to clear the list.
  *
- * @Groups [{"id":"8e629edbac315ae7889caca732382c44:2985","type":"sequence"}]
+ * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:3253","type":"sequence"}]
  */
 class ReplacementUserServiceList
 {
@@ -17,7 +17,7 @@ class ReplacementUserServiceList
      * @ElementName serviceName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UserService
      * @Array
-     * @Group 8e629edbac315ae7889caca732382c44:2985
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:3253
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserService[]
      */
     private $serviceName = array(

@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * The configuration of a alternate no answer greeting.
  *         It is used when modifying a user's voice messaging greeting.
  *
- * @Groups [{"id":"80c5986946137c505e41f6008c7f75a8:3111","type":"sequence"}]
+ * @Groups [{"id":"3347d430e0d5c93a9ff8dcf0e3b60d6c:3166","type":"sequence"}]
  */
 class VoiceMessagingAlternateNoAnswerGreetingModify20
 {
@@ -18,7 +18,7 @@ class VoiceMessagingAlternateNoAnswerGreetingModify20
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 80c5986946137c505e41f6008c7f75a8:3111
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:3166
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $name = null;
@@ -28,7 +28,7 @@ class VoiceMessagingAlternateNoAnswerGreetingModify20
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey
      * @Nillable
      * @Optional
-     * @Group 80c5986946137c505e41f6008c7f75a8:3111
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:3166
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $audioFile = null;
@@ -38,7 +38,7 @@ class VoiceMessagingAlternateNoAnswerGreetingModify20
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey
      * @Nillable
      * @Optional
-     * @Group 80c5986946137c505e41f6008c7f75a8:3111
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:3166
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $videoFile = null;

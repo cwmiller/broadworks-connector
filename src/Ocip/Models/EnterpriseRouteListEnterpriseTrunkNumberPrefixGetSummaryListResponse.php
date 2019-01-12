@@ -15,7 +15,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The "Is Active" column indicates if the number range has been activated.
  *
  * @see EnterpriseRouteListEnterpriseTrunkNumberPrefixGetSummaryListRequest
- * @Groups [{"id":"6c3e6c5ded8862d72e92e5d067442775:124","type":"sequence"}]
+ * @Groups [{"id":"3f28429898a57a7f7846d3877b22df9f:123","type":"sequence"}]
  */
 class EnterpriseRouteListEnterpriseTrunkNumberPrefixGetSummaryListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -23,7 +23,7 @@ class EnterpriseRouteListEnterpriseTrunkNumberPrefixGetSummaryListResponse exten
     /**
      * @ElementName prefixSummaryTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 6c3e6c5ded8862d72e92e5d067442775:124
+     * @Group 3f28429898a57a7f7846d3877b22df9f:123
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $prefixSummaryTable = null;

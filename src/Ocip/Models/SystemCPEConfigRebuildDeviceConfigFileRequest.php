@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"b5f5416d9e71f8e4246cda16c4723744:6393","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:6518","type":"sequence"}]
  */
 class SystemCPEConfigRebuildDeviceConfigFileRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,7 +21,7 @@ class SystemCPEConfigRebuildDeviceConfigFileRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName deviceName
      * @Type string
-     * @Group b5f5416d9e71f8e4246cda16c4723744:6393
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6518
      * @var string|null
      */
     private $deviceName = null;
@@ -30,7 +30,7 @@ class SystemCPEConfigRebuildDeviceConfigFileRequest extends \CWM\BroadWorksConne
      * @ElementName force
      * @Type bool
      * @Optional
-     * @Group b5f5416d9e71f8e4246cda16c4723744:6393
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6518
      * @var bool|null
      */
     private $force = null;

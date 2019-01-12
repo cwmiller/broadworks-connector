@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         OrganizationType OCI data type.  Please see OCISchemaDataTypes.xsd for details on OrganizationType.
  *
  * @see SystemPreferredCarrierGetGroupListRequest
- * @Groups [{"id":"56f1bd27c6955cc11e0869b6463fb814:385","type":"sequence"}]
+ * @Groups [{"id":"74a46a9bfccb54713c1d19735843f1df:384","type":"sequence"}]
  */
 class SystemPreferredCarrierGetGroupListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -21,7 +21,7 @@ class SystemPreferredCarrierGetGroupListResponse extends \CWM\BroadWorksConnecto
     /**
      * @ElementName groupsUsingCarrierTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 56f1bd27c6955cc11e0869b6463fb814:385
+     * @Group 74a46a9bfccb54713c1d19735843f1df:384
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $groupsUsingCarrierTable = null;

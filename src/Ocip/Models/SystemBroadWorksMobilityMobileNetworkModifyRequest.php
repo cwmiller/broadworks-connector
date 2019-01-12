@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"6536ac9946b3d8422bec81ad9d995e2b:793","type":"sequence"}]
+ * @Groups [{"id":"f7ae3539fd471e995b07dc1bf8836e2d:932","type":"sequence"}]
  */
 class SystemBroadWorksMobilityMobileNetworkModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemBroadWorksMobilityMobileNetworkModifyRequest extends \CWM\BroadWorks
     /**
      * @ElementName name
      * @Type string
-     * @Group 6536ac9946b3d8422bec81ad9d995e2b:793
+     * @Group f7ae3539fd471e995b07dc1bf8836e2d:932
      * @var string|null
      */
     private $name = null;
@@ -27,7 +27,7 @@ class SystemBroadWorksMobilityMobileNetworkModifyRequest extends \CWM\BroadWorks
      * @ElementName newName
      * @Type string
      * @Optional
-     * @Group 6536ac9946b3d8422bec81ad9d995e2b:793
+     * @Group f7ae3539fd471e995b07dc1bf8836e2d:932
      * @var string|null
      */
     private $newName = null;
@@ -37,7 +37,7 @@ class SystemBroadWorksMobilityMobileNetworkModifyRequest extends \CWM\BroadWorks
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 6536ac9946b3d8422bec81ad9d995e2b:793
+     * @Group f7ae3539fd471e995b07dc1bf8836e2d:932
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $scfSignalingNetAddress = null;
@@ -47,7 +47,7 @@ class SystemBroadWorksMobilityMobileNetworkModifyRequest extends \CWM\BroadWorks
      * @Type int
      * @Nillable
      * @Optional
-     * @Group 6536ac9946b3d8422bec81ad9d995e2b:793
+     * @Group f7ae3539fd471e995b07dc1bf8836e2d:932
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $scfSignalingPort = null;
@@ -56,7 +56,7 @@ class SystemBroadWorksMobilityMobileNetworkModifyRequest extends \CWM\BroadWorks
      * @ElementName refreshPeriodSeconds
      * @Type int
      * @Optional
-     * @Group 6536ac9946b3d8422bec81ad9d995e2b:793
+     * @Group f7ae3539fd471e995b07dc1bf8836e2d:932
      * @var int|null
      */
     private $refreshPeriodSeconds = null;
@@ -65,7 +65,7 @@ class SystemBroadWorksMobilityMobileNetworkModifyRequest extends \CWM\BroadWorks
      * @ElementName maxConsecutiveFailures
      * @Type int
      * @Optional
-     * @Group 6536ac9946b3d8422bec81ad9d995e2b:793
+     * @Group f7ae3539fd471e995b07dc1bf8836e2d:932
      * @var int|null
      */
     private $maxConsecutiveFailures = null;
@@ -74,7 +74,7 @@ class SystemBroadWorksMobilityMobileNetworkModifyRequest extends \CWM\BroadWorks
      * @ElementName maxResponseWaitTimeMilliseconds
      * @Type int
      * @Optional
-     * @Group 6536ac9946b3d8422bec81ad9d995e2b:793
+     * @Group f7ae3539fd471e995b07dc1bf8836e2d:932
      * @var int|null
      */
     private $maxResponseWaitTimeMilliseconds = null;
@@ -83,7 +83,7 @@ class SystemBroadWorksMobilityMobileNetworkModifyRequest extends \CWM\BroadWorks
      * @ElementName enableAnnouncementSuppression
      * @Type bool
      * @Optional
-     * @Group 6536ac9946b3d8422bec81ad9d995e2b:793
+     * @Group f7ae3539fd471e995b07dc1bf8836e2d:932
      * @var bool|null
      */
     private $enableAnnouncementSuppression = null;
@@ -93,7 +93,7 @@ class SystemBroadWorksMobilityMobileNetworkModifyRequest extends \CWM\BroadWorks
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 6536ac9946b3d8422bec81ad9d995e2b:793
+     * @Group f7ae3539fd471e995b07dc1bf8836e2d:932
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $serviceAccessCodeListName = null;

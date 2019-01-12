@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserCallNotifyGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"023f6ec367b65a7f37f7a30e155f1985:176","type":"sequence"}]
+ * @Groups [{"id":"26f62134ab1693f4bdddc7c70b20d2eb:227","type":"sequence"}]
  */
 class UserCallNotifyGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserCallNotifyGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
     /**
      * @ElementName userId
      * @Type string
-     * @Group 023f6ec367b65a7f37f7a30e155f1985:176
+     * @Group 26f62134ab1693f4bdddc7c70b20d2eb:227
      * @var string|null
      */
     private $userId = null;

@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "Phone Number", "Extension", "Department", "Email Address".
  *
  * @see GroupCallPickupGetInstanceRequest
- * @Groups [{"id":"33d260a6ccad8df129f1531c1189d405:179","type":"sequence"}]
+ * @Groups [{"id":"045ce951b3e25dec090606af4ad50c63:339","type":"sequence"}]
  */
 class GroupCallPickupGetInstanceResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class GroupCallPickupGetInstanceResponse extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName userTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 33d260a6ccad8df129f1531c1189d405:179
+     * @Group 045ce951b3e25dec090606af4ad50c63:339
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $userTable = null;

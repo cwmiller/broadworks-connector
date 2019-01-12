@@ -14,7 +14,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemRouteListEnterpriseTrunkNumberPrefixGetSummaryListResponse
  * @see ErrorResponse
- * @Groups [{"id":"6c3e6c5ded8862d72e92e5d067442775:708","type":"sequence"}]
+ * @Groups [{"id":"3f28429898a57a7f7846d3877b22df9f:707","type":"sequence"}]
  */
 class SystemRouteListEnterpriseTrunkNumberPrefixGetSummaryListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -23,7 +23,7 @@ class SystemRouteListEnterpriseTrunkNumberPrefixGetSummaryListRequest extends \C
      * @ElementName resellerId
      * @Type string
      * @Optional
-     * @Group 6c3e6c5ded8862d72e92e5d067442775:708
+     * @Group 3f28429898a57a7f7846d3877b22df9f:707
      * @var string|null
      */
     private $resellerId = null;

@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"34994c501f2310387f7577dc8f9ec1e7:73","type":"sequence"}]
+ * @Groups [{"id":"23caf3c7f8f181bcb5b4719a3564ba94:73","type":"sequence"}]
  */
 class UserVoicePortalCallingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserVoicePortalCallingModifyRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName userId
      * @Type string
-     * @Group 34994c501f2310387f7577dc8f9ec1e7:73
+     * @Group 23caf3c7f8f181bcb5b4719a3564ba94:73
      * @var string|null
      */
     private $userId = null;
@@ -27,7 +27,7 @@ class UserVoicePortalCallingModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName isActive
      * @Type bool
      * @Optional
-     * @Group 34994c501f2310387f7577dc8f9ec1e7:73
+     * @Group 23caf3c7f8f181bcb5b4719a3564ba94:73
      * @var bool|null
      */
     private $isActive = null;

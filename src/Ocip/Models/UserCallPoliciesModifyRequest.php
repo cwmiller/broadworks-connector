@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"ee3830ce42f01a3ef2a105d473fc3b17:733","type":"sequence"}]
+ * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:810","type":"sequence"}]
  */
 class UserCallPoliciesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,7 +21,7 @@ class UserCallPoliciesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName userId
      * @Type string
-     * @Group ee3830ce42f01a3ef2a105d473fc3b17:733
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:810
      * @var string|null
      */
     private $userId = null;
@@ -30,7 +30,7 @@ class UserCallPoliciesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName redirectedCallsCOLPPrivacy
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ConnectedLineIdentificationPrivacyOnRedirectedCalls
      * @Optional
-     * @Group ee3830ce42f01a3ef2a105d473fc3b17:733
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:810
      * @var \CWM\BroadWorksConnector\Ocip\Models\ConnectedLineIdentificationPrivacyOnRedirectedCalls|null
      */
     private $redirectedCallsCOLPPrivacy = null;
@@ -39,7 +39,7 @@ class UserCallPoliciesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName callBeingForwardedResponseCallType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallBeingForwardedResponseCallType
      * @Optional
-     * @Group ee3830ce42f01a3ef2a105d473fc3b17:733
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:810
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallBeingForwardedResponseCallType|null
      */
     private $callBeingForwardedResponseCallType = null;
@@ -48,7 +48,7 @@ class UserCallPoliciesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName callingLineIdentityForRedirectedCalls
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallingLineIdentityForRedirectedCalls
      * @Optional
-     * @Group ee3830ce42f01a3ef2a105d473fc3b17:733
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:810
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallingLineIdentityForRedirectedCalls|null
      */
     private $callingLineIdentityForRedirectedCalls = null;

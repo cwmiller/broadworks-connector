@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "Hiragana First Name", "Phone Number", "Extension", "Department", "Email Address".
  *
  * @see GroupCallParkGetAvailableUserListRequest
- * @Groups [{"id":"bcea7a1f459e3e037da541b681a13f82:154","type":"sequence"}]
+ * @Groups [{"id":"7a925e891158dfa3cb1319e045608894:213","type":"sequence"}]
  */
 class GroupCallParkGetAvailableUserListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class GroupCallParkGetAvailableUserListResponse extends \CWM\BroadWorksConnector
     /**
      * @ElementName userTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group bcea7a1f459e3e037da541b681a13f82:154
+     * @Group 7a925e891158dfa3cb1319e045608894:213
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $userTable = null;

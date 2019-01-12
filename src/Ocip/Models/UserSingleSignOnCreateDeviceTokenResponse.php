@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to UserSingleSignOnCreateDeviceTokenRequest.
  *
  * @see UserSingleSignOnCreateDeviceTokenRequest
- * @Groups [{"id":"21fd3c6abc11c44e52803121f7739a76:610","type":"sequence"}]
+ * @Groups [{"id":"6b27fcc79475236456fc113a42b75543:665","type":"sequence"}]
  */
 class UserSingleSignOnCreateDeviceTokenResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class UserSingleSignOnCreateDeviceTokenResponse extends \CWM\BroadWorksConnector
     /**
      * @ElementName deviceToken
      * @Type string
-     * @Group 21fd3c6abc11c44e52803121f7739a76:610
+     * @Group 6b27fcc79475236456fc113a42b75543:665
      * @var string|null
      */
     private $deviceToken = null;

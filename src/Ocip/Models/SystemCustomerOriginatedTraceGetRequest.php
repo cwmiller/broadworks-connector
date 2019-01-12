@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemCustomerOriginatedTraceGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"4915e543002c33d10df7353b0c6ebf0a:44","type":"sequence"}]
+ * @Groups [{"id":"55636b88804490cf0ead7c9d4f44f28d:44","type":"sequence"}]
  */
 class SystemCustomerOriginatedTraceGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupAccessDeviceGetAvailableDetailListResponse19
  * @see ErrorResponse
- * @Groups [{"id":"15129cd25fa2d5581f4edfd652c24f93:551","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:557","type":"sequence"}]
  */
 class GroupAccessDeviceGetAvailableDetailListRequest19 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class GroupAccessDeviceGetAvailableDetailListRequest19 extends \CWM\BroadWorksCo
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 15129cd25fa2d5581f4edfd652c24f93:551
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:557
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -28,7 +28,7 @@ class GroupAccessDeviceGetAvailableDetailListRequest19 extends \CWM\BroadWorksCo
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 15129cd25fa2d5581f4edfd652c24f93:551
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:557
      * @var string|null
      */
     private $groupId = null;
@@ -36,7 +36,7 @@ class GroupAccessDeviceGetAvailableDetailListRequest19 extends \CWM\BroadWorksCo
     /**
      * @ElementName isMusicOnHold
      * @Type bool
-     * @Group 15129cd25fa2d5581f4edfd652c24f93:551
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:557
      * @var bool|null
      */
     private $isMusicOnHold = null;
@@ -44,7 +44,7 @@ class GroupAccessDeviceGetAvailableDetailListRequest19 extends \CWM\BroadWorksCo
     /**
      * @ElementName onlyVideoCapable
      * @Type bool
-     * @Group 15129cd25fa2d5581f4edfd652c24f93:551
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:557
      * @var bool|null
      */
     private $onlyVideoCapable = null;

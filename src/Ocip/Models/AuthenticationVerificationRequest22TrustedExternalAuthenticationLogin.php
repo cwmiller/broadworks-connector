@@ -5,7 +5,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * AuthenticationVerificationRequest22TrustedExternalAuthenticationLogin
  *
- * @Groups [{"id":"bd46fc427b2b0dc182dcd53cf03e95b4:88","type":"sequence"}]
+ * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:3916","type":"sequence"}]
  */
 class AuthenticationVerificationRequest22TrustedExternalAuthenticationLogin
 {
@@ -13,7 +13,7 @@ class AuthenticationVerificationRequest22TrustedExternalAuthenticationLogin
     /**
      * @ElementName userId
      * @Type string
-     * @Group bd46fc427b2b0dc182dcd53cf03e95b4:88
+     * @Group de4d76f01f337fe4694212ec9f771753:3916
      * @var string|null
      */
     private $userId = null;

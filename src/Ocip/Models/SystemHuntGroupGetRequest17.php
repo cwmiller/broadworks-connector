@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SystemHuntGroupGetResponse
  * @see ErrorResponse
  * @see SystemHuntGroupGetRequest21
- * @Groups [{"id":"bb12a3589ab4748963f28f7ac9310f70:3498","type":"sequence"}]
+ * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:3045","type":"sequence"}]
  */
 class SystemHuntGroupGetRequest17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

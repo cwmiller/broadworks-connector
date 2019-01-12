@@ -14,7 +14,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"e593fc1eb817b8da7ed0973006bf55c1:180","type":"sequence"}]
+ * @Groups [{"id":"6165f2b4cd549de71fe8f3171488fdd8:180","type":"sequence"}]
  */
 class UserPreAlertingAnnouncementAddCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -22,7 +22,7 @@ class UserPreAlertingAnnouncementAddCriteriaRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName userId
      * @Type string
-     * @Group e593fc1eb817b8da7ed0973006bf55c1:180
+     * @Group 6165f2b4cd549de71fe8f3171488fdd8:180
      * @var string|null
      */
     private $userId = null;
@@ -30,7 +30,7 @@ class UserPreAlertingAnnouncementAddCriteriaRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName criteriaName
      * @Type string
-     * @Group e593fc1eb817b8da7ed0973006bf55c1:180
+     * @Group 6165f2b4cd549de71fe8f3171488fdd8:180
      * @var string|null
      */
     private $criteriaName = null;
@@ -39,7 +39,7 @@ class UserPreAlertingAnnouncementAddCriteriaRequest extends \CWM\BroadWorksConne
      * @ElementName timeSchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule
      * @Optional
-     * @Group e593fc1eb817b8da7ed0973006bf55c1:180
+     * @Group 6165f2b4cd549de71fe8f3171488fdd8:180
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null
      */
     private $timeSchedule = null;
@@ -48,7 +48,7 @@ class UserPreAlertingAnnouncementAddCriteriaRequest extends \CWM\BroadWorksConne
      * @ElementName holidaySchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule
      * @Optional
-     * @Group e593fc1eb817b8da7ed0973006bf55c1:180
+     * @Group 6165f2b4cd549de71fe8f3171488fdd8:180
      * @var \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null
      */
     private $holidaySchedule = null;
@@ -56,7 +56,7 @@ class UserPreAlertingAnnouncementAddCriteriaRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName blacklisted
      * @Type bool
-     * @Group e593fc1eb817b8da7ed0973006bf55c1:180
+     * @Group 6165f2b4cd549de71fe8f3171488fdd8:180
      * @var bool|null
      */
     private $blacklisted = null;
@@ -64,7 +64,7 @@ class UserPreAlertingAnnouncementAddCriteriaRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName fromDnCriteria
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDn
-     * @Group e593fc1eb817b8da7ed0973006bf55c1:180
+     * @Group 6165f2b4cd549de71fe8f3171488fdd8:180
      * @var \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDn|null
      */
     private $fromDnCriteria = null;
@@ -74,7 +74,7 @@ class UserPreAlertingAnnouncementAddCriteriaRequest extends \CWM\BroadWorksConne
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallToNumber
      * @Array
      * @Optional
-     * @Group e593fc1eb817b8da7ed0973006bf55c1:180
+     * @Group 6165f2b4cd549de71fe8f3171488fdd8:180
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallToNumber[]
      */
     private $callToNumber = array(

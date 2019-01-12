@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * CommPilot Express Email Notify configuration used in the context of a get.
  *
- * @Groups [{"id":"cc98d71eafb1a94fd4bd31d597159369:177","type":"sequence"}]
+ * @Groups [{"id":"8c204d784d1904d9eeea996d46de69be:177","type":"sequence"}]
  */
 class CommPilotExpressEmailNotify
 {
@@ -15,7 +15,7 @@ class CommPilotExpressEmailNotify
     /**
      * @ElementName sendEmail
      * @Type bool
-     * @Group cc98d71eafb1a94fd4bd31d597159369:177
+     * @Group 8c204d784d1904d9eeea996d46de69be:177
      * @var bool|null
      */
     private $sendEmail = null;
@@ -24,7 +24,7 @@ class CommPilotExpressEmailNotify
      * @ElementName emailAddress
      * @Type string
      * @Optional
-     * @Group cc98d71eafb1a94fd4bd31d597159369:177
+     * @Group 8c204d784d1904d9eeea996d46de69be:177
      * @var string|null
      */
     private $emailAddress = null;

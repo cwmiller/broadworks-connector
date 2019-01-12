@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains a criteria table with column heading: "Is Active", "Criteria Name", "Time Schedule", "Holiday Schedule", "Calls From" and "Blacklisted".
  *
  * @see UserSimultaneousRingPersonalGetRequest17
- * @Groups [{"id":"40322112e72600d53590e48b9c64c76b:136","type":"sequence"}]
+ * @Groups [{"id":"f64c4e06b22d19cc74a21048a08a84c7:136","type":"sequence"}]
  */
 class UserSimultaneousRingPersonalGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class UserSimultaneousRingPersonalGetResponse17 extends \CWM\BroadWorksConnector
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group 40322112e72600d53590e48b9c64c76b:136
+     * @Group f64c4e06b22d19cc74a21048a08a84c7:136
      * @var bool|null
      */
     private $isActive = null;
@@ -25,7 +25,7 @@ class UserSimultaneousRingPersonalGetResponse17 extends \CWM\BroadWorksConnector
     /**
      * @ElementName doNotRingIfOnCall
      * @Type bool
-     * @Group 40322112e72600d53590e48b9c64c76b:136
+     * @Group f64c4e06b22d19cc74a21048a08a84c7:136
      * @var bool|null
      */
     private $doNotRingIfOnCall = null;
@@ -35,7 +35,7 @@ class UserSimultaneousRingPersonalGetResponse17 extends \CWM\BroadWorksConnector
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SimultaneousRingNumber
      * @Array
      * @Optional
-     * @Group 40322112e72600d53590e48b9c64c76b:136
+     * @Group f64c4e06b22d19cc74a21048a08a84c7:136
      * @var \CWM\BroadWorksConnector\Ocip\Models\SimultaneousRingNumber[]
      */
     private $simultaneousRingNumber = array(
@@ -45,7 +45,7 @@ class UserSimultaneousRingPersonalGetResponse17 extends \CWM\BroadWorksConnector
     /**
      * @ElementName criteriaTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 40322112e72600d53590e48b9c64c76b:136
+     * @Group f64c4e06b22d19cc74a21048a08a84c7:136
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $criteriaTable = null;

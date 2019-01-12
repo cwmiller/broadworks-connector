@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupHuntGroupGetInstanceListResponse
  * @see ErrorResponse
- * @Groups [{"id":"d2335c48b6d8782665775efb0f9c879e:285","type":"sequence"}]
+ * @Groups [{"id":"bc829065f9d696d3ca7084121d57f8c0:345","type":"sequence"}]
  */
 class GroupHuntGroupGetInstanceListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class GroupHuntGroupGetInstanceListRequest extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group d2335c48b6d8782665775efb0f9c879e:285
+     * @Group bc829065f9d696d3ca7084121d57f8c0:345
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,7 +27,7 @@ class GroupHuntGroupGetInstanceListRequest extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName groupId
      * @Type string
-     * @Group d2335c48b6d8782665775efb0f9c879e:285
+     * @Group bc829065f9d696d3ca7084121d57f8c0:345
      * @var string|null
      */
     private $groupId = null;
@@ -36,7 +36,7 @@ class GroupHuntGroupGetInstanceListRequest extends \CWM\BroadWorksConnector\Ocip
      * @ElementName groupDepartmentName
      * @Type string
      * @Optional
-     * @Group d2335c48b6d8782665775efb0f9c879e:285
+     * @Group bc829065f9d696d3ca7084121d57f8c0:345
      * @var string|null
      */
     private $groupDepartmentName = null;

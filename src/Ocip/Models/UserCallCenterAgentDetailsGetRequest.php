@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserCallCenterAgentDetailsGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"3ac5f05d969bc771d6ba8d344d95aa72:5945","type":"sequence"}]
+ * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:6566","type":"sequence"}]
  */
 class UserCallCenterAgentDetailsGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class UserCallCenterAgentDetailsGetRequest extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName agentUserId
      * @Type string
-     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:5945
+     * @Group e2c537e3e39483b96620673a7012ffdd:6566
      * @var string|null
      */
     private $agentUserId = null;

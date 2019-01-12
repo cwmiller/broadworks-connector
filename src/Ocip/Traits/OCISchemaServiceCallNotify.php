@@ -2,6 +2,9 @@
 
 namespace CWM\BroadWorksConnector\Ocip\Traits;
 
+use CWM\BroadWorksConnector\Ocip\Models\ResellerCallNotifyGetRequest;
+use CWM\BroadWorksConnector\Ocip\Models\ResellerCallNotifyGetResponse;
+use CWM\BroadWorksConnector\Ocip\Models\ResellerCallNotifyModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemCallNotifyGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemCallNotifyGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\SystemCallNotifyModifyRequest;
@@ -19,6 +22,28 @@ use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceCallNotify
 {
+
+    /**
+     * @param ResellerCallNotifyGetRequest $request
+     * @return ResellerCallNotifyGetResponse
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function resellerCallNotifyGetRequest(\CWM\BroadWorksConnector\Ocip\Models\ResellerCallNotifyGetRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param ResellerCallNotifyModifyRequest $request
+     * @return SuccessResponse
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function resellerCallNotifyModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\ResellerCallNotifyModifyRequest $request)
+    {
+        return $this->call($request);
+    }
 
     /**
      * @param SystemCallNotifyGetRequest $request

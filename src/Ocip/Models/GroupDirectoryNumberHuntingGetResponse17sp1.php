@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "Phone Number", "Extension", "Department", "Email Address".
  *
  * @see GroupDirectoryNumberHuntingGetRequest
- * @Groups [{"id":"62dd97d230d4f161d47e3a5eb26e7b7d:102","type":"sequence"}]
+ * @Groups [{"id":"7c509136e6ce6be616e313c3b28a0449:102","type":"sequence"}]
  */
 class GroupDirectoryNumberHuntingGetResponse17sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,7 +19,7 @@ class GroupDirectoryNumberHuntingGetResponse17sp1 extends \CWM\BroadWorksConnect
     /**
      * @ElementName agentUserTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 62dd97d230d4f161d47e3a5eb26e7b7d:102
+     * @Group 7c509136e6ce6be616e313c3b28a0449:102
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $agentUserTable = null;
@@ -27,7 +27,7 @@ class GroupDirectoryNumberHuntingGetResponse17sp1 extends \CWM\BroadWorksConnect
     /**
      * @ElementName useTerminateCallToAgentFirst
      * @Type bool
-     * @Group 62dd97d230d4f161d47e3a5eb26e7b7d:102
+     * @Group 7c509136e6ce6be616e313c3b28a0449:102
      * @var bool|null
      */
     private $useTerminateCallToAgentFirst = null;
@@ -35,7 +35,7 @@ class GroupDirectoryNumberHuntingGetResponse17sp1 extends \CWM\BroadWorksConnect
     /**
      * @ElementName useOriginalAgentServicesForBusyAndNoAnswerCalls
      * @Type bool
-     * @Group 62dd97d230d4f161d47e3a5eb26e7b7d:102
+     * @Group 7c509136e6ce6be616e313c3b28a0449:102
      * @var bool|null
      */
     private $useOriginalAgentServicesForBusyAndNoAnswerCalls = null;

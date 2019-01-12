@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains the system number activation and enterprise trunk number range activation setting.
  *
  * @see SystemNumberActivationGetRequest21
- * @Groups [{"id":"b5f5416d9e71f8e4246cda16c4723744:11248","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:11439","type":"sequence"}]
  */
 class SystemNumberActivationGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class SystemNumberActivationGetResponse21 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName numberActivationMode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\NumberActivationMode
-     * @Group b5f5416d9e71f8e4246cda16c4723744:11248
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11439
      * @var \CWM\BroadWorksConnector\Ocip\Models\NumberActivationMode|null
      */
     private $numberActivationMode = null;
@@ -25,7 +25,7 @@ class SystemNumberActivationGetResponse21 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName enableEnterpriseTrunkNumberRangeActivation
      * @Type bool
-     * @Group b5f5416d9e71f8e4246cda16c4723744:11248
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11439
      * @var bool|null
      */
     private $enableEnterpriseTrunkNumberRangeActivation = null;

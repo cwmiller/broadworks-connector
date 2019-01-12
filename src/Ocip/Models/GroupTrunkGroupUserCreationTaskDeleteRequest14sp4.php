@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"762df656d5a3c5800001b37599b1e4ce:1403","type":"sequence"}]
+ * @Groups [{"id":"b9c14e2d80e4e7749688ca13ba233b44:1403","type":"sequence"}]
  */
 class GroupTrunkGroupUserCreationTaskDeleteRequest14sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupTrunkGroupUserCreationTaskDeleteRequest14sp4 extends \CWM\BroadWorksC
     /**
      * @ElementName trunkGroupKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey
-     * @Group 762df656d5a3c5800001b37599b1e4ce:1403
+     * @Group b9c14e2d80e4e7749688ca13ba233b44:1403
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey|null
      */
     private $trunkGroupKey = null;
@@ -26,7 +26,7 @@ class GroupTrunkGroupUserCreationTaskDeleteRequest14sp4 extends \CWM\BroadWorksC
     /**
      * @ElementName taskName
      * @Type string
-     * @Group 762df656d5a3c5800001b37599b1e4ce:1403
+     * @Group b9c14e2d80e4e7749688ca13ba233b44:1403
      * @var string|null
      */
     private $taskName = null;

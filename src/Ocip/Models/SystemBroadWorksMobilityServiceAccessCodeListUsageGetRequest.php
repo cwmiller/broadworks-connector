@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemBroadWorksMobilityServiceAccessCodeListUsageGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"6536ac9946b3d8422bec81ad9d995e2b:1040","type":"sequence"}]
+ * @Groups [{"id":"f7ae3539fd471e995b07dc1bf8836e2d:1183","type":"sequence"}]
  */
 class SystemBroadWorksMobilityServiceAccessCodeListUsageGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemBroadWorksMobilityServiceAccessCodeListUsageGetRequest extends \CWM\
     /**
      * @ElementName serviceAccessCodeListName
      * @Type string
-     * @Group 6536ac9946b3d8422bec81ad9d995e2b:1040
+     * @Group f7ae3539fd471e995b07dc1bf8836e2d:1183
      * @var string|null
      */
     private $serviceAccessCodeListName = null;

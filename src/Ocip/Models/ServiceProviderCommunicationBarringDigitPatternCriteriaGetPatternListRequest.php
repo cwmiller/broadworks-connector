@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see ServiceProviderCommunicationBarringDigitPatternCriteriaGetPatternListResponse
  * @see ErrorResponse
- * @Groups [{"id":"8eb862aea0ee5d4211db0a0d3fe7c164:1549","type":"sequence"}]
+ * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:1608","type":"sequence"}]
  */
 class ServiceProviderCommunicationBarringDigitPatternCriteriaGetPatternListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class ServiceProviderCommunicationBarringDigitPatternCriteriaGetPatternListReque
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:1549
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1608
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,7 +26,7 @@ class ServiceProviderCommunicationBarringDigitPatternCriteriaGetPatternListReque
     /**
      * @ElementName name
      * @Type string
-     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:1549
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1608
      * @var string|null
      */
     private $name = null;
@@ -35,7 +35,7 @@ class ServiceProviderCommunicationBarringDigitPatternCriteriaGetPatternListReque
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:1549
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1608
      * @var int|null
      */
     private $responseSizeLimit = null;
@@ -45,7 +45,7 @@ class ServiceProviderCommunicationBarringDigitPatternCriteriaGetPatternListReque
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDigitPattern
      * @Array
      * @Optional
-     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:1549
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1608
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDigitPattern[]
      */
     private $searchCriteriaDigitPattern = array(

@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserPortalPasscodeRulesGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"ee3830ce42f01a3ef2a105d473fc3b17:2719","type":"choice","children":[{"id":"ee3830ce42f01a3ef2a105d473fc3b17:2720","type":"sequence"},{"id":"ee3830ce42f01a3ef2a105d473fc3b17:2723","type":"sequence"}]}]
+ * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:3058","type":"choice","children":[{"id":"53d18cc797d03d802cbc411ad821f1d4:3059","type":"sequence"},{"id":"53d18cc797d03d802cbc411ad821f1d4:3062","type":"sequence"}]}]
  */
 class UserPortalPasscodeRulesGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserPortalPasscodeRulesGetRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName userId
      * @Type string
-     * @Group ee3830ce42f01a3ef2a105d473fc3b17:2720
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:3059
      * @var string|null
      */
     private $userId = null;
@@ -26,7 +26,7 @@ class UserPortalPasscodeRulesGetRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group ee3830ce42f01a3ef2a105d473fc3b17:2723
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:3062
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -34,7 +34,7 @@ class UserPortalPasscodeRulesGetRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName groupId
      * @Type string
-     * @Group ee3830ce42f01a3ef2a105d473fc3b17:2723
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:3062
      * @var string|null
      */
     private $groupId = null;

@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemCallingPartyCategoryGetListResponse
  * @see ErrorResponse
- * @Groups [{"id":"c856d5d86d5da482525eb01056f273da:89","type":"sequence"}]
+ * @Groups [{"id":"89aa8c9a341a3cccb2453b1ee467bf94:89","type":"sequence"}]
  */
 class SystemCallingPartyCategoryGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

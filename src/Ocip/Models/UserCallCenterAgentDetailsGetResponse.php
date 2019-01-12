@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains the detail information for a Call Center Agent.
  *
  * @see UserCallCenterAgentDetailsGetRequest
- * @Groups [{"id":"3ac5f05d969bc771d6ba8d344d95aa72:5961","type":"sequence"}]
+ * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:6582","type":"sequence"}]
  */
 class UserCallCenterAgentDetailsGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class UserCallCenterAgentDetailsGetResponse extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName isCallCenterBasicAssigned
      * @Type bool
-     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:5961
+     * @Group e2c537e3e39483b96620673a7012ffdd:6582
      * @var bool|null
      */
     private $isCallCenterBasicAssigned = null;
@@ -25,7 +25,7 @@ class UserCallCenterAgentDetailsGetResponse extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName isCallCenterStandardAssigned
      * @Type bool
-     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:5961
+     * @Group e2c537e3e39483b96620673a7012ffdd:6582
      * @var bool|null
      */
     private $isCallCenterStandardAssigned = null;
@@ -33,7 +33,7 @@ class UserCallCenterAgentDetailsGetResponse extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName isCallCenterPremiumAssigned
      * @Type bool
-     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:5961
+     * @Group e2c537e3e39483b96620673a7012ffdd:6582
      * @var bool|null
      */
     private $isCallCenterPremiumAssigned = null;

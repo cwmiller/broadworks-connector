@@ -7,10 +7,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Get the list of groups currently associated to the specified Call Recording platform.
  *         The response is either SystemCallRecordingGetPlatformUsageResponse or ErrorResponse.
+ * 		
+ * 		Replaced by SystemCallRecordingGetPlatformUsageRequest22 in AS data mode.
  *
  * @see SystemCallRecordingGetPlatformUsageResponse
  * @see ErrorResponse
- * @Groups [{"id":"f913e539ecbb63cf455f6c316963b896:178","type":"sequence"}]
+ * @see SystemCallRecordingGetPlatformUsageRequest22
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:40161","type":"sequence"}]
  */
 class SystemCallRecordingGetPlatformUsageRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +21,7 @@ class SystemCallRecordingGetPlatformUsageRequest extends \CWM\BroadWorksConnecto
     /**
      * @ElementName name
      * @Type string
-     * @Group f913e539ecbb63cf455f6c316963b896:178
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:40161
      * @var string|null
      */
     private $name = null;

@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         
  *         The callingLineIdPhoneNumber is no longer being formatted for display purpose. The value is returned exactly the same as being stored.
  *
- * @Groups [{"id":"8e629edbac315ae7889caca732382c44:3266","type":"sequence"}]
+ * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:3578","type":"sequence"}]
  */
 class ServiceInstanceReadProfile19sp1
 {
@@ -17,7 +17,7 @@ class ServiceInstanceReadProfile19sp1
     /**
      * @ElementName name
      * @Type string
-     * @Group 8e629edbac315ae7889caca732382c44:3266
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:3578
      * @var string|null
      */
     private $name = null;
@@ -25,7 +25,7 @@ class ServiceInstanceReadProfile19sp1
     /**
      * @ElementName callingLineIdLastName
      * @Type string
-     * @Group 8e629edbac315ae7889caca732382c44:3266
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:3578
      * @var string|null
      */
     private $callingLineIdLastName = null;
@@ -33,7 +33,7 @@ class ServiceInstanceReadProfile19sp1
     /**
      * @ElementName callingLineIdFirstName
      * @Type string
-     * @Group 8e629edbac315ae7889caca732382c44:3266
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:3578
      * @var string|null
      */
     private $callingLineIdFirstName = null;
@@ -42,7 +42,7 @@ class ServiceInstanceReadProfile19sp1
      * @ElementName hiraganaLastName
      * @Type string
      * @Optional
-     * @Group 8e629edbac315ae7889caca732382c44:3266
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:3578
      * @var string|null
      */
     private $hiraganaLastName = null;
@@ -51,7 +51,7 @@ class ServiceInstanceReadProfile19sp1
      * @ElementName hiraganaFirstName
      * @Type string
      * @Optional
-     * @Group 8e629edbac315ae7889caca732382c44:3266
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:3578
      * @var string|null
      */
     private $hiraganaFirstName = null;
@@ -60,7 +60,7 @@ class ServiceInstanceReadProfile19sp1
      * @ElementName phoneNumber
      * @Type string
      * @Optional
-     * @Group 8e629edbac315ae7889caca732382c44:3266
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:3578
      * @var string|null
      */
     private $phoneNumber = null;
@@ -69,7 +69,7 @@ class ServiceInstanceReadProfile19sp1
      * @ElementName extension
      * @Type string
      * @Optional
-     * @Group 8e629edbac315ae7889caca732382c44:3266
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:3578
      * @var string|null
      */
     private $extension = null;
@@ -78,7 +78,7 @@ class ServiceInstanceReadProfile19sp1
      * @ElementName countryCode
      * @Type string
      * @Optional
-     * @Group 8e629edbac315ae7889caca732382c44:3266
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:3578
      * @var string|null
      */
     private $countryCode = null;
@@ -87,7 +87,7 @@ class ServiceInstanceReadProfile19sp1
      * @ElementName nationalPrefix
      * @Type string
      * @Optional
-     * @Group 8e629edbac315ae7889caca732382c44:3266
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:3578
      * @var string|null
      */
     private $nationalPrefix = null;
@@ -96,7 +96,7 @@ class ServiceInstanceReadProfile19sp1
      * @ElementName department
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey
      * @Optional
-     * @Group 8e629edbac315ae7889caca732382c44:3266
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:3578
      * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null
      */
     private $department = null;
@@ -105,7 +105,7 @@ class ServiceInstanceReadProfile19sp1
      * @ElementName language
      * @Type string
      * @Optional
-     * @Group 8e629edbac315ae7889caca732382c44:3266
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:3578
      * @var string|null
      */
     private $language = null;
@@ -114,7 +114,7 @@ class ServiceInstanceReadProfile19sp1
      * @ElementName timeZone
      * @Type string
      * @Optional
-     * @Group 8e629edbac315ae7889caca732382c44:3266
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:3578
      * @var string|null
      */
     private $timeZone = null;
@@ -123,7 +123,7 @@ class ServiceInstanceReadProfile19sp1
      * @ElementName timeZoneDisplayName
      * @Type string
      * @Optional
-     * @Group 8e629edbac315ae7889caca732382c44:3266
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:3578
      * @var string|null
      */
     private $timeZoneDisplayName = null;
@@ -133,7 +133,7 @@ class ServiceInstanceReadProfile19sp1
      * @Type string
      * @Array
      * @Optional
-     * @Group 8e629edbac315ae7889caca732382c44:3266
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:3578
      * @var string[]
      */
     private $alias = array(
@@ -144,7 +144,7 @@ class ServiceInstanceReadProfile19sp1
      * @ElementName publicUserIdentity
      * @Type string
      * @Optional
-     * @Group 8e629edbac315ae7889caca732382c44:3266
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:3578
      * @var string|null
      */
     private $publicUserIdentity = null;
@@ -153,7 +153,7 @@ class ServiceInstanceReadProfile19sp1
      * @ElementName callingLineIdPhoneNumber
      * @Type string
      * @Optional
-     * @Group 8e629edbac315ae7889caca732382c44:3266
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:3578
      * @var string|null
      */
     private $callingLineIdPhoneNumber = null;

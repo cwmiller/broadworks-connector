@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemGroupNightForwardingGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"7aa3724e3d252a8e4882cf2fcd9d3961:103","type":"sequence"}]
+ * @Groups [{"id":"1a3849774e8d2ffd90c3a2c57cbdd7a0:103","type":"sequence"}]
  */
 class SystemGroupNightForwardingGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see EnterpriseDepartmentGetListResponse
  * @see ErrorResponse
- * @Groups [{"id":"889c8c305076ef39cc50c70d0c2dc820:707","type":"sequence"}]
+ * @Groups [{"id":"5395c7df0157d44aa22f3351d1a5f3da:707","type":"sequence"}]
  */
 class EnterpriseDepartmentGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,7 +21,7 @@ class EnterpriseDepartmentGetListRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName enterpriseId
      * @Type string
-     * @Group 889c8c305076ef39cc50c70d0c2dc820:707
+     * @Group 5395c7df0157d44aa22f3351d1a5f3da:707
      * @var string|null
      */
     private $enterpriseId = null;
@@ -29,7 +29,7 @@ class EnterpriseDepartmentGetListRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName includeGroupDepartments
      * @Type bool
-     * @Group 889c8c305076ef39cc50c70d0c2dc820:707
+     * @Group 5395c7df0157d44aa22f3351d1a5f3da:707
      * @var bool|null
      */
     private $includeGroupDepartments = null;

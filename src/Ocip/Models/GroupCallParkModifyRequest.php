@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"bcea7a1f459e3e037da541b681a13f82:302","type":"sequence"}]
+ * @Groups [{"id":"7a925e891158dfa3cb1319e045608894:519","type":"sequence"}]
  */
 class GroupCallParkModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupCallParkModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group bcea7a1f459e3e037da541b681a13f82:302
+     * @Group 7a925e891158dfa3cb1319e045608894:519
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,7 +26,7 @@ class GroupCallParkModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * @ElementName groupId
      * @Type string
-     * @Group bcea7a1f459e3e037da541b681a13f82:302
+     * @Group 7a925e891158dfa3cb1319e045608894:519
      * @var string|null
      */
     private $groupId = null;
@@ -35,7 +35,7 @@ class GroupCallParkModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @ElementName recallTimerSeconds
      * @Type int
      * @Optional
-     * @Group bcea7a1f459e3e037da541b681a13f82:302
+     * @Group 7a925e891158dfa3cb1319e045608894:519
      * @var int|null
      */
     private $recallTimerSeconds = null;
@@ -44,7 +44,7 @@ class GroupCallParkModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @ElementName displayTimerSeconds
      * @Type int
      * @Optional
-     * @Group bcea7a1f459e3e037da541b681a13f82:302
+     * @Group 7a925e891158dfa3cb1319e045608894:519
      * @var int|null
      */
     private $displayTimerSeconds = null;
@@ -53,7 +53,7 @@ class GroupCallParkModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @ElementName enableDestinationAnnouncement
      * @Type bool
      * @Optional
-     * @Group bcea7a1f459e3e037da541b681a13f82:302
+     * @Group 7a925e891158dfa3cb1319e045608894:519
      * @var bool|null
      */
     private $enableDestinationAnnouncement = null;
@@ -63,7 +63,7 @@ class GroupCallParkModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @Type string
      * @Nillable
      * @Optional
-     * @Group bcea7a1f459e3e037da541b681a13f82:302
+     * @Group 7a925e891158dfa3cb1319e045608894:519
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $recallAlternateUserId = null;
@@ -72,7 +72,7 @@ class GroupCallParkModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @ElementName recallRingPattern
      * @Type \CWM\BroadWorksConnector\Ocip\Models\RingPattern
      * @Optional
-     * @Group bcea7a1f459e3e037da541b681a13f82:302
+     * @Group 7a925e891158dfa3cb1319e045608894:519
      * @var \CWM\BroadWorksConnector\Ocip\Models\RingPattern|null
      */
     private $recallRingPattern = null;
@@ -81,7 +81,7 @@ class GroupCallParkModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @ElementName recallTo
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallParkRecallTo
      * @Optional
-     * @Group bcea7a1f459e3e037da541b681a13f82:302
+     * @Group 7a925e891158dfa3cb1319e045608894:519
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallParkRecallTo|null
      */
     private $recallTo = null;
@@ -90,7 +90,7 @@ class GroupCallParkModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @ElementName alternateUserRecallTimerSeconds
      * @Type int
      * @Optional
-     * @Group bcea7a1f459e3e037da541b681a13f82:302
+     * @Group 7a925e891158dfa3cb1319e045608894:519
      * @var int|null
      */
     private $alternateUserRecallTimerSeconds = null;

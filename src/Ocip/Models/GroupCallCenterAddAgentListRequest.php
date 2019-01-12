@@ -8,10 +8,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Add agent(s) to a call center.
  *         The response is either SuccessResponse or ErrorResponse.
  *         If the skill level is not present for skill based premium call centers, the users will be set to skill level 1.
+ *         
+ *         The following element is only used in AS data mode and ignored in XS data mode:
+ *           agentSkillList
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"3ac5f05d969bc771d6ba8d344d95aa72:1776","type":"sequence","children":[{"id":"3ac5f05d969bc771d6ba8d344d95aa72:1778","type":"choice"}]}]
+ * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:1947","type":"sequence","children":[{"id":"e2c537e3e39483b96620673a7012ffdd:1949","type":"choice"}]}]
  */
 class GroupCallCenterAddAgentListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +22,7 @@ class GroupCallCenterAddAgentListRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:1776
+     * @Group e2c537e3e39483b96620673a7012ffdd:1947
      * @var string|null
      */
     private $serviceUserId = null;
@@ -28,7 +31,7 @@ class GroupCallCenterAddAgentListRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName agentUserId
      * @Type string
      * @Array
-     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:1778
+     * @Group e2c537e3e39483b96620673a7012ffdd:1949
      * @var string[]
      */
     private $agentUserId = array(
@@ -39,7 +42,7 @@ class GroupCallCenterAddAgentListRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName agentSkillList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterSkillAgentList
      * @Array
-     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:1778
+     * @Group e2c537e3e39483b96620673a7012ffdd:1949
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterSkillAgentList[]
      */
     private $agentSkillList = array(

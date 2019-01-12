@@ -34,14 +34,14 @@ use CWM\BroadWorksConnector\Ocip\Models\GroupEnterpriseTrunkGetResponse21;
 use CWM\BroadWorksConnector\Ocip\Models\GroupEnterpriseTrunkGetUserListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupEnterpriseTrunkGetUserListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupEnterpriseTrunkModifyRequest;
-use CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupAddInstanceRequest21;
+use CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupAddInstanceRequest22;
 use CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupDeleteInstanceRequest14sp4;
 use CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupGetAvailableHostedUserListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupGetAvailableHostedUserListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupGetInstanceListRequest14sp4;
 use CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupGetInstanceListResponse14sp4;
-use CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupGetInstanceRequest21;
-use CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupGetInstanceResponse21;
+use CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupGetInstanceRequest23;
+use CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupGetInstanceResponse23;
 use CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupGetInstanceUserListRequest14sp4;
 use CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupGetInstanceUserListResponse14sp4;
 use CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupGetRequest14sp9;
@@ -58,8 +58,8 @@ use CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupUserCreationTaskGetRespon
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderTrunkGroupGetRequest14sp1;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderTrunkGroupGetResponse14sp1;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderTrunkGroupModifyRequest;
-use CWM\BroadWorksConnector\Ocip\Models\SystemTrunkGroupGetRequest22;
-use CWM\BroadWorksConnector\Ocip\Models\SystemTrunkGroupGetResponse22;
+use CWM\BroadWorksConnector\Ocip\Models\SystemTrunkGroupGetRequest23;
+use CWM\BroadWorksConnector\Ocip\Models\SystemTrunkGroupGetResponse23;
 use CWM\BroadWorksConnector\Ocip\Models\SystemTrunkGroupModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemTrunkGroupOptionsMessageResponseStatusCodeAddListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemTrunkGroupOptionsMessageResponseStatusCodeDeleteListRequest;
@@ -317,12 +317,12 @@ trait OCISchemaServiceTrunkGroup
     }
 
     /**
-     * @param GroupTrunkGroupAddInstanceRequest21 $request
+     * @param GroupTrunkGroupAddInstanceRequest22 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function groupTrunkGroupAddInstanceRequest21(\CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupAddInstanceRequest21 $request)
+    public function groupTrunkGroupAddInstanceRequest22(\CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupAddInstanceRequest22 $request)
     {
         return $this->call($request);
     }
@@ -361,12 +361,12 @@ trait OCISchemaServiceTrunkGroup
     }
 
     /**
-     * @param GroupTrunkGroupGetInstanceRequest21 $request
-     * @return GroupTrunkGroupGetInstanceResponse21
+     * @param GroupTrunkGroupGetInstanceRequest23 $request
+     * @return GroupTrunkGroupGetInstanceResponse23
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function groupTrunkGroupGetInstanceRequest21(\CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupGetInstanceRequest21 $request)
+    public function groupTrunkGroupGetInstanceRequest23(\CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupGetInstanceRequest23 $request)
     {
         return $this->call($request);
     }
@@ -493,12 +493,12 @@ trait OCISchemaServiceTrunkGroup
     }
 
     /**
-     * @param SystemTrunkGroupGetRequest22 $request
-     * @return SystemTrunkGroupGetResponse22
+     * @param SystemTrunkGroupGetRequest23 $request
+     * @return SystemTrunkGroupGetResponse23
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function systemTrunkGroupGetRequest22(\CWM\BroadWorksConnector\Ocip\Models\SystemTrunkGroupGetRequest22 $request)
+    public function systemTrunkGroupGetRequest23(\CWM\BroadWorksConnector\Ocip\Models\SystemTrunkGroupGetRequest23 $request)
     {
         return $this->call($request);
     }

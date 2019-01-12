@@ -9,13 +9,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         See Also: SystemDeviceTypeGetRequest
  *         The response is either SystemSIPDeviceTypeGetResponse22 or ErrorResponse.
  *         
- *         Replaced by: SystemSIPDeviceTypeGetRequest22V2
+ *         Deprecated by: SystemSIPDeviceTypeGetRequest22V2
  *
  * @see SystemDeviceTypeGetRequest
  * @see SystemSIPDeviceTypeGetResponse22
  * @see ErrorResponse
  * @see SystemSIPDeviceTypeGetRequest22V2
- * @Groups [{"id":"bd46fc427b2b0dc182dcd53cf03e95b4:1107","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:37957","type":"sequence"}]
  */
 class SystemSIPDeviceTypeGetRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -23,7 +23,7 @@ class SystemSIPDeviceTypeGetRequest22 extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName deviceType
      * @Type string
-     * @Group bd46fc427b2b0dc182dcd53cf03e95b4:1107
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:37957
      * @var string|null
      */
     private $deviceType = null;

@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserSequentialRingGetCriteriaResponse
  * @see ErrorResponse
- * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:36967","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:11489","type":"sequence"}]
  */
 class UserSequentialRingGetCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserSequentialRingGetCriteriaRequest extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName userId
      * @Type string
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:36967
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:11489
      * @var string|null
      */
     private $userId = null;
@@ -26,7 +26,7 @@ class UserSequentialRingGetCriteriaRequest extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName criteriaName
      * @Type string
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:36967
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:11489
      * @var string|null
      */
     private $criteriaName = null;

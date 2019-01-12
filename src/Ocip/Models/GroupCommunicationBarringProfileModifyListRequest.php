@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"15129cd25fa2d5581f4edfd652c24f93:2386","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:2565","type":"sequence"}]
  */
 class GroupCommunicationBarringProfileModifyListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class GroupCommunicationBarringProfileModifyListRequest extends \CWM\BroadWorksC
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 15129cd25fa2d5581f4edfd652c24f93:2386
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:2565
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,7 +27,7 @@ class GroupCommunicationBarringProfileModifyListRequest extends \CWM\BroadWorksC
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 15129cd25fa2d5581f4edfd652c24f93:2386
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:2565
      * @var string|null
      */
     private $groupId = null;
@@ -37,7 +37,7 @@ class GroupCommunicationBarringProfileModifyListRequest extends \CWM\BroadWorksC
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringProfileReplacementList
      * @Nillable
      * @Optional
-     * @Group 15129cd25fa2d5581f4edfd652c24f93:2386
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:2565
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringProfileReplacementList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $profileName = null;

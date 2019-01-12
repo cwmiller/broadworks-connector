@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see userPersonalAssistantExclusionNumberGetListResponse
  * @see ErrorResponse
- * @Groups [{"id":"f04e7de96ed87c401bee5b5d2e80ccd3:214","type":"sequence"}]
+ * @Groups [{"id":"f53ece1c00394ef2d3d76f532f9a9663:214","type":"sequence"}]
  */
 class UserPersonalAssistantExclusionNumberGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserPersonalAssistantExclusionNumberGetListRequest extends \CWM\BroadWorks
     /**
      * @ElementName userId
      * @Type string
-     * @Group f04e7de96ed87c401bee5b5d2e80ccd3:214
+     * @Group f53ece1c00394ef2d3d76f532f9a9663:214
      * @var string|null
      */
     private $userId = null;
@@ -28,7 +28,7 @@ class UserPersonalAssistantExclusionNumberGetListRequest extends \CWM\BroadWorks
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaPersonalAssistantExclusionNumber
      * @Array
      * @Optional
-     * @Group f04e7de96ed87c401bee5b5d2e80ccd3:214
+     * @Group f53ece1c00394ef2d3d76f532f9a9663:214
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaPersonalAssistantExclusionNumber[]
      */
     private $searchCriteriaPersonalAssistantExclusionNumber = array(
@@ -40,7 +40,7 @@ class UserPersonalAssistantExclusionNumberGetListRequest extends \CWM\BroadWorks
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaPersonalAssistantExclusionNumberDescription
      * @Array
      * @Optional
-     * @Group f04e7de96ed87c401bee5b5d2e80ccd3:214
+     * @Group f53ece1c00394ef2d3d76f532f9a9663:214
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaPersonalAssistantExclusionNumberDescription[]
      */
     private $searchCriteriaPersonalAssistantExclusionNumberDescription = array(
@@ -51,7 +51,7 @@ class UserPersonalAssistantExclusionNumberGetListRequest extends \CWM\BroadWorks
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group f04e7de96ed87c401bee5b5d2e80ccd3:214
+     * @Group f53ece1c00394ef2d3d76f532f9a9663:214
      * @var int|null
      */
     private $responseSizeLimit = null;

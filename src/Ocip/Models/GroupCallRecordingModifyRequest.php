@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f913e539ecbb63cf455f6c316963b896:83","type":"sequence"}]
+ * @Groups [{"id":"9741e074fbfeb4c7312bfa4dfbaee3d3:83","type":"sequence"}]
  */
 class GroupCallRecordingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupCallRecordingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f913e539ecbb63cf455f6c316963b896:83
+     * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:83
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,7 +26,7 @@ class GroupCallRecordingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f913e539ecbb63cf455f6c316963b896:83
+     * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:83
      * @var string|null
      */
     private $groupId = null;
@@ -35,7 +35,7 @@ class GroupCallRecordingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName name
      * @Type string
      * @Optional
-     * @Group f913e539ecbb63cf455f6c316963b896:83
+     * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:83
      * @var string|null
      */
     private $name = null;

@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Service Provider Communication Barring Hierarchical Redirecting Rule
  *
- * @Groups [{"id":"8e629edbac315ae7889caca732382c44:3359","type":"sequence","children":[{"id":"8e629edbac315ae7889caca732382c44:3360","type":"choice"}]}]
+ * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:3671","type":"sequence","children":[{"id":"c0d21ef9ba207c335d8347e5172fce1d:3672","type":"choice"}]}]
  */
 class ServiceProviderCommunicationBarringHierarchicalRedirectingRule
 {
@@ -15,7 +15,7 @@ class ServiceProviderCommunicationBarringHierarchicalRedirectingRule
     /**
      * @ElementName criteria
      * @Type string
-     * @Group 8e629edbac315ae7889caca732382c44:3360
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:3672
      * @var string|null
      */
     private $criteria = null;
@@ -23,7 +23,7 @@ class ServiceProviderCommunicationBarringHierarchicalRedirectingRule
     /**
      * @ElementName digitPatternCriteria
      * @Type string
-     * @Group 8e629edbac315ae7889caca732382c44:3360
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:3672
      * @var string|null
      */
     private $digitPatternCriteria = null;
@@ -31,7 +31,7 @@ class ServiceProviderCommunicationBarringHierarchicalRedirectingRule
     /**
      * @ElementName action
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringRedirectingAction
-     * @Group 8e629edbac315ae7889caca732382c44:3359
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:3671
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringRedirectingAction|null
      */
     private $action = null;
@@ -40,7 +40,7 @@ class ServiceProviderCommunicationBarringHierarchicalRedirectingRule
      * @ElementName callTimeoutSeconds
      * @Type int
      * @Optional
-     * @Group 8e629edbac315ae7889caca732382c44:3359
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:3671
      * @var int|null
      */
     private $callTimeoutSeconds = null;
@@ -49,7 +49,7 @@ class ServiceProviderCommunicationBarringHierarchicalRedirectingRule
      * @ElementName timeSchedule
      * @Type string
      * @Optional
-     * @Group 8e629edbac315ae7889caca732382c44:3359
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:3671
      * @var string|null
      */
     private $timeSchedule = null;
@@ -58,7 +58,7 @@ class ServiceProviderCommunicationBarringHierarchicalRedirectingRule
      * @ElementName holidaySchedule
      * @Type string
      * @Optional
-     * @Group 8e629edbac315ae7889caca732382c44:3359
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:3671
      * @var string|null
      */
     private $holidaySchedule = null;
@@ -66,7 +66,7 @@ class ServiceProviderCommunicationBarringHierarchicalRedirectingRule
     /**
      * @ElementName priority
      * @Type float
-     * @Group 8e629edbac315ae7889caca732382c44:3359
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:3671
      * @var float|null
      */
     private $priority = null;

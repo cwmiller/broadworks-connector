@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemPreferredCarrierGetRequest
  *
  * Requests the attributes of carrier.
- *         The response is either a SystemPreferredCarrierGetResponse or an ErrorResponse.
+ *         The response is either a SystemPreferreredCarrierGetResponse or an ErrorResponse.
  *
- * @see SystemPreferredCarrierGetResponse
+ * @see SystemPreferreredCarrierGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"56f1bd27c6955cc11e0869b6463fb814:433","type":"sequence"}]
+ * @Groups [{"id":"74a46a9bfccb54713c1d19735843f1df:432","type":"sequence"}]
  */
 class SystemPreferredCarrierGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemPreferredCarrierGetRequest extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName carrier
      * @Type string
-     * @Group 56f1bd27c6955cc11e0869b6463fb814:433
+     * @Group 74a46a9bfccb54713c1d19735843f1df:432
      * @var string|null
      */
     private $carrier = null;

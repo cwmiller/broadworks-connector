@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"ee3830ce42f01a3ef2a105d473fc3b17:1442","type":"sequence"}]
+ * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:1653","type":"sequence"}]
  */
 class UserFeatureAccessCodeModifyListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserFeatureAccessCodeModifyListRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName userId
      * @Type string
-     * @Group ee3830ce42f01a3ef2a105d473fc3b17:1442
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:1653
      * @var string|null
      */
     private $userId = null;
@@ -28,7 +28,7 @@ class UserFeatureAccessCodeModifyListRequest extends \CWM\BroadWorksConnector\Oc
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UserFeatureAccessCodeModifyEntry
      * @Array
      * @Optional
-     * @Group ee3830ce42f01a3ef2a105d473fc3b17:1442
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:1653
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserFeatureAccessCodeModifyEntry[]
      */
     private $featureAccessCode = array(

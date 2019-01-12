@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"cc98d71eafb1a94fd4bd31d597159369:77","type":"sequence"}]
+ * @Groups [{"id":"8c204d784d1904d9eeea996d46de69be:77","type":"sequence"}]
  */
 class UserCommPilotExpressModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class UserCommPilotExpressModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName userId
      * @Type string
-     * @Group cc98d71eafb1a94fd4bd31d597159369:77
+     * @Group 8c204d784d1904d9eeea996d46de69be:77
      * @var string|null
      */
     private $userId = null;
@@ -29,7 +29,7 @@ class UserCommPilotExpressModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressProfile
      * @Nillable
      * @Optional
-     * @Group cc98d71eafb1a94fd4bd31d597159369:77
+     * @Group 8c204d784d1904d9eeea996d46de69be:77
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressProfile|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $profile = null;
@@ -38,7 +38,7 @@ class UserCommPilotExpressModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName availableInOffice
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressAvailableInOfficeModify
      * @Optional
-     * @Group cc98d71eafb1a94fd4bd31d597159369:77
+     * @Group 8c204d784d1904d9eeea996d46de69be:77
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressAvailableInOfficeModify|null
      */
     private $availableInOffice = null;
@@ -47,7 +47,7 @@ class UserCommPilotExpressModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName availableOutOfOffice
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressAvailableOutOfOfficeModify
      * @Optional
-     * @Group cc98d71eafb1a94fd4bd31d597159369:77
+     * @Group 8c204d784d1904d9eeea996d46de69be:77
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressAvailableOutOfOfficeModify|null
      */
     private $availableOutOfOffice = null;
@@ -56,7 +56,7 @@ class UserCommPilotExpressModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName busy
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressBusyModify
      * @Optional
-     * @Group cc98d71eafb1a94fd4bd31d597159369:77
+     * @Group 8c204d784d1904d9eeea996d46de69be:77
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressBusyModify|null
      */
     private $busy = null;
@@ -65,7 +65,7 @@ class UserCommPilotExpressModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName unavailable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressUnavailableModify
      * @Optional
-     * @Group cc98d71eafb1a94fd4bd31d597159369:77
+     * @Group 8c204d784d1904d9eeea996d46de69be:77
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressUnavailableModify|null
      */
     private $unavailable = null;

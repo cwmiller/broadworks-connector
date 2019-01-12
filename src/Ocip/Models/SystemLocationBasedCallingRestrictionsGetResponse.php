@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemLocationBasedCallingRestrictionsGetRequest
  * @see SystemLocationBasedCallingRestrictionsGetResponse17sp3
- * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:22841","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:21020","type":"sequence"}]
  */
 class SystemLocationBasedCallingRestrictionsGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,7 +19,7 @@ class SystemLocationBasedCallingRestrictionsGetResponse extends \CWM\BroadWorksC
     /**
      * @ElementName physicalLocationIndicator
      * @Type \CWM\BroadWorksConnector\Ocip\Models\PhysicalLocationIndicator
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:22841
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:21020
      * @var \CWM\BroadWorksConnector\Ocip\Models\PhysicalLocationIndicator|null
      */
     private $physicalLocationIndicator = null;
@@ -27,7 +27,7 @@ class SystemLocationBasedCallingRestrictionsGetResponse extends \CWM\BroadWorksC
     /**
      * @ElementName enforceMscValidation
      * @Type bool
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:22841
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:21020
      * @var bool|null
      */
     private $enforceMscValidation = null;
@@ -35,7 +35,7 @@ class SystemLocationBasedCallingRestrictionsGetResponse extends \CWM\BroadWorksC
     /**
      * @ElementName enableOfficeZoneAnnouncement
      * @Type bool
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:22841
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:21020
      * @var bool|null
      */
     private $enableOfficeZoneAnnouncement = null;

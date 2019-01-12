@@ -7,10 +7,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Request to get all the information of a VoiceXML instance.
  *         The response is either GroupVoiceXmlGetInstanceResponse19sp1 or ErrorResponse.
+ *         
+ *         Replaced by: GroupVoiceXmlGetInstanceRequest22 in AS mode
  *
  * @see GroupVoiceXmlGetInstanceResponse19sp1
  * @see ErrorResponse
- * @Groups [{"id":"faa3513e1056a71169f28b6219f96cad:122","type":"sequence"}]
+ * @see GroupVoiceXmlGetInstanceRequest22
+ * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:5313","type":"sequence"}]
  */
 class GroupVoiceXmlGetInstanceRequest19sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +21,7 @@ class GroupVoiceXmlGetInstanceRequest19sp1 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group faa3513e1056a71169f28b6219f96cad:122
+     * @Group de4d76f01f337fe4694212ec9f771753:5313
      * @var string|null
      */
     private $serviceUserId = null;

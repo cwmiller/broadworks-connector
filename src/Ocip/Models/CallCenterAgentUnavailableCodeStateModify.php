@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Contains a Call Center Agent Unavailable Code and its active state
  *
- * @Groups [{"id":"3ac5f05d969bc771d6ba8d344d95aa72:6580","type":"sequence"}]
+ * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:7277","type":"sequence"}]
  */
 class CallCenterAgentUnavailableCodeStateModify
 {
@@ -15,7 +15,7 @@ class CallCenterAgentUnavailableCodeStateModify
     /**
      * @ElementName code
      * @Type string
-     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:6580
+     * @Group e2c537e3e39483b96620673a7012ffdd:7277
      * @var string|null
      */
     private $code = null;
@@ -23,7 +23,7 @@ class CallCenterAgentUnavailableCodeStateModify
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:6580
+     * @Group e2c537e3e39483b96620673a7012ffdd:7277
      * @var bool|null
      */
     private $isActive = null;

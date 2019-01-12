@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "Digit Pattern", "Status".
  *
  * @see SystemNumberPortabilityQueryDigitPatternGetListRequest
- * @Groups [{"id":"b5f5416d9e71f8e4246cda16c4723744:11338","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:11529","type":"sequence"}]
  */
 class SystemNumberPortabilityQueryDigitPatternGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class SystemNumberPortabilityQueryDigitPatternGetListResponse extends \CWM\Broad
     /**
      * @ElementName statusDigitPatternTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group b5f5416d9e71f8e4246cda16c4723744:11338
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11529
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $statusDigitPatternTable = null;

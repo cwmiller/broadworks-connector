@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserTimeScheduleGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:37693","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:17322","type":"sequence"}]
  */
 class UserTimeScheduleGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserTimeScheduleGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * @ElementName userId
      * @Type string
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:37693
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:17322
      * @var string|null
      */
     private $userId = null;
@@ -26,7 +26,7 @@ class UserTimeScheduleGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * @ElementName timeScheduleName
      * @Type string
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:37693
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:17322
      * @var string|null
      */
     private $timeScheduleName = null;

@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The Dns are returned in a list of DNs or DN ranges and formated in E164 format for display.
  *
  * @see GroupDnGetAvailableRangesListRequest
- * @Groups [{"id":"15129cd25fa2d5581f4edfd652c24f93:4182","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:4357","type":"sequence"}]
  */
 class GroupDnGetAvailableRangesListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -20,7 +20,7 @@ class GroupDnGetAvailableRangesListResponse extends \CWM\BroadWorksConnector\Oci
      * @Type string
      * @Array
      * @Optional
-     * @Group 15129cd25fa2d5581f4edfd652c24f93:4182
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:4357
      * @var string[]
      */
     private $phoneNumber = array(

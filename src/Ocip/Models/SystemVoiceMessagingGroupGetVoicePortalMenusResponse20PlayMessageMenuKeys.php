@@ -5,7 +5,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemVoiceMessagingGroupGetVoicePortalMenusResponse20PlayMessageMenuKeys
  *
- * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:31437","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:34157","type":"sequence"}]
  */
 class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20PlayMessageMenuKeys
 {
@@ -14,7 +14,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20PlayMessageMenuKeys
      * @ElementName skipBackward
      * @Type string
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:31437
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:34157
      * @var string|null
      */
     private $skipBackward = null;
@@ -23,7 +23,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20PlayMessageMenuKeys
      * @ElementName pauseOrResume
      * @Type string
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:31437
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:34157
      * @var string|null
      */
     private $pauseOrResume = null;
@@ -32,7 +32,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20PlayMessageMenuKeys
      * @ElementName skipForward
      * @Type string
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:31437
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:34157
      * @var string|null
      */
     private $skipForward = null;
@@ -41,7 +41,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20PlayMessageMenuKeys
      * @ElementName jumpToBegin
      * @Type string
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:31437
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:34157
      * @var string|null
      */
     private $jumpToBegin = null;
@@ -50,7 +50,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20PlayMessageMenuKeys
      * @ElementName jumpToEnd
      * @Type string
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:31437
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:34157
      * @var string|null
      */
     private $jumpToEnd = null;

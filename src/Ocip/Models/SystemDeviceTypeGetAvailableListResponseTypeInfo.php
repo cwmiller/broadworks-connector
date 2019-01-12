@@ -5,7 +5,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemDeviceTypeGetAvailableListResponseTypeInfo
  *
- * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:21611","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:4793","type":"sequence"}]
  */
 class SystemDeviceTypeGetAvailableListResponseTypeInfo
 {
@@ -13,7 +13,7 @@ class SystemDeviceTypeGetAvailableListResponseTypeInfo
     /**
      * @ElementName profile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SignalingAddressType
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:21611
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:4793
      * @var \CWM\BroadWorksConnector\Ocip\Models\SignalingAddressType|null
      */
     private $profile = null;
@@ -21,7 +21,7 @@ class SystemDeviceTypeGetAvailableListResponseTypeInfo
     /**
      * @ElementName staticRegistrationCapable
      * @Type bool
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:21611
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:4793
      * @var bool|null
      */
     private $staticRegistrationCapable = null;
@@ -30,7 +30,7 @@ class SystemDeviceTypeGetAvailableListResponseTypeInfo
      * @ElementName protocolChoice
      * @Type string
      * @Array
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:21611
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:4793
      * @var string[]
      */
     private $protocolChoice = array(
@@ -40,7 +40,7 @@ class SystemDeviceTypeGetAvailableListResponseTypeInfo
     /**
      * @ElementName isIpAddressOptional
      * @Type bool
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:21611
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:4793
      * @var bool|null
      */
     private $isIpAddressOptional = null;
@@ -48,7 +48,7 @@ class SystemDeviceTypeGetAvailableListResponseTypeInfo
     /**
      * @ElementName useDomain
      * @Type bool
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:21611
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:4793
      * @var bool|null
      */
     private $useDomain = null;

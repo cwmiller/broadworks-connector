@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to UserSilentAlertingGetRequest.
  *
  * @see UserSilentAlertingGetRequest
- * @Groups [{"id":"4d9b5452a87dd4ae64ca1609d0e55e87:57","type":"sequence"}]
+ * @Groups [{"id":"f2b3ec892c5d27b9eb241f1d4d0f94f9:57","type":"sequence"}]
  */
 class UserSilentAlertingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class UserSilentAlertingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group 4d9b5452a87dd4ae64ca1609d0e55e87:57
+     * @Group f2b3ec892c5d27b9eb241f1d4d0f94f9:57
      * @var bool|null
      */
     private $isActive = null;

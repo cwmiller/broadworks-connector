@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"b5f5416d9e71f8e4246cda16c4723744:2242","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:2285","type":"sequence"}]
  */
 class SystemBwDiameterPeerDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemBwDiameterPeerDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName instance
      * @Type \CWM\BroadWorksConnector\Ocip\Models\BwDiameterPeerInstance
-     * @Group b5f5416d9e71f8e4246cda16c4723744:2242
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2285
      * @var \CWM\BroadWorksConnector\Ocip\Models\BwDiameterPeerInstance|null
      */
     private $instance = null;
@@ -26,7 +26,7 @@ class SystemBwDiameterPeerDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName identity
      * @Type string
-     * @Group b5f5416d9e71f8e4246cda16c4723744:2242
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2285
      * @var string|null
      */
     private $identity = null;

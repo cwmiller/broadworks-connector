@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response contains the group department administrators profile information.
  *
  * @see GroupDepartmentAdminGetRequest
- * @Groups [{"id":"15129cd25fa2d5581f4edfd652c24f93:2867","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:3046","type":"sequence"}]
  */
 class GroupDepartmentAdminGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class GroupDepartmentAdminGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName departmentKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentKey
-     * @Group 15129cd25fa2d5581f4edfd652c24f93:2867
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:3046
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentKey|null
      */
     private $departmentKey = null;
@@ -25,7 +25,7 @@ class GroupDepartmentAdminGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName departmentFullPath
      * @Type string
-     * @Group 15129cd25fa2d5581f4edfd652c24f93:2867
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:3046
      * @var string|null
      */
     private $departmentFullPath = null;
@@ -34,7 +34,7 @@ class GroupDepartmentAdminGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName firstName
      * @Type string
      * @Optional
-     * @Group 15129cd25fa2d5581f4edfd652c24f93:2867
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:3046
      * @var string|null
      */
     private $firstName = null;
@@ -43,7 +43,7 @@ class GroupDepartmentAdminGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName lastName
      * @Type string
      * @Optional
-     * @Group 15129cd25fa2d5581f4edfd652c24f93:2867
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:3046
      * @var string|null
      */
     private $lastName = null;
@@ -51,7 +51,7 @@ class GroupDepartmentAdminGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName language
      * @Type string
-     * @Group 15129cd25fa2d5581f4edfd652c24f93:2867
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:3046
      * @var string|null
      */
     private $language = null;

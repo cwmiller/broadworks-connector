@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupOutgoingCallingPlanDepartmentAuthorizationCodeGetListResponse
  * @see ErrorResponse
- * @Groups [{"id":"80676ea6f2582b1b88573623a6affc0e:234","type":"sequence"}]
+ * @Groups [{"id":"6f793dfca9bd3d121bb35e0f9cf1cb2e:233","type":"sequence"}]
  */
 class GroupOutgoingCallingPlanDepartmentAuthorizationCodeGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class GroupOutgoingCallingPlanDepartmentAuthorizationCodeGetListRequest extends 
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 80676ea6f2582b1b88573623a6affc0e:234
+     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:233
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,7 +27,7 @@ class GroupOutgoingCallingPlanDepartmentAuthorizationCodeGetListRequest extends 
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 80676ea6f2582b1b88573623a6affc0e:234
+     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:233
      * @var string|null
      */
     private $groupId = null;
@@ -36,7 +36,7 @@ class GroupOutgoingCallingPlanDepartmentAuthorizationCodeGetListRequest extends 
      * @ElementName departmentKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey
      * @Optional
-     * @Group 80676ea6f2582b1b88573623a6affc0e:234
+     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:233
      * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null
      */
     private $departmentKey = null;

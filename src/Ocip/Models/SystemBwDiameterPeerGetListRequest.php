@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemBwDiameterPeerGetListRequest
  *
  * Requests the list of Diameter peers.
- *         The response is either SystemBwDiameterPeerGetListResponse or ErrorResponse
+ *         The response is either SystemBwDiameterPeerGetListResponse22 or ErrorResponse
  *
- * @see SystemBwDiameterPeerGetListResponse
+ * @see SystemBwDiameterPeerGetListResponse22
  * @see ErrorResponse
- * @Groups [{"id":"b5f5416d9e71f8e4246cda16c4723744:2259","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:2302","type":"sequence"}]
  */
 class SystemBwDiameterPeerGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to UserRemoteOfficeGetRequest.
  *
  * @see UserRemoteOfficeGetRequest
- * @Groups [{"id":"cd13183ea1594e025e217f61ef9e0137:56","type":"sequence"}]
+ * @Groups [{"id":"70aea661491074f1e7cc845c9a6c7ea3:56","type":"sequence"}]
  */
 class UserRemoteOfficeGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class UserRemoteOfficeGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group cd13183ea1594e025e217f61ef9e0137:56
+     * @Group 70aea661491074f1e7cc845c9a6c7ea3:56
      * @var bool|null
      */
     private $isActive = null;
@@ -25,7 +25,7 @@ class UserRemoteOfficeGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @ElementName remoteOfficePhoneNumber
      * @Type string
      * @Optional
-     * @Group cd13183ea1594e025e217f61ef9e0137:56
+     * @Group 70aea661491074f1e7cc845c9a6c7ea3:56
      * @var string|null
      */
     private $remoteOfficePhoneNumber = null;

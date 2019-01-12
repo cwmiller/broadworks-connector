@@ -5,7 +5,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemVoiceMessagingGroupModifyVoicePortalMenusRequestForwardOrComposeMessageMenuKeys
  *
- * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:31917","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:27552","type":"sequence"}]
  */
 class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestForwardOrComposeMessageMenuKeys
 {
@@ -15,7 +15,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestForwardOrComposeMess
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:31917
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:27552
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $sendToPerson = null;
@@ -25,7 +25,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestForwardOrComposeMess
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:31917
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:27552
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $sendToAllGroupMembers = null;
@@ -35,7 +35,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestForwardOrComposeMess
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:31917
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:27552
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $sendToDistributionList = null;
@@ -45,7 +45,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestForwardOrComposeMess
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:31917
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:27552
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $changeCurrentIntroductionOrMessage = null;
@@ -55,7 +55,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestForwardOrComposeMess
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:31917
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:27552
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $listenToCurrentIntroductionOrMessage = null;
@@ -65,7 +65,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestForwardOrComposeMess
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:31917
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:27552
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $setOrClearUrgentIndicator = null;
@@ -75,7 +75,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestForwardOrComposeMess
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:31917
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:27552
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $setOrClearConfidentialIndicator = null;
@@ -84,7 +84,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestForwardOrComposeMess
      * @ElementName returnToPreviousMenu
      * @Type string
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:31917
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:27552
      * @var string|null
      */
     private $returnToPreviousMenu = null;
@@ -94,7 +94,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestForwardOrComposeMess
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:31917
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:27552
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $repeatMenu = null;

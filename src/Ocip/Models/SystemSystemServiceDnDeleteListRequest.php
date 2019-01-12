@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"b5f5416d9e71f8e4246cda16c4723744:16091","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:16404","type":"sequence"}]
  */
 class SystemSystemServiceDnDeleteListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -22,7 +22,7 @@ class SystemSystemServiceDnDeleteListRequest extends \CWM\BroadWorksConnector\Oc
      * @Type string
      * @Array
      * @Optional
-     * @Group b5f5416d9e71f8e4246cda16c4723744:16091
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16404
      * @var string[]
      */
     private $phoneNumber = array(
@@ -34,7 +34,7 @@ class SystemSystemServiceDnDeleteListRequest extends \CWM\BroadWorksConnector\Oc
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DNRange
      * @Array
      * @Optional
-     * @Group b5f5416d9e71f8e4246cda16c4723744:16091
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16404
      * @var \CWM\BroadWorksConnector\Ocip\Models\DNRange[]
      */
     private $dnRange = array(

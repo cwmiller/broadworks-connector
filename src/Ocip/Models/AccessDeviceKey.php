@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Key to uniquely identify a system, service provider, or group device.
  *
- * @Groups [{"id":"8e629edbac315ae7889caca732382c44:113","type":"sequence"}]
+ * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:140","type":"sequence"}]
  */
 class AccessDeviceKey
 {
@@ -16,7 +16,7 @@ class AccessDeviceKey
      * @ElementName serviceProviderId
      * @Type string
      * @Optional
-     * @Group 8e629edbac315ae7889caca732382c44:113
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:140
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -25,7 +25,7 @@ class AccessDeviceKey
      * @ElementName groupId
      * @Type string
      * @Optional
-     * @Group 8e629edbac315ae7889caca732382c44:113
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:140
      * @var string|null
      */
     private $groupId = null;
@@ -33,7 +33,7 @@ class AccessDeviceKey
     /**
      * @ElementName deviceName
      * @Type string
-     * @Group 8e629edbac315ae7889caca732382c44:113
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:140
      * @var string|null
      */
     private $deviceName = null;

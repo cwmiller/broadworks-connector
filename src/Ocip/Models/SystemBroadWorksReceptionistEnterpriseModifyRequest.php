@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"b99e2521b171f47568831e973c09aa33:81","type":"sequence"}]
+ * @Groups [{"id":"fb12998f4f9e45cedde01f08569f4c7c:81","type":"sequence"}]
  */
 class SystemBroadWorksReceptionistEnterpriseModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class SystemBroadWorksReceptionistEnterpriseModifyRequest extends \CWM\BroadWork
      * @ElementName maxMonitoredUsers
      * @Type int
      * @Optional
-     * @Group b99e2521b171f47568831e973c09aa33:81
+     * @Group fb12998f4f9e45cedde01f08569f4c7c:81
      * @var int|null
      */
     private $maxMonitoredUsers = null;

@@ -7,10 +7,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Get the Integrated IMP service attributes for the group.
  *         The response is either GroupIntegratedIMPGetResponse or ErrorResponse.
+ *         
+ *         Replaced by: GroupIntegratedIMPGetRequest21sp1 in AS data mode
  *
  * @see GroupIntegratedIMPGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"1145a01488507071407c5896ff2e4ef5:51","type":"sequence"}]
+ * @see GroupIntegratedIMPGetRequest21sp1
+ * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:4798","type":"sequence"}]
  */
 class GroupIntegratedIMPGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +21,7 @@ class GroupIntegratedIMPGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 1145a01488507071407c5896ff2e4ef5:51
+     * @Group de4d76f01f337fe4694212ec9f771753:4798
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,7 +29,7 @@ class GroupIntegratedIMPGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 1145a01488507071407c5896ff2e4ef5:51
+     * @Group de4d76f01f337fe4694212ec9f771753:4798
      * @var string|null
      */
     private $groupId = null;

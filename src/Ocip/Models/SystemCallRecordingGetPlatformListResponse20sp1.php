@@ -13,9 +13,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *          The port can be empty if it is not defined in the recording platform.
  *          The possible values for "Support Video Rec" can be either true or false.
  *          Schema version values include: 1.0, 2.0, 3.0
+ * 		 
+ * 		 Replaced by SystemCallRecordingGetPlatformListResponse22 in AS data mode.
  *
  * @see SystemCallRecordingGetPlatformListRequest20sp1
- * @Groups [{"id":"f913e539ecbb63cf455f6c316963b896:161","type":"sequence"}]
+ * @see SystemCallRecordingGetPlatformListResponse22
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:40142","type":"sequence"}]
  */
 class SystemCallRecordingGetPlatformListResponse20sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -24,7 +27,7 @@ class SystemCallRecordingGetPlatformListResponse20sp1 extends \CWM\BroadWorksCon
      * @ElementName systemDefault
      * @Type string
      * @Optional
-     * @Group f913e539ecbb63cf455f6c316963b896:161
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:40142
      * @var string|null
      */
     private $systemDefault = null;
@@ -32,7 +35,7 @@ class SystemCallRecordingGetPlatformListResponse20sp1 extends \CWM\BroadWorksCon
     /**
      * @ElementName callRecordingPlatformTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group f913e539ecbb63cf455f6c316963b896:161
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:40142
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $callRecordingPlatformTable = null;

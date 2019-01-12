@@ -15,7 +15,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see GroupCallCenterEnhancedGetResponse
  * @see ErrorResponse
  * @see GroupCallCenterGetInstanceResponse16
- * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:3418","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:8049","type":"sequence"}]
  */
 class GroupCallCenterEnhancedGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -23,7 +23,7 @@ class GroupCallCenterEnhancedGetRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:3418
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:8049
      * @var string|null
      */
     private $serviceUserId = null;

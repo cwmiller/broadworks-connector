@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupAccessDeviceFileGetRequest16sp1
  * @see GroupAccessDeviceFileGetResponse20
- * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:1926","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:39374","type":"sequence"}]
  */
 class GroupAccessDeviceFileGetResponse16sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,7 +19,7 @@ class GroupAccessDeviceFileGetResponse16sp1 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName fileSource
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationMode
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:1926
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:39374
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationMode|null
      */
     private $fileSource = null;
@@ -28,7 +28,7 @@ class GroupAccessDeviceFileGetResponse16sp1 extends \CWM\BroadWorksConnector\Oci
      * @ElementName configurationFileName
      * @Type string
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:1926
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:39374
      * @var string|null
      */
     private $configurationFileName = null;
@@ -36,7 +36,7 @@ class GroupAccessDeviceFileGetResponse16sp1 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName accessUrl
      * @Type string
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:1926
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:39374
      * @var string|null
      */
     private $accessUrl = null;
@@ -45,7 +45,7 @@ class GroupAccessDeviceFileGetResponse16sp1 extends \CWM\BroadWorksConnector\Oci
      * @ElementName repositoryUrl
      * @Type string
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:1926
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:39374
      * @var string|null
      */
     private $repositoryUrl = null;
@@ -54,7 +54,7 @@ class GroupAccessDeviceFileGetResponse16sp1 extends \CWM\BroadWorksConnector\Oci
      * @ElementName templateUrl
      * @Type string
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:1926
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:39374
      * @var string|null
      */
     private $templateUrl = null;

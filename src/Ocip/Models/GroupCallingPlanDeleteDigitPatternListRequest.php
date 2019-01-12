@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"070ca42611935afd08f156e8287a49c4:62","type":"sequence"}]
+ * @Groups [{"id":"00a30b95794e8eb54c36eccd0a6188fa:62","type":"sequence"}]
  */
 class GroupCallingPlanDeleteDigitPatternListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupCallingPlanDeleteDigitPatternListRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 070ca42611935afd08f156e8287a49c4:62
+     * @Group 00a30b95794e8eb54c36eccd0a6188fa:62
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,7 +26,7 @@ class GroupCallingPlanDeleteDigitPatternListRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 070ca42611935afd08f156e8287a49c4:62
+     * @Group 00a30b95794e8eb54c36eccd0a6188fa:62
      * @var string|null
      */
     private $groupId = null;
@@ -35,7 +35,7 @@ class GroupCallingPlanDeleteDigitPatternListRequest extends \CWM\BroadWorksConne
      * @ElementName name
      * @Type string
      * @Array
-     * @Group 070ca42611935afd08f156e8287a49c4:62
+     * @Group 00a30b95794e8eb54c36eccd0a6188fa:62
      * @var string[]
      */
     private $name = array(

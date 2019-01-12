@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Represents either a random port number, or a specific port number.
  *
- * @Groups [{"id":"8e629edbac315ae7889caca732382c44:2575","type":"choice"}]
+ * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:2831","type":"choice"}]
  */
 class RandomPort
 {
@@ -15,7 +15,7 @@ class RandomPort
     /**
      * @ElementName random
      * @Type string
-     * @Group 8e629edbac315ae7889caca732382c44:2575
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:2831
      * @var string|null
      */
     private $random = null;
@@ -23,7 +23,7 @@ class RandomPort
     /**
      * @ElementName port
      * @Type int
-     * @Group 8e629edbac315ae7889caca732382c44:2575
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:2831
      * @var int|null
      */
     private $port = null;

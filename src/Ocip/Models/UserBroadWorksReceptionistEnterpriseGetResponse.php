@@ -14,7 +14,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         of the Receptionist Note and a Note exists.
  *
  * @see UserBroadWorksReceptionistEnterpriseGetRequest
- * @Groups [{"id":"b99e2521b171f47568831e973c09aa33:200","type":"sequence"}]
+ * @Groups [{"id":"fb12998f4f9e45cedde01f08569f4c7c:200","type":"sequence"}]
  */
 class UserBroadWorksReceptionistEnterpriseGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -22,7 +22,7 @@ class UserBroadWorksReceptionistEnterpriseGetResponse extends \CWM\BroadWorksCon
     /**
      * @ElementName monitoredUserTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group b99e2521b171f47568831e973c09aa33:200
+     * @Group fb12998f4f9e45cedde01f08569f4c7c:200
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $monitoredUserTable = null;

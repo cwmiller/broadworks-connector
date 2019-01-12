@@ -17,7 +17,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see GroupCallCenterSupervisorReportingGetResponse
  * @see ErrorResponse
  * @see GroupCallCenterGetSupervisorListRequest16
- * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:5904","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:8346","type":"sequence"}]
  */
 class GroupCallCenterSupervisorReportingGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -25,7 +25,7 @@ class GroupCallCenterSupervisorReportingGetRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:5904
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:8346
      * @var string|null
      */
     private $serviceUserId = null;

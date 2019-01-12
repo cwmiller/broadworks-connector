@@ -16,7 +16,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupPhoneDirectoryGetListRequest
  * @see GroupPhoneDirectoryGetListResponse17
- * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:10095","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:13567","type":"sequence"}]
  */
 class GroupPhoneDirectoryGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -24,7 +24,7 @@ class GroupPhoneDirectoryGetListResponse extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName directoryTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:10095
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:13567
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $directoryTable = null;

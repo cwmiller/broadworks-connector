@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"b5f5416d9e71f8e4246cda16c4723744:8256","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:8436","type":"sequence"}]
  */
 class SystemExpensiveCallTypeAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemExpensiveCallTypeAddRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName alternateCallIndicator
      * @Type string
-     * @Group b5f5416d9e71f8e4246cda16c4723744:8256
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8436
      * @var string|null
      */
     private $alternateCallIndicator = null;
@@ -27,7 +27,7 @@ class SystemExpensiveCallTypeAddRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName treatmentAudioFile
      * @Type string
      * @Optional
-     * @Group b5f5416d9e71f8e4246cda16c4723744:8256
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8436
      * @var string|null
      */
     private $treatmentAudioFile = null;

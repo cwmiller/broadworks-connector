@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemCustomerOriginatedTraceGetRequest.
  *
  * @see SystemCustomerOriginatedTraceGetRequest
- * @Groups [{"id":"4915e543002c33d10df7353b0c6ebf0a:57","type":"sequence"}]
+ * @Groups [{"id":"55636b88804490cf0ead7c9d4f44f28d:57","type":"sequence"}]
  */
 class SystemCustomerOriginatedTraceGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class SystemCustomerOriginatedTraceGetResponse extends \CWM\BroadWorksConnector\
     /**
      * @ElementName screenMaliciousCallers
      * @Type bool
-     * @Group 4915e543002c33d10df7353b0c6ebf0a:57
+     * @Group 55636b88804490cf0ead7c9d4f44f28d:57
      * @var bool|null
      */
     private $screenMaliciousCallers = null;

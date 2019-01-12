@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"e5e2d2259eb3c3343c7c35c64b1fba49:155","type":"sequence"}]
+ * @Groups [{"id":"239d22a382d3190a183f2ff4efdc404f:155","type":"sequence"}]
  */
 class UserSimultaneousRingFamilyModifyCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserSimultaneousRingFamilyModifyCriteriaRequest extends \CWM\BroadWorksCon
     /**
      * @ElementName userId
      * @Type string
-     * @Group e5e2d2259eb3c3343c7c35c64b1fba49:155
+     * @Group 239d22a382d3190a183f2ff4efdc404f:155
      * @var string|null
      */
     private $userId = null;
@@ -26,7 +26,7 @@ class UserSimultaneousRingFamilyModifyCriteriaRequest extends \CWM\BroadWorksCon
     /**
      * @ElementName criteriaName
      * @Type string
-     * @Group e5e2d2259eb3c3343c7c35c64b1fba49:155
+     * @Group 239d22a382d3190a183f2ff4efdc404f:155
      * @var string|null
      */
     private $criteriaName = null;
@@ -35,7 +35,7 @@ class UserSimultaneousRingFamilyModifyCriteriaRequest extends \CWM\BroadWorksCon
      * @ElementName newCriteriaName
      * @Type string
      * @Optional
-     * @Group e5e2d2259eb3c3343c7c35c64b1fba49:155
+     * @Group 239d22a382d3190a183f2ff4efdc404f:155
      * @var string|null
      */
     private $newCriteriaName = null;
@@ -45,7 +45,7 @@ class UserSimultaneousRingFamilyModifyCriteriaRequest extends \CWM\BroadWorksCon
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule
      * @Nillable
      * @Optional
-     * @Group e5e2d2259eb3c3343c7c35c64b1fba49:155
+     * @Group 239d22a382d3190a183f2ff4efdc404f:155
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $timeSchedule = null;
@@ -55,7 +55,7 @@ class UserSimultaneousRingFamilyModifyCriteriaRequest extends \CWM\BroadWorksCon
      * @Type \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule
      * @Nillable
      * @Optional
-     * @Group e5e2d2259eb3c3343c7c35c64b1fba49:155
+     * @Group 239d22a382d3190a183f2ff4efdc404f:155
      * @var \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $holidaySchedule = null;
@@ -64,7 +64,7 @@ class UserSimultaneousRingFamilyModifyCriteriaRequest extends \CWM\BroadWorksCon
      * @ElementName blacklisted
      * @Type bool
      * @Optional
-     * @Group e5e2d2259eb3c3343c7c35c64b1fba49:155
+     * @Group 239d22a382d3190a183f2ff4efdc404f:155
      * @var bool|null
      */
     private $blacklisted = null;
@@ -73,7 +73,7 @@ class UserSimultaneousRingFamilyModifyCriteriaRequest extends \CWM\BroadWorksCon
      * @ElementName fromDnCriteria
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDnModify
      * @Optional
-     * @Group e5e2d2259eb3c3343c7c35c64b1fba49:155
+     * @Group 239d22a382d3190a183f2ff4efdc404f:155
      * @var \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDnModify|null
      */
     private $fromDnCriteria = null;

@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"25fccbf16e98061b338758dd7d75d8f2:46","type":"sequence"}]
+ * @Groups [{"id":"2a1428f64736d8f970ea802e5a73c495:46","type":"sequence"}]
  */
 class SystemTwoStageDialingAddDnRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemTwoStageDialingAddDnRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName phoneNumber
      * @Type string
-     * @Group 25fccbf16e98061b338758dd7d75d8f2:46
+     * @Group 2a1428f64736d8f970ea802e5a73c495:46
      * @var string|null
      */
     private $phoneNumber = null;
@@ -27,7 +27,7 @@ class SystemTwoStageDialingAddDnRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName description
      * @Type string
      * @Optional
-     * @Group 25fccbf16e98061b338758dd7d75d8f2:46
+     * @Group 2a1428f64736d8f970ea802e5a73c495:46
      * @var string|null
      */
     private $description = null;

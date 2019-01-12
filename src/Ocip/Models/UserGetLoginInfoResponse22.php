@@ -7,9 +7,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to UserGetLoginInfoRequest22
  *         If a phoneNumber is returned, it will be the primary DN of the user
+ *         Replaced by UserGetLoginInfoResponse22V2.
  *
  * @see UserGetLoginInfoRequest22
- * @Groups [{"id":"21fd3c6abc11c44e52803121f7739a76:559","type":"sequence"}]
+ * @see UserGetLoginInfoResponse22V2
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:41011","type":"sequence"}]
  */
 class UserGetLoginInfoResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +19,7 @@ class UserGetLoginInfoResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * @ElementName loginType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LoginType22
-     * @Group 21fd3c6abc11c44e52803121f7739a76:559
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:41011
      * @var \CWM\BroadWorksConnector\Ocip\Models\LoginType22|null
      */
     private $loginType = null;
@@ -25,7 +27,7 @@ class UserGetLoginInfoResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * @ElementName locale
      * @Type string
-     * @Group 21fd3c6abc11c44e52803121f7739a76:559
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:41011
      * @var string|null
      */
     private $locale = null;
@@ -33,7 +35,7 @@ class UserGetLoginInfoResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * @ElementName encoding
      * @Type string
-     * @Group 21fd3c6abc11c44e52803121f7739a76:559
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:41011
      * @var string|null
      */
     private $encoding = null;
@@ -42,7 +44,7 @@ class UserGetLoginInfoResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @ElementName groupId
      * @Type string
      * @Optional
-     * @Group 21fd3c6abc11c44e52803121f7739a76:559
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:41011
      * @var string|null
      */
     private $groupId = null;
@@ -51,7 +53,7 @@ class UserGetLoginInfoResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @ElementName serviceProviderId
      * @Type string
      * @Optional
-     * @Group 21fd3c6abc11c44e52803121f7739a76:559
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:41011
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -59,7 +61,7 @@ class UserGetLoginInfoResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * @ElementName isEnterprise
      * @Type bool
-     * @Group 21fd3c6abc11c44e52803121f7739a76:559
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:41011
      * @var bool|null
      */
     private $isEnterprise = null;
@@ -68,7 +70,7 @@ class UserGetLoginInfoResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @ElementName passwordExpiresDays
      * @Type int
      * @Optional
-     * @Group 21fd3c6abc11c44e52803121f7739a76:559
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:41011
      * @var int|null
      */
     private $passwordExpiresDays = null;
@@ -77,7 +79,7 @@ class UserGetLoginInfoResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @ElementName lastName
      * @Type string
      * @Optional
-     * @Group 21fd3c6abc11c44e52803121f7739a76:559
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:41011
      * @var string|null
      */
     private $lastName = null;
@@ -86,7 +88,7 @@ class UserGetLoginInfoResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @ElementName firstName
      * @Type string
      * @Optional
-     * @Group 21fd3c6abc11c44e52803121f7739a76:559
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:41011
      * @var string|null
      */
     private $firstName = null;
@@ -94,7 +96,7 @@ class UserGetLoginInfoResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * @ElementName userId
      * @Type string
-     * @Group 21fd3c6abc11c44e52803121f7739a76:559
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:41011
      * @var string|null
      */
     private $userId = null;
@@ -103,7 +105,7 @@ class UserGetLoginInfoResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @ElementName phoneNumber
      * @Type string
      * @Optional
-     * @Group 21fd3c6abc11c44e52803121f7739a76:559
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:41011
      * @var string|null
      */
     private $phoneNumber = null;
@@ -112,7 +114,7 @@ class UserGetLoginInfoResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @ElementName resellerId
      * @Type string
      * @Optional
-     * @Group 21fd3c6abc11c44e52803121f7739a76:559
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:41011
      * @var string|null
      */
     private $resellerId = null;

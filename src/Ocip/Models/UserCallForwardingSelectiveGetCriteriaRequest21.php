@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserCallForwardingSelectiveGetCriteriaResponse21
  * @see ErrorResponse
- * @Groups [{"id":"00144d4cd6b46fb2a87b2e4d8760f200:91","type":"sequence"}]
+ * @Groups [{"id":"543304bb75006bfa60814c897fa03ec0:91","type":"sequence"}]
  */
 class UserCallForwardingSelectiveGetCriteriaRequest21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserCallForwardingSelectiveGetCriteriaRequest21 extends \CWM\BroadWorksCon
     /**
      * @ElementName userId
      * @Type string
-     * @Group 00144d4cd6b46fb2a87b2e4d8760f200:91
+     * @Group 543304bb75006bfa60814c897fa03ec0:91
      * @var string|null
      */
     private $userId = null;
@@ -26,7 +26,7 @@ class UserCallForwardingSelectiveGetCriteriaRequest21 extends \CWM\BroadWorksCon
     /**
      * @ElementName criteriaName
      * @Type string
-     * @Group 00144d4cd6b46fb2a87b2e4d8760f200:91
+     * @Group 543304bb75006bfa60814c897fa03ec0:91
      * @var string|null
      */
     private $criteriaName = null;

@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * TrunkAddressingMultipleContactRead21sp1
  *
  * Trunk group endpoint that can have multiple contacts.
- *         alternateTrunkIdentityDomain is only used in AS mode in IMS.
+ *         alternateTrunkIdentityDomain is only used in XS mode and the AS when deployed in IMS mode.
  *         The following elements are only used in AS data mode and are ignored in XS data mode:
  *           physicalLocation
  *
- * @Groups [{"id":"8e629edbac315ae7889caca732382c44:3725","type":"sequence"}]
+ * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:4089","type":"sequence"}]
  */
 class TrunkAddressingMultipleContactRead21sp1
 {
@@ -19,7 +19,7 @@ class TrunkAddressingMultipleContactRead21sp1
      * @ElementName trunkGroupDeviceEndpoint
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupDeviceMultipleContactEndpointRead
      * @Optional
-     * @Group 8e629edbac315ae7889caca732382c44:3725
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:4089
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupDeviceMultipleContactEndpointRead|null
      */
     private $trunkGroupDeviceEndpoint = null;
@@ -28,7 +28,7 @@ class TrunkAddressingMultipleContactRead21sp1
      * @ElementName enterpriseTrunkName
      * @Type string
      * @Optional
-     * @Group 8e629edbac315ae7889caca732382c44:3725
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:4089
      * @var string|null
      */
     private $enterpriseTrunkName = null;
@@ -37,7 +37,7 @@ class TrunkAddressingMultipleContactRead21sp1
      * @ElementName alternateTrunkIdentity
      * @Type string
      * @Optional
-     * @Group 8e629edbac315ae7889caca732382c44:3725
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:4089
      * @var string|null
      */
     private $alternateTrunkIdentity = null;
@@ -46,7 +46,7 @@ class TrunkAddressingMultipleContactRead21sp1
      * @ElementName alternateTrunkIdentityDomain
      * @Type string
      * @Optional
-     * @Group 8e629edbac315ae7889caca732382c44:3725
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:4089
      * @var string|null
      */
     private $alternateTrunkIdentityDomain = null;
@@ -55,7 +55,7 @@ class TrunkAddressingMultipleContactRead21sp1
      * @ElementName physicalLocation
      * @Type string
      * @Optional
-     * @Group 8e629edbac315ae7889caca732382c44:3725
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:4089
      * @var string|null
      */
     private $physicalLocation = null;

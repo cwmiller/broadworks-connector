@@ -17,8 +17,8 @@ use CWM\BroadWorksConnector\Ocip\Models\userPersonalAssistantExclusionNumberGetL
 use CWM\BroadWorksConnector\Ocip\Models\UserPersonalAssistantExclusionNumberGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserPersonalAssistantExclusionNumberGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserPersonalAssistantExclusionNumberModifyRequest;
-use CWM\BroadWorksConnector\Ocip\Models\UserPersonalAssistantGetRequest;
-use CWM\BroadWorksConnector\Ocip\Models\UserPersonalAssistantGetResponse;
+use CWM\BroadWorksConnector\Ocip\Models\UserPersonalAssistantGetRequest22;
+use CWM\BroadWorksConnector\Ocip\Models\UserPersonalAssistantGetResponse22;
 use CWM\BroadWorksConnector\Ocip\Models\UserPersonalAssistantModifyRequest;
 use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
 use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
@@ -138,12 +138,12 @@ trait OCISchemaServicePersonalAssistant
     }
 
     /**
-     * @param UserPersonalAssistantGetRequest $request
-     * @return UserPersonalAssistantGetResponse
+     * @param UserPersonalAssistantGetRequest22 $request
+     * @return UserPersonalAssistantGetResponse22
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function userPersonalAssistantGetRequest(\CWM\BroadWorksConnector\Ocip\Models\UserPersonalAssistantGetRequest $request)
+    public function userPersonalAssistantGetRequest22(\CWM\BroadWorksConnector\Ocip\Models\UserPersonalAssistantGetRequest22 $request)
     {
         return $this->call($request);
     }

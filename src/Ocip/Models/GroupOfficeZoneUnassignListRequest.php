@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"15129cd25fa2d5581f4edfd652c24f93:5484","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:5757","type":"sequence"}]
  */
 class GroupOfficeZoneUnassignListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupOfficeZoneUnassignListRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 15129cd25fa2d5581f4edfd652c24f93:5484
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:5757
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,7 +26,7 @@ class GroupOfficeZoneUnassignListRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 15129cd25fa2d5581f4edfd652c24f93:5484
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:5757
      * @var string|null
      */
     private $groupId = null;
@@ -36,7 +36,7 @@ class GroupOfficeZoneUnassignListRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @Type string
      * @Array
      * @Optional
-     * @Group 15129cd25fa2d5581f4edfd652c24f93:5484
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:5757
      * @var string[]
      */
     private $officeZoneName = array(
@@ -47,7 +47,7 @@ class GroupOfficeZoneUnassignListRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName defaultOfficeZoneName
      * @Type string
      * @Optional
-     * @Group 15129cd25fa2d5581f4edfd652c24f93:5484
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:5757
      * @var string|null
      */
     private $defaultOfficeZoneName = null;

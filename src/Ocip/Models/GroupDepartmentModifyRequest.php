@@ -14,7 +14,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"15129cd25fa2d5581f4edfd652c24f93:3045","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:3224","type":"sequence"}]
  */
 class GroupDepartmentModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -22,7 +22,7 @@ class GroupDepartmentModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 15129cd25fa2d5581f4edfd652c24f93:3045
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:3224
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -30,7 +30,7 @@ class GroupDepartmentModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 15129cd25fa2d5581f4edfd652c24f93:3045
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:3224
      * @var string|null
      */
     private $groupId = null;
@@ -38,7 +38,7 @@ class GroupDepartmentModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName departmentName
      * @Type string
-     * @Group 15129cd25fa2d5581f4edfd652c24f93:3045
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:3224
      * @var string|null
      */
     private $departmentName = null;
@@ -47,7 +47,7 @@ class GroupDepartmentModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @ElementName newDepartmentName
      * @Type string
      * @Optional
-     * @Group 15129cd25fa2d5581f4edfd652c24f93:3045
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:3224
      * @var string|null
      */
     private $newDepartmentName = null;
@@ -57,7 +57,7 @@ class GroupDepartmentModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey
      * @Nillable
      * @Optional
-     * @Group 15129cd25fa2d5581f4edfd652c24f93:3045
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:3224
      * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $newParentDepartmentKey = null;
@@ -67,7 +67,7 @@ class GroupDepartmentModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 15129cd25fa2d5581f4edfd652c24f93:3045
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:3224
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $callingLineIdName = null;
@@ -77,7 +77,7 @@ class GroupDepartmentModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 15129cd25fa2d5581f4edfd652c24f93:3045
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:3224
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $callingLineIdPhoneNumber = null;

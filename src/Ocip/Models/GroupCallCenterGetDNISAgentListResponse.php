@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "Phone Number", "Extension", "Department", "Email Address".
  *
  * @see GroupCallCenterGetDNISAgentListRequest
- * @Groups [{"id":"3ac5f05d969bc771d6ba8d344d95aa72:3860","type":"sequence"}]
+ * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:4325","type":"sequence"}]
  */
 class GroupCallCenterGetDNISAgentListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,7 +19,7 @@ class GroupCallCenterGetDNISAgentListResponse extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName agentTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:3860
+     * @Group e2c537e3e39483b96620673a7012ffdd:4325
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $agentTable = null;

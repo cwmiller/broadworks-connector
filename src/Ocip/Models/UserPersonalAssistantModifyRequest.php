@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f04e7de96ed87c401bee5b5d2e80ccd3:337","type":"sequence"}]
+ * @Groups [{"id":"f53ece1c00394ef2d3d76f532f9a9663:339","type":"sequence"}]
  */
 class UserPersonalAssistantModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserPersonalAssistantModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName userId
      * @Type string
-     * @Group f04e7de96ed87c401bee5b5d2e80ccd3:337
+     * @Group f53ece1c00394ef2d3d76f532f9a9663:339
      * @var string|null
      */
     private $userId = null;
@@ -27,7 +27,7 @@ class UserPersonalAssistantModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName presence
      * @Type \CWM\BroadWorksConnector\Ocip\Models\PersonalAssistantPresence
      * @Optional
-     * @Group f04e7de96ed87c401bee5b5d2e80ccd3:337
+     * @Group f53ece1c00394ef2d3d76f532f9a9663:339
      * @var \CWM\BroadWorksConnector\Ocip\Models\PersonalAssistantPresence|null
      */
     private $presence = null;
@@ -36,7 +36,7 @@ class UserPersonalAssistantModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName enableTransferToAttendant
      * @Type bool
      * @Optional
-     * @Group f04e7de96ed87c401bee5b5d2e80ccd3:337
+     * @Group f53ece1c00394ef2d3d76f532f9a9663:339
      * @var bool|null
      */
     private $enableTransferToAttendant = null;
@@ -46,7 +46,7 @@ class UserPersonalAssistantModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @Type string
      * @Nillable
      * @Optional
-     * @Group f04e7de96ed87c401bee5b5d2e80ccd3:337
+     * @Group f53ece1c00394ef2d3d76f532f9a9663:339
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $attendantNumber = null;
@@ -55,7 +55,7 @@ class UserPersonalAssistantModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName enableRingSplash
      * @Type bool
      * @Optional
-     * @Group f04e7de96ed87c401bee5b5d2e80ccd3:337
+     * @Group f53ece1c00394ef2d3d76f532f9a9663:339
      * @var bool|null
      */
     private $enableRingSplash = null;
@@ -64,7 +64,7 @@ class UserPersonalAssistantModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName enableExpirationTime
      * @Type bool
      * @Optional
-     * @Group f04e7de96ed87c401bee5b5d2e80ccd3:337
+     * @Group f53ece1c00394ef2d3d76f532f9a9663:339
      * @var bool|null
      */
     private $enableExpirationTime = null;
@@ -74,10 +74,28 @@ class UserPersonalAssistantModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @Type string
      * @Nillable
      * @Optional
-     * @Group f04e7de96ed87c401bee5b5d2e80ccd3:337
+     * @Group f53ece1c00394ef2d3d76f532f9a9663:339
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $expirationTime = null;
+
+    /**
+     * @ElementName alertMeFirst
+     * @Type bool
+     * @Optional
+     * @Group f53ece1c00394ef2d3d76f532f9a9663:339
+     * @var bool|null
+     */
+    private $alertMeFirst = null;
+
+    /**
+     * @ElementName alertMeFirstNumberOfRings
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\PersonalAssistantAlertMeFirstNumberOfRings
+     * @Optional
+     * @Group f53ece1c00394ef2d3d76f532f9a9663:339
+     * @var \CWM\BroadWorksConnector\Ocip\Models\PersonalAssistantAlertMeFirstNumberOfRings|null
+     */
+    private $alertMeFirstNumberOfRings = null;
 
     /**
      * Getter for userId
@@ -301,6 +319,68 @@ class UserPersonalAssistantModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
     public function unsetExpirationTime()
     {
         $this->expirationTime = null;
+        return $this;
+    }
+
+    /**
+     * Getter for alertMeFirst
+     *
+     * @return bool
+     */
+    public function getAlertMeFirst()
+    {
+        return $this->alertMeFirst instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->alertMeFirst;
+    }
+
+    /**
+     * Setter for alertMeFirst
+     *
+     * @param bool $alertMeFirst
+     * @return $this
+     */
+    public function setAlertMeFirst($alertMeFirst)
+    {
+        $this->alertMeFirst = $alertMeFirst;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAlertMeFirst()
+    {
+        $this->alertMeFirst = null;
+        return $this;
+    }
+
+    /**
+     * Getter for alertMeFirstNumberOfRings
+     *
+     * @return \CWM\BroadWorksConnector\Ocip\Models\PersonalAssistantAlertMeFirstNumberOfRings
+     */
+    public function getAlertMeFirstNumberOfRings()
+    {
+        return $this->alertMeFirstNumberOfRings instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->alertMeFirstNumberOfRings;
+    }
+
+    /**
+     * Setter for alertMeFirstNumberOfRings
+     *
+     * @param \CWM\BroadWorksConnector\Ocip\Models\PersonalAssistantAlertMeFirstNumberOfRings $alertMeFirstNumberOfRings
+     * @return $this
+     */
+    public function setAlertMeFirstNumberOfRings(\CWM\BroadWorksConnector\Ocip\Models\PersonalAssistantAlertMeFirstNumberOfRings $alertMeFirstNumberOfRings)
+    {
+        $this->alertMeFirstNumberOfRings = $alertMeFirstNumberOfRings;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAlertMeFirstNumberOfRings()
+    {
+        $this->alertMeFirstNumberOfRings = null;
         return $this;
     }
 

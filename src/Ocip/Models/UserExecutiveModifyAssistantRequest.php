@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"bcf25f15fde8fb6d519675293110ce09:354","type":"sequence"}]
+ * @Groups [{"id":"9a6dbade05624033cf7fe782b7c9a9a7:353","type":"sequence"}]
  */
 class UserExecutiveModifyAssistantRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserExecutiveModifyAssistantRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName userId
      * @Type string
-     * @Group bcf25f15fde8fb6d519675293110ce09:354
+     * @Group 9a6dbade05624033cf7fe782b7c9a9a7:353
      * @var string|null
      */
     private $userId = null;
@@ -27,7 +27,7 @@ class UserExecutiveModifyAssistantRequest extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName allowOptInOut
      * @Type bool
      * @Optional
-     * @Group bcf25f15fde8fb6d519675293110ce09:354
+     * @Group 9a6dbade05624033cf7fe782b7c9a9a7:353
      * @var bool|null
      */
     private $allowOptInOut = null;
@@ -37,7 +37,7 @@ class UserExecutiveModifyAssistantRequest extends \CWM\BroadWorksConnector\Ocip\
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList
      * @Nillable
      * @Optional
-     * @Group bcf25f15fde8fb6d519675293110ce09:354
+     * @Group 9a6dbade05624033cf7fe782b7c9a9a7:353
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $assistantUserIdList = null;

@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"faa3513e1056a71169f28b6219f96cad:69","type":"sequence"}]
+ * @Groups [{"id":"0639a23b2e14be05c11ead49c23bd0bd:69","type":"sequence"}]
  */
 class GroupVoiceXmlDeleteInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupVoiceXmlDeleteInstanceRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group faa3513e1056a71169f28b6219f96cad:69
+     * @Group 0639a23b2e14be05c11ead49c23bd0bd:69
      * @var string|null
      */
     private $serviceUserId = null;

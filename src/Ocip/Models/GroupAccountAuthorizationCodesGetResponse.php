@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "Phone Number", "Extension", "Department", "Email Address".
  *
  * @see GroupAccountAuthorizationCodesGetRequest
- * @Groups [{"id":"cf39a77cc27bd00da9f2520a22424344:176","type":"sequence"}]
+ * @Groups [{"id":"65df37199ec43e5d21a187db39d63158:176","type":"sequence"}]
  */
 class GroupAccountAuthorizationCodesGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,7 +19,7 @@ class GroupAccountAuthorizationCodesGetResponse extends \CWM\BroadWorksConnector
     /**
      * @ElementName type
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccountAuthorizationCodeType
-     * @Group cf39a77cc27bd00da9f2520a22424344:176
+     * @Group 65df37199ec43e5d21a187db39d63158:176
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccountAuthorizationCodeType|null
      */
     private $type = null;
@@ -27,7 +27,7 @@ class GroupAccountAuthorizationCodesGetResponse extends \CWM\BroadWorksConnector
     /**
      * @ElementName numberOfDigits
      * @Type int
-     * @Group cf39a77cc27bd00da9f2520a22424344:176
+     * @Group 65df37199ec43e5d21a187db39d63158:176
      * @var int|null
      */
     private $numberOfDigits = null;
@@ -35,7 +35,7 @@ class GroupAccountAuthorizationCodesGetResponse extends \CWM\BroadWorksConnector
     /**
      * @ElementName allowLocalAndTollFreeCalls
      * @Type bool
-     * @Group cf39a77cc27bd00da9f2520a22424344:176
+     * @Group 65df37199ec43e5d21a187db39d63158:176
      * @var bool|null
      */
     private $allowLocalAndTollFreeCalls = null;
@@ -43,7 +43,7 @@ class GroupAccountAuthorizationCodesGetResponse extends \CWM\BroadWorksConnector
     /**
      * @ElementName mandatoryUsageUserTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group cf39a77cc27bd00da9f2520a22424344:176
+     * @Group 65df37199ec43e5d21a187db39d63158:176
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $mandatoryUsageUserTable = null;
@@ -51,7 +51,7 @@ class GroupAccountAuthorizationCodesGetResponse extends \CWM\BroadWorksConnector
     /**
      * @ElementName optionalUsageUserTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group cf39a77cc27bd00da9f2520a22424344:176
+     * @Group 65df37199ec43e5d21a187db39d63158:176
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $optionalUsageUserTable = null;

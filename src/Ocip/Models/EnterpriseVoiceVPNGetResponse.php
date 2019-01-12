@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see EnterpriseVoiceVPNGetRequest
  * @see EnterpriseVoiceVPNGetResponse14sp3
- * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:1775","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:504","type":"sequence"}]
  */
 class EnterpriseVoiceVPNGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class EnterpriseVoiceVPNGetResponse extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:1775
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:504
      * @var bool|null
      */
     private $isActive = null;
@@ -26,7 +26,7 @@ class EnterpriseVoiceVPNGetResponse extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName defaultSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNDefaultSelection
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:1775
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:504
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNDefaultSelection|null
      */
     private $defaultSelection = null;
@@ -34,7 +34,7 @@ class EnterpriseVoiceVPNGetResponse extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName e164Selection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNNonMatchingE164NumberSelection
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:1775
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:504
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNNonMatchingE164NumberSelection|null
      */
     private $e164Selection = null;

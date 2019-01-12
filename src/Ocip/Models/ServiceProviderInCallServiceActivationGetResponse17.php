@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to ServiceProviderInCallServiceActivationGetRequest17.
  *
  * @see ServiceProviderInCallServiceActivationGetRequest17
- * @Groups [{"id":"12a5240b3c551d23cab4f27462925188:61","type":"sequence"}]
+ * @Groups [{"id":"ece0b65e69189d3e8b8deee895f0a7ff:61","type":"sequence"}]
  */
 class ServiceProviderInCallServiceActivationGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class ServiceProviderInCallServiceActivationGetResponse17 extends \CWM\BroadWork
     /**
      * @ElementName flashActivationDigits
      * @Type string
-     * @Group 12a5240b3c551d23cab4f27462925188:61
+     * @Group ece0b65e69189d3e8b8deee895f0a7ff:61
      * @var string|null
      */
     private $flashActivationDigits = null;
@@ -24,7 +24,7 @@ class ServiceProviderInCallServiceActivationGetResponse17 extends \CWM\BroadWork
     /**
      * @ElementName callTransferActivationDigits
      * @Type string
-     * @Group 12a5240b3c551d23cab4f27462925188:61
+     * @Group ece0b65e69189d3e8b8deee895f0a7ff:61
      * @var string|null
      */
     private $callTransferActivationDigits = null;

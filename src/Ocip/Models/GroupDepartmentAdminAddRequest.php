@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"15129cd25fa2d5581f4edfd652c24f93:2781","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:2960","type":"sequence"}]
  */
 class GroupDepartmentAdminAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupDepartmentAdminAddRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName departmentKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentKey
-     * @Group 15129cd25fa2d5581f4edfd652c24f93:2781
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:2960
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentKey|null
      */
     private $departmentKey = null;
@@ -26,7 +26,7 @@ class GroupDepartmentAdminAddRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName userId
      * @Type string
-     * @Group 15129cd25fa2d5581f4edfd652c24f93:2781
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:2960
      * @var string|null
      */
     private $userId = null;
@@ -35,7 +35,7 @@ class GroupDepartmentAdminAddRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName firstName
      * @Type string
      * @Optional
-     * @Group 15129cd25fa2d5581f4edfd652c24f93:2781
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:2960
      * @var string|null
      */
     private $firstName = null;
@@ -44,7 +44,7 @@ class GroupDepartmentAdminAddRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName lastName
      * @Type string
      * @Optional
-     * @Group 15129cd25fa2d5581f4edfd652c24f93:2781
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:2960
      * @var string|null
      */
     private $lastName = null;
@@ -53,7 +53,7 @@ class GroupDepartmentAdminAddRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName password
      * @Type string
      * @Optional
-     * @Group 15129cd25fa2d5581f4edfd652c24f93:2781
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:2960
      * @var string|null
      */
     private $password = null;
@@ -62,7 +62,7 @@ class GroupDepartmentAdminAddRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName language
      * @Type string
      * @Optional
-     * @Group 15129cd25fa2d5581f4edfd652c24f93:2781
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:2960
      * @var string|null
      */
     private $language = null;

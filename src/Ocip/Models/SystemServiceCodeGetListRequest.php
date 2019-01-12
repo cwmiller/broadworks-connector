@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemServiceCodeGetListResponse
  * @see ErrorResponse
- * @Groups [{"id":"b5f5416d9e71f8e4246cda16c4723744:14116","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:14412","type":"sequence"}]
  */
 class SystemServiceCodeGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,7 +21,7 @@ class SystemServiceCodeGetListRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group b5f5416d9e71f8e4246cda16c4723744:14116
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14412
      * @var int|null
      */
     private $responseSizeLimit = null;
@@ -31,7 +31,7 @@ class SystemServiceCodeGetListRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceCode
      * @Array
      * @Optional
-     * @Group b5f5416d9e71f8e4246cda16c4723744:14116
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14412
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceCode[]
      */
     private $searchCriteriaServiceCode = array(
@@ -43,7 +43,7 @@ class SystemServiceCodeGetListRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceCodeDescription
      * @Array
      * @Optional
-     * @Group b5f5416d9e71f8e4246cda16c4723744:14116
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14412
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceCodeDescription[]
      */
     private $searchCriteriaServiceCodeDescription = array(

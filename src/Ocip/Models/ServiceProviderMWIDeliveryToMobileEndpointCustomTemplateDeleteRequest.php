@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"26ea37e78b67054650c3445a62638977:230","type":"sequence"}]
+ * @Groups [{"id":"958b78cc2a785d78259c1e8a474eb40d:230","type":"sequence"}]
  */
 class ServiceProviderMWIDeliveryToMobileEndpointCustomTemplateDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class ServiceProviderMWIDeliveryToMobileEndpointCustomTemplateDeleteRequest exte
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 26ea37e78b67054650c3445a62638977:230
+     * @Group 958b78cc2a785d78259c1e8a474eb40d:230
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,7 +26,7 @@ class ServiceProviderMWIDeliveryToMobileEndpointCustomTemplateDeleteRequest exte
     /**
      * @ElementName language
      * @Type string
-     * @Group 26ea37e78b67054650c3445a62638977:230
+     * @Group 958b78cc2a785d78259c1e8a474eb40d:230
      * @var string|null
      */
     private $language = null;
@@ -34,7 +34,7 @@ class ServiceProviderMWIDeliveryToMobileEndpointCustomTemplateDeleteRequest exte
     /**
      * @ElementName type
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointTemplateType
-     * @Group 26ea37e78b67054650c3445a62638977:230
+     * @Group 958b78cc2a785d78259c1e8a474eb40d:230
      * @var \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointTemplateType|null
      */
     private $type = null;

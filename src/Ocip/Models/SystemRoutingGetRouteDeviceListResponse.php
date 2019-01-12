@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "Port", "Transport" and "Description".
  *
  * @see SystemRoutingGetRouteDeviceListRequest
- * @Groups [{"id":"b5f5416d9e71f8e4246cda16c4723744:13516","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:13709","type":"sequence"}]
  */
 class SystemRoutingGetRouteDeviceListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class SystemRoutingGetRouteDeviceListResponse extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName routeDeviceTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group b5f5416d9e71f8e4246cda16c4723744:13516
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:13709
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $routeDeviceTable = null;

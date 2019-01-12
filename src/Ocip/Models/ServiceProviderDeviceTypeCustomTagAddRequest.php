@@ -19,7 +19,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"8eb862aea0ee5d4211db0a0d3fe7c164:2413","type":"sequence","children":[{"id":"8eb862aea0ee5d4211db0a0d3fe7c164:2418","type":"choice"}]}]
+ * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:2472","type":"sequence","children":[{"id":"f1088f4c5ceb30d524d2ba0f8097c393:2477","type":"choice"}]}]
  */
 class ServiceProviderDeviceTypeCustomTagAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -27,7 +27,7 @@ class ServiceProviderDeviceTypeCustomTagAddRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:2413
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2472
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -35,7 +35,7 @@ class ServiceProviderDeviceTypeCustomTagAddRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName deviceType
      * @Type string
-     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:2413
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2472
      * @var string|null
      */
     private $deviceType = null;
@@ -43,7 +43,7 @@ class ServiceProviderDeviceTypeCustomTagAddRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName tagName
      * @Type string
-     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:2413
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2472
      * @var string|null
      */
     private $tagName = null;
@@ -51,7 +51,7 @@ class ServiceProviderDeviceTypeCustomTagAddRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName isTagValueEncrypted
      * @Type bool
-     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:2413
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2472
      * @var bool|null
      */
     private $isTagValueEncrypted = null;
@@ -60,7 +60,7 @@ class ServiceProviderDeviceTypeCustomTagAddRequest extends \CWM\BroadWorksConnec
      * @ElementName tagValue
      * @Type string
      * @Optional
-     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:2418
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2477
      * @var string|null
      */
     private $tagValue = null;
@@ -69,7 +69,7 @@ class ServiceProviderDeviceTypeCustomTagAddRequest extends \CWM\BroadWorksConnec
      * @ElementName tagValueToEncrypt
      * @Type string
      * @Optional
-     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:2418
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2477
      * @var string|null
      */
     private $tagValueToEncrypt = null;

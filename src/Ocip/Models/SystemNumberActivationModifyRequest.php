@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:23243","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:25375","type":"sequence"}]
  */
 class SystemNumberActivationModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class SystemNumberActivationModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName useNumberActivation
      * @Type bool
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:23243
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:25375
      * @var bool|null
      */
     private $useNumberActivation = null;

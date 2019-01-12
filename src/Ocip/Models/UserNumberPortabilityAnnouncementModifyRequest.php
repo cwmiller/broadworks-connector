@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"533728af9446065ec2988e4ac73ef4d7:75","type":"sequence"}]
+ * @Groups [{"id":"6abb48a2d0672804f15670b4afa7ec02:75","type":"sequence"}]
  */
 class UserNumberPortabilityAnnouncementModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserNumberPortabilityAnnouncementModifyRequest extends \CWM\BroadWorksConn
     /**
      * @ElementName userId
      * @Type string
-     * @Group 533728af9446065ec2988e4ac73ef4d7:75
+     * @Group 6abb48a2d0672804f15670b4afa7ec02:75
      * @var string|null
      */
     private $userId = null;
@@ -27,7 +27,7 @@ class UserNumberPortabilityAnnouncementModifyRequest extends \CWM\BroadWorksConn
      * @ElementName enable
      * @Type bool
      * @Optional
-     * @Group 533728af9446065ec2988e4ac73ef4d7:75
+     * @Group 6abb48a2d0672804f15670b4afa7ec02:75
      * @var bool|null
      */
     private $enable = null;

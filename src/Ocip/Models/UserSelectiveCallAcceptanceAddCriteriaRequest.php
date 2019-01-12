@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:36785","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:11344","type":"sequence"}]
  */
 class UserSelectiveCallAcceptanceAddCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserSelectiveCallAcceptanceAddCriteriaRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName userId
      * @Type string
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:36785
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:11344
      * @var string|null
      */
     private $userId = null;
@@ -26,7 +26,7 @@ class UserSelectiveCallAcceptanceAddCriteriaRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName criteriaName
      * @Type string
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:36785
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:11344
      * @var string|null
      */
     private $criteriaName = null;
@@ -35,7 +35,7 @@ class UserSelectiveCallAcceptanceAddCriteriaRequest extends \CWM\BroadWorksConne
      * @ElementName timeSchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:36785
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:11344
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null
      */
     private $timeSchedule = null;
@@ -43,7 +43,7 @@ class UserSelectiveCallAcceptanceAddCriteriaRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName fromDnCriteria
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDn
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:36785
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:11344
      * @var \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDn|null
      */
     private $fromDnCriteria = null;

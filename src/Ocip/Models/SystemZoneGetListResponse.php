@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the SystemZoneGetListRequest.
  *
  * @see SystemZoneGetListRequest
- * @Groups [{"id":"b5f5416d9e71f8e4246cda16c4723744:17147","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:17460","type":"sequence"}]
  */
 class SystemZoneGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class SystemZoneGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\O
      * @Type string
      * @Array
      * @Optional
-     * @Group b5f5416d9e71f8e4246cda16c4723744:17147
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17460
      * @var string[]
      */
     private $zoneName = array(

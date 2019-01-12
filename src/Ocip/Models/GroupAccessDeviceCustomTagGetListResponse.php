@@ -14,7 +14,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           "Tag Name", "Tag Value", "Is Encrypted", "Actual Tag Value" if request is invoked by an admin with system privileges.
  *
  * @see GroupAccessDeviceCustomTagGetListRequest
- * @Groups [{"id":"15129cd25fa2d5581f4edfd652c24f93:389","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:395","type":"sequence"}]
  */
 class GroupAccessDeviceCustomTagGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -22,7 +22,7 @@ class GroupAccessDeviceCustomTagGetListResponse extends \CWM\BroadWorksConnector
     /**
      * @ElementName deviceCustomTagsTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 15129cd25fa2d5581f4edfd652c24f93:389
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:395
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $deviceCustomTagsTable = null;

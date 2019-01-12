@@ -17,7 +17,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see ErrorResponse
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"1d655a4f2853eddf47018e01b685b65b:131","type":"sequence"}]
+ * @Groups [{"id":"939fd5846dfae8bdf58308d6cb9ebb12:135","type":"sequence"}]
  */
 class GroupCollaborateBridgeConsolidatedDeleteInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -25,7 +25,7 @@ class GroupCollaborateBridgeConsolidatedDeleteInstanceRequest extends \CWM\Broad
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group 1d655a4f2853eddf47018e01b685b65b:131
+     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:135
      * @var string|null
      */
     private $serviceUserId = null;
@@ -34,7 +34,7 @@ class GroupCollaborateBridgeConsolidatedDeleteInstanceRequest extends \CWM\Broad
      * @ElementName unassignPhoneNumbers
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UnassignPhoneNumbersLevel
      * @Optional
-     * @Group 1d655a4f2853eddf47018e01b685b65b:131
+     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:135
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnassignPhoneNumbersLevel|null
      */
     private $unassignPhoneNumbers = null;

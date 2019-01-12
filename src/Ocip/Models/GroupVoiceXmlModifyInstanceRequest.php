@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"faa3513e1056a71169f28b6219f96cad:173","type":"sequence"}]
+ * @Groups [{"id":"0639a23b2e14be05c11ead49c23bd0bd:173","type":"sequence"}]
  */
 class GroupVoiceXmlModifyInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class GroupVoiceXmlModifyInstanceRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group faa3513e1056a71169f28b6219f96cad:173
+     * @Group 0639a23b2e14be05c11ead49c23bd0bd:173
      * @var string|null
      */
     private $serviceUserId = null;
@@ -28,7 +28,7 @@ class GroupVoiceXmlModifyInstanceRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName serviceInstanceProfile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceModifyProfile
      * @Optional
-     * @Group faa3513e1056a71169f28b6219f96cad:173
+     * @Group 0639a23b2e14be05c11ead49c23bd0bd:173
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceModifyProfile|null
      */
     private $serviceInstanceProfile = null;
@@ -37,7 +37,7 @@ class GroupVoiceXmlModifyInstanceRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName networkClassOfService
      * @Type string
      * @Optional
-     * @Group faa3513e1056a71169f28b6219f96cad:173
+     * @Group 0639a23b2e14be05c11ead49c23bd0bd:173
      * @var string|null
      */
     private $networkClassOfService = null;
@@ -47,7 +47,7 @@ class GroupVoiceXmlModifyInstanceRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointModify
      * @Nillable
      * @Optional
-     * @Group faa3513e1056a71169f28b6219f96cad:173
+     * @Group 0639a23b2e14be05c11ead49c23bd0bd:173
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointModify|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $accessDeviceEndpoint = null;

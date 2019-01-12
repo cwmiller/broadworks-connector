@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:5243","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:18322","type":"sequence"}]
  */
 class GroupCallCenterModifyInstanceRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupCallCenterModifyInstanceRequest16 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:5243
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:18322
      * @var string|null
      */
     private $serviceUserId = null;
@@ -27,7 +27,7 @@ class GroupCallCenterModifyInstanceRequest16 extends \CWM\BroadWorksConnector\Oc
      * @ElementName serviceInstanceProfile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceModifyProfile
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:5243
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:18322
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceModifyProfile|null
      */
     private $serviceInstanceProfile = null;
@@ -36,7 +36,7 @@ class GroupCallCenterModifyInstanceRequest16 extends \CWM\BroadWorksConnector\Oc
      * @ElementName type
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterType
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:5243
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:18322
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterType|null
      */
     private $type = null;
@@ -45,7 +45,7 @@ class GroupCallCenterModifyInstanceRequest16 extends \CWM\BroadWorksConnector\Oc
      * @ElementName policy
      * @Type \CWM\BroadWorksConnector\Ocip\Models\HuntPolicy
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:5243
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:18322
      * @var \CWM\BroadWorksConnector\Ocip\Models\HuntPolicy|null
      */
     private $policy = null;
@@ -54,7 +54,7 @@ class GroupCallCenterModifyInstanceRequest16 extends \CWM\BroadWorksConnector\Oc
      * @ElementName enableVideo
      * @Type bool
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:5243
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:18322
      * @var bool|null
      */
     private $enableVideo = null;
@@ -63,7 +63,7 @@ class GroupCallCenterModifyInstanceRequest16 extends \CWM\BroadWorksConnector\Oc
      * @ElementName queueLength
      * @Type int
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:5243
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:18322
      * @var int|null
      */
     private $queueLength = null;
@@ -73,7 +73,7 @@ class GroupCallCenterModifyInstanceRequest16 extends \CWM\BroadWorksConnector\Oc
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:5243
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:18322
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $reportingServerName = null;
@@ -82,7 +82,7 @@ class GroupCallCenterModifyInstanceRequest16 extends \CWM\BroadWorksConnector\Oc
      * @ElementName allowCallerToDialEscapeDigit
      * @Type bool
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:5243
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:18322
      * @var bool|null
      */
     private $allowCallerToDialEscapeDigit = null;
@@ -91,7 +91,7 @@ class GroupCallCenterModifyInstanceRequest16 extends \CWM\BroadWorksConnector\Oc
      * @ElementName escapeDigit
      * @Type string
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:5243
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:18322
      * @var string|null
      */
     private $escapeDigit = null;
@@ -100,7 +100,7 @@ class GroupCallCenterModifyInstanceRequest16 extends \CWM\BroadWorksConnector\Oc
      * @ElementName resetCallStatisticsUponEntryInQueue
      * @Type bool
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:5243
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:18322
      * @var bool|null
      */
     private $resetCallStatisticsUponEntryInQueue = null;
@@ -109,7 +109,7 @@ class GroupCallCenterModifyInstanceRequest16 extends \CWM\BroadWorksConnector\Oc
      * @ElementName allowAgentLogoff
      * @Type bool
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:5243
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:18322
      * @var bool|null
      */
     private $allowAgentLogoff = null;
@@ -118,7 +118,7 @@ class GroupCallCenterModifyInstanceRequest16 extends \CWM\BroadWorksConnector\Oc
      * @ElementName allowCallWaitingForAgents
      * @Type bool
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:5243
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:18322
      * @var bool|null
      */
     private $allowCallWaitingForAgents = null;
@@ -127,7 +127,7 @@ class GroupCallCenterModifyInstanceRequest16 extends \CWM\BroadWorksConnector\Oc
      * @ElementName allowCallsToAgentsInWrapUp
      * @Type bool
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:5243
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:18322
      * @var bool|null
      */
     private $allowCallsToAgentsInWrapUp = null;
@@ -136,7 +136,7 @@ class GroupCallCenterModifyInstanceRequest16 extends \CWM\BroadWorksConnector\Oc
      * @ElementName overrideAgentWrapUpTime
      * @Type bool
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:5243
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:18322
      * @var bool|null
      */
     private $overrideAgentWrapUpTime = null;
@@ -146,7 +146,7 @@ class GroupCallCenterModifyInstanceRequest16 extends \CWM\BroadWorksConnector\Oc
      * @Type int
      * @Nillable
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:5243
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:18322
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $wrapUpSeconds = null;
@@ -155,7 +155,7 @@ class GroupCallCenterModifyInstanceRequest16 extends \CWM\BroadWorksConnector\Oc
      * @ElementName forceDeliveryOfCalls
      * @Type bool
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:5243
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:18322
      * @var bool|null
      */
     private $forceDeliveryOfCalls = null;
@@ -165,7 +165,7 @@ class GroupCallCenterModifyInstanceRequest16 extends \CWM\BroadWorksConnector\Oc
      * @Type int
      * @Nillable
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:5243
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:18322
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $forceDeliveryWaitTimeSeconds = null;
@@ -174,7 +174,7 @@ class GroupCallCenterModifyInstanceRequest16 extends \CWM\BroadWorksConnector\Oc
      * @ElementName enableAutomaticStateChangeForAgents
      * @Type bool
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:5243
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:18322
      * @var bool|null
      */
     private $enableAutomaticStateChangeForAgents = null;
@@ -183,7 +183,7 @@ class GroupCallCenterModifyInstanceRequest16 extends \CWM\BroadWorksConnector\Oc
      * @ElementName agentStateAfterCall
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AgentACDAutomaticState
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:5243
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:18322
      * @var \CWM\BroadWorksConnector\Ocip\Models\AgentACDAutomaticState|null
      */
     private $agentStateAfterCall = null;
@@ -193,7 +193,7 @@ class GroupCallCenterModifyInstanceRequest16 extends \CWM\BroadWorksConnector\Oc
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:5243
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:18322
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $agentUnavailableCode = null;
@@ -202,7 +202,7 @@ class GroupCallCenterModifyInstanceRequest16 extends \CWM\BroadWorksConnector\Oc
      * @ElementName externalPreferredAudioCodec
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AudioFileCodec
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:5243
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:18322
      * @var \CWM\BroadWorksConnector\Ocip\Models\AudioFileCodec|null
      */
     private $externalPreferredAudioCodec = null;
@@ -211,7 +211,7 @@ class GroupCallCenterModifyInstanceRequest16 extends \CWM\BroadWorksConnector\Oc
      * @ElementName internalPreferredAudioCodec
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AudioFileCodec
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:5243
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:18322
      * @var \CWM\BroadWorksConnector\Ocip\Models\AudioFileCodec|null
      */
     private $internalPreferredAudioCodec = null;
@@ -220,7 +220,7 @@ class GroupCallCenterModifyInstanceRequest16 extends \CWM\BroadWorksConnector\Oc
      * @ElementName playRingingWhenOfferingCall
      * @Type bool
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:5243
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:18322
      * @var bool|null
      */
     private $playRingingWhenOfferingCall = null;

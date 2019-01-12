@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the GroupCallCenterHolidayServiceGetRequest.
  *
  * @see GroupCallCenterHolidayServiceGetRequest
- * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:4875","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:12572","type":"sequence"}]
  */
 class GroupCallCenterHolidayServiceGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class GroupCallCenterHolidayServiceGetResponse extends \CWM\BroadWorksConnector\
     /**
      * @ElementName action
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterScheduledServiceAction
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:4875
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:12572
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterScheduledServiceAction|null
      */
     private $action = null;
@@ -25,7 +25,7 @@ class GroupCallCenterHolidayServiceGetResponse extends \CWM\BroadWorksConnector\
      * @ElementName holidaySchedule
      * @Type string
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:4875
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:12572
      * @var string|null
      */
     private $holidaySchedule = null;
@@ -34,7 +34,7 @@ class GroupCallCenterHolidayServiceGetResponse extends \CWM\BroadWorksConnector\
      * @ElementName transferPhoneNumber
      * @Type string
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:4875
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:12572
      * @var string|null
      */
     private $transferPhoneNumber = null;
@@ -42,7 +42,7 @@ class GroupCallCenterHolidayServiceGetResponse extends \CWM\BroadWorksConnector\
     /**
      * @ElementName playAnnouncementBeforeAction
      * @Type bool
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:4875
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:12572
      * @var bool|null
      */
     private $playAnnouncementBeforeAction = null;
@@ -50,7 +50,7 @@ class GroupCallCenterHolidayServiceGetResponse extends \CWM\BroadWorksConnector\
     /**
      * @ElementName audioMessageSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:4875
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:12572
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     private $audioMessageSelection = null;
@@ -59,7 +59,7 @@ class GroupCallCenterHolidayServiceGetResponse extends \CWM\BroadWorksConnector\
      * @ElementName audioFileUrl
      * @Type string
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:4875
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:12572
      * @var string|null
      */
     private $audioFileUrl = null;
@@ -68,7 +68,7 @@ class GroupCallCenterHolidayServiceGetResponse extends \CWM\BroadWorksConnector\
      * @ElementName audioFileDescription
      * @Type string
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:4875
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:12572
      * @var string|null
      */
     private $audioFileDescription = null;
@@ -77,7 +77,7 @@ class GroupCallCenterHolidayServiceGetResponse extends \CWM\BroadWorksConnector\
      * @ElementName audioMediaType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MediaFileType
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:4875
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:12572
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     private $audioMediaType = null;
@@ -85,7 +85,7 @@ class GroupCallCenterHolidayServiceGetResponse extends \CWM\BroadWorksConnector\
     /**
      * @ElementName videoMessageSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:4875
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:12572
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     private $videoMessageSelection = null;
@@ -94,7 +94,7 @@ class GroupCallCenterHolidayServiceGetResponse extends \CWM\BroadWorksConnector\
      * @ElementName videoFileUrl
      * @Type string
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:4875
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:12572
      * @var string|null
      */
     private $videoFileUrl = null;
@@ -103,7 +103,7 @@ class GroupCallCenterHolidayServiceGetResponse extends \CWM\BroadWorksConnector\
      * @ElementName videoFileDescription
      * @Type string
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:4875
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:12572
      * @var string|null
      */
     private $videoFileDescription = null;
@@ -112,7 +112,7 @@ class GroupCallCenterHolidayServiceGetResponse extends \CWM\BroadWorksConnector\
      * @ElementName videoMediaType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MediaFileType
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:4875
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:12572
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     private $videoMediaType = null;

@@ -7,10 +7,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Request to get the list of system licenses in the system.
  *         The response is either a SystemLicensingGetSystemLicenseListResponse21sp1 or an ErrorResponse.
+ *         
+ *         Replaced by: SystemLicensingGetSystemLicenseListRequest22.
  *
  * @see SystemLicensingGetSystemLicenseListResponse21sp1
  * @see ErrorResponse
- * @Groups [{"id":"b5f5416d9e71f8e4246cda16c4723744:9875","type":"sequence"}]
+ * @see SystemLicensingGetSystemLicenseListRequest22
+ * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:3183","type":"sequence"}]
  */
 class SystemLicensingGetSystemLicenseListRequest21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

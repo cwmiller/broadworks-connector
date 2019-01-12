@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * A list of user services that replaces a previously authorized user services.
  *
- * @Groups [{"id":"8e629edbac315ae7889caca732382c44:2800","type":"sequence"}]
+ * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:3056","type":"sequence"}]
  */
 class ReplacementCombinedUserServiceAuthorizationList
 {
@@ -16,7 +16,7 @@ class ReplacementCombinedUserServiceAuthorizationList
      * @ElementName userServiceAuthorization
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CombinedUserServiceAuthorization
      * @Array
-     * @Group 8e629edbac315ae7889caca732382c44:2800
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:3056
      * @var \CWM\BroadWorksConnector\Ocip\Models\CombinedUserServiceAuthorization[]
      */
     private $userServiceAuthorization = array(

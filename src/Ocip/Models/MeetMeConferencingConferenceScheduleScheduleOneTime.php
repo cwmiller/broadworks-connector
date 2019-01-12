@@ -5,7 +5,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * MeetMeConferencingConferenceScheduleScheduleOneTime
  *
- * @Groups [{"id":"7a29c84abb8473449085e6657fc6948d:933","type":"sequence"}]
+ * @Groups [{"id":"0fd24121d16995c994d40bc408dbcfa5:989","type":"sequence"}]
  */
 class MeetMeConferencingConferenceScheduleScheduleOneTime
 {
@@ -13,7 +13,7 @@ class MeetMeConferencingConferenceScheduleScheduleOneTime
     /**
      * @ElementName startTime
      * @Type string
-     * @Group 7a29c84abb8473449085e6657fc6948d:933
+     * @Group 0fd24121d16995c994d40bc408dbcfa5:989
      * @var string|null
      */
     private $startTime = null;
@@ -21,7 +21,7 @@ class MeetMeConferencingConferenceScheduleScheduleOneTime
     /**
      * @ElementName duration
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceDuration
-     * @Group 7a29c84abb8473449085e6657fc6948d:933
+     * @Group 0fd24121d16995c994d40bc408dbcfa5:989
      * @var \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceDuration|null
      */
     private $duration = null;

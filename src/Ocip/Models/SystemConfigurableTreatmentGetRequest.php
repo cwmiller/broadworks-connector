@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SystemConfigurableTreatmentGetResponse
  * @see ErrorResponse
  * @see SystemConfigurableTreatmentGetRequest16
- * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:21132","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:9926","type":"sequence"}]
  */
 class SystemConfigurableTreatmentGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class SystemConfigurableTreatmentGetRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName treatmentId
      * @Type string
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:21132
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:9926
      * @var string|null
      */
     private $treatmentId = null;

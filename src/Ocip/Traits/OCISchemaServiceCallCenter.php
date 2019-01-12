@@ -12,8 +12,12 @@ use CWM\BroadWorksConnector\Ocip\Models\EnterpriseCallCenterAgentThresholdProfil
 use CWM\BroadWorksConnector\Ocip\Models\EnterpriseCallCenterAgentThresholdProfileDeleteRequest;
 use CWM\BroadWorksConnector\Ocip\Models\EnterpriseCallCenterAgentThresholdProfileGetAvailableAgentListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\EnterpriseCallCenterAgentThresholdProfileGetAvailableAgentListResponse;
+use CWM\BroadWorksConnector\Ocip\Models\EnterpriseCallCenterAgentThresholdProfileGetAvailableAgentPagedSortedListRequest;
+use CWM\BroadWorksConnector\Ocip\Models\EnterpriseCallCenterAgentThresholdProfileGetAvailableAgentPagedSortedListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\EnterpriseCallCenterAgentThresholdProfileGetListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\EnterpriseCallCenterAgentThresholdProfileGetListResponse;
+use CWM\BroadWorksConnector\Ocip\Models\EnterpriseCallCenterAgentThresholdProfileGetPagedSortedRequest;
+use CWM\BroadWorksConnector\Ocip\Models\EnterpriseCallCenterAgentThresholdProfileGetPagedSortedResponse;
 use CWM\BroadWorksConnector\Ocip\Models\EnterpriseCallCenterAgentThresholdProfileGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\EnterpriseCallCenterAgentThresholdProfileGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\EnterpriseCallCenterAgentThresholdProfileModifyRequest;
@@ -89,8 +93,12 @@ use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterAgentThresholdProfileDele
 use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterAgentThresholdProfileDeleteRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterAgentThresholdProfileGetAvailableAgentListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterAgentThresholdProfileGetAvailableAgentListResponse;
+use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterAgentThresholdProfileGetAvailableAgentPagedSortedListRequest;
+use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterAgentThresholdProfileGetAvailableAgentPagedSortedListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterAgentThresholdProfileGetListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterAgentThresholdProfileGetListResponse;
+use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterAgentThresholdProfileGetPagedSortedRequest;
+use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterAgentThresholdProfileGetPagedSortedResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterAgentThresholdProfileGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterAgentThresholdProfileGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterAgentThresholdProfileModifyRequest;
@@ -165,22 +173,27 @@ use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterForcedForwardingGetReques
 use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterForcedForwardingGetResponse20;
 use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterForcedForwardingModifyRequest20;
 use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterGetAgentListRequest;
-use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterGetAnnouncementRequest20;
-use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterGetAnnouncementResponse20;
+use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterGetAgentPagedSortedListRequest;
+use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterGetAnnouncementRequest22;
+use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterGetAnnouncementResponse22;
 use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterGetAvailableAgentListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterGetAvailableAgentListResponse;
+use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterGetAvailableAgentPagedSortedListRequest;
+use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterGetAvailableAgentPagedSortedListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterGetAvailableSupervisorListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterGetAvailableSupervisorListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterGetDistinctiveRingingRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterGetDistinctiveRingingResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterGetDNISAgentListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterGetDNISAgentListResponse;
-use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterGetDNISAnnouncementRequest20;
+use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterGetDNISAnnouncementRequest22;
 use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterGetDNISListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterGetDNISListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterGetDNISRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterGetInstanceListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterGetInstanceListResponse;
+use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterGetInstancePagedSortedListRequest;
+use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterGetInstancePagedSortedListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterGetInstanceQueueStatusRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterGetInstanceQueueStatusResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterGetInstanceRequest22;
@@ -238,6 +251,9 @@ use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterStrandedCallModifyRequest
 use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterStrandedCallUnavailableGetRequest20;
 use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterStrandedCallUnavailableGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterStrandedCallUnavailableModifyRequest20;
+use CWM\BroadWorksConnector\Ocip\Models\ResellerCallCenterGetRequest;
+use CWM\BroadWorksConnector\Ocip\Models\ResellerCallCenterGetResponse;
+use CWM\BroadWorksConnector\Ocip\Models\ResellerCallCenterModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemCallCenterEnhancedReportingBrandingGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemCallCenterEnhancedReportingBrandingGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\SystemCallCenterEnhancedReportingBrandingModifyRequest;
@@ -285,6 +301,8 @@ use CWM\BroadWorksConnector\Ocip\Models\UserCallCenterGetAgentSupervisorListRequ
 use CWM\BroadWorksConnector\Ocip\Models\UserCallCenterGetAgentSupervisorListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserCallCenterGetAvailableCallCenterListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserCallCenterGetAvailableCallCenterListResponse;
+use CWM\BroadWorksConnector\Ocip\Models\UserCallCenterGetAvailableCallCenterPagedSortedListRequest;
+use CWM\BroadWorksConnector\Ocip\Models\UserCallCenterGetAvailableCallCenterPagedSortedListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserCallCenterGetAvailableDNISListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserCallCenterGetAvailableDNISListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserCallCenterGetRequest19;
@@ -392,12 +410,34 @@ trait OCISchemaServiceCallCenter
     }
 
     /**
+     * @param EnterpriseCallCenterAgentThresholdProfileGetAvailableAgentPagedSortedListRequest $request
+     * @return EnterpriseCallCenterAgentThresholdProfileGetAvailableAgentPagedSortedListResponse
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function enterpriseCallCenterAgentThresholdProfileGetAvailableAgentPagedSortedListRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseCallCenterAgentThresholdProfileGetAvailableAgentPagedSortedListRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
      * @param EnterpriseCallCenterAgentThresholdProfileGetListRequest $request
      * @return EnterpriseCallCenterAgentThresholdProfileGetListResponse
      * @throws ErrorResponseException
      * @throws ValidationException
      */
     public function enterpriseCallCenterAgentThresholdProfileGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseCallCenterAgentThresholdProfileGetListRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param EnterpriseCallCenterAgentThresholdProfileGetPagedSortedRequest $request
+     * @return EnterpriseCallCenterAgentThresholdProfileGetPagedSortedResponse
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function enterpriseCallCenterAgentThresholdProfileGetPagedSortedRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseCallCenterAgentThresholdProfileGetPagedSortedRequest $request)
     {
         return $this->call($request);
     }
@@ -964,12 +1004,34 @@ trait OCISchemaServiceCallCenter
     }
 
     /**
+     * @param GroupCallCenterAgentThresholdProfileGetAvailableAgentPagedSortedListRequest $request
+     * @return GroupCallCenterAgentThresholdProfileGetAvailableAgentPagedSortedListResponse
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function groupCallCenterAgentThresholdProfileGetAvailableAgentPagedSortedListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterAgentThresholdProfileGetAvailableAgentPagedSortedListRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
      * @param GroupCallCenterAgentThresholdProfileGetListRequest $request
      * @return GroupCallCenterAgentThresholdProfileGetListResponse
      * @throws ErrorResponseException
      * @throws ValidationException
      */
     public function groupCallCenterAgentThresholdProfileGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterAgentThresholdProfileGetListRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param GroupCallCenterAgentThresholdProfileGetPagedSortedRequest $request
+     * @return GroupCallCenterAgentThresholdProfileGetPagedSortedResponse
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function groupCallCenterAgentThresholdProfileGetPagedSortedRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterAgentThresholdProfileGetPagedSortedRequest $request)
     {
         return $this->call($request);
     }
@@ -1525,12 +1587,23 @@ trait OCISchemaServiceCallCenter
     }
 
     /**
-     * @param GroupCallCenterGetAnnouncementRequest20 $request
-     * @return GroupCallCenterGetAnnouncementResponse20
+     * @param GroupCallCenterGetAgentPagedSortedListRequest $request
+     * @return 
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function groupCallCenterGetAnnouncementRequest20(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterGetAnnouncementRequest20 $request)
+    public function groupCallCenterGetAgentPagedSortedListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterGetAgentPagedSortedListRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param GroupCallCenterGetAnnouncementRequest22 $request
+     * @return GroupCallCenterGetAnnouncementResponse22
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function groupCallCenterGetAnnouncementRequest22(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterGetAnnouncementRequest22 $request)
     {
         return $this->call($request);
     }
@@ -1542,6 +1615,17 @@ trait OCISchemaServiceCallCenter
      * @throws ValidationException
      */
     public function groupCallCenterGetAvailableAgentListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterGetAvailableAgentListRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param GroupCallCenterGetAvailableAgentPagedSortedListRequest $request
+     * @return GroupCallCenterGetAvailableAgentPagedSortedListResponse
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function groupCallCenterGetAvailableAgentPagedSortedListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterGetAvailableAgentPagedSortedListRequest $request)
     {
         return $this->call($request);
     }
@@ -1580,12 +1664,12 @@ trait OCISchemaServiceCallCenter
     }
 
     /**
-     * @param GroupCallCenterGetDNISAnnouncementRequest20 $request
+     * @param GroupCallCenterGetDNISAnnouncementRequest22 $request
      * @return 
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function groupCallCenterGetDNISAnnouncementRequest20(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterGetDNISAnnouncementRequest20 $request)
+    public function groupCallCenterGetDNISAnnouncementRequest22(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterGetDNISAnnouncementRequest22 $request)
     {
         return $this->call($request);
     }
@@ -1619,6 +1703,17 @@ trait OCISchemaServiceCallCenter
      * @throws ValidationException
      */
     public function groupCallCenterGetInstanceListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterGetInstanceListRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param GroupCallCenterGetInstancePagedSortedListRequest $request
+     * @return GroupCallCenterGetInstancePagedSortedListResponse
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function groupCallCenterGetInstancePagedSortedListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterGetInstancePagedSortedListRequest $request)
     {
         return $this->call($request);
     }
@@ -2086,6 +2181,28 @@ trait OCISchemaServiceCallCenter
     }
 
     /**
+     * @param ResellerCallCenterGetRequest $request
+     * @return ResellerCallCenterGetResponse
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function resellerCallCenterGetRequest(\CWM\BroadWorksConnector\Ocip\Models\ResellerCallCenterGetRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param ResellerCallCenterModifyRequest $request
+     * @return SuccessResponse
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function resellerCallCenterModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\ResellerCallCenterModifyRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
      * @param SystemCallCenterEnhancedReportingBrandingGetRequest $request
      * @return SystemCallCenterEnhancedReportingBrandingGetResponse
      * @throws ErrorResponseException
@@ -2400,6 +2517,17 @@ trait OCISchemaServiceCallCenter
      * @throws ValidationException
      */
     public function userCallCenterGetAvailableCallCenterListRequest(\CWM\BroadWorksConnector\Ocip\Models\UserCallCenterGetAvailableCallCenterListRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param UserCallCenterGetAvailableCallCenterPagedSortedListRequest $request
+     * @return UserCallCenterGetAvailableCallCenterPagedSortedListResponse
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function userCallCenterGetAvailableCallCenterPagedSortedListRequest(\CWM\BroadWorksConnector\Ocip\Models\UserCallCenterGetAvailableCallCenterPagedSortedListRequest $request)
     {
         return $this->call($request);
     }

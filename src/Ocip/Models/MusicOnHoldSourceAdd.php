@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Contains the music on hold source configuration.
  *
- * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:39224","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:42403","type":"sequence"}]
  */
 class MusicOnHoldSourceAdd
 {
@@ -15,7 +15,7 @@ class MusicOnHoldSourceAdd
     /**
      * @ElementName audioFilePreferredCodec
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AudioFileCodec
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:39224
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:42403
      * @var \CWM\BroadWorksConnector\Ocip\Models\AudioFileCodec|null
      */
     private $audioFilePreferredCodec = null;
@@ -23,7 +23,7 @@ class MusicOnHoldSourceAdd
     /**
      * @ElementName messageSourceSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldMessageSelection
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:39224
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:42403
      * @var \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldMessageSelection|null
      */
     private $messageSourceSelection = null;
@@ -32,7 +32,7 @@ class MusicOnHoldSourceAdd
      * @ElementName customSource
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceAddCustomSource
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:39224
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:42403
      * @var \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceAddCustomSource|null
      */
     private $customSource = null;
@@ -41,7 +41,7 @@ class MusicOnHoldSourceAdd
      * @ElementName externalSource
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceAddExternalSource
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:39224
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:42403
      * @var \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceAddExternalSource|null
      */
     private $externalSource = null;

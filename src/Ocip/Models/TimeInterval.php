@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Time Interval.
  *
- * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:39568","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:42295","type":"sequence"}]
  */
 class TimeInterval
 {
@@ -15,7 +15,7 @@ class TimeInterval
     /**
      * @ElementName startDayOfWeek
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DayOfWeek
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:39568
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:42295
      * @var \CWM\BroadWorksConnector\Ocip\Models\DayOfWeek|null
      */
     private $startDayOfWeek = null;
@@ -23,7 +23,7 @@ class TimeInterval
     /**
      * @ElementName startHour
      * @Type int
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:39568
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:42295
      * @var int|null
      */
     private $startHour = null;
@@ -31,7 +31,7 @@ class TimeInterval
     /**
      * @ElementName startMinute
      * @Type int
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:39568
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:42295
      * @var int|null
      */
     private $startMinute = null;
@@ -39,7 +39,7 @@ class TimeInterval
     /**
      * @ElementName endDayOfWeek
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DayOfWeek
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:39568
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:42295
      * @var \CWM\BroadWorksConnector\Ocip\Models\DayOfWeek|null
      */
     private $endDayOfWeek = null;
@@ -47,7 +47,7 @@ class TimeInterval
     /**
      * @ElementName endHour
      * @Type int
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:39568
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:42295
      * @var int|null
      */
     private $endHour = null;
@@ -55,7 +55,7 @@ class TimeInterval
     /**
      * @ElementName endMinute
      * @Type int
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:39568
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:42295
      * @var int|null
      */
     private $endMinute = null;

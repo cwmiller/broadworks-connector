@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see ServiceProviderBroadWorksMobilityGetResponse19sp1
  * @see ErrorResponse
  * @see ServiceProviderBroadWorksMobilityGetRequest22
- * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:15167","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:35410","type":"sequence"}]
  */
 class ServiceProviderBroadWorksMobilityGetRequest19sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,7 +21,7 @@ class ServiceProviderBroadWorksMobilityGetRequest19sp1 extends \CWM\BroadWorksCo
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:15167
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:35410
      * @var string|null
      */
     private $serviceProviderId = null;

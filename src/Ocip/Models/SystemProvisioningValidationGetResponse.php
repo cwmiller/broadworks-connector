@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the SystemProvisioningValidationGetRequest.
  *
  * @see SystemProvisioningValidationGetRequest
- * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:24068","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:5365","type":"sequence"}]
  */
 class SystemProvisioningValidationGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class SystemProvisioningValidationGetResponse extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:24068
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:5365
      * @var bool|null
      */
     private $isActive = null;

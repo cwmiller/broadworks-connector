@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Alternate Number Entry.
  *
- * @Groups [{"id":"bb12a3589ab4748963f28f7ac9310f70:5771","type":"sequence"}]
+ * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:8062","type":"sequence"}]
  */
 class AlternateNumberEntry17
 {
@@ -17,7 +17,7 @@ class AlternateNumberEntry17
      * @Type string
      * @Nillable
      * @Optional
-     * @Group bb12a3589ab4748963f28f7ac9310f70:5771
+     * @Group de4d76f01f337fe4694212ec9f771753:8062
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $phoneNumber = null;
@@ -27,7 +27,7 @@ class AlternateNumberEntry17
      * @Type string
      * @Nillable
      * @Optional
-     * @Group bb12a3589ab4748963f28f7ac9310f70:5771
+     * @Group de4d76f01f337fe4694212ec9f771753:8062
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $extension = null;
@@ -37,7 +37,7 @@ class AlternateNumberEntry17
      * @Type \CWM\BroadWorksConnector\Ocip\Models\RingPattern
      * @Nillable
      * @Optional
-     * @Group bb12a3589ab4748963f28f7ac9310f70:5771
+     * @Group de4d76f01f337fe4694212ec9f771753:8062
      * @var \CWM\BroadWorksConnector\Ocip\Models\RingPattern|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $ringPattern = null;

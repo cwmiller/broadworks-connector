@@ -5,7 +5,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * ServiceProviderServicePackMigrationTaskModifyGroupListRequestGroupIdList
  *
- * @Groups [{"id":"8eb862aea0ee5d4211db0a0d3fe7c164:5446","type":"sequence"}]
+ * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:5618","type":"sequence"}]
  */
 class ServiceProviderServicePackMigrationTaskModifyGroupListRequestGroupIdList
 {
@@ -14,7 +14,7 @@ class ServiceProviderServicePackMigrationTaskModifyGroupListRequestGroupIdList
      * @ElementName groupId
      * @Type string
      * @Array
-     * @Group 8eb862aea0ee5d4211db0a0d3fe7c164:5446
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5618
      * @var string[]
      */
     private $groupId = array(

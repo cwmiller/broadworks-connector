@@ -14,7 +14,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SystemSubscriberGetCallProcessingParametersResponse17sp4
  * @see ErrorResponse
  * @see SystemSubscriberGetCallProcessingParametersRequest18sp1
- * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:28308","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:26018","type":"sequence"}]
  */
 class SystemSubscriberGetCallProcessingParametersRequest17sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

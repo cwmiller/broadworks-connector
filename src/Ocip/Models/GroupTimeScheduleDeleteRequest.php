@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:11289","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:13663","type":"sequence"}]
  */
 class GroupTimeScheduleDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupTimeScheduleDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:11289
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:13663
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,7 +26,7 @@ class GroupTimeScheduleDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:11289
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:13663
      * @var string|null
      */
     private $groupId = null;
@@ -34,7 +34,7 @@ class GroupTimeScheduleDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName timeScheduleName
      * @Type string
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:11289
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:13663
      * @var string|null
      */
     private $timeScheduleName = null;

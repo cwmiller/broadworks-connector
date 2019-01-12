@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemBroadWorksMobilityGetMobileNetworkIMRNListResponse
  * @see ErrorResponse
- * @Groups [{"id":"6536ac9946b3d8422bec81ad9d995e2b:619","type":"sequence"}]
+ * @Groups [{"id":"f7ae3539fd471e995b07dc1bf8836e2d:754","type":"sequence"}]
  */
 class SystemBroadWorksMobilityGetMobileNetworkIMRNListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class SystemBroadWorksMobilityGetMobileNetworkIMRNListRequest extends \CWM\Broad
     /**
      * @ElementName mobileNetworkName
      * @Type string
-     * @Group 6536ac9946b3d8422bec81ad9d995e2b:619
+     * @Group f7ae3539fd471e995b07dc1bf8836e2d:754
      * @var string|null
      */
     private $mobileNetworkName = null;
@@ -29,7 +29,7 @@ class SystemBroadWorksMobilityGetMobileNetworkIMRNListRequest extends \CWM\Broad
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaIMRN
      * @Array
      * @Optional
-     * @Group 6536ac9946b3d8422bec81ad9d995e2b:619
+     * @Group f7ae3539fd471e995b07dc1bf8836e2d:754
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaIMRN[]
      */
     private $searchCriteriaIMRN = array(

@@ -7,11 +7,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Request to export Application Server addressing data, such as DNs, extensions, alias and user ids
  *         to a file so they can be uploaded to a Network Server.
+ *         In XS data mode, response is sent without waiting for completion.
  *         The response is either a SuccessResponse or an ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"b5f5416d9e71f8e4246cda16c4723744:8341","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:8522","type":"sequence"}]
  */
 class SystemExportAddressingDataRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +20,7 @@ class SystemExportAddressingDataRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName fileName
      * @Type string
-     * @Group b5f5416d9e71f8e4246cda16c4723744:8341
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8522
      * @var string|null
      */
     private $fileName = null;

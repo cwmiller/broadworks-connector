@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see ServiceProviderEnhancedCallLogsGetResponse17sp4
  * @see ErrorResponse
  * @see ErrorResponse
- * @Groups [{"id":"04a33199b8359d9cc787bc7a2d16ab12:102","type":"sequence"}]
+ * @Groups [{"id":"f6b3702edb5f67fa12c2c426d98657db:46","type":"sequence"}]
  */
 class ServiceProviderEnhancedCallLogsGetRequest17sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class ServiceProviderEnhancedCallLogsGetRequest17sp4 extends \CWM\BroadWorksConn
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 04a33199b8359d9cc787bc7a2d16ab12:102
+     * @Group f6b3702edb5f67fa12c2c426d98657db:46
      * @var string|null
      */
     private $serviceProviderId = null;

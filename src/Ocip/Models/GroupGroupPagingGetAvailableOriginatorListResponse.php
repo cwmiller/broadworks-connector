@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "Phone Number", "Extension", "Department", "Email Address".
  *
  * @see GroupGroupPagingGetAvailableOriginatorListRequest
- * @Groups [{"id":"756d4171668642e53d80bfcb4d781d63:196","type":"sequence"}]
+ * @Groups [{"id":"0d36df8c109e3ea7324f79031368c661:196","type":"sequence"}]
  */
 class GroupGroupPagingGetAvailableOriginatorListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class GroupGroupPagingGetAvailableOriginatorListResponse extends \CWM\BroadWorks
     /**
      * @ElementName userTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 756d4171668642e53d80bfcb4d781d63:196
+     * @Group 0d36df8c109e3ea7324f79031368c661:196
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $userTable = null;

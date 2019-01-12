@@ -15,12 +15,12 @@ use CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointDistinctiveRingingModifyR
 use CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointForcedForwardingGetRequest20;
 use CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointForcedForwardingGetResponse20;
 use CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointForcedForwardingModifyRequest20;
-use CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointGetAnnouncementRequest20;
-use CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointGetAnnouncementResponse20;
+use CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointGetAnnouncementRequest22;
+use CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointGetAnnouncementResponse22;
 use CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointGetDNISAgentListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointGetDNISAgentListResponse;
-use CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointGetDNISAnnouncementRequest20;
-use CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointGetDNISAnnouncementResponse20;
+use CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointGetDNISAnnouncementRequest22;
+use CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointGetDNISAnnouncementResponse22;
 use CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointGetDNISListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointGetDNISListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointGetDNISRequest;
@@ -180,12 +180,12 @@ trait OCISchemaServiceRoutePoint
     }
 
     /**
-     * @param GroupRoutePointGetAnnouncementRequest20 $request
-     * @return GroupRoutePointGetAnnouncementResponse20
+     * @param GroupRoutePointGetAnnouncementRequest22 $request
+     * @return GroupRoutePointGetAnnouncementResponse22
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function groupRoutePointGetAnnouncementRequest20(\CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointGetAnnouncementRequest20 $request)
+    public function groupRoutePointGetAnnouncementRequest22(\CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointGetAnnouncementRequest22 $request)
     {
         return $this->call($request);
     }
@@ -202,12 +202,12 @@ trait OCISchemaServiceRoutePoint
     }
 
     /**
-     * @param GroupRoutePointGetDNISAnnouncementRequest20 $request
-     * @return GroupRoutePointGetDNISAnnouncementResponse20
+     * @param GroupRoutePointGetDNISAnnouncementRequest22 $request
+     * @return GroupRoutePointGetDNISAnnouncementResponse22
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function groupRoutePointGetDNISAnnouncementRequest20(\CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointGetDNISAnnouncementRequest20 $request)
+    public function groupRoutePointGetDNISAnnouncementRequest22(\CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointGetDNISAnnouncementRequest22 $request)
     {
         return $this->call($request);
     }

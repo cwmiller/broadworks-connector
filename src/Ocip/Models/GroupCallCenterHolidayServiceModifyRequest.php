@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:4954","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:12599","type":"sequence"}]
  */
 class GroupCallCenterHolidayServiceModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupCallCenterHolidayServiceModifyRequest extends \CWM\BroadWorksConnecto
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:4954
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:12599
      * @var string|null
      */
     private $serviceUserId = null;
@@ -27,7 +27,7 @@ class GroupCallCenterHolidayServiceModifyRequest extends \CWM\BroadWorksConnecto
      * @ElementName action
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterScheduledServiceAction
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:4954
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:12599
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterScheduledServiceAction|null
      */
     private $action = null;
@@ -37,7 +37,7 @@ class GroupCallCenterHolidayServiceModifyRequest extends \CWM\BroadWorksConnecto
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:4954
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:12599
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $holidaySchedule = null;
@@ -47,7 +47,7 @@ class GroupCallCenterHolidayServiceModifyRequest extends \CWM\BroadWorksConnecto
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:4954
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:12599
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $transferPhoneNumber = null;
@@ -56,7 +56,7 @@ class GroupCallCenterHolidayServiceModifyRequest extends \CWM\BroadWorksConnecto
      * @ElementName playAnnouncementBeforeAction
      * @Type bool
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:4954
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:12599
      * @var bool|null
      */
     private $playAnnouncementBeforeAction = null;
@@ -65,7 +65,7 @@ class GroupCallCenterHolidayServiceModifyRequest extends \CWM\BroadWorksConnecto
      * @ElementName audioMessageSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:4954
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:12599
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     private $audioMessageSelection = null;
@@ -74,7 +74,7 @@ class GroupCallCenterHolidayServiceModifyRequest extends \CWM\BroadWorksConnecto
      * @ElementName audioFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileResource
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:4954
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:12599
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileResource|null
      */
     private $audioFile = null;
@@ -83,7 +83,7 @@ class GroupCallCenterHolidayServiceModifyRequest extends \CWM\BroadWorksConnecto
      * @ElementName videoMessageSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:4954
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:12599
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     private $videoMessageSelection = null;
@@ -92,7 +92,7 @@ class GroupCallCenterHolidayServiceModifyRequest extends \CWM\BroadWorksConnecto
      * @ElementName videoFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileResource
      * @Optional
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:4954
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:12599
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileResource|null
      */
     private $videoFile = null;

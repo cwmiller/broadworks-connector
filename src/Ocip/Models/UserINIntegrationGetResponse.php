@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to UserINIntegrationGetRequest
  *
  * @see UserINIntegrationGetRequest
- * @Groups [{"id":"06d4954a0a03fb9a2ab562bdd6f2de26:56","type":"sequence"}]
+ * @Groups [{"id":"e2b7b9ea45350592016ce6935a4d7694:56","type":"sequence"}]
  */
 class UserINIntegrationGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class UserINIntegrationGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\
      * @ElementName originatingServiceKey
      * @Type int
      * @Optional
-     * @Group 06d4954a0a03fb9a2ab562bdd6f2de26:56
+     * @Group e2b7b9ea45350592016ce6935a4d7694:56
      * @var int|null
      */
     private $originatingServiceKey = null;
@@ -26,7 +26,7 @@ class UserINIntegrationGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\
      * @ElementName terminatingServiceKey
      * @Type int
      * @Optional
-     * @Group 06d4954a0a03fb9a2ab562bdd6f2de26:56
+     * @Group e2b7b9ea45350592016ce6935a4d7694:56
      * @var int|null
      */
     private $terminatingServiceKey = null;

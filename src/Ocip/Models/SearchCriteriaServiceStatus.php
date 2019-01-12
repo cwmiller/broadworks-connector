@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see EnterpriseUserCallWaitingSettingsGetListRequest
  * @see GroupUserCallWaitingSettingsGetListRequest
- * @Groups [{"id":"e446bfcbd1f39cbef57d1547014f2bb9:1908","type":"sequence"}]
+ * @Groups [{"id":"f0ada2681ca347fa83b464734259b304:2041","type":"sequence"}]
  */
 class SearchCriteriaServiceStatus extends SearchCriteria
 {
@@ -21,7 +21,7 @@ class SearchCriteriaServiceStatus extends SearchCriteria
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group e446bfcbd1f39cbef57d1547014f2bb9:1908
+     * @Group f0ada2681ca347fa83b464734259b304:2041
      * @var bool|null
      */
     private $isActive = null;

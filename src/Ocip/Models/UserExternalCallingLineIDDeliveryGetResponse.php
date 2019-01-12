@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to UserExternalCallingLineIDDeliveryGetRequest.
  *
  * @see UserExternalCallingLineIDDeliveryGetRequest
- * @Groups [{"id":"f766c094160edec263897d07e784c76a:59","type":"sequence"}]
+ * @Groups [{"id":"32d8ff77cb7d4bf4500d71bb2fddabb9:59","type":"sequence"}]
  */
 class UserExternalCallingLineIDDeliveryGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class UserExternalCallingLineIDDeliveryGetResponse extends \CWM\BroadWorksConnec
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group f766c094160edec263897d07e784c76a:59
+     * @Group 32d8ff77cb7d4bf4500d71bb2fddabb9:59
      * @var bool|null
      */
     private $isActive = null;

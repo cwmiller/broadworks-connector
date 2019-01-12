@@ -9,11 +9,18 @@ use CWM\BroadWorksConnector\Ocip\Models\GroupCollaborateBridgeConsolidatedModify
 use CWM\BroadWorksConnector\Ocip\Models\GroupCollaborateBridgeDeleteInstanceRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupCollaborateBridgeGetAvailableUserListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupCollaborateBridgeGetAvailableUserListResponse;
+use CWM\BroadWorksConnector\Ocip\Models\GroupCollaborateBridgeGetAvailableUserPagedSortedListRequest;
+use CWM\BroadWorksConnector\Ocip\Models\GroupCollaborateBridgeGetAvailableUserPagedSortedListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupCollaborateBridgeGetInstanceListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupCollaborateBridgeGetInstanceListResponse;
+use CWM\BroadWorksConnector\Ocip\Models\GroupCollaborateBridgeGetInstancePagedSortedListRequest;
+use CWM\BroadWorksConnector\Ocip\Models\GroupCollaborateBridgeGetInstancePagedSortedListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupCollaborateBridgeGetInstanceRequest20sp1;
 use CWM\BroadWorksConnector\Ocip\Models\GroupCollaborateBridgeGetInstanceResponse20sp1;
 use CWM\BroadWorksConnector\Ocip\Models\GroupCollaborateBridgeModifyInstanceRequest20sp1;
+use CWM\BroadWorksConnector\Ocip\Models\ResellerCollaborateGetRequest;
+use CWM\BroadWorksConnector\Ocip\Models\ResellerCollaborateGetResponse;
+use CWM\BroadWorksConnector\Ocip\Models\ResellerCollaborateModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemCollaborateGetRequest20sp1V2;
 use CWM\BroadWorksConnector\Ocip\Models\SystemCollaborateGetResponse20sp1V2;
 use CWM\BroadWorksConnector\Ocip\Models\SystemCollaborateModifyRequest20sp1V2;
@@ -23,20 +30,20 @@ use CWM\BroadWorksConnector\Ocip\Models\UserCollaborateDeleteRoomRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserCollaborateInstantRoomAddRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserCollaborateInstantRoomAddResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserCollaborateInstantRoomGetRequest;
-use CWM\BroadWorksConnector\Ocip\Models\UserCollaborateInstantRoomGetResponse;
+use CWM\BroadWorksConnector\Ocip\Models\UserCollaboratInstantRoomGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserCollaborateInstantRoomParametersGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserCollaborateInstantRoomParametersGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserCollaborateInstantRoomParametersModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserCollaborateMyRoomGetRequest;
-use CWM\BroadWorksConnector\Ocip\Models\UserCollaborateMyRoomGetResponse;
+use CWM\BroadWorksConnector\Ocip\Models\UserCollaboratMyRoomGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserCollaborateMyRoomModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserCollaborateProjectRoomAddRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserCollaborateProjectRoomAddResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserCollaborateProjectRoomGetRequest;
-use CWM\BroadWorksConnector\Ocip\Models\UserCollaborateProjectRoomGetResponse;
+use CWM\BroadWorksConnector\Ocip\Models\UserCollaboratProjectRoomGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserCollaborateProjectRoomModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserCollaborateRoomGetRequest;
-use CWM\BroadWorksConnector\Ocip\Models\UserCollaborateRoomGetResponse;
+use CWM\BroadWorksConnector\Ocip\Models\UserCollaboratetRoomGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserCollaborateRoomIDRegenerateRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserCollaborateRoomIDRegenerateResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserCollaborateRoomListGetRequest;
@@ -116,12 +123,34 @@ trait OCISchemaServiceCollaborate
     }
 
     /**
+     * @param GroupCollaborateBridgeGetAvailableUserPagedSortedListRequest $request
+     * @return GroupCollaborateBridgeGetAvailableUserPagedSortedListResponse
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function groupCollaborateBridgeGetAvailableUserPagedSortedListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCollaborateBridgeGetAvailableUserPagedSortedListRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
      * @param GroupCollaborateBridgeGetInstanceListRequest $request
      * @return GroupCollaborateBridgeGetInstanceListResponse
      * @throws ErrorResponseException
      * @throws ValidationException
      */
     public function groupCollaborateBridgeGetInstanceListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCollaborateBridgeGetInstanceListRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param GroupCollaborateBridgeGetInstancePagedSortedListRequest $request
+     * @return GroupCollaborateBridgeGetInstancePagedSortedListResponse
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function groupCollaborateBridgeGetInstancePagedSortedListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCollaborateBridgeGetInstancePagedSortedListRequest $request)
     {
         return $this->call($request);
     }
@@ -144,6 +173,28 @@ trait OCISchemaServiceCollaborate
      * @throws ValidationException
      */
     public function groupCollaborateBridgeModifyInstanceRequest20sp1(\CWM\BroadWorksConnector\Ocip\Models\GroupCollaborateBridgeModifyInstanceRequest20sp1 $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param ResellerCollaborateGetRequest $request
+     * @return ResellerCollaborateGetResponse
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function resellerCollaborateGetRequest(\CWM\BroadWorksConnector\Ocip\Models\ResellerCollaborateGetRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param ResellerCollaborateModifyRequest $request
+     * @return SuccessResponse
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function resellerCollaborateModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\ResellerCollaborateModifyRequest $request)
     {
         return $this->call($request);
     }
@@ -205,7 +256,7 @@ trait OCISchemaServiceCollaborate
 
     /**
      * @param UserCollaborateInstantRoomGetRequest $request
-     * @return UserCollaborateInstantRoomGetResponse
+     * @return UserCollaboratInstantRoomGetResponse
      * @throws ErrorResponseException
      * @throws ValidationException
      */
@@ -238,7 +289,7 @@ trait OCISchemaServiceCollaborate
 
     /**
      * @param UserCollaborateMyRoomGetRequest $request
-     * @return UserCollaborateMyRoomGetResponse
+     * @return UserCollaboratMyRoomGetResponse
      * @throws ErrorResponseException
      * @throws ValidationException
      */
@@ -271,7 +322,7 @@ trait OCISchemaServiceCollaborate
 
     /**
      * @param UserCollaborateProjectRoomGetRequest $request
-     * @return UserCollaborateProjectRoomGetResponse
+     * @return UserCollaboratProjectRoomGetResponse
      * @throws ErrorResponseException
      * @throws ValidationException
      */
@@ -293,7 +344,7 @@ trait OCISchemaServiceCollaborate
 
     /**
      * @param UserCollaborateRoomGetRequest $request
-     * @return UserCollaborateRoomGetResponse
+     * @return UserCollaboratetRoomGetResponse
      * @throws ErrorResponseException
      * @throws ValidationException
      */

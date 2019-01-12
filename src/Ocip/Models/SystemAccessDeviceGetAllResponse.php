@@ -14,7 +14,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           "Reseller Id"
  *
  * @see SystemAccessDeviceGetAllRequest
- * @Groups [{"id":"b5f5416d9e71f8e4246cda16c4723744:905","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:913","type":"sequence"}]
  */
 class SystemAccessDeviceGetAllResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -22,7 +22,7 @@ class SystemAccessDeviceGetAllResponse extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName accessDeviceTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group b5f5416d9e71f8e4246cda16c4723744:905
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:913
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $accessDeviceTable = null;

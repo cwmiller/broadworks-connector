@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Maximum number of Collaborate bridge participants. Can either be unlimited or limited to a value between 3 and 999999.
  *
- * @Groups [{"id":"8e629edbac315ae7889caca732382c44:754","type":"choice"}]
+ * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:1000","type":"choice"}]
  */
 class CollaborateBridgeMaximumParticipants
 {
@@ -15,7 +15,7 @@ class CollaborateBridgeMaximumParticipants
     /**
      * @ElementName unlimited
      * @Type bool
-     * @Group 8e629edbac315ae7889caca732382c44:754
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:1000
      * @var bool|null
      */
     private $unlimited = null;
@@ -23,7 +23,7 @@ class CollaborateBridgeMaximumParticipants
     /**
      * @ElementName quantity
      * @Type int
-     * @Group 8e629edbac315ae7889caca732382c44:754
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:1000
      * @var int|null
      */
     private $quantity = null;

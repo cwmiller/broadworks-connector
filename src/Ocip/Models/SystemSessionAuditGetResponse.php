@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemSessionAuditGetRequest
  * @see SystemSessionAuditGetResponse14sp3
- * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:24312","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:5469","type":"sequence"}]
  */
 class SystemSessionAuditGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class SystemSessionAuditGetResponse extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:24312
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:5469
      * @var bool|null
      */
     private $isActive = null;
@@ -26,7 +26,7 @@ class SystemSessionAuditGetResponse extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName intervalSeconds
      * @Type int
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:24312
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:5469
      * @var int|null
      */
     private $intervalSeconds = null;
@@ -34,7 +34,7 @@ class SystemSessionAuditGetResponse extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName timeoutPeriodSeconds
      * @Type int
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:24312
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:5469
      * @var int|null
      */
     private $timeoutPeriodSeconds = null;

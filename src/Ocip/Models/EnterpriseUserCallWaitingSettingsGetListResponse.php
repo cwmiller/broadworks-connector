@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "Phone Number" is presented in the E164 format.
  *
  * @see EnterpriseUserCallWaitingSettingsGetListRequest
- * @Groups [{"id":"889c8c305076ef39cc50c70d0c2dc820:1252","type":"sequence"}]
+ * @Groups [{"id":"5395c7df0157d44aa22f3351d1a5f3da:1272","type":"sequence"}]
  */
 class EnterpriseUserCallWaitingSettingsGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -21,7 +21,7 @@ class EnterpriseUserCallWaitingSettingsGetListResponse extends \CWM\BroadWorksCo
     /**
      * @ElementName userCallWaitingTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 889c8c305076ef39cc50c70d0c2dc820:1252
+     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1272
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $userCallWaitingTable = null;

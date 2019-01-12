@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to ServiceProviderEnhancedCallLogsGetRequest.
  *
  * @see ServiceProviderEnhancedCallLogsGetRequest
- * @Groups [{"id":"4f0fb68b4d4b3ac50a70eeb01a628dce:16320","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:20307","type":"sequence"}]
  */
 class ServiceProviderEnhancedCallLogsGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class ServiceProviderEnhancedCallLogsGetResponse extends \CWM\BroadWorksConnecto
     /**
      * @ElementName maxLoggedCalls
      * @Type int
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:16320
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:20307
      * @var int|null
      */
     private $maxLoggedCalls = null;
@@ -24,7 +24,7 @@ class ServiceProviderEnhancedCallLogsGetResponse extends \CWM\BroadWorksConnecto
     /**
      * @ElementName callExpirationDays
      * @Type int
-     * @Group 4f0fb68b4d4b3ac50a70eeb01a628dce:16320
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:20307
      * @var int|null
      */
     private $callExpirationDays = null;

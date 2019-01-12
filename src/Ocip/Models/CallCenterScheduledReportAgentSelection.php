@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Either all agents or list of agents.
  *
- * @Groups [{"id":"3ac5f05d969bc771d6ba8d344d95aa72:6804","type":"choice"}]
+ * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:7501","type":"choice"}]
  */
 class CallCenterScheduledReportAgentSelection
 {
@@ -15,7 +15,7 @@ class CallCenterScheduledReportAgentSelection
     /**
      * @ElementName allAgent
      * @Type bool
-     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:6804
+     * @Group e2c537e3e39483b96620673a7012ffdd:7501
      * @var bool|null
      */
     private $allAgent = null;
@@ -24,7 +24,7 @@ class CallCenterScheduledReportAgentSelection
      * @ElementName agentUserId
      * @Type string
      * @Array
-     * @Group 3ac5f05d969bc771d6ba8d344d95aa72:6804
+     * @Group e2c537e3e39483b96620673a7012ffdd:7501
      * @var string[]
      */
     private $agentUserId = array(

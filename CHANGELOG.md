@@ -1,5 +1,18 @@
 # Changelog
 
+## [3.0.0] - 2019-01-13
+### Added
+- `ValidationException` is now thrown if a request does not meet requirements. This has child exceptions that are thrown for each case:
+  - `FieldNotSetException` is thrown when a required field is not set.
+  - `ChoiceNotSetException` is thrown when no fields have been set that are part of a choice.
+  - `InvalidChoiceException` is thrown when multiple fields in a choice have been set instead of just one.
+
+### Changed
+- Enumerated Types are now represented by a class (utilizing [php-enum](https://github.com/myclabs/php-enum)) instead of just being a string.
+- Fields set to `NULL` no longer are omitted from the generated XML. Instead, they are set as a `nil` value in the XML.
+- Unsetters have been added for each field. If you wish to unset a field after calling it's setter, use its corresponding unsetter. 
+- Models have been rebuilt off of `Rel_23.0_1.1075` XSD files to target BroadWorks Release 23.
+
 ## [2.2.2] - 2018-12-27
 ### Fixed
 - Nillable properties on response objects were incorrectly getting set to an instance of Nil when they shouldn't have been.
@@ -53,6 +66,7 @@
 ### Added
 - `OcipClient` now exposes helper methods for every request object.
 
+[3.0.0]: https://github.com/cwmiller/broadworks-connector/compare/2.2.2...3.0.0
 [2.2.2]: https://github.com/cwmiller/broadworks-connector/compare/2.2.1...2.2.2
 [2.2.1]: https://github.com/cwmiller/broadworks-connector/compare/2.2.0...2.2.1
 [2.2.0]: https://github.com/cwmiller/broadworks-connector/compare/2.1.2...2.2.0

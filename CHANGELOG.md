@@ -1,5 +1,10 @@
 # Changelog
 
+## [3.0.1] - 2019-01-14
+### Fixed
+- Setters for nillable types now have a default value of NULL to fix an issue with passing NULL to a type-hinted setter.
+- Fixed some class names on helper methods' @return annotations.
+
 ## [3.0.0] - 2019-01-13
 ### Added
 - `ValidationException` is now thrown if a request does not meet requirements. This has child exceptions that are thrown for each case:
@@ -66,6 +71,7 @@
 ### Added
 - `OcipClient` now exposes helper methods for every request object.
 
+[3.0.1]: https://github.com/cwmiller/broadworks-connector/compare/3.0.0...3.0.1
 [3.0.0]: https://github.com/cwmiller/broadworks-connector/compare/2.2.2...3.0.0
 [2.2.2]: https://github.com/cwmiller/broadworks-connector/compare/2.2.1...2.2.2
 [2.2.1]: https://github.com/cwmiller/broadworks-connector/compare/2.2.0...2.2.1

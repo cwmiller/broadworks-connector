@@ -79,7 +79,7 @@ class GroupPreferredCarrierNameModify
      * @param string|null $carrier
      * @return $this
      */
-    public function setCarrier($carrier)
+    public function setCarrier($carrier = null)
     {
         if ($carrier === null) {
             $this->carrier = new \CWM\BroadWorksConnector\Ocip\Nil;

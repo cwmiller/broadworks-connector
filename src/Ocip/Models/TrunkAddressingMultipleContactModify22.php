@@ -82,7 +82,7 @@ class TrunkAddressingMultipleContactModify22
      * @param \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupDeviceMultipleContactEndpointModify22|null $trunkGroupDeviceEndpoint
      * @return $this
      */
-    public function setTrunkGroupDeviceEndpoint(\CWM\BroadWorksConnector\Ocip\Models\TrunkGroupDeviceMultipleContactEndpointModify22 $trunkGroupDeviceEndpoint)
+    public function setTrunkGroupDeviceEndpoint(\CWM\BroadWorksConnector\Ocip\Models\TrunkGroupDeviceMultipleContactEndpointModify22 $trunkGroupDeviceEndpoint = null)
     {
         if ($trunkGroupDeviceEndpoint === null) {
             $this->trunkGroupDeviceEndpoint = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -117,7 +117,7 @@ class TrunkAddressingMultipleContactModify22
      * @param string|null $enterpriseTrunkName
      * @return $this
      */
-    public function setEnterpriseTrunkName($enterpriseTrunkName)
+    public function setEnterpriseTrunkName($enterpriseTrunkName = null)
     {
         if ($enterpriseTrunkName === null) {
             $this->enterpriseTrunkName = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -152,7 +152,7 @@ class TrunkAddressingMultipleContactModify22
      * @param string|null $alternateTrunkIdentity
      * @return $this
      */
-    public function setAlternateTrunkIdentity($alternateTrunkIdentity)
+    public function setAlternateTrunkIdentity($alternateTrunkIdentity = null)
     {
         if ($alternateTrunkIdentity === null) {
             $this->alternateTrunkIdentity = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -187,7 +187,7 @@ class TrunkAddressingMultipleContactModify22
      * @param string|null $alternateTrunkIdentityDomain
      * @return $this
      */
-    public function setAlternateTrunkIdentityDomain($alternateTrunkIdentityDomain)
+    public function setAlternateTrunkIdentityDomain($alternateTrunkIdentityDomain = null)
     {
         if ($alternateTrunkIdentityDomain === null) {
             $this->alternateTrunkIdentityDomain = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -222,7 +222,7 @@ class TrunkAddressingMultipleContactModify22
      * @param string|null $physicalLocation
      * @return $this
      */
-    public function setPhysicalLocation($physicalLocation)
+    public function setPhysicalLocation($physicalLocation = null)
     {
         if ($physicalLocation === null) {
             $this->physicalLocation = new \CWM\BroadWorksConnector\Ocip\Nil;

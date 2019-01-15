@@ -446,7 +446,7 @@ class UserExecutiveModifyScreeningAlertingRequest extends \CWM\BroadWorksConnect
      * @param string|null $alertingCustomCallingLineIdName
      * @return $this
      */
-    public function setAlertingCustomCallingLineIdName($alertingCustomCallingLineIdName)
+    public function setAlertingCustomCallingLineIdName($alertingCustomCallingLineIdName = null)
     {
         if ($alertingCustomCallingLineIdName === null) {
             $this->alertingCustomCallingLineIdName = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -481,7 +481,7 @@ class UserExecutiveModifyScreeningAlertingRequest extends \CWM\BroadWorksConnect
      * @param string|null $unicodeAlertingCustomCallingLineIdName
      * @return $this
      */
-    public function setUnicodeAlertingCustomCallingLineIdName($unicodeAlertingCustomCallingLineIdName)
+    public function setUnicodeAlertingCustomCallingLineIdName($unicodeAlertingCustomCallingLineIdName = null)
     {
         if ($unicodeAlertingCustomCallingLineIdName === null) {
             $this->unicodeAlertingCustomCallingLineIdName = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -547,7 +547,7 @@ class UserExecutiveModifyScreeningAlertingRequest extends \CWM\BroadWorksConnect
      * @param string|null $alertingCustomCallingLineIdPhoneNumber
      * @return $this
      */
-    public function setAlertingCustomCallingLineIdPhoneNumber($alertingCustomCallingLineIdPhoneNumber)
+    public function setAlertingCustomCallingLineIdPhoneNumber($alertingCustomCallingLineIdPhoneNumber = null)
     {
         if ($alertingCustomCallingLineIdPhoneNumber === null) {
             $this->alertingCustomCallingLineIdPhoneNumber = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -675,7 +675,7 @@ class UserExecutiveModifyScreeningAlertingRequest extends \CWM\BroadWorksConnect
      * @param int|null $rolloverWaitTimeSeconds
      * @return $this
      */
-    public function setRolloverWaitTimeSeconds($rolloverWaitTimeSeconds)
+    public function setRolloverWaitTimeSeconds($rolloverWaitTimeSeconds = null)
     {
         if ($rolloverWaitTimeSeconds === null) {
             $this->rolloverWaitTimeSeconds = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -741,7 +741,7 @@ class UserExecutiveModifyScreeningAlertingRequest extends \CWM\BroadWorksConnect
      * @param string|null $rolloverForwardToPhoneNumber
      * @return $this
      */
-    public function setRolloverForwardToPhoneNumber($rolloverForwardToPhoneNumber)
+    public function setRolloverForwardToPhoneNumber($rolloverForwardToPhoneNumber = null)
     {
         if ($rolloverForwardToPhoneNumber === null) {
             $this->rolloverForwardToPhoneNumber = new \CWM\BroadWorksConnector\Ocip\Nil;

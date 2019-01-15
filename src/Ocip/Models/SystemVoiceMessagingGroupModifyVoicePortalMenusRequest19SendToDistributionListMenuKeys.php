@@ -105,7 +105,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19SendToDistribution
      * @param string|null $selectDistributionList
      * @return $this
      */
-    public function setSelectDistributionList($selectDistributionList)
+    public function setSelectDistributionList($selectDistributionList = null)
     {
         if ($selectDistributionList === null) {
             $this->selectDistributionList = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -140,7 +140,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19SendToDistribution
      * @param string|null $reviewSelectedDistributionList
      * @return $this
      */
-    public function setReviewSelectedDistributionList($reviewSelectedDistributionList)
+    public function setReviewSelectedDistributionList($reviewSelectedDistributionList = null)
     {
         if ($reviewSelectedDistributionList === null) {
             $this->reviewSelectedDistributionList = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -206,7 +206,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19SendToDistribution
      * @param string|null $repeatMenu
      * @return $this
      */
-    public function setRepeatMenu($repeatMenu)
+    public function setRepeatMenu($repeatMenu = null)
     {
         if ($repeatMenu === null) {
             $this->repeatMenu = new \CWM\BroadWorksConnector\Ocip\Nil;

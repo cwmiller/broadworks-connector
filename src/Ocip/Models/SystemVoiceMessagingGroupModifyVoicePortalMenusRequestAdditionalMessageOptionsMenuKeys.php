@@ -135,7 +135,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestAdditionalMessageOpt
      * @param string|null $saveMessage
      * @return $this
      */
-    public function setSaveMessage($saveMessage)
+    public function setSaveMessage($saveMessage = null)
     {
         if ($saveMessage === null) {
             $this->saveMessage = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -170,7 +170,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestAdditionalMessageOpt
      * @param string|null $deleteMessage
      * @return $this
      */
-    public function setDeleteMessage($deleteMessage)
+    public function setDeleteMessage($deleteMessage = null)
     {
         if ($deleteMessage === null) {
             $this->deleteMessage = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -205,7 +205,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestAdditionalMessageOpt
      * @param string|null $playEnvelope
      * @return $this
      */
-    public function setPlayEnvelope($playEnvelope)
+    public function setPlayEnvelope($playEnvelope = null)
     {
         if ($playEnvelope === null) {
             $this->playEnvelope = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -240,7 +240,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestAdditionalMessageOpt
      * @param string|null $callbackCaller
      * @return $this
      */
-    public function setCallbackCaller($callbackCaller)
+    public function setCallbackCaller($callbackCaller = null)
     {
         if ($callbackCaller === null) {
             $this->callbackCaller = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -275,7 +275,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestAdditionalMessageOpt
      * @param string|null $composeMessage
      * @return $this
      */
-    public function setComposeMessage($composeMessage)
+    public function setComposeMessage($composeMessage = null)
     {
         if ($composeMessage === null) {
             $this->composeMessage = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -310,7 +310,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestAdditionalMessageOpt
      * @param string|null $replyMessage
      * @return $this
      */
-    public function setReplyMessage($replyMessage)
+    public function setReplyMessage($replyMessage = null)
     {
         if ($replyMessage === null) {
             $this->replyMessage = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -345,7 +345,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestAdditionalMessageOpt
      * @param string|null $forwardMessage
      * @return $this
      */
-    public function setForwardMessage($forwardMessage)
+    public function setForwardMessage($forwardMessage = null)
     {
         if ($forwardMessage === null) {
             $this->forwardMessage = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -380,7 +380,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestAdditionalMessageOpt
      * @param string|null $personalizedName
      * @return $this
      */
-    public function setPersonalizedName($personalizedName)
+    public function setPersonalizedName($personalizedName = null)
     {
         if ($personalizedName === null) {
             $this->personalizedName = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -415,7 +415,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestAdditionalMessageOpt
      * @param string|null $passcode
      * @return $this
      */
-    public function setPasscode($passcode)
+    public function setPasscode($passcode = null)
     {
         if ($passcode === null) {
             $this->passcode = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -481,7 +481,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestAdditionalMessageOpt
      * @param string|null $repeatMenu
      * @return $this
      */
-    public function setRepeatMenu($repeatMenu)
+    public function setRepeatMenu($repeatMenu = null)
     {
         if ($repeatMenu === null) {
             $this->repeatMenu = new \CWM\BroadWorksConnector\Ocip\Nil;

@@ -201,7 +201,7 @@ class UserHotelingGuestModifyRequest21 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @param string|null $hostUserId
      * @return $this
      */
-    public function setHostUserId($hostUserId)
+    public function setHostUserId($hostUserId = null)
     {
         if ($hostUserId === null) {
             $this->hostUserId = new \CWM\BroadWorksConnector\Ocip\Nil;

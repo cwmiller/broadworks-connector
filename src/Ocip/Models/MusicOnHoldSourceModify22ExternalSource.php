@@ -35,7 +35,7 @@ class MusicOnHoldSourceModify22ExternalSource
      * @param \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointModify|null $accessDeviceEndpoint
      * @return $this
      */
-    public function setAccessDeviceEndpoint(\CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointModify $accessDeviceEndpoint)
+    public function setAccessDeviceEndpoint(\CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointModify $accessDeviceEndpoint = null)
     {
         if ($accessDeviceEndpoint === null) {
             $this->accessDeviceEndpoint = new \CWM\BroadWorksConnector\Ocip\Nil;

@@ -149,7 +149,7 @@ class ServiceProviderSessionAdmissionControlModifyRequest extends \CWM\BroadWork
      * @param int|null $maxSessions
      * @return $this
      */
-    public function setMaxSessions($maxSessions)
+    public function setMaxSessions($maxSessions = null)
     {
         if ($maxSessions === null) {
             $this->maxSessions = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -184,7 +184,7 @@ class ServiceProviderSessionAdmissionControlModifyRequest extends \CWM\BroadWork
      * @param int|null $maxUserOriginatingSessions
      * @return $this
      */
-    public function setMaxUserOriginatingSessions($maxUserOriginatingSessions)
+    public function setMaxUserOriginatingSessions($maxUserOriginatingSessions = null)
     {
         if ($maxUserOriginatingSessions === null) {
             $this->maxUserOriginatingSessions = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -219,7 +219,7 @@ class ServiceProviderSessionAdmissionControlModifyRequest extends \CWM\BroadWork
      * @param int|null $maxUserTerminatingSessions
      * @return $this
      */
-    public function setMaxUserTerminatingSessions($maxUserTerminatingSessions)
+    public function setMaxUserTerminatingSessions($maxUserTerminatingSessions = null)
     {
         if ($maxUserTerminatingSessions === null) {
             $this->maxUserTerminatingSessions = new \CWM\BroadWorksConnector\Ocip\Nil;

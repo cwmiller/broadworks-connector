@@ -117,7 +117,7 @@ class UserCommPilotExpressModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @param \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressProfile|null $profile
      * @return $this
      */
-    public function setProfile(\CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressProfile $profile)
+    public function setProfile(\CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressProfile $profile = null)
     {
         if ($profile === null) {
             $this->profile = new \CWM\BroadWorksConnector\Ocip\Nil;

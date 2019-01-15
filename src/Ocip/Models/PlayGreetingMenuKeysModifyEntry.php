@@ -78,7 +78,7 @@ class PlayGreetingMenuKeysModifyEntry
      * @param string|null $skipBackward
      * @return $this
      */
-    public function setSkipBackward($skipBackward)
+    public function setSkipBackward($skipBackward = null)
     {
         if ($skipBackward === null) {
             $this->skipBackward = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -113,7 +113,7 @@ class PlayGreetingMenuKeysModifyEntry
      * @param string|null $pauseOrResume
      * @return $this
      */
-    public function setPauseOrResume($pauseOrResume)
+    public function setPauseOrResume($pauseOrResume = null)
     {
         if ($pauseOrResume === null) {
             $this->pauseOrResume = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -148,7 +148,7 @@ class PlayGreetingMenuKeysModifyEntry
      * @param string|null $skipForward
      * @return $this
      */
-    public function setSkipForward($skipForward)
+    public function setSkipForward($skipForward = null)
     {
         if ($skipForward === null) {
             $this->skipForward = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -183,7 +183,7 @@ class PlayGreetingMenuKeysModifyEntry
      * @param string|null $jumpToBegin
      * @return $this
      */
-    public function setJumpToBegin($jumpToBegin)
+    public function setJumpToBegin($jumpToBegin = null)
     {
         if ($jumpToBegin === null) {
             $this->jumpToBegin = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -218,7 +218,7 @@ class PlayGreetingMenuKeysModifyEntry
      * @param string|null $jumpToEnd
      * @return $this
      */
-    public function setJumpToEnd($jumpToEnd)
+    public function setJumpToEnd($jumpToEnd = null)
     {
         if ($jumpToEnd === null) {
             $this->jumpToEnd = new \CWM\BroadWorksConnector\Ocip\Nil;

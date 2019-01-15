@@ -240,7 +240,7 @@ class SystemBwDiameterBaseDataModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @param string|null $xsRealm
      * @return $this
      */
-    public function setXsRealm($xsRealm)
+    public function setXsRealm($xsRealm = null)
     {
         if ($xsRealm === null) {
             $this->xsRealm = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -399,7 +399,7 @@ class SystemBwDiameterBaseDataModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @param string|null $psRealm
      * @return $this
      */
-    public function setPsRealm($psRealm)
+    public function setPsRealm($psRealm = null)
     {
         if ($psRealm === null) {
             $this->psRealm = new \CWM\BroadWorksConnector\Ocip\Nil;

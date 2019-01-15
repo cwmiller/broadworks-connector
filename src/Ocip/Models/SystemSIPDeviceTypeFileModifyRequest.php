@@ -401,7 +401,7 @@ class SystemSIPDeviceTypeFileModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @param string|null $macFormatInNonRequestURI
      * @return $this
      */
-    public function setMacFormatInNonRequestURI($macFormatInNonRequestURI)
+    public function setMacFormatInNonRequestURI($macFormatInNonRequestURI = null)
     {
         if ($macFormatInNonRequestURI === null) {
             $this->macFormatInNonRequestURI = new \CWM\BroadWorksConnector\Ocip\Nil;

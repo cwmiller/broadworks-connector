@@ -146,7 +146,7 @@ class CallCenterMediaOnHoldSourceModify16
      * @param \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointModify|null $externalAudioSource
      * @return $this
      */
-    public function setExternalAudioSource(\CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointModify $externalAudioSource)
+    public function setExternalAudioSource(\CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointModify $externalAudioSource = null)
     {
         if ($externalAudioSource === null) {
             $this->externalAudioSource = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -243,7 +243,7 @@ class CallCenterMediaOnHoldSourceModify16
      * @param \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointModify|null $externalVideoSource
      * @return $this
      */
-    public function setExternalVideoSource(\CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointModify $externalVideoSource)
+    public function setExternalVideoSource(\CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointModify $externalVideoSource = null)
     {
         if ($externalVideoSource === null) {
             $this->externalVideoSource = new \CWM\BroadWorksConnector\Ocip\Nil;

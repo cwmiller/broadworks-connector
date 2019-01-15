@@ -179,7 +179,7 @@ class SystemCallReturnModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @param string|null $confirmationKey
      * @return $this
      */
-    public function setConfirmationKey($confirmationKey)
+    public function setConfirmationKey($confirmationKey = null)
     {
         if ($confirmationKey === null) {
             $this->confirmationKey = new \CWM\BroadWorksConnector\Ocip\Nil;

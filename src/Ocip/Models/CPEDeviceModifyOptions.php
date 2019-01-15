@@ -91,7 +91,7 @@ class CPEDeviceModifyOptions
      * @param \CWM\BroadWorksConnector\Ocip\Models\CPEDeviceResetEventType|null $resetEvent
      * @return $this
      */
-    public function setResetEvent(\CWM\BroadWorksConnector\Ocip\Models\CPEDeviceResetEventType $resetEvent)
+    public function setResetEvent(\CWM\BroadWorksConnector\Ocip\Models\CPEDeviceResetEventType $resetEvent = null)
     {
         if ($resetEvent === null) {
             $this->resetEvent = new \CWM\BroadWorksConnector\Ocip\Nil;

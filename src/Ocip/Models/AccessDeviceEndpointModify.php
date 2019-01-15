@@ -137,7 +137,7 @@ class AccessDeviceEndpointModify
      * @param string|null $contact
      * @return $this
      */
-    public function setContact($contact)
+    public function setContact($contact = null)
     {
         if ($contact === null) {
             $this->contact = new \CWM\BroadWorksConnector\Ocip\Nil;

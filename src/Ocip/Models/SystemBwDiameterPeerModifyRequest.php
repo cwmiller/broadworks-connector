@@ -146,7 +146,7 @@ class SystemBwDiameterPeerModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @param string|null $ipAddress
      * @return $this
      */
-    public function setIpAddress($ipAddress)
+    public function setIpAddress($ipAddress = null)
     {
         if ($ipAddress === null) {
             $this->ipAddress = new \CWM\BroadWorksConnector\Ocip\Nil;

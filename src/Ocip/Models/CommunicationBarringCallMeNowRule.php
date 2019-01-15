@@ -116,7 +116,7 @@ class CommunicationBarringCallMeNowRule
      * @param int|null $callTimeoutSeconds
      * @return $this
      */
-    public function setCallTimeoutSeconds($callTimeoutSeconds)
+    public function setCallTimeoutSeconds($callTimeoutSeconds = null)
     {
         if ($callTimeoutSeconds === null) {
             $this->callTimeoutSeconds = new \CWM\BroadWorksConnector\Ocip\Nil;

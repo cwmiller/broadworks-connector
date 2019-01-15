@@ -418,7 +418,7 @@ class UserBroadWorksMobilityModifyRequest21 extends \CWM\BroadWorksConnector\Oci
      * @param \CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityAlertingMobileNumberReplacementList|null $profileIdentityMobilityNumbersAlerted
      * @return $this
      */
-    public function setProfileIdentityMobilityNumbersAlerted(\CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityAlertingMobileNumberReplacementList $profileIdentityMobilityNumbersAlerted)
+    public function setProfileIdentityMobilityNumbersAlerted(\CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityAlertingMobileNumberReplacementList $profileIdentityMobilityNumbersAlerted = null)
     {
         if ($profileIdentityMobilityNumbersAlerted === null) {
             $this->profileIdentityMobilityNumbersAlerted = new \CWM\BroadWorksConnector\Ocip\Nil;

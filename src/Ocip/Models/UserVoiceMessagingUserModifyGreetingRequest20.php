@@ -266,7 +266,7 @@ class UserVoiceMessagingUserModifyGreetingRequest20 extends \CWM\BroadWorksConne
      * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null $busyPersonalAudioFile
      * @return $this
      */
-    public function setBusyPersonalAudioFile(\CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey $busyPersonalAudioFile)
+    public function setBusyPersonalAudioFile(\CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey $busyPersonalAudioFile = null)
     {
         if ($busyPersonalAudioFile === null) {
             $this->busyPersonalAudioFile = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -301,7 +301,7 @@ class UserVoiceMessagingUserModifyGreetingRequest20 extends \CWM\BroadWorksConne
      * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null $busyPersonalVideoFile
      * @return $this
      */
-    public function setBusyPersonalVideoFile(\CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey $busyPersonalVideoFile)
+    public function setBusyPersonalVideoFile(\CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey $busyPersonalVideoFile = null)
     {
         if ($busyPersonalVideoFile === null) {
             $this->busyPersonalVideoFile = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -367,7 +367,7 @@ class UserVoiceMessagingUserModifyGreetingRequest20 extends \CWM\BroadWorksConne
      * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null $noAnswerPersonalAudioFile
      * @return $this
      */
-    public function setNoAnswerPersonalAudioFile(\CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey $noAnswerPersonalAudioFile)
+    public function setNoAnswerPersonalAudioFile(\CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey $noAnswerPersonalAudioFile = null)
     {
         if ($noAnswerPersonalAudioFile === null) {
             $this->noAnswerPersonalAudioFile = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -402,7 +402,7 @@ class UserVoiceMessagingUserModifyGreetingRequest20 extends \CWM\BroadWorksConne
      * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null $noAnswerPersonalVideoFile
      * @return $this
      */
-    public function setNoAnswerPersonalVideoFile(\CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey $noAnswerPersonalVideoFile)
+    public function setNoAnswerPersonalVideoFile(\CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey $noAnswerPersonalVideoFile = null)
     {
         if ($noAnswerPersonalVideoFile === null) {
             $this->noAnswerPersonalVideoFile = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -592,7 +592,7 @@ class UserVoiceMessagingUserModifyGreetingRequest20 extends \CWM\BroadWorksConne
      * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null $extendedAwayAudioFile
      * @return $this
      */
-    public function setExtendedAwayAudioFile(\CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey $extendedAwayAudioFile)
+    public function setExtendedAwayAudioFile(\CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey $extendedAwayAudioFile = null)
     {
         if ($extendedAwayAudioFile === null) {
             $this->extendedAwayAudioFile = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -627,7 +627,7 @@ class UserVoiceMessagingUserModifyGreetingRequest20 extends \CWM\BroadWorksConne
      * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null $extendedAwayVideoFile
      * @return $this
      */
-    public function setExtendedAwayVideoFile(\CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey $extendedAwayVideoFile)
+    public function setExtendedAwayVideoFile(\CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey $extendedAwayVideoFile = null)
     {
         if ($extendedAwayVideoFile === null) {
             $this->extendedAwayVideoFile = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -755,7 +755,7 @@ class UserVoiceMessagingUserModifyGreetingRequest20 extends \CWM\BroadWorksConne
      * @param string|null $greetingOnlyForwardDestination
      * @return $this
      */
-    public function setGreetingOnlyForwardDestination($greetingOnlyForwardDestination)
+    public function setGreetingOnlyForwardDestination($greetingOnlyForwardDestination = null)
     {
         if ($greetingOnlyForwardDestination === null) {
             $this->greetingOnlyForwardDestination = new \CWM\BroadWorksConnector\Ocip\Nil;

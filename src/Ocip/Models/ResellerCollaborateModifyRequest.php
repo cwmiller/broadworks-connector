@@ -80,7 +80,7 @@ class ResellerCollaborateModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @param string|null $collaborateFromAddress
      * @return $this
      */
-    public function setCollaborateFromAddress($collaborateFromAddress)
+    public function setCollaborateFromAddress($collaborateFromAddress = null)
     {
         if ($collaborateFromAddress === null) {
             $this->collaborateFromAddress = new \CWM\BroadWorksConnector\Ocip\Nil;

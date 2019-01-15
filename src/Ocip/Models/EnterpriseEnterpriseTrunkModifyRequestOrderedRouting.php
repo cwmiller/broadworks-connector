@@ -45,7 +45,7 @@ class EnterpriseEnterpriseTrunkModifyRequestOrderedRouting
      * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementEnterpriseEnterpriseTrunkTrunkGroupKeyList|null $trunkGroupList
      * @return $this
      */
-    public function setTrunkGroupList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementEnterpriseEnterpriseTrunkTrunkGroupKeyList $trunkGroupList)
+    public function setTrunkGroupList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementEnterpriseEnterpriseTrunkTrunkGroupKeyList $trunkGroupList = null)
     {
         if ($trunkGroupList === null) {
             $this->trunkGroupList = new \CWM\BroadWorksConnector\Ocip\Nil;

@@ -80,7 +80,7 @@ class ServiceProviderBroadWorksCommunicatorModifyRequest extends \CWM\BroadWorks
      * @param string|null $configurationServerURL
      * @return $this
      */
-    public function setConfigurationServerURL($configurationServerURL)
+    public function setConfigurationServerURL($configurationServerURL = null)
     {
         if ($configurationServerURL === null) {
             $this->configurationServerURL = new \CWM\BroadWorksConnector\Ocip\Nil;

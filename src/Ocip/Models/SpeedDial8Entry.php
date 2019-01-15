@@ -90,7 +90,7 @@ class SpeedDial8Entry
      * @param string|null $phoneNumber
      * @return $this
      */
-    public function setPhoneNumber($phoneNumber)
+    public function setPhoneNumber($phoneNumber = null)
     {
         if ($phoneNumber === null) {
             $this->phoneNumber = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -125,7 +125,7 @@ class SpeedDial8Entry
      * @param string|null $description
      * @return $this
      */
-    public function setDescription($description)
+    public function setDescription($description = null)
     {
         if ($description === null) {
             $this->description = new \CWM\BroadWorksConnector\Ocip\Nil;

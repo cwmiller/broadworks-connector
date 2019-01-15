@@ -110,7 +110,7 @@ class ResellerAdminModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @param string|null $firstName
      * @return $this
      */
-    public function setFirstName($firstName)
+    public function setFirstName($firstName = null)
     {
         if ($firstName === null) {
             $this->firstName = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -145,7 +145,7 @@ class ResellerAdminModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @param string|null $lastName
      * @return $this
      */
-    public function setLastName($lastName)
+    public function setLastName($lastName = null)
     {
         if ($lastName === null) {
             $this->lastName = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -180,7 +180,7 @@ class ResellerAdminModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @param string|null $password
      * @return $this
      */
-    public function setPassword($password)
+    public function setPassword($password = null)
     {
         if ($password === null) {
             $this->password = new \CWM\BroadWorksConnector\Ocip\Nil;

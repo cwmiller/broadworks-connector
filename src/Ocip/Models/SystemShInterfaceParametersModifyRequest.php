@@ -62,7 +62,7 @@ class SystemShInterfaceParametersModifyRequest extends \CWM\BroadWorksConnector\
      * @param string|null $hssRealm
      * @return $this
      */
-    public function setHssRealm($hssRealm)
+    public function setHssRealm($hssRealm = null)
     {
         if ($hssRealm === null) {
             $this->hssRealm = new \CWM\BroadWorksConnector\Ocip\Nil;

@@ -218,7 +218,7 @@ class GroupCustomRingbackGroupModifyRequest20 extends \CWM\BroadWorksConnector\O
      * @param \CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileResource20|null $audioFile
      * @return $this
      */
-    public function setAudioFile(\CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileResource20 $audioFile)
+    public function setAudioFile(\CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileResource20 $audioFile = null)
     {
         if ($audioFile === null) {
             $this->audioFile = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -284,7 +284,7 @@ class GroupCustomRingbackGroupModifyRequest20 extends \CWM\BroadWorksConnector\O
      * @param \CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileResource20|null $videoFile
      * @return $this
      */
-    public function setVideoFile(\CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileResource20 $videoFile)
+    public function setVideoFile(\CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileResource20 $videoFile = null)
     {
         if ($videoFile === null) {
             $this->videoFile = new \CWM\BroadWorksConnector\Ocip\Nil;

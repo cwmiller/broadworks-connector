@@ -262,7 +262,7 @@ class UserVoiceMessagingUserModifyVoiceManagementRequest extends \CWM\BroadWorks
      * @param string|null $voiceMessageDeliveryEmailAddress
      * @return $this
      */
-    public function setVoiceMessageDeliveryEmailAddress($voiceMessageDeliveryEmailAddress)
+    public function setVoiceMessageDeliveryEmailAddress($voiceMessageDeliveryEmailAddress = null)
     {
         if ($voiceMessageDeliveryEmailAddress === null) {
             $this->voiceMessageDeliveryEmailAddress = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -359,7 +359,7 @@ class UserVoiceMessagingUserModifyVoiceManagementRequest extends \CWM\BroadWorks
      * @param string|null $voiceMessageNotifyEmailAddress
      * @return $this
      */
-    public function setVoiceMessageNotifyEmailAddress($voiceMessageNotifyEmailAddress)
+    public function setVoiceMessageNotifyEmailAddress($voiceMessageNotifyEmailAddress = null)
     {
         if ($voiceMessageNotifyEmailAddress === null) {
             $this->voiceMessageNotifyEmailAddress = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -425,7 +425,7 @@ class UserVoiceMessagingUserModifyVoiceManagementRequest extends \CWM\BroadWorks
      * @param string|null $voiceMessageCarbonCopyEmailAddress
      * @return $this
      */
-    public function setVoiceMessageCarbonCopyEmailAddress($voiceMessageCarbonCopyEmailAddress)
+    public function setVoiceMessageCarbonCopyEmailAddress($voiceMessageCarbonCopyEmailAddress = null)
     {
         if ($voiceMessageCarbonCopyEmailAddress === null) {
             $this->voiceMessageCarbonCopyEmailAddress = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -491,7 +491,7 @@ class UserVoiceMessagingUserModifyVoiceManagementRequest extends \CWM\BroadWorks
      * @param string|null $transferPhoneNumber
      * @return $this
      */
-    public function setTransferPhoneNumber($transferPhoneNumber)
+    public function setTransferPhoneNumber($transferPhoneNumber = null)
     {
         if ($transferPhoneNumber === null) {
             $this->transferPhoneNumber = new \CWM\BroadWorksConnector\Ocip\Nil;

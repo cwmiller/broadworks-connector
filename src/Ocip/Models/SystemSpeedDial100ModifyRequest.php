@@ -41,7 +41,7 @@ class SystemSpeedDial100ModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @param string|null $prefix
      * @return $this
      */
-    public function setPrefix($prefix)
+    public function setPrefix($prefix = null)
     {
         if ($prefix === null) {
             $this->prefix = new \CWM\BroadWorksConnector\Ocip\Nil;

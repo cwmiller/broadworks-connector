@@ -249,7 +249,7 @@ class GroupAccountAuthorizationCodesModifyRequest extends \CWM\BroadWorksConnect
      * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null $mandatoryUsageUserIdList
      * @return $this
      */
-    public function setMandatoryUsageUserIdList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList $mandatoryUsageUserIdList)
+    public function setMandatoryUsageUserIdList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList $mandatoryUsageUserIdList = null)
     {
         if ($mandatoryUsageUserIdList === null) {
             $this->mandatoryUsageUserIdList = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -284,7 +284,7 @@ class GroupAccountAuthorizationCodesModifyRequest extends \CWM\BroadWorksConnect
      * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null $optionalUsageUserIdList
      * @return $this
      */
-    public function setOptionalUsageUserIdList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList $optionalUsageUserIdList)
+    public function setOptionalUsageUserIdList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList $optionalUsageUserIdList = null)
     {
         if ($optionalUsageUserIdList === null) {
             $this->optionalUsageUserIdList = new \CWM\BroadWorksConnector\Ocip\Nil;

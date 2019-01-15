@@ -80,7 +80,7 @@ class UserTerminatingAlternateTrunkIdentityModifyRequest extends \CWM\BroadWorks
      * @param string|null $terminatingTrunkIdentity
      * @return $this
      */
-    public function setTerminatingTrunkIdentity($terminatingTrunkIdentity)
+    public function setTerminatingTrunkIdentity($terminatingTrunkIdentity = null)
     {
         if ($terminatingTrunkIdentity === null) {
             $this->terminatingTrunkIdentity = new \CWM\BroadWorksConnector\Ocip\Nil;

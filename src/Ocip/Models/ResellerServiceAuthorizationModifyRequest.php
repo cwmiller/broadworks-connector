@@ -80,7 +80,7 @@ class ResellerServiceAuthorizationModifyRequest extends \CWM\BroadWorksConnector
      * @param \CWM\BroadWorksConnector\Ocip\Models\FileResource|null $serviceOffering
      * @return $this
      */
-    public function setServiceOffering(\CWM\BroadWorksConnector\Ocip\Models\FileResource $serviceOffering)
+    public function setServiceOffering(\CWM\BroadWorksConnector\Ocip\Models\FileResource $serviceOffering = null)
     {
         if ($serviceOffering === null) {
             $this->serviceOffering = new \CWM\BroadWorksConnector\Ocip\Nil;

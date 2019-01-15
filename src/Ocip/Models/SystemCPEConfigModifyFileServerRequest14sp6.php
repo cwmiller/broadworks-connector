@@ -131,7 +131,7 @@ class SystemCPEConfigModifyFileServerRequest14sp6 extends \CWM\BroadWorksConnect
      * @param string|null $cpeFileDirectory
      * @return $this
      */
-    public function setCpeFileDirectory($cpeFileDirectory)
+    public function setCpeFileDirectory($cpeFileDirectory = null)
     {
         if ($cpeFileDirectory === null) {
             $this->cpeFileDirectory = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -166,7 +166,7 @@ class SystemCPEConfigModifyFileServerRequest14sp6 extends \CWM\BroadWorksConnect
      * @param string|null $extendedCaptureFileRepositoryName
      * @return $this
      */
-    public function setExtendedCaptureFileRepositoryName($extendedCaptureFileRepositoryName)
+    public function setExtendedCaptureFileRepositoryName($extendedCaptureFileRepositoryName = null)
     {
         if ($extendedCaptureFileRepositoryName === null) {
             $this->extendedCaptureFileRepositoryName = new \CWM\BroadWorksConnector\Ocip\Nil;

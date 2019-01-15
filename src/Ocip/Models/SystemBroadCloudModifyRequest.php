@@ -70,7 +70,7 @@ class SystemBroadCloudModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @param string|null $provisioningUrl
      * @return $this
      */
-    public function setProvisioningUrl($provisioningUrl)
+    public function setProvisioningUrl($provisioningUrl = null)
     {
         if ($provisioningUrl === null) {
             $this->provisioningUrl = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -105,7 +105,7 @@ class SystemBroadCloudModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @param string|null $provisioningUserId
      * @return $this
      */
-    public function setProvisioningUserId($provisioningUserId)
+    public function setProvisioningUserId($provisioningUserId = null)
     {
         if ($provisioningUserId === null) {
             $this->provisioningUserId = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -140,7 +140,7 @@ class SystemBroadCloudModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @param string|null $provisioningPassword
      * @return $this
      */
-    public function setProvisioningPassword($provisioningPassword)
+    public function setProvisioningPassword($provisioningPassword = null)
     {
         if ($provisioningPassword === null) {
             $this->provisioningPassword = new \CWM\BroadWorksConnector\Ocip\Nil;

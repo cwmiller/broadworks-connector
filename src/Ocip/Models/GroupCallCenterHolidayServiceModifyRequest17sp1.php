@@ -196,7 +196,7 @@ class GroupCallCenterHolidayServiceModifyRequest17sp1 extends \CWM\BroadWorksCon
      * @param \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null $holidaySchedule
      * @return $this
      */
-    public function setHolidaySchedule(\CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule $holidaySchedule)
+    public function setHolidaySchedule(\CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule $holidaySchedule = null)
     {
         if ($holidaySchedule === null) {
             $this->holidaySchedule = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -231,7 +231,7 @@ class GroupCallCenterHolidayServiceModifyRequest17sp1 extends \CWM\BroadWorksCon
      * @param string|null $transferPhoneNumber
      * @return $this
      */
-    public function setTransferPhoneNumber($transferPhoneNumber)
+    public function setTransferPhoneNumber($transferPhoneNumber = null)
     {
         if ($transferPhoneNumber === null) {
             $this->transferPhoneNumber = new \CWM\BroadWorksConnector\Ocip\Nil;

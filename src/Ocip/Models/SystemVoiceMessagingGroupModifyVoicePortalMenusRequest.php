@@ -1281,7 +1281,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest extends \CWM\BroadW
      * @param \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupModifyVoicePortalMenusRequestGreetingOnlyForwardingDestinationMenuKeys|null $greetingOnlyForwardingDestinationMenuKeys
      * @return $this
      */
-    public function setGreetingOnlyForwardingDestinationMenuKeys(\CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupModifyVoicePortalMenusRequestGreetingOnlyForwardingDestinationMenuKeys $greetingOnlyForwardingDestinationMenuKeys)
+    public function setGreetingOnlyForwardingDestinationMenuKeys(\CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupModifyVoicePortalMenusRequestGreetingOnlyForwardingDestinationMenuKeys $greetingOnlyForwardingDestinationMenuKeys = null)
     {
         if ($greetingOnlyForwardingDestinationMenuKeys === null) {
             $this->greetingOnlyForwardingDestinationMenuKeys = new \CWM\BroadWorksConnector\Ocip\Nil;

@@ -570,7 +570,7 @@ class GroupHuntGroupConsolidatedModifyInstanceRequest extends \CWM\BroadWorksCon
      * @param string|null $forwardToPhoneNumber
      * @return $this
      */
-    public function setForwardToPhoneNumber($forwardToPhoneNumber)
+    public function setForwardToPhoneNumber($forwardToPhoneNumber = null)
     {
         if ($forwardToPhoneNumber === null) {
             $this->forwardToPhoneNumber = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -605,7 +605,7 @@ class GroupHuntGroupConsolidatedModifyInstanceRequest extends \CWM\BroadWorksCon
      * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null $agentUserIdList
      * @return $this
      */
-    public function setAgentUserIdList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList $agentUserIdList)
+    public function setAgentUserIdList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList $agentUserIdList = null)
     {
         if ($agentUserIdList === null) {
             $this->agentUserIdList = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -640,7 +640,7 @@ class GroupHuntGroupConsolidatedModifyInstanceRequest extends \CWM\BroadWorksCon
      * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementAgentWeightList|null $agentWeightList
      * @return $this
      */
-    public function setAgentWeightList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementAgentWeightList $agentWeightList)
+    public function setAgentWeightList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementAgentWeightList $agentWeightList = null)
     {
         if ($agentWeightList === null) {
             $this->agentWeightList = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -799,7 +799,7 @@ class GroupHuntGroupConsolidatedModifyInstanceRequest extends \CWM\BroadWorksCon
      * @param string|null $notReachableForwardToPhoneNumber
      * @return $this
      */
-    public function setNotReachableForwardToPhoneNumber($notReachableForwardToPhoneNumber)
+    public function setNotReachableForwardToPhoneNumber($notReachableForwardToPhoneNumber = null)
     {
         if ($notReachableForwardToPhoneNumber === null) {
             $this->notReachableForwardToPhoneNumber = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -989,7 +989,7 @@ class GroupHuntGroupConsolidatedModifyInstanceRequest extends \CWM\BroadWorksCon
      * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementConsolidatedUserServiceAssignmentList|null $serviceList
      * @return $this
      */
-    public function setServiceList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementConsolidatedUserServiceAssignmentList $serviceList)
+    public function setServiceList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementConsolidatedUserServiceAssignmentList $serviceList = null)
     {
         if ($serviceList === null) {
             $this->serviceList = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -1055,7 +1055,7 @@ class GroupHuntGroupConsolidatedModifyInstanceRequest extends \CWM\BroadWorksCon
      * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null $directoryNumberHuntingAgentUserIdList
      * @return $this
      */
-    public function setDirectoryNumberHuntingAgentUserIdList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList $directoryNumberHuntingAgentUserIdList)
+    public function setDirectoryNumberHuntingAgentUserIdList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList $directoryNumberHuntingAgentUserIdList = null)
     {
         if ($directoryNumberHuntingAgentUserIdList === null) {
             $this->directoryNumberHuntingAgentUserIdList = new \CWM\BroadWorksConnector\Ocip\Nil;

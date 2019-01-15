@@ -87,7 +87,7 @@ class HotelingMenuKeysModifyEntry
      * @param string|null $checkHostStatus
      * @return $this
      */
-    public function setCheckHostStatus($checkHostStatus)
+    public function setCheckHostStatus($checkHostStatus = null)
     {
         if ($checkHostStatus === null) {
             $this->checkHostStatus = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -122,7 +122,7 @@ class HotelingMenuKeysModifyEntry
      * @param string|null $associateWithHost
      * @return $this
      */
-    public function setAssociateWithHost($associateWithHost)
+    public function setAssociateWithHost($associateWithHost = null)
     {
         if ($associateWithHost === null) {
             $this->associateWithHost = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -157,7 +157,7 @@ class HotelingMenuKeysModifyEntry
      * @param string|null $disassociateFromHost
      * @return $this
      */
-    public function setDisassociateFromHost($disassociateFromHost)
+    public function setDisassociateFromHost($disassociateFromHost = null)
     {
         if ($disassociateFromHost === null) {
             $this->disassociateFromHost = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -192,7 +192,7 @@ class HotelingMenuKeysModifyEntry
      * @param string|null $disassociateFromRemoteHost
      * @return $this
      */
-    public function setDisassociateFromRemoteHost($disassociateFromRemoteHost)
+    public function setDisassociateFromRemoteHost($disassociateFromRemoteHost = null)
     {
         if ($disassociateFromRemoteHost === null) {
             $this->disassociateFromRemoteHost = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -258,7 +258,7 @@ class HotelingMenuKeysModifyEntry
      * @param string|null $repeatMenu
      * @return $this
      */
-    public function setRepeatMenu($repeatMenu)
+    public function setRepeatMenu($repeatMenu = null)
     {
         if ($repeatMenu === null) {
             $this->repeatMenu = new \CWM\BroadWorksConnector\Ocip\Nil;

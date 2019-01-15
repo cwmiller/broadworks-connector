@@ -80,7 +80,7 @@ class UserOCICallControlApplicationModifyRequest extends \CWM\BroadWorksConnecto
      * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementOCICallControlApplicationIdList|null $applicationIdList
      * @return $this
      */
-    public function setApplicationIdList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementOCICallControlApplicationIdList $applicationIdList)
+    public function setApplicationIdList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementOCICallControlApplicationIdList $applicationIdList = null)
     {
         if ($applicationIdList === null) {
             $this->applicationIdList = new \CWM\BroadWorksConnector\Ocip\Nil;

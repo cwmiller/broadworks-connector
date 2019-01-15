@@ -135,7 +135,7 @@ class ResellerNetworkClassOfServiceUnassignListRequest extends \CWM\BroadWorksCo
      * @param \CWM\BroadWorksConnector\Ocip\Models\DefaultNetworkClassOfService|null $defaultNetworkClassOfService
      * @return $this
      */
-    public function setDefaultNetworkClassOfService(\CWM\BroadWorksConnector\Ocip\Models\DefaultNetworkClassOfService $defaultNetworkClassOfService)
+    public function setDefaultNetworkClassOfService(\CWM\BroadWorksConnector\Ocip\Models\DefaultNetworkClassOfService $defaultNetworkClassOfService = null)
     {
         if ($defaultNetworkClassOfService === null) {
             $this->defaultNetworkClassOfService = new \CWM\BroadWorksConnector\Ocip\Nil;

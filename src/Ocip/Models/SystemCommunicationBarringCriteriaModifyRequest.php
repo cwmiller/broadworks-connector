@@ -478,7 +478,7 @@ class SystemCommunicationBarringCriteriaModifyRequest extends \CWM\BroadWorksCon
      * @param string|null $description
      * @return $this
      */
-    public function setDescription($description)
+    public function setDescription($description = null)
     {
         if ($description === null) {
             $this->description = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -513,7 +513,7 @@ class SystemCommunicationBarringCriteriaModifyRequest extends \CWM\BroadWorksCon
      * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringCallTypeList|null $matchCallType
      * @return $this
      */
-    public function setMatchCallType(\CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringCallTypeList $matchCallType)
+    public function setMatchCallType(\CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringCallTypeList $matchCallType = null)
     {
         if ($matchCallType === null) {
             $this->matchCallType = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -548,7 +548,7 @@ class SystemCommunicationBarringCriteriaModifyRequest extends \CWM\BroadWorksCon
      * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringAlternateCallIndicatorList|null $matchAlternateCallIndicator
      * @return $this
      */
-    public function setMatchAlternateCallIndicator(\CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringAlternateCallIndicatorList $matchAlternateCallIndicator)
+    public function setMatchAlternateCallIndicator(\CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringAlternateCallIndicatorList $matchAlternateCallIndicator = null)
     {
         if ($matchAlternateCallIndicator === null) {
             $this->matchAlternateCallIndicator = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -583,7 +583,7 @@ class SystemCommunicationBarringCriteriaModifyRequest extends \CWM\BroadWorksCon
      * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementVirtualOnNetCallTypeNameList|null $matchVirtualOnNetCallType
      * @return $this
      */
-    public function setMatchVirtualOnNetCallType(\CWM\BroadWorksConnector\Ocip\Models\ReplacementVirtualOnNetCallTypeNameList $matchVirtualOnNetCallType)
+    public function setMatchVirtualOnNetCallType(\CWM\BroadWorksConnector\Ocip\Models\ReplacementVirtualOnNetCallTypeNameList $matchVirtualOnNetCallType = null)
     {
         if ($matchVirtualOnNetCallType === null) {
             $this->matchVirtualOnNetCallType = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -1610,7 +1610,7 @@ class SystemCommunicationBarringCriteriaModifyRequest extends \CWM\BroadWorksCon
      * @param string|null $timeSchedule
      * @return $this
      */
-    public function setTimeSchedule($timeSchedule)
+    public function setTimeSchedule($timeSchedule = null)
     {
         if ($timeSchedule === null) {
             $this->timeSchedule = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -1645,7 +1645,7 @@ class SystemCommunicationBarringCriteriaModifyRequest extends \CWM\BroadWorksCon
      * @param string|null $holidaySchedule
      * @return $this
      */
-    public function setHolidaySchedule($holidaySchedule)
+    public function setHolidaySchedule($holidaySchedule = null)
     {
         if ($holidaySchedule === null) {
             $this->holidaySchedule = new \CWM\BroadWorksConnector\Ocip\Nil;

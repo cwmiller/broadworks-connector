@@ -275,7 +275,7 @@ class SystemCallingNameRetrievalModifyRequest20 extends \CWM\BroadWorksConnector
      * @param string|null $sipExternalDatabaseNetAddress
      * @return $this
      */
-    public function setSipExternalDatabaseNetAddress($sipExternalDatabaseNetAddress)
+    public function setSipExternalDatabaseNetAddress($sipExternalDatabaseNetAddress = null)
     {
         if ($sipExternalDatabaseNetAddress === null) {
             $this->sipExternalDatabaseNetAddress = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -310,7 +310,7 @@ class SystemCallingNameRetrievalModifyRequest20 extends \CWM\BroadWorksConnector
      * @param int|null $sipExternalDatabasePort
      * @return $this
      */
-    public function setSipExternalDatabasePort($sipExternalDatabasePort)
+    public function setSipExternalDatabasePort($sipExternalDatabasePort = null)
     {
         if ($sipExternalDatabasePort === null) {
             $this->sipExternalDatabasePort = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -376,7 +376,7 @@ class SystemCallingNameRetrievalModifyRequest20 extends \CWM\BroadWorksConnector
      * @param string|null $soapExternalDatabaseNetAddress
      * @return $this
      */
-    public function setSoapExternalDatabaseNetAddress($soapExternalDatabaseNetAddress)
+    public function setSoapExternalDatabaseNetAddress($soapExternalDatabaseNetAddress = null)
     {
         if ($soapExternalDatabaseNetAddress === null) {
             $this->soapExternalDatabaseNetAddress = new \CWM\BroadWorksConnector\Ocip\Nil;

@@ -332,7 +332,7 @@ class GroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReque
      * @param string|null $groupName
      * @return $this
      */
-    public function setGroupName($groupName)
+    public function setGroupName($groupName = null)
     {
         if ($groupName === null) {
             $this->groupName = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -367,7 +367,7 @@ class GroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReque
      * @param string|null $callingLineIdName
      * @return $this
      */
-    public function setCallingLineIdName($callingLineIdName)
+    public function setCallingLineIdName($callingLineIdName = null)
     {
         if ($callingLineIdName === null) {
             $this->callingLineIdName = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -402,7 +402,7 @@ class GroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReque
      * @param string|null $callingLineIdPhoneNumber
      * @return $this
      */
-    public function setCallingLineIdPhoneNumber($callingLineIdPhoneNumber)
+    public function setCallingLineIdPhoneNumber($callingLineIdPhoneNumber = null)
     {
         if ($callingLineIdPhoneNumber === null) {
             $this->callingLineIdPhoneNumber = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -468,7 +468,7 @@ class GroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReque
      * @param string|null $locationDialingCode
      * @return $this
      */
-    public function setLocationDialingCode($locationDialingCode)
+    public function setLocationDialingCode($locationDialingCode = null)
     {
         if ($locationDialingCode === null) {
             $this->locationDialingCode = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -565,7 +565,7 @@ class GroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReque
      * @param string|null $servicePolicy
      * @return $this
      */
-    public function setServicePolicy($servicePolicy)
+    public function setServicePolicy($servicePolicy = null)
     {
         if ($servicePolicy === null) {
             $this->servicePolicy = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -600,7 +600,7 @@ class GroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReque
      * @param string|null $callProcessingSliceId
      * @return $this
      */
-    public function setCallProcessingSliceId($callProcessingSliceId)
+    public function setCallProcessingSliceId($callProcessingSliceId = null)
     {
         if ($callProcessingSliceId === null) {
             $this->callProcessingSliceId = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -635,7 +635,7 @@ class GroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReque
      * @param string|null $provisioningSliceId
      * @return $this
      */
-    public function setProvisioningSliceId($provisioningSliceId)
+    public function setProvisioningSliceId($provisioningSliceId = null)
     {
         if ($provisioningSliceId === null) {
             $this->provisioningSliceId = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -670,7 +670,7 @@ class GroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReque
      * @param string|null $subscriberPartition
      * @return $this
      */
-    public function setSubscriberPartition($subscriberPartition)
+    public function setSubscriberPartition($subscriberPartition = null)
     {
         if ($subscriberPartition === null) {
             $this->subscriberPartition = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -705,7 +705,7 @@ class GroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReque
      * @param string|null $preferredDataCenter
      * @return $this
      */
-    public function setPreferredDataCenter($preferredDataCenter)
+    public function setPreferredDataCenter($preferredDataCenter = null)
     {
         if ($preferredDataCenter === null) {
             $this->preferredDataCenter = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -740,7 +740,7 @@ class GroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReque
      * @param string|null $defaultUserCallingLineIdPhoneNumber
      * @return $this
      */
-    public function setDefaultUserCallingLineIdPhoneNumber($defaultUserCallingLineIdPhoneNumber)
+    public function setDefaultUserCallingLineIdPhoneNumber($defaultUserCallingLineIdPhoneNumber = null)
     {
         if ($defaultUserCallingLineIdPhoneNumber === null) {
             $this->defaultUserCallingLineIdPhoneNumber = new \CWM\BroadWorksConnector\Ocip\Nil;

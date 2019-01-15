@@ -88,7 +88,7 @@ class VoiceMessagingDistributionListModify
      * @param string|null $description
      * @return $this
      */
-    public function setDescription($description)
+    public function setDescription($description = null)
     {
         if ($description === null) {
             $this->description = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -123,7 +123,7 @@ class VoiceMessagingDistributionListModify
      * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementOutgoingDNorSIPURIList|null $phoneNumberList
      * @return $this
      */
-    public function setPhoneNumberList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementOutgoingDNorSIPURIList $phoneNumberList)
+    public function setPhoneNumberList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementOutgoingDNorSIPURIList $phoneNumberList = null)
     {
         if ($phoneNumberList === null) {
             $this->phoneNumberList = new \CWM\BroadWorksConnector\Ocip\Nil;

@@ -105,7 +105,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19ChangeExtendedAway
      * @param string|null $activateExtendedAwayGreeting
      * @return $this
      */
-    public function setActivateExtendedAwayGreeting($activateExtendedAwayGreeting)
+    public function setActivateExtendedAwayGreeting($activateExtendedAwayGreeting = null)
     {
         if ($activateExtendedAwayGreeting === null) {
             $this->activateExtendedAwayGreeting = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -140,7 +140,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19ChangeExtendedAway
      * @param string|null $deactivateExtendedAwayGreeting
      * @return $this
      */
-    public function setDeactivateExtendedAwayGreeting($deactivateExtendedAwayGreeting)
+    public function setDeactivateExtendedAwayGreeting($deactivateExtendedAwayGreeting = null)
     {
         if ($deactivateExtendedAwayGreeting === null) {
             $this->deactivateExtendedAwayGreeting = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -175,7 +175,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19ChangeExtendedAway
      * @param string|null $recordNewGreeting
      * @return $this
      */
-    public function setRecordNewGreeting($recordNewGreeting)
+    public function setRecordNewGreeting($recordNewGreeting = null)
     {
         if ($recordNewGreeting === null) {
             $this->recordNewGreeting = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -210,7 +210,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19ChangeExtendedAway
      * @param string|null $listenToCurrentGreeting
      * @return $this
      */
-    public function setListenToCurrentGreeting($listenToCurrentGreeting)
+    public function setListenToCurrentGreeting($listenToCurrentGreeting = null)
     {
         if ($listenToCurrentGreeting === null) {
             $this->listenToCurrentGreeting = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -245,7 +245,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19ChangeExtendedAway
      * @param string|null $enableMessageDeposit
      * @return $this
      */
-    public function setEnableMessageDeposit($enableMessageDeposit)
+    public function setEnableMessageDeposit($enableMessageDeposit = null)
     {
         if ($enableMessageDeposit === null) {
             $this->enableMessageDeposit = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -280,7 +280,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19ChangeExtendedAway
      * @param string|null $disableMessageDeposit
      * @return $this
      */
-    public function setDisableMessageDeposit($disableMessageDeposit)
+    public function setDisableMessageDeposit($disableMessageDeposit = null)
     {
         if ($disableMessageDeposit === null) {
             $this->disableMessageDeposit = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -346,7 +346,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19ChangeExtendedAway
      * @param string|null $repeatMenu
      * @return $this
      */
-    public function setRepeatMenu($repeatMenu)
+    public function setRepeatMenu($repeatMenu = null)
     {
         if ($repeatMenu === null) {
             $this->repeatMenu = new \CWM\BroadWorksConnector\Ocip\Nil;

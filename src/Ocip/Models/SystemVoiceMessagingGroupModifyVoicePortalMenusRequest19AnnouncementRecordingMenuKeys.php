@@ -165,7 +165,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19AnnouncementRecord
      * @param string|null $repeatMenu
      * @return $this
      */
-    public function setRepeatMenu($repeatMenu)
+    public function setRepeatMenu($repeatMenu = null)
     {
         if ($repeatMenu === null) {
             $this->repeatMenu = new \CWM\BroadWorksConnector\Ocip\Nil;

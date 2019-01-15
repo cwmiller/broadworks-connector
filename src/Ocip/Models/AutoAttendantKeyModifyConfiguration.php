@@ -77,7 +77,7 @@ class AutoAttendantKeyModifyConfiguration
      * @param \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantKeyConfigurationModifyEntry|null $entry
      * @return $this
      */
-    public function setEntry(\CWM\BroadWorksConnector\Ocip\Models\AutoAttendantKeyConfigurationModifyEntry $entry)
+    public function setEntry(\CWM\BroadWorksConnector\Ocip\Models\AutoAttendantKeyConfigurationModifyEntry $entry = null)
     {
         if ($entry === null) {
             $this->entry = new \CWM\BroadWorksConnector\Ocip\Nil;

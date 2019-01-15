@@ -215,7 +215,7 @@ class GroupAutoAttendantModifyInstanceRequest16 extends \CWM\BroadWorksConnector
      * @param string|null $businessHours
      * @return $this
      */
-    public function setBusinessHours($businessHours)
+    public function setBusinessHours($businessHours = null)
     {
         if ($businessHours === null) {
             $this->businessHours = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -250,7 +250,7 @@ class GroupAutoAttendantModifyInstanceRequest16 extends \CWM\BroadWorksConnector
      * @param string|null $holidayScheduleName
      * @return $this
      */
-    public function setHolidayScheduleName($holidayScheduleName)
+    public function setHolidayScheduleName($holidayScheduleName = null)
     {
         if ($holidayScheduleName === null) {
             $this->holidayScheduleName = new \CWM\BroadWorksConnector\Ocip\Nil;

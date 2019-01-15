@@ -56,7 +56,7 @@ class CommPilotExpressAvailableInOfficeModify
      * @param string|null $additionalPhoneNumberToRing
      * @return $this
      */
-    public function setAdditionalPhoneNumberToRing($additionalPhoneNumberToRing)
+    public function setAdditionalPhoneNumberToRing($additionalPhoneNumberToRing = null)
     {
         if ($additionalPhoneNumberToRing === null) {
             $this->additionalPhoneNumberToRing = new \CWM\BroadWorksConnector\Ocip\Nil;

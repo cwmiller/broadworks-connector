@@ -159,7 +159,7 @@ class UserMeetMeConferencingModifyConferenceGreetingRequest20 extends \CWM\Broad
      * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey|null $entranceGreetingFile
      * @return $this
      */
-    public function setEntranceGreetingFile(\CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey $entranceGreetingFile)
+    public function setEntranceGreetingFile(\CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey $entranceGreetingFile = null)
     {
         if ($entranceGreetingFile === null) {
             $this->entranceGreetingFile = new \CWM\BroadWorksConnector\Ocip\Nil;

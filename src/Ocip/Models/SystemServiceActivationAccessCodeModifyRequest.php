@@ -101,7 +101,7 @@ class SystemServiceActivationAccessCodeModifyRequest extends \CWM\BroadWorksConn
      * @param string|null $terminatingAccessCode
      * @return $this
      */
-    public function setTerminatingAccessCode($terminatingAccessCode)
+    public function setTerminatingAccessCode($terminatingAccessCode = null)
     {
         if ($terminatingAccessCode === null) {
             $this->terminatingAccessCode = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -136,7 +136,7 @@ class SystemServiceActivationAccessCodeModifyRequest extends \CWM\BroadWorksConn
      * @param string|null $redirectingAccessCode
      * @return $this
      */
-    public function setRedirectingAccessCode($redirectingAccessCode)
+    public function setRedirectingAccessCode($redirectingAccessCode = null)
     {
         if ($redirectingAccessCode === null) {
             $this->redirectingAccessCode = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -171,7 +171,7 @@ class SystemServiceActivationAccessCodeModifyRequest extends \CWM\BroadWorksConn
      * @param string|null $clickToDialAccessCode
      * @return $this
      */
-    public function setClickToDialAccessCode($clickToDialAccessCode)
+    public function setClickToDialAccessCode($clickToDialAccessCode = null)
     {
         if ($clickToDialAccessCode === null) {
             $this->clickToDialAccessCode = new \CWM\BroadWorksConnector\Ocip\Nil;

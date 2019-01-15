@@ -1450,7 +1450,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19 extends \CWM\Broa
      * @param \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19GreetingOnlyForwardingDestinationMenuKeys|null $greetingOnlyForwardingDestinationMenuKeys
      * @return $this
      */
-    public function setGreetingOnlyForwardingDestinationMenuKeys(\CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19GreetingOnlyForwardingDestinationMenuKeys $greetingOnlyForwardingDestinationMenuKeys)
+    public function setGreetingOnlyForwardingDestinationMenuKeys(\CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19GreetingOnlyForwardingDestinationMenuKeys $greetingOnlyForwardingDestinationMenuKeys = null)
     {
         if ($greetingOnlyForwardingDestinationMenuKeys === null) {
             $this->greetingOnlyForwardingDestinationMenuKeys = new \CWM\BroadWorksConnector\Ocip\Nil;

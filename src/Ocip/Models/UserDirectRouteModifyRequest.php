@@ -160,7 +160,7 @@ class UserDirectRouteModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @param \CWM\BroadWorksConnector\Ocip\Models\DirectRouteReplacementIdentityList|null $directRouteIdentityList
      * @return $this
      */
-    public function setDirectRouteIdentityList(\CWM\BroadWorksConnector\Ocip\Models\DirectRouteReplacementIdentityList $directRouteIdentityList)
+    public function setDirectRouteIdentityList(\CWM\BroadWorksConnector\Ocip\Models\DirectRouteReplacementIdentityList $directRouteIdentityList = null)
     {
         if ($directRouteIdentityList === null) {
             $this->directRouteIdentityList = new \CWM\BroadWorksConnector\Ocip\Nil;

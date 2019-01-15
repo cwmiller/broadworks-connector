@@ -188,7 +188,7 @@ class UserSelectiveCallRejectionModifyCriteriaRequest extends \CWM\BroadWorksCon
      * @param \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null $timeSchedule
      * @return $this
      */
-    public function setTimeSchedule(\CWM\BroadWorksConnector\Ocip\Models\TimeSchedule $timeSchedule)
+    public function setTimeSchedule(\CWM\BroadWorksConnector\Ocip\Models\TimeSchedule $timeSchedule = null)
     {
         if ($timeSchedule === null) {
             $this->timeSchedule = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -254,7 +254,7 @@ class UserSelectiveCallRejectionModifyCriteriaRequest extends \CWM\BroadWorksCon
      * @param \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null $holidaySchedule
      * @return $this
      */
-    public function setHolidaySchedule(\CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule $holidaySchedule)
+    public function setHolidaySchedule(\CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule $holidaySchedule = null)
     {
         if ($holidaySchedule === null) {
             $this->holidaySchedule = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -289,7 +289,7 @@ class UserSelectiveCallRejectionModifyCriteriaRequest extends \CWM\BroadWorksCon
      * @param bool|null $blacklisted
      * @return $this
      */
-    public function setBlacklisted($blacklisted)
+    public function setBlacklisted($blacklisted = null)
     {
         if ($blacklisted === null) {
             $this->blacklisted = new \CWM\BroadWorksConnector\Ocip\Nil;

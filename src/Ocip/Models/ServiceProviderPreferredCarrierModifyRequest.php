@@ -145,7 +145,7 @@ class ServiceProviderPreferredCarrierModifyRequest extends \CWM\BroadWorksConnec
      * @param string|null $intraLataCarrier
      * @return $this
      */
-    public function setIntraLataCarrier($intraLataCarrier)
+    public function setIntraLataCarrier($intraLataCarrier = null)
     {
         if ($intraLataCarrier === null) {
             $this->intraLataCarrier = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -180,7 +180,7 @@ class ServiceProviderPreferredCarrierModifyRequest extends \CWM\BroadWorksConnec
      * @param string|null $interLataCarrier
      * @return $this
      */
-    public function setInterLataCarrier($interLataCarrier)
+    public function setInterLataCarrier($interLataCarrier = null)
     {
         if ($interLataCarrier === null) {
             $this->interLataCarrier = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -215,7 +215,7 @@ class ServiceProviderPreferredCarrierModifyRequest extends \CWM\BroadWorksConnec
      * @param string|null $internationalCarrier
      * @return $this
      */
-    public function setInternationalCarrier($internationalCarrier)
+    public function setInternationalCarrier($internationalCarrier = null)
     {
         if ($internationalCarrier === null) {
             $this->internationalCarrier = new \CWM\BroadWorksConnector\Ocip\Nil;

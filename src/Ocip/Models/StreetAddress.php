@@ -97,7 +97,7 @@ class StreetAddress
      * @param string|null $addressLine1
      * @return $this
      */
-    public function setAddressLine1($addressLine1)
+    public function setAddressLine1($addressLine1 = null)
     {
         if ($addressLine1 === null) {
             $this->addressLine1 = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -132,7 +132,7 @@ class StreetAddress
      * @param string|null $addressLine2
      * @return $this
      */
-    public function setAddressLine2($addressLine2)
+    public function setAddressLine2($addressLine2 = null)
     {
         if ($addressLine2 === null) {
             $this->addressLine2 = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -167,7 +167,7 @@ class StreetAddress
      * @param string|null $city
      * @return $this
      */
-    public function setCity($city)
+    public function setCity($city = null)
     {
         if ($city === null) {
             $this->city = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -202,7 +202,7 @@ class StreetAddress
      * @param string|null $stateOrProvince
      * @return $this
      */
-    public function setStateOrProvince($stateOrProvince)
+    public function setStateOrProvince($stateOrProvince = null)
     {
         if ($stateOrProvince === null) {
             $this->stateOrProvince = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -268,7 +268,7 @@ class StreetAddress
      * @param string|null $zipOrPostalCode
      * @return $this
      */
-    public function setZipOrPostalCode($zipOrPostalCode)
+    public function setZipOrPostalCode($zipOrPostalCode = null)
     {
         if ($zipOrPostalCode === null) {
             $this->zipOrPostalCode = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -303,7 +303,7 @@ class StreetAddress
      * @param string|null $country
      * @return $this
      */
-    public function setCountry($country)
+    public function setCountry($country = null)
     {
         if ($country === null) {
             $this->country = new \CWM\BroadWorksConnector\Ocip\Nil;

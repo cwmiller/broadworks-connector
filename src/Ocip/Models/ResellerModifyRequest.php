@@ -80,7 +80,7 @@ class ResellerModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRe
      * @param string|null $resellerName
      * @return $this
      */
-    public function setResellerName($resellerName)
+    public function setResellerName($resellerName = null)
     {
         if ($resellerName === null) {
             $this->resellerName = new \CWM\BroadWorksConnector\Ocip\Nil;

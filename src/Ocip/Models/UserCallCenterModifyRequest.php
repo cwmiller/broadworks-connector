@@ -229,7 +229,7 @@ class UserCallCenterModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @param string|null $agentUnavailableCode
      * @return $this
      */
-    public function setAgentUnavailableCode($agentUnavailableCode)
+    public function setAgentUnavailableCode($agentUnavailableCode = null)
     {
         if ($agentUnavailableCode === null) {
             $this->agentUnavailableCode = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -543,7 +543,7 @@ class UserCallCenterModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @param \CWM\BroadWorksConnector\Ocip\Models\DNISKey|null $outgoingCallDNIS
      * @return $this
      */
-    public function setOutgoingCallDNIS(\CWM\BroadWorksConnector\Ocip\Models\DNISKey $outgoingCallDNIS)
+    public function setOutgoingCallDNIS(\CWM\BroadWorksConnector\Ocip\Models\DNISKey $outgoingCallDNIS = null)
     {
         if ($outgoingCallDNIS === null) {
             $this->outgoingCallDNIS = new \CWM\BroadWorksConnector\Ocip\Nil;

@@ -76,7 +76,7 @@ class ServicePolicyAttributeModifyEntry
      * @param string|null $value
      * @return $this
      */
-    public function setValue($value)
+    public function setValue($value = null)
     {
         if ($value === null) {
             $this->value = new \CWM\BroadWorksConnector\Ocip\Nil;

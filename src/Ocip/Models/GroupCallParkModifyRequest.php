@@ -266,7 +266,7 @@ class GroupCallParkModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @param string|null $recallAlternateUserId
      * @return $this
      */
-    public function setRecallAlternateUserId($recallAlternateUserId)
+    public function setRecallAlternateUserId($recallAlternateUserId = null)
     {
         if ($recallAlternateUserId === null) {
             $this->recallAlternateUserId = new \CWM\BroadWorksConnector\Ocip\Nil;

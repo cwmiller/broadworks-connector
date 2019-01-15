@@ -294,7 +294,7 @@ class EnterpriseEnterpriseTrunkModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @param string|null $routeExhaustionForwardAddress
      * @return $this
      */
-    public function setRouteExhaustionForwardAddress($routeExhaustionForwardAddress)
+    public function setRouteExhaustionForwardAddress($routeExhaustionForwardAddress = null)
     {
         if ($routeExhaustionForwardAddress === null) {
             $this->routeExhaustionForwardAddress = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -422,7 +422,7 @@ class EnterpriseEnterpriseTrunkModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @param int|null $maxActiveCalls
      * @return $this
      */
-    public function setMaxActiveCalls($maxActiveCalls)
+    public function setMaxActiveCalls($maxActiveCalls = null)
     {
         if ($maxActiveCalls === null) {
             $this->maxActiveCalls = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -457,7 +457,7 @@ class EnterpriseEnterpriseTrunkModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @param int|null $capacityExceededTrapInitialCalls
      * @return $this
      */
-    public function setCapacityExceededTrapInitialCalls($capacityExceededTrapInitialCalls)
+    public function setCapacityExceededTrapInitialCalls($capacityExceededTrapInitialCalls = null)
     {
         if ($capacityExceededTrapInitialCalls === null) {
             $this->capacityExceededTrapInitialCalls = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -492,7 +492,7 @@ class EnterpriseEnterpriseTrunkModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @param int|null $capacityExceededTrapOffsetCalls
      * @return $this
      */
-    public function setCapacityExceededTrapOffsetCalls($capacityExceededTrapOffsetCalls)
+    public function setCapacityExceededTrapOffsetCalls($capacityExceededTrapOffsetCalls = null)
     {
         if ($capacityExceededTrapOffsetCalls === null) {
             $this->capacityExceededTrapOffsetCalls = new \CWM\BroadWorksConnector\Ocip\Nil;

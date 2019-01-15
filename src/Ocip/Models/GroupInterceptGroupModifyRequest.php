@@ -340,7 +340,7 @@ class GroupInterceptGroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @param string|null $newPhoneNumber
      * @return $this
      */
-    public function setNewPhoneNumber($newPhoneNumber)
+    public function setNewPhoneNumber($newPhoneNumber = null)
     {
         if ($newPhoneNumber === null) {
             $this->newPhoneNumber = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -406,7 +406,7 @@ class GroupInterceptGroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @param string|null $transferPhoneNumber
      * @return $this
      */
-    public function setTransferPhoneNumber($transferPhoneNumber)
+    public function setTransferPhoneNumber($transferPhoneNumber = null)
     {
         if ($transferPhoneNumber === null) {
             $this->transferPhoneNumber = new \CWM\BroadWorksConnector\Ocip\Nil;

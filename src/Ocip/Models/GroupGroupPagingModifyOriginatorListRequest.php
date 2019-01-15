@@ -80,7 +80,7 @@ class GroupGroupPagingModifyOriginatorListRequest extends \CWM\BroadWorksConnect
      * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null $originatorUserIdList
      * @return $this
      */
-    public function setOriginatorUserIdList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList $originatorUserIdList)
+    public function setOriginatorUserIdList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList $originatorUserIdList = null)
     {
         if ($originatorUserIdList === null) {
             $this->originatorUserIdList = new \CWM\BroadWorksConnector\Ocip\Nil;

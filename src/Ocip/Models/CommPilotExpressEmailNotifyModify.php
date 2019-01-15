@@ -78,7 +78,7 @@ class CommPilotExpressEmailNotifyModify
      * @param string|null $emailAddress
      * @return $this
      */
-    public function setEmailAddress($emailAddress)
+    public function setEmailAddress($emailAddress = null)
     {
         if ($emailAddress === null) {
             $this->emailAddress = new \CWM\BroadWorksConnector\Ocip\Nil;

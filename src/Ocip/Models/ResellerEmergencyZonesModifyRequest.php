@@ -80,7 +80,7 @@ class ResellerEmergencyZonesModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @param string|null $defaultFromAddress
      * @return $this
      */
-    public function setDefaultFromAddress($defaultFromAddress)
+    public function setDefaultFromAddress($defaultFromAddress = null)
     {
         if ($defaultFromAddress === null) {
             $this->defaultFromAddress = new \CWM\BroadWorksConnector\Ocip\Nil;

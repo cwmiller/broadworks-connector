@@ -96,7 +96,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19FaxMessagingMenuKe
      * @param string|null $saveFaxMessageAndSkipToNext
      * @return $this
      */
-    public function setSaveFaxMessageAndSkipToNext($saveFaxMessageAndSkipToNext)
+    public function setSaveFaxMessageAndSkipToNext($saveFaxMessageAndSkipToNext = null)
     {
         if ($saveFaxMessageAndSkipToNext === null) {
             $this->saveFaxMessageAndSkipToNext = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -131,7 +131,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19FaxMessagingMenuKe
      * @param string|null $previousFaxMessage
      * @return $this
      */
-    public function setPreviousFaxMessage($previousFaxMessage)
+    public function setPreviousFaxMessage($previousFaxMessage = null)
     {
         if ($previousFaxMessage === null) {
             $this->previousFaxMessage = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -166,7 +166,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19FaxMessagingMenuKe
      * @param string|null $playEnvelope
      * @return $this
      */
-    public function setPlayEnvelope($playEnvelope)
+    public function setPlayEnvelope($playEnvelope = null)
     {
         if ($playEnvelope === null) {
             $this->playEnvelope = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -201,7 +201,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19FaxMessagingMenuKe
      * @param string|null $nextFaxMessage
      * @return $this
      */
-    public function setNextFaxMessage($nextFaxMessage)
+    public function setNextFaxMessage($nextFaxMessage = null)
     {
         if ($nextFaxMessage === null) {
             $this->nextFaxMessage = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -236,7 +236,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19FaxMessagingMenuKe
      * @param string|null $deleteFaxMessage
      * @return $this
      */
-    public function setDeleteFaxMessage($deleteFaxMessage)
+    public function setDeleteFaxMessage($deleteFaxMessage = null)
     {
         if ($deleteFaxMessage === null) {
             $this->deleteFaxMessage = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -271,7 +271,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19FaxMessagingMenuKe
      * @param string|null $printFaxMessage
      * @return $this
      */
-    public function setPrintFaxMessage($printFaxMessage)
+    public function setPrintFaxMessage($printFaxMessage = null)
     {
         if ($printFaxMessage === null) {
             $this->printFaxMessage = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -306,7 +306,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19FaxMessagingMenuKe
      * @param string|null $returnToPreviousMenu
      * @return $this
      */
-    public function setReturnToPreviousMenu($returnToPreviousMenu)
+    public function setReturnToPreviousMenu($returnToPreviousMenu = null)
     {
         if ($returnToPreviousMenu === null) {
             $this->returnToPreviousMenu = new \CWM\BroadWorksConnector\Ocip\Nil;

@@ -380,7 +380,7 @@ class GroupCollaborateBridgeConsolidatedModifyInstanceRequest extends \CWM\Broad
      * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null $collaborateOwnerUserIdList
      * @return $this
      */
-    public function setCollaborateOwnerUserIdList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList $collaborateOwnerUserIdList)
+    public function setCollaborateOwnerUserIdList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList $collaborateOwnerUserIdList = null)
     {
         if ($collaborateOwnerUserIdList === null) {
             $this->collaborateOwnerUserIdList = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -415,7 +415,7 @@ class GroupCollaborateBridgeConsolidatedModifyInstanceRequest extends \CWM\Broad
      * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementConsolidatedUserServiceAssignmentList|null $serviceList
      * @return $this
      */
-    public function setServiceList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementConsolidatedUserServiceAssignmentList $serviceList)
+    public function setServiceList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementConsolidatedUserServiceAssignmentList $serviceList = null)
     {
         if ($serviceList === null) {
             $this->serviceList = new \CWM\BroadWorksConnector\Ocip\Nil;

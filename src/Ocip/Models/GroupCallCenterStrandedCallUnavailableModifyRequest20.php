@@ -203,7 +203,7 @@ class GroupCallCenterStrandedCallUnavailableModifyRequest20 extends \CWM\BroadWo
      * @param int|null $numberOfAgentsWithSpecifiedUnavailableCode
      * @return $this
      */
-    public function setNumberOfAgentsWithSpecifiedUnavailableCode($numberOfAgentsWithSpecifiedUnavailableCode)
+    public function setNumberOfAgentsWithSpecifiedUnavailableCode($numberOfAgentsWithSpecifiedUnavailableCode = null)
     {
         if ($numberOfAgentsWithSpecifiedUnavailableCode === null) {
             $this->numberOfAgentsWithSpecifiedUnavailableCode = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -238,7 +238,7 @@ class GroupCallCenterStrandedCallUnavailableModifyRequest20 extends \CWM\BroadWo
      * @param string|null $agentsUnavailableCode
      * @return $this
      */
-    public function setAgentsUnavailableCode($agentsUnavailableCode)
+    public function setAgentsUnavailableCode($agentsUnavailableCode = null)
     {
         if ($agentsUnavailableCode === null) {
             $this->agentsUnavailableCode = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -304,7 +304,7 @@ class GroupCallCenterStrandedCallUnavailableModifyRequest20 extends \CWM\BroadWo
      * @param string|null $transferPhoneNumber
      * @return $this
      */
-    public function setTransferPhoneNumber($transferPhoneNumber)
+    public function setTransferPhoneNumber($transferPhoneNumber = null)
     {
         if ($transferPhoneNumber === null) {
             $this->transferPhoneNumber = new \CWM\BroadWorksConnector\Ocip\Nil;

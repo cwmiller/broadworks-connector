@@ -121,7 +121,7 @@ class UserCommunicationBarringModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @param string|null $profileName
      * @return $this
      */
-    public function setProfileName($profileName)
+    public function setProfileName($profileName = null)
     {
         if ($profileName === null) {
             $this->profileName = new \CWM\BroadWorksConnector\Ocip\Nil;

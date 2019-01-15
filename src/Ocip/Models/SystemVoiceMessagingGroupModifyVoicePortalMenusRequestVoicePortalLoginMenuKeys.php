@@ -36,7 +36,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestVoicePortalLoginMenu
      * @param string|null $accessUsingOtherMailboxId
      * @return $this
      */
-    public function setAccessUsingOtherMailboxId($accessUsingOtherMailboxId)
+    public function setAccessUsingOtherMailboxId($accessUsingOtherMailboxId = null)
     {
         if ($accessUsingOtherMailboxId === null) {
             $this->accessUsingOtherMailboxId = new \CWM\BroadWorksConnector\Ocip\Nil;

@@ -148,7 +148,7 @@ class GroupInstantGroupCallModifyInstanceRequest extends \CWM\BroadWorksConnecto
      * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementOutgoingDNorSIPURIList|null $destinationPhoneNumberList
      * @return $this
      */
-    public function setDestinationPhoneNumberList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementOutgoingDNorSIPURIList $destinationPhoneNumberList)
+    public function setDestinationPhoneNumberList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementOutgoingDNorSIPURIList $destinationPhoneNumberList = null)
     {
         if ($destinationPhoneNumberList === null) {
             $this->destinationPhoneNumberList = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -214,7 +214,7 @@ class GroupInstantGroupCallModifyInstanceRequest extends \CWM\BroadWorksConnecto
      * @param int|null $answerTimeoutMinutes
      * @return $this
      */
-    public function setAnswerTimeoutMinutes($answerTimeoutMinutes)
+    public function setAnswerTimeoutMinutes($answerTimeoutMinutes = null)
     {
         if ($answerTimeoutMinutes === null) {
             $this->answerTimeoutMinutes = new \CWM\BroadWorksConnector\Ocip\Nil;

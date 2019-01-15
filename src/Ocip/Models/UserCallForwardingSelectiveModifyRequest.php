@@ -141,7 +141,7 @@ class UserCallForwardingSelectiveModifyRequest extends \CWM\BroadWorksConnector\
      * @param string|null $defaultForwardToPhoneNumber
      * @return $this
      */
-    public function setDefaultForwardToPhoneNumber($defaultForwardToPhoneNumber)
+    public function setDefaultForwardToPhoneNumber($defaultForwardToPhoneNumber = null)
     {
         if ($defaultForwardToPhoneNumber === null) {
             $this->defaultForwardToPhoneNumber = new \CWM\BroadWorksConnector\Ocip\Nil;

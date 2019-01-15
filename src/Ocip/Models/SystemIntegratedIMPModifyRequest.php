@@ -83,7 +83,7 @@ class SystemIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @param string|null $serviceDomain
      * @return $this
      */
-    public function setServiceDomain($serviceDomain)
+    public function setServiceDomain($serviceDomain = null)
     {
         if ($serviceDomain === null) {
             $this->serviceDomain = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -118,7 +118,7 @@ class SystemIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @param int|null $servicePort
      * @return $this
      */
-    public function setServicePort($servicePort)
+    public function setServicePort($servicePort = null)
     {
         if ($servicePort === null) {
             $this->servicePort = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -184,7 +184,7 @@ class SystemIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @param string|null $boshURL
      * @return $this
      */
-    public function setBoshURL($boshURL)
+    public function setBoshURL($boshURL = null)
     {
         if ($boshURL === null) {
             $this->boshURL = new \CWM\BroadWorksConnector\Ocip\Nil;

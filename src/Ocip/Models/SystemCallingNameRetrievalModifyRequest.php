@@ -103,7 +103,7 @@ class SystemCallingNameRetrievalModifyRequest extends \CWM\BroadWorksConnector\O
      * @param string|null $serverNetAddress
      * @return $this
      */
-    public function setServerNetAddress($serverNetAddress)
+    public function setServerNetAddress($serverNetAddress = null)
     {
         if ($serverNetAddress === null) {
             $this->serverNetAddress = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -138,7 +138,7 @@ class SystemCallingNameRetrievalModifyRequest extends \CWM\BroadWorksConnector\O
      * @param int|null $serverPort
      * @return $this
      */
-    public function setServerPort($serverPort)
+    public function setServerPort($serverPort = null)
     {
         if ($serverPort === null) {
             $this->serverPort = new \CWM\BroadWorksConnector\Ocip\Nil;

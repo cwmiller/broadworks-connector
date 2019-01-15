@@ -159,7 +159,7 @@ class ServiceProviderServicePackMigrationTaskModifyGroupListRequest extends \CWM
      * @param \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderServicePackMigrationTaskModifyGroupListRequestGroupIdList|null $groupIdList
      * @return $this
      */
-    public function setGroupIdList(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderServicePackMigrationTaskModifyGroupListRequestGroupIdList $groupIdList)
+    public function setGroupIdList(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderServicePackMigrationTaskModifyGroupListRequestGroupIdList $groupIdList = null)
     {
         if ($groupIdList === null) {
             $this->groupIdList = new \CWM\BroadWorksConnector\Ocip\Nil;

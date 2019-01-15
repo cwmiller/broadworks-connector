@@ -167,7 +167,7 @@ class GroupRoutePointModifyFailoverPolicyRequest extends \CWM\BroadWorksConnecto
      * @param string|null $externalSystem
      * @return $this
      */
-    public function setExternalSystem($externalSystem)
+    public function setExternalSystem($externalSystem = null)
     {
         if ($externalSystem === null) {
             $this->externalSystem = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -202,7 +202,7 @@ class GroupRoutePointModifyFailoverPolicyRequest extends \CWM\BroadWorksConnecto
      * @param string|null $failoverPhoneNumber
      * @return $this
      */
-    public function setFailoverPhoneNumber($failoverPhoneNumber)
+    public function setFailoverPhoneNumber($failoverPhoneNumber = null)
     {
         if ($failoverPhoneNumber === null) {
             $this->failoverPhoneNumber = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -330,7 +330,7 @@ class GroupRoutePointModifyFailoverPolicyRequest extends \CWM\BroadWorksConnecto
      * @param string|null $perCallFailoverPhoneNumber
      * @return $this
      */
-    public function setPerCallFailoverPhoneNumber($perCallFailoverPhoneNumber)
+    public function setPerCallFailoverPhoneNumber($perCallFailoverPhoneNumber = null)
     {
         if ($perCallFailoverPhoneNumber === null) {
             $this->perCallFailoverPhoneNumber = new \CWM\BroadWorksConnector\Ocip\Nil;

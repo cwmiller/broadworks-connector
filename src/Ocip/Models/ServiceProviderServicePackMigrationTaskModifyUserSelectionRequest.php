@@ -170,7 +170,7 @@ class ServiceProviderServicePackMigrationTaskModifyUserSelectionRequest extends 
      * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserServiceList|null $userServiceNameList
      * @return $this
      */
-    public function setUserServiceNameList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementUserServiceList $userServiceNameList)
+    public function setUserServiceNameList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementUserServiceList $userServiceNameList = null)
     {
         if ($userServiceNameList === null) {
             $this->userServiceNameList = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -205,7 +205,7 @@ class ServiceProviderServicePackMigrationTaskModifyUserSelectionRequest extends 
      * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementServicePackNameList|null $servicePackNameList
      * @return $this
      */
-    public function setServicePackNameList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementServicePackNameList $servicePackNameList)
+    public function setServicePackNameList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementServicePackNameList $servicePackNameList = null)
     {
         if ($servicePackNameList === null) {
             $this->servicePackNameList = new \CWM\BroadWorksConnector\Ocip\Nil;

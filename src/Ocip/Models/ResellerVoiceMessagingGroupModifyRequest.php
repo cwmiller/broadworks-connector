@@ -100,7 +100,7 @@ class ResellerVoiceMessagingGroupModifyRequest extends \CWM\BroadWorksConnector\
      * @param string|null $deliveryFromAddress
      * @return $this
      */
-    public function setDeliveryFromAddress($deliveryFromAddress)
+    public function setDeliveryFromAddress($deliveryFromAddress = null)
     {
         if ($deliveryFromAddress === null) {
             $this->deliveryFromAddress = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -135,7 +135,7 @@ class ResellerVoiceMessagingGroupModifyRequest extends \CWM\BroadWorksConnector\
      * @param string|null $notificationFromAddress
      * @return $this
      */
-    public function setNotificationFromAddress($notificationFromAddress)
+    public function setNotificationFromAddress($notificationFromAddress = null)
     {
         if ($notificationFromAddress === null) {
             $this->notificationFromAddress = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -170,7 +170,7 @@ class ResellerVoiceMessagingGroupModifyRequest extends \CWM\BroadWorksConnector\
      * @param string|null $voicePortalLockoutFromAddress
      * @return $this
      */
-    public function setVoicePortalLockoutFromAddress($voicePortalLockoutFromAddress)
+    public function setVoicePortalLockoutFromAddress($voicePortalLockoutFromAddress = null)
     {
         if ($voicePortalLockoutFromAddress === null) {
             $this->voicePortalLockoutFromAddress = new \CWM\BroadWorksConnector\Ocip\Nil;

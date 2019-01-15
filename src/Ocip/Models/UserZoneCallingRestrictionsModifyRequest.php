@@ -80,7 +80,7 @@ class UserZoneCallingRestrictionsModifyRequest extends \CWM\BroadWorksConnector\
      * @param string|null $homeZoneName
      * @return $this
      */
-    public function setHomeZoneName($homeZoneName)
+    public function setHomeZoneName($homeZoneName = null)
     {
         if ($homeZoneName === null) {
             $this->homeZoneName = new \CWM\BroadWorksConnector\Ocip\Nil;

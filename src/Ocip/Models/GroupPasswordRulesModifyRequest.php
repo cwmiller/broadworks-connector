@@ -751,7 +751,7 @@ class GroupPasswordRulesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @param string|null $loginDisabledNotifyEmailAddress
      * @return $this
      */
-    public function setLoginDisabledNotifyEmailAddress($loginDisabledNotifyEmailAddress)
+    public function setLoginDisabledNotifyEmailAddress($loginDisabledNotifyEmailAddress = null)
     {
         if ($loginDisabledNotifyEmailAddress === null) {
             $this->loginDisabledNotifyEmailAddress = new \CWM\BroadWorksConnector\Ocip\Nil;

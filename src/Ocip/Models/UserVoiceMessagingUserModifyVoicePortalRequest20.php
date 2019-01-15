@@ -161,7 +161,7 @@ class UserVoiceMessagingUserModifyVoicePortalRequest20 extends \CWM\BroadWorksCo
      * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null $personalizedNameAudioFile
      * @return $this
      */
-    public function setPersonalizedNameAudioFile(\CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey $personalizedNameAudioFile)
+    public function setPersonalizedNameAudioFile(\CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey $personalizedNameAudioFile = null)
     {
         if ($personalizedNameAudioFile === null) {
             $this->personalizedNameAudioFile = new \CWM\BroadWorksConnector\Ocip\Nil;

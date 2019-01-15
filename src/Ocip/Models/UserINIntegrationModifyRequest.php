@@ -90,7 +90,7 @@ class UserINIntegrationModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @param int|null $originatingServiceKey
      * @return $this
      */
-    public function setOriginatingServiceKey($originatingServiceKey)
+    public function setOriginatingServiceKey($originatingServiceKey = null)
     {
         if ($originatingServiceKey === null) {
             $this->originatingServiceKey = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -125,7 +125,7 @@ class UserINIntegrationModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @param int|null $terminatingServiceKey
      * @return $this
      */
-    public function setTerminatingServiceKey($terminatingServiceKey)
+    public function setTerminatingServiceKey($terminatingServiceKey = null)
     {
         if ($terminatingServiceKey === null) {
             $this->terminatingServiceKey = new \CWM\BroadWorksConnector\Ocip\Nil;

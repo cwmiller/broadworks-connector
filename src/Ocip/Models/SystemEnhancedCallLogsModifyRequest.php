@@ -217,7 +217,7 @@ class SystemEnhancedCallLogsModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @param string|null $server1NetAddress
      * @return $this
      */
-    public function setServer1NetAddress($server1NetAddress)
+    public function setServer1NetAddress($server1NetAddress = null)
     {
         if ($server1NetAddress === null) {
             $this->server1NetAddress = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -314,7 +314,7 @@ class SystemEnhancedCallLogsModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @param string|null $server2NetAddress
      * @return $this
      */
-    public function setServer2NetAddress($server2NetAddress)
+    public function setServer2NetAddress($server2NetAddress = null)
     {
         if ($server2NetAddress === null) {
             $this->server2NetAddress = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -411,7 +411,7 @@ class SystemEnhancedCallLogsModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @param string|null $sharedSecret
      * @return $this
      */
-    public function setSharedSecret($sharedSecret)
+    public function setSharedSecret($sharedSecret = null)
     {
         if ($sharedSecret === null) {
             $this->sharedSecret = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -601,7 +601,7 @@ class SystemEnhancedCallLogsModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @param string|null $eclQueryApplicationURL
      * @return $this
      */
-    public function setEclQueryApplicationURL($eclQueryApplicationURL)
+    public function setEclQueryApplicationURL($eclQueryApplicationURL = null)
     {
         if ($eclQueryApplicationURL === null) {
             $this->eclQueryApplicationURL = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -636,7 +636,7 @@ class SystemEnhancedCallLogsModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @param string|null $eclQueryDataRepositoryURL
      * @return $this
      */
-    public function setEclQueryDataRepositoryURL($eclQueryDataRepositoryURL)
+    public function setEclQueryDataRepositoryURL($eclQueryDataRepositoryURL = null)
     {
         if ($eclQueryDataRepositoryURL === null) {
             $this->eclQueryDataRepositoryURL = new \CWM\BroadWorksConnector\Ocip\Nil;

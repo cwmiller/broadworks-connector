@@ -541,7 +541,7 @@ class UserInterceptUserModifyRequest21sp1 extends \CWM\BroadWorksConnector\Ocip\
      * @param string|null $newPhoneNumber
      * @return $this
      */
-    public function setNewPhoneNumber($newPhoneNumber)
+    public function setNewPhoneNumber($newPhoneNumber = null)
     {
         if ($newPhoneNumber === null) {
             $this->newPhoneNumber = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -607,7 +607,7 @@ class UserInterceptUserModifyRequest21sp1 extends \CWM\BroadWorksConnector\Ocip\
      * @param string|null $transferPhoneNumber
      * @return $this
      */
-    public function setTransferPhoneNumber($transferPhoneNumber)
+    public function setTransferPhoneNumber($transferPhoneNumber = null)
     {
         if ($transferPhoneNumber === null) {
             $this->transferPhoneNumber = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -735,7 +735,7 @@ class UserInterceptUserModifyRequest21sp1 extends \CWM\BroadWorksConnector\Ocip\
      * @param string|null $outboundReroutePhoneNumber
      * @return $this
      */
-    public function setOutboundReroutePhoneNumber($outboundReroutePhoneNumber)
+    public function setOutboundReroutePhoneNumber($outboundReroutePhoneNumber = null)
     {
         if ($outboundReroutePhoneNumber === null) {
             $this->outboundReroutePhoneNumber = new \CWM\BroadWorksConnector\Ocip\Nil;

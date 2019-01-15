@@ -76,7 +76,7 @@ class DeviceManagementLanguageMapping
      * @param string|null $deviceLanguage
      * @return $this
      */
-    public function setDeviceLanguage($deviceLanguage)
+    public function setDeviceLanguage($deviceLanguage = null)
     {
         if ($deviceLanguage === null) {
             $this->deviceLanguage = new \CWM\BroadWorksConnector\Ocip\Nil;

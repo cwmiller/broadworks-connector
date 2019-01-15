@@ -76,7 +76,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19SelectDistribution
      * @param string|null $repeatMenuOrFinishEnteringDistributionListNumber
      * @return $this
      */
-    public function setRepeatMenuOrFinishEnteringDistributionListNumber($repeatMenuOrFinishEnteringDistributionListNumber)
+    public function setRepeatMenuOrFinishEnteringDistributionListNumber($repeatMenuOrFinishEnteringDistributionListNumber = null)
     {
         if ($repeatMenuOrFinishEnteringDistributionListNumber === null) {
             $this->repeatMenuOrFinishEnteringDistributionListNumber = new \CWM\BroadWorksConnector\Ocip\Nil;

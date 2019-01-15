@@ -58,7 +58,7 @@ class Contact
      * @param string|null $contactName
      * @return $this
      */
-    public function setContactName($contactName)
+    public function setContactName($contactName = null)
     {
         if ($contactName === null) {
             $this->contactName = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -93,7 +93,7 @@ class Contact
      * @param string|null $contactNumber
      * @return $this
      */
-    public function setContactNumber($contactNumber)
+    public function setContactNumber($contactNumber = null)
     {
         if ($contactNumber === null) {
             $this->contactNumber = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -128,7 +128,7 @@ class Contact
      * @param string|null $contactEmail
      * @return $this
      */
-    public function setContactEmail($contactEmail)
+    public function setContactEmail($contactEmail = null)
     {
         if ($contactEmail === null) {
             $this->contactEmail = new \CWM\BroadWorksConnector\Ocip\Nil;

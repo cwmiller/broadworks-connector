@@ -80,7 +80,7 @@ class SystemExpensiveCallTypeModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @param string|null $treatmentAudioFile
      * @return $this
      */
-    public function setTreatmentAudioFile($treatmentAudioFile)
+    public function setTreatmentAudioFile($treatmentAudioFile = null)
     {
         if ($treatmentAudioFile === null) {
             $this->treatmentAudioFile = new \CWM\BroadWorksConnector\Ocip\Nil;

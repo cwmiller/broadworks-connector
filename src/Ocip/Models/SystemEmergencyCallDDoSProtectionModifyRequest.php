@@ -130,7 +130,7 @@ class SystemEmergencyCallDDoSProtectionModifyRequest extends \CWM\BroadWorksConn
      * @param int|null $protectionRate
      * @return $this
      */
-    public function setProtectionRate($protectionRate)
+    public function setProtectionRate($protectionRate = null)
     {
         if ($protectionRate === null) {
             $this->protectionRate = new \CWM\BroadWorksConnector\Ocip\Nil;

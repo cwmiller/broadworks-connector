@@ -153,7 +153,7 @@ class SystemSMPPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @param string|null $primarySMPPServerNetAddress
      * @return $this
      */
-    public function setPrimarySMPPServerNetAddress($primarySMPPServerNetAddress)
+    public function setPrimarySMPPServerNetAddress($primarySMPPServerNetAddress = null)
     {
         if ($primarySMPPServerNetAddress === null) {
             $this->primarySMPPServerNetAddress = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -219,7 +219,7 @@ class SystemSMPPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @param string|null $secondarySMPPServerNetAddress
      * @return $this
      */
-    public function setSecondarySMPPServerNetAddress($secondarySMPPServerNetAddress)
+    public function setSecondarySMPPServerNetAddress($secondarySMPPServerNetAddress = null)
     {
         if ($secondarySMPPServerNetAddress === null) {
             $this->secondarySMPPServerNetAddress = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -285,7 +285,7 @@ class SystemSMPPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @param string|null $systemId
      * @return $this
      */
-    public function setSystemId($systemId)
+    public function setSystemId($systemId = null)
     {
         if ($systemId === null) {
             $this->systemId = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -320,7 +320,7 @@ class SystemSMPPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @param string|null $password
      * @return $this
      */
-    public function setPassword($password)
+    public function setPassword($password = null)
     {
         if ($password === null) {
             $this->password = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -386,7 +386,7 @@ class SystemSMPPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @param string|null $systemType
      * @return $this
      */
-    public function setSystemType($systemType)
+    public function setSystemType($systemType = null)
     {
         if ($systemType === null) {
             $this->systemType = new \CWM\BroadWorksConnector\Ocip\Nil;

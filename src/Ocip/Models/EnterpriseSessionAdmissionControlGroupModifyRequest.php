@@ -297,7 +297,7 @@ class EnterpriseSessionAdmissionControlGroupModifyRequest extends \CWM\BroadWork
      * @param int|null $maxUserOriginatingSessions
      * @return $this
      */
-    public function setMaxUserOriginatingSessions($maxUserOriginatingSessions)
+    public function setMaxUserOriginatingSessions($maxUserOriginatingSessions = null)
     {
         if ($maxUserOriginatingSessions === null) {
             $this->maxUserOriginatingSessions = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -332,7 +332,7 @@ class EnterpriseSessionAdmissionControlGroupModifyRequest extends \CWM\BroadWork
      * @param int|null $maxUserTerminatingSessions
      * @return $this
      */
-    public function setMaxUserTerminatingSessions($maxUserTerminatingSessions)
+    public function setMaxUserTerminatingSessions($maxUserTerminatingSessions = null)
     {
         if ($maxUserTerminatingSessions === null) {
             $this->maxUserTerminatingSessions = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -398,7 +398,7 @@ class EnterpriseSessionAdmissionControlGroupModifyRequest extends \CWM\BroadWork
      * @param int|null $reservedUserOriginatingSessions
      * @return $this
      */
-    public function setReservedUserOriginatingSessions($reservedUserOriginatingSessions)
+    public function setReservedUserOriginatingSessions($reservedUserOriginatingSessions = null)
     {
         if ($reservedUserOriginatingSessions === null) {
             $this->reservedUserOriginatingSessions = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -433,7 +433,7 @@ class EnterpriseSessionAdmissionControlGroupModifyRequest extends \CWM\BroadWork
      * @param int|null $reservedUserTerminatingSessions
      * @return $this
      */
-    public function setReservedUserTerminatingSessions($reservedUserTerminatingSessions)
+    public function setReservedUserTerminatingSessions($reservedUserTerminatingSessions = null)
     {
         if ($reservedUserTerminatingSessions === null) {
             $this->reservedUserTerminatingSessions = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -530,7 +530,7 @@ class EnterpriseSessionAdmissionControlGroupModifyRequest extends \CWM\BroadWork
      * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementEnterpriseDeviceList|null $deviceList
      * @return $this
      */
-    public function setDeviceList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementEnterpriseDeviceList $deviceList)
+    public function setDeviceList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementEnterpriseDeviceList $deviceList = null)
     {
         if ($deviceList === null) {
             $this->deviceList = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -596,7 +596,7 @@ class EnterpriseSessionAdmissionControlGroupModifyRequest extends \CWM\BroadWork
      * @param string|null $mediaGroupName
      * @return $this
      */
-    public function setMediaGroupName($mediaGroupName)
+    public function setMediaGroupName($mediaGroupName = null)
     {
         if ($mediaGroupName === null) {
             $this->mediaGroupName = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -631,7 +631,7 @@ class EnterpriseSessionAdmissionControlGroupModifyRequest extends \CWM\BroadWork
      * @param string|null $accessInfoPattern
      * @return $this
      */
-    public function setAccessInfoPattern($accessInfoPattern)
+    public function setAccessInfoPattern($accessInfoPattern = null)
     {
         if ($accessInfoPattern === null) {
             $this->accessInfoPattern = new \CWM\BroadWorksConnector\Ocip\Nil;

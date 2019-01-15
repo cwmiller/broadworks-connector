@@ -155,7 +155,7 @@ class SystemCallingPartyCategoryModifyRequest extends \CWM\BroadWorksConnector\O
      * @param string|null $cpcValue
      * @return $this
      */
-    public function setCpcValue($cpcValue)
+    public function setCpcValue($cpcValue = null)
     {
         if ($cpcValue === null) {
             $this->cpcValue = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -190,7 +190,7 @@ class SystemCallingPartyCategoryModifyRequest extends \CWM\BroadWorksConnector\O
      * @param int|null $isupOliValue
      * @return $this
      */
-    public function setIsupOliValue($isupOliValue)
+    public function setIsupOliValue($isupOliValue = null)
     {
         if ($isupOliValue === null) {
             $this->isupOliValue = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -225,7 +225,7 @@ class SystemCallingPartyCategoryModifyRequest extends \CWM\BroadWorksConnector\O
      * @param string|null $gtdOliValue
      * @return $this
      */
-    public function setGtdOliValue($gtdOliValue)
+    public function setGtdOliValue($gtdOliValue = null)
     {
         if ($gtdOliValue === null) {
             $this->gtdOliValue = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -415,7 +415,7 @@ class SystemCallingPartyCategoryModifyRequest extends \CWM\BroadWorksConnector\O
      * @param string|null $webDisplayKey
      * @return $this
      */
-    public function setWebDisplayKey($webDisplayKey)
+    public function setWebDisplayKey($webDisplayKey = null)
     {
         if ($webDisplayKey === null) {
             $this->webDisplayKey = new \CWM\BroadWorksConnector\Ocip\Nil;

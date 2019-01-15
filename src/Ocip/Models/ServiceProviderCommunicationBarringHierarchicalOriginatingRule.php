@@ -200,7 +200,7 @@ class ServiceProviderCommunicationBarringHierarchicalOriginatingRule
      * @param string|null $treatmentId
      * @return $this
      */
-    public function setTreatmentId($treatmentId)
+    public function setTreatmentId($treatmentId = null)
     {
         if ($treatmentId === null) {
             $this->treatmentId = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -235,7 +235,7 @@ class ServiceProviderCommunicationBarringHierarchicalOriginatingRule
      * @param string|null $transferNumber
      * @return $this
      */
-    public function setTransferNumber($transferNumber)
+    public function setTransferNumber($transferNumber = null)
     {
         if ($transferNumber === null) {
             $this->transferNumber = new \CWM\BroadWorksConnector\Ocip\Nil;

@@ -130,7 +130,7 @@ class SystemCallProcessingPolicyProfileModifyRequest21 extends \CWM\BroadWorksCo
      * @param string|null $description
      * @return $this
      */
-    public function setDescription($description)
+    public function setDescription($description = null)
     {
         if ($description === null) {
             $this->description = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -165,7 +165,7 @@ class SystemCallProcessingPolicyProfileModifyRequest21 extends \CWM\BroadWorksCo
      * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementCallProcessingPolicyProfileSubscriberTypeList21|null $assignedSubscriberTypeList
      * @return $this
      */
-    public function setAssignedSubscriberTypeList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementCallProcessingPolicyProfileSubscriberTypeList21 $assignedSubscriberTypeList)
+    public function setAssignedSubscriberTypeList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementCallProcessingPolicyProfileSubscriberTypeList21 $assignedSubscriberTypeList = null)
     {
         if ($assignedSubscriberTypeList === null) {
             $this->assignedSubscriberTypeList = new \CWM\BroadWorksConnector\Ocip\Nil;

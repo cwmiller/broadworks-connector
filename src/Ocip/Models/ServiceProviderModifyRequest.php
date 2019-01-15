@@ -221,7 +221,7 @@ class ServiceProviderModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @param string|null $serviceProviderName
      * @return $this
      */
-    public function setServiceProviderName($serviceProviderName)
+    public function setServiceProviderName($serviceProviderName = null)
     {
         if ($serviceProviderName === null) {
             $this->serviceProviderName = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -256,7 +256,7 @@ class ServiceProviderModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @param string|null $supportEmail
      * @return $this
      */
-    public function setSupportEmail($supportEmail)
+    public function setSupportEmail($supportEmail = null)
     {
         if ($supportEmail === null) {
             $this->supportEmail = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -384,7 +384,7 @@ class ServiceProviderModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @param string|null $servicePolicy
      * @return $this
      */
-    public function setServicePolicy($servicePolicy)
+    public function setServicePolicy($servicePolicy = null)
     {
         if ($servicePolicy === null) {
             $this->servicePolicy = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -419,7 +419,7 @@ class ServiceProviderModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @param string|null $callProcessingSliceId
      * @return $this
      */
-    public function setCallProcessingSliceId($callProcessingSliceId)
+    public function setCallProcessingSliceId($callProcessingSliceId = null)
     {
         if ($callProcessingSliceId === null) {
             $this->callProcessingSliceId = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -454,7 +454,7 @@ class ServiceProviderModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @param string|null $provisioningSliceId
      * @return $this
      */
-    public function setProvisioningSliceId($provisioningSliceId)
+    public function setProvisioningSliceId($provisioningSliceId = null)
     {
         if ($provisioningSliceId === null) {
             $this->provisioningSliceId = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -489,7 +489,7 @@ class ServiceProviderModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @param string|null $subscriberPartition
      * @return $this
      */
-    public function setSubscriberPartition($subscriberPartition)
+    public function setSubscriberPartition($subscriberPartition = null)
     {
         if ($subscriberPartition === null) {
             $this->subscriberPartition = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -524,7 +524,7 @@ class ServiceProviderModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @param string|null $preferredDataCenter
      * @return $this
      */
-    public function setPreferredDataCenter($preferredDataCenter)
+    public function setPreferredDataCenter($preferredDataCenter = null)
     {
         if ($preferredDataCenter === null) {
             $this->preferredDataCenter = new \CWM\BroadWorksConnector\Ocip\Nil;

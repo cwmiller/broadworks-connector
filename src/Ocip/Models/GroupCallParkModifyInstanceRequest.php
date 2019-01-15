@@ -218,7 +218,7 @@ class GroupCallParkModifyInstanceRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null $userIdList
      * @return $this
      */
-    public function setUserIdList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList $userIdList)
+    public function setUserIdList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList $userIdList = null)
     {
         if ($userIdList === null) {
             $this->userIdList = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -253,7 +253,7 @@ class GroupCallParkModifyInstanceRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @param string|null $recallAlternateUserId
      * @return $this
      */
-    public function setRecallAlternateUserId($recallAlternateUserId)
+    public function setRecallAlternateUserId($recallAlternateUserId = null)
     {
         if ($recallAlternateUserId === null) {
             $this->recallAlternateUserId = new \CWM\BroadWorksConnector\Ocip\Nil;

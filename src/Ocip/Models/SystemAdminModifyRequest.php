@@ -110,7 +110,7 @@ class SystemAdminModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @param string|null $firstName
      * @return $this
      */
-    public function setFirstName($firstName)
+    public function setFirstName($firstName = null)
     {
         if ($firstName === null) {
             $this->firstName = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -145,7 +145,7 @@ class SystemAdminModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @param string|null $lastName
      * @return $this
      */
-    public function setLastName($lastName)
+    public function setLastName($lastName = null)
     {
         if ($lastName === null) {
             $this->lastName = new \CWM\BroadWorksConnector\Ocip\Nil;

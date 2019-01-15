@@ -91,7 +91,7 @@ class SystemCallCenterEnhancedReportingModifyRequest extends \CWM\BroadWorksConn
      * @param string|null $reportApplicationURL
      * @return $this
      */
-    public function setReportApplicationURL($reportApplicationURL)
+    public function setReportApplicationURL($reportApplicationURL = null)
     {
         if ($reportApplicationURL === null) {
             $this->reportApplicationURL = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -126,7 +126,7 @@ class SystemCallCenterEnhancedReportingModifyRequest extends \CWM\BroadWorksConn
      * @param string|null $repositoryApplicationURL
      * @return $this
      */
-    public function setRepositoryApplicationURL($repositoryApplicationURL)
+    public function setRepositoryApplicationURL($repositoryApplicationURL = null)
     {
         if ($repositoryApplicationURL === null) {
             $this->repositoryApplicationURL = new \CWM\BroadWorksConnector\Ocip\Nil;

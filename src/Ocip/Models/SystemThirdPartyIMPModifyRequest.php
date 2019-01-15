@@ -61,7 +61,7 @@ class SystemThirdPartyIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @param string|null $serviceNetAddress
      * @return $this
      */
-    public function setServiceNetAddress($serviceNetAddress)
+    public function setServiceNetAddress($serviceNetAddress = null)
     {
         if ($serviceNetAddress === null) {
             $this->serviceNetAddress = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -96,7 +96,7 @@ class SystemThirdPartyIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @param int|null $servicePort
      * @return $this
      */
-    public function setServicePort($servicePort)
+    public function setServicePort($servicePort = null)
     {
         if ($servicePort === null) {
             $this->servicePort = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -131,7 +131,7 @@ class SystemThirdPartyIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @param string|null $boshURL
      * @return $this
      */
-    public function setBoshURL($boshURL)
+    public function setBoshURL($boshURL = null)
     {
         if ($boshURL === null) {
             $this->boshURL = new \CWM\BroadWorksConnector\Ocip\Nil;

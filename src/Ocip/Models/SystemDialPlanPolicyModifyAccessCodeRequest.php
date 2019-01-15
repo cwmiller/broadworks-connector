@@ -200,7 +200,7 @@ class SystemDialPlanPolicyModifyAccessCodeRequest extends \CWM\BroadWorksConnect
      * @param string|null $description
      * @return $this
      */
-    public function setDescription($description)
+    public function setDescription($description = null)
     {
         if ($description === null) {
             $this->description = new \CWM\BroadWorksConnector\Ocip\Nil;

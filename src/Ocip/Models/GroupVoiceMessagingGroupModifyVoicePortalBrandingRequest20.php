@@ -178,7 +178,7 @@ class GroupVoiceMessagingGroupModifyVoicePortalBrandingRequest20 extends \CWM\Br
      * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey|null $voicePortalGreetingFile
      * @return $this
      */
-    public function setVoicePortalGreetingFile(\CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey $voicePortalGreetingFile)
+    public function setVoicePortalGreetingFile(\CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey $voicePortalGreetingFile = null)
     {
         if ($voicePortalGreetingFile === null) {
             $this->voicePortalGreetingFile = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -244,7 +244,7 @@ class GroupVoiceMessagingGroupModifyVoicePortalBrandingRequest20 extends \CWM\Br
      * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey|null $voiceMessagingGreetingFile
      * @return $this
      */
-    public function setVoiceMessagingGreetingFile(\CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey $voiceMessagingGreetingFile)
+    public function setVoiceMessagingGreetingFile(\CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey $voiceMessagingGreetingFile = null)
     {
         if ($voiceMessagingGreetingFile === null) {
             $this->voiceMessagingGreetingFile = new \CWM\BroadWorksConnector\Ocip\Nil;

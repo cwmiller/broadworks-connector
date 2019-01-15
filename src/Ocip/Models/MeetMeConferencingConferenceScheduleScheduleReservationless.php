@@ -74,7 +74,7 @@ class MeetMeConferencingConferenceScheduleScheduleReservationless
      * @param string|null $endTime
      * @return $this
      */
-    public function setEndTime($endTime)
+    public function setEndTime($endTime = null)
     {
         if ($endTime === null) {
             $this->endTime = new \CWM\BroadWorksConnector\Ocip\Nil;

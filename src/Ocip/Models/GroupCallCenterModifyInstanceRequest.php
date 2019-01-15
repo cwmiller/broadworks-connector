@@ -441,7 +441,7 @@ class GroupCallCenterModifyInstanceRequest extends \CWM\BroadWorksConnector\Ocip
      * @param string|null $forwardToPhoneNumber
      * @return $this
      */
-    public function setForwardToPhoneNumber($forwardToPhoneNumber)
+    public function setForwardToPhoneNumber($forwardToPhoneNumber = null)
     {
         if ($forwardToPhoneNumber === null) {
             $this->forwardToPhoneNumber = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -724,7 +724,7 @@ class GroupCallCenterModifyInstanceRequest extends \CWM\BroadWorksConnector\Ocip
      * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null $agentUserIdList
      * @return $this
      */
-    public function setAgentUserIdList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList $agentUserIdList)
+    public function setAgentUserIdList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList $agentUserIdList = null)
     {
         if ($agentUserIdList === null) {
             $this->agentUserIdList = new \CWM\BroadWorksConnector\Ocip\Nil;

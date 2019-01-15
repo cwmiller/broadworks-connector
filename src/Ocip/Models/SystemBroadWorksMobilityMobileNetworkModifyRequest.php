@@ -176,7 +176,7 @@ class SystemBroadWorksMobilityMobileNetworkModifyRequest extends \CWM\BroadWorks
      * @param string|null $scfSignalingNetAddress
      * @return $this
      */
-    public function setScfSignalingNetAddress($scfSignalingNetAddress)
+    public function setScfSignalingNetAddress($scfSignalingNetAddress = null)
     {
         if ($scfSignalingNetAddress === null) {
             $this->scfSignalingNetAddress = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -211,7 +211,7 @@ class SystemBroadWorksMobilityMobileNetworkModifyRequest extends \CWM\BroadWorks
      * @param int|null $scfSignalingPort
      * @return $this
      */
-    public function setScfSignalingPort($scfSignalingPort)
+    public function setScfSignalingPort($scfSignalingPort = null)
     {
         if ($scfSignalingPort === null) {
             $this->scfSignalingPort = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -370,7 +370,7 @@ class SystemBroadWorksMobilityMobileNetworkModifyRequest extends \CWM\BroadWorks
      * @param string|null $serviceAccessCodeListName
      * @return $this
      */
-    public function setServiceAccessCodeListName($serviceAccessCodeListName)
+    public function setServiceAccessCodeListName($serviceAccessCodeListName = null)
     {
         if ($serviceAccessCodeListName === null) {
             $this->serviceAccessCodeListName = new \CWM\BroadWorksConnector\Ocip\Nil;

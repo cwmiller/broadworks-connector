@@ -109,7 +109,7 @@ class CommPilotExpressRedirectionWithExceptionModify
      * @param string|null $excludedPhoneNumber01
      * @return $this
      */
-    public function setExcludedPhoneNumber01($excludedPhoneNumber01)
+    public function setExcludedPhoneNumber01($excludedPhoneNumber01 = null)
     {
         if ($excludedPhoneNumber01 === null) {
             $this->excludedPhoneNumber01 = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -144,7 +144,7 @@ class CommPilotExpressRedirectionWithExceptionModify
      * @param string|null $excludedPhoneNumber02
      * @return $this
      */
-    public function setExcludedPhoneNumber02($excludedPhoneNumber02)
+    public function setExcludedPhoneNumber02($excludedPhoneNumber02 = null)
     {
         if ($excludedPhoneNumber02 === null) {
             $this->excludedPhoneNumber02 = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -179,7 +179,7 @@ class CommPilotExpressRedirectionWithExceptionModify
      * @param string|null $excludedPhoneNumber03
      * @return $this
      */
-    public function setExcludedPhoneNumber03($excludedPhoneNumber03)
+    public function setExcludedPhoneNumber03($excludedPhoneNumber03 = null)
     {
         if ($excludedPhoneNumber03 === null) {
             $this->excludedPhoneNumber03 = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -214,7 +214,7 @@ class CommPilotExpressRedirectionWithExceptionModify
      * @param string|null $forwardExcludedNumbersTo
      * @return $this
      */
-    public function setForwardExcludedNumbersTo($forwardExcludedNumbersTo)
+    public function setForwardExcludedNumbersTo($forwardExcludedNumbersTo = null)
     {
         if ($forwardExcludedNumbersTo === null) {
             $this->forwardExcludedNumbersTo = new \CWM\BroadWorksConnector\Ocip\Nil;

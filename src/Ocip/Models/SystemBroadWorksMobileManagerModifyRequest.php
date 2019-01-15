@@ -110,7 +110,7 @@ class SystemBroadWorksMobileManagerModifyRequest extends \CWM\BroadWorksConnecto
      * @param string|null $scfApiNetAddress1
      * @return $this
      */
-    public function setScfApiNetAddress1($scfApiNetAddress1)
+    public function setScfApiNetAddress1($scfApiNetAddress1 = null)
     {
         if ($scfApiNetAddress1 === null) {
             $this->scfApiNetAddress1 = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -145,7 +145,7 @@ class SystemBroadWorksMobileManagerModifyRequest extends \CWM\BroadWorksConnecto
      * @param string|null $scfApiNetAddress2
      * @return $this
      */
-    public function setScfApiNetAddress2($scfApiNetAddress2)
+    public function setScfApiNetAddress2($scfApiNetAddress2 = null)
     {
         if ($scfApiNetAddress2 === null) {
             $this->scfApiNetAddress2 = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -180,7 +180,7 @@ class SystemBroadWorksMobileManagerModifyRequest extends \CWM\BroadWorksConnecto
      * @param string|null $userName
      * @return $this
      */
-    public function setUserName($userName)
+    public function setUserName($userName = null)
     {
         if ($userName === null) {
             $this->userName = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -215,7 +215,7 @@ class SystemBroadWorksMobileManagerModifyRequest extends \CWM\BroadWorksConnecto
      * @param string|null $password
      * @return $this
      */
-    public function setPassword($password)
+    public function setPassword($password = null)
     {
         if ($password === null) {
             $this->password = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -250,7 +250,7 @@ class SystemBroadWorksMobileManagerModifyRequest extends \CWM\BroadWorksConnecto
      * @param string|null $emailFromAddress
      * @return $this
      */
-    public function setEmailFromAddress($emailFromAddress)
+    public function setEmailFromAddress($emailFromAddress = null)
     {
         if ($emailFromAddress === null) {
             $this->emailFromAddress = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -316,7 +316,7 @@ class SystemBroadWorksMobileManagerModifyRequest extends \CWM\BroadWorksConnecto
      * @param string|null $signalingIPAddress
      * @return $this
      */
-    public function setSignalingIPAddress($signalingIPAddress)
+    public function setSignalingIPAddress($signalingIPAddress = null)
     {
         if ($signalingIPAddress === null) {
             $this->signalingIPAddress = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -351,7 +351,7 @@ class SystemBroadWorksMobileManagerModifyRequest extends \CWM\BroadWorksConnecto
      * @param int|null $signalingPort
      * @return $this
      */
-    public function setSignalingPort($signalingPort)
+    public function setSignalingPort($signalingPort = null)
     {
         if ($signalingPort === null) {
             $this->signalingPort = new \CWM\BroadWorksConnector\Ocip\Nil;

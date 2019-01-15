@@ -87,7 +87,7 @@ class ConferenceGreetingMenuKeysModifyEntry
      * @param string|null $activateConfGreeting
      * @return $this
      */
-    public function setActivateConfGreeting($activateConfGreeting)
+    public function setActivateConfGreeting($activateConfGreeting = null)
     {
         if ($activateConfGreeting === null) {
             $this->activateConfGreeting = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -122,7 +122,7 @@ class ConferenceGreetingMenuKeysModifyEntry
      * @param string|null $deactivateConfGreeting
      * @return $this
      */
-    public function setDeactivateConfGreeting($deactivateConfGreeting)
+    public function setDeactivateConfGreeting($deactivateConfGreeting = null)
     {
         if ($deactivateConfGreeting === null) {
             $this->deactivateConfGreeting = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -157,7 +157,7 @@ class ConferenceGreetingMenuKeysModifyEntry
      * @param string|null $recordNewConfGreeting
      * @return $this
      */
-    public function setRecordNewConfGreeting($recordNewConfGreeting)
+    public function setRecordNewConfGreeting($recordNewConfGreeting = null)
     {
         if ($recordNewConfGreeting === null) {
             $this->recordNewConfGreeting = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -192,7 +192,7 @@ class ConferenceGreetingMenuKeysModifyEntry
      * @param string|null $listenToCurrentConfGreeting
      * @return $this
      */
-    public function setListenToCurrentConfGreeting($listenToCurrentConfGreeting)
+    public function setListenToCurrentConfGreeting($listenToCurrentConfGreeting = null)
     {
         if ($listenToCurrentConfGreeting === null) {
             $this->listenToCurrentConfGreeting = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -258,7 +258,7 @@ class ConferenceGreetingMenuKeysModifyEntry
      * @param string|null $repeatMenu
      * @return $this
      */
-    public function setRepeatMenu($repeatMenu)
+    public function setRepeatMenu($repeatMenu = null)
     {
         if ($repeatMenu === null) {
             $this->repeatMenu = new \CWM\BroadWorksConnector\Ocip\Nil;

@@ -117,7 +117,7 @@ class ForwardOrComposeMessageMenuKeysModifyEntry
      * @param string|null $sendToPerson
      * @return $this
      */
-    public function setSendToPerson($sendToPerson)
+    public function setSendToPerson($sendToPerson = null)
     {
         if ($sendToPerson === null) {
             $this->sendToPerson = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -152,7 +152,7 @@ class ForwardOrComposeMessageMenuKeysModifyEntry
      * @param string|null $sendToAllGroupMembers
      * @return $this
      */
-    public function setSendToAllGroupMembers($sendToAllGroupMembers)
+    public function setSendToAllGroupMembers($sendToAllGroupMembers = null)
     {
         if ($sendToAllGroupMembers === null) {
             $this->sendToAllGroupMembers = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -187,7 +187,7 @@ class ForwardOrComposeMessageMenuKeysModifyEntry
      * @param string|null $sendToDistributionList
      * @return $this
      */
-    public function setSendToDistributionList($sendToDistributionList)
+    public function setSendToDistributionList($sendToDistributionList = null)
     {
         if ($sendToDistributionList === null) {
             $this->sendToDistributionList = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -222,7 +222,7 @@ class ForwardOrComposeMessageMenuKeysModifyEntry
      * @param string|null $changeCurrentIntroductionOrMessage
      * @return $this
      */
-    public function setChangeCurrentIntroductionOrMessage($changeCurrentIntroductionOrMessage)
+    public function setChangeCurrentIntroductionOrMessage($changeCurrentIntroductionOrMessage = null)
     {
         if ($changeCurrentIntroductionOrMessage === null) {
             $this->changeCurrentIntroductionOrMessage = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -257,7 +257,7 @@ class ForwardOrComposeMessageMenuKeysModifyEntry
      * @param string|null $listenToCurrentIntroductionOrMessage
      * @return $this
      */
-    public function setListenToCurrentIntroductionOrMessage($listenToCurrentIntroductionOrMessage)
+    public function setListenToCurrentIntroductionOrMessage($listenToCurrentIntroductionOrMessage = null)
     {
         if ($listenToCurrentIntroductionOrMessage === null) {
             $this->listenToCurrentIntroductionOrMessage = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -292,7 +292,7 @@ class ForwardOrComposeMessageMenuKeysModifyEntry
      * @param string|null $setOrClearUrgentIndicator
      * @return $this
      */
-    public function setSetOrClearUrgentIndicator($setOrClearUrgentIndicator)
+    public function setSetOrClearUrgentIndicator($setOrClearUrgentIndicator = null)
     {
         if ($setOrClearUrgentIndicator === null) {
             $this->setOrClearUrgentIndicator = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -327,7 +327,7 @@ class ForwardOrComposeMessageMenuKeysModifyEntry
      * @param string|null $setOrClearConfidentialIndicator
      * @return $this
      */
-    public function setSetOrClearConfidentialIndicator($setOrClearConfidentialIndicator)
+    public function setSetOrClearConfidentialIndicator($setOrClearConfidentialIndicator = null)
     {
         if ($setOrClearConfidentialIndicator === null) {
             $this->setOrClearConfidentialIndicator = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -393,7 +393,7 @@ class ForwardOrComposeMessageMenuKeysModifyEntry
      * @param string|null $repeatMenu
      * @return $this
      */
-    public function setRepeatMenu($repeatMenu)
+    public function setRepeatMenu($repeatMenu = null)
     {
         if ($repeatMenu === null) {
             $this->repeatMenu = new \CWM\BroadWorksConnector\Ocip\Nil;

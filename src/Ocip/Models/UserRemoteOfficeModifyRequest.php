@@ -120,7 +120,7 @@ class UserRemoteOfficeModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @param string|null $remoteOfficePhoneNumber
      * @return $this
      */
-    public function setRemoteOfficePhoneNumber($remoteOfficePhoneNumber)
+    public function setRemoteOfficePhoneNumber($remoteOfficePhoneNumber = null)
     {
         if ($remoteOfficePhoneNumber === null) {
             $this->remoteOfficePhoneNumber = new \CWM\BroadWorksConnector\Ocip\Nil;

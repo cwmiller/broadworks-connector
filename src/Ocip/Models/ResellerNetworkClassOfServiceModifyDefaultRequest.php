@@ -80,7 +80,7 @@ class ResellerNetworkClassOfServiceModifyDefaultRequest extends \CWM\BroadWorksC
      * @param string|null $networkClassOfService
      * @return $this
      */
-    public function setNetworkClassOfService($networkClassOfService)
+    public function setNetworkClassOfService($networkClassOfService = null)
     {
         if ($networkClassOfService === null) {
             $this->networkClassOfService = new \CWM\BroadWorksConnector\Ocip\Nil;

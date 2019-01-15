@@ -200,7 +200,7 @@ class UserMaliciousCallTraceModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @param \CWM\BroadWorksConnector\Ocip\Models\MaliciousCallTraceTimePeriod|null $traceTimePeriod
      * @return $this
      */
-    public function setTraceTimePeriod(\CWM\BroadWorksConnector\Ocip\Models\MaliciousCallTraceTimePeriod $traceTimePeriod)
+    public function setTraceTimePeriod(\CWM\BroadWorksConnector\Ocip\Models\MaliciousCallTraceTimePeriod $traceTimePeriod = null)
     {
         if ($traceTimePeriod === null) {
             $this->traceTimePeriod = new \CWM\BroadWorksConnector\Ocip\Nil;

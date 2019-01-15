@@ -159,7 +159,7 @@ class GroupThirdPartyVoiceMailSupportModifyRequest extends \CWM\BroadWorksConnec
      * @param string|null $groupServer
      * @return $this
      */
-    public function setGroupServer($groupServer)
+    public function setGroupServer($groupServer = null)
     {
         if ($groupServer === null) {
             $this->groupServer = new \CWM\BroadWorksConnector\Ocip\Nil;

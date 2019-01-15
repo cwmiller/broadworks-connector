@@ -81,7 +81,7 @@ class UserOutgoingCallingPlanSustainedAuthorizationCodeModifyRequest extends \CW
      * @param string|null $code
      * @return $this
      */
-    public function setCode($code)
+    public function setCode($code = null)
     {
         if ($code === null) {
             $this->code = new \CWM\BroadWorksConnector\Ocip\Nil;

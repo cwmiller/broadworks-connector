@@ -78,7 +78,7 @@ class SystemExternalEmergencyRoutingParametersModifyRequest13mp13 extends \CWM\B
      * @param string|null $serviceURI
      * @return $this
      */
-    public function setServiceURI($serviceURI)
+    public function setServiceURI($serviceURI = null)
     {
         if ($serviceURI === null) {
             $this->serviceURI = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -113,7 +113,7 @@ class SystemExternalEmergencyRoutingParametersModifyRequest13mp13 extends \CWM\B
      * @param string|null $defaultEmergencyNumber
      * @return $this
      */
-    public function setDefaultEmergencyNumber($defaultEmergencyNumber)
+    public function setDefaultEmergencyNumber($defaultEmergencyNumber = null)
     {
         if ($defaultEmergencyNumber === null) {
             $this->defaultEmergencyNumber = new \CWM\BroadWorksConnector\Ocip\Nil;

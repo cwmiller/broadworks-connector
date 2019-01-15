@@ -162,7 +162,7 @@ class UserSimultaneousRingFamilyModifyRequest extends \CWM\BroadWorksConnector\O
      * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementOutgoingDNorSIPURIList|null $simRingPhoneNumberList
      * @return $this
      */
-    public function setSimRingPhoneNumberList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementOutgoingDNorSIPURIList $simRingPhoneNumberList)
+    public function setSimRingPhoneNumberList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementOutgoingDNorSIPURIList $simRingPhoneNumberList = null)
     {
         if ($simRingPhoneNumberList === null) {
             $this->simRingPhoneNumberList = new \CWM\BroadWorksConnector\Ocip\Nil;

@@ -187,7 +187,7 @@ class UserSimultaneousRingPersonalModifyCriteriaRequest extends \CWM\BroadWorksC
      * @param \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null $timeSchedule
      * @return $this
      */
-    public function setTimeSchedule(\CWM\BroadWorksConnector\Ocip\Models\TimeSchedule $timeSchedule)
+    public function setTimeSchedule(\CWM\BroadWorksConnector\Ocip\Models\TimeSchedule $timeSchedule = null)
     {
         if ($timeSchedule === null) {
             $this->timeSchedule = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -222,7 +222,7 @@ class UserSimultaneousRingPersonalModifyCriteriaRequest extends \CWM\BroadWorksC
      * @param \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null $holidaySchedule
      * @return $this
      */
-    public function setHolidaySchedule(\CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule $holidaySchedule)
+    public function setHolidaySchedule(\CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule $holidaySchedule = null)
     {
         if ($holidaySchedule === null) {
             $this->holidaySchedule = new \CWM\BroadWorksConnector\Ocip\Nil;

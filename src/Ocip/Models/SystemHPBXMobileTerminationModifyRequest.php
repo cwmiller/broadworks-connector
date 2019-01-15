@@ -41,7 +41,7 @@ class SystemHPBXMobileTerminationModifyRequest extends \CWM\BroadWorksConnector\
      * @param string|null $routingPrefix
      * @return $this
      */
-    public function setRoutingPrefix($routingPrefix)
+    public function setRoutingPrefix($routingPrefix = null)
     {
         if ($routingPrefix === null) {
             $this->routingPrefix = new \CWM\BroadWorksConnector\Ocip\Nil;

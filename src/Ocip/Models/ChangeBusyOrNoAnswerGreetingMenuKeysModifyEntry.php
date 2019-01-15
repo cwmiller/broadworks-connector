@@ -77,7 +77,7 @@ class ChangeBusyOrNoAnswerGreetingMenuKeysModifyEntry
      * @param string|null $recordNewGreeting
      * @return $this
      */
-    public function setRecordNewGreeting($recordNewGreeting)
+    public function setRecordNewGreeting($recordNewGreeting = null)
     {
         if ($recordNewGreeting === null) {
             $this->recordNewGreeting = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -112,7 +112,7 @@ class ChangeBusyOrNoAnswerGreetingMenuKeysModifyEntry
      * @param string|null $listenToCurrentGreeting
      * @return $this
      */
-    public function setListenToCurrentGreeting($listenToCurrentGreeting)
+    public function setListenToCurrentGreeting($listenToCurrentGreeting = null)
     {
         if ($listenToCurrentGreeting === null) {
             $this->listenToCurrentGreeting = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -147,7 +147,7 @@ class ChangeBusyOrNoAnswerGreetingMenuKeysModifyEntry
      * @param string|null $revertToSystemDefaultGreeting
      * @return $this
      */
-    public function setRevertToSystemDefaultGreeting($revertToSystemDefaultGreeting)
+    public function setRevertToSystemDefaultGreeting($revertToSystemDefaultGreeting = null)
     {
         if ($revertToSystemDefaultGreeting === null) {
             $this->revertToSystemDefaultGreeting = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -213,7 +213,7 @@ class ChangeBusyOrNoAnswerGreetingMenuKeysModifyEntry
      * @param string|null $repeatMenu
      * @return $this
      */
-    public function setRepeatMenu($repeatMenu)
+    public function setRepeatMenu($repeatMenu = null)
     {
         if ($repeatMenu === null) {
             $this->repeatMenu = new \CWM\BroadWorksConnector\Ocip\Nil;

@@ -211,7 +211,7 @@ class SystemCPEConfigModifyFileServerRequest extends \CWM\BroadWorksConnector\Oc
      * @param string|null $cpeFileDirectory
      * @return $this
      */
-    public function setCpeFileDirectory($cpeFileDirectory)
+    public function setCpeFileDirectory($cpeFileDirectory = null)
     {
         if ($cpeFileDirectory === null) {
             $this->cpeFileDirectory = new \CWM\BroadWorksConnector\Ocip\Nil;

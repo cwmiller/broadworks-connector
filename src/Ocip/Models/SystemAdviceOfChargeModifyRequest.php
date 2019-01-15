@@ -124,7 +124,7 @@ class SystemAdviceOfChargeModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @param string|null $costInformationSource
      * @return $this
      */
-    public function setCostInformationSource($costInformationSource)
+    public function setCostInformationSource($costInformationSource = null)
     {
         if ($costInformationSource === null) {
             $this->costInformationSource = new \CWM\BroadWorksConnector\Ocip\Nil;

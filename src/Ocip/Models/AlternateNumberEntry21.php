@@ -68,7 +68,7 @@ class AlternateNumberEntry21
      * @param string|null $phoneNumber
      * @return $this
      */
-    public function setPhoneNumber($phoneNumber)
+    public function setPhoneNumber($phoneNumber = null)
     {
         if ($phoneNumber === null) {
             $this->phoneNumber = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -103,7 +103,7 @@ class AlternateNumberEntry21
      * @param string|null $extension
      * @return $this
      */
-    public function setExtension($extension)
+    public function setExtension($extension = null)
     {
         if ($extension === null) {
             $this->extension = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -138,7 +138,7 @@ class AlternateNumberEntry21
      * @param \CWM\BroadWorksConnector\Ocip\Models\RingPattern|null $ringPattern
      * @return $this
      */
-    public function setRingPattern(\CWM\BroadWorksConnector\Ocip\Models\RingPattern $ringPattern)
+    public function setRingPattern(\CWM\BroadWorksConnector\Ocip\Models\RingPattern $ringPattern = null)
     {
         if ($ringPattern === null) {
             $this->ringPattern = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -173,7 +173,7 @@ class AlternateNumberEntry21
      * @param string|null $description
      * @return $this
      */
-    public function setDescription($description)
+    public function setDescription($description = null)
     {
         if ($description === null) {
             $this->description = new \CWM\BroadWorksConnector\Ocip\Nil;

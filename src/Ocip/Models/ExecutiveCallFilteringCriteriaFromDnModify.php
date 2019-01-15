@@ -158,7 +158,7 @@ class ExecutiveCallFilteringCriteriaFromDnModify
      * @param \CWM\BroadWorksConnector\Ocip\Models\CriteriaReplacementDNList|null $phoneNumberList
      * @return $this
      */
-    public function setPhoneNumberList(\CWM\BroadWorksConnector\Ocip\Models\CriteriaReplacementDNList $phoneNumberList)
+    public function setPhoneNumberList(\CWM\BroadWorksConnector\Ocip\Models\CriteriaReplacementDNList $phoneNumberList = null)
     {
         if ($phoneNumberList === null) {
             $this->phoneNumberList = new \CWM\BroadWorksConnector\Ocip\Nil;

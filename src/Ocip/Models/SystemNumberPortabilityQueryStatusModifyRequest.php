@@ -120,7 +120,7 @@ class SystemNumberPortabilityQueryStatusModifyRequest extends \CWM\BroadWorksCon
      * @param string|null $treatmentFileName
      * @return $this
      */
-    public function setTreatmentFileName($treatmentFileName)
+    public function setTreatmentFileName($treatmentFileName = null)
     {
         if ($treatmentFileName === null) {
             $this->treatmentFileName = new \CWM\BroadWorksConnector\Ocip\Nil;

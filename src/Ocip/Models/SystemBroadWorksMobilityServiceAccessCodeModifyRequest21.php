@@ -158,7 +158,7 @@ class SystemBroadWorksMobilityServiceAccessCodeModifyRequest21 extends \CWM\Broa
      * @param string|null $description
      * @return $this
      */
-    public function setDescription($description)
+    public function setDescription($description = null)
     {
         if ($description === null) {
             $this->description = new \CWM\BroadWorksConnector\Ocip\Nil;

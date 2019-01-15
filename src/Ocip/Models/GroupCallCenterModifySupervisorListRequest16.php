@@ -80,7 +80,7 @@ class GroupCallCenterModifySupervisorListRequest16 extends \CWM\BroadWorksConnec
      * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null $supervisorUserIdList
      * @return $this
      */
-    public function setSupervisorUserIdList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList $supervisorUserIdList)
+    public function setSupervisorUserIdList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList $supervisorUserIdList = null)
     {
         if ($supervisorUserIdList === null) {
             $this->supervisorUserIdList = new \CWM\BroadWorksConnector\Ocip\Nil;

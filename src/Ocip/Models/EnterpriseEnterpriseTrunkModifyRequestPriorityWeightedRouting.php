@@ -76,7 +76,7 @@ class EnterpriseEnterpriseTrunkModifyRequestPriorityWeightedRouting
      * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementEnterpriseEnterpriseTrunkPriorityWeightedTrunkGroupList|null $priorityWeightedTrunkGroupList
      * @return $this
      */
-    public function setPriorityWeightedTrunkGroupList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementEnterpriseEnterpriseTrunkPriorityWeightedTrunkGroupList $priorityWeightedTrunkGroupList)
+    public function setPriorityWeightedTrunkGroupList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementEnterpriseEnterpriseTrunkPriorityWeightedTrunkGroupList $priorityWeightedTrunkGroupList = null)
     {
         if ($priorityWeightedTrunkGroupList === null) {
             $this->priorityWeightedTrunkGroupList = new \CWM\BroadWorksConnector\Ocip\Nil;

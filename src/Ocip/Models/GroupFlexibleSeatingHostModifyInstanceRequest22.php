@@ -129,7 +129,7 @@ class GroupFlexibleSeatingHostModifyInstanceRequest22 extends \CWM\BroadWorksCon
      * @param \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceMultipleContactEndpointModify22|null $accessDeviceEndpoint
      * @return $this
      */
-    public function setAccessDeviceEndpoint(\CWM\BroadWorksConnector\Ocip\Models\AccessDeviceMultipleContactEndpointModify22 $accessDeviceEndpoint)
+    public function setAccessDeviceEndpoint(\CWM\BroadWorksConnector\Ocip\Models\AccessDeviceMultipleContactEndpointModify22 $accessDeviceEndpoint = null)
     {
         if ($accessDeviceEndpoint === null) {
             $this->accessDeviceEndpoint = new \CWM\BroadWorksConnector\Ocip\Nil;

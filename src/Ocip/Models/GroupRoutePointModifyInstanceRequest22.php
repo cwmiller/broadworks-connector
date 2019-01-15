@@ -487,7 +487,7 @@ class GroupRoutePointModifyInstanceRequest22 extends \CWM\BroadWorksConnector\Oc
      * @param int|null $wrapUpSeconds
      * @return $this
      */
-    public function setWrapUpSeconds($wrapUpSeconds)
+    public function setWrapUpSeconds($wrapUpSeconds = null)
     {
         if ($wrapUpSeconds === null) {
             $this->wrapUpSeconds = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -584,7 +584,7 @@ class GroupRoutePointModifyInstanceRequest22 extends \CWM\BroadWorksConnector\Oc
      * @param string|null $agentUnavailableCode
      * @return $this
      */
-    public function setAgentUnavailableCode($agentUnavailableCode)
+    public function setAgentUnavailableCode($agentUnavailableCode = null)
     {
         if ($agentUnavailableCode === null) {
             $this->agentUnavailableCode = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -650,7 +650,7 @@ class GroupRoutePointModifyInstanceRequest22 extends \CWM\BroadWorksConnector\Oc
      * @param int|null $forceDeliveryWaitTimeSeconds
      * @return $this
      */
-    public function setForceDeliveryWaitTimeSeconds($forceDeliveryWaitTimeSeconds)
+    public function setForceDeliveryWaitTimeSeconds($forceDeliveryWaitTimeSeconds = null)
     {
         if ($forceDeliveryWaitTimeSeconds === null) {
             $this->forceDeliveryWaitTimeSeconds = new \CWM\BroadWorksConnector\Ocip\Nil;

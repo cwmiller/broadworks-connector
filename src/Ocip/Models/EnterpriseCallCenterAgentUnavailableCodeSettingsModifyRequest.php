@@ -181,7 +181,7 @@ class EnterpriseCallCenterAgentUnavailableCodeSettingsModifyRequest extends \CWM
      * @param string|null $defaultAgentUnavailableCodeOnDND
      * @return $this
      */
-    public function setDefaultAgentUnavailableCodeOnDND($defaultAgentUnavailableCodeOnDND)
+    public function setDefaultAgentUnavailableCodeOnDND($defaultAgentUnavailableCodeOnDND = null)
     {
         if ($defaultAgentUnavailableCodeOnDND === null) {
             $this->defaultAgentUnavailableCodeOnDND = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -216,7 +216,7 @@ class EnterpriseCallCenterAgentUnavailableCodeSettingsModifyRequest extends \CWM
      * @param string|null $defaultAgentUnavailableCodeOnPersonalCalls
      * @return $this
      */
-    public function setDefaultAgentUnavailableCodeOnPersonalCalls($defaultAgentUnavailableCodeOnPersonalCalls)
+    public function setDefaultAgentUnavailableCodeOnPersonalCalls($defaultAgentUnavailableCodeOnPersonalCalls = null)
     {
         if ($defaultAgentUnavailableCodeOnPersonalCalls === null) {
             $this->defaultAgentUnavailableCodeOnPersonalCalls = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -251,7 +251,7 @@ class EnterpriseCallCenterAgentUnavailableCodeSettingsModifyRequest extends \CWM
      * @param string|null $defaultAgentUnavailableCodeOnConsecutiveBounces
      * @return $this
      */
-    public function setDefaultAgentUnavailableCodeOnConsecutiveBounces($defaultAgentUnavailableCodeOnConsecutiveBounces)
+    public function setDefaultAgentUnavailableCodeOnConsecutiveBounces($defaultAgentUnavailableCodeOnConsecutiveBounces = null)
     {
         if ($defaultAgentUnavailableCodeOnConsecutiveBounces === null) {
             $this->defaultAgentUnavailableCodeOnConsecutiveBounces = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -286,7 +286,7 @@ class EnterpriseCallCenterAgentUnavailableCodeSettingsModifyRequest extends \CWM
      * @param string|null $defaultAgentUnavailableCodeOnNotReachable
      * @return $this
      */
-    public function setDefaultAgentUnavailableCodeOnNotReachable($defaultAgentUnavailableCodeOnNotReachable)
+    public function setDefaultAgentUnavailableCodeOnNotReachable($defaultAgentUnavailableCodeOnNotReachable = null)
     {
         if ($defaultAgentUnavailableCodeOnNotReachable === null) {
             $this->defaultAgentUnavailableCodeOnNotReachable = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -352,7 +352,7 @@ class EnterpriseCallCenterAgentUnavailableCodeSettingsModifyRequest extends \CWM
      * @param string|null $defaultAgentUnavailableCode
      * @return $this
      */
-    public function setDefaultAgentUnavailableCode($defaultAgentUnavailableCode)
+    public function setDefaultAgentUnavailableCode($defaultAgentUnavailableCode = null)
     {
         if ($defaultAgentUnavailableCode === null) {
             $this->defaultAgentUnavailableCode = new \CWM\BroadWorksConnector\Ocip\Nil;

@@ -161,7 +161,7 @@ class SystemASRParametersModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @param string|null $sourceAddress
      * @return $this
      */
-    public function setSourceAddress($sourceAddress)
+    public function setSourceAddress($sourceAddress = null)
     {
         if ($sourceAddress === null) {
             $this->sourceAddress = new \CWM\BroadWorksConnector\Ocip\Nil;

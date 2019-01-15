@@ -765,7 +765,7 @@ class SystemSIPDeviceTypeModifyRequest21 extends \CWM\BroadWorksConnector\Ocip\M
      * @param string|null $webBasedConfigURL
      * @return $this
      */
-    public function setWebBasedConfigURL($webBasedConfigURL)
+    public function setWebBasedConfigURL($webBasedConfigURL = null)
     {
         if ($webBasedConfigURL === null) {
             $this->webBasedConfigURL = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -1203,7 +1203,7 @@ class SystemSIPDeviceTypeModifyRequest21 extends \CWM\BroadWorksConnector\Ocip\M
      * @param \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceResetEvent|null $resetEvent
      * @return $this
      */
-    public function setResetEvent(\CWM\BroadWorksConnector\Ocip\Models\AccessDeviceResetEvent $resetEvent)
+    public function setResetEvent(\CWM\BroadWorksConnector\Ocip\Models\AccessDeviceResetEvent $resetEvent = null)
     {
         if ($resetEvent === null) {
             $this->resetEvent = new \CWM\BroadWorksConnector\Ocip\Nil;

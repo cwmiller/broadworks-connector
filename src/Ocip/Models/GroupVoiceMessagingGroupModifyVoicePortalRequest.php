@@ -432,7 +432,7 @@ class GroupVoiceMessagingGroupModifyVoicePortalRequest extends \CWM\BroadWorksCo
      * @param string|null $externalRoutingAddress
      * @return $this
      */
-    public function setExternalRoutingAddress($externalRoutingAddress)
+    public function setExternalRoutingAddress($externalRoutingAddress = null)
     {
         if ($externalRoutingAddress === null) {
             $this->externalRoutingAddress = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -467,7 +467,7 @@ class GroupVoiceMessagingGroupModifyVoicePortalRequest extends \CWM\BroadWorksCo
      * @param string|null $homeZoneName
      * @return $this
      */
-    public function setHomeZoneName($homeZoneName)
+    public function setHomeZoneName($homeZoneName = null)
     {
         if ($homeZoneName === null) {
             $this->homeZoneName = new \CWM\BroadWorksConnector\Ocip\Nil;

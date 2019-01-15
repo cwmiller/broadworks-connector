@@ -115,7 +115,7 @@ class ReceptionistContactUserAndNote
      * @param string|null $note
      * @return $this
      */
-    public function setNote($note)
+    public function setNote($note = null)
     {
         if ($note === null) {
             $this->note = new \CWM\BroadWorksConnector\Ocip\Nil;

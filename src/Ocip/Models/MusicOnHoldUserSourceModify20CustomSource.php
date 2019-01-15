@@ -46,7 +46,7 @@ class MusicOnHoldUserSourceModify20CustomSource
      * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey|null $audioFile
      * @return $this
      */
-    public function setAudioFile(\CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey $audioFile)
+    public function setAudioFile(\CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey $audioFile = null)
     {
         if ($audioFile === null) {
             $this->audioFile = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -81,7 +81,7 @@ class MusicOnHoldUserSourceModify20CustomSource
      * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey|null $videoFile
      * @return $this
      */
-    public function setVideoFile(\CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey $videoFile)
+    public function setVideoFile(\CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey $videoFile = null)
     {
         if ($videoFile === null) {
             $this->videoFile = new \CWM\BroadWorksConnector\Ocip\Nil;

@@ -274,7 +274,7 @@ class SystemCommunicationBarringProfileModifyRequest extends \CWM\BroadWorksConn
      * @param string|null $description
      * @return $this
      */
-    public function setDescription($description)
+    public function setDescription($description = null)
     {
         if ($description === null) {
             $this->description = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -340,7 +340,7 @@ class SystemCommunicationBarringProfileModifyRequest extends \CWM\BroadWorksConn
      * @param string|null $originatingDefaultTreatmentId
      * @return $this
      */
-    public function setOriginatingDefaultTreatmentId($originatingDefaultTreatmentId)
+    public function setOriginatingDefaultTreatmentId($originatingDefaultTreatmentId = null)
     {
         if ($originatingDefaultTreatmentId === null) {
             $this->originatingDefaultTreatmentId = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -375,7 +375,7 @@ class SystemCommunicationBarringProfileModifyRequest extends \CWM\BroadWorksConn
      * @param string|null $originatingDefaultTransferNumber
      * @return $this
      */
-    public function setOriginatingDefaultTransferNumber($originatingDefaultTransferNumber)
+    public function setOriginatingDefaultTransferNumber($originatingDefaultTransferNumber = null)
     {
         if ($originatingDefaultTransferNumber === null) {
             $this->originatingDefaultTransferNumber = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -410,7 +410,7 @@ class SystemCommunicationBarringProfileModifyRequest extends \CWM\BroadWorksConn
      * @param int|null $originatingDefaultCallTimeout
      * @return $this
      */
-    public function setOriginatingDefaultCallTimeout($originatingDefaultCallTimeout)
+    public function setOriginatingDefaultCallTimeout($originatingDefaultCallTimeout = null)
     {
         if ($originatingDefaultCallTimeout === null) {
             $this->originatingDefaultCallTimeout = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -445,7 +445,7 @@ class SystemCommunicationBarringProfileModifyRequest extends \CWM\BroadWorksConn
      * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringOriginatingRuleList|null $originatingRule
      * @return $this
      */
-    public function setOriginatingRule(\CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringOriginatingRuleList $originatingRule)
+    public function setOriginatingRule(\CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringOriginatingRuleList $originatingRule = null)
     {
         if ($originatingRule === null) {
             $this->originatingRule = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -511,7 +511,7 @@ class SystemCommunicationBarringProfileModifyRequest extends \CWM\BroadWorksConn
      * @param int|null $redirectingDefaultCallTimeout
      * @return $this
      */
-    public function setRedirectingDefaultCallTimeout($redirectingDefaultCallTimeout)
+    public function setRedirectingDefaultCallTimeout($redirectingDefaultCallTimeout = null)
     {
         if ($redirectingDefaultCallTimeout === null) {
             $this->redirectingDefaultCallTimeout = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -546,7 +546,7 @@ class SystemCommunicationBarringProfileModifyRequest extends \CWM\BroadWorksConn
      * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringRedirectingRuleList|null $redirectingRule
      * @return $this
      */
-    public function setRedirectingRule(\CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringRedirectingRuleList $redirectingRule)
+    public function setRedirectingRule(\CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringRedirectingRuleList $redirectingRule = null)
     {
         if ($redirectingRule === null) {
             $this->redirectingRule = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -612,7 +612,7 @@ class SystemCommunicationBarringProfileModifyRequest extends \CWM\BroadWorksConn
      * @param int|null $incomingDefaultCallTimeout
      * @return $this
      */
-    public function setIncomingDefaultCallTimeout($incomingDefaultCallTimeout)
+    public function setIncomingDefaultCallTimeout($incomingDefaultCallTimeout = null)
     {
         if ($incomingDefaultCallTimeout === null) {
             $this->incomingDefaultCallTimeout = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -647,7 +647,7 @@ class SystemCommunicationBarringProfileModifyRequest extends \CWM\BroadWorksConn
      * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringIncomingRuleList19sp1|null $incomingRule
      * @return $this
      */
-    public function setIncomingRule(\CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringIncomingRuleList19sp1 $incomingRule)
+    public function setIncomingRule(\CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringIncomingRuleList19sp1 $incomingRule = null)
     {
         if ($incomingRule === null) {
             $this->incomingRule = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -713,7 +713,7 @@ class SystemCommunicationBarringProfileModifyRequest extends \CWM\BroadWorksConn
      * @param int|null $callMeNowDefaultCallTimeout
      * @return $this
      */
-    public function setCallMeNowDefaultCallTimeout($callMeNowDefaultCallTimeout)
+    public function setCallMeNowDefaultCallTimeout($callMeNowDefaultCallTimeout = null)
     {
         if ($callMeNowDefaultCallTimeout === null) {
             $this->callMeNowDefaultCallTimeout = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -748,7 +748,7 @@ class SystemCommunicationBarringProfileModifyRequest extends \CWM\BroadWorksConn
      * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringCallMeNowRuleList|null $callMeNowRule
      * @return $this
      */
-    public function setCallMeNowRule(\CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringCallMeNowRuleList $callMeNowRule)
+    public function setCallMeNowRule(\CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringCallMeNowRuleList $callMeNowRule = null)
     {
         if ($callMeNowRule === null) {
             $this->callMeNowRule = new \CWM\BroadWorksConnector\Ocip\Nil;

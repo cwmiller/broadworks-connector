@@ -65,7 +65,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19GreetingsMenuKeys
      * @param string|null $personalizedName
      * @return $this
      */
-    public function setPersonalizedName($personalizedName)
+    public function setPersonalizedName($personalizedName = null)
     {
         if ($personalizedName === null) {
             $this->personalizedName = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -100,7 +100,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19GreetingsMenuKeys
      * @param string|null $conferenceGreeting
      * @return $this
      */
-    public function setConferenceGreeting($conferenceGreeting)
+    public function setConferenceGreeting($conferenceGreeting = null)
     {
         if ($conferenceGreeting === null) {
             $this->conferenceGreeting = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -166,7 +166,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19GreetingsMenuKeys
      * @param string|null $repeatMenu
      * @return $this
      */
-    public function setRepeatMenu($repeatMenu)
+    public function setRepeatMenu($repeatMenu = null)
     {
         if ($repeatMenu === null) {
             $this->repeatMenu = new \CWM\BroadWorksConnector\Ocip\Nil;

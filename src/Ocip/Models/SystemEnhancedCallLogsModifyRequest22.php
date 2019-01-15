@@ -91,7 +91,7 @@ class SystemEnhancedCallLogsModifyRequest22 extends \CWM\BroadWorksConnector\Oci
      * @param string|null $eclQueryApplicationURL
      * @return $this
      */
-    public function setEclQueryApplicationURL($eclQueryApplicationURL)
+    public function setEclQueryApplicationURL($eclQueryApplicationURL = null)
     {
         if ($eclQueryApplicationURL === null) {
             $this->eclQueryApplicationURL = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -126,7 +126,7 @@ class SystemEnhancedCallLogsModifyRequest22 extends \CWM\BroadWorksConnector\Oci
      * @param string|null $eclQueryDataRepositoryURL
      * @return $this
      */
-    public function setEclQueryDataRepositoryURL($eclQueryDataRepositoryURL)
+    public function setEclQueryDataRepositoryURL($eclQueryDataRepositoryURL = null)
     {
         if ($eclQueryDataRepositoryURL === null) {
             $this->eclQueryDataRepositoryURL = new \CWM\BroadWorksConnector\Ocip\Nil;

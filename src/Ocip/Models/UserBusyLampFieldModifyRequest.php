@@ -99,7 +99,7 @@ class UserBusyLampFieldModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @param string|null $listURI
      * @return $this
      */
-    public function setListURI($listURI)
+    public function setListURI($listURI = null)
     {
         if ($listURI === null) {
             $this->listURI = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -134,7 +134,7 @@ class UserBusyLampFieldModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null $monitoredUserIdList
      * @return $this
      */
-    public function setMonitoredUserIdList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList $monitoredUserIdList)
+    public function setMonitoredUserIdList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList $monitoredUserIdList = null)
     {
         if ($monitoredUserIdList === null) {
             $this->monitoredUserIdList = new \CWM\BroadWorksConnector\Ocip\Nil;

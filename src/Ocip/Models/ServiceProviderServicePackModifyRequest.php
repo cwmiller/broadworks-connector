@@ -177,7 +177,7 @@ class ServiceProviderServicePackModifyRequest extends \CWM\BroadWorksConnector\O
      * @param string|null $servicePackDescription
      * @return $this
      */
-    public function setServicePackDescription($servicePackDescription)
+    public function setServicePackDescription($servicePackDescription = null)
     {
         if ($servicePackDescription === null) {
             $this->servicePackDescription = new \CWM\BroadWorksConnector\Ocip\Nil;

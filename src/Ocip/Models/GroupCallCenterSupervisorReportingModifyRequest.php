@@ -94,7 +94,7 @@ class GroupCallCenterSupervisorReportingModifyRequest extends \CWM\BroadWorksCon
      * @param string|null $reportingServerName
      * @return $this
      */
-    public function setReportingServerName($reportingServerName)
+    public function setReportingServerName($reportingServerName = null)
     {
         if ($reportingServerName === null) {
             $this->reportingServerName = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -129,7 +129,7 @@ class GroupCallCenterSupervisorReportingModifyRequest extends \CWM\BroadWorksCon
      * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null $supervisorUserIdList
      * @return $this
      */
-    public function setSupervisorUserIdList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList $supervisorUserIdList)
+    public function setSupervisorUserIdList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList $supervisorUserIdList = null)
     {
         if ($supervisorUserIdList === null) {
             $this->supervisorUserIdList = new \CWM\BroadWorksConnector\Ocip\Nil;

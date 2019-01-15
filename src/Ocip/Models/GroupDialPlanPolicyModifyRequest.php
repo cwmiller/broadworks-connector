@@ -289,7 +289,7 @@ class GroupDialPlanPolicyModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @param string|null $publicDigitMap
      * @return $this
      */
-    public function setPublicDigitMap($publicDigitMap)
+    public function setPublicDigitMap($publicDigitMap = null)
     {
         if ($publicDigitMap === null) {
             $this->publicDigitMap = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -324,7 +324,7 @@ class GroupDialPlanPolicyModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @param string|null $privateDigitMap
      * @return $this
      */
-    public function setPrivateDigitMap($privateDigitMap)
+    public function setPrivateDigitMap($privateDigitMap = null)
     {
         if ($privateDigitMap === null) {
             $this->privateDigitMap = new \CWM\BroadWorksConnector\Ocip\Nil;

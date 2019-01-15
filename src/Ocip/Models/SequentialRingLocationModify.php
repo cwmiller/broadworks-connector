@@ -56,7 +56,7 @@ class SequentialRingLocationModify
      * @param string|null $phoneNumber
      * @return $this
      */
-    public function setPhoneNumber($phoneNumber)
+    public function setPhoneNumber($phoneNumber = null)
     {
         if ($phoneNumber === null) {
             $this->phoneNumber = new \CWM\BroadWorksConnector\Ocip\Nil;

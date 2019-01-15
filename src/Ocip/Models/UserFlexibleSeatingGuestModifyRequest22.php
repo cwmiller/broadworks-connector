@@ -224,7 +224,7 @@ class UserFlexibleSeatingGuestModifyRequest22 extends \CWM\BroadWorksConnector\O
      * @param string|null $unlockPhonePINCode
      * @return $this
      */
-    public function setUnlockPhonePINCode($unlockPhonePINCode)
+    public function setUnlockPhonePINCode($unlockPhonePINCode = null)
     {
         if ($unlockPhonePINCode === null) {
             $this->unlockPhonePINCode = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -259,7 +259,7 @@ class UserFlexibleSeatingGuestModifyRequest22 extends \CWM\BroadWorksConnector\O
      * @param \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceMultipleContactEndpointModify22|null $accessDeviceEndpoint
      * @return $this
      */
-    public function setAccessDeviceEndpoint(\CWM\BroadWorksConnector\Ocip\Models\AccessDeviceMultipleContactEndpointModify22 $accessDeviceEndpoint)
+    public function setAccessDeviceEndpoint(\CWM\BroadWorksConnector\Ocip\Models\AccessDeviceMultipleContactEndpointModify22 $accessDeviceEndpoint = null)
     {
         if ($accessDeviceEndpoint === null) {
             $this->accessDeviceEndpoint = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -294,7 +294,7 @@ class UserFlexibleSeatingGuestModifyRequest22 extends \CWM\BroadWorksConnector\O
      * @param string|null $hostUserId
      * @return $this
      */
-    public function setHostUserId($hostUserId)
+    public function setHostUserId($hostUserId = null)
     {
         if ($hostUserId === null) {
             $this->hostUserId = new \CWM\BroadWorksConnector\Ocip\Nil;

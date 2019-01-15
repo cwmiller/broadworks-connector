@@ -534,7 +534,7 @@ class SystemSIPDeviceTypeModifyRequest16 extends \CWM\BroadWorksConnector\Ocip\M
      * @param string|null $webBasedConfigURL
      * @return $this
      */
-    public function setWebBasedConfigURL($webBasedConfigURL)
+    public function setWebBasedConfigURL($webBasedConfigURL = null)
     {
         if ($webBasedConfigURL === null) {
             $this->webBasedConfigURL = new \CWM\BroadWorksConnector\Ocip\Nil;

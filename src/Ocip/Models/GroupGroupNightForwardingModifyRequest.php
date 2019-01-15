@@ -179,7 +179,7 @@ class GroupGroupNightForwardingModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @param \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null $businessHours
      * @return $this
      */
-    public function setBusinessHours(\CWM\BroadWorksConnector\Ocip\Models\TimeSchedule $businessHours)
+    public function setBusinessHours(\CWM\BroadWorksConnector\Ocip\Models\TimeSchedule $businessHours = null)
     {
         if ($businessHours === null) {
             $this->businessHours = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -214,7 +214,7 @@ class GroupGroupNightForwardingModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @param \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null $holidaySchedule
      * @return $this
      */
-    public function setHolidaySchedule(\CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule $holidaySchedule)
+    public function setHolidaySchedule(\CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule $holidaySchedule = null)
     {
         if ($holidaySchedule === null) {
             $this->holidaySchedule = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -249,7 +249,7 @@ class GroupGroupNightForwardingModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @param string|null $forwardToPhoneNumber
      * @return $this
      */
-    public function setForwardToPhoneNumber($forwardToPhoneNumber)
+    public function setForwardToPhoneNumber($forwardToPhoneNumber = null)
     {
         if ($forwardToPhoneNumber === null) {
             $this->forwardToPhoneNumber = new \CWM\BroadWorksConnector\Ocip\Nil;

@@ -358,7 +358,7 @@ class SystemScheduleModifyEventRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @param \CWM\BroadWorksConnector\Ocip\Models\Recurrence|null $recurrence
      * @return $this
      */
-    public function setRecurrence(\CWM\BroadWorksConnector\Ocip\Models\Recurrence $recurrence)
+    public function setRecurrence(\CWM\BroadWorksConnector\Ocip\Models\Recurrence $recurrence = null)
     {
         if ($recurrence === null) {
             $this->recurrence = new \CWM\BroadWorksConnector\Ocip\Nil;

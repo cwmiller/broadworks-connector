@@ -146,7 +146,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19VoicePortalMainMen
      * @param string|null $voiceMessaging
      * @return $this
      */
-    public function setVoiceMessaging($voiceMessaging)
+    public function setVoiceMessaging($voiceMessaging = null)
     {
         if ($voiceMessaging === null) {
             $this->voiceMessaging = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -181,7 +181,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19VoicePortalMainMen
      * @param string|null $commPilotExpressProfile
      * @return $this
      */
-    public function setCommPilotExpressProfile($commPilotExpressProfile)
+    public function setCommPilotExpressProfile($commPilotExpressProfile = null)
     {
         if ($commPilotExpressProfile === null) {
             $this->commPilotExpressProfile = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -216,7 +216,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19VoicePortalMainMen
      * @param string|null $greetings
      * @return $this
      */
-    public function setGreetings($greetings)
+    public function setGreetings($greetings = null)
     {
         if ($greetings === null) {
             $this->greetings = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -251,7 +251,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19VoicePortalMainMen
      * @param string|null $callForwardingOptions
      * @return $this
      */
-    public function setCallForwardingOptions($callForwardingOptions)
+    public function setCallForwardingOptions($callForwardingOptions = null)
     {
         if ($callForwardingOptions === null) {
             $this->callForwardingOptions = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -286,7 +286,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19VoicePortalMainMen
      * @param string|null $voicePortalCalling
      * @return $this
      */
-    public function setVoicePortalCalling($voicePortalCalling)
+    public function setVoicePortalCalling($voicePortalCalling = null)
     {
         if ($voicePortalCalling === null) {
             $this->voicePortalCalling = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -321,7 +321,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19VoicePortalMainMen
      * @param string|null $hoteling
      * @return $this
      */
-    public function setHoteling($hoteling)
+    public function setHoteling($hoteling = null)
     {
         if ($hoteling === null) {
             $this->hoteling = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -356,7 +356,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19VoicePortalMainMen
      * @param string|null $passcode
      * @return $this
      */
-    public function setPasscode($passcode)
+    public function setPasscode($passcode = null)
     {
         if ($passcode === null) {
             $this->passcode = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -391,7 +391,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19VoicePortalMainMen
      * @param string|null $exitVoicePortal
      * @return $this
      */
-    public function setExitVoicePortal($exitVoicePortal)
+    public function setExitVoicePortal($exitVoicePortal = null)
     {
         if ($exitVoicePortal === null) {
             $this->exitVoicePortal = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -426,7 +426,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19VoicePortalMainMen
      * @param string|null $repeatMenu
      * @return $this
      */
-    public function setRepeatMenu($repeatMenu)
+    public function setRepeatMenu($repeatMenu = null)
     {
         if ($repeatMenu === null) {
             $this->repeatMenu = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -461,7 +461,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19VoicePortalMainMen
      * @param string|null $externalRouting
      * @return $this
      */
-    public function setExternalRouting($externalRouting)
+    public function setExternalRouting($externalRouting = null)
     {
         if ($externalRouting === null) {
             $this->externalRouting = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -496,7 +496,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19VoicePortalMainMen
      * @param string|null $announcementMenu
      * @return $this
      */
-    public function setAnnouncementMenu($announcementMenu)
+    public function setAnnouncementMenu($announcementMenu = null)
     {
         if ($announcementMenu === null) {
             $this->announcementMenu = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -531,7 +531,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19VoicePortalMainMen
      * @param string|null $personalAssistant
      * @return $this
      */
-    public function setPersonalAssistant($personalAssistant)
+    public function setPersonalAssistant($personalAssistant = null)
     {
         if ($personalAssistant === null) {
             $this->personalAssistant = new \CWM\BroadWorksConnector\Ocip\Nil;

@@ -98,7 +98,7 @@ class SystemMailParametersModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @param string|null $primaryServerNetAddress
      * @return $this
      */
-    public function setPrimaryServerNetAddress($primaryServerNetAddress)
+    public function setPrimaryServerNetAddress($primaryServerNetAddress = null)
     {
         if ($primaryServerNetAddress === null) {
             $this->primaryServerNetAddress = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -133,7 +133,7 @@ class SystemMailParametersModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @param string|null $secondaryServerNetAddress
      * @return $this
      */
-    public function setSecondaryServerNetAddress($secondaryServerNetAddress)
+    public function setSecondaryServerNetAddress($secondaryServerNetAddress = null)
     {
         if ($secondaryServerNetAddress === null) {
             $this->secondaryServerNetAddress = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -199,7 +199,7 @@ class SystemMailParametersModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @param string|null $defaultSubject
      * @return $this
      */
-    public function setDefaultSubject($defaultSubject)
+    public function setDefaultSubject($defaultSubject = null)
     {
         if ($defaultSubject === null) {
             $this->defaultSubject = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -296,7 +296,7 @@ class SystemMailParametersModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @param int|null $port
      * @return $this
      */
-    public function setPort($port)
+    public function setPort($port = null)
     {
         if ($port === null) {
             $this->port = new \CWM\BroadWorksConnector\Ocip\Nil;

@@ -80,7 +80,7 @@ class UserBroadWorksReceptionistEnterpriseModifyRequest extends \CWM\BroadWorksC
      * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null $monitoredUserIdList
      * @return $this
      */
-    public function setMonitoredUserIdList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList $monitoredUserIdList)
+    public function setMonitoredUserIdList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList $monitoredUserIdList = null)
     {
         if ($monitoredUserIdList === null) {
             $this->monitoredUserIdList = new \CWM\BroadWorksConnector\Ocip\Nil;

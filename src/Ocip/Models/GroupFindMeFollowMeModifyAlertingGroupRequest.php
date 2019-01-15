@@ -208,7 +208,7 @@ class GroupFindMeFollowMeModifyAlertingGroupRequest extends \CWM\BroadWorksConne
      * @param string|null $alertingGroupDescription
      * @return $this
      */
-    public function setAlertingGroupDescription($alertingGroupDescription)
+    public function setAlertingGroupDescription($alertingGroupDescription = null)
     {
         if ($alertingGroupDescription === null) {
             $this->alertingGroupDescription = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -336,7 +336,7 @@ class GroupFindMeFollowMeModifyAlertingGroupRequest extends \CWM\BroadWorksConne
      * @param \CWM\BroadWorksConnector\Ocip\Models\FindMeFollowMeAlertingGroupReplacementOutgoingDNSIPURIorUserIdList|null $phoneNumberOrUserList
      * @return $this
      */
-    public function setPhoneNumberOrUserList(\CWM\BroadWorksConnector\Ocip\Models\FindMeFollowMeAlertingGroupReplacementOutgoingDNSIPURIorUserIdList $phoneNumberOrUserList)
+    public function setPhoneNumberOrUserList(\CWM\BroadWorksConnector\Ocip\Models\FindMeFollowMeAlertingGroupReplacementOutgoingDNSIPURIorUserIdList $phoneNumberOrUserList = null)
     {
         if ($phoneNumberOrUserList === null) {
             $this->phoneNumberOrUserList = new \CWM\BroadWorksConnector\Ocip\Nil;

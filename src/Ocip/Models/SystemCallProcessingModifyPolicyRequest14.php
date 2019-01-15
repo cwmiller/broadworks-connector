@@ -575,7 +575,7 @@ class SystemCallProcessingModifyPolicyRequest14 extends \CWM\BroadWorksConnector
      * @param string|null $supportedMediaSetName
      * @return $this
      */
-    public function setSupportedMediaSetName($supportedMediaSetName)
+    public function setSupportedMediaSetName($supportedMediaSetName = null)
     {
         if ($supportedMediaSetName === null) {
             $this->supportedMediaSetName = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -827,7 +827,7 @@ class SystemCallProcessingModifyPolicyRequest14 extends \CWM\BroadWorksConnector
      * @param string|null $conferenceURI
      * @return $this
      */
-    public function setConferenceURI($conferenceURI)
+    public function setConferenceURI($conferenceURI = null)
     {
         if ($conferenceURI === null) {
             $this->conferenceURI = new \CWM\BroadWorksConnector\Ocip\Nil;

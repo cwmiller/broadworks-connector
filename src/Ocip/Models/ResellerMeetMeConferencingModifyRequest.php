@@ -89,7 +89,7 @@ class ResellerMeetMeConferencingModifyRequest extends \CWM\BroadWorksConnector\O
      * @param string|null $conferenceFromAddress
      * @return $this
      */
-    public function setConferenceFromAddress($conferenceFromAddress)
+    public function setConferenceFromAddress($conferenceFromAddress = null)
     {
         if ($conferenceFromAddress === null) {
             $this->conferenceFromAddress = new \CWM\BroadWorksConnector\Ocip\Nil;

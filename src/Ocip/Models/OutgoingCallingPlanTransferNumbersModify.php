@@ -58,7 +58,7 @@ class OutgoingCallingPlanTransferNumbersModify
      * @param string|null $phoneNumber01
      * @return $this
      */
-    public function setPhoneNumber01($phoneNumber01)
+    public function setPhoneNumber01($phoneNumber01 = null)
     {
         if ($phoneNumber01 === null) {
             $this->phoneNumber01 = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -93,7 +93,7 @@ class OutgoingCallingPlanTransferNumbersModify
      * @param string|null $phoneNumber02
      * @return $this
      */
-    public function setPhoneNumber02($phoneNumber02)
+    public function setPhoneNumber02($phoneNumber02 = null)
     {
         if ($phoneNumber02 === null) {
             $this->phoneNumber02 = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -128,7 +128,7 @@ class OutgoingCallingPlanTransferNumbersModify
      * @param string|null $phoneNumber03
      * @return $this
      */
-    public function setPhoneNumber03($phoneNumber03)
+    public function setPhoneNumber03($phoneNumber03 = null)
     {
         if ($phoneNumber03 === null) {
             $this->phoneNumber03 = new \CWM\BroadWorksConnector\Ocip\Nil;

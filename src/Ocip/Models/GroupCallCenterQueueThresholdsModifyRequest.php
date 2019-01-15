@@ -229,7 +229,7 @@ class GroupCallCenterQueueThresholdsModifyRequest extends \CWM\BroadWorksConnect
      * @param int|null $thresholdCurrentCallsInQueueYellow
      * @return $this
      */
-    public function setThresholdCurrentCallsInQueueYellow($thresholdCurrentCallsInQueueYellow)
+    public function setThresholdCurrentCallsInQueueYellow($thresholdCurrentCallsInQueueYellow = null)
     {
         if ($thresholdCurrentCallsInQueueYellow === null) {
             $this->thresholdCurrentCallsInQueueYellow = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -264,7 +264,7 @@ class GroupCallCenterQueueThresholdsModifyRequest extends \CWM\BroadWorksConnect
      * @param int|null $thresholdCurrentCallsInQueueRed
      * @return $this
      */
-    public function setThresholdCurrentCallsInQueueRed($thresholdCurrentCallsInQueueRed)
+    public function setThresholdCurrentCallsInQueueRed($thresholdCurrentCallsInQueueRed = null)
     {
         if ($thresholdCurrentCallsInQueueRed === null) {
             $this->thresholdCurrentCallsInQueueRed = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -299,7 +299,7 @@ class GroupCallCenterQueueThresholdsModifyRequest extends \CWM\BroadWorksConnect
      * @param int|null $thresholdCurrentLongestWaitingCallYellow
      * @return $this
      */
-    public function setThresholdCurrentLongestWaitingCallYellow($thresholdCurrentLongestWaitingCallYellow)
+    public function setThresholdCurrentLongestWaitingCallYellow($thresholdCurrentLongestWaitingCallYellow = null)
     {
         if ($thresholdCurrentLongestWaitingCallYellow === null) {
             $this->thresholdCurrentLongestWaitingCallYellow = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -334,7 +334,7 @@ class GroupCallCenterQueueThresholdsModifyRequest extends \CWM\BroadWorksConnect
      * @param int|null $thresholdCurrentLongestWaitingCallRed
      * @return $this
      */
-    public function setThresholdCurrentLongestWaitingCallRed($thresholdCurrentLongestWaitingCallRed)
+    public function setThresholdCurrentLongestWaitingCallRed($thresholdCurrentLongestWaitingCallRed = null)
     {
         if ($thresholdCurrentLongestWaitingCallRed === null) {
             $this->thresholdCurrentLongestWaitingCallRed = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -369,7 +369,7 @@ class GroupCallCenterQueueThresholdsModifyRequest extends \CWM\BroadWorksConnect
      * @param int|null $thresholdAverageEstimatedWaitTimeYellow
      * @return $this
      */
-    public function setThresholdAverageEstimatedWaitTimeYellow($thresholdAverageEstimatedWaitTimeYellow)
+    public function setThresholdAverageEstimatedWaitTimeYellow($thresholdAverageEstimatedWaitTimeYellow = null)
     {
         if ($thresholdAverageEstimatedWaitTimeYellow === null) {
             $this->thresholdAverageEstimatedWaitTimeYellow = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -404,7 +404,7 @@ class GroupCallCenterQueueThresholdsModifyRequest extends \CWM\BroadWorksConnect
      * @param int|null $thresholdAverageEstimatedWaitTimeRed
      * @return $this
      */
-    public function setThresholdAverageEstimatedWaitTimeRed($thresholdAverageEstimatedWaitTimeRed)
+    public function setThresholdAverageEstimatedWaitTimeRed($thresholdAverageEstimatedWaitTimeRed = null)
     {
         if ($thresholdAverageEstimatedWaitTimeRed === null) {
             $this->thresholdAverageEstimatedWaitTimeRed = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -439,7 +439,7 @@ class GroupCallCenterQueueThresholdsModifyRequest extends \CWM\BroadWorksConnect
      * @param int|null $thresholdAverageHandlingTimeYellow
      * @return $this
      */
-    public function setThresholdAverageHandlingTimeYellow($thresholdAverageHandlingTimeYellow)
+    public function setThresholdAverageHandlingTimeYellow($thresholdAverageHandlingTimeYellow = null)
     {
         if ($thresholdAverageHandlingTimeYellow === null) {
             $this->thresholdAverageHandlingTimeYellow = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -474,7 +474,7 @@ class GroupCallCenterQueueThresholdsModifyRequest extends \CWM\BroadWorksConnect
      * @param int|null $thresholdAverageHandlingTimeRed
      * @return $this
      */
-    public function setThresholdAverageHandlingTimeRed($thresholdAverageHandlingTimeRed)
+    public function setThresholdAverageHandlingTimeRed($thresholdAverageHandlingTimeRed = null)
     {
         if ($thresholdAverageHandlingTimeRed === null) {
             $this->thresholdAverageHandlingTimeRed = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -509,7 +509,7 @@ class GroupCallCenterQueueThresholdsModifyRequest extends \CWM\BroadWorksConnect
      * @param int|null $thresholdAverageSpeedOfAnswerYellow
      * @return $this
      */
-    public function setThresholdAverageSpeedOfAnswerYellow($thresholdAverageSpeedOfAnswerYellow)
+    public function setThresholdAverageSpeedOfAnswerYellow($thresholdAverageSpeedOfAnswerYellow = null)
     {
         if ($thresholdAverageSpeedOfAnswerYellow === null) {
             $this->thresholdAverageSpeedOfAnswerYellow = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -544,7 +544,7 @@ class GroupCallCenterQueueThresholdsModifyRequest extends \CWM\BroadWorksConnect
      * @param int|null $thresholdAverageSpeedOfAnswerRed
      * @return $this
      */
-    public function setThresholdAverageSpeedOfAnswerRed($thresholdAverageSpeedOfAnswerRed)
+    public function setThresholdAverageSpeedOfAnswerRed($thresholdAverageSpeedOfAnswerRed = null)
     {
         if ($thresholdAverageSpeedOfAnswerRed === null) {
             $this->thresholdAverageSpeedOfAnswerRed = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -610,7 +610,7 @@ class GroupCallCenterQueueThresholdsModifyRequest extends \CWM\BroadWorksConnect
      * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterQueueThresholdReplacementNotificationEmailList|null $notificationEmailAddressList
      * @return $this
      */
-    public function setNotificationEmailAddressList(\CWM\BroadWorksConnector\Ocip\Models\CallCenterQueueThresholdReplacementNotificationEmailList $notificationEmailAddressList)
+    public function setNotificationEmailAddressList(\CWM\BroadWorksConnector\Ocip\Models\CallCenterQueueThresholdReplacementNotificationEmailList $notificationEmailAddressList = null)
     {
         if ($notificationEmailAddressList === null) {
             $this->notificationEmailAddressList = new \CWM\BroadWorksConnector\Ocip\Nil;

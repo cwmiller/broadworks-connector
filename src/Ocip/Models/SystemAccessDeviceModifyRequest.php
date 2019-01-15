@@ -265,7 +265,7 @@ class SystemAccessDeviceModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @param string|null $netAddress
      * @return $this
      */
-    public function setNetAddress($netAddress)
+    public function setNetAddress($netAddress = null)
     {
         if ($netAddress === null) {
             $this->netAddress = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -300,7 +300,7 @@ class SystemAccessDeviceModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @param int|null $port
      * @return $this
      */
-    public function setPort($port)
+    public function setPort($port = null)
     {
         if ($port === null) {
             $this->port = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -335,7 +335,7 @@ class SystemAccessDeviceModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @param string|null $outboundProxyServerNetAddress
      * @return $this
      */
-    public function setOutboundProxyServerNetAddress($outboundProxyServerNetAddress)
+    public function setOutboundProxyServerNetAddress($outboundProxyServerNetAddress = null)
     {
         if ($outboundProxyServerNetAddress === null) {
             $this->outboundProxyServerNetAddress = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -370,7 +370,7 @@ class SystemAccessDeviceModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @param string|null $stunServerNetAddress
      * @return $this
      */
-    public function setStunServerNetAddress($stunServerNetAddress)
+    public function setStunServerNetAddress($stunServerNetAddress = null)
     {
         if ($stunServerNetAddress === null) {
             $this->stunServerNetAddress = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -405,7 +405,7 @@ class SystemAccessDeviceModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @param string|null $macAddress
      * @return $this
      */
-    public function setMacAddress($macAddress)
+    public function setMacAddress($macAddress = null)
     {
         if ($macAddress === null) {
             $this->macAddress = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -440,7 +440,7 @@ class SystemAccessDeviceModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @param string|null $serialNumber
      * @return $this
      */
-    public function setSerialNumber($serialNumber)
+    public function setSerialNumber($serialNumber = null)
     {
         if ($serialNumber === null) {
             $this->serialNumber = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -475,7 +475,7 @@ class SystemAccessDeviceModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @param string|null $description
      * @return $this
      */
-    public function setDescription($description)
+    public function setDescription($description = null)
     {
         if ($description === null) {
             $this->description = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -510,7 +510,7 @@ class SystemAccessDeviceModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @param string|null $physicalLocation
      * @return $this
      */
-    public function setPhysicalLocation($physicalLocation)
+    public function setPhysicalLocation($physicalLocation = null)
     {
         if ($physicalLocation === null) {
             $this->physicalLocation = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -669,7 +669,7 @@ class SystemAccessDeviceModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @param int|null $mobilityManagerDefaultOriginatingServiceKey
      * @return $this
      */
-    public function setMobilityManagerDefaultOriginatingServiceKey($mobilityManagerDefaultOriginatingServiceKey)
+    public function setMobilityManagerDefaultOriginatingServiceKey($mobilityManagerDefaultOriginatingServiceKey = null)
     {
         if ($mobilityManagerDefaultOriginatingServiceKey === null) {
             $this->mobilityManagerDefaultOriginatingServiceKey = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -704,7 +704,7 @@ class SystemAccessDeviceModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @param int|null $mobilityManagerDefaultTerminatingServiceKey
      * @return $this
      */
-    public function setMobilityManagerDefaultTerminatingServiceKey($mobilityManagerDefaultTerminatingServiceKey)
+    public function setMobilityManagerDefaultTerminatingServiceKey($mobilityManagerDefaultTerminatingServiceKey = null)
     {
         if ($mobilityManagerDefaultTerminatingServiceKey === null) {
             $this->mobilityManagerDefaultTerminatingServiceKey = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -770,7 +770,7 @@ class SystemAccessDeviceModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @param \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementUserNamePassword16|null $accessDeviceCredentials
      * @return $this
      */
-    public function setAccessDeviceCredentials(\CWM\BroadWorksConnector\Ocip\Models\DeviceManagementUserNamePassword16 $accessDeviceCredentials)
+    public function setAccessDeviceCredentials(\CWM\BroadWorksConnector\Ocip\Models\DeviceManagementUserNamePassword16 $accessDeviceCredentials = null)
     {
         if ($accessDeviceCredentials === null) {
             $this->accessDeviceCredentials = new \CWM\BroadWorksConnector\Ocip\Nil;

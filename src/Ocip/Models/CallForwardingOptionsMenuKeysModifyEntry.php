@@ -87,7 +87,7 @@ class CallForwardingOptionsMenuKeysModifyEntry
      * @param string|null $activateCallForwarding
      * @return $this
      */
-    public function setActivateCallForwarding($activateCallForwarding)
+    public function setActivateCallForwarding($activateCallForwarding = null)
     {
         if ($activateCallForwarding === null) {
             $this->activateCallForwarding = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -122,7 +122,7 @@ class CallForwardingOptionsMenuKeysModifyEntry
      * @param string|null $deactivateCallForwarding
      * @return $this
      */
-    public function setDeactivateCallForwarding($deactivateCallForwarding)
+    public function setDeactivateCallForwarding($deactivateCallForwarding = null)
     {
         if ($deactivateCallForwarding === null) {
             $this->deactivateCallForwarding = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -157,7 +157,7 @@ class CallForwardingOptionsMenuKeysModifyEntry
      * @param string|null $changeCallForwardingDestination
      * @return $this
      */
-    public function setChangeCallForwardingDestination($changeCallForwardingDestination)
+    public function setChangeCallForwardingDestination($changeCallForwardingDestination = null)
     {
         if ($changeCallForwardingDestination === null) {
             $this->changeCallForwardingDestination = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -192,7 +192,7 @@ class CallForwardingOptionsMenuKeysModifyEntry
      * @param string|null $listenToCallForwardingStatus
      * @return $this
      */
-    public function setListenToCallForwardingStatus($listenToCallForwardingStatus)
+    public function setListenToCallForwardingStatus($listenToCallForwardingStatus = null)
     {
         if ($listenToCallForwardingStatus === null) {
             $this->listenToCallForwardingStatus = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -258,7 +258,7 @@ class CallForwardingOptionsMenuKeysModifyEntry
      * @param string|null $repeatMenu
      * @return $this
      */
-    public function setRepeatMenu($repeatMenu)
+    public function setRepeatMenu($repeatMenu = null)
     {
         if ($repeatMenu === null) {
             $this->repeatMenu = new \CWM\BroadWorksConnector\Ocip\Nil;

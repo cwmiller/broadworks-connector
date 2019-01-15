@@ -215,7 +215,7 @@ class EnterpriseCallCenterEnhancedReportingReportTemplateModifyRequest extends \
      * @param string|null $description
      * @return $this
      */
-    public function setDescription($description)
+    public function setDescription($description = null)
     {
         if ($description === null) {
             $this->description = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -374,7 +374,7 @@ class EnterpriseCallCenterEnhancedReportingReportTemplateModifyRequest extends \
      * @param int|null $filterNumber
      * @return $this
      */
-    public function setFilterNumber($filterNumber)
+    public function setFilterNumber($filterNumber = null)
     {
         if ($filterNumber === null) {
             $this->filterNumber = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -409,7 +409,7 @@ class EnterpriseCallCenterEnhancedReportingReportTemplateModifyRequest extends \
      * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportDataTemplateQueryFilterValueReplacementList|null $filterValue
      * @return $this
      */
-    public function setFilterValue(\CWM\BroadWorksConnector\Ocip\Models\CallCenterReportDataTemplateQueryFilterValueReplacementList $filterValue)
+    public function setFilterValue(\CWM\BroadWorksConnector\Ocip\Models\CallCenterReportDataTemplateQueryFilterValueReplacementList $filterValue = null)
     {
         if ($filterValue === null) {
             $this->filterValue = new \CWM\BroadWorksConnector\Ocip\Nil;

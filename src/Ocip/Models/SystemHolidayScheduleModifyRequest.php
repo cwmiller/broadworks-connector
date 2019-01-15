@@ -310,7 +310,7 @@ class SystemHolidayScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @param \CWM\BroadWorksConnector\Ocip\Models\Holiday|null $holiday01
      * @return $this
      */
-    public function setHoliday01(\CWM\BroadWorksConnector\Ocip\Models\Holiday $holiday01)
+    public function setHoliday01(\CWM\BroadWorksConnector\Ocip\Models\Holiday $holiday01 = null)
     {
         if ($holiday01 === null) {
             $this->holiday01 = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -345,7 +345,7 @@ class SystemHolidayScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @param \CWM\BroadWorksConnector\Ocip\Models\Holiday|null $holiday02
      * @return $this
      */
-    public function setHoliday02(\CWM\BroadWorksConnector\Ocip\Models\Holiday $holiday02)
+    public function setHoliday02(\CWM\BroadWorksConnector\Ocip\Models\Holiday $holiday02 = null)
     {
         if ($holiday02 === null) {
             $this->holiday02 = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -380,7 +380,7 @@ class SystemHolidayScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @param \CWM\BroadWorksConnector\Ocip\Models\Holiday|null $holiday03
      * @return $this
      */
-    public function setHoliday03(\CWM\BroadWorksConnector\Ocip\Models\Holiday $holiday03)
+    public function setHoliday03(\CWM\BroadWorksConnector\Ocip\Models\Holiday $holiday03 = null)
     {
         if ($holiday03 === null) {
             $this->holiday03 = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -415,7 +415,7 @@ class SystemHolidayScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @param \CWM\BroadWorksConnector\Ocip\Models\Holiday|null $holiday04
      * @return $this
      */
-    public function setHoliday04(\CWM\BroadWorksConnector\Ocip\Models\Holiday $holiday04)
+    public function setHoliday04(\CWM\BroadWorksConnector\Ocip\Models\Holiday $holiday04 = null)
     {
         if ($holiday04 === null) {
             $this->holiday04 = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -450,7 +450,7 @@ class SystemHolidayScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @param \CWM\BroadWorksConnector\Ocip\Models\Holiday|null $holiday05
      * @return $this
      */
-    public function setHoliday05(\CWM\BroadWorksConnector\Ocip\Models\Holiday $holiday05)
+    public function setHoliday05(\CWM\BroadWorksConnector\Ocip\Models\Holiday $holiday05 = null)
     {
         if ($holiday05 === null) {
             $this->holiday05 = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -485,7 +485,7 @@ class SystemHolidayScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @param \CWM\BroadWorksConnector\Ocip\Models\Holiday|null $holiday06
      * @return $this
      */
-    public function setHoliday06(\CWM\BroadWorksConnector\Ocip\Models\Holiday $holiday06)
+    public function setHoliday06(\CWM\BroadWorksConnector\Ocip\Models\Holiday $holiday06 = null)
     {
         if ($holiday06 === null) {
             $this->holiday06 = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -520,7 +520,7 @@ class SystemHolidayScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @param \CWM\BroadWorksConnector\Ocip\Models\Holiday|null $holiday07
      * @return $this
      */
-    public function setHoliday07(\CWM\BroadWorksConnector\Ocip\Models\Holiday $holiday07)
+    public function setHoliday07(\CWM\BroadWorksConnector\Ocip\Models\Holiday $holiday07 = null)
     {
         if ($holiday07 === null) {
             $this->holiday07 = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -555,7 +555,7 @@ class SystemHolidayScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @param \CWM\BroadWorksConnector\Ocip\Models\Holiday|null $holiday08
      * @return $this
      */
-    public function setHoliday08(\CWM\BroadWorksConnector\Ocip\Models\Holiday $holiday08)
+    public function setHoliday08(\CWM\BroadWorksConnector\Ocip\Models\Holiday $holiday08 = null)
     {
         if ($holiday08 === null) {
             $this->holiday08 = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -590,7 +590,7 @@ class SystemHolidayScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @param \CWM\BroadWorksConnector\Ocip\Models\Holiday|null $holiday09
      * @return $this
      */
-    public function setHoliday09(\CWM\BroadWorksConnector\Ocip\Models\Holiday $holiday09)
+    public function setHoliday09(\CWM\BroadWorksConnector\Ocip\Models\Holiday $holiday09 = null)
     {
         if ($holiday09 === null) {
             $this->holiday09 = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -625,7 +625,7 @@ class SystemHolidayScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @param \CWM\BroadWorksConnector\Ocip\Models\Holiday|null $holiday10
      * @return $this
      */
-    public function setHoliday10(\CWM\BroadWorksConnector\Ocip\Models\Holiday $holiday10)
+    public function setHoliday10(\CWM\BroadWorksConnector\Ocip\Models\Holiday $holiday10 = null)
     {
         if ($holiday10 === null) {
             $this->holiday10 = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -660,7 +660,7 @@ class SystemHolidayScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @param \CWM\BroadWorksConnector\Ocip\Models\Holiday|null $holiday11
      * @return $this
      */
-    public function setHoliday11(\CWM\BroadWorksConnector\Ocip\Models\Holiday $holiday11)
+    public function setHoliday11(\CWM\BroadWorksConnector\Ocip\Models\Holiday $holiday11 = null)
     {
         if ($holiday11 === null) {
             $this->holiday11 = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -695,7 +695,7 @@ class SystemHolidayScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @param \CWM\BroadWorksConnector\Ocip\Models\Holiday|null $holiday12
      * @return $this
      */
-    public function setHoliday12(\CWM\BroadWorksConnector\Ocip\Models\Holiday $holiday12)
+    public function setHoliday12(\CWM\BroadWorksConnector\Ocip\Models\Holiday $holiday12 = null)
     {
         if ($holiday12 === null) {
             $this->holiday12 = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -730,7 +730,7 @@ class SystemHolidayScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @param \CWM\BroadWorksConnector\Ocip\Models\Holiday|null $holiday13
      * @return $this
      */
-    public function setHoliday13(\CWM\BroadWorksConnector\Ocip\Models\Holiday $holiday13)
+    public function setHoliday13(\CWM\BroadWorksConnector\Ocip\Models\Holiday $holiday13 = null)
     {
         if ($holiday13 === null) {
             $this->holiday13 = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -765,7 +765,7 @@ class SystemHolidayScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @param \CWM\BroadWorksConnector\Ocip\Models\Holiday|null $holiday14
      * @return $this
      */
-    public function setHoliday14(\CWM\BroadWorksConnector\Ocip\Models\Holiday $holiday14)
+    public function setHoliday14(\CWM\BroadWorksConnector\Ocip\Models\Holiday $holiday14 = null)
     {
         if ($holiday14 === null) {
             $this->holiday14 = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -800,7 +800,7 @@ class SystemHolidayScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @param \CWM\BroadWorksConnector\Ocip\Models\Holiday|null $holiday15
      * @return $this
      */
-    public function setHoliday15(\CWM\BroadWorksConnector\Ocip\Models\Holiday $holiday15)
+    public function setHoliday15(\CWM\BroadWorksConnector\Ocip\Models\Holiday $holiday15 = null)
     {
         if ($holiday15 === null) {
             $this->holiday15 = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -835,7 +835,7 @@ class SystemHolidayScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @param \CWM\BroadWorksConnector\Ocip\Models\Holiday|null $holiday16
      * @return $this
      */
-    public function setHoliday16(\CWM\BroadWorksConnector\Ocip\Models\Holiday $holiday16)
+    public function setHoliday16(\CWM\BroadWorksConnector\Ocip\Models\Holiday $holiday16 = null)
     {
         if ($holiday16 === null) {
             $this->holiday16 = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -870,7 +870,7 @@ class SystemHolidayScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @param \CWM\BroadWorksConnector\Ocip\Models\Holiday|null $holiday17
      * @return $this
      */
-    public function setHoliday17(\CWM\BroadWorksConnector\Ocip\Models\Holiday $holiday17)
+    public function setHoliday17(\CWM\BroadWorksConnector\Ocip\Models\Holiday $holiday17 = null)
     {
         if ($holiday17 === null) {
             $this->holiday17 = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -905,7 +905,7 @@ class SystemHolidayScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @param \CWM\BroadWorksConnector\Ocip\Models\Holiday|null $holiday18
      * @return $this
      */
-    public function setHoliday18(\CWM\BroadWorksConnector\Ocip\Models\Holiday $holiday18)
+    public function setHoliday18(\CWM\BroadWorksConnector\Ocip\Models\Holiday $holiday18 = null)
     {
         if ($holiday18 === null) {
             $this->holiday18 = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -940,7 +940,7 @@ class SystemHolidayScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @param \CWM\BroadWorksConnector\Ocip\Models\Holiday|null $holiday19
      * @return $this
      */
-    public function setHoliday19(\CWM\BroadWorksConnector\Ocip\Models\Holiday $holiday19)
+    public function setHoliday19(\CWM\BroadWorksConnector\Ocip\Models\Holiday $holiday19 = null)
     {
         if ($holiday19 === null) {
             $this->holiday19 = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -975,7 +975,7 @@ class SystemHolidayScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @param \CWM\BroadWorksConnector\Ocip\Models\Holiday|null $holiday20
      * @return $this
      */
-    public function setHoliday20(\CWM\BroadWorksConnector\Ocip\Models\Holiday $holiday20)
+    public function setHoliday20(\CWM\BroadWorksConnector\Ocip\Models\Holiday $holiday20 = null)
     {
         if ($holiday20 === null) {
             $this->holiday20 = new \CWM\BroadWorksConnector\Ocip\Nil;

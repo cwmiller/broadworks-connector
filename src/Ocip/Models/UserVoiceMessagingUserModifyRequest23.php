@@ -985,7 +985,7 @@ class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Oci
      * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null $busyPersonalAudioFile
      * @return $this
      */
-    public function setBusyPersonalAudioFile(\CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey $busyPersonalAudioFile)
+    public function setBusyPersonalAudioFile(\CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey $busyPersonalAudioFile = null)
     {
         if ($busyPersonalAudioFile === null) {
             $this->busyPersonalAudioFile = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -1020,7 +1020,7 @@ class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Oci
      * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null $busyPersonalVideoFile
      * @return $this
      */
-    public function setBusyPersonalVideoFile(\CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey $busyPersonalVideoFile)
+    public function setBusyPersonalVideoFile(\CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey $busyPersonalVideoFile = null)
     {
         if ($busyPersonalVideoFile === null) {
             $this->busyPersonalVideoFile = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -1086,7 +1086,7 @@ class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Oci
      * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null $noAnswerPersonalAudioFile
      * @return $this
      */
-    public function setNoAnswerPersonalAudioFile(\CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey $noAnswerPersonalAudioFile)
+    public function setNoAnswerPersonalAudioFile(\CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey $noAnswerPersonalAudioFile = null)
     {
         if ($noAnswerPersonalAudioFile === null) {
             $this->noAnswerPersonalAudioFile = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -1121,7 +1121,7 @@ class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Oci
      * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null $noAnswerPersonalVideoFile
      * @return $this
      */
-    public function setNoAnswerPersonalVideoFile(\CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey $noAnswerPersonalVideoFile)
+    public function setNoAnswerPersonalVideoFile(\CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey $noAnswerPersonalVideoFile = null)
     {
         if ($noAnswerPersonalVideoFile === null) {
             $this->noAnswerPersonalVideoFile = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -1311,7 +1311,7 @@ class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Oci
      * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null $extendedAwayAudioFile
      * @return $this
      */
-    public function setExtendedAwayAudioFile(\CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey $extendedAwayAudioFile)
+    public function setExtendedAwayAudioFile(\CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey $extendedAwayAudioFile = null)
     {
         if ($extendedAwayAudioFile === null) {
             $this->extendedAwayAudioFile = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -1346,7 +1346,7 @@ class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Oci
      * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null $extendedAwayVideoFile
      * @return $this
      */
-    public function setExtendedAwayVideoFile(\CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey $extendedAwayVideoFile)
+    public function setExtendedAwayVideoFile(\CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey $extendedAwayVideoFile = null)
     {
         if ($extendedAwayVideoFile === null) {
             $this->extendedAwayVideoFile = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -1474,7 +1474,7 @@ class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Oci
      * @param string|null $greetingOnlyForwardDestination
      * @return $this
      */
-    public function setGreetingOnlyForwardDestination($greetingOnlyForwardDestination)
+    public function setGreetingOnlyForwardDestination($greetingOnlyForwardDestination = null)
     {
         if ($greetingOnlyForwardDestination === null) {
             $this->greetingOnlyForwardDestination = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -1540,7 +1540,7 @@ class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Oci
      * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementOutgoingDNList|null $outgoingSMDIMWIPhoneNumberList
      * @return $this
      */
-    public function setOutgoingSMDIMWIPhoneNumberList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementOutgoingDNList $outgoingSMDIMWIPhoneNumberList)
+    public function setOutgoingSMDIMWIPhoneNumberList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementOutgoingDNList $outgoingSMDIMWIPhoneNumberList = null)
     {
         if ($outgoingSMDIMWIPhoneNumberList === null) {
             $this->outgoingSMDIMWIPhoneNumberList = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -1637,7 +1637,7 @@ class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Oci
      * @param string|null $voiceMessageDeliveryEmailAddress
      * @return $this
      */
-    public function setVoiceMessageDeliveryEmailAddress($voiceMessageDeliveryEmailAddress)
+    public function setVoiceMessageDeliveryEmailAddress($voiceMessageDeliveryEmailAddress = null)
     {
         if ($voiceMessageDeliveryEmailAddress === null) {
             $this->voiceMessageDeliveryEmailAddress = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -1734,7 +1734,7 @@ class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Oci
      * @param string|null $voiceMessageNotifyEmailAddress
      * @return $this
      */
-    public function setVoiceMessageNotifyEmailAddress($voiceMessageNotifyEmailAddress)
+    public function setVoiceMessageNotifyEmailAddress($voiceMessageNotifyEmailAddress = null)
     {
         if ($voiceMessageNotifyEmailAddress === null) {
             $this->voiceMessageNotifyEmailAddress = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -1800,7 +1800,7 @@ class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Oci
      * @param string|null $voiceMessageCarbonCopyEmailAddress
      * @return $this
      */
-    public function setVoiceMessageCarbonCopyEmailAddress($voiceMessageCarbonCopyEmailAddress)
+    public function setVoiceMessageCarbonCopyEmailAddress($voiceMessageCarbonCopyEmailAddress = null)
     {
         if ($voiceMessageCarbonCopyEmailAddress === null) {
             $this->voiceMessageCarbonCopyEmailAddress = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -1866,7 +1866,7 @@ class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Oci
      * @param string|null $transferPhoneNumber
      * @return $this
      */
-    public function setTransferPhoneNumber($transferPhoneNumber)
+    public function setTransferPhoneNumber($transferPhoneNumber = null)
     {
         if ($transferPhoneNumber === null) {
             $this->transferPhoneNumber = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -2087,7 +2087,7 @@ class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Oci
      * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null $personalizedNameAudioFile
      * @return $this
      */
-    public function setPersonalizedNameAudioFile(\CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey $personalizedNameAudioFile)
+    public function setPersonalizedNameAudioFile(\CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey $personalizedNameAudioFile = null)
     {
         if ($personalizedNameAudioFile === null) {
             $this->personalizedNameAudioFile = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -2122,7 +2122,7 @@ class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Oci
      * @param \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingAliasReplacementList|null $userMessagingAliasList
      * @return $this
      */
-    public function setUserMessagingAliasList(\CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingAliasReplacementList $userMessagingAliasList)
+    public function setUserMessagingAliasList(\CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingAliasReplacementList $userMessagingAliasList = null)
     {
         if ($userMessagingAliasList === null) {
             $this->userMessagingAliasList = new \CWM\BroadWorksConnector\Ocip\Nil;

@@ -241,7 +241,7 @@ class UserPrivacyModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null $permittedMonitorUserIdList
      * @return $this
      */
-    public function setPermittedMonitorUserIdList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList $permittedMonitorUserIdList)
+    public function setPermittedMonitorUserIdList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList $permittedMonitorUserIdList = null)
     {
         if ($permittedMonitorUserIdList === null) {
             $this->permittedMonitorUserIdList = new \CWM\BroadWorksConnector\Ocip\Nil;

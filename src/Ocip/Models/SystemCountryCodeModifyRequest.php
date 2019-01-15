@@ -241,7 +241,7 @@ class SystemCountryCodeModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @param string|null $nationalPrefix
      * @return $this
      */
-    public function setNationalPrefix($nationalPrefix)
+    public function setNationalPrefix($nationalPrefix = null)
     {
         if ($nationalPrefix === null) {
             $this->nationalPrefix = new \CWM\BroadWorksConnector\Ocip\Nil;

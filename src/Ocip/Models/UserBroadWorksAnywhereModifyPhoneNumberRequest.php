@@ -217,7 +217,7 @@ class UserBroadWorksAnywhereModifyPhoneNumberRequest extends \CWM\BroadWorksConn
      * @param string|null $description
      * @return $this
      */
-    public function setDescription($description)
+    public function setDescription($description = null)
     {
         if ($description === null) {
             $this->description = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -283,7 +283,7 @@ class UserBroadWorksAnywhereModifyPhoneNumberRequest extends \CWM\BroadWorksConn
      * @param string|null $outboundAlternateNumber
      * @return $this
      */
-    public function setOutboundAlternateNumber($outboundAlternateNumber)
+    public function setOutboundAlternateNumber($outboundAlternateNumber = null)
     {
         if ($outboundAlternateNumber === null) {
             $this->outboundAlternateNumber = new \CWM\BroadWorksConnector\Ocip\Nil;

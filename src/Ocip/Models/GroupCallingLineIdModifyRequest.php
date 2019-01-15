@@ -199,7 +199,7 @@ class GroupCallingLineIdModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @param string|null $callingLineIdPhoneNumber
      * @return $this
      */
-    public function setCallingLineIdPhoneNumber($callingLineIdPhoneNumber)
+    public function setCallingLineIdPhoneNumber($callingLineIdPhoneNumber = null)
     {
         if ($callingLineIdPhoneNumber === null) {
             $this->callingLineIdPhoneNumber = new \CWM\BroadWorksConnector\Ocip\Nil;

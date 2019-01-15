@@ -286,7 +286,7 @@ class UserThirdPartyVoiceMailSupportModifyRequest extends \CWM\BroadWorksConnect
      * @param string|null $userServer
      * @return $this
      */
-    public function setUserServer($userServer)
+    public function setUserServer($userServer = null)
     {
         if ($userServer === null) {
             $this->userServer = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -352,7 +352,7 @@ class UserThirdPartyVoiceMailSupportModifyRequest extends \CWM\BroadWorksConnect
      * @param string|null $mailboxURL
      * @return $this
      */
-    public function setMailboxURL($mailboxURL)
+    public function setMailboxURL($mailboxURL = null)
     {
         if ($mailboxURL === null) {
             $this->mailboxURL = new \CWM\BroadWorksConnector\Ocip\Nil;

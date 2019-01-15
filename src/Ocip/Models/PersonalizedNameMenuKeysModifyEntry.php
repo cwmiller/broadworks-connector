@@ -77,7 +77,7 @@ class PersonalizedNameMenuKeysModifyEntry
      * @param string|null $recordNewPersonalizedName
      * @return $this
      */
-    public function setRecordNewPersonalizedName($recordNewPersonalizedName)
+    public function setRecordNewPersonalizedName($recordNewPersonalizedName = null)
     {
         if ($recordNewPersonalizedName === null) {
             $this->recordNewPersonalizedName = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -112,7 +112,7 @@ class PersonalizedNameMenuKeysModifyEntry
      * @param string|null $listenToCurrentPersonalizedName
      * @return $this
      */
-    public function setListenToCurrentPersonalizedName($listenToCurrentPersonalizedName)
+    public function setListenToCurrentPersonalizedName($listenToCurrentPersonalizedName = null)
     {
         if ($listenToCurrentPersonalizedName === null) {
             $this->listenToCurrentPersonalizedName = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -147,7 +147,7 @@ class PersonalizedNameMenuKeysModifyEntry
      * @param string|null $deletePersonalizedName
      * @return $this
      */
-    public function setDeletePersonalizedName($deletePersonalizedName)
+    public function setDeletePersonalizedName($deletePersonalizedName = null)
     {
         if ($deletePersonalizedName === null) {
             $this->deletePersonalizedName = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -213,7 +213,7 @@ class PersonalizedNameMenuKeysModifyEntry
      * @param string|null $repeatMenu
      * @return $this
      */
-    public function setRepeatMenu($repeatMenu)
+    public function setRepeatMenu($repeatMenu = null)
     {
         if ($repeatMenu === null) {
             $this->repeatMenu = new \CWM\BroadWorksConnector\Ocip\Nil;

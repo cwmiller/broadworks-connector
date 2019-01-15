@@ -65,7 +65,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19AnnouncementMenuKe
      * @param string|null $recordAudio
      * @return $this
      */
-    public function setRecordAudio($recordAudio)
+    public function setRecordAudio($recordAudio = null)
     {
         if ($recordAudio === null) {
             $this->recordAudio = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -100,7 +100,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19AnnouncementMenuKe
      * @param string|null $recordAudioVideo
      * @return $this
      */
-    public function setRecordAudioVideo($recordAudioVideo)
+    public function setRecordAudioVideo($recordAudioVideo = null)
     {
         if ($recordAudioVideo === null) {
             $this->recordAudioVideo = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -166,7 +166,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19AnnouncementMenuKe
      * @param string|null $repeatMenu
      * @return $this
      */
-    public function setRepeatMenu($repeatMenu)
+    public function setRepeatMenu($repeatMenu = null)
     {
         if ($repeatMenu === null) {
             $this->repeatMenu = new \CWM\BroadWorksConnector\Ocip\Nil;

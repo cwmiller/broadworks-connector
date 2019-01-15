@@ -136,7 +136,7 @@ class CommunicationBarringOriginatingRule
      * @param string|null $treatmentId
      * @return $this
      */
-    public function setTreatmentId($treatmentId)
+    public function setTreatmentId($treatmentId = null)
     {
         if ($treatmentId === null) {
             $this->treatmentId = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -171,7 +171,7 @@ class CommunicationBarringOriginatingRule
      * @param string|null $transferNumber
      * @return $this
      */
-    public function setTransferNumber($transferNumber)
+    public function setTransferNumber($transferNumber = null)
     {
         if ($transferNumber === null) {
             $this->transferNumber = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -206,7 +206,7 @@ class CommunicationBarringOriginatingRule
      * @param int|null $callTimeoutSeconds
      * @return $this
      */
-    public function setCallTimeoutSeconds($callTimeoutSeconds)
+    public function setCallTimeoutSeconds($callTimeoutSeconds = null)
     {
         if ($callTimeoutSeconds === null) {
             $this->callTimeoutSeconds = new \CWM\BroadWorksConnector\Ocip\Nil;

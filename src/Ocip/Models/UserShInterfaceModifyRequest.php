@@ -89,7 +89,7 @@ class UserShInterfaceModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @param string|null $SCSCFName
      * @return $this
      */
-    public function setSCSCFName($SCSCFName)
+    public function setSCSCFName($SCSCFName = null)
     {
         if ($SCSCFName === null) {
             $this->SCSCFName = new \CWM\BroadWorksConnector\Ocip\Nil;

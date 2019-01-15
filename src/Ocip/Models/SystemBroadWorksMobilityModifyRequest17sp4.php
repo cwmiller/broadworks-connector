@@ -329,7 +329,7 @@ class SystemBroadWorksMobilityModifyRequest17sp4 extends \CWM\BroadWorksConnecto
      * @param string|null $scfSignalingNetAddress
      * @return $this
      */
-    public function setScfSignalingNetAddress($scfSignalingNetAddress)
+    public function setScfSignalingNetAddress($scfSignalingNetAddress = null)
     {
         if ($scfSignalingNetAddress === null) {
             $this->scfSignalingNetAddress = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -364,7 +364,7 @@ class SystemBroadWorksMobilityModifyRequest17sp4 extends \CWM\BroadWorksConnecto
      * @param int|null $scfSignalingPort
      * @return $this
      */
-    public function setScfSignalingPort($scfSignalingPort)
+    public function setScfSignalingPort($scfSignalingPort = null)
     {
         if ($scfSignalingPort === null) {
             $this->scfSignalingPort = new \CWM\BroadWorksConnector\Ocip\Nil;

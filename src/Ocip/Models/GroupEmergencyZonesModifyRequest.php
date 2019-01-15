@@ -239,7 +239,7 @@ class GroupEmergencyZonesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @param string|null $emergencyCallNotifyEmailAddress
      * @return $this
      */
-    public function setEmergencyCallNotifyEmailAddress($emergencyCallNotifyEmailAddress)
+    public function setEmergencyCallNotifyEmailAddress($emergencyCallNotifyEmailAddress = null)
     {
         if ($emergencyCallNotifyEmailAddress === null) {
             $this->emergencyCallNotifyEmailAddress = new \CWM\BroadWorksConnector\Ocip\Nil;

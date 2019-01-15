@@ -275,7 +275,7 @@ class GroupCallCenterNightServiceModifyRequest20 extends \CWM\BroadWorksConnecto
      * @param \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null $businessHours
      * @return $this
      */
-    public function setBusinessHours(\CWM\BroadWorksConnector\Ocip\Models\TimeSchedule $businessHours)
+    public function setBusinessHours(\CWM\BroadWorksConnector\Ocip\Models\TimeSchedule $businessHours = null)
     {
         if ($businessHours === null) {
             $this->businessHours = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -372,7 +372,7 @@ class GroupCallCenterNightServiceModifyRequest20 extends \CWM\BroadWorksConnecto
      * @param string|null $transferPhoneNumber
      * @return $this
      */
-    public function setTransferPhoneNumber($transferPhoneNumber)
+    public function setTransferPhoneNumber($transferPhoneNumber = null)
     {
         if ($transferPhoneNumber === null) {
             $this->transferPhoneNumber = new \CWM\BroadWorksConnector\Ocip\Nil;

@@ -81,7 +81,7 @@ class SystemServerAddressesModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @param string|null $webServerClusterPublicFQDN
      * @return $this
      */
-    public function setWebServerClusterPublicFQDN($webServerClusterPublicFQDN)
+    public function setWebServerClusterPublicFQDN($webServerClusterPublicFQDN = null)
     {
         if ($webServerClusterPublicFQDN === null) {
             $this->webServerClusterPublicFQDN = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -116,7 +116,7 @@ class SystemServerAddressesModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @param string|null $applicationServerClusterPrimaryPublicFQDN
      * @return $this
      */
-    public function setApplicationServerClusterPrimaryPublicFQDN($applicationServerClusterPrimaryPublicFQDN)
+    public function setApplicationServerClusterPrimaryPublicFQDN($applicationServerClusterPrimaryPublicFQDN = null)
     {
         if ($applicationServerClusterPrimaryPublicFQDN === null) {
             $this->applicationServerClusterPrimaryPublicFQDN = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -151,7 +151,7 @@ class SystemServerAddressesModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @param string|null $applicationServerClusterSecondaryPublicFQDN
      * @return $this
      */
-    public function setApplicationServerClusterSecondaryPublicFQDN($applicationServerClusterSecondaryPublicFQDN)
+    public function setApplicationServerClusterSecondaryPublicFQDN($applicationServerClusterSecondaryPublicFQDN = null)
     {
         if ($applicationServerClusterSecondaryPublicFQDN === null) {
             $this->applicationServerClusterSecondaryPublicFQDN = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -186,7 +186,7 @@ class SystemServerAddressesModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @param string|null $applicationServerClusterPrimaryPrivateFQDN
      * @return $this
      */
-    public function setApplicationServerClusterPrimaryPrivateFQDN($applicationServerClusterPrimaryPrivateFQDN)
+    public function setApplicationServerClusterPrimaryPrivateFQDN($applicationServerClusterPrimaryPrivateFQDN = null)
     {
         if ($applicationServerClusterPrimaryPrivateFQDN === null) {
             $this->applicationServerClusterPrimaryPrivateFQDN = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -221,7 +221,7 @@ class SystemServerAddressesModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @param string|null $applicationServerClusterSecondaryPrivateFQDN
      * @return $this
      */
-    public function setApplicationServerClusterSecondaryPrivateFQDN($applicationServerClusterSecondaryPrivateFQDN)
+    public function setApplicationServerClusterSecondaryPrivateFQDN($applicationServerClusterSecondaryPrivateFQDN = null)
     {
         if ($applicationServerClusterSecondaryPrivateFQDN === null) {
             $this->applicationServerClusterSecondaryPrivateFQDN = new \CWM\BroadWorksConnector\Ocip\Nil;

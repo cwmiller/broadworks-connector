@@ -404,7 +404,7 @@ class SystemCollaborateModifyRequest20sp1 extends \CWM\BroadWorksConnector\Ocip\
      * @param string|null $collaborateFromAddress
      * @return $this
      */
-    public function setCollaborateFromAddress($collaborateFromAddress)
+    public function setCollaborateFromAddress($collaborateFromAddress = null)
     {
         if ($collaborateFromAddress === null) {
             $this->collaborateFromAddress = new \CWM\BroadWorksConnector\Ocip\Nil;

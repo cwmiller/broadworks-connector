@@ -335,7 +335,7 @@ class GroupMeetMeConferencingModifyInstanceRequest extends \CWM\BroadWorksConnec
      * @param string|null $operatorNumber
      * @return $this
      */
-    public function setOperatorNumber($operatorNumber)
+    public function setOperatorNumber($operatorNumber = null)
     {
         if ($operatorNumber === null) {
             $this->operatorNumber = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -370,7 +370,7 @@ class GroupMeetMeConferencingModifyInstanceRequest extends \CWM\BroadWorksConnec
      * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null $conferenceHostUserIdList
      * @return $this
      */
-    public function setConferenceHostUserIdList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList $conferenceHostUserIdList)
+    public function setConferenceHostUserIdList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList $conferenceHostUserIdList = null)
     {
         if ($conferenceHostUserIdList === null) {
             $this->conferenceHostUserIdList = new \CWM\BroadWorksConnector\Ocip\Nil;

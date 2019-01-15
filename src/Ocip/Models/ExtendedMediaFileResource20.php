@@ -49,7 +49,7 @@ class ExtendedMediaFileResource20
      * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey|null $file
      * @return $this
      */
-    public function setFile(\CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey $file)
+    public function setFile(\CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey $file = null)
     {
         if ($file === null) {
             $this->file = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -84,7 +84,7 @@ class ExtendedMediaFileResource20
      * @param string|null $url
      * @return $this
      */
-    public function setUrl($url)
+    public function setUrl($url = null)
     {
         if ($url === null) {
             $this->url = new \CWM\BroadWorksConnector\Ocip\Nil;

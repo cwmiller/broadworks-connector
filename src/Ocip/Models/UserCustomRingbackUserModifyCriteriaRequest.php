@@ -242,7 +242,7 @@ class UserCustomRingbackUserModifyCriteriaRequest extends \CWM\BroadWorksConnect
      * @param \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null $timeSchedule
      * @return $this
      */
-    public function setTimeSchedule(\CWM\BroadWorksConnector\Ocip\Models\TimeSchedule $timeSchedule)
+    public function setTimeSchedule(\CWM\BroadWorksConnector\Ocip\Models\TimeSchedule $timeSchedule = null)
     {
         if ($timeSchedule === null) {
             $this->timeSchedule = new \CWM\BroadWorksConnector\Ocip\Nil;

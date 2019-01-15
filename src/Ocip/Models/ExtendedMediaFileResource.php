@@ -79,7 +79,7 @@ class ExtendedMediaFileResource
      * @param string|null $url
      * @return $this
      */
-    public function setUrl($url)
+    public function setUrl($url = null)
     {
         if ($url === null) {
             $this->url = new \CWM\BroadWorksConnector\Ocip\Nil;

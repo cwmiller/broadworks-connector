@@ -119,7 +119,7 @@ class UserMeetMeConferencingModifyConferenceDelegateListRequest extends \CWM\Bro
      * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null $conferenceDelegateUserList
      * @return $this
      */
-    public function setConferenceDelegateUserList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList $conferenceDelegateUserList)
+    public function setConferenceDelegateUserList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList $conferenceDelegateUserList = null)
     {
         if ($conferenceDelegateUserList === null) {
             $this->conferenceDelegateUserList = new \CWM\BroadWorksConnector\Ocip\Nil;

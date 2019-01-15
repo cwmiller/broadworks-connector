@@ -77,7 +77,7 @@ class MessageDepositMenuKeysModifyEntry
      * @param string|null $enableMessageDeposit
      * @return $this
      */
-    public function setEnableMessageDeposit($enableMessageDeposit)
+    public function setEnableMessageDeposit($enableMessageDeposit = null)
     {
         if ($enableMessageDeposit === null) {
             $this->enableMessageDeposit = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -112,7 +112,7 @@ class MessageDepositMenuKeysModifyEntry
      * @param string|null $disableMessageDeposit
      * @return $this
      */
-    public function setDisableMessageDeposit($disableMessageDeposit)
+    public function setDisableMessageDeposit($disableMessageDeposit = null)
     {
         if ($disableMessageDeposit === null) {
             $this->disableMessageDeposit = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -147,7 +147,7 @@ class MessageDepositMenuKeysModifyEntry
      * @param string|null $listenToMessageDepositStatus
      * @return $this
      */
-    public function setListenToMessageDepositStatus($listenToMessageDepositStatus)
+    public function setListenToMessageDepositStatus($listenToMessageDepositStatus = null)
     {
         if ($listenToMessageDepositStatus === null) {
             $this->listenToMessageDepositStatus = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -213,7 +213,7 @@ class MessageDepositMenuKeysModifyEntry
      * @param string|null $repeatMenu
      * @return $this
      */
-    public function setRepeatMenu($repeatMenu)
+    public function setRepeatMenu($repeatMenu = null)
     {
         if ($repeatMenu === null) {
             $this->repeatMenu = new \CWM\BroadWorksConnector\Ocip\Nil;

@@ -97,7 +97,7 @@ class CommPilotExpressProfileMenuKeysModifyEntry
      * @param string|null $activateAvailableInOfficeProfile
      * @return $this
      */
-    public function setActivateAvailableInOfficeProfile($activateAvailableInOfficeProfile)
+    public function setActivateAvailableInOfficeProfile($activateAvailableInOfficeProfile = null)
     {
         if ($activateAvailableInOfficeProfile === null) {
             $this->activateAvailableInOfficeProfile = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -132,7 +132,7 @@ class CommPilotExpressProfileMenuKeysModifyEntry
      * @param string|null $activateAvailableOutOfOfficeProfile
      * @return $this
      */
-    public function setActivateAvailableOutOfOfficeProfile($activateAvailableOutOfOfficeProfile)
+    public function setActivateAvailableOutOfOfficeProfile($activateAvailableOutOfOfficeProfile = null)
     {
         if ($activateAvailableOutOfOfficeProfile === null) {
             $this->activateAvailableOutOfOfficeProfile = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -167,7 +167,7 @@ class CommPilotExpressProfileMenuKeysModifyEntry
      * @param string|null $activateBusyProfile
      * @return $this
      */
-    public function setActivateBusyProfile($activateBusyProfile)
+    public function setActivateBusyProfile($activateBusyProfile = null)
     {
         if ($activateBusyProfile === null) {
             $this->activateBusyProfile = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -202,7 +202,7 @@ class CommPilotExpressProfileMenuKeysModifyEntry
      * @param string|null $activateUnavailableProfile
      * @return $this
      */
-    public function setActivateUnavailableProfile($activateUnavailableProfile)
+    public function setActivateUnavailableProfile($activateUnavailableProfile = null)
     {
         if ($activateUnavailableProfile === null) {
             $this->activateUnavailableProfile = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -237,7 +237,7 @@ class CommPilotExpressProfileMenuKeysModifyEntry
      * @param string|null $noProfile
      * @return $this
      */
-    public function setNoProfile($noProfile)
+    public function setNoProfile($noProfile = null)
     {
         if ($noProfile === null) {
             $this->noProfile = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -303,7 +303,7 @@ class CommPilotExpressProfileMenuKeysModifyEntry
      * @param string|null $repeatMenu
      * @return $this
      */
-    public function setRepeatMenu($repeatMenu)
+    public function setRepeatMenu($repeatMenu = null)
     {
         if ($repeatMenu === null) {
             $this->repeatMenu = new \CWM\BroadWorksConnector\Ocip\Nil;

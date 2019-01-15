@@ -259,7 +259,7 @@ class UserMeetMeConferencingModifyConferenceRequest extends \CWM\BroadWorksConne
      * @param int|null $estimatedParticipants
      * @return $this
      */
-    public function setEstimatedParticipants($estimatedParticipants)
+    public function setEstimatedParticipants($estimatedParticipants = null)
     {
         if ($estimatedParticipants === null) {
             $this->estimatedParticipants = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -356,7 +356,7 @@ class UserMeetMeConferencingModifyConferenceRequest extends \CWM\BroadWorksConne
      * @param string|null $accountCode
      * @return $this
      */
-    public function setAccountCode($accountCode)
+    public function setAccountCode($accountCode = null)
     {
         if ($accountCode === null) {
             $this->accountCode = new \CWM\BroadWorksConnector\Ocip\Nil;

@@ -1035,7 +1035,7 @@ class GroupCallProcessingModifyPolicyRequest15sp2 extends \CWM\BroadWorksConnect
      * @param string|null $supportedMediaSetName
      * @return $this
      */
-    public function setSupportedMediaSetName($supportedMediaSetName)
+    public function setSupportedMediaSetName($supportedMediaSetName = null)
     {
         if ($supportedMediaSetName === null) {
             $this->supportedMediaSetName = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -2031,7 +2031,7 @@ class GroupCallProcessingModifyPolicyRequest15sp2 extends \CWM\BroadWorksConnect
      * @param string|null $routeOverrideDomain
      * @return $this
      */
-    public function setRouteOverrideDomain($routeOverrideDomain)
+    public function setRouteOverrideDomain($routeOverrideDomain = null)
     {
         if ($routeOverrideDomain === null) {
             $this->routeOverrideDomain = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -2066,7 +2066,7 @@ class GroupCallProcessingModifyPolicyRequest15sp2 extends \CWM\BroadWorksConnect
      * @param string|null $routeOverridePrefix
      * @return $this
      */
-    public function setRouteOverridePrefix($routeOverridePrefix)
+    public function setRouteOverridePrefix($routeOverridePrefix = null)
     {
         if ($routeOverridePrefix === null) {
             $this->routeOverridePrefix = new \CWM\BroadWorksConnector\Ocip\Nil;

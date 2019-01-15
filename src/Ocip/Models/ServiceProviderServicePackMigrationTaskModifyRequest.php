@@ -357,7 +357,7 @@ class ServiceProviderServicePackMigrationTaskModifyRequest extends \CWM\BroadWor
      * @param string|null $reportDeliveryEmailAddress
      * @return $this
      */
-    public function setReportDeliveryEmailAddress($reportDeliveryEmailAddress)
+    public function setReportDeliveryEmailAddress($reportDeliveryEmailAddress = null)
     {
         if ($reportDeliveryEmailAddress === null) {
             $this->reportDeliveryEmailAddress = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -423,7 +423,7 @@ class ServiceProviderServicePackMigrationTaskModifyRequest extends \CWM\BroadWor
      * @param int|null $abortErrorThreshold
      * @return $this
      */
-    public function setAbortErrorThreshold($abortErrorThreshold)
+    public function setAbortErrorThreshold($abortErrorThreshold = null)
     {
         if ($abortErrorThreshold === null) {
             $this->abortErrorThreshold = new \CWM\BroadWorksConnector\Ocip\Nil;

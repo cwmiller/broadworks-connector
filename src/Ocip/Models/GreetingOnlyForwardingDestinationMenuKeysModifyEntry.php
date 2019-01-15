@@ -38,7 +38,7 @@ class GreetingOnlyForwardingDestinationMenuKeysModifyEntry
      * @param string|null $greetingOnlyForwardingDestination
      * @return $this
      */
-    public function setGreetingOnlyForwardingDestination($greetingOnlyForwardingDestination)
+    public function setGreetingOnlyForwardingDestination($greetingOnlyForwardingDestination = null)
     {
         if ($greetingOnlyForwardingDestination === null) {
             $this->greetingOnlyForwardingDestination = new \CWM\BroadWorksConnector\Ocip\Nil;

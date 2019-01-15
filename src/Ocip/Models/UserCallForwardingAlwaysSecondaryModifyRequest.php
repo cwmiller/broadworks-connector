@@ -129,7 +129,7 @@ class UserCallForwardingAlwaysSecondaryModifyRequest extends \CWM\BroadWorksConn
      * @param string|null $forwardToPhoneNumber
      * @return $this
      */
-    public function setForwardToPhoneNumber($forwardToPhoneNumber)
+    public function setForwardToPhoneNumber($forwardToPhoneNumber = null)
     {
         if ($forwardToPhoneNumber === null) {
             $this->forwardToPhoneNumber = new \CWM\BroadWorksConnector\Ocip\Nil;

@@ -80,7 +80,7 @@ class ServiceProviderRoutingProfileModifyRequest extends \CWM\BroadWorksConnecto
      * @param string|null $routingProfile
      * @return $this
      */
-    public function setRoutingProfile($routingProfile)
+    public function setRoutingProfile($routingProfile = null)
     {
         if ($routingProfile === null) {
             $this->routingProfile = new \CWM\BroadWorksConnector\Ocip\Nil;

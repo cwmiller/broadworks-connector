@@ -198,7 +198,7 @@ class GroupCallPickupModifyInstanceRequest extends \CWM\BroadWorksConnector\Ocip
      * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null $userIdList
      * @return $this
      */
-    public function setUserIdList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList $userIdList)
+    public function setUserIdList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList $userIdList = null)
     {
         if ($userIdList === null) {
             $this->userIdList = new \CWM\BroadWorksConnector\Ocip\Nil;

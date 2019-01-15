@@ -80,7 +80,7 @@ class SystemRoamingNetworkModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @param string|null $networkTranslationIndex
      * @return $this
      */
-    public function setNetworkTranslationIndex($networkTranslationIndex)
+    public function setNetworkTranslationIndex($networkTranslationIndex = null)
     {
         if ($networkTranslationIndex === null) {
             $this->networkTranslationIndex = new \CWM\BroadWorksConnector\Ocip\Nil;

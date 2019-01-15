@@ -159,7 +159,7 @@ class GroupIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @param string|null $serviceDomain
      * @return $this
      */
-    public function setServiceDomain($serviceDomain)
+    public function setServiceDomain($serviceDomain = null)
     {
         if ($serviceDomain === null) {
             $this->serviceDomain = new \CWM\BroadWorksConnector\Ocip\Nil;

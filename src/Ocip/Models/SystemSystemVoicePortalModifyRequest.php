@@ -372,7 +372,7 @@ class SystemSystemVoicePortalModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @param string|null $phoneNumber
      * @return $this
      */
-    public function setPhoneNumber($phoneNumber)
+    public function setPhoneNumber($phoneNumber = null)
     {
         if ($phoneNumber === null) {
             $this->phoneNumber = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -407,7 +407,7 @@ class SystemSystemVoicePortalModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @param string|null $publicUserIdentity
      * @return $this
      */
-    public function setPublicUserIdentity($publicUserIdentity)
+    public function setPublicUserIdentity($publicUserIdentity = null)
     {
         if ($publicUserIdentity === null) {
             $this->publicUserIdentity = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -442,7 +442,7 @@ class SystemSystemVoicePortalModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @param string|null $networkVoicePortalNumber
      * @return $this
      */
-    public function setNetworkVoicePortalNumber($networkVoicePortalNumber)
+    public function setNetworkVoicePortalNumber($networkVoicePortalNumber = null)
     {
         if ($networkVoicePortalNumber === null) {
             $this->networkVoicePortalNumber = new \CWM\BroadWorksConnector\Ocip\Nil;

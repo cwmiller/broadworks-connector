@@ -160,7 +160,7 @@ class SystemMediaModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @param int|null $mediaBandwidth
      * @return $this
      */
-    public function setMediaBandwidth($mediaBandwidth)
+    public function setMediaBandwidth($mediaBandwidth = null)
     {
         if ($mediaBandwidth === null) {
             $this->mediaBandwidth = new \CWM\BroadWorksConnector\Ocip\Nil;

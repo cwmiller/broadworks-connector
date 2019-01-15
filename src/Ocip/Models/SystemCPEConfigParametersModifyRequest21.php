@@ -258,7 +258,7 @@ class SystemCPEConfigParametersModifyRequest21 extends \CWM\BroadWorksConnector\
      * @param string|null $deviceAccessAppServerClusterName
      * @return $this
      */
-    public function setDeviceAccessAppServerClusterName($deviceAccessAppServerClusterName)
+    public function setDeviceAccessAppServerClusterName($deviceAccessAppServerClusterName = null)
     {
         if ($deviceAccessAppServerClusterName === null) {
             $this->deviceAccessAppServerClusterName = new \CWM\BroadWorksConnector\Ocip\Nil;

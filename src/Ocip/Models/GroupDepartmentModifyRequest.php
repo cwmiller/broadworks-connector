@@ -222,7 +222,7 @@ class GroupDepartmentModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @param \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null $newParentDepartmentKey
      * @return $this
      */
-    public function setNewParentDepartmentKey(\CWM\BroadWorksConnector\Ocip\Models\DepartmentKey $newParentDepartmentKey)
+    public function setNewParentDepartmentKey(\CWM\BroadWorksConnector\Ocip\Models\DepartmentKey $newParentDepartmentKey = null)
     {
         if ($newParentDepartmentKey === null) {
             $this->newParentDepartmentKey = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -257,7 +257,7 @@ class GroupDepartmentModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @param string|null $callingLineIdName
      * @return $this
      */
-    public function setCallingLineIdName($callingLineIdName)
+    public function setCallingLineIdName($callingLineIdName = null)
     {
         if ($callingLineIdName === null) {
             $this->callingLineIdName = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -292,7 +292,7 @@ class GroupDepartmentModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @param string|null $callingLineIdPhoneNumber
      * @return $this
      */
-    public function setCallingLineIdPhoneNumber($callingLineIdPhoneNumber)
+    public function setCallingLineIdPhoneNumber($callingLineIdPhoneNumber = null)
     {
         if ($callingLineIdPhoneNumber === null) {
             $this->callingLineIdPhoneNumber = new \CWM\BroadWorksConnector\Ocip\Nil;

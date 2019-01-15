@@ -324,7 +324,7 @@ class GroupVoiceMessagingGroupModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @param string|null $mailServerNetAddress
      * @return $this
      */
-    public function setMailServerNetAddress($mailServerNetAddress)
+    public function setMailServerNetAddress($mailServerNetAddress = null)
     {
         if ($mailServerNetAddress === null) {
             $this->mailServerNetAddress = new \CWM\BroadWorksConnector\Ocip\Nil;

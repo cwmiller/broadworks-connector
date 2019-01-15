@@ -169,7 +169,7 @@ class GroupExchangeIntegrationModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @param string|null $exchangeURL
      * @return $this
      */
-    public function setExchangeURL($exchangeURL)
+    public function setExchangeURL($exchangeURL = null)
     {
         if ($exchangeURL === null) {
             $this->exchangeURL = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -204,7 +204,7 @@ class GroupExchangeIntegrationModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @param \CWM\BroadWorksConnector\Ocip\Models\ExchangeUserNamePassword|null $exchangeCredentials
      * @return $this
      */
-    public function setExchangeCredentials(\CWM\BroadWorksConnector\Ocip\Models\ExchangeUserNamePassword $exchangeCredentials)
+    public function setExchangeCredentials(\CWM\BroadWorksConnector\Ocip\Models\ExchangeUserNamePassword $exchangeCredentials = null)
     {
         if ($exchangeCredentials === null) {
             $this->exchangeCredentials = new \CWM\BroadWorksConnector\Ocip\Nil;

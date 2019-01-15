@@ -261,7 +261,7 @@ class ServiceProviderDialableCallerIDCriteriaModifyRequest extends \CWM\BroadWor
      * @param string|null $description
      * @return $this
      */
-    public function setDescription($description)
+    public function setDescription($description = null)
     {
         if ($description === null) {
             $this->description = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -296,7 +296,7 @@ class ServiceProviderDialableCallerIDCriteriaModifyRequest extends \CWM\BroadWor
      * @param string|null $prefixDigits
      * @return $this
      */
-    public function setPrefixDigits($prefixDigits)
+    public function setPrefixDigits($prefixDigits = null)
     {
         if ($prefixDigits === null) {
             $this->prefixDigits = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -331,7 +331,7 @@ class ServiceProviderDialableCallerIDCriteriaModifyRequest extends \CWM\BroadWor
      * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringCallTypeList|null $matchCallType
      * @return $this
      */
-    public function setMatchCallType(\CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringCallTypeList $matchCallType)
+    public function setMatchCallType(\CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringCallTypeList $matchCallType = null)
     {
         if ($matchCallType === null) {
             $this->matchCallType = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -366,7 +366,7 @@ class ServiceProviderDialableCallerIDCriteriaModifyRequest extends \CWM\BroadWor
      * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringAlternateCallIndicatorList|null $matchAlternateCallIndicator
      * @return $this
      */
-    public function setMatchAlternateCallIndicator(\CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringAlternateCallIndicatorList $matchAlternateCallIndicator)
+    public function setMatchAlternateCallIndicator(\CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringAlternateCallIndicatorList $matchAlternateCallIndicator = null)
     {
         if ($matchAlternateCallIndicator === null) {
             $this->matchAlternateCallIndicator = new \CWM\BroadWorksConnector\Ocip\Nil;

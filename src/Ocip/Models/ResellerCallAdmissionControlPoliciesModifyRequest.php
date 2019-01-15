@@ -198,7 +198,7 @@ class ResellerCallAdmissionControlPoliciesModifyRequest extends \CWM\BroadWorksC
      * @param int|null $maxConcurrentNetworkSessionsThreshold
      * @return $this
      */
-    public function setMaxConcurrentNetworkSessionsThreshold($maxConcurrentNetworkSessionsThreshold)
+    public function setMaxConcurrentNetworkSessionsThreshold($maxConcurrentNetworkSessionsThreshold = null)
     {
         if ($maxConcurrentNetworkSessionsThreshold === null) {
             $this->maxConcurrentNetworkSessionsThreshold = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -264,7 +264,7 @@ class ResellerCallAdmissionControlPoliciesModifyRequest extends \CWM\BroadWorksC
      * @param int|null $maxNetworkCallsPerSecondThreshold
      * @return $this
      */
-    public function setMaxNetworkCallsPerSecondThreshold($maxNetworkCallsPerSecondThreshold)
+    public function setMaxNetworkCallsPerSecondThreshold($maxNetworkCallsPerSecondThreshold = null)
     {
         if ($maxNetworkCallsPerSecondThreshold === null) {
             $this->maxNetworkCallsPerSecondThreshold = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -330,7 +330,7 @@ class ResellerCallAdmissionControlPoliciesModifyRequest extends \CWM\BroadWorksC
      * @param int|null $maxConcurrentExternalSIPRECSessionsThreshold
      * @return $this
      */
-    public function setMaxConcurrentExternalSIPRECSessionsThreshold($maxConcurrentExternalSIPRECSessionsThreshold)
+    public function setMaxConcurrentExternalSIPRECSessionsThreshold($maxConcurrentExternalSIPRECSessionsThreshold = null)
     {
         if ($maxConcurrentExternalSIPRECSessionsThreshold === null) {
             $this->maxConcurrentExternalSIPRECSessionsThreshold = new \CWM\BroadWorksConnector\Ocip\Nil;

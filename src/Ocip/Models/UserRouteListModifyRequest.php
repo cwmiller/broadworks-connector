@@ -210,7 +210,7 @@ class UserRouteListModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementDNList|null $assignedNumberRangeStartList
      * @return $this
      */
-    public function setAssignedNumberRangeStartList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementDNList $assignedNumberRangeStartList)
+    public function setAssignedNumberRangeStartList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementDNList $assignedNumberRangeStartList = null)
     {
         if ($assignedNumberRangeStartList === null) {
             $this->assignedNumberRangeStartList = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -245,7 +245,7 @@ class UserRouteListModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @param \CWM\BroadWorksConnector\Ocip\Models\EnterpriseTrunkReplacementNumberPrefixList|null $assignedNumberPrefixList
      * @return $this
      */
-    public function setAssignedNumberPrefixList(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseTrunkReplacementNumberPrefixList $assignedNumberPrefixList)
+    public function setAssignedNumberPrefixList(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseTrunkReplacementNumberPrefixList $assignedNumberPrefixList = null)
     {
         if ($assignedNumberPrefixList === null) {
             $this->assignedNumberPrefixList = new \CWM\BroadWorksConnector\Ocip\Nil;

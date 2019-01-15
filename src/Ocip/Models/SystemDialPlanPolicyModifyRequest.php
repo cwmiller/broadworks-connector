@@ -201,7 +201,7 @@ class SystemDialPlanPolicyModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @param string|null $privateDigitMap
      * @return $this
      */
-    public function setPrivateDigitMap($privateDigitMap)
+    public function setPrivateDigitMap($privateDigitMap = null)
     {
         if ($privateDigitMap === null) {
             $this->privateDigitMap = new \CWM\BroadWorksConnector\Ocip\Nil;

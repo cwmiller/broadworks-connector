@@ -135,7 +135,7 @@ class SystemFileRepositoryDeviceModifyRequest22 extends \CWM\BroadWorksConnector
      * @param string|null $rootDirectory
      * @return $this
      */
-    public function setRootDirectory($rootDirectory)
+    public function setRootDirectory($rootDirectory = null)
     {
         if ($rootDirectory === null) {
             $this->rootDirectory = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -294,7 +294,7 @@ class SystemFileRepositoryDeviceModifyRequest22 extends \CWM\BroadWorksConnector
      * @param int|null $port
      * @return $this
      */
-    public function setPort($port)
+    public function setPort($port = null)
     {
         if ($port === null) {
             $this->port = new \CWM\BroadWorksConnector\Ocip\Nil;

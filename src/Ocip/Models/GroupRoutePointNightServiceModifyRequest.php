@@ -265,7 +265,7 @@ class GroupRoutePointNightServiceModifyRequest extends \CWM\BroadWorksConnector\
      * @param string|null $businessHours
      * @return $this
      */
-    public function setBusinessHours($businessHours)
+    public function setBusinessHours($businessHours = null)
     {
         if ($businessHours === null) {
             $this->businessHours = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -331,7 +331,7 @@ class GroupRoutePointNightServiceModifyRequest extends \CWM\BroadWorksConnector\
      * @param string|null $transferPhoneNumber
      * @return $this
      */
-    public function setTransferPhoneNumber($transferPhoneNumber)
+    public function setTransferPhoneNumber($transferPhoneNumber = null)
     {
         if ($transferPhoneNumber === null) {
             $this->transferPhoneNumber = new \CWM\BroadWorksConnector\Ocip\Nil;

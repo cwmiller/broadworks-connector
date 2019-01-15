@@ -165,7 +165,7 @@ class UserExternalCustomRingbackModifyRequest extends \CWM\BroadWorksConnector\O
      * @param string|null $sipRequestURI
      * @return $this
      */
-    public function setSipRequestURI($sipRequestURI)
+    public function setSipRequestURI($sipRequestURI = null)
     {
         if ($sipRequestURI === null) {
             $this->sipRequestURI = new \CWM\BroadWorksConnector\Ocip\Nil;

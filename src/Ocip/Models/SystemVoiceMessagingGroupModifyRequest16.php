@@ -494,7 +494,7 @@ class SystemVoiceMessagingGroupModifyRequest16 extends \CWM\BroadWorksConnector\
      * @param string|null $mailServerNetAddress
      * @return $this
      */
-    public function setMailServerNetAddress($mailServerNetAddress)
+    public function setMailServerNetAddress($mailServerNetAddress = null)
     {
         if ($mailServerNetAddress === null) {
             $this->mailServerNetAddress = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -808,7 +808,7 @@ class SystemVoiceMessagingGroupModifyRequest16 extends \CWM\BroadWorksConnector\
      * @param string|null $defaultExternalRoutingAddress
      * @return $this
      */
-    public function setDefaultExternalRoutingAddress($defaultExternalRoutingAddress)
+    public function setDefaultExternalRoutingAddress($defaultExternalRoutingAddress = null)
     {
         if ($defaultExternalRoutingAddress === null) {
             $this->defaultExternalRoutingAddress = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -998,7 +998,7 @@ class SystemVoiceMessagingGroupModifyRequest16 extends \CWM\BroadWorksConnector\
      * @param string|null $vmBucketName
      * @return $this
      */
-    public function setVmBucketName($vmBucketName)
+    public function setVmBucketName($vmBucketName = null)
     {
         if ($vmBucketName === null) {
             $this->vmBucketName = new \CWM\BroadWorksConnector\Ocip\Nil;

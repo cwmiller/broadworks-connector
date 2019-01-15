@@ -93,7 +93,7 @@ class AutoAttendantKeyConfigurationModifyEntry20
      * @param string|null $description
      * @return $this
      */
-    public function setDescription($description)
+    public function setDescription($description = null)
     {
         if ($description === null) {
             $this->description = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -159,7 +159,7 @@ class AutoAttendantKeyConfigurationModifyEntry20
      * @param string|null $phoneNumber
      * @return $this
      */
-    public function setPhoneNumber($phoneNumber)
+    public function setPhoneNumber($phoneNumber = null)
     {
         if ($phoneNumber === null) {
             $this->phoneNumber = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -194,7 +194,7 @@ class AutoAttendantKeyConfigurationModifyEntry20
      * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null $audioFile
      * @return $this
      */
-    public function setAudioFile(\CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey $audioFile)
+    public function setAudioFile(\CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey $audioFile = null)
     {
         if ($audioFile === null) {
             $this->audioFile = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -229,7 +229,7 @@ class AutoAttendantKeyConfigurationModifyEntry20
      * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null $videoFile
      * @return $this
      */
-    public function setVideoFile(\CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey $videoFile)
+    public function setVideoFile(\CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey $videoFile = null)
     {
         if ($videoFile === null) {
             $this->videoFile = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -264,7 +264,7 @@ class AutoAttendantKeyConfigurationModifyEntry20
      * @param string|null $submenuId
      * @return $this
      */
-    public function setSubmenuId($submenuId)
+    public function setSubmenuId($submenuId = null)
     {
         if ($submenuId === null) {
             $this->submenuId = new \CWM\BroadWorksConnector\Ocip\Nil;

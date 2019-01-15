@@ -206,7 +206,7 @@ class UserPersonalAssistantModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @param string|null $attendantNumber
      * @return $this
      */
-    public function setAttendantNumber($attendantNumber)
+    public function setAttendantNumber($attendantNumber = null)
     {
         if ($attendantNumber === null) {
             $this->attendantNumber = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -303,7 +303,7 @@ class UserPersonalAssistantModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @param string|null $expirationTime
      * @return $this
      */
-    public function setExpirationTime($expirationTime)
+    public function setExpirationTime($expirationTime = null)
     {
         if ($expirationTime === null) {
             $this->expirationTime = new \CWM\BroadWorksConnector\Ocip\Nil;

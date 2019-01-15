@@ -481,7 +481,7 @@ class SystemBroadWorksMobilityModifyRequest21 extends \CWM\BroadWorksConnector\O
      * @param string|null $networkTranslationIndex
      * @return $this
      */
-    public function setNetworkTranslationIndex($networkTranslationIndex)
+    public function setNetworkTranslationIndex($networkTranslationIndex = null)
     {
         if ($networkTranslationIndex === null) {
             $this->networkTranslationIndex = new \CWM\BroadWorksConnector\Ocip\Nil;

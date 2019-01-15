@@ -79,7 +79,7 @@ class UserSecurityClassificationModifyRequest extends \CWM\BroadWorksConnector\O
      * @param string|null $securityClassification
      * @return $this
      */
-    public function setSecurityClassification($securityClassification)
+    public function setSecurityClassification($securityClassification = null)
     {
         if ($securityClassification === null) {
             $this->securityClassification = new \CWM\BroadWorksConnector\Ocip\Nil;

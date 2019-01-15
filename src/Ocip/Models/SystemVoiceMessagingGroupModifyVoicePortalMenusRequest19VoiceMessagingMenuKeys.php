@@ -135,7 +135,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19VoiceMessagingMenu
      * @param string|null $playMessages
      * @return $this
      */
-    public function setPlayMessages($playMessages)
+    public function setPlayMessages($playMessages = null)
     {
         if ($playMessages === null) {
             $this->playMessages = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -170,7 +170,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19VoiceMessagingMenu
      * @param string|null $changeBusyGreeting
      * @return $this
      */
-    public function setChangeBusyGreeting($changeBusyGreeting)
+    public function setChangeBusyGreeting($changeBusyGreeting = null)
     {
         if ($changeBusyGreeting === null) {
             $this->changeBusyGreeting = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -205,7 +205,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19VoiceMessagingMenu
      * @param string|null $changeNoAnswerGreeting
      * @return $this
      */
-    public function setChangeNoAnswerGreeting($changeNoAnswerGreeting)
+    public function setChangeNoAnswerGreeting($changeNoAnswerGreeting = null)
     {
         if ($changeNoAnswerGreeting === null) {
             $this->changeNoAnswerGreeting = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -240,7 +240,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19VoiceMessagingMenu
      * @param string|null $changeExtendedAwayGreeting
      * @return $this
      */
-    public function setChangeExtendedAwayGreeting($changeExtendedAwayGreeting)
+    public function setChangeExtendedAwayGreeting($changeExtendedAwayGreeting = null)
     {
         if ($changeExtendedAwayGreeting === null) {
             $this->changeExtendedAwayGreeting = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -275,7 +275,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19VoiceMessagingMenu
      * @param string|null $composeMessage
      * @return $this
      */
-    public function setComposeMessage($composeMessage)
+    public function setComposeMessage($composeMessage = null)
     {
         if ($composeMessage === null) {
             $this->composeMessage = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -310,7 +310,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19VoiceMessagingMenu
      * @param string|null $deleteAllMessages
      * @return $this
      */
-    public function setDeleteAllMessages($deleteAllMessages)
+    public function setDeleteAllMessages($deleteAllMessages = null)
     {
         if ($deleteAllMessages === null) {
             $this->deleteAllMessages = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -345,7 +345,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19VoiceMessagingMenu
      * @param string|null $passcode
      * @return $this
      */
-    public function setPasscode($passcode)
+    public function setPasscode($passcode = null)
     {
         if ($passcode === null) {
             $this->passcode = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -380,7 +380,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19VoiceMessagingMenu
      * @param string|null $personalizedName
      * @return $this
      */
-    public function setPersonalizedName($personalizedName)
+    public function setPersonalizedName($personalizedName = null)
     {
         if ($personalizedName === null) {
             $this->personalizedName = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -415,7 +415,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19VoiceMessagingMenu
      * @param string|null $messageDeposit
      * @return $this
      */
-    public function setMessageDeposit($messageDeposit)
+    public function setMessageDeposit($messageDeposit = null)
     {
         if ($messageDeposit === null) {
             $this->messageDeposit = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -481,7 +481,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19VoiceMessagingMenu
      * @param string|null $repeatMenu
      * @return $this
      */
-    public function setRepeatMenu($repeatMenu)
+    public function setRepeatMenu($repeatMenu = null)
     {
         if ($repeatMenu === null) {
             $this->repeatMenu = new \CWM\BroadWorksConnector\Ocip\Nil;

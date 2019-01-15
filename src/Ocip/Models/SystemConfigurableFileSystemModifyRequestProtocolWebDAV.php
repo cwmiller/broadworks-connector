@@ -95,7 +95,7 @@ class SystemConfigurableFileSystemModifyRequestProtocolWebDAV
      * @param string|null $userName
      * @return $this
      */
-    public function setUserName($userName)
+    public function setUserName($userName = null)
     {
         if ($userName === null) {
             $this->userName = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -130,7 +130,7 @@ class SystemConfigurableFileSystemModifyRequestProtocolWebDAV
      * @param string|null $password
      * @return $this
      */
-    public function setPassword($password)
+    public function setPassword($password = null)
     {
         if ($password === null) {
             $this->password = new \CWM\BroadWorksConnector\Ocip\Nil;

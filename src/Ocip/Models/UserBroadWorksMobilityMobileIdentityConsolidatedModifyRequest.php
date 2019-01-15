@@ -403,7 +403,7 @@ class UserBroadWorksMobilityMobileIdentityConsolidatedModifyRequest extends \CWM
      * @param string|null $description
      * @return $this
      */
-    public function setDescription($description)
+    public function setDescription($description = null)
     {
         if ($description === null) {
             $this->description = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -934,7 +934,7 @@ class UserBroadWorksMobilityMobileIdentityConsolidatedModifyRequest extends \CWM
      * @param \CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityAlertingMobileNumberReplacementList|null $mobileNumbersAlerted
      * @return $this
      */
-    public function setMobileNumbersAlerted(\CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityAlertingMobileNumberReplacementList $mobileNumbersAlerted)
+    public function setMobileNumbersAlerted(\CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityAlertingMobileNumberReplacementList $mobileNumbersAlerted = null)
     {
         if ($mobileNumbersAlerted === null) {
             $this->mobileNumbersAlerted = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -1000,7 +1000,7 @@ class UserBroadWorksMobilityMobileIdentityConsolidatedModifyRequest extends \CWM
      * @param \CWM\BroadWorksConnector\Ocip\Models\ScheduleGlobalKey|null $timeSchedule
      * @return $this
      */
-    public function setTimeSchedule(\CWM\BroadWorksConnector\Ocip\Models\ScheduleGlobalKey $timeSchedule)
+    public function setTimeSchedule(\CWM\BroadWorksConnector\Ocip\Models\ScheduleGlobalKey $timeSchedule = null)
     {
         if ($timeSchedule === null) {
             $this->timeSchedule = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -1035,7 +1035,7 @@ class UserBroadWorksMobilityMobileIdentityConsolidatedModifyRequest extends \CWM
      * @param \CWM\BroadWorksConnector\Ocip\Models\ScheduleGlobalKey|null $holidaySchedule
      * @return $this
      */
-    public function setHolidaySchedule(\CWM\BroadWorksConnector\Ocip\Models\ScheduleGlobalKey $holidaySchedule)
+    public function setHolidaySchedule(\CWM\BroadWorksConnector\Ocip\Models\ScheduleGlobalKey $holidaySchedule = null)
     {
         if ($holidaySchedule === null) {
             $this->holidaySchedule = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -1070,7 +1070,7 @@ class UserBroadWorksMobilityMobileIdentityConsolidatedModifyRequest extends \CWM
      * @param \CWM\BroadWorksConnector\Ocip\Models\ConsolidatedSharedCallAppearanceAccessDeviceMultipleIdentityEndpoint|null $accessDeviceEndpoint
      * @return $this
      */
-    public function setAccessDeviceEndpoint(\CWM\BroadWorksConnector\Ocip\Models\ConsolidatedSharedCallAppearanceAccessDeviceMultipleIdentityEndpoint $accessDeviceEndpoint)
+    public function setAccessDeviceEndpoint(\CWM\BroadWorksConnector\Ocip\Models\ConsolidatedSharedCallAppearanceAccessDeviceMultipleIdentityEndpoint $accessDeviceEndpoint = null)
     {
         if ($accessDeviceEndpoint === null) {
             $this->accessDeviceEndpoint = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -1105,7 +1105,7 @@ class UserBroadWorksMobilityMobileIdentityConsolidatedModifyRequest extends \CWM
      * @param string|null $outboundAlternateNumber
      * @return $this
      */
-    public function setOutboundAlternateNumber($outboundAlternateNumber)
+    public function setOutboundAlternateNumber($outboundAlternateNumber = null)
     {
         if ($outboundAlternateNumber === null) {
             $this->outboundAlternateNumber = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -1233,7 +1233,7 @@ class UserBroadWorksMobilityMobileIdentityConsolidatedModifyRequest extends \CWM
      * @param string|null $networkTranslationIndex
      * @return $this
      */
-    public function setNetworkTranslationIndex($networkTranslationIndex)
+    public function setNetworkTranslationIndex($networkTranslationIndex = null)
     {
         if ($networkTranslationIndex === null) {
             $this->networkTranslationIndex = new \CWM\BroadWorksConnector\Ocip\Nil;

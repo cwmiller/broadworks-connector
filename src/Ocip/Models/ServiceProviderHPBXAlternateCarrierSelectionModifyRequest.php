@@ -130,7 +130,7 @@ class ServiceProviderHPBXAlternateCarrierSelectionModifyRequest extends \CWM\Bro
      * @param string|null $preselectedLocalCarrier
      * @return $this
      */
-    public function setPreselectedLocalCarrier($preselectedLocalCarrier)
+    public function setPreselectedLocalCarrier($preselectedLocalCarrier = null)
     {
         if ($preselectedLocalCarrier === null) {
             $this->preselectedLocalCarrier = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -165,7 +165,7 @@ class ServiceProviderHPBXAlternateCarrierSelectionModifyRequest extends \CWM\Bro
      * @param string|null $preselectedDistantCarrier
      * @return $this
      */
-    public function setPreselectedDistantCarrier($preselectedDistantCarrier)
+    public function setPreselectedDistantCarrier($preselectedDistantCarrier = null)
     {
         if ($preselectedDistantCarrier === null) {
             $this->preselectedDistantCarrier = new \CWM\BroadWorksConnector\Ocip\Nil;

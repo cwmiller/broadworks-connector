@@ -120,7 +120,7 @@ class UserMWIDeliveryToMobileEndpointModifyRequest extends \CWM\BroadWorksConnec
      * @param string|null $mobilePhoneNumber
      * @return $this
      */
-    public function setMobilePhoneNumber($mobilePhoneNumber)
+    public function setMobilePhoneNumber($mobilePhoneNumber = null)
     {
         if ($mobilePhoneNumber === null) {
             $this->mobilePhoneNumber = new \CWM\BroadWorksConnector\Ocip\Nil;

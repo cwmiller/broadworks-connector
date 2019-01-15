@@ -452,7 +452,7 @@ class SystemVoiceMessagingGroupModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @param string|null $mailServerNetAddress
      * @return $this
      */
-    public function setMailServerNetAddress($mailServerNetAddress)
+    public function setMailServerNetAddress($mailServerNetAddress = null)
     {
         if ($mailServerNetAddress === null) {
             $this->mailServerNetAddress = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -766,7 +766,7 @@ class SystemVoiceMessagingGroupModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @param string|null $defaultExternalRoutingAddress
      * @return $this
      */
-    public function setDefaultExternalRoutingAddress($defaultExternalRoutingAddress)
+    public function setDefaultExternalRoutingAddress($defaultExternalRoutingAddress = null)
     {
         if ($defaultExternalRoutingAddress === null) {
             $this->defaultExternalRoutingAddress = new \CWM\BroadWorksConnector\Ocip\Nil;

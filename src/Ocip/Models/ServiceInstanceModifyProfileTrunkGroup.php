@@ -295,7 +295,7 @@ class ServiceInstanceModifyProfileTrunkGroup
      * @param string|null $phoneNumber
      * @return $this
      */
-    public function setPhoneNumber($phoneNumber)
+    public function setPhoneNumber($phoneNumber = null)
     {
         if ($phoneNumber === null) {
             $this->phoneNumber = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -330,7 +330,7 @@ class ServiceInstanceModifyProfileTrunkGroup
      * @param string|null $extension
      * @return $this
      */
-    public function setExtension($extension)
+    public function setExtension($extension = null)
     {
         if ($extension === null) {
             $this->extension = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -396,7 +396,7 @@ class ServiceInstanceModifyProfileTrunkGroup
      * @param \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null $department
      * @return $this
      */
-    public function setDepartment(\CWM\BroadWorksConnector\Ocip\Models\DepartmentKey $department)
+    public function setDepartment(\CWM\BroadWorksConnector\Ocip\Models\DepartmentKey $department = null)
     {
         if ($department === null) {
             $this->department = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -493,7 +493,7 @@ class ServiceInstanceModifyProfileTrunkGroup
      * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementSIPAliasList|null $sipAliasList
      * @return $this
      */
-    public function setSipAliasList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementSIPAliasList $sipAliasList)
+    public function setSipAliasList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementSIPAliasList $sipAliasList = null)
     {
         if ($sipAliasList === null) {
             $this->sipAliasList = new \CWM\BroadWorksConnector\Ocip\Nil;

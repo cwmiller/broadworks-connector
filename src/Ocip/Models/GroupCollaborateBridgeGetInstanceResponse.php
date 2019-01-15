@@ -283,7 +283,7 @@ class GroupCollaborateBridgeGetInstanceResponse extends \CWM\BroadWorksConnector
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $collaborateOwnerUserTable
      * @return $this
      */
-    public function setCollaborateOwnerUserTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $collaborateOwnerUserTable)
+    public function setCollaborateOwnerUserTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $collaborateOwnerUserTable = null)
     {
         if ($collaborateOwnerUserTable === null) {
             $this->collaborateOwnerUserTable = new \CWM\BroadWorksConnector\Ocip\Nil;

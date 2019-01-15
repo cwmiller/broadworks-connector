@@ -120,7 +120,7 @@ class SystemClassmarkModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @param string|null $webDisplayKey
      * @return $this
      */
-    public function setWebDisplayKey($webDisplayKey)
+    public function setWebDisplayKey($webDisplayKey = null)
     {
         if ($webDisplayKey === null) {
             $this->webDisplayKey = new \CWM\BroadWorksConnector\Ocip\Nil;

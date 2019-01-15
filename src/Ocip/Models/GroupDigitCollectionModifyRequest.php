@@ -179,7 +179,7 @@ class GroupDigitCollectionModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @param string|null $accessCode
      * @return $this
      */
-    public function setAccessCode($accessCode)
+    public function setAccessCode($accessCode = null)
     {
         if ($accessCode === null) {
             $this->accessCode = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -214,7 +214,7 @@ class GroupDigitCollectionModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @param string|null $publicDigitMap
      * @return $this
      */
-    public function setPublicDigitMap($publicDigitMap)
+    public function setPublicDigitMap($publicDigitMap = null)
     {
         if ($publicDigitMap === null) {
             $this->publicDigitMap = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -249,7 +249,7 @@ class GroupDigitCollectionModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @param string|null $privateDigitMap
      * @return $this
      */
-    public function setPrivateDigitMap($privateDigitMap)
+    public function setPrivateDigitMap($privateDigitMap = null)
     {
         if ($privateDigitMap === null) {
             $this->privateDigitMap = new \CWM\BroadWorksConnector\Ocip\Nil;

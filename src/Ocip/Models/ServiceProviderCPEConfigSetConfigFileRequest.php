@@ -121,7 +121,7 @@ class ServiceProviderCPEConfigSetConfigFileRequest extends \CWM\BroadWorksConnec
      * @param \CWM\BroadWorksConnector\Ocip\Models\FileResource|null $configFile
      * @return $this
      */
-    public function setConfigFile(\CWM\BroadWorksConnector\Ocip\Models\FileResource $configFile)
+    public function setConfigFile(\CWM\BroadWorksConnector\Ocip\Models\FileResource $configFile = null)
     {
         if ($configFile === null) {
             $this->configFile = new \CWM\BroadWorksConnector\Ocip\Nil;

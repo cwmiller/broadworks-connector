@@ -168,7 +168,7 @@ class GroupCommunicationBarringAuthorizationCodeModifyRequest extends \CWM\Broad
      * @param string|null $description
      * @return $this
      */
-    public function setDescription($description)
+    public function setDescription($description = null)
     {
         if ($description === null) {
             $this->description = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -203,7 +203,7 @@ class GroupCommunicationBarringAuthorizationCodeModifyRequest extends \CWM\Broad
      * @param string|null $networkClassOfService
      * @return $this
      */
-    public function setNetworkClassOfService($networkClassOfService)
+    public function setNetworkClassOfService($networkClassOfService = null)
     {
         if ($networkClassOfService === null) {
             $this->networkClassOfService = new \CWM\BroadWorksConnector\Ocip\Nil;

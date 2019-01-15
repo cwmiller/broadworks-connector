@@ -80,7 +80,7 @@ class UserClassmarkModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @param string|null $classmark
      * @return $this
      */
-    public function setClassmark($classmark)
+    public function setClassmark($classmark = null)
     {
         if ($classmark === null) {
             $this->classmark = new \CWM\BroadWorksConnector\Ocip\Nil;

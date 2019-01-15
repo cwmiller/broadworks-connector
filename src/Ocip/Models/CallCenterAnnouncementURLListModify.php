@@ -68,7 +68,7 @@ class CallCenterAnnouncementURLListModify
      * @param string|null $url1
      * @return $this
      */
-    public function setUrl1($url1)
+    public function setUrl1($url1 = null)
     {
         if ($url1 === null) {
             $this->url1 = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -103,7 +103,7 @@ class CallCenterAnnouncementURLListModify
      * @param string|null $url2
      * @return $this
      */
-    public function setUrl2($url2)
+    public function setUrl2($url2 = null)
     {
         if ($url2 === null) {
             $this->url2 = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -138,7 +138,7 @@ class CallCenterAnnouncementURLListModify
      * @param string|null $url3
      * @return $this
      */
-    public function setUrl3($url3)
+    public function setUrl3($url3 = null)
     {
         if ($url3 === null) {
             $this->url3 = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -173,7 +173,7 @@ class CallCenterAnnouncementURLListModify
      * @param string|null $url4
      * @return $this
      */
-    public function setUrl4($url4)
+    public function setUrl4($url4 = null)
     {
         if ($url4 === null) {
             $this->url4 = new \CWM\BroadWorksConnector\Ocip\Nil;

@@ -188,7 +188,7 @@ class ResellerIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @param string|null $serviceDomain
      * @return $this
      */
-    public function setServiceDomain($serviceDomain)
+    public function setServiceDomain($serviceDomain = null)
     {
         if ($serviceDomain === null) {
             $this->serviceDomain = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -223,7 +223,7 @@ class ResellerIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @param int|null $servicePort
      * @return $this
      */
-    public function setServicePort($servicePort)
+    public function setServicePort($servicePort = null)
     {
         if ($servicePort === null) {
             $this->servicePort = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -289,7 +289,7 @@ class ResellerIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @param string|null $provisioningUrl
      * @return $this
      */
-    public function setProvisioningUrl($provisioningUrl)
+    public function setProvisioningUrl($provisioningUrl = null)
     {
         if ($provisioningUrl === null) {
             $this->provisioningUrl = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -324,7 +324,7 @@ class ResellerIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @param string|null $provisioningUserId
      * @return $this
      */
-    public function setProvisioningUserId($provisioningUserId)
+    public function setProvisioningUserId($provisioningUserId = null)
     {
         if ($provisioningUserId === null) {
             $this->provisioningUserId = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -359,7 +359,7 @@ class ResellerIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @param string|null $provisioningPassword
      * @return $this
      */
-    public function setProvisioningPassword($provisioningPassword)
+    public function setProvisioningPassword($provisioningPassword = null)
     {
         if ($provisioningPassword === null) {
             $this->provisioningPassword = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -394,7 +394,7 @@ class ResellerIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @param string|null $boshURL
      * @return $this
      */
-    public function setBoshURL($boshURL)
+    public function setBoshURL($boshURL = null)
     {
         if ($boshURL === null) {
             $this->boshURL = new \CWM\BroadWorksConnector\Ocip\Nil;

@@ -267,7 +267,7 @@ class GroupCallCapacityManagementModifyInstanceRequest extends \CWM\BroadWorksCo
      * @param int|null $maxIncomingActiveCallsAllowed
      * @return $this
      */
-    public function setMaxIncomingActiveCallsAllowed($maxIncomingActiveCallsAllowed)
+    public function setMaxIncomingActiveCallsAllowed($maxIncomingActiveCallsAllowed = null)
     {
         if ($maxIncomingActiveCallsAllowed === null) {
             $this->maxIncomingActiveCallsAllowed = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -302,7 +302,7 @@ class GroupCallCapacityManagementModifyInstanceRequest extends \CWM\BroadWorksCo
      * @param int|null $maxOutgoingActiveCallsAllowed
      * @return $this
      */
-    public function setMaxOutgoingActiveCallsAllowed($maxOutgoingActiveCallsAllowed)
+    public function setMaxOutgoingActiveCallsAllowed($maxOutgoingActiveCallsAllowed = null)
     {
         if ($maxOutgoingActiveCallsAllowed === null) {
             $this->maxOutgoingActiveCallsAllowed = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -368,7 +368,7 @@ class GroupCallCapacityManagementModifyInstanceRequest extends \CWM\BroadWorksCo
      * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null $userIdList
      * @return $this
      */
-    public function setUserIdList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList $userIdList)
+    public function setUserIdList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList $userIdList = null)
     {
         if ($userIdList === null) {
             $this->userIdList = new \CWM\BroadWorksConnector\Ocip\Nil;

@@ -158,7 +158,7 @@ class CallCenterScheduledReportServiceLevelInclusionsModify
      * @param int|null $abandonedCallIntervalSeconds
      * @return $this
      */
-    public function setAbandonedCallIntervalSeconds($abandonedCallIntervalSeconds)
+    public function setAbandonedCallIntervalSeconds($abandonedCallIntervalSeconds = null)
     {
         if ($abandonedCallIntervalSeconds === null) {
             $this->abandonedCallIntervalSeconds = new \CWM\BroadWorksConnector\Ocip\Nil;

@@ -209,7 +209,7 @@ class GroupGroupPagingModifyInstanceRequest extends \CWM\BroadWorksConnector\Oci
      * @param string|null $originatorCLIDPrefix
      * @return $this
      */
-    public function setOriginatorCLIDPrefix($originatorCLIDPrefix)
+    public function setOriginatorCLIDPrefix($originatorCLIDPrefix = null)
     {
         if ($originatorCLIDPrefix === null) {
             $this->originatorCLIDPrefix = new \CWM\BroadWorksConnector\Ocip\Nil;

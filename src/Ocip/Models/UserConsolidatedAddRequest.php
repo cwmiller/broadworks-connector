@@ -1641,7 +1641,7 @@ class UserConsolidatedAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @param string|null $thirdPartyVoiceMailServerUserServer
      * @return $this
      */
-    public function setThirdPartyVoiceMailServerUserServer($thirdPartyVoiceMailServerUserServer)
+    public function setThirdPartyVoiceMailServerUserServer($thirdPartyVoiceMailServerUserServer = null)
     {
         if ($thirdPartyVoiceMailServerUserServer === null) {
             $this->thirdPartyVoiceMailServerUserServer = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -1707,7 +1707,7 @@ class UserConsolidatedAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @param string|null $thirdPartyVoiceMailMailboxURL
      * @return $this
      */
-    public function setThirdPartyVoiceMailMailboxURL($thirdPartyVoiceMailMailboxURL)
+    public function setThirdPartyVoiceMailMailboxURL($thirdPartyVoiceMailMailboxURL = null)
     {
         if ($thirdPartyVoiceMailMailboxURL === null) {
             $this->thirdPartyVoiceMailMailboxURL = new \CWM\BroadWorksConnector\Ocip\Nil;

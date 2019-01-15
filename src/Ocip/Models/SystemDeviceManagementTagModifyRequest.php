@@ -181,7 +181,7 @@ class SystemDeviceManagementTagModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @param string|null $tagValue
      * @return $this
      */
-    public function setTagValue($tagValue)
+    public function setTagValue($tagValue = null)
     {
         if ($tagValue === null) {
             $this->tagValue = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -216,7 +216,7 @@ class SystemDeviceManagementTagModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @param string|null $tagValueToEncrypt
      * @return $this
      */
-    public function setTagValueToEncrypt($tagValueToEncrypt)
+    public function setTagValueToEncrypt($tagValueToEncrypt = null)
     {
         if ($tagValueToEncrypt === null) {
             $this->tagValueToEncrypt = new \CWM\BroadWorksConnector\Ocip\Nil;

@@ -79,7 +79,7 @@ class GroupTrunkGroupSecurityClassificationModifyRequest extends \CWM\BroadWorks
      * @param string|null $defaultSecurityClassification
      * @return $this
      */
-    public function setDefaultSecurityClassification($defaultSecurityClassification)
+    public function setDefaultSecurityClassification($defaultSecurityClassification = null)
     {
         if ($defaultSecurityClassification === null) {
             $this->defaultSecurityClassification = new \CWM\BroadWorksConnector\Ocip\Nil;

@@ -194,7 +194,7 @@ class SystemCallRecordingModifyPlatformRequest22 extends \CWM\BroadWorksConnecto
      * @param int|null $port
      * @return $this
      */
-    public function setPort($port)
+    public function setPort($port = null)
     {
         if ($port === null) {
             $this->port = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -353,7 +353,7 @@ class SystemCallRecordingModifyPlatformRequest22 extends \CWM\BroadWorksConnecto
      * @param string|null $description
      * @return $this
      */
-    public function setDescription($description)
+    public function setDescription($description = null)
     {
         if ($description === null) {
             $this->description = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -450,7 +450,7 @@ class SystemCallRecordingModifyPlatformRequest22 extends \CWM\BroadWorksConnecto
      * @param string|null $route
      * @return $this
      */
-    public function setRoute($route)
+    public function setRoute($route = null)
     {
         if ($route === null) {
             $this->route = new \CWM\BroadWorksConnector\Ocip\Nil;

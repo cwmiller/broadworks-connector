@@ -68,7 +68,7 @@ class CallCenterAnnouncementFileListModify20
      * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null $file1
      * @return $this
      */
-    public function setFile1(\CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey $file1)
+    public function setFile1(\CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey $file1 = null)
     {
         if ($file1 === null) {
             $this->file1 = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -103,7 +103,7 @@ class CallCenterAnnouncementFileListModify20
      * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null $file2
      * @return $this
      */
-    public function setFile2(\CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey $file2)
+    public function setFile2(\CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey $file2 = null)
     {
         if ($file2 === null) {
             $this->file2 = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -138,7 +138,7 @@ class CallCenterAnnouncementFileListModify20
      * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null $file3
      * @return $this
      */
-    public function setFile3(\CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey $file3)
+    public function setFile3(\CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey $file3 = null)
     {
         if ($file3 === null) {
             $this->file3 = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -173,7 +173,7 @@ class CallCenterAnnouncementFileListModify20
      * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null $file4
      * @return $this
      */
-    public function setFile4(\CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey $file4)
+    public function setFile4(\CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey $file4 = null)
     {
         if ($file4 === null) {
             $this->file4 = new \CWM\BroadWorksConnector\Ocip\Nil;

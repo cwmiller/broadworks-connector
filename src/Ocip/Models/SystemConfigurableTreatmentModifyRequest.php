@@ -267,7 +267,7 @@ class SystemConfigurableTreatmentModifyRequest extends \CWM\BroadWorksConnector\
      * @param string|null $description
      * @return $this
      */
-    public function setDescription($description)
+    public function setDescription($description = null)
     {
         if ($description === null) {
             $this->description = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -302,7 +302,7 @@ class SystemConfigurableTreatmentModifyRequest extends \CWM\BroadWorksConnector\
      * @param int|null $accessSIPStatusCode
      * @return $this
      */
-    public function setAccessSIPStatusCode($accessSIPStatusCode)
+    public function setAccessSIPStatusCode($accessSIPStatusCode = null)
     {
         if ($accessSIPStatusCode === null) {
             $this->accessSIPStatusCode = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -337,7 +337,7 @@ class SystemConfigurableTreatmentModifyRequest extends \CWM\BroadWorksConnector\
      * @param string|null $accessSIPStatusMessage
      * @return $this
      */
-    public function setAccessSIPStatusMessage($accessSIPStatusMessage)
+    public function setAccessSIPStatusMessage($accessSIPStatusMessage = null)
     {
         if ($accessSIPStatusMessage === null) {
             $this->accessSIPStatusMessage = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -372,7 +372,7 @@ class SystemConfigurableTreatmentModifyRequest extends \CWM\BroadWorksConnector\
      * @param int|null $networkSIPStatusCode
      * @return $this
      */
-    public function setNetworkSIPStatusCode($networkSIPStatusCode)
+    public function setNetworkSIPStatusCode($networkSIPStatusCode = null)
     {
         if ($networkSIPStatusCode === null) {
             $this->networkSIPStatusCode = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -407,7 +407,7 @@ class SystemConfigurableTreatmentModifyRequest extends \CWM\BroadWorksConnector\
      * @param string|null $networkSIPStatusMessage
      * @return $this
      */
-    public function setNetworkSIPStatusMessage($networkSIPStatusMessage)
+    public function setNetworkSIPStatusMessage($networkSIPStatusMessage = null)
     {
         if ($networkSIPStatusMessage === null) {
             $this->networkSIPStatusMessage = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -442,7 +442,7 @@ class SystemConfigurableTreatmentModifyRequest extends \CWM\BroadWorksConnector\
      * @param int|null $q850CauseValue
      * @return $this
      */
-    public function setQ850CauseValue($q850CauseValue)
+    public function setQ850CauseValue($q850CauseValue = null)
     {
         if ($q850CauseValue === null) {
             $this->q850CauseValue = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -477,7 +477,7 @@ class SystemConfigurableTreatmentModifyRequest extends \CWM\BroadWorksConnector\
      * @param string|null $q850Text
      * @return $this
      */
-    public function setQ850Text($q850Text)
+    public function setQ850Text($q850Text = null)
     {
         if ($q850Text === null) {
             $this->q850Text = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -512,7 +512,7 @@ class SystemConfigurableTreatmentModifyRequest extends \CWM\BroadWorksConnector\
      * @param string|null $accessTreatmentAudioFile
      * @return $this
      */
-    public function setAccessTreatmentAudioFile($accessTreatmentAudioFile)
+    public function setAccessTreatmentAudioFile($accessTreatmentAudioFile = null)
     {
         if ($accessTreatmentAudioFile === null) {
             $this->accessTreatmentAudioFile = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -547,7 +547,7 @@ class SystemConfigurableTreatmentModifyRequest extends \CWM\BroadWorksConnector\
      * @param string|null $accessTreatmentVideoFile
      * @return $this
      */
-    public function setAccessTreatmentVideoFile($accessTreatmentVideoFile)
+    public function setAccessTreatmentVideoFile($accessTreatmentVideoFile = null)
     {
         if ($accessTreatmentVideoFile === null) {
             $this->accessTreatmentVideoFile = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -582,7 +582,7 @@ class SystemConfigurableTreatmentModifyRequest extends \CWM\BroadWorksConnector\
      * @param string|null $networkTreatmentAudioFile
      * @return $this
      */
-    public function setNetworkTreatmentAudioFile($networkTreatmentAudioFile)
+    public function setNetworkTreatmentAudioFile($networkTreatmentAudioFile = null)
     {
         if ($networkTreatmentAudioFile === null) {
             $this->networkTreatmentAudioFile = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -617,7 +617,7 @@ class SystemConfigurableTreatmentModifyRequest extends \CWM\BroadWorksConnector\
      * @param string|null $networkTreatmentVideoFile
      * @return $this
      */
-    public function setNetworkTreatmentVideoFile($networkTreatmentVideoFile)
+    public function setNetworkTreatmentVideoFile($networkTreatmentVideoFile = null)
     {
         if ($networkTreatmentVideoFile === null) {
             $this->networkTreatmentVideoFile = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -652,7 +652,7 @@ class SystemConfigurableTreatmentModifyRequest extends \CWM\BroadWorksConnector\
      * @param string|null $cdrTerminationCause
      * @return $this
      */
-    public function setCdrTerminationCause($cdrTerminationCause)
+    public function setCdrTerminationCause($cdrTerminationCause = null)
     {
         if ($cdrTerminationCause === null) {
             $this->cdrTerminationCause = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -718,7 +718,7 @@ class SystemConfigurableTreatmentModifyRequest extends \CWM\BroadWorksConnector\
      * @param \CWM\BroadWorksConnector\Ocip\Models\InternalReleaseCause16|null $internalReleaseCause
      * @return $this
      */
-    public function setInternalReleaseCause(\CWM\BroadWorksConnector\Ocip\Models\InternalReleaseCause16 $internalReleaseCause)
+    public function setInternalReleaseCause(\CWM\BroadWorksConnector\Ocip\Models\InternalReleaseCause16 $internalReleaseCause = null)
     {
         if ($internalReleaseCause === null) {
             $this->internalReleaseCause = new \CWM\BroadWorksConnector\Ocip\Nil;

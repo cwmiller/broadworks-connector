@@ -759,7 +759,7 @@ class SystemCallProcessingModifyPolicyRequest15 extends \CWM\BroadWorksConnector
      * @param string|null $supportedMediaSetName
      * @return $this
      */
-    public function setSupportedMediaSetName($supportedMediaSetName)
+    public function setSupportedMediaSetName($supportedMediaSetName = null)
     {
         if ($supportedMediaSetName === null) {
             $this->supportedMediaSetName = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -1042,7 +1042,7 @@ class SystemCallProcessingModifyPolicyRequest15 extends \CWM\BroadWorksConnector
      * @param string|null $conferenceURI
      * @return $this
      */
-    public function setConferenceURI($conferenceURI)
+    public function setConferenceURI($conferenceURI = null)
     {
         if ($conferenceURI === null) {
             $this->conferenceURI = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -1821,7 +1821,7 @@ class SystemCallProcessingModifyPolicyRequest15 extends \CWM\BroadWorksConnector
      * @param string|null $routeOverrideDomain
      * @return $this
      */
-    public function setRouteOverrideDomain($routeOverrideDomain)
+    public function setRouteOverrideDomain($routeOverrideDomain = null)
     {
         if ($routeOverrideDomain === null) {
             $this->routeOverrideDomain = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -1856,7 +1856,7 @@ class SystemCallProcessingModifyPolicyRequest15 extends \CWM\BroadWorksConnector
      * @param string|null $routeOverridePrefix
      * @return $this
      */
-    public function setRouteOverridePrefix($routeOverridePrefix)
+    public function setRouteOverridePrefix($routeOverridePrefix = null)
     {
         if ($routeOverridePrefix === null) {
             $this->routeOverridePrefix = new \CWM\BroadWorksConnector\Ocip\Nil;

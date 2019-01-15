@@ -251,7 +251,7 @@ class DeviceManagementDeviceTypeModifyOptions
      * @param string|null $tagSet
      * @return $this
      */
-    public function setTagSet($tagSet)
+    public function setTagSet($tagSet = null)
     {
         if ($tagSet === null) {
             $this->tagSet = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -379,7 +379,7 @@ class DeviceManagementDeviceTypeModifyOptions
      * @param string|null $deviceAccessNetAddress
      * @return $this
      */
-    public function setDeviceAccessNetAddress($deviceAccessNetAddress)
+    public function setDeviceAccessNetAddress($deviceAccessNetAddress = null)
     {
         if ($deviceAccessNetAddress === null) {
             $this->deviceAccessNetAddress = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -414,7 +414,7 @@ class DeviceManagementDeviceTypeModifyOptions
      * @param int|null $deviceAccessPort
      * @return $this
      */
-    public function setDeviceAccessPort($deviceAccessPort)
+    public function setDeviceAccessPort($deviceAccessPort = null)
     {
         if ($deviceAccessPort === null) {
             $this->deviceAccessPort = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -449,7 +449,7 @@ class DeviceManagementDeviceTypeModifyOptions
      * @param string|null $deviceAccessContext
      * @return $this
      */
-    public function setDeviceAccessContext($deviceAccessContext)
+    public function setDeviceAccessContext($deviceAccessContext = null)
     {
         if ($deviceAccessContext === null) {
             $this->deviceAccessContext = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -484,7 +484,7 @@ class DeviceManagementDeviceTypeModifyOptions
      * @param string|null $defaultDeviceLanguage
      * @return $this
      */
-    public function setDefaultDeviceLanguage($defaultDeviceLanguage)
+    public function setDefaultDeviceLanguage($defaultDeviceLanguage = null)
     {
         if ($defaultDeviceLanguage === null) {
             $this->defaultDeviceLanguage = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -519,7 +519,7 @@ class DeviceManagementDeviceTypeModifyOptions
      * @param string|null $defaultDeviceEncoding
      * @return $this
      */
-    public function setDefaultDeviceEncoding($defaultDeviceEncoding)
+    public function setDefaultDeviceEncoding($defaultDeviceEncoding = null)
     {
         if ($defaultDeviceEncoding === null) {
             $this->defaultDeviceEncoding = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -554,7 +554,7 @@ class DeviceManagementDeviceTypeModifyOptions
      * @param \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementUserNamePassword|null $accessDeviceCredentials
      * @return $this
      */
-    public function setAccessDeviceCredentials(\CWM\BroadWorksConnector\Ocip\Models\DeviceManagementUserNamePassword $accessDeviceCredentials)
+    public function setAccessDeviceCredentials(\CWM\BroadWorksConnector\Ocip\Models\DeviceManagementUserNamePassword $accessDeviceCredentials = null)
     {
         if ($accessDeviceCredentials === null) {
             $this->accessDeviceCredentials = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -713,7 +713,7 @@ class DeviceManagementDeviceTypeModifyOptions
      * @param string|null $macFormatInNonRequestURI
      * @return $this
      */
-    public function setMacFormatInNonRequestURI($macFormatInNonRequestURI)
+    public function setMacFormatInNonRequestURI($macFormatInNonRequestURI = null)
     {
         if ($macFormatInNonRequestURI === null) {
             $this->macFormatInNonRequestURI = new \CWM\BroadWorksConnector\Ocip\Nil;

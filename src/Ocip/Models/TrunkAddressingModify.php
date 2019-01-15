@@ -58,7 +58,7 @@ class TrunkAddressingModify
      * @param \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupDeviceEndpointModify|null $trunkGroupDeviceEndpoint
      * @return $this
      */
-    public function setTrunkGroupDeviceEndpoint(\CWM\BroadWorksConnector\Ocip\Models\TrunkGroupDeviceEndpointModify $trunkGroupDeviceEndpoint)
+    public function setTrunkGroupDeviceEndpoint(\CWM\BroadWorksConnector\Ocip\Models\TrunkGroupDeviceEndpointModify $trunkGroupDeviceEndpoint = null)
     {
         if ($trunkGroupDeviceEndpoint === null) {
             $this->trunkGroupDeviceEndpoint = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -93,7 +93,7 @@ class TrunkAddressingModify
      * @param string|null $enterpriseTrunkName
      * @return $this
      */
-    public function setEnterpriseTrunkName($enterpriseTrunkName)
+    public function setEnterpriseTrunkName($enterpriseTrunkName = null)
     {
         if ($enterpriseTrunkName === null) {
             $this->enterpriseTrunkName = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -128,7 +128,7 @@ class TrunkAddressingModify
      * @param string|null $alternateTrunkIdentity
      * @return $this
      */
-    public function setAlternateTrunkIdentity($alternateTrunkIdentity)
+    public function setAlternateTrunkIdentity($alternateTrunkIdentity = null)
     {
         if ($alternateTrunkIdentity === null) {
             $this->alternateTrunkIdentity = new \CWM\BroadWorksConnector\Ocip\Nil;

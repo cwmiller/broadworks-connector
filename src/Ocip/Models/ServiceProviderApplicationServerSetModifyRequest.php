@@ -80,7 +80,7 @@ class ServiceProviderApplicationServerSetModifyRequest extends \CWM\BroadWorksCo
      * @param string|null $applicationServerSetName
      * @return $this
      */
-    public function setApplicationServerSetName($applicationServerSetName)
+    public function setApplicationServerSetName($applicationServerSetName = null)
     {
         if ($applicationServerSetName === null) {
             $this->applicationServerSetName = new \CWM\BroadWorksConnector\Ocip\Nil;

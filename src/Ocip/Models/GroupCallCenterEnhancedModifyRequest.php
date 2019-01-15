@@ -124,7 +124,7 @@ class GroupCallCenterEnhancedModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @param int|null $wrapUpSeconds
      * @return $this
      */
-    public function setWrapUpSeconds($wrapUpSeconds)
+    public function setWrapUpSeconds($wrapUpSeconds = null)
     {
         if ($wrapUpSeconds === null) {
             $this->wrapUpSeconds = new \CWM\BroadWorksConnector\Ocip\Nil;

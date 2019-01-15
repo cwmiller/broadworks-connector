@@ -158,7 +158,7 @@ class GroupDeviceTypeTagSetModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @param string|null $tagSetName
      * @return $this
      */
-    public function setTagSetName($tagSetName)
+    public function setTagSetName($tagSetName = null)
     {
         if ($tagSetName === null) {
             $this->tagSetName = new \CWM\BroadWorksConnector\Ocip\Nil;

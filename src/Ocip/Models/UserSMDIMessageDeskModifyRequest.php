@@ -120,7 +120,7 @@ class UserSMDIMessageDeskModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @param string|null $messageDeskNumber
      * @return $this
      */
-    public function setMessageDeskNumber($messageDeskNumber)
+    public function setMessageDeskNumber($messageDeskNumber = null)
     {
         if ($messageDeskNumber === null) {
             $this->messageDeskNumber = new \CWM\BroadWorksConnector\Ocip\Nil;

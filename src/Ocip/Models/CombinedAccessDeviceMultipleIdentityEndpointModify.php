@@ -265,7 +265,7 @@ class CombinedAccessDeviceMultipleIdentityEndpointModify
      * @param string|null $privateIdentity
      * @return $this
      */
-    public function setPrivateIdentity($privateIdentity)
+    public function setPrivateIdentity($privateIdentity = null)
     {
         if ($privateIdentity === null) {
             $this->privateIdentity = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -300,7 +300,7 @@ class CombinedAccessDeviceMultipleIdentityEndpointModify
      * @param string|null $contact
      * @return $this
      */
-    public function setContact($contact)
+    public function setContact($contact = null)
     {
         if ($contact === null) {
             $this->contact = new \CWM\BroadWorksConnector\Ocip\Nil;

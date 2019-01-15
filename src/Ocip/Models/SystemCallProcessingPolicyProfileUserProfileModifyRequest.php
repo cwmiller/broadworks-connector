@@ -915,7 +915,7 @@ class SystemCallProcessingPolicyProfileUserProfileModifyRequest extends \CWM\Bro
      * @param string|null $supportedMediaSetName
      * @return $this
      */
-    public function setSupportedMediaSetName($supportedMediaSetName)
+    public function setSupportedMediaSetName($supportedMediaSetName = null)
     {
         if ($supportedMediaSetName === null) {
             $this->supportedMediaSetName = new \CWM\BroadWorksConnector\Ocip\Nil;

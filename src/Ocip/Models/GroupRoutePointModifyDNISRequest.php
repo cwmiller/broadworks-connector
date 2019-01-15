@@ -187,7 +187,7 @@ class GroupRoutePointModifyDNISRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @param string|null $dnisPhoneNumber
      * @return $this
      */
-    public function setDnisPhoneNumber($dnisPhoneNumber)
+    public function setDnisPhoneNumber($dnisPhoneNumber = null)
     {
         if ($dnisPhoneNumber === null) {
             $this->dnisPhoneNumber = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -222,7 +222,7 @@ class GroupRoutePointModifyDNISRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @param string|null $extension
      * @return $this
      */
-    public function setExtension($extension)
+    public function setExtension($extension = null)
     {
         if ($extension === null) {
             $this->extension = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -288,7 +288,7 @@ class GroupRoutePointModifyDNISRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @param string|null $callingLineIdPhoneNumber
      * @return $this
      */
-    public function setCallingLineIdPhoneNumber($callingLineIdPhoneNumber)
+    public function setCallingLineIdPhoneNumber($callingLineIdPhoneNumber = null)
     {
         if ($callingLineIdPhoneNumber === null) {
             $this->callingLineIdPhoneNumber = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -323,7 +323,7 @@ class GroupRoutePointModifyDNISRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @param string|null $callingLineIdLastName
      * @return $this
      */
-    public function setCallingLineIdLastName($callingLineIdLastName)
+    public function setCallingLineIdLastName($callingLineIdLastName = null)
     {
         if ($callingLineIdLastName === null) {
             $this->callingLineIdLastName = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -358,7 +358,7 @@ class GroupRoutePointModifyDNISRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @param string|null $callingLineIdFirstName
      * @return $this
      */
-    public function setCallingLineIdFirstName($callingLineIdFirstName)
+    public function setCallingLineIdFirstName($callingLineIdFirstName = null)
     {
         if ($callingLineIdFirstName === null) {
             $this->callingLineIdFirstName = new \CWM\BroadWorksConnector\Ocip\Nil;

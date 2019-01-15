@@ -606,7 +606,7 @@ class SystemDeviceProfileAuthenticationPasswordRulesModifyRequest extends \CWM\B
      * @param string|null $permanentLockoutNotifyEmailAddress
      * @return $this
      */
-    public function setPermanentLockoutNotifyEmailAddress($permanentLockoutNotifyEmailAddress)
+    public function setPermanentLockoutNotifyEmailAddress($permanentLockoutNotifyEmailAddress = null)
     {
         if ($permanentLockoutNotifyEmailAddress === null) {
             $this->permanentLockoutNotifyEmailAddress = new \CWM\BroadWorksConnector\Ocip\Nil;

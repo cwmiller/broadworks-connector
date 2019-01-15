@@ -82,7 +82,7 @@ class UserPersonalAssistantCallToNumberModifyListRequest extends \CWM\BroadWorks
      * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementCallToNumberList|null $callToNumberList
      * @return $this
      */
-    public function setCallToNumberList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementCallToNumberList $callToNumberList)
+    public function setCallToNumberList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementCallToNumberList $callToNumberList = null)
     {
         if ($callToNumberList === null) {
             $this->callToNumberList = new \CWM\BroadWorksConnector\Ocip\Nil;

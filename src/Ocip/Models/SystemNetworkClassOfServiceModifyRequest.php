@@ -243,7 +243,7 @@ class SystemNetworkClassOfServiceModifyRequest extends \CWM\BroadWorksConnector\
      * @param string|null $description
      * @return $this
      */
-    public function setDescription($description)
+    public function setDescription($description = null)
     {
         if ($description === null) {
             $this->description = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -278,7 +278,7 @@ class SystemNetworkClassOfServiceModifyRequest extends \CWM\BroadWorksConnector\
      * @param \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null $communicationBarringProfile0
      * @return $this
      */
-    public function setCommunicationBarringProfile0(\CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile $communicationBarringProfile0)
+    public function setCommunicationBarringProfile0(\CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile $communicationBarringProfile0 = null)
     {
         if ($communicationBarringProfile0 === null) {
             $this->communicationBarringProfile0 = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -313,7 +313,7 @@ class SystemNetworkClassOfServiceModifyRequest extends \CWM\BroadWorksConnector\
      * @param \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null $communicationBarringProfile1
      * @return $this
      */
-    public function setCommunicationBarringProfile1(\CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile $communicationBarringProfile1)
+    public function setCommunicationBarringProfile1(\CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile $communicationBarringProfile1 = null)
     {
         if ($communicationBarringProfile1 === null) {
             $this->communicationBarringProfile1 = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -348,7 +348,7 @@ class SystemNetworkClassOfServiceModifyRequest extends \CWM\BroadWorksConnector\
      * @param \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null $communicationBarringProfile2
      * @return $this
      */
-    public function setCommunicationBarringProfile2(\CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile $communicationBarringProfile2)
+    public function setCommunicationBarringProfile2(\CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile $communicationBarringProfile2 = null)
     {
         if ($communicationBarringProfile2 === null) {
             $this->communicationBarringProfile2 = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -383,7 +383,7 @@ class SystemNetworkClassOfServiceModifyRequest extends \CWM\BroadWorksConnector\
      * @param \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null $communicationBarringProfile3
      * @return $this
      */
-    public function setCommunicationBarringProfile3(\CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile $communicationBarringProfile3)
+    public function setCommunicationBarringProfile3(\CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile $communicationBarringProfile3 = null)
     {
         if ($communicationBarringProfile3 === null) {
             $this->communicationBarringProfile3 = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -418,7 +418,7 @@ class SystemNetworkClassOfServiceModifyRequest extends \CWM\BroadWorksConnector\
      * @param \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null $communicationBarringProfile4
      * @return $this
      */
-    public function setCommunicationBarringProfile4(\CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile $communicationBarringProfile4)
+    public function setCommunicationBarringProfile4(\CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile $communicationBarringProfile4 = null)
     {
         if ($communicationBarringProfile4 === null) {
             $this->communicationBarringProfile4 = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -453,7 +453,7 @@ class SystemNetworkClassOfServiceModifyRequest extends \CWM\BroadWorksConnector\
      * @param \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null $communicationBarringProfile5
      * @return $this
      */
-    public function setCommunicationBarringProfile5(\CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile $communicationBarringProfile5)
+    public function setCommunicationBarringProfile5(\CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile $communicationBarringProfile5 = null)
     {
         if ($communicationBarringProfile5 === null) {
             $this->communicationBarringProfile5 = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -488,7 +488,7 @@ class SystemNetworkClassOfServiceModifyRequest extends \CWM\BroadWorksConnector\
      * @param \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null $communicationBarringProfile6
      * @return $this
      */
-    public function setCommunicationBarringProfile6(\CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile $communicationBarringProfile6)
+    public function setCommunicationBarringProfile6(\CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile $communicationBarringProfile6 = null)
     {
         if ($communicationBarringProfile6 === null) {
             $this->communicationBarringProfile6 = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -523,7 +523,7 @@ class SystemNetworkClassOfServiceModifyRequest extends \CWM\BroadWorksConnector\
      * @param \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null $communicationBarringProfile7
      * @return $this
      */
-    public function setCommunicationBarringProfile7(\CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile $communicationBarringProfile7)
+    public function setCommunicationBarringProfile7(\CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile $communicationBarringProfile7 = null)
     {
         if ($communicationBarringProfile7 === null) {
             $this->communicationBarringProfile7 = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -558,7 +558,7 @@ class SystemNetworkClassOfServiceModifyRequest extends \CWM\BroadWorksConnector\
      * @param \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null $communicationBarringProfile8
      * @return $this
      */
-    public function setCommunicationBarringProfile8(\CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile $communicationBarringProfile8)
+    public function setCommunicationBarringProfile8(\CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile $communicationBarringProfile8 = null)
     {
         if ($communicationBarringProfile8 === null) {
             $this->communicationBarringProfile8 = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -593,7 +593,7 @@ class SystemNetworkClassOfServiceModifyRequest extends \CWM\BroadWorksConnector\
      * @param \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null $communicationBarringProfile9
      * @return $this
      */
-    public function setCommunicationBarringProfile9(\CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile $communicationBarringProfile9)
+    public function setCommunicationBarringProfile9(\CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile $communicationBarringProfile9 = null)
     {
         if ($communicationBarringProfile9 === null) {
             $this->communicationBarringProfile9 = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -628,7 +628,7 @@ class SystemNetworkClassOfServiceModifyRequest extends \CWM\BroadWorksConnector\
      * @param string|null $networkTranslationIndex
      * @return $this
      */
-    public function setNetworkTranslationIndex($networkTranslationIndex)
+    public function setNetworkTranslationIndex($networkTranslationIndex = null)
     {
         if ($networkTranslationIndex === null) {
             $this->networkTranslationIndex = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -663,7 +663,7 @@ class SystemNetworkClassOfServiceModifyRequest extends \CWM\BroadWorksConnector\
      * @param string|null $callProcessingPolicyProfileName
      * @return $this
      */
-    public function setCallProcessingPolicyProfileName($callProcessingPolicyProfileName)
+    public function setCallProcessingPolicyProfileName($callProcessingPolicyProfileName = null)
     {
         if ($callProcessingPolicyProfileName === null) {
             $this->callProcessingPolicyProfileName = new \CWM\BroadWorksConnector\Ocip\Nil;

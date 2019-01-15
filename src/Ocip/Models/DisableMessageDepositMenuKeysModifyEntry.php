@@ -77,7 +77,7 @@ class DisableMessageDepositMenuKeysModifyEntry
      * @param string|null $disconnectAfterGreeting
      * @return $this
      */
-    public function setDisconnectAfterGreeting($disconnectAfterGreeting)
+    public function setDisconnectAfterGreeting($disconnectAfterGreeting = null)
     {
         if ($disconnectAfterGreeting === null) {
             $this->disconnectAfterGreeting = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -112,7 +112,7 @@ class DisableMessageDepositMenuKeysModifyEntry
      * @param string|null $forwardAfterGreeting
      * @return $this
      */
-    public function setForwardAfterGreeting($forwardAfterGreeting)
+    public function setForwardAfterGreeting($forwardAfterGreeting = null)
     {
         if ($forwardAfterGreeting === null) {
             $this->forwardAfterGreeting = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -147,7 +147,7 @@ class DisableMessageDepositMenuKeysModifyEntry
      * @param string|null $changeForwardingDestination
      * @return $this
      */
-    public function setChangeForwardingDestination($changeForwardingDestination)
+    public function setChangeForwardingDestination($changeForwardingDestination = null)
     {
         if ($changeForwardingDestination === null) {
             $this->changeForwardingDestination = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -213,7 +213,7 @@ class DisableMessageDepositMenuKeysModifyEntry
      * @param string|null $repeatMenu
      * @return $this
      */
-    public function setRepeatMenu($repeatMenu)
+    public function setRepeatMenu($repeatMenu = null)
     {
         if ($repeatMenu === null) {
             $this->repeatMenu = new \CWM\BroadWorksConnector\Ocip\Nil;

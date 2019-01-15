@@ -212,7 +212,7 @@ class GroupRoutePointQueueCallDispositionCodeSettingsModifyRequest extends \CWM\
      * @param \CWM\BroadWorksConnector\Ocip\Models\CallDispositionCodeWithLevel|null $defaultCallDispositionCode
      * @return $this
      */
-    public function setDefaultCallDispositionCode(\CWM\BroadWorksConnector\Ocip\Models\CallDispositionCodeWithLevel $defaultCallDispositionCode)
+    public function setDefaultCallDispositionCode(\CWM\BroadWorksConnector\Ocip\Models\CallDispositionCodeWithLevel $defaultCallDispositionCode = null)
     {
         if ($defaultCallDispositionCode === null) {
             $this->defaultCallDispositionCode = new \CWM\BroadWorksConnector\Ocip\Nil;

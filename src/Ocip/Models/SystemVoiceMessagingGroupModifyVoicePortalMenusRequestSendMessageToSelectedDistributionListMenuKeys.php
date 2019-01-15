@@ -45,7 +45,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestSendMessageToSelecte
      * @param string|null $confirmSendingToDistributionList
      * @return $this
      */
-    public function setConfirmSendingToDistributionList($confirmSendingToDistributionList)
+    public function setConfirmSendingToDistributionList($confirmSendingToDistributionList = null)
     {
         if ($confirmSendingToDistributionList === null) {
             $this->confirmSendingToDistributionList = new \CWM\BroadWorksConnector\Ocip\Nil;

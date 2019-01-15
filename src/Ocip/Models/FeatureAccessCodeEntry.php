@@ -117,7 +117,7 @@ class FeatureAccessCodeEntry
      * @param string|null $alternateCode
      * @return $this
      */
-    public function setAlternateCode($alternateCode)
+    public function setAlternateCode($alternateCode = null)
     {
         if ($alternateCode === null) {
             $this->alternateCode = new \CWM\BroadWorksConnector\Ocip\Nil;

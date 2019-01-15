@@ -231,7 +231,7 @@ class GroupAutoAttendantSubmenuModifyRequest20 extends \CWM\BroadWorksConnector\
      * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null $audioFile
      * @return $this
      */
-    public function setAudioFile(\CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey $audioFile)
+    public function setAudioFile(\CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey $audioFile = null)
     {
         if ($audioFile === null) {
             $this->audioFile = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -266,7 +266,7 @@ class GroupAutoAttendantSubmenuModifyRequest20 extends \CWM\BroadWorksConnector\
      * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null $videoFile
      * @return $this
      */
-    public function setVideoFile(\CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey $videoFile)
+    public function setVideoFile(\CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey $videoFile = null)
     {
         if ($videoFile === null) {
             $this->videoFile = new \CWM\BroadWorksConnector\Ocip\Nil;

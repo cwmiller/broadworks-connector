@@ -282,7 +282,7 @@ class GroupCollaborateBridgeModifyInstanceRequest20sp1 extends \CWM\BroadWorksCo
      * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null $collaborateOwnerUserIdList
      * @return $this
      */
-    public function setCollaborateOwnerUserIdList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList $collaborateOwnerUserIdList)
+    public function setCollaborateOwnerUserIdList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList $collaborateOwnerUserIdList = null)
     {
         if ($collaborateOwnerUserIdList === null) {
             $this->collaborateOwnerUserIdList = new \CWM\BroadWorksConnector\Ocip\Nil;

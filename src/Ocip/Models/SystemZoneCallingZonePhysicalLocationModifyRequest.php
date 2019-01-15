@@ -80,7 +80,7 @@ class SystemZoneCallingZonePhysicalLocationModifyRequest extends \CWM\BroadWorks
      * @param string|null $physicalLocation
      * @return $this
      */
-    public function setPhysicalLocation($physicalLocation)
+    public function setPhysicalLocation($physicalLocation = null)
     {
         if ($physicalLocation === null) {
             $this->physicalLocation = new \CWM\BroadWorksConnector\Ocip\Nil;

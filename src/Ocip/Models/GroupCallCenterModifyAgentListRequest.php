@@ -97,7 +97,7 @@ class GroupCallCenterModifyAgentListRequest extends \CWM\BroadWorksConnector\Oci
      * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null $agentUserIdList
      * @return $this
      */
-    public function setAgentUserIdList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList $agentUserIdList)
+    public function setAgentUserIdList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList $agentUserIdList = null)
     {
         if ($agentUserIdList === null) {
             $this->agentUserIdList = new \CWM\BroadWorksConnector\Ocip\Nil;

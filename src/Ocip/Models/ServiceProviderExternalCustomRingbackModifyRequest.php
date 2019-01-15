@@ -109,7 +109,7 @@ class ServiceProviderExternalCustomRingbackModifyRequest extends \CWM\BroadWorks
      * @param string|null $prefixDigits
      * @return $this
      */
-    public function setPrefixDigits($prefixDigits)
+    public function setPrefixDigits($prefixDigits = null)
     {
         if ($prefixDigits === null) {
             $this->prefixDigits = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -144,7 +144,7 @@ class ServiceProviderExternalCustomRingbackModifyRequest extends \CWM\BroadWorks
      * @param string|null $serverNetAddress
      * @return $this
      */
-    public function setServerNetAddress($serverNetAddress)
+    public function setServerNetAddress($serverNetAddress = null)
     {
         if ($serverNetAddress === null) {
             $this->serverNetAddress = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -179,7 +179,7 @@ class ServiceProviderExternalCustomRingbackModifyRequest extends \CWM\BroadWorks
      * @param int|null $serverPort
      * @return $this
      */
-    public function setServerPort($serverPort)
+    public function setServerPort($serverPort = null)
     {
         if ($serverPort === null) {
             $this->serverPort = new \CWM\BroadWorksConnector\Ocip\Nil;

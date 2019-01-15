@@ -358,7 +358,7 @@ class EstimatedWaitMessageOptionsModify
      * @param int|null $timeBetweenEWMUpdatesSeconds
      * @return $this
      */
-    public function setTimeBetweenEWMUpdatesSeconds($timeBetweenEWMUpdatesSeconds)
+    public function setTimeBetweenEWMUpdatesSeconds($timeBetweenEWMUpdatesSeconds = null)
     {
         if ($timeBetweenEWMUpdatesSeconds === null) {
             $this->timeBetweenEWMUpdatesSeconds = new \CWM\BroadWorksConnector\Ocip\Nil;

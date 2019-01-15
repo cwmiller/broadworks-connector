@@ -353,7 +353,7 @@ class SystemMeetMeConferencingModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @param string|null $recordingWebAppURL
      * @return $this
      */
-    public function setRecordingWebAppURL($recordingWebAppURL)
+    public function setRecordingWebAppURL($recordingWebAppURL = null)
     {
         if ($recordingWebAppURL === null) {
             $this->recordingWebAppURL = new \CWM\BroadWorksConnector\Ocip\Nil;

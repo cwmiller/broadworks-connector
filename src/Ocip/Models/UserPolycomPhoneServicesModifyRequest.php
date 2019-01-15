@@ -239,7 +239,7 @@ class UserPolycomPhoneServicesModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @param string|null $groupCustomContactDirectory
      * @return $this
      */
-    public function setGroupCustomContactDirectory($groupCustomContactDirectory)
+    public function setGroupCustomContactDirectory($groupCustomContactDirectory = null)
     {
         if ($groupCustomContactDirectory === null) {
             $this->groupCustomContactDirectory = new \CWM\BroadWorksConnector\Ocip\Nil;

@@ -132,7 +132,7 @@ class UserExecutiveAssistantModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @param string|null $divertToPhoneNumber
      * @return $this
      */
-    public function setDivertToPhoneNumber($divertToPhoneNumber)
+    public function setDivertToPhoneNumber($divertToPhoneNumber = null)
     {
         if ($divertToPhoneNumber === null) {
             $this->divertToPhoneNumber = new \CWM\BroadWorksConnector\Ocip\Nil;

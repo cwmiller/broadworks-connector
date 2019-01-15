@@ -147,7 +147,7 @@ class PersonalAssistantMenuKeysModifyEntry
      * @param string|null $setPresenceToNone
      * @return $this
      */
-    public function setSetPresenceToNone($setPresenceToNone)
+    public function setSetPresenceToNone($setPresenceToNone = null)
     {
         if ($setPresenceToNone === null) {
             $this->setPresenceToNone = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -182,7 +182,7 @@ class PersonalAssistantMenuKeysModifyEntry
      * @param string|null $setPresenceToBusinessTrip
      * @return $this
      */
-    public function setSetPresenceToBusinessTrip($setPresenceToBusinessTrip)
+    public function setSetPresenceToBusinessTrip($setPresenceToBusinessTrip = null)
     {
         if ($setPresenceToBusinessTrip === null) {
             $this->setPresenceToBusinessTrip = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -217,7 +217,7 @@ class PersonalAssistantMenuKeysModifyEntry
      * @param string|null $setPresenceToGoneForTheDay
      * @return $this
      */
-    public function setSetPresenceToGoneForTheDay($setPresenceToGoneForTheDay)
+    public function setSetPresenceToGoneForTheDay($setPresenceToGoneForTheDay = null)
     {
         if ($setPresenceToGoneForTheDay === null) {
             $this->setPresenceToGoneForTheDay = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -252,7 +252,7 @@ class PersonalAssistantMenuKeysModifyEntry
      * @param string|null $setPresenceToLunch
      * @return $this
      */
-    public function setSetPresenceToLunch($setPresenceToLunch)
+    public function setSetPresenceToLunch($setPresenceToLunch = null)
     {
         if ($setPresenceToLunch === null) {
             $this->setPresenceToLunch = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -287,7 +287,7 @@ class PersonalAssistantMenuKeysModifyEntry
      * @param string|null $setPresenceToMeeting
      * @return $this
      */
-    public function setSetPresenceToMeeting($setPresenceToMeeting)
+    public function setSetPresenceToMeeting($setPresenceToMeeting = null)
     {
         if ($setPresenceToMeeting === null) {
             $this->setPresenceToMeeting = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -322,7 +322,7 @@ class PersonalAssistantMenuKeysModifyEntry
      * @param string|null $setPresenceToOutOfOffice
      * @return $this
      */
-    public function setSetPresenceToOutOfOffice($setPresenceToOutOfOffice)
+    public function setSetPresenceToOutOfOffice($setPresenceToOutOfOffice = null)
     {
         if ($setPresenceToOutOfOffice === null) {
             $this->setPresenceToOutOfOffice = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -357,7 +357,7 @@ class PersonalAssistantMenuKeysModifyEntry
      * @param string|null $setPresenceToTemporarilyOut
      * @return $this
      */
-    public function setSetPresenceToTemporarilyOut($setPresenceToTemporarilyOut)
+    public function setSetPresenceToTemporarilyOut($setPresenceToTemporarilyOut = null)
     {
         if ($setPresenceToTemporarilyOut === null) {
             $this->setPresenceToTemporarilyOut = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -392,7 +392,7 @@ class PersonalAssistantMenuKeysModifyEntry
      * @param string|null $setPresenceToTraining
      * @return $this
      */
-    public function setSetPresenceToTraining($setPresenceToTraining)
+    public function setSetPresenceToTraining($setPresenceToTraining = null)
     {
         if ($setPresenceToTraining === null) {
             $this->setPresenceToTraining = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -427,7 +427,7 @@ class PersonalAssistantMenuKeysModifyEntry
      * @param string|null $setPresenceToUnavailable
      * @return $this
      */
-    public function setSetPresenceToUnavailable($setPresenceToUnavailable)
+    public function setSetPresenceToUnavailable($setPresenceToUnavailable = null)
     {
         if ($setPresenceToUnavailable === null) {
             $this->setPresenceToUnavailable = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -462,7 +462,7 @@ class PersonalAssistantMenuKeysModifyEntry
      * @param string|null $setPresenceToVacation
      * @return $this
      */
-    public function setSetPresenceToVacation($setPresenceToVacation)
+    public function setSetPresenceToVacation($setPresenceToVacation = null)
     {
         if ($setPresenceToVacation === null) {
             $this->setPresenceToVacation = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -528,7 +528,7 @@ class PersonalAssistantMenuKeysModifyEntry
      * @param string|null $repeatMenu
      * @return $this
      */
-    public function setRepeatMenu($repeatMenu)
+    public function setRepeatMenu($repeatMenu = null)
     {
         if ($repeatMenu === null) {
             $this->repeatMenu = new \CWM\BroadWorksConnector\Ocip\Nil;

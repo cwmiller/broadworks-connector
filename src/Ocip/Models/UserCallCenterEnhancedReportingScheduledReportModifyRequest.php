@@ -321,7 +321,7 @@ class UserCallCenterEnhancedReportingScheduledReportModifyRequest extends \CWM\B
      * @param string|null $description
      * @return $this
      */
-    public function setDescription($description)
+    public function setDescription($description = null)
     {
         if ($description === null) {
             $this->description = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -821,7 +821,7 @@ class UserCallCenterEnhancedReportingScheduledReportModifyRequest extends \CWM\B
      * @param int|null $serviceLevelObjectivePercentage
      * @return $this
      */
-    public function setServiceLevelObjectivePercentage($serviceLevelObjectivePercentage)
+    public function setServiceLevelObjectivePercentage($serviceLevelObjectivePercentage = null)
     {
         if ($serviceLevelObjectivePercentage === null) {
             $this->serviceLevelObjectivePercentage = new \CWM\BroadWorksConnector\Ocip\Nil;

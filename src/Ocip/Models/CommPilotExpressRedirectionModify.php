@@ -79,7 +79,7 @@ class CommPilotExpressRedirectionModify
      * @param string|null $forwardingPhoneNumber
      * @return $this
      */
-    public function setForwardingPhoneNumber($forwardingPhoneNumber)
+    public function setForwardingPhoneNumber($forwardingPhoneNumber = null)
     {
         if ($forwardingPhoneNumber === null) {
             $this->forwardingPhoneNumber = new \CWM\BroadWorksConnector\Ocip\Nil;

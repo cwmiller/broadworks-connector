@@ -347,7 +347,7 @@ class GroupCallCenterAgentThresholdProfileModifyRequest extends \CWM\BroadWorksC
      * @param string|null $profileDescription
      * @return $this
      */
-    public function setProfileDescription($profileDescription)
+    public function setProfileDescription($profileDescription = null)
     {
         if ($profileDescription === null) {
             $this->profileDescription = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -382,7 +382,7 @@ class GroupCallCenterAgentThresholdProfileModifyRequest extends \CWM\BroadWorksC
      * @param int|null $thresholdCurrentCallStateIdleTimeYellow
      * @return $this
      */
-    public function setThresholdCurrentCallStateIdleTimeYellow($thresholdCurrentCallStateIdleTimeYellow)
+    public function setThresholdCurrentCallStateIdleTimeYellow($thresholdCurrentCallStateIdleTimeYellow = null)
     {
         if ($thresholdCurrentCallStateIdleTimeYellow === null) {
             $this->thresholdCurrentCallStateIdleTimeYellow = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -417,7 +417,7 @@ class GroupCallCenterAgentThresholdProfileModifyRequest extends \CWM\BroadWorksC
      * @param int|null $thresholdCurrentCallStateIdleTimeRed
      * @return $this
      */
-    public function setThresholdCurrentCallStateIdleTimeRed($thresholdCurrentCallStateIdleTimeRed)
+    public function setThresholdCurrentCallStateIdleTimeRed($thresholdCurrentCallStateIdleTimeRed = null)
     {
         if ($thresholdCurrentCallStateIdleTimeRed === null) {
             $this->thresholdCurrentCallStateIdleTimeRed = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -452,7 +452,7 @@ class GroupCallCenterAgentThresholdProfileModifyRequest extends \CWM\BroadWorksC
      * @param int|null $thresholdCurrentCallStateOnCallTimeYellow
      * @return $this
      */
-    public function setThresholdCurrentCallStateOnCallTimeYellow($thresholdCurrentCallStateOnCallTimeYellow)
+    public function setThresholdCurrentCallStateOnCallTimeYellow($thresholdCurrentCallStateOnCallTimeYellow = null)
     {
         if ($thresholdCurrentCallStateOnCallTimeYellow === null) {
             $this->thresholdCurrentCallStateOnCallTimeYellow = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -487,7 +487,7 @@ class GroupCallCenterAgentThresholdProfileModifyRequest extends \CWM\BroadWorksC
      * @param int|null $thresholdCurrentCallStateOnCallTimeRed
      * @return $this
      */
-    public function setThresholdCurrentCallStateOnCallTimeRed($thresholdCurrentCallStateOnCallTimeRed)
+    public function setThresholdCurrentCallStateOnCallTimeRed($thresholdCurrentCallStateOnCallTimeRed = null)
     {
         if ($thresholdCurrentCallStateOnCallTimeRed === null) {
             $this->thresholdCurrentCallStateOnCallTimeRed = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -522,7 +522,7 @@ class GroupCallCenterAgentThresholdProfileModifyRequest extends \CWM\BroadWorksC
      * @param int|null $thresholdCurrentAgentStateUnavailableTimeYellow
      * @return $this
      */
-    public function setThresholdCurrentAgentStateUnavailableTimeYellow($thresholdCurrentAgentStateUnavailableTimeYellow)
+    public function setThresholdCurrentAgentStateUnavailableTimeYellow($thresholdCurrentAgentStateUnavailableTimeYellow = null)
     {
         if ($thresholdCurrentAgentStateUnavailableTimeYellow === null) {
             $this->thresholdCurrentAgentStateUnavailableTimeYellow = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -557,7 +557,7 @@ class GroupCallCenterAgentThresholdProfileModifyRequest extends \CWM\BroadWorksC
      * @param int|null $thresholdCurrentAgentStateUnavailableTimeRed
      * @return $this
      */
-    public function setThresholdCurrentAgentStateUnavailableTimeRed($thresholdCurrentAgentStateUnavailableTimeRed)
+    public function setThresholdCurrentAgentStateUnavailableTimeRed($thresholdCurrentAgentStateUnavailableTimeRed = null)
     {
         if ($thresholdCurrentAgentStateUnavailableTimeRed === null) {
             $this->thresholdCurrentAgentStateUnavailableTimeRed = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -592,7 +592,7 @@ class GroupCallCenterAgentThresholdProfileModifyRequest extends \CWM\BroadWorksC
      * @param int|null $thresholdAverageBusyInTimeYellow
      * @return $this
      */
-    public function setThresholdAverageBusyInTimeYellow($thresholdAverageBusyInTimeYellow)
+    public function setThresholdAverageBusyInTimeYellow($thresholdAverageBusyInTimeYellow = null)
     {
         if ($thresholdAverageBusyInTimeYellow === null) {
             $this->thresholdAverageBusyInTimeYellow = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -627,7 +627,7 @@ class GroupCallCenterAgentThresholdProfileModifyRequest extends \CWM\BroadWorksC
      * @param int|null $thresholdAverageBusyInTimeRed
      * @return $this
      */
-    public function setThresholdAverageBusyInTimeRed($thresholdAverageBusyInTimeRed)
+    public function setThresholdAverageBusyInTimeRed($thresholdAverageBusyInTimeRed = null)
     {
         if ($thresholdAverageBusyInTimeRed === null) {
             $this->thresholdAverageBusyInTimeRed = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -662,7 +662,7 @@ class GroupCallCenterAgentThresholdProfileModifyRequest extends \CWM\BroadWorksC
      * @param int|null $thresholdAverageBusyOutTimeYellow
      * @return $this
      */
-    public function setThresholdAverageBusyOutTimeYellow($thresholdAverageBusyOutTimeYellow)
+    public function setThresholdAverageBusyOutTimeYellow($thresholdAverageBusyOutTimeYellow = null)
     {
         if ($thresholdAverageBusyOutTimeYellow === null) {
             $this->thresholdAverageBusyOutTimeYellow = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -697,7 +697,7 @@ class GroupCallCenterAgentThresholdProfileModifyRequest extends \CWM\BroadWorksC
      * @param int|null $thresholdAverageBusyOutTimeRed
      * @return $this
      */
-    public function setThresholdAverageBusyOutTimeRed($thresholdAverageBusyOutTimeRed)
+    public function setThresholdAverageBusyOutTimeRed($thresholdAverageBusyOutTimeRed = null)
     {
         if ($thresholdAverageBusyOutTimeRed === null) {
             $this->thresholdAverageBusyOutTimeRed = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -732,7 +732,7 @@ class GroupCallCenterAgentThresholdProfileModifyRequest extends \CWM\BroadWorksC
      * @param int|null $thresholdAverageWrapUpTimeYellow
      * @return $this
      */
-    public function setThresholdAverageWrapUpTimeYellow($thresholdAverageWrapUpTimeYellow)
+    public function setThresholdAverageWrapUpTimeYellow($thresholdAverageWrapUpTimeYellow = null)
     {
         if ($thresholdAverageWrapUpTimeYellow === null) {
             $this->thresholdAverageWrapUpTimeYellow = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -767,7 +767,7 @@ class GroupCallCenterAgentThresholdProfileModifyRequest extends \CWM\BroadWorksC
      * @param int|null $thresholdAverageWrapUpTimeRed
      * @return $this
      */
-    public function setThresholdAverageWrapUpTimeRed($thresholdAverageWrapUpTimeRed)
+    public function setThresholdAverageWrapUpTimeRed($thresholdAverageWrapUpTimeRed = null)
     {
         if ($thresholdAverageWrapUpTimeRed === null) {
             $this->thresholdAverageWrapUpTimeRed = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -833,7 +833,7 @@ class GroupCallCenterAgentThresholdProfileModifyRequest extends \CWM\BroadWorksC
      * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterAgentThresholdProfileReplacementNotificationEmailList|null $notificationEmailAddressList
      * @return $this
      */
-    public function setNotificationEmailAddressList(\CWM\BroadWorksConnector\Ocip\Models\CallCenterAgentThresholdProfileReplacementNotificationEmailList $notificationEmailAddressList)
+    public function setNotificationEmailAddressList(\CWM\BroadWorksConnector\Ocip\Models\CallCenterAgentThresholdProfileReplacementNotificationEmailList $notificationEmailAddressList = null)
     {
         if ($notificationEmailAddressList === null) {
             $this->notificationEmailAddressList = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -868,7 +868,7 @@ class GroupCallCenterAgentThresholdProfileModifyRequest extends \CWM\BroadWorksC
      * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null $agentUserIdList
      * @return $this
      */
-    public function setAgentUserIdList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList $agentUserIdList)
+    public function setAgentUserIdList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList $agentUserIdList = null)
     {
         if ($agentUserIdList === null) {
             $this->agentUserIdList = new \CWM\BroadWorksConnector\Ocip\Nil;

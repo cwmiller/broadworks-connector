@@ -172,7 +172,7 @@ class UserSimultaneousRingPersonalModifyRequest17 extends \CWM\BroadWorksConnect
      * @param \CWM\BroadWorksConnector\Ocip\Models\SimultaneousRingReplacementNumberList|null $simultaneousRingNumberList
      * @return $this
      */
-    public function setSimultaneousRingNumberList(\CWM\BroadWorksConnector\Ocip\Models\SimultaneousRingReplacementNumberList $simultaneousRingNumberList)
+    public function setSimultaneousRingNumberList(\CWM\BroadWorksConnector\Ocip\Models\SimultaneousRingReplacementNumberList $simultaneousRingNumberList = null)
     {
         if ($simultaneousRingNumberList === null) {
             $this->simultaneousRingNumberList = new \CWM\BroadWorksConnector\Ocip\Nil;

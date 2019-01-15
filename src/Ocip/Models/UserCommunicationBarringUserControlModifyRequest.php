@@ -110,7 +110,7 @@ class UserCommunicationBarringUserControlModifyRequest extends \CWM\BroadWorksCo
      * @param int|null $enableProfile
      * @return $this
      */
-    public function setEnableProfile($enableProfile)
+    public function setEnableProfile($enableProfile = null)
     {
         if ($enableProfile === null) {
             $this->enableProfile = new \CWM\BroadWorksConnector\Ocip\Nil;

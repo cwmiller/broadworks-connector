@@ -159,7 +159,7 @@ class GroupCommunicationBarringModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @param string|null $profile
      * @return $this
      */
-    public function setProfile($profile)
+    public function setProfile($profile = null)
     {
         if ($profile === null) {
             $this->profile = new \CWM\BroadWorksConnector\Ocip\Nil;

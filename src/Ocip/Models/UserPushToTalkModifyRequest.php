@@ -200,7 +200,7 @@ class UserPushToTalkModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null $selectedUserIdList
      * @return $this
      */
-    public function setSelectedUserIdList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList $selectedUserIdList)
+    public function setSelectedUserIdList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList $selectedUserIdList = null)
     {
         if ($selectedUserIdList === null) {
             $this->selectedUserIdList = new \CWM\BroadWorksConnector\Ocip\Nil;

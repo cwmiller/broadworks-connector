@@ -179,7 +179,7 @@ class GroupCallCenterModifyInstanceStatisticsReportingRequest14sp9 extends \CWM\
      * @param string|null $reportingEmailAddress1
      * @return $this
      */
-    public function setReportingEmailAddress1($reportingEmailAddress1)
+    public function setReportingEmailAddress1($reportingEmailAddress1 = null)
     {
         if ($reportingEmailAddress1 === null) {
             $this->reportingEmailAddress1 = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -214,7 +214,7 @@ class GroupCallCenterModifyInstanceStatisticsReportingRequest14sp9 extends \CWM\
      * @param string|null $reportingEmailAddress2
      * @return $this
      */
-    public function setReportingEmailAddress2($reportingEmailAddress2)
+    public function setReportingEmailAddress2($reportingEmailAddress2 = null)
     {
         if ($reportingEmailAddress2 === null) {
             $this->reportingEmailAddress2 = new \CWM\BroadWorksConnector\Ocip\Nil;

@@ -118,7 +118,7 @@ class TrunkGroupDeviceMultipleContactEndpointModify
      * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementContactList|null $contactList
      * @return $this
      */
-    public function setContactList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementContactList $contactList)
+    public function setContactList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementContactList $contactList = null)
     {
         if ($contactList === null) {
             $this->contactList = new \CWM\BroadWorksConnector\Ocip\Nil;

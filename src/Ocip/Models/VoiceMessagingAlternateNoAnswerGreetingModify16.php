@@ -60,7 +60,7 @@ class VoiceMessagingAlternateNoAnswerGreetingModify16
      * @param string|null $name
      * @return $this
      */
-    public function setName($name)
+    public function setName($name = null)
     {
         if ($name === null) {
             $this->name = new \CWM\BroadWorksConnector\Ocip\Nil;

@@ -125,7 +125,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestReplyMessageMenuKeys
      * @param string|null $changeCurrentReply
      * @return $this
      */
-    public function setChangeCurrentReply($changeCurrentReply)
+    public function setChangeCurrentReply($changeCurrentReply = null)
     {
         if ($changeCurrentReply === null) {
             $this->changeCurrentReply = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -160,7 +160,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestReplyMessageMenuKeys
      * @param string|null $listenToCurrentReply
      * @return $this
      */
-    public function setListenToCurrentReply($listenToCurrentReply)
+    public function setListenToCurrentReply($listenToCurrentReply = null)
     {
         if ($listenToCurrentReply === null) {
             $this->listenToCurrentReply = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -195,7 +195,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestReplyMessageMenuKeys
      * @param string|null $setOrClearUrgentIndicator
      * @return $this
      */
-    public function setSetOrClearUrgentIndicator($setOrClearUrgentIndicator)
+    public function setSetOrClearUrgentIndicator($setOrClearUrgentIndicator = null)
     {
         if ($setOrClearUrgentIndicator === null) {
             $this->setOrClearUrgentIndicator = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -230,7 +230,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestReplyMessageMenuKeys
      * @param string|null $setOrClearConfidentialIndicator
      * @return $this
      */
-    public function setSetOrClearConfidentialIndicator($setOrClearConfidentialIndicator)
+    public function setSetOrClearConfidentialIndicator($setOrClearConfidentialIndicator = null)
     {
         if ($setOrClearConfidentialIndicator === null) {
             $this->setOrClearConfidentialIndicator = new \CWM\BroadWorksConnector\Ocip\Nil;
@@ -296,7 +296,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestReplyMessageMenuKeys
      * @param string|null $repeatMenu
      * @return $this
      */
-    public function setRepeatMenu($repeatMenu)
+    public function setRepeatMenu($repeatMenu = null)
     {
         if ($repeatMenu === null) {
             $this->repeatMenu = new \CWM\BroadWorksConnector\Ocip\Nil;

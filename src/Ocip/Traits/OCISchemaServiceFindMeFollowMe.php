@@ -15,7 +15,7 @@ use CWM\BroadWorksConnector\Ocip\Models\GroupFindMeFollowMeGetAlertingGroupListR
 use CWM\BroadWorksConnector\Ocip\Models\GroupFindMeFollowMeGetAlertingGroupRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupFindMeFollowMeGetAlertingGroupResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupFindMeFollowMeGetAlertingGroupSelectiveCriteriaRequest21;
-use CWM\BroadWorksConnector\Ocip\Models\GroupFindMeFollowMeGetAlertingGroupResponse21;
+use CWM\BroadWorksConnector\Ocip\Models\GroupFindMeFollowMeGetAlertingGroupSelectiveCriteriaResponse21;
 use CWM\BroadWorksConnector\Ocip\Models\GroupFindMeFollowMeGetInstanceListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupFindMeFollowMeGetInstanceListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupFindMeFollowMeGetInstanceRequest19sp1;
@@ -133,7 +133,7 @@ trait OCISchemaServiceFindMeFollowMe
 
     /**
      * @param GroupFindMeFollowMeGetAlertingGroupSelectiveCriteriaRequest21 $request
-     * @return GroupFindMeFollowMeGetAlertingGroupResponse21
+     * @return GroupFindMeFollowMeGetAlertingGroupSelectiveCriteriaResponse21
      * @throws ErrorResponseException
      * @throws ValidationException
      */

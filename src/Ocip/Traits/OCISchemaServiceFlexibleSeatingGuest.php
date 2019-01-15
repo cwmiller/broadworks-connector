@@ -19,7 +19,7 @@ use CWM\BroadWorksConnector\Ocip\Models\GroupFlexibleSeatingHostRoutingPoliciesG
 use CWM\BroadWorksConnector\Ocip\Models\GroupFlexibleSeatingHostRoutingPoliciesGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupFlexibleSeatingHostRoutingPoliciesModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserFlexibleSeatingGuestGetAvailableHostListRequest;
-use CWM\BroadWorksConnector\Ocip\Models\UserFlexibleSeatingGuestGetAvailableUserListResponse;
+use CWM\BroadWorksConnector\Ocip\Models\UserFlexibleSeatingGuestGetAvailableHostListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserFlexibleSeatingGuestGetRequest22;
 use CWM\BroadWorksConnector\Ocip\Models\UserFlexibleSeatingGuestGetResponse22;
 use CWM\BroadWorksConnector\Ocip\Models\UserFlexibleSeatingGuestModifyRequest22;
@@ -153,7 +153,7 @@ trait OCISchemaServiceFlexibleSeatingGuest
 
     /**
      * @param UserFlexibleSeatingGuestGetAvailableHostListRequest $request
-     * @return UserFlexibleSeatingGuestGetAvailableUserListResponse
+     * @return UserFlexibleSeatingGuestGetAvailableHostListResponse
      * @throws ErrorResponseException
      * @throws ValidationException
      */

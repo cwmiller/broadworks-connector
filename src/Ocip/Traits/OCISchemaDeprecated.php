@@ -1299,7 +1299,7 @@ use CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeGetResponse22V2;
 use CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeGetRequest22V3;
 use CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeGetResponse22V3;
 use CWM\BroadWorksConnector\Ocip\Models\SystemTreatmentMappingCallBlockingServiceGetListRequest19sp1;
-use CWM\BroadWorksConnector\Ocip\Models\SystemTreatmentMappingCallBlockingServicesGetListResponse19sp1;
+use CWM\BroadWorksConnector\Ocip\Models\SystemTreatmentMappingCallBlockingServiceGetListResponse19sp1;
 use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksMobilityGetRequest21;
 use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksMobilityGetResponse21;
 use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksMobilityMobileIdentityAddRequest;
@@ -10232,7 +10232,7 @@ trait OCISchemaDeprecated
 
     /**
      * @param SystemTreatmentMappingCallBlockingServiceGetListRequest19sp1 $request
-     * @return SystemTreatmentMappingCallBlockingServicesGetListResponse19sp1
+     * @return SystemTreatmentMappingCallBlockingServiceGetListResponse19sp1
      * @throws ErrorResponseException
      * @throws ValidationException
      */

@@ -6,9 +6,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserOutgoingCallingPlanPinholeDigitPlanCallMeNowGetRequest
  *
  * Request the Call Me Now permissions for Pinhole digit patterns for a user.
- *         The response is either a UserOutgoingCallingPlanPinholeDigitPlanCallMeNowgGetResponse or an ErrorResponse.
+ *         The response is either a UserOutgoingCallingPlanPinholeDigitPlanCallMeNowGetResponse or an ErrorResponse.
  *
- * @see UserOutgoingCallingPlanPinholeDigitPlanCallMeNowgGetResponse
+ * @see UserOutgoingCallingPlanPinholeDigitPlanCallMeNowGetResponse
  * @see ErrorResponse
  * @Groups [{"id":"6f793dfca9bd3d121bb35e0f9cf1cb2e:1381","type":"sequence"}]
  */

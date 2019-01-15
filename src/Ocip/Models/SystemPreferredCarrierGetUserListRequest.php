@@ -8,10 +8,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Requests a list of users using the specified carrier.  It is possible to restrict the
  *         number of rows returned by specifying various search criteria. Multiple search criteria
  *         are logically ANDed together.
- *         The response is either a SystemPreferreredCarrierGetUserListResponse
+ *         The response is either a SystemPreferredCarrierGetUserListResponse
  *         or an ErrorResponse.
  *
- * @see SystemPreferreredCarrierGetUserListResponse
+ * @see SystemPreferredCarrierGetUserListResponse
  * @see ErrorResponse
  * @Groups [{"id":"74a46a9bfccb54713c1d19735843f1df:471","type":"sequence"}]
  */

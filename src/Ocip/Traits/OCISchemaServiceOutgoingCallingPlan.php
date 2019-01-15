@@ -77,7 +77,7 @@ use CWM\BroadWorksConnector\Ocip\Models\UserOutgoingCallingPlanOriginatingGetReq
 use CWM\BroadWorksConnector\Ocip\Models\UserOutgoingCallingPlanOriginatingGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserOutgoingCallingPlanOriginatingModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserOutgoingCallingPlanPinholeDigitPlanCallMeNowGetRequest;
-use CWM\BroadWorksConnector\Ocip\Models\UserOutgoingCallingPlanPinholeDigitPlanCallMeNowgGetResponse;
+use CWM\BroadWorksConnector\Ocip\Models\UserOutgoingCallingPlanPinholeDigitPlanCallMeNowGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserOutgoingCallingPlanPinholeDigitPlanCallMeNowModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserOutgoingCallingPlanPinholeDigitPlanOriginatingGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserOutgoingCallingPlanPinholeDigitPlanOriginatingGetResponse;
@@ -667,7 +667,7 @@ trait OCISchemaServiceOutgoingCallingPlan
 
     /**
      * @param UserOutgoingCallingPlanPinholeDigitPlanCallMeNowGetRequest $request
-     * @return UserOutgoingCallingPlanPinholeDigitPlanCallMeNowgGetResponse
+     * @return UserOutgoingCallingPlanPinholeDigitPlanCallMeNowGetResponse
      * @throws ErrorResponseException
      * @throws ValidationException
      */

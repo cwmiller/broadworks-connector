@@ -7,10 +7,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Requests the information about the specified device type without regard to whether the
  *         type is SIP or MGCP.
- *         The response is either SystemDeviceTypeGetResponse22 or ErrorResponse.
+ *         The response is either SystemDeviceTypeGetResponse22V2 or ErrorResponse.
  * 		Note: The elements deviceTypeConfigurationOption and staticLineOrdering apply to SIP device types only. Therefore, only present in the response when the device type is SIP.
  *
- * @see SystemDeviceTypeGetResponse22
+ * @see SystemDeviceTypeGetResponse22V2
  * @see ErrorResponse
  * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:7424","type":"sequence"}]
  */

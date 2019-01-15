@@ -30,20 +30,20 @@ use CWM\BroadWorksConnector\Ocip\Models\UserCollaborateDeleteRoomRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserCollaborateInstantRoomAddRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserCollaborateInstantRoomAddResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserCollaborateInstantRoomGetRequest;
-use CWM\BroadWorksConnector\Ocip\Models\UserCollaboratInstantRoomGetResponse;
+use CWM\BroadWorksConnector\Ocip\Models\UserCollaborateInstantRoomGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserCollaborateInstantRoomParametersGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserCollaborateInstantRoomParametersGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserCollaborateInstantRoomParametersModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserCollaborateMyRoomGetRequest;
-use CWM\BroadWorksConnector\Ocip\Models\UserCollaboratMyRoomGetResponse;
+use CWM\BroadWorksConnector\Ocip\Models\UserCollaborateMyRoomGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserCollaborateMyRoomModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserCollaborateProjectRoomAddRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserCollaborateProjectRoomAddResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserCollaborateProjectRoomGetRequest;
-use CWM\BroadWorksConnector\Ocip\Models\UserCollaboratProjectRoomGetResponse;
+use CWM\BroadWorksConnector\Ocip\Models\UserCollaborateProjectRoomGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserCollaborateProjectRoomModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserCollaborateRoomGetRequest;
-use CWM\BroadWorksConnector\Ocip\Models\UserCollaboratetRoomGetResponse;
+use CWM\BroadWorksConnector\Ocip\Models\UserCollaborateRoomGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserCollaborateRoomIDRegenerateRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserCollaborateRoomIDRegenerateResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserCollaborateRoomListGetRequest;
@@ -256,7 +256,7 @@ trait OCISchemaServiceCollaborate
 
     /**
      * @param UserCollaborateInstantRoomGetRequest $request
-     * @return UserCollaboratInstantRoomGetResponse
+     * @return UserCollaborateInstantRoomGetResponse
      * @throws ErrorResponseException
      * @throws ValidationException
      */
@@ -289,7 +289,7 @@ trait OCISchemaServiceCollaborate
 
     /**
      * @param UserCollaborateMyRoomGetRequest $request
-     * @return UserCollaboratMyRoomGetResponse
+     * @return UserCollaborateMyRoomGetResponse
      * @throws ErrorResponseException
      * @throws ValidationException
      */
@@ -322,7 +322,7 @@ trait OCISchemaServiceCollaborate
 
     /**
      * @param UserCollaborateProjectRoomGetRequest $request
-     * @return UserCollaboratProjectRoomGetResponse
+     * @return UserCollaborateProjectRoomGetResponse
      * @throws ErrorResponseException
      * @throws ValidationException
      */
@@ -344,7 +344,7 @@ trait OCISchemaServiceCollaborate
 
     /**
      * @param UserCollaborateRoomGetRequest $request
-     * @return UserCollaboratetRoomGetResponse
+     * @return UserCollaborateRoomGetResponse
      * @throws ErrorResponseException
      * @throws ValidationException
      */

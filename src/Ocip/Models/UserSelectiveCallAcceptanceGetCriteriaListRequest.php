@@ -6,9 +6,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserSelectiveCallAcceptanceGetCriteriaListRequest
  *
  * Get the user's selective call acceptance criteria listing.
- *         The response is either a UserSelectiveCallAcceptanceGetResponse or an ErrorResponse.
+ *         The response is either a UserSelectiveCallAcceptanceGetCriteriaListResponse or an ErrorResponse.
  *
- * @see UserSelectiveCallAcceptanceGetResponse
+ * @see UserSelectiveCallAcceptanceGetCriteriaListResponse
  * @see ErrorResponse
  * @Groups [{"id":"e8517420bc6d5462dc1b2d9f82295894:90","type":"sequence"}]
  */

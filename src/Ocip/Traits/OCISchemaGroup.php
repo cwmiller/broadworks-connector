@@ -181,7 +181,7 @@ use CWM\BroadWorksConnector\Ocip\Models\GroupDnGetAssignmentPagedSortedListRespo
 use CWM\BroadWorksConnector\Ocip\Models\GroupDnGetAvailableListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupDnGetAvailableListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupDnGetAvailableRangesListRequest;
-use CWM\BroadWorksConnector\Ocip\Models\GroupDnGetAvailableRangeListResponse;
+use CWM\BroadWorksConnector\Ocip\Models\GroupDnGetAvailableRangesListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupDnGetDetailedAvailableListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupDnGetDetailedAvailableListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupDnGetListRequest;
@@ -1734,7 +1734,7 @@ trait OCISchemaGroup
 
     /**
      * @param GroupDnGetAvailableRangesListRequest $request
-     * @return GroupDnGetAvailableRangeListResponse
+     * @return GroupDnGetAvailableRangesListResponse
      * @throws ErrorResponseException
      * @throws ValidationException
      */

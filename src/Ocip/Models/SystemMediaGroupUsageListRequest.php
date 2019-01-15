@@ -6,9 +6,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemMediaGroupUsageListRequest
  *
  * Request to get the list of SAC groups associated with a media group.
- *         The response is either SystemMediaGroupUsageResponse or ErrorResponse.
+ *         The response is either SystemMediaGroupUsageListResponse or ErrorResponse.
  *
- * @see SystemMediaGroupUsageResponse
+ * @see SystemMediaGroupUsageListResponse
  * @see ErrorResponse
  * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:10393","type":"sequence"}]
  */

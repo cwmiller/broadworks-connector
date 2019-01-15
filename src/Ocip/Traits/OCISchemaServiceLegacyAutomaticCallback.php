@@ -3,7 +3,7 @@
 namespace CWM\BroadWorksConnector\Ocip\Traits;
 
 use CWM\BroadWorksConnector\Ocip\Models\SystemLegacyAutomaticCallbackGetLineTypeListRequest;
-use CWM\BroadWorksConnector\Ocip\Models\SystemLegacyAutomaticCallbackGetTypeLineListResponse;
+use CWM\BroadWorksConnector\Ocip\Models\SystemLegacyAutomaticCallbackGetLineTypeListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\SystemLegacyAutomaticCallbackGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemLegacyAutomaticCallbackGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\SystemLegacyAutomaticCallbackModifyLineTypeRequest;
@@ -20,7 +20,7 @@ trait OCISchemaServiceLegacyAutomaticCallback
 
     /**
      * @param SystemLegacyAutomaticCallbackGetLineTypeListRequest $request
-     * @return SystemLegacyAutomaticCallbackGetTypeLineListResponse
+     * @return SystemLegacyAutomaticCallbackGetLineTypeListResponse
      * @throws ErrorResponseException
      * @throws ValidationException
      */

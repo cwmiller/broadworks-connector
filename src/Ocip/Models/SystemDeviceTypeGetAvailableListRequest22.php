@@ -17,11 +17,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The following elements are only used in AS data mode and ignored in the XS data mode:
  *           resellerId
  *
- *         The response is either SystemDeviceTypeGetlAvailableListResponse22 or ErrorResponse.
+ *         The response is either SystemDeviceTypeGetAvailableListResponse22 or ErrorResponse.
  *
  * @see SystemSIPDeviceTypeGetListRequest
  * @see SystemMGCPDeviceTypeGetListRequest
- * @see SystemDeviceTypeGetlAvailableListResponse22
+ * @see SystemDeviceTypeGetAvailableListResponse22
  * @see ErrorResponse
  * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:7363","type":"sequence","children":[{"id":"7f663d5135470c33ca64b0eed3c3aa0c:7369","type":"choice"}]}]
  */

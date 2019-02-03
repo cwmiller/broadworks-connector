@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * The service code entry.
  *
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:17850","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:18692","type":"sequence"}]
  */
 class ServiceCodeEntry
 {
@@ -15,7 +15,7 @@ class ServiceCodeEntry
     /**
      * @ElementName serviceCode
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17850
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18692
      * @var string|null
      */
     private $serviceCode = null;
@@ -23,7 +23,7 @@ class ServiceCodeEntry
     /**
      * @ElementName description
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17850
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18692
      * @var string|null
      */
     private $description = null;

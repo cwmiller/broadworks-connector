@@ -6,10 +6,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * AccessDeviceMultipleContactEndpointRead
  *
  * Access device end point that can have multiple contacts.
- *     
- *     Replaced by AccessDeviceMultipleContactEndpointRead19.
  *
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:42627","type":"sequence"}]
+ *                 Replaced by AccessDeviceMultipleContactEndpointRead19.
+ *
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:44242","type":"sequence"}]
  */
 class AccessDeviceMultipleContactEndpointRead
 {
@@ -17,7 +17,7 @@ class AccessDeviceMultipleContactEndpointRead
     /**
      * @ElementName accessDevice
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDevice
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:42627
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:44242
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDevice|null
      */
     private $accessDevice = null;
@@ -25,7 +25,7 @@ class AccessDeviceMultipleContactEndpointRead
     /**
      * @ElementName linePort
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:42627
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:44242
      * @var string|null
      */
     private $linePort = null;
@@ -35,7 +35,7 @@ class AccessDeviceMultipleContactEndpointRead
      * @Type string
      * @Array
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:42627
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:44242
      * @var string[]
      */
     private $contact = array(
@@ -45,7 +45,7 @@ class AccessDeviceMultipleContactEndpointRead
     /**
      * @ElementName staticRegistrationCapable
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:42627
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:44242
      * @var bool|null
      */
     private $staticRegistrationCapable = null;
@@ -53,7 +53,7 @@ class AccessDeviceMultipleContactEndpointRead
     /**
      * @ElementName useDomain
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:42627
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:44242
      * @var bool|null
      */
     private $useDomain = null;

@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * The call center enhanced reporting report current interval, for example, current week.
  *
- * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:7342","type":"sequence"}]
+ * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:7391","type":"sequence"}]
  */
 class CallCenterReportCurrentInterval
 {
@@ -15,7 +15,7 @@ class CallCenterReportCurrentInterval
     /**
      * @ElementName timeUnit
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportIntervalTimeUnit
-     * @Group e2c537e3e39483b96620673a7012ffdd:7342
+     * @Group e2c537e3e39483b96620673a7012ffdd:7391
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportIntervalTimeUnit|null
      */
     private $timeUnit = null;

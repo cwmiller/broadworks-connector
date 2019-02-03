@@ -14,7 +14,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"43afb2158d313a1d1a148124d7caba1e:449","type":"sequence"}]
+ * @Groups [{"id":"43afb2158d313a1d1a148124d7caba1e:592","type":"sequence"}]
  */
 class UserFlexibleSeatingGuestModifyRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -22,7 +22,7 @@ class UserFlexibleSeatingGuestModifyRequest22 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName userId
      * @Type string
-     * @Group 43afb2158d313a1d1a148124d7caba1e:449
+     * @Group 43afb2158d313a1d1a148124d7caba1e:592
      * @var string|null
      */
     private $userId = null;
@@ -31,7 +31,7 @@ class UserFlexibleSeatingGuestModifyRequest22 extends \CWM\BroadWorksConnector\O
      * @ElementName isActive
      * @Type bool
      * @Optional
-     * @Group 43afb2158d313a1d1a148124d7caba1e:449
+     * @Group 43afb2158d313a1d1a148124d7caba1e:592
      * @var bool|null
      */
     private $isActive = null;
@@ -40,7 +40,7 @@ class UserFlexibleSeatingGuestModifyRequest22 extends \CWM\BroadWorksConnector\O
      * @ElementName enableAssociationLimit
      * @Type bool
      * @Optional
-     * @Group 43afb2158d313a1d1a148124d7caba1e:449
+     * @Group 43afb2158d313a1d1a148124d7caba1e:592
      * @var bool|null
      */
     private $enableAssociationLimit = null;
@@ -49,7 +49,7 @@ class UserFlexibleSeatingGuestModifyRequest22 extends \CWM\BroadWorksConnector\O
      * @ElementName associationLimitHours
      * @Type int
      * @Optional
-     * @Group 43afb2158d313a1d1a148124d7caba1e:449
+     * @Group 43afb2158d313a1d1a148124d7caba1e:592
      * @var int|null
      */
     private $associationLimitHours = null;
@@ -59,7 +59,7 @@ class UserFlexibleSeatingGuestModifyRequest22 extends \CWM\BroadWorksConnector\O
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 43afb2158d313a1d1a148124d7caba1e:449
+     * @Group 43afb2158d313a1d1a148124d7caba1e:592
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $unlockPhonePINCode = null;
@@ -69,7 +69,7 @@ class UserFlexibleSeatingGuestModifyRequest22 extends \CWM\BroadWorksConnector\O
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceMultipleContactEndpointModify22
      * @Nillable
      * @Optional
-     * @Group 43afb2158d313a1d1a148124d7caba1e:449
+     * @Group 43afb2158d313a1d1a148124d7caba1e:592
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceMultipleContactEndpointModify22|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $accessDeviceEndpoint = null;
@@ -79,7 +79,7 @@ class UserFlexibleSeatingGuestModifyRequest22 extends \CWM\BroadWorksConnector\O
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 43afb2158d313a1d1a148124d7caba1e:449
+     * @Group 43afb2158d313a1d1a148124d7caba1e:592
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $hostUserId = null;

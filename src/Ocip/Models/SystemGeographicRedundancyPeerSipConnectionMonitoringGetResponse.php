@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains a list of Peer SIP Connection Monitoring system parameters.
  *
  * @see SystemGeographicRedundancyPeerSipConnectionMonitoringGetRequest
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:9110","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:9548","type":"sequence"}]
  */
 class SystemGeographicRedundancyPeerSipConnectionMonitoringGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class SystemGeographicRedundancyPeerSipConnectionMonitoringGetResponse extends \
     /**
      * @ElementName enabled
      * @Type bool
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9110
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9548
      * @var bool|null
      */
     private $enabled = null;
@@ -25,7 +25,7 @@ class SystemGeographicRedundancyPeerSipConnectionMonitoringGetResponse extends \
     /**
      * @ElementName heartbeatInterval
      * @Type int
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9110
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9548
      * @var int|null
      */
     private $heartbeatInterval = null;
@@ -33,7 +33,7 @@ class SystemGeographicRedundancyPeerSipConnectionMonitoringGetResponse extends \
     /**
      * @ElementName heartbeatTimeout
      * @Type int
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9110
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9548
      * @var int|null
      */
     private $heartbeatTimeout = null;

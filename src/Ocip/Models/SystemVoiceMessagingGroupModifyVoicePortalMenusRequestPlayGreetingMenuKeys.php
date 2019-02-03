@@ -5,7 +5,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemVoiceMessagingGroupModifyVoicePortalMenusRequestPlayGreetingMenuKeys
  *
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:27367","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:28329","type":"sequence"}]
  */
 class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestPlayGreetingMenuKeys
 {
@@ -15,7 +15,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestPlayGreetingMenuKeys
      * @Type string
      * @Nillable
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:27367
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:28329
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $skipBackward = null;
@@ -25,7 +25,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestPlayGreetingMenuKeys
      * @Type string
      * @Nillable
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:27367
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:28329
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $pauseOrResume = null;
@@ -35,7 +35,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestPlayGreetingMenuKeys
      * @Type string
      * @Nillable
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:27367
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:28329
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $skipForward = null;
@@ -45,7 +45,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestPlayGreetingMenuKeys
      * @Type string
      * @Nillable
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:27367
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:28329
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $jumpToBegin = null;
@@ -55,7 +55,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestPlayGreetingMenuKeys
      * @Type string
      * @Nillable
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:27367
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:28329
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $jumpToEnd = null;

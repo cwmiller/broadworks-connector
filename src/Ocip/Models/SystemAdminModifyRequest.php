@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:1737","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:1734","type":"sequence"}]
  */
 class SystemAdminModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class SystemAdminModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
     /**
      * @ElementName userId
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1737
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1734
      * @var string|null
      */
     private $userId = null;
@@ -30,7 +30,7 @@ class SystemAdminModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1737
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1734
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $firstName = null;
@@ -40,7 +40,7 @@ class SystemAdminModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1737
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1734
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $lastName = null;
@@ -49,7 +49,7 @@ class SystemAdminModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @ElementName password
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1737
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1734
      * @var string|null
      */
     private $password = null;
@@ -58,7 +58,7 @@ class SystemAdminModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @ElementName language
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1737
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1734
      * @var string|null
      */
     private $language = null;

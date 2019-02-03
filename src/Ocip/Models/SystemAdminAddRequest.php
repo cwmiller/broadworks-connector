@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:1630","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:1627","type":"sequence"}]
  */
 class SystemAdminAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemAdminAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRe
     /**
      * @ElementName userId
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1630
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1627
      * @var string|null
      */
     private $userId = null;
@@ -27,7 +27,7 @@ class SystemAdminAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRe
      * @ElementName firstName
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1630
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1627
      * @var string|null
      */
     private $firstName = null;
@@ -36,7 +36,7 @@ class SystemAdminAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRe
      * @ElementName lastName
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1630
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1627
      * @var string|null
      */
     private $lastName = null;
@@ -44,7 +44,7 @@ class SystemAdminAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRe
     /**
      * @ElementName password
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1630
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1627
      * @var string|null
      */
     private $password = null;
@@ -53,7 +53,7 @@ class SystemAdminAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRe
      * @ElementName language
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1630
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1627
      * @var string|null
      */
     private $language = null;
@@ -61,7 +61,7 @@ class SystemAdminAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRe
     /**
      * @ElementName adminType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemAdminType
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1630
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1627
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemAdminType|null
      */
     private $adminType = null;
@@ -69,7 +69,7 @@ class SystemAdminAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRe
     /**
      * @ElementName readOnly
      * @Type bool
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1630
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1627
      * @var bool|null
      */
     private $readOnly = null;

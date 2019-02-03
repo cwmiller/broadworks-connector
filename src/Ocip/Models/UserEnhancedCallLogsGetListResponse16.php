@@ -6,17 +6,18 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserEnhancedCallLogsGetListResponse16
  *
  * Response to UserEnhancedCallLogsGetListRequest16.
- *         Total numbers of rows is:
- *         - the total number of retrievable logs of the call log type that was specified in the UserEnhancedCallLogsGetListRequest16, 
- *           if a call log type was specified in the request.
- *         - the total number of retrievable logs, if no call log type was specified in the request.
- *         
- *         Replaced by UserEnhancedCallLogsGetListResponse17sp4
+ *                 Total numbers of rows is:
+ *                 - the total number of retrievable logs of the call log type that was specified in the
+ *                 UserEnhancedCallLogsGetListRequest16,
+ *                 if a call log type was specified in the request.
+ *                 - the total number of retrievable logs, if no call log type was specified in the request.
+ *
+ *                 Replaced by UserEnhancedCallLogsGetListResponse17sp4
  *
  * @see UserEnhancedCallLogsGetListRequest16
  * @see UserEnhancedCallLogsGetListRequest16
  * @see UserEnhancedCallLogsGetListResponse17sp4
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:22655","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:23446","type":"sequence"}]
  */
 class UserEnhancedCallLogsGetListResponse16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -24,7 +25,7 @@ class UserEnhancedCallLogsGetListResponse16 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName totalNumberOfRows
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:22655
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:23446
      * @var int|null
      */
     private $totalNumberOfRows = null;
@@ -34,7 +35,7 @@ class UserEnhancedCallLogsGetListResponse16 extends \CWM\BroadWorksConnector\Oci
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MixedCallLogsEntry
      * @Array
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:22655
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:23446
      * @var \CWM\BroadWorksConnector\Ocip\Models\MixedCallLogsEntry[]
      */
     private $callLog = array(

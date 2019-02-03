@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Either all DNIS under the specified Call Center or list of DNIS.
  *
- * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:7572","type":"sequence","children":[{"id":"e2c537e3e39483b96620673a7012ffdd:7574","type":"choice"}]}]
+ * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:7621","type":"sequence","children":[{"id":"e2c537e3e39483b96620673a7012ffdd:7623","type":"choice"}]}]
  */
 class CallCenterScheduledReportDNISSelection
 {
@@ -15,7 +15,7 @@ class CallCenterScheduledReportDNISSelection
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group e2c537e3e39483b96620673a7012ffdd:7572
+     * @Group e2c537e3e39483b96620673a7012ffdd:7621
      * @var string|null
      */
     private $serviceUserId = null;
@@ -23,7 +23,7 @@ class CallCenterScheduledReportDNISSelection
     /**
      * @ElementName allDNIS
      * @Type bool
-     * @Group e2c537e3e39483b96620673a7012ffdd:7574
+     * @Group e2c537e3e39483b96620673a7012ffdd:7623
      * @var bool|null
      */
     private $allDNIS = null;
@@ -32,7 +32,7 @@ class CallCenterScheduledReportDNISSelection
      * @ElementName name
      * @Type string
      * @Array
-     * @Group e2c537e3e39483b96620673a7012ffdd:7574
+     * @Group e2c537e3e39483b96620673a7012ffdd:7623
      * @var string[]
      */
     private $name = array(

@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserIntegratedIMPGetRequest
  * @see UserIntegratedIMPGetResponse21sp1
- * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:7754","type":"sequence"}]
+ * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:7753","type":"sequence"}]
  */
 class UserIntegratedIMPGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -20,7 +20,7 @@ class UserIntegratedIMPGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group de4d76f01f337fe4694212ec9f771753:7754
+     * @Group de4d76f01f337fe4694212ec9f771753:7753
      * @var bool|null
      */
     private $isActive = null;

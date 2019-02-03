@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         then the serviceProviderId and groupId will be used to choose the password
  *         rules with which to generate the trunk group password.
  *
- * @Groups [{"id":"6b27fcc79475236456fc113a42b75543:770","type":"sequence"}]
+ * @Groups [{"id":"6b27fcc79475236456fc113a42b75543:837","type":"sequence"}]
  */
 class PasswordForTrunkGroup
 {
@@ -19,7 +19,7 @@ class PasswordForTrunkGroup
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 6b27fcc79475236456fc113a42b75543:770
+     * @Group 6b27fcc79475236456fc113a42b75543:837
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,7 +27,7 @@ class PasswordForTrunkGroup
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 6b27fcc79475236456fc113a42b75543:770
+     * @Group 6b27fcc79475236456fc113a42b75543:837
      * @var string|null
      */
     private $groupId = null;
@@ -36,7 +36,7 @@ class PasswordForTrunkGroup
      * @ElementName name
      * @Type string
      * @Optional
-     * @Group 6b27fcc79475236456fc113a42b75543:770
+     * @Group 6b27fcc79475236456fc113a42b75543:837
      * @var string|null
      */
     private $name = null;
@@ -44,7 +44,7 @@ class PasswordForTrunkGroup
     /**
      * @ElementName generateTrunkGroupAuthenticationPassword
      * @Type bool
-     * @Group 6b27fcc79475236456fc113a42b75543:770
+     * @Group 6b27fcc79475236456fc113a42b75543:837
      * @var bool|null
      */
     private $generateTrunkGroupAuthenticationPassword = null;

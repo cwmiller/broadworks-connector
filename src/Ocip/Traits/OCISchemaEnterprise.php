@@ -29,6 +29,7 @@ use CWM\BroadWorksConnector\Ocip\Models\EnterpriseCommunicationBarringAuthorizat
 use CWM\BroadWorksConnector\Ocip\Models\EnterpriseCommunicationBarringAuthorizationCodeGetListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\EnterpriseCommunicationBarringAuthorizationCodeGetListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\EnterpriseCommunicationBarringAuthorizationCodeGetRequest;
+use CWM\BroadWorksConnector\Ocip\Models\EnterpriseCommunicationBarringAuthorizationCodeGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\EnterpriseCommunicationBarringAuthorizationCodeModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\EnterpriseDepartmentAddRequest;
 use CWM\BroadWorksConnector\Ocip\Models\EnterpriseDepartmentDeleteRequest;
@@ -301,7 +302,7 @@ trait OCISchemaEnterprise
 
     /**
      * @param EnterpriseCommunicationBarringAuthorizationCodeGetRequest $request
-     * @return 
+     * @return EnterpriseCommunicationBarringAuthorizationCodeGetResponse
      * @throws ErrorResponseException
      * @throws ValidationException
      */

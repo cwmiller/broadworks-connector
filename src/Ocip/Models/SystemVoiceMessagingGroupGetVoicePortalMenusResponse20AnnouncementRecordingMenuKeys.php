@@ -5,7 +5,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemVoiceMessagingGroupGetVoicePortalMenusResponse20AnnouncementRecordingMenuKeys
  *
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:33949","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:35243","type":"sequence"}]
  */
 class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20AnnouncementRecordingMenuKeys
 {
@@ -13,7 +13,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20AnnouncementRecordin
     /**
      * @ElementName acceptRecording
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:33949
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:35243
      * @var string|null
      */
     private $acceptRecording = null;
@@ -21,7 +21,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20AnnouncementRecordin
     /**
      * @ElementName rejectRerecord
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:33949
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:35243
      * @var string|null
      */
     private $rejectRerecord = null;
@@ -29,7 +29,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20AnnouncementRecordin
     /**
      * @ElementName returnToPreviousMenu
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:33949
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:35243
      * @var string|null
      */
     private $returnToPreviousMenu = null;
@@ -38,7 +38,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20AnnouncementRecordin
      * @ElementName repeatMenu
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:33949
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:35243
      * @var string|null
      */
     private $repeatMenu = null;
@@ -46,7 +46,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20AnnouncementRecordin
     /**
      * @ElementName end
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:33949
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:35243
      * @var string|null
      */
     private $end = null;

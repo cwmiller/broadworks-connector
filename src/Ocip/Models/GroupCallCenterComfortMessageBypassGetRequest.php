@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupCallCenterComfortMessageBypassGetRequest
  *
  * Get a call center's comfort message bypass settings.
- *         The response is either a GroupCallCenterComfortMessageBypassGetResponse or an ErrorResponse.
+ *                 The response is either a GroupCallCenterComfortMessageBypassGetResponse or an ErrorResponse.
  *
  * @see GroupCallCenterComfortMessageBypassGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:12322","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:12670","type":"sequence"}]
  */
 class GroupCallCenterComfortMessageBypassGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupCallCenterComfortMessageBypassGetRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:12322
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:12670
      * @var string|null
      */
     private $serviceUserId = null;

@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * AutoAttendantKeyConfigurationEntry
  *
  * The configuration entry of a key for Auto Attendant.
- *         The following elements are only used in AS data mode:
- *           audioFile
- *           videoFile
+ *                 The following elements are only used in AS data mode:
+ *                 audioFile
+ *                 videoFile
  *
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:42673","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:44288","type":"sequence"}]
  */
 class AutoAttendantKeyConfigurationEntry
 {
@@ -19,7 +19,7 @@ class AutoAttendantKeyConfigurationEntry
      * @ElementName description
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:42673
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:44288
      * @var string|null
      */
     private $description = null;
@@ -27,7 +27,7 @@ class AutoAttendantKeyConfigurationEntry
     /**
      * @ElementName action
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantKeyAction
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:42673
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:44288
      * @var \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantKeyAction|null
      */
     private $action = null;
@@ -36,7 +36,7 @@ class AutoAttendantKeyConfigurationEntry
      * @ElementName phoneNumber
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:42673
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:44288
      * @var string|null
      */
     private $phoneNumber = null;
@@ -45,7 +45,7 @@ class AutoAttendantKeyConfigurationEntry
      * @ElementName audioFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:42673
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:44288
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null
      */
     private $audioFile = null;
@@ -54,7 +54,7 @@ class AutoAttendantKeyConfigurationEntry
      * @ElementName videoFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:42673
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:44288
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null
      */
     private $videoFile = null;

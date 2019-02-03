@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:2651","type":"sequence"}]
+ * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:2649","type":"sequence"}]
  */
 class ServiceProviderDeviceTypeFileModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class ServiceProviderDeviceTypeFileModifyRequest extends \CWM\BroadWorksConnecto
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2651
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2649
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,7 +26,7 @@ class ServiceProviderDeviceTypeFileModifyRequest extends \CWM\BroadWorksConnecto
     /**
      * @ElementName deviceType
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2651
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2649
      * @var string|null
      */
     private $deviceType = null;
@@ -34,7 +34,7 @@ class ServiceProviderDeviceTypeFileModifyRequest extends \CWM\BroadWorksConnecto
     /**
      * @ElementName fileFormat
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2651
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2649
      * @var string|null
      */
     private $fileFormat = null;
@@ -43,7 +43,7 @@ class ServiceProviderDeviceTypeFileModifyRequest extends \CWM\BroadWorksConnecto
      * @ElementName fileSource
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationMode
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2651
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2649
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationMode|null
      */
     private $fileSource = null;
@@ -52,7 +52,7 @@ class ServiceProviderDeviceTypeFileModifyRequest extends \CWM\BroadWorksConnecto
      * @ElementName uploadFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\FileResource
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2651
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2649
      * @var \CWM\BroadWorksConnector\Ocip\Models\FileResource|null
      */
     private $uploadFile = null;

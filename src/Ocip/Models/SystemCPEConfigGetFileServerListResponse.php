@@ -6,12 +6,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemCPEConfigGetFileServerListResponse
  *
  * Response to SystemCPEConfigGetFileServerListRequest. The table columns are:
- *         "Device Type", "FTP Host Net Address", "FTP User Id", "Directory" and "Passive FTP".
- *         Replaced By: SystemCPEConfigGetFileServerListResponse14sp6
+ *                 "Device Type", "FTP Host Net Address", "FTP User Id", "Directory" and "Passive FTP".
+ *                 Replaced By: SystemCPEConfigGetFileServerListResponse14sp6
  *
  * @see SystemCPEConfigGetFileServerListRequest
  * @see SystemCPEConfigGetFileServerListResponse14sp6
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:4622","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:4810","type":"sequence"}]
  */
 class SystemCPEConfigGetFileServerListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,7 +19,7 @@ class SystemCPEConfigGetFileServerListResponse extends \CWM\BroadWorksConnector\
     /**
      * @ElementName fileServerTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:4622
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:4810
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $fileServerTable = null;

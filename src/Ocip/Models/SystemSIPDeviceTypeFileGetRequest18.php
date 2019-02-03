@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemSIPDeviceTypeFileGetRequest18
  *
  * Request to get a sip device type file.
- *           The response is either SystemSIPDeviceTypeFileGetResponse18 or ErrorResponse.
+ *                 The response is either SystemSIPDeviceTypeFileGetResponse18 or ErrorResponse.
  *
  * @see SystemSIPDeviceTypeFileGetResponse18
  * @see ErrorResponse
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:25674","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:26615","type":"sequence"}]
  */
 class SystemSIPDeviceTypeFileGetRequest18 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemSIPDeviceTypeFileGetRequest18 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName deviceType
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:25674
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:26615
      * @var string|null
      */
     private $deviceType = null;
@@ -26,7 +26,7 @@ class SystemSIPDeviceTypeFileGetRequest18 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName fileFormat
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:25674
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:26615
      * @var string|null
      */
     private $fileFormat = null;

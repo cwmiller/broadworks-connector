@@ -6,15 +6,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupHuntGroupGetInstanceResponse17sp3
  *
  * Response to GroupHuntGroupGetInstanceRequest17sp3.
- *         Contains the service profile information and a table of assigned users.
- *         The table has column headings: "User Id", "Last Name", "First Name",
- *         "Hiragana Last Name", "Hiragana First Name", "Weight".
- *         The following elements are only used in AS data mode:
- *            useSystemHuntGroupCLIDSetting
- *      includeHuntGroupNameInCLID
+ *                 Contains the service profile information and a table of assigned users.
+ *                 The table has column headings: "User Id", "Last Name", "First Name",
+ *                 "Hiragana Last Name", "Hiragana First Name", "Weight".
+ *                 The following elements are only used in AS data mode:
+ *                 useSystemHuntGroupCLIDSetting
+ *                 includeHuntGroupNameInCLID
  *
  * @see GroupHuntGroupGetInstanceRequest17sp3
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:19063","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:19674","type":"sequence"}]
  */
 class GroupHuntGroupGetInstanceResponse17sp3 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -22,7 +22,7 @@ class GroupHuntGroupGetInstanceResponse17sp3 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName serviceInstanceProfile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile17
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:19063
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:19674
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile17|null
      */
     private $serviceInstanceProfile = null;
@@ -30,7 +30,7 @@ class GroupHuntGroupGetInstanceResponse17sp3 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName policy
      * @Type \CWM\BroadWorksConnector\Ocip\Models\HuntPolicy
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:19063
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:19674
      * @var \CWM\BroadWorksConnector\Ocip\Models\HuntPolicy|null
      */
     private $policy = null;
@@ -38,7 +38,7 @@ class GroupHuntGroupGetInstanceResponse17sp3 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName huntAfterNoAnswer
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:19063
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:19674
      * @var bool|null
      */
     private $huntAfterNoAnswer = null;
@@ -46,7 +46,7 @@ class GroupHuntGroupGetInstanceResponse17sp3 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName noAnswerNumberOfRings
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:19063
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:19674
      * @var int|null
      */
     private $noAnswerNumberOfRings = null;
@@ -54,7 +54,7 @@ class GroupHuntGroupGetInstanceResponse17sp3 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName forwardAfterTimeout
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:19063
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:19674
      * @var bool|null
      */
     private $forwardAfterTimeout = null;
@@ -62,7 +62,7 @@ class GroupHuntGroupGetInstanceResponse17sp3 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName forwardTimeoutSeconds
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:19063
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:19674
      * @var int|null
      */
     private $forwardTimeoutSeconds = null;
@@ -71,7 +71,7 @@ class GroupHuntGroupGetInstanceResponse17sp3 extends \CWM\BroadWorksConnector\Oc
      * @ElementName forwardToPhoneNumber
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:19063
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:19674
      * @var string|null
      */
     private $forwardToPhoneNumber = null;
@@ -79,7 +79,7 @@ class GroupHuntGroupGetInstanceResponse17sp3 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName agentUserTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:19063
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:19674
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $agentUserTable = null;
@@ -87,7 +87,7 @@ class GroupHuntGroupGetInstanceResponse17sp3 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName allowCallWaitingForAgents
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:19063
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:19674
      * @var bool|null
      */
     private $allowCallWaitingForAgents = null;
@@ -95,7 +95,7 @@ class GroupHuntGroupGetInstanceResponse17sp3 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName useSystemHuntGroupCLIDSetting
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:19063
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:19674
      * @var bool|null
      */
     private $useSystemHuntGroupCLIDSetting = null;
@@ -103,7 +103,7 @@ class GroupHuntGroupGetInstanceResponse17sp3 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName includeHuntGroupNameInCLID
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:19063
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:19674
      * @var bool|null
      */
     private $includeHuntGroupNameInCLID = null;

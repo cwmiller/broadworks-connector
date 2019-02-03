@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Contains Call Center statistics reporting settings.
  *
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:18234","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:18810","type":"sequence"}]
  */
 class GroupCallCenterGetInstanceStatisticsReportingResponse16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -15,7 +15,7 @@ class GroupCallCenterGetInstanceStatisticsReportingResponse16 extends \CWM\Broad
     /**
      * @ElementName generateDailyReport
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:18234
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:18810
      * @var bool|null
      */
     private $generateDailyReport = null;
@@ -23,7 +23,7 @@ class GroupCallCenterGetInstanceStatisticsReportingResponse16 extends \CWM\Broad
     /**
      * @ElementName collectionPeriodMinutes
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterStatisticsCollectionPeriodMinutes
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:18234
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:18810
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterStatisticsCollectionPeriodMinutes|null
      */
     private $collectionPeriodMinutes = null;
@@ -32,7 +32,7 @@ class GroupCallCenterGetInstanceStatisticsReportingResponse16 extends \CWM\Broad
      * @ElementName reportingEmailAddress1
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:18234
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:18810
      * @var string|null
      */
     private $reportingEmailAddress1 = null;
@@ -41,7 +41,7 @@ class GroupCallCenterGetInstanceStatisticsReportingResponse16 extends \CWM\Broad
      * @ElementName reportingEmailAddress2
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:18234
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:18810
      * @var string|null
      */
     private $reportingEmailAddress2 = null;
@@ -49,7 +49,7 @@ class GroupCallCenterGetInstanceStatisticsReportingResponse16 extends \CWM\Broad
     /**
      * @ElementName statisticsSource
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterStatisticsSource
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:18234
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:18810
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterStatisticsSource|null
      */
     private $statisticsSource = null;

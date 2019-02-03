@@ -14,7 +14,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemIntegratedIMPGetRequest19
  * @see SystemIntegratedIMPGetResponse21
- * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:3114","type":"sequence"}]
+ * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:3113","type":"sequence"}]
  */
 class SystemIntegratedIMPGetResponse19 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -23,7 +23,7 @@ class SystemIntegratedIMPGetResponse19 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName serviceDomain
      * @Type string
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:3114
+     * @Group de4d76f01f337fe4694212ec9f771753:3113
      * @var string|null
      */
     private $serviceDomain = null;
@@ -32,7 +32,7 @@ class SystemIntegratedIMPGetResponse19 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName servicePort
      * @Type int
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:3114
+     * @Group de4d76f01f337fe4694212ec9f771753:3113
      * @var int|null
      */
     private $servicePort = null;
@@ -40,7 +40,7 @@ class SystemIntegratedIMPGetResponse19 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName addServiceProviderInIMPUserId
      * @Type bool
-     * @Group de4d76f01f337fe4694212ec9f771753:3114
+     * @Group de4d76f01f337fe4694212ec9f771753:3113
      * @var bool|null
      */
     private $addServiceProviderInIMPUserId = null;
@@ -49,7 +49,7 @@ class SystemIntegratedIMPGetResponse19 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName boshURL
      * @Type string
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:3114
+     * @Group de4d76f01f337fe4694212ec9f771753:3113
      * @var string|null
      */
     private $boshURL = null;

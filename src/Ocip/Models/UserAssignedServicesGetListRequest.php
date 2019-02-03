@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserAssignedServicesGetListResponse
  * @see ErrorResponse
- * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:709","type":"sequence"}]
+ * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:762","type":"sequence"}]
  */
 class UserAssignedServicesGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class UserAssignedServicesGetListRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName userId
      * @Type string
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:709
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:762
      * @var string|null
      */
     private $userId = null;

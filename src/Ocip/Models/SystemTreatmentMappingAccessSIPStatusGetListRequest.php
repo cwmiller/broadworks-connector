@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemTreatmentMappingAccessSIPStatusGetListResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:16736","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:17578","type":"sequence"}]
  */
 class SystemTreatmentMappingAccessSIPStatusGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

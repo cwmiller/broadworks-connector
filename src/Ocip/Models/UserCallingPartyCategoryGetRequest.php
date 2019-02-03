@@ -6,12 +6,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserCallingPartyCategoryGetRequest
  *
  * Request the user level data associated with Calling Party Category.
- *       The response is either a UserCallingPartyCategoryGetResponse or an
- *       ErrorResponse.
+ *                 The response is either a UserCallingPartyCategoryGetResponse or an
+ *                 ErrorResponse.
  *
  * @see UserCallingPartyCategoryGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:10671","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:10993","type":"sequence"}]
  */
 class UserCallingPartyCategoryGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class UserCallingPartyCategoryGetRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName userId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:10671
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:10993
      * @var string|null
      */
     private $userId = null;

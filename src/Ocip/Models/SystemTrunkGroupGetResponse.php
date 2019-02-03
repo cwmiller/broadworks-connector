@@ -6,12 +6,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemTrunkGroupGetResponse
  *
  * Response to SystemTrunkGroupGetRequest.
- *         
- *         Replaced by: SystemTrunkGroupGetResponse19sp1.
+ *
+ *                 Replaced by: SystemTrunkGroupGetResponse19sp1.
  *
  * @see SystemTrunkGroupGetRequest
  * @see SystemTrunkGroupGetResponse19sp1
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:30861","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:32000","type":"sequence"}]
  */
 class SystemTrunkGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,7 +19,7 @@ class SystemTrunkGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName enforceCLIDServiceAssignmentForPilotUser
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:30861
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:32000
      * @var bool|null
      */
     private $enforceCLIDServiceAssignmentForPilotUser = null;
@@ -27,7 +27,7 @@ class SystemTrunkGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName terminateUnreachableTriggerDetectionOnReceiptOf18x
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:30861
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:32000
      * @var bool|null
      */
     private $terminateUnreachableTriggerDetectionOnReceiptOf18x = null;
@@ -35,7 +35,7 @@ class SystemTrunkGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName pilotUserCallingLineAssertedIdentityPolicy
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupPilotUserCallingLineAssertedIdentityUsagePolicy
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:30861
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:32000
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupPilotUserCallingLineAssertedIdentityUsagePolicy|null
      */
     private $pilotUserCallingLineAssertedIdentityPolicy = null;
@@ -43,7 +43,7 @@ class SystemTrunkGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName enforceOutOfDialogPBXRedirectionPolicies
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:30861
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:32000
      * @var bool|null
      */
     private $enforceOutOfDialogPBXRedirectionPolicies = null;
@@ -51,7 +51,7 @@ class SystemTrunkGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName unscreenedRedirectionHandling
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupUnscreenedRedirectionHandling
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:30861
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:32000
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupUnscreenedRedirectionHandling|null
      */
     private $unscreenedRedirectionHandling = null;
@@ -59,7 +59,7 @@ class SystemTrunkGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName enableHoldoverOfHighwaterCallCounts
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:30861
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:32000
      * @var bool|null
      */
     private $enableHoldoverOfHighwaterCallCounts = null;
@@ -67,7 +67,7 @@ class SystemTrunkGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName holdoverPeriod
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupHighwaterCallCountHoldoverPeriodMinutes
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:30861
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:32000
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupHighwaterCallCountHoldoverPeriodMinutes|null
      */
     private $holdoverPeriod = null;
@@ -75,7 +75,7 @@ class SystemTrunkGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName timeZoneOffsetMinutes
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupTimeZoneOffsetMinutes
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:30861
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:32000
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupTimeZoneOffsetMinutes|null
      */
     private $timeZoneOffsetMinutes = null;

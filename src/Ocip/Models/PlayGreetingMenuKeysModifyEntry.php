@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * The voice portal play greeting menu keys modify entry.
  *
- * @Groups [{"id":"3347d430e0d5c93a9ff8dcf0e3b60d6c:2835","type":"sequence"}]
+ * @Groups [{"id":"3347d430e0d5c93a9ff8dcf0e3b60d6c:2907","type":"sequence"}]
  */
 class PlayGreetingMenuKeysModifyEntry
 {
@@ -17,7 +17,7 @@ class PlayGreetingMenuKeysModifyEntry
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2835
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2907
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $skipBackward = null;
@@ -27,7 +27,7 @@ class PlayGreetingMenuKeysModifyEntry
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2835
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2907
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $pauseOrResume = null;
@@ -37,7 +37,7 @@ class PlayGreetingMenuKeysModifyEntry
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2835
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2907
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $skipForward = null;
@@ -47,7 +47,7 @@ class PlayGreetingMenuKeysModifyEntry
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2835
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2907
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $jumpToBegin = null;
@@ -57,7 +57,7 @@ class PlayGreetingMenuKeysModifyEntry
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2835
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2907
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $jumpToEnd = null;

@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to ResellerCallCenterGetRequest.
  *
  * @see ResellerCallCenterGetRequest
- * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:5933","type":"sequence"}]
+ * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:5982","type":"sequence"}]
  */
 class ResellerCallCenterGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class ResellerCallCenterGetResponse extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName defaultFromAddress
      * @Type string
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:5933
+     * @Group e2c537e3e39483b96620673a7012ffdd:5982
      * @var string|null
      */
     private $defaultFromAddress = null;

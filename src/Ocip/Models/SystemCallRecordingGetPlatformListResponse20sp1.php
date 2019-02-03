@@ -6,19 +6,20 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemCallRecordingGetPlatformListResponse20sp1
  *
  * Response to SystemCallRecordingGetPlatformListRequest20sp1.
- *          Contains the default system Call Recording platform and a table with columns headings "Name", "Net Address", "Port", 
- *          "Transport Type", "Media Stream", "Description", "Schema Version", "Support Video Rec".  
- *          The system default recording platform also appears in the table with the other platforms.
- *          
- *          The port can be empty if it is not defined in the recording platform.
- *          The possible values for "Support Video Rec" can be either true or false.
- *          Schema version values include: 1.0, 2.0, 3.0
- * 		 
- * 		 Replaced by SystemCallRecordingGetPlatformListResponse22 in AS data mode.
+ *                 Contains the default system Call Recording platform and a table with columns headings "Name", "Net
+ *                 Address", "Port",
+ *                 "Transport Type", "Media Stream", "Description", "Schema Version", "Support Video Rec".
+ *                 The system default recording platform also appears in the table with the other platforms.
+ *
+ *                 The port can be empty if it is not defined in the recording platform.
+ *                 The possible values for "Support Video Rec" can be either true or false.
+ *                 Schema version values include: 1.0, 2.0, 3.0
+ *
+ *                 Replaced by SystemCallRecordingGetPlatformListResponse22 in AS data mode.
  *
  * @see SystemCallRecordingGetPlatformListRequest20sp1
  * @see SystemCallRecordingGetPlatformListResponse22
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:40142","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:41701","type":"sequence"}]
  */
 class SystemCallRecordingGetPlatformListResponse20sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -27,7 +28,7 @@ class SystemCallRecordingGetPlatformListResponse20sp1 extends \CWM\BroadWorksCon
      * @ElementName systemDefault
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:40142
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:41701
      * @var string|null
      */
     private $systemDefault = null;
@@ -35,7 +36,7 @@ class SystemCallRecordingGetPlatformListResponse20sp1 extends \CWM\BroadWorksCon
     /**
      * @ElementName callRecordingPlatformTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:40142
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:41701
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $callRecordingPlatformTable = null;

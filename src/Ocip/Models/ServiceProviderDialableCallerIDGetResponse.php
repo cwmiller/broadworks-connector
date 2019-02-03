@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The criteria table?s column headings are ?Active?, "Name", "Description", ?Prefix Digits?, and ?Priority?.
  *
  * @see ServiceProviderDialableCallerIDGetRequest
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:2858","type":"sequence"}]
+ * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:2854","type":"sequence"}]
  */
 class ServiceProviderDialableCallerIDGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class ServiceProviderDialableCallerIDGetResponse extends \CWM\BroadWorksConnecto
     /**
      * @ElementName useServiceProviderCriteria
      * @Type bool
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2858
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2854
      * @var bool|null
      */
     private $useServiceProviderCriteria = null;
@@ -25,7 +25,7 @@ class ServiceProviderDialableCallerIDGetResponse extends \CWM\BroadWorksConnecto
     /**
      * @ElementName nsScreeningFailurePolicy
      * @Type \CWM\BroadWorksConnector\Ocip\Models\NsScreeningFailurePolicy
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2858
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2854
      * @var \CWM\BroadWorksConnector\Ocip\Models\NsScreeningFailurePolicy|null
      */
     private $nsScreeningFailurePolicy = null;
@@ -33,7 +33,7 @@ class ServiceProviderDialableCallerIDGetResponse extends \CWM\BroadWorksConnecto
     /**
      * @ElementName criteriaTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2858
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2854
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $criteriaTable = null;

@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the SystemCrInterfaceGetRequest22.
  *
  * @see SystemCrInterfaceGetRequest22
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:6617","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:6909","type":"sequence"}]
  */
 class SystemCrInterfaceGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class SystemCrInterfaceGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName crAuditEnabled
      * @Type bool
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6617
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6909
      * @var bool|null
      */
     private $crAuditEnabled = null;
@@ -24,7 +24,7 @@ class SystemCrInterfaceGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName crAuditIntervalMilliseconds
      * @Type int
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6617
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6909
      * @var int|null
      */
     private $crAuditIntervalMilliseconds = null;
@@ -32,7 +32,7 @@ class SystemCrInterfaceGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName crAuditTimeoutMilliseconds
      * @Type int
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6617
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6909
      * @var int|null
      */
     private $crAuditTimeoutMilliseconds = null;
@@ -40,7 +40,7 @@ class SystemCrInterfaceGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName crConnectionEnabled
      * @Type bool
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6617
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6909
      * @var bool|null
      */
     private $crConnectionEnabled = null;
@@ -48,7 +48,7 @@ class SystemCrInterfaceGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName crConnectionTimeoutMilliseconds
      * @Type int
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6617
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6909
      * @var int|null
      */
     private $crConnectionTimeoutMilliseconds = null;
@@ -56,7 +56,7 @@ class SystemCrInterfaceGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName crTcpConnectionTimeoutSeconds
      * @Type int
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6617
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6909
      * @var int|null
      */
     private $crTcpConnectionTimeoutSeconds = null;
@@ -64,7 +64,7 @@ class SystemCrInterfaceGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName crNumberOfReconnectionAttempts
      * @Type int
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6617
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6909
      * @var int|null
      */
     private $crNumberOfReconnectionAttempts = null;

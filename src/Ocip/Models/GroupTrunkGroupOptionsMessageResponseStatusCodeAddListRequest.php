@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"b9c14e2d80e4e7749688ca13ba233b44:1339","type":"sequence"}]
+ * @Groups [{"id":"b9c14e2d80e4e7749688ca13ba233b44:1430","type":"sequence"}]
  */
 class GroupTrunkGroupOptionsMessageResponseStatusCodeAddListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupTrunkGroupOptionsMessageResponseStatusCodeAddListRequest extends \CWM
     /**
      * @ElementName trunkGroupKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey
-     * @Group b9c14e2d80e4e7749688ca13ba233b44:1339
+     * @Group b9c14e2d80e4e7749688ca13ba233b44:1430
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey|null
      */
     private $trunkGroupKey = null;
@@ -27,7 +27,7 @@ class GroupTrunkGroupOptionsMessageResponseStatusCodeAddListRequest extends \CWM
      * @ElementName statusCode
      * @Type string
      * @Array
-     * @Group b9c14e2d80e4e7749688ca13ba233b44:1339
+     * @Group b9c14e2d80e4e7749688ca13ba233b44:1430
      * @var string[]
      */
     private $statusCode = array(

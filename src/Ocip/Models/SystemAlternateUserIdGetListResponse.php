@@ -14,7 +14,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           "Reseller Id"
  *
  * @see SystemAlternateUserIdGetListRequest
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:1851","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:1848","type":"sequence"}]
  */
 class SystemAlternateUserIdGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -22,7 +22,7 @@ class SystemAlternateUserIdGetListResponse extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName alternateUserIdTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1851
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1848
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $alternateUserIdTable = null;

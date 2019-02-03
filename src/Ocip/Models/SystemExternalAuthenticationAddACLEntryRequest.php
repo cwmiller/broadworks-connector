@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemExternalAuthenticationAddACLEntryRequest
  *
  * Add an entry to the external authentication access control list.
- *         The response is either SuccessResponse or ErrorResponse.
+ *                 The response is either SuccessResponse or ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:4965","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:5155","type":"sequence"}]
  */
 class SystemExternalAuthenticationAddACLEntryRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemExternalAuthenticationAddACLEntryRequest extends \CWM\BroadWorksConn
     /**
      * @ElementName netAddress
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:4965
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:5155
      * @var string|null
      */
     private $netAddress = null;
@@ -27,7 +27,7 @@ class SystemExternalAuthenticationAddACLEntryRequest extends \CWM\BroadWorksConn
      * @ElementName description
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:4965
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:5155
      * @var string|null
      */
     private $description = null;

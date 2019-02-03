@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"0d36df8c109e3ea7324f79031368c661:502","type":"sequence"}]
+ * @Groups [{"id":"0d36df8c109e3ea7324f79031368c661:500","type":"sequence"}]
  */
 class GroupGroupPagingTargetsCapacityModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupGroupPagingTargetsCapacityModifyRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 0d36df8c109e3ea7324f79031368c661:502
+     * @Group 0d36df8c109e3ea7324f79031368c661:500
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,7 +26,7 @@ class GroupGroupPagingTargetsCapacityModifyRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 0d36df8c109e3ea7324f79031368c661:502
+     * @Group 0d36df8c109e3ea7324f79031368c661:500
      * @var string|null
      */
     private $groupId = null;
@@ -35,7 +35,7 @@ class GroupGroupPagingTargetsCapacityModifyRequest extends \CWM\BroadWorksConnec
      * @ElementName maximumTargetUsers
      * @Type int
      * @Optional
-     * @Group 0d36df8c109e3ea7324f79031368c661:502
+     * @Group 0d36df8c109e3ea7324f79031368c661:500
      * @var int|null
      */
     private $maximumTargetUsers = null;

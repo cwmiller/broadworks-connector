@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "authorizable" is applicable for user services and group services; it is not returned for service packs.
  *
  * @see GroupServiceGetAuthorizationRequest
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:6792","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:6790","type":"sequence"}]
  */
 class GroupServiceGetAuthorizationResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -20,7 +20,7 @@ class GroupServiceGetAuthorizationResponse extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName authorized
      * @Type bool
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6792
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:6790
      * @var bool|null
      */
     private $authorized = null;
@@ -29,7 +29,7 @@ class GroupServiceGetAuthorizationResponse extends \CWM\BroadWorksConnector\Ocip
      * @ElementName authorizedQuantity
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6792
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:6790
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt|null
      */
     private $authorizedQuantity = null;
@@ -38,7 +38,7 @@ class GroupServiceGetAuthorizationResponse extends \CWM\BroadWorksConnector\Ocip
      * @ElementName usedQuantity
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6792
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:6790
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt|null
      */
     private $usedQuantity = null;
@@ -47,7 +47,7 @@ class GroupServiceGetAuthorizationResponse extends \CWM\BroadWorksConnector\Ocip
      * @ElementName authorizable
      * @Type bool
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6792
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:6790
      * @var bool|null
      */
     private $authorizable = null;

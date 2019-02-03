@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:12225","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:12661","type":"sequence"}]
  */
 class SystemOCIReportingModifyACLEntryRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemOCIReportingModifyACLEntryRequest extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName netAddress
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12225
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12661
      * @var string|null
      */
     private $netAddress = null;
@@ -28,7 +28,7 @@ class SystemOCIReportingModifyACLEntryRequest extends \CWM\BroadWorksConnector\O
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12225
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12661
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $description = null;
@@ -37,7 +37,7 @@ class SystemOCIReportingModifyACLEntryRequest extends \CWM\BroadWorksConnector\O
      * @ElementName restrictMessages
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12225
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12661
      * @var bool|null
      */
     private $restrictMessages = null;

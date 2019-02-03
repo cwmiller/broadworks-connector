@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * The voice portal send to person menu keys.
  *
- * @Groups [{"id":"3347d430e0d5c93a9ff8dcf0e3b60d6c:3139","type":"sequence"}]
+ * @Groups [{"id":"3347d430e0d5c93a9ff8dcf0e3b60d6c:3211","type":"sequence"}]
  */
 class SendToPersonMenuKeysReadEntry
 {
@@ -15,7 +15,7 @@ class SendToPersonMenuKeysReadEntry
     /**
      * @ElementName confirmSendingMessage
      * @Type string
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:3139
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:3211
      * @var string|null
      */
     private $confirmSendingMessage = null;
@@ -23,7 +23,7 @@ class SendToPersonMenuKeysReadEntry
     /**
      * @ElementName cancelSendingMessage
      * @Type string
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:3139
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:3211
      * @var string|null
      */
     private $cancelSendingMessage = null;
@@ -31,7 +31,7 @@ class SendToPersonMenuKeysReadEntry
     /**
      * @ElementName finishEnteringNumberWhereToSendMessageTo
      * @Type string
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:3139
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:3211
      * @var string|null
      */
     private $finishEnteringNumberWhereToSendMessageTo = null;
@@ -39,7 +39,7 @@ class SendToPersonMenuKeysReadEntry
     /**
      * @ElementName finishForwardingOrSendingMessage
      * @Type string
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:3139
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:3211
      * @var string|null
      */
     private $finishForwardingOrSendingMessage = null;

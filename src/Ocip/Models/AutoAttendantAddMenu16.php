@@ -6,9 +6,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * AutoAttendantAddMenu16
  *
  * The configuration of the automated receptionist greeting
- *         prompt and dialing menu to be used during after business hours.
+ *                 prompt and dialing menu to be used during after business hours.
  *
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:42643","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:44258","type":"sequence"}]
  */
 class AutoAttendantAddMenu16
 {
@@ -16,7 +16,7 @@ class AutoAttendantAddMenu16
     /**
      * @ElementName announcementSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:42643
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:44258
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection|null
      */
     private $announcementSelection = null;
@@ -25,7 +25,7 @@ class AutoAttendantAddMenu16
      * @ElementName audioFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:42643
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:44258
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null
      */
     private $audioFile = null;
@@ -34,7 +34,7 @@ class AutoAttendantAddMenu16
      * @ElementName videoFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:42643
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:44258
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null
      */
     private $videoFile = null;
@@ -42,7 +42,7 @@ class AutoAttendantAddMenu16
     /**
      * @ElementName enableFirstMenuLevelExtensionDialing
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:42643
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:44258
      * @var bool|null
      */
     private $enableFirstMenuLevelExtensionDialing = null;
@@ -52,7 +52,7 @@ class AutoAttendantAddMenu16
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantKeyConfiguration
      * @Array
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:42643
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:44258
      * @var \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantKeyConfiguration[]
      */
     private $keyConfiguration = array(

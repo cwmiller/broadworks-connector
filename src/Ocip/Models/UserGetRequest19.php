@@ -5,12 +5,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * UserGetRequest19
  *
- * Request to get the user information.  The response is either 
- *         UserGetResponse19 or ErrorResponse.
+ * Request to get the user information. The response is either UserGetResponse19 or ErrorResponse.
  *
  * @see UserGetResponse19
  * @see ErrorResponse
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:31491","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:32644","type":"sequence"}]
  */
 class UserGetRequest19 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +17,7 @@ class UserGetRequest19 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
     /**
      * @ElementName userId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:31491
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:32644
      * @var string|null
      */
     private $userId = null;

@@ -14,7 +14,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:1947","type":"sequence","children":[{"id":"e2c537e3e39483b96620673a7012ffdd:1949","type":"choice"}]}]
+ * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:1943","type":"sequence","children":[{"id":"e2c537e3e39483b96620673a7012ffdd:1945","type":"choice"}]}]
  */
 class GroupCallCenterAddAgentListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -22,7 +22,7 @@ class GroupCallCenterAddAgentListRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group e2c537e3e39483b96620673a7012ffdd:1947
+     * @Group e2c537e3e39483b96620673a7012ffdd:1943
      * @var string|null
      */
     private $serviceUserId = null;
@@ -31,7 +31,7 @@ class GroupCallCenterAddAgentListRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName agentUserId
      * @Type string
      * @Array
-     * @Group e2c537e3e39483b96620673a7012ffdd:1949
+     * @Group e2c537e3e39483b96620673a7012ffdd:1945
      * @var string[]
      */
     private $agentUserId = array(
@@ -42,7 +42,7 @@ class GroupCallCenterAddAgentListRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName agentSkillList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterSkillAgentList
      * @Array
-     * @Group e2c537e3e39483b96620673a7012ffdd:1949
+     * @Group e2c537e3e39483b96620673a7012ffdd:1945
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterSkillAgentList[]
      */
     private $agentSkillList = array(

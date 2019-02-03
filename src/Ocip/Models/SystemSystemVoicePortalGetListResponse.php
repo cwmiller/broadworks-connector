@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The possible values for "Default" are true, false.
  *
  * @see SystemSystemVoicePortalGetListRequest
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:16574","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:17416","type":"sequence"}]
  */
 class SystemSystemVoicePortalGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class SystemSystemVoicePortalGetListResponse extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName systemVoicePortalsTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16574
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17416
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $systemVoicePortalsTable = null;

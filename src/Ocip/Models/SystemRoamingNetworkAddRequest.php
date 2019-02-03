@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:13292","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:13845","type":"sequence"}]
  */
 class SystemRoamingNetworkAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemRoamingNetworkAddRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName mscAddress
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:13292
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:13845
      * @var string|null
      */
     private $mscAddress = null;
@@ -27,7 +27,7 @@ class SystemRoamingNetworkAddRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName networkTranslationIndex
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:13292
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:13845
      * @var string|null
      */
     private $networkTranslationIndex = null;

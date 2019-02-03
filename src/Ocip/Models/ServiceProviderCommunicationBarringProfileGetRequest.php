@@ -6,12 +6,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ServiceProviderCommunicationBarringProfileGetRequest
  *
  * Get an existing Communication Barring Profile.
- *         The response is either a ServiceProviderCommunicationBarringProfileGetResponse
- *         or an ErrorResponse.
+ *                 The response is either a ServiceProviderCommunicationBarringProfileGetResponse
+ *                 or an ErrorResponse.
  *
  * @see ServiceProviderCommunicationBarringProfileGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:20246","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:20919","type":"sequence"}]
  */
 class ServiceProviderCommunicationBarringProfileGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class ServiceProviderCommunicationBarringProfileGetRequest extends \CWM\BroadWor
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:20246
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:20919
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,7 +27,7 @@ class ServiceProviderCommunicationBarringProfileGetRequest extends \CWM\BroadWor
     /**
      * @ElementName name
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:20246
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:20919
      * @var string|null
      */
     private $name = null;

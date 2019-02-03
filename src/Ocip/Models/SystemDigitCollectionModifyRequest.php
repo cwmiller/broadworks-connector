@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:7857","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:8194","type":"sequence"}]
  */
 class SystemDigitCollectionModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class SystemDigitCollectionModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7857
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8194
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $accessCode = null;
@@ -29,7 +29,7 @@ class SystemDigitCollectionModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName publicDigitMap
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7857
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8194
      * @var string|null
      */
     private $publicDigitMap = null;
@@ -39,7 +39,7 @@ class SystemDigitCollectionModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7857
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8194
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $privateDigitMap = null;

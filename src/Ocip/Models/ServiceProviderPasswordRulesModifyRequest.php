@@ -6,14 +6,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ServiceProviderPasswordRulesModifyRequest
  *
  * Request to modify the service provider's password rules settings
- *         setting applicable to Administrators (Group and Department) and Users.
- *         The response is either SuccessResponse or ErrorResponse.
- *         Replaced By: ServiceProviderPasswordRulesModifyRequest14sp3
+ *                 setting applicable to Administrators (Group and Department) and Users.
+ *                 The response is either SuccessResponse or ErrorResponse.
+ *                 Replaced By: ServiceProviderPasswordRulesModifyRequest14sp3
  *
  * @see SuccessResponse
  * @see ErrorResponse
  * @see ServiceProviderPasswordRulesModifyRequest14sp3
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:3635","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:3777","type":"sequence"}]
  */
 class ServiceProviderPasswordRulesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,7 +21,7 @@ class ServiceProviderPasswordRulesModifyRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:3635
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:3777
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -30,7 +30,7 @@ class ServiceProviderPasswordRulesModifyRequest extends \CWM\BroadWorksConnector
      * @ElementName rulesApplyTo
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderPasswordRulesApplyTo
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:3635
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:3777
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderPasswordRulesApplyTo|null
      */
     private $rulesApplyTo = null;
@@ -39,7 +39,7 @@ class ServiceProviderPasswordRulesModifyRequest extends \CWM\BroadWorksConnector
      * @ElementName allowWebAddExternalAuthenticationUsers
      * @Type bool
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:3635
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:3777
      * @var bool|null
      */
     private $allowWebAddExternalAuthenticationUsers = null;
@@ -48,7 +48,7 @@ class ServiceProviderPasswordRulesModifyRequest extends \CWM\BroadWorksConnector
      * @ElementName disallowUserId
      * @Type bool
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:3635
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:3777
      * @var bool|null
      */
     private $disallowUserId = null;
@@ -57,7 +57,7 @@ class ServiceProviderPasswordRulesModifyRequest extends \CWM\BroadWorksConnector
      * @ElementName disallowOldPassword
      * @Type bool
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:3635
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:3777
      * @var bool|null
      */
     private $disallowOldPassword = null;
@@ -66,7 +66,7 @@ class ServiceProviderPasswordRulesModifyRequest extends \CWM\BroadWorksConnector
      * @ElementName disallowReversedOldPassword
      * @Type bool
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:3635
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:3777
      * @var bool|null
      */
     private $disallowReversedOldPassword = null;
@@ -75,7 +75,7 @@ class ServiceProviderPasswordRulesModifyRequest extends \CWM\BroadWorksConnector
      * @ElementName restrictMinDigits
      * @Type bool
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:3635
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:3777
      * @var bool|null
      */
     private $restrictMinDigits = null;
@@ -84,7 +84,7 @@ class ServiceProviderPasswordRulesModifyRequest extends \CWM\BroadWorksConnector
      * @ElementName minDigits
      * @Type int
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:3635
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:3777
      * @var int|null
      */
     private $minDigits = null;
@@ -93,7 +93,7 @@ class ServiceProviderPasswordRulesModifyRequest extends \CWM\BroadWorksConnector
      * @ElementName restrictMinUpperCaseLetters
      * @Type bool
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:3635
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:3777
      * @var bool|null
      */
     private $restrictMinUpperCaseLetters = null;
@@ -102,7 +102,7 @@ class ServiceProviderPasswordRulesModifyRequest extends \CWM\BroadWorksConnector
      * @ElementName minUpperCaseLetters
      * @Type int
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:3635
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:3777
      * @var int|null
      */
     private $minUpperCaseLetters = null;
@@ -111,7 +111,7 @@ class ServiceProviderPasswordRulesModifyRequest extends \CWM\BroadWorksConnector
      * @ElementName restrictMinLowerCaseLetters
      * @Type bool
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:3635
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:3777
      * @var bool|null
      */
     private $restrictMinLowerCaseLetters = null;
@@ -120,7 +120,7 @@ class ServiceProviderPasswordRulesModifyRequest extends \CWM\BroadWorksConnector
      * @ElementName minLowerCaseLetters
      * @Type int
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:3635
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:3777
      * @var int|null
      */
     private $minLowerCaseLetters = null;
@@ -129,7 +129,7 @@ class ServiceProviderPasswordRulesModifyRequest extends \CWM\BroadWorksConnector
      * @ElementName restrictMinNonAlphanumericCharacters
      * @Type bool
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:3635
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:3777
      * @var bool|null
      */
     private $restrictMinNonAlphanumericCharacters = null;
@@ -138,7 +138,7 @@ class ServiceProviderPasswordRulesModifyRequest extends \CWM\BroadWorksConnector
      * @ElementName minNonAlphanumericCharacters
      * @Type int
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:3635
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:3777
      * @var int|null
      */
     private $minNonAlphanumericCharacters = null;
@@ -147,7 +147,7 @@ class ServiceProviderPasswordRulesModifyRequest extends \CWM\BroadWorksConnector
      * @ElementName minLength
      * @Type int
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:3635
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:3777
      * @var int|null
      */
     private $minLength = null;
@@ -156,7 +156,7 @@ class ServiceProviderPasswordRulesModifyRequest extends \CWM\BroadWorksConnector
      * @ElementName maxFailedLoginAttempts
      * @Type int
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:3635
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:3777
      * @var int|null
      */
     private $maxFailedLoginAttempts = null;
@@ -165,7 +165,7 @@ class ServiceProviderPasswordRulesModifyRequest extends \CWM\BroadWorksConnector
      * @ElementName passwordExpiresDays
      * @Type int
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:3635
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:3777
      * @var int|null
      */
     private $passwordExpiresDays = null;
@@ -174,7 +174,7 @@ class ServiceProviderPasswordRulesModifyRequest extends \CWM\BroadWorksConnector
      * @ElementName sendLoginDisabledNotifyEmail
      * @Type bool
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:3635
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:3777
      * @var bool|null
      */
     private $sendLoginDisabledNotifyEmail = null;
@@ -184,7 +184,7 @@ class ServiceProviderPasswordRulesModifyRequest extends \CWM\BroadWorksConnector
      * @Type string
      * @Nillable
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:3635
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:3777
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $loginDisabledNotifyEmailAddress = null;
@@ -193,7 +193,7 @@ class ServiceProviderPasswordRulesModifyRequest extends \CWM\BroadWorksConnector
      * @ElementName disallowRulesModification
      * @Type bool
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:3635
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:3777
      * @var bool|null
      */
     private $disallowRulesModification = null;

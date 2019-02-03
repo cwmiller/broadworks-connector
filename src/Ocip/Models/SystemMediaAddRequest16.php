@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:10161","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:10599","type":"sequence"}]
  */
 class SystemMediaAddRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemMediaAddRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
     /**
      * @ElementName mediaName
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10161
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10599
      * @var string|null
      */
     private $mediaName = null;
@@ -26,7 +26,7 @@ class SystemMediaAddRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
     /**
      * @ElementName codecName
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10161
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10599
      * @var string|null
      */
     private $codecName = null;
@@ -34,7 +34,7 @@ class SystemMediaAddRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
     /**
      * @ElementName mediaType
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10161
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10599
      * @var string|null
      */
     private $mediaType = null;
@@ -42,7 +42,7 @@ class SystemMediaAddRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
     /**
      * @ElementName bandwidthEnforcementType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MediaBandwidthEnforcementType
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10161
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10599
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaBandwidthEnforcementType|null
      */
     private $bandwidthEnforcementType = null;
@@ -51,7 +51,7 @@ class SystemMediaAddRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @ElementName mediaBandwidth
      * @Type int
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10161
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10599
      * @var int|null
      */
     private $mediaBandwidth = null;

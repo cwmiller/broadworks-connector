@@ -19,7 +19,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           useGsmMwiUcs2Encoding, value "true" is returned in Amplify mode
  *
  * @see SystemSMPPGetRequest22
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:16043","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:16885","type":"sequence"}]
  */
 class SystemSMPPGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -28,7 +28,7 @@ class SystemSMPPGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @ElementName primarySMPPServerNetAddress
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16043
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16885
      * @var string|null
      */
     private $primarySMPPServerNetAddress = null;
@@ -36,7 +36,7 @@ class SystemSMPPGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
     /**
      * @ElementName primarySMPPPort
      * @Type int
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16043
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16885
      * @var int|null
      */
     private $primarySMPPPort = null;
@@ -45,7 +45,7 @@ class SystemSMPPGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @ElementName secondarySMPPServerNetAddress
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16043
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16885
      * @var string|null
      */
     private $secondarySMPPServerNetAddress = null;
@@ -53,7 +53,7 @@ class SystemSMPPGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
     /**
      * @ElementName secondarySMPPPort
      * @Type int
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16043
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16885
      * @var int|null
      */
     private $secondarySMPPPort = null;
@@ -62,7 +62,7 @@ class SystemSMPPGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @ElementName systemId
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16043
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16885
      * @var string|null
      */
     private $systemId = null;
@@ -71,7 +71,7 @@ class SystemSMPPGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @ElementName password
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16043
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16885
      * @var string|null
      */
     private $password = null;
@@ -79,7 +79,7 @@ class SystemSMPPGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
     /**
      * @ElementName version
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SMPPVersion
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16043
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16885
      * @var \CWM\BroadWorksConnector\Ocip\Models\SMPPVersion|null
      */
     private $version = null;
@@ -88,7 +88,7 @@ class SystemSMPPGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @ElementName systemType
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16043
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16885
      * @var string|null
      */
     private $systemType = null;
@@ -96,7 +96,7 @@ class SystemSMPPGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
     /**
      * @ElementName enableMWICustomizedMessage
      * @Type bool
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16043
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16885
      * @var bool|null
      */
     private $enableMWICustomizedMessage = null;
@@ -104,7 +104,7 @@ class SystemSMPPGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
     /**
      * @ElementName supportMessagePayload
      * @Type bool
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16043
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16885
      * @var bool|null
      */
     private $supportMessagePayload = null;
@@ -112,7 +112,7 @@ class SystemSMPPGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
     /**
      * @ElementName maxShortMessageLength
      * @Type int
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16043
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16885
      * @var int|null
      */
     private $maxShortMessageLength = null;
@@ -120,7 +120,7 @@ class SystemSMPPGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
     /**
      * @ElementName useGsmMwiUcs2Encoding
      * @Type bool
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16043
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16885
      * @var bool|null
      */
     private $useGsmMwiUcs2Encoding = null;
@@ -128,7 +128,7 @@ class SystemSMPPGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
     /**
      * @ElementName includeOnlyNewMessageCount
      * @Type bool
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16043
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16885
      * @var bool|null
      */
     private $includeOnlyNewMessageCount = null;

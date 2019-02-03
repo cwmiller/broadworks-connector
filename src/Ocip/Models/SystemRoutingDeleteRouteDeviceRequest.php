@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:13609","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:14162","type":"sequence"}]
  */
 class SystemRoutingDeleteRouteDeviceRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemRoutingDeleteRouteDeviceRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName routeName
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:13609
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14162
      * @var string|null
      */
     private $routeName = null;
@@ -26,7 +26,7 @@ class SystemRoutingDeleteRouteDeviceRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName netAddress
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:13609
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14162
      * @var string|null
      */
     private $netAddress = null;
@@ -35,7 +35,7 @@ class SystemRoutingDeleteRouteDeviceRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName port
      * @Type int
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:13609
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14162
      * @var int|null
      */
     private $port = null;

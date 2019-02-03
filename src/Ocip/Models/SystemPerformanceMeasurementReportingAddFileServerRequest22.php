@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:12649","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:13185","type":"sequence"}]
  */
 class SystemPerformanceMeasurementReportingAddFileServerRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemPerformanceMeasurementReportingAddFileServerRequest22 extends \CWM\B
     /**
      * @ElementName repositoryUrl
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12649
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:13185
      * @var string|null
      */
     private $repositoryUrl = null;
@@ -26,7 +26,7 @@ class SystemPerformanceMeasurementReportingAddFileServerRequest22 extends \CWM\B
     /**
      * @ElementName ftpUserId
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12649
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:13185
      * @var string|null
      */
     private $ftpUserId = null;
@@ -34,7 +34,7 @@ class SystemPerformanceMeasurementReportingAddFileServerRequest22 extends \CWM\B
     /**
      * @ElementName ftpUserPassword
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12649
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:13185
      * @var string|null
      */
     private $ftpUserPassword = null;
@@ -43,7 +43,7 @@ class SystemPerformanceMeasurementReportingAddFileServerRequest22 extends \CWM\B
      * @ElementName passiveFTP
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12649
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:13185
      * @var bool|null
      */
     private $passiveFTP = null;

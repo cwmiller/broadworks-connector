@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:14120","type":"sequence","children":[{"id":"7f663d5135470c33ca64b0eed3c3aa0c:14125","type":"choice","optional":true,"children":[{"id":"7f663d5135470c33ca64b0eed3c3aa0c:14127","type":"sequence"}]}]}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:14673","type":"sequence","children":[{"id":"7f663d5135470c33ca64b0eed3c3aa0c:14678","type":"choice","optional":true,"children":[{"id":"7f663d5135470c33ca64b0eed3c3aa0c:14680","type":"sequence"}]}]}]
  */
 class SystemScheduleModifyEventRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class SystemScheduleModifyEventRequest extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName scheduleKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ScheduleKey
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14120
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14673
      * @var \CWM\BroadWorksConnector\Ocip\Models\ScheduleKey|null
      */
     private $scheduleKey = null;
@@ -28,7 +28,7 @@ class SystemScheduleModifyEventRequest extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName eventName
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14120
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14673
      * @var string|null
      */
     private $eventName = null;
@@ -37,7 +37,7 @@ class SystemScheduleModifyEventRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName newEventName
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14120
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14673
      * @var string|null
      */
     private $newEventName = null;
@@ -46,7 +46,7 @@ class SystemScheduleModifyEventRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName startDate
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14120
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14673
      * @var string|null
      */
     private $startDate = null;
@@ -54,7 +54,7 @@ class SystemScheduleModifyEventRequest extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName allDayEvent
      * @Type bool
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14125
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14678
      * @var bool|null
      */
     private $allDayEvent = null;
@@ -62,7 +62,7 @@ class SystemScheduleModifyEventRequest extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName startTime
      * @Type \CWM\BroadWorksConnector\Ocip\Models\HourMinute
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14127
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14680
      * @var \CWM\BroadWorksConnector\Ocip\Models\HourMinute|null
      */
     private $startTime = null;
@@ -70,7 +70,7 @@ class SystemScheduleModifyEventRequest extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName endTime
      * @Type \CWM\BroadWorksConnector\Ocip\Models\HourMinute
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14127
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14680
      * @var \CWM\BroadWorksConnector\Ocip\Models\HourMinute|null
      */
     private $endTime = null;
@@ -79,7 +79,7 @@ class SystemScheduleModifyEventRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName endDate
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14120
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14673
      * @var string|null
      */
     private $endDate = null;
@@ -89,7 +89,7 @@ class SystemScheduleModifyEventRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Type \CWM\BroadWorksConnector\Ocip\Models\Recurrence
      * @Nillable
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14120
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14673
      * @var \CWM\BroadWorksConnector\Ocip\Models\Recurrence|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $recurrence = null;

@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           allowDeviceCredentialsRetrieval, value "false" is returned in XS data mode
  *
  * @see SystemCPEConfigParametersGetRequest21
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:6441","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:6733","type":"sequence"}]
  */
 class SystemCPEConfigParametersGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -20,7 +20,7 @@ class SystemCPEConfigParametersGetResponse21 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName enableIPDeviceManagement
      * @Type bool
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6441
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6733
      * @var bool|null
      */
     private $enableIPDeviceManagement = null;
@@ -28,7 +28,7 @@ class SystemCPEConfigParametersGetResponse21 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName ftpConnectTimeoutSeconds
      * @Type int
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6441
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6733
      * @var int|null
      */
     private $ftpConnectTimeoutSeconds = null;
@@ -36,7 +36,7 @@ class SystemCPEConfigParametersGetResponse21 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName ftpFileTransferTimeoutSeconds
      * @Type int
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6441
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6733
      * @var int|null
      */
     private $ftpFileTransferTimeoutSeconds = null;
@@ -44,7 +44,7 @@ class SystemCPEConfigParametersGetResponse21 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName pauseBetweenFileRebuildMilliseconds
      * @Type int
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6441
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6733
      * @var int|null
      */
     private $pauseBetweenFileRebuildMilliseconds = null;
@@ -53,7 +53,7 @@ class SystemCPEConfigParametersGetResponse21 extends \CWM\BroadWorksConnector\Oc
      * @ElementName deviceAccessAppServerClusterName
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6441
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6733
      * @var string|null
      */
     private $deviceAccessAppServerClusterName = null;
@@ -61,7 +61,7 @@ class SystemCPEConfigParametersGetResponse21 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName minTimeBetweenResetMilliseconds
      * @Type int
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6441
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6733
      * @var int|null
      */
     private $minTimeBetweenResetMilliseconds = null;
@@ -69,7 +69,7 @@ class SystemCPEConfigParametersGetResponse21 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName alwaysPushFilesOnRebuild
      * @Type bool
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6441
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6733
      * @var bool|null
      */
     private $alwaysPushFilesOnRebuild = null;
@@ -77,7 +77,7 @@ class SystemCPEConfigParametersGetResponse21 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName maxFileOperationRetryAttempts
      * @Type int
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6441
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6733
      * @var int|null
      */
     private $maxFileOperationRetryAttempts = null;
@@ -85,7 +85,7 @@ class SystemCPEConfigParametersGetResponse21 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName enableAutoRebuildConfig
      * @Type bool
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6441
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6733
      * @var bool|null
      */
     private $enableAutoRebuildConfig = null;
@@ -93,7 +93,7 @@ class SystemCPEConfigParametersGetResponse21 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName eventQueueSize
      * @Type int
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6441
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6733
      * @var int|null
      */
     private $eventQueueSize = null;
@@ -101,7 +101,7 @@ class SystemCPEConfigParametersGetResponse21 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName allowDeviceCredentialsRetrieval
      * @Type bool
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6441
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6733
      * @var bool|null
      */
     private $allowDeviceCredentialsRetrieval = null;

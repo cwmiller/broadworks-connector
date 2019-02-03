@@ -5,14 +5,18 @@ namespace CWM\BroadWorksConnector\Ocip\Traits;
 use CWM\BroadWorksConnector\Ocip\Models\GroupCallRecordingGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupCallRecordingGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupCallRecordingModifyRequest;
+use CWM\BroadWorksConnector\Ocip\Models\SystemCallRecordingAddPlatformRequest20;
 use CWM\BroadWorksConnector\Ocip\Models\SystemCallRecordingAddPlatformRequest22;
 use CWM\BroadWorksConnector\Ocip\Models\SystemCallRecordingDeletePlatformRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemCallRecordingGetPlatformListRequest22V2;
 use CWM\BroadWorksConnector\Ocip\Models\SystemCallRecordingGetPlatformListResponse22V2;
 use CWM\BroadWorksConnector\Ocip\Models\SystemCallRecordingGetPlatformUsageRequest22;
 use CWM\BroadWorksConnector\Ocip\Models\SystemCallRecordingGetPlatformUsageResponse22;
+use CWM\BroadWorksConnector\Ocip\Models\SystemCallRecordingGetRequest22;
+use CWM\BroadWorksConnector\Ocip\Models\SystemCallRecordingGetResponse22;
 use CWM\BroadWorksConnector\Ocip\Models\SystemCallRecordingGetRequest23;
 use CWM\BroadWorksConnector\Ocip\Models\SystemCallRecordingGetResponse23;
+use CWM\BroadWorksConnector\Ocip\Models\SystemCallRecordingModifyPlatformRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemCallRecordingModifyPlatformRequest22;
 use CWM\BroadWorksConnector\Ocip\Models\SystemCallRecordingModifyRequest22;
 use CWM\BroadWorksConnector\Ocip\Models\UserCallRecordingGetRequest20;
@@ -43,6 +47,17 @@ trait OCISchemaServiceCallRecording
      * @throws ValidationException
      */
     public function groupCallRecordingModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallRecordingModifyRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param SystemCallRecordingAddPlatformRequest20 $request
+     * @return SuccessResponse
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function systemCallRecordingAddPlatformRequest20(\CWM\BroadWorksConnector\Ocip\Models\SystemCallRecordingAddPlatformRequest20 $request)
     {
         return $this->call($request);
     }
@@ -92,12 +107,34 @@ trait OCISchemaServiceCallRecording
     }
 
     /**
+     * @param SystemCallRecordingGetRequest22 $request
+     * @return SystemCallRecordingGetResponse22
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function systemCallRecordingGetRequest22(\CWM\BroadWorksConnector\Ocip\Models\SystemCallRecordingGetRequest22 $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
      * @param SystemCallRecordingGetRequest23 $request
      * @return SystemCallRecordingGetResponse23
      * @throws ErrorResponseException
      * @throws ValidationException
      */
     public function systemCallRecordingGetRequest23(\CWM\BroadWorksConnector\Ocip\Models\SystemCallRecordingGetRequest23 $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param SystemCallRecordingModifyPlatformRequest $request
+     * @return SuccessResponse
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function systemCallRecordingModifyPlatformRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCallRecordingModifyPlatformRequest $request)
     {
         return $this->call($request);
     }

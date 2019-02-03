@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupTrunkGroupUserCreationTaskGetListResponse
  *
  * Response to GroupTrunkGroupUserCreationTaskGetListRequest.
- *         Contains a table with a row for each user creation task and column headings :
- *         "Name", "Status", "Users Created", "Total Users To Create", "Error Count".
+ *                 Contains a table with a row for each user creation task and column headings :
+ *                 "Name", "Status", "Users Created", "Total Users To Create", "Error Count".
  *
  * @see GroupTrunkGroupUserCreationTaskGetListRequest
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:3021","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:3140","type":"sequence"}]
  */
 class GroupTrunkGroupUserCreationTaskGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class GroupTrunkGroupUserCreationTaskGetListResponse extends \CWM\BroadWorksConn
     /**
      * @ElementName taskTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:3021
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:3140
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $taskTable = null;

@@ -6,14 +6,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemNetworkSynchingServerAddRequest22
  *
  * Request to add a Network Server to the system.
- *         The response is either a SuccessResponse or an ErrorResponse.
- *         
- *         Replaced by SystemNetworkSynchingServerAddRequest22V2
+ *                 The response is either a SuccessResponse or an ErrorResponse.
+ *
+ *                 Replaced by SystemNetworkSynchingServerAddRequest22V2
  *
  * @see SuccessResponse
  * @see ErrorResponse
  * @see SystemNetworkSynchingServerAddRequest22V2
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:5103","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:5293","type":"sequence"}]
  */
 class SystemNetworkSynchingServerAddRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,7 +21,7 @@ class SystemNetworkSynchingServerAddRequest22 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName netAddress
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:5103
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:5293
      * @var string|null
      */
     private $netAddress = null;
@@ -29,7 +29,7 @@ class SystemNetworkSynchingServerAddRequest22 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName port
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:5103
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:5293
      * @var int|null
      */
     private $port = null;
@@ -38,7 +38,7 @@ class SystemNetworkSynchingServerAddRequest22 extends \CWM\BroadWorksConnector\O
      * @ElementName description
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:5103
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:5293
      * @var string|null
      */
     private $description = null;
@@ -46,7 +46,7 @@ class SystemNetworkSynchingServerAddRequest22 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName order
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:5103
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:5293
      * @var int|null
      */
     private $order = null;

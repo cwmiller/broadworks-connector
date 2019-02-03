@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupDomainGetAssignedUserListResponse
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:4581","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:4579","type":"sequence"}]
  */
 class GroupDomainGetAssignedUserListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupDomainGetAssignedUserListRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4581
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:4579
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,7 +26,7 @@ class GroupDomainGetAssignedUserListRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4581
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:4579
      * @var string|null
      */
     private $groupId = null;
@@ -34,7 +34,7 @@ class GroupDomainGetAssignedUserListRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName domain
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4581
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:4579
      * @var string|null
      */
     private $domain = null;
@@ -43,7 +43,7 @@ class GroupDomainGetAssignedUserListRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4581
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:4579
      * @var int|null
      */
     private $responseSizeLimit = null;
@@ -53,7 +53,7 @@ class GroupDomainGetAssignedUserListRequest extends \CWM\BroadWorksConnector\Oci
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName
      * @Array
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4581
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:4579
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[]
      */
     private $searchCriteriaUserLastName = array(
@@ -65,7 +65,7 @@ class GroupDomainGetAssignedUserListRequest extends \CWM\BroadWorksConnector\Oci
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName
      * @Array
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4581
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:4579
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName[]
      */
     private $searchCriteriaUserFirstName = array(
@@ -77,7 +77,7 @@ class GroupDomainGetAssignedUserListRequest extends \CWM\BroadWorksConnector\Oci
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn
      * @Array
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4581
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:4579
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[]
      */
     private $searchCriteriaDn = array(
@@ -89,7 +89,7 @@ class GroupDomainGetAssignedUserListRequest extends \CWM\BroadWorksConnector\Oci
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaEmailAddress
      * @Array
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4581
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:4579
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaEmailAddress[]
      */
     private $searchCriteriaEmailAddress = array(
@@ -100,7 +100,7 @@ class GroupDomainGetAssignedUserListRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName searchCriteriaExactUserDepartment
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4581
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:4579
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment|null
      */
     private $searchCriteriaExactUserDepartment = null;
@@ -110,7 +110,7 @@ class GroupDomainGetAssignedUserListRequest extends \CWM\BroadWorksConnector\Oci
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId
      * @Array
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4581
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:4579
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId[]
      */
     private $searchCriteriaUserId = array(
@@ -122,7 +122,7 @@ class GroupDomainGetAssignedUserListRequest extends \CWM\BroadWorksConnector\Oci
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension
      * @Array
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4581
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:4579
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension[]
      */
     private $searchCriteriaExtension = array(

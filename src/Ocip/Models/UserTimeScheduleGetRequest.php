@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserTimeScheduleGetRequest
  *
  * Request to get a user time schedule.
- *         The response is either a UserTimeScheduleGetResponse or an ErrorResponse.
+ *                 The response is either a UserTimeScheduleGetResponse or an ErrorResponse.
  *
  * @see UserTimeScheduleGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:17322","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:17877","type":"sequence"}]
  */
 class UserTimeScheduleGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserTimeScheduleGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * @ElementName userId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:17322
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:17877
      * @var string|null
      */
     private $userId = null;
@@ -26,7 +26,7 @@ class UserTimeScheduleGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * @ElementName timeScheduleName
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:17322
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:17877
      * @var string|null
      */
     private $timeScheduleName = null;

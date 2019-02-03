@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupTrunkGroupUserCreationTaskDeleteRequest
  *
  * Delete a user creation task for a trunk group.
- *         The response is either SuccessResponse or ErrorResponse.
+ *                 The response is either SuccessResponse or ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:2987","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:3106","type":"sequence"}]
  */
 class GroupTrunkGroupUserCreationTaskDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupTrunkGroupUserCreationTaskDeleteRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:2987
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:3106
      * @var string|null
      */
     private $serviceUserId = null;
@@ -26,7 +26,7 @@ class GroupTrunkGroupUserCreationTaskDeleteRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName taskName
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:2987
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:3106
      * @var string|null
      */
     private $taskName = null;

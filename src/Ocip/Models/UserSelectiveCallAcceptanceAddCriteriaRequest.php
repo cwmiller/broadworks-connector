@@ -5,12 +5,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * UserSelectiveCallAcceptanceAddCriteriaRequest
  *
- * Add a criteria to the user's selective call acceptance service.        
- *          The response is either a SuccessResponse or an ErrorResponse.
+ * Add a criteria to the user's selective call acceptance service.
+ *                 The response is either a SuccessResponse or an ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:11344","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:11671","type":"sequence"}]
  */
 class UserSelectiveCallAcceptanceAddCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserSelectiveCallAcceptanceAddCriteriaRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName userId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:11344
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:11671
      * @var string|null
      */
     private $userId = null;
@@ -26,7 +26,7 @@ class UserSelectiveCallAcceptanceAddCriteriaRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName criteriaName
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:11344
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:11671
      * @var string|null
      */
     private $criteriaName = null;
@@ -35,7 +35,7 @@ class UserSelectiveCallAcceptanceAddCriteriaRequest extends \CWM\BroadWorksConne
      * @ElementName timeSchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:11344
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:11671
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null
      */
     private $timeSchedule = null;
@@ -43,7 +43,7 @@ class UserSelectiveCallAcceptanceAddCriteriaRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName fromDnCriteria
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDn
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:11344
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:11671
      * @var \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDn|null
      */
     private $fromDnCriteria = null;

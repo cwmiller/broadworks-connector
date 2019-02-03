@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * ShInterface User Id Data Entry.
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:3741","type":"sequence"}]
+ * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:3878","type":"sequence"}]
  */
 class ShInterfaceUserIdDataEntry21sp1
 {
@@ -15,7 +15,7 @@ class ShInterfaceUserIdDataEntry21sp1
     /**
      * @ElementName userType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UserType
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3741
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:3878
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserType|null
      */
     private $userType = null;
@@ -23,7 +23,7 @@ class ShInterfaceUserIdDataEntry21sp1
     /**
      * @ElementName publicUserIdentity
      * @Type \CWM\BroadWorksConnector\Ocip\Models\PublicUserIdentity
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3741
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:3878
      * @var \CWM\BroadWorksConnector\Ocip\Models\PublicUserIdentity|null
      */
     private $publicUserIdentity = null;
@@ -31,7 +31,7 @@ class ShInterfaceUserIdDataEntry21sp1
     /**
      * @ElementName endpointType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EndpointType21sp1
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3741
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:3878
      * @var \CWM\BroadWorksConnector\Ocip\Models\EndpointType21sp1|null
      */
     private $endpointType = null;
@@ -40,7 +40,7 @@ class ShInterfaceUserIdDataEntry21sp1
      * @ElementName SCSCFName
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3741
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:3878
      * @var string|null
      */
     private $SCSCFName = null;
@@ -48,7 +48,7 @@ class ShInterfaceUserIdDataEntry21sp1
     /**
      * @ElementName IMSUserState
      * @Type \CWM\BroadWorksConnector\Ocip\Models\IMSUserState
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3741
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:3878
      * @var \CWM\BroadWorksConnector\Ocip\Models\IMSUserState|null
      */
     private $IMSUserState = null;

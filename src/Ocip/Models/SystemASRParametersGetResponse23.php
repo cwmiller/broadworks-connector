@@ -14,7 +14,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           customMessageIntervalMilliseconds, value "100000" is returned in XS data mode
  *
  * @see SystemASRParametersGetRequest23
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:1952","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:1981","type":"sequence"}]
  */
 class SystemASRParametersGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -22,7 +22,7 @@ class SystemASRParametersGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName maxTransmissions
      * @Type int
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1952
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1981
      * @var int|null
      */
     private $maxTransmissions = null;
@@ -30,7 +30,7 @@ class SystemASRParametersGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName retransmissionDelayMilliSeconds
      * @Type int
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1952
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1981
      * @var int|null
      */
     private $retransmissionDelayMilliSeconds = null;
@@ -38,7 +38,7 @@ class SystemASRParametersGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName listeningPort
      * @Type int
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1952
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1981
      * @var int|null
      */
     private $listeningPort = null;
@@ -46,7 +46,7 @@ class SystemASRParametersGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName enableCustomMessageControl
      * @Type bool
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1952
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1981
      * @var bool|null
      */
     private $enableCustomMessageControl = null;
@@ -54,7 +54,7 @@ class SystemASRParametersGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName customNumberOfUsersPerMessage
      * @Type int
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1952
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1981
      * @var int|null
      */
     private $customNumberOfUsersPerMessage = null;
@@ -62,7 +62,7 @@ class SystemASRParametersGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName customMessageIntervalMilliseconds
      * @Type int
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1952
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1981
      * @var int|null
      */
     private $customMessageIntervalMilliseconds = null;

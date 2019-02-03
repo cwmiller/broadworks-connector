@@ -5,15 +5,16 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * UserCollaborateBridgeGetRequest
  *
- * Request the collaborate bridged assigned to the user. The user can only be assigned to one collaborate bridge at any given time.
- *         The response is either UserCollaborateBridgeGetResponse or ErrorResponse.
- *         
- *         Replaced by: UserCollaborateBridgeGetRequest20sp1
+ * Request the collaborate bridged assigned to the user. The user can only be assigned to one collaborate
+ *                 bridge at any given time.
+ *                 The response is either UserCollaborateBridgeGetResponse or ErrorResponse.
+ *
+ *                 Replaced by: UserCollaborateBridgeGetRequest20sp1
  *
  * @see UserCollaborateBridgeGetResponse
  * @see ErrorResponse
  * @see UserCollaborateBridgeGetRequest20sp1
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:38946","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:40465","type":"sequence"}]
  */
 class UserCollaborateBridgeGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,7 +22,7 @@ class UserCollaborateBridgeGetRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName userId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:38946
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:40465
      * @var string|null
      */
     private $userId = null;

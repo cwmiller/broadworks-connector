@@ -6,13 +6,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupFeatureAccessCodeGetResponse20
  *
  * Response to the GroupFeatureAccessCodeGetRequest20.
- *         In release 20 the "Call Recording" FAC name is changed to
- *         "Call Recording - Start".
- *         Replaced by : GroupFeatureAccessCodeGetResponse21
+ *                 In release 20 the "Call Recording" FAC name is changed to
+ *                 "Call Recording - Start".
+ *                 Replaced by : GroupFeatureAccessCodeGetResponse21
  *
  * @see GroupFeatureAccessCodeGetRequest20
  * @see GroupFeatureAccessCodeGetResponse21
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:32112","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:33286","type":"sequence"}]
  */
 class GroupFeatureAccessCodeGetResponse20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -20,7 +20,7 @@ class GroupFeatureAccessCodeGetResponse20 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName useFeatureAccessCodeLevel
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupFeatureAccessCodeLevel
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:32112
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:33286
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupFeatureAccessCodeLevel|null
      */
     private $useFeatureAccessCodeLevel = null;
@@ -30,7 +30,7 @@ class GroupFeatureAccessCodeGetResponse20 extends \CWM\BroadWorksConnector\Ocip\
      * @Type \CWM\BroadWorksConnector\Ocip\Models\FeatureAccessCodeEntry
      * @Array
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:32112
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:33286
      * @var \CWM\BroadWorksConnector\Ocip\Models\FeatureAccessCodeEntry[]
      */
     private $featureAccessCode = array(

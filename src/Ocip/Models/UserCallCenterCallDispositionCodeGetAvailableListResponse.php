@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Level column can be any of the values in the data type CallDispositionCodeLevel.
  *
  * @see UserCallCenterCallDispositionCodeGetAvailableListRequest
- * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:6659","type":"sequence"}]
+ * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:6708","type":"sequence"}]
  */
 class UserCallCenterCallDispositionCodeGetAvailableListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -21,7 +21,7 @@ class UserCallCenterCallDispositionCodeGetAvailableListResponse extends \CWM\Bro
     /**
      * @ElementName dispositionCodesTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group e2c537e3e39483b96620673a7012ffdd:6659
+     * @Group e2c537e3e39483b96620673a7012ffdd:6708
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $dispositionCodesTable = null;

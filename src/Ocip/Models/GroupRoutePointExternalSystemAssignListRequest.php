@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:6145","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:6143","type":"sequence"}]
  */
 class GroupRoutePointExternalSystemAssignListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupRoutePointExternalSystemAssignListRequest extends \CWM\BroadWorksConn
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6145
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:6143
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,7 +26,7 @@ class GroupRoutePointExternalSystemAssignListRequest extends \CWM\BroadWorksConn
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6145
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:6143
      * @var string|null
      */
     private $groupId = null;
@@ -36,7 +36,7 @@ class GroupRoutePointExternalSystemAssignListRequest extends \CWM\BroadWorksConn
      * @Type string
      * @Array
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6145
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:6143
      * @var string[]
      */
     private $routePointExternalSystem = array(

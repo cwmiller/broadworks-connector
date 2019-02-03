@@ -6,12 +6,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserPrivacyGetRequest
  *
  * Request the user level data associated with Privacy.
- *         The response is either a UserPrivacyGetResponse or an
- *         ErrorResponse.
+ *                 The response is either a UserPrivacyGetResponse or an
+ *                 ErrorResponse.
  *
  * @see UserPrivacyGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:7297","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:7530","type":"sequence"}]
  */
 class UserPrivacyGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class UserPrivacyGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRe
     /**
      * @ElementName userId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:7297
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:7530
      * @var string|null
      */
     private $userId = null;

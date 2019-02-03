@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemBwDiameterRoutingRealmGetListResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:2478","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:2570","type":"sequence"}]
  */
 class SystemBwDiameterRoutingRealmGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

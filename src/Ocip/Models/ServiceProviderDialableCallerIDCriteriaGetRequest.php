@@ -6,12 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ServiceProviderDialableCallerIDCriteriaGetRequest
  *
  * Get an existing Dialable Caller ID Criteria.
- *         The response is either a  
- *         ServiceProviderDialableCallerIDCriteriaGetRequest or an ErrorResponse.
+ *         The response is either a ServiceProviderDialableCallerIDCriteriaGetResponse or an ErrorResponse.
  *
- * @see ServiceProviderDialableCallerIDCriteriaGetRequest
+ * @see ServiceProviderDialableCallerIDCriteriaGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:2767","type":"sequence"}]
+ * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:2764","type":"sequence"}]
  */
 class ServiceProviderDialableCallerIDCriteriaGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +18,7 @@ class ServiceProviderDialableCallerIDCriteriaGetRequest extends \CWM\BroadWorksC
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2767
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2764
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,7 +26,7 @@ class ServiceProviderDialableCallerIDCriteriaGetRequest extends \CWM\BroadWorksC
     /**
      * @ElementName name
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2767
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2764
      * @var string|null
      */
     private $name = null;

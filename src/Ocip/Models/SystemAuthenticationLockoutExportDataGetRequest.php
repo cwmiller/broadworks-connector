@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:1999","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:2028","type":"sequence"}]
  */
 class SystemAuthenticationLockoutExportDataGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemAuthenticationLockoutExportDataGetRequest extends \CWM\BroadWorksCon
     /**
      * @ElementName fileName
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1999
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2028
      * @var string|null
      */
     private $fileName = null;

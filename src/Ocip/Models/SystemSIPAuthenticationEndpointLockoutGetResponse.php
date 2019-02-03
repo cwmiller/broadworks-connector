@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *            "Organization Id", "Organization Type", "Group Id", "Line/Port", "User ID", "First Name", "Last Name", "Lockout Started", "Lockout Expires", "Lockout Count". Lockout times are shown in the system GMT time. When a permanent lockout is shown, the "Lockout Expires" column is empty and the "Lockout Count" column contains the word Permanent.
  *
  * @see SystemSIPAuthenticationEndpointLockoutGetRequest
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:14873","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:15426","type":"sequence"}]
  */
 class SystemSIPAuthenticationEndpointLockoutGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class SystemSIPAuthenticationEndpointLockoutGetResponse extends \CWM\BroadWorksC
     /**
      * @ElementName lockoutTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14873
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:15426
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $lockoutTable = null;

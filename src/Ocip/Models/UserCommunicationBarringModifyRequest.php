@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:1135","type":"sequence"}]
+ * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:1188","type":"sequence"}]
  */
 class UserCommunicationBarringModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class UserCommunicationBarringModifyRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName userId
      * @Type string
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:1135
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:1188
      * @var string|null
      */
     private $userId = null;
@@ -28,7 +28,7 @@ class UserCommunicationBarringModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName useGroupSetting
      * @Type bool
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:1135
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:1188
      * @var bool|null
      */
     private $useGroupSetting = null;
@@ -38,7 +38,7 @@ class UserCommunicationBarringModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:1135
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:1188
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $profileName = null;

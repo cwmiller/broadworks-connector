@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemCallCenterGetRequest16.
  *
  * @see SystemCallCenterGetRequest16
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:14440","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:14854","type":"sequence"}]
  */
 class SystemCallCenterGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class SystemCallCenterGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName defaultFromAddress
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:14440
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:14854
      * @var string|null
      */
     private $defaultFromAddress = null;
@@ -24,7 +24,7 @@ class SystemCallCenterGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName statisticsSamplingPeriodMinutes
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterStatisticsSamplingPeriodMinutes
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:14440
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:14854
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterStatisticsSamplingPeriodMinutes|null
      */
     private $statisticsSamplingPeriodMinutes = null;
@@ -32,7 +32,7 @@ class SystemCallCenterGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName defaultEnableGuardTimer
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:14440
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:14854
      * @var bool|null
      */
     private $defaultEnableGuardTimer = null;
@@ -40,7 +40,7 @@ class SystemCallCenterGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName defaultGuardTimerSeconds
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:14440
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:14854
      * @var int|null
      */
     private $defaultGuardTimerSeconds = null;
@@ -48,7 +48,7 @@ class SystemCallCenterGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName forceAgentUnavailableOnDNDActivation
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:14440
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:14854
      * @var bool|null
      */
     private $forceAgentUnavailableOnDNDActivation = null;
@@ -56,7 +56,7 @@ class SystemCallCenterGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName forceAgentUnavailableOnPersonalCalls
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:14440
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:14854
      * @var bool|null
      */
     private $forceAgentUnavailableOnPersonalCalls = null;
@@ -64,7 +64,7 @@ class SystemCallCenterGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName forceAgentUnavailableOnBouncedCallLimit
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:14440
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:14854
      * @var bool|null
      */
     private $forceAgentUnavailableOnBouncedCallLimit = null;
@@ -72,7 +72,7 @@ class SystemCallCenterGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName numberConsecutiveBouncedCallsToForceAgentUnavailable
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:14440
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:14854
      * @var int|null
      */
     private $numberConsecutiveBouncedCallsToForceAgentUnavailable = null;

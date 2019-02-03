@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "Last Name", "First Name", "Type", "Read Only", "Language".
  *
  * @see SystemAdminGetListRequest
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:1683","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:1680","type":"sequence"}]
  */
 class SystemAdminGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class SystemAdminGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * @ElementName systemAdminTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1683
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1680
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $systemAdminTable = null;

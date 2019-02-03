@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Collaborate room schedule.
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:1032","type":"sequence","children":[{"id":"c0d21ef9ba207c335d8347e5172fce1d:1033","type":"choice"}]}]
+ * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:1048","type":"sequence","children":[{"id":"c0d21ef9ba207c335d8347e5172fce1d:1049","type":"choice"}]}]
  */
 class CollaborateRoomSchedule
 {
@@ -15,7 +15,7 @@ class CollaborateRoomSchedule
     /**
      * @ElementName scheduleReservationless
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CollaborateRoomScheduleScheduleReservationless
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1033
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:1049
      * @var \CWM\BroadWorksConnector\Ocip\Models\CollaborateRoomScheduleScheduleReservationless|null
      */
     private $scheduleReservationless = null;
@@ -23,7 +23,7 @@ class CollaborateRoomSchedule
     /**
      * @ElementName scheduleOneTime
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CollaborateRoomScheduleScheduleOneTime
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1033
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:1049
      * @var \CWM\BroadWorksConnector\Ocip\Models\CollaborateRoomScheduleScheduleOneTime|null
      */
     private $scheduleOneTime = null;
@@ -31,7 +31,7 @@ class CollaborateRoomSchedule
     /**
      * @ElementName scheduleRecurring
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CollaborateRoomScheduleScheduleRecurring
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1033
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:1049
      * @var \CWM\BroadWorksConnector\Ocip\Models\CollaborateRoomScheduleScheduleRecurring|null
      */
     private $scheduleRecurring = null;

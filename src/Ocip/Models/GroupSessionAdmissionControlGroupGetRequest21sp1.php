@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupSessionAdmissionControlGroupGetRequest21sp1
  *
  * Request to get a session admission control group for the group.
- *         The response is either a GroupSessionAdmissionControlGroupGetResponse21sp1 or an ErrorResponse.
+ *                 The response is either a GroupSessionAdmissionControlGroupGetResponse21sp1 or an ErrorResponse.
  *
  * @see GroupSessionAdmissionControlGroupGetResponse21sp1
  * @see ErrorResponse
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:1962","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:2014","type":"sequence"}]
  */
 class GroupSessionAdmissionControlGroupGetRequest21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupSessionAdmissionControlGroupGetRequest21sp1 extends \CWM\BroadWorksCo
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:1962
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:2014
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,7 +26,7 @@ class GroupSessionAdmissionControlGroupGetRequest21sp1 extends \CWM\BroadWorksCo
     /**
      * @ElementName groupId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:1962
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:2014
      * @var string|null
      */
     private $groupId = null;
@@ -34,7 +34,7 @@ class GroupSessionAdmissionControlGroupGetRequest21sp1 extends \CWM\BroadWorksCo
     /**
      * @ElementName name
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:1962
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:2014
      * @var string|null
      */
     private $name = null;

@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the GroupSpeedDial100GetRequest.
  *
  * @see GroupSpeedDial100GetRequest
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:19601","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:20235","type":"sequence"}]
  */
 class GroupSpeedDial100GetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class GroupSpeedDial100GetResponse extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName prefix
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:19601
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:20235
      * @var string|null
      */
     private $prefix = null;

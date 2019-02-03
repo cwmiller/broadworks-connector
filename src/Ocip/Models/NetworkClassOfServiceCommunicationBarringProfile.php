@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Of Service. There can be only one primary profile within a Network
  *         Class Of Service.
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:2783","type":"sequence"}]
+ * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:2920","type":"sequence"}]
  */
 class NetworkClassOfServiceCommunicationBarringProfile
 {
@@ -17,7 +17,7 @@ class NetworkClassOfServiceCommunicationBarringProfile
     /**
      * @ElementName name
      * @Type string
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:2783
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:2920
      * @var string|null
      */
     private $name = null;
@@ -25,7 +25,7 @@ class NetworkClassOfServiceCommunicationBarringProfile
     /**
      * @ElementName isPrimary
      * @Type bool
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:2783
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:2920
      * @var bool|null
      */
     private $isPrimary = null;

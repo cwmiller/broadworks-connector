@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Service Provider Communication Barring Hierarchical Call Me Now Rule
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:3631","type":"sequence","children":[{"id":"c0d21ef9ba207c335d8347e5172fce1d:3632","type":"choice"}]}]
+ * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:3768","type":"sequence","children":[{"id":"c0d21ef9ba207c335d8347e5172fce1d:3769","type":"choice"}]}]
  */
 class ServiceProviderCommunicationBarringHierarchicalCallMeNowRule
 {
@@ -15,7 +15,7 @@ class ServiceProviderCommunicationBarringHierarchicalCallMeNowRule
     /**
      * @ElementName criteria
      * @Type string
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3632
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:3769
      * @var string|null
      */
     private $criteria = null;
@@ -23,7 +23,7 @@ class ServiceProviderCommunicationBarringHierarchicalCallMeNowRule
     /**
      * @ElementName digitPatternCriteria
      * @Type string
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3632
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:3769
      * @var string|null
      */
     private $digitPatternCriteria = null;
@@ -31,7 +31,7 @@ class ServiceProviderCommunicationBarringHierarchicalCallMeNowRule
     /**
      * @ElementName action
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringCallMeNowAction
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3631
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:3768
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringCallMeNowAction|null
      */
     private $action = null;
@@ -40,7 +40,7 @@ class ServiceProviderCommunicationBarringHierarchicalCallMeNowRule
      * @ElementName callTimeoutSeconds
      * @Type int
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3631
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:3768
      * @var int|null
      */
     private $callTimeoutSeconds = null;
@@ -49,7 +49,7 @@ class ServiceProviderCommunicationBarringHierarchicalCallMeNowRule
      * @ElementName timeSchedule
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3631
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:3768
      * @var string|null
      */
     private $timeSchedule = null;
@@ -58,7 +58,7 @@ class ServiceProviderCommunicationBarringHierarchicalCallMeNowRule
      * @ElementName holidaySchedule
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3631
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:3768
      * @var string|null
      */
     private $holidaySchedule = null;
@@ -66,7 +66,7 @@ class ServiceProviderCommunicationBarringHierarchicalCallMeNowRule
     /**
      * @ElementName priority
      * @Type float
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3631
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:3768
      * @var float|null
      */
     private $priority = null;

@@ -5,12 +5,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * UserCallNotifyGetCriteriaRequest
  *
- * Get a criteria for the user's call notify service.        
- *          The response is either a UserCallNotifyGetCriteriaResponse or an ErrorResponse.
+ * Get a criteria for the user's call notify service.
+ *                 The response is either a UserCallNotifyGetCriteriaResponse or an ErrorResponse.
  *
  * @see UserCallNotifyGetCriteriaResponse
  * @see ErrorResponse
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:10738","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:11060","type":"sequence"}]
  */
 class UserCallNotifyGetCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserCallNotifyGetCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName userId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:10738
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:11060
      * @var string|null
      */
     private $userId = null;
@@ -26,7 +26,7 @@ class UserCallNotifyGetCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName criteriaName
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:10738
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:11060
      * @var string|null
      */
     private $criteriaName = null;

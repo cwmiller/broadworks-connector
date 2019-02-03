@@ -5,7 +5,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * GroupTrunkGroupUserCreationTaskAddRequestUserPhoneNumbers
  *
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:2955","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:3073","type":"sequence"}]
  */
 class GroupTrunkGroupUserCreationTaskAddRequestUserPhoneNumbers
 {
@@ -15,7 +15,7 @@ class GroupTrunkGroupUserCreationTaskAddRequestUserPhoneNumbers
      * @Type string
      * @Array
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:2955
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:3073
      * @var string[]
      */
     private $phoneNumber = array(
@@ -27,7 +27,7 @@ class GroupTrunkGroupUserCreationTaskAddRequestUserPhoneNumbers
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DNRange
      * @Array
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:2955
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:3073
      * @var \CWM\BroadWorksConnector\Ocip\Models\DNRange[]
      */
     private $dnRange = array(

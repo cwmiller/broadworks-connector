@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:11119","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:11556","type":"sequence"}]
  */
 class SystemNetworkDeviceMonitorParametersModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class SystemNetworkDeviceMonitorParametersModifyRequest extends \CWM\BroadWorksC
      * @ElementName pollingIntervalMinutes
      * @Type int
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11119
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11556
      * @var int|null
      */
     private $pollingIntervalMinutes = null;
@@ -28,7 +28,7 @@ class SystemNetworkDeviceMonitorParametersModifyRequest extends \CWM\BroadWorksC
      * @ElementName failedPollingIntervalMinutes
      * @Type int
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11119
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11556
      * @var int|null
      */
     private $failedPollingIntervalMinutes = null;

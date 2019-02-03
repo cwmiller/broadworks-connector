@@ -5,16 +5,17 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemCallProcessingPolicyProfileRoutePointProfileGetRequest
  *
- * Request to get the configuration for a call processing policy profile Route Point subscriber type profile.
- *         The response is either a SystemCallProcessingPolicyProfileRoutePointProfileGetResponse or an
- *         ErrorResponse.
- *         
- *         Replaced by: SystemCallProcessingPolicyProfileRoutePointProfileGetRequest22
+ * Request to get the configuration for a call processing policy profile Route Point subscriber type
+ *                 profile.
+ *                 The response is either a SystemCallProcessingPolicyProfileRoutePointProfileGetResponse or an
+ *                 ErrorResponse.
+ *
+ *                 Replaced by: SystemCallProcessingPolicyProfileRoutePointProfileGetRequest22
  *
  * @see SystemCallProcessingPolicyProfileRoutePointProfileGetResponse
  * @see ErrorResponse
  * @see SystemCallProcessingPolicyProfileRoutePointProfileGetRequest22
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:36746","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:38174","type":"sequence"}]
  */
 class SystemCallProcessingPolicyProfileRoutePointProfileGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -22,7 +23,7 @@ class SystemCallProcessingPolicyProfileRoutePointProfileGetRequest extends \CWM\
     /**
      * @ElementName callProcessingPolicyProfileName
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:36746
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:38174
      * @var string|null
      */
     private $callProcessingPolicyProfileName = null;

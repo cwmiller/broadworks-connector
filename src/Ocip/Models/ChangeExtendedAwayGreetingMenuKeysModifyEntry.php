@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * The voice portal change extended away greeting menu keys modify entry.
  *
- * @Groups [{"id":"3347d430e0d5c93a9ff8dcf0e3b60d6c:2399","type":"sequence"}]
+ * @Groups [{"id":"3347d430e0d5c93a9ff8dcf0e3b60d6c:2471","type":"sequence"}]
  */
 class ChangeExtendedAwayGreetingMenuKeysModifyEntry
 {
@@ -17,7 +17,7 @@ class ChangeExtendedAwayGreetingMenuKeysModifyEntry
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2399
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2471
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $activateExtendedAwayGreeting = null;
@@ -27,7 +27,7 @@ class ChangeExtendedAwayGreetingMenuKeysModifyEntry
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2399
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2471
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $deactivateExtendedAwayGreeting = null;
@@ -37,7 +37,7 @@ class ChangeExtendedAwayGreetingMenuKeysModifyEntry
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2399
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2471
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $recordNewGreeting = null;
@@ -47,7 +47,7 @@ class ChangeExtendedAwayGreetingMenuKeysModifyEntry
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2399
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2471
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $listenToCurrentGreeting = null;
@@ -57,7 +57,7 @@ class ChangeExtendedAwayGreetingMenuKeysModifyEntry
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2399
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2471
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $enableMessageDeposit = null;
@@ -67,7 +67,7 @@ class ChangeExtendedAwayGreetingMenuKeysModifyEntry
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2399
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2471
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $disableMessageDeposit = null;
@@ -76,7 +76,7 @@ class ChangeExtendedAwayGreetingMenuKeysModifyEntry
      * @ElementName returnToPreviousMenu
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2399
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2471
      * @var string|null
      */
     private $returnToPreviousMenu = null;
@@ -86,7 +86,7 @@ class ChangeExtendedAwayGreetingMenuKeysModifyEntry
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2399
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2471
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $repeatMenu = null;

@@ -6,12 +6,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemAccessDeviceFileGetResponse16sp1
  *
  * Response to SystemAccessDeviceFileGetRequest16sp1.
- *         
- *         Replaced by: SystemAccessDeviceFileGetResponse20
+ *
+ *                 Replaced by: SystemAccessDeviceFileGetResponse20
  *
  * @see SystemAccessDeviceFileGetRequest16sp1
  * @see SystemAccessDeviceFileGetResponse20
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:39977","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:41534","type":"sequence"}]
  */
 class SystemAccessDeviceFileGetResponse16sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,7 +19,7 @@ class SystemAccessDeviceFileGetResponse16sp1 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName fileSource
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationMode
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:39977
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:41534
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationMode|null
      */
     private $fileSource = null;
@@ -28,7 +28,7 @@ class SystemAccessDeviceFileGetResponse16sp1 extends \CWM\BroadWorksConnector\Oc
      * @ElementName configurationFileName
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:39977
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:41534
      * @var string|null
      */
     private $configurationFileName = null;
@@ -36,7 +36,7 @@ class SystemAccessDeviceFileGetResponse16sp1 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName accessUrl
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:39977
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:41534
      * @var string|null
      */
     private $accessUrl = null;
@@ -45,7 +45,7 @@ class SystemAccessDeviceFileGetResponse16sp1 extends \CWM\BroadWorksConnector\Oc
      * @ElementName repositoryUrl
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:39977
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:41534
      * @var string|null
      */
     private $repositoryUrl = null;
@@ -54,7 +54,7 @@ class SystemAccessDeviceFileGetResponse16sp1 extends \CWM\BroadWorksConnector\Oc
      * @ElementName templateUrl
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:39977
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:41534
      * @var string|null
      */
     private $templateUrl = null;

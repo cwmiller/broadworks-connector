@@ -5,7 +5,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemVoiceMessagingGroupGetVoicePortalMenusResponse18ReplyMessageMenuKeys
  *
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:26401","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:27349","type":"sequence"}]
  */
 class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18ReplyMessageMenuKeys
 {
@@ -13,7 +13,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18ReplyMessageMenuKeys
     /**
      * @ElementName sendReplyToCaller
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:26401
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:27349
      * @var string|null
      */
     private $sendReplyToCaller = null;
@@ -22,7 +22,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18ReplyMessageMenuKeys
      * @ElementName changeCurrentReply
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:26401
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:27349
      * @var string|null
      */
     private $changeCurrentReply = null;
@@ -31,7 +31,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18ReplyMessageMenuKeys
      * @ElementName listenToCurrentReply
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:26401
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:27349
      * @var string|null
      */
     private $listenToCurrentReply = null;
@@ -40,7 +40,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18ReplyMessageMenuKeys
      * @ElementName setOrClearUrgentIndicator
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:26401
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:27349
      * @var string|null
      */
     private $setOrClearUrgentIndicator = null;
@@ -49,7 +49,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18ReplyMessageMenuKeys
      * @ElementName setOrClearConfidentialIndicator
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:26401
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:27349
      * @var string|null
      */
     private $setOrClearConfidentialIndicator = null;
@@ -57,7 +57,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18ReplyMessageMenuKeys
     /**
      * @ElementName returnToPreviousMenu
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:26401
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:27349
      * @var string|null
      */
     private $returnToPreviousMenu = null;
@@ -66,7 +66,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18ReplyMessageMenuKeys
      * @ElementName repeatMenu
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:26401
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:27349
      * @var string|null
      */
     private $repeatMenu = null;

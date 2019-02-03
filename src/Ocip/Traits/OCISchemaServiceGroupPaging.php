@@ -17,7 +17,9 @@ use CWM\BroadWorksConnector\Ocip\Models\GroupGroupPagingGetInstanceListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupGroupPagingGetInstanceRequest19sp1;
 use CWM\BroadWorksConnector\Ocip\Models\GroupGroupPagingGetInstanceResponse19sp1;
 use CWM\BroadWorksConnector\Ocip\Models\GroupGroupPagingGetOriginatorListRequest;
+use CWM\BroadWorksConnector\Ocip\Models\GroupGroupPagingGetOriginatorListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupGroupPagingGetTargetListRequest;
+use CWM\BroadWorksConnector\Ocip\Models\GroupGroupPagingGetTargetListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupGroupPagingModifyActiveInstanceListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupGroupPagingModifyInstanceRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupGroupPagingModifyOriginatorListRequest;
@@ -149,7 +151,7 @@ trait OCISchemaServiceGroupPaging
 
     /**
      * @param GroupGroupPagingGetOriginatorListRequest $request
-     * @return 
+     * @return GroupGroupPagingGetOriginatorListResponse
      * @throws ErrorResponseException
      * @throws ValidationException
      */
@@ -160,7 +162,7 @@ trait OCISchemaServiceGroupPaging
 
     /**
      * @param GroupGroupPagingGetTargetListRequest $request
-     * @return 
+     * @return GroupGroupPagingGetTargetListResponse
      * @throws ErrorResponseException
      * @throws ValidationException
      */

@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         the list also contains the schedules defined for the enterprise.
  *
  * @see UserScheduleGetListRequest17sp1
- * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:3486","type":"sequence"}]
+ * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:3696","type":"sequence"}]
  */
 class UserScheduleGetListResponse17sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -21,7 +21,7 @@ class UserScheduleGetListResponse17sp1 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ScheduleGlobalKey
      * @Array
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:3486
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:3696
      * @var \CWM\BroadWorksConnector\Ocip\Models\ScheduleGlobalKey[]
      */
     private $scheduleGlobalKey = array(

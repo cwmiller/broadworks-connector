@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:10758","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:11196","type":"sequence"}]
  */
 class SystemMGCPDeviceTypeModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemMGCPDeviceTypeModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName deviceType
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10758
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11196
      * @var string|null
      */
     private $deviceType = null;
@@ -27,7 +27,7 @@ class SystemMGCPDeviceTypeModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName isObsolete
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10758
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11196
      * @var bool|null
      */
     private $isObsolete = null;

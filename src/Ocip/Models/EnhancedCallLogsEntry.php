@@ -6,9 +6,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * EnhancedCallLogsEntry
  *
  * Call Log entry describing a placed, received, or missed call.
- *        Replaced By: CallLogsEntry
+ *                 Replaced By: CallLogsEntry
  *
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:41563","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:43170","type":"sequence"}]
  */
 class EnhancedCallLogsEntry
 {
@@ -17,7 +17,7 @@ class EnhancedCallLogsEntry
      * @ElementName countryCode
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:41563
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:43170
      * @var string|null
      */
     private $countryCode = null;
@@ -25,7 +25,7 @@ class EnhancedCallLogsEntry
     /**
      * @ElementName phoneNumber
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:41563
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:43170
      * @var string|null
      */
     private $phoneNumber = null;
@@ -33,7 +33,7 @@ class EnhancedCallLogsEntry
     /**
      * @ElementName name
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:41563
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:43170
      * @var string|null
      */
     private $name = null;
@@ -41,7 +41,7 @@ class EnhancedCallLogsEntry
     /**
      * @ElementName time
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:41563
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:43170
      * @var string|null
      */
     private $time = null;

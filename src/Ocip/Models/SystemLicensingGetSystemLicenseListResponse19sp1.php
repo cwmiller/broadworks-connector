@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemLicensingGetSystemLicenseListRequest19sp1
  * @see SystemLicensingGetSystemLicenseListRequest21sp1
- * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:3215","type":"sequence"}]
+ * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:3214","type":"sequence"}]
  */
 class SystemLicensingGetSystemLicenseListResponse19sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -21,7 +21,7 @@ class SystemLicensingGetSystemLicenseListResponse19sp1 extends \CWM\BroadWorksCo
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemLicenseType19sp1
      * @Array
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:3215
+     * @Group de4d76f01f337fe4694212ec9f771753:3214
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemLicenseType19sp1[]
      */
     private $license = array(

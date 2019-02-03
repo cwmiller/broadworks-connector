@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Either all DNIS under the specified Call Center or 2 lists of DNIS, one for current one for past (deleted).
  *
- * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:7587","type":"sequence","children":[{"id":"e2c537e3e39483b96620673a7012ffdd:7590","type":"choice","children":[{"id":"e2c537e3e39483b96620673a7012ffdd:7592","type":"sequence"}]}]}]
+ * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:7636","type":"sequence","children":[{"id":"e2c537e3e39483b96620673a7012ffdd:7639","type":"choice","children":[{"id":"e2c537e3e39483b96620673a7012ffdd:7641","type":"sequence"}]}]}]
  */
 class CallCenterScheduledReportDNISSelectionRead
 {
@@ -15,7 +15,7 @@ class CallCenterScheduledReportDNISSelectionRead
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group e2c537e3e39483b96620673a7012ffdd:7587
+     * @Group e2c537e3e39483b96620673a7012ffdd:7636
      * @var string|null
      */
     private $serviceUserId = null;
@@ -24,7 +24,7 @@ class CallCenterScheduledReportDNISSelectionRead
      * @ElementName deleted
      * @Type bool
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:7587
+     * @Group e2c537e3e39483b96620673a7012ffdd:7636
      * @var bool|null
      */
     private $deleted = null;
@@ -32,7 +32,7 @@ class CallCenterScheduledReportDNISSelectionRead
     /**
      * @ElementName allDNIS
      * @Type bool
-     * @Group e2c537e3e39483b96620673a7012ffdd:7590
+     * @Group e2c537e3e39483b96620673a7012ffdd:7639
      * @var bool|null
      */
     private $allDNIS = null;
@@ -42,7 +42,7 @@ class CallCenterScheduledReportDNISSelectionRead
      * @Type string
      * @Array
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:7592
+     * @Group e2c537e3e39483b96620673a7012ffdd:7641
      * @var string[]
      */
     private $currentName = array(
@@ -54,7 +54,7 @@ class CallCenterScheduledReportDNISSelectionRead
      * @Type string
      * @Array
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:7592
+     * @Group e2c537e3e39483b96620673a7012ffdd:7641
      * @var string[]
      */
     private $pastName = array(

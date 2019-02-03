@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * The voice portal personal assistant menu keys modify entry.
  *
- * @Groups [{"id":"3347d430e0d5c93a9ff8dcf0e3b60d6c:2761","type":"sequence"}]
+ * @Groups [{"id":"3347d430e0d5c93a9ff8dcf0e3b60d6c:2833","type":"sequence"}]
  */
 class PersonalAssistantMenuKeysModifyEntry
 {
@@ -17,7 +17,7 @@ class PersonalAssistantMenuKeysModifyEntry
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2761
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2833
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $setPresenceToNone = null;
@@ -27,7 +27,7 @@ class PersonalAssistantMenuKeysModifyEntry
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2761
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2833
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $setPresenceToBusinessTrip = null;
@@ -37,7 +37,7 @@ class PersonalAssistantMenuKeysModifyEntry
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2761
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2833
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $setPresenceToGoneForTheDay = null;
@@ -47,7 +47,7 @@ class PersonalAssistantMenuKeysModifyEntry
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2761
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2833
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $setPresenceToLunch = null;
@@ -57,7 +57,7 @@ class PersonalAssistantMenuKeysModifyEntry
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2761
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2833
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $setPresenceToMeeting = null;
@@ -67,7 +67,7 @@ class PersonalAssistantMenuKeysModifyEntry
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2761
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2833
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $setPresenceToOutOfOffice = null;
@@ -77,7 +77,7 @@ class PersonalAssistantMenuKeysModifyEntry
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2761
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2833
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $setPresenceToTemporarilyOut = null;
@@ -87,7 +87,7 @@ class PersonalAssistantMenuKeysModifyEntry
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2761
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2833
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $setPresenceToTraining = null;
@@ -97,7 +97,7 @@ class PersonalAssistantMenuKeysModifyEntry
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2761
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2833
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $setPresenceToUnavailable = null;
@@ -107,7 +107,7 @@ class PersonalAssistantMenuKeysModifyEntry
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2761
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2833
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $setPresenceToVacation = null;
@@ -116,7 +116,7 @@ class PersonalAssistantMenuKeysModifyEntry
      * @ElementName returnToPreviousMenu
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2761
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2833
      * @var string|null
      */
     private $returnToPreviousMenu = null;
@@ -126,7 +126,7 @@ class PersonalAssistantMenuKeysModifyEntry
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2761
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2833
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $repeatMenu = null;

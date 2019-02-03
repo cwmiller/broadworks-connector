@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the GroupGetDefaultRequest. All values are default values for a group's profile.
  *
  * @see GroupGetDefaultRequest
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:5079","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:5077","type":"sequence"}]
  */
 class GroupGetDefaultResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class GroupGetDefaultResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
     /**
      * @ElementName defaultDomain
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:5079
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:5077
      * @var string|null
      */
     private $defaultDomain = null;
@@ -24,7 +24,7 @@ class GroupGetDefaultResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
     /**
      * @ElementName userLimit
      * @Type int
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:5079
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:5077
      * @var int|null
      */
     private $userLimit = null;
@@ -32,7 +32,7 @@ class GroupGetDefaultResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
     /**
      * @ElementName timeZone
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:5079
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:5077
      * @var string|null
      */
     private $timeZone = null;
@@ -40,7 +40,7 @@ class GroupGetDefaultResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
     /**
      * @ElementName timeZoneDisplayName
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:5079
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:5077
      * @var string|null
      */
     private $timeZoneDisplayName = null;

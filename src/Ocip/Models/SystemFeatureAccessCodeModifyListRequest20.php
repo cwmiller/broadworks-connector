@@ -6,15 +6,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemFeatureAccessCodeModifyListRequest20
  *
  * Modify default Feature Access Codes.
- *         The response is either a SuccessResponse or an ErrorResponse.
- *         In release 20 the "Call Recording" FAC name is changed to
- *         "Call Recording - Start".
- *         Replaced by: SystemFeatureAccessCodeModifyListRequest21
+ *                 The response is either a SuccessResponse or an ErrorResponse.
+ *                 In release 20 the "Call Recording" FAC name is changed to
+ *                 "Call Recording - Start".
+ *                 Replaced by: SystemFeatureAccessCodeModifyListRequest21
  *
  * @see SuccessResponse
  * @see ErrorResponse
  * @see SystemFeatureAccessCodeModifyListRequest21
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:33418","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:34702","type":"sequence"}]
  */
 class SystemFeatureAccessCodeModifyListRequest20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -24,7 +24,7 @@ class SystemFeatureAccessCodeModifyListRequest20 extends \CWM\BroadWorksConnecto
      * @Type \CWM\BroadWorksConnector\Ocip\Models\FeatureAccessCodeEntry
      * @Array
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:33418
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:34702
      * @var \CWM\BroadWorksConnector\Ocip\Models\FeatureAccessCodeEntry[]
      */
     private $featureAccessCode = array(

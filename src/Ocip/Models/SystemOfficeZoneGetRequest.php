@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemOfficeZoneGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:12401","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:12872","type":"sequence"}]
  */
 class SystemOfficeZoneGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class SystemOfficeZoneGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * @ElementName officeZoneName
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12401
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12872
      * @var string|null
      */
     private $officeZoneName = null;

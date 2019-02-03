@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"b009175f2a2a9d38115e319a6ad64d7f:316","type":"sequence"}]
+ * @Groups [{"id":"b009175f2a2a9d38115e319a6ad64d7f:315","type":"sequence"}]
  */
 class ResellerEmergencyCallNotificationModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class ResellerEmergencyCallNotificationModifyRequest extends \CWM\BroadWorksConn
     /**
      * @ElementName resellerId
      * @Type string
-     * @Group b009175f2a2a9d38115e319a6ad64d7f:316
+     * @Group b009175f2a2a9d38115e319a6ad64d7f:315
      * @var string|null
      */
     private $resellerId = null;
@@ -29,7 +29,7 @@ class ResellerEmergencyCallNotificationModifyRequest extends \CWM\BroadWorksConn
      * @Type string
      * @Nillable
      * @Optional
-     * @Group b009175f2a2a9d38115e319a6ad64d7f:316
+     * @Group b009175f2a2a9d38115e319a6ad64d7f:315
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $defaultFromAddress = null;

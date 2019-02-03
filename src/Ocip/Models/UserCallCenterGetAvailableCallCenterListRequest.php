@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserCallCenterGetAvailableCallCenterListResponse
  * @see ErrorResponse
- * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:6885","type":"sequence"}]
+ * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:6934","type":"sequence"}]
  */
 class UserCallCenterGetAvailableCallCenterListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class UserCallCenterGetAvailableCallCenterListRequest extends \CWM\BroadWorksCon
     /**
      * @ElementName userId
      * @Type string
-     * @Group e2c537e3e39483b96620673a7012ffdd:6885
+     * @Group e2c537e3e39483b96620673a7012ffdd:6934
      * @var string|null
      */
     private $userId = null;

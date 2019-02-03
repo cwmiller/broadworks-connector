@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserExecutiveGetFilteringSelectiveCriteriaResponse
  *
  * Response to the UserExecutiveGetFilteringSelectiveCriteriaRequest.
- *         Replaced by: UserExecutiveGetFilteringSelectiveCriteriaResponse21
+ *                 Replaced by: UserExecutiveGetFilteringSelectiveCriteriaResponse21
  *
  * @see UserExecutiveGetFilteringSelectiveCriteriaRequest
  * @see UserExecutiveGetFilteringSelectiveCriteriaResponse21
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:34533","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:35840","type":"sequence"}]
  */
 class UserExecutiveGetFilteringSelectiveCriteriaResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,7 +19,7 @@ class UserExecutiveGetFilteringSelectiveCriteriaResponse extends \CWM\BroadWorks
      * @ElementName timeSchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:34533
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:35840
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null
      */
     private $timeSchedule = null;
@@ -28,7 +28,7 @@ class UserExecutiveGetFilteringSelectiveCriteriaResponse extends \CWM\BroadWorks
      * @ElementName holidaySchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:34533
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:35840
      * @var \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null
      */
     private $holidaySchedule = null;
@@ -36,7 +36,7 @@ class UserExecutiveGetFilteringSelectiveCriteriaResponse extends \CWM\BroadWorks
     /**
      * @ElementName filter
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:34533
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:35840
      * @var bool|null
      */
     private $filter = null;
@@ -44,7 +44,7 @@ class UserExecutiveGetFilteringSelectiveCriteriaResponse extends \CWM\BroadWorks
     /**
      * @ElementName fromDnCriteria
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExecutiveCallFilteringCriteriaFromDn
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:34533
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:35840
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExecutiveCallFilteringCriteriaFromDn|null
      */
     private $fromDnCriteria = null;

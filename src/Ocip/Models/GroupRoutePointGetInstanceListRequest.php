@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupRoutePointGetInstanceListResponse
  * @see ErrorResponse
- * @Groups [{"id":"a27224a048c30ff69eab9209dec841cc:558","type":"sequence"}]
+ * @Groups [{"id":"a27224a048c30ff69eab9209dec841cc:620","type":"sequence"}]
  */
 class GroupRoutePointGetInstanceListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class GroupRoutePointGetInstanceListRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group a27224a048c30ff69eab9209dec841cc:558
+     * @Group a27224a048c30ff69eab9209dec841cc:620
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -28,7 +28,7 @@ class GroupRoutePointGetInstanceListRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName groupId
      * @Type string
-     * @Group a27224a048c30ff69eab9209dec841cc:558
+     * @Group a27224a048c30ff69eab9209dec841cc:620
      * @var string|null
      */
     private $groupId = null;
@@ -37,7 +37,7 @@ class GroupRoutePointGetInstanceListRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName groupDepartmentName
      * @Type string
      * @Optional
-     * @Group a27224a048c30ff69eab9209dec841cc:558
+     * @Group a27224a048c30ff69eab9209dec841cc:620
      * @var string|null
      */
     private $groupDepartmentName = null;
@@ -46,7 +46,7 @@ class GroupRoutePointGetInstanceListRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group a27224a048c30ff69eab9209dec841cc:558
+     * @Group a27224a048c30ff69eab9209dec841cc:620
      * @var int|null
      */
     private $responseSizeLimit = null;
@@ -56,7 +56,7 @@ class GroupRoutePointGetInstanceListRequest extends \CWM\BroadWorksConnector\Oci
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaRoutePointName
      * @Array
      * @Optional
-     * @Group a27224a048c30ff69eab9209dec841cc:558
+     * @Group a27224a048c30ff69eab9209dec841cc:620
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaRoutePointName[]
      */
     private $searchCriteriaRoutePointName = array(

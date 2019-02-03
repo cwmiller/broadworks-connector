@@ -52,6 +52,7 @@ use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderApplicationServerSetGetRe
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderApplicationServerSetGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderApplicationServerSetModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCallProcessingGetPolicyRequest22V2;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCallProcessingGetPolicyResponse22V2;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCallProcessingModifyPolicyRequest15;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCommunicationBarringCriteriaAssignListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCommunicationBarringCriteriaGetAssignedListRequest;
@@ -81,6 +82,7 @@ use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCommunicationBarringProfi
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCommunicationBarringProfileGetIncomingCriteriaUsageListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCommunicationBarringProfileGetIncomingCriteriaUsageListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCommunicationBarringProfileGetListRequest;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCommunicationBarringProfileGetListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCommunicationBarringProfileGetRequest19sp1V2;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCommunicationBarringProfileGetResponse19sp1V2;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCommunicationBarringProfileModifyDefaultRequest;
@@ -116,8 +118,10 @@ use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDeviceTypeTagSetModifyReq
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDialableCallerIDCriteriaAddRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDialableCallerIDCriteriaDeleteRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDialableCallerIDCriteriaGetRequest;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDialableCallerIDCriteriaGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDialableCallerIDCriteriaModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDialableCallerIDGetRequest;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDialableCallerIDGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDialableCallerIDModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDialPlanPolicyAddAccessCodeRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDialPlanPolicyDeleteAccessCodeRequest;
@@ -141,6 +145,8 @@ use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDnGetSummaryListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDomainAssignListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDomainGetAssignedGroupListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDomainGetAssignedGroupListResponse;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDomainGetAssignedListRequest;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDomainGetAssignedListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDomainGetAssignedListRequest22;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDomainGetAssignedListResponse22;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDomainUnassignListRequest;
@@ -645,7 +651,7 @@ trait OCISchemaServiceProvider
 
     /**
      * @param ServiceProviderCallProcessingGetPolicyRequest22V2 $request
-     * @return 
+     * @return ServiceProviderCallProcessingGetPolicyResponse22V2
      * @throws ErrorResponseException
      * @throws ValidationException
      */
@@ -865,7 +871,7 @@ trait OCISchemaServiceProvider
 
     /**
      * @param ServiceProviderCommunicationBarringProfileGetListRequest $request
-     * @return 
+     * @return ServiceProviderCommunicationBarringProfileGetListResponse
      * @throws ErrorResponseException
      * @throws ValidationException
      */
@@ -1162,7 +1168,7 @@ trait OCISchemaServiceProvider
 
     /**
      * @param ServiceProviderDialableCallerIDCriteriaGetRequest $request
-     * @return 
+     * @return ServiceProviderDialableCallerIDCriteriaGetResponse
      * @throws ErrorResponseException
      * @throws ValidationException
      */
@@ -1184,7 +1190,7 @@ trait OCISchemaServiceProvider
 
     /**
      * @param ServiceProviderDialableCallerIDGetRequest $request
-     * @return 
+     * @return ServiceProviderDialableCallerIDGetResponse
      * @throws ErrorResponseException
      * @throws ValidationException
      */
@@ -1365,6 +1371,17 @@ trait OCISchemaServiceProvider
      * @throws ValidationException
      */
     public function serviceProviderDomainGetAssignedGroupListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDomainGetAssignedGroupListRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param ServiceProviderDomainGetAssignedListRequest $request
+     * @return ServiceProviderDomainGetAssignedListResponse
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function serviceProviderDomainGetAssignedListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDomainGetAssignedListRequest $request)
     {
         return $this->call($request);
     }
@@ -1668,7 +1685,7 @@ trait OCISchemaServiceProvider
 
     /**
      * @param ServiceProviderNetworkClassOfServiceAssignListToAllGroupsRequest $request
-     * @return 
+     * @return SuccessResponse
      * @throws ErrorResponseException
      * @throws ValidationException
      */

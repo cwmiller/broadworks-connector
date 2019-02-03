@@ -34,6 +34,7 @@ use CWM\BroadWorksConnector\Ocip\Models\GroupEnterpriseTrunkGetResponse21;
 use CWM\BroadWorksConnector\Ocip\Models\GroupEnterpriseTrunkGetUserListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupEnterpriseTrunkGetUserListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupEnterpriseTrunkModifyRequest;
+use CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupAddInstanceRequest21;
 use CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupAddInstanceRequest22;
 use CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupDeleteInstanceRequest14sp4;
 use CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupGetAvailableHostedUserListRequest;
@@ -312,6 +313,17 @@ trait OCISchemaServiceTrunkGroup
      * @throws ValidationException
      */
     public function groupEnterpriseTrunkModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupEnterpriseTrunkModifyRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param GroupTrunkGroupAddInstanceRequest21 $request
+     * @return SuccessResponse
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function groupTrunkGroupAddInstanceRequest21(\CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupAddInstanceRequest21 $request)
     {
         return $this->call($request);
     }

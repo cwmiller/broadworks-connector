@@ -5,7 +5,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * CallForwardingOptionsMenuKeysReadEntry
  *
- * @Groups [{"id":"3347d430e0d5c93a9ff8dcf0e3b60d6c:2309","type":"sequence"}]
+ * @Groups [{"id":"3347d430e0d5c93a9ff8dcf0e3b60d6c:2381","type":"sequence"}]
  */
 class CallForwardingOptionsMenuKeysReadEntry
 {
@@ -14,7 +14,7 @@ class CallForwardingOptionsMenuKeysReadEntry
      * @ElementName activateCallForwarding
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2309
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2381
      * @var string|null
      */
     private $activateCallForwarding = null;
@@ -23,7 +23,7 @@ class CallForwardingOptionsMenuKeysReadEntry
      * @ElementName deactivateCallForwarding
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2309
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2381
      * @var string|null
      */
     private $deactivateCallForwarding = null;
@@ -32,7 +32,7 @@ class CallForwardingOptionsMenuKeysReadEntry
      * @ElementName changeCallForwardingDestination
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2309
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2381
      * @var string|null
      */
     private $changeCallForwardingDestination = null;
@@ -41,7 +41,7 @@ class CallForwardingOptionsMenuKeysReadEntry
      * @ElementName listenToCallForwardingStatus
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2309
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2381
      * @var string|null
      */
     private $listenToCallForwardingStatus = null;
@@ -49,7 +49,7 @@ class CallForwardingOptionsMenuKeysReadEntry
     /**
      * @ElementName returnToPreviousMenu
      * @Type string
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2309
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2381
      * @var string|null
      */
     private $returnToPreviousMenu = null;
@@ -58,7 +58,7 @@ class CallForwardingOptionsMenuKeysReadEntry
      * @ElementName repeatMenu
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2309
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2381
      * @var string|null
      */
     private $repeatMenu = null;

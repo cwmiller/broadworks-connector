@@ -5,12 +5,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * UserGetRequest14sp4
  *
- * Request to get the user information.  The response is either UserGetResponse14sp4
- *         or ErrorResponse.
+ * Request to get the user information. The response is either UserGetResponse14sp4
+ *                 or ErrorResponse.
  *
  * @see UserGetResponse14sp4
  * @see ErrorResponse
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:6986","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:7216","type":"sequence"}]
  */
 class UserGetRequest14sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserGetRequest14sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
     /**
      * @ElementName userId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:6986
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:7216
      * @var string|null
      */
     private $userId = null;

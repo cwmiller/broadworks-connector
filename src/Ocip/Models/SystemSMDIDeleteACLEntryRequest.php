@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemSMDIDeleteACLEntryRequest
  *
  * Delete an entry from the SMDI access control list.
- *         The response is either SuccessResponse or ErrorResponse.
+ *                 The response is either SuccessResponse or ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:6274","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:6484","type":"sequence"}]
  */
 class SystemSMDIDeleteACLEntryRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemSMDIDeleteACLEntryRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName netAddress
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:6274
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:6484
      * @var string|null
      */
     private $netAddress = null;

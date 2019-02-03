@@ -6,9 +6,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * VoiceMessagingAlternateNoAnswerGreetingModify
  *
  * The configuration of a alternate no answer greeting.
- *         It is used when modifying a user's voice messaging greeting.
+ *                 It is used when modifying a user's voice messaging greeting.
  *
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:42531","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:44146","type":"sequence"}]
  */
 class VoiceMessagingAlternateNoAnswerGreetingModify
 {
@@ -17,7 +17,7 @@ class VoiceMessagingAlternateNoAnswerGreetingModify
      * @ElementName name
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:42531
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:44146
      * @var string|null
      */
     private $name = null;
@@ -26,7 +26,7 @@ class VoiceMessagingAlternateNoAnswerGreetingModify
      * @ElementName audioFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:42531
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:44146
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource|null
      */
     private $audioFile = null;
@@ -35,7 +35,7 @@ class VoiceMessagingAlternateNoAnswerGreetingModify
      * @ElementName videoFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:42531
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:44146
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource|null
      */
     private $videoFile = null;

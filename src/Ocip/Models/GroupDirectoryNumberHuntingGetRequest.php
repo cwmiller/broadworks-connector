@@ -6,17 +6,17 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupDirectoryNumberHuntingGetRequest
  *
  * Request to get the properties of the DNH service for a specified serviceUserId.
- *         It gets the agents of a call center or hunt group that are members
- *         of a directory number hunting group.  They are agents that are not already
- *         assigned to any other directory number hunting group.
- *         The response is either GroupDirectoryNumberHuntingGetResponse or ErrorResponse.
- *  
- *         Replaced by: GroupDirectoryNumberHuntingGetRequest17sp1
+ *                 It gets the agents of a call center or hunt group that are members
+ *                 of a directory number hunting group. They are agents that are not already
+ *                 assigned to any other directory number hunting group.
+ *                 The response is either GroupDirectoryNumberHuntingGetResponse or ErrorResponse.
+ *
+ *                 Replaced by: GroupDirectoryNumberHuntingGetRequest17sp1
  *
  * @see GroupDirectoryNumberHuntingGetResponse
  * @see ErrorResponse
  * @see GroupDirectoryNumberHuntingGetRequest17sp1
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:28950","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:30018","type":"sequence"}]
  */
 class GroupDirectoryNumberHuntingGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -24,7 +24,7 @@ class GroupDirectoryNumberHuntingGetRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:28950
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:30018
      * @var string|null
      */
     private $serviceUserId = null;

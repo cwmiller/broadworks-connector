@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see ServiceProviderCommunicationBarringProfileGetCriteriaUsageListResponse
  * @see ErrorResponse
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:1863","type":"sequence"}]
+ * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:1862","type":"sequence"}]
  */
 class ServiceProviderCommunicationBarringProfileGetCriteriaUsageListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class ServiceProviderCommunicationBarringProfileGetCriteriaUsageListRequest exte
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1863
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1862
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,7 +27,7 @@ class ServiceProviderCommunicationBarringProfileGetCriteriaUsageListRequest exte
     /**
      * @ElementName criteriaName
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1863
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1862
      * @var string|null
      */
     private $criteriaName = null;

@@ -6,13 +6,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemSIPDeviceTypeFileModifyRequest
  *
  * Request to modify a sip device type file.
- *             The response is either SuccessResponse or ErrorResponse.
- *             Replaced By: SystemSIPDeviceTypeFileModifyRequest14sp8
+ *                 The response is either SuccessResponse or ErrorResponse.
+ *                 Replaced By: SystemSIPDeviceTypeFileModifyRequest14sp8
  *
  * @see SuccessResponse
  * @see ErrorResponse
  * @see SystemSIPDeviceTypeFileModifyRequest14sp8
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:5857","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:6066","type":"sequence"}]
  */
 class SystemSIPDeviceTypeFileModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class SystemSIPDeviceTypeFileModifyRequest extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName deviceType
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:5857
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:6066
      * @var string|null
      */
     private $deviceType = null;
@@ -28,7 +28,7 @@ class SystemSIPDeviceTypeFileModifyRequest extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName fileType
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:5857
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:6066
      * @var string|null
      */
     private $fileType = null;
@@ -37,7 +37,7 @@ class SystemSIPDeviceTypeFileModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @ElementName allowFileCustomization
      * @Type bool
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:5857
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:6066
      * @var bool|null
      */
     private $allowFileCustomization = null;
@@ -46,7 +46,7 @@ class SystemSIPDeviceTypeFileModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @ElementName fileSource
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DeviceTypeFileEnhancedConfigurationMode
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:5857
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:6066
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceTypeFileEnhancedConfigurationMode|null
      */
     private $fileSource = null;
@@ -55,7 +55,7 @@ class SystemSIPDeviceTypeFileModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @ElementName uploadFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\FileResource
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:5857
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:6066
      * @var \CWM\BroadWorksConnector\Ocip\Models\FileResource|null
      */
     private $uploadFile = null;
@@ -64,7 +64,7 @@ class SystemSIPDeviceTypeFileModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @ElementName useHttpDigestAuthentication
      * @Type bool
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:5857
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:6066
      * @var bool|null
      */
     private $useHttpDigestAuthentication = null;
@@ -73,7 +73,7 @@ class SystemSIPDeviceTypeFileModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @ElementName macBasedFileAuthentication
      * @Type bool
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:5857
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:6066
      * @var bool|null
      */
     private $macBasedFileAuthentication = null;
@@ -82,7 +82,7 @@ class SystemSIPDeviceTypeFileModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @ElementName userNamePasswordFileAuthentication
      * @Type bool
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:5857
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:6066
      * @var bool|null
      */
     private $userNamePasswordFileAuthentication = null;
@@ -91,7 +91,7 @@ class SystemSIPDeviceTypeFileModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @ElementName macInNonRequestURI
      * @Type bool
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:5857
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:6066
      * @var bool|null
      */
     private $macInNonRequestURI = null;
@@ -101,7 +101,7 @@ class SystemSIPDeviceTypeFileModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @Type string
      * @Nillable
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:5857
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:6066
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $macFormatInNonRequestURI = null;

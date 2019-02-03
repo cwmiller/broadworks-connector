@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"6b27fcc79475236456fc113a42b75543:564","type":"sequence"}]
+ * @Groups [{"id":"6b27fcc79475236456fc113a42b75543:631","type":"sequence"}]
  */
 class TutorialFlagModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class TutorialFlagModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\O
     /**
      * @ElementName userId
      * @Type string
-     * @Group 6b27fcc79475236456fc113a42b75543:564
+     * @Group 6b27fcc79475236456fc113a42b75543:631
      * @var string|null
      */
     private $userId = null;
@@ -27,7 +27,7 @@ class TutorialFlagModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\O
      * @ElementName enableTutorial
      * @Type bool
      * @Optional
-     * @Group 6b27fcc79475236456fc113a42b75543:564
+     * @Group 6b27fcc79475236456fc113a42b75543:631
      * @var bool|null
      */
     private $enableTutorial = null;

@@ -5,10 +5,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * UserDevicePoliciesGetResponse
  *
- * Response to UserDevicePoliciesGetRequest. enableDeviceFeatureSynchronization is ignored by the application server in Multiple User Shared mode.
+ * Response to UserDevicePoliciesGetRequest. enableDeviceFeatureSynchronization is ignored by the
+ *                 application server in Multiple User Shared mode.
  *
  * @see UserDevicePoliciesGetRequest
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:31377","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:32522","type":"sequence"}]
  */
 class UserDevicePoliciesGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +17,7 @@ class UserDevicePoliciesGetResponse extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName lineMode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UserDevicePolicyLineMode
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:31377
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:32522
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserDevicePolicyLineMode|null
      */
     private $lineMode = null;
@@ -24,7 +25,7 @@ class UserDevicePoliciesGetResponse extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName enableDeviceFeatureSynchronization
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:31377
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:32522
      * @var bool|null
      */
     private $enableDeviceFeatureSynchronization = null;

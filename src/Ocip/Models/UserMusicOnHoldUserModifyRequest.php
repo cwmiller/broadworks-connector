@@ -6,14 +6,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserMusicOnHoldUserModifyRequest
  *
  * Modify data for Music On Hold User.
- *         The response is either a SuccessResponse or an
- *         ErrorResponse.
- *         Replaced By: UserMusicOnHoldUserModifyRequest16
+ *                 The response is either a SuccessResponse or an ErrorResponse.
+ *                 Replaced By: UserMusicOnHoldUserModifyRequest16
  *
  * @see SuccessResponse
  * @see ErrorResponse
  * @see UserMusicOnHoldUserModifyRequest16
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:11273","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:11600","type":"sequence"}]
  */
 class UserMusicOnHoldUserModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,7 +20,7 @@ class UserMusicOnHoldUserModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName userId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:11273
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:11600
      * @var string|null
      */
     private $userId = null;
@@ -30,7 +29,7 @@ class UserMusicOnHoldUserModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName source
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserSourceModify
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:11273
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:11600
      * @var \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserSourceModify|null
      */
     private $source = null;
@@ -39,7 +38,7 @@ class UserMusicOnHoldUserModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName useAlternateSourceForInternalCalls
      * @Type bool
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:11273
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:11600
      * @var bool|null
      */
     private $useAlternateSourceForInternalCalls = null;
@@ -48,7 +47,7 @@ class UserMusicOnHoldUserModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName internalSource
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserSourceModify
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:11273
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:11600
      * @var \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserSourceModify|null
      */
     private $internalSource = null;

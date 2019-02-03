@@ -6,14 +6,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemSIPDeviceTypeFileAddRequest19
  *
  * Request to add a sip device type file.
- *         The response is either SuccessResponse or ErrorResponse.
- *         
- *         Replaced by: SystemSIPDeviceTypeFileAddRequest20
+ *                 The response is either SuccessResponse or ErrorResponse.
+ *
+ *                 Replaced by: SystemSIPDeviceTypeFileAddRequest20
  *
  * @see SuccessResponse
  * @see ErrorResponse
  * @see SystemSIPDeviceTypeFileAddRequest20
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:30587","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:31722","type":"sequence"}]
  */
 class SystemSIPDeviceTypeFileAddRequest19 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,7 +21,7 @@ class SystemSIPDeviceTypeFileAddRequest19 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName deviceType
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:30587
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:31722
      * @var string|null
      */
     private $deviceType = null;
@@ -29,7 +29,7 @@ class SystemSIPDeviceTypeFileAddRequest19 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName fileFormat
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:30587
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:31722
      * @var string|null
      */
     private $fileFormat = null;
@@ -37,7 +37,7 @@ class SystemSIPDeviceTypeFileAddRequest19 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName remoteFileFormat
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:30587
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:31722
      * @var string|null
      */
     private $remoteFileFormat = null;
@@ -45,7 +45,7 @@ class SystemSIPDeviceTypeFileAddRequest19 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName fileCategory
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementFileCategory
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:30587
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:31722
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementFileCategory|null
      */
     private $fileCategory = null;
@@ -53,7 +53,7 @@ class SystemSIPDeviceTypeFileAddRequest19 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName fileCustomization
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementFileCustomization
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:30587
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:31722
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementFileCustomization|null
      */
     private $fileCustomization = null;
@@ -61,7 +61,7 @@ class SystemSIPDeviceTypeFileAddRequest19 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName fileSource
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DeviceTypeFileEnhancedConfigurationMode
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:30587
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:31722
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceTypeFileEnhancedConfigurationMode|null
      */
     private $fileSource = null;
@@ -70,7 +70,7 @@ class SystemSIPDeviceTypeFileAddRequest19 extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName uploadFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\FileResource
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:30587
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:31722
      * @var \CWM\BroadWorksConnector\Ocip\Models\FileResource|null
      */
     private $uploadFile = null;
@@ -78,7 +78,7 @@ class SystemSIPDeviceTypeFileAddRequest19 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName useHttpDigestAuthentication
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:30587
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:31722
      * @var bool|null
      */
     private $useHttpDigestAuthentication = null;
@@ -86,7 +86,7 @@ class SystemSIPDeviceTypeFileAddRequest19 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName macBasedFileAuthentication
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:30587
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:31722
      * @var bool|null
      */
     private $macBasedFileAuthentication = null;
@@ -94,7 +94,7 @@ class SystemSIPDeviceTypeFileAddRequest19 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName userNamePasswordFileAuthentication
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:30587
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:31722
      * @var bool|null
      */
     private $userNamePasswordFileAuthentication = null;
@@ -102,7 +102,7 @@ class SystemSIPDeviceTypeFileAddRequest19 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName macInNonRequestURI
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:30587
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:31722
      * @var bool|null
      */
     private $macInNonRequestURI = null;
@@ -111,7 +111,7 @@ class SystemSIPDeviceTypeFileAddRequest19 extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName macFormatInNonRequestURI
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:30587
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:31722
      * @var string|null
      */
     private $macFormatInNonRequestURI = null;
@@ -119,7 +119,7 @@ class SystemSIPDeviceTypeFileAddRequest19 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName allowHttp
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:30587
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:31722
      * @var bool|null
      */
     private $allowHttp = null;
@@ -127,7 +127,7 @@ class SystemSIPDeviceTypeFileAddRequest19 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName allowHttps
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:30587
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:31722
      * @var bool|null
      */
     private $allowHttps = null;
@@ -135,7 +135,7 @@ class SystemSIPDeviceTypeFileAddRequest19 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName allowTftp
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:30587
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:31722
      * @var bool|null
      */
     private $allowTftp = null;
@@ -143,7 +143,7 @@ class SystemSIPDeviceTypeFileAddRequest19 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName enableCaching
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:30587
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:31722
      * @var bool|null
      */
     private $enableCaching = null;
@@ -151,7 +151,7 @@ class SystemSIPDeviceTypeFileAddRequest19 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName allowUploadFromDevice
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:30587
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:31722
      * @var bool|null
      */
     private $allowUploadFromDevice = null;

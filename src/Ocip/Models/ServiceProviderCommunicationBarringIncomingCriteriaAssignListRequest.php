@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:1697","type":"sequence"}]
+ * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:1696","type":"sequence"}]
  */
 class ServiceProviderCommunicationBarringIncomingCriteriaAssignListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class ServiceProviderCommunicationBarringIncomingCriteriaAssignListRequest exten
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1697
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1696
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,7 +27,7 @@ class ServiceProviderCommunicationBarringIncomingCriteriaAssignListRequest exten
      * @ElementName criteriaName
      * @Type string
      * @Array
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1697
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1696
      * @var string[]
      */
     private $criteriaName = array(

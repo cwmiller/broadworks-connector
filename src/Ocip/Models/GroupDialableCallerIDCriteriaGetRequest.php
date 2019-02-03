@@ -6,12 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupDialableCallerIDCriteriaGetRequest
  *
  * Get an existing Dialable Caller ID Criteria.
- *         The response is either a  
- *         GroupDialableCallerIDCriteriaGetRequest or an ErrorResponse.
+ *         The response is either a GroupDialableCallerIDCriteriaGetResponse or an ErrorResponse.
  *
- * @see GroupDialableCallerIDCriteriaGetRequest
+ * @see GroupDialableCallerIDCriteriaGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:3687","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:3686","type":"sequence"}]
  */
 class GroupDialableCallerIDCriteriaGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +18,7 @@ class GroupDialableCallerIDCriteriaGetRequest extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:3687
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:3686
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,7 +26,7 @@ class GroupDialableCallerIDCriteriaGetRequest extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:3687
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:3686
      * @var string|null
      */
     private $groupId = null;
@@ -35,7 +34,7 @@ class GroupDialableCallerIDCriteriaGetRequest extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName name
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:3687
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:3686
      * @var string|null
      */
     private $name = null;

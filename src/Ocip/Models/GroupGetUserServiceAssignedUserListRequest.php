@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupGetUserServiceAssignedUserListResponse
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:5291","type":"sequence","children":[{"id":"f3a93cf15de4abd7903673e44ee3e07b:5294","type":"choice"}]}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:5289","type":"sequence","children":[{"id":"f3a93cf15de4abd7903673e44ee3e07b:5292","type":"choice"}]}]
  */
 class GroupGetUserServiceAssignedUserListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupGetUserServiceAssignedUserListRequest extends \CWM\BroadWorksConnecto
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:5291
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:5289
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,7 +26,7 @@ class GroupGetUserServiceAssignedUserListRequest extends \CWM\BroadWorksConnecto
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:5291
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:5289
      * @var string|null
      */
     private $groupId = null;
@@ -34,7 +34,7 @@ class GroupGetUserServiceAssignedUserListRequest extends \CWM\BroadWorksConnecto
     /**
      * @ElementName serviceName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UserService
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:5294
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:5292
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserService|null
      */
     private $serviceName = null;
@@ -42,7 +42,7 @@ class GroupGetUserServiceAssignedUserListRequest extends \CWM\BroadWorksConnecto
     /**
      * @ElementName servicePackName
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:5294
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:5292
      * @var string|null
      */
     private $servicePackName = null;

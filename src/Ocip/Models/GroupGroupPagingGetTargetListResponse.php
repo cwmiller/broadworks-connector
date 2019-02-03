@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "Phone Number", "Extension", "Department", "Email Address".
  *
  * @see GroupGroupPagingGetTargetListRequest
- * @Groups [{"id":"0d36df8c109e3ea7324f79031368c661:381","type":"sequence"}]
+ * @Groups [{"id":"0d36df8c109e3ea7324f79031368c661:379","type":"sequence"}]
  */
 class GroupGroupPagingGetTargetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,7 +19,7 @@ class GroupGroupPagingGetTargetListResponse extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName targetTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 0d36df8c109e3ea7324f79031368c661:381
+     * @Group 0d36df8c109e3ea7324f79031368c661:379
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $targetTable = null;

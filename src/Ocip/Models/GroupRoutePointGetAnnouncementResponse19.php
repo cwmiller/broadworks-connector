@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the GroupRoutePointGetAnnouncementRequest19.
  *
  * @see GroupRoutePointGetAnnouncementRequest19
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:29344","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:30413","type":"sequence"}]
  */
 class GroupRoutePointGetAnnouncementResponse19 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class GroupRoutePointGetAnnouncementResponse19 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName mediaOnHoldSource
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterMediaOnHoldSourceRead19
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:29344
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:30413
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterMediaOnHoldSourceRead19|null
      */
     private $mediaOnHoldSource = null;

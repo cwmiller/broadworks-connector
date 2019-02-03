@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * The security classification customization activation.
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:3336","type":"sequence"}]
+ * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:3473","type":"sequence"}]
  */
 class SecurityClassificationCustomizationActivation
 {
@@ -15,7 +15,7 @@ class SecurityClassificationCustomizationActivation
     /**
      * @ElementName name
      * @Type string
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3336
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:3473
      * @var string|null
      */
     private $name = null;
@@ -23,7 +23,7 @@ class SecurityClassificationCustomizationActivation
     /**
      * @ElementName isCustomized
      * @Type bool
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3336
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:3473
      * @var bool|null
      */
     private $isCustomized = null;

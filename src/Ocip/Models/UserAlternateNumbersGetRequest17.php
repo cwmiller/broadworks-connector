@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see UserAlternateNumbersGetResponse17
  * @see ErrorResponse
  * @see UserAlternateNumbersGetRequest21
- * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:3338","type":"sequence"}]
+ * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:3337","type":"sequence"}]
  */
 class UserAlternateNumbersGetRequest17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,7 +21,7 @@ class UserAlternateNumbersGetRequest17 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName userId
      * @Type string
-     * @Group de4d76f01f337fe4694212ec9f771753:3338
+     * @Group de4d76f01f337fe4694212ec9f771753:3337
      * @var string|null
      */
     private $userId = null;

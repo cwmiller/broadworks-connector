@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupTimeScheduleDeleteRequest
  *
  * Delete a time schedule from a group.
- *         The response is either a SuccessResponse or an ErrorResponse.
+ *                 The response is either a SuccessResponse or an ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:13663","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:14058","type":"sequence"}]
  */
 class GroupTimeScheduleDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupTimeScheduleDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:13663
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:14058
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,7 +26,7 @@ class GroupTimeScheduleDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName groupId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:13663
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:14058
      * @var string|null
      */
     private $groupId = null;
@@ -34,7 +34,7 @@ class GroupTimeScheduleDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName timeScheduleName
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:13663
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:14058
      * @var string|null
      */
     private $timeScheduleName = null;

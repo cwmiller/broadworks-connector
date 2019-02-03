@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The column value for "Is Active" can either be true, or false.
  *
  * @see GroupFlexibleSeatingHostGetInstanceListRequest
- * @Groups [{"id":"43afb2158d313a1d1a148124d7caba1e:166","type":"sequence"}]
+ * @Groups [{"id":"43afb2158d313a1d1a148124d7caba1e:188","type":"sequence"}]
  */
 class GroupFlexibleSeatingHostGetInstanceListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,7 +19,7 @@ class GroupFlexibleSeatingHostGetInstanceListResponse extends \CWM\BroadWorksCon
     /**
      * @ElementName flexibleSeatingHostTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 43afb2158d313a1d1a148124d7caba1e:166
+     * @Group 43afb2158d313a1d1a148124d7caba1e:188
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $flexibleSeatingHostTable = null;

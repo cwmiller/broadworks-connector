@@ -15,7 +15,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see LoginRequest21sp1
  * @see LoginResponse22V3
- * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:5453","type":"sequence"}]
+ * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:5455","type":"sequence"}]
  */
 class LoginResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -23,7 +23,7 @@ class LoginResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataR
     /**
      * @ElementName loginType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LoginType
-     * @Group de4d76f01f337fe4694212ec9f771753:5453
+     * @Group de4d76f01f337fe4694212ec9f771753:5455
      * @var \CWM\BroadWorksConnector\Ocip\Models\LoginType|null
      */
     private $loginType = null;
@@ -31,7 +31,7 @@ class LoginResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataR
     /**
      * @ElementName locale
      * @Type string
-     * @Group de4d76f01f337fe4694212ec9f771753:5453
+     * @Group de4d76f01f337fe4694212ec9f771753:5455
      * @var string|null
      */
     private $locale = null;
@@ -39,7 +39,7 @@ class LoginResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataR
     /**
      * @ElementName encoding
      * @Type string
-     * @Group de4d76f01f337fe4694212ec9f771753:5453
+     * @Group de4d76f01f337fe4694212ec9f771753:5455
      * @var string|null
      */
     private $encoding = null;
@@ -48,7 +48,7 @@ class LoginResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataR
      * @ElementName groupId
      * @Type string
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:5453
+     * @Group de4d76f01f337fe4694212ec9f771753:5455
      * @var string|null
      */
     private $groupId = null;
@@ -57,7 +57,7 @@ class LoginResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataR
      * @ElementName serviceProviderId
      * @Type string
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:5453
+     * @Group de4d76f01f337fe4694212ec9f771753:5455
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -65,7 +65,7 @@ class LoginResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataR
     /**
      * @ElementName isEnterprise
      * @Type bool
-     * @Group de4d76f01f337fe4694212ec9f771753:5453
+     * @Group de4d76f01f337fe4694212ec9f771753:5455
      * @var bool|null
      */
     private $isEnterprise = null;
@@ -74,7 +74,7 @@ class LoginResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataR
      * @ElementName passwordExpiresDays
      * @Type int
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:5453
+     * @Group de4d76f01f337fe4694212ec9f771753:5455
      * @var int|null
      */
     private $passwordExpiresDays = null;
@@ -82,7 +82,7 @@ class LoginResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataR
     /**
      * @ElementName userDomain
      * @Type string
-     * @Group de4d76f01f337fe4694212ec9f771753:5453
+     * @Group de4d76f01f337fe4694212ec9f771753:5455
      * @var string|null
      */
     private $userDomain = null;
@@ -91,7 +91,7 @@ class LoginResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataR
      * @ElementName tokenRevocationTime
      * @Type string
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:5453
+     * @Group de4d76f01f337fe4694212ec9f771753:5455
      * @var string|null
      */
     private $tokenRevocationTime = null;

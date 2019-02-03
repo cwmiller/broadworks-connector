@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * The voice portal greeting menu keys.
  *
- * @Groups [{"id":"3347d430e0d5c93a9ff8dcf0e3b60d6c:2661","type":"sequence"}]
+ * @Groups [{"id":"3347d430e0d5c93a9ff8dcf0e3b60d6c:2733","type":"sequence"}]
  */
 class GreetingsMenuKeysReadEntry
 {
@@ -16,7 +16,7 @@ class GreetingsMenuKeysReadEntry
      * @ElementName personalizedName
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2661
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2733
      * @var string|null
      */
     private $personalizedName = null;
@@ -25,7 +25,7 @@ class GreetingsMenuKeysReadEntry
      * @ElementName conferenceGreeting
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2661
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2733
      * @var string|null
      */
     private $conferenceGreeting = null;
@@ -33,7 +33,7 @@ class GreetingsMenuKeysReadEntry
     /**
      * @ElementName returnToPreviousMenu
      * @Type string
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2661
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2733
      * @var string|null
      */
     private $returnToPreviousMenu = null;
@@ -42,7 +42,7 @@ class GreetingsMenuKeysReadEntry
      * @ElementName repeatMenu
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2661
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2733
      * @var string|null
      */
     private $repeatMenu = null;

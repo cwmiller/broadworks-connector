@@ -6,12 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupGroupPagingGetOriginatorListRequest
  *
  * Get a list of originators assigned to a paging group.
- *         The response is either a
- *         GroupGroupPagingGetOriginatorListResponse or an ErrorResponse.
+ *         The response is either a GroupGroupPagingGetOriginatorListResponse or an ErrorResponse.
  *
  * @see GroupGroupPagingGetOriginatorListResponse
  * @see ErrorResponse
- * @Groups [{"id":"0d36df8c109e3ea7324f79031368c661:328","type":"sequence"}]
+ * @Groups [{"id":"0d36df8c109e3ea7324f79031368c661:327","type":"sequence"}]
  */
 class GroupGroupPagingGetOriginatorListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +18,7 @@ class GroupGroupPagingGetOriginatorListRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group 0d36df8c109e3ea7324f79031368c661:328
+     * @Group 0d36df8c109e3ea7324f79031368c661:327
      * @var string|null
      */
     private $serviceUserId = null;

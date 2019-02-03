@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:1868","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:1865","type":"sequence"}]
  */
 class SystemApplicationControllerAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class SystemApplicationControllerAddRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName name
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1868
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1865
      * @var string|null
      */
     private $name = null;
@@ -27,7 +27,7 @@ class SystemApplicationControllerAddRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName subscriberId
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1868
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1865
      * @var string|null
      */
     private $subscriberId = null;
@@ -35,7 +35,7 @@ class SystemApplicationControllerAddRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName channelSetId
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1868
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1865
      * @var string|null
      */
     private $channelSetId = null;

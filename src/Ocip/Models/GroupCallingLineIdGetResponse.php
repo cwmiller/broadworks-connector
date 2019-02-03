@@ -6,10 +6,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupCallingLineIdGetResponse
  *
  * Response to the GroupCallingLineIdGetRequest.
- *         The response contains the group's calling line id settings.
+ *                 The response contains the group's calling line id settings.
  *
  * @see GroupCallingLineIdGetRequest
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:1148","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:1164","type":"sequence"}]
  */
 class GroupCallingLineIdGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class GroupCallingLineIdGetResponse extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName useGroupNumber
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:1148
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:1164
      * @var bool|null
      */
     private $useGroupNumber = null;
@@ -25,7 +25,7 @@ class GroupCallingLineIdGetResponse extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName useGroupName
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:1148
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:1164
      * @var bool|null
      */
     private $useGroupName = null;
@@ -34,7 +34,7 @@ class GroupCallingLineIdGetResponse extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName callingLineIdPhoneNumber
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:1148
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:1164
      * @var string|null
      */
     private $callingLineIdPhoneNumber = null;
@@ -43,7 +43,7 @@ class GroupCallingLineIdGetResponse extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName callingLineIdName
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:1148
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:1164
      * @var string|null
      */
     private $callingLineIdName = null;

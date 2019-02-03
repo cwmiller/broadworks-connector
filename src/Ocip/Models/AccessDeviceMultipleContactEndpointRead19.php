@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * AccessDeviceMultipleContactEndpointRead19
  *
  * Access device end point that can have multiple contacts.
- *     Port numbers are only used by devices with static line ordering.
- *     
- *       Replaced by AccessDeviceMultipleContactEndpointRead20.
+ *                 Port numbers are only used by devices with static line ordering.
  *
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:42884","type":"sequence"}]
+ *                 Replaced by AccessDeviceMultipleContactEndpointRead20.
+ *
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:44499","type":"sequence"}]
  */
 class AccessDeviceMultipleContactEndpointRead19
 {
@@ -18,7 +18,7 @@ class AccessDeviceMultipleContactEndpointRead19
     /**
      * @ElementName accessDevice
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDevice
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:42884
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:44499
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDevice|null
      */
     private $accessDevice = null;
@@ -26,7 +26,7 @@ class AccessDeviceMultipleContactEndpointRead19
     /**
      * @ElementName linePort
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:42884
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:44499
      * @var string|null
      */
     private $linePort = null;
@@ -36,7 +36,7 @@ class AccessDeviceMultipleContactEndpointRead19
      * @Type string
      * @Array
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:42884
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:44499
      * @var string[]
      */
     private $contact = array(
@@ -46,7 +46,7 @@ class AccessDeviceMultipleContactEndpointRead19
     /**
      * @ElementName staticRegistrationCapable
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:42884
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:44499
      * @var bool|null
      */
     private $staticRegistrationCapable = null;
@@ -54,7 +54,7 @@ class AccessDeviceMultipleContactEndpointRead19
     /**
      * @ElementName useDomain
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:42884
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:44499
      * @var bool|null
      */
     private $useDomain = null;
@@ -63,7 +63,7 @@ class AccessDeviceMultipleContactEndpointRead19
      * @ElementName portNumber
      * @Type int
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:42884
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:44499
      * @var int|null
      */
     private $portNumber = null;

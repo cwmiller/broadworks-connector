@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:1594","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:1591","type":"sequence"}]
  */
 class SystemAccountingModifyRadiusServerRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemAccountingModifyRadiusServerRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName netAddress
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1594
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1591
      * @var string|null
      */
     private $netAddress = null;
@@ -26,7 +26,7 @@ class SystemAccountingModifyRadiusServerRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName port
      * @Type int
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1594
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1591
      * @var int|null
      */
     private $port = null;
@@ -36,7 +36,7 @@ class SystemAccountingModifyRadiusServerRequest extends \CWM\BroadWorksConnector
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1594
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1591
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $description = null;

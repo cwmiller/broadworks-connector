@@ -7,9 +7,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * LoginRequest21sp1 is 2nd stage of the 2 stage OCI login process.
  *         The signedPassword is not required for external authentication login from a trusted host (ACL).
+ *         The response is either LoginResponse21sp1 or ErrorResponse
  *         Replaced by LoginRequest22V3 in AS data mode.
  *
  * @see LoginRequest21sp1
+ * @see LoginResponse21sp1
+ * @see ErrorResponse
  * @see LoginRequest22V3
  * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:5368","type":"sequence"}]
  */

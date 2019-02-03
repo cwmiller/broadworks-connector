@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemCallCenterGetResponse
  *
  * Response to SystemCallCenterGetRequest.
- *         Replaced By: SystemCallCenterGetResponse14sp9
+ *                 Replaced By: SystemCallCenterGetResponse14sp9
  *
  * @see SystemCallCenterGetRequest
  * @see SystemCallCenterGetResponse14sp9
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:4242","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:4406","type":"sequence"}]
  */
 class SystemCallCenterGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class SystemCallCenterGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName defaultFromAddress
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:4242
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:4406
      * @var string|null
      */
     private $defaultFromAddress = null;

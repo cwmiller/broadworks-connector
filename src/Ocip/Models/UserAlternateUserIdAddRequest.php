@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:336","type":"sequence"}]
+ * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:388","type":"sequence"}]
  */
 class UserAlternateUserIdAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserAlternateUserIdAddRequest extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName userId
      * @Type string
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:336
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:388
      * @var string|null
      */
     private $userId = null;
@@ -26,7 +26,7 @@ class UserAlternateUserIdAddRequest extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName alternateUserId
      * @Type string
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:336
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:388
      * @var string|null
      */
     private $alternateUserId = null;
@@ -35,7 +35,7 @@ class UserAlternateUserIdAddRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName description
      * @Type string
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:336
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:388
      * @var string|null
      */
     private $description = null;

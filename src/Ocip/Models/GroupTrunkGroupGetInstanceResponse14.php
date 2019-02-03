@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupTrunkGroupGetInstanceResponse14
  *
  * Response to GroupTrunkGroupGetInstanceRequest.
- *         The publicUserIdentity in the ServiceInstanceReadProfile is not used for trunk groups.
- *         Returns the profile information for the Trunk Group.
+ *                 The publicUserIdentity in the ServiceInstanceReadProfile is not used for trunk groups.
+ *                 Returns the profile information for the Trunk Group.
  *
  * @see GroupTrunkGroupGetInstanceRequest
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:2418","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:2479","type":"sequence"}]
  */
 class GroupTrunkGroupGetInstanceResponse14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class GroupTrunkGroupGetInstanceResponse14 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName serviceInstanceProfile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:2418
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:2479
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile|null
      */
     private $serviceInstanceProfile = null;
@@ -27,7 +27,7 @@ class GroupTrunkGroupGetInstanceResponse14 extends \CWM\BroadWorksConnector\Ocip
      * @ElementName accessDeviceEndpoint
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointRead14
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:2418
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:2479
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointRead14|null
      */
     private $accessDeviceEndpoint = null;
@@ -35,7 +35,7 @@ class GroupTrunkGroupGetInstanceResponse14 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName maxActiveCalls
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:2418
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:2479
      * @var int|null
      */
     private $maxActiveCalls = null;
@@ -44,7 +44,7 @@ class GroupTrunkGroupGetInstanceResponse14 extends \CWM\BroadWorksConnector\Ocip
      * @ElementName maxIncomingCalls
      * @Type int
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:2418
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:2479
      * @var int|null
      */
     private $maxIncomingCalls = null;
@@ -53,7 +53,7 @@ class GroupTrunkGroupGetInstanceResponse14 extends \CWM\BroadWorksConnector\Ocip
      * @ElementName maxOutgoingCalls
      * @Type int
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:2418
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:2479
      * @var int|null
      */
     private $maxOutgoingCalls = null;
@@ -61,7 +61,7 @@ class GroupTrunkGroupGetInstanceResponse14 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName requireAuthentication
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:2418
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:2479
      * @var bool|null
      */
     private $requireAuthentication = null;
@@ -70,7 +70,7 @@ class GroupTrunkGroupGetInstanceResponse14 extends \CWM\BroadWorksConnector\Ocip
      * @ElementName sipAuthenticationUserName
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:2418
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:2479
      * @var string|null
      */
     private $sipAuthenticationUserName = null;

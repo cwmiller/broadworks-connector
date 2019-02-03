@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemBusyLampFieldGetRequest.
  *
  * @see SystemBusyLampFieldGetRequest
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:20447","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:21127","type":"sequence"}]
  */
 class SystemBusyLampFieldGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class SystemBusyLampFieldGetResponse extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName displayLocalUserIdentityLastNameFirst
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:20447
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:21127
      * @var bool|null
      */
     private $displayLocalUserIdentityLastNameFirst = null;

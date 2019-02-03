@@ -20,7 +20,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         and "Abandoned Call Threshold Parameter" are "Required", "Hidden" and "Does Not Apply".
  *
  * @see GroupCallCenterEnhancedReportingGetAvailableReportTemplateListRequest
- * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:3356","type":"sequence"}]
+ * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:3352","type":"sequence"}]
  */
 class GroupCallCenterEnhancedReportingGetAvailableReportTemplateListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -28,7 +28,7 @@ class GroupCallCenterEnhancedReportingGetAvailableReportTemplateListResponse ext
     /**
      * @ElementName reportTemplateTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group e2c537e3e39483b96620673a7012ffdd:3356
+     * @Group e2c537e3e39483b96620673a7012ffdd:3352
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $reportTemplateTable = null;

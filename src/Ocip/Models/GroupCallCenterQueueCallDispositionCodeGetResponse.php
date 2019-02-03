@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the GroupCallCenterQueueCallDispositionCodeGetRequest
  *
  * @see GroupCallCenterQueueCallDispositionCodeGetRequest
- * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:5566","type":"sequence"}]
+ * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:5615","type":"sequence"}]
  */
 class GroupCallCenterQueueCallDispositionCodeGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class GroupCallCenterQueueCallDispositionCodeGetResponse extends \CWM\BroadWorks
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group e2c537e3e39483b96620673a7012ffdd:5566
+     * @Group e2c537e3e39483b96620673a7012ffdd:5615
      * @var bool|null
      */
     private $isActive = null;
@@ -25,7 +25,7 @@ class GroupCallCenterQueueCallDispositionCodeGetResponse extends \CWM\BroadWorks
      * @ElementName description
      * @Type string
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:5566
+     * @Group e2c537e3e39483b96620673a7012ffdd:5615
      * @var string|null
      */
     private $description = null;

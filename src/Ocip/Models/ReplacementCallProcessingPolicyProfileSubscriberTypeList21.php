@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * A list of CallProcessingPolicyProfileSubscriberType21. The list replaces a previously configured list.
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:2962","type":"sequence"}]
+ * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:3099","type":"sequence"}]
  */
 class ReplacementCallProcessingPolicyProfileSubscriberTypeList21
 {
@@ -16,7 +16,7 @@ class ReplacementCallProcessingPolicyProfileSubscriberTypeList21
      * @ElementName subscriberType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallProcessingPolicyProfileSubscriberType21
      * @Array
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:2962
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:3099
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallProcessingPolicyProfileSubscriberType21[]
      */
     private $subscriberType = array(

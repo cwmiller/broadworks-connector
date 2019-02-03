@@ -6,14 +6,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupAccessDeviceGetRequest16
  *
  * Requests the configuration of a specified group access device.
- *         The response is either GroupAccessDeviceGetResponse16 or ErrorResponse.
- *         
- *         Replaced by: GroupAccessDeviceGetRequest18sp1
+ *                 The response is either GroupAccessDeviceGetResponse16 or ErrorResponse.
+ *
+ *                 Replaced by: GroupAccessDeviceGetRequest18sp1
  *
  * @see GroupAccessDeviceGetResponse16
  * @see ErrorResponse
  * @see GroupAccessDeviceGetRequest18sp1
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:23509","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:24320","type":"sequence"}]
  */
 class GroupAccessDeviceGetRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,7 +21,7 @@ class GroupAccessDeviceGetRequest16 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:23509
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:24320
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -29,7 +29,7 @@ class GroupAccessDeviceGetRequest16 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName groupId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:23509
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:24320
      * @var string|null
      */
     private $groupId = null;
@@ -37,7 +37,7 @@ class GroupAccessDeviceGetRequest16 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName deviceName
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:23509
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:24320
      * @var string|null
      */
     private $deviceName = null;

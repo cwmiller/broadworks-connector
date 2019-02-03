@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemServiceAttributeDefaultGetListResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:14328","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:14881","type":"sequence"}]
  */
 class SystemServiceAttributeDefaultGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemServiceAttributeDefaultGetListRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName serviceName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceCategory
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14328
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14881
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceCategory|null
      */
     private $serviceName = null;

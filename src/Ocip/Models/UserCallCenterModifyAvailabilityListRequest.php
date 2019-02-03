@@ -6,14 +6,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserCallCenterModifyAvailabilityListRequest
  *
  * Request for an agent to login or logout of one or more Call Centers.
- *         Contains a list specifing the desired login status of one or more call centers.
- *         The response is either a SuccessResponse or an ErrorResponse.
- *         Replaced By: UserCallCenterModifyRequest17sp4
+ *                 Contains a list specifing the desired login status of one or more call centers.
+ *                 The response is either a SuccessResponse or an ErrorResponse.
+ *                 Replaced By: UserCallCenterModifyRequest17sp4
  *
  * @see SuccessResponse
  * @see ErrorResponse
  * @see UserCallCenterModifyRequest17sp4
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:6669","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:6887","type":"sequence"}]
  */
 class UserCallCenterModifyAvailabilityListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,7 +21,7 @@ class UserCallCenterModifyAvailabilityListRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName userId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:6669
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:6887
      * @var string|null
      */
     private $userId = null;
@@ -31,7 +31,7 @@ class UserCallCenterModifyAvailabilityListRequest extends \CWM\BroadWorksConnect
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAgentAvailability
      * @Array
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:6669
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:6887
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAgentAvailability[]
      */
     private $callCenterAvailability = array(

@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response contains the Communication Barring Incoming Criteria information.
  *
  * @see SystemCommunicationBarringIncomingCriteriaGetRequest
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:5555","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:5849","type":"sequence"}]
  */
 class SystemCommunicationBarringIncomingCriteriaGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class SystemCommunicationBarringIncomingCriteriaGetResponse extends \CWM\BroadWo
      * @ElementName description
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:5555
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:5849
      * @var string|null
      */
     private $description = null;
@@ -27,7 +27,7 @@ class SystemCommunicationBarringIncomingCriteriaGetResponse extends \CWM\BroadWo
      * @ElementName timeSchedule
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:5555
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:5849
      * @var string|null
      */
     private $timeSchedule = null;
@@ -36,7 +36,7 @@ class SystemCommunicationBarringIncomingCriteriaGetResponse extends \CWM\BroadWo
      * @ElementName holidaySchedule
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:5555
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:5849
      * @var string|null
      */
     private $holidaySchedule = null;
@@ -46,7 +46,7 @@ class SystemCommunicationBarringIncomingCriteriaGetResponse extends \CWM\BroadWo
      * @Type string
      * @Array
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:5555
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:5849
      * @var string[]
      */
     private $matchNumberPortabilityStatus = array(

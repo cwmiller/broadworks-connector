@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see ServiceProviderFileRepositoryDeviceUserGetListResponse
  * @see ErrorResponse
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:3552","type":"sequence"}]
+ * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:3580","type":"sequence"}]
  */
 class ServiceProviderFileRepositoryDeviceUserGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class ServiceProviderFileRepositoryDeviceUserGetListRequest extends \CWM\BroadWo
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3552
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3580
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,7 +26,7 @@ class ServiceProviderFileRepositoryDeviceUserGetListRequest extends \CWM\BroadWo
     /**
      * @ElementName fileRepositoryName
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3552
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3580
      * @var string|null
      */
     private $fileRepositoryName = null;

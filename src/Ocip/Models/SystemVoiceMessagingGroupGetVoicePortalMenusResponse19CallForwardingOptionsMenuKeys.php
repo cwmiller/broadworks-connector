@@ -5,7 +5,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemVoiceMessagingGroupGetVoicePortalMenusResponse19CallForwardingOptionsMenuKeys
  *
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:27062","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:28017","type":"sequence"}]
  */
 class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19CallForwardingOptionsMenuKeys
 {
@@ -14,7 +14,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19CallForwardingOption
      * @ElementName activateCallForwarding
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:27062
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:28017
      * @var string|null
      */
     private $activateCallForwarding = null;
@@ -23,7 +23,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19CallForwardingOption
      * @ElementName deactivateCallForwarding
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:27062
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:28017
      * @var string|null
      */
     private $deactivateCallForwarding = null;
@@ -32,7 +32,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19CallForwardingOption
      * @ElementName changeCallForwardingDestination
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:27062
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:28017
      * @var string|null
      */
     private $changeCallForwardingDestination = null;
@@ -41,7 +41,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19CallForwardingOption
      * @ElementName listenToCallForwardingStatus
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:27062
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:28017
      * @var string|null
      */
     private $listenToCallForwardingStatus = null;
@@ -49,7 +49,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19CallForwardingOption
     /**
      * @ElementName returnToPreviousMenu
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:27062
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:28017
      * @var string|null
      */
     private $returnToPreviousMenu = null;
@@ -58,7 +58,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19CallForwardingOption
      * @ElementName repeatMenu
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:27062
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:28017
      * @var string|null
      */
     private $repeatMenu = null;

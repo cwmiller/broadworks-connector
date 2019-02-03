@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:12471","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:12942","type":"sequence"}]
  */
 class SystemOfficeZoneModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemOfficeZoneModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName officeZoneName
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12471
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12942
      * @var string|null
      */
     private $officeZoneName = null;
@@ -27,7 +27,7 @@ class SystemOfficeZoneModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName newOfficeZoneName
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12471
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12942
      * @var string|null
      */
     private $newOfficeZoneName = null;
@@ -37,7 +37,7 @@ class SystemOfficeZoneModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12471
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12942
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $description = null;
@@ -46,7 +46,7 @@ class SystemOfficeZoneModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName replacementZoneList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementZoneList
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12471
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12942
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementZoneList|null
      */
     private $replacementZoneList = null;
@@ -55,7 +55,7 @@ class SystemOfficeZoneModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName primaryZoneName
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12471
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12942
      * @var string|null
      */
     private $primaryZoneName = null;

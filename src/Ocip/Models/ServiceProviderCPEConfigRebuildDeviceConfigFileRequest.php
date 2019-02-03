@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:2130","type":"sequence"}]
+ * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:2128","type":"sequence"}]
  */
 class ServiceProviderCPEConfigRebuildDeviceConfigFileRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class ServiceProviderCPEConfigRebuildDeviceConfigFileRequest extends \CWM\BroadW
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2130
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2128
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,7 +26,7 @@ class ServiceProviderCPEConfigRebuildDeviceConfigFileRequest extends \CWM\BroadW
     /**
      * @ElementName deviceName
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2130
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2128
      * @var string|null
      */
     private $deviceName = null;
@@ -35,7 +35,7 @@ class ServiceProviderCPEConfigRebuildDeviceConfigFileRequest extends \CWM\BroadW
      * @ElementName force
      * @Type bool
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2130
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2128
      * @var bool|null
      */
     private $force = null;

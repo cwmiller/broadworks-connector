@@ -6,18 +6,18 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserGetLoginInfoRequest
  *
  * UserGetLoginInfoRequest is used to access login information for a user
- *         either by a userId or dn.
- *         The phone number may be any DN associated with a user.
- *         
- *         The response is a UserGetLoginInfoResponse or an ErrorResponse
- *         
- *         Replaced by UserGetLoginInfoRequest22.
+ *                 either by a userId or dn.
+ *                 The phone number may be any DN associated with a user.
+ *
+ *                 The response is a UserGetLoginInfoResponse or an ErrorResponse
+ *
+ *                 Replaced by UserGetLoginInfoRequest22.
  *
  * @see UserGetLoginInfoRequest
  * @see UserGetLoginInfoResponse
  * @see ErrorResponse
  * @see UserGetLoginInfoRequest22
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:40880","type":"sequence","children":[{"id":"ab0042aa512abc10edb3c55e4b416b0b:40881","type":"choice"}]}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:42464","type":"sequence","children":[{"id":"ab0042aa512abc10edb3c55e4b416b0b:42465","type":"choice"}]}]
  */
 class UserGetLoginInfoRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -25,7 +25,7 @@ class UserGetLoginInfoRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
     /**
      * @ElementName userId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:40881
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:42465
      * @var string|null
      */
     private $userId = null;
@@ -33,7 +33,7 @@ class UserGetLoginInfoRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
     /**
      * @ElementName phoneNumber
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:40881
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:42465
      * @var string|null
      */
     private $phoneNumber = null;

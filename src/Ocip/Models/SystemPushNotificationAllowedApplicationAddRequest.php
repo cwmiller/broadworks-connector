@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:13100","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:13653","type":"sequence"}]
  */
 class SystemPushNotificationAllowedApplicationAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemPushNotificationAllowedApplicationAddRequest extends \CWM\BroadWorks
     /**
      * @ElementName applicationId
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:13100
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:13653
      * @var string|null
      */
     private $applicationId = null;
@@ -27,7 +27,7 @@ class SystemPushNotificationAllowedApplicationAddRequest extends \CWM\BroadWorks
      * @ElementName description
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:13100
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:13653
      * @var string|null
      */
     private $description = null;

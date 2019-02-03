@@ -6,13 +6,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemCPEConfigAddFileServerRequest
  *
  * Add a device CPE config file server.
- *         The response is either SuccessResponse or ErrorResponse.
- *         Replaced By: SystemCPEConfigAddFileServerRequest14sp6
+ *                 The response is either SuccessResponse or ErrorResponse.
+ *                 Replaced By: SystemCPEConfigAddFileServerRequest14sp6
  *
  * @see SuccessResponse
  * @see ErrorResponse
  * @see SystemCPEConfigAddFileServerRequest14sp6
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:4585","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:4773","type":"sequence"}]
  */
 class SystemCPEConfigAddFileServerRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class SystemCPEConfigAddFileServerRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName deviceType
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:4585
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:4773
      * @var string|null
      */
     private $deviceType = null;
@@ -28,7 +28,7 @@ class SystemCPEConfigAddFileServerRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName ftpHostNetAddress
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:4585
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:4773
      * @var string|null
      */
     private $ftpHostNetAddress = null;
@@ -36,7 +36,7 @@ class SystemCPEConfigAddFileServerRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName ftpUserId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:4585
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:4773
      * @var string|null
      */
     private $ftpUserId = null;
@@ -44,7 +44,7 @@ class SystemCPEConfigAddFileServerRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName ftpUserPassword
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:4585
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:4773
      * @var string|null
      */
     private $ftpUserPassword = null;
@@ -53,7 +53,7 @@ class SystemCPEConfigAddFileServerRequest extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName cpeFileDirectory
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:4585
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:4773
      * @var string|null
      */
     private $cpeFileDirectory = null;
@@ -62,7 +62,7 @@ class SystemCPEConfigAddFileServerRequest extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName passiveFTP
      * @Type bool
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:4585
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:4773
      * @var bool|null
      */
     private $passiveFTP = null;

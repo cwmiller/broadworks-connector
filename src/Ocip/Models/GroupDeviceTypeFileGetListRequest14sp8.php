@@ -5,15 +5,16 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * GroupDeviceTypeFileGetListRequest14sp8
  *
- * Request to get the list of device type files managed by the Device Management System, on a per-group basis.
- *         The response is either GroupDeviceTypeFileGetListResponse14sp8 or ErrorResponse.
- *         
- *         Replaced by: GroupDeviceTypeFileGetListRequest21
+ * Request to get the list of device type files managed by the Device Management System, on a per-group
+ *                 basis.
+ *                 The response is either GroupDeviceTypeFileGetListResponse14sp8 or ErrorResponse.
+ *
+ *                 Replaced by: GroupDeviceTypeFileGetListRequest21
  *
  * @see GroupDeviceTypeFileGetListResponse14sp8
  * @see ErrorResponse
  * @see GroupDeviceTypeFileGetListRequest21
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:35371","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:36724","type":"sequence"}]
  */
 class GroupDeviceTypeFileGetListRequest14sp8 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,7 +22,7 @@ class GroupDeviceTypeFileGetListRequest14sp8 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:35371
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:36724
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -29,7 +30,7 @@ class GroupDeviceTypeFileGetListRequest14sp8 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName groupId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:35371
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:36724
      * @var string|null
      */
     private $groupId = null;
@@ -37,7 +38,7 @@ class GroupDeviceTypeFileGetListRequest14sp8 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName deviceType
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:35371
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:36724
      * @var string|null
      */
     private $deviceType = null;

@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemCallProcessingGetPolicyRequest14.
  *
  * @see SystemCallProcessingGetPolicyRequest14
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:4303","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:4467","type":"sequence"}]
  */
 class SystemCallProcessingGetPolicyResponse14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class SystemCallProcessingGetPolicyResponse14 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName useMaxSimultaneousCalls
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:4303
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:4467
      * @var bool|null
      */
     private $useMaxSimultaneousCalls = null;
@@ -24,7 +24,7 @@ class SystemCallProcessingGetPolicyResponse14 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName maxSimultaneousCalls
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:4303
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:4467
      * @var int|null
      */
     private $maxSimultaneousCalls = null;
@@ -32,7 +32,7 @@ class SystemCallProcessingGetPolicyResponse14 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName useMaxSimultaneousVideoCalls
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:4303
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:4467
      * @var bool|null
      */
     private $useMaxSimultaneousVideoCalls = null;
@@ -40,7 +40,7 @@ class SystemCallProcessingGetPolicyResponse14 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName maxSimultaneousVideoCalls
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:4303
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:4467
      * @var int|null
      */
     private $maxSimultaneousVideoCalls = null;
@@ -48,7 +48,7 @@ class SystemCallProcessingGetPolicyResponse14 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName useMaxCallTimeForAnsweredCalls
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:4303
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:4467
      * @var bool|null
      */
     private $useMaxCallTimeForAnsweredCalls = null;
@@ -56,7 +56,7 @@ class SystemCallProcessingGetPolicyResponse14 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName maxCallTimeForAnsweredCallsMinutes
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:4303
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:4467
      * @var int|null
      */
     private $maxCallTimeForAnsweredCallsMinutes = null;
@@ -64,7 +64,7 @@ class SystemCallProcessingGetPolicyResponse14 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName useMaxCallTimeForUnansweredCalls
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:4303
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:4467
      * @var bool|null
      */
     private $useMaxCallTimeForUnansweredCalls = null;
@@ -72,7 +72,7 @@ class SystemCallProcessingGetPolicyResponse14 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName maxCallTimeForUnansweredCallsMinutes
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:4303
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:4467
      * @var int|null
      */
     private $maxCallTimeForUnansweredCallsMinutes = null;
@@ -80,7 +80,7 @@ class SystemCallProcessingGetPolicyResponse14 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName mediaPolicySelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MediaPolicySelection
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:4303
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:4467
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaPolicySelection|null
      */
     private $mediaPolicySelection = null;
@@ -89,7 +89,7 @@ class SystemCallProcessingGetPolicyResponse14 extends \CWM\BroadWorksConnector\O
      * @ElementName supportedMediaSetName
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:4303
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:4467
      * @var string|null
      */
     private $supportedMediaSetName = null;
@@ -97,7 +97,7 @@ class SystemCallProcessingGetPolicyResponse14 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName networkUsageSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\NetworkUsageSelection
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:4303
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:4467
      * @var \CWM\BroadWorksConnector\Ocip\Models\NetworkUsageSelection|null
      */
     private $networkUsageSelection = null;
@@ -105,7 +105,7 @@ class SystemCallProcessingGetPolicyResponse14 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName enforceGroupCallingLineIdentityRestriction
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:4303
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:4467
      * @var bool|null
      */
     private $enforceGroupCallingLineIdentityRestriction = null;
@@ -113,7 +113,7 @@ class SystemCallProcessingGetPolicyResponse14 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName enforceEnterpriseCallingLineIdentityRestriction
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:4303
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:4467
      * @var bool|null
      */
     private $enforceEnterpriseCallingLineIdentityRestriction = null;
@@ -122,7 +122,7 @@ class SystemCallProcessingGetPolicyResponse14 extends \CWM\BroadWorksConnector\O
      * @ElementName conferenceURI
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:4303
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:4467
      * @var string|null
      */
     private $conferenceURI = null;
@@ -130,7 +130,7 @@ class SystemCallProcessingGetPolicyResponse14 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName maxConferenceParties
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:4303
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:4467
      * @var int|null
      */
     private $maxConferenceParties = null;

@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:1773","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:1770","type":"sequence"}]
  */
 class SystemAliasDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemAliasDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
     /**
      * @ElementName aliasNetAddress
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1773
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1770
      * @var string|null
      */
     private $aliasNetAddress = null;

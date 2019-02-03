@@ -6,13 +6,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemAutomaticCallbackModifyRequest
  *
  * Modifies the system's automatic callback attributes.
- *         The response is either a SuccessResponse or an ErrorResponse.
- *         Replaced By: SystemAutomaticCallbackModifyRequest15
+ *                 The response is either a SuccessResponse or an ErrorResponse.
+ *                 Replaced By: SystemAutomaticCallbackModifyRequest15
  *
  * @see SuccessResponse
  * @see ErrorResponse
  * @see SystemAutomaticCallbackModifyRequest15
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:4145","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:4303","type":"sequence"}]
  */
 class SystemAutomaticCallbackModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,7 +21,7 @@ class SystemAutomaticCallbackModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @ElementName monitorMinutes
      * @Type int
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:4145
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:4303
      * @var int|null
      */
     private $monitorMinutes = null;
@@ -30,7 +30,7 @@ class SystemAutomaticCallbackModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @ElementName waitBetweenRetryOriginatorMinutes
      * @Type int
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:4145
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:4303
      * @var int|null
      */
     private $waitBetweenRetryOriginatorMinutes = null;
@@ -39,7 +39,7 @@ class SystemAutomaticCallbackModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @ElementName maxMonitorsPerOriginator
      * @Type int
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:4145
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:4303
      * @var int|null
      */
     private $maxMonitorsPerOriginator = null;
@@ -48,7 +48,7 @@ class SystemAutomaticCallbackModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @ElementName maxCallbackRings
      * @Type int
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:4145
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:4303
      * @var int|null
      */
     private $maxCallbackRings = null;
@@ -57,7 +57,7 @@ class SystemAutomaticCallbackModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @ElementName maxRetryOriginatorMinutes
      * @Type int
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:4145
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:4303
      * @var int|null
      */
     private $maxRetryOriginatorMinutes = null;

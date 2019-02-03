@@ -6,8 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * CallCenterReportServerChoice
  *
  * Call center report server choice.
- *         
- *         Replaced by CallCenterReportServerChoice19
+ *
+ *                 Replaced by CallCenterReportServerChoice19
  *
  * @method static CallCenterReportServerChoice CCRS()
  * @method static CallCenterReportServerChoice ENHANCED()

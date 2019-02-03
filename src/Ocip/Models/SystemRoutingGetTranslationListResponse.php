@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         and "Route".
  *
  * @see SystemRoutingGetTranslationListRequest
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:13768","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:14321","type":"sequence"}]
  */
 class SystemRoutingGetTranslationListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class SystemRoutingGetTranslationListResponse extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName routingTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:13768
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14321
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $routingTable = null;

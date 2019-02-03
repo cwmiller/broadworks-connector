@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * The voice portal announcement recording menu keys modify entry.
  *
- * @Groups [{"id":"3347d430e0d5c93a9ff8dcf0e3b60d6c:2267","type":"sequence"}]
+ * @Groups [{"id":"3347d430e0d5c93a9ff8dcf0e3b60d6c:2339","type":"sequence"}]
  */
 class AnnouncementRecordingMenuKeysModifyEntry
 {
@@ -16,7 +16,7 @@ class AnnouncementRecordingMenuKeysModifyEntry
      * @ElementName acceptRecording
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2267
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2339
      * @var string|null
      */
     private $acceptRecording = null;
@@ -25,7 +25,7 @@ class AnnouncementRecordingMenuKeysModifyEntry
      * @ElementName rejectRerecord
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2267
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2339
      * @var string|null
      */
     private $rejectRerecord = null;
@@ -34,7 +34,7 @@ class AnnouncementRecordingMenuKeysModifyEntry
      * @ElementName returnToPreviousMenu
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2267
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2339
      * @var string|null
      */
     private $returnToPreviousMenu = null;
@@ -44,7 +44,7 @@ class AnnouncementRecordingMenuKeysModifyEntry
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2267
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2339
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $repeatMenu = null;
@@ -53,7 +53,7 @@ class AnnouncementRecordingMenuKeysModifyEntry
      * @ElementName end
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2267
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2339
      * @var string|null
      */
     private $end = null;

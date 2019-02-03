@@ -5,12 +5,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemBCCTAddOCIInterfaceAddressRequest
  *
- * Add an OCI entry to the Broadworks Common Communication Transport (BCCT) protocol to interface mapping table.
- *         The response is either SuccessResponse or ErrorResponse.
+ * Add an OCI entry to the Broadworks Common Communication Transport (BCCT) protocol to interface mapping
+ *                 table.
+ *                 The response is either SuccessResponse or ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:4165","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:4327","type":"sequence"}]
  */
 class SystemBCCTAddOCIInterfaceAddressRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +19,7 @@ class SystemBCCTAddOCIInterfaceAddressRequest extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName interfaceNetAddress
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:4165
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:4327
      * @var string|null
      */
     private $interfaceNetAddress = null;

@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemSMDIModifyACLEntryRequest
  *
  * Modify an entry from the SMDI access control list.
- *         The response is either SuccessResponse or ErrorResponse.
+ *                 The response is either SuccessResponse or ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:6290","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:6500","type":"sequence"}]
  */
 class SystemSMDIModifyACLEntryRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemSMDIModifyACLEntryRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName netAddress
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:6290
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:6500
      * @var string|null
      */
     private $netAddress = null;
@@ -28,7 +28,7 @@ class SystemSMDIModifyACLEntryRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Type string
      * @Nillable
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:6290
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:6500
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $description = null;

@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemASRParametersModifyRequest
  *
  * Request to modify Application Server Registration system parameters.
- *         The response is either SuccessResponse or ErrorResponse.
+ *                 The response is either SuccessResponse or ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:4090","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:4246","type":"sequence"}]
  */
 class SystemASRParametersModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class SystemASRParametersModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName maxTransmissions
      * @Type int
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:4090
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:4246
      * @var int|null
      */
     private $maxTransmissions = null;
@@ -28,7 +28,7 @@ class SystemASRParametersModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName retransmissionDelayMilliSeconds
      * @Type int
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:4090
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:4246
      * @var int|null
      */
     private $retransmissionDelayMilliSeconds = null;
@@ -37,7 +37,7 @@ class SystemASRParametersModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName listeningPort
      * @Type int
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:4090
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:4246
      * @var int|null
      */
     private $listeningPort = null;
@@ -47,7 +47,7 @@ class SystemASRParametersModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Type string
      * @Nillable
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:4090
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:4246
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $sourceAddress = null;

@@ -6,13 +6,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupEnterpriseTrunkAddRequest
  *
  * Request to add an enterprise trunk in a group.
- *         The response is either a SuccessResponse or an ErrorResponse.
- *         Replaced by: GroupEnterpriseTrunkAddRequest21.
+ *                 The response is either a SuccessResponse or an ErrorResponse.
+ *                 Replaced by: GroupEnterpriseTrunkAddRequest21.
  *
  * @see SuccessResponse
  * @see ErrorResponse
  * @see GroupEnterpriseTrunkAddRequest21
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:31989","type":"sequence","children":[{"id":"ab0042aa512abc10edb3c55e4b416b0b:31996","type":"choice"}]}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:33156","type":"sequence","children":[{"id":"ab0042aa512abc10edb3c55e4b416b0b:33163","type":"choice"}]}]
  */
 class GroupEnterpriseTrunkAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class GroupEnterpriseTrunkAddRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:31989
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:33156
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -28,7 +28,7 @@ class GroupEnterpriseTrunkAddRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName groupId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:31989
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:33156
      * @var string|null
      */
     private $groupId = null;
@@ -36,7 +36,7 @@ class GroupEnterpriseTrunkAddRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName enterpriseTrunkName
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:31989
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:33156
      * @var string|null
      */
     private $enterpriseTrunkName = null;
@@ -44,7 +44,7 @@ class GroupEnterpriseTrunkAddRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName maximumRerouteAttempts
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:31989
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:33156
      * @var int|null
      */
     private $maximumRerouteAttempts = null;
@@ -52,7 +52,7 @@ class GroupEnterpriseTrunkAddRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName routeExhaustionAction
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EnterpriseTrunkRouteExhaustionAction
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:31989
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:33156
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseTrunkRouteExhaustionAction|null
      */
     private $routeExhaustionAction = null;
@@ -61,7 +61,7 @@ class GroupEnterpriseTrunkAddRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName routeExhaustionForwardAddress
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:31989
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:33156
      * @var string|null
      */
     private $routeExhaustionForwardAddress = null;
@@ -69,7 +69,7 @@ class GroupEnterpriseTrunkAddRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName orderedRouting
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupEnterpriseTrunkAddRequestOrderedRouting
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:31996
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:33163
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupEnterpriseTrunkAddRequestOrderedRouting|null
      */
     private $orderedRouting = null;
@@ -77,7 +77,7 @@ class GroupEnterpriseTrunkAddRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName priorityWeightedRouting
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupEnterpriseTrunkAddRequestPriorityWeightedRouting
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:31996
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:33163
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupEnterpriseTrunkAddRequestPriorityWeightedRouting|null
      */
     private $priorityWeightedRouting = null;

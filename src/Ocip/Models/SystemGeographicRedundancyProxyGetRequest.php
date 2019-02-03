@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is a SystemGeographicRedundancyProxyGetResponse.
  *
  * @see SystemGeographicRedundancyProxyGetResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:9146","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:9584","type":"sequence"}]
  */
 class SystemGeographicRedundancyProxyGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

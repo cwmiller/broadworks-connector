@@ -6,13 +6,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupCustomContactDirectoryGetAvailableUserListResponse
  *
  * Response to the GroupCustomContactDirectoryGetAvailableUserListRequest.
- *         Contains a table with column headings: "User Id", "Last Name", "First Name", 
- *         "Hiragana Last Name", "Hiragana First Name".
- *         Replace by: GroupCustomContactDirectoryGetAvailableUserListResponse17
+ *                 Contains a table with column headings: "User Id", "Last Name", "First Name",
+ *                 "Hiragana Last Name", "Hiragana First Name".
+ *                 Replace by: GroupCustomContactDirectoryGetAvailableUserListResponse17
  *
  * @see GroupCustomContactDirectoryGetAvailableUserListRequest
  * @see GroupCustomContactDirectoryGetAvailableUserListResponse17
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:13065","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:13447","type":"sequence"}]
  */
 class GroupCustomContactDirectoryGetAvailableUserListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -20,7 +20,7 @@ class GroupCustomContactDirectoryGetAvailableUserListResponse extends \CWM\Broad
     /**
      * @ElementName userTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:13065
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:13447
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $userTable = null;

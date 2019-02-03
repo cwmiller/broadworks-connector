@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserSimultaneousRingFamilyGetPhoneNumberRequest
  *
  * Get the answer confirmation setting for the phone number specified.
- *         The response is either a UserSimultaneousRingFamilyGetPhoneNumberResponse or an ErrorResponse.
+ *                 The response is either a UserSimultaneousRingFamilyGetPhoneNumberResponse or an ErrorResponse.
  *
  * @see UserSimultaneousRingFamilyGetPhoneNumberResponse
  * @see ErrorResponse
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:16953","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:17508","type":"sequence"}]
  */
 class UserSimultaneousRingFamilyGetPhoneNumberRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserSimultaneousRingFamilyGetPhoneNumberRequest extends \CWM\BroadWorksCon
     /**
      * @ElementName userId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:16953
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:17508
      * @var string|null
      */
     private $userId = null;
@@ -26,7 +26,7 @@ class UserSimultaneousRingFamilyGetPhoneNumberRequest extends \CWM\BroadWorksCon
     /**
      * @ElementName phoneNumber
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:16953
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:17508
      * @var string|null
      */
     private $phoneNumber = null;

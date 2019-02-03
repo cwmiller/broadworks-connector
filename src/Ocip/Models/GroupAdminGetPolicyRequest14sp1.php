@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupAdminGetPolicyRequest14sp1
  *
  * Requests the Group administrator's policy settings.
- *         The response is either GroupAdminGetPolicyResponse14sp1 or ErrorResponse.
+ *                 The response is either GroupAdminGetPolicyResponse14sp1 or ErrorResponse.
  *
  * @see GroupAdminGetPolicyResponse14sp1
  * @see ErrorResponse
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:12040","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:12387","type":"sequence"}]
  */
 class GroupAdminGetPolicyRequest14sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupAdminGetPolicyRequest14sp1 extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName userId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:12040
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:12387
      * @var string|null
      */
     private $userId = null;

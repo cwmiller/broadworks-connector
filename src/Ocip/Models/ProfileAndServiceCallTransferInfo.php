@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * This is the configuration parameters for Call Transfer service
  *
- * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:3941","type":"sequence"}]
+ * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:4152","type":"sequence"}]
  */
 class ProfileAndServiceCallTransferInfo
 {
@@ -15,7 +15,7 @@ class ProfileAndServiceCallTransferInfo
     /**
      * @ElementName isRecallActive
      * @Type bool
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:3941
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:4152
      * @var bool|null
      */
     private $isRecallActive = null;
@@ -23,7 +23,7 @@ class ProfileAndServiceCallTransferInfo
     /**
      * @ElementName recallNumberOfRings
      * @Type int
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:3941
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:4152
      * @var int|null
      */
     private $recallNumberOfRings = null;
@@ -31,7 +31,7 @@ class ProfileAndServiceCallTransferInfo
     /**
      * @ElementName useDiversionInhibitorForBlindTransfer
      * @Type bool
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:3941
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:4152
      * @var bool|null
      */
     private $useDiversionInhibitorForBlindTransfer = null;
@@ -39,7 +39,7 @@ class ProfileAndServiceCallTransferInfo
     /**
      * @ElementName useDiversionInhibitorForConsultativeCalls
      * @Type bool
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:3941
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:4152
      * @var bool|null
      */
     private $useDiversionInhibitorForConsultativeCalls = null;
@@ -47,7 +47,7 @@ class ProfileAndServiceCallTransferInfo
     /**
      * @ElementName enableBusyCampOn
      * @Type bool
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:3941
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:4152
      * @var bool|null
      */
     private $enableBusyCampOn = null;
@@ -55,7 +55,7 @@ class ProfileAndServiceCallTransferInfo
     /**
      * @ElementName busyCampOnSeconds
      * @Type int
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:3941
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:4152
      * @var int|null
      */
     private $busyCampOnSeconds = null;

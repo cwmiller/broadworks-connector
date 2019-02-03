@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupInterceptGroupGetResponse
  *
  * Response to the GroupInterceptGroupGetRequest.
- *         Replaced By: GroupInterceptGroupGetResponse16
+ *                 Replaced By: GroupInterceptGroupGetResponse16
  *
  * @see GroupInterceptGroupGetRequest
  * @see GroupInterceptGroupGetResponse16
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:8811","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:9096","type":"sequence"}]
  */
 class GroupInterceptGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class GroupInterceptGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:8811
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:9096
      * @var bool|null
      */
     private $isActive = null;
@@ -26,7 +26,7 @@ class GroupInterceptGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName announcementSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:8811
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:9096
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection|null
      */
     private $announcementSelection = null;
@@ -35,7 +35,7 @@ class GroupInterceptGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName audioFileDescription
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:8811
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:9096
      * @var string|null
      */
     private $audioFileDescription = null;
@@ -44,7 +44,7 @@ class GroupInterceptGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName videoFileDescription
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:8811
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:9096
      * @var string|null
      */
     private $videoFileDescription = null;
@@ -52,7 +52,7 @@ class GroupInterceptGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName playNewPhoneNumber
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:8811
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:9096
      * @var bool|null
      */
     private $playNewPhoneNumber = null;
@@ -61,7 +61,7 @@ class GroupInterceptGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName newPhoneNumber
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:8811
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:9096
      * @var string|null
      */
     private $newPhoneNumber = null;
@@ -69,7 +69,7 @@ class GroupInterceptGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName transferOnZeroToPhoneNumber
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:8811
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:9096
      * @var bool|null
      */
     private $transferOnZeroToPhoneNumber = null;
@@ -78,7 +78,7 @@ class GroupInterceptGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName transferPhoneNumber
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:8811
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:9096
      * @var string|null
      */
     private $transferPhoneNumber = null;

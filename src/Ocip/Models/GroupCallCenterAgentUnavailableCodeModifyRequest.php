@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:2629","type":"sequence"}]
+ * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:2625","type":"sequence"}]
  */
 class GroupCallCenterAgentUnavailableCodeModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupCallCenterAgentUnavailableCodeModifyRequest extends \CWM\BroadWorksCo
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group e2c537e3e39483b96620673a7012ffdd:2629
+     * @Group e2c537e3e39483b96620673a7012ffdd:2625
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,7 +26,7 @@ class GroupCallCenterAgentUnavailableCodeModifyRequest extends \CWM\BroadWorksCo
     /**
      * @ElementName groupId
      * @Type string
-     * @Group e2c537e3e39483b96620673a7012ffdd:2629
+     * @Group e2c537e3e39483b96620673a7012ffdd:2625
      * @var string|null
      */
     private $groupId = null;
@@ -34,7 +34,7 @@ class GroupCallCenterAgentUnavailableCodeModifyRequest extends \CWM\BroadWorksCo
     /**
      * @ElementName code
      * @Type string
-     * @Group e2c537e3e39483b96620673a7012ffdd:2629
+     * @Group e2c537e3e39483b96620673a7012ffdd:2625
      * @var string|null
      */
     private $code = null;
@@ -43,7 +43,7 @@ class GroupCallCenterAgentUnavailableCodeModifyRequest extends \CWM\BroadWorksCo
      * @ElementName isActive
      * @Type bool
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:2629
+     * @Group e2c537e3e39483b96620673a7012ffdd:2625
      * @var bool|null
      */
     private $isActive = null;
@@ -53,7 +53,7 @@ class GroupCallCenterAgentUnavailableCodeModifyRequest extends \CWM\BroadWorksCo
      * @Type string
      * @Nillable
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:2629
+     * @Group e2c537e3e39483b96620673a7012ffdd:2625
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $description = null;

@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"5395c7df0157d44aa22f3351d1a5f3da:741","type":"sequence"}]
+ * @Groups [{"id":"5395c7df0157d44aa22f3351d1a5f3da:740","type":"sequence"}]
  */
 class EnterpriseDepartmentModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class EnterpriseDepartmentModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName enterpriseId
      * @Type string
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:741
+     * @Group 5395c7df0157d44aa22f3351d1a5f3da:740
      * @var string|null
      */
     private $enterpriseId = null;
@@ -26,7 +26,7 @@ class EnterpriseDepartmentModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName departmentName
      * @Type string
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:741
+     * @Group 5395c7df0157d44aa22f3351d1a5f3da:740
      * @var string|null
      */
     private $departmentName = null;
@@ -35,7 +35,7 @@ class EnterpriseDepartmentModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName newDepartmentName
      * @Type string
      * @Optional
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:741
+     * @Group 5395c7df0157d44aa22f3351d1a5f3da:740
      * @var string|null
      */
     private $newDepartmentName = null;
@@ -45,7 +45,7 @@ class EnterpriseDepartmentModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EnterpriseDepartmentKey
      * @Nillable
      * @Optional
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:741
+     * @Group 5395c7df0157d44aa22f3351d1a5f3da:740
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseDepartmentKey|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $newParentDepartmentKey = null;

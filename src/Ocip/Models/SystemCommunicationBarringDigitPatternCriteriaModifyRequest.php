@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:5418","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:5714","type":"sequence"}]
  */
 class SystemCommunicationBarringDigitPatternCriteriaModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemCommunicationBarringDigitPatternCriteriaModifyRequest extends \CWM\B
     /**
      * @ElementName name
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:5418
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:5714
      * @var string|null
      */
     private $name = null;
@@ -27,7 +27,7 @@ class SystemCommunicationBarringDigitPatternCriteriaModifyRequest extends \CWM\B
      * @ElementName newName
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:5418
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:5714
      * @var string|null
      */
     private $newName = null;
@@ -37,7 +37,7 @@ class SystemCommunicationBarringDigitPatternCriteriaModifyRequest extends \CWM\B
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:5418
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:5714
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $description = null;
@@ -47,7 +47,7 @@ class SystemCommunicationBarringDigitPatternCriteriaModifyRequest extends \CWM\B
      * @Type string
      * @Array
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:5418
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:5714
      * @var string[]
      */
     private $addMatchDigitPattern = array(
@@ -59,7 +59,7 @@ class SystemCommunicationBarringDigitPatternCriteriaModifyRequest extends \CWM\B
      * @Type string
      * @Array
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:5418
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:5714
      * @var string[]
      */
     private $deleteMatchDigitPattern = array(

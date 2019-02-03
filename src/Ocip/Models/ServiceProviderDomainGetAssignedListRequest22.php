@@ -14,7 +14,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see ServiceProviderDomainGetAssignedListResponse22
  * @see ErrorResponse
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:3302","type":"sequence"}]
+ * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:3330","type":"sequence"}]
  */
 class ServiceProviderDomainGetAssignedListRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -22,7 +22,7 @@ class ServiceProviderDomainGetAssignedListRequest22 extends \CWM\BroadWorksConne
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3302
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3330
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -31,7 +31,7 @@ class ServiceProviderDomainGetAssignedListRequest22 extends \CWM\BroadWorksConne
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3302
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3330
      * @var int|null
      */
     private $responseSizeLimit = null;
@@ -41,7 +41,7 @@ class ServiceProviderDomainGetAssignedListRequest22 extends \CWM\BroadWorksConne
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDomainName
      * @Array
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3302
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3330
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDomainName[]
      */
     private $searchCriteriaDomainName = array(

@@ -6,13 +6,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ServiceProviderAnswerConfirmationModifyRequest
  *
  * Modify a service provider or enterprise's answer confirmation settings.
- *         The response is either a SuccessResponse or an ErrorResponse.
- *         Replaced By: ServiceProviderAnswerConfirmationModifyRequest16
+ *                 The response is either a SuccessResponse or an ErrorResponse.
+ *                 Replaced By: ServiceProviderAnswerConfirmationModifyRequest16
  *
  * @see SuccessResponse
  * @see ErrorResponse
  * @see ServiceProviderAnswerConfirmationModifyRequest16
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:9277","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:9569","type":"sequence"}]
  */
 class ServiceProviderAnswerConfirmationModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class ServiceProviderAnswerConfirmationModifyRequest extends \CWM\BroadWorksConn
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:9277
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:9569
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -29,7 +29,7 @@ class ServiceProviderAnswerConfirmationModifyRequest extends \CWM\BroadWorksConn
      * @ElementName announcementMessageSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnswerConfirmationAnnouncementSelection
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:9277
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:9569
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnswerConfirmationAnnouncementSelection|null
      */
     private $announcementMessageSelection = null;
@@ -38,7 +38,7 @@ class ServiceProviderAnswerConfirmationModifyRequest extends \CWM\BroadWorksConn
      * @ElementName confirmationMessageAudioFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:9277
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:9569
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource|null
      */
     private $confirmationMessageAudioFile = null;
@@ -47,7 +47,7 @@ class ServiceProviderAnswerConfirmationModifyRequest extends \CWM\BroadWorksConn
      * @ElementName confirmationTimoutSeconds
      * @Type int
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:9277
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:9569
      * @var int|null
      */
     private $confirmationTimoutSeconds = null;

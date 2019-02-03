@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:11250","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:11687","type":"sequence"}]
  */
 class SystemNetworkRoutingServerModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemNetworkRoutingServerModifyRequest extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName netAddress
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11250
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11687
      * @var string|null
      */
     private $netAddress = null;
@@ -28,7 +28,7 @@ class SystemNetworkRoutingServerModifyRequest extends \CWM\BroadWorksConnector\O
      * @Type int
      * @Nillable
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11250
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11687
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $port = null;
@@ -37,7 +37,7 @@ class SystemNetworkRoutingServerModifyRequest extends \CWM\BroadWorksConnector\O
      * @ElementName transportProtocol
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11250
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11687
      * @var \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol|null
      */
     private $transportProtocol = null;
@@ -46,7 +46,7 @@ class SystemNetworkRoutingServerModifyRequest extends \CWM\BroadWorksConnector\O
      * @ElementName poll
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11250
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11687
      * @var bool|null
      */
     private $poll = null;
@@ -56,7 +56,7 @@ class SystemNetworkRoutingServerModifyRequest extends \CWM\BroadWorksConnector\O
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11250
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11687
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $description = null;

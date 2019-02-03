@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:9865","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:10303","type":"sequence"}]
  */
 class SystemHPBXAlternateCarrierSelectionModifyCarrierRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemHPBXAlternateCarrierSelectionModifyCarrierRequest extends \CWM\Broad
     /**
      * @ElementName name
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9865
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10303
      * @var string|null
      */
     private $name = null;
@@ -27,7 +27,7 @@ class SystemHPBXAlternateCarrierSelectionModifyCarrierRequest extends \CWM\Broad
      * @ElementName newName
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9865
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10303
      * @var string|null
      */
     private $newName = null;
@@ -36,7 +36,7 @@ class SystemHPBXAlternateCarrierSelectionModifyCarrierRequest extends \CWM\Broad
      * @ElementName prefix
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9865
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10303
      * @var string|null
      */
     private $prefix = null;
@@ -45,7 +45,7 @@ class SystemHPBXAlternateCarrierSelectionModifyCarrierRequest extends \CWM\Broad
      * @ElementName domain
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9865
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10303
      * @var string|null
      */
     private $domain = null;
@@ -54,7 +54,7 @@ class SystemHPBXAlternateCarrierSelectionModifyCarrierRequest extends \CWM\Broad
      * @ElementName type
      * @Type \CWM\BroadWorksConnector\Ocip\Models\HPBXAlternateCarrierType
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9865
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10303
      * @var \CWM\BroadWorksConnector\Ocip\Models\HPBXAlternateCarrierType|null
      */
     private $type = null;

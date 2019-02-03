@@ -6,13 +6,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemCPEConfigModifyFileServerRequest
  *
  * Modify a device CPE config file server.
- *         The response is either SuccessResponse or ErrorResponse.
- *         Replaced By: SystemCPEConfigModifyFileServerRequest14sp6
+ *                 The response is either SuccessResponse or ErrorResponse.
+ *                 Replaced By: SystemCPEConfigModifyFileServerRequest14sp6
  *
  * @see SuccessResponse
  * @see ErrorResponse
  * @see SystemCPEConfigModifyFileServerRequest14sp6
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:4639","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:4827","type":"sequence"}]
  */
 class SystemCPEConfigModifyFileServerRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class SystemCPEConfigModifyFileServerRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName deviceType
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:4639
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:4827
      * @var string|null
      */
     private $deviceType = null;
@@ -29,7 +29,7 @@ class SystemCPEConfigModifyFileServerRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName ftpHostNetAddress
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:4639
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:4827
      * @var string|null
      */
     private $ftpHostNetAddress = null;
@@ -38,7 +38,7 @@ class SystemCPEConfigModifyFileServerRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName ftpUserId
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:4639
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:4827
      * @var string|null
      */
     private $ftpUserId = null;
@@ -47,7 +47,7 @@ class SystemCPEConfigModifyFileServerRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName ftpUserPassword
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:4639
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:4827
      * @var string|null
      */
     private $ftpUserPassword = null;
@@ -57,7 +57,7 @@ class SystemCPEConfigModifyFileServerRequest extends \CWM\BroadWorksConnector\Oc
      * @Type string
      * @Nillable
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:4639
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:4827
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $cpeFileDirectory = null;
@@ -66,7 +66,7 @@ class SystemCPEConfigModifyFileServerRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName passiveFTP
      * @Type bool
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:4639
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:4827
      * @var bool|null
      */
     private $passiveFTP = null;

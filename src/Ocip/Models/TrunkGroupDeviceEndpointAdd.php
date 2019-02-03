@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Trunk group device endpoint used in the context of modify.
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:4135","type":"sequence"}]
+ * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:4272","type":"sequence"}]
  */
 class TrunkGroupDeviceEndpointAdd
 {
@@ -15,7 +15,7 @@ class TrunkGroupDeviceEndpointAdd
     /**
      * @ElementName name
      * @Type string
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4135
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:4272
      * @var string|null
      */
     private $name = null;
@@ -23,7 +23,7 @@ class TrunkGroupDeviceEndpointAdd
     /**
      * @ElementName linePort
      * @Type string
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4135
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:4272
      * @var string|null
      */
     private $linePort = null;
@@ -32,7 +32,7 @@ class TrunkGroupDeviceEndpointAdd
      * @ElementName contact
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4135
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:4272
      * @var string|null
      */
     private $contact = null;

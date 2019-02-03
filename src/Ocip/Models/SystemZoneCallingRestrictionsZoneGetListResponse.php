@@ -5,13 +5,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemZoneCallingRestrictionsZoneGetListResponse
  *
- * Response to SystemZoneCallingRestrictionsZoneGetListRequest. 
- *   Contains a table of all the zones in the system. The column headings are "Zone Name" , "Physical Location".
- *         Replaced by: SystemZoneGetListResponse
+ * Response to SystemZoneCallingRestrictionsZoneGetListRequest.
+ *                 Contains a table of all the zones in the system. The column headings are "Zone Name" , "Physical
+ *                 Location".
+ *                 Replaced by: SystemZoneGetListResponse
  *
  * @see SystemZoneCallingRestrictionsZoneGetListRequest
  * @see SystemZoneGetListResponse
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:16246","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:16730","type":"sequence"}]
  */
 class SystemZoneCallingRestrictionsZoneGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,7 +20,7 @@ class SystemZoneCallingRestrictionsZoneGetListResponse extends \CWM\BroadWorksCo
     /**
      * @ElementName zoneTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:16246
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:16730
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $zoneTable = null;

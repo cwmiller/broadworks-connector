@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserBroadWorksMobilityMobileIdentityGetResponse22V2
  * @see ErrorResponse
- * @Groups [{"id":"f7ae3539fd471e995b07dc1bf8836e2d:1509","type":"sequence"}]
+ * @Groups [{"id":"f7ae3539fd471e995b07dc1bf8836e2d:1619","type":"sequence"}]
  */
 class UserBroadWorksMobilityMobileIdentityGetRequest22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserBroadWorksMobilityMobileIdentityGetRequest22V2 extends \CWM\BroadWorks
     /**
      * @ElementName userId
      * @Type string
-     * @Group f7ae3539fd471e995b07dc1bf8836e2d:1509
+     * @Group f7ae3539fd471e995b07dc1bf8836e2d:1619
      * @var string|null
      */
     private $userId = null;
@@ -26,7 +26,7 @@ class UserBroadWorksMobilityMobileIdentityGetRequest22V2 extends \CWM\BroadWorks
     /**
      * @ElementName mobileNumber
      * @Type string
-     * @Group f7ae3539fd471e995b07dc1bf8836e2d:1509
+     * @Group f7ae3539fd471e995b07dc1bf8836e2d:1619
      * @var string|null
      */
     private $mobileNumber = null;

@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemCodecGetListResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:4871","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:5169","type":"sequence"}]
  */
 class SystemCodecGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

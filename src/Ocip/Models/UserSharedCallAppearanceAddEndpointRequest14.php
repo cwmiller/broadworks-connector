@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserSharedCallAppearanceAddEndpointRequest14
  *
  * Associate an access device instance to the user's Shared Call Appearance.
- *         The response is either a SuccessResponse or an ErrorResponse.
+ *                 The response is either a SuccessResponse or an ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:7404","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:7637","type":"sequence"}]
  */
 class UserSharedCallAppearanceAddEndpointRequest14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserSharedCallAppearanceAddEndpointRequest14 extends \CWM\BroadWorksConnec
     /**
      * @ElementName userId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:7404
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:7637
      * @var string|null
      */
     private $userId = null;
@@ -26,7 +26,7 @@ class UserSharedCallAppearanceAddEndpointRequest14 extends \CWM\BroadWorksConnec
     /**
      * @ElementName accessDeviceEndpoint
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointAdd
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:7404
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:7637
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointAdd|null
      */
     private $accessDeviceEndpoint = null;

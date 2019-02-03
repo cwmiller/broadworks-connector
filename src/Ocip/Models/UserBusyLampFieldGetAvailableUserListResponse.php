@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           "Phone Number", "Extension", "Department", "Email Address", "IMP Id".
  *
  * @see BusyLampFieldGetAvailableUserListRequest
- * @Groups [{"id":"4faeca417998d23ce2ff6b0b43212aa6:145","type":"sequence"}]
+ * @Groups [{"id":"4faeca417998d23ce2ff6b0b43212aa6:177","type":"sequence"}]
  */
 class UserBusyLampFieldGetAvailableUserListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,7 +19,7 @@ class UserBusyLampFieldGetAvailableUserListResponse extends \CWM\BroadWorksConne
     /**
      * @ElementName userTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 4faeca417998d23ce2ff6b0b43212aa6:145
+     * @Group 4faeca417998d23ce2ff6b0b43212aa6:177
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $userTable = null;

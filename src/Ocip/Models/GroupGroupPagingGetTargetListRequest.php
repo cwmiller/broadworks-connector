@@ -6,12 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupGroupPagingGetTargetListRequest
  *
  * Get a list of targets assigned to a paging group.
- *         The response is either a
- *         GroupGroupPagingGetTargetListResponse or an ErrorResponse.
+ *         The response is either a GroupGroupPagingGetTargetListResponse or an ErrorResponse.
  *
  * @see GroupGroupPagingGetTargetListResponse
  * @see ErrorResponse
- * @Groups [{"id":"0d36df8c109e3ea7324f79031368c661:363","type":"sequence"}]
+ * @Groups [{"id":"0d36df8c109e3ea7324f79031368c661:361","type":"sequence"}]
  */
 class GroupGroupPagingGetTargetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +18,7 @@ class GroupGroupPagingGetTargetListRequest extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group 0d36df8c109e3ea7324f79031368c661:363
+     * @Group 0d36df8c109e3ea7324f79031368c661:361
      * @var string|null
      */
     private $serviceUserId = null;

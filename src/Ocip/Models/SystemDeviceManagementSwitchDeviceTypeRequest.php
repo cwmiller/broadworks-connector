@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:6931","type":"sequence","children":[{"id":"7f663d5135470c33ca64b0eed3c3aa0c:6932","type":"choice","optional":true,"children":[{"id":"7f663d5135470c33ca64b0eed3c3aa0c:6934","type":"sequence"}]}]}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:7223","type":"sequence","children":[{"id":"7f663d5135470c33ca64b0eed3c3aa0c:7224","type":"choice","optional":true,"children":[{"id":"7f663d5135470c33ca64b0eed3c3aa0c:7226","type":"sequence"}]}]}]
  */
 class SystemDeviceManagementSwitchDeviceTypeRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,7 +21,7 @@ class SystemDeviceManagementSwitchDeviceTypeRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6932
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7224
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -29,7 +29,7 @@ class SystemDeviceManagementSwitchDeviceTypeRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName svcProviderId
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6934
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7226
      * @var string|null
      */
     private $svcProviderId = null;
@@ -37,7 +37,7 @@ class SystemDeviceManagementSwitchDeviceTypeRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6934
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7226
      * @var string|null
      */
     private $groupId = null;
@@ -45,7 +45,7 @@ class SystemDeviceManagementSwitchDeviceTypeRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName fromDeviceType
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6931
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7223
      * @var string|null
      */
     private $fromDeviceType = null;
@@ -53,7 +53,7 @@ class SystemDeviceManagementSwitchDeviceTypeRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName toDeviceType
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6931
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7223
      * @var string|null
      */
     private $toDeviceType = null;

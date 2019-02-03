@@ -56,10 +56,12 @@ use CWM\BroadWorksConnector\Ocip\Models\GroupAnnouncementFileDeleteListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupAnnouncementFileGetListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupAnnouncementFileGetListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupAnnouncementFileGetPagedSortedListRequest;
+use CWM\BroadWorksConnector\Ocip\Models\GroupAnnouncementFileGetPagedSortedListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupAnnouncementFileGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupAnnouncementFileGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupAnnouncementFileModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupAnnouncementRepositoryGetSettingsRequest;
+use CWM\BroadWorksConnector\Ocip\Models\GroupAnnouncementRepositoryGetSettingsResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupApplicationServerSetGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupApplicationServerSetGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupApplicationServerSetModifyRequest;
@@ -99,6 +101,7 @@ use CWM\BroadWorksConnector\Ocip\Models\GroupCommunicationBarringGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupCommunicationBarringGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupCommunicationBarringModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupCommunicationBarringProfileGetAssignedListRequest;
+use CWM\BroadWorksConnector\Ocip\Models\GroupCommunicationBarringProfileGetAssignedListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupCommunicationBarringProfileModifyListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupCPEConfigRebuildConfigFileRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupCPEConfigRebuildDeviceConfigFileRequest;
@@ -153,8 +156,10 @@ use CWM\BroadWorksConnector\Ocip\Models\GroupDeviceTypeTagSetModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupDialableCallerIDCriteriaAddRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupDialableCallerIDCriteriaDeleteRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupDialableCallerIDCriteriaGetRequest;
+use CWM\BroadWorksConnector\Ocip\Models\GroupDialableCallerIDCriteriaGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupDialableCallerIDCriteriaModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupDialableCallerIDGetRequest;
+use CWM\BroadWorksConnector\Ocip\Models\GroupDialableCallerIDGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupDialableCallerIDModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupDialPlanPolicyAddAccessCodeRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupDialPlanPolicyDeleteAccessCodeRequest;
@@ -298,6 +303,7 @@ use CWM\BroadWorksConnector\Ocip\Models\GroupServiceGetAuthorizationResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupServiceGetAuthorizedListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupServiceGetAuthorizedListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupServiceIsAssignedRequest;
+use CWM\BroadWorksConnector\Ocip\Models\GroupServiceIsAssignedResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupServiceModifyAuthorizationListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupServicePhoneNumberLookupRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupServicePhoneNumberLookupResponse;
@@ -722,7 +728,7 @@ trait OCISchemaGroup
 
     /**
      * @param GroupAnnouncementFileGetPagedSortedListRequest $request
-     * @return 
+     * @return GroupAnnouncementFileGetPagedSortedListResponse
      * @throws ErrorResponseException
      * @throws ValidationException
      */
@@ -755,7 +761,7 @@ trait OCISchemaGroup
 
     /**
      * @param GroupAnnouncementRepositoryGetSettingsRequest $request
-     * @return 
+     * @return GroupAnnouncementRepositoryGetSettingsResponse
      * @throws ErrorResponseException
      * @throws ValidationException
      */
@@ -1074,7 +1080,7 @@ trait OCISchemaGroup
 
     /**
      * @param GroupCommunicationBarringProfileGetAssignedListRequest $request
-     * @return 
+     * @return GroupCommunicationBarringProfileGetAssignedListResponse
      * @throws ErrorResponseException
      * @throws ValidationException
      */
@@ -1514,7 +1520,7 @@ trait OCISchemaGroup
 
     /**
      * @param GroupDialableCallerIDCriteriaGetRequest $request
-     * @return 
+     * @return GroupDialableCallerIDCriteriaGetResponse
      * @throws ErrorResponseException
      * @throws ValidationException
      */
@@ -1536,7 +1542,7 @@ trait OCISchemaGroup
 
     /**
      * @param GroupDialableCallerIDGetRequest $request
-     * @return 
+     * @return GroupDialableCallerIDGetResponse
      * @throws ErrorResponseException
      * @throws ValidationException
      */
@@ -2581,7 +2587,7 @@ trait OCISchemaGroup
 
     /**
      * @param GroupServiceIsAssignedRequest $request
-     * @return 
+     * @return GroupServiceIsAssignedResponse
      * @throws ErrorResponseException
      * @throws ValidationException
      */

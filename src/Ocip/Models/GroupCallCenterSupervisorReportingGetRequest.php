@@ -6,18 +6,17 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupCallCenterSupervisorReportingGetRequest
  *
  * Get a list of supervisors assigned to a call center.
- *         Only users in the same group or enterprise as this call center
- *         can successfully execute this request.
- *         The response is either a
- *         GroupCallCenterSupervisorReportingGetResponse or an
- *         ErrorResponse.
- *         
- *         Replaced By: GroupCallCenterGetSupervisorListRequest16
+ *                 Only users in the same group or enterprise as this call center
+ *                 can successfully execute this request.
+ *                 The response is either a GroupCallCenterSupervisorReportingGetResponse or an
+ *                 ErrorResponse.
+ *
+ *                 Replaced By: GroupCallCenterGetSupervisorListRequest16
  *
  * @see GroupCallCenterSupervisorReportingGetResponse
  * @see ErrorResponse
  * @see GroupCallCenterGetSupervisorListRequest16
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:8346","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:8595","type":"sequence"}]
  */
 class GroupCallCenterSupervisorReportingGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -25,7 +24,7 @@ class GroupCallCenterSupervisorReportingGetRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:8346
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:8595
      * @var string|null
      */
     private $serviceUserId = null;

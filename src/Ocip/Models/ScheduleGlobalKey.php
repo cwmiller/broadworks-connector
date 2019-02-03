@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Uniquely identifies Holiday and Time Schedules throughout all System, Service Provider, Group and User level.
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:3312","type":"sequence"}]
+ * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:3449","type":"sequence"}]
  */
 class ScheduleGlobalKey
 {
@@ -15,7 +15,7 @@ class ScheduleGlobalKey
     /**
      * @ElementName scheduleKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ScheduleKey
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3312
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:3449
      * @var \CWM\BroadWorksConnector\Ocip\Models\ScheduleKey|null
      */
     private $scheduleKey = null;
@@ -23,7 +23,7 @@ class ScheduleGlobalKey
     /**
      * @ElementName scheduleLevel
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ScheduleLevel
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3312
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:3449
      * @var \CWM\BroadWorksConnector\Ocip\Models\ScheduleLevel|null
      */
     private $scheduleLevel = null;

@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:7786","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:8123","type":"sequence"}]
  */
 class SystemDialPlanPolicyModifyAccessCodeRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemDialPlanPolicyModifyAccessCodeRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName accessCode
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7786
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8123
      * @var string|null
      */
     private $accessCode = null;
@@ -27,7 +27,7 @@ class SystemDialPlanPolicyModifyAccessCodeRequest extends \CWM\BroadWorksConnect
      * @ElementName includeCodeForNetworkTranslationsAndRouting
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7786
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8123
      * @var bool|null
      */
     private $includeCodeForNetworkTranslationsAndRouting = null;
@@ -36,7 +36,7 @@ class SystemDialPlanPolicyModifyAccessCodeRequest extends \CWM\BroadWorksConnect
      * @ElementName includeCodeForScreeningServices
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7786
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8123
      * @var bool|null
      */
     private $includeCodeForScreeningServices = null;
@@ -45,7 +45,7 @@ class SystemDialPlanPolicyModifyAccessCodeRequest extends \CWM\BroadWorksConnect
      * @ElementName enableSecondaryDialTone
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7786
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8123
      * @var bool|null
      */
     private $enableSecondaryDialTone = null;
@@ -55,7 +55,7 @@ class SystemDialPlanPolicyModifyAccessCodeRequest extends \CWM\BroadWorksConnect
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7786
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8123
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $description = null;

@@ -7,11 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Request to login to OCI.
  *         password is not required for external authentication login from a trusted host (ACL).
+ *         The response is either LoginResponse22 or ErrorResponse
  *         
  *         Replaced by LoginRequest22V2 in AS data mode.
  *
+ * @see LoginResponse22
+ * @see ErrorResponse
  * @see LoginRequest22V2
- * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:5388","type":"sequence"}]
+ * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:5389","type":"sequence"}]
  */
 class LoginRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +22,7 @@ class LoginRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
     /**
      * @ElementName userId
      * @Type string
-     * @Group de4d76f01f337fe4694212ec9f771753:5388
+     * @Group de4d76f01f337fe4694212ec9f771753:5389
      * @var string|null
      */
     private $userId = null;
@@ -28,7 +31,7 @@ class LoginRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
      * @ElementName password
      * @Type string
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:5388
+     * @Group de4d76f01f337fe4694212ec9f771753:5389
      * @var string|null
      */
     private $password = null;

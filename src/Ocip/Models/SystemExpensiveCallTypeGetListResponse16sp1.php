@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "Alternate Call Indicator", "Treatment Audio File".
  *
  * @see SystemExpensiveCallTypeGetListRequest16sp1
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:8485","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:8865","type":"sequence"}]
  */
 class SystemExpensiveCallTypeGetListResponse16sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class SystemExpensiveCallTypeGetListResponse16sp1 extends \CWM\BroadWorksConnect
     /**
      * @ElementName alternateCallIndicatorTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8485
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8865
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $alternateCallIndicatorTable = null;

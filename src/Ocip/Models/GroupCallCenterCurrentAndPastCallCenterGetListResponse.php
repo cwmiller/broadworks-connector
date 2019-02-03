@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the GroupCallCenterCurrentAndPastCallCenterGetListRequest.
  *
  * @see GroupCallCenterCurrentAndPastCallCenterGetListRequest
- * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:3099","type":"sequence"}]
+ * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:3095","type":"sequence"}]
  */
 class GroupCallCenterCurrentAndPastCallCenterGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class GroupCallCenterCurrentAndPastCallCenterGetListResponse extends \CWM\BroadW
      * @Type string
      * @Array
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:3099
+     * @Group e2c537e3e39483b96620673a7012ffdd:3095
      * @var string[]
      */
     private $serviceUserId = array(
@@ -30,7 +30,7 @@ class GroupCallCenterCurrentAndPastCallCenterGetListResponse extends \CWM\BroadW
      * @Type string
      * @Array
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:3099
+     * @Group e2c537e3e39483b96620673a7012ffdd:3095
      * @var string[]
      */
     private $deletedServiceUserId = array(

@@ -15,7 +15,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Mode" is enabled.
  *
  * @see GroupDnGetSummaryListRequest
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:4472","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:4470","type":"sequence"}]
  */
 class GroupDnGetSummaryListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -23,7 +23,7 @@ class GroupDnGetSummaryListResponse extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName dnTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4472
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:4470
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $dnTable = null;

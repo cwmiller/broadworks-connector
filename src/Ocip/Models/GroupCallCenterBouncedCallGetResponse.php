@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the GroupCallCenterBouncedCallGetRequest.
  *
  * @see GroupCallCenterBouncedCallGetRequest
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:12302","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:12650","type":"sequence"}]
  */
 class GroupCallCenterBouncedCallGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class GroupCallCenterBouncedCallGetResponse extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:12302
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:12650
      * @var bool|null
      */
     private $isActive = null;
@@ -24,7 +24,7 @@ class GroupCallCenterBouncedCallGetResponse extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName numberOfRingsBeforeBouncingCall
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:12302
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:12650
      * @var int|null
      */
     private $numberOfRingsBeforeBouncingCall = null;
@@ -33,7 +33,7 @@ class GroupCallCenterBouncedCallGetResponse extends \CWM\BroadWorksConnector\Oci
      * @ElementName enableTransfer
      * @Type bool
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:12302
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:12650
      * @var bool|null
      */
     private $enableTransfer = null;
@@ -42,7 +42,7 @@ class GroupCallCenterBouncedCallGetResponse extends \CWM\BroadWorksConnector\Oci
      * @ElementName transferPhoneNumber
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:12302
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:12650
      * @var string|null
      */
     private $transferPhoneNumber = null;
@@ -50,7 +50,7 @@ class GroupCallCenterBouncedCallGetResponse extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName bounceCallWhenAgentUnavailable
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:12302
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:12650
      * @var bool|null
      */
     private $bounceCallWhenAgentUnavailable = null;

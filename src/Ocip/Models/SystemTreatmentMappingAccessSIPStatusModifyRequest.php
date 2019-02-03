@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:16766","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:17608","type":"sequence"}]
  */
 class SystemTreatmentMappingAccessSIPStatusModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemTreatmentMappingAccessSIPStatusModifyRequest extends \CWM\BroadWorks
     /**
      * @ElementName sipStatusCode
      * @Type int
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16766
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17608
      * @var int|null
      */
     private $sipStatusCode = null;
@@ -27,7 +27,7 @@ class SystemTreatmentMappingAccessSIPStatusModifyRequest extends \CWM\BroadWorks
      * @ElementName treatmentId
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16766
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17608
      * @var string|null
      */
     private $treatmentId = null;

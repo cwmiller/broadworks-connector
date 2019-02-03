@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemTreatmentMappingInternalReleaseCauseGetListResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:16900","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:17742","type":"sequence"}]
  */
 class SystemTreatmentMappingInternalReleaseCauseGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

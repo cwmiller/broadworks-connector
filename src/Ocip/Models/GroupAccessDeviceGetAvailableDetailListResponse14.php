@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to GroupAccessDeviceGetAvailableDetailListRequest14.
  *
  * @see GroupAccessDeviceGetAvailableDetailListRequest14
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:23482","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:24293","type":"sequence"}]
  */
 class GroupAccessDeviceGetAvailableDetailListResponse14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class GroupAccessDeviceGetAvailableDetailListResponse14 extends \CWM\BroadWorksC
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupAccessDeviceGetAvailableDetailListResponse14AvailableAccessDevice
      * @Array
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:23482
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:24293
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupAccessDeviceGetAvailableDetailListResponse14AvailableAccessDevice[]
      */
     private $availableAccessDevice = array(

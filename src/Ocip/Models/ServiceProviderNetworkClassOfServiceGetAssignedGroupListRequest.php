@@ -8,11 +8,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get a list of groups within a service provider that have a given
  *         Network Class of Service assigned.
  *         The response is either a ServiceProviderNetworkClassOfServiceGetAssignedGroupListResponse 
- *         or an ErorResponse.
+ *         or an ErrorResponse.
  *
  * @see ServiceProviderNetworkClassOfServiceGetAssignedGroupListResponse
- * @see ErorResponse
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:4146","type":"sequence"}]
+ * @see ErrorResponse
+ * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:4172","type":"sequence"}]
  */
 class ServiceProviderNetworkClassOfServiceGetAssignedGroupListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class ServiceProviderNetworkClassOfServiceGetAssignedGroupListRequest extends \C
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4146
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4172
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -28,7 +28,7 @@ class ServiceProviderNetworkClassOfServiceGetAssignedGroupListRequest extends \C
     /**
      * @ElementName networkClassOfService
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4146
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4172
      * @var string|null
      */
     private $networkClassOfService = null;
@@ -37,7 +37,7 @@ class ServiceProviderNetworkClassOfServiceGetAssignedGroupListRequest extends \C
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4146
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4172
      * @var int|null
      */
     private $responseSizeLimit = null;
@@ -47,7 +47,7 @@ class ServiceProviderNetworkClassOfServiceGetAssignedGroupListRequest extends \C
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId
      * @Array
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4146
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4172
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId[]
      */
     private $searchCriteriaGroupId = array(
@@ -59,7 +59,7 @@ class ServiceProviderNetworkClassOfServiceGetAssignedGroupListRequest extends \C
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupName
      * @Array
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4146
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4172
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupName[]
      */
     private $searchCriteriaGroupName = array(

@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupRoutePointHolidayServiceModifyRequest
  *
  * Modify a route point's holiday service settings.
- *         The response is either a SuccessResponse or an ErrorResponse.
+ *                 The response is either a SuccessResponse or an ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:19403","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:20034","type":"sequence"}]
  */
 class GroupRoutePointHolidayServiceModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupRoutePointHolidayServiceModifyRequest extends \CWM\BroadWorksConnecto
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:19403
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:20034
      * @var string|null
      */
     private $serviceUserId = null;
@@ -27,7 +27,7 @@ class GroupRoutePointHolidayServiceModifyRequest extends \CWM\BroadWorksConnecto
      * @ElementName action
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterScheduledServiceAction
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:19403
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:20034
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterScheduledServiceAction|null
      */
     private $action = null;
@@ -37,7 +37,7 @@ class GroupRoutePointHolidayServiceModifyRequest extends \CWM\BroadWorksConnecto
      * @Type string
      * @Nillable
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:19403
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:20034
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $holidaySchedule = null;
@@ -47,7 +47,7 @@ class GroupRoutePointHolidayServiceModifyRequest extends \CWM\BroadWorksConnecto
      * @Type string
      * @Nillable
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:19403
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:20034
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $transferPhoneNumber = null;
@@ -56,7 +56,7 @@ class GroupRoutePointHolidayServiceModifyRequest extends \CWM\BroadWorksConnecto
      * @ElementName playAnnouncementBeforeAction
      * @Type bool
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:19403
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:20034
      * @var bool|null
      */
     private $playAnnouncementBeforeAction = null;
@@ -65,7 +65,7 @@ class GroupRoutePointHolidayServiceModifyRequest extends \CWM\BroadWorksConnecto
      * @ElementName audioMessageSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:19403
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:20034
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     private $audioMessageSelection = null;
@@ -74,7 +74,7 @@ class GroupRoutePointHolidayServiceModifyRequest extends \CWM\BroadWorksConnecto
      * @ElementName audioUrlList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLListModify
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:19403
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:20034
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLListModify|null
      */
     private $audioUrlList = null;
@@ -83,7 +83,7 @@ class GroupRoutePointHolidayServiceModifyRequest extends \CWM\BroadWorksConnecto
      * @ElementName audioFileList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListModify
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:19403
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:20034
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListModify|null
      */
     private $audioFileList = null;
@@ -92,7 +92,7 @@ class GroupRoutePointHolidayServiceModifyRequest extends \CWM\BroadWorksConnecto
      * @ElementName videoMessageSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:19403
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:20034
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     private $videoMessageSelection = null;
@@ -101,7 +101,7 @@ class GroupRoutePointHolidayServiceModifyRequest extends \CWM\BroadWorksConnecto
      * @ElementName videoUrlList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLListModify
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:19403
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:20034
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLListModify|null
      */
     private $videoUrlList = null;
@@ -110,7 +110,7 @@ class GroupRoutePointHolidayServiceModifyRequest extends \CWM\BroadWorksConnecto
      * @ElementName videoFileList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListModify
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:19403
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:20034
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListModify|null
      */
     private $videoFileList = null;

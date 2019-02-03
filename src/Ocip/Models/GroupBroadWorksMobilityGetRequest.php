@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupBroadWorksMobilityGetRequest
  *
  * Get the groups BroadWorks Mobility settings.
- *         The response is either a GroupBroadWorksMobilityGetResponse or an ErrorResponse.
+ *                 The response is either a GroupBroadWorksMobilityGetResponse or an ErrorResponse.
  *
  * @see GroupBroadWorksMobilityGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:28278","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:29300","type":"sequence"}]
  */
 class GroupBroadWorksMobilityGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupBroadWorksMobilityGetRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:28278
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:29300
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,7 +26,7 @@ class GroupBroadWorksMobilityGetRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName groupId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:28278
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:29300
      * @var string|null
      */
     private $groupId = null;

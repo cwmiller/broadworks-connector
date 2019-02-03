@@ -6,19 +6,19 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserGetLoginInfoRequest21sp1
  *
  * UserGetLoginInfoRequest21sp1 is used to access login information for a user
- *         either by a userId, dn or lineport.  
- *         The phone number may be any DN associated with a user.
- *         The lineport may be any lineport associated with a user.
- *         
- *         The response is a UserGetLoginInfoResponse21sp1 or an ErrorResponse
- *         
- *         Replaced by UserGetLoginInfoRequest22V2.
+ *                 either by a userId, dn or lineport.
+ *                 The phone number may be any DN associated with a user.
+ *                 The lineport may be any lineport associated with a user.
+ *
+ *                 The response is a UserGetLoginInfoResponse21sp1 or an ErrorResponse
+ *
+ *                 Replaced by UserGetLoginInfoRequest22V2.
  *
  * @see UserGetLoginInfoRequest21sp1
  * @see UserGetLoginInfoResponse21sp1
  * @see ErrorResponse
  * @see UserGetLoginInfoRequest22V2
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:40905","type":"sequence","children":[{"id":"ab0042aa512abc10edb3c55e4b416b0b:40906","type":"choice"}]}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:42489","type":"sequence","children":[{"id":"ab0042aa512abc10edb3c55e4b416b0b:42490","type":"choice"}]}]
  */
 class UserGetLoginInfoRequest21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -26,7 +26,7 @@ class UserGetLoginInfoRequest21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName userId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:40906
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:42490
      * @var string|null
      */
     private $userId = null;
@@ -34,7 +34,7 @@ class UserGetLoginInfoRequest21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName phoneNumber
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:40906
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:42490
      * @var string|null
      */
     private $phoneNumber = null;
@@ -42,7 +42,7 @@ class UserGetLoginInfoRequest21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName linePort
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:40906
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:42490
      * @var string|null
      */
     private $linePort = null;

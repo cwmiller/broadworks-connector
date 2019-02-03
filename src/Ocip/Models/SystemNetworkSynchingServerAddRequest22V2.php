@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:11329","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:11766","type":"sequence"}]
  */
 class SystemNetworkSynchingServerAddRequest22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,7 +21,7 @@ class SystemNetworkSynchingServerAddRequest22V2 extends \CWM\BroadWorksConnector
     /**
      * @ElementName netAddress
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11329
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11766
      * @var string|null
      */
     private $netAddress = null;
@@ -29,7 +29,7 @@ class SystemNetworkSynchingServerAddRequest22V2 extends \CWM\BroadWorksConnector
     /**
      * @ElementName port
      * @Type int
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11329
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11766
      * @var int|null
      */
     private $port = null;
@@ -38,7 +38,7 @@ class SystemNetworkSynchingServerAddRequest22V2 extends \CWM\BroadWorksConnector
      * @ElementName description
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11329
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11766
      * @var string|null
      */
     private $description = null;
@@ -47,7 +47,7 @@ class SystemNetworkSynchingServerAddRequest22V2 extends \CWM\BroadWorksConnector
      * @ElementName order
      * @Type int
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11329
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11766
      * @var int|null
      */
     private $order = null;
@@ -55,7 +55,7 @@ class SystemNetworkSynchingServerAddRequest22V2 extends \CWM\BroadWorksConnector
     /**
      * @ElementName secure
      * @Type bool
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11329
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11766
      * @var bool|null
      */
     private $secure = null;

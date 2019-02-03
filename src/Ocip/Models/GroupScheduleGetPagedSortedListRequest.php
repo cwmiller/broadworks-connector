@@ -16,7 +16,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupScheduleGetPagedSortedListResponse
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:6544","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:6542","type":"sequence"}]
  */
 class GroupScheduleGetPagedSortedListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -24,7 +24,7 @@ class GroupScheduleGetPagedSortedListRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6544
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:6542
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -32,7 +32,7 @@ class GroupScheduleGetPagedSortedListRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6544
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:6542
      * @var string|null
      */
     private $groupId = null;
@@ -41,7 +41,7 @@ class GroupScheduleGetPagedSortedListRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName responsePagingControl
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6544
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:6542
      * @var \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl|null
      */
     private $responsePagingControl = null;
@@ -50,7 +50,7 @@ class GroupScheduleGetPagedSortedListRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName sortByScheduleName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByScheduleName
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6544
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:6542
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByScheduleName|null
      */
     private $sortByScheduleName = null;
@@ -60,7 +60,7 @@ class GroupScheduleGetPagedSortedListRequest extends \CWM\BroadWorksConnector\Oc
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaScheduleName
      * @Array
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6544
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:6542
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaScheduleName[]
      */
     private $searchCriteriaScheduleName = array(
@@ -72,7 +72,7 @@ class GroupScheduleGetPagedSortedListRequest extends \CWM\BroadWorksConnector\Oc
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactScheduleType
      * @Array
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6544
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:6542
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactScheduleType[]
      */
     private $searchCriteriaExactScheduleType = array(
@@ -84,7 +84,7 @@ class GroupScheduleGetPagedSortedListRequest extends \CWM\BroadWorksConnector\Oc
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactScheduleLevel
      * @Array
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6544
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:6542
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactScheduleLevel[]
      */
     private $searchCriteriaExactScheduleLevel = array(
@@ -95,7 +95,7 @@ class GroupScheduleGetPagedSortedListRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName searchCriteriaModeOr
      * @Type bool
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6544
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:6542
      * @var bool|null
      */
     private $searchCriteriaModeOr = null;

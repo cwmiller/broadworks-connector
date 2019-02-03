@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserSimultaneousRingPersonalGetRequest14sp4
  *
  * Get the user's simultaneous ring service personal setting.
- *         The response is either a UserSimultaneousRingPersonalGetResponse14sp4 or an ErrorResponse.
+ *                 The response is either a UserSimultaneousRingPersonalGetResponse14sp4 or an ErrorResponse.
  *
  * @see UserSimultaneousRingPersonalGetResponse14sp4
  * @see ErrorResponse
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:17122","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:17677","type":"sequence"}]
  */
 class UserSimultaneousRingPersonalGetRequest14sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserSimultaneousRingPersonalGetRequest14sp4 extends \CWM\BroadWorksConnect
     /**
      * @ElementName userId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:17122
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:17677
      * @var string|null
      */
     private $userId = null;

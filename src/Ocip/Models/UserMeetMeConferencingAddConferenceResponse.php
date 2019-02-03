@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to UserMeetMeConferencingAddConferenceRequest.
  *
  * @see UserMeetMeConferencingAddConferenceRequest
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:27990","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:29011","type":"sequence"}]
  */
 class UserMeetMeConferencingAddConferenceResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class UserMeetMeConferencingAddConferenceResponse extends \CWM\BroadWorksConnect
     /**
      * @ElementName conferenceId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:27990
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:29011
      * @var string|null
      */
     private $conferenceId = null;
@@ -24,7 +24,7 @@ class UserMeetMeConferencingAddConferenceResponse extends \CWM\BroadWorksConnect
     /**
      * @ElementName moderatorPin
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:27990
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:29011
      * @var string|null
      */
     private $moderatorPin = null;

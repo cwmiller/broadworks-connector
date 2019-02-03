@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see ExternalAuthenticationCreateLoginTokenResponse
  * @see ErrorResponse
- * @Groups [{"id":"6b27fcc79475236456fc113a42b75543:256","type":"sequence"}]
+ * @Groups [{"id":"6b27fcc79475236456fc113a42b75543:321","type":"sequence"}]
  */
 class ExternalAuthenticationCreateLoginTokenRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class ExternalAuthenticationCreateLoginTokenRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName userId
      * @Type string
-     * @Group 6b27fcc79475236456fc113a42b75543:256
+     * @Group 6b27fcc79475236456fc113a42b75543:321
      * @var string|null
      */
     private $userId = null;

@@ -6,15 +6,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupHuntGroupAddInstanceRequest17sp1V1
  *
  * Add a Hunt Group instance to a group.
- *         The domain is required in the serviceUserId.
- *         The response is either SuccessResponse or ErrorResponse.
- *         The following elements are only used in XS data mode:
- *            allowMembersToControlGroupBusy, use value "false" in AS data mode
- *            enableGroupBusy, use value "false" in AS data mode
+ *                 The domain is required in the serviceUserId.
+ *                 The response is either SuccessResponse or ErrorResponse.
+ *                 The following elements are only used in XS data mode:
+ *                 allowMembersToControlGroupBusy, use value "false" in AS data mode
+ *                 enableGroupBusy, use value "false" in AS data mode
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:24185","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:25079","type":"sequence"}]
  */
 class GroupHuntGroupAddInstanceRequest17sp1V1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -22,7 +22,7 @@ class GroupHuntGroupAddInstanceRequest17sp1V1 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:24185
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:25079
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -30,7 +30,7 @@ class GroupHuntGroupAddInstanceRequest17sp1V1 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName groupId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:24185
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:25079
      * @var string|null
      */
     private $groupId = null;
@@ -38,7 +38,7 @@ class GroupHuntGroupAddInstanceRequest17sp1V1 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:24185
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:25079
      * @var string|null
      */
     private $serviceUserId = null;
@@ -46,7 +46,7 @@ class GroupHuntGroupAddInstanceRequest17sp1V1 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName serviceInstanceProfile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceAddProfile
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:24185
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:25079
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceAddProfile|null
      */
     private $serviceInstanceProfile = null;
@@ -54,7 +54,7 @@ class GroupHuntGroupAddInstanceRequest17sp1V1 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName policy
      * @Type \CWM\BroadWorksConnector\Ocip\Models\HuntPolicy
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:24185
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:25079
      * @var \CWM\BroadWorksConnector\Ocip\Models\HuntPolicy|null
      */
     private $policy = null;
@@ -62,7 +62,7 @@ class GroupHuntGroupAddInstanceRequest17sp1V1 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName huntAfterNoAnswer
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:24185
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:25079
      * @var bool|null
      */
     private $huntAfterNoAnswer = null;
@@ -70,7 +70,7 @@ class GroupHuntGroupAddInstanceRequest17sp1V1 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName noAnswerNumberOfRings
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:24185
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:25079
      * @var int|null
      */
     private $noAnswerNumberOfRings = null;
@@ -78,7 +78,7 @@ class GroupHuntGroupAddInstanceRequest17sp1V1 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName forwardAfterTimeout
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:24185
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:25079
      * @var bool|null
      */
     private $forwardAfterTimeout = null;
@@ -86,7 +86,7 @@ class GroupHuntGroupAddInstanceRequest17sp1V1 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName forwardTimeoutSeconds
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:24185
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:25079
      * @var int|null
      */
     private $forwardTimeoutSeconds = null;
@@ -95,7 +95,7 @@ class GroupHuntGroupAddInstanceRequest17sp1V1 extends \CWM\BroadWorksConnector\O
      * @ElementName forwardToPhoneNumber
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:24185
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:25079
      * @var string|null
      */
     private $forwardToPhoneNumber = null;
@@ -105,7 +105,7 @@ class GroupHuntGroupAddInstanceRequest17sp1V1 extends \CWM\BroadWorksConnector\O
      * @Type string
      * @Array
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:24185
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:25079
      * @var string[]
      */
     private $agentUserId = array(
@@ -115,7 +115,7 @@ class GroupHuntGroupAddInstanceRequest17sp1V1 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName allowCallWaitingForAgents
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:24185
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:25079
      * @var bool|null
      */
     private $allowCallWaitingForAgents = null;
@@ -123,7 +123,7 @@ class GroupHuntGroupAddInstanceRequest17sp1V1 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName allowMembersToControlGroupBusy
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:24185
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:25079
      * @var bool|null
      */
     private $allowMembersToControlGroupBusy = null;
@@ -131,7 +131,7 @@ class GroupHuntGroupAddInstanceRequest17sp1V1 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName enableGroupBusy
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:24185
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:25079
      * @var bool|null
      */
     private $enableGroupBusy = null;

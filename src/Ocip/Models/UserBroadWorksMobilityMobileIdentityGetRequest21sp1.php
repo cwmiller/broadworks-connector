@@ -6,14 +6,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserBroadWorksMobilityMobileIdentityGetRequest21sp1
  *
  * Get the settings for a user's specified mobile identity.
- *         The response is either a UserBroadWorksMobilityMobileIdentityGetResponse21sp1 or an ErrorResponse.
- *         
- *         Replaced by: UserBroadWorksMobilityMobileIdentityGetRequest21sp1V2.
+ *                 The response is either a UserBroadWorksMobilityMobileIdentityGetResponse21sp1 or an ErrorResponse.
+ *
+ *                 Replaced by: UserBroadWorksMobilityMobileIdentityGetRequest21sp1V2.
  *
  * @see UserBroadWorksMobilityMobileIdentityGetResponse21sp1
  * @see ErrorResponse
  * @see UserBroadWorksMobilityMobileIdentityGetRequest21sp1V2
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:38619","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:40110","type":"sequence"}]
  */
 class UserBroadWorksMobilityMobileIdentityGetRequest21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,7 +21,7 @@ class UserBroadWorksMobilityMobileIdentityGetRequest21sp1 extends \CWM\BroadWork
     /**
      * @ElementName userId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:38619
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:40110
      * @var string|null
      */
     private $userId = null;
@@ -29,7 +29,7 @@ class UserBroadWorksMobilityMobileIdentityGetRequest21sp1 extends \CWM\BroadWork
     /**
      * @ElementName mobileNumber
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:38619
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:40110
      * @var string|null
      */
     private $mobileNumber = null;

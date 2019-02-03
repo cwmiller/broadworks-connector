@@ -6,13 +6,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupDepartmentGetListResponse
  *
  * Response to GroupDepartmentGetListRequest.
- *         The response includes two parallel arrays of department keys and department display names.
- *         
- *         Replaced by: GroupDepartmentGetListResponse18
+ *                 The response includes two parallel arrays of department keys and department display names.
+ *
+ *                 Replaced by: GroupDepartmentGetListResponse18
  *
  * @see GroupDepartmentGetListRequest
  * @see GroupDepartmentGetListResponse18
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:18836","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:19441","type":"sequence"}]
  */
 class GroupDepartmentGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -22,7 +22,7 @@ class GroupDepartmentGetListResponse extends \CWM\BroadWorksConnector\Ocip\Model
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey
      * @Array
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:18836
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:19441
      * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey[]
      */
     private $departmentKey = array(
@@ -34,7 +34,7 @@ class GroupDepartmentGetListResponse extends \CWM\BroadWorksConnector\Ocip\Model
      * @Type string
      * @Array
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:18836
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:19441
      * @var string[]
      */
     private $fullPathName = array(

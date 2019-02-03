@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * ShInterface User Id Data Entry.
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:3726","type":"sequence"}]
+ * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:3863","type":"sequence"}]
  */
 class ShInterfaceUserIdDataEntry
 {
@@ -15,7 +15,7 @@ class ShInterfaceUserIdDataEntry
     /**
      * @ElementName userType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UserType
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3726
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:3863
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserType|null
      */
     private $userType = null;
@@ -23,7 +23,7 @@ class ShInterfaceUserIdDataEntry
     /**
      * @ElementName publicUserIdentity
      * @Type \CWM\BroadWorksConnector\Ocip\Models\PublicUserIdentity
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3726
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:3863
      * @var \CWM\BroadWorksConnector\Ocip\Models\PublicUserIdentity|null
      */
     private $publicUserIdentity = null;
@@ -31,7 +31,7 @@ class ShInterfaceUserIdDataEntry
     /**
      * @ElementName endpointType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EndpointType
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3726
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:3863
      * @var \CWM\BroadWorksConnector\Ocip\Models\EndpointType|null
      */
     private $endpointType = null;
@@ -40,7 +40,7 @@ class ShInterfaceUserIdDataEntry
      * @ElementName SCSCFName
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3726
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:3863
      * @var string|null
      */
     private $SCSCFName = null;
@@ -48,7 +48,7 @@ class ShInterfaceUserIdDataEntry
     /**
      * @ElementName IMSUserState
      * @Type \CWM\BroadWorksConnector\Ocip\Models\IMSUserState
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3726
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:3863
      * @var \CWM\BroadWorksConnector\Ocip\Models\IMSUserState|null
      */
     private $IMSUserState = null;

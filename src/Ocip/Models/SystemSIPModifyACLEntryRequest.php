@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemSIPModifyACLEntryRequest
  *
  * Modify an entry from the SIP access control list.
- *         The response is either SuccessResponse or ErrorResponse.
+ *                 The response is either SuccessResponse or ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:6239","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:6449","type":"sequence"}]
  */
 class SystemSIPModifyACLEntryRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemSIPModifyACLEntryRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName netAddress
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:6239
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:6449
      * @var string|null
      */
     private $netAddress = null;
@@ -27,7 +27,7 @@ class SystemSIPModifyACLEntryRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName transportProtocol
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SIPACLTransportProtocol
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:6239
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:6449
      * @var \CWM\BroadWorksConnector\Ocip\Models\SIPACLTransportProtocol|null
      */
     private $transportProtocol = null;
@@ -37,7 +37,7 @@ class SystemSIPModifyACLEntryRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @Type string
      * @Nillable
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:6239
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:6449
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $description = null;

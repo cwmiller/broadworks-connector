@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Contains Call Center Agent statistics for a given time frame.
  *
- * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:7237","type":"sequence"}]
+ * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:7286","type":"sequence"}]
  */
 class AgentStatistics
 {
@@ -15,7 +15,7 @@ class AgentStatistics
     /**
      * @ElementName numberOfCallsHandled
      * @Type int
-     * @Group e2c537e3e39483b96620673a7012ffdd:7237
+     * @Group e2c537e3e39483b96620673a7012ffdd:7286
      * @var int|null
      */
     private $numberOfCallsHandled = null;
@@ -23,7 +23,7 @@ class AgentStatistics
     /**
      * @ElementName numberOfCallsUnanswered
      * @Type int
-     * @Group e2c537e3e39483b96620673a7012ffdd:7237
+     * @Group e2c537e3e39483b96620673a7012ffdd:7286
      * @var int|null
      */
     private $numberOfCallsUnanswered = null;
@@ -31,7 +31,7 @@ class AgentStatistics
     /**
      * @ElementName averageCallSeconds
      * @Type int
-     * @Group e2c537e3e39483b96620673a7012ffdd:7237
+     * @Group e2c537e3e39483b96620673a7012ffdd:7286
      * @var int|null
      */
     private $averageCallSeconds = null;
@@ -39,7 +39,7 @@ class AgentStatistics
     /**
      * @ElementName totalTalkSeconds
      * @Type int
-     * @Group e2c537e3e39483b96620673a7012ffdd:7237
+     * @Group e2c537e3e39483b96620673a7012ffdd:7286
      * @var int|null
      */
     private $totalTalkSeconds = null;
@@ -47,7 +47,7 @@ class AgentStatistics
     /**
      * @ElementName totalStaffedSeconds
      * @Type int
-     * @Group e2c537e3e39483b96620673a7012ffdd:7237
+     * @Group e2c537e3e39483b96620673a7012ffdd:7286
      * @var int|null
      */
     private $totalStaffedSeconds = null;

@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemZoneNetAddressGetListRequest
  *
  * Gets a list of IP Addresses and/or Ranges assigned to a zone.
- *         Response is SystemZoneNetAddressGetListResponse or an ErrorResponse.
+ *         The response is SystemZoneNetAddressGetListResponse or an ErrorResponse.
  *
  * @see SystemZoneNetAddressGetListResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:17579","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:18421","type":"sequence"}]
  */
 class SystemZoneNetAddressGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemZoneNetAddressGetListRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName zoneName
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17579
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18421
      * @var string|null
      */
     private $zoneName = null;
@@ -27,7 +27,7 @@ class SystemZoneNetAddressGetListRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17579
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18421
      * @var int|null
      */
     private $responseSizeLimit = null;
@@ -37,7 +37,7 @@ class SystemZoneNetAddressGetListRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaZoneIPAddress
      * @Array
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17579
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18421
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaZoneIPAddress[]
      */
     private $searchCriteriaZoneIPAddress = array(

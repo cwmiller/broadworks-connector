@@ -6,14 +6,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserVoiceMessagingUserModifyVoicePortalPasswordRequest
  *
  * Modify the user's Voice Portal password
- *         The response is either a SuccessResponse or an ErrorResponse.
- *         Engineering Note: This command is used internally by Call Processing.
- *         Replaced By: UserPortalPasscodeModifyRequest
+ *                 The response is either a SuccessResponse or an ErrorResponse.
+ *                 Engineering Note: This command is used internally by Call Processing.
+ *                 Replaced By: UserPortalPasscodeModifyRequest
  *
  * @see SuccessResponse
  * @see ErrorResponse
  * @see UserPortalPasscodeModifyRequest
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:7659","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:7896","type":"sequence"}]
  */
 class UserVoiceMessagingUserModifyVoicePortalPasswordRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,7 +21,7 @@ class UserVoiceMessagingUserModifyVoicePortalPasswordRequest extends \CWM\BroadW
     /**
      * @ElementName userId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:7659
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:7896
      * @var string|null
      */
     private $userId = null;
@@ -30,7 +30,7 @@ class UserVoiceMessagingUserModifyVoicePortalPasswordRequest extends \CWM\BroadW
      * @ElementName oldPassword
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:7659
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:7896
      * @var string|null
      */
     private $oldPassword = null;
@@ -38,7 +38,7 @@ class UserVoiceMessagingUserModifyVoicePortalPasswordRequest extends \CWM\BroadW
     /**
      * @ElementName newPassword
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:7659
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:7896
      * @var string|null
      */
     private $newPassword = null;

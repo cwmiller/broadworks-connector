@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:744","type":"sequence","children":[{"id":"53d18cc797d03d802cbc411ad821f1d4:746","type":"choice"}]}]
+ * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:797","type":"sequence","children":[{"id":"53d18cc797d03d802cbc411ad821f1d4:799","type":"choice"}]}]
  */
 class UserCallLogsClearRequest14sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class UserCallLogsClearRequest14sp4 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName userId
      * @Type string
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:744
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:797
      * @var string|null
      */
     private $userId = null;
@@ -29,7 +29,7 @@ class UserCallLogsClearRequest14sp4 extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName deleteAllCallLogs
      * @Type bool
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:746
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:799
      * @var bool|null
      */
     private $deleteAllCallLogs = null;
@@ -37,7 +37,7 @@ class UserCallLogsClearRequest14sp4 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName deleteSpecifiedCallLogs
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UserCallLogsClearRequest14sp4DeleteSpecifiedCallLogs
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:746
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:799
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserCallLogsClearRequest14sp4DeleteSpecifiedCallLogs|null
      */
     private $deleteSpecifiedCallLogs = null;

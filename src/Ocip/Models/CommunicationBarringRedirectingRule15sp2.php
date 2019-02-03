@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Communication Barring Redirecting Rule
  *
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:41891","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:43499","type":"sequence"}]
  */
 class CommunicationBarringRedirectingRule15sp2
 {
@@ -15,7 +15,7 @@ class CommunicationBarringRedirectingRule15sp2
     /**
      * @ElementName criteria
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:41891
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:43499
      * @var string|null
      */
     private $criteria = null;
@@ -23,7 +23,7 @@ class CommunicationBarringRedirectingRule15sp2
     /**
      * @ElementName action
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringRedirectingAction15sp2
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:41891
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:43499
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringRedirectingAction15sp2|null
      */
     private $action = null;

@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserScheduleGetEventResponse
  * @see ErrorResponse
- * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:3423","type":"sequence"}]
+ * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:3633","type":"sequence"}]
  */
 class UserScheduleGetEventRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserScheduleGetEventRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName userId
      * @Type string
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:3423
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:3633
      * @var string|null
      */
     private $userId = null;
@@ -26,7 +26,7 @@ class UserScheduleGetEventRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName scheduleKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ScheduleKey
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:3423
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:3633
      * @var \CWM\BroadWorksConnector\Ocip\Models\ScheduleKey|null
      */
     private $scheduleKey = null;
@@ -34,7 +34,7 @@ class UserScheduleGetEventRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName eventName
      * @Type string
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:3423
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:3633
      * @var string|null
      */
     private $eventName = null;

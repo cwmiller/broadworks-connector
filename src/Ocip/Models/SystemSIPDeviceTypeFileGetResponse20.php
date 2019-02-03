@@ -6,18 +6,19 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemSIPDeviceTypeFileGetResponse20
  *
  * Response to SystemSIPDeviceTypeFileGetRequest20.
- *           Take note:
- *           1. accessUrl may have undefined content.
- *           When it is the case, undefined content is put between [].
- *           It may also be set to "Error Access FQDN Not Provisioned" when the access FQDN is not set,
- *           or "Error Access Context Name Not Provisioned" when the context name is not set.
- *           2. repositoryUrl may be set to "DEVICE_CONFIGURATION_FILE_REPOSITORY_MISSING", if there is no file repository defined.
- *           
- *           Replaced by: SystemSIPDeviceTypeFileGetResponse20Sp1
+ *                 Take note:
+ *                 1. accessUrl may have undefined content.
+ *                 When it is the case, undefined content is put between [].
+ *                 It may also be set to "Error Access FQDN Not Provisioned" when the access FQDN is not set,
+ *                 or "Error Access Context Name Not Provisioned" when the context name is not set.
+ *                 2. repositoryUrl may be set to "DEVICE_CONFIGURATION_FILE_REPOSITORY_MISSING", if there is no file
+ *                 repository defined.
+ *
+ *                 Replaced by: SystemSIPDeviceTypeFileGetResponse20Sp1
  *
  * @see SystemSIPDeviceTypeFileGetRequest20
  * @see SystemSIPDeviceTypeFileGetResponse20Sp1
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:33594","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:34882","type":"sequence"}]
  */
 class SystemSIPDeviceTypeFileGetResponse20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -25,7 +26,7 @@ class SystemSIPDeviceTypeFileGetResponse20 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName remoteFileFormat
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:33594
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:34882
      * @var string|null
      */
     private $remoteFileFormat = null;
@@ -33,7 +34,7 @@ class SystemSIPDeviceTypeFileGetResponse20 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName fileCategory
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementFileCategory
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:33594
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:34882
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementFileCategory|null
      */
     private $fileCategory = null;
@@ -41,7 +42,7 @@ class SystemSIPDeviceTypeFileGetResponse20 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName fileCustomization
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementFileCustomization
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:33594
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:34882
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementFileCustomization|null
      */
     private $fileCustomization = null;
@@ -49,7 +50,7 @@ class SystemSIPDeviceTypeFileGetResponse20 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName fileSource
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DeviceTypeFileEnhancedConfigurationMode
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:33594
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:34882
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceTypeFileEnhancedConfigurationMode|null
      */
     private $fileSource = null;
@@ -58,7 +59,7 @@ class SystemSIPDeviceTypeFileGetResponse20 extends \CWM\BroadWorksConnector\Ocip
      * @ElementName configurationFileName
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:33594
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:34882
      * @var string|null
      */
     private $configurationFileName = null;
@@ -66,7 +67,7 @@ class SystemSIPDeviceTypeFileGetResponse20 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName useHttpDigestAuthentication
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:33594
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:34882
      * @var bool|null
      */
     private $useHttpDigestAuthentication = null;
@@ -74,7 +75,7 @@ class SystemSIPDeviceTypeFileGetResponse20 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName macBasedFileAuthentication
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:33594
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:34882
      * @var bool|null
      */
     private $macBasedFileAuthentication = null;
@@ -82,7 +83,7 @@ class SystemSIPDeviceTypeFileGetResponse20 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName userNamePasswordFileAuthentication
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:33594
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:34882
      * @var bool|null
      */
     private $userNamePasswordFileAuthentication = null;
@@ -90,7 +91,7 @@ class SystemSIPDeviceTypeFileGetResponse20 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName macInNonRequestURI
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:33594
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:34882
      * @var bool|null
      */
     private $macInNonRequestURI = null;
@@ -99,7 +100,7 @@ class SystemSIPDeviceTypeFileGetResponse20 extends \CWM\BroadWorksConnector\Ocip
      * @ElementName macFormatInNonRequestURI
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:33594
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:34882
      * @var string|null
      */
     private $macFormatInNonRequestURI = null;
@@ -107,7 +108,7 @@ class SystemSIPDeviceTypeFileGetResponse20 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName accessUrl
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:33594
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:34882
      * @var string|null
      */
     private $accessUrl = null;
@@ -116,7 +117,7 @@ class SystemSIPDeviceTypeFileGetResponse20 extends \CWM\BroadWorksConnector\Ocip
      * @ElementName repositoryUrl
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:33594
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:34882
      * @var string|null
      */
     private $repositoryUrl = null;
@@ -125,7 +126,7 @@ class SystemSIPDeviceTypeFileGetResponse20 extends \CWM\BroadWorksConnector\Ocip
      * @ElementName templateUrl
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:33594
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:34882
      * @var string|null
      */
     private $templateUrl = null;
@@ -133,7 +134,7 @@ class SystemSIPDeviceTypeFileGetResponse20 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName allowHttp
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:33594
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:34882
      * @var bool|null
      */
     private $allowHttp = null;
@@ -141,7 +142,7 @@ class SystemSIPDeviceTypeFileGetResponse20 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName allowHttps
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:33594
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:34882
      * @var bool|null
      */
     private $allowHttps = null;
@@ -149,7 +150,7 @@ class SystemSIPDeviceTypeFileGetResponse20 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName allowTftp
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:33594
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:34882
      * @var bool|null
      */
     private $allowTftp = null;
@@ -157,7 +158,7 @@ class SystemSIPDeviceTypeFileGetResponse20 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName enableCaching
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:33594
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:34882
      * @var bool|null
      */
     private $enableCaching = null;
@@ -165,7 +166,7 @@ class SystemSIPDeviceTypeFileGetResponse20 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName allowUploadFromDevice
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:33594
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:34882
      * @var bool|null
      */
     private $allowUploadFromDevice = null;
@@ -174,7 +175,7 @@ class SystemSIPDeviceTypeFileGetResponse20 extends \CWM\BroadWorksConnector\Ocip
      * @ElementName defaultExtendedFileCaptureMode
      * @Type bool
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:33594
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:34882
      * @var bool|null
      */
     private $defaultExtendedFileCaptureMode = null;

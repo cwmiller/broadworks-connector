@@ -6,13 +6,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemAdviceOfChargeGetResponse
  *
  * Response to SystemAdviceOfChargeGetRequest.
- *         Contains a list of system Advice of Charge parameters.
- *         
- *         Replaced by: SystemAdviceOfChargeGetResponse19sp1
+ *                 Contains a list of system Advice of Charge parameters.
+ *
+ *                 Replaced by: SystemAdviceOfChargeGetResponse19sp1
  *
  * @see SystemAdviceOfChargeGetRequest
  * @see SystemAdviceOfChargeGetResponse19sp1
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:32862","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:34120","type":"sequence"}]
  */
 class SystemAdviceOfChargeGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -20,7 +20,7 @@ class SystemAdviceOfChargeGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName delayBetweenNotificationSeconds
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:32862
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:34120
      * @var int|null
      */
     private $delayBetweenNotificationSeconds = null;
@@ -28,7 +28,7 @@ class SystemAdviceOfChargeGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName incomingAocHandling
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AdviceOfChargeIncomingAocHandling
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:32862
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:34120
      * @var \CWM\BroadWorksConnector\Ocip\Models\AdviceOfChargeIncomingAocHandling|null
      */
     private $incomingAocHandling = null;
@@ -37,7 +37,7 @@ class SystemAdviceOfChargeGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName costInformationSource
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:32862
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:34120
      * @var string|null
      */
     private $costInformationSource = null;

@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemZoneCallingRestrictionsNetAddressGetListResponse
  *
  * Response to SystemZoneCallingRestrictionsNetAddressGetListRequest.
- *         Replaced by: SystemZoneNetAddressGetListResponse
+ *                 Replaced by: SystemZoneNetAddressGetListResponse
  *
  * @see SystemZoneCallingRestrictionsNetAddressGetListRequest
  * @see SystemZoneNetAddressGetListResponse
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:16178","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:16661","type":"sequence"}]
  */
 class SystemZoneCallingRestrictionsNetAddressGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -20,7 +20,7 @@ class SystemZoneCallingRestrictionsNetAddressGetListResponse extends \CWM\BroadW
      * @Type string
      * @Array
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:16178
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:16661
      * @var string[]
      */
     private $netAddress = array(
@@ -32,7 +32,7 @@ class SystemZoneCallingRestrictionsNetAddressGetListResponse extends \CWM\BroadW
      * @Type \CWM\BroadWorksConnector\Ocip\Models\IPAddressRange
      * @Array
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:16178
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:16661
      * @var \CWM\BroadWorksConnector\Ocip\Models\IPAddressRange[]
      */
     private $netAddressRange = array(

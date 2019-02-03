@@ -6,16 +6,17 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupCollaborateBridgeAddInstanceRequest
  *
  * Add a collaborate bridge to a group.
- *         The domain is required in the serviceUserId.
- *         The request fails when supportOutdial is enabled and the system-level collaborate supportOutdial setting is disabled.
- *         The response is either SuccessResponse or ErrorResponse.
- *         
- *         Replaced by GroupCollaborateBridgeAddInstanceRequest20sp1
+ *                 The domain is required in the serviceUserId.
+ *                 The request fails when supportOutdial is enabled and the system-level collaborate supportOutdial setting
+ *                 is disabled.
+ *                 The response is either SuccessResponse or ErrorResponse.
+ *
+ *                 Replaced by GroupCollaborateBridgeAddInstanceRequest20sp1
  *
  * @see SuccessResponse
  * @see ErrorResponse
  * @see GroupCollaborateBridgeAddInstanceRequest20sp1
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:35272","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:36618","type":"sequence"}]
  */
 class GroupCollaborateBridgeAddInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -23,7 +24,7 @@ class GroupCollaborateBridgeAddInstanceRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:35272
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:36618
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -31,7 +32,7 @@ class GroupCollaborateBridgeAddInstanceRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName groupId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:35272
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:36618
      * @var string|null
      */
     private $groupId = null;
@@ -39,7 +40,7 @@ class GroupCollaborateBridgeAddInstanceRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:35272
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:36618
      * @var string|null
      */
     private $serviceUserId = null;
@@ -47,7 +48,7 @@ class GroupCollaborateBridgeAddInstanceRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName serviceInstanceProfile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceAddProfile
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:35272
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:36618
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceAddProfile|null
      */
     private $serviceInstanceProfile = null;
@@ -55,7 +56,7 @@ class GroupCollaborateBridgeAddInstanceRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName maximumBridgeParticipants
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CollaborateBridgeMaximumParticipants
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:35272
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:36618
      * @var \CWM\BroadWorksConnector\Ocip\Models\CollaborateBridgeMaximumParticipants|null
      */
     private $maximumBridgeParticipants = null;
@@ -64,7 +65,7 @@ class GroupCollaborateBridgeAddInstanceRequest extends \CWM\BroadWorksConnector\
      * @ElementName networkClassOfService
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:35272
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:36618
      * @var string|null
      */
     private $networkClassOfService = null;
@@ -72,7 +73,7 @@ class GroupCollaborateBridgeAddInstanceRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName maxCollaborateRoomParticipants
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:35272
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:36618
      * @var int|null
      */
     private $maxCollaborateRoomParticipants = null;
@@ -80,7 +81,7 @@ class GroupCollaborateBridgeAddInstanceRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName supportOutdial
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:35272
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:36618
      * @var bool|null
      */
     private $supportOutdial = null;
@@ -90,7 +91,7 @@ class GroupCollaborateBridgeAddInstanceRequest extends \CWM\BroadWorksConnector\
      * @Type string
      * @Array
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:35272
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:36618
      * @var string[]
      */
     private $collaborateOwnerUserId = array(

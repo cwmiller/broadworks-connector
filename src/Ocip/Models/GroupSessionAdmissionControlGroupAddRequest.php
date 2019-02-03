@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupSessionAdmissionControlGroupAddRequest
  *
  * Request to add a session admission control group for the group.
- *         The response is either a SuccessResponse or an ErrorResponse.
+ *                 The response is either a SuccessResponse or an ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:29700","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:30773","type":"sequence"}]
  */
 class GroupSessionAdmissionControlGroupAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupSessionAdmissionControlGroupAddRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:29700
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:30773
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,7 +26,7 @@ class GroupSessionAdmissionControlGroupAddRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName groupId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:29700
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:30773
      * @var string|null
      */
     private $groupId = null;
@@ -34,7 +34,7 @@ class GroupSessionAdmissionControlGroupAddRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName name
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:29700
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:30773
      * @var string|null
      */
     private $name = null;
@@ -42,7 +42,7 @@ class GroupSessionAdmissionControlGroupAddRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName maxSession
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:29700
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:30773
      * @var int|null
      */
     private $maxSession = null;
@@ -51,7 +51,7 @@ class GroupSessionAdmissionControlGroupAddRequest extends \CWM\BroadWorksConnect
      * @ElementName maxUserOriginatingSessions
      * @Type int
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:29700
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:30773
      * @var int|null
      */
     private $maxUserOriginatingSessions = null;
@@ -60,7 +60,7 @@ class GroupSessionAdmissionControlGroupAddRequest extends \CWM\BroadWorksConnect
      * @ElementName maxUserTerminatingSessions
      * @Type int
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:29700
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:30773
      * @var int|null
      */
     private $maxUserTerminatingSessions = null;
@@ -68,7 +68,7 @@ class GroupSessionAdmissionControlGroupAddRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName reservedSession
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:29700
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:30773
      * @var int|null
      */
     private $reservedSession = null;
@@ -77,7 +77,7 @@ class GroupSessionAdmissionControlGroupAddRequest extends \CWM\BroadWorksConnect
      * @ElementName reservedUserOriginatingSessions
      * @Type int
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:29700
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:30773
      * @var int|null
      */
     private $reservedUserOriginatingSessions = null;
@@ -86,7 +86,7 @@ class GroupSessionAdmissionControlGroupAddRequest extends \CWM\BroadWorksConnect
      * @ElementName reservedUserTerminatingSessions
      * @Type int
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:29700
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:30773
      * @var int|null
      */
     private $reservedUserTerminatingSessions = null;
@@ -94,7 +94,7 @@ class GroupSessionAdmissionControlGroupAddRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName becomeDefaultGroup
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:29700
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:30773
      * @var bool|null
      */
     private $becomeDefaultGroup = null;
@@ -102,7 +102,7 @@ class GroupSessionAdmissionControlGroupAddRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName countIntraSACGroupSessions
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:29700
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:30773
      * @var bool|null
      */
     private $countIntraSACGroupSessions = null;
@@ -112,7 +112,7 @@ class GroupSessionAdmissionControlGroupAddRequest extends \CWM\BroadWorksConnect
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDevice
      * @Array
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:29700
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:30773
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDevice[]
      */
     private $devices = array(

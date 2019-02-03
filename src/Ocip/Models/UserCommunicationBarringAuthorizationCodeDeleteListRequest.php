@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:1049","type":"sequence"}]
+ * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:1102","type":"sequence"}]
  */
 class UserCommunicationBarringAuthorizationCodeDeleteListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserCommunicationBarringAuthorizationCodeDeleteListRequest extends \CWM\Br
     /**
      * @ElementName userId
      * @Type string
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:1049
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:1102
      * @var string|null
      */
     private $userId = null;
@@ -27,7 +27,7 @@ class UserCommunicationBarringAuthorizationCodeDeleteListRequest extends \CWM\Br
      * @ElementName code
      * @Type string
      * @Array
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:1049
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:1102
      * @var string[]
      */
     private $code = array(

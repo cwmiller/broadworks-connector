@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Service Profile Information for group service.
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:3374","type":"sequence"}]
+ * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:3511","type":"sequence"}]
  */
 class ServiceInstanceAddProfile
 {
@@ -15,7 +15,7 @@ class ServiceInstanceAddProfile
     /**
      * @ElementName name
      * @Type string
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3374
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:3511
      * @var string|null
      */
     private $name = null;
@@ -23,7 +23,7 @@ class ServiceInstanceAddProfile
     /**
      * @ElementName callingLineIdLastName
      * @Type string
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3374
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:3511
      * @var string|null
      */
     private $callingLineIdLastName = null;
@@ -31,7 +31,7 @@ class ServiceInstanceAddProfile
     /**
      * @ElementName callingLineIdFirstName
      * @Type string
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3374
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:3511
      * @var string|null
      */
     private $callingLineIdFirstName = null;
@@ -40,7 +40,7 @@ class ServiceInstanceAddProfile
      * @ElementName hiraganaLastName
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3374
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:3511
      * @var string|null
      */
     private $hiraganaLastName = null;
@@ -49,7 +49,7 @@ class ServiceInstanceAddProfile
      * @ElementName hiraganaFirstName
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3374
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:3511
      * @var string|null
      */
     private $hiraganaFirstName = null;
@@ -58,7 +58,7 @@ class ServiceInstanceAddProfile
      * @ElementName phoneNumber
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3374
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:3511
      * @var string|null
      */
     private $phoneNumber = null;
@@ -67,7 +67,7 @@ class ServiceInstanceAddProfile
      * @ElementName extension
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3374
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:3511
      * @var string|null
      */
     private $extension = null;
@@ -76,7 +76,7 @@ class ServiceInstanceAddProfile
      * @ElementName password
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3374
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:3511
      * @var string|null
      */
     private $password = null;
@@ -85,7 +85,7 @@ class ServiceInstanceAddProfile
      * @ElementName department
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3374
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:3511
      * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null
      */
     private $department = null;
@@ -94,7 +94,7 @@ class ServiceInstanceAddProfile
      * @ElementName language
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3374
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:3511
      * @var string|null
      */
     private $language = null;
@@ -103,7 +103,7 @@ class ServiceInstanceAddProfile
      * @ElementName timeZone
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3374
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:3511
      * @var string|null
      */
     private $timeZone = null;
@@ -113,7 +113,7 @@ class ServiceInstanceAddProfile
      * @Type string
      * @Array
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3374
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:3511
      * @var string[]
      */
     private $alias = array(
@@ -124,7 +124,7 @@ class ServiceInstanceAddProfile
      * @ElementName publicUserIdentity
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3374
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:3511
      * @var string|null
      */
     private $publicUserIdentity = null;
@@ -133,7 +133,7 @@ class ServiceInstanceAddProfile
      * @ElementName callingLineIdPhoneNumber
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3374
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:3511
      * @var string|null
      */
     private $callingLineIdPhoneNumber = null;

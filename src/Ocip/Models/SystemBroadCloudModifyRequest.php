@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:2097","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:2126","type":"sequence"}]
  */
 class SystemBroadCloudModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class SystemBroadCloudModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2097
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2126
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $provisioningUrl = null;
@@ -30,7 +30,7 @@ class SystemBroadCloudModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2097
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2126
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $provisioningUserId = null;
@@ -40,7 +40,7 @@ class SystemBroadCloudModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2097
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2126
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $provisioningPassword = null;
@@ -49,7 +49,7 @@ class SystemBroadCloudModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName enableSynchronization
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2097
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2126
      * @var bool|null
      */
     private $enableSynchronization = null;

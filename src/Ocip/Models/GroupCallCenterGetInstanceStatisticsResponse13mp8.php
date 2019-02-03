@@ -6,10 +6,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupCallCenterGetInstanceStatisticsResponse13mp8
  *
  * Contains Call Center statistics.
- *         Replaced By: GroupCallCenterGetInstanceStatisticsResponse14sp9
+ *                 Replaced By: GroupCallCenterGetInstanceStatisticsResponse14sp9
  *
  * @see GroupCallCenterGetInstanceStatisticsResponse14sp9
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:1000","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:1013","type":"sequence"}]
  */
 class GroupCallCenterGetInstanceStatisticsResponse13mp8 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class GroupCallCenterGetInstanceStatisticsResponse13mp8 extends \CWM\BroadWorksC
     /**
      * @ElementName numberOfCallsQueuedNow
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:1000
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:1013
      * @var int|null
      */
     private $numberOfCallsQueuedNow = null;
@@ -25,7 +25,7 @@ class GroupCallCenterGetInstanceStatisticsResponse13mp8 extends \CWM\BroadWorksC
     /**
      * @ElementName generateDailyReport
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:1000
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:1013
      * @var bool|null
      */
     private $generateDailyReport = null;
@@ -33,7 +33,7 @@ class GroupCallCenterGetInstanceStatisticsResponse13mp8 extends \CWM\BroadWorksC
     /**
      * @ElementName collectionPeriodMinutes
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterStatisticsCollectionPeriodMinutes
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:1000
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:1013
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterStatisticsCollectionPeriodMinutes|null
      */
     private $collectionPeriodMinutes = null;
@@ -42,7 +42,7 @@ class GroupCallCenterGetInstanceStatisticsResponse13mp8 extends \CWM\BroadWorksC
      * @ElementName reportingEmailAddress1
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:1000
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:1013
      * @var string|null
      */
     private $reportingEmailAddress1 = null;
@@ -51,7 +51,7 @@ class GroupCallCenterGetInstanceStatisticsResponse13mp8 extends \CWM\BroadWorksC
      * @ElementName reportingEmailAddress2
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:1000
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:1013
      * @var string|null
      */
     private $reportingEmailAddress2 = null;
@@ -59,7 +59,7 @@ class GroupCallCenterGetInstanceStatisticsResponse13mp8 extends \CWM\BroadWorksC
     /**
      * @ElementName queueStatisticsYesterday
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterQueueStatistics13mp8
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:1000
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:1013
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterQueueStatistics13mp8|null
      */
     private $queueStatisticsYesterday = null;
@@ -67,7 +67,7 @@ class GroupCallCenterGetInstanceStatisticsResponse13mp8 extends \CWM\BroadWorksC
     /**
      * @ElementName queueStatisticsToday
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterQueueStatistics13mp8
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:1000
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:1013
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterQueueStatistics13mp8|null
      */
     private $queueStatisticsToday = null;
@@ -77,7 +77,7 @@ class GroupCallCenterGetInstanceStatisticsResponse13mp8 extends \CWM\BroadWorksC
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAgentStatistics13mp8
      * @Array
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:1000
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:1013
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAgentStatistics13mp8[]
      */
     private $agentStatistics = array(

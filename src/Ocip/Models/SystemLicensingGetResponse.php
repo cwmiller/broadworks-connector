@@ -6,12 +6,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemLicensingGetResponse
  *
  * Response to SystemLicensingGetRequest. The license table columns are: "Name", "Licensed", "Used",
- *         "Available" and "Expiration Date".
- *         Replaced By: SystemLicensingGetResponse14sp3
+ *                 "Available" and "Expiration Date".
+ *                 Replaced By: SystemLicensingGetResponse14sp3
  *
  * @see SystemLicensingGetRequest
  * @see SystemLicensingGetResponse14sp3
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:5031","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:5221","type":"sequence"}]
  */
 class SystemLicensingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,7 +19,7 @@ class SystemLicensingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * @ElementName licenseStrictness
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LicenseStrictness
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:5031
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:5221
      * @var \CWM\BroadWorksConnector\Ocip\Models\LicenseStrictness|null
      */
     private $licenseStrictness = null;
@@ -27,7 +27,7 @@ class SystemLicensingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * @ElementName groupUserlimit
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:5031
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:5221
      * @var int|null
      */
     private $groupUserlimit = null;
@@ -36,7 +36,7 @@ class SystemLicensingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @ElementName expirationDate
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:5031
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:5221
      * @var string|null
      */
     private $expirationDate = null;
@@ -46,7 +46,7 @@ class SystemLicensingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @Type string
      * @Array
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:5031
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:5221
      * @var string[]
      */
     private $hostId = array(
@@ -58,7 +58,7 @@ class SystemLicensingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @Type string
      * @Array
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:5031
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:5221
      * @var string[]
      */
     private $licenseName = array(
@@ -68,7 +68,7 @@ class SystemLicensingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * @ElementName licenseTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:5031
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:5221
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $licenseTable = null;

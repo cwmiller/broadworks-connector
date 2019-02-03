@@ -17,7 +17,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see ServiceProviderGetPagedSortedListResponse
  * @see ErrorResponse
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:3696","type":"sequence"}]
+ * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:3724","type":"sequence"}]
  */
 class ServiceProviderGetPagedSortedListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -26,7 +26,7 @@ class ServiceProviderGetPagedSortedListRequest extends \CWM\BroadWorksConnector\
      * @ElementName responsePagingControl
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3696
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3724
      * @var \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl|null
      */
     private $responsePagingControl = null;
@@ -36,7 +36,7 @@ class ServiceProviderGetPagedSortedListRequest extends \CWM\BroadWorksConnector\
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortOrderServiceProviderGetPagedSortedList
      * @Array
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3696
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3724
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortOrderServiceProviderGetPagedSortedList[]
      */
     private $sortOrder = array(
@@ -48,7 +48,7 @@ class ServiceProviderGetPagedSortedListRequest extends \CWM\BroadWorksConnector\
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderId
      * @Array
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3696
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3724
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderId[]
      */
     private $searchCriteriaServiceProviderId = array(
@@ -60,7 +60,7 @@ class ServiceProviderGetPagedSortedListRequest extends \CWM\BroadWorksConnector\
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderName
      * @Array
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3696
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3724
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderName[]
      */
     private $searchCriteriaServiceProviderName = array(
@@ -71,7 +71,7 @@ class ServiceProviderGetPagedSortedListRequest extends \CWM\BroadWorksConnector\
      * @ElementName searchCriteriaExactOrganizationType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactOrganizationType
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3696
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3724
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactOrganizationType|null
      */
     private $searchCriteriaExactOrganizationType = null;
@@ -81,7 +81,7 @@ class ServiceProviderGetPagedSortedListRequest extends \CWM\BroadWorksConnector\
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaResellerId
      * @Array
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3696
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3724
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaResellerId[]
      */
     private $searchCriteriaResellerId = array(
@@ -92,7 +92,7 @@ class ServiceProviderGetPagedSortedListRequest extends \CWM\BroadWorksConnector\
      * @ElementName searchCriteriaModeOr
      * @Type bool
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3696
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3724
      * @var bool|null
      */
     private $searchCriteriaModeOr = null;

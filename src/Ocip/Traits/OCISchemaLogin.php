@@ -5,6 +5,8 @@ namespace CWM\BroadWorksConnector\Ocip\Traits;
 use CWM\BroadWorksConnector\Ocip\Models\AuthenticationVerifyRequest22V2;
 use CWM\BroadWorksConnector\Ocip\Models\AuthenticationVerifyResponse22V2;
 use CWM\BroadWorksConnector\Ocip\Models\AvailabilityTestRequest;
+use CWM\BroadWorksConnector\Ocip\Models\DeviceManagementFileAuthLocationGetRequest21sp1;
+use CWM\BroadWorksConnector\Ocip\Models\DeviceManagementFileAuthLocationGetResponse21sp1;
 use CWM\BroadWorksConnector\Ocip\Models\DeviceManagementFileAuthLocationGetRequest22V2;
 use CWM\BroadWorksConnector\Ocip\Models\DeviceManagementFileAuthLocationGetResponse22V2;
 use CWM\BroadWorksConnector\Ocip\Models\DeviceManagementPutFileRequest;
@@ -12,12 +14,14 @@ use CWM\BroadWorksConnector\Ocip\Models\ExternalAuthenticationAuthorizeTokenRequ
 use CWM\BroadWorksConnector\Ocip\Models\ExternalAuthenticationCreateLoginTokenRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ExternalAuthenticationCreateLoginTokenResponse;
 use CWM\BroadWorksConnector\Ocip\Models\LoginRequest22V3;
+use CWM\BroadWorksConnector\Ocip\Models\LoginResponse22V3;
 use CWM\BroadWorksConnector\Ocip\Models\LogoutRequest;
 use CWM\BroadWorksConnector\Ocip\Models\LongLivedTokenRevokeRequest;
 use CWM\BroadWorksConnector\Ocip\Models\PasswordGenerateRequest;
 use CWM\BroadWorksConnector\Ocip\Models\PasswordGenerateResponse;
 use CWM\BroadWorksConnector\Ocip\Models\PasswordModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\PrimaryInfoGetRequest;
+use CWM\BroadWorksConnector\Ocip\Models\PrimaryInfoGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\PublicClusterGetFullyQualifiedDomainNameRequest;
 use CWM\BroadWorksConnector\Ocip\Models\PublicClusterGetFullyQualifiedDomainNameResponse;
 use CWM\BroadWorksConnector\Ocip\Models\TutorialFlagGetRequest;
@@ -48,11 +52,22 @@ trait OCISchemaLogin
 
     /**
      * @param AvailabilityTestRequest $request
-     * @return 
+     * @return SuccessResponse
      * @throws ErrorResponseException
      * @throws ValidationException
      */
     public function availabilityTestRequest(\CWM\BroadWorksConnector\Ocip\Models\AvailabilityTestRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param DeviceManagementFileAuthLocationGetRequest21sp1 $request
+     * @return DeviceManagementFileAuthLocationGetResponse21sp1
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function deviceManagementFileAuthLocationGetRequest21sp1(\CWM\BroadWorksConnector\Ocip\Models\DeviceManagementFileAuthLocationGetRequest21sp1 $request)
     {
         return $this->call($request);
     }
@@ -103,7 +118,7 @@ trait OCISchemaLogin
 
     /**
      * @param LoginRequest22V3 $request
-     * @return 
+     * @return LoginResponse22V3
      * @throws ErrorResponseException
      * @throws ValidationException
      */
@@ -114,7 +129,7 @@ trait OCISchemaLogin
 
     /**
      * @param LogoutRequest $request
-     * @return 
+     * @return SuccessResponse
      * @throws ErrorResponseException
      * @throws ValidationException
      */
@@ -158,7 +173,7 @@ trait OCISchemaLogin
 
     /**
      * @param PrimaryInfoGetRequest $request
-     * @return 
+     * @return PrimaryInfoGetResponse
      * @throws ErrorResponseException
      * @throws ValidationException
      */

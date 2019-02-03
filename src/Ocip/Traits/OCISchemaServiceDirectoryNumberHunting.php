@@ -3,6 +3,7 @@
 namespace CWM\BroadWorksConnector\Ocip\Traits;
 
 use CWM\BroadWorksConnector\Ocip\Models\GroupDirectoryNumberHuntingGetAvailableUserListRequest;
+use CWM\BroadWorksConnector\Ocip\Models\GroupDirectoryNumberHuntingGetAvailableUserListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupDirectoryNumberHuntingGetRequest17sp1;
 use CWM\BroadWorksConnector\Ocip\Models\GroupDirectoryNumberHuntingGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupDirectoryNumberHuntingModifyRequest;
@@ -15,7 +16,7 @@ trait OCISchemaServiceDirectoryNumberHunting
 
     /**
      * @param GroupDirectoryNumberHuntingGetAvailableUserListRequest $request
-     * @return 
+     * @return GroupDirectoryNumberHuntingGetAvailableUserListResponse
      * @throws ErrorResponseException
      * @throws ValidationException
      */

@@ -6,15 +6,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupCallCenterSupervisorReportingModifyRequest
  *
  * Replaces a list of users as supervisors for a call center.
- *         Also allows the modification of the reporting server URL address.
- *         The response is either a SuccessResponse or an ErrorResponse.
- *         
- *         Replaced By: GroupCallCenterModifySupervisorListRequest16
+ *                 Also allows the modification of the reporting server URL address.
+ *                 The response is either a SuccessResponse or an ErrorResponse.
+ *
+ *                 Replaced By: GroupCallCenterModifySupervisorListRequest16
  *
  * @see SuccessResponse
  * @see ErrorResponse
  * @see GroupCallCenterModifySupervisorListRequest16
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:8383","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:8632","type":"sequence"}]
  */
 class GroupCallCenterSupervisorReportingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -22,7 +22,7 @@ class GroupCallCenterSupervisorReportingModifyRequest extends \CWM\BroadWorksCon
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:8383
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:8632
      * @var string|null
      */
     private $serviceUserId = null;
@@ -32,7 +32,7 @@ class GroupCallCenterSupervisorReportingModifyRequest extends \CWM\BroadWorksCon
      * @Type string
      * @Nillable
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:8383
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:8632
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $reportingServerName = null;
@@ -42,7 +42,7 @@ class GroupCallCenterSupervisorReportingModifyRequest extends \CWM\BroadWorksCon
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList
      * @Nillable
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:8383
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:8632
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $supervisorUserIdList = null;

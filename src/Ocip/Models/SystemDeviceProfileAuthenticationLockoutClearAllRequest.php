@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:7172","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:7464","type":"sequence"}]
  */
 class SystemDeviceProfileAuthenticationLockoutClearAllRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

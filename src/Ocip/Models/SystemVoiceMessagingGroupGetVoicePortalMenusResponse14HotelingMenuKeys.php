@@ -5,7 +5,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemVoiceMessagingGroupGetVoicePortalMenusResponse14HotelingMenuKeys
  *
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:22059","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:22823","type":"sequence"}]
  */
 class SystemVoiceMessagingGroupGetVoicePortalMenusResponse14HotelingMenuKeys
 {
@@ -14,7 +14,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse14HotelingMenuKeys
      * @ElementName checkHostStatus
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:22059
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:22823
      * @var string|null
      */
     private $checkHostStatus = null;
@@ -23,7 +23,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse14HotelingMenuKeys
      * @ElementName associateWithHost
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:22059
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:22823
      * @var string|null
      */
     private $associateWithHost = null;
@@ -32,7 +32,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse14HotelingMenuKeys
      * @ElementName disassociateFromHost
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:22059
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:22823
      * @var string|null
      */
     private $disassociateFromHost = null;
@@ -40,7 +40,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse14HotelingMenuKeys
     /**
      * @ElementName returnToPreviousMenu
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:22059
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:22823
      * @var string|null
      */
     private $returnToPreviousMenu = null;
@@ -49,7 +49,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse14HotelingMenuKeys
      * @ElementName repeatMenu
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:22059
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:22823
      * @var string|null
      */
     private $repeatMenu = null;

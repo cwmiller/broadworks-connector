@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:9998","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:10436","type":"sequence"}]
  */
 class SystemLanguageModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class SystemLanguageModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName language
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9998
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10436
      * @var string|null
      */
     private $language = null;
@@ -29,7 +29,7 @@ class SystemLanguageModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @ElementName becomeDefaultLanguage
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9998
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10436
      * @var bool|null
      */
     private $becomeDefaultLanguage = null;
@@ -38,7 +38,7 @@ class SystemLanguageModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @ElementName locale
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9998
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10436
      * @var string|null
      */
     private $locale = null;
@@ -47,7 +47,7 @@ class SystemLanguageModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @ElementName encoding
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9998
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10436
      * @var string|null
      */
     private $encoding = null;

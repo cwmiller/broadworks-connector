@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:17345","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:18187","type":"sequence"}]
  */
 class SystemVideoServerParametersModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class SystemVideoServerParametersModifyRequest extends \CWM\BroadWorksConnector\
      * @ElementName videoServerResponseTimerMilliseconds
      * @Type int
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17345
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18187
      * @var int|null
      */
     private $videoServerResponseTimerMilliseconds = null;
@@ -28,7 +28,7 @@ class SystemVideoServerParametersModifyRequest extends \CWM\BroadWorksConnector\
      * @ElementName videoServerSelectionRouteTimerMilliseconds
      * @Type int
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17345
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18187
      * @var int|null
      */
     private $videoServerSelectionRouteTimerMilliseconds = null;
@@ -37,7 +37,7 @@ class SystemVideoServerParametersModifyRequest extends \CWM\BroadWorksConnector\
      * @ElementName useStaticVideoServerDevice
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17345
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18187
      * @var bool|null
      */
     private $useStaticVideoServerDevice = null;

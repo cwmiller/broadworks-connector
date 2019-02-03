@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Contains a list of audio or video files to modify.
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:822","type":"sequence"}]
+ * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:838","type":"sequence"}]
  */
 class CallCenterAnnouncementFileListModify
 {
@@ -17,7 +17,7 @@ class CallCenterAnnouncementFileListModify
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource
      * @Nillable
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:822
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:838
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $file1 = null;
@@ -27,7 +27,7 @@ class CallCenterAnnouncementFileListModify
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource
      * @Nillable
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:822
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:838
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $file2 = null;
@@ -37,7 +37,7 @@ class CallCenterAnnouncementFileListModify
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource
      * @Nillable
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:822
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:838
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $file3 = null;
@@ -47,7 +47,7 @@ class CallCenterAnnouncementFileListModify
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource
      * @Nillable
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:822
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:838
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $file4 = null;

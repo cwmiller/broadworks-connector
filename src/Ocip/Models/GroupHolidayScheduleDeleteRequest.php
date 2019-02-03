@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupHolidayScheduleDeleteRequest
  *
  * Delete a holiday schedule from a group.
- *         The response is either a SuccessResponse or an ErrorResponse.
+ *                 The response is either a SuccessResponse or an ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:13303","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:13687","type":"sequence"}]
  */
 class GroupHolidayScheduleDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupHolidayScheduleDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:13303
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:13687
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,7 +26,7 @@ class GroupHolidayScheduleDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName groupId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:13303
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:13687
      * @var string|null
      */
     private $groupId = null;
@@ -34,7 +34,7 @@ class GroupHolidayScheduleDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName holidayScheduleName
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:13303
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:13687
      * @var string|null
      */
     private $holidayScheduleName = null;

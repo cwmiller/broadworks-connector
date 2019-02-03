@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupServiceGetAuthorizationResponse
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:6767","type":"sequence","children":[{"id":"f3a93cf15de4abd7903673e44ee3e07b:6770","type":"choice"}]}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:6765","type":"sequence","children":[{"id":"f3a93cf15de4abd7903673e44ee3e07b:6768","type":"choice"}]}]
  */
 class GroupServiceGetAuthorizationRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupServiceGetAuthorizationRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6767
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:6765
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,7 +26,7 @@ class GroupServiceGetAuthorizationRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6767
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:6765
      * @var string|null
      */
     private $groupId = null;
@@ -34,7 +34,7 @@ class GroupServiceGetAuthorizationRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName userServiceName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UserService
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6770
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:6768
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserService|null
      */
     private $userServiceName = null;
@@ -42,7 +42,7 @@ class GroupServiceGetAuthorizationRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName groupServiceName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupService
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6770
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:6768
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupService|null
      */
     private $groupServiceName = null;
@@ -50,7 +50,7 @@ class GroupServiceGetAuthorizationRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName servicePackName
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6770
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:6768
      * @var string|null
      */
     private $servicePackName = null;

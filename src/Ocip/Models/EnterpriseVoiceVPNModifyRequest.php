@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"5395c7df0157d44aa22f3351d1a5f3da:1561","type":"sequence"}]
+ * @Groups [{"id":"5395c7df0157d44aa22f3351d1a5f3da:1560","type":"sequence"}]
  */
 class EnterpriseVoiceVPNModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class EnterpriseVoiceVPNModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1561
+     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1560
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,7 +27,7 @@ class EnterpriseVoiceVPNModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName isActive
      * @Type bool
      * @Optional
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1561
+     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1560
      * @var bool|null
      */
     private $isActive = null;
@@ -36,7 +36,7 @@ class EnterpriseVoiceVPNModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName defaultSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNDefaultSelection
      * @Optional
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1561
+     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1560
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNDefaultSelection|null
      */
     private $defaultSelection = null;
@@ -45,7 +45,7 @@ class EnterpriseVoiceVPNModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName e164Selection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNNonMatchingE164NumberSelection
      * @Optional
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1561
+     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1560
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNNonMatchingE164NumberSelection|null
      */
     private $e164Selection = null;
@@ -54,7 +54,7 @@ class EnterpriseVoiceVPNModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName usePhoneContext
      * @Type bool
      * @Optional
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1561
+     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1560
      * @var bool|null
      */
     private $usePhoneContext = null;

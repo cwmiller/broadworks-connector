@@ -6,7 +6,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserINIntegrationModifyRequest
  *
  * Request to modify the user level IN Integration service attributes
- *         Response is either SuccessResponse or ErrorResponse
+ *         The response is either SuccessResponse or ErrorResponse
  *
  * @see SuccessResponse
  * @see ErrorResponse

@@ -16,7 +16,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           Reseller Id
  *
  * @see GroupGetListInSystemRequest
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:5215","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:5213","type":"sequence"}]
  */
 class GroupGetListInSystemResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -24,7 +24,7 @@ class GroupGetListInSystemResponse extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName groupTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:5215
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:5213
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $groupTable = null;

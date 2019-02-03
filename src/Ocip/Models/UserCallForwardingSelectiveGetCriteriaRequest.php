@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserCallForwardingSelectiveGetCriteriaRequest
  *
  * Get a criteria for the user's call forwarding selective service.
- *          The response is either a UserCallForwardingSelectiveGetCriteriaResponse or an ErrorResponse.
+ *                 The response is either a UserCallForwardingSelectiveGetCriteriaResponse or an ErrorResponse.
  *
  * @see UserCallForwardingSelectiveGetCriteriaResponse
  * @see ErrorResponse
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:10601","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:10923","type":"sequence"}]
  */
 class UserCallForwardingSelectiveGetCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserCallForwardingSelectiveGetCriteriaRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName userId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:10601
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:10923
      * @var string|null
      */
     private $userId = null;
@@ -26,7 +26,7 @@ class UserCallForwardingSelectiveGetCriteriaRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName criteriaName
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:10601
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:10923
      * @var string|null
      */
     private $criteriaName = null;

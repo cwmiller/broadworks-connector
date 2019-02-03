@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * List of email addresses to which the Call Center Queue Threshold email is sent. The list replaces a previously configured list.
  *
- * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:7308","type":"sequence"}]
+ * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:7357","type":"sequence"}]
  */
 class CallCenterQueueThresholdReplacementNotificationEmailList
 {
@@ -16,7 +16,7 @@ class CallCenterQueueThresholdReplacementNotificationEmailList
      * @ElementName emailAddress
      * @Type string
      * @Array
-     * @Group e2c537e3e39483b96620673a7012ffdd:7308
+     * @Group e2c537e3e39483b96620673a7012ffdd:7357
      * @var string[]
      */
     private $emailAddress = array(

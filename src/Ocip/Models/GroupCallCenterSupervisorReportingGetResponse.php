@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupCallCenterSupervisorReportingGetResponse
  *
  * Response to the GroupCallCenterSupervisorReportingGetRequest.
- *         Contains a table with column headings: "User Id", "Last Name",
- *         "First Name", "Hiragana Last Name", "Hiragana First Name".
+ *                 Contains a table with column headings: "User Id", "Last Name",
+ *                 "First Name", "Hiragana Last Name", "Hiragana First Name".
  *
  * @see GroupCallCenterSupervisorReportingGetRequest
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:8363","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:8612","type":"sequence"}]
  */
 class GroupCallCenterSupervisorReportingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,7 +19,7 @@ class GroupCallCenterSupervisorReportingGetResponse extends \CWM\BroadWorksConne
      * @ElementName reportingServerName
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:8363
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:8612
      * @var string|null
      */
     private $reportingServerName = null;
@@ -27,7 +27,7 @@ class GroupCallCenterSupervisorReportingGetResponse extends \CWM\BroadWorksConne
     /**
      * @ElementName supervisorTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:8363
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:8612
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $supervisorTable = null;

@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemCallCenterGetRequest14sp9.
  *
  * @see SystemCallCenterGetRequest14sp9
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:9692","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:9997","type":"sequence"}]
  */
 class SystemCallCenterGetResponse14sp9 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class SystemCallCenterGetResponse14sp9 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName defaultFromAddress
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:9692
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:9997
      * @var string|null
      */
     private $defaultFromAddress = null;
@@ -24,7 +24,7 @@ class SystemCallCenterGetResponse14sp9 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName statisticsSamplingPeriodMinutes
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterStatisticsSamplingPeriodMinutes
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:9692
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:9997
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterStatisticsSamplingPeriodMinutes|null
      */
     private $statisticsSamplingPeriodMinutes = null;

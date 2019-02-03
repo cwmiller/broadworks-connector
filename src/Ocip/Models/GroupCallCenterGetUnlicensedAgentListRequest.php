@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupCallCenterGetUnlicensedAgentListRequest
  *
  * Get a list of unlicensed users who are preventing the Call Center from upgrading to another type.
- *         The response is either GroupCallCenterGetUnlicensedAgentListRequest or ErrorResponse.
+ *         The response is either GroupCallCenterGetUnlicensedAgentListResponse or ErrorResponse.
  *
- * @see GroupCallCenterGetUnlicensedAgentListRequest
+ * @see GroupCallCenterGetUnlicensedAgentListResponse
  * @see ErrorResponse
- * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:4867","type":"sequence"}]
+ * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:4916","type":"sequence"}]
  */
 class GroupCallCenterGetUnlicensedAgentListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupCallCenterGetUnlicensedAgentListRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group e2c537e3e39483b96620673a7012ffdd:4867
+     * @Group e2c537e3e39483b96620673a7012ffdd:4916
      * @var string|null
      */
     private $serviceUserId = null;
@@ -26,7 +26,7 @@ class GroupCallCenterGetUnlicensedAgentListRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName callCenterType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterType
-     * @Group e2c537e3e39483b96620673a7012ffdd:4867
+     * @Group e2c537e3e39483b96620673a7012ffdd:4916
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterType|null
      */
     private $callCenterType = null;

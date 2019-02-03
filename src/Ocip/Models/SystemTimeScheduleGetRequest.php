@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemTimeScheduleGetRequest
  *
  * Request to get a system time schedule.
- *         The response is either a SystemTimeScheduleGetResponse or an ErrorResponse.
+ *                 The response is either a SystemTimeScheduleGetResponse or an ErrorResponse.
  *
  * @see SystemTimeScheduleGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:16033","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:16515","type":"sequence"}]
  */
 class SystemTimeScheduleGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemTimeScheduleGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName timeScheduleName
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:16033
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:16515
      * @var string|null
      */
     private $timeScheduleName = null;

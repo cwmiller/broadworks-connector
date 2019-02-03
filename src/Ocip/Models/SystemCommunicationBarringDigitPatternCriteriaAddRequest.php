@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:5288","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:5584","type":"sequence"}]
  */
 class SystemCommunicationBarringDigitPatternCriteriaAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemCommunicationBarringDigitPatternCriteriaAddRequest extends \CWM\Broa
     /**
      * @ElementName name
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:5288
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:5584
      * @var string|null
      */
     private $name = null;
@@ -27,7 +27,7 @@ class SystemCommunicationBarringDigitPatternCriteriaAddRequest extends \CWM\Broa
      * @ElementName description
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:5288
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:5584
      * @var string|null
      */
     private $description = null;
@@ -37,7 +37,7 @@ class SystemCommunicationBarringDigitPatternCriteriaAddRequest extends \CWM\Broa
      * @Type string
      * @Array
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:5288
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:5584
      * @var string[]
      */
     private $matchDigitPattern = array(

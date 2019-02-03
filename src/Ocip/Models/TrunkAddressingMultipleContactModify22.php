@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The following elements are only used in AS data mode and are ignored in XS data mode:        
  *          physicalLocation
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:4054","type":"sequence"}]
+ * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:4191","type":"sequence"}]
  */
 class TrunkAddressingMultipleContactModify22
 {
@@ -21,7 +21,7 @@ class TrunkAddressingMultipleContactModify22
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupDeviceMultipleContactEndpointModify22
      * @Nillable
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4054
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:4191
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupDeviceMultipleContactEndpointModify22|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $trunkGroupDeviceEndpoint = null;
@@ -31,7 +31,7 @@ class TrunkAddressingMultipleContactModify22
      * @Type string
      * @Nillable
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4054
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:4191
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $enterpriseTrunkName = null;
@@ -41,7 +41,7 @@ class TrunkAddressingMultipleContactModify22
      * @Type string
      * @Nillable
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4054
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:4191
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $alternateTrunkIdentity = null;
@@ -51,7 +51,7 @@ class TrunkAddressingMultipleContactModify22
      * @Type string
      * @Nillable
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4054
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:4191
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $alternateTrunkIdentityDomain = null;
@@ -61,7 +61,7 @@ class TrunkAddressingMultipleContactModify22
      * @Type string
      * @Nillable
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4054
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:4191
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $physicalLocation = null;

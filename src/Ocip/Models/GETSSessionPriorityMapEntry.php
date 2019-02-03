@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * The GETS session priority map entry.
  *
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:17704","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:18546","type":"sequence"}]
  */
 class GETSSessionPriorityMapEntry
 {
@@ -15,7 +15,7 @@ class GETSSessionPriorityMapEntry
     /**
      * @ElementName priorityLevel
      * @Type int
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17704
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18546
      * @var int|null
      */
     private $priorityLevel = null;
@@ -23,7 +23,7 @@ class GETSSessionPriorityMapEntry
     /**
      * @ElementName sessionPriority
      * @Type int
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17704
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18546
      * @var int|null
      */
     private $sessionPriority = null;

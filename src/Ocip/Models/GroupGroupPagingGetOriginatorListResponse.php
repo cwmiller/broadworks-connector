@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "Phone Number", "Extension", "Department", "Email Address".
  *
  * @see GroupGroupPagingGetOriginatorListRequest
- * @Groups [{"id":"0d36df8c109e3ea7324f79031368c661:346","type":"sequence"}]
+ * @Groups [{"id":"0d36df8c109e3ea7324f79031368c661:345","type":"sequence"}]
  */
 class GroupGroupPagingGetOriginatorListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,7 +19,7 @@ class GroupGroupPagingGetOriginatorListResponse extends \CWM\BroadWorksConnector
     /**
      * @ElementName originatorTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 0d36df8c109e3ea7324f79031368c661:346
+     * @Group 0d36df8c109e3ea7324f79031368c661:345
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $originatorTable = null;

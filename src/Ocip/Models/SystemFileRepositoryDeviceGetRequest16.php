@@ -5,14 +5,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemFileRepositoryDeviceGetRequest16
  *
- * Request to get the file repository information.  The response is either SystemFileRepositoryDeviceGetResponse16 or ErrorResponse.
- *         
- *         Replaced by: SystemFileRepositoryDeviceGetRequest20
+ * Request to get the file repository information.
+ *                 The response is either SystemFileRepositoryDeviceGetResponse16 or ErrorResponse.
+ *
+ *                 Replaced by: SystemFileRepositoryDeviceGetRequest20
  *
  * @see SystemFileRepositoryDeviceGetResponse16
  * @see ErrorResponse
  * @see SystemFileRepositoryDeviceGetRequest20
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:40344","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:41914","type":"sequence"}]
  */
 class SystemFileRepositoryDeviceGetRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +21,7 @@ class SystemFileRepositoryDeviceGetRequest16 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName name
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:40344
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:41914
      * @var string|null
      */
     private $name = null;

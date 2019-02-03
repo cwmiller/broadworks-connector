@@ -6,14 +6,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupMusicOnHoldModifyInstanceRequest16
  *
  * Modify data for a group or department Music On
- *         Hold Instance.
- *         The response is either
- *         SuccessResponse or
- *         ErrorResponse.
+ *                 Hold Instance.
+ *                 The response is either SuccessResponse or ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:29237","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:30306","type":"sequence"}]
  */
 class GroupMusicOnHoldModifyInstanceRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,7 +19,7 @@ class GroupMusicOnHoldModifyInstanceRequest16 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:29237
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:30306
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -29,7 +27,7 @@ class GroupMusicOnHoldModifyInstanceRequest16 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName groupId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:29237
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:30306
      * @var string|null
      */
     private $groupId = null;
@@ -38,7 +36,7 @@ class GroupMusicOnHoldModifyInstanceRequest16 extends \CWM\BroadWorksConnector\O
      * @ElementName department
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:29237
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:30306
      * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null
      */
     private $department = null;
@@ -47,7 +45,7 @@ class GroupMusicOnHoldModifyInstanceRequest16 extends \CWM\BroadWorksConnector\O
      * @ElementName isActiveDuringCallHold
      * @Type bool
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:29237
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:30306
      * @var bool|null
      */
     private $isActiveDuringCallHold = null;
@@ -56,7 +54,7 @@ class GroupMusicOnHoldModifyInstanceRequest16 extends \CWM\BroadWorksConnector\O
      * @ElementName isActiveDuringCallPark
      * @Type bool
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:29237
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:30306
      * @var bool|null
      */
     private $isActiveDuringCallPark = null;
@@ -65,7 +63,7 @@ class GroupMusicOnHoldModifyInstanceRequest16 extends \CWM\BroadWorksConnector\O
      * @ElementName isActiveDuringBusyCampOn
      * @Type bool
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:29237
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:30306
      * @var bool|null
      */
     private $isActiveDuringBusyCampOn = null;
@@ -74,7 +72,7 @@ class GroupMusicOnHoldModifyInstanceRequest16 extends \CWM\BroadWorksConnector\O
      * @ElementName source
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceModify16
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:29237
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:30306
      * @var \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceModify16|null
      */
     private $source = null;
@@ -83,7 +81,7 @@ class GroupMusicOnHoldModifyInstanceRequest16 extends \CWM\BroadWorksConnector\O
      * @ElementName useAlternateSourceForInternalCalls
      * @Type bool
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:29237
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:30306
      * @var bool|null
      */
     private $useAlternateSourceForInternalCalls = null;
@@ -92,7 +90,7 @@ class GroupMusicOnHoldModifyInstanceRequest16 extends \CWM\BroadWorksConnector\O
      * @ElementName internalSource
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceModify16
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:29237
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:30306
      * @var \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceModify16|null
      */
     private $internalSource = null;

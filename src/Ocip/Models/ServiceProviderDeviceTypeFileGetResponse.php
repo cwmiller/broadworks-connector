@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to ServiceProviderDeviceTypeFileGetRequest.
  *
  * @see ServiceProviderDeviceTypeFileGetRequest
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:2631","type":"sequence"}]
+ * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:2629","type":"sequence"}]
  */
 class ServiceProviderDeviceTypeFileGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class ServiceProviderDeviceTypeFileGetResponse extends \CWM\BroadWorksConnector\
      * @ElementName fileSource
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationMode
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2631
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2629
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationMode|null
      */
     private $fileSource = null;
@@ -26,7 +26,7 @@ class ServiceProviderDeviceTypeFileGetResponse extends \CWM\BroadWorksConnector\
      * @ElementName configurationFileName
      * @Type string
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2631
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2629
      * @var string|null
      */
     private $configurationFileName = null;
@@ -34,7 +34,7 @@ class ServiceProviderDeviceTypeFileGetResponse extends \CWM\BroadWorksConnector\
     /**
      * @ElementName accessUrl
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2631
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2629
      * @var string|null
      */
     private $accessUrl = null;
@@ -43,7 +43,7 @@ class ServiceProviderDeviceTypeFileGetResponse extends \CWM\BroadWorksConnector\
      * @ElementName repositoryUrl
      * @Type string
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2631
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2629
      * @var string|null
      */
     private $repositoryUrl = null;
@@ -52,7 +52,7 @@ class ServiceProviderDeviceTypeFileGetResponse extends \CWM\BroadWorksConnector\
      * @ElementName templateUrl
      * @Type string
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2631
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2629
      * @var string|null
      */
     private $templateUrl = null;

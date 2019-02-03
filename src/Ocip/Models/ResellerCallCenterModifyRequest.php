@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:5949","type":"sequence"}]
+ * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:5998","type":"sequence"}]
  */
 class ResellerCallCenterModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class ResellerCallCenterModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName resellerId
      * @Type string
-     * @Group e2c537e3e39483b96620673a7012ffdd:5949
+     * @Group e2c537e3e39483b96620673a7012ffdd:5998
      * @var string|null
      */
     private $resellerId = null;
@@ -28,7 +28,7 @@ class ResellerCallCenterModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Type string
      * @Nillable
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:5949
+     * @Group e2c537e3e39483b96620673a7012ffdd:5998
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $defaultFromAddress = null;

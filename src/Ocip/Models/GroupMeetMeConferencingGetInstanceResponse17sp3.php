@@ -6,11 +6,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupMeetMeConferencingGetInstanceResponse17sp3
  *
  * Response to GroupMeetMeConferencingGetInstanceRequest17sp3.
- *         Contains the service profile information and a table of assigned hosts.
- *         The table has column headings: "User Id", "Last Name", "First Name", "Hiragana Last Name", and "Hiragana First Name".
+ *                 Contains the service profile information and a table of assigned hosts.
+ *                 The table has column headings: "User Id", "Last Name", "First Name", "Hiragana Last Name", and "Hiragana
+ *                 First Name".
  *
  * @see GroupMeetMeConferencingGetInstanceRequest17sp3
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:19185","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:19798","type":"sequence"}]
  */
 class GroupMeetMeConferencingGetInstanceResponse17sp3 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +19,7 @@ class GroupMeetMeConferencingGetInstanceResponse17sp3 extends \CWM\BroadWorksCon
     /**
      * @ElementName serviceInstanceProfile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile17
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:19185
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:19798
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile17|null
      */
     private $serviceInstanceProfile = null;
@@ -26,7 +27,7 @@ class GroupMeetMeConferencingGetInstanceResponse17sp3 extends \CWM\BroadWorksCon
     /**
      * @ElementName allocatedPorts
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferencePorts
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:19185
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:19798
      * @var \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferencePorts|null
      */
     private $allocatedPorts = null;
@@ -35,7 +36,7 @@ class GroupMeetMeConferencingGetInstanceResponse17sp3 extends \CWM\BroadWorksCon
      * @ElementName networkClassOfService
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:19185
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:19798
      * @var string|null
      */
     private $networkClassOfService = null;
@@ -43,7 +44,7 @@ class GroupMeetMeConferencingGetInstanceResponse17sp3 extends \CWM\BroadWorksCon
     /**
      * @ElementName allowIndividualOutDial
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:19185
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:19798
      * @var bool|null
      */
     private $allowIndividualOutDial = null;
@@ -52,7 +53,7 @@ class GroupMeetMeConferencingGetInstanceResponse17sp3 extends \CWM\BroadWorksCon
      * @ElementName operatorNumber
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:19185
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:19798
      * @var string|null
      */
     private $operatorNumber = null;
@@ -60,7 +61,7 @@ class GroupMeetMeConferencingGetInstanceResponse17sp3 extends \CWM\BroadWorksCon
     /**
      * @ElementName conferenceHostUserTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:19185
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:19798
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $conferenceHostUserTable = null;

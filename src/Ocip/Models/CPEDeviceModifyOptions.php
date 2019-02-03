@@ -6,12 +6,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * CPEDeviceModifyOptions
  *
  * CPE device's options when used with a modify request.
- *         The following options are not changeable:
- *           configType
- *           systemFileName
- *           deviceFileFormat
+ *                 The following options are not changeable:
+ *                 configType
+ *                 systemFileName
+ *                 deviceFileFormat
  *
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:41907","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:43515","type":"sequence"}]
  */
 class CPEDeviceModifyOptions
 {
@@ -20,7 +20,7 @@ class CPEDeviceModifyOptions
      * @ElementName enableMonitoring
      * @Type bool
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:41907
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:43515
      * @var bool|null
      */
     private $enableMonitoring = null;
@@ -30,7 +30,7 @@ class CPEDeviceModifyOptions
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CPEDeviceResetEventType
      * @Nillable
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:41907
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:43515
      * @var \CWM\BroadWorksConnector\Ocip\Models\CPEDeviceResetEventType|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $resetEvent = null;
@@ -39,7 +39,7 @@ class CPEDeviceModifyOptions
      * @ElementName deviceManagementDeviceTypeOptions
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementDeviceTypeModifyOptions
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:41907
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:43515
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementDeviceTypeModifyOptions|null
      */
     private $deviceManagementDeviceTypeOptions = null;

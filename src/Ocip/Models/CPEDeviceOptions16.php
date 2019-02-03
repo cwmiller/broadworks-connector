@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * CPE device's options.
  *
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:42225","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:43838","type":"sequence"}]
  */
 class CPEDeviceOptions16
 {
@@ -15,7 +15,7 @@ class CPEDeviceOptions16
     /**
      * @ElementName enableMonitoring
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:42225
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:43838
      * @var bool|null
      */
     private $enableMonitoring = null;
@@ -24,7 +24,7 @@ class CPEDeviceOptions16
      * @ElementName resetEvent
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CPEDeviceResetEventType
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:42225
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:43838
      * @var \CWM\BroadWorksConnector\Ocip\Models\CPEDeviceResetEventType|null
      */
     private $resetEvent = null;
@@ -32,7 +32,7 @@ class CPEDeviceOptions16
     /**
      * @ElementName configType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationType14
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:42225
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:43838
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationType14|null
      */
     private $configType = null;
@@ -41,7 +41,7 @@ class CPEDeviceOptions16
      * @ElementName systemFileName
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:42225
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:43838
      * @var string|null
      */
     private $systemFileName = null;
@@ -50,7 +50,7 @@ class CPEDeviceOptions16
      * @ElementName deviceFileFormat
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:42225
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:43838
      * @var string|null
      */
     private $deviceFileFormat = null;
@@ -59,7 +59,7 @@ class CPEDeviceOptions16
      * @ElementName deviceManagementDeviceTypeOptions
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementDeviceTypeOptions16
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:42225
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:43838
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementDeviceTypeOptions16|null
      */
     private $deviceManagementDeviceTypeOptions = null;

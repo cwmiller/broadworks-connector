@@ -6,13 +6,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupInstantGroupCallGetInstanceResponse17
  *
  * Response to GroupInstantGroupCallGetInstanceRequest17.
- *         Contains the service profile information and a list of phone numbers.
- *         
- *         Replaced by: GroupInstantGroupCallGetInstanceResponse19sp1
+ *                 Contains the service profile information and a list of phone numbers.
+ *
+ *                 Replaced by: GroupInstantGroupCallGetInstanceResponse19sp1
  *
  * @see GroupInstantGroupCallGetInstanceRequest17
  * @see GroupInstantGroupCallGetInstanceResponse19sp1
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:29141","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:30209","type":"sequence"}]
  */
 class GroupInstantGroupCallGetInstanceResponse17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -20,7 +20,7 @@ class GroupInstantGroupCallGetInstanceResponse17 extends \CWM\BroadWorksConnecto
     /**
      * @ElementName serviceInstanceProfile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile17
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:29141
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:30209
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile17|null
      */
     private $serviceInstanceProfile = null;
@@ -30,7 +30,7 @@ class GroupInstantGroupCallGetInstanceResponse17 extends \CWM\BroadWorksConnecto
      * @Type string
      * @Array
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:29141
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:30209
      * @var string[]
      */
     private $destinationPhoneNumber = array(
@@ -40,7 +40,7 @@ class GroupInstantGroupCallGetInstanceResponse17 extends \CWM\BroadWorksConnecto
     /**
      * @ElementName isAnswerTimeoutEnabled
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:29141
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:30209
      * @var bool|null
      */
     private $isAnswerTimeoutEnabled = null;
@@ -49,7 +49,7 @@ class GroupInstantGroupCallGetInstanceResponse17 extends \CWM\BroadWorksConnecto
      * @ElementName answerTimeoutMinutes
      * @Type int
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:29141
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:30209
      * @var int|null
      */
     private $answerTimeoutMinutes = null;

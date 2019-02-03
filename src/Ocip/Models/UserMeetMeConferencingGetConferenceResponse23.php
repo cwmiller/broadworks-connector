@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains the information of a conference.
  *
  * @see UserMeetMeConferencingGetConferenceRequest23
- * @Groups [{"id":"0fd24121d16995c994d40bc408dbcfa5:821","type":"sequence","children":[{"id":"0fd24121d16995c994d40bc408dbcfa5:824","type":"choice"}]}]
+ * @Groups [{"id":"0fd24121d16995c994d40bc408dbcfa5:921","type":"sequence","children":[{"id":"0fd24121d16995c994d40bc408dbcfa5:924","type":"choice"}]}]
  */
 class UserMeetMeConferencingGetConferenceResponse23 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class UserMeetMeConferencingGetConferenceResponse23 extends \CWM\BroadWorksConne
     /**
      * @ElementName title
      * @Type string
-     * @Group 0fd24121d16995c994d40bc408dbcfa5:821
+     * @Group 0fd24121d16995c994d40bc408dbcfa5:921
      * @var string|null
      */
     private $title = null;
@@ -26,7 +26,7 @@ class UserMeetMeConferencingGetConferenceResponse23 extends \CWM\BroadWorksConne
      * @ElementName estimatedParticipants
      * @Type int
      * @Optional
-     * @Group 0fd24121d16995c994d40bc408dbcfa5:821
+     * @Group 0fd24121d16995c994d40bc408dbcfa5:921
      * @var int|null
      */
     private $estimatedParticipants = null;
@@ -34,7 +34,7 @@ class UserMeetMeConferencingGetConferenceResponse23 extends \CWM\BroadWorksConne
     /**
      * @ElementName restrictParticipants
      * @Type bool
-     * @Group 0fd24121d16995c994d40bc408dbcfa5:824
+     * @Group 0fd24121d16995c994d40bc408dbcfa5:924
      * @var bool|null
      */
     private $restrictParticipants = null;
@@ -42,7 +42,7 @@ class UserMeetMeConferencingGetConferenceResponse23 extends \CWM\BroadWorksConne
     /**
      * @ElementName maxParticipants
      * @Type int
-     * @Group 0fd24121d16995c994d40bc408dbcfa5:824
+     * @Group 0fd24121d16995c994d40bc408dbcfa5:924
      * @var int|null
      */
     private $maxParticipants = null;
@@ -51,7 +51,7 @@ class UserMeetMeConferencingGetConferenceResponse23 extends \CWM\BroadWorksConne
      * @ElementName accountCode
      * @Type string
      * @Optional
-     * @Group 0fd24121d16995c994d40bc408dbcfa5:821
+     * @Group 0fd24121d16995c994d40bc408dbcfa5:921
      * @var string|null
      */
     private $accountCode = null;
@@ -59,7 +59,7 @@ class UserMeetMeConferencingGetConferenceResponse23 extends \CWM\BroadWorksConne
     /**
      * @ElementName muteAllAttendeesOnEntry
      * @Type bool
-     * @Group 0fd24121d16995c994d40bc408dbcfa5:821
+     * @Group 0fd24121d16995c994d40bc408dbcfa5:921
      * @var bool|null
      */
     private $muteAllAttendeesOnEntry = null;
@@ -67,7 +67,7 @@ class UserMeetMeConferencingGetConferenceResponse23 extends \CWM\BroadWorksConne
     /**
      * @ElementName endConferenceOnModeratorExit
      * @Type bool
-     * @Group 0fd24121d16995c994d40bc408dbcfa5:821
+     * @Group 0fd24121d16995c994d40bc408dbcfa5:921
      * @var bool|null
      */
     private $endConferenceOnModeratorExit = null;
@@ -75,7 +75,7 @@ class UserMeetMeConferencingGetConferenceResponse23 extends \CWM\BroadWorksConne
     /**
      * @ElementName moderatorRequired
      * @Type bool
-     * @Group 0fd24121d16995c994d40bc408dbcfa5:821
+     * @Group 0fd24121d16995c994d40bc408dbcfa5:921
      * @var bool|null
      */
     private $moderatorRequired = null;
@@ -83,7 +83,7 @@ class UserMeetMeConferencingGetConferenceResponse23 extends \CWM\BroadWorksConne
     /**
      * @ElementName requireSecurityPin
      * @Type bool
-     * @Group 0fd24121d16995c994d40bc408dbcfa5:821
+     * @Group 0fd24121d16995c994d40bc408dbcfa5:921
      * @var bool|null
      */
     private $requireSecurityPin = null;
@@ -92,7 +92,7 @@ class UserMeetMeConferencingGetConferenceResponse23 extends \CWM\BroadWorksConne
      * @ElementName securityPin
      * @Type string
      * @Optional
-     * @Group 0fd24121d16995c994d40bc408dbcfa5:821
+     * @Group 0fd24121d16995c994d40bc408dbcfa5:921
      * @var string|null
      */
     private $securityPin = null;
@@ -100,7 +100,7 @@ class UserMeetMeConferencingGetConferenceResponse23 extends \CWM\BroadWorksConne
     /**
      * @ElementName allowUniqueIdentifier
      * @Type bool
-     * @Group 0fd24121d16995c994d40bc408dbcfa5:821
+     * @Group 0fd24121d16995c994d40bc408dbcfa5:921
      * @var bool|null
      */
     private $allowUniqueIdentifier = null;
@@ -108,7 +108,7 @@ class UserMeetMeConferencingGetConferenceResponse23 extends \CWM\BroadWorksConne
     /**
      * @ElementName attendeeNotification
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceAttendeeNotification
-     * @Group 0fd24121d16995c994d40bc408dbcfa5:821
+     * @Group 0fd24121d16995c994d40bc408dbcfa5:921
      * @var \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceAttendeeNotification|null
      */
     private $attendeeNotification = null;
@@ -116,7 +116,7 @@ class UserMeetMeConferencingGetConferenceResponse23 extends \CWM\BroadWorksConne
     /**
      * @ElementName conferenceSchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceSchedule
-     * @Group 0fd24121d16995c994d40bc408dbcfa5:821
+     * @Group 0fd24121d16995c994d40bc408dbcfa5:921
      * @var \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceSchedule|null
      */
     private $conferenceSchedule = null;
@@ -124,7 +124,7 @@ class UserMeetMeConferencingGetConferenceResponse23 extends \CWM\BroadWorksConne
     /**
      * @ElementName moderatorPin
      * @Type string
-     * @Group 0fd24121d16995c994d40bc408dbcfa5:821
+     * @Group 0fd24121d16995c994d40bc408dbcfa5:921
      * @var string|null
      */
     private $moderatorPin = null;
@@ -132,7 +132,7 @@ class UserMeetMeConferencingGetConferenceResponse23 extends \CWM\BroadWorksConne
     /**
      * @ElementName hostTimeZone
      * @Type string
-     * @Group 0fd24121d16995c994d40bc408dbcfa5:821
+     * @Group 0fd24121d16995c994d40bc408dbcfa5:921
      * @var string|null
      */
     private $hostTimeZone = null;
@@ -140,7 +140,7 @@ class UserMeetMeConferencingGetConferenceResponse23 extends \CWM\BroadWorksConne
     /**
      * @ElementName allowParticipantUnmuteInAutoLectureMode
      * @Type bool
-     * @Group 0fd24121d16995c994d40bc408dbcfa5:821
+     * @Group 0fd24121d16995c994d40bc408dbcfa5:921
      * @var bool|null
      */
     private $allowParticipantUnmuteInAutoLectureMode = null;

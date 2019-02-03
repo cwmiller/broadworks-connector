@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         assigned. The column headings are: "Service Provider Id" and "Service Provider Name".
  *
  * @see ResellerNetworkClassOfServiceGetAssignedServiceProviderListRequest
- * @Groups [{"id":"b009175f2a2a9d38115e319a6ad64d7f:542","type":"sequence"}]
+ * @Groups [{"id":"b009175f2a2a9d38115e319a6ad64d7f:541","type":"sequence"}]
  */
 class ResellerNetworkClassOfServiceGetAssignedServiceProviderListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class ResellerNetworkClassOfServiceGetAssignedServiceProviderListResponse extend
     /**
      * @ElementName spTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group b009175f2a2a9d38115e319a6ad64d7f:542
+     * @Group b009175f2a2a9d38115e319a6ad64d7f:541
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $spTable = null;

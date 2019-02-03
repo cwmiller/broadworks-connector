@@ -6,14 +6,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemDeviceTypeGetRequest14sp3
  *
  * Requests the information about the specified device type without regard to whether the
- *         type is SIP or MGCP.
- *         The response is either SystemDeviceTypeGetResponse14sp3 or ErrorResponse.
- *         Replaced By: SystemDeviceTypeGetRequest14sp6
+ *                 type is SIP or MGCP.
+ *                 The response is either SystemDeviceTypeGetResponse14sp3 or ErrorResponse.
+ *                 Replaced By: SystemDeviceTypeGetRequest14sp6
  *
  * @see SystemDeviceTypeGetResponse14sp3
  * @see ErrorResponse
  * @see SystemDeviceTypeGetRequest14sp6
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:4865","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:5055","type":"sequence"}]
  */
 class SystemDeviceTypeGetRequest14sp3 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,7 +21,7 @@ class SystemDeviceTypeGetRequest14sp3 extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName deviceType
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:4865
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:5055
      * @var string|null
      */
     private $deviceType = null;

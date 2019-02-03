@@ -5,7 +5,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * ConsolidatedGroupProperties
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:1501","type":"sequence"}]
+ * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:1517","type":"sequence"}]
  */
 class ConsolidatedGroupProperties
 {
@@ -13,7 +13,7 @@ class ConsolidatedGroupProperties
     /**
      * @ElementName defaultDomain
      * @Type string
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1501
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:1517
      * @var string|null
      */
     private $defaultDomain = null;
@@ -21,7 +21,7 @@ class ConsolidatedGroupProperties
     /**
      * @ElementName userLimit
      * @Type int
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1501
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:1517
      * @var int|null
      */
     private $userLimit = null;
@@ -30,7 +30,7 @@ class ConsolidatedGroupProperties
      * @ElementName groupName
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1501
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:1517
      * @var string|null
      */
     private $groupName = null;
@@ -39,7 +39,7 @@ class ConsolidatedGroupProperties
      * @ElementName callingLineIdName
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1501
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:1517
      * @var string|null
      */
     private $callingLineIdName = null;
@@ -48,7 +48,7 @@ class ConsolidatedGroupProperties
      * @ElementName timeZone
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1501
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:1517
      * @var string|null
      */
     private $timeZone = null;
@@ -57,7 +57,7 @@ class ConsolidatedGroupProperties
      * @ElementName locationDialingCode
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1501
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:1517
      * @var string|null
      */
     private $locationDialingCode = null;
@@ -66,7 +66,7 @@ class ConsolidatedGroupProperties
      * @ElementName contact
      * @Type \CWM\BroadWorksConnector\Ocip\Models\Contact
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1501
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:1517
      * @var \CWM\BroadWorksConnector\Ocip\Models\Contact|null
      */
     private $contact = null;
@@ -75,7 +75,7 @@ class ConsolidatedGroupProperties
      * @ElementName address
      * @Type \CWM\BroadWorksConnector\Ocip\Models\StreetAddress
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1501
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:1517
      * @var \CWM\BroadWorksConnector\Ocip\Models\StreetAddress|null
      */
     private $address = null;
@@ -85,7 +85,7 @@ class ConsolidatedGroupProperties
      * @Type string
      * @Array
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1501
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:1517
      * @var string[]
      */
     private $networkClassOfService = array(
@@ -96,7 +96,7 @@ class ConsolidatedGroupProperties
      * @ElementName defaultNetworkClassOfService
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DefaultNetworkClassOfService
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1501
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:1517
      * @var \CWM\BroadWorksConnector\Ocip\Models\DefaultNetworkClassOfService|null
      */
     private $defaultNetworkClassOfService = null;
@@ -106,7 +106,7 @@ class ConsolidatedGroupProperties
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ConsolidatedGroupServiceAssignment
      * @Array
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1501
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:1517
      * @var \CWM\BroadWorksConnector\Ocip\Models\ConsolidatedGroupServiceAssignment[]
      */
     private $groupService = array(
@@ -117,7 +117,7 @@ class ConsolidatedGroupProperties
      * @ElementName servicePolicy
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1501
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:1517
      * @var string|null
      */
     private $servicePolicy = null;

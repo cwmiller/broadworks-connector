@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         For optimization, we only get the hostname and addresses for primary if they are
  *         explicitly requested or if the current server is not the primary.
  *
- * @Groups [{"id":"6b27fcc79475236456fc113a42b75543:468","type":"sequence"}]
+ * @Groups [{"id":"6b27fcc79475236456fc113a42b75543:535","type":"sequence"}]
  */
 class PrimaryInfoGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class PrimaryInfoGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCID
     /**
      * @ElementName isPrimary
      * @Type bool
-     * @Group 6b27fcc79475236456fc113a42b75543:468
+     * @Group 6b27fcc79475236456fc113a42b75543:535
      * @var bool|null
      */
     private $isPrimary = null;
@@ -26,7 +26,7 @@ class PrimaryInfoGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCID
      * @ElementName hostnameForPrimary
      * @Type string
      * @Optional
-     * @Group 6b27fcc79475236456fc113a42b75543:468
+     * @Group 6b27fcc79475236456fc113a42b75543:535
      * @var string|null
      */
     private $hostnameForPrimary = null;
@@ -36,7 +36,7 @@ class PrimaryInfoGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCID
      * @Type string
      * @Array
      * @Optional
-     * @Group 6b27fcc79475236456fc113a42b75543:468
+     * @Group 6b27fcc79475236456fc113a42b75543:535
      * @var string[]
      */
     private $addressForPrimary = array(
@@ -48,7 +48,7 @@ class PrimaryInfoGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCID
      * @Type string
      * @Array
      * @Optional
-     * @Group 6b27fcc79475236456fc113a42b75543:468
+     * @Group 6b27fcc79475236456fc113a42b75543:535
      * @var string[]
      */
     private $privateAddressForPrimary = array(

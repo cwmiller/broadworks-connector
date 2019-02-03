@@ -19,7 +19,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         NOTE: the same phone number can show up in the list twice if the phone number is being used as the group calling line Id.
  *
  * @see GroupDnGetAssignmentListRequest18
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:4211","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:4209","type":"sequence"}]
  */
 class GroupDnGetAssignmentListResponse18 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -27,7 +27,7 @@ class GroupDnGetAssignmentListResponse18 extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName dnTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4211
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:4209
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $dnTable = null;

@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserCallForwardingSelectiveAddCriteriaRequest
  *
  * Add a criteria to the user's call forwarding selective service.
- *          The response is either a SuccessResponse or an ErrorResponse.
+ *                 The response is either a SuccessResponse or an ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:10580","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:10902","type":"sequence"}]
  */
 class UserCallForwardingSelectiveAddCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserCallForwardingSelectiveAddCriteriaRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName userId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:10580
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:10902
      * @var string|null
      */
     private $userId = null;
@@ -26,7 +26,7 @@ class UserCallForwardingSelectiveAddCriteriaRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName criteriaName
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:10580
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:10902
      * @var string|null
      */
     private $criteriaName = null;
@@ -35,7 +35,7 @@ class UserCallForwardingSelectiveAddCriteriaRequest extends \CWM\BroadWorksConne
      * @ElementName timeSchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:10580
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:10902
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null
      */
     private $timeSchedule = null;
@@ -43,7 +43,7 @@ class UserCallForwardingSelectiveAddCriteriaRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName forwardToNumberSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallForwardingSelectiveNumberSelection
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:10580
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:10902
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallForwardingSelectiveNumberSelection|null
      */
     private $forwardToNumberSelection = null;
@@ -52,7 +52,7 @@ class UserCallForwardingSelectiveAddCriteriaRequest extends \CWM\BroadWorksConne
      * @ElementName forwardToPhoneNumber
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:10580
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:10902
      * @var string|null
      */
     private $forwardToPhoneNumber = null;
@@ -60,7 +60,7 @@ class UserCallForwardingSelectiveAddCriteriaRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName fromDnCriteria
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDn
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:10580
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:10902
      * @var \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDn|null
      */
     private $fromDnCriteria = null;

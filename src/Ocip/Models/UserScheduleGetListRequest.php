@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserScheduleGetListRequest
  *
  * Get the list of a user schedules. The list can be filtered by schedule type.
- *         The response is either a UserScheduleGetListResponse or an ErrorResponse.
+ *                 The response is either a UserScheduleGetListResponse or an ErrorResponse.
  *
  * @see UserScheduleGetListResponse
  * @see ErrorResponse
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:23023","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:23827","type":"sequence"}]
  */
 class UserScheduleGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserScheduleGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * @ElementName userId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:23023
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:23827
      * @var string|null
      */
     private $userId = null;
@@ -27,7 +27,7 @@ class UserScheduleGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @ElementName scheduleType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ScheduleType
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:23023
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:23827
      * @var \CWM\BroadWorksConnector\Ocip\Models\ScheduleType|null
      */
     private $scheduleType = null;

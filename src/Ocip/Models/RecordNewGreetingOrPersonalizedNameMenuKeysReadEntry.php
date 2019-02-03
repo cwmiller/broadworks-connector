@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * The voice portal record new greeting or personalized name menu keys.
  *
- * @Groups [{"id":"3347d430e0d5c93a9ff8dcf0e3b60d6c:2956","type":"sequence"}]
+ * @Groups [{"id":"3347d430e0d5c93a9ff8dcf0e3b60d6c:3028","type":"sequence"}]
  */
 class RecordNewGreetingOrPersonalizedNameMenuKeysReadEntry
 {
@@ -15,7 +15,7 @@ class RecordNewGreetingOrPersonalizedNameMenuKeysReadEntry
     /**
      * @ElementName endRecording
      * @Type string
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2956
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:3028
      * @var string|null
      */
     private $endRecording = null;

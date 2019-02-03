@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * The voice portal send message to selected distribution list menu keys modify entry.
  *
- * @Groups [{"id":"3347d430e0d5c93a9ff8dcf0e3b60d6c:3047","type":"sequence"}]
+ * @Groups [{"id":"3347d430e0d5c93a9ff8dcf0e3b60d6c:3119","type":"sequence"}]
  */
 class SendMessageToSelectedDistributionListMenuKeysModifyEntry
 {
@@ -17,7 +17,7 @@ class SendMessageToSelectedDistributionListMenuKeysModifyEntry
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:3047
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:3119
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $confirmSendingToDistributionList = null;
@@ -26,7 +26,7 @@ class SendMessageToSelectedDistributionListMenuKeysModifyEntry
      * @ElementName cancelSendingToDistributionList
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:3047
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:3119
      * @var string|null
      */
     private $cancelSendingToDistributionList = null;

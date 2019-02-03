@@ -6,16 +6,16 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ServiceProviderFeatureAccessCodeGetListRequest20
  *
  * Get the list of feature access codes for a service provider or enterprise.
- *         The response is either a ServiceProviderFeatureAccessCodeGetListResponse20
- *         or an ErrorResponse.
- *         In release 20 the "Call Recording" FAC name is changed to
- *         "Call Recording - Start".
- *         Replaced by: ServiceProviderFeatureAccessCodeGetListRequest21
+ *                 The response is either a ServiceProviderFeatureAccessCodeGetListResponse20
+ *                 or an ErrorResponse.
+ *                 In release 20 the "Call Recording" FAC name is changed to
+ *                 "Call Recording - Start".
+ *                 Replaced by: ServiceProviderFeatureAccessCodeGetListRequest21
  *
  * @see ServiceProviderFeatureAccessCodeGetListResponse20
  * @see ErrorResponse
  * @see ServiceProviderFeatureAccessCodeGetListRequest21
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:32790","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:34046","type":"sequence"}]
  */
 class ServiceProviderFeatureAccessCodeGetListRequest20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -23,7 +23,7 @@ class ServiceProviderFeatureAccessCodeGetListRequest20 extends \CWM\BroadWorksCo
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:32790
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:34046
      * @var string|null
      */
     private $serviceProviderId = null;

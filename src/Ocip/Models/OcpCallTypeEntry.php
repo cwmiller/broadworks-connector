@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * The outgoing call plan call type entry.
  *
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:17740","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:18582","type":"sequence"}]
  */
 class OcpCallTypeEntry
 {
@@ -15,7 +15,7 @@ class OcpCallTypeEntry
     /**
      * @ElementName countryCode
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17740
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18582
      * @var string|null
      */
     private $countryCode = null;
@@ -23,7 +23,7 @@ class OcpCallTypeEntry
     /**
      * @ElementName digitMap
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17740
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18582
      * @var string|null
      */
     private $digitMap = null;
@@ -31,7 +31,7 @@ class OcpCallTypeEntry
     /**
      * @ElementName callType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanCallType
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17740
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18582
      * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanCallType|null
      */
     private $callType = null;

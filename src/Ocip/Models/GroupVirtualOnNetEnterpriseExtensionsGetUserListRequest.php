@@ -9,13 +9,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         It is possible to search by various criteria to restrict the number 
  *         of rows returned.
  *         Multiple search criteria are logically ANDed together.
- *         The response is either a 
- *         GroupVirtualOnNetEnterpriseExtensionsGetUserListResponse or an 
+ *         The response is either a GroupVirtualOnNetEnterpriseExtensionsGetUserListResponse or an
  *         ErrorResponse.
  *
  * @see GroupVirtualOnNetEnterpriseExtensionsGetUserListResponse
  * @see ErrorResponse
- * @Groups [{"id":"179b744b0183abe614e8c32c17c96b7e:139","type":"sequence"}]
+ * @Groups [{"id":"179b744b0183abe614e8c32c17c96b7e:138","type":"sequence"}]
  */
 class GroupVirtualOnNetEnterpriseExtensionsGetUserListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -23,7 +22,7 @@ class GroupVirtualOnNetEnterpriseExtensionsGetUserListRequest extends \CWM\Broad
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 179b744b0183abe614e8c32c17c96b7e:139
+     * @Group 179b744b0183abe614e8c32c17c96b7e:138
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -31,7 +30,7 @@ class GroupVirtualOnNetEnterpriseExtensionsGetUserListRequest extends \CWM\Broad
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 179b744b0183abe614e8c32c17c96b7e:139
+     * @Group 179b744b0183abe614e8c32c17c96b7e:138
      * @var string|null
      */
     private $groupId = null;
@@ -40,7 +39,7 @@ class GroupVirtualOnNetEnterpriseExtensionsGetUserListRequest extends \CWM\Broad
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group 179b744b0183abe614e8c32c17c96b7e:139
+     * @Group 179b744b0183abe614e8c32c17c96b7e:138
      * @var int|null
      */
     private $responseSizeLimit = null;
@@ -50,7 +49,7 @@ class GroupVirtualOnNetEnterpriseExtensionsGetUserListRequest extends \CWM\Broad
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName
      * @Array
      * @Optional
-     * @Group 179b744b0183abe614e8c32c17c96b7e:139
+     * @Group 179b744b0183abe614e8c32c17c96b7e:138
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[]
      */
     private $searchCriteriaUserLastName = array(
@@ -62,7 +61,7 @@ class GroupVirtualOnNetEnterpriseExtensionsGetUserListRequest extends \CWM\Broad
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName
      * @Array
      * @Optional
-     * @Group 179b744b0183abe614e8c32c17c96b7e:139
+     * @Group 179b744b0183abe614e8c32c17c96b7e:138
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName[]
      */
     private $searchCriteriaUserFirstName = array(
@@ -74,7 +73,7 @@ class GroupVirtualOnNetEnterpriseExtensionsGetUserListRequest extends \CWM\Broad
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn
      * @Array
      * @Optional
-     * @Group 179b744b0183abe614e8c32c17c96b7e:139
+     * @Group 179b744b0183abe614e8c32c17c96b7e:138
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[]
      */
     private $searchCriteriaDn = array(
@@ -86,7 +85,7 @@ class GroupVirtualOnNetEnterpriseExtensionsGetUserListRequest extends \CWM\Broad
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension
      * @Array
      * @Optional
-     * @Group 179b744b0183abe614e8c32c17c96b7e:139
+     * @Group 179b744b0183abe614e8c32c17c96b7e:138
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension[]
      */
     private $searchCriteriaExtension = array(
@@ -98,7 +97,7 @@ class GroupVirtualOnNetEnterpriseExtensionsGetUserListRequest extends \CWM\Broad
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactVirtualOnNetCallTypeName
      * @Array
      * @Optional
-     * @Group 179b744b0183abe614e8c32c17c96b7e:139
+     * @Group 179b744b0183abe614e8c32c17c96b7e:138
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactVirtualOnNetCallTypeName[]
      */
     private $searchCriteriaExactVirtualOnNetCallTypeName = array(

@@ -5,15 +5,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * DeviceManagementFileAuthLocationGetResponse17
  *
- * Return the address and credentials of the File Repository hosting the requested access device file. 
- *         Also return the file name and path on the File Repository. 
- *         This is a response to DeviceManagementFileAuthLocationGetRequest17.
- *         
- *         Replaced by: DeviceManagementFileAuthLocationGetRequest18
+ * Return the address and credentials of the File Repository hosting the requested access device file.
+ *                 Also return the file name and path on the File Repository.
+ *                 This is a response to DeviceManagementFileAuthLocationGetRequest17.
+ *
+ *                 Replaced by: DeviceManagementFileAuthLocationGetRequest18
  *
  * @see DeviceManagementFileAuthLocationGetRequest17
  * @see DeviceManagementFileAuthLocationGetRequest18
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:17698","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:18253","type":"sequence"}]
  */
 class DeviceManagementFileAuthLocationGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -21,7 +21,7 @@ class DeviceManagementFileAuthLocationGetResponse17 extends \CWM\BroadWorksConne
     /**
      * @ElementName fileRepositoryUserName
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:17698
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:18253
      * @var string|null
      */
     private $fileRepositoryUserName = null;
@@ -29,7 +29,7 @@ class DeviceManagementFileAuthLocationGetResponse17 extends \CWM\BroadWorksConne
     /**
      * @ElementName fileRepositoryPassword
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:17698
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:18253
      * @var string|null
      */
     private $fileRepositoryPassword = null;
@@ -37,7 +37,7 @@ class DeviceManagementFileAuthLocationGetResponse17 extends \CWM\BroadWorksConne
     /**
      * @ElementName netAddress
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:17698
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:18253
      * @var string|null
      */
     private $netAddress = null;
@@ -45,7 +45,7 @@ class DeviceManagementFileAuthLocationGetResponse17 extends \CWM\BroadWorksConne
     /**
      * @ElementName remoteFileFormat
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:17698
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:18253
      * @var string|null
      */
     private $remoteFileFormat = null;
@@ -54,7 +54,7 @@ class DeviceManagementFileAuthLocationGetResponse17 extends \CWM\BroadWorksConne
      * @ElementName portNumber
      * @Type int
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:17698
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:18253
      * @var int|null
      */
     private $portNumber = null;
@@ -63,7 +63,7 @@ class DeviceManagementFileAuthLocationGetResponse17 extends \CWM\BroadWorksConne
      * @ElementName rootDirectory
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:17698
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:18253
      * @var string|null
      */
     private $rootDirectory = null;
@@ -72,7 +72,7 @@ class DeviceManagementFileAuthLocationGetResponse17 extends \CWM\BroadWorksConne
      * @ElementName cpeFileDirectory
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:17698
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:18253
      * @var string|null
      */
     private $cpeFileDirectory = null;
@@ -81,7 +81,7 @@ class DeviceManagementFileAuthLocationGetResponse17 extends \CWM\BroadWorksConne
      * @ElementName secure
      * @Type bool
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:17698
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:18253
      * @var bool|null
      */
     private $secure = null;
@@ -90,7 +90,7 @@ class DeviceManagementFileAuthLocationGetResponse17 extends \CWM\BroadWorksConne
      * @ElementName macInNonRequestURI
      * @Type bool
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:17698
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:18253
      * @var bool|null
      */
     private $macInNonRequestURI = null;
@@ -99,7 +99,7 @@ class DeviceManagementFileAuthLocationGetResponse17 extends \CWM\BroadWorksConne
      * @ElementName macFormatInNonRequestURI
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:17698
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:18253
      * @var string|null
      */
     private $macFormatInNonRequestURI = null;
@@ -108,7 +108,7 @@ class DeviceManagementFileAuthLocationGetResponse17 extends \CWM\BroadWorksConne
      * @ElementName useHttpDigestAuthentication
      * @Type bool
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:17698
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:18253
      * @var bool|null
      */
     private $useHttpDigestAuthentication = null;
@@ -117,7 +117,7 @@ class DeviceManagementFileAuthLocationGetResponse17 extends \CWM\BroadWorksConne
      * @ElementName macBasedFileAuthentication
      * @Type bool
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:17698
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:18253
      * @var bool|null
      */
     private $macBasedFileAuthentication = null;
@@ -126,7 +126,7 @@ class DeviceManagementFileAuthLocationGetResponse17 extends \CWM\BroadWorksConne
      * @ElementName userNamePasswordFileAuthentication
      * @Type bool
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:17698
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:18253
      * @var bool|null
      */
     private $userNamePasswordFileAuthentication = null;
@@ -135,7 +135,7 @@ class DeviceManagementFileAuthLocationGetResponse17 extends \CWM\BroadWorksConne
      * @ElementName completionNotification
      * @Type bool
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:17698
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:18253
      * @var bool|null
      */
     private $completionNotification = null;
@@ -144,7 +144,7 @@ class DeviceManagementFileAuthLocationGetResponse17 extends \CWM\BroadWorksConne
      * @ElementName fileCategory
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementFileCategory
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:17698
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:18253
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementFileCategory|null
      */
     private $fileCategory = null;

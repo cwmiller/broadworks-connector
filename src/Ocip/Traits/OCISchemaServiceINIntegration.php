@@ -3,16 +3,18 @@
 namespace CWM\BroadWorksConnector\Ocip\Traits;
 
 use CWM\BroadWorksConnector\Ocip\Models\UserINIntegrationGetRequest;
+use CWM\BroadWorksConnector\Ocip\Models\UserINIntegrationGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserINIntegrationModifyRequest;
 use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
 use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
+use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceINIntegration
 {
 
     /**
      * @param UserINIntegrationGetRequest $request
-     * @return 
+     * @return UserINIntegrationGetResponse
      * @throws ErrorResponseException
      * @throws ValidationException
      */
@@ -23,7 +25,7 @@ trait OCISchemaServiceINIntegration
 
     /**
      * @param UserINIntegrationModifyRequest $request
-     * @return 
+     * @return SuccessResponse
      * @throws ErrorResponseException
      * @throws ValidationException
      */

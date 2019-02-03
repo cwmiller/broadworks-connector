@@ -6,16 +6,16 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserEnhancedCallLogsGetListRequest16
  *
  * Request user's call logs.
- *         If the callLogType is not specified, all types of calls logs (placed, received, missed) are returned.
- *         It is possible to restrict the number of rows returned using responsePagingControl.
- *         The response is either a UserEnhancedCallLogsGetListResponse16 or an ErrorResponse.
- *         
- *         Replaced by UserEnhancedCallLogsGetListRequest17sp4
+ *                 If the callLogType is not specified, all types of calls logs (placed, received, missed) are returned.
+ *                 It is possible to restrict the number of rows returned using responsePagingControl.
+ *                 The response is either a UserEnhancedCallLogsGetListResponse16 or an ErrorResponse.
+ *
+ *                 Replaced by UserEnhancedCallLogsGetListRequest17sp4
  *
  * @see UserEnhancedCallLogsGetListResponse16
  * @see ErrorResponse
  * @see UserEnhancedCallLogsGetListRequest17sp4
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:22600","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:23387","type":"sequence"}]
  */
 class UserEnhancedCallLogsGetListRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -23,7 +23,7 @@ class UserEnhancedCallLogsGetListRequest16 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName userId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:22600
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:23387
      * @var string|null
      */
     private $userId = null;
@@ -32,7 +32,7 @@ class UserEnhancedCallLogsGetListRequest16 extends \CWM\BroadWorksConnector\Ocip
      * @ElementName callLogType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallLogsType
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:22600
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:23387
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallLogsType|null
      */
     private $callLogType = null;
@@ -41,7 +41,7 @@ class UserEnhancedCallLogsGetListRequest16 extends \CWM\BroadWorksConnector\Ocip
      * @ElementName responsePagingControl
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:22600
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:23387
      * @var \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl|null
      */
     private $responsePagingControl = null;

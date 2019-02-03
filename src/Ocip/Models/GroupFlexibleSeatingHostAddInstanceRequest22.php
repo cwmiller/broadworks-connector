@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"43afb2158d313a1d1a148124d7caba1e:102","type":"sequence"}]
+ * @Groups [{"id":"43afb2158d313a1d1a148124d7caba1e:124","type":"sequence"}]
  */
 class GroupFlexibleSeatingHostAddInstanceRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class GroupFlexibleSeatingHostAddInstanceRequest22 extends \CWM\BroadWorksConnec
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 43afb2158d313a1d1a148124d7caba1e:102
+     * @Group 43afb2158d313a1d1a148124d7caba1e:124
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,7 +27,7 @@ class GroupFlexibleSeatingHostAddInstanceRequest22 extends \CWM\BroadWorksConnec
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 43afb2158d313a1d1a148124d7caba1e:102
+     * @Group 43afb2158d313a1d1a148124d7caba1e:124
      * @var string|null
      */
     private $groupId = null;
@@ -35,7 +35,7 @@ class GroupFlexibleSeatingHostAddInstanceRequest22 extends \CWM\BroadWorksConnec
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group 43afb2158d313a1d1a148124d7caba1e:102
+     * @Group 43afb2158d313a1d1a148124d7caba1e:124
      * @var string|null
      */
     private $serviceUserId = null;
@@ -43,7 +43,7 @@ class GroupFlexibleSeatingHostAddInstanceRequest22 extends \CWM\BroadWorksConnec
     /**
      * @ElementName serviceInstanceProfile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceAddProfileFlexibleSeatingHost
-     * @Group 43afb2158d313a1d1a148124d7caba1e:102
+     * @Group 43afb2158d313a1d1a148124d7caba1e:124
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceAddProfileFlexibleSeatingHost|null
      */
     private $serviceInstanceProfile = null;
@@ -52,7 +52,7 @@ class GroupFlexibleSeatingHostAddInstanceRequest22 extends \CWM\BroadWorksConnec
      * @ElementName accessDeviceEndpoint
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceMultipleContactEndpointAdd22
      * @Optional
-     * @Group 43afb2158d313a1d1a148124d7caba1e:102
+     * @Group 43afb2158d313a1d1a148124d7caba1e:124
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceMultipleContactEndpointAdd22|null
      */
     private $accessDeviceEndpoint = null;
@@ -61,7 +61,7 @@ class GroupFlexibleSeatingHostAddInstanceRequest22 extends \CWM\BroadWorksConnec
      * @ElementName networkClassOfService
      * @Type string
      * @Optional
-     * @Group 43afb2158d313a1d1a148124d7caba1e:102
+     * @Group 43afb2158d313a1d1a148124d7caba1e:124
      * @var string|null
      */
     private $networkClassOfService = null;

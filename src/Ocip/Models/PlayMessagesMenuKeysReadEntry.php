@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * The voice portal play message menu keys.
  *
- * @Groups [{"id":"3347d430e0d5c93a9ff8dcf0e3b60d6c:2920","type":"sequence"}]
+ * @Groups [{"id":"3347d430e0d5c93a9ff8dcf0e3b60d6c:2992","type":"sequence"}]
  */
 class PlayMessagesMenuKeysReadEntry
 {
@@ -16,7 +16,7 @@ class PlayMessagesMenuKeysReadEntry
      * @ElementName saveMessage
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2920
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2992
      * @var string|null
      */
     private $saveMessage = null;
@@ -25,7 +25,7 @@ class PlayMessagesMenuKeysReadEntry
      * @ElementName deleteMessage
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2920
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2992
      * @var string|null
      */
     private $deleteMessage = null;
@@ -34,7 +34,7 @@ class PlayMessagesMenuKeysReadEntry
      * @ElementName playMessage
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2920
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2992
      * @var string|null
      */
     private $playMessage = null;
@@ -43,7 +43,7 @@ class PlayMessagesMenuKeysReadEntry
      * @ElementName previousMessage
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2920
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2992
      * @var string|null
      */
     private $previousMessage = null;
@@ -52,7 +52,7 @@ class PlayMessagesMenuKeysReadEntry
      * @ElementName playEnvelope
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2920
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2992
      * @var string|null
      */
     private $playEnvelope = null;
@@ -61,7 +61,7 @@ class PlayMessagesMenuKeysReadEntry
      * @ElementName nextMessage
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2920
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2992
      * @var string|null
      */
     private $nextMessage = null;
@@ -70,7 +70,7 @@ class PlayMessagesMenuKeysReadEntry
      * @ElementName callbackCaller
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2920
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2992
      * @var string|null
      */
     private $callbackCaller = null;
@@ -79,7 +79,7 @@ class PlayMessagesMenuKeysReadEntry
      * @ElementName composeMessage
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2920
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2992
      * @var string|null
      */
     private $composeMessage = null;
@@ -88,7 +88,7 @@ class PlayMessagesMenuKeysReadEntry
      * @ElementName replyMessage
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2920
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2992
      * @var string|null
      */
     private $replyMessage = null;
@@ -97,7 +97,7 @@ class PlayMessagesMenuKeysReadEntry
      * @ElementName forwardMessage
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2920
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2992
      * @var string|null
      */
     private $forwardMessage = null;
@@ -106,7 +106,7 @@ class PlayMessagesMenuKeysReadEntry
      * @ElementName additionalMessageOptions
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2920
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2992
      * @var string|null
      */
     private $additionalMessageOptions = null;
@@ -115,7 +115,7 @@ class PlayMessagesMenuKeysReadEntry
      * @ElementName personalizedName
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2920
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2992
      * @var string|null
      */
     private $personalizedName = null;
@@ -124,7 +124,7 @@ class PlayMessagesMenuKeysReadEntry
      * @ElementName passcode
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2920
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2992
      * @var string|null
      */
     private $passcode = null;
@@ -132,7 +132,7 @@ class PlayMessagesMenuKeysReadEntry
     /**
      * @ElementName returnToPreviousMenu
      * @Type string
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2920
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2992
      * @var string|null
      */
     private $returnToPreviousMenu = null;
@@ -141,7 +141,7 @@ class PlayMessagesMenuKeysReadEntry
      * @ElementName repeatMenu
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2920
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2992
      * @var string|null
      */
     private $repeatMenu = null;

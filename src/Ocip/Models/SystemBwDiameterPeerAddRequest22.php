@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:2264","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:2356","type":"sequence"}]
  */
 class SystemBwDiameterPeerAddRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemBwDiameterPeerAddRequest22 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName instance
      * @Type \CWM\BroadWorksConnector\Ocip\Models\BwDiameterPeerInstance
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2264
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2356
      * @var \CWM\BroadWorksConnector\Ocip\Models\BwDiameterPeerInstance|null
      */
     private $instance = null;
@@ -26,7 +26,7 @@ class SystemBwDiameterPeerAddRequest22 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName identity
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2264
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2356
      * @var string|null
      */
     private $identity = null;
@@ -35,7 +35,7 @@ class SystemBwDiameterPeerAddRequest22 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName ipAddress
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2264
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2356
      * @var string|null
      */
     private $ipAddress = null;
@@ -43,7 +43,7 @@ class SystemBwDiameterPeerAddRequest22 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName port
      * @Type int
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2264
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2356
      * @var int|null
      */
     private $port = null;
@@ -51,7 +51,7 @@ class SystemBwDiameterPeerAddRequest22 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName enabled
      * @Type bool
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2264
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2356
      * @var bool|null
      */
     private $enabled = null;
@@ -59,7 +59,7 @@ class SystemBwDiameterPeerAddRequest22 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName secure
      * @Type bool
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2264
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2356
      * @var bool|null
      */
     private $secure = null;

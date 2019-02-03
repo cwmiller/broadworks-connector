@@ -6,12 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * EnterpriseCommunicationBarringAuthorizationCodeGetRequest
  *
  * Request the enterprise Communication Barring Authorization code settings.
- *         The response is either a 
- *         EnterpriseCommunicationBarringAuthorizationCodeGetResponse or an ErrorResponse.
+ *         The response is either a EnterpriseCommunicationBarringAuthorizationCodeGetResponse or an ErrorResponse.
  *
  * @see EnterpriseCommunicationBarringAuthorizationCodeGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"5395c7df0157d44aa22f3351d1a5f3da:581","type":"sequence"}]
+ * @Groups [{"id":"5395c7df0157d44aa22f3351d1a5f3da:580","type":"sequence"}]
  */
 class EnterpriseCommunicationBarringAuthorizationCodeGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +18,7 @@ class EnterpriseCommunicationBarringAuthorizationCodeGetRequest extends \CWM\Bro
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:581
+     * @Group 5395c7df0157d44aa22f3351d1a5f3da:580
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,7 +26,7 @@ class EnterpriseCommunicationBarringAuthorizationCodeGetRequest extends \CWM\Bro
     /**
      * @ElementName code
      * @Type string
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:581
+     * @Group 5395c7df0157d44aa22f3351d1a5f3da:580
      * @var string|null
      */
     private $code = null;

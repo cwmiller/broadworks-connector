@@ -16,7 +16,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:2557","type":"sequence","children":[{"id":"f1088f4c5ceb30d524d2ba0f8097c393:2561","type":"choice"}]}]
+ * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:2555","type":"sequence","children":[{"id":"f1088f4c5ceb30d524d2ba0f8097c393:2559","type":"choice"}]}]
  */
 class ServiceProviderDeviceTypeCustomTagModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -24,7 +24,7 @@ class ServiceProviderDeviceTypeCustomTagModifyRequest extends \CWM\BroadWorksCon
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2557
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2555
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -32,7 +32,7 @@ class ServiceProviderDeviceTypeCustomTagModifyRequest extends \CWM\BroadWorksCon
     /**
      * @ElementName deviceType
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2557
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2555
      * @var string|null
      */
     private $deviceType = null;
@@ -40,7 +40,7 @@ class ServiceProviderDeviceTypeCustomTagModifyRequest extends \CWM\BroadWorksCon
     /**
      * @ElementName tagName
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2557
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2555
      * @var string|null
      */
     private $tagName = null;
@@ -50,7 +50,7 @@ class ServiceProviderDeviceTypeCustomTagModifyRequest extends \CWM\BroadWorksCon
      * @Type string
      * @Nillable
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2561
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2559
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $tagValue = null;
@@ -60,7 +60,7 @@ class ServiceProviderDeviceTypeCustomTagModifyRequest extends \CWM\BroadWorksCon
      * @Type string
      * @Nillable
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2561
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2559
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $tagValueToEncrypt = null;

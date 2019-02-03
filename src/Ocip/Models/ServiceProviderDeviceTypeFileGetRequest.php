@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see ServiceProviderDeviceTypeFileGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:2614","type":"sequence"}]
+ * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:2612","type":"sequence"}]
  */
 class ServiceProviderDeviceTypeFileGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class ServiceProviderDeviceTypeFileGetRequest extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2614
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2612
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,7 +26,7 @@ class ServiceProviderDeviceTypeFileGetRequest extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName deviceType
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2614
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2612
      * @var string|null
      */
     private $deviceType = null;
@@ -34,7 +34,7 @@ class ServiceProviderDeviceTypeFileGetRequest extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName fileFormat
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2614
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2612
      * @var string|null
      */
     private $fileFormat = null;

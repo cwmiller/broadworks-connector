@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupCallCenterHolidayServiceGetRequest17
  *
  * Get a call center's holiday service settings.
- *         The response is either a GroupCallCenterHolidayServiceGetResponse17 or an ErrorResponse.
+ *                 The response is either a GroupCallCenterHolidayServiceGetResponse17 or an ErrorResponse.
  *
  * @see GroupCallCenterHolidayServiceGetResponse17
  * @see ErrorResponse
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:18254","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:18830","type":"sequence"}]
  */
 class GroupCallCenterHolidayServiceGetRequest17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupCallCenterHolidayServiceGetRequest17 extends \CWM\BroadWorksConnector
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:18254
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:18830
      * @var string|null
      */
     private $serviceUserId = null;

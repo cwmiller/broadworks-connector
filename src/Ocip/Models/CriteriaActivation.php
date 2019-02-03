@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Criteria active status indicator
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:1708","type":"sequence"}]
+ * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:1763","type":"sequence"}]
  */
 class CriteriaActivation
 {
@@ -15,7 +15,7 @@ class CriteriaActivation
     /**
      * @ElementName criteriaName
      * @Type string
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1708
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:1763
      * @var string|null
      */
     private $criteriaName = null;
@@ -23,7 +23,7 @@ class CriteriaActivation
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1708
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:1763
      * @var bool|null
      */
     private $isActive = null;

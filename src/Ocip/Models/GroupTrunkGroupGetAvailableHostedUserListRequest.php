@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupTrunkGroupGetAvailableHostedUserListResponse
  * @see ErrorResponse
- * @Groups [{"id":"b9c14e2d80e4e7749688ca13ba233b44:959","type":"sequence"}]
+ * @Groups [{"id":"b9c14e2d80e4e7749688ca13ba233b44:1050","type":"sequence"}]
  */
 class GroupTrunkGroupGetAvailableHostedUserListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupTrunkGroupGetAvailableHostedUserListRequest extends \CWM\BroadWorksCo
     /**
      * @ElementName trunkGroupKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey
-     * @Group b9c14e2d80e4e7749688ca13ba233b44:959
+     * @Group b9c14e2d80e4e7749688ca13ba233b44:1050
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey|null
      */
     private $trunkGroupKey = null;
@@ -27,7 +27,7 @@ class GroupTrunkGroupGetAvailableHostedUserListRequest extends \CWM\BroadWorksCo
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group b9c14e2d80e4e7749688ca13ba233b44:959
+     * @Group b9c14e2d80e4e7749688ca13ba233b44:1050
      * @var int|null
      */
     private $responseSizeLimit = null;
@@ -37,7 +37,7 @@ class GroupTrunkGroupGetAvailableHostedUserListRequest extends \CWM\BroadWorksCo
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName
      * @Array
      * @Optional
-     * @Group b9c14e2d80e4e7749688ca13ba233b44:959
+     * @Group b9c14e2d80e4e7749688ca13ba233b44:1050
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[]
      */
     private $searchCriteriaUserLastName = array(
@@ -49,7 +49,7 @@ class GroupTrunkGroupGetAvailableHostedUserListRequest extends \CWM\BroadWorksCo
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName
      * @Array
      * @Optional
-     * @Group b9c14e2d80e4e7749688ca13ba233b44:959
+     * @Group b9c14e2d80e4e7749688ca13ba233b44:1050
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName[]
      */
     private $searchCriteriaUserFirstName = array(
@@ -60,7 +60,7 @@ class GroupTrunkGroupGetAvailableHostedUserListRequest extends \CWM\BroadWorksCo
      * @ElementName searchCriteriaExactUserDepartment
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment
      * @Optional
-     * @Group b9c14e2d80e4e7749688ca13ba233b44:959
+     * @Group b9c14e2d80e4e7749688ca13ba233b44:1050
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment|null
      */
     private $searchCriteriaExactUserDepartment = null;
@@ -70,7 +70,7 @@ class GroupTrunkGroupGetAvailableHostedUserListRequest extends \CWM\BroadWorksCo
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId
      * @Array
      * @Optional
-     * @Group b9c14e2d80e4e7749688ca13ba233b44:959
+     * @Group b9c14e2d80e4e7749688ca13ba233b44:1050
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId[]
      */
     private $searchCriteriaUserId = array(
@@ -82,7 +82,7 @@ class GroupTrunkGroupGetAvailableHostedUserListRequest extends \CWM\BroadWorksCo
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn
      * @Array
      * @Optional
-     * @Group b9c14e2d80e4e7749688ca13ba233b44:959
+     * @Group b9c14e2d80e4e7749688ca13ba233b44:1050
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[]
      */
     private $searchCriteriaDn = array(
@@ -94,7 +94,7 @@ class GroupTrunkGroupGetAvailableHostedUserListRequest extends \CWM\BroadWorksCo
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension
      * @Array
      * @Optional
-     * @Group b9c14e2d80e4e7749688ca13ba233b44:959
+     * @Group b9c14e2d80e4e7749688ca13ba233b44:1050
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension[]
      */
     private $searchCriteriaExtension = array(

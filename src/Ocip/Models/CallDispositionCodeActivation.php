@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Contains a Call Center Call Disposition Code and its active state
  *
- * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:7658","type":"sequence"}]
+ * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:7707","type":"sequence"}]
  */
 class CallDispositionCodeActivation
 {
@@ -15,7 +15,7 @@ class CallDispositionCodeActivation
     /**
      * @ElementName code
      * @Type string
-     * @Group e2c537e3e39483b96620673a7012ffdd:7658
+     * @Group e2c537e3e39483b96620673a7012ffdd:7707
      * @var string|null
      */
     private $code = null;
@@ -23,7 +23,7 @@ class CallDispositionCodeActivation
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group e2c537e3e39483b96620673a7012ffdd:7658
+     * @Group e2c537e3e39483b96620673a7012ffdd:7707
      * @var bool|null
      */
     private $isActive = null;

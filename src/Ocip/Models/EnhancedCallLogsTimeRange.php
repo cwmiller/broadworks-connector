@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Time range used to filter call logs.
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:2041","type":"sequence"}]
+ * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:2178","type":"sequence"}]
  */
 class EnhancedCallLogsTimeRange
 {
@@ -15,7 +15,7 @@ class EnhancedCallLogsTimeRange
     /**
      * @ElementName startDateTime
      * @Type string
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:2041
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:2178
      * @var string|null
      */
     private $startDateTime = null;
@@ -23,7 +23,7 @@ class EnhancedCallLogsTimeRange
     /**
      * @ElementName endDateTime
      * @Type string
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:2041
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:2178
      * @var string|null
      */
     private $endDateTime = null;

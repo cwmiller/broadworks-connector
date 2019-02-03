@@ -6,13 +6,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupCallCenterAddInstanceRequest14sp9
  *
  * Add a Call Center instance to a group.
- *         The domain is required in the serviceUserId.
- *         The response is either SuccessResponse or ErrorResponse.
- *         
- *         Replaced By: GroupCallCenterAddInstanceRequest16, 
- *                      GroupCallCenterAddAgentListRequest, 
- *                      GroupCallCenterModifyPolicyRequest,
- *                      GroupCallCenterModifyAnnouncementRequest16
+ *                 The domain is required in the serviceUserId.
+ *                 The response is either SuccessResponse or ErrorResponse.
+ *
+ *                 Replaced By: GroupCallCenterAddInstanceRequest16,
+ *                 GroupCallCenterAddAgentListRequest,
+ *                 GroupCallCenterModifyPolicyRequest,
+ *                 GroupCallCenterModifyAnnouncementRequest16
  *
  * @see SuccessResponse
  * @see ErrorResponse
@@ -20,7 +20,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see GroupCallCenterAddAgentListRequest
  * @see GroupCallCenterModifyPolicyRequest
  * @see GroupCallCenterModifyAnnouncementRequest16
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:8007","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:8248","type":"sequence"}]
  */
 class GroupCallCenterAddInstanceRequest14sp9 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -28,7 +28,7 @@ class GroupCallCenterAddInstanceRequest14sp9 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:8007
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:8248
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -36,7 +36,7 @@ class GroupCallCenterAddInstanceRequest14sp9 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName groupId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:8007
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:8248
      * @var string|null
      */
     private $groupId = null;
@@ -44,7 +44,7 @@ class GroupCallCenterAddInstanceRequest14sp9 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:8007
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:8248
      * @var string|null
      */
     private $serviceUserId = null;
@@ -52,7 +52,7 @@ class GroupCallCenterAddInstanceRequest14sp9 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName serviceInstanceProfile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceAddProfileCallCenter
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:8007
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:8248
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceAddProfileCallCenter|null
      */
     private $serviceInstanceProfile = null;
@@ -60,7 +60,7 @@ class GroupCallCenterAddInstanceRequest14sp9 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName policy
      * @Type \CWM\BroadWorksConnector\Ocip\Models\HuntPolicy
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:8007
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:8248
      * @var \CWM\BroadWorksConnector\Ocip\Models\HuntPolicy|null
      */
     private $policy = null;
@@ -68,7 +68,7 @@ class GroupCallCenterAddInstanceRequest14sp9 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName huntAfterNoAnswer
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:8007
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:8248
      * @var bool|null
      */
     private $huntAfterNoAnswer = null;
@@ -76,7 +76,7 @@ class GroupCallCenterAddInstanceRequest14sp9 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName noAnswerNumberOfRings
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:8007
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:8248
      * @var int|null
      */
     private $noAnswerNumberOfRings = null;
@@ -84,7 +84,7 @@ class GroupCallCenterAddInstanceRequest14sp9 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName forwardAfterTimeout
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:8007
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:8248
      * @var bool|null
      */
     private $forwardAfterTimeout = null;
@@ -92,7 +92,7 @@ class GroupCallCenterAddInstanceRequest14sp9 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName forwardTimeoutSeconds
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:8007
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:8248
      * @var int|null
      */
     private $forwardTimeoutSeconds = null;
@@ -101,7 +101,7 @@ class GroupCallCenterAddInstanceRequest14sp9 extends \CWM\BroadWorksConnector\Oc
      * @ElementName forwardToPhoneNumber
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:8007
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:8248
      * @var string|null
      */
     private $forwardToPhoneNumber = null;
@@ -109,7 +109,7 @@ class GroupCallCenterAddInstanceRequest14sp9 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName enableVideo
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:8007
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:8248
      * @var bool|null
      */
     private $enableVideo = null;
@@ -117,7 +117,7 @@ class GroupCallCenterAddInstanceRequest14sp9 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName queueLength
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:8007
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:8248
      * @var int|null
      */
     private $queueLength = null;
@@ -125,7 +125,7 @@ class GroupCallCenterAddInstanceRequest14sp9 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName allowAgentLogoff
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:8007
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:8248
      * @var bool|null
      */
     private $allowAgentLogoff = null;
@@ -133,7 +133,7 @@ class GroupCallCenterAddInstanceRequest14sp9 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName playMusicOnHold
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:8007
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:8248
      * @var bool|null
      */
     private $playMusicOnHold = null;
@@ -141,7 +141,7 @@ class GroupCallCenterAddInstanceRequest14sp9 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName playComfortMessage
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:8007
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:8248
      * @var bool|null
      */
     private $playComfortMessage = null;
@@ -149,7 +149,7 @@ class GroupCallCenterAddInstanceRequest14sp9 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName timeBetweenComfortMessagesSeconds
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:8007
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:8248
      * @var int|null
      */
     private $timeBetweenComfortMessagesSeconds = null;
@@ -157,7 +157,7 @@ class GroupCallCenterAddInstanceRequest14sp9 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName enableGuardTimer
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:8007
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:8248
      * @var bool|null
      */
     private $enableGuardTimer = null;
@@ -165,7 +165,7 @@ class GroupCallCenterAddInstanceRequest14sp9 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName guardTimerSeconds
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:8007
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:8248
      * @var int|null
      */
     private $guardTimerSeconds = null;
@@ -175,7 +175,7 @@ class GroupCallCenterAddInstanceRequest14sp9 extends \CWM\BroadWorksConnector\Oc
      * @Type string
      * @Array
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:8007
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:8248
      * @var string[]
      */
     private $agentUserId = array(
@@ -185,7 +185,7 @@ class GroupCallCenterAddInstanceRequest14sp9 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName allowCallWaitingForAgents
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:8007
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:8248
      * @var bool|null
      */
     private $allowCallWaitingForAgents = null;
@@ -193,7 +193,7 @@ class GroupCallCenterAddInstanceRequest14sp9 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName allowCallsToAgentsInWrapUp
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:8007
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:8248
      * @var bool|null
      */
     private $allowCallsToAgentsInWrapUp = null;
@@ -201,7 +201,7 @@ class GroupCallCenterAddInstanceRequest14sp9 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName enableCallQueueWhenNoAgentsAvailable
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:8007
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:8248
      * @var bool|null
      */
     private $enableCallQueueWhenNoAgentsAvailable = null;
@@ -209,7 +209,7 @@ class GroupCallCenterAddInstanceRequest14sp9 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName statisticsSource
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterStatisticsSource
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:8007
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:8248
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterStatisticsSource|null
      */
     private $statisticsSource = null;

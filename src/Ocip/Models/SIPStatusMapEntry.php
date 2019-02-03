@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * The access SIP status map entry.
  *
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:17886","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:18728","type":"sequence"}]
  */
 class SIPStatusMapEntry
 {
@@ -15,7 +15,7 @@ class SIPStatusMapEntry
     /**
      * @ElementName sipStatusCode
      * @Type int
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17886
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18728
      * @var int|null
      */
     private $sipStatusCode = null;
@@ -24,7 +24,7 @@ class SIPStatusMapEntry
      * @ElementName treatmentId
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17886
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18728
      * @var string|null
      */
     private $treatmentId = null;

@@ -19,7 +19,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see ErrorResponse
  * @see ErrorResponse
  * @see ErrorResponse
- * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:2583","type":"sequence"}]
+ * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:2793","type":"sequence"}]
  */
 class UserPersonalPhoneListGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -27,7 +27,7 @@ class UserPersonalPhoneListGetListRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName userId
      * @Type string
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:2583
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:2793
      * @var string|null
      */
     private $userId = null;
@@ -36,7 +36,7 @@ class UserPersonalPhoneListGetListRequest extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:2583
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:2793
      * @var int|null
      */
     private $responseSizeLimit = null;
@@ -45,7 +45,7 @@ class UserPersonalPhoneListGetListRequest extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName searchCriteriaModeOr
      * @Type bool
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:2583
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:2793
      * @var bool|null
      */
     private $searchCriteriaModeOr = null;
@@ -55,7 +55,7 @@ class UserPersonalPhoneListGetListRequest extends \CWM\BroadWorksConnector\Ocip\
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserPersonalPhoneListName
      * @Array
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:2583
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:2793
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserPersonalPhoneListName[]
      */
     private $searchCriteriaUserPersonalPhoneListName = array(
@@ -67,7 +67,7 @@ class UserPersonalPhoneListGetListRequest extends \CWM\BroadWorksConnector\Ocip\
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserPersonalPhoneListNumber
      * @Array
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:2583
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:2793
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserPersonalPhoneListNumber[]
      */
     private $searchCriteriaUserPersonalPhoneListNumber = array(

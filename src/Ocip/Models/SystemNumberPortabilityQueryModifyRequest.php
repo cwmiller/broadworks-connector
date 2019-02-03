@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:11623","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:12060","type":"sequence"}]
  */
 class SystemNumberPortabilityQueryModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class SystemNumberPortabilityQueryModifyRequest extends \CWM\BroadWorksConnector
      * @ElementName continueCallAsDialedOnTimeoutOrError
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11623
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12060
      * @var bool|null
      */
     private $continueCallAsDialedOnTimeoutOrError = null;
@@ -28,7 +28,7 @@ class SystemNumberPortabilityQueryModifyRequest extends \CWM\BroadWorksConnector
      * @ElementName numberPortabilityNameLookupTimeoutMilliseconds
      * @Type int
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11623
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12060
      * @var int|null
      */
     private $numberPortabilityNameLookupTimeoutMilliseconds = null;

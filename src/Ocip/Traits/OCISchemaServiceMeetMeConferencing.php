@@ -24,6 +24,8 @@ use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderMeetMeConferencingModifyR
 use CWM\BroadWorksConnector\Ocip\Models\SystemMeetMeConferencingGetRequest19;
 use CWM\BroadWorksConnector\Ocip\Models\SystemMeetMeConferencingGetResponse19;
 use CWM\BroadWorksConnector\Ocip\Models\SystemMeetMeConferencingModifyRequest;
+use CWM\BroadWorksConnector\Ocip\Models\UserMeetMeConferencingAddConferenceRequest19;
+use CWM\BroadWorksConnector\Ocip\Models\UserMeetMeConferencingAddConferenceResponse19;
 use CWM\BroadWorksConnector\Ocip\Models\UserMeetMeConferencingAddConferenceRequest23;
 use CWM\BroadWorksConnector\Ocip\Models\UserMeetMeConferencingAddConferenceResponse23;
 use CWM\BroadWorksConnector\Ocip\Models\UserMeetMeConferencingDeleteConferenceListRequest;
@@ -40,6 +42,8 @@ use CWM\BroadWorksConnector\Ocip\Models\UserMeetMeConferencingGetConferenceListR
 use CWM\BroadWorksConnector\Ocip\Models\UserMeetMeConferencingGetConferenceListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserMeetMeConferencingGetConferenceRecordingListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserMeetMeConferencingGetConferenceRecordingListResponse;
+use CWM\BroadWorksConnector\Ocip\Models\UserMeetMeConferencingGetConferenceRequest20;
+use CWM\BroadWorksConnector\Ocip\Models\UserMeetMeConferencingGetConferenceResponse20;
 use CWM\BroadWorksConnector\Ocip\Models\UserMeetMeConferencingGetConferenceRequest23;
 use CWM\BroadWorksConnector\Ocip\Models\UserMeetMeConferencingGetConferenceResponse23;
 use CWM\BroadWorksConnector\Ocip\Models\UserMeetMeConferencingModifyConferenceDelegateListRequest;
@@ -218,6 +222,17 @@ trait OCISchemaServiceMeetMeConferencing
     }
 
     /**
+     * @param UserMeetMeConferencingAddConferenceRequest19 $request
+     * @return UserMeetMeConferencingAddConferenceResponse19
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function userMeetMeConferencingAddConferenceRequest19(\CWM\BroadWorksConnector\Ocip\Models\UserMeetMeConferencingAddConferenceRequest19 $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
      * @param UserMeetMeConferencingAddConferenceRequest23 $request
      * @return UserMeetMeConferencingAddConferenceResponse23
      * @throws ErrorResponseException
@@ -312,6 +327,17 @@ trait OCISchemaServiceMeetMeConferencing
      * @throws ValidationException
      */
     public function userMeetMeConferencingGetConferenceRecordingListRequest(\CWM\BroadWorksConnector\Ocip\Models\UserMeetMeConferencingGetConferenceRecordingListRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param UserMeetMeConferencingGetConferenceRequest20 $request
+     * @return UserMeetMeConferencingGetConferenceResponse20
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function userMeetMeConferencingGetConferenceRequest20(\CWM\BroadWorksConnector\Ocip\Models\UserMeetMeConferencingGetConferenceRequest20 $request)
     {
         return $this->call($request);
     }

@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:11477","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:11914","type":"sequence"}]
  */
 class SystemNumberPortabilityQueryDigitPatternAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemNumberPortabilityQueryDigitPatternAddRequest extends \CWM\BroadWorks
     /**
      * @ElementName digitPattern
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11477
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11914
      * @var string|null
      */
     private $digitPattern = null;
@@ -26,7 +26,7 @@ class SystemNumberPortabilityQueryDigitPatternAddRequest extends \CWM\BroadWorks
     /**
      * @ElementName status
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11477
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11914
      * @var string|null
      */
     private $status = null;

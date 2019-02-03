@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains the service profile and access device information.
  *
  * @see GroupFlexibleSeatingHostGetInstanceRequest22
- * @Groups [{"id":"43afb2158d313a1d1a148124d7caba1e:198","type":"sequence"}]
+ * @Groups [{"id":"43afb2158d313a1d1a148124d7caba1e:255","type":"sequence"}]
  */
 class GroupFlexibleSeatingHostGetInstanceResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class GroupFlexibleSeatingHostGetInstanceResponse22 extends \CWM\BroadWorksConne
     /**
      * @ElementName serviceInstanceProfile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile19sp1
-     * @Group 43afb2158d313a1d1a148124d7caba1e:198
+     * @Group 43afb2158d313a1d1a148124d7caba1e:255
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile19sp1|null
      */
     private $serviceInstanceProfile = null;
@@ -25,7 +25,7 @@ class GroupFlexibleSeatingHostGetInstanceResponse22 extends \CWM\BroadWorksConne
     /**
      * @ElementName defaultAlias
      * @Type string
-     * @Group 43afb2158d313a1d1a148124d7caba1e:198
+     * @Group 43afb2158d313a1d1a148124d7caba1e:255
      * @var string|null
      */
     private $defaultAlias = null;
@@ -34,7 +34,7 @@ class GroupFlexibleSeatingHostGetInstanceResponse22 extends \CWM\BroadWorksConne
      * @ElementName accessDeviceEndpoint
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceMultipleContactEndpointRead22
      * @Optional
-     * @Group 43afb2158d313a1d1a148124d7caba1e:198
+     * @Group 43afb2158d313a1d1a148124d7caba1e:255
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceMultipleContactEndpointRead22|null
      */
     private $accessDeviceEndpoint = null;
@@ -43,7 +43,7 @@ class GroupFlexibleSeatingHostGetInstanceResponse22 extends \CWM\BroadWorksConne
      * @ElementName networkClassOfService
      * @Type string
      * @Optional
-     * @Group 43afb2158d313a1d1a148124d7caba1e:198
+     * @Group 43afb2158d313a1d1a148124d7caba1e:255
      * @var string|null
      */
     private $networkClassOfService = null;

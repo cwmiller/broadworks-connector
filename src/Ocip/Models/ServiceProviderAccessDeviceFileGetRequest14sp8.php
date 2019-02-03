@@ -6,13 +6,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ServiceProviderAccessDeviceFileGetRequest14sp8
  *
  * Request to get a service provider device profile file.
- *         The response is either ServiceProviderAccessDeviceFileGetResponse14sp8 or ErrorResponse.
- *         Replaced by: ServiceProviderAccessDeviceFileGetRequest16sp1
+ *                 The response is either ServiceProviderAccessDeviceFileGetResponse14sp8 or ErrorResponse.
+ *                 Replaced by: ServiceProviderAccessDeviceFileGetRequest16sp1
  *
  * @see ServiceProviderAccessDeviceFileGetResponse14sp8
  * @see ErrorResponse
  * @see ServiceProviderAccessDeviceFileGetRequest16sp1
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:13970","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:14371","type":"sequence"}]
  */
 class ServiceProviderAccessDeviceFileGetRequest14sp8 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class ServiceProviderAccessDeviceFileGetRequest14sp8 extends \CWM\BroadWorksConn
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:13970
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:14371
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -28,7 +28,7 @@ class ServiceProviderAccessDeviceFileGetRequest14sp8 extends \CWM\BroadWorksConn
     /**
      * @ElementName deviceName
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:13970
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:14371
      * @var string|null
      */
     private $deviceName = null;
@@ -36,7 +36,7 @@ class ServiceProviderAccessDeviceFileGetRequest14sp8 extends \CWM\BroadWorksConn
     /**
      * @ElementName fileFormat
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:13970
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:14371
      * @var string|null
      */
     private $fileFormat = null;

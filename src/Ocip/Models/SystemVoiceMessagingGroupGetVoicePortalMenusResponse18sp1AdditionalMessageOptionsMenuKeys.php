@@ -5,7 +5,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemVoiceMessagingGroupGetVoicePortalMenusResponse18sp1AdditionalMessageOptionsMenuKeys
  *
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:26752","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:27704","type":"sequence"}]
  */
 class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18sp1AdditionalMessageOptionsMenuKeys
 {
@@ -14,7 +14,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18sp1AdditionalMessage
      * @ElementName saveMessage
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:26752
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:27704
      * @var string|null
      */
     private $saveMessage = null;
@@ -23,7 +23,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18sp1AdditionalMessage
      * @ElementName deleteMessage
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:26752
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:27704
      * @var string|null
      */
     private $deleteMessage = null;
@@ -32,7 +32,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18sp1AdditionalMessage
      * @ElementName playEnvelope
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:26752
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:27704
      * @var string|null
      */
     private $playEnvelope = null;
@@ -41,7 +41,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18sp1AdditionalMessage
      * @ElementName callbackCaller
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:26752
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:27704
      * @var string|null
      */
     private $callbackCaller = null;
@@ -50,7 +50,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18sp1AdditionalMessage
      * @ElementName composeMessage
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:26752
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:27704
      * @var string|null
      */
     private $composeMessage = null;
@@ -59,7 +59,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18sp1AdditionalMessage
      * @ElementName replyMessage
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:26752
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:27704
      * @var string|null
      */
     private $replyMessage = null;
@@ -68,7 +68,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18sp1AdditionalMessage
      * @ElementName forwardMessage
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:26752
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:27704
      * @var string|null
      */
     private $forwardMessage = null;
@@ -77,7 +77,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18sp1AdditionalMessage
      * @ElementName personalizedName
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:26752
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:27704
      * @var string|null
      */
     private $personalizedName = null;
@@ -86,7 +86,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18sp1AdditionalMessage
      * @ElementName passcode
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:26752
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:27704
      * @var string|null
      */
     private $passcode = null;
@@ -94,7 +94,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18sp1AdditionalMessage
     /**
      * @ElementName returnToPreviousMenu
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:26752
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:27704
      * @var string|null
      */
     private $returnToPreviousMenu = null;
@@ -103,7 +103,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18sp1AdditionalMessage
      * @ElementName repeatMenu
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:26752
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:27704
      * @var string|null
      */
     private $repeatMenu = null;

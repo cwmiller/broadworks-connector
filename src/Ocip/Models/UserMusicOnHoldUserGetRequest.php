@@ -6,14 +6,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserMusicOnHoldUserGetRequest
  *
  * Request the user level data associated with Music On Hold User.
- *         The response is either a UserMusicOnHoldUserGetResponse or an
- *         ErrorResponse.
- *         Replaced By: UserMusicOnHoldUserGetRequest16
+ *                 The response is either a UserMusicOnHoldUserGetResponse or an ErrorResponse.
+ *                 Replaced By: UserMusicOnHoldUserGetRequest16
  *
  * @see UserMusicOnHoldUserGetResponse
  * @see ErrorResponse
  * @see UserMusicOnHoldUserGetRequest16
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:11236","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:11564","type":"sequence"}]
  */
 class UserMusicOnHoldUserGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,7 +20,7 @@ class UserMusicOnHoldUserGetRequest extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName userId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:11236
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:11564
      * @var string|null
      */
     private $userId = null;

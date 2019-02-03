@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The following elements are only used in XS data mode and ignored in AS data mode:
  *           privateIdentity
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:282","type":"sequence"}]
+ * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:298","type":"sequence"}]
  */
 class AccessDeviceMultipleIdentityAndContactEndpointModify
 {
@@ -21,7 +21,7 @@ class AccessDeviceMultipleIdentityAndContactEndpointModify
      * @ElementName accessDevice
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDevice
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:282
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:298
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDevice|null
      */
     private $accessDevice = null;
@@ -30,7 +30,7 @@ class AccessDeviceMultipleIdentityAndContactEndpointModify
      * @ElementName linePort
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:282
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:298
      * @var string|null
      */
     private $linePort = null;
@@ -40,7 +40,7 @@ class AccessDeviceMultipleIdentityAndContactEndpointModify
      * @Type string
      * @Nillable
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:282
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:298
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $privateIdentity = null;
@@ -50,7 +50,7 @@ class AccessDeviceMultipleIdentityAndContactEndpointModify
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementContactList
      * @Nillable
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:282
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:298
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementContactList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $contactList = null;
@@ -59,7 +59,7 @@ class AccessDeviceMultipleIdentityAndContactEndpointModify
      * @ElementName portNumber
      * @Type int
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:282
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:298
      * @var int|null
      */
     private $portNumber = null;

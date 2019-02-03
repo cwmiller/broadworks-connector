@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         for the service provider. The column headings are "Default" , "Name" and "Description"
  *
  * @see ServiceProviderCommunicationBarringProfileGetListRequest
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:1982","type":"sequence"}]
+ * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:1980","type":"sequence"}]
  */
 class ServiceProviderCommunicationBarringProfileGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class ServiceProviderCommunicationBarringProfileGetListResponse extends \CWM\Bro
     /**
      * @ElementName profileTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1982
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1980
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $profileTable = null;

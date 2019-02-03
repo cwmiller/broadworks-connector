@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:2151","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:2180","type":"sequence"}]
  */
 class SystemBroadWorksMobileManagerModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class SystemBroadWorksMobileManagerModifyRequest extends \CWM\BroadWorksConnecto
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2151
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2180
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $scfApiNetAddress1 = null;
@@ -30,7 +30,7 @@ class SystemBroadWorksMobileManagerModifyRequest extends \CWM\BroadWorksConnecto
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2151
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2180
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $scfApiNetAddress2 = null;
@@ -40,7 +40,7 @@ class SystemBroadWorksMobileManagerModifyRequest extends \CWM\BroadWorksConnecto
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2151
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2180
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $userName = null;
@@ -50,7 +50,7 @@ class SystemBroadWorksMobileManagerModifyRequest extends \CWM\BroadWorksConnecto
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2151
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2180
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $password = null;
@@ -60,7 +60,7 @@ class SystemBroadWorksMobileManagerModifyRequest extends \CWM\BroadWorksConnecto
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2151
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2180
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $emailFromAddress = null;
@@ -69,7 +69,7 @@ class SystemBroadWorksMobileManagerModifyRequest extends \CWM\BroadWorksConnecto
      * @ElementName scfIMSOnly
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2151
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2180
      * @var bool|null
      */
     private $scfIMSOnly = null;
@@ -79,7 +79,7 @@ class SystemBroadWorksMobileManagerModifyRequest extends \CWM\BroadWorksConnecto
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2151
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2180
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $signalingIPAddress = null;
@@ -89,7 +89,7 @@ class SystemBroadWorksMobileManagerModifyRequest extends \CWM\BroadWorksConnecto
      * @Type int
      * @Nillable
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2151
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2180
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $signalingPort = null;

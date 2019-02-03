@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupExtensionLengthModifyRequest
  *
  * Modify the group's extension length.
- *         The response is either a SuccessResponse or an ErrorResponse.
+ *                 The response is either a SuccessResponse or an ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:13247","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:13631","type":"sequence"}]
  */
 class GroupExtensionLengthModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupExtensionLengthModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:13247
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:13631
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,7 +26,7 @@ class GroupExtensionLengthModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName groupId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:13247
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:13631
      * @var string|null
      */
     private $groupId = null;
@@ -35,7 +35,7 @@ class GroupExtensionLengthModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName extensionLength
      * @Type int
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:13247
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:13631
      * @var int|null
      */
     private $extensionLength = null;

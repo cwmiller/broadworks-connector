@@ -6,13 +6,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupCustomContactDirectoryGetResponse
  *
  * Response to the GroupCustomContactDirectoryGetRequest.
- *         The response contains all the group's custom contact directory names.
- *         Contains a table with column headings: "User Id", "Last Name", "First Name", "Hiragana Last Name", "Hiragana First Name".
- *         Replace by: GroupCustomContactDirectoryGetResponse17
+ *                 The response contains all the group's custom contact directory names.
+ *                 Contains a table with column headings: "User Id", "Last Name", "First Name", "Hiragana Last Name",
+ *                 "Hiragana First Name".
+ *                 Replace by: GroupCustomContactDirectoryGetResponse17
  *
  * @see GroupCustomContactDirectoryGetRequest
  * @see GroupCustomContactDirectoryGetResponse17
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:13102","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:13485","type":"sequence"}]
  */
 class GroupCustomContactDirectoryGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -20,7 +21,7 @@ class GroupCustomContactDirectoryGetResponse extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName userTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:13102
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:13485
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $userTable = null;

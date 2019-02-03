@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         previously configured list. By convention, an element of this type
  *         may be set nill to clear the list.
  *
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:17793","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:18635","type":"sequence"}]
  */
 class ReplacementCommunicationBarringRedirectingRuleList
 {
@@ -18,7 +18,7 @@ class ReplacementCommunicationBarringRedirectingRuleList
      * @ElementName rule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringRedirectingRule
      * @Array
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17793
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18635
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringRedirectingRule[]
      */
     private $rule = array(

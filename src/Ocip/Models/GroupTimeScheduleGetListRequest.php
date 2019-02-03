@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupTimeScheduleGetListRequest
  *
  * Request a list of all time schedules in a group.
- *         The response is either a GroupTimeScheduleGetListResponse or an ErrorResponse.
+ *                 The response is either a GroupTimeScheduleGetListResponse or an ErrorResponse.
  *
  * @see GroupTimeScheduleGetListResponse
  * @see ErrorResponse
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:13681","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:14076","type":"sequence"}]
  */
 class GroupTimeScheduleGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupTimeScheduleGetListRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:13681
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:14076
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,7 +26,7 @@ class GroupTimeScheduleGetListRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName groupId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:13681
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:14076
      * @var string|null
      */
     private $groupId = null;

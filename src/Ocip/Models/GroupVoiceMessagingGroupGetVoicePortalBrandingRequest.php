@@ -6,13 +6,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupVoiceMessagingGroupGetVoicePortalBrandingRequest
  *
  * Get the group's voice portal branding settings.
- *         The response is either a GroupVoiceMessagingGroupGetVoicePortalBrandingResponse or an ErrorResponse.
- *         Replaced By: GroupVoiceMessagingGroupGetVoicePortalBrandingRequest16
+ *                 The response is either a GroupVoiceMessagingGroupGetVoicePortalBrandingResponse or an ErrorResponse.
+ *                 Replaced By: GroupVoiceMessagingGroupGetVoicePortalBrandingRequest16
  *
  * @see GroupVoiceMessagingGroupGetVoicePortalBrandingResponse
  * @see ErrorResponse
  * @see GroupVoiceMessagingGroupGetVoicePortalBrandingRequest16
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:9130","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:9417","type":"sequence"}]
  */
 class GroupVoiceMessagingGroupGetVoicePortalBrandingRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class GroupVoiceMessagingGroupGetVoicePortalBrandingRequest extends \CWM\BroadWo
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:9130
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:9417
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -28,7 +28,7 @@ class GroupVoiceMessagingGroupGetVoicePortalBrandingRequest extends \CWM\BroadWo
     /**
      * @ElementName groupId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:9130
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:9417
      * @var string|null
      */
     private $groupId = null;

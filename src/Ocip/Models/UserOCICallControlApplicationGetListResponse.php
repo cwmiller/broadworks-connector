@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to UserOCICallControlApplicationGetListRequest.
  *
  * @see UserOCICallControlApplicationGetListRequest
- * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:2474","type":"sequence"}]
+ * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:2684","type":"sequence"}]
  */
 class UserOCICallControlApplicationGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class UserOCICallControlApplicationGetListResponse extends \CWM\BroadWorksConnec
      * @Type string
      * @Array
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:2474
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:2684
      * @var string[]
      */
     private $applicationId = array(

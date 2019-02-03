@@ -14,7 +14,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           "Reseller Id"
  *
  * @see SystemGetRegistrationContactListRequest
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:9281","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:9719","type":"sequence"}]
  */
 class SystemGetRegistrationContactListResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -22,7 +22,7 @@ class SystemGetRegistrationContactListResponse21sp1 extends \CWM\BroadWorksConne
     /**
      * @ElementName registrationTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9281
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9719
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $registrationTable = null;

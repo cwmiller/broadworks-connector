@@ -7,11 +7,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Get a list of Communication Barring Authorization Code for a user.
  *         The response is either a UserCommunicationBarringAuthorizationCodeGetListResponse 
- *         or an ErorResponse.
+ *         or an ErrorResponse.
  *
  * @see UserCommunicationBarringAuthorizationCodeGetListResponse
- * @see ErorResponse
- * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:1067","type":"sequence"}]
+ * @see ErrorResponse
+ * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:1120","type":"sequence"}]
  */
 class UserCommunicationBarringAuthorizationCodeGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class UserCommunicationBarringAuthorizationCodeGetListRequest extends \CWM\Broad
     /**
      * @ElementName userId
      * @Type string
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:1067
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:1120
      * @var string|null
      */
     private $userId = null;

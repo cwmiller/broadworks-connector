@@ -24,7 +24,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see ErrorResponse
  * @see GroupCallCenterGetAvailableAgentPagedSortedListResponse
  * @see ErrorResponse
- * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:4184","type":"sequence"}]
+ * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:4178","type":"sequence"}]
  */
 class GroupCallCenterGetAvailableAgentPagedSortedListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -32,7 +32,7 @@ class GroupCallCenterGetAvailableAgentPagedSortedListRequest extends \CWM\BroadW
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group e2c537e3e39483b96620673a7012ffdd:4184
+     * @Group e2c537e3e39483b96620673a7012ffdd:4178
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -40,7 +40,7 @@ class GroupCallCenterGetAvailableAgentPagedSortedListRequest extends \CWM\BroadW
     /**
      * @ElementName groupId
      * @Type string
-     * @Group e2c537e3e39483b96620673a7012ffdd:4184
+     * @Group e2c537e3e39483b96620673a7012ffdd:4178
      * @var string|null
      */
     private $groupId = null;
@@ -48,7 +48,7 @@ class GroupCallCenterGetAvailableAgentPagedSortedListRequest extends \CWM\BroadW
     /**
      * @ElementName callCenterType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterType
-     * @Group e2c537e3e39483b96620673a7012ffdd:4184
+     * @Group e2c537e3e39483b96620673a7012ffdd:4178
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterType|null
      */
     private $callCenterType = null;
@@ -57,7 +57,7 @@ class GroupCallCenterGetAvailableAgentPagedSortedListRequest extends \CWM\BroadW
      * @ElementName responsePagingControl
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:4184
+     * @Group e2c537e3e39483b96620673a7012ffdd:4178
      * @var \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl|null
      */
     private $responsePagingControl = null;
@@ -67,7 +67,7 @@ class GroupCallCenterGetAvailableAgentPagedSortedListRequest extends \CWM\BroadW
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortOrderGroupCallCenterGetAvailableAgentPagedSortedList
      * @Array
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:4184
+     * @Group e2c537e3e39483b96620673a7012ffdd:4178
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortOrderGroupCallCenterGetAvailableAgentPagedSortedList[]
      */
     private $sortOrder = array(
@@ -79,7 +79,7 @@ class GroupCallCenterGetAvailableAgentPagedSortedListRequest extends \CWM\BroadW
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId
      * @Array
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:4184
+     * @Group e2c537e3e39483b96620673a7012ffdd:4178
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId[]
      */
     private $searchCriteriaUserId = array(
@@ -91,7 +91,7 @@ class GroupCallCenterGetAvailableAgentPagedSortedListRequest extends \CWM\BroadW
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName
      * @Array
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:4184
+     * @Group e2c537e3e39483b96620673a7012ffdd:4178
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[]
      */
     private $searchCriteriaUserLastName = array(
@@ -103,7 +103,7 @@ class GroupCallCenterGetAvailableAgentPagedSortedListRequest extends \CWM\BroadW
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName
      * @Array
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:4184
+     * @Group e2c537e3e39483b96620673a7012ffdd:4178
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName[]
      */
     private $searchCriteriaUserFirstName = array(
@@ -115,7 +115,7 @@ class GroupCallCenterGetAvailableAgentPagedSortedListRequest extends \CWM\BroadW
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn
      * @Array
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:4184
+     * @Group e2c537e3e39483b96620673a7012ffdd:4178
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[]
      */
     private $searchCriteriaDn = array(
@@ -127,7 +127,7 @@ class GroupCallCenterGetAvailableAgentPagedSortedListRequest extends \CWM\BroadW
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension
      * @Array
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:4184
+     * @Group e2c537e3e39483b96620673a7012ffdd:4178
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension[]
      */
     private $searchCriteriaExtension = array(
@@ -139,7 +139,7 @@ class GroupCallCenterGetAvailableAgentPagedSortedListRequest extends \CWM\BroadW
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDepartmentName
      * @Array
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:4184
+     * @Group e2c537e3e39483b96620673a7012ffdd:4178
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDepartmentName[]
      */
     private $searchCriteriaDepartmentName = array(
@@ -151,7 +151,7 @@ class GroupCallCenterGetAvailableAgentPagedSortedListRequest extends \CWM\BroadW
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaEmailAddress
      * @Array
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:4184
+     * @Group e2c537e3e39483b96620673a7012ffdd:4178
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaEmailAddress[]
      */
     private $searchCriteriaEmailAddress = array(
@@ -163,7 +163,7 @@ class GroupCallCenterGetAvailableAgentPagedSortedListRequest extends \CWM\BroadW
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserGroup
      * @Array
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:4184
+     * @Group e2c537e3e39483b96620673a7012ffdd:4178
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserGroup[]
      */
     private $searchCriteriaExactUserGroup = array(
@@ -174,7 +174,7 @@ class GroupCallCenterGetAvailableAgentPagedSortedListRequest extends \CWM\BroadW
      * @ElementName searchCriteriaModeOr
      * @Type bool
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:4184
+     * @Group e2c537e3e39483b96620673a7012ffdd:4178
      * @var bool|null
      */
     private $searchCriteriaModeOr = null;

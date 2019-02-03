@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to GroupRoutePointGetInstanceRequest22.
  *
  * @see GroupRoutePointGetInstanceRequest22
- * @Groups [{"id":"a27224a048c30ff69eab9209dec841cc:611","type":"sequence"}]
+ * @Groups [{"id":"a27224a048c30ff69eab9209dec841cc:673","type":"sequence"}]
  */
 class GroupRoutePointGetInstanceResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class GroupRoutePointGetInstanceResponse22 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName serviceInstanceProfile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile19sp1
-     * @Group a27224a048c30ff69eab9209dec841cc:611
+     * @Group a27224a048c30ff69eab9209dec841cc:673
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile19sp1|null
      */
     private $serviceInstanceProfile = null;
@@ -25,7 +25,7 @@ class GroupRoutePointGetInstanceResponse22 extends \CWM\BroadWorksConnector\Ocip
      * @ElementName networkClassOfService
      * @Type string
      * @Optional
-     * @Group a27224a048c30ff69eab9209dec841cc:611
+     * @Group a27224a048c30ff69eab9209dec841cc:673
      * @var string|null
      */
     private $networkClassOfService = null;
@@ -33,7 +33,7 @@ class GroupRoutePointGetInstanceResponse22 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName externalPreferredAudioCodec
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AudioFileCodec22
-     * @Group a27224a048c30ff69eab9209dec841cc:611
+     * @Group a27224a048c30ff69eab9209dec841cc:673
      * @var \CWM\BroadWorksConnector\Ocip\Models\AudioFileCodec22|null
      */
     private $externalPreferredAudioCodec = null;
@@ -41,7 +41,7 @@ class GroupRoutePointGetInstanceResponse22 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName internalPreferredAudioCodec
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AudioFileCodec22
-     * @Group a27224a048c30ff69eab9209dec841cc:611
+     * @Group a27224a048c30ff69eab9209dec841cc:673
      * @var \CWM\BroadWorksConnector\Ocip\Models\AudioFileCodec22|null
      */
     private $internalPreferredAudioCodec = null;
@@ -49,7 +49,7 @@ class GroupRoutePointGetInstanceResponse22 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName queueLength
      * @Type int
-     * @Group a27224a048c30ff69eab9209dec841cc:611
+     * @Group a27224a048c30ff69eab9209dec841cc:673
      * @var int|null
      */
     private $queueLength = null;
@@ -57,7 +57,7 @@ class GroupRoutePointGetInstanceResponse22 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName noAnswerTimeoutRings
      * @Type int
-     * @Group a27224a048c30ff69eab9209dec841cc:611
+     * @Group a27224a048c30ff69eab9209dec841cc:673
      * @var int|null
      */
     private $noAnswerTimeoutRings = null;
@@ -65,7 +65,7 @@ class GroupRoutePointGetInstanceResponse22 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName enableVideo
      * @Type bool
-     * @Group a27224a048c30ff69eab9209dec841cc:611
+     * @Group a27224a048c30ff69eab9209dec841cc:673
      * @var bool|null
      */
     private $enableVideo = null;
@@ -73,7 +73,7 @@ class GroupRoutePointGetInstanceResponse22 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName playRingingWhenOfferingCall
      * @Type bool
-     * @Group a27224a048c30ff69eab9209dec841cc:611
+     * @Group a27224a048c30ff69eab9209dec841cc:673
      * @var bool|null
      */
     private $playRingingWhenOfferingCall = null;
@@ -81,7 +81,7 @@ class GroupRoutePointGetInstanceResponse22 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName overrideAgentWrapUpTime
      * @Type bool
-     * @Group a27224a048c30ff69eab9209dec841cc:611
+     * @Group a27224a048c30ff69eab9209dec841cc:673
      * @var bool|null
      */
     private $overrideAgentWrapUpTime = null;
@@ -90,7 +90,7 @@ class GroupRoutePointGetInstanceResponse22 extends \CWM\BroadWorksConnector\Ocip
      * @ElementName wrapUpSeconds
      * @Type int
      * @Optional
-     * @Group a27224a048c30ff69eab9209dec841cc:611
+     * @Group a27224a048c30ff69eab9209dec841cc:673
      * @var int|null
      */
     private $wrapUpSeconds = null;
@@ -98,7 +98,7 @@ class GroupRoutePointGetInstanceResponse22 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName enableAutomaticStateChangeForAgents
      * @Type bool
-     * @Group a27224a048c30ff69eab9209dec841cc:611
+     * @Group a27224a048c30ff69eab9209dec841cc:673
      * @var bool|null
      */
     private $enableAutomaticStateChangeForAgents = null;
@@ -106,7 +106,7 @@ class GroupRoutePointGetInstanceResponse22 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName agentStateAfterCall
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AgentACDAutomaticState
-     * @Group a27224a048c30ff69eab9209dec841cc:611
+     * @Group a27224a048c30ff69eab9209dec841cc:673
      * @var \CWM\BroadWorksConnector\Ocip\Models\AgentACDAutomaticState|null
      */
     private $agentStateAfterCall = null;
@@ -115,7 +115,7 @@ class GroupRoutePointGetInstanceResponse22 extends \CWM\BroadWorksConnector\Ocip
      * @ElementName agentUnavailableCode
      * @Type string
      * @Optional
-     * @Group a27224a048c30ff69eab9209dec841cc:611
+     * @Group a27224a048c30ff69eab9209dec841cc:673
      * @var string|null
      */
     private $agentUnavailableCode = null;
@@ -123,7 +123,7 @@ class GroupRoutePointGetInstanceResponse22 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName forceDeliveryOfCalls
      * @Type bool
-     * @Group a27224a048c30ff69eab9209dec841cc:611
+     * @Group a27224a048c30ff69eab9209dec841cc:673
      * @var bool|null
      */
     private $forceDeliveryOfCalls = null;
@@ -132,7 +132,7 @@ class GroupRoutePointGetInstanceResponse22 extends \CWM\BroadWorksConnector\Ocip
      * @ElementName forceDeliveryWaitTimeSeconds
      * @Type int
      * @Optional
-     * @Group a27224a048c30ff69eab9209dec841cc:611
+     * @Group a27224a048c30ff69eab9209dec841cc:673
      * @var int|null
      */
     private $forceDeliveryWaitTimeSeconds = null;

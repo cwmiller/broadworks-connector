@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "Service Provider Id", "Group Id", "Hiragana Last Name" and "Hiragana First Name", "Extension".
  *
  * @see GroupDomainGetAssignedUserListRequest
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:4608","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:4606","type":"sequence"}]
  */
 class GroupDomainGetAssignedUserListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class GroupDomainGetAssignedUserListResponse extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName userTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4608
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:4606
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $userTable = null;

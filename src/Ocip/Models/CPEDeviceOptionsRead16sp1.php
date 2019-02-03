@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * CPE device's options.
  *
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:43492","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:45128","type":"sequence"}]
  */
 class CPEDeviceOptionsRead16sp1
 {
@@ -15,7 +15,7 @@ class CPEDeviceOptionsRead16sp1
     /**
      * @ElementName enableMonitoring
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:43492
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:45128
      * @var bool|null
      */
     private $enableMonitoring = null;
@@ -24,7 +24,7 @@ class CPEDeviceOptionsRead16sp1
      * @ElementName configType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationType14
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:43492
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:45128
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationType14|null
      */
     private $configType = null;
@@ -33,7 +33,7 @@ class CPEDeviceOptionsRead16sp1
      * @ElementName systemFileName
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:43492
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:45128
      * @var string|null
      */
     private $systemFileName = null;
@@ -42,7 +42,7 @@ class CPEDeviceOptionsRead16sp1
      * @ElementName deviceFileFormat
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:43492
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:45128
      * @var string|null
      */
     private $deviceFileFormat = null;
@@ -51,7 +51,7 @@ class CPEDeviceOptionsRead16sp1
      * @ElementName deviceManagementDeviceTypeOptions
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementDeviceTypeOptionsRead16
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:43492
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:45128
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementDeviceTypeOptionsRead16|null
      */
     private $deviceManagementDeviceTypeOptions = null;

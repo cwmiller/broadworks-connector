@@ -7,7 +7,9 @@ use CWM\BroadWorksConnector\Ocip\Models\EnterpriseVirtualOnNetEnterpriseExtensio
 use CWM\BroadWorksConnector\Ocip\Models\GroupVirtualOnNetEnterpriseExtensionsAddUserRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupVirtualOnNetEnterpriseExtensionsDeleteUserRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupVirtualOnNetEnterpriseExtensionsGetUserListRequest;
+use CWM\BroadWorksConnector\Ocip\Models\GroupVirtualOnNetEnterpriseExtensionsGetUserListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupVirtualOnNetEnterpriseExtensionsGetUserRequest;
+use CWM\BroadWorksConnector\Ocip\Models\GroupVirtualOnNetEnterpriseExtensionsGetUserResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupVirtualOnNetEnterpriseExtensionsModifyUserRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemVirtualOnNetCallTypeAddRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemVirtualOnNetCallTypeDeleteRequest;
@@ -56,7 +58,7 @@ trait OCISchemaServiceVirtualOnNetEnterpriseExtensions
 
     /**
      * @param GroupVirtualOnNetEnterpriseExtensionsGetUserListRequest $request
-     * @return 
+     * @return GroupVirtualOnNetEnterpriseExtensionsGetUserListResponse
      * @throws ErrorResponseException
      * @throws ValidationException
      */
@@ -67,7 +69,7 @@ trait OCISchemaServiceVirtualOnNetEnterpriseExtensions
 
     /**
      * @param GroupVirtualOnNetEnterpriseExtensionsGetUserRequest $request
-     * @return 
+     * @return GroupVirtualOnNetEnterpriseExtensionsGetUserResponse
      * @throws ErrorResponseException
      * @throws ValidationException
      */

@@ -6,13 +6,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemDeviceManagementTagAddRequest21sp2
  *
  * Request to add a static configuration tag.
- *           The response is either a SuccessResponse or an ErrorResponse.
- *           Replaced by: SystemDeviceManagementTagAddRequest22
+ *                 The response is either a SuccessResponse or an ErrorResponse.
+ *                 Replaced by: SystemDeviceManagementTagAddRequest22
  *
  * @see SuccessResponse
  * @see ErrorResponse
  * @see SystemDeviceManagementTagAddRequest22
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:4717","type":"sequence","children":[{"id":"ab0042aa512abc10edb3c55e4b416b0b:4718","type":"choice"},{"id":"ab0042aa512abc10edb3c55e4b416b0b:4724","type":"choice"}]}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:4906","type":"sequence","children":[{"id":"ab0042aa512abc10edb3c55e4b416b0b:4907","type":"choice"},{"id":"ab0042aa512abc10edb3c55e4b416b0b:4913","type":"choice"}]}]
  */
 class SystemDeviceManagementTagAddRequest21sp2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class SystemDeviceManagementTagAddRequest21sp2 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName systemDefaultTagSet
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:4718
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:4907
      * @var bool|null
      */
     private $systemDefaultTagSet = null;
@@ -28,7 +28,7 @@ class SystemDeviceManagementTagAddRequest21sp2 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName tagSetName
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:4718
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:4907
      * @var string|null
      */
     private $tagSetName = null;
@@ -36,7 +36,7 @@ class SystemDeviceManagementTagAddRequest21sp2 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName tagName
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:4717
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:4906
      * @var string|null
      */
     private $tagName = null;
@@ -44,7 +44,7 @@ class SystemDeviceManagementTagAddRequest21sp2 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName isTagValueEncrypted
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:4717
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:4906
      * @var bool|null
      */
     private $isTagValueEncrypted = null;
@@ -53,7 +53,7 @@ class SystemDeviceManagementTagAddRequest21sp2 extends \CWM\BroadWorksConnector\
      * @ElementName tagValue
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:4724
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:4913
      * @var string|null
      */
     private $tagValue = null;
@@ -62,7 +62,7 @@ class SystemDeviceManagementTagAddRequest21sp2 extends \CWM\BroadWorksConnector\
      * @ElementName tagValueToEncrypt
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:4724
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:4913
      * @var string|null
      */
     private $tagValueToEncrypt = null;

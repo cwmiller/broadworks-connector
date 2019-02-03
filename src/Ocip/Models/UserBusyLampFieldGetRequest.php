@@ -6,13 +6,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserBusyLampFieldGetRequest
  *
  * Request the settings for the busy lamp field service.
- *         The response is either a UserBusyLampFieldGetResponse or an ErrorResponse.
- *         Replaced by: UserBusyLampFieldGetRequest16sp2
+ *                 The response is either a UserBusyLampFieldGetResponse or an ErrorResponse.
+ *                 Replaced by: UserBusyLampFieldGetRequest16sp2
  *
  * @see UserBusyLampFieldGetResponse
  * @see ErrorResponse
  * @see UserBusyLampFieldGetRequest16sp2
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:22313","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:23081","type":"sequence"}]
  */
 class UserBusyLampFieldGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class UserBusyLampFieldGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName userId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:22313
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:23081
      * @var string|null
      */
     private $userId = null;

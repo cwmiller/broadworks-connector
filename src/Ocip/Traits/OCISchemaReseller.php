@@ -15,6 +15,7 @@ use CWM\BroadWorksConnector\Ocip\Models\ResellerCallAdmissionControlPoliciesGetR
 use CWM\BroadWorksConnector\Ocip\Models\ResellerCallAdmissionControlPoliciesModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ResellerDeleteRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ResellerEmergencyCallNotificationGetRequest;
+use CWM\BroadWorksConnector\Ocip\Models\ResellerEmergencyCallNotificationGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\ResellerEmergencyCallNotificationModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ResellerGetListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ResellerGetListResponse;
@@ -142,7 +143,7 @@ trait OCISchemaReseller
 
     /**
      * @param ResellerEmergencyCallNotificationGetRequest $request
-     * @return 
+     * @return ResellerEmergencyCallNotificationGetResponse
      * @throws ErrorResponseException
      * @throws ValidationException
      */

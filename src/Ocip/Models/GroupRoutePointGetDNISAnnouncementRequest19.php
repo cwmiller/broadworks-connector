@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupRoutePointGetDNISAnnouncementRequest19
  *
  * Get a route point's DNIS Announcements
- *         The response is either a GroupRoutePointGetDNISAnnouncementResponse19 or an ErrorResponse.
+ *                 The response is either a GroupRoutePointGetDNISAnnouncementResponse19 or an ErrorResponse.
  *
  * @see GroupRoutePointGetDNISAnnouncementResponse19
  * @see ErrorResponse
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:29360","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:30429","type":"sequence"}]
  */
 class GroupRoutePointGetDNISAnnouncementRequest19 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupRoutePointGetDNISAnnouncementRequest19 extends \CWM\BroadWorksConnect
     /**
      * @ElementName dnisKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DNISKey
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:29360
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:30429
      * @var \CWM\BroadWorksConnector\Ocip\Models\DNISKey|null
      */
     private $dnisKey = null;

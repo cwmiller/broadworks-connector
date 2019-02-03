@@ -6,15 +6,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ServiceProviderFeatureAccessCodeModifyListRequest20
  *
  * Modify a list of feature access codes for a service provider or enterprise.
- *         The response is either a SuccessResponse or an ErrorResponse.
- *         In release 20 the "Call Recording" FAC name is changed to
- *         "Call Recording - Start".
- *         Replaced by: ServiceProviderFeatureAccessCodeModifyListRequest21
+ *                 The response is either a SuccessResponse or an ErrorResponse.
+ *                 In release 20 the "Call Recording" FAC name is changed to
+ *                 "Call Recording - Start".
+ *                 Replaced by: ServiceProviderFeatureAccessCodeModifyListRequest21
  *
  * @see SuccessResponse
  * @see ErrorResponse
  * @see ServiceProviderFeatureAccessCodeModifyListRequest21
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:32827","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:34084","type":"sequence"}]
  */
 class ServiceProviderFeatureAccessCodeModifyListRequest20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -22,7 +22,7 @@ class ServiceProviderFeatureAccessCodeModifyListRequest20 extends \CWM\BroadWork
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:32827
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:34084
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -32,7 +32,7 @@ class ServiceProviderFeatureAccessCodeModifyListRequest20 extends \CWM\BroadWork
      * @Type \CWM\BroadWorksConnector\Ocip\Models\FeatureAccessCodeEntry
      * @Array
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:32827
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:34084
      * @var \CWM\BroadWorksConnector\Ocip\Models\FeatureAccessCodeEntry[]
      */
     private $featureAccessCode = array(

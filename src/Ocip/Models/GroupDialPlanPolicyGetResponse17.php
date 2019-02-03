@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to GroupDialPlanPolicyGetRequest17
  *
  * @see GroupDialPlanPolicyGetRequest17
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:3946","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:3944","type":"sequence"}]
  */
 class GroupDialPlanPolicyGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class GroupDialPlanPolicyGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName useSetting
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupDialPlanPolicySettingLevel
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:3946
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:3944
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupDialPlanPolicySettingLevel|null
      */
     private $useSetting = null;
@@ -24,7 +24,7 @@ class GroupDialPlanPolicyGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName requiresAccessCodeForPublicCalls
      * @Type bool
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:3946
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:3944
      * @var bool|null
      */
     private $requiresAccessCodeForPublicCalls = null;
@@ -32,7 +32,7 @@ class GroupDialPlanPolicyGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName allowE164PublicCalls
      * @Type bool
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:3946
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:3944
      * @var bool|null
      */
     private $allowE164PublicCalls = null;
@@ -40,7 +40,7 @@ class GroupDialPlanPolicyGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName preferE164NumberFormatForCallbackServices
      * @Type bool
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:3946
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:3944
      * @var bool|null
      */
     private $preferE164NumberFormatForCallbackServices = null;
@@ -49,7 +49,7 @@ class GroupDialPlanPolicyGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName publicDigitMap
      * @Type string
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:3946
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:3944
      * @var string|null
      */
     private $publicDigitMap = null;
@@ -58,7 +58,7 @@ class GroupDialPlanPolicyGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName privateDigitMap
      * @Type string
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:3946
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:3944
      * @var string|null
      */
     private $privateDigitMap = null;

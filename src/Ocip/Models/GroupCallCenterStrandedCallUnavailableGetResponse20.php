@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the GroupCallCenterStrandedCallUnavailableGetRequest20.
  *
  * @see GroupCallCenterStrandedCallUnavailableGetRequest20
- * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:5864","type":"sequence"}]
+ * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:5913","type":"sequence"}]
  */
 class GroupCallCenterStrandedCallUnavailableGetResponse20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class GroupCallCenterStrandedCallUnavailableGetResponse20 extends \CWM\BroadWork
     /**
      * @ElementName conditionPolicyOnNumberOfAgentsWithSpecifiedUnavailableCode
      * @Type bool
-     * @Group e2c537e3e39483b96620673a7012ffdd:5864
+     * @Group e2c537e3e39483b96620673a7012ffdd:5913
      * @var bool|null
      */
     private $conditionPolicyOnNumberOfAgentsWithSpecifiedUnavailableCode = null;
@@ -25,7 +25,7 @@ class GroupCallCenterStrandedCallUnavailableGetResponse20 extends \CWM\BroadWork
      * @ElementName numberOfAgentsWithSpecifiedUnavailableCode
      * @Type int
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:5864
+     * @Group e2c537e3e39483b96620673a7012ffdd:5913
      * @var int|null
      */
     private $numberOfAgentsWithSpecifiedUnavailableCode = null;
@@ -34,7 +34,7 @@ class GroupCallCenterStrandedCallUnavailableGetResponse20 extends \CWM\BroadWork
      * @ElementName agentsUnavailableCode
      * @Type string
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:5864
+     * @Group e2c537e3e39483b96620673a7012ffdd:5913
      * @var string|null
      */
     private $agentsUnavailableCode = null;
@@ -42,7 +42,7 @@ class GroupCallCenterStrandedCallUnavailableGetResponse20 extends \CWM\BroadWork
     /**
      * @ElementName action
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterStrandedCallUnavailableProcessingAction
-     * @Group e2c537e3e39483b96620673a7012ffdd:5864
+     * @Group e2c537e3e39483b96620673a7012ffdd:5913
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterStrandedCallUnavailableProcessingAction|null
      */
     private $action = null;
@@ -51,7 +51,7 @@ class GroupCallCenterStrandedCallUnavailableGetResponse20 extends \CWM\BroadWork
      * @ElementName transferPhoneNumber
      * @Type string
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:5864
+     * @Group e2c537e3e39483b96620673a7012ffdd:5913
      * @var string|null
      */
     private $transferPhoneNumber = null;
@@ -60,7 +60,7 @@ class GroupCallCenterStrandedCallUnavailableGetResponse20 extends \CWM\BroadWork
      * @ElementName audioMessageSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:5864
+     * @Group e2c537e3e39483b96620673a7012ffdd:5913
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     private $audioMessageSelection = null;
@@ -69,7 +69,7 @@ class GroupCallCenterStrandedCallUnavailableGetResponse20 extends \CWM\BroadWork
      * @ElementName audioUrlList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLList
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:5864
+     * @Group e2c537e3e39483b96620673a7012ffdd:5913
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLList|null
      */
     private $audioUrlList = null;
@@ -78,7 +78,7 @@ class GroupCallCenterStrandedCallUnavailableGetResponse20 extends \CWM\BroadWork
      * @ElementName audioFileList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListRead20
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:5864
+     * @Group e2c537e3e39483b96620673a7012ffdd:5913
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListRead20|null
      */
     private $audioFileList = null;
@@ -87,7 +87,7 @@ class GroupCallCenterStrandedCallUnavailableGetResponse20 extends \CWM\BroadWork
      * @ElementName videoMessageSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:5864
+     * @Group e2c537e3e39483b96620673a7012ffdd:5913
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     private $videoMessageSelection = null;
@@ -96,7 +96,7 @@ class GroupCallCenterStrandedCallUnavailableGetResponse20 extends \CWM\BroadWork
      * @ElementName videoUrlList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLList
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:5864
+     * @Group e2c537e3e39483b96620673a7012ffdd:5913
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLList|null
      */
     private $videoUrlList = null;
@@ -105,7 +105,7 @@ class GroupCallCenterStrandedCallUnavailableGetResponse20 extends \CWM\BroadWork
      * @ElementName videoFileList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListRead20
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:5864
+     * @Group e2c537e3e39483b96620673a7012ffdd:5913
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListRead20|null
      */
     private $videoFileList = null;

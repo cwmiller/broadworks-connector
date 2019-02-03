@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupCallCenterGetInstanceListResponse
  * @see ErrorResponse
- * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:4477","type":"sequence"}]
+ * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:4527","type":"sequence"}]
  */
 class GroupCallCenterGetInstanceListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class GroupCallCenterGetInstanceListRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group e2c537e3e39483b96620673a7012ffdd:4477
+     * @Group e2c537e3e39483b96620673a7012ffdd:4527
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,7 +27,7 @@ class GroupCallCenterGetInstanceListRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName groupId
      * @Type string
-     * @Group e2c537e3e39483b96620673a7012ffdd:4477
+     * @Group e2c537e3e39483b96620673a7012ffdd:4527
      * @var string|null
      */
     private $groupId = null;
@@ -36,7 +36,7 @@ class GroupCallCenterGetInstanceListRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName groupDepartmentName
      * @Type string
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:4477
+     * @Group e2c537e3e39483b96620673a7012ffdd:4527
      * @var string|null
      */
     private $groupDepartmentName = null;

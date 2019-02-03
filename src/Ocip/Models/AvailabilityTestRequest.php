@@ -5,7 +5,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * AvailabilityTestRequest
  *
- * AvailabilityTestRequest is for high-availability support. Response is either SuccessResponse
+ * AvailabilityTestRequest is for high-availability support. The response is either SuccessResponse
  *         or ErrorResponse.
  *
  * @see AvailabilityTestRequest

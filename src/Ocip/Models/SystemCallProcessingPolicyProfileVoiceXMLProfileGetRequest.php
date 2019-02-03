@@ -6,15 +6,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemCallProcessingPolicyProfileVoiceXMLProfileGetRequest
  *
  * Request to get the configuration for a call processing policy profile VoiceXML subscriber type profile.
- *         The response is either a SystemCallProcessingPolicyProfileVoiceXMLProfileGetResponse or an
- *         ErrorResponse.
- *         
- *         Replaced by: SystemCallProcessingPolicyProfileVoiceXMLProfileGetRequest22
+ *                 The response is either a SystemCallProcessingPolicyProfileVoiceXMLProfileGetResponse or an
+ *                 ErrorResponse.
+ *
+ *                 Replaced by: SystemCallProcessingPolicyProfileVoiceXMLProfileGetRequest22
  *
  * @see SystemCallProcessingPolicyProfileVoiceXMLProfileGetResponse
  * @see ErrorResponse
  * @see SystemCallProcessingPolicyProfileVoiceXMLProfileGetRequest22
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:37100","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:38550","type":"sequence"}]
  */
 class SystemCallProcessingPolicyProfileVoiceXMLProfileGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -22,7 +22,7 @@ class SystemCallProcessingPolicyProfileVoiceXMLProfileGetRequest extends \CWM\Br
     /**
      * @ElementName callProcessingPolicyProfileName
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:37100
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:38550
      * @var string|null
      */
     private $callProcessingPolicyProfileName = null;

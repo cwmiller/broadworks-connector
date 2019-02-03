@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Call Log entry describing a placed, received, or missed call.
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:2417","type":"sequence"}]
+ * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:2554","type":"sequence"}]
  */
 class MixedCallLogsEntry
 {
@@ -15,7 +15,7 @@ class MixedCallLogsEntry
     /**
      * @ElementName callLogType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallLogsType
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:2417
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:2554
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallLogsType|null
      */
     private $callLogType = null;
@@ -24,7 +24,7 @@ class MixedCallLogsEntry
      * @ElementName countryCode
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:2417
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:2554
      * @var string|null
      */
     private $countryCode = null;
@@ -32,7 +32,7 @@ class MixedCallLogsEntry
     /**
      * @ElementName callLogId
      * @Type string
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:2417
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:2554
      * @var string|null
      */
     private $callLogId = null;
@@ -40,7 +40,7 @@ class MixedCallLogsEntry
     /**
      * @ElementName phoneNumber
      * @Type string
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:2417
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:2554
      * @var string|null
      */
     private $phoneNumber = null;
@@ -48,7 +48,7 @@ class MixedCallLogsEntry
     /**
      * @ElementName name
      * @Type string
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:2417
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:2554
      * @var string|null
      */
     private $name = null;
@@ -56,7 +56,7 @@ class MixedCallLogsEntry
     /**
      * @ElementName time
      * @Type string
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:2417
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:2554
      * @var string|null
      */
     private $time = null;

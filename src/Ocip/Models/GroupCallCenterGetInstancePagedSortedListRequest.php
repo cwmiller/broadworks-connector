@@ -23,7 +23,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see GroupCallCenterGetInstancePagedSortedListResponse
  * @see ErrorResponse
  * @see ErrorResponse
- * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:4527","type":"sequence"}]
+ * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:4577","type":"sequence"}]
  */
 class GroupCallCenterGetInstancePagedSortedListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -31,7 +31,7 @@ class GroupCallCenterGetInstancePagedSortedListRequest extends \CWM\BroadWorksCo
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group e2c537e3e39483b96620673a7012ffdd:4527
+     * @Group e2c537e3e39483b96620673a7012ffdd:4577
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -39,7 +39,7 @@ class GroupCallCenterGetInstancePagedSortedListRequest extends \CWM\BroadWorksCo
     /**
      * @ElementName groupId
      * @Type string
-     * @Group e2c537e3e39483b96620673a7012ffdd:4527
+     * @Group e2c537e3e39483b96620673a7012ffdd:4577
      * @var string|null
      */
     private $groupId = null;
@@ -48,7 +48,7 @@ class GroupCallCenterGetInstancePagedSortedListRequest extends \CWM\BroadWorksCo
      * @ElementName responsePagingControl
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:4527
+     * @Group e2c537e3e39483b96620673a7012ffdd:4577
      * @var \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl|null
      */
     private $responsePagingControl = null;
@@ -58,7 +58,7 @@ class GroupCallCenterGetInstancePagedSortedListRequest extends \CWM\BroadWorksCo
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortOrderGroupCallCenterGetInstancePagedSortedList
      * @Array
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:4527
+     * @Group e2c537e3e39483b96620673a7012ffdd:4577
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortOrderGroupCallCenterGetInstancePagedSortedList[]
      */
     private $sortOrder = array(
@@ -70,7 +70,7 @@ class GroupCallCenterGetInstancePagedSortedListRequest extends \CWM\BroadWorksCo
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId
      * @Array
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:4527
+     * @Group e2c537e3e39483b96620673a7012ffdd:4577
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId[]
      */
     private $searchCriteriaUserId = array(
@@ -82,7 +82,7 @@ class GroupCallCenterGetInstancePagedSortedListRequest extends \CWM\BroadWorksCo
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaCallCenterName
      * @Array
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:4527
+     * @Group e2c537e3e39483b96620673a7012ffdd:4577
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaCallCenterName[]
      */
     private $searchCriteriaCallCenterName = array(
@@ -94,7 +94,7 @@ class GroupCallCenterGetInstancePagedSortedListRequest extends \CWM\BroadWorksCo
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn
      * @Array
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:4527
+     * @Group e2c537e3e39483b96620673a7012ffdd:4577
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[]
      */
     private $searchCriteriaDn = array(
@@ -106,7 +106,7 @@ class GroupCallCenterGetInstancePagedSortedListRequest extends \CWM\BroadWorksCo
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension
      * @Array
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:4527
+     * @Group e2c537e3e39483b96620673a7012ffdd:4577
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension[]
      */
     private $searchCriteriaExtension = array(
@@ -118,7 +118,7 @@ class GroupCallCenterGetInstancePagedSortedListRequest extends \CWM\BroadWorksCo
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDepartmentName
      * @Array
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:4527
+     * @Group e2c537e3e39483b96620673a7012ffdd:4577
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDepartmentName[]
      */
     private $searchCriteriaDepartmentName = array(
@@ -129,7 +129,7 @@ class GroupCallCenterGetInstancePagedSortedListRequest extends \CWM\BroadWorksCo
      * @ElementName searchCriteriaServiceStatus
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceStatus
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:4527
+     * @Group e2c537e3e39483b96620673a7012ffdd:4577
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceStatus|null
      */
     private $searchCriteriaServiceStatus = null;
@@ -139,7 +139,7 @@ class GroupCallCenterGetInstancePagedSortedListRequest extends \CWM\BroadWorksCo
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactHuntPolicy
      * @Array
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:4527
+     * @Group e2c537e3e39483b96620673a7012ffdd:4577
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactHuntPolicy[]
      */
     private $searchCriteriaExactHuntPolicy = array(
@@ -151,7 +151,7 @@ class GroupCallCenterGetInstancePagedSortedListRequest extends \CWM\BroadWorksCo
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactCallCenterType
      * @Array
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:4527
+     * @Group e2c537e3e39483b96620673a7012ffdd:4577
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactCallCenterType[]
      */
     private $searchCriteriaExactCallCenterType = array(
@@ -162,7 +162,7 @@ class GroupCallCenterGetInstancePagedSortedListRequest extends \CWM\BroadWorksCo
      * @ElementName searchCriteriaModeOr
      * @Type bool
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:4527
+     * @Group e2c537e3e39483b96620673a7012ffdd:4577
      * @var bool|null
      */
     private $searchCriteriaModeOr = null;

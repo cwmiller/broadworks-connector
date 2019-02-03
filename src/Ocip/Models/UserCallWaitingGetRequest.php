@@ -6,14 +6,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserCallWaitingGetRequest
  *
  * Request the user level data associated with Call Waiting.
- *         The response is either a UserCallWaitingGetResponse or an
- *         ErrorResponse.
- *         Replaced by: UserCallWaitingGetRequest17sp4
+ *                 The response is either a UserCallWaitingGetResponse or an
+ *                 ErrorResponse.
+ *                 Replaced by: UserCallWaitingGetRequest17sp4
  *
  * @see UserCallWaitingGetResponse
  * @see ErrorResponse
  * @see UserCallWaitingGetRequest17sp4
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:22565","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:23352","type":"sequence"}]
  */
 class UserCallWaitingGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,7 +21,7 @@ class UserCallWaitingGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\O
     /**
      * @ElementName userId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:22565
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:23352
      * @var string|null
      */
     private $userId = null;

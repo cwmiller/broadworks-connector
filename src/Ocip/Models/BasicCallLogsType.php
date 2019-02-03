@@ -6,7 +6,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * BasicCallLogsType
  *
  * Call Log type.
- *         Replaced By: CallLogsType
+ *                 Replaced By: CallLogsType
  *
  * @method static BasicCallLogsType PLACED()
  * @method static BasicCallLogsType RECEIVED()

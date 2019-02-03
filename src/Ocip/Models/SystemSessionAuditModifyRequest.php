@@ -6,13 +6,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemSessionAuditModifyRequest
  *
  * Modify the system level data associated with session sudit.
- *         The response is either a SuccessResponse or an ErrorResponse.
- *         Replaced By: SystemSessionAuditModifyRequest14sp3
+ *                 The response is either a SuccessResponse or an ErrorResponse.
+ *                 Replaced By: SystemSessionAuditModifyRequest14sp3
  *
  * @see SuccessResponse
  * @see ErrorResponse
  * @see SystemSessionAuditModifyRequest14sp3
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:5488","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:5695","type":"sequence"}]
  */
 class SystemSessionAuditModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,7 +21,7 @@ class SystemSessionAuditModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName isActive
      * @Type bool
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:5488
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:5695
      * @var bool|null
      */
     private $isActive = null;
@@ -30,7 +30,7 @@ class SystemSessionAuditModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName intervalSeconds
      * @Type int
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:5488
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:5695
      * @var int|null
      */
     private $intervalSeconds = null;
@@ -39,7 +39,7 @@ class SystemSessionAuditModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName timeoutPeriodSeconds
      * @Type int
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:5488
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:5695
      * @var int|null
      */
     private $timeoutPeriodSeconds = null;

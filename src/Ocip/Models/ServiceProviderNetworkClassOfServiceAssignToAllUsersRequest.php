@@ -11,12 +11,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         If it is the first assigned Network Class of Service in the group, 
  *         it will be set as the default one.
  *         However, the Network Classes of Service must be currently assigned to 
- *         the service provider. The response is either a SuccessResponse or
- *        an ErrorResponse.
+ *         the service provider. The response is either a SuccessResponse or an ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:4127","type":"sequence"}]
+ * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:4153","type":"sequence"}]
  */
 class ServiceProviderNetworkClassOfServiceAssignToAllUsersRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -24,7 +23,7 @@ class ServiceProviderNetworkClassOfServiceAssignToAllUsersRequest extends \CWM\B
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4127
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4153
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -32,7 +31,7 @@ class ServiceProviderNetworkClassOfServiceAssignToAllUsersRequest extends \CWM\B
     /**
      * @ElementName networkClassOfService
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4127
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4153
      * @var string|null
      */
     private $networkClassOfService = null;

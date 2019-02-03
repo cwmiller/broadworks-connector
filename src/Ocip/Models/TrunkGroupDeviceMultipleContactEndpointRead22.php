@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Trunk group device endpoint that can have multiple contacts.
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:4245","type":"sequence"}]
+ * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:4382","type":"sequence"}]
  */
 class TrunkGroupDeviceMultipleContactEndpointRead22
 {
@@ -15,7 +15,7 @@ class TrunkGroupDeviceMultipleContactEndpointRead22
     /**
      * @ElementName name
      * @Type string
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4245
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:4382
      * @var string|null
      */
     private $name = null;
@@ -23,7 +23,7 @@ class TrunkGroupDeviceMultipleContactEndpointRead22
     /**
      * @ElementName linePort
      * @Type string
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4245
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:4382
      * @var string|null
      */
     private $linePort = null;
@@ -33,7 +33,7 @@ class TrunkGroupDeviceMultipleContactEndpointRead22
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SIPContactInfo
      * @Array
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4245
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:4382
      * @var \CWM\BroadWorksConnector\Ocip\Models\SIPContactInfo[]
      */
     private $contact = array(
@@ -43,7 +43,7 @@ class TrunkGroupDeviceMultipleContactEndpointRead22
     /**
      * @ElementName staticRegistrationCapable
      * @Type bool
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4245
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:4382
      * @var bool|null
      */
     private $staticRegistrationCapable = null;
@@ -51,7 +51,7 @@ class TrunkGroupDeviceMultipleContactEndpointRead22
     /**
      * @ElementName useDomain
      * @Type bool
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4245
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:4382
      * @var bool|null
      */
     private $useDomain = null;
@@ -59,7 +59,7 @@ class TrunkGroupDeviceMultipleContactEndpointRead22
     /**
      * @ElementName isPilotUser
      * @Type bool
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4245
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:4382
      * @var bool|null
      */
     private $isPilotUser = null;

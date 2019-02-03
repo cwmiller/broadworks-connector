@@ -24,7 +24,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see UserGroupCustomContactDirectoryGetPagedSortedListResponse
  * @see ErrorResponse
  * @see ErrorResponse
- * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:2199","type":"sequence","children":[{"id":"53d18cc797d03d802cbc411ad821f1d4:2203","type":"choice"}]}]
+ * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:2343","type":"sequence","children":[{"id":"53d18cc797d03d802cbc411ad821f1d4:2347","type":"choice"}]}]
  */
 class UserGroupCustomContactDirectoryGetPagedSortedListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -32,7 +32,7 @@ class UserGroupCustomContactDirectoryGetPagedSortedListRequest extends \CWM\Broa
     /**
      * @ElementName userId
      * @Type string
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:2199
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:2343
      * @var string|null
      */
     private $userId = null;
@@ -40,7 +40,7 @@ class UserGroupCustomContactDirectoryGetPagedSortedListRequest extends \CWM\Broa
     /**
      * @ElementName name
      * @Type string
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:2199
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:2343
      * @var string|null
      */
     private $name = null;
@@ -48,7 +48,7 @@ class UserGroupCustomContactDirectoryGetPagedSortedListRequest extends \CWM\Broa
     /**
      * @ElementName responsePagingControl
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:2199
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:2343
      * @var \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl|null
      */
     private $responsePagingControl = null;
@@ -56,7 +56,7 @@ class UserGroupCustomContactDirectoryGetPagedSortedListRequest extends \CWM\Broa
     /**
      * @ElementName sortByUserLastName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByUserLastName
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:2203
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:2347
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByUserLastName|null
      */
     private $sortByUserLastName = null;
@@ -64,7 +64,7 @@ class UserGroupCustomContactDirectoryGetPagedSortedListRequest extends \CWM\Broa
     /**
      * @ElementName sortByUserFirstName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByUserFirstName
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:2203
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:2347
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByUserFirstName|null
      */
     private $sortByUserFirstName = null;
@@ -72,7 +72,7 @@ class UserGroupCustomContactDirectoryGetPagedSortedListRequest extends \CWM\Broa
     /**
      * @ElementName sortByUserDepartment
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByUserDepartment
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:2203
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:2347
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByUserDepartment|null
      */
     private $sortByUserDepartment = null;
@@ -80,7 +80,7 @@ class UserGroupCustomContactDirectoryGetPagedSortedListRequest extends \CWM\Broa
     /**
      * @ElementName sortByReceptionistNote
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByReceptionistNote
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:2203
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:2347
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByReceptionistNote|null
      */
     private $sortByReceptionistNote = null;
@@ -89,7 +89,7 @@ class UserGroupCustomContactDirectoryGetPagedSortedListRequest extends \CWM\Broa
      * @ElementName searchCriteriaModeOr
      * @Type bool
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:2199
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:2343
      * @var bool|null
      */
     private $searchCriteriaModeOr = null;
@@ -99,7 +99,7 @@ class UserGroupCustomContactDirectoryGetPagedSortedListRequest extends \CWM\Broa
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName
      * @Array
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:2199
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:2343
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[]
      */
     private $searchCriteriaUserLastName = array(
@@ -111,7 +111,7 @@ class UserGroupCustomContactDirectoryGetPagedSortedListRequest extends \CWM\Broa
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName
      * @Array
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:2199
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:2343
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName[]
      */
     private $searchCriteriaUserFirstName = array(
@@ -123,7 +123,7 @@ class UserGroupCustomContactDirectoryGetPagedSortedListRequest extends \CWM\Broa
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn
      * @Array
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:2199
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:2343
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[]
      */
     private $searchCriteriaDn = array(
@@ -135,7 +135,7 @@ class UserGroupCustomContactDirectoryGetPagedSortedListRequest extends \CWM\Broa
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension
      * @Array
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:2199
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:2343
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension[]
      */
     private $searchCriteriaExtension = array(
@@ -147,7 +147,7 @@ class UserGroupCustomContactDirectoryGetPagedSortedListRequest extends \CWM\Broa
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaMobilePhoneNumber
      * @Array
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:2199
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:2343
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaMobilePhoneNumber[]
      */
     private $searchCriteriaMobilePhoneNumber = array(
@@ -159,7 +159,7 @@ class UserGroupCustomContactDirectoryGetPagedSortedListRequest extends \CWM\Broa
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId
      * @Array
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:2199
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:2343
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId[]
      */
     private $searchCriteriaUserId = array(
@@ -171,7 +171,7 @@ class UserGroupCustomContactDirectoryGetPagedSortedListRequest extends \CWM\Broa
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDepartmentName
      * @Array
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:2199
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:2343
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDepartmentName[]
      */
     private $searchCriteriaDepartmentName = array(
@@ -183,7 +183,7 @@ class UserGroupCustomContactDirectoryGetPagedSortedListRequest extends \CWM\Broa
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaImpId
      * @Array
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:2199
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:2343
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaImpId[]
      */
     private $searchCriteriaImpId = array(
@@ -195,7 +195,7 @@ class UserGroupCustomContactDirectoryGetPagedSortedListRequest extends \CWM\Broa
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaTitle
      * @Array
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:2199
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:2343
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaTitle[]
      */
     private $searchCriteriaTitle = array(
@@ -207,7 +207,7 @@ class UserGroupCustomContactDirectoryGetPagedSortedListRequest extends \CWM\Broa
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaReceptionistNote
      * @Array
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:2199
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:2343
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaReceptionistNote[]
      */
     private $searchCriteriaReceptionistNote = array(

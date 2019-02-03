@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemZoneCallingZonePhysicalLocationGetRequest
  *
  * Returns a zone calling physical location for a given zone.
- * 	     Response is SystemZoneCallingZonePhysicalLocationGetResponse or an ErrorResponse.
+ * 	     The response is SystemZoneCallingZonePhysicalLocationGetResponse or an ErrorResponse.
  *
  * @see SystemZoneCallingZonePhysicalLocationGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:17383","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:18225","type":"sequence"}]
  */
 class SystemZoneCallingZonePhysicalLocationGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemZoneCallingZonePhysicalLocationGetRequest extends \CWM\BroadWorksCon
     /**
      * @ElementName zoneName
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17383
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18225
      * @var string|null
      */
     private $zoneName = null;

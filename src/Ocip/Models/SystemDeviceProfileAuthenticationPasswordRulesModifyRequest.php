@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:7287","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:7579","type":"sequence"}]
  */
 class SystemDeviceProfileAuthenticationPasswordRulesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class SystemDeviceProfileAuthenticationPasswordRulesModifyRequest extends \CWM\B
      * @ElementName disallowAuthenticationName
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7287
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7579
      * @var bool|null
      */
     private $disallowAuthenticationName = null;
@@ -28,7 +28,7 @@ class SystemDeviceProfileAuthenticationPasswordRulesModifyRequest extends \CWM\B
      * @ElementName disallowOldPassword
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7287
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7579
      * @var bool|null
      */
     private $disallowOldPassword = null;
@@ -37,7 +37,7 @@ class SystemDeviceProfileAuthenticationPasswordRulesModifyRequest extends \CWM\B
      * @ElementName disallowReversedOldPassword
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7287
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7579
      * @var bool|null
      */
     private $disallowReversedOldPassword = null;
@@ -46,7 +46,7 @@ class SystemDeviceProfileAuthenticationPasswordRulesModifyRequest extends \CWM\B
      * @ElementName restrictMinDigits
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7287
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7579
      * @var bool|null
      */
     private $restrictMinDigits = null;
@@ -55,7 +55,7 @@ class SystemDeviceProfileAuthenticationPasswordRulesModifyRequest extends \CWM\B
      * @ElementName minDigits
      * @Type int
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7287
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7579
      * @var int|null
      */
     private $minDigits = null;
@@ -64,7 +64,7 @@ class SystemDeviceProfileAuthenticationPasswordRulesModifyRequest extends \CWM\B
      * @ElementName restrictMinUpperCaseLetters
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7287
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7579
      * @var bool|null
      */
     private $restrictMinUpperCaseLetters = null;
@@ -73,7 +73,7 @@ class SystemDeviceProfileAuthenticationPasswordRulesModifyRequest extends \CWM\B
      * @ElementName minUpperCaseLetters
      * @Type int
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7287
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7579
      * @var int|null
      */
     private $minUpperCaseLetters = null;
@@ -82,7 +82,7 @@ class SystemDeviceProfileAuthenticationPasswordRulesModifyRequest extends \CWM\B
      * @ElementName restrictMinLowerCaseLetters
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7287
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7579
      * @var bool|null
      */
     private $restrictMinLowerCaseLetters = null;
@@ -91,7 +91,7 @@ class SystemDeviceProfileAuthenticationPasswordRulesModifyRequest extends \CWM\B
      * @ElementName minLowerCaseLetters
      * @Type int
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7287
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7579
      * @var int|null
      */
     private $minLowerCaseLetters = null;
@@ -100,7 +100,7 @@ class SystemDeviceProfileAuthenticationPasswordRulesModifyRequest extends \CWM\B
      * @ElementName restrictMinNonAlphanumericCharacters
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7287
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7579
      * @var bool|null
      */
     private $restrictMinNonAlphanumericCharacters = null;
@@ -109,7 +109,7 @@ class SystemDeviceProfileAuthenticationPasswordRulesModifyRequest extends \CWM\B
      * @ElementName minNonAlphanumericCharacters
      * @Type int
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7287
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7579
      * @var int|null
      */
     private $minNonAlphanumericCharacters = null;
@@ -118,7 +118,7 @@ class SystemDeviceProfileAuthenticationPasswordRulesModifyRequest extends \CWM\B
      * @ElementName minLength
      * @Type int
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7287
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7579
      * @var int|null
      */
     private $minLength = null;
@@ -127,7 +127,7 @@ class SystemDeviceProfileAuthenticationPasswordRulesModifyRequest extends \CWM\B
      * @ElementName sendPermanentLockoutNotification
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7287
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7579
      * @var bool|null
      */
     private $sendPermanentLockoutNotification = null;
@@ -137,7 +137,7 @@ class SystemDeviceProfileAuthenticationPasswordRulesModifyRequest extends \CWM\B
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7287
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7579
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $permanentLockoutNotifyEmailAddress = null;
@@ -146,7 +146,7 @@ class SystemDeviceProfileAuthenticationPasswordRulesModifyRequest extends \CWM\B
      * @ElementName deviceProfileAuthenticationLockoutType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutType
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7287
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7579
      * @var \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutType|null
      */
     private $deviceProfileAuthenticationLockoutType = null;
@@ -155,7 +155,7 @@ class SystemDeviceProfileAuthenticationPasswordRulesModifyRequest extends \CWM\B
      * @ElementName deviceProfileTemporaryLockoutThreshold
      * @Type int
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7287
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7579
      * @var int|null
      */
     private $deviceProfileTemporaryLockoutThreshold = null;
@@ -164,7 +164,7 @@ class SystemDeviceProfileAuthenticationPasswordRulesModifyRequest extends \CWM\B
      * @ElementName deviceProfileWaitAlgorithm
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutWaitAlgorithmType
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7287
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7579
      * @var \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutWaitAlgorithmType|null
      */
     private $deviceProfileWaitAlgorithm = null;
@@ -173,7 +173,7 @@ class SystemDeviceProfileAuthenticationPasswordRulesModifyRequest extends \CWM\B
      * @ElementName deviceProfileLockoutFixedMinutes
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutFixedWaitTimeMinutes
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7287
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7579
      * @var \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutFixedWaitTimeMinutes|null
      */
     private $deviceProfileLockoutFixedMinutes = null;
@@ -182,7 +182,7 @@ class SystemDeviceProfileAuthenticationPasswordRulesModifyRequest extends \CWM\B
      * @ElementName deviceProfilePermanentLockoutThreshold
      * @Type int
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7287
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7579
      * @var int|null
      */
     private $deviceProfilePermanentLockoutThreshold = null;

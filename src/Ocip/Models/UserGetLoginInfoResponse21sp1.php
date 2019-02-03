@@ -6,18 +6,18 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserGetLoginInfoResponse21sp1
  *
  * Response to UserGetLoginInfoRequest21sp1
- *         
- *         If a phoneNumber is returned, it will be the primary DN of the user
- *         
- *         The parameter tokenRevocationTime is represented in the number of milliseconds since 
- *         January 1, 1970, 00:00:00 GMT, and it is set to the more current time between the system level 
- *         token revocation time and user level token revocation time.    
- *           
- *         Replaced by UserGetLoginInfoResponse22V2.
+ *
+ *                 If a phoneNumber is returned, it will be the primary DN of the user
+ *
+ *                 The parameter tokenRevocationTime is represented in the number of milliseconds since
+ *                 January 1, 1970, 00:00:00 GMT, and it is set to the more current time between the system level
+ *                 token revocation time and user level token revocation time.
+ *
+ *                 Replaced by UserGetLoginInfoResponse22V2.
  *
  * @see UserGetLoginInfoRequest21sp1
  * @see UserGetLoginInfoResponse22V2
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:40983","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:42567","type":"sequence"}]
  */
 class UserGetLoginInfoResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -25,7 +25,7 @@ class UserGetLoginInfoResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName loginType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LoginType
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:40983
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:42567
      * @var \CWM\BroadWorksConnector\Ocip\Models\LoginType|null
      */
     private $loginType = null;
@@ -33,7 +33,7 @@ class UserGetLoginInfoResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName locale
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:40983
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:42567
      * @var string|null
      */
     private $locale = null;
@@ -41,7 +41,7 @@ class UserGetLoginInfoResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName encoding
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:40983
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:42567
      * @var string|null
      */
     private $encoding = null;
@@ -50,7 +50,7 @@ class UserGetLoginInfoResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName groupId
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:40983
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:42567
      * @var string|null
      */
     private $groupId = null;
@@ -59,7 +59,7 @@ class UserGetLoginInfoResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName serviceProviderId
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:40983
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:42567
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -67,7 +67,7 @@ class UserGetLoginInfoResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName isEnterprise
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:40983
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:42567
      * @var bool|null
      */
     private $isEnterprise = null;
@@ -76,7 +76,7 @@ class UserGetLoginInfoResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName passwordExpiresDays
      * @Type int
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:40983
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:42567
      * @var int|null
      */
     private $passwordExpiresDays = null;
@@ -85,7 +85,7 @@ class UserGetLoginInfoResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName lastName
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:40983
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:42567
      * @var string|null
      */
     private $lastName = null;
@@ -94,7 +94,7 @@ class UserGetLoginInfoResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName firstName
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:40983
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:42567
      * @var string|null
      */
     private $firstName = null;
@@ -102,7 +102,7 @@ class UserGetLoginInfoResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName userId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:40983
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:42567
      * @var string|null
      */
     private $userId = null;
@@ -111,7 +111,7 @@ class UserGetLoginInfoResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName phoneNumber
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:40983
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:42567
      * @var string|null
      */
     private $phoneNumber = null;
@@ -120,7 +120,7 @@ class UserGetLoginInfoResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName tokenRevocationTime
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:40983
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:42567
      * @var string|null
      */
     private $tokenRevocationTime = null;

@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupBroadWorksAnywhereGetInstanceRequest
  *
  * Request to get all the information of a BroadWorks Anywhere instance.
- *         The response is either GroupBroadWorksAnywhereGetInstanceResponse or ErrorResponse.
+ *                 The response is either GroupBroadWorksAnywhereGetInstanceResponse or ErrorResponse.
  *
  * @see GroupBroadWorksAnywhereGetInstanceResponse
  * @see ErrorResponse
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:12209","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:12556","type":"sequence"}]
  */
 class GroupBroadWorksAnywhereGetInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupBroadWorksAnywhereGetInstanceRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:12209
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:12556
      * @var string|null
      */
     private $serviceUserId = null;

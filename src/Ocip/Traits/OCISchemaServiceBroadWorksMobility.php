@@ -63,11 +63,14 @@ use CWM\BroadWorksConnector\Ocip\Models\SystemBroadWorksMobilityServiceAccessCod
 use CWM\BroadWorksConnector\Ocip\Models\UserBroadworksMobilityAddMobileIdentityUsingSharedCallAppearanceRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksMobilityGetRequest21sp1;
 use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksMobilityGetResponse21sp1;
+use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksMobilityMobileIdentityAddRequest21sp1;
 use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksMobilityMobileIdentityAddRequest22;
 use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksMobilityMobileIdentityConsolidatedAddRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksMobilityMobileIdentityConsolidatedDeleteRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksMobilityMobileIdentityConsolidatedModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksMobilityMobileIdentityDeleteRequest;
+use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksMobilityMobileIdentityGetRequest21sp1V2;
+use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksMobilityMobileIdentityGetResponse21sp1V2;
 use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksMobilityMobileIdentityGetRequest22V2;
 use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksMobilityMobileIdentityGetResponse22V2;
 use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksMobilityMobileIdentityModifyRequest;
@@ -531,6 +534,17 @@ trait OCISchemaServiceBroadWorksMobility
     }
 
     /**
+     * @param UserBroadWorksMobilityMobileIdentityAddRequest21sp1 $request
+     * @return SuccessResponse
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function userBroadWorksMobilityMobileIdentityAddRequest21sp1(\CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksMobilityMobileIdentityAddRequest21sp1 $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
      * @param UserBroadWorksMobilityMobileIdentityAddRequest22 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
@@ -581,6 +595,17 @@ trait OCISchemaServiceBroadWorksMobility
      * @throws ValidationException
      */
     public function userBroadWorksMobilityMobileIdentityDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksMobilityMobileIdentityDeleteRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param UserBroadWorksMobilityMobileIdentityGetRequest21sp1V2 $request
+     * @return UserBroadWorksMobilityMobileIdentityGetResponse21sp1V2
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function userBroadWorksMobilityMobileIdentityGetRequest21sp1V2(\CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksMobilityMobileIdentityGetRequest21sp1V2 $request)
     {
         return $this->call($request);
     }

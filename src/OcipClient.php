@@ -149,6 +149,7 @@ use CWM\BroadWorksConnector\Ocip\Traits\OCISchemaServiceVoiceXml;
 use CWM\BroadWorksConnector\Ocip\Traits\OCISchemaServiceZoneCallingRestrictions;
 use CWM\BroadWorksConnector\Ocip\Traits\OCISchemaSystem;
 use CWM\BroadWorksConnector\Ocip\Traits\OCISchemaUser;
+use CWM\BroadWorksConnector\Ocip\Traits\XSOCI;
 use CWM\BroadWorksConnector\Ocip\UserDetails;
 use CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Validation\Validator;
@@ -291,6 +292,7 @@ class OcipClient
     use OCISchemaServiceZoneCallingRestrictions;
     use OCISchemaSystem;
     use OCISchemaUser;
+    use XSOCI;
 
 
     /** @var string */

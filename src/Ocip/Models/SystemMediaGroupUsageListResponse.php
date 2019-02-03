@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The "Group Id" will be empty for enterprise SAC groups.
  *
  * @see SystemMediaGroupUsageListRequest
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:10411","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:10849","type":"sequence"}]
  */
 class SystemMediaGroupUsageListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,7 +19,7 @@ class SystemMediaGroupUsageListResponse extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName usageTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10411
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10849
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $usageTable = null;

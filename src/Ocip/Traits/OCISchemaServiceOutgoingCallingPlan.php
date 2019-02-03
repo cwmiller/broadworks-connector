@@ -49,6 +49,7 @@ use CWM\BroadWorksConnector\Ocip\Models\GroupOutgoingCallingPlanTransferNumbersM
 use CWM\BroadWorksConnector\Ocip\Models\SystemOutgoingCallingPlanCallTypeAddMappingRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemOutgoingCallingPlanCallTypeDeleteMappingRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemOutgoingCallingPlanCallTypeGetListRequest;
+use CWM\BroadWorksConnector\Ocip\Models\SystemOutgoingCallingPlanCallTypeGetListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\SystemOutgoingCallingPlanCallTypeGetMappingListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemOutgoingCallingPlanCallTypeGetMappingListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\SystemOutgoingCallingPlanGetRequest17sp3;
@@ -458,7 +459,7 @@ trait OCISchemaServiceOutgoingCallingPlan
 
     /**
      * @param SystemOutgoingCallingPlanCallTypeGetListRequest $request
-     * @return 
+     * @return SystemOutgoingCallingPlanCallTypeGetListResponse
      * @throws ErrorResponseException
      * @throws ValidationException
      */

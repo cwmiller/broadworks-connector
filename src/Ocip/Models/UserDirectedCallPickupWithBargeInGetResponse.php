@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to UserDirectedCallPickupWithBargeInGetRequest.
  *
  * @see UserDirectedCallPickupWithBargeInGetRequest
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:6914","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:7144","type":"sequence"}]
  */
 class UserDirectedCallPickupWithBargeInGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class UserDirectedCallPickupWithBargeInGetResponse extends \CWM\BroadWorksConnec
     /**
      * @ElementName enableBargeInWarningTone
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:6914
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:7144
      * @var bool|null
      */
     private $enableBargeInWarningTone = null;

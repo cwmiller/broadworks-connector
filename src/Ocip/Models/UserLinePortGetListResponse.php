@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           and "Auto-Config Soft Client".
  *
  * @see UserLinePortGetListRequest
- * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:2289","type":"sequence"}]
+ * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:2434","type":"sequence"}]
  */
 class UserLinePortGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -20,7 +20,7 @@ class UserLinePortGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName linePortTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:2289
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:2434
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $linePortTable = null;

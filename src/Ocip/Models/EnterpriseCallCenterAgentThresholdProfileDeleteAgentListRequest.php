@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:399","type":"sequence"}]
+ * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:395","type":"sequence"}]
  */
 class EnterpriseCallCenterAgentThresholdProfileDeleteAgentListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class EnterpriseCallCenterAgentThresholdProfileDeleteAgentListRequest extends \C
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group e2c537e3e39483b96620673a7012ffdd:399
+     * @Group e2c537e3e39483b96620673a7012ffdd:395
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,7 +27,7 @@ class EnterpriseCallCenterAgentThresholdProfileDeleteAgentListRequest extends \C
     /**
      * @ElementName profileName
      * @Type string
-     * @Group e2c537e3e39483b96620673a7012ffdd:399
+     * @Group e2c537e3e39483b96620673a7012ffdd:395
      * @var string|null
      */
     private $profileName = null;
@@ -36,7 +36,7 @@ class EnterpriseCallCenterAgentThresholdProfileDeleteAgentListRequest extends \C
      * @ElementName agentUserId
      * @Type string
      * @Array
-     * @Group e2c537e3e39483b96620673a7012ffdd:399
+     * @Group e2c537e3e39483b96620673a7012ffdd:395
      * @var string[]
      */
     private $agentUserId = array(

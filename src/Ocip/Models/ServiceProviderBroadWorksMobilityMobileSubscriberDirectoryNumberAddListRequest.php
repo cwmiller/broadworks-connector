@@ -6,14 +6,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ServiceProviderBroadWorksMobilityMobileSubscriberDirectoryNumberAddListRequest
  *
  * Adds Mobile Subscriber Directory Numbers to a service provider. It is possible to add a single DN,
- *         or a list of DNs.
- *         The response is either SuccessResponse or ErrorResponse.
- *         Replaced by ServiceProviderBroadWorksMobilityMobileSubscriberDirectoryNumberAddListRequest21.
+ *                 or a list of DNs.
+ *                 The response is either SuccessResponse or ErrorResponse.
+ *                 Replaced by ServiceProviderBroadWorksMobilityMobileSubscriberDirectoryNumberAddListRequest21.
  *
  * @see SuccessResponse
  * @see ErrorResponse
  * @see ServiceProviderBroadWorksMobilityMobileSubscriberDirectoryNumberAddListRequest21
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:32769","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:34025","type":"sequence"}]
  */
 class ServiceProviderBroadWorksMobilityMobileSubscriberDirectoryNumberAddListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,7 +21,7 @@ class ServiceProviderBroadWorksMobilityMobileSubscriberDirectoryNumberAddListReq
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:32769
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:34025
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -31,7 +31,7 @@ class ServiceProviderBroadWorksMobilityMobileSubscriberDirectoryNumberAddListReq
      * @Type string
      * @Array
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:32769
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:34025
      * @var string[]
      */
     private $mobileSubscriberDirectoryNumber = array(

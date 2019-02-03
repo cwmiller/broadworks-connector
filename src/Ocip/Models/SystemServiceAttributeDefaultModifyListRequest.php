@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:14360","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:14913","type":"sequence"}]
  */
 class SystemServiceAttributeDefaultModifyListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemServiceAttributeDefaultModifyListRequest extends \CWM\BroadWorksConn
     /**
      * @ElementName serviceName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceCategory
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14360
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14913
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceCategory|null
      */
     private $serviceName = null;
@@ -27,7 +27,7 @@ class SystemServiceAttributeDefaultModifyListRequest extends \CWM\BroadWorksConn
      * @ElementName serviceAttributeEntry
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceAttributeEntry
      * @Array
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14360
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14913
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceAttributeEntry[]
      */
     private $serviceAttributeEntry = array(

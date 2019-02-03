@@ -6,14 +6,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupCallCenterEnhancedReportingGetRequest
  *
  * Request to get a group level call center enhanced reporting setting.
- *         The response is either a GroupCallCenterEnhancedReportingGetResponse or an ErrorResponse.
- *         
- *         Replaced by GroupCallCenterEnhancedReportingGetRequest19
+ *                 The response is either a GroupCallCenterEnhancedReportingGetResponse or an ErrorResponse.
+ *
+ *                 Replaced by GroupCallCenterEnhancedReportingGetRequest19
  *
  * @see GroupCallCenterEnhancedReportingGetResponse
  * @see ErrorResponse
  * @see GroupCallCenterEnhancedReportingGetRequest19
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:23720","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:24539","type":"sequence"}]
  */
 class GroupCallCenterEnhancedReportingGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,7 +21,7 @@ class GroupCallCenterEnhancedReportingGetRequest extends \CWM\BroadWorksConnecto
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:23720
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:24539
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -29,7 +29,7 @@ class GroupCallCenterEnhancedReportingGetRequest extends \CWM\BroadWorksConnecto
     /**
      * @ElementName groupId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:23720
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:24539
      * @var string|null
      */
     private $groupId = null;

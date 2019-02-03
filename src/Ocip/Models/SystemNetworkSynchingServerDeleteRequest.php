@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:11349","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:11786","type":"sequence"}]
  */
 class SystemNetworkSynchingServerDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemNetworkSynchingServerDeleteRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName netAddress
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11349
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11786
      * @var string|null
      */
     private $netAddress = null;

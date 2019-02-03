@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to UserAlternateNumbersGetRequest.
  *
  * @see UserAlternateNumbersGetRequest
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:16296","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:16780","type":"sequence"}]
  */
 class UserAlternateNumbersGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class UserAlternateNumbersGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName distinctiveRing
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:16296
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:16780
      * @var bool|null
      */
     private $distinctiveRing = null;
@@ -25,7 +25,7 @@ class UserAlternateNumbersGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName alternateEntry01
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AlternateNumberEntry
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:16296
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:16780
      * @var \CWM\BroadWorksConnector\Ocip\Models\AlternateNumberEntry|null
      */
     private $alternateEntry01 = null;
@@ -34,7 +34,7 @@ class UserAlternateNumbersGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName alternateEntry02
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AlternateNumberEntry
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:16296
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:16780
      * @var \CWM\BroadWorksConnector\Ocip\Models\AlternateNumberEntry|null
      */
     private $alternateEntry02 = null;
@@ -43,7 +43,7 @@ class UserAlternateNumbersGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName alternateEntry03
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AlternateNumberEntry
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:16296
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:16780
      * @var \CWM\BroadWorksConnector\Ocip\Models\AlternateNumberEntry|null
      */
     private $alternateEntry03 = null;
@@ -52,7 +52,7 @@ class UserAlternateNumbersGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName alternateEntry04
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AlternateNumberEntry
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:16296
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:16780
      * @var \CWM\BroadWorksConnector\Ocip\Models\AlternateNumberEntry|null
      */
     private $alternateEntry04 = null;
@@ -61,7 +61,7 @@ class UserAlternateNumbersGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName alternateEntry05
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AlternateNumberEntry
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:16296
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:16780
      * @var \CWM\BroadWorksConnector\Ocip\Models\AlternateNumberEntry|null
      */
     private $alternateEntry05 = null;
@@ -70,7 +70,7 @@ class UserAlternateNumbersGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName alternateEntry06
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AlternateNumberEntry
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:16296
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:16780
      * @var \CWM\BroadWorksConnector\Ocip\Models\AlternateNumberEntry|null
      */
     private $alternateEntry06 = null;
@@ -79,7 +79,7 @@ class UserAlternateNumbersGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName alternateEntry07
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AlternateNumberEntry
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:16296
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:16780
      * @var \CWM\BroadWorksConnector\Ocip\Models\AlternateNumberEntry|null
      */
     private $alternateEntry07 = null;
@@ -88,7 +88,7 @@ class UserAlternateNumbersGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName alternateEntry08
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AlternateNumberEntry
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:16296
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:16780
      * @var \CWM\BroadWorksConnector\Ocip\Models\AlternateNumberEntry|null
      */
     private $alternateEntry08 = null;
@@ -97,7 +97,7 @@ class UserAlternateNumbersGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName alternateEntry09
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AlternateNumberEntry
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:16296
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:16780
      * @var \CWM\BroadWorksConnector\Ocip\Models\AlternateNumberEntry|null
      */
     private $alternateEntry09 = null;
@@ -106,7 +106,7 @@ class UserAlternateNumbersGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName alternateEntry10
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AlternateNumberEntry
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:16296
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:16780
      * @var \CWM\BroadWorksConnector\Ocip\Models\AlternateNumberEntry|null
      */
     private $alternateEntry10 = null;

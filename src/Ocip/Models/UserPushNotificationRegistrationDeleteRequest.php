@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:3214","type":"sequence"}]
+ * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:3424","type":"sequence"}]
  */
 class UserPushNotificationRegistrationDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserPushNotificationRegistrationDeleteRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName registrationId
      * @Type string
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:3214
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:3424
      * @var string|null
      */
     private $registrationId = null;

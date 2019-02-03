@@ -14,7 +14,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:3257","type":"sequence"}]
+ * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:3253","type":"sequence"}]
  */
 class GroupCallCenterDistinctiveRingingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -22,7 +22,7 @@ class GroupCallCenterDistinctiveRingingModifyRequest extends \CWM\BroadWorksConn
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group e2c537e3e39483b96620673a7012ffdd:3257
+     * @Group e2c537e3e39483b96620673a7012ffdd:3253
      * @var string|null
      */
     private $serviceUserId = null;
@@ -31,7 +31,7 @@ class GroupCallCenterDistinctiveRingingModifyRequest extends \CWM\BroadWorksConn
      * @ElementName distinctiveRingingCallCenterCalls
      * @Type bool
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:3257
+     * @Group e2c537e3e39483b96620673a7012ffdd:3253
      * @var bool|null
      */
     private $distinctiveRingingCallCenterCalls = null;
@@ -40,7 +40,7 @@ class GroupCallCenterDistinctiveRingingModifyRequest extends \CWM\BroadWorksConn
      * @ElementName distinctiveRingingRingPatternForCallCenter
      * @Type \CWM\BroadWorksConnector\Ocip\Models\RingPattern
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:3257
+     * @Group e2c537e3e39483b96620673a7012ffdd:3253
      * @var \CWM\BroadWorksConnector\Ocip\Models\RingPattern|null
      */
     private $distinctiveRingingRingPatternForCallCenter = null;
@@ -49,7 +49,7 @@ class GroupCallCenterDistinctiveRingingModifyRequest extends \CWM\BroadWorksConn
      * @ElementName distinctiveRingingForceDeliveryRingPattern
      * @Type \CWM\BroadWorksConnector\Ocip\Models\RingPattern
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:3257
+     * @Group e2c537e3e39483b96620673a7012ffdd:3253
      * @var \CWM\BroadWorksConnector\Ocip\Models\RingPattern|null
      */
     private $distinctiveRingingForceDeliveryRingPattern = null;

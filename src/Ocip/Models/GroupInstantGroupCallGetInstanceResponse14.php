@@ -6,10 +6,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupInstantGroupCallGetInstanceResponse14
  *
  * Response to GroupInstantGroupCallGetInstanceRequest14.
- *         Contains the service profile information and a list of phone numbers.
+ *                 Contains the service profile information and a list of phone numbers.
  *
  * @see GroupInstantGroupCallGetInstanceRequest14
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:13505","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:13889","type":"sequence"}]
  */
 class GroupInstantGroupCallGetInstanceResponse14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class GroupInstantGroupCallGetInstanceResponse14 extends \CWM\BroadWorksConnecto
     /**
      * @ElementName serviceInstanceProfile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:13505
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:13889
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile|null
      */
     private $serviceInstanceProfile = null;
@@ -27,7 +27,7 @@ class GroupInstantGroupCallGetInstanceResponse14 extends \CWM\BroadWorksConnecto
      * @Type string
      * @Array
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:13505
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:13889
      * @var string[]
      */
     private $destinationPhoneNumber = array(
@@ -37,7 +37,7 @@ class GroupInstantGroupCallGetInstanceResponse14 extends \CWM\BroadWorksConnecto
     /**
      * @ElementName isAnswerTimeoutEnabled
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:13505
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:13889
      * @var bool|null
      */
     private $isAnswerTimeoutEnabled = null;
@@ -46,7 +46,7 @@ class GroupInstantGroupCallGetInstanceResponse14 extends \CWM\BroadWorksConnecto
      * @ElementName answerTimeoutMinutes
      * @Type int
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:13505
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:13889
      * @var int|null
      */
     private $answerTimeoutMinutes = null;

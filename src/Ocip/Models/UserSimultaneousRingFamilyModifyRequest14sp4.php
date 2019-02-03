@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserSimultaneousRingFamilyModifyRequest14sp4
  *
  * Modify the user's simultaneous ring family service setting.
- *         The response is either a SuccessResponse or an ErrorResponse.
+ *                 The response is either a SuccessResponse or an ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:17037","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:17592","type":"sequence"}]
  */
 class UserSimultaneousRingFamilyModifyRequest14sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserSimultaneousRingFamilyModifyRequest14sp4 extends \CWM\BroadWorksConnec
     /**
      * @ElementName userId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:17037
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:17592
      * @var string|null
      */
     private $userId = null;
@@ -27,7 +27,7 @@ class UserSimultaneousRingFamilyModifyRequest14sp4 extends \CWM\BroadWorksConnec
      * @ElementName isActive
      * @Type bool
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:17037
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:17592
      * @var bool|null
      */
     private $isActive = null;
@@ -36,7 +36,7 @@ class UserSimultaneousRingFamilyModifyRequest14sp4 extends \CWM\BroadWorksConnec
      * @ElementName incomingCalls
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SimultaneousRingSelection
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:17037
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:17592
      * @var \CWM\BroadWorksConnector\Ocip\Models\SimultaneousRingSelection|null
      */
     private $incomingCalls = null;

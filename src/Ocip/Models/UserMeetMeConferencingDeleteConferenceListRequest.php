@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"0fd24121d16995c994d40bc408dbcfa5:558","type":"sequence"}]
+ * @Groups [{"id":"0fd24121d16995c994d40bc408dbcfa5:609","type":"sequence"}]
  */
 class UserMeetMeConferencingDeleteConferenceListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserMeetMeConferencingDeleteConferenceListRequest extends \CWM\BroadWorksC
     /**
      * @ElementName userId
      * @Type string
-     * @Group 0fd24121d16995c994d40bc408dbcfa5:558
+     * @Group 0fd24121d16995c994d40bc408dbcfa5:609
      * @var string|null
      */
     private $userId = null;
@@ -27,7 +27,7 @@ class UserMeetMeConferencingDeleteConferenceListRequest extends \CWM\BroadWorksC
      * @ElementName conferenceKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceKey
      * @Array
-     * @Group 0fd24121d16995c994d40bc408dbcfa5:558
+     * @Group 0fd24121d16995c994d40bc408dbcfa5:609
      * @var \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceKey[]
      */
     private $conferenceKey = array(

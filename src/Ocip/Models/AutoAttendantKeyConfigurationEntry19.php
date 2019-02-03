@@ -17,7 +17,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Attendants:
  *         submenuId
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:581","type":"sequence"}]
+ * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:597","type":"sequence"}]
  */
 class AutoAttendantKeyConfigurationEntry19
 {
@@ -26,7 +26,7 @@ class AutoAttendantKeyConfigurationEntry19
      * @ElementName description
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:581
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:597
      * @var string|null
      */
     private $description = null;
@@ -34,7 +34,7 @@ class AutoAttendantKeyConfigurationEntry19
     /**
      * @ElementName action
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantKeyAction
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:581
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:597
      * @var \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantKeyAction|null
      */
     private $action = null;
@@ -43,7 +43,7 @@ class AutoAttendantKeyConfigurationEntry19
      * @ElementName phoneNumber
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:581
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:597
      * @var string|null
      */
     private $phoneNumber = null;
@@ -52,7 +52,7 @@ class AutoAttendantKeyConfigurationEntry19
      * @ElementName audioFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:581
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:597
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null
      */
     private $audioFile = null;
@@ -61,7 +61,7 @@ class AutoAttendantKeyConfigurationEntry19
      * @ElementName videoFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:581
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:597
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null
      */
     private $videoFile = null;
@@ -70,7 +70,7 @@ class AutoAttendantKeyConfigurationEntry19
      * @ElementName submenuId
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:581
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:597
      * @var string|null
      */
     private $submenuId = null;

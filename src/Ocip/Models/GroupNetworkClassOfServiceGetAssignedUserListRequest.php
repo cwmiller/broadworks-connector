@@ -8,10 +8,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get a list of users within a group that have a given Network Class
  *         of Service assigned.
  *         The response is either a GroupNetworkClassOfServiceGetAssignedUserListResponse 
- *         or an ErorResponse.
+ *         or an ErrorResponse.
  *
  * @see GroupNetworkClassOfServiceGetAssignedUserListResponse
- * @see ErorResponse
+ * @see ErrorResponse
  * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:2582","type":"sequence"}]
  */
 class GroupNetworkClassOfServiceGetAssignedUserListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest

@@ -6,9 +6,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * CPEDeviceOptions
  *
  * CPE device's options.
- *         Replaced by: CPEDeviceOptions14sp6
+ *                 Replaced by: CPEDeviceOptions14sp6
  *
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:41547","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:43154","type":"sequence"}]
  */
 class CPEDeviceOptions
 {
@@ -16,7 +16,7 @@ class CPEDeviceOptions
     /**
      * @ElementName enableMonitoring
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:41547
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:43154
      * @var bool|null
      */
     private $enableMonitoring = null;
@@ -25,7 +25,7 @@ class CPEDeviceOptions
      * @ElementName resetEvent
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CPEDeviceResetEventType
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:41547
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:43154
      * @var \CWM\BroadWorksConnector\Ocip\Models\CPEDeviceResetEventType|null
      */
     private $resetEvent = null;
@@ -33,7 +33,7 @@ class CPEDeviceOptions
     /**
      * @ElementName configType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationType14
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:41547
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:43154
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationType14|null
      */
     private $configType = null;
@@ -41,7 +41,7 @@ class CPEDeviceOptions
     /**
      * @ElementName systemFileName
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:41547
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:43154
      * @var string|null
      */
     private $systemFileName = null;
@@ -49,7 +49,7 @@ class CPEDeviceOptions
     /**
      * @ElementName deviceFileFormat
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:41547
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:43154
      * @var string|null
      */
     private $deviceFileFormat = null;

@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupDialPlanPolicyGetResponse
  *
  * Response to GroupDialPlanPolicyGetRequest
- *         Replaced by: GroupDialPlanPolicyGetResponse17
+ *                 Replaced by: GroupDialPlanPolicyGetResponse17
  *
  * @see GroupDialPlanPolicyGetRequest
  * @see GroupDialPlanPolicyGetResponse17
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:13195","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:13579","type":"sequence"}]
  */
 class GroupDialPlanPolicyGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class GroupDialPlanPolicyGetResponse extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName useSetting
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupDialPlanPolicySettingLevel
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:13195
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:13579
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupDialPlanPolicySettingLevel|null
      */
     private $useSetting = null;
@@ -26,7 +26,7 @@ class GroupDialPlanPolicyGetResponse extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName requiresAccessCodeForPublicCalls
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:13195
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:13579
      * @var bool|null
      */
     private $requiresAccessCodeForPublicCalls = null;
@@ -34,7 +34,7 @@ class GroupDialPlanPolicyGetResponse extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName allowE164PublicCalls
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:13195
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:13579
      * @var bool|null
      */
     private $allowE164PublicCalls = null;
@@ -43,7 +43,7 @@ class GroupDialPlanPolicyGetResponse extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName publicDigitMap
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:13195
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:13579
      * @var string|null
      */
     private $publicDigitMap = null;
@@ -52,7 +52,7 @@ class GroupDialPlanPolicyGetResponse extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName privateDigitMap
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:13195
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:13579
      * @var string|null
      */
     private $privateDigitMap = null;

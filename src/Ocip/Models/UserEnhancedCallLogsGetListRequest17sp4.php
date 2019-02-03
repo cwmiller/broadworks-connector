@@ -6,22 +6,23 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserEnhancedCallLogsGetListRequest17sp4
  *
  * Request user's call logs.
- *         If the callLogType is not specified, all types of calls logs (placed, received, missed) are returned.
- *         The filters "dateTimeRange", "numberFilter", "redirectedNumberFilter", accountAuthorizationCodeFilter"
- *         and ""subscriberType" are ignored if call logs are stored in CDS. When "ReceivedOrMissed" is specified
- *         as "callLogType" and call logs are stored in CDS, all call logs including placed will be returned.
- *         It is possible to restrict the number of rows returned using responsePagingControl. If responsePagingControl
- *         is not specified, the value of Enhanced Call Logs system parameter maxNonPagedResponseSize will control
- *         the maximum number of call logs can be returned. 
- *         The response is either a UserEnhancedCallLogsGetListResponse17sp4 or an ErrorResponse.
- *         Replaced by UserEnhancedCallLogsGetListRequest17sp4V2.
- *         Originally deprecated in release 20.
+ *                 If the callLogType is not specified, all types of calls logs (placed, received, missed) are returned.
+ *                 The filters "dateTimeRange", "numberFilter", "redirectedNumberFilter", accountAuthorizationCodeFilter"
+ *                 and ""subscriberType" are ignored if call logs are stored in CDS. When "ReceivedOrMissed" is specified
+ *                 as "callLogType" and call logs are stored in CDS, all call logs including placed will be returned.
+ *                 It is possible to restrict the number of rows returned using responsePagingControl. If
+ *                 responsePagingControl
+ *                 is not specified, the value of Enhanced Call Logs system parameter maxNonPagedResponseSize will control
+ *                 the maximum number of call logs can be returned.
+ *                 The response is either a UserEnhancedCallLogsGetListResponse17sp4 or an ErrorResponse.
+ *                 Replaced by UserEnhancedCallLogsGetListRequest17sp4V2.
+ *                 Originally deprecated in release 20.
  *
  * @see maxNonPagedResponseS
  * @see UserEnhancedCallLogsGetListResponse17sp4
  * @see ErrorResponse
  * @see UserEnhancedCallLogsGetListRequest17sp4V2
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:22627","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:23415","type":"sequence"}]
  */
 class UserEnhancedCallLogsGetListRequest17sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -29,7 +30,7 @@ class UserEnhancedCallLogsGetListRequest17sp4 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName userId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:22627
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:23415
      * @var string|null
      */
     private $userId = null;
@@ -38,7 +39,7 @@ class UserEnhancedCallLogsGetListRequest17sp4 extends \CWM\BroadWorksConnector\O
      * @ElementName callLogType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EnhancedCallLogsCallLogsRequestType
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:22627
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:23415
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnhancedCallLogsCallLogsRequestType|null
      */
     private $callLogType = null;
@@ -46,7 +47,7 @@ class UserEnhancedCallLogsGetListRequest17sp4 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName dateTimeRange
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EnhancedCallLogsTimeRange
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:22627
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:23415
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnhancedCallLogsTimeRange|null
      */
     private $dateTimeRange = null;
@@ -55,7 +56,7 @@ class UserEnhancedCallLogsGetListRequest17sp4 extends \CWM\BroadWorksConnector\O
      * @ElementName numberFilter
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EnhancedCallLogsNumberFilter
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:22627
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:23415
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnhancedCallLogsNumberFilter|null
      */
     private $numberFilter = null;
@@ -64,7 +65,7 @@ class UserEnhancedCallLogsGetListRequest17sp4 extends \CWM\BroadWorksConnector\O
      * @ElementName redirectedNumberFilter
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EnhancedCallLogsRedirectedNumberFilter
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:22627
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:23415
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnhancedCallLogsRedirectedNumberFilter|null
      */
     private $redirectedNumberFilter = null;
@@ -73,7 +74,7 @@ class UserEnhancedCallLogsGetListRequest17sp4 extends \CWM\BroadWorksConnector\O
      * @ElementName accountAuthorizationCodeFilter
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EnhancedCallLogsAccountAuthorizationCodeFilter
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:22627
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:23415
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnhancedCallLogsAccountAuthorizationCodeFilter|null
      */
     private $accountAuthorizationCodeFilter = null;
@@ -82,7 +83,7 @@ class UserEnhancedCallLogsGetListRequest17sp4 extends \CWM\BroadWorksConnector\O
      * @ElementName subscriberType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EnhancedCallLogsSubscriberType
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:22627
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:23415
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnhancedCallLogsSubscriberType|null
      */
     private $subscriberType = null;
@@ -91,7 +92,7 @@ class UserEnhancedCallLogsGetListRequest17sp4 extends \CWM\BroadWorksConnector\O
      * @ElementName responsePagingControl
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:22627
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:23415
      * @var \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl|null
      */
     private $responsePagingControl = null;

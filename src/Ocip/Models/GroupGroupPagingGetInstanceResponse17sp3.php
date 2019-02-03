@@ -6,13 +6,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupGroupPagingGetInstanceResponse17sp3
  *
  * Response to GroupGroupPagingGetInstanceRequest17sp3.
- *         Contains the service profile information.
- *         
- *         Replaced by: GroupGroupPagingGetInstanceResponse19sp1
+ *                 Contains the service profile information.
+ *
+ *                 Replaced by: GroupGroupPagingGetInstanceResponse19sp1
  *
  * @see GroupGroupPagingGetInstanceRequest17sp3
  * @see GroupGroupPagingGetInstanceResponse19sp1
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:29040","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:30108","type":"sequence"}]
  */
 class GroupGroupPagingGetInstanceResponse17sp3 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -20,7 +20,7 @@ class GroupGroupPagingGetInstanceResponse17sp3 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName serviceInstanceProfile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile17
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:29040
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:30108
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile17|null
      */
     private $serviceInstanceProfile = null;
@@ -28,7 +28,7 @@ class GroupGroupPagingGetInstanceResponse17sp3 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName confirmationToneTimeoutSeconds
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:29040
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:30108
      * @var int|null
      */
     private $confirmationToneTimeoutSeconds = null;
@@ -36,7 +36,7 @@ class GroupGroupPagingGetInstanceResponse17sp3 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName deliverOriginatorCLIDInstead
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:29040
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:30108
      * @var bool|null
      */
     private $deliverOriginatorCLIDInstead = null;
@@ -45,7 +45,7 @@ class GroupGroupPagingGetInstanceResponse17sp3 extends \CWM\BroadWorksConnector\
      * @ElementName originatorCLIDPrefix
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:29040
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:30108
      * @var string|null
      */
     private $originatorCLIDPrefix = null;

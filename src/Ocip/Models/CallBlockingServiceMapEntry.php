@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * The call blocking service map entry.
  *
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:17630","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:18472","type":"sequence"}]
  */
 class CallBlockingServiceMapEntry
 {
@@ -15,7 +15,7 @@ class CallBlockingServiceMapEntry
     /**
      * @ElementName callBlockingService
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallBlockingService23
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17630
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18472
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallBlockingService23|null
      */
     private $callBlockingService = null;
@@ -24,7 +24,7 @@ class CallBlockingServiceMapEntry
      * @ElementName treatmentId
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17630
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18472
      * @var string|null
      */
     private $treatmentId = null;

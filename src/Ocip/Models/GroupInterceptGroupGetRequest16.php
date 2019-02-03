@@ -6,13 +6,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupInterceptGroupGetRequest16
  *
  * Get the group's intercept group service settings.
- *         The response is either a GroupInterceptGroupGetResponse16 or an ErrorResponse.
- *         Replaced By: GroupInterceptGroupGetRequest16sp1
+ *                 The response is either a GroupInterceptGroupGetResponse16 or an ErrorResponse.
+ *                 Replaced By: GroupInterceptGroupGetRequest16sp1
  *
  * @see GroupInterceptGroupGetResponse16
  * @see ErrorResponse
  * @see GroupInterceptGroupGetRequest16sp1
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:8794","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:9079","type":"sequence"}]
  */
 class GroupInterceptGroupGetRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class GroupInterceptGroupGetRequest16 extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:8794
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:9079
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -28,7 +28,7 @@ class GroupInterceptGroupGetRequest16 extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName groupId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:8794
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:9079
      * @var string|null
      */
     private $groupId = null;

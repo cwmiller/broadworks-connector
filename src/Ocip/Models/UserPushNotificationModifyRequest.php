@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:3197","type":"sequence"}]
+ * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:3407","type":"sequence"}]
  */
 class UserPushNotificationModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserPushNotificationModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName userId
      * @Type string
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:3197
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:3407
      * @var string|null
      */
     private $userId = null;
@@ -27,7 +27,7 @@ class UserPushNotificationModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName sendPushNotificationForClickToDial
      * @Type bool
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:3197
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:3407
      * @var bool|null
      */
     private $sendPushNotificationForClickToDial = null;

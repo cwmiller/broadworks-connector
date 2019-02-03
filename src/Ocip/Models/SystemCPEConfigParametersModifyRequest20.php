@@ -6,14 +6,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemCPEConfigParametersModifyRequest20
  *
  * Request to modify CPE Config system parameters.
- *         The response is either SuccessResponse or ErrorResponse.
- *         
- *         Replaced by: SystemCPEConfigParametersModifyRequest21
+ *                 The response is either SuccessResponse or ErrorResponse.
+ *
+ *                 Replaced by: SystemCPEConfigParametersModifyRequest21
  *
  * @see SuccessResponse
  * @see ErrorResponse
  * @see SystemCPEConfigParametersModifyRequest21
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:33357","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:34636","type":"sequence"}]
  */
 class SystemCPEConfigParametersModifyRequest20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -22,7 +22,7 @@ class SystemCPEConfigParametersModifyRequest20 extends \CWM\BroadWorksConnector\
      * @ElementName enableIPDeviceManagement
      * @Type bool
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:33357
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:34636
      * @var bool|null
      */
     private $enableIPDeviceManagement = null;
@@ -31,7 +31,7 @@ class SystemCPEConfigParametersModifyRequest20 extends \CWM\BroadWorksConnector\
      * @ElementName ftpConnectTimeoutSeconds
      * @Type int
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:33357
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:34636
      * @var int|null
      */
     private $ftpConnectTimeoutSeconds = null;
@@ -40,7 +40,7 @@ class SystemCPEConfigParametersModifyRequest20 extends \CWM\BroadWorksConnector\
      * @ElementName ftpFileTransferTimeoutSeconds
      * @Type int
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:33357
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:34636
      * @var int|null
      */
     private $ftpFileTransferTimeoutSeconds = null;
@@ -49,7 +49,7 @@ class SystemCPEConfigParametersModifyRequest20 extends \CWM\BroadWorksConnector\
      * @ElementName pauseBetweenFileRebuildMilliseconds
      * @Type int
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:33357
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:34636
      * @var int|null
      */
     private $pauseBetweenFileRebuildMilliseconds = null;
@@ -58,7 +58,7 @@ class SystemCPEConfigParametersModifyRequest20 extends \CWM\BroadWorksConnector\
      * @ElementName maxBusyTimeMinutes
      * @Type int
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:33357
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:34636
      * @var int|null
      */
     private $maxBusyTimeMinutes = null;
@@ -68,7 +68,7 @@ class SystemCPEConfigParametersModifyRequest20 extends \CWM\BroadWorksConnector\
      * @Type string
      * @Nillable
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:33357
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:34636
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $deviceAccessAppServerClusterName = null;

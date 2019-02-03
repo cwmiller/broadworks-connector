@@ -6,14 +6,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupAccessDeviceFileGetRequest16sp1
  *
  * Request to get a group device profile file.
- *         The response is either GroupAccessDeviceFileGetResponse16sp1 or ErrorResponse.
- *         
- *         Replaced by: GroupAccessDeviceFileGetRequest20
+ *                 The response is either GroupAccessDeviceFileGetResponse16sp1 or ErrorResponse.
+ *
+ *                 Replaced by: GroupAccessDeviceFileGetRequest20
  *
  * @see GroupAccessDeviceFileGetResponse16sp1
  * @see ErrorResponse
  * @see GroupAccessDeviceFileGetRequest20
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:39354","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:40893","type":"sequence"}]
  */
 class GroupAccessDeviceFileGetRequest16sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,7 +21,7 @@ class GroupAccessDeviceFileGetRequest16sp1 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:39354
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:40893
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -29,7 +29,7 @@ class GroupAccessDeviceFileGetRequest16sp1 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName groupId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:39354
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:40893
      * @var string|null
      */
     private $groupId = null;
@@ -37,7 +37,7 @@ class GroupAccessDeviceFileGetRequest16sp1 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName deviceName
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:39354
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:40893
      * @var string|null
      */
     private $deviceName = null;
@@ -45,7 +45,7 @@ class GroupAccessDeviceFileGetRequest16sp1 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName fileFormat
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:39354
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:40893
      * @var string|null
      */
     private $fileFormat = null;

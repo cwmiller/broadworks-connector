@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * The NS treatment map entry.
  *
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:17728","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:18570","type":"sequence"}]
  */
 class NSTreatmentMapEntry
 {
@@ -15,7 +15,7 @@ class NSTreatmentMapEntry
     /**
      * @ElementName nsTreatment
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17728
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18570
      * @var string|null
      */
     private $nsTreatment = null;
@@ -24,7 +24,7 @@ class NSTreatmentMapEntry
      * @ElementName treatmentId
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17728
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18570
      * @var string|null
      */
     private $treatmentId = null;

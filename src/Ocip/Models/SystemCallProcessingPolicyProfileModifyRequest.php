@@ -6,14 +6,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemCallProcessingPolicyProfileModifyRequest
  *
  * Modify a call processing policy profile in system.
- *         The response is either a SuccessResponse or an ErrorResponse.
- *         
- *         Replaced by SystemCallProcessingPolicyProfileModifyRequest20.
+ *                 The response is either a SuccessResponse or an ErrorResponse.
+ *
+ *                 Replaced by SystemCallProcessingPolicyProfileModifyRequest20.
  *
  * @see SuccessResponse
  * @see ErrorResponse
  * @see SystemCallProcessingPolicyProfileModifyRequest20
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:30415","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:31545","type":"sequence"}]
  */
 class SystemCallProcessingPolicyProfileModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,7 +21,7 @@ class SystemCallProcessingPolicyProfileModifyRequest extends \CWM\BroadWorksConn
     /**
      * @ElementName name
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:30415
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:31545
      * @var string|null
      */
     private $name = null;
@@ -30,7 +30,7 @@ class SystemCallProcessingPolicyProfileModifyRequest extends \CWM\BroadWorksConn
      * @ElementName newName
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:30415
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:31545
      * @var string|null
      */
     private $newName = null;
@@ -40,7 +40,7 @@ class SystemCallProcessingPolicyProfileModifyRequest extends \CWM\BroadWorksConn
      * @Type string
      * @Nillable
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:30415
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:31545
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $description = null;
@@ -50,7 +50,7 @@ class SystemCallProcessingPolicyProfileModifyRequest extends \CWM\BroadWorksConn
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementCallProcessingPolicyProfileSubscriberTypeList
      * @Nillable
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:30415
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:31545
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementCallProcessingPolicyProfileSubscriberTypeList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $assignedSubscriberTypeList = null;

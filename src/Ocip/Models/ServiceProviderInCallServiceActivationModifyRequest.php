@@ -5,13 +5,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * ServiceProviderInCallServiceActivationModifyRequest
  *
- * Modifies the service provider's DTMF based in-call service activation trigger attributes.The response is either a SuccessResponse or an ErrorResponse.
- *           Replaced by: ServiceProviderInCallServiceActivationModifyRequest17
+ * Modifies the service provider's DTMF based in-call service activation trigger attributes.
+ *                 The response is either a SuccessResponse or an ErrorResponse.
+ *                 Replaced by: ServiceProviderInCallServiceActivationModifyRequest17
  *
  * @see SuccessResponse
  * @see ErrorResponse
  * @see ServiceProviderInCallServiceActivationModifyRequest17
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:14336","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:14749","type":"sequence"}]
  */
 class ServiceProviderInCallServiceActivationModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +20,7 @@ class ServiceProviderInCallServiceActivationModifyRequest extends \CWM\BroadWork
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:14336
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:14749
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -28,7 +29,7 @@ class ServiceProviderInCallServiceActivationModifyRequest extends \CWM\BroadWork
      * @ElementName activationDigits
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:14336
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:14749
      * @var string|null
      */
     private $activationDigits = null;

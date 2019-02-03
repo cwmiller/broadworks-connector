@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemCallTypeGetMappingListResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:4628","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:4926","type":"sequence"}]
  */
 class SystemCallTypeGetMappingListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class SystemCallTypeGetMappingListRequest extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName countryCode
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:4628
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:4926
      * @var string|null
      */
     private $countryCode = null;

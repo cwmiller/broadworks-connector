@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see ResellerIntegratedIMPGetResponse
  * @see ErrorResponse
  * @see ResellerIntegratedIMPGetRequest22
- * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:5528","type":"sequence"}]
+ * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:5530","type":"sequence"}]
  */
 class ResellerIntegratedIMPGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,7 +21,7 @@ class ResellerIntegratedIMPGetRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName resellerId
      * @Type string
-     * @Group de4d76f01f337fe4694212ec9f771753:5528
+     * @Group de4d76f01f337fe4694212ec9f771753:5530
      * @var string|null
      */
     private $resellerId = null;

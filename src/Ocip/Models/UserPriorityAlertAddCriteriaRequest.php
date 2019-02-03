@@ -5,12 +5,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * UserPriorityAlertAddCriteriaRequest
  *
- * Add a criteria to the user's priority alert service.        
- *          The response is either a SuccessResponse or an ErrorResponse.
+ * Add a criteria to the user's priority alert service.
+ *                 The response is either a SuccessResponse or an ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:11292","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:11619","type":"sequence"}]
  */
 class UserPriorityAlertAddCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserPriorityAlertAddCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName userId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:11292
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:11619
      * @var string|null
      */
     private $userId = null;
@@ -26,7 +26,7 @@ class UserPriorityAlertAddCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName criteriaName
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:11292
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:11619
      * @var string|null
      */
     private $criteriaName = null;
@@ -35,7 +35,7 @@ class UserPriorityAlertAddCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName timeSchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:11292
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:11619
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null
      */
     private $timeSchedule = null;
@@ -43,7 +43,7 @@ class UserPriorityAlertAddCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName fromDnCriteria
      * @Type \CWM\BroadWorksConnector\Ocip\Models\PriorityAlertCriteriaFromDn
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:11292
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:11619
      * @var \CWM\BroadWorksConnector\Ocip\Models\PriorityAlertCriteriaFromDn|null
      */
     private $fromDnCriteria = null;

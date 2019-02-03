@@ -6,19 +6,19 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemSubscriberModifyCallProcessingParametersRequest
  *
  * Modify the system call processing configuration for all subscribers.
- *         The response is either a SuccessResponse or an ErrorResponse.
- *         The following elements are only used in AS data mode and ignored in the XS data mode:
- *           userCallingLineIdSelection
- *           isExtendedCallingLineIdActive
- *           isRingTimeOutActive
- *           ringTimeoutSeconds
- *           allowEmergencyRemoteOfficeOriginations
- *         Replaced By: SystemSubscriberModifyCallProcessingParametersRequest14sp7
+ *                 The response is either a SuccessResponse or an ErrorResponse.
+ *                 The following elements are only used in AS data mode and ignored in the XS data mode:
+ *                 userCallingLineIdSelection
+ *                 isExtendedCallingLineIdActive
+ *                 isRingTimeOutActive
+ *                 ringTimeoutSeconds
+ *                 allowEmergencyRemoteOfficeOriginations
+ *                 Replaced By: SystemSubscriberModifyCallProcessingParametersRequest14sp7
  *
  * @see SuccessResponse
  * @see ErrorResponse
  * @see SystemSubscriberModifyCallProcessingParametersRequest14sp7
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:6417","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:6627","type":"sequence"}]
  */
 class SystemSubscriberModifyCallProcessingParametersRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -27,7 +27,7 @@ class SystemSubscriberModifyCallProcessingParametersRequest extends \CWM\BroadWo
      * @ElementName userCallingLineIdSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemUserCallingLineIdSelection
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:6417
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:6627
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemUserCallingLineIdSelection|null
      */
     private $userCallingLineIdSelection = null;
@@ -36,7 +36,7 @@ class SystemSubscriberModifyCallProcessingParametersRequest extends \CWM\BroadWo
      * @ElementName isExtendedCallingLineIdActive
      * @Type bool
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:6417
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:6627
      * @var bool|null
      */
     private $isExtendedCallingLineIdActive = null;
@@ -45,7 +45,7 @@ class SystemSubscriberModifyCallProcessingParametersRequest extends \CWM\BroadWo
      * @ElementName isRingTimeOutActive
      * @Type bool
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:6417
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:6627
      * @var bool|null
      */
     private $isRingTimeOutActive = null;
@@ -54,7 +54,7 @@ class SystemSubscriberModifyCallProcessingParametersRequest extends \CWM\BroadWo
      * @ElementName ringTimeoutSeconds
      * @Type int
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:6417
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:6627
      * @var int|null
      */
     private $ringTimeoutSeconds = null;
@@ -63,7 +63,7 @@ class SystemSubscriberModifyCallProcessingParametersRequest extends \CWM\BroadWo
      * @ElementName allowEmergencyRemoteOfficeOriginations
      * @Type bool
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:6417
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:6627
      * @var bool|null
      */
     private $allowEmergencyRemoteOfficeOriginations = null;
@@ -72,7 +72,7 @@ class SystemSubscriberModifyCallProcessingParametersRequest extends \CWM\BroadWo
      * @ElementName maxNoAnswerNumberOfRings
      * @Type int
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:6417
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:6627
      * @var int|null
      */
     private $maxNoAnswerNumberOfRings = null;

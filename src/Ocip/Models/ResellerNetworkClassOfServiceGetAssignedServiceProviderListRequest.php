@@ -8,11 +8,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get a list of service provider/enterprises within a reseller that have a given
  *         Network Class of Service assigned.
  *         The response is either a ResellerNetworkClassOfServiceGetAssignedServiceProviderListResponse 
- *         or an ErorResponse.
+ *         or an ErrorResponse.
  *
  * @see ResellerNetworkClassOfServiceGetAssignedServiceProviderListResponse
- * @see ErorResponse
- * @Groups [{"id":"b009175f2a2a9d38115e319a6ad64d7f:521","type":"sequence"}]
+ * @see ErrorResponse
+ * @Groups [{"id":"b009175f2a2a9d38115e319a6ad64d7f:520","type":"sequence"}]
  */
 class ResellerNetworkClassOfServiceGetAssignedServiceProviderListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class ResellerNetworkClassOfServiceGetAssignedServiceProviderListRequest extends
     /**
      * @ElementName resellerId
      * @Type string
-     * @Group b009175f2a2a9d38115e319a6ad64d7f:521
+     * @Group b009175f2a2a9d38115e319a6ad64d7f:520
      * @var string|null
      */
     private $resellerId = null;
@@ -28,7 +28,7 @@ class ResellerNetworkClassOfServiceGetAssignedServiceProviderListRequest extends
     /**
      * @ElementName networkClassOfService
      * @Type string
-     * @Group b009175f2a2a9d38115e319a6ad64d7f:521
+     * @Group b009175f2a2a9d38115e319a6ad64d7f:520
      * @var string|null
      */
     private $networkClassOfService = null;
@@ -37,7 +37,7 @@ class ResellerNetworkClassOfServiceGetAssignedServiceProviderListRequest extends
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group b009175f2a2a9d38115e319a6ad64d7f:521
+     * @Group b009175f2a2a9d38115e319a6ad64d7f:520
      * @var int|null
      */
     private $responseSizeLimit = null;
@@ -47,7 +47,7 @@ class ResellerNetworkClassOfServiceGetAssignedServiceProviderListRequest extends
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderId
      * @Array
      * @Optional
-     * @Group b009175f2a2a9d38115e319a6ad64d7f:521
+     * @Group b009175f2a2a9d38115e319a6ad64d7f:520
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderId[]
      */
     private $searchCriteriaServiceProviderId = array(
@@ -59,7 +59,7 @@ class ResellerNetworkClassOfServiceGetAssignedServiceProviderListRequest extends
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderName
      * @Array
      * @Optional
-     * @Group b009175f2a2a9d38115e319a6ad64d7f:521
+     * @Group b009175f2a2a9d38115e319a6ad64d7f:520
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderName[]
      */
     private $searchCriteriaServiceProviderName = array(

@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"b009175f2a2a9d38115e319a6ad64d7f:558","type":"sequence"}]
+ * @Groups [{"id":"b009175f2a2a9d38115e319a6ad64d7f:557","type":"sequence"}]
  */
 class ResellerNetworkClassOfServiceModifyDefaultRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class ResellerNetworkClassOfServiceModifyDefaultRequest extends \CWM\BroadWorksC
     /**
      * @ElementName resellerId
      * @Type string
-     * @Group b009175f2a2a9d38115e319a6ad64d7f:558
+     * @Group b009175f2a2a9d38115e319a6ad64d7f:557
      * @var string|null
      */
     private $resellerId = null;
@@ -28,7 +28,7 @@ class ResellerNetworkClassOfServiceModifyDefaultRequest extends \CWM\BroadWorksC
      * @Type string
      * @Nillable
      * @Optional
-     * @Group b009175f2a2a9d38115e319a6ad64d7f:558
+     * @Group b009175f2a2a9d38115e319a6ad64d7f:557
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $networkClassOfService = null;

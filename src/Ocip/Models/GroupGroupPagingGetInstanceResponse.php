@@ -6,12 +6,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupGroupPagingGetInstanceResponse
  *
  * Replaced by: GroupGroupPagingGetInstanceResponse17sp3
- *         Response to GroupGroupPagingGetInstanceRequest.
- *         Contains the service profile information.
+ *                 Response to GroupGroupPagingGetInstanceRequest.
+ *                 Contains the service profile information.
  *
  * @see GroupGroupPagingGetInstanceResponse17sp3
  * @see GroupGroupPagingGetInstanceRequest
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:18920","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:19531","type":"sequence"}]
  */
 class GroupGroupPagingGetInstanceResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,7 +19,7 @@ class GroupGroupPagingGetInstanceResponse extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName serviceInstanceProfile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:18920
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:19531
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile|null
      */
     private $serviceInstanceProfile = null;
@@ -27,7 +27,7 @@ class GroupGroupPagingGetInstanceResponse extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName confirmationToneTimeoutSeconds
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:18920
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:19531
      * @var int|null
      */
     private $confirmationToneTimeoutSeconds = null;
@@ -35,7 +35,7 @@ class GroupGroupPagingGetInstanceResponse extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName deliverOriginatorCLIDInstead
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:18920
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:19531
      * @var bool|null
      */
     private $deliverOriginatorCLIDInstead = null;
@@ -44,7 +44,7 @@ class GroupGroupPagingGetInstanceResponse extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName originatorCLIDPrefix
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:18920
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:19531
      * @var string|null
      */
     private $originatorCLIDPrefix = null;

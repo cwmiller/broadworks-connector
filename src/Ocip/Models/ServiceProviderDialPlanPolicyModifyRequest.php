@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:3059","type":"sequence"}]
+ * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:3055","type":"sequence"}]
  */
 class ServiceProviderDialPlanPolicyModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class ServiceProviderDialPlanPolicyModifyRequest extends \CWM\BroadWorksConnecto
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3059
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3055
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,7 +27,7 @@ class ServiceProviderDialPlanPolicyModifyRequest extends \CWM\BroadWorksConnecto
      * @ElementName requiresAccessCodeForPublicCalls
      * @Type bool
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3059
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3055
      * @var bool|null
      */
     private $requiresAccessCodeForPublicCalls = null;
@@ -36,7 +36,7 @@ class ServiceProviderDialPlanPolicyModifyRequest extends \CWM\BroadWorksConnecto
      * @ElementName allowE164PublicCalls
      * @Type bool
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3059
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3055
      * @var bool|null
      */
     private $allowE164PublicCalls = null;
@@ -45,7 +45,7 @@ class ServiceProviderDialPlanPolicyModifyRequest extends \CWM\BroadWorksConnecto
      * @ElementName preferE164NumberFormatForCallbackServices
      * @Type bool
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3059
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3055
      * @var bool|null
      */
     private $preferE164NumberFormatForCallbackServices = null;
@@ -55,7 +55,7 @@ class ServiceProviderDialPlanPolicyModifyRequest extends \CWM\BroadWorksConnecto
      * @Type string
      * @Nillable
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3059
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3055
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $publicDigitMap = null;
@@ -65,7 +65,7 @@ class ServiceProviderDialPlanPolicyModifyRequest extends \CWM\BroadWorksConnecto
      * @Type string
      * @Nillable
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3059
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3055
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $privateDigitMap = null;

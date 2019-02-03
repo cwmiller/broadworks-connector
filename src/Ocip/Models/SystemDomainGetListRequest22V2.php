@@ -20,7 +20,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemDomainGetListResponse22V2
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:8088","type":"sequence","children":[{"id":"7f663d5135470c33ca64b0eed3c3aa0c:8089","type":"choice"}]}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:8468","type":"sequence","children":[{"id":"7f663d5135470c33ca64b0eed3c3aa0c:8469","type":"choice"}]}]
  */
 class SystemDomainGetListRequest22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -29,7 +29,7 @@ class SystemDomainGetListRequest22V2 extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName excludeReseller
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8089
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8469
      * @var bool|null
      */
     private $excludeReseller = null;
@@ -38,7 +38,7 @@ class SystemDomainGetListRequest22V2 extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName resellerId
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8089
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8469
      * @var string|null
      */
     private $resellerId = null;
@@ -47,7 +47,7 @@ class SystemDomainGetListRequest22V2 extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8088
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8468
      * @var int|null
      */
     private $responseSizeLimit = null;
@@ -57,7 +57,7 @@ class SystemDomainGetListRequest22V2 extends \CWM\BroadWorksConnector\Ocip\Model
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDomainName
      * @Array
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8088
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8468
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDomainName[]
      */
     private $searchCriteriaDomainName = array(

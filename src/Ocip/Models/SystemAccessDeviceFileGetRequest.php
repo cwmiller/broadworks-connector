@@ -6,13 +6,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemAccessDeviceFileGetRequest
  *
  * Request to get a device profile file.
- *           The response is either SystemAccessDeviceFileGetResponse or ErrorResponse.
- *           Replaced By: SystemAccessDeviceFileGetRequest14sp8
+ *                 The response is either SystemAccessDeviceFileGetResponse or ErrorResponse.
+ *                 Replaced By: SystemAccessDeviceFileGetRequest14sp8
  *
  * @see SystemAccessDeviceFileGetResponse
  * @see ErrorResponse
  * @see SystemAccessDeviceFileGetRequest14sp8
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:3873","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:4025","type":"sequence"}]
  */
 class SystemAccessDeviceFileGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class SystemAccessDeviceFileGetRequest extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName deviceName
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:3873
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:4025
      * @var string|null
      */
     private $deviceName = null;
@@ -28,7 +28,7 @@ class SystemAccessDeviceFileGetRequest extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName fileType
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:3873
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:4025
      * @var string|null
      */
     private $fileType = null;

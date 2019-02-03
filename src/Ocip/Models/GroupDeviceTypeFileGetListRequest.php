@@ -5,14 +5,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * GroupDeviceTypeFileGetListRequest
  *
- * Request to get the list of device type files managed by the Device Management System, on a per-group basis.
- *         The response is either GroupDeviceTypeFileGetListResponse or ErrorResponse.
- *         Replaced By: GroupDeviceTypeFileGetListRequest14sp8
+ * Request to get the list of device type files managed by the Device Management System, on a per-group
+ *                 basis.
+ *                 The response is either GroupDeviceTypeFileGetListResponse or ErrorResponse.
+ *                 Replaced By: GroupDeviceTypeFileGetListRequest14sp8
  *
  * @see GroupDeviceTypeFileGetListResponse
  * @see ErrorResponse
  * @see GroupDeviceTypeFileGetListRequest14sp8
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:1385","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:1419","type":"sequence"}]
  */
 class GroupDeviceTypeFileGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +21,7 @@ class GroupDeviceTypeFileGetListRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:1385
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:1419
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -28,7 +29,7 @@ class GroupDeviceTypeFileGetListRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName groupId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:1385
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:1419
      * @var string|null
      */
     private $groupId = null;
@@ -36,7 +37,7 @@ class GroupDeviceTypeFileGetListRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName deviceType
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:1385
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:1419
      * @var string|null
      */
     private $deviceType = null;

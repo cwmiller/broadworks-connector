@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Contains the music on hold source configuration.
  *
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:43086","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:44703","type":"sequence"}]
  */
 class MusicOnHoldSourceModify16
 {
@@ -16,7 +16,7 @@ class MusicOnHoldSourceModify16
      * @ElementName audioFilePreferredCodec
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AudioFileCodec
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:43086
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:44703
      * @var \CWM\BroadWorksConnector\Ocip\Models\AudioFileCodec|null
      */
     private $audioFilePreferredCodec = null;
@@ -25,7 +25,7 @@ class MusicOnHoldSourceModify16
      * @ElementName messageSourceSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldMessageSelection
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:43086
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:44703
      * @var \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldMessageSelection|null
      */
     private $messageSourceSelection = null;
@@ -34,7 +34,7 @@ class MusicOnHoldSourceModify16
      * @ElementName customSource
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceModify16CustomSource
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:43086
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:44703
      * @var \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceModify16CustomSource|null
      */
     private $customSource = null;
@@ -43,7 +43,7 @@ class MusicOnHoldSourceModify16
      * @ElementName externalSource
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceModify16ExternalSource
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:43086
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:44703
      * @var \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceModify16ExternalSource|null
      */
     private $externalSource = null;

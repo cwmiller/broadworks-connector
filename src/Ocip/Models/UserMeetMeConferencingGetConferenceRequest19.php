@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserMeetMeConferencingGetConferenceRequest19
  *
  * Get the information of a conference owned by the user.
- *         The response is either UserMeetMeConferencingGetConferenceResponse19 or ErrorResponse.
+ *                 The response is either UserMeetMeConferencingGetConferenceResponse19 or ErrorResponse.
  *
  * @see UserMeetMeConferencingGetConferenceResponse19
  * @see ErrorResponse
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:31602","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:32760","type":"sequence"}]
  */
 class UserMeetMeConferencingGetConferenceRequest19 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserMeetMeConferencingGetConferenceRequest19 extends \CWM\BroadWorksConnec
     /**
      * @ElementName userId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:31602
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:32760
      * @var string|null
      */
     private $userId = null;
@@ -26,7 +26,7 @@ class UserMeetMeConferencingGetConferenceRequest19 extends \CWM\BroadWorksConnec
     /**
      * @ElementName conferenceKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceKey
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:31602
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:32760
      * @var \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceKey|null
      */
     private $conferenceKey = null;

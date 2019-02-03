@@ -6,14 +6,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserVoiceMessagingUserModifyVoicePortalRequest
  *
  * Modify the user's voice messaging voice portal settings.
- *         The response is either a SuccessResponse or an ErrorResponse.
- *         Engineering Note: This command is used internally by Call Processing.
- *         Replaced By: UserVoiceMessagingUserModifyVoicePortalRequest16
+ *                 The response is either a SuccessResponse or an ErrorResponse.
+ *                 Engineering Note: This command is used internally by Call Processing.
+ *                 Replaced By: UserVoiceMessagingUserModifyVoicePortalRequest16
  *
  * @see SuccessResponse
  * @see ErrorResponse
  * @see UserVoiceMessagingUserModifyVoicePortalRequest16
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:11630","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:11964","type":"sequence"}]
  */
 class UserVoiceMessagingUserModifyVoicePortalRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,7 +21,7 @@ class UserVoiceMessagingUserModifyVoicePortalRequest extends \CWM\BroadWorksConn
     /**
      * @ElementName userId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:11630
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:11964
      * @var string|null
      */
     private $userId = null;
@@ -30,7 +30,7 @@ class UserVoiceMessagingUserModifyVoicePortalRequest extends \CWM\BroadWorksConn
      * @ElementName usePersonalizedName
      * @Type bool
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:11630
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:11964
      * @var bool|null
      */
     private $usePersonalizedName = null;
@@ -39,7 +39,7 @@ class UserVoiceMessagingUserModifyVoicePortalRequest extends \CWM\BroadWorksConn
      * @ElementName voicePortalAutoLogin
      * @Type bool
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:11630
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:11964
      * @var bool|null
      */
     private $voicePortalAutoLogin = null;
@@ -48,7 +48,7 @@ class UserVoiceMessagingUserModifyVoicePortalRequest extends \CWM\BroadWorksConn
      * @ElementName personalizedNameAudioFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:11630
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:11964
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource|null
      */
     private $personalizedNameAudioFile = null;

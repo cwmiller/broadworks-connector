@@ -6,8 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupServiceIsAssignedRequest
  *
  * Request to determine if a GroupService is assigned to the group.
+ *         The response is either GroupServiceIsAssignedResponse or ErrorResponse.
  *
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:6844","type":"sequence"}]
+ * @see GroupServiceIsAssignedResponse
+ * @see ErrorResponse
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:6843","type":"sequence"}]
  */
 class GroupServiceIsAssignedRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -15,7 +18,7 @@ class GroupServiceIsAssignedRequest extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6844
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:6843
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -23,7 +26,7 @@ class GroupServiceIsAssignedRequest extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6844
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:6843
      * @var string|null
      */
     private $groupId = null;
@@ -31,7 +34,7 @@ class GroupServiceIsAssignedRequest extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName serviceName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupService
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6844
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:6843
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupService|null
      */
     private $serviceName = null;

@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *       The endpoint is identified by its linePort (public Identity) and possibly a private Identity.
  *       Port numbers are only used by devices with static line ordering.
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:402","type":"sequence"}]
+ * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:418","type":"sequence"}]
  */
 class AccessDeviceMultipleIdentityEndpointWithType
 {
@@ -17,7 +17,7 @@ class AccessDeviceMultipleIdentityEndpointWithType
     /**
      * @ElementName accessDevice
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDevice
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:402
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:418
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDevice|null
      */
     private $accessDevice = null;
@@ -25,7 +25,7 @@ class AccessDeviceMultipleIdentityEndpointWithType
     /**
      * @ElementName deviceType
      * @Type string
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:402
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:418
      * @var string|null
      */
     private $deviceType = null;
@@ -33,7 +33,7 @@ class AccessDeviceMultipleIdentityEndpointWithType
     /**
      * @ElementName linePort
      * @Type string
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:402
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:418
      * @var string|null
      */
     private $linePort = null;
@@ -42,7 +42,7 @@ class AccessDeviceMultipleIdentityEndpointWithType
      * @ElementName privateIdentity
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:402
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:418
      * @var string|null
      */
     private $privateIdentity = null;
@@ -51,7 +51,7 @@ class AccessDeviceMultipleIdentityEndpointWithType
      * @ElementName contact
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:402
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:418
      * @var string|null
      */
     private $contact = null;
@@ -60,7 +60,7 @@ class AccessDeviceMultipleIdentityEndpointWithType
      * @ElementName portNumber
      * @Type int
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:402
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:418
      * @var int|null
      */
     private $portNumber = null;
@@ -69,7 +69,7 @@ class AccessDeviceMultipleIdentityEndpointWithType
      * @ElementName macAddress
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:402
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:418
      * @var string|null
      */
     private $macAddress = null;

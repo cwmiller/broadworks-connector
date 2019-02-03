@@ -6,15 +6,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemZoneCallingRestrictionsZoneModifyRequest
  *
  * Modifies attributes of a zone in the system.
- *         The response is either a SuccessResponse or an ErrorResponse.
- *         Replaced by: SystemZonePhysicalLocationAddListRequest and
- *         SystemZonePhysicalLocationDeleteListRequest
+ *                 The response is either a SuccessResponse or an ErrorResponse.
+ *                 Replaced by: SystemZonePhysicalLocationAddListRequest and
+ *                 SystemZonePhysicalLocationDeleteListRequest
  *
  * @see SuccessResponse
  * @see ErrorResponse
  * @see SystemZonePhysicalLocationAddListRequest
  * @see SystemZonePhysicalLocationDeleteListRequest
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:16264","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:16748","type":"sequence"}]
  */
 class SystemZoneCallingRestrictionsZoneModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -22,7 +22,7 @@ class SystemZoneCallingRestrictionsZoneModifyRequest extends \CWM\BroadWorksConn
     /**
      * @ElementName zoneName
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:16264
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:16748
      * @var string|null
      */
     private $zoneName = null;
@@ -32,7 +32,7 @@ class SystemZoneCallingRestrictionsZoneModifyRequest extends \CWM\BroadWorksConn
      * @Type string
      * @Nillable
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:16264
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:16748
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $physicalLocation = null;

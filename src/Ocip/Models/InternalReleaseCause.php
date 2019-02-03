@@ -6,7 +6,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * InternalReleaseCause
  *
  * Possible values for the protocol-neutral internal release cause.
- *           Replaced By: InternalReleaseCause16
+ *                 Replaced By: InternalReleaseCause16
  *
  * @method static InternalReleaseCause BUSY()
  * @method static InternalReleaseCause FORBIDDEN()

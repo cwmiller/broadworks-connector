@@ -15,7 +15,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         since January 1, 1970, 00:00:00 GMT, and it is set to the more current time between 
  *         the system level token revocation time and user level token revocation time.
  *
- * @Groups [{"id":"6b27fcc79475236456fc113a42b75543:311","type":"sequence"}]
+ * @Groups [{"id":"6b27fcc79475236456fc113a42b75543:377","type":"sequence"}]
  */
 class LoginResponse22V3 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -23,7 +23,7 @@ class LoginResponse22V3 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRe
     /**
      * @ElementName loginType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LoginType22
-     * @Group 6b27fcc79475236456fc113a42b75543:311
+     * @Group 6b27fcc79475236456fc113a42b75543:377
      * @var \CWM\BroadWorksConnector\Ocip\Models\LoginType22|null
      */
     private $loginType = null;
@@ -31,7 +31,7 @@ class LoginResponse22V3 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRe
     /**
      * @ElementName locale
      * @Type string
-     * @Group 6b27fcc79475236456fc113a42b75543:311
+     * @Group 6b27fcc79475236456fc113a42b75543:377
      * @var string|null
      */
     private $locale = null;
@@ -39,7 +39,7 @@ class LoginResponse22V3 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRe
     /**
      * @ElementName encoding
      * @Type string
-     * @Group 6b27fcc79475236456fc113a42b75543:311
+     * @Group 6b27fcc79475236456fc113a42b75543:377
      * @var string|null
      */
     private $encoding = null;
@@ -48,7 +48,7 @@ class LoginResponse22V3 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRe
      * @ElementName groupId
      * @Type string
      * @Optional
-     * @Group 6b27fcc79475236456fc113a42b75543:311
+     * @Group 6b27fcc79475236456fc113a42b75543:377
      * @var string|null
      */
     private $groupId = null;
@@ -57,7 +57,7 @@ class LoginResponse22V3 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRe
      * @ElementName serviceProviderId
      * @Type string
      * @Optional
-     * @Group 6b27fcc79475236456fc113a42b75543:311
+     * @Group 6b27fcc79475236456fc113a42b75543:377
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -65,7 +65,7 @@ class LoginResponse22V3 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRe
     /**
      * @ElementName isEnterprise
      * @Type bool
-     * @Group 6b27fcc79475236456fc113a42b75543:311
+     * @Group 6b27fcc79475236456fc113a42b75543:377
      * @var bool|null
      */
     private $isEnterprise = null;
@@ -74,7 +74,7 @@ class LoginResponse22V3 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRe
      * @ElementName passwordExpiresDays
      * @Type int
      * @Optional
-     * @Group 6b27fcc79475236456fc113a42b75543:311
+     * @Group 6b27fcc79475236456fc113a42b75543:377
      * @var int|null
      */
     private $passwordExpiresDays = null;
@@ -82,7 +82,7 @@ class LoginResponse22V3 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRe
     /**
      * @ElementName userDomain
      * @Type string
-     * @Group 6b27fcc79475236456fc113a42b75543:311
+     * @Group 6b27fcc79475236456fc113a42b75543:377
      * @var string|null
      */
     private $userDomain = null;
@@ -91,7 +91,7 @@ class LoginResponse22V3 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRe
      * @ElementName resellerId
      * @Type string
      * @Optional
-     * @Group 6b27fcc79475236456fc113a42b75543:311
+     * @Group 6b27fcc79475236456fc113a42b75543:377
      * @var string|null
      */
     private $resellerId = null;
@@ -100,7 +100,7 @@ class LoginResponse22V3 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRe
      * @ElementName tokenRevocationTime
      * @Type string
      * @Optional
-     * @Group 6b27fcc79475236456fc113a42b75543:311
+     * @Group 6b27fcc79475236456fc113a42b75543:377
      * @var string|null
      */
     private $tokenRevocationTime = null;

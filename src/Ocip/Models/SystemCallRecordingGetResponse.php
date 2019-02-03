@@ -6,12 +6,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemCallRecordingGetResponse
  *
  * Response to SystemCallRecordingGetRequest.
- *         
- *         Replaced By: SystemCallRecordingGetResponse22
+ *
+ *                 Replaced By: SystemCallRecordingGetResponse22
  *
  * @see SystemCallRecordingGetRequest
  * @see SystemCallRecordingGetResponse22
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:4473","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:4654","type":"sequence"}]
  */
 class SystemCallRecordingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,7 +19,7 @@ class SystemCallRecordingGetResponse extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName continueCallAfterRecordingFailure
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:4473
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:4654
      * @var bool|null
      */
     private $continueCallAfterRecordingFailure = null;
@@ -27,7 +27,7 @@ class SystemCallRecordingGetResponse extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName refreshPeriodSeconds
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:4473
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:4654
      * @var int|null
      */
     private $refreshPeriodSeconds = null;
@@ -35,7 +35,7 @@ class SystemCallRecordingGetResponse extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName maxConsecutiveFailures
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:4473
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:4654
      * @var int|null
      */
     private $maxConsecutiveFailures = null;
@@ -43,7 +43,7 @@ class SystemCallRecordingGetResponse extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName maxResponseWaitTimeMilliseconds
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:4473
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:4654
      * @var int|null
      */
     private $maxResponseWaitTimeMilliseconds = null;
@@ -51,7 +51,7 @@ class SystemCallRecordingGetResponse extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName continueCallAfterVideoRecordingFailure
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:4473
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:4654
      * @var bool|null
      */
     private $continueCallAfterVideoRecordingFailure = null;

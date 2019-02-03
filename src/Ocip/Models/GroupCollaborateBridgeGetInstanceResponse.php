@@ -6,18 +6,19 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupCollaborateBridgeGetInstanceResponse
  *
  * Response to GroupCollaborateBridgeGetInstanceRequest.
- *         The system-level collaborate supportOutdial setting is returned in the response when the system-level collaborate 
- *         supportOutdial setting is disabled. 
- *         Contains the service profile information and a table of assigned owners.
- *         The table has column headings: "User Id", "Last Name", "First Name", "Hiragana Last Name", 
- *         "Hiragana First Name", Phone Number", "Extension", "Department", "Email Address".
- *         Collaborate bridge maximum participant’s choices unlimited or a quantified number of participants.
- *         
- *         Replaced by: GroupCollaborateBridgeGetInstanceResponse20sp1
+ *                 The system-level collaborate supportOutdial setting is returned in the response when the system-level
+ *                 collaborate
+ *                 supportOutdial setting is disabled.
+ *                 Contains the service profile information and a table of assigned owners.
+ *                 The table has column headings: "User Id", "Last Name", "First Name", "Hiragana Last Name",
+ *                 "Hiragana First Name", Phone Number", "Extension", "Department", "Email Address".
+ *                 Collaborate bridge maximum participant’s choices unlimited or a quantified number of participants.
+ *
+ *                 Replaced by: GroupCollaborateBridgeGetInstanceResponse20sp1
  *
  * @see GroupCollaborateBridgeGetInstanceRequest
  * @see GroupCollaborateBridgeGetInstanceResponse20sp1
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:35321","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:36668","type":"sequence"}]
  */
 class GroupCollaborateBridgeGetInstanceResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -25,7 +26,7 @@ class GroupCollaborateBridgeGetInstanceResponse extends \CWM\BroadWorksConnector
     /**
      * @ElementName serviceInstanceProfile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile19sp1
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:35321
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:36668
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile19sp1|null
      */
     private $serviceInstanceProfile = null;
@@ -33,7 +34,7 @@ class GroupCollaborateBridgeGetInstanceResponse extends \CWM\BroadWorksConnector
     /**
      * @ElementName maximumBridgeParticipants
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CollaborateBridgeMaximumParticipants
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:35321
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:36668
      * @var \CWM\BroadWorksConnector\Ocip\Models\CollaborateBridgeMaximumParticipants|null
      */
     private $maximumBridgeParticipants = null;
@@ -42,7 +43,7 @@ class GroupCollaborateBridgeGetInstanceResponse extends \CWM\BroadWorksConnector
      * @ElementName networkClassOfService
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:35321
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:36668
      * @var string|null
      */
     private $networkClassOfService = null;
@@ -50,7 +51,7 @@ class GroupCollaborateBridgeGetInstanceResponse extends \CWM\BroadWorksConnector
     /**
      * @ElementName isDefault
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:35321
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:36668
      * @var bool|null
      */
     private $isDefault = null;
@@ -58,7 +59,7 @@ class GroupCollaborateBridgeGetInstanceResponse extends \CWM\BroadWorksConnector
     /**
      * @ElementName maxCollaborateRoomParticipants
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:35321
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:36668
      * @var int|null
      */
     private $maxCollaborateRoomParticipants = null;
@@ -66,7 +67,7 @@ class GroupCollaborateBridgeGetInstanceResponse extends \CWM\BroadWorksConnector
     /**
      * @ElementName supportOutdial
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:35321
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:36668
      * @var bool|null
      */
     private $supportOutdial = null;
@@ -76,7 +77,7 @@ class GroupCollaborateBridgeGetInstanceResponse extends \CWM\BroadWorksConnector
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @Nillable
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:35321
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:36668
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $collaborateOwnerUserTable = null;

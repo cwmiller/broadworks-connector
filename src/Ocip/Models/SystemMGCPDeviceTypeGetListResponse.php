@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The column headings are: "Device Type", "Profile", "Is Obsolete".
  *
  * @see SystemMGCPDeviceTypeGetListRequest
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:10707","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:11145","type":"sequence"}]
  */
 class SystemMGCPDeviceTypeGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class SystemMGCPDeviceTypeGetListResponse extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName deviceTypeTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10707
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11145
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $deviceTypeTable = null;

@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserMeetMeConferencingGetConferenceListResponse
  * @see ErrorResponse
- * @Groups [{"id":"0fd24121d16995c994d40bc408dbcfa5:735","type":"sequence"}]
+ * @Groups [{"id":"0fd24121d16995c994d40bc408dbcfa5:786","type":"sequence"}]
  */
 class UserMeetMeConferencingGetConferenceListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserMeetMeConferencingGetConferenceListRequest extends \CWM\BroadWorksConn
     /**
      * @ElementName userId
      * @Type string
-     * @Group 0fd24121d16995c994d40bc408dbcfa5:735
+     * @Group 0fd24121d16995c994d40bc408dbcfa5:786
      * @var string|null
      */
     private $userId = null;
@@ -27,7 +27,7 @@ class UserMeetMeConferencingGetConferenceListRequest extends \CWM\BroadWorksConn
      * @ElementName bridgeId
      * @Type string
      * @Optional
-     * @Group 0fd24121d16995c994d40bc408dbcfa5:735
+     * @Group 0fd24121d16995c994d40bc408dbcfa5:786
      * @var string|null
      */
     private $bridgeId = null;

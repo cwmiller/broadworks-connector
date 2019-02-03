@@ -5,7 +5,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1ChangeBusyOrNoAnswerGreetingMenuKeys
  *
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:30979","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:32119","type":"sequence"}]
  */
 class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1ChangeBusyOrNoAnswerGreetingMenuKeys
 {
@@ -14,7 +14,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1ChangeBusyOrNoAns
      * @ElementName recordNewGreeting
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:30979
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:32119
      * @var string|null
      */
     private $recordNewGreeting = null;
@@ -23,7 +23,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1ChangeBusyOrNoAns
      * @ElementName listenToCurrentGreeting
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:30979
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:32119
      * @var string|null
      */
     private $listenToCurrentGreeting = null;
@@ -32,7 +32,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1ChangeBusyOrNoAns
      * @ElementName revertToSystemDefaultGreeting
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:30979
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:32119
      * @var string|null
      */
     private $revertToSystemDefaultGreeting = null;
@@ -40,7 +40,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1ChangeBusyOrNoAns
     /**
      * @ElementName returnToPreviousMenu
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:30979
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:32119
      * @var string|null
      */
     private $returnToPreviousMenu = null;
@@ -49,7 +49,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1ChangeBusyOrNoAns
      * @ElementName repeatMenu
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:30979
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:32119
      * @var string|null
      */
     private $repeatMenu = null;

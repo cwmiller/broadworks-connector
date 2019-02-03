@@ -15,7 +15,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see ErrorResponse
  * @see ErrorResponse
  * @see ErrorResponse
- * @Groups [{"id":"f7ae3539fd471e995b07dc1bf8836e2d:1492","type":"sequence"}]
+ * @Groups [{"id":"f7ae3539fd471e995b07dc1bf8836e2d:1538","type":"sequence"}]
  */
 class UserBroadWorksMobilityMobileIdentityDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -23,7 +23,7 @@ class UserBroadWorksMobilityMobileIdentityDeleteRequest extends \CWM\BroadWorksC
     /**
      * @ElementName userId
      * @Type string
-     * @Group f7ae3539fd471e995b07dc1bf8836e2d:1492
+     * @Group f7ae3539fd471e995b07dc1bf8836e2d:1538
      * @var string|null
      */
     private $userId = null;
@@ -31,7 +31,7 @@ class UserBroadWorksMobilityMobileIdentityDeleteRequest extends \CWM\BroadWorksC
     /**
      * @ElementName mobileNumber
      * @Type string
-     * @Group f7ae3539fd471e995b07dc1bf8836e2d:1492
+     * @Group f7ae3539fd471e995b07dc1bf8836e2d:1538
      * @var string|null
      */
     private $mobileNumber = null;

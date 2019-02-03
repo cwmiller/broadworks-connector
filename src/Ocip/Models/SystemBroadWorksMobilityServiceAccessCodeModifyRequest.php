@@ -6,13 +6,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemBroadWorksMobilityServiceAccessCodeModifyRequest
  *
  * Modify a system service access code.
- *         The response is either SuccessResponse or ErrorResponse.
- *         Replaced by SystemBroadWorksMobilityServiceAccessCodeModifyRequest21.
+ *                 The response is either SuccessResponse or ErrorResponse.
+ *                 Replaced by SystemBroadWorksMobilityServiceAccessCodeModifyRequest21.
  *
  * @see SuccessResponse
  * @see ErrorResponse
  * @see SystemBroadWorksMobilityServiceAccessCodeModifyRequest21
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:33040","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:34301","type":"sequence"}]
  */
 class SystemBroadWorksMobilityServiceAccessCodeModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class SystemBroadWorksMobilityServiceAccessCodeModifyRequest extends \CWM\BroadW
     /**
      * @ElementName countryCode
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:33040
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:34301
      * @var string|null
      */
     private $countryCode = null;
@@ -28,7 +28,7 @@ class SystemBroadWorksMobilityServiceAccessCodeModifyRequest extends \CWM\BroadW
     /**
      * @ElementName serviceAccessCode
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:33040
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:34301
      * @var string|null
      */
     private $serviceAccessCode = null;
@@ -38,7 +38,7 @@ class SystemBroadWorksMobilityServiceAccessCodeModifyRequest extends \CWM\BroadW
      * @Type string
      * @Nillable
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:33040
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:34301
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $description = null;

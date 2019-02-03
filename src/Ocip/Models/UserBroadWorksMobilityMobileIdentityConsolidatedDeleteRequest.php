@@ -19,7 +19,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see ErrorResponse
  * @see ErrorResponse
  * @see ErrorResponse
- * @Groups [{"id":"f7ae3539fd471e995b07dc1bf8836e2d:1418","type":"sequence"}]
+ * @Groups [{"id":"f7ae3539fd471e995b07dc1bf8836e2d:1464","type":"sequence"}]
  */
 class UserBroadWorksMobilityMobileIdentityConsolidatedDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -27,7 +27,7 @@ class UserBroadWorksMobilityMobileIdentityConsolidatedDeleteRequest extends \CWM
     /**
      * @ElementName userId
      * @Type string
-     * @Group f7ae3539fd471e995b07dc1bf8836e2d:1418
+     * @Group f7ae3539fd471e995b07dc1bf8836e2d:1464
      * @var string|null
      */
     private $userId = null;
@@ -35,7 +35,7 @@ class UserBroadWorksMobilityMobileIdentityConsolidatedDeleteRequest extends \CWM
     /**
      * @ElementName mobileNumber
      * @Type string
-     * @Group f7ae3539fd471e995b07dc1bf8836e2d:1418
+     * @Group f7ae3539fd471e995b07dc1bf8836e2d:1464
      * @var string|null
      */
     private $mobileNumber = null;
@@ -44,7 +44,7 @@ class UserBroadWorksMobilityMobileIdentityConsolidatedDeleteRequest extends \CWM
      * @ElementName deleteExistingDevices
      * @Type bool
      * @Optional
-     * @Group f7ae3539fd471e995b07dc1bf8836e2d:1418
+     * @Group f7ae3539fd471e995b07dc1bf8836e2d:1464
      * @var bool|null
      */
     private $deleteExistingDevices = null;

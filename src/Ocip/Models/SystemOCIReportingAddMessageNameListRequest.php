@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:12108","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:12545","type":"sequence"}]
  */
 class SystemOCIReportingAddMessageNameListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class SystemOCIReportingAddMessageNameListRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName netAddress
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12108
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12545
      * @var string|null
      */
     private $netAddress = null;
@@ -28,7 +28,7 @@ class SystemOCIReportingAddMessageNameListRequest extends \CWM\BroadWorksConnect
      * @ElementName messageNameStartsWith
      * @Type string
      * @Array
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12108
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12545
      * @var string[]
      */
     private $messageNameStartsWith = array(

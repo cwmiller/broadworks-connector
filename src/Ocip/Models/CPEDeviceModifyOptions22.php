@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           systemFileName
  *           deviceFileFormat
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:1657","type":"sequence"}]
+ * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:1673","type":"sequence"}]
  */
 class CPEDeviceModifyOptions22
 {
@@ -20,7 +20,7 @@ class CPEDeviceModifyOptions22
      * @ElementName enableMonitoring
      * @Type bool
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1657
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:1673
      * @var bool|null
      */
     private $enableMonitoring = null;
@@ -29,7 +29,7 @@ class CPEDeviceModifyOptions22
      * @ElementName deviceManagementDeviceTypeOptions
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementDeviceTypeModifyOptions22
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1657
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:1673
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementDeviceTypeModifyOptions22|null
      */
     private $deviceManagementDeviceTypeOptions = null;

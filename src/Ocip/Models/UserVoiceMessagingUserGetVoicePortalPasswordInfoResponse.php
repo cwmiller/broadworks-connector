@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserVoiceMessagingUserGetVoicePortalPasswordInfoResponse
  *
  * Response to UserVoiceMessagingUserGetVoicePortalPasswordInfoRequest.
- *         Replaced By: UserPortalPasscodeGetInfoResponse
+ *                 Replaced By: UserPortalPasscodeGetInfoResponse
  *
  * @see UserVoiceMessagingUserGetVoicePortalPasswordInfoRequest
  * @see UserPortalPasscodeGetInfoResponse
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:7636","type":"sequence","children":[{"id":"ab0042aa512abc10edb3c55e4b416b0b:7638","type":"choice"}]}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:7873","type":"sequence","children":[{"id":"ab0042aa512abc10edb3c55e4b416b0b:7875","type":"choice"}]}]
  */
 class UserVoiceMessagingUserGetVoicePortalPasswordInfoResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class UserVoiceMessagingUserGetVoicePortalPasswordInfoResponse extends \CWM\Broa
     /**
      * @ElementName isLoginDisabled
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:7636
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:7873
      * @var bool|null
      */
     private $isLoginDisabled = null;
@@ -26,7 +26,7 @@ class UserVoiceMessagingUserGetVoicePortalPasswordInfoResponse extends \CWM\Broa
     /**
      * @ElementName expirationDays
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:7638
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:7875
      * @var int|null
      */
     private $expirationDays = null;
@@ -34,7 +34,7 @@ class UserVoiceMessagingUserGetVoicePortalPasswordInfoResponse extends \CWM\Broa
     /**
      * @ElementName doesNotExpire
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:7638
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:7875
      * @var bool|null
      */
     private $doesNotExpire = null;
@@ -42,7 +42,7 @@ class UserVoiceMessagingUserGetVoicePortalPasswordInfoResponse extends \CWM\Broa
     /**
      * @ElementName password
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:7636
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:7873
      * @var string|null
      */
     private $password = null;

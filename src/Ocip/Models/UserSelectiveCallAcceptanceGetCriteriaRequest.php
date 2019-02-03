@@ -5,12 +5,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * UserSelectiveCallAcceptanceGetCriteriaRequest
  *
- * Get a criteria for the user's selective call acceptance service.        
- *          The response is either a UserSelectiveCallAcceptanceGetCriteriaResponse or an ErrorResponse.
+ * Get a criteria for the user's selective call acceptance service.
+ *                 The response is either a UserSelectiveCallAcceptanceGetCriteriaResponse or an ErrorResponse.
  *
  * @see UserSelectiveCallAcceptanceGetCriteriaResponse
  * @see ErrorResponse
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:11363","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:11690","type":"sequence"}]
  */
 class UserSelectiveCallAcceptanceGetCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserSelectiveCallAcceptanceGetCriteriaRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName userId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:11363
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:11690
      * @var string|null
      */
     private $userId = null;
@@ -26,7 +26,7 @@ class UserSelectiveCallAcceptanceGetCriteriaRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName criteriaName
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:11363
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:11690
      * @var string|null
      */
     private $criteriaName = null;

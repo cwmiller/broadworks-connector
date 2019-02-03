@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:16545","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:17387","type":"sequence"}]
  */
 class SystemSystemVoicePortalDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemSystemVoicePortalDeleteRequest extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName systemVoicePortalId
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16545
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17387
      * @var string|null
      */
     private $systemVoicePortalId = null;

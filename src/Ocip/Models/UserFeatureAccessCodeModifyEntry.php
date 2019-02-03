@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Feature Access Code Entry to be used in all user modify command.
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:4411","type":"sequence"}]
+ * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:4548","type":"sequence"}]
  */
 class UserFeatureAccessCodeModifyEntry
 {
@@ -15,7 +15,7 @@ class UserFeatureAccessCodeModifyEntry
     /**
      * @ElementName featureAccessCodeName
      * @Type string
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4411
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:4548
      * @var string|null
      */
     private $featureAccessCodeName = null;
@@ -24,7 +24,7 @@ class UserFeatureAccessCodeModifyEntry
      * @ElementName enableFAC
      * @Type bool
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4411
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:4548
      * @var bool|null
      */
     private $enableFAC = null;

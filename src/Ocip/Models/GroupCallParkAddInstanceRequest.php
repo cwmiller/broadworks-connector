@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupCallParkAddInstanceRequest
  *
  * Adds a Call Park group.
- *         The response is either SuccessResponse or ErrorResponse.
+ *                 The response is either SuccessResponse or ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:18469","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:19052","type":"sequence"}]
  */
 class GroupCallParkAddInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupCallParkAddInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:18469
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:19052
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,7 +26,7 @@ class GroupCallParkAddInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName groupId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:18469
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:19052
      * @var string|null
      */
     private $groupId = null;
@@ -34,7 +34,7 @@ class GroupCallParkAddInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName name
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:18469
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:19052
      * @var string|null
      */
     private $name = null;
@@ -44,7 +44,7 @@ class GroupCallParkAddInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Type string
      * @Array
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:18469
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:19052
      * @var string[]
      */
     private $userId = array(

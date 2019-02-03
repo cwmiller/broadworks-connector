@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Trunk group endpoint.
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:3967","type":"sequence"}]
+ * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:4104","type":"sequence"}]
  */
 class TrunkAddressingAdd
 {
@@ -16,7 +16,7 @@ class TrunkAddressingAdd
      * @ElementName trunkGroupDeviceEndpoint
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupDeviceEndpointAdd
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3967
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:4104
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupDeviceEndpointAdd|null
      */
     private $trunkGroupDeviceEndpoint = null;
@@ -25,7 +25,7 @@ class TrunkAddressingAdd
      * @ElementName enterpriseTrunkName
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3967
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:4104
      * @var string|null
      */
     private $enterpriseTrunkName = null;
@@ -34,7 +34,7 @@ class TrunkAddressingAdd
      * @ElementName alternateTrunkIdentity
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3967
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:4104
      * @var string|null
      */
     private $alternateTrunkIdentity = null;

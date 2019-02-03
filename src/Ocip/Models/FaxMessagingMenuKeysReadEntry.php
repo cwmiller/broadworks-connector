@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * The voice portal fax messaging menu keys.
  *
- * @Groups [{"id":"3347d430e0d5c93a9ff8dcf0e3b60d6c:2570","type":"sequence"}]
+ * @Groups [{"id":"3347d430e0d5c93a9ff8dcf0e3b60d6c:2642","type":"sequence"}]
  */
 class FaxMessagingMenuKeysReadEntry
 {
@@ -16,7 +16,7 @@ class FaxMessagingMenuKeysReadEntry
      * @ElementName saveFaxMessageAndSkipToNext
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2570
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2642
      * @var string|null
      */
     private $saveFaxMessageAndSkipToNext = null;
@@ -25,7 +25,7 @@ class FaxMessagingMenuKeysReadEntry
      * @ElementName previousFaxMessage
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2570
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2642
      * @var string|null
      */
     private $previousFaxMessage = null;
@@ -34,7 +34,7 @@ class FaxMessagingMenuKeysReadEntry
      * @ElementName playEnvelope
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2570
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2642
      * @var string|null
      */
     private $playEnvelope = null;
@@ -43,7 +43,7 @@ class FaxMessagingMenuKeysReadEntry
      * @ElementName nextFaxMessage
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2570
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2642
      * @var string|null
      */
     private $nextFaxMessage = null;
@@ -52,7 +52,7 @@ class FaxMessagingMenuKeysReadEntry
      * @ElementName deleteFaxMessage
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2570
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2642
      * @var string|null
      */
     private $deleteFaxMessage = null;
@@ -61,7 +61,7 @@ class FaxMessagingMenuKeysReadEntry
      * @ElementName printFaxMessage
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2570
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2642
      * @var string|null
      */
     private $printFaxMessage = null;
@@ -70,7 +70,7 @@ class FaxMessagingMenuKeysReadEntry
      * @ElementName returnToPreviousMenu
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2570
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2642
      * @var string|null
      */
     private $returnToPreviousMenu = null;

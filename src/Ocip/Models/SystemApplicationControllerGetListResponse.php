@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *       The column values for "Status" can either be "ready" or "notReady".
  *
  * @see SystemApplicationControllerGetListRequest
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:1917","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:1914","type":"sequence"}]
  */
 class SystemApplicationControllerGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class SystemApplicationControllerGetListResponse extends \CWM\BroadWorksConnecto
     /**
      * @ElementName applicationControllerTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1917
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1914
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $applicationControllerTable = null;

@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupTrunkGroupGetInstanceUserListResponse
  *
  * Response to GroupTrunkGroupGetInstanceUserListRequest.
- *         The response contains a 7 column table with column headings "User Id", "Last Name",
- *         "First Name", "Department", "Phone Number", "Hiragana Last Name", "Hiragana First Name".
+ *                 The response contains a 7 column table with column headings "User Id", "Last Name",
+ *                 "First Name", "Department", "Phone Number", "Hiragana Last Name", "Hiragana First Name".
  *
  * @see GroupTrunkGroupGetInstanceUserListRequest
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:2685","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:2757","type":"sequence"}]
  */
 class GroupTrunkGroupGetInstanceUserListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class GroupTrunkGroupGetInstanceUserListResponse extends \CWM\BroadWorksConnecto
     /**
      * @ElementName trunkGroupUserTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:2685
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:2757
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $trunkGroupUserTable = null;

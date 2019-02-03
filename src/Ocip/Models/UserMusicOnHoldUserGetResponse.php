@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserMusicOnHoldUserGetResponse
  *
  * Response to UserMusicOnHoldUserGetRequest.
- *         Replaced By: UserMusicOnHoldUserGetResponse16
+ *                 Replaced By: UserMusicOnHoldUserGetResponse16
  *
  * @see UserMusicOnHoldUserGetRequest
  * @see UserMusicOnHoldUserGetResponse16
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:11252","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:11580","type":"sequence"}]
  */
 class UserMusicOnHoldUserGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class UserMusicOnHoldUserGetResponse extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName enableVideo
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:11252
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:11580
      * @var bool|null
      */
     private $enableVideo = null;
@@ -26,7 +26,7 @@ class UserMusicOnHoldUserGetResponse extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName source
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserSourceRead
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:11252
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:11580
      * @var \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserSourceRead|null
      */
     private $source = null;
@@ -34,7 +34,7 @@ class UserMusicOnHoldUserGetResponse extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName useAlternateSourceForInternalCalls
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:11252
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:11580
      * @var bool|null
      */
     private $useAlternateSourceForInternalCalls = null;
@@ -43,7 +43,7 @@ class UserMusicOnHoldUserGetResponse extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName internalSource
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserSourceRead
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:11252
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:11580
      * @var \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserSourceRead|null
      */
     private $internalSource = null;

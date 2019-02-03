@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupIntegratedIMPGetRequest
  * @see GroupIntegratedIMPGetResponse21sp1
- * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:4817","type":"sequence"}]
+ * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:4815","type":"sequence"}]
  */
 class GroupIntegratedIMPGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -20,7 +20,7 @@ class GroupIntegratedIMPGetResponse extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName useServiceProviderSetting
      * @Type bool
-     * @Group de4d76f01f337fe4694212ec9f771753:4817
+     * @Group de4d76f01f337fe4694212ec9f771753:4815
      * @var bool|null
      */
     private $useServiceProviderSetting = null;
@@ -29,7 +29,7 @@ class GroupIntegratedIMPGetResponse extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName serviceDomain
      * @Type string
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:4817
+     * @Group de4d76f01f337fe4694212ec9f771753:4815
      * @var string|null
      */
     private $serviceDomain = null;

@@ -6,8 +6,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ServiceProviderCallProcessingGetPolicyRequest22
  *
  * Request the service provider level data associated with Call Processing
- *         Policy. The response is either a
- *         ServiceProviderCallProcessingGetPolicyResponse22 or an ErrorResponse.
+ *         Policy. The response is either a ServiceProviderCallProcessingGetPolicyResponse22 or an ErrorResponse.
  *         
  *         Replaced by: ServiceProviderCallProcessingGetPolicyRequest22V2 in AS data mode.
  *

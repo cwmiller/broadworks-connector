@@ -5,8 +5,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * GroupCommunicationBarringProfileGetAssignedListRequest
  *
- * Get the list of all communication barring profiles assigned to the group. The response is either a 
- *         GroupCommunicationBarringProfileGetAssignedListResponse or an ErrorResponse.
+ * Get the list of all communication barring profiles assigned to the group.
+ *         The response is either a GroupCommunicationBarringProfileGetAssignedListResponse or an ErrorResponse.
  *         This command only applies to groups in an Enterprise. This command will fail for groups in a Service Provider.
  *
  * @see GroupCommunicationBarringProfileGetAssignedListResponse

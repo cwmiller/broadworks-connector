@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemOCICallControlApplicationAddRequest
  *
  * Add an application to the OCI call control application list.
- *         The response is either SuccessResponse or ErrorResponse.
+ *                 The response is either SuccessResponse or ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:5147","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:5337","type":"sequence"}]
  */
 class SystemOCICallControlApplicationAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemOCICallControlApplicationAddRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName applicationId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:5147
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:5337
      * @var string|null
      */
     private $applicationId = null;
@@ -26,7 +26,7 @@ class SystemOCICallControlApplicationAddRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName enableSystemWide
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:5147
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:5337
      * @var bool|null
      */
     private $enableSystemWide = null;
@@ -35,7 +35,7 @@ class SystemOCICallControlApplicationAddRequest extends \CWM\BroadWorksConnector
      * @ElementName description
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:5147
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:5337
      * @var string|null
      */
     private $description = null;

@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Used to sort the EnterprisePhoneDirectoryGetPagedSortedListRequest request.
  *
  * @see EnterprisePhoneDirectoryGetPagedSortedListRequest
- * @Groups [{"id":"5395c7df0157d44aa22f3351d1a5f3da:1678","type":"choice"}]
+ * @Groups [{"id":"5395c7df0157d44aa22f3351d1a5f3da:1677","type":"choice"}]
  */
 class SortOrderEnterprisePhoneDirectoryGetPagedSortedList
 {
@@ -16,7 +16,7 @@ class SortOrderEnterprisePhoneDirectoryGetPagedSortedList
     /**
      * @ElementName sortByUserLastName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByUserLastName
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1678
+     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1677
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByUserLastName|null
      */
     private $sortByUserLastName = null;
@@ -24,7 +24,7 @@ class SortOrderEnterprisePhoneDirectoryGetPagedSortedList
     /**
      * @ElementName sortByUserFirstName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByUserFirstName
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1678
+     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1677
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByUserFirstName|null
      */
     private $sortByUserFirstName = null;
@@ -32,7 +32,7 @@ class SortOrderEnterprisePhoneDirectoryGetPagedSortedList
     /**
      * @ElementName sortByGroupLocationCode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByGroupLocationCode
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1678
+     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1677
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByGroupLocationCode|null
      */
     private $sortByGroupLocationCode = null;
@@ -40,7 +40,7 @@ class SortOrderEnterprisePhoneDirectoryGetPagedSortedList
     /**
      * @ElementName sortByMobilePhoneNumber
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByMobilePhoneNumber
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1678
+     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1677
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByMobilePhoneNumber|null
      */
     private $sortByMobilePhoneNumber = null;
@@ -48,7 +48,7 @@ class SortOrderEnterprisePhoneDirectoryGetPagedSortedList
     /**
      * @ElementName sortByEmailAddress
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByEmailAddress
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1678
+     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1677
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByEmailAddress|null
      */
     private $sortByEmailAddress = null;
@@ -56,7 +56,7 @@ class SortOrderEnterprisePhoneDirectoryGetPagedSortedList
     /**
      * @ElementName sortByDepartmentName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByDepartmentName
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1678
+     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1677
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByDepartmentName|null
      */
     private $sortByDepartmentName = null;
@@ -64,7 +64,7 @@ class SortOrderEnterprisePhoneDirectoryGetPagedSortedList
     /**
      * @ElementName sortByGroupName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByGroupName
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1678
+     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1677
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByGroupName|null
      */
     private $sortByGroupName = null;
@@ -72,7 +72,7 @@ class SortOrderEnterprisePhoneDirectoryGetPagedSortedList
     /**
      * @ElementName sortByYahooId
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByYahooId
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1678
+     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1677
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByYahooId|null
      */
     private $sortByYahooId = null;
@@ -80,7 +80,7 @@ class SortOrderEnterprisePhoneDirectoryGetPagedSortedList
     /**
      * @ElementName sortByUserId
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByUserId
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1678
+     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1677
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByUserId|null
      */
     private $sortByUserId = null;
@@ -88,7 +88,7 @@ class SortOrderEnterprisePhoneDirectoryGetPagedSortedList
     /**
      * @ElementName sortByImpId
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByImpId
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1678
+     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1677
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByImpId|null
      */
     private $sortByImpId = null;

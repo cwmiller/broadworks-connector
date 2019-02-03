@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the SystemNumberPortabilityQueryStatusGetRequest.
  *
  * @see SystemNumberPortabilityQueryStatusGetRequest
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:11720","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:12157","type":"sequence"}]
  */
 class SystemNumberPortabilityQueryStatusGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class SystemNumberPortabilityQueryStatusGetResponse extends \CWM\BroadWorksConne
      * @ElementName treatmentFileName
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11720
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12157
      * @var string|null
      */
     private $treatmentFileName = null;

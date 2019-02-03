@@ -15,7 +15,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:1978","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:2007","type":"sequence"}]
  */
 class SystemASRParametersModifyRequest14sp7 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -24,7 +24,7 @@ class SystemASRParametersModifyRequest14sp7 extends \CWM\BroadWorksConnector\Oci
      * @ElementName maxTransmissions
      * @Type int
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1978
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2007
      * @var int|null
      */
     private $maxTransmissions = null;
@@ -33,7 +33,7 @@ class SystemASRParametersModifyRequest14sp7 extends \CWM\BroadWorksConnector\Oci
      * @ElementName retransmissionDelayMilliSeconds
      * @Type int
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1978
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2007
      * @var int|null
      */
     private $retransmissionDelayMilliSeconds = null;
@@ -42,7 +42,7 @@ class SystemASRParametersModifyRequest14sp7 extends \CWM\BroadWorksConnector\Oci
      * @ElementName listeningPort
      * @Type int
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1978
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2007
      * @var int|null
      */
     private $listeningPort = null;
@@ -51,7 +51,7 @@ class SystemASRParametersModifyRequest14sp7 extends \CWM\BroadWorksConnector\Oci
      * @ElementName enableCustomMessageControl
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1978
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2007
      * @var bool|null
      */
     private $enableCustomMessageControl = null;
@@ -60,7 +60,7 @@ class SystemASRParametersModifyRequest14sp7 extends \CWM\BroadWorksConnector\Oci
      * @ElementName customNumberOfUsersPerMessage
      * @Type int
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1978
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2007
      * @var int|null
      */
     private $customNumberOfUsersPerMessage = null;
@@ -69,7 +69,7 @@ class SystemASRParametersModifyRequest14sp7 extends \CWM\BroadWorksConnector\Oci
      * @ElementName customMessageIntervalMilliseconds
      * @Type int
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1978
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2007
      * @var int|null
      */
     private $customMessageIntervalMilliseconds = null;

@@ -1,5 +1,10 @@
 # Changelog
 
+## [3.0.2] - 2019-02-03
+### Fixed
+- Fixed missing & incorrect return types on traits
+- Restored request types that were removed from latest XSD files
+
 ## [3.0.1] - 2019-01-14
 ### Fixed
 - Setters for nillable types now have a default value of NULL to fix an issue with passing NULL to a type-hinted setter.
@@ -71,6 +76,7 @@
 ### Added
 - `OcipClient` now exposes helper methods for every request object.
 
+[3.0.2]: https://github.com/cwmiller/broadworks-connector/compare/3.0.1...3.0.2
 [3.0.1]: https://github.com/cwmiller/broadworks-connector/compare/3.0.0...3.0.1
 [3.0.0]: https://github.com/cwmiller/broadworks-connector/compare/2.2.2...3.0.0
 [2.2.2]: https://github.com/cwmiller/broadworks-connector/compare/2.2.1...2.2.2

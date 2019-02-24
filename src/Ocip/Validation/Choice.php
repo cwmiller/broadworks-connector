@@ -36,18 +36,20 @@ class Choice extends Group
      */
     public function validate($instance)
     {
-        $fields =  array_map(function($propertyName) use ($instance) {
+        $fields = array_map(function($propertyName) use ($instance) {
             return [
                 'type' => 'field',
                 'name' => $propertyName,
+                'optional' => $this->isFieldOptional($instance, $propertyName),
                 'set' => $this->isFieldSet($instance, $propertyName)
             ];
         }, ReflectionUtils::getPropertyNamesInGroup($instance, $this->getId()));
 
-        $sequences = array_map(function($sequence) use($instance) {
+        $sequences = array_map(function(Sequence $sequence) use($instance) {
             return [
                 'type' => 'sequence',
                 'sequence' => $sequence,
+                'optional' => false,
                 'set' => $this->isSequenceSet($instance, $sequence)
             ];
         }, array_filter($this->getChildren(), function($child) {
@@ -60,7 +62,11 @@ class Choice extends Group
             return $member['set'];
         });
 
-        if ((count($setMembers) === 0) && !$this->isOptional()) {
+        $nonOptionalMembers = array_filter($members, function($member) {
+            return !$member['optional'];
+        });
+
+        if ((count($setMembers) === 0) && (count($nonOptionalMembers) !== 0) && !$this->isOptional()) {
             $options = $this->memberNames($instance, $members);
             throw new ChoiceNotSetException($instance, $options);
         }
@@ -87,6 +93,13 @@ class Choice extends Group
         $property->setAccessible(true);
 
         return $property->getValue($instance) !== null;
+    }
+
+    private function isFieldOptional($instance, $propertyName)
+    {
+        $annotations = ReflectionUtils::getPropertyAnnotations($instance, $propertyName);
+
+        return array_key_exists('Optional', $annotations);
     }
 
     /**

@@ -4,6 +4,7 @@ namespace CWM\BroadWorksConnector;
 
 use InvalidArgumentException;
 use ReflectionClass;
+use ReflectionException;
 use ReflectionProperty;
 
 abstract class ReflectionUtils
@@ -29,6 +30,27 @@ abstract class ReflectionUtils
         }
 
         return $annotations;
+    }
+
+    /**
+     * @param $object
+     * @param string $propertyName
+     * @return string[]
+     * @throws InvalidArgumentException
+     * @throws ReflectionException
+     */
+    public static function getPropertyAnnotations($object, $propertyName)
+    {
+        $object = self::getReflectionObject($object);
+        $property = null;
+
+        try {
+            $property = $object->getProperty($propertyName);
+        } catch(ReflectionException $e) {
+            throw new InvalidArgumentException('Unknown property: ' . $propertyName);
+        }
+
+        return self::getAnnotations($property);
     }
 
     /**

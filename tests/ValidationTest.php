@@ -11,6 +11,7 @@ use CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceMACAddress;
 use CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceName;
 use CWM\BroadWorksConnector\Ocip\Models\SearchMode;
 use CWM\BroadWorksConnector\Ocip\Models\SystemGetRegistrationContactListRequest;
+use CWM\BroadWorksConnector\Ocip\Models\UserAddRequest21;
 use CWM\BroadWorksConnector\Ocip\Models\UserModifyRequest16Endpoint;
 use CWM\BroadWorksConnector\Ocip\Validation\Validator;
 use CWM\BroadWorksConnector\XmlUtils;
@@ -91,6 +92,20 @@ class ValidationTest extends \PHPUnit\Framework\TestCase
             ->setResellerId('reseller');
 
         Validator::validate($request);
+    }
+
+    public function testChoiceWithOptionalMembers()
+    {
+        $request = (new UserAddRequest21())
+            ->setServiceProviderId('SP')
+            ->setGroupId('GR')
+            ->setUserId('user@test.com')
+            ->setFirstName('John')
+            ->setLastName('Doe')
+            ->setCallingLineIdFirstName('John')
+            ->setCallingLineIdLastName('Doe');
+
+        $this->assertEquals(true, Validator::validate($request));
     }
 
     public function testOptionalGroup()

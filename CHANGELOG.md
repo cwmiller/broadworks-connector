@@ -1,5 +1,9 @@
 # Changelog
 
+## [3.0.3] - 2019-02-23
+### Fixed
+- Fixed issue where ChoiceNotSetException was being thrown when all members are optional and none are set.
+
 ## [3.0.2] - 2019-02-03
 ### Fixed
 - Fixed missing & incorrect return types on traits
@@ -76,6 +80,7 @@
 ### Added
 - `OcipClient` now exposes helper methods for every request object.
 
+[3.0.3]: https://github.com/cwmiller/broadworks-connector/compare/3.0.2...3.0.3
 [3.0.2]: https://github.com/cwmiller/broadworks-connector/compare/3.0.1...3.0.2
 [3.0.1]: https://github.com/cwmiller/broadworks-connector/compare/3.0.0...3.0.1
 [3.0.0]: https://github.com/cwmiller/broadworks-connector/compare/2.2.2...3.0.0

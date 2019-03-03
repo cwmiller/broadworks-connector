@@ -1,8 +1,12 @@
 # Changelog
 
+## [3.0.4] - 2019-03-03
+### Fixed
+- Fixed issue where the `Validator` was treating array fields as being set when they were empty.
+
 ## [3.0.3] - 2019-02-23
 ### Fixed
-- Fixed issue where ChoiceNotSetException was being thrown when all members are optional and none are set.
+- Fixed issue where `ChoiceNotSetException` was being thrown when all members are optional and none are set.
 
 ## [3.0.2] - 2019-02-03
 ### Fixed
@@ -80,6 +84,7 @@
 ### Added
 - `OcipClient` now exposes helper methods for every request object.
 
+[3.0.4]: https://github.com/cwmiller/broadworks-connector/compare/3.0.3...3.0.4
 [3.0.3]: https://github.com/cwmiller/broadworks-connector/compare/3.0.2...3.0.3
 [3.0.2]: https://github.com/cwmiller/broadworks-connector/compare/3.0.1...3.0.2
 [3.0.1]: https://github.com/cwmiller/broadworks-connector/compare/3.0.0...3.0.1

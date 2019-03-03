@@ -91,8 +91,11 @@ class Choice extends Group
         $class = new ReflectionClass($instance);
         $property = $class->getProperty($propertyName);
         $property->setAccessible(true);
+        $value = $property->getValue($instance);
 
-        return $property->getValue($instance) !== null;
+        return is_array($value)
+            ? (count($value) > 0)
+            : ($value !== null);
     }
 
     private function isFieldOptional($instance, $propertyName)

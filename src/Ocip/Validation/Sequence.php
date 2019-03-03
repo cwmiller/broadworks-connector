@@ -33,7 +33,11 @@ class Sequence extends Group
             $property->setAccessible(true);
             $value = $property->getValue($instance);
 
-            if ($value === null) {
+            $set = is_array($value)
+                ? (count($value) > 0)
+                : ($value !== null);
+
+            if (!$set) {
                 throw new FieldNotSetException($instance, $requiredPropertyName);
             }
         }

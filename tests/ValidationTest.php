@@ -3,7 +3,10 @@
 namespace CWM\BroadWorksConnector\Tests;
 
 use CWM\BroadWorksConnector\Ocip\Models\C\OCIMessage;
+use CWM\BroadWorksConnector\Ocip\Models\CallCenterSkillAgentList;
 use CWM\BroadWorksConnector\Ocip\Models\GroupAccessDeviceGetListRequest;
+use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterAddAgentListRequest;
+use CWM\BroadWorksConnector\Ocip\Models\GroupCommunicationBarringAuthorizationCodeAddListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\LoginRequest14sp4;
 use CWM\BroadWorksConnector\Ocip\Models\LoginResponse14sp4;
 use CWM\BroadWorksConnector\Ocip\Models\LoginType;
@@ -36,6 +39,32 @@ class ValidationTest extends \PHPUnit\Framework\TestCase
     {
         $request = (new LoginRequest14sp4())
             ->setUserId('username');
+
+        $this->assertEquals(true, Validator::validate($request));
+    }
+
+    public function testRequirementWithArrayNotMet()
+    {
+        // setExpectedException is gone from phpunit 5
+        if (method_exists($this, 'expectException')) {
+            $this->expectException('CWM\BroadWorksConnector\Ocip\Validation\FieldNotSetException');
+        } else {
+            $this->setExpectedException('CWM\BroadWorksConnector\Ocip\Validation\FieldNotSetException');
+        }
+
+        $request = (new GroupCommunicationBarringAuthorizationCodeAddListRequest())
+            ->setServiceProviderId('SID')
+            ->setGroupId('GID');
+
+        Validator::validate($request);
+    }
+
+    public function testRequirementWithArrayMet()
+    {
+        $request = (new GroupCommunicationBarringAuthorizationCodeAddListRequest())
+            ->setServiceProviderId('SID')
+            ->setGroupId('GID')
+            ->setCode(['ABC']);
 
         $this->assertEquals(true, Validator::validate($request));
     }
@@ -106,6 +135,51 @@ class ValidationTest extends \PHPUnit\Framework\TestCase
             ->setCallingLineIdLastName('Doe');
 
         $this->assertEquals(true, Validator::validate($request));
+    }
+
+    public function testChoiceWithUnsetArrays()
+    {
+        // setExpectedException is gone from phpunit 5
+        if (method_exists($this, 'expectException')) {
+            $this->expectException('CWM\BroadWorksConnector\Ocip\Validation\ChoiceNotSetException');
+        } else {
+            $this->setExpectedException('CWM\BroadWorksConnector\Ocip\Validation\ChoiceNotSetException');
+        }
+
+        $request = (new GroupCallCenterAddAgentListRequest())
+            ->setServiceUserId('test@test.com');
+
+        Validator::validate($request);
+    }
+
+    public function testChoiceWithEmptyArrays()
+    {
+        $request = (new GroupCallCenterAddAgentListRequest())
+            ->setServiceUserId('test@test.com')
+            ->setAgentUserId(['user@test.com']);
+
+        $this->assertEquals(true, Validator::validate($request));
+    }
+
+    public function testChoiceWithSetArrays()
+    {
+        // setExpectedException is gone from phpunit 5
+        if (method_exists($this, 'expectException')) {
+            $this->expectException('CWM\BroadWorksConnector\Ocip\Validation\InvalidChoiceException');
+        } else {
+            $this->setExpectedException('CWM\BroadWorksConnector\Ocip\Validation\InvalidChoiceException');
+        }
+
+        $request = (new GroupCallCenterAddAgentListRequest())
+            ->setServiceUserId('test@test.com')
+            ->setAgentUserId(['user@test.com'])
+            ->setAgentSkillList([
+                (new CallCenterSkillAgentList())
+                    ->setAgent(['test'])
+                    ->setSkillLevel(1)
+            ]);
+
+        Validator::validate($request);
     }
 
     public function testOptionalGroup()

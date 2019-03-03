@@ -2,14 +2,11 @@
 
 namespace CWM\BroadWorksConnector\Tests;
 
-use CWM\BroadWorksConnector\Ocip\Models\C\OCIMessage;
 use CWM\BroadWorksConnector\Ocip\Models\CallCenterSkillAgentList;
 use CWM\BroadWorksConnector\Ocip\Models\GroupAccessDeviceGetListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterAddAgentListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupCommunicationBarringAuthorizationCodeAddListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\LoginRequest14sp4;
-use CWM\BroadWorksConnector\Ocip\Models\LoginResponse14sp4;
-use CWM\BroadWorksConnector\Ocip\Models\LoginType;
 use CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceMACAddress;
 use CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceName;
 use CWM\BroadWorksConnector\Ocip\Models\SearchMode;
@@ -17,19 +14,12 @@ use CWM\BroadWorksConnector\Ocip\Models\SystemGetRegistrationContactListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserAddRequest21;
 use CWM\BroadWorksConnector\Ocip\Models\UserModifyRequest16Endpoint;
 use CWM\BroadWorksConnector\Ocip\Validation\Validator;
-use CWM\BroadWorksConnector\XmlUtils;
-use DOMDocument;
 
 class ValidationTest extends \PHPUnit\Framework\TestCase
 {
     public function testRequirementMissing()
     {
-        // setExpectedException is gone from phpunit 5
-        if (method_exists($this, 'expectException')) {
-            $this->expectException('CWM\BroadWorksConnector\Ocip\Validation\FieldNotSetException');
-        } else {
-            $this->setExpectedException('CWM\BroadWorksConnector\Ocip\Validation\FieldNotSetException');
-        }
+        $this->expect('CWM\BroadWorksConnector\Ocip\Validation\FieldNotSetException');
 
         $request = new LoginRequest14sp4();
         Validator::validate($request);
@@ -45,12 +35,7 @@ class ValidationTest extends \PHPUnit\Framework\TestCase
 
     public function testRequirementWithArrayNotMet()
     {
-        // setExpectedException is gone from phpunit 5
-        if (method_exists($this, 'expectException')) {
-            $this->expectException('CWM\BroadWorksConnector\Ocip\Validation\FieldNotSetException');
-        } else {
-            $this->setExpectedException('CWM\BroadWorksConnector\Ocip\Validation\FieldNotSetException');
-        }
+        $this->expect('CWM\BroadWorksConnector\Ocip\Validation\FieldNotSetException');
 
         $request = (new GroupCommunicationBarringAuthorizationCodeAddListRequest())
             ->setServiceProviderId('SID')
@@ -71,12 +56,7 @@ class ValidationTest extends \PHPUnit\Framework\TestCase
 
     public function testChoiceNotMet()
     {
-        // setExpectedException is gone from phpunit 5
-        if (method_exists($this, 'expectException')) {
-            $this->expectException('CWM\BroadWorksConnector\Ocip\Validation\ChoiceNotSetException');
-        } else {
-            $this->setExpectedException('CWM\BroadWorksConnector\Ocip\Validation\ChoiceNotSetException');
-        }
+        $this->expect('CWM\BroadWorksConnector\Ocip\Validation\ChoiceNotSetException');
 
         $request = new UserModifyRequest16Endpoint();
 
@@ -85,12 +65,7 @@ class ValidationTest extends \PHPUnit\Framework\TestCase
 
     public function testMultipleChoiceSelections()
     {
-        // setExpectedException is gone from phpunit 5
-        if (method_exists($this, 'expectException')) {
-            $this->expectException('CWM\BroadWorksConnector\Ocip\Validation\InvalidChoiceException');
-        } else {
-            $this->setExpectedException('CWM\BroadWorksConnector\Ocip\Validation\InvalidChoiceException');
-        }
+        $this->expect('CWM\BroadWorksConnector\Ocip\Validation\InvalidChoiceException');
 
         $request = (new SystemGetRegistrationContactListRequest())
             ->setResellerId('reseller')
@@ -109,12 +84,7 @@ class ValidationTest extends \PHPUnit\Framework\TestCase
 
     public function testMultipleChoiceWithSequenceSequence()
     {
-        // setExpectedException is gone from phpunit 5
-        if (method_exists($this, 'expectException')) {
-            $this->expectException('CWM\BroadWorksConnector\Ocip\Validation\InvalidChoiceException');
-        } else {
-            $this->setExpectedException('CWM\BroadWorksConnector\Ocip\Validation\InvalidChoiceException');
-        }
+        $this->expect('CWM\BroadWorksConnector\Ocip\Validation\InvalidChoiceException');
 
         $request = (new SystemGetRegistrationContactListRequest())
             ->setGroupId('group')
@@ -139,12 +109,7 @@ class ValidationTest extends \PHPUnit\Framework\TestCase
 
     public function testChoiceWithUnsetArrays()
     {
-        // setExpectedException is gone from phpunit 5
-        if (method_exists($this, 'expectException')) {
-            $this->expectException('CWM\BroadWorksConnector\Ocip\Validation\ChoiceNotSetException');
-        } else {
-            $this->setExpectedException('CWM\BroadWorksConnector\Ocip\Validation\ChoiceNotSetException');
-        }
+        $this->expect('CWM\BroadWorksConnector\Ocip\Validation\ChoiceNotSetException');
 
         $request = (new GroupCallCenterAddAgentListRequest())
             ->setServiceUserId('test@test.com');
@@ -163,12 +128,7 @@ class ValidationTest extends \PHPUnit\Framework\TestCase
 
     public function testChoiceWithSetArrays()
     {
-        // setExpectedException is gone from phpunit 5
-        if (method_exists($this, 'expectException')) {
-            $this->expectException('CWM\BroadWorksConnector\Ocip\Validation\InvalidChoiceException');
-        } else {
-            $this->setExpectedException('CWM\BroadWorksConnector\Ocip\Validation\InvalidChoiceException');
-        }
+        $this->expect('CWM\BroadWorksConnector\Ocip\Validation\InvalidChoiceException');
 
         $request = (new GroupCallCenterAddAgentListRequest())
             ->setServiceUserId('test@test.com')
@@ -191,12 +151,7 @@ class ValidationTest extends \PHPUnit\Framework\TestCase
 
     public function testIncompleteObjectInArray()
     {
-        // setExpectedException is gone from phpunit 5
-        if (method_exists($this, 'expectException')) {
-            $this->expectException('CWM\BroadWorksConnector\Ocip\Validation\FieldNotSetException');
-        } else {
-            $this->setExpectedException('CWM\BroadWorksConnector\Ocip\Validation\FieldNotSetException');
-        }
+        $this->expect('CWM\BroadWorksConnector\Ocip\Validation\FieldNotSetException');
 
         $request = (new GroupAccessDeviceGetListRequest())
             ->setServiceProviderId('SP')
@@ -226,5 +181,15 @@ class ValidationTest extends \PHPUnit\Framework\TestCase
                 ]);
 
         $this->assertEquals(true, Validator::validate($request));
+    }
+
+    private function expect($exceptionName)
+    {
+        // setExpectedException is gone from phpunit 5
+        if (method_exists($this, 'expectException')) {
+            $this->expectException($exceptionName);
+        } else {
+            $this->setExpectedException($exceptionName);
+        }
     }
 }

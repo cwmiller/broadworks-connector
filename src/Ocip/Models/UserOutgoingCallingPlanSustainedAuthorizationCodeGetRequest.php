@@ -20,6 +20,8 @@ class UserOutgoingCallingPlanSustainedAuthorizationCodeGetRequest extends \CWM\B
      * @ElementName userId
      * @Type string
      * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:1632
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;

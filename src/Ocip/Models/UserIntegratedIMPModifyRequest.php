@@ -30,6 +30,8 @@ class UserIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName userId
      * @Type string
      * @Group 23389100b68cef3aa07ee12ac7a2bd16:380
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;
@@ -48,6 +50,8 @@ class UserIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @Type string
      * @Optional
      * @Group 23389100b68cef3aa07ee12ac7a2bd16:380
+     * @MinLength 1
+     * @MaxLength 196
      * @var string|null
      */
     private $impId = null;

@@ -26,6 +26,8 @@ class GroupThirdPartyVoiceMailSupportGetResponse extends \CWM\BroadWorksConnecto
      * @Type string
      * @Optional
      * @Group 3c311aa5c89c0cf5b46e1cdefd5bc387:69
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $groupServer = null;

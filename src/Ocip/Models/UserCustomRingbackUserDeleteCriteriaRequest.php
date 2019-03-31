@@ -19,6 +19,8 @@ class UserCustomRingbackUserDeleteCriteriaRequest extends \CWM\BroadWorksConnect
      * @ElementName userId
      * @Type string
      * @Group 80acd3e6f38b9682dcefe7cd473392c3:138
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;
@@ -27,6 +29,8 @@ class UserCustomRingbackUserDeleteCriteriaRequest extends \CWM\BroadWorksConnect
      * @ElementName criteriaName
      * @Type string
      * @Group 80acd3e6f38b9682dcefe7cd473392c3:138
+     * @MinLength 1
+     * @MaxLength 50
      * @var string|null
      */
     private $criteriaName = null;

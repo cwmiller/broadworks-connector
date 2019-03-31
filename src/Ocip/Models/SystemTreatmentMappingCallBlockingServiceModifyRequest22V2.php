@@ -31,6 +31,8 @@ class SystemTreatmentMappingCallBlockingServiceModifyRequest22V2 extends \CWM\Br
      * @Type string
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:6968
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $treatmentId = null;

@@ -20,6 +20,8 @@ class GroupHuntGroupGetInstanceListRequest extends \CWM\BroadWorksConnector\Ocip
      * @ElementName serviceProviderId
      * @Type string
      * @Group bc829065f9d696d3ca7084121d57f8c0:345
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -28,6 +30,8 @@ class GroupHuntGroupGetInstanceListRequest extends \CWM\BroadWorksConnector\Ocip
      * @ElementName groupId
      * @Type string
      * @Group bc829065f9d696d3ca7084121d57f8c0:345
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;
@@ -37,6 +41,8 @@ class GroupHuntGroupGetInstanceListRequest extends \CWM\BroadWorksConnector\Ocip
      * @Type string
      * @Optional
      * @Group bc829065f9d696d3ca7084121d57f8c0:345
+     * @MinLength 1
+     * @MaxLength 50
      * @var string|null
      */
     private $groupDepartmentName = null;

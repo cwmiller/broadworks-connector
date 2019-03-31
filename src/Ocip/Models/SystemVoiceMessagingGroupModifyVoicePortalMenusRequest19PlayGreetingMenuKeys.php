@@ -16,6 +16,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19PlayGreetingMenuKe
      * @Nillable
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1292
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $skipBackward = null;
@@ -26,6 +28,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19PlayGreetingMenuKe
      * @Nillable
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1292
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $pauseOrResume = null;
@@ -36,6 +40,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19PlayGreetingMenuKe
      * @Nillable
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1292
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $skipForward = null;
@@ -46,6 +52,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19PlayGreetingMenuKe
      * @Nillable
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1292
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $jumpToBegin = null;
@@ -56,6 +64,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19PlayGreetingMenuKe
      * @Nillable
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1292
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $jumpToEnd = null;

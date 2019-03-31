@@ -17,6 +17,8 @@ class ServiceInstanceModifyProfileTrunkGroup
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:43209
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $name = null;
@@ -26,6 +28,8 @@ class ServiceInstanceModifyProfileTrunkGroup
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:43209
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $callingLineIdLastName = null;
@@ -35,6 +39,8 @@ class ServiceInstanceModifyProfileTrunkGroup
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:43209
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $callingLineIdFirstName = null;
@@ -44,6 +50,8 @@ class ServiceInstanceModifyProfileTrunkGroup
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:43209
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $hiraganaLastName = null;
@@ -53,6 +61,8 @@ class ServiceInstanceModifyProfileTrunkGroup
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:43209
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $hiraganaFirstName = null;
@@ -63,6 +73,8 @@ class ServiceInstanceModifyProfileTrunkGroup
      * @Nillable
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:43209
+     * @MinLength 1
+     * @MaxLength 23
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $phoneNumber = null;
@@ -73,6 +85,8 @@ class ServiceInstanceModifyProfileTrunkGroup
      * @Nillable
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:43209
+     * @MinLength 2
+     * @MaxLength 6
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $extension = null;
@@ -82,6 +96,8 @@ class ServiceInstanceModifyProfileTrunkGroup
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:43209
+     * @MinLength 1
+     * @MaxLength 60
      * @var string|null
      */
     private $password = null;
@@ -101,6 +117,8 @@ class ServiceInstanceModifyProfileTrunkGroup
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:43209
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $language = null;
@@ -110,6 +128,8 @@ class ServiceInstanceModifyProfileTrunkGroup
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:43209
+     * @MinLength 1
+     * @MaxLength 127
      * @var string|null
      */
     private $timeZone = null;

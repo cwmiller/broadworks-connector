@@ -20,6 +20,8 @@ class UserCollaborateDeleteRoomRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName userId
      * @Type string
      * @Group 939fd5846dfae8bdf58308d6cb9ebb12:614
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;
@@ -28,6 +30,8 @@ class UserCollaborateDeleteRoomRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName roomId
      * @Type string
      * @Group 939fd5846dfae8bdf58308d6cb9ebb12:614
+     * @MinLength 4
+     * @MaxLength 15
      * @var string|null
      */
     private $roomId = null;

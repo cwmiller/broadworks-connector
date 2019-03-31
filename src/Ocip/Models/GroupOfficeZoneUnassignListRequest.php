@@ -19,6 +19,8 @@ class GroupOfficeZoneUnassignListRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName serviceProviderId
      * @Type string
      * @Group f3a93cf15de4abd7903673e44ee3e07b:5755
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,6 +29,8 @@ class GroupOfficeZoneUnassignListRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName groupId
      * @Type string
      * @Group f3a93cf15de4abd7903673e44ee3e07b:5755
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;
@@ -37,6 +41,8 @@ class GroupOfficeZoneUnassignListRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @Array
      * @Optional
      * @Group f3a93cf15de4abd7903673e44ee3e07b:5755
+     * @MinLength 1
+     * @MaxLength 40
      * @var string[]
      */
     private $officeZoneName = array(
@@ -48,6 +54,8 @@ class GroupOfficeZoneUnassignListRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @Type string
      * @Optional
      * @Group f3a93cf15de4abd7903673e44ee3e07b:5755
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $defaultOfficeZoneName = null;

@@ -26,6 +26,8 @@ class ServiceProviderDeviceManagementEventGetListRequest extends \CWM\BroadWorks
      * @ElementName serviceProviderId
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:41328
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -44,6 +46,7 @@ class ServiceProviderDeviceManagementEventGetListRequest extends \CWM\BroadWorks
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:41328
+     * @MinInclusive 1
      * @var int|null
      */
     private $responseSizeLimit = null;

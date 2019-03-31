@@ -55,6 +55,8 @@ class SystemSubscriberModifyCallProcessingParametersRequest extends \CWM\BroadWo
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:6627
+     * @MinInclusive 1
+     * @MaxInclusive 180
      * @var int|null
      */
     private $ringTimeoutSeconds = null;
@@ -73,6 +75,8 @@ class SystemSubscriberModifyCallProcessingParametersRequest extends \CWM\BroadWo
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:6627
+     * @MinInclusive 6
+     * @MaxInclusive 20
      * @var int|null
      */
     private $maxNoAnswerNumberOfRings = null;

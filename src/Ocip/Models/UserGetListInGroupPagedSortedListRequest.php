@@ -32,6 +32,8 @@ class UserGetListInGroupPagedSortedListRequest extends \CWM\BroadWorksConnector\
      * @ElementName serviceProviderId
      * @Type string
      * @Group 53d18cc797d03d802cbc411ad821f1d4:1737
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -40,6 +42,8 @@ class UserGetListInGroupPagedSortedListRequest extends \CWM\BroadWorksConnector\
      * @ElementName groupId
      * @Type string
      * @Group 53d18cc797d03d802cbc411ad821f1d4:1737
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;

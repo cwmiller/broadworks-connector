@@ -16,6 +16,8 @@ class DeviceManagementUserNamePassword
      * @ElementName userName
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:43647
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $userName = null;
@@ -24,6 +26,8 @@ class DeviceManagementUserNamePassword
      * @ElementName password
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:43647
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $password = null;

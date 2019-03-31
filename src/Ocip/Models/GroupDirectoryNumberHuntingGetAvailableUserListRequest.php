@@ -21,6 +21,8 @@ class GroupDirectoryNumberHuntingGetAvailableUserListRequest extends \CWM\BroadW
      * @ElementName serviceUserId
      * @Type string
      * @Group 7c509136e6ce6be616e313c3b28a0449:46
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $serviceUserId = null;

@@ -17,6 +17,8 @@ class CallCenterReportServiceLevelThresholdReplacementList
      * @Type int
      * @Array
      * @Group e2c537e3e39483b96620673a7012ffdd:7527
+     * @MinInclusive 1
+     * @MaxInclusive 7200
      * @var int[]
      */
     private $serviceLevelThresholdSeconds = array(

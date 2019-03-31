@@ -20,6 +20,8 @@ class UserAnonymousCallRejectionGetRequest extends \CWM\BroadWorksConnector\Ocip
      * @ElementName userId
      * @Type string
      * @Group 6b25f8a296bf72b8b383a287bee9127d:95
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;

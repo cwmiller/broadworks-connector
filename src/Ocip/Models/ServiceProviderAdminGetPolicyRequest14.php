@@ -19,6 +19,8 @@ class ServiceProviderAdminGetPolicyRequest14 extends \CWM\BroadWorksConnector\Oc
      * @ElementName userId
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:14407
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;

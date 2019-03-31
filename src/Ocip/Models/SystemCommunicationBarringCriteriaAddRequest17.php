@@ -22,6 +22,8 @@ class SystemCommunicationBarringCriteriaAddRequest17 extends \CWM\BroadWorksConn
      * @ElementName name
      * @Type string
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:5359
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $name = null;
@@ -31,6 +33,8 @@ class SystemCommunicationBarringCriteriaAddRequest17 extends \CWM\BroadWorksConn
      * @Type string
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:5359
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $description = null;
@@ -41,6 +45,8 @@ class SystemCommunicationBarringCriteriaAddRequest17 extends \CWM\BroadWorksConn
      * @Array
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:5359
+     * @MinLength 1
+     * @MaxLength 40
      * @var string[]
      */
     private $matchCallType = array(
@@ -53,6 +59,8 @@ class SystemCommunicationBarringCriteriaAddRequest17 extends \CWM\BroadWorksConn
      * @Array
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:5359
+     * @MinLength 1
+     * @MaxLength 40
      * @var string[]
      */
     private $matchAlternateCallIndicator = array(
@@ -65,6 +73,8 @@ class SystemCommunicationBarringCriteriaAddRequest17 extends \CWM\BroadWorksConn
      * @Array
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:5359
+     * @MinLength 1
+     * @MaxLength 40
      * @var string[]
      */
     private $matchVirtualOnNetCallType = array(
@@ -276,6 +286,8 @@ class SystemCommunicationBarringCriteriaAddRequest17 extends \CWM\BroadWorksConn
      * @Type string
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:5359
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $timeSchedule = null;
@@ -285,6 +297,8 @@ class SystemCommunicationBarringCriteriaAddRequest17 extends \CWM\BroadWorksConn
      * @Type string
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:5359
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $holidaySchedule = null;
@@ -295,6 +309,8 @@ class SystemCommunicationBarringCriteriaAddRequest17 extends \CWM\BroadWorksConn
      * @Array
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:5359
+     * @MinLength 1
+     * @MaxLength 40
      * @var string[]
      */
     private $matchNumberPortabilityStatus = array(

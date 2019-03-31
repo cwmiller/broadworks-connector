@@ -14,6 +14,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19SendToPersonMenuKeys
      * @ElementName confirmSendingMessage
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:28201
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $confirmSendingMessage = null;
@@ -22,6 +24,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19SendToPersonMenuKeys
      * @ElementName cancelSendingMessage
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:28201
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $cancelSendingMessage = null;
@@ -30,6 +34,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19SendToPersonMenuKeys
      * @ElementName finishEnteringNumberWhereToSendMessageTo
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:28201
+     * @Length 1
+     * @Pattern \*|#
      * @var string|null
      */
     private $finishEnteringNumberWhereToSendMessageTo = null;
@@ -38,6 +44,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19SendToPersonMenuKeys
      * @ElementName finishForwardingOrSendingMessage
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:28201
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $finishForwardingOrSendingMessage = null;

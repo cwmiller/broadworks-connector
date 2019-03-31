@@ -19,6 +19,8 @@ class UserSecurityClassificationModifyRequest extends \CWM\BroadWorksConnector\O
      * @ElementName userId
      * @Type string
      * @Group 6b3afea8308b7fdaab8d385357ca9c2d:346
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;
@@ -28,6 +30,8 @@ class UserSecurityClassificationModifyRequest extends \CWM\BroadWorksConnector\O
      * @Type string
      * @Nillable
      * @Group 6b3afea8308b7fdaab8d385357ca9c2d:346
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $securityClassification = null;

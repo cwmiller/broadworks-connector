@@ -17,6 +17,8 @@ class ServiceProviderEnhancedCallLogsGetResponse17sp4 extends \CWM\BroadWorksCon
      * @ElementName maxLoggedCalls
      * @Type int
      * @Group f6b3702edb5f67fa12c2c426d98657db:161
+     * @MinInclusive 1
+     * @MaxInclusive 99000
      * @var int|null
      */
     private $maxLoggedCalls = null;
@@ -25,6 +27,8 @@ class ServiceProviderEnhancedCallLogsGetResponse17sp4 extends \CWM\BroadWorksCon
      * @ElementName callExpirationDays
      * @Type int
      * @Group f6b3702edb5f67fa12c2c426d98657db:161
+     * @MinInclusive 1
+     * @MaxInclusive 1000
      * @var int|null
      */
     private $callExpirationDays = null;

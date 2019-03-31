@@ -21,6 +21,8 @@ class UserExecutiveModifyFilteringSelectiveCriteriaRequest extends \CWM\BroadWor
      * @ElementName userId
      * @Type string
      * @Group 9a6dbade05624033cf7fe782b7c9a9a7:394
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;
@@ -29,6 +31,8 @@ class UserExecutiveModifyFilteringSelectiveCriteriaRequest extends \CWM\BroadWor
      * @ElementName criteriaName
      * @Type string
      * @Group 9a6dbade05624033cf7fe782b7c9a9a7:394
+     * @MinLength 1
+     * @MaxLength 50
      * @var string|null
      */
     private $criteriaName = null;
@@ -38,6 +42,8 @@ class UserExecutiveModifyFilteringSelectiveCriteriaRequest extends \CWM\BroadWor
      * @Type string
      * @Optional
      * @Group 9a6dbade05624033cf7fe782b7c9a9a7:394
+     * @MinLength 1
+     * @MaxLength 50
      * @var string|null
      */
     private $newCriteriaName = null;

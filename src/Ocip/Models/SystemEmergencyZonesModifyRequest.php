@@ -20,6 +20,8 @@ class SystemEmergencyZonesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Type string
      * @Optional
      * @Group e71c2205fb31894f87810b330a85ede2:290
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $defaultFromAddress = null;

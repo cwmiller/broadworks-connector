@@ -17,6 +17,7 @@ class UserSingleSignOnCreateDeviceTokenResponse extends \CWM\BroadWorksConnector
      * @ElementName deviceToken
      * @Type string
      * @Group 6b27fcc79475236456fc113a42b75543:732
+     * @MinLength 1
      * @var string|null
      */
     private $deviceToken = null;

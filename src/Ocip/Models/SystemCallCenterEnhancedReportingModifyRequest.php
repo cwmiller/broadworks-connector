@@ -30,6 +30,8 @@ class SystemCallCenterEnhancedReportingModifyRequest extends \CWM\BroadWorksConn
      * @Nillable
      * @Optional
      * @Group e2c537e3e39483b96620673a7012ffdd:6122
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $reportApplicationURL = null;
@@ -40,6 +42,8 @@ class SystemCallCenterEnhancedReportingModifyRequest extends \CWM\BroadWorksConn
      * @Nillable
      * @Optional
      * @Group e2c537e3e39483b96620673a7012ffdd:6122
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $repositoryApplicationURL = null;

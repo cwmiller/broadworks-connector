@@ -47,6 +47,8 @@ class GroupHuntGroupGetInstanceResponse17sp1V1 extends \CWM\BroadWorksConnector\
      * @ElementName noAnswerNumberOfRings
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:25181
+     * @MinInclusive 1
+     * @MaxInclusive 20
      * @var int|null
      */
     private $noAnswerNumberOfRings = null;
@@ -63,6 +65,8 @@ class GroupHuntGroupGetInstanceResponse17sp1V1 extends \CWM\BroadWorksConnector\
      * @ElementName forwardTimeoutSeconds
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:25181
+     * @MinInclusive
+     * @MaxInclusive 7200
      * @var int|null
      */
     private $forwardTimeoutSeconds = null;
@@ -72,6 +76,8 @@ class GroupHuntGroupGetInstanceResponse17sp1V1 extends \CWM\BroadWorksConnector\
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:25181
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $forwardToPhoneNumber = null;

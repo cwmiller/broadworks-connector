@@ -20,6 +20,8 @@ class SystemAutomaticCallbackModifyRequest15 extends \CWM\BroadWorksConnector\Oc
      * @Type int
      * @Optional
      * @Group e8188f390ad4fcfad616cb409dd0e896:143
+     * @MinInclusive 5
+     * @MaxInclusive 180
      * @var int|null
      */
     private $monitorMinutes = null;
@@ -29,6 +31,8 @@ class SystemAutomaticCallbackModifyRequest15 extends \CWM\BroadWorksConnector\Oc
      * @Type int
      * @Optional
      * @Group e8188f390ad4fcfad616cb409dd0e896:143
+     * @MinInclusive 1
+     * @MaxInclusive 30
      * @var int|null
      */
     private $maxMonitorsPerOriginator = null;
@@ -38,6 +42,8 @@ class SystemAutomaticCallbackModifyRequest15 extends \CWM\BroadWorksConnector\Oc
      * @Type int
      * @Optional
      * @Group e8188f390ad4fcfad616cb409dd0e896:143
+     * @MinInclusive 3
+     * @MaxInclusive 8
      * @var int|null
      */
     private $maxCallbackRings = null;
@@ -47,6 +53,8 @@ class SystemAutomaticCallbackModifyRequest15 extends \CWM\BroadWorksConnector\Oc
      * @Type int
      * @Optional
      * @Group e8188f390ad4fcfad616cb409dd0e896:143
+     * @MinInclusive 1
+     * @MaxInclusive 30
      * @var int|null
      */
     private $maxMonitorsPerTerminator = null;
@@ -56,6 +64,8 @@ class SystemAutomaticCallbackModifyRequest15 extends \CWM\BroadWorksConnector\Oc
      * @Type int
      * @Optional
      * @Group e8188f390ad4fcfad616cb409dd0e896:143
+     * @MinInclusive 5
+     * @MaxInclusive 300
      * @var int|null
      */
     private $terminatorIdleGuardSeconds = null;
@@ -74,6 +84,8 @@ class SystemAutomaticCallbackModifyRequest15 extends \CWM\BroadWorksConnector\Oc
      * @Type int
      * @Optional
      * @Group e8188f390ad4fcfad616cb409dd0e896:143
+     * @MinInclusive 60
+     * @MaxInclusive 900
      * @var int|null
      */
     private $pollingIntervalSeconds = null;
@@ -83,6 +95,8 @@ class SystemAutomaticCallbackModifyRequest15 extends \CWM\BroadWorksConnector\Oc
      * @Type int
      * @Optional
      * @Group e8188f390ad4fcfad616cb409dd0e896:143
+     * @MinInclusive
+     * @MaxInclusive 9
      * @var int|null
      */
     private $activationDigit = null;

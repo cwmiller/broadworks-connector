@@ -28,6 +28,8 @@ class GroupAccessDeviceFileGetResponse14sp8 extends \CWM\BroadWorksConnector\Oci
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:12369
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $configurationFileName = null;

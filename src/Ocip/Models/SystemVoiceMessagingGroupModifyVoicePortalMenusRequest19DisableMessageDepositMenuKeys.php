@@ -16,6 +16,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19DisableMessageDepo
      * @Nillable
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1608
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $disconnectAfterGreeting = null;
@@ -26,6 +28,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19DisableMessageDepo
      * @Nillable
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1608
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $forwardAfterGreeting = null;
@@ -36,6 +40,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19DisableMessageDepo
      * @Nillable
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1608
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $changeForwardingDestination = null;
@@ -45,6 +51,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19DisableMessageDepo
      * @Type string
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1608
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $returnToPreviousMenu = null;
@@ -55,6 +63,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19DisableMessageDepo
      * @Nillable
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1608
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $repeatMenu = null;

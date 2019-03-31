@@ -17,6 +17,8 @@ class EnterpriseEnterpriseTrunkGetResponse21 extends \CWM\BroadWorksConnector\Oc
      * @ElementName maximumRerouteAttempts
      * @Type int
      * @Group b9c14e2d80e4e7749688ca13ba233b44:329
+     * @MinInclusive 1
+     * @MaxInclusive 10
      * @var int|null
      */
     private $maximumRerouteAttempts = null;
@@ -34,6 +36,8 @@ class EnterpriseEnterpriseTrunkGetResponse21 extends \CWM\BroadWorksConnector\Oc
      * @Type string
      * @Optional
      * @Group b9c14e2d80e4e7749688ca13ba233b44:329
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $routeExhaustionForwardAddress = null;
@@ -67,6 +71,7 @@ class EnterpriseEnterpriseTrunkGetResponse21 extends \CWM\BroadWorksConnector\Oc
      * @Type int
      * @Optional
      * @Group b9c14e2d80e4e7749688ca13ba233b44:329
+     * @MinInclusive 1
      * @var int|null
      */
     private $maxActiveCalls = null;
@@ -76,6 +81,7 @@ class EnterpriseEnterpriseTrunkGetResponse21 extends \CWM\BroadWorksConnector\Oc
      * @Type int
      * @Optional
      * @Group b9c14e2d80e4e7749688ca13ba233b44:329
+     * @MinInclusive
      * @var int|null
      */
     private $capacityExceededTrapInitialCalls = null;
@@ -85,6 +91,7 @@ class EnterpriseEnterpriseTrunkGetResponse21 extends \CWM\BroadWorksConnector\Oc
      * @Type int
      * @Optional
      * @Group b9c14e2d80e4e7749688ca13ba233b44:329
+     * @MinInclusive
      * @var int|null
      */
     private $capacityExceededTrapOffsetCalls = null;

@@ -19,6 +19,8 @@ class GroupCallCenterGetAnnouncementRequest19 extends \CWM\BroadWorksConnector\O
      * @ElementName serviceUserId
      * @Type string
      * @Group de4d76f01f337fe4694212ec9f771753:4223
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $serviceUserId = null;

@@ -20,6 +20,8 @@ class SystemClassmarkGetUtilizationListRequest extends \CWM\BroadWorksConnector\
      * @ElementName classmark
      * @Type string
      * @Group 0d0e878cbc947aebb19ad489b2ffef11:112
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $classmark = null;
@@ -29,6 +31,7 @@ class SystemClassmarkGetUtilizationListRequest extends \CWM\BroadWorksConnector\
      * @Type int
      * @Optional
      * @Group 0d0e878cbc947aebb19ad489b2ffef11:112
+     * @MinInclusive 1
      * @var int|null
      */
     private $responseSizeLimit = null;

@@ -25,6 +25,8 @@ class SystemCallRecordingGetPlatformListResponse22V2 extends \CWM\BroadWorksConn
      * @Type string
      * @Optional
      * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:194
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $systemDefault = null;
@@ -34,6 +36,8 @@ class SystemCallRecordingGetPlatformListResponse22V2 extends \CWM\BroadWorksConn
      * @Type string
      * @Optional
      * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:194
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $resellerDefault = null;

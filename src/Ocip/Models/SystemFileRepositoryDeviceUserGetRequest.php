@@ -19,6 +19,8 @@ class SystemFileRepositoryDeviceUserGetRequest extends \CWM\BroadWorksConnector\
      * @ElementName fileRepositoryName
      * @Type string
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9479
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $fileRepositoryName = null;
@@ -27,6 +29,8 @@ class SystemFileRepositoryDeviceUserGetRequest extends \CWM\BroadWorksConnector\
      * @ElementName userName
      * @Type string
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9479
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $userName = null;

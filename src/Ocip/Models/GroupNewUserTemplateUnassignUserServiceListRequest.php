@@ -20,6 +20,8 @@ class GroupNewUserTemplateUnassignUserServiceListRequest extends \CWM\BroadWorks
      * @ElementName serviceProviderId
      * @Type string
      * @Group f3a93cf15de4abd7903673e44ee3e07b:5635
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -28,6 +30,8 @@ class GroupNewUserTemplateUnassignUserServiceListRequest extends \CWM\BroadWorks
      * @ElementName groupId
      * @Type string
      * @Group f3a93cf15de4abd7903673e44ee3e07b:5635
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;
@@ -50,6 +54,8 @@ class GroupNewUserTemplateUnassignUserServiceListRequest extends \CWM\BroadWorks
      * @Array
      * @Optional
      * @Group f3a93cf15de4abd7903673e44ee3e07b:5635
+     * @MinLength 1
+     * @MaxLength 80
      * @var string[]
      */
     private $servicePackName = array(

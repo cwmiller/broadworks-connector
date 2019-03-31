@@ -20,6 +20,8 @@ class GroupBroadWorksMobileManagerGetDomainListResponse extends \CWM\BroadWorksC
      * @Array
      * @Optional
      * @Group f3a93cf15de4abd7903673e44ee3e07b:1826
+     * @MinLength 1
+     * @MaxLength 100
      * @var string[]
      */
     private $domainName = array(

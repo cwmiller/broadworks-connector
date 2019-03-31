@@ -21,6 +21,8 @@ class GroupSeriesCompletionGetAvailableUserListRequest extends \CWM\BroadWorksCo
      * @ElementName serviceProviderId
      * @Type string
      * @Group b974dc59b4b32d9f5952a0442ecaefa8:86
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -29,6 +31,8 @@ class GroupSeriesCompletionGetAvailableUserListRequest extends \CWM\BroadWorksCo
      * @ElementName groupId
      * @Type string
      * @Group b974dc59b4b32d9f5952a0442ecaefa8:86
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;
@@ -38,6 +42,8 @@ class GroupSeriesCompletionGetAvailableUserListRequest extends \CWM\BroadWorksCo
      * @Type string
      * @Optional
      * @Group b974dc59b4b32d9f5952a0442ecaefa8:86
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $name = null;
@@ -47,6 +53,7 @@ class GroupSeriesCompletionGetAvailableUserListRequest extends \CWM\BroadWorksCo
      * @Type int
      * @Optional
      * @Group b974dc59b4b32d9f5952a0442ecaefa8:86
+     * @MinInclusive 1
      * @var int|null
      */
     private $responseSizeLimit = null;

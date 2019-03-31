@@ -14,6 +14,8 @@ class EnterpriseEnterpriseTrunkAddRequest21PriorityWeightedRouting
      * @ElementName maximumRerouteAttemptsWithinPriority
      * @Type int
      * @Group b9c14e2d80e4e7749688ca13ba233b44:103
+     * @MinInclusive 1
+     * @MaxInclusive 10
      * @var int|null
      */
     private $maximumRerouteAttemptsWithinPriority = null;

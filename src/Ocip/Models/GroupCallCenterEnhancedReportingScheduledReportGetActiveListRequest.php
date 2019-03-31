@@ -19,6 +19,8 @@ class GroupCallCenterEnhancedReportingScheduledReportGetActiveListRequest extend
      * @ElementName serviceProviderId
      * @Type string
      * @Group e2c537e3e39483b96620673a7012ffdd:3636
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,6 +29,8 @@ class GroupCallCenterEnhancedReportingScheduledReportGetActiveListRequest extend
      * @ElementName groupId
      * @Type string
      * @Group e2c537e3e39483b96620673a7012ffdd:3636
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;
@@ -36,6 +40,7 @@ class GroupCallCenterEnhancedReportingScheduledReportGetActiveListRequest extend
      * @Type int
      * @Optional
      * @Group e2c537e3e39483b96620673a7012ffdd:3636
+     * @MinInclusive 1
      * @var int|null
      */
     private $responseSizeLimit = null;

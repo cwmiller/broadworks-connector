@@ -20,6 +20,8 @@ class SystemCallMeNowModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Type int
      * @Optional
      * @Group 1f0f230fee2817fe00157925859dc28e:77
+     * @MinInclusive 2
+     * @MaxInclusive 30
      * @var int|null
      */
     private $passcodeLength = null;
@@ -29,6 +31,8 @@ class SystemCallMeNowModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Type int
      * @Optional
      * @Group 1f0f230fee2817fe00157925859dc28e:77
+     * @MinInclusive 30
+     * @MaxInclusive 180
      * @var int|null
      */
     private $passcodeTimeoutSeconds = null;

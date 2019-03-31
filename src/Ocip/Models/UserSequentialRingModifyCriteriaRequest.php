@@ -19,6 +19,8 @@ class UserSequentialRingModifyCriteriaRequest extends \CWM\BroadWorksConnector\O
      * @ElementName userId
      * @Type string
      * @Group 6a83dcd7b5697b78acbf42324c2dbe67:159
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;
@@ -27,6 +29,8 @@ class UserSequentialRingModifyCriteriaRequest extends \CWM\BroadWorksConnector\O
      * @ElementName criteriaName
      * @Type string
      * @Group 6a83dcd7b5697b78acbf42324c2dbe67:159
+     * @MinLength 1
+     * @MaxLength 50
      * @var string|null
      */
     private $criteriaName = null;
@@ -36,6 +40,8 @@ class UserSequentialRingModifyCriteriaRequest extends \CWM\BroadWorksConnector\O
      * @Type string
      * @Optional
      * @Group 6a83dcd7b5697b78acbf42324c2dbe67:159
+     * @MinLength 1
+     * @MaxLength 50
      * @var string|null
      */
     private $newCriteriaName = null;

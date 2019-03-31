@@ -23,6 +23,8 @@ class SystemAccountingReorderChargingFunctionElementServerRequest extends \CWM\B
      * @Type string
      * @Array
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1611
+     * @MinLength 1
+     * @MaxLength 256
      * @var string[]
      */
     private $orderedAddressList = array(

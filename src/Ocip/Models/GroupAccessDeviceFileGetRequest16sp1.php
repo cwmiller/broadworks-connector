@@ -22,6 +22,8 @@ class GroupAccessDeviceFileGetRequest16sp1 extends \CWM\BroadWorksConnector\Ocip
      * @ElementName serviceProviderId
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:40893
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -30,6 +32,8 @@ class GroupAccessDeviceFileGetRequest16sp1 extends \CWM\BroadWorksConnector\Ocip
      * @ElementName groupId
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:40893
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;
@@ -38,6 +42,8 @@ class GroupAccessDeviceFileGetRequest16sp1 extends \CWM\BroadWorksConnector\Ocip
      * @ElementName deviceName
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:40893
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $deviceName = null;
@@ -46,6 +52,8 @@ class GroupAccessDeviceFileGetRequest16sp1 extends \CWM\BroadWorksConnector\Ocip
      * @ElementName fileFormat
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:40893
+     * @MinLength 1
+     * @MaxLength 128
      * @var string|null
      */
     private $fileFormat = null;

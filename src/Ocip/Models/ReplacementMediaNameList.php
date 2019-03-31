@@ -17,6 +17,8 @@ class ReplacementMediaNameList
      * @Type string
      * @Array
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18646
+     * @MinLength 1
+     * @MaxLength 80
      * @var string[]
      */
     private $mediaName = array(

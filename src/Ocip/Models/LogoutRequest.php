@@ -21,6 +21,8 @@ class LogoutRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
      * @ElementName userId
      * @Type string
      * @Group 6b27fcc79475236456fc113a42b75543:403
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;

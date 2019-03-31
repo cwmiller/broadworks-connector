@@ -38,6 +38,8 @@ class GroupCallProcessingGetPolicyRequest19sp1 extends \CWM\BroadWorksConnector\
      * @ElementName serviceProviderId
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:36301
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -46,6 +48,8 @@ class GroupCallProcessingGetPolicyRequest19sp1 extends \CWM\BroadWorksConnector\
      * @ElementName groupId
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:36301
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;

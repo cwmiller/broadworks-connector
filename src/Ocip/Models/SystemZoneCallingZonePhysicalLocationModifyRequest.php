@@ -19,6 +19,8 @@ class SystemZoneCallingZonePhysicalLocationModifyRequest extends \CWM\BroadWorks
      * @ElementName zoneName
      * @Type string
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18256
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $zoneName = null;
@@ -29,6 +31,8 @@ class SystemZoneCallingZonePhysicalLocationModifyRequest extends \CWM\BroadWorks
      * @Nillable
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18256
+     * @MinLength 1
+     * @MaxLength 1024
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $physicalLocation = null;

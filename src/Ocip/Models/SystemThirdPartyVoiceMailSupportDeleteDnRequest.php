@@ -19,6 +19,8 @@ class SystemThirdPartyVoiceMailSupportDeleteDnRequest extends \CWM\BroadWorksCon
      * @ElementName phoneNumber
      * @Type string
      * @Group 3c311aa5c89c0cf5b46e1cdefd5bc387:122
+     * @MinLength 1
+     * @MaxLength 23
      * @var string|null
      */
     private $phoneNumber = null;

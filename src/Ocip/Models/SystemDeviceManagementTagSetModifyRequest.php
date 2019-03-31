@@ -19,6 +19,8 @@ class SystemDeviceManagementTagSetModifyRequest extends \CWM\BroadWorksConnector
      * @ElementName tagSetName
      * @Type string
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7447
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $tagSetName = null;
@@ -28,6 +30,8 @@ class SystemDeviceManagementTagSetModifyRequest extends \CWM\BroadWorksConnector
      * @Type string
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7447
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $newTagSetName = null;

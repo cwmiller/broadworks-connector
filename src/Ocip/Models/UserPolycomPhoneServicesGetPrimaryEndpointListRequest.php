@@ -19,6 +19,8 @@ class UserPolycomPhoneServicesGetPrimaryEndpointListRequest extends \CWM\BroadWo
      * @ElementName userId
      * @Type string
      * @Group 4f074d986b998636e2bcb0d67372b0f4:100
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;

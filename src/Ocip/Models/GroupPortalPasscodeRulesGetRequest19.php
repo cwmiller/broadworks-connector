@@ -19,6 +19,8 @@ class GroupPortalPasscodeRulesGetRequest19 extends \CWM\BroadWorksConnector\Ocip
      * @ElementName serviceProviderId
      * @Type string
      * @Group f3a93cf15de4abd7903673e44ee3e07b:6038
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,6 +29,8 @@ class GroupPortalPasscodeRulesGetRequest19 extends \CWM\BroadWorksConnector\Ocip
      * @ElementName groupId
      * @Type string
      * @Group f3a93cf15de4abd7903673e44ee3e07b:6038
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;

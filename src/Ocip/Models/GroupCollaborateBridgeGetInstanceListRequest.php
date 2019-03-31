@@ -20,6 +20,8 @@ class GroupCollaborateBridgeGetInstanceListRequest extends \CWM\BroadWorksConnec
      * @ElementName serviceProviderId
      * @Type string
      * @Group 939fd5846dfae8bdf58308d6cb9ebb12:302
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -28,6 +30,8 @@ class GroupCollaborateBridgeGetInstanceListRequest extends \CWM\BroadWorksConnec
      * @ElementName groupId
      * @Type string
      * @Group 939fd5846dfae8bdf58308d6cb9ebb12:302
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;
@@ -37,6 +41,8 @@ class GroupCollaborateBridgeGetInstanceListRequest extends \CWM\BroadWorksConnec
      * @Type string
      * @Optional
      * @Group 939fd5846dfae8bdf58308d6cb9ebb12:302
+     * @MinLength 1
+     * @MaxLength 50
      * @var string|null
      */
     private $departmentName = null;

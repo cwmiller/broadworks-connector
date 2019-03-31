@@ -42,6 +42,8 @@ class GroupCollaborateBridgeGetInstanceResponse20sp1 extends \CWM\BroadWorksConn
      * @Type string
      * @Optional
      * @Group 939fd5846dfae8bdf58308d6cb9ebb12:416
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $networkClassOfService = null;
@@ -58,6 +60,8 @@ class GroupCollaborateBridgeGetInstanceResponse20sp1 extends \CWM\BroadWorksConn
      * @ElementName maxCollaborateRoomParticipants
      * @Type int
      * @Group 939fd5846dfae8bdf58308d6cb9ebb12:416
+     * @MinInclusive 3
+     * @MaxInclusive 145
      * @var int|null
      */
     private $maxCollaborateRoomParticipants = null;

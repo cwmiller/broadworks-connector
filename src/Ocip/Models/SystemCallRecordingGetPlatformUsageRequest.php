@@ -22,6 +22,8 @@ class SystemCallRecordingGetPlatformUsageRequest extends \CWM\BroadWorksConnecto
      * @ElementName name
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:41720
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $name = null;

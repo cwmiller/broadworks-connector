@@ -28,6 +28,8 @@ class GroupPreferredCarrierNameModify
      * @Nillable
      * @Optional
      * @Group 74a46a9bfccb54713c1d19735843f1df:608
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $carrier = null;

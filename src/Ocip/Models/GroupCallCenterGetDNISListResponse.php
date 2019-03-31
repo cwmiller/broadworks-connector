@@ -58,6 +58,8 @@ class GroupCallCenterGetDNISListResponse extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName promoteCallsFromPriority1to0Seconds
      * @Type int
      * @Group e2c537e3e39483b96620673a7012ffdd:4463
+     * @MinInclusive 1
+     * @MaxInclusive 1800
      * @var int|null
      */
     private $promoteCallsFromPriority1to0Seconds = null;
@@ -66,6 +68,8 @@ class GroupCallCenterGetDNISListResponse extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName promoteCallsFromPriority2to1Seconds
      * @Type int
      * @Group e2c537e3e39483b96620673a7012ffdd:4463
+     * @MinInclusive 1
+     * @MaxInclusive 1800
      * @var int|null
      */
     private $promoteCallsFromPriority2to1Seconds = null;
@@ -74,6 +78,8 @@ class GroupCallCenterGetDNISListResponse extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName promoteCallsFromPriority3to2Seconds
      * @Type int
      * @Group e2c537e3e39483b96620673a7012ffdd:4463
+     * @MinInclusive 1
+     * @MaxInclusive 1800
      * @var int|null
      */
     private $promoteCallsFromPriority3to2Seconds = null;

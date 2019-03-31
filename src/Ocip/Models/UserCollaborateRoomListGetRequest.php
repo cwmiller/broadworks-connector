@@ -20,6 +20,8 @@ class UserCollaborateRoomListGetRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName userId
      * @Type string
      * @Group 939fd5846dfae8bdf58308d6cb9ebb12:994
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;

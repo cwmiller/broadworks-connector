@@ -19,6 +19,8 @@ class ResellerCallNotifyModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName resellerId
      * @Type string
      * @Group 26f62134ab1693f4bdddc7c70b20d2eb:81
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $resellerId = null;
@@ -29,6 +31,8 @@ class ResellerCallNotifyModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Nillable
      * @Optional
      * @Group 26f62134ab1693f4bdddc7c70b20d2eb:81
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $defaultFromAddress = null;

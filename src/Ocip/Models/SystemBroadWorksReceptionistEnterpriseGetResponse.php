@@ -18,6 +18,8 @@ class SystemBroadWorksReceptionistEnterpriseGetResponse extends \CWM\BroadWorksC
      * @ElementName maxMonitoredUsers
      * @Type int
      * @Group fb12998f4f9e45cedde01f08569f4c7c:65
+     * @MinInclusive 1
+     * @MaxInclusive 1000
      * @var int|null
      */
     private $maxMonitoredUsers = null;

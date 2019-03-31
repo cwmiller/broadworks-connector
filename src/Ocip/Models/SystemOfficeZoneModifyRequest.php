@@ -19,6 +19,8 @@ class SystemOfficeZoneModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName officeZoneName
      * @Type string
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12942
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $officeZoneName = null;
@@ -28,6 +30,8 @@ class SystemOfficeZoneModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @Type string
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12942
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $newOfficeZoneName = null;
@@ -38,6 +42,8 @@ class SystemOfficeZoneModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @Nillable
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12942
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $description = null;
@@ -56,6 +62,8 @@ class SystemOfficeZoneModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @Type string
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12942
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $primaryZoneName = null;

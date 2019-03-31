@@ -21,6 +21,8 @@ class SystemSMPPGetResponse14sp5 extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @Type string
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:3312
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $primarySMPPServerNetAddress = null;
@@ -29,6 +31,8 @@ class SystemSMPPGetResponse14sp5 extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @ElementName primarySMPPPort
      * @Type int
      * @Group de4d76f01f337fe4694212ec9f771753:3312
+     * @MinInclusive 1
+     * @MaxInclusive 65535
      * @var int|null
      */
     private $primarySMPPPort = null;
@@ -38,6 +42,8 @@ class SystemSMPPGetResponse14sp5 extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @Type string
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:3312
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $secondarySMPPServerNetAddress = null;
@@ -46,6 +52,8 @@ class SystemSMPPGetResponse14sp5 extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @ElementName secondarySMPPPort
      * @Type int
      * @Group de4d76f01f337fe4694212ec9f771753:3312
+     * @MinInclusive 1
+     * @MaxInclusive 65535
      * @var int|null
      */
     private $secondarySMPPPort = null;
@@ -55,6 +63,8 @@ class SystemSMPPGetResponse14sp5 extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @Type string
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:3312
+     * @MinLength 1
+     * @MaxLength 16
      * @var string|null
      */
     private $systemId = null;
@@ -64,6 +74,8 @@ class SystemSMPPGetResponse14sp5 extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @Type string
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:3312
+     * @MinLength 1
+     * @MaxLength 8
      * @var string|null
      */
     private $password = null;
@@ -81,6 +93,8 @@ class SystemSMPPGetResponse14sp5 extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @Type string
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:3312
+     * @MinLength 1
+     * @MaxLength 12
      * @var string|null
      */
     private $systemType = null;

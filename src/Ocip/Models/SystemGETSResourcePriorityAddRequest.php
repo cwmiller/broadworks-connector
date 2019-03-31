@@ -19,6 +19,8 @@ class SystemGETSResourcePriorityAddRequest extends \CWM\BroadWorksConnector\Ocip
      * @ElementName priorityValue
      * @Type string
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10015
+     * @MinLength 3
+     * @MaxLength 80
      * @var string|null
      */
     private $priorityValue = null;
@@ -27,6 +29,8 @@ class SystemGETSResourcePriorityAddRequest extends \CWM\BroadWorksConnector\Ocip
      * @ElementName priorityLevel
      * @Type int
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10015
+     * @MinInclusive 1
+     * @MaxInclusive 5
      * @var int|null
      */
     private $priorityLevel = null;

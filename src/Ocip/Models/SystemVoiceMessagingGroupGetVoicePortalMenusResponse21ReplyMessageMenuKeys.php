@@ -14,6 +14,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21ReplyMessageMenuKeys
      * @ElementName sendReplyToCaller
      * @Type string
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:973
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $sendReplyToCaller = null;
@@ -23,6 +25,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21ReplyMessageMenuKeys
      * @Type string
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:973
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $changeCurrentReply = null;
@@ -32,6 +36,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21ReplyMessageMenuKeys
      * @Type string
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:973
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $listenToCurrentReply = null;
@@ -41,6 +47,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21ReplyMessageMenuKeys
      * @Type string
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:973
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $setOrClearUrgentIndicator = null;
@@ -50,6 +58,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21ReplyMessageMenuKeys
      * @Type string
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:973
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $setOrClearConfidentialIndicator = null;
@@ -58,6 +68,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21ReplyMessageMenuKeys
      * @ElementName returnToPreviousMenu
      * @Type string
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:973
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $returnToPreviousMenu = null;
@@ -67,6 +79,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21ReplyMessageMenuKeys
      * @Type string
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:973
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $repeatMenu = null;

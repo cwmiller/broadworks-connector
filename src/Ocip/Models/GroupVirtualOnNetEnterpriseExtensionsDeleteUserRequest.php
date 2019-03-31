@@ -19,6 +19,8 @@ class GroupVirtualOnNetEnterpriseExtensionsDeleteUserRequest extends \CWM\BroadW
      * @ElementName serviceProviderId
      * @Type string
      * @Group 179b744b0183abe614e8c32c17c96b7e:116
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,6 +29,8 @@ class GroupVirtualOnNetEnterpriseExtensionsDeleteUserRequest extends \CWM\BroadW
      * @ElementName groupId
      * @Type string
      * @Group 179b744b0183abe614e8c32c17c96b7e:116
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;
@@ -35,6 +39,8 @@ class GroupVirtualOnNetEnterpriseExtensionsDeleteUserRequest extends \CWM\BroadW
      * @ElementName phoneNumber
      * @Type string
      * @Group 179b744b0183abe614e8c32c17c96b7e:116
+     * @MinLength 1
+     * @MaxLength 23
      * @var string|null
      */
     private $phoneNumber = null;

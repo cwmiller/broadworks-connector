@@ -19,6 +19,8 @@ class SystemSIPDeviceTypeFileGetRequest14sp8 extends \CWM\BroadWorksConnector\Oc
      * @ElementName deviceType
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:16112
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $deviceType = null;
@@ -27,6 +29,8 @@ class SystemSIPDeviceTypeFileGetRequest14sp8 extends \CWM\BroadWorksConnector\Oc
      * @ElementName fileFormat
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:16112
+     * @MinLength 1
+     * @MaxLength 128
      * @var string|null
      */
     private $fileFormat = null;

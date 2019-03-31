@@ -45,6 +45,8 @@ class SystemEnhancedCallLogsModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @Nillable
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:21683
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $server1NetAddress = null;
@@ -54,6 +56,8 @@ class SystemEnhancedCallLogsModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:21683
+     * @MinInclusive 1025
+     * @MaxInclusive 65535
      * @var int|null
      */
     private $server1SendPort = null;
@@ -63,6 +67,8 @@ class SystemEnhancedCallLogsModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:21683
+     * @MinInclusive 1
+     * @MaxInclusive 65535
      * @var int|null
      */
     private $server1RetrievePort = null;
@@ -73,6 +79,8 @@ class SystemEnhancedCallLogsModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @Nillable
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:21683
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $server2NetAddress = null;
@@ -82,6 +90,8 @@ class SystemEnhancedCallLogsModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:21683
+     * @MinInclusive 1025
+     * @MaxInclusive 65535
      * @var int|null
      */
     private $server2SendPort = null;
@@ -91,6 +101,8 @@ class SystemEnhancedCallLogsModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:21683
+     * @MinInclusive 1
+     * @MaxInclusive 65535
      * @var int|null
      */
     private $server2RetrievePort = null;
@@ -101,6 +113,8 @@ class SystemEnhancedCallLogsModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @Nillable
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:21683
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $sharedSecret = null;
@@ -110,6 +124,8 @@ class SystemEnhancedCallLogsModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:21683
+     * @MinInclusive 200
+     * @MaxInclusive 5000
      * @var int|null
      */
     private $retransmissionDelayMilliSeconds = null;
@@ -119,6 +135,8 @@ class SystemEnhancedCallLogsModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:21683
+     * @MinInclusive 1
+     * @MaxInclusive 5
      * @var int|null
      */
     private $maxTransmissions = null;
@@ -128,6 +146,8 @@ class SystemEnhancedCallLogsModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:21683
+     * @MinInclusive 1
+     * @MaxInclusive 120
      * @var int|null
      */
     private $soapTimeoutSeconds = null;
@@ -146,6 +166,8 @@ class SystemEnhancedCallLogsModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:21683
+     * @MinInclusive 100
+     * @MaxInclusive 1000
      * @var int|null
      */
     private $maxNonPagedResponseSize = null;
@@ -156,6 +178,8 @@ class SystemEnhancedCallLogsModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @Nillable
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:21683
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $eclQueryApplicationURL = null;
@@ -166,6 +190,8 @@ class SystemEnhancedCallLogsModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @Nillable
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:21683
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $eclQueryDataRepositoryURL = null;

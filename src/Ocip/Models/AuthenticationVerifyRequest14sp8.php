@@ -28,6 +28,8 @@ class AuthenticationVerifyRequest14sp8 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName userId
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:40616
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;
@@ -36,6 +38,8 @@ class AuthenticationVerifyRequest14sp8 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName password
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:40605
+     * @MinLength 1
+     * @MaxLength 60
      * @var string|null
      */
     private $password = null;
@@ -44,6 +48,8 @@ class AuthenticationVerifyRequest14sp8 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName phoneNumber
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:40609
+     * @MinLength 1
+     * @MaxLength 23
      * @var string|null
      */
     private $phoneNumber = null;
@@ -52,6 +58,8 @@ class AuthenticationVerifyRequest14sp8 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName passcode
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:40609
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $passcode = null;
@@ -60,6 +68,7 @@ class AuthenticationVerifyRequest14sp8 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName loginToken
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:40613
+     * @MinLength 1
      * @var string|null
      */
     private $loginToken = null;
@@ -68,6 +77,8 @@ class AuthenticationVerifyRequest14sp8 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName sipAuthenticationUserName
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:40616
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $sipAuthenticationUserName = null;
@@ -76,6 +87,8 @@ class AuthenticationVerifyRequest14sp8 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName sipAuthenticationPassword
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:40616
+     * @MinLength 1
+     * @MaxLength 60
      * @var string|null
      */
     private $sipAuthenticationPassword = null;

@@ -20,6 +20,8 @@ class SystemExtensionLengthModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @Type int
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8982
+     * @MinInclusive 2
+     * @MaxInclusive 20
      * @var int|null
      */
     private $minExtensionLength = null;
@@ -29,6 +31,8 @@ class SystemExtensionLengthModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @Type int
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8982
+     * @MinInclusive 2
+     * @MaxInclusive 20
      * @var int|null
      */
     private $maxExtensionLength = null;

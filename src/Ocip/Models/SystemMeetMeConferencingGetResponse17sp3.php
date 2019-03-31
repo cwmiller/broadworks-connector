@@ -20,6 +20,8 @@ class SystemMeetMeConferencingGetResponse17sp3 extends \CWM\BroadWorksConnector\
      * @ElementName conferenceIdLength
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:21808
+     * @MinInclusive 6
+     * @MaxInclusive 12
      * @var int|null
      */
     private $conferenceIdLength = null;
@@ -28,6 +30,8 @@ class SystemMeetMeConferencingGetResponse17sp3 extends \CWM\BroadWorksConnector\
      * @ElementName moderatorPinLength
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:21808
+     * @MinInclusive 6
+     * @MaxInclusive 12
      * @var int|null
      */
     private $moderatorPinLength = null;
@@ -44,6 +48,8 @@ class SystemMeetMeConferencingGetResponse17sp3 extends \CWM\BroadWorksConnector\
      * @ElementName conferenceEndDateRestrictionMonths
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:21808
+     * @MinInclusive 1
+     * @MaxInclusive 99
      * @var int|null
      */
     private $conferenceEndDateRestrictionMonths = null;
@@ -69,6 +75,8 @@ class SystemMeetMeConferencingGetResponse17sp3 extends \CWM\BroadWorksConnector\
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:21808
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $recordingWebAppURL = null;

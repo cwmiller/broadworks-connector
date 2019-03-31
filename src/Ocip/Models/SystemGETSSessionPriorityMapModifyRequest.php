@@ -19,6 +19,8 @@ class SystemGETSSessionPriorityMapModifyRequest extends \CWM\BroadWorksConnector
      * @ElementName priorityLevel
      * @Type int
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10157
+     * @MinInclusive 1
+     * @MaxInclusive 5
      * @var int|null
      */
     private $priorityLevel = null;
@@ -28,6 +30,8 @@ class SystemGETSSessionPriorityMapModifyRequest extends \CWM\BroadWorksConnector
      * @Type int
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10157
+     * @MinInclusive
+     * @MaxInclusive 4
      * @var int|null
      */
     private $sessionPriority = null;

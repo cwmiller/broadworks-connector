@@ -19,6 +19,8 @@ class UserAccessDeviceFileModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName userId
      * @Type string
      * @Group 53d18cc797d03d802cbc411ad821f1d4:201
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;
@@ -35,6 +37,8 @@ class UserAccessDeviceFileModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName fileFormat
      * @Type string
      * @Group 53d18cc797d03d802cbc411ad821f1d4:201
+     * @MinLength 1
+     * @MaxLength 128
      * @var string|null
      */
     private $fileFormat = null;

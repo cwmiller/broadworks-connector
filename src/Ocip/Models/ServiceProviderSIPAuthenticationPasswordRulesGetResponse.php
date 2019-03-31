@@ -58,6 +58,8 @@ class ServiceProviderSIPAuthenticationPasswordRulesGetResponse extends \CWM\Broa
      * @ElementName minDigits
      * @Type int
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:5933
+     * @MinInclusive 1
+     * @MaxInclusive 10
      * @var int|null
      */
     private $minDigits = null;
@@ -74,6 +76,8 @@ class ServiceProviderSIPAuthenticationPasswordRulesGetResponse extends \CWM\Broa
      * @ElementName minUpperCaseLetters
      * @Type int
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:5933
+     * @MinInclusive 1
+     * @MaxInclusive 10
      * @var int|null
      */
     private $minUpperCaseLetters = null;
@@ -90,6 +94,8 @@ class ServiceProviderSIPAuthenticationPasswordRulesGetResponse extends \CWM\Broa
      * @ElementName minLowerCaseLetters
      * @Type int
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:5933
+     * @MinInclusive 1
+     * @MaxInclusive 10
      * @var int|null
      */
     private $minLowerCaseLetters = null;
@@ -106,6 +112,8 @@ class ServiceProviderSIPAuthenticationPasswordRulesGetResponse extends \CWM\Broa
      * @ElementName minNonAlphanumericCharacters
      * @Type int
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:5933
+     * @MinInclusive 1
+     * @MaxInclusive 10
      * @var int|null
      */
     private $minNonAlphanumericCharacters = null;
@@ -114,6 +122,8 @@ class ServiceProviderSIPAuthenticationPasswordRulesGetResponse extends \CWM\Broa
      * @ElementName minLength
      * @Type int
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:5933
+     * @MinInclusive 3
+     * @MaxInclusive 40
      * @var int|null
      */
     private $minLength = null;
@@ -131,6 +141,8 @@ class ServiceProviderSIPAuthenticationPasswordRulesGetResponse extends \CWM\Broa
      * @Type string
      * @Optional
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:5933
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $permanentLockoutNotifyEmailAddress = null;
@@ -147,6 +159,8 @@ class ServiceProviderSIPAuthenticationPasswordRulesGetResponse extends \CWM\Broa
      * @ElementName endpointTemporaryLockoutThreshold
      * @Type int
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:5933
+     * @MinInclusive 1
+     * @MaxInclusive 10
      * @var int|null
      */
     private $endpointTemporaryLockoutThreshold = null;
@@ -171,6 +185,8 @@ class ServiceProviderSIPAuthenticationPasswordRulesGetResponse extends \CWM\Broa
      * @ElementName endpointPermanentLockoutThreshold
      * @Type int
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:5933
+     * @MinInclusive 2
+     * @MaxInclusive 10
      * @var int|null
      */
     private $endpointPermanentLockoutThreshold = null;
@@ -179,6 +195,8 @@ class ServiceProviderSIPAuthenticationPasswordRulesGetResponse extends \CWM\Broa
      * @ElementName trunkGroupTemporaryLockoutThreshold
      * @Type int
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:5933
+     * @MinInclusive 1
+     * @MaxInclusive 10
      * @var int|null
      */
     private $trunkGroupTemporaryLockoutThreshold = null;
@@ -211,6 +229,8 @@ class ServiceProviderSIPAuthenticationPasswordRulesGetResponse extends \CWM\Broa
      * @ElementName trunkGroupPermanentLockoutThreshold
      * @Type int
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:5933
+     * @MinInclusive 2
+     * @MaxInclusive 10
      * @var int|null
      */
     private $trunkGroupPermanentLockoutThreshold = null;

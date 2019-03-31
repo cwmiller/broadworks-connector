@@ -29,6 +29,8 @@ class SystemNetworkProgressionModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @Type int
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11604
+     * @MinInclusive 1
+     * @MaxInclusive 15
      * @var int|null
      */
     private $waitPeriodSeconds = null;

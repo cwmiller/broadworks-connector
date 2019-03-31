@@ -19,6 +19,8 @@ class GroupTrunkGroupUserCreationTaskGetRequest extends \CWM\BroadWorksConnector
      * @ElementName serviceUserId
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:3156
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $serviceUserId = null;
@@ -27,6 +29,8 @@ class GroupTrunkGroupUserCreationTaskGetRequest extends \CWM\BroadWorksConnector
      * @ElementName taskName
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:3156
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $taskName = null;

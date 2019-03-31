@@ -21,6 +21,8 @@ class GroupNetworkClassOfServiceGetAssignedUserListRequest21 extends \CWM\BroadW
      * @ElementName serviceProviderId
      * @Type string
      * @Group f3a93cf15de4abd7903673e44ee3e07b:5527
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -29,6 +31,8 @@ class GroupNetworkClassOfServiceGetAssignedUserListRequest21 extends \CWM\BroadW
      * @ElementName groupId
      * @Type string
      * @Group f3a93cf15de4abd7903673e44ee3e07b:5527
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;
@@ -37,6 +41,8 @@ class GroupNetworkClassOfServiceGetAssignedUserListRequest21 extends \CWM\BroadW
      * @ElementName networkClassOfService
      * @Type string
      * @Group f3a93cf15de4abd7903673e44ee3e07b:5527
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $networkClassOfService = null;
@@ -46,6 +52,7 @@ class GroupNetworkClassOfServiceGetAssignedUserListRequest21 extends \CWM\BroadW
      * @Type int
      * @Optional
      * @Group f3a93cf15de4abd7903673e44ee3e07b:5527
+     * @MinInclusive 1
      * @var int|null
      */
     private $responseSizeLimit = null;

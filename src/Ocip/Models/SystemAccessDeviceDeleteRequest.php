@@ -19,6 +19,8 @@ class SystemAccessDeviceDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName deviceName
      * @Type string
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:770
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $deviceName = null;

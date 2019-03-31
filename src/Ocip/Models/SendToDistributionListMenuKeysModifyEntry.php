@@ -17,6 +17,8 @@ class SendToDistributionListMenuKeysModifyEntry
      * @Type string
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:3167
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $sendMessageToSelectedDistributionList = null;
@@ -27,6 +29,8 @@ class SendToDistributionListMenuKeysModifyEntry
      * @Nillable
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:3167
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $selectDistributionList = null;
@@ -37,6 +41,8 @@ class SendToDistributionListMenuKeysModifyEntry
      * @Nillable
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:3167
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $reviewSelectedDistributionList = null;
@@ -46,6 +52,8 @@ class SendToDistributionListMenuKeysModifyEntry
      * @Type string
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:3167
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $returnToPreviousMenu = null;
@@ -56,6 +64,8 @@ class SendToDistributionListMenuKeysModifyEntry
      * @Nillable
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:3167
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $repeatMenu = null;

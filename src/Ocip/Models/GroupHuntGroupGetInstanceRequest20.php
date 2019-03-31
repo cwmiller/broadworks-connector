@@ -19,6 +19,8 @@ class GroupHuntGroupGetInstanceRequest20 extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName serviceUserId
      * @Type string
      * @Group bc829065f9d696d3ca7084121d57f8c0:439
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $serviceUserId = null;

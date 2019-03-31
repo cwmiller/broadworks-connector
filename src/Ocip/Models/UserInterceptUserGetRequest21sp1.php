@@ -19,6 +19,8 @@ class UserInterceptUserGetRequest21sp1 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName userId
      * @Type string
      * @Group 88893c72abbbb9aaf5aecca970191d94:268
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;

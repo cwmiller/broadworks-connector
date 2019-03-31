@@ -29,6 +29,8 @@ class SystemRoutingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @Type int
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14337
+     * @MinInclusive 1
+     * @MaxInclusive 25
      * @var int|null
      */
     private $routeTimerSeconds = null;
@@ -47,6 +49,8 @@ class SystemRoutingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @Type int
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14337
+     * @MinInclusive
+     * @MaxInclusive 1440
      * @var int|null
      */
     private $statefulExpirationMinutes = null;
@@ -56,6 +60,8 @@ class SystemRoutingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @Type int
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14337
+     * @MinInclusive 1
+     * @MaxInclusive 50
      * @var int|null
      */
     private $maxAddressesPerHostname = null;
@@ -65,6 +71,8 @@ class SystemRoutingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @Type int
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14337
+     * @MinInclusive 1
+     * @MaxInclusive 50
      * @var int|null
      */
     private $maxAddressesDuringSetup = null;

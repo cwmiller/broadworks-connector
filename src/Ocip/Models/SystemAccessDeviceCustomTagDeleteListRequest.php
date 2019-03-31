@@ -19,6 +19,8 @@ class SystemAccessDeviceCustomTagDeleteListRequest extends \CWM\BroadWorksConnec
      * @ElementName deviceName
      * @Type string
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:693
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $deviceName = null;
@@ -28,6 +30,8 @@ class SystemAccessDeviceCustomTagDeleteListRequest extends \CWM\BroadWorksConnec
      * @Type string
      * @Array
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:693
+     * @MinLength 1
+     * @MaxLength 64
      * @var string[]
      */
     private $tagName = array(

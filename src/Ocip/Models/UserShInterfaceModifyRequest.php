@@ -29,6 +29,8 @@ class UserShInterfaceModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Nillable
      * @Optional
      * @Group 53d18cc797d03d802cbc411ad821f1d4:3941
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $SCSCFName = null;

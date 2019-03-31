@@ -19,6 +19,8 @@ class EnterpriseCallCenterEnhancedReportingScheduledReportGetActiveListRequest e
      * @ElementName serviceProviderId
      * @Type string
      * @Group e2c537e3e39483b96620673a7012ffdd:1556
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -28,6 +30,7 @@ class EnterpriseCallCenterEnhancedReportingScheduledReportGetActiveListRequest e
      * @Type int
      * @Optional
      * @Group e2c537e3e39483b96620673a7012ffdd:1556
+     * @MinInclusive 1
      * @var int|null
      */
     private $responseSizeLimit = null;

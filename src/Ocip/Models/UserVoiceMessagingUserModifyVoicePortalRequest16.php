@@ -21,6 +21,8 @@ class UserVoiceMessagingUserModifyVoicePortalRequest16 extends \CWM\BroadWorksCo
      * @ElementName userId
      * @Type string
      * @Group a8b2edcd7d6936a8b76653949ae59623:534
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;

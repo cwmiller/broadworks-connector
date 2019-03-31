@@ -24,6 +24,8 @@ class EnterpriseEnterpriseTrunkPriorityWeightedTrunkGroup
      * @ElementName priority
      * @Type int
      * @Group b9c14e2d80e4e7749688ca13ba233b44:1832
+     * @MinInclusive 1
+     * @MaxInclusive 10
      * @var int|null
      */
     private $priority = null;
@@ -32,6 +34,8 @@ class EnterpriseEnterpriseTrunkPriorityWeightedTrunkGroup
      * @ElementName weight
      * @Type int
      * @Group b9c14e2d80e4e7749688ca13ba233b44:1832
+     * @MinInclusive 1
+     * @MaxInclusive 65536
      * @var int|null
      */
     private $weight = null;

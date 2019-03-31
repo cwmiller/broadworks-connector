@@ -117,6 +117,8 @@ class SystemCallProcessingPolicyProfileFlexibleSeatingHostProfileGetResponse ext
      * @ElementName maxSimultaneousCalls
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:37841
+     * @MinInclusive 1
+     * @MaxInclusive 999999
      * @var int|null
      */
     private $maxSimultaneousCalls = null;
@@ -133,6 +135,8 @@ class SystemCallProcessingPolicyProfileFlexibleSeatingHostProfileGetResponse ext
      * @ElementName maxSimultaneousVideoCalls
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:37841
+     * @MinInclusive 1
+     * @MaxInclusive 999999
      * @var int|null
      */
     private $maxSimultaneousVideoCalls = null;
@@ -149,6 +153,8 @@ class SystemCallProcessingPolicyProfileFlexibleSeatingHostProfileGetResponse ext
      * @ElementName maxCallTimeForAnsweredCallsMinutes
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:37841
+     * @MinInclusive 3
+     * @MaxInclusive 2880
      * @var int|null
      */
     private $maxCallTimeForAnsweredCallsMinutes = null;
@@ -165,6 +171,8 @@ class SystemCallProcessingPolicyProfileFlexibleSeatingHostProfileGetResponse ext
      * @ElementName maxCallTimeForUnansweredCallsMinutes
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:37841
+     * @MinInclusive 1
+     * @MaxInclusive 2880
      * @var int|null
      */
     private $maxCallTimeForUnansweredCallsMinutes = null;

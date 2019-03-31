@@ -18,6 +18,8 @@ class SearchCriteriaUserPersonalMultiPartPhoneListName extends SearchCriteria
      * @Type string
      * @Array
      * @Group f0ada2681ca347fa83b464734259b304:2209
+     * @MinLength 1
+     * @MaxLength 50
      * @var string[]
      */
     private $value = array(

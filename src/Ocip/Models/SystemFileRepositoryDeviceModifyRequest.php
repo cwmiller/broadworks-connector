@@ -19,6 +19,8 @@ class SystemFileRepositoryDeviceModifyRequest extends \CWM\BroadWorksConnector\O
      * @ElementName name
      * @Type string
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9326
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $name = null;
@@ -29,6 +31,8 @@ class SystemFileRepositoryDeviceModifyRequest extends \CWM\BroadWorksConnector\O
      * @Nillable
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9326
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $rootDirectory = null;
@@ -47,6 +51,8 @@ class SystemFileRepositoryDeviceModifyRequest extends \CWM\BroadWorksConnector\O
      * @Type string
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9326
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $netAddress = null;
@@ -75,6 +81,8 @@ class SystemFileRepositoryDeviceModifyRequest extends \CWM\BroadWorksConnector\O
      * @Nillable
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9326
+     * @MinInclusive 1
+     * @MaxInclusive 65535
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $port = null;

@@ -19,6 +19,8 @@ class UserZoneCallingRestrictionsGetRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName userId
      * @Type string
      * @Group da5cd0d79ddb505982e08d164e405660:100
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;

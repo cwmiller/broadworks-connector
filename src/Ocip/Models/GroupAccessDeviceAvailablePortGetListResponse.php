@@ -20,6 +20,8 @@ class GroupAccessDeviceAvailablePortGetListResponse extends \CWM\BroadWorksConne
      * @Array
      * @Optional
      * @Group f3a93cf15de4abd7903673e44ee3e07b:317
+     * @MinInclusive 1
+     * @MaxInclusive 1024
      * @var int[]
      */
     private $portNumber = array(

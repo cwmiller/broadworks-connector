@@ -109,6 +109,8 @@ class GroupCallCenterModifyDNISAnnouncementRequest20 extends \CWM\BroadWorksConn
      * @Type int
      * @Optional
      * @Group e2c537e3e39483b96620673a7012ffdd:5122
+     * @MinInclusive 10
+     * @MaxInclusive 600
      * @var int|null
      */
     private $timeBetweenComfortMessagesSeconds = null;

@@ -19,6 +19,8 @@ class SystemSIPDeviceTypeServiceModifyRequest extends \CWM\BroadWorksConnector\O
      * @ElementName deviceType
      * @Type string
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16570
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $deviceType = null;

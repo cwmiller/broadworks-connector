@@ -19,6 +19,8 @@ class GroupCommonPhoneListModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName serviceProviderId
      * @Type string
      * @Group f3a93cf15de4abd7903673e44ee3e07b:2331
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,6 +29,8 @@ class GroupCommonPhoneListModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName groupId
      * @Type string
      * @Group f3a93cf15de4abd7903673e44ee3e07b:2331
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;
@@ -35,6 +39,8 @@ class GroupCommonPhoneListModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName entryName
      * @Type string
      * @Group f3a93cf15de4abd7903673e44ee3e07b:2331
+     * @MinLength 1
+     * @MaxLength 50
      * @var string|null
      */
     private $entryName = null;
@@ -44,6 +50,8 @@ class GroupCommonPhoneListModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Type string
      * @Optional
      * @Group f3a93cf15de4abd7903673e44ee3e07b:2331
+     * @MinLength 1
+     * @MaxLength 50
      * @var string|null
      */
     private $newEntryName = null;
@@ -53,6 +61,8 @@ class GroupCommonPhoneListModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Type string
      * @Optional
      * @Group f3a93cf15de4abd7903673e44ee3e07b:2331
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $phoneNumber = null;

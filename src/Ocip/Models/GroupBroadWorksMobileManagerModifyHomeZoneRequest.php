@@ -19,6 +19,8 @@ class GroupBroadWorksMobileManagerModifyHomeZoneRequest extends \CWM\BroadWorksC
      * @ElementName serviceProviderId
      * @Type string
      * @Group f3a93cf15de4abd7903673e44ee3e07b:1956
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,6 +29,8 @@ class GroupBroadWorksMobileManagerModifyHomeZoneRequest extends \CWM\BroadWorksC
      * @ElementName groupId
      * @Type string
      * @Group f3a93cf15de4abd7903673e44ee3e07b:1956
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;
@@ -44,6 +48,8 @@ class GroupBroadWorksMobileManagerModifyHomeZoneRequest extends \CWM\BroadWorksC
      * @Type string
      * @Optional
      * @Group f3a93cf15de4abd7903673e44ee3e07b:1956
+     * @MinLength 1
+     * @MaxLength 100
      * @var string|null
      */
     private $homeZoneDomainName = null;
@@ -53,6 +59,8 @@ class GroupBroadWorksMobileManagerModifyHomeZoneRequest extends \CWM\BroadWorksC
      * @Type string
      * @Optional
      * @Group f3a93cf15de4abd7903673e44ee3e07b:1956
+     * @MinLength 1
+     * @MaxLength 3
      * @var string|null
      */
     private $mobileCountryCode = null;
@@ -62,6 +70,8 @@ class GroupBroadWorksMobileManagerModifyHomeZoneRequest extends \CWM\BroadWorksC
      * @Type string
      * @Optional
      * @Group f3a93cf15de4abd7903673e44ee3e07b:1956
+     * @MinLength 1
+     * @MaxLength 3
      * @var string|null
      */
     private $mobileNetworkCode = null;
@@ -71,6 +81,8 @@ class GroupBroadWorksMobileManagerModifyHomeZoneRequest extends \CWM\BroadWorksC
      * @Type string
      * @Optional
      * @Group f3a93cf15de4abd7903673e44ee3e07b:1956
+     * @MinLength 1
+     * @MaxLength 5
      * @var string|null
      */
     private $locationAreaCode = null;
@@ -80,6 +92,8 @@ class GroupBroadWorksMobileManagerModifyHomeZoneRequest extends \CWM\BroadWorksC
      * @Type string
      * @Optional
      * @Group f3a93cf15de4abd7903673e44ee3e07b:1956
+     * @MinLength 1
+     * @MaxLength 5
      * @var string|null
      */
     private $cellIdentity = null;

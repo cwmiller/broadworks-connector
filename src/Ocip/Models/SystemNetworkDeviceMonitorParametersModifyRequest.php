@@ -20,6 +20,8 @@ class SystemNetworkDeviceMonitorParametersModifyRequest extends \CWM\BroadWorksC
      * @Type int
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11556
+     * @MinInclusive
+     * @MaxInclusive 1440
      * @var int|null
      */
     private $pollingIntervalMinutes = null;
@@ -29,6 +31,8 @@ class SystemNetworkDeviceMonitorParametersModifyRequest extends \CWM\BroadWorksC
      * @Type int
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11556
+     * @MinInclusive 1
+     * @MaxInclusive 720
      * @var int|null
      */
     private $failedPollingIntervalMinutes = null;

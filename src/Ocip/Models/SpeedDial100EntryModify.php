@@ -19,6 +19,8 @@ class SpeedDial100EntryModify
      * @ElementName speedCode
      * @Type int
      * @Group c0d21ef9ba207c335d8347e5172fce1d:3990
+     * @MinInclusive
+     * @MaxInclusive 99
      * @var int|null
      */
     private $speedCode = null;
@@ -28,6 +30,8 @@ class SpeedDial100EntryModify
      * @Type string
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:3990
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $phoneNumber = null;
@@ -38,6 +42,8 @@ class SpeedDial100EntryModify
      * @Nillable
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:3990
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $description = null;

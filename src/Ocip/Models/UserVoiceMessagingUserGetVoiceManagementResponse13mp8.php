@@ -36,6 +36,8 @@ class UserVoiceMessagingUserGetVoiceManagementResponse13mp8 extends \CWM\BroadWo
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:17985
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $voiceMessageDeliveryEmailAddress = null;
@@ -61,6 +63,8 @@ class UserVoiceMessagingUserGetVoiceManagementResponse13mp8 extends \CWM\BroadWo
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:17985
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $voiceMessageNotifyEmailAddress = null;
@@ -78,6 +82,8 @@ class UserVoiceMessagingUserGetVoiceManagementResponse13mp8 extends \CWM\BroadWo
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:17985
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $voiceMessageCarbonCopyEmailAddress = null;
@@ -95,6 +101,8 @@ class UserVoiceMessagingUserGetVoiceManagementResponse13mp8 extends \CWM\BroadWo
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:17985
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $transferPhoneNumber = null;

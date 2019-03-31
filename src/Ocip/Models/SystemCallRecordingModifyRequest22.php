@@ -29,6 +29,8 @@ class SystemCallRecordingModifyRequest22 extends \CWM\BroadWorksConnector\Ocip\M
      * @Type int
      * @Optional
      * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:364
+     * @MinInclusive 1000
+     * @MaxInclusive 10000
      * @var int|null
      */
     private $maxResponseWaitTimeMilliseconds = null;

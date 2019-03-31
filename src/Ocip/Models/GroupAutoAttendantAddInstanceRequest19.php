@@ -30,6 +30,8 @@ class GroupAutoAttendantAddInstanceRequest19 extends \CWM\BroadWorksConnector\Oc
      * @ElementName serviceProviderId
      * @Type string
      * @Group de4d76f01f337fe4694212ec9f771753:241
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -38,6 +40,8 @@ class GroupAutoAttendantAddInstanceRequest19 extends \CWM\BroadWorksConnector\Oc
      * @ElementName groupId
      * @Type string
      * @Group de4d76f01f337fe4694212ec9f771753:241
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;
@@ -46,6 +50,8 @@ class GroupAutoAttendantAddInstanceRequest19 extends \CWM\BroadWorksConnector\Oc
      * @ElementName serviceUserId
      * @Type string
      * @Group de4d76f01f337fe4694212ec9f771753:241
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $serviceUserId = null;
@@ -148,6 +154,8 @@ class GroupAutoAttendantAddInstanceRequest19 extends \CWM\BroadWorksConnector\Oc
      * @Type string
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:241
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $networkClassOfService = null;

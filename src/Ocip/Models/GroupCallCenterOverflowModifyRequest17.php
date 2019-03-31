@@ -19,6 +19,8 @@ class GroupCallCenterOverflowModifyRequest17 extends \CWM\BroadWorksConnector\Oc
      * @ElementName serviceUserId
      * @Type string
      * @Group de4d76f01f337fe4694212ec9f771753:4433
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $serviceUserId = null;
@@ -38,6 +40,8 @@ class GroupCallCenterOverflowModifyRequest17 extends \CWM\BroadWorksConnector\Oc
      * @Nillable
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:4433
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $transferPhoneNumber = null;
@@ -56,6 +60,8 @@ class GroupCallCenterOverflowModifyRequest17 extends \CWM\BroadWorksConnector\Oc
      * @Type int
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:4433
+     * @MinInclusive
+     * @MaxInclusive 7200
      * @var int|null
      */
     private $timeoutSeconds = null;

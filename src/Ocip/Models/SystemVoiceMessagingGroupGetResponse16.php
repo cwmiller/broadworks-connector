@@ -44,6 +44,8 @@ class SystemVoiceMessagingGroupGetResponse16 extends \CWM\BroadWorksConnector\Oc
      * @ElementName maxMessageLengthMinutes
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:22650
+     * @MinInclusive 1
+     * @MaxInclusive 10
      * @var int|null
      */
     private $maxMessageLengthMinutes = null;
@@ -77,6 +79,8 @@ class SystemVoiceMessagingGroupGetResponse16 extends \CWM\BroadWorksConnector\Oc
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:22650
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $mailServerNetAddress = null;
@@ -93,6 +97,8 @@ class SystemVoiceMessagingGroupGetResponse16 extends \CWM\BroadWorksConnector\Oc
      * @ElementName defaultDeliveryFromAddress
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:22650
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $defaultDeliveryFromAddress = null;
@@ -101,6 +107,8 @@ class SystemVoiceMessagingGroupGetResponse16 extends \CWM\BroadWorksConnector\Oc
      * @ElementName defaultNotificationFromAddress
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:22650
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $defaultNotificationFromAddress = null;
@@ -109,6 +117,8 @@ class SystemVoiceMessagingGroupGetResponse16 extends \CWM\BroadWorksConnector\Oc
      * @ElementName defaultVoicePortalLockoutFromAddress
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:22650
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $defaultVoicePortalLockoutFromAddress = null;
@@ -125,6 +135,8 @@ class SystemVoiceMessagingGroupGetResponse16 extends \CWM\BroadWorksConnector\Oc
      * @ElementName mwiDelayInSeconds
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:22650
+     * @MinInclusive
+     * @MaxInclusive 300
      * @var int|null
      */
     private $mwiDelayInSeconds = null;
@@ -166,6 +178,8 @@ class SystemVoiceMessagingGroupGetResponse16 extends \CWM\BroadWorksConnector\Oc
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:22650
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $defaultExternalRoutingAddress = null;

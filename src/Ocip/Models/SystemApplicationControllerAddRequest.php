@@ -20,6 +20,8 @@ class SystemApplicationControllerAddRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName name
      * @Type string
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1865
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $name = null;
@@ -28,6 +30,8 @@ class SystemApplicationControllerAddRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName subscriberId
      * @Type string
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1865
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $subscriberId = null;
@@ -36,6 +40,8 @@ class SystemApplicationControllerAddRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName channelSetId
      * @Type string
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1865
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $channelSetId = null;

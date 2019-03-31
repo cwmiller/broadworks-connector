@@ -20,6 +20,8 @@ class GroupVoiceXmlGetInstanceListRequest extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName serviceProviderId
      * @Type string
      * @Group 0639a23b2e14be05c11ead49c23bd0bd:86
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -28,6 +30,8 @@ class GroupVoiceXmlGetInstanceListRequest extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName groupId
      * @Type string
      * @Group 0639a23b2e14be05c11ead49c23bd0bd:86
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;
@@ -37,6 +41,8 @@ class GroupVoiceXmlGetInstanceListRequest extends \CWM\BroadWorksConnector\Ocip\
      * @Type string
      * @Optional
      * @Group 0639a23b2e14be05c11ead49c23bd0bd:86
+     * @MinLength 1
+     * @MaxLength 50
      * @var string|null
      */
     private $groupDepartmentName = null;

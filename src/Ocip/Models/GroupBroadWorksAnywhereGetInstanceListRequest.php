@@ -20,6 +20,8 @@ class GroupBroadWorksAnywhereGetInstanceListRequest extends \CWM\BroadWorksConne
      * @ElementName serviceProviderId
      * @Type string
      * @Group 72f634ecc58842ce9d362ca629a47ea9:105
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -28,6 +30,8 @@ class GroupBroadWorksAnywhereGetInstanceListRequest extends \CWM\BroadWorksConne
      * @ElementName groupId
      * @Type string
      * @Group 72f634ecc58842ce9d362ca629a47ea9:105
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;
@@ -37,6 +41,8 @@ class GroupBroadWorksAnywhereGetInstanceListRequest extends \CWM\BroadWorksConne
      * @Type string
      * @Optional
      * @Group 72f634ecc58842ce9d362ca629a47ea9:105
+     * @MinLength 1
+     * @MaxLength 50
      * @var string|null
      */
     private $groupDepartmentName = null;

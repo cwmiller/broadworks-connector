@@ -29,6 +29,8 @@ class GroupCallParkGetAvailableAlternateRecallUserPagedSortedListRequest extends
      * @ElementName serviceProviderId
      * @Type string
      * @Group 7a925e891158dfa3cb1319e045608894:141
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -37,6 +39,8 @@ class GroupCallParkGetAvailableAlternateRecallUserPagedSortedListRequest extends
      * @ElementName groupId
      * @Type string
      * @Group 7a925e891158dfa3cb1319e045608894:141
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;

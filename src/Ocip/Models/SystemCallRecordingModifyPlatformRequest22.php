@@ -19,6 +19,8 @@ class SystemCallRecordingModifyPlatformRequest22 extends \CWM\BroadWorksConnecto
      * @ElementName name
      * @Type string
      * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:336
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $name = null;
@@ -28,6 +30,8 @@ class SystemCallRecordingModifyPlatformRequest22 extends \CWM\BroadWorksConnecto
      * @Type string
      * @Optional
      * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:336
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $netAddress = null;
@@ -38,6 +42,8 @@ class SystemCallRecordingModifyPlatformRequest22 extends \CWM\BroadWorksConnecto
      * @Nillable
      * @Optional
      * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:336
+     * @MinInclusive 1
+     * @MaxInclusive 65535
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $port = null;
@@ -65,6 +71,8 @@ class SystemCallRecordingModifyPlatformRequest22 extends \CWM\BroadWorksConnecto
      * @Type string
      * @Optional
      * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:341
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $becomeResellerDefault = null;
@@ -84,6 +92,8 @@ class SystemCallRecordingModifyPlatformRequest22 extends \CWM\BroadWorksConnecto
      * @Nillable
      * @Optional
      * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:336
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $description = null;
@@ -112,6 +122,8 @@ class SystemCallRecordingModifyPlatformRequest22 extends \CWM\BroadWorksConnecto
      * @Nillable
      * @Optional
      * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:336
+     * @MinLength 1
+     * @MaxLength 1024
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $route = null;

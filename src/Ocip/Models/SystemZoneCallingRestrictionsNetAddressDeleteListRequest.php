@@ -21,6 +21,8 @@ class SystemZoneCallingRestrictionsNetAddressDeleteListRequest extends \CWM\Broa
      * @ElementName zoneName
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:16623
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $zoneName = null;
@@ -31,6 +33,8 @@ class SystemZoneCallingRestrictionsNetAddressDeleteListRequest extends \CWM\Broa
      * @Array
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:16623
+     * @MinLength 1
+     * @MaxLength 39
      * @var string[]
      */
     private $netAddress = array(

@@ -30,6 +30,8 @@ class ResellerIntegratedIMPGetResponse extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Type string
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:5548
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $serviceDomain = null;
@@ -39,6 +41,8 @@ class ResellerIntegratedIMPGetResponse extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Type int
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:5548
+     * @MinInclusive 1
+     * @MaxInclusive 65535
      * @var int|null
      */
     private $servicePort = null;
@@ -56,6 +60,8 @@ class ResellerIntegratedIMPGetResponse extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Type string
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:5548
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $provisioningUrl = null;
@@ -65,6 +71,8 @@ class ResellerIntegratedIMPGetResponse extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Type string
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:5548
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $provisioningUserId = null;
@@ -74,6 +82,8 @@ class ResellerIntegratedIMPGetResponse extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Type string
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:5548
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $boshURL = null;

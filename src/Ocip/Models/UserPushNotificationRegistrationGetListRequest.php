@@ -20,6 +20,8 @@ class UserPushNotificationRegistrationGetListRequest extends \CWM\BroadWorksConn
      * @ElementName registrationId
      * @Type string
      * @Group 53d18cc797d03d802cbc411ad821f1d4:3442
+     * @MinLength 1
+     * @MaxLength 1024
      * @var string|null
      */
     private $registrationId = null;
@@ -28,6 +30,8 @@ class UserPushNotificationRegistrationGetListRequest extends \CWM\BroadWorksConn
      * @ElementName userId
      * @Type string
      * @Group 53d18cc797d03d802cbc411ad821f1d4:3442
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;

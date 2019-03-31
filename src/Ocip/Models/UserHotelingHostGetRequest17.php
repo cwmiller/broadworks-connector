@@ -19,6 +19,8 @@ class UserHotelingHostGetRequest17 extends \CWM\BroadWorksConnector\Ocip\Models\
      * @ElementName userId
      * @Type string
      * @Group 02e7506f62aa34db418d4b19526b2ccf:41
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;

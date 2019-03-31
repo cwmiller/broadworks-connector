@@ -25,6 +25,8 @@ class SystemIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Nillable
      * @Optional
      * @Group 23389100b68cef3aa07ee12ac7a2bd16:296
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $serviceDomain = null;
@@ -35,6 +37,8 @@ class SystemIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Nillable
      * @Optional
      * @Group 23389100b68cef3aa07ee12ac7a2bd16:296
+     * @MinInclusive 1
+     * @MaxInclusive 65535
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $servicePort = null;
@@ -54,6 +58,8 @@ class SystemIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Nillable
      * @Optional
      * @Group 23389100b68cef3aa07ee12ac7a2bd16:296
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $boshURL = null;

@@ -26,6 +26,8 @@ class GroupExchangeIntegrationGetResponse extends \CWM\BroadWorksConnector\Ocip\
      * @Type string
      * @Optional
      * @Group f3a93cf15de4abd7903673e44ee3e07b:4757
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $exchangeURL = null;
@@ -35,6 +37,8 @@ class GroupExchangeIntegrationGetResponse extends \CWM\BroadWorksConnector\Ocip\
      * @Type string
      * @Optional
      * @Group f3a93cf15de4abd7903673e44ee3e07b:4757
+     * @MinLength 1
+     * @MaxLength 64
      * @var string|null
      */
     private $exchangeUserName = null;

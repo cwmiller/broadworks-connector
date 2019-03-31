@@ -19,6 +19,8 @@ class UserCustomRingbackUserGetCriteriaListRequest extends \CWM\BroadWorksConnec
      * @ElementName userId
      * @Type string
      * @Group 80acd3e6f38b9682dcefe7cd473392c3:155
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;

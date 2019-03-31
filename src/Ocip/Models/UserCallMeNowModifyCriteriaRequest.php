@@ -19,6 +19,8 @@ class UserCallMeNowModifyCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName userId
      * @Type string
      * @Group 1f0f230fee2817fe00157925859dc28e:201
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;
@@ -27,6 +29,8 @@ class UserCallMeNowModifyCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName criteriaName
      * @Type string
      * @Group 1f0f230fee2817fe00157925859dc28e:201
+     * @MinLength 1
+     * @MaxLength 50
      * @var string|null
      */
     private $criteriaName = null;
@@ -36,6 +40,8 @@ class UserCallMeNowModifyCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @Type string
      * @Optional
      * @Group 1f0f230fee2817fe00157925859dc28e:201
+     * @MinLength 1
+     * @MaxLength 50
      * @var string|null
      */
     private $newCriteriaName = null;

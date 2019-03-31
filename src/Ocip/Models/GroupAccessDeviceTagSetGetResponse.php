@@ -19,6 +19,8 @@ class GroupAccessDeviceTagSetGetResponse extends \CWM\BroadWorksConnector\Ocip\M
      * @Type string
      * @Optional
      * @Group f3a93cf15de4abd7903673e44ee3e07b:973
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $tagSetName = null;

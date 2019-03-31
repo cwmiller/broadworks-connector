@@ -19,6 +19,8 @@ class ServiceProviderDeviceProfileAuthenticationPasswordRulesModifyRequest exten
      * @ElementName serviceProviderId
      * @Type string
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:2425
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -73,6 +75,8 @@ class ServiceProviderDeviceProfileAuthenticationPasswordRulesModifyRequest exten
      * @Type int
      * @Optional
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:2425
+     * @MinInclusive 1
+     * @MaxInclusive 10
      * @var int|null
      */
     private $minDigits = null;
@@ -91,6 +95,8 @@ class ServiceProviderDeviceProfileAuthenticationPasswordRulesModifyRequest exten
      * @Type int
      * @Optional
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:2425
+     * @MinInclusive 1
+     * @MaxInclusive 10
      * @var int|null
      */
     private $minUpperCaseLetters = null;
@@ -109,6 +115,8 @@ class ServiceProviderDeviceProfileAuthenticationPasswordRulesModifyRequest exten
      * @Type int
      * @Optional
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:2425
+     * @MinInclusive 1
+     * @MaxInclusive 10
      * @var int|null
      */
     private $minLowerCaseLetters = null;
@@ -127,6 +135,8 @@ class ServiceProviderDeviceProfileAuthenticationPasswordRulesModifyRequest exten
      * @Type int
      * @Optional
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:2425
+     * @MinInclusive 1
+     * @MaxInclusive 10
      * @var int|null
      */
     private $minNonAlphanumericCharacters = null;
@@ -136,6 +146,8 @@ class ServiceProviderDeviceProfileAuthenticationPasswordRulesModifyRequest exten
      * @Type int
      * @Optional
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:2425
+     * @MinInclusive 3
+     * @MaxInclusive 40
      * @var int|null
      */
     private $minLength = null;
@@ -155,6 +167,8 @@ class ServiceProviderDeviceProfileAuthenticationPasswordRulesModifyRequest exten
      * @Nillable
      * @Optional
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:2425
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $permanentLockoutNotifyEmailAddress = null;
@@ -173,6 +187,8 @@ class ServiceProviderDeviceProfileAuthenticationPasswordRulesModifyRequest exten
      * @Type int
      * @Optional
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:2425
+     * @MinInclusive 1
+     * @MaxInclusive 10
      * @var int|null
      */
     private $deviceProfileTemporaryLockoutThreshold = null;
@@ -200,6 +216,8 @@ class ServiceProviderDeviceProfileAuthenticationPasswordRulesModifyRequest exten
      * @Type int
      * @Optional
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:2425
+     * @MinInclusive 2
+     * @MaxInclusive 10
      * @var int|null
      */
     private $deviceProfilePermanentLockoutThreshold = null;

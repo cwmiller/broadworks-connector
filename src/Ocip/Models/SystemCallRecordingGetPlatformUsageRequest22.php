@@ -19,6 +19,8 @@ class SystemCallRecordingGetPlatformUsageRequest22 extends \CWM\BroadWorksConnec
      * @ElementName name
      * @Type string
      * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:212
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $name = null;

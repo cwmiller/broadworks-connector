@@ -19,6 +19,8 @@ class GroupScheduleAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @ElementName serviceProviderId
      * @Type string
      * @Group f3a93cf15de4abd7903673e44ee3e07b:6332
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,6 +29,8 @@ class GroupScheduleAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @ElementName groupId
      * @Type string
      * @Group f3a93cf15de4abd7903673e44ee3e07b:6332
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;
@@ -35,6 +39,8 @@ class GroupScheduleAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @ElementName scheduleName
      * @Type string
      * @Group f3a93cf15de4abd7903673e44ee3e07b:6332
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $scheduleName = null;

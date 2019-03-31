@@ -19,6 +19,8 @@ class SystemCommunicationBarringIncomingCriteriaAddRequest extends \CWM\BroadWor
      * @ElementName name
      * @Type string
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:5766
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $name = null;
@@ -28,6 +30,8 @@ class SystemCommunicationBarringIncomingCriteriaAddRequest extends \CWM\BroadWor
      * @Type string
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:5766
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $description = null;
@@ -37,6 +41,8 @@ class SystemCommunicationBarringIncomingCriteriaAddRequest extends \CWM\BroadWor
      * @Type string
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:5766
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $timeSchedule = null;
@@ -46,6 +52,8 @@ class SystemCommunicationBarringIncomingCriteriaAddRequest extends \CWM\BroadWor
      * @Type string
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:5766
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $holidaySchedule = null;
@@ -56,6 +64,8 @@ class SystemCommunicationBarringIncomingCriteriaAddRequest extends \CWM\BroadWor
      * @Array
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:5766
+     * @MinLength 1
+     * @MaxLength 40
      * @var string[]
      */
     private $matchNumberPortabilityStatus = array(

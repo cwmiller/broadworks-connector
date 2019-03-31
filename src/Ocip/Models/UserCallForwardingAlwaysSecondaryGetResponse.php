@@ -26,6 +26,8 @@ class UserCallForwardingAlwaysSecondaryGetResponse extends \CWM\BroadWorksConnec
      * @Type string
      * @Optional
      * @Group e085a89bb45835a6ffd3de9dd7df0e49:59
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $forwardToPhoneNumber = null;

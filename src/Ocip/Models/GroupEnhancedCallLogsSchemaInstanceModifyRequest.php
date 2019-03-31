@@ -19,6 +19,8 @@ class GroupEnhancedCallLogsSchemaInstanceModifyRequest extends \CWM\BroadWorksCo
      * @ElementName serviceProviderId
      * @Type string
      * @Group f6b3702edb5f67fa12c2c426d98657db:78
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,6 +29,8 @@ class GroupEnhancedCallLogsSchemaInstanceModifyRequest extends \CWM\BroadWorksCo
      * @ElementName groupId
      * @Type string
      * @Group f6b3702edb5f67fa12c2c426d98657db:78
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;
@@ -37,6 +41,8 @@ class GroupEnhancedCallLogsSchemaInstanceModifyRequest extends \CWM\BroadWorksCo
      * @Nillable
      * @Optional
      * @Group f6b3702edb5f67fa12c2c426d98657db:78
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $name = null;

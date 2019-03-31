@@ -23,6 +23,8 @@ class UserCallForwardingSelectiveModifyCriteriaRequest extends \CWM\BroadWorksCo
      * @ElementName userId
      * @Type string
      * @Group 543304bb75006bfa60814c897fa03ec0:181
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;
@@ -31,6 +33,8 @@ class UserCallForwardingSelectiveModifyCriteriaRequest extends \CWM\BroadWorksCo
      * @ElementName criteriaName
      * @Type string
      * @Group 543304bb75006bfa60814c897fa03ec0:181
+     * @MinLength 1
+     * @MaxLength 50
      * @var string|null
      */
     private $criteriaName = null;
@@ -40,6 +44,8 @@ class UserCallForwardingSelectiveModifyCriteriaRequest extends \CWM\BroadWorksCo
      * @Type string
      * @Optional
      * @Group 543304bb75006bfa60814c897fa03ec0:181
+     * @MinLength 1
+     * @MaxLength 50
      * @var string|null
      */
     private $newCriteriaName = null;
@@ -79,6 +85,8 @@ class UserCallForwardingSelectiveModifyCriteriaRequest extends \CWM\BroadWorksCo
      * @Nillable
      * @Optional
      * @Group 543304bb75006bfa60814c897fa03ec0:181
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $forwardToPhoneNumber = null;

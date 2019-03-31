@@ -25,6 +25,8 @@ class SystemEmergencyCallDDoSProtectionGetResponse extends \CWM\BroadWorksConnec
      * @ElementName sampleIntervalSeconds
      * @Type int
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8628
+     * @MinInclusive 1
+     * @MaxInclusive 30
      * @var int|null
      */
     private $sampleIntervalSeconds = null;
@@ -34,6 +36,8 @@ class SystemEmergencyCallDDoSProtectionGetResponse extends \CWM\BroadWorksConnec
      * @Type int
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8628
+     * @MinInclusive 1
+     * @MaxInclusive 10000
      * @var int|null
      */
     private $protectionRate = null;

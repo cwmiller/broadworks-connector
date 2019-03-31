@@ -56,6 +56,8 @@ class SystemDeviceProfileAuthenticationPasswordRulesModifyRequest extends \CWM\B
      * @Type int
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7579
+     * @MinInclusive 1
+     * @MaxInclusive 10
      * @var int|null
      */
     private $minDigits = null;
@@ -74,6 +76,8 @@ class SystemDeviceProfileAuthenticationPasswordRulesModifyRequest extends \CWM\B
      * @Type int
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7579
+     * @MinInclusive 1
+     * @MaxInclusive 10
      * @var int|null
      */
     private $minUpperCaseLetters = null;
@@ -92,6 +96,8 @@ class SystemDeviceProfileAuthenticationPasswordRulesModifyRequest extends \CWM\B
      * @Type int
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7579
+     * @MinInclusive 1
+     * @MaxInclusive 10
      * @var int|null
      */
     private $minLowerCaseLetters = null;
@@ -110,6 +116,8 @@ class SystemDeviceProfileAuthenticationPasswordRulesModifyRequest extends \CWM\B
      * @Type int
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7579
+     * @MinInclusive 1
+     * @MaxInclusive 10
      * @var int|null
      */
     private $minNonAlphanumericCharacters = null;
@@ -119,6 +127,8 @@ class SystemDeviceProfileAuthenticationPasswordRulesModifyRequest extends \CWM\B
      * @Type int
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7579
+     * @MinInclusive 3
+     * @MaxInclusive 40
      * @var int|null
      */
     private $minLength = null;
@@ -138,6 +148,8 @@ class SystemDeviceProfileAuthenticationPasswordRulesModifyRequest extends \CWM\B
      * @Nillable
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7579
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $permanentLockoutNotifyEmailAddress = null;
@@ -156,6 +168,8 @@ class SystemDeviceProfileAuthenticationPasswordRulesModifyRequest extends \CWM\B
      * @Type int
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7579
+     * @MinInclusive 1
+     * @MaxInclusive 10
      * @var int|null
      */
     private $deviceProfileTemporaryLockoutThreshold = null;
@@ -183,6 +197,8 @@ class SystemDeviceProfileAuthenticationPasswordRulesModifyRequest extends \CWM\B
      * @Type int
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7579
+     * @MinInclusive 2
+     * @MaxInclusive 10
      * @var int|null
      */
     private $deviceProfilePermanentLockoutThreshold = null;

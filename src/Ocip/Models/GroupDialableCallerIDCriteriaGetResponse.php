@@ -19,6 +19,8 @@ class GroupDialableCallerIDCriteriaGetResponse extends \CWM\BroadWorksConnector\
      * @Type string
      * @Optional
      * @Group f3a93cf15de4abd7903673e44ee3e07b:3704
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $description = null;
@@ -28,6 +30,8 @@ class GroupDialableCallerIDCriteriaGetResponse extends \CWM\BroadWorksConnector\
      * @Type string
      * @Optional
      * @Group f3a93cf15de4abd7903673e44ee3e07b:3704
+     * @MinLength 1
+     * @MaxLength 10
      * @var string|null
      */
     private $prefixDigits = null;
@@ -38,6 +42,8 @@ class GroupDialableCallerIDCriteriaGetResponse extends \CWM\BroadWorksConnector\
      * @Array
      * @Optional
      * @Group f3a93cf15de4abd7903673e44ee3e07b:3704
+     * @MinLength 1
+     * @MaxLength 40
      * @var string[]
      */
     private $matchCallType = array(
@@ -50,6 +56,8 @@ class GroupDialableCallerIDCriteriaGetResponse extends \CWM\BroadWorksConnector\
      * @Array
      * @Optional
      * @Group f3a93cf15de4abd7903673e44ee3e07b:3704
+     * @MinLength 1
+     * @MaxLength 40
      * @var string[]
      */
     private $matchAlternateCallIndicator = array(

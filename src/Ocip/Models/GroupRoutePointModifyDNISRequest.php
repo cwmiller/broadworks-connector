@@ -28,6 +28,8 @@ class GroupRoutePointModifyDNISRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Type string
      * @Optional
      * @Group a27224a048c30ff69eab9209dec841cc:854
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $newDNISName = null;
@@ -38,6 +40,8 @@ class GroupRoutePointModifyDNISRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Nillable
      * @Optional
      * @Group a27224a048c30ff69eab9209dec841cc:854
+     * @MinLength 1
+     * @MaxLength 23
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $dnisPhoneNumber = null;
@@ -48,6 +52,8 @@ class GroupRoutePointModifyDNISRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Nillable
      * @Optional
      * @Group a27224a048c30ff69eab9209dec841cc:854
+     * @MinLength 2
+     * @MaxLength 20
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $extension = null;
@@ -67,6 +73,8 @@ class GroupRoutePointModifyDNISRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Nillable
      * @Optional
      * @Group a27224a048c30ff69eab9209dec841cc:854
+     * @MinLength 1
+     * @MaxLength 23
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $callingLineIdPhoneNumber = null;
@@ -77,6 +85,8 @@ class GroupRoutePointModifyDNISRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Nillable
      * @Optional
      * @Group a27224a048c30ff69eab9209dec841cc:854
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $callingLineIdLastName = null;
@@ -87,6 +97,8 @@ class GroupRoutePointModifyDNISRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Nillable
      * @Optional
      * @Group a27224a048c30ff69eab9209dec841cc:854
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $callingLineIdFirstName = null;

@@ -27,6 +27,8 @@ class GroupDepartmentAdminAddRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName userId
      * @Type string
      * @Group f3a93cf15de4abd7903673e44ee3e07b:2960
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;
@@ -36,6 +38,8 @@ class GroupDepartmentAdminAddRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @Type string
      * @Optional
      * @Group f3a93cf15de4abd7903673e44ee3e07b:2960
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $firstName = null;
@@ -45,6 +49,8 @@ class GroupDepartmentAdminAddRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @Type string
      * @Optional
      * @Group f3a93cf15de4abd7903673e44ee3e07b:2960
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $lastName = null;
@@ -54,6 +60,8 @@ class GroupDepartmentAdminAddRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @Type string
      * @Optional
      * @Group f3a93cf15de4abd7903673e44ee3e07b:2960
+     * @MinLength 1
+     * @MaxLength 60
      * @var string|null
      */
     private $password = null;
@@ -63,6 +71,8 @@ class GroupDepartmentAdminAddRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @Type string
      * @Optional
      * @Group f3a93cf15de4abd7903673e44ee3e07b:2960
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $language = null;

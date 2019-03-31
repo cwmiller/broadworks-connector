@@ -17,6 +17,8 @@ class SystemSecurityClassificationGetClassificationResponse extends \CWM\BroadWo
      * @ElementName audioAnnouncementFileDescription
      * @Type string
      * @Group 6b3afea8308b7fdaab8d385357ca9c2d:150
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $audioAnnouncementFileDescription = null;

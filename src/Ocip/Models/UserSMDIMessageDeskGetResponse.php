@@ -26,6 +26,8 @@ class UserSMDIMessageDeskGetResponse extends \CWM\BroadWorksConnector\Ocip\Model
      * @Type string
      * @Optional
      * @Group ee7bb69368e23a56a82c5d9cf07b5433:275
+     * @MinLength 1
+     * @MaxLength 3
      * @var string|null
      */
     private $messageDeskNumber = null;

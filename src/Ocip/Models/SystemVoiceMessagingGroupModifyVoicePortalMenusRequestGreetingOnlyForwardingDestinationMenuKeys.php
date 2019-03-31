@@ -15,6 +15,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestGreetingOnlyForwardi
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:28693
+     * @Length 1
+     * @Pattern \*|#
      * @var string|null
      */
     private $greetingOnlyForwardingDestination = null;

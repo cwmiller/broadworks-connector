@@ -19,6 +19,8 @@ class SystemMediaGroupUsageListRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName name
      * @Type string
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10831
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $name = null;

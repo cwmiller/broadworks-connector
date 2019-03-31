@@ -16,6 +16,8 @@ class AutomaticCollectCallPrefixDigitsEntry
      * @ElementName countryCode
      * @Type string
      * @Group af1b47d7cab3335a81456e64e42371b0:212
+     * @MaxLength 3
+     * @Pattern [0-9]|[1-9][0-9]{1,2}
      * @var string|null
      */
     private $countryCode = null;
@@ -24,6 +26,8 @@ class AutomaticCollectCallPrefixDigitsEntry
      * @ElementName prefixDigits
      * @Type string
      * @Group af1b47d7cab3335a81456e64e42371b0:212
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $prefixDigits = null;

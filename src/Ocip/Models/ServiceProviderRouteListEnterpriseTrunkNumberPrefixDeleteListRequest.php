@@ -19,6 +19,8 @@ class ServiceProviderRouteListEnterpriseTrunkNumberPrefixDeleteListRequest exten
      * @ElementName serviceProviderId
      * @Type string
      * @Group 3f28429898a57a7f7846d3877b22df9f:485
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -28,6 +30,8 @@ class ServiceProviderRouteListEnterpriseTrunkNumberPrefixDeleteListRequest exten
      * @Type string
      * @Array
      * @Group 3f28429898a57a7f7846d3877b22df9f:485
+     * @MinLength 1
+     * @MaxLength 23
      * @var string[]
      */
     private $numberPrefix = array(

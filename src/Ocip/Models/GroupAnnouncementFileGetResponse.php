@@ -22,6 +22,8 @@ class GroupAnnouncementFileGetResponse extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName description
      * @Type string
      * @Group f3a93cf15de4abd7903673e44ee3e07b:1558
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $description = null;

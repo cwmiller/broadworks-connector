@@ -19,6 +19,8 @@ class UserCallNotifyGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @ElementName userId
      * @Type string
      * @Group 26f62134ab1693f4bdddc7c70b20d2eb:227
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;

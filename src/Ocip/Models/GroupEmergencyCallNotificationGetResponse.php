@@ -26,6 +26,8 @@ class GroupEmergencyCallNotificationGetResponse extends \CWM\BroadWorksConnector
      * @Type string
      * @Optional
      * @Group f3a93cf15de4abd7903673e44ee3e07b:4657
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $emergencyCallNotifyEmailAddress = null;

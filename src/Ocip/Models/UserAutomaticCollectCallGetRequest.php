@@ -19,6 +19,8 @@ class UserAutomaticCollectCallGetRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName userId
      * @Type string
      * @Group af1b47d7cab3335a81456e64e42371b0:158
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;

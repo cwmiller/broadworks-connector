@@ -20,6 +20,8 @@ class UserBroadWorksMobilityMobileIdentityGetResponse21sp1V2 extends \CWM\BroadW
      * @Type string
      * @Optional
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:1573
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $description = null;
@@ -240,6 +242,8 @@ class UserBroadWorksMobilityMobileIdentityGetResponse21sp1V2 extends \CWM\BroadW
      * @Type string
      * @Optional
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:1573
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $outboundAlternateNumber = null;

@@ -19,6 +19,8 @@ class SystemDeviceTypeGetAvailableListResponse14sp3 extends \CWM\BroadWorksConne
      * @Array
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:26077
+     * @MinLength 1
+     * @MaxLength 40
      * @var string[]
      */
     private $deviceType = array(

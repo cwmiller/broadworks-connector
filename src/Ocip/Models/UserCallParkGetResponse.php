@@ -21,6 +21,8 @@ class UserCallParkGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @Type string
      * @Optional
      * @Group 7a925e891158dfa3cb1319e045608894:561
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $name = null;

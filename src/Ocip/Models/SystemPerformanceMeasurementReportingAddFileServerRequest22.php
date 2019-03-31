@@ -19,6 +19,8 @@ class SystemPerformanceMeasurementReportingAddFileServerRequest22 extends \CWM\B
      * @ElementName repositoryUrl
      * @Type string
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:13185
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $repositoryUrl = null;
@@ -27,6 +29,8 @@ class SystemPerformanceMeasurementReportingAddFileServerRequest22 extends \CWM\B
      * @ElementName ftpUserId
      * @Type string
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:13185
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $ftpUserId = null;
@@ -35,6 +39,8 @@ class SystemPerformanceMeasurementReportingAddFileServerRequest22 extends \CWM\B
      * @ElementName ftpUserPassword
      * @Type string
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:13185
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $ftpUserPassword = null;

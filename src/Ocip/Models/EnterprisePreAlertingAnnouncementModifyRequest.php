@@ -19,6 +19,8 @@ class EnterprisePreAlertingAnnouncementModifyRequest extends \CWM\BroadWorksConn
      * @ElementName serviceProviderId
      * @Type string
      * @Group 6165f2b4cd549de71fe8f3171488fdd8:92
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -37,6 +39,8 @@ class EnterprisePreAlertingAnnouncementModifyRequest extends \CWM\BroadWorksConn
      * @Type string
      * @Optional
      * @Group 6165f2b4cd549de71fe8f3171488fdd8:92
+     * @MinLength 1
+     * @MaxLength 10
      * @var string|null
      */
     private $interruptionDigitSequence = null;

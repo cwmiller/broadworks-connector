@@ -18,6 +18,8 @@ class ReplacementContactList
      * @Type string
      * @Array
      * @Group c0d21ef9ba207c335d8347e5172fce1d:3281
+     * @MinLength 1
+     * @MaxLength 1020
      * @var string[]
      */
     private $contact = array(

@@ -19,6 +19,8 @@ class UserCallMeNowAddCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName userId
      * @Type string
      * @Group 1f0f230fee2817fe00157925859dc28e:94
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;
@@ -27,6 +29,8 @@ class UserCallMeNowAddCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName criteriaName
      * @Type string
      * @Group 1f0f230fee2817fe00157925859dc28e:94
+     * @MinLength 1
+     * @MaxLength 50
      * @var string|null
      */
     private $criteriaName = null;

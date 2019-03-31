@@ -19,6 +19,8 @@ class GroupAccessDeviceGetEnhancedConfigurationTypeListResponse extends \CWM\Bro
      * @Array
      * @Optional
      * @Group f3a93cf15de4abd7903673e44ee3e07b:619
+     * @MinLength 1
+     * @MaxLength 40
      * @var string[]
      */
     private $deviceType = array(

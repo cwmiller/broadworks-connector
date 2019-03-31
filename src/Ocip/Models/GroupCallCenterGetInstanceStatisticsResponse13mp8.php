@@ -43,6 +43,8 @@ class GroupCallCenterGetInstanceStatisticsResponse13mp8 extends \CWM\BroadWorksC
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:1013
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $reportingEmailAddress1 = null;
@@ -52,6 +54,8 @@ class GroupCallCenterGetInstanceStatisticsResponse13mp8 extends \CWM\BroadWorksC
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:1013
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $reportingEmailAddress2 = null;

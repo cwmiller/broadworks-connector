@@ -20,6 +20,8 @@ class UserCallTransferGetRequest14sp4 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName userId
      * @Type string
      * @Group 6604ba4b5f755b1ba8d7de48e87c6e63:42
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;

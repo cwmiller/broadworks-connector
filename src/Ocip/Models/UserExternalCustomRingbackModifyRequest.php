@@ -24,6 +24,8 @@ class UserExternalCustomRingbackModifyRequest extends \CWM\BroadWorksConnector\O
      * @ElementName userId
      * @Type string
      * @Group a8df43dca23d99d8ab44c0082aadfbe0:139
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;
@@ -52,6 +54,8 @@ class UserExternalCustomRingbackModifyRequest extends \CWM\BroadWorksConnector\O
      * @Nillable
      * @Optional
      * @Group a8df43dca23d99d8ab44c0082aadfbe0:139
+     * @MinLength 1
+     * @MaxLength 1020
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $sipRequestURI = null;

@@ -19,6 +19,8 @@ class SystemCallTypeDeleteMappingRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName countryCode
      * @Type string
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:4880
+     * @MaxLength 3
+     * @Pattern [0-9]|[1-9][0-9]{1,2}
      * @var string|null
      */
     private $countryCode = null;
@@ -27,6 +29,8 @@ class SystemCallTypeDeleteMappingRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName digitMap
      * @Type string
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:4880
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $digitMap = null;

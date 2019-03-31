@@ -34,6 +34,8 @@ class GroupCallCenterBouncedCallGetResponse17 extends \CWM\BroadWorksConnector\O
      * @ElementName numberOfRingsBeforeBouncingCall
      * @Type int
      * @Group e2c537e3e39483b96620673a7012ffdd:2733
+     * @MinInclusive 1
+     * @MaxInclusive 20
      * @var int|null
      */
     private $numberOfRingsBeforeBouncingCall = null;
@@ -52,6 +54,8 @@ class GroupCallCenterBouncedCallGetResponse17 extends \CWM\BroadWorksConnector\O
      * @Type string
      * @Optional
      * @Group e2c537e3e39483b96620673a7012ffdd:2733
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $transferPhoneNumber = null;
@@ -79,6 +83,8 @@ class GroupCallCenterBouncedCallGetResponse17 extends \CWM\BroadWorksConnector\O
      * @Type int
      * @Optional
      * @Group e2c537e3e39483b96620673a7012ffdd:2733
+     * @MinInclusive 30
+     * @MaxInclusive 600
      * @var int|null
      */
     private $alertCallCenterCallOnHoldSeconds = null;
@@ -97,6 +103,8 @@ class GroupCallCenterBouncedCallGetResponse17 extends \CWM\BroadWorksConnector\O
      * @Type int
      * @Optional
      * @Group e2c537e3e39483b96620673a7012ffdd:2733
+     * @MinInclusive 30
+     * @MaxInclusive 600
      * @var int|null
      */
     private $bounceCallCenterCallOnHoldSeconds = null;

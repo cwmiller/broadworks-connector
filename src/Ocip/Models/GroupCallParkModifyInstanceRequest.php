@@ -20,6 +20,8 @@ class GroupCallParkModifyInstanceRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName serviceProviderId
      * @Type string
      * @Group 7a925e891158dfa3cb1319e045608894:497
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -28,6 +30,8 @@ class GroupCallParkModifyInstanceRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName groupId
      * @Type string
      * @Group 7a925e891158dfa3cb1319e045608894:497
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;
@@ -36,6 +40,8 @@ class GroupCallParkModifyInstanceRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName name
      * @Type string
      * @Group 7a925e891158dfa3cb1319e045608894:497
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $name = null;
@@ -45,6 +51,8 @@ class GroupCallParkModifyInstanceRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @Type string
      * @Optional
      * @Group 7a925e891158dfa3cb1319e045608894:497
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $newName = null;
@@ -65,6 +73,8 @@ class GroupCallParkModifyInstanceRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @Nillable
      * @Optional
      * @Group 7a925e891158dfa3cb1319e045608894:497
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $recallAlternateUserId = null;

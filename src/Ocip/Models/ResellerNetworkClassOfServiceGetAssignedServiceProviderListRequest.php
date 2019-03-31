@@ -21,6 +21,8 @@ class ResellerNetworkClassOfServiceGetAssignedServiceProviderListRequest extends
      * @ElementName resellerId
      * @Type string
      * @Group b009175f2a2a9d38115e319a6ad64d7f:520
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $resellerId = null;
@@ -29,6 +31,8 @@ class ResellerNetworkClassOfServiceGetAssignedServiceProviderListRequest extends
      * @ElementName networkClassOfService
      * @Type string
      * @Group b009175f2a2a9d38115e319a6ad64d7f:520
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $networkClassOfService = null;
@@ -38,6 +42,7 @@ class ResellerNetworkClassOfServiceGetAssignedServiceProviderListRequest extends
      * @Type int
      * @Optional
      * @Group b009175f2a2a9d38115e319a6ad64d7f:520
+     * @MinInclusive 1
      * @var int|null
      */
     private $responseSizeLimit = null;

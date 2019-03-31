@@ -19,6 +19,8 @@ class ServiceProviderCallProcessingGetPolicyRequest22V2 extends \CWM\BroadWorksC
      * @ElementName serviceProviderId
      * @Type string
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:1301
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;

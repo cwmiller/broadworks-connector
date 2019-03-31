@@ -19,6 +19,8 @@ class GroupEmergencyZonesGetHomeZoneListRequest extends \CWM\BroadWorksConnector
      * @ElementName serviceProviderId
      * @Type string
      * @Group e71c2205fb31894f87810b330a85ede2:87
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,6 +29,8 @@ class GroupEmergencyZonesGetHomeZoneListRequest extends \CWM\BroadWorksConnector
      * @ElementName groupId
      * @Type string
      * @Group e71c2205fb31894f87810b330a85ede2:87
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;

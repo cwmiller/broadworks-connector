@@ -21,6 +21,8 @@ class SystemDnGetUtilizationRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName phoneNumber
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:5119
+     * @MinLength 1
+     * @MaxLength 23
      * @var string|null
      */
     private $phoneNumber = null;

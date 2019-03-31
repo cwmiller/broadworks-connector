@@ -65,6 +65,8 @@ class GroupAdministratorPasswordRulesGetResponse extends \CWM\BroadWorksConnecto
      * @ElementName minDigits
      * @Type int
      * @Group f3a93cf15de4abd7903673e44ee3e07b:1297
+     * @MinInclusive 1
+     * @MaxInclusive 10
      * @var int|null
      */
     private $minDigits = null;
@@ -81,6 +83,8 @@ class GroupAdministratorPasswordRulesGetResponse extends \CWM\BroadWorksConnecto
      * @ElementName minUpperCaseLetters
      * @Type int
      * @Group f3a93cf15de4abd7903673e44ee3e07b:1297
+     * @MinInclusive 1
+     * @MaxInclusive 10
      * @var int|null
      */
     private $minUpperCaseLetters = null;
@@ -97,6 +101,8 @@ class GroupAdministratorPasswordRulesGetResponse extends \CWM\BroadWorksConnecto
      * @ElementName minLowerCaseLetters
      * @Type int
      * @Group f3a93cf15de4abd7903673e44ee3e07b:1297
+     * @MinInclusive 1
+     * @MaxInclusive 10
      * @var int|null
      */
     private $minLowerCaseLetters = null;
@@ -113,6 +119,8 @@ class GroupAdministratorPasswordRulesGetResponse extends \CWM\BroadWorksConnecto
      * @ElementName minNonAlphanumericCharacters
      * @Type int
      * @Group f3a93cf15de4abd7903673e44ee3e07b:1297
+     * @MinInclusive 1
+     * @MaxInclusive 10
      * @var int|null
      */
     private $minNonAlphanumericCharacters = null;
@@ -121,6 +129,8 @@ class GroupAdministratorPasswordRulesGetResponse extends \CWM\BroadWorksConnecto
      * @ElementName minLength
      * @Type int
      * @Group f3a93cf15de4abd7903673e44ee3e07b:1297
+     * @MinInclusive 3
+     * @MaxInclusive 40
      * @var int|null
      */
     private $minLength = null;
@@ -129,6 +139,8 @@ class GroupAdministratorPasswordRulesGetResponse extends \CWM\BroadWorksConnecto
      * @ElementName maxFailedLoginAttempts
      * @Type int
      * @Group f3a93cf15de4abd7903673e44ee3e07b:1297
+     * @MinInclusive
+     * @MaxInclusive 10
      * @var int|null
      */
     private $maxFailedLoginAttempts = null;
@@ -137,6 +149,8 @@ class GroupAdministratorPasswordRulesGetResponse extends \CWM\BroadWorksConnecto
      * @ElementName passwordExpiresDays
      * @Type int
      * @Group f3a93cf15de4abd7903673e44ee3e07b:1297
+     * @MinInclusive
+     * @MaxInclusive 199
      * @var int|null
      */
     private $passwordExpiresDays = null;
@@ -154,6 +168,8 @@ class GroupAdministratorPasswordRulesGetResponse extends \CWM\BroadWorksConnecto
      * @Type string
      * @Optional
      * @Group f3a93cf15de4abd7903673e44ee3e07b:1297
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $loginDisabledNotifyEmailAddress = null;
@@ -170,6 +186,8 @@ class GroupAdministratorPasswordRulesGetResponse extends \CWM\BroadWorksConnecto
      * @ElementName numberOfPreviousPasswords
      * @Type int
      * @Group f3a93cf15de4abd7903673e44ee3e07b:1297
+     * @MinInclusive 1
+     * @MaxInclusive 10
      * @var int|null
      */
     private $numberOfPreviousPasswords = null;

@@ -57,6 +57,8 @@ class SystemBroadWorksMobilityGetResponse22V3 extends \CWM\BroadWorksConnector\O
      * @ElementName imrnTimeoutMillisecnds
      * @Type int
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:799
+     * @MinInclusive 100
+     * @MaxInclusive 60000
      * @var int|null
      */
     private $imrnTimeoutMillisecnds = null;
@@ -106,6 +108,8 @@ class SystemBroadWorksMobilityGetResponse22V3 extends \CWM\BroadWorksConnector\O
      * @Type string
      * @Optional
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:799
+     * @MinLength 1
+     * @MaxLength 128
      * @var string|null
      */
     private $networkTranslationIndex = null;

@@ -51,6 +51,8 @@ class ServiceProviderCallProcessingGetPolicyResponse22V2 extends \CWM\BroadWorks
      * @ElementName maxSimultaneousCalls
      * @Type int
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:1333
+     * @MinInclusive 1
+     * @MaxInclusive 999999
      * @var int|null
      */
     private $maxSimultaneousCalls = null;
@@ -67,6 +69,8 @@ class ServiceProviderCallProcessingGetPolicyResponse22V2 extends \CWM\BroadWorks
      * @ElementName maxSimultaneousVideoCalls
      * @Type int
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:1333
+     * @MinInclusive 1
+     * @MaxInclusive 999999
      * @var int|null
      */
     private $maxSimultaneousVideoCalls = null;
@@ -83,6 +87,8 @@ class ServiceProviderCallProcessingGetPolicyResponse22V2 extends \CWM\BroadWorks
      * @ElementName maxCallTimeForAnsweredCallsMinutes
      * @Type int
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:1333
+     * @MinInclusive 3
+     * @MaxInclusive 2880
      * @var int|null
      */
     private $maxCallTimeForAnsweredCallsMinutes = null;
@@ -99,6 +105,8 @@ class ServiceProviderCallProcessingGetPolicyResponse22V2 extends \CWM\BroadWorks
      * @ElementName maxCallTimeForUnansweredCallsMinutes
      * @Type int
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:1333
+     * @MinInclusive 1
+     * @MaxInclusive 2880
      * @var int|null
      */
     private $maxCallTimeForUnansweredCallsMinutes = null;
@@ -116,6 +124,8 @@ class ServiceProviderCallProcessingGetPolicyResponse22V2 extends \CWM\BroadWorks
      * @Type string
      * @Optional
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:1333
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $supportedMediaSetName = null;
@@ -197,6 +207,8 @@ class ServiceProviderCallProcessingGetPolicyResponse22V2 extends \CWM\BroadWorks
      * @Type string
      * @Optional
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:1333
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $conferenceURI = null;
@@ -213,6 +225,8 @@ class ServiceProviderCallProcessingGetPolicyResponse22V2 extends \CWM\BroadWorks
      * @ElementName maxConcurrentRedirectedCalls
      * @Type int
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:1333
+     * @MinInclusive 1
+     * @MaxInclusive 999999
      * @var int|null
      */
     private $maxConcurrentRedirectedCalls = null;
@@ -229,6 +243,8 @@ class ServiceProviderCallProcessingGetPolicyResponse22V2 extends \CWM\BroadWorks
      * @ElementName maxFindMeFollowMeDepth
      * @Type int
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:1333
+     * @MinInclusive 1
+     * @MaxInclusive 100
      * @var int|null
      */
     private $maxFindMeFollowMeDepth = null;
@@ -237,6 +253,8 @@ class ServiceProviderCallProcessingGetPolicyResponse22V2 extends \CWM\BroadWorks
      * @ElementName maxRedirectionDepth
      * @Type int
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:1333
+     * @MinInclusive 1
+     * @MaxInclusive 100
      * @var int|null
      */
     private $maxRedirectionDepth = null;
@@ -253,6 +271,8 @@ class ServiceProviderCallProcessingGetPolicyResponse22V2 extends \CWM\BroadWorks
      * @ElementName maxConcurrentFindMeFollowMeInvocations
      * @Type int
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:1333
+     * @MinInclusive 1
+     * @MaxInclusive 999999
      * @var int|null
      */
     private $maxConcurrentFindMeFollowMeInvocations = null;
@@ -341,6 +361,8 @@ class ServiceProviderCallProcessingGetPolicyResponse22V2 extends \CWM\BroadWorks
      * @ElementName maxConcurrentTerminatingAlertingRequests
      * @Type int
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:1333
+     * @MinInclusive 1
+     * @MaxInclusive 50
      * @var int|null
      */
     private $maxConcurrentTerminatingAlertingRequests = null;
@@ -374,6 +396,8 @@ class ServiceProviderCallProcessingGetPolicyResponse22V2 extends \CWM\BroadWorks
      * @Type string
      * @Optional
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:1333
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $routeOverrideDomain = null;
@@ -383,6 +407,8 @@ class ServiceProviderCallProcessingGetPolicyResponse22V2 extends \CWM\BroadWorks
      * @Type string
      * @Optional
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:1333
+     * @MinLength 1
+     * @MaxLength 10
      * @var string|null
      */
     private $routeOverridePrefix = null;

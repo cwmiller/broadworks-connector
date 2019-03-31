@@ -19,6 +19,8 @@ class UserSimultaneousRingFamilyGetCriteriaRequest extends \CWM\BroadWorksConnec
      * @ElementName userId
      * @Type string
      * @Group 239d22a382d3190a183f2ff4efdc404f:85
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;
@@ -27,6 +29,8 @@ class UserSimultaneousRingFamilyGetCriteriaRequest extends \CWM\BroadWorksConnec
      * @ElementName criteriaName
      * @Type string
      * @Group 239d22a382d3190a183f2ff4efdc404f:85
+     * @MinLength 1
+     * @MaxLength 50
      * @var string|null
      */
     private $criteriaName = null;

@@ -18,6 +18,8 @@ class ServiceProviderDeviceTypeTagSetGetResponse extends \CWM\BroadWorksConnecto
      * @Type string
      * @Optional
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:2685
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $tagSetName = null;

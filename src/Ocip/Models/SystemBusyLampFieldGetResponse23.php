@@ -48,6 +48,8 @@ class SystemBusyLampFieldGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName redundancyTaskDelayMilliseconds
      * @Type int
      * @Group 4faeca417998d23ce2ff6b0b43212aa6:98
+     * @MinInclusive 10000
+     * @MaxInclusive 180000
      * @var int|null
      */
     private $redundancyTaskDelayMilliseconds = null;
@@ -56,6 +58,8 @@ class SystemBusyLampFieldGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName redundancyTaskIntervalMilliseconds
      * @Type int
      * @Group 4faeca417998d23ce2ff6b0b43212aa6:98
+     * @MinInclusive 50
+     * @MaxInclusive 20000
      * @var int|null
      */
     private $redundancyTaskIntervalMilliseconds = null;
@@ -64,6 +68,8 @@ class SystemBusyLampFieldGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName maxNumberOfSubscriptionsPerRedundancyTaskInterval
      * @Type int
      * @Group 4faeca417998d23ce2ff6b0b43212aa6:98
+     * @MinInclusive 1
+     * @MaxInclusive 50000
      * @var int|null
      */
     private $maxNumberOfSubscriptionsPerRedundancyTaskInterval = null;

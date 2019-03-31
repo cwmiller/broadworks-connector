@@ -42,6 +42,8 @@ class UserVoiceMessagingUserGetGreetingResponse18sp1 extends \CWM\BroadWorksConn
      * @Type string
      * @Optional
      * @Group a8b2edcd7d6936a8b76653949ae59623:420
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $busyPersonalAudioFile = null;
@@ -60,6 +62,8 @@ class UserVoiceMessagingUserGetGreetingResponse18sp1 extends \CWM\BroadWorksConn
      * @Type string
      * @Optional
      * @Group a8b2edcd7d6936a8b76653949ae59623:420
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $busyPersonalVideoFile = null;
@@ -86,6 +90,8 @@ class UserVoiceMessagingUserGetGreetingResponse18sp1 extends \CWM\BroadWorksConn
      * @Type string
      * @Optional
      * @Group a8b2edcd7d6936a8b76653949ae59623:420
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $noAnswerPersonalAudioFile = null;
@@ -104,6 +110,8 @@ class UserVoiceMessagingUserGetGreetingResponse18sp1 extends \CWM\BroadWorksConn
      * @Type string
      * @Optional
      * @Group a8b2edcd7d6936a8b76653949ae59623:420
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $noAnswerPersonalVideoFile = null;
@@ -138,6 +146,8 @@ class UserVoiceMessagingUserGetGreetingResponse18sp1 extends \CWM\BroadWorksConn
      * @Type string
      * @Optional
      * @Group a8b2edcd7d6936a8b76653949ae59623:420
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $extendedAwayAudioFile = null;
@@ -156,6 +166,8 @@ class UserVoiceMessagingUserGetGreetingResponse18sp1 extends \CWM\BroadWorksConn
      * @Type string
      * @Optional
      * @Group a8b2edcd7d6936a8b76653949ae59623:420
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $extendedAwayVideoFile = null;
@@ -225,6 +237,8 @@ class UserVoiceMessagingUserGetGreetingResponse18sp1 extends \CWM\BroadWorksConn
      * @Type string
      * @Optional
      * @Group a8b2edcd7d6936a8b76653949ae59623:420
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $greetingOnlyForwardDestination = null;

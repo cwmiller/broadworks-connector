@@ -20,6 +20,8 @@ class GroupFlexibleSeatingHostGuestAssociationModifyRequest extends \CWM\BroadWo
      * @ElementName serviceUserId
      * @Type string
      * @Group 43afb2158d313a1d1a148124d7caba1e:315
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $serviceUserId = null;
@@ -38,6 +40,8 @@ class GroupFlexibleSeatingHostGuestAssociationModifyRequest extends \CWM\BroadWo
      * @Type int
      * @Optional
      * @Group 43afb2158d313a1d1a148124d7caba1e:315
+     * @MinInclusive 1
+     * @MaxInclusive 999
      * @var int|null
      */
     private $associationLimitHours = null;

@@ -37,6 +37,8 @@ class SystemGetRegistrationContactListRequest extends \CWM\BroadWorksConnector\O
      * @ElementName resellerId
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:38784
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $resellerId = null;
@@ -45,6 +47,8 @@ class SystemGetRegistrationContactListRequest extends \CWM\BroadWorksConnector\O
      * @ElementName serviceProviderId
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:38784
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -53,6 +57,8 @@ class SystemGetRegistrationContactListRequest extends \CWM\BroadWorksConnector\O
      * @ElementName svcProviderId
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:38787
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $svcProviderId = null;
@@ -61,6 +67,8 @@ class SystemGetRegistrationContactListRequest extends \CWM\BroadWorksConnector\O
      * @ElementName groupId
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:38787
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;
@@ -69,6 +77,8 @@ class SystemGetRegistrationContactListRequest extends \CWM\BroadWorksConnector\O
      * @ElementName userId
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:38784
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;
@@ -77,6 +87,8 @@ class SystemGetRegistrationContactListRequest extends \CWM\BroadWorksConnector\O
      * @ElementName linePort
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:38784
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $linePort = null;
@@ -95,6 +107,8 @@ class SystemGetRegistrationContactListRequest extends \CWM\BroadWorksConnector\O
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:38783
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $deviceName = null;
@@ -104,6 +118,8 @@ class SystemGetRegistrationContactListRequest extends \CWM\BroadWorksConnector\O
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:38783
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $deviceType = null;

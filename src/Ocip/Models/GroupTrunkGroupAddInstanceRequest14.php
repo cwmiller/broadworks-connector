@@ -21,6 +21,8 @@ class GroupTrunkGroupAddInstanceRequest14 extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName serviceProviderId
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:2086
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -29,6 +31,8 @@ class GroupTrunkGroupAddInstanceRequest14 extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName groupId
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:2086
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;
@@ -37,6 +41,8 @@ class GroupTrunkGroupAddInstanceRequest14 extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName serviceUserId
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:2086
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $serviceUserId = null;
@@ -62,6 +68,7 @@ class GroupTrunkGroupAddInstanceRequest14 extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName maxActiveCalls
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:2086
+     * @MinInclusive 1
      * @var int|null
      */
     private $maxActiveCalls = null;
@@ -71,6 +78,8 @@ class GroupTrunkGroupAddInstanceRequest14 extends \CWM\BroadWorksConnector\Ocip\
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:2086
+     * @MinInclusive 1
+     * @MaxInclusive 999999
      * @var int|null
      */
     private $maxIncomingCalls = null;
@@ -80,6 +89,8 @@ class GroupTrunkGroupAddInstanceRequest14 extends \CWM\BroadWorksConnector\Ocip\
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:2086
+     * @MinInclusive 1
+     * @MaxInclusive 999999
      * @var int|null
      */
     private $maxOutgoingCalls = null;
@@ -97,6 +108,8 @@ class GroupTrunkGroupAddInstanceRequest14 extends \CWM\BroadWorksConnector\Ocip\
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:2086
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $sipAuthenticationUserName = null;
@@ -106,6 +119,8 @@ class GroupTrunkGroupAddInstanceRequest14 extends \CWM\BroadWorksConnector\Ocip\
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:2086
+     * @MinLength 1
+     * @MaxLength 60
      * @var string|null
      */
     private $sipAuthenticationPassword = null;

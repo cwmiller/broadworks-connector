@@ -20,6 +20,8 @@ class SystemAutomaticCollectCallPrefixDigitsGetListRequest extends \CWM\BroadWor
      * @Type string
      * @Optional
      * @Group af1b47d7cab3335a81456e64e42371b0:126
+     * @MaxLength 3
+     * @Pattern [0-9]|[1-9][0-9]{1,2}
      * @var string|null
      */
     private $countryCode = null;

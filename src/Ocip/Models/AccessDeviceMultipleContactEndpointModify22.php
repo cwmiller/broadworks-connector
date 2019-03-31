@@ -28,6 +28,8 @@ class AccessDeviceMultipleContactEndpointModify22
      * @Type string
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:203
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $linePort = null;
@@ -47,6 +49,8 @@ class AccessDeviceMultipleContactEndpointModify22
      * @Type int
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:203
+     * @MinInclusive 1
+     * @MaxInclusive 1024
      * @var int|null
      */
     private $portNumber = null;

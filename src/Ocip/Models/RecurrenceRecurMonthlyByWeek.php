@@ -15,6 +15,8 @@ class RecurrenceRecurMonthlyByWeek
      * @Type int
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:3032
+     * @MinInclusive 1
+     * @MaxInclusive 99
      * @var int|null
      */
     private $recurInterval = null;

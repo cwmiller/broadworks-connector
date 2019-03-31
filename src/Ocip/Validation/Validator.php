@@ -10,6 +10,8 @@ use ReflectionClass;
 class Validator
 {
     /**
+     * Validate instance of object
+     *
      * @param $instance
      * @return bool
      * @throws \InvalidArgumentException
@@ -19,31 +21,8 @@ class Validator
      */
     public static function validate($instance)
     {
-        // Validate any groups on the instance
-        $groups = self::getGroups($instance);
-
-        foreach ($groups as $group) {
-            $group->validate($instance);
-        }
-
-        // Validate any properties set to an object instance
-        $class = new ReflectionClass($instance);
-        foreach ($class->getProperties() as $property) {
-            $property->setAccessible(true);
-            $value = $property->getValue($instance);
-
-            // Enums are technically an object, but we should skip over them.
-            // They already do their own validation on construction.
-            if (is_object($value) && !($value instanceof Enum) && !($value instanceof Nil)) {
-                self::validate($value);
-            } else if (is_array($value)) {
-                foreach ($value as $element) {
-                    if (is_object($element) && !($element instanceof Enum) && !($element instanceof Nil)) {
-                        self::validate($element);
-                    }
-                }
-            }
-        }
+        self::validateGroups($instance);
+        self::validateProperties($instance);
 
         return true;
     }
@@ -64,6 +43,111 @@ class Validator
         }
 
         return self::fromJson($annotations['Groups']);
+    }
+
+    /**
+     * Finds sequence and choice groups on an object and validates them
+     *
+     * @param $instance
+     * @throws ConfigurationNotFoundException
+     * @throws \InvalidArgumentException
+     * @throws \ReflectionException
+     */
+    private static function validateGroups($instance)
+    {
+        $groups = self::getGroups($instance);
+
+        foreach ($groups as $group) {
+            $group->validate($instance);
+        }
+    }
+
+    /**
+     * Validates all properties on an object
+     *
+     * @param $instance
+     * @throws ConfigurationNotFoundException
+     * @throws \InvalidArgumentException
+     * @throws \ReflectionException
+     */
+    private static function validateProperties($instance)
+    {
+        $class = new ReflectionClass($instance);
+        foreach ($class->getProperties() as $property) {
+            $property->setAccessible(true);
+            $value = $property->getValue($instance);
+
+            // Enums are technically an object, but we should skip over them.
+            // They already do their own validation on construction.
+            if (is_object($value) && !($value instanceof Enum) && !($value instanceof Nil)) {
+                self::validate($value);
+            } else if (is_array($value)) {
+                // If value is an array, validate each member individually
+                foreach ($value as $element) {
+                    if (is_object($element) && !($element instanceof Enum) && !($element instanceof Nil)) {
+                        self::validate($element);
+                    }
+                }
+            } else {
+                self::validatePropertyRestrictions($property, $value);
+            }
+        }
+    }
+
+    /**
+     * Validates a property's length, inclusion, and pattern
+     *
+     * @param \ReflectionProperty $property
+     * @param string|int $value
+     * @throws \InvalidArgumentException
+     * @throws \ReflectionException
+     */
+    private static function validatePropertyRestrictions(\ReflectionProperty $property, $value)
+    {
+        $annotations = ReflectionUtils::getAnnotations($property);
+        foreach ($annotations as $annotationKey => $annotationValue) {
+            if ((is_string($value) || is_int($value)) && ($value !== null)) {
+                switch ($annotationKey) {
+                    case 'Length':
+                        $expectedLength = (int)$annotationValue;
+                        if (strlen($value) !== $expectedLength) {
+                            throw new LengthException($property->getName(), strlen($value), $expectedLength);
+                        }
+                        break;
+                    case 'MinLength':
+                        $minLength = (int)$annotationValue;
+                        if (strlen($value) < $minLength) {
+                            throw new MinLengthException($property->getName(), strlen($value), $minLength);
+                        }
+                        break;
+                    case 'MaxLength':
+                        $maxLength = (int)$annotationValue;
+                        if (strlen($value) > $maxLength) {
+                            throw new MaxLengthException($property->getName(), strlen($value), $maxLength);
+                        }
+                        break;
+                    case 'MinInclusive':
+                        $min = (int)$annotationValue;
+                        $value = (int)$value;
+                        if ($value < $min) {
+                            throw new MinInclusiveException($property->getName(), $value, $min);
+                        }
+                        break;
+                    case 'MaxInclusive':
+                        $max = (int)$annotationValue;
+                        $value = (int)$value;
+                        if ($value > $max) {
+                            throw new MaxInclusiveException($property->getName(), $value, $max);
+                        }
+                        break;
+                    case 'Pattern':
+                        if (!preg_match('/^' . $annotationValue . '$/', $value)) {
+                            throw new PatternException($property->getName(), $value, $annotationValue);
+                        }
+                        break;
+                }
+            }
+        }
     }
 
     /**

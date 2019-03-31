@@ -19,6 +19,8 @@ class ServiceProviderAnswerConfirmationModifyRequest16 extends \CWM\BroadWorksCo
      * @ElementName serviceProviderId
      * @Type string
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:1233
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -46,6 +48,8 @@ class ServiceProviderAnswerConfirmationModifyRequest16 extends \CWM\BroadWorksCo
      * @Type int
      * @Optional
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:1233
+     * @MinInclusive 2
+     * @MaxInclusive 30
      * @var int|null
      */
     private $confirmationTimoutSeconds = null;

@@ -18,6 +18,8 @@ class CommPilotExpressProfileMenuKeysModifyEntry
      * @Nillable
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2505
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $activateAvailableInOfficeProfile = null;
@@ -28,6 +30,8 @@ class CommPilotExpressProfileMenuKeysModifyEntry
      * @Nillable
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2505
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $activateAvailableOutOfOfficeProfile = null;
@@ -38,6 +42,8 @@ class CommPilotExpressProfileMenuKeysModifyEntry
      * @Nillable
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2505
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $activateBusyProfile = null;
@@ -48,6 +54,8 @@ class CommPilotExpressProfileMenuKeysModifyEntry
      * @Nillable
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2505
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $activateUnavailableProfile = null;
@@ -58,6 +66,8 @@ class CommPilotExpressProfileMenuKeysModifyEntry
      * @Nillable
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2505
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $noProfile = null;
@@ -67,6 +77,8 @@ class CommPilotExpressProfileMenuKeysModifyEntry
      * @Type string
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2505
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $returnToPreviousMenu = null;
@@ -77,6 +89,8 @@ class CommPilotExpressProfileMenuKeysModifyEntry
      * @Nillable
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2505
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $repeatMenu = null;

@@ -19,6 +19,8 @@ class UserVoiceMessagingUserModifyAdvancedVoiceManagementRequest extends \CWM\Br
      * @ElementName userId
      * @Type string
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1965
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;
@@ -37,6 +39,8 @@ class UserVoiceMessagingUserModifyAdvancedVoiceManagementRequest extends \CWM\Br
      * @Type string
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1965
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $groupMailServerEmailAddress = null;
@@ -46,6 +50,8 @@ class UserVoiceMessagingUserModifyAdvancedVoiceManagementRequest extends \CWM\Br
      * @Type string
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1965
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $groupMailServerUserId = null;
@@ -55,6 +61,8 @@ class UserVoiceMessagingUserModifyAdvancedVoiceManagementRequest extends \CWM\Br
      * @Type string
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1965
+     * @MinLength 1
+     * @MaxLength 60
      * @var string|null
      */
     private $groupMailServerPassword = null;
@@ -80,6 +88,8 @@ class UserVoiceMessagingUserModifyAdvancedVoiceManagementRequest extends \CWM\Br
      * @Type string
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1965
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $personalMailServerNetAddress = null;
@@ -107,6 +117,8 @@ class UserVoiceMessagingUserModifyAdvancedVoiceManagementRequest extends \CWM\Br
      * @Type string
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1965
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $personalMailServerEmailAddress = null;
@@ -116,6 +128,8 @@ class UserVoiceMessagingUserModifyAdvancedVoiceManagementRequest extends \CWM\Br
      * @Type string
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1965
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $personalMailServerUserId = null;
@@ -125,6 +139,8 @@ class UserVoiceMessagingUserModifyAdvancedVoiceManagementRequest extends \CWM\Br
      * @Type string
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1965
+     * @MinLength 1
+     * @MaxLength 60
      * @var string|null
      */
     private $personalMailServerPassword = null;

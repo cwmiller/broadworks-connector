@@ -17,6 +17,8 @@ class UserDisplayNames
      * @ElementName lastName
      * @Type string
      * @Group c0d21ef9ba207c335d8347e5172fce1d:4522
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $lastName = null;
@@ -25,6 +27,8 @@ class UserDisplayNames
      * @ElementName firstName
      * @Type string
      * @Group c0d21ef9ba207c335d8347e5172fce1d:4522
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $firstName = null;
@@ -34,6 +38,8 @@ class UserDisplayNames
      * @Type string
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:4522
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $hiraganaLastName = null;
@@ -43,6 +49,8 @@ class UserDisplayNames
      * @Type string
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:4522
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $hiraganaFirstName = null;

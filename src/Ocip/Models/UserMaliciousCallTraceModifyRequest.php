@@ -19,6 +19,8 @@ class UserMaliciousCallTraceModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName userId
      * @Type string
      * @Group 0da7c658f240cdc10c3f9cb328db57d8:187
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;

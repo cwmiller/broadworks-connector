@@ -71,6 +71,8 @@ class UserCustomRingbackUserGetCriteriaResponse20 extends \CWM\BroadWorksConnect
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:35664
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $audioFileUrl = null;
@@ -97,6 +99,8 @@ class UserCustomRingbackUserGetCriteriaResponse20 extends \CWM\BroadWorksConnect
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:35664
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $videoFileUrl = null;
@@ -124,6 +128,8 @@ class UserCustomRingbackUserGetCriteriaResponse20 extends \CWM\BroadWorksConnect
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:35664
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $callWaitingAudioFileUrl = null;
@@ -151,6 +157,8 @@ class UserCustomRingbackUserGetCriteriaResponse20 extends \CWM\BroadWorksConnect
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:35664
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $callWaitingVideoFileUrl = null;

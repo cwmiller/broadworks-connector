@@ -28,6 +28,8 @@ class GroupAutoAttendantAddInstanceRequest20 extends \CWM\BroadWorksConnector\Oc
      * @ElementName serviceProviderId
      * @Type string
      * @Group ed0640d8ef49eb8b4eaa14d7c6f6c033:66
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -36,6 +38,8 @@ class GroupAutoAttendantAddInstanceRequest20 extends \CWM\BroadWorksConnector\Oc
      * @ElementName groupId
      * @Type string
      * @Group ed0640d8ef49eb8b4eaa14d7c6f6c033:66
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;
@@ -44,6 +48,8 @@ class GroupAutoAttendantAddInstanceRequest20 extends \CWM\BroadWorksConnector\Oc
      * @ElementName serviceUserId
      * @Type string
      * @Group ed0640d8ef49eb8b4eaa14d7c6f6c033:66
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $serviceUserId = null;
@@ -68,6 +74,8 @@ class GroupAutoAttendantAddInstanceRequest20 extends \CWM\BroadWorksConnector\Oc
      * @ElementName firstDigitTimeoutSeconds
      * @Type int
      * @Group ed0640d8ef49eb8b4eaa14d7c6f6c033:66
+     * @MinInclusive 1
+     * @MaxInclusive 60
      * @var int|null
      */
     private $firstDigitTimeoutSeconds = null;
@@ -154,6 +162,8 @@ class GroupAutoAttendantAddInstanceRequest20 extends \CWM\BroadWorksConnector\Oc
      * @Type string
      * @Optional
      * @Group ed0640d8ef49eb8b4eaa14d7c6f6c033:66
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $networkClassOfService = null;

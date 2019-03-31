@@ -17,6 +17,8 @@ class FindMeFollowMeAlertingGroupReplacementOutgoingDNSIPURIorUserIdList
      * @ElementName phoneNumber
      * @Type string
      * @Group 79f226053ee345f2ff4c37c37c8e9114:518
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $phoneNumber = null;
@@ -25,6 +27,8 @@ class FindMeFollowMeAlertingGroupReplacementOutgoingDNSIPURIorUserIdList
      * @ElementName userId
      * @Type string
      * @Group 79f226053ee345f2ff4c37c37c8e9114:518
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;

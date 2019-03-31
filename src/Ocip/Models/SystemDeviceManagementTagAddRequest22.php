@@ -32,6 +32,8 @@ class SystemDeviceManagementTagAddRequest22 extends \CWM\BroadWorksConnector\Oci
      * @ElementName tagSetName
      * @Type string
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7253
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $tagSetName = null;
@@ -40,6 +42,8 @@ class SystemDeviceManagementTagAddRequest22 extends \CWM\BroadWorksConnector\Oci
      * @ElementName tagName
      * @Type string
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7252
+     * @MinLength 1
+     * @MaxLength 64
      * @var string|null
      */
     private $tagName = null;
@@ -57,6 +61,8 @@ class SystemDeviceManagementTagAddRequest22 extends \CWM\BroadWorksConnector\Oci
      * @Type string
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7259
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $tagValue = null;
@@ -66,6 +72,8 @@ class SystemDeviceManagementTagAddRequest22 extends \CWM\BroadWorksConnector\Oci
      * @Type string
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7259
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $tagValueToEncrypt = null;

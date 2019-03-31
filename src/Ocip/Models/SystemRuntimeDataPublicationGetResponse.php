@@ -29,6 +29,8 @@ class SystemRuntimeDataPublicationGetResponse extends \CWM\BroadWorksConnector\O
      * @ElementName runtimeDataSyncIntervalInMilliSeconds
      * @Type int
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14448
+     * @MinInclusive 500
+     * @MaxInclusive 360000
      * @var int|null
      */
     private $runtimeDataSyncIntervalInMilliSeconds = null;

@@ -25,6 +25,8 @@ class SystemPreferredCarrierModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName carrier
      * @Type string
      * @Group 74a46a9bfccb54713c1d19735843f1df:515
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $carrier = null;
@@ -34,6 +36,8 @@ class SystemPreferredCarrierModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @Type string
      * @Optional
      * @Group 74a46a9bfccb54713c1d19735843f1df:515
+     * @MinLength 1
+     * @MaxLength 6
      * @var string|null
      */
     private $cic = null;
@@ -43,6 +47,8 @@ class SystemPreferredCarrierModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @Type string
      * @Optional
      * @Group 74a46a9bfccb54713c1d19735843f1df:515
+     * @MaxLength 3
+     * @Pattern [0-9]|[1-9][0-9]{1,2}
      * @var string|null
      */
     private $countryCode = null;

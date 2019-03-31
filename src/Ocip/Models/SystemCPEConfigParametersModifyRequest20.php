@@ -32,6 +32,8 @@ class SystemCPEConfigParametersModifyRequest20 extends \CWM\BroadWorksConnector\
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:34636
+     * @MinInclusive 1
+     * @MaxInclusive 600
      * @var int|null
      */
     private $ftpConnectTimeoutSeconds = null;
@@ -41,6 +43,8 @@ class SystemCPEConfigParametersModifyRequest20 extends \CWM\BroadWorksConnector\
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:34636
+     * @MinInclusive 1
+     * @MaxInclusive 600
      * @var int|null
      */
     private $ftpFileTransferTimeoutSeconds = null;
@@ -50,6 +54,8 @@ class SystemCPEConfigParametersModifyRequest20 extends \CWM\BroadWorksConnector\
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:34636
+     * @MinInclusive
+     * @MaxInclusive 10000
      * @var int|null
      */
     private $pauseBetweenFileRebuildMilliseconds = null;
@@ -59,6 +65,8 @@ class SystemCPEConfigParametersModifyRequest20 extends \CWM\BroadWorksConnector\
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:34636
+     * @MinInclusive 1
+     * @MaxInclusive 1440
      * @var int|null
      */
     private $maxBusyTimeMinutes = null;
@@ -69,6 +77,8 @@ class SystemCPEConfigParametersModifyRequest20 extends \CWM\BroadWorksConnector\
      * @Nillable
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:34636
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $deviceAccessAppServerClusterName = null;

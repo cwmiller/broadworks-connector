@@ -17,6 +17,8 @@ class SystemSubscriberGetLoginParametersResponse extends \CWM\BroadWorksConnecto
      * @ElementName maxFailedLoginAttempts
      * @Type int
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17051
+     * @MinInclusive 1
+     * @MaxInclusive 1000
      * @var int|null
      */
     private $maxFailedLoginAttempts = null;
@@ -25,6 +27,8 @@ class SystemSubscriberGetLoginParametersResponse extends \CWM\BroadWorksConnecto
      * @ElementName minLoginIdLength
      * @Type int
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17051
+     * @MinInclusive 2
+     * @MaxInclusive 80
      * @var int|null
      */
     private $minLoginIdLength = null;

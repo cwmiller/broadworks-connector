@@ -28,6 +28,8 @@ class SystemSIPDeviceTypeAddRequest18sp1V2 extends \CWM\BroadWorksConnector\Ocip
      * @ElementName deviceType
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:26530
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $deviceType = null;
@@ -141,6 +143,8 @@ class SystemSIPDeviceTypeAddRequest18sp1V2 extends \CWM\BroadWorksConnector\Ocip
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:26530
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $webBasedConfigURL = null;

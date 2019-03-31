@@ -18,6 +18,8 @@ class SystemAdviceOfChargeCostInformationSourceAddRequest extends \CWM\BroadWork
      * @ElementName peerIdentity
      * @Type string
      * @Group a69fde15f3aa7494d83b57461a7a70bb:154
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $peerIdentity = null;
@@ -26,6 +28,8 @@ class SystemAdviceOfChargeCostInformationSourceAddRequest extends \CWM\BroadWork
      * @ElementName priority
      * @Type int
      * @Group a69fde15f3aa7494d83b57461a7a70bb:154
+     * @MinInclusive
+     * @MaxInclusive 9
      * @var int|null
      */
     private $priority = null;

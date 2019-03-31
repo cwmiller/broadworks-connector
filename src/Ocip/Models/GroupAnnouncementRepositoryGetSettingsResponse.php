@@ -44,6 +44,8 @@ class GroupAnnouncementRepositoryGetSettingsResponse extends \CWM\BroadWorksConn
      * @ElementName maxFileSize
      * @Type int
      * @Group f3a93cf15de4abd7903673e44ee3e07b:1616
+     * @MinInclusive 1
+     * @MaxInclusive 999999
      * @var int|null
      */
     private $maxFileSize = null;

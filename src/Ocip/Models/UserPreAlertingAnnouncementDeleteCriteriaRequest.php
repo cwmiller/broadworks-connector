@@ -19,6 +19,8 @@ class UserPreAlertingAnnouncementDeleteCriteriaRequest extends \CWM\BroadWorksCo
      * @ElementName userId
      * @Type string
      * @Group 6165f2b4cd549de71fe8f3171488fdd8:202
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;
@@ -27,6 +29,8 @@ class UserPreAlertingAnnouncementDeleteCriteriaRequest extends \CWM\BroadWorksCo
      * @ElementName criteriaName
      * @Type string
      * @Group 6165f2b4cd549de71fe8f3171488fdd8:202
+     * @MinLength 1
+     * @MaxLength 50
      * @var string|null
      */
     private $criteriaName = null;

@@ -19,6 +19,8 @@ class GroupDeviceTypeFileModifyRequest14sp8 extends \CWM\BroadWorksConnector\Oci
      * @ElementName serviceProviderId
      * @Type string
      * @Group f3a93cf15de4abd7903673e44ee3e07b:3566
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,6 +29,8 @@ class GroupDeviceTypeFileModifyRequest14sp8 extends \CWM\BroadWorksConnector\Oci
      * @ElementName groupId
      * @Type string
      * @Group f3a93cf15de4abd7903673e44ee3e07b:3566
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;
@@ -35,6 +39,8 @@ class GroupDeviceTypeFileModifyRequest14sp8 extends \CWM\BroadWorksConnector\Oci
      * @ElementName deviceType
      * @Type string
      * @Group f3a93cf15de4abd7903673e44ee3e07b:3566
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $deviceType = null;
@@ -43,6 +49,8 @@ class GroupDeviceTypeFileModifyRequest14sp8 extends \CWM\BroadWorksConnector\Oci
      * @ElementName fileFormat
      * @Type string
      * @Group f3a93cf15de4abd7903673e44ee3e07b:3566
+     * @MinLength 1
+     * @MaxLength 128
      * @var string|null
      */
     private $fileFormat = null;

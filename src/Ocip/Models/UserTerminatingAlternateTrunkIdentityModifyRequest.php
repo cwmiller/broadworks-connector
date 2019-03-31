@@ -19,6 +19,8 @@ class UserTerminatingAlternateTrunkIdentityModifyRequest extends \CWM\BroadWorks
      * @ElementName userId
      * @Type string
      * @Group 53d18cc797d03d802cbc411ad821f1d4:4007
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;
@@ -29,6 +31,8 @@ class UserTerminatingAlternateTrunkIdentityModifyRequest extends \CWM\BroadWorks
      * @Nillable
      * @Optional
      * @Group 53d18cc797d03d802cbc411ad821f1d4:4007
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $terminatingTrunkIdentity = null;

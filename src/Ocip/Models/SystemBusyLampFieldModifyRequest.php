@@ -57,6 +57,8 @@ class SystemBusyLampFieldModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Type int
      * @Optional
      * @Group 4faeca417998d23ce2ff6b0b43212aa6:129
+     * @MinInclusive 10000
+     * @MaxInclusive 180000
      * @var int|null
      */
     private $redundancyTaskDelayMilliseconds = null;
@@ -66,6 +68,8 @@ class SystemBusyLampFieldModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Type int
      * @Optional
      * @Group 4faeca417998d23ce2ff6b0b43212aa6:129
+     * @MinInclusive 50
+     * @MaxInclusive 20000
      * @var int|null
      */
     private $redundancyTaskIntervalMilliseconds = null;
@@ -75,6 +79,8 @@ class SystemBusyLampFieldModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Type int
      * @Optional
      * @Group 4faeca417998d23ce2ff6b0b43212aa6:129
+     * @MinInclusive 1
+     * @MaxInclusive 50000
      * @var int|null
      */
     private $maxNumberOfSubscriptionsPerRedundancyTaskInterval = null;

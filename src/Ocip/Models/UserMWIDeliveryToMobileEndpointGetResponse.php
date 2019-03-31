@@ -26,6 +26,8 @@ class UserMWIDeliveryToMobileEndpointGetResponse extends \CWM\BroadWorksConnecto
      * @Type string
      * @Optional
      * @Group 958b78cc2a785d78259c1e8a474eb40d:367
+     * @MinLength 1
+     * @MaxLength 23
      * @var string|null
      */
     private $mobilePhoneNumber = null;

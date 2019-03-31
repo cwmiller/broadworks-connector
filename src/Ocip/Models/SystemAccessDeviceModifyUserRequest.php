@@ -21,6 +21,8 @@ class SystemAccessDeviceModifyUserRequest extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName deviceName
      * @Type string
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1116
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $deviceName = null;
@@ -29,6 +31,8 @@ class SystemAccessDeviceModifyUserRequest extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName linePort
      * @Type string
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1116
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $linePort = null;
@@ -38,6 +42,8 @@ class SystemAccessDeviceModifyUserRequest extends \CWM\BroadWorksConnector\Ocip\
      * @Type string
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1116
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $privateIdentity = null;

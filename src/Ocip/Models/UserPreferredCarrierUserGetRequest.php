@@ -19,6 +19,8 @@ class UserPreferredCarrierUserGetRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName userId
      * @Type string
      * @Group 74a46a9bfccb54713c1d19735843f1df:536
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;

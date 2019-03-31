@@ -19,6 +19,8 @@ class GroupServiceInstancePrivacyModifyRequest extends \CWM\BroadWorksConnector\
      * @ElementName serviceUserId
      * @Type string
      * @Group b87b6355d5858fdbeb8c1eb05dc1651a:79
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $serviceUserId = null;

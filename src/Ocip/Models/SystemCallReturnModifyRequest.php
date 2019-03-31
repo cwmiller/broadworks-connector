@@ -48,6 +48,8 @@ class SystemCallReturnModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @Nillable
      * @Optional
      * @Group ca38ce43363a73a1079bbf73920b7a45:76
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $confirmationKey = null;

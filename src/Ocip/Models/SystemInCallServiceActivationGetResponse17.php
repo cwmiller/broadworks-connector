@@ -17,6 +17,8 @@ class SystemInCallServiceActivationGetResponse17 extends \CWM\BroadWorksConnecto
      * @ElementName defaultFlashActivationDigits
      * @Type string
      * @Group ece0b65e69189d3e8b8deee895f0a7ff:107
+     * @MinLength 1
+     * @MaxLength 8
      * @var string|null
      */
     private $defaultFlashActivationDigits = null;
@@ -25,6 +27,8 @@ class SystemInCallServiceActivationGetResponse17 extends \CWM\BroadWorksConnecto
      * @ElementName defaultCallTransferActivationDigits
      * @Type string
      * @Group ece0b65e69189d3e8b8deee895f0a7ff:107
+     * @MinLength 1
+     * @MaxLength 8
      * @var string|null
      */
     private $defaultCallTransferActivationDigits = null;

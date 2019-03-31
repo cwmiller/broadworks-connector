@@ -18,6 +18,8 @@ class SystemPreferredCarrierGetResponse extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName cic
      * @Type string
      * @Group 74a46a9bfccb54713c1d19735843f1df:448
+     * @MinLength 1
+     * @MaxLength 6
      * @var string|null
      */
     private $cic = null;
@@ -26,6 +28,8 @@ class SystemPreferredCarrierGetResponse extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName countryCode
      * @Type string
      * @Group 74a46a9bfccb54713c1d19735843f1df:448
+     * @MaxLength 3
+     * @Pattern [0-9]|[1-9][0-9]{1,2}
      * @var string|null
      */
     private $countryCode = null;

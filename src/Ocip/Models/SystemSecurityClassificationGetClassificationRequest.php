@@ -19,6 +19,8 @@ class SystemSecurityClassificationGetClassificationRequest extends \CWM\BroadWor
      * @ElementName securityClassificationName
      * @Type string
      * @Group 6b3afea8308b7fdaab8d385357ca9c2d:135
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $securityClassificationName = null;

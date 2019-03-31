@@ -36,6 +36,8 @@ class ConsolidatedSharedCallAppearanceAccessDeviceMultipleIdentityEndpoint
      * @ElementName linePort
      * @Type string
      * @Group c0d21ef9ba207c335d8347e5172fce1d:1581
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $linePort = null;
@@ -45,6 +47,8 @@ class ConsolidatedSharedCallAppearanceAccessDeviceMultipleIdentityEndpoint
      * @Type string
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:1581
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $privateIdentity = null;
@@ -54,6 +58,8 @@ class ConsolidatedSharedCallAppearanceAccessDeviceMultipleIdentityEndpoint
      * @Type string
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:1581
+     * @MinLength 1
+     * @MaxLength 1020
      * @var string|null
      */
     private $contact = null;
@@ -63,6 +69,8 @@ class ConsolidatedSharedCallAppearanceAccessDeviceMultipleIdentityEndpoint
      * @Type int
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:1581
+     * @MinInclusive 1
+     * @MaxInclusive 1024
      * @var int|null
      */
     private $portNumber = null;
@@ -96,6 +104,8 @@ class ConsolidatedSharedCallAppearanceAccessDeviceMultipleIdentityEndpoint
      * @Type string
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:1581
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $deviceType = null;
@@ -105,6 +115,8 @@ class ConsolidatedSharedCallAppearanceAccessDeviceMultipleIdentityEndpoint
      * @Type string
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:1581
+     * @MinLength 1
+     * @MaxLength 20
      * @var string|null
      */
     private $protocol = null;
@@ -114,6 +126,8 @@ class ConsolidatedSharedCallAppearanceAccessDeviceMultipleIdentityEndpoint
      * @Type string
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:1581
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $netAddress = null;
@@ -123,6 +137,8 @@ class ConsolidatedSharedCallAppearanceAccessDeviceMultipleIdentityEndpoint
      * @Type int
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:1581
+     * @MinInclusive 1025
+     * @MaxInclusive 65535
      * @var int|null
      */
     private $port = null;
@@ -132,6 +148,8 @@ class ConsolidatedSharedCallAppearanceAccessDeviceMultipleIdentityEndpoint
      * @Type string
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:1581
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $outboundProxyServerNetAddress = null;
@@ -141,6 +159,8 @@ class ConsolidatedSharedCallAppearanceAccessDeviceMultipleIdentityEndpoint
      * @Type string
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:1581
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $stunServerNetAddress = null;
@@ -150,6 +170,8 @@ class ConsolidatedSharedCallAppearanceAccessDeviceMultipleIdentityEndpoint
      * @Type string
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:1581
+     * @MinLength 1
+     * @MaxLength 12
      * @var string|null
      */
     private $macAddress = null;
@@ -159,6 +181,8 @@ class ConsolidatedSharedCallAppearanceAccessDeviceMultipleIdentityEndpoint
      * @Type string
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:1581
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $serialNumber = null;
@@ -168,6 +192,8 @@ class ConsolidatedSharedCallAppearanceAccessDeviceMultipleIdentityEndpoint
      * @Type string
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:1581
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $description = null;
@@ -177,6 +203,8 @@ class ConsolidatedSharedCallAppearanceAccessDeviceMultipleIdentityEndpoint
      * @Type string
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:1581
+     * @MinLength 1
+     * @MaxLength 1024
      * @var string|null
      */
     private $physicalLocation = null;

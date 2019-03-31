@@ -15,6 +15,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PlayMessagesMenuKeys
      * @Type string
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:905
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $saveMessage = null;
@@ -24,6 +26,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PlayMessagesMenuKeys
      * @Type string
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:905
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $deleteMessage = null;
@@ -33,6 +37,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PlayMessagesMenuKeys
      * @Type string
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:905
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $playMessage = null;
@@ -42,6 +48,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PlayMessagesMenuKeys
      * @Type string
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:905
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $previousMessage = null;
@@ -51,6 +59,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PlayMessagesMenuKeys
      * @Type string
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:905
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $playEnvelope = null;
@@ -60,6 +70,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PlayMessagesMenuKeys
      * @Type string
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:905
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $nextMessage = null;
@@ -69,6 +81,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PlayMessagesMenuKeys
      * @Type string
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:905
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $callbackCaller = null;
@@ -78,6 +92,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PlayMessagesMenuKeys
      * @Type string
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:905
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $composeMessage = null;
@@ -87,6 +103,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PlayMessagesMenuKeys
      * @Type string
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:905
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $replyMessage = null;
@@ -96,6 +114,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PlayMessagesMenuKeys
      * @Type string
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:905
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $forwardMessage = null;
@@ -105,6 +125,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PlayMessagesMenuKeys
      * @Type string
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:905
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $additionalMessageOptions = null;
@@ -114,6 +136,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PlayMessagesMenuKeys
      * @Type string
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:905
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $personalizedName = null;
@@ -123,6 +147,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PlayMessagesMenuKeys
      * @Type string
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:905
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $passcode = null;
@@ -131,6 +157,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PlayMessagesMenuKeys
      * @ElementName returnToPreviousMenu
      * @Type string
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:905
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $returnToPreviousMenu = null;
@@ -140,6 +168,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PlayMessagesMenuKeys
      * @Type string
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:905
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $repeatMenu = null;

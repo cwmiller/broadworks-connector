@@ -19,6 +19,8 @@ class UserBroadWorksAnywhereAddPhoneNumberRequest extends \CWM\BroadWorksConnect
      * @ElementName userId
      * @Type string
      * @Group 72f634ecc58842ce9d362ca629a47ea9:263
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;
@@ -27,6 +29,8 @@ class UserBroadWorksAnywhereAddPhoneNumberRequest extends \CWM\BroadWorksConnect
      * @ElementName phoneNumber
      * @Type string
      * @Group 72f634ecc58842ce9d362ca629a47ea9:263
+     * @MinLength 1
+     * @MaxLength 23
      * @var string|null
      */
     private $phoneNumber = null;
@@ -36,6 +40,8 @@ class UserBroadWorksAnywhereAddPhoneNumberRequest extends \CWM\BroadWorksConnect
      * @Type string
      * @Optional
      * @Group 72f634ecc58842ce9d362ca629a47ea9:263
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $description = null;
@@ -53,6 +59,8 @@ class UserBroadWorksAnywhereAddPhoneNumberRequest extends \CWM\BroadWorksConnect
      * @Type string
      * @Optional
      * @Group 72f634ecc58842ce9d362ca629a47ea9:263
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $outboundAlternateNumber = null;

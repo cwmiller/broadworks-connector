@@ -28,6 +28,8 @@ class GroupVoiceMessagingGroupGetVoicePortalBrandingResponse extends \CWM\BroadW
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:9434
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $voicePortalGreetingFileDescription = null;
@@ -45,6 +47,8 @@ class GroupVoiceMessagingGroupGetVoicePortalBrandingResponse extends \CWM\BroadW
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:9434
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $voiceMessagingGreetingFileDescription = null;

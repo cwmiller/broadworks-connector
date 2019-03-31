@@ -32,6 +32,7 @@ class LoginResponse22V3 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRe
      * @ElementName locale
      * @Type string
      * @Group 6b27fcc79475236456fc113a42b75543:377
+     * @MaxLength 5
      * @var string|null
      */
     private $locale = null;
@@ -40,6 +41,8 @@ class LoginResponse22V3 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRe
      * @ElementName encoding
      * @Type string
      * @Group 6b27fcc79475236456fc113a42b75543:377
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $encoding = null;
@@ -49,6 +52,8 @@ class LoginResponse22V3 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRe
      * @Type string
      * @Optional
      * @Group 6b27fcc79475236456fc113a42b75543:377
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;
@@ -58,6 +63,8 @@ class LoginResponse22V3 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRe
      * @Type string
      * @Optional
      * @Group 6b27fcc79475236456fc113a42b75543:377
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -83,6 +90,8 @@ class LoginResponse22V3 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRe
      * @ElementName userDomain
      * @Type string
      * @Group 6b27fcc79475236456fc113a42b75543:377
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $userDomain = null;
@@ -92,6 +101,8 @@ class LoginResponse22V3 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRe
      * @Type string
      * @Optional
      * @Group 6b27fcc79475236456fc113a42b75543:377
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $resellerId = null;

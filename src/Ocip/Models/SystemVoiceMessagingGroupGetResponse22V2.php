@@ -71,6 +71,8 @@ class SystemVoiceMessagingGroupGetResponse22V2 extends \CWM\BroadWorksConnector\
      * @ElementName maxMessageLengthMinutes
      * @Type int
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:629
+     * @MinInclusive 1
+     * @MaxInclusive 10
      * @var int|null
      */
     private $maxMessageLengthMinutes = null;
@@ -104,6 +106,8 @@ class SystemVoiceMessagingGroupGetResponse22V2 extends \CWM\BroadWorksConnector\
      * @Type string
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:629
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $mailServerNetAddress = null;
@@ -120,6 +124,8 @@ class SystemVoiceMessagingGroupGetResponse22V2 extends \CWM\BroadWorksConnector\
      * @ElementName defaultDeliveryFromAddress
      * @Type string
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:629
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $defaultDeliveryFromAddress = null;
@@ -128,6 +134,8 @@ class SystemVoiceMessagingGroupGetResponse22V2 extends \CWM\BroadWorksConnector\
      * @ElementName defaultNotificationFromAddress
      * @Type string
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:629
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $defaultNotificationFromAddress = null;
@@ -136,6 +144,8 @@ class SystemVoiceMessagingGroupGetResponse22V2 extends \CWM\BroadWorksConnector\
      * @ElementName defaultVoicePortalLockoutFromAddress
      * @Type string
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:629
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $defaultVoicePortalLockoutFromAddress = null;
@@ -152,6 +162,8 @@ class SystemVoiceMessagingGroupGetResponse22V2 extends \CWM\BroadWorksConnector\
      * @ElementName mwiDelayInSeconds
      * @Type int
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:629
+     * @MinInclusive
+     * @MaxInclusive 300
      * @var int|null
      */
     private $mwiDelayInSeconds = null;
@@ -193,6 +205,8 @@ class SystemVoiceMessagingGroupGetResponse22V2 extends \CWM\BroadWorksConnector\
      * @Type string
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:629
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $defaultExternalRoutingAddress = null;
@@ -209,6 +223,8 @@ class SystemVoiceMessagingGroupGetResponse22V2 extends \CWM\BroadWorksConnector\
      * @ElementName clientInitiatedMailServerSessionTimeoutMinutes
      * @Type int
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:629
+     * @MinInclusive 1
+     * @MaxInclusive 10
      * @var int|null
      */
     private $clientInitiatedMailServerSessionTimeoutMinutes = null;
@@ -242,6 +258,8 @@ class SystemVoiceMessagingGroupGetResponse22V2 extends \CWM\BroadWorksConnector\
      * @Type string
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:629
+     * @MinLength 3
+     * @MaxLength 256
      * @var string|null
      */
     private $vmBucketName = null;

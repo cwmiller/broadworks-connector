@@ -18,6 +18,8 @@ class StreetAddress
      * @Nillable
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:4015
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $addressLine1 = null;
@@ -28,6 +30,8 @@ class StreetAddress
      * @Nillable
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:4015
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $addressLine2 = null;
@@ -38,6 +42,8 @@ class StreetAddress
      * @Nillable
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:4015
+     * @MinLength 1
+     * @MaxLength 50
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $city = null;
@@ -48,6 +54,8 @@ class StreetAddress
      * @Nillable
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:4015
+     * @MinLength 1
+     * @MaxLength 50
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $stateOrProvince = null;
@@ -57,6 +65,8 @@ class StreetAddress
      * @Type string
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:4015
+     * @MinLength 1
+     * @MaxLength 50
      * @var string|null
      */
     private $stateOrProvinceDisplayName = null;
@@ -67,6 +77,8 @@ class StreetAddress
      * @Nillable
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:4015
+     * @MinLength 1
+     * @MaxLength 50
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $zipOrPostalCode = null;
@@ -77,6 +89,8 @@ class StreetAddress
      * @Nillable
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:4015
+     * @MinLength 1
+     * @MaxLength 50
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $country = null;

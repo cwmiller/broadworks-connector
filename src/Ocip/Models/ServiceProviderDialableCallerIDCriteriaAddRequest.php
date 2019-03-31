@@ -18,6 +18,8 @@ class ServiceProviderDialableCallerIDCriteriaAddRequest extends \CWM\BroadWorksC
      * @ElementName serviceProviderId
      * @Type string
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:2718
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,6 +28,8 @@ class ServiceProviderDialableCallerIDCriteriaAddRequest extends \CWM\BroadWorksC
      * @ElementName name
      * @Type string
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:2718
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $name = null;
@@ -35,6 +39,8 @@ class ServiceProviderDialableCallerIDCriteriaAddRequest extends \CWM\BroadWorksC
      * @Type string
      * @Optional
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:2718
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $description = null;
@@ -44,6 +50,8 @@ class ServiceProviderDialableCallerIDCriteriaAddRequest extends \CWM\BroadWorksC
      * @Type string
      * @Optional
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:2718
+     * @MinLength 1
+     * @MaxLength 10
      * @var string|null
      */
     private $prefixDigits = null;
@@ -54,6 +62,8 @@ class ServiceProviderDialableCallerIDCriteriaAddRequest extends \CWM\BroadWorksC
      * @Array
      * @Optional
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:2718
+     * @MinLength 1
+     * @MaxLength 40
      * @var string[]
      */
     private $matchCallType = array(
@@ -66,6 +76,8 @@ class ServiceProviderDialableCallerIDCriteriaAddRequest extends \CWM\BroadWorksC
      * @Array
      * @Optional
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:2718
+     * @MinLength 1
+     * @MaxLength 40
      * @var string[]
      */
     private $matchAlternateCallIndicator = array(

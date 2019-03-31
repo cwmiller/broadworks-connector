@@ -20,6 +20,8 @@ class UserCallForwardingAlwaysGetRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName userId
      * @Type string
      * @Group 97105b92fc80f353d25e39a7ecc8e22f:44
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;

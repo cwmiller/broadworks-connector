@@ -19,6 +19,8 @@ class SystemZoneDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @ElementName zoneName
      * @Type string
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18273
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $zoneName = null;

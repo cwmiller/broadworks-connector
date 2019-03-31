@@ -19,6 +19,8 @@ class GroupFlexibleSeatingHostRoutingPoliciesModifyRequest extends \CWM\BroadWor
      * @ElementName serviceUserId
      * @Type string
      * @Group 43afb2158d313a1d1a148124d7caba1e:421
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $serviceUserId = null;

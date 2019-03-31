@@ -18,6 +18,8 @@ class GroupCommunicationBarringAuthorizationCodeGetResponse extends \CWM\BroadWo
      * @Type string
      * @Optional
      * @Group f3a93cf15de4abd7903673e44ee3e07b:2441
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $description = null;
@@ -27,6 +29,8 @@ class GroupCommunicationBarringAuthorizationCodeGetResponse extends \CWM\BroadWo
      * @Type string
      * @Optional
      * @Group f3a93cf15de4abd7903673e44ee3e07b:2441
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $networkClassOfService = null;

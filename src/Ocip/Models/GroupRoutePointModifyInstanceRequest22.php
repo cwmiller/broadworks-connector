@@ -19,6 +19,8 @@ class GroupRoutePointModifyInstanceRequest22 extends \CWM\BroadWorksConnector\Oc
      * @ElementName serviceUserId
      * @Type string
      * @Group a27224a048c30ff69eab9209dec841cc:902
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $serviceUserId = null;
@@ -37,6 +39,8 @@ class GroupRoutePointModifyInstanceRequest22 extends \CWM\BroadWorksConnector\Oc
      * @Type string
      * @Optional
      * @Group a27224a048c30ff69eab9209dec841cc:902
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $networkClassOfService = null;
@@ -64,6 +68,8 @@ class GroupRoutePointModifyInstanceRequest22 extends \CWM\BroadWorksConnector\Oc
      * @Type int
      * @Optional
      * @Group a27224a048c30ff69eab9209dec841cc:902
+     * @MinInclusive
+     * @MaxInclusive 525
      * @var int|null
      */
     private $queueLength = null;
@@ -73,6 +79,8 @@ class GroupRoutePointModifyInstanceRequest22 extends \CWM\BroadWorksConnector\Oc
      * @Type int
      * @Optional
      * @Group a27224a048c30ff69eab9209dec841cc:902
+     * @MinInclusive 2
+     * @MaxInclusive 20
      * @var int|null
      */
     private $noAnswerTimeoutRings = null;
@@ -110,6 +118,8 @@ class GroupRoutePointModifyInstanceRequest22 extends \CWM\BroadWorksConnector\Oc
      * @Nillable
      * @Optional
      * @Group a27224a048c30ff69eab9209dec841cc:902
+     * @MinInclusive 1
+     * @MaxInclusive 3600
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $wrapUpSeconds = null;
@@ -138,6 +148,8 @@ class GroupRoutePointModifyInstanceRequest22 extends \CWM\BroadWorksConnector\Oc
      * @Nillable
      * @Optional
      * @Group a27224a048c30ff69eab9209dec841cc:902
+     * @MinLength 1
+     * @MaxLength 10
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $agentUnavailableCode = null;
@@ -157,6 +169,8 @@ class GroupRoutePointModifyInstanceRequest22 extends \CWM\BroadWorksConnector\Oc
      * @Nillable
      * @Optional
      * @Group a27224a048c30ff69eab9209dec841cc:902
+     * @MinInclusive 1
+     * @MaxInclusive 10
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $forceDeliveryWaitTimeSeconds = null;

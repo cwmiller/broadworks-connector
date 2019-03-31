@@ -20,6 +20,8 @@ class UserCallForwardingNotReachableGetRequest extends \CWM\BroadWorksConnector\
      * @ElementName userId
      * @Type string
      * @Group 894e3bfe658bf9c3ec06aa2fd09fdd43:44
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;

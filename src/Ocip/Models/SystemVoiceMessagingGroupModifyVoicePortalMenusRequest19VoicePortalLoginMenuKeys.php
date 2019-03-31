@@ -16,6 +16,9 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19VoicePortalLoginMe
      * @Nillable
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1574
+     * @MinLength 1
+     * @MaxLength 3
+     * @Pattern ([0-9]|\*|#){0,3}
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $accessUsingOtherMailboxId = null;

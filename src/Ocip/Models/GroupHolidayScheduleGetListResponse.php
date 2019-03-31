@@ -20,6 +20,8 @@ class GroupHolidayScheduleGetListResponse extends \CWM\BroadWorksConnector\Ocip\
      * @Array
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:13722
+     * @MinLength 1
+     * @MaxLength 40
      * @var string[]
      */
     private $holidayScheduleName = array(

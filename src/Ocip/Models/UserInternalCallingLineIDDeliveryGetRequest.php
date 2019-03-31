@@ -20,6 +20,8 @@ class UserInternalCallingLineIDDeliveryGetRequest extends \CWM\BroadWorksConnect
      * @ElementName userId
      * @Type string
      * @Group 7230ce25187ba26cc29fe67d7389f945:44
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;

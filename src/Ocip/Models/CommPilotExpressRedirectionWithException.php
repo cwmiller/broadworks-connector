@@ -26,6 +26,8 @@ class CommPilotExpressRedirectionWithException
      * @Type string
      * @Optional
      * @Group 8c204d784d1904d9eeea996d46de69be:228
+     * @MinLength 1
+     * @MaxLength 23
      * @var string|null
      */
     private $excludedPhoneNumber01 = null;
@@ -35,6 +37,8 @@ class CommPilotExpressRedirectionWithException
      * @Type string
      * @Optional
      * @Group 8c204d784d1904d9eeea996d46de69be:228
+     * @MinLength 1
+     * @MaxLength 23
      * @var string|null
      */
     private $excludedPhoneNumber02 = null;
@@ -44,6 +48,8 @@ class CommPilotExpressRedirectionWithException
      * @Type string
      * @Optional
      * @Group 8c204d784d1904d9eeea996d46de69be:228
+     * @MinLength 1
+     * @MaxLength 23
      * @var string|null
      */
     private $excludedPhoneNumber03 = null;
@@ -53,6 +59,8 @@ class CommPilotExpressRedirectionWithException
      * @Type string
      * @Optional
      * @Group 8c204d784d1904d9eeea996d46de69be:228
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $forwardExcludedNumbersTo = null;

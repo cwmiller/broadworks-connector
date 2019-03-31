@@ -27,6 +27,8 @@ class SystemBwDiameterRoutingRealmDeleteRequest extends \CWM\BroadWorksConnector
      * @ElementName realm
      * @Type string
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2552
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $realm = null;

@@ -16,6 +16,8 @@ class SearchCriteriaExactPortNumber extends SearchCriteria
      * @ElementName port
      * @Type int
      * @Group f0ada2681ca347fa83b464734259b304:1060
+     * @MinInclusive 1
+     * @MaxInclusive 1024
      * @var int|null
      */
     private $port = null;

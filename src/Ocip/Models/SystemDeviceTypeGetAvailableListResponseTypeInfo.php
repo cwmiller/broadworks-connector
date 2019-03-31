@@ -31,6 +31,8 @@ class SystemDeviceTypeGetAvailableListResponseTypeInfo
      * @Type string
      * @Array
      * @Group ab0042aa512abc10edb3c55e4b416b0b:4982
+     * @MinLength 1
+     * @MaxLength 20
      * @var string[]
      */
     private $protocolChoice = array(

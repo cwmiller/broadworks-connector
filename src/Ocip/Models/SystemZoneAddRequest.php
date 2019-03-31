@@ -19,6 +19,8 @@ class SystemZoneAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReq
      * @ElementName zoneName
      * @Type string
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18205
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $zoneName = null;
@@ -29,6 +31,8 @@ class SystemZoneAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReq
      * @Array
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18205
+     * @MinLength 1
+     * @MaxLength 39
      * @var string[]
      */
     private $netAddress = array(
@@ -53,6 +57,8 @@ class SystemZoneAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReq
      * @Array
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18205
+     * @MinLength 1
+     * @MaxLength 1024
      * @var string[]
      */
     private $locationBasedPhysicalLocation = array(
@@ -64,6 +70,8 @@ class SystemZoneAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReq
      * @Type string
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18205
+     * @MinLength 1
+     * @MaxLength 1024
      * @var string|null
      */
     private $callingZonePhysicalLocation = null;

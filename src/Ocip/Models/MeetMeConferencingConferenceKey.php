@@ -16,6 +16,8 @@ class MeetMeConferencingConferenceKey
      * @ElementName bridgeId
      * @Type string
      * @Group c0d21ef9ba207c335d8347e5172fce1d:2542
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $bridgeId = null;
@@ -24,6 +26,8 @@ class MeetMeConferencingConferenceKey
      * @ElementName conferenceId
      * @Type string
      * @Group c0d21ef9ba207c335d8347e5172fce1d:2542
+     * @MinLength 6
+     * @MaxLength 12
      * @var string|null
      */
     private $conferenceId = null;

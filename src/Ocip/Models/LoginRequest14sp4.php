@@ -24,6 +24,8 @@ class LoginRequest14sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReques
      * @ElementName userId
      * @Type string
      * @Group de4d76f01f337fe4694212ec9f771753:5348
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;
@@ -33,6 +35,7 @@ class LoginRequest14sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReques
      * @Type string
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:5348
+     * @MinLength 1
      * @var string|null
      */
     private $signedPassword = null;
@@ -42,6 +45,8 @@ class LoginRequest14sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReques
      * @Type string
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:5348
+     * @MinLength 1
+     * @MaxLength 60
      * @var string|null
      */
     private $plainTextPassword = null;

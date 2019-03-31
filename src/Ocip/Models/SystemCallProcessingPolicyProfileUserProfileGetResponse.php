@@ -125,6 +125,8 @@ class SystemCallProcessingPolicyProfileUserProfileGetResponse extends \CWM\Broad
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:38363
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $supportedMediaSetName = null;
@@ -149,6 +151,8 @@ class SystemCallProcessingPolicyProfileUserProfileGetResponse extends \CWM\Broad
      * @ElementName maxSimultaneousCalls
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:38363
+     * @MinInclusive 1
+     * @MaxInclusive 999999
      * @var int|null
      */
     private $maxSimultaneousCalls = null;
@@ -165,6 +169,8 @@ class SystemCallProcessingPolicyProfileUserProfileGetResponse extends \CWM\Broad
      * @ElementName maxSimultaneousVideoCalls
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:38363
+     * @MinInclusive 1
+     * @MaxInclusive 999999
      * @var int|null
      */
     private $maxSimultaneousVideoCalls = null;
@@ -181,6 +187,8 @@ class SystemCallProcessingPolicyProfileUserProfileGetResponse extends \CWM\Broad
      * @ElementName maxCallTimeForAnsweredCallsMinutes
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:38363
+     * @MinInclusive 3
+     * @MaxInclusive 2880
      * @var int|null
      */
     private $maxCallTimeForAnsweredCallsMinutes = null;
@@ -197,6 +205,8 @@ class SystemCallProcessingPolicyProfileUserProfileGetResponse extends \CWM\Broad
      * @ElementName maxCallTimeForUnansweredCallsMinutes
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:38363
+     * @MinInclusive 1
+     * @MaxInclusive 2880
      * @var int|null
      */
     private $maxCallTimeForUnansweredCallsMinutes = null;
@@ -213,6 +223,8 @@ class SystemCallProcessingPolicyProfileUserProfileGetResponse extends \CWM\Broad
      * @ElementName maxConcurrentRedirectedCalls
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:38363
+     * @MinInclusive 1
+     * @MaxInclusive 999999
      * @var int|null
      */
     private $maxConcurrentRedirectedCalls = null;
@@ -229,6 +241,8 @@ class SystemCallProcessingPolicyProfileUserProfileGetResponse extends \CWM\Broad
      * @ElementName maxConcurrentFindMeFollowMeInvocations
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:38363
+     * @MinInclusive 1
+     * @MaxInclusive 999999
      * @var int|null
      */
     private $maxConcurrentFindMeFollowMeInvocations = null;
@@ -245,6 +259,8 @@ class SystemCallProcessingPolicyProfileUserProfileGetResponse extends \CWM\Broad
      * @ElementName maxFindMeFollowMeDepth
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:38363
+     * @MinInclusive 1
+     * @MaxInclusive 100
      * @var int|null
      */
     private $maxFindMeFollowMeDepth = null;
@@ -253,6 +269,8 @@ class SystemCallProcessingPolicyProfileUserProfileGetResponse extends \CWM\Broad
      * @ElementName maxRedirectionDepth
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:38363
+     * @MinInclusive 1
+     * @MaxInclusive 100
      * @var int|null
      */
     private $maxRedirectionDepth = null;

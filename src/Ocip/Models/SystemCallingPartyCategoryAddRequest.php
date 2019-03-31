@@ -19,6 +19,8 @@ class SystemCallingPartyCategoryAddRequest extends \CWM\BroadWorksConnector\Ocip
      * @ElementName category
      * @Type string
      * @Group 89aa8c9a341a3cccb2453b1ee467bf94:48
+     * @MinLength 1
+     * @MaxLength 20
      * @var string|null
      */
     private $category = null;
@@ -28,6 +30,8 @@ class SystemCallingPartyCategoryAddRequest extends \CWM\BroadWorksConnector\Ocip
      * @Type string
      * @Optional
      * @Group 89aa8c9a341a3cccb2453b1ee467bf94:48
+     * @MinLength 1
+     * @MaxLength 20
      * @var string|null
      */
     private $cpcValue = null;
@@ -37,6 +41,8 @@ class SystemCallingPartyCategoryAddRequest extends \CWM\BroadWorksConnector\Ocip
      * @Type int
      * @Optional
      * @Group 89aa8c9a341a3cccb2453b1ee467bf94:48
+     * @MinInclusive
+     * @MaxInclusive 255
      * @var int|null
      */
     private $isupOliValue = null;
@@ -46,6 +52,8 @@ class SystemCallingPartyCategoryAddRequest extends \CWM\BroadWorksConnector\Ocip
      * @Type string
      * @Optional
      * @Group 89aa8c9a341a3cccb2453b1ee467bf94:48
+     * @MinLength 1
+     * @MaxLength 3
      * @var string|null
      */
     private $gtdOliValue = null;
@@ -95,6 +103,8 @@ class SystemCallingPartyCategoryAddRequest extends \CWM\BroadWorksConnector\Ocip
      * @Type string
      * @Optional
      * @Group 89aa8c9a341a3cccb2453b1ee467bf94:48
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $webDisplayKey = null;

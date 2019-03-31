@@ -19,6 +19,8 @@ class UserMWIDeliveryToMobileEndpointGetRequest extends \CWM\BroadWorksConnector
      * @ElementName userId
      * @Type string
      * @Group 958b78cc2a785d78259c1e8a474eb40d:352
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;

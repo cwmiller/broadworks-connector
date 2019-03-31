@@ -51,6 +51,8 @@ class SystemSubscriberModifyCallProcessingParametersRequest14sp7 extends \CWM\Br
      * @Type int
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17111
+     * @MinInclusive 1
+     * @MaxInclusive 180
      * @var int|null
      */
     private $ringTimeoutSeconds = null;
@@ -69,6 +71,8 @@ class SystemSubscriberModifyCallProcessingParametersRequest14sp7 extends \CWM\Br
      * @Type int
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17111
+     * @MinInclusive 6
+     * @MaxInclusive 20
      * @var int|null
      */
     private $maxNoAnswerNumberOfRings = null;
@@ -78,6 +82,8 @@ class SystemSubscriberModifyCallProcessingParametersRequest14sp7 extends \CWM\Br
      * @Type int
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17111
+     * @MinInclusive 2
+     * @MaxInclusive 20
      * @var int|null
      */
     private $minNoAnswerNumberOfRings = null;

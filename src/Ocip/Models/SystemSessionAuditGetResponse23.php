@@ -27,6 +27,8 @@ class SystemSessionAuditGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName auditIntervalSeconds
      * @Type int
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:15173
+     * @MinInclusive 60
+     * @MaxInclusive 7200
      * @var int|null
      */
     private $auditIntervalSeconds = null;
@@ -35,6 +37,8 @@ class SystemSessionAuditGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName auditTimeoutSeconds
      * @Type int
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:15173
+     * @MinInclusive 60
+     * @MaxInclusive 600
      * @var int|null
      */
     private $auditTimeoutSeconds = null;
@@ -75,6 +79,8 @@ class SystemSessionAuditGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName sipSessionExpiresMinimumSeconds
      * @Type int
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:15173
+     * @MinInclusive 30
+     * @MaxInclusive 3600
      * @var int|null
      */
     private $sipSessionExpiresMinimumSeconds = null;
@@ -91,6 +97,8 @@ class SystemSessionAuditGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName sipSessionExpiresMaximumSeconds
      * @Type int
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:15173
+     * @MinInclusive 3600
+     * @MaxInclusive 86400
      * @var int|null
      */
     private $sipSessionExpiresMaximumSeconds = null;
@@ -99,6 +107,8 @@ class SystemSessionAuditGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName sipSessionExpiresTimerSeconds
      * @Type int
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:15173
+     * @MinInclusive 60
+     * @MaxInclusive 86400
      * @var int|null
      */
     private $sipSessionExpiresTimerSeconds = null;
@@ -131,6 +141,8 @@ class SystemSessionAuditGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName emergencyCallAlarmMinutes
      * @Type int
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:15173
+     * @MinInclusive 1
+     * @MaxInclusive 1440
      * @var int|null
      */
     private $emergencyCallAlarmMinutes = null;
@@ -147,6 +159,8 @@ class SystemSessionAuditGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName emergencyCallCleanupMinutes
      * @Type int
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:15173
+     * @MinInclusive 1
+     * @MaxInclusive 1440
      * @var int|null
      */
     private $emergencyCallCleanupMinutes = null;
@@ -163,6 +177,8 @@ class SystemSessionAuditGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName msAuditIntervalSeconds
      * @Type int
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:15173
+     * @MinInclusive 60
+     * @MaxInclusive 7200
      * @var int|null
      */
     private $msAuditIntervalSeconds = null;

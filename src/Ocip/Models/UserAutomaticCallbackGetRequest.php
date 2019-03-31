@@ -20,6 +20,8 @@ class UserAutomaticCallbackGetRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName userId
      * @Type string
      * @Group e8188f390ad4fcfad616cb409dd0e896:167
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;

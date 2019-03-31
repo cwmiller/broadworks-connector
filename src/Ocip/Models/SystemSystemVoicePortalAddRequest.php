@@ -24,6 +24,8 @@ class SystemSystemVoicePortalAddRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName systemVoicePortalId
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:42269
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $systemVoicePortalId = null;
@@ -32,6 +34,8 @@ class SystemSystemVoicePortalAddRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName name
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:42269
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $name = null;
@@ -40,6 +44,8 @@ class SystemSystemVoicePortalAddRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName callingLineIdName
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:42269
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $callingLineIdName = null;
@@ -48,6 +54,8 @@ class SystemSystemVoicePortalAddRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName language
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:42269
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $language = null;
@@ -56,6 +64,8 @@ class SystemSystemVoicePortalAddRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName timeZone
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:42269
+     * @MinLength 1
+     * @MaxLength 127
      * @var string|null
      */
     private $timeZone = null;
@@ -65,6 +75,8 @@ class SystemSystemVoicePortalAddRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:42269
+     * @MinLength 1
+     * @MaxLength 23
      * @var string|null
      */
     private $phoneNumber = null;
@@ -74,6 +86,8 @@ class SystemSystemVoicePortalAddRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:42269
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $publicUserIdentity = null;
@@ -83,6 +97,8 @@ class SystemSystemVoicePortalAddRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:42269
+     * @MinLength 1
+     * @MaxLength 23
      * @var string|null
      */
     private $networkVoicePortalNumber = null;

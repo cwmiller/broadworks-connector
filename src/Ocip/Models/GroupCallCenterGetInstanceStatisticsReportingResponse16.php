@@ -33,6 +33,8 @@ class GroupCallCenterGetInstanceStatisticsReportingResponse16 extends \CWM\Broad
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:18810
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $reportingEmailAddress1 = null;
@@ -42,6 +44,8 @@ class GroupCallCenterGetInstanceStatisticsReportingResponse16 extends \CWM\Broad
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:18810
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $reportingEmailAddress2 = null;

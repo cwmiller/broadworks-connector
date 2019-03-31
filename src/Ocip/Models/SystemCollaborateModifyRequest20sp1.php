@@ -23,6 +23,8 @@ class SystemCollaborateModifyRequest20sp1 extends \CWM\BroadWorksConnector\Ocip\
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:38667
+     * @MinInclusive 4
+     * @MaxInclusive 15
      * @var int|null
      */
     private $collaborateRoomIdLength = null;
@@ -32,6 +34,8 @@ class SystemCollaborateModifyRequest20sp1 extends \CWM\BroadWorksConnector\Ocip\
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:38667
+     * @MinInclusive 60
+     * @MaxInclusive 18000
      * @var int|null
      */
     private $instantRoomIdleTimeoutSeconds = null;
@@ -41,6 +45,8 @@ class SystemCollaborateModifyRequest20sp1 extends \CWM\BroadWorksConnector\Ocip\
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:38667
+     * @MinInclusive 1
+     * @MaxInclusive 7200
      * @var int|null
      */
     private $collaborateRoomMaximumDurationMinutes = null;
@@ -59,6 +65,8 @@ class SystemCollaborateModifyRequest20sp1 extends \CWM\BroadWorksConnector\Ocip\
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:38667
+     * @MinInclusive 3
+     * @MaxInclusive 30
      * @var int|null
      */
     private $maxCollaborateRoomParticipants = null;
@@ -68,6 +76,8 @@ class SystemCollaborateModifyRequest20sp1 extends \CWM\BroadWorksConnector\Ocip\
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:38667
+     * @MinInclusive 1
+     * @MaxInclusive 5
      * @var int|null
      */
     private $collaborateActiveTalkerRefreshIntervalSeconds = null;
@@ -105,6 +115,8 @@ class SystemCollaborateModifyRequest20sp1 extends \CWM\BroadWorksConnector\Ocip\
      * @Nillable
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:38667
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $collaborateFromAddress = null;

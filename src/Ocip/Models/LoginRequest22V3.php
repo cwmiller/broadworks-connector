@@ -20,6 +20,8 @@ class LoginRequest22V3 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
      * @ElementName userId
      * @Type string
      * @Group 6b27fcc79475236456fc113a42b75543:353
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;
@@ -29,6 +31,8 @@ class LoginRequest22V3 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
      * @Type string
      * @Optional
      * @Group 6b27fcc79475236456fc113a42b75543:353
+     * @MinLength 1
+     * @MaxLength 60
      * @var string|null
      */
     private $password = null;

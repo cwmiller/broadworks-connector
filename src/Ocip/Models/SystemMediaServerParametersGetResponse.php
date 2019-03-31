@@ -18,6 +18,8 @@ class SystemMediaServerParametersGetResponse extends \CWM\BroadWorksConnector\Oc
      * @ElementName mediaServerResponseTimerMilliseconds
      * @Type int
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10982
+     * @MinInclusive 600
+     * @MaxInclusive 120000
      * @var int|null
      */
     private $mediaServerResponseTimerMilliseconds = null;
@@ -26,6 +28,8 @@ class SystemMediaServerParametersGetResponse extends \CWM\BroadWorksConnector\Oc
      * @ElementName mediaServerSelectionRouteTimerMilliseconds
      * @Type int
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10982
+     * @MinInclusive 500
+     * @MaxInclusive 120000
      * @var int|null
      */
     private $mediaServerSelectionRouteTimerMilliseconds = null;

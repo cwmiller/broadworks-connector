@@ -19,6 +19,8 @@ class UserCallForwardingSelectiveModifyRequest extends \CWM\BroadWorksConnector\
      * @ElementName userId
      * @Type string
      * @Group 543304bb75006bfa60814c897fa03ec0:205
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;
@@ -38,6 +40,8 @@ class UserCallForwardingSelectiveModifyRequest extends \CWM\BroadWorksConnector\
      * @Nillable
      * @Optional
      * @Group 543304bb75006bfa60814c897fa03ec0:205
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $defaultForwardToPhoneNumber = null;

@@ -19,6 +19,8 @@ class SystemCommunicationBarringDigitPatternCriteriaGetResponse extends \CWM\Bro
      * @Nillable
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:5697
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $description = null;
@@ -29,6 +31,8 @@ class SystemCommunicationBarringDigitPatternCriteriaGetResponse extends \CWM\Bro
      * @Array
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:5697
+     * @MinLength 1
+     * @MaxLength 160
      * @var string[]
      */
     private $digitPattern = array(

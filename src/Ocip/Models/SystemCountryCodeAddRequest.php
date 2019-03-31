@@ -26,6 +26,8 @@ class SystemCountryCodeAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @ElementName countryCode
      * @Type string
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6518
+     * @MaxLength 3
+     * @Pattern [0-9]|[1-9][0-9]{1,2}
      * @var string|null
      */
     private $countryCode = null;
@@ -34,6 +36,8 @@ class SystemCountryCodeAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @ElementName countryName
      * @Type string
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6518
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $countryName = null;
@@ -43,6 +47,8 @@ class SystemCountryCodeAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @Type int
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6518
+     * @MinInclusive 1
+     * @MaxInclusive 12000
      * @var int|null
      */
     private $ringPeriodMilliseconds = null;
@@ -52,6 +58,8 @@ class SystemCountryCodeAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @Type int
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6518
+     * @MinInclusive 1
+     * @MaxInclusive 360
      * @var int|null
      */
     private $offHookWarningTimerSeconds = null;
@@ -70,6 +78,8 @@ class SystemCountryCodeAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @Type string
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6518
+     * @MinLength 1
+     * @MaxLength 2
      * @var string|null
      */
     private $nationalPrefix = null;
@@ -79,6 +89,8 @@ class SystemCountryCodeAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @Type int
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6518
+     * @MinInclusive 1
+     * @MaxInclusive 20
      * @var int|null
      */
     private $maxCallWaitingTones = null;
@@ -88,6 +100,8 @@ class SystemCountryCodeAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @Type int
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6518
+     * @MinInclusive
+     * @MaxInclusive 120000
      * @var int|null
      */
     private $timeBetweenCallWaitingTonesMilliseconds = null;

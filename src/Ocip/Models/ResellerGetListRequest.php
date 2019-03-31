@@ -22,6 +22,7 @@ class ResellerGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIR
      * @Type int
      * @Optional
      * @Group b009175f2a2a9d38115e319a6ad64d7f:334
+     * @MinInclusive 1
      * @var int|null
      */
     private $responseSizeLimit = null;

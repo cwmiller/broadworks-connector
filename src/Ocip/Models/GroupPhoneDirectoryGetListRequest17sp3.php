@@ -32,6 +32,8 @@ class GroupPhoneDirectoryGetListRequest17sp3 extends \CWM\BroadWorksConnector\Oc
      * @ElementName serviceProviderId
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:19903
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -40,6 +42,8 @@ class GroupPhoneDirectoryGetListRequest17sp3 extends \CWM\BroadWorksConnector\Oc
      * @ElementName groupId
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:19903
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;
@@ -57,6 +61,7 @@ class GroupPhoneDirectoryGetListRequest17sp3 extends \CWM\BroadWorksConnector\Oc
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:19903
+     * @MinInclusive 1
      * @var int|null
      */
     private $responseSizeLimit = null;

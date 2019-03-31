@@ -50,6 +50,8 @@ class SystemDeviceProfileAuthenticationPasswordRulesGetResponse extends \CWM\Bro
      * @ElementName minDigits
      * @Type int
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7545
+     * @MinInclusive 1
+     * @MaxInclusive 10
      * @var int|null
      */
     private $minDigits = null;
@@ -66,6 +68,8 @@ class SystemDeviceProfileAuthenticationPasswordRulesGetResponse extends \CWM\Bro
      * @ElementName minUpperCaseLetters
      * @Type int
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7545
+     * @MinInclusive 1
+     * @MaxInclusive 10
      * @var int|null
      */
     private $minUpperCaseLetters = null;
@@ -82,6 +86,8 @@ class SystemDeviceProfileAuthenticationPasswordRulesGetResponse extends \CWM\Bro
      * @ElementName minLowerCaseLetters
      * @Type int
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7545
+     * @MinInclusive 1
+     * @MaxInclusive 10
      * @var int|null
      */
     private $minLowerCaseLetters = null;
@@ -98,6 +104,8 @@ class SystemDeviceProfileAuthenticationPasswordRulesGetResponse extends \CWM\Bro
      * @ElementName minNonAlphanumericCharacters
      * @Type int
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7545
+     * @MinInclusive 1
+     * @MaxInclusive 10
      * @var int|null
      */
     private $minNonAlphanumericCharacters = null;
@@ -106,6 +114,8 @@ class SystemDeviceProfileAuthenticationPasswordRulesGetResponse extends \CWM\Bro
      * @ElementName minLength
      * @Type int
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7545
+     * @MinInclusive 3
+     * @MaxInclusive 40
      * @var int|null
      */
     private $minLength = null;
@@ -123,6 +133,8 @@ class SystemDeviceProfileAuthenticationPasswordRulesGetResponse extends \CWM\Bro
      * @Type string
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7545
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $permanentLockoutNotifyEmailAddress = null;
@@ -139,6 +151,8 @@ class SystemDeviceProfileAuthenticationPasswordRulesGetResponse extends \CWM\Bro
      * @ElementName deviceProfileTemporaryLockoutThreshold
      * @Type int
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7545
+     * @MinInclusive 1
+     * @MaxInclusive 10
      * @var int|null
      */
     private $deviceProfileTemporaryLockoutThreshold = null;
@@ -163,6 +177,8 @@ class SystemDeviceProfileAuthenticationPasswordRulesGetResponse extends \CWM\Bro
      * @ElementName deviceProfilePermanentLockoutThreshold
      * @Type int
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7545
+     * @MinInclusive 2
+     * @MaxInclusive 10
      * @var int|null
      */
     private $deviceProfilePermanentLockoutThreshold = null;

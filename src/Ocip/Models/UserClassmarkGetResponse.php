@@ -19,6 +19,8 @@ class UserClassmarkGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @Type string
      * @Optional
      * @Group 0d0e878cbc947aebb19ad489b2ffef11:188
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $classmark = null;

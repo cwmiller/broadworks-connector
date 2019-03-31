@@ -19,6 +19,8 @@ class GroupRoutePointForcedForwardingModifyRequest20 extends \CWM\BroadWorksConn
      * @ElementName serviceUserId
      * @Type string
      * @Group a27224a048c30ff69eab9209dec841cc:325
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $serviceUserId = null;
@@ -38,6 +40,8 @@ class GroupRoutePointForcedForwardingModifyRequest20 extends \CWM\BroadWorksConn
      * @Nillable
      * @Optional
      * @Group a27224a048c30ff69eab9209dec841cc:325
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $forwardToPhoneNumber = null;

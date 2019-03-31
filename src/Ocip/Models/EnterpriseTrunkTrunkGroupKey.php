@@ -16,6 +16,8 @@ class EnterpriseTrunkTrunkGroupKey
      * @ElementName groupId
      * @Type string
      * @Group b9c14e2d80e4e7749688ca13ba233b44:1858
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;
@@ -24,6 +26,8 @@ class EnterpriseTrunkTrunkGroupKey
      * @ElementName trunkGroupName
      * @Type string
      * @Group b9c14e2d80e4e7749688ca13ba233b44:1858
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $trunkGroupName = null;

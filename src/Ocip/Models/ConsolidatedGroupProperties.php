@@ -14,6 +14,8 @@ class ConsolidatedGroupProperties
      * @ElementName defaultDomain
      * @Type string
      * @Group c0d21ef9ba207c335d8347e5172fce1d:1517
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $defaultDomain = null;
@@ -22,6 +24,8 @@ class ConsolidatedGroupProperties
      * @ElementName userLimit
      * @Type int
      * @Group c0d21ef9ba207c335d8347e5172fce1d:1517
+     * @MinInclusive 1
+     * @MaxInclusive 999999
      * @var int|null
      */
     private $userLimit = null;
@@ -31,6 +35,8 @@ class ConsolidatedGroupProperties
      * @Type string
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:1517
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $groupName = null;
@@ -40,6 +46,8 @@ class ConsolidatedGroupProperties
      * @Type string
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:1517
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $callingLineIdName = null;
@@ -49,6 +57,8 @@ class ConsolidatedGroupProperties
      * @Type string
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:1517
+     * @MinLength 1
+     * @MaxLength 127
      * @var string|null
      */
     private $timeZone = null;
@@ -58,6 +68,8 @@ class ConsolidatedGroupProperties
      * @Type string
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:1517
+     * @MinLength 1
+     * @MaxLength 15
      * @var string|null
      */
     private $locationDialingCode = null;
@@ -86,6 +98,8 @@ class ConsolidatedGroupProperties
      * @Array
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:1517
+     * @MinLength 1
+     * @MaxLength 40
      * @var string[]
      */
     private $networkClassOfService = array(
@@ -118,6 +132,8 @@ class ConsolidatedGroupProperties
      * @Type string
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:1517
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $servicePolicy = null;

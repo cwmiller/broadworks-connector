@@ -18,6 +18,8 @@ class GroupRoutingProfileGetResponse extends \CWM\BroadWorksConnector\Ocip\Model
      * @Type string
      * @Optional
      * @Group f3a93cf15de4abd7903673e44ee3e07b:6267
+     * @MinLength 4
+     * @MaxLength 12
      * @var string|null
      */
     private $routingProfile = null;

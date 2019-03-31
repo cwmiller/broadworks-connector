@@ -23,6 +23,8 @@ class SystemCallingNameRetrievalModifyRequest extends \CWM\BroadWorksConnector\O
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:14913
+     * @MinInclusive 500
+     * @MaxInclusive 5000
      * @var int|null
      */
     private $queryTimerMilliSeconds = null;
@@ -33,6 +35,8 @@ class SystemCallingNameRetrievalModifyRequest extends \CWM\BroadWorksConnector\O
      * @Nillable
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:14913
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $serverNetAddress = null;
@@ -43,6 +47,8 @@ class SystemCallingNameRetrievalModifyRequest extends \CWM\BroadWorksConnector\O
      * @Nillable
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:14913
+     * @MinInclusive 1025
+     * @MaxInclusive 65535
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $serverPort = null;

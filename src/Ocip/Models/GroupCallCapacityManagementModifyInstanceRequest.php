@@ -19,6 +19,8 @@ class GroupCallCapacityManagementModifyInstanceRequest extends \CWM\BroadWorksCo
      * @ElementName serviceProviderId
      * @Type string
      * @Group dfcd2b22f2e2b3540d286342087ce042:246
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,6 +29,8 @@ class GroupCallCapacityManagementModifyInstanceRequest extends \CWM\BroadWorksCo
      * @ElementName groupId
      * @Type string
      * @Group dfcd2b22f2e2b3540d286342087ce042:246
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;
@@ -35,6 +39,8 @@ class GroupCallCapacityManagementModifyInstanceRequest extends \CWM\BroadWorksCo
      * @ElementName name
      * @Type string
      * @Group dfcd2b22f2e2b3540d286342087ce042:246
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $name = null;
@@ -44,6 +50,8 @@ class GroupCallCapacityManagementModifyInstanceRequest extends \CWM\BroadWorksCo
      * @Type string
      * @Optional
      * @Group dfcd2b22f2e2b3540d286342087ce042:246
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $newName = null;
@@ -53,6 +61,8 @@ class GroupCallCapacityManagementModifyInstanceRequest extends \CWM\BroadWorksCo
      * @Type int
      * @Optional
      * @Group dfcd2b22f2e2b3540d286342087ce042:246
+     * @MinInclusive
+     * @MaxInclusive 99999
      * @var int|null
      */
     private $maxActiveCallsAllowed = null;
@@ -63,6 +73,8 @@ class GroupCallCapacityManagementModifyInstanceRequest extends \CWM\BroadWorksCo
      * @Nillable
      * @Optional
      * @Group dfcd2b22f2e2b3540d286342087ce042:246
+     * @MinInclusive
+     * @MaxInclusive 99999
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $maxIncomingActiveCallsAllowed = null;
@@ -73,6 +85,8 @@ class GroupCallCapacityManagementModifyInstanceRequest extends \CWM\BroadWorksCo
      * @Nillable
      * @Optional
      * @Group dfcd2b22f2e2b3540d286342087ce042:246
+     * @MinInclusive
+     * @MaxInclusive 99999
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $maxOutgoingActiveCallsAllowed = null;

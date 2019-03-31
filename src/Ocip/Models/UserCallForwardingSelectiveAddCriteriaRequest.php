@@ -19,6 +19,8 @@ class UserCallForwardingSelectiveAddCriteriaRequest extends \CWM\BroadWorksConne
      * @ElementName userId
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:10902
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;
@@ -27,6 +29,8 @@ class UserCallForwardingSelectiveAddCriteriaRequest extends \CWM\BroadWorksConne
      * @ElementName criteriaName
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:10902
+     * @MinLength 1
+     * @MaxLength 50
      * @var string|null
      */
     private $criteriaName = null;
@@ -53,6 +57,8 @@ class UserCallForwardingSelectiveAddCriteriaRequest extends \CWM\BroadWorksConne
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:10902
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $forwardToPhoneNumber = null;

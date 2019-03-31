@@ -26,6 +26,8 @@ class GroupCallCenterOverflowGetResponse20 extends \CWM\BroadWorksConnector\Ocip
      * @Type string
      * @Optional
      * @Group e2c537e3e39483b96620673a7012ffdd:5477
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $transferPhoneNumber = null;
@@ -42,6 +44,8 @@ class GroupCallCenterOverflowGetResponse20 extends \CWM\BroadWorksConnector\Ocip
      * @ElementName timeoutSeconds
      * @Type int
      * @Group e2c537e3e39483b96620673a7012ffdd:5477
+     * @MinInclusive
+     * @MaxInclusive 7200
      * @var int|null
      */
     private $timeoutSeconds = null;

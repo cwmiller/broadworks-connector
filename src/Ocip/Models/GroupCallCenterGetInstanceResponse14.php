@@ -46,6 +46,8 @@ class GroupCallCenterGetInstanceResponse14 extends \CWM\BroadWorksConnector\Ocip
      * @ElementName noAnswerNumberOfRings
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:925
+     * @MinInclusive 1
+     * @MaxInclusive 20
      * @var int|null
      */
     private $noAnswerNumberOfRings = null;
@@ -62,6 +64,8 @@ class GroupCallCenterGetInstanceResponse14 extends \CWM\BroadWorksConnector\Ocip
      * @ElementName forwardTimeoutSeconds
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:925
+     * @MinInclusive
+     * @MaxInclusive 7200
      * @var int|null
      */
     private $forwardTimeoutSeconds = null;
@@ -71,6 +75,8 @@ class GroupCallCenterGetInstanceResponse14 extends \CWM\BroadWorksConnector\Ocip
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:925
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $forwardToPhoneNumber = null;
@@ -87,6 +93,8 @@ class GroupCallCenterGetInstanceResponse14 extends \CWM\BroadWorksConnector\Ocip
      * @ElementName queueLength
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:925
+     * @MinInclusive
+     * @MaxInclusive 50
      * @var int|null
      */
     private $queueLength = null;
@@ -119,6 +127,8 @@ class GroupCallCenterGetInstanceResponse14 extends \CWM\BroadWorksConnector\Ocip
      * @ElementName timeBetweenComfortMessagesSeconds
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:925
+     * @MinInclusive 10
+     * @MaxInclusive 600
      * @var int|null
      */
     private $timeBetweenComfortMessagesSeconds = null;
@@ -135,6 +145,8 @@ class GroupCallCenterGetInstanceResponse14 extends \CWM\BroadWorksConnector\Ocip
      * @ElementName guardTimerSeconds
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:925
+     * @MinInclusive 1
+     * @MaxInclusive 25
      * @var int|null
      */
     private $guardTimerSeconds = null;

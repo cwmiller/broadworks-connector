@@ -23,6 +23,8 @@ class ServiceProviderDomainGetAssignedListRequest22 extends \CWM\BroadWorksConne
      * @ElementName serviceProviderId
      * @Type string
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:3330
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -32,6 +34,7 @@ class ServiceProviderDomainGetAssignedListRequest22 extends \CWM\BroadWorksConne
      * @Type int
      * @Optional
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:3330
+     * @MinInclusive 1
      * @var int|null
      */
     private $responseSizeLimit = null;

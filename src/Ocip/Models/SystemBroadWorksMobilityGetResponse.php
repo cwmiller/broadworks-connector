@@ -60,6 +60,8 @@ class SystemBroadWorksMobilityGetResponse extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName imrnTimeoutMillisecnds
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:21066
+     * @MinInclusive 100
+     * @MaxInclusive 60000
      * @var int|null
      */
     private $imrnTimeoutMillisecnds = null;
@@ -69,6 +71,8 @@ class SystemBroadWorksMobilityGetResponse extends \CWM\BroadWorksConnector\Ocip\
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:21066
+     * @MinLength 1
+     * @MaxLength 39
      * @var string|null
      */
     private $scfSignalingIPAddress = null;
@@ -78,6 +82,8 @@ class SystemBroadWorksMobilityGetResponse extends \CWM\BroadWorksConnector\Ocip\
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:21066
+     * @MinInclusive 1
+     * @MaxInclusive 65535
      * @var int|null
      */
     private $scfSignalingPort = null;

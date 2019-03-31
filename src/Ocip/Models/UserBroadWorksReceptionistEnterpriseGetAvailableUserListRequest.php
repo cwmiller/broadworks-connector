@@ -21,6 +21,8 @@ class UserBroadWorksReceptionistEnterpriseGetAvailableUserListRequest extends \C
      * @ElementName userId
      * @Type string
      * @Group fb12998f4f9e45cedde01f08569f4c7c:133
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;
@@ -30,6 +32,7 @@ class UserBroadWorksReceptionistEnterpriseGetAvailableUserListRequest extends \C
      * @Type int
      * @Optional
      * @Group fb12998f4f9e45cedde01f08569f4c7c:133
+     * @MinInclusive 1
      * @var int|null
      */
     private $responseSizeLimit = null;

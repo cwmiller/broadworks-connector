@@ -19,6 +19,8 @@ class UserVideoAddOnModifyRequest14 extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName userId
      * @Type string
      * @Group a7ae3767516578250f020b627d8fe972:107
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;

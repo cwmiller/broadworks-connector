@@ -19,6 +19,8 @@ class UserPersonalAssistantExclusionNumberGetListRequest extends \CWM\BroadWorks
      * @ElementName userId
      * @Type string
      * @Group f53ece1c00394ef2d3d76f532f9a9663:214
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;
@@ -52,6 +54,7 @@ class UserPersonalAssistantExclusionNumberGetListRequest extends \CWM\BroadWorks
      * @Type int
      * @Optional
      * @Group f53ece1c00394ef2d3d76f532f9a9663:214
+     * @MinInclusive 1
      * @var int|null
      */
     private $responseSizeLimit = null;

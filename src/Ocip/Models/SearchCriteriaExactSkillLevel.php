@@ -16,6 +16,8 @@ class SearchCriteriaExactSkillLevel extends SearchCriteria
      * @ElementName skillLevel
      * @Type int
      * @Group f0ada2681ca347fa83b464734259b304:1165
+     * @MinInclusive 1
+     * @MaxInclusive 20
      * @var int|null
      */
     private $skillLevel = null;

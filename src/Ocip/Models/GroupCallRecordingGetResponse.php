@@ -19,6 +19,8 @@ class GroupCallRecordingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models
      * @Type string
      * @Optional
      * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:67
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $name = null;

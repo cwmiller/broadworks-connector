@@ -19,6 +19,7 @@ class EnhancedCallLogsResponsePagingControl
      * @ElementName responseStartIndex
      * @Type int
      * @Group c0d21ef9ba207c335d8347e5172fce1d:2166
+     * @MinInclusive 1
      * @var int|null
      */
     private $responseStartIndex = null;
@@ -27,6 +28,8 @@ class EnhancedCallLogsResponsePagingControl
      * @ElementName responsePageSize
      * @Type int
      * @Group c0d21ef9ba207c335d8347e5172fce1d:2166
+     * @MinInclusive 1
+     * @MaxInclusive 1000
      * @var int|null
      */
     private $responsePageSize = null;

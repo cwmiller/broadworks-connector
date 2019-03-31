@@ -24,6 +24,8 @@ class ProfileAndServiceDeviceEndpointInfo
      * @ElementName linePort
      * @Type string
      * @Group 53d18cc797d03d802cbc411ad821f1d4:4211
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $linePort = null;
@@ -33,6 +35,8 @@ class ProfileAndServiceDeviceEndpointInfo
      * @Type string
      * @Optional
      * @Group 53d18cc797d03d802cbc411ad821f1d4:4211
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $privateIdentity = null;

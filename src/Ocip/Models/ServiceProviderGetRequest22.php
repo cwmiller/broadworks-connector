@@ -22,6 +22,8 @@ class ServiceProviderGetRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @ElementName serviceProviderId
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:41432
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;

@@ -25,6 +25,8 @@ class UserCallRecordingGetRequest20 extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName userId
      * @Type string
      * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:391
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;

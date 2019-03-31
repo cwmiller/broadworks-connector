@@ -28,6 +28,8 @@ class SystemCPEConfigParametersGetResponse extends \CWM\BroadWorksConnector\Ocip
      * @ElementName ftpConnectTimeoutSeconds
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:4864
+     * @MinInclusive 1
+     * @MaxInclusive 600
      * @var int|null
      */
     private $ftpConnectTimeoutSeconds = null;
@@ -36,6 +38,8 @@ class SystemCPEConfigParametersGetResponse extends \CWM\BroadWorksConnector\Ocip
      * @ElementName ftpFileTransferTimeoutSeconds
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:4864
+     * @MinInclusive 1
+     * @MaxInclusive 600
      * @var int|null
      */
     private $ftpFileTransferTimeoutSeconds = null;

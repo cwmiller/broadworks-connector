@@ -19,6 +19,8 @@ class UserTwoStageDialingGetRequest13Mp20 extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName userId
      * @Type string
      * @Group 2a1428f64736d8f970ea802e5a73c495:131
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;

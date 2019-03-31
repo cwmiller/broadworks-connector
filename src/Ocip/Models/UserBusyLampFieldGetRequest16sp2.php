@@ -19,6 +19,8 @@ class UserBusyLampFieldGetRequest16sp2 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName userId
      * @Type string
      * @Group 4faeca417998d23ce2ff6b0b43212aa6:193
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;

@@ -26,6 +26,8 @@ class UserFaxMessagingGetResponse17sp1 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Type string
      * @Optional
      * @Group f46f967f937c7dc89ddb3db423383aa4:114
+     * @MinLength 1
+     * @MaxLength 23
      * @var string|null
      */
     private $phoneNumber = null;
@@ -35,6 +37,8 @@ class UserFaxMessagingGetResponse17sp1 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Type string
      * @Optional
      * @Group f46f967f937c7dc89ddb3db423383aa4:114
+     * @MinLength 2
+     * @MaxLength 20
      * @var string|null
      */
     private $extension = null;
@@ -45,6 +49,8 @@ class UserFaxMessagingGetResponse17sp1 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Array
      * @Optional
      * @Group f46f967f937c7dc89ddb3db423383aa4:114
+     * @MinLength 1
+     * @MaxLength 161
      * @var string[]
      */
     private $alias = array(

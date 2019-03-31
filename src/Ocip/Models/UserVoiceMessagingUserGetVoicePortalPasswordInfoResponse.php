@@ -43,6 +43,8 @@ class UserVoiceMessagingUserGetVoicePortalPasswordInfoResponse extends \CWM\Broa
      * @ElementName password
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:7873
+     * @MinLength 1
+     * @MaxLength 60
      * @var string|null
      */
     private $password = null;

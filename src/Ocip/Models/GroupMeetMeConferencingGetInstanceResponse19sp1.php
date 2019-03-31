@@ -37,6 +37,8 @@ class GroupMeetMeConferencingGetInstanceResponse19sp1 extends \CWM\BroadWorksCon
      * @Type string
      * @Optional
      * @Group 0fd24121d16995c994d40bc408dbcfa5:212
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $networkClassOfService = null;
@@ -45,6 +47,8 @@ class GroupMeetMeConferencingGetInstanceResponse19sp1 extends \CWM\BroadWorksCon
      * @ElementName securityPinLength
      * @Type int
      * @Group 0fd24121d16995c994d40bc408dbcfa5:212
+     * @MinInclusive 4
+     * @MaxInclusive 12
      * @var int|null
      */
     private $securityPinLength = null;
@@ -62,6 +66,8 @@ class GroupMeetMeConferencingGetInstanceResponse19sp1 extends \CWM\BroadWorksCon
      * @Type string
      * @Optional
      * @Group 0fd24121d16995c994d40bc408dbcfa5:212
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $operatorNumber = null;
@@ -86,6 +92,8 @@ class GroupMeetMeConferencingGetInstanceResponse19sp1 extends \CWM\BroadWorksCon
      * @ElementName conferenceEndWarningPromptMinutes
      * @Type int
      * @Group 0fd24121d16995c994d40bc408dbcfa5:212
+     * @MinInclusive 1
+     * @MaxInclusive 15
      * @var int|null
      */
     private $conferenceEndWarningPromptMinutes = null;

@@ -19,6 +19,8 @@ class UserAlternateUserIdAddRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName userId
      * @Type string
      * @Group 53d18cc797d03d802cbc411ad821f1d4:388
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;
@@ -27,6 +29,8 @@ class UserAlternateUserIdAddRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName alternateUserId
      * @Type string
      * @Group 53d18cc797d03d802cbc411ad821f1d4:388
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $alternateUserId = null;
@@ -36,6 +40,8 @@ class UserAlternateUserIdAddRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @Type string
      * @Optional
      * @Group 53d18cc797d03d802cbc411ad821f1d4:388
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $description = null;

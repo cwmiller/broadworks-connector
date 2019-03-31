@@ -24,6 +24,8 @@ class SearchCriteriaDeviceManagementEventAdditionalInfo extends SearchCriteria
      * @ElementName value
      * @Type string
      * @Group f0ada2681ca347fa83b464734259b304:399
+     * @MinLength
+     * @MaxLength 256
      * @var string|null
      */
     private $value = null;

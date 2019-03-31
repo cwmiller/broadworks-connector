@@ -22,6 +22,8 @@ class GroupBroadWorksAnywhereAddInstanceRequest extends \CWM\BroadWorksConnector
      * @ElementName serviceProviderId
      * @Type string
      * @Group 72f634ecc58842ce9d362ca629a47ea9:64
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -30,6 +32,8 @@ class GroupBroadWorksAnywhereAddInstanceRequest extends \CWM\BroadWorksConnector
      * @ElementName groupId
      * @Type string
      * @Group 72f634ecc58842ce9d362ca629a47ea9:64
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;
@@ -38,6 +42,8 @@ class GroupBroadWorksAnywhereAddInstanceRequest extends \CWM\BroadWorksConnector
      * @ElementName serviceUserId
      * @Type string
      * @Group 72f634ecc58842ce9d362ca629a47ea9:64
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $serviceUserId = null;
@@ -87,6 +93,8 @@ class GroupBroadWorksAnywhereAddInstanceRequest extends \CWM\BroadWorksConnector
      * @Type string
      * @Optional
      * @Group 72f634ecc58842ce9d362ca629a47ea9:64
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $networkClassOfService = null;

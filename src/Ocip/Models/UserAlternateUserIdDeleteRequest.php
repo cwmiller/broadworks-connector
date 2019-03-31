@@ -19,6 +19,8 @@ class UserAlternateUserIdDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName userId
      * @Type string
      * @Group 53d18cc797d03d802cbc411ad821f1d4:406
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;
@@ -27,6 +29,8 @@ class UserAlternateUserIdDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName alternateUserId
      * @Type string
      * @Group 53d18cc797d03d802cbc411ad821f1d4:406
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $alternateUserId = null;

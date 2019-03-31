@@ -39,6 +39,8 @@ class ExtendedMixedCallLogsEntry20
      * @ElementName countryCode
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:44907
+     * @MaxLength 3
+     * @Pattern [0-9]|[1-9][0-9]{1,2}
      * @var string|null
      */
     private $countryCode = null;
@@ -47,6 +49,8 @@ class ExtendedMixedCallLogsEntry20
      * @ElementName callLogId
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:44907
+     * @MinLength 1
+     * @MaxLength 36
      * @var string|null
      */
     private $callLogId = null;
@@ -55,6 +59,8 @@ class ExtendedMixedCallLogsEntry20
      * @ElementName callId
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:44907
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $callId = null;
@@ -72,6 +78,8 @@ class ExtendedMixedCallLogsEntry20
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:44907
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $dialedNumber = null;
@@ -81,6 +89,8 @@ class ExtendedMixedCallLogsEntry20
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:44907
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $calledNumber = null;
@@ -90,6 +100,8 @@ class ExtendedMixedCallLogsEntry20
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:44907
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $networkTranslatedAddress = null;
@@ -99,6 +111,8 @@ class ExtendedMixedCallLogsEntry20
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:44907
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $callingAssertedNumber = null;
@@ -108,6 +122,8 @@ class ExtendedMixedCallLogsEntry20
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:44907
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $callingPresentationNumber = null;
@@ -126,6 +142,8 @@ class ExtendedMixedCallLogsEntry20
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:44907
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $callingPresentationName = null;
@@ -143,6 +161,8 @@ class ExtendedMixedCallLogsEntry20
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:44907
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $callingGroupId = null;
@@ -152,6 +172,8 @@ class ExtendedMixedCallLogsEntry20
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:44907
+     * @MinLength 1
+     * @MaxLength 62
      * @var string|null
      */
     private $calledDirectoryName = null;
@@ -161,6 +183,8 @@ class ExtendedMixedCallLogsEntry20
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:44907
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $calledGroupId = null;
@@ -170,6 +194,8 @@ class ExtendedMixedCallLogsEntry20
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:44907
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $connectedNumber = null;
@@ -188,6 +214,8 @@ class ExtendedMixedCallLogsEntry20
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:44907
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $connectedName = null;
@@ -232,6 +260,8 @@ class ExtendedMixedCallLogsEntry20
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:44907
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $configurableCallType = null;
@@ -241,6 +271,8 @@ class ExtendedMixedCallLogsEntry20
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:44907
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $alternateCallIndicator = null;
@@ -250,6 +282,8 @@ class ExtendedMixedCallLogsEntry20
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:44907
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $virtualOnNetCallType = null;
@@ -311,6 +345,8 @@ class ExtendedMixedCallLogsEntry20
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:44907
+     * @MinLength 1
+     * @MaxLength 202
      * @var string|null
      */
     private $outgoingDnis = null;
@@ -329,6 +365,8 @@ class ExtendedMixedCallLogsEntry20
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:44907
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $serviceInvocationDialedNumber = null;
@@ -338,6 +376,8 @@ class ExtendedMixedCallLogsEntry20
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:44907
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $serviceInvocationCalledNumber = null;
@@ -347,6 +387,8 @@ class ExtendedMixedCallLogsEntry20
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:44907
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $serviceInvocationNetworkTranslatedAddress = null;
@@ -383,6 +425,8 @@ class ExtendedMixedCallLogsEntry20
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:44907
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $serviceInvocationConfigurableCallType = null;
@@ -392,6 +436,8 @@ class ExtendedMixedCallLogsEntry20
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:44907
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $serviceInvocationAlternateCallIndicator = null;
@@ -401,6 +447,8 @@ class ExtendedMixedCallLogsEntry20
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:44907
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $serviceInvocationVirtualOnNetCallType = null;
@@ -410,6 +458,8 @@ class ExtendedMixedCallLogsEntry20
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:44907
+     * @MinLength 1
+     * @MaxLength 62
      * @var string|null
      */
     private $serviceInvocationCalledDirectoryName = null;
@@ -419,6 +469,8 @@ class ExtendedMixedCallLogsEntry20
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:44907
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceInvocationCalledGroupId = null;
@@ -428,6 +480,8 @@ class ExtendedMixedCallLogsEntry20
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:44907
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $redirectingNumber = null;
@@ -437,6 +491,8 @@ class ExtendedMixedCallLogsEntry20
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:44907
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $redirectingName = null;
@@ -455,6 +511,8 @@ class ExtendedMixedCallLogsEntry20
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:44907
+     * @MinLength 1
+     * @MaxLength 20
      * @var string|null
      */
     private $RedirectingReason = null;
@@ -464,6 +522,8 @@ class ExtendedMixedCallLogsEntry20
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:44907
+     * @MinLength 2
+     * @MaxLength 14
      * @var string|null
      */
     private $accountAuthorizationCode = null;
@@ -473,6 +533,8 @@ class ExtendedMixedCallLogsEntry20
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:44907
+     * @MinLength 2
+     * @MaxLength 14
      * @var string|null
      */
     private $callAuthorizationCode = null;
@@ -482,6 +544,8 @@ class ExtendedMixedCallLogsEntry20
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:44907
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $userGroupId = null;
@@ -491,6 +555,8 @@ class ExtendedMixedCallLogsEntry20
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:44907
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;
@@ -500,6 +566,8 @@ class ExtendedMixedCallLogsEntry20
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:44907
+     * @MinLength 1
+     * @MaxLength 23
      * @var string|null
      */
     private $userPrimaryDn = null;
@@ -509,6 +577,8 @@ class ExtendedMixedCallLogsEntry20
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:44907
+     * @MinLength 2
+     * @MaxLength 20
      * @var string|null
      */
     private $userPrimaryExtension = null;
@@ -518,6 +588,8 @@ class ExtendedMixedCallLogsEntry20
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:44907
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $securityClassification = null;

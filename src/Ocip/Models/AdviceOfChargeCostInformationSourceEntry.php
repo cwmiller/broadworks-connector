@@ -16,6 +16,8 @@ class AdviceOfChargeCostInformationSourceEntry
      * @ElementName peerIdentity
      * @Type string
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18460
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $peerIdentity = null;
@@ -24,6 +26,8 @@ class AdviceOfChargeCostInformationSourceEntry
      * @ElementName priority
      * @Type int
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18460
+     * @MinInclusive
+     * @MaxInclusive 9
      * @var int|null
      */
     private $priority = null;

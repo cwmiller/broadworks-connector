@@ -30,6 +30,8 @@ class GroupIntegratedIMPGetResponse extends \CWM\BroadWorksConnector\Ocip\Models
      * @Type string
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:4815
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $serviceDomain = null;

@@ -22,6 +22,8 @@ class UserVoiceMessagingUserModifyVoicePortalPasswordRequest extends \CWM\BroadW
      * @ElementName userId
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:7896
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;
@@ -31,6 +33,8 @@ class UserVoiceMessagingUserModifyVoicePortalPasswordRequest extends \CWM\BroadW
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:7896
+     * @MinLength 1
+     * @MaxLength 60
      * @var string|null
      */
     private $oldPassword = null;
@@ -39,6 +43,8 @@ class UserVoiceMessagingUserModifyVoicePortalPasswordRequest extends \CWM\BroadW
      * @ElementName newPassword
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:7896
+     * @MinLength 1
+     * @MaxLength 60
      * @var string|null
      */
     private $newPassword = null;

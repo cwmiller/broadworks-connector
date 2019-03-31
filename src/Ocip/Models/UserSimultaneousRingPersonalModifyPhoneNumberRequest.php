@@ -19,6 +19,8 @@ class UserSimultaneousRingPersonalModifyPhoneNumberRequest extends \CWM\BroadWor
      * @ElementName userId
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:17711
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;
@@ -27,6 +29,8 @@ class UserSimultaneousRingPersonalModifyPhoneNumberRequest extends \CWM\BroadWor
      * @ElementName phoneNumber
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:17711
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $phoneNumber = null;

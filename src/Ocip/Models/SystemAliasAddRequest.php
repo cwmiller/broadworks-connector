@@ -19,6 +19,8 @@ class SystemAliasAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRe
      * @ElementName aliasNetAddress
      * @Type string
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1754
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $aliasNetAddress = null;

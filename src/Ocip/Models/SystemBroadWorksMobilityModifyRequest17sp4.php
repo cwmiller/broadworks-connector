@@ -67,6 +67,8 @@ class SystemBroadWorksMobilityModifyRequest17sp4 extends \CWM\BroadWorksConnecto
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:34203
+     * @MinInclusive 100
+     * @MaxInclusive 60000
      * @var int|null
      */
     private $imrnTimeoutMilliseconds = null;
@@ -77,6 +79,8 @@ class SystemBroadWorksMobilityModifyRequest17sp4 extends \CWM\BroadWorksConnecto
      * @Nillable
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:34203
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $scfSignalingNetAddress = null;
@@ -87,6 +91,8 @@ class SystemBroadWorksMobilityModifyRequest17sp4 extends \CWM\BroadWorksConnecto
      * @Nillable
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:34203
+     * @MinInclusive 1
+     * @MaxInclusive 65535
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $scfSignalingPort = null;
@@ -96,6 +102,8 @@ class SystemBroadWorksMobilityModifyRequest17sp4 extends \CWM\BroadWorksConnecto
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:34203
+     * @MinInclusive 10
+     * @MaxInclusive 1800
      * @var int|null
      */
     private $refreshPeriodSeconds = null;
@@ -105,6 +113,8 @@ class SystemBroadWorksMobilityModifyRequest17sp4 extends \CWM\BroadWorksConnecto
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:34203
+     * @MinInclusive 1
+     * @MaxInclusive 10
      * @var int|null
      */
     private $maxConsecutiveFailures = null;
@@ -114,6 +124,8 @@ class SystemBroadWorksMobilityModifyRequest17sp4 extends \CWM\BroadWorksConnecto
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:34203
+     * @MinInclusive 100
+     * @MaxInclusive 10000
      * @var int|null
      */
     private $maxResponseWaitTimeMilliseconds = null;

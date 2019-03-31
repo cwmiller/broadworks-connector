@@ -19,6 +19,8 @@ class GroupRoutePointBouncedCallModifyRequest extends \CWM\BroadWorksConnector\O
      * @ElementName serviceUserId
      * @Type string
      * @Group a27224a048c30ff69eab9209dec841cc:179
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $serviceUserId = null;
@@ -37,6 +39,8 @@ class GroupRoutePointBouncedCallModifyRequest extends \CWM\BroadWorksConnector\O
      * @Type int
      * @Optional
      * @Group a27224a048c30ff69eab9209dec841cc:179
+     * @MinInclusive 1
+     * @MaxInclusive 20
      * @var int|null
      */
     private $numberOfRingsBeforeBouncingCall = null;
@@ -56,6 +60,8 @@ class GroupRoutePointBouncedCallModifyRequest extends \CWM\BroadWorksConnector\O
      * @Nillable
      * @Optional
      * @Group a27224a048c30ff69eab9209dec841cc:179
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $transferPhoneNumber = null;

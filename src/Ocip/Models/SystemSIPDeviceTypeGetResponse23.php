@@ -147,6 +147,8 @@ class SystemSIPDeviceTypeGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Type string
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16232
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $webBasedConfigURL = null;
@@ -189,6 +191,8 @@ class SystemSIPDeviceTypeGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Type string
      * @Array
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16232
+     * @MinLength 1
+     * @MaxLength 20
      * @var string[]
      */
     private $protocolChoice = array(
@@ -433,6 +437,8 @@ class SystemSIPDeviceTypeGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Type string
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16232
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $resellerId = null;

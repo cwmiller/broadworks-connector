@@ -19,6 +19,8 @@ class TutorialFlagModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\O
      * @ElementName userId
      * @Type string
      * @Group 6b27fcc79475236456fc113a42b75543:631
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;

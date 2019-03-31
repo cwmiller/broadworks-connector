@@ -27,6 +27,8 @@ class SystemSessionAuditGetResponse extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName intervalSeconds
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:5676
+     * @MinInclusive 60
+     * @MaxInclusive 7200
      * @var int|null
      */
     private $intervalSeconds = null;
@@ -35,6 +37,8 @@ class SystemSessionAuditGetResponse extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName timeoutPeriodSeconds
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:5676
+     * @MinInclusive 60
+     * @MaxInclusive 600
      * @var int|null
      */
     private $timeoutPeriodSeconds = null;

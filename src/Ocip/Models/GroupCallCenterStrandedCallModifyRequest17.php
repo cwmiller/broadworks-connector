@@ -20,6 +20,8 @@ class GroupCallCenterStrandedCallModifyRequest17 extends \CWM\BroadWorksConnecto
      * @ElementName serviceUserId
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:29914
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $serviceUserId = null;
@@ -39,6 +41,8 @@ class GroupCallCenterStrandedCallModifyRequest17 extends \CWM\BroadWorksConnecto
      * @Nillable
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:29914
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $transferPhoneNumber = null;

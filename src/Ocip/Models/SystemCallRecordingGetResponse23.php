@@ -25,6 +25,8 @@ class SystemCallRecordingGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName maxResponseWaitTimeMilliseconds
      * @Type int
      * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:291
+     * @MinInclusive 1000
+     * @MaxInclusive 10000
      * @var int|null
      */
     private $maxResponseWaitTimeMilliseconds = null;

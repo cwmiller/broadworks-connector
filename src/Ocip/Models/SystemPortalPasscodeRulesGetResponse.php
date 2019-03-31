@@ -61,6 +61,8 @@ class SystemPortalPasscodeRulesGetResponse extends \CWM\BroadWorksConnector\Ocip
      * @ElementName minCodeLength
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:26347
+     * @MinInclusive 2
+     * @MaxInclusive 15
      * @var int|null
      */
     private $minCodeLength = null;
@@ -69,6 +71,8 @@ class SystemPortalPasscodeRulesGetResponse extends \CWM\BroadWorksConnector\Ocip
      * @ElementName maxCodeLength
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:26347
+     * @MinInclusive 3
+     * @MaxInclusive 30
      * @var int|null
      */
     private $maxCodeLength = null;
@@ -86,6 +90,8 @@ class SystemPortalPasscodeRulesGetResponse extends \CWM\BroadWorksConnector\Ocip
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:26347
+     * @MinInclusive 2
+     * @MaxInclusive 10
      * @var int|null
      */
     private $maxFailedLoginAttempts = null;
@@ -103,6 +109,8 @@ class SystemPortalPasscodeRulesGetResponse extends \CWM\BroadWorksConnector\Ocip
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:26347
+     * @MinInclusive 15
+     * @MaxInclusive 180
      * @var int|null
      */
     private $passcodeExpiresDays = null;
@@ -120,6 +128,8 @@ class SystemPortalPasscodeRulesGetResponse extends \CWM\BroadWorksConnector\Ocip
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:26347
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $loginDisabledNotifyEmailAddress = null;
@@ -128,6 +138,8 @@ class SystemPortalPasscodeRulesGetResponse extends \CWM\BroadWorksConnector\Ocip
      * @ElementName defaultPassword
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:26347
+     * @MinLength 1
+     * @MaxLength 60
      * @var string|null
      */
     private $defaultPassword = null;

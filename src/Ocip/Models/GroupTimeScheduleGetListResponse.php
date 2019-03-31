@@ -20,6 +20,8 @@ class GroupTimeScheduleGetListResponse extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Array
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:14093
+     * @MinLength 1
+     * @MaxLength 40
      * @var string[]
      */
     private $timeSchedule = array(

@@ -14,6 +14,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20ChangeCallForwarding
      * @ElementName finishEnteringNewDestinationNumber
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:35390
+     * @Length 1
+     * @Pattern \*|#
      * @var string|null
      */
     private $finishEnteringNewDestinationNumber = null;

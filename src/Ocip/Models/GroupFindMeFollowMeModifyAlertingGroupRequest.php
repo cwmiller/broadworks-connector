@@ -19,6 +19,8 @@ class GroupFindMeFollowMeModifyAlertingGroupRequest extends \CWM\BroadWorksConne
      * @ElementName serviceUserId
      * @Type string
      * @Group 79f226053ee345f2ff4c37c37c8e9114:444
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $serviceUserId = null;
@@ -27,6 +29,8 @@ class GroupFindMeFollowMeModifyAlertingGroupRequest extends \CWM\BroadWorksConne
      * @ElementName alertingGroupName
      * @Type string
      * @Group 79f226053ee345f2ff4c37c37c8e9114:444
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $alertingGroupName = null;
@@ -36,6 +40,8 @@ class GroupFindMeFollowMeModifyAlertingGroupRequest extends \CWM\BroadWorksConne
      * @Type string
      * @Optional
      * @Group 79f226053ee345f2ff4c37c37c8e9114:444
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $newAlertingGroupName = null;
@@ -46,6 +52,8 @@ class GroupFindMeFollowMeModifyAlertingGroupRequest extends \CWM\BroadWorksConne
      * @Nillable
      * @Optional
      * @Group 79f226053ee345f2ff4c37c37c8e9114:444
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $alertingGroupDescription = null;
@@ -73,6 +81,8 @@ class GroupFindMeFollowMeModifyAlertingGroupRequest extends \CWM\BroadWorksConne
      * @Type int
      * @Optional
      * @Group 79f226053ee345f2ff4c37c37c8e9114:444
+     * @MinInclusive 2
+     * @MaxInclusive 20
      * @var int|null
      */
     private $numberOfRings = null;

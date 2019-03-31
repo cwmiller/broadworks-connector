@@ -20,6 +20,8 @@ class GroupDnGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCID
      * @Array
      * @Optional
      * @Group f3a93cf15de4abd7903673e44ee3e07b:4430
+     * @MinLength 1
+     * @MaxLength 23
      * @var string[]
      */
     private $phoneNumber = array(

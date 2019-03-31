@@ -15,6 +15,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20CallForwardingOption
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:35377
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $activateCallForwarding = null;
@@ -24,6 +26,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20CallForwardingOption
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:35377
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $deactivateCallForwarding = null;
@@ -33,6 +37,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20CallForwardingOption
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:35377
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $changeCallForwardingDestination = null;
@@ -42,6 +48,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20CallForwardingOption
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:35377
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $listenToCallForwardingStatus = null;
@@ -50,6 +58,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20CallForwardingOption
      * @ElementName returnToPreviousMenu
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:35377
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $returnToPreviousMenu = null;
@@ -59,6 +69,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20CallForwardingOption
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:35377
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $repeatMenu = null;

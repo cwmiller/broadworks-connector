@@ -16,6 +16,8 @@ class AccountAuthorizationCodeEntry
      * @ElementName code
      * @Type string
      * @Group 65df37199ec43e5d21a187db39d63158:223
+     * @MinLength 2
+     * @MaxLength 14
      * @var string|null
      */
     private $code = null;
@@ -25,6 +27,8 @@ class AccountAuthorizationCodeEntry
      * @Type string
      * @Optional
      * @Group 65df37199ec43e5d21a187db39d63158:223
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $description = null;

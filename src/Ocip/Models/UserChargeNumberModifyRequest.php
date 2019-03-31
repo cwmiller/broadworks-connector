@@ -19,6 +19,8 @@ class UserChargeNumberModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName userId
      * @Type string
      * @Group 9e6c3cffd40902dc6325620cc5e3adef:74
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;
@@ -29,6 +31,8 @@ class UserChargeNumberModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @Nillable
      * @Optional
      * @Group 9e6c3cffd40902dc6325620cc5e3adef:74
+     * @MinLength 1
+     * @MaxLength 23
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $phoneNumber = null;

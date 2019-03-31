@@ -19,6 +19,8 @@ class SystemRoutingModifyTranslationRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName digits
      * @Type string
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14378
+     * @MinLength 1
+     * @MaxLength 6
      * @var string|null
      */
     private $digits = null;
@@ -28,6 +30,8 @@ class SystemRoutingModifyTranslationRequest extends \CWM\BroadWorksConnector\Oci
      * @Type string
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14378
+     * @MinLength 1
+     * @MaxLength 32
      * @var string|null
      */
     private $routeName = null;

@@ -18,6 +18,8 @@ class GroupDeviceTypeTagSetGetResponse extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Type string
      * @Optional
      * @Group f3a93cf15de4abd7903673e44ee3e07b:3604
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $tagSetName = null;

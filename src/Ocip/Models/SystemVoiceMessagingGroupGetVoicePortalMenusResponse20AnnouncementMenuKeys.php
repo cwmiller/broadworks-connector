@@ -15,6 +15,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20AnnouncementMenuKeys
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:35232
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $recordAudio = null;
@@ -24,6 +26,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20AnnouncementMenuKeys
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:35232
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $recordAudioVideo = null;
@@ -32,6 +36,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20AnnouncementMenuKeys
      * @ElementName returnToPreviousMenu
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:35232
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $returnToPreviousMenu = null;
@@ -41,6 +47,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20AnnouncementMenuKeys
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:35232
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $repeatMenu = null;

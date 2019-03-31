@@ -17,6 +17,8 @@ class ServiceInstanceAddProfileCallCenter
      * @ElementName name
      * @Type string
      * @Group c0d21ef9ba207c335d8347e5172fce1d:3538
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $name = null;
@@ -25,6 +27,8 @@ class ServiceInstanceAddProfileCallCenter
      * @ElementName callingLineIdLastName
      * @Type string
      * @Group c0d21ef9ba207c335d8347e5172fce1d:3538
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $callingLineIdLastName = null;
@@ -33,6 +37,8 @@ class ServiceInstanceAddProfileCallCenter
      * @ElementName callingLineIdFirstName
      * @Type string
      * @Group c0d21ef9ba207c335d8347e5172fce1d:3538
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $callingLineIdFirstName = null;
@@ -42,6 +48,8 @@ class ServiceInstanceAddProfileCallCenter
      * @Type string
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:3538
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $hiraganaLastName = null;
@@ -51,6 +59,8 @@ class ServiceInstanceAddProfileCallCenter
      * @Type string
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:3538
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $hiraganaFirstName = null;
@@ -60,6 +70,8 @@ class ServiceInstanceAddProfileCallCenter
      * @Type string
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:3538
+     * @MinLength 1
+     * @MaxLength 23
      * @var string|null
      */
     private $phoneNumber = null;
@@ -69,6 +81,8 @@ class ServiceInstanceAddProfileCallCenter
      * @Type string
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:3538
+     * @MinLength 2
+     * @MaxLength 20
      * @var string|null
      */
     private $extension = null;
@@ -77,6 +91,8 @@ class ServiceInstanceAddProfileCallCenter
      * @ElementName password
      * @Type string
      * @Group c0d21ef9ba207c335d8347e5172fce1d:3538
+     * @MinLength 1
+     * @MaxLength 60
      * @var string|null
      */
     private $password = null;
@@ -95,6 +111,8 @@ class ServiceInstanceAddProfileCallCenter
      * @Type string
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:3538
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $language = null;
@@ -104,6 +122,8 @@ class ServiceInstanceAddProfileCallCenter
      * @Type string
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:3538
+     * @MinLength 1
+     * @MaxLength 127
      * @var string|null
      */
     private $timeZone = null;
@@ -114,6 +134,8 @@ class ServiceInstanceAddProfileCallCenter
      * @Array
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:3538
+     * @MinLength 1
+     * @MaxLength 161
      * @var string[]
      */
     private $alias = array(
@@ -125,6 +147,8 @@ class ServiceInstanceAddProfileCallCenter
      * @Type string
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:3538
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $publicUserIdentity = null;
@@ -134,6 +158,8 @@ class ServiceInstanceAddProfileCallCenter
      * @Type string
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:3538
+     * @MinLength 1
+     * @MaxLength 23
      * @var string|null
      */
     private $callingLineIdPhoneNumber = null;

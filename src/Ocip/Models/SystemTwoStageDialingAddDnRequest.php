@@ -19,6 +19,8 @@ class SystemTwoStageDialingAddDnRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName phoneNumber
      * @Type string
      * @Group 2a1428f64736d8f970ea802e5a73c495:46
+     * @MinLength 1
+     * @MaxLength 23
      * @var string|null
      */
     private $phoneNumber = null;
@@ -28,6 +30,8 @@ class SystemTwoStageDialingAddDnRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Type string
      * @Optional
      * @Group 2a1428f64736d8f970ea802e5a73c495:46
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $description = null;

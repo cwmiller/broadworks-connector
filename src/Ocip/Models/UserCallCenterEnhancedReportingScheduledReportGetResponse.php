@@ -18,6 +18,8 @@ class UserCallCenterEnhancedReportingScheduledReportGetResponse extends \CWM\Bro
      * @Type string
      * @Optional
      * @Group e2c537e3e39483b96620673a7012ffdd:6818
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $description = null;
@@ -60,6 +62,8 @@ class UserCallCenterEnhancedReportingScheduledReportGetResponse extends \CWM\Bro
      * @ElementName reportTimeZone
      * @Type string
      * @Group e2c537e3e39483b96620673a7012ffdd:6818
+     * @MinLength 1
+     * @MaxLength 127
      * @var string|null
      */
     private $reportTimeZone = null;
@@ -126,6 +130,8 @@ class UserCallCenterEnhancedReportingScheduledReportGetResponse extends \CWM\Bro
      * @Type int
      * @Optional
      * @Group e2c537e3e39483b96620673a7012ffdd:6818
+     * @MinInclusive 1
+     * @MaxInclusive 7200
      * @var int|null
      */
     private $callCompletionThresholdSeconds = null;
@@ -135,6 +141,8 @@ class UserCallCenterEnhancedReportingScheduledReportGetResponse extends \CWM\Bro
      * @Type int
      * @Optional
      * @Group e2c537e3e39483b96620673a7012ffdd:6818
+     * @MinInclusive 1
+     * @MaxInclusive 7200
      * @var int|null
      */
     private $shortDurationThresholdSeconds = null;
@@ -145,6 +153,8 @@ class UserCallCenterEnhancedReportingScheduledReportGetResponse extends \CWM\Bro
      * @Array
      * @Optional
      * @Group e2c537e3e39483b96620673a7012ffdd:6818
+     * @MinInclusive 1
+     * @MaxInclusive 7200
      * @var int[]
      */
     private $serviceLevelThresholdSeconds = array(
@@ -165,6 +175,8 @@ class UserCallCenterEnhancedReportingScheduledReportGetResponse extends \CWM\Bro
      * @Type int
      * @Optional
      * @Group e2c537e3e39483b96620673a7012ffdd:6818
+     * @MinInclusive
+     * @MaxInclusive 100
      * @var int|null
      */
     private $serviceLevelObjectivePercentage = null;
@@ -175,6 +187,8 @@ class UserCallCenterEnhancedReportingScheduledReportGetResponse extends \CWM\Bro
      * @Array
      * @Optional
      * @Group e2c537e3e39483b96620673a7012ffdd:6818
+     * @MinInclusive 1
+     * @MaxInclusive 7200
      * @var int[]
      */
     private $abandonedCallThresholdSeconds = array(
@@ -186,6 +200,8 @@ class UserCallCenterEnhancedReportingScheduledReportGetResponse extends \CWM\Bro
      * @Type string
      * @Array
      * @Group e2c537e3e39483b96620673a7012ffdd:6818
+     * @MinLength 1
+     * @MaxLength 80
      * @var string[]
      */
     private $emailAddress = array(

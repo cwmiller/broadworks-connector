@@ -19,6 +19,8 @@ class GroupCallParkModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @ElementName serviceProviderId
      * @Type string
      * @Group 7a925e891158dfa3cb1319e045608894:519
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,6 +29,8 @@ class GroupCallParkModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @ElementName groupId
      * @Type string
      * @Group 7a925e891158dfa3cb1319e045608894:519
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;
@@ -36,6 +40,8 @@ class GroupCallParkModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @Type int
      * @Optional
      * @Group 7a925e891158dfa3cb1319e045608894:519
+     * @MinInclusive 30
+     * @MaxInclusive 600
      * @var int|null
      */
     private $recallTimerSeconds = null;
@@ -45,6 +51,8 @@ class GroupCallParkModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @Type int
      * @Optional
      * @Group 7a925e891158dfa3cb1319e045608894:519
+     * @MinInclusive 2
+     * @MaxInclusive 15
      * @var int|null
      */
     private $displayTimerSeconds = null;
@@ -64,6 +72,8 @@ class GroupCallParkModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @Nillable
      * @Optional
      * @Group 7a925e891158dfa3cb1319e045608894:519
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $recallAlternateUserId = null;
@@ -91,6 +101,8 @@ class GroupCallParkModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @Type int
      * @Optional
      * @Group 7a925e891158dfa3cb1319e045608894:519
+     * @MinInclusive 30
+     * @MaxInclusive 600
      * @var int|null
      */
     private $alternateUserRecallTimerSeconds = null;

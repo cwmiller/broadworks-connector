@@ -19,6 +19,8 @@ class EnterpriseEnterpriseTrunkGetRequest21 extends \CWM\BroadWorksConnector\Oci
      * @ElementName serviceProviderId
      * @Type string
      * @Group b9c14e2d80e4e7749688ca13ba233b44:313
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,6 +29,8 @@ class EnterpriseEnterpriseTrunkGetRequest21 extends \CWM\BroadWorksConnector\Oci
      * @ElementName enterpriseTrunkName
      * @Type string
      * @Group b9c14e2d80e4e7749688ca13ba233b44:313
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $enterpriseTrunkName = null;

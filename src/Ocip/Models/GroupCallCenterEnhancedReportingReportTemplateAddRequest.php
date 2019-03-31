@@ -19,6 +19,8 @@ class GroupCallCenterEnhancedReportingReportTemplateAddRequest extends \CWM\Broa
      * @ElementName serviceProviderId
      * @Type string
      * @Group e2c537e3e39483b96620673a7012ffdd:3418
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,6 +29,8 @@ class GroupCallCenterEnhancedReportingReportTemplateAddRequest extends \CWM\Broa
      * @ElementName groupId
      * @Type string
      * @Group e2c537e3e39483b96620673a7012ffdd:3418
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;
@@ -35,6 +39,8 @@ class GroupCallCenterEnhancedReportingReportTemplateAddRequest extends \CWM\Broa
      * @ElementName name
      * @Type string
      * @Group e2c537e3e39483b96620673a7012ffdd:3418
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $name = null;
@@ -44,6 +50,8 @@ class GroupCallCenterEnhancedReportingReportTemplateAddRequest extends \CWM\Broa
      * @Type string
      * @Optional
      * @Group e2c537e3e39483b96620673a7012ffdd:3418
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $description = null;
@@ -52,6 +60,8 @@ class GroupCallCenterEnhancedReportingReportTemplateAddRequest extends \CWM\Broa
      * @ElementName dataTemplate
      * @Type string
      * @Group e2c537e3e39483b96620673a7012ffdd:3418
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $dataTemplate = null;
@@ -61,6 +71,8 @@ class GroupCallCenterEnhancedReportingReportTemplateAddRequest extends \CWM\Broa
      * @Type int
      * @Optional
      * @Group e2c537e3e39483b96620673a7012ffdd:3418
+     * @MinInclusive 1
+     * @MaxInclusive 999
      * @var int|null
      */
     private $filterNumber = null;
@@ -157,6 +169,8 @@ class GroupCallCenterEnhancedReportingReportTemplateAddRequest extends \CWM\Broa
      * @Type int
      * @Optional
      * @Group e2c537e3e39483b96620673a7012ffdd:3418
+     * @MinInclusive 1
+     * @MaxInclusive 5
      * @var int|null
      */
     private $serviceLevelThresholdParamNumber = null;
@@ -166,6 +180,8 @@ class GroupCallCenterEnhancedReportingReportTemplateAddRequest extends \CWM\Broa
      * @Type int
      * @Optional
      * @Group e2c537e3e39483b96620673a7012ffdd:3418
+     * @MinInclusive 1
+     * @MaxInclusive 4
      * @var int|null
      */
     private $abandonedCallThresholdParamNumber = null;
@@ -176,6 +192,8 @@ class GroupCallCenterEnhancedReportingReportTemplateAddRequest extends \CWM\Broa
      * @Array
      * @Optional
      * @Group e2c537e3e39483b96620673a7012ffdd:3418
+     * @MinLength 1
+     * @MaxLength 160
      * @var string[]
      */
     private $filterValue = array(

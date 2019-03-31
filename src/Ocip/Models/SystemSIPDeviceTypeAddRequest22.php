@@ -51,6 +51,8 @@ class SystemSIPDeviceTypeAddRequest22 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName deviceType
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:39214
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $deviceType = null;
@@ -164,6 +166,8 @@ class SystemSIPDeviceTypeAddRequest22 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:39214
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $webBasedConfigURL = null;
@@ -439,6 +443,8 @@ class SystemSIPDeviceTypeAddRequest22 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:39214
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $resellerId = null;

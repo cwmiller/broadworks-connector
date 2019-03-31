@@ -27,6 +27,8 @@ class AccessDeviceEndpointAdd
      * @ElementName linePort
      * @Type string
      * @Group c0d21ef9ba207c335d8347e5172fce1d:43
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $linePort = null;
@@ -36,6 +38,8 @@ class AccessDeviceEndpointAdd
      * @Type string
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:43
+     * @MinLength 1
+     * @MaxLength 1020
      * @var string|null
      */
     private $contact = null;
@@ -45,6 +49,8 @@ class AccessDeviceEndpointAdd
      * @Type string
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:43
+     * @MinLength 1
+     * @MaxLength 1024
      * @var string|null
      */
     private $pathHeader = null;
@@ -54,6 +60,8 @@ class AccessDeviceEndpointAdd
      * @Type int
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:43
+     * @MinInclusive 1
+     * @MaxInclusive 1024
      * @var int|null
      */
     private $portNumber = null;

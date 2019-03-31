@@ -22,6 +22,8 @@ class UserCustomRingbackUserAddCriteriaRequest16 extends \CWM\BroadWorksConnecto
      * @ElementName userId
      * @Type string
      * @Group a8b2edcd7d6936a8b76653949ae59623:244
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;
@@ -30,6 +32,8 @@ class UserCustomRingbackUserAddCriteriaRequest16 extends \CWM\BroadWorksConnecto
      * @ElementName criteriaName
      * @Type string
      * @Group a8b2edcd7d6936a8b76653949ae59623:244
+     * @MinLength 1
+     * @MaxLength 50
      * @var string|null
      */
     private $criteriaName = null;

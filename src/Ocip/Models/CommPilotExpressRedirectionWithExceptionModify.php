@@ -28,6 +28,8 @@ class CommPilotExpressRedirectionWithExceptionModify
      * @Nillable
      * @Optional
      * @Group 8c204d784d1904d9eeea996d46de69be:244
+     * @MinLength 1
+     * @MaxLength 23
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $excludedPhoneNumber01 = null;
@@ -38,6 +40,8 @@ class CommPilotExpressRedirectionWithExceptionModify
      * @Nillable
      * @Optional
      * @Group 8c204d784d1904d9eeea996d46de69be:244
+     * @MinLength 1
+     * @MaxLength 23
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $excludedPhoneNumber02 = null;
@@ -48,6 +52,8 @@ class CommPilotExpressRedirectionWithExceptionModify
      * @Nillable
      * @Optional
      * @Group 8c204d784d1904d9eeea996d46de69be:244
+     * @MinLength 1
+     * @MaxLength 23
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $excludedPhoneNumber03 = null;
@@ -58,6 +64,8 @@ class CommPilotExpressRedirectionWithExceptionModify
      * @Nillable
      * @Optional
      * @Group 8c204d784d1904d9eeea996d46de69be:244
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $forwardExcludedNumbersTo = null;

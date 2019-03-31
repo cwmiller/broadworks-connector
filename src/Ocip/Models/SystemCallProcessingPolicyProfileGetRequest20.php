@@ -19,6 +19,8 @@ class SystemCallProcessingPolicyProfileGetRequest20 extends \CWM\BroadWorksConne
      * @ElementName name
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:34389
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $name = null;

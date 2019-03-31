@@ -28,6 +28,8 @@ class SystemPerformanceMeasurementReportingGetResponse extends \CWM\BroadWorksCo
      * @ElementName reportingInterval
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:38889
+     * @MinInclusive 5
+     * @MaxInclusive 45000
      * @var int|null
      */
     private $reportingInterval = null;

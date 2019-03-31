@@ -53,6 +53,8 @@ class GroupPasswordRulesGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName minDigits
      * @Type int
      * @Group de4d76f01f337fe4694212ec9f771753:5071
+     * @MinInclusive 1
+     * @MaxInclusive 10
      * @var int|null
      */
     private $minDigits = null;
@@ -69,6 +71,8 @@ class GroupPasswordRulesGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName minUpperCaseLetters
      * @Type int
      * @Group de4d76f01f337fe4694212ec9f771753:5071
+     * @MinInclusive 1
+     * @MaxInclusive 10
      * @var int|null
      */
     private $minUpperCaseLetters = null;
@@ -85,6 +89,8 @@ class GroupPasswordRulesGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName minLowerCaseLetters
      * @Type int
      * @Group de4d76f01f337fe4694212ec9f771753:5071
+     * @MinInclusive 1
+     * @MaxInclusive 10
      * @var int|null
      */
     private $minLowerCaseLetters = null;
@@ -101,6 +107,8 @@ class GroupPasswordRulesGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName minNonAlphanumericCharacters
      * @Type int
      * @Group de4d76f01f337fe4694212ec9f771753:5071
+     * @MinInclusive 1
+     * @MaxInclusive 10
      * @var int|null
      */
     private $minNonAlphanumericCharacters = null;
@@ -109,6 +117,8 @@ class GroupPasswordRulesGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName minLength
      * @Type int
      * @Group de4d76f01f337fe4694212ec9f771753:5071
+     * @MinInclusive 3
+     * @MaxInclusive 40
      * @var int|null
      */
     private $minLength = null;
@@ -117,6 +127,8 @@ class GroupPasswordRulesGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName maxFailedLoginAttempts
      * @Type int
      * @Group de4d76f01f337fe4694212ec9f771753:5071
+     * @MinInclusive
+     * @MaxInclusive 10
      * @var int|null
      */
     private $maxFailedLoginAttempts = null;
@@ -125,6 +137,8 @@ class GroupPasswordRulesGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName passwordExpiresDays
      * @Type int
      * @Group de4d76f01f337fe4694212ec9f771753:5071
+     * @MinInclusive
+     * @MaxInclusive 199
      * @var int|null
      */
     private $passwordExpiresDays = null;
@@ -142,6 +156,8 @@ class GroupPasswordRulesGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Type string
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:5071
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $loginDisabledNotifyEmailAddress = null;
@@ -166,6 +182,8 @@ class GroupPasswordRulesGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName numberOfPreviousPasswords
      * @Type int
      * @Group de4d76f01f337fe4694212ec9f771753:5071
+     * @MinInclusive 1
+     * @MaxInclusive 10
      * @var int|null
      */
     private $numberOfPreviousPasswords = null;

@@ -28,6 +28,8 @@ class SystemCallRecordingGetResponse extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName refreshPeriodSeconds
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:4654
+     * @MinInclusive 10
+     * @MaxInclusive 300
      * @var int|null
      */
     private $refreshPeriodSeconds = null;
@@ -36,6 +38,8 @@ class SystemCallRecordingGetResponse extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName maxConsecutiveFailures
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:4654
+     * @MinInclusive 1
+     * @MaxInclusive 10
      * @var int|null
      */
     private $maxConsecutiveFailures = null;
@@ -44,6 +48,8 @@ class SystemCallRecordingGetResponse extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName maxResponseWaitTimeMilliseconds
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:4654
+     * @MinInclusive 1000
+     * @MaxInclusive 10000
      * @var int|null
      */
     private $maxResponseWaitTimeMilliseconds = null;

@@ -28,6 +28,8 @@ class ServiceProviderCommunicationBarringProfileAddRequest17sp3 extends \CWM\Bro
      * @ElementName serviceProviderId
      * @Type string
      * @Group de4d76f01f337fe4694212ec9f771753:1171
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -36,6 +38,8 @@ class ServiceProviderCommunicationBarringProfileAddRequest17sp3 extends \CWM\Bro
      * @ElementName name
      * @Type string
      * @Group de4d76f01f337fe4694212ec9f771753:1171
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $name = null;
@@ -45,6 +49,8 @@ class ServiceProviderCommunicationBarringProfileAddRequest17sp3 extends \CWM\Bro
      * @Type string
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:1171
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $description = null;
@@ -62,6 +68,8 @@ class ServiceProviderCommunicationBarringProfileAddRequest17sp3 extends \CWM\Bro
      * @Type string
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:1171
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $originatingDefaultTreatmentId = null;
@@ -71,6 +79,8 @@ class ServiceProviderCommunicationBarringProfileAddRequest17sp3 extends \CWM\Bro
      * @Type string
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:1171
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $originatingDefaultTransferNumber = null;
@@ -80,6 +90,8 @@ class ServiceProviderCommunicationBarringProfileAddRequest17sp3 extends \CWM\Bro
      * @Type int
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:1171
+     * @MinInclusive 60
+     * @MaxInclusive 86400
      * @var int|null
      */
     private $originatingDefaultCallTimeout = null;
@@ -109,6 +121,8 @@ class ServiceProviderCommunicationBarringProfileAddRequest17sp3 extends \CWM\Bro
      * @Type int
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:1171
+     * @MinInclusive 60
+     * @MaxInclusive 86400
      * @var int|null
      */
     private $redirectingDefaultCallTimeout = null;
@@ -138,6 +152,8 @@ class ServiceProviderCommunicationBarringProfileAddRequest17sp3 extends \CWM\Bro
      * @Type int
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:1171
+     * @MinInclusive 60
+     * @MaxInclusive 86400
      * @var int|null
      */
     private $callMeNowDefaultCallTimeout = null;
@@ -167,6 +183,8 @@ class ServiceProviderCommunicationBarringProfileAddRequest17sp3 extends \CWM\Bro
      * @Type int
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:1171
+     * @MinInclusive 60
+     * @MaxInclusive 86400
      * @var int|null
      */
     private $incomingDefaultCallTimeout = null;

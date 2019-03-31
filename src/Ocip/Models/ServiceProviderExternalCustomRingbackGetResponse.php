@@ -18,6 +18,8 @@ class ServiceProviderExternalCustomRingbackGetResponse extends \CWM\BroadWorksCo
      * @Type string
      * @Optional
      * @Group a8df43dca23d99d8ab44c0082aadfbe0:61
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $prefixDigits = null;
@@ -27,6 +29,8 @@ class ServiceProviderExternalCustomRingbackGetResponse extends \CWM\BroadWorksCo
      * @Type string
      * @Optional
      * @Group a8df43dca23d99d8ab44c0082aadfbe0:61
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $serverNetAddress = null;
@@ -36,6 +40,8 @@ class ServiceProviderExternalCustomRingbackGetResponse extends \CWM\BroadWorksCo
      * @Type int
      * @Optional
      * @Group a8df43dca23d99d8ab44c0082aadfbe0:61
+     * @MinInclusive 1025
+     * @MaxInclusive 65535
      * @var int|null
      */
     private $serverPort = null;
@@ -44,6 +50,8 @@ class ServiceProviderExternalCustomRingbackGetResponse extends \CWM\BroadWorksCo
      * @ElementName timeoutSeconds
      * @Type int
      * @Group a8df43dca23d99d8ab44c0082aadfbe0:61
+     * @MinInclusive 1
+     * @MaxInclusive 20
      * @var int|null
      */
     private $timeoutSeconds = null;

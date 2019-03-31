@@ -25,6 +25,8 @@ class SystemCommunicationBarringProfileGetResponse19sp1V2 extends \CWM\BroadWork
      * @Type string
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6122
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $description = null;
@@ -42,6 +44,8 @@ class SystemCommunicationBarringProfileGetResponse19sp1V2 extends \CWM\BroadWork
      * @Type string
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6122
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $originatingDefaultTreatmentId = null;
@@ -51,6 +55,8 @@ class SystemCommunicationBarringProfileGetResponse19sp1V2 extends \CWM\BroadWork
      * @Type string
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6122
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $originatingDefaultTransferNumber = null;
@@ -60,6 +66,8 @@ class SystemCommunicationBarringProfileGetResponse19sp1V2 extends \CWM\BroadWork
      * @Type int
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6122
+     * @MinInclusive 60
+     * @MaxInclusive 86400
      * @var int|null
      */
     private $originatingDefaultCallTimeout = null;
@@ -89,6 +97,8 @@ class SystemCommunicationBarringProfileGetResponse19sp1V2 extends \CWM\BroadWork
      * @Type int
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6122
+     * @MinInclusive 60
+     * @MaxInclusive 86400
      * @var int|null
      */
     private $redirectingDefaultCallTimeout = null;
@@ -118,6 +128,8 @@ class SystemCommunicationBarringProfileGetResponse19sp1V2 extends \CWM\BroadWork
      * @Type int
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6122
+     * @MinInclusive 60
+     * @MaxInclusive 86400
      * @var int|null
      */
     private $incomingDefaultCallTimeout = null;
@@ -147,6 +159,8 @@ class SystemCommunicationBarringProfileGetResponse19sp1V2 extends \CWM\BroadWork
      * @Type int
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6122
+     * @MinInclusive 60
+     * @MaxInclusive 86400
      * @var int|null
      */
     private $callMeNowDefaultCallTimeout = null;

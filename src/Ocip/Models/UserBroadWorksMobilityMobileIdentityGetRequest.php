@@ -22,6 +22,8 @@ class UserBroadWorksMobilityMobileIdentityGetRequest extends \CWM\BroadWorksConn
      * @ElementName userId
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:40091
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;
@@ -30,6 +32,8 @@ class UserBroadWorksMobilityMobileIdentityGetRequest extends \CWM\BroadWorksConn
      * @ElementName mobileNumber
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:40091
+     * @MinLength 1
+     * @MaxLength 23
      * @var string|null
      */
     private $mobileNumber = null;

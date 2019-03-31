@@ -21,6 +21,8 @@ class GroupCustomContactDirectoryGetAvailableUserListRequest extends \CWM\BroadW
      * @ElementName serviceProviderId
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:13420
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -29,6 +31,8 @@ class GroupCustomContactDirectoryGetAvailableUserListRequest extends \CWM\BroadW
      * @ElementName groupId
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:13420
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;
@@ -38,6 +42,7 @@ class GroupCustomContactDirectoryGetAvailableUserListRequest extends \CWM\BroadW
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:13420
+     * @MinInclusive 1
      * @var int|null
      */
     private $responseSizeLimit = null;

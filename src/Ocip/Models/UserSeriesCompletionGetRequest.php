@@ -20,6 +20,8 @@ class UserSeriesCompletionGetRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName userId
      * @Type string
      * @Group b974dc59b4b32d9f5952a0442ecaefa8:216
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;

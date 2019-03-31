@@ -19,6 +19,8 @@ class UserChargeNumberGetRequest14sp9 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName userId
      * @Type string
      * @Group 9e6c3cffd40902dc6325620cc5e3adef:41
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;

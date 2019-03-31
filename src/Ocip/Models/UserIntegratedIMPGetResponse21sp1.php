@@ -30,6 +30,8 @@ class UserIntegratedIMPGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Type string
      * @Optional
      * @Group 23389100b68cef3aa07ee12ac7a2bd16:351
+     * @MinLength 1
+     * @MaxLength 196
      * @var string|null
      */
     private $impId = null;

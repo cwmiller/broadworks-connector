@@ -16,6 +16,8 @@ class HuntAgentWeight
      * @ElementName agentUserId
      * @Type string
      * @Group c0d21ef9ba207c335d8347e5172fce1d:2471
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $agentUserId = null;
@@ -24,6 +26,8 @@ class HuntAgentWeight
      * @ElementName weight
      * @Type int
      * @Group c0d21ef9ba207c335d8347e5172fce1d:2471
+     * @MinInclusive
+     * @MaxInclusive 100
      * @var int|null
      */
     private $weight = null;

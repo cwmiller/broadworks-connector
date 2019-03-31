@@ -19,6 +19,8 @@ class GroupPreAlertingAnnouncementGetRequest20 extends \CWM\BroadWorksConnector\
      * @ElementName serviceProviderId
      * @Type string
      * @Group 6165f2b4cd549de71fe8f3171488fdd8:114
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,6 +29,8 @@ class GroupPreAlertingAnnouncementGetRequest20 extends \CWM\BroadWorksConnector\
      * @ElementName groupId
      * @Type string
      * @Group 6165f2b4cd549de71fe8f3171488fdd8:114
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;

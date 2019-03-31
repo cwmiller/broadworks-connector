@@ -22,6 +22,8 @@ class SystemThirdPartyIMPGetResponse extends \CWM\BroadWorksConnector\Ocip\Model
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:27017
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $serviceNetAddress = null;
@@ -31,6 +33,8 @@ class SystemThirdPartyIMPGetResponse extends \CWM\BroadWorksConnector\Ocip\Model
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:27017
+     * @MinInclusive 1
+     * @MaxInclusive 65535
      * @var int|null
      */
     private $servicePort = null;

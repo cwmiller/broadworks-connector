@@ -19,6 +19,8 @@ class UserFaxMessagingGetRequest17sp1 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName userId
      * @Type string
      * @Group f46f967f937c7dc89ddb3db423383aa4:99
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;

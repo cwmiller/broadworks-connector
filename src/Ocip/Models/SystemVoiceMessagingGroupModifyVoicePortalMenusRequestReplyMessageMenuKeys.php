@@ -15,6 +15,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestReplyMessageMenuKeys
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:28554
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $sendReplyToCaller = null;
@@ -25,6 +27,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestReplyMessageMenuKeys
      * @Nillable
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:28554
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $changeCurrentReply = null;
@@ -35,6 +39,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestReplyMessageMenuKeys
      * @Nillable
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:28554
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $listenToCurrentReply = null;
@@ -45,6 +51,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestReplyMessageMenuKeys
      * @Nillable
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:28554
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $setOrClearUrgentIndicator = null;
@@ -55,6 +63,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestReplyMessageMenuKeys
      * @Nillable
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:28554
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $setOrClearConfidentialIndicator = null;
@@ -64,6 +74,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestReplyMessageMenuKeys
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:28554
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $returnToPreviousMenu = null;
@@ -74,6 +86,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestReplyMessageMenuKeys
      * @Nillable
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:28554
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $repeatMenu = null;

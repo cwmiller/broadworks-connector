@@ -19,6 +19,8 @@ class SystemThirdPartyIMPGetResponse19 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Type string
      * @Optional
      * @Group 94766dfbb33c7fae7c6022754ea24721:53
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $serviceNetAddress = null;
@@ -28,6 +30,8 @@ class SystemThirdPartyIMPGetResponse19 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Type int
      * @Optional
      * @Group 94766dfbb33c7fae7c6022754ea24721:53
+     * @MinInclusive 1
+     * @MaxInclusive 65535
      * @var int|null
      */
     private $servicePort = null;
@@ -37,6 +41,8 @@ class SystemThirdPartyIMPGetResponse19 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Type string
      * @Optional
      * @Group 94766dfbb33c7fae7c6022754ea24721:53
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $boshURL = null;

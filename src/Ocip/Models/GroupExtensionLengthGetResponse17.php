@@ -17,6 +17,8 @@ class GroupExtensionLengthGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName minExtensionLength
      * @Type int
      * @Group f3a93cf15de4abd7903673e44ee3e07b:4855
+     * @MinInclusive 2
+     * @MaxInclusive 20
      * @var int|null
      */
     private $minExtensionLength = null;
@@ -25,6 +27,8 @@ class GroupExtensionLengthGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName maxExtensionLength
      * @Type int
      * @Group f3a93cf15de4abd7903673e44ee3e07b:4855
+     * @MinInclusive 2
+     * @MaxInclusive 20
      * @var int|null
      */
     private $maxExtensionLength = null;
@@ -33,6 +37,8 @@ class GroupExtensionLengthGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName defaultExtensionLength
      * @Type int
      * @Group f3a93cf15de4abd7903673e44ee3e07b:4855
+     * @MinInclusive 2
+     * @MaxInclusive 20
      * @var int|null
      */
     private $defaultExtensionLength = null;

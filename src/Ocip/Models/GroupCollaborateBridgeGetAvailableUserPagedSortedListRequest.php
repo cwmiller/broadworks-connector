@@ -28,6 +28,8 @@ class GroupCollaborateBridgeGetAvailableUserPagedSortedListRequest extends \CWM\
      * @ElementName serviceProviderId
      * @Type string
      * @Group 939fd5846dfae8bdf58308d6cb9ebb12:255
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -36,6 +38,8 @@ class GroupCollaborateBridgeGetAvailableUserPagedSortedListRequest extends \CWM\
      * @ElementName groupId
      * @Type string
      * @Group 939fd5846dfae8bdf58308d6cb9ebb12:255
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;

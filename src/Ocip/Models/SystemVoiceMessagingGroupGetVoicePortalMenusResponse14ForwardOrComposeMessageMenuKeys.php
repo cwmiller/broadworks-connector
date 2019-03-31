@@ -15,6 +15,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse14ForwardOrComposeMess
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:22896
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $sendToPerson = null;
@@ -24,6 +26,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse14ForwardOrComposeMess
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:22896
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $sendToAllGroupMembers = null;
@@ -33,6 +37,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse14ForwardOrComposeMess
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:22896
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $sendToDistributionList = null;
@@ -42,6 +48,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse14ForwardOrComposeMess
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:22896
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $changeCurrentIntroductionOrMessage = null;
@@ -51,6 +59,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse14ForwardOrComposeMess
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:22896
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $listenToCurrentIntroductionOrMessage = null;
@@ -60,6 +70,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse14ForwardOrComposeMess
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:22896
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $setOrClearUrgentIndicator = null;
@@ -69,6 +81,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse14ForwardOrComposeMess
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:22896
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $setOrClearConfidentialIndicator = null;
@@ -77,6 +91,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse14ForwardOrComposeMess
      * @ElementName returnToPreviousMenu
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:22896
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $returnToPreviousMenu = null;
@@ -86,6 +102,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse14ForwardOrComposeMess
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:22896
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $repeatMenu = null;

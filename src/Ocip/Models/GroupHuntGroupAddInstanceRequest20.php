@@ -23,6 +23,8 @@ class GroupHuntGroupAddInstanceRequest20 extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName serviceProviderId
      * @Type string
      * @Group bc829065f9d696d3ca7084121d57f8c0:60
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -31,6 +33,8 @@ class GroupHuntGroupAddInstanceRequest20 extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName groupId
      * @Type string
      * @Group bc829065f9d696d3ca7084121d57f8c0:60
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;
@@ -39,6 +43,8 @@ class GroupHuntGroupAddInstanceRequest20 extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName serviceUserId
      * @Type string
      * @Group bc829065f9d696d3ca7084121d57f8c0:60
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $serviceUserId = null;
@@ -71,6 +77,8 @@ class GroupHuntGroupAddInstanceRequest20 extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName noAnswerNumberOfRings
      * @Type int
      * @Group bc829065f9d696d3ca7084121d57f8c0:60
+     * @MinInclusive 1
+     * @MaxInclusive 20
      * @var int|null
      */
     private $noAnswerNumberOfRings = null;
@@ -87,6 +95,8 @@ class GroupHuntGroupAddInstanceRequest20 extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName forwardTimeoutSeconds
      * @Type int
      * @Group bc829065f9d696d3ca7084121d57f8c0:60
+     * @MinInclusive
+     * @MaxInclusive 7200
      * @var int|null
      */
     private $forwardTimeoutSeconds = null;
@@ -96,6 +106,8 @@ class GroupHuntGroupAddInstanceRequest20 extends \CWM\BroadWorksConnector\Ocip\M
      * @Type string
      * @Optional
      * @Group bc829065f9d696d3ca7084121d57f8c0:60
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $forwardToPhoneNumber = null;
@@ -106,6 +118,8 @@ class GroupHuntGroupAddInstanceRequest20 extends \CWM\BroadWorksConnector\Ocip\M
      * @Array
      * @Optional
      * @Group bc829065f9d696d3ca7084121d57f8c0:60
+     * @MinLength 1
+     * @MaxLength 161
      * @var string[]
      */
     private $agentUserId = array(
@@ -149,6 +163,8 @@ class GroupHuntGroupAddInstanceRequest20 extends \CWM\BroadWorksConnector\Ocip\M
      * @Type string
      * @Optional
      * @Group bc829065f9d696d3ca7084121d57f8c0:60
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $notReachableForwardToPhoneNumber = null;
@@ -190,6 +206,8 @@ class GroupHuntGroupAddInstanceRequest20 extends \CWM\BroadWorksConnector\Ocip\M
      * @Type string
      * @Optional
      * @Group bc829065f9d696d3ca7084121d57f8c0:60
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $networkClassOfService = null;

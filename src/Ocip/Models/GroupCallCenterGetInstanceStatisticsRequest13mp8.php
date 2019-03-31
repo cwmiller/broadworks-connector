@@ -21,6 +21,8 @@ class GroupCallCenterGetInstanceStatisticsRequest13mp8 extends \CWM\BroadWorksCo
      * @ElementName serviceUserId
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:997
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $serviceUserId = null;

@@ -19,6 +19,8 @@ class UserNumberPortabilityAnnouncementGetRequest extends \CWM\BroadWorksConnect
      * @ElementName userId
      * @Type string
      * @Group 6abb48a2d0672804f15670b4afa7ec02:43
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;

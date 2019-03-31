@@ -22,6 +22,8 @@ class SystemIntegratedIMPGetResponse extends \CWM\BroadWorksConnector\Ocip\Model
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:26218
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $serviceDomain = null;
@@ -31,6 +33,8 @@ class SystemIntegratedIMPGetResponse extends \CWM\BroadWorksConnector\Ocip\Model
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:26218
+     * @MinInclusive 1
+     * @MaxInclusive 65535
      * @var int|null
      */
     private $servicePort = null;

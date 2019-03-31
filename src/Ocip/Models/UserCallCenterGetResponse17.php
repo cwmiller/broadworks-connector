@@ -34,6 +34,8 @@ class UserCallCenterGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:28754
+     * @MinLength 1
+     * @MaxLength 10
      * @var string|null
      */
     private $agentUnavailableCode = null;
@@ -58,6 +60,8 @@ class UserCallCenterGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @ElementName guardTimerSeconds
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:28754
+     * @MinInclusive 1
+     * @MaxInclusive 25
      * @var int|null
      */
     private $guardTimerSeconds = null;
@@ -103,6 +107,8 @@ class UserCallCenterGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:28754
+     * @MinInclusive 1
+     * @MaxInclusive 5
      * @var int|null
      */
     private $numberConsecutiveBouncedCallsToForceAgentUnavailable = null;

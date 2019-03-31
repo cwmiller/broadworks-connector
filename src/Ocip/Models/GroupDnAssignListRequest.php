@@ -21,6 +21,8 @@ class GroupDnAssignListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @ElementName serviceProviderId
      * @Type string
      * @Group f3a93cf15de4abd7903673e44ee3e07b:4090
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -29,6 +31,8 @@ class GroupDnAssignListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @ElementName groupId
      * @Type string
      * @Group f3a93cf15de4abd7903673e44ee3e07b:4090
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;
@@ -39,6 +43,8 @@ class GroupDnAssignListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @Array
      * @Optional
      * @Group f3a93cf15de4abd7903673e44ee3e07b:4090
+     * @MinLength 1
+     * @MaxLength 23
      * @var string[]
      */
     private $phoneNumber = array(

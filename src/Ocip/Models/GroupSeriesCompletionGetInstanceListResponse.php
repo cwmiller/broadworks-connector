@@ -19,6 +19,8 @@ class GroupSeriesCompletionGetInstanceListResponse extends \CWM\BroadWorksConnec
      * @Array
      * @Optional
      * @Group b974dc59b4b32d9f5952a0442ecaefa8:144
+     * @MinLength 1
+     * @MaxLength 80
      * @var string[]
      */
     private $name = array(

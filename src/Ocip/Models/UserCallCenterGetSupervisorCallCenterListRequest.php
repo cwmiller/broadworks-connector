@@ -20,6 +20,8 @@ class UserCallCenterGetSupervisorCallCenterListRequest extends \CWM\BroadWorksCo
      * @ElementName supervisorUserId
      * @Type string
      * @Group e2c537e3e39483b96620673a7012ffdd:7166
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $supervisorUserId = null;

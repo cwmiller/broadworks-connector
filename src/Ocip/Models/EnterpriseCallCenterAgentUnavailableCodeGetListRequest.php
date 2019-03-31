@@ -19,6 +19,8 @@ class EnterpriseCallCenterAgentUnavailableCodeGetListRequest extends \CWM\BroadW
      * @ElementName serviceProviderId
      * @Type string
      * @Group e2c537e3e39483b96620673a7012ffdd:774
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;

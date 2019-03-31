@@ -19,6 +19,8 @@ class SystemAdminGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCID
      * @Type string
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1712
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $firstName = null;
@@ -28,6 +30,8 @@ class SystemAdminGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCID
      * @Type string
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1712
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $lastName = null;
@@ -36,6 +40,8 @@ class SystemAdminGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCID
      * @ElementName language
      * @Type string
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1712
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $language = null;

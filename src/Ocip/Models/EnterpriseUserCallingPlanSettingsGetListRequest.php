@@ -21,6 +21,8 @@ class EnterpriseUserCallingPlanSettingsGetListRequest extends \CWM\BroadWorksCon
      * @ElementName serviceProviderId
      * @Type string
      * @Group 5395c7df0157d44aa22f3351d1a5f3da:1173
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;

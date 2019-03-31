@@ -19,6 +19,8 @@ class SystemRoutingAddRouteDeviceRequest14 extends \CWM\BroadWorksConnector\Ocip
      * @ElementName routeName
      * @Type string
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14109
+     * @MinLength 1
+     * @MaxLength 32
      * @var string|null
      */
     private $routeName = null;
@@ -27,6 +29,8 @@ class SystemRoutingAddRouteDeviceRequest14 extends \CWM\BroadWorksConnector\Ocip
      * @ElementName netAddress
      * @Type string
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14109
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $netAddress = null;
@@ -36,6 +40,8 @@ class SystemRoutingAddRouteDeviceRequest14 extends \CWM\BroadWorksConnector\Ocip
      * @Type int
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14109
+     * @MinInclusive 1025
+     * @MaxInclusive 65535
      * @var int|null
      */
     private $port = null;
@@ -53,6 +59,8 @@ class SystemRoutingAddRouteDeviceRequest14 extends \CWM\BroadWorksConnector\Ocip
      * @Type string
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14109
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $description = null;

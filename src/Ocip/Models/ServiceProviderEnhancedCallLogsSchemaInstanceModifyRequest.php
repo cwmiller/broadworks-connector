@@ -19,6 +19,8 @@ class ServiceProviderEnhancedCallLogsSchemaInstanceModifyRequest extends \CWM\Br
      * @ElementName serviceProviderId
      * @Type string
      * @Group f6b3702edb5f67fa12c2c426d98657db:128
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -29,6 +31,8 @@ class ServiceProviderEnhancedCallLogsSchemaInstanceModifyRequest extends \CWM\Br
      * @Nillable
      * @Optional
      * @Group f6b3702edb5f67fa12c2c426d98657db:128
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $name = null;

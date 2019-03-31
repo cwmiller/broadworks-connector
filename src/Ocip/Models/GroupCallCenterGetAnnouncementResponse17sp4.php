@@ -112,6 +112,8 @@ class GroupCallCenterGetAnnouncementResponse17sp4 extends \CWM\BroadWorksConnect
      * @ElementName timeBetweenComfortMessagesSeconds
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:24698
+     * @MinInclusive 10
+     * @MaxInclusive 600
      * @var int|null
      */
     private $timeBetweenComfortMessagesSeconds = null;

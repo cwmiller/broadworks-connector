@@ -25,6 +25,8 @@ class SystemSessionAuditGetResponse14sp3 extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName auditIntervalSeconds
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:22197
+     * @MinInclusive 60
+     * @MaxInclusive 7200
      * @var int|null
      */
     private $auditIntervalSeconds = null;
@@ -33,6 +35,8 @@ class SystemSessionAuditGetResponse14sp3 extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName auditTimeoutSeconds
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:22197
+     * @MinInclusive 60
+     * @MaxInclusive 600
      * @var int|null
      */
     private $auditTimeoutSeconds = null;
@@ -73,6 +77,8 @@ class SystemSessionAuditGetResponse14sp3 extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName sipSessionExpiresMinimumSeconds
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:22197
+     * @MinInclusive 30
+     * @MaxInclusive 3600
      * @var int|null
      */
     private $sipSessionExpiresMinimumSeconds = null;
@@ -89,6 +95,8 @@ class SystemSessionAuditGetResponse14sp3 extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName sipSessionExpiresMaximumSeconds
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:22197
+     * @MinInclusive 3600
+     * @MaxInclusive 86400
      * @var int|null
      */
     private $sipSessionExpiresMaximumSeconds = null;
@@ -97,6 +105,8 @@ class SystemSessionAuditGetResponse14sp3 extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName sipSessionExpiresTimerSeconds
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:22197
+     * @MinInclusive 60
+     * @MaxInclusive 86400
      * @var int|null
      */
     private $sipSessionExpiresTimerSeconds = null;

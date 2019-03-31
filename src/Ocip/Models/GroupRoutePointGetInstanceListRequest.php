@@ -21,6 +21,8 @@ class GroupRoutePointGetInstanceListRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName serviceProviderId
      * @Type string
      * @Group a27224a048c30ff69eab9209dec841cc:620
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -29,6 +31,8 @@ class GroupRoutePointGetInstanceListRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName groupId
      * @Type string
      * @Group a27224a048c30ff69eab9209dec841cc:620
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;
@@ -38,6 +42,8 @@ class GroupRoutePointGetInstanceListRequest extends \CWM\BroadWorksConnector\Oci
      * @Type string
      * @Optional
      * @Group a27224a048c30ff69eab9209dec841cc:620
+     * @MinLength 1
+     * @MaxLength 50
      * @var string|null
      */
     private $groupDepartmentName = null;
@@ -47,6 +53,7 @@ class GroupRoutePointGetInstanceListRequest extends \CWM\BroadWorksConnector\Oci
      * @Type int
      * @Optional
      * @Group a27224a048c30ff69eab9209dec841cc:620
+     * @MinInclusive 1
      * @var int|null
      */
     private $responseSizeLimit = null;

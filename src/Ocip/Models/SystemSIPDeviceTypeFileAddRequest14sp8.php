@@ -19,6 +19,8 @@ class SystemSIPDeviceTypeFileAddRequest14sp8 extends \CWM\BroadWorksConnector\Oc
      * @ElementName deviceType
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:16085
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $deviceType = null;
@@ -27,6 +29,8 @@ class SystemSIPDeviceTypeFileAddRequest14sp8 extends \CWM\BroadWorksConnector\Oc
      * @ElementName fileFormat
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:16085
+     * @MinLength 1
+     * @MaxLength 128
      * @var string|null
      */
     private $fileFormat = null;
@@ -35,6 +39,8 @@ class SystemSIPDeviceTypeFileAddRequest14sp8 extends \CWM\BroadWorksConnector\Oc
      * @ElementName remoteFileFormat
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:16085
+     * @MinLength 1
+     * @MaxLength 128
      * @var string|null
      */
     private $remoteFileFormat = null;
@@ -109,6 +115,8 @@ class SystemSIPDeviceTypeFileAddRequest14sp8 extends \CWM\BroadWorksConnector\Oc
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:16085
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $macFormatInNonRequestURI = null;

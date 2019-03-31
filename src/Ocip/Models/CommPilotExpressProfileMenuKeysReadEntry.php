@@ -17,6 +17,8 @@ class CommPilotExpressProfileMenuKeysReadEntry
      * @Type string
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2522
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $activateAvailableInOfficeProfile = null;
@@ -26,6 +28,8 @@ class CommPilotExpressProfileMenuKeysReadEntry
      * @Type string
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2522
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $activateAvailableOutOfOfficeProfile = null;
@@ -35,6 +39,8 @@ class CommPilotExpressProfileMenuKeysReadEntry
      * @Type string
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2522
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $activateBusyProfile = null;
@@ -44,6 +50,8 @@ class CommPilotExpressProfileMenuKeysReadEntry
      * @Type string
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2522
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $activateUnavailableProfile = null;
@@ -53,6 +61,8 @@ class CommPilotExpressProfileMenuKeysReadEntry
      * @Type string
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2522
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $noProfile = null;
@@ -61,6 +71,8 @@ class CommPilotExpressProfileMenuKeysReadEntry
      * @ElementName returnToPreviousMenu
      * @Type string
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2522
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $returnToPreviousMenu = null;
@@ -70,6 +82,8 @@ class CommPilotExpressProfileMenuKeysReadEntry
      * @Type string
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2522
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $repeatMenu = null;

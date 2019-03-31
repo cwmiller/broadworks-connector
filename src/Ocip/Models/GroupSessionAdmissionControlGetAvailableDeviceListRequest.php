@@ -19,6 +19,8 @@ class GroupSessionAdmissionControlGetAvailableDeviceListRequest extends \CWM\Bro
      * @ElementName serviceProviderId
      * @Type string
      * @Group f3a93cf15de4abd7903673e44ee3e07b:6952
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,6 +29,8 @@ class GroupSessionAdmissionControlGetAvailableDeviceListRequest extends \CWM\Bro
      * @ElementName groupId
      * @Type string
      * @Group f3a93cf15de4abd7903673e44ee3e07b:6952
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;
@@ -36,6 +40,7 @@ class GroupSessionAdmissionControlGetAvailableDeviceListRequest extends \CWM\Bro
      * @Type int
      * @Optional
      * @Group f3a93cf15de4abd7903673e44ee3e07b:6952
+     * @MinInclusive 1
      * @var int|null
      */
     private $responseSizeLimit = null;

@@ -22,6 +22,8 @@ class SystemFileRepositoryDeviceAddRequest extends \CWM\BroadWorksConnector\Ocip
      * @ElementName name
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:10336
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $name = null;
@@ -31,6 +33,8 @@ class SystemFileRepositoryDeviceAddRequest extends \CWM\BroadWorksConnector\Ocip
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:10336
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $rootDirectory = null;
@@ -40,6 +44,8 @@ class SystemFileRepositoryDeviceAddRequest extends \CWM\BroadWorksConnector\Ocip
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:10336
+     * @MinInclusive 1
+     * @MaxInclusive 65535
      * @var int|null
      */
     private $port = null;

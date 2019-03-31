@@ -19,6 +19,8 @@ class UserHotelingGuestGetRequest14sp4 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName userId
      * @Type string
      * @Group 031ad639f025838c09748154da1e429e:83
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;

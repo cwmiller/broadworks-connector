@@ -19,6 +19,8 @@ class SystemDomainAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIR
      * @ElementName domain
      * @Type string
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8340
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $domain = null;
@@ -28,6 +30,8 @@ class SystemDomainAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIR
      * @Type string
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8340
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $resellerId = null;

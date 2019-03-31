@@ -19,6 +19,8 @@ class UserAutomaticHoldRetrieveModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName userId
      * @Type string
      * @Group 83fee6d8bc1cbca3d5ef05a88de706cf:76
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;
@@ -37,6 +39,8 @@ class UserAutomaticHoldRetrieveModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @Type int
      * @Optional
      * @Group 83fee6d8bc1cbca3d5ef05a88de706cf:76
+     * @MinInclusive 6
+     * @MaxInclusive 600
      * @var int|null
      */
     private $recallTimerSeconds = null;

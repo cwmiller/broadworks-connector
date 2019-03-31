@@ -19,6 +19,8 @@ class GroupPolycomPhoneServicesModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName serviceProviderId
      * @Type string
      * @Group 4f074d986b998636e2bcb0d67372b0f4:80
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,6 +29,8 @@ class GroupPolycomPhoneServicesModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName groupId
      * @Type string
      * @Group 4f074d986b998636e2bcb0d67372b0f4:80
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;
@@ -55,6 +59,8 @@ class GroupPolycomPhoneServicesModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @Nillable
      * @Optional
      * @Group 4f074d986b998636e2bcb0d67372b0f4:80
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $groupCustomContactDirectory = null;

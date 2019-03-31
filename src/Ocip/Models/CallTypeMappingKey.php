@@ -16,6 +16,8 @@ class CallTypeMappingKey
      * @ElementName countryCode
      * @Type string
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18497
+     * @MaxLength 3
+     * @Pattern [0-9]|[1-9][0-9]{1,2}
      * @var string|null
      */
     private $countryCode = null;
@@ -24,6 +26,8 @@ class CallTypeMappingKey
      * @ElementName digitMap
      * @Type string
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18497
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $digitMap = null;

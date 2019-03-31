@@ -19,6 +19,8 @@ class UserSharedCallAppearanceGetEndpointRequest extends \CWM\BroadWorksConnecto
      * @ElementName userId
      * @Type string
      * @Group 524e0d071a229a44af2f953d6b50db35:84
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;

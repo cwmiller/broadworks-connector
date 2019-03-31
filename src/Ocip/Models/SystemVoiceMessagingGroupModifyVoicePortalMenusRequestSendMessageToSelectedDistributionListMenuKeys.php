@@ -16,6 +16,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestSendMessageToSelecte
      * @Nillable
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:28603
+     * @Length 1
+     * @Pattern \*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $confirmSendingToDistributionList = null;
@@ -25,6 +27,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestSendMessageToSelecte
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:28603
+     * @Length 1
+     * @Pattern \*|#
      * @var string|null
      */
     private $cancelSendingToDistributionList = null;

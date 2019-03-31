@@ -16,6 +16,8 @@ class SearchCriteriaExactCallCenterScheduledReportServiceProvider extends Search
      * @ElementName serviceProviderId
      * @Type string
      * @Group f0ada2681ca347fa83b464734259b304:715
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;

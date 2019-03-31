@@ -19,6 +19,8 @@ class SystemCallCenterGetResponse19 extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName defaultFromAddress
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:34335
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $defaultFromAddress = null;
@@ -43,6 +45,8 @@ class SystemCallCenterGetResponse19 extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName defaultGuardTimerSeconds
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:34335
+     * @MinInclusive 1
+     * @MaxInclusive 25
      * @var int|null
      */
     private $defaultGuardTimerSeconds = null;
@@ -75,6 +79,8 @@ class SystemCallCenterGetResponse19 extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName numberConsecutiveBouncedCallsToForceAgentUnavailable
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:34335
+     * @MinInclusive 1
+     * @MaxInclusive 5
      * @var int|null
      */
     private $numberConsecutiveBouncedCallsToForceAgentUnavailable = null;
@@ -107,6 +113,8 @@ class SystemCallCenterGetResponse19 extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName callHandlingSamplingPeriodMinutes
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:34335
+     * @MinInclusive 5
+     * @MaxInclusive 30
      * @var int|null
      */
     private $callHandlingSamplingPeriodMinutes = null;
@@ -115,6 +123,8 @@ class SystemCallCenterGetResponse19 extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName callHandlingMinimumSamplingSize
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:34335
+     * @MinInclusive 1
+     * @MaxInclusive 100
      * @var int|null
      */
     private $callHandlingMinimumSamplingSize = null;
@@ -131,6 +141,8 @@ class SystemCallCenterGetResponse19 extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName emergencyCallCLIDPrefix
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:34335
+     * @MinLength 1
+     * @MaxLength 10
      * @var string|null
      */
     private $emergencyCallCLIDPrefix = null;
@@ -139,6 +151,8 @@ class SystemCallCenterGetResponse19 extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName thresholdCrossingNotificationEmailGuardTimerSeconds
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:34335
+     * @MinInclusive 3
+     * @MaxInclusive 60
      * @var int|null
      */
     private $thresholdCrossingNotificationEmailGuardTimerSeconds = null;

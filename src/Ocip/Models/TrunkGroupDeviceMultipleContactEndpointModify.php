@@ -17,6 +17,8 @@ class TrunkGroupDeviceMultipleContactEndpointModify
      * @Type string
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:4340
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $name = null;
@@ -26,6 +28,8 @@ class TrunkGroupDeviceMultipleContactEndpointModify
      * @Type string
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:4340
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $linePort = null;

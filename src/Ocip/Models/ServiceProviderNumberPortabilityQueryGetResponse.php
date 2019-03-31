@@ -44,6 +44,8 @@ class ServiceProviderNumberPortabilityQueryGetResponse extends \CWM\BroadWorksCo
      * @Array
      * @Optional
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:4316
+     * @MinLength 1
+     * @MaxLength 160
      * @var string[]
      */
     private $digitPattern = array(

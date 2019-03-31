@@ -19,6 +19,8 @@ class UserBroadWorksMobilityModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName userId
      * @Type string
      * @Group a8b2edcd7d6936a8b76653949ae59623:328
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;
@@ -47,6 +49,8 @@ class UserBroadWorksMobilityModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @Nillable
      * @Optional
      * @Group a8b2edcd7d6936a8b76653949ae59623:328
+     * @MinLength 1
+     * @MaxLength 23
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $mobilePhoneNumber = null;

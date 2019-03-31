@@ -19,6 +19,8 @@ class GroupAccountAuthorizationCodesModifyRequest extends \CWM\BroadWorksConnect
      * @ElementName serviceProviderId
      * @Type string
      * @Group 65df37199ec43e5d21a187db39d63158:196
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,6 +29,8 @@ class GroupAccountAuthorizationCodesModifyRequest extends \CWM\BroadWorksConnect
      * @ElementName groupId
      * @Type string
      * @Group 65df37199ec43e5d21a187db39d63158:196
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;
@@ -45,6 +49,8 @@ class GroupAccountAuthorizationCodesModifyRequest extends \CWM\BroadWorksConnect
      * @Type int
      * @Optional
      * @Group 65df37199ec43e5d21a187db39d63158:196
+     * @MinInclusive 2
+     * @MaxInclusive 14
      * @var int|null
      */
     private $numberOfDigits = null;

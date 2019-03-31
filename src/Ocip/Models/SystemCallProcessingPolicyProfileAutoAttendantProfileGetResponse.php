@@ -116,6 +116,8 @@ class SystemCallProcessingPolicyProfileAutoAttendantProfileGetResponse extends \
      * @ElementName maxSimultaneousCalls
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:37484
+     * @MinInclusive 1
+     * @MaxInclusive 999999
      * @var int|null
      */
     private $maxSimultaneousCalls = null;
@@ -132,6 +134,8 @@ class SystemCallProcessingPolicyProfileAutoAttendantProfileGetResponse extends \
      * @ElementName maxSimultaneousVideoCalls
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:37484
+     * @MinInclusive 1
+     * @MaxInclusive 999999
      * @var int|null
      */
     private $maxSimultaneousVideoCalls = null;
@@ -148,6 +152,8 @@ class SystemCallProcessingPolicyProfileAutoAttendantProfileGetResponse extends \
      * @ElementName maxCallTimeForAnsweredCallsMinutes
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:37484
+     * @MinInclusive 3
+     * @MaxInclusive 2880
      * @var int|null
      */
     private $maxCallTimeForAnsweredCallsMinutes = null;
@@ -164,6 +170,8 @@ class SystemCallProcessingPolicyProfileAutoAttendantProfileGetResponse extends \
      * @ElementName maxConcurrentRedirectedCalls
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:37484
+     * @MinInclusive 1
+     * @MaxInclusive 999999
      * @var int|null
      */
     private $maxConcurrentRedirectedCalls = null;
@@ -172,6 +180,8 @@ class SystemCallProcessingPolicyProfileAutoAttendantProfileGetResponse extends \
      * @ElementName maxRedirectionDepth
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:37484
+     * @MinInclusive 1
+     * @MaxInclusive 100
      * @var int|null
      */
     private $maxRedirectionDepth = null;

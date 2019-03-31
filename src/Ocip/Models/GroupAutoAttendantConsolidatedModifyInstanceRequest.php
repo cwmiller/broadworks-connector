@@ -34,6 +34,8 @@ class GroupAutoAttendantConsolidatedModifyInstanceRequest extends \CWM\BroadWork
      * @ElementName serviceUserId
      * @Type string
      * @Group ed0640d8ef49eb8b4eaa14d7c6f6c033:179
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $serviceUserId = null;
@@ -70,6 +72,8 @@ class GroupAutoAttendantConsolidatedModifyInstanceRequest extends \CWM\BroadWork
      * @Type int
      * @Optional
      * @Group ed0640d8ef49eb8b4eaa14d7c6f6c033:179
+     * @MinInclusive 1
+     * @MaxInclusive 60
      * @var int|null
      */
     private $firstDigitTimeoutSeconds = null;
@@ -162,6 +166,8 @@ class GroupAutoAttendantConsolidatedModifyInstanceRequest extends \CWM\BroadWork
      * @Type string
      * @Optional
      * @Group ed0640d8ef49eb8b4eaa14d7c6f6c033:179
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $networkClassOfService = null;

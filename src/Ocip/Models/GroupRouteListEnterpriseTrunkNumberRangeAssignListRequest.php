@@ -20,6 +20,8 @@ class GroupRouteListEnterpriseTrunkNumberRangeAssignListRequest extends \CWM\Bro
      * @ElementName serviceProviderId
      * @Type string
      * @Group 3f28429898a57a7f7846d3877b22df9f:321
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -28,6 +30,8 @@ class GroupRouteListEnterpriseTrunkNumberRangeAssignListRequest extends \CWM\Bro
      * @ElementName groupId
      * @Type string
      * @Group 3f28429898a57a7f7846d3877b22df9f:321
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;
@@ -38,6 +42,8 @@ class GroupRouteListEnterpriseTrunkNumberRangeAssignListRequest extends \CWM\Bro
      * @Array
      * @Optional
      * @Group 3f28429898a57a7f7846d3877b22df9f:321
+     * @MinLength 1
+     * @MaxLength 23
      * @var string[]
      */
     private $numberRangeStart = array(

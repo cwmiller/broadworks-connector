@@ -21,6 +21,8 @@ class LoginRequest13mp10 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReque
      * @ElementName userId
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:3328
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;
@@ -30,6 +32,7 @@ class LoginRequest13mp10 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReque
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:3328
+     * @MinLength 1
      * @var string|null
      */
     private $signedPassword = null;

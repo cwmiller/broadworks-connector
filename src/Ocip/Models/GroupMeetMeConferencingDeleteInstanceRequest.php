@@ -19,6 +19,8 @@ class GroupMeetMeConferencingDeleteInstanceRequest extends \CWM\BroadWorksConnec
      * @ElementName serviceUserId
      * @Type string
      * @Group 0fd24121d16995c994d40bc408dbcfa5:99
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $serviceUserId = null;

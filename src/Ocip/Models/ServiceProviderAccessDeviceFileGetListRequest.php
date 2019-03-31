@@ -22,6 +22,8 @@ class ServiceProviderAccessDeviceFileGetListRequest extends \CWM\BroadWorksConne
      * @ElementName serviceProviderId
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:3364
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -30,6 +32,8 @@ class ServiceProviderAccessDeviceFileGetListRequest extends \CWM\BroadWorksConne
      * @ElementName deviceName
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:3364
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $deviceName = null;

@@ -19,6 +19,8 @@ class SystemBCCTGetOCIInterfaceAddressListResponse extends \CWM\BroadWorksConnec
      * @Array
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:4374
+     * @MinLength 1
+     * @MaxLength 80
      * @var string[]
      */
     private $interfaceNetAddress = array(

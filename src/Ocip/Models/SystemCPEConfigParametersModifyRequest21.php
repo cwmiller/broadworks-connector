@@ -32,6 +32,8 @@ class SystemCPEConfigParametersModifyRequest21 extends \CWM\BroadWorksConnector\
      * @Type int
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6762
+     * @MinInclusive 1
+     * @MaxInclusive 600
      * @var int|null
      */
     private $ftpConnectTimeoutSeconds = null;
@@ -41,6 +43,8 @@ class SystemCPEConfigParametersModifyRequest21 extends \CWM\BroadWorksConnector\
      * @Type int
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6762
+     * @MinInclusive 1
+     * @MaxInclusive 600
      * @var int|null
      */
     private $ftpFileTransferTimeoutSeconds = null;
@@ -50,6 +54,8 @@ class SystemCPEConfigParametersModifyRequest21 extends \CWM\BroadWorksConnector\
      * @Type int
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6762
+     * @MinInclusive
+     * @MaxInclusive 10000
      * @var int|null
      */
     private $pauseBetweenFileRebuildMilliseconds = null;
@@ -60,6 +66,8 @@ class SystemCPEConfigParametersModifyRequest21 extends \CWM\BroadWorksConnector\
      * @Nillable
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6762
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $deviceAccessAppServerClusterName = null;
@@ -69,6 +77,8 @@ class SystemCPEConfigParametersModifyRequest21 extends \CWM\BroadWorksConnector\
      * @Type int
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6762
+     * @MinInclusive
+     * @MaxInclusive 86400000
      * @var int|null
      */
     private $minTimeBetweenResetMilliseconds = null;
@@ -87,6 +97,8 @@ class SystemCPEConfigParametersModifyRequest21 extends \CWM\BroadWorksConnector\
      * @Type int
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6762
+     * @MinInclusive
+     * @MaxInclusive 20
      * @var int|null
      */
     private $maxFileOperationRetryAttempts = null;
@@ -105,6 +117,8 @@ class SystemCPEConfigParametersModifyRequest21 extends \CWM\BroadWorksConnector\
      * @Type int
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6762
+     * @MinInclusive
+     * @MaxInclusive 100000000
      * @var int|null
      */
     private $eventQueueSize = null;

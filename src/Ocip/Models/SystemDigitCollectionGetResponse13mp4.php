@@ -18,6 +18,8 @@ class SystemDigitCollectionGetResponse13mp4 extends \CWM\BroadWorksConnector\Oci
      * @Type string
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8176
+     * @MinLength 1
+     * @MaxLength 1
      * @var string|null
      */
     private $accessCode = null;
@@ -26,6 +28,8 @@ class SystemDigitCollectionGetResponse13mp4 extends \CWM\BroadWorksConnector\Oci
      * @ElementName publicDigitMap
      * @Type string
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8176
+     * @MinLength 1
+     * @MaxLength 2048
      * @var string|null
      */
     private $publicDigitMap = null;
@@ -35,6 +39,8 @@ class SystemDigitCollectionGetResponse13mp4 extends \CWM\BroadWorksConnector\Oci
      * @Type string
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8176
+     * @MinLength 1
+     * @MaxLength 2048
      * @var string|null
      */
     private $privateDigitMap = null;

@@ -19,6 +19,8 @@ class EnterpriseCallCenterEnhancedReportingReportTemplateAddRequest extends \CWM
      * @ElementName serviceProviderId
      * @Type string
      * @Group e2c537e3e39483b96620673a7012ffdd:1345
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,6 +29,8 @@ class EnterpriseCallCenterEnhancedReportingReportTemplateAddRequest extends \CWM
      * @ElementName name
      * @Type string
      * @Group e2c537e3e39483b96620673a7012ffdd:1345
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $name = null;
@@ -36,6 +40,8 @@ class EnterpriseCallCenterEnhancedReportingReportTemplateAddRequest extends \CWM
      * @Type string
      * @Optional
      * @Group e2c537e3e39483b96620673a7012ffdd:1345
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $description = null;
@@ -44,6 +50,8 @@ class EnterpriseCallCenterEnhancedReportingReportTemplateAddRequest extends \CWM
      * @ElementName dataTemplate
      * @Type string
      * @Group e2c537e3e39483b96620673a7012ffdd:1345
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $dataTemplate = null;
@@ -53,6 +61,8 @@ class EnterpriseCallCenterEnhancedReportingReportTemplateAddRequest extends \CWM
      * @Type int
      * @Optional
      * @Group e2c537e3e39483b96620673a7012ffdd:1345
+     * @MinInclusive 1
+     * @MaxInclusive 999
      * @var int|null
      */
     private $filterNumber = null;
@@ -149,6 +159,8 @@ class EnterpriseCallCenterEnhancedReportingReportTemplateAddRequest extends \CWM
      * @Type int
      * @Optional
      * @Group e2c537e3e39483b96620673a7012ffdd:1345
+     * @MinInclusive 1
+     * @MaxInclusive 5
      * @var int|null
      */
     private $serviceLevelThresholdParamNumber = null;
@@ -158,6 +170,8 @@ class EnterpriseCallCenterEnhancedReportingReportTemplateAddRequest extends \CWM
      * @Type int
      * @Optional
      * @Group e2c537e3e39483b96620673a7012ffdd:1345
+     * @MinInclusive 1
+     * @MaxInclusive 4
      * @var int|null
      */
     private $abandonedCallThresholdParamNumber = null;
@@ -168,6 +182,8 @@ class EnterpriseCallCenterEnhancedReportingReportTemplateAddRequest extends \CWM
      * @Array
      * @Optional
      * @Group e2c537e3e39483b96620673a7012ffdd:1345
+     * @MinLength 1
+     * @MaxLength 160
      * @var string[]
      */
     private $filterValue = array(

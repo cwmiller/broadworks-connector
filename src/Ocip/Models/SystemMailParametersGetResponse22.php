@@ -19,6 +19,8 @@ class SystemMailParametersGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Type string
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10555
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $primaryServerNetAddress = null;
@@ -28,6 +30,8 @@ class SystemMailParametersGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Type string
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10555
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $secondaryServerNetAddress = null;
@@ -36,6 +40,8 @@ class SystemMailParametersGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName defaultFromAddress
      * @Type string
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10555
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $defaultFromAddress = null;
@@ -45,6 +51,8 @@ class SystemMailParametersGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Type string
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10555
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $defaultSubject = null;
@@ -70,6 +78,8 @@ class SystemMailParametersGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Type int
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10555
+     * @MinInclusive 1
+     * @MaxInclusive 65535
      * @var int|null
      */
     private $port = null;

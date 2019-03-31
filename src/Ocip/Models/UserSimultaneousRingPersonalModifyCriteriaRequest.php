@@ -19,6 +19,8 @@ class UserSimultaneousRingPersonalModifyCriteriaRequest extends \CWM\BroadWorksC
      * @ElementName userId
      * @Type string
      * @Group f64c4e06b22d19cc74a21048a08a84c7:155
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;
@@ -27,6 +29,8 @@ class UserSimultaneousRingPersonalModifyCriteriaRequest extends \CWM\BroadWorksC
      * @ElementName criteriaName
      * @Type string
      * @Group f64c4e06b22d19cc74a21048a08a84c7:155
+     * @MinLength 1
+     * @MaxLength 50
      * @var string|null
      */
     private $criteriaName = null;
@@ -36,6 +40,8 @@ class UserSimultaneousRingPersonalModifyCriteriaRequest extends \CWM\BroadWorksC
      * @Type string
      * @Optional
      * @Group f64c4e06b22d19cc74a21048a08a84c7:155
+     * @MinLength 1
+     * @MaxLength 50
      * @var string|null
      */
     private $newCriteriaName = null;

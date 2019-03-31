@@ -18,6 +18,8 @@ class SystemCallProcessingPolicyProfileGetResponse20 extends \CWM\BroadWorksConn
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:34404
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $description = null;

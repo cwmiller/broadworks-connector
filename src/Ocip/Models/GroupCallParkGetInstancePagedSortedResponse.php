@@ -21,6 +21,8 @@ class GroupCallParkGetInstancePagedSortedResponse extends \CWM\BroadWorksConnect
      * @Type string
      * @Optional
      * @Group 7a925e891158dfa3cb1319e045608894:401
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $recallAlternateUserId = null;

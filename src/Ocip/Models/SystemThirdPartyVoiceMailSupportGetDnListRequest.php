@@ -21,6 +21,7 @@ class SystemThirdPartyVoiceMailSupportGetDnListRequest extends \CWM\BroadWorksCo
      * @Type int
      * @Optional
      * @Group 3c311aa5c89c0cf5b46e1cdefd5bc387:139
+     * @MinInclusive 1
      * @var int|null
      */
     private $responseSizeLimit = null;

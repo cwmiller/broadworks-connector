@@ -67,6 +67,8 @@ class SystemPasswordRulesGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName minDigits
      * @Type int
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12979
+     * @MinInclusive 1
+     * @MaxInclusive 10
      * @var int|null
      */
     private $minDigits = null;
@@ -83,6 +85,8 @@ class SystemPasswordRulesGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName minUpperCaseLetters
      * @Type int
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12979
+     * @MinInclusive 1
+     * @MaxInclusive 10
      * @var int|null
      */
     private $minUpperCaseLetters = null;
@@ -99,6 +103,8 @@ class SystemPasswordRulesGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName minLowerCaseLetters
      * @Type int
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12979
+     * @MinInclusive 1
+     * @MaxInclusive 10
      * @var int|null
      */
     private $minLowerCaseLetters = null;
@@ -115,6 +121,8 @@ class SystemPasswordRulesGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName minNonAlphanumericCharacters
      * @Type int
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12979
+     * @MinInclusive 1
+     * @MaxInclusive 10
      * @var int|null
      */
     private $minNonAlphanumericCharacters = null;
@@ -123,6 +131,8 @@ class SystemPasswordRulesGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName minLength
      * @Type int
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12979
+     * @MinInclusive 3
+     * @MaxInclusive 40
      * @var int|null
      */
     private $minLength = null;
@@ -131,6 +141,8 @@ class SystemPasswordRulesGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName maxFailedLoginAttempts
      * @Type int
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12979
+     * @MinInclusive
+     * @MaxInclusive 10
      * @var int|null
      */
     private $maxFailedLoginAttempts = null;
@@ -139,6 +151,8 @@ class SystemPasswordRulesGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName passwordExpiresDays
      * @Type int
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12979
+     * @MinInclusive
+     * @MaxInclusive 199
      * @var int|null
      */
     private $passwordExpiresDays = null;
@@ -156,6 +170,8 @@ class SystemPasswordRulesGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Type string
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12979
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $loginDisabledNotifyEmailAddress = null;
@@ -180,6 +196,8 @@ class SystemPasswordRulesGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName numberOfPreviousPasswords
      * @Type int
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12979
+     * @MinInclusive 1
+     * @MaxInclusive 10
      * @var int|null
      */
     private $numberOfPreviousPasswords = null;

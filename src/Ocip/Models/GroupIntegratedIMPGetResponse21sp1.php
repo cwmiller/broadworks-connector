@@ -27,6 +27,8 @@ class GroupIntegratedIMPGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\M
      * @Type string
      * @Optional
      * @Group 23389100b68cef3aa07ee12ac7a2bd16:67
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $serviceDomain = null;
@@ -36,6 +38,8 @@ class GroupIntegratedIMPGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\M
      * @Type string
      * @Optional
      * @Group 23389100b68cef3aa07ee12ac7a2bd16:67
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $effectiveServiceDomain = null;

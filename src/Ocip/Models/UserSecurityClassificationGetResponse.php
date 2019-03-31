@@ -18,6 +18,8 @@ class UserSecurityClassificationGetResponse extends \CWM\BroadWorksConnector\Oci
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:7578
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $securityClassification = null;

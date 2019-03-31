@@ -19,6 +19,8 @@ class GroupCallCapacityManagementGetInstanceResponse extends \CWM\BroadWorksConn
      * @ElementName name
      * @Type string
      * @Group dfcd2b22f2e2b3540d286342087ce042:225
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $name = null;
@@ -27,6 +29,8 @@ class GroupCallCapacityManagementGetInstanceResponse extends \CWM\BroadWorksConn
      * @ElementName maxActiveCallsAllowed
      * @Type int
      * @Group dfcd2b22f2e2b3540d286342087ce042:225
+     * @MinInclusive
+     * @MaxInclusive 99999
      * @var int|null
      */
     private $maxActiveCallsAllowed = null;
@@ -36,6 +40,8 @@ class GroupCallCapacityManagementGetInstanceResponse extends \CWM\BroadWorksConn
      * @Type int
      * @Optional
      * @Group dfcd2b22f2e2b3540d286342087ce042:225
+     * @MinInclusive
+     * @MaxInclusive 99999
      * @var int|null
      */
     private $maxIncomingActiveCallsAllowed = null;
@@ -45,6 +51,8 @@ class GroupCallCapacityManagementGetInstanceResponse extends \CWM\BroadWorksConn
      * @Type int
      * @Optional
      * @Group dfcd2b22f2e2b3540d286342087ce042:225
+     * @MinInclusive
+     * @MaxInclusive 99999
      * @var int|null
      */
     private $maxOutgoingActiveCallsAllowed = null;

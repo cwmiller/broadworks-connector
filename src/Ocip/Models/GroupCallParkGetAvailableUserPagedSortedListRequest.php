@@ -31,6 +31,8 @@ class GroupCallParkGetAvailableUserPagedSortedListRequest extends \CWM\BroadWork
      * @ElementName serviceProviderId
      * @Type string
      * @Group 7a925e891158dfa3cb1319e045608894:241
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -39,6 +41,8 @@ class GroupCallParkGetAvailableUserPagedSortedListRequest extends \CWM\BroadWork
      * @ElementName groupId
      * @Type string
      * @Group 7a925e891158dfa3cb1319e045608894:241
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;
@@ -48,6 +52,8 @@ class GroupCallParkGetAvailableUserPagedSortedListRequest extends \CWM\BroadWork
      * @Type string
      * @Optional
      * @Group 7a925e891158dfa3cb1319e045608894:241
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $name = null;

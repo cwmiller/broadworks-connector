@@ -20,6 +20,8 @@ class ServiceProviderOfficeZoneUnassignListRequest extends \CWM\BroadWorksConnec
      * @ElementName serviceProviderId
      * @Type string
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:4446
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -30,6 +32,8 @@ class ServiceProviderOfficeZoneUnassignListRequest extends \CWM\BroadWorksConnec
      * @Array
      * @Optional
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:4446
+     * @MinLength 1
+     * @MaxLength 40
      * @var string[]
      */
     private $officeZoneName = array(
@@ -41,6 +45,8 @@ class ServiceProviderOfficeZoneUnassignListRequest extends \CWM\BroadWorksConnec
      * @Type string
      * @Optional
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:4446
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $defaultOfficeZoneName = null;

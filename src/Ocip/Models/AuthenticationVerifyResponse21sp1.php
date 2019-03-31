@@ -34,6 +34,7 @@ class AuthenticationVerifyResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName locale
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:40754
+     * @MaxLength 5
      * @var string|null
      */
     private $locale = null;
@@ -42,6 +43,8 @@ class AuthenticationVerifyResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName encoding
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:40754
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $encoding = null;
@@ -51,6 +54,8 @@ class AuthenticationVerifyResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:40754
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;
@@ -60,6 +65,8 @@ class AuthenticationVerifyResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:40754
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -86,6 +93,8 @@ class AuthenticationVerifyResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:40754
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $lastName = null;
@@ -95,6 +104,8 @@ class AuthenticationVerifyResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:40754
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $firstName = null;
@@ -103,6 +114,8 @@ class AuthenticationVerifyResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName userId
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:40754
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;
@@ -112,6 +125,8 @@ class AuthenticationVerifyResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:40754
+     * @MinLength 1
+     * @MaxLength 23
      * @var string|null
      */
     private $phoneNumber = null;

@@ -17,6 +17,8 @@ class SystemInventoryReportGetResponse extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName defaultFromAddress
      * @Type string
      * @Group 5c0fc3a03773b4f430e938115770c82d:94
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $defaultFromAddress = null;

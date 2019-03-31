@@ -19,6 +19,8 @@ class SystemCPEConfigSetConfigFileRequest extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName deviceType
      * @Type string
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6879
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $deviceType = null;
@@ -27,6 +29,8 @@ class SystemCPEConfigSetConfigFileRequest extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName configFile
      * @Type string
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6879
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $configFile = null;

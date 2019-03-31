@@ -20,6 +20,8 @@ class SystemTrunkGroupOptionsMessageResponseStatusCodeAddListRequest extends \CW
      * @Type string
      * @Array
      * @Group b9c14e2d80e4e7749688ca13ba233b44:1731
+     * @MinLength 3
+     * @MaxLength 40
      * @var string[]
      */
     private $statusCode = array(

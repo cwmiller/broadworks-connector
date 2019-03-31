@@ -30,6 +30,8 @@ class GroupDepartmentGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @Type string
      * @Optional
      * @Group f3a93cf15de4abd7903673e44ee3e07b:3202
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $callingLineIdName = null;
@@ -39,6 +41,8 @@ class GroupDepartmentGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @Type string
      * @Optional
      * @Group f3a93cf15de4abd7903673e44ee3e07b:3202
+     * @MinLength 1
+     * @MaxLength 23
      * @var string|null
      */
     private $callingLineIdPhoneNumber = null;

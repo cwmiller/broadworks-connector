@@ -44,6 +44,8 @@ class ServiceProviderGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\
      * @ElementName defaultDomain
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:41484
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $defaultDomain = null;
@@ -53,6 +55,8 @@ class ServiceProviderGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:41484
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $serviceProviderName = null;
@@ -62,6 +66,8 @@ class ServiceProviderGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:41484
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $supportEmail = null;
@@ -97,6 +103,8 @@ class ServiceProviderGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:41484
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $servicePolicy = null;
@@ -106,6 +114,8 @@ class ServiceProviderGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:41484
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $callProcessingSliceId = null;
@@ -115,6 +125,8 @@ class ServiceProviderGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:41484
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $provisioningSliceId = null;
@@ -124,6 +136,8 @@ class ServiceProviderGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:41484
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $subscriberPartition = null;
@@ -133,6 +147,8 @@ class ServiceProviderGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:41484
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $preferredDataCenter = null;

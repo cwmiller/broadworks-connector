@@ -20,6 +20,8 @@ class GroupMusicOnHoldGetDepartmentListRequest extends \CWM\BroadWorksConnector\
      * @ElementName serviceProviderId
      * @Type string
      * @Group 66fe518a637c74cc4b2c97aa7f68fc49:93
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -28,6 +30,8 @@ class GroupMusicOnHoldGetDepartmentListRequest extends \CWM\BroadWorksConnector\
      * @ElementName groupId
      * @Type string
      * @Group 66fe518a637c74cc4b2c97aa7f68fc49:93
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;
@@ -37,6 +41,8 @@ class GroupMusicOnHoldGetDepartmentListRequest extends \CWM\BroadWorksConnector\
      * @Type string
      * @Optional
      * @Group 66fe518a637c74cc4b2c97aa7f68fc49:93
+     * @MinLength 1
+     * @MaxLength 50
      * @var string|null
      */
     private $groupDepartmentName = null;

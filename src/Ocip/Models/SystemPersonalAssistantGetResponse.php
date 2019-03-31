@@ -18,6 +18,8 @@ class SystemPersonalAssistantGetResponse extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName transferToAttendantKey
      * @Type string
      * @Group f53ece1c00394ef2d3d76f532f9a9663:64
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $transferToAttendantKey = null;
@@ -26,6 +28,8 @@ class SystemPersonalAssistantGetResponse extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName transferToVoiceMessagingKey
      * @Type string
      * @Group f53ece1c00394ef2d3d76f532f9a9663:64
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $transferToVoiceMessagingKey = null;

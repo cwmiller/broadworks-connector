@@ -17,6 +17,8 @@ class SystemEmergencyCallNotificationGetResponse extends \CWM\BroadWorksConnecto
      * @ElementName defaultFromAddress
      * @Type string
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8680
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $defaultFromAddress = null;

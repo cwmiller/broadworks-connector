@@ -18,6 +18,8 @@ class UserSpeedDial100GetListResponse17sp1 extends \CWM\BroadWorksConnector\Ocip
      * @Type string
      * @Optional
      * @Group 066a3d16bce438447d23cbe6ff0885a6:192
+     * @MinLength 1
+     * @MaxLength 2
      * @var string|null
      */
     private $prefix = null;

@@ -20,6 +20,8 @@ class UserExecutiveModifyScreeningAlertingRequest extends \CWM\BroadWorksConnect
      * @ElementName userId
      * @Type string
      * @Group 9a6dbade05624033cf7fe782b7c9a9a7:418
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;
@@ -93,6 +95,8 @@ class UserExecutiveModifyScreeningAlertingRequest extends \CWM\BroadWorksConnect
      * @Nillable
      * @Optional
      * @Group 9a6dbade05624033cf7fe782b7c9a9a7:418
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $alertingCustomCallingLineIdName = null;
@@ -103,6 +107,8 @@ class UserExecutiveModifyScreeningAlertingRequest extends \CWM\BroadWorksConnect
      * @Nillable
      * @Optional
      * @Group 9a6dbade05624033cf7fe782b7c9a9a7:418
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $unicodeAlertingCustomCallingLineIdName = null;
@@ -122,6 +128,8 @@ class UserExecutiveModifyScreeningAlertingRequest extends \CWM\BroadWorksConnect
      * @Nillable
      * @Optional
      * @Group 9a6dbade05624033cf7fe782b7c9a9a7:418
+     * @MinLength 1
+     * @MaxLength 23
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $alertingCustomCallingLineIdPhoneNumber = null;
@@ -131,6 +139,8 @@ class UserExecutiveModifyScreeningAlertingRequest extends \CWM\BroadWorksConnect
      * @Type int
      * @Optional
      * @Group 9a6dbade05624033cf7fe782b7c9a9a7:418
+     * @MinInclusive 2
+     * @MaxInclusive 20
      * @var int|null
      */
     private $callPushRecallNumberOfRings = null;
@@ -140,6 +150,8 @@ class UserExecutiveModifyScreeningAlertingRequest extends \CWM\BroadWorksConnect
      * @Type int
      * @Optional
      * @Group 9a6dbade05624033cf7fe782b7c9a9a7:418
+     * @MinInclusive 1
+     * @MaxInclusive 20
      * @var int|null
      */
     private $nextAssistantNumberOfRings = null;
@@ -159,6 +171,8 @@ class UserExecutiveModifyScreeningAlertingRequest extends \CWM\BroadWorksConnect
      * @Nillable
      * @Optional
      * @Group 9a6dbade05624033cf7fe782b7c9a9a7:418
+     * @MinInclusive
+     * @MaxInclusive 7200
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $rolloverWaitTimeSeconds = null;
@@ -178,6 +192,8 @@ class UserExecutiveModifyScreeningAlertingRequest extends \CWM\BroadWorksConnect
      * @Nillable
      * @Optional
      * @Group 9a6dbade05624033cf7fe782b7c9a9a7:418
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $rolloverForwardToPhoneNumber = null;

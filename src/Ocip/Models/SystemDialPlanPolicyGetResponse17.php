@@ -41,6 +41,8 @@ class SystemDialPlanPolicyGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName publicDigitMap
      * @Type string
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8103
+     * @MinLength 1
+     * @MaxLength 2048
      * @var string|null
      */
     private $publicDigitMap = null;
@@ -50,6 +52,8 @@ class SystemDialPlanPolicyGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Type string
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8103
+     * @MinLength 1
+     * @MaxLength 2048
      * @var string|null
      */
     private $privateDigitMap = null;

@@ -19,6 +19,8 @@ class SystemGETSNumberModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName number
      * @Type string
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9918
+     * @MinLength 4
+     * @MaxLength 10
      * @var string|null
      */
     private $number = null;
@@ -38,6 +40,8 @@ class SystemGETSNumberModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @Nillable
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9918
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $description = null;

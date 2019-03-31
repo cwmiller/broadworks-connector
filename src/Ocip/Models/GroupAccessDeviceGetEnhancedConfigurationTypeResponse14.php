@@ -43,6 +43,8 @@ class GroupAccessDeviceGetEnhancedConfigurationTypeResponse14 extends \CWM\Broad
      * @Type string
      * @Optional
      * @Group f3a93cf15de4abd7903673e44ee3e07b:653
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $configurationFileName = null;

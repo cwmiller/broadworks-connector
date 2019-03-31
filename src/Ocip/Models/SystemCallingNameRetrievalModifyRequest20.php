@@ -47,6 +47,8 @@ class SystemCallingNameRetrievalModifyRequest20 extends \CWM\BroadWorksConnector
      * @Type int
      * @Optional
      * @Group 7abfb1e02a3465af832e0a8a8adfc741:86
+     * @MinInclusive 100
+     * @MaxInclusive 10000
      * @var int|null
      */
     private $queryTimeoutMilliseconds = null;
@@ -57,6 +59,8 @@ class SystemCallingNameRetrievalModifyRequest20 extends \CWM\BroadWorksConnector
      * @Nillable
      * @Optional
      * @Group 7abfb1e02a3465af832e0a8a8adfc741:86
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $sipExternalDatabaseNetAddress = null;
@@ -67,6 +71,8 @@ class SystemCallingNameRetrievalModifyRequest20 extends \CWM\BroadWorksConnector
      * @Nillable
      * @Optional
      * @Group 7abfb1e02a3465af832e0a8a8adfc741:86
+     * @MinInclusive 1025
+     * @MaxInclusive 65535
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $sipExternalDatabasePort = null;
@@ -86,6 +92,8 @@ class SystemCallingNameRetrievalModifyRequest20 extends \CWM\BroadWorksConnector
      * @Nillable
      * @Optional
      * @Group 7abfb1e02a3465af832e0a8a8adfc741:86
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $soapExternalDatabaseNetAddress = null;
@@ -104,6 +112,8 @@ class SystemCallingNameRetrievalModifyRequest20 extends \CWM\BroadWorksConnector
      * @Type int
      * @Optional
      * @Group 7abfb1e02a3465af832e0a8a8adfc741:86
+     * @MinInclusive 100
+     * @MaxInclusive 2000
      * @var int|null
      */
     private $routeAdvanceTimer = null;
@@ -113,6 +123,8 @@ class SystemCallingNameRetrievalModifyRequest20 extends \CWM\BroadWorksConnector
      * @Type int
      * @Optional
      * @Group 7abfb1e02a3465af832e0a8a8adfc741:86
+     * @MinInclusive
+     * @MaxInclusive 604800
      * @var int|null
      */
     private $retryFailedCNAMServerInterval = null;

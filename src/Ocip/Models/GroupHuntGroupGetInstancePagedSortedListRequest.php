@@ -28,6 +28,8 @@ class GroupHuntGroupGetInstancePagedSortedListRequest extends \CWM\BroadWorksCon
      * @ElementName serviceProviderId
      * @Type string
      * @Group bc829065f9d696d3ca7084121d57f8c0:391
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -36,6 +38,8 @@ class GroupHuntGroupGetInstancePagedSortedListRequest extends \CWM\BroadWorksCon
      * @ElementName groupId
      * @Type string
      * @Group bc829065f9d696d3ca7084121d57f8c0:391
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;

@@ -19,6 +19,8 @@ class ServiceProviderBroadWorksCommunicatorModifyRequest extends \CWM\BroadWorks
      * @Type string
      * @Optional
      * @Group ba512c9f02a5f24a24d49cc945f1524d:72
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -29,6 +31,8 @@ class ServiceProviderBroadWorksCommunicatorModifyRequest extends \CWM\BroadWorks
      * @Nillable
      * @Optional
      * @Group ba512c9f02a5f24a24d49cc945f1524d:72
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $configurationServerURL = null;

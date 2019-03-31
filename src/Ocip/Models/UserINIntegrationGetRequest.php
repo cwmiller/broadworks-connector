@@ -19,6 +19,8 @@ class UserINIntegrationGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @ElementName userId
      * @Type string
      * @Group e2b7b9ea45350592016ce6935a4d7694:41
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;

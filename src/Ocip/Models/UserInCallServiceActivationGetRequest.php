@@ -20,6 +20,8 @@ class UserInCallServiceActivationGetRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName userId
      * @Type string
      * @Group ece0b65e69189d3e8b8deee895f0a7ff:141
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;

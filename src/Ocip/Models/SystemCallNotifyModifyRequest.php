@@ -20,6 +20,8 @@ class SystemCallNotifyModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @Type string
      * @Optional
      * @Group 26f62134ab1693f4bdddc7c70b20d2eb:130
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $defaultFromAddress = null;

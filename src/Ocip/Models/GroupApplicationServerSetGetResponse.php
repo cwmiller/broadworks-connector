@@ -19,6 +19,8 @@ class GroupApplicationServerSetGetResponse extends \CWM\BroadWorksConnector\Ocip
      * @Type string
      * @Optional
      * @Group f3a93cf15de4abd7903673e44ee3e07b:1652
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $applicationServerSetName = null;

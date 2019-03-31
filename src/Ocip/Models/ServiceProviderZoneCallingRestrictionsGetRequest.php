@@ -19,6 +19,8 @@ class ServiceProviderZoneCallingRestrictionsGetRequest extends \CWM\BroadWorksCo
      * @ElementName serviceProviderId
      * @Type string
      * @Group da5cd0d79ddb505982e08d164e405660:46
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;

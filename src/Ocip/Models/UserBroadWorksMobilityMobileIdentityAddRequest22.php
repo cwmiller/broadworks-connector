@@ -21,6 +21,8 @@ class UserBroadWorksMobilityMobileIdentityAddRequest22 extends \CWM\BroadWorksCo
      * @ElementName userId
      * @Type string
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:1365
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;
@@ -29,6 +31,8 @@ class UserBroadWorksMobilityMobileIdentityAddRequest22 extends \CWM\BroadWorksCo
      * @ElementName mobileNumber
      * @Type string
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:1365
+     * @MinLength 1
+     * @MaxLength 23
      * @var string|null
      */
     private $mobileNumber = null;
@@ -38,6 +42,8 @@ class UserBroadWorksMobilityMobileIdentityAddRequest22 extends \CWM\BroadWorksCo
      * @Type string
      * @Optional
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:1365
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $description = null;
@@ -176,6 +182,8 @@ class UserBroadWorksMobilityMobileIdentityAddRequest22 extends \CWM\BroadWorksCo
      * @Array
      * @Optional
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:1365
+     * @MinLength 1
+     * @MaxLength 23
      * @var string[]
      */
     private $mobileNumberAlerted = array(
@@ -221,6 +229,8 @@ class UserBroadWorksMobilityMobileIdentityAddRequest22 extends \CWM\BroadWorksCo
      * @Type string
      * @Optional
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:1389
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $outboundAlternateNumber = null;
@@ -254,6 +264,8 @@ class UserBroadWorksMobilityMobileIdentityAddRequest22 extends \CWM\BroadWorksCo
      * @Type string
      * @Optional
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:1365
+     * @MinLength 1
+     * @MaxLength 128
      * @var string|null
      */
     private $networkTranslationIndex = null;

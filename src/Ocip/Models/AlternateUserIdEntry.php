@@ -16,6 +16,8 @@ class AlternateUserIdEntry
      * @ElementName alternateUserId
      * @Type string
      * @Group c0d21ef9ba207c335d8347e5172fce1d:463
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $alternateUserId = null;
@@ -25,6 +27,8 @@ class AlternateUserIdEntry
      * @Type string
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:463
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $description = null;

@@ -37,6 +37,8 @@ class GroupInterceptGroupGetResponse16sp1 extends \CWM\BroadWorksConnector\Ocip\
      * @Type string
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:4852
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $audioFileDescription = null;
@@ -55,6 +57,8 @@ class GroupInterceptGroupGetResponse16sp1 extends \CWM\BroadWorksConnector\Ocip\
      * @Type string
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:4852
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $videoFileDescription = null;
@@ -81,6 +85,8 @@ class GroupInterceptGroupGetResponse16sp1 extends \CWM\BroadWorksConnector\Ocip\
      * @Type string
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:4852
+     * @MinLength 1
+     * @MaxLength 23
      * @var string|null
      */
     private $newPhoneNumber = null;
@@ -98,6 +104,8 @@ class GroupInterceptGroupGetResponse16sp1 extends \CWM\BroadWorksConnector\Ocip\
      * @Type string
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:4852
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $transferPhoneNumber = null;
@@ -115,6 +123,8 @@ class GroupInterceptGroupGetResponse16sp1 extends \CWM\BroadWorksConnector\Ocip\
      * @Type string
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:4852
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $outboundReroutePhoneNumber = null;

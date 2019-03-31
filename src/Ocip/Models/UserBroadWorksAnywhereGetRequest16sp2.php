@@ -19,6 +19,8 @@ class UserBroadWorksAnywhereGetRequest16sp2 extends \CWM\BroadWorksConnector\Oci
      * @ElementName userId
      * @Type string
      * @Group 72f634ecc58842ce9d362ca629a47ea9:474
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;

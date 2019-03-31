@@ -21,6 +21,8 @@ class SystemAdviceOfChargeGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName delayBetweenNotificationSeconds
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:34120
+     * @MinInclusive 5
+     * @MaxInclusive 1800
      * @var int|null
      */
     private $delayBetweenNotificationSeconds = null;
@@ -38,6 +40,8 @@ class SystemAdviceOfChargeGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:34120
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $costInformationSource = null;

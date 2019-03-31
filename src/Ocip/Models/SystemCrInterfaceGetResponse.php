@@ -25,6 +25,8 @@ class SystemCrInterfaceGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\
      * @ElementName crAuditIntervalMilliseconds
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:38709
+     * @MinInclusive 500
+     * @MaxInclusive 60000
      * @var int|null
      */
     private $crAuditIntervalMilliseconds = null;
@@ -33,6 +35,8 @@ class SystemCrInterfaceGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\
      * @ElementName crAuditTimeoutMilliseconds
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:38709
+     * @MinInclusive 500
+     * @MaxInclusive 10000
      * @var int|null
      */
     private $crAuditTimeoutMilliseconds = null;
@@ -49,6 +53,8 @@ class SystemCrInterfaceGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\
      * @ElementName crConnectionTimeoutMilliseconds
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:38709
+     * @MinInclusive 1000
+     * @MaxInclusive 32000
      * @var int|null
      */
     private $crConnectionTimeoutMilliseconds = null;

@@ -32,6 +32,8 @@ class SystemCallRecordingGetPlatformListRequest22V2 extends \CWM\BroadWorksConne
      * @Type string
      * @Optional
      * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:171
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $resellerId = null;

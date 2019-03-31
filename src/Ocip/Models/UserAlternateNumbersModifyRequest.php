@@ -22,6 +22,8 @@ class UserAlternateNumbersModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName userId
      * @Type string
      * @Group 6b0d590445194cb49d97af1e45ec12ae:85
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;

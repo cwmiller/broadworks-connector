@@ -17,6 +17,8 @@ class OutgoingCallingPlanTransferNumbers
      * @Type string
      * @Optional
      * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:2207
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $phoneNumber01 = null;
@@ -26,6 +28,8 @@ class OutgoingCallingPlanTransferNumbers
      * @Type string
      * @Optional
      * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:2207
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $phoneNumber02 = null;
@@ -35,6 +39,8 @@ class OutgoingCallingPlanTransferNumbers
      * @Type string
      * @Optional
      * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:2207
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $phoneNumber03 = null;

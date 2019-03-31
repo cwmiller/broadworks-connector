@@ -17,6 +17,8 @@ class SystemEmergencyZonesGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName defaultFromAddress
      * @Type string
      * @Group e71c2205fb31894f87810b330a85ede2:274
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $defaultFromAddress = null;

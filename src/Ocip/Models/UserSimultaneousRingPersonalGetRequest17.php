@@ -19,6 +19,8 @@ class UserSimultaneousRingPersonalGetRequest17 extends \CWM\BroadWorksConnector\
      * @ElementName userId
      * @Type string
      * @Group f64c4e06b22d19cc74a21048a08a84c7:120
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;

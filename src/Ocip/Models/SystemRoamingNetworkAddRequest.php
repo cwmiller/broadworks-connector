@@ -19,6 +19,8 @@ class SystemRoamingNetworkAddRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName mscAddress
      * @Type string
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:13845
+     * @MinLength 1
+     * @MaxLength 23
      * @var string|null
      */
     private $mscAddress = null;
@@ -28,6 +30,8 @@ class SystemRoamingNetworkAddRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @Type string
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:13845
+     * @MinLength 1
+     * @MaxLength 128
      * @var string|null
      */
     private $networkTranslationIndex = null;

@@ -26,6 +26,8 @@ class GroupCallCenterGetAnnouncementResponse extends \CWM\BroadWorksConnector\Oc
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:864
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $entranceMessageAudioFileDescription = null;
@@ -35,6 +37,8 @@ class GroupCallCenterGetAnnouncementResponse extends \CWM\BroadWorksConnector\Oc
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:864
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $entranceMessageVideoFileDescription = null;
@@ -52,6 +56,8 @@ class GroupCallCenterGetAnnouncementResponse extends \CWM\BroadWorksConnector\Oc
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:864
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $periodicComfortMessageAudioFileDescription = null;
@@ -61,6 +67,8 @@ class GroupCallCenterGetAnnouncementResponse extends \CWM\BroadWorksConnector\Oc
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:864
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $periodicComfortMessageVideoFileDescription = null;
@@ -78,6 +86,8 @@ class GroupCallCenterGetAnnouncementResponse extends \CWM\BroadWorksConnector\Oc
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:864
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $onHoldMessageAudioFileDescription = null;
@@ -87,6 +97,8 @@ class GroupCallCenterGetAnnouncementResponse extends \CWM\BroadWorksConnector\Oc
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:864
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $onHoldMessageVideoFileDescription = null;

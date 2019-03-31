@@ -19,6 +19,8 @@ class GroupCallCenterCurrentAndPastCallCenterGetListRequest extends \CWM\BroadWo
      * @ElementName serviceProviderId
      * @Type string
      * @Group e2c537e3e39483b96620673a7012ffdd:3076
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -36,6 +38,8 @@ class GroupCallCenterCurrentAndPastCallCenterGetListRequest extends \CWM\BroadWo
      * @ElementName groupId
      * @Type string
      * @Group e2c537e3e39483b96620673a7012ffdd:3076
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;
@@ -45,6 +49,7 @@ class GroupCallCenterCurrentAndPastCallCenterGetListRequest extends \CWM\BroadWo
      * @Type int
      * @Optional
      * @Group e2c537e3e39483b96620673a7012ffdd:3076
+     * @MinInclusive 1
      * @var int|null
      */
     private $responseSizeLimit = null;

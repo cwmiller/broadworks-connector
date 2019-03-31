@@ -19,6 +19,8 @@ class EnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAssignmentLi
      * @ElementName serviceProviderId
      * @Type string
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:90
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -28,6 +30,7 @@ class EnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAssignmentLi
      * @Type int
      * @Optional
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:90
+     * @MinInclusive 1
      * @var int|null
      */
     private $responseSizeLimit = null;

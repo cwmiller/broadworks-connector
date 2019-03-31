@@ -26,6 +26,8 @@ class GroupCallCenterEnhancedGetResponse extends \CWM\BroadWorksConnector\Ocip\M
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:8306
+     * @MinInclusive 1
+     * @MaxInclusive 3600
      * @var int|null
      */
     private $wrapUpSeconds = null;

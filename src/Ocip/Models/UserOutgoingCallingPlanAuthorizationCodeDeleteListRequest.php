@@ -19,6 +19,8 @@ class UserOutgoingCallingPlanAuthorizationCodeDeleteListRequest extends \CWM\Bro
      * @ElementName userId
      * @Type string
      * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:1035
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;
@@ -28,6 +30,8 @@ class UserOutgoingCallingPlanAuthorizationCodeDeleteListRequest extends \CWM\Bro
      * @Type string
      * @Array
      * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:1035
+     * @MinLength 2
+     * @MaxLength 14
      * @var string[]
      */
     private $code = array(

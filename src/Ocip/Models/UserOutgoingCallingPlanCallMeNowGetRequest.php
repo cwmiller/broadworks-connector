@@ -19,6 +19,8 @@ class UserOutgoingCallingPlanCallMeNowGetRequest extends \CWM\BroadWorksConnecto
      * @ElementName userId
      * @Type string
      * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:1131
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;

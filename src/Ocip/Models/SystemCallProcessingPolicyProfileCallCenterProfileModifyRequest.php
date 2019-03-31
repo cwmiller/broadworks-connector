@@ -18,6 +18,8 @@ class SystemCallProcessingPolicyProfileCallCenterProfileModifyRequest extends \C
      * @ElementName callProcessingPolicyProfileName
      * @Type string
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:3102
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $callProcessingPolicyProfileName = null;
@@ -135,6 +137,8 @@ class SystemCallProcessingPolicyProfileCallCenterProfileModifyRequest extends \C
      * @Type int
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:3102
+     * @MinInclusive 1
+     * @MaxInclusive 999999
      * @var int|null
      */
     private $maxSimultaneousCalls = null;
@@ -153,6 +157,8 @@ class SystemCallProcessingPolicyProfileCallCenterProfileModifyRequest extends \C
      * @Type int
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:3102
+     * @MinInclusive 1
+     * @MaxInclusive 999999
      * @var int|null
      */
     private $maxSimultaneousVideoCalls = null;
@@ -171,6 +177,8 @@ class SystemCallProcessingPolicyProfileCallCenterProfileModifyRequest extends \C
      * @Type int
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:3102
+     * @MinInclusive 1
+     * @MaxInclusive 999999
      * @var int|null
      */
     private $maxConcurrentRedirectedCalls = null;
@@ -198,6 +206,8 @@ class SystemCallProcessingPolicyProfileCallCenterProfileModifyRequest extends \C
      * @Type int
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:3102
+     * @MinInclusive 1
+     * @MaxInclusive 999999
      * @var int|null
      */
     private $maxConcurrentFindMeFollowMeInvocations = null;
@@ -207,6 +217,8 @@ class SystemCallProcessingPolicyProfileCallCenterProfileModifyRequest extends \C
      * @Type int
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:3102
+     * @MinInclusive 1
+     * @MaxInclusive 100
      * @var int|null
      */
     private $maxFindMeFollowMeDepth = null;
@@ -216,6 +228,8 @@ class SystemCallProcessingPolicyProfileCallCenterProfileModifyRequest extends \C
      * @Type int
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:3102
+     * @MinInclusive 1
+     * @MaxInclusive 100
      * @var int|null
      */
     private $maxRedirectionDepth = null;

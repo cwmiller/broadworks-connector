@@ -19,6 +19,8 @@ class UserIncomingCallingPlanModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @ElementName userId
      * @Type string
      * @Group 3dd296d55b56269ae23d86a934b8b35c:129
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;

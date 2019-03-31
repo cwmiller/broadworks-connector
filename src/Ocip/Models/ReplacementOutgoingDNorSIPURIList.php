@@ -18,6 +18,8 @@ class ReplacementOutgoingDNorSIPURIList
      * @Type string
      * @Array
      * @Group c0d21ef9ba207c335d8347e5172fce1d:3342
+     * @MinLength 1
+     * @MaxLength 161
      * @var string[]
      */
     private $phoneNumber = array(

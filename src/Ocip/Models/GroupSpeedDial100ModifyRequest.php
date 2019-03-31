@@ -19,6 +19,8 @@ class GroupSpeedDial100ModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName serviceProviderId
      * @Type string
      * @Group 066a3d16bce438447d23cbe6ff0885a6:80
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,6 +29,8 @@ class GroupSpeedDial100ModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName groupId
      * @Type string
      * @Group 066a3d16bce438447d23cbe6ff0885a6:80
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;
@@ -37,6 +41,8 @@ class GroupSpeedDial100ModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @Nillable
      * @Optional
      * @Group 066a3d16bce438447d23cbe6ff0885a6:80
+     * @MinLength 1
+     * @MaxLength 2
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $prefix = null;

@@ -18,6 +18,8 @@ class PasswordForServiceProviderAdministrator
      * @ElementName serviceProviderId
      * @Type string
      * @Group 6b27fcc79475236456fc113a42b75543:805
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,6 +29,8 @@ class PasswordForServiceProviderAdministrator
      * @Type string
      * @Optional
      * @Group 6b27fcc79475236456fc113a42b75543:805
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $administratorId = null;

@@ -38,6 +38,8 @@ class GroupCallProcessingGetPolicyRequest22 extends \CWM\BroadWorksConnector\Oci
      * @ElementName serviceProviderId
      * @Type string
      * @Group de4d76f01f337fe4694212ec9f771753:4506
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -46,6 +48,8 @@ class GroupCallProcessingGetPolicyRequest22 extends \CWM\BroadWorksConnector\Oci
      * @ElementName groupId
      * @Type string
      * @Group de4d76f01f337fe4694212ec9f771753:4506
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;

@@ -23,6 +23,8 @@ class GroupCallCenterAddInstanceRequest17sp1 extends \CWM\BroadWorksConnector\Oc
      * @ElementName serviceProviderId
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:18644
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -31,6 +33,8 @@ class GroupCallCenterAddInstanceRequest17sp1 extends \CWM\BroadWorksConnector\Oc
      * @ElementName groupId
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:18644
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;
@@ -39,6 +43,8 @@ class GroupCallCenterAddInstanceRequest17sp1 extends \CWM\BroadWorksConnector\Oc
      * @ElementName serviceUserId
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:18644
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $serviceUserId = null;
@@ -79,6 +85,8 @@ class GroupCallCenterAddInstanceRequest17sp1 extends \CWM\BroadWorksConnector\Oc
      * @ElementName queueLength
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:18644
+     * @MinInclusive
+     * @MaxInclusive 525
      * @var int|null
      */
     private $queueLength = null;
@@ -97,6 +105,8 @@ class GroupCallCenterAddInstanceRequest17sp1 extends \CWM\BroadWorksConnector\Oc
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:18644
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $reportingServerName = null;
@@ -113,6 +123,7 @@ class GroupCallCenterAddInstanceRequest17sp1 extends \CWM\BroadWorksConnector\Oc
      * @ElementName escapeDigit
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:18644
+     * @Length 1
      * @var string|null
      */
     private $escapeDigit = null;
@@ -165,6 +176,8 @@ class GroupCallCenterAddInstanceRequest17sp1 extends \CWM\BroadWorksConnector\Oc
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:18644
+     * @MinInclusive 1
+     * @MaxInclusive 3600
      * @var int|null
      */
     private $wrapUpSeconds = null;
@@ -183,6 +196,8 @@ class GroupCallCenterAddInstanceRequest17sp1 extends \CWM\BroadWorksConnector\Oc
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:18644
+     * @MinInclusive 1
+     * @MaxInclusive 10
      * @var int|null
      */
     private $forceDeliveryWaitTimeSeconds = null;
@@ -210,6 +225,8 @@ class GroupCallCenterAddInstanceRequest17sp1 extends \CWM\BroadWorksConnector\Oc
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:18644
+     * @MinLength 1
+     * @MaxLength 10
      * @var string|null
      */
     private $agentUnavailableCode = null;

@@ -26,6 +26,8 @@ class UserCallForwardingAlwaysGetResponse extends \CWM\BroadWorksConnector\Ocip\
      * @Type string
      * @Optional
      * @Group 97105b92fc80f353d25e39a7ecc8e22f:59
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $forwardToPhoneNumber = null;

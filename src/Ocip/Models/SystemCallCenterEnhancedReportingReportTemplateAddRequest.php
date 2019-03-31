@@ -19,6 +19,8 @@ class SystemCallCenterEnhancedReportingReportTemplateAddRequest extends \CWM\Bro
      * @ElementName name
      * @Type string
      * @Group e2c537e3e39483b96620673a7012ffdd:6140
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $name = null;
@@ -28,6 +30,8 @@ class SystemCallCenterEnhancedReportingReportTemplateAddRequest extends \CWM\Bro
      * @Type string
      * @Optional
      * @Group e2c537e3e39483b96620673a7012ffdd:6140
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $description = null;
@@ -36,6 +40,8 @@ class SystemCallCenterEnhancedReportingReportTemplateAddRequest extends \CWM\Bro
      * @ElementName dataTemplate
      * @Type string
      * @Group e2c537e3e39483b96620673a7012ffdd:6140
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $dataTemplate = null;
@@ -45,6 +51,8 @@ class SystemCallCenterEnhancedReportingReportTemplateAddRequest extends \CWM\Bro
      * @Type int
      * @Optional
      * @Group e2c537e3e39483b96620673a7012ffdd:6140
+     * @MinInclusive 1
+     * @MaxInclusive 999
      * @var int|null
      */
     private $filterNumber = null;
@@ -141,6 +149,8 @@ class SystemCallCenterEnhancedReportingReportTemplateAddRequest extends \CWM\Bro
      * @Type int
      * @Optional
      * @Group e2c537e3e39483b96620673a7012ffdd:6140
+     * @MinInclusive 1
+     * @MaxInclusive 5
      * @var int|null
      */
     private $serviceLevelThresholdParamNumber = null;
@@ -150,6 +160,8 @@ class SystemCallCenterEnhancedReportingReportTemplateAddRequest extends \CWM\Bro
      * @Type int
      * @Optional
      * @Group e2c537e3e39483b96620673a7012ffdd:6140
+     * @MinInclusive 1
+     * @MaxInclusive 4
      * @var int|null
      */
     private $abandonedCallThresholdParamNumber = null;
@@ -160,6 +172,8 @@ class SystemCallCenterEnhancedReportingReportTemplateAddRequest extends \CWM\Bro
      * @Array
      * @Optional
      * @Group e2c537e3e39483b96620673a7012ffdd:6140
+     * @MinLength 1
+     * @MaxLength 160
      * @var string[]
      */
     private $filterValue = array(

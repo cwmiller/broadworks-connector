@@ -19,6 +19,8 @@ class EnterpriseVoiceVPNAddPolicyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName serviceProviderId
      * @Type string
      * @Group 5395c7df0157d44aa22f3351d1a5f3da:1345
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,6 +29,8 @@ class EnterpriseVoiceVPNAddPolicyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName locationDialingCode
      * @Type string
      * @Group 5395c7df0157d44aa22f3351d1a5f3da:1345
+     * @MinLength 1
+     * @MaxLength 22
      * @var string|null
      */
     private $locationDialingCode = null;
@@ -35,6 +39,8 @@ class EnterpriseVoiceVPNAddPolicyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName minExtensionLength
      * @Type int
      * @Group 5395c7df0157d44aa22f3351d1a5f3da:1345
+     * @MinInclusive
+     * @MaxInclusive 100
      * @var int|null
      */
     private $minExtensionLength = null;
@@ -43,6 +49,8 @@ class EnterpriseVoiceVPNAddPolicyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName maxExtensionLength
      * @Type int
      * @Group 5395c7df0157d44aa22f3351d1a5f3da:1345
+     * @MinInclusive
+     * @MaxInclusive 100
      * @var int|null
      */
     private $maxExtensionLength = null;
@@ -52,6 +60,8 @@ class EnterpriseVoiceVPNAddPolicyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @Type string
      * @Optional
      * @Group 5395c7df0157d44aa22f3351d1a5f3da:1345
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $description = null;
@@ -61,6 +71,8 @@ class EnterpriseVoiceVPNAddPolicyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @Type string
      * @Optional
      * @Group 5395c7df0157d44aa22f3351d1a5f3da:1345
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $routeGroupId = null;
@@ -90,6 +102,8 @@ class EnterpriseVoiceVPNAddPolicyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @Type string
      * @Optional
      * @Group 5395c7df0157d44aa22f3351d1a5f3da:1353
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $treatmentId = null;

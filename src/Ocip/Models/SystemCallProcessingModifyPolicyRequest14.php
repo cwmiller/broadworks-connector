@@ -31,6 +31,8 @@ class SystemCallProcessingModifyPolicyRequest14 extends \CWM\BroadWorksConnector
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:4583
+     * @MinInclusive 1
+     * @MaxInclusive 500
      * @var int|null
      */
     private $maxSimultaneousCalls = null;
@@ -49,6 +51,8 @@ class SystemCallProcessingModifyPolicyRequest14 extends \CWM\BroadWorksConnector
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:4583
+     * @MinInclusive 1
+     * @MaxInclusive 500
      * @var int|null
      */
     private $maxSimultaneousVideoCalls = null;
@@ -67,6 +71,8 @@ class SystemCallProcessingModifyPolicyRequest14 extends \CWM\BroadWorksConnector
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:4583
+     * @MinInclusive 5
+     * @MaxInclusive 2880
      * @var int|null
      */
     private $maxCallTimeForAnsweredCallsMinutes = null;
@@ -85,6 +91,8 @@ class SystemCallProcessingModifyPolicyRequest14 extends \CWM\BroadWorksConnector
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:4583
+     * @MinInclusive 1
+     * @MaxInclusive 60
      * @var int|null
      */
     private $maxCallTimeForUnansweredCallsMinutes = null;
@@ -104,6 +112,8 @@ class SystemCallProcessingModifyPolicyRequest14 extends \CWM\BroadWorksConnector
      * @Nillable
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:4583
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $supportedMediaSetName = null;
@@ -177,6 +187,8 @@ class SystemCallProcessingModifyPolicyRequest14 extends \CWM\BroadWorksConnector
      * @Nillable
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:4583
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $conferenceURI = null;
@@ -186,6 +198,8 @@ class SystemCallProcessingModifyPolicyRequest14 extends \CWM\BroadWorksConnector
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:4583
+     * @MinInclusive 4
+     * @MaxInclusive 15
      * @var int|null
      */
     private $maxConferenceParties = null;
@@ -204,6 +218,8 @@ class SystemCallProcessingModifyPolicyRequest14 extends \CWM\BroadWorksConnector
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:4583
+     * @MinInclusive 1
+     * @MaxInclusive 32
      * @var int|null
      */
     private $maxConcurrentRedirectedCalls = null;
@@ -222,6 +238,8 @@ class SystemCallProcessingModifyPolicyRequest14 extends \CWM\BroadWorksConnector
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:4583
+     * @MinInclusive 1
+     * @MaxInclusive 10
      * @var int|null
      */
     private $maxFindMeFollowMeDepth = null;
@@ -231,6 +249,8 @@ class SystemCallProcessingModifyPolicyRequest14 extends \CWM\BroadWorksConnector
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:4583
+     * @MinInclusive 1
+     * @MaxInclusive 15
      * @var int|null
      */
     private $maxRedirectionDepth = null;
@@ -249,6 +269,8 @@ class SystemCallProcessingModifyPolicyRequest14 extends \CWM\BroadWorksConnector
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:4583
+     * @MinInclusive 1
+     * @MaxInclusive 32
      * @var int|null
      */
     private $maxConcurrentFindMeFollowMeInvocations = null;

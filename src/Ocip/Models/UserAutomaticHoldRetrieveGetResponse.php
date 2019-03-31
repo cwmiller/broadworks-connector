@@ -25,6 +25,8 @@ class UserAutomaticHoldRetrieveGetResponse extends \CWM\BroadWorksConnector\Ocip
      * @ElementName recallTimerSeconds
      * @Type int
      * @Group 83fee6d8bc1cbca3d5ef05a88de706cf:59
+     * @MinInclusive 6
+     * @MaxInclusive 600
      * @var int|null
      */
     private $recallTimerSeconds = null;

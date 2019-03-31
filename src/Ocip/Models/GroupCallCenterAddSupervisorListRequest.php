@@ -19,6 +19,8 @@ class GroupCallCenterAddSupervisorListRequest extends \CWM\BroadWorksConnector\O
      * @ElementName serviceUserId
      * @Type string
      * @Group e2c537e3e39483b96620673a7012ffdd:2044
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $serviceUserId = null;
@@ -28,6 +30,8 @@ class GroupCallCenterAddSupervisorListRequest extends \CWM\BroadWorksConnector\O
      * @Type string
      * @Array
      * @Group e2c537e3e39483b96620673a7012ffdd:2044
+     * @MinLength 1
+     * @MaxLength 161
      * @var string[]
      */
     private $supervisorUserId = array(

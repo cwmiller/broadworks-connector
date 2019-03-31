@@ -19,6 +19,8 @@ class SystemMediaAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRe
      * @ElementName mediaName
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:10396
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $mediaName = null;
@@ -27,6 +29,8 @@ class SystemMediaAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRe
      * @ElementName codecName
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:10396
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $codecName = null;
@@ -52,6 +56,8 @@ class SystemMediaAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRe
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:10396
+     * @MinInclusive 1
+     * @MaxInclusive 100000000
      * @var int|null
      */
     private $mediaBandwidth = null;

@@ -19,6 +19,8 @@ class ServiceProviderPreferredCarrierGetCarrierListRequest extends \CWM\BroadWor
      * @ElementName serviceProviderId
      * @Type string
      * @Group 74a46a9bfccb54713c1d19735843f1df:190
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,6 +29,8 @@ class ServiceProviderPreferredCarrierGetCarrierListRequest extends \CWM\BroadWor
      * @ElementName countryCode
      * @Type string
      * @Group 74a46a9bfccb54713c1d19735843f1df:190
+     * @MaxLength 3
+     * @Pattern [0-9]|[1-9][0-9]{1,2}
      * @var string|null
      */
     private $countryCode = null;

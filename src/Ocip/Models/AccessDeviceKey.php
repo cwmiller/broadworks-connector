@@ -17,6 +17,8 @@ class AccessDeviceKey
      * @Type string
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:140
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,6 +28,8 @@ class AccessDeviceKey
      * @Type string
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:140
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;
@@ -34,6 +38,8 @@ class AccessDeviceKey
      * @ElementName deviceName
      * @Type string
      * @Group c0d21ef9ba207c335d8347e5172fce1d:140
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $deviceName = null;

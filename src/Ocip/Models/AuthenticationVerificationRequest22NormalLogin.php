@@ -14,6 +14,8 @@ class AuthenticationVerificationRequest22NormalLogin
      * @ElementName userId
      * @Type string
      * @Group de4d76f01f337fe4694212ec9f771753:3906
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;
@@ -22,6 +24,8 @@ class AuthenticationVerificationRequest22NormalLogin
      * @ElementName password
      * @Type string
      * @Group de4d76f01f337fe4694212ec9f771753:3906
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $password = null;

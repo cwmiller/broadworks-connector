@@ -21,6 +21,8 @@ class UserCustomRingbackUserGetCriteriaRequest extends \CWM\BroadWorksConnector\
      * @ElementName userId
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:11188
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;
@@ -29,6 +31,8 @@ class UserCustomRingbackUserGetCriteriaRequest extends \CWM\BroadWorksConnector\
      * @ElementName criteriaName
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:11188
+     * @MinLength 1
+     * @MaxLength 50
      * @var string|null
      */
     private $criteriaName = null;

@@ -16,6 +16,8 @@ class SearchCriteriaExactMobileNetwork extends SearchCriteria
      * @ElementName mobileNetworkName
      * @Type string
      * @Group f0ada2681ca347fa83b464734259b304:1015
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $mobileNetworkName = null;

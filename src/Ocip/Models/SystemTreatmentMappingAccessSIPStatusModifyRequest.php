@@ -19,6 +19,8 @@ class SystemTreatmentMappingAccessSIPStatusModifyRequest extends \CWM\BroadWorks
      * @ElementName sipStatusCode
      * @Type int
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17608
+     * @MinInclusive 400
+     * @MaxInclusive 699
      * @var int|null
      */
     private $sipStatusCode = null;
@@ -28,6 +30,8 @@ class SystemTreatmentMappingAccessSIPStatusModifyRequest extends \CWM\BroadWorks
      * @Type string
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17608
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $treatmentId = null;

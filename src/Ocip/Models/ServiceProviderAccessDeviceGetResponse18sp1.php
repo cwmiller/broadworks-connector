@@ -17,6 +17,8 @@ class ServiceProviderAccessDeviceGetResponse18sp1 extends \CWM\BroadWorksConnect
      * @ElementName deviceType
      * @Type string
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:604
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $deviceType = null;
@@ -25,6 +27,8 @@ class ServiceProviderAccessDeviceGetResponse18sp1 extends \CWM\BroadWorksConnect
      * @ElementName protocol
      * @Type string
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:604
+     * @MinLength 1
+     * @MaxLength 20
      * @var string|null
      */
     private $protocol = null;
@@ -34,6 +38,8 @@ class ServiceProviderAccessDeviceGetResponse18sp1 extends \CWM\BroadWorksConnect
      * @Type string
      * @Optional
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:604
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $netAddress = null;
@@ -43,6 +49,8 @@ class ServiceProviderAccessDeviceGetResponse18sp1 extends \CWM\BroadWorksConnect
      * @Type int
      * @Optional
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:604
+     * @MinInclusive 1025
+     * @MaxInclusive 65535
      * @var int|null
      */
     private $port = null;
@@ -52,6 +60,8 @@ class ServiceProviderAccessDeviceGetResponse18sp1 extends \CWM\BroadWorksConnect
      * @Type string
      * @Optional
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:604
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $outboundProxyServerNetAddress = null;
@@ -61,6 +71,8 @@ class ServiceProviderAccessDeviceGetResponse18sp1 extends \CWM\BroadWorksConnect
      * @Type string
      * @Optional
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:604
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $stunServerNetAddress = null;
@@ -70,6 +82,8 @@ class ServiceProviderAccessDeviceGetResponse18sp1 extends \CWM\BroadWorksConnect
      * @Type string
      * @Optional
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:604
+     * @MinLength 1
+     * @MaxLength 12
      * @var string|null
      */
     private $macAddress = null;
@@ -79,6 +93,8 @@ class ServiceProviderAccessDeviceGetResponse18sp1 extends \CWM\BroadWorksConnect
      * @Type string
      * @Optional
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:604
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $serialNumber = null;
@@ -88,6 +104,8 @@ class ServiceProviderAccessDeviceGetResponse18sp1 extends \CWM\BroadWorksConnect
      * @Type string
      * @Optional
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:604
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $description = null;
@@ -121,6 +139,8 @@ class ServiceProviderAccessDeviceGetResponse18sp1 extends \CWM\BroadWorksConnect
      * @Type string
      * @Optional
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:604
+     * @MinLength 1
+     * @MaxLength 1024
      * @var string|null
      */
     private $physicalLocation = null;
@@ -139,6 +159,8 @@ class ServiceProviderAccessDeviceGetResponse18sp1 extends \CWM\BroadWorksConnect
      * @Type string
      * @Optional
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:604
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $mobilityManagerProvisioningURL = null;
@@ -148,6 +170,8 @@ class ServiceProviderAccessDeviceGetResponse18sp1 extends \CWM\BroadWorksConnect
      * @Type string
      * @Optional
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:604
+     * @MinLength 1
+     * @MaxLength 15
      * @var string|null
      */
     private $mobilityManagerProvisioningUserName = null;
@@ -157,6 +181,8 @@ class ServiceProviderAccessDeviceGetResponse18sp1 extends \CWM\BroadWorksConnect
      * @Type int
      * @Optional
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:604
+     * @MinInclusive
+     * @MaxInclusive 999
      * @var int|null
      */
     private $mobilityManagerDefaultOriginatingServiceKey = null;
@@ -166,6 +192,8 @@ class ServiceProviderAccessDeviceGetResponse18sp1 extends \CWM\BroadWorksConnect
      * @Type int
      * @Optional
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:604
+     * @MinInclusive
+     * @MaxInclusive 999
      * @var int|null
      */
     private $mobilityManagerDefaultTerminatingServiceKey = null;
@@ -184,6 +212,8 @@ class ServiceProviderAccessDeviceGetResponse18sp1 extends \CWM\BroadWorksConnect
      * @Type string
      * @Optional
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:604
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userName = null;
@@ -193,6 +223,8 @@ class ServiceProviderAccessDeviceGetResponse18sp1 extends \CWM\BroadWorksConnect
      * @Type string
      * @Optional
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:604
+     * @MinLength 1
+     * @MaxLength 1024
      * @var string|null
      */
     private $version = null;

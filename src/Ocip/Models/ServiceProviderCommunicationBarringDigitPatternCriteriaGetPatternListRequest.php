@@ -19,6 +19,8 @@ class ServiceProviderCommunicationBarringDigitPatternCriteriaGetPatternListReque
      * @ElementName serviceProviderId
      * @Type string
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:1607
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,6 +29,8 @@ class ServiceProviderCommunicationBarringDigitPatternCriteriaGetPatternListReque
      * @ElementName name
      * @Type string
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:1607
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $name = null;
@@ -36,6 +40,7 @@ class ServiceProviderCommunicationBarringDigitPatternCriteriaGetPatternListReque
      * @Type int
      * @Optional
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:1607
+     * @MinInclusive 1
      * @var int|null
      */
     private $responseSizeLimit = null;

@@ -19,6 +19,8 @@ class SystemCommunicationBarringCriteriaGetResponse19sp1 extends \CWM\BroadWorks
      * @Type string
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:5470
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $description = null;
@@ -29,6 +31,8 @@ class SystemCommunicationBarringCriteriaGetResponse19sp1 extends \CWM\BroadWorks
      * @Array
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:5470
+     * @MinLength 1
+     * @MaxLength 40
      * @var string[]
      */
     private $matchCallType = array(
@@ -41,6 +45,8 @@ class SystemCommunicationBarringCriteriaGetResponse19sp1 extends \CWM\BroadWorks
      * @Array
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:5470
+     * @MinLength 1
+     * @MaxLength 40
      * @var string[]
      */
     private $matchAlternateCallIndicator = array(
@@ -53,6 +59,8 @@ class SystemCommunicationBarringCriteriaGetResponse19sp1 extends \CWM\BroadWorks
      * @Array
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:5470
+     * @MinLength 1
+     * @MaxLength 40
      * @var string[]
      */
     private $matchVirtualOnNetCallType = array(
@@ -264,6 +272,8 @@ class SystemCommunicationBarringCriteriaGetResponse19sp1 extends \CWM\BroadWorks
      * @Type string
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:5470
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $timeSchedule = null;
@@ -273,6 +283,8 @@ class SystemCommunicationBarringCriteriaGetResponse19sp1 extends \CWM\BroadWorks
      * @Type string
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:5470
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $holidaySchedule = null;
@@ -283,6 +295,8 @@ class SystemCommunicationBarringCriteriaGetResponse19sp1 extends \CWM\BroadWorks
      * @Array
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:5470
+     * @MinLength 1
+     * @MaxLength 40
      * @var string[]
      */
     private $matchNumberPortabilityStatus = array(

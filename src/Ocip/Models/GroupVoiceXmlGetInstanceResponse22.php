@@ -27,6 +27,8 @@ class GroupVoiceXmlGetInstanceResponse22 extends \CWM\BroadWorksConnector\Ocip\M
      * @Type string
      * @Optional
      * @Group 0639a23b2e14be05c11ead49c23bd0bd:138
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $networkClassOfService = null;

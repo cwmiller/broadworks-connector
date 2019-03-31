@@ -21,6 +21,8 @@ class SystemConfigurableTreatmentGetRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName treatmentId
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:10243
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $treatmentId = null;

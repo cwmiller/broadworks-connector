@@ -18,6 +18,8 @@ class SystemSpeedDial100GetResponse17sp1 extends \CWM\BroadWorksConnector\Ocip\M
      * @Type string
      * @Optional
      * @Group 066a3d16bce438447d23cbe6ff0885a6:111
+     * @MinLength 1
+     * @MaxLength 2
      * @var string|null
      */
     private $prefix = null;

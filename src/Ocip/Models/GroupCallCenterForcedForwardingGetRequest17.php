@@ -19,6 +19,8 @@ class GroupCallCenterForcedForwardingGetRequest17 extends \CWM\BroadWorksConnect
      * @ElementName serviceUserId
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:29462
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $serviceUserId = null;

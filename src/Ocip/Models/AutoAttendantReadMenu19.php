@@ -29,6 +29,8 @@ class AutoAttendantReadMenu19
      * @Type string
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:795
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $audioFileDescription = null;
@@ -47,6 +49,8 @@ class AutoAttendantReadMenu19
      * @Type string
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:795
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $videoFileDescription = null;

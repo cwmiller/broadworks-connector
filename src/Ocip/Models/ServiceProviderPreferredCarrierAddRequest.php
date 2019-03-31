@@ -23,6 +23,8 @@ class ServiceProviderPreferredCarrierAddRequest extends \CWM\BroadWorksConnector
      * @ElementName serviceProviderId
      * @Type string
      * @Group 74a46a9bfccb54713c1d19735843f1df:116
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -31,6 +33,8 @@ class ServiceProviderPreferredCarrierAddRequest extends \CWM\BroadWorksConnector
      * @ElementName countryCode
      * @Type string
      * @Group 74a46a9bfccb54713c1d19735843f1df:116
+     * @MaxLength 3
+     * @Pattern [0-9]|[1-9][0-9]{1,2}
      * @var string|null
      */
     private $countryCode = null;
@@ -40,6 +44,8 @@ class ServiceProviderPreferredCarrierAddRequest extends \CWM\BroadWorksConnector
      * @Type string
      * @Optional
      * @Group 74a46a9bfccb54713c1d19735843f1df:116
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $intraLataCarrier = null;
@@ -49,6 +55,8 @@ class ServiceProviderPreferredCarrierAddRequest extends \CWM\BroadWorksConnector
      * @Type string
      * @Optional
      * @Group 74a46a9bfccb54713c1d19735843f1df:116
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $interLataCarrier = null;
@@ -58,6 +66,8 @@ class ServiceProviderPreferredCarrierAddRequest extends \CWM\BroadWorksConnector
      * @Type string
      * @Optional
      * @Group 74a46a9bfccb54713c1d19735843f1df:116
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $internationalCarrier = null;

@@ -19,6 +19,8 @@ class EnterpriseCallCenterAgentUnavailableCodeDeleteRequest extends \CWM\BroadWo
      * @ElementName serviceProviderId
      * @Type string
      * @Group e2c537e3e39483b96620673a7012ffdd:757
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,6 +29,8 @@ class EnterpriseCallCenterAgentUnavailableCodeDeleteRequest extends \CWM\BroadWo
      * @ElementName code
      * @Type string
      * @Group e2c537e3e39483b96620673a7012ffdd:757
+     * @MinLength 1
+     * @MaxLength 10
      * @var string|null
      */
     private $code = null;

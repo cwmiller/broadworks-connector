@@ -15,6 +15,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1CommPilotExpressP
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:32161
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $activateAvailableInOfficeProfile = null;
@@ -24,6 +26,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1CommPilotExpressP
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:32161
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $activateAvailableOutOfOfficeProfile = null;
@@ -33,6 +37,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1CommPilotExpressP
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:32161
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $activateBusyProfile = null;
@@ -42,6 +48,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1CommPilotExpressP
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:32161
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $activateUnavailableProfile = null;
@@ -51,6 +59,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1CommPilotExpressP
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:32161
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $noProfile = null;
@@ -59,6 +69,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1CommPilotExpressP
      * @ElementName returnToPreviousMenu
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:32161
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $returnToPreviousMenu = null;
@@ -68,6 +80,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1CommPilotExpressP
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:32161
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $repeatMenu = null;

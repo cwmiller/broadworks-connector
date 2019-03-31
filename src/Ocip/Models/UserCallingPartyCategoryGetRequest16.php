@@ -20,6 +20,8 @@ class UserCallingPartyCategoryGetRequest16 extends \CWM\BroadWorksConnector\Ocip
      * @ElementName userId
      * @Type string
      * @Group 89aa8c9a341a3cccb2453b1ee467bf94:186
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;

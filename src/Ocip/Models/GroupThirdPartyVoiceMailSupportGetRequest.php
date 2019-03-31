@@ -20,6 +20,8 @@ class GroupThirdPartyVoiceMailSupportGetRequest extends \CWM\BroadWorksConnector
      * @ElementName serviceProviderId
      * @Type string
      * @Group 3c311aa5c89c0cf5b46e1cdefd5bc387:53
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -28,6 +30,8 @@ class GroupThirdPartyVoiceMailSupportGetRequest extends \CWM\BroadWorksConnector
      * @ElementName groupId
      * @Type string
      * @Group 3c311aa5c89c0cf5b46e1cdefd5bc387:53
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;

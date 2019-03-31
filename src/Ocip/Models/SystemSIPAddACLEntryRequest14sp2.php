@@ -19,6 +19,8 @@ class SystemSIPAddACLEntryRequest14sp2 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName netAddress
      * @Type string
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:15350
+     * @MinLength 1
+     * @MaxLength 39
      * @var string|null
      */
     private $netAddress = null;
@@ -36,6 +38,8 @@ class SystemSIPAddACLEntryRequest14sp2 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Type string
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:15350
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $description = null;

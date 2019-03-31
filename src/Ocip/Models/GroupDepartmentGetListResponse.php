@@ -35,6 +35,7 @@ class GroupDepartmentGetListResponse extends \CWM\BroadWorksConnector\Ocip\Model
      * @Array
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:19441
+     * @MinLength 1
      * @var string[]
      */
     private $fullPathName = array(

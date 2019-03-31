@@ -22,6 +22,8 @@ class SystemCallProcessingPolicyProfileModifyRequest extends \CWM\BroadWorksConn
      * @ElementName name
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:31545
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $name = null;
@@ -31,6 +33,8 @@ class SystemCallProcessingPolicyProfileModifyRequest extends \CWM\BroadWorksConn
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:31545
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $newName = null;
@@ -41,6 +45,8 @@ class SystemCallProcessingPolicyProfileModifyRequest extends \CWM\BroadWorksConn
      * @Nillable
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:31545
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $description = null;

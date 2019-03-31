@@ -47,6 +47,8 @@ class SystemVoiceMessagingGroupModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:10772
+     * @MinInclusive 1
+     * @MaxInclusive 5
      * @var int|null
      */
     private $maxGreetingLengthMinutes = null;
@@ -56,6 +58,8 @@ class SystemVoiceMessagingGroupModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:10772
+     * @MinInclusive 1
+     * @MaxInclusive 10
      * @var int|null
      */
     private $maxMessageLengthMinutes = null;
@@ -93,6 +97,8 @@ class SystemVoiceMessagingGroupModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @Nillable
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:10772
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $mailServerNetAddress = null;
@@ -111,6 +117,8 @@ class SystemVoiceMessagingGroupModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:10772
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $defaultDeliveryFromAddress = null;
@@ -120,6 +128,8 @@ class SystemVoiceMessagingGroupModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:10772
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $defaultNotificationFromAddress = null;
@@ -129,6 +139,8 @@ class SystemVoiceMessagingGroupModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:10772
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $defaultVoicePortalLockoutFromAddress = null;
@@ -147,6 +159,8 @@ class SystemVoiceMessagingGroupModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:10772
+     * @MinInclusive
+     * @MaxInclusive 300
      * @var int|null
      */
     private $mwiDelayInSeconds = null;
@@ -184,6 +198,8 @@ class SystemVoiceMessagingGroupModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @Nillable
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:10772
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $defaultExternalRoutingAddress = null;

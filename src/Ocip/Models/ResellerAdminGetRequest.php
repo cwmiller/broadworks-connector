@@ -19,6 +19,8 @@ class ResellerAdminGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @ElementName userId
      * @Type string
      * @Group b009175f2a2a9d38115e319a6ad64d7f:149
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;

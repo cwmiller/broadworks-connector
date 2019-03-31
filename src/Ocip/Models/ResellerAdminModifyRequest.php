@@ -20,6 +20,8 @@ class ResellerAdminModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @ElementName userId
      * @Type string
      * @Group b009175f2a2a9d38115e319a6ad64d7f:185
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;
@@ -30,6 +32,8 @@ class ResellerAdminModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @Nillable
      * @Optional
      * @Group b009175f2a2a9d38115e319a6ad64d7f:185
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $firstName = null;
@@ -40,6 +44,8 @@ class ResellerAdminModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @Nillable
      * @Optional
      * @Group b009175f2a2a9d38115e319a6ad64d7f:185
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $lastName = null;
@@ -50,6 +56,8 @@ class ResellerAdminModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @Nillable
      * @Optional
      * @Group b009175f2a2a9d38115e319a6ad64d7f:185
+     * @MinLength 1
+     * @MaxLength 60
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $password = null;
@@ -59,6 +67,8 @@ class ResellerAdminModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @Type string
      * @Optional
      * @Group b009175f2a2a9d38115e319a6ad64d7f:185
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $language = null;

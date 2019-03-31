@@ -21,6 +21,8 @@ class SystemCommunicationBarringProfileGetResponse extends \CWM\BroadWorksConnec
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:10218
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $description = null;
@@ -38,6 +40,8 @@ class SystemCommunicationBarringProfileGetResponse extends \CWM\BroadWorksConnec
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:10218
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $originatingDefaultTreatmentId = null;
@@ -47,6 +51,8 @@ class SystemCommunicationBarringProfileGetResponse extends \CWM\BroadWorksConnec
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:10218
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $originatingDefaultTransferNumber = null;

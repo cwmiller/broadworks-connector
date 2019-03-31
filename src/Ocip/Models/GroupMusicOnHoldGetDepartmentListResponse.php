@@ -39,6 +39,7 @@ class GroupMusicOnHoldGetDepartmentListResponse extends \CWM\BroadWorksConnector
      * @Array
      * @Optional
      * @Group 66fe518a637c74cc4b2c97aa7f68fc49:110
+     * @MinLength 1
      * @var string[]
      */
     private $departmentFullPath = array(

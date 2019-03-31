@@ -17,6 +17,8 @@ class SystemAutomaticCallbackGetResponse17 extends \CWM\BroadWorksConnector\Ocip
      * @ElementName monitorMinutes
      * @Type int
      * @Group e8188f390ad4fcfad616cb409dd0e896:120
+     * @MinInclusive 5
+     * @MaxInclusive 180
      * @var int|null
      */
     private $monitorMinutes = null;
@@ -25,6 +27,8 @@ class SystemAutomaticCallbackGetResponse17 extends \CWM\BroadWorksConnector\Ocip
      * @ElementName maxMonitorsPerOriginator
      * @Type int
      * @Group e8188f390ad4fcfad616cb409dd0e896:120
+     * @MinInclusive 1
+     * @MaxInclusive 30
      * @var int|null
      */
     private $maxMonitorsPerOriginator = null;
@@ -33,6 +37,8 @@ class SystemAutomaticCallbackGetResponse17 extends \CWM\BroadWorksConnector\Ocip
      * @ElementName maxCallbackRings
      * @Type int
      * @Group e8188f390ad4fcfad616cb409dd0e896:120
+     * @MinInclusive 3
+     * @MaxInclusive 8
      * @var int|null
      */
     private $maxCallbackRings = null;
@@ -41,6 +47,8 @@ class SystemAutomaticCallbackGetResponse17 extends \CWM\BroadWorksConnector\Ocip
      * @ElementName maxMonitorsPerTerminator
      * @Type int
      * @Group e8188f390ad4fcfad616cb409dd0e896:120
+     * @MinInclusive 1
+     * @MaxInclusive 30
      * @var int|null
      */
     private $maxMonitorsPerTerminator = null;
@@ -49,6 +57,8 @@ class SystemAutomaticCallbackGetResponse17 extends \CWM\BroadWorksConnector\Ocip
      * @ElementName terminatorIdleGuardSeconds
      * @Type int
      * @Group e8188f390ad4fcfad616cb409dd0e896:120
+     * @MinInclusive 5
+     * @MaxInclusive 300
      * @var int|null
      */
     private $terminatorIdleGuardSeconds = null;
@@ -65,6 +75,8 @@ class SystemAutomaticCallbackGetResponse17 extends \CWM\BroadWorksConnector\Ocip
      * @ElementName pollingIntervalSeconds
      * @Type int
      * @Group e8188f390ad4fcfad616cb409dd0e896:120
+     * @MinInclusive 60
+     * @MaxInclusive 900
      * @var int|null
      */
     private $pollingIntervalSeconds = null;
@@ -73,6 +85,8 @@ class SystemAutomaticCallbackGetResponse17 extends \CWM\BroadWorksConnector\Ocip
      * @ElementName activationDigit
      * @Type int
      * @Group e8188f390ad4fcfad616cb409dd0e896:120
+     * @MinInclusive
+     * @MaxInclusive 9
      * @var int|null
      */
     private $activationDigit = null;

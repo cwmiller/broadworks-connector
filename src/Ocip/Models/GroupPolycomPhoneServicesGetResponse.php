@@ -34,6 +34,8 @@ class GroupPolycomPhoneServicesGetResponse extends \CWM\BroadWorksConnector\Ocip
      * @Type string
      * @Optional
      * @Group 4f074d986b998636e2bcb0d67372b0f4:62
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $groupCustomContactDirectory = null;

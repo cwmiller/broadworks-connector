@@ -38,6 +38,8 @@ class ProfileAndServicePreAlertingAnnouncementInfo
      * @Type string
      * @Optional
      * @Group 53d18cc797d03d802cbc411ad821f1d4:4290
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $audioFileDescription = null;
@@ -56,6 +58,8 @@ class ProfileAndServicePreAlertingAnnouncementInfo
      * @Type string
      * @Optional
      * @Group 53d18cc797d03d802cbc411ad821f1d4:4290
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $audioFileUrl = null;
@@ -73,6 +77,8 @@ class ProfileAndServicePreAlertingAnnouncementInfo
      * @Type string
      * @Optional
      * @Group 53d18cc797d03d802cbc411ad821f1d4:4290
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $videoFileDescription = null;
@@ -91,6 +97,8 @@ class ProfileAndServicePreAlertingAnnouncementInfo
      * @Type string
      * @Optional
      * @Group 53d18cc797d03d802cbc411ad821f1d4:4290
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $videoFileUrl = null;

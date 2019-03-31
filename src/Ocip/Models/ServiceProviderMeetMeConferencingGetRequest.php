@@ -19,6 +19,8 @@ class ServiceProviderMeetMeConferencingGetRequest extends \CWM\BroadWorksConnect
      * @ElementName serviceProviderId
      * @Type string
      * @Group 0fd24121d16995c994d40bc408dbcfa5:385
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;

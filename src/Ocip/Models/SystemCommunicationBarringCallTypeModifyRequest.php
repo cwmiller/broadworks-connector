@@ -19,6 +19,8 @@ class SystemCommunicationBarringCallTypeModifyRequest extends \CWM\BroadWorksCon
      * @ElementName callType
      * @Type string
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:5339
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $callType = null;
@@ -28,6 +30,8 @@ class SystemCommunicationBarringCallTypeModifyRequest extends \CWM\BroadWorksCon
      * @Type string
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:5339
+     * @MinLength 1
+     * @MaxLength 4
      * @var string|null
      */
     private $networkServerCallType = null;

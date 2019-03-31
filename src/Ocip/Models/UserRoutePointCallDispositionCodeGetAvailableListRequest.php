@@ -19,6 +19,8 @@ class UserRoutePointCallDispositionCodeGetAvailableListRequest extends \CWM\Broa
      * @ElementName serviceUserId
      * @Type string
      * @Group a27224a048c30ff69eab9209dec841cc:1261
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $serviceUserId = null;

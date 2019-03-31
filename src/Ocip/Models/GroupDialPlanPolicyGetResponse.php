@@ -44,6 +44,8 @@ class GroupDialPlanPolicyGetResponse extends \CWM\BroadWorksConnector\Ocip\Model
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:13579
+     * @MinLength 1
+     * @MaxLength 2048
      * @var string|null
      */
     private $publicDigitMap = null;
@@ -53,6 +55,8 @@ class GroupDialPlanPolicyGetResponse extends \CWM\BroadWorksConnector\Ocip\Model
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:13579
+     * @MinLength 1
+     * @MaxLength 2048
      * @var string|null
      */
     private $privateDigitMap = null;

@@ -19,6 +19,8 @@ class UserSimultaneousRingFamilyGetRequest14sp4 extends \CWM\BroadWorksConnector
      * @ElementName userId
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:17540
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;

@@ -16,6 +16,8 @@ class OutgoingCallingPlanAuthorizationCodeEntry
      * @ElementName code
      * @Type string
      * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:1736
+     * @MinLength 2
+     * @MaxLength 14
      * @var string|null
      */
     private $code = null;
@@ -25,6 +27,8 @@ class OutgoingCallingPlanAuthorizationCodeEntry
      * @Type string
      * @Optional
      * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:1736
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $description = null;

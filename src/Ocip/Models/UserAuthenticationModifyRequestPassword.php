@@ -14,6 +14,8 @@ class UserAuthenticationModifyRequestPassword
      * @ElementName old
      * @Type string
      * @Group 9db4d5fa1bbf70f2626f52a5d6e3420e:80
+     * @MinLength 1
+     * @MaxLength 60
      * @var string|null
      */
     private $old = null;
@@ -22,6 +24,8 @@ class UserAuthenticationModifyRequestPassword
      * @ElementName new
      * @Type string
      * @Group 9db4d5fa1bbf70f2626f52a5d6e3420e:80
+     * @MinLength 1
+     * @MaxLength 60
      * @var string|null
      */
     private $new = null;

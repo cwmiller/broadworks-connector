@@ -26,6 +26,8 @@ class ServiceProviderAnswerConfirmationGetResponse16 extends \CWM\BroadWorksConn
      * @Type string
      * @Optional
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:1214
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $confirmationMessageAudioFileDescription = null;
@@ -43,6 +45,8 @@ class ServiceProviderAnswerConfirmationGetResponse16 extends \CWM\BroadWorksConn
      * @ElementName confirmationTimoutSeconds
      * @Type int
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:1214
+     * @MinInclusive 2
+     * @MaxInclusive 30
      * @var int|null
      */
     private $confirmationTimoutSeconds = null;

@@ -19,6 +19,8 @@ class GroupCallCenterEnhancedReportingReportTemplateModifyRequest extends \CWM\B
      * @ElementName serviceProviderId
      * @Type string
      * @Group e2c537e3e39483b96620673a7012ffdd:3551
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,6 +29,8 @@ class GroupCallCenterEnhancedReportingReportTemplateModifyRequest extends \CWM\B
      * @ElementName groupId
      * @Type string
      * @Group e2c537e3e39483b96620673a7012ffdd:3551
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;
@@ -35,6 +39,8 @@ class GroupCallCenterEnhancedReportingReportTemplateModifyRequest extends \CWM\B
      * @ElementName name
      * @Type string
      * @Group e2c537e3e39483b96620673a7012ffdd:3551
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $name = null;
@@ -44,6 +50,8 @@ class GroupCallCenterEnhancedReportingReportTemplateModifyRequest extends \CWM\B
      * @Type string
      * @Optional
      * @Group e2c537e3e39483b96620673a7012ffdd:3551
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $newName = null;
@@ -54,6 +62,8 @@ class GroupCallCenterEnhancedReportingReportTemplateModifyRequest extends \CWM\B
      * @Nillable
      * @Optional
      * @Group e2c537e3e39483b96620673a7012ffdd:3551
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $description = null;
@@ -100,6 +110,8 @@ class GroupCallCenterEnhancedReportingReportTemplateModifyRequest extends \CWM\B
      * @Nillable
      * @Optional
      * @Group e2c537e3e39483b96620673a7012ffdd:3551
+     * @MinInclusive 1
+     * @MaxInclusive 999
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $filterNumber = null;

@@ -37,6 +37,8 @@ class UserAddRequest21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
      * @ElementName serviceProviderId
      * @Type string
      * @Group de4d76f01f337fe4694212ec9f771753:7132
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -45,6 +47,8 @@ class UserAddRequest21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
      * @ElementName groupId
      * @Type string
      * @Group de4d76f01f337fe4694212ec9f771753:7132
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;
@@ -53,6 +57,8 @@ class UserAddRequest21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
      * @ElementName userId
      * @Type string
      * @Group de4d76f01f337fe4694212ec9f771753:7132
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;
@@ -61,6 +67,8 @@ class UserAddRequest21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
      * @ElementName lastName
      * @Type string
      * @Group de4d76f01f337fe4694212ec9f771753:7132
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $lastName = null;
@@ -69,6 +77,8 @@ class UserAddRequest21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
      * @ElementName firstName
      * @Type string
      * @Group de4d76f01f337fe4694212ec9f771753:7132
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $firstName = null;
@@ -77,6 +87,8 @@ class UserAddRequest21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
      * @ElementName callingLineIdLastName
      * @Type string
      * @Group de4d76f01f337fe4694212ec9f771753:7132
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $callingLineIdLastName = null;
@@ -85,6 +97,8 @@ class UserAddRequest21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
      * @ElementName callingLineIdFirstName
      * @Type string
      * @Group de4d76f01f337fe4694212ec9f771753:7132
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $callingLineIdFirstName = null;
@@ -103,6 +117,8 @@ class UserAddRequest21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
      * @Type string
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:7132
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $hiraganaLastName = null;
@@ -112,6 +128,8 @@ class UserAddRequest21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
      * @Type string
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:7132
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $hiraganaFirstName = null;
@@ -121,6 +139,8 @@ class UserAddRequest21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
      * @Type string
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:7132
+     * @MinLength 1
+     * @MaxLength 23
      * @var string|null
      */
     private $phoneNumber = null;
@@ -130,6 +150,8 @@ class UserAddRequest21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
      * @Type string
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:7132
+     * @MinLength 2
+     * @MaxLength 20
      * @var string|null
      */
     private $extension = null;
@@ -139,6 +161,8 @@ class UserAddRequest21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
      * @Type string
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:7132
+     * @MinLength 1
+     * @MaxLength 23
      * @var string|null
      */
     private $callingLineIdPhoneNumber = null;
@@ -148,6 +172,8 @@ class UserAddRequest21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
      * @Type string
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:7132
+     * @MinLength 1
+     * @MaxLength 60
      * @var string|null
      */
     private $password = null;
@@ -166,6 +192,8 @@ class UserAddRequest21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
      * @Type string
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:7132
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $language = null;
@@ -175,6 +203,8 @@ class UserAddRequest21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
      * @Type string
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:7132
+     * @MinLength 1
+     * @MaxLength 127
      * @var string|null
      */
     private $timeZone = null;
@@ -185,6 +215,8 @@ class UserAddRequest21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
      * @Array
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:7132
+     * @MinLength 1
+     * @MaxLength 161
      * @var string[]
      */
     private $alias = array(
@@ -214,6 +246,8 @@ class UserAddRequest21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
      * @Type string
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:7132
+     * @MinLength 1
+     * @MaxLength 50
      * @var string|null
      */
     private $title = null;
@@ -223,6 +257,8 @@ class UserAddRequest21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
      * @Type string
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:7132
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $pagerPhoneNumber = null;
@@ -232,6 +268,8 @@ class UserAddRequest21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
      * @Type string
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:7132
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $mobilePhoneNumber = null;
@@ -241,6 +279,8 @@ class UserAddRequest21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
      * @Type string
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:7132
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $emailAddress = null;
@@ -250,6 +290,8 @@ class UserAddRequest21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
      * @Type string
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:7132
+     * @MinLength 1
+     * @MaxLength 50
      * @var string|null
      */
     private $yahooId = null;
@@ -259,6 +301,8 @@ class UserAddRequest21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
      * @Type string
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:7132
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $addressLocation = null;
@@ -277,6 +321,8 @@ class UserAddRequest21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
      * @Type string
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:7132
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $networkClassOfService = null;

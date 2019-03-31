@@ -20,6 +20,8 @@ class GroupEnhancedCallLogsSchemaInstanceGetRequest extends \CWM\BroadWorksConne
      * @ElementName serviceProviderId
      * @Type string
      * @Group f6b3702edb5f67fa12c2c426d98657db:46
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -28,6 +30,8 @@ class GroupEnhancedCallLogsSchemaInstanceGetRequest extends \CWM\BroadWorksConne
      * @ElementName groupId
      * @Type string
      * @Group f6b3702edb5f67fa12c2c426d98657db:46
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;

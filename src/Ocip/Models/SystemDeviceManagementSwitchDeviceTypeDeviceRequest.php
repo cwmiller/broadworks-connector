@@ -22,6 +22,8 @@ class SystemDeviceManagementSwitchDeviceTypeDeviceRequest extends \CWM\BroadWork
      * @ElementName serviceProviderId
      * @Type string
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7197
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -30,6 +32,8 @@ class SystemDeviceManagementSwitchDeviceTypeDeviceRequest extends \CWM\BroadWork
      * @ElementName svcProviderId
      * @Type string
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7199
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $svcProviderId = null;
@@ -38,6 +42,8 @@ class SystemDeviceManagementSwitchDeviceTypeDeviceRequest extends \CWM\BroadWork
      * @ElementName groupId
      * @Type string
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7199
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;
@@ -46,6 +52,8 @@ class SystemDeviceManagementSwitchDeviceTypeDeviceRequest extends \CWM\BroadWork
      * @ElementName deviceName
      * @Type string
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7196
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $deviceName = null;
@@ -54,6 +62,8 @@ class SystemDeviceManagementSwitchDeviceTypeDeviceRequest extends \CWM\BroadWork
      * @ElementName toDeviceType
      * @Type string
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7196
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $toDeviceType = null;

@@ -19,6 +19,8 @@ class UserPersonalAssistantExclusionNumberGetResponse extends \CWM\BroadWorksCon
      * @Nillable
      * @Optional
      * @Group f53ece1c00394ef2d3d76f532f9a9663:266
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $description = null;

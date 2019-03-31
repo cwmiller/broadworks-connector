@@ -18,6 +18,8 @@ class ServiceInstanceReadProfile
      * @ElementName name
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:43887
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $name = null;
@@ -26,6 +28,8 @@ class ServiceInstanceReadProfile
      * @ElementName callingLineIdLastName
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:43887
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $callingLineIdLastName = null;
@@ -34,6 +38,8 @@ class ServiceInstanceReadProfile
      * @ElementName callingLineIdFirstName
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:43887
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $callingLineIdFirstName = null;
@@ -43,6 +49,8 @@ class ServiceInstanceReadProfile
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:43887
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $hiraganaLastName = null;
@@ -52,6 +60,8 @@ class ServiceInstanceReadProfile
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:43887
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $hiraganaFirstName = null;
@@ -61,6 +71,8 @@ class ServiceInstanceReadProfile
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:43887
+     * @MinLength 1
+     * @MaxLength 23
      * @var string|null
      */
     private $phoneNumber = null;
@@ -70,6 +82,8 @@ class ServiceInstanceReadProfile
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:43887
+     * @MinLength 2
+     * @MaxLength 6
      * @var string|null
      */
     private $extension = null;
@@ -88,6 +102,8 @@ class ServiceInstanceReadProfile
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:43887
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $language = null;
@@ -97,6 +113,8 @@ class ServiceInstanceReadProfile
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:43887
+     * @MinLength 1
+     * @MaxLength 127
      * @var string|null
      */
     private $timeZone = null;
@@ -106,6 +124,8 @@ class ServiceInstanceReadProfile
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:43887
+     * @MinLength 1
+     * @MaxLength 127
      * @var string|null
      */
     private $timeZoneDisplayName = null;
@@ -116,6 +136,8 @@ class ServiceInstanceReadProfile
      * @Array
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:43887
+     * @MinLength 1
+     * @MaxLength 161
      * @var string[]
      */
     private $alias = array(
@@ -127,6 +149,8 @@ class ServiceInstanceReadProfile
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:43887
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $publicUserIdentity = null;

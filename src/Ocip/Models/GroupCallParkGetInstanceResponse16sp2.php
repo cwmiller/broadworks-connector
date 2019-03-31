@@ -21,6 +21,8 @@ class GroupCallParkGetInstanceResponse16sp2 extends \CWM\BroadWorksConnector\Oci
      * @Type string
      * @Optional
      * @Group 7a925e891158dfa3cb1319e045608894:439
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $recallAlternateUserId = null;

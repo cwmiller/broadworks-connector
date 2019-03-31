@@ -18,6 +18,8 @@ class SystemServicePackMigrationGetResponse extends \CWM\BroadWorksConnector\Oci
      * @ElementName maxSimultaneousMigrationTasks
      * @Type int
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:15031
+     * @MinInclusive 1
+     * @MaxInclusive 10
      * @var int|null
      */
     private $maxSimultaneousMigrationTasks = null;

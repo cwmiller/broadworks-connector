@@ -35,6 +35,8 @@ class GroupRoutePointHolidayServiceGetResponse20 extends \CWM\BroadWorksConnecto
      * @Type string
      * @Optional
      * @Group a27224a048c30ff69eab9209dec841cc:718
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $transferPhoneNumber = null;

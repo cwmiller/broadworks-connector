@@ -15,6 +15,9 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18VoicePortalLoginMenu
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:27431
+     * @MinLength 1
+     * @MaxLength 3
+     * @Pattern ([0-9]|\*|#){0,3}
      * @var string|null
      */
     private $accessUsingOtherMailboxId = null;

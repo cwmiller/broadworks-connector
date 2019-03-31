@@ -19,6 +19,8 @@ class GroupAccountAuthorizationCodesGetListRequest extends \CWM\BroadWorksConnec
      * @ElementName serviceProviderId
      * @Type string
      * @Group 65df37199ec43e5d21a187db39d63158:125
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,6 +29,8 @@ class GroupAccountAuthorizationCodesGetListRequest extends \CWM\BroadWorksConnec
      * @ElementName groupId
      * @Type string
      * @Group 65df37199ec43e5d21a187db39d63158:125
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;

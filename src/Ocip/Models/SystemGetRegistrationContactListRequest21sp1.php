@@ -35,6 +35,8 @@ class SystemGetRegistrationContactListRequest21sp1 extends \CWM\BroadWorksConnec
      * @ElementName resellerId
      * @Type string
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9682
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $resellerId = null;
@@ -43,6 +45,8 @@ class SystemGetRegistrationContactListRequest21sp1 extends \CWM\BroadWorksConnec
      * @ElementName serviceProviderId
      * @Type string
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9682
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -51,6 +55,8 @@ class SystemGetRegistrationContactListRequest21sp1 extends \CWM\BroadWorksConnec
      * @ElementName svcProviderId
      * @Type string
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9685
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $svcProviderId = null;
@@ -59,6 +65,8 @@ class SystemGetRegistrationContactListRequest21sp1 extends \CWM\BroadWorksConnec
      * @ElementName groupId
      * @Type string
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9685
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;
@@ -67,6 +75,8 @@ class SystemGetRegistrationContactListRequest21sp1 extends \CWM\BroadWorksConnec
      * @ElementName userId
      * @Type string
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9682
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;
@@ -75,6 +85,8 @@ class SystemGetRegistrationContactListRequest21sp1 extends \CWM\BroadWorksConnec
      * @ElementName linePort
      * @Type string
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9682
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $linePort = null;
@@ -93,6 +105,8 @@ class SystemGetRegistrationContactListRequest21sp1 extends \CWM\BroadWorksConnec
      * @Type string
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9681
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $deviceName = null;
@@ -102,6 +116,8 @@ class SystemGetRegistrationContactListRequest21sp1 extends \CWM\BroadWorksConnec
      * @Type string
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9681
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $deviceType = null;

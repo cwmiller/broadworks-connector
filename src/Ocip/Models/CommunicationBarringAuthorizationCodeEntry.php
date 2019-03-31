@@ -16,6 +16,8 @@ class CommunicationBarringAuthorizationCodeEntry
      * @ElementName code
      * @Type string
      * @Group c0d21ef9ba207c335d8347e5172fce1d:1339
+     * @MinLength 2
+     * @MaxLength 14
      * @var string|null
      */
     private $code = null;
@@ -25,6 +27,8 @@ class CommunicationBarringAuthorizationCodeEntry
      * @Type string
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:1339
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $description = null;

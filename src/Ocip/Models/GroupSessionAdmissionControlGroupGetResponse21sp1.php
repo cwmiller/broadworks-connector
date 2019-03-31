@@ -18,6 +18,7 @@ class GroupSessionAdmissionControlGroupGetResponse21sp1 extends \CWM\BroadWorksC
      * @ElementName maxSession
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:2058
+     * @MinInclusive
      * @var int|null
      */
     private $maxSession = null;
@@ -27,6 +28,7 @@ class GroupSessionAdmissionControlGroupGetResponse21sp1 extends \CWM\BroadWorksC
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:2058
+     * @MinInclusive
      * @var int|null
      */
     private $maxUserOriginatingSessions = null;
@@ -36,6 +38,7 @@ class GroupSessionAdmissionControlGroupGetResponse21sp1 extends \CWM\BroadWorksC
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:2058
+     * @MinInclusive
      * @var int|null
      */
     private $maxUserTerminatingSessions = null;
@@ -44,6 +47,7 @@ class GroupSessionAdmissionControlGroupGetResponse21sp1 extends \CWM\BroadWorksC
      * @ElementName reservedSession
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:2058
+     * @MinInclusive
      * @var int|null
      */
     private $reservedSession = null;
@@ -53,6 +57,7 @@ class GroupSessionAdmissionControlGroupGetResponse21sp1 extends \CWM\BroadWorksC
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:2058
+     * @MinInclusive
      * @var int|null
      */
     private $reservedUserOriginatingSessions = null;
@@ -62,6 +67,7 @@ class GroupSessionAdmissionControlGroupGetResponse21sp1 extends \CWM\BroadWorksC
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:2058
+     * @MinInclusive
      * @var int|null
      */
     private $reservedUserTerminatingSessions = null;
@@ -107,6 +113,8 @@ class GroupSessionAdmissionControlGroupGetResponse21sp1 extends \CWM\BroadWorksC
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:2058
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $mediaGroupName = null;

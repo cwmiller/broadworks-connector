@@ -19,6 +19,8 @@ class ServiceProviderNumberPortabilityQueryAddListRequest extends \CWM\BroadWork
      * @ElementName serviceProviderId
      * @Type string
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:4280
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -28,6 +30,8 @@ class ServiceProviderNumberPortabilityQueryAddListRequest extends \CWM\BroadWork
      * @Type string
      * @Array
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:4280
+     * @MinLength 1
+     * @MaxLength 160
      * @var string[]
      */
     private $digitPattern = array(

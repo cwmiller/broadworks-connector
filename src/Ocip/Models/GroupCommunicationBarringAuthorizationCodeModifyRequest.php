@@ -19,6 +19,8 @@ class GroupCommunicationBarringAuthorizationCodeModifyRequest extends \CWM\Broad
      * @ElementName serviceProviderId
      * @Type string
      * @Group f3a93cf15de4abd7903673e44ee3e07b:2458
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,6 +29,8 @@ class GroupCommunicationBarringAuthorizationCodeModifyRequest extends \CWM\Broad
      * @ElementName groupId
      * @Type string
      * @Group f3a93cf15de4abd7903673e44ee3e07b:2458
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;
@@ -35,6 +39,8 @@ class GroupCommunicationBarringAuthorizationCodeModifyRequest extends \CWM\Broad
      * @ElementName code
      * @Type string
      * @Group f3a93cf15de4abd7903673e44ee3e07b:2458
+     * @MinLength 2
+     * @MaxLength 14
      * @var string|null
      */
     private $code = null;
@@ -45,6 +51,8 @@ class GroupCommunicationBarringAuthorizationCodeModifyRequest extends \CWM\Broad
      * @Nillable
      * @Optional
      * @Group f3a93cf15de4abd7903673e44ee3e07b:2458
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $description = null;
@@ -55,6 +63,8 @@ class GroupCommunicationBarringAuthorizationCodeModifyRequest extends \CWM\Broad
      * @Nillable
      * @Optional
      * @Group f3a93cf15de4abd7903673e44ee3e07b:2458
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $networkClassOfService = null;

@@ -19,6 +19,8 @@ class SystemBroadWorksMobilityServiceAccessCodeListModifyRequest extends \CWM\Br
      * @ElementName name
      * @Type string
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:1166
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $name = null;
@@ -28,6 +30,8 @@ class SystemBroadWorksMobilityServiceAccessCodeListModifyRequest extends \CWM\Br
      * @Type string
      * @Optional
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:1166
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $newName = null;

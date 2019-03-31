@@ -21,6 +21,8 @@ class ServiceProviderAccessDeviceGetRequest14sp3 extends \CWM\BroadWorksConnecto
      * @ElementName serviceProviderId
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:3476
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -29,6 +31,8 @@ class ServiceProviderAccessDeviceGetRequest14sp3 extends \CWM\BroadWorksConnecto
      * @ElementName deviceName
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:3476
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $deviceName = null;

@@ -26,6 +26,8 @@ class UserGetLoginInfoRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\O
      * @ElementName userId
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:42515
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;
@@ -34,6 +36,8 @@ class UserGetLoginInfoRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\O
      * @ElementName phoneNumber
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:42515
+     * @MinLength 1
+     * @MaxLength 23
      * @var string|null
      */
     private $phoneNumber = null;
@@ -42,6 +46,8 @@ class UserGetLoginInfoRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\O
      * @ElementName linePort
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:42515
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $linePort = null;

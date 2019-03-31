@@ -19,6 +19,8 @@ class ServiceProviderServicePackMigrationTaskAddRequest21 extends \CWM\BroadWork
      * @ElementName serviceProviderId
      * @Type string
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:5416
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,6 +29,8 @@ class ServiceProviderServicePackMigrationTaskAddRequest21 extends \CWM\BroadWork
      * @ElementName taskName
      * @Type string
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:5416
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $taskName = null;
@@ -43,6 +47,8 @@ class ServiceProviderServicePackMigrationTaskAddRequest21 extends \CWM\BroadWork
      * @ElementName expireAfterNumHours
      * @Type int
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:5416
+     * @MinInclusive 1
+     * @MaxInclusive 168
      * @var int|null
      */
     private $expireAfterNumHours = null;
@@ -51,6 +57,8 @@ class ServiceProviderServicePackMigrationTaskAddRequest21 extends \CWM\BroadWork
      * @ElementName maxDurationHours
      * @Type int
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:5416
+     * @MinInclusive 1
+     * @MaxInclusive 9
      * @var int|null
      */
     private $maxDurationHours = null;
@@ -68,6 +76,8 @@ class ServiceProviderServicePackMigrationTaskAddRequest21 extends \CWM\BroadWork
      * @Type string
      * @Optional
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:5416
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $reportDeliveryEmailAddress = null;
@@ -85,6 +95,7 @@ class ServiceProviderServicePackMigrationTaskAddRequest21 extends \CWM\BroadWork
      * @Type int
      * @Optional
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:5416
+     * @MinInclusive 1
      * @var int|null
      */
     private $abortErrorThreshold = null;

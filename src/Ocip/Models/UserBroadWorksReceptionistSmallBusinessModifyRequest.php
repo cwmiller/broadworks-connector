@@ -19,6 +19,8 @@ class UserBroadWorksReceptionistSmallBusinessModifyRequest extends \CWM\BroadWor
      * @ElementName userId
      * @Type string
      * @Group d8ae66e5f02195a36162958f9d5115db:122
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;

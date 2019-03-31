@@ -19,6 +19,8 @@ class UserBroadWorksReceptionistEnterpriseAddUserListRequest extends \CWM\BroadW
      * @ElementName userId
      * @Type string
      * @Group fb12998f4f9e45cedde01f08569f4c7c:97
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;
@@ -28,6 +30,8 @@ class UserBroadWorksReceptionistEnterpriseAddUserListRequest extends \CWM\BroadW
      * @Type string
      * @Array
      * @Group fb12998f4f9e45cedde01f08569f4c7c:97
+     * @MinLength 1
+     * @MaxLength 161
      * @var string[]
      */
     private $monitoredUserId = array(

@@ -17,6 +17,8 @@ class PersonalizedNameMenuKeysReadEntry
      * @Type string
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2892
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $recordNewPersonalizedName = null;
@@ -26,6 +28,8 @@ class PersonalizedNameMenuKeysReadEntry
      * @Type string
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2892
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $listenToCurrentPersonalizedName = null;
@@ -35,6 +39,8 @@ class PersonalizedNameMenuKeysReadEntry
      * @Type string
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2892
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $deletePersonalizedName = null;
@@ -43,6 +49,8 @@ class PersonalizedNameMenuKeysReadEntry
      * @ElementName returnToPreviousMenu
      * @Type string
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2892
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $returnToPreviousMenu = null;
@@ -52,6 +60,8 @@ class PersonalizedNameMenuKeysReadEntry
      * @Type string
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2892
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $repeatMenu = null;

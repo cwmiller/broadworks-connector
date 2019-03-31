@@ -19,6 +19,8 @@ class SystemGETSResourcePriorityDeleteRequest extends \CWM\BroadWorksConnector\O
      * @ElementName priorityValue
      * @Type string
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10033
+     * @MinLength 3
+     * @MaxLength 80
      * @var string|null
      */
     private $priorityValue = null;

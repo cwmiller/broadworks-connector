@@ -19,6 +19,8 @@ class ServiceProviderPreferredCarrierGetResponse extends \CWM\BroadWorksConnecto
      * @Type string
      * @Optional
      * @Group 74a46a9bfccb54713c1d19735843f1df:274
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $intraLataCarrier = null;
@@ -28,6 +30,8 @@ class ServiceProviderPreferredCarrierGetResponse extends \CWM\BroadWorksConnecto
      * @Type string
      * @Optional
      * @Group 74a46a9bfccb54713c1d19735843f1df:274
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $interLataCarrier = null;
@@ -37,6 +41,8 @@ class ServiceProviderPreferredCarrierGetResponse extends \CWM\BroadWorksConnecto
      * @Type string
      * @Optional
      * @Group 74a46a9bfccb54713c1d19735843f1df:274
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $internationalCarrier = null;

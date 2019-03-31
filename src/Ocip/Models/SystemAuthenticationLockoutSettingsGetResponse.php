@@ -18,6 +18,8 @@ class SystemAuthenticationLockoutSettingsGetResponse extends \CWM\BroadWorksConn
      * @ElementName counterResetIntervalDays
      * @Type int
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2058
+     * @MinInclusive 1
+     * @MaxInclusive 10
      * @var int|null
      */
     private $counterResetIntervalDays = null;
@@ -26,6 +28,8 @@ class SystemAuthenticationLockoutSettingsGetResponse extends \CWM\BroadWorksConn
      * @ElementName counterResetHour
      * @Type int
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2058
+     * @MinInclusive
+     * @MaxInclusive 23
      * @var int|null
      */
     private $counterResetHour = null;
@@ -34,6 +38,8 @@ class SystemAuthenticationLockoutSettingsGetResponse extends \CWM\BroadWorksConn
      * @ElementName counterResetMinute
      * @Type int
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2058
+     * @MinInclusive
+     * @MaxInclusive 59
      * @var int|null
      */
     private $counterResetMinute = null;

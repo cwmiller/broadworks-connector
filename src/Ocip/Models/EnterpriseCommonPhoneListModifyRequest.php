@@ -19,6 +19,8 @@ class EnterpriseCommonPhoneListModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName serviceProviderId
      * @Type string
      * @Group 5395c7df0157d44aa22f3351d1a5f3da:491
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,6 +29,8 @@ class EnterpriseCommonPhoneListModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName entryName
      * @Type string
      * @Group 5395c7df0157d44aa22f3351d1a5f3da:491
+     * @MinLength 1
+     * @MaxLength 50
      * @var string|null
      */
     private $entryName = null;
@@ -36,6 +40,8 @@ class EnterpriseCommonPhoneListModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @Type string
      * @Optional
      * @Group 5395c7df0157d44aa22f3351d1a5f3da:491
+     * @MinLength 1
+     * @MaxLength 50
      * @var string|null
      */
     private $newEntryName = null;
@@ -45,6 +51,8 @@ class EnterpriseCommonPhoneListModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @Type string
      * @Optional
      * @Group 5395c7df0157d44aa22f3351d1a5f3da:491
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $phoneNumber = null;

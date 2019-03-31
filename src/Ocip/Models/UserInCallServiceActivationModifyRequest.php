@@ -19,6 +19,8 @@ class UserInCallServiceActivationModifyRequest extends \CWM\BroadWorksConnector\
      * @ElementName userId
      * @Type string
      * @Group ece0b65e69189d3e8b8deee895f0a7ff:172
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;

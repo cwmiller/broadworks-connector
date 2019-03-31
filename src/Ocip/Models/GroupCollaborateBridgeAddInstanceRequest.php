@@ -25,6 +25,8 @@ class GroupCollaborateBridgeAddInstanceRequest extends \CWM\BroadWorksConnector\
      * @ElementName serviceProviderId
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:36618
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -33,6 +35,8 @@ class GroupCollaborateBridgeAddInstanceRequest extends \CWM\BroadWorksConnector\
      * @ElementName groupId
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:36618
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;
@@ -41,6 +45,8 @@ class GroupCollaborateBridgeAddInstanceRequest extends \CWM\BroadWorksConnector\
      * @ElementName serviceUserId
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:36618
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $serviceUserId = null;
@@ -66,6 +72,8 @@ class GroupCollaborateBridgeAddInstanceRequest extends \CWM\BroadWorksConnector\
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:36618
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $networkClassOfService = null;
@@ -74,6 +82,8 @@ class GroupCollaborateBridgeAddInstanceRequest extends \CWM\BroadWorksConnector\
      * @ElementName maxCollaborateRoomParticipants
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:36618
+     * @MinInclusive 3
+     * @MaxInclusive 30
      * @var int|null
      */
     private $maxCollaborateRoomParticipants = null;
@@ -92,6 +102,8 @@ class GroupCollaborateBridgeAddInstanceRequest extends \CWM\BroadWorksConnector\
      * @Array
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:36618
+     * @MinLength 1
+     * @MaxLength 161
      * @var string[]
      */
     private $collaborateOwnerUserId = array(

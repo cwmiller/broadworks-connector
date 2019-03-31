@@ -37,6 +37,8 @@ class GroupMeetMeConferencingGetInstanceResponse17sp4 extends \CWM\BroadWorksCon
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:19821
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $networkClassOfService = null;
@@ -54,6 +56,8 @@ class GroupMeetMeConferencingGetInstanceResponse17sp4 extends \CWM\BroadWorksCon
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:19821
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $operatorNumber = null;

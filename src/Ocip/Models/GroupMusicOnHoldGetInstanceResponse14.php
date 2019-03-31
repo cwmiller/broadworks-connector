@@ -17,6 +17,8 @@ class GroupMusicOnHoldGetInstanceResponse14 extends \CWM\BroadWorksConnector\Oci
      * @ElementName serviceUserId
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:1747
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $serviceUserId = null;
@@ -67,6 +69,8 @@ class GroupMusicOnHoldGetInstanceResponse14 extends \CWM\BroadWorksConnector\Oci
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:1747
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $audioFileDescription = null;
@@ -76,6 +80,8 @@ class GroupMusicOnHoldGetInstanceResponse14 extends \CWM\BroadWorksConnector\Oci
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:1747
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $videoFileDescription = null;

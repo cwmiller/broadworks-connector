@@ -19,6 +19,8 @@ class SystemRoutePointExternalSystemModifyRequest extends \CWM\BroadWorksConnect
      * @ElementName name
      * @Type string
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14091
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $name = null;
@@ -28,6 +30,8 @@ class SystemRoutePointExternalSystemModifyRequest extends \CWM\BroadWorksConnect
      * @Type string
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14091
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $newName = null;
@@ -38,6 +42,8 @@ class SystemRoutePointExternalSystemModifyRequest extends \CWM\BroadWorksConnect
      * @Nillable
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14091
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $description = null;

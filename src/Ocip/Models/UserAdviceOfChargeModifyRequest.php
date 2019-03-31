@@ -19,6 +19,8 @@ class UserAdviceOfChargeModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName userId
      * @Type string
      * @Group a69fde15f3aa7494d83b57461a7a70bb:319
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;

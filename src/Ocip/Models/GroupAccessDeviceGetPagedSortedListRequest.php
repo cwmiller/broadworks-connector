@@ -26,6 +26,8 @@ class GroupAccessDeviceGetPagedSortedListRequest extends \CWM\BroadWorksConnecto
      * @ElementName serviceProviderId
      * @Type string
      * @Group f3a93cf15de4abd7903673e44ee3e07b:719
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -34,6 +36,8 @@ class GroupAccessDeviceGetPagedSortedListRequest extends \CWM\BroadWorksConnecto
      * @ElementName groupId
      * @Type string
      * @Group f3a93cf15de4abd7903673e44ee3e07b:719
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;

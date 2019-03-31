@@ -108,6 +108,8 @@ class SystemCallProcessingPolicyProfileGroupPagingProfileGetResponse extends \CW
      * @ElementName maxCallTimeForAnsweredCallsMinutes
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:37908
+     * @MinInclusive 3
+     * @MaxInclusive 2880
      * @var int|null
      */
     private $maxCallTimeForAnsweredCallsMinutes = null;
@@ -124,6 +126,8 @@ class SystemCallProcessingPolicyProfileGroupPagingProfileGetResponse extends \CW
      * @ElementName maxCallTimeForUnansweredCallsMinutes
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:37908
+     * @MinInclusive 1
+     * @MaxInclusive 2880
      * @var int|null
      */
     private $maxCallTimeForUnansweredCallsMinutes = null;
@@ -140,6 +144,8 @@ class SystemCallProcessingPolicyProfileGroupPagingProfileGetResponse extends \CW
      * @ElementName maxConcurrentRedirectedCalls
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:37908
+     * @MinInclusive 1
+     * @MaxInclusive 999999
      * @var int|null
      */
     private $maxConcurrentRedirectedCalls = null;
@@ -156,6 +162,8 @@ class SystemCallProcessingPolicyProfileGroupPagingProfileGetResponse extends \CW
      * @ElementName maxFindMeFollowMeDepth
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:37908
+     * @MinInclusive 1
+     * @MaxInclusive 100
      * @var int|null
      */
     private $maxFindMeFollowMeDepth = null;
@@ -164,6 +172,8 @@ class SystemCallProcessingPolicyProfileGroupPagingProfileGetResponse extends \CW
      * @ElementName maxRedirectionDepth
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:37908
+     * @MinInclusive 1
+     * @MaxInclusive 100
      * @var int|null
      */
     private $maxRedirectionDepth = null;

@@ -21,6 +21,8 @@ class UserBusyLampFieldGetResponse16sp2 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Type string
      * @Optional
      * @Group 4faeca417998d23ce2ff6b0b43212aa6:211
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $listURI = null;

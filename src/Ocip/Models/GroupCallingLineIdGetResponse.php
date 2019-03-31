@@ -35,6 +35,8 @@ class GroupCallingLineIdGetResponse extends \CWM\BroadWorksConnector\Ocip\Models
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:1164
+     * @MinLength 1
+     * @MaxLength 23
      * @var string|null
      */
     private $callingLineIdPhoneNumber = null;
@@ -44,6 +46,8 @@ class GroupCallingLineIdGetResponse extends \CWM\BroadWorksConnector\Ocip\Models
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:1164
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $callingLineIdName = null;

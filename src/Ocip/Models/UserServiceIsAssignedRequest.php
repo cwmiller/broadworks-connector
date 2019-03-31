@@ -19,6 +19,8 @@ class UserServiceIsAssignedRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @ElementName userId
      * @Type string
      * @Group 53d18cc797d03d802cbc411ad821f1d4:3815
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;
@@ -35,6 +37,8 @@ class UserServiceIsAssignedRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @ElementName servicePackName
      * @Type string
      * @Group 53d18cc797d03d802cbc411ad821f1d4:3817
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $servicePackName = null;

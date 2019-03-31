@@ -19,6 +19,8 @@ class UserCallingPartyCategoryModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName userId
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:11024
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;

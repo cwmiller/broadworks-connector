@@ -16,6 +16,8 @@ class CallCenterReportPastInterval
      * @ElementName number
      * @Type int
      * @Group e2c537e3e39483b96620673a7012ffdd:7464
+     * @MinInclusive 1
+     * @MaxInclusive 99
      * @var int|null
      */
     private $number = null;

@@ -26,6 +26,8 @@ class CommPilotExpressRedirection
      * @Type string
      * @Optional
      * @Group 8c204d784d1904d9eeea996d46de69be:202
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $forwardingPhoneNumber = null;

@@ -31,6 +31,8 @@ class GroupAutoAttendantGetInstancePagedSortedListRequest extends \CWM\BroadWork
      * @ElementName serviceProviderId
      * @Type string
      * @Group ed0640d8ef49eb8b4eaa14d7c6f6c033:285
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -39,6 +41,8 @@ class GroupAutoAttendantGetInstancePagedSortedListRequest extends \CWM\BroadWork
      * @ElementName groupId
      * @Type string
      * @Group ed0640d8ef49eb8b4eaa14d7c6f6c033:285
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;

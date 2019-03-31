@@ -29,6 +29,8 @@ class SystemDeviceManagementTagAddRequest21sp2 extends \CWM\BroadWorksConnector\
      * @ElementName tagSetName
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:4907
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $tagSetName = null;
@@ -37,6 +39,8 @@ class SystemDeviceManagementTagAddRequest21sp2 extends \CWM\BroadWorksConnector\
      * @ElementName tagName
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:4906
+     * @MinLength 1
+     * @MaxLength 64
      * @var string|null
      */
     private $tagName = null;
@@ -54,6 +58,8 @@ class SystemDeviceManagementTagAddRequest21sp2 extends \CWM\BroadWorksConnector\
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:4913
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $tagValue = null;
@@ -63,6 +69,8 @@ class SystemDeviceManagementTagAddRequest21sp2 extends \CWM\BroadWorksConnector\
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:4913
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $tagValueToEncrypt = null;

@@ -21,6 +21,8 @@ class SystemSIPDeviceTypeFileGetRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName deviceType
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:6021
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $deviceType = null;
@@ -29,6 +31,8 @@ class SystemSIPDeviceTypeFileGetRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName fileType
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:6021
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $fileType = null;

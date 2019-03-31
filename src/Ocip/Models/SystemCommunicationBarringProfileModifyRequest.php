@@ -28,6 +28,8 @@ class SystemCommunicationBarringProfileModifyRequest extends \CWM\BroadWorksConn
      * @ElementName name
      * @Type string
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6162
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $name = null;
@@ -37,6 +39,8 @@ class SystemCommunicationBarringProfileModifyRequest extends \CWM\BroadWorksConn
      * @Type string
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6162
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $newName = null;
@@ -47,6 +51,8 @@ class SystemCommunicationBarringProfileModifyRequest extends \CWM\BroadWorksConn
      * @Nillable
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6162
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $description = null;
@@ -66,6 +72,8 @@ class SystemCommunicationBarringProfileModifyRequest extends \CWM\BroadWorksConn
      * @Nillable
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6162
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $originatingDefaultTreatmentId = null;
@@ -76,6 +84,8 @@ class SystemCommunicationBarringProfileModifyRequest extends \CWM\BroadWorksConn
      * @Nillable
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6162
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $originatingDefaultTransferNumber = null;
@@ -86,6 +96,8 @@ class SystemCommunicationBarringProfileModifyRequest extends \CWM\BroadWorksConn
      * @Nillable
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6162
+     * @MinInclusive 60
+     * @MaxInclusive 86400
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $originatingDefaultCallTimeout = null;
@@ -115,6 +127,8 @@ class SystemCommunicationBarringProfileModifyRequest extends \CWM\BroadWorksConn
      * @Nillable
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6162
+     * @MinInclusive 60
+     * @MaxInclusive 86400
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $redirectingDefaultCallTimeout = null;
@@ -144,6 +158,8 @@ class SystemCommunicationBarringProfileModifyRequest extends \CWM\BroadWorksConn
      * @Nillable
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6162
+     * @MinInclusive 60
+     * @MaxInclusive 86400
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $incomingDefaultCallTimeout = null;
@@ -173,6 +189,8 @@ class SystemCommunicationBarringProfileModifyRequest extends \CWM\BroadWorksConn
      * @Nillable
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6162
+     * @MinInclusive 60
+     * @MaxInclusive 86400
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $callMeNowDefaultCallTimeout = null;

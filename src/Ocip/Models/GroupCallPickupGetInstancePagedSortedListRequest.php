@@ -27,6 +27,8 @@ class GroupCallPickupGetInstancePagedSortedListRequest extends \CWM\BroadWorksCo
      * @ElementName serviceProviderId
      * @Type string
      * @Group 045ce951b3e25dec090606af4ad50c63:229
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -35,6 +37,8 @@ class GroupCallPickupGetInstancePagedSortedListRequest extends \CWM\BroadWorksCo
      * @ElementName groupId
      * @Type string
      * @Group 045ce951b3e25dec090606af4ad50c63:229
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;

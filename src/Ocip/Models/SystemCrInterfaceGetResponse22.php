@@ -25,6 +25,8 @@ class SystemCrInterfaceGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName crAuditIntervalMilliseconds
      * @Type int
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6909
+     * @MinInclusive 500
+     * @MaxInclusive 60000
      * @var int|null
      */
     private $crAuditIntervalMilliseconds = null;
@@ -33,6 +35,8 @@ class SystemCrInterfaceGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName crAuditTimeoutMilliseconds
      * @Type int
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6909
+     * @MinInclusive 500
+     * @MaxInclusive 10000
      * @var int|null
      */
     private $crAuditTimeoutMilliseconds = null;
@@ -49,6 +53,8 @@ class SystemCrInterfaceGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName crConnectionTimeoutMilliseconds
      * @Type int
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6909
+     * @MinInclusive 1000
+     * @MaxInclusive 32000
      * @var int|null
      */
     private $crConnectionTimeoutMilliseconds = null;
@@ -57,6 +63,8 @@ class SystemCrInterfaceGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName crTcpConnectionTimeoutSeconds
      * @Type int
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6909
+     * @MinInclusive 1
+     * @MaxInclusive 120
      * @var int|null
      */
     private $crTcpConnectionTimeoutSeconds = null;
@@ -65,6 +73,8 @@ class SystemCrInterfaceGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName crNumberOfReconnectionAttempts
      * @Type int
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6909
+     * @MinInclusive
+     * @MaxInclusive 100
      * @var int|null
      */
     private $crNumberOfReconnectionAttempts = null;

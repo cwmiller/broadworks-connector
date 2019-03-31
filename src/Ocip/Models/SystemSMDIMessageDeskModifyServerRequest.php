@@ -19,6 +19,8 @@ class SystemSMDIMessageDeskModifyServerRequest extends \CWM\BroadWorksConnector\
      * @ElementName deviceName
      * @Type string
      * @Group ee7bb69368e23a56a82c5d9cf07b5433:180
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $deviceName = null;
@@ -28,6 +30,8 @@ class SystemSMDIMessageDeskModifyServerRequest extends \CWM\BroadWorksConnector\
      * @Type string
      * @Optional
      * @Group ee7bb69368e23a56a82c5d9cf07b5433:180
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $netAddress = null;
@@ -37,6 +41,8 @@ class SystemSMDIMessageDeskModifyServerRequest extends \CWM\BroadWorksConnector\
      * @Type int
      * @Optional
      * @Group ee7bb69368e23a56a82c5d9cf07b5433:180
+     * @MinInclusive 1
+     * @MaxInclusive 65535
      * @var int|null
      */
     private $port = null;
@@ -47,6 +53,8 @@ class SystemSMDIMessageDeskModifyServerRequest extends \CWM\BroadWorksConnector\
      * @Nillable
      * @Optional
      * @Group ee7bb69368e23a56a82c5d9cf07b5433:180
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $description = null;

@@ -26,6 +26,8 @@ class SystemCallCenterEnhancedReportingGetResponse extends \CWM\BroadWorksConnec
      * @Type string
      * @Optional
      * @Group e2c537e3e39483b96620673a7012ffdd:6104
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $reportApplicationURL = null;
@@ -35,6 +37,8 @@ class SystemCallCenterEnhancedReportingGetResponse extends \CWM\BroadWorksConnec
      * @Type string
      * @Optional
      * @Group e2c537e3e39483b96620673a7012ffdd:6104
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $repositoryApplicationURL = null;

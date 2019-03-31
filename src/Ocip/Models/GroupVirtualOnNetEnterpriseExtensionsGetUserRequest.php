@@ -20,6 +20,8 @@ class GroupVirtualOnNetEnterpriseExtensionsGetUserRequest extends \CWM\BroadWork
      * @ElementName serviceProviderId
      * @Type string
      * @Group 179b744b0183abe614e8c32c17c96b7e:181
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -28,6 +30,8 @@ class GroupVirtualOnNetEnterpriseExtensionsGetUserRequest extends \CWM\BroadWork
      * @ElementName groupId
      * @Type string
      * @Group 179b744b0183abe614e8c32c17c96b7e:181
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;
@@ -36,6 +40,8 @@ class GroupVirtualOnNetEnterpriseExtensionsGetUserRequest extends \CWM\BroadWork
      * @ElementName phoneNumber
      * @Type string
      * @Group 179b744b0183abe614e8c32c17c96b7e:181
+     * @MinLength 1
+     * @MaxLength 23
      * @var string|null
      */
     private $phoneNumber = null;

@@ -19,6 +19,8 @@ class SystemInCallServiceActivationModifyRequest17 extends \CWM\BroadWorksConnec
      * @Type string
      * @Optional
      * @Group ece0b65e69189d3e8b8deee895f0a7ff:123
+     * @MinLength 1
+     * @MaxLength 8
      * @var string|null
      */
     private $defaultFlashActivationDigits = null;
@@ -28,6 +30,8 @@ class SystemInCallServiceActivationModifyRequest17 extends \CWM\BroadWorksConnec
      * @Type string
      * @Optional
      * @Group ece0b65e69189d3e8b8deee895f0a7ff:123
+     * @MinLength 1
+     * @MaxLength 8
      * @var string|null
      */
     private $defaultCallTransferActivationDigits = null;

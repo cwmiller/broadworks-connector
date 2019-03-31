@@ -18,6 +18,8 @@ class GroupRoutePointGetDNISResponse extends \CWM\BroadWorksConnector\Ocip\Model
      * @Type string
      * @Optional
      * @Group a27224a048c30ff69eab9209dec841cc:557
+     * @MinLength 1
+     * @MaxLength 23
      * @var string|null
      */
     private $dnisPhoneNumber = null;
@@ -27,6 +29,8 @@ class GroupRoutePointGetDNISResponse extends \CWM\BroadWorksConnector\Ocip\Model
      * @Type string
      * @Optional
      * @Group a27224a048c30ff69eab9209dec841cc:557
+     * @MinLength 2
+     * @MaxLength 20
      * @var string|null
      */
     private $extension = null;
@@ -44,6 +48,8 @@ class GroupRoutePointGetDNISResponse extends \CWM\BroadWorksConnector\Ocip\Model
      * @Type string
      * @Optional
      * @Group a27224a048c30ff69eab9209dec841cc:557
+     * @MinLength 1
+     * @MaxLength 23
      * @var string|null
      */
     private $callingLineIdPhoneNumber = null;
@@ -53,6 +59,8 @@ class GroupRoutePointGetDNISResponse extends \CWM\BroadWorksConnector\Ocip\Model
      * @Type string
      * @Optional
      * @Group a27224a048c30ff69eab9209dec841cc:557
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $callingLineIdLastName = null;
@@ -62,6 +70,8 @@ class GroupRoutePointGetDNISResponse extends \CWM\BroadWorksConnector\Ocip\Model
      * @Type string
      * @Optional
      * @Group a27224a048c30ff69eab9209dec841cc:557
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $callingLineIdFirstName = null;

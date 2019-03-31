@@ -27,6 +27,8 @@ class SystemAccessDeviceMonitorAddDeviceTypeRequest extends \CWM\BroadWorksConne
      * @ElementName deviceType
      * @Type string
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1136
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $deviceType = null;

@@ -29,6 +29,8 @@ class SystemGeographicRedundancyPeerSipConnectionMonitoringModifyRequest extends
      * @Type int
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9566
+     * @MinInclusive 10
+     * @MaxInclusive 3600000
      * @var int|null
      */
     private $heartbeatInterval = null;
@@ -38,6 +40,8 @@ class SystemGeographicRedundancyPeerSipConnectionMonitoringModifyRequest extends
      * @Type int
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9566
+     * @MinInclusive 10
+     * @MaxInclusive 18000000
      * @var int|null
      */
     private $heartbeatTimeout = null;

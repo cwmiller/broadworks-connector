@@ -17,6 +17,8 @@ class VoiceMessagingAlternateNoAnswerGreetingRead16
      * @ElementName name
      * @Type string
      * @Group c0d21ef9ba207c335d8347e5172fce1d:4638
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $name = null;
@@ -26,6 +28,8 @@ class VoiceMessagingAlternateNoAnswerGreetingRead16
      * @Type string
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:4638
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $audioFile = null;
@@ -44,6 +48,8 @@ class VoiceMessagingAlternateNoAnswerGreetingRead16
      * @Type string
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:4638
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $videoFile = null;

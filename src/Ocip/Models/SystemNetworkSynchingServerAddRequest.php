@@ -21,6 +21,8 @@ class SystemNetworkSynchingServerAddRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName netAddress
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:5273
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $netAddress = null;
@@ -30,6 +32,8 @@ class SystemNetworkSynchingServerAddRequest extends \CWM\BroadWorksConnector\Oci
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:5273
+     * @MinInclusive 1025
+     * @MaxInclusive 65535
      * @var int|null
      */
     private $port = null;
@@ -39,6 +43,8 @@ class SystemNetworkSynchingServerAddRequest extends \CWM\BroadWorksConnector\Oci
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:5273
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $description = null;

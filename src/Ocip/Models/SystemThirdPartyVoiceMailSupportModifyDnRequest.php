@@ -19,6 +19,8 @@ class SystemThirdPartyVoiceMailSupportModifyDnRequest extends \CWM\BroadWorksCon
      * @ElementName phoneNumber
      * @Type string
      * @Group 3c311aa5c89c0cf5b46e1cdefd5bc387:204
+     * @MinLength 1
+     * @MaxLength 23
      * @var string|null
      */
     private $phoneNumber = null;
@@ -29,6 +31,8 @@ class SystemThirdPartyVoiceMailSupportModifyDnRequest extends \CWM\BroadWorksCon
      * @Nillable
      * @Optional
      * @Group 3c311aa5c89c0cf5b46e1cdefd5bc387:204
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $description = null;

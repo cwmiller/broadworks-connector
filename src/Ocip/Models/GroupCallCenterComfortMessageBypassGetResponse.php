@@ -25,6 +25,8 @@ class GroupCallCenterComfortMessageBypassGetResponse extends \CWM\BroadWorksConn
      * @ElementName callWaitingAgeThresholdSeconds
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:12685
+     * @MinInclusive 1
+     * @MaxInclusive 120
      * @var int|null
      */
     private $callWaitingAgeThresholdSeconds = null;
@@ -41,6 +43,8 @@ class GroupCallCenterComfortMessageBypassGetResponse extends \CWM\BroadWorksConn
      * @ElementName ringTimeBeforePlayingAnnouncementSeconds
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:12685
+     * @MinInclusive
+     * @MaxInclusive 120
      * @var int|null
      */
     private $ringTimeBeforePlayingAnnouncementSeconds = null;
@@ -58,6 +62,8 @@ class GroupCallCenterComfortMessageBypassGetResponse extends \CWM\BroadWorksConn
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:12685
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $audioFileUrl = null;
@@ -67,6 +73,8 @@ class GroupCallCenterComfortMessageBypassGetResponse extends \CWM\BroadWorksConn
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:12685
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $audioFileDescription = null;
@@ -93,6 +101,8 @@ class GroupCallCenterComfortMessageBypassGetResponse extends \CWM\BroadWorksConn
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:12685
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $videoFileUrl = null;
@@ -102,6 +112,8 @@ class GroupCallCenterComfortMessageBypassGetResponse extends \CWM\BroadWorksConn
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:12685
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $videoFileDescription = null;

@@ -29,6 +29,8 @@ class GroupDeviceTypeFileGetResponse extends \CWM\BroadWorksConnector\Ocip\Model
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:1475
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $configurationFileName = null;

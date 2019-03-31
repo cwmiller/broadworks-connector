@@ -19,6 +19,8 @@ class UserSelectiveCallAcceptanceModifyActiveCriteriaListRequest extends \CWM\Br
      * @ElementName userId
      * @Type string
      * @Group e8517420bc6d5462dc1b2d9f82295894:173
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;

@@ -33,6 +33,8 @@ class SystemSubscriberGetCallProcessingParametersResponse18sp1 extends \CWM\Broa
      * @ElementName ringTimeoutSeconds
      * @Type int
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17014
+     * @MinInclusive 1
+     * @MaxInclusive 180
      * @var int|null
      */
     private $ringTimeoutSeconds = null;
@@ -49,6 +51,8 @@ class SystemSubscriberGetCallProcessingParametersResponse18sp1 extends \CWM\Broa
      * @ElementName maxNoAnswerNumberOfRings
      * @Type int
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17014
+     * @MinInclusive 6
+     * @MaxInclusive 20
      * @var int|null
      */
     private $maxNoAnswerNumberOfRings = null;

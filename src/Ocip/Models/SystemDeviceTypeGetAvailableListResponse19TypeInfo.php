@@ -40,6 +40,8 @@ class SystemDeviceTypeGetAvailableListResponse19TypeInfo
      * @Type string
      * @Array
      * @Group de4d76f01f337fe4694212ec9f771753:6472
+     * @MinLength 1
+     * @MaxLength 20
      * @var string[]
      */
     private $protocolChoice = array(
@@ -93,6 +95,8 @@ class SystemDeviceTypeGetAvailableListResponse19TypeInfo
      * @Type int
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:6472
+     * @MinInclusive 1
+     * @MaxInclusive 1024
      * @var int|null
      */
     private $numberOfPorts = null;

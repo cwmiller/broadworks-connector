@@ -116,6 +116,8 @@ class SystemCallProcessingPolicyProfileHuntGroupProfileGetResponse extends \CWM\
      * @ElementName maxSimultaneousCalls
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:37975
+     * @MinInclusive 1
+     * @MaxInclusive 999999
      * @var int|null
      */
     private $maxSimultaneousCalls = null;
@@ -132,6 +134,8 @@ class SystemCallProcessingPolicyProfileHuntGroupProfileGetResponse extends \CWM\
      * @ElementName maxSimultaneousVideoCalls
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:37975
+     * @MinInclusive 1
+     * @MaxInclusive 999999
      * @var int|null
      */
     private $maxSimultaneousVideoCalls = null;
@@ -148,6 +152,8 @@ class SystemCallProcessingPolicyProfileHuntGroupProfileGetResponse extends \CWM\
      * @ElementName maxCallTimeForUnansweredCallsMinutes
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:37975
+     * @MinInclusive 1
+     * @MaxInclusive 2880
      * @var int|null
      */
     private $maxCallTimeForUnansweredCallsMinutes = null;
@@ -164,6 +170,8 @@ class SystemCallProcessingPolicyProfileHuntGroupProfileGetResponse extends \CWM\
      * @ElementName maxConcurrentRedirectedCalls
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:37975
+     * @MinInclusive 1
+     * @MaxInclusive 999999
      * @var int|null
      */
     private $maxConcurrentRedirectedCalls = null;
@@ -180,6 +188,8 @@ class SystemCallProcessingPolicyProfileHuntGroupProfileGetResponse extends \CWM\
      * @ElementName maxConcurrentFindMeFollowMeInvocations
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:37975
+     * @MinInclusive 1
+     * @MaxInclusive 999999
      * @var int|null
      */
     private $maxConcurrentFindMeFollowMeInvocations = null;
@@ -196,6 +206,8 @@ class SystemCallProcessingPolicyProfileHuntGroupProfileGetResponse extends \CWM\
      * @ElementName maxFindMeFollowMeDepth
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:37975
+     * @MinInclusive 1
+     * @MaxInclusive 100
      * @var int|null
      */
     private $maxFindMeFollowMeDepth = null;
@@ -204,6 +216,8 @@ class SystemCallProcessingPolicyProfileHuntGroupProfileGetResponse extends \CWM\
      * @ElementName maxRedirectionDepth
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:37975
+     * @MinInclusive 1
+     * @MaxInclusive 100
      * @var int|null
      */
     private $maxRedirectionDepth = null;

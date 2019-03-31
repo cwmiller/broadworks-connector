@@ -20,6 +20,8 @@ class GroupGroupPagingGetInstanceListRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName serviceProviderId
      * @Type string
      * @Group 0d36df8c109e3ea7324f79031368c661:255
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -28,6 +30,8 @@ class GroupGroupPagingGetInstanceListRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName groupId
      * @Type string
      * @Group 0d36df8c109e3ea7324f79031368c661:255
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;
@@ -37,6 +41,8 @@ class GroupGroupPagingGetInstanceListRequest extends \CWM\BroadWorksConnector\Oc
      * @Type string
      * @Optional
      * @Group 0d36df8c109e3ea7324f79031368c661:255
+     * @MinLength 1
+     * @MaxLength 50
      * @var string|null
      */
     private $groupDepartmentName = null;

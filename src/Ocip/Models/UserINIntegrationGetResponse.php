@@ -18,6 +18,8 @@ class UserINIntegrationGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Type int
      * @Optional
      * @Group e2b7b9ea45350592016ce6935a4d7694:56
+     * @MinInclusive
+     * @MaxInclusive 999
      * @var int|null
      */
     private $originatingServiceKey = null;
@@ -27,6 +29,8 @@ class UserINIntegrationGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Type int
      * @Optional
      * @Group e2b7b9ea45350592016ce6935a4d7694:56
+     * @MinInclusive
+     * @MaxInclusive 999
      * @var int|null
      */
     private $terminatingServiceKey = null;

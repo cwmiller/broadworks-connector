@@ -20,6 +20,8 @@ class GroupRoutePointNightServiceModifyRequest20 extends \CWM\BroadWorksConnecto
      * @ElementName serviceUserId
      * @Type string
      * @Group a27224a048c30ff69eab9209dec841cc:982
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $serviceUserId = null;
@@ -58,6 +60,8 @@ class GroupRoutePointNightServiceModifyRequest20 extends \CWM\BroadWorksConnecto
      * @Nillable
      * @Optional
      * @Group a27224a048c30ff69eab9209dec841cc:982
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $transferPhoneNumber = null;

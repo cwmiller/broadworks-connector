@@ -16,6 +16,8 @@ class SIPAuthenticationUserNamePassword
      * @ElementName sipAuthenticationUserName
      * @Type string
      * @Group c0d21ef9ba207c335d8347e5172fce1d:3949
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $sipAuthenticationUserName = null;
@@ -24,6 +26,8 @@ class SIPAuthenticationUserNamePassword
      * @ElementName sipAuthenticationPassword
      * @Type string
      * @Group c0d21ef9ba207c335d8347e5172fce1d:3949
+     * @MinLength 1
+     * @MaxLength 60
      * @var string|null
      */
     private $sipAuthenticationPassword = null;

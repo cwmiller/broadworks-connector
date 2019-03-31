@@ -19,6 +19,8 @@ class ServiceProviderBroadWorksCommunicatorGetRequest extends \CWM\BroadWorksCon
      * @ElementName serviceProviderId
      * @Type string
      * @Group ba512c9f02a5f24a24d49cc945f1524d:42
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;

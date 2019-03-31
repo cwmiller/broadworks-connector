@@ -26,6 +26,8 @@ class SystemNumberPortabilityQueryGetResponse extends \CWM\BroadWorksConnector\O
      * @ElementName numberPortabilityNameLookupTimeoutMilliseconds
      * @Type int
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12043
+     * @MinInclusive 100
+     * @MaxInclusive 10000
      * @var int|null
      */
     private $numberPortabilityNameLookupTimeoutMilliseconds = null;

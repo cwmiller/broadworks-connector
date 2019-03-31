@@ -19,6 +19,8 @@ class SystemPerformanceMeasurementReportingModifyFileServerRequest22 extends \CW
      * @ElementName repositoryUrl
      * @Type string
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:13302
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $repositoryUrl = null;

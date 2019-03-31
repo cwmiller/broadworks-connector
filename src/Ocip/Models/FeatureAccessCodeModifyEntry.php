@@ -17,6 +17,7 @@ class FeatureAccessCodeModifyEntry
      * @ElementName featureAccessCodeName
      * @Type string
      * @Group c0d21ef9ba207c335d8347e5172fce1d:2347
+     * @MinLength 1
      * @var string|null
      */
     private $featureAccessCodeName = null;
@@ -26,6 +27,8 @@ class FeatureAccessCodeModifyEntry
      * @Type string
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:2347
+     * @MinLength 1
+     * @MaxLength 5
      * @var string|null
      */
     private $mainCode = null;
@@ -36,6 +39,8 @@ class FeatureAccessCodeModifyEntry
      * @Nillable
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:2347
+     * @MinLength 1
+     * @MaxLength 5
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $alternateCode = null;

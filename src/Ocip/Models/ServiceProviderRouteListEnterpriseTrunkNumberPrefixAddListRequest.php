@@ -19,6 +19,8 @@ class ServiceProviderRouteListEnterpriseTrunkNumberPrefixAddListRequest extends 
      * @ElementName serviceProviderId
      * @Type string
      * @Group 3f28429898a57a7f7846d3877b22df9f:449
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -28,6 +30,8 @@ class ServiceProviderRouteListEnterpriseTrunkNumberPrefixAddListRequest extends 
      * @Type string
      * @Array
      * @Group 3f28429898a57a7f7846d3877b22df9f:449
+     * @MinLength 1
+     * @MaxLength 23
      * @var string[]
      */
     private $prefix = array(

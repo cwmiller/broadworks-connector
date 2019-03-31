@@ -17,6 +17,9 @@ class MWIDeliveryToMobileEndpointTemplateLine
      * @Type string
      * @Optional
      * @Group 958b78cc2a785d78259c1e8a474eb40d:431
+     * @MinLength 1
+     * @MaxLength 128
+     * @Whitespace preserve
      * @var string|null
      */
     private $prefix = null;
@@ -35,6 +38,9 @@ class MWIDeliveryToMobileEndpointTemplateLine
      * @Type string
      * @Optional
      * @Group 958b78cc2a785d78259c1e8a474eb40d:431
+     * @MinLength 1
+     * @MaxLength 128
+     * @Whitespace preserve
      * @var string|null
      */
     private $postfix = null;

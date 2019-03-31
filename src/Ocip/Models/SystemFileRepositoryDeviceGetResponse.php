@@ -18,6 +18,8 @@ class SystemFileRepositoryDeviceGetResponse extends \CWM\BroadWorksConnector\Oci
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:10375
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $rootDirectory = null;
@@ -27,6 +29,8 @@ class SystemFileRepositoryDeviceGetResponse extends \CWM\BroadWorksConnector\Oci
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:10375
+     * @MinInclusive 1
+     * @MaxInclusive 65535
      * @var int|null
      */
     private $port = null;

@@ -20,6 +20,8 @@ class SystemAdviceOfChargeModifyRequest19sp1 extends \CWM\BroadWorksConnector\Oc
      * @Type int
      * @Optional
      * @Group a69fde15f3aa7494d83b57461a7a70bb:267
+     * @MinInclusive 5
+     * @MaxInclusive 1800
      * @var int|null
      */
     private $delayBetweenNotificationSeconds = null;

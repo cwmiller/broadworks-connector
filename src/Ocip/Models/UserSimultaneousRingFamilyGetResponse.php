@@ -37,6 +37,8 @@ class UserSimultaneousRingFamilyGetResponse extends \CWM\BroadWorksConnector\Oci
      * @Array
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:7713
+     * @MinLength 1
+     * @MaxLength 161
      * @var string[]
      */
     private $simRingPhoneNumber = array(

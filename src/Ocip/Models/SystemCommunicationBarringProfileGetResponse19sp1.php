@@ -29,6 +29,8 @@ class SystemCommunicationBarringProfileGetResponse19sp1 extends \CWM\BroadWorksC
      * @Type string
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:1501
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $description = null;
@@ -46,6 +48,8 @@ class SystemCommunicationBarringProfileGetResponse19sp1 extends \CWM\BroadWorksC
      * @Type string
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:1501
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $originatingDefaultTreatmentId = null;
@@ -55,6 +59,8 @@ class SystemCommunicationBarringProfileGetResponse19sp1 extends \CWM\BroadWorksC
      * @Type string
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:1501
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $originatingDefaultTransferNumber = null;
@@ -64,6 +70,8 @@ class SystemCommunicationBarringProfileGetResponse19sp1 extends \CWM\BroadWorksC
      * @Type int
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:1501
+     * @MinInclusive 60
+     * @MaxInclusive 86400
      * @var int|null
      */
     private $originatingDefaultCallTimeout = null;
@@ -93,6 +101,8 @@ class SystemCommunicationBarringProfileGetResponse19sp1 extends \CWM\BroadWorksC
      * @Type int
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:1501
+     * @MinInclusive 60
+     * @MaxInclusive 86400
      * @var int|null
      */
     private $redirectingDefaultCallTimeout = null;
@@ -122,6 +132,8 @@ class SystemCommunicationBarringProfileGetResponse19sp1 extends \CWM\BroadWorksC
      * @Type int
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:1501
+     * @MinInclusive 60
+     * @MaxInclusive 86400
      * @var int|null
      */
     private $incomingDefaultCallTimeout = null;
@@ -151,6 +163,8 @@ class SystemCommunicationBarringProfileGetResponse19sp1 extends \CWM\BroadWorksC
      * @Type int
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:1501
+     * @MinInclusive 60
+     * @MaxInclusive 86400
      * @var int|null
      */
     private $callMeNowDefaultCallTimeout = null;

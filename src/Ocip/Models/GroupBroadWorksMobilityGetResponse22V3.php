@@ -106,6 +106,8 @@ class GroupBroadWorksMobilityGetResponse22V3 extends \CWM\BroadWorksConnector\Oc
      * @Type string
      * @Optional
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:300
+     * @MinLength 1
+     * @MaxLength 128
      * @var string|null
      */
     private $networkTranslationIndex = null;

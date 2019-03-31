@@ -17,6 +17,8 @@ class CallCenterAnnouncementURLList
      * @Type string
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:894
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $url1 = null;
@@ -26,6 +28,8 @@ class CallCenterAnnouncementURLList
      * @Type string
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:894
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $url2 = null;
@@ -35,6 +39,8 @@ class CallCenterAnnouncementURLList
      * @Type string
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:894
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $url3 = null;
@@ -44,6 +50,8 @@ class CallCenterAnnouncementURLList
      * @Type string
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:894
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $url4 = null;

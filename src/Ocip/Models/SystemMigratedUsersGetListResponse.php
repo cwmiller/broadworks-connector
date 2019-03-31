@@ -22,6 +22,8 @@ class SystemMigratedUsersGetListResponse extends \CWM\BroadWorksConnector\Ocip\M
      * @Array
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:41969
+     * @MinLength 1
+     * @MaxLength 161
      * @var string[]
      */
     private $userId = array(

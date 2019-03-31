@@ -14,6 +14,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21SelectDistributionLi
      * @ElementName returnToPreviousMenu
      * @Type string
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:999
+     * @Length 1
+     * @Pattern \*|#
      * @var string|null
      */
     private $returnToPreviousMenu = null;
@@ -23,6 +25,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21SelectDistributionLi
      * @Type string
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:999
+     * @Length 1
+     * @Pattern \*|#
      * @var string|null
      */
     private $repeatMenuOrFinishEnteringDistributionListNumber = null;

@@ -70,6 +70,8 @@ class ServiceProviderPasswordRulesGetResponse16 extends \CWM\BroadWorksConnector
      * @ElementName minDigits
      * @Type int
      * @Group de4d76f01f337fe4694212ec9f771753:5952
+     * @MinInclusive 1
+     * @MaxInclusive 10
      * @var int|null
      */
     private $minDigits = null;
@@ -86,6 +88,8 @@ class ServiceProviderPasswordRulesGetResponse16 extends \CWM\BroadWorksConnector
      * @ElementName minUpperCaseLetters
      * @Type int
      * @Group de4d76f01f337fe4694212ec9f771753:5952
+     * @MinInclusive 1
+     * @MaxInclusive 10
      * @var int|null
      */
     private $minUpperCaseLetters = null;
@@ -102,6 +106,8 @@ class ServiceProviderPasswordRulesGetResponse16 extends \CWM\BroadWorksConnector
      * @ElementName minLowerCaseLetters
      * @Type int
      * @Group de4d76f01f337fe4694212ec9f771753:5952
+     * @MinInclusive 1
+     * @MaxInclusive 10
      * @var int|null
      */
     private $minLowerCaseLetters = null;
@@ -118,6 +124,8 @@ class ServiceProviderPasswordRulesGetResponse16 extends \CWM\BroadWorksConnector
      * @ElementName minNonAlphanumericCharacters
      * @Type int
      * @Group de4d76f01f337fe4694212ec9f771753:5952
+     * @MinInclusive 1
+     * @MaxInclusive 10
      * @var int|null
      */
     private $minNonAlphanumericCharacters = null;
@@ -126,6 +134,8 @@ class ServiceProviderPasswordRulesGetResponse16 extends \CWM\BroadWorksConnector
      * @ElementName minLength
      * @Type int
      * @Group de4d76f01f337fe4694212ec9f771753:5952
+     * @MinInclusive 3
+     * @MaxInclusive 40
      * @var int|null
      */
     private $minLength = null;
@@ -134,6 +144,8 @@ class ServiceProviderPasswordRulesGetResponse16 extends \CWM\BroadWorksConnector
      * @ElementName maxFailedLoginAttempts
      * @Type int
      * @Group de4d76f01f337fe4694212ec9f771753:5952
+     * @MinInclusive
+     * @MaxInclusive 10
      * @var int|null
      */
     private $maxFailedLoginAttempts = null;
@@ -142,6 +154,8 @@ class ServiceProviderPasswordRulesGetResponse16 extends \CWM\BroadWorksConnector
      * @ElementName passwordExpiresDays
      * @Type int
      * @Group de4d76f01f337fe4694212ec9f771753:5952
+     * @MinInclusive
+     * @MaxInclusive 199
      * @var int|null
      */
     private $passwordExpiresDays = null;
@@ -159,6 +173,8 @@ class ServiceProviderPasswordRulesGetResponse16 extends \CWM\BroadWorksConnector
      * @Type string
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:5952
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $loginDisabledNotifyEmailAddress = null;
@@ -183,6 +199,8 @@ class ServiceProviderPasswordRulesGetResponse16 extends \CWM\BroadWorksConnector
      * @ElementName numberOfPreviousPasswords
      * @Type int
      * @Group de4d76f01f337fe4694212ec9f771753:5952
+     * @MinInclusive 1
+     * @MaxInclusive 10
      * @var int|null
      */
     private $numberOfPreviousPasswords = null;

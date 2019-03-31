@@ -120,6 +120,8 @@ class GroupAutoAttendantGetInstanceResponse19sp1 extends \CWM\BroadWorksConnecto
      * @Type string
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:350
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $networkClassOfService = null;

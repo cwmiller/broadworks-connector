@@ -19,6 +19,8 @@ class GroupCallCapacityManagementDeleteInstanceListRequest extends \CWM\BroadWor
      * @ElementName serviceProviderId
      * @Type string
      * @Group dfcd2b22f2e2b3540d286342087ce042:92
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,6 +29,8 @@ class GroupCallCapacityManagementDeleteInstanceListRequest extends \CWM\BroadWor
      * @ElementName groupId
      * @Type string
      * @Group dfcd2b22f2e2b3540d286342087ce042:92
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;
@@ -36,6 +40,8 @@ class GroupCallCapacityManagementDeleteInstanceListRequest extends \CWM\BroadWor
      * @Type string
      * @Array
      * @Group dfcd2b22f2e2b3540d286342087ce042:92
+     * @MinLength 1
+     * @MaxLength 80
      * @var string[]
      */
     private $name = array(

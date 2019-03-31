@@ -18,6 +18,8 @@ class EnterpriseCommunicationBarringAuthorizationCodeGetResponse extends \CWM\Br
      * @Type string
      * @Optional
      * @Group 5395c7df0157d44aa22f3351d1a5f3da:596
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $description = null;
@@ -27,6 +29,8 @@ class EnterpriseCommunicationBarringAuthorizationCodeGetResponse extends \CWM\Br
      * @Type string
      * @Optional
      * @Group 5395c7df0157d44aa22f3351d1a5f3da:596
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $networkClassOfService = null;

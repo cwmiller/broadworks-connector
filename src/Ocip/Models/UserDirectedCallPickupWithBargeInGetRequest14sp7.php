@@ -20,6 +20,8 @@ class UserDirectedCallPickupWithBargeInGetRequest14sp7 extends \CWM\BroadWorksCo
      * @ElementName userId
      * @Type string
      * @Group e994db048e7467a66936aa2afd5ac740:44
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;

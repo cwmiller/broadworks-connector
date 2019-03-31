@@ -18,6 +18,8 @@ class SystemBroadWorksMobileManagerGetResponse extends \CWM\BroadWorksConnector\
      * @Type string
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2158
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $scfApiNetAddress1 = null;
@@ -27,6 +29,8 @@ class SystemBroadWorksMobileManagerGetResponse extends \CWM\BroadWorksConnector\
      * @Type string
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2158
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $scfApiNetAddress2 = null;
@@ -36,6 +40,8 @@ class SystemBroadWorksMobileManagerGetResponse extends \CWM\BroadWorksConnector\
      * @Type string
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2158
+     * @MinLength 1
+     * @MaxLength 32
      * @var string|null
      */
     private $userName = null;
@@ -45,6 +51,8 @@ class SystemBroadWorksMobileManagerGetResponse extends \CWM\BroadWorksConnector\
      * @Type string
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2158
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $emailFromAddress = null;
@@ -62,6 +70,8 @@ class SystemBroadWorksMobileManagerGetResponse extends \CWM\BroadWorksConnector\
      * @Type string
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2158
+     * @MinLength 1
+     * @MaxLength 39
      * @var string|null
      */
     private $signalingIPAddress = null;
@@ -71,6 +81,8 @@ class SystemBroadWorksMobileManagerGetResponse extends \CWM\BroadWorksConnector\
      * @Type int
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2158
+     * @MinInclusive 1
+     * @MaxInclusive 65535
      * @var int|null
      */
     private $signalingPort = null;

@@ -21,6 +21,8 @@ class GroupCallPickupGetAvailableUserListRequest extends \CWM\BroadWorksConnecto
      * @ElementName serviceProviderId
      * @Type string
      * @Group 045ce951b3e25dec090606af4ad50c63:90
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -29,6 +31,8 @@ class GroupCallPickupGetAvailableUserListRequest extends \CWM\BroadWorksConnecto
      * @ElementName groupId
      * @Type string
      * @Group 045ce951b3e25dec090606af4ad50c63:90
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;
@@ -38,6 +42,8 @@ class GroupCallPickupGetAvailableUserListRequest extends \CWM\BroadWorksConnecto
      * @Type string
      * @Optional
      * @Group 045ce951b3e25dec090606af4ad50c63:90
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $name = null;
@@ -47,6 +53,7 @@ class GroupCallPickupGetAvailableUserListRequest extends \CWM\BroadWorksConnecto
      * @Type int
      * @Optional
      * @Group 045ce951b3e25dec090606af4ad50c63:90
+     * @MinInclusive 1
      * @var int|null
      */
     private $responseSizeLimit = null;

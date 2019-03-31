@@ -22,6 +22,8 @@ class ServiceProviderBroadWorksMobilityGetRequest21sp1V2 extends \CWM\BroadWorks
      * @ElementName serviceProviderId
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:41214
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;

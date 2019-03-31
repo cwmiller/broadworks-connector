@@ -17,6 +17,8 @@ class UserCollaborateProjectRoomGetResponse extends \CWM\BroadWorksConnector\Oci
      * @ElementName roomName
      * @Type string
      * @Group 939fd5846dfae8bdf58308d6cb9ebb12:865
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $roomName = null;

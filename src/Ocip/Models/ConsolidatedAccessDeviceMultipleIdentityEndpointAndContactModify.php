@@ -41,6 +41,8 @@ class ConsolidatedAccessDeviceMultipleIdentityEndpointAndContactModify
      * @Type string
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:1493
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $linePort = null;
@@ -51,6 +53,8 @@ class ConsolidatedAccessDeviceMultipleIdentityEndpointAndContactModify
      * @Nillable
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:1493
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $privateIdentity = null;
@@ -70,6 +74,8 @@ class ConsolidatedAccessDeviceMultipleIdentityEndpointAndContactModify
      * @Type int
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:1493
+     * @MinInclusive 1
+     * @MaxInclusive 1024
      * @var int|null
      */
     private $portNumber = null;
@@ -79,6 +85,8 @@ class ConsolidatedAccessDeviceMultipleIdentityEndpointAndContactModify
      * @Type string
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:1493
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $deviceType = null;
@@ -88,6 +96,8 @@ class ConsolidatedAccessDeviceMultipleIdentityEndpointAndContactModify
      * @Type string
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:1493
+     * @MinLength 1
+     * @MaxLength 20
      * @var string|null
      */
     private $protocol = null;
@@ -97,6 +107,8 @@ class ConsolidatedAccessDeviceMultipleIdentityEndpointAndContactModify
      * @Type string
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:1493
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $netAddress = null;
@@ -106,6 +118,8 @@ class ConsolidatedAccessDeviceMultipleIdentityEndpointAndContactModify
      * @Type int
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:1493
+     * @MinInclusive 1025
+     * @MaxInclusive 65535
      * @var int|null
      */
     private $port = null;
@@ -115,6 +129,8 @@ class ConsolidatedAccessDeviceMultipleIdentityEndpointAndContactModify
      * @Type string
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:1493
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $outboundProxyServerNetAddress = null;
@@ -124,6 +140,8 @@ class ConsolidatedAccessDeviceMultipleIdentityEndpointAndContactModify
      * @Type string
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:1493
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $stunServerNetAddress = null;
@@ -133,6 +151,8 @@ class ConsolidatedAccessDeviceMultipleIdentityEndpointAndContactModify
      * @Type string
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:1493
+     * @MinLength 1
+     * @MaxLength 12
      * @var string|null
      */
     private $macAddress = null;
@@ -142,6 +162,8 @@ class ConsolidatedAccessDeviceMultipleIdentityEndpointAndContactModify
      * @Type string
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:1493
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $serialNumber = null;
@@ -151,6 +173,8 @@ class ConsolidatedAccessDeviceMultipleIdentityEndpointAndContactModify
      * @Type string
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:1493
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $description = null;
@@ -160,6 +184,8 @@ class ConsolidatedAccessDeviceMultipleIdentityEndpointAndContactModify
      * @Type string
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:1493
+     * @MinLength 1
+     * @MaxLength 1024
      * @var string|null
      */
     private $physicalLocation = null;

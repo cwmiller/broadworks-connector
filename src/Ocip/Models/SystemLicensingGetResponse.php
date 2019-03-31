@@ -28,6 +28,7 @@ class SystemLicensingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @ElementName groupUserlimit
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:5221
+     * @MinInclusive 1
      * @var int|null
      */
     private $groupUserlimit = null;
@@ -47,6 +48,7 @@ class SystemLicensingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @Array
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:5221
+     * @MinLength 1
      * @var string[]
      */
     private $hostId = array(
@@ -59,6 +61,7 @@ class SystemLicensingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @Array
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:5221
+     * @MinLength 1
      * @var string[]
      */
     private $licenseName = array(

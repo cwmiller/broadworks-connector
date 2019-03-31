@@ -19,6 +19,8 @@ class ServiceProviderServicePackGetDetailListResponse extends \CWM\BroadWorksCon
      * @ElementName servicePackName
      * @Type string
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:5295
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $servicePackName = null;
@@ -28,6 +30,8 @@ class ServiceProviderServicePackGetDetailListResponse extends \CWM\BroadWorksCon
      * @Type string
      * @Optional
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:5295
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $servicePackDescription = null;

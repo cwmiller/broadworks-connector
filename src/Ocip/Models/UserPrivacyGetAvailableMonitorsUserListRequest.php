@@ -20,6 +20,8 @@ class UserPrivacyGetAvailableMonitorsUserListRequest extends \CWM\BroadWorksConn
      * @ElementName userId
      * @Type string
      * @Group b87b6355d5858fdbeb8c1eb05dc1651a:99
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;
@@ -29,6 +31,7 @@ class UserPrivacyGetAvailableMonitorsUserListRequest extends \CWM\BroadWorksConn
      * @Type int
      * @Optional
      * @Group b87b6355d5858fdbeb8c1eb05dc1651a:99
+     * @MinInclusive 1
      * @var int|null
      */
     private $responseSizeLimit = null;

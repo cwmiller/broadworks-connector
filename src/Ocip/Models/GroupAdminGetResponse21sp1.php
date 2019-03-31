@@ -18,6 +18,8 @@ class GroupAdminGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @ElementName serviceProviderId
      * @Type string
      * @Group f3a93cf15de4abd7903673e44ee3e07b:1252
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,6 +28,8 @@ class GroupAdminGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @ElementName groupId
      * @Type string
      * @Group f3a93cf15de4abd7903673e44ee3e07b:1252
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;
@@ -35,6 +39,8 @@ class GroupAdminGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @Type string
      * @Optional
      * @Group f3a93cf15de4abd7903673e44ee3e07b:1252
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $firstName = null;
@@ -44,6 +50,8 @@ class GroupAdminGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @Type string
      * @Optional
      * @Group f3a93cf15de4abd7903673e44ee3e07b:1252
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $lastName = null;
@@ -52,6 +60,8 @@ class GroupAdminGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @ElementName language
      * @Type string
      * @Group f3a93cf15de4abd7903673e44ee3e07b:1252
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $language = null;
@@ -60,6 +70,7 @@ class GroupAdminGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @ElementName locale
      * @Type string
      * @Group f3a93cf15de4abd7903673e44ee3e07b:1252
+     * @MaxLength 5
      * @var string|null
      */
     private $locale = null;
@@ -68,6 +79,8 @@ class GroupAdminGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @ElementName encoding
      * @Type string
      * @Group f3a93cf15de4abd7903673e44ee3e07b:1252
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $encoding = null;

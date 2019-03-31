@@ -87,6 +87,8 @@ class UserBroadWorksMobilityGetResponse21 extends \CWM\BroadWorksConnector\Ocip\
      * @Array
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:40020
+     * @MinLength 1
+     * @MaxLength 23
      * @var string[]
      */
     private $profileIdentityMobileNumberAlerted = array(

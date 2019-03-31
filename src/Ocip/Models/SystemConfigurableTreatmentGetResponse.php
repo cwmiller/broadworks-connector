@@ -21,6 +21,8 @@ class SystemConfigurableTreatmentGetResponse extends \CWM\BroadWorksConnector\Oc
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:10260
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $description = null;
@@ -38,6 +40,8 @@ class SystemConfigurableTreatmentGetResponse extends \CWM\BroadWorksConnector\Oc
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:10260
+     * @MinInclusive 400
+     * @MaxInclusive 699
      * @var int|null
      */
     private $accessSIPStatusCode = null;
@@ -47,6 +51,8 @@ class SystemConfigurableTreatmentGetResponse extends \CWM\BroadWorksConnector\Oc
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:10260
+     * @MinLength 1
+     * @MaxLength 50
      * @var string|null
      */
     private $accessSIPStatusMessage = null;
@@ -56,6 +62,8 @@ class SystemConfigurableTreatmentGetResponse extends \CWM\BroadWorksConnector\Oc
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:10260
+     * @MinInclusive 400
+     * @MaxInclusive 699
      * @var int|null
      */
     private $networkSIPStatusCode = null;
@@ -65,6 +73,8 @@ class SystemConfigurableTreatmentGetResponse extends \CWM\BroadWorksConnector\Oc
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:10260
+     * @MinLength 1
+     * @MaxLength 50
      * @var string|null
      */
     private $networkSIPStatusMessage = null;
@@ -74,6 +84,8 @@ class SystemConfigurableTreatmentGetResponse extends \CWM\BroadWorksConnector\Oc
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:10260
+     * @MinInclusive 1
+     * @MaxInclusive 256
      * @var int|null
      */
     private $q850CauseValue = null;
@@ -83,6 +95,8 @@ class SystemConfigurableTreatmentGetResponse extends \CWM\BroadWorksConnector\Oc
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:10260
+     * @MinLength 1
+     * @MaxLength 50
      * @var string|null
      */
     private $q850Text = null;
@@ -92,6 +106,8 @@ class SystemConfigurableTreatmentGetResponse extends \CWM\BroadWorksConnector\Oc
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:10260
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $accessTreatmentAudioFile = null;
@@ -101,6 +117,8 @@ class SystemConfigurableTreatmentGetResponse extends \CWM\BroadWorksConnector\Oc
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:10260
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $accessTreatmentVideoFile = null;
@@ -110,6 +128,8 @@ class SystemConfigurableTreatmentGetResponse extends \CWM\BroadWorksConnector\Oc
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:10260
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $networkTreatmentAudioFile = null;
@@ -119,6 +139,8 @@ class SystemConfigurableTreatmentGetResponse extends \CWM\BroadWorksConnector\Oc
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:10260
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $networkTreatmentVideoFile = null;
@@ -128,6 +150,8 @@ class SystemConfigurableTreatmentGetResponse extends \CWM\BroadWorksConnector\Oc
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:10260
+     * @MinLength 1
+     * @MaxLength 3
      * @var string|null
      */
     private $cdrTerminationCause = null;

@@ -21,6 +21,8 @@ class SystemPreferredCarrierGetGroupListRequest extends \CWM\BroadWorksConnector
      * @ElementName carrier
      * @Type string
      * @Group 74a46a9bfccb54713c1d19735843f1df:359
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $carrier = null;
@@ -30,6 +32,7 @@ class SystemPreferredCarrierGetGroupListRequest extends \CWM\BroadWorksConnector
      * @Type int
      * @Optional
      * @Group 74a46a9bfccb54713c1d19735843f1df:359
+     * @MinInclusive 1
      * @var int|null
      */
     private $responseSizeLimit = null;

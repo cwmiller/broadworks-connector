@@ -29,6 +29,8 @@ class SystemSystemServiceCallProcessingPoliciesModifyRequest extends \CWM\BroadW
      * @Type int
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17203
+     * @MinInclusive 1
+     * @MaxInclusive 999999
      * @var int|null
      */
     private $maxSimultaneousCalls = null;
@@ -47,6 +49,8 @@ class SystemSystemServiceCallProcessingPoliciesModifyRequest extends \CWM\BroadW
      * @Type int
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17203
+     * @MinInclusive 1
+     * @MaxInclusive 999999
      * @var int|null
      */
     private $maxSimultaneousVideoCalls = null;
@@ -65,6 +69,8 @@ class SystemSystemServiceCallProcessingPoliciesModifyRequest extends \CWM\BroadW
      * @Type int
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17203
+     * @MinInclusive 1
+     * @MaxInclusive 999999
      * @var int|null
      */
     private $maxConcurrentRedirectedCalls = null;
@@ -83,6 +89,8 @@ class SystemSystemServiceCallProcessingPoliciesModifyRequest extends \CWM\BroadW
      * @Type int
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17203
+     * @MinInclusive 3
+     * @MaxInclusive 2880
      * @var int|null
      */
     private $maxCallTimeForAnsweredCallsMinutes = null;

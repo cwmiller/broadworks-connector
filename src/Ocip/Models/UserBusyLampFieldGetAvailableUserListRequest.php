@@ -19,6 +19,8 @@ class UserBusyLampFieldGetAvailableUserListRequest extends \CWM\BroadWorksConnec
      * @ElementName userId
      * @Type string
      * @Group 4faeca417998d23ce2ff6b0b43212aa6:150
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;
@@ -28,6 +30,7 @@ class UserBusyLampFieldGetAvailableUserListRequest extends \CWM\BroadWorksConnec
      * @Type int
      * @Optional
      * @Group 4faeca417998d23ce2ff6b0b43212aa6:150
+     * @MinInclusive 1
      * @var int|null
      */
     private $responseSizeLimit = null;

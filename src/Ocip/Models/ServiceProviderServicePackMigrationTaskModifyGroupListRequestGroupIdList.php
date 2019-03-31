@@ -15,6 +15,8 @@ class ServiceProviderServicePackMigrationTaskModifyGroupListRequestGroupIdList
      * @Type string
      * @Array
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:5644
+     * @MinLength 1
+     * @MaxLength 30
      * @var string[]
      */
     private $groupId = array(

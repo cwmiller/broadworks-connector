@@ -19,6 +19,8 @@ class GroupSessionAdmissionControlGroupGetRequest extends \CWM\BroadWorksConnect
      * @ElementName serviceProviderId
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:30800
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,6 +29,8 @@ class GroupSessionAdmissionControlGroupGetRequest extends \CWM\BroadWorksConnect
      * @ElementName groupId
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:30800
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;
@@ -35,6 +39,8 @@ class GroupSessionAdmissionControlGroupGetRequest extends \CWM\BroadWorksConnect
      * @ElementName name
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:30800
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $name = null;

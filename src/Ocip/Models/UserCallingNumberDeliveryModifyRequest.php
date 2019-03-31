@@ -19,6 +19,8 @@ class UserCallingNumberDeliveryModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName userId
      * @Type string
      * @Group 2739e54a6c7a2ab6abe092f89482573e:75
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;

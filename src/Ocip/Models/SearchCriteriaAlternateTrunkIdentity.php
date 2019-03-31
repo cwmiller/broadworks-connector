@@ -25,6 +25,8 @@ class SearchCriteriaAlternateTrunkIdentity extends SearchCriteria
      * @ElementName value
      * @Type string
      * @Group f0ada2681ca347fa83b464734259b304:164
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $value = null;

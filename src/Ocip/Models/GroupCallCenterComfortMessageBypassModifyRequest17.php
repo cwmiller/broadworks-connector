@@ -22,6 +22,8 @@ class GroupCallCenterComfortMessageBypassModifyRequest17 extends \CWM\BroadWorks
      * @ElementName serviceUserId
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:29433
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $serviceUserId = null;
@@ -40,6 +42,8 @@ class GroupCallCenterComfortMessageBypassModifyRequest17 extends \CWM\BroadWorks
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:29433
+     * @MinInclusive 1
+     * @MaxInclusive 120
      * @var int|null
      */
     private $callWaitingAgeThresholdSeconds = null;
@@ -58,6 +62,8 @@ class GroupCallCenterComfortMessageBypassModifyRequest17 extends \CWM\BroadWorks
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:29433
+     * @MinInclusive
+     * @MaxInclusive 120
      * @var int|null
      */
     private $ringTimeBeforePlayingAnnouncementSeconds = null;

@@ -42,6 +42,8 @@ class ServiceProviderDialPlanPolicyGetResponse17 extends \CWM\BroadWorksConnecto
      * @Type string
      * @Optional
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:3014
+     * @MinLength 1
+     * @MaxLength 2048
      * @var string|null
      */
     private $publicDigitMap = null;
@@ -51,6 +53,8 @@ class ServiceProviderDialPlanPolicyGetResponse17 extends \CWM\BroadWorksConnecto
      * @Type string
      * @Optional
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:3014
+     * @MinLength 1
+     * @MaxLength 2048
      * @var string|null
      */
     private $privateDigitMap = null;

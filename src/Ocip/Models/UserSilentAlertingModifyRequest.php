@@ -19,6 +19,8 @@ class UserSilentAlertingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName userId
      * @Type string
      * @Group f2b3ec892c5d27b9eb241f1d4d0f94f9:73
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;

@@ -17,6 +17,8 @@ class DisableMessageDepositMenuKeysReadEntry
      * @Type string
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2610
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $disconnectAfterGreeting = null;
@@ -26,6 +28,8 @@ class DisableMessageDepositMenuKeysReadEntry
      * @Type string
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2610
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $forwardAfterGreeting = null;
@@ -35,6 +39,8 @@ class DisableMessageDepositMenuKeysReadEntry
      * @Type string
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2610
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $changeForwardingDestination = null;
@@ -43,6 +49,8 @@ class DisableMessageDepositMenuKeysReadEntry
      * @ElementName returnToPreviousMenu
      * @Type string
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2610
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $returnToPreviousMenu = null;
@@ -52,6 +60,8 @@ class DisableMessageDepositMenuKeysReadEntry
      * @Type string
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2610
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $repeatMenu = null;

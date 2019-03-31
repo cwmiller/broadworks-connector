@@ -19,6 +19,8 @@ class ServiceProviderPreferredCarrierGetListRequest extends \CWM\BroadWorksConne
      * @ElementName serviceProviderId
      * @Type string
      * @Group 74a46a9bfccb54713c1d19735843f1df:225
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;

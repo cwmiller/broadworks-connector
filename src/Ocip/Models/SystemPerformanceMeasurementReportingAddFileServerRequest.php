@@ -19,6 +19,8 @@ class SystemPerformanceMeasurementReportingAddFileServerRequest extends \CWM\Bro
      * @ElementName ftpHostNetAddress
      * @Type string
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:13120
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $ftpHostNetAddress = null;
@@ -27,6 +29,8 @@ class SystemPerformanceMeasurementReportingAddFileServerRequest extends \CWM\Bro
      * @ElementName ftpUserId
      * @Type string
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:13120
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $ftpUserId = null;
@@ -35,6 +39,8 @@ class SystemPerformanceMeasurementReportingAddFileServerRequest extends \CWM\Bro
      * @ElementName ftpUserPassword
      * @Type string
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:13120
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $ftpUserPassword = null;

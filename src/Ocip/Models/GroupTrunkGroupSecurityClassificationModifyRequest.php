@@ -28,6 +28,8 @@ class GroupTrunkGroupSecurityClassificationModifyRequest extends \CWM\BroadWorks
      * @Type string
      * @Nillable
      * @Group 6b3afea8308b7fdaab8d385357ca9c2d:85
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $defaultSecurityClassification = null;

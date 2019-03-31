@@ -19,6 +19,8 @@ class GroupRoutePointBouncedCallGetRequest extends \CWM\BroadWorksConnector\Ocip
      * @ElementName serviceUserId
      * @Type string
      * @Group a27224a048c30ff69eab9209dec841cc:144
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $serviceUserId = null;

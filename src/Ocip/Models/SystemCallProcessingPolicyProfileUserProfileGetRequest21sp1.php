@@ -22,6 +22,8 @@ class SystemCallProcessingPolicyProfileUserProfileGetRequest21sp1 extends \CWM\B
      * @ElementName callProcessingPolicyProfileName
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:38346
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $callProcessingPolicyProfileName = null;

@@ -16,6 +16,8 @@ class HourMinute
      * @ElementName hour
      * @Type int
      * @Group c0d21ef9ba207c335d8347e5172fce1d:2459
+     * @MinInclusive
+     * @MaxInclusive 23
      * @var int|null
      */
     private $hour = null;
@@ -24,6 +26,8 @@ class HourMinute
      * @ElementName minute
      * @Type int
      * @Group c0d21ef9ba207c335d8347e5172fce1d:2459
+     * @MinInclusive
+     * @MaxInclusive 59
      * @var int|null
      */
     private $minute = null;

@@ -19,6 +19,8 @@ class UserCallForwardingSelectiveGetResponse extends \CWM\BroadWorksConnector\Oc
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:10974
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $defaultForwardToPhoneNumber = null;

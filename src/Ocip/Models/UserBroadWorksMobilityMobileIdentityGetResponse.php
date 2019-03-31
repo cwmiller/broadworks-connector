@@ -21,6 +21,8 @@ class UserBroadWorksMobilityMobileIdentityGetResponse extends \CWM\BroadWorksCon
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:40128
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $description = null;
@@ -159,6 +161,8 @@ class UserBroadWorksMobilityMobileIdentityGetResponse extends \CWM\BroadWorksCon
      * @Array
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:40128
+     * @MinLength 1
+     * @MaxLength 23
      * @var string[]
      */
     private $mobileNumberAlerted = array(

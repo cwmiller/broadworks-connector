@@ -19,6 +19,8 @@ class GroupMWIDeliveryToMobileEndpointCustomTemplateModifyRequest extends \CWM\B
      * @ElementName serviceProviderId
      * @Type string
      * @Group 958b78cc2a785d78259c1e8a474eb40d:130
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,6 +29,8 @@ class GroupMWIDeliveryToMobileEndpointCustomTemplateModifyRequest extends \CWM\B
      * @ElementName groupId
      * @Type string
      * @Group 958b78cc2a785d78259c1e8a474eb40d:130
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;
@@ -35,6 +39,8 @@ class GroupMWIDeliveryToMobileEndpointCustomTemplateModifyRequest extends \CWM\B
      * @ElementName language
      * @Type string
      * @Group 958b78cc2a785d78259c1e8a474eb40d:130
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $language = null;

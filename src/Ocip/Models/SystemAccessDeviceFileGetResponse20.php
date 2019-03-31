@@ -26,6 +26,8 @@ class SystemAccessDeviceFileGetResponse20 extends \CWM\BroadWorksConnector\Ocip\
      * @Type string
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:835
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $configurationFileName = null;
@@ -34,6 +36,8 @@ class SystemAccessDeviceFileGetResponse20 extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName accessUrl
      * @Type string
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:835
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $accessUrl = null;
@@ -43,6 +47,8 @@ class SystemAccessDeviceFileGetResponse20 extends \CWM\BroadWorksConnector\Ocip\
      * @Type string
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:835
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $repositoryUrl = null;
@@ -52,6 +58,8 @@ class SystemAccessDeviceFileGetResponse20 extends \CWM\BroadWorksConnector\Ocip\
      * @Type string
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:835
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $templateUrl = null;
@@ -70,6 +78,8 @@ class SystemAccessDeviceFileGetResponse20 extends \CWM\BroadWorksConnector\Ocip\
      * @Type string
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:835
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $extendedCaptureURL = null;

@@ -18,6 +18,8 @@ class ReplacementEnterpriseTrunkTrunkGroupList
      * @Type string
      * @Array
      * @Group b9c14e2d80e4e7749688ca13ba233b44:1920
+     * @MinLength 1
+     * @MaxLength 30
      * @var string[]
      */
     private $trunkGroup = array(

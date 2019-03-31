@@ -14,6 +14,7 @@ class AuthenticationVerificationRequest22PreAuthorizedExternalAuthenticationLogi
      * @ElementName loginToken
      * @Type string
      * @Group de4d76f01f337fe4694212ec9f771753:3924
+     * @MinLength 1
      * @var string|null
      */
     private $loginToken = null;

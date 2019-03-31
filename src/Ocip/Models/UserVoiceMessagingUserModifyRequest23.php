@@ -23,6 +23,8 @@ class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Oci
      * @ElementName userId
      * @Type string
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2146
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;
@@ -41,6 +43,8 @@ class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Oci
      * @Type string
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2146
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $groupMailServerEmailAddress = null;
@@ -50,6 +54,8 @@ class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Oci
      * @Type string
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2146
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $groupMailServerUserId = null;
@@ -59,6 +65,8 @@ class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Oci
      * @Type string
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2146
+     * @MinLength 1
+     * @MaxLength 60
      * @var string|null
      */
     private $groupMailServerPassword = null;
@@ -84,6 +92,8 @@ class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Oci
      * @Type string
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2146
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $personalMailServerNetAddress = null;
@@ -111,6 +121,8 @@ class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Oci
      * @Type string
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2146
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $personalMailServerEmailAddress = null;
@@ -120,6 +132,8 @@ class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Oci
      * @Type string
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2146
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $personalMailServerUserId = null;
@@ -129,6 +143,8 @@ class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Oci
      * @Type string
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2146
+     * @MinLength 1
+     * @MaxLength 60
      * @var string|null
      */
     private $personalMailServerPassword = null;
@@ -301,6 +317,8 @@ class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Oci
      * @Nillable
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2146
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $greetingOnlyForwardDestination = null;
@@ -348,6 +366,8 @@ class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Oci
      * @Nillable
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2146
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $voiceMessageDeliveryEmailAddress = null;
@@ -376,6 +396,8 @@ class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Oci
      * @Nillable
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2146
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $voiceMessageNotifyEmailAddress = null;
@@ -395,6 +417,8 @@ class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Oci
      * @Nillable
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2146
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $voiceMessageCarbonCopyEmailAddress = null;
@@ -414,6 +438,8 @@ class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Oci
      * @Nillable
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2146
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $transferPhoneNumber = null;

@@ -49,6 +49,8 @@ class ProfileAndServiceThirdPartyVoiceMailInfo
      * @Type string
      * @Optional
      * @Group 53d18cc797d03d802cbc411ad821f1d4:4396
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userServer = null;
@@ -66,6 +68,8 @@ class ProfileAndServiceThirdPartyVoiceMailInfo
      * @Type string
      * @Optional
      * @Group 53d18cc797d03d802cbc411ad821f1d4:4396
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $mailboxURL = null;

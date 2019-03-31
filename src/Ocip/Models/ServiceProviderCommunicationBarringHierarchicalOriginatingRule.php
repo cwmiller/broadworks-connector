@@ -16,6 +16,8 @@ class ServiceProviderCommunicationBarringHierarchicalOriginatingRule
      * @ElementName criteria
      * @Type string
      * @Group c0d21ef9ba207c335d8347e5172fce1d:3788
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $criteria = null;
@@ -24,6 +26,8 @@ class ServiceProviderCommunicationBarringHierarchicalOriginatingRule
      * @ElementName digitPatternCriteria
      * @Type string
      * @Group c0d21ef9ba207c335d8347e5172fce1d:3788
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $digitPatternCriteria = null;
@@ -42,6 +46,8 @@ class ServiceProviderCommunicationBarringHierarchicalOriginatingRule
      * @Nillable
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:3787
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $treatmentId = null;
@@ -52,6 +58,8 @@ class ServiceProviderCommunicationBarringHierarchicalOriginatingRule
      * @Nillable
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:3787
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $transferNumber = null;
@@ -61,6 +69,8 @@ class ServiceProviderCommunicationBarringHierarchicalOriginatingRule
      * @Type int
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:3787
+     * @MinInclusive 60
+     * @MaxInclusive 86400
      * @var int|null
      */
     private $callTimeoutSeconds = null;
@@ -70,6 +80,8 @@ class ServiceProviderCommunicationBarringHierarchicalOriginatingRule
      * @Type string
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:3787
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $timeSchedule = null;
@@ -79,6 +91,8 @@ class ServiceProviderCommunicationBarringHierarchicalOriginatingRule
      * @Type string
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:3787
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $holidaySchedule = null;
@@ -87,6 +101,8 @@ class ServiceProviderCommunicationBarringHierarchicalOriginatingRule
      * @ElementName priority
      * @Type float
      * @Group c0d21ef9ba207c335d8347e5172fce1d:3787
+     * @MinInclusive 0.0
+     * @MaxInclusive 1000000.0
      * @var float|null
      */
     private $priority = null;

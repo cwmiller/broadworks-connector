@@ -22,6 +22,8 @@ class SystemOCICallControlApplicationAddRequest17 extends \CWM\BroadWorksConnect
      * @ElementName applicationId
      * @Type string
      * @Group de4d76f01f337fe4694212ec9f771753:6539
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $applicationId = null;
@@ -38,6 +40,8 @@ class SystemOCICallControlApplicationAddRequest17 extends \CWM\BroadWorksConnect
      * @ElementName notificationTimeoutSeconds
      * @Type int
      * @Group de4d76f01f337fe4694212ec9f771753:6539
+     * @MinInclusive 2
+     * @MaxInclusive 30
      * @var int|null
      */
     private $notificationTimeoutSeconds = null;
@@ -47,6 +51,8 @@ class SystemOCICallControlApplicationAddRequest17 extends \CWM\BroadWorksConnect
      * @Type string
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:6539
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $description = null;
@@ -55,6 +61,8 @@ class SystemOCICallControlApplicationAddRequest17 extends \CWM\BroadWorksConnect
      * @ElementName maxEventChannelsPerSet
      * @Type int
      * @Group de4d76f01f337fe4694212ec9f771753:6539
+     * @MinInclusive 1
+     * @MaxInclusive 100
      * @var int|null
      */
     private $maxEventChannelsPerSet = null;

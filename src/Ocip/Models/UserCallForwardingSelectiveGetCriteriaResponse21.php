@@ -44,6 +44,8 @@ class UserCallForwardingSelectiveGetCriteriaResponse21 extends \CWM\BroadWorksCo
      * @Type string
      * @Optional
      * @Group 543304bb75006bfa60814c897fa03ec0:107
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $forwardToPhoneNumber = null;

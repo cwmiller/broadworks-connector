@@ -22,6 +22,8 @@ class GroupVoiceMessagingGroupGetVoicePortalRequest19sp1 extends \CWM\BroadWorks
      * @ElementName serviceProviderId
      * @Type string
      * @Group de4d76f01f337fe4694212ec9f771753:5262
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -30,6 +32,8 @@ class GroupVoiceMessagingGroupGetVoicePortalRequest19sp1 extends \CWM\BroadWorks
      * @ElementName groupId
      * @Type string
      * @Group de4d76f01f337fe4694212ec9f771753:5262
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;

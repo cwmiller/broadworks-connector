@@ -19,6 +19,8 @@ class GroupTrunkGroupGetRequest14sp9 extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName serviceProviderId
      * @Type string
      * @Group b9c14e2d80e4e7749688ca13ba233b44:1283
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,6 +29,8 @@ class GroupTrunkGroupGetRequest14sp9 extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName groupId
      * @Type string
      * @Group b9c14e2d80e4e7749688ca13ba233b44:1283
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;

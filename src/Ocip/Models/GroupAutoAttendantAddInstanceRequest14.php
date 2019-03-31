@@ -22,6 +22,8 @@ class GroupAutoAttendantAddInstanceRequest14 extends \CWM\BroadWorksConnector\Oc
      * @ElementName serviceProviderId
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:8147
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -30,6 +32,8 @@ class GroupAutoAttendantAddInstanceRequest14 extends \CWM\BroadWorksConnector\Oc
      * @ElementName groupId
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:8147
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;
@@ -38,6 +42,8 @@ class GroupAutoAttendantAddInstanceRequest14 extends \CWM\BroadWorksConnector\Oc
      * @ElementName serviceUserId
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:8147
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $serviceUserId = null;
@@ -63,6 +69,8 @@ class GroupAutoAttendantAddInstanceRequest14 extends \CWM\BroadWorksConnector\Oc
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:8147
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $businessHours = null;
@@ -72,6 +80,8 @@ class GroupAutoAttendantAddInstanceRequest14 extends \CWM\BroadWorksConnector\Oc
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:8147
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $holidayScheduleName = null;

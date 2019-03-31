@@ -26,6 +26,8 @@ class UserRemoteOfficeGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @Type string
      * @Optional
      * @Group 70aea661491074f1e7cc845c9a6c7ea3:56
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $remoteOfficePhoneNumber = null;

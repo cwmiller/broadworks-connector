@@ -25,6 +25,8 @@ class SystemCallCenterModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @Type string
      * @Optional
      * @Group e2c537e3e39483b96620673a7012ffdd:6564
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $defaultFromAddress = null;
@@ -52,6 +54,8 @@ class SystemCallCenterModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @Type int
      * @Optional
      * @Group e2c537e3e39483b96620673a7012ffdd:6564
+     * @MinInclusive 1
+     * @MaxInclusive 25
      * @var int|null
      */
     private $defaultGuardTimerSeconds = null;
@@ -88,6 +92,8 @@ class SystemCallCenterModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @Type int
      * @Optional
      * @Group e2c537e3e39483b96620673a7012ffdd:6564
+     * @MinInclusive 1
+     * @MaxInclusive 5
      * @var int|null
      */
     private $numberConsecutiveBouncedCallsToForceAgentUnavailable = null;
@@ -124,6 +130,8 @@ class SystemCallCenterModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @Type int
      * @Optional
      * @Group e2c537e3e39483b96620673a7012ffdd:6564
+     * @MinInclusive 5
+     * @MaxInclusive 30
      * @var int|null
      */
     private $callHandlingSamplingPeriodMinutes = null;
@@ -133,6 +141,8 @@ class SystemCallCenterModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @Type int
      * @Optional
      * @Group e2c537e3e39483b96620673a7012ffdd:6564
+     * @MinInclusive 1
+     * @MaxInclusive 100
      * @var int|null
      */
     private $callHandlingMinimumSamplingSize = null;
@@ -151,6 +161,8 @@ class SystemCallCenterModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @Type string
      * @Optional
      * @Group e2c537e3e39483b96620673a7012ffdd:6564
+     * @MinLength 1
+     * @MaxLength 10
      * @var string|null
      */
     private $emergencyCallCLIDPrefix = null;
@@ -160,6 +172,8 @@ class SystemCallCenterModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @Type int
      * @Optional
      * @Group e2c537e3e39483b96620673a7012ffdd:6564
+     * @MinInclusive 3
+     * @MaxInclusive 60
      * @var int|null
      */
     private $thresholdCrossingNotificationEmailGuardTimerSeconds = null;

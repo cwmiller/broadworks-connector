@@ -16,6 +16,8 @@ class MeetMeConferencingConferenceDuration
      * @ElementName hours
      * @Type int
      * @Group 0fd24121d16995c994d40bc408dbcfa5:1030
+     * @MinInclusive
+     * @MaxInclusive 23
      * @var int|null
      */
     private $hours = null;
@@ -24,6 +26,7 @@ class MeetMeConferencingConferenceDuration
      * @ElementName minutes
      * @Type int
      * @Group 0fd24121d16995c994d40bc408dbcfa5:1030
+     * @Pattern 0|15|30|45
      * @var int|null
      */
     private $minutes = null;

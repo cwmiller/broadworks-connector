@@ -17,6 +17,8 @@ class ServiceProviderInCallServiceActivationGetResponse17 extends \CWM\BroadWork
      * @ElementName flashActivationDigits
      * @Type string
      * @Group ece0b65e69189d3e8b8deee895f0a7ff:61
+     * @MinLength 1
+     * @MaxLength 8
      * @var string|null
      */
     private $flashActivationDigits = null;
@@ -25,6 +27,8 @@ class ServiceProviderInCallServiceActivationGetResponse17 extends \CWM\BroadWork
      * @ElementName callTransferActivationDigits
      * @Type string
      * @Group ece0b65e69189d3e8b8deee895f0a7ff:61
+     * @MinLength 1
+     * @MaxLength 8
      * @var string|null
      */
     private $callTransferActivationDigits = null;

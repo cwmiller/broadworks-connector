@@ -19,6 +19,8 @@ class GroupVoiceXmlDeleteInstanceRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName serviceUserId
      * @Type string
      * @Group 0639a23b2e14be05c11ead49c23bd0bd:69
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $serviceUserId = null;

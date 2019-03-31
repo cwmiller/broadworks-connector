@@ -23,6 +23,8 @@ class GroupDepartmentModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @ElementName serviceProviderId
      * @Type string
      * @Group f3a93cf15de4abd7903673e44ee3e07b:3224
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -31,6 +33,8 @@ class GroupDepartmentModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @ElementName groupId
      * @Type string
      * @Group f3a93cf15de4abd7903673e44ee3e07b:3224
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;
@@ -39,6 +43,8 @@ class GroupDepartmentModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @ElementName departmentName
      * @Type string
      * @Group f3a93cf15de4abd7903673e44ee3e07b:3224
+     * @MinLength 1
+     * @MaxLength 50
      * @var string|null
      */
     private $departmentName = null;
@@ -48,6 +54,8 @@ class GroupDepartmentModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Type string
      * @Optional
      * @Group f3a93cf15de4abd7903673e44ee3e07b:3224
+     * @MinLength 1
+     * @MaxLength 50
      * @var string|null
      */
     private $newDepartmentName = null;
@@ -68,6 +76,8 @@ class GroupDepartmentModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Nillable
      * @Optional
      * @Group f3a93cf15de4abd7903673e44ee3e07b:3224
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $callingLineIdName = null;
@@ -78,6 +88,8 @@ class GroupDepartmentModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Nillable
      * @Optional
      * @Group f3a93cf15de4abd7903673e44ee3e07b:3224
+     * @MinLength 1
+     * @MaxLength 23
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $callingLineIdPhoneNumber = null;

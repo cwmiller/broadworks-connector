@@ -19,6 +19,8 @@ class UserPushToTalkGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @ElementName userId
      * @Type string
      * @Group f32f4b57593f3e1ac6ed1cf45ed62b7c:86
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;

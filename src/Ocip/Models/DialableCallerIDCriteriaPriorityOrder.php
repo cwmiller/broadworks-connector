@@ -16,6 +16,8 @@ class DialableCallerIDCriteriaPriorityOrder
      * @ElementName criteriaName
      * @Type string
      * @Group c0d21ef9ba207c335d8347e5172fce1d:2088
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $criteriaName = null;
@@ -24,6 +26,8 @@ class DialableCallerIDCriteriaPriorityOrder
      * @ElementName priority
      * @Type float
      * @Group c0d21ef9ba207c335d8347e5172fce1d:2088
+     * @MinInclusive 0.0
+     * @MaxInclusive 1000000.0
      * @var float|null
      */
     private $priority = null;

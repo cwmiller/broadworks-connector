@@ -21,6 +21,8 @@ class ServiceProviderScheduleModifyEventRequest extends \CWM\BroadWorksConnector
      * @ElementName serviceProviderId
      * @Type string
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:5044
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -37,6 +39,8 @@ class ServiceProviderScheduleModifyEventRequest extends \CWM\BroadWorksConnector
      * @ElementName eventName
      * @Type string
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:5044
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $eventName = null;
@@ -46,6 +50,8 @@ class ServiceProviderScheduleModifyEventRequest extends \CWM\BroadWorksConnector
      * @Type string
      * @Optional
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:5044
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $newEventName = null;

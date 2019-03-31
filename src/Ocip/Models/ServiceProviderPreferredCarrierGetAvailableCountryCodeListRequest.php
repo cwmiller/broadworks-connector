@@ -19,6 +19,8 @@ class ServiceProviderPreferredCarrierGetAvailableCountryCodeListRequest extends 
      * @ElementName serviceProviderId
      * @Type string
      * @Group 74a46a9bfccb54713c1d19735843f1df:157
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;

@@ -19,6 +19,8 @@ class GroupRouteListEnterpriseTrunkNumberPrefixUnassignListRequest extends \CWM\
      * @ElementName serviceProviderId
      * @Type string
      * @Group 3f28429898a57a7f7846d3877b22df9f:302
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,6 +29,8 @@ class GroupRouteListEnterpriseTrunkNumberPrefixUnassignListRequest extends \CWM\
      * @ElementName groupId
      * @Type string
      * @Group 3f28429898a57a7f7846d3877b22df9f:302
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;
@@ -37,6 +41,8 @@ class GroupRouteListEnterpriseTrunkNumberPrefixUnassignListRequest extends \CWM\
      * @Array
      * @Optional
      * @Group 3f28429898a57a7f7846d3877b22df9f:302
+     * @MinLength 1
+     * @MaxLength 23
      * @var string[]
      */
     private $numberPrefix = array(

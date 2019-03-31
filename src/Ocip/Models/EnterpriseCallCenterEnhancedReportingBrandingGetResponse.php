@@ -26,6 +26,8 @@ class EnterpriseCallCenterEnhancedReportingBrandingGetResponse extends \CWM\Broa
      * @Type string
      * @Optional
      * @Group e2c537e3e39483b96620673a7012ffdd:1218
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $brandingFileDescription = null;

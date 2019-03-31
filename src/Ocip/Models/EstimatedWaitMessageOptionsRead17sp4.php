@@ -48,6 +48,8 @@ class EstimatedWaitMessageOptionsRead17sp4
      * @ElementName maximumPositions
      * @Type int
      * @Group c0d21ef9ba207c335d8347e5172fce1d:2227
+     * @MinInclusive 1
+     * @MaxInclusive 100
      * @var int|null
      */
     private $maximumPositions = null;
@@ -56,6 +58,8 @@ class EstimatedWaitMessageOptionsRead17sp4
      * @ElementName maximumWaitingMinutes
      * @Type int
      * @Group c0d21ef9ba207c335d8347e5172fce1d:2227
+     * @MinInclusive 1
+     * @MaxInclusive 100
      * @var int|null
      */
     private $maximumWaitingMinutes = null;
@@ -64,6 +68,8 @@ class EstimatedWaitMessageOptionsRead17sp4
      * @ElementName defaultCallHandlingMinutes
      * @Type int
      * @Group c0d21ef9ba207c335d8347e5172fce1d:2227
+     * @MinInclusive 1
+     * @MaxInclusive 100
      * @var int|null
      */
     private $defaultCallHandlingMinutes = null;
@@ -81,6 +87,8 @@ class EstimatedWaitMessageOptionsRead17sp4
      * @Type int
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:2227
+     * @MinInclusive 10
+     * @MaxInclusive 600
      * @var int|null
      */
     private $timeBetweenEWMUpdatesSeconds = null;

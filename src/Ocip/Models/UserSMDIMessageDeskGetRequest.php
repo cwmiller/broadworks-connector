@@ -19,6 +19,8 @@ class UserSMDIMessageDeskGetRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName userId
      * @Type string
      * @Group ee7bb69368e23a56a82c5d9cf07b5433:260
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;

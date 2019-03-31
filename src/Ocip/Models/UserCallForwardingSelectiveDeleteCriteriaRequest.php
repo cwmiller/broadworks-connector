@@ -19,6 +19,8 @@ class UserCallForwardingSelectiveDeleteCriteriaRequest extends \CWM\BroadWorksCo
      * @ElementName userId
      * @Type string
      * @Group 543304bb75006bfa60814c897fa03ec0:74
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;
@@ -27,6 +29,8 @@ class UserCallForwardingSelectiveDeleteCriteriaRequest extends \CWM\BroadWorksCo
      * @ElementName criteriaName
      * @Type string
      * @Group 543304bb75006bfa60814c897fa03ec0:74
+     * @MinLength 1
+     * @MaxLength 50
      * @var string|null
      */
     private $criteriaName = null;

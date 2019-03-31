@@ -28,6 +28,8 @@ class GroupCallCenterModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @ElementName serviceProviderId
      * @Type string
      * @Group e2c537e3e39483b96620673a7012ffdd:5315
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -36,6 +38,8 @@ class GroupCallCenterModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @ElementName groupId
      * @Type string
      * @Group e2c537e3e39483b96620673a7012ffdd:5315
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;
@@ -63,6 +67,8 @@ class GroupCallCenterModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Type int
      * @Optional
      * @Group e2c537e3e39483b96620673a7012ffdd:5315
+     * @MinInclusive 1
+     * @MaxInclusive 25
      * @var int|null
      */
     private $guardTimerSeconds = null;
@@ -108,6 +114,8 @@ class GroupCallCenterModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Type int
      * @Optional
      * @Group e2c537e3e39483b96620673a7012ffdd:5315
+     * @MinInclusive 1
+     * @MaxInclusive 5
      * @var int|null
      */
     private $numberConsecutiveBouncedCallsToForceAgentUnavailable = null;

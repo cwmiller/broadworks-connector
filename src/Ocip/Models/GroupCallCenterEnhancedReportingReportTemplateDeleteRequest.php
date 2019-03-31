@@ -19,6 +19,8 @@ class GroupCallCenterEnhancedReportingReportTemplateDeleteRequest extends \CWM\B
      * @ElementName serviceProviderId
      * @Type string
      * @Group e2c537e3e39483b96620673a7012ffdd:3452
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,6 +29,8 @@ class GroupCallCenterEnhancedReportingReportTemplateDeleteRequest extends \CWM\B
      * @ElementName groupId
      * @Type string
      * @Group e2c537e3e39483b96620673a7012ffdd:3452
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;
@@ -35,6 +39,8 @@ class GroupCallCenterEnhancedReportingReportTemplateDeleteRequest extends \CWM\B
      * @ElementName name
      * @Type string
      * @Group e2c537e3e39483b96620673a7012ffdd:3452
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $name = null;

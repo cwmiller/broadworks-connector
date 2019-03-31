@@ -20,6 +20,8 @@ class UserDoNotDisturbGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @ElementName userId
      * @Type string
      * @Group 5999b2d9c77e3f1626cad635ea37a4a7:42
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;

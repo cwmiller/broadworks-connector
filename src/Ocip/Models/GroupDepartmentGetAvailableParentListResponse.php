@@ -32,6 +32,7 @@ class GroupDepartmentGetAvailableParentListResponse extends \CWM\BroadWorksConne
      * @Array
      * @Optional
      * @Group f3a93cf15de4abd7903673e44ee3e07b:3127
+     * @MinLength 1
      * @var string[]
      */
     private $fullPathName = array(

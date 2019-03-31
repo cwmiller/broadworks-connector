@@ -20,6 +20,8 @@ class GroupAutoAttendantSubmenuGetListRequest extends \CWM\BroadWorksConnector\O
      * @ElementName serviceUserId
      * @Type string
      * @Group ed0640d8ef49eb8b4eaa14d7c6f6c033:481
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $serviceUserId = null;

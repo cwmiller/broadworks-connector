@@ -25,6 +25,8 @@ class SystemCountryCodeGetListResponse extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName defaultCountryCode
      * @Type string
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6582
+     * @MaxLength 3
+     * @Pattern [0-9]|[1-9][0-9]{1,2}
      * @var string|null
      */
     private $defaultCountryCode = null;

@@ -22,6 +22,8 @@ class SystemCPEConfigAddFileServerRequest14sp6 extends \CWM\BroadWorksConnector\
      * @ElementName deviceType
      * @Type string
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6631
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $deviceType = null;
@@ -30,6 +32,8 @@ class SystemCPEConfigAddFileServerRequest14sp6 extends \CWM\BroadWorksConnector\
      * @ElementName fileRepositoryName
      * @Type string
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6631
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $fileRepositoryName = null;
@@ -39,6 +43,8 @@ class SystemCPEConfigAddFileServerRequest14sp6 extends \CWM\BroadWorksConnector\
      * @Type string
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6631
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $cpeFileDirectory = null;
@@ -48,6 +54,8 @@ class SystemCPEConfigAddFileServerRequest14sp6 extends \CWM\BroadWorksConnector\
      * @Type string
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6631
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $extendedCaptureFileRepositoryName = null;

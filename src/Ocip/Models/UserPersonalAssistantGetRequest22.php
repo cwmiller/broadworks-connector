@@ -19,6 +19,8 @@ class UserPersonalAssistantGetRequest22 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName userId
      * @Type string
      * @Group f53ece1c00394ef2d3d76f532f9a9663:300
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;

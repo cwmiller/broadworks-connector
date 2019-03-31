@@ -19,6 +19,8 @@ class GroupCallCapacityManagementAddInstanceRequest extends \CWM\BroadWorksConne
      * @ElementName serviceProviderId
      * @Type string
      * @Group dfcd2b22f2e2b3540d286342087ce042:50
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,6 +29,8 @@ class GroupCallCapacityManagementAddInstanceRequest extends \CWM\BroadWorksConne
      * @ElementName groupId
      * @Type string
      * @Group dfcd2b22f2e2b3540d286342087ce042:50
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;
@@ -35,6 +39,8 @@ class GroupCallCapacityManagementAddInstanceRequest extends \CWM\BroadWorksConne
      * @ElementName name
      * @Type string
      * @Group dfcd2b22f2e2b3540d286342087ce042:50
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $name = null;
@@ -43,6 +49,8 @@ class GroupCallCapacityManagementAddInstanceRequest extends \CWM\BroadWorksConne
      * @ElementName maxActiveCallsAllowed
      * @Type int
      * @Group dfcd2b22f2e2b3540d286342087ce042:50
+     * @MinInclusive
+     * @MaxInclusive 99999
      * @var int|null
      */
     private $maxActiveCallsAllowed = null;
@@ -52,6 +60,8 @@ class GroupCallCapacityManagementAddInstanceRequest extends \CWM\BroadWorksConne
      * @Type int
      * @Optional
      * @Group dfcd2b22f2e2b3540d286342087ce042:50
+     * @MinInclusive
+     * @MaxInclusive 99999
      * @var int|null
      */
     private $maxIncomingActiveCallsAllowed = null;
@@ -61,6 +71,8 @@ class GroupCallCapacityManagementAddInstanceRequest extends \CWM\BroadWorksConne
      * @Type int
      * @Optional
      * @Group dfcd2b22f2e2b3540d286342087ce042:50
+     * @MinInclusive
+     * @MaxInclusive 99999
      * @var int|null
      */
     private $maxOutgoingActiveCallsAllowed = null;
@@ -79,6 +91,8 @@ class GroupCallCapacityManagementAddInstanceRequest extends \CWM\BroadWorksConne
      * @Array
      * @Optional
      * @Group dfcd2b22f2e2b3540d286342087ce042:50
+     * @MinLength 1
+     * @MaxLength 161
      * @var string[]
      */
     private $userId = array(

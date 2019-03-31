@@ -20,6 +20,8 @@ class GroupMeetMeConferencingGetAvailableUserListRequest extends \CWM\BroadWorks
      * @ElementName serviceProviderId
      * @Type string
      * @Group 0fd24121d16995c994d40bc408dbcfa5:116
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -28,6 +30,8 @@ class GroupMeetMeConferencingGetAvailableUserListRequest extends \CWM\BroadWorks
      * @ElementName groupId
      * @Type string
      * @Group 0fd24121d16995c994d40bc408dbcfa5:116
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;
@@ -37,6 +41,7 @@ class GroupMeetMeConferencingGetAvailableUserListRequest extends \CWM\BroadWorks
      * @Type int
      * @Optional
      * @Group 0fd24121d16995c994d40bc408dbcfa5:116
+     * @MinInclusive 1
      * @var int|null
      */
     private $responseSizeLimit = null;

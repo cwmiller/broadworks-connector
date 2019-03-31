@@ -21,6 +21,8 @@ class SystemNumberPortabilityQueryStatusDeleteListRequest extends \CWM\BroadWork
      * @Type string
      * @Array
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12095
+     * @MinLength 1
+     * @MaxLength 40
      * @var string[]
      */
     private $status = array(

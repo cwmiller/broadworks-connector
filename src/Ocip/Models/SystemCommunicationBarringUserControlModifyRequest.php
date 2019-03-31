@@ -29,6 +29,8 @@ class SystemCommunicationBarringUserControlModifyRequest extends \CWM\BroadWorks
      * @Type int
      * @Optional
      * @Group 4277c572e54919d6e29f4c0fa69aaad1:77
+     * @MinInclusive 1
+     * @MaxInclusive 10
      * @var int|null
      */
     private $maxNumberOfFailedAttempts = null;
@@ -38,6 +40,8 @@ class SystemCommunicationBarringUserControlModifyRequest extends \CWM\BroadWorks
      * @Type int
      * @Optional
      * @Group 4277c572e54919d6e29f4c0fa69aaad1:77
+     * @MinInclusive 1
+     * @MaxInclusive 600
      * @var int|null
      */
     private $lockoutMinutes = null;

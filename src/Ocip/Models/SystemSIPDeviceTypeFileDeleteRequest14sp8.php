@@ -19,6 +19,8 @@ class SystemSIPDeviceTypeFileDeleteRequest14sp8 extends \CWM\BroadWorksConnector
      * @ElementName deviceType
      * @Type string
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:15902
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $deviceType = null;
@@ -27,6 +29,8 @@ class SystemSIPDeviceTypeFileDeleteRequest14sp8 extends \CWM\BroadWorksConnector
      * @ElementName fileFormat
      * @Type string
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:15902
+     * @MinLength 1
+     * @MaxLength 128
      * @var string|null
      */
     private $fileFormat = null;

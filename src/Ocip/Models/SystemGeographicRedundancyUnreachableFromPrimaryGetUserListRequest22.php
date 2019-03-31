@@ -20,6 +20,8 @@ class SystemGeographicRedundancyUnreachableFromPrimaryGetUserListRequest22 exten
      * @Type int
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9630
+     * @MinInclusive 1
+     * @MaxInclusive 10000
      * @var int|null
      */
     private $userListSizeLimit = null;

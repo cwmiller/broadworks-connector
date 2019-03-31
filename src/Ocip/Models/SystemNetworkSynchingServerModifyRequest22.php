@@ -23,6 +23,8 @@ class SystemNetworkSynchingServerModifyRequest22 extends \CWM\BroadWorksConnecto
      * @ElementName netAddress
      * @Type string
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11841
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $netAddress = null;
@@ -32,6 +34,8 @@ class SystemNetworkSynchingServerModifyRequest22 extends \CWM\BroadWorksConnecto
      * @Type int
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11841
+     * @MinInclusive 1025
+     * @MaxInclusive 65535
      * @var int|null
      */
     private $port = null;
@@ -42,6 +46,8 @@ class SystemNetworkSynchingServerModifyRequest22 extends \CWM\BroadWorksConnecto
      * @Nillable
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11841
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $description = null;
@@ -60,6 +66,8 @@ class SystemNetworkSynchingServerModifyRequest22 extends \CWM\BroadWorksConnecto
      * @Type int
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11841
+     * @MinInclusive 1
+     * @MaxInclusive 32767
      * @var int|null
      */
     private $order = null;

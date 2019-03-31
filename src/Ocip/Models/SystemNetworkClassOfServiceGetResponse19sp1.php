@@ -19,6 +19,8 @@ class SystemNetworkClassOfServiceGetResponse19sp1 extends \CWM\BroadWorksConnect
      * @Type string
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11464
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $description = null;
@@ -118,6 +120,8 @@ class SystemNetworkClassOfServiceGetResponse19sp1 extends \CWM\BroadWorksConnect
      * @Type string
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11464
+     * @MinLength 1
+     * @MaxLength 128
      * @var string|null
      */
     private $networkTranslationIndex = null;
@@ -127,6 +131,8 @@ class SystemNetworkClassOfServiceGetResponse19sp1 extends \CWM\BroadWorksConnect
      * @Type string
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11464
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $callProcessingPolicyProfileName = null;

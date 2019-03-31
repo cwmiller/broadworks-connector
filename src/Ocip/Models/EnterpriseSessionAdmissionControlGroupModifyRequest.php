@@ -21,6 +21,8 @@ class EnterpriseSessionAdmissionControlGroupModifyRequest extends \CWM\BroadWork
      * @ElementName serviceProviderId
      * @Type string
      * @Group 5395c7df0157d44aa22f3351d1a5f3da:1079
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -29,6 +31,8 @@ class EnterpriseSessionAdmissionControlGroupModifyRequest extends \CWM\BroadWork
      * @ElementName name
      * @Type string
      * @Group 5395c7df0157d44aa22f3351d1a5f3da:1079
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $name = null;
@@ -38,6 +42,8 @@ class EnterpriseSessionAdmissionControlGroupModifyRequest extends \CWM\BroadWork
      * @Type string
      * @Optional
      * @Group 5395c7df0157d44aa22f3351d1a5f3da:1079
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $newName = null;
@@ -47,6 +53,7 @@ class EnterpriseSessionAdmissionControlGroupModifyRequest extends \CWM\BroadWork
      * @Type int
      * @Optional
      * @Group 5395c7df0157d44aa22f3351d1a5f3da:1079
+     * @MinInclusive
      * @var int|null
      */
     private $maxSession = null;
@@ -57,6 +64,7 @@ class EnterpriseSessionAdmissionControlGroupModifyRequest extends \CWM\BroadWork
      * @Nillable
      * @Optional
      * @Group 5395c7df0157d44aa22f3351d1a5f3da:1079
+     * @MinInclusive
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $maxUserOriginatingSessions = null;
@@ -67,6 +75,7 @@ class EnterpriseSessionAdmissionControlGroupModifyRequest extends \CWM\BroadWork
      * @Nillable
      * @Optional
      * @Group 5395c7df0157d44aa22f3351d1a5f3da:1079
+     * @MinInclusive
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $maxUserTerminatingSessions = null;
@@ -76,6 +85,7 @@ class EnterpriseSessionAdmissionControlGroupModifyRequest extends \CWM\BroadWork
      * @Type int
      * @Optional
      * @Group 5395c7df0157d44aa22f3351d1a5f3da:1079
+     * @MinInclusive
      * @var int|null
      */
     private $reservedSession = null;
@@ -86,6 +96,7 @@ class EnterpriseSessionAdmissionControlGroupModifyRequest extends \CWM\BroadWork
      * @Nillable
      * @Optional
      * @Group 5395c7df0157d44aa22f3351d1a5f3da:1079
+     * @MinInclusive
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $reservedUserOriginatingSessions = null;
@@ -96,6 +107,7 @@ class EnterpriseSessionAdmissionControlGroupModifyRequest extends \CWM\BroadWork
      * @Nillable
      * @Optional
      * @Group 5395c7df0157d44aa22f3351d1a5f3da:1079
+     * @MinInclusive
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $reservedUserTerminatingSessions = null;
@@ -143,6 +155,8 @@ class EnterpriseSessionAdmissionControlGroupModifyRequest extends \CWM\BroadWork
      * @Nillable
      * @Optional
      * @Group 5395c7df0157d44aa22f3351d1a5f3da:1079
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $mediaGroupName = null;
@@ -153,6 +167,8 @@ class EnterpriseSessionAdmissionControlGroupModifyRequest extends \CWM\BroadWork
      * @Nillable
      * @Optional
      * @Group 5395c7df0157d44aa22f3351d1a5f3da:1079
+     * @MinLength 1
+     * @MaxLength 1024
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $accessInfoPattern = null;

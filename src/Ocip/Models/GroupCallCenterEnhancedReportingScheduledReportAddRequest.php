@@ -20,6 +20,8 @@ class GroupCallCenterEnhancedReportingScheduledReportAddRequest extends \CWM\Bro
      * @ElementName serviceProviderId
      * @Type string
      * @Group e2c537e3e39483b96620673a7012ffdd:3578
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -28,6 +30,8 @@ class GroupCallCenterEnhancedReportingScheduledReportAddRequest extends \CWM\Bro
      * @ElementName groupId
      * @Type string
      * @Group e2c537e3e39483b96620673a7012ffdd:3578
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;
@@ -36,6 +40,8 @@ class GroupCallCenterEnhancedReportingScheduledReportAddRequest extends \CWM\Bro
      * @ElementName name
      * @Type string
      * @Group e2c537e3e39483b96620673a7012ffdd:3578
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $name = null;
@@ -45,6 +51,8 @@ class GroupCallCenterEnhancedReportingScheduledReportAddRequest extends \CWM\Bro
      * @Type string
      * @Optional
      * @Group e2c537e3e39483b96620673a7012ffdd:3578
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $description = null;
@@ -87,6 +95,8 @@ class GroupCallCenterEnhancedReportingScheduledReportAddRequest extends \CWM\Bro
      * @ElementName reportTimeZone
      * @Type string
      * @Group e2c537e3e39483b96620673a7012ffdd:3578
+     * @MinLength 1
+     * @MaxLength 127
      * @var string|null
      */
     private $reportTimeZone = null;
@@ -153,6 +163,8 @@ class GroupCallCenterEnhancedReportingScheduledReportAddRequest extends \CWM\Bro
      * @Type int
      * @Optional
      * @Group e2c537e3e39483b96620673a7012ffdd:3578
+     * @MinInclusive 1
+     * @MaxInclusive 7200
      * @var int|null
      */
     private $callCompletionThresholdSeconds = null;
@@ -162,6 +174,8 @@ class GroupCallCenterEnhancedReportingScheduledReportAddRequest extends \CWM\Bro
      * @Type int
      * @Optional
      * @Group e2c537e3e39483b96620673a7012ffdd:3578
+     * @MinInclusive 1
+     * @MaxInclusive 7200
      * @var int|null
      */
     private $shortDurationThresholdSeconds = null;
@@ -172,6 +186,8 @@ class GroupCallCenterEnhancedReportingScheduledReportAddRequest extends \CWM\Bro
      * @Array
      * @Optional
      * @Group e2c537e3e39483b96620673a7012ffdd:3578
+     * @MinInclusive 1
+     * @MaxInclusive 7200
      * @var int[]
      */
     private $serviceLevelThresholdSeconds = array(
@@ -192,6 +208,8 @@ class GroupCallCenterEnhancedReportingScheduledReportAddRequest extends \CWM\Bro
      * @Type int
      * @Optional
      * @Group e2c537e3e39483b96620673a7012ffdd:3578
+     * @MinInclusive
+     * @MaxInclusive 100
      * @var int|null
      */
     private $serviceLevelObjectivePercentage = null;
@@ -202,6 +220,8 @@ class GroupCallCenterEnhancedReportingScheduledReportAddRequest extends \CWM\Bro
      * @Array
      * @Optional
      * @Group e2c537e3e39483b96620673a7012ffdd:3578
+     * @MinInclusive 1
+     * @MaxInclusive 7200
      * @var int[]
      */
     private $abandonedCallThresholdSeconds = array(
@@ -213,6 +233,8 @@ class GroupCallCenterEnhancedReportingScheduledReportAddRequest extends \CWM\Bro
      * @Type string
      * @Array
      * @Group e2c537e3e39483b96620673a7012ffdd:3578
+     * @MinLength 1
+     * @MaxLength 80
      * @var string[]
      */
     private $emailAddress = array(

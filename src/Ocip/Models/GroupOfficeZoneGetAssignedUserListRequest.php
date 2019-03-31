@@ -20,6 +20,8 @@ class GroupOfficeZoneGetAssignedUserListRequest extends \CWM\BroadWorksConnector
      * @ElementName serviceProviderId
      * @Type string
      * @Group f3a93cf15de4abd7903673e44ee3e07b:5711
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -28,6 +30,8 @@ class GroupOfficeZoneGetAssignedUserListRequest extends \CWM\BroadWorksConnector
      * @ElementName groupId
      * @Type string
      * @Group f3a93cf15de4abd7903673e44ee3e07b:5711
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;
@@ -36,6 +40,8 @@ class GroupOfficeZoneGetAssignedUserListRequest extends \CWM\BroadWorksConnector
      * @ElementName officeZoneName
      * @Type string
      * @Group f3a93cf15de4abd7903673e44ee3e07b:5711
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $officeZoneName = null;
@@ -45,6 +51,7 @@ class GroupOfficeZoneGetAssignedUserListRequest extends \CWM\BroadWorksConnector
      * @Type int
      * @Optional
      * @Group f3a93cf15de4abd7903673e44ee3e07b:5711
+     * @MinInclusive 1
      * @var int|null
      */
     private $responseSizeLimit = null;

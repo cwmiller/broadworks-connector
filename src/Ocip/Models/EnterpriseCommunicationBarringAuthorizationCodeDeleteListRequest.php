@@ -19,6 +19,8 @@ class EnterpriseCommunicationBarringAuthorizationCodeDeleteListRequest extends \
      * @ElementName serviceProviderId
      * @Type string
      * @Group 5395c7df0157d44aa22f3351d1a5f3da:527
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -29,6 +31,8 @@ class EnterpriseCommunicationBarringAuthorizationCodeDeleteListRequest extends \
      * @Array
      * @Optional
      * @Group 5395c7df0157d44aa22f3351d1a5f3da:527
+     * @MinLength 2
+     * @MaxLength 14
      * @var string[]
      */
     private $code = array(

@@ -19,6 +19,8 @@ class EnterpriseSessionAdmissionControlGetAvailableDeviceListRequest extends \CW
      * @ElementName serviceProviderId
      * @Type string
      * @Group 5395c7df0157d44aa22f3351d1a5f3da:877
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -28,6 +30,7 @@ class EnterpriseSessionAdmissionControlGetAvailableDeviceListRequest extends \CW
      * @Type int
      * @Optional
      * @Group 5395c7df0157d44aa22f3351d1a5f3da:877
+     * @MinInclusive 1
      * @var int|null
      */
     private $responseSizeLimit = null;

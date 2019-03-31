@@ -35,6 +35,8 @@ class GroupCallCenterGetInstanceStatisticsReportingResponse17sp1 extends \CWM\Br
      * @Type string
      * @Optional
      * @Group e2c537e3e39483b96620673a7012ffdd:4743
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $reportingEmailAddress1 = null;
@@ -44,6 +46,8 @@ class GroupCallCenterGetInstanceStatisticsReportingResponse17sp1 extends \CWM\Br
      * @Type string
      * @Optional
      * @Group e2c537e3e39483b96620673a7012ffdd:4743
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $reportingEmailAddress2 = null;

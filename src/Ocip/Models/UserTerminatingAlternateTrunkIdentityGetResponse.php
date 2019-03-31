@@ -18,6 +18,8 @@ class UserTerminatingAlternateTrunkIdentityGetResponse extends \CWM\BroadWorksCo
      * @Type string
      * @Optional
      * @Group 53d18cc797d03d802cbc411ad821f1d4:3991
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $terminatingTrunkIdentity = null;

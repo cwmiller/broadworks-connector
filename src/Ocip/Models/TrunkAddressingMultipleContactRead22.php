@@ -29,6 +29,8 @@ class TrunkAddressingMultipleContactRead22
      * @Type string
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:4244
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $enterpriseTrunkName = null;
@@ -38,6 +40,8 @@ class TrunkAddressingMultipleContactRead22
      * @Type string
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:4244
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $alternateTrunkIdentity = null;
@@ -47,6 +51,8 @@ class TrunkAddressingMultipleContactRead22
      * @Type string
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:4244
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $alternateTrunkIdentityDomain = null;
@@ -56,6 +62,8 @@ class TrunkAddressingMultipleContactRead22
      * @Type string
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:4244
+     * @MinLength 1
+     * @MaxLength 1024
      * @var string|null
      */
     private $physicalLocation = null;

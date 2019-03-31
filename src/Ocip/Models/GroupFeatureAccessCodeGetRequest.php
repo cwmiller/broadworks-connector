@@ -23,6 +23,8 @@ class GroupFeatureAccessCodeGetRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName serviceProviderId
      * @Type string
      * @Group de4d76f01f337fe4694212ec9f771753:2406
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -31,6 +33,8 @@ class GroupFeatureAccessCodeGetRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName groupId
      * @Type string
      * @Group de4d76f01f337fe4694212ec9f771753:2406
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;

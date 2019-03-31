@@ -18,6 +18,8 @@ class SystemNumberPortabilityQueryStatusGetResponse extends \CWM\BroadWorksConne
      * @Type string
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12157
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $treatmentFileName = null;

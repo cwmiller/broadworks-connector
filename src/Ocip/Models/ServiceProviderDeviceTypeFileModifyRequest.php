@@ -19,6 +19,8 @@ class ServiceProviderDeviceTypeFileModifyRequest extends \CWM\BroadWorksConnecto
      * @ElementName serviceProviderId
      * @Type string
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:2649
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,6 +29,8 @@ class ServiceProviderDeviceTypeFileModifyRequest extends \CWM\BroadWorksConnecto
      * @ElementName deviceType
      * @Type string
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:2649
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $deviceType = null;
@@ -35,6 +39,8 @@ class ServiceProviderDeviceTypeFileModifyRequest extends \CWM\BroadWorksConnecto
      * @ElementName fileFormat
      * @Type string
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:2649
+     * @MinLength 1
+     * @MaxLength 128
      * @var string|null
      */
     private $fileFormat = null;

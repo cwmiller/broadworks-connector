@@ -20,6 +20,8 @@ class GroupAutoAttendantSubmenuModifyRequest20 extends \CWM\BroadWorksConnector\
      * @ElementName serviceUserId
      * @Type string
      * @Group ed0640d8ef49eb8b4eaa14d7c6f6c033:596
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $serviceUserId = null;
@@ -28,6 +30,8 @@ class GroupAutoAttendantSubmenuModifyRequest20 extends \CWM\BroadWorksConnector\
      * @ElementName submenuId
      * @Type string
      * @Group ed0640d8ef49eb8b4eaa14d7c6f6c033:596
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $submenuId = null;
@@ -37,6 +41,8 @@ class GroupAutoAttendantSubmenuModifyRequest20 extends \CWM\BroadWorksConnector\
      * @Type string
      * @Optional
      * @Group ed0640d8ef49eb8b4eaa14d7c6f6c033:596
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $newSubmenuId = null;

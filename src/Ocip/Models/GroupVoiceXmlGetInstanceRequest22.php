@@ -19,6 +19,8 @@ class GroupVoiceXmlGetInstanceRequest22 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName serviceUserId
      * @Type string
      * @Group 0639a23b2e14be05c11ead49c23bd0bd:122
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $serviceUserId = null;

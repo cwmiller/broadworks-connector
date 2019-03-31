@@ -19,6 +19,8 @@ class SystemNumberPortabilityQueryDigitPatternModifyRequest extends \CWM\BroadWo
      * @ElementName digitPattern
      * @Type string
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12013
+     * @MinLength 1
+     * @MaxLength 160
      * @var string|null
      */
     private $digitPattern = null;
@@ -28,6 +30,8 @@ class SystemNumberPortabilityQueryDigitPatternModifyRequest extends \CWM\BroadWo
      * @Type string
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12013
+     * @MinLength 1
+     * @MaxLength 160
      * @var string|null
      */
     private $newDigitPattern = null;
@@ -37,6 +41,8 @@ class SystemNumberPortabilityQueryDigitPatternModifyRequest extends \CWM\BroadWo
      * @Type string
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12013
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $status = null;

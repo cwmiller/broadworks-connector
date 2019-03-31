@@ -19,6 +19,8 @@ class GroupTrunkGroupUserCreationTaskAddRequest extends \CWM\BroadWorksConnector
      * @ElementName serviceUserId
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:3058
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $serviceUserId = null;
@@ -27,6 +29,8 @@ class GroupTrunkGroupUserCreationTaskAddRequest extends \CWM\BroadWorksConnector
      * @ElementName taskName
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:3058
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $taskName = null;
@@ -43,6 +47,8 @@ class GroupTrunkGroupUserCreationTaskAddRequest extends \CWM\BroadWorksConnector
      * @ElementName userIdDomain
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:3058
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $userIdDomain = null;
@@ -67,6 +73,8 @@ class GroupTrunkGroupUserCreationTaskAddRequest extends \CWM\BroadWorksConnector
      * @ElementName linePortDomain
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:3058
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $linePortDomain = null;
@@ -93,6 +101,8 @@ class GroupTrunkGroupUserCreationTaskAddRequest extends \CWM\BroadWorksConnector
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:3058
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $contactDomain = null;
@@ -119,6 +129,8 @@ class GroupTrunkGroupUserCreationTaskAddRequest extends \CWM\BroadWorksConnector
      * @Array
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:3058
+     * @MinLength 1
+     * @MaxLength 80
      * @var string[]
      */
     private $servicePackName = array(

@@ -16,6 +16,8 @@ class GroupTrunkGroupUserCreationTaskAddRequestUserExtensions
      * @Array
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:3082
+     * @MinLength 2
+     * @MaxLength 6
      * @var string[]
      */
     private $extension = array(

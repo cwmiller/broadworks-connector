@@ -50,6 +50,8 @@ class UserThirdPartyVoiceMailSupportGetResponse17 extends \CWM\BroadWorksConnect
      * @Type string
      * @Optional
      * @Group 3c311aa5c89c0cf5b46e1cdefd5bc387:257
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userServer = null;
@@ -67,6 +69,8 @@ class UserThirdPartyVoiceMailSupportGetResponse17 extends \CWM\BroadWorksConnect
      * @Type string
      * @Optional
      * @Group 3c311aa5c89c0cf5b46e1cdefd5bc387:257
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $mailboxURL = null;

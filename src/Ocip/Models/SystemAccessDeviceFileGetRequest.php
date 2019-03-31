@@ -21,6 +21,8 @@ class SystemAccessDeviceFileGetRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName deviceName
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:4025
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $deviceName = null;
@@ -29,6 +31,8 @@ class SystemAccessDeviceFileGetRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName fileType
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:4025
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $fileType = null;

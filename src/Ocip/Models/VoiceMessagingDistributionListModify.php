@@ -17,6 +17,8 @@ class VoiceMessagingDistributionListModify
      * @ElementName listId
      * @Type int
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:3277
+     * @MinInclusive
+     * @MaxInclusive 14
      * @var int|null
      */
     private $listId = null;
@@ -27,6 +29,8 @@ class VoiceMessagingDistributionListModify
      * @Nillable
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:3277
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $description = null;

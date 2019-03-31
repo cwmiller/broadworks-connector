@@ -14,6 +14,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1PasscodeMenuKeys
      * @ElementName finishEnteringOrReenteringPasscode
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:32231
+     * @Length 1
+     * @Pattern \*|#
      * @var string|null
      */
     private $finishEnteringOrReenteringPasscode = null;
@@ -22,6 +24,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1PasscodeMenuKeys
      * @ElementName returnToPreviousMenu
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:32231
+     * @Length 1
+     * @Pattern \*|#
      * @var string|null
      */
     private $returnToPreviousMenu = null;

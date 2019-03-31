@@ -19,6 +19,8 @@ class UserSequentialRingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName userId
      * @Type string
      * @Group 6a83dcd7b5697b78acbf42324c2dbe67:181
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;

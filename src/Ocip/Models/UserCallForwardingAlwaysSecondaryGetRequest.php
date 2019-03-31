@@ -20,6 +20,8 @@ class UserCallForwardingAlwaysSecondaryGetRequest extends \CWM\BroadWorksConnect
      * @ElementName userId
      * @Type string
      * @Group e085a89bb45835a6ffd3de9dd7df0e49:44
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;

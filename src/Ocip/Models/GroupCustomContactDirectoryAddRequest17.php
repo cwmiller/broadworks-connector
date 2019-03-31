@@ -19,6 +19,8 @@ class GroupCustomContactDirectoryAddRequest17 extends \CWM\BroadWorksConnector\O
      * @ElementName serviceProviderId
      * @Type string
      * @Group f3a93cf15de4abd7903673e44ee3e07b:2703
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,6 +29,8 @@ class GroupCustomContactDirectoryAddRequest17 extends \CWM\BroadWorksConnector\O
      * @ElementName groupId
      * @Type string
      * @Group f3a93cf15de4abd7903673e44ee3e07b:2703
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;
@@ -35,6 +39,8 @@ class GroupCustomContactDirectoryAddRequest17 extends \CWM\BroadWorksConnector\O
      * @ElementName name
      * @Type string
      * @Group f3a93cf15de4abd7903673e44ee3e07b:2703
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $name = null;

@@ -17,6 +17,8 @@ class UserCollaborateMyRoomGetResponse extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName roomId
      * @Type string
      * @Group 939fd5846dfae8bdf58308d6cb9ebb12:771
+     * @MinLength 4
+     * @MaxLength 15
      * @var string|null
      */
     private $roomId = null;
@@ -25,6 +27,8 @@ class UserCollaborateMyRoomGetResponse extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName roomName
      * @Type string
      * @Group 939fd5846dfae8bdf58308d6cb9ebb12:771
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $roomName = null;

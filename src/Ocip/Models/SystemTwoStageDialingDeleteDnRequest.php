@@ -19,6 +19,8 @@ class SystemTwoStageDialingDeleteDnRequest extends \CWM\BroadWorksConnector\Ocip
      * @ElementName phoneNumber
      * @Type string
      * @Group 2a1428f64736d8f970ea802e5a73c495:63
+     * @MinLength 1
+     * @MaxLength 23
      * @var string|null
      */
     private $phoneNumber = null;

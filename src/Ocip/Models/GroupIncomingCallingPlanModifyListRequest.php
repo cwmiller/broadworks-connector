@@ -19,6 +19,8 @@ class GroupIncomingCallingPlanModifyListRequest extends \CWM\BroadWorksConnector
      * @ElementName serviceProviderId
      * @Type string
      * @Group 3dd296d55b56269ae23d86a934b8b35c:78
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,6 +29,8 @@ class GroupIncomingCallingPlanModifyListRequest extends \CWM\BroadWorksConnector
      * @ElementName groupId
      * @Type string
      * @Group 3dd296d55b56269ae23d86a934b8b35c:78
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;

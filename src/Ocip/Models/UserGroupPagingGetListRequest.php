@@ -19,6 +19,8 @@ class UserGroupPagingGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName userId
      * @Type string
      * @Group 0d36df8c109e3ea7324f79031368c661:567
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;

@@ -18,6 +18,8 @@ class ServiceProviderInCallServiceActivationModifyRequest17 extends \CWM\BroadWo
      * @ElementName serviceProviderId
      * @Type string
      * @Group ece0b65e69189d3e8b8deee895f0a7ff:77
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,6 +29,8 @@ class ServiceProviderInCallServiceActivationModifyRequest17 extends \CWM\BroadWo
      * @Type string
      * @Optional
      * @Group ece0b65e69189d3e8b8deee895f0a7ff:77
+     * @MinLength 1
+     * @MaxLength 8
      * @var string|null
      */
     private $flashActivationDigits = null;
@@ -36,6 +40,8 @@ class ServiceProviderInCallServiceActivationModifyRequest17 extends \CWM\BroadWo
      * @Type string
      * @Optional
      * @Group ece0b65e69189d3e8b8deee895f0a7ff:77
+     * @MinLength 1
+     * @MaxLength 8
      * @var string|null
      */
     private $callTransferActivationDigits = null;

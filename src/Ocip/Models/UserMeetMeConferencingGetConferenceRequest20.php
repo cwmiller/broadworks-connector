@@ -19,6 +19,8 @@ class UserMeetMeConferencingGetConferenceRequest20 extends \CWM\BroadWorksConnec
      * @ElementName userId
      * @Type string
      * @Group 0fd24121d16995c994d40bc408dbcfa5:855
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;

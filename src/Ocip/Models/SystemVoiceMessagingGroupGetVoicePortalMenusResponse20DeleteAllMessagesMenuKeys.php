@@ -14,6 +14,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20DeleteAllMessagesMen
      * @ElementName confirmDeletion
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:35342
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $confirmDeletion = null;
@@ -22,6 +24,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20DeleteAllMessagesMen
      * @ElementName cancelDeletion
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:35342
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $cancelDeletion = null;

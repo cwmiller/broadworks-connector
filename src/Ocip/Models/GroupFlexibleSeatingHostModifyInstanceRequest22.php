@@ -19,6 +19,8 @@ class GroupFlexibleSeatingHostModifyInstanceRequest22 extends \CWM\BroadWorksCon
      * @ElementName serviceUserId
      * @Type string
      * @Group 43afb2158d313a1d1a148124d7caba1e:370
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $serviceUserId = null;
@@ -47,6 +49,8 @@ class GroupFlexibleSeatingHostModifyInstanceRequest22 extends \CWM\BroadWorksCon
      * @Type string
      * @Optional
      * @Group 43afb2158d313a1d1a148124d7caba1e:370
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $networkClassOfService = null;

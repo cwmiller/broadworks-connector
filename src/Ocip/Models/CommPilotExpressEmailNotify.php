@@ -25,6 +25,8 @@ class CommPilotExpressEmailNotify
      * @Type string
      * @Optional
      * @Group 8c204d784d1904d9eeea996d46de69be:177
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $emailAddress = null;

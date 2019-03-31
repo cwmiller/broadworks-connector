@@ -19,6 +19,8 @@ class SystemGETSNumberDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName number
      * @Type string
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9874
+     * @MinLength 4
+     * @MaxLength 10
      * @var string|null
      */
     private $number = null;

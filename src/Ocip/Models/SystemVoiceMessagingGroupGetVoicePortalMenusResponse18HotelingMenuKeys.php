@@ -15,6 +15,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18HotelingMenuKeys
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:27260
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $checkHostStatus = null;
@@ -24,6 +26,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18HotelingMenuKeys
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:27260
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $associateWithHost = null;
@@ -33,6 +37,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18HotelingMenuKeys
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:27260
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $disassociateFromHost = null;
@@ -41,6 +47,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18HotelingMenuKeys
      * @ElementName returnToPreviousMenu
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:27260
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $returnToPreviousMenu = null;
@@ -50,6 +58,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18HotelingMenuKeys
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:27260
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $repeatMenu = null;

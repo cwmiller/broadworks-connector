@@ -18,6 +18,8 @@ class GroupCallParkGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @ElementName recallTimerSeconds
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:19123
+     * @MinInclusive 30
+     * @MaxInclusive 600
      * @var int|null
      */
     private $recallTimerSeconds = null;
@@ -26,6 +28,8 @@ class GroupCallParkGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @ElementName displayTimerSeconds
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:19123
+     * @MinInclusive 2
+     * @MaxInclusive 15
      * @var int|null
      */
     private $displayTimerSeconds = null;

@@ -16,6 +16,8 @@ class BroadWorksMobilityUserMobileIdentityModifyEntry
      * @ElementName mobileNumber
      * @Type string
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:1768
+     * @MinLength 1
+     * @MaxLength 23
      * @var string|null
      */
     private $mobileNumber = null;
@@ -26,6 +28,8 @@ class BroadWorksMobilityUserMobileIdentityModifyEntry
      * @Nillable
      * @Optional
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:1768
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $description = null;

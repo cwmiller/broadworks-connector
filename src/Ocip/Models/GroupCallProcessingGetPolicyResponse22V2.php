@@ -85,6 +85,8 @@ class GroupCallProcessingGetPolicyResponse22V2 extends \CWM\BroadWorksConnector\
      * @ElementName maxSimultaneousCalls
      * @Type int
      * @Group f3a93cf15de4abd7903673e44ee3e07b:2077
+     * @MinInclusive 1
+     * @MaxInclusive 999999
      * @var int|null
      */
     private $maxSimultaneousCalls = null;
@@ -101,6 +103,8 @@ class GroupCallProcessingGetPolicyResponse22V2 extends \CWM\BroadWorksConnector\
      * @ElementName maxSimultaneousVideoCalls
      * @Type int
      * @Group f3a93cf15de4abd7903673e44ee3e07b:2077
+     * @MinInclusive 1
+     * @MaxInclusive 999999
      * @var int|null
      */
     private $maxSimultaneousVideoCalls = null;
@@ -117,6 +121,8 @@ class GroupCallProcessingGetPolicyResponse22V2 extends \CWM\BroadWorksConnector\
      * @ElementName maxCallTimeForAnsweredCallsMinutes
      * @Type int
      * @Group f3a93cf15de4abd7903673e44ee3e07b:2077
+     * @MinInclusive 3
+     * @MaxInclusive 2880
      * @var int|null
      */
     private $maxCallTimeForAnsweredCallsMinutes = null;
@@ -133,6 +139,8 @@ class GroupCallProcessingGetPolicyResponse22V2 extends \CWM\BroadWorksConnector\
      * @ElementName maxCallTimeForUnansweredCallsMinutes
      * @Type int
      * @Group f3a93cf15de4abd7903673e44ee3e07b:2077
+     * @MinInclusive 1
+     * @MaxInclusive 2880
      * @var int|null
      */
     private $maxCallTimeForUnansweredCallsMinutes = null;
@@ -150,6 +158,8 @@ class GroupCallProcessingGetPolicyResponse22V2 extends \CWM\BroadWorksConnector\
      * @Type string
      * @Optional
      * @Group f3a93cf15de4abd7903673e44ee3e07b:2077
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $supportedMediaSetName = null;
@@ -224,6 +234,8 @@ class GroupCallProcessingGetPolicyResponse22V2 extends \CWM\BroadWorksConnector\
      * @ElementName maxConcurrentRedirectedCalls
      * @Type int
      * @Group f3a93cf15de4abd7903673e44ee3e07b:2077
+     * @MinInclusive 1
+     * @MaxInclusive 999999
      * @var int|null
      */
     private $maxConcurrentRedirectedCalls = null;
@@ -240,6 +252,8 @@ class GroupCallProcessingGetPolicyResponse22V2 extends \CWM\BroadWorksConnector\
      * @ElementName maxFindMeFollowMeDepth
      * @Type int
      * @Group f3a93cf15de4abd7903673e44ee3e07b:2077
+     * @MinInclusive 1
+     * @MaxInclusive 100
      * @var int|null
      */
     private $maxFindMeFollowMeDepth = null;
@@ -248,6 +262,8 @@ class GroupCallProcessingGetPolicyResponse22V2 extends \CWM\BroadWorksConnector\
      * @ElementName maxRedirectionDepth
      * @Type int
      * @Group f3a93cf15de4abd7903673e44ee3e07b:2077
+     * @MinInclusive 1
+     * @MaxInclusive 100
      * @var int|null
      */
     private $maxRedirectionDepth = null;
@@ -264,6 +280,8 @@ class GroupCallProcessingGetPolicyResponse22V2 extends \CWM\BroadWorksConnector\
      * @ElementName maxConcurrentFindMeFollowMeInvocations
      * @Type int
      * @Group f3a93cf15de4abd7903673e44ee3e07b:2077
+     * @MinInclusive 1
+     * @MaxInclusive 999999
      * @var int|null
      */
     private $maxConcurrentFindMeFollowMeInvocations = null;
@@ -376,6 +394,8 @@ class GroupCallProcessingGetPolicyResponse22V2 extends \CWM\BroadWorksConnector\
      * @ElementName maxConcurrentTerminatingAlertingRequests
      * @Type int
      * @Group f3a93cf15de4abd7903673e44ee3e07b:2077
+     * @MinInclusive 1
+     * @MaxInclusive 50
      * @var int|null
      */
     private $maxConcurrentTerminatingAlertingRequests = null;
@@ -409,6 +429,8 @@ class GroupCallProcessingGetPolicyResponse22V2 extends \CWM\BroadWorksConnector\
      * @Type string
      * @Optional
      * @Group f3a93cf15de4abd7903673e44ee3e07b:2077
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $routeOverrideDomain = null;
@@ -418,6 +440,8 @@ class GroupCallProcessingGetPolicyResponse22V2 extends \CWM\BroadWorksConnector\
      * @Type string
      * @Optional
      * @Group f3a93cf15de4abd7903673e44ee3e07b:2077
+     * @MinLength 1
+     * @MaxLength 10
      * @var string|null
      */
     private $routeOverridePrefix = null;

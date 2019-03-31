@@ -19,6 +19,8 @@ class ServiceProviderLanguageGetListResponse extends \CWM\BroadWorksConnector\Oc
      * @Array
      * @Optional
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:4030
+     * @MinLength 1
+     * @MaxLength 40
      * @var string[]
      */
     private $language = array(
@@ -30,6 +32,8 @@ class ServiceProviderLanguageGetListResponse extends \CWM\BroadWorksConnector\Oc
      * @Type string
      * @Optional
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:4030
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $defaultLanguage = null;

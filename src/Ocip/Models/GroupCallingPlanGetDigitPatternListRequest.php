@@ -19,6 +19,8 @@ class GroupCallingPlanGetDigitPatternListRequest extends \CWM\BroadWorksConnecto
      * @ElementName serviceProviderId
      * @Type string
      * @Group 00a30b95794e8eb54c36eccd0a6188fa:80
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,6 +29,8 @@ class GroupCallingPlanGetDigitPatternListRequest extends \CWM\BroadWorksConnecto
      * @ElementName groupId
      * @Type string
      * @Group 00a30b95794e8eb54c36eccd0a6188fa:80
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;

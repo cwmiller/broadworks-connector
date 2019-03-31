@@ -20,6 +20,8 @@ class GroupBroadWorksMobileManagerAddRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName serviceProviderId
      * @Type string
      * @Group f3a93cf15de4abd7903673e44ee3e07b:1729
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -28,6 +30,8 @@ class GroupBroadWorksMobileManagerAddRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName groupId
      * @Type string
      * @Group f3a93cf15de4abd7903673e44ee3e07b:1729
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;
@@ -36,6 +40,7 @@ class GroupBroadWorksMobileManagerAddRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName informationFile
      * @Type string
      * @Group f3a93cf15de4abd7903673e44ee3e07b:1729
+     * @MinLength 1
      * @var string|null
      */
     private $informationFile = null;
@@ -44,6 +49,7 @@ class GroupBroadWorksMobileManagerAddRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName certificateFile
      * @Type string
      * @Group f3a93cf15de4abd7903673e44ee3e07b:1729
+     * @MinLength 1
      * @var string|null
      */
     private $certificateFile = null;
@@ -77,6 +83,8 @@ class GroupBroadWorksMobileManagerAddRequest extends \CWM\BroadWorksConnector\Oc
      * @Type int
      * @Optional
      * @Group f3a93cf15de4abd7903673e44ee3e07b:1729
+     * @MinInclusive 1
+     * @MaxInclusive 1000
      * @var int|null
      */
     private $maxTxPerSecond = null;

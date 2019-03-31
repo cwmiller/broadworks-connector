@@ -19,6 +19,8 @@ class GroupCallCenterCurrentAndPastCallCenterGetListResponse extends \CWM\BroadW
      * @Array
      * @Optional
      * @Group e2c537e3e39483b96620673a7012ffdd:3095
+     * @MinLength 1
+     * @MaxLength 161
      * @var string[]
      */
     private $serviceUserId = array(
@@ -31,6 +33,8 @@ class GroupCallCenterCurrentAndPastCallCenterGetListResponse extends \CWM\BroadW
      * @Array
      * @Optional
      * @Group e2c537e3e39483b96620673a7012ffdd:3095
+     * @MinLength 1
+     * @MaxLength 161
      * @var string[]
      */
     private $deletedServiceUserId = array(

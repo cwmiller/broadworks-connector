@@ -24,6 +24,7 @@ class IncomingCallingPlanDepartmentPermissions
      * @ElementName departmentFullPathName
      * @Type string
      * @Group 3dd296d55b56269ae23d86a934b8b35c:152
+     * @MinLength 1
      * @var string|null
      */
     private $departmentFullPathName = null;

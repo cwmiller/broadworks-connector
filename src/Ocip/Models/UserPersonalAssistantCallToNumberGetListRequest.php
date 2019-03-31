@@ -18,6 +18,8 @@ class UserPersonalAssistantCallToNumberGetListRequest extends \CWM\BroadWorksCon
      * @ElementName userId
      * @Type string
      * @Group f53ece1c00394ef2d3d76f532f9a9663:128
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;

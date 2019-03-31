@@ -19,6 +19,8 @@ class GroupOutgoingCallingPlanDigitPlanRedirectingGetListRequest extends \CWM\Br
      * @ElementName serviceProviderId
      * @Type string
      * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:370
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,6 +29,8 @@ class GroupOutgoingCallingPlanDigitPlanRedirectingGetListRequest extends \CWM\Br
      * @ElementName groupId
      * @Type string
      * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:370
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;

@@ -20,6 +20,8 @@ class GroupMeetMeConferencingAddInstanceRequest18 extends \CWM\BroadWorksConnect
      * @ElementName serviceProviderId
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:25243
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -28,6 +30,8 @@ class GroupMeetMeConferencingAddInstanceRequest18 extends \CWM\BroadWorksConnect
      * @ElementName groupId
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:25243
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;
@@ -36,6 +40,8 @@ class GroupMeetMeConferencingAddInstanceRequest18 extends \CWM\BroadWorksConnect
      * @ElementName serviceUserId
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:25243
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $serviceUserId = null;
@@ -61,6 +67,8 @@ class GroupMeetMeConferencingAddInstanceRequest18 extends \CWM\BroadWorksConnect
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:25243
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $networkClassOfService = null;
@@ -78,6 +86,8 @@ class GroupMeetMeConferencingAddInstanceRequest18 extends \CWM\BroadWorksConnect
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:25243
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $operatorNumber = null;
@@ -88,6 +98,8 @@ class GroupMeetMeConferencingAddInstanceRequest18 extends \CWM\BroadWorksConnect
      * @Array
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:25243
+     * @MinLength 1
+     * @MaxLength 161
      * @var string[]
      */
     private $conferenceHostUserId = array(
@@ -106,6 +118,8 @@ class GroupMeetMeConferencingAddInstanceRequest18 extends \CWM\BroadWorksConnect
      * @ElementName conferenceEndWarningPromptMinutes
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:25243
+     * @MinInclusive 1
+     * @MaxInclusive 15
      * @var int|null
      */
     private $conferenceEndWarningPromptMinutes = null;

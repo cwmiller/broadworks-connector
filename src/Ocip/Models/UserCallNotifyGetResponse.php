@@ -33,6 +33,8 @@ class UserCallNotifyGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\O
      * @Type string
      * @Optional
      * @Group 26f62134ab1693f4bdddc7c70b20d2eb:257
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $callNotifyEmailAddress = null;

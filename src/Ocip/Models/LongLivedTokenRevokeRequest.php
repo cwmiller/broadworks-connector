@@ -22,6 +22,8 @@ class LongLivedTokenRevokeRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @Type string
      * @Optional
      * @Group 6b27fcc79475236456fc113a42b75543:422
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;

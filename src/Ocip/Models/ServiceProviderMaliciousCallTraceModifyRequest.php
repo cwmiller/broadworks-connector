@@ -19,6 +19,8 @@ class ServiceProviderMaliciousCallTraceModifyRequest extends \CWM\BroadWorksConn
      * @ElementName serviceProviderId
      * @Type string
      * @Group 0da7c658f240cdc10c3f9cb328db57d8:80
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;

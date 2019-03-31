@@ -26,6 +26,8 @@ class GroupRoutePointGetInstanceResponse22 extends \CWM\BroadWorksConnector\Ocip
      * @Type string
      * @Optional
      * @Group a27224a048c30ff69eab9209dec841cc:673
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $networkClassOfService = null;
@@ -50,6 +52,8 @@ class GroupRoutePointGetInstanceResponse22 extends \CWM\BroadWorksConnector\Ocip
      * @ElementName queueLength
      * @Type int
      * @Group a27224a048c30ff69eab9209dec841cc:673
+     * @MinInclusive
+     * @MaxInclusive 525
      * @var int|null
      */
     private $queueLength = null;
@@ -58,6 +62,8 @@ class GroupRoutePointGetInstanceResponse22 extends \CWM\BroadWorksConnector\Ocip
      * @ElementName noAnswerTimeoutRings
      * @Type int
      * @Group a27224a048c30ff69eab9209dec841cc:673
+     * @MinInclusive 2
+     * @MaxInclusive 20
      * @var int|null
      */
     private $noAnswerTimeoutRings = null;
@@ -91,6 +97,8 @@ class GroupRoutePointGetInstanceResponse22 extends \CWM\BroadWorksConnector\Ocip
      * @Type int
      * @Optional
      * @Group a27224a048c30ff69eab9209dec841cc:673
+     * @MinInclusive 1
+     * @MaxInclusive 3600
      * @var int|null
      */
     private $wrapUpSeconds = null;
@@ -116,6 +124,8 @@ class GroupRoutePointGetInstanceResponse22 extends \CWM\BroadWorksConnector\Ocip
      * @Type string
      * @Optional
      * @Group a27224a048c30ff69eab9209dec841cc:673
+     * @MinLength 1
+     * @MaxLength 10
      * @var string|null
      */
     private $agentUnavailableCode = null;
@@ -133,6 +143,8 @@ class GroupRoutePointGetInstanceResponse22 extends \CWM\BroadWorksConnector\Ocip
      * @Type int
      * @Optional
      * @Group a27224a048c30ff69eab9209dec841cc:673
+     * @MinInclusive 1
+     * @MaxInclusive 10
      * @var int|null
      */
     private $forceDeliveryWaitTimeSeconds = null;

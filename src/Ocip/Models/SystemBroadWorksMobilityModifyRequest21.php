@@ -65,6 +65,8 @@ class SystemBroadWorksMobilityModifyRequest21 extends \CWM\BroadWorksConnector\O
      * @Type int
      * @Optional
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:1009
+     * @MinInclusive 100
+     * @MaxInclusive 60000
      * @var int|null
      */
     private $imrnTimeoutMilliseconds = null;
@@ -120,6 +122,8 @@ class SystemBroadWorksMobilityModifyRequest21 extends \CWM\BroadWorksConnector\O
      * @Nillable
      * @Optional
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:1009
+     * @MinLength 1
+     * @MaxLength 128
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $networkTranslationIndex = null;

@@ -21,6 +21,8 @@ class GroupNetworkClassOfServiceAssignListRequest extends \CWM\BroadWorksConnect
      * @ElementName serviceProviderId
      * @Type string
      * @Group de4d76f01f337fe4694212ec9f771753:2561
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -29,6 +31,8 @@ class GroupNetworkClassOfServiceAssignListRequest extends \CWM\BroadWorksConnect
      * @ElementName groupId
      * @Type string
      * @Group de4d76f01f337fe4694212ec9f771753:2561
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;
@@ -39,6 +43,8 @@ class GroupNetworkClassOfServiceAssignListRequest extends \CWM\BroadWorksConnect
      * @Array
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:2561
+     * @MinLength 1
+     * @MaxLength 40
      * @var string[]
      */
     private $networkClassOfService = array(
@@ -50,6 +56,8 @@ class GroupNetworkClassOfServiceAssignListRequest extends \CWM\BroadWorksConnect
      * @Type string
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:2561
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $defaultNetworkClassOfService = null;

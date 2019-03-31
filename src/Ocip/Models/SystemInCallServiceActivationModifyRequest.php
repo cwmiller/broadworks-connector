@@ -22,6 +22,8 @@ class SystemInCallServiceActivationModifyRequest extends \CWM\BroadWorksConnecto
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:15581
+     * @MinLength 1
+     * @MaxLength 8
      * @var string|null
      */
     private $defaultActivationDigits = null;

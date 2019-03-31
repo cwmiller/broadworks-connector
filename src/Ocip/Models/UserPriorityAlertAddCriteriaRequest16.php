@@ -23,6 +23,8 @@ class UserPriorityAlertAddCriteriaRequest16 extends \CWM\BroadWorksConnector\Oci
      * @ElementName userId
      * @Type string
      * @Group 750c600a9467af6ee77c0dbca839453e:49
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;
@@ -31,6 +33,8 @@ class UserPriorityAlertAddCriteriaRequest16 extends \CWM\BroadWorksConnector\Oci
      * @ElementName criteriaName
      * @Type string
      * @Group 750c600a9467af6ee77c0dbca839453e:49
+     * @MinLength 1
+     * @MaxLength 50
      * @var string|null
      */
     private $criteriaName = null;

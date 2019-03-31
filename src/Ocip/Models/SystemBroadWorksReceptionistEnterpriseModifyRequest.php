@@ -20,6 +20,8 @@ class SystemBroadWorksReceptionistEnterpriseModifyRequest extends \CWM\BroadWork
      * @Type int
      * @Optional
      * @Group fb12998f4f9e45cedde01f08569f4c7c:81
+     * @MinInclusive 1
+     * @MaxInclusive 1000
      * @var int|null
      */
     private $maxMonitoredUsers = null;

@@ -16,6 +16,8 @@ class TrunkGroupDeviceEndpointAdd
      * @ElementName name
      * @Type string
      * @Group c0d21ef9ba207c335d8347e5172fce1d:4272
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $name = null;
@@ -24,6 +26,8 @@ class TrunkGroupDeviceEndpointAdd
      * @ElementName linePort
      * @Type string
      * @Group c0d21ef9ba207c335d8347e5172fce1d:4272
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $linePort = null;
@@ -33,6 +37,8 @@ class TrunkGroupDeviceEndpointAdd
      * @Type string
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:4272
+     * @MinLength 1
+     * @MaxLength 1020
      * @var string|null
      */
     private $contact = null;

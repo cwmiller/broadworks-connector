@@ -30,6 +30,8 @@ class SystemTreatmentMappingCallBlockingServiceAddRequest extends \CWM\BroadWork
      * @ElementName treatmentId
      * @Type string
      * @Group de4d76f01f337fe4694212ec9f771753:6750
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $treatmentId = null;

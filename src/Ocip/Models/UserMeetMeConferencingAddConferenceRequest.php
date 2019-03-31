@@ -19,6 +19,8 @@ class UserMeetMeConferencingAddConferenceRequest extends \CWM\BroadWorksConnecto
      * @ElementName userId
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:28982
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;
@@ -27,6 +29,8 @@ class UserMeetMeConferencingAddConferenceRequest extends \CWM\BroadWorksConnecto
      * @ElementName bridgeId
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:28982
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $bridgeId = null;
@@ -35,6 +39,8 @@ class UserMeetMeConferencingAddConferenceRequest extends \CWM\BroadWorksConnecto
      * @ElementName title
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:28982
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $title = null;
@@ -44,6 +50,8 @@ class UserMeetMeConferencingAddConferenceRequest extends \CWM\BroadWorksConnecto
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:28982
+     * @MinInclusive 1
+     * @MaxInclusive 294
      * @var int|null
      */
     private $estimatedParticipants = null;
@@ -60,6 +68,8 @@ class UserMeetMeConferencingAddConferenceRequest extends \CWM\BroadWorksConnecto
      * @ElementName maxParticipants
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:28988
+     * @MinInclusive 1
+     * @MaxInclusive 294
      * @var int|null
      */
     private $maxParticipants = null;
@@ -69,6 +79,8 @@ class UserMeetMeConferencingAddConferenceRequest extends \CWM\BroadWorksConnecto
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:28982
+     * @MinLength 1
+     * @MaxLength 50
      * @var string|null
      */
     private $accountCode = null;

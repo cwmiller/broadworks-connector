@@ -18,6 +18,8 @@ class ResellerGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIData
      * @Type string
      * @Optional
      * @Group b009175f2a2a9d38115e319a6ad64d7f:383
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $resellerName = null;

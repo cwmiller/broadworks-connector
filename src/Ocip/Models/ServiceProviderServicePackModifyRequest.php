@@ -19,6 +19,8 @@ class ServiceProviderServicePackModifyRequest extends \CWM\BroadWorksConnector\O
      * @ElementName serviceProviderId
      * @Type string
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:5751
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,6 +29,8 @@ class ServiceProviderServicePackModifyRequest extends \CWM\BroadWorksConnector\O
      * @ElementName servicePackName
      * @Type string
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:5751
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $servicePackName = null;
@@ -36,6 +40,8 @@ class ServiceProviderServicePackModifyRequest extends \CWM\BroadWorksConnector\O
      * @Type string
      * @Optional
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:5751
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $newServicePackName = null;
@@ -46,6 +52,8 @@ class ServiceProviderServicePackModifyRequest extends \CWM\BroadWorksConnector\O
      * @Nillable
      * @Optional
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:5751
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $servicePackDescription = null;

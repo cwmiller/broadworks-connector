@@ -19,6 +19,8 @@ class SystemClassmarkDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @ElementName classmark
      * @Type string
      * @Group 0d0e878cbc947aebb19ad489b2ffef11:65
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $classmark = null;

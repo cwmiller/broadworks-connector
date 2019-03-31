@@ -17,6 +17,8 @@ class SystemExtensionLengthGetResponse extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName minExtensionLength
      * @Type int
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8965
+     * @MinInclusive 2
+     * @MaxInclusive 20
      * @var int|null
      */
     private $minExtensionLength = null;
@@ -25,6 +27,8 @@ class SystemExtensionLengthGetResponse extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName maxExtensionLength
      * @Type int
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8965
+     * @MinInclusive 2
+     * @MaxInclusive 20
      * @var int|null
      */
     private $maxExtensionLength = null;

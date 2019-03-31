@@ -60,6 +60,8 @@ class SystemVoiceMessagingGroupGetPasscodeRulesResponse14 extends \CWM\BroadWork
      * @ElementName minCodeLength
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:6700
+     * @MinInclusive 2
+     * @MaxInclusive 15
      * @var int|null
      */
     private $minCodeLength = null;
@@ -68,6 +70,8 @@ class SystemVoiceMessagingGroupGetPasscodeRulesResponse14 extends \CWM\BroadWork
      * @ElementName maxCodeLength
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:6700
+     * @MinInclusive 3
+     * @MaxInclusive 30
      * @var int|null
      */
     private $maxCodeLength = null;
@@ -85,6 +89,8 @@ class SystemVoiceMessagingGroupGetPasscodeRulesResponse14 extends \CWM\BroadWork
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:6700
+     * @MinInclusive 2
+     * @MaxInclusive 10
      * @var int|null
      */
     private $maxFailedLoginAttempts = null;
@@ -102,6 +108,8 @@ class SystemVoiceMessagingGroupGetPasscodeRulesResponse14 extends \CWM\BroadWork
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:6700
+     * @MinInclusive 15
+     * @MaxInclusive 180
      * @var int|null
      */
     private $passcodeExpiresDays = null;
@@ -119,6 +127,8 @@ class SystemVoiceMessagingGroupGetPasscodeRulesResponse14 extends \CWM\BroadWork
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:6700
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $loginDisabledNotifyEmailAddress = null;
@@ -127,6 +137,8 @@ class SystemVoiceMessagingGroupGetPasscodeRulesResponse14 extends \CWM\BroadWork
      * @ElementName defaultPassword
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:6700
+     * @MinLength 1
+     * @MaxLength 60
      * @var string|null
      */
     private $defaultPassword = null;

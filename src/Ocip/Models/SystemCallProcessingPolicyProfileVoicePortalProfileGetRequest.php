@@ -24,6 +24,8 @@ class SystemCallProcessingPolicyProfileVoicePortalProfileGetRequest extends \CWM
      * @ElementName callProcessingPolicyProfileName
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:38491
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $callProcessingPolicyProfileName = null;

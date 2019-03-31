@@ -23,6 +23,8 @@ class UserBroadWorksMobilityMobileIdentityModifyRequest extends \CWM\BroadWorksC
      * @ElementName userId
      * @Type string
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:1689
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;
@@ -31,6 +33,8 @@ class UserBroadWorksMobilityMobileIdentityModifyRequest extends \CWM\BroadWorksC
      * @ElementName mobileNumber
      * @Type string
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:1689
+     * @MinLength 1
+     * @MaxLength 23
      * @var string|null
      */
     private $mobileNumber = null;
@@ -41,6 +45,8 @@ class UserBroadWorksMobilityMobileIdentityModifyRequest extends \CWM\BroadWorksC
      * @Nillable
      * @Optional
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:1689
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $description = null;
@@ -242,6 +248,8 @@ class UserBroadWorksMobilityMobileIdentityModifyRequest extends \CWM\BroadWorksC
      * @Type string
      * @Nillable
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:1713
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $outboundAlternateNumber = null;
@@ -279,6 +287,8 @@ class UserBroadWorksMobilityMobileIdentityModifyRequest extends \CWM\BroadWorksC
      * @Nillable
      * @Optional
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:1689
+     * @MinLength 1
+     * @MaxLength 128
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $networkTranslationIndex = null;

@@ -33,6 +33,8 @@ class ServiceProviderCallProcessingGetPolicyResponse16sp2 extends \CWM\BroadWork
      * @ElementName maxSimultaneousCalls
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:14625
+     * @MinInclusive 1
+     * @MaxInclusive 500
      * @var int|null
      */
     private $maxSimultaneousCalls = null;
@@ -49,6 +51,8 @@ class ServiceProviderCallProcessingGetPolicyResponse16sp2 extends \CWM\BroadWork
      * @ElementName maxSimultaneousVideoCalls
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:14625
+     * @MinInclusive 1
+     * @MaxInclusive 500
      * @var int|null
      */
     private $maxSimultaneousVideoCalls = null;
@@ -65,6 +69,8 @@ class ServiceProviderCallProcessingGetPolicyResponse16sp2 extends \CWM\BroadWork
      * @ElementName maxCallTimeForAnsweredCallsMinutes
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:14625
+     * @MinInclusive 3
+     * @MaxInclusive 2880
      * @var int|null
      */
     private $maxCallTimeForAnsweredCallsMinutes = null;
@@ -81,6 +87,8 @@ class ServiceProviderCallProcessingGetPolicyResponse16sp2 extends \CWM\BroadWork
      * @ElementName maxCallTimeForUnansweredCallsMinutes
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:14625
+     * @MinInclusive 1
+     * @MaxInclusive 60
      * @var int|null
      */
     private $maxCallTimeForUnansweredCallsMinutes = null;
@@ -98,6 +106,8 @@ class ServiceProviderCallProcessingGetPolicyResponse16sp2 extends \CWM\BroadWork
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:14625
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $supportedMediaSetName = null;
@@ -179,6 +189,8 @@ class ServiceProviderCallProcessingGetPolicyResponse16sp2 extends \CWM\BroadWork
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:14625
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $conferenceURI = null;
@@ -195,6 +207,8 @@ class ServiceProviderCallProcessingGetPolicyResponse16sp2 extends \CWM\BroadWork
      * @ElementName maxConcurrentRedirectedCalls
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:14625
+     * @MinInclusive 1
+     * @MaxInclusive 32
      * @var int|null
      */
     private $maxConcurrentRedirectedCalls = null;
@@ -211,6 +225,8 @@ class ServiceProviderCallProcessingGetPolicyResponse16sp2 extends \CWM\BroadWork
      * @ElementName maxFindMeFollowMeDepth
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:14625
+     * @MinInclusive 1
+     * @MaxInclusive 10
      * @var int|null
      */
     private $maxFindMeFollowMeDepth = null;
@@ -219,6 +235,8 @@ class ServiceProviderCallProcessingGetPolicyResponse16sp2 extends \CWM\BroadWork
      * @ElementName maxRedirectionDepth
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:14625
+     * @MinInclusive 1
+     * @MaxInclusive 15
      * @var int|null
      */
     private $maxRedirectionDepth = null;
@@ -235,6 +253,8 @@ class ServiceProviderCallProcessingGetPolicyResponse16sp2 extends \CWM\BroadWork
      * @ElementName maxConcurrentFindMeFollowMeInvocations
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:14625
+     * @MinInclusive 1
+     * @MaxInclusive 32
      * @var int|null
      */
     private $maxConcurrentFindMeFollowMeInvocations = null;

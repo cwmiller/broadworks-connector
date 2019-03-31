@@ -21,6 +21,8 @@ class SystemFaxMessagingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName statusDurationHours
      * @Type int
      * @Group f46f967f937c7dc89ddb3db423383aa4:60
+     * @MinInclusive 1
+     * @MaxInclusive 24
      * @var int|null
      */
     private $statusDurationHours = null;
@@ -29,6 +31,8 @@ class SystemFaxMessagingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName statusAuditIntervalHours
      * @Type int
      * @Group f46f967f937c7dc89ddb3db423383aa4:60
+     * @MinInclusive 1
+     * @MaxInclusive 24
      * @var int|null
      */
     private $statusAuditIntervalHours = null;
@@ -37,6 +41,8 @@ class SystemFaxMessagingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName maximumConcurrentFaxesPerUser
      * @Type int
      * @Group f46f967f937c7dc89ddb3db423383aa4:60
+     * @MinInclusive 1
+     * @MaxInclusive 10
      * @var int|null
      */
     private $maximumConcurrentFaxesPerUser = null;

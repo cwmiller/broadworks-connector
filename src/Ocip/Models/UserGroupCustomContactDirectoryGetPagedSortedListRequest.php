@@ -33,6 +33,8 @@ class UserGroupCustomContactDirectoryGetPagedSortedListRequest extends \CWM\Broa
      * @ElementName userId
      * @Type string
      * @Group 53d18cc797d03d802cbc411ad821f1d4:2343
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;
@@ -41,6 +43,8 @@ class UserGroupCustomContactDirectoryGetPagedSortedListRequest extends \CWM\Broa
      * @ElementName name
      * @Type string
      * @Group 53d18cc797d03d802cbc411ad821f1d4:2343
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $name = null;

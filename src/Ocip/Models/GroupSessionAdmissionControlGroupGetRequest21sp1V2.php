@@ -19,6 +19,8 @@ class GroupSessionAdmissionControlGroupGetRequest21sp1V2 extends \CWM\BroadWorks
      * @ElementName serviceProviderId
      * @Type string
      * @Group f3a93cf15de4abd7903673e44ee3e07b:7150
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,6 +29,8 @@ class GroupSessionAdmissionControlGroupGetRequest21sp1V2 extends \CWM\BroadWorks
      * @ElementName groupId
      * @Type string
      * @Group f3a93cf15de4abd7903673e44ee3e07b:7150
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;
@@ -35,6 +39,8 @@ class GroupSessionAdmissionControlGroupGetRequest21sp1V2 extends \CWM\BroadWorks
      * @ElementName name
      * @Type string
      * @Group f3a93cf15de4abd7903673e44ee3e07b:7150
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $name = null;

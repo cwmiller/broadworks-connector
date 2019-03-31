@@ -20,6 +20,8 @@ class SystemAliasGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @Array
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1800
+     * @MinLength 1
+     * @MaxLength 80
      * @var string[]
      */
     private $aliasNetAddress = array(

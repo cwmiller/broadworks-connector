@@ -19,6 +19,8 @@ class SystemMediaGroupCodecAddRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName name
      * @Type string
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10682
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $name = null;
@@ -27,6 +29,8 @@ class SystemMediaGroupCodecAddRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName codecName
      * @Type string
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10682
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $codecName = null;
@@ -35,6 +39,8 @@ class SystemMediaGroupCodecAddRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName codecWeight
      * @Type int
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10682
+     * @MinInclusive 1
+     * @MaxInclusive 1000
      * @var int|null
      */
     private $codecWeight = null;

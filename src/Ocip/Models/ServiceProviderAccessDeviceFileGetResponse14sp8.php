@@ -28,6 +28,8 @@ class ServiceProviderAccessDeviceFileGetResponse14sp8 extends \CWM\BroadWorksCon
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:14389
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $configurationFileName = null;

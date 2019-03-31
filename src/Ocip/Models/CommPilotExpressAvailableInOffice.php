@@ -17,6 +17,8 @@ class CommPilotExpressAvailableInOffice
      * @Type string
      * @Optional
      * @Group 8c204d784d1904d9eeea996d46de69be:103
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $additionalPhoneNumberToRing = null;

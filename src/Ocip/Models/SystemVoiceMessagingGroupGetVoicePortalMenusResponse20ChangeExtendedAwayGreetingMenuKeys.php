@@ -15,6 +15,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20ChangeExtendedAwayGr
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:35321
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $activateExtendedAwayGreeting = null;
@@ -24,6 +26,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20ChangeExtendedAwayGr
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:35321
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $deactivateExtendedAwayGreeting = null;
@@ -33,6 +37,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20ChangeExtendedAwayGr
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:35321
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $recordNewGreeting = null;
@@ -42,6 +48,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20ChangeExtendedAwayGr
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:35321
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $listenToCurrentGreeting = null;
@@ -50,6 +58,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20ChangeExtendedAwayGr
      * @ElementName returnToPreviousMenu
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:35321
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $returnToPreviousMenu = null;
@@ -59,6 +69,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20ChangeExtendedAwayGr
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:35321
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $repeatMenu = null;

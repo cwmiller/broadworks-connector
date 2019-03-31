@@ -17,6 +17,8 @@ class ForwardOrComposeMessageMenuKeysReadEntry
      * @Type string
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2678
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $sendToPerson = null;
@@ -26,6 +28,8 @@ class ForwardOrComposeMessageMenuKeysReadEntry
      * @Type string
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2678
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $sendToAllGroupMembers = null;
@@ -35,6 +39,8 @@ class ForwardOrComposeMessageMenuKeysReadEntry
      * @Type string
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2678
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $sendToDistributionList = null;
@@ -44,6 +50,8 @@ class ForwardOrComposeMessageMenuKeysReadEntry
      * @Type string
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2678
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $changeCurrentIntroductionOrMessage = null;
@@ -53,6 +61,8 @@ class ForwardOrComposeMessageMenuKeysReadEntry
      * @Type string
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2678
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $listenToCurrentIntroductionOrMessage = null;
@@ -62,6 +72,8 @@ class ForwardOrComposeMessageMenuKeysReadEntry
      * @Type string
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2678
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $setOrClearUrgentIndicator = null;
@@ -71,6 +83,8 @@ class ForwardOrComposeMessageMenuKeysReadEntry
      * @Type string
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2678
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $setOrClearConfidentialIndicator = null;
@@ -79,6 +93,8 @@ class ForwardOrComposeMessageMenuKeysReadEntry
      * @ElementName returnToPreviousMenu
      * @Type string
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2678
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $returnToPreviousMenu = null;
@@ -88,6 +104,8 @@ class ForwardOrComposeMessageMenuKeysReadEntry
      * @Type string
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2678
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $repeatMenu = null;

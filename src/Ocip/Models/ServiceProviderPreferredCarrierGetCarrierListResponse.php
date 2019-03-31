@@ -20,6 +20,8 @@ class ServiceProviderPreferredCarrierGetCarrierListResponse extends \CWM\BroadWo
      * @Array
      * @Optional
      * @Group 74a46a9bfccb54713c1d19735843f1df:207
+     * @MinLength 1
+     * @MaxLength 80
      * @var string[]
      */
     private $intraLataCarrier = array(
@@ -32,6 +34,8 @@ class ServiceProviderPreferredCarrierGetCarrierListResponse extends \CWM\BroadWo
      * @Array
      * @Optional
      * @Group 74a46a9bfccb54713c1d19735843f1df:207
+     * @MinLength 1
+     * @MaxLength 80
      * @var string[]
      */
     private $interLataCarrier = array(
@@ -44,6 +48,8 @@ class ServiceProviderPreferredCarrierGetCarrierListResponse extends \CWM\BroadWo
      * @Array
      * @Optional
      * @Group 74a46a9bfccb54713c1d19735843f1df:207
+     * @MinLength 1
+     * @MaxLength 80
      * @var string[]
      */
     private $internationalCarrier = array(

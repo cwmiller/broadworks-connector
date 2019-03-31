@@ -28,6 +28,8 @@ class EnterprisePreAlertingAnnouncementGetResponse extends \CWM\BroadWorksConnec
      * @Type string
      * @Optional
      * @Group 6165f2b4cd549de71fe8f3171488fdd8:67
+     * @MinLength 1
+     * @MaxLength 10
      * @var string|null
      */
     private $interruptionDigitSequence = null;
@@ -45,6 +47,8 @@ class EnterprisePreAlertingAnnouncementGetResponse extends \CWM\BroadWorksConnec
      * @Type string
      * @Optional
      * @Group 6165f2b4cd549de71fe8f3171488fdd8:67
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $audioFileDescription = null;
@@ -63,6 +67,8 @@ class EnterprisePreAlertingAnnouncementGetResponse extends \CWM\BroadWorksConnec
      * @Type string
      * @Optional
      * @Group 6165f2b4cd549de71fe8f3171488fdd8:67
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $audioFileUrl = null;
@@ -80,6 +86,8 @@ class EnterprisePreAlertingAnnouncementGetResponse extends \CWM\BroadWorksConnec
      * @Type string
      * @Optional
      * @Group 6165f2b4cd549de71fe8f3171488fdd8:67
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $videoFileDescription = null;
@@ -98,6 +106,8 @@ class EnterprisePreAlertingAnnouncementGetResponse extends \CWM\BroadWorksConnec
      * @Type string
      * @Optional
      * @Group 6165f2b4cd549de71fe8f3171488fdd8:67
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $videoFileUrl = null;

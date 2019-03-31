@@ -24,6 +24,8 @@ class ProfileAndServiceCallTransferInfo
      * @ElementName recallNumberOfRings
      * @Type int
      * @Group 53d18cc797d03d802cbc411ad821f1d4:4152
+     * @MinInclusive 2
+     * @MaxInclusive 20
      * @var int|null
      */
     private $recallNumberOfRings = null;
@@ -56,6 +58,8 @@ class ProfileAndServiceCallTransferInfo
      * @ElementName busyCampOnSeconds
      * @Type int
      * @Group 53d18cc797d03d802cbc411ad821f1d4:4152
+     * @MinInclusive 30
+     * @MaxInclusive 600
      * @var int|null
      */
     private $busyCampOnSeconds = null;

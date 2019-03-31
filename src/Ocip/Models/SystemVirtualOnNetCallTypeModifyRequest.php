@@ -19,6 +19,8 @@ class SystemVirtualOnNetCallTypeModifyRequest extends \CWM\BroadWorksConnector\O
      * @ElementName virtualOnNetCallTypeName
      * @Type string
      * @Group 179b744b0183abe614e8c32c17c96b7e:311
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $virtualOnNetCallTypeName = null;
@@ -28,6 +30,8 @@ class SystemVirtualOnNetCallTypeModifyRequest extends \CWM\BroadWorksConnector\O
      * @Type string
      * @Optional
      * @Group 179b744b0183abe614e8c32c17c96b7e:311
+     * @MinLength 1
+     * @MaxLength 6
      * @var string|null
      */
     private $virtualOnNetCallTypeCdrValue = null;

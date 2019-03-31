@@ -26,6 +26,8 @@ class UserBroadWorksReceptionistEnterpriseNoteModifyListRequest extends \CWM\Bro
      * @ElementName receptionistUserId
      * @Type string
      * @Group fb12998f4f9e45cedde01f08569f4c7c:275
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $receptionistUserId = null;

@@ -16,6 +16,8 @@ class CommunicationBarringIncomingRule
      * @ElementName digitPatternCriteria
      * @Type string
      * @Group c0d21ef9ba207c335d8347e5172fce1d:1364
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $digitPatternCriteria = null;
@@ -33,6 +35,8 @@ class CommunicationBarringIncomingRule
      * @Type int
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:1364
+     * @MinInclusive 60
+     * @MaxInclusive 86400
      * @var int|null
      */
     private $callTimeoutSeconds = null;
@@ -42,6 +46,8 @@ class CommunicationBarringIncomingRule
      * @Type string
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:1364
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $timeSchedule = null;
@@ -51,6 +57,8 @@ class CommunicationBarringIncomingRule
      * @Type string
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:1364
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $holidaySchedule = null;
@@ -59,6 +67,8 @@ class CommunicationBarringIncomingRule
      * @ElementName priority
      * @Type float
      * @Group c0d21ef9ba207c335d8347e5172fce1d:1364
+     * @MinInclusive 0.0
+     * @MaxInclusive 1000000.0
      * @var float|null
      */
     private $priority = null;

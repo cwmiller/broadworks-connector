@@ -19,6 +19,8 @@ class GroupCollaborateBridgeGetInstanceRequest20sp1 extends \CWM\BroadWorksConne
      * @ElementName serviceUserId
      * @Type string
      * @Group 939fd5846dfae8bdf58308d6cb9ebb12:393
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $serviceUserId = null;

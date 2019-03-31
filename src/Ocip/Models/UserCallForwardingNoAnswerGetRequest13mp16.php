@@ -20,6 +20,8 @@ class UserCallForwardingNoAnswerGetRequest13mp16 extends \CWM\BroadWorksConnecto
      * @ElementName userId
      * @Type string
      * @Group 9bba36247a6338c8a1cff754a22a6c6b:44
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;

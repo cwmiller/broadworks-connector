@@ -28,6 +28,8 @@ class GroupAccountAuthorizationCodesGetResponse extends \CWM\BroadWorksConnector
      * @ElementName numberOfDigits
      * @Type int
      * @Group 65df37199ec43e5d21a187db39d63158:176
+     * @MinInclusive 2
+     * @MaxInclusive 14
      * @var int|null
      */
     private $numberOfDigits = null;

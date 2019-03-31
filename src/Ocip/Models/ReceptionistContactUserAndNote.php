@@ -16,6 +16,8 @@ class ReceptionistContactUserAndNote
      * @ElementName contactUserId
      * @Type string
      * @Group c0d21ef9ba207c335d8347e5172fce1d:2981
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $contactUserId = null;
@@ -33,6 +35,8 @@ class ReceptionistContactUserAndNote
      * @Type string
      * @Nillable
      * @Group c0d21ef9ba207c335d8347e5172fce1d:2980
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $note = null;

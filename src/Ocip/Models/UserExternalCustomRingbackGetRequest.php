@@ -20,6 +20,8 @@ class UserExternalCustomRingbackGetRequest extends \CWM\BroadWorksConnector\Ocip
      * @ElementName userId
      * @Type string
      * @Group a8df43dca23d99d8ab44c0082aadfbe0:101
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;

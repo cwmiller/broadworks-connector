@@ -19,6 +19,8 @@ class GroupCallParkDeleteInstanceRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName serviceProviderId
      * @Type string
      * @Group 7a925e891158dfa3cb1319e045608894:76
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,6 +29,8 @@ class GroupCallParkDeleteInstanceRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName groupId
      * @Type string
      * @Group 7a925e891158dfa3cb1319e045608894:76
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;
@@ -35,6 +39,8 @@ class GroupCallParkDeleteInstanceRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName name
      * @Type string
      * @Group 7a925e891158dfa3cb1319e045608894:76
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $name = null;

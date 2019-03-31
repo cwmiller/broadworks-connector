@@ -19,6 +19,8 @@ class UserPersonalPhoneListModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName userId
      * @Type string
      * @Group 53d18cc797d03d802cbc411ad821f1d4:2885
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;
@@ -27,6 +29,8 @@ class UserPersonalPhoneListModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName entryName
      * @Type string
      * @Group 53d18cc797d03d802cbc411ad821f1d4:2885
+     * @MinLength 1
+     * @MaxLength 50
      * @var string|null
      */
     private $entryName = null;
@@ -36,6 +40,8 @@ class UserPersonalPhoneListModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @Type string
      * @Optional
      * @Group 53d18cc797d03d802cbc411ad821f1d4:2885
+     * @MinLength 1
+     * @MaxLength 50
      * @var string|null
      */
     private $newEntryName = null;
@@ -45,6 +51,8 @@ class UserPersonalPhoneListModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @Type string
      * @Optional
      * @Group 53d18cc797d03d802cbc411ad821f1d4:2885
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $phoneNumber = null;

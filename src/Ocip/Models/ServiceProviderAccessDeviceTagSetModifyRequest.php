@@ -19,6 +19,8 @@ class ServiceProviderAccessDeviceTagSetModifyRequest extends \CWM\BroadWorksConn
      * @ElementName serviceProviderId
      * @Type string
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:803
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,6 +29,8 @@ class ServiceProviderAccessDeviceTagSetModifyRequest extends \CWM\BroadWorksConn
      * @ElementName deviceName
      * @Type string
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:803
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $deviceName = null;
@@ -37,6 +41,8 @@ class ServiceProviderAccessDeviceTagSetModifyRequest extends \CWM\BroadWorksConn
      * @Nillable
      * @Optional
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:803
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $tagSetName = null;

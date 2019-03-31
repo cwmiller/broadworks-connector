@@ -26,6 +26,8 @@ class GroupCallCenterNightServiceGetResponse extends \CWM\BroadWorksConnector\Oc
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:13034
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $businessHours = null;
@@ -51,6 +53,8 @@ class GroupCallCenterNightServiceGetResponse extends \CWM\BroadWorksConnector\Oc
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:13034
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $transferPhoneNumber = null;
@@ -76,6 +80,8 @@ class GroupCallCenterNightServiceGetResponse extends \CWM\BroadWorksConnector\Oc
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:13034
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $audioFileUrl = null;
@@ -85,6 +91,8 @@ class GroupCallCenterNightServiceGetResponse extends \CWM\BroadWorksConnector\Oc
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:13034
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $audioFileDescription = null;
@@ -111,6 +119,8 @@ class GroupCallCenterNightServiceGetResponse extends \CWM\BroadWorksConnector\Oc
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:13034
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $videoFileUrl = null;
@@ -120,6 +130,8 @@ class GroupCallCenterNightServiceGetResponse extends \CWM\BroadWorksConnector\Oc
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:13034
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $videoFileDescription = null;
@@ -154,6 +166,8 @@ class GroupCallCenterNightServiceGetResponse extends \CWM\BroadWorksConnector\Oc
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:13034
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $manualAudioFileUrl = null;
@@ -163,6 +177,8 @@ class GroupCallCenterNightServiceGetResponse extends \CWM\BroadWorksConnector\Oc
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:13034
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $manualAudioFileDescription = null;
@@ -189,6 +205,8 @@ class GroupCallCenterNightServiceGetResponse extends \CWM\BroadWorksConnector\Oc
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:13034
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $manualVideoFileUrl = null;
@@ -198,6 +216,8 @@ class GroupCallCenterNightServiceGetResponse extends \CWM\BroadWorksConnector\Oc
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:13034
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $manualVideoFileDescription = null;

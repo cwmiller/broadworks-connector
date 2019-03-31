@@ -31,6 +31,8 @@ class GroupCallPickupGetAvailableUserPagedSortedListRequest extends \CWM\BroadWo
      * @ElementName serviceProviderId
      * @Type string
      * @Group 045ce951b3e25dec090606af4ad50c63:144
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -39,6 +41,8 @@ class GroupCallPickupGetAvailableUserPagedSortedListRequest extends \CWM\BroadWo
      * @ElementName groupId
      * @Type string
      * @Group 045ce951b3e25dec090606af4ad50c63:144
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;
@@ -48,6 +52,8 @@ class GroupCallPickupGetAvailableUserPagedSortedListRequest extends \CWM\BroadWo
      * @Type string
      * @Optional
      * @Group 045ce951b3e25dec090606af4ad50c63:144
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $name = null;

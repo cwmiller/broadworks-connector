@@ -116,6 +116,8 @@ class SystemCallProcessingPolicyProfileBroadWorksAnywhereProfileGetResponse exte
      * @ElementName maxSimultaneousCalls
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:37555
+     * @MinInclusive 1
+     * @MaxInclusive 999999
      * @var int|null
      */
     private $maxSimultaneousCalls = null;
@@ -132,6 +134,8 @@ class SystemCallProcessingPolicyProfileBroadWorksAnywhereProfileGetResponse exte
      * @ElementName maxSimultaneousVideoCalls
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:37555
+     * @MinInclusive 1
+     * @MaxInclusive 999999
      * @var int|null
      */
     private $maxSimultaneousVideoCalls = null;
@@ -148,6 +152,8 @@ class SystemCallProcessingPolicyProfileBroadWorksAnywhereProfileGetResponse exte
      * @ElementName maxConcurrentRedirectedCalls
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:37555
+     * @MinInclusive 1
+     * @MaxInclusive 999999
      * @var int|null
      */
     private $maxConcurrentRedirectedCalls = null;
@@ -156,6 +162,8 @@ class SystemCallProcessingPolicyProfileBroadWorksAnywhereProfileGetResponse exte
      * @ElementName maxRedirectionDepth
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:37555
+     * @MinInclusive 1
+     * @MaxInclusive 100
      * @var int|null
      */
     private $maxRedirectionDepth = null;

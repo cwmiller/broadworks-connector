@@ -19,6 +19,8 @@ class GroupEnterpriseTrunkGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName maximumRerouteAttempts
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:33219
+     * @MinInclusive 1
+     * @MaxInclusive 10
      * @var int|null
      */
     private $maximumRerouteAttempts = null;
@@ -36,6 +38,8 @@ class GroupEnterpriseTrunkGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:33219
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $routeExhaustionForwardAddress = null;

@@ -16,6 +16,8 @@ class TrunkGroupPilotUser
      * @ElementName userId
      * @Type string
      * @Group c0d21ef9ba207c335d8347e5172fce1d:4460
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;
@@ -24,6 +26,8 @@ class TrunkGroupPilotUser
      * @ElementName lastName
      * @Type string
      * @Group c0d21ef9ba207c335d8347e5172fce1d:4460
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $lastName = null;
@@ -32,6 +36,8 @@ class TrunkGroupPilotUser
      * @ElementName firstName
      * @Type string
      * @Group c0d21ef9ba207c335d8347e5172fce1d:4460
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $firstName = null;
@@ -40,6 +46,8 @@ class TrunkGroupPilotUser
      * @ElementName callingLineIdLastName
      * @Type string
      * @Group c0d21ef9ba207c335d8347e5172fce1d:4460
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $callingLineIdLastName = null;
@@ -48,6 +56,8 @@ class TrunkGroupPilotUser
      * @ElementName callingLineIdFirstName
      * @Type string
      * @Group c0d21ef9ba207c335d8347e5172fce1d:4460
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $callingLineIdFirstName = null;
@@ -57,6 +67,8 @@ class TrunkGroupPilotUser
      * @Type string
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:4460
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $hiraganaLastName = null;
@@ -66,6 +78,8 @@ class TrunkGroupPilotUser
      * @Type string
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:4460
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $hiraganaFirstName = null;
@@ -75,6 +89,8 @@ class TrunkGroupPilotUser
      * @Type string
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:4460
+     * @MinLength 1
+     * @MaxLength 60
      * @var string|null
      */
     private $password = null;
@@ -93,6 +109,8 @@ class TrunkGroupPilotUser
      * @Type string
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:4460
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $language = null;
@@ -102,6 +120,8 @@ class TrunkGroupPilotUser
      * @Type string
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:4460
+     * @MinLength 1
+     * @MaxLength 127
      * @var string|null
      */
     private $timeZone = null;
@@ -110,6 +130,8 @@ class TrunkGroupPilotUser
      * @ElementName linePort
      * @Type string
      * @Group c0d21ef9ba207c335d8347e5172fce1d:4460
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $linePort = null;
@@ -119,6 +141,8 @@ class TrunkGroupPilotUser
      * @Type string
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:4460
+     * @MinLength 1
+     * @MaxLength 1020
      * @var string|null
      */
     private $contact = null;

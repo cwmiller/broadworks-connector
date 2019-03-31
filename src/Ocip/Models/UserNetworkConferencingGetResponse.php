@@ -18,6 +18,8 @@ class UserNetworkConferencingGetResponse extends \CWM\BroadWorksConnector\Ocip\M
      * @Type string
      * @Optional
      * @Group 53d18cc797d03d802cbc411ad821f1d4:2652
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $conferenceURI = null;
@@ -26,6 +28,8 @@ class UserNetworkConferencingGetResponse extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName maxConferenceParties
      * @Type int
      * @Group 53d18cc797d03d802cbc411ad821f1d4:2652
+     * @MinInclusive 4
+     * @MaxInclusive 15
      * @var int|null
      */
     private $maxConferenceParties = null;

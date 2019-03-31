@@ -21,6 +21,8 @@ class GroupEnterpriseTrunkGetAvailableUserListRequest extends \CWM\BroadWorksCon
      * @ElementName serviceProviderId
      * @Type string
      * @Group b9c14e2d80e4e7749688ca13ba233b44:622
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -29,6 +31,8 @@ class GroupEnterpriseTrunkGetAvailableUserListRequest extends \CWM\BroadWorksCon
      * @ElementName groupId
      * @Type string
      * @Group b9c14e2d80e4e7749688ca13ba233b44:622
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;
@@ -38,6 +42,7 @@ class GroupEnterpriseTrunkGetAvailableUserListRequest extends \CWM\BroadWorksCon
      * @Type int
      * @Optional
      * @Group b9c14e2d80e4e7749688ca13ba233b44:622
+     * @MinInclusive 1
      * @var int|null
      */
     private $responseSizeLimit = null;

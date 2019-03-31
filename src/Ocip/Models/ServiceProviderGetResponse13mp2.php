@@ -37,6 +37,8 @@ class ServiceProviderGetResponse13mp2 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName defaultDomain
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:21025
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $defaultDomain = null;
@@ -46,6 +48,8 @@ class ServiceProviderGetResponse13mp2 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:21025
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $serviceProviderName = null;
@@ -55,6 +59,8 @@ class ServiceProviderGetResponse13mp2 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:21025
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $supportEmail = null;

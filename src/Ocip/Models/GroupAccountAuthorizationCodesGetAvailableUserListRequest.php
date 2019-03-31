@@ -19,6 +19,8 @@ class GroupAccountAuthorizationCodesGetAvailableUserListRequest extends \CWM\Bro
      * @ElementName serviceProviderId
      * @Type string
      * @Group 65df37199ec43e5d21a187db39d63158:84
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,6 +29,8 @@ class GroupAccountAuthorizationCodesGetAvailableUserListRequest extends \CWM\Bro
      * @ElementName groupId
      * @Type string
      * @Group 65df37199ec43e5d21a187db39d63158:84
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;
@@ -36,6 +40,7 @@ class GroupAccountAuthorizationCodesGetAvailableUserListRequest extends \CWM\Bro
      * @Type int
      * @Optional
      * @Group 65df37199ec43e5d21a187db39d63158:84
+     * @MinInclusive 1
      * @var int|null
      */
     private $responseSizeLimit = null;

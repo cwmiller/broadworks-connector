@@ -20,6 +20,8 @@ class ServiceProviderCommunicationBarringProfileGetResponse extends \CWM\BroadWo
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:20937
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $description = null;
@@ -37,6 +39,8 @@ class ServiceProviderCommunicationBarringProfileGetResponse extends \CWM\BroadWo
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:20937
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $originatingDefaultTreatmentId = null;
@@ -46,6 +50,8 @@ class ServiceProviderCommunicationBarringProfileGetResponse extends \CWM\BroadWo
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:20937
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $originatingDefaultTransferNumber = null;
@@ -55,6 +61,8 @@ class ServiceProviderCommunicationBarringProfileGetResponse extends \CWM\BroadWo
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:20937
+     * @MinInclusive 60
+     * @MaxInclusive 86400
      * @var int|null
      */
     private $originatingDefaultCallTimeout = null;
@@ -84,6 +92,8 @@ class ServiceProviderCommunicationBarringProfileGetResponse extends \CWM\BroadWo
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:20937
+     * @MinInclusive 60
+     * @MaxInclusive 86400
      * @var int|null
      */
     private $redirectingDefaultCallTimeout = null;
@@ -113,6 +123,8 @@ class ServiceProviderCommunicationBarringProfileGetResponse extends \CWM\BroadWo
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:20937
+     * @MinInclusive 60
+     * @MaxInclusive 86400
      * @var int|null
      */
     private $incomingDefaultCallTimeout = null;

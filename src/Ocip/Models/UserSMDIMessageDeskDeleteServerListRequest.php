@@ -19,6 +19,8 @@ class UserSMDIMessageDeskDeleteServerListRequest extends \CWM\BroadWorksConnecto
      * @ElementName userId
      * @Type string
      * @Group ee7bb69368e23a56a82c5d9cf07b5433:243
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;
@@ -28,6 +30,8 @@ class UserSMDIMessageDeskDeleteServerListRequest extends \CWM\BroadWorksConnecto
      * @Type string
      * @Array
      * @Group ee7bb69368e23a56a82c5d9cf07b5433:243
+     * @MinLength 1
+     * @MaxLength 40
      * @var string[]
      */
     private $deviceName = array(

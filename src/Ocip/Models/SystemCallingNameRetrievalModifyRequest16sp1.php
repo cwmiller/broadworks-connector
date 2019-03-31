@@ -50,6 +50,8 @@ class SystemCallingNameRetrievalModifyRequest16sp1 extends \CWM\BroadWorksConnec
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:31461
+     * @MinInclusive 100
+     * @MaxInclusive 10000
      * @var int|null
      */
     private $queryTimeoutMilliseconds = null;
@@ -60,6 +62,8 @@ class SystemCallingNameRetrievalModifyRequest16sp1 extends \CWM\BroadWorksConnec
      * @Nillable
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:31461
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $sipExternalDatabaseNetAddress = null;
@@ -70,6 +74,8 @@ class SystemCallingNameRetrievalModifyRequest16sp1 extends \CWM\BroadWorksConnec
      * @Nillable
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:31461
+     * @MinInclusive 1025
+     * @MaxInclusive 65535
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $sipExternalDatabasePort = null;
@@ -89,6 +95,8 @@ class SystemCallingNameRetrievalModifyRequest16sp1 extends \CWM\BroadWorksConnec
      * @Nillable
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:31461
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $soapExternalDatabaseNetAddress = null;

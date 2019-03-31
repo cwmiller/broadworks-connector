@@ -20,6 +20,8 @@ class GroupGroupPagingGetAvailableTargetListRequest extends \CWM\BroadWorksConne
      * @ElementName serviceUserId
      * @Type string
      * @Group 0d36df8c109e3ea7324f79031368c661:213
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $serviceUserId = null;
@@ -29,6 +31,7 @@ class GroupGroupPagingGetAvailableTargetListRequest extends \CWM\BroadWorksConne
      * @Type int
      * @Optional
      * @Group 0d36df8c109e3ea7324f79031368c661:213
+     * @MinInclusive 1
      * @var int|null
      */
     private $responseSizeLimit = null;

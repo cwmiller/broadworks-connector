@@ -26,6 +26,8 @@ class UserSingleSignOnCreateDeviceTokenRequest extends \CWM\BroadWorksConnector\
      * @ElementName userId
      * @Type string
      * @Group 6b27fcc79475236456fc113a42b75543:715
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;
@@ -42,6 +44,8 @@ class UserSingleSignOnCreateDeviceTokenRequest extends \CWM\BroadWorksConnector\
      * @ElementName deviceName
      * @Type string
      * @Group 6b27fcc79475236456fc113a42b75543:715
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $deviceName = null;

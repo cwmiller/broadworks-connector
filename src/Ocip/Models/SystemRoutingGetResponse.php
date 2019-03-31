@@ -25,6 +25,8 @@ class SystemRoutingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @ElementName routeTimerSeconds
      * @Type int
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14225
+     * @MinInclusive 1
+     * @MaxInclusive 25
      * @var int|null
      */
     private $routeTimerSeconds = null;
@@ -41,6 +43,8 @@ class SystemRoutingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @ElementName statefulExpirationMinutes
      * @Type int
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14225
+     * @MinInclusive
+     * @MaxInclusive 1440
      * @var int|null
      */
     private $statefulExpirationMinutes = null;
@@ -49,6 +53,8 @@ class SystemRoutingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @ElementName maxAddressesPerHostname
      * @Type int
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14225
+     * @MinInclusive 1
+     * @MaxInclusive 50
      * @var int|null
      */
     private $maxAddressesPerHostname = null;
@@ -57,6 +63,8 @@ class SystemRoutingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @ElementName maxAddressesDuringSetup
      * @Type int
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14225
+     * @MinInclusive 1
+     * @MaxInclusive 50
      * @var int|null
      */
     private $maxAddressesDuringSetup = null;

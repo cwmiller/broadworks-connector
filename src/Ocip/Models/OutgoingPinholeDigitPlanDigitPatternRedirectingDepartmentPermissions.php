@@ -24,6 +24,7 @@ class OutgoingPinholeDigitPlanDigitPatternRedirectingDepartmentPermissions
      * @ElementName departmentName
      * @Type string
      * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:2329
+     * @MinLength 1
      * @var string|null
      */
     private $departmentName = null;

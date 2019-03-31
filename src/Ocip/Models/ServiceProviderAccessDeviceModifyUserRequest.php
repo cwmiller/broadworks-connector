@@ -21,6 +21,8 @@ class ServiceProviderAccessDeviceModifyUserRequest extends \CWM\BroadWorksConnec
      * @ElementName serviceProviderId
      * @Type string
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:733
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -29,6 +31,8 @@ class ServiceProviderAccessDeviceModifyUserRequest extends \CWM\BroadWorksConnec
      * @ElementName deviceName
      * @Type string
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:733
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $deviceName = null;
@@ -37,6 +41,8 @@ class ServiceProviderAccessDeviceModifyUserRequest extends \CWM\BroadWorksConnec
      * @ElementName linePort
      * @Type string
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:733
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $linePort = null;
@@ -46,6 +52,8 @@ class ServiceProviderAccessDeviceModifyUserRequest extends \CWM\BroadWorksConnec
      * @Type string
      * @Optional
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:733
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $privateIdentity = null;

@@ -35,6 +35,8 @@ class UserVoiceMessagingUserGetGreetingResponse18 extends \CWM\BroadWorksConnect
      * @Type string
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:2297
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $busyPersonalAudioFile = null;
@@ -53,6 +55,8 @@ class UserVoiceMessagingUserGetGreetingResponse18 extends \CWM\BroadWorksConnect
      * @Type string
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:2297
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $busyPersonalVideoFile = null;
@@ -79,6 +83,8 @@ class UserVoiceMessagingUserGetGreetingResponse18 extends \CWM\BroadWorksConnect
      * @Type string
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:2297
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $noAnswerPersonalAudioFile = null;
@@ -97,6 +103,8 @@ class UserVoiceMessagingUserGetGreetingResponse18 extends \CWM\BroadWorksConnect
      * @Type string
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:2297
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $noAnswerPersonalVideoFile = null;
@@ -166,6 +174,8 @@ class UserVoiceMessagingUserGetGreetingResponse18 extends \CWM\BroadWorksConnect
      * @Type string
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:2297
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $greetingOnlyForwardDestination = null;

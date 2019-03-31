@@ -19,6 +19,8 @@ class ServiceProviderExternalCustomRingbackModifyRequest extends \CWM\BroadWorks
      * @ElementName serviceProviderId
      * @Type string
      * @Group a8df43dca23d99d8ab44c0082aadfbe0:80
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -29,6 +31,8 @@ class ServiceProviderExternalCustomRingbackModifyRequest extends \CWM\BroadWorks
      * @Nillable
      * @Optional
      * @Group a8df43dca23d99d8ab44c0082aadfbe0:80
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $prefixDigits = null;
@@ -39,6 +43,8 @@ class ServiceProviderExternalCustomRingbackModifyRequest extends \CWM\BroadWorks
      * @Nillable
      * @Optional
      * @Group a8df43dca23d99d8ab44c0082aadfbe0:80
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $serverNetAddress = null;
@@ -49,6 +55,8 @@ class ServiceProviderExternalCustomRingbackModifyRequest extends \CWM\BroadWorks
      * @Nillable
      * @Optional
      * @Group a8df43dca23d99d8ab44c0082aadfbe0:80
+     * @MinInclusive 1025
+     * @MaxInclusive 65535
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $serverPort = null;
@@ -58,6 +66,8 @@ class ServiceProviderExternalCustomRingbackModifyRequest extends \CWM\BroadWorks
      * @Type int
      * @Optional
      * @Group a8df43dca23d99d8ab44c0082aadfbe0:80
+     * @MinInclusive 1
+     * @MaxInclusive 20
      * @var int|null
      */
     private $timeoutSeconds = null;

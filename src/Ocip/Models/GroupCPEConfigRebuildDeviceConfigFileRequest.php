@@ -22,6 +22,8 @@ class GroupCPEConfigRebuildDeviceConfigFileRequest extends \CWM\BroadWorksConnec
      * @ElementName serviceProviderId
      * @Type string
      * @Group f3a93cf15de4abd7903673e44ee3e07b:2605
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -30,6 +32,8 @@ class GroupCPEConfigRebuildDeviceConfigFileRequest extends \CWM\BroadWorksConnec
      * @ElementName groupId
      * @Type string
      * @Group f3a93cf15de4abd7903673e44ee3e07b:2605
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;
@@ -38,6 +42,8 @@ class GroupCPEConfigRebuildDeviceConfigFileRequest extends \CWM\BroadWorksConnec
      * @ElementName deviceName
      * @Type string
      * @Group f3a93cf15de4abd7903673e44ee3e07b:2605
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $deviceName = null;

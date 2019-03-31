@@ -20,6 +20,8 @@ class UserExecutiveGetAvailableAssistantListRequest extends \CWM\BroadWorksConne
      * @ElementName userId
      * @Type string
      * @Group 9a6dbade05624033cf7fe782b7c9a9a7:177
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;
@@ -29,6 +31,7 @@ class UserExecutiveGetAvailableAssistantListRequest extends \CWM\BroadWorksConne
      * @Type int
      * @Optional
      * @Group 9a6dbade05624033cf7fe782b7c9a9a7:177
+     * @MinInclusive 1
      * @var int|null
      */
     private $responseSizeLimit = null;

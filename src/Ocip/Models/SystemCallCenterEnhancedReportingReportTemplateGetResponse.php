@@ -18,6 +18,8 @@ class SystemCallCenterEnhancedReportingReportTemplateGetResponse extends \CWM\Br
      * @Type string
      * @Optional
      * @Group e2c537e3e39483b96620673a7012ffdd:6233
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $description = null;
@@ -26,6 +28,8 @@ class SystemCallCenterEnhancedReportingReportTemplateGetResponse extends \CWM\Br
      * @ElementName dataTemplate
      * @Type string
      * @Group e2c537e3e39483b96620673a7012ffdd:6233
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $dataTemplate = null;
@@ -35,6 +39,8 @@ class SystemCallCenterEnhancedReportingReportTemplateGetResponse extends \CWM\Br
      * @Type int
      * @Optional
      * @Group e2c537e3e39483b96620673a7012ffdd:6233
+     * @MinInclusive 1
+     * @MaxInclusive 999
      * @var int|null
      */
     private $filterNumber = null;
@@ -43,6 +49,8 @@ class SystemCallCenterEnhancedReportingReportTemplateGetResponse extends \CWM\Br
      * @ElementName xsltTemplateDescription
      * @Type string
      * @Group e2c537e3e39483b96620673a7012ffdd:6233
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $xsltTemplateDescription = null;
@@ -131,6 +139,8 @@ class SystemCallCenterEnhancedReportingReportTemplateGetResponse extends \CWM\Br
      * @Type int
      * @Optional
      * @Group e2c537e3e39483b96620673a7012ffdd:6233
+     * @MinInclusive 1
+     * @MaxInclusive 5
      * @var int|null
      */
     private $serviceLevelThresholdParamNumber = null;
@@ -140,6 +150,8 @@ class SystemCallCenterEnhancedReportingReportTemplateGetResponse extends \CWM\Br
      * @Type int
      * @Optional
      * @Group e2c537e3e39483b96620673a7012ffdd:6233
+     * @MinInclusive 1
+     * @MaxInclusive 4
      * @var int|null
      */
     private $abandonedCallThresholdParamNumber = null;
@@ -150,6 +162,8 @@ class SystemCallCenterEnhancedReportingReportTemplateGetResponse extends \CWM\Br
      * @Array
      * @Optional
      * @Group e2c537e3e39483b96620673a7012ffdd:6233
+     * @MinLength 1
+     * @MaxLength 160
      * @var string[]
      */
     private $filterValue = array(

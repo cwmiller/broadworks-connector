@@ -28,6 +28,8 @@ class GroupGroupPagingGetInstanceResponse extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName confirmationToneTimeoutSeconds
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:19531
+     * @MinInclusive 1
+     * @MaxInclusive 20
      * @var int|null
      */
     private $confirmationToneTimeoutSeconds = null;
@@ -45,6 +47,8 @@ class GroupGroupPagingGetInstanceResponse extends \CWM\BroadWorksConnector\Ocip\
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:19531
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $originatorCLIDPrefix = null;

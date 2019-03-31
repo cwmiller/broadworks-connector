@@ -21,6 +21,8 @@ class GroupEnterpriseTrunkGetUserListRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName serviceProviderId
      * @Type string
      * @Group b9c14e2d80e4e7749688ca13ba233b44:760
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -29,6 +31,8 @@ class GroupEnterpriseTrunkGetUserListRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName groupId
      * @Type string
      * @Group b9c14e2d80e4e7749688ca13ba233b44:760
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;
@@ -37,6 +41,8 @@ class GroupEnterpriseTrunkGetUserListRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName enterpriseTrunkName
      * @Type string
      * @Group b9c14e2d80e4e7749688ca13ba233b44:760
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $enterpriseTrunkName = null;
@@ -46,6 +52,7 @@ class GroupEnterpriseTrunkGetUserListRequest extends \CWM\BroadWorksConnector\Oc
      * @Type int
      * @Optional
      * @Group b9c14e2d80e4e7749688ca13ba233b44:760
+     * @MinInclusive 1
      * @var int|null
      */
     private $responseSizeLimit = null;

@@ -19,6 +19,8 @@ class SystemRoamingNetworkDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName mscAddress
      * @Type string
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:13862
+     * @MinLength 1
+     * @MaxLength 23
      * @var string|null
      */
     private $mscAddress = null;

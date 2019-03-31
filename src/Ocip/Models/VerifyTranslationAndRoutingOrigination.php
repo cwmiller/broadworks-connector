@@ -17,6 +17,8 @@ class VerifyTranslationAndRoutingOrigination
      * @ElementName linePort
      * @Type string
      * @Group c0d21ef9ba207c335d8347e5172fce1d:4576
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $linePort = null;
@@ -25,6 +27,8 @@ class VerifyTranslationAndRoutingOrigination
      * @ElementName phone
      * @Type string
      * @Group c0d21ef9ba207c335d8347e5172fce1d:4576
+     * @MinLength 1
+     * @MaxLength 23
      * @var string|null
      */
     private $phone = null;
@@ -33,6 +37,8 @@ class VerifyTranslationAndRoutingOrigination
      * @ElementName userId
      * @Type string
      * @Group c0d21ef9ba207c335d8347e5172fce1d:4576
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;
@@ -41,6 +47,8 @@ class VerifyTranslationAndRoutingOrigination
      * @ElementName url
      * @Type string
      * @Group c0d21ef9ba207c335d8347e5172fce1d:4576
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $url = null;

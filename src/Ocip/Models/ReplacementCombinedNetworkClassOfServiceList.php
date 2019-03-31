@@ -17,6 +17,8 @@ class ReplacementCombinedNetworkClassOfServiceList
      * @Type string
      * @Array
      * @Group c0d21ef9ba207c335d8347e5172fce1d:3134
+     * @MinLength 1
+     * @MaxLength 40
      * @var string[]
      */
     private $networkClassOfService = array(

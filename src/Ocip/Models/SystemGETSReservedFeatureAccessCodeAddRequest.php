@@ -19,6 +19,8 @@ class SystemGETSReservedFeatureAccessCodeAddRequest extends \CWM\BroadWorksConne
      * @ElementName code
      * @Type string
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9936
+     * @MinLength 1
+     * @MaxLength 5
      * @var string|null
      */
     private $code = null;
@@ -28,6 +30,8 @@ class SystemGETSReservedFeatureAccessCodeAddRequest extends \CWM\BroadWorksConne
      * @Type string
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9936
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $description = null;

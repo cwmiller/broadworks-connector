@@ -19,6 +19,8 @@ class SystemExternalAuthenticationModifyACLEntryRequest extends \CWM\BroadWorksC
      * @ElementName netAddress
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:5188
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $netAddress = null;
@@ -29,6 +31,8 @@ class SystemExternalAuthenticationModifyACLEntryRequest extends \CWM\BroadWorksC
      * @Nillable
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:5188
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $description = null;

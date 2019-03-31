@@ -19,6 +19,8 @@ class UserSpeedDial100GetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @ElementName userId
      * @Type string
      * @Group 066a3d16bce438447d23cbe6ff0885a6:209
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;
@@ -27,6 +29,8 @@ class UserSpeedDial100GetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @ElementName speedCode
      * @Type int
      * @Group 066a3d16bce438447d23cbe6ff0885a6:209
+     * @MinInclusive
+     * @MaxInclusive 99
      * @var int|null
      */
     private $speedCode = null;

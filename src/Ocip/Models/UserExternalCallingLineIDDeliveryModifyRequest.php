@@ -19,6 +19,8 @@ class UserExternalCallingLineIDDeliveryModifyRequest extends \CWM\BroadWorksConn
      * @ElementName userId
      * @Type string
      * @Group 32d8ff77cb7d4bf4500d71bb2fddabb9:75
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;

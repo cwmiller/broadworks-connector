@@ -22,6 +22,8 @@ class ServiceProviderServicePackMigrationTaskGetRequest extends \CWM\BroadWorksC
      * @ElementName serviceProviderId
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:3816
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -30,6 +32,8 @@ class ServiceProviderServicePackMigrationTaskGetRequest extends \CWM\BroadWorksC
      * @ElementName taskName
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:3816
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $taskName = null;

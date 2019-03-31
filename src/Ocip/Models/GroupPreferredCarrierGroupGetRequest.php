@@ -19,6 +19,8 @@ class GroupPreferredCarrierGroupGetRequest extends \CWM\BroadWorksConnector\Ocip
      * @ElementName serviceProviderId
      * @Type string
      * @Group 74a46a9bfccb54713c1d19735843f1df:58
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,6 +29,8 @@ class GroupPreferredCarrierGroupGetRequest extends \CWM\BroadWorksConnector\Ocip
      * @ElementName groupId
      * @Type string
      * @Group 74a46a9bfccb54713c1d19735843f1df:58
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;

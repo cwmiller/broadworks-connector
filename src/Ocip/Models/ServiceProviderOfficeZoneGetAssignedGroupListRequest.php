@@ -20,6 +20,8 @@ class ServiceProviderOfficeZoneGetAssignedGroupListRequest extends \CWM\BroadWor
      * @ElementName serviceProviderId
      * @Type string
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:4376
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -28,6 +30,8 @@ class ServiceProviderOfficeZoneGetAssignedGroupListRequest extends \CWM\BroadWor
      * @ElementName officeZoneName
      * @Type string
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:4376
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $officeZoneName = null;
@@ -37,6 +41,7 @@ class ServiceProviderOfficeZoneGetAssignedGroupListRequest extends \CWM\BroadWor
      * @Type int
      * @Optional
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:4376
+     * @MinInclusive 1
      * @var int|null
      */
     private $responseSizeLimit = null;

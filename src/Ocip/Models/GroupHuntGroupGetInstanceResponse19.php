@@ -55,6 +55,8 @@ class GroupHuntGroupGetInstanceResponse19 extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName noAnswerNumberOfRings
      * @Type int
      * @Group de4d76f01f337fe4694212ec9f771753:686
+     * @MinInclusive 1
+     * @MaxInclusive 20
      * @var int|null
      */
     private $noAnswerNumberOfRings = null;
@@ -71,6 +73,8 @@ class GroupHuntGroupGetInstanceResponse19 extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName forwardTimeoutSeconds
      * @Type int
      * @Group de4d76f01f337fe4694212ec9f771753:686
+     * @MinInclusive
+     * @MaxInclusive 7200
      * @var int|null
      */
     private $forwardTimeoutSeconds = null;
@@ -80,6 +84,8 @@ class GroupHuntGroupGetInstanceResponse19 extends \CWM\BroadWorksConnector\Ocip\
      * @Type string
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:686
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $forwardToPhoneNumber = null;
@@ -129,6 +135,8 @@ class GroupHuntGroupGetInstanceResponse19 extends \CWM\BroadWorksConnector\Ocip\
      * @Type string
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:686
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $notReachableForwardToPhoneNumber = null;

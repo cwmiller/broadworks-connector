@@ -19,6 +19,8 @@ class UserClassmarkGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @ElementName userId
      * @Type string
      * @Group 0d0e878cbc947aebb19ad489b2ffef11:172
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;

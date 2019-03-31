@@ -21,6 +21,8 @@ class UserSeriesCompletionGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Type string
      * @Optional
      * @Group b974dc59b4b32d9f5952a0442ecaefa8:234
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $name = null;

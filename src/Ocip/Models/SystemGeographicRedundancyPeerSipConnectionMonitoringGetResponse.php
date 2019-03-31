@@ -26,6 +26,8 @@ class SystemGeographicRedundancyPeerSipConnectionMonitoringGetResponse extends \
      * @ElementName heartbeatInterval
      * @Type int
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9548
+     * @MinInclusive 10
+     * @MaxInclusive 3600000
      * @var int|null
      */
     private $heartbeatInterval = null;
@@ -34,6 +36,8 @@ class SystemGeographicRedundancyPeerSipConnectionMonitoringGetResponse extends \
      * @ElementName heartbeatTimeout
      * @Type int
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9548
+     * @MinInclusive 10
+     * @MaxInclusive 18000000
      * @var int|null
      */
     private $heartbeatTimeout = null;

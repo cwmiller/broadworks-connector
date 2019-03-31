@@ -21,6 +21,8 @@ class SystemSpeedDial100ModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Nillable
      * @Optional
      * @Group 066a3d16bce438447d23cbe6ff0885a6:127
+     * @MinLength 1
+     * @MaxLength 2
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $prefix = null;

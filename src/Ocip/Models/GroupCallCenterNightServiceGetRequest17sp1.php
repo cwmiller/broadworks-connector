@@ -19,6 +19,8 @@ class GroupCallCenterNightServiceGetRequest17sp1 extends \CWM\BroadWorksConnecto
      * @ElementName serviceUserId
      * @Type string
      * @Group a8b2edcd7d6936a8b76653949ae59623:81
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $serviceUserId = null;

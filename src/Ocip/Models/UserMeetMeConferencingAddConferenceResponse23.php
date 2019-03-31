@@ -18,6 +18,8 @@ class UserMeetMeConferencingAddConferenceResponse23 extends \CWM\BroadWorksConne
      * @ElementName conferenceId
      * @Type string
      * @Group 0fd24121d16995c994d40bc408dbcfa5:591
+     * @MinLength 6
+     * @MaxLength 12
      * @var string|null
      */
     private $conferenceId = null;
@@ -26,6 +28,8 @@ class UserMeetMeConferencingAddConferenceResponse23 extends \CWM\BroadWorksConne
      * @ElementName moderatorPin
      * @Type string
      * @Group 0fd24121d16995c994d40bc408dbcfa5:591
+     * @MinLength 6
+     * @MaxLength 12
      * @var string|null
      */
     private $moderatorPin = null;
@@ -35,6 +39,8 @@ class UserMeetMeConferencingAddConferenceResponse23 extends \CWM\BroadWorksConne
      * @Type string
      * @Optional
      * @Group 0fd24121d16995c994d40bc408dbcfa5:591
+     * @MinLength 4
+     * @MaxLength 12
      * @var string|null
      */
     private $securityPin = null;

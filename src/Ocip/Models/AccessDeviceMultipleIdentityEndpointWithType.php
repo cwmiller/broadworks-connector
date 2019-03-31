@@ -26,6 +26,8 @@ class AccessDeviceMultipleIdentityEndpointWithType
      * @ElementName deviceType
      * @Type string
      * @Group c0d21ef9ba207c335d8347e5172fce1d:418
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $deviceType = null;
@@ -34,6 +36,8 @@ class AccessDeviceMultipleIdentityEndpointWithType
      * @ElementName linePort
      * @Type string
      * @Group c0d21ef9ba207c335d8347e5172fce1d:418
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $linePort = null;
@@ -43,6 +47,8 @@ class AccessDeviceMultipleIdentityEndpointWithType
      * @Type string
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:418
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $privateIdentity = null;
@@ -52,6 +58,8 @@ class AccessDeviceMultipleIdentityEndpointWithType
      * @Type string
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:418
+     * @MinLength 1
+     * @MaxLength 1020
      * @var string|null
      */
     private $contact = null;
@@ -61,6 +69,8 @@ class AccessDeviceMultipleIdentityEndpointWithType
      * @Type int
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:418
+     * @MinInclusive 1
+     * @MaxInclusive 1024
      * @var int|null
      */
     private $portNumber = null;
@@ -70,6 +80,8 @@ class AccessDeviceMultipleIdentityEndpointWithType
      * @Type string
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:418
+     * @MinLength 1
+     * @MaxLength 12
      * @var string|null
      */
     private $macAddress = null;

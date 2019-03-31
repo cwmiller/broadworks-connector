@@ -19,6 +19,8 @@ class SystemHolidayScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName holidayScheduleName
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:15478
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $holidayScheduleName = null;
@@ -28,6 +30,8 @@ class SystemHolidayScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:15478
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $newHolidayScheduleName = null;

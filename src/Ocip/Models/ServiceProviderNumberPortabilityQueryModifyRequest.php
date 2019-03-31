@@ -19,6 +19,8 @@ class ServiceProviderNumberPortabilityQueryModifyRequest extends \CWM\BroadWorks
      * @ElementName serviceProviderId
      * @Type string
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:4335
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -56,6 +58,8 @@ class ServiceProviderNumberPortabilityQueryModifyRequest extends \CWM\BroadWorks
      * @Array
      * @Optional
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:4335
+     * @MinLength 1
+     * @MaxLength 160
      * @var string[]
      */
     private $deleteDigitPattern = array(

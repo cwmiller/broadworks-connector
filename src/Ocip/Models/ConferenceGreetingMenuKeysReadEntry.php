@@ -17,6 +17,8 @@ class ConferenceGreetingMenuKeysReadEntry
      * @Type string
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2555
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $activateConfGreeting = null;
@@ -26,6 +28,8 @@ class ConferenceGreetingMenuKeysReadEntry
      * @Type string
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2555
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $deactivateConfGreeting = null;
@@ -35,6 +39,8 @@ class ConferenceGreetingMenuKeysReadEntry
      * @Type string
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2555
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $recordNewConfGreeting = null;
@@ -44,6 +50,8 @@ class ConferenceGreetingMenuKeysReadEntry
      * @Type string
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2555
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $listenToCurrentConfGreeting = null;
@@ -52,6 +60,8 @@ class ConferenceGreetingMenuKeysReadEntry
      * @ElementName returnToPreviousMenu
      * @Type string
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2555
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $returnToPreviousMenu = null;
@@ -61,6 +71,8 @@ class ConferenceGreetingMenuKeysReadEntry
      * @Type string
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2555
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $repeatMenu = null;

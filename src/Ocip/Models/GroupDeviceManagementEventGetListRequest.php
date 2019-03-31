@@ -23,6 +23,8 @@ class GroupDeviceManagementEventGetListRequest extends \CWM\BroadWorksConnector\
      * @ElementName serviceProviderId
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:41069
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -31,6 +33,8 @@ class GroupDeviceManagementEventGetListRequest extends \CWM\BroadWorksConnector\
      * @ElementName groupId
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:41069
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;
@@ -49,6 +53,7 @@ class GroupDeviceManagementEventGetListRequest extends \CWM\BroadWorksConnector\
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:41069
+     * @MinInclusive 1
      * @var int|null
      */
     private $responseSizeLimit = null;

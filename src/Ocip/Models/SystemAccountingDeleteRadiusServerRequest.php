@@ -19,6 +19,8 @@ class SystemAccountingDeleteRadiusServerRequest extends \CWM\BroadWorksConnector
      * @ElementName netAddress
      * @Type string
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1429
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $netAddress = null;
@@ -27,6 +29,8 @@ class SystemAccountingDeleteRadiusServerRequest extends \CWM\BroadWorksConnector
      * @ElementName port
      * @Type int
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1429
+     * @MinInclusive 1025
+     * @MaxInclusive 65535
      * @var int|null
      */
     private $port = null;

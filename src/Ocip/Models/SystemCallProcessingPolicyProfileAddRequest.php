@@ -22,6 +22,8 @@ class SystemCallProcessingPolicyProfileAddRequest extends \CWM\BroadWorksConnect
      * @ElementName name
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:31489
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $name = null;
@@ -31,6 +33,8 @@ class SystemCallProcessingPolicyProfileAddRequest extends \CWM\BroadWorksConnect
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:31489
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $description = null;

@@ -19,6 +19,8 @@ class GroupGroupPagingModifyInstanceRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName serviceUserId
      * @Type string
      * @Group 0d36df8c109e3ea7324f79031368c661:411
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $serviceUserId = null;
@@ -37,6 +39,8 @@ class GroupGroupPagingModifyInstanceRequest extends \CWM\BroadWorksConnector\Oci
      * @Type int
      * @Optional
      * @Group 0d36df8c109e3ea7324f79031368c661:411
+     * @MinInclusive 1
+     * @MaxInclusive 20
      * @var int|null
      */
     private $confirmationToneTimeoutSeconds = null;
@@ -56,6 +60,8 @@ class GroupGroupPagingModifyInstanceRequest extends \CWM\BroadWorksConnector\Oci
      * @Nillable
      * @Optional
      * @Group 0d36df8c109e3ea7324f79031368c661:411
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $originatorCLIDPrefix = null;
@@ -65,6 +71,8 @@ class GroupGroupPagingModifyInstanceRequest extends \CWM\BroadWorksConnector\Oci
      * @Type string
      * @Optional
      * @Group 0d36df8c109e3ea7324f79031368c661:411
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $networkClassOfService = null;

@@ -20,6 +20,8 @@ class SystemEmergencyCallNotificationModifyRequest extends \CWM\BroadWorksConnec
      * @Type string
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8696
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $defaultFromAddress = null;

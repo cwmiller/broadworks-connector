@@ -47,6 +47,8 @@ class EnhancedCallLogsRedirectedNumberFilter21sp1
      * @Type string
      * @Array
      * @Group f6b3702edb5f67fa12c2c426d98657db:376
+     * @MinLength 1
+     * @MaxLength 40
      * @var string[]
      */
     private $includeServiceInvocationConfigurableCallType = array(

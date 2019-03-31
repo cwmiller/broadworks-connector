@@ -19,6 +19,8 @@ class UserHolidayScheduleDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName userId
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:17256
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;
@@ -27,6 +29,8 @@ class UserHolidayScheduleDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName holidayScheduleName
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:17256
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $holidayScheduleName = null;

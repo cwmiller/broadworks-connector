@@ -18,6 +18,8 @@ class UserVoiceMessagingUserGetDistributionListResponse extends \CWM\BroadWorksC
      * @Type string
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1781
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $description = null;
@@ -28,6 +30,8 @@ class UserVoiceMessagingUserGetDistributionListResponse extends \CWM\BroadWorksC
      * @Array
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1781
+     * @MinLength 1
+     * @MaxLength 161
      * @var string[]
      */
     private $phoneNumber = array(

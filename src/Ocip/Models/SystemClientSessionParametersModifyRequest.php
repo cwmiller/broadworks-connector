@@ -29,6 +29,8 @@ class SystemClientSessionParametersModifyRequest extends \CWM\BroadWorksConnecto
      * @Type int
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:5118
+     * @MinInclusive 10
+     * @MaxInclusive 360
      * @var int|null
      */
     private $inactivityTimeoutMinutes = null;

@@ -18,6 +18,8 @@ class GroupCallParkGetResponse16sp2 extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName recallTimerSeconds
      * @Type int
      * @Group 7a925e891158dfa3cb1319e045608894:474
+     * @MinInclusive 30
+     * @MaxInclusive 600
      * @var int|null
      */
     private $recallTimerSeconds = null;
@@ -26,6 +28,8 @@ class GroupCallParkGetResponse16sp2 extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName displayTimerSeconds
      * @Type int
      * @Group 7a925e891158dfa3cb1319e045608894:474
+     * @MinInclusive 2
+     * @MaxInclusive 15
      * @var int|null
      */
     private $displayTimerSeconds = null;
@@ -43,6 +47,8 @@ class GroupCallParkGetResponse16sp2 extends \CWM\BroadWorksConnector\Ocip\Models
      * @Type string
      * @Optional
      * @Group 7a925e891158dfa3cb1319e045608894:474
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $recallAlternateUserId = null;
@@ -67,6 +73,8 @@ class GroupCallParkGetResponse16sp2 extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName alternateUserRecallTimerSeconds
      * @Type int
      * @Group 7a925e891158dfa3cb1319e045608894:474
+     * @MinInclusive 30
+     * @MaxInclusive 600
      * @var int|null
      */
     private $alternateUserRecallTimerSeconds = null;

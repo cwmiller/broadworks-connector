@@ -19,6 +19,8 @@ class GroupEmergencyCallNotificationModifyRequest extends \CWM\BroadWorksConnect
      * @ElementName serviceProviderId
      * @Type string
      * @Group f3a93cf15de4abd7903673e44ee3e07b:4674
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,6 +29,8 @@ class GroupEmergencyCallNotificationModifyRequest extends \CWM\BroadWorksConnect
      * @ElementName groupId
      * @Type string
      * @Group f3a93cf15de4abd7903673e44ee3e07b:4674
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;
@@ -46,6 +50,8 @@ class GroupEmergencyCallNotificationModifyRequest extends \CWM\BroadWorksConnect
      * @Nillable
      * @Optional
      * @Group f3a93cf15de4abd7903673e44ee3e07b:4674
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $emergencyCallNotifyEmailAddress = null;

@@ -19,6 +19,8 @@ class UserTwoStageDialingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName userId
      * @Type string
      * @Group 2a1428f64736d8f970ea802e5a73c495:163
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;

@@ -20,6 +20,8 @@ class SystemInventoryReportModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @Type string
      * @Optional
      * @Group 5c0fc3a03773b4f430e938115770c82d:110
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $defaultFromAddress = null;

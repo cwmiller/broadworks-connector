@@ -18,6 +18,8 @@ class SystemASRParametersGetResponse14sp7 extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName maxTransmissions
      * @Type int
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1944
+     * @MinInclusive 1
+     * @MaxInclusive 10
      * @var int|null
      */
     private $maxTransmissions = null;
@@ -26,6 +28,8 @@ class SystemASRParametersGetResponse14sp7 extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName retransmissionDelayMilliSeconds
      * @Type int
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1944
+     * @MinInclusive 100
+     * @MaxInclusive 2000
      * @var int|null
      */
     private $retransmissionDelayMilliSeconds = null;
@@ -34,6 +38,8 @@ class SystemASRParametersGetResponse14sp7 extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName listeningPort
      * @Type int
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1944
+     * @MinInclusive 1025
+     * @MaxInclusive 65535
      * @var int|null
      */
     private $listeningPort = null;

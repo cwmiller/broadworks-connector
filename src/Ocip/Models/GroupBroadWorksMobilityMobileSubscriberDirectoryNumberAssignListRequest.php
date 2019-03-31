@@ -21,6 +21,8 @@ class GroupBroadWorksMobilityMobileSubscriberDirectoryNumberAssignListRequest ex
      * @ElementName serviceProviderId
      * @Type string
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:329
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -29,6 +31,8 @@ class GroupBroadWorksMobilityMobileSubscriberDirectoryNumberAssignListRequest ex
      * @ElementName groupId
      * @Type string
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:329
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;
@@ -39,6 +43,8 @@ class GroupBroadWorksMobilityMobileSubscriberDirectoryNumberAssignListRequest ex
      * @Array
      * @Optional
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:329
+     * @MinLength 1
+     * @MaxLength 23
      * @var string[]
      */
     private $mobileSubscriberDirectoryNumber = array(

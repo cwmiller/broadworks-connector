@@ -18,6 +18,8 @@ class AnnouncementFileLevelKey
      * @ElementName name
      * @Type string
      * @Group c0d21ef9ba207c335d8347e5172fce1d:489
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $name = null;

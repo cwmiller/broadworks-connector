@@ -19,6 +19,8 @@ class GroupFindMeFollowMeGetAlertingGroupRequest extends \CWM\BroadWorksConnecto
      * @ElementName serviceUserId
      * @Type string
      * @Group 79f226053ee345f2ff4c37c37c8e9114:252
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $serviceUserId = null;
@@ -27,6 +29,8 @@ class GroupFindMeFollowMeGetAlertingGroupRequest extends \CWM\BroadWorksConnecto
      * @ElementName alertingGroupName
      * @Type string
      * @Group 79f226053ee345f2ff4c37c37c8e9114:252
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $alertingGroupName = null;

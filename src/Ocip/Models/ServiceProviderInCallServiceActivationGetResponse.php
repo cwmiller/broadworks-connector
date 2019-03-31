@@ -20,6 +20,8 @@ class ServiceProviderInCallServiceActivationGetResponse extends \CWM\BroadWorksC
      * @ElementName activationDigits
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:14732
+     * @MinLength 1
+     * @MaxLength 8
      * @var string|null
      */
     private $activationDigits = null;

@@ -21,6 +21,8 @@ class GroupSessionAdmissionControlGroupAddRequest19sp1 extends \CWM\BroadWorksCo
      * @ElementName serviceProviderId
      * @Type string
      * @Group f3a93cf15de4abd7903673e44ee3e07b:7049
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -29,6 +31,8 @@ class GroupSessionAdmissionControlGroupAddRequest19sp1 extends \CWM\BroadWorksCo
      * @ElementName groupId
      * @Type string
      * @Group f3a93cf15de4abd7903673e44ee3e07b:7049
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;
@@ -37,6 +41,8 @@ class GroupSessionAdmissionControlGroupAddRequest19sp1 extends \CWM\BroadWorksCo
      * @ElementName name
      * @Type string
      * @Group f3a93cf15de4abd7903673e44ee3e07b:7049
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $name = null;
@@ -45,6 +51,7 @@ class GroupSessionAdmissionControlGroupAddRequest19sp1 extends \CWM\BroadWorksCo
      * @ElementName maxSession
      * @Type int
      * @Group f3a93cf15de4abd7903673e44ee3e07b:7049
+     * @MinInclusive
      * @var int|null
      */
     private $maxSession = null;
@@ -54,6 +61,7 @@ class GroupSessionAdmissionControlGroupAddRequest19sp1 extends \CWM\BroadWorksCo
      * @Type int
      * @Optional
      * @Group f3a93cf15de4abd7903673e44ee3e07b:7049
+     * @MinInclusive
      * @var int|null
      */
     private $maxUserOriginatingSessions = null;
@@ -63,6 +71,7 @@ class GroupSessionAdmissionControlGroupAddRequest19sp1 extends \CWM\BroadWorksCo
      * @Type int
      * @Optional
      * @Group f3a93cf15de4abd7903673e44ee3e07b:7049
+     * @MinInclusive
      * @var int|null
      */
     private $maxUserTerminatingSessions = null;
@@ -71,6 +80,7 @@ class GroupSessionAdmissionControlGroupAddRequest19sp1 extends \CWM\BroadWorksCo
      * @ElementName reservedSession
      * @Type int
      * @Group f3a93cf15de4abd7903673e44ee3e07b:7049
+     * @MinInclusive
      * @var int|null
      */
     private $reservedSession = null;
@@ -80,6 +90,7 @@ class GroupSessionAdmissionControlGroupAddRequest19sp1 extends \CWM\BroadWorksCo
      * @Type int
      * @Optional
      * @Group f3a93cf15de4abd7903673e44ee3e07b:7049
+     * @MinInclusive
      * @var int|null
      */
     private $reservedUserOriginatingSessions = null;
@@ -89,6 +100,7 @@ class GroupSessionAdmissionControlGroupAddRequest19sp1 extends \CWM\BroadWorksCo
      * @Type int
      * @Optional
      * @Group f3a93cf15de4abd7903673e44ee3e07b:7049
+     * @MinInclusive
      * @var int|null
      */
     private $reservedUserTerminatingSessions = null;
@@ -134,6 +146,8 @@ class GroupSessionAdmissionControlGroupAddRequest19sp1 extends \CWM\BroadWorksCo
      * @Type string
      * @Optional
      * @Group f3a93cf15de4abd7903673e44ee3e07b:7049
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $mediaGroupName = null;
@@ -143,6 +157,8 @@ class GroupSessionAdmissionControlGroupAddRequest19sp1 extends \CWM\BroadWorksCo
      * @Type string
      * @Optional
      * @Group f3a93cf15de4abd7903673e44ee3e07b:7049
+     * @MinLength 1
+     * @MaxLength 1024
      * @var string|null
      */
     private $accessInfoPattern = null;

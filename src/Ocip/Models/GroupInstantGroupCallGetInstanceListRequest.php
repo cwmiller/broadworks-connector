@@ -20,6 +20,8 @@ class GroupInstantGroupCallGetInstanceListRequest extends \CWM\BroadWorksConnect
      * @ElementName serviceProviderId
      * @Type string
      * @Group f41dea4708922d4a3f0e26f198cc953f:86
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -28,6 +30,8 @@ class GroupInstantGroupCallGetInstanceListRequest extends \CWM\BroadWorksConnect
      * @ElementName groupId
      * @Type string
      * @Group f41dea4708922d4a3f0e26f198cc953f:86
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;
@@ -37,6 +41,8 @@ class GroupInstantGroupCallGetInstanceListRequest extends \CWM\BroadWorksConnect
      * @Type string
      * @Optional
      * @Group f41dea4708922d4a3f0e26f198cc953f:86
+     * @MinLength 1
+     * @MaxLength 50
      * @var string|null
      */
     private $groupDepartmentName = null;

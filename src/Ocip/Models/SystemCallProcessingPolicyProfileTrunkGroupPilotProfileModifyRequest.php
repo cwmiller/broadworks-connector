@@ -18,6 +18,8 @@ class SystemCallProcessingPolicyProfileTrunkGroupPilotProfileModifyRequest exten
      * @ElementName callProcessingPolicyProfileName
      * @Type string
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:4361
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $callProcessingPolicyProfileName = null;
@@ -145,6 +147,8 @@ class SystemCallProcessingPolicyProfileTrunkGroupPilotProfileModifyRequest exten
      * @Nillable
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:4361
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $supportedMediaSetName = null;
@@ -172,6 +176,8 @@ class SystemCallProcessingPolicyProfileTrunkGroupPilotProfileModifyRequest exten
      * @Type int
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:4361
+     * @MinInclusive 1
+     * @MaxInclusive 999999
      * @var int|null
      */
     private $maxSimultaneousCalls = null;
@@ -190,6 +196,8 @@ class SystemCallProcessingPolicyProfileTrunkGroupPilotProfileModifyRequest exten
      * @Type int
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:4361
+     * @MinInclusive 1
+     * @MaxInclusive 999999
      * @var int|null
      */
     private $maxSimultaneousVideoCalls = null;
@@ -208,6 +216,8 @@ class SystemCallProcessingPolicyProfileTrunkGroupPilotProfileModifyRequest exten
      * @Type int
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:4361
+     * @MinInclusive 3
+     * @MaxInclusive 2880
      * @var int|null
      */
     private $maxCallTimeForAnsweredCallsMinutes = null;
@@ -226,6 +236,8 @@ class SystemCallProcessingPolicyProfileTrunkGroupPilotProfileModifyRequest exten
      * @Type int
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:4361
+     * @MinInclusive 1
+     * @MaxInclusive 2880
      * @var int|null
      */
     private $maxCallTimeForUnansweredCallsMinutes = null;
@@ -244,6 +256,8 @@ class SystemCallProcessingPolicyProfileTrunkGroupPilotProfileModifyRequest exten
      * @Type int
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:4361
+     * @MinInclusive 1
+     * @MaxInclusive 999999
      * @var int|null
      */
     private $maxConcurrentRedirectedCalls = null;
@@ -271,6 +285,8 @@ class SystemCallProcessingPolicyProfileTrunkGroupPilotProfileModifyRequest exten
      * @Type int
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:4361
+     * @MinInclusive 1
+     * @MaxInclusive 999999
      * @var int|null
      */
     private $maxConcurrentFindMeFollowMeInvocations = null;
@@ -280,6 +296,8 @@ class SystemCallProcessingPolicyProfileTrunkGroupPilotProfileModifyRequest exten
      * @Type int
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:4361
+     * @MinInclusive 1
+     * @MaxInclusive 100
      * @var int|null
      */
     private $maxFindMeFollowMeDepth = null;
@@ -289,6 +307,8 @@ class SystemCallProcessingPolicyProfileTrunkGroupPilotProfileModifyRequest exten
      * @Type int
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:4361
+     * @MinInclusive 1
+     * @MaxInclusive 100
      * @var int|null
      */
     private $maxRedirectionDepth = null;
@@ -406,6 +426,8 @@ class SystemCallProcessingPolicyProfileTrunkGroupPilotProfileModifyRequest exten
      * @Type int
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:4361
+     * @MinInclusive 1
+     * @MaxInclusive 50
      * @var int|null
      */
     private $maxConcurrentTerminatingAlertingRequests = null;

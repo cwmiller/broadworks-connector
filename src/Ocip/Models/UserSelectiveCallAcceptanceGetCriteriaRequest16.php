@@ -21,6 +21,8 @@ class UserSelectiveCallAcceptanceGetCriteriaRequest16 extends \CWM\BroadWorksCon
      * @ElementName userId
      * @Type string
      * @Group de4d76f01f337fe4694212ec9f771753:3631
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;
@@ -29,6 +31,8 @@ class UserSelectiveCallAcceptanceGetCriteriaRequest16 extends \CWM\BroadWorksCon
      * @ElementName criteriaName
      * @Type string
      * @Group de4d76f01f337fe4694212ec9f771753:3631
+     * @MinLength 1
+     * @MaxLength 50
      * @var string|null
      */
     private $criteriaName = null;

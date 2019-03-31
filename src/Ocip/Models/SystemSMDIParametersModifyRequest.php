@@ -29,6 +29,8 @@ class SystemSMDIParametersModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Type int
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16843
+     * @MinInclusive 1025
+     * @MaxInclusive 65535
      * @var int|null
      */
     private $listeningPort = null;
@@ -38,6 +40,8 @@ class SystemSMDIParametersModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Type int
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16843
+     * @MinInclusive
+     * @MaxInclusive 64
      * @var int|null
      */
     private $maxConnections = null;

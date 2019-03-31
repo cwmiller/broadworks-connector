@@ -19,6 +19,8 @@ class UserZoneCallingRestrictionsGetResponse extends \CWM\BroadWorksConnector\Oc
      * @Type string
      * @Optional
      * @Group da5cd0d79ddb505982e08d164e405660:116
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $homeZoneName = null;

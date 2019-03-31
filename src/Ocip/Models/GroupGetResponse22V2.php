@@ -28,6 +28,8 @@ class GroupGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDat
      * @ElementName defaultDomain
      * @Type string
      * @Group f3a93cf15de4abd7903673e44ee3e07b:5256
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $defaultDomain = null;
@@ -36,6 +38,8 @@ class GroupGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDat
      * @ElementName userLimit
      * @Type int
      * @Group f3a93cf15de4abd7903673e44ee3e07b:5256
+     * @MinInclusive 1
+     * @MaxInclusive 999999
      * @var int|null
      */
     private $userLimit = null;
@@ -53,6 +57,8 @@ class GroupGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDat
      * @Type string
      * @Optional
      * @Group f3a93cf15de4abd7903673e44ee3e07b:5256
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $groupName = null;
@@ -62,6 +68,8 @@ class GroupGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDat
      * @Type string
      * @Optional
      * @Group f3a93cf15de4abd7903673e44ee3e07b:5256
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $callingLineIdName = null;
@@ -71,6 +79,8 @@ class GroupGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDat
      * @Type string
      * @Optional
      * @Group f3a93cf15de4abd7903673e44ee3e07b:5256
+     * @MinLength 1
+     * @MaxLength 23
      * @var string|null
      */
     private $callingLineIdPhoneNumber = null;
@@ -80,6 +90,8 @@ class GroupGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDat
      * @Type string
      * @Optional
      * @Group f3a93cf15de4abd7903673e44ee3e07b:5256
+     * @MinLength 1
+     * @MaxLength 23
      * @var string|null
      */
     private $callingLineIdDisplayPhoneNumber = null;
@@ -88,6 +100,8 @@ class GroupGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDat
      * @ElementName timeZone
      * @Type string
      * @Group f3a93cf15de4abd7903673e44ee3e07b:5256
+     * @MinLength 1
+     * @MaxLength 127
      * @var string|null
      */
     private $timeZone = null;
@@ -96,6 +110,8 @@ class GroupGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDat
      * @ElementName timeZoneDisplayName
      * @Type string
      * @Group f3a93cf15de4abd7903673e44ee3e07b:5256
+     * @MinLength 1
+     * @MaxLength 127
      * @var string|null
      */
     private $timeZoneDisplayName = null;
@@ -105,6 +121,8 @@ class GroupGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDat
      * @Type string
      * @Optional
      * @Group f3a93cf15de4abd7903673e44ee3e07b:5256
+     * @MinLength 1
+     * @MaxLength 15
      * @var string|null
      */
     private $locationDialingCode = null;
@@ -132,6 +150,8 @@ class GroupGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDat
      * @Type string
      * @Optional
      * @Group f3a93cf15de4abd7903673e44ee3e07b:5256
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $servicePolicy = null;
@@ -141,6 +161,8 @@ class GroupGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDat
      * @Type string
      * @Optional
      * @Group f3a93cf15de4abd7903673e44ee3e07b:5256
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $callProcessingSliceId = null;
@@ -150,6 +172,8 @@ class GroupGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDat
      * @Type string
      * @Optional
      * @Group f3a93cf15de4abd7903673e44ee3e07b:5256
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $provisioningSliceId = null;
@@ -159,6 +183,8 @@ class GroupGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDat
      * @Type string
      * @Optional
      * @Group f3a93cf15de4abd7903673e44ee3e07b:5256
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $subscriberPartition = null;
@@ -168,6 +194,8 @@ class GroupGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDat
      * @Type string
      * @Optional
      * @Group f3a93cf15de4abd7903673e44ee3e07b:5256
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $preferredDataCenter = null;
@@ -177,6 +205,8 @@ class GroupGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDat
      * @Type string
      * @Optional
      * @Group f3a93cf15de4abd7903673e44ee3e07b:5256
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $resellerId = null;

@@ -28,6 +28,8 @@ class GroupCallCenterComfortMessageBypassGetResponse17 extends \CWM\BroadWorksCo
      * @ElementName callWaitingAgeThresholdSeconds
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:29401
+     * @MinInclusive 1
+     * @MaxInclusive 120
      * @var int|null
      */
     private $callWaitingAgeThresholdSeconds = null;
@@ -44,6 +46,8 @@ class GroupCallCenterComfortMessageBypassGetResponse17 extends \CWM\BroadWorksCo
      * @ElementName ringTimeBeforePlayingAnnouncementSeconds
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:29401
+     * @MinInclusive
+     * @MaxInclusive 120
      * @var int|null
      */
     private $ringTimeBeforePlayingAnnouncementSeconds = null;

@@ -21,6 +21,8 @@ class UserVoiceMessagingUserModifyVoicePortalExecutionServerRequest extends \CWM
      * @ElementName userId
      * @Type string
      * @Group ac6f79eeb503f2d20b15e4c8d21d7077:126
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;

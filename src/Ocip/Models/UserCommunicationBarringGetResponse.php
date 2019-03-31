@@ -27,6 +27,8 @@ class UserCommunicationBarringGetResponse extends \CWM\BroadWorksConnector\Ocip\
      * @Type string
      * @Optional
      * @Group 53d18cc797d03d802cbc411ad821f1d4:1170
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $profileName = null;

@@ -116,6 +116,8 @@ class SystemSIPDeviceTypeGetResponse14sp2 extends \CWM\BroadWorksConnector\Ocip\
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:6249
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $webBasedConfigURL = null;
@@ -166,6 +168,8 @@ class SystemSIPDeviceTypeGetResponse14sp2 extends \CWM\BroadWorksConnector\Ocip\
      * @Type string
      * @Array
      * @Group ab0042aa512abc10edb3c55e4b416b0b:6249
+     * @MinLength 1
+     * @MaxLength 20
      * @var string[]
      */
     private $protocolChoice = array(

@@ -33,6 +33,8 @@ class EnhancedCallLogsCallAuthorizationCodeFilter
      * @ElementName authorizationCode
      * @Type string
      * @Group c0d21ef9ba207c335d8347e5172fce1d:2150
+     * @MinLength 2
+     * @MaxLength 14
      * @var string|null
      */
     private $authorizationCode = null;

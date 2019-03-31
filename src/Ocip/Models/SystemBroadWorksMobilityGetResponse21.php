@@ -60,6 +60,8 @@ class SystemBroadWorksMobilityGetResponse21 extends \CWM\BroadWorksConnector\Oci
      * @ElementName imrnTimeoutMillisecnds
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:37134
+     * @MinInclusive 100
+     * @MaxInclusive 60000
      * @var int|null
      */
     private $imrnTimeoutMillisecnds = null;

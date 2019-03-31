@@ -41,6 +41,8 @@ class SystemEnhancedCallLogsGetResponse20sp1 extends \CWM\BroadWorksConnector\Oc
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:21637
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $server1NetAddress = null;
@@ -49,6 +51,8 @@ class SystemEnhancedCallLogsGetResponse20sp1 extends \CWM\BroadWorksConnector\Oc
      * @ElementName server1SendPort
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:21637
+     * @MinInclusive 1025
+     * @MaxInclusive 65535
      * @var int|null
      */
     private $server1SendPort = null;
@@ -57,6 +61,8 @@ class SystemEnhancedCallLogsGetResponse20sp1 extends \CWM\BroadWorksConnector\Oc
      * @ElementName server1RetrievePort
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:21637
+     * @MinInclusive 1
+     * @MaxInclusive 65535
      * @var int|null
      */
     private $server1RetrievePort = null;
@@ -66,6 +72,8 @@ class SystemEnhancedCallLogsGetResponse20sp1 extends \CWM\BroadWorksConnector\Oc
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:21637
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $server2NetAddress = null;
@@ -74,6 +82,8 @@ class SystemEnhancedCallLogsGetResponse20sp1 extends \CWM\BroadWorksConnector\Oc
      * @ElementName server2SendPort
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:21637
+     * @MinInclusive 1025
+     * @MaxInclusive 65535
      * @var int|null
      */
     private $server2SendPort = null;
@@ -82,6 +92,8 @@ class SystemEnhancedCallLogsGetResponse20sp1 extends \CWM\BroadWorksConnector\Oc
      * @ElementName server2RetrievePort
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:21637
+     * @MinInclusive 1
+     * @MaxInclusive 65535
      * @var int|null
      */
     private $server2RetrievePort = null;
@@ -91,6 +103,8 @@ class SystemEnhancedCallLogsGetResponse20sp1 extends \CWM\BroadWorksConnector\Oc
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:21637
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $sharedSecret = null;
@@ -99,6 +113,8 @@ class SystemEnhancedCallLogsGetResponse20sp1 extends \CWM\BroadWorksConnector\Oc
      * @ElementName retransmissionDelayMilliSeconds
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:21637
+     * @MinInclusive 200
+     * @MaxInclusive 5000
      * @var int|null
      */
     private $retransmissionDelayMilliSeconds = null;
@@ -107,6 +123,8 @@ class SystemEnhancedCallLogsGetResponse20sp1 extends \CWM\BroadWorksConnector\Oc
      * @ElementName maxTransmissions
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:21637
+     * @MinInclusive 1
+     * @MaxInclusive 5
      * @var int|null
      */
     private $maxTransmissions = null;
@@ -115,6 +133,8 @@ class SystemEnhancedCallLogsGetResponse20sp1 extends \CWM\BroadWorksConnector\Oc
      * @ElementName soapTimeoutSeconds
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:21637
+     * @MinInclusive 1
+     * @MaxInclusive 120
      * @var int|null
      */
     private $soapTimeoutSeconds = null;
@@ -131,6 +151,8 @@ class SystemEnhancedCallLogsGetResponse20sp1 extends \CWM\BroadWorksConnector\Oc
      * @ElementName maxNonPagedResponseSize
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:21637
+     * @MinInclusive 100
+     * @MaxInclusive 1000
      * @var int|null
      */
     private $maxNonPagedResponseSize = null;
@@ -140,6 +162,8 @@ class SystemEnhancedCallLogsGetResponse20sp1 extends \CWM\BroadWorksConnector\Oc
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:21637
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $eclQueryApplicationURL = null;
@@ -149,6 +173,8 @@ class SystemEnhancedCallLogsGetResponse20sp1 extends \CWM\BroadWorksConnector\Oc
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:21637
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $eclQueryDataRepositoryURL = null;

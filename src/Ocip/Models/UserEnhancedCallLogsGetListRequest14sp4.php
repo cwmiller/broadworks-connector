@@ -24,6 +24,8 @@ class UserEnhancedCallLogsGetListRequest14sp4 extends \CWM\BroadWorksConnector\O
      * @ElementName userId
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:11307
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;
@@ -41,6 +43,8 @@ class UserEnhancedCallLogsGetListRequest14sp4 extends \CWM\BroadWorksConnector\O
      * @ElementName startingOffset
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:11307
+     * @MinInclusive
+     * @MaxInclusive 9999
      * @var int|null
      */
     private $startingOffset = null;
@@ -49,6 +53,8 @@ class UserEnhancedCallLogsGetListRequest14sp4 extends \CWM\BroadWorksConnector\O
      * @ElementName numCalls
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:11307
+     * @MinInclusive 1
+     * @MaxInclusive 10000
      * @var int|null
      */
     private $numCalls = null;

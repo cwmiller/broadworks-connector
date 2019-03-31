@@ -19,6 +19,8 @@ class SystemInCallServiceActivationGetResponse extends \CWM\BroadWorksConnector\
      * @ElementName defaultActivationDigits
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:15564
+     * @MinLength 1
+     * @MaxLength 8
      * @var string|null
      */
     private $defaultActivationDigits = null;

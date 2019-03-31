@@ -19,6 +19,8 @@ class UserVoiceMessagingUserDeleteAliasListRequest extends \CWM\BroadWorksConnec
      * @ElementName userId
      * @Type string
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1675
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;
@@ -28,6 +30,8 @@ class UserVoiceMessagingUserDeleteAliasListRequest extends \CWM\BroadWorksConnec
      * @Type string
      * @Array
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1675
+     * @MinLength 1
+     * @MaxLength 23
      * @var string[]
      */
     private $phoneNumber = array(

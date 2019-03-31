@@ -19,6 +19,8 @@ class GroupVoiceMessagingGroupModifyVoicePortalBrandingRequest20 extends \CWM\Br
      * @ElementName serviceProviderId
      * @Type string
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:266
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,6 +29,8 @@ class GroupVoiceMessagingGroupModifyVoicePortalBrandingRequest20 extends \CWM\Br
      * @ElementName groupId
      * @Type string
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:266
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;

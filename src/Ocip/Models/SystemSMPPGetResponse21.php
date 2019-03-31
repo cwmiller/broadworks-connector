@@ -29,6 +29,8 @@ class SystemSMPPGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @Type string
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:6721
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $primarySMPPServerNetAddress = null;
@@ -37,6 +39,8 @@ class SystemSMPPGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @ElementName primarySMPPPort
      * @Type int
      * @Group de4d76f01f337fe4694212ec9f771753:6721
+     * @MinInclusive 1
+     * @MaxInclusive 65535
      * @var int|null
      */
     private $primarySMPPPort = null;
@@ -46,6 +50,8 @@ class SystemSMPPGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @Type string
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:6721
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $secondarySMPPServerNetAddress = null;
@@ -54,6 +60,8 @@ class SystemSMPPGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @ElementName secondarySMPPPort
      * @Type int
      * @Group de4d76f01f337fe4694212ec9f771753:6721
+     * @MinInclusive 1
+     * @MaxInclusive 65535
      * @var int|null
      */
     private $secondarySMPPPort = null;
@@ -63,6 +71,8 @@ class SystemSMPPGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @Type string
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:6721
+     * @MinLength 1
+     * @MaxLength 16
      * @var string|null
      */
     private $systemId = null;
@@ -72,6 +82,8 @@ class SystemSMPPGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @Type string
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:6721
+     * @MinLength 1
+     * @MaxLength 8
      * @var string|null
      */
     private $password = null;
@@ -89,6 +101,8 @@ class SystemSMPPGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @Type string
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:6721
+     * @MinLength 1
+     * @MaxLength 12
      * @var string|null
      */
     private $systemType = null;
@@ -113,6 +127,8 @@ class SystemSMPPGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @ElementName maxShortMessageLength
      * @Type int
      * @Group de4d76f01f337fe4694212ec9f771753:6721
+     * @MinInclusive 1
+     * @MaxInclusive 70
      * @var int|null
      */
     private $maxShortMessageLength = null;

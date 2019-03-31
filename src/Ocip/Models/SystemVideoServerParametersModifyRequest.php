@@ -20,6 +20,8 @@ class SystemVideoServerParametersModifyRequest extends \CWM\BroadWorksConnector\
      * @Type int
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18187
+     * @MinInclusive 600
+     * @MaxInclusive 120000
      * @var int|null
      */
     private $videoServerResponseTimerMilliseconds = null;
@@ -29,6 +31,8 @@ class SystemVideoServerParametersModifyRequest extends \CWM\BroadWorksConnector\
      * @Type int
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18187
+     * @MinInclusive 500
+     * @MaxInclusive 120000
      * @var int|null
      */
     private $videoServerSelectionRouteTimerMilliseconds = null;

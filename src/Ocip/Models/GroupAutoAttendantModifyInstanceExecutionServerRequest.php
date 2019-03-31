@@ -21,6 +21,8 @@ class GroupAutoAttendantModifyInstanceExecutionServerRequest extends \CWM\BroadW
      * @ElementName serviceUserId
      * @Type string
      * @Group ac6f79eeb503f2d20b15e4c8d21d7077:18
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $serviceUserId = null;

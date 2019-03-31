@@ -14,6 +14,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18sp1GreetingOnlyForwa
      * @ElementName greetingOnlyForwardingDestination
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:27867
+     * @Length 1
+     * @Pattern \*|#
      * @var string|null
      */
     private $greetingOnlyForwardingDestination = null;

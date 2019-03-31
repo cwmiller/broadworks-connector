@@ -20,6 +20,8 @@ class GroupCommunicationBarringProfileGetAssignedListResponse extends \CWM\Broad
      * @Array
      * @Optional
      * @Group f3a93cf15de4abd7903673e44ee3e07b:2548
+     * @MinLength 1
+     * @MaxLength 40
      * @var string[]
      */
     private $profileName = array(

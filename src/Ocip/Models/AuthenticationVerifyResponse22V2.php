@@ -35,6 +35,7 @@ class AuthenticationVerifyResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName locale
      * @Type string
      * @Group 6b27fcc79475236456fc113a42b75543:105
+     * @MaxLength 5
      * @var string|null
      */
     private $locale = null;
@@ -43,6 +44,8 @@ class AuthenticationVerifyResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName encoding
      * @Type string
      * @Group 6b27fcc79475236456fc113a42b75543:105
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $encoding = null;
@@ -52,6 +55,8 @@ class AuthenticationVerifyResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Type string
      * @Optional
      * @Group 6b27fcc79475236456fc113a42b75543:105
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;
@@ -61,6 +66,8 @@ class AuthenticationVerifyResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Type string
      * @Optional
      * @Group 6b27fcc79475236456fc113a42b75543:105
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -87,6 +94,8 @@ class AuthenticationVerifyResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Type string
      * @Optional
      * @Group 6b27fcc79475236456fc113a42b75543:105
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $lastName = null;
@@ -96,6 +105,8 @@ class AuthenticationVerifyResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Type string
      * @Optional
      * @Group 6b27fcc79475236456fc113a42b75543:105
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $firstName = null;
@@ -104,6 +115,8 @@ class AuthenticationVerifyResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName userId
      * @Type string
      * @Group 6b27fcc79475236456fc113a42b75543:105
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;
@@ -113,6 +126,8 @@ class AuthenticationVerifyResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Type string
      * @Optional
      * @Group 6b27fcc79475236456fc113a42b75543:105
+     * @MinLength 1
+     * @MaxLength 23
      * @var string|null
      */
     private $phoneNumber = null;
@@ -122,6 +137,8 @@ class AuthenticationVerifyResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Type string
      * @Optional
      * @Group 6b27fcc79475236456fc113a42b75543:105
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $resellerId = null;

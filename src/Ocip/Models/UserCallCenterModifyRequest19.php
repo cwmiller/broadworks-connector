@@ -35,6 +35,8 @@ class UserCallCenterModifyRequest19 extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName userId
      * @Type string
      * @Group e2c537e3e39483b96620673a7012ffdd:7232
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;
@@ -53,6 +55,8 @@ class UserCallCenterModifyRequest19 extends \CWM\BroadWorksConnector\Ocip\Models
      * @Type string
      * @Optional
      * @Group e2c537e3e39483b96620673a7012ffdd:7232
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $agentThresholdProfileName = null;
@@ -63,6 +67,8 @@ class UserCallCenterModifyRequest19 extends \CWM\BroadWorksConnector\Ocip\Models
      * @Nillable
      * @Optional
      * @Group e2c537e3e39483b96620673a7012ffdd:7232
+     * @MinLength 1
+     * @MaxLength 10
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $agentUnavailableCode = null;
@@ -90,6 +96,8 @@ class UserCallCenterModifyRequest19 extends \CWM\BroadWorksConnector\Ocip\Models
      * @Type int
      * @Optional
      * @Group e2c537e3e39483b96620673a7012ffdd:7232
+     * @MinInclusive 1
+     * @MaxInclusive 25
      * @var int|null
      */
     private $guardTimerSeconds = null;
@@ -135,6 +143,8 @@ class UserCallCenterModifyRequest19 extends \CWM\BroadWorksConnector\Ocip\Models
      * @Type int
      * @Optional
      * @Group e2c537e3e39483b96620673a7012ffdd:7232
+     * @MinInclusive 1
+     * @MaxInclusive 5
      * @var int|null
      */
     private $numberConsecutiveBouncedCallsToForceAgentUnavailable = null;

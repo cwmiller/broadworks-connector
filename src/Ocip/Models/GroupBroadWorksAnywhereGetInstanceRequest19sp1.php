@@ -19,6 +19,8 @@ class GroupBroadWorksAnywhereGetInstanceRequest19sp1 extends \CWM\BroadWorksConn
      * @ElementName serviceUserId
      * @Type string
      * @Group 72f634ecc58842ce9d362ca629a47ea9:141
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $serviceUserId = null;

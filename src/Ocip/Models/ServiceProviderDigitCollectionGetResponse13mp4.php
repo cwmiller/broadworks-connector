@@ -18,6 +18,8 @@ class ServiceProviderDigitCollectionGetResponse13mp4 extends \CWM\BroadWorksConn
      * @Type string
      * @Optional
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:3091
+     * @MinLength 1
+     * @MaxLength 1
      * @var string|null
      */
     private $accessCode = null;
@@ -27,6 +29,8 @@ class ServiceProviderDigitCollectionGetResponse13mp4 extends \CWM\BroadWorksConn
      * @Type string
      * @Optional
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:3091
+     * @MinLength 1
+     * @MaxLength 2048
      * @var string|null
      */
     private $publicDigitMap = null;
@@ -36,6 +40,8 @@ class ServiceProviderDigitCollectionGetResponse13mp4 extends \CWM\BroadWorksConn
      * @Type string
      * @Optional
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:3091
+     * @MinLength 1
+     * @MaxLength 2048
      * @var string|null
      */
     private $privateDigitMap = null;

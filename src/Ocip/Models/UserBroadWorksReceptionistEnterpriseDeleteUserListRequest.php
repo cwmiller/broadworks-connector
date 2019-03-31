@@ -19,6 +19,8 @@ class UserBroadWorksReceptionistEnterpriseDeleteUserListRequest extends \CWM\Bro
      * @ElementName userId
      * @Type string
      * @Group fb12998f4f9e45cedde01f08569f4c7c:114
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;
@@ -28,6 +30,8 @@ class UserBroadWorksReceptionistEnterpriseDeleteUserListRequest extends \CWM\Bro
      * @Type string
      * @Array
      * @Group fb12998f4f9e45cedde01f08569f4c7c:114
+     * @MinLength 1
+     * @MaxLength 161
      * @var string[]
      */
     private $monitoredUserId = array(

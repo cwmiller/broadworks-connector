@@ -19,6 +19,8 @@ class UserAnnouncementFileAddRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName userId
      * @Type string
      * @Group 53d18cc797d03d802cbc411ad821f1d4:477
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;
@@ -27,6 +29,8 @@ class UserAnnouncementFileAddRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName announcementFileName
      * @Type string
      * @Group 53d18cc797d03d802cbc411ad821f1d4:477
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $announcementFileName = null;

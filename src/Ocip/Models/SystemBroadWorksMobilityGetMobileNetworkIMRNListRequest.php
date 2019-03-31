@@ -20,6 +20,8 @@ class SystemBroadWorksMobilityGetMobileNetworkIMRNListRequest extends \CWM\Broad
      * @ElementName mobileNetworkName
      * @Type string
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:754
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $mobileNetworkName = null;

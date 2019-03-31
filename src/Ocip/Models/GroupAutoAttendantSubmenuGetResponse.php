@@ -30,6 +30,8 @@ class GroupAutoAttendantSubmenuGetResponse extends \CWM\BroadWorksConnector\Ocip
      * @Type string
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:459
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $audioFileDescription = null;
@@ -48,6 +50,8 @@ class GroupAutoAttendantSubmenuGetResponse extends \CWM\BroadWorksConnector\Ocip
      * @Type string
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:459
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $videoFileDescription = null;

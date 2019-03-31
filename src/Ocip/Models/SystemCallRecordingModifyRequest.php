@@ -32,6 +32,8 @@ class SystemCallRecordingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:4676
+     * @MinInclusive 10
+     * @MaxInclusive 300
      * @var int|null
      */
     private $refreshPeriodSeconds = null;
@@ -41,6 +43,8 @@ class SystemCallRecordingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:4676
+     * @MinInclusive 1
+     * @MaxInclusive 10
      * @var int|null
      */
     private $maxConsecutiveFailures = null;
@@ -50,6 +54,8 @@ class SystemCallRecordingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:4676
+     * @MinInclusive 1000
+     * @MaxInclusive 10000
      * @var int|null
      */
     private $maxResponseWaitTimeMilliseconds = null;

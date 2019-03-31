@@ -19,6 +19,8 @@ class SystemOutgoingCallingPlanCallTypeDeleteMappingRequest extends \CWM\BroadWo
      * @ElementName countryCode
      * @Type string
      * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:893
+     * @MaxLength 3
+     * @Pattern [0-9]|[1-9][0-9]{1,2}
      * @var string|null
      */
     private $countryCode = null;
@@ -27,6 +29,8 @@ class SystemOutgoingCallingPlanCallTypeDeleteMappingRequest extends \CWM\BroadWo
      * @ElementName digitMap
      * @Type string
      * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:893
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $digitMap = null;

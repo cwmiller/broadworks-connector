@@ -19,6 +19,8 @@ class SystemBroadWorksMobilityGetIMRNListResponse extends \CWM\BroadWorksConnect
      * @Array
      * @Optional
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:737
+     * @MinLength 1
+     * @MaxLength 23
      * @var string[]
      */
     private $imrnNumber = array(

@@ -113,6 +113,8 @@ class SystemCallProcessingPolicyProfileCallCenterProfileGetResponse22 extends \C
      * @ElementName maxSimultaneousCalls
      * @Type int
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:3053
+     * @MinInclusive 1
+     * @MaxInclusive 999999
      * @var int|null
      */
     private $maxSimultaneousCalls = null;
@@ -129,6 +131,8 @@ class SystemCallProcessingPolicyProfileCallCenterProfileGetResponse22 extends \C
      * @ElementName maxSimultaneousVideoCalls
      * @Type int
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:3053
+     * @MinInclusive 1
+     * @MaxInclusive 999999
      * @var int|null
      */
     private $maxSimultaneousVideoCalls = null;
@@ -145,6 +149,8 @@ class SystemCallProcessingPolicyProfileCallCenterProfileGetResponse22 extends \C
      * @ElementName maxConcurrentRedirectedCalls
      * @Type int
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:3053
+     * @MinInclusive 1
+     * @MaxInclusive 999999
      * @var int|null
      */
     private $maxConcurrentRedirectedCalls = null;
@@ -161,6 +167,8 @@ class SystemCallProcessingPolicyProfileCallCenterProfileGetResponse22 extends \C
      * @ElementName maxFindMeFollowMeDepth
      * @Type int
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:3053
+     * @MinInclusive 1
+     * @MaxInclusive 100
      * @var int|null
      */
     private $maxFindMeFollowMeDepth = null;
@@ -177,6 +185,8 @@ class SystemCallProcessingPolicyProfileCallCenterProfileGetResponse22 extends \C
      * @ElementName maxConcurrentFindMeFollowMeInvocations
      * @Type int
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:3053
+     * @MinInclusive 1
+     * @MaxInclusive 999999
      * @var int|null
      */
     private $maxConcurrentFindMeFollowMeInvocations = null;
@@ -185,6 +195,8 @@ class SystemCallProcessingPolicyProfileCallCenterProfileGetResponse22 extends \C
      * @ElementName maxRedirectionDepth
      * @Type int
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:3053
+     * @MinInclusive 1
+     * @MaxInclusive 100
      * @var int|null
      */
     private $maxRedirectionDepth = null;

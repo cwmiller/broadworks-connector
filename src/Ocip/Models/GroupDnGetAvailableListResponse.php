@@ -21,6 +21,8 @@ class GroupDnGetAvailableListResponse extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Array
      * @Optional
      * @Group f3a93cf15de4abd7903673e44ee3e07b:4320
+     * @MinLength 1
+     * @MaxLength 23
      * @var string[]
      */
     private $phoneNumber = array(

@@ -25,6 +25,8 @@ class UserCallTransferGetResponse14sp4 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName recallNumberOfRings
      * @Type int
      * @Group 6604ba4b5f755b1ba8d7de48e87c6e63:57
+     * @MinInclusive 2
+     * @MaxInclusive 20
      * @var int|null
      */
     private $recallNumberOfRings = null;
@@ -57,6 +59,8 @@ class UserCallTransferGetResponse14sp4 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName busyCampOnSeconds
      * @Type int
      * @Group 6604ba4b5f755b1ba8d7de48e87c6e63:57
+     * @MinInclusive 30
+     * @MaxInclusive 600
      * @var int|null
      */
     private $busyCampOnSeconds = null;

@@ -20,6 +20,8 @@ class UserLegacyAutomaticCallbackGetRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName userId
      * @Type string
      * @Group 6bf3c0ead6c4d948122ea83af7fc6e34:163
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;

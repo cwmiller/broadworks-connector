@@ -23,6 +23,8 @@ class SystemSIPDeviceTypeGetRequest14sp3 extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName deviceType
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:6146
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $deviceType = null;

@@ -20,6 +20,8 @@ class GroupCollaborateBridgeGetAvailableUserListRequest extends \CWM\BroadWorksC
      * @ElementName serviceProviderId
      * @Type string
      * @Group 939fd5846dfae8bdf58308d6cb9ebb12:204
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -28,6 +30,8 @@ class GroupCollaborateBridgeGetAvailableUserListRequest extends \CWM\BroadWorksC
      * @ElementName groupId
      * @Type string
      * @Group 939fd5846dfae8bdf58308d6cb9ebb12:204
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;
@@ -37,6 +41,7 @@ class GroupCollaborateBridgeGetAvailableUserListRequest extends \CWM\BroadWorksC
      * @Type int
      * @Optional
      * @Group 939fd5846dfae8bdf58308d6cb9ebb12:204
+     * @MinInclusive 1
      * @var int|null
      */
     private $responseSizeLimit = null;

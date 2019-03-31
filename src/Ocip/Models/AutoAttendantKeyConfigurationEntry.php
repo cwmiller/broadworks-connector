@@ -20,6 +20,8 @@ class AutoAttendantKeyConfigurationEntry
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:44288
+     * @MinLength 1
+     * @MaxLength 20
      * @var string|null
      */
     private $description = null;
@@ -37,6 +39,8 @@ class AutoAttendantKeyConfigurationEntry
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:44288
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $phoneNumber = null;

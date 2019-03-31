@@ -22,6 +22,8 @@ class UserSpeedDial100GetListRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName userId
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:23905
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;

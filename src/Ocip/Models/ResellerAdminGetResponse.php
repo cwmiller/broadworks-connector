@@ -18,6 +18,8 @@ class ResellerAdminGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @ElementName resellerId
      * @Type string
      * @Group b009175f2a2a9d38115e319a6ad64d7f:165
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $resellerId = null;
@@ -27,6 +29,8 @@ class ResellerAdminGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @Type string
      * @Optional
      * @Group b009175f2a2a9d38115e319a6ad64d7f:165
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $firstName = null;
@@ -36,6 +40,8 @@ class ResellerAdminGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @Type string
      * @Optional
      * @Group b009175f2a2a9d38115e319a6ad64d7f:165
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $lastName = null;
@@ -44,6 +50,8 @@ class ResellerAdminGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @ElementName language
      * @Type string
      * @Group b009175f2a2a9d38115e319a6ad64d7f:165
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $language = null;

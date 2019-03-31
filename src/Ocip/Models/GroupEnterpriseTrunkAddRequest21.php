@@ -19,6 +19,8 @@ class GroupEnterpriseTrunkAddRequest21 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName serviceProviderId
      * @Type string
      * @Group b9c14e2d80e4e7749688ca13ba233b44:463
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,6 +29,8 @@ class GroupEnterpriseTrunkAddRequest21 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName groupId
      * @Type string
      * @Group b9c14e2d80e4e7749688ca13ba233b44:463
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;
@@ -35,6 +39,8 @@ class GroupEnterpriseTrunkAddRequest21 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName enterpriseTrunkName
      * @Type string
      * @Group b9c14e2d80e4e7749688ca13ba233b44:463
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $enterpriseTrunkName = null;
@@ -43,6 +49,8 @@ class GroupEnterpriseTrunkAddRequest21 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName maximumRerouteAttempts
      * @Type int
      * @Group b9c14e2d80e4e7749688ca13ba233b44:463
+     * @MinInclusive 1
+     * @MaxInclusive 10
      * @var int|null
      */
     private $maximumRerouteAttempts = null;
@@ -60,6 +68,8 @@ class GroupEnterpriseTrunkAddRequest21 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Type string
      * @Optional
      * @Group b9c14e2d80e4e7749688ca13ba233b44:463
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $routeExhaustionForwardAddress = null;
@@ -93,6 +103,7 @@ class GroupEnterpriseTrunkAddRequest21 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Type int
      * @Optional
      * @Group b9c14e2d80e4e7749688ca13ba233b44:463
+     * @MinInclusive 1
      * @var int|null
      */
     private $maxActiveCalls = null;
@@ -102,6 +113,7 @@ class GroupEnterpriseTrunkAddRequest21 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Type int
      * @Optional
      * @Group b9c14e2d80e4e7749688ca13ba233b44:463
+     * @MinInclusive
      * @var int|null
      */
     private $capacityExceededTrapInitialCalls = null;
@@ -111,6 +123,7 @@ class GroupEnterpriseTrunkAddRequest21 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Type int
      * @Optional
      * @Group b9c14e2d80e4e7749688ca13ba233b44:463
+     * @MinInclusive
      * @var int|null
      */
     private $capacityExceededTrapOffsetCalls = null;

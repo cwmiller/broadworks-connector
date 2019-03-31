@@ -20,6 +20,8 @@ class UserDevicePoliciesGetRequest21 extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName userId
      * @Type string
      * @Group 53d18cc797d03d802cbc411ad821f1d4:1478
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;

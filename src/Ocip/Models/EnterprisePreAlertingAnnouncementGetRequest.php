@@ -19,6 +19,8 @@ class EnterprisePreAlertingAnnouncementGetRequest extends \CWM\BroadWorksConnect
      * @ElementName serviceProviderId
      * @Type string
      * @Group 6165f2b4cd549de71fe8f3171488fdd8:51
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;

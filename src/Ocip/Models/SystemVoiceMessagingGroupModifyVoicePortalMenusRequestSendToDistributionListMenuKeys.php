@@ -15,6 +15,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestSendToDistributionLi
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:28570
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $sendMessageToSelectedDistributionList = null;
@@ -25,6 +27,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestSendToDistributionLi
      * @Nillable
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:28570
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $selectDistributionList = null;
@@ -35,6 +39,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestSendToDistributionLi
      * @Nillable
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:28570
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $reviewSelectedDistributionList = null;
@@ -44,6 +50,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestSendToDistributionLi
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:28570
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $returnToPreviousMenu = null;
@@ -54,6 +62,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestSendToDistributionLi
      * @Nillable
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:28570
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $repeatMenu = null;

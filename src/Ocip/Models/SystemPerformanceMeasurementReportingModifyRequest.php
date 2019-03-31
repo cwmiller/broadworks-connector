@@ -29,6 +29,8 @@ class SystemPerformanceMeasurementReportingModifyRequest extends \CWM\BroadWorks
      * @Type int
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:13319
+     * @MinInclusive 5
+     * @MaxInclusive 45000
      * @var int|null
      */
     private $reportingInterval = null;

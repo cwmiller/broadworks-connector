@@ -18,6 +18,8 @@ class UserOutgoingCallingPlanSustainedAuthorizationCodeGetResponse extends \CWM\
      * @Type string
      * @Optional
      * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:1647
+     * @MinLength 2
+     * @MaxLength 14
      * @var string|null
      */
     private $code = null;

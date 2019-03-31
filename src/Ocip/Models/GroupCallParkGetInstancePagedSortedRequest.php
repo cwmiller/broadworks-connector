@@ -29,6 +29,8 @@ class GroupCallParkGetInstancePagedSortedRequest extends \CWM\BroadWorksConnecto
      * @ElementName serviceProviderId
      * @Type string
      * @Group 7a925e891158dfa3cb1319e045608894:372
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -37,6 +39,8 @@ class GroupCallParkGetInstancePagedSortedRequest extends \CWM\BroadWorksConnecto
      * @ElementName groupId
      * @Type string
      * @Group 7a925e891158dfa3cb1319e045608894:372
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;
@@ -45,6 +49,8 @@ class GroupCallParkGetInstancePagedSortedRequest extends \CWM\BroadWorksConnecto
      * @ElementName name
      * @Type string
      * @Group 7a925e891158dfa3cb1319e045608894:372
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $name = null;

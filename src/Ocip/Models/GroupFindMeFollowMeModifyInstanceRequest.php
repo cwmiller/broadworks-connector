@@ -19,6 +19,8 @@ class GroupFindMeFollowMeModifyInstanceRequest extends \CWM\BroadWorksConnector\
      * @ElementName serviceUserId
      * @Type string
      * @Group 79f226053ee345f2ff4c37c37c8e9114:493
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $serviceUserId = null;
@@ -37,6 +39,8 @@ class GroupFindMeFollowMeModifyInstanceRequest extends \CWM\BroadWorksConnector\
      * @Type string
      * @Optional
      * @Group 79f226053ee345f2ff4c37c37c8e9114:493
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $networkClassOfService = null;

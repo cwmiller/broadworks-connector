@@ -26,6 +26,8 @@ class UserVoiceMessagingUserGetAdvancedVoiceManagementResponse14sp3 extends \CWM
      * @Type string
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1707
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $groupMailServerEmailAddress = null;
@@ -35,6 +37,8 @@ class UserVoiceMessagingUserGetAdvancedVoiceManagementResponse14sp3 extends \CWM
      * @Type string
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1707
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $groupMailServerUserId = null;
@@ -60,6 +64,8 @@ class UserVoiceMessagingUserGetAdvancedVoiceManagementResponse14sp3 extends \CWM
      * @Type string
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1707
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $personalMailServerNetAddress = null;
@@ -85,6 +91,8 @@ class UserVoiceMessagingUserGetAdvancedVoiceManagementResponse14sp3 extends \CWM
      * @Type string
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1707
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $personalMailServerEmailAddress = null;
@@ -94,6 +102,8 @@ class UserVoiceMessagingUserGetAdvancedVoiceManagementResponse14sp3 extends \CWM
      * @Type string
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1707
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $personalMailServerUserId = null;

@@ -31,6 +31,8 @@ class SystemSessionAuditModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:5695
+     * @MinInclusive 60
+     * @MaxInclusive 7200
      * @var int|null
      */
     private $intervalSeconds = null;
@@ -40,6 +42,8 @@ class SystemSessionAuditModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:5695
+     * @MinInclusive 60
+     * @MaxInclusive 600
      * @var int|null
      */
     private $timeoutPeriodSeconds = null;

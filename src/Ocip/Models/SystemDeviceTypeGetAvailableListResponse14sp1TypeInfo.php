@@ -40,6 +40,8 @@ class SystemDeviceTypeGetAvailableListResponse14sp1TypeInfo
      * @Type string
      * @Array
      * @Group ab0042aa512abc10edb3c55e4b416b0b:5010
+     * @MinLength 1
+     * @MaxLength 20
      * @var string[]
      */
     private $protocolChoice = array(

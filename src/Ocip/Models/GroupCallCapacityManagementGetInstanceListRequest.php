@@ -19,6 +19,8 @@ class GroupCallCapacityManagementGetInstanceListRequest extends \CWM\BroadWorksC
      * @ElementName serviceProviderId
      * @Type string
      * @Group dfcd2b22f2e2b3540d286342087ce042:173
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,6 +29,8 @@ class GroupCallCapacityManagementGetInstanceListRequest extends \CWM\BroadWorksC
      * @ElementName groupId
      * @Type string
      * @Group dfcd2b22f2e2b3540d286342087ce042:173
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;

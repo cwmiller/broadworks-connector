@@ -21,6 +21,8 @@ class SystemZoneCallingRestrictionsNetAddressAddListRequest extends \CWM\BroadWo
      * @ElementName zoneName
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:16604
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $zoneName = null;
@@ -31,6 +33,8 @@ class SystemZoneCallingRestrictionsNetAddressAddListRequest extends \CWM\BroadWo
      * @Array
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:16604
+     * @MinLength 1
+     * @MaxLength 39
      * @var string[]
      */
     private $netAddress = array(

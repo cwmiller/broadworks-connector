@@ -50,6 +50,8 @@ class EstimatedWaitMessageOptionsRead
      * @ElementName maximumPositions
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:44379
+     * @MinInclusive 1
+     * @MaxInclusive 100
      * @var int|null
      */
     private $maximumPositions = null;
@@ -58,6 +60,8 @@ class EstimatedWaitMessageOptionsRead
      * @ElementName maximumWaitingMinutes
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:44379
+     * @MinInclusive 1
+     * @MaxInclusive 100
      * @var int|null
      */
     private $maximumWaitingMinutes = null;
@@ -66,6 +70,8 @@ class EstimatedWaitMessageOptionsRead
      * @ElementName defaultCallHandlingMinutes
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:44379
+     * @MinInclusive 1
+     * @MaxInclusive 100
      * @var int|null
      */
     private $defaultCallHandlingMinutes = null;

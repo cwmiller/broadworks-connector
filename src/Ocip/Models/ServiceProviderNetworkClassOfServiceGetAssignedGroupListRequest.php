@@ -21,6 +21,8 @@ class ServiceProviderNetworkClassOfServiceGetAssignedGroupListRequest extends \C
      * @ElementName serviceProviderId
      * @Type string
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:4172
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -29,6 +31,8 @@ class ServiceProviderNetworkClassOfServiceGetAssignedGroupListRequest extends \C
      * @ElementName networkClassOfService
      * @Type string
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:4172
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $networkClassOfService = null;
@@ -38,6 +42,7 @@ class ServiceProviderNetworkClassOfServiceGetAssignedGroupListRequest extends \C
      * @Type int
      * @Optional
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:4172
+     * @MinInclusive 1
      * @var int|null
      */
     private $responseSizeLimit = null;

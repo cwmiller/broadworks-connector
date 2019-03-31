@@ -19,6 +19,8 @@ class UserModifyUserIdRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @ElementName userId
      * @Type string
      * @Group 53d18cc797d03d802cbc411ad821f1d4:2620
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;
@@ -27,6 +29,8 @@ class UserModifyUserIdRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @ElementName newUserId
      * @Type string
      * @Group 53d18cc797d03d802cbc411ad821f1d4:2620
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $newUserId = null;

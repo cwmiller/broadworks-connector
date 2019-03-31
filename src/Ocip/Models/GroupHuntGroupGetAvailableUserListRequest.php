@@ -20,6 +20,8 @@ class GroupHuntGroupGetAvailableUserListRequest extends \CWM\BroadWorksConnector
      * @ElementName serviceProviderId
      * @Type string
      * @Group bc829065f9d696d3ca7084121d57f8c0:245
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -28,6 +30,8 @@ class GroupHuntGroupGetAvailableUserListRequest extends \CWM\BroadWorksConnector
      * @ElementName groupId
      * @Type string
      * @Group bc829065f9d696d3ca7084121d57f8c0:245
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;
@@ -37,6 +41,7 @@ class GroupHuntGroupGetAvailableUserListRequest extends \CWM\BroadWorksConnector
      * @Type int
      * @Optional
      * @Group bc829065f9d696d3ca7084121d57f8c0:245
+     * @MinInclusive 1
      * @var int|null
      */
     private $responseSizeLimit = null;

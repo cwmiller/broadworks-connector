@@ -19,6 +19,8 @@ class SystemCommunicationBarringCriteriaGetRequest17 extends \CWM\BroadWorksConn
      * @ElementName name
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:15125
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $name = null;

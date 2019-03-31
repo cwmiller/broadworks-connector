@@ -19,6 +19,8 @@ class GroupCallingPlanDeleteDigitPatternListRequest extends \CWM\BroadWorksConne
      * @ElementName serviceProviderId
      * @Type string
      * @Group 00a30b95794e8eb54c36eccd0a6188fa:62
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,6 +29,8 @@ class GroupCallingPlanDeleteDigitPatternListRequest extends \CWM\BroadWorksConne
      * @ElementName groupId
      * @Type string
      * @Group 00a30b95794e8eb54c36eccd0a6188fa:62
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;
@@ -36,6 +40,8 @@ class GroupCallingPlanDeleteDigitPatternListRequest extends \CWM\BroadWorksConne
      * @Type string
      * @Array
      * @Group 00a30b95794e8eb54c36eccd0a6188fa:62
+     * @MinLength 1
+     * @MaxLength 30
      * @var string[]
      */
     private $name = array(

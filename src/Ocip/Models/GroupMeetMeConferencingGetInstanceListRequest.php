@@ -20,6 +20,8 @@ class GroupMeetMeConferencingGetInstanceListRequest extends \CWM\BroadWorksConne
      * @ElementName serviceProviderId
      * @Type string
      * @Group 0fd24121d16995c994d40bc408dbcfa5:159
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -28,6 +30,8 @@ class GroupMeetMeConferencingGetInstanceListRequest extends \CWM\BroadWorksConne
      * @ElementName groupId
      * @Type string
      * @Group 0fd24121d16995c994d40bc408dbcfa5:159
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;
@@ -37,6 +41,8 @@ class GroupMeetMeConferencingGetInstanceListRequest extends \CWM\BroadWorksConne
      * @Type string
      * @Optional
      * @Group 0fd24121d16995c994d40bc408dbcfa5:159
+     * @MinLength 1
+     * @MaxLength 50
      * @var string|null
      */
     private $departmentName = null;

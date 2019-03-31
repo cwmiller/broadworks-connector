@@ -20,6 +20,8 @@ class UserAdviceOfChargeGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @ElementName userId
      * @Type string
      * @Group a69fde15f3aa7494d83b57461a7a70bb:287
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;

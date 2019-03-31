@@ -20,6 +20,8 @@ class UserBroadWorksAnywhereGetPhoneNumberPagedSortedListRequest extends \CWM\Br
      * @ElementName userId
      * @Type string
      * @Group 72f634ecc58842ce9d362ca629a47ea9:381
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;

@@ -16,6 +16,8 @@ class DNISKey
      * @ElementName serviceUserId
      * @Type string
      * @Group c0d21ef9ba207c335d8347e5172fce1d:2100
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $serviceUserId = null;
@@ -24,6 +26,8 @@ class DNISKey
      * @ElementName name
      * @Type string
      * @Group c0d21ef9ba207c335d8347e5172fce1d:2100
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $name = null;

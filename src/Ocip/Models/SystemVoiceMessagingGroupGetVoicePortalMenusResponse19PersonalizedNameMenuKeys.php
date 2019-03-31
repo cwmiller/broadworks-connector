@@ -15,6 +15,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19PersonalizedNameMenu
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:28005
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $recordNewPersonalizedName = null;
@@ -24,6 +26,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19PersonalizedNameMenu
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:28005
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $listenToCurrentPersonalizedName = null;
@@ -33,6 +37,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19PersonalizedNameMenu
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:28005
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $deletePersonalizedName = null;
@@ -41,6 +47,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19PersonalizedNameMenu
      * @ElementName returnToPreviousMenu
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:28005
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $returnToPreviousMenu = null;
@@ -50,6 +58,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19PersonalizedNameMenu
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:28005
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $repeatMenu = null;

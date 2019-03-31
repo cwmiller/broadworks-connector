@@ -20,6 +20,8 @@ class UserBroadWorksMobilityMobileIdentityGetResponse22V2 extends \CWM\BroadWork
      * @Type string
      * @Optional
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:1637
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $description = null;
@@ -240,6 +242,8 @@ class UserBroadWorksMobilityMobileIdentityGetResponse22V2 extends \CWM\BroadWork
      * @Type string
      * @Optional
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:1637
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $outboundAlternateNumber = null;
@@ -273,6 +277,8 @@ class UserBroadWorksMobilityMobileIdentityGetResponse22V2 extends \CWM\BroadWork
      * @Type string
      * @Optional
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:1637
+     * @MinLength 1
+     * @MaxLength 128
      * @var string|null
      */
     private $networkTranslationIndex = null;

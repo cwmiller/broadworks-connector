@@ -69,6 +69,8 @@ class UserCallRecordingGetResponse20 extends \CWM\BroadWorksConnector\Ocip\Model
      * @Type int
      * @Optional
      * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:422
+     * @MinInclusive 10
+     * @MaxInclusive 1800
      * @var int|null
      */
     private $recordCallRepeatWarningToneTimerSeconds = null;

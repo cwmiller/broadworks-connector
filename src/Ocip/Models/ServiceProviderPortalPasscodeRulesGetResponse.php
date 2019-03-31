@@ -58,6 +58,8 @@ class ServiceProviderPortalPasscodeRulesGetResponse extends \CWM\BroadWorksConne
      * @ElementName minCodeLength
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:25816
+     * @MinInclusive 2
+     * @MaxInclusive 15
      * @var int|null
      */
     private $minCodeLength = null;
@@ -66,6 +68,8 @@ class ServiceProviderPortalPasscodeRulesGetResponse extends \CWM\BroadWorksConne
      * @ElementName maxCodeLength
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:25816
+     * @MinInclusive 3
+     * @MaxInclusive 30
      * @var int|null
      */
     private $maxCodeLength = null;
@@ -83,6 +87,8 @@ class ServiceProviderPortalPasscodeRulesGetResponse extends \CWM\BroadWorksConne
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:25816
+     * @MinInclusive 2
+     * @MaxInclusive 10
      * @var int|null
      */
     private $maxFailedLoginAttempts = null;
@@ -100,6 +106,8 @@ class ServiceProviderPortalPasscodeRulesGetResponse extends \CWM\BroadWorksConne
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:25816
+     * @MinInclusive 15
+     * @MaxInclusive 180
      * @var int|null
      */
     private $passcodeExpiresDays = null;
@@ -117,6 +125,8 @@ class ServiceProviderPortalPasscodeRulesGetResponse extends \CWM\BroadWorksConne
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:25816
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $loginDisabledNotifyEmailAddress = null;

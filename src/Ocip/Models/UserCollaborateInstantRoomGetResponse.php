@@ -18,6 +18,8 @@ class UserCollaborateInstantRoomGetResponse extends \CWM\BroadWorksConnector\Oci
      * @Type string
      * @Optional
      * @Group 939fd5846dfae8bdf58308d6cb9ebb12:684
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $roomName = null;

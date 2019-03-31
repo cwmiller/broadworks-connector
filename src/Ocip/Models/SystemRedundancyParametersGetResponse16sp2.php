@@ -18,6 +18,8 @@ class SystemRedundancyParametersGetResponse16sp2 extends \CWM\BroadWorksConnecto
      * @ElementName rollBackTimerMinutes
      * @Type int
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:13811
+     * @MinInclusive
+     * @MaxInclusive 3600
      * @var int|null
      */
     private $rollBackTimerMinutes = null;

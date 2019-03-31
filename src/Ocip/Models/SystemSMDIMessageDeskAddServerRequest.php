@@ -19,6 +19,8 @@ class SystemSMDIMessageDeskAddServerRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName deviceName
      * @Type string
      * @Group ee7bb69368e23a56a82c5d9cf07b5433:52
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $deviceName = null;
@@ -27,6 +29,8 @@ class SystemSMDIMessageDeskAddServerRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName netAddress
      * @Type string
      * @Group ee7bb69368e23a56a82c5d9cf07b5433:52
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $netAddress = null;
@@ -35,6 +39,8 @@ class SystemSMDIMessageDeskAddServerRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName port
      * @Type int
      * @Group ee7bb69368e23a56a82c5d9cf07b5433:52
+     * @MinInclusive 1
+     * @MaxInclusive 65535
      * @var int|null
      */
     private $port = null;
@@ -44,6 +50,8 @@ class SystemSMDIMessageDeskAddServerRequest extends \CWM\BroadWorksConnector\Oci
      * @Type string
      * @Optional
      * @Group ee7bb69368e23a56a82c5d9cf07b5433:52
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $description = null;

@@ -16,6 +16,8 @@ class UserCallLogsClearRequest14sp4DeleteSpecifiedCallLogs
      * @Array
      * @Optional
      * @Group 53d18cc797d03d802cbc411ad821f1d4:804
+     * @MinLength 1
+     * @MaxLength 36
      * @var string[]
      */
     private $placedCallLogId = array(
@@ -28,6 +30,8 @@ class UserCallLogsClearRequest14sp4DeleteSpecifiedCallLogs
      * @Array
      * @Optional
      * @Group 53d18cc797d03d802cbc411ad821f1d4:804
+     * @MinLength 1
+     * @MaxLength 36
      * @var string[]
      */
     private $receivedCallLogId = array(
@@ -40,6 +44,8 @@ class UserCallLogsClearRequest14sp4DeleteSpecifiedCallLogs
      * @Array
      * @Optional
      * @Group 53d18cc797d03d802cbc411ad821f1d4:804
+     * @MinLength 1
+     * @MaxLength 36
      * @var string[]
      */
     private $missedCallLogId = array(

@@ -21,6 +21,8 @@ class ServiceProviderEnhancedCallLogsModifyRequest extends \CWM\BroadWorksConnec
      * @ElementName serviceProviderId
      * @Type string
      * @Group f6b3702edb5f67fa12c2c426d98657db:180
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -30,6 +32,8 @@ class ServiceProviderEnhancedCallLogsModifyRequest extends \CWM\BroadWorksConnec
      * @Type int
      * @Optional
      * @Group f6b3702edb5f67fa12c2c426d98657db:180
+     * @MinInclusive 1
+     * @MaxInclusive 99000
      * @var int|null
      */
     private $maxLoggedCalls = null;
@@ -39,6 +43,8 @@ class ServiceProviderEnhancedCallLogsModifyRequest extends \CWM\BroadWorksConnec
      * @Type int
      * @Optional
      * @Group f6b3702edb5f67fa12c2c426d98657db:180
+     * @MinInclusive 1
+     * @MaxInclusive 1000
      * @var int|null
      */
     private $callExpirationDays = null;

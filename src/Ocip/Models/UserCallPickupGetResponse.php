@@ -21,6 +21,8 @@ class UserCallPickupGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\O
      * @Type string
      * @Optional
      * @Group 045ce951b3e25dec090606af4ad50c63:394
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $name = null;

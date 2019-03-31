@@ -22,6 +22,8 @@ class EnterpriseVirtualOnNetEnterpriseExtensionsGetUserListRequest extends \CWM\
      * @ElementName serviceProviderId
      * @Type string
      * @Group 179b744b0183abe614e8c32c17c96b7e:55
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -31,6 +33,7 @@ class EnterpriseVirtualOnNetEnterpriseExtensionsGetUserListRequest extends \CWM\
      * @Type int
      * @Optional
      * @Group 179b744b0183abe614e8c32c17c96b7e:55
+     * @MinInclusive 1
      * @var int|null
      */
     private $responseSizeLimit = null;

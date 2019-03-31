@@ -16,6 +16,8 @@ class OutgoingPinholeDigitPlanDigitPatternRedirectingPermission
      * @ElementName digitPatternName
      * @Type string
      * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:2354
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $digitPatternName = null;

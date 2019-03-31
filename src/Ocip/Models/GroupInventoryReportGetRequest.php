@@ -19,6 +19,8 @@ class GroupInventoryReportGetRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName serviceProviderId
      * @Type string
      * @Group 5c0fc3a03773b4f430e938115770c82d:42
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,6 +29,8 @@ class GroupInventoryReportGetRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName groupId
      * @Type string
      * @Group 5c0fc3a03773b4f430e938115770c82d:42
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;
@@ -76,6 +80,8 @@ class GroupInventoryReportGetRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @Type string
      * @Optional
      * @Group 5c0fc3a03773b4f430e938115770c82d:42
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $reportDeliveryEmailAddress = null;

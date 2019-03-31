@@ -18,6 +18,8 @@ class ServiceProviderEnhancedCallLogsSchemaInstanceGetResponse extends \CWM\Broa
      * @Type string
      * @Optional
      * @Group f6b3702edb5f67fa12c2c426d98657db:112
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $name = null;

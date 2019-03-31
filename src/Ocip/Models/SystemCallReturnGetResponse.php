@@ -42,6 +42,8 @@ class SystemCallReturnGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @Type string
      * @Optional
      * @Group ca38ce43363a73a1079bbf73920b7a45:55
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $confirmationKey = null;

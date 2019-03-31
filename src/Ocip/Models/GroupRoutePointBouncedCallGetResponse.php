@@ -25,6 +25,8 @@ class GroupRoutePointBouncedCallGetResponse extends \CWM\BroadWorksConnector\Oci
      * @ElementName numberOfRingsBeforeBouncingCall
      * @Type int
      * @Group a27224a048c30ff69eab9209dec841cc:159
+     * @MinInclusive 1
+     * @MaxInclusive 20
      * @var int|null
      */
     private $numberOfRingsBeforeBouncingCall = null;
@@ -43,6 +45,8 @@ class GroupRoutePointBouncedCallGetResponse extends \CWM\BroadWorksConnector\Oci
      * @Type string
      * @Optional
      * @Group a27224a048c30ff69eab9209dec841cc:159
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $transferPhoneNumber = null;

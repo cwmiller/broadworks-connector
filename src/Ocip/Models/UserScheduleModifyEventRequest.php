@@ -21,6 +21,8 @@ class UserScheduleModifyEventRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName userId
      * @Type string
      * @Group 53d18cc797d03d802cbc411ad821f1d4:3714
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;
@@ -37,6 +39,8 @@ class UserScheduleModifyEventRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName eventName
      * @Type string
      * @Group 53d18cc797d03d802cbc411ad821f1d4:3714
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $eventName = null;
@@ -46,6 +50,8 @@ class UserScheduleModifyEventRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @Type string
      * @Optional
      * @Group 53d18cc797d03d802cbc411ad821f1d4:3714
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $newEventName = null;

@@ -25,6 +25,7 @@ class SystemBroadWorksMobilityMobileSubscriberDirectoryNumberGetSummaryListReque
      * @Type int
      * @Optional
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:961
+     * @MinInclusive 1
      * @var int|null
      */
     private $responseSizeLimit = null;

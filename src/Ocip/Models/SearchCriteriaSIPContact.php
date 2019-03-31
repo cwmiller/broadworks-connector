@@ -24,6 +24,8 @@ class SearchCriteriaSIPContact extends SearchCriteria
      * @ElementName value
      * @Type string
      * @Group f0ada2681ca347fa83b464734259b304:2056
+     * @MinLength 1
+     * @MaxLength 1020
      * @var string|null
      */
     private $value = null;

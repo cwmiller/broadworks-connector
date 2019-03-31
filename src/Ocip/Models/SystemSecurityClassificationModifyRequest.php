@@ -21,6 +21,8 @@ class SystemSecurityClassificationModifyRequest extends \CWM\BroadWorksConnector
      * @Type int
      * @Optional
      * @Group 6b3afea8308b7fdaab8d385357ca9c2d:294
+     * @MinInclusive 1
+     * @MaxInclusive 30
      * @var int|null
      */
     private $meetMeAnncThreshold = null;
@@ -40,6 +42,8 @@ class SystemSecurityClassificationModifyRequest extends \CWM\BroadWorksConnector
      * @Array
      * @Optional
      * @Group 6b3afea8308b7fdaab8d385357ca9c2d:294
+     * @MinLength 1
+     * @MaxLength 40
      * @var string[]
      */
     private $securityClassificationName = array(

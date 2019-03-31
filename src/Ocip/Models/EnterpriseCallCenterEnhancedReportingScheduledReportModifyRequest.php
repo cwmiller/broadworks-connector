@@ -20,6 +20,8 @@ class EnterpriseCallCenterEnhancedReportingScheduledReportModifyRequest extends 
      * @ElementName serviceProviderId
      * @Type string
      * @Group e2c537e3e39483b96620673a7012ffdd:1766
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -28,6 +30,8 @@ class EnterpriseCallCenterEnhancedReportingScheduledReportModifyRequest extends 
      * @ElementName name
      * @Type string
      * @Group e2c537e3e39483b96620673a7012ffdd:1766
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $name = null;
@@ -37,6 +41,8 @@ class EnterpriseCallCenterEnhancedReportingScheduledReportModifyRequest extends 
      * @Type string
      * @Optional
      * @Group e2c537e3e39483b96620673a7012ffdd:1766
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $newName = null;
@@ -47,6 +53,8 @@ class EnterpriseCallCenterEnhancedReportingScheduledReportModifyRequest extends 
      * @Nillable
      * @Optional
      * @Group e2c537e3e39483b96620673a7012ffdd:1766
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $description = null;
@@ -83,6 +91,8 @@ class EnterpriseCallCenterEnhancedReportingScheduledReportModifyRequest extends 
      * @Type string
      * @Optional
      * @Group e2c537e3e39483b96620673a7012ffdd:1766
+     * @MinLength 1
+     * @MaxLength 127
      * @var string|null
      */
     private $reportTimeZone = null;
@@ -153,6 +163,8 @@ class EnterpriseCallCenterEnhancedReportingScheduledReportModifyRequest extends 
      * @Type int
      * @Optional
      * @Group e2c537e3e39483b96620673a7012ffdd:1766
+     * @MinInclusive 1
+     * @MaxInclusive 7200
      * @var int|null
      */
     private $callCompletionThresholdSeconds = null;
@@ -162,6 +174,8 @@ class EnterpriseCallCenterEnhancedReportingScheduledReportModifyRequest extends 
      * @Type int
      * @Optional
      * @Group e2c537e3e39483b96620673a7012ffdd:1766
+     * @MinInclusive 1
+     * @MaxInclusive 7200
      * @var int|null
      */
     private $shortDurationThresholdSeconds = null;
@@ -190,6 +204,8 @@ class EnterpriseCallCenterEnhancedReportingScheduledReportModifyRequest extends 
      * @Nillable
      * @Optional
      * @Group e2c537e3e39483b96620673a7012ffdd:1766
+     * @MinInclusive
+     * @MaxInclusive 100
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $serviceLevelObjectivePercentage = null;

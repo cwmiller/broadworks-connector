@@ -26,6 +26,8 @@ class GroupCallCenterForcedForwardingGetResponse extends \CWM\BroadWorksConnecto
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:12756
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $forwardToPhoneNumber = null;
@@ -59,6 +61,8 @@ class GroupCallCenterForcedForwardingGetResponse extends \CWM\BroadWorksConnecto
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:12756
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $audioFileUrl = null;
@@ -68,6 +72,8 @@ class GroupCallCenterForcedForwardingGetResponse extends \CWM\BroadWorksConnecto
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:12756
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $audioFileDescription = null;
@@ -94,6 +100,8 @@ class GroupCallCenterForcedForwardingGetResponse extends \CWM\BroadWorksConnecto
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:12756
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $videoFileUrl = null;
@@ -103,6 +111,8 @@ class GroupCallCenterForcedForwardingGetResponse extends \CWM\BroadWorksConnecto
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:12756
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $videoFileDescription = null;

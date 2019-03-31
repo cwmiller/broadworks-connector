@@ -21,6 +21,8 @@ class ServiceProviderCommunicationBarringProfileAddRequest extends \CWM\BroadWor
      * @ElementName serviceProviderId
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:20880
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -29,6 +31,8 @@ class ServiceProviderCommunicationBarringProfileAddRequest extends \CWM\BroadWor
      * @ElementName name
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:20880
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $name = null;
@@ -38,6 +42,8 @@ class ServiceProviderCommunicationBarringProfileAddRequest extends \CWM\BroadWor
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:20880
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $description = null;
@@ -55,6 +61,8 @@ class ServiceProviderCommunicationBarringProfileAddRequest extends \CWM\BroadWor
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:20880
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $originatingDefaultTreatmentId = null;
@@ -64,6 +72,8 @@ class ServiceProviderCommunicationBarringProfileAddRequest extends \CWM\BroadWor
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:20880
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $originatingDefaultTransferNumber = null;
@@ -73,6 +83,8 @@ class ServiceProviderCommunicationBarringProfileAddRequest extends \CWM\BroadWor
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:20880
+     * @MinInclusive 60
+     * @MaxInclusive 86400
      * @var int|null
      */
     private $originatingDefaultCallTimeout = null;
@@ -102,6 +114,8 @@ class ServiceProviderCommunicationBarringProfileAddRequest extends \CWM\BroadWor
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:20880
+     * @MinInclusive 60
+     * @MaxInclusive 86400
      * @var int|null
      */
     private $redirectingDefaultCallTimeout = null;
@@ -131,6 +145,8 @@ class ServiceProviderCommunicationBarringProfileAddRequest extends \CWM\BroadWor
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:20880
+     * @MinInclusive 60
+     * @MaxInclusive 86400
      * @var int|null
      */
     private $incomingDefaultCallTimeout = null;

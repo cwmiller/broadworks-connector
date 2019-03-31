@@ -42,6 +42,8 @@ class CPEDeviceOptions
      * @ElementName systemFileName
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:43154
+     * @MinLength 1
+     * @MaxLength 265
      * @var string|null
      */
     private $systemFileName = null;
@@ -50,6 +52,8 @@ class CPEDeviceOptions
      * @ElementName deviceFileFormat
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:43154
+     * @MinLength 1
+     * @MaxLength 265
      * @var string|null
      */
     private $deviceFileFormat = null;

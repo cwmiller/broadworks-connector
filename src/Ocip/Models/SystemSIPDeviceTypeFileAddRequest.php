@@ -21,6 +21,8 @@ class SystemSIPDeviceTypeFileAddRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName deviceType
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:5938
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $deviceType = null;
@@ -29,6 +31,8 @@ class SystemSIPDeviceTypeFileAddRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName fileType
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:5938
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $fileType = null;
@@ -37,6 +41,8 @@ class SystemSIPDeviceTypeFileAddRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName fileFormat
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:5938
+     * @MinLength 1
+     * @MaxLength 128
      * @var string|null
      */
     private $fileFormat = null;
@@ -45,6 +51,8 @@ class SystemSIPDeviceTypeFileAddRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName remoteFileFormat
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:5938
+     * @MinLength 1
+     * @MaxLength 128
      * @var string|null
      */
     private $remoteFileFormat = null;
@@ -119,6 +127,8 @@ class SystemSIPDeviceTypeFileAddRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:5938
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $macFormatInNonRequestURI = null;

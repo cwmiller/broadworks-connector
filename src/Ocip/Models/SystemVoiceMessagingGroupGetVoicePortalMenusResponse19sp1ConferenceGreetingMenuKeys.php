@@ -15,6 +15,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1ConferenceGreetin
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:32076
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $activateConfGreeting = null;
@@ -24,6 +26,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1ConferenceGreetin
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:32076
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $deactivateConfGreeting = null;
@@ -33,6 +37,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1ConferenceGreetin
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:32076
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $recordNewConfGreeting = null;
@@ -42,6 +48,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1ConferenceGreetin
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:32076
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $listenToCurrentConfGreeting = null;
@@ -50,6 +58,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1ConferenceGreetin
      * @ElementName returnToPreviousMenu
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:32076
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $returnToPreviousMenu = null;
@@ -59,6 +69,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1ConferenceGreetin
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:32076
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $repeatMenu = null;

@@ -18,6 +18,7 @@ class EnterpriseSessionAdmissionControlGroupGetResponse21sp1V2 extends \CWM\Broa
      * @ElementName maxSession
      * @Type int
      * @Group 5395c7df0157d44aa22f3351d1a5f3da:1050
+     * @MinInclusive
      * @var int|null
      */
     private $maxSession = null;
@@ -27,6 +28,7 @@ class EnterpriseSessionAdmissionControlGroupGetResponse21sp1V2 extends \CWM\Broa
      * @Type int
      * @Optional
      * @Group 5395c7df0157d44aa22f3351d1a5f3da:1050
+     * @MinInclusive
      * @var int|null
      */
     private $maxUserOriginatingSessions = null;
@@ -36,6 +38,7 @@ class EnterpriseSessionAdmissionControlGroupGetResponse21sp1V2 extends \CWM\Broa
      * @Type int
      * @Optional
      * @Group 5395c7df0157d44aa22f3351d1a5f3da:1050
+     * @MinInclusive
      * @var int|null
      */
     private $maxUserTerminatingSessions = null;
@@ -44,6 +47,7 @@ class EnterpriseSessionAdmissionControlGroupGetResponse21sp1V2 extends \CWM\Broa
      * @ElementName reservedSession
      * @Type int
      * @Group 5395c7df0157d44aa22f3351d1a5f3da:1050
+     * @MinInclusive
      * @var int|null
      */
     private $reservedSession = null;
@@ -53,6 +57,7 @@ class EnterpriseSessionAdmissionControlGroupGetResponse21sp1V2 extends \CWM\Broa
      * @Type int
      * @Optional
      * @Group 5395c7df0157d44aa22f3351d1a5f3da:1050
+     * @MinInclusive
      * @var int|null
      */
     private $reservedUserOriginatingSessions = null;
@@ -62,6 +67,7 @@ class EnterpriseSessionAdmissionControlGroupGetResponse21sp1V2 extends \CWM\Broa
      * @Type int
      * @Optional
      * @Group 5395c7df0157d44aa22f3351d1a5f3da:1050
+     * @MinInclusive
      * @var int|null
      */
     private $reservedUserTerminatingSessions = null;
@@ -107,6 +113,8 @@ class EnterpriseSessionAdmissionControlGroupGetResponse21sp1V2 extends \CWM\Broa
      * @Type string
      * @Optional
      * @Group 5395c7df0157d44aa22f3351d1a5f3da:1050
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $mediaGroupName = null;
@@ -116,6 +124,8 @@ class EnterpriseSessionAdmissionControlGroupGetResponse21sp1V2 extends \CWM\Broa
      * @Type string
      * @Optional
      * @Group 5395c7df0157d44aa22f3351d1a5f3da:1050
+     * @MinLength 1
+     * @MaxLength 1024
      * @var string|null
      */
     private $accessInfoPattern = null;

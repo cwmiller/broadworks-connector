@@ -16,6 +16,8 @@ class CommunicationBarringOriginatingRule
      * @ElementName criteria
      * @Type string
      * @Group c0d21ef9ba207c335d8347e5172fce1d:1399
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $criteria = null;
@@ -34,6 +36,8 @@ class CommunicationBarringOriginatingRule
      * @Nillable
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:1399
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $treatmentId = null;
@@ -44,6 +48,8 @@ class CommunicationBarringOriginatingRule
      * @Nillable
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:1399
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $transferNumber = null;
@@ -54,6 +60,8 @@ class CommunicationBarringOriginatingRule
      * @Nillable
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:1399
+     * @MinInclusive 60
+     * @MaxInclusive 86400
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $callTimeoutSeconds = null;

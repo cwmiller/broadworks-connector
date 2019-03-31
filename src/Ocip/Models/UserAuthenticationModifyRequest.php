@@ -19,6 +19,8 @@ class UserAuthenticationModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName userId
      * @Type string
      * @Group 9db4d5fa1bbf70f2626f52a5d6e3420e:72
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;
@@ -28,6 +30,8 @@ class UserAuthenticationModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Type string
      * @Optional
      * @Group 9db4d5fa1bbf70f2626f52a5d6e3420e:72
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $userName = null;
@@ -37,6 +41,8 @@ class UserAuthenticationModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Type string
      * @Optional
      * @Group 9db4d5fa1bbf70f2626f52a5d6e3420e:75
+     * @MinLength 1
+     * @MaxLength 60
      * @var string|null
      */
     private $newPassword = null;

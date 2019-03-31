@@ -17,6 +17,8 @@ class AuthenticationResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCID
      * @ElementName userId
      * @Type string
      * @Group de4d76f01f337fe4694212ec9f771753:3877
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;

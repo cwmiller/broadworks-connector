@@ -24,6 +24,8 @@ class UserCollaborateRoomModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName userId
      * @Type string
      * @Group 939fd5846dfae8bdf58308d6cb9ebb12:1033
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;
@@ -32,6 +34,8 @@ class UserCollaborateRoomModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName roomId
      * @Type string
      * @Group 939fd5846dfae8bdf58308d6cb9ebb12:1033
+     * @MinLength 4
+     * @MaxLength 15
      * @var string|null
      */
     private $roomId = null;
@@ -41,6 +45,8 @@ class UserCollaborateRoomModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Type string
      * @Optional
      * @Group 939fd5846dfae8bdf58308d6cb9ebb12:1033
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $roomName = null;

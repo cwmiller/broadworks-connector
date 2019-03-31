@@ -18,6 +18,8 @@ class CommPilotExpressAvailableInOfficeModify
      * @Nillable
      * @Optional
      * @Group 8c204d784d1904d9eeea996d46de69be:116
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $additionalPhoneNumberToRing = null;

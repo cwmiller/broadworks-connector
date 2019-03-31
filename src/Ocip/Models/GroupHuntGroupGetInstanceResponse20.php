@@ -59,6 +59,8 @@ class GroupHuntGroupGetInstanceResponse20 extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName noAnswerNumberOfRings
      * @Type int
      * @Group bc829065f9d696d3ca7084121d57f8c0:472
+     * @MinInclusive 1
+     * @MaxInclusive 20
      * @var int|null
      */
     private $noAnswerNumberOfRings = null;
@@ -75,6 +77,8 @@ class GroupHuntGroupGetInstanceResponse20 extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName forwardTimeoutSeconds
      * @Type int
      * @Group bc829065f9d696d3ca7084121d57f8c0:472
+     * @MinInclusive
+     * @MaxInclusive 7200
      * @var int|null
      */
     private $forwardTimeoutSeconds = null;
@@ -84,6 +88,8 @@ class GroupHuntGroupGetInstanceResponse20 extends \CWM\BroadWorksConnector\Ocip\
      * @Type string
      * @Optional
      * @Group bc829065f9d696d3ca7084121d57f8c0:472
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $forwardToPhoneNumber = null;
@@ -133,6 +139,8 @@ class GroupHuntGroupGetInstanceResponse20 extends \CWM\BroadWorksConnector\Ocip\
      * @Type string
      * @Optional
      * @Group bc829065f9d696d3ca7084121d57f8c0:472
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $notReachableForwardToPhoneNumber = null;
@@ -174,6 +182,8 @@ class GroupHuntGroupGetInstanceResponse20 extends \CWM\BroadWorksConnector\Ocip\
      * @Type string
      * @Optional
      * @Group bc829065f9d696d3ca7084121d57f8c0:472
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $networkClassOfService = null;

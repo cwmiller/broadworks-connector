@@ -19,6 +19,8 @@ class UserPushToTalkGetAvailableUserListRequest extends \CWM\BroadWorksConnector
      * @ElementName userId
      * @Type string
      * @Group f32f4b57593f3e1ac6ed1cf45ed62b7c:43
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;
@@ -28,6 +30,7 @@ class UserPushToTalkGetAvailableUserListRequest extends \CWM\BroadWorksConnector
      * @Type int
      * @Optional
      * @Group f32f4b57593f3e1ac6ed1cf45ed62b7c:43
+     * @MinInclusive 1
      * @var int|null
      */
     private $responseSizeLimit = null;

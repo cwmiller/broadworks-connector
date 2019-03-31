@@ -14,6 +14,8 @@ class GroupEmergencyZonesModifyHomeZoneListRequestHomeZoneIpAddressList
      * @ElementName homeZoneIpAddress
      * @Type string
      * @Group e71c2205fb31894f87810b330a85ede2:161
+     * @MinLength 1
+     * @MaxLength 39
      * @var string|null
      */
     private $homeZoneIpAddress = null;
@@ -22,6 +24,8 @@ class GroupEmergencyZonesModifyHomeZoneListRequestHomeZoneIpAddressList
      * @ElementName newHomeZoneIpAddress
      * @Type string
      * @Group e71c2205fb31894f87810b330a85ede2:161
+     * @MinLength 1
+     * @MaxLength 39
      * @var string|null
      */
     private $newHomeZoneIpAddress = null;

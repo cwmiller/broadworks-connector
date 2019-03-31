@@ -29,6 +29,8 @@ class SystemCPEConfigParametersGetResponse21 extends \CWM\BroadWorksConnector\Oc
      * @ElementName ftpConnectTimeoutSeconds
      * @Type int
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6733
+     * @MinInclusive 1
+     * @MaxInclusive 600
      * @var int|null
      */
     private $ftpConnectTimeoutSeconds = null;
@@ -37,6 +39,8 @@ class SystemCPEConfigParametersGetResponse21 extends \CWM\BroadWorksConnector\Oc
      * @ElementName ftpFileTransferTimeoutSeconds
      * @Type int
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6733
+     * @MinInclusive 1
+     * @MaxInclusive 600
      * @var int|null
      */
     private $ftpFileTransferTimeoutSeconds = null;
@@ -45,6 +49,8 @@ class SystemCPEConfigParametersGetResponse21 extends \CWM\BroadWorksConnector\Oc
      * @ElementName pauseBetweenFileRebuildMilliseconds
      * @Type int
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6733
+     * @MinInclusive
+     * @MaxInclusive 10000
      * @var int|null
      */
     private $pauseBetweenFileRebuildMilliseconds = null;
@@ -54,6 +60,8 @@ class SystemCPEConfigParametersGetResponse21 extends \CWM\BroadWorksConnector\Oc
      * @Type string
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6733
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $deviceAccessAppServerClusterName = null;
@@ -62,6 +70,8 @@ class SystemCPEConfigParametersGetResponse21 extends \CWM\BroadWorksConnector\Oc
      * @ElementName minTimeBetweenResetMilliseconds
      * @Type int
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6733
+     * @MinInclusive
+     * @MaxInclusive 86400000
      * @var int|null
      */
     private $minTimeBetweenResetMilliseconds = null;
@@ -78,6 +88,8 @@ class SystemCPEConfigParametersGetResponse21 extends \CWM\BroadWorksConnector\Oc
      * @ElementName maxFileOperationRetryAttempts
      * @Type int
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6733
+     * @MinInclusive
+     * @MaxInclusive 20
      * @var int|null
      */
     private $maxFileOperationRetryAttempts = null;
@@ -94,6 +106,8 @@ class SystemCPEConfigParametersGetResponse21 extends \CWM\BroadWorksConnector\Oc
      * @ElementName eventQueueSize
      * @Type int
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6733
+     * @MinInclusive
+     * @MaxInclusive 100000000
      * @var int|null
      */
     private $eventQueueSize = null;

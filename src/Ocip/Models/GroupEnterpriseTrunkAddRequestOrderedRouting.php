@@ -16,6 +16,8 @@ class GroupEnterpriseTrunkAddRequestOrderedRouting
      * @Array
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:33167
+     * @MinLength 1
+     * @MaxLength 30
      * @var string[]
      */
     private $trunkGroup = array(

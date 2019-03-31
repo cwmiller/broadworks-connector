@@ -17,6 +17,8 @@ class SearchCriteriaExactCallCenterScheduledReportGroup extends SearchCriteria
      * @ElementName serviceProviderId
      * @Type string
      * @Group f0ada2681ca347fa83b464734259b304:699
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -25,6 +27,8 @@ class SearchCriteriaExactCallCenterScheduledReportGroup extends SearchCriteria
      * @ElementName groupId
      * @Type string
      * @Group f0ada2681ca347fa83b464734259b304:699
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;

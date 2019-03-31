@@ -21,6 +21,8 @@ class GroupBroadWorksAnywhereModifyInstanceRequest extends \CWM\BroadWorksConnec
      * @ElementName serviceUserId
      * @Type string
      * @Group 72f634ecc58842ce9d362ca629a47ea9:196
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $serviceUserId = null;
@@ -75,6 +77,8 @@ class GroupBroadWorksAnywhereModifyInstanceRequest extends \CWM\BroadWorksConnec
      * @Type string
      * @Optional
      * @Group 72f634ecc58842ce9d362ca629a47ea9:196
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $networkClassOfService = null;

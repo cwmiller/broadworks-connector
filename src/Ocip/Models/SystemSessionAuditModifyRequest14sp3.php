@@ -32,6 +32,8 @@ class SystemSessionAuditModifyRequest14sp3 extends \CWM\BroadWorksConnector\Ocip
      * @Type int
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:15210
+     * @MinInclusive 60
+     * @MaxInclusive 7200
      * @var int|null
      */
     private $auditIntervalSeconds = null;
@@ -41,6 +43,8 @@ class SystemSessionAuditModifyRequest14sp3 extends \CWM\BroadWorksConnector\Ocip
      * @Type int
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:15210
+     * @MinInclusive 60
+     * @MaxInclusive 600
      * @var int|null
      */
     private $auditTimeoutSeconds = null;
@@ -86,6 +90,8 @@ class SystemSessionAuditModifyRequest14sp3 extends \CWM\BroadWorksConnector\Ocip
      * @Type int
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:15210
+     * @MinInclusive 30
+     * @MaxInclusive 3600
      * @var int|null
      */
     private $sipSessionExpiresMinimumSeconds = null;
@@ -104,6 +110,8 @@ class SystemSessionAuditModifyRequest14sp3 extends \CWM\BroadWorksConnector\Ocip
      * @Type int
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:15210
+     * @MinInclusive 3600
+     * @MaxInclusive 86400
      * @var int|null
      */
     private $sipSessionExpiresMaximumSeconds = null;
@@ -113,6 +121,8 @@ class SystemSessionAuditModifyRequest14sp3 extends \CWM\BroadWorksConnector\Ocip
      * @Type int
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:15210
+     * @MinInclusive 60
+     * @MaxInclusive 86400
      * @var int|null
      */
     private $sipSessionExpiresTimerSeconds = null;
@@ -149,6 +159,8 @@ class SystemSessionAuditModifyRequest14sp3 extends \CWM\BroadWorksConnector\Ocip
      * @Type int
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:15210
+     * @MinInclusive 1
+     * @MaxInclusive 1440
      * @var int|null
      */
     private $emergencyCallAlarmMinutes = null;
@@ -167,6 +179,8 @@ class SystemSessionAuditModifyRequest14sp3 extends \CWM\BroadWorksConnector\Ocip
      * @Type int
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:15210
+     * @MinInclusive 1
+     * @MaxInclusive 1440
      * @var int|null
      */
     private $emergencyCallCleanupMinutes = null;
@@ -185,6 +199,8 @@ class SystemSessionAuditModifyRequest14sp3 extends \CWM\BroadWorksConnector\Ocip
      * @Type int
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:15210
+     * @MinInclusive 60
+     * @MaxInclusive 7200
      * @var int|null
      */
     private $msAuditIntervalSeconds = null;

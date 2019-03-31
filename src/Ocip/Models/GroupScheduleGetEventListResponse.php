@@ -20,6 +20,8 @@ class GroupScheduleGetEventListResponse extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Array
      * @Optional
      * @Group f3a93cf15de4abd7903673e44ee3e07b:6441
+     * @MinLength 1
+     * @MaxLength 40
      * @var string[]
      */
     private $eventName = array(

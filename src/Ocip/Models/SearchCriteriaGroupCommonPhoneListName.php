@@ -24,6 +24,8 @@ class SearchCriteriaGroupCommonPhoneListName extends SearchCriteria
      * @ElementName value
      * @Type string
      * @Group f0ada2681ca347fa83b464734259b304:1367
+     * @MinLength 1
+     * @MaxLength 50
      * @var string|null
      */
     private $value = null;

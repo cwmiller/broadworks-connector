@@ -29,6 +29,8 @@ class GroupCallCenterAddInstanceRequest14sp9 extends \CWM\BroadWorksConnector\Oc
      * @ElementName serviceProviderId
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:8248
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -37,6 +39,8 @@ class GroupCallCenterAddInstanceRequest14sp9 extends \CWM\BroadWorksConnector\Oc
      * @ElementName groupId
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:8248
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;
@@ -45,6 +49,8 @@ class GroupCallCenterAddInstanceRequest14sp9 extends \CWM\BroadWorksConnector\Oc
      * @ElementName serviceUserId
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:8248
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $serviceUserId = null;
@@ -77,6 +83,8 @@ class GroupCallCenterAddInstanceRequest14sp9 extends \CWM\BroadWorksConnector\Oc
      * @ElementName noAnswerNumberOfRings
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:8248
+     * @MinInclusive 1
+     * @MaxInclusive 20
      * @var int|null
      */
     private $noAnswerNumberOfRings = null;
@@ -93,6 +101,8 @@ class GroupCallCenterAddInstanceRequest14sp9 extends \CWM\BroadWorksConnector\Oc
      * @ElementName forwardTimeoutSeconds
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:8248
+     * @MinInclusive
+     * @MaxInclusive 7200
      * @var int|null
      */
     private $forwardTimeoutSeconds = null;
@@ -102,6 +112,8 @@ class GroupCallCenterAddInstanceRequest14sp9 extends \CWM\BroadWorksConnector\Oc
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:8248
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $forwardToPhoneNumber = null;
@@ -118,6 +130,8 @@ class GroupCallCenterAddInstanceRequest14sp9 extends \CWM\BroadWorksConnector\Oc
      * @ElementName queueLength
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:8248
+     * @MinInclusive
+     * @MaxInclusive 50
      * @var int|null
      */
     private $queueLength = null;
@@ -150,6 +164,8 @@ class GroupCallCenterAddInstanceRequest14sp9 extends \CWM\BroadWorksConnector\Oc
      * @ElementName timeBetweenComfortMessagesSeconds
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:8248
+     * @MinInclusive 10
+     * @MaxInclusive 600
      * @var int|null
      */
     private $timeBetweenComfortMessagesSeconds = null;
@@ -166,6 +182,8 @@ class GroupCallCenterAddInstanceRequest14sp9 extends \CWM\BroadWorksConnector\Oc
      * @ElementName guardTimerSeconds
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:8248
+     * @MinInclusive 1
+     * @MaxInclusive 25
      * @var int|null
      */
     private $guardTimerSeconds = null;
@@ -176,6 +194,8 @@ class GroupCallCenterAddInstanceRequest14sp9 extends \CWM\BroadWorksConnector\Oc
      * @Array
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:8248
+     * @MinLength 1
+     * @MaxLength 161
      * @var string[]
      */
     private $agentUserId = array(

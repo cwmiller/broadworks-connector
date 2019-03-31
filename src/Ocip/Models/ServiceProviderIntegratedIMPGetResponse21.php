@@ -32,6 +32,8 @@ class ServiceProviderIntegratedIMPGetResponse21 extends \CWM\BroadWorksConnector
      * @Type string
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:5883
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $serviceDomain = null;
@@ -41,6 +43,8 @@ class ServiceProviderIntegratedIMPGetResponse21 extends \CWM\BroadWorksConnector
      * @Type int
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:5883
+     * @MinInclusive 1
+     * @MaxInclusive 65535
      * @var int|null
      */
     private $servicePort = null;
@@ -58,6 +62,8 @@ class ServiceProviderIntegratedIMPGetResponse21 extends \CWM\BroadWorksConnector
      * @Type string
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:5883
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $provisioningUrl = null;
@@ -67,6 +73,8 @@ class ServiceProviderIntegratedIMPGetResponse21 extends \CWM\BroadWorksConnector
      * @Type string
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:5883
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $provisioningUserId = null;
@@ -76,6 +84,8 @@ class ServiceProviderIntegratedIMPGetResponse21 extends \CWM\BroadWorksConnector
      * @Type string
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:5883
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $boshURL = null;

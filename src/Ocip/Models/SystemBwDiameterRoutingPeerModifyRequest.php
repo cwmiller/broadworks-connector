@@ -27,6 +27,8 @@ class SystemBwDiameterRoutingPeerModifyRequest extends \CWM\BroadWorksConnector\
      * @ElementName realm
      * @Type string
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2512
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $realm = null;
@@ -43,6 +45,8 @@ class SystemBwDiameterRoutingPeerModifyRequest extends \CWM\BroadWorksConnector\
      * @ElementName identity
      * @Type string
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2512
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $identity = null;
@@ -52,6 +56,8 @@ class SystemBwDiameterRoutingPeerModifyRequest extends \CWM\BroadWorksConnector\
      * @Type int
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2512
+     * @MinInclusive
+     * @MaxInclusive 65535
      * @var int|null
      */
     private $priority = null;
@@ -61,6 +67,8 @@ class SystemBwDiameterRoutingPeerModifyRequest extends \CWM\BroadWorksConnector\
      * @Type int
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2512
+     * @MinInclusive
+     * @MaxInclusive 65535
      * @var int|null
      */
     private $weight = null;

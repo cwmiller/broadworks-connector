@@ -19,6 +19,8 @@ class UserCallingLineIDDeliveryBlockingModifyRequest extends \CWM\BroadWorksConn
      * @ElementName userId
      * @Type string
      * @Group 2ced8e0cff8dbd941dee5e5a91ff3c4a:75
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;

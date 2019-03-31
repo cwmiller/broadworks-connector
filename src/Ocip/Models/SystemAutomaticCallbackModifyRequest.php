@@ -22,6 +22,8 @@ class SystemAutomaticCallbackModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:4303
+     * @MinInclusive 5
+     * @MaxInclusive 180
      * @var int|null
      */
     private $monitorMinutes = null;
@@ -31,6 +33,8 @@ class SystemAutomaticCallbackModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:4303
+     * @MinInclusive 1
+     * @MaxInclusive 15
      * @var int|null
      */
     private $waitBetweenRetryOriginatorMinutes = null;
@@ -40,6 +44,8 @@ class SystemAutomaticCallbackModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:4303
+     * @MinInclusive 1
+     * @MaxInclusive 30
      * @var int|null
      */
     private $maxMonitorsPerOriginator = null;
@@ -49,6 +55,8 @@ class SystemAutomaticCallbackModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:4303
+     * @MinInclusive 3
+     * @MaxInclusive 8
      * @var int|null
      */
     private $maxCallbackRings = null;
@@ -58,6 +66,8 @@ class SystemAutomaticCallbackModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:4303
+     * @MinInclusive 180
+     * @MaxInclusive 360
      * @var int|null
      */
     private $maxRetryOriginatorMinutes = null;

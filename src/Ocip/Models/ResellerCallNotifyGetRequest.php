@@ -20,6 +20,8 @@ class ResellerCallNotifyGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @ElementName resellerId
      * @Type string
      * @Group 26f62134ab1693f4bdddc7c70b20d2eb:50
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $resellerId = null;

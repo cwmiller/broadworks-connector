@@ -19,6 +19,8 @@ class GroupFindMeFollowMeDeleteInstanceRequest extends \CWM\BroadWorksConnector\
      * @ElementName serviceUserId
      * @Type string
      * @Group 79f226053ee345f2ff4c37c37c8e9114:203
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $serviceUserId = null;

@@ -33,6 +33,8 @@ class UserCallRecordingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName userId
      * @Type string
      * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:457
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;
@@ -78,6 +80,8 @@ class UserCallRecordingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @Type int
      * @Optional
      * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:457
+     * @MinInclusive 10
+     * @MaxInclusive 1800
      * @var int|null
      */
     private $recordCallRepeatWarningToneTimerSeconds = null;

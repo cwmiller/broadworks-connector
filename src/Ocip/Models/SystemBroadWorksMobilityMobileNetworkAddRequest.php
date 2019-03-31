@@ -19,6 +19,8 @@ class SystemBroadWorksMobilityMobileNetworkAddRequest extends \CWM\BroadWorksCon
      * @ElementName name
      * @Type string
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:826
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $name = null;
@@ -28,6 +30,8 @@ class SystemBroadWorksMobilityMobileNetworkAddRequest extends \CWM\BroadWorksCon
      * @Type string
      * @Optional
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:826
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $scfSignalingNetAddress = null;
@@ -37,6 +41,8 @@ class SystemBroadWorksMobilityMobileNetworkAddRequest extends \CWM\BroadWorksCon
      * @Type int
      * @Optional
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:826
+     * @MinInclusive 1
+     * @MaxInclusive 65535
      * @var int|null
      */
     private $scfSignalingPort = null;
@@ -45,6 +51,8 @@ class SystemBroadWorksMobilityMobileNetworkAddRequest extends \CWM\BroadWorksCon
      * @ElementName refreshPeriodSeconds
      * @Type int
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:826
+     * @MinInclusive 10
+     * @MaxInclusive 1800
      * @var int|null
      */
     private $refreshPeriodSeconds = null;
@@ -53,6 +61,8 @@ class SystemBroadWorksMobilityMobileNetworkAddRequest extends \CWM\BroadWorksCon
      * @ElementName maxConsecutiveFailures
      * @Type int
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:826
+     * @MinInclusive 1
+     * @MaxInclusive 10
      * @var int|null
      */
     private $maxConsecutiveFailures = null;
@@ -61,6 +71,8 @@ class SystemBroadWorksMobilityMobileNetworkAddRequest extends \CWM\BroadWorksCon
      * @ElementName maxResponseWaitTimeMilliseconds
      * @Type int
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:826
+     * @MinInclusive 100
+     * @MaxInclusive 10000
      * @var int|null
      */
     private $maxResponseWaitTimeMilliseconds = null;
@@ -78,6 +90,8 @@ class SystemBroadWorksMobilityMobileNetworkAddRequest extends \CWM\BroadWorksCon
      * @Type string
      * @Optional
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:826
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $serviceAccessCodeListName = null;

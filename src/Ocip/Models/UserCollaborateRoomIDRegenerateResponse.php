@@ -17,6 +17,8 @@ class UserCollaborateRoomIDRegenerateResponse extends \CWM\BroadWorksConnector\O
      * @ElementName roomId
      * @Type string
      * @Group 939fd5846dfae8bdf58308d6cb9ebb12:977
+     * @MinLength 4
+     * @MaxLength 15
      * @var string|null
      */
     private $roomId = null;

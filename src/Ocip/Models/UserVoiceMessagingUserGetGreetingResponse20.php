@@ -166,6 +166,8 @@ class UserVoiceMessagingUserGetGreetingResponse20 extends \CWM\BroadWorksConnect
      * @Type string
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1824
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $greetingOnlyForwardDestination = null;

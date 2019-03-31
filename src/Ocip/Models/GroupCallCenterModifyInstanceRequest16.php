@@ -19,6 +19,8 @@ class GroupCallCenterModifyInstanceRequest16 extends \CWM\BroadWorksConnector\Oc
      * @ElementName serviceUserId
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:18898
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $serviceUserId = null;
@@ -64,6 +66,8 @@ class GroupCallCenterModifyInstanceRequest16 extends \CWM\BroadWorksConnector\Oc
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:18898
+     * @MinInclusive
+     * @MaxInclusive 525
      * @var int|null
      */
     private $queueLength = null;
@@ -74,6 +78,8 @@ class GroupCallCenterModifyInstanceRequest16 extends \CWM\BroadWorksConnector\Oc
      * @Nillable
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:18898
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $reportingServerName = null;
@@ -92,6 +98,7 @@ class GroupCallCenterModifyInstanceRequest16 extends \CWM\BroadWorksConnector\Oc
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:18898
+     * @Length 1
      * @var string|null
      */
     private $escapeDigit = null;
@@ -147,6 +154,8 @@ class GroupCallCenterModifyInstanceRequest16 extends \CWM\BroadWorksConnector\Oc
      * @Nillable
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:18898
+     * @MinInclusive 1
+     * @MaxInclusive 3600
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $wrapUpSeconds = null;
@@ -166,6 +175,8 @@ class GroupCallCenterModifyInstanceRequest16 extends \CWM\BroadWorksConnector\Oc
      * @Nillable
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:18898
+     * @MinInclusive 1
+     * @MaxInclusive 10
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $forceDeliveryWaitTimeSeconds = null;
@@ -194,6 +205,8 @@ class GroupCallCenterModifyInstanceRequest16 extends \CWM\BroadWorksConnector\Oc
      * @Nillable
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:18898
+     * @MinLength 1
+     * @MaxLength 10
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $agentUnavailableCode = null;

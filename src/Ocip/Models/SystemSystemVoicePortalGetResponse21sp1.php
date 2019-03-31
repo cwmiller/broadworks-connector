@@ -17,6 +17,8 @@ class SystemSystemVoicePortalGetResponse21sp1 extends \CWM\BroadWorksConnector\O
      * @ElementName name
      * @Type string
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17447
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $name = null;
@@ -25,6 +27,8 @@ class SystemSystemVoicePortalGetResponse21sp1 extends \CWM\BroadWorksConnector\O
      * @ElementName callingLineIdName
      * @Type string
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17447
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $callingLineIdName = null;
@@ -33,6 +37,8 @@ class SystemSystemVoicePortalGetResponse21sp1 extends \CWM\BroadWorksConnector\O
      * @ElementName language
      * @Type string
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17447
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $language = null;
@@ -41,6 +47,8 @@ class SystemSystemVoicePortalGetResponse21sp1 extends \CWM\BroadWorksConnector\O
      * @ElementName timeZone
      * @Type string
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17447
+     * @MinLength 1
+     * @MaxLength 127
      * @var string|null
      */
     private $timeZone = null;
@@ -50,6 +58,8 @@ class SystemSystemVoicePortalGetResponse21sp1 extends \CWM\BroadWorksConnector\O
      * @Type string
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17447
+     * @MinLength 1
+     * @MaxLength 23
      * @var string|null
      */
     private $phoneNumber = null;
@@ -59,6 +69,8 @@ class SystemSystemVoicePortalGetResponse21sp1 extends \CWM\BroadWorksConnector\O
      * @Type string
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17447
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $publicUserIdentity = null;
@@ -68,6 +80,8 @@ class SystemSystemVoicePortalGetResponse21sp1 extends \CWM\BroadWorksConnector\O
      * @Type string
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17447
+     * @MinLength 1
+     * @MaxLength 23
      * @var string|null
      */
     private $networkVoicePortalNumber = null;
@@ -109,6 +123,8 @@ class SystemSystemVoicePortalGetResponse21sp1 extends \CWM\BroadWorksConnector\O
      * @Type string
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17447
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $voicePortalGreetingFileDescription = null;
@@ -135,6 +151,8 @@ class SystemSystemVoicePortalGetResponse21sp1 extends \CWM\BroadWorksConnector\O
      * @Type string
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17447
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $voiceMessagingGreetingFileDescription = null;

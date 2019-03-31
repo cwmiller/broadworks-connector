@@ -26,6 +26,8 @@ class AccessDeviceMultipleContactEndpointRead
      * @ElementName linePort
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:44242
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $linePort = null;
@@ -36,6 +38,8 @@ class AccessDeviceMultipleContactEndpointRead
      * @Array
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:44242
+     * @MinLength 1
+     * @MaxLength 1020
      * @var string[]
      */
     private $contact = array(

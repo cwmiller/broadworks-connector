@@ -20,6 +20,8 @@ class UserCommPilotExpressModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName userId
      * @Type string
      * @Group 8c204d784d1904d9eeea996d46de69be:77
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;

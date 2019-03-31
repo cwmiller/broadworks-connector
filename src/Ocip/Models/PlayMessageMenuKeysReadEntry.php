@@ -17,6 +17,8 @@ class PlayMessageMenuKeysReadEntry
      * @Type string
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2952
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $skipBackward = null;
@@ -26,6 +28,8 @@ class PlayMessageMenuKeysReadEntry
      * @Type string
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2952
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $pauseOrResume = null;
@@ -35,6 +39,8 @@ class PlayMessageMenuKeysReadEntry
      * @Type string
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2952
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $skipForward = null;
@@ -44,6 +50,8 @@ class PlayMessageMenuKeysReadEntry
      * @Type string
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2952
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $jumpToBegin = null;
@@ -53,6 +61,8 @@ class PlayMessageMenuKeysReadEntry
      * @Type string
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2952
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $jumpToEnd = null;

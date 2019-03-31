@@ -20,6 +20,8 @@ class GroupScheduleGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Array
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:20167
+     * @MinLength 1
+     * @MaxLength 40
      * @var string[]
      */
     private $scheduleName = array(

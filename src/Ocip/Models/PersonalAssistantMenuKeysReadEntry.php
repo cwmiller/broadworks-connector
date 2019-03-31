@@ -17,6 +17,8 @@ class PersonalAssistantMenuKeysReadEntry
      * @Type string
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2855
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $setPresenceToNone = null;
@@ -26,6 +28,8 @@ class PersonalAssistantMenuKeysReadEntry
      * @Type string
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2855
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $setPresenceToBusinessTrip = null;
@@ -35,6 +39,8 @@ class PersonalAssistantMenuKeysReadEntry
      * @Type string
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2855
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $setPresenceToGoneForTheDay = null;
@@ -44,6 +50,8 @@ class PersonalAssistantMenuKeysReadEntry
      * @Type string
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2855
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $setPresenceToLunch = null;
@@ -53,6 +61,8 @@ class PersonalAssistantMenuKeysReadEntry
      * @Type string
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2855
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $setPresenceToMeeting = null;
@@ -62,6 +72,8 @@ class PersonalAssistantMenuKeysReadEntry
      * @Type string
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2855
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $setPresenceToOutOfOffice = null;
@@ -71,6 +83,8 @@ class PersonalAssistantMenuKeysReadEntry
      * @Type string
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2855
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $setPresenceToTemporarilyOut = null;
@@ -80,6 +94,8 @@ class PersonalAssistantMenuKeysReadEntry
      * @Type string
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2855
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $setPresenceToTraining = null;
@@ -89,6 +105,8 @@ class PersonalAssistantMenuKeysReadEntry
      * @Type string
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2855
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $setPresenceToUnavailable = null;
@@ -98,6 +116,8 @@ class PersonalAssistantMenuKeysReadEntry
      * @Type string
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2855
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $setPresenceToVacation = null;
@@ -106,6 +126,8 @@ class PersonalAssistantMenuKeysReadEntry
      * @ElementName returnToPreviousMenu
      * @Type string
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2855
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $returnToPreviousMenu = null;
@@ -115,6 +137,8 @@ class PersonalAssistantMenuKeysReadEntry
      * @Type string
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2855
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $repeatMenu = null;

@@ -19,6 +19,8 @@ class GroupMusicOnHoldGetInstanceRequest22V2 extends \CWM\BroadWorksConnector\Oc
      * @ElementName serviceProviderId
      * @Type string
      * @Group 66fe518a637c74cc4b2c97aa7f68fc49:128
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,6 +29,8 @@ class GroupMusicOnHoldGetInstanceRequest22V2 extends \CWM\BroadWorksConnector\Oc
      * @ElementName groupId
      * @Type string
      * @Group 66fe518a637c74cc4b2c97aa7f68fc49:128
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;

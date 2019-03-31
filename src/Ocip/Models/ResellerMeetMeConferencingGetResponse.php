@@ -18,6 +18,8 @@ class ResellerMeetMeConferencingGetResponse extends \CWM\BroadWorksConnector\Oci
      * @Type string
      * @Optional
      * @Group 0fd24121d16995c994d40bc408dbcfa5:350
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $conferenceFromAddress = null;
@@ -26,6 +28,8 @@ class ResellerMeetMeConferencingGetResponse extends \CWM\BroadWorksConnector\Oci
      * @ElementName maxAllocatedPorts
      * @Type int
      * @Group 0fd24121d16995c994d40bc408dbcfa5:350
+     * @MinInclusive
+     * @MaxInclusive 999999
      * @var int|null
      */
     private $maxAllocatedPorts = null;

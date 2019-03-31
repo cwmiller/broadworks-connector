@@ -19,6 +19,8 @@ class GroupCallCenterStrandedCallUnavailableModifyRequest20 extends \CWM\BroadWo
      * @ElementName serviceUserId
      * @Type string
      * @Group e2c537e3e39483b96620673a7012ffdd:5939
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $serviceUserId = null;
@@ -38,6 +40,8 @@ class GroupCallCenterStrandedCallUnavailableModifyRequest20 extends \CWM\BroadWo
      * @Nillable
      * @Optional
      * @Group e2c537e3e39483b96620673a7012ffdd:5939
+     * @MinInclusive 1
+     * @MaxInclusive 1000
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $numberOfAgentsWithSpecifiedUnavailableCode = null;
@@ -48,6 +52,8 @@ class GroupCallCenterStrandedCallUnavailableModifyRequest20 extends \CWM\BroadWo
      * @Nillable
      * @Optional
      * @Group e2c537e3e39483b96620673a7012ffdd:5939
+     * @MinLength 1
+     * @MaxLength 10
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $agentsUnavailableCode = null;
@@ -67,6 +73,8 @@ class GroupCallCenterStrandedCallUnavailableModifyRequest20 extends \CWM\BroadWo
      * @Nillable
      * @Optional
      * @Group e2c537e3e39483b96620673a7012ffdd:5939
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $transferPhoneNumber = null;

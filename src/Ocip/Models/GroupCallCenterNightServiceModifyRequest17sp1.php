@@ -21,6 +21,8 @@ class GroupCallCenterNightServiceModifyRequest17sp1 extends \CWM\BroadWorksConne
      * @ElementName serviceUserId
      * @Type string
      * @Group a8b2edcd7d6936a8b76653949ae59623:136
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $serviceUserId = null;
@@ -68,6 +70,8 @@ class GroupCallCenterNightServiceModifyRequest17sp1 extends \CWM\BroadWorksConne
      * @Nillable
      * @Optional
      * @Group a8b2edcd7d6936a8b76653949ae59623:136
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $transferPhoneNumber = null;

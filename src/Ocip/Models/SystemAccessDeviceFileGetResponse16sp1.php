@@ -29,6 +29,8 @@ class SystemAccessDeviceFileGetResponse16sp1 extends \CWM\BroadWorksConnector\Oc
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:41534
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $configurationFileName = null;
@@ -37,6 +39,8 @@ class SystemAccessDeviceFileGetResponse16sp1 extends \CWM\BroadWorksConnector\Oc
      * @ElementName accessUrl
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:41534
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $accessUrl = null;
@@ -46,6 +50,8 @@ class SystemAccessDeviceFileGetResponse16sp1 extends \CWM\BroadWorksConnector\Oc
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:41534
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $repositoryUrl = null;
@@ -55,6 +61,8 @@ class SystemAccessDeviceFileGetResponse16sp1 extends \CWM\BroadWorksConnector\Oc
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:41534
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $templateUrl = null;

@@ -24,6 +24,8 @@ class SystemCallProcessingPolicyProfileTrunkGroupPilotProfileGetRequest extends 
      * @ElementName callProcessingPolicyProfileName
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:38247
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $callProcessingPolicyProfileName = null;

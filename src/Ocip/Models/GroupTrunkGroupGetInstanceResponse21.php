@@ -29,6 +29,8 @@ class GroupTrunkGroupGetInstanceResponse21 extends \CWM\BroadWorksConnector\Ocip
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:33806
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $pilotUserId = null;
@@ -55,6 +57,7 @@ class GroupTrunkGroupGetInstanceResponse21 extends \CWM\BroadWorksConnector\Ocip
      * @ElementName maxActiveCalls
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:33806
+     * @MinInclusive 1
      * @var int|null
      */
     private $maxActiveCalls = null;
@@ -64,6 +67,8 @@ class GroupTrunkGroupGetInstanceResponse21 extends \CWM\BroadWorksConnector\Ocip
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:33806
+     * @MinInclusive
+     * @MaxInclusive 999999
      * @var int|null
      */
     private $maxIncomingCalls = null;
@@ -73,6 +78,8 @@ class GroupTrunkGroupGetInstanceResponse21 extends \CWM\BroadWorksConnector\Ocip
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:33806
+     * @MinInclusive
+     * @MaxInclusive 999999
      * @var int|null
      */
     private $maxOutgoingCalls = null;
@@ -90,6 +97,8 @@ class GroupTrunkGroupGetInstanceResponse21 extends \CWM\BroadWorksConnector\Ocip
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:33806
+     * @MinInclusive
+     * @MaxInclusive 999999
      * @var int|null
      */
     private $burstingMaxActiveCalls = null;
@@ -99,6 +108,8 @@ class GroupTrunkGroupGetInstanceResponse21 extends \CWM\BroadWorksConnector\Ocip
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:33806
+     * @MinInclusive
+     * @MaxInclusive 999999
      * @var int|null
      */
     private $burstingMaxIncomingCalls = null;
@@ -108,6 +119,8 @@ class GroupTrunkGroupGetInstanceResponse21 extends \CWM\BroadWorksConnector\Ocip
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:33806
+     * @MinInclusive
+     * @MaxInclusive 999999
      * @var int|null
      */
     private $burstingMaxOutgoingCalls = null;
@@ -126,6 +139,8 @@ class GroupTrunkGroupGetInstanceResponse21 extends \CWM\BroadWorksConnector\Ocip
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:33806
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $capacityExceededForwardAddress = null;
@@ -143,6 +158,7 @@ class GroupTrunkGroupGetInstanceResponse21 extends \CWM\BroadWorksConnector\Ocip
      * @ElementName capacityExceededTrapInitialCalls
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:33806
+     * @MinInclusive
      * @var int|null
      */
     private $capacityExceededTrapInitialCalls = null;
@@ -151,6 +167,7 @@ class GroupTrunkGroupGetInstanceResponse21 extends \CWM\BroadWorksConnector\Ocip
      * @ElementName capacityExceededTrapOffsetCalls
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:33806
+     * @MinInclusive
      * @var int|null
      */
     private $capacityExceededTrapOffsetCalls = null;
@@ -169,6 +186,8 @@ class GroupTrunkGroupGetInstanceResponse21 extends \CWM\BroadWorksConnector\Ocip
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:33806
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $unreachableDestinationForwardAddress = null;
@@ -186,6 +205,8 @@ class GroupTrunkGroupGetInstanceResponse21 extends \CWM\BroadWorksConnector\Ocip
      * @ElementName invitationTimeout
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:33806
+     * @MinInclusive 1
+     * @MaxInclusive 255
      * @var int|null
      */
     private $invitationTimeout = null;
@@ -203,6 +224,8 @@ class GroupTrunkGroupGetInstanceResponse21 extends \CWM\BroadWorksConnector\Ocip
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:33806
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $sipAuthenticationUserName = null;
@@ -221,6 +244,8 @@ class GroupTrunkGroupGetInstanceResponse21 extends \CWM\BroadWorksConnector\Ocip
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:33806
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $trunkGroupIdentity = null;
@@ -230,6 +255,8 @@ class GroupTrunkGroupGetInstanceResponse21 extends \CWM\BroadWorksConnector\Ocip
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:33806
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $otgDtgIdentity = null;
@@ -336,6 +363,8 @@ class GroupTrunkGroupGetInstanceResponse21 extends \CWM\BroadWorksConnector\Ocip
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:33806
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $callForwardingAlwaysForwardAddress = null;
@@ -354,6 +383,8 @@ class GroupTrunkGroupGetInstanceResponse21 extends \CWM\BroadWorksConnector\Ocip
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:33806
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $peeringDomain = null;
@@ -379,6 +410,8 @@ class GroupTrunkGroupGetInstanceResponse21 extends \CWM\BroadWorksConnector\Ocip
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:33806
+     * @MinLength 1
+     * @MaxLength 15
      * @var string|null
      */
     private $prefix = null;
@@ -403,6 +436,8 @@ class GroupTrunkGroupGetInstanceResponse21 extends \CWM\BroadWorksConnector\Ocip
      * @ElementName continuousOptionsSendingIntervalSeconds
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:33806
+     * @MinInclusive 30
+     * @MaxInclusive 86400
      * @var int|null
      */
     private $continuousOptionsSendingIntervalSeconds = null;
@@ -411,6 +446,8 @@ class GroupTrunkGroupGetInstanceResponse21 extends \CWM\BroadWorksConnector\Ocip
      * @ElementName failureOptionsSendingIntervalSeconds
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:33806
+     * @MinInclusive 10
+     * @MaxInclusive 86400
      * @var int|null
      */
     private $failureOptionsSendingIntervalSeconds = null;
@@ -419,6 +456,8 @@ class GroupTrunkGroupGetInstanceResponse21 extends \CWM\BroadWorksConnector\Ocip
      * @ElementName failureThresholdCounter
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:33806
+     * @MinInclusive 1
+     * @MaxInclusive 60
      * @var int|null
      */
     private $failureThresholdCounter = null;
@@ -427,6 +466,8 @@ class GroupTrunkGroupGetInstanceResponse21 extends \CWM\BroadWorksConnector\Ocip
      * @ElementName successThresholdCounter
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:33806
+     * @MinInclusive 1
+     * @MaxInclusive 60
      * @var int|null
      */
     private $successThresholdCounter = null;
@@ -435,6 +476,8 @@ class GroupTrunkGroupGetInstanceResponse21 extends \CWM\BroadWorksConnector\Ocip
      * @ElementName inviteFailureThresholdCounter
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:33806
+     * @MinInclusive 1
+     * @MaxInclusive 60
      * @var int|null
      */
     private $inviteFailureThresholdCounter = null;
@@ -443,6 +486,8 @@ class GroupTrunkGroupGetInstanceResponse21 extends \CWM\BroadWorksConnector\Ocip
      * @ElementName inviteFailureThresholdWindowSeconds
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:33806
+     * @MinInclusive 30
+     * @MaxInclusive 240
      * @var int|null
      */
     private $inviteFailureThresholdWindowSeconds = null;
@@ -597,6 +642,8 @@ class GroupTrunkGroupGetInstanceResponse21 extends \CWM\BroadWorksConnector\Ocip
      * @Array
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:33806
+     * @MinLength 3
+     * @MaxLength 40
      * @var string[]
      */
     private $optionsMessageResponseStatusCode = array(

@@ -20,6 +20,8 @@ class ServiceProviderServicePackMigrationTaskGetAvailableGroupListRequest extend
      * @ElementName serviceProviderId
      * @Type string
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:5481
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -29,6 +31,7 @@ class ServiceProviderServicePackMigrationTaskGetAvailableGroupListRequest extend
      * @Type int
      * @Optional
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:5481
+     * @MinInclusive 1
      * @var int|null
      */
     private $responseSizeLimit = null;

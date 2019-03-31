@@ -19,6 +19,8 @@ class SystemZoneNetAddressDeleteListRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName zoneName
      * @Type string
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18403
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $zoneName = null;
@@ -29,6 +31,8 @@ class SystemZoneNetAddressDeleteListRequest extends \CWM\BroadWorksConnector\Oci
      * @Array
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18403
+     * @MinLength 1
+     * @MaxLength 39
      * @var string[]
      */
     private $netAddress = array(

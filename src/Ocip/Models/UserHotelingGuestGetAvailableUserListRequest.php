@@ -19,6 +19,8 @@ class UserHotelingGuestGetAvailableUserListRequest extends \CWM\BroadWorksConnec
      * @ElementName userId
      * @Type string
      * @Group 031ad639f025838c09748154da1e429e:43
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;
@@ -28,6 +30,7 @@ class UserHotelingGuestGetAvailableUserListRequest extends \CWM\BroadWorksConnec
      * @Type int
      * @Optional
      * @Group 031ad639f025838c09748154da1e429e:43
+     * @MinInclusive 1
      * @var int|null
      */
     private $responseSizeLimit = null;

@@ -38,6 +38,8 @@ class UserModifyRequest21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
      * @ElementName userId
      * @Type string
      * @Group de4d76f01f337fe4694212ec9f771753:7869
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;
@@ -47,6 +49,8 @@ class UserModifyRequest21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
      * @Type string
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:7869
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $lastName = null;
@@ -56,6 +60,8 @@ class UserModifyRequest21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
      * @Type string
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:7869
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $firstName = null;
@@ -65,6 +71,8 @@ class UserModifyRequest21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
      * @Type string
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:7869
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $callingLineIdLastName = null;
@@ -74,6 +82,8 @@ class UserModifyRequest21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
      * @Type string
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:7869
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $callingLineIdFirstName = null;
@@ -93,6 +103,8 @@ class UserModifyRequest21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
      * @Type string
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:7869
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $hiraganaLastName = null;
@@ -102,6 +114,8 @@ class UserModifyRequest21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
      * @Type string
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:7869
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $hiraganaFirstName = null;
@@ -112,6 +126,8 @@ class UserModifyRequest21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
      * @Nillable
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:7869
+     * @MinLength 1
+     * @MaxLength 23
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $phoneNumber = null;
@@ -122,6 +138,8 @@ class UserModifyRequest21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
      * @Nillable
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:7869
+     * @MinLength 2
+     * @MaxLength 20
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $extension = null;
@@ -132,6 +150,8 @@ class UserModifyRequest21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
      * @Nillable
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:7869
+     * @MinLength 1
+     * @MaxLength 23
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $callingLineIdPhoneNumber = null;
@@ -141,6 +161,8 @@ class UserModifyRequest21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
      * @Type string
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:7869
+     * @MinLength 1
+     * @MaxLength 60
      * @var string|null
      */
     private $oldPassword = null;
@@ -151,6 +173,8 @@ class UserModifyRequest21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
      * @Nillable
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:7869
+     * @MinLength 1
+     * @MaxLength 60
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $newPassword = null;
@@ -170,6 +194,8 @@ class UserModifyRequest21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
      * @Type string
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:7869
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $language = null;
@@ -179,6 +205,8 @@ class UserModifyRequest21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
      * @Type string
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:7869
+     * @MinLength 1
+     * @MaxLength 127
      * @var string|null
      */
     private $timeZone = null;
@@ -209,6 +237,8 @@ class UserModifyRequest21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
      * @Nillable
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:7869
+     * @MinLength 1
+     * @MaxLength 50
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $title = null;
@@ -219,6 +249,8 @@ class UserModifyRequest21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
      * @Nillable
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:7869
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $pagerPhoneNumber = null;
@@ -229,6 +261,8 @@ class UserModifyRequest21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
      * @Nillable
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:7869
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $mobilePhoneNumber = null;
@@ -239,6 +273,8 @@ class UserModifyRequest21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
      * @Nillable
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:7869
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $emailAddress = null;
@@ -249,6 +285,8 @@ class UserModifyRequest21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
      * @Nillable
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:7869
+     * @MinLength 1
+     * @MaxLength 50
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $yahooId = null;
@@ -259,6 +297,8 @@ class UserModifyRequest21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
      * @Nillable
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:7869
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $addressLocation = null;
@@ -277,6 +317,8 @@ class UserModifyRequest21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
      * @Type string
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:7869
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $networkClassOfService = null;
@@ -286,6 +328,8 @@ class UserModifyRequest21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
      * @Type string
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:7869
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $officeZoneName = null;
@@ -295,6 +339,8 @@ class UserModifyRequest21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
      * @Type string
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:7869
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $primaryZoneName = null;
@@ -305,6 +351,8 @@ class UserModifyRequest21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
      * @Nillable
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:7869
+     * @MinLength 1
+     * @MaxLength 196
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $impId = null;
@@ -315,6 +363,8 @@ class UserModifyRequest21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
      * @Nillable
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:7869
+     * @MinLength 1
+     * @MaxLength 60
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $impPassword = null;

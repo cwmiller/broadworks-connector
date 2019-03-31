@@ -29,6 +29,8 @@ class GroupCallCenterAgentThresholdProfileGetPagedSortedRequest extends \CWM\Bro
      * @ElementName serviceProviderId
      * @Type string
      * @Group e2c537e3e39483b96620673a7012ffdd:2373
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -37,6 +39,8 @@ class GroupCallCenterAgentThresholdProfileGetPagedSortedRequest extends \CWM\Bro
      * @ElementName groupId
      * @Type string
      * @Group e2c537e3e39483b96620673a7012ffdd:2373
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;
@@ -45,6 +49,8 @@ class GroupCallCenterAgentThresholdProfileGetPagedSortedRequest extends \CWM\Bro
      * @ElementName profileName
      * @Type string
      * @Group e2c537e3e39483b96620673a7012ffdd:2373
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $profileName = null;

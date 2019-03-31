@@ -122,6 +122,8 @@ class SystemSIPDeviceTypeGetResponse extends \CWM\BroadWorksConnector\Ocip\Model
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:6179
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $webBasedConfigURL = null;
@@ -172,6 +174,8 @@ class SystemSIPDeviceTypeGetResponse extends \CWM\BroadWorksConnector\Ocip\Model
      * @Type string
      * @Array
      * @Group ab0042aa512abc10edb3c55e4b416b0b:6179
+     * @MinLength 1
+     * @MaxLength 20
      * @var string[]
      */
     private $protocolChoice = array(

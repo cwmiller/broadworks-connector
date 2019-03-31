@@ -31,6 +31,8 @@ class UserCollaborateRoomGetResponse extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName roomName
      * @Type string
      * @Group 939fd5846dfae8bdf58308d6cb9ebb12:936
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $roomName = null;

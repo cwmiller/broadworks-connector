@@ -19,6 +19,8 @@ class UserCallMeNowModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @ElementName userId
      * @Type string
      * @Group 1f0f230fee2817fe00157925859dc28e:223
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;

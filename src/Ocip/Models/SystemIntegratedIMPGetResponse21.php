@@ -22,6 +22,8 @@ class SystemIntegratedIMPGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Type string
      * @Optional
      * @Group 23389100b68cef3aa07ee12ac7a2bd16:272
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $serviceDomain = null;
@@ -31,6 +33,8 @@ class SystemIntegratedIMPGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Type int
      * @Optional
      * @Group 23389100b68cef3aa07ee12ac7a2bd16:272
+     * @MinInclusive 1
+     * @MaxInclusive 65535
      * @var int|null
      */
     private $servicePort = null;
@@ -48,6 +52,8 @@ class SystemIntegratedIMPGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Type string
      * @Optional
      * @Group 23389100b68cef3aa07ee12ac7a2bd16:272
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $boshURL = null;

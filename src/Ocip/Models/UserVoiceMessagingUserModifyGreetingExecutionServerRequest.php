@@ -20,6 +20,8 @@ class UserVoiceMessagingUserModifyGreetingExecutionServerRequest extends \CWM\Br
      * @ElementName userId
      * @Type string
      * @Group ac6f79eeb503f2d20b15e4c8d21d7077:94
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;
@@ -147,6 +149,8 @@ class UserVoiceMessagingUserModifyGreetingExecutionServerRequest extends \CWM\Br
      * @Nillable
      * @Optional
      * @Group ac6f79eeb503f2d20b15e4c8d21d7077:94
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $greetingOnlyForwardDestination = null;

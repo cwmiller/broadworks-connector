@@ -20,6 +20,8 @@ class GroupAutoAttendantSubmenuGetUsageListRequest extends \CWM\BroadWorksConnec
      * @ElementName serviceUserId
      * @Type string
      * @Group ed0640d8ef49eb8b4eaa14d7c6f6c033:554
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $serviceUserId = null;
@@ -28,6 +30,8 @@ class GroupAutoAttendantSubmenuGetUsageListRequest extends \CWM\BroadWorksConnec
      * @ElementName submenuId
      * @Type string
      * @Group ed0640d8ef49eb8b4eaa14d7c6f6c033:554
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $submenuId = null;

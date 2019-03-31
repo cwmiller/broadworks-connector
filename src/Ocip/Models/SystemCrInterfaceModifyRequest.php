@@ -29,6 +29,8 @@ class SystemCrInterfaceModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @Type int
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6931
+     * @MinInclusive 500
+     * @MaxInclusive 60000
      * @var int|null
      */
     private $crAuditIntervalMilliseconds = null;
@@ -38,6 +40,8 @@ class SystemCrInterfaceModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @Type int
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6931
+     * @MinInclusive 500
+     * @MaxInclusive 10000
      * @var int|null
      */
     private $crAuditTimeoutMilliseconds = null;
@@ -56,6 +60,8 @@ class SystemCrInterfaceModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @Type int
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6931
+     * @MinInclusive 1000
+     * @MaxInclusive 32000
      * @var int|null
      */
     private $crConnectionTimeoutMilliseconds = null;
@@ -65,6 +71,8 @@ class SystemCrInterfaceModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @Type int
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6931
+     * @MinInclusive 1
+     * @MaxInclusive 120
      * @var int|null
      */
     private $crTcpConnectionTimeoutSeconds = null;
@@ -74,6 +82,8 @@ class SystemCrInterfaceModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @Type int
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6931
+     * @MinInclusive
+     * @MaxInclusive 100
      * @var int|null
      */
     private $crNumberOfReconnectionAttempts = null;

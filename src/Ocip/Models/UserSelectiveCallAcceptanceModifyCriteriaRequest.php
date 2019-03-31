@@ -23,6 +23,8 @@ class UserSelectiveCallAcceptanceModifyCriteriaRequest extends \CWM\BroadWorksCo
      * @ElementName userId
      * @Type string
      * @Group e8517420bc6d5462dc1b2d9f82295894:194
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;
@@ -31,6 +33,8 @@ class UserSelectiveCallAcceptanceModifyCriteriaRequest extends \CWM\BroadWorksCo
      * @ElementName criteriaName
      * @Type string
      * @Group e8517420bc6d5462dc1b2d9f82295894:194
+     * @MinLength 1
+     * @MaxLength 50
      * @var string|null
      */
     private $criteriaName = null;
@@ -40,6 +44,8 @@ class UserSelectiveCallAcceptanceModifyCriteriaRequest extends \CWM\BroadWorksCo
      * @Type string
      * @Optional
      * @Group e8517420bc6d5462dc1b2d9f82295894:194
+     * @MinLength 1
+     * @MaxLength 50
      * @var string|null
      */
     private $newCriteriaName = null;

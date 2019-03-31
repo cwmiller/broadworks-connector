@@ -19,6 +19,8 @@ class GroupFindMeFollowMeAlertingGroupGetAvailableUserListRequest extends \CWM\B
      * @ElementName serviceProviderId
      * @Type string
      * @Group 79f226053ee345f2ff4c37c37c8e9114:127
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,6 +29,8 @@ class GroupFindMeFollowMeAlertingGroupGetAvailableUserListRequest extends \CWM\B
      * @ElementName groupId
      * @Type string
      * @Group 79f226053ee345f2ff4c37c37c8e9114:127
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;
@@ -36,6 +40,7 @@ class GroupFindMeFollowMeAlertingGroupGetAvailableUserListRequest extends \CWM\B
      * @Type int
      * @Optional
      * @Group 79f226053ee345f2ff4c37c37c8e9114:127
+     * @MinInclusive 1
      * @var int|null
      */
     private $responseSizeLimit = null;

@@ -19,6 +19,8 @@ class SystemLanguageAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @ElementName language
      * @Type string
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10369
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $language = null;
@@ -27,6 +29,7 @@ class SystemLanguageAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @ElementName locale
      * @Type string
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10369
+     * @MaxLength 5
      * @var string|null
      */
     private $locale = null;
@@ -35,6 +38,8 @@ class SystemLanguageAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @ElementName encoding
      * @Type string
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10369
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $encoding = null;

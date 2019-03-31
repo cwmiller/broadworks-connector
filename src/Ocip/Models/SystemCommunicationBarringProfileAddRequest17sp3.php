@@ -28,6 +28,8 @@ class SystemCommunicationBarringProfileAddRequest17sp3 extends \CWM\BroadWorksCo
      * @ElementName name
      * @Type string
      * @Group de4d76f01f337fe4694212ec9f771753:1385
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $name = null;
@@ -37,6 +39,8 @@ class SystemCommunicationBarringProfileAddRequest17sp3 extends \CWM\BroadWorksCo
      * @Type string
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:1385
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $description = null;
@@ -54,6 +58,8 @@ class SystemCommunicationBarringProfileAddRequest17sp3 extends \CWM\BroadWorksCo
      * @Type string
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:1385
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $originatingDefaultTreatmentId = null;
@@ -63,6 +69,8 @@ class SystemCommunicationBarringProfileAddRequest17sp3 extends \CWM\BroadWorksCo
      * @Type string
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:1385
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $originatingDefaultTransferNumber = null;
@@ -72,6 +80,8 @@ class SystemCommunicationBarringProfileAddRequest17sp3 extends \CWM\BroadWorksCo
      * @Type int
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:1385
+     * @MinInclusive 60
+     * @MaxInclusive 86400
      * @var int|null
      */
     private $originatingDefaultCallTimeout = null;
@@ -101,6 +111,8 @@ class SystemCommunicationBarringProfileAddRequest17sp3 extends \CWM\BroadWorksCo
      * @Type int
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:1385
+     * @MinInclusive 60
+     * @MaxInclusive 86400
      * @var int|null
      */
     private $redirectingDefaultCallTimeout = null;
@@ -130,6 +142,8 @@ class SystemCommunicationBarringProfileAddRequest17sp3 extends \CWM\BroadWorksCo
      * @Type int
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:1385
+     * @MinInclusive 60
+     * @MaxInclusive 86400
      * @var int|null
      */
     private $incomingDefaultCallTimeout = null;
@@ -159,6 +173,8 @@ class SystemCommunicationBarringProfileAddRequest17sp3 extends \CWM\BroadWorksCo
      * @Type int
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:1385
+     * @MinInclusive 60
+     * @MaxInclusive 86400
      * @var int|null
      */
     private $callMeNowDefaultCallTimeout = null;

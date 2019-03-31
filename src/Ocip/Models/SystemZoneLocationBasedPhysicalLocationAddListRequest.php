@@ -19,6 +19,8 @@ class SystemZoneLocationBasedPhysicalLocationAddListRequest extends \CWM\BroadWo
      * @ElementName zoneName
      * @Type string
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18318
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $zoneName = null;
@@ -29,6 +31,8 @@ class SystemZoneLocationBasedPhysicalLocationAddListRequest extends \CWM\BroadWo
      * @Array
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18318
+     * @MinLength 1
+     * @MaxLength 1024
      * @var string[]
      */
     private $physicalLocation = array(

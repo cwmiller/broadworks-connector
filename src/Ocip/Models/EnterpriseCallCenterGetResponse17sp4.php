@@ -41,6 +41,8 @@ class EnterpriseCallCenterGetResponse17sp4 extends \CWM\BroadWorksConnector\Ocip
      * @ElementName guardTimerSeconds
      * @Type int
      * @Group e2c537e3e39483b96620673a7012ffdd:1829
+     * @MinInclusive 1
+     * @MaxInclusive 25
      * @var int|null
      */
     private $guardTimerSeconds = null;
@@ -86,6 +88,8 @@ class EnterpriseCallCenterGetResponse17sp4 extends \CWM\BroadWorksConnector\Ocip
      * @Type int
      * @Optional
      * @Group e2c537e3e39483b96620673a7012ffdd:1829
+     * @MinInclusive 1
+     * @MaxInclusive 5
      * @var int|null
      */
     private $numberConsecutiveBouncedCallsToForceAgentUnavailable = null;

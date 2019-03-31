@@ -19,6 +19,8 @@ class GroupMeetMeConferencingGetInstanceRequest19sp1 extends \CWM\BroadWorksConn
      * @ElementName serviceUserId
      * @Type string
      * @Group 0fd24121d16995c994d40bc408dbcfa5:194
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $serviceUserId = null;

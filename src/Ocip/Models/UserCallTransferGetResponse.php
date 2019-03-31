@@ -25,6 +25,8 @@ class UserCallTransferGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @ElementName recallNumberOfRings
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:7078
+     * @MinInclusive 2
+     * @MaxInclusive 20
      * @var int|null
      */
     private $recallNumberOfRings = null;

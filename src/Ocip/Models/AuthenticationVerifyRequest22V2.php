@@ -26,6 +26,8 @@ class AuthenticationVerifyRequest22V2 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName userId
      * @Type string
      * @Group 6b27fcc79475236456fc113a42b75543:76
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;
@@ -34,6 +36,8 @@ class AuthenticationVerifyRequest22V2 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName password
      * @Type string
      * @Group 6b27fcc79475236456fc113a42b75543:69
+     * @MinLength 1
+     * @MaxLength 60
      * @var string|null
      */
     private $password = null;
@@ -42,6 +46,8 @@ class AuthenticationVerifyRequest22V2 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName phoneNumber
      * @Type string
      * @Group 6b27fcc79475236456fc113a42b75543:65
+     * @MinLength 1
+     * @MaxLength 23
      * @var string|null
      */
     private $phoneNumber = null;
@@ -50,6 +56,8 @@ class AuthenticationVerifyRequest22V2 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName passcode
      * @Type string
      * @Group 6b27fcc79475236456fc113a42b75543:65
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $passcode = null;
@@ -58,6 +66,8 @@ class AuthenticationVerifyRequest22V2 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName linePort
      * @Type string
      * @Group 6b27fcc79475236456fc113a42b75543:69
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $linePort = null;
@@ -66,6 +76,7 @@ class AuthenticationVerifyRequest22V2 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName loginToken
      * @Type string
      * @Group 6b27fcc79475236456fc113a42b75543:73
+     * @MinLength 1
      * @var string|null
      */
     private $loginToken = null;
@@ -74,6 +85,8 @@ class AuthenticationVerifyRequest22V2 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName sipAuthenticationUserName
      * @Type string
      * @Group 6b27fcc79475236456fc113a42b75543:76
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $sipAuthenticationUserName = null;
@@ -82,6 +95,8 @@ class AuthenticationVerifyRequest22V2 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName sipAuthenticationPassword
      * @Type string
      * @Group 6b27fcc79475236456fc113a42b75543:76
+     * @MinLength 1
+     * @MaxLength 60
      * @var string|null
      */
     private $sipAuthenticationPassword = null;

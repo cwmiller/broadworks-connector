@@ -19,6 +19,8 @@ class UserPhysicalLocationModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName userId
      * @Type string
      * @Group 4a26e5fa0592a0fd3b4e60e9432f8588:120
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;

@@ -16,6 +16,8 @@ class GroupTrunkGroupUserCreationTaskAddRequestUserPhoneNumbers
      * @Array
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:3073
+     * @MinLength 1
+     * @MaxLength 23
      * @var string[]
      */
     private $phoneNumber = array(

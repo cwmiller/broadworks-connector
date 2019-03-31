@@ -19,6 +19,8 @@ class SystemSMDIMessageDeskDeleteServerRequest extends \CWM\BroadWorksConnector\
      * @ElementName deviceName
      * @Type string
      * @Group ee7bb69368e23a56a82c5d9cf07b5433:88
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $deviceName = null;

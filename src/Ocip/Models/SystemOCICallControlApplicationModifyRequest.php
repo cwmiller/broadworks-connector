@@ -19,6 +19,8 @@ class SystemOCICallControlApplicationModifyRequest extends \CWM\BroadWorksConnec
      * @ElementName applicationId
      * @Type string
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12378
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $applicationId = null;
@@ -37,6 +39,8 @@ class SystemOCICallControlApplicationModifyRequest extends \CWM\BroadWorksConnec
      * @Type int
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12378
+     * @MinInclusive 2
+     * @MaxInclusive 30
      * @var int|null
      */
     private $notificationTimeoutSeconds = null;
@@ -47,6 +51,8 @@ class SystemOCICallControlApplicationModifyRequest extends \CWM\BroadWorksConnec
      * @Nillable
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12378
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $description = null;
@@ -56,6 +62,8 @@ class SystemOCICallControlApplicationModifyRequest extends \CWM\BroadWorksConnec
      * @Type int
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12378
+     * @MinInclusive 1
+     * @MaxInclusive 100
      * @var int|null
      */
     private $maxEventChannelsPerSet = null;
@@ -65,6 +73,8 @@ class SystemOCICallControlApplicationModifyRequest extends \CWM\BroadWorksConnec
      * @Type int
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12378
+     * @MinInclusive
+     * @MaxInclusive 30
      * @var int|null
      */
     private $unresponsiveChannelSetGracePeriodSeconds = null;

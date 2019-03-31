@@ -19,6 +19,8 @@ class GroupCallPickupGetInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName serviceProviderId
      * @Type string
      * @Group 045ce951b3e25dec090606af4ad50c63:320
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,6 +29,8 @@ class GroupCallPickupGetInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName groupId
      * @Type string
      * @Group 045ce951b3e25dec090606af4ad50c63:320
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;
@@ -35,6 +39,8 @@ class GroupCallPickupGetInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName name
      * @Type string
      * @Group 045ce951b3e25dec090606af4ad50c63:320
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $name = null;

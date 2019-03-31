@@ -19,6 +19,8 @@ class UserCallTransferModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName userId
      * @Type string
      * @Group 6604ba4b5f755b1ba8d7de48e87c6e63:78
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;
@@ -37,6 +39,8 @@ class UserCallTransferModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @Type int
      * @Optional
      * @Group 6604ba4b5f755b1ba8d7de48e87c6e63:78
+     * @MinInclusive 2
+     * @MaxInclusive 20
      * @var int|null
      */
     private $recallNumberOfRings = null;
@@ -73,6 +77,8 @@ class UserCallTransferModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @Type int
      * @Optional
      * @Group 6604ba4b5f755b1ba8d7de48e87c6e63:78
+     * @MinInclusive 30
+     * @MaxInclusive 600
      * @var int|null
      */
     private $busyCampOnSeconds = null;

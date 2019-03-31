@@ -20,6 +20,8 @@ class UserSecurityClassificationGetResponse22 extends \CWM\BroadWorksConnector\O
      * @Type string
      * @Optional
      * @Group 6b3afea8308b7fdaab8d385357ca9c2d:329
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $securityClassification = null;
@@ -29,6 +31,8 @@ class UserSecurityClassificationGetResponse22 extends \CWM\BroadWorksConnector\O
      * @Type string
      * @Optional
      * @Group 6b3afea8308b7fdaab8d385357ca9c2d:329
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $customizedSecurityClassification = null;

@@ -35,6 +35,8 @@ class UserPersonalAssistantGetResponse22 extends \CWM\BroadWorksConnector\Ocip\M
      * @Type string
      * @Optional
      * @Group f53ece1c00394ef2d3d76f532f9a9663:316
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $attendantNumber = null;

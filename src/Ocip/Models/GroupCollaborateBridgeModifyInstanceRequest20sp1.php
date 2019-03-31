@@ -21,6 +21,8 @@ class GroupCollaborateBridgeModifyInstanceRequest20sp1 extends \CWM\BroadWorksCo
      * @ElementName serviceUserId
      * @Type string
      * @Group 939fd5846dfae8bdf58308d6cb9ebb12:440
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $serviceUserId = null;
@@ -48,6 +50,8 @@ class GroupCollaborateBridgeModifyInstanceRequest20sp1 extends \CWM\BroadWorksCo
      * @Type string
      * @Optional
      * @Group 939fd5846dfae8bdf58308d6cb9ebb12:440
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $networkClassOfService = null;
@@ -57,6 +61,8 @@ class GroupCollaborateBridgeModifyInstanceRequest20sp1 extends \CWM\BroadWorksCo
      * @Type int
      * @Optional
      * @Group 939fd5846dfae8bdf58308d6cb9ebb12:440
+     * @MinInclusive 3
+     * @MaxInclusive 145
      * @var int|null
      */
     private $maxCollaborateRoomParticipants = null;

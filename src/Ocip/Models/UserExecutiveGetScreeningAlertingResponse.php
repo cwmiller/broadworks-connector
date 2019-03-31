@@ -75,6 +75,8 @@ class UserExecutiveGetScreeningAlertingResponse extends \CWM\BroadWorksConnector
      * @Type string
      * @Optional
      * @Group 9a6dbade05624033cf7fe782b7c9a9a7:321
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $alertingCustomCallingLineIdName = null;
@@ -84,6 +86,8 @@ class UserExecutiveGetScreeningAlertingResponse extends \CWM\BroadWorksConnector
      * @Type string
      * @Optional
      * @Group 9a6dbade05624033cf7fe782b7c9a9a7:321
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $unicodeAlertingCustomCallingLineIdName = null;
@@ -101,6 +105,8 @@ class UserExecutiveGetScreeningAlertingResponse extends \CWM\BroadWorksConnector
      * @Type string
      * @Optional
      * @Group 9a6dbade05624033cf7fe782b7c9a9a7:321
+     * @MinLength 1
+     * @MaxLength 23
      * @var string|null
      */
     private $alertingCustomCallingLineIdPhoneNumber = null;
@@ -109,6 +115,8 @@ class UserExecutiveGetScreeningAlertingResponse extends \CWM\BroadWorksConnector
      * @ElementName callPushRecallNumberOfRings
      * @Type int
      * @Group 9a6dbade05624033cf7fe782b7c9a9a7:321
+     * @MinInclusive 2
+     * @MaxInclusive 20
      * @var int|null
      */
     private $callPushRecallNumberOfRings = null;
@@ -117,6 +125,8 @@ class UserExecutiveGetScreeningAlertingResponse extends \CWM\BroadWorksConnector
      * @ElementName nextAssistantNumberOfRings
      * @Type int
      * @Group 9a6dbade05624033cf7fe782b7c9a9a7:321
+     * @MinInclusive 1
+     * @MaxInclusive 20
      * @var int|null
      */
     private $nextAssistantNumberOfRings = null;
@@ -134,6 +144,8 @@ class UserExecutiveGetScreeningAlertingResponse extends \CWM\BroadWorksConnector
      * @Type int
      * @Optional
      * @Group 9a6dbade05624033cf7fe782b7c9a9a7:321
+     * @MinInclusive
+     * @MaxInclusive 7200
      * @var int|null
      */
     private $rolloverWaitTimeSeconds = null;
@@ -151,6 +163,8 @@ class UserExecutiveGetScreeningAlertingResponse extends \CWM\BroadWorksConnector
      * @Type string
      * @Optional
      * @Group 9a6dbade05624033cf7fe782b7c9a9a7:321
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $rolloverForwardToPhoneNumber = null;

@@ -18,6 +18,8 @@ class ServiceProviderInCallServiceActivationGetRequest17 extends \CWM\BroadWorks
      * @ElementName serviceProviderId
      * @Type string
      * @Group ece0b65e69189d3e8b8deee895f0a7ff:46
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;

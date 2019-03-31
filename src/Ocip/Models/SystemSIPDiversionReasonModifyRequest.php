@@ -27,6 +27,7 @@ class SystemSIPDiversionReasonModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName causeValue
      * @Type string
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16618
+     * @Length 3
      * @var string|null
      */
     private $causeValue = null;

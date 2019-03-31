@@ -23,6 +23,8 @@ class UserCallNotifyModifyCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName userId
      * @Type string
      * @Group 26f62134ab1693f4bdddc7c70b20d2eb:278
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;
@@ -31,6 +33,8 @@ class UserCallNotifyModifyCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName criteriaName
      * @Type string
      * @Group 26f62134ab1693f4bdddc7c70b20d2eb:278
+     * @MinLength 1
+     * @MaxLength 50
      * @var string|null
      */
     private $criteriaName = null;
@@ -40,6 +44,8 @@ class UserCallNotifyModifyCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\
      * @Type string
      * @Optional
      * @Group 26f62134ab1693f4bdddc7c70b20d2eb:278
+     * @MinLength 1
+     * @MaxLength 50
      * @var string|null
      */
     private $newCriteriaName = null;

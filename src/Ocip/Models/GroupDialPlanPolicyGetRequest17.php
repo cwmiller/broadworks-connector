@@ -19,6 +19,8 @@ class GroupDialPlanPolicyGetRequest17 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName serviceProviderId
      * @Type string
      * @Group f3a93cf15de4abd7903673e44ee3e07b:3928
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,6 +29,8 @@ class GroupDialPlanPolicyGetRequest17 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName groupId
      * @Type string
      * @Group f3a93cf15de4abd7903673e44ee3e07b:3928
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;

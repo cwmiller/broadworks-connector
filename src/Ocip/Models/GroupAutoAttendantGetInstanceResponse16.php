@@ -35,6 +35,8 @@ class GroupAutoAttendantGetInstanceResponse16 extends \CWM\BroadWorksConnector\O
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:12532
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $businessHours = null;
@@ -44,6 +46,8 @@ class GroupAutoAttendantGetInstanceResponse16 extends \CWM\BroadWorksConnector\O
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:12532
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $holidayScheduleName = null;

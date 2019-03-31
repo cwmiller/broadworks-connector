@@ -19,6 +19,8 @@ class ResellerModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRe
      * @ElementName resellerId
      * @Type string
      * @Group b009175f2a2a9d38115e319a6ad64d7f:448
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $resellerId = null;
@@ -29,6 +31,8 @@ class ResellerModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRe
      * @Nillable
      * @Optional
      * @Group b009175f2a2a9d38115e319a6ad64d7f:448
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $resellerName = null;

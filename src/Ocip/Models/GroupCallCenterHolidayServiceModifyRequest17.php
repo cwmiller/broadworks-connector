@@ -19,6 +19,8 @@ class GroupCallCenterHolidayServiceModifyRequest17 extends \CWM\BroadWorksConnec
      * @ElementName serviceUserId
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:18872
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $serviceUserId = null;
@@ -38,6 +40,8 @@ class GroupCallCenterHolidayServiceModifyRequest17 extends \CWM\BroadWorksConnec
      * @Nillable
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:18872
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $holidaySchedule = null;
@@ -48,6 +52,8 @@ class GroupCallCenterHolidayServiceModifyRequest17 extends \CWM\BroadWorksConnec
      * @Nillable
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:18872
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $transferPhoneNumber = null;

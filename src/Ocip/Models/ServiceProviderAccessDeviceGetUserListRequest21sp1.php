@@ -21,6 +21,8 @@ class ServiceProviderAccessDeviceGetUserListRequest21sp1 extends \CWM\BroadWorks
      * @ElementName serviceProviderId
      * @Type string
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:642
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -29,6 +31,8 @@ class ServiceProviderAccessDeviceGetUserListRequest21sp1 extends \CWM\BroadWorks
      * @ElementName deviceName
      * @Type string
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:642
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $deviceName = null;
@@ -38,6 +42,7 @@ class ServiceProviderAccessDeviceGetUserListRequest21sp1 extends \CWM\BroadWorks
      * @Type int
      * @Optional
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:642
+     * @MinInclusive 1
      * @var int|null
      */
     private $responseSizeLimit = null;

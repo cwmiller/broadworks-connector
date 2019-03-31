@@ -25,6 +25,8 @@ class EnterpriseAccessDevice
      * @Type string
      * @Optional
      * @Group 5395c7df0157d44aa22f3351d1a5f3da:1585
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;

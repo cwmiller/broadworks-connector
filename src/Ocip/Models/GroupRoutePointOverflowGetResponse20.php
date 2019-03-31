@@ -26,6 +26,8 @@ class GroupRoutePointOverflowGetResponse20 extends \CWM\BroadWorksConnector\Ocip
      * @Type string
      * @Optional
      * @Group a27224a048c30ff69eab9209dec841cc:1031
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $transferPhoneNumber = null;
@@ -42,6 +44,8 @@ class GroupRoutePointOverflowGetResponse20 extends \CWM\BroadWorksConnector\Ocip
      * @ElementName timeoutSeconds
      * @Type int
      * @Group a27224a048c30ff69eab9209dec841cc:1031
+     * @MinInclusive
+     * @MaxInclusive 7200
      * @var int|null
      */
     private $timeoutSeconds = null;

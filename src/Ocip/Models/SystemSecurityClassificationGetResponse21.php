@@ -19,6 +19,8 @@ class SystemSecurityClassificationGetResponse21 extends \CWM\BroadWorksConnector
      * @ElementName meetMeAnncThreshold
      * @Type int
      * @Group 6b3afea8308b7fdaab8d385357ca9c2d:257
+     * @MinInclusive 1
+     * @MaxInclusive 30
      * @var int|null
      */
     private $meetMeAnncThreshold = null;

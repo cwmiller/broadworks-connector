@@ -19,6 +19,8 @@ class GroupAccessDeviceCustomTagDeleteListRequest extends \CWM\BroadWorksConnect
      * @ElementName serviceProviderId
      * @Type string
      * @Group f3a93cf15de4abd7903673e44ee3e07b:353
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,6 +29,8 @@ class GroupAccessDeviceCustomTagDeleteListRequest extends \CWM\BroadWorksConnect
      * @ElementName groupId
      * @Type string
      * @Group f3a93cf15de4abd7903673e44ee3e07b:353
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;
@@ -35,6 +39,8 @@ class GroupAccessDeviceCustomTagDeleteListRequest extends \CWM\BroadWorksConnect
      * @ElementName deviceName
      * @Type string
      * @Group f3a93cf15de4abd7903673e44ee3e07b:353
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $deviceName = null;
@@ -44,6 +50,8 @@ class GroupAccessDeviceCustomTagDeleteListRequest extends \CWM\BroadWorksConnect
      * @Type string
      * @Array
      * @Group f3a93cf15de4abd7903673e44ee3e07b:353
+     * @MinLength 1
+     * @MaxLength 64
      * @var string[]
      */
     private $tagName = array(

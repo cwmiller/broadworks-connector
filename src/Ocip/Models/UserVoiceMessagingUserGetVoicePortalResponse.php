@@ -36,6 +36,8 @@ class UserVoiceMessagingUserGetVoicePortalResponse extends \CWM\BroadWorksConnec
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:11912
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $personalizedNameAudioFileDescription = null;

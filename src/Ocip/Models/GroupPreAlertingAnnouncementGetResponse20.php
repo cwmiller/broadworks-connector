@@ -26,6 +26,8 @@ class GroupPreAlertingAnnouncementGetResponse20 extends \CWM\BroadWorksConnector
      * @Type string
      * @Optional
      * @Group 6165f2b4cd549de71fe8f3171488fdd8:130
+     * @MinLength 1
+     * @MaxLength 10
      * @var string|null
      */
     private $interruptionDigitSequence = null;
@@ -52,6 +54,8 @@ class GroupPreAlertingAnnouncementGetResponse20 extends \CWM\BroadWorksConnector
      * @Type string
      * @Optional
      * @Group 6165f2b4cd549de71fe8f3171488fdd8:130
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $audioFileUrl = null;
@@ -78,6 +82,8 @@ class GroupPreAlertingAnnouncementGetResponse20 extends \CWM\BroadWorksConnector
      * @Type string
      * @Optional
      * @Group 6165f2b4cd549de71fe8f3171488fdd8:130
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $videoFileUrl = null;

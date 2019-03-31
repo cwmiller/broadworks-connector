@@ -19,6 +19,8 @@ class GroupDialPlanPolicyAddAccessCodeRequest extends \CWM\BroadWorksConnector\O
      * @ElementName serviceProviderId
      * @Type string
      * @Group f3a93cf15de4abd7903673e44ee3e07b:3817
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,6 +29,8 @@ class GroupDialPlanPolicyAddAccessCodeRequest extends \CWM\BroadWorksConnector\O
      * @ElementName groupId
      * @Type string
      * @Group f3a93cf15de4abd7903673e44ee3e07b:3817
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;
@@ -35,6 +39,8 @@ class GroupDialPlanPolicyAddAccessCodeRequest extends \CWM\BroadWorksConnector\O
      * @ElementName accessCode
      * @Type string
      * @Group f3a93cf15de4abd7903673e44ee3e07b:3817
+     * @MinLength 1
+     * @MaxLength 5
      * @var string|null
      */
     private $accessCode = null;
@@ -68,6 +74,8 @@ class GroupDialPlanPolicyAddAccessCodeRequest extends \CWM\BroadWorksConnector\O
      * @Type string
      * @Optional
      * @Group f3a93cf15de4abd7903673e44ee3e07b:3817
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $description = null;

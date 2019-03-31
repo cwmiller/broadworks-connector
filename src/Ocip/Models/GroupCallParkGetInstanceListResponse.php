@@ -19,6 +19,8 @@ class GroupCallParkGetInstanceListResponse extends \CWM\BroadWorksConnector\Ocip
      * @Array
      * @Optional
      * @Group 7a925e891158dfa3cb1319e045608894:302
+     * @MinLength 1
+     * @MaxLength 80
      * @var string[]
      */
     private $name = array(

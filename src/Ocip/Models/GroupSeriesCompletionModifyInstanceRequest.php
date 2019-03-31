@@ -19,6 +19,8 @@ class GroupSeriesCompletionModifyInstanceRequest extends \CWM\BroadWorksConnecto
      * @ElementName serviceProviderId
      * @Type string
      * @Group b974dc59b4b32d9f5952a0442ecaefa8:195
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,6 +29,8 @@ class GroupSeriesCompletionModifyInstanceRequest extends \CWM\BroadWorksConnecto
      * @ElementName groupId
      * @Type string
      * @Group b974dc59b4b32d9f5952a0442ecaefa8:195
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;
@@ -35,6 +39,8 @@ class GroupSeriesCompletionModifyInstanceRequest extends \CWM\BroadWorksConnecto
      * @ElementName name
      * @Type string
      * @Group b974dc59b4b32d9f5952a0442ecaefa8:195
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $name = null;
@@ -44,6 +50,8 @@ class GroupSeriesCompletionModifyInstanceRequest extends \CWM\BroadWorksConnecto
      * @Type string
      * @Optional
      * @Group b974dc59b4b32d9f5952a0442ecaefa8:195
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $newName = null;

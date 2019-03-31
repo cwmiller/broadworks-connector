@@ -16,6 +16,8 @@ class CollaborateGracePeriodDuration
      * @ElementName hours
      * @Type int
      * @Group c0d21ef9ba207c335d8347e5172fce1d:1036
+     * @MinInclusive
+     * @MaxInclusive 23
      * @var int|null
      */
     private $hours = null;
@@ -24,6 +26,7 @@ class CollaborateGracePeriodDuration
      * @ElementName minutes
      * @Type int
      * @Group c0d21ef9ba207c335d8347e5172fce1d:1036
+     * @Pattern 0|15|30|45
      * @var int|null
      */
     private $minutes = null;

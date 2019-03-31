@@ -17,6 +17,8 @@ class SystemMeetMeConferencingGetResponse18 extends \CWM\BroadWorksConnector\Oci
      * @ElementName conferenceIdLength
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:26251
+     * @MinInclusive 6
+     * @MaxInclusive 12
      * @var int|null
      */
     private $conferenceIdLength = null;
@@ -25,6 +27,8 @@ class SystemMeetMeConferencingGetResponse18 extends \CWM\BroadWorksConnector\Oci
      * @ElementName moderatorPinLength
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:26251
+     * @MinInclusive 6
+     * @MaxInclusive 12
      * @var int|null
      */
     private $moderatorPinLength = null;
@@ -41,6 +45,8 @@ class SystemMeetMeConferencingGetResponse18 extends \CWM\BroadWorksConnector\Oci
      * @ElementName conferenceEndDateRestrictionMonths
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:26251
+     * @MinInclusive 1
+     * @MaxInclusive 99
      * @var int|null
      */
     private $conferenceEndDateRestrictionMonths = null;
@@ -66,6 +72,8 @@ class SystemMeetMeConferencingGetResponse18 extends \CWM\BroadWorksConnector\Oci
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:26251
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $recordingWebAppURL = null;
@@ -98,6 +106,8 @@ class SystemMeetMeConferencingGetResponse18 extends \CWM\BroadWorksConnector\Oci
      * @ElementName conferenceParticipantEarlyEntryMinutes
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:26251
+     * @MinInclusive
+     * @MaxInclusive 15
      * @var int|null
      */
     private $conferenceParticipantEarlyEntryMinutes = null;
@@ -122,6 +132,8 @@ class SystemMeetMeConferencingGetResponse18 extends \CWM\BroadWorksConnector\Oci
      * @ElementName conferenceFromAddress
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:26251
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $conferenceFromAddress = null;

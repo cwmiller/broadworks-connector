@@ -23,6 +23,8 @@ class GroupVirtualOnNetEnterpriseExtensionsGetUserListRequest extends \CWM\Broad
      * @ElementName serviceProviderId
      * @Type string
      * @Group 179b744b0183abe614e8c32c17c96b7e:138
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -31,6 +33,8 @@ class GroupVirtualOnNetEnterpriseExtensionsGetUserListRequest extends \CWM\Broad
      * @ElementName groupId
      * @Type string
      * @Group 179b744b0183abe614e8c32c17c96b7e:138
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;
@@ -40,6 +44,7 @@ class GroupVirtualOnNetEnterpriseExtensionsGetUserListRequest extends \CWM\Broad
      * @Type int
      * @Optional
      * @Group 179b744b0183abe614e8c32c17c96b7e:138
+     * @MinInclusive 1
      * @var int|null
      */
     private $responseSizeLimit = null;

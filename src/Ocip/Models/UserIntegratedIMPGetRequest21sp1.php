@@ -19,6 +19,8 @@ class UserIntegratedIMPGetRequest21sp1 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName userId
      * @Type string
      * @Group 23389100b68cef3aa07ee12ac7a2bd16:332
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;

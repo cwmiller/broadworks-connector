@@ -20,6 +20,8 @@ class UserCallForwardingAlwaysModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName userId
      * @Type string
      * @Group 97105b92fc80f353d25e39a7ecc8e22f:78
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;
@@ -39,6 +41,8 @@ class UserCallForwardingAlwaysModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @Nillable
      * @Optional
      * @Group 97105b92fc80f353d25e39a7ecc8e22f:78
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $forwardToPhoneNumber = null;

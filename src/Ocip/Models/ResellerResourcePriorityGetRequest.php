@@ -19,6 +19,8 @@ class ResellerResourcePriorityGetRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName resellerId
      * @Type string
      * @Group 0c61aa8506194ca714d0fe1c4a0b57ff:45
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $resellerId = null;

@@ -20,6 +20,8 @@ class GroupIMRNAssignListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @ElementName serviceProviderId
      * @Type string
      * @Group f3a93cf15de4abd7903673e44ee3e07b:5330
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -28,6 +30,8 @@ class GroupIMRNAssignListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @ElementName groupId
      * @Type string
      * @Group f3a93cf15de4abd7903673e44ee3e07b:5330
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;
@@ -38,6 +42,8 @@ class GroupIMRNAssignListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @Array
      * @Optional
      * @Group f3a93cf15de4abd7903673e44ee3e07b:5330
+     * @MinLength 1
+     * @MaxLength 23
      * @var string[]
      */
     private $imrn = array(

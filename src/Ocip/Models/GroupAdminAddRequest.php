@@ -19,6 +19,8 @@ class GroupAdminAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReq
      * @ElementName serviceProviderId
      * @Type string
      * @Group f3a93cf15de4abd7903673e44ee3e07b:1055
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,6 +29,8 @@ class GroupAdminAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReq
      * @ElementName groupId
      * @Type string
      * @Group f3a93cf15de4abd7903673e44ee3e07b:1055
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;
@@ -35,6 +39,8 @@ class GroupAdminAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReq
      * @ElementName userId
      * @Type string
      * @Group f3a93cf15de4abd7903673e44ee3e07b:1055
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;
@@ -44,6 +50,8 @@ class GroupAdminAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReq
      * @Type string
      * @Optional
      * @Group f3a93cf15de4abd7903673e44ee3e07b:1055
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $firstName = null;
@@ -53,6 +61,8 @@ class GroupAdminAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReq
      * @Type string
      * @Optional
      * @Group f3a93cf15de4abd7903673e44ee3e07b:1055
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $lastName = null;
@@ -62,6 +72,8 @@ class GroupAdminAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReq
      * @Type string
      * @Optional
      * @Group f3a93cf15de4abd7903673e44ee3e07b:1055
+     * @MinLength 1
+     * @MaxLength 60
      * @var string|null
      */
     private $password = null;
@@ -71,6 +83,8 @@ class GroupAdminAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReq
      * @Type string
      * @Optional
      * @Group f3a93cf15de4abd7903673e44ee3e07b:1055
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $language = null;

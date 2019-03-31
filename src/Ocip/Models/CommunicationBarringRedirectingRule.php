@@ -16,6 +16,8 @@ class CommunicationBarringRedirectingRule
      * @ElementName criteria
      * @Type string
      * @Group c0d21ef9ba207c335d8347e5172fce1d:1426
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $criteria = null;
@@ -34,6 +36,8 @@ class CommunicationBarringRedirectingRule
      * @Nillable
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:1426
+     * @MinInclusive 60
+     * @MaxInclusive 86400
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $callTimeoutSeconds = null;

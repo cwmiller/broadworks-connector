@@ -23,6 +23,8 @@ class UserFeatureAccessCodeGetListRequest20 extends \CWM\BroadWorksConnector\Oci
      * @ElementName userId
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:35862
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;

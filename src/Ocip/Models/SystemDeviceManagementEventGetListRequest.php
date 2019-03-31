@@ -36,6 +36,7 @@ class SystemDeviceManagementEventGetListRequest extends \CWM\BroadWorksConnector
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:41760
+     * @MinInclusive 1
      * @var int|null
      */
     private $responseSizeLimit = null;

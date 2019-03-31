@@ -19,6 +19,8 @@ class UserVoiceMessagingUserGetDistributionListRequest extends \CWM\BroadWorksCo
      * @ElementName userId
      * @Type string
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1765
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;
@@ -27,6 +29,8 @@ class UserVoiceMessagingUserGetDistributionListRequest extends \CWM\BroadWorksCo
      * @ElementName listId
      * @Type int
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1765
+     * @MinInclusive
+     * @MaxInclusive 14
      * @var int|null
      */
     private $listId = null;

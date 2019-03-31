@@ -19,6 +19,8 @@ class GroupFileRepositoryDeviceUserDeleteRequest extends \CWM\BroadWorksConnecto
      * @ElementName serviceProviderId
      * @Type string
      * @Group f3a93cf15de4abd7903673e44ee3e07b:4986
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,6 +29,8 @@ class GroupFileRepositoryDeviceUserDeleteRequest extends \CWM\BroadWorksConnecto
      * @ElementName groupId
      * @Type string
      * @Group f3a93cf15de4abd7903673e44ee3e07b:4986
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;
@@ -35,6 +39,8 @@ class GroupFileRepositoryDeviceUserDeleteRequest extends \CWM\BroadWorksConnecto
      * @ElementName fileRepositoryName
      * @Type string
      * @Group f3a93cf15de4abd7903673e44ee3e07b:4986
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $fileRepositoryName = null;
@@ -43,6 +49,8 @@ class GroupFileRepositoryDeviceUserDeleteRequest extends \CWM\BroadWorksConnecto
      * @ElementName userName
      * @Type string
      * @Group f3a93cf15de4abd7903673e44ee3e07b:4986
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $userName = null;

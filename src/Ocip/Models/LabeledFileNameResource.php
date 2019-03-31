@@ -17,6 +17,8 @@ class LabeledFileNameResource
      * @ElementName description
      * @Type string
      * @Group c0d21ef9ba207c335d8347e5172fce1d:2496
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $description = null;
@@ -33,6 +35,7 @@ class LabeledFileNameResource
      * @ElementName sourceFileName
      * @Type string
      * @Group c0d21ef9ba207c335d8347e5172fce1d:2496
+     * @MinLength 1
      * @var string|null
      */
     private $sourceFileName = null;

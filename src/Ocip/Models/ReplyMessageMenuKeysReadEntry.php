@@ -16,6 +16,8 @@ class ReplyMessageMenuKeysReadEntry
      * @ElementName sendReplyToCaller
      * @Type string
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:3056
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $sendReplyToCaller = null;
@@ -25,6 +27,8 @@ class ReplyMessageMenuKeysReadEntry
      * @Type string
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:3056
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $changeCurrentReply = null;
@@ -34,6 +38,8 @@ class ReplyMessageMenuKeysReadEntry
      * @Type string
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:3056
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $listenToCurrentReply = null;
@@ -43,6 +49,8 @@ class ReplyMessageMenuKeysReadEntry
      * @Type string
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:3056
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $setOrClearUrgentIndicator = null;
@@ -52,6 +60,8 @@ class ReplyMessageMenuKeysReadEntry
      * @Type string
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:3056
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $setOrClearConfidentialIndicator = null;
@@ -60,6 +70,8 @@ class ReplyMessageMenuKeysReadEntry
      * @ElementName returnToPreviousMenu
      * @Type string
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:3056
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $returnToPreviousMenu = null;
@@ -69,6 +81,8 @@ class ReplyMessageMenuKeysReadEntry
      * @Type string
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:3056
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $repeatMenu = null;

@@ -20,6 +20,8 @@ class GroupGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRes
      * @ElementName defaultDomain
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:1609
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $defaultDomain = null;
@@ -28,6 +30,8 @@ class GroupGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRes
      * @ElementName userLimit
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:1609
+     * @MinInclusive 1
+     * @MaxInclusive 999999
      * @var int|null
      */
     private $userLimit = null;
@@ -45,6 +49,8 @@ class GroupGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRes
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:1609
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $groupName = null;
@@ -54,6 +60,8 @@ class GroupGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRes
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:1609
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $callingLineIdName = null;
@@ -62,6 +70,8 @@ class GroupGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRes
      * @ElementName timeZone
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:1609
+     * @MinLength 1
+     * @MaxLength 127
      * @var string|null
      */
     private $timeZone = null;
@@ -70,6 +80,8 @@ class GroupGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRes
      * @ElementName timeZoneDisplayName
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:1609
+     * @MinLength 1
+     * @MaxLength 127
      * @var string|null
      */
     private $timeZoneDisplayName = null;
@@ -79,6 +91,8 @@ class GroupGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRes
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:1609
+     * @MinLength 1
+     * @MaxLength 15
      * @var string|null
      */
     private $locationDialingCode = null;

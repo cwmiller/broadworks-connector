@@ -19,6 +19,8 @@ class UserSelectiveCallRejectionDeleteCriteriaRequest extends \CWM\BroadWorksCon
      * @ElementName userId
      * @Type string
      * @Group 41cdd93743bd17548f1ded5691680d5a:73
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;
@@ -27,6 +29,8 @@ class UserSelectiveCallRejectionDeleteCriteriaRequest extends \CWM\BroadWorksCon
      * @ElementName criteriaName
      * @Type string
      * @Group 41cdd93743bd17548f1ded5691680d5a:73
+     * @MinLength 1
+     * @MaxLength 50
      * @var string|null
      */
     private $criteriaName = null;

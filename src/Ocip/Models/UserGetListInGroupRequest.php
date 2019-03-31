@@ -21,6 +21,8 @@ class UserGetListInGroupRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\O
      * @ElementName serviceProviderId
      * @Type string
      * @Group 53d18cc797d03d802cbc411ad821f1d4:1795
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -29,6 +31,8 @@ class UserGetListInGroupRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\O
      * @ElementName GroupId
      * @Type string
      * @Group 53d18cc797d03d802cbc411ad821f1d4:1795
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $GroupId = null;
@@ -38,6 +42,7 @@ class UserGetListInGroupRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\O
      * @Type int
      * @Optional
      * @Group 53d18cc797d03d802cbc411ad821f1d4:1795
+     * @MinInclusive 1
      * @var int|null
      */
     private $responseSizeLimit = null;

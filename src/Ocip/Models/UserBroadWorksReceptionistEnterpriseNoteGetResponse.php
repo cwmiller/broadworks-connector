@@ -18,6 +18,8 @@ class UserBroadWorksReceptionistEnterpriseNoteGetResponse extends \CWM\BroadWork
      * @Type string
      * @Optional
      * @Group fb12998f4f9e45cedde01f08569f4c7c:254
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $receptionistNote = null;

@@ -41,6 +41,8 @@ class CallCenterScheduledReportServiceLevelInclusions
      * @Type int
      * @Optional
      * @Group e2c537e3e39483b96620673a7012ffdd:7655
+     * @MinInclusive 1
+     * @MaxInclusive 7200
      * @var int|null
      */
     private $abandonedCallIntervalSeconds = null;

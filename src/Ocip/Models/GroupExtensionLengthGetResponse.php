@@ -17,6 +17,8 @@ class GroupExtensionLengthGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName extensionLength
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:13615
+     * @MinInclusive 2
+     * @MaxInclusive 6
      * @var int|null
      */
     private $extensionLength = null;

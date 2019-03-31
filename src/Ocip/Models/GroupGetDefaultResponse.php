@@ -17,6 +17,8 @@ class GroupGetDefaultResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @ElementName defaultDomain
      * @Type string
      * @Group f3a93cf15de4abd7903673e44ee3e07b:5077
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $defaultDomain = null;
@@ -25,6 +27,8 @@ class GroupGetDefaultResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @ElementName userLimit
      * @Type int
      * @Group f3a93cf15de4abd7903673e44ee3e07b:5077
+     * @MinInclusive 1
+     * @MaxInclusive 999999
      * @var int|null
      */
     private $userLimit = null;
@@ -33,6 +37,8 @@ class GroupGetDefaultResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @ElementName timeZone
      * @Type string
      * @Group f3a93cf15de4abd7903673e44ee3e07b:5077
+     * @MinLength 1
+     * @MaxLength 127
      * @var string|null
      */
     private $timeZone = null;
@@ -41,6 +47,8 @@ class GroupGetDefaultResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @ElementName timeZoneDisplayName
      * @Type string
      * @Group f3a93cf15de4abd7903673e44ee3e07b:5077
+     * @MinLength 1
+     * @MaxLength 127
      * @var string|null
      */
     private $timeZoneDisplayName = null;

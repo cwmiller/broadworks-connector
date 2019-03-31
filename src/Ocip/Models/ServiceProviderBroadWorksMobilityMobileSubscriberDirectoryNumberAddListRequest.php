@@ -22,6 +22,8 @@ class ServiceProviderBroadWorksMobilityMobileSubscriberDirectoryNumberAddListReq
      * @ElementName serviceProviderId
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:34025
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -32,6 +34,8 @@ class ServiceProviderBroadWorksMobilityMobileSubscriberDirectoryNumberAddListReq
      * @Array
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:34025
+     * @MinLength 1
+     * @MaxLength 23
      * @var string[]
      */
     private $mobileSubscriberDirectoryNumber = array(

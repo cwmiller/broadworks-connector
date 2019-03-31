@@ -14,6 +14,9 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21VoicePortalCallingMe
      * @ElementName endCurrentCallAndGoBackToPreviousMenu
      * @Type string
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:874
+     * @MinLength 1
+     * @MaxLength 3
+     * @Pattern ([0-9]|\*|#){0,3}
      * @var string|null
      */
     private $endCurrentCallAndGoBackToPreviousMenu = null;
@@ -22,6 +25,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21VoicePortalCallingMe
      * @ElementName returnToPreviousMenu
      * @Type string
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:874
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $returnToPreviousMenu = null;

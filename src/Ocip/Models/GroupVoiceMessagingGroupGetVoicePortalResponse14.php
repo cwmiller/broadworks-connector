@@ -19,6 +19,8 @@ class GroupVoiceMessagingGroupGetVoicePortalResponse14 extends \CWM\BroadWorksCo
      * @ElementName serviceUserId
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:3270
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $serviceUserId = null;
@@ -76,6 +78,8 @@ class GroupVoiceMessagingGroupGetVoicePortalResponse14 extends \CWM\BroadWorksCo
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:3270
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $externalRoutingAddress = null;

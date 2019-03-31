@@ -94,6 +94,8 @@ class GroupCallCenterGetDNISAnnouncementResponse20 extends \CWM\BroadWorksConnec
      * @ElementName timeBetweenComfortMessagesSeconds
      * @Type int
      * @Group e2c537e3e39483b96620673a7012ffdd:4350
+     * @MinInclusive 10
+     * @MaxInclusive 600
      * @var int|null
      */
     private $timeBetweenComfortMessagesSeconds = null;

@@ -33,6 +33,8 @@ class DeviceManagementFileAuthLocationGetRequest21 extends \CWM\BroadWorksConnec
      * @ElementName deviceAccessMethod
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:32955
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $deviceAccessMethod = null;
@@ -41,6 +43,8 @@ class DeviceManagementFileAuthLocationGetRequest21 extends \CWM\BroadWorksConnec
      * @ElementName deviceAccessURI
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:32955
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $deviceAccessURI = null;
@@ -50,6 +54,8 @@ class DeviceManagementFileAuthLocationGetRequest21 extends \CWM\BroadWorksConnec
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:32955
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $accessDeviceUserName = null;
@@ -59,6 +65,8 @@ class DeviceManagementFileAuthLocationGetRequest21 extends \CWM\BroadWorksConnec
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:32955
+     * @MinLength 1
+     * @MaxLength 60
      * @var string|null
      */
     private $accessDeviceUserPassword = null;
@@ -68,6 +76,7 @@ class DeviceManagementFileAuthLocationGetRequest21 extends \CWM\BroadWorksConnec
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:32955
+     * @MinLength 1
      * @var string|null
      */
     private $deviceToken = null;
@@ -77,6 +86,7 @@ class DeviceManagementFileAuthLocationGetRequest21 extends \CWM\BroadWorksConnec
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:32955
+     * @MinLength 1
      * @var string|null
      */
     private $signedPassword = null;
@@ -86,6 +96,8 @@ class DeviceManagementFileAuthLocationGetRequest21 extends \CWM\BroadWorksConnec
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:32955
+     * @MinLength 1
+     * @MaxLength 12
      * @var string|null
      */
     private $macAddress = null;
@@ -95,6 +107,8 @@ class DeviceManagementFileAuthLocationGetRequest21 extends \CWM\BroadWorksConnec
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:32955
+     * @MinLength 1
+     * @MaxLength 265
      * @var string|null
      */
     private $realmName = null;
@@ -104,6 +118,8 @@ class DeviceManagementFileAuthLocationGetRequest21 extends \CWM\BroadWorksConnec
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:32955
+     * @MinLength 32
+     * @MaxLength 256
      * @var string|null
      */
     private $digestHa1Complement = null;
@@ -113,6 +129,8 @@ class DeviceManagementFileAuthLocationGetRequest21 extends \CWM\BroadWorksConnec
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:32955
+     * @MinLength 32
+     * @MaxLength 32
      * @var string|null
      */
     private $digestResponse = null;

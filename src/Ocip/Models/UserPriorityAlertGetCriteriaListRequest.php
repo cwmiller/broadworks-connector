@@ -19,6 +19,8 @@ class UserPriorityAlertGetCriteriaListRequest extends \CWM\BroadWorksConnector\O
      * @ElementName userId
      * @Type string
      * @Group 750c600a9467af6ee77c0dbca839453e:88
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;

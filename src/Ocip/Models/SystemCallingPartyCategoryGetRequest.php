@@ -19,6 +19,8 @@ class SystemCallingPartyCategoryGetRequest extends \CWM\BroadWorksConnector\Ocip
      * @ElementName category
      * @Type string
      * @Group 89aa8c9a341a3cccb2453b1ee467bf94:120
+     * @MinLength 1
+     * @MaxLength 20
      * @var string|null
      */
     private $category = null;

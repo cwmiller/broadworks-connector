@@ -30,6 +30,8 @@ class UserEnhancedCallLogsGetListRequest22 extends \CWM\BroadWorksConnector\Ocip
      * @ElementName userId
      * @Type string
      * @Group f6b3702edb5f67fa12c2c426d98657db:289
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;

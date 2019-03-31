@@ -19,6 +19,8 @@ class UserINIntegrationModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName userId
      * @Type string
      * @Group e2b7b9ea45350592016ce6935a4d7694:73
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;
@@ -29,6 +31,8 @@ class UserINIntegrationModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @Nillable
      * @Optional
      * @Group e2b7b9ea45350592016ce6935a4d7694:73
+     * @MinInclusive
+     * @MaxInclusive 999
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $originatingServiceKey = null;
@@ -39,6 +43,8 @@ class UserINIntegrationModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @Nillable
      * @Optional
      * @Group e2b7b9ea45350592016ce6935a4d7694:73
+     * @MinInclusive
+     * @MaxInclusive 999
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $terminatingServiceKey = null;

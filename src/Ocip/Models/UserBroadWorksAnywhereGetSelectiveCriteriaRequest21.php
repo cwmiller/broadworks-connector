@@ -19,6 +19,8 @@ class UserBroadWorksAnywhereGetSelectiveCriteriaRequest21 extends \CWM\BroadWork
      * @ElementName userId
      * @Type string
      * @Group 72f634ecc58842ce9d362ca629a47ea9:508
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;
@@ -27,6 +29,8 @@ class UserBroadWorksAnywhereGetSelectiveCriteriaRequest21 extends \CWM\BroadWork
      * @ElementName phoneNumber
      * @Type string
      * @Group 72f634ecc58842ce9d362ca629a47ea9:508
+     * @MinLength 1
+     * @MaxLength 23
      * @var string|null
      */
     private $phoneNumber = null;
@@ -35,6 +39,8 @@ class UserBroadWorksAnywhereGetSelectiveCriteriaRequest21 extends \CWM\BroadWork
      * @ElementName criteriaName
      * @Type string
      * @Group 72f634ecc58842ce9d362ca629a47ea9:508
+     * @MinLength 1
+     * @MaxLength 50
      * @var string|null
      */
     private $criteriaName = null;

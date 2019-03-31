@@ -18,6 +18,8 @@ class OutgoingCallingPlanTransferNumbersModify
      * @Nillable
      * @Optional
      * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:2220
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $phoneNumber01 = null;
@@ -28,6 +30,8 @@ class OutgoingCallingPlanTransferNumbersModify
      * @Nillable
      * @Optional
      * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:2220
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $phoneNumber02 = null;
@@ -38,6 +42,8 @@ class OutgoingCallingPlanTransferNumbersModify
      * @Nillable
      * @Optional
      * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:2220
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $phoneNumber03 = null;

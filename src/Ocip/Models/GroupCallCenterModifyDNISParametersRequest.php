@@ -19,6 +19,8 @@ class GroupCallCenterModifyDNISParametersRequest extends \CWM\BroadWorksConnecto
      * @ElementName serviceUserId
      * @Type string
      * @Group e2c537e3e39483b96620673a7012ffdd:5164
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $serviceUserId = null;
@@ -73,6 +75,8 @@ class GroupCallCenterModifyDNISParametersRequest extends \CWM\BroadWorksConnecto
      * @Type int
      * @Optional
      * @Group e2c537e3e39483b96620673a7012ffdd:5164
+     * @MinInclusive 1
+     * @MaxInclusive 1800
      * @var int|null
      */
     private $promoteCallsFromPriority1to0Seconds = null;
@@ -82,6 +86,8 @@ class GroupCallCenterModifyDNISParametersRequest extends \CWM\BroadWorksConnecto
      * @Type int
      * @Optional
      * @Group e2c537e3e39483b96620673a7012ffdd:5164
+     * @MinInclusive 1
+     * @MaxInclusive 1800
      * @var int|null
      */
     private $promoteCallsFromPriority2to1Seconds = null;
@@ -91,6 +97,8 @@ class GroupCallCenterModifyDNISParametersRequest extends \CWM\BroadWorksConnecto
      * @Type int
      * @Optional
      * @Group e2c537e3e39483b96620673a7012ffdd:5164
+     * @MinInclusive 1
+     * @MaxInclusive 1800
      * @var int|null
      */
     private $promoteCallsFromPriority3to2Seconds = null;

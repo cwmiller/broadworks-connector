@@ -25,6 +25,8 @@ class GroupFlexibleSeatingHostGuestAssociationGetResponse extends \CWM\BroadWork
      * @ElementName associationLimitHours
      * @Type int
      * @Group 43afb2158d313a1d1a148124d7caba1e:290
+     * @MinInclusive 1
+     * @MaxInclusive 999
      * @var int|null
      */
     private $associationLimitHours = null;
@@ -42,6 +44,8 @@ class GroupFlexibleSeatingHostGuestAssociationGetResponse extends \CWM\BroadWork
      * @Type string
      * @Optional
      * @Group 43afb2158d313a1d1a148124d7caba1e:290
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $guestLastName = null;
@@ -51,6 +55,8 @@ class GroupFlexibleSeatingHostGuestAssociationGetResponse extends \CWM\BroadWork
      * @Type string
      * @Optional
      * @Group 43afb2158d313a1d1a148124d7caba1e:290
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $guestFirstName = null;
@@ -60,6 +66,8 @@ class GroupFlexibleSeatingHostGuestAssociationGetResponse extends \CWM\BroadWork
      * @Type string
      * @Optional
      * @Group 43afb2158d313a1d1a148124d7caba1e:290
+     * @MinLength 1
+     * @MaxLength 23
      * @var string|null
      */
     private $guestPhoneNumber = null;
@@ -69,6 +77,8 @@ class GroupFlexibleSeatingHostGuestAssociationGetResponse extends \CWM\BroadWork
      * @Type string
      * @Optional
      * @Group 43afb2158d313a1d1a148124d7caba1e:290
+     * @MinLength 2
+     * @MaxLength 20
      * @var string|null
      */
     private $guestExtension = null;
@@ -78,6 +88,8 @@ class GroupFlexibleSeatingHostGuestAssociationGetResponse extends \CWM\BroadWork
      * @Type string
      * @Optional
      * @Group 43afb2158d313a1d1a148124d7caba1e:290
+     * @MinLength 1
+     * @MaxLength 15
      * @var string|null
      */
     private $guestLocationDialingCode = null;

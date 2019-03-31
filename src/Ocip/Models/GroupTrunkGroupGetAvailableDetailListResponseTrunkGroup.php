@@ -14,6 +14,8 @@ class GroupTrunkGroupGetAvailableDetailListResponseTrunkGroup
      * @ElementName name
      * @Type string
      * @Group f3a93cf15de4abd7903673e44ee3e07b:7305
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $name = null;

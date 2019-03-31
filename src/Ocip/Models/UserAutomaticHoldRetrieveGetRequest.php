@@ -20,6 +20,8 @@ class UserAutomaticHoldRetrieveGetRequest extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName userId
      * @Type string
      * @Group 83fee6d8bc1cbca3d5ef05a88de706cf:44
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;

@@ -22,6 +22,8 @@ class SystemSystemVoicePortalGetRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName systemVoicePortalId
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:42300
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $systemVoicePortalId = null;

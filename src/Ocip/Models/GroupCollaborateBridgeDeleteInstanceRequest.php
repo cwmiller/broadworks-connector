@@ -20,6 +20,8 @@ class GroupCollaborateBridgeDeleteInstanceRequest extends \CWM\BroadWorksConnect
      * @ElementName serviceUserId
      * @Type string
      * @Group 939fd5846dfae8bdf58308d6cb9ebb12:187
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $serviceUserId = null;

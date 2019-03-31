@@ -28,6 +28,7 @@ class GroupTrunkGroupGetAvailableHostedUserListRequest extends \CWM\BroadWorksCo
      * @Type int
      * @Optional
      * @Group b9c14e2d80e4e7749688ca13ba233b44:1050
+     * @MinInclusive 1
      * @var int|null
      */
     private $responseSizeLimit = null;

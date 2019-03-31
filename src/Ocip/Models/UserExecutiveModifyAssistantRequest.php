@@ -19,6 +19,8 @@ class UserExecutiveModifyAssistantRequest extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName userId
      * @Type string
      * @Group 9a6dbade05624033cf7fe782b7c9a9a7:353
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;

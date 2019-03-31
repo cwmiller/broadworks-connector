@@ -58,6 +58,8 @@ class SystemGETSModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @Type int
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9833
+     * @MinInclusive
+     * @MaxInclusive 4
      * @var int|null
      */
     private $defaultPriorityAVP = null;
@@ -67,6 +69,8 @@ class SystemGETSModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @Type int
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9833
+     * @MinInclusive
+     * @MaxInclusive 63
      * @var int|null
      */
     private $signalingDSCP = null;
@@ -76,6 +80,8 @@ class SystemGETSModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @Type string
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9833
+     * @MinLength 3
+     * @MaxLength 80
      * @var string|null
      */
     private $defaultRValue = null;

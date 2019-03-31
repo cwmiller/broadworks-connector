@@ -24,6 +24,8 @@ class RandomPort
      * @ElementName port
      * @Type int
      * @Group c0d21ef9ba207c335d8347e5172fce1d:2968
+     * @MinInclusive 1
+     * @MaxInclusive 65535
      * @var int|null
      */
     private $port = null;

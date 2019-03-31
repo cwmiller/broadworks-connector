@@ -19,6 +19,8 @@ class GroupSeriesCompletionGetInstanceListRequest extends \CWM\BroadWorksConnect
      * @ElementName serviceProviderId
      * @Type string
      * @Group b974dc59b4b32d9f5952a0442ecaefa8:128
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,6 +29,8 @@ class GroupSeriesCompletionGetInstanceListRequest extends \CWM\BroadWorksConnect
      * @ElementName groupId
      * @Type string
      * @Group b974dc59b4b32d9f5952a0442ecaefa8:128
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;

@@ -20,6 +20,8 @@ class GroupOutgoingCallingPlanDepartmentAuthorizationCodeDeleteListRequest exten
      * @ElementName serviceProviderId
      * @Type string
      * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:213
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -28,6 +30,8 @@ class GroupOutgoingCallingPlanDepartmentAuthorizationCodeDeleteListRequest exten
      * @ElementName groupId
      * @Type string
      * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:213
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;
@@ -46,6 +50,8 @@ class GroupOutgoingCallingPlanDepartmentAuthorizationCodeDeleteListRequest exten
      * @Type string
      * @Array
      * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:213
+     * @MinLength 2
+     * @MaxLength 14
      * @var string[]
      */
     private $code = array(

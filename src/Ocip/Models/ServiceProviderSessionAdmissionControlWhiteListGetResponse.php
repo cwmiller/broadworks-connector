@@ -20,6 +20,8 @@ class ServiceProviderSessionAdmissionControlWhiteListGetResponse extends \CWM\Br
      * @Array
      * @Optional
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:5880
+     * @MinLength 1
+     * @MaxLength 160
      * @var string[]
      */
     private $matchDigitPattern = array(

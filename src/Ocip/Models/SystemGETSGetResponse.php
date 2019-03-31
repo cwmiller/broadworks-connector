@@ -49,6 +49,8 @@ class SystemGETSGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDa
      * @ElementName defaultPriorityAVP
      * @Type int
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9808
+     * @MinInclusive
+     * @MaxInclusive 4
      * @var int|null
      */
     private $defaultPriorityAVP = null;
@@ -57,6 +59,8 @@ class SystemGETSGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDa
      * @ElementName signalingDSCP
      * @Type int
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9808
+     * @MinInclusive
+     * @MaxInclusive 63
      * @var int|null
      */
     private $signalingDSCP = null;
@@ -65,6 +69,8 @@ class SystemGETSGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDa
      * @ElementName defaultRValue
      * @Type string
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9808
+     * @MinLength 3
+     * @MaxLength 80
      * @var string|null
      */
     private $defaultRValue = null;

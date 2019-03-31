@@ -30,6 +30,8 @@ class GroupFindMeFollowMeGetAlertingGroupResponse extends \CWM\BroadWorksConnect
      * @Type string
      * @Optional
      * @Group 79f226053ee345f2ff4c37c37c8e9114:280
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $alertingGroupDescription = null;
@@ -54,6 +56,8 @@ class GroupFindMeFollowMeGetAlertingGroupResponse extends \CWM\BroadWorksConnect
      * @ElementName numberOfRings
      * @Type int
      * @Group 79f226053ee345f2ff4c37c37c8e9114:280
+     * @MinInclusive 2
+     * @MaxInclusive 20
      * @var int|null
      */
     private $numberOfRings = null;
@@ -64,6 +68,8 @@ class GroupFindMeFollowMeGetAlertingGroupResponse extends \CWM\BroadWorksConnect
      * @Array
      * @Optional
      * @Group 79f226053ee345f2ff4c37c37c8e9114:280
+     * @MinLength 1
+     * @MaxLength 161
      * @var string[]
      */
     private $phoneNumber = array(

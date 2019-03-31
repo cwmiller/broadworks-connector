@@ -26,6 +26,8 @@ class GroupRoutePointGetFailoverPolicyResponse extends \CWM\BroadWorksConnector\
      * @Type string
      * @Optional
      * @Group a27224a048c30ff69eab9209dec841cc:595
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $externalSystem = null;
@@ -35,6 +37,8 @@ class GroupRoutePointGetFailoverPolicyResponse extends \CWM\BroadWorksConnector\
      * @Type string
      * @Optional
      * @Group a27224a048c30ff69eab9209dec841cc:595
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $failoverPhoneNumber = null;
@@ -59,6 +63,8 @@ class GroupRoutePointGetFailoverPolicyResponse extends \CWM\BroadWorksConnector\
      * @ElementName perCallCallFailureTimeoutSeconds
      * @Type int
      * @Group a27224a048c30ff69eab9209dec841cc:595
+     * @MinInclusive 1
+     * @MaxInclusive 60
      * @var int|null
      */
     private $perCallCallFailureTimeoutSeconds = null;
@@ -67,6 +73,8 @@ class GroupRoutePointGetFailoverPolicyResponse extends \CWM\BroadWorksConnector\
      * @ElementName perCallOutboundCallFailureTimeoutSeconds
      * @Type int
      * @Group a27224a048c30ff69eab9209dec841cc:595
+     * @MinInclusive 1
+     * @MaxInclusive 60
      * @var int|null
      */
     private $perCallOutboundCallFailureTimeoutSeconds = null;
@@ -76,6 +84,8 @@ class GroupRoutePointGetFailoverPolicyResponse extends \CWM\BroadWorksConnector\
      * @Type string
      * @Optional
      * @Group a27224a048c30ff69eab9209dec841cc:595
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $perCallFailoverPhoneNumber = null;

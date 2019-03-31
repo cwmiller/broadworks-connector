@@ -21,6 +21,8 @@ class GroupCallParkGetAvailableUserListRequest extends \CWM\BroadWorksConnector\
      * @ElementName serviceProviderId
      * @Type string
      * @Group 7a925e891158dfa3cb1319e045608894:187
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -29,6 +31,8 @@ class GroupCallParkGetAvailableUserListRequest extends \CWM\BroadWorksConnector\
      * @ElementName groupId
      * @Type string
      * @Group 7a925e891158dfa3cb1319e045608894:187
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;
@@ -38,6 +42,8 @@ class GroupCallParkGetAvailableUserListRequest extends \CWM\BroadWorksConnector\
      * @Type string
      * @Optional
      * @Group 7a925e891158dfa3cb1319e045608894:187
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $name = null;
@@ -47,6 +53,7 @@ class GroupCallParkGetAvailableUserListRequest extends \CWM\BroadWorksConnector\
      * @Type int
      * @Optional
      * @Group 7a925e891158dfa3cb1319e045608894:187
+     * @MinInclusive 1
      * @var int|null
      */
     private $responseSizeLimit = null;

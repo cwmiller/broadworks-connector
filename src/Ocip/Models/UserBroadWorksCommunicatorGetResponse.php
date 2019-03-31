@@ -18,6 +18,8 @@ class UserBroadWorksCommunicatorGetResponse extends \CWM\BroadWorksConnector\Oci
      * @Type string
      * @Optional
      * @Group ba512c9f02a5f24a24d49cc945f1524d:104
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $configurationServerURL = null;

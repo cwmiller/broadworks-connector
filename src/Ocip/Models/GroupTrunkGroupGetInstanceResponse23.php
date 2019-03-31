@@ -27,6 +27,8 @@ class GroupTrunkGroupGetInstanceResponse23 extends \CWM\BroadWorksConnector\Ocip
      * @Type string
      * @Optional
      * @Group b9c14e2d80e4e7749688ca13ba233b44:1158
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $pilotUserId = null;
@@ -53,6 +55,7 @@ class GroupTrunkGroupGetInstanceResponse23 extends \CWM\BroadWorksConnector\Ocip
      * @ElementName maxActiveCalls
      * @Type int
      * @Group b9c14e2d80e4e7749688ca13ba233b44:1158
+     * @MinInclusive 1
      * @var int|null
      */
     private $maxActiveCalls = null;
@@ -62,6 +65,8 @@ class GroupTrunkGroupGetInstanceResponse23 extends \CWM\BroadWorksConnector\Ocip
      * @Type int
      * @Optional
      * @Group b9c14e2d80e4e7749688ca13ba233b44:1158
+     * @MinInclusive
+     * @MaxInclusive 999999
      * @var int|null
      */
     private $maxIncomingCalls = null;
@@ -71,6 +76,8 @@ class GroupTrunkGroupGetInstanceResponse23 extends \CWM\BroadWorksConnector\Ocip
      * @Type int
      * @Optional
      * @Group b9c14e2d80e4e7749688ca13ba233b44:1158
+     * @MinInclusive
+     * @MaxInclusive 999999
      * @var int|null
      */
     private $maxOutgoingCalls = null;
@@ -88,6 +95,8 @@ class GroupTrunkGroupGetInstanceResponse23 extends \CWM\BroadWorksConnector\Ocip
      * @Type int
      * @Optional
      * @Group b9c14e2d80e4e7749688ca13ba233b44:1158
+     * @MinInclusive
+     * @MaxInclusive 999999
      * @var int|null
      */
     private $burstingMaxActiveCalls = null;
@@ -97,6 +106,8 @@ class GroupTrunkGroupGetInstanceResponse23 extends \CWM\BroadWorksConnector\Ocip
      * @Type int
      * @Optional
      * @Group b9c14e2d80e4e7749688ca13ba233b44:1158
+     * @MinInclusive
+     * @MaxInclusive 999999
      * @var int|null
      */
     private $burstingMaxIncomingCalls = null;
@@ -106,6 +117,8 @@ class GroupTrunkGroupGetInstanceResponse23 extends \CWM\BroadWorksConnector\Ocip
      * @Type int
      * @Optional
      * @Group b9c14e2d80e4e7749688ca13ba233b44:1158
+     * @MinInclusive
+     * @MaxInclusive 999999
      * @var int|null
      */
     private $burstingMaxOutgoingCalls = null;
@@ -124,6 +137,8 @@ class GroupTrunkGroupGetInstanceResponse23 extends \CWM\BroadWorksConnector\Ocip
      * @Type string
      * @Optional
      * @Group b9c14e2d80e4e7749688ca13ba233b44:1158
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $capacityExceededForwardAddress = null;
@@ -141,6 +156,7 @@ class GroupTrunkGroupGetInstanceResponse23 extends \CWM\BroadWorksConnector\Ocip
      * @ElementName capacityExceededTrapInitialCalls
      * @Type int
      * @Group b9c14e2d80e4e7749688ca13ba233b44:1158
+     * @MinInclusive
      * @var int|null
      */
     private $capacityExceededTrapInitialCalls = null;
@@ -149,6 +165,7 @@ class GroupTrunkGroupGetInstanceResponse23 extends \CWM\BroadWorksConnector\Ocip
      * @ElementName capacityExceededTrapOffsetCalls
      * @Type int
      * @Group b9c14e2d80e4e7749688ca13ba233b44:1158
+     * @MinInclusive
      * @var int|null
      */
     private $capacityExceededTrapOffsetCalls = null;
@@ -167,6 +184,8 @@ class GroupTrunkGroupGetInstanceResponse23 extends \CWM\BroadWorksConnector\Ocip
      * @Type string
      * @Optional
      * @Group b9c14e2d80e4e7749688ca13ba233b44:1158
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $unreachableDestinationForwardAddress = null;
@@ -184,6 +203,8 @@ class GroupTrunkGroupGetInstanceResponse23 extends \CWM\BroadWorksConnector\Ocip
      * @ElementName invitationTimeout
      * @Type int
      * @Group b9c14e2d80e4e7749688ca13ba233b44:1158
+     * @MinInclusive 1
+     * @MaxInclusive 255
      * @var int|null
      */
     private $invitationTimeout = null;
@@ -201,6 +222,8 @@ class GroupTrunkGroupGetInstanceResponse23 extends \CWM\BroadWorksConnector\Ocip
      * @Type string
      * @Optional
      * @Group b9c14e2d80e4e7749688ca13ba233b44:1158
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $sipAuthenticationUserName = null;
@@ -219,6 +242,8 @@ class GroupTrunkGroupGetInstanceResponse23 extends \CWM\BroadWorksConnector\Ocip
      * @Type string
      * @Optional
      * @Group b9c14e2d80e4e7749688ca13ba233b44:1158
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $trunkGroupIdentity = null;
@@ -228,6 +253,8 @@ class GroupTrunkGroupGetInstanceResponse23 extends \CWM\BroadWorksConnector\Ocip
      * @Type string
      * @Optional
      * @Group b9c14e2d80e4e7749688ca13ba233b44:1158
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $otgDtgIdentity = null;
@@ -334,6 +361,8 @@ class GroupTrunkGroupGetInstanceResponse23 extends \CWM\BroadWorksConnector\Ocip
      * @Type string
      * @Optional
      * @Group b9c14e2d80e4e7749688ca13ba233b44:1158
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $callForwardingAlwaysForwardAddress = null;
@@ -352,6 +381,8 @@ class GroupTrunkGroupGetInstanceResponse23 extends \CWM\BroadWorksConnector\Ocip
      * @Type string
      * @Optional
      * @Group b9c14e2d80e4e7749688ca13ba233b44:1158
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $peeringDomain = null;
@@ -377,6 +408,8 @@ class GroupTrunkGroupGetInstanceResponse23 extends \CWM\BroadWorksConnector\Ocip
      * @Type string
      * @Optional
      * @Group b9c14e2d80e4e7749688ca13ba233b44:1158
+     * @MinLength 1
+     * @MaxLength 15
      * @var string|null
      */
     private $prefix = null;
@@ -401,6 +434,8 @@ class GroupTrunkGroupGetInstanceResponse23 extends \CWM\BroadWorksConnector\Ocip
      * @ElementName continuousOptionsSendingIntervalSeconds
      * @Type int
      * @Group b9c14e2d80e4e7749688ca13ba233b44:1158
+     * @MinInclusive 30
+     * @MaxInclusive 86400
      * @var int|null
      */
     private $continuousOptionsSendingIntervalSeconds = null;
@@ -409,6 +444,8 @@ class GroupTrunkGroupGetInstanceResponse23 extends \CWM\BroadWorksConnector\Ocip
      * @ElementName failureOptionsSendingIntervalSeconds
      * @Type int
      * @Group b9c14e2d80e4e7749688ca13ba233b44:1158
+     * @MinInclusive 10
+     * @MaxInclusive 86400
      * @var int|null
      */
     private $failureOptionsSendingIntervalSeconds = null;
@@ -417,6 +454,8 @@ class GroupTrunkGroupGetInstanceResponse23 extends \CWM\BroadWorksConnector\Ocip
      * @ElementName failureThresholdCounter
      * @Type int
      * @Group b9c14e2d80e4e7749688ca13ba233b44:1158
+     * @MinInclusive 1
+     * @MaxInclusive 60
      * @var int|null
      */
     private $failureThresholdCounter = null;
@@ -425,6 +464,8 @@ class GroupTrunkGroupGetInstanceResponse23 extends \CWM\BroadWorksConnector\Ocip
      * @ElementName successThresholdCounter
      * @Type int
      * @Group b9c14e2d80e4e7749688ca13ba233b44:1158
+     * @MinInclusive 1
+     * @MaxInclusive 60
      * @var int|null
      */
     private $successThresholdCounter = null;
@@ -433,6 +474,8 @@ class GroupTrunkGroupGetInstanceResponse23 extends \CWM\BroadWorksConnector\Ocip
      * @ElementName inviteFailureThresholdCounter
      * @Type int
      * @Group b9c14e2d80e4e7749688ca13ba233b44:1158
+     * @MinInclusive 1
+     * @MaxInclusive 60
      * @var int|null
      */
     private $inviteFailureThresholdCounter = null;
@@ -441,6 +484,8 @@ class GroupTrunkGroupGetInstanceResponse23 extends \CWM\BroadWorksConnector\Ocip
      * @ElementName inviteFailureThresholdWindowSeconds
      * @Type int
      * @Group b9c14e2d80e4e7749688ca13ba233b44:1158
+     * @MinInclusive 30
+     * @MaxInclusive 240
      * @var int|null
      */
     private $inviteFailureThresholdWindowSeconds = null;
@@ -595,6 +640,8 @@ class GroupTrunkGroupGetInstanceResponse23 extends \CWM\BroadWorksConnector\Ocip
      * @Array
      * @Optional
      * @Group b9c14e2d80e4e7749688ca13ba233b44:1158
+     * @MinLength 3
+     * @MaxLength 40
      * @var string[]
      */
     private $optionsMessageResponseStatusCode = array(

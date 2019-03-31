@@ -20,6 +20,8 @@ class UserPrepaidGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRe
      * @ElementName userId
      * @Type string
      * @Group ec793b9c4e032de7b751034d58c39dd1:42
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;

@@ -18,6 +18,7 @@ class EnterpriseSessionAdmissionControlGroupGetResponse21sp1 extends \CWM\BroadW
      * @ElementName maxSession
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:463
+     * @MinInclusive
      * @var int|null
      */
     private $maxSession = null;
@@ -27,6 +28,7 @@ class EnterpriseSessionAdmissionControlGroupGetResponse21sp1 extends \CWM\BroadW
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:463
+     * @MinInclusive
      * @var int|null
      */
     private $maxUserOriginatingSessions = null;
@@ -36,6 +38,7 @@ class EnterpriseSessionAdmissionControlGroupGetResponse21sp1 extends \CWM\BroadW
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:463
+     * @MinInclusive
      * @var int|null
      */
     private $maxUserTerminatingSessions = null;
@@ -44,6 +47,7 @@ class EnterpriseSessionAdmissionControlGroupGetResponse21sp1 extends \CWM\BroadW
      * @ElementName reservedSession
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:463
+     * @MinInclusive
      * @var int|null
      */
     private $reservedSession = null;
@@ -53,6 +57,7 @@ class EnterpriseSessionAdmissionControlGroupGetResponse21sp1 extends \CWM\BroadW
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:463
+     * @MinInclusive
      * @var int|null
      */
     private $reservedUserOriginatingSessions = null;
@@ -62,6 +67,7 @@ class EnterpriseSessionAdmissionControlGroupGetResponse21sp1 extends \CWM\BroadW
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:463
+     * @MinInclusive
      * @var int|null
      */
     private $reservedUserTerminatingSessions = null;
@@ -107,6 +113,8 @@ class EnterpriseSessionAdmissionControlGroupGetResponse21sp1 extends \CWM\BroadW
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:463
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $mediaGroupName = null;

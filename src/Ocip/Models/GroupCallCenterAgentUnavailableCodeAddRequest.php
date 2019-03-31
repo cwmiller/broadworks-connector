@@ -19,6 +19,8 @@ class GroupCallCenterAgentUnavailableCodeAddRequest extends \CWM\BroadWorksConne
      * @ElementName serviceProviderId
      * @Type string
      * @Group e2c537e3e39483b96620673a7012ffdd:2520
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,6 +29,8 @@ class GroupCallCenterAgentUnavailableCodeAddRequest extends \CWM\BroadWorksConne
      * @ElementName groupId
      * @Type string
      * @Group e2c537e3e39483b96620673a7012ffdd:2520
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;
@@ -43,6 +47,8 @@ class GroupCallCenterAgentUnavailableCodeAddRequest extends \CWM\BroadWorksConne
      * @ElementName code
      * @Type string
      * @Group e2c537e3e39483b96620673a7012ffdd:2520
+     * @MinLength 1
+     * @MaxLength 10
      * @var string|null
      */
     private $code = null;
@@ -52,6 +58,8 @@ class GroupCallCenterAgentUnavailableCodeAddRequest extends \CWM\BroadWorksConne
      * @Type string
      * @Optional
      * @Group e2c537e3e39483b96620673a7012ffdd:2520
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $description = null;

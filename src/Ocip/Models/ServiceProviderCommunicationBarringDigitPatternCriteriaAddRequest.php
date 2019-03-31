@@ -19,6 +19,8 @@ class ServiceProviderCommunicationBarringDigitPatternCriteriaAddRequest extends 
      * @ElementName serviceProviderId
      * @Type string
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:1539
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,6 +29,8 @@ class ServiceProviderCommunicationBarringDigitPatternCriteriaAddRequest extends 
      * @ElementName name
      * @Type string
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:1539
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $name = null;
@@ -36,6 +40,8 @@ class ServiceProviderCommunicationBarringDigitPatternCriteriaAddRequest extends 
      * @Type string
      * @Optional
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:1539
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $description = null;
@@ -46,6 +52,8 @@ class ServiceProviderCommunicationBarringDigitPatternCriteriaAddRequest extends 
      * @Array
      * @Optional
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:1539
+     * @MinLength 1
+     * @MaxLength 160
      * @var string[]
      */
     private $matchDigitPattern = array(

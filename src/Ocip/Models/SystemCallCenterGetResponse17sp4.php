@@ -20,6 +20,8 @@ class SystemCallCenterGetResponse17sp4 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName defaultFromAddress
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:25967
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $defaultFromAddress = null;
@@ -44,6 +46,8 @@ class SystemCallCenterGetResponse17sp4 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName defaultGuardTimerSeconds
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:25967
+     * @MinInclusive 1
+     * @MaxInclusive 25
      * @var int|null
      */
     private $defaultGuardTimerSeconds = null;
@@ -76,6 +80,8 @@ class SystemCallCenterGetResponse17sp4 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName numberConsecutiveBouncedCallsToForceAgentUnavailable
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:25967
+     * @MinInclusive 1
+     * @MaxInclusive 5
      * @var int|null
      */
     private $numberConsecutiveBouncedCallsToForceAgentUnavailable = null;
@@ -108,6 +114,8 @@ class SystemCallCenterGetResponse17sp4 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName callHandlingSamplingPeriodMinutes
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:25967
+     * @MinInclusive 5
+     * @MaxInclusive 30
      * @var int|null
      */
     private $callHandlingSamplingPeriodMinutes = null;
@@ -116,6 +124,8 @@ class SystemCallCenterGetResponse17sp4 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName callHandlingMinimumSamplingSize
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:25967
+     * @MinInclusive 1
+     * @MaxInclusive 100
      * @var int|null
      */
     private $callHandlingMinimumSamplingSize = null;
@@ -132,6 +142,8 @@ class SystemCallCenterGetResponse17sp4 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName emergencyCallCLIDPrefix
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:25967
+     * @MinLength 1
+     * @MaxLength 10
      * @var string|null
      */
     private $emergencyCallCLIDPrefix = null;

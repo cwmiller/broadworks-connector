@@ -19,6 +19,8 @@ class SystemCallRecordingAddPlatformRequest20 extends \CWM\BroadWorksConnector\O
      * @ElementName name
      * @Type string
      * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:101
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $name = null;
@@ -27,6 +29,8 @@ class SystemCallRecordingAddPlatformRequest20 extends \CWM\BroadWorksConnector\O
      * @ElementName netAddress
      * @Type string
      * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:101
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $netAddress = null;
@@ -36,6 +40,8 @@ class SystemCallRecordingAddPlatformRequest20 extends \CWM\BroadWorksConnector\O
      * @Type int
      * @Optional
      * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:101
+     * @MinInclusive 1
+     * @MaxInclusive 65535
      * @var int|null
      */
     private $port = null;
@@ -61,6 +67,8 @@ class SystemCallRecordingAddPlatformRequest20 extends \CWM\BroadWorksConnector\O
      * @Type string
      * @Optional
      * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:101
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $description = null;

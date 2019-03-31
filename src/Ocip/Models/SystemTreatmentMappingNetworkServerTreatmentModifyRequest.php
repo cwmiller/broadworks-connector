@@ -19,6 +19,8 @@ class SystemTreatmentMappingNetworkServerTreatmentModifyRequest extends \CWM\Bro
      * @ElementName nsTreatment
      * @Type string
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17853
+     * @MinLength 1
+     * @MaxLength 8
      * @var string|null
      */
     private $nsTreatment = null;
@@ -28,6 +30,8 @@ class SystemTreatmentMappingNetworkServerTreatmentModifyRequest extends \CWM\Bro
      * @Type string
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17853
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $treatmentId = null;

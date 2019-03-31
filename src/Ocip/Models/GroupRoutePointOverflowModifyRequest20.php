@@ -19,6 +19,8 @@ class GroupRoutePointOverflowModifyRequest20 extends \CWM\BroadWorksConnector\Oc
      * @ElementName serviceUserId
      * @Type string
      * @Group a27224a048c30ff69eab9209dec841cc:1057
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $serviceUserId = null;
@@ -38,6 +40,8 @@ class GroupRoutePointOverflowModifyRequest20 extends \CWM\BroadWorksConnector\Oc
      * @Nillable
      * @Optional
      * @Group a27224a048c30ff69eab9209dec841cc:1057
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $transferPhoneNumber = null;
@@ -56,6 +60,8 @@ class GroupRoutePointOverflowModifyRequest20 extends \CWM\BroadWorksConnector\Oc
      * @Type int
      * @Optional
      * @Group a27224a048c30ff69eab9209dec841cc:1057
+     * @MinInclusive
+     * @MaxInclusive 7200
      * @var int|null
      */
     private $timeoutSeconds = null;

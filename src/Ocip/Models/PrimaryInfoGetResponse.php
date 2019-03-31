@@ -27,6 +27,8 @@ class PrimaryInfoGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCID
      * @Type string
      * @Optional
      * @Group 6b27fcc79475236456fc113a42b75543:535
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $hostnameForPrimary = null;
@@ -37,6 +39,8 @@ class PrimaryInfoGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCID
      * @Array
      * @Optional
      * @Group 6b27fcc79475236456fc113a42b75543:535
+     * @MinLength 1
+     * @MaxLength 80
      * @var string[]
      */
     private $addressForPrimary = array(
@@ -49,6 +53,8 @@ class PrimaryInfoGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCID
      * @Array
      * @Optional
      * @Group 6b27fcc79475236456fc113a42b75543:535
+     * @MinLength 1
+     * @MaxLength 80
      * @var string[]
      */
     private $privateAddressForPrimary = array(

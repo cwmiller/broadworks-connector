@@ -19,6 +19,8 @@ class GroupAdviceOfChargeGetRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName serviceProviderId
      * @Type string
      * @Group a69fde15f3aa7494d83b57461a7a70bb:51
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,6 +29,8 @@ class GroupAdviceOfChargeGetRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName groupId
      * @Type string
      * @Group a69fde15f3aa7494d83b57461a7a70bb:51
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;

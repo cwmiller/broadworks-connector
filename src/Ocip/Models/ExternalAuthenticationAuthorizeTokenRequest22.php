@@ -21,6 +21,8 @@ class ExternalAuthenticationAuthorizeTokenRequest22 extends \CWM\BroadWorksConne
      * @ElementName userId
      * @Type string
      * @Group 6b27fcc79475236456fc113a42b75543:300
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;
@@ -30,6 +32,8 @@ class ExternalAuthenticationAuthorizeTokenRequest22 extends \CWM\BroadWorksConne
      * @Type string
      * @Optional
      * @Group 6b27fcc79475236456fc113a42b75543:300
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $password = null;
@@ -47,6 +51,7 @@ class ExternalAuthenticationAuthorizeTokenRequest22 extends \CWM\BroadWorksConne
      * @ElementName loginToken
      * @Type string
      * @Group 6b27fcc79475236456fc113a42b75543:300
+     * @MinLength 1
      * @var string|null
      */
     private $loginToken = null;

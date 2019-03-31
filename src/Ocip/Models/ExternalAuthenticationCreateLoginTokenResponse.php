@@ -17,6 +17,7 @@ class ExternalAuthenticationCreateLoginTokenResponse extends \CWM\BroadWorksConn
      * @ElementName loginToken
      * @Type string
      * @Group 6b27fcc79475236456fc113a42b75543:336
+     * @MinLength 1
      * @var string|null
      */
     private $loginToken = null;

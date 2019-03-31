@@ -19,6 +19,8 @@ class ServiceProviderApplicationServerSetGetResponse extends \CWM\BroadWorksConn
      * @Type string
      * @Optional
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:1268
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $applicationServerSetName = null;

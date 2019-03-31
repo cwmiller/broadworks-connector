@@ -20,6 +20,7 @@ class SystemCallCenterEnhancedReportingScheduledReportGetCompletedListRequest ex
      * @Type int
      * @Optional
      * @Group e2c537e3e39483b96620673a7012ffdd:6332
+     * @MinInclusive 1
      * @var int|null
      */
     private $responseSizeLimit = null;

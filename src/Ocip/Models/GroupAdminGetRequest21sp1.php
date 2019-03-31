@@ -19,6 +19,8 @@ class GroupAdminGetRequest21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\O
      * @ElementName userId
      * @Type string
      * @Group f3a93cf15de4abd7903673e44ee3e07b:1236
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;

@@ -15,6 +15,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestChangeCallForwarding
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:28439
+     * @Length 1
+     * @Pattern \*|#
      * @var string|null
      */
     private $finishEnteringNewDestinationNumber = null;

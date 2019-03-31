@@ -26,6 +26,8 @@ class CallMeNowToDnCriteria
      * @Array
      * @Optional
      * @Group 1f0f230fee2817fe00157925859dc28e:247
+     * @MinLength 1
+     * @MaxLength 23
      * @var string[]
      */
     private $phoneNumber = array(

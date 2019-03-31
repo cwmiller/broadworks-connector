@@ -31,6 +31,8 @@ class GroupPreAlertingAnnouncementGetResponse extends \CWM\BroadWorksConnector\O
      * @Type string
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:908
+     * @MinLength 1
+     * @MaxLength 10
      * @var string|null
      */
     private $interruptionDigitSequence = null;
@@ -48,6 +50,8 @@ class GroupPreAlertingAnnouncementGetResponse extends \CWM\BroadWorksConnector\O
      * @Type string
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:908
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $audioFileDescription = null;
@@ -66,6 +70,8 @@ class GroupPreAlertingAnnouncementGetResponse extends \CWM\BroadWorksConnector\O
      * @Type string
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:908
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $audioFileUrl = null;
@@ -83,6 +89,8 @@ class GroupPreAlertingAnnouncementGetResponse extends \CWM\BroadWorksConnector\O
      * @Type string
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:908
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $videoFileDescription = null;
@@ -101,6 +109,8 @@ class GroupPreAlertingAnnouncementGetResponse extends \CWM\BroadWorksConnector\O
      * @Type string
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:908
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $videoFileUrl = null;

@@ -30,6 +30,8 @@ class GroupHuntGroupGetAvailableUserPagedSortedListRequest extends \CWM\BroadWor
      * @ElementName serviceProviderId
      * @Type string
      * @Group bc829065f9d696d3ca7084121d57f8c0:298
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -38,6 +40,8 @@ class GroupHuntGroupGetAvailableUserPagedSortedListRequest extends \CWM\BroadWor
      * @ElementName groupId
      * @Type string
      * @Group bc829065f9d696d3ca7084121d57f8c0:298
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;

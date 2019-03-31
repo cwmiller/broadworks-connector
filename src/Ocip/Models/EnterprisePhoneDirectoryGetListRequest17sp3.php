@@ -25,6 +25,8 @@ class EnterprisePhoneDirectoryGetListRequest17sp3 extends \CWM\BroadWorksConnect
      * @ElementName enterpriseId
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:18329
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $enterpriseId = null;
@@ -42,6 +44,7 @@ class EnterprisePhoneDirectoryGetListRequest17sp3 extends \CWM\BroadWorksConnect
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:18329
+     * @MinInclusive 1
      * @var int|null
      */
     private $responseSizeLimit = null;

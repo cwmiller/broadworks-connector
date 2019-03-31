@@ -23,6 +23,8 @@ class UserPreAlertingAnnouncementModifyCriteriaRequest extends \CWM\BroadWorksCo
      * @ElementName userId
      * @Type string
      * @Group 6165f2b4cd549de71fe8f3171488fdd8:309
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;
@@ -31,6 +33,8 @@ class UserPreAlertingAnnouncementModifyCriteriaRequest extends \CWM\BroadWorksCo
      * @ElementName criteriaName
      * @Type string
      * @Group 6165f2b4cd549de71fe8f3171488fdd8:309
+     * @MinLength 1
+     * @MaxLength 50
      * @var string|null
      */
     private $criteriaName = null;
@@ -40,6 +44,8 @@ class UserPreAlertingAnnouncementModifyCriteriaRequest extends \CWM\BroadWorksCo
      * @Type string
      * @Optional
      * @Group 6165f2b4cd549de71fe8f3171488fdd8:309
+     * @MinLength 1
+     * @MaxLength 50
      * @var string|null
      */
     private $newCriteriaName = null;

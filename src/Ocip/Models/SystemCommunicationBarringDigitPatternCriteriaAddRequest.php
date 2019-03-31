@@ -19,6 +19,8 @@ class SystemCommunicationBarringDigitPatternCriteriaAddRequest extends \CWM\Broa
      * @ElementName name
      * @Type string
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:5584
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $name = null;
@@ -28,6 +30,8 @@ class SystemCommunicationBarringDigitPatternCriteriaAddRequest extends \CWM\Broa
      * @Type string
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:5584
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $description = null;
@@ -38,6 +42,8 @@ class SystemCommunicationBarringDigitPatternCriteriaAddRequest extends \CWM\Broa
      * @Array
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:5584
+     * @MinLength 1
+     * @MaxLength 160
      * @var string[]
      */
     private $matchDigitPattern = array(

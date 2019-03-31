@@ -18,6 +18,8 @@ class GroupTimeScheduleGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\
      * @ElementName timeScheduleName
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:14127
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $timeScheduleName = null;

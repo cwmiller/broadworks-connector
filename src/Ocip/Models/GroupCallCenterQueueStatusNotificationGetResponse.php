@@ -42,6 +42,8 @@ class GroupCallCenterQueueStatusNotificationGetResponse extends \CWM\BroadWorksC
      * @ElementName numberOfCallsThreshold
      * @Type int
      * @Group e2c537e3e39483b96620673a7012ffdd:5723
+     * @MinInclusive 1
+     * @MaxInclusive 525
      * @var int|null
      */
     private $numberOfCallsThreshold = null;
@@ -50,6 +52,8 @@ class GroupCallCenterQueueStatusNotificationGetResponse extends \CWM\BroadWorksC
      * @ElementName waitingTimeOfCallsThreshold
      * @Type int
      * @Group e2c537e3e39483b96620673a7012ffdd:5723
+     * @MinInclusive 1
+     * @MaxInclusive 7200
      * @var int|null
      */
     private $waitingTimeOfCallsThreshold = null;

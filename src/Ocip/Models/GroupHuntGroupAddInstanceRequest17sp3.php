@@ -23,6 +23,8 @@ class GroupHuntGroupAddInstanceRequest17sp3 extends \CWM\BroadWorksConnector\Oci
      * @ElementName serviceProviderId
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:19582
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -31,6 +33,8 @@ class GroupHuntGroupAddInstanceRequest17sp3 extends \CWM\BroadWorksConnector\Oci
      * @ElementName groupId
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:19582
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;
@@ -39,6 +43,8 @@ class GroupHuntGroupAddInstanceRequest17sp3 extends \CWM\BroadWorksConnector\Oci
      * @ElementName serviceUserId
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:19582
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $serviceUserId = null;
@@ -71,6 +77,8 @@ class GroupHuntGroupAddInstanceRequest17sp3 extends \CWM\BroadWorksConnector\Oci
      * @ElementName noAnswerNumberOfRings
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:19582
+     * @MinInclusive 1
+     * @MaxInclusive 20
      * @var int|null
      */
     private $noAnswerNumberOfRings = null;
@@ -87,6 +95,8 @@ class GroupHuntGroupAddInstanceRequest17sp3 extends \CWM\BroadWorksConnector\Oci
      * @ElementName forwardTimeoutSeconds
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:19582
+     * @MinInclusive
+     * @MaxInclusive 7200
      * @var int|null
      */
     private $forwardTimeoutSeconds = null;
@@ -96,6 +106,8 @@ class GroupHuntGroupAddInstanceRequest17sp3 extends \CWM\BroadWorksConnector\Oci
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:19582
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $forwardToPhoneNumber = null;
@@ -106,6 +118,8 @@ class GroupHuntGroupAddInstanceRequest17sp3 extends \CWM\BroadWorksConnector\Oci
      * @Array
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:19582
+     * @MinLength 1
+     * @MaxLength 161
      * @var string[]
      */
     private $agentUserId = array(

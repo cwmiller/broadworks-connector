@@ -15,6 +15,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19SendMessageToSelecte
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:28182
+     * @Length 1
+     * @Pattern \*|#
      * @var string|null
      */
     private $confirmSendingToDistributionList = null;
@@ -23,6 +25,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19SendMessageToSelecte
      * @ElementName cancelSendingToDistributionList
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:28182
+     * @Length 1
+     * @Pattern \*|#
      * @var string|null
      */
     private $cancelSendingToDistributionList = null;

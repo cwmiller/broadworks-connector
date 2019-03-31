@@ -19,6 +19,8 @@ class UserIntegratedIMPGeneratePasswordRequest extends \CWM\BroadWorksConnector\
      * @ElementName userId
      * @Type string
      * @Group 23389100b68cef3aa07ee12ac7a2bd16:316
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;

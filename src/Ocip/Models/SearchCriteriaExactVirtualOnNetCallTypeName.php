@@ -16,6 +16,8 @@ class SearchCriteriaExactVirtualOnNetCallTypeName extends SearchCriteria
      * @ElementName virtualOnNetCallTypeName
      * @Type string
      * @Group f0ada2681ca347fa83b464734259b304:1286
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $virtualOnNetCallTypeName = null;

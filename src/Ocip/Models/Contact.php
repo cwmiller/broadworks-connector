@@ -18,6 +18,8 @@ class Contact
      * @Nillable
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:1624
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $contactName = null;
@@ -28,6 +30,8 @@ class Contact
      * @Nillable
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:1624
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $contactNumber = null;
@@ -38,6 +42,8 @@ class Contact
      * @Nillable
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:1624
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $contactEmail = null;

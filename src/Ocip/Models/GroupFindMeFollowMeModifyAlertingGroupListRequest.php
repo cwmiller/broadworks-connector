@@ -20,6 +20,8 @@ class GroupFindMeFollowMeModifyAlertingGroupListRequest extends \CWM\BroadWorksC
      * @ElementName serviceUserId
      * @Type string
      * @Group 79f226053ee345f2ff4c37c37c8e9114:427
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $serviceUserId = null;
@@ -30,6 +32,8 @@ class GroupFindMeFollowMeModifyAlertingGroupListRequest extends \CWM\BroadWorksC
      * @Array
      * @Optional
      * @Group 79f226053ee345f2ff4c37c37c8e9114:427
+     * @MinLength 1
+     * @MaxLength 40
      * @var string[]
      */
     private $alertingGroupName = array(

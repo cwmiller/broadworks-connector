@@ -16,6 +16,8 @@ class MWIDeliveryToMobileEndpointTemplateActivation
      * @ElementName language
      * @Type string
      * @Group 958b78cc2a785d78259c1e8a474eb40d:407
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $language = null;

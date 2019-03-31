@@ -14,6 +14,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20AnnouncementRecordin
      * @ElementName acceptRecording
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:35243
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $acceptRecording = null;
@@ -22,6 +24,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20AnnouncementRecordin
      * @ElementName rejectRerecord
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:35243
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $rejectRerecord = null;
@@ -30,6 +34,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20AnnouncementRecordin
      * @ElementName returnToPreviousMenu
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:35243
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $returnToPreviousMenu = null;
@@ -39,6 +45,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20AnnouncementRecordin
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:35243
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $repeatMenu = null;
@@ -47,6 +55,9 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20AnnouncementRecordin
      * @ElementName end
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:35243
+     * @MinLength 1
+     * @MaxLength 3
+     * @Pattern ([0-9]|\*|#){0,3}
      * @var string|null
      */
     private $end = null;

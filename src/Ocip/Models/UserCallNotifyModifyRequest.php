@@ -19,6 +19,8 @@ class UserCallNotifyModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @ElementName userId
      * @Type string
      * @Group 26f62134ab1693f4bdddc7c70b20d2eb:301
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;
@@ -28,6 +30,8 @@ class UserCallNotifyModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @Type string
      * @Optional
      * @Group 26f62134ab1693f4bdddc7c70b20d2eb:301
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $callNotifyEmailAddress = null;

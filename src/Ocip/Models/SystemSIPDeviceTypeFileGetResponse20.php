@@ -27,6 +27,8 @@ class SystemSIPDeviceTypeFileGetResponse20 extends \CWM\BroadWorksConnector\Ocip
      * @ElementName remoteFileFormat
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:34882
+     * @MinLength 1
+     * @MaxLength 128
      * @var string|null
      */
     private $remoteFileFormat = null;
@@ -60,6 +62,8 @@ class SystemSIPDeviceTypeFileGetResponse20 extends \CWM\BroadWorksConnector\Ocip
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:34882
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $configurationFileName = null;
@@ -101,6 +105,8 @@ class SystemSIPDeviceTypeFileGetResponse20 extends \CWM\BroadWorksConnector\Ocip
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:34882
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $macFormatInNonRequestURI = null;
@@ -109,6 +115,8 @@ class SystemSIPDeviceTypeFileGetResponse20 extends \CWM\BroadWorksConnector\Ocip
      * @ElementName accessUrl
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:34882
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $accessUrl = null;
@@ -118,6 +126,8 @@ class SystemSIPDeviceTypeFileGetResponse20 extends \CWM\BroadWorksConnector\Ocip
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:34882
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $repositoryUrl = null;
@@ -127,6 +137,8 @@ class SystemSIPDeviceTypeFileGetResponse20 extends \CWM\BroadWorksConnector\Ocip
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:34882
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $templateUrl = null;

@@ -15,6 +15,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1FaxMessagingMenuK
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:32399
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $saveFaxMessageAndSkipToNext = null;
@@ -24,6 +26,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1FaxMessagingMenuK
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:32399
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $previousFaxMessage = null;
@@ -33,6 +37,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1FaxMessagingMenuK
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:32399
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $playEnvelope = null;
@@ -42,6 +48,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1FaxMessagingMenuK
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:32399
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $nextFaxMessage = null;
@@ -51,6 +59,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1FaxMessagingMenuK
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:32399
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $deleteFaxMessage = null;
@@ -60,6 +70,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1FaxMessagingMenuK
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:32399
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $printFaxMessage = null;
@@ -69,6 +81,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1FaxMessagingMenuK
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:32399
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $returnToPreviousMenu = null;

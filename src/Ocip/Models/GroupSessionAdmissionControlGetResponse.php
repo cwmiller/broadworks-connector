@@ -27,6 +27,7 @@ class GroupSessionAdmissionControlGetResponse extends \CWM\BroadWorksConnector\O
      * @Type int
      * @Optional
      * @Group f3a93cf15de4abd7903673e44ee3e07b:7008
+     * @MinInclusive
      * @var int|null
      */
     private $maxSessions = null;
@@ -36,6 +37,7 @@ class GroupSessionAdmissionControlGetResponse extends \CWM\BroadWorksConnector\O
      * @Type int
      * @Optional
      * @Group f3a93cf15de4abd7903673e44ee3e07b:7008
+     * @MinInclusive
      * @var int|null
      */
     private $maxUserOriginatingSessions = null;
@@ -45,6 +47,7 @@ class GroupSessionAdmissionControlGetResponse extends \CWM\BroadWorksConnector\O
      * @Type int
      * @Optional
      * @Group f3a93cf15de4abd7903673e44ee3e07b:7008
+     * @MinInclusive
      * @var int|null
      */
     private $maxUserTerminatingSessions = null;

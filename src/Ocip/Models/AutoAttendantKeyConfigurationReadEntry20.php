@@ -22,6 +22,8 @@ class AutoAttendantKeyConfigurationReadEntry20
      * @Type string
      * @Optional
      * @Group ed0640d8ef49eb8b4eaa14d7c6f6c033:629
+     * @MinLength 1
+     * @MaxLength 20
      * @var string|null
      */
     private $description = null;
@@ -39,6 +41,8 @@ class AutoAttendantKeyConfigurationReadEntry20
      * @Type string
      * @Optional
      * @Group ed0640d8ef49eb8b4eaa14d7c6f6c033:629
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $phoneNumber = null;
@@ -66,6 +70,8 @@ class AutoAttendantKeyConfigurationReadEntry20
      * @Type string
      * @Optional
      * @Group ed0640d8ef49eb8b4eaa14d7c6f6c033:629
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $submenuId = null;

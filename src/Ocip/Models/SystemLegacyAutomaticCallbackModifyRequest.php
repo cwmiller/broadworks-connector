@@ -20,6 +20,8 @@ class SystemLegacyAutomaticCallbackModifyRequest extends \CWM\BroadWorksConnecto
      * @Type int
      * @Optional
      * @Group 6bf3c0ead6c4d948122ea83af7fc6e34:136
+     * @MinInclusive 1
+     * @MaxInclusive 30
      * @var int|null
      */
     private $maxMonitorsPerOriginator = null;
@@ -29,6 +31,8 @@ class SystemLegacyAutomaticCallbackModifyRequest extends \CWM\BroadWorksConnecto
      * @Type int
      * @Optional
      * @Group 6bf3c0ead6c4d948122ea83af7fc6e34:136
+     * @MinInclusive 1
+     * @MaxInclusive 30
      * @var int|null
      */
     private $maxMonitorsPerTerminator = null;
@@ -38,6 +42,8 @@ class SystemLegacyAutomaticCallbackModifyRequest extends \CWM\BroadWorksConnecto
      * @Type int
      * @Optional
      * @Group 6bf3c0ead6c4d948122ea83af7fc6e34:136
+     * @MinInclusive 1
+     * @MaxInclusive 20
      * @var int|null
      */
     private $t2Minutes = null;
@@ -47,6 +53,8 @@ class SystemLegacyAutomaticCallbackModifyRequest extends \CWM\BroadWorksConnecto
      * @Type int
      * @Optional
      * @Group 6bf3c0ead6c4d948122ea83af7fc6e34:136
+     * @MinInclusive
+     * @MaxInclusive 15
      * @var int|null
      */
     private $t4Seconds = null;
@@ -56,6 +64,8 @@ class SystemLegacyAutomaticCallbackModifyRequest extends \CWM\BroadWorksConnecto
      * @Type int
      * @Optional
      * @Group 6bf3c0ead6c4d948122ea83af7fc6e34:136
+     * @MinInclusive 2
+     * @MaxInclusive 10
      * @var int|null
      */
     private $t5Seconds = null;
@@ -65,6 +75,8 @@ class SystemLegacyAutomaticCallbackModifyRequest extends \CWM\BroadWorksConnecto
      * @Type int
      * @Optional
      * @Group 6bf3c0ead6c4d948122ea83af7fc6e34:136
+     * @MinInclusive 1
+     * @MaxInclusive 60
      * @var int|null
      */
     private $t6Minutes = null;
@@ -74,6 +86,8 @@ class SystemLegacyAutomaticCallbackModifyRequest extends \CWM\BroadWorksConnecto
      * @Type int
      * @Optional
      * @Group 6bf3c0ead6c4d948122ea83af7fc6e34:136
+     * @MinInclusive 5
+     * @MaxInclusive 180
      * @var int|null
      */
     private $t7Minutes = null;
@@ -83,6 +97,8 @@ class SystemLegacyAutomaticCallbackModifyRequest extends \CWM\BroadWorksConnecto
      * @Type int
      * @Optional
      * @Group 6bf3c0ead6c4d948122ea83af7fc6e34:136
+     * @MinInclusive
+     * @MaxInclusive 120
      * @var int|null
      */
     private $t8Seconds = null;
@@ -92,6 +108,8 @@ class SystemLegacyAutomaticCallbackModifyRequest extends \CWM\BroadWorksConnecto
      * @Type int
      * @Optional
      * @Group 6bf3c0ead6c4d948122ea83af7fc6e34:136
+     * @MinInclusive 1
+     * @MaxInclusive 120
      * @var int|null
      */
     private $tRingSeconds = null;
@@ -101,6 +119,8 @@ class SystemLegacyAutomaticCallbackModifyRequest extends \CWM\BroadWorksConnecto
      * @Type int
      * @Optional
      * @Group 6bf3c0ead6c4d948122ea83af7fc6e34:136
+     * @MinInclusive 1
+     * @MaxInclusive 120
      * @var int|null
      */
     private $t10OMinutes = null;
@@ -110,6 +130,8 @@ class SystemLegacyAutomaticCallbackModifyRequest extends \CWM\BroadWorksConnecto
      * @Type int
      * @Optional
      * @Group 6bf3c0ead6c4d948122ea83af7fc6e34:136
+     * @MinInclusive 1
+     * @MaxInclusive 120
      * @var int|null
      */
     private $t10TMinutes = null;

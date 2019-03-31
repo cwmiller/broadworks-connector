@@ -24,6 +24,8 @@ class GroupCallCenterAgentThresholdProfileGetAvailableAgentListRequest extends \
      * @ElementName serviceProviderId
      * @Type string
      * @Group e2c537e3e39483b96620673a7012ffdd:2222
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -32,6 +34,8 @@ class GroupCallCenterAgentThresholdProfileGetAvailableAgentListRequest extends \
      * @ElementName groupId
      * @Type string
      * @Group e2c537e3e39483b96620673a7012ffdd:2222
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;
@@ -41,6 +45,8 @@ class GroupCallCenterAgentThresholdProfileGetAvailableAgentListRequest extends \
      * @Type string
      * @Optional
      * @Group e2c537e3e39483b96620673a7012ffdd:2222
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $excludeAgentsAssignedToProfileName = null;
@@ -50,6 +56,7 @@ class GroupCallCenterAgentThresholdProfileGetAvailableAgentListRequest extends \
      * @Type int
      * @Optional
      * @Group e2c537e3e39483b96620673a7012ffdd:2222
+     * @MinInclusive 1
      * @var int|null
      */
     private $responseSizeLimit = null;

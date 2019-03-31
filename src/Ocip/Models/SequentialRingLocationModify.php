@@ -18,6 +18,8 @@ class SequentialRingLocationModify
      * @Nillable
      * @Optional
      * @Group 6a83dcd7b5697b78acbf42324c2dbe67:225
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $phoneNumber = null;

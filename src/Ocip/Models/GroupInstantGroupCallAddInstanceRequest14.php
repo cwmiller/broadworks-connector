@@ -20,6 +20,8 @@ class GroupInstantGroupCallAddInstanceRequest14 extends \CWM\BroadWorksConnector
      * @ElementName serviceProviderId
      * @Type string
      * @Group f41dea4708922d4a3f0e26f198cc953f:46
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -28,6 +30,8 @@ class GroupInstantGroupCallAddInstanceRequest14 extends \CWM\BroadWorksConnector
      * @ElementName groupId
      * @Type string
      * @Group f41dea4708922d4a3f0e26f198cc953f:46
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;
@@ -36,6 +40,8 @@ class GroupInstantGroupCallAddInstanceRequest14 extends \CWM\BroadWorksConnector
      * @ElementName serviceUserId
      * @Type string
      * @Group f41dea4708922d4a3f0e26f198cc953f:46
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $serviceUserId = null;
@@ -54,6 +60,8 @@ class GroupInstantGroupCallAddInstanceRequest14 extends \CWM\BroadWorksConnector
      * @Array
      * @Optional
      * @Group f41dea4708922d4a3f0e26f198cc953f:46
+     * @MinLength 1
+     * @MaxLength 161
      * @var string[]
      */
     private $destinationPhoneNumber = array(
@@ -73,6 +81,8 @@ class GroupInstantGroupCallAddInstanceRequest14 extends \CWM\BroadWorksConnector
      * @Type int
      * @Optional
      * @Group f41dea4708922d4a3f0e26f198cc953f:46
+     * @MinInclusive 1
+     * @MaxInclusive 60
      * @var int|null
      */
     private $answerTimeoutMinutes = null;
@@ -82,6 +92,8 @@ class GroupInstantGroupCallAddInstanceRequest14 extends \CWM\BroadWorksConnector
      * @Type string
      * @Optional
      * @Group f41dea4708922d4a3f0e26f198cc953f:46
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $networkClassOfService = null;

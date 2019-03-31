@@ -14,6 +14,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse14ChangeCurrentIntrodu
      * @ElementName endRecording
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:22986
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $endRecording = null;

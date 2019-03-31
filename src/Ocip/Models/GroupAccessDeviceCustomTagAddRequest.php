@@ -19,6 +19,8 @@ class GroupAccessDeviceCustomTagAddRequest extends \CWM\BroadWorksConnector\Ocip
      * @ElementName serviceProviderId
      * @Type string
      * @Group f3a93cf15de4abd7903673e44ee3e07b:333
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,6 +29,8 @@ class GroupAccessDeviceCustomTagAddRequest extends \CWM\BroadWorksConnector\Ocip
      * @ElementName groupId
      * @Type string
      * @Group f3a93cf15de4abd7903673e44ee3e07b:333
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;
@@ -35,6 +39,8 @@ class GroupAccessDeviceCustomTagAddRequest extends \CWM\BroadWorksConnector\Ocip
      * @ElementName deviceName
      * @Type string
      * @Group f3a93cf15de4abd7903673e44ee3e07b:333
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $deviceName = null;
@@ -43,6 +49,8 @@ class GroupAccessDeviceCustomTagAddRequest extends \CWM\BroadWorksConnector\Ocip
      * @ElementName tagName
      * @Type string
      * @Group f3a93cf15de4abd7903673e44ee3e07b:333
+     * @MinLength 1
+     * @MaxLength 64
      * @var string|null
      */
     private $tagName = null;
@@ -52,6 +60,8 @@ class GroupAccessDeviceCustomTagAddRequest extends \CWM\BroadWorksConnector\Ocip
      * @Type string
      * @Optional
      * @Group f3a93cf15de4abd7903673e44ee3e07b:333
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $tagValue = null;

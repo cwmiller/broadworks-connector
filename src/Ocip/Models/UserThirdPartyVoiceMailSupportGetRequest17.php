@@ -20,6 +20,8 @@ class UserThirdPartyVoiceMailSupportGetRequest17 extends \CWM\BroadWorksConnecto
      * @ElementName userId
      * @Type string
      * @Group 3c311aa5c89c0cf5b46e1cdefd5bc387:242
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;

@@ -17,6 +17,8 @@ class SystemCallCenterGetResponse14sp9 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName defaultFromAddress
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:9997
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $defaultFromAddress = null;

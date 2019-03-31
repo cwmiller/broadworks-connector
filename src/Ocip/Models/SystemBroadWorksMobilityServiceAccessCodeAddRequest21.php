@@ -19,6 +19,8 @@ class SystemBroadWorksMobilityServiceAccessCodeAddRequest21 extends \CWM\BroadWo
      * @ElementName serviceAccessCodeListName
      * @Type string
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:1036
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $serviceAccessCodeListName = null;
@@ -27,6 +29,8 @@ class SystemBroadWorksMobilityServiceAccessCodeAddRequest21 extends \CWM\BroadWo
      * @ElementName countryCode
      * @Type string
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:1036
+     * @MaxLength 3
+     * @Pattern [0-9]|[1-9][0-9]{1,2}
      * @var string|null
      */
     private $countryCode = null;
@@ -35,6 +39,8 @@ class SystemBroadWorksMobilityServiceAccessCodeAddRequest21 extends \CWM\BroadWo
      * @ElementName serviceAccessCode
      * @Type string
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:1036
+     * @MinLength 1
+     * @MaxLength 10
      * @var string|null
      */
     private $serviceAccessCode = null;
@@ -44,6 +50,8 @@ class SystemBroadWorksMobilityServiceAccessCodeAddRequest21 extends \CWM\BroadWo
      * @Type string
      * @Optional
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:1036
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $description = null;

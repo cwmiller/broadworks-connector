@@ -20,6 +20,8 @@ class UserScheduleGetEventListResponse extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Array
      * @Optional
      * @Group 53d18cc797d03d802cbc411ad821f1d4:3617
+     * @MinLength 1
+     * @MaxLength 40
      * @var string[]
      */
     private $eventName = array(

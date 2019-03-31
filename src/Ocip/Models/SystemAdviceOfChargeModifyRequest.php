@@ -23,6 +23,8 @@ class SystemAdviceOfChargeModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:34141
+     * @MinInclusive 5
+     * @MaxInclusive 1800
      * @var int|null
      */
     private $delayBetweenNotificationSeconds = null;
@@ -42,6 +44,8 @@ class SystemAdviceOfChargeModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Nillable
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:34141
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $costInformationSource = null;

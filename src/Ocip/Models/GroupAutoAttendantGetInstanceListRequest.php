@@ -20,6 +20,8 @@ class GroupAutoAttendantGetInstanceListRequest extends \CWM\BroadWorksConnector\
      * @ElementName serviceProviderId
      * @Type string
      * @Group ed0640d8ef49eb8b4eaa14d7c6f6c033:234
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -28,6 +30,8 @@ class GroupAutoAttendantGetInstanceListRequest extends \CWM\BroadWorksConnector\
      * @ElementName groupId
      * @Type string
      * @Group ed0640d8ef49eb8b4eaa14d7c6f6c033:234
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;
@@ -37,6 +41,8 @@ class GroupAutoAttendantGetInstanceListRequest extends \CWM\BroadWorksConnector\
      * @Type string
      * @Optional
      * @Group ed0640d8ef49eb8b4eaa14d7c6f6c033:234
+     * @MinLength 1
+     * @MaxLength 50
      * @var string|null
      */
     private $groupDepartmentName = null;

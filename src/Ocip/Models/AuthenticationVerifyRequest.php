@@ -22,6 +22,8 @@ class AuthenticationVerifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @ElementName userId
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:358
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;
@@ -30,6 +32,8 @@ class AuthenticationVerifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @ElementName password
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:358
+     * @MinLength 1
+     * @MaxLength 60
      * @var string|null
      */
     private $password = null;

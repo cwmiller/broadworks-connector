@@ -15,6 +15,8 @@ class MusicOnHoldSourceRead22LabeledCustomSourceMediaFiles
      * @Type string
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:2803
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $audioFileDescription = null;
@@ -33,6 +35,8 @@ class MusicOnHoldSourceRead22LabeledCustomSourceMediaFiles
      * @Type string
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:2803
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $videoFileDescription = null;

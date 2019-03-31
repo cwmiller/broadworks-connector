@@ -44,6 +44,8 @@ class GroupGroupNightForwardingGetResponse extends \CWM\BroadWorksConnector\Ocip
      * @Type string
      * @Optional
      * @Group 1a3849774e8d2ffd90c3a2c57cbdd7a0:63
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $forwardToPhoneNumber = null;

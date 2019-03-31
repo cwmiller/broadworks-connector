@@ -19,6 +19,8 @@ class UserCommunicationBarringAuthorizationCodeDeleteListRequest extends \CWM\Br
      * @ElementName userId
      * @Type string
      * @Group 53d18cc797d03d802cbc411ad821f1d4:1102
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;
@@ -28,6 +30,8 @@ class UserCommunicationBarringAuthorizationCodeDeleteListRequest extends \CWM\Br
      * @Type string
      * @Array
      * @Group 53d18cc797d03d802cbc411ad821f1d4:1102
+     * @MinLength 2
+     * @MaxLength 14
      * @var string[]
      */
     private $code = array(

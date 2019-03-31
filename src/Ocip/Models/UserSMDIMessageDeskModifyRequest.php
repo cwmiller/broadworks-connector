@@ -19,6 +19,8 @@ class UserSMDIMessageDeskModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName userId
      * @Type string
      * @Group ee7bb69368e23a56a82c5d9cf07b5433:324
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;
@@ -38,6 +40,8 @@ class UserSMDIMessageDeskModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Nillable
      * @Optional
      * @Group ee7bb69368e23a56a82c5d9cf07b5433:324
+     * @MinLength 1
+     * @MaxLength 3
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $messageDeskNumber = null;

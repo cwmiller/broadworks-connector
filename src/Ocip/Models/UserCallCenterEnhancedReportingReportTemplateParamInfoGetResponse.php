@@ -112,6 +112,8 @@ class UserCallCenterEnhancedReportingReportTemplateParamInfoGetResponse extends 
      * @Type int
      * @Optional
      * @Group e2c537e3e39483b96620673a7012ffdd:6757
+     * @MinInclusive 1
+     * @MaxInclusive 5
      * @var int|null
      */
     private $serviceLevelThresholdParamNumber = null;
@@ -121,6 +123,8 @@ class UserCallCenterEnhancedReportingReportTemplateParamInfoGetResponse extends 
      * @Type int
      * @Optional
      * @Group e2c537e3e39483b96620673a7012ffdd:6757
+     * @MinInclusive 1
+     * @MaxInclusive 4
      * @var int|null
      */
     private $abandonedCallThresholdParamNumber = null;

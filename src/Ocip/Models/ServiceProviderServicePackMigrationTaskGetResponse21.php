@@ -18,6 +18,8 @@ class ServiceProviderServicePackMigrationTaskGetResponse21 extends \CWM\BroadWor
      * @ElementName taskName
      * @Type string
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:5571
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $taskName = null;
@@ -44,6 +46,8 @@ class ServiceProviderServicePackMigrationTaskGetResponse21 extends \CWM\BroadWor
      * @ElementName expireAfterNumHours
      * @Type int
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:5571
+     * @MinInclusive 1
+     * @MaxInclusive 168
      * @var int|null
      */
     private $expireAfterNumHours = null;
@@ -52,6 +56,8 @@ class ServiceProviderServicePackMigrationTaskGetResponse21 extends \CWM\BroadWor
      * @ElementName maxDurationHours
      * @Type int
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:5571
+     * @MinInclusive 1
+     * @MaxInclusive 9
      * @var int|null
      */
     private $maxDurationHours = null;
@@ -69,6 +75,8 @@ class ServiceProviderServicePackMigrationTaskGetResponse21 extends \CWM\BroadWor
      * @Type string
      * @Optional
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:5571
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $reportDeliveryEmailAddress = null;
@@ -86,6 +94,7 @@ class ServiceProviderServicePackMigrationTaskGetResponse21 extends \CWM\BroadWor
      * @Type int
      * @Optional
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:5571
+     * @MinInclusive 1
      * @var int|null
      */
     private $abortErrorThreshold = null;
@@ -166,6 +175,7 @@ class ServiceProviderServicePackMigrationTaskGetResponse21 extends \CWM\BroadWor
      * @ElementName reportFilePathName
      * @Type string
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:5571
+     * @MinLength 1
      * @var string|null
      */
     private $reportFilePathName = null;
@@ -192,6 +202,8 @@ class ServiceProviderServicePackMigrationTaskGetResponse21 extends \CWM\BroadWor
      * @Array
      * @Optional
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:5571
+     * @MinLength 1
+     * @MaxLength 80
      * @var string[]
      */
     private $userSelectionServicePackName = array(
@@ -216,6 +228,8 @@ class ServiceProviderServicePackMigrationTaskGetResponse21 extends \CWM\BroadWor
      * @Array
      * @Optional
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:5571
+     * @MinLength 1
+     * @MaxLength 80
      * @var string[]
      */
     private $removeServicePackName = array(
@@ -240,6 +254,8 @@ class ServiceProviderServicePackMigrationTaskGetResponse21 extends \CWM\BroadWor
      * @Array
      * @Optional
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:5571
+     * @MinLength 1
+     * @MaxLength 80
      * @var string[]
      */
     private $assignServicePackName = array(

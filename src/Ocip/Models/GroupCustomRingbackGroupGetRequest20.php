@@ -19,6 +19,8 @@ class GroupCustomRingbackGroupGetRequest20 extends \CWM\BroadWorksConnector\Ocip
      * @ElementName serviceProviderId
      * @Type string
      * @Group 80acd3e6f38b9682dcefe7cd473392c3:47
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,6 +29,8 @@ class GroupCustomRingbackGroupGetRequest20 extends \CWM\BroadWorksConnector\Ocip
      * @ElementName groupId
      * @Type string
      * @Group 80acd3e6f38b9682dcefe7cd473392c3:47
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;

@@ -20,6 +20,8 @@ class ResellerVoiceMessagingGroupGetRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName resellerId
      * @Type string
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:321
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $resellerId = null;

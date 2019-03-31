@@ -18,6 +18,8 @@ class PublicClusterGetFullyQualifiedDomainNameResponse extends \CWM\BroadWorksCo
      * @Type string
      * @Optional
      * @Group 6b27fcc79475236456fc113a42b75543:584
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $publicClusterFQDN = null;

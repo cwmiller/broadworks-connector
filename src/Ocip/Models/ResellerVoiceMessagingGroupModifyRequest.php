@@ -19,6 +19,8 @@ class ResellerVoiceMessagingGroupModifyRequest extends \CWM\BroadWorksConnector\
      * @ElementName resellerId
      * @Type string
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:354
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $resellerId = null;
@@ -29,6 +31,8 @@ class ResellerVoiceMessagingGroupModifyRequest extends \CWM\BroadWorksConnector\
      * @Nillable
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:354
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $deliveryFromAddress = null;
@@ -39,6 +43,8 @@ class ResellerVoiceMessagingGroupModifyRequest extends \CWM\BroadWorksConnector\
      * @Nillable
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:354
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $notificationFromAddress = null;
@@ -49,6 +55,8 @@ class ResellerVoiceMessagingGroupModifyRequest extends \CWM\BroadWorksConnector\
      * @Nillable
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:354
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $voicePortalLockoutFromAddress = null;

@@ -20,6 +20,8 @@ class UserBasicCallLogsGetListRequest14sp4 extends \CWM\BroadWorksConnector\Ocip
      * @ElementName userId
      * @Type string
      * @Group f8236d2e87356bf980f5d808d1d0ceb3:41
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;

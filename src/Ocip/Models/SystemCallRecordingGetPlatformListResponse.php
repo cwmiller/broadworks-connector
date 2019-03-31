@@ -28,6 +28,8 @@ class SystemCallRecordingGetPlatformListResponse extends \CWM\BroadWorksConnecto
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:34469
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $systemDefault = null;

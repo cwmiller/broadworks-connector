@@ -20,6 +20,8 @@ class GroupFindMeFollowMeAddAlertingGroupSelectiveCriteriaRequest extends \CWM\B
      * @ElementName serviceUserId
      * @Type string
      * @Group 79f226053ee345f2ff4c37c37c8e9114:83
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $serviceUserId = null;
@@ -28,6 +30,8 @@ class GroupFindMeFollowMeAddAlertingGroupSelectiveCriteriaRequest extends \CWM\B
      * @ElementName alertingGroupName
      * @Type string
      * @Group 79f226053ee345f2ff4c37c37c8e9114:83
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $alertingGroupName = null;
@@ -36,6 +40,8 @@ class GroupFindMeFollowMeAddAlertingGroupSelectiveCriteriaRequest extends \CWM\B
      * @ElementName criteriaName
      * @Type string
      * @Group 79f226053ee345f2ff4c37c37c8e9114:83
+     * @MinLength 1
+     * @MaxLength 50
      * @var string|null
      */
     private $criteriaName = null;

@@ -21,6 +21,8 @@ class UserPersonalAssistantCallToNumberModifyListRequest extends \CWM\BroadWorks
      * @ElementName userId
      * @Type string
      * @Group f53ece1c00394ef2d3d76f532f9a9663:162
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;

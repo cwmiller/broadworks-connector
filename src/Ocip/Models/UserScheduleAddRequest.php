@@ -19,6 +19,8 @@ class UserScheduleAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIR
      * @ElementName userId
      * @Type string
      * @Group 53d18cc797d03d802cbc411ad821f1d4:3514
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;
@@ -27,6 +29,8 @@ class UserScheduleAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIR
      * @ElementName scheduleName
      * @Type string
      * @Group 53d18cc797d03d802cbc411ad821f1d4:3514
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $scheduleName = null;

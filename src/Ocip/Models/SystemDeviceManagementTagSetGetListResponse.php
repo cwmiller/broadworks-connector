@@ -24,6 +24,8 @@ class SystemDeviceManagementTagSetGetListResponse extends \CWM\BroadWorksConnect
      * @Array
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:6426
+     * @MinLength 1
+     * @MaxLength 30
      * @var string[]
      */
     private $tagSetName = array(

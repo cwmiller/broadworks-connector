@@ -19,6 +19,8 @@ class SystemAccountingAddChargingFunctionElementServerRequest extends \CWM\Broad
      * @ElementName address
      * @Type string
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1376
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $address = null;
@@ -44,6 +46,8 @@ class SystemAccountingAddChargingFunctionElementServerRequest extends \CWM\Broad
      * @Type string
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1376
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $description = null;

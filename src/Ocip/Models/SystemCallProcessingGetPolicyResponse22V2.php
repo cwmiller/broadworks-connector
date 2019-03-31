@@ -46,6 +46,8 @@ class SystemCallProcessingGetPolicyResponse22V2 extends \CWM\BroadWorksConnector
      * @ElementName maxSimultaneousCalls
      * @Type int
      * @Group de4d76f01f337fe4694212ec9f771753:6313
+     * @MinInclusive 1
+     * @MaxInclusive 999999
      * @var int|null
      */
     private $maxSimultaneousCalls = null;
@@ -62,6 +64,8 @@ class SystemCallProcessingGetPolicyResponse22V2 extends \CWM\BroadWorksConnector
      * @ElementName maxSimultaneousVideoCalls
      * @Type int
      * @Group de4d76f01f337fe4694212ec9f771753:6313
+     * @MinInclusive 1
+     * @MaxInclusive 999999
      * @var int|null
      */
     private $maxSimultaneousVideoCalls = null;
@@ -78,6 +82,8 @@ class SystemCallProcessingGetPolicyResponse22V2 extends \CWM\BroadWorksConnector
      * @ElementName maxCallTimeForAnsweredCallsMinutes
      * @Type int
      * @Group de4d76f01f337fe4694212ec9f771753:6313
+     * @MinInclusive 3
+     * @MaxInclusive 2880
      * @var int|null
      */
     private $maxCallTimeForAnsweredCallsMinutes = null;
@@ -94,6 +100,8 @@ class SystemCallProcessingGetPolicyResponse22V2 extends \CWM\BroadWorksConnector
      * @ElementName maxCallTimeForUnansweredCallsMinutes
      * @Type int
      * @Group de4d76f01f337fe4694212ec9f771753:6313
+     * @MinInclusive 1
+     * @MaxInclusive 2880
      * @var int|null
      */
     private $maxCallTimeForUnansweredCallsMinutes = null;
@@ -111,6 +119,8 @@ class SystemCallProcessingGetPolicyResponse22V2 extends \CWM\BroadWorksConnector
      * @Type string
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:6313
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $supportedMediaSetName = null;
@@ -184,6 +194,8 @@ class SystemCallProcessingGetPolicyResponse22V2 extends \CWM\BroadWorksConnector
      * @Type string
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:6313
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $conferenceURI = null;
@@ -192,6 +204,8 @@ class SystemCallProcessingGetPolicyResponse22V2 extends \CWM\BroadWorksConnector
      * @ElementName maxConferenceParties
      * @Type int
      * @Group de4d76f01f337fe4694212ec9f771753:6313
+     * @MinInclusive 4
+     * @MaxInclusive 15
      * @var int|null
      */
     private $maxConferenceParties = null;
@@ -208,6 +222,8 @@ class SystemCallProcessingGetPolicyResponse22V2 extends \CWM\BroadWorksConnector
      * @ElementName maxConcurrentRedirectedCalls
      * @Type int
      * @Group de4d76f01f337fe4694212ec9f771753:6313
+     * @MinInclusive 1
+     * @MaxInclusive 999999
      * @var int|null
      */
     private $maxConcurrentRedirectedCalls = null;
@@ -224,6 +240,8 @@ class SystemCallProcessingGetPolicyResponse22V2 extends \CWM\BroadWorksConnector
      * @ElementName maxFindMeFollowMeDepth
      * @Type int
      * @Group de4d76f01f337fe4694212ec9f771753:6313
+     * @MinInclusive 1
+     * @MaxInclusive 100
      * @var int|null
      */
     private $maxFindMeFollowMeDepth = null;
@@ -232,6 +250,8 @@ class SystemCallProcessingGetPolicyResponse22V2 extends \CWM\BroadWorksConnector
      * @ElementName maxRedirectionDepth
      * @Type int
      * @Group de4d76f01f337fe4694212ec9f771753:6313
+     * @MinInclusive 1
+     * @MaxInclusive 100
      * @var int|null
      */
     private $maxRedirectionDepth = null;
@@ -248,6 +268,8 @@ class SystemCallProcessingGetPolicyResponse22V2 extends \CWM\BroadWorksConnector
      * @ElementName maxConcurrentFindMeFollowMeInvocations
      * @Type int
      * @Group de4d76f01f337fe4694212ec9f771753:6313
+     * @MinInclusive 1
+     * @MaxInclusive 999999
      * @var int|null
      */
     private $maxConcurrentFindMeFollowMeInvocations = null;
@@ -344,6 +366,8 @@ class SystemCallProcessingGetPolicyResponse22V2 extends \CWM\BroadWorksConnector
      * @ElementName maxConcurrentTerminatingAlertingRequests
      * @Type int
      * @Group de4d76f01f337fe4694212ec9f771753:6313
+     * @MinInclusive 1
+     * @MaxInclusive 50
      * @var int|null
      */
     private $maxConcurrentTerminatingAlertingRequests = null;
@@ -352,6 +376,8 @@ class SystemCallProcessingGetPolicyResponse22V2 extends \CWM\BroadWorksConnector
      * @ElementName delayTimerToRemoveCancelledCallsInSeconds
      * @Type int
      * @Group de4d76f01f337fe4694212ec9f771753:6313
+     * @MinInclusive 1
+     * @MaxInclusive 30
      * @var int|null
      */
     private $delayTimerToRemoveCancelledCallsInSeconds = null;
@@ -385,6 +411,8 @@ class SystemCallProcessingGetPolicyResponse22V2 extends \CWM\BroadWorksConnector
      * @Type string
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:6313
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $routeOverrideDomain = null;
@@ -394,6 +422,8 @@ class SystemCallProcessingGetPolicyResponse22V2 extends \CWM\BroadWorksConnector
      * @Type string
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:6313
+     * @MinLength 1
+     * @MaxLength 10
      * @var string|null
      */
     private $routeOverridePrefix = null;

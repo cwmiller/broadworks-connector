@@ -19,6 +19,8 @@ class EnterpriseCallCenterEnhancedReportingReportTemplateModifyRequest extends \
      * @ElementName serviceProviderId
      * @Type string
      * @Group e2c537e3e39483b96620673a7012ffdd:1474
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,6 +29,8 @@ class EnterpriseCallCenterEnhancedReportingReportTemplateModifyRequest extends \
      * @ElementName name
      * @Type string
      * @Group e2c537e3e39483b96620673a7012ffdd:1474
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $name = null;
@@ -36,6 +40,8 @@ class EnterpriseCallCenterEnhancedReportingReportTemplateModifyRequest extends \
      * @Type string
      * @Optional
      * @Group e2c537e3e39483b96620673a7012ffdd:1474
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $newName = null;
@@ -46,6 +52,8 @@ class EnterpriseCallCenterEnhancedReportingReportTemplateModifyRequest extends \
      * @Nillable
      * @Optional
      * @Group e2c537e3e39483b96620673a7012ffdd:1474
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $description = null;
@@ -92,6 +100,8 @@ class EnterpriseCallCenterEnhancedReportingReportTemplateModifyRequest extends \
      * @Nillable
      * @Optional
      * @Group e2c537e3e39483b96620673a7012ffdd:1474
+     * @MinInclusive 1
+     * @MaxInclusive 999
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $filterNumber = null;

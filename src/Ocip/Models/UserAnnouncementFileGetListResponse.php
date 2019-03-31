@@ -44,6 +44,8 @@ class UserAnnouncementFileGetListResponse extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName maxFileSize
      * @Type int
      * @Group 53d18cc797d03d802cbc411ad821f1d4:585
+     * @MinInclusive 1
+     * @MaxInclusive 999999
      * @var int|null
      */
     private $maxFileSize = null;

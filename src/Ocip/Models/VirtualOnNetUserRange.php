@@ -32,6 +32,8 @@ class VirtualOnNetUserRange
      * @ElementName firstName
      * @Type string
      * @Group 179b744b0183abe614e8c32c17c96b7e:350
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $firstName = null;
@@ -40,6 +42,8 @@ class VirtualOnNetUserRange
      * @ElementName lastName
      * @Type string
      * @Group 179b744b0183abe614e8c32c17c96b7e:350
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $lastName = null;
@@ -48,6 +52,8 @@ class VirtualOnNetUserRange
      * @ElementName callingLineIdFirstName
      * @Type string
      * @Group 179b744b0183abe614e8c32c17c96b7e:350
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $callingLineIdFirstName = null;
@@ -56,6 +62,8 @@ class VirtualOnNetUserRange
      * @ElementName callingLineIdLastName
      * @Type string
      * @Group 179b744b0183abe614e8c32c17c96b7e:350
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $callingLineIdLastName = null;
@@ -64,6 +72,8 @@ class VirtualOnNetUserRange
      * @ElementName virtualOnNetCallTypeName
      * @Type string
      * @Group 179b744b0183abe614e8c32c17c96b7e:350
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $virtualOnNetCallTypeName = null;

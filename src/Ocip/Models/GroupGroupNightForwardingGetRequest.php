@@ -19,6 +19,8 @@ class GroupGroupNightForwardingGetRequest extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName serviceProviderId
      * @Type string
      * @Group 1a3849774e8d2ffd90c3a2c57cbdd7a0:47
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,6 +29,8 @@ class GroupGroupNightForwardingGetRequest extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName groupId
      * @Type string
      * @Group 1a3849774e8d2ffd90c3a2c57cbdd7a0:47
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;

@@ -17,6 +17,8 @@ class SequentialRingLocation14sp4
      * @Type string
      * @Optional
      * @Group 6a83dcd7b5697b78acbf42324c2dbe67:212
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $phoneNumber = null;

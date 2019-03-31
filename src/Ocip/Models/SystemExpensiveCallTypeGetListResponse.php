@@ -21,6 +21,8 @@ class SystemExpensiveCallTypeGetListResponse extends \CWM\BroadWorksConnector\Oc
      * @Array
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:15328
+     * @MinLength 1
+     * @MaxLength 64
      * @var string[]
      */
     private $alternateCallIndicator = array(

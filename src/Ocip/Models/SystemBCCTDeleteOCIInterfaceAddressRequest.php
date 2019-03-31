@@ -20,6 +20,8 @@ class SystemBCCTDeleteOCIInterfaceAddressRequest extends \CWM\BroadWorksConnecto
      * @ElementName interfaceNetAddress
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:4344
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $interfaceNetAddress = null;

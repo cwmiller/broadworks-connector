@@ -18,6 +18,8 @@ class GroupGetResponse14sp7 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDa
      * @ElementName defaultDomain
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:1634
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $defaultDomain = null;
@@ -26,6 +28,8 @@ class GroupGetResponse14sp7 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDa
      * @ElementName userLimit
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:1634
+     * @MinInclusive 1
+     * @MaxInclusive 999999
      * @var int|null
      */
     private $userLimit = null;
@@ -43,6 +47,8 @@ class GroupGetResponse14sp7 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDa
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:1634
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $groupName = null;
@@ -52,6 +58,8 @@ class GroupGetResponse14sp7 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDa
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:1634
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $callingLineIdName = null;
@@ -61,6 +69,8 @@ class GroupGetResponse14sp7 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDa
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:1634
+     * @MinLength 1
+     * @MaxLength 23
      * @var string|null
      */
     private $callingLineIdPhoneNumber = null;
@@ -70,6 +80,8 @@ class GroupGetResponse14sp7 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDa
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:1634
+     * @MinLength 1
+     * @MaxLength 23
      * @var string|null
      */
     private $callingLineIdDisplayPhoneNumber = null;
@@ -78,6 +90,8 @@ class GroupGetResponse14sp7 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDa
      * @ElementName timeZone
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:1634
+     * @MinLength 1
+     * @MaxLength 127
      * @var string|null
      */
     private $timeZone = null;
@@ -86,6 +100,8 @@ class GroupGetResponse14sp7 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDa
      * @ElementName timeZoneDisplayName
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:1634
+     * @MinLength 1
+     * @MaxLength 127
      * @var string|null
      */
     private $timeZoneDisplayName = null;
@@ -95,6 +111,8 @@ class GroupGetResponse14sp7 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDa
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:1634
+     * @MinLength 1
+     * @MaxLength 15
      * @var string|null
      */
     private $locationDialingCode = null;

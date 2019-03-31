@@ -20,6 +20,8 @@ class UserCommunicationBarringUserControlGetRequest extends \CWM\BroadWorksConne
      * @ElementName userId
      * @Type string
      * @Group 4277c572e54919d6e29f4c0fa69aaad1:96
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;

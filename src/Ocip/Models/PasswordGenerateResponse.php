@@ -19,6 +19,8 @@ class PasswordGenerateResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @Type string
      * @Optional
      * @Group 6b27fcc79475236456fc113a42b75543:459
+     * @MinLength 1
+     * @MaxLength 60
      * @var string|null
      */
     private $systemAdministratorPassword = null;
@@ -28,6 +30,8 @@ class PasswordGenerateResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @Type string
      * @Optional
      * @Group 6b27fcc79475236456fc113a42b75543:459
+     * @MinLength 1
+     * @MaxLength 60
      * @var string|null
      */
     private $serviceProviderAdministratorPassword = null;
@@ -37,6 +41,8 @@ class PasswordGenerateResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @Type string
      * @Optional
      * @Group 6b27fcc79475236456fc113a42b75543:459
+     * @MinLength 1
+     * @MaxLength 60
      * @var string|null
      */
     private $groupAdministratorPassword = null;
@@ -46,6 +52,8 @@ class PasswordGenerateResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @Type string
      * @Optional
      * @Group 6b27fcc79475236456fc113a42b75543:459
+     * @MinLength 1
+     * @MaxLength 60
      * @var string|null
      */
     private $userPassword = null;
@@ -55,6 +63,8 @@ class PasswordGenerateResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @Type string
      * @Optional
      * @Group 6b27fcc79475236456fc113a42b75543:459
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $userPasscode = null;
@@ -64,6 +74,8 @@ class PasswordGenerateResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @Type string
      * @Optional
      * @Group 6b27fcc79475236456fc113a42b75543:459
+     * @MinLength 1
+     * @MaxLength 60
      * @var string|null
      */
     private $userSIPAuthenticationPassword = null;
@@ -73,6 +85,8 @@ class PasswordGenerateResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @Type string
      * @Optional
      * @Group 6b27fcc79475236456fc113a42b75543:459
+     * @MinLength 1
+     * @MaxLength 60
      * @var string|null
      */
     private $accessDeviceAuthenticationPassword = null;
@@ -82,6 +96,8 @@ class PasswordGenerateResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @Type string
      * @Optional
      * @Group 6b27fcc79475236456fc113a42b75543:459
+     * @MinLength 1
+     * @MaxLength 60
      * @var string|null
      */
     private $trunkGroupAuthenticationPassword = null;

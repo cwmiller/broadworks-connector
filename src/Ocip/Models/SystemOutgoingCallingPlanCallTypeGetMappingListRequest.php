@@ -20,6 +20,8 @@ class SystemOutgoingCallingPlanCallTypeGetMappingListRequest extends \CWM\BroadW
      * @Type string
      * @Optional
      * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:939
+     * @MaxLength 3
+     * @Pattern [0-9]|[1-9][0-9]{1,2}
      * @var string|null
      */
     private $countryCode = null;

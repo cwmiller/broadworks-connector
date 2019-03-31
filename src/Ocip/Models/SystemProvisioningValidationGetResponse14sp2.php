@@ -33,6 +33,8 @@ class SystemProvisioningValidationGetResponse14sp2 extends \CWM\BroadWorksConnec
      * @ElementName timeoutSeconds
      * @Type int
      * @Group de4d76f01f337fe4694212ec9f771753:6629
+     * @MinInclusive 1
+     * @MaxInclusive 30
      * @var int|null
      */
     private $timeoutSeconds = null;

@@ -18,6 +18,8 @@ class SystemCallProcessingPolicyProfileGroupPagingProfileModifyRequest extends \
      * @ElementName callProcessingPolicyProfileName
      * @Type string
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:3677
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $callProcessingPolicyProfileName = null;
@@ -126,6 +128,8 @@ class SystemCallProcessingPolicyProfileGroupPagingProfileModifyRequest extends \
      * @Type int
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:3677
+     * @MinInclusive 3
+     * @MaxInclusive 2880
      * @var int|null
      */
     private $maxCallTimeForAnsweredCallsMinutes = null;
@@ -144,6 +148,8 @@ class SystemCallProcessingPolicyProfileGroupPagingProfileModifyRequest extends \
      * @Type int
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:3677
+     * @MinInclusive 1
+     * @MaxInclusive 2880
      * @var int|null
      */
     private $maxCallTimeForUnansweredCallsMinutes = null;
@@ -162,6 +168,8 @@ class SystemCallProcessingPolicyProfileGroupPagingProfileModifyRequest extends \
      * @Type int
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:3677
+     * @MinInclusive 1
+     * @MaxInclusive 999999
      * @var int|null
      */
     private $maxConcurrentRedirectedCalls = null;
@@ -180,6 +188,8 @@ class SystemCallProcessingPolicyProfileGroupPagingProfileModifyRequest extends \
      * @Type int
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:3677
+     * @MinInclusive 1
+     * @MaxInclusive 100
      * @var int|null
      */
     private $maxFindMeFollowMeDepth = null;
@@ -189,6 +199,8 @@ class SystemCallProcessingPolicyProfileGroupPagingProfileModifyRequest extends \
      * @Type int
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:3677
+     * @MinInclusive 1
+     * @MaxInclusive 100
      * @var int|null
      */
     private $maxRedirectionDepth = null;

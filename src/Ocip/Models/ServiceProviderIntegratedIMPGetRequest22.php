@@ -19,6 +19,8 @@ class ServiceProviderIntegratedIMPGetRequest22 extends \CWM\BroadWorksConnector\
      * @ElementName serviceProviderId
      * @Type string
      * @Group 23389100b68cef3aa07ee12ac7a2bd16:170
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;

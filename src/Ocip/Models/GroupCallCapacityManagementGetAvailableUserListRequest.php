@@ -21,6 +21,8 @@ class GroupCallCapacityManagementGetAvailableUserListRequest extends \CWM\BroadW
      * @ElementName serviceProviderId
      * @Type string
      * @Group dfcd2b22f2e2b3540d286342087ce042:131
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -29,6 +31,8 @@ class GroupCallCapacityManagementGetAvailableUserListRequest extends \CWM\BroadW
      * @ElementName groupId
      * @Type string
      * @Group dfcd2b22f2e2b3540d286342087ce042:131
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;
@@ -38,6 +42,8 @@ class GroupCallCapacityManagementGetAvailableUserListRequest extends \CWM\BroadW
      * @Type string
      * @Optional
      * @Group dfcd2b22f2e2b3540d286342087ce042:131
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $name = null;
@@ -47,6 +53,7 @@ class GroupCallCapacityManagementGetAvailableUserListRequest extends \CWM\BroadW
      * @Type int
      * @Optional
      * @Group dfcd2b22f2e2b3540d286342087ce042:131
+     * @MinInclusive 1
      * @var int|null
      */
     private $responseSizeLimit = null;

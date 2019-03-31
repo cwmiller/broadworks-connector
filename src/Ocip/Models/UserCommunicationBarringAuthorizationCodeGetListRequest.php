@@ -20,6 +20,8 @@ class UserCommunicationBarringAuthorizationCodeGetListRequest extends \CWM\Broad
      * @ElementName userId
      * @Type string
      * @Group 53d18cc797d03d802cbc411ad821f1d4:1120
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;

@@ -28,6 +28,8 @@ class GroupInstantGroupCallGetInstanceResponse14 extends \CWM\BroadWorksConnecto
      * @Array
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:13889
+     * @MinLength 1
+     * @MaxLength 161
      * @var string[]
      */
     private $destinationPhoneNumber = array(
@@ -47,6 +49,8 @@ class GroupInstantGroupCallGetInstanceResponse14 extends \CWM\BroadWorksConnecto
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:13889
+     * @MinInclusive 1
+     * @MaxInclusive 60
      * @var int|null
      */
     private $answerTimeoutMinutes = null;

@@ -26,6 +26,8 @@ class GroupCallCenterStrandedCallUnavailableGetResponse20 extends \CWM\BroadWork
      * @Type int
      * @Optional
      * @Group e2c537e3e39483b96620673a7012ffdd:5913
+     * @MinInclusive 1
+     * @MaxInclusive 1000
      * @var int|null
      */
     private $numberOfAgentsWithSpecifiedUnavailableCode = null;
@@ -35,6 +37,8 @@ class GroupCallCenterStrandedCallUnavailableGetResponse20 extends \CWM\BroadWork
      * @Type string
      * @Optional
      * @Group e2c537e3e39483b96620673a7012ffdd:5913
+     * @MinLength 1
+     * @MaxLength 10
      * @var string|null
      */
     private $agentsUnavailableCode = null;
@@ -52,6 +56,8 @@ class GroupCallCenterStrandedCallUnavailableGetResponse20 extends \CWM\BroadWork
      * @Type string
      * @Optional
      * @Group e2c537e3e39483b96620673a7012ffdd:5913
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $transferPhoneNumber = null;

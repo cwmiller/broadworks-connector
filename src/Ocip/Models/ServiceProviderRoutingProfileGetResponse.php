@@ -18,6 +18,8 @@ class ServiceProviderRoutingProfileGetResponse extends \CWM\BroadWorksConnector\
      * @Type string
      * @Optional
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:4783
+     * @MinLength 4
+     * @MaxLength 12
      * @var string|null
      */
     private $routingProfile = null;

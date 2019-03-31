@@ -32,6 +32,8 @@ class TrunkAddressingMultipleContactModify
      * @Nillable
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:4172
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $enterpriseTrunkName = null;
@@ -42,6 +44,8 @@ class TrunkAddressingMultipleContactModify
      * @Nillable
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:4172
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $alternateTrunkIdentity = null;
@@ -52,6 +56,8 @@ class TrunkAddressingMultipleContactModify
      * @Nillable
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:4172
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $alternateTrunkIdentityDomain = null;
@@ -62,6 +68,8 @@ class TrunkAddressingMultipleContactModify
      * @Nillable
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:4172
+     * @MinLength 1
+     * @MaxLength 1024
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $physicalLocation = null;

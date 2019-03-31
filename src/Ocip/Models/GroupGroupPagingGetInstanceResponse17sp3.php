@@ -29,6 +29,8 @@ class GroupGroupPagingGetInstanceResponse17sp3 extends \CWM\BroadWorksConnector\
      * @ElementName confirmationToneTimeoutSeconds
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:30108
+     * @MinInclusive 1
+     * @MaxInclusive 20
      * @var int|null
      */
     private $confirmationToneTimeoutSeconds = null;
@@ -46,6 +48,8 @@ class GroupGroupPagingGetInstanceResponse17sp3 extends \CWM\BroadWorksConnector\
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:30108
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $originatorCLIDPrefix = null;

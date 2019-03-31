@@ -14,6 +14,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse14SendToAllGroupMember
      * @ElementName confirmSendingToEntireGroup
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:22966
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $confirmSendingToEntireGroup = null;
@@ -22,6 +24,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse14SendToAllGroupMember
      * @ElementName cancelSendingToEntireGroup
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:22966
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $cancelSendingToEntireGroup = null;

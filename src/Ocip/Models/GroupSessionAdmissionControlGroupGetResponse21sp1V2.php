@@ -18,6 +18,7 @@ class GroupSessionAdmissionControlGroupGetResponse21sp1V2 extends \CWM\BroadWork
      * @ElementName maxSession
      * @Type int
      * @Group f3a93cf15de4abd7903673e44ee3e07b:7168
+     * @MinInclusive
      * @var int|null
      */
     private $maxSession = null;
@@ -27,6 +28,7 @@ class GroupSessionAdmissionControlGroupGetResponse21sp1V2 extends \CWM\BroadWork
      * @Type int
      * @Optional
      * @Group f3a93cf15de4abd7903673e44ee3e07b:7168
+     * @MinInclusive
      * @var int|null
      */
     private $maxUserOriginatingSessions = null;
@@ -36,6 +38,7 @@ class GroupSessionAdmissionControlGroupGetResponse21sp1V2 extends \CWM\BroadWork
      * @Type int
      * @Optional
      * @Group f3a93cf15de4abd7903673e44ee3e07b:7168
+     * @MinInclusive
      * @var int|null
      */
     private $maxUserTerminatingSessions = null;
@@ -44,6 +47,7 @@ class GroupSessionAdmissionControlGroupGetResponse21sp1V2 extends \CWM\BroadWork
      * @ElementName reservedSession
      * @Type int
      * @Group f3a93cf15de4abd7903673e44ee3e07b:7168
+     * @MinInclusive
      * @var int|null
      */
     private $reservedSession = null;
@@ -53,6 +57,7 @@ class GroupSessionAdmissionControlGroupGetResponse21sp1V2 extends \CWM\BroadWork
      * @Type int
      * @Optional
      * @Group f3a93cf15de4abd7903673e44ee3e07b:7168
+     * @MinInclusive
      * @var int|null
      */
     private $reservedUserOriginatingSessions = null;
@@ -62,6 +67,7 @@ class GroupSessionAdmissionControlGroupGetResponse21sp1V2 extends \CWM\BroadWork
      * @Type int
      * @Optional
      * @Group f3a93cf15de4abd7903673e44ee3e07b:7168
+     * @MinInclusive
      * @var int|null
      */
     private $reservedUserTerminatingSessions = null;
@@ -107,6 +113,8 @@ class GroupSessionAdmissionControlGroupGetResponse21sp1V2 extends \CWM\BroadWork
      * @Type string
      * @Optional
      * @Group f3a93cf15de4abd7903673e44ee3e07b:7168
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $mediaGroupName = null;
@@ -116,6 +124,8 @@ class GroupSessionAdmissionControlGroupGetResponse21sp1V2 extends \CWM\BroadWork
      * @Type string
      * @Optional
      * @Group f3a93cf15de4abd7903673e44ee3e07b:7168
+     * @MinLength 1
+     * @MaxLength 1024
      * @var string|null
      */
     private $accessInfoPattern = null;

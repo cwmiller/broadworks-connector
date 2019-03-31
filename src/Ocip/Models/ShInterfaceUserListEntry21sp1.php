@@ -16,6 +16,8 @@ class ShInterfaceUserListEntry21sp1
      * @ElementName userId
      * @Type string
      * @Group c0d21ef9ba207c335d8347e5172fce1d:3909
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;
@@ -49,6 +51,8 @@ class ShInterfaceUserListEntry21sp1
      * @Type string
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:3909
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $SCSCFName = null;

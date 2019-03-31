@@ -21,6 +21,8 @@ class DeviceManagementFileAuthLocationGetResponse18 extends \CWM\BroadWorksConne
      * @ElementName fileRepositoryUserName
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:32983
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $fileRepositoryUserName = null;
@@ -29,6 +31,8 @@ class DeviceManagementFileAuthLocationGetResponse18 extends \CWM\BroadWorksConne
      * @ElementName fileRepositoryPassword
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:32983
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $fileRepositoryPassword = null;
@@ -37,6 +41,8 @@ class DeviceManagementFileAuthLocationGetResponse18 extends \CWM\BroadWorksConne
      * @ElementName netAddress
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:32983
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $netAddress = null;
@@ -45,6 +51,8 @@ class DeviceManagementFileAuthLocationGetResponse18 extends \CWM\BroadWorksConne
      * @ElementName remoteFileFormat
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:32983
+     * @MinLength 1
+     * @MaxLength 128
      * @var string|null
      */
     private $remoteFileFormat = null;
@@ -54,6 +62,8 @@ class DeviceManagementFileAuthLocationGetResponse18 extends \CWM\BroadWorksConne
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:32983
+     * @MinInclusive 1
+     * @MaxInclusive 65535
      * @var int|null
      */
     private $portNumber = null;
@@ -63,6 +73,8 @@ class DeviceManagementFileAuthLocationGetResponse18 extends \CWM\BroadWorksConne
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:32983
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $rootDirectory = null;
@@ -72,6 +84,8 @@ class DeviceManagementFileAuthLocationGetResponse18 extends \CWM\BroadWorksConne
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:32983
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $cpeFileDirectory = null;
@@ -99,6 +113,8 @@ class DeviceManagementFileAuthLocationGetResponse18 extends \CWM\BroadWorksConne
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:32983
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $macFormatInNonRequestURI = null;

@@ -19,6 +19,8 @@ class UserCallingNameRetrievalModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName userId
      * @Type string
      * @Group 7abfb1e02a3465af832e0a8a8adfc741:146
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;

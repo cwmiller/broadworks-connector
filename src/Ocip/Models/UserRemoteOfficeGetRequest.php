@@ -19,6 +19,8 @@ class UserRemoteOfficeGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @ElementName userId
      * @Type string
      * @Group 70aea661491074f1e7cc845c9a6c7ea3:41
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;

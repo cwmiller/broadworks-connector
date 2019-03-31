@@ -19,6 +19,8 @@ class SystemClassmarkModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @ElementName classmark
      * @Type string
      * @Group 0d0e878cbc947aebb19ad489b2ffef11:154
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $classmark = null;
@@ -28,6 +30,8 @@ class SystemClassmarkModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Type string
      * @Optional
      * @Group 0d0e878cbc947aebb19ad489b2ffef11:154
+     * @MinLength 1
+     * @MaxLength 32
      * @var string|null
      */
     private $value = null;
@@ -38,6 +42,8 @@ class SystemClassmarkModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Nillable
      * @Optional
      * @Group 0d0e878cbc947aebb19ad489b2ffef11:154
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $webDisplayKey = null;

@@ -28,6 +28,8 @@ class GroupCallCenterAddDNISRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @Type string
      * @Optional
      * @Group e2c537e3e39483b96620673a7012ffdd:1963
+     * @MinLength 1
+     * @MaxLength 23
      * @var string|null
      */
     private $dnisPhoneNumber = null;
@@ -37,6 +39,8 @@ class GroupCallCenterAddDNISRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @Type string
      * @Optional
      * @Group e2c537e3e39483b96620673a7012ffdd:1963
+     * @MinLength 2
+     * @MaxLength 20
      * @var string|null
      */
     private $extension = null;
@@ -54,6 +58,8 @@ class GroupCallCenterAddDNISRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @Type string
      * @Optional
      * @Group e2c537e3e39483b96620673a7012ffdd:1963
+     * @MinLength 1
+     * @MaxLength 23
      * @var string|null
      */
     private $callingLineIdPhoneNumber = null;
@@ -63,6 +69,8 @@ class GroupCallCenterAddDNISRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @Type string
      * @Optional
      * @Group e2c537e3e39483b96620673a7012ffdd:1963
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $callingLineIdLastName = null;
@@ -72,6 +80,8 @@ class GroupCallCenterAddDNISRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @Type string
      * @Optional
      * @Group e2c537e3e39483b96620673a7012ffdd:1963
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $callingLineIdFirstName = null;

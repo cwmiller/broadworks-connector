@@ -18,6 +18,8 @@ class SendMessageToSelectedDistributionListMenuKeysModifyEntry
      * @Nillable
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:3119
+     * @Length 1
+     * @Pattern \*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $confirmSendingToDistributionList = null;
@@ -27,6 +29,8 @@ class SendMessageToSelectedDistributionListMenuKeysModifyEntry
      * @Type string
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:3119
+     * @Length 1
+     * @Pattern \*|#
      * @var string|null
      */
     private $cancelSendingToDistributionList = null;

@@ -23,6 +23,8 @@ class SystemAccessDeviceCustomTagModifyRequest extends \CWM\BroadWorksConnector\
      * @ElementName deviceName
      * @Type string
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:749
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $deviceName = null;
@@ -31,6 +33,8 @@ class SystemAccessDeviceCustomTagModifyRequest extends \CWM\BroadWorksConnector\
      * @ElementName tagName
      * @Type string
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:749
+     * @MinLength 1
+     * @MaxLength 64
      * @var string|null
      */
     private $tagName = null;
@@ -41,6 +45,8 @@ class SystemAccessDeviceCustomTagModifyRequest extends \CWM\BroadWorksConnector\
      * @Nillable
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:752
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $tagValue = null;
@@ -51,6 +57,8 @@ class SystemAccessDeviceCustomTagModifyRequest extends \CWM\BroadWorksConnector\
      * @Nillable
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:752
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $tagValueToEncrypt = null;

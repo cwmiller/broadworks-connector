@@ -19,6 +19,8 @@ class UserVoiceMessagingUserGetGreetingRequest20 extends \CWM\BroadWorksConnecto
      * @ElementName userId
      * @Type string
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1798
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;

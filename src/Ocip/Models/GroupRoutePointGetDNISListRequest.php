@@ -19,6 +19,8 @@ class GroupRoutePointGetDNISListRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName serviceUserId
      * @Type string
      * @Group a27224a048c30ff69eab9209dec841cc:508
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $serviceUserId = null;

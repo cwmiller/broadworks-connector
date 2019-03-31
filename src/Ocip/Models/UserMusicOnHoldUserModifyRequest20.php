@@ -19,6 +19,8 @@ class UserMusicOnHoldUserModifyRequest20 extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName userId
      * @Type string
      * @Group 66fe518a637c74cc4b2c97aa7f68fc49:321
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;

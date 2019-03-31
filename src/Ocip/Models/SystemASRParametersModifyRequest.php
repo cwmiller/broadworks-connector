@@ -20,6 +20,8 @@ class SystemASRParametersModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:4246
+     * @MinInclusive 1
+     * @MaxInclusive 10
      * @var int|null
      */
     private $maxTransmissions = null;
@@ -29,6 +31,8 @@ class SystemASRParametersModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:4246
+     * @MinInclusive 100
+     * @MaxInclusive 2000
      * @var int|null
      */
     private $retransmissionDelayMilliSeconds = null;
@@ -38,6 +42,8 @@ class SystemASRParametersModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:4246
+     * @MinInclusive 1025
+     * @MaxInclusive 65535
      * @var int|null
      */
     private $listeningPort = null;
@@ -48,6 +54,8 @@ class SystemASRParametersModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Nillable
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:4246
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $sourceAddress = null;

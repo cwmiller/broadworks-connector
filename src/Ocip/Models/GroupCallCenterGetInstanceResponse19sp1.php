@@ -60,6 +60,8 @@ class GroupCallCenterGetInstanceResponse19sp1 extends \CWM\BroadWorksConnector\O
      * @ElementName queueLength
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:29659
+     * @MinInclusive
+     * @MaxInclusive 525
      * @var int|null
      */
     private $queueLength = null;
@@ -85,6 +87,7 @@ class GroupCallCenterGetInstanceResponse19sp1 extends \CWM\BroadWorksConnector\O
      * @ElementName escapeDigit
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:29659
+     * @Length 1
      * @var string|null
      */
     private $escapeDigit = null;
@@ -136,6 +139,8 @@ class GroupCallCenterGetInstanceResponse19sp1 extends \CWM\BroadWorksConnector\O
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:29659
+     * @MinInclusive 1
+     * @MaxInclusive 3600
      * @var int|null
      */
     private $wrapUpSeconds = null;
@@ -154,6 +159,8 @@ class GroupCallCenterGetInstanceResponse19sp1 extends \CWM\BroadWorksConnector\O
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:29659
+     * @MinInclusive 1
+     * @MaxInclusive 10
      * @var int|null
      */
     private $forceDeliveryWaitTimeSeconds = null;
@@ -181,6 +188,8 @@ class GroupCallCenterGetInstanceResponse19sp1 extends \CWM\BroadWorksConnector\O
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:29659
+     * @MinLength 1
+     * @MaxLength 10
      * @var string|null
      */
     private $agentUnavailableCode = null;
@@ -223,6 +232,8 @@ class GroupCallCenterGetInstanceResponse19sp1 extends \CWM\BroadWorksConnector\O
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:29659
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $networkClassOfService = null;

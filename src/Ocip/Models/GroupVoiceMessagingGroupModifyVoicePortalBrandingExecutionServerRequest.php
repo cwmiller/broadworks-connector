@@ -20,6 +20,8 @@ class GroupVoiceMessagingGroupModifyVoicePortalBrandingExecutionServerRequest ex
      * @ElementName serviceProviderId
      * @Type string
      * @Group ac6f79eeb503f2d20b15e4c8d21d7077:52
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -28,6 +30,8 @@ class GroupVoiceMessagingGroupModifyVoicePortalBrandingExecutionServerRequest ex
      * @ElementName groupId
      * @Type string
      * @Group ac6f79eeb503f2d20b15e4c8d21d7077:52
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;

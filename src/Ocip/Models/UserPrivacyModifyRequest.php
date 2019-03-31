@@ -20,6 +20,8 @@ class UserPrivacyModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @ElementName userId
      * @Type string
      * @Group b87b6355d5858fdbeb8c1eb05dc1651a:188
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;

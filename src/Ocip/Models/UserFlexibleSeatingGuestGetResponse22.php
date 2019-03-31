@@ -33,6 +33,8 @@ class UserFlexibleSeatingGuestGetResponse22 extends \CWM\BroadWorksConnector\Oci
      * @ElementName associationLimitHours
      * @Type int
      * @Group 43afb2158d313a1d1a148124d7caba1e:562
+     * @MinInclusive 1
+     * @MaxInclusive 999
      * @var int|null
      */
     private $associationLimitHours = null;
@@ -42,6 +44,8 @@ class UserFlexibleSeatingGuestGetResponse22 extends \CWM\BroadWorksConnector\Oci
      * @Type string
      * @Optional
      * @Group 43afb2158d313a1d1a148124d7caba1e:562
+     * @MinLength 4
+     * @MaxLength 10
      * @var string|null
      */
     private $unlockPhonePINCode = null;
@@ -60,6 +64,8 @@ class UserFlexibleSeatingGuestGetResponse22 extends \CWM\BroadWorksConnector\Oci
      * @Type string
      * @Optional
      * @Group 43afb2158d313a1d1a148124d7caba1e:562
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $hostUserId = null;
@@ -69,6 +75,8 @@ class UserFlexibleSeatingGuestGetResponse22 extends \CWM\BroadWorksConnector\Oci
      * @Type string
      * @Optional
      * @Group 43afb2158d313a1d1a148124d7caba1e:562
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $hostLastName = null;
@@ -78,6 +86,8 @@ class UserFlexibleSeatingGuestGetResponse22 extends \CWM\BroadWorksConnector\Oci
      * @Type string
      * @Optional
      * @Group 43afb2158d313a1d1a148124d7caba1e:562
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $hostFirstName = null;
@@ -105,6 +115,8 @@ class UserFlexibleSeatingGuestGetResponse22 extends \CWM\BroadWorksConnector\Oci
      * @Type int
      * @Optional
      * @Group 43afb2158d313a1d1a148124d7caba1e:562
+     * @MinInclusive 1
+     * @MaxInclusive 999
      * @var int|null
      */
     private $hostAssociationLimitHours = null;

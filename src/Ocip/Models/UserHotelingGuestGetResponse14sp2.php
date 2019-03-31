@@ -27,6 +27,8 @@ class UserHotelingGuestGetResponse14sp2 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName associationLimitHours
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:7379
+     * @MinInclusive 1
+     * @MaxInclusive 999
      * @var int|null
      */
     private $associationLimitHours = null;
@@ -36,6 +38,8 @@ class UserHotelingGuestGetResponse14sp2 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:7379
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $hostUserId = null;
@@ -45,6 +49,8 @@ class UserHotelingGuestGetResponse14sp2 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:7379
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $hostLastName = null;
@@ -54,6 +60,8 @@ class UserHotelingGuestGetResponse14sp2 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:7379
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $hostFirstName = null;
@@ -72,6 +80,8 @@ class UserHotelingGuestGetResponse14sp2 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:7379
+     * @MinInclusive 1
+     * @MaxInclusive 999
      * @var int|null
      */
     private $hostAssociationLimitHours = null;

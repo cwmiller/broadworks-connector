@@ -16,6 +16,8 @@ class InterceptDNListEntry
      * @ElementName phoneNumber
      * @Type string
      * @Group 88893c72abbbb9aaf5aecca970191d94:365
+     * @MinLength 1
+     * @MaxLength 23
      * @var string|null
      */
     private $phoneNumber = null;
@@ -26,6 +28,8 @@ class InterceptDNListEntry
      * @Nillable
      * @Optional
      * @Group 88893c72abbbb9aaf5aecca970191d94:365
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $description = null;

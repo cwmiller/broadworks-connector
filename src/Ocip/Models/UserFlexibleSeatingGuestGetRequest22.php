@@ -19,6 +19,8 @@ class UserFlexibleSeatingGuestGetRequest22 extends \CWM\BroadWorksConnector\Ocip
      * @ElementName userId
      * @Type string
      * @Group 43afb2158d313a1d1a148124d7caba1e:547
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;

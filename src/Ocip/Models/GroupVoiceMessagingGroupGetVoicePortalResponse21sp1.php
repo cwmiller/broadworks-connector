@@ -23,6 +23,8 @@ class GroupVoiceMessagingGroupGetVoicePortalResponse21sp1 extends \CWM\BroadWork
      * @ElementName serviceUserId
      * @Type string
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:212
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $serviceUserId = null;
@@ -88,6 +90,8 @@ class GroupVoiceMessagingGroupGetVoicePortalResponse21sp1 extends \CWM\BroadWork
      * @Type string
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:212
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $externalRoutingAddress = null;
@@ -97,6 +101,8 @@ class GroupVoiceMessagingGroupGetVoicePortalResponse21sp1 extends \CWM\BroadWork
      * @Type string
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:212
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $homeZoneName = null;
@@ -106,6 +112,8 @@ class GroupVoiceMessagingGroupGetVoicePortalResponse21sp1 extends \CWM\BroadWork
      * @Type string
      * @Optional
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:212
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $networkClassOfService = null;

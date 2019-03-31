@@ -34,6 +34,8 @@ class UserBroadWorksMobilityGetResponse extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Type string
      * @Optional
      * @Group a8b2edcd7d6936a8b76653949ae59623:186
+     * @MinLength 1
+     * @MaxLength 23
      * @var string|null
      */
     private $mobilePhoneNumber = null;

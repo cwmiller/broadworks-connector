@@ -19,6 +19,8 @@ class UserCallCenterMonitoringModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName userId
      * @Type string
      * @Group 41b968f87257b8dd553215179161ccb4:74
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;

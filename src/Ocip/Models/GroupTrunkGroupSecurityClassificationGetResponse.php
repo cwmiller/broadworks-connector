@@ -18,6 +18,8 @@ class GroupTrunkGroupSecurityClassificationGetResponse extends \CWM\BroadWorksCo
      * @Type string
      * @Optional
      * @Group 6b3afea8308b7fdaab8d385357ca9c2d:69
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $defaultSecurityClassification = null;

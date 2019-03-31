@@ -19,6 +19,8 @@ class SystemBroadWorksMobilityMobileNetworkDeleteRequest extends \CWM\BroadWorks
      * @ElementName name
      * @Type string
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:849
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $name = null;

@@ -19,6 +19,8 @@ class SystemAdviceOfChargeCostInformationSourceModifyRequest extends \CWM\BroadW
      * @ElementName peerIdentity
      * @Type string
      * @Group a69fde15f3aa7494d83b57461a7a70bb:217
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $peerIdentity = null;
@@ -27,6 +29,8 @@ class SystemAdviceOfChargeCostInformationSourceModifyRequest extends \CWM\BroadW
      * @ElementName priority
      * @Type int
      * @Group a69fde15f3aa7494d83b57461a7a70bb:217
+     * @MinInclusive
+     * @MaxInclusive 9
      * @var int|null
      */
     private $priority = null;

@@ -19,6 +19,8 @@ class GroupPolicyGetRequest20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @ElementName serviceProviderId
      * @Type string
      * @Group de4d76f01f337fe4694212ec9f771753:776
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,6 +29,8 @@ class GroupPolicyGetRequest20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @ElementName groupId
      * @Type string
      * @Group de4d76f01f337fe4694212ec9f771753:776
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;

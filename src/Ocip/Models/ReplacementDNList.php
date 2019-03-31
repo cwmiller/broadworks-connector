@@ -18,6 +18,8 @@ class ReplacementDNList
      * @Type string
      * @Array
      * @Group 3f28429898a57a7f7846d3877b22df9f:852
+     * @MinLength 1
+     * @MaxLength 23
      * @var string[]
      */
     private $phoneNumber = array(

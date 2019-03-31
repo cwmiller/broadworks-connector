@@ -21,6 +21,8 @@ class GroupNetworkClassOfServiceUnassignListRequest21 extends \CWM\BroadWorksCon
      * @ElementName serviceProviderId
      * @Type string
      * @Group f3a93cf15de4abd7903673e44ee3e07b:5595
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -29,6 +31,8 @@ class GroupNetworkClassOfServiceUnassignListRequest21 extends \CWM\BroadWorksCon
      * @ElementName groupId
      * @Type string
      * @Group f3a93cf15de4abd7903673e44ee3e07b:5595
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;
@@ -39,6 +43,8 @@ class GroupNetworkClassOfServiceUnassignListRequest21 extends \CWM\BroadWorksCon
      * @Array
      * @Optional
      * @Group f3a93cf15de4abd7903673e44ee3e07b:5595
+     * @MinLength 1
+     * @MaxLength 40
      * @var string[]
      */
     private $networkClassOfService = array(

@@ -19,6 +19,8 @@ class SystemTreatmentMappingNetworkSIPStatusDeleteRequest extends \CWM\BroadWork
      * @ElementName sipStatusCode
      * @Type int
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17887
+     * @MinInclusive 400
+     * @MaxInclusive 699
      * @var int|null
      */
     private $sipStatusCode = null;

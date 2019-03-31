@@ -20,6 +20,8 @@ class UserCallPickupGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @ElementName userId
      * @Type string
      * @Group 045ce951b3e25dec090606af4ad50c63:376
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;

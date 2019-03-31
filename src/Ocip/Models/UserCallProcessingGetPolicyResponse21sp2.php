@@ -88,6 +88,8 @@ class UserCallProcessingGetPolicyResponse21sp2 extends \CWM\BroadWorksConnector\
      * @ElementName maxSimultaneousCalls
      * @Type int
      * @Group de4d76f01f337fe4694212ec9f771753:7271
+     * @MinInclusive 1
+     * @MaxInclusive 999999
      * @var int|null
      */
     private $maxSimultaneousCalls = null;
@@ -104,6 +106,8 @@ class UserCallProcessingGetPolicyResponse21sp2 extends \CWM\BroadWorksConnector\
      * @ElementName maxSimultaneousVideoCalls
      * @Type int
      * @Group de4d76f01f337fe4694212ec9f771753:7271
+     * @MinInclusive 1
+     * @MaxInclusive 999999
      * @var int|null
      */
     private $maxSimultaneousVideoCalls = null;
@@ -120,6 +124,8 @@ class UserCallProcessingGetPolicyResponse21sp2 extends \CWM\BroadWorksConnector\
      * @ElementName maxCallTimeForAnsweredCallsMinutes
      * @Type int
      * @Group de4d76f01f337fe4694212ec9f771753:7271
+     * @MinInclusive 3
+     * @MaxInclusive 2880
      * @var int|null
      */
     private $maxCallTimeForAnsweredCallsMinutes = null;
@@ -136,6 +142,8 @@ class UserCallProcessingGetPolicyResponse21sp2 extends \CWM\BroadWorksConnector\
      * @ElementName maxCallTimeForUnansweredCallsMinutes
      * @Type int
      * @Group de4d76f01f337fe4694212ec9f771753:7271
+     * @MinInclusive 1
+     * @MaxInclusive 2880
      * @var int|null
      */
     private $maxCallTimeForUnansweredCallsMinutes = null;
@@ -153,6 +161,8 @@ class UserCallProcessingGetPolicyResponse21sp2 extends \CWM\BroadWorksConnector\
      * @Type string
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:7271
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $supportedMediaSetName = null;
@@ -169,6 +179,8 @@ class UserCallProcessingGetPolicyResponse21sp2 extends \CWM\BroadWorksConnector\
      * @ElementName maxConcurrentRedirectedCalls
      * @Type int
      * @Group de4d76f01f337fe4694212ec9f771753:7271
+     * @MinInclusive 1
+     * @MaxInclusive 999999
      * @var int|null
      */
     private $maxConcurrentRedirectedCalls = null;
@@ -185,6 +197,8 @@ class UserCallProcessingGetPolicyResponse21sp2 extends \CWM\BroadWorksConnector\
      * @ElementName maxFindMeFollowMeDepth
      * @Type int
      * @Group de4d76f01f337fe4694212ec9f771753:7271
+     * @MinInclusive 1
+     * @MaxInclusive 100
      * @var int|null
      */
     private $maxFindMeFollowMeDepth = null;
@@ -193,6 +207,8 @@ class UserCallProcessingGetPolicyResponse21sp2 extends \CWM\BroadWorksConnector\
      * @ElementName maxRedirectionDepth
      * @Type int
      * @Group de4d76f01f337fe4694212ec9f771753:7271
+     * @MinInclusive 1
+     * @MaxInclusive 100
      * @var int|null
      */
     private $maxRedirectionDepth = null;
@@ -209,6 +225,8 @@ class UserCallProcessingGetPolicyResponse21sp2 extends \CWM\BroadWorksConnector\
      * @ElementName maxConcurrentFindMeFollowMeInvocations
      * @Type int
      * @Group de4d76f01f337fe4694212ec9f771753:7271
+     * @MinInclusive 1
+     * @MaxInclusive 999999
      * @var int|null
      */
     private $maxConcurrentFindMeFollowMeInvocations = null;
@@ -298,6 +316,8 @@ class UserCallProcessingGetPolicyResponse21sp2 extends \CWM\BroadWorksConnector\
      * @Type string
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:7271
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $routeOverrideDomain = null;
@@ -307,6 +327,8 @@ class UserCallProcessingGetPolicyResponse21sp2 extends \CWM\BroadWorksConnector\
      * @Type string
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:7271
+     * @MinLength 1
+     * @MaxLength 10
      * @var string|null
      */
     private $routeOverridePrefix = null;

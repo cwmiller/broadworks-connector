@@ -19,6 +19,8 @@ class ServiceProviderPreferredCarrierGetAvailableCountryCodeListResponse extends
      * @Type string
      * @Optional
      * @Group 74a46a9bfccb54713c1d19735843f1df:173
+     * @MaxLength 3
+     * @Pattern [0-9]|[1-9][0-9]{1,2}
      * @var string|null
      */
     private $defaultCountryCode = null;
@@ -29,6 +31,8 @@ class ServiceProviderPreferredCarrierGetAvailableCountryCodeListResponse extends
      * @Array
      * @Optional
      * @Group 74a46a9bfccb54713c1d19735843f1df:173
+     * @MaxLength 3
+     * @Pattern [0-9]|[1-9][0-9]{1,2}
      * @var string[]
      */
     private $countryCode = array(

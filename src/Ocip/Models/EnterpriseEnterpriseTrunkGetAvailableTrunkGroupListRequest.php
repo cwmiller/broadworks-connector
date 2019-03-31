@@ -20,6 +20,8 @@ class EnterpriseEnterpriseTrunkGetAvailableTrunkGroupListRequest extends \CWM\Br
      * @ElementName serviceProviderId
      * @Type string
      * @Group b9c14e2d80e4e7749688ca13ba233b44:201
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -29,6 +31,7 @@ class EnterpriseEnterpriseTrunkGetAvailableTrunkGroupListRequest extends \CWM\Br
      * @Type int
      * @Optional
      * @Group b9c14e2d80e4e7749688ca13ba233b44:201
+     * @MinInclusive 1
      * @var int|null
      */
     private $responseSizeLimit = null;

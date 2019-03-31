@@ -26,6 +26,8 @@ class GroupRoutePointNightServiceGetResponse extends \CWM\BroadWorksConnector\Oc
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:20075
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $businessHours = null;
@@ -43,6 +45,8 @@ class GroupRoutePointNightServiceGetResponse extends \CWM\BroadWorksConnector\Oc
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:20075
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $transferPhoneNumber = null;

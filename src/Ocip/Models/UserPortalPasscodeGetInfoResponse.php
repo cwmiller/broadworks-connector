@@ -41,6 +41,8 @@ class UserPortalPasscodeGetInfoResponse extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName passcode
      * @Type string
      * @Group 53d18cc797d03d802cbc411ad821f1d4:3229
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $passcode = null;

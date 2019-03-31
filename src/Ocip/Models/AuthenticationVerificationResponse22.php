@@ -57,6 +57,8 @@ class AuthenticationVerificationResponse22 extends \CWM\BroadWorksConnector\Ocip
      * @Type string
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:3955
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $firstName = null;
@@ -66,6 +68,8 @@ class AuthenticationVerificationResponse22 extends \CWM\BroadWorksConnector\Ocip
      * @Type string
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:3955
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $lastName = null;
@@ -74,6 +78,8 @@ class AuthenticationVerificationResponse22 extends \CWM\BroadWorksConnector\Ocip
      * @ElementName userId
      * @Type string
      * @Group de4d76f01f337fe4694212ec9f771753:3955
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;
@@ -82,6 +88,8 @@ class AuthenticationVerificationResponse22 extends \CWM\BroadWorksConnector\Ocip
      * @ElementName userDomain
      * @Type string
      * @Group de4d76f01f337fe4694212ec9f771753:3955
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $userDomain = null;
@@ -142,6 +150,7 @@ class AuthenticationVerificationResponse22 extends \CWM\BroadWorksConnector\Ocip
      * @Type string
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:3955
+     * @MaxLength 5
      * @var string|null
      */
     private $locale = null;
@@ -151,6 +160,8 @@ class AuthenticationVerificationResponse22 extends \CWM\BroadWorksConnector\Ocip
      * @Type string
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:3955
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $encoding = null;
@@ -168,6 +179,8 @@ class AuthenticationVerificationResponse22 extends \CWM\BroadWorksConnector\Ocip
      * @Type string
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:3955
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -177,6 +190,8 @@ class AuthenticationVerificationResponse22 extends \CWM\BroadWorksConnector\Ocip
      * @Type string
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:3955
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;

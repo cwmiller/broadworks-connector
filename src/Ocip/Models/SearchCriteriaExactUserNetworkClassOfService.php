@@ -16,6 +16,8 @@ class SearchCriteriaExactUserNetworkClassOfService extends SearchCriteria
      * @ElementName networkClassOfService
      * @Type string
      * @Group f0ada2681ca347fa83b464734259b304:1226
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $networkClassOfService = null;

@@ -19,6 +19,8 @@ class UserPreAlertingAnnouncementModifyRequest20 extends \CWM\BroadWorksConnecto
      * @ElementName userId
      * @Type string
      * @Group 6165f2b4cd549de71fe8f3171488fdd8:332
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;

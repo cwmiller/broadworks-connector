@@ -20,6 +20,8 @@ class ServiceProviderGroupPagingTargetsCapacityGetRequest extends \CWM\BroadWork
      * @ElementName serviceProviderId
      * @Type string
      * @Group 0d36df8c109e3ea7324f79031368c661:519
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;

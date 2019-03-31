@@ -19,6 +19,8 @@ class GroupBroadWorksMobileManagerSendCarrierFilesRequest extends \CWM\BroadWork
      * @ElementName serviceProviderId
      * @Type string
      * @Group f3a93cf15de4abd7903673e44ee3e07b:2005
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,6 +29,8 @@ class GroupBroadWorksMobileManagerSendCarrierFilesRequest extends \CWM\BroadWork
      * @ElementName groupId
      * @Type string
      * @Group f3a93cf15de4abd7903673e44ee3e07b:2005
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;
@@ -35,6 +39,8 @@ class GroupBroadWorksMobileManagerSendCarrierFilesRequest extends \CWM\BroadWork
      * @ElementName emailTo
      * @Type string
      * @Group f3a93cf15de4abd7903673e44ee3e07b:2005
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $emailTo = null;

@@ -27,6 +27,8 @@ class GroupFindMeFollowMeGetInstanceResponse19sp1 extends \CWM\BroadWorksConnect
      * @Type string
      * @Optional
      * @Group 79f226053ee345f2ff4c37c37c8e9114:393
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $networkClassOfService = null;

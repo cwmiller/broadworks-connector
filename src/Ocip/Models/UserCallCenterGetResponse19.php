@@ -50,6 +50,8 @@ class UserCallCenterGetResponse19 extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @Type string
      * @Optional
      * @Group e2c537e3e39483b96620673a7012ffdd:7082
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $agentThresholdProfileName = null;
@@ -59,6 +61,8 @@ class UserCallCenterGetResponse19 extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @Type string
      * @Optional
      * @Group e2c537e3e39483b96620673a7012ffdd:7082
+     * @MinLength 1
+     * @MaxLength 10
      * @var string|null
      */
     private $agentUnavailableCode = null;
@@ -83,6 +87,8 @@ class UserCallCenterGetResponse19 extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @ElementName guardTimerSeconds
      * @Type int
      * @Group e2c537e3e39483b96620673a7012ffdd:7082
+     * @MinInclusive 1
+     * @MaxInclusive 25
      * @var int|null
      */
     private $guardTimerSeconds = null;
@@ -128,6 +134,8 @@ class UserCallCenterGetResponse19 extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @Type int
      * @Optional
      * @Group e2c537e3e39483b96620673a7012ffdd:7082
+     * @MinInclusive 1
+     * @MaxInclusive 5
      * @var int|null
      */
     private $numberConsecutiveBouncedCallsToForceAgentUnavailable = null;

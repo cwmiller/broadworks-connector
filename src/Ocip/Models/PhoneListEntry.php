@@ -16,6 +16,8 @@ class PhoneListEntry
      * @ElementName entryName
      * @Type string
      * @Group c0d21ef9ba207c335d8347e5172fce1d:2930
+     * @MinLength 1
+     * @MaxLength 50
      * @var string|null
      */
     private $entryName = null;
@@ -24,6 +26,8 @@ class PhoneListEntry
      * @ElementName phoneNumber
      * @Type string
      * @Group c0d21ef9ba207c335d8347e5172fce1d:2930
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $phoneNumber = null;

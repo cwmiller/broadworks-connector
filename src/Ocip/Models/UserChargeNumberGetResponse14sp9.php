@@ -18,6 +18,8 @@ class UserChargeNumberGetResponse14sp9 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Type string
      * @Optional
      * @Group 9e6c3cffd40902dc6325620cc5e3adef:56
+     * @MinLength 1
+     * @MaxLength 23
      * @var string|null
      */
     private $phoneNumber = null;

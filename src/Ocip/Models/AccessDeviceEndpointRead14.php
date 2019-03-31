@@ -24,6 +24,8 @@ class AccessDeviceEndpointRead14
      * @ElementName linePort
      * @Type string
      * @Group c0d21ef9ba207c335d8347e5172fce1d:105
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $linePort = null;
@@ -33,6 +35,8 @@ class AccessDeviceEndpointRead14
      * @Type string
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:105
+     * @MinLength 1
+     * @MaxLength 1020
      * @var string|null
      */
     private $contact = null;

@@ -19,6 +19,8 @@ class SystemCommunicationBarringAlternateCallIndicatorDeleteRequest extends \CWM
      * @ElementName alternateCallIndicator
      * @Type string
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:5215
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $alternateCallIndicator = null;

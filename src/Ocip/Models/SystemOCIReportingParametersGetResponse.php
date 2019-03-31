@@ -18,6 +18,8 @@ class SystemOCIReportingParametersGetResponse extends \CWM\BroadWorksConnector\O
      * @ElementName serverPort
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:5369
+     * @MinInclusive 1025
+     * @MaxInclusive 65535
      * @var int|null
      */
     private $serverPort = null;
@@ -34,6 +36,8 @@ class SystemOCIReportingParametersGetResponse extends \CWM\BroadWorksConnector\O
      * @ElementName connectionPingIntervalSeconds
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:5369
+     * @MinInclusive 1
+     * @MaxInclusive 86400
      * @var int|null
      */
     private $connectionPingIntervalSeconds = null;

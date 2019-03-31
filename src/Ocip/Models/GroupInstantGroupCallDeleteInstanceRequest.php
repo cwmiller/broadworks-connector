@@ -19,6 +19,8 @@ class GroupInstantGroupCallDeleteInstanceRequest extends \CWM\BroadWorksConnecto
      * @ElementName serviceUserId
      * @Type string
      * @Group f41dea4708922d4a3f0e26f198cc953f:69
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $serviceUserId = null;

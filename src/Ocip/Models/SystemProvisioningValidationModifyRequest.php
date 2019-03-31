@@ -42,6 +42,8 @@ class SystemProvisioningValidationModifyRequest extends \CWM\BroadWorksConnector
      * @Type int
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:13633
+     * @MinInclusive 1
+     * @MaxInclusive 30
      * @var int|null
      */
     private $timeoutSeconds = null;

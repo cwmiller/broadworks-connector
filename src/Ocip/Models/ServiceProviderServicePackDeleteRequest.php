@@ -19,6 +19,8 @@ class ServiceProviderServicePackDeleteRequest extends \CWM\BroadWorksConnector\O
      * @ElementName serviceProviderId
      * @Type string
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:5260
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,6 +29,8 @@ class ServiceProviderServicePackDeleteRequest extends \CWM\BroadWorksConnector\O
      * @ElementName servicePackName
      * @Type string
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:5260
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $servicePackName = null;

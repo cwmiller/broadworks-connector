@@ -32,6 +32,7 @@ class LoginResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataR
      * @ElementName locale
      * @Type string
      * @Group de4d76f01f337fe4694212ec9f771753:5455
+     * @MaxLength 5
      * @var string|null
      */
     private $locale = null;
@@ -40,6 +41,8 @@ class LoginResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataR
      * @ElementName encoding
      * @Type string
      * @Group de4d76f01f337fe4694212ec9f771753:5455
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $encoding = null;
@@ -49,6 +52,8 @@ class LoginResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataR
      * @Type string
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:5455
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;
@@ -58,6 +63,8 @@ class LoginResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataR
      * @Type string
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:5455
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -83,6 +90,8 @@ class LoginResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataR
      * @ElementName userDomain
      * @Type string
      * @Group de4d76f01f337fe4694212ec9f771753:5455
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $userDomain = null;

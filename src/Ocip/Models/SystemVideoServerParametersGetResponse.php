@@ -18,6 +18,8 @@ class SystemVideoServerParametersGetResponse extends \CWM\BroadWorksConnector\Oc
      * @ElementName videoServerResponseTimerMilliseconds
      * @Type int
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18169
+     * @MinInclusive 600
+     * @MaxInclusive 120000
      * @var int|null
      */
     private $videoServerResponseTimerMilliseconds = null;
@@ -26,6 +28,8 @@ class SystemVideoServerParametersGetResponse extends \CWM\BroadWorksConnector\Oc
      * @ElementName videoServerSelectionRouteTimerMilliseconds
      * @Type int
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18169
+     * @MinInclusive 500
+     * @MaxInclusive 120000
      * @var int|null
      */
     private $videoServerSelectionRouteTimerMilliseconds = null;

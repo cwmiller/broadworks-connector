@@ -19,6 +19,8 @@ class SystemRoutingAddTranslationRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName digits
      * @Type string
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14145
+     * @MinLength 1
+     * @MaxLength 6
      * @var string|null
      */
     private $digits = null;
@@ -27,6 +29,8 @@ class SystemRoutingAddTranslationRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName routeName
      * @Type string
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14145
+     * @MinLength 1
+     * @MaxLength 32
      * @var string|null
      */
     private $routeName = null;

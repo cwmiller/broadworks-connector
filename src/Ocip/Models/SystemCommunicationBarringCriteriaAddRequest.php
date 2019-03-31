@@ -21,6 +21,8 @@ class SystemCommunicationBarringCriteriaAddRequest extends \CWM\BroadWorksConnec
      * @ElementName name
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:15059
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $name = null;
@@ -30,6 +32,8 @@ class SystemCommunicationBarringCriteriaAddRequest extends \CWM\BroadWorksConnec
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:15059
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $description = null;
@@ -40,6 +44,8 @@ class SystemCommunicationBarringCriteriaAddRequest extends \CWM\BroadWorksConnec
      * @Array
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:15059
+     * @MinLength 1
+     * @MaxLength 40
      * @var string[]
      */
     private $matchCallType = array(
@@ -52,6 +58,8 @@ class SystemCommunicationBarringCriteriaAddRequest extends \CWM\BroadWorksConnec
      * @Array
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:15059
+     * @MinLength 1
+     * @MaxLength 40
      * @var string[]
      */
     private $matchAlternateCallIndicator = array(
@@ -64,6 +72,8 @@ class SystemCommunicationBarringCriteriaAddRequest extends \CWM\BroadWorksConnec
      * @Array
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:15059
+     * @MinLength 1
+     * @MaxLength 40
      * @var string[]
      */
     private $matchVirtualOnNetCallType = array(
@@ -259,6 +269,8 @@ class SystemCommunicationBarringCriteriaAddRequest extends \CWM\BroadWorksConnec
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:15059
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $timeSchedule = null;
@@ -268,6 +280,8 @@ class SystemCommunicationBarringCriteriaAddRequest extends \CWM\BroadWorksConnec
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:15059
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $holidaySchedule = null;

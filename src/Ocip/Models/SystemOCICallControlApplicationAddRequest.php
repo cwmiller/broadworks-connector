@@ -19,6 +19,8 @@ class SystemOCICallControlApplicationAddRequest extends \CWM\BroadWorksConnector
      * @ElementName applicationId
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:5337
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $applicationId = null;
@@ -36,6 +38,8 @@ class SystemOCICallControlApplicationAddRequest extends \CWM\BroadWorksConnector
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:5337
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $description = null;

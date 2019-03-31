@@ -26,6 +26,8 @@ class UserCallForwardingNoAnswerGetResponse13mp16 extends \CWM\BroadWorksConnect
      * @Type string
      * @Optional
      * @Group 9bba36247a6338c8a1cff754a22a6c6b:59
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $forwardToPhoneNumber = null;

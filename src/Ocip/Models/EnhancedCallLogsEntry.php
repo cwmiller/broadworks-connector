@@ -18,6 +18,8 @@ class EnhancedCallLogsEntry
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:43170
+     * @MaxLength 3
+     * @Pattern [0-9]|[1-9][0-9]{1,2}
      * @var string|null
      */
     private $countryCode = null;
@@ -26,6 +28,8 @@ class EnhancedCallLogsEntry
      * @ElementName phoneNumber
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:43170
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $phoneNumber = null;
@@ -34,6 +38,8 @@ class EnhancedCallLogsEntry
      * @ElementName name
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:43170
+     * @MinLength 1
+     * @MaxLength 62
      * @var string|null
      */
     private $name = null;

@@ -26,6 +26,8 @@ class GroupRoutePointQueueCallDispositionCodeGetResponse extends \CWM\BroadWorks
      * @Type string
      * @Optional
      * @Group a27224a048c30ff69eab9209dec841cc:1169
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $description = null;

@@ -16,6 +16,8 @@ class ServiceProviderCommunicationBarringHierarchicalCallMeNowRule
      * @ElementName criteria
      * @Type string
      * @Group c0d21ef9ba207c335d8347e5172fce1d:3769
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $criteria = null;
@@ -24,6 +26,8 @@ class ServiceProviderCommunicationBarringHierarchicalCallMeNowRule
      * @ElementName digitPatternCriteria
      * @Type string
      * @Group c0d21ef9ba207c335d8347e5172fce1d:3769
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $digitPatternCriteria = null;
@@ -41,6 +45,8 @@ class ServiceProviderCommunicationBarringHierarchicalCallMeNowRule
      * @Type int
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:3768
+     * @MinInclusive 60
+     * @MaxInclusive 86400
      * @var int|null
      */
     private $callTimeoutSeconds = null;
@@ -50,6 +56,8 @@ class ServiceProviderCommunicationBarringHierarchicalCallMeNowRule
      * @Type string
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:3768
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $timeSchedule = null;
@@ -59,6 +67,8 @@ class ServiceProviderCommunicationBarringHierarchicalCallMeNowRule
      * @Type string
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:3768
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $holidaySchedule = null;
@@ -67,6 +77,8 @@ class ServiceProviderCommunicationBarringHierarchicalCallMeNowRule
      * @ElementName priority
      * @Type float
      * @Group c0d21ef9ba207c335d8347e5172fce1d:3768
+     * @MinInclusive 0.0
+     * @MaxInclusive 1000000.0
      * @var float|null
      */
     private $priority = null;

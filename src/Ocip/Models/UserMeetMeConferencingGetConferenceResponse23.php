@@ -18,6 +18,8 @@ class UserMeetMeConferencingGetConferenceResponse23 extends \CWM\BroadWorksConne
      * @ElementName title
      * @Type string
      * @Group 0fd24121d16995c994d40bc408dbcfa5:921
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $title = null;
@@ -27,6 +29,8 @@ class UserMeetMeConferencingGetConferenceResponse23 extends \CWM\BroadWorksConne
      * @Type int
      * @Optional
      * @Group 0fd24121d16995c994d40bc408dbcfa5:921
+     * @MinInclusive 1
+     * @MaxInclusive 294
      * @var int|null
      */
     private $estimatedParticipants = null;
@@ -43,6 +47,8 @@ class UserMeetMeConferencingGetConferenceResponse23 extends \CWM\BroadWorksConne
      * @ElementName maxParticipants
      * @Type int
      * @Group 0fd24121d16995c994d40bc408dbcfa5:924
+     * @MinInclusive 1
+     * @MaxInclusive 294
      * @var int|null
      */
     private $maxParticipants = null;
@@ -52,6 +58,8 @@ class UserMeetMeConferencingGetConferenceResponse23 extends \CWM\BroadWorksConne
      * @Type string
      * @Optional
      * @Group 0fd24121d16995c994d40bc408dbcfa5:921
+     * @MinLength 1
+     * @MaxLength 50
      * @var string|null
      */
     private $accountCode = null;
@@ -93,6 +101,8 @@ class UserMeetMeConferencingGetConferenceResponse23 extends \CWM\BroadWorksConne
      * @Type string
      * @Optional
      * @Group 0fd24121d16995c994d40bc408dbcfa5:921
+     * @MinLength 4
+     * @MaxLength 12
      * @var string|null
      */
     private $securityPin = null;
@@ -125,6 +135,8 @@ class UserMeetMeConferencingGetConferenceResponse23 extends \CWM\BroadWorksConne
      * @ElementName moderatorPin
      * @Type string
      * @Group 0fd24121d16995c994d40bc408dbcfa5:921
+     * @MinLength 6
+     * @MaxLength 12
      * @var string|null
      */
     private $moderatorPin = null;
@@ -133,6 +145,8 @@ class UserMeetMeConferencingGetConferenceResponse23 extends \CWM\BroadWorksConne
      * @ElementName hostTimeZone
      * @Type string
      * @Group 0fd24121d16995c994d40bc408dbcfa5:921
+     * @MinLength 1
+     * @MaxLength 127
      * @var string|null
      */
     private $hostTimeZone = null;

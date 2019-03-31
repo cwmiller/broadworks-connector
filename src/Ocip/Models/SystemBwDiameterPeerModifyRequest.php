@@ -27,6 +27,8 @@ class SystemBwDiameterPeerModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName identity
      * @Type string
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2423
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $identity = null;
@@ -37,6 +39,8 @@ class SystemBwDiameterPeerModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Nillable
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2423
+     * @MinLength 1
+     * @MaxLength 39
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $ipAddress = null;
@@ -46,6 +50,8 @@ class SystemBwDiameterPeerModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Type int
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2423
+     * @MinInclusive 1025
+     * @MaxInclusive 65535
      * @var int|null
      */
     private $port = null;

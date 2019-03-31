@@ -48,6 +48,8 @@ class DeviceManagementDeviceTypeOptions21sp1
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:45201
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $tagSet = null;
@@ -81,6 +83,8 @@ class DeviceManagementDeviceTypeOptions21sp1
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:45201
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $deviceAccessNetAddress = null;
@@ -90,6 +94,8 @@ class DeviceManagementDeviceTypeOptions21sp1
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:45201
+     * @MinInclusive 1
+     * @MaxInclusive 65535
      * @var int|null
      */
     private $deviceAccessPort = null;
@@ -99,6 +105,8 @@ class DeviceManagementDeviceTypeOptions21sp1
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:45201
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $deviceAccessContext = null;
@@ -108,6 +116,8 @@ class DeviceManagementDeviceTypeOptions21sp1
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:45201
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $deviceAccessURI = null;
@@ -117,6 +127,8 @@ class DeviceManagementDeviceTypeOptions21sp1
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:45201
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $defaultDeviceLanguage = null;
@@ -126,6 +138,8 @@ class DeviceManagementDeviceTypeOptions21sp1
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:45201
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $defaultDeviceEncoding = null;
@@ -184,6 +198,8 @@ class DeviceManagementDeviceTypeOptions21sp1
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:45201
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $macFormatInNonRequestURI = null;

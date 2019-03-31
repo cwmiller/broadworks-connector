@@ -16,6 +16,8 @@ class SearchCriteriaExactCustomContactDirectory extends SearchCriteria
      * @ElementName customContactDirectoryName
      * @Type string
      * @Group f0ada2681ca347fa83b464734259b304:745
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $customContactDirectoryName = null;

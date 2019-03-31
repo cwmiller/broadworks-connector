@@ -16,6 +16,8 @@ class ExtensionRange
      * @ElementName minExtension
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:43184
+     * @MinLength 2
+     * @MaxLength 6
      * @var string|null
      */
     private $minExtension = null;
@@ -24,6 +26,8 @@ class ExtensionRange
      * @ElementName maxExtension
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:43184
+     * @MinLength 2
+     * @MaxLength 6
      * @var string|null
      */
     private $maxExtension = null;

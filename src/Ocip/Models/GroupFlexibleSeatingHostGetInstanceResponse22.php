@@ -26,6 +26,8 @@ class GroupFlexibleSeatingHostGetInstanceResponse22 extends \CWM\BroadWorksConne
      * @ElementName defaultAlias
      * @Type string
      * @Group 43afb2158d313a1d1a148124d7caba1e:255
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $defaultAlias = null;
@@ -44,6 +46,8 @@ class GroupFlexibleSeatingHostGetInstanceResponse22 extends \CWM\BroadWorksConne
      * @Type string
      * @Optional
      * @Group 43afb2158d313a1d1a148124d7caba1e:255
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $networkClassOfService = null;

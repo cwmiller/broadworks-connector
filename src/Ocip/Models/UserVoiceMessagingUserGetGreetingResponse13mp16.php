@@ -29,6 +29,8 @@ class UserVoiceMessagingUserGetGreetingResponse13mp16 extends \CWM\BroadWorksCon
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:11867
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $busyPersonalAudioFile = null;
@@ -38,6 +40,8 @@ class UserVoiceMessagingUserGetGreetingResponse13mp16 extends \CWM\BroadWorksCon
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:11867
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $busyPersonalVideoFile = null;
@@ -55,6 +59,8 @@ class UserVoiceMessagingUserGetGreetingResponse13mp16 extends \CWM\BroadWorksCon
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:11867
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $noAnswerPersonalAudioFile = null;
@@ -64,6 +70,8 @@ class UserVoiceMessagingUserGetGreetingResponse13mp16 extends \CWM\BroadWorksCon
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:11867
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $noAnswerPersonalVideoFile = null;

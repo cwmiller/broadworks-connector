@@ -19,6 +19,8 @@ class ServiceProviderAdviceOfChargeGetRequest extends \CWM\BroadWorksConnector\O
      * @ElementName serviceProviderId
      * @Type string
      * @Group a69fde15f3aa7494d83b57461a7a70bb:104
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;

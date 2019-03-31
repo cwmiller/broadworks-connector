@@ -35,6 +35,8 @@ class GroupAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
      * @ElementName serviceProviderId
      * @Type string
      * @Group f3a93cf15de4abd7903673e44ee3e07b:1024
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -43,6 +45,8 @@ class GroupAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
      * @ElementName groupId
      * @Type string
      * @Group f3a93cf15de4abd7903673e44ee3e07b:1024
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;
@@ -51,6 +55,8 @@ class GroupAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
      * @ElementName defaultDomain
      * @Type string
      * @Group f3a93cf15de4abd7903673e44ee3e07b:1024
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $defaultDomain = null;
@@ -59,6 +65,8 @@ class GroupAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
      * @ElementName userLimit
      * @Type int
      * @Group f3a93cf15de4abd7903673e44ee3e07b:1024
+     * @MinInclusive 1
+     * @MaxInclusive 999999
      * @var int|null
      */
     private $userLimit = null;
@@ -68,6 +76,8 @@ class GroupAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
      * @Type string
      * @Optional
      * @Group f3a93cf15de4abd7903673e44ee3e07b:1024
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $groupName = null;
@@ -77,6 +87,8 @@ class GroupAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
      * @Type string
      * @Optional
      * @Group f3a93cf15de4abd7903673e44ee3e07b:1024
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $callingLineIdName = null;
@@ -86,6 +98,8 @@ class GroupAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
      * @Type string
      * @Optional
      * @Group f3a93cf15de4abd7903673e44ee3e07b:1024
+     * @MinLength 1
+     * @MaxLength 127
      * @var string|null
      */
     private $timeZone = null;
@@ -95,6 +109,8 @@ class GroupAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
      * @Type string
      * @Optional
      * @Group f3a93cf15de4abd7903673e44ee3e07b:1024
+     * @MinLength 1
+     * @MaxLength 15
      * @var string|null
      */
     private $locationDialingCode = null;
@@ -122,6 +138,8 @@ class GroupAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
      * @Type string
      * @Optional
      * @Group f3a93cf15de4abd7903673e44ee3e07b:1024
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $servicePolicy = null;
@@ -131,6 +149,8 @@ class GroupAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
      * @Type string
      * @Optional
      * @Group f3a93cf15de4abd7903673e44ee3e07b:1024
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $callProcessingSliceId = null;
@@ -140,6 +160,8 @@ class GroupAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
      * @Type string
      * @Optional
      * @Group f3a93cf15de4abd7903673e44ee3e07b:1024
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $provisioningSliceId = null;
@@ -149,6 +171,8 @@ class GroupAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
      * @Type string
      * @Optional
      * @Group f3a93cf15de4abd7903673e44ee3e07b:1024
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $subscriberPartition = null;
@@ -158,6 +182,8 @@ class GroupAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
      * @Type string
      * @Optional
      * @Group f3a93cf15de4abd7903673e44ee3e07b:1024
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $preferredDataCenter = null;
@@ -167,6 +193,8 @@ class GroupAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
      * @Type string
      * @Optional
      * @Group f3a93cf15de4abd7903673e44ee3e07b:1024
+     * @MinLength 1
+     * @MaxLength 23
      * @var string|null
      */
     private $defaultUserCallingLineIdPhoneNumber = null;

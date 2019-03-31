@@ -20,6 +20,8 @@ class UserBargeInExemptGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @ElementName userId
      * @Type string
      * @Group 83c7725aef84be5a5cfc21291c4b9b58:42
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;

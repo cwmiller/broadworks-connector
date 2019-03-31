@@ -43,6 +43,8 @@ class GroupCustomRingbackGroupGetResponse20 extends \CWM\BroadWorksConnector\Oci
      * @Type string
      * @Optional
      * @Group 80acd3e6f38b9682dcefe7cd473392c3:63
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $audioFileUrl = null;
@@ -69,6 +71,8 @@ class GroupCustomRingbackGroupGetResponse20 extends \CWM\BroadWorksConnector\Oci
      * @Type string
      * @Optional
      * @Group 80acd3e6f38b9682dcefe7cd473392c3:63
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $videoFileUrl = null;

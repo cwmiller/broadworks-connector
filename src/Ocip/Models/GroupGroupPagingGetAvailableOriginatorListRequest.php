@@ -20,6 +20,8 @@ class GroupGroupPagingGetAvailableOriginatorListRequest extends \CWM\BroadWorksC
      * @ElementName serviceProviderId
      * @Type string
      * @Group 0d36df8c109e3ea7324f79031368c661:170
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -28,6 +30,8 @@ class GroupGroupPagingGetAvailableOriginatorListRequest extends \CWM\BroadWorksC
      * @ElementName groupId
      * @Type string
      * @Group 0d36df8c109e3ea7324f79031368c661:170
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;
@@ -37,6 +41,7 @@ class GroupGroupPagingGetAvailableOriginatorListRequest extends \CWM\BroadWorksC
      * @Type int
      * @Optional
      * @Group 0d36df8c109e3ea7324f79031368c661:170
+     * @MinInclusive 1
      * @var int|null
      */
     private $responseSizeLimit = null;

@@ -19,6 +19,8 @@ class GroupPolycomPhoneServicesGetRequest extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName serviceProviderId
      * @Type string
      * @Group 4f074d986b998636e2bcb0d67372b0f4:46
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,6 +29,8 @@ class GroupPolycomPhoneServicesGetRequest extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName groupId
      * @Type string
      * @Group 4f074d986b998636e2bcb0d67372b0f4:46
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;

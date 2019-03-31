@@ -20,6 +20,8 @@ class GroupCallCenterModifyAnnouncementRequest17 extends \CWM\BroadWorksConnecto
      * @ElementName serviceUserId
      * @Type string
      * @Group de4d76f01f337fe4694212ec9f771753:4346
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $serviceUserId = null;
@@ -110,6 +112,8 @@ class GroupCallCenterModifyAnnouncementRequest17 extends \CWM\BroadWorksConnecto
      * @Type int
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:4346
+     * @MinInclusive 10
+     * @MaxInclusive 600
      * @var int|null
      */
     private $timeBetweenComfortMessagesSeconds = null;

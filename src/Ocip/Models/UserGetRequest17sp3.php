@@ -22,6 +22,8 @@ class UserGetRequest17sp3 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
      * @ElementName userId
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:23561
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;

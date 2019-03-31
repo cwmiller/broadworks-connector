@@ -26,6 +26,8 @@ class EnterpriseCallCenterAgentUnavailableCodeGetResponse extends \CWM\BroadWork
      * @Type string
      * @Optional
      * @Group e2c537e3e39483b96620673a7012ffdd:822
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $description = null;

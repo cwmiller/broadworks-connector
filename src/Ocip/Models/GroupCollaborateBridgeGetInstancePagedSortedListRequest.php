@@ -29,6 +29,8 @@ class GroupCollaborateBridgeGetInstancePagedSortedListRequest extends \CWM\Broad
      * @ElementName serviceProviderId
      * @Type string
      * @Group 939fd5846dfae8bdf58308d6cb9ebb12:347
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -37,6 +39,8 @@ class GroupCollaborateBridgeGetInstancePagedSortedListRequest extends \CWM\Broad
      * @ElementName groupId
      * @Type string
      * @Group 939fd5846dfae8bdf58308d6cb9ebb12:347
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;

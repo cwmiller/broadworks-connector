@@ -16,6 +16,8 @@ class GroupDomainGetAssignedListResponse extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName groupDefaultDomain
      * @Type string
      * @Group f3a93cf15de4abd7903673e44ee3e07b:4562
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $groupDefaultDomain = null;
@@ -26,6 +28,8 @@ class GroupDomainGetAssignedListResponse extends \CWM\BroadWorksConnector\Ocip\M
      * @Array
      * @Optional
      * @Group f3a93cf15de4abd7903673e44ee3e07b:4562
+     * @MinLength 1
+     * @MaxLength 80
      * @var string[]
      */
     private $domain = array(

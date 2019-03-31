@@ -21,6 +21,8 @@ class ServiceProviderRouteListEnterpriseTrunkNumberPrefixActivateListRequest ext
      * @ElementName serviceProviderId
      * @Type string
      * @Group 3f28429898a57a7f7846d3877b22df9f:432
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -30,6 +32,8 @@ class ServiceProviderRouteListEnterpriseTrunkNumberPrefixActivateListRequest ext
      * @Type string
      * @Array
      * @Group 3f28429898a57a7f7846d3877b22df9f:432
+     * @MinLength 1
+     * @MaxLength 23
      * @var string[]
      */
     private $numberPrefix = array(

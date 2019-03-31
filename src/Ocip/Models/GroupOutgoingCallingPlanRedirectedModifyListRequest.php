@@ -19,6 +19,8 @@ class GroupOutgoingCallingPlanRedirectedModifyListRequest extends \CWM\BroadWork
      * @ElementName serviceProviderId
      * @Type string
      * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:752
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,6 +29,8 @@ class GroupOutgoingCallingPlanRedirectedModifyListRequest extends \CWM\BroadWork
      * @ElementName groupId
      * @Type string
      * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:752
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;

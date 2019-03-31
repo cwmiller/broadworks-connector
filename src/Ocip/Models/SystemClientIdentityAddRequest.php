@@ -19,6 +19,8 @@ class SystemClientIdentityAddRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName clientIdentity
      * @Type string
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:5024
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $clientIdentity = null;

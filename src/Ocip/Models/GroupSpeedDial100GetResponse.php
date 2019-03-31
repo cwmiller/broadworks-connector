@@ -17,6 +17,8 @@ class GroupSpeedDial100GetResponse extends \CWM\BroadWorksConnector\Ocip\Models\
      * @ElementName prefix
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:20235
+     * @MinLength 1
+     * @MaxLength 2
      * @var string|null
      */
     private $prefix = null;

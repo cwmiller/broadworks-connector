@@ -20,6 +20,8 @@ class GroupCallCenterAgentThresholdProfileDeleteAgentListRequest extends \CWM\Br
      * @ElementName serviceProviderId
      * @Type string
      * @Group e2c537e3e39483b96620673a7012ffdd:2179
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -28,6 +30,8 @@ class GroupCallCenterAgentThresholdProfileDeleteAgentListRequest extends \CWM\Br
      * @ElementName groupId
      * @Type string
      * @Group e2c537e3e39483b96620673a7012ffdd:2179
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;
@@ -36,6 +40,8 @@ class GroupCallCenterAgentThresholdProfileDeleteAgentListRequest extends \CWM\Br
      * @ElementName profileName
      * @Type string
      * @Group e2c537e3e39483b96620673a7012ffdd:2179
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $profileName = null;
@@ -45,6 +51,8 @@ class GroupCallCenterAgentThresholdProfileDeleteAgentListRequest extends \CWM\Br
      * @Type string
      * @Array
      * @Group e2c537e3e39483b96620673a7012ffdd:2179
+     * @MinLength 1
+     * @MaxLength 161
      * @var string[]
      */
     private $agentUserId = array(

@@ -19,6 +19,8 @@ class UserPasswordInfoGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @ElementName userId
      * @Type string
      * @Group 53d18cc797d03d802cbc411ad821f1d4:2717
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;

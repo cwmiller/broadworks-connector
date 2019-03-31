@@ -22,6 +22,8 @@ class UserCollaborateBridgeGetResponse extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName bridgeId
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:40484
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $bridgeId = null;
@@ -30,6 +32,8 @@ class UserCollaborateBridgeGetResponse extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName bridgeName
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:40484
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $bridgeName = null;
@@ -39,6 +43,8 @@ class UserCollaborateBridgeGetResponse extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:40484
+     * @MinLength 1
+     * @MaxLength 23
      * @var string|null
      */
     private $phoneNumber = null;
@@ -48,6 +54,8 @@ class UserCollaborateBridgeGetResponse extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:40484
+     * @MinLength 2
+     * @MaxLength 20
      * @var string|null
      */
     private $extension = null;
@@ -76,6 +84,8 @@ class UserCollaborateBridgeGetResponse extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName maxCollaborateRoomParticipants
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:40484
+     * @MinInclusive 3
+     * @MaxInclusive 30
      * @var int|null
      */
     private $maxCollaborateRoomParticipants = null;

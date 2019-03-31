@@ -18,6 +18,8 @@ class GroupDialableCallerIDCriteriaAddRequest extends \CWM\BroadWorksConnector\O
      * @ElementName serviceProviderId
      * @Type string
      * @Group f3a93cf15de4abd7903673e44ee3e07b:3638
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,6 +28,8 @@ class GroupDialableCallerIDCriteriaAddRequest extends \CWM\BroadWorksConnector\O
      * @ElementName groupId
      * @Type string
      * @Group f3a93cf15de4abd7903673e44ee3e07b:3638
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;
@@ -34,6 +38,8 @@ class GroupDialableCallerIDCriteriaAddRequest extends \CWM\BroadWorksConnector\O
      * @ElementName name
      * @Type string
      * @Group f3a93cf15de4abd7903673e44ee3e07b:3638
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $name = null;
@@ -43,6 +49,8 @@ class GroupDialableCallerIDCriteriaAddRequest extends \CWM\BroadWorksConnector\O
      * @Type string
      * @Optional
      * @Group f3a93cf15de4abd7903673e44ee3e07b:3638
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $description = null;
@@ -52,6 +60,8 @@ class GroupDialableCallerIDCriteriaAddRequest extends \CWM\BroadWorksConnector\O
      * @Type string
      * @Optional
      * @Group f3a93cf15de4abd7903673e44ee3e07b:3638
+     * @MinLength 1
+     * @MaxLength 10
      * @var string|null
      */
     private $prefixDigits = null;
@@ -62,6 +72,8 @@ class GroupDialableCallerIDCriteriaAddRequest extends \CWM\BroadWorksConnector\O
      * @Array
      * @Optional
      * @Group f3a93cf15de4abd7903673e44ee3e07b:3638
+     * @MinLength 1
+     * @MaxLength 40
      * @var string[]
      */
     private $matchCallType = array(
@@ -74,6 +86,8 @@ class GroupDialableCallerIDCriteriaAddRequest extends \CWM\BroadWorksConnector\O
      * @Array
      * @Optional
      * @Group f3a93cf15de4abd7903673e44ee3e07b:3638
+     * @MinLength 1
+     * @MaxLength 40
      * @var string[]
      */
     private $matchAlternateCallIndicator = array(

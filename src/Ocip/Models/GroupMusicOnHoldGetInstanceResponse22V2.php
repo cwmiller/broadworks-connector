@@ -17,6 +17,8 @@ class GroupMusicOnHoldGetInstanceResponse22V2 extends \CWM\BroadWorksConnector\O
      * @ElementName serviceUserId
      * @Type string
      * @Group 66fe518a637c74cc4b2c97aa7f68fc49:145
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $serviceUserId = null;

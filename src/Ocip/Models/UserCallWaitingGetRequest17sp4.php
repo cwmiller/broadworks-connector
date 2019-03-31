@@ -20,6 +20,8 @@ class UserCallWaitingGetRequest17sp4 extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName userId
      * @Type string
      * @Group e12337fe0480db757507a0699bc195d9:90
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;

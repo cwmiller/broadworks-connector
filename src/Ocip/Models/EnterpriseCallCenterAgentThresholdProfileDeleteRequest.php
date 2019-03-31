@@ -20,6 +20,8 @@ class EnterpriseCallCenterAgentThresholdProfileDeleteRequest extends \CWM\BroadW
      * @ElementName serviceProviderId
      * @Type string
      * @Group e2c537e3e39483b96620673a7012ffdd:414
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -28,6 +30,8 @@ class EnterpriseCallCenterAgentThresholdProfileDeleteRequest extends \CWM\BroadW
      * @ElementName profileName
      * @Type string
      * @Group e2c537e3e39483b96620673a7012ffdd:414
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $profileName = null;

@@ -19,6 +19,8 @@ class UserSecurityClassificationGetRequest22 extends \CWM\BroadWorksConnector\Oc
      * @ElementName userId
      * @Type string
      * @Group 6b3afea8308b7fdaab8d385357ca9c2d:312
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;

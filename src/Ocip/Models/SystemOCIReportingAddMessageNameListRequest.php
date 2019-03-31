@@ -20,6 +20,8 @@ class SystemOCIReportingAddMessageNameListRequest extends \CWM\BroadWorksConnect
      * @ElementName netAddress
      * @Type string
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12545
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $netAddress = null;
@@ -29,6 +31,8 @@ class SystemOCIReportingAddMessageNameListRequest extends \CWM\BroadWorksConnect
      * @Type string
      * @Array
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12545
+     * @MinLength 1
+     * @MaxLength 256
      * @var string[]
      */
     private $messageNameStartsWith = array(

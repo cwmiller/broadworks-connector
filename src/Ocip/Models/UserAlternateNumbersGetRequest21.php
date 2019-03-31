@@ -19,6 +19,8 @@ class UserAlternateNumbersGetRequest21 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName userId
      * @Type string
      * @Group 6b0d590445194cb49d97af1e45ec12ae:41
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;

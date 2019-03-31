@@ -25,6 +25,7 @@ class LoginResponse13mp10 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIData
      * @ElementName locale
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:3344
+     * @MaxLength 5
      * @var string|null
      */
     private $locale = null;
@@ -33,6 +34,8 @@ class LoginResponse13mp10 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIData
      * @ElementName encoding
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:3344
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $encoding = null;

@@ -20,6 +20,8 @@ class UserConnectedLineIdentificationRestrictionGetRequest extends \CWM\BroadWor
      * @ElementName userId
      * @Type string
      * @Group 755f02354120ea5249923372461f5503:44
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;

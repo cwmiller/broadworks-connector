@@ -20,6 +20,8 @@ class ServiceProviderServicePackMigrationTaskModifyRequest extends \CWM\BroadWor
      * @ElementName serviceProviderId
      * @Type string
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:5685
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -28,6 +30,8 @@ class ServiceProviderServicePackMigrationTaskModifyRequest extends \CWM\BroadWor
      * @ElementName taskName
      * @Type string
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:5685
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $taskName = null;
@@ -37,6 +41,8 @@ class ServiceProviderServicePackMigrationTaskModifyRequest extends \CWM\BroadWor
      * @Type string
      * @Optional
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:5685
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $newTaskName = null;
@@ -55,6 +61,8 @@ class ServiceProviderServicePackMigrationTaskModifyRequest extends \CWM\BroadWor
      * @Type int
      * @Optional
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:5685
+     * @MinInclusive 1
+     * @MaxInclusive 168
      * @var int|null
      */
     private $expireAfterNumHours = null;
@@ -64,6 +72,8 @@ class ServiceProviderServicePackMigrationTaskModifyRequest extends \CWM\BroadWor
      * @Type int
      * @Optional
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:5685
+     * @MinInclusive 1
+     * @MaxInclusive 9
      * @var int|null
      */
     private $maxDurationHours = null;
@@ -83,6 +93,8 @@ class ServiceProviderServicePackMigrationTaskModifyRequest extends \CWM\BroadWor
      * @Nillable
      * @Optional
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:5685
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $reportDeliveryEmailAddress = null;
@@ -102,6 +114,7 @@ class ServiceProviderServicePackMigrationTaskModifyRequest extends \CWM\BroadWor
      * @Nillable
      * @Optional
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:5685
+     * @MinInclusive 1
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $abortErrorThreshold = null;

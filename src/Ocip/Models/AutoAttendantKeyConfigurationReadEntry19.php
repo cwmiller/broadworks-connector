@@ -30,6 +30,8 @@ class AutoAttendantKeyConfigurationReadEntry19
      * @Type string
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:698
+     * @MinLength 1
+     * @MaxLength 20
      * @var string|null
      */
     private $description = null;
@@ -47,6 +49,8 @@ class AutoAttendantKeyConfigurationReadEntry19
      * @Type string
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:698
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $phoneNumber = null;
@@ -56,6 +60,8 @@ class AutoAttendantKeyConfigurationReadEntry19
      * @Type string
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:698
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $audioFileDescription = null;
@@ -74,6 +80,8 @@ class AutoAttendantKeyConfigurationReadEntry19
      * @Type string
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:698
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null
      */
     private $videoFileDescription = null;
@@ -92,6 +100,8 @@ class AutoAttendantKeyConfigurationReadEntry19
      * @Type string
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:698
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $submenuId = null;

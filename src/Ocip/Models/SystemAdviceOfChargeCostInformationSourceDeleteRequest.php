@@ -19,6 +19,8 @@ class SystemAdviceOfChargeCostInformationSourceDeleteRequest extends \CWM\BroadW
      * @ElementName peerIdentity
      * @Type string
      * @Group a69fde15f3aa7494d83b57461a7a70bb:171
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $peerIdentity = null;

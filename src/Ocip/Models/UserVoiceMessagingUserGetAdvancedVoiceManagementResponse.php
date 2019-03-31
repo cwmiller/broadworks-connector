@@ -28,6 +28,8 @@ class UserVoiceMessagingUserGetAdvancedVoiceManagementResponse extends \CWM\Broa
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:7827
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $groupMailServerEmailAddress = null;
@@ -37,6 +39,8 @@ class UserVoiceMessagingUserGetAdvancedVoiceManagementResponse extends \CWM\Broa
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:7827
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $groupMailServerUserId = null;
@@ -46,6 +50,8 @@ class UserVoiceMessagingUserGetAdvancedVoiceManagementResponse extends \CWM\Broa
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:7827
+     * @MinLength 1
+     * @MaxLength 60
      * @var string|null
      */
     private $groupMailServerPassword = null;
@@ -71,6 +77,8 @@ class UserVoiceMessagingUserGetAdvancedVoiceManagementResponse extends \CWM\Broa
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:7827
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $personalMailServerNetAddress = null;
@@ -96,6 +104,8 @@ class UserVoiceMessagingUserGetAdvancedVoiceManagementResponse extends \CWM\Broa
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:7827
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $personalMailServerEmailAddress = null;
@@ -105,6 +115,8 @@ class UserVoiceMessagingUserGetAdvancedVoiceManagementResponse extends \CWM\Broa
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:7827
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $personalMailServerUserId = null;
@@ -114,6 +126,8 @@ class UserVoiceMessagingUserGetAdvancedVoiceManagementResponse extends \CWM\Broa
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:7827
+     * @MinLength 1
+     * @MaxLength 60
      * @var string|null
      */
     private $personalMailServerPassword = null;

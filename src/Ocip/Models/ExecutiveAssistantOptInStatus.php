@@ -16,6 +16,8 @@ class ExecutiveAssistantOptInStatus
      * @ElementName executiveUserId
      * @Type string
      * @Group edd49e38c60ed5c00d394f2a35697c84:104
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $executiveUserId = null;

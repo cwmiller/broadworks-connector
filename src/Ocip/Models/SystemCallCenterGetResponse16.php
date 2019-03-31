@@ -17,6 +17,8 @@ class SystemCallCenterGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName defaultFromAddress
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:14854
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $defaultFromAddress = null;
@@ -41,6 +43,8 @@ class SystemCallCenterGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName defaultGuardTimerSeconds
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:14854
+     * @MinInclusive 1
+     * @MaxInclusive 25
      * @var int|null
      */
     private $defaultGuardTimerSeconds = null;
@@ -73,6 +77,8 @@ class SystemCallCenterGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName numberConsecutiveBouncedCallsToForceAgentUnavailable
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:14854
+     * @MinInclusive 1
+     * @MaxInclusive 5
      * @var int|null
      */
     private $numberConsecutiveBouncedCallsToForceAgentUnavailable = null;

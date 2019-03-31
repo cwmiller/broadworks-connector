@@ -19,6 +19,8 @@ class SystemCommunicationBarringCallTypeAddRequest extends \CWM\BroadWorksConnec
      * @ElementName callType
      * @Type string
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:5277
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $callType = null;
@@ -27,6 +29,8 @@ class SystemCommunicationBarringCallTypeAddRequest extends \CWM\BroadWorksConnec
      * @ElementName networkServerCallType
      * @Type string
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:5277
+     * @MinLength 1
+     * @MaxLength 4
      * @var string|null
      */
     private $networkServerCallType = null;

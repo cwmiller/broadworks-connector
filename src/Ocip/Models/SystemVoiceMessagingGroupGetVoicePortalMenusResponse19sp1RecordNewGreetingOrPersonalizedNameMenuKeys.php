@@ -14,6 +14,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1RecordNewGreeting
      * @ElementName endRecording
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:32144
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $endRecording = null;

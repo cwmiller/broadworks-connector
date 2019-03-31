@@ -19,6 +19,8 @@ class UserVoicePortalCallingModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName userId
      * @Type string
      * @Group 23caf3c7f8f181bcb5b4719a3564ba94:73
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;

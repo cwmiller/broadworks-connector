@@ -21,6 +21,8 @@ class ServiceProviderServicePackMigrationTaskGetResponse14sp4 extends \CWM\Broad
      * @ElementName taskName
      * @Type string
      * @Group de4d76f01f337fe4694212ec9f771753:2893
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $taskName = null;
@@ -38,6 +40,8 @@ class ServiceProviderServicePackMigrationTaskGetResponse14sp4 extends \CWM\Broad
      * @ElementName maxDurationHours
      * @Type int
      * @Group de4d76f01f337fe4694212ec9f771753:2893
+     * @MinInclusive 1
+     * @MaxInclusive 9
      * @var int|null
      */
     private $maxDurationHours = null;
@@ -55,6 +59,8 @@ class ServiceProviderServicePackMigrationTaskGetResponse14sp4 extends \CWM\Broad
      * @Type string
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:2893
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $reportDeliveryEmailAddress = null;
@@ -72,6 +78,7 @@ class ServiceProviderServicePackMigrationTaskGetResponse14sp4 extends \CWM\Broad
      * @Type int
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:2893
+     * @MinInclusive 1
      * @var int|null
      */
     private $abortErrorThreshold = null;
@@ -152,6 +159,7 @@ class ServiceProviderServicePackMigrationTaskGetResponse14sp4 extends \CWM\Broad
      * @ElementName reportFilePathName
      * @Type string
      * @Group de4d76f01f337fe4694212ec9f771753:2893
+     * @MinLength 1
      * @var string|null
      */
     private $reportFilePathName = null;
@@ -178,6 +186,8 @@ class ServiceProviderServicePackMigrationTaskGetResponse14sp4 extends \CWM\Broad
      * @Array
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:2893
+     * @MinLength 1
+     * @MaxLength 80
      * @var string[]
      */
     private $userSelectionServicePackName = array(
@@ -202,6 +212,8 @@ class ServiceProviderServicePackMigrationTaskGetResponse14sp4 extends \CWM\Broad
      * @Array
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:2893
+     * @MinLength 1
+     * @MaxLength 80
      * @var string[]
      */
     private $removeServicePackName = array(
@@ -226,6 +238,8 @@ class ServiceProviderServicePackMigrationTaskGetResponse14sp4 extends \CWM\Broad
      * @Array
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:2893
+     * @MinLength 1
+     * @MaxLength 80
      * @var string[]
      */
     private $assignServicePackName = array(

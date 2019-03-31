@@ -20,6 +20,8 @@ class GroupFlexibleSeatingHostGetInstanceListRequest extends \CWM\BroadWorksConn
      * @ElementName serviceProviderId
      * @Type string
      * @Group 43afb2158d313a1d1a148124d7caba1e:162
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -28,6 +30,8 @@ class GroupFlexibleSeatingHostGetInstanceListRequest extends \CWM\BroadWorksConn
      * @ElementName groupId
      * @Type string
      * @Group 43afb2158d313a1d1a148124d7caba1e:162
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;
@@ -37,6 +41,8 @@ class GroupFlexibleSeatingHostGetInstanceListRequest extends \CWM\BroadWorksConn
      * @Type string
      * @Optional
      * @Group 43afb2158d313a1d1a148124d7caba1e:162
+     * @MinLength 1
+     * @MaxLength 50
      * @var string|null
      */
     private $groupDepartmentName = null;
@@ -46,6 +52,7 @@ class GroupFlexibleSeatingHostGetInstanceListRequest extends \CWM\BroadWorksConn
      * @Type int
      * @Optional
      * @Group 43afb2158d313a1d1a148124d7caba1e:162
+     * @MinInclusive 1
      * @var int|null
      */
     private $responseSizeLimit = null;

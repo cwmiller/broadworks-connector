@@ -19,6 +19,8 @@ class SystemCallProcessingPolicyProfileCollaborateProfileModifyRequest extends \
      * @ElementName callProcessingPolicyProfileName
      * @Type string
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:3221
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $callProcessingPolicyProfileName = null;
@@ -145,6 +147,8 @@ class SystemCallProcessingPolicyProfileCollaborateProfileModifyRequest extends \
      * @Type int
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:3221
+     * @MinInclusive 1
+     * @MaxInclusive 999999
      * @var int|null
      */
     private $maxSimultaneousCalls = null;
@@ -163,6 +167,8 @@ class SystemCallProcessingPolicyProfileCollaborateProfileModifyRequest extends \
      * @Type int
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:3221
+     * @MinInclusive 1
+     * @MaxInclusive 999999
      * @var int|null
      */
     private $maxSimultaneousVideoCalls = null;
@@ -181,6 +187,8 @@ class SystemCallProcessingPolicyProfileCollaborateProfileModifyRequest extends \
      * @Type int
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:3221
+     * @MinInclusive 3
+     * @MaxInclusive 2880
      * @var int|null
      */
     private $maxCallTimeForAnsweredCallsMinutes = null;
@@ -199,6 +207,8 @@ class SystemCallProcessingPolicyProfileCollaborateProfileModifyRequest extends \
      * @Type int
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:3221
+     * @MinInclusive 1
+     * @MaxInclusive 2880
      * @var int|null
      */
     private $maxCallTimeForUnansweredCallsMinutes = null;
@@ -217,6 +227,8 @@ class SystemCallProcessingPolicyProfileCollaborateProfileModifyRequest extends \
      * @Type int
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:3221
+     * @MinInclusive 1
+     * @MaxInclusive 999999
      * @var int|null
      */
     private $maxConcurrentRedirectedCalls = null;
@@ -226,6 +238,8 @@ class SystemCallProcessingPolicyProfileCollaborateProfileModifyRequest extends \
      * @Type int
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:3221
+     * @MinInclusive 1
+     * @MaxInclusive 100
      * @var int|null
      */
     private $maxRedirectionDepth = null;

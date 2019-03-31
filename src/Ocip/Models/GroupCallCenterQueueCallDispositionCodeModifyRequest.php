@@ -19,6 +19,8 @@ class GroupCallCenterQueueCallDispositionCodeModifyRequest extends \CWM\BroadWor
      * @ElementName serviceUserId
      * @Type string
      * @Group e2c537e3e39483b96620673a7012ffdd:5632
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $serviceUserId = null;
@@ -27,6 +29,8 @@ class GroupCallCenterQueueCallDispositionCodeModifyRequest extends \CWM\BroadWor
      * @ElementName code
      * @Type string
      * @Group e2c537e3e39483b96620673a7012ffdd:5632
+     * @MinLength 1
+     * @MaxLength 10
      * @var string|null
      */
     private $code = null;
@@ -46,6 +50,8 @@ class GroupCallCenterQueueCallDispositionCodeModifyRequest extends \CWM\BroadWor
      * @Nillable
      * @Optional
      * @Group e2c537e3e39483b96620673a7012ffdd:5632
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $description = null;

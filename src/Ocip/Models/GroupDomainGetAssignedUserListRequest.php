@@ -19,6 +19,8 @@ class GroupDomainGetAssignedUserListRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName serviceProviderId
      * @Type string
      * @Group f3a93cf15de4abd7903673e44ee3e07b:4579
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,6 +29,8 @@ class GroupDomainGetAssignedUserListRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName groupId
      * @Type string
      * @Group f3a93cf15de4abd7903673e44ee3e07b:4579
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;
@@ -35,6 +39,8 @@ class GroupDomainGetAssignedUserListRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName domain
      * @Type string
      * @Group f3a93cf15de4abd7903673e44ee3e07b:4579
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $domain = null;
@@ -44,6 +50,7 @@ class GroupDomainGetAssignedUserListRequest extends \CWM\BroadWorksConnector\Oci
      * @Type int
      * @Optional
      * @Group f3a93cf15de4abd7903673e44ee3e07b:4579
+     * @MinInclusive 1
      * @var int|null
      */
     private $responseSizeLimit = null;

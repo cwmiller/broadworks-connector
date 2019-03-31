@@ -20,6 +20,8 @@ class UserMeetMeConferencingGetAvailableDelegateListRequest extends \CWM\BroadWo
      * @ElementName userId
      * @Type string
      * @Group 0fd24121d16995c994d40bc408dbcfa5:644
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;
@@ -37,6 +39,7 @@ class UserMeetMeConferencingGetAvailableDelegateListRequest extends \CWM\BroadWo
      * @Type int
      * @Optional
      * @Group 0fd24121d16995c994d40bc408dbcfa5:644
+     * @MinInclusive 1
      * @var int|null
      */
     private $responseSizeLimit = null;

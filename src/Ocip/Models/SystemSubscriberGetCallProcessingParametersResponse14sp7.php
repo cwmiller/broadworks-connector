@@ -33,6 +33,8 @@ class SystemSubscriberGetCallProcessingParametersResponse14sp7 extends \CWM\Broa
      * @ElementName ringTimeoutSeconds
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:10680
+     * @MinInclusive 1
+     * @MaxInclusive 180
      * @var int|null
      */
     private $ringTimeoutSeconds = null;

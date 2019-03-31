@@ -20,6 +20,8 @@ class SystemPersonalAssistantModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @Type string
      * @Optional
      * @Group f53ece1c00394ef2d3d76f532f9a9663:81
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $transferToAttendantKey = null;
@@ -29,6 +31,8 @@ class SystemPersonalAssistantModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @Type string
      * @Optional
      * @Group f53ece1c00394ef2d3d76f532f9a9663:81
+     * @Length 1
+     * @Pattern [0-9]|\*|#
      * @var string|null
      */
     private $transferToVoiceMessagingKey = null;

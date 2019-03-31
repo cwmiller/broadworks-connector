@@ -26,6 +26,8 @@ class EnterpriseCallCenterCallDispositionCodeGetResponse extends \CWM\BroadWorks
      * @Type string
      * @Optional
      * @Group e2c537e3e39483b96620673a7012ffdd:1004
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $description = null;

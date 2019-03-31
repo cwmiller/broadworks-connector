@@ -29,6 +29,8 @@ class GroupCallCenterAgentUnavailableCodeSettingsGetResponse extends \CWM\BroadW
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:24513
+     * @MinLength 1
+     * @MaxLength 10
      * @var string|null
      */
     private $defaultAgentUnavailableCodeOnDND = null;
@@ -38,6 +40,8 @@ class GroupCallCenterAgentUnavailableCodeSettingsGetResponse extends \CWM\BroadW
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:24513
+     * @MinLength 1
+     * @MaxLength 10
      * @var string|null
      */
     private $defaultAgentUnavailableCodeOnPersonalCalls = null;
@@ -47,6 +51,8 @@ class GroupCallCenterAgentUnavailableCodeSettingsGetResponse extends \CWM\BroadW
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:24513
+     * @MinLength 1
+     * @MaxLength 10
      * @var string|null
      */
     private $defaultAgentUnavailableCodeOnConsecutiveBounces = null;
@@ -64,6 +70,8 @@ class GroupCallCenterAgentUnavailableCodeSettingsGetResponse extends \CWM\BroadW
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:24513
+     * @MinLength 1
+     * @MaxLength 10
      * @var string|null
      */
     private $defaultAgentUnavailableCode = null;

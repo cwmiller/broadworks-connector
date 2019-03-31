@@ -19,6 +19,8 @@ class SystemCommunicationBarringCriteriaGetResponse17 extends \CWM\BroadWorksCon
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:15187
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $description = null;
@@ -29,6 +31,8 @@ class SystemCommunicationBarringCriteriaGetResponse17 extends \CWM\BroadWorksCon
      * @Array
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:15187
+     * @MinLength 1
+     * @MaxLength 40
      * @var string[]
      */
     private $matchCallType = array(
@@ -41,6 +45,8 @@ class SystemCommunicationBarringCriteriaGetResponse17 extends \CWM\BroadWorksCon
      * @Array
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:15187
+     * @MinLength 1
+     * @MaxLength 40
      * @var string[]
      */
     private $matchAlternateCallIndicator = array(
@@ -53,6 +59,8 @@ class SystemCommunicationBarringCriteriaGetResponse17 extends \CWM\BroadWorksCon
      * @Array
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:15187
+     * @MinLength 1
+     * @MaxLength 40
      * @var string[]
      */
     private $matchVirtualOnNetCallType = array(
@@ -264,6 +272,8 @@ class SystemCommunicationBarringCriteriaGetResponse17 extends \CWM\BroadWorksCon
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:15187
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $timeSchedule = null;
@@ -273,6 +283,8 @@ class SystemCommunicationBarringCriteriaGetResponse17 extends \CWM\BroadWorksCon
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:15187
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $holidaySchedule = null;

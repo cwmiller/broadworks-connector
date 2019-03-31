@@ -18,6 +18,8 @@ class ResellerCollaborateGetResponse extends \CWM\BroadWorksConnector\Ocip\Model
      * @Type string
      * @Optional
      * @Group 939fd5846dfae8bdf58308d6cb9ebb12:478
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $collaborateFromAddress = null;

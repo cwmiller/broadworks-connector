@@ -20,6 +20,8 @@ class UserCallProcessingGetPolicyRequest22V2 extends \CWM\BroadWorksConnector\Oc
      * @ElementName userId
      * @Type string
      * @Group 53d18cc797d03d802cbc411ad821f1d4:883
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;

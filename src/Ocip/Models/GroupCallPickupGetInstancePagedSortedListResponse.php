@@ -19,6 +19,8 @@ class GroupCallPickupGetInstancePagedSortedListResponse extends \CWM\BroadWorksC
      * @Array
      * @Optional
      * @Group 045ce951b3e25dec090606af4ad50c63:249
+     * @MinLength 1
+     * @MaxLength 80
      * @var string[]
      */
     private $name = array(

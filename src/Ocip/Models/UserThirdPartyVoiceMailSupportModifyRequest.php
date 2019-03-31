@@ -19,6 +19,8 @@ class UserThirdPartyVoiceMailSupportModifyRequest extends \CWM\BroadWorksConnect
      * @ElementName userId
      * @Type string
      * @Group 3c311aa5c89c0cf5b46e1cdefd5bc387:282
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;
@@ -65,6 +67,8 @@ class UserThirdPartyVoiceMailSupportModifyRequest extends \CWM\BroadWorksConnect
      * @Nillable
      * @Optional
      * @Group 3c311aa5c89c0cf5b46e1cdefd5bc387:282
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $userServer = null;
@@ -84,6 +88,8 @@ class UserThirdPartyVoiceMailSupportModifyRequest extends \CWM\BroadWorksConnect
      * @Nillable
      * @Optional
      * @Group 3c311aa5c89c0cf5b46e1cdefd5bc387:282
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $mailboxURL = null;

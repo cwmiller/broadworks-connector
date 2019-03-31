@@ -27,6 +27,8 @@ class GroupTrunkGroupUserCreationTaskGetRequest14sp4 extends \CWM\BroadWorksConn
      * @ElementName taskName
      * @Type string
      * @Group b9c14e2d80e4e7749688ca13ba233b44:1544
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $taskName = null;

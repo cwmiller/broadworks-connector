@@ -18,6 +18,8 @@ class ServiceInstanceReadProfile17sp4
      * @ElementName name
      * @Type string
      * @Group c0d21ef9ba207c335d8347e5172fce1d:3688
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $name = null;
@@ -26,6 +28,8 @@ class ServiceInstanceReadProfile17sp4
      * @ElementName callingLineIdLastName
      * @Type string
      * @Group c0d21ef9ba207c335d8347e5172fce1d:3688
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $callingLineIdLastName = null;
@@ -34,6 +38,8 @@ class ServiceInstanceReadProfile17sp4
      * @ElementName callingLineIdFirstName
      * @Type string
      * @Group c0d21ef9ba207c335d8347e5172fce1d:3688
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $callingLineIdFirstName = null;
@@ -43,6 +49,8 @@ class ServiceInstanceReadProfile17sp4
      * @Type string
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:3688
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $hiraganaLastName = null;
@@ -52,6 +60,8 @@ class ServiceInstanceReadProfile17sp4
      * @Type string
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:3688
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $hiraganaFirstName = null;
@@ -61,6 +71,8 @@ class ServiceInstanceReadProfile17sp4
      * @Type string
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:3688
+     * @MinLength 1
+     * @MaxLength 23
      * @var string|null
      */
     private $phoneNumber = null;
@@ -70,6 +82,8 @@ class ServiceInstanceReadProfile17sp4
      * @Type string
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:3688
+     * @MinLength 2
+     * @MaxLength 20
      * @var string|null
      */
     private $extension = null;
@@ -79,6 +93,8 @@ class ServiceInstanceReadProfile17sp4
      * @Type string
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:3688
+     * @MaxLength 3
+     * @Pattern [0-9]|[1-9][0-9]{1,2}
      * @var string|null
      */
     private $countryCode = null;
@@ -88,6 +104,8 @@ class ServiceInstanceReadProfile17sp4
      * @Type string
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:3688
+     * @MinLength 1
+     * @MaxLength 2
      * @var string|null
      */
     private $nationalPrefix = null;
@@ -106,6 +124,8 @@ class ServiceInstanceReadProfile17sp4
      * @Type string
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:3688
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $language = null;
@@ -115,6 +135,8 @@ class ServiceInstanceReadProfile17sp4
      * @Type string
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:3688
+     * @MinLength 1
+     * @MaxLength 127
      * @var string|null
      */
     private $timeZone = null;
@@ -124,6 +146,8 @@ class ServiceInstanceReadProfile17sp4
      * @Type string
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:3688
+     * @MinLength 1
+     * @MaxLength 127
      * @var string|null
      */
     private $timeZoneDisplayName = null;
@@ -134,6 +158,8 @@ class ServiceInstanceReadProfile17sp4
      * @Array
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:3688
+     * @MinLength 1
+     * @MaxLength 161
      * @var string[]
      */
     private $alias = array(
@@ -145,6 +171,8 @@ class ServiceInstanceReadProfile17sp4
      * @Type string
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:3688
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $publicUserIdentity = null;

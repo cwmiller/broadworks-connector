@@ -26,6 +26,8 @@ class SystemShInterfaceParametersModifyRequest extends \CWM\BroadWorksConnector\
      * @Nillable
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:15976
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $hssRealm = null;
@@ -35,6 +37,8 @@ class SystemShInterfaceParametersModifyRequest extends \CWM\BroadWorksConnector\
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:15976
+     * @MinInclusive 1
+     * @MaxInclusive 30
      * @var int|null
      */
     private $requestTimeoutSeconds = null;
@@ -44,6 +48,8 @@ class SystemShInterfaceParametersModifyRequest extends \CWM\BroadWorksConnector\
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:15976
+     * @MinInclusive
+     * @MaxInclusive 30
      * @var int|null
      */
     private $publicIdentityRefreshDelaySeconds = null;

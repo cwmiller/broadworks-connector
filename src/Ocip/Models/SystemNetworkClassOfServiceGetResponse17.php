@@ -22,6 +22,8 @@ class SystemNetworkClassOfServiceGetResponse17 extends \CWM\BroadWorksConnector\
      * @Type string
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:1607
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $description = null;
@@ -121,6 +123,8 @@ class SystemNetworkClassOfServiceGetResponse17 extends \CWM\BroadWorksConnector\
      * @Type string
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:1607
+     * @MinLength 1
+     * @MaxLength 128
      * @var string|null
      */
     private $networkTranslationIndex = null;

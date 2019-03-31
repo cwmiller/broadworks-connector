@@ -21,6 +21,8 @@ class SystemNetworkClassOfServiceGetResponse extends \CWM\BroadWorksConnector\Oc
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:15651
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $description = null;

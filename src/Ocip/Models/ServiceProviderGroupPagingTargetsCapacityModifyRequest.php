@@ -19,6 +19,8 @@ class ServiceProviderGroupPagingTargetsCapacityModifyRequest extends \CWM\BroadW
      * @ElementName serviceProviderId
      * @Type string
      * @Group 0d36df8c109e3ea7324f79031368c661:550
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -28,6 +30,8 @@ class ServiceProviderGroupPagingTargetsCapacityModifyRequest extends \CWM\BroadW
      * @Type int
      * @Optional
      * @Group 0d36df8c109e3ea7324f79031368c661:550
+     * @MinInclusive 1
+     * @MaxInclusive 294
      * @var int|null
      */
     private $maximumTargetUsers = null;

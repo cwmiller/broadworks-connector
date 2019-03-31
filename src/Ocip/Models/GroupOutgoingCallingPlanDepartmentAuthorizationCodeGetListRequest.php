@@ -20,6 +20,8 @@ class GroupOutgoingCallingPlanDepartmentAuthorizationCodeGetListRequest extends 
      * @ElementName serviceProviderId
      * @Type string
      * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:233
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -28,6 +30,8 @@ class GroupOutgoingCallingPlanDepartmentAuthorizationCodeGetListRequest extends 
      * @ElementName groupId
      * @Type string
      * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:233
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;

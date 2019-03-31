@@ -20,6 +20,8 @@ class GroupGroupPagingTargetsCapacityGetRequest extends \CWM\BroadWorksConnector
      * @ElementName serviceProviderId
      * @Type string
      * @Group 0d36df8c109e3ea7324f79031368c661:467
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -28,6 +30,8 @@ class GroupGroupPagingTargetsCapacityGetRequest extends \CWM\BroadWorksConnector
      * @ElementName groupId
      * @Type string
      * @Group 0d36df8c109e3ea7324f79031368c661:467
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;

@@ -32,6 +32,8 @@ class SystemRuntimeDataPublicationModifyRequest extends \CWM\BroadWorksConnector
      * @Type int
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14468
+     * @MinInclusive 500
+     * @MaxInclusive 360000
      * @var int|null
      */
     private $runtimeDataSyncIntervalInMilliSeconds = null;

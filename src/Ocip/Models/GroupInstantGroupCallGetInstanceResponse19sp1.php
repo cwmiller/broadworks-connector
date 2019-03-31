@@ -28,6 +28,8 @@ class GroupInstantGroupCallGetInstanceResponse19sp1 extends \CWM\BroadWorksConne
      * @Array
      * @Optional
      * @Group f41dea4708922d4a3f0e26f198cc953f:138
+     * @MinLength 1
+     * @MaxLength 161
      * @var string[]
      */
     private $destinationPhoneNumber = array(
@@ -47,6 +49,8 @@ class GroupInstantGroupCallGetInstanceResponse19sp1 extends \CWM\BroadWorksConne
      * @Type int
      * @Optional
      * @Group f41dea4708922d4a3f0e26f198cc953f:138
+     * @MinInclusive 1
+     * @MaxInclusive 60
      * @var int|null
      */
     private $answerTimeoutMinutes = null;
@@ -56,6 +60,8 @@ class GroupInstantGroupCallGetInstanceResponse19sp1 extends \CWM\BroadWorksConne
      * @Type string
      * @Optional
      * @Group f41dea4708922d4a3f0e26f198cc953f:138
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $networkClassOfService = null;

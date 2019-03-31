@@ -19,6 +19,8 @@ class GroupSpeedDial100GetRequest17sp1 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName serviceProviderId
      * @Type string
      * @Group 066a3d16bce438447d23cbe6ff0885a6:48
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,6 +29,8 @@ class GroupSpeedDial100GetRequest17sp1 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName groupId
      * @Type string
      * @Group 066a3d16bce438447d23cbe6ff0885a6:48
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $groupId = null;

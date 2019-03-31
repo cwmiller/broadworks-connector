@@ -20,6 +20,8 @@ class SystemCollaborateGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\
      * @ElementName collaborateRoomIdLength
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:4714
+     * @MinInclusive 4
+     * @MaxInclusive 15
      * @var int|null
      */
     private $collaborateRoomIdLength = null;
@@ -28,6 +30,8 @@ class SystemCollaborateGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\
      * @ElementName instantRoomIdleTimeoutSeconds
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:4714
+     * @MinInclusive 1
+     * @MaxInclusive 3600
      * @var int|null
      */
     private $instantRoomIdleTimeoutSeconds = null;
@@ -36,6 +40,8 @@ class SystemCollaborateGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\
      * @ElementName collaborateRoomMaximumDurationMinutes
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:4714
+     * @MinInclusive 1
+     * @MaxInclusive 7200
      * @var int|null
      */
     private $collaborateRoomMaximumDurationMinutes = null;
@@ -52,6 +58,8 @@ class SystemCollaborateGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\
      * @ElementName maxCollaborateRoomParticipants
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:4714
+     * @MinInclusive 3
+     * @MaxInclusive 30
      * @var int|null
      */
     private $maxCollaborateRoomParticipants = null;
@@ -60,6 +68,8 @@ class SystemCollaborateGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\
      * @ElementName collaborateActiveTalkerRefreshIntervalSeconds
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:4714
+     * @MinInclusive 1
+     * @MaxInclusive 5
      * @var int|null
      */
     private $collaborateActiveTalkerRefreshIntervalSeconds = null;
@@ -93,6 +103,8 @@ class SystemCollaborateGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Type string
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:4714
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $collaborateFromAddress = null;

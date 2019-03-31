@@ -15,6 +15,8 @@ class GroupEnterpriseTrunkModifyRequestPriorityWeightedRouting
      * @Type int
      * @Optional
      * @Group b9c14e2d80e4e7749688ca13ba233b44:827
+     * @MinInclusive 1
+     * @MaxInclusive 10
      * @var int|null
      */
     private $maximumRerouteAttemptsWithinPriority = null;

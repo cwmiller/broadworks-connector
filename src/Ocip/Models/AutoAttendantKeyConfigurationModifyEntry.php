@@ -28,6 +28,8 @@ class AutoAttendantKeyConfigurationModifyEntry
      * @Nillable
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:646
+     * @MinLength 1
+     * @MaxLength 20
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $description = null;
@@ -46,6 +48,8 @@ class AutoAttendantKeyConfigurationModifyEntry
      * @Nillable
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:646
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $phoneNumber = null;
@@ -76,6 +80,8 @@ class AutoAttendantKeyConfigurationModifyEntry
      * @Nillable
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:646
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $submenuId = null;

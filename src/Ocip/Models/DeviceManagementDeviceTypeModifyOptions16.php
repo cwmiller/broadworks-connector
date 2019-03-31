@@ -36,6 +36,8 @@ class DeviceManagementDeviceTypeModifyOptions16
      * @Nillable
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:1842
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $tagSet = null;
@@ -82,6 +84,8 @@ class DeviceManagementDeviceTypeModifyOptions16
      * @Nillable
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:1842
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $deviceAccessNetAddress = null;
@@ -92,6 +96,8 @@ class DeviceManagementDeviceTypeModifyOptions16
      * @Nillable
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:1842
+     * @MinInclusive 1
+     * @MaxInclusive 65535
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $deviceAccessPort = null;
@@ -102,6 +108,8 @@ class DeviceManagementDeviceTypeModifyOptions16
      * @Nillable
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:1842
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $deviceAccessContext = null;
@@ -112,6 +120,8 @@ class DeviceManagementDeviceTypeModifyOptions16
      * @Nillable
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:1842
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $defaultDeviceLanguage = null;
@@ -122,6 +132,8 @@ class DeviceManagementDeviceTypeModifyOptions16
      * @Nillable
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:1842
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $defaultDeviceEncoding = null;
@@ -187,6 +199,8 @@ class DeviceManagementDeviceTypeModifyOptions16
      * @Nillable
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:1842
+     * @MinLength 1
+     * @MaxLength 256
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $macFormatInNonRequestURI = null;

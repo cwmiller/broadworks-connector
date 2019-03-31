@@ -20,6 +20,8 @@ class ServiceProviderExternalCustomRingbackGetRequest extends \CWM\BroadWorksCon
      * @ElementName serviceProviderId
      * @Type string
      * @Group a8df43dca23d99d8ab44c0082aadfbe0:46
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $serviceProviderId = null;

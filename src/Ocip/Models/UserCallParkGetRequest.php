@@ -19,6 +19,8 @@ class UserCallParkGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIR
      * @ElementName userId
      * @Type string
      * @Group 7a925e891158dfa3cb1319e045608894:543
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;

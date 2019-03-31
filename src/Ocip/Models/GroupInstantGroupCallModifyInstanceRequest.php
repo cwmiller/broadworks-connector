@@ -19,6 +19,8 @@ class GroupInstantGroupCallModifyInstanceRequest extends \CWM\BroadWorksConnecto
      * @ElementName serviceUserId
      * @Type string
      * @Group f41dea4708922d4a3f0e26f198cc953f:174
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $serviceUserId = null;
@@ -57,6 +59,8 @@ class GroupInstantGroupCallModifyInstanceRequest extends \CWM\BroadWorksConnecto
      * @Nillable
      * @Optional
      * @Group f41dea4708922d4a3f0e26f198cc953f:174
+     * @MinInclusive 1
+     * @MaxInclusive 60
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $answerTimeoutMinutes = null;
@@ -66,6 +70,8 @@ class GroupInstantGroupCallModifyInstanceRequest extends \CWM\BroadWorksConnecto
      * @Type string
      * @Optional
      * @Group f41dea4708922d4a3f0e26f198cc953f:174
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $networkClassOfService = null;

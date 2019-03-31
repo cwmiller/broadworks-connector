@@ -18,6 +18,8 @@ class SystemBroadWorksMobilityMobileNetworkGetResponse extends \CWM\BroadWorksCo
      * @Type string
      * @Optional
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:910
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $scfSignalingNetAddress = null;
@@ -27,6 +29,8 @@ class SystemBroadWorksMobilityMobileNetworkGetResponse extends \CWM\BroadWorksCo
      * @Type int
      * @Optional
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:910
+     * @MinInclusive 1
+     * @MaxInclusive 65535
      * @var int|null
      */
     private $scfSignalingPort = null;
@@ -35,6 +39,8 @@ class SystemBroadWorksMobilityMobileNetworkGetResponse extends \CWM\BroadWorksCo
      * @ElementName refreshPeriodSeconds
      * @Type int
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:910
+     * @MinInclusive 10
+     * @MaxInclusive 1800
      * @var int|null
      */
     private $refreshPeriodSeconds = null;
@@ -43,6 +49,8 @@ class SystemBroadWorksMobilityMobileNetworkGetResponse extends \CWM\BroadWorksCo
      * @ElementName maxConsecutiveFailures
      * @Type int
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:910
+     * @MinInclusive 1
+     * @MaxInclusive 10
      * @var int|null
      */
     private $maxConsecutiveFailures = null;
@@ -51,6 +59,8 @@ class SystemBroadWorksMobilityMobileNetworkGetResponse extends \CWM\BroadWorksCo
      * @ElementName maxResponseWaitTimeMilliseconds
      * @Type int
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:910
+     * @MinInclusive 100
+     * @MaxInclusive 10000
      * @var int|null
      */
     private $maxResponseWaitTimeMilliseconds = null;
@@ -68,6 +78,8 @@ class SystemBroadWorksMobilityMobileNetworkGetResponse extends \CWM\BroadWorksCo
      * @Type string
      * @Optional
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:910
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $serviceAccessCodeListName = null;

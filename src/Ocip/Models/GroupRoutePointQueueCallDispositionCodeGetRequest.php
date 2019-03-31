@@ -19,6 +19,8 @@ class GroupRoutePointQueueCallDispositionCodeGetRequest extends \CWM\BroadWorksC
      * @ElementName serviceUserId
      * @Type string
      * @Group a27224a048c30ff69eab9209dec841cc:1153
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $serviceUserId = null;
@@ -27,6 +29,8 @@ class GroupRoutePointQueueCallDispositionCodeGetRequest extends \CWM\BroadWorksC
      * @ElementName code
      * @Type string
      * @Group a27224a048c30ff69eab9209dec841cc:1153
+     * @MinLength 1
+     * @MaxLength 10
      * @var string|null
      */
     private $code = null;

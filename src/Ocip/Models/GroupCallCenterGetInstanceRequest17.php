@@ -19,6 +19,8 @@ class GroupCallCenterGetInstanceRequest17 extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName serviceUserId
      * @Type string
      * @Group ab0042aa512abc10edb3c55e4b416b0b:18686
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $serviceUserId = null;

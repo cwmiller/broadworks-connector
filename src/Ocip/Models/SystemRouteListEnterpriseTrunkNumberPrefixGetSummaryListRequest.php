@@ -24,6 +24,8 @@ class SystemRouteListEnterpriseTrunkNumberPrefixGetSummaryListRequest extends \C
      * @Type string
      * @Optional
      * @Group 3f28429898a57a7f7846d3877b22df9f:707
+     * @MinLength 1
+     * @MaxLength 30
      * @var string|null
      */
     private $resellerId = null;

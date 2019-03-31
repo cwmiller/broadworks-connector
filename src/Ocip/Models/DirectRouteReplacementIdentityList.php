@@ -16,6 +16,8 @@ class DirectRouteReplacementIdentityList
      * @ElementName dtgIdentity
      * @Type string
      * @Group 4e1b40cd187e65e0dc647394b1e74e3c:114
+     * @MinLength 1
+     * @MaxLength 80
      * @var string|null
      */
     private $dtgIdentity = null;
@@ -24,6 +26,8 @@ class DirectRouteReplacementIdentityList
      * @ElementName trunkIdentity
      * @Type string
      * @Group 4e1b40cd187e65e0dc647394b1e74e3c:114
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $trunkIdentity = null;

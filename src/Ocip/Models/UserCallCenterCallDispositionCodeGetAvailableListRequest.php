@@ -19,6 +19,8 @@ class UserCallCenterCallDispositionCodeGetAvailableListRequest extends \CWM\Broa
      * @ElementName serviceUserId
      * @Type string
      * @Group e2c537e3e39483b96620673a7012ffdd:6688
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $serviceUserId = null;

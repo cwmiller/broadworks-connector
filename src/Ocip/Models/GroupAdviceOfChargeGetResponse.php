@@ -26,6 +26,8 @@ class GroupAdviceOfChargeGetResponse extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName delayBetweenNotificationSeconds
      * @Type int
      * @Group a69fde15f3aa7494d83b57461a7a70bb:68
+     * @MinInclusive 5
+     * @MaxInclusive 1800
      * @var int|null
      */
     private $delayBetweenNotificationSeconds = null;

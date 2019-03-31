@@ -19,6 +19,8 @@ class UserSelectiveCallRejectionGetCriteriaListRequest extends \CWM\BroadWorksCo
      * @ElementName userId
      * @Type string
      * @Group 41cdd93743bd17548f1ded5691680d5a:90
+     * @MinLength 1
+     * @MaxLength 161
      * @var string|null
      */
     private $userId = null;

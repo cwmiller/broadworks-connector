@@ -24,6 +24,8 @@ class SystemAccessDeviceGetUserListRequest extends \CWM\BroadWorksConnector\Ocip
      * @ElementName deviceName
      * @Type string
      * @Group de4d76f01f337fe4694212ec9f771753:6052
+     * @MinLength 1
+     * @MaxLength 40
      * @var string|null
      */
     private $deviceName = null;
@@ -33,6 +35,7 @@ class SystemAccessDeviceGetUserListRequest extends \CWM\BroadWorksConnector\Ocip
      * @Type int
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:6052
+     * @MinInclusive 1
      * @var int|null
      */
     private $responseSizeLimit = null;

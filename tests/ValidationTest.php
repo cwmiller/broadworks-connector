@@ -3,6 +3,7 @@
 namespace CWM\BroadWorksConnector\Tests;
 
 use CWM\BroadWorksConnector\Ocip\Models\CallCenterSkillAgentList;
+use CWM\BroadWorksConnector\Ocip\Models\FaxMessagingMenuKeysModifyEntry;
 use CWM\BroadWorksConnector\Ocip\Models\GroupAccessDeviceGetListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterAddAgentListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupCommunicationBarringAuthorizationCodeAddListRequest;
@@ -10,6 +11,7 @@ use CWM\BroadWorksConnector\Ocip\Models\LoginRequest14sp4;
 use CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceMACAddress;
 use CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceName;
 use CWM\BroadWorksConnector\Ocip\Models\SearchMode;
+use CWM\BroadWorksConnector\Ocip\Models\SystemExtensionLengthModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemGetRegistrationContactListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserAddRequest21;
 use CWM\BroadWorksConnector\Ocip\Models\UserModifyRequest16Endpoint;
@@ -179,6 +181,111 @@ class ValidationTest extends \PHPUnit\Framework\TestCase
                         ->setMode(SearchMode::EQUAL_TO())
                         ->setValue('test')
                 ]);
+
+        $this->assertEquals(true, Validator::validate($request));
+    }
+
+    public function testLengthFailure()
+    {
+        $this->expect('CWM\BroadWorksConnector\Ocip\Validation\LengthException');
+
+        $entry = (new FaxMessagingMenuKeysModifyEntry())
+            ->setSaveFaxMessageAndSkipToNext('11');
+
+        Validator::validate($entry);
+    }
+
+
+    public function testMinLengthFailure()
+    {
+        $this->expect('CWM\BroadWorksConnector\Ocip\Validation\MinLengthException');
+
+        $request = (new LoginRequest14sp4())
+            ->setUserId('');
+
+        Validator::validate($request);
+    }
+
+    public function testMinLengthSuccess()
+    {
+        $request = (new LoginRequest14sp4())
+            ->setUserId('a');
+
+        $this->assertEquals(true, Validator::validate($request));
+    }
+
+    public function testMaxLengthFailure()
+    {
+        $this->expect('CWM\BroadWorksConnector\Ocip\Validation\MaxLengthException');
+
+        $request = (new LoginRequest14sp4())
+            ->setUserId(str_repeat('a', 162));
+
+        Validator::validate($request);
+    }
+
+    public function testMaxLengthSuccess()
+    {
+        $request = (new LoginRequest14sp4())
+            ->setUserId(str_repeat('a', 161));
+
+        $this->assertEquals(true, Validator::validate($request));
+    }
+
+    public function testPatternFailure()
+    {
+        $this->expect('CWM\BroadWorksConnector\Ocip\Validation\PatternException');
+
+        $entry = (new FaxMessagingMenuKeysModifyEntry())
+            ->setSaveFaxMessageAndSkipToNext('A');
+
+        Validator::validate($entry);
+    }
+
+    public function testPatternSuccess()
+    {
+        $entry = (new FaxMessagingMenuKeysModifyEntry())
+            ->setSaveFaxMessageAndSkipToNext('#');
+
+        $this->assertEquals(true, Validator::validate($entry));
+    }
+
+    public function testMinInclusiveFailure()
+    {
+        $this->expect('CWM\BroadWorksConnector\Ocip\Validation\MinInclusiveException');
+
+        $request = (new SystemExtensionLengthModifyRequest())
+            ->setMinExtensionLength(1)
+            ->setMaxExtensionLength(1);
+
+        Validator::validate($request);
+    }
+
+    public function testMinInclusiveSuccess()
+    {
+        $request = (new SystemExtensionLengthModifyRequest())
+            ->setMinExtensionLength(3)
+            ->setMaxExtensionLength(3);
+
+        $this->assertEquals(true, Validator::validate($request));
+    }
+
+    public function testMaxInclusiveFailure()
+    {
+        $this->expect('CWM\BroadWorksConnector\Ocip\Validation\MaxInclusiveException');
+
+        $request = (new SystemExtensionLengthModifyRequest())
+            ->setMinExtensionLength(21)
+            ->setMaxExtensionLength(21);
+
+        Validator::validate($request);
+    }
+
+    public function testMaxInclusiveSuccess()
+    {
+        $request = (new SystemExtensionLengthModifyRequest())
+            ->setMinExtensionLength(20)
+            ->setMaxExtensionLength(20);
 
         $this->assertEquals(true, Validator::validate($request));
     }

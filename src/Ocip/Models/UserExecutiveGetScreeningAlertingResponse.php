@@ -144,7 +144,7 @@ class UserExecutiveGetScreeningAlertingResponse extends \CWM\BroadWorksConnector
      * @Type int
      * @Optional
      * @Group 9a6dbade05624033cf7fe782b7c9a9a7:321
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 7200
      * @var int|null
      */

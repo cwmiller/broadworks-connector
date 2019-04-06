@@ -44,7 +44,7 @@ class GroupCallCenterOverflowGetResponse20 extends \CWM\BroadWorksConnector\Ocip
      * @ElementName timeoutSeconds
      * @Type int
      * @Group e2c537e3e39483b96620673a7012ffdd:5477
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 7200
      * @var int|null
      */

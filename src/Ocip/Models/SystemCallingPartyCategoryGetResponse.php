@@ -30,7 +30,7 @@ class SystemCallingPartyCategoryGetResponse extends \CWM\BroadWorksConnector\Oci
      * @Type int
      * @Optional
      * @Group 89aa8c9a341a3cccb2453b1ee467bf94:136
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 255
      * @var int|null
      */

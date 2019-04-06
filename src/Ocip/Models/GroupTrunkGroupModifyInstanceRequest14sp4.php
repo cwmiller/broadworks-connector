@@ -116,7 +116,7 @@ class GroupTrunkGroupModifyInstanceRequest14sp4 extends \CWM\BroadWorksConnector
      * @Nillable
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:2898
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 999999
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -128,7 +128,7 @@ class GroupTrunkGroupModifyInstanceRequest14sp4 extends \CWM\BroadWorksConnector
      * @Nillable
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:2898
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 999999
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -140,7 +140,7 @@ class GroupTrunkGroupModifyInstanceRequest14sp4 extends \CWM\BroadWorksConnector
      * @Nillable
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:2898
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 999999
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -183,7 +183,7 @@ class GroupTrunkGroupModifyInstanceRequest14sp4 extends \CWM\BroadWorksConnector
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:2898
-     * @MinInclusive
+     * @MinInclusive 0
      * @var int|null
      */
     private $capacityExceededTrapInitialCalls = null;
@@ -193,7 +193,7 @@ class GroupTrunkGroupModifyInstanceRequest14sp4 extends \CWM\BroadWorksConnector
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:2898
-     * @MinInclusive
+     * @MinInclusive 0
      * @var int|null
      */
     private $capacityExceededTrapOffsetCalls = null;
@@ -235,7 +235,7 @@ class GroupTrunkGroupModifyInstanceRequest14sp4 extends \CWM\BroadWorksConnector
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:2898
-     * @MinInclusive
+     * @MinInclusive 0
      * @var int|null
      */
     private $unreachableDestinationTrapInitialCalls = null;
@@ -245,7 +245,7 @@ class GroupTrunkGroupModifyInstanceRequest14sp4 extends \CWM\BroadWorksConnector
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:2898
-     * @MinInclusive
+     * @MinInclusive 0
      * @var int|null
      */
     private $unreachableDestinationTrapOffsetCalls = null;

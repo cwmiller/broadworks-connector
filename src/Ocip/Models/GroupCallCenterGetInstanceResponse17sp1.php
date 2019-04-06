@@ -49,7 +49,7 @@ class GroupCallCenterGetInstanceResponse17sp1 extends \CWM\BroadWorksConnector\O
      * @ElementName queueLength
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:18756
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 525
      * @var int|null
      */

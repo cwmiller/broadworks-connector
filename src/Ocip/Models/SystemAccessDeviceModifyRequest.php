@@ -180,7 +180,7 @@ class SystemAccessDeviceModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Nillable
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1081
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 999
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -192,7 +192,7 @@ class SystemAccessDeviceModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Nillable
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1081
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 999
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */

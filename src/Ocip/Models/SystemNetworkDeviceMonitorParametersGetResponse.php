@@ -18,7 +18,7 @@ class SystemNetworkDeviceMonitorParametersGetResponse extends \CWM\BroadWorksCon
      * @ElementName pollingIntervalMinutes
      * @Type int
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11539
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 1440
      * @var int|null
      */

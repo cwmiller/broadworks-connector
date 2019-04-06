@@ -143,7 +143,7 @@ class SystemPasswordRulesGetResponse13mp2 extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName maxFailedLoginAttempts
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:10468
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 10
      * @var int|null
      */
@@ -153,7 +153,7 @@ class SystemPasswordRulesGetResponse13mp2 extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName passwordExpiresDays
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:10468
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 199
      * @var int|null
      */

@@ -110,7 +110,7 @@ class SystemCallingNameRetrievalGetResponse20 extends \CWM\BroadWorksConnector\O
      * @ElementName retryFailedCNAMServerInterval
      * @Type int
      * @Group 7abfb1e02a3465af832e0a8a8adfc741:58
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 604800
      * @var int|null
      */

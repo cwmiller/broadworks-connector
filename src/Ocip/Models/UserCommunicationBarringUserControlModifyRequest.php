@@ -34,7 +34,7 @@ class UserCommunicationBarringUserControlModifyRequest extends \CWM\BroadWorksCo
      * @Nillable
      * @Optional
      * @Group 4277c572e54919d6e29f4c0fa69aaad1:134
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 9
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */

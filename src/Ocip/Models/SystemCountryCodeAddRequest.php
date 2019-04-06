@@ -100,7 +100,7 @@ class SystemCountryCodeAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @Type int
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6518
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 120000
      * @var int|null
      */

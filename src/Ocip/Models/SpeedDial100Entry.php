@@ -19,7 +19,7 @@ class SpeedDial100Entry
      * @ElementName speedCode
      * @Type int
      * @Group c0d21ef9ba207c335d8347e5172fce1d:3976
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 99
      * @var int|null
      */

@@ -208,7 +208,7 @@ class GroupCallCenterEnhancedReportingScheduledReportAddRequest extends \CWM\Bro
      * @Type int
      * @Optional
      * @Group e2c537e3e39483b96620673a7012ffdd:3578
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 100
      * @var int|null
      */

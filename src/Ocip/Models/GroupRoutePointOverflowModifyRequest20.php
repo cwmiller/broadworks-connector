@@ -60,7 +60,7 @@ class GroupRoutePointOverflowModifyRequest20 extends \CWM\BroadWorksConnector\Oc
      * @Type int
      * @Optional
      * @Group a27224a048c30ff69eab9209dec841cc:1057
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 7200
      * @var int|null
      */

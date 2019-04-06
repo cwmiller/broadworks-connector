@@ -26,7 +26,7 @@ class AdviceOfChargeCostInformationSourceEntry
      * @ElementName priority
      * @Type int
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18460
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 9
      * @var int|null
      */

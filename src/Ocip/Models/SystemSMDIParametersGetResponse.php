@@ -36,7 +36,7 @@ class SystemSMDIParametersGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName maxConnections
      * @Type int
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16825
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 64
      * @var int|null
      */

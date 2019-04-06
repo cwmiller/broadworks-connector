@@ -106,7 +106,7 @@ class SystemMeetMeConferencingGetResponse18 extends \CWM\BroadWorksConnector\Oci
      * @ElementName conferenceParticipantEarlyEntryMinutes
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:26251
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 15
      * @var int|null
      */

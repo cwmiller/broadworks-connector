@@ -44,7 +44,7 @@ class GroupRoutePointOverflowGetResponse20 extends \CWM\BroadWorksConnector\Ocip
      * @ElementName timeoutSeconds
      * @Type int
      * @Group a27224a048c30ff69eab9209dec841cc:1031
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 7200
      * @var int|null
      */

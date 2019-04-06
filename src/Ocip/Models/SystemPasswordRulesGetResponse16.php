@@ -144,7 +144,7 @@ class SystemPasswordRulesGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName maxFailedLoginAttempts
      * @Type int
      * @Group de4d76f01f337fe4694212ec9f771753:6580
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 10
      * @var int|null
      */
@@ -154,7 +154,7 @@ class SystemPasswordRulesGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName passwordExpiresDays
      * @Type int
      * @Group de4d76f01f337fe4694212ec9f771753:6580
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 199
      * @var int|null
      */

@@ -183,7 +183,7 @@ class SystemAccessDeviceGetResponse14sp3 extends \CWM\BroadWorksConnector\Ocip\M
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:4143
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 999
      * @var int|null
      */
@@ -194,7 +194,7 @@ class SystemAccessDeviceGetResponse14sp3 extends \CWM\BroadWorksConnector\Ocip\M
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:4143
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 999
      * @var int|null
      */

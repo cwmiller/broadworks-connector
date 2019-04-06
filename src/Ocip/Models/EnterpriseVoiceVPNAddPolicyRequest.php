@@ -39,7 +39,7 @@ class EnterpriseVoiceVPNAddPolicyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName minExtensionLength
      * @Type int
      * @Group 5395c7df0157d44aa22f3351d1a5f3da:1345
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 100
      * @var int|null
      */
@@ -49,7 +49,7 @@ class EnterpriseVoiceVPNAddPolicyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName maxExtensionLength
      * @Type int
      * @Group 5395c7df0157d44aa22f3351d1a5f3da:1345
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 100
      * @var int|null
      */

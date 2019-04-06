@@ -60,7 +60,7 @@ class GroupCallCenterOverflowModifyRequest17 extends \CWM\BroadWorksConnector\Oc
      * @Type int
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:4433
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 7200
      * @var int|null
      */

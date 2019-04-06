@@ -53,7 +53,7 @@ class SystemLegacyAutomaticCallbackModifyRequest extends \CWM\BroadWorksConnecto
      * @Type int
      * @Optional
      * @Group 6bf3c0ead6c4d948122ea83af7fc6e34:136
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 15
      * @var int|null
      */
@@ -97,7 +97,7 @@ class SystemLegacyAutomaticCallbackModifyRequest extends \CWM\BroadWorksConnecto
      * @Type int
      * @Optional
      * @Group 6bf3c0ead6c4d948122ea83af7fc6e34:136
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 120
      * @var int|null
      */

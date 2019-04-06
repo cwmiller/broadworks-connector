@@ -65,7 +65,7 @@ class GroupHuntGroupGetInstanceResponse17sp1V1 extends \CWM\BroadWorksConnector\
      * @ElementName forwardTimeoutSeconds
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:25181
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 7200
      * @var int|null
      */

@@ -42,7 +42,7 @@ class UserEnhancedCallLogsGetListRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName startingOffset
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:7163
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 9999
      * @var int|null
      */

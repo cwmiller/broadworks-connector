@@ -49,7 +49,7 @@ class SystemCPEConfigParametersGetResponse21 extends \CWM\BroadWorksConnector\Oc
      * @ElementName pauseBetweenFileRebuildMilliseconds
      * @Type int
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6733
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 10000
      * @var int|null
      */
@@ -70,7 +70,7 @@ class SystemCPEConfigParametersGetResponse21 extends \CWM\BroadWorksConnector\Oc
      * @ElementName minTimeBetweenResetMilliseconds
      * @Type int
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6733
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 86400000
      * @var int|null
      */
@@ -88,7 +88,7 @@ class SystemCPEConfigParametersGetResponse21 extends \CWM\BroadWorksConnector\Oc
      * @ElementName maxFileOperationRetryAttempts
      * @Type int
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6733
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 20
      * @var int|null
      */
@@ -106,7 +106,7 @@ class SystemCPEConfigParametersGetResponse21 extends \CWM\BroadWorksConnector\Oc
      * @ElementName eventQueueSize
      * @Type int
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6733
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 100000000
      * @var int|null
      */

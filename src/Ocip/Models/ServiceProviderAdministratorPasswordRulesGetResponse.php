@@ -139,7 +139,7 @@ class ServiceProviderAdministratorPasswordRulesGetResponse extends \CWM\BroadWor
      * @ElementName maxFailedLoginAttempts
      * @Type int
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:1104
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 10
      * @var int|null
      */
@@ -149,7 +149,7 @@ class ServiceProviderAdministratorPasswordRulesGetResponse extends \CWM\BroadWor
      * @ElementName passwordExpiresDays
      * @Type int
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:1104
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 199
      * @var int|null
      */

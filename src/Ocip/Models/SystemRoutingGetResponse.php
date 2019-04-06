@@ -43,7 +43,7 @@ class SystemRoutingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @ElementName statefulExpirationMinutes
      * @Type int
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14225
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 1440
      * @var int|null
      */

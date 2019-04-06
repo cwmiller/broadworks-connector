@@ -24,7 +24,7 @@ class MeetMeConferencingConferencePorts
      * @ElementName quantity
      * @Type int
      * @Group 0fd24121d16995c994d40bc408dbcfa5:1042
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 999999
      * @var int|null
      */

@@ -47,7 +47,7 @@ class SystemLegacyAutomaticCallbackGetResponse extends \CWM\BroadWorksConnector\
      * @ElementName t4Seconds
      * @Type int
      * @Group 6bf3c0ead6c4d948122ea83af7fc6e34:92
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 15
      * @var int|null
      */
@@ -87,7 +87,7 @@ class SystemLegacyAutomaticCallbackGetResponse extends \CWM\BroadWorksConnector\
      * @ElementName t8Seconds
      * @Type int
      * @Group 6bf3c0ead6c4d948122ea83af7fc6e34:92
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 120
      * @var int|null
      */

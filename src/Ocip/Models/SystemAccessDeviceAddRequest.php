@@ -181,7 +181,7 @@ class SystemAccessDeviceAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Type int
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:641
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 999
      * @var int|null
      */
@@ -192,7 +192,7 @@ class SystemAccessDeviceAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Type int
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:641
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 999
      * @var int|null
      */

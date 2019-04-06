@@ -85,7 +85,7 @@ class SystemAutomaticCallbackGetResponse17 extends \CWM\BroadWorksConnector\Ocip
      * @ElementName activationDigit
      * @Type int
      * @Group e8188f390ad4fcfad616cb409dd0e896:120
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 9
      * @var int|null
      */

@@ -204,7 +204,7 @@ class GroupAccessDeviceGetResponse14sp6 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:8104
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 999
      * @var int|null
      */
@@ -215,7 +215,7 @@ class GroupAccessDeviceGetResponse14sp6 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:8104
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 999
      * @var int|null
      */

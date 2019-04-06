@@ -14,7 +14,7 @@ class SystemCPEConfigParametersGetResponse14sp6FileRebuildHourly
      * @ElementName startMinute
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:34543
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 59
      * @var int|null
      */

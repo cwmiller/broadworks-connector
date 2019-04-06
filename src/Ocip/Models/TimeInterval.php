@@ -24,7 +24,7 @@ class TimeInterval
      * @ElementName startHour
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:43910
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 23
      * @var int|null
      */
@@ -34,7 +34,7 @@ class TimeInterval
      * @ElementName startMinute
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:43910
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 59
      * @var int|null
      */
@@ -52,7 +52,7 @@ class TimeInterval
      * @ElementName endHour
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:43910
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 23
      * @var int|null
      */
@@ -62,7 +62,7 @@ class TimeInterval
      * @ElementName endMinute
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:43910
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 59
      * @var int|null
      */

@@ -171,7 +171,7 @@ class UserExecutiveModifyScreeningAlertingRequest extends \CWM\BroadWorksConnect
      * @Nillable
      * @Optional
      * @Group 9a6dbade05624033cf7fe782b7c9a9a7:418
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 7200
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */

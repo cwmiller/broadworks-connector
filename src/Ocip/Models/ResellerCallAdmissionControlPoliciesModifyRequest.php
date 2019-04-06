@@ -39,7 +39,7 @@ class ResellerCallAdmissionControlPoliciesModifyRequest extends \CWM\BroadWorksC
      * @Type int
      * @Optional
      * @Group b009175f2a2a9d38115e319a6ad64d7f:243
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 2147483647
      * @var int|null
      */
@@ -62,7 +62,7 @@ class ResellerCallAdmissionControlPoliciesModifyRequest extends \CWM\BroadWorksC
      * @Type int
      * @Optional
      * @Group b009175f2a2a9d38115e319a6ad64d7f:243
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 2147483647
      * @var int|null
      */
@@ -85,7 +85,7 @@ class ResellerCallAdmissionControlPoliciesModifyRequest extends \CWM\BroadWorksC
      * @Type int
      * @Optional
      * @Group b009175f2a2a9d38115e319a6ad64d7f:243
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 2147483647
      * @var int|null
      */

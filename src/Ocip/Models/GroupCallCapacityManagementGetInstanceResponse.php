@@ -29,7 +29,7 @@ class GroupCallCapacityManagementGetInstanceResponse extends \CWM\BroadWorksConn
      * @ElementName maxActiveCallsAllowed
      * @Type int
      * @Group dfcd2b22f2e2b3540d286342087ce042:225
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 99999
      * @var int|null
      */
@@ -40,7 +40,7 @@ class GroupCallCapacityManagementGetInstanceResponse extends \CWM\BroadWorksConn
      * @Type int
      * @Optional
      * @Group dfcd2b22f2e2b3540d286342087ce042:225
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 99999
      * @var int|null
      */
@@ -51,7 +51,7 @@ class GroupCallCapacityManagementGetInstanceResponse extends \CWM\BroadWorksConn
      * @Type int
      * @Optional
      * @Group dfcd2b22f2e2b3540d286342087ce042:225
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 99999
      * @var int|null
      */

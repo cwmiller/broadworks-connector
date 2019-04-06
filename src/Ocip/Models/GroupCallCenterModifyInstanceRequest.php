@@ -80,7 +80,7 @@ class GroupCallCenterModifyInstanceRequest extends \CWM\BroadWorksConnector\Ocip
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:8553
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 7200
      * @var int|null
      */
@@ -112,7 +112,7 @@ class GroupCallCenterModifyInstanceRequest extends \CWM\BroadWorksConnector\Ocip
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:8553
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 50
      * @var int|null
      */

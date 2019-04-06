@@ -67,7 +67,7 @@ class GroupTrunkGroupGetInstanceResponse21 extends \CWM\BroadWorksConnector\Ocip
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:33806
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 999999
      * @var int|null
      */
@@ -78,7 +78,7 @@ class GroupTrunkGroupGetInstanceResponse21 extends \CWM\BroadWorksConnector\Ocip
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:33806
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 999999
      * @var int|null
      */
@@ -97,7 +97,7 @@ class GroupTrunkGroupGetInstanceResponse21 extends \CWM\BroadWorksConnector\Ocip
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:33806
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 999999
      * @var int|null
      */
@@ -108,7 +108,7 @@ class GroupTrunkGroupGetInstanceResponse21 extends \CWM\BroadWorksConnector\Ocip
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:33806
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 999999
      * @var int|null
      */
@@ -119,7 +119,7 @@ class GroupTrunkGroupGetInstanceResponse21 extends \CWM\BroadWorksConnector\Ocip
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:33806
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 999999
      * @var int|null
      */
@@ -158,7 +158,7 @@ class GroupTrunkGroupGetInstanceResponse21 extends \CWM\BroadWorksConnector\Ocip
      * @ElementName capacityExceededTrapInitialCalls
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:33806
-     * @MinInclusive
+     * @MinInclusive 0
      * @var int|null
      */
     private $capacityExceededTrapInitialCalls = null;
@@ -167,7 +167,7 @@ class GroupTrunkGroupGetInstanceResponse21 extends \CWM\BroadWorksConnector\Ocip
      * @ElementName capacityExceededTrapOffsetCalls
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:33806
-     * @MinInclusive
+     * @MinInclusive 0
      * @var int|null
      */
     private $capacityExceededTrapOffsetCalls = null;

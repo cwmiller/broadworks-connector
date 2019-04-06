@@ -59,7 +59,7 @@ class GroupCallCenterComfortMessageBypassModifyRequest extends \CWM\BroadWorksCo
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:12714
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 120
      * @var int|null
      */

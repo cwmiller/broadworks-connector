@@ -162,7 +162,7 @@ class SystemVoiceMessagingGroupGetResponse22V2 extends \CWM\BroadWorksConnector\
      * @ElementName mwiDelayInSeconds
      * @Type int
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:629
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 300
      * @var int|null
      */

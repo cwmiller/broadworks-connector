@@ -29,7 +29,7 @@ class UserSpeedDial100GetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @ElementName speedCode
      * @Type int
      * @Group 066a3d16bce438447d23cbe6ff0885a6:209
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 99
      * @var int|null
      */

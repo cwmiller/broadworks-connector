@@ -73,7 +73,7 @@ class SystemOCICallControlApplicationModifyRequest extends \CWM\BroadWorksConnec
      * @Type int
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12378
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 30
      * @var int|null
      */

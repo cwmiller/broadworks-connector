@@ -41,7 +41,7 @@ class EnterpriseSessionAdmissionControlGroupAddRequest19sp1 extends \CWM\BroadWo
      * @ElementName maxSession
      * @Type int
      * @Group 5395c7df0157d44aa22f3351d1a5f3da:936
-     * @MinInclusive
+     * @MinInclusive 0
      * @var int|null
      */
     private $maxSession = null;
@@ -51,7 +51,7 @@ class EnterpriseSessionAdmissionControlGroupAddRequest19sp1 extends \CWM\BroadWo
      * @Type int
      * @Optional
      * @Group 5395c7df0157d44aa22f3351d1a5f3da:936
-     * @MinInclusive
+     * @MinInclusive 0
      * @var int|null
      */
     private $maxUserOriginatingSessions = null;
@@ -61,7 +61,7 @@ class EnterpriseSessionAdmissionControlGroupAddRequest19sp1 extends \CWM\BroadWo
      * @Type int
      * @Optional
      * @Group 5395c7df0157d44aa22f3351d1a5f3da:936
-     * @MinInclusive
+     * @MinInclusive 0
      * @var int|null
      */
     private $maxUserTerminatingSessions = null;
@@ -70,7 +70,7 @@ class EnterpriseSessionAdmissionControlGroupAddRequest19sp1 extends \CWM\BroadWo
      * @ElementName reservedSession
      * @Type int
      * @Group 5395c7df0157d44aa22f3351d1a5f3da:936
-     * @MinInclusive
+     * @MinInclusive 0
      * @var int|null
      */
     private $reservedSession = null;
@@ -80,7 +80,7 @@ class EnterpriseSessionAdmissionControlGroupAddRequest19sp1 extends \CWM\BroadWo
      * @Type int
      * @Optional
      * @Group 5395c7df0157d44aa22f3351d1a5f3da:936
-     * @MinInclusive
+     * @MinInclusive 0
      * @var int|null
      */
     private $reservedUserOriginatingSessions = null;
@@ -90,7 +90,7 @@ class EnterpriseSessionAdmissionControlGroupAddRequest19sp1 extends \CWM\BroadWo
      * @Type int
      * @Optional
      * @Group 5395c7df0157d44aa22f3351d1a5f3da:936
-     * @MinInclusive
+     * @MinInclusive 0
      * @var int|null
      */
     private $reservedUserTerminatingSessions = null;

@@ -181,7 +181,7 @@ class ServiceProviderAccessDeviceGetResponse18sp1 extends \CWM\BroadWorksConnect
      * @Type int
      * @Optional
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:604
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 999
      * @var int|null
      */
@@ -192,7 +192,7 @@ class ServiceProviderAccessDeviceGetResponse18sp1 extends \CWM\BroadWorksConnect
      * @Type int
      * @Optional
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:604
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 999
      * @var int|null
      */

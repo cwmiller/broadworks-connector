@@ -94,7 +94,7 @@ class GroupCallCenterAddInstanceRequest14sp3 extends \CWM\BroadWorksConnector\Oc
      * @ElementName forwardTimeoutSeconds
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:811
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 7200
      * @var int|null
      */
@@ -123,7 +123,7 @@ class GroupCallCenterAddInstanceRequest14sp3 extends \CWM\BroadWorksConnector\Oc
      * @ElementName queueLength
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:811
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 50
      * @var int|null
      */

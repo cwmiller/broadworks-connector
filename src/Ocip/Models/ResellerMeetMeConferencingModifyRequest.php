@@ -42,7 +42,7 @@ class ResellerMeetMeConferencingModifyRequest extends \CWM\BroadWorksConnector\O
      * @Type int
      * @Optional
      * @Group 0fd24121d16995c994d40bc408dbcfa5:367
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 999999
      * @var int|null
      */

@@ -52,7 +52,7 @@ class GroupRoutePointGetInstanceResponse22 extends \CWM\BroadWorksConnector\Ocip
      * @ElementName queueLength
      * @Type int
      * @Group a27224a048c30ff69eab9209dec841cc:673
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 525
      * @var int|null
      */

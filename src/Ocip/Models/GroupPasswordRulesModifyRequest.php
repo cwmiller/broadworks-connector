@@ -163,7 +163,7 @@ class GroupPasswordRulesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Type int
      * @Optional
      * @Group f3a93cf15de4abd7903673e44ee3e07b:5832
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 10
      * @var int|null
      */
@@ -174,7 +174,7 @@ class GroupPasswordRulesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Type int
      * @Optional
      * @Group f3a93cf15de4abd7903673e44ee3e07b:5832
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 199
      * @var int|null
      */

@@ -95,7 +95,7 @@ class SystemAutomaticCallbackModifyRequest15 extends \CWM\BroadWorksConnector\Oc
      * @Type int
      * @Optional
      * @Group e8188f390ad4fcfad616cb409dd0e896:143
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 9
      * @var int|null
      */

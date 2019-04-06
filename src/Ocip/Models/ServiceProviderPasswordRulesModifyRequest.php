@@ -169,7 +169,7 @@ class ServiceProviderPasswordRulesModifyRequest extends \CWM\BroadWorksConnector
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:3777
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 10
      * @var int|null
      */
@@ -180,7 +180,7 @@ class ServiceProviderPasswordRulesModifyRequest extends \CWM\BroadWorksConnector
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:3777
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 199
      * @var int|null
      */

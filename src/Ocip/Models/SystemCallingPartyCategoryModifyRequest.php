@@ -43,7 +43,7 @@ class SystemCallingPartyCategoryModifyRequest extends \CWM\BroadWorksConnector\O
      * @Nillable
      * @Optional
      * @Group 89aa8c9a341a3cccb2453b1ee467bf94:160
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 255
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */

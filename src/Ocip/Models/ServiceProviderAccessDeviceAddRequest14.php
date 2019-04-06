@@ -191,7 +191,7 @@ class ServiceProviderAccessDeviceAddRequest14 extends \CWM\BroadWorksConnector\O
      * @Type int
      * @Optional
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:229
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 999
      * @var int|null
      */
@@ -202,7 +202,7 @@ class ServiceProviderAccessDeviceAddRequest14 extends \CWM\BroadWorksConnector\O
      * @Type int
      * @Optional
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:229
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 999
      * @var int|null
      */

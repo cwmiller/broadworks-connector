@@ -20,7 +20,7 @@ class SystemRedundancyParametersModifyRequest extends \CWM\BroadWorksConnector\O
      * @Type int
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:13828
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 3600
      * @var int|null
      */

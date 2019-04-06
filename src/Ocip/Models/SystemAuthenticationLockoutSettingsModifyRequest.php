@@ -31,7 +31,7 @@ class SystemAuthenticationLockoutSettingsModifyRequest extends \CWM\BroadWorksCo
      * @Type int
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2077
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 23
      * @var int|null
      */
@@ -42,7 +42,7 @@ class SystemAuthenticationLockoutSettingsModifyRequest extends \CWM\BroadWorksCo
      * @Type int
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2077
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 59
      * @var int|null
      */

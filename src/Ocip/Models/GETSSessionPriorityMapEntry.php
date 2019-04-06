@@ -26,7 +26,7 @@ class GETSSessionPriorityMapEntry
      * @ElementName sessionPriority
      * @Type int
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18546
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 4
      * @var int|null
      */

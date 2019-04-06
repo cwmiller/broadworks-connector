@@ -73,7 +73,7 @@ class SystemCrInterfaceGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName crNumberOfReconnectionAttempts
      * @Type int
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6909
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 100
      * @var int|null
      */

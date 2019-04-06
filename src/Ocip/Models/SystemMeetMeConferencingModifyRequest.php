@@ -119,7 +119,7 @@ class SystemMeetMeConferencingModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @Type int
      * @Optional
      * @Group 0fd24121d16995c994d40bc408dbcfa5:476
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 15
      * @var int|null
      */

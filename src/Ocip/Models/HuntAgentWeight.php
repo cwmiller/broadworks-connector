@@ -26,7 +26,7 @@ class HuntAgentWeight
      * @ElementName weight
      * @Type int
      * @Group c0d21ef9ba207c335d8347e5172fce1d:2471
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 100
      * @var int|null
      */

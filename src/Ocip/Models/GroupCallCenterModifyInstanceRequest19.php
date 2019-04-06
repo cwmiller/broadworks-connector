@@ -75,7 +75,7 @@ class GroupCallCenterModifyInstanceRequest19 extends \CWM\BroadWorksConnector\Oc
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:29831
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 525
      * @var int|null
      */

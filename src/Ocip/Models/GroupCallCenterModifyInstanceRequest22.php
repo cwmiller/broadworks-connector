@@ -89,7 +89,7 @@ class GroupCallCenterModifyInstanceRequest22 extends \CWM\BroadWorksConnector\Oc
      * @Type int
      * @Optional
      * @Group e2c537e3e39483b96620673a7012ffdd:5228
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 525
      * @var int|null
      */

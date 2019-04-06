@@ -32,7 +32,7 @@ class SystemShInterfaceParametersModifyRequest17 extends \CWM\BroadWorksConnecto
      * @Type int
      * @Optional
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:15274
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 30
      * @var int|null
      */

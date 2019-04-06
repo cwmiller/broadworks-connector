@@ -68,7 +68,7 @@ class SystemOCICallControlApplicationAddRequest22 extends \CWM\BroadWorksConnect
      * @ElementName unresponsiveChannelSetGracePeriodSeconds
      * @Type int
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12243
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 30
      * @var int|null
      */

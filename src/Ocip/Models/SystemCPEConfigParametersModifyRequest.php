@@ -54,7 +54,7 @@ class SystemCPEConfigParametersModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:34589
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 10000
      * @var int|null
      */

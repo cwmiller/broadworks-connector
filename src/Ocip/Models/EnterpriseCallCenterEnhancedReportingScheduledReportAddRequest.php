@@ -198,7 +198,7 @@ class EnterpriseCallCenterEnhancedReportingScheduledReportAddRequest extends \CW
      * @Type int
      * @Optional
      * @Group e2c537e3e39483b96620673a7012ffdd:1500
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 100
      * @var int|null
      */

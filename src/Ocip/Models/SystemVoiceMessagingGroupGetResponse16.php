@@ -135,7 +135,7 @@ class SystemVoiceMessagingGroupGetResponse16 extends \CWM\BroadWorksConnector\Oc
      * @ElementName mwiDelayInSeconds
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:22650
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 300
      * @var int|null
      */

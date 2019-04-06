@@ -70,7 +70,7 @@ class GroupRoutePointModifyInstanceRequest extends \CWM\BroadWorksConnector\Ocip
      * @Type int
      * @Optional
      * @Group de4d76f01f337fe4694212ec9f771753:5191
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 525
      * @var int|null
      */

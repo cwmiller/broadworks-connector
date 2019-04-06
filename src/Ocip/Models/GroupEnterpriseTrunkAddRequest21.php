@@ -113,7 +113,7 @@ class GroupEnterpriseTrunkAddRequest21 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Type int
      * @Optional
      * @Group b9c14e2d80e4e7749688ca13ba233b44:463
-     * @MinInclusive
+     * @MinInclusive 0
      * @var int|null
      */
     private $capacityExceededTrapInitialCalls = null;
@@ -123,7 +123,7 @@ class GroupEnterpriseTrunkAddRequest21 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Type int
      * @Optional
      * @Group b9c14e2d80e4e7749688ca13ba233b44:463
-     * @MinInclusive
+     * @MinInclusive 0
      * @var int|null
      */
     private $capacityExceededTrapOffsetCalls = null;

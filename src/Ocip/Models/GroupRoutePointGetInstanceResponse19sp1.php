@@ -54,7 +54,7 @@ class GroupRoutePointGetInstanceResponse19sp1 extends \CWM\BroadWorksConnector\O
      * @ElementName queueLength
      * @Type int
      * @Group de4d76f01f337fe4694212ec9f771753:5160
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 525
      * @var int|null
      */

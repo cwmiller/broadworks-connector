@@ -61,7 +61,7 @@ class GroupCallCapacityManagementModifyInstanceRequest extends \CWM\BroadWorksCo
      * @Type int
      * @Optional
      * @Group dfcd2b22f2e2b3540d286342087ce042:246
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 99999
      * @var int|null
      */
@@ -73,7 +73,7 @@ class GroupCallCapacityManagementModifyInstanceRequest extends \CWM\BroadWorksCo
      * @Nillable
      * @Optional
      * @Group dfcd2b22f2e2b3540d286342087ce042:246
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 99999
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -85,7 +85,7 @@ class GroupCallCapacityManagementModifyInstanceRequest extends \CWM\BroadWorksCo
      * @Nillable
      * @Optional
      * @Group dfcd2b22f2e2b3540d286342087ce042:246
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 99999
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */

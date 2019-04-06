@@ -81,7 +81,7 @@ class GroupEnterpriseTrunkGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Type int
      * @Optional
      * @Group b9c14e2d80e4e7749688ca13ba233b44:716
-     * @MinInclusive
+     * @MinInclusive 0
      * @var int|null
      */
     private $capacityExceededTrapInitialCalls = null;
@@ -91,7 +91,7 @@ class GroupEnterpriseTrunkGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Type int
      * @Optional
      * @Group b9c14e2d80e4e7749688ca13ba233b44:716
-     * @MinInclusive
+     * @MinInclusive 0
      * @var int|null
      */
     private $capacityExceededTrapOffsetCalls = null;

@@ -53,7 +53,7 @@ class EnterpriseSessionAdmissionControlGroupModifyRequest extends \CWM\BroadWork
      * @Type int
      * @Optional
      * @Group 5395c7df0157d44aa22f3351d1a5f3da:1079
-     * @MinInclusive
+     * @MinInclusive 0
      * @var int|null
      */
     private $maxSession = null;
@@ -64,7 +64,7 @@ class EnterpriseSessionAdmissionControlGroupModifyRequest extends \CWM\BroadWork
      * @Nillable
      * @Optional
      * @Group 5395c7df0157d44aa22f3351d1a5f3da:1079
-     * @MinInclusive
+     * @MinInclusive 0
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $maxUserOriginatingSessions = null;
@@ -75,7 +75,7 @@ class EnterpriseSessionAdmissionControlGroupModifyRequest extends \CWM\BroadWork
      * @Nillable
      * @Optional
      * @Group 5395c7df0157d44aa22f3351d1a5f3da:1079
-     * @MinInclusive
+     * @MinInclusive 0
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $maxUserTerminatingSessions = null;
@@ -85,7 +85,7 @@ class EnterpriseSessionAdmissionControlGroupModifyRequest extends \CWM\BroadWork
      * @Type int
      * @Optional
      * @Group 5395c7df0157d44aa22f3351d1a5f3da:1079
-     * @MinInclusive
+     * @MinInclusive 0
      * @var int|null
      */
     private $reservedSession = null;
@@ -96,7 +96,7 @@ class EnterpriseSessionAdmissionControlGroupModifyRequest extends \CWM\BroadWork
      * @Nillable
      * @Optional
      * @Group 5395c7df0157d44aa22f3351d1a5f3da:1079
-     * @MinInclusive
+     * @MinInclusive 0
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $reservedUserOriginatingSessions = null;
@@ -107,7 +107,7 @@ class EnterpriseSessionAdmissionControlGroupModifyRequest extends \CWM\BroadWork
      * @Nillable
      * @Optional
      * @Group 5395c7df0157d44aa22f3351d1a5f3da:1079
-     * @MinInclusive
+     * @MinInclusive 0
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $reservedUserTerminatingSessions = null;

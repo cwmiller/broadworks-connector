@@ -175,7 +175,7 @@ class EnterpriseCallCenterEnhancedReportingScheduledReportGetResponse extends \C
      * @Type int
      * @Optional
      * @Group e2c537e3e39483b96620673a7012ffdd:1728
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 100
      * @var int|null
      */

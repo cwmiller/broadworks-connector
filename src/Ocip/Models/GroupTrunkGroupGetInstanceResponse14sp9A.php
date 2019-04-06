@@ -89,7 +89,7 @@ class GroupTrunkGroupGetInstanceResponse14sp9A extends \CWM\BroadWorksConnector\
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:2678
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 999999
      * @var int|null
      */
@@ -100,7 +100,7 @@ class GroupTrunkGroupGetInstanceResponse14sp9A extends \CWM\BroadWorksConnector\
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:2678
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 999999
      * @var int|null
      */
@@ -111,7 +111,7 @@ class GroupTrunkGroupGetInstanceResponse14sp9A extends \CWM\BroadWorksConnector\
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:2678
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 999999
      * @var int|null
      */
@@ -150,7 +150,7 @@ class GroupTrunkGroupGetInstanceResponse14sp9A extends \CWM\BroadWorksConnector\
      * @ElementName capacityExceededTrapInitialCalls
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:2678
-     * @MinInclusive
+     * @MinInclusive 0
      * @var int|null
      */
     private $capacityExceededTrapInitialCalls = null;
@@ -159,7 +159,7 @@ class GroupTrunkGroupGetInstanceResponse14sp9A extends \CWM\BroadWorksConnector\
      * @ElementName capacityExceededTrapOffsetCalls
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:2678
-     * @MinInclusive
+     * @MinInclusive 0
      * @var int|null
      */
     private $capacityExceededTrapOffsetCalls = null;
@@ -197,7 +197,7 @@ class GroupTrunkGroupGetInstanceResponse14sp9A extends \CWM\BroadWorksConnector\
      * @ElementName unreachableDestinationTrapInitialCalls
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:2678
-     * @MinInclusive
+     * @MinInclusive 0
      * @var int|null
      */
     private $unreachableDestinationTrapInitialCalls = null;
@@ -206,7 +206,7 @@ class GroupTrunkGroupGetInstanceResponse14sp9A extends \CWM\BroadWorksConnector\
      * @ElementName unreachableDestinationTrapOffsetCalls
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:2678
-     * @MinInclusive
+     * @MinInclusive 0
      * @var int|null
      */
     private $unreachableDestinationTrapOffsetCalls = null;

@@ -20,7 +20,7 @@ class SystemMusicOnHoldModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @Type int
      * @Optional
      * @Group 66fe518a637c74cc4b2c97aa7f68fc49:222
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 5000
      * @var int|null
      */

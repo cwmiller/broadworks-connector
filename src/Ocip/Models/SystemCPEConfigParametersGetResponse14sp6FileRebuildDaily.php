@@ -14,7 +14,7 @@ class SystemCPEConfigParametersGetResponse14sp6FileRebuildDaily
      * @ElementName startHour
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:34534
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 23
      * @var int|null
      */
@@ -24,7 +24,7 @@ class SystemCPEConfigParametersGetResponse14sp6FileRebuildDaily
      * @ElementName startMinute
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:34534
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 59
      * @var int|null
      */

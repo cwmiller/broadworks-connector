@@ -159,7 +159,7 @@ class SystemVoiceMessagingGroupModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:10772
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 300
      * @var int|null
      */

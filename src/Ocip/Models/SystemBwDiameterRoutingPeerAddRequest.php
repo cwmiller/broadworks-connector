@@ -55,7 +55,7 @@ class SystemBwDiameterRoutingPeerAddRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName priority
      * @Type int
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2444
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 65535
      * @var int|null
      */
@@ -65,7 +65,7 @@ class SystemBwDiameterRoutingPeerAddRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName weight
      * @Type int
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2444
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 65535
      * @var int|null
      */

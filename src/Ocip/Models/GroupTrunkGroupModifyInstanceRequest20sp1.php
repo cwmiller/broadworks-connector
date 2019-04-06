@@ -90,7 +90,7 @@ class GroupTrunkGroupModifyInstanceRequest20sp1 extends \CWM\BroadWorksConnector
      * @Nillable
      * @Optional
      * @Group b9c14e2d80e4e7749688ca13ba233b44:1327
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 999999
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -102,7 +102,7 @@ class GroupTrunkGroupModifyInstanceRequest20sp1 extends \CWM\BroadWorksConnector
      * @Nillable
      * @Optional
      * @Group b9c14e2d80e4e7749688ca13ba233b44:1327
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 999999
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -123,7 +123,7 @@ class GroupTrunkGroupModifyInstanceRequest20sp1 extends \CWM\BroadWorksConnector
      * @Nillable
      * @Optional
      * @Group b9c14e2d80e4e7749688ca13ba233b44:1327
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 999999
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -135,7 +135,7 @@ class GroupTrunkGroupModifyInstanceRequest20sp1 extends \CWM\BroadWorksConnector
      * @Nillable
      * @Optional
      * @Group b9c14e2d80e4e7749688ca13ba233b44:1327
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 999999
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -147,7 +147,7 @@ class GroupTrunkGroupModifyInstanceRequest20sp1 extends \CWM\BroadWorksConnector
      * @Nillable
      * @Optional
      * @Group b9c14e2d80e4e7749688ca13ba233b44:1327
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 999999
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -190,7 +190,7 @@ class GroupTrunkGroupModifyInstanceRequest20sp1 extends \CWM\BroadWorksConnector
      * @Type int
      * @Optional
      * @Group b9c14e2d80e4e7749688ca13ba233b44:1327
-     * @MinInclusive
+     * @MinInclusive 0
      * @var int|null
      */
     private $capacityExceededTrapInitialCalls = null;
@@ -200,7 +200,7 @@ class GroupTrunkGroupModifyInstanceRequest20sp1 extends \CWM\BroadWorksConnector
      * @Type int
      * @Optional
      * @Group b9c14e2d80e4e7749688ca13ba233b44:1327
-     * @MinInclusive
+     * @MinInclusive 0
      * @var int|null
      */
     private $capacityExceededTrapOffsetCalls = null;

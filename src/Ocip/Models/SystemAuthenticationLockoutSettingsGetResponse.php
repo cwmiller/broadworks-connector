@@ -28,7 +28,7 @@ class SystemAuthenticationLockoutSettingsGetResponse extends \CWM\BroadWorksConn
      * @ElementName counterResetHour
      * @Type int
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2058
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 23
      * @var int|null
      */
@@ -38,7 +38,7 @@ class SystemAuthenticationLockoutSettingsGetResponse extends \CWM\BroadWorksConn
      * @ElementName counterResetMinute
      * @Type int
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2058
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 59
      * @var int|null
      */

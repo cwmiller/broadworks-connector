@@ -90,7 +90,7 @@ class GroupRoutePointAddInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName queueLength
      * @Type int
      * @Group de4d76f01f337fe4694212ec9f771753:5110
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 525
      * @var int|null
      */

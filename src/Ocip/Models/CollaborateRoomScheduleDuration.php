@@ -16,7 +16,7 @@ class CollaborateRoomScheduleDuration
      * @ElementName hours
      * @Type int
      * @Group c0d21ef9ba207c335d8347e5172fce1d:1088
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 23
      * @var int|null
      */

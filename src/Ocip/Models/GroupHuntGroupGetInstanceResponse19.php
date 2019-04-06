@@ -73,7 +73,7 @@ class GroupHuntGroupGetInstanceResponse19 extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName forwardTimeoutSeconds
      * @Type int
      * @Group de4d76f01f337fe4694212ec9f771753:686
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 7200
      * @var int|null
      */

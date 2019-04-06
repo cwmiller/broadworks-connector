@@ -153,7 +153,7 @@ class ServiceProviderPasswordRulesGetResponse13mp2 extends \CWM\BroadWorksConnec
      * @ElementName maxFailedLoginAttempts
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:9796
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 10
      * @var int|null
      */
@@ -163,7 +163,7 @@ class ServiceProviderPasswordRulesGetResponse13mp2 extends \CWM\BroadWorksConnec
      * @ElementName passwordExpiresDays
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:9796
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 199
      * @var int|null
      */

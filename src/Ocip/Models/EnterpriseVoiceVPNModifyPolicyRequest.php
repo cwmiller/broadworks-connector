@@ -40,7 +40,7 @@ class EnterpriseVoiceVPNModifyPolicyRequest extends \CWM\BroadWorksConnector\Oci
      * @Type int
      * @Optional
      * @Group 5395c7df0157d44aa22f3351d1a5f3da:1534
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 100
      * @var int|null
      */
@@ -51,7 +51,7 @@ class EnterpriseVoiceVPNModifyPolicyRequest extends \CWM\BroadWorksConnector\Oci
      * @Type int
      * @Optional
      * @Group 5395c7df0157d44aa22f3351d1a5f3da:1534
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 100
      * @var int|null
      */

@@ -121,7 +121,7 @@ class GroupTrunkGroupModifyInstanceRequest15 extends \CWM\BroadWorksConnector\Oc
      * @Nillable
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:31253
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 999999
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -133,7 +133,7 @@ class GroupTrunkGroupModifyInstanceRequest15 extends \CWM\BroadWorksConnector\Oc
      * @Nillable
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:31253
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 999999
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -145,7 +145,7 @@ class GroupTrunkGroupModifyInstanceRequest15 extends \CWM\BroadWorksConnector\Oc
      * @Nillable
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:31253
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 999999
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -188,7 +188,7 @@ class GroupTrunkGroupModifyInstanceRequest15 extends \CWM\BroadWorksConnector\Oc
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:31253
-     * @MinInclusive
+     * @MinInclusive 0
      * @var int|null
      */
     private $capacityExceededTrapInitialCalls = null;
@@ -198,7 +198,7 @@ class GroupTrunkGroupModifyInstanceRequest15 extends \CWM\BroadWorksConnector\Oc
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:31253
-     * @MinInclusive
+     * @MinInclusive 0
      * @var int|null
      */
     private $capacityExceededTrapOffsetCalls = null;

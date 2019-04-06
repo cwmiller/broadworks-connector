@@ -49,7 +49,7 @@ class SystemGETSGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDa
      * @ElementName defaultPriorityAVP
      * @Type int
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9808
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 4
      * @var int|null
      */
@@ -59,7 +59,7 @@ class SystemGETSGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDa
      * @ElementName signalingDSCP
      * @Type int
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9808
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 63
      * @var int|null
      */

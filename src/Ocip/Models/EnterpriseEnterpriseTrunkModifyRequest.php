@@ -120,7 +120,7 @@ class EnterpriseEnterpriseTrunkModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @Nillable
      * @Optional
      * @Group b9c14e2d80e4e7749688ca13ba233b44:418
-     * @MinInclusive
+     * @MinInclusive 0
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $capacityExceededTrapInitialCalls = null;
@@ -131,7 +131,7 @@ class EnterpriseEnterpriseTrunkModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @Nillable
      * @Optional
      * @Group b9c14e2d80e4e7749688ca13ba233b44:418
-     * @MinInclusive
+     * @MinInclusive 0
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $capacityExceededTrapOffsetCalls = null;

@@ -31,7 +31,7 @@ class UserINIntegrationModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @Nillable
      * @Optional
      * @Group e2b7b9ea45350592016ce6935a4d7694:73
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 999
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -43,7 +43,7 @@ class UserINIntegrationModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @Nillable
      * @Optional
      * @Group e2b7b9ea45350592016ce6935a4d7694:73
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 999
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */

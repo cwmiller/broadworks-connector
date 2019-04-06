@@ -201,7 +201,7 @@ class GroupAccessDeviceAddRequest14 extends \CWM\BroadWorksConnector\Ocip\Models
      * @Type int
      * @Optional
      * @Group f3a93cf15de4abd7903673e44ee3e07b:263
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 999
      * @var int|null
      */
@@ -212,7 +212,7 @@ class GroupAccessDeviceAddRequest14 extends \CWM\BroadWorksConnector\Ocip\Models
      * @Type int
      * @Optional
      * @Group f3a93cf15de4abd7903673e44ee3e07b:263
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 999
      * @var int|null
      */

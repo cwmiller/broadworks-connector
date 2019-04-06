@@ -33,7 +33,7 @@ class SystemVoiceMessageSummaryUpdateGetResponse extends \CWM\BroadWorksConnecto
      * @ElementName minTimeBetweenMWIOnRegister
      * @Type int
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:549
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 86400
      * @var int|null
      */

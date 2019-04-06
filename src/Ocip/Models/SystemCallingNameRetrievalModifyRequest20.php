@@ -123,7 +123,7 @@ class SystemCallingNameRetrievalModifyRequest20 extends \CWM\BroadWorksConnector
      * @Type int
      * @Optional
      * @Group 7abfb1e02a3465af832e0a8a8adfc741:86
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 604800
      * @var int|null
      */

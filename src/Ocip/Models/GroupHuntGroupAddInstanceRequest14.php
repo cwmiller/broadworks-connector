@@ -92,7 +92,7 @@ class GroupHuntGroupAddInstanceRequest14 extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName forwardTimeoutSeconds
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:19551
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 7200
      * @var int|null
      */

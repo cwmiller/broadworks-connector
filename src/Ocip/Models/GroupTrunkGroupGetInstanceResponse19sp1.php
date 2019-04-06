@@ -93,7 +93,7 @@ class GroupTrunkGroupGetInstanceResponse19sp1 extends \CWM\BroadWorksConnector\O
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:31078
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 999999
      * @var int|null
      */
@@ -104,7 +104,7 @@ class GroupTrunkGroupGetInstanceResponse19sp1 extends \CWM\BroadWorksConnector\O
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:31078
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 999999
      * @var int|null
      */
@@ -115,7 +115,7 @@ class GroupTrunkGroupGetInstanceResponse19sp1 extends \CWM\BroadWorksConnector\O
      * @Type int
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:31078
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 999999
      * @var int|null
      */
@@ -154,7 +154,7 @@ class GroupTrunkGroupGetInstanceResponse19sp1 extends \CWM\BroadWorksConnector\O
      * @ElementName capacityExceededTrapInitialCalls
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:31078
-     * @MinInclusive
+     * @MinInclusive 0
      * @var int|null
      */
     private $capacityExceededTrapInitialCalls = null;
@@ -163,7 +163,7 @@ class GroupTrunkGroupGetInstanceResponse19sp1 extends \CWM\BroadWorksConnector\O
      * @ElementName capacityExceededTrapOffsetCalls
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:31078
-     * @MinInclusive
+     * @MinInclusive 0
      * @var int|null
      */
     private $capacityExceededTrapOffsetCalls = null;

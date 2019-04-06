@@ -204,7 +204,7 @@ class EnterpriseCallCenterEnhancedReportingScheduledReportModifyRequest extends 
      * @Nillable
      * @Optional
      * @Group e2c537e3e39483b96620673a7012ffdd:1766
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 100
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */

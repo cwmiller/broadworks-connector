@@ -72,7 +72,7 @@ class GroupCallCenterGetInstanceResponse22 extends \CWM\BroadWorksConnector\Ocip
      * @ElementName queueLength
      * @Type int
      * @Group e2c537e3e39483b96620673a7012ffdd:4687
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 525
      * @var int|null
      */

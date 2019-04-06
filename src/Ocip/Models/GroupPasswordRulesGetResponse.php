@@ -146,7 +146,7 @@ class GroupPasswordRulesGetResponse extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName maxFailedLoginAttempts
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:9282
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 10
      * @var int|null
      */
@@ -156,7 +156,7 @@ class GroupPasswordRulesGetResponse extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName passwordExpiresDays
      * @Type int
      * @Group ab0042aa512abc10edb3c55e4b416b0b:9282
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 199
      * @var int|null
      */

@@ -31,7 +31,7 @@ class UserSpeedDial100DeleteListRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Array
      * @Optional
      * @Group 066a3d16bce438447d23cbe6ff0885a6:160
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 99
      * @var int[]
      */

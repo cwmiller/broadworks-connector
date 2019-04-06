@@ -29,7 +29,7 @@ class SystemAdviceOfChargeCostInformationSourceModifyRequest extends \CWM\BroadW
      * @ElementName priority
      * @Type int
      * @Group a69fde15f3aa7494d83b57461a7a70bb:217
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 9
      * @var int|null
      */

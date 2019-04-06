@@ -28,7 +28,7 @@ class ResellerMeetMeConferencingGetResponse extends \CWM\BroadWorksConnector\Oci
      * @ElementName maxAllocatedPorts
      * @Type int
      * @Group 0fd24121d16995c994d40bc408dbcfa5:350
-     * @MinInclusive
+     * @MinInclusive 0
      * @MaxInclusive 999999
      * @var int|null
      */

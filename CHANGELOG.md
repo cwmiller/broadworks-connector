@@ -1,5 +1,15 @@
 # Changelog
 
+## [3.1.0] - 2019-04-06
+### Added
+- Additional validation checks for fields
+  - `LengthException` is thrown when a field's fixed length restriction is not met.
+  - `MinLengthException` is thrown when a field's minimum length restriction is not met.
+  - `MaxLengthException` is thrown when a field's maximum length restriction is not met.
+  - `MinInclusiveException` is thrown when field's value is set below an allowed range.
+  - `MaxInclusiveException` is thrown when field's value is set above an allowed range.
+  - `PatternException` is thrown when a field's value doesn't match a required pattern.
+
 ## [3.0.4] - 2019-03-03
 ### Fixed
 - Fixed issue where the `Validator` was treating array fields as being set when they were empty.
@@ -84,6 +94,7 @@
 ### Added
 - `OcipClient` now exposes helper methods for every request object.
 
+[3.1.0]: https://github.com/cwmiller/broadworks-connector/compare/3.0.4...3.1.0
 [3.0.4]: https://github.com/cwmiller/broadworks-connector/compare/3.0.3...3.0.4
 [3.0.3]: https://github.com/cwmiller/broadworks-connector/compare/3.0.2...3.0.3
 [3.0.2]: https://github.com/cwmiller/broadworks-connector/compare/3.0.1...3.0.2

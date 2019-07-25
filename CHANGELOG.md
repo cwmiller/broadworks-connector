@@ -1,5 +1,9 @@
 # Changelog
 
+## [3.1.1] - 2019-07-24
+### Fixed
+- Fixed login when targeting R22.
+
 ## [3.1.0] - 2019-04-06
 ### Added
 - Additional validation checks for fields
@@ -94,6 +98,7 @@
 ### Added
 - `OcipClient` now exposes helper methods for every request object.
 
+[3.1.1]: https://github.com/cwmiller/broadworks-connector/compare/3.1.0...3.1.1
 [3.1.0]: https://github.com/cwmiller/broadworks-connector/compare/3.0.4...3.1.0
 [3.0.4]: https://github.com/cwmiller/broadworks-connector/compare/3.0.3...3.0.4
 [3.0.3]: https://github.com/cwmiller/broadworks-connector/compare/3.0.2...3.0.3

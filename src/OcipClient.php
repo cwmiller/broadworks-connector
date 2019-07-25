@@ -430,32 +430,34 @@ class OcipClient
     public function login()
     {
         if ($this->userDetails === null) {
-            $authRequest = (new AuthenticationRequest())
-                ->setUserId($this->username);
-
             try {
-                /** @var AuthenticationResponse $authResponse */
-                $authResponse = $this->executeCommands([$authRequest])[0];
-
-                $signedPassword = null;
-
-                if ($authResponse->getPasswordAlgorithm() === null || $authResponse->getPasswordAlgorithm()->getValue() === DigitalSignatureAlgorithm::MD5) {
-                    $signedPassword = md5($authResponse->getNonce() . ':' . sha1($this->password));
-                } else {
-                    throw new LoginException('Only MD5 supported for signing');
-                }
-
                 switch ($this->options->getServerVersion()) {
                     case Options::VERSION_14SP4:
+                        $authRequest = (new AuthenticationRequest())
+                            ->setUserId($this->username);
+
+                        /** @var AuthenticationResponse $authResponse */
+                        $authResponse = $this->executeCommands([$authRequest])[0];
+
+                        $signedPassword = null;
+
+                        if ($authResponse->getPasswordAlgorithm() === null || $authResponse->getPasswordAlgorithm()->getValue() === DigitalSignatureAlgorithm::MD5) {
+                            $signedPassword = md5($authResponse->getNonce() . ':' . sha1($this->password));
+                        } else {
+                            throw new LoginException('Only MD5 supported for signing');
+                        }
+
                         $loginRequest = (new LoginRequest14sp4())
                             ->setUserId($this->username)
                             ->setSignedPassword($signedPassword);
                         break;
+
                     case Options::VERSION_22:
                         $loginRequest = (new LoginRequest22V2())
                             ->setUserId($this->username)
-                            ->setPassword($signedPassword);
+                            ->setPassword($this->password);
                         break;
+
                     default:
                         throw new LoginException('Unhandled server version: ' . $this->options->getServerVersion());
                 }

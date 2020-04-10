@@ -1,5 +1,9 @@
 # Changelog
 
+## [3.1.2] - 2020-04-10
+### Fixed
+- Fixed serialization error when setting a property to NULL when the property's type is abstract.
+
 ## [3.1.1] - 2019-07-24
 ### Fixed
 - Fixed login when targeting R22.
@@ -98,6 +102,7 @@
 ### Added
 - `OcipClient` now exposes helper methods for every request object.
 
+[3.1.2]: https://github.com/cwmiller/broadworks-connector/compare/3.1.1...3.1.2
 [3.1.1]: https://github.com/cwmiller/broadworks-connector/compare/3.1.0...3.1.1
 [3.1.0]: https://github.com/cwmiller/broadworks-connector/compare/3.0.4...3.1.0
 [3.0.4]: https://github.com/cwmiller/broadworks-connector/compare/3.0.3...3.0.4

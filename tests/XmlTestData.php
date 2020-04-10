@@ -6,6 +6,7 @@ use CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentKey;
 use CWM\BroadWorksConnector\Ocip\Models\GroupOutgoingCallingPlanRedirectingModifyListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanRedirectingDepartmentPermissionsModify;
 use CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanRedirectingPermissionsModify;
+use CWM\BroadWorksConnector\Ocip\Models\UserModifyRequest14;
 use DOMDocument;
 
 class XmlTestData
@@ -54,5 +55,12 @@ class XmlTestData
             ->addDepartmentPermissions($departmentPermissions);
 
         return $request;
+    }
+
+    public static function unassignDepartmentData()
+    {
+        return (new UserModifyRequest14())
+            ->setUserId('user@domain')
+            ->setDepartment(null);
     }
 }

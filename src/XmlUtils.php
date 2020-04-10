@@ -156,6 +156,17 @@ abstract class XmlUtils
 
                             if (($value instanceof Nil) && array_key_exists('Nillable', $annotations)) {
                                 $child->setAttribute('xsi:nil', 'true');
+
+                                // If the field's type is an abstract class, then an xsi:type property must be included.
+                                // It doesn't matter which abstract type is provided, as long as it's legit for the field's type
+                                if (array_key_exists('Abstract', $annotations)) {
+                                    $concreteTypes = explode(',', $annotations['Abstract']);
+
+                                    if (count($concreteTypes) > 0) {
+                                        $refConcreteType = new ReflectionClass(array_shift($concreteTypes));
+                                        $child->setAttribute('xsi:type', $refConcreteType->getShortName());
+                                    }
+                                }
                             } else if ($value instanceof Enum) {
                                 $child->appendChild($document->createTextNode($value->getValue()));
                             } else if (is_object($value)) {

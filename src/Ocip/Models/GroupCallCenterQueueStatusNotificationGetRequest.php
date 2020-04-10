@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupCallCenterQueueStatusNotificationGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:5707","type":"sequence"}]
+ * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:5703","type":"sequence"}]
  */
 class GroupCallCenterQueueStatusNotificationGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupCallCenterQueueStatusNotificationGetRequest extends \CWM\BroadWorksCo
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group e2c537e3e39483b96620673a7012ffdd:5707
+     * @Group e2c537e3e39483b96620673a7012ffdd:5703
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

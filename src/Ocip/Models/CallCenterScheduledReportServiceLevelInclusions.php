@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * The call center enhanced reporting scheduled report inclusions related to the Service Level thresholds
  *
- * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:7655","type":"sequence"}]
+ * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:7651","type":"sequence"}]
  */
 class CallCenterScheduledReportServiceLevelInclusions
 {
@@ -15,7 +15,7 @@ class CallCenterScheduledReportServiceLevelInclusions
     /**
      * @ElementName includeOverflowTimeTransferedInServiceLevel
      * @Type bool
-     * @Group e2c537e3e39483b96620673a7012ffdd:7655
+     * @Group e2c537e3e39483b96620673a7012ffdd:7651
      * @var bool|null
      */
     private $includeOverflowTimeTransferedInServiceLevel = null;
@@ -23,7 +23,7 @@ class CallCenterScheduledReportServiceLevelInclusions
     /**
      * @ElementName includeOtherTransfersInServiceLevel
      * @Type bool
-     * @Group e2c537e3e39483b96620673a7012ffdd:7655
+     * @Group e2c537e3e39483b96620673a7012ffdd:7651
      * @var bool|null
      */
     private $includeOtherTransfersInServiceLevel = null;
@@ -31,7 +31,7 @@ class CallCenterScheduledReportServiceLevelInclusions
     /**
      * @ElementName abandonedCallsInServiceLevel
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportAbadonedCallsInServiceLevel
-     * @Group e2c537e3e39483b96620673a7012ffdd:7655
+     * @Group e2c537e3e39483b96620673a7012ffdd:7651
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportAbadonedCallsInServiceLevel|null
      */
     private $abandonedCallsInServiceLevel = null;
@@ -40,7 +40,7 @@ class CallCenterScheduledReportServiceLevelInclusions
      * @ElementName abandonedCallIntervalSeconds
      * @Type int
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:7655
+     * @Group e2c537e3e39483b96620673a7012ffdd:7651
      * @MinInclusive 1
      * @MaxInclusive 7200
      * @var int|null

@@ -1,0 +1,2 @@
+<?xml version="1.0"?>
+<BroadsoftDocument xmlns="C" protocol="OCI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><sessionId xmlns="">acbdf1234567890</sessionId><command xmlns="" xsi:type="UserModifyRequest14"><userId>user@domain</userId><department xsi:nil="true" xsi:type="EnterpriseDepartmentKey"/></command></BroadsoftDocument>

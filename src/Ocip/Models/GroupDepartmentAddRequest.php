@@ -52,6 +52,7 @@ class GroupDepartmentAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\O
     /**
      * @ElementName parentDepartmentKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey
+     * @Abstract \CWM\BroadWorksConnector\Ocip\Models\EnterpriseDepartmentKey,\CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentKey
      * @Optional
      * @Group f3a93cf15de4abd7903673e44ee3e07b:2939
      * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null

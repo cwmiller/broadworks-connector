@@ -14,7 +14,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see LoginResponse21sp1
  * @see ErrorResponse
  * @see LoginRequest22V3
- * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:5368","type":"sequence"}]
+ * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:5205","type":"sequence"}]
  */
 class LoginRequest21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -22,7 +22,7 @@ class LoginRequest21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReques
     /**
      * @ElementName userId
      * @Type string
-     * @Group de4d76f01f337fe4694212ec9f771753:5368
+     * @Group de4d76f01f337fe4694212ec9f771753:5205
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -33,7 +33,7 @@ class LoginRequest21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReques
      * @ElementName signedPassword
      * @Type string
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:5368
+     * @Group de4d76f01f337fe4694212ec9f771753:5205
      * @MinLength 1
      * @var string|null
      */
@@ -43,7 +43,7 @@ class LoginRequest21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReques
      * @ElementName plainTextPassword
      * @Type string
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:5368
+     * @Group de4d76f01f337fe4694212ec9f771753:5205
      * @MinLength 1
      * @MaxLength 60
      * @var string|null

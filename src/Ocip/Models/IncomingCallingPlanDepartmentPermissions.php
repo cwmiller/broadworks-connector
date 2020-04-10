@@ -15,6 +15,7 @@ class IncomingCallingPlanDepartmentPermissions
     /**
      * @ElementName departmentKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey
+     * @Abstract \CWM\BroadWorksConnector\Ocip\Models\EnterpriseDepartmentKey,\CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentKey
      * @Group 3dd296d55b56269ae23d86a934b8b35c:152
      * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null
      */

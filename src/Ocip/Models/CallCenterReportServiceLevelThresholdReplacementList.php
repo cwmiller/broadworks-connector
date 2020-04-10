@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * A list of call center reporting service level threshold seconds that replaces a previously configured list.
  *
- * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:7527","type":"sequence"}]
+ * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:7523","type":"sequence"}]
  */
 class CallCenterReportServiceLevelThresholdReplacementList
 {
@@ -16,7 +16,7 @@ class CallCenterReportServiceLevelThresholdReplacementList
      * @ElementName serviceLevelThresholdSeconds
      * @Type int
      * @Array
-     * @Group e2c537e3e39483b96620673a7012ffdd:7527
+     * @Group e2c537e3e39483b96620673a7012ffdd:7523
      * @MinInclusive 1
      * @MaxInclusive 7200
      * @var int[]

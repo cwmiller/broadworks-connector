@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupAdminGetRequest
  * @see GroupAdminGetResponse21sp1
- * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:4203","type":"sequence"}]
+ * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:4040","type":"sequence"}]
  */
 class GroupAdminGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,7 +19,7 @@ class GroupAdminGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDa
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group de4d76f01f337fe4694212ec9f771753:4203
+     * @Group de4d76f01f337fe4694212ec9f771753:4040
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -29,7 +29,7 @@ class GroupAdminGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDa
     /**
      * @ElementName groupId
      * @Type string
-     * @Group de4d76f01f337fe4694212ec9f771753:4203
+     * @Group de4d76f01f337fe4694212ec9f771753:4040
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -40,7 +40,7 @@ class GroupAdminGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDa
      * @ElementName firstName
      * @Type string
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:4203
+     * @Group de4d76f01f337fe4694212ec9f771753:4040
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -51,7 +51,7 @@ class GroupAdminGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDa
      * @ElementName lastName
      * @Type string
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:4203
+     * @Group de4d76f01f337fe4694212ec9f771753:4040
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -61,7 +61,7 @@ class GroupAdminGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDa
     /**
      * @ElementName language
      * @Type string
-     * @Group de4d76f01f337fe4694212ec9f771753:4203
+     * @Group de4d76f01f337fe4694212ec9f771753:4040
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

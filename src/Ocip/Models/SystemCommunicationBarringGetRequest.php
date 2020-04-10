@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SystemCommunicationBarringGetResponse
  * @see ErrorResponse
  * @see SystemCommunicationBarringGetRequest21sp1
- * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:6376","type":"sequence"}]
+ * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:6153","type":"sequence"}]
  */
 class SystemCommunicationBarringGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

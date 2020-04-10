@@ -18,6 +18,7 @@ class GroupDepartmentGetAvailableParentListResponse extends \CWM\BroadWorksConne
      * @ElementName departmentKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey
      * @Array
+     * @Abstract \CWM\BroadWorksConnector\Ocip\Models\EnterpriseDepartmentKey,\CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentKey
      * @Optional
      * @Group f3a93cf15de4abd7903673e44ee3e07b:3127
      * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey[]

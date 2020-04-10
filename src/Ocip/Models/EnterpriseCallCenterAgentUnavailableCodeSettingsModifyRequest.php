@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:896","type":"sequence"}]
+ * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:892","type":"sequence"}]
  */
 class EnterpriseCallCenterAgentUnavailableCodeSettingsModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class EnterpriseCallCenterAgentUnavailableCodeSettingsModifyRequest extends \CWM
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group e2c537e3e39483b96620673a7012ffdd:896
+     * @Group e2c537e3e39483b96620673a7012ffdd:892
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -29,7 +29,7 @@ class EnterpriseCallCenterAgentUnavailableCodeSettingsModifyRequest extends \CWM
      * @ElementName enableAgentUnavailableCodes
      * @Type bool
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:896
+     * @Group e2c537e3e39483b96620673a7012ffdd:892
      * @var bool|null
      */
     private $enableAgentUnavailableCodes = null;
@@ -39,7 +39,7 @@ class EnterpriseCallCenterAgentUnavailableCodeSettingsModifyRequest extends \CWM
      * @Type string
      * @Nillable
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:896
+     * @Group e2c537e3e39483b96620673a7012ffdd:892
      * @MinLength 1
      * @MaxLength 10
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -51,7 +51,7 @@ class EnterpriseCallCenterAgentUnavailableCodeSettingsModifyRequest extends \CWM
      * @Type string
      * @Nillable
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:896
+     * @Group e2c537e3e39483b96620673a7012ffdd:892
      * @MinLength 1
      * @MaxLength 10
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -63,7 +63,7 @@ class EnterpriseCallCenterAgentUnavailableCodeSettingsModifyRequest extends \CWM
      * @Type string
      * @Nillable
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:896
+     * @Group e2c537e3e39483b96620673a7012ffdd:892
      * @MinLength 1
      * @MaxLength 10
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -75,7 +75,7 @@ class EnterpriseCallCenterAgentUnavailableCodeSettingsModifyRequest extends \CWM
      * @Type string
      * @Nillable
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:896
+     * @Group e2c537e3e39483b96620673a7012ffdd:892
      * @MinLength 1
      * @MaxLength 10
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -86,7 +86,7 @@ class EnterpriseCallCenterAgentUnavailableCodeSettingsModifyRequest extends \CWM
      * @ElementName forceUseOfAgentUnavailableCodes
      * @Type bool
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:896
+     * @Group e2c537e3e39483b96620673a7012ffdd:892
      * @var bool|null
      */
     private $forceUseOfAgentUnavailableCodes = null;
@@ -96,7 +96,7 @@ class EnterpriseCallCenterAgentUnavailableCodeSettingsModifyRequest extends \CWM
      * @Type string
      * @Nillable
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:896
+     * @Group e2c537e3e39483b96620673a7012ffdd:892
      * @MinLength 1
      * @MaxLength 10
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -108,7 +108,7 @@ class EnterpriseCallCenterAgentUnavailableCodeSettingsModifyRequest extends \CWM
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAgentUnavailableCodeStateModify
      * @Array
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:896
+     * @Group e2c537e3e39483b96620673a7012ffdd:892
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAgentUnavailableCodeStateModify[]
      */
     private $codeStateList = array(

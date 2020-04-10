@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupCallCenterForcedForwardingGetResponse20
  * @see ErrorResponse
- * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:3891","type":"sequence"}]
+ * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:3887","type":"sequence"}]
  */
 class GroupCallCenterForcedForwardingGetRequest20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupCallCenterForcedForwardingGetRequest20 extends \CWM\BroadWorksConnect
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group e2c537e3e39483b96620673a7012ffdd:3891
+     * @Group e2c537e3e39483b96620673a7012ffdd:3887
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

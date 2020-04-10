@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemDeviceManagementTagSetGetListRequest
  * @see SystemDeviceManagementTagSetGetListResponse22
- * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:6426","type":"sequence"}]
+ * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:6203","type":"sequence"}]
  */
 class SystemDeviceManagementTagSetGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -23,7 +23,7 @@ class SystemDeviceManagementTagSetGetListResponse extends \CWM\BroadWorksConnect
      * @Type string
      * @Array
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:6426
+     * @Group de4d76f01f337fe4694212ec9f771753:6203
      * @MinLength 1
      * @MaxLength 30
      * @var string[]

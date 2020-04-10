@@ -39,6 +39,7 @@ class GroupOutgoingCallingPlanDepartmentAuthorizationCodeDeleteListRequest exten
     /**
      * @ElementName departmentKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey
+     * @Abstract \CWM\BroadWorksConnector\Ocip\Models\EnterpriseDepartmentKey,\CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentKey
      * @Optional
      * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:213
      * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null

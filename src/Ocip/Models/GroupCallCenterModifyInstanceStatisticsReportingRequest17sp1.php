@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:5268","type":"sequence"}]
+ * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:5264","type":"sequence"}]
  */
 class GroupCallCenterModifyInstanceStatisticsReportingRequest17sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupCallCenterModifyInstanceStatisticsReportingRequest17sp1 extends \CWM\
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group e2c537e3e39483b96620673a7012ffdd:5268
+     * @Group e2c537e3e39483b96620673a7012ffdd:5264
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -29,7 +29,7 @@ class GroupCallCenterModifyInstanceStatisticsReportingRequest17sp1 extends \CWM\
      * @ElementName generateDailyReport
      * @Type bool
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:5268
+     * @Group e2c537e3e39483b96620673a7012ffdd:5264
      * @var bool|null
      */
     private $generateDailyReport = null;
@@ -38,7 +38,7 @@ class GroupCallCenterModifyInstanceStatisticsReportingRequest17sp1 extends \CWM\
      * @ElementName collectionPeriodMinutes
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterStatisticsCollectionPeriodMinutes
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:5268
+     * @Group e2c537e3e39483b96620673a7012ffdd:5264
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterStatisticsCollectionPeriodMinutes|null
      */
     private $collectionPeriodMinutes = null;
@@ -48,7 +48,7 @@ class GroupCallCenterModifyInstanceStatisticsReportingRequest17sp1 extends \CWM\
      * @Type string
      * @Nillable
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:5268
+     * @Group e2c537e3e39483b96620673a7012ffdd:5264
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -60,7 +60,7 @@ class GroupCallCenterModifyInstanceStatisticsReportingRequest17sp1 extends \CWM\
      * @Type string
      * @Nillable
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:5268
+     * @Group e2c537e3e39483b96620673a7012ffdd:5264
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -71,7 +71,7 @@ class GroupCallCenterModifyInstanceStatisticsReportingRequest17sp1 extends \CWM\
      * @ElementName statisticsSource
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterStatisticsSource17sp1
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:5268
+     * @Group e2c537e3e39483b96620673a7012ffdd:5264
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterStatisticsSource17sp1|null
      */
     private $statisticsSource = null;

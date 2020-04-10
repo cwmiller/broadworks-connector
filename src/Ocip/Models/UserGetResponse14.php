@@ -133,6 +133,7 @@ class UserGetResponse14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRe
     /**
      * @ElementName department
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey
+     * @Abstract \CWM\BroadWorksConnector\Ocip\Models\EnterpriseDepartmentKey,\CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentKey
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:7233
      * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null

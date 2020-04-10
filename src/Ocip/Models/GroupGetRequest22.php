@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see GroupGetResponse22
  * @see ErrorResponse
  * @see GroupGetRequest22V2
- * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:4736","type":"sequence"}]
+ * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:4573","type":"sequence"}]
  */
 class GroupGetRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,7 +21,7 @@ class GroupGetRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReques
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group de4d76f01f337fe4694212ec9f771753:4736
+     * @Group de4d76f01f337fe4694212ec9f771753:4573
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -31,7 +31,7 @@ class GroupGetRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReques
     /**
      * @ElementName groupId
      * @Type string
-     * @Group de4d76f01f337fe4694212ec9f771753:4736
+     * @Group de4d76f01f337fe4694212ec9f771753:4573
      * @MinLength 1
      * @MaxLength 30
      * @var string|null

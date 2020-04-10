@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to GroupCallCenterQueueCallDispositionCodeSettingsGetRequest.
  *
  * @see GroupCallCenterQueueCallDispositionCodeSettingsGetRequest
- * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:5667","type":"sequence"}]
+ * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:5663","type":"sequence"}]
  */
 class GroupCallCenterQueueCallDispositionCodeSettingsGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class GroupCallCenterQueueCallDispositionCodeSettingsGetResponse extends \CWM\Br
     /**
      * @ElementName enableCallDispositionCodes
      * @Type bool
-     * @Group e2c537e3e39483b96620673a7012ffdd:5667
+     * @Group e2c537e3e39483b96620673a7012ffdd:5663
      * @var bool|null
      */
     private $enableCallDispositionCodes = null;
@@ -24,7 +24,7 @@ class GroupCallCenterQueueCallDispositionCodeSettingsGetResponse extends \CWM\Br
     /**
      * @ElementName includeOrganizationCodes
      * @Type bool
-     * @Group e2c537e3e39483b96620673a7012ffdd:5667
+     * @Group e2c537e3e39483b96620673a7012ffdd:5663
      * @var bool|null
      */
     private $includeOrganizationCodes = null;
@@ -32,7 +32,7 @@ class GroupCallCenterQueueCallDispositionCodeSettingsGetResponse extends \CWM\Br
     /**
      * @ElementName forceUseOfCallDispositionCodes
      * @Type bool
-     * @Group e2c537e3e39483b96620673a7012ffdd:5667
+     * @Group e2c537e3e39483b96620673a7012ffdd:5663
      * @var bool|null
      */
     private $forceUseOfCallDispositionCodes = null;
@@ -41,7 +41,7 @@ class GroupCallCenterQueueCallDispositionCodeSettingsGetResponse extends \CWM\Br
      * @ElementName defaultCallDispositionCode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallDispositionCodeWithLevel
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:5667
+     * @Group e2c537e3e39483b96620673a7012ffdd:5663
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallDispositionCodeWithLevel|null
      */
     private $defaultCallDispositionCode = null;

@@ -14,7 +14,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see GroupCommunicationBarringAuthorizationCodeGetListResponse
  * @see ErrorResponse
  * @see GroupCommunicationBarringAuthorizationCodeGetListRequest21sp1
- * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:4698","type":"sequence"}]
+ * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:4535","type":"sequence"}]
  */
 class GroupCommunicationBarringAuthorizationCodeGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -22,7 +22,7 @@ class GroupCommunicationBarringAuthorizationCodeGetListRequest extends \CWM\Broa
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group de4d76f01f337fe4694212ec9f771753:4698
+     * @Group de4d76f01f337fe4694212ec9f771753:4535
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -32,7 +32,7 @@ class GroupCommunicationBarringAuthorizationCodeGetListRequest extends \CWM\Broa
     /**
      * @ElementName groupId
      * @Type string
-     * @Group de4d76f01f337fe4694212ec9f771753:4698
+     * @Group de4d76f01f337fe4694212ec9f771753:4535
      * @MinLength 1
      * @MaxLength 30
      * @var string|null

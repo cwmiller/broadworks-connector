@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * User for admin read. Either all call centers or 2 lists of call centers: one for current and one for deleted call centers.
  *
- * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:7606","type":"choice","children":[{"id":"e2c537e3e39483b96620673a7012ffdd:7608","type":"sequence"}]}]
+ * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:7602","type":"choice","children":[{"id":"e2c537e3e39483b96620673a7012ffdd:7604","type":"sequence"}]}]
  */
 class CallCenterScheduledReportCallCenterSelectionRead
 {
@@ -15,7 +15,7 @@ class CallCenterScheduledReportCallCenterSelectionRead
     /**
      * @ElementName allCallCenter
      * @Type bool
-     * @Group e2c537e3e39483b96620673a7012ffdd:7606
+     * @Group e2c537e3e39483b96620673a7012ffdd:7602
      * @var bool|null
      */
     private $allCallCenter = null;
@@ -25,7 +25,7 @@ class CallCenterScheduledReportCallCenterSelectionRead
      * @Type string
      * @Array
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:7608
+     * @Group e2c537e3e39483b96620673a7012ffdd:7604
      * @MinLength 1
      * @MaxLength 161
      * @var string[]
@@ -39,7 +39,7 @@ class CallCenterScheduledReportCallCenterSelectionRead
      * @Type string
      * @Array
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:7608
+     * @Group e2c537e3e39483b96620673a7012ffdd:7604
      * @MinLength 1
      * @MaxLength 161
      * @var string[]

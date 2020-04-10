@@ -15,6 +15,7 @@ class SearchCriteriaExactDnDepartment extends SearchCriteria
     /**
      * @ElementName departmentKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey
+     * @Abstract \CWM\BroadWorksConnector\Ocip\Models\EnterpriseDepartmentKey,\CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentKey
      * @Group f0ada2681ca347fa83b464734259b304:910
      * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null
      */

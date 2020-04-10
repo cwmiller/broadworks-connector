@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to EnterpriseCallCenterAgentUnavailableCodeSettingsGetRequest17sp4.
  *
  * @see EnterpriseCallCenterAgentUnavailableCodeSettingsGetRequest17sp4
- * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:874","type":"sequence"}]
+ * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:870","type":"sequence"}]
  */
 class EnterpriseCallCenterAgentUnavailableCodeSettingsGetResponse17sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class EnterpriseCallCenterAgentUnavailableCodeSettingsGetResponse17sp4 extends \
     /**
      * @ElementName enableAgentUnavailableCodes
      * @Type bool
-     * @Group e2c537e3e39483b96620673a7012ffdd:874
+     * @Group e2c537e3e39483b96620673a7012ffdd:870
      * @var bool|null
      */
     private $enableAgentUnavailableCodes = null;
@@ -25,7 +25,7 @@ class EnterpriseCallCenterAgentUnavailableCodeSettingsGetResponse17sp4 extends \
      * @ElementName defaultAgentUnavailableCodeOnDND
      * @Type string
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:874
+     * @Group e2c537e3e39483b96620673a7012ffdd:870
      * @MinLength 1
      * @MaxLength 10
      * @var string|null
@@ -36,7 +36,7 @@ class EnterpriseCallCenterAgentUnavailableCodeSettingsGetResponse17sp4 extends \
      * @ElementName defaultAgentUnavailableCodeOnPersonalCalls
      * @Type string
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:874
+     * @Group e2c537e3e39483b96620673a7012ffdd:870
      * @MinLength 1
      * @MaxLength 10
      * @var string|null
@@ -47,7 +47,7 @@ class EnterpriseCallCenterAgentUnavailableCodeSettingsGetResponse17sp4 extends \
      * @ElementName defaultAgentUnavailableCodeOnConsecutiveBounces
      * @Type string
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:874
+     * @Group e2c537e3e39483b96620673a7012ffdd:870
      * @MinLength 1
      * @MaxLength 10
      * @var string|null
@@ -58,7 +58,7 @@ class EnterpriseCallCenterAgentUnavailableCodeSettingsGetResponse17sp4 extends \
      * @ElementName defaultAgentUnavailableCodeOnNotReachable
      * @Type string
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:874
+     * @Group e2c537e3e39483b96620673a7012ffdd:870
      * @MinLength 1
      * @MaxLength 10
      * @var string|null
@@ -68,7 +68,7 @@ class EnterpriseCallCenterAgentUnavailableCodeSettingsGetResponse17sp4 extends \
     /**
      * @ElementName forceUseOfAgentUnavailableCodes
      * @Type bool
-     * @Group e2c537e3e39483b96620673a7012ffdd:874
+     * @Group e2c537e3e39483b96620673a7012ffdd:870
      * @var bool|null
      */
     private $forceUseOfAgentUnavailableCodes = null;
@@ -77,7 +77,7 @@ class EnterpriseCallCenterAgentUnavailableCodeSettingsGetResponse17sp4 extends \
      * @ElementName defaultAgentUnavailableCode
      * @Type string
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:874
+     * @Group e2c537e3e39483b96620673a7012ffdd:870
      * @MinLength 1
      * @MaxLength 10
      * @var string|null

@@ -67,6 +67,7 @@ class EnterpriseVoiceVPNGetPolicyResponse extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName digitManipulation
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNDigitManipulation
      * @Array
+     * @Abstract \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNDigitManipulationNoValue,\CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNDigitManipulationOptionalValue,\CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNDigitManipulationRequiredValue
      * @Optional
      * @Group 5395c7df0157d44aa22f3351d1a5f3da:1482
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNDigitManipulation[]

@@ -25,6 +25,7 @@ class GroupMusicOnHoldGetDepartmentListResponse extends \CWM\BroadWorksConnector
      * @ElementName department
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey
      * @Array
+     * @Abstract \CWM\BroadWorksConnector\Ocip\Models\EnterpriseDepartmentKey,\CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentKey
      * @Optional
      * @Group 66fe518a637c74cc4b2c97aa7f68fc49:110
      * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey[]

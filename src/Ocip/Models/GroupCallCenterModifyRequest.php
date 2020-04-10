@@ -19,7 +19,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:5315","type":"sequence"}]
+ * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:5311","type":"sequence"}]
  */
 class GroupCallCenterModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -27,7 +27,7 @@ class GroupCallCenterModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group e2c537e3e39483b96620673a7012ffdd:5315
+     * @Group e2c537e3e39483b96620673a7012ffdd:5311
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -37,7 +37,7 @@ class GroupCallCenterModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName groupId
      * @Type string
-     * @Group e2c537e3e39483b96620673a7012ffdd:5315
+     * @Group e2c537e3e39483b96620673a7012ffdd:5311
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -48,7 +48,7 @@ class GroupCallCenterModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @ElementName useSystemDefaultGuardTimer
      * @Type bool
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:5315
+     * @Group e2c537e3e39483b96620673a7012ffdd:5311
      * @var bool|null
      */
     private $useSystemDefaultGuardTimer = null;
@@ -57,7 +57,7 @@ class GroupCallCenterModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @ElementName enableGuardTimer
      * @Type bool
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:5315
+     * @Group e2c537e3e39483b96620673a7012ffdd:5311
      * @var bool|null
      */
     private $enableGuardTimer = null;
@@ -66,7 +66,7 @@ class GroupCallCenterModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @ElementName guardTimerSeconds
      * @Type int
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:5315
+     * @Group e2c537e3e39483b96620673a7012ffdd:5311
      * @MinInclusive 1
      * @MaxInclusive 25
      * @var int|null
@@ -77,7 +77,7 @@ class GroupCallCenterModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @ElementName useSystemDefaultUnavailableSettings
      * @Type bool
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:5315
+     * @Group e2c537e3e39483b96620673a7012ffdd:5311
      * @var bool|null
      */
     private $useSystemDefaultUnavailableSettings = null;
@@ -86,7 +86,7 @@ class GroupCallCenterModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @ElementName forceAgentUnavailableOnDNDActivation
      * @Type bool
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:5315
+     * @Group e2c537e3e39483b96620673a7012ffdd:5311
      * @var bool|null
      */
     private $forceAgentUnavailableOnDNDActivation = null;
@@ -95,7 +95,7 @@ class GroupCallCenterModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @ElementName forceAgentUnavailableOnPersonalCalls
      * @Type bool
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:5315
+     * @Group e2c537e3e39483b96620673a7012ffdd:5311
      * @var bool|null
      */
     private $forceAgentUnavailableOnPersonalCalls = null;
@@ -104,7 +104,7 @@ class GroupCallCenterModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @ElementName forceAgentUnavailableOnBouncedCallLimit
      * @Type bool
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:5315
+     * @Group e2c537e3e39483b96620673a7012ffdd:5311
      * @var bool|null
      */
     private $forceAgentUnavailableOnBouncedCallLimit = null;
@@ -113,7 +113,7 @@ class GroupCallCenterModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @ElementName numberConsecutiveBouncedCallsToForceAgentUnavailable
      * @Type int
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:5315
+     * @Group e2c537e3e39483b96620673a7012ffdd:5311
      * @MinInclusive 1
      * @MaxInclusive 5
      * @var int|null
@@ -124,7 +124,7 @@ class GroupCallCenterModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @ElementName forceAgentUnavailableOnNotReachable
      * @Type bool
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:5315
+     * @Group e2c537e3e39483b96620673a7012ffdd:5311
      * @var bool|null
      */
     private $forceAgentUnavailableOnNotReachable = null;

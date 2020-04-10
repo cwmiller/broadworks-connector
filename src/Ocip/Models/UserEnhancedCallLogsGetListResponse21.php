@@ -19,7 +19,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see UserEnhancedCallLogsGetListRequest21
  * @see UserEnhancedCallLogsGetListRequest21
  * @see UserEnhancedCallLogsGetListResponse21Sp1
- * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:7519","type":"sequence","children":[{"id":"de4d76f01f337fe4694212ec9f771753:7521","type":"choice"}]}]
+ * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:7296","type":"sequence","children":[{"id":"de4d76f01f337fe4694212ec9f771753:7298","type":"choice"}]}]
  */
 class UserEnhancedCallLogsGetListResponse21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -27,7 +27,7 @@ class UserEnhancedCallLogsGetListResponse21 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName totalNumberOfRows
      * @Type int
-     * @Group de4d76f01f337fe4694212ec9f771753:7519
+     * @Group de4d76f01f337fe4694212ec9f771753:7296
      * @var int|null
      */
     private $totalNumberOfRows = null;
@@ -35,7 +35,7 @@ class UserEnhancedCallLogsGetListResponse21 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName legacyEntry
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UserEnhancedCallLogsGetListResponse21LegacyEntry
-     * @Group de4d76f01f337fe4694212ec9f771753:7521
+     * @Group de4d76f01f337fe4694212ec9f771753:7298
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserEnhancedCallLogsGetListResponse21LegacyEntry|null
      */
     private $legacyEntry = null;
@@ -43,7 +43,7 @@ class UserEnhancedCallLogsGetListResponse21 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName extendedEntry
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UserEnhancedCallLogsGetListResponse21ExtendedEntry
-     * @Group de4d76f01f337fe4694212ec9f771753:7521
+     * @Group de4d76f01f337fe4694212ec9f771753:7298
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserEnhancedCallLogsGetListResponse21ExtendedEntry|null
      */
     private $extendedEntry = null;

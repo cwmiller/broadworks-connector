@@ -30,6 +30,7 @@ class GroupTrunkGroupGetInstanceResponse17 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName department
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey
+     * @Abstract \CWM\BroadWorksConnector\Ocip\Models\EnterpriseDepartmentKey,\CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentKey
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:20424
      * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null

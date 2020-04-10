@@ -173,6 +173,7 @@ class UserGetResponse22V3 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIData
     /**
      * @ElementName department
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey
+     * @Abstract \CWM\BroadWorksConnector\Ocip\Models\EnterpriseDepartmentKey,\CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentKey
      * @Optional
      * @Group 53d18cc797d03d802cbc411ad821f1d4:2027
      * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null

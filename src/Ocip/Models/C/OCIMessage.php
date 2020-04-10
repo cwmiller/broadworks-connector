@@ -49,6 +49,7 @@ class OCIMessage
      * @ElementName command
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCICommand
      * @Array
+     * @Abstract \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest,\CWM\BroadWorksConnector\Ocip\Models\C\OCIResponse
      * @Group 77f32f6c8e214eb5c1a80dedfce1cb56:28
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCICommand[]
      */

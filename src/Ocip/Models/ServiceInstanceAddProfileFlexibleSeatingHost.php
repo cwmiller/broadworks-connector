@@ -100,6 +100,7 @@ class ServiceInstanceAddProfileFlexibleSeatingHost
     /**
      * @ElementName department
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey
+     * @Abstract \CWM\BroadWorksConnector\Ocip\Models\EnterpriseDepartmentKey,\CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentKey
      * @Optional
      * @Group c0d21ef9ba207c335d8347e5172fce1d:3564
      * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null

@@ -162,6 +162,7 @@ class UserGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDat
     /**
      * @ElementName department
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey
+     * @Abstract \CWM\BroadWorksConnector\Ocip\Models\EnterpriseDepartmentKey,\CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentKey
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:42798
      * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null

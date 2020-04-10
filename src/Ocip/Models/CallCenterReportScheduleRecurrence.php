@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * A recurring schedule for call center enhanced reporting scheduled report.
  *
- * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:7500","type":"sequence"}]
+ * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:7496","type":"sequence"}]
  */
 class CallCenterReportScheduleRecurrence
 {
@@ -15,7 +15,7 @@ class CallCenterReportScheduleRecurrence
     /**
      * @ElementName timeZone
      * @Type string
-     * @Group e2c537e3e39483b96620673a7012ffdd:7500
+     * @Group e2c537e3e39483b96620673a7012ffdd:7496
      * @MinLength 1
      * @MaxLength 127
      * @var string|null
@@ -25,7 +25,7 @@ class CallCenterReportScheduleRecurrence
     /**
      * @ElementName startDate
      * @Type string
-     * @Group e2c537e3e39483b96620673a7012ffdd:7500
+     * @Group e2c537e3e39483b96620673a7012ffdd:7496
      * @var string|null
      */
     private $startDate = null;
@@ -33,7 +33,7 @@ class CallCenterReportScheduleRecurrence
     /**
      * @ElementName scheduleTime
      * @Type \CWM\BroadWorksConnector\Ocip\Models\HourMinute
-     * @Group e2c537e3e39483b96620673a7012ffdd:7500
+     * @Group e2c537e3e39483b96620673a7012ffdd:7496
      * @var \CWM\BroadWorksConnector\Ocip\Models\HourMinute|null
      */
     private $scheduleTime = null;
@@ -41,7 +41,7 @@ class CallCenterReportScheduleRecurrence
     /**
      * @ElementName recurrence
      * @Type \CWM\BroadWorksConnector\Ocip\Models\Recurrence
-     * @Group e2c537e3e39483b96620673a7012ffdd:7500
+     * @Group e2c537e3e39483b96620673a7012ffdd:7496
      * @var \CWM\BroadWorksConnector\Ocip\Models\Recurrence|null
      */
     private $recurrence = null;

@@ -15,6 +15,7 @@ class OutgoingCallingPlanDigitPatternOriginatingDepartmentPermissions
     /**
      * @ElementName departmentKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey
+     * @Abstract \CWM\BroadWorksConnector\Ocip\Models\EnterpriseDepartmentKey,\CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentKey
      * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:1907
      * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null
      */

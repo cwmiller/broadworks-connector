@@ -14,7 +14,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see LoginResponse22V2
  * @see ErrorResponse
  * @see LoginRequest22V3
- * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:5409","type":"sequence"}]
+ * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:5246","type":"sequence"}]
  */
 class LoginRequest22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -22,7 +22,7 @@ class LoginRequest22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
     /**
      * @ElementName userId
      * @Type string
-     * @Group de4d76f01f337fe4694212ec9f771753:5409
+     * @Group de4d76f01f337fe4694212ec9f771753:5246
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -33,7 +33,7 @@ class LoginRequest22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
      * @ElementName password
      * @Type string
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:5409
+     * @Group de4d76f01f337fe4694212ec9f771753:5246
      * @MinLength 1
      * @MaxLength 60
      * @var string|null

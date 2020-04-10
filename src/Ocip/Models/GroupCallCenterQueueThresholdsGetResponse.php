@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the GroupCallCenterQueueThresholdsGetRequest.
  *
  * @see GroupCallCenterQueueThresholdsGetRequest
- * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:5779","type":"sequence"}]
+ * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:5775","type":"sequence"}]
  */
 class GroupCallCenterQueueThresholdsGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class GroupCallCenterQueueThresholdsGetResponse extends \CWM\BroadWorksConnector
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group e2c537e3e39483b96620673a7012ffdd:5779
+     * @Group e2c537e3e39483b96620673a7012ffdd:5775
      * @var bool|null
      */
     private $isActive = null;
@@ -25,7 +25,7 @@ class GroupCallCenterQueueThresholdsGetResponse extends \CWM\BroadWorksConnector
      * @ElementName thresholdCurrentCallsInQueueYellow
      * @Type int
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:5779
+     * @Group e2c537e3e39483b96620673a7012ffdd:5775
      * @MinInclusive 1
      * @MaxInclusive 525
      * @var int|null
@@ -36,7 +36,7 @@ class GroupCallCenterQueueThresholdsGetResponse extends \CWM\BroadWorksConnector
      * @ElementName thresholdCurrentCallsInQueueRed
      * @Type int
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:5779
+     * @Group e2c537e3e39483b96620673a7012ffdd:5775
      * @MinInclusive 1
      * @MaxInclusive 525
      * @var int|null
@@ -47,7 +47,7 @@ class GroupCallCenterQueueThresholdsGetResponse extends \CWM\BroadWorksConnector
      * @ElementName thresholdCurrentLongestWaitingCallYellow
      * @Type int
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:5779
+     * @Group e2c537e3e39483b96620673a7012ffdd:5775
      * @MinInclusive 1
      * @MaxInclusive 86400
      * @var int|null
@@ -58,7 +58,7 @@ class GroupCallCenterQueueThresholdsGetResponse extends \CWM\BroadWorksConnector
      * @ElementName thresholdCurrentLongestWaitingCallRed
      * @Type int
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:5779
+     * @Group e2c537e3e39483b96620673a7012ffdd:5775
      * @MinInclusive 1
      * @MaxInclusive 86400
      * @var int|null
@@ -69,7 +69,7 @@ class GroupCallCenterQueueThresholdsGetResponse extends \CWM\BroadWorksConnector
      * @ElementName thresholdAverageEstimatedWaitTimeYellow
      * @Type int
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:5779
+     * @Group e2c537e3e39483b96620673a7012ffdd:5775
      * @MinInclusive 1
      * @MaxInclusive 86400
      * @var int|null
@@ -80,7 +80,7 @@ class GroupCallCenterQueueThresholdsGetResponse extends \CWM\BroadWorksConnector
      * @ElementName thresholdAverageEstimatedWaitTimeRed
      * @Type int
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:5779
+     * @Group e2c537e3e39483b96620673a7012ffdd:5775
      * @MinInclusive 1
      * @MaxInclusive 86400
      * @var int|null
@@ -91,7 +91,7 @@ class GroupCallCenterQueueThresholdsGetResponse extends \CWM\BroadWorksConnector
      * @ElementName thresholdAverageHandlingTimeYellow
      * @Type int
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:5779
+     * @Group e2c537e3e39483b96620673a7012ffdd:5775
      * @MinInclusive 1
      * @MaxInclusive 86400
      * @var int|null
@@ -102,7 +102,7 @@ class GroupCallCenterQueueThresholdsGetResponse extends \CWM\BroadWorksConnector
      * @ElementName thresholdAverageHandlingTimeRed
      * @Type int
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:5779
+     * @Group e2c537e3e39483b96620673a7012ffdd:5775
      * @MinInclusive 1
      * @MaxInclusive 86400
      * @var int|null
@@ -113,7 +113,7 @@ class GroupCallCenterQueueThresholdsGetResponse extends \CWM\BroadWorksConnector
      * @ElementName thresholdAverageSpeedOfAnswerYellow
      * @Type int
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:5779
+     * @Group e2c537e3e39483b96620673a7012ffdd:5775
      * @MinInclusive 1
      * @MaxInclusive 86400
      * @var int|null
@@ -124,7 +124,7 @@ class GroupCallCenterQueueThresholdsGetResponse extends \CWM\BroadWorksConnector
      * @ElementName thresholdAverageSpeedOfAnswerRed
      * @Type int
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:5779
+     * @Group e2c537e3e39483b96620673a7012ffdd:5775
      * @MinInclusive 1
      * @MaxInclusive 86400
      * @var int|null
@@ -134,7 +134,7 @@ class GroupCallCenterQueueThresholdsGetResponse extends \CWM\BroadWorksConnector
     /**
      * @ElementName enableNotificationEmail
      * @Type bool
-     * @Group e2c537e3e39483b96620673a7012ffdd:5779
+     * @Group e2c537e3e39483b96620673a7012ffdd:5775
      * @var bool|null
      */
     private $enableNotificationEmail = null;
@@ -144,7 +144,7 @@ class GroupCallCenterQueueThresholdsGetResponse extends \CWM\BroadWorksConnector
      * @Type string
      * @Array
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:5779
+     * @Group e2c537e3e39483b96620673a7012ffdd:5775
      * @MinLength 1
      * @MaxLength 80
      * @var string[]

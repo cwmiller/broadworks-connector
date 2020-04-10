@@ -49,6 +49,7 @@ class XmlUtilsTest extends \PHPUnit\Framework\TestCase
         $broadsoftDocument->setAttribute('xmlns:xsi', 'http://www.w3.org/2001/XMLSchema-instance');
         $sessionIdElement = $document->createElement('sessionId', 'acbdf1234567890');
         $sessionIdElement->setAttribute('xmlns', '');
+        $broadsoftDocument->appendChild($sessionIdElement);
         
         $commandElement = $document->createElement('command');
         $commandElement->setAttribute('xmlns', '');
@@ -58,5 +59,27 @@ class XmlUtilsTest extends \PHPUnit\Framework\TestCase
         XmlUtils::toXml(XmlTestData::groupOutgoingCallingPlanRedirectingModifyListRequest(), $commandElement, $document);
 
         $this->assertStringEqualsFile(__DIR__ . '/GroupOutgoingCallingPlanRedirectingModifyListRequest.xml', $document->saveXML());
+    }
+
+    public function testUnassignDepartment()
+    {
+        $document = new DOMDocument();
+
+        $broadsoftDocument = $document->createElement('BroadsoftDocument');
+        $broadsoftDocument->setAttribute('protocol', 'OCI');
+        $broadsoftDocument->setAttribute('xmlns', 'C');
+        $broadsoftDocument->setAttribute('xmlns:xsi', 'http://www.w3.org/2001/XMLSchema-instance');
+        $sessionIdElement = $document->createElement('sessionId', 'acbdf1234567890');
+        $sessionIdElement->setAttribute('xmlns', '');
+        $broadsoftDocument->appendChild($sessionIdElement);
+
+        $commandElement = $document->createElement('command');
+        $commandElement->setAttribute('xmlns', '');
+        $broadsoftDocument->appendChild($commandElement);
+        $document->appendChild($broadsoftDocument);
+
+        XmlUtils::toXml(XmlTestData::unassignDepartmentData(), $commandElement, $document);
+
+        $this->assertStringEqualsFile(__DIR__ . '/UnassignDepartment.xml', $document->saveXML());
     }
 }

@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemSessionAuditGetRequest17sp3
  * @see SystemSessionAuditGetResponse23
- * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:6665","type":"sequence"}]
+ * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:6442","type":"sequence"}]
  */
 class SystemSessionAuditGetResponse17sp3 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,7 +19,7 @@ class SystemSessionAuditGetResponse17sp3 extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName isAuditActive
      * @Type bool
-     * @Group de4d76f01f337fe4694212ec9f771753:6665
+     * @Group de4d76f01f337fe4694212ec9f771753:6442
      * @var bool|null
      */
     private $isAuditActive = null;
@@ -27,7 +27,7 @@ class SystemSessionAuditGetResponse17sp3 extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName auditIntervalSeconds
      * @Type int
-     * @Group de4d76f01f337fe4694212ec9f771753:6665
+     * @Group de4d76f01f337fe4694212ec9f771753:6442
      * @MinInclusive 60
      * @MaxInclusive 7200
      * @var int|null
@@ -37,7 +37,7 @@ class SystemSessionAuditGetResponse17sp3 extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName auditTimeoutSeconds
      * @Type int
-     * @Group de4d76f01f337fe4694212ec9f771753:6665
+     * @Group de4d76f01f337fe4694212ec9f771753:6442
      * @MinInclusive 60
      * @MaxInclusive 600
      * @var int|null
@@ -47,7 +47,7 @@ class SystemSessionAuditGetResponse17sp3 extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName releaseCallOnAuditFailure
      * @Type bool
-     * @Group de4d76f01f337fe4694212ec9f771753:6665
+     * @Group de4d76f01f337fe4694212ec9f771753:6442
      * @var bool|null
      */
     private $releaseCallOnAuditFailure = null;
@@ -55,7 +55,7 @@ class SystemSessionAuditGetResponse17sp3 extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName isSIPRefreshAllowedOnAudit
      * @Type bool
-     * @Group de4d76f01f337fe4694212ec9f771753:6665
+     * @Group de4d76f01f337fe4694212ec9f771753:6442
      * @var bool|null
      */
     private $isSIPRefreshAllowedOnAudit = null;
@@ -63,7 +63,7 @@ class SystemSessionAuditGetResponse17sp3 extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName allowUpdateForSIPRefresh
      * @Type bool
-     * @Group de4d76f01f337fe4694212ec9f771753:6665
+     * @Group de4d76f01f337fe4694212ec9f771753:6442
      * @var bool|null
      */
     private $allowUpdateForSIPRefresh = null;
@@ -71,7 +71,7 @@ class SystemSessionAuditGetResponse17sp3 extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName isSIPSessionTimerActive
      * @Type bool
-     * @Group de4d76f01f337fe4694212ec9f771753:6665
+     * @Group de4d76f01f337fe4694212ec9f771753:6442
      * @var bool|null
      */
     private $isSIPSessionTimerActive = null;
@@ -79,7 +79,7 @@ class SystemSessionAuditGetResponse17sp3 extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName sipSessionExpiresMinimumSeconds
      * @Type int
-     * @Group de4d76f01f337fe4694212ec9f771753:6665
+     * @Group de4d76f01f337fe4694212ec9f771753:6442
      * @MinInclusive 30
      * @MaxInclusive 3600
      * @var int|null
@@ -89,7 +89,7 @@ class SystemSessionAuditGetResponse17sp3 extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName enforceSIPSessionExpiresMaximum
      * @Type bool
-     * @Group de4d76f01f337fe4694212ec9f771753:6665
+     * @Group de4d76f01f337fe4694212ec9f771753:6442
      * @var bool|null
      */
     private $enforceSIPSessionExpiresMaximum = null;
@@ -97,7 +97,7 @@ class SystemSessionAuditGetResponse17sp3 extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName sipSessionExpiresMaximumSeconds
      * @Type int
-     * @Group de4d76f01f337fe4694212ec9f771753:6665
+     * @Group de4d76f01f337fe4694212ec9f771753:6442
      * @MinInclusive 3600
      * @MaxInclusive 86400
      * @var int|null
@@ -107,7 +107,7 @@ class SystemSessionAuditGetResponse17sp3 extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName sipSessionExpiresTimerSeconds
      * @Type int
-     * @Group de4d76f01f337fe4694212ec9f771753:6665
+     * @Group de4d76f01f337fe4694212ec9f771753:6442
      * @MinInclusive 60
      * @MaxInclusive 86400
      * @var int|null
@@ -117,7 +117,7 @@ class SystemSessionAuditGetResponse17sp3 extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName alwaysUseSessionTimerWhenSupported
      * @Type bool
-     * @Group de4d76f01f337fe4694212ec9f771753:6665
+     * @Group de4d76f01f337fe4694212ec9f771753:6442
      * @var bool|null
      */
     private $alwaysUseSessionTimerWhenSupported = null;
@@ -125,7 +125,7 @@ class SystemSessionAuditGetResponse17sp3 extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName preferredSessionTimerRefresher
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SessionTimerRefresher
-     * @Group de4d76f01f337fe4694212ec9f771753:6665
+     * @Group de4d76f01f337fe4694212ec9f771753:6442
      * @var \CWM\BroadWorksConnector\Ocip\Models\SessionTimerRefresher|null
      */
     private $preferredSessionTimerRefresher = null;
@@ -133,7 +133,7 @@ class SystemSessionAuditGetResponse17sp3 extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName enableEmergencyCallAlarmTimer
      * @Type bool
-     * @Group de4d76f01f337fe4694212ec9f771753:6665
+     * @Group de4d76f01f337fe4694212ec9f771753:6442
      * @var bool|null
      */
     private $enableEmergencyCallAlarmTimer = null;
@@ -141,7 +141,7 @@ class SystemSessionAuditGetResponse17sp3 extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName emergencyCallAlarmMinutes
      * @Type int
-     * @Group de4d76f01f337fe4694212ec9f771753:6665
+     * @Group de4d76f01f337fe4694212ec9f771753:6442
      * @MinInclusive 1
      * @MaxInclusive 1440
      * @var int|null
@@ -151,7 +151,7 @@ class SystemSessionAuditGetResponse17sp3 extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName enableEmergencyCallCleanupTimer
      * @Type bool
-     * @Group de4d76f01f337fe4694212ec9f771753:6665
+     * @Group de4d76f01f337fe4694212ec9f771753:6442
      * @var bool|null
      */
     private $enableEmergencyCallCleanupTimer = null;
@@ -159,7 +159,7 @@ class SystemSessionAuditGetResponse17sp3 extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName emergencyCallCleanupMinutes
      * @Type int
-     * @Group de4d76f01f337fe4694212ec9f771753:6665
+     * @Group de4d76f01f337fe4694212ec9f771753:6442
      * @MinInclusive 1
      * @MaxInclusive 1440
      * @var int|null

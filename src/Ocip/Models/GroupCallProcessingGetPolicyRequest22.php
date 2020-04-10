@@ -29,7 +29,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see useMaxConcurrentTerminatingAlertingRequests
  * @see maxConcurrentTerminatingAlertingRequests
  * @see GroupCallProcessingGetPolicyRequest22V2
- * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:4506","type":"sequence"}]
+ * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:4343","type":"sequence"}]
  */
 class GroupCallProcessingGetPolicyRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -37,7 +37,7 @@ class GroupCallProcessingGetPolicyRequest22 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group de4d76f01f337fe4694212ec9f771753:4506
+     * @Group de4d76f01f337fe4694212ec9f771753:4343
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -47,7 +47,7 @@ class GroupCallProcessingGetPolicyRequest22 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName groupId
      * @Type string
-     * @Group de4d76f01f337fe4694212ec9f771753:4506
+     * @Group de4d76f01f337fe4694212ec9f771753:4343
      * @MinLength 1
      * @MaxLength 30
      * @var string|null

@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see GroupShInterfaceGetUserListResponse
  * @see ErrorResponse
  * @see GroupShInterfaceGetUserListRequest21sp1
- * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:5224","type":"sequence"}]
+ * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:5061","type":"sequence"}]
  */
 class GroupShInterfaceGetUserListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,7 +21,7 @@ class GroupShInterfaceGetUserListRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group de4d76f01f337fe4694212ec9f771753:5224
+     * @Group de4d76f01f337fe4694212ec9f771753:5061
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -31,7 +31,7 @@ class GroupShInterfaceGetUserListRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName groupId
      * @Type string
-     * @Group de4d76f01f337fe4694212ec9f771753:5224
+     * @Group de4d76f01f337fe4694212ec9f771753:5061
      * @MinLength 1
      * @MaxLength 30
      * @var string|null

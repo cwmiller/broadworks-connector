@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "Phone Number", "Extension", "Department", "Email Address".
  *
  * @see GroupCallCenterGetAvailableAgentListRequest
- * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:4149","type":"sequence"}]
+ * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:4145","type":"sequence"}]
  */
 class GroupCallCenterGetAvailableAgentListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class GroupCallCenterGetAvailableAgentListResponse extends \CWM\BroadWorksConnec
     /**
      * @ElementName userTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group e2c537e3e39483b96620673a7012ffdd:4149
+     * @Group e2c537e3e39483b96620673a7012ffdd:4145
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $userTable = null;

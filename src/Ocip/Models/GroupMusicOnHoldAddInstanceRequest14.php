@@ -40,6 +40,7 @@ class GroupMusicOnHoldAddInstanceRequest14 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName department
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey
+     * @Abstract \CWM\BroadWorksConnector\Ocip\Models\EnterpriseDepartmentKey,\CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentKey
      * @Group ab0042aa512abc10edb3c55e4b416b0b:1662
      * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null
      */

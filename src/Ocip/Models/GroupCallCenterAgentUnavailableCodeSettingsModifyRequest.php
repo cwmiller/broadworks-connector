@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:2684","type":"sequence"}]
+ * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:2680","type":"sequence"}]
  */
 class GroupCallCenterAgentUnavailableCodeSettingsModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupCallCenterAgentUnavailableCodeSettingsModifyRequest extends \CWM\Broa
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group e2c537e3e39483b96620673a7012ffdd:2684
+     * @Group e2c537e3e39483b96620673a7012ffdd:2680
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +28,7 @@ class GroupCallCenterAgentUnavailableCodeSettingsModifyRequest extends \CWM\Broa
     /**
      * @ElementName groupId
      * @Type string
-     * @Group e2c537e3e39483b96620673a7012ffdd:2684
+     * @Group e2c537e3e39483b96620673a7012ffdd:2680
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -39,7 +39,7 @@ class GroupCallCenterAgentUnavailableCodeSettingsModifyRequest extends \CWM\Broa
      * @ElementName enableAgentUnavailableCodes
      * @Type bool
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:2684
+     * @Group e2c537e3e39483b96620673a7012ffdd:2680
      * @var bool|null
      */
     private $enableAgentUnavailableCodes = null;
@@ -49,7 +49,7 @@ class GroupCallCenterAgentUnavailableCodeSettingsModifyRequest extends \CWM\Broa
      * @Type string
      * @Nillable
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:2684
+     * @Group e2c537e3e39483b96620673a7012ffdd:2680
      * @MinLength 1
      * @MaxLength 10
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -61,7 +61,7 @@ class GroupCallCenterAgentUnavailableCodeSettingsModifyRequest extends \CWM\Broa
      * @Type string
      * @Nillable
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:2684
+     * @Group e2c537e3e39483b96620673a7012ffdd:2680
      * @MinLength 1
      * @MaxLength 10
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -73,7 +73,7 @@ class GroupCallCenterAgentUnavailableCodeSettingsModifyRequest extends \CWM\Broa
      * @Type string
      * @Nillable
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:2684
+     * @Group e2c537e3e39483b96620673a7012ffdd:2680
      * @MinLength 1
      * @MaxLength 10
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -85,7 +85,7 @@ class GroupCallCenterAgentUnavailableCodeSettingsModifyRequest extends \CWM\Broa
      * @Type string
      * @Nillable
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:2684
+     * @Group e2c537e3e39483b96620673a7012ffdd:2680
      * @MinLength 1
      * @MaxLength 10
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -96,7 +96,7 @@ class GroupCallCenterAgentUnavailableCodeSettingsModifyRequest extends \CWM\Broa
      * @ElementName forceUseOfAgentUnavailableCodes
      * @Type bool
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:2684
+     * @Group e2c537e3e39483b96620673a7012ffdd:2680
      * @var bool|null
      */
     private $forceUseOfAgentUnavailableCodes = null;
@@ -106,7 +106,7 @@ class GroupCallCenterAgentUnavailableCodeSettingsModifyRequest extends \CWM\Broa
      * @Type string
      * @Nillable
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:2684
+     * @Group e2c537e3e39483b96620673a7012ffdd:2680
      * @MinLength 1
      * @MaxLength 10
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -118,7 +118,7 @@ class GroupCallCenterAgentUnavailableCodeSettingsModifyRequest extends \CWM\Broa
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAgentUnavailableCodeStateModify
      * @Array
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:2684
+     * @Group e2c537e3e39483b96620673a7012ffdd:2680
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAgentUnavailableCodeStateModify[]
      */
     private $codeStateList = array(

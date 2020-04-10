@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Contains Call Center statistics.
  *
- * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:4779","type":"sequence"}]
+ * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:4775","type":"sequence"}]
  */
 class GroupCallCenterGetInstanceStatisticsResponse14sp9 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -15,7 +15,7 @@ class GroupCallCenterGetInstanceStatisticsResponse14sp9 extends \CWM\BroadWorksC
     /**
      * @ElementName statisticsRange
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterStatisticsRange
-     * @Group e2c537e3e39483b96620673a7012ffdd:4779
+     * @Group e2c537e3e39483b96620673a7012ffdd:4775
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterStatisticsRange|null
      */
     private $statisticsRange = null;
@@ -23,7 +23,7 @@ class GroupCallCenterGetInstanceStatisticsResponse14sp9 extends \CWM\BroadWorksC
     /**
      * @ElementName queueStatistics
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterQueueStatistics14sp9
-     * @Group e2c537e3e39483b96620673a7012ffdd:4779
+     * @Group e2c537e3e39483b96620673a7012ffdd:4775
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterQueueStatistics14sp9|null
      */
     private $queueStatistics = null;
@@ -33,7 +33,7 @@ class GroupCallCenterGetInstanceStatisticsResponse14sp9 extends \CWM\BroadWorksC
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAgentStatistics14sp9
      * @Array
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:4779
+     * @Group e2c537e3e39483b96620673a7012ffdd:4775
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAgentStatistics14sp9[]
      */
     private $agentStatistics = array(

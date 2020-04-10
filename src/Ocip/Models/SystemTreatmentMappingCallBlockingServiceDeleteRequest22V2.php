@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SuccessResponse
  * @see ErrorResponse
  * @see SystemTreatmentMappingCallBlockingServiceDeleteRequest23
- * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:6843","type":"sequence"}]
+ * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:6620","type":"sequence"}]
  */
 class SystemTreatmentMappingCallBlockingServiceDeleteRequest22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,7 +21,7 @@ class SystemTreatmentMappingCallBlockingServiceDeleteRequest22V2 extends \CWM\Br
     /**
      * @ElementName callBlockingService
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallBlockingService22V2
-     * @Group de4d76f01f337fe4694212ec9f771753:6843
+     * @Group de4d76f01f337fe4694212ec9f771753:6620
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallBlockingService22V2|null
      */
     private $callBlockingService = null;

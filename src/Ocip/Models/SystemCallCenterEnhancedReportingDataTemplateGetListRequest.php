@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemCallCenterEnhancedReportingDataTemplateGetListResponse
  * @see ErrorResponse
- * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:6062","type":"sequence"}]
+ * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:6058","type":"sequence"}]
  */
 class SystemCallCenterEnhancedReportingDataTemplateGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

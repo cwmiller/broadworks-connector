@@ -169,6 +169,7 @@ class UserAddRequest17sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
     /**
      * @ElementName department
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey
+     * @Abstract \CWM\BroadWorksConnector\Ocip\Models\EnterpriseDepartmentKey,\CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentKey
      * @Optional
      * @Group 53d18cc797d03d802cbc411ad821f1d4:276
      * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null

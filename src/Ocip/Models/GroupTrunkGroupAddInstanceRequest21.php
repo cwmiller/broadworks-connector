@@ -64,6 +64,7 @@ class GroupTrunkGroupAddInstanceRequest21 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName department
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey
+     * @Abstract \CWM\BroadWorksConnector\Ocip\Models\EnterpriseDepartmentKey,\CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentKey
      * @Optional
      * @Group b9c14e2d80e4e7749688ca13ba233b44:859
      * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null

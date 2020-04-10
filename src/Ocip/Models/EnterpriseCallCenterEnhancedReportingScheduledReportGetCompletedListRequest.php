@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see EnterpriseCallCenterEnhancedReportingScheduledReportGetCompletedListResponse
  * @see ErrorResponse
- * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:1596","type":"sequence"}]
+ * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:1592","type":"sequence"}]
  */
 class EnterpriseCallCenterEnhancedReportingScheduledReportGetCompletedListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class EnterpriseCallCenterEnhancedReportingScheduledReportGetCompletedListReques
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group e2c537e3e39483b96620673a7012ffdd:1596
+     * @Group e2c537e3e39483b96620673a7012ffdd:1592
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -29,7 +29,7 @@ class EnterpriseCallCenterEnhancedReportingScheduledReportGetCompletedListReques
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:1596
+     * @Group e2c537e3e39483b96620673a7012ffdd:1592
      * @MinInclusive 1
      * @var int|null
      */
@@ -40,7 +40,7 @@ class EnterpriseCallCenterEnhancedReportingScheduledReportGetCompletedListReques
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaCallCenterScheduledReportName
      * @Array
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:1596
+     * @Group e2c537e3e39483b96620673a7012ffdd:1592
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaCallCenterScheduledReportName[]
      */
     private $searchCriteriaCallCenterScheduledReportName = array(
@@ -51,7 +51,7 @@ class EnterpriseCallCenterEnhancedReportingScheduledReportGetCompletedListReques
      * @ElementName searchCriteriaExactCallCenterScheduledReportCreatedBySupervisor
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactCallCenterScheduledReportCreatedBySupervisor
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:1596
+     * @Group e2c537e3e39483b96620673a7012ffdd:1592
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactCallCenterScheduledReportCreatedBySupervisor|null
      */
     private $searchCriteriaExactCallCenterScheduledReportCreatedBySupervisor = null;
@@ -60,7 +60,7 @@ class EnterpriseCallCenterEnhancedReportingScheduledReportGetCompletedListReques
      * @ElementName searchCriteriaExactCallCenterReportTemplateKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactCallCenterReportTemplateKey
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:1596
+     * @Group e2c537e3e39483b96620673a7012ffdd:1592
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactCallCenterReportTemplateKey|null
      */
     private $searchCriteriaExactCallCenterReportTemplateKey = null;

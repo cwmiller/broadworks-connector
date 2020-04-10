@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemCallCenterEnhancedReportingScheduledTaskParametersGetRequest
  *
  * @see SystemCallCenterEnhancedReportingScheduledTaskParametersGetRequest
- * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:6472","type":"sequence"}]
+ * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:6468","type":"sequence"}]
  */
 class SystemCallCenterEnhancedReportingScheduledTaskParametersGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class SystemCallCenterEnhancedReportingScheduledTaskParametersGetResponse extend
     /**
      * @ElementName scheduledReportSearchIntervalMinutes
      * @Type int
-     * @Group e2c537e3e39483b96620673a7012ffdd:6472
+     * @Group e2c537e3e39483b96620673a7012ffdd:6468
      * @MinInclusive 1
      * @MaxInclusive 1440
      * @var int|null
@@ -26,7 +26,7 @@ class SystemCallCenterEnhancedReportingScheduledTaskParametersGetResponse extend
     /**
      * @ElementName maximumScheduledReportsPerInterval
      * @Type int
-     * @Group e2c537e3e39483b96620673a7012ffdd:6472
+     * @Group e2c537e3e39483b96620673a7012ffdd:6468
      * @MinInclusive 1
      * @MaxInclusive 100000
      * @var int|null
@@ -36,7 +36,7 @@ class SystemCallCenterEnhancedReportingScheduledTaskParametersGetResponse extend
     /**
      * @ElementName deleteScheduledReportDaysAfterCompletion
      * @Type int
-     * @Group e2c537e3e39483b96620673a7012ffdd:6472
+     * @Group e2c537e3e39483b96620673a7012ffdd:6468
      * @MinInclusive 1
      * @MaxInclusive 366
      * @var int|null

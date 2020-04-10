@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SystemTreatmentMappingCallBlockingServiceGetListResponse22
  * @see ErrorResponse
  * @see SystemTreatmentMappingCallBlockingServiceGetListRequest23
- * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:6878","type":"sequence"}]
+ * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:6655","type":"sequence"}]
  */
 class SystemTreatmentMappingCallBlockingServiceGetListRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

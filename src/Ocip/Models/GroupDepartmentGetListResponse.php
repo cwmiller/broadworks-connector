@@ -21,6 +21,7 @@ class GroupDepartmentGetListResponse extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName departmentKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey
      * @Array
+     * @Abstract \CWM\BroadWorksConnector\Ocip\Models\EnterpriseDepartmentKey,\CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentKey
      * @Optional
      * @Group ab0042aa512abc10edb3c55e4b416b0b:19441
      * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey[]

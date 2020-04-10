@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemCallCenterEnhancedReportingScheduledReportGetReportTemplateUsageListResponse
  * @see ErrorResponse
- * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:6423","type":"sequence"}]
+ * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:6419","type":"sequence"}]
  */
 class SystemCallCenterEnhancedReportingScheduledReportGetReportTemplateUsageListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class SystemCallCenterEnhancedReportingScheduledReportGetReportTemplateUsageList
     /**
      * @ElementName name
      * @Type string
-     * @Group e2c537e3e39483b96620673a7012ffdd:6423
+     * @Group e2c537e3e39483b96620673a7012ffdd:6419
      * @MinLength 1
      * @MaxLength 80
      * @var string|null

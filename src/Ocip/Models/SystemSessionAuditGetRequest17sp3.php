@@ -14,7 +14,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SystemSessionAuditGetResponse17sp3
  * @see ErrorResponse
  * @see SystemSessionAuditGetRequest23
- * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:6650","type":"sequence"}]
+ * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:6427","type":"sequence"}]
  */
 class SystemSessionAuditGetRequest17sp3 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

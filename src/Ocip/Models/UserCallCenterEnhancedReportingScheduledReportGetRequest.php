@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserCallCenterEnhancedReportingScheduledReportGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:6802","type":"sequence"}]
+ * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:6798","type":"sequence"}]
  */
 class UserCallCenterEnhancedReportingScheduledReportGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserCallCenterEnhancedReportingScheduledReportGetRequest extends \CWM\Broa
     /**
      * @ElementName supervisorUserId
      * @Type string
-     * @Group e2c537e3e39483b96620673a7012ffdd:6802
+     * @Group e2c537e3e39483b96620673a7012ffdd:6798
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -28,7 +28,7 @@ class UserCallCenterEnhancedReportingScheduledReportGetRequest extends \CWM\Broa
     /**
      * @ElementName name
      * @Type string
-     * @Group e2c537e3e39483b96620673a7012ffdd:6802
+     * @Group e2c537e3e39483b96620673a7012ffdd:6798
      * @MinLength 1
      * @MaxLength 80
      * @var string|null

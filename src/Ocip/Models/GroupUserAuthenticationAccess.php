@@ -5,8 +5,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * GroupUserAuthenticationAccess
  *
- * Group's policy for a user's access to their Authentication service
- * configuration.
+ * Group's policy for a user's access to their Authentication service configuration.
  *
  * @method static GroupUserAuthenticationAccess FULL()
  * @method static GroupUserAuthenticationAccess NONE()

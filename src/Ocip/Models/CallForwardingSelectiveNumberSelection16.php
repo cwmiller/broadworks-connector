@@ -7,10 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Forward to Number Selection.
  *
- * @method static CallForwardingSelectiveNumberSelection16
- * FORWARD_TO_DEFAULT_NUMBER()
- * @method static CallForwardingSelectiveNumberSelection16
- * FORWARD_TO_SPECIFIED_NUMBER()
+ * @method static CallForwardingSelectiveNumberSelection16 FORWARD_TO_DEFAULT_NUMBER()
+ * @method static CallForwardingSelectiveNumberSelection16 FORWARD_TO_SPECIFIED_NUMBER()
  * @method static CallForwardingSelectiveNumberSelection16 DO_NOT_FORWARD()
  * @EnumValueType string
  */

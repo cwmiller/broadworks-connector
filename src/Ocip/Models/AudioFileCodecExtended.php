@@ -6,8 +6,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * AudioFileCodecExtended
  *
  * Audio file codec.
- *         The following values are only used in XS data mode and will fail in AS
- * data mode:
+ *         The following values are only used in XS data mode and will fail in AS data mode:
  *           EVRC0
  *           EVRCNW
  *           EVRCNW0

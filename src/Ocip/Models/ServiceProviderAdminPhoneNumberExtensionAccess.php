@@ -9,8 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         extensions.
  *
  * @method static ServiceProviderAdminPhoneNumberExtensionAccess FULL()
- * @method static ServiceProviderAdminPhoneNumberExtensionAccess
- * ASSIGN_TO_SERVICES_AND_USERS()
+ * @method static ServiceProviderAdminPhoneNumberExtensionAccess ASSIGN_TO_SERVICES_AND_USERS()
  * @method static ServiceProviderAdminPhoneNumberExtensionAccess READ_ONLY()
  * @EnumValueType string
  */

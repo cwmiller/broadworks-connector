@@ -7,8 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Trunk Group SIP identity for pilot and proxy trunk modes policy.
  *
- * @method static TrunkGroupSIPIdentityForPilotAndProxyTrunkModesPolicy
- * PILOT_USER()
+ * @method static TrunkGroupSIPIdentityForPilotAndProxyTrunkModesPolicy PILOT_USER()
  * @method static TrunkGroupSIPIdentityForPilotAndProxyTrunkModesPolicy USER()
  * @EnumValueType string
  */

@@ -29,8 +29,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static ServiceInvocationDisposition THIRD_PARTY_DEFLECTION()
  * @method static ServiceInvocationDisposition THIRD_PARTY_VOICE_MAIL_SUPPORT()
  * @method static ServiceInvocationDisposition TRANSFER_CONSULT()
- * @method static ServiceInvocationDisposition
- * TRUNK_GROUP_FORWARD_CAPACITY_EXCEEDED()
+ * @method static ServiceInvocationDisposition TRUNK_GROUP_FORWARD_CAPACITY_EXCEEDED()
  * @method static ServiceInvocationDisposition TRUNK_GROUP_FORWARD_UNREACHABLE()
  * @method static ServiceInvocationDisposition TRUNK_GROUP_FORWARD_UNCONDITIONAL()
  * @method static ServiceInvocationDisposition VOICE_MAIL_TRANSFER()

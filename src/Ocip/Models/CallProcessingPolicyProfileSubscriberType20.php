@@ -5,24 +5,20 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * CallProcessingPolicyProfileSubscriberType20
  *
- * Different type of user and virtual subscriber which could have a set of call
- * processing policy profile
+ * Different type of user and virtual subscriber which could have a set of call processing policy profile
  *                 defined in BroadWorks.
  *
  * @method static CallProcessingPolicyProfileSubscriberType20 USER()
- * @method static CallProcessingPolicyProfileSubscriberType20
- * TRUNK_GROUP_PILOT_USER()
+ * @method static CallProcessingPolicyProfileSubscriberType20 TRUNK_GROUP_PILOT_USER()
  * @method static CallProcessingPolicyProfileSubscriberType20 AUTO_ATTENDANT()
  * @method static CallProcessingPolicyProfileSubscriberType20 BROADWORKS_ANYWHERE()
  * @method static CallProcessingPolicyProfileSubscriberType20 CALL_CENTER()
  * @method static CallProcessingPolicyProfileSubscriberType20 FIND_ME_FOLLOW_ME()
  * @method static CallProcessingPolicyProfileSubscriberType20 GROUP_PAGING()
- * @method static CallProcessingPolicyProfileSubscriberType20
- * FLEXIBLE_SEATING_HOST()
+ * @method static CallProcessingPolicyProfileSubscriberType20 FLEXIBLE_SEATING_HOST()
  * @method static CallProcessingPolicyProfileSubscriberType20 HUNT_GROUP()
  * @method static CallProcessingPolicyProfileSubscriberType20 INSTANT_GROUP_CALL()
- * @method static CallProcessingPolicyProfileSubscriberType20
- * MEET_ME_CONFERENCING()
+ * @method static CallProcessingPolicyProfileSubscriberType20 MEET_ME_CONFERENCING()
  * @method static CallProcessingPolicyProfileSubscriberType20 ROUTE_POINT()
  * @method static CallProcessingPolicyProfileSubscriberType20 VOICE_PORTAL()
  * @method static CallProcessingPolicyProfileSubscriberType20 VOICEXML()

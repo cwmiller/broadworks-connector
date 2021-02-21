@@ -7,10 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Trunk Group Pilot User Calling Line Identity policy
  *
- * @method static TrunkGroupPilotUserCallingLineIdentityUsagePolicy
- * ALL_ORIGINATING_CALLS()
- * @method static TrunkGroupPilotUserCallingLineIdentityUsagePolicy
- * UNSCREENED_ORIGINATING_CALLS()
+ * @method static TrunkGroupPilotUserCallingLineIdentityUsagePolicy ALL_ORIGINATING_CALLS()
+ * @method static TrunkGroupPilotUserCallingLineIdentityUsagePolicy UNSCREENED_ORIGINATING_CALLS()
  * @method static TrunkGroupPilotUserCallingLineIdentityUsagePolicy NO_CALLS()
  * @EnumValueType string
  */

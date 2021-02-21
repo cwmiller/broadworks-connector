@@ -5,9 +5,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * DeviceManagementFileCategory
  *
- * The file category for an access device file managed by the Device Management
- * System on BroadWorks. A static file has no variable content and only one copy is
- * required on the repository.
+ * The file category for an access device file managed by the Device Management System on BroadWorks. A static file has no variable content and only one copy is required on the repository.
  *
  * @method static DeviceManagementFileCategory _STATIC()
  * @method static DeviceManagementFileCategory DYNAMIC_GROUP()

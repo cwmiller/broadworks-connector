@@ -7,10 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Direct Route Outgoing Trunk Identity policy to access device.
  *
- * @method static DirectRouteOutgoingTrunkIdentityPolicy
- * DIRECT_ROUTE_TRUNK_IDENTITY()
- * @method static DirectRouteOutgoingTrunkIdentityPolicy
- * TRUNK_GROUP_TRUNK_IDENTITY()
+ * @method static DirectRouteOutgoingTrunkIdentityPolicy DIRECT_ROUTE_TRUNK_IDENTITY()
+ * @method static DirectRouteOutgoingTrunkIdentityPolicy TRUNK_GROUP_TRUNK_IDENTITY()
  * @EnumValueType string
  */
 class DirectRouteOutgoingTrunkIdentityPolicy extends \MyCLabs\Enum\Enum

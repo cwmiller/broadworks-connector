@@ -5,8 +5,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * CallingPresentationNumberSource
  *
- * Identifies the source of the number used in the Calling Presentation Number
- * field
+ * Identifies the source of the number used in the Calling Presentation Number field
  *
  * @method static CallingPresentationNumberSource CONFIGURABLE_CLID()
  * @method static CallingPresentationNumberSource DNIS()

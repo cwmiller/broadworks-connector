@@ -17,8 +17,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static DeviceManagementEventStatusInProgressOrPending PENDING()
  * @method static DeviceManagementEventStatusInProgressOrPending QUEUED()
  * @method static DeviceManagementEventStatusInProgressOrPending IN_PROGRESS()
- * @method static DeviceManagementEventStatusInProgressOrPending
- * PROCESS_ON_OTHER_HOST()
+ * @method static DeviceManagementEventStatusInProgressOrPending PROCESS_ON_OTHER_HOST()
  * @method static DeviceManagementEventStatusInProgressOrPending STALE()
  * @EnumValueType string
  */

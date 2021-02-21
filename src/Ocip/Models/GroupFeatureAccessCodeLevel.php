@@ -5,8 +5,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * GroupFeatureAccessCodeLevel
  *
- * Feature Access Code Level defining group policy how Feature Access Codes will be
- * used by a group.
+ * Feature Access Code Level defining group policy how Feature Access Codes will be used by a group.
  *
  * @method static GroupFeatureAccessCodeLevel SERVICE_PROVIDER()
  * @method static GroupFeatureAccessCodeLevel GROUP()

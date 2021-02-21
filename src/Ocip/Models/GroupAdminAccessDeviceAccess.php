@@ -10,8 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *        "Associate User With Device" indicates
  *          1) read-only access to devices, but
  *          2) the group administrator may associate users with devices
- *        "Read-Only" indicates read-only access to devices and user-device
- * associations
+ *        "Read-Only" indicates read-only access to devices and user-device associations
  *
  * @method static GroupAdminAccessDeviceAccess FULL()
  * @method static GroupAdminAccessDeviceAccess ASSOCIATE_USER_WITH_DEVICE()

@@ -34,15 +34,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static CallBlockingService22V2 SAC()
  * @method static CallBlockingService22V2 INCOMING_COMMUNICATION_BARRING()
  * @method static CallBlockingService22V2 HIERARCHICAL_COMMUNICATION_BARRING()
- * @method static CallBlockingService22V2
- * INCOMING_HIERARCHICAL_COMMUNICATION_BARRING()
+ * @method static CallBlockingService22V2 INCOMING_HIERARCHICAL_COMMUNICATION_BARRING()
  * @method static CallBlockingService22V2 BROADWORKS_MOBILITY_DENY_ORIGINATIONS()
  * @method static CallBlockingService22V2 BROADWORKS_MOBILITY_DENY_TERMINATIONS()
  * @method static CallBlockingService22V2 ENTERPRISE_TRUNK_ROUTE_EXHAUST()
  * @method static CallBlockingService22V2 CALL_PARK()
  * @method static CallBlockingService22V2 NUMBER_PORTABILITY()
- * @method static CallBlockingService22V2
- * MAXIMUM_CONCURRENT_TERMINATING_ALERTING_REQUESTS()
+ * @method static CallBlockingService22V2 MAXIMUM_CONCURRENT_TERMINATING_ALERTING_REQUESTS()
  * @method static CallBlockingService22V2 AUTOMATIC_COLLECT_CALL()
  * @EnumValueType string
  */

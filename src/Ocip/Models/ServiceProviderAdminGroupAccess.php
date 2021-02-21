@@ -9,8 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         within the service provider.
  *
  * @method static ServiceProviderAdminGroupAccess FULL()
- * @method static ServiceProviderAdminGroupAccess
- * RESTRICTED_FROM_ADDING_OR_REMOVING_GROUPS()
+ * @method static ServiceProviderAdminGroupAccess RESTRICTED_FROM_ADDING_OR_REMOVING_GROUPS()
  * @method static ServiceProviderAdminGroupAccess NONE()
  * @EnumValueType string
  */

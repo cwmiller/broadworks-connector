@@ -5,8 +5,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * GroupExtensionAccess
  *
- * Group's policy for accessing extension dialing configuration (i.e. - length of
- * extensions).
+ * Group's policy for accessing extension dialing configuration (i.e. - length of extensions).
  *
  * @method static GroupExtensionAccess FULL()
  * @method static GroupExtensionAccess READ_ONLY()

@@ -8,8 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Internal Call CLID Policy applicable to enterprise.
  *
  * @method static EnterpriseInternalCallsCLIDPolicy USE_EXTENSION()
- * @method static EnterpriseInternalCallsCLIDPolicy
- * USE_LOCATION_CODE_PLUS_EXTENSION()
+ * @method static EnterpriseInternalCallsCLIDPolicy USE_LOCATION_CODE_PLUS_EXTENSION()
  * @method static EnterpriseInternalCallsCLIDPolicy USE_EXTERNAL_CALLS_POLICY()
  * @EnumValueType string
  */

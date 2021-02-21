@@ -29,11 +29,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static ServiceInvocationDisposition21 THIRD_PARTY_DEFLECTION()
  * @method static ServiceInvocationDisposition21 THIRD_PARTY_VOICE_MAIL_SUPPORT()
  * @method static ServiceInvocationDisposition21 TRANSFER_CONSULT()
- * @method static ServiceInvocationDisposition21
- * TRUNK_GROUP_FORWARD_CAPACITY_EXCEEDED()
+ * @method static ServiceInvocationDisposition21 TRUNK_GROUP_FORWARD_CAPACITY_EXCEEDED()
  * @method static ServiceInvocationDisposition21 TRUNK_GROUP_FORWARD_UNREACHABLE()
- * @method static ServiceInvocationDisposition21
- * TRUNK_GROUP_FORWARD_UNCONDITIONAL()
+ * @method static ServiceInvocationDisposition21 TRUNK_GROUP_FORWARD_UNCONDITIONAL()
  * @method static ServiceInvocationDisposition21 VOICE_MAIL_TRANSFER()
  * @method static ServiceInvocationDisposition21 VOICE_MESSAGING()
  * @method static ServiceInvocationDisposition21 FIND_ME_FOLLOW_ME()

@@ -5,8 +5,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * CallDispositionCodeLevel
  *
- * Identifies at which level in the system an call center call disposition code is
- * created.
+ * Identifies at which level in the system an call center call disposition code is created.
  *
  * @method static CallDispositionCodeLevel ENTERPRISE()
  * @method static CallDispositionCodeLevel GROUP()

@@ -8,8 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * The level of a device management event.
  *         It can affect one device, all devices linked to a user, all devices
  *         linked to a group, all devices
- *         linked to a service provider, all devices linked to a device type, all
- * devices
+ *         linked to a service provider, all devices linked to a device type, all devices
  *         linked to a device type and group or all devices
  *         linked to a device type and service provider.
  *

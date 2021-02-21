@@ -5,8 +5,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * ServiceCategory
  *
- * List of supported Service Categories that have configurable default attributes
- * entries.
+ * List of supported Service Categories that have configurable default attributes entries.
  *       The following elements are ignored in AS data mode:
  *          OMA Presence
  *       The following elements are ignored in XS data mode:

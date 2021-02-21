@@ -6,8 +6,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupAdminTrunkGroupAccess
  *
  * Policy for a group administrator's access to trunk groups.
- *         "Full" indicates full access to add/modify/delete trunk groups in the
- * group.
+ *         "Full" indicates full access to add/modify/delete trunk groups in the group.
  *         "Full Resources" indicates
  *           1) Restricted from adding or removing trunk groups, and
  *           2) Full access to trunk group resources

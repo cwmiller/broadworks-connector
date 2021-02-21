@@ -7,10 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Enterprise Voice VPN Digit Manipulation Operations that have a value.
  *
- * @method static EnterpriseVoiceVPNDigitManipulationOperationRequiredValue
- * POSITION()
- * @method static EnterpriseVoiceVPNDigitManipulationOperationRequiredValue
- * DELETE()
+ * @method static EnterpriseVoiceVPNDigitManipulationOperationRequiredValue POSITION()
+ * @method static EnterpriseVoiceVPNDigitManipulationOperationRequiredValue DELETE()
  * @method static EnterpriseVoiceVPNDigitManipulationOperationRequiredValue MOVE()
  * @EnumValueType string
  */

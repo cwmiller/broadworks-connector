@@ -8,8 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Internal Call CLID Policy applicable to service providers.
  *
  * @method static ServiceProviderInternalCallsCLIDPolicy USE_EXTENSION()
- * @method static ServiceProviderInternalCallsCLIDPolicy
- * USE_EXTERNAL_CALLS_POLICY()
+ * @method static ServiceProviderInternalCallsCLIDPolicy USE_EXTERNAL_CALLS_POLICY()
  * @EnumValueType string
  */
 class ServiceProviderInternalCallsCLIDPolicy extends \MyCLabs\Enum\Enum

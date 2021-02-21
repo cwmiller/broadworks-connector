@@ -5,8 +5,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * CallCategory
  *
- * The Call Category for the call provided in the most significant contact from the
- * NS
+ * The Call Category for the call provided in the most significant contact from the NS
  *
  * @method static CallCategory LOCAL()
  * @method static CallCategory NATIONAL()

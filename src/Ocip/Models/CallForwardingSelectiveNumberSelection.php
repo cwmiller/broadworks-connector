@@ -7,10 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Communication Barring Redirecting Rule
  *
- * @method static CallForwardingSelectiveNumberSelection
- * FORWARD_TO_DEFAULT_NUMBER()
- * @method static CallForwardingSelectiveNumberSelection
- * FORWARD_TO_SPECIFIED_NUMBER()
+ * @method static CallForwardingSelectiveNumberSelection FORWARD_TO_DEFAULT_NUMBER()
+ * @method static CallForwardingSelectiveNumberSelection FORWARD_TO_SPECIFIED_NUMBER()
  * @EnumValueType string
  */
 class CallForwardingSelectiveNumberSelection extends \MyCLabs\Enum\Enum

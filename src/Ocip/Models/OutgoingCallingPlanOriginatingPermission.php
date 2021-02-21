@@ -9,14 +9,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @method static OutgoingCallingPlanOriginatingPermission DISALLOW()
  * @method static OutgoingCallingPlanOriginatingPermission ALLOW()
- * @method static OutgoingCallingPlanOriginatingPermission
- * AUTHORIZATION_CODE_REQUIRED()
- * @method static OutgoingCallingPlanOriginatingPermission
- * TRANSFER_TO_FIRST_TRANSFER_NUMBER()
- * @method static OutgoingCallingPlanOriginatingPermission
- * TRANSFER_TO_SECOND_TRANSFER_NUMBER()
- * @method static OutgoingCallingPlanOriginatingPermission
- * TRANSFER_TO_THIRD_TRANSFER_NUMBER()
+ * @method static OutgoingCallingPlanOriginatingPermission AUTHORIZATION_CODE_REQUIRED()
+ * @method static OutgoingCallingPlanOriginatingPermission TRANSFER_TO_FIRST_TRANSFER_NUMBER()
+ * @method static OutgoingCallingPlanOriginatingPermission TRANSFER_TO_SECOND_TRANSFER_NUMBER()
+ * @method static OutgoingCallingPlanOriginatingPermission TRANSFER_TO_THIRD_TRANSFER_NUMBER()
  * @EnumValueType string
  */
 class OutgoingCallingPlanOriginatingPermission extends \MyCLabs\Enum\Enum

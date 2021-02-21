@@ -8,8 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Service Provider Administrator type
  *         "Normal" indicates the service provider admin is a normal admin.
  *         "Customer" indicates the service provider admin is a customer admin.
- *         "Password Reset Only" indicates the service provider admin is a password
- * reset only admin.
+ *         "Password Reset Only" indicates the service provider admin is a password reset only admin.
  *
  * @method static ServiceProviderAdminType NORMAL()
  * @method static ServiceProviderAdminType CUSTOMER()

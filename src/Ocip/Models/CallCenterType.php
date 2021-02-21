@@ -7,8 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Call center type.
  *         
- *         The following values are only used in AS data mode and will fail in XS
- * data mode:
+ *         The following values are only used in AS data mode and will fail in XS data mode:
  *           Standard
  *           Premium
  *

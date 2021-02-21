@@ -5,8 +5,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * NsScreeningFailurePolicy
  *
- * How the incomming caller ID should be displayed in the case of an NS screening
- * failure
+ * How the incomming caller ID should be displayed in the case of an NS screening failure
  *
  * @method static NsScreeningFailurePolicy DISPLAY_RECEIVED_CALLER_ID()
  * @method static NsScreeningFailurePolicy RESTRICT_NUMBER()

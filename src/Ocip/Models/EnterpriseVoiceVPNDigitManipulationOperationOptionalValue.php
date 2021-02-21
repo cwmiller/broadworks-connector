@@ -5,23 +5,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * EnterpriseVoiceVPNDigitManipulationOperationOptionalValue
  *
- * Enterprise Voice VPN Digit Manipulation Operations that may or may not have a
- * value.
+ * Enterprise Voice VPN Digit Manipulation Operations that may or may not have a value.
  *
- * @method static EnterpriseVoiceVPNDigitManipulationOperationOptionalValue
- * PREPEND()
- * @method static EnterpriseVoiceVPNDigitManipulationOperationOptionalValue
- * OVERWRITE()
- * @method static EnterpriseVoiceVPNDigitManipulationOperationOptionalValue
- * RIGHT_TRIM()
- * @method static EnterpriseVoiceVPNDigitManipulationOperationOptionalValue
- * REPLACE_ALL()
- * @method static EnterpriseVoiceVPNDigitManipulationOperationOptionalValue
- * LEFT_TRIM()
- * @method static EnterpriseVoiceVPNDigitManipulationOperationOptionalValue
- * APPEND()
- * @method static EnterpriseVoiceVPNDigitManipulationOperationOptionalValue
- * INSERT()
+ * @method static EnterpriseVoiceVPNDigitManipulationOperationOptionalValue PREPEND()
+ * @method static EnterpriseVoiceVPNDigitManipulationOperationOptionalValue OVERWRITE()
+ * @method static EnterpriseVoiceVPNDigitManipulationOperationOptionalValue RIGHT_TRIM()
+ * @method static EnterpriseVoiceVPNDigitManipulationOperationOptionalValue REPLACE_ALL()
+ * @method static EnterpriseVoiceVPNDigitManipulationOperationOptionalValue LEFT_TRIM()
+ * @method static EnterpriseVoiceVPNDigitManipulationOperationOptionalValue APPEND()
+ * @method static EnterpriseVoiceVPNDigitManipulationOperationOptionalValue INSERT()
  * @method static EnterpriseVoiceVPNDigitManipulationOperationOptionalValue TRIM()
  * @EnumValueType string
  */

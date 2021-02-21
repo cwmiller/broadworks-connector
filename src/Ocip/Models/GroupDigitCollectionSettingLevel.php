@@ -5,8 +5,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * GroupDigitCollectionSettingLevel
  *
- * Choices for the group digit collection feature to decide which type of settings
- * to use.
+ * Choices for the group digit collection feature to decide which type of settings to use.
  *
  * @method static GroupDigitCollectionSettingLevel SYSTEM()
  * @method static GroupDigitCollectionSettingLevel SERVICE_PROVIDER()

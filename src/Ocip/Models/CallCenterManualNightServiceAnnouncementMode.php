@@ -7,10 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Call center manual night service announcement mode.
  *
- * @method static CallCenterManualNightServiceAnnouncementMode
- * NORMAL_ANNOUNCEMENT()
- * @method static CallCenterManualNightServiceAnnouncementMode
- * MANUAL_ANNOUNCEMENT()
+ * @method static CallCenterManualNightServiceAnnouncementMode NORMAL_ANNOUNCEMENT()
+ * @method static CallCenterManualNightServiceAnnouncementMode MANUAL_ANNOUNCEMENT()
  * @EnumValueType string
  */
 class CallCenterManualNightServiceAnnouncementMode extends \MyCLabs\Enum\Enum

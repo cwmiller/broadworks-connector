@@ -8,10 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * MWI Delivery To Mobile Endpoint template types.
  *
  * @method static MWIDeliveryToMobileEndpointTemplateType _DEFAULT()
- * @method static MWIDeliveryToMobileEndpointTemplateType
- * SINGLE_NEW_NO_PREVIOUS_MESSAGE()
- * @method static MWIDeliveryToMobileEndpointTemplateType
- * SINGLE_NEW_WITH_PREVIOUS_MESSAGE()
+ * @method static MWIDeliveryToMobileEndpointTemplateType SINGLE_NEW_NO_PREVIOUS_MESSAGE()
+ * @method static MWIDeliveryToMobileEndpointTemplateType SINGLE_NEW_WITH_PREVIOUS_MESSAGE()
  * @method static MWIDeliveryToMobileEndpointTemplateType MULTIPLE_NEW_MESSAGES()
  * @EnumValueType string
  */

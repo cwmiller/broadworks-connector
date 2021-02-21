@@ -5,8 +5,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * ServiceProviderAdminVerifyTranslationAndRoutingAccess
  *
- * Service Provider Administrator's policy for accessing to Verify Translation and
- * Routing feature.
+ * Service Provider Administrator's policy for accessing to Verify Translation and Routing feature.
  *
  * @method static ServiceProviderAdminVerifyTranslationAndRoutingAccess FULL()
  * @method static ServiceProviderAdminVerifyTranslationAndRoutingAccess NONE()

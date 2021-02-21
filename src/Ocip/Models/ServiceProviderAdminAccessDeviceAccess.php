@@ -8,8 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Service Provider Administrator's policy for accessing access devices.
  *
  * @method static ServiceProviderAdminAccessDeviceAccess FULL()
- * @method static ServiceProviderAdminAccessDeviceAccess
- * ASSOCIATE_USER_WITH_DEVICE()
+ * @method static ServiceProviderAdminAccessDeviceAccess ASSOCIATE_USER_WITH_DEVICE()
  * @method static ServiceProviderAdminAccessDeviceAccess READ_ONLY()
  * @EnumValueType string
  */

@@ -10,8 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static ServicePolicyProfileCategory CALL_PROCESSING_PARAMETERS()
  * @method static ServicePolicyProfileCategory CALL_TYPES_MAPPING()
  * @method static ServicePolicyProfileCategory CONFIGURABLE_TREATMENTS()
- * @method static ServicePolicyProfileCategory
- * EXTERNAL_EMERGENCY_ROUTING_PARAMETERS()
+ * @method static ServicePolicyProfileCategory EXTERNAL_EMERGENCY_ROUTING_PARAMETERS()
  * @method static ServicePolicyProfileCategory GETS()
  * @method static ServicePolicyProfileCategory PROVISIONING_VALIDATION()
  * @method static ServicePolicyProfileCategory SERVICES()

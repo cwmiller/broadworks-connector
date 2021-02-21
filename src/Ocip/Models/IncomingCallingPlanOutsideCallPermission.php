@@ -8,8 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Indicates whether incoming outside calls are permitted.
  *
  * @method static IncomingCallingPlanOutsideCallPermission ALLOW()
- * @method static IncomingCallingPlanOutsideCallPermission
- * ALLOW_ONLY_IF_REDIRECTED_FROM_ANOTHER_USER()
+ * @method static IncomingCallingPlanOutsideCallPermission ALLOW_ONLY_IF_REDIRECTED_FROM_ANOTHER_USER()
  * @method static IncomingCallingPlanOutsideCallPermission DISALLOW()
  * @EnumValueType string
  */

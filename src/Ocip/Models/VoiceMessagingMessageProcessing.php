@@ -7,8 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Choices to handle a voice message.
  *
- * @method static VoiceMessagingMessageProcessing
- * UNIFIED_VOICE_AND_EMAIL_MESSAGING()
+ * @method static VoiceMessagingMessageProcessing UNIFIED_VOICE_AND_EMAIL_MESSAGING()
  * @method static VoiceMessagingMessageProcessing DELIVER_TO_EMAIL_ADDRESS_ONLY()
  * @EnumValueType string
  */

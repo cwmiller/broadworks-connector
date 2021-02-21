@@ -7,10 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Trunk Group Pilot User Charge Number policy
  *
- * @method static TrunkGroupPilotUserChargeNumberUsagePolicy
- * ALL_ORIGINATING_CALLS()
- * @method static TrunkGroupPilotUserChargeNumberUsagePolicy
- * UNSCREENED_ORIGINATING_CALLS()
+ * @method static TrunkGroupPilotUserChargeNumberUsagePolicy ALL_ORIGINATING_CALLS()
+ * @method static TrunkGroupPilotUserChargeNumberUsagePolicy UNSCREENED_ORIGINATING_CALLS()
  * @method static TrunkGroupPilotUserChargeNumberUsagePolicy NO_CALLS()
  * @EnumValueType string
  */

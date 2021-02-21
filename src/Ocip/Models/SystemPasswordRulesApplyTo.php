@@ -9,12 +9,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The rules could apply to the
  *           (1) System, Provisioning Administrator
  *           (2) System, Provisioning, Service Provider Administrator
- *           (3) Administrator (System, Provisioning, Service Provider, Group and
- * Department) and Users.
+ *           (3) Administrator (System, Provisioning, Service Provider, Group and Department) and Users.
  *
  * @method static SystemPasswordRulesApplyTo SYSTEM_PROVISIONING_ADMINISTRATOR()
- * @method static SystemPasswordRulesApplyTo
- * SYSTEM_PROVISIONING_SERVICE_PROVIDER_ADMINISTRATOR()
+ * @method static SystemPasswordRulesApplyTo SYSTEM_PROVISIONING_SERVICE_PROVIDER_ADMINISTRATOR()
  * @method static SystemPasswordRulesApplyTo ADMINISTRATOR_AND_USER()
  * @EnumValueType string
  */

@@ -7,12 +7,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Trunk Group out-of-dialog PBX Redirection Originator Lookup policy.
  *
- * @method static TrunkGroupOutOfDialogPBXRedirectionOriginatorLookupPolicy
- * ASSERTED()
- * @method static TrunkGroupOutOfDialogPBXRedirectionOriginatorLookupPolicy
- * PRESENTATION()
- * @method static TrunkGroupOutOfDialogPBXRedirectionOriginatorLookupPolicy
- * ASSERTED_OR_PRESENTATION()
+ * @method static TrunkGroupOutOfDialogPBXRedirectionOriginatorLookupPolicy ASSERTED()
+ * @method static TrunkGroupOutOfDialogPBXRedirectionOriginatorLookupPolicy PRESENTATION()
+ * @method static TrunkGroupOutOfDialogPBXRedirectionOriginatorLookupPolicy ASSERTED_OR_PRESENTATION()
  * @EnumValueType string
  */
 class TrunkGroupOutOfDialogPBXRedirectionOriginatorLookupPolicy extends \MyCLabs\Enum\Enum

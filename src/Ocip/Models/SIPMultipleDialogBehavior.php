@@ -8,8 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Choices
  *
  * @method static SIPMultipleDialogBehavior MULTIPLE_DIALOGS()
- * @method static SIPMultipleDialogBehavior
- * MULTIPLE_DIALOGS_WITH_ERROR_CORRECTION()
+ * @method static SIPMultipleDialogBehavior MULTIPLE_DIALOGS_WITH_ERROR_CORRECTION()
  * @EnumValueType string
  */
 class SIPMultipleDialogBehavior extends \MyCLabs\Enum\Enum

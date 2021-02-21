@@ -5,8 +5,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * CallCenterScheduledServiceAction
  *
- * Call center scheduled service (Night Services, Holiday Services, etc.)
- * processing action.
+ * Call center scheduled service (Night Services, Holiday Services, etc.) processing action.
  *
  * @method static CallCenterScheduledServiceAction NONE()
  * @method static CallCenterScheduledServiceAction BUSY()

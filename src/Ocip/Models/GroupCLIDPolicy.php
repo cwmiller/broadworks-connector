@@ -6,8 +6,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupCLIDPolicy
  *
  * Calling Line ID Policy Selections.
- *         NOTE:  The "Use Group CLID" value indicates the department CLID will be
- * used if available otherwise the group CLID is used.
+ *         NOTE:  The "Use Group CLID" value indicates the department CLID will be used if available otherwise the group CLID is used.
  *
  * @method static GroupCLIDPolicy USE_DN()
  * @method static GroupCLIDPolicy USE_CONFIGURABLE_CLID()

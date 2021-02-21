@@ -6,13 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * AudioFileCodec22
  *
  * Audio file codec.
- *         The following values are only used in XS data mode and will fail in AS
- * data mode:
+ *         The following values are only used in XS data mode and will fail in AS data mode:
  *           EVRC0
  *           EVRCNW
  *           EVRCNW0
- *         The following values are only used in AS data mode and will fail in XS
- * data mode: 
+ *         The following values are only used in AS data mode and will fail in XS data mode: 
  *           OPUS
  *
  * @method static AudioFileCodec22 NONE()

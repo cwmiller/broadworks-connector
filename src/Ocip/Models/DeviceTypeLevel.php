@@ -5,8 +5,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * DeviceTypeLevel
  *
- * Identifies at which level in the system an identity/device profile type is
- * created.
+ * Identifies at which level in the system an identity/device profile type is created.
  *
  * @method static DeviceTypeLevel SYSTEM()
  * @method static DeviceTypeLevel RESELLER()

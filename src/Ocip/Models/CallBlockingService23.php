@@ -35,18 +35,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static CallBlockingService23 SAC()
  * @method static CallBlockingService23 INCOMING_COMMUNICATION_BARRING()
  * @method static CallBlockingService23 HIERARCHICAL_COMMUNICATION_BARRING()
- * @method static CallBlockingService23
- * INCOMING_HIERARCHICAL_COMMUNICATION_BARRING()
+ * @method static CallBlockingService23 INCOMING_HIERARCHICAL_COMMUNICATION_BARRING()
  * @method static CallBlockingService23 BROADWORKS_MOBILITY_DENY_ORIGINATIONS()
  * @method static CallBlockingService23 BROADWORKS_MOBILITY_DENY_TERMINATIONS()
  * @method static CallBlockingService23 ENTERPRISE_TRUNK_ROUTE_EXHAUST()
  * @method static CallBlockingService23 CALL_PARK()
  * @method static CallBlockingService23 NUMBER_PORTABILITY()
- * @method static CallBlockingService23
- * MAXIMUM_CONCURRENT_TERMINATING_ALERTING_REQUESTS()
+ * @method static CallBlockingService23 MAXIMUM_CONCURRENT_TERMINATING_ALERTING_REQUESTS()
  * @method static CallBlockingService23 AUTOMATIC_COLLECT_CALL()
- * @method static CallBlockingService23
- * ENTERPRISE_TRUNK_ROUTE_EXHAUST_UNREACHABLE()
+ * @method static CallBlockingService23 ENTERPRISE_TRUNK_ROUTE_EXHAUST_UNREACHABLE()
  * @EnumValueType string
  */
 class CallBlockingService23 extends \MyCLabs\Enum\Enum

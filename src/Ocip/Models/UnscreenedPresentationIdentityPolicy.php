@@ -7,12 +7,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Unscreened Presentation Identity Policy Options
  *
- * @method static UnscreenedPresentationIdentityPolicy
- * PROFILE_PRESENTATION_IDENTITY()
- * @method static UnscreenedPresentationIdentityPolicy
- * UNSCREENED_PRESENTATION_IDENTITY()
- * @method static UnscreenedPresentationIdentityPolicy
- * UNSCREENED_PRESENTATION_IDENTITY_WITH_PROFILE_DOMAIN()
+ * @method static UnscreenedPresentationIdentityPolicy PROFILE_PRESENTATION_IDENTITY()
+ * @method static UnscreenedPresentationIdentityPolicy UNSCREENED_PRESENTATION_IDENTITY()
+ * @method static UnscreenedPresentationIdentityPolicy UNSCREENED_PRESENTATION_IDENTITY_WITH_PROFILE_DOMAIN()
  * @EnumValueType string
  */
 class UnscreenedPresentationIdentityPolicy extends \MyCLabs\Enum\Enum

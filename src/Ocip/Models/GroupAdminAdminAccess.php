@@ -5,8 +5,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * GroupAdminAdminAccess
  *
- * Policy for a group administrator's access to group administrators and department
- * administrators.
+ * Policy for a group administrator's access to group administrators and department administrators.
  *
  * @method static GroupAdminAdminAccess FULL()
  * @method static GroupAdminAdminAccess READ_ONLY()

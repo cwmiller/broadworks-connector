@@ -5,8 +5,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * ProtectionAction
  *
- * The action to take for SIP messages that are not processed during Emergency
- * DDos.
+ * The action to take for SIP messages that are not processed during Emergency DDos.
  *          Decline      = Respond to the message with 603 + Retry-After
  *          Drop         = Do not respond
  *          Error        = Respond to the message with 503

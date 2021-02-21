@@ -7,8 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Mailbox Id type on Third Party Voice Mail platform.
  *
- * @method static ThirdPartyVoiceMailSupportMailboxIdType
- * USER_OR_GROUP_PHONE_NUMBER()
+ * @method static ThirdPartyVoiceMailSupportMailboxIdType USER_OR_GROUP_PHONE_NUMBER()
  * @method static ThirdPartyVoiceMailSupportMailboxIdType URL()
  * @EnumValueType string
  */

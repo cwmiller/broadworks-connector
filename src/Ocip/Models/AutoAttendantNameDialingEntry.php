@@ -8,8 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * The format callers should use when dialing by name.
  *
  * @method static AutoAttendantNameDialingEntry LASTNAME_FIRSTNAME()
- * @method static AutoAttendantNameDialingEntry
- * LASTNAME_FIRSTNAME_OR_FIRSTNAME_LASTNAME()
+ * @method static AutoAttendantNameDialingEntry LASTNAME_FIRSTNAME_OR_FIRSTNAME_LASTNAME()
  * @EnumValueType string
  */
 class AutoAttendantNameDialingEntry extends \MyCLabs\Enum\Enum

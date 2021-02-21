@@ -5,8 +5,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * NetworkType
  *
- * The Type of Network for the call provided in the most significant contact from
- * the NS
+ * The Type of Network for the call provided in the most significant contact from the NS
  *
  * @method static NetworkType _PRIVATE()
  * @method static NetworkType _PUBLIC()

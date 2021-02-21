@@ -1,5 +1,9 @@
 # Changelog
 
+## [3.1.3] - 2021-02-21
+### Fixed
+- Fixed comments on Enum types being word wrapped and breaking method annotations.
+
 ## [3.1.2] - 2020-04-10
 ### Fixed
 - Fixed serialization error when setting a property to NULL when the property's type is abstract.

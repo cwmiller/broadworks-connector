@@ -1,5 +1,9 @@
 # Changelog
 
+## [3.1.4] - 2021-06-06
+### Added
+- Added missing commands UserAnnouncementFileLocationGetRequest and GroupAnnouncementFileLocationGetRequest.
+
 ## [3.1.3] - 2021-02-21
 ### Fixed
 - Fixed comments on Enum types being word wrapped and breaking method annotations.
@@ -106,6 +110,8 @@
 ### Added
 - `OcipClient` now exposes helper methods for every request object.
 
+[3.1.4]: https://github.com/cwmiller/broadworks-connector/compare/3.1.3...3.1.4
+[3.1.3]: https://github.com/cwmiller/broadworks-connector/compare/3.1.2...3.1.3
 [3.1.2]: https://github.com/cwmiller/broadworks-connector/compare/3.1.1...3.1.2
 [3.1.1]: https://github.com/cwmiller/broadworks-connector/compare/3.1.0...3.1.1
 [3.1.0]: https://github.com/cwmiller/broadworks-connector/compare/3.0.4...3.1.0

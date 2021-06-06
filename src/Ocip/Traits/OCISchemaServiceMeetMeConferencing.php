@@ -49,8 +49,8 @@ use CWM\BroadWorksConnector\Ocip\Models\UserMeetMeConferencingGetConferenceRespo
 use CWM\BroadWorksConnector\Ocip\Models\UserMeetMeConferencingModifyConferenceDelegateListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserMeetMeConferencingModifyConferenceGreetingRequest20;
 use CWM\BroadWorksConnector\Ocip\Models\UserMeetMeConferencingModifyConferenceRequest;
-use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
-use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceMeetMeConferencing

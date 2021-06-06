@@ -12,8 +12,8 @@ use CWM\BroadWorksConnector\Ocip\Models\SystemAutomaticCollectCallPrefixDigitsGe
 use CWM\BroadWorksConnector\Ocip\Models\UserAutomaticCollectCallGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserAutomaticCollectCallGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserAutomaticCollectCallModifyRequest;
-use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
-use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceAutomaticCollectCall

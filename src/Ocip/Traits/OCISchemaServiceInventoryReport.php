@@ -7,8 +7,8 @@ use CWM\BroadWorksConnector\Ocip\Models\GroupInventoryReportGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\SystemInventoryReportGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemInventoryReportGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\SystemInventoryReportModifyRequest;
-use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
-use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceInventoryReport

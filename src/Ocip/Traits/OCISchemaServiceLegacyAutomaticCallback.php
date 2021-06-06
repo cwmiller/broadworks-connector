@@ -11,8 +11,8 @@ use CWM\BroadWorksConnector\Ocip\Models\SystemLegacyAutomaticCallbackModifyReque
 use CWM\BroadWorksConnector\Ocip\Models\UserLegacyAutomaticCallbackGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserLegacyAutomaticCallbackGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserLegacyAutomaticCallbackModifyRequest;
-use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
-use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceLegacyAutomaticCallback

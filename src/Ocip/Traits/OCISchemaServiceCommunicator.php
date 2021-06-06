@@ -7,8 +7,8 @@ use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderBroadWorksCommunicatorGet
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderBroadWorksCommunicatorModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksCommunicatorGetRequest;
-use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
-use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksCommunicatorGetResponse;
 
 trait OCISchemaServiceCommunicator

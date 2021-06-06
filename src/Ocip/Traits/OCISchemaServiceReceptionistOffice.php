@@ -7,8 +7,8 @@ use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksReceptionistOfficeGetAvail
 use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksReceptionistOfficeGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksReceptionistOfficeGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksReceptionistOfficeModifyRequest;
-use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
-use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceReceptionistOffice

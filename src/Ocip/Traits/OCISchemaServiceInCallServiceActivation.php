@@ -11,8 +11,8 @@ use CWM\BroadWorksConnector\Ocip\Models\SystemInCallServiceActivationModifyReque
 use CWM\BroadWorksConnector\Ocip\Models\UserInCallServiceActivationGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserInCallServiceActivationGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserInCallServiceActivationModifyRequest;
-use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
-use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceInCallServiceActivation

@@ -13,8 +13,8 @@ use CWM\BroadWorksConnector\Ocip\Models\UserCustomRingbackUserGetCriteriaRequest
 use CWM\BroadWorksConnector\Ocip\Models\UserCustomRingbackUserGetCriteriaResponse21;
 use CWM\BroadWorksConnector\Ocip\Models\UserCustomRingbackUserModifyActiveCriteriaListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserCustomRingbackUserModifyCriteriaRequest20;
-use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
-use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceCustomRingback

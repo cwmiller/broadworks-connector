@@ -21,8 +21,8 @@ use CWM\BroadWorksConnector\Ocip\Models\UserVoiceMessagingUserGetVoicePortalRequ
 use CWM\BroadWorksConnector\Ocip\Models\UserVoiceMessagingUserGetVoicePortalResponse16;
 use CWM\BroadWorksConnector\Ocip\Models\UserVoiceMessagingUserModifyGreetingRequest16;
 use CWM\BroadWorksConnector\Ocip\Models\UserVoiceMessagingUserModifyVoicePortalRequest16;
-use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
-use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaASDeprecatedSpecialExceptions

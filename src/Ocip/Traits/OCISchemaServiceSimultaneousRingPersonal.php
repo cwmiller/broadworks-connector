@@ -10,8 +10,8 @@ use CWM\BroadWorksConnector\Ocip\Models\UserSimultaneousRingPersonalGetRequest17
 use CWM\BroadWorksConnector\Ocip\Models\UserSimultaneousRingPersonalGetResponse17;
 use CWM\BroadWorksConnector\Ocip\Models\UserSimultaneousRingPersonalModifyCriteriaRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserSimultaneousRingPersonalModifyRequest17;
-use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
-use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceSimultaneousRingPersonal

@@ -18,8 +18,8 @@ use CWM\BroadWorksConnector\Ocip\Models\UserMusicOnHoldModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserMusicOnHoldUserGetRequest20;
 use CWM\BroadWorksConnector\Ocip\Models\UserMusicOnHoldUserGetResponse20;
 use CWM\BroadWorksConnector\Ocip\Models\UserMusicOnHoldUserModifyRequest20;
-use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
-use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceMusicOnHold

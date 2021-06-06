@@ -7,8 +7,8 @@ use CWM\BroadWorksConnector\Ocip\Models\GroupVoiceMessagingGroupModifyVoicePorta
 use CWM\BroadWorksConnector\Ocip\Models\UserMeetMeConferencingModifyConferenceGreetingExecutionServerRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserVoiceMessagingUserModifyGreetingExecutionServerRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserVoiceMessagingUserModifyVoicePortalExecutionServerRequest;
-use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
-use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait XSOCI

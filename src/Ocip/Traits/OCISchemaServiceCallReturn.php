@@ -5,8 +5,8 @@ namespace CWM\BroadWorksConnector\Ocip\Traits;
 use CWM\BroadWorksConnector\Ocip\Models\SystemCallReturnGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemCallReturnGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\SystemCallReturnModifyRequest;
-use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
-use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceCallReturn

@@ -5,8 +5,8 @@ namespace CWM\BroadWorksConnector\Ocip\Traits;
 use CWM\BroadWorksConnector\Ocip\Models\SystemLocationBasedCallingRestrictionsGetRequest17sp3;
 use CWM\BroadWorksConnector\Ocip\Models\SystemLocationBasedCallingRestrictionsGetResponse17sp3;
 use CWM\BroadWorksConnector\Ocip\Models\SystemLocationBasedCallingRestrictionsModifyRequest;
-use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
-use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceLocationBasedCallingRestrictions

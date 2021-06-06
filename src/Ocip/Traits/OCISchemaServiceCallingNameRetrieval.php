@@ -8,8 +8,8 @@ use CWM\BroadWorksConnector\Ocip\Models\SystemCallingNameRetrievalModifyRequest2
 use CWM\BroadWorksConnector\Ocip\Models\UserCallingNameRetrievalGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserCallingNameRetrievalGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserCallingNameRetrievalModifyRequest;
-use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
-use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceCallingNameRetrieval

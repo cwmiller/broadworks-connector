@@ -5,8 +5,8 @@ namespace CWM\BroadWorksConnector\Ocip\Traits;
 use CWM\BroadWorksConnector\Ocip\Models\UserBargeInExemptGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserBargeInExemptGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserBargeInExemptModifyRequest;
-use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
-use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceBargeInExempt

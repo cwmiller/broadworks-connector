@@ -20,8 +20,8 @@ use CWM\BroadWorksConnector\Ocip\Models\SystemSecurityClassificationModifyReques
 use CWM\BroadWorksConnector\Ocip\Models\UserSecurityClassificationGetRequest22;
 use CWM\BroadWorksConnector\Ocip\Models\UserSecurityClassificationGetResponse22;
 use CWM\BroadWorksConnector\Ocip\Models\UserSecurityClassificationModifyRequest;
-use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
-use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceSecurityClassification

@@ -12,8 +12,8 @@ use CWM\BroadWorksConnector\Ocip\Models\UserBusyLampFieldGetAvailableUserListRes
 use CWM\BroadWorksConnector\Ocip\Models\UserBusyLampFieldGetRequest16sp2;
 use CWM\BroadWorksConnector\Ocip\Models\UserBusyLampFieldGetResponse16sp2;
 use CWM\BroadWorksConnector\Ocip\Models\UserBusyLampFieldModifyRequest;
-use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
-use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceBusyLampField

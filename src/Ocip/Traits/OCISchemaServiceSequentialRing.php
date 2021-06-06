@@ -10,8 +10,8 @@ use CWM\BroadWorksConnector\Ocip\Models\UserSequentialRingGetRequest14sp4;
 use CWM\BroadWorksConnector\Ocip\Models\UserSequentialRingGetResponse14sp4;
 use CWM\BroadWorksConnector\Ocip\Models\UserSequentialRingModifyCriteriaRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserSequentialRingModifyRequest;
-use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
-use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceSequentialRing

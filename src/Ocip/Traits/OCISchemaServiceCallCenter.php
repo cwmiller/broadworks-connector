@@ -256,7 +256,7 @@ use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterStrandedCallGetRequest20;
 use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterStrandedCallGetResponse20;
 use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterStrandedCallModifyRequest20;
 use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterStrandedCallUnavailableGetRequest20;
-use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterStrandedCallUnavailableGetResponse;
+use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterStrandedCallUnavailableGetResponse20;
 use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterStrandedCallUnavailableModifyRequest20;
 use CWM\BroadWorksConnector\Ocip\Models\ResellerCallCenterGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ResellerCallCenterGetResponse;
@@ -321,8 +321,8 @@ use CWM\BroadWorksConnector\Ocip\Models\UserCallCenterGetSupervisorCallCenterLis
 use CWM\BroadWorksConnector\Ocip\Models\UserCallCenterModifyCallCenterListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserCallCenterModifyRequest19;
 use CWM\BroadWorksConnector\Ocip\Models\UserCallCenterModifySupervisedAgentListRequest;
-use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
-use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceCallCenter
@@ -2156,7 +2156,7 @@ trait OCISchemaServiceCallCenter
 
     /**
      * @param GroupCallCenterStrandedCallUnavailableGetRequest20 $request
-     * @return GroupCallCenterStrandedCallUnavailableGetResponse
+     * @return GroupCallCenterStrandedCallUnavailableGetResponse20
      * @throws ErrorResponseException
      * @throws ValidationException
      */

@@ -7,8 +7,8 @@ use CWM\BroadWorksConnector\Ocip\Models\UserHotelingGuestGetAvailableUserListRes
 use CWM\BroadWorksConnector\Ocip\Models\UserHotelingGuestGetRequest14sp4;
 use CWM\BroadWorksConnector\Ocip\Models\UserHotelingGuestGetResponse14sp4;
 use CWM\BroadWorksConnector\Ocip\Models\UserHotelingGuestModifyRequest21;
-use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
-use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceHotelingGuest

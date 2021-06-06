@@ -8,8 +8,8 @@ use CWM\BroadWorksConnector\Ocip\Models\SystemCallWaitingModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserCallWaitingGetRequest17sp4;
 use CWM\BroadWorksConnector\Ocip\Models\UserCallWaitingGetResponse17sp4;
 use CWM\BroadWorksConnector\Ocip\Models\UserCallWaitingModifyRequest;
-use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
-use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceCallWaiting

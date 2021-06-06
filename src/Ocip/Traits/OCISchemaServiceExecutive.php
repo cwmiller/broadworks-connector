@@ -21,8 +21,8 @@ use CWM\BroadWorksConnector\Ocip\Models\UserExecutiveModifyAssistantRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserExecutiveModifyFilteringRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserExecutiveModifyFilteringSelectiveCriteriaRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserExecutiveModifyScreeningAlertingRequest;
-use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
-use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceExecutive

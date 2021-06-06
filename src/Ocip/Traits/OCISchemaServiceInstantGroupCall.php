@@ -10,8 +10,8 @@ use CWM\BroadWorksConnector\Ocip\Models\GroupInstantGroupCallGetInstanceRequest1
 use CWM\BroadWorksConnector\Ocip\Models\GroupInstantGroupCallGetInstanceResponse19sp1;
 use CWM\BroadWorksConnector\Ocip\Models\GroupInstantGroupCallModifyActiveInstanceListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupInstantGroupCallModifyInstanceRequest;
-use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
-use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceInstantGroupCall

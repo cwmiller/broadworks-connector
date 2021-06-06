@@ -98,8 +98,8 @@ use CWM\BroadWorksConnector\Ocip\Models\UserOutgoingCallingPlanSustainedAuthoriz
 use CWM\BroadWorksConnector\Ocip\Models\UserOutgoingCallingPlanTransferNumbersGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserOutgoingCallingPlanTransferNumbersGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserOutgoingCallingPlanTransferNumbersModifyRequest;
-use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
-use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceOutgoingCallingPlan

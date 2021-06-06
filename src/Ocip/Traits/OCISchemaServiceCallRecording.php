@@ -22,8 +22,8 @@ use CWM\BroadWorksConnector\Ocip\Models\SystemCallRecordingModifyRequest22;
 use CWM\BroadWorksConnector\Ocip\Models\UserCallRecordingGetRequest20;
 use CWM\BroadWorksConnector\Ocip\Models\UserCallRecordingGetResponse20;
 use CWM\BroadWorksConnector\Ocip\Models\UserCallRecordingModifyRequest;
-use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
-use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceCallRecording

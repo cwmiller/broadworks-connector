@@ -334,8 +334,8 @@ use CWM\BroadWorksConnector\Ocip\Models\GroupUserCallingPlanSettingsGetListRespo
 use CWM\BroadWorksConnector\Ocip\Models\GroupUserCallWaitingSettingsGetListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupUserCallWaitingSettingsGetListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupUserHotelingGuestSettingsGetListRequest;
-use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
-use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\GroupUserHotelingGuestSettingsGetListResponse;
 
 trait OCISchemaGroup

@@ -11,8 +11,8 @@ use CWM\BroadWorksConnector\Ocip\Models\SystemGroupNightForwardingModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserGroupNightForwardingGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserGroupNightForwardingGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserGroupNightForwardingModifyRequest;
-use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
-use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceGroupNightForwarding

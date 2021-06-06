@@ -19,8 +19,8 @@ use CWM\BroadWorksConnector\Ocip\Models\SystemAdviceOfChargeModifyRequest19sp1;
 use CWM\BroadWorksConnector\Ocip\Models\UserAdviceOfChargeGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserAdviceOfChargeGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserAdviceOfChargeModifyRequest;
-use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
-use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceAdviceOfCharge

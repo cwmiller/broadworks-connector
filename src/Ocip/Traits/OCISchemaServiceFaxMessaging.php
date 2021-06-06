@@ -8,8 +8,8 @@ use CWM\BroadWorksConnector\Ocip\Models\SystemFaxMessagingModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserFaxMessagingGetRequest17sp1;
 use CWM\BroadWorksConnector\Ocip\Models\UserFaxMessagingGetResponse17sp1;
 use CWM\BroadWorksConnector\Ocip\Models\UserFaxMessagingModifyRequest;
-use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
-use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceFaxMessaging

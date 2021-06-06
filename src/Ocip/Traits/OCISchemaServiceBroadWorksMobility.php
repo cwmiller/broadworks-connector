@@ -75,8 +75,8 @@ use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksMobilityMobileIdentityGetR
 use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksMobilityMobileIdentityGetResponse22V2;
 use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksMobilityMobileIdentityModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksMobilityModifyRequest21;
-use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
-use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceBroadWorksMobility

@@ -10,8 +10,8 @@ use CWM\BroadWorksConnector\Ocip\Models\GroupVoiceXmlGetInstanceRequest22;
 use CWM\BroadWorksConnector\Ocip\Models\GroupVoiceXmlGetInstanceResponse22;
 use CWM\BroadWorksConnector\Ocip\Models\GroupVoiceXmlModifyActiveInstanceListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupVoiceXmlModifyInstanceRequest;
-use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
-use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceVoiceXml

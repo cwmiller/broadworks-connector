@@ -57,8 +57,8 @@ use CWM\BroadWorksConnector\Ocip\Models\UserVoiceMessagingUserModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserVoiceMessagingUserModifyRequest23;
 use CWM\BroadWorksConnector\Ocip\Models\UserVoiceMessagingUserModifyVoiceManagementRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserVoiceMessagingUserModifyVoicePortalRequest20;
-use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
-use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceVoiceMessaging

@@ -32,8 +32,8 @@ use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderGroupPagingTargetsCapacit
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderGroupPagingTargetsCapacityModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserGroupPagingGetListRequest;
-use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
-use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\UserGroupPagingGetListResponse;
 
 trait OCISchemaServiceGroupPaging

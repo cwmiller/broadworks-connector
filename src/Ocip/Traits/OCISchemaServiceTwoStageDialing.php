@@ -10,8 +10,8 @@ use CWM\BroadWorksConnector\Ocip\Models\SystemTwoStageDialingModifyDnRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserTwoStageDialingGetRequest13Mp20;
 use CWM\BroadWorksConnector\Ocip\Models\UserTwoStageDialingGetResponse13Mp20;
 use CWM\BroadWorksConnector\Ocip\Models\UserTwoStageDialingModifyRequest;
-use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
-use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceTwoStageDialing

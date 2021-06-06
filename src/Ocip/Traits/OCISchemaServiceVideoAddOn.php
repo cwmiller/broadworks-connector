@@ -7,8 +7,8 @@ use CWM\BroadWorksConnector\Ocip\Models\UserVideoAddOnGetResponse19;
 use CWM\BroadWorksConnector\Ocip\Models\UserVideoAddOnGetRequest22;
 use CWM\BroadWorksConnector\Ocip\Models\UserVideoAddOnGetResponse22;
 use CWM\BroadWorksConnector\Ocip\Models\UserVideoAddOnModifyRequest14;
-use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
-use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceVideoAddOn

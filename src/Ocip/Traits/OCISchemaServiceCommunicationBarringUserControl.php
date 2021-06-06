@@ -8,8 +8,8 @@ use CWM\BroadWorksConnector\Ocip\Models\SystemCommunicationBarringUserControlMod
 use CWM\BroadWorksConnector\Ocip\Models\UserCommunicationBarringUserControlGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserCommunicationBarringUserControlGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserCommunicationBarringUserControlModifyRequest;
-use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
-use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceCommunicationBarringUserControl

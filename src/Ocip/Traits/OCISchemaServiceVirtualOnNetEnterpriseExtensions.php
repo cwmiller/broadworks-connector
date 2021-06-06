@@ -16,8 +16,8 @@ use CWM\BroadWorksConnector\Ocip\Models\SystemVirtualOnNetCallTypeDeleteRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemVirtualOnNetCallTypeGetListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemVirtualOnNetCallTypeGetListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\SystemVirtualOnNetCallTypeModifyRequest;
-use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
-use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceVirtualOnNetEnterpriseExtensions

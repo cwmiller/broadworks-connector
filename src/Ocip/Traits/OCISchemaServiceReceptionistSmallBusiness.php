@@ -7,8 +7,8 @@ use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksReceptionistSmallBusinessG
 use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksReceptionistSmallBusinessGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksReceptionistSmallBusinessGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksReceptionistSmallBusinessModifyRequest;
-use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
-use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceReceptionistSmallBusiness

@@ -24,8 +24,8 @@ use CWM\BroadWorksConnector\Ocip\Models\GroupAutoAttendantSubmenuGetResponse20;
 use CWM\BroadWorksConnector\Ocip\Models\GroupAutoAttendantSubmenuGetUsageListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupAutoAttendantSubmenuGetUsageListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupAutoAttendantSubmenuModifyRequest20;
-use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
-use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceAutoAttendant

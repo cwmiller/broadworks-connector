@@ -11,8 +11,8 @@ use CWM\BroadWorksConnector\Ocip\Models\SystemResourcePriorityModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserResourcePriorityGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserResourcePriorityGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserResourcePriorityModifyRequest;
-use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
-use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceResourcePriority

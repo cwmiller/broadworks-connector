@@ -73,8 +73,8 @@ use CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNGetRequest14sp3;
 use CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNGetResponse14sp3;
 use CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNModifyPolicyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNModifyRequest;
-use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
-use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaEnterprise

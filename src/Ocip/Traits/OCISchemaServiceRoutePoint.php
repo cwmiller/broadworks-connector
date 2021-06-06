@@ -67,8 +67,8 @@ use CWM\BroadWorksConnector\Ocip\Models\UserRoutePointCallDispositionCodeGetAvai
 use CWM\BroadWorksConnector\Ocip\Models\UserRoutePointSupervisorGetListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserRoutePointSupervisorGetListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserRoutePointSupervisorModifyListRequest;
-use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
-use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceRoutePoint

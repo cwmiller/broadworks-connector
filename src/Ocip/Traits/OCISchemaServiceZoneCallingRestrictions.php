@@ -8,8 +8,8 @@ use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderZoneCallingRestrictionsMo
 use CWM\BroadWorksConnector\Ocip\Models\UserZoneCallingRestrictionsGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserZoneCallingRestrictionsGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserZoneCallingRestrictionsModifyRequest;
-use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
-use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceZoneCallingRestrictions

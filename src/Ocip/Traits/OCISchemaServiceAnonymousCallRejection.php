@@ -8,8 +8,8 @@ use CWM\BroadWorksConnector\Ocip\Models\SystemAnonymousCallRejectionModifyReques
 use CWM\BroadWorksConnector\Ocip\Models\UserAnonymousCallRejectionGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserAnonymousCallRejectionGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserAnonymousCallRejectionModifyRequest;
-use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
-use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceAnonymousCallRejection

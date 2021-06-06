@@ -68,8 +68,8 @@ use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 use CWM\BroadWorksConnector\Ocip\Models\SystemTrunkGroupOptionsMessageResponseStatusCodeGetListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemTrunkGroupOptionsMessageResponseStatusCodeGetListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\SystemTrunkGroupUserCreationTaskGetListRequest14sp4;
-use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
-use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\SystemTrunkGroupUserCreationTaskGetListResponse14sp4;
 
 trait OCISchemaServiceTrunkGroup

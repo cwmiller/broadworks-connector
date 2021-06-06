@@ -8,8 +8,8 @@ use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderExternalCustomRingbackMod
 use CWM\BroadWorksConnector\Ocip\Models\UserExternalCustomRingbackGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserExternalCustomRingbackGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserExternalCustomRingbackModifyRequest;
-use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
-use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceExternalCustomRingback

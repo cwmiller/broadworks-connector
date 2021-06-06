@@ -49,8 +49,8 @@ use CWM\BroadWorksConnector\Ocip\Models\UserCollaborateRoomIDRegenerateResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserCollaborateRoomListGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserCollaborateRoomListGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserCollaborateRoomModifyRequest;
-use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
-use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceCollaborate

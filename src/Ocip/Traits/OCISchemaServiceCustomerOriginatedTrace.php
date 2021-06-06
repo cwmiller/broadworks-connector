@@ -5,8 +5,8 @@ namespace CWM\BroadWorksConnector\Ocip\Traits;
 use CWM\BroadWorksConnector\Ocip\Models\SystemCustomerOriginatedTraceGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemCustomerOriginatedTraceGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\SystemCustomerOriginatedTraceModifyRequest;
-use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
-use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceCustomerOriginatedTrace

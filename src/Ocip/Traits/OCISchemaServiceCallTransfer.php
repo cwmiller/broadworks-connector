@@ -5,8 +5,8 @@ namespace CWM\BroadWorksConnector\Ocip\Traits;
 use CWM\BroadWorksConnector\Ocip\Models\UserCallTransferGetRequest14sp4;
 use CWM\BroadWorksConnector\Ocip\Models\UserCallTransferGetResponse14sp4;
 use CWM\BroadWorksConnector\Ocip\Models\UserCallTransferModifyRequest;
-use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
-use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceCallTransfer

@@ -286,8 +286,8 @@ use CWM\BroadWorksConnector\Ocip\Models\UserSharedCallAppearanceGetResponse16sp2
 use CWM\BroadWorksConnector\Ocip\Models\UserShInterfaceGetPublicIdDataRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserShInterfaceGetPublicIdDataResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserShInterfaceGetUserIdDataRequest;
-use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
-use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\UserShInterfaceGetUserIdDataResponse;
 
 trait OCISchemaDeprecatedAS

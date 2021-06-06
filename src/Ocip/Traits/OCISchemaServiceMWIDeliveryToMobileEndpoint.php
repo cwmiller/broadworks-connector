@@ -21,8 +21,8 @@ use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderMWIDeliveryToMobileEndpoi
 use CWM\BroadWorksConnector\Ocip\Models\UserMWIDeliveryToMobileEndpointGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserMWIDeliveryToMobileEndpointGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserMWIDeliveryToMobileEndpointModifyRequest;
-use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
-use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceMWIDeliveryToMobileEndpoint

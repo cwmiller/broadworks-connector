@@ -279,8 +279,8 @@ use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderSessionAdmissionControlWh
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderSIPAuthenticationPasswordRulesGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderSIPAuthenticationPasswordRulesGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderSIPAuthenticationPasswordRulesModifyRequest;
-use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
-use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceProvider

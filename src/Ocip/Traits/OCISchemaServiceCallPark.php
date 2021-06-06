@@ -26,8 +26,8 @@ use CWM\BroadWorksConnector\Ocip\Models\GroupCallParkModifyInstanceRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupCallParkModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserCallParkGetRequest;
-use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
-use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\UserCallParkGetResponse;
 
 trait OCISchemaServiceCallPark

@@ -10,8 +10,8 @@ use CWM\BroadWorksConnector\Ocip\Models\UserPolycomPhoneServicesGetPrimaryEndpoi
 use CWM\BroadWorksConnector\Ocip\Models\UserPolycomPhoneServicesGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserPolycomPhoneServicesGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserPolycomPhoneServicesModifyRequest;
-use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
-use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServicePolycomPhoneServices

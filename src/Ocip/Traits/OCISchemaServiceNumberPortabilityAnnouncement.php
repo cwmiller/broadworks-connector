@@ -5,8 +5,8 @@ namespace CWM\BroadWorksConnector\Ocip\Traits;
 use CWM\BroadWorksConnector\Ocip\Models\UserNumberPortabilityAnnouncementGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserNumberPortabilityAnnouncementGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserNumberPortabilityAnnouncementModifyRequest;
-use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
-use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceNumberPortabilityAnnouncement

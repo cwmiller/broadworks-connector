@@ -30,8 +30,8 @@ use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksAnywhereGetSelectiveCriter
 use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksAnywhereModifyPhoneNumberRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksAnywhereModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksAnywhereModifySelectiveCriteriaRequest;
-use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
-use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceBroadWorksAnywhere

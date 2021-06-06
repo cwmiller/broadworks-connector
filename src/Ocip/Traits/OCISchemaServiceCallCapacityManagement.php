@@ -13,8 +13,8 @@ use CWM\BroadWorksConnector\Ocip\Models\GroupCallCapacityManagementGetInstanceLi
 use CWM\BroadWorksConnector\Ocip\Models\GroupCallCapacityManagementGetInstanceRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupCallCapacityManagementGetInstanceResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupCallCapacityManagementModifyInstanceRequest;
-use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
-use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceCallCapacityManagement

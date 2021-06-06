@@ -16,8 +16,8 @@ use CWM\BroadWorksConnector\Ocip\Models\UserPreAlertingAnnouncementGetRequest20;
 use CWM\BroadWorksConnector\Ocip\Models\UserPreAlertingAnnouncementGetResponse20;
 use CWM\BroadWorksConnector\Ocip\Models\UserPreAlertingAnnouncementModifyCriteriaRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserPreAlertingAnnouncementModifyRequest20;
-use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
-use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServicePreAlertingAnnouncement

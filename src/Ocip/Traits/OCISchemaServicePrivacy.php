@@ -10,8 +10,8 @@ use CWM\BroadWorksConnector\Ocip\Models\UserPrivacyGetAvailableMonitorsUserListR
 use CWM\BroadWorksConnector\Ocip\Models\UserPrivacyGetRequest13mp17;
 use CWM\BroadWorksConnector\Ocip\Models\UserPrivacyGetResponse13mp17;
 use CWM\BroadWorksConnector\Ocip\Models\UserPrivacyModifyRequest;
-use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
-use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServicePrivacy

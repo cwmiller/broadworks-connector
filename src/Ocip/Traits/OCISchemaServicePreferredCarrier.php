@@ -30,8 +30,8 @@ use CWM\BroadWorksConnector\Ocip\Models\SystemPreferredCarrierModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserPreferredCarrierUserGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserPreferredCarrierUserGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserPreferredCarrierUserModifyRequest;
-use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
-use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServicePreferredCarrier

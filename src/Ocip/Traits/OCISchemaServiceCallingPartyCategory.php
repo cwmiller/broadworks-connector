@@ -12,8 +12,8 @@ use CWM\BroadWorksConnector\Ocip\Models\SystemCallingPartyCategoryModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserCallingPartyCategoryGetRequest16;
 use CWM\BroadWorksConnector\Ocip\Models\UserCallingPartyCategoryGetResponse16;
 use CWM\BroadWorksConnector\Ocip\Models\UserCallingPartyCategoryModifyRequest16;
-use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
-use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceCallingPartyCategory

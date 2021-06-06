@@ -20,8 +20,8 @@ use CWM\BroadWorksConnector\Ocip\Models\UserPersonalAssistantExclusionNumberModi
 use CWM\BroadWorksConnector\Ocip\Models\UserPersonalAssistantGetRequest22;
 use CWM\BroadWorksConnector\Ocip\Models\UserPersonalAssistantGetResponse22;
 use CWM\BroadWorksConnector\Ocip\Models\UserPersonalAssistantModifyRequest;
-use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
-use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServicePersonalAssistant

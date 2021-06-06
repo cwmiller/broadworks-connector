@@ -18,8 +18,8 @@ use CWM\BroadWorksConnector\Ocip\Models\UserIntegratedIMPGeneratePasswordRequest
 use CWM\BroadWorksConnector\Ocip\Models\UserIntegratedIMPGetRequest21sp1;
 use CWM\BroadWorksConnector\Ocip\Models\UserIntegratedIMPGetResponse21sp1;
 use CWM\BroadWorksConnector\Ocip\Models\UserIntegratedIMPModifyRequest;
-use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
-use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceIntegratedIMP

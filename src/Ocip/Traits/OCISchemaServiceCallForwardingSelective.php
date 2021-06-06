@@ -10,8 +10,8 @@ use CWM\BroadWorksConnector\Ocip\Models\UserCallForwardingSelectiveGetRequest16;
 use CWM\BroadWorksConnector\Ocip\Models\UserCallForwardingSelectiveGetResponse16;
 use CWM\BroadWorksConnector\Ocip\Models\UserCallForwardingSelectiveModifyCriteriaRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserCallForwardingSelectiveModifyRequest;
-use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
-use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceCallForwardingSelective

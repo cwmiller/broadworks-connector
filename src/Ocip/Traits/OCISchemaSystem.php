@@ -875,8 +875,8 @@ use CWM\BroadWorksConnector\Ocip\Models\SystemZoneNetAddressAddListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemZoneNetAddressDeleteListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 use CWM\BroadWorksConnector\Ocip\Models\SystemZoneNetAddressGetListRequest;
-use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
-use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\SystemZoneNetAddressGetListResponse;
 
 trait OCISchemaSystem

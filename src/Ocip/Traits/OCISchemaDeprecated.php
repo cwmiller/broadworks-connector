@@ -1428,8 +1428,8 @@ use CWM\BroadWorksConnector\Ocip\Models\UserGetResponse21sp1V2;
 use CWM\BroadWorksConnector\Ocip\Models\UserGetRequest22;
 use CWM\BroadWorksConnector\Ocip\Models\UserGetResponse22;
 use CWM\BroadWorksConnector\Ocip\Models\UserGetRequest22V2;
-use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
-use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\UserGetResponse22V2;
 
 trait OCISchemaDeprecated

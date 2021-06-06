@@ -35,8 +35,8 @@ use CWM\BroadWorksConnector\Ocip\Models\ResellerNetworkClassOfServiceUnassignLis
 use CWM\BroadWorksConnector\Ocip\Models\ResellerServiceAuthorizationGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ResellerServiceAuthorizationGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\ResellerServiceAuthorizationModifyRequest;
-use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
-use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaReseller

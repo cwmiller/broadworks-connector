@@ -30,8 +30,8 @@ use CWM\BroadWorksConnector\Ocip\Models\UserFlexibleSeatingGuestModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserFlexibleSeatingGuestGetRequest22;
 use CWM\BroadWorksConnector\Ocip\Models\UserFlexibleSeatingGuestGetResponse22;
 use CWM\BroadWorksConnector\Ocip\Models\UserFlexibleSeatingGuestModifyRequest22;
-use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
-use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceFlexibleSeatingGuest

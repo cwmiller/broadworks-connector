@@ -7,8 +7,8 @@ use CWM\BroadWorksConnector\Ocip\Models\GroupCallingPlanDeleteDigitPatternListRe
 use CWM\BroadWorksConnector\Ocip\Models\GroupCallingPlanGetDigitPatternListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupCallingPlanGetDigitPatternListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupCallingPlanModifyDigitPatternRequest;
-use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
-use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceCallingPlan

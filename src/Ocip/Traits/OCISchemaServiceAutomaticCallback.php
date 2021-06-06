@@ -12,8 +12,8 @@ use CWM\BroadWorksConnector\Ocip\Models\SystemAutomaticCallbackModifyRequest15;
 use CWM\BroadWorksConnector\Ocip\Models\UserAutomaticCallbackGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserAutomaticCallbackGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserAutomaticCallbackModifyRequest;
-use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
-use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceAutomaticCallback

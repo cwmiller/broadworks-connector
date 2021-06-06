@@ -5,8 +5,8 @@ namespace CWM\BroadWorksConnector\Ocip\Traits;
 use CWM\BroadWorksConnector\Ocip\Models\UserDirectedCallPickupWithBargeInGetRequest14sp7;
 use CWM\BroadWorksConnector\Ocip\Models\UserDirectedCallPickupWithBargeInGetResponse14sp7;
 use CWM\BroadWorksConnector\Ocip\Models\UserDirectedCallPickupWithBargeInModifyRequest;
-use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
-use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceDirectedCallPickupWithBargeIn

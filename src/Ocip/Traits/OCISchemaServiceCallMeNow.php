@@ -13,8 +13,8 @@ use CWM\BroadWorksConnector\Ocip\Models\UserCallMeNowGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserCallMeNowGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserCallMeNowModifyCriteriaRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserCallMeNowModifyRequest;
-use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
-use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceCallMeNow

@@ -154,8 +154,8 @@ use CWM\BroadWorksConnector\Ocip\Models\UserShInterfacePublicIdentityRefreshTask
 use CWM\BroadWorksConnector\Ocip\Models\UserTerminatingAlternateTrunkIdentityGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserTerminatingAlternateTrunkIdentityGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserTerminatingAlternateTrunkIdentityModifyRequest;
-use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
-use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaUser

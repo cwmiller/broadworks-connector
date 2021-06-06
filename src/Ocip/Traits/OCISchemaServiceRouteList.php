@@ -45,8 +45,8 @@ use CWM\BroadWorksConnector\Ocip\Models\SystemRouteListEnterpriseTrunkNumberRang
 use CWM\BroadWorksConnector\Ocip\Models\UserRouteListGetRequest22;
 use CWM\BroadWorksConnector\Ocip\Models\UserRouteListGetResponse22;
 use CWM\BroadWorksConnector\Ocip\Models\UserRouteListModifyRequest;
-use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
-use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceRouteList

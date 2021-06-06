@@ -10,8 +10,8 @@ use CWM\BroadWorksConnector\Ocip\Models\UserSharedCallAppearanceGetRequest21sp1;
 use CWM\BroadWorksConnector\Ocip\Models\UserSharedCallAppearanceGetResponse21sp1;
 use CWM\BroadWorksConnector\Ocip\Models\UserSharedCallAppearanceModifyEndpointRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserSharedCallAppearanceModifyRequest;
-use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
-use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceSharedCallAppearance

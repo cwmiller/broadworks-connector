@@ -10,8 +10,8 @@ use CWM\BroadWorksConnector\Ocip\Models\UserSelectiveCallRejectionGetCriteriaReq
 use CWM\BroadWorksConnector\Ocip\Models\UserSelectiveCallRejectionGetCriteriaResponse21;
 use CWM\BroadWorksConnector\Ocip\Models\UserSelectiveCallRejectionModifyActiveCriteriaListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserSelectiveCallRejectionModifyCriteriaRequest16;
-use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
-use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceSelectiveCallRejection

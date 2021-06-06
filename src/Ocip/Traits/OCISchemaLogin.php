@@ -32,8 +32,8 @@ use CWM\BroadWorksConnector\Ocip\Models\UserGetLoginInfoResponse22V2;
 use CWM\BroadWorksConnector\Ocip\Models\UserSingleSignOnCreateDeviceTokenRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserSingleSignOnCreateDeviceTokenResponse;
 use CWM\BroadWorksConnector\Ocip\Models\VerifySessionIsValidRequest;
-use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
-use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaLogin

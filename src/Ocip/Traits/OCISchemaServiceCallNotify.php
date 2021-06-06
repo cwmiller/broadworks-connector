@@ -16,8 +16,8 @@ use CWM\BroadWorksConnector\Ocip\Models\UserCallNotifyGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserCallNotifyGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserCallNotifyModifyCriteriaRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserCallNotifyModifyRequest;
-use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
-use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceCallNotify

@@ -3,8 +3,8 @@
 namespace CWM\BroadWorksConnector\Ocip\Traits;
 
 use CWM\BroadWorksConnector\Ocip\Models\UserBasicCallLogsGetListRequest14sp4;
-use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
-use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\UserBasicCallLogsGetListResponse14sp4;
 
 trait OCISchemaServiceBasicCallLogs

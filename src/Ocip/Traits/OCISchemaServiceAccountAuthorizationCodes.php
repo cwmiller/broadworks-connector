@@ -11,8 +11,8 @@ use CWM\BroadWorksConnector\Ocip\Models\GroupAccountAuthorizationCodesGetListRes
 use CWM\BroadWorksConnector\Ocip\Models\GroupAccountAuthorizationCodesGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupAccountAuthorizationCodesGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupAccountAuthorizationCodesModifyRequest;
-use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
-use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceAccountAuthorizationCodes

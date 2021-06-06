@@ -7,8 +7,8 @@ use CWM\BroadWorksConnector\Ocip\Models\UserPushToTalkGetAvailableUserListRespon
 use CWM\BroadWorksConnector\Ocip\Models\UserPushToTalkGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserPushToTalkGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserPushToTalkModifyRequest;
-use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
-use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServicePushToTalk

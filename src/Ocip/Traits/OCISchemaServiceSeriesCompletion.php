@@ -13,8 +13,8 @@ use CWM\BroadWorksConnector\Ocip\Models\GroupSeriesCompletionGetInstanceResponse
 use CWM\BroadWorksConnector\Ocip\Models\GroupSeriesCompletionModifyInstanceRequest;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserSeriesCompletionGetRequest;
-use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
-use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\UserSeriesCompletionGetResponse;
 
 trait OCISchemaServiceSeriesCompletion

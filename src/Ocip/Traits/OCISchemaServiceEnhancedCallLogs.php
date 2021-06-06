@@ -18,8 +18,8 @@ use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 use CWM\BroadWorksConnector\Ocip\Models\SystemEnhancedCallLogsSchemaInstanceGetListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemEnhancedCallLogsSchemaInstanceGetListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserEnhancedCallLogsGetListRequest22;
-use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
-use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\UserEnhancedCallLogsGetListResponse22;
 
 trait OCISchemaServiceEnhancedCallLogs

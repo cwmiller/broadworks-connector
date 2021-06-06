@@ -19,8 +19,8 @@ use CWM\BroadWorksConnector\Ocip\Models\GroupCallPickupGetInstanceResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupCallPickupModifyInstanceRequest;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserCallPickupGetRequest;
-use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
-use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\UserCallPickupGetResponse;
 
 trait OCISchemaServiceCallPickup

@@ -10,8 +10,8 @@ use CWM\BroadWorksConnector\Ocip\Models\UserPriorityAlertGetCriteriaRequest21;
 use CWM\BroadWorksConnector\Ocip\Models\UserPriorityAlertGetCriteriaResponse21;
 use CWM\BroadWorksConnector\Ocip\Models\UserPriorityAlertModifyActiveCriteriaListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserPriorityAlertModifyCriteriaRequest;
-use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
-use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServicePriorityAlert

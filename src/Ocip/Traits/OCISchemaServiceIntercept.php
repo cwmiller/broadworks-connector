@@ -16,8 +16,8 @@ use CWM\BroadWorksConnector\Ocip\Models\SystemInterceptUserModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserInterceptUserGetRequest21sp1;
 use CWM\BroadWorksConnector\Ocip\Models\UserInterceptUserGetResponse21sp1;
 use CWM\BroadWorksConnector\Ocip\Models\UserInterceptUserModifyRequest21sp1;
-use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
-use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceIntercept

@@ -8,8 +8,8 @@ use CWM\BroadWorksConnector\Ocip\Models\GroupIncomingCallingPlanModifyListReques
 use CWM\BroadWorksConnector\Ocip\Models\UserIncomingCallingPlanGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserIncomingCallingPlanGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserIncomingCallingPlanModifyRequest;
-use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
-use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceIncomingCallingPlan

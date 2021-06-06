@@ -7,8 +7,8 @@ use CWM\BroadWorksConnector\Ocip\Models\GroupDirectoryNumberHuntingGetAvailableU
 use CWM\BroadWorksConnector\Ocip\Models\GroupDirectoryNumberHuntingGetRequest17sp1;
 use CWM\BroadWorksConnector\Ocip\Models\GroupDirectoryNumberHuntingGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupDirectoryNumberHuntingModifyRequest;
-use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
-use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceDirectoryNumberHunting

@@ -8,8 +8,8 @@ use CWM\BroadWorksConnector\Ocip\Models\SystemPhysicalLocationModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserPhysicalLocationGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserPhysicalLocationGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserPhysicalLocationModifyRequest;
-use \CWM\BroadWorksConnector\Ocip\ErrorResponseException;
-use \CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
+use CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServicePhysicalLocation

@@ -1,16 +1,8 @@
 # BroadWorks Connector
 
-PHP library for connecting to BroadWorks OCI-P API
+PHP library for connecting to BroadWorks OCI-P API.
 
-## What's New in Version 3?
-
-Version 3 of the library contains several new features:
-
-* Client-Side validation. Previously if requirements were not met, an `ErrorResponseException` would be thrown containing a generic validation error from the server. With v3, requests are validated before being sent to the server and will throw a `ValidationException` containing information about which requirements failed.
-* Enum support. Previously, fields for enumerated types were just strings requiring the user to know the exact string to use. With v3, these fields now expect an instance of an enumerated type class.
-* Better handling of Nillable types. Previously, if you needed to set a value as `nil`, you had to pass an instance of the `Nil` class. With v3, you just have to pass `NULL` to the setter.
-* BroadWorks Release 23 support. Models have been generated from version `Rel_23.0_1.1075` XSD files with some modifications for backwards compatibility.
-
+Built using `Rel_24.0_1.944` schema files.
 
 ## Installation
 Using Composer:

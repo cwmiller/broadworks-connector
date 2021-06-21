@@ -5,7 +5,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * EnterpriseEnterpriseTrunkModifyRequestPriorityWeightedRouting
  *
- * @Groups [{"id":"b9c14e2d80e4e7749688ca13ba233b44:438","type":"sequence"}]
+ * @Groups [{"id":"b9c14e2d80e4e7749688ca13ba233b44:449","type":"sequence"}]
  */
 class EnterpriseEnterpriseTrunkModifyRequestPriorityWeightedRouting
 {
@@ -14,7 +14,7 @@ class EnterpriseEnterpriseTrunkModifyRequestPriorityWeightedRouting
      * @ElementName maximumRerouteAttemptsWithinPriority
      * @Type int
      * @Optional
-     * @Group b9c14e2d80e4e7749688ca13ba233b44:438
+     * @Group b9c14e2d80e4e7749688ca13ba233b44:449
      * @MinInclusive 1
      * @MaxInclusive 10
      * @var int|null
@@ -26,7 +26,7 @@ class EnterpriseEnterpriseTrunkModifyRequestPriorityWeightedRouting
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementEnterpriseEnterpriseTrunkPriorityWeightedTrunkGroupList
      * @Nillable
      * @Optional
-     * @Group b9c14e2d80e4e7749688ca13ba233b44:438
+     * @Group b9c14e2d80e4e7749688ca13ba233b44:449
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementEnterpriseEnterpriseTrunkPriorityWeightedTrunkGroupList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $priorityWeightedTrunkGroupList = null;

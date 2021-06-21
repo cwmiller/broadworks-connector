@@ -6,11 +6,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupAnnouncementFileModifyRequest
  *
  * Modify an existing announcement in the group repository
+ *         
+ *         The following elements are only used in AS data mode and ignored in XS data mode:
+ *           announcementFileExternalId
+ *           
  *         The response is either a SuccessResponse or an ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:1577","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:2074","type":"sequence","children":[{"id":"f3a93cf15de4abd7903673e44ee3e07b:2075","type":"choice","children":[{"id":"f3a93cf15de4abd7903673e44ee3e07b:2076","type":"sequence"},{"id":"f3a93cf15de4abd7903673e44ee3e07b:2081","type":"sequence"}]}]}]
  */
 class GroupAnnouncementFileModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +22,7 @@ class GroupAnnouncementFileModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1577
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:2076
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +32,7 @@ class GroupAnnouncementFileModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1577
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:2076
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -38,16 +42,25 @@ class GroupAnnouncementFileModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName announcementFileKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1577
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:2076
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey|null
      */
     private $announcementFileKey = null;
 
     /**
+     * @ElementName announcementFileExternalId
+     * @Type string
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:2081
+     * @MaxLength 36
+     * @var string|null
+     */
+    private $announcementFileExternalId = null;
+
+    /**
      * @ElementName newAnnouncementFileName
      * @Type string
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1577
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:2074
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -58,7 +71,7 @@ class GroupAnnouncementFileModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName announcementFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1577
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:2074
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null
      */
     private $announcementFile = null;
@@ -153,6 +166,37 @@ class GroupAnnouncementFileModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
     public function unsetAnnouncementFileKey()
     {
         $this->announcementFileKey = null;
+        return $this;
+    }
+
+    /**
+     * Getter for announcementFileExternalId
+     *
+     * @return string
+     */
+    public function getAnnouncementFileExternalId()
+    {
+        return $this->announcementFileExternalId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->announcementFileExternalId;
+    }
+
+    /**
+     * Setter for announcementFileExternalId
+     *
+     * @param string $announcementFileExternalId
+     * @return $this
+     */
+    public function setAnnouncementFileExternalId($announcementFileExternalId)
+    {
+        $this->announcementFileExternalId = $announcementFileExternalId;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAnnouncementFileExternalId()
+    {
+        $this->announcementFileExternalId = null;
         return $this;
     }
 

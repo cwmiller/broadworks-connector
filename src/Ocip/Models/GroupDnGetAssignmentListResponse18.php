@@ -12,14 +12,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The "User Id", "Last Name" and "First Name" columns contains the corresponding attributes of the user possessing the DN(s).
  *         For a service instance, "Last Name" contains the service instance name and "First Name" column contains the corresponding enumerated UserType value.
  *         The "Department" column contains the department of the DN, not the department of the user or service instance.
- *         The "Activated" column indicates if the DN or DN range has been activated.  Only has a value if the DN(s) is assigned to a user.
+ *         The "Activated" column indicates if the DN or DN range has been activated.
  *         The "User Type" column contains the corresponding enumerated UserType value.
  *         The "Country Code" column indicates the dialing prefix for the phone number.
  *         The "National Prefix" column indicates the digit sequence to be dialed before the telephone number.        
  *         NOTE: the same phone number can show up in the list twice if the phone number is being used as the group calling line Id.
  *
  * @see GroupDnGetAssignmentListRequest18
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:4209","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:5075","type":"sequence"}]
  */
 class GroupDnGetAssignmentListResponse18 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -27,7 +27,7 @@ class GroupDnGetAssignmentListResponse18 extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName dnTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4209
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:5075
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $dnTable = null;

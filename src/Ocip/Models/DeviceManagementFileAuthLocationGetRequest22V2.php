@@ -16,7 +16,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see DeviceManagementFileAuthLocationGetResponse22V2
  * @see ErrorResponse
- * @Groups [{"id":"6b27fcc79475236456fc113a42b75543:218","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:1613","type":"sequence"}]
  */
 class DeviceManagementFileAuthLocationGetRequest22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -24,7 +24,7 @@ class DeviceManagementFileAuthLocationGetRequest22V2 extends \CWM\BroadWorksConn
     /**
      * @ElementName deviceAccessProtocol
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DeviceAccessProtocol22
-     * @Group 6b27fcc79475236456fc113a42b75543:218
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:1613
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceAccessProtocol22|null
      */
     private $deviceAccessProtocol = null;
@@ -32,7 +32,7 @@ class DeviceManagementFileAuthLocationGetRequest22V2 extends \CWM\BroadWorksConn
     /**
      * @ElementName deviceAccessMethod
      * @Type string
-     * @Group 6b27fcc79475236456fc113a42b75543:218
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:1613
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -42,7 +42,7 @@ class DeviceManagementFileAuthLocationGetRequest22V2 extends \CWM\BroadWorksConn
     /**
      * @ElementName deviceAccessURI
      * @Type string
-     * @Group 6b27fcc79475236456fc113a42b75543:218
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:1613
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -53,7 +53,7 @@ class DeviceManagementFileAuthLocationGetRequest22V2 extends \CWM\BroadWorksConn
      * @ElementName accessDeviceUserName
      * @Type string
      * @Optional
-     * @Group 6b27fcc79475236456fc113a42b75543:218
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:1613
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -64,7 +64,7 @@ class DeviceManagementFileAuthLocationGetRequest22V2 extends \CWM\BroadWorksConn
      * @ElementName accessDeviceUserPassword
      * @Type string
      * @Optional
-     * @Group 6b27fcc79475236456fc113a42b75543:218
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:1613
      * @MinLength 1
      * @MaxLength 60
      * @var string|null
@@ -75,7 +75,7 @@ class DeviceManagementFileAuthLocationGetRequest22V2 extends \CWM\BroadWorksConn
      * @ElementName deviceToken
      * @Type string
      * @Optional
-     * @Group 6b27fcc79475236456fc113a42b75543:218
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:1613
      * @MinLength 1
      * @var string|null
      */
@@ -85,7 +85,7 @@ class DeviceManagementFileAuthLocationGetRequest22V2 extends \CWM\BroadWorksConn
      * @ElementName signedPassword
      * @Type string
      * @Optional
-     * @Group 6b27fcc79475236456fc113a42b75543:218
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:1613
      * @MinLength 1
      * @var string|null
      */
@@ -95,7 +95,7 @@ class DeviceManagementFileAuthLocationGetRequest22V2 extends \CWM\BroadWorksConn
      * @ElementName macAddress
      * @Type string
      * @Optional
-     * @Group 6b27fcc79475236456fc113a42b75543:218
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:1613
      * @MinLength 1
      * @MaxLength 12
      * @var string|null
@@ -106,7 +106,7 @@ class DeviceManagementFileAuthLocationGetRequest22V2 extends \CWM\BroadWorksConn
      * @ElementName realmName
      * @Type string
      * @Optional
-     * @Group 6b27fcc79475236456fc113a42b75543:218
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:1613
      * @MinLength 1
      * @MaxLength 265
      * @var string|null
@@ -117,7 +117,7 @@ class DeviceManagementFileAuthLocationGetRequest22V2 extends \CWM\BroadWorksConn
      * @ElementName digestHa1Complement
      * @Type string
      * @Optional
-     * @Group 6b27fcc79475236456fc113a42b75543:218
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:1613
      * @MinLength 32
      * @MaxLength 256
      * @var string|null
@@ -128,7 +128,7 @@ class DeviceManagementFileAuthLocationGetRequest22V2 extends \CWM\BroadWorksConn
      * @ElementName digestResponse
      * @Type string
      * @Optional
-     * @Group 6b27fcc79475236456fc113a42b75543:218
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:1613
      * @MinLength 32
      * @MaxLength 32
      * @var string|null
@@ -139,7 +139,7 @@ class DeviceManagementFileAuthLocationGetRequest22V2 extends \CWM\BroadWorksConn
      * @ElementName fileNameLookup
      * @Type bool
      * @Optional
-     * @Group 6b27fcc79475236456fc113a42b75543:218
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:1613
      * @var bool|null
      */
     private $fileNameLookup = null;
@@ -148,7 +148,7 @@ class DeviceManagementFileAuthLocationGetRequest22V2 extends \CWM\BroadWorksConn
      * @ElementName fileNameOnDisk
      * @Type string
      * @Optional
-     * @Group 6b27fcc79475236456fc113a42b75543:218
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:1613
      * @MinLength 1
      * @MaxLength 265
      * @var string|null

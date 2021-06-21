@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:2511","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:3051","type":"sequence"}]
  */
 class GroupCommunicationBarringModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupCommunicationBarringModifyRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:2511
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:3051
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +28,7 @@ class GroupCommunicationBarringModifyRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:2511
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:3051
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -39,7 +39,7 @@ class GroupCommunicationBarringModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName useDefaultServiceProviderProfile
      * @Type bool
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:2511
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:3051
      * @var bool|null
      */
     private $useDefaultServiceProviderProfile = null;
@@ -49,7 +49,7 @@ class GroupCommunicationBarringModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @Type string
      * @Nillable
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:2511
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:3051
      * @MinLength 1
      * @MaxLength 40
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil

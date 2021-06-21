@@ -15,10 +15,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           numberOfAscendingDigits
  *           numberOfDescendingDigits
  *           numberOfPreviousPasscodes
+ *           
+ *           The following elements are only used in AS data mode and ignored in XS data mode:
+ *           enableDefaultPasscode
+ *           defaultPasscode
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:4627","type":"sequence"}]
+ * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:5455","type":"sequence"}]
  */
 class ServiceProviderPortalPasscodeRulesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -26,7 +30,7 @@ class ServiceProviderPortalPasscodeRulesModifyRequest extends \CWM\BroadWorksCon
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4627
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5455
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -37,7 +41,7 @@ class ServiceProviderPortalPasscodeRulesModifyRequest extends \CWM\BroadWorksCon
      * @ElementName disallowRepeatedDigits
      * @Type bool
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4627
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5455
      * @var bool|null
      */
     private $disallowRepeatedDigits = null;
@@ -46,7 +50,7 @@ class ServiceProviderPortalPasscodeRulesModifyRequest extends \CWM\BroadWorksCon
      * @ElementName numberOfRepeatedDigits
      * @Type int
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4627
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5455
      * @MinInclusive 1
      * @MaxInclusive 6
      * @var int|null
@@ -57,7 +61,7 @@ class ServiceProviderPortalPasscodeRulesModifyRequest extends \CWM\BroadWorksCon
      * @ElementName disallowRepeatedPatterns
      * @Type bool
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4627
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5455
      * @var bool|null
      */
     private $disallowRepeatedPatterns = null;
@@ -66,7 +70,7 @@ class ServiceProviderPortalPasscodeRulesModifyRequest extends \CWM\BroadWorksCon
      * @ElementName disallowContiguousSequences
      * @Type bool
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4627
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5455
      * @var bool|null
      */
     private $disallowContiguousSequences = null;
@@ -75,7 +79,7 @@ class ServiceProviderPortalPasscodeRulesModifyRequest extends \CWM\BroadWorksCon
      * @ElementName numberOfAscendingDigits
      * @Type int
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4627
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5455
      * @MinInclusive 2
      * @MaxInclusive 5
      * @var int|null
@@ -86,7 +90,7 @@ class ServiceProviderPortalPasscodeRulesModifyRequest extends \CWM\BroadWorksCon
      * @ElementName numberOfDescendingDigits
      * @Type int
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4627
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5455
      * @MinInclusive 2
      * @MaxInclusive 5
      * @var int|null
@@ -97,7 +101,7 @@ class ServiceProviderPortalPasscodeRulesModifyRequest extends \CWM\BroadWorksCon
      * @ElementName disallowUserNumber
      * @Type bool
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4627
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5455
      * @var bool|null
      */
     private $disallowUserNumber = null;
@@ -106,7 +110,7 @@ class ServiceProviderPortalPasscodeRulesModifyRequest extends \CWM\BroadWorksCon
      * @ElementName disallowReversedUserNumber
      * @Type bool
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4627
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5455
      * @var bool|null
      */
     private $disallowReversedUserNumber = null;
@@ -115,7 +119,7 @@ class ServiceProviderPortalPasscodeRulesModifyRequest extends \CWM\BroadWorksCon
      * @ElementName disallowOldPasscode
      * @Type bool
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4627
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5455
      * @var bool|null
      */
     private $disallowOldPasscode = null;
@@ -124,7 +128,7 @@ class ServiceProviderPortalPasscodeRulesModifyRequest extends \CWM\BroadWorksCon
      * @ElementName numberOfPreviousPasscodes
      * @Type int
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4627
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5455
      * @MinInclusive 1
      * @MaxInclusive 10
      * @var int|null
@@ -135,7 +139,7 @@ class ServiceProviderPortalPasscodeRulesModifyRequest extends \CWM\BroadWorksCon
      * @ElementName disallowReversedOldPasscode
      * @Type bool
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4627
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5455
      * @var bool|null
      */
     private $disallowReversedOldPasscode = null;
@@ -144,7 +148,7 @@ class ServiceProviderPortalPasscodeRulesModifyRequest extends \CWM\BroadWorksCon
      * @ElementName minCodeLength
      * @Type int
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4627
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5455
      * @MinInclusive 2
      * @MaxInclusive 15
      * @var int|null
@@ -155,7 +159,7 @@ class ServiceProviderPortalPasscodeRulesModifyRequest extends \CWM\BroadWorksCon
      * @ElementName maxCodeLength
      * @Type int
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4627
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5455
      * @MinInclusive 3
      * @MaxInclusive 30
      * @var int|null
@@ -166,7 +170,7 @@ class ServiceProviderPortalPasscodeRulesModifyRequest extends \CWM\BroadWorksCon
      * @ElementName disableLoginAfterMaxFailedLoginAttempts
      * @Type bool
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4627
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5455
      * @var bool|null
      */
     private $disableLoginAfterMaxFailedLoginAttempts = null;
@@ -175,7 +179,7 @@ class ServiceProviderPortalPasscodeRulesModifyRequest extends \CWM\BroadWorksCon
      * @ElementName maxFailedLoginAttempts
      * @Type int
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4627
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5455
      * @MinInclusive 2
      * @MaxInclusive 10
      * @var int|null
@@ -186,7 +190,7 @@ class ServiceProviderPortalPasscodeRulesModifyRequest extends \CWM\BroadWorksCon
      * @ElementName expirePassword
      * @Type bool
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4627
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5455
      * @var bool|null
      */
     private $expirePassword = null;
@@ -195,7 +199,7 @@ class ServiceProviderPortalPasscodeRulesModifyRequest extends \CWM\BroadWorksCon
      * @ElementName passcodeExpiresDays
      * @Type int
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4627
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5455
      * @MinInclusive 15
      * @MaxInclusive 180
      * @var int|null
@@ -206,7 +210,7 @@ class ServiceProviderPortalPasscodeRulesModifyRequest extends \CWM\BroadWorksCon
      * @ElementName sendLoginDisabledNotifyEmail
      * @Type bool
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4627
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5455
      * @var bool|null
      */
     private $sendLoginDisabledNotifyEmail = null;
@@ -216,12 +220,33 @@ class ServiceProviderPortalPasscodeRulesModifyRequest extends \CWM\BroadWorksCon
      * @Type string
      * @Nillable
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4627
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5455
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $loginDisabledNotifyEmailAddress = null;
+
+    /**
+     * @ElementName enableDefaultPasscode
+     * @Type bool
+     * @Optional
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5455
+     * @var bool|null
+     */
+    private $enableDefaultPasscode = null;
+
+    /**
+     * @ElementName defaultPasscode
+     * @Type string
+     * @Nillable
+     * @Optional
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5455
+     * @MinLength 1
+     * @MaxLength 30
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     */
+    private $defaultPasscode = null;
 
     /**
      * Getter for serviceProviderId
@@ -844,6 +869,72 @@ class ServiceProviderPortalPasscodeRulesModifyRequest extends \CWM\BroadWorksCon
     public function unsetLoginDisabledNotifyEmailAddress()
     {
         $this->loginDisabledNotifyEmailAddress = null;
+        return $this;
+    }
+
+    /**
+     * Getter for enableDefaultPasscode
+     *
+     * @return bool
+     */
+    public function getEnableDefaultPasscode()
+    {
+        return $this->enableDefaultPasscode instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableDefaultPasscode;
+    }
+
+    /**
+     * Setter for enableDefaultPasscode
+     *
+     * @param bool $enableDefaultPasscode
+     * @return $this
+     */
+    public function setEnableDefaultPasscode($enableDefaultPasscode)
+    {
+        $this->enableDefaultPasscode = $enableDefaultPasscode;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetEnableDefaultPasscode()
+    {
+        $this->enableDefaultPasscode = null;
+        return $this;
+    }
+
+    /**
+     * Getter for defaultPasscode
+     *
+     * @return string|null
+     */
+    public function getDefaultPasscode()
+    {
+        return $this->defaultPasscode instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->defaultPasscode;
+    }
+
+    /**
+     * Setter for defaultPasscode
+     *
+     * @param string|null $defaultPasscode
+     * @return $this
+     */
+    public function setDefaultPasscode($defaultPasscode = null)
+    {
+        if ($defaultPasscode === null) {
+            $this->defaultPasscode = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->defaultPasscode = $defaultPasscode;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDefaultPasscode()
+    {
+        $this->defaultPasscode = null;
         return $this;
     }
 

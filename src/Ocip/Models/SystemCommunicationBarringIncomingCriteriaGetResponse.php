@@ -7,9 +7,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to the SystemCommunicationBarringIncomingCriteriaGetRequest.
  *         The response contains the Communication Barring Incoming Criteria information.
+ *         
+ *         Replaced by: SystemCommunicationBarringIncomingCriteriaGetResponse22
  *
  * @see SystemCommunicationBarringIncomingCriteriaGetRequest
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:5849","type":"sequence"}]
+ * @see SystemCommunicationBarringIncomingCriteriaGetResponse22
+ * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:7581","type":"sequence"}]
  */
 class SystemCommunicationBarringIncomingCriteriaGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +21,7 @@ class SystemCommunicationBarringIncomingCriteriaGetResponse extends \CWM\BroadWo
      * @ElementName description
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:5849
+     * @Group de4d76f01f337fe4694212ec9f771753:7581
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -29,7 +32,7 @@ class SystemCommunicationBarringIncomingCriteriaGetResponse extends \CWM\BroadWo
      * @ElementName timeSchedule
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:5849
+     * @Group de4d76f01f337fe4694212ec9f771753:7581
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -40,7 +43,7 @@ class SystemCommunicationBarringIncomingCriteriaGetResponse extends \CWM\BroadWo
      * @ElementName holidaySchedule
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:5849
+     * @Group de4d76f01f337fe4694212ec9f771753:7581
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -52,7 +55,7 @@ class SystemCommunicationBarringIncomingCriteriaGetResponse extends \CWM\BroadWo
      * @Type string
      * @Array
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:5849
+     * @Group de4d76f01f337fe4694212ec9f771753:7581
      * @MinLength 1
      * @MaxLength 40
      * @var string[]

@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemDeviceTypeExportRequest.
  *
  * @see SystemDeviceTypeExportRequest
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:7628","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:8672","type":"sequence"}]
  */
 class SystemDeviceTypeExportResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class SystemDeviceTypeExportResponse extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName file
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7628
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8672
      * @MinLength 1
      * @MaxLength 256
      * @var string|null

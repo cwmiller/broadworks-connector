@@ -5,11 +5,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemCallCenterReportingServerGetListResponse
  *
- * Response to SystemCallCenterReportingServerGetListRequest. The table columns are:
- *                 "Name", "URL", "Net Address", and "Description".
+ * Response to SystemCallCenterReportingServerGetListRequest.  The table columns are:
+ *         "Name", "URL", "Net Address", and "Description".
  *
  * @see SystemCallCenterReportingServerGetListRequest
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:26014","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:20989","type":"sequence"}]
  */
 class SystemCallCenterReportingServerGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class SystemCallCenterReportingServerGetListResponse extends \CWM\BroadWorksConn
     /**
      * @ElementName reportingServerTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:26014
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:20989
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $reportingServerTable = null;

@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemNumberActivationModifyRequest
  *
  * Request to modify system number activation setting.
- *                 The response is either SuccessResponse or ErrorResponse.
+ *         The response is either SuccessResponse or ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:26313","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:28023","type":"sequence"}]
  */
 class SystemNumberActivationModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class SystemNumberActivationModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName useNumberActivation
      * @Type bool
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:26313
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:28023
      * @var bool|null
      */
     private $useNumberActivation = null;

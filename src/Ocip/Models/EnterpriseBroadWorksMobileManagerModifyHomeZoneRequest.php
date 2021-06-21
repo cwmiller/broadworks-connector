@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"5395c7df0157d44aa22f3351d1a5f3da:350","type":"sequence"}]
+ * @Groups [{"id":"5395c7df0157d44aa22f3351d1a5f3da:351","type":"sequence"}]
  */
 class EnterpriseBroadWorksMobileManagerModifyHomeZoneRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class EnterpriseBroadWorksMobileManagerModifyHomeZoneRequest extends \CWM\BroadW
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:350
+     * @Group 5395c7df0157d44aa22f3351d1a5f3da:351
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +28,7 @@ class EnterpriseBroadWorksMobileManagerModifyHomeZoneRequest extends \CWM\BroadW
     /**
      * @ElementName homeZoneId
      * @Type string
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:350
+     * @Group 5395c7df0157d44aa22f3351d1a5f3da:351
      * @var string|null
      */
     private $homeZoneId = null;
@@ -37,7 +37,7 @@ class EnterpriseBroadWorksMobileManagerModifyHomeZoneRequest extends \CWM\BroadW
      * @ElementName homeZoneDomainName
      * @Type string
      * @Optional
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:350
+     * @Group 5395c7df0157d44aa22f3351d1a5f3da:351
      * @MinLength 1
      * @MaxLength 100
      * @var string|null
@@ -48,7 +48,7 @@ class EnterpriseBroadWorksMobileManagerModifyHomeZoneRequest extends \CWM\BroadW
      * @ElementName mobileCountryCode
      * @Type string
      * @Optional
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:350
+     * @Group 5395c7df0157d44aa22f3351d1a5f3da:351
      * @MinLength 1
      * @MaxLength 3
      * @var string|null
@@ -59,7 +59,7 @@ class EnterpriseBroadWorksMobileManagerModifyHomeZoneRequest extends \CWM\BroadW
      * @ElementName mobileNetworkCode
      * @Type string
      * @Optional
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:350
+     * @Group 5395c7df0157d44aa22f3351d1a5f3da:351
      * @MinLength 1
      * @MaxLength 3
      * @var string|null
@@ -70,7 +70,7 @@ class EnterpriseBroadWorksMobileManagerModifyHomeZoneRequest extends \CWM\BroadW
      * @ElementName locationAreaCode
      * @Type string
      * @Optional
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:350
+     * @Group 5395c7df0157d44aa22f3351d1a5f3da:351
      * @MinLength 1
      * @MaxLength 5
      * @var string|null
@@ -81,7 +81,7 @@ class EnterpriseBroadWorksMobileManagerModifyHomeZoneRequest extends \CWM\BroadW
      * @ElementName cellIdentity
      * @Type string
      * @Optional
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:350
+     * @Group 5395c7df0157d44aa22f3351d1a5f3da:351
      * @MinLength 1
      * @MaxLength 5
      * @var string|null

@@ -6,12 +6,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupFindMeFollowMeGetAlertingGroupSelectiveCriteriaResponse
  *
  * Response to GroupFindMeFollowMeGetAlertingGroupSelectiveCriteriaRequest.
- *                 Contains the alerting group selective criteria information.
- *                 Replaced by: GroupFindMeFollowMeGetAlertingGroupSelectiveCriteriaResponse21
+ *         Contains the alerting group selective criteria information.
+ *         Replaced by: GroupFindMeFollowMeGetAlertingGroupSelectiveCriteriaResponse21
  *
  * @see GroupFindMeFollowMeGetAlertingGroupSelectiveCriteriaRequest
  * @see GroupFindMeFollowMeGetAlertingGroupSelectiveCriteriaResponse21
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:33353","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:9811","type":"sequence"}]
  */
 class GroupFindMeFollowMeGetAlertingGroupSelectiveCriteriaResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -20,7 +20,7 @@ class GroupFindMeFollowMeGetAlertingGroupSelectiveCriteriaResponse extends \CWM\
      * @ElementName timeSchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:33353
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:9811
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null
      */
     private $timeSchedule = null;
@@ -29,7 +29,7 @@ class GroupFindMeFollowMeGetAlertingGroupSelectiveCriteriaResponse extends \CWM\
      * @ElementName holidaySchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:33353
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:9811
      * @var \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null
      */
     private $holidaySchedule = null;
@@ -37,7 +37,7 @@ class GroupFindMeFollowMeGetAlertingGroupSelectiveCriteriaResponse extends \CWM\
     /**
      * @ElementName blacklisted
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:33353
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:9811
      * @var bool|null
      */
     private $blacklisted = null;
@@ -45,7 +45,7 @@ class GroupFindMeFollowMeGetAlertingGroupSelectiveCriteriaResponse extends \CWM\
     /**
      * @ElementName fromDnCriteria
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDn
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:33353
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:9811
      * @var \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDn|null
      */
     private $fromDnCriteria = null;

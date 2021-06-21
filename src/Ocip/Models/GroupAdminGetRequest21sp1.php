@@ -7,10 +7,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Get a group administrators profile.
  *         The response is either a GroupAdminGetResponse21sp1 or an ErrorResponse.
+ *         Replaced by: GroupAdminGetRequest22.
  *
  * @see GroupAdminGetResponse21sp1
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:1236","type":"sequence"}]
+ * @see GroupAdminGetRequest22
+ * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:1108","type":"sequence"}]
  */
 class GroupAdminGetRequest21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +20,7 @@ class GroupAdminGetRequest21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\O
     /**
      * @ElementName userId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1236
+     * @Group de4d76f01f337fe4694212ec9f771753:1108
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

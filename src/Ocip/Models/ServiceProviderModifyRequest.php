@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either a SuccessResponse or an ErrorResponse.
  *         The following elements are only used in Amplify data mode and ignored 
  *         in AS and XS data mode: 
- *         servicePolicy,
+ *         servicePolicy, 
  *         callProcessingSliceId, 
  *         provisioningSliceId, 
  *         subscriberPartition.
@@ -18,13 +18,34 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Only Provisioning admin and above can change the callProcessingSliceId, 
  *         provisioningSliceId, and subscriberPartition.
  *         
+ *         The following element is only used in AS data mode and ignored 
+ *         in Amplify and XS data mode: 
+ *         resellerId
+ *         resellerName
+ *         
+ *         resellerId and resellerName can only be configured by a Reseller or higher level administrator.
+ *
+ * 	    The following behavior is only applicable in CloudPBX:
+ * 	      - when existing resellerId is specified, enterprise/Service Provider shall be moved to
+ * 	        requesting reseller.
+ * 	      - when new resellerId, that does not exist in the system, is specified, the new 
+ * 	        Reseller is created the given resellerId and resellerName (if provided) and 	enterprise/Service Provider is moved to the newly created Reseller.
+ * 	    
+ * 	    resellerName element is ignored if the reseller the service provider is being moved to 	already exists.
+ *
+ *         
  *         The following elements are only used in Amplify and XS data mode and ignored in AS data mode:
  *         preferredDataCenter.
  *         Only Provisioning admin and above can change the preferredDataCenter.
+ *         
+ *         The following elements are only used in AS data mode and ignored in XS data mode:
+ *    		 defaultExtensionLength 
+ *    		 locationRoutingPrefixDigit
+ *    		 locationCodeLength
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:4081","type":"sequence"}]
+ * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:4895","type":"sequence"}]
  */
 class ServiceProviderModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -32,7 +53,7 @@ class ServiceProviderModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4081
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4895
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -43,7 +64,7 @@ class ServiceProviderModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @ElementName defaultDomain
      * @Type string
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4081
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4895
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -55,7 +76,7 @@ class ServiceProviderModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Type string
      * @Nillable
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4081
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4895
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -67,7 +88,7 @@ class ServiceProviderModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Type string
      * @Nillable
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4081
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4895
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -78,7 +99,7 @@ class ServiceProviderModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @ElementName contact
      * @Type \CWM\BroadWorksConnector\Ocip\Models\Contact
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4081
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4895
      * @var \CWM\BroadWorksConnector\Ocip\Models\Contact|null
      */
     private $contact = null;
@@ -87,7 +108,7 @@ class ServiceProviderModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @ElementName address
      * @Type \CWM\BroadWorksConnector\Ocip\Models\StreetAddress
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4081
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4895
      * @var \CWM\BroadWorksConnector\Ocip\Models\StreetAddress|null
      */
     private $address = null;
@@ -96,7 +117,7 @@ class ServiceProviderModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @ElementName useServiceProviderLanguages
      * @Type bool
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4081
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4895
      * @var bool|null
      */
     private $useServiceProviderLanguages = null;
@@ -106,7 +127,7 @@ class ServiceProviderModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Type string
      * @Nillable
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4081
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4895
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -118,7 +139,7 @@ class ServiceProviderModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Type string
      * @Nillable
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4081
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4895
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -130,7 +151,7 @@ class ServiceProviderModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Type string
      * @Nillable
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4081
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4895
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -142,7 +163,7 @@ class ServiceProviderModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Type string
      * @Nillable
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4081
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4895
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -154,12 +175,70 @@ class ServiceProviderModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Type string
      * @Nillable
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4081
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4895
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $preferredDataCenter = null;
+
+    /**
+     * @ElementName defaultExtensionLength
+     * @Type int
+     * @Nillable
+     * @Optional
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4895
+     * @MinInclusive 2
+     * @MaxInclusive 20
+     * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
+     */
+    private $defaultExtensionLength = null;
+
+    /**
+     * @ElementName locationRoutingPrefixDigit
+     * @Type int
+     * @Nillable
+     * @Optional
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4895
+     * @MinInclusive 0
+     * @MaxInclusive 9
+     * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
+     */
+    private $locationRoutingPrefixDigit = null;
+
+    /**
+     * @ElementName locationCodeLength
+     * @Type int
+     * @Nillable
+     * @Optional
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4895
+     * @MinInclusive 1
+     * @MaxInclusive 15
+     * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
+     */
+    private $locationCodeLength = null;
+
+    /**
+     * @ElementName resellerId
+     * @Type string
+     * @Optional
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4895
+     * @MinLength 1
+     * @MaxLength 36
+     * @var string|null
+     */
+    private $resellerId = null;
+
+    /**
+     * @ElementName resellerName
+     * @Type string
+     * @Optional
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4895
+     * @MinLength 1
+     * @MaxLength 320
+     * @var string|null
+     */
+    private $resellerName = null;
 
     /**
      * Getter for serviceProviderId
@@ -558,6 +637,173 @@ class ServiceProviderModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
     public function unsetPreferredDataCenter()
     {
         $this->preferredDataCenter = null;
+        return $this;
+    }
+
+    /**
+     * Getter for defaultExtensionLength
+     *
+     * @return int|null
+     */
+    public function getDefaultExtensionLength()
+    {
+        return $this->defaultExtensionLength instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->defaultExtensionLength;
+    }
+
+    /**
+     * Setter for defaultExtensionLength
+     *
+     * @param int|null $defaultExtensionLength
+     * @return $this
+     */
+    public function setDefaultExtensionLength($defaultExtensionLength = null)
+    {
+        if ($defaultExtensionLength === null) {
+            $this->defaultExtensionLength = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->defaultExtensionLength = $defaultExtensionLength;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDefaultExtensionLength()
+    {
+        $this->defaultExtensionLength = null;
+        return $this;
+    }
+
+    /**
+     * Getter for locationRoutingPrefixDigit
+     *
+     * @return int|null
+     */
+    public function getLocationRoutingPrefixDigit()
+    {
+        return $this->locationRoutingPrefixDigit instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->locationRoutingPrefixDigit;
+    }
+
+    /**
+     * Setter for locationRoutingPrefixDigit
+     *
+     * @param int|null $locationRoutingPrefixDigit
+     * @return $this
+     */
+    public function setLocationRoutingPrefixDigit($locationRoutingPrefixDigit = null)
+    {
+        if ($locationRoutingPrefixDigit === null) {
+            $this->locationRoutingPrefixDigit = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->locationRoutingPrefixDigit = $locationRoutingPrefixDigit;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetLocationRoutingPrefixDigit()
+    {
+        $this->locationRoutingPrefixDigit = null;
+        return $this;
+    }
+
+    /**
+     * Getter for locationCodeLength
+     *
+     * @return int|null
+     */
+    public function getLocationCodeLength()
+    {
+        return $this->locationCodeLength instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->locationCodeLength;
+    }
+
+    /**
+     * Setter for locationCodeLength
+     *
+     * @param int|null $locationCodeLength
+     * @return $this
+     */
+    public function setLocationCodeLength($locationCodeLength = null)
+    {
+        if ($locationCodeLength === null) {
+            $this->locationCodeLength = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->locationCodeLength = $locationCodeLength;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetLocationCodeLength()
+    {
+        $this->locationCodeLength = null;
+        return $this;
+    }
+
+    /**
+     * Getter for resellerId
+     *
+     * @return string
+     */
+    public function getResellerId()
+    {
+        return $this->resellerId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->resellerId;
+    }
+
+    /**
+     * Setter for resellerId
+     *
+     * @param string $resellerId
+     * @return $this
+     */
+    public function setResellerId($resellerId)
+    {
+        $this->resellerId = $resellerId;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetResellerId()
+    {
+        $this->resellerId = null;
+        return $this;
+    }
+
+    /**
+     * Getter for resellerName
+     *
+     * @return string
+     */
+    public function getResellerName()
+    {
+        return $this->resellerName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->resellerName;
+    }
+
+    /**
+     * Setter for resellerName
+     *
+     * @param string $resellerName
+     * @return $this
+     */
+    public function setResellerName($resellerName)
+    {
+        $this->resellerName = $resellerName;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetResellerName()
+    {
+        $this->resellerName = null;
         return $this;
     }
 

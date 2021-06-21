@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to ServiceProviderAccessDeviceGetEnhancedConfigurationTypeListRequest.
  *
  * @see ServiceProviderAccessDeviceGetEnhancedConfigurationTypeListRequest
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:496","type":"sequence"}]
+ * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:682","type":"sequence"}]
  */
 class ServiceProviderAccessDeviceGetEnhancedConfigurationTypeListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class ServiceProviderAccessDeviceGetEnhancedConfigurationTypeListResponse extend
      * @Type string
      * @Array
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:496
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:682
      * @MinLength 1
      * @MaxLength 40
      * @var string[]

@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         To uniquely identify a group department, we must know the department name and which
  *         group contains the department.
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:2417","type":"sequence"}]
+ * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:2858","type":"sequence"}]
  */
 class GroupDepartmentKey extends DepartmentKey
 {
@@ -17,7 +17,7 @@ class GroupDepartmentKey extends DepartmentKey
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:2417
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:2858
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -27,7 +27,7 @@ class GroupDepartmentKey extends DepartmentKey
     /**
      * @ElementName groupId
      * @Type string
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:2417
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:2858
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -37,7 +37,7 @@ class GroupDepartmentKey extends DepartmentKey
     /**
      * @ElementName name
      * @Type string
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:2417
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:2858
      * @MinLength 1
      * @MaxLength 50
      * @var string|null

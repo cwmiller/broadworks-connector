@@ -6,10 +6,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupSessionAdmissionControlGroupGetResponse21sp1
  *
  * Response to GroupSessionAdmissionControlGroupGetRequest21sp1.
- *                 Returns the profile information for the session admission control group.
+ *         Returns the profile information for the session admission control group.
  *
  * @see GroupSessionAdmissionControlGroupGetRequest21sp1
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:2058","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:12919","type":"sequence"}]
  */
 class GroupSessionAdmissionControlGroupGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class GroupSessionAdmissionControlGroupGetResponse21sp1 extends \CWM\BroadWorksC
     /**
      * @ElementName maxSession
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:2058
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:12919
      * @MinInclusive 0
      * @var int|null
      */
@@ -27,7 +27,7 @@ class GroupSessionAdmissionControlGroupGetResponse21sp1 extends \CWM\BroadWorksC
      * @ElementName maxUserOriginatingSessions
      * @Type int
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:2058
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:12919
      * @MinInclusive 0
      * @var int|null
      */
@@ -37,7 +37,7 @@ class GroupSessionAdmissionControlGroupGetResponse21sp1 extends \CWM\BroadWorksC
      * @ElementName maxUserTerminatingSessions
      * @Type int
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:2058
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:12919
      * @MinInclusive 0
      * @var int|null
      */
@@ -46,7 +46,7 @@ class GroupSessionAdmissionControlGroupGetResponse21sp1 extends \CWM\BroadWorksC
     /**
      * @ElementName reservedSession
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:2058
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:12919
      * @MinInclusive 0
      * @var int|null
      */
@@ -56,7 +56,7 @@ class GroupSessionAdmissionControlGroupGetResponse21sp1 extends \CWM\BroadWorksC
      * @ElementName reservedUserOriginatingSessions
      * @Type int
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:2058
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:12919
      * @MinInclusive 0
      * @var int|null
      */
@@ -66,7 +66,7 @@ class GroupSessionAdmissionControlGroupGetResponse21sp1 extends \CWM\BroadWorksC
      * @ElementName reservedUserTerminatingSessions
      * @Type int
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:2058
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:12919
      * @MinInclusive 0
      * @var int|null
      */
@@ -75,7 +75,7 @@ class GroupSessionAdmissionControlGroupGetResponse21sp1 extends \CWM\BroadWorksC
     /**
      * @ElementName defaultGroup
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:2058
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:12919
      * @var bool|null
      */
     private $defaultGroup = null;
@@ -83,7 +83,7 @@ class GroupSessionAdmissionControlGroupGetResponse21sp1 extends \CWM\BroadWorksC
     /**
      * @ElementName countIntraSACGroupSessions
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:2058
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:12919
      * @var bool|null
      */
     private $countIntraSACGroupSessions = null;
@@ -93,7 +93,7 @@ class GroupSessionAdmissionControlGroupGetResponse21sp1 extends \CWM\BroadWorksC
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDevice
      * @Array
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:2058
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:12919
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDevice[]
      */
     private $devices = array(
@@ -103,7 +103,7 @@ class GroupSessionAdmissionControlGroupGetResponse21sp1 extends \CWM\BroadWorksC
     /**
      * @ElementName blockEmergencyAndRepairCallsDueToSACLimits
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:2058
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:12919
      * @var bool|null
      */
     private $blockEmergencyAndRepairCallsDueToSACLimits = null;
@@ -112,7 +112,7 @@ class GroupSessionAdmissionControlGroupGetResponse21sp1 extends \CWM\BroadWorksC
      * @ElementName mediaGroupName
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:2058
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:12919
      * @MinLength 1
      * @MaxLength 80
      * @var string|null

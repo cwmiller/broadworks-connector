@@ -5,7 +5,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1ConferenceGreetingMenuKeys
  *
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:32076","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:37875","type":"sequence"}]
  */
 class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1ConferenceGreetingMenuKeys
 {
@@ -14,7 +14,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1ConferenceGreetin
      * @ElementName activateConfGreeting
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:32076
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:37875
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -25,7 +25,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1ConferenceGreetin
      * @ElementName deactivateConfGreeting
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:32076
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:37875
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -36,7 +36,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1ConferenceGreetin
      * @ElementName recordNewConfGreeting
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:32076
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:37875
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -47,7 +47,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1ConferenceGreetin
      * @ElementName listenToCurrentConfGreeting
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:32076
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:37875
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -57,7 +57,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1ConferenceGreetin
     /**
      * @ElementName returnToPreviousMenu
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:32076
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:37875
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -68,7 +68,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1ConferenceGreetin
      * @ElementName repeatMenu
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:32076
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:37875
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null

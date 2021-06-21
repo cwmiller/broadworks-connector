@@ -6,27 +6,23 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupCallProcessingGetPolicyRequest16sp2
  *
  * Request the group level data associated with Call Processing Policy.
- *                 The response is either a GroupCallProcessingGetPolicyResponse16sp2 or an
- *                 ErrorResponse.
- *                 The useGroupCLIDSetting attribute controls the CLID settings
- *                 (clidPolicy, emergencyClidPolicy, allowAlternateNumbersForRedirectingIdentity, useGroupName)
- *                 The useGroupMediaSetting attribute controls the Media settings
- *                 (medisPolicySelection, supportedMediaSetName)
- *                 The useGroupCallLimitsSetting attribute controls the Call Limits settings
- *                 (useMaxSimultaneousCalls, maxSimultaneousCalls,
- *                 useMaxSimultaneousVideoCalls, maxSimultaneousVideoCalls, useMaxCallTimeForAnsweredCalls,
- *                 maxCallTimeForAnsweredCallsMinutes, useMaxCallTimeForUnansweredCalls,
- *                 maxCallTimeForUnansweredCallsMinutes, useMaxConcurrentRedirectedCalls, useMaxFindMeFollowMeDepth,
- *                 maxRedirectionDepth, useMaxConcurrentFindMeFollowMeInvocations, maxConcurrentFindMeFollowMeInvocations)
- *                 The useGroupTranslationRoutingSetting attribute controls the routing and translation settings
- *                 (networkUsageSelection, enforceGroupCallingLineIdentityRestriction,
- *                 allowEnterpriseGroupCallTypingForPrivateDialingPlan, allowEnterpriseGroupCallTypingForPublicDialingPlan,
- *                 overrideCLIDRestrictionForExternalCallsViaPrivateDialingPlan, enableEnterpriseExtensionDialing)
- *                 The useGroupDCLIDSetting controls the Dialable Caller ID settings (enableDialableCallerID)
+ *           The response is either a GroupCallProcessingGetPolicyResponse16sp2 or an
+ *           ErrorResponse.
+ *           The useGroupCLIDSetting attribute controls the CLID settings 
+ *           (clidPolicy, emergencyClidPolicy, allowAlternateNumbersForRedirectingIdentity, useGroupName)
+ *           The useGroupMediaSetting attribute controls the Media settings 
+ *           (medisPolicySelection, supportedMediaSetName)
+ *          The useGroupCallLimitsSetting attribute controls the Call Limits settings 
+ *          (useMaxSimultaneousCalls, maxSimultaneousCalls, 
+ *          useMaxSimultaneousVideoCalls, maxSimultaneousVideoCalls, useMaxCallTimeForAnsweredCalls, maxCallTimeForAnsweredCallsMinutes, useMaxCallTimeForUnansweredCalls, maxCallTimeForUnansweredCallsMinutes, useMaxConcurrentRedirectedCalls, useMaxFindMeFollowMeDepth, maxRedirectionDepth, useMaxConcurrentFindMeFollowMeInvocations, maxConcurrentFindMeFollowMeInvocations)
+ *          The useGroupTranslationRoutingSetting attribute controls the routing and translation settings 
+ *          (networkUsageSelection, enforceGroupCallingLineIdentityRestriction, 
+ *          allowEnterpriseGroupCallTypingForPrivateDialingPlan, allowEnterpriseGroupCallTypingForPublicDialingPlan, overrideCLIDRestrictionForExternalCallsViaPrivateDialingPlan, enableEnterpriseExtensionDialing)
+ *          The useGroupDCLIDSetting controls the Dialable Caller ID settings (enableDialableCallerID)
  *
  * @see GroupCallProcessingGetPolicyResponse16sp2
  * @see ErrorResponse
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:13282","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:7645","type":"sequence"}]
  */
 class GroupCallProcessingGetPolicyRequest16sp2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -34,7 +30,7 @@ class GroupCallProcessingGetPolicyRequest16sp2 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:13282
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:7645
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -44,7 +40,7 @@ class GroupCallProcessingGetPolicyRequest16sp2 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName groupId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:13282
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:7645
      * @MinLength 1
      * @MaxLength 30
      * @var string|null

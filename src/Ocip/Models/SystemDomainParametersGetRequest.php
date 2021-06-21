@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemDomainParametersGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:8508","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:9540","type":"sequence"}]
  */
 class SystemDomainParametersGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

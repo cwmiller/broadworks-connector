@@ -5,7 +5,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemConfigurableFileSystemModifyRequestProtocolFile
  *
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:6320","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:6663","type":"sequence"}]
  */
 class SystemConfigurableFileSystemModifyRequestProtocolFile
 {
@@ -14,10 +14,19 @@ class SystemConfigurableFileSystemModifyRequestProtocolFile
      * @ElementName replicated
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6320
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6663
      * @var bool|null
      */
     private $replicated = null;
+
+    /**
+     * @ElementName secure
+     * @Type bool
+     * @Optional
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6663
+     * @var bool|null
+     */
+    private $secure = null;
 
     /**
      * Getter for replicated
@@ -47,6 +56,37 @@ class SystemConfigurableFileSystemModifyRequestProtocolFile
     public function unsetReplicated()
     {
         $this->replicated = null;
+        return $this;
+    }
+
+    /**
+     * Getter for secure
+     *
+     * @return bool
+     */
+    public function getSecure()
+    {
+        return $this->secure instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->secure;
+    }
+
+    /**
+     * Setter for secure
+     *
+     * @param bool $secure
+     * @return $this
+     */
+    public function setSecure($secure)
+    {
+        $this->secure = $secure;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetSecure()
+    {
+        $this->secure = null;
         return $this;
     }
 

@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:6118","type":"sequence"}]
+ * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:6080","type":"sequence"}]
  */
 class SystemCallCenterEnhancedReportingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class SystemCallCenterEnhancedReportingModifyRequest extends \CWM\BroadWorksConn
      * @ElementName archiveReports
      * @Type bool
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:6118
+     * @Group e2c537e3e39483b96620673a7012ffdd:6080
      * @var bool|null
      */
     private $archiveReports = null;
@@ -29,7 +29,7 @@ class SystemCallCenterEnhancedReportingModifyRequest extends \CWM\BroadWorksConn
      * @Type string
      * @Nillable
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:6118
+     * @Group e2c537e3e39483b96620673a7012ffdd:6080
      * @MinLength 1
      * @MaxLength 256
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -41,7 +41,7 @@ class SystemCallCenterEnhancedReportingModifyRequest extends \CWM\BroadWorksConn
      * @Type string
      * @Nillable
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:6118
+     * @Group e2c537e3e39483b96620673a7012ffdd:6080
      * @MinLength 1
      * @MaxLength 256
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil

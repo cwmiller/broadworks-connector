@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains the list of domains.
  *
  * @see GroupBroadWorksMobileManagerGetDomainListRequest
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:1826","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:2331","type":"sequence"}]
  */
 class GroupBroadWorksMobileManagerGetDomainListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,7 +19,7 @@ class GroupBroadWorksMobileManagerGetDomainListResponse extends \CWM\BroadWorksC
      * @Type string
      * @Array
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1826
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:2331
      * @MinLength 1
      * @MaxLength 100
      * @var string[]

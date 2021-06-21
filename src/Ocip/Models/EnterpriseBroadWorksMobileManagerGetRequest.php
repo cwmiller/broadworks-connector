@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see EnterpriseBroadWorksMobileManagerGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"5395c7df0157d44aa22f3351d1a5f3da:309","type":"sequence"}]
+ * @Groups [{"id":"5395c7df0157d44aa22f3351d1a5f3da:310","type":"sequence"}]
  */
 class EnterpriseBroadWorksMobileManagerGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class EnterpriseBroadWorksMobileManagerGetRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:309
+     * @Group 5395c7df0157d44aa22f3351d1a5f3da:310
      * @MinLength 1
      * @MaxLength 30
      * @var string|null

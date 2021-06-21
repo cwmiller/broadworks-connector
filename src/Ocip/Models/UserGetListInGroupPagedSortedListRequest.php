@@ -20,10 +20,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         
  *         Multiple search criteria are logically ANDed together unless the searchCriteriaModeOr option is included.
  *         Then the search criteria are logically ORed together.
+ *         
+ *         
+ *         The following elements are used in AS data mode and ignored in XS data mode:
+ *            groupExternalId
  *
  * @see UserGetListInGroupPagedSortedListResponse
  * @see ErrorResponse
- * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:1737","type":"sequence"}]
+ * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:1850","type":"sequence","children":[{"id":"53d18cc797d03d802cbc411ad821f1d4:1851","type":"choice","children":[{"id":"53d18cc797d03d802cbc411ad821f1d4:1852","type":"sequence"}]}]}]
  */
 class UserGetListInGroupPagedSortedListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -31,7 +35,7 @@ class UserGetListInGroupPagedSortedListRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:1737
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:1852
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -41,7 +45,7 @@ class UserGetListInGroupPagedSortedListRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:1737
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:1852
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -49,10 +53,19 @@ class UserGetListInGroupPagedSortedListRequest extends \CWM\BroadWorksConnector\
     private $groupId = null;
 
     /**
+     * @ElementName groupExternalId
+     * @Type string
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:1851
+     * @MaxLength 36
+     * @var string|null
+     */
+    private $groupExternalId = null;
+
+    /**
      * @ElementName responsePagingControl
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:1737
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:1850
      * @var \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl|null
      */
     private $responsePagingControl = null;
@@ -62,7 +75,7 @@ class UserGetListInGroupPagedSortedListRequest extends \CWM\BroadWorksConnector\
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortOrderUserGetListInGroupPagedSortedList
      * @Array
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:1737
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:1850
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortOrderUserGetListInGroupPagedSortedList[]
      */
     private $sortOrder = array(
@@ -74,7 +87,7 @@ class UserGetListInGroupPagedSortedListRequest extends \CWM\BroadWorksConnector\
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName
      * @Array
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:1737
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:1850
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[]
      */
     private $searchCriteriaUserLastName = array(
@@ -86,7 +99,7 @@ class UserGetListInGroupPagedSortedListRequest extends \CWM\BroadWorksConnector\
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName
      * @Array
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:1737
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:1850
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName[]
      */
     private $searchCriteriaUserFirstName = array(
@@ -98,7 +111,7 @@ class UserGetListInGroupPagedSortedListRequest extends \CWM\BroadWorksConnector\
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn
      * @Array
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:1737
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:1850
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[]
      */
     private $searchCriteriaDn = array(
@@ -110,7 +123,7 @@ class UserGetListInGroupPagedSortedListRequest extends \CWM\BroadWorksConnector\
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaEmailAddress
      * @Array
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:1737
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:1850
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaEmailAddress[]
      */
     private $searchCriteriaEmailAddress = array(
@@ -122,7 +135,7 @@ class UserGetListInGroupPagedSortedListRequest extends \CWM\BroadWorksConnector\
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDepartmentName
      * @Array
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:1737
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:1850
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDepartmentName[]
      */
     private $searchCriteriaDepartmentName = array(
@@ -133,7 +146,7 @@ class UserGetListInGroupPagedSortedListRequest extends \CWM\BroadWorksConnector\
      * @ElementName searchCriteriaExactUserInTrunkGroup
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserInTrunkGroup
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:1737
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:1850
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserInTrunkGroup|null
      */
     private $searchCriteriaExactUserInTrunkGroup = null;
@@ -143,7 +156,7 @@ class UserGetListInGroupPagedSortedListRequest extends \CWM\BroadWorksConnector\
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId
      * @Array
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:1737
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:1850
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId[]
      */
     private $searchCriteriaUserId = array(
@@ -155,7 +168,7 @@ class UserGetListInGroupPagedSortedListRequest extends \CWM\BroadWorksConnector\
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension
      * @Array
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:1737
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:1850
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension[]
      */
     private $searchCriteriaExtension = array(
@@ -166,7 +179,7 @@ class UserGetListInGroupPagedSortedListRequest extends \CWM\BroadWorksConnector\
      * @ElementName searchCriteriaExactDnActivation
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDnActivation
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:1737
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:1850
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDnActivation|null
      */
     private $searchCriteriaExactDnActivation = null;
@@ -175,7 +188,7 @@ class UserGetListInGroupPagedSortedListRequest extends \CWM\BroadWorksConnector\
      * @ElementName searchCriteriaModeOr
      * @Type bool
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:1737
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:1850
      * @var bool|null
      */
     private $searchCriteriaModeOr = null;
@@ -239,6 +252,37 @@ class UserGetListInGroupPagedSortedListRequest extends \CWM\BroadWorksConnector\
     public function unsetGroupId()
     {
         $this->groupId = null;
+        return $this;
+    }
+
+    /**
+     * Getter for groupExternalId
+     *
+     * @return string
+     */
+    public function getGroupExternalId()
+    {
+        return $this->groupExternalId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupExternalId;
+    }
+
+    /**
+     * Setter for groupExternalId
+     *
+     * @param string $groupExternalId
+     * @return $this
+     */
+    public function setGroupExternalId($groupExternalId)
+    {
+        $this->groupExternalId = $groupExternalId;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetGroupExternalId()
+    {
+        $this->groupExternalId = null;
         return $this;
     }
 

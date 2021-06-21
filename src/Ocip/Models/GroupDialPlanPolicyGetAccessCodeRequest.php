@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupDialPlanPolicyGetAccessCodeResponse
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:3892","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:4747","type":"sequence"}]
  */
 class GroupDialPlanPolicyGetAccessCodeRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupDialPlanPolicyGetAccessCodeRequest extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:3892
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:4747
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +28,7 @@ class GroupDialPlanPolicyGetAccessCodeRequest extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:3892
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:4747
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -38,7 +38,7 @@ class GroupDialPlanPolicyGetAccessCodeRequest extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName accessCode
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:3892
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:4747
      * @MinLength 1
      * @MaxLength 5
      * @var string|null

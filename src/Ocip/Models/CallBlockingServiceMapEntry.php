@@ -7,16 +7,16 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * The call blocking service map entry.
  *
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:18472","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:19864","type":"sequence"}]
  */
 class CallBlockingServiceMapEntry
 {
 
     /**
      * @ElementName callBlockingService
-     * @Type \CWM\BroadWorksConnector\Ocip\Models\CallBlockingService23
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18472
-     * @var \CWM\BroadWorksConnector\Ocip\Models\CallBlockingService23|null
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CallBlockingService23V3
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:19864
+     * @var \CWM\BroadWorksConnector\Ocip\Models\CallBlockingService23V3|null
      */
     private $callBlockingService = null;
 
@@ -24,7 +24,7 @@ class CallBlockingServiceMapEntry
      * @ElementName treatmentId
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18472
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:19864
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -34,7 +34,7 @@ class CallBlockingServiceMapEntry
     /**
      * Getter for callBlockingService
      *
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CallBlockingService23
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallBlockingService23V3
      */
     public function getCallBlockingService()
     {
@@ -44,10 +44,10 @@ class CallBlockingServiceMapEntry
     /**
      * Setter for callBlockingService
      *
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CallBlockingService23 $callBlockingService
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallBlockingService23V3 $callBlockingService
      * @return $this
      */
-    public function setCallBlockingService(\CWM\BroadWorksConnector\Ocip\Models\CallBlockingService23 $callBlockingService)
+    public function setCallBlockingService(\CWM\BroadWorksConnector\Ocip\Models\CallBlockingService23V3 $callBlockingService)
     {
         $this->callBlockingService = $callBlockingService;
         return $this;

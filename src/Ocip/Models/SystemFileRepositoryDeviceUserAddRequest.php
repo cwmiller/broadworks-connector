@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:9409","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:10383","type":"sequence"}]
  */
 class SystemFileRepositoryDeviceUserAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemFileRepositoryDeviceUserAddRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName fileRepositoryName
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9409
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10383
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -28,7 +28,7 @@ class SystemFileRepositoryDeviceUserAddRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName userName
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9409
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10383
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -38,7 +38,7 @@ class SystemFileRepositoryDeviceUserAddRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName password
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9409
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10383
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -48,7 +48,7 @@ class SystemFileRepositoryDeviceUserAddRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName allowPut
      * @Type bool
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9409
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10383
      * @var bool|null
      */
     private $allowPut = null;
@@ -56,7 +56,7 @@ class SystemFileRepositoryDeviceUserAddRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName allowDelete
      * @Type bool
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9409
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10383
      * @var bool|null
      */
     private $allowDelete = null;
@@ -64,7 +64,7 @@ class SystemFileRepositoryDeviceUserAddRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName allowGet
      * @Type bool
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9409
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10383
      * @var bool|null
      */
     private $allowGet = null;

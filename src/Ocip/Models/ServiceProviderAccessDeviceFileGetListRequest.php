@@ -5,15 +5,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * ServiceProviderAccessDeviceFileGetListRequest
  *
- * Request to get the list of device files managed by the Device Management System, on a per-device profile
- *                 basis.
- *                 The response is either ServiceProviderAccessDeviceFileGetListResponse or ErrorResponse.
- *                 Replaced By: ServiceProviderAccessDeviceFileGetListRequest14sp8
+ * Request to get the list of device files managed by the Device Management System, on a per-device profile basis.
+ *           The response is either ServiceProviderAccessDeviceFileGetListResponse or ErrorResponse.
+ *           Replaced By: ServiceProviderAccessDeviceFileGetListRequest14sp8
  *
  * @see ServiceProviderAccessDeviceFileGetListResponse
  * @see ErrorResponse
  * @see ServiceProviderAccessDeviceFileGetListRequest14sp8
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:3364","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:16582","type":"sequence"}]
  */
 class ServiceProviderAccessDeviceFileGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,7 +20,7 @@ class ServiceProviderAccessDeviceFileGetListRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:3364
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:16582
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -31,7 +30,7 @@ class ServiceProviderAccessDeviceFileGetListRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName deviceName
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:3364
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:16582
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

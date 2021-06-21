@@ -8,9 +8,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Modify the system level data associated with Dial Plan Policy.
  *         The response is either a SuccessResponse or an ErrorResponse.
  *
+ *         The following elements are only used in AS data mode and ignored in XS data mode:
+ *           overrideResolvedDeviceDigitMap
+ *           deviceDigitMap
+ *           permissiveOACDialing
+ *           performInternalTranslationsWithOAC
+ *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:8143","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:9211","type":"sequence"}]
  */
 class SystemDialPlanPolicyModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +25,7 @@ class SystemDialPlanPolicyModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName requiresAccessCodeForPublicCalls
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8143
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9211
      * @var bool|null
      */
     private $requiresAccessCodeForPublicCalls = null;
@@ -28,7 +34,7 @@ class SystemDialPlanPolicyModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName allowE164PublicCalls
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8143
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9211
      * @var bool|null
      */
     private $allowE164PublicCalls = null;
@@ -37,7 +43,7 @@ class SystemDialPlanPolicyModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName preferE164NumberFormatForCallbackServices
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8143
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9211
      * @var bool|null
      */
     private $preferE164NumberFormatForCallbackServices = null;
@@ -46,7 +52,7 @@ class SystemDialPlanPolicyModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName publicDigitMap
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8143
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9211
      * @MinLength 1
      * @MaxLength 2048
      * @var string|null
@@ -58,12 +64,51 @@ class SystemDialPlanPolicyModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8143
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9211
      * @MinLength 1
      * @MaxLength 2048
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $privateDigitMap = null;
+
+    /**
+     * @ElementName overrideResolvedDeviceDigitMap
+     * @Type bool
+     * @Optional
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9211
+     * @var bool|null
+     */
+    private $overrideResolvedDeviceDigitMap = null;
+
+    /**
+     * @ElementName deviceDigitMap
+     * @Type string
+     * @Nillable
+     * @Optional
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9211
+     * @MinLength 1
+     * @MaxLength 2048
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     */
+    private $deviceDigitMap = null;
+
+    /**
+     * @ElementName performInternalTranslationsWithOAC
+     * @Type bool
+     * @Optional
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9211
+     * @var bool|null
+     */
+    private $performInternalTranslationsWithOAC = null;
+
+    /**
+     * @ElementName permissiveOACDialing
+     * @Type bool
+     * @Optional
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9211
+     * @var bool|null
+     */
+    private $permissiveOACDialing = null;
 
     /**
      * Getter for requiresAccessCodeForPublicCalls
@@ -221,6 +266,134 @@ class SystemDialPlanPolicyModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     public function unsetPrivateDigitMap()
     {
         $this->privateDigitMap = null;
+        return $this;
+    }
+
+    /**
+     * Getter for overrideResolvedDeviceDigitMap
+     *
+     * @return bool
+     */
+    public function getOverrideResolvedDeviceDigitMap()
+    {
+        return $this->overrideResolvedDeviceDigitMap instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->overrideResolvedDeviceDigitMap;
+    }
+
+    /**
+     * Setter for overrideResolvedDeviceDigitMap
+     *
+     * @param bool $overrideResolvedDeviceDigitMap
+     * @return $this
+     */
+    public function setOverrideResolvedDeviceDigitMap($overrideResolvedDeviceDigitMap)
+    {
+        $this->overrideResolvedDeviceDigitMap = $overrideResolvedDeviceDigitMap;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetOverrideResolvedDeviceDigitMap()
+    {
+        $this->overrideResolvedDeviceDigitMap = null;
+        return $this;
+    }
+
+    /**
+     * Getter for deviceDigitMap
+     *
+     * @return string|null
+     */
+    public function getDeviceDigitMap()
+    {
+        return $this->deviceDigitMap instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->deviceDigitMap;
+    }
+
+    /**
+     * Setter for deviceDigitMap
+     *
+     * @param string|null $deviceDigitMap
+     * @return $this
+     */
+    public function setDeviceDigitMap($deviceDigitMap = null)
+    {
+        if ($deviceDigitMap === null) {
+            $this->deviceDigitMap = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->deviceDigitMap = $deviceDigitMap;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDeviceDigitMap()
+    {
+        $this->deviceDigitMap = null;
+        return $this;
+    }
+
+    /**
+     * Getter for performInternalTranslationsWithOAC
+     *
+     * @return bool
+     */
+    public function getPerformInternalTranslationsWithOAC()
+    {
+        return $this->performInternalTranslationsWithOAC instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->performInternalTranslationsWithOAC;
+    }
+
+    /**
+     * Setter for performInternalTranslationsWithOAC
+     *
+     * @param bool $performInternalTranslationsWithOAC
+     * @return $this
+     */
+    public function setPerformInternalTranslationsWithOAC($performInternalTranslationsWithOAC)
+    {
+        $this->performInternalTranslationsWithOAC = $performInternalTranslationsWithOAC;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetPerformInternalTranslationsWithOAC()
+    {
+        $this->performInternalTranslationsWithOAC = null;
+        return $this;
+    }
+
+    /**
+     * Getter for permissiveOACDialing
+     *
+     * @return bool
+     */
+    public function getPermissiveOACDialing()
+    {
+        return $this->permissiveOACDialing instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->permissiveOACDialing;
+    }
+
+    /**
+     * Setter for permissiveOACDialing
+     *
+     * @param bool $permissiveOACDialing
+     * @return $this
+     */
+    public function setPermissiveOACDialing($permissiveOACDialing)
+    {
+        $this->permissiveOACDialing = $permissiveOACDialing;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetPermissiveOACDialing()
+    {
+        $this->permissiveOACDialing = null;
         return $this;
     }
 

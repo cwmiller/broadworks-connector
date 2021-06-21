@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Outgoing Pinhole Digit Plan redirecting call permissions for specified digit patterns.
  *
- * @Groups [{"id":"6f793dfca9bd3d121bb35e0f9cf1cb2e:2366","type":"sequence"}]
+ * @Groups [{"id":"6f793dfca9bd3d121bb35e0f9cf1cb2e:2367","type":"sequence"}]
  */
 class OutgoingPinholeDigitPlanDigitPatternRedirectingPermissions
 {
@@ -16,7 +16,7 @@ class OutgoingPinholeDigitPlanDigitPatternRedirectingPermissions
      * @ElementName digitPatternPermissions
      * @Type \CWM\BroadWorksConnector\Ocip\Models\OutgoingPinholeDigitPlanDigitPatternRedirectingPermission
      * @Array
-     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:2366
+     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:2367
      * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingPinholeDigitPlanDigitPatternRedirectingPermission[]
      */
     private $digitPatternPermissions = array(

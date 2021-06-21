@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see ServiceProviderCommunicationBarringProfileGetListResponse
  * @see ErrorResponse
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:1963","type":"sequence"}]
+ * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:2465","type":"sequence"}]
  */
 class ServiceProviderCommunicationBarringProfileGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class ServiceProviderCommunicationBarringProfileGetListRequest extends \CWM\Broa
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1963
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2465
      * @MinLength 1
      * @MaxLength 30
      * @var string|null

@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:2583","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:3379","type":"sequence"}]
  */
 class GroupCPEConfigRebuildConfigFileRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupCPEConfigRebuildConfigFileRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:2583
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:3379
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +28,7 @@ class GroupCPEConfigRebuildConfigFileRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:2583
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:3379
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -38,7 +38,7 @@ class GroupCPEConfigRebuildConfigFileRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName deviceType
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:2583
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:3379
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -49,7 +49,7 @@ class GroupCPEConfigRebuildConfigFileRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName force
      * @Type bool
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:2583
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:3379
      * @var bool|null
      */
     private $force = null;

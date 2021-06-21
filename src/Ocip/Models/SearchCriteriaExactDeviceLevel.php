@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Criteria for searching for a particular device level.
  *
- * @Groups [{"id":"f0ada2681ca347fa83b464734259b304:760","type":"sequence"}]
+ * @Groups [{"id":"f0ada2681ca347fa83b464734259b304:819","type":"sequence"}]
  */
 class SearchCriteriaExactDeviceLevel extends SearchCriteria
 {
@@ -15,7 +15,7 @@ class SearchCriteriaExactDeviceLevel extends SearchCriteria
     /**
      * @ElementName deviceLevel
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceLevel
-     * @Group f0ada2681ca347fa83b464734259b304:760
+     * @Group f0ada2681ca347fa83b464734259b304:819
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceLevel|null
      */
     private $deviceLevel = null;

@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to GroupCallProcessingGetPolicyRequest14.
  *
  * @see GroupCallProcessingGetPolicyRequest14
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:1257","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:7882","type":"sequence"}]
  */
 class GroupCallProcessingGetPolicyResponse14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class GroupCallProcessingGetPolicyResponse14 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName useGroupSetting
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:1257
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:7882
      * @var bool|null
      */
     private $useGroupSetting = null;
@@ -24,7 +24,7 @@ class GroupCallProcessingGetPolicyResponse14 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName useMaxSimultaneousCalls
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:1257
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:7882
      * @var bool|null
      */
     private $useMaxSimultaneousCalls = null;
@@ -32,7 +32,7 @@ class GroupCallProcessingGetPolicyResponse14 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName maxSimultaneousCalls
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:1257
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:7882
      * @MinInclusive 1
      * @MaxInclusive 500
      * @var int|null
@@ -42,7 +42,7 @@ class GroupCallProcessingGetPolicyResponse14 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName useMaxSimultaneousVideoCalls
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:1257
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:7882
      * @var bool|null
      */
     private $useMaxSimultaneousVideoCalls = null;
@@ -50,7 +50,7 @@ class GroupCallProcessingGetPolicyResponse14 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName maxSimultaneousVideoCalls
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:1257
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:7882
      * @MinInclusive 1
      * @MaxInclusive 500
      * @var int|null
@@ -60,7 +60,7 @@ class GroupCallProcessingGetPolicyResponse14 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName useMaxCallTimeForAnsweredCalls
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:1257
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:7882
      * @var bool|null
      */
     private $useMaxCallTimeForAnsweredCalls = null;
@@ -68,7 +68,7 @@ class GroupCallProcessingGetPolicyResponse14 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName maxCallTimeForAnsweredCallsMinutes
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:1257
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:7882
      * @MinInclusive 5
      * @MaxInclusive 2880
      * @var int|null
@@ -78,7 +78,7 @@ class GroupCallProcessingGetPolicyResponse14 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName useMaxCallTimeForUnansweredCalls
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:1257
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:7882
      * @var bool|null
      */
     private $useMaxCallTimeForUnansweredCalls = null;
@@ -86,7 +86,7 @@ class GroupCallProcessingGetPolicyResponse14 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName maxCallTimeForUnansweredCallsMinutes
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:1257
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:7882
      * @MinInclusive 1
      * @MaxInclusive 60
      * @var int|null
@@ -96,7 +96,7 @@ class GroupCallProcessingGetPolicyResponse14 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName mediaPolicySelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MediaPolicySelection
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:1257
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:7882
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaPolicySelection|null
      */
     private $mediaPolicySelection = null;
@@ -105,7 +105,7 @@ class GroupCallProcessingGetPolicyResponse14 extends \CWM\BroadWorksConnector\Oc
      * @ElementName supportedMediaSetName
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:1257
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:7882
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -115,7 +115,7 @@ class GroupCallProcessingGetPolicyResponse14 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName networkUsageSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\NetworkUsageSelection
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:1257
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:7882
      * @var \CWM\BroadWorksConnector\Ocip\Models\NetworkUsageSelection|null
      */
     private $networkUsageSelection = null;
@@ -123,7 +123,7 @@ class GroupCallProcessingGetPolicyResponse14 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName enforceGroupCallingLineIdentityRestriction
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:1257
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:7882
      * @var bool|null
      */
     private $enforceGroupCallingLineIdentityRestriction = null;

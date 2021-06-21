@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"6f793dfca9bd3d121bb35e0f9cf1cb2e:893","type":"sequence"}]
+ * @Groups [{"id":"6f793dfca9bd3d121bb35e0f9cf1cb2e:894","type":"sequence"}]
  */
 class SystemOutgoingCallingPlanCallTypeDeleteMappingRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemOutgoingCallingPlanCallTypeDeleteMappingRequest extends \CWM\BroadWo
     /**
      * @ElementName countryCode
      * @Type string
-     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:893
+     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:894
      * @MaxLength 3
      * @Pattern [0-9]|[1-9][0-9]{1,2}
      * @var string|null
@@ -28,7 +28,7 @@ class SystemOutgoingCallingPlanCallTypeDeleteMappingRequest extends \CWM\BroadWo
     /**
      * @ElementName digitMap
      * @Type string
-     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:893
+     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:894
      * @MinLength 1
      * @MaxLength 30
      * @var string|null

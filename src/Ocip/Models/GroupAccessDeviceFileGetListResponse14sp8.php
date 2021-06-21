@@ -7,10 +7,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to GroupAccessDeviceFileGetListRequest14sp8.
  *         Contains a table of device files managed by the Device Management System on a per-device profile basis.
- *         The column headings are: "File Format", "Is Authenticated", "Access URL", "Repository URL", "Template URL", "Extended Capture".
+ *         The column headings are: "File Format", "Is Authenticated", "Access URL", "Repository URL", "Template URL", "Extended Capture URL", "Is File Linked".
+ *         
+ *         The following column is only populated in AS data mode for leaf devices.
+ *           "Is File Linked"
  *
  * @see GroupAccessDeviceFileGetListRequest14sp8
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:477","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:614","type":"sequence"}]
  */
 class GroupAccessDeviceFileGetListResponse14sp8 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +21,7 @@ class GroupAccessDeviceFileGetListResponse14sp8 extends \CWM\BroadWorksConnector
     /**
      * @ElementName deviceFilesTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:477
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:614
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $deviceFilesTable = null;

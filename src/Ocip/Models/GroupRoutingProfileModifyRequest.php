@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:6283","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:7301","type":"sequence"}]
  */
 class GroupRoutingProfileModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupRoutingProfileModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6283
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:7301
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +28,7 @@ class GroupRoutingProfileModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6283
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:7301
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -40,7 +40,7 @@ class GroupRoutingProfileModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Type string
      * @Nillable
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6283
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:7301
      * @MinLength 4
      * @MaxLength 12
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil

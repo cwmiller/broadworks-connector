@@ -7,10 +7,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Get the push notification settings for a user.
  *         The response is either UserPushNotificationGetResponse or ErrorResponse.
+ *         
+ *         Replaced by: UserPushNotificationRequest24
  *
  * @see UserPushNotificationGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:3376","type":"sequence"}]
+ * @see UserPushNotificationRequest24
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:45671","type":"sequence"}]
  */
 class UserPushNotificationGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +21,7 @@ class UserPushNotificationGetRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName userId
      * @Type string
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:3376
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:45671
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

@@ -7,10 +7,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Request to add a language to the system.
  *         The response is either a SuccessResponse or an ErrorResponse.
+ *         Replaced by: SystemLanguageAddRequest22.
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:10369","type":"sequence"}]
+ * @see SystemLanguageAddRequest22
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:27386","type":"sequence"}]
  */
 class SystemLanguageAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +20,7 @@ class SystemLanguageAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
     /**
      * @ElementName language
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10369
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:27386
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -28,7 +30,7 @@ class SystemLanguageAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
     /**
      * @ElementName locale
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10369
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:27386
      * @MaxLength 5
      * @var string|null
      */
@@ -37,7 +39,7 @@ class SystemLanguageAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
     /**
      * @ElementName encoding
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10369
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:27386
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

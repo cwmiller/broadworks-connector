@@ -20,7 +20,7 @@ class ResellerIntegratedIMPGetRequest22 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Type string
      * @Group 23389100b68cef3aa07ee12ac7a2bd16:106
      * @MinLength 1
-     * @MaxLength 30
+     * @MaxLength 36
      * @var string|null
      */
     private $resellerId = null;

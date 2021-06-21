@@ -7,10 +7,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Get an existing Communication Barring Incoming Criteria.
  *         The response is either a SystemCommunicationBarringIncomingCriteriaGetResponse or an ErrorResponse.
+ *         
+ *         Replaced by: SystemCommunicationBarringIncomingCriteriaGetRequest22
  *
  * @see SystemCommunicationBarringIncomingCriteriaGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:5833","type":"sequence"}]
+ * @see SystemCommunicationBarringIncomingCriteriaGetRequest22
+ * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:7563","type":"sequence"}]
  */
 class SystemCommunicationBarringIncomingCriteriaGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +21,7 @@ class SystemCommunicationBarringIncomingCriteriaGetRequest extends \CWM\BroadWor
     /**
      * @ElementName name
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:5833
+     * @Group de4d76f01f337fe4694212ec9f771753:7563
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

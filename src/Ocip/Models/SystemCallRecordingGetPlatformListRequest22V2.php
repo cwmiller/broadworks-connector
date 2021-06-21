@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemCallRecordingGetPlatformListResponse22V2
  * @see ErrorResponse
- * @Groups [{"id":"9741e074fbfeb4c7312bfa4dfbaee3d3:171","type":"choice"}]
+ * @Groups [{"id":"9741e074fbfeb4c7312bfa4dfbaee3d3:254","type":"choice"}]
  */
 class SystemCallRecordingGetPlatformListRequest22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -22,7 +22,7 @@ class SystemCallRecordingGetPlatformListRequest22V2 extends \CWM\BroadWorksConne
      * @ElementName excludeReseller
      * @Type bool
      * @Optional
-     * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:171
+     * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:254
      * @var bool|null
      */
     private $excludeReseller = null;
@@ -31,9 +31,9 @@ class SystemCallRecordingGetPlatformListRequest22V2 extends \CWM\BroadWorksConne
      * @ElementName resellerId
      * @Type string
      * @Optional
-     * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:171
+     * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:254
      * @MinLength 1
-     * @MaxLength 30
+     * @MaxLength 36
      * @var string|null
      */
     private $resellerId = null;

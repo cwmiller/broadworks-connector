@@ -7,15 +7,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * LoginRequest14sp4 is 2nd stage of the 2 stage OCI login process.
  *         The signedPassword is not required for external authentication login from a trusted host (ACL).
- *         The response is either LoginResponse14sp4 or ErrorResponse
- *         
- *        Replaced by: LoginRequest22 in AS data mode.
+ *
+ *         The response is either a LoginResponse14sp4 or an ErrorResponse.
  *
  * @see LoginRequest14sp4
  * @see LoginResponse14sp4
  * @see ErrorResponse
- * @see LoginRequest22
- * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:5185","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:16396","type":"sequence"}]
  */
 class LoginRequest14sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -23,7 +21,7 @@ class LoginRequest14sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReques
     /**
      * @ElementName userId
      * @Type string
-     * @Group de4d76f01f337fe4694212ec9f771753:5185
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:16396
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -34,7 +32,7 @@ class LoginRequest14sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReques
      * @ElementName signedPassword
      * @Type string
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:5185
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:16396
      * @MinLength 1
      * @var string|null
      */
@@ -44,7 +42,7 @@ class LoginRequest14sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReques
      * @ElementName plainTextPassword
      * @Type string
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:5185
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:16396
      * @MinLength 1
      * @MaxLength 60
      * @var string|null

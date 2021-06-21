@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to ExternalAuthenticationCreateLoginTokenRequest.
  *
  * @see ExternalAuthenticationCreateLoginTokenRequest
- * @Groups [{"id":"6b27fcc79475236456fc113a42b75543:336","type":"sequence"}]
+ * @Groups [{"id":"6b27fcc79475236456fc113a42b75543:270","type":"sequence"}]
  */
 class ExternalAuthenticationCreateLoginTokenResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class ExternalAuthenticationCreateLoginTokenResponse extends \CWM\BroadWorksConn
     /**
      * @ElementName loginToken
      * @Type string
-     * @Group 6b27fcc79475236456fc113a42b75543:336
+     * @Group 6b27fcc79475236456fc113a42b75543:270
      * @MinLength 1
      * @var string|null
      */

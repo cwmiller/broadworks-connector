@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemTimeZoneGetListRequest
  * @see SystemTimeZoneGetListResponse20
- * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:1982","type":"sequence"}]
+ * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:11624","type":"sequence"}]
  */
 class SystemTimeZoneGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -21,7 +21,7 @@ class SystemTimeZoneGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName timeZoneTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group de4d76f01f337fe4694212ec9f771753:1982
+     * @Group de4d76f01f337fe4694212ec9f771753:11624
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $timeZoneTable = null;

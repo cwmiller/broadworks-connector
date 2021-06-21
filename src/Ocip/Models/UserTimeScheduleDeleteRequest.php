@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserTimeScheduleDeleteRequest
  *
  * Delete a user time schedule.
- *                 The response is either a SuccessResponse or an ErrorResponse.
+ *         The response is either a SuccessResponse or an ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:17826","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:46687","type":"sequence"}]
  */
 class UserTimeScheduleDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserTimeScheduleDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName userId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:17826
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:46687
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -28,7 +28,7 @@ class UserTimeScheduleDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName timeScheduleName
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:17826
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:46687
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:1756","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:2261","type":"sequence"}]
  */
 class GroupBroadWorksMobileManagerDeleteHomeZoneListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupBroadWorksMobileManagerDeleteHomeZoneListRequest extends \CWM\BroadWo
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1756
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:2261
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +28,7 @@ class GroupBroadWorksMobileManagerDeleteHomeZoneListRequest extends \CWM\BroadWo
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1756
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:2261
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -39,7 +39,7 @@ class GroupBroadWorksMobileManagerDeleteHomeZoneListRequest extends \CWM\BroadWo
      * @ElementName homeZoneId
      * @Type string
      * @Array
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1756
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:2261
      * @var string[]
      */
     private $homeZoneId = array(

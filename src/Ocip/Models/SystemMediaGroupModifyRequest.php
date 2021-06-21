@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:10814","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:11858","type":"sequence"}]
  */
 class SystemMediaGroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemMediaGroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName name
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10814
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11858
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -29,7 +29,7 @@ class SystemMediaGroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName newName
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10814
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11858
      * @MinLength 1
      * @MaxLength 80
      * @var string|null

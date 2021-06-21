@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:4979","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:5320","type":"sequence"}]
  */
 class SystemCLIDDeliveryPrefixDeleteListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,7 +21,7 @@ class SystemCLIDDeliveryPrefixDeleteListRequest extends \CWM\BroadWorksConnector
      * @ElementName prefix
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CLIDDeliveryPrefix
      * @Array
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:4979
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:5320
      * @var \CWM\BroadWorksConnector\Ocip\Models\CLIDDeliveryPrefix[]
      */
     private $prefix = array(

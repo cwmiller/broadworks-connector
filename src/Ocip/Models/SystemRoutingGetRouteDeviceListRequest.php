@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemRoutingGetRouteDeviceListResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:14246","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:15345","type":"sequence"}]
  */
 class SystemRoutingGetRouteDeviceListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemRoutingGetRouteDeviceListRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName routeName
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14246
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:15345
      * @MinLength 1
      * @MaxLength 32
      * @var string|null

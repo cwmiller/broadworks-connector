@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:8881","type":"sequence","children":[{"id":"7f663d5135470c33ca64b0eed3c3aa0c:8883","type":"choice"}]}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:9913","type":"sequence","children":[{"id":"7f663d5135470c33ca64b0eed3c3aa0c:9915","type":"choice"}]}]
  */
 class SystemExpensiveCallTypeModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemExpensiveCallTypeModifyRequest extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName alternateCallIndicator
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8881
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9913
      * @MinLength 1
      * @MaxLength 64
      * @var string|null
@@ -30,7 +30,7 @@ class SystemExpensiveCallTypeModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8883
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9915
      * @MinLength 1
      * @MaxLength 256
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil

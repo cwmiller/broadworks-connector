@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemCLIDDeliveryPrefixGetListRequest.
  *
  * @see SystemCLIDDeliveryPrefixGetListRequest
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:5008","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:5349","type":"sequence"}]
  */
 class SystemCLIDDeliveryPrefixGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class SystemCLIDDeliveryPrefixGetListResponse extends \CWM\BroadWorksConnector\O
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CLIDDeliveryPrefix
      * @Array
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:5008
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:5349
      * @var \CWM\BroadWorksConnector\Ocip\Models\CLIDDeliveryPrefix[]
      */
     private $prefix = array(

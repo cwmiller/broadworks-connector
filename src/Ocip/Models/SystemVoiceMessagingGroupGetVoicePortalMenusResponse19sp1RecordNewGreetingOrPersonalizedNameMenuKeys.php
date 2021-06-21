@@ -5,7 +5,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1RecordNewGreetingOrPersonalizedNameMenuKeys
  *
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:32144","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:37943","type":"sequence"}]
  */
 class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1RecordNewGreetingOrPersonalizedNameMenuKeys
 {
@@ -13,7 +13,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1RecordNewGreeting
     /**
      * @ElementName endRecording
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:32144
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:37943
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null

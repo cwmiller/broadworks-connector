@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemSelectiveServicesGetRequest.
  *
  * @see SystemSelectiveServicesGetRequest
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:26390","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:29112","type":"sequence"}]
  */
 class SystemSelectiveServicesGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class SystemSelectiveServicesGetResponse extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName scheduleCombination
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ScheduleCombinationType
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:26390
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:29112
      * @var \CWM\BroadWorksConnector\Ocip\Models\ScheduleCombinationType|null
      */
     private $scheduleCombination = null;

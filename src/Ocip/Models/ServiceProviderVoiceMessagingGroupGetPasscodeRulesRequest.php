@@ -6,13 +6,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ServiceProviderVoiceMessagingGroupGetPasscodeRulesRequest
  *
  * Requests the service provider's voice portal passcode rules setting.
- *                 The response is either ServiceProviderVoiceMessagingGroupGetPasscodeRulesResponse or ErrorResponse.
- *                 Replaced By: ServiceProviderPortalPasscodeRulesGetRequest
+ *         The response is either ServiceProviderVoiceMessagingGroupGetPasscodeRulesResponse or ErrorResponse.
+ *         Replaced By: ServiceProviderPortalPasscodeRulesGetRequest
  *
  * @see ServiceProviderVoiceMessagingGroupGetPasscodeRulesResponse
  * @see ErrorResponse
  * @see ServiceProviderPortalPasscodeRulesGetRequest
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:3910","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:19237","type":"sequence"}]
  */
 class ServiceProviderVoiceMessagingGroupGetPasscodeRulesRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class ServiceProviderVoiceMessagingGroupGetPasscodeRulesRequest extends \CWM\Bro
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:3910
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:19237
      * @MinLength 1
      * @MaxLength 30
      * @var string|null

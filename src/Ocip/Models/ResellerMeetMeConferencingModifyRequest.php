@@ -7,10 +7,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Modify the reseller level data associated with Meet-Me Conferencing functions.
  *         The response is either a SuccessResponse or an ErrorResponse.
+ *         The following data elements are only modified for System and Provisioning Administrators:        
+ * 		maxAllocatedPorts.
+ * 		The following data elements are only modified for System and Provisioning Administrators and AS Mode only:
+ * 		disableUnlimitedMeetMePorts,
+ * 		enableMaxAllocatedPorts.
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"0fd24121d16995c994d40bc408dbcfa5:367","type":"sequence"}]
+ * @Groups [{"id":"0fd24121d16995c994d40bc408dbcfa5:379","type":"sequence"}]
  */
 class ResellerMeetMeConferencingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,9 +23,9 @@ class ResellerMeetMeConferencingModifyRequest extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName resellerId
      * @Type string
-     * @Group 0fd24121d16995c994d40bc408dbcfa5:367
+     * @Group 0fd24121d16995c994d40bc408dbcfa5:379
      * @MinLength 1
-     * @MaxLength 30
+     * @MaxLength 36
      * @var string|null
      */
     private $resellerId = null;
@@ -30,7 +35,7 @@ class ResellerMeetMeConferencingModifyRequest extends \CWM\BroadWorksConnector\O
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 0fd24121d16995c994d40bc408dbcfa5:367
+     * @Group 0fd24121d16995c994d40bc408dbcfa5:379
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -41,12 +46,30 @@ class ResellerMeetMeConferencingModifyRequest extends \CWM\BroadWorksConnector\O
      * @ElementName maxAllocatedPorts
      * @Type int
      * @Optional
-     * @Group 0fd24121d16995c994d40bc408dbcfa5:367
+     * @Group 0fd24121d16995c994d40bc408dbcfa5:379
      * @MinInclusive 0
      * @MaxInclusive 999999
      * @var int|null
      */
     private $maxAllocatedPorts = null;
+
+    /**
+     * @ElementName disableUnlimitedMeetMePorts
+     * @Type bool
+     * @Optional
+     * @Group 0fd24121d16995c994d40bc408dbcfa5:379
+     * @var bool|null
+     */
+    private $disableUnlimitedMeetMePorts = null;
+
+    /**
+     * @ElementName enableMaxAllocatedPorts
+     * @Type bool
+     * @Optional
+     * @Group 0fd24121d16995c994d40bc408dbcfa5:379
+     * @var bool|null
+     */
+    private $enableMaxAllocatedPorts = null;
 
     /**
      * Getter for resellerId
@@ -142,6 +165,68 @@ class ResellerMeetMeConferencingModifyRequest extends \CWM\BroadWorksConnector\O
     public function unsetMaxAllocatedPorts()
     {
         $this->maxAllocatedPorts = null;
+        return $this;
+    }
+
+    /**
+     * Getter for disableUnlimitedMeetMePorts
+     *
+     * @return bool
+     */
+    public function getDisableUnlimitedMeetMePorts()
+    {
+        return $this->disableUnlimitedMeetMePorts instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->disableUnlimitedMeetMePorts;
+    }
+
+    /**
+     * Setter for disableUnlimitedMeetMePorts
+     *
+     * @param bool $disableUnlimitedMeetMePorts
+     * @return $this
+     */
+    public function setDisableUnlimitedMeetMePorts($disableUnlimitedMeetMePorts)
+    {
+        $this->disableUnlimitedMeetMePorts = $disableUnlimitedMeetMePorts;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDisableUnlimitedMeetMePorts()
+    {
+        $this->disableUnlimitedMeetMePorts = null;
+        return $this;
+    }
+
+    /**
+     * Getter for enableMaxAllocatedPorts
+     *
+     * @return bool
+     */
+    public function getEnableMaxAllocatedPorts()
+    {
+        return $this->enableMaxAllocatedPorts instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableMaxAllocatedPorts;
+    }
+
+    /**
+     * Setter for enableMaxAllocatedPorts
+     *
+     * @param bool $enableMaxAllocatedPorts
+     * @return $this
+     */
+    public function setEnableMaxAllocatedPorts($enableMaxAllocatedPorts)
+    {
+        $this->enableMaxAllocatedPorts = $enableMaxAllocatedPorts;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetEnableMaxAllocatedPorts()
+    {
+        $this->enableMaxAllocatedPorts = null;
         return $this;
     }
 

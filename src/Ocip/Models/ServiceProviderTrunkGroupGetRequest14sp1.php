@@ -7,10 +7,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Get the maximum and bursting maximum permissible active Trunk Group calls for the service provider.
  *         The response is either a ServiceProviderTrunkGroupGetResponse14sp1 or an ErrorResponse.
+ *         
+ *         Deprecated by ServiceProviderTrunkGroupGetRequest23
  *
  * @see ServiceProviderTrunkGroupGetResponse14sp1
  * @see ErrorResponse
- * @Groups [{"id":"b9c14e2d80e4e7749688ca13ba233b44:1592","type":"sequence"}]
+ * @see ServiceProviderTrunkGroupGetRequest23
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:19187","type":"sequence"}]
  */
 class ServiceProviderTrunkGroupGetRequest14sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +21,7 @@ class ServiceProviderTrunkGroupGetRequest14sp1 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group b9c14e2d80e4e7749688ca13ba233b44:1592
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:19187
      * @MinLength 1
      * @MaxLength 30
      * @var string|null

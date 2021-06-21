@@ -7,9 +7,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Access device end point used in the context of add that can have more than one contact defined.
  *         Only Static Registration capabable devices may have more than one contact defined.
- *         Port numbers are only used by devices with static line ordering.
+ * 		    Port numbers are only used by devices with static line ordering.
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:155","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:47318","type":"sequence"}]
  */
 class AccessDeviceMultipleContactEndpointAdd
 {
@@ -17,7 +17,7 @@ class AccessDeviceMultipleContactEndpointAdd
     /**
      * @ElementName accessDevice
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDevice
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:155
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:47318
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDevice|null
      */
     private $accessDevice = null;
@@ -25,7 +25,7 @@ class AccessDeviceMultipleContactEndpointAdd
     /**
      * @ElementName linePort
      * @Type string
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:155
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:47318
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -35,19 +35,22 @@ class AccessDeviceMultipleContactEndpointAdd
     /**
      * @ElementName contact
      * @Type string
+     * @Array
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:155
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:47318
      * @MinLength 1
      * @MaxLength 1020
-     * @var string|null
+     * @var string[]
      */
-    private $contact = null;
+    private $contact = array(
+        
+    );
 
     /**
      * @ElementName portNumber
      * @Type int
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:155
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:47318
      * @MinInclusive 1
      * @MaxInclusive 1024
      * @var int|null
@@ -119,7 +122,7 @@ class AccessDeviceMultipleContactEndpointAdd
     /**
      * Getter for contact
      *
-     * @return string
+     * @return string[]
      */
     public function getContact()
     {
@@ -129,10 +132,10 @@ class AccessDeviceMultipleContactEndpointAdd
     /**
      * Setter for contact
      *
-     * @param string $contact
+     * @param string[] $contact
      * @return $this
      */
-    public function setContact($contact)
+    public function setContact(array $contact)
     {
         $this->contact = $contact;
         return $this;
@@ -144,6 +147,18 @@ class AccessDeviceMultipleContactEndpointAdd
     public function unsetContact()
     {
         $this->contact = null;
+        return $this;
+    }
+
+    /**
+     * Adder for contact
+     *
+     * @param string $contact
+     * @return $this
+     */
+    public function addContact(string $contact)
+    {
+        $this->contact[] = $contact;
         return $this;
     }
 

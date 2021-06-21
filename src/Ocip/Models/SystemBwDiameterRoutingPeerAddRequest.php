@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:2444","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:2797","type":"sequence"}]
  */
 class SystemBwDiameterRoutingPeerAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemBwDiameterRoutingPeerAddRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName instance
      * @Type \CWM\BroadWorksConnector\Ocip\Models\BwDiameterPeerInstance
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2444
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2797
      * @var \CWM\BroadWorksConnector\Ocip\Models\BwDiameterPeerInstance|null
      */
     private $instance = null;
@@ -26,7 +26,7 @@ class SystemBwDiameterRoutingPeerAddRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName realm
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2444
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2797
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -36,7 +36,7 @@ class SystemBwDiameterRoutingPeerAddRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName applicationId
      * @Type \CWM\BroadWorksConnector\Ocip\Models\BwDiameterApplicationId
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2444
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2797
      * @var \CWM\BroadWorksConnector\Ocip\Models\BwDiameterApplicationId|null
      */
     private $applicationId = null;
@@ -44,7 +44,7 @@ class SystemBwDiameterRoutingPeerAddRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName identity
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2444
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2797
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -54,7 +54,7 @@ class SystemBwDiameterRoutingPeerAddRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName priority
      * @Type int
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2444
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2797
      * @MinInclusive 0
      * @MaxInclusive 65535
      * @var int|null
@@ -64,7 +64,7 @@ class SystemBwDiameterRoutingPeerAddRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName weight
      * @Type int
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2444
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2797
      * @MinInclusive 0
      * @MaxInclusive 65535
      * @var int|null

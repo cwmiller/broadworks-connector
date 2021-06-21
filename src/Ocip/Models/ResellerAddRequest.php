@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"b009175f2a2a9d38115e319a6ad64d7f:62","type":"sequence"}]
+ * @Groups [{"id":"b009175f2a2a9d38115e319a6ad64d7f:78","type":"sequence"}]
  */
 class ResellerAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,9 +18,9 @@ class ResellerAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReque
     /**
      * @ElementName resellerId
      * @Type string
-     * @Group b009175f2a2a9d38115e319a6ad64d7f:62
+     * @Group b009175f2a2a9d38115e319a6ad64d7f:78
      * @MinLength 1
-     * @MaxLength 30
+     * @MaxLength 36
      * @var string|null
      */
     private $resellerId = null;
@@ -29,12 +29,22 @@ class ResellerAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReque
      * @ElementName resellerName
      * @Type string
      * @Optional
-     * @Group b009175f2a2a9d38115e319a6ad64d7f:62
+     * @Group b009175f2a2a9d38115e319a6ad64d7f:78
      * @MinLength 1
-     * @MaxLength 80
+     * @MaxLength 320
      * @var string|null
      */
     private $resellerName = null;
+
+    /**
+     * @ElementName resellerExternalId
+     * @Type string
+     * @Optional
+     * @Group b009175f2a2a9d38115e319a6ad64d7f:78
+     * @MaxLength 36
+     * @var string|null
+     */
+    private $resellerExternalId = null;
 
     /**
      * Getter for resellerId
@@ -95,6 +105,37 @@ class ResellerAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReque
     public function unsetResellerName()
     {
         $this->resellerName = null;
+        return $this;
+    }
+
+    /**
+     * Getter for resellerExternalId
+     *
+     * @return string
+     */
+    public function getResellerExternalId()
+    {
+        return $this->resellerExternalId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->resellerExternalId;
+    }
+
+    /**
+     * Setter for resellerExternalId
+     *
+     * @param string $resellerExternalId
+     * @return $this
+     */
+    public function setResellerExternalId($resellerExternalId)
+    {
+        $this->resellerExternalId = $resellerExternalId;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetResellerExternalId()
+    {
+        $this->resellerExternalId = null;
         return $this;
     }
 

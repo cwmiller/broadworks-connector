@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * AuthenticationRequest/Response is 1st stage of the 2 stage OCI login process.
  *
  * @see AuthenticationRequest
- * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:3877","type":"sequence"}]
+ * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:340","type":"sequence"}]
  */
 class AuthenticationResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class AuthenticationResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCID
     /**
      * @ElementName userId
      * @Type string
-     * @Group de4d76f01f337fe4694212ec9f771753:3877
+     * @Group de4d76f01f337fe4694212ec9f771753:340
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -26,7 +26,7 @@ class AuthenticationResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCID
     /**
      * @ElementName nonce
      * @Type string
-     * @Group de4d76f01f337fe4694212ec9f771753:3877
+     * @Group de4d76f01f337fe4694212ec9f771753:340
      * @var string|null
      */
     private $nonce = null;
@@ -34,7 +34,7 @@ class AuthenticationResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCID
     /**
      * @ElementName passwordAlgorithm
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DigitalSignatureAlgorithm
-     * @Group de4d76f01f337fe4694212ec9f771753:3877
+     * @Group de4d76f01f337fe4694212ec9f771753:340
      * @var \CWM\BroadWorksConnector\Ocip\Models\DigitalSignatureAlgorithm|null
      */
     private $passwordAlgorithm = null;

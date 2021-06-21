@@ -17,7 +17,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *       useCustomUserNamePassword and accessDeviceCredentials will be ignored if the access device already
  *       exists.
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:1110","type":"sequence"}]
+ * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:1198","type":"sequence"}]
  */
 class CombinedAccessDeviceMultipleIdentityEndpointAdd
 {
@@ -25,7 +25,7 @@ class CombinedAccessDeviceMultipleIdentityEndpointAdd
     /**
      * @ElementName accessDevice
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDevice
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1110
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:1198
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDevice|null
      */
     private $accessDevice = null;
@@ -33,7 +33,7 @@ class CombinedAccessDeviceMultipleIdentityEndpointAdd
     /**
      * @ElementName linePort
      * @Type string
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1110
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:1198
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -44,7 +44,7 @@ class CombinedAccessDeviceMultipleIdentityEndpointAdd
      * @ElementName privateIdentity
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1110
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:1198
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -55,7 +55,7 @@ class CombinedAccessDeviceMultipleIdentityEndpointAdd
      * @ElementName contact
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1110
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:1198
      * @MinLength 1
      * @MaxLength 1020
      * @var string|null
@@ -66,7 +66,7 @@ class CombinedAccessDeviceMultipleIdentityEndpointAdd
      * @ElementName portNumber
      * @Type int
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1110
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:1198
      * @MinInclusive 1
      * @MaxInclusive 1024
      * @var int|null
@@ -77,7 +77,7 @@ class CombinedAccessDeviceMultipleIdentityEndpointAdd
      * @ElementName deviceType
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1110
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:1198
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -88,7 +88,7 @@ class CombinedAccessDeviceMultipleIdentityEndpointAdd
      * @ElementName protocol
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1110
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:1198
      * @MinLength 1
      * @MaxLength 20
      * @var string|null
@@ -99,7 +99,7 @@ class CombinedAccessDeviceMultipleIdentityEndpointAdd
      * @ElementName netAddress
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1110
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:1198
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -110,7 +110,7 @@ class CombinedAccessDeviceMultipleIdentityEndpointAdd
      * @ElementName port
      * @Type int
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1110
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:1198
      * @MinInclusive 1025
      * @MaxInclusive 65535
      * @var int|null
@@ -121,7 +121,7 @@ class CombinedAccessDeviceMultipleIdentityEndpointAdd
      * @ElementName outboundProxyServerNetAddress
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1110
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:1198
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -132,7 +132,7 @@ class CombinedAccessDeviceMultipleIdentityEndpointAdd
      * @ElementName stunServerNetAddress
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1110
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:1198
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -143,7 +143,7 @@ class CombinedAccessDeviceMultipleIdentityEndpointAdd
      * @ElementName macAddress
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1110
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:1198
      * @MinLength 1
      * @MaxLength 12
      * @var string|null
@@ -154,7 +154,7 @@ class CombinedAccessDeviceMultipleIdentityEndpointAdd
      * @ElementName serialNumber
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1110
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:1198
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -165,7 +165,7 @@ class CombinedAccessDeviceMultipleIdentityEndpointAdd
      * @ElementName description
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1110
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:1198
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -176,7 +176,7 @@ class CombinedAccessDeviceMultipleIdentityEndpointAdd
      * @ElementName physicalLocation
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1110
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:1198
      * @MinLength 1
      * @MaxLength 1024
      * @var string|null
@@ -187,7 +187,7 @@ class CombinedAccessDeviceMultipleIdentityEndpointAdd
      * @ElementName transportProtocol
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1110
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:1198
      * @var \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol|null
      */
     private $transportProtocol = null;
@@ -196,7 +196,7 @@ class CombinedAccessDeviceMultipleIdentityEndpointAdd
      * @ElementName useCustomUserNamePassword
      * @Type bool
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1110
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:1198
      * @var bool|null
      */
     private $useCustomUserNamePassword = null;
@@ -205,7 +205,7 @@ class CombinedAccessDeviceMultipleIdentityEndpointAdd
      * @ElementName accessDeviceCredentials
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementUserNamePassword16
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1110
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:1198
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementUserNamePassword16|null
      */
     private $accessDeviceCredentials = null;

@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:11035","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:12079","type":"sequence"}]
  */
 class SystemMediaSetDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemMediaSetDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName setName
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11035
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12079
      * @MinLength 1
      * @MaxLength 80
      * @var string|null

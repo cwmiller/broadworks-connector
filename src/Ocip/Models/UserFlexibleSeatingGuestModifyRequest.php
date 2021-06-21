@@ -6,15 +6,18 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserFlexibleSeatingGuestModifyRequest
  *
  * Modify the user level data associated with flexible seating guest.
- *         accessDeviceEndpoint can only be configured by group or a higher level administrator.
- *         The request fails if isActive is set to false and the guest is associated to a host.
- *         The request fails when enableAssociationLimit, associationLimitHours, unlockPhonePINCode are changed when the guest is associated to a host.
- *         The request fails when accessDeviceEndpoint is set in the request when the guest is associated to a host.
+ * 		accessDeviceEndpoint can only be configured by group or a higher level administrator.
+ * 		The request fails if isActive is set to false and the guest is associated to a host.
+ * 		The request fails when enableAssociationLimit, associationLimitHours, unlockPhonePINCode are changed when the guest is associated to a host.
+ * 		The request fails when accessDeviceEndpoint is set in the request when the guest is associated to a host.
  *         The response is either a SuccessResponse or an ErrorResponse.
+ *         
+ *         Replaced by: UserFlexibleSeatingGuestModifyRequest22.
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"43afb2158d313a1d1a148124d7caba1e:525","type":"sequence"}]
+ * @see UserFlexibleSeatingGuestModifyRequest22
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:42995","type":"sequence"}]
  */
 class UserFlexibleSeatingGuestModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -22,7 +25,7 @@ class UserFlexibleSeatingGuestModifyRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName userId
      * @Type string
-     * @Group 43afb2158d313a1d1a148124d7caba1e:525
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:42995
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -33,7 +36,7 @@ class UserFlexibleSeatingGuestModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName isActive
      * @Type bool
      * @Optional
-     * @Group 43afb2158d313a1d1a148124d7caba1e:525
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:42995
      * @var bool|null
      */
     private $isActive = null;
@@ -42,7 +45,7 @@ class UserFlexibleSeatingGuestModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName enableAssociationLimit
      * @Type bool
      * @Optional
-     * @Group 43afb2158d313a1d1a148124d7caba1e:525
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:42995
      * @var bool|null
      */
     private $enableAssociationLimit = null;
@@ -51,7 +54,7 @@ class UserFlexibleSeatingGuestModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName associationLimitHours
      * @Type int
      * @Optional
-     * @Group 43afb2158d313a1d1a148124d7caba1e:525
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:42995
      * @MinInclusive 1
      * @MaxInclusive 999
      * @var int|null
@@ -63,7 +66,7 @@ class UserFlexibleSeatingGuestModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 43afb2158d313a1d1a148124d7caba1e:525
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:42995
      * @MinLength 4
      * @MaxLength 10
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -75,7 +78,7 @@ class UserFlexibleSeatingGuestModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceMultipleContactEndpointModify
      * @Nillable
      * @Optional
-     * @Group 43afb2158d313a1d1a148124d7caba1e:525
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:42995
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceMultipleContactEndpointModify|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $accessDeviceEndpoint = null;
@@ -85,7 +88,7 @@ class UserFlexibleSeatingGuestModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 43afb2158d313a1d1a148124d7caba1e:525
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:42995
      * @MinLength 1
      * @MaxLength 161
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil

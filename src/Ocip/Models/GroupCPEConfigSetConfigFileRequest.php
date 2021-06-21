@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:2684","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:3480","type":"sequence"}]
  */
 class GroupCPEConfigSetConfigFileRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,7 +21,7 @@ class GroupCPEConfigSetConfigFileRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:2684
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:3480
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -31,7 +31,7 @@ class GroupCPEConfigSetConfigFileRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:2684
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:3480
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -41,7 +41,7 @@ class GroupCPEConfigSetConfigFileRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName deviceType
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:2684
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:3480
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -52,7 +52,7 @@ class GroupCPEConfigSetConfigFileRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName configFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\FileResource
      * @Nillable
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:2684
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:3480
      * @var \CWM\BroadWorksConnector\Ocip\Models\FileResource|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $configFile = null;

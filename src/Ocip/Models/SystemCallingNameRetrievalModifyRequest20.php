@@ -79,10 +79,10 @@ class SystemCallingNameRetrievalModifyRequest20 extends \CWM\BroadWorksConnector
 
     /**
      * @ElementName sipExternalDatabaseTransport
-     * @Type \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedTransportProtocol
      * @Optional
      * @Group 7abfb1e02a3465af832e0a8a8adfc741:86
-     * @var \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedTransportProtocol|null
      */
     private $sipExternalDatabaseTransport = null;
 
@@ -344,7 +344,7 @@ class SystemCallingNameRetrievalModifyRequest20 extends \CWM\BroadWorksConnector
     /**
      * Getter for sipExternalDatabaseTransport
      *
-     * @return \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ExtendedTransportProtocol
      */
     public function getSipExternalDatabaseTransport()
     {
@@ -354,10 +354,10 @@ class SystemCallingNameRetrievalModifyRequest20 extends \CWM\BroadWorksConnector
     /**
      * Setter for sipExternalDatabaseTransport
      *
-     * @param \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol $sipExternalDatabaseTransport
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ExtendedTransportProtocol $sipExternalDatabaseTransport
      * @return $this
      */
-    public function setSipExternalDatabaseTransport(\CWM\BroadWorksConnector\Ocip\Models\TransportProtocol $sipExternalDatabaseTransport)
+    public function setSipExternalDatabaseTransport(\CWM\BroadWorksConnector\Ocip\Models\ExtendedTransportProtocol $sipExternalDatabaseTransport)
     {
         $this->sipExternalDatabaseTransport = $sipExternalDatabaseTransport;
         return $this;

@@ -16,7 +16,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:1770","type":"sequence"}]
+ * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:2272","type":"sequence"}]
  */
 class ServiceProviderCommunicationBarringProfileAddRequest19sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -24,7 +24,7 @@ class ServiceProviderCommunicationBarringProfileAddRequest19sp1 extends \CWM\Bro
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1770
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2272
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -34,7 +34,7 @@ class ServiceProviderCommunicationBarringProfileAddRequest19sp1 extends \CWM\Bro
     /**
      * @ElementName name
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1770
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2272
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -45,7 +45,7 @@ class ServiceProviderCommunicationBarringProfileAddRequest19sp1 extends \CWM\Bro
      * @ElementName description
      * @Type string
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1770
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2272
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -55,7 +55,7 @@ class ServiceProviderCommunicationBarringProfileAddRequest19sp1 extends \CWM\Bro
     /**
      * @ElementName originatingDefaultAction
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringOriginatingAction
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1770
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2272
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringOriginatingAction|null
      */
     private $originatingDefaultAction = null;
@@ -64,7 +64,7 @@ class ServiceProviderCommunicationBarringProfileAddRequest19sp1 extends \CWM\Bro
      * @ElementName originatingDefaultTreatmentId
      * @Type string
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1770
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2272
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -75,7 +75,7 @@ class ServiceProviderCommunicationBarringProfileAddRequest19sp1 extends \CWM\Bro
      * @ElementName originatingDefaultTransferNumber
      * @Type string
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1770
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2272
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -86,7 +86,7 @@ class ServiceProviderCommunicationBarringProfileAddRequest19sp1 extends \CWM\Bro
      * @ElementName originatingDefaultCallTimeout
      * @Type int
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1770
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2272
      * @MinInclusive 60
      * @MaxInclusive 86400
      * @var int|null
@@ -98,7 +98,7 @@ class ServiceProviderCommunicationBarringProfileAddRequest19sp1 extends \CWM\Bro
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCommunicationBarringHierarchicalOriginatingRule
      * @Array
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1770
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2272
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCommunicationBarringHierarchicalOriginatingRule[]
      */
     private $originatingRule = array(
@@ -108,7 +108,7 @@ class ServiceProviderCommunicationBarringProfileAddRequest19sp1 extends \CWM\Bro
     /**
      * @ElementName redirectingDefaultAction
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringRedirectingAction
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1770
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2272
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringRedirectingAction|null
      */
     private $redirectingDefaultAction = null;
@@ -117,7 +117,7 @@ class ServiceProviderCommunicationBarringProfileAddRequest19sp1 extends \CWM\Bro
      * @ElementName redirectingDefaultCallTimeout
      * @Type int
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1770
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2272
      * @MinInclusive 60
      * @MaxInclusive 86400
      * @var int|null
@@ -129,7 +129,7 @@ class ServiceProviderCommunicationBarringProfileAddRequest19sp1 extends \CWM\Bro
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCommunicationBarringHierarchicalRedirectingRule
      * @Array
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1770
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2272
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCommunicationBarringHierarchicalRedirectingRule[]
      */
     private $redirectingRule = array(
@@ -139,7 +139,7 @@ class ServiceProviderCommunicationBarringProfileAddRequest19sp1 extends \CWM\Bro
     /**
      * @ElementName callMeNowDefaultAction
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringCallMeNowAction
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1770
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2272
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringCallMeNowAction|null
      */
     private $callMeNowDefaultAction = null;
@@ -148,7 +148,7 @@ class ServiceProviderCommunicationBarringProfileAddRequest19sp1 extends \CWM\Bro
      * @ElementName callMeNowDefaultCallTimeout
      * @Type int
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1770
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2272
      * @MinInclusive 60
      * @MaxInclusive 86400
      * @var int|null
@@ -160,7 +160,7 @@ class ServiceProviderCommunicationBarringProfileAddRequest19sp1 extends \CWM\Bro
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCommunicationBarringHierarchicalCallMeNowRule
      * @Array
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1770
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2272
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCommunicationBarringHierarchicalCallMeNowRule[]
      */
     private $callMeNowRule = array(
@@ -170,7 +170,7 @@ class ServiceProviderCommunicationBarringProfileAddRequest19sp1 extends \CWM\Bro
     /**
      * @ElementName incomingDefaultAction
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringIncomingAction
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1770
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2272
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringIncomingAction|null
      */
     private $incomingDefaultAction = null;
@@ -179,7 +179,7 @@ class ServiceProviderCommunicationBarringProfileAddRequest19sp1 extends \CWM\Bro
      * @ElementName incomingDefaultCallTimeout
      * @Type int
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1770
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2272
      * @MinInclusive 60
      * @MaxInclusive 86400
      * @var int|null
@@ -191,7 +191,7 @@ class ServiceProviderCommunicationBarringProfileAddRequest19sp1 extends \CWM\Bro
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringIncomingRule19sp1
      * @Array
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1770
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2272
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringIncomingRule19sp1[]
      */
     private $incomingRule = array(
@@ -201,7 +201,7 @@ class ServiceProviderCommunicationBarringProfileAddRequest19sp1 extends \CWM\Bro
     /**
      * @ElementName becomeDefault
      * @Type bool
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1770
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2272
      * @var bool|null
      */
     private $becomeDefault = null;
@@ -209,7 +209,7 @@ class ServiceProviderCommunicationBarringProfileAddRequest19sp1 extends \CWM\Bro
     /**
      * @ElementName applyToAttendedCallTransfers
      * @Type bool
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1770
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2272
      * @var bool|null
      */
     private $applyToAttendedCallTransfers = null;

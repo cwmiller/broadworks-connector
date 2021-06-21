@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Criteria for searching for a particular login id.
  *
- * @Groups [{"id":"f0ada2681ca347fa83b464734259b304:416","type":"sequence"}]
+ * @Groups [{"id":"f0ada2681ca347fa83b464734259b304:475","type":"sequence"}]
  */
 class SearchCriteriaDeviceManagementEventLoginId extends SearchCriteria
 {
@@ -15,7 +15,7 @@ class SearchCriteriaDeviceManagementEventLoginId extends SearchCriteria
     /**
      * @ElementName mode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchMode
-     * @Group f0ada2681ca347fa83b464734259b304:416
+     * @Group f0ada2681ca347fa83b464734259b304:475
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchMode|null
      */
     private $mode = null;
@@ -23,7 +23,7 @@ class SearchCriteriaDeviceManagementEventLoginId extends SearchCriteria
     /**
      * @ElementName value
      * @Type string
-     * @Group f0ada2681ca347fa83b464734259b304:416
+     * @Group f0ada2681ca347fa83b464734259b304:475
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -33,7 +33,7 @@ class SearchCriteriaDeviceManagementEventLoginId extends SearchCriteria
     /**
      * @ElementName isCaseInsensitive
      * @Type bool
-     * @Group f0ada2681ca347fa83b464734259b304:416
+     * @Group f0ada2681ca347fa83b464734259b304:475
      * @var bool|null
      */
     private $isCaseInsensitive = null;

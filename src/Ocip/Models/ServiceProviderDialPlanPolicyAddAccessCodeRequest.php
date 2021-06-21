@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:2891","type":"sequence"}]
+ * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:3542","type":"sequence"}]
  */
 class ServiceProviderDialPlanPolicyAddAccessCodeRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class ServiceProviderDialPlanPolicyAddAccessCodeRequest extends \CWM\BroadWorksC
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2891
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3542
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +28,7 @@ class ServiceProviderDialPlanPolicyAddAccessCodeRequest extends \CWM\BroadWorksC
     /**
      * @ElementName accessCode
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2891
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3542
      * @MinLength 1
      * @MaxLength 5
      * @var string|null
@@ -38,7 +38,7 @@ class ServiceProviderDialPlanPolicyAddAccessCodeRequest extends \CWM\BroadWorksC
     /**
      * @ElementName includeCodeForNetworkTranslationsAndRouting
      * @Type bool
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2891
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3542
      * @var bool|null
      */
     private $includeCodeForNetworkTranslationsAndRouting = null;
@@ -46,7 +46,7 @@ class ServiceProviderDialPlanPolicyAddAccessCodeRequest extends \CWM\BroadWorksC
     /**
      * @ElementName includeCodeForScreeningServices
      * @Type bool
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2891
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3542
      * @var bool|null
      */
     private $includeCodeForScreeningServices = null;
@@ -54,7 +54,7 @@ class ServiceProviderDialPlanPolicyAddAccessCodeRequest extends \CWM\BroadWorksC
     /**
      * @ElementName enableSecondaryDialTone
      * @Type bool
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2891
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3542
      * @var bool|null
      */
     private $enableSecondaryDialTone = null;
@@ -63,7 +63,7 @@ class ServiceProviderDialPlanPolicyAddAccessCodeRequest extends \CWM\BroadWorksC
      * @ElementName description
      * @Type string
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2891
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3542
      * @MinLength 1
      * @MaxLength 80
      * @var string|null

@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Device Management System device type options.
  *
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:43591","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:48073","type":"sequence"}]
  */
 class DeviceManagementDeviceTypeOptions
 {
@@ -15,7 +15,7 @@ class DeviceManagementDeviceTypeOptions
     /**
      * @ElementName deviceAccessProtocol
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DeviceAccessProtocol
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:43591
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:48073
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceAccessProtocol|null
      */
     private $deviceAccessProtocol = null;
@@ -23,7 +23,7 @@ class DeviceManagementDeviceTypeOptions
     /**
      * @ElementName tagMode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementTagMode
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:43591
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:48073
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementTagMode|null
      */
     private $tagMode = null;
@@ -32,7 +32,7 @@ class DeviceManagementDeviceTypeOptions
      * @ElementName tagSet
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:43591
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:48073
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -42,7 +42,7 @@ class DeviceManagementDeviceTypeOptions
     /**
      * @ElementName allowDeviceProfileCustomTagSet
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:43591
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:48073
      * @var bool|null
      */
     private $allowDeviceProfileCustomTagSet = null;
@@ -50,7 +50,7 @@ class DeviceManagementDeviceTypeOptions
     /**
      * @ElementName allowGroupCustomTagSet
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:43591
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:48073
      * @var bool|null
      */
     private $allowGroupCustomTagSet = null;
@@ -58,7 +58,7 @@ class DeviceManagementDeviceTypeOptions
     /**
      * @ElementName sendEmailUponResetFailure
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:43591
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:48073
      * @var bool|null
      */
     private $sendEmailUponResetFailure = null;
@@ -67,7 +67,7 @@ class DeviceManagementDeviceTypeOptions
      * @ElementName deviceAccessNetAddress
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:43591
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:48073
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -78,7 +78,7 @@ class DeviceManagementDeviceTypeOptions
      * @ElementName deviceAccessPort
      * @Type int
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:43591
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:48073
      * @MinInclusive 1
      * @MaxInclusive 65535
      * @var int|null
@@ -89,7 +89,7 @@ class DeviceManagementDeviceTypeOptions
      * @ElementName deviceAccessContext
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:43591
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:48073
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -100,7 +100,7 @@ class DeviceManagementDeviceTypeOptions
      * @ElementName deviceAccessURI
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:43591
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:48073
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -111,7 +111,7 @@ class DeviceManagementDeviceTypeOptions
      * @ElementName defaultDeviceLanguage
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:43591
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:48073
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -122,7 +122,7 @@ class DeviceManagementDeviceTypeOptions
      * @ElementName defaultDeviceEncoding
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:43591
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:48073
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -133,7 +133,7 @@ class DeviceManagementDeviceTypeOptions
      * @ElementName accessDeviceCredentials
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementUserNamePassword
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:43591
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:48073
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementUserNamePassword|null
      */
     private $accessDeviceCredentials = null;
@@ -141,7 +141,7 @@ class DeviceManagementDeviceTypeOptions
     /**
      * @ElementName useHttpDigestAuthentication
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:43591
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:48073
      * @var bool|null
      */
     private $useHttpDigestAuthentication = null;
@@ -149,7 +149,7 @@ class DeviceManagementDeviceTypeOptions
     /**
      * @ElementName macBasedFileAuthentication
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:43591
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:48073
      * @var bool|null
      */
     private $macBasedFileAuthentication = null;
@@ -157,7 +157,7 @@ class DeviceManagementDeviceTypeOptions
     /**
      * @ElementName userNamePasswordFileAuthentication
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:43591
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:48073
      * @var bool|null
      */
     private $userNamePasswordFileAuthentication = null;
@@ -165,7 +165,7 @@ class DeviceManagementDeviceTypeOptions
     /**
      * @ElementName macInNonRequestURI
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:43591
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:48073
      * @var bool|null
      */
     private $macInNonRequestURI = null;
@@ -174,7 +174,7 @@ class DeviceManagementDeviceTypeOptions
      * @ElementName macFormatInNonRequestURI
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:43591
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:48073
      * @MinLength 1
      * @MaxLength 256
      * @var string|null

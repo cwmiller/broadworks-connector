@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupCallCenterCurrentAndPastCallCenterGetListResponse
  * @see ErrorResponse
- * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:3072","type":"sequence"}]
+ * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:3087","type":"sequence"}]
  */
 class GroupCallCenterCurrentAndPastCallCenterGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupCallCenterCurrentAndPastCallCenterGetListRequest extends \CWM\BroadWo
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group e2c537e3e39483b96620673a7012ffdd:3072
+     * @Group e2c537e3e39483b96620673a7012ffdd:3087
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -29,7 +29,7 @@ class GroupCallCenterCurrentAndPastCallCenterGetListRequest extends \CWM\BroadWo
      * @ElementName isPremiumOnly
      * @Type bool
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:3072
+     * @Group e2c537e3e39483b96620673a7012ffdd:3087
      * @var bool|null
      */
     private $isPremiumOnly = null;
@@ -37,7 +37,7 @@ class GroupCallCenterCurrentAndPastCallCenterGetListRequest extends \CWM\BroadWo
     /**
      * @ElementName groupId
      * @Type string
-     * @Group e2c537e3e39483b96620673a7012ffdd:3072
+     * @Group e2c537e3e39483b96620673a7012ffdd:3087
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -48,7 +48,7 @@ class GroupCallCenterCurrentAndPastCallCenterGetListRequest extends \CWM\BroadWo
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:3072
+     * @Group e2c537e3e39483b96620673a7012ffdd:3087
      * @MinInclusive 1
      * @var int|null
      */
@@ -58,7 +58,7 @@ class GroupCallCenterCurrentAndPastCallCenterGetListRequest extends \CWM\BroadWo
      * @ElementName searchCriteriaCallCenterName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaCallCenterName
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:3072
+     * @Group e2c537e3e39483b96620673a7012ffdd:3087
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaCallCenterName|null
      */
     private $searchCriteriaCallCenterName = null;

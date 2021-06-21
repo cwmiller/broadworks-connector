@@ -3,7 +3,7 @@
 namespace CWM\BroadWorksConnector\Ocip\Traits;
 
 use CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointAddDNISRequest;
-use CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointAddInstanceRequest22;
+use CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointAddInstanceRequest23;
 use CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointBouncedCallGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointBouncedCallGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointBouncedCallModifyRequest;
@@ -15,14 +15,10 @@ use CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointDistinctiveRingingModifyR
 use CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointForcedForwardingGetRequest20;
 use CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointForcedForwardingGetResponse20;
 use CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointForcedForwardingModifyRequest20;
-use CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointGetAnnouncementRequest20;
-use CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointGetAnnouncementResponse20;
 use CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointGetAnnouncementRequest22;
 use CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointGetAnnouncementResponse22;
 use CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointGetDNISAgentListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointGetDNISAgentListResponse;
-use CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointGetDNISAnnouncementRequest20;
-use CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointGetDNISAnnouncementResponse20;
 use CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointGetDNISAnnouncementRequest22;
 use CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointGetDNISAnnouncementResponse22;
 use CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointGetDNISListRequest;
@@ -33,7 +29,7 @@ use CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointGetFailoverPolicyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointGetFailoverPolicyResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointGetInstanceListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointGetInstanceListResponse;
-use CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointGetInstanceRequest22;
+use CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointGetInstanceRequest23;
 use CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointGetInstanceResponse19sp1;
 use CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointHolidayServiceGetRequest20;
 use CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointHolidayServiceGetResponse20;
@@ -86,12 +82,12 @@ trait OCISchemaServiceRoutePoint
     }
 
     /**
-     * @param GroupRoutePointAddInstanceRequest22 $request
+     * @param GroupRoutePointAddInstanceRequest23 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function groupRoutePointAddInstanceRequest22(\CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointAddInstanceRequest22 $request)
+    public function groupRoutePointAddInstanceRequest23(\CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointAddInstanceRequest23 $request)
     {
         return $this->call($request);
     }
@@ -185,17 +181,6 @@ trait OCISchemaServiceRoutePoint
     }
 
     /**
-     * @param GroupRoutePointGetAnnouncementRequest20 $request
-     * @return GroupRoutePointGetAnnouncementResponse20
-     * @throws ErrorResponseException
-     * @throws ValidationException
-     */
-    public function groupRoutePointGetAnnouncementRequest20(\CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointGetAnnouncementRequest20 $request)
-    {
-        return $this->call($request);
-    }
-
-    /**
      * @param GroupRoutePointGetAnnouncementRequest22 $request
      * @return GroupRoutePointGetAnnouncementResponse22
      * @throws ErrorResponseException
@@ -213,17 +198,6 @@ trait OCISchemaServiceRoutePoint
      * @throws ValidationException
      */
     public function groupRoutePointGetDNISAgentListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointGetDNISAgentListRequest $request)
-    {
-        return $this->call($request);
-    }
-
-    /**
-     * @param GroupRoutePointGetDNISAnnouncementRequest20 $request
-     * @return GroupRoutePointGetDNISAnnouncementResponse20
-     * @throws ErrorResponseException
-     * @throws ValidationException
-     */
-    public function groupRoutePointGetDNISAnnouncementRequest20(\CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointGetDNISAnnouncementRequest20 $request)
     {
         return $this->call($request);
     }
@@ -284,12 +258,12 @@ trait OCISchemaServiceRoutePoint
     }
 
     /**
-     * @param GroupRoutePointGetInstanceRequest22 $request
+     * @param GroupRoutePointGetInstanceRequest23 $request
      * @return GroupRoutePointGetInstanceResponse19sp1
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function groupRoutePointGetInstanceRequest22(\CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointGetInstanceRequest22 $request)
+    public function groupRoutePointGetInstanceRequest23(\CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointGetInstanceRequest23 $request)
     {
         return $this->call($request);
     }

@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see EnterpriseCommunicationBarringAuthorizationCodeGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"5395c7df0157d44aa22f3351d1a5f3da:580","type":"sequence"}]
+ * @Groups [{"id":"5395c7df0157d44aa22f3351d1a5f3da:581","type":"sequence"}]
  */
 class EnterpriseCommunicationBarringAuthorizationCodeGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class EnterpriseCommunicationBarringAuthorizationCodeGetRequest extends \CWM\Bro
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:580
+     * @Group 5395c7df0157d44aa22f3351d1a5f3da:581
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +28,7 @@ class EnterpriseCommunicationBarringAuthorizationCodeGetRequest extends \CWM\Bro
     /**
      * @ElementName code
      * @Type string
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:580
+     * @Group 5395c7df0157d44aa22f3351d1a5f3da:581
      * @MinLength 2
      * @MaxLength 14
      * @var string|null

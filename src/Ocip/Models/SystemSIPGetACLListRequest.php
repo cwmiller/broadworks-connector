@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemSIPGetACLListResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:16635","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:17529","type":"sequence"}]
  */
 class SystemSIPGetACLListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

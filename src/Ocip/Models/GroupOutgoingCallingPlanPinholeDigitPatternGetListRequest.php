@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupOutgoingCallingPlanPinholeDigitPatternGetListResponse
  * @see ErrorResponse
- * @Groups [{"id":"6f793dfca9bd3d121bb35e0f9cf1cb2e:511","type":"sequence"}]
+ * @Groups [{"id":"6f793dfca9bd3d121bb35e0f9cf1cb2e:512","type":"sequence"}]
  */
 class GroupOutgoingCallingPlanPinholeDigitPatternGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupOutgoingCallingPlanPinholeDigitPatternGetListRequest extends \CWM\Bro
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:511
+     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:512
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +28,7 @@ class GroupOutgoingCallingPlanPinholeDigitPatternGetListRequest extends \CWM\Bro
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:511
+     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:512
      * @MinLength 1
      * @MaxLength 30
      * @var string|null

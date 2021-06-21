@@ -7,10 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to GroupAccessDeviceGetPagedSortedListRequest.
  *         Contains a table of devices configured in the group.
- *         The column headings are: "Device Name", "Device Type", "Available Ports", "Net Address", "MAC Address", "Status" and "Version".
+ *         The column headings are: "Device Name", "Device Type", "Available Ports", "Net Address", "MAC Address", "Status", "Version", and "Support Visual Device Management API".
+ *         When CloudPBX is not licensed, the column "Support Visual Device Management API" values are not returned.
+ *         
+ *         Replaced by GroupAccessDeviceGetPagedSortedListResponse22.
  *
  * @see GroupAccessDeviceGetPagedSortedListRequest
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:750","type":"sequence"}]
+ * @see GroupAccessDeviceGetPagedSortedListResponse22
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:3090","type":"sequence"}]
  */
 class GroupAccessDeviceGetPagedSortedListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +22,7 @@ class GroupAccessDeviceGetPagedSortedListResponse extends \CWM\BroadWorksConnect
     /**
      * @ElementName accessDeviceTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:750
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:3090
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $accessDeviceTable = null;

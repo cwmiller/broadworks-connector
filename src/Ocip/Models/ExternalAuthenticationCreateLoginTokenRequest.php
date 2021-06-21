@@ -7,12 +7,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * This command allows a BroadWorks or Third-Party Client Application to
  *         create a Single Sign-On token for a user.
- *         The response is either ExternalAuthenticationCreateLoginTokenResponse
- *         or ErrorResponse.
+ *         The response is either ExternalAuthenticationCreateLoginTokenResponse or ErrorResponse.
  *
  * @see ExternalAuthenticationCreateLoginTokenResponse
  * @see ErrorResponse
- * @Groups [{"id":"6b27fcc79475236456fc113a42b75543:321","type":"sequence"}]
+ * @Groups [{"id":"6b27fcc79475236456fc113a42b75543:255","type":"sequence"}]
  */
 class ExternalAuthenticationCreateLoginTokenRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +19,7 @@ class ExternalAuthenticationCreateLoginTokenRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName userId
      * @Type string
-     * @Group 6b27fcc79475236456fc113a42b75543:321
+     * @Group 6b27fcc79475236456fc113a42b75543:255
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

@@ -7,10 +7,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Request a list of available Mobile Subscriber Directory Numbers not yet assigned to any user.
  *         The response is either EnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAvailableListResponse or ErrorResponse.
+ *         Replaced by: EnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAvailableListRequest22
  *
  * @see EnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAvailableListResponse
  * @see ErrorResponse
- * @Groups [{"id":"f7ae3539fd471e995b07dc1bf8836e2d:206","type":"sequence"}]
+ * @see EnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAvailableListRequest22
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:1985","type":"sequence"}]
  */
 class EnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAvailableListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +20,7 @@ class EnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAvailableLis
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f7ae3539fd471e995b07dc1bf8836e2d:206
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:1985
      * @MinLength 1
      * @MaxLength 30
      * @var string|null

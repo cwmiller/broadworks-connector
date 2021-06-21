@@ -6,30 +6,25 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupCallProcessingGetPolicyRequest19sp1
  *
  * Request the group level data associated with Call Processing Policy.
- *                 The response is either a GroupCallProcessingGetPolicyResponse19sp1 or an
- *                 ErrorResponse.
- *                 The useGroupCLIDSetting attribute controls the CLID settings
- *                 (clidPolicy,enterpriseCallsCLIDPolicy, groupCallsCLIDPolicy, emergencyClidPolicy,
- *                 allowAlternateNumbersForRedirectingIdentity, useGroupName, allowDepartmentCLIDNameOverride)
- *                 The useGroupMediaSetting attribute controls the Media settings
- *                 (medisPolicySelection, supportedMediaSetName)
- *                 The useGroupCallLimitsSetting attribute controls the Call Limits settings
- *                 (useMaxSimultaneousCalls, maxSimultaneousCalls,
- *                 useMaxSimultaneousVideoCalls, maxSimultaneousVideoCalls, useMaxCallTimeForAnsweredCalls,
- *                 maxCallTimeForAnsweredCallsMinutes, useMaxCallTimeForUnansweredCalls,
- *                 maxCallTimeForUnansweredCallsMinutes, useMaxConcurrentRedirectedCalls, useMaxFindMeFollowMeDepth,
- *                 maxRedirectionDepth, useMaxConcurrentFindMeFollowMeInvocations, maxConcurrentFindMeFollowMeInvocations)
- *                 The useGroupTranslationRoutingSetting attribute controls the routing and translation settings
- *                 (networkUsageSelection, enforceGroupCallingLineIdentityRestriction,
- *                 allowEnterpriseGroupCallTypingForPrivateDialingPlan, allowEnterpriseGroupCallTypingForPublicDialingPlan,
- *                 overrideCLIDRestrictionForExternalCallsViaPrivateDialingPlan, enableEnterpriseExtensionDialing)
- *
- *                 Replaced by: GroupCallProcessingGetPolicyRequest21sp1
+ *         The response is either a GroupCallProcessingGetPolicyResponse19sp1 or an
+ *         ErrorResponse.
+ *         The useGroupCLIDSetting attribute controls the CLID settings 
+ *         (clidPolicy,enterpriseCallsCLIDPolicy, groupCallsCLIDPolicy, emergencyClidPolicy, allowAlternateNumbersForRedirectingIdentity, useGroupName, allowDepartmentCLIDNameOverride)
+ *         The useGroupMediaSetting attribute controls the Media settings 
+ *         (medisPolicySelection, supportedMediaSetName)
+ *         The useGroupCallLimitsSetting attribute controls the Call Limits settings 
+ *         (useMaxSimultaneousCalls, maxSimultaneousCalls, 
+ *         useMaxSimultaneousVideoCalls, maxSimultaneousVideoCalls, useMaxCallTimeForAnsweredCalls, maxCallTimeForAnsweredCallsMinutes, useMaxCallTimeForUnansweredCalls, maxCallTimeForUnansweredCallsMinutes, useMaxConcurrentRedirectedCalls, useMaxFindMeFollowMeDepth, maxRedirectionDepth, useMaxConcurrentFindMeFollowMeInvocations, maxConcurrentFindMeFollowMeInvocations)
+ *         The useGroupTranslationRoutingSetting attribute controls the routing and translation settings 
+ *         (networkUsageSelection, enforceGroupCallingLineIdentityRestriction, 
+ *         allowEnterpriseGroupCallTypingForPrivateDialingPlan, allowEnterpriseGroupCallTypingForPublicDialingPlan, overrideCLIDRestrictionForExternalCallsViaPrivateDialingPlan, enableEnterpriseExtensionDialing)
+ *        
+ *         Replaced by: GroupCallProcessingGetPolicyRequest21sp1
  *
  * @see GroupCallProcessingGetPolicyResponse19sp1
  * @see ErrorResponse
  * @see GroupCallProcessingGetPolicyRequest21sp1
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:36301","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:7836","type":"sequence"}]
  */
 class GroupCallProcessingGetPolicyRequest19sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -37,7 +32,7 @@ class GroupCallProcessingGetPolicyRequest19sp1 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:36301
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:7836
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -47,7 +42,7 @@ class GroupCallProcessingGetPolicyRequest19sp1 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName groupId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:36301
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:7836
      * @MinLength 1
      * @MaxLength 30
      * @var string|null

@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see EnterpriseBroadWorksMobileManagerGetDomainListResponse
  * @see ErrorResponse
- * @Groups [{"id":"5395c7df0157d44aa22f3351d1a5f3da:206","type":"sequence"}]
+ * @Groups [{"id":"5395c7df0157d44aa22f3351d1a5f3da:207","type":"sequence"}]
  */
 class EnterpriseBroadWorksMobileManagerGetDomainListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class EnterpriseBroadWorksMobileManagerGetDomainListRequest extends \CWM\BroadWo
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:206
+     * @Group 5395c7df0157d44aa22f3351d1a5f3da:207
      * @MinLength 1
      * @MaxLength 30
      * @var string|null

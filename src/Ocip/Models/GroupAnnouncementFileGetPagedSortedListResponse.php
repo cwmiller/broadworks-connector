@@ -6,7 +6,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupAnnouncementFileGetPagedSortedListResponse
  *
  * Response to GroupAnnouncementFileGetPagedSortedListRequest.
- *         The response contains a table with columns: "Name", "Media Type" and "File Size".
+ *         The response contains a table with columns: "Name", "Media Type", "File Size", and "Announcement File External Id".
  *         The "Name" column contains the name of the announcement file.
  *         The "Media Type" column contains the media type of the announcement 
  *         File with the possible values:
@@ -15,9 +15,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *                 3GP - A 3GP file
  *                 MOV - A MOV file using a H.263 or H.264 codec.
  *         The "File Size" column contains the file size (KB) of the announcement file.
+ *         
+ *         The following columns are populated in AS data mode only:       
+ *           "Announcement File External Id"
  *
  * @see GroupAnnouncementFileGetPagedSortedListRequest
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:1520","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:1999","type":"sequence"}]
  */
 class GroupAnnouncementFileGetPagedSortedListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -26,7 +29,7 @@ class GroupAnnouncementFileGetPagedSortedListResponse extends \CWM\BroadWorksCon
      * @ElementName announcementTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1520
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:1999
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $announcementTable = null;

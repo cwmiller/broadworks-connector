@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"5395c7df0157d44aa22f3351d1a5f3da:372","type":"sequence"}]
+ * @Groups [{"id":"5395c7df0157d44aa22f3351d1a5f3da:373","type":"sequence"}]
  */
 class EnterpriseBroadWorksMobileManagerModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class EnterpriseBroadWorksMobileManagerModifyRequest extends \CWM\BroadWorksConn
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:372
+     * @Group 5395c7df0157d44aa22f3351d1a5f3da:373
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -29,7 +29,7 @@ class EnterpriseBroadWorksMobileManagerModifyRequest extends \CWM\BroadWorksConn
      * @ElementName informationFile
      * @Type string
      * @Optional
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:372
+     * @Group 5395c7df0157d44aa22f3351d1a5f3da:373
      * @MinLength 1
      * @var string|null
      */
@@ -39,7 +39,7 @@ class EnterpriseBroadWorksMobileManagerModifyRequest extends \CWM\BroadWorksConn
      * @ElementName certificateFile
      * @Type string
      * @Optional
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:372
+     * @Group 5395c7df0157d44aa22f3351d1a5f3da:373
      * @MinLength 1
      * @var string|null
      */
@@ -49,7 +49,7 @@ class EnterpriseBroadWorksMobileManagerModifyRequest extends \CWM\BroadWorksConn
      * @ElementName localToCarrier
      * @Type bool
      * @Optional
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:372
+     * @Group 5395c7df0157d44aa22f3351d1a5f3da:373
      * @var bool|null
      */
     private $localToCarrier = null;
@@ -58,7 +58,7 @@ class EnterpriseBroadWorksMobileManagerModifyRequest extends \CWM\BroadWorksConn
      * @ElementName maxTxPerSecondEnabled
      * @Type bool
      * @Optional
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:372
+     * @Group 5395c7df0157d44aa22f3351d1a5f3da:373
      * @var bool|null
      */
     private $maxTxPerSecondEnabled = null;
@@ -67,7 +67,7 @@ class EnterpriseBroadWorksMobileManagerModifyRequest extends \CWM\BroadWorksConn
      * @ElementName maxTxPerSecond
      * @Type int
      * @Optional
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:372
+     * @Group 5395c7df0157d44aa22f3351d1a5f3da:373
      * @MinInclusive 1
      * @MaxInclusive 1000
      * @var int|null
@@ -78,7 +78,7 @@ class EnterpriseBroadWorksMobileManagerModifyRequest extends \CWM\BroadWorksConn
      * @ElementName tldnEnabled
      * @Type bool
      * @Optional
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:372
+     * @Group 5395c7df0157d44aa22f3351d1a5f3da:373
      * @var bool|null
      */
     private $tldnEnabled = null;
@@ -87,7 +87,7 @@ class EnterpriseBroadWorksMobileManagerModifyRequest extends \CWM\BroadWorksConn
      * @ElementName genericNumberEnabled
      * @Type bool
      * @Optional
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:372
+     * @Group 5395c7df0157d44aa22f3351d1a5f3da:373
      * @var bool|null
      */
     private $genericNumberEnabled = null;
@@ -96,7 +96,7 @@ class EnterpriseBroadWorksMobileManagerModifyRequest extends \CWM\BroadWorksConn
      * @ElementName mobileStateCheckEnabled
      * @Type bool
      * @Optional
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:372
+     * @Group 5395c7df0157d44aa22f3351d1a5f3da:373
      * @var bool|null
      */
     private $mobileStateCheckEnabled = null;
@@ -105,7 +105,7 @@ class EnterpriseBroadWorksMobileManagerModifyRequest extends \CWM\BroadWorksConn
      * @ElementName locationBasedServicesEnabled
      * @Type bool
      * @Optional
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:372
+     * @Group 5395c7df0157d44aa22f3351d1a5f3da:373
      * @var bool|null
      */
     private $locationBasedServicesEnabled = null;

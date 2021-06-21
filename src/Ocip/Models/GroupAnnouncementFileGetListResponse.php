@@ -5,8 +5,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * GroupAnnouncementFileGetListResponse
  *
- * Response to GroupAnnouncementFileGetAvailableListRequest.
- *         When requested, the response contains a table with columns: "Name", "Media Type" and "File Size".
+ * Response to GroupAnnouncementFileGetListRequest.
+ *         When requested, the response contains a table with columns: "Name", "Media Type", "File Size", "Announcement File External Id".
  *         The "Name" column contains the name of the announcement file.
  *         The "Media Type" column contains the media type of the announcement 
  *         File with the possible values:
@@ -15,11 +15,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *                 3GP - A 3GP file
  *                 MOV - A MOV file using a H.263 or H.264 codec.
  *         The "File Size" column contains the file size (KB) of the announcement file.
+ *         The "Announcement File External Id" column contains the External ID of the announcement file. 
  *         The response also contains the current total file size (KB) for the group across
  *         all media types and the maximum total file size (MB) allowed for the group.
+ *         
+ *         The following columns are populated in AS data mode only:       
+ *           "Announcement File External Id"
  *
- * @see GroupAnnouncementFileGetAvailableListRequest
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:1459","type":"sequence"}]
+ * @see GroupAnnouncementFileGetListRequest
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:1925","type":"sequence"}]
  */
 class GroupAnnouncementFileGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -28,7 +32,7 @@ class GroupAnnouncementFileGetListResponse extends \CWM\BroadWorksConnector\Ocip
      * @ElementName announcementTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1459
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:1925
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $announcementTable = null;
@@ -36,7 +40,7 @@ class GroupAnnouncementFileGetListResponse extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName totalFileSize
      * @Type int
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1459
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:1925
      * @var int|null
      */
     private $totalFileSize = null;
@@ -44,7 +48,7 @@ class GroupAnnouncementFileGetListResponse extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName maxFileSize
      * @Type int
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1459
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:1925
      * @MinInclusive 1
      * @MaxInclusive 999999
      * @var int|null

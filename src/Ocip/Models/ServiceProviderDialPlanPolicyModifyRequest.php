@@ -7,10 +7,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Modify the Service Provider level data associated with Dial Plan Policy.
  *         The response is either a SuccessResponse or an ErrorResponse.
+ *         The following elements are only used in AS data mode and ignored in XS data mode:
+ *           overrideResolvedDeviceDigitMap
+ *           deviceDigitMap
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:3055","type":"sequence"}]
+ * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:3713","type":"sequence"}]
  */
 class ServiceProviderDialPlanPolicyModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +21,7 @@ class ServiceProviderDialPlanPolicyModifyRequest extends \CWM\BroadWorksConnecto
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3055
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3713
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -29,7 +32,7 @@ class ServiceProviderDialPlanPolicyModifyRequest extends \CWM\BroadWorksConnecto
      * @ElementName requiresAccessCodeForPublicCalls
      * @Type bool
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3055
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3713
      * @var bool|null
      */
     private $requiresAccessCodeForPublicCalls = null;
@@ -38,7 +41,7 @@ class ServiceProviderDialPlanPolicyModifyRequest extends \CWM\BroadWorksConnecto
      * @ElementName allowE164PublicCalls
      * @Type bool
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3055
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3713
      * @var bool|null
      */
     private $allowE164PublicCalls = null;
@@ -47,7 +50,7 @@ class ServiceProviderDialPlanPolicyModifyRequest extends \CWM\BroadWorksConnecto
      * @ElementName preferE164NumberFormatForCallbackServices
      * @Type bool
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3055
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3713
      * @var bool|null
      */
     private $preferE164NumberFormatForCallbackServices = null;
@@ -57,7 +60,7 @@ class ServiceProviderDialPlanPolicyModifyRequest extends \CWM\BroadWorksConnecto
      * @Type string
      * @Nillable
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3055
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3713
      * @MinLength 1
      * @MaxLength 2048
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -69,12 +72,33 @@ class ServiceProviderDialPlanPolicyModifyRequest extends \CWM\BroadWorksConnecto
      * @Type string
      * @Nillable
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3055
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3713
      * @MinLength 1
      * @MaxLength 2048
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $privateDigitMap = null;
+
+    /**
+     * @ElementName overrideResolvedDeviceDigitMap
+     * @Type bool
+     * @Optional
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3713
+     * @var bool|null
+     */
+    private $overrideResolvedDeviceDigitMap = null;
+
+    /**
+     * @ElementName deviceDigitMap
+     * @Type string
+     * @Nillable
+     * @Optional
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3713
+     * @MinLength 1
+     * @MaxLength 2048
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     */
+    private $deviceDigitMap = null;
 
     /**
      * Getter for serviceProviderId
@@ -267,6 +291,72 @@ class ServiceProviderDialPlanPolicyModifyRequest extends \CWM\BroadWorksConnecto
     public function unsetPrivateDigitMap()
     {
         $this->privateDigitMap = null;
+        return $this;
+    }
+
+    /**
+     * Getter for overrideResolvedDeviceDigitMap
+     *
+     * @return bool
+     */
+    public function getOverrideResolvedDeviceDigitMap()
+    {
+        return $this->overrideResolvedDeviceDigitMap instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->overrideResolvedDeviceDigitMap;
+    }
+
+    /**
+     * Setter for overrideResolvedDeviceDigitMap
+     *
+     * @param bool $overrideResolvedDeviceDigitMap
+     * @return $this
+     */
+    public function setOverrideResolvedDeviceDigitMap($overrideResolvedDeviceDigitMap)
+    {
+        $this->overrideResolvedDeviceDigitMap = $overrideResolvedDeviceDigitMap;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetOverrideResolvedDeviceDigitMap()
+    {
+        $this->overrideResolvedDeviceDigitMap = null;
+        return $this;
+    }
+
+    /**
+     * Getter for deviceDigitMap
+     *
+     * @return string|null
+     */
+    public function getDeviceDigitMap()
+    {
+        return $this->deviceDigitMap instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->deviceDigitMap;
+    }
+
+    /**
+     * Setter for deviceDigitMap
+     *
+     * @param string|null $deviceDigitMap
+     * @return $this
+     */
+    public function setDeviceDigitMap($deviceDigitMap = null)
+    {
+        if ($deviceDigitMap === null) {
+            $this->deviceDigitMap = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->deviceDigitMap = $deviceDigitMap;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDeviceDigitMap()
+    {
+        $this->deviceDigitMap = null;
         return $this;
     }
 

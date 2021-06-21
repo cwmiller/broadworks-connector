@@ -7,10 +7,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Request the user level data associated with flexible seating guest.
  *         The response is either a UserFlexibleSeatingGuestGetResponse or an ErrorResponse.
+ *         
+ *         Replaced by: UserFlexibleSeatingGuestGetRequest22.
  *
  * @see UserFlexibleSeatingGuestGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"43afb2158d313a1d1a148124d7caba1e:480","type":"sequence"}]
+ * @see UserFlexibleSeatingGuestGetRequest22
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:42948","type":"sequence"}]
  */
 class UserFlexibleSeatingGuestGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +21,7 @@ class UserFlexibleSeatingGuestGetRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName userId
      * @Type string
-     * @Group 43afb2158d313a1d1a148124d7caba1e:480
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:42948
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

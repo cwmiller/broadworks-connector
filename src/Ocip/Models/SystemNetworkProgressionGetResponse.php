@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemNetworkProgressionGetRequest.
  *
  * @see SystemNetworkProgressionGetRequest
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:11587","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:12666","type":"sequence"}]
  */
 class SystemNetworkProgressionGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class SystemNetworkProgressionGetResponse extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11587
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12666
      * @var bool|null
      */
     private $isActive = null;
@@ -24,7 +24,7 @@ class SystemNetworkProgressionGetResponse extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName waitPeriodSeconds
      * @Type int
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11587
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12666
      * @MinInclusive 1
      * @MaxInclusive 15
      * @var int|null

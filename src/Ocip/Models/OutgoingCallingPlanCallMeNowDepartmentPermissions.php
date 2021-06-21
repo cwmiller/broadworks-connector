@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Outgoing Calling Plan for Call Me Now call permissions for a department.
  *
- * @Groups [{"id":"6f793dfca9bd3d121bb35e0f9cf1cb2e:1748","type":"sequence"}]
+ * @Groups [{"id":"6f793dfca9bd3d121bb35e0f9cf1cb2e:1749","type":"sequence"}]
  */
 class OutgoingCallingPlanCallMeNowDepartmentPermissions
 {
@@ -16,7 +16,7 @@ class OutgoingCallingPlanCallMeNowDepartmentPermissions
      * @ElementName departmentKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey
      * @Abstract \CWM\BroadWorksConnector\Ocip\Models\EnterpriseDepartmentKey,\CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentKey
-     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:1748
+     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:1749
      * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null
      */
     private $departmentKey = null;
@@ -24,7 +24,7 @@ class OutgoingCallingPlanCallMeNowDepartmentPermissions
     /**
      * @ElementName departmentName
      * @Type string
-     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:1748
+     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:1749
      * @MinLength 1
      * @var string|null
      */
@@ -33,7 +33,7 @@ class OutgoingCallingPlanCallMeNowDepartmentPermissions
     /**
      * @ElementName permissions
      * @Type \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanCallMeNowPermissions
-     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:1748
+     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:1749
      * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanCallMeNowPermissions|null
      */
     private $permissions = null;

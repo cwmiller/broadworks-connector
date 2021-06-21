@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemOutgoingCallingPlanCallTypeGetMappingListResponse
  * @see ErrorResponse
- * @Groups [{"id":"6f793dfca9bd3d121bb35e0f9cf1cb2e:939","type":"sequence"}]
+ * @Groups [{"id":"6f793dfca9bd3d121bb35e0f9cf1cb2e:940","type":"sequence"}]
  */
 class SystemOutgoingCallingPlanCallTypeGetMappingListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class SystemOutgoingCallingPlanCallTypeGetMappingListRequest extends \CWM\BroadW
      * @ElementName countryCode
      * @Type string
      * @Optional
-     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:939
+     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:940
      * @MaxLength 3
      * @Pattern [0-9]|[1-9][0-9]{1,2}
      * @var string|null

@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Contains a list of announcement repository files
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:852","type":"sequence"}]
+ * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:958","type":"sequence"}]
  */
 class CallCenterAnnouncementFileListModify20
 {
@@ -17,7 +17,7 @@ class CallCenterAnnouncementFileListModify20
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey
      * @Nillable
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:852
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:958
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $file1 = null;
@@ -27,7 +27,7 @@ class CallCenterAnnouncementFileListModify20
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey
      * @Nillable
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:852
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:958
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $file2 = null;
@@ -37,7 +37,7 @@ class CallCenterAnnouncementFileListModify20
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey
      * @Nillable
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:852
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:958
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $file3 = null;
@@ -47,7 +47,7 @@ class CallCenterAnnouncementFileListModify20
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey
      * @Nillable
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:852
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:958
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $file4 = null;

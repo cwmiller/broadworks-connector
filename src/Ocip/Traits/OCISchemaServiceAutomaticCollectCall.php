@@ -2,8 +2,8 @@
 
 namespace CWM\BroadWorksConnector\Ocip\Traits;
 
-use CWM\BroadWorksConnector\Ocip\Models\SystemAutomaticCollectCallGetRequest;
-use CWM\BroadWorksConnector\Ocip\Models\SystemAutomaticCollectCallGetResponse;
+use CWM\BroadWorksConnector\Ocip\Models\SystemAutomaticCollectCallGetRequest22;
+use CWM\BroadWorksConnector\Ocip\Models\SystemAutomaticCollectCallGetResponse22;
 use CWM\BroadWorksConnector\Ocip\Models\SystemAutomaticCollectCallModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemAutomaticCollectCallPrefixDigitsAddListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemAutomaticCollectCallPrefixDigitsDeleteListRequest;
@@ -20,12 +20,12 @@ trait OCISchemaServiceAutomaticCollectCall
 {
 
     /**
-     * @param SystemAutomaticCollectCallGetRequest $request
-     * @return SystemAutomaticCollectCallGetResponse
+     * @param SystemAutomaticCollectCallGetRequest22 $request
+     * @return SystemAutomaticCollectCallGetResponse22
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function systemAutomaticCollectCallGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemAutomaticCollectCallGetRequest $request)
+    public function systemAutomaticCollectCallGetRequest22(\CWM\BroadWorksConnector\Ocip\Models\SystemAutomaticCollectCallGetRequest22 $request)
     {
         return $this->call($request);
     }

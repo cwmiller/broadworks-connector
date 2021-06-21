@@ -20,7 +20,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemDnGetSummaryListResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:8222","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:9294","type":"sequence"}]
  */
 class SystemDnGetSummaryListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -29,9 +29,9 @@ class SystemDnGetSummaryListRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName resellerId
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8222
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9294
      * @MinLength 1
-     * @MaxLength 30
+     * @MaxLength 36
      * @var string|null
      */
     private $resellerId = null;
@@ -41,7 +41,7 @@ class SystemDnGetSummaryListRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn
      * @Array
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8222
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9294
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[]
      */
     private $searchCriteriaDn = array(
@@ -53,7 +53,7 @@ class SystemDnGetSummaryListRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderId
      * @Array
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8222
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9294
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderId[]
      */
     private $searchCriteriaServiceProviderId = array(
@@ -64,7 +64,7 @@ class SystemDnGetSummaryListRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName searchCriteriaExactOrganizationType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactOrganizationType
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8222
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9294
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactOrganizationType|null
      */
     private $searchCriteriaExactOrganizationType = null;

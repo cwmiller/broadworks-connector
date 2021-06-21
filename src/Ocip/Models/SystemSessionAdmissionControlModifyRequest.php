@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:15134","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:16282","type":"sequence"}]
  */
 class SystemSessionAdmissionControlModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class SystemSessionAdmissionControlModifyRequest extends \CWM\BroadWorksConnecto
      * @ElementName countLongConnectionsToMediaServer
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:15134
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16282
      * @var bool|null
      */
     private $countLongConnectionsToMediaServer = null;
@@ -28,7 +28,7 @@ class SystemSessionAdmissionControlModifyRequest extends \CWM\BroadWorksConnecto
      * @ElementName sacHandlingForMoH
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SessionAdmissionControlForMusicOnHoldType
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:15134
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16282
      * @var \CWM\BroadWorksConnector\Ocip\Models\SessionAdmissionControlForMusicOnHoldType|null
      */
     private $sacHandlingForMoH = null;
@@ -37,7 +37,7 @@ class SystemSessionAdmissionControlModifyRequest extends \CWM\BroadWorksConnecto
      * @ElementName blockVMDepositDueToSACLimits
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:15134
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16282
      * @var bool|null
      */
     private $blockVMDepositDueToSACLimits = null;
@@ -46,7 +46,7 @@ class SystemSessionAdmissionControlModifyRequest extends \CWM\BroadWorksConnecto
      * @ElementName sacCodecSelectionPolicy
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SessionAdmissionControlCodecSelectionPolicyType
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:15134
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16282
      * @var \CWM\BroadWorksConnector\Ocip\Models\SessionAdmissionControlCodecSelectionPolicyType|null
      */
     private $sacCodecSelectionPolicy = null;
@@ -55,7 +55,7 @@ class SystemSessionAdmissionControlModifyRequest extends \CWM\BroadWorksConnecto
      * @ElementName countCallToMobileNumberForSACSubscriber
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:15134
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16282
      * @var bool|null
      */
     private $countCallToMobileNumberForSACSubscriber = null;
@@ -64,7 +64,7 @@ class SystemSessionAdmissionControlModifyRequest extends \CWM\BroadWorksConnecto
      * @ElementName countBWAnywhereForSACSubscriber
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:15134
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16282
      * @var bool|null
      */
     private $countBWAnywhereForSACSubscriber = null;
@@ -73,7 +73,7 @@ class SystemSessionAdmissionControlModifyRequest extends \CWM\BroadWorksConnecto
      * @ElementName countROForSACSubscriber
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:15134
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16282
      * @var bool|null
      */
     private $countROForSACSubscriber = null;
@@ -82,10 +82,37 @@ class SystemSessionAdmissionControlModifyRequest extends \CWM\BroadWorksConnecto
      * @ElementName excludeBWMobilityForSACSubscriber
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:15134
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16282
      * @var bool|null
      */
     private $excludeBWMobilityForSACSubscriber = null;
+
+    /**
+     * @ElementName enableHoldoverOfHighwaterSessionCounts
+     * @Type bool
+     * @Optional
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16282
+     * @var bool|null
+     */
+    private $enableHoldoverOfHighwaterSessionCounts = null;
+
+    /**
+     * @ElementName holdoverPeriodMinutes
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SessionAdmissionControlHighwaterSessionCountHoldoverPeriodMinutes
+     * @Optional
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16282
+     * @var \CWM\BroadWorksConnector\Ocip\Models\SessionAdmissionControlHighwaterSessionCountHoldoverPeriodMinutes|null
+     */
+    private $holdoverPeriodMinutes = null;
+
+    /**
+     * @ElementName timeZoneOffsetMinutes
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SessionAdmissionControlTimeZoneOffsetMinutes
+     * @Optional
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16282
+     * @var \CWM\BroadWorksConnector\Ocip\Models\SessionAdmissionControlTimeZoneOffsetMinutes|null
+     */
+    private $timeZoneOffsetMinutes = null;
 
     /**
      * Getter for countLongConnectionsToMediaServer
@@ -332,6 +359,99 @@ class SystemSessionAdmissionControlModifyRequest extends \CWM\BroadWorksConnecto
     public function unsetExcludeBWMobilityForSACSubscriber()
     {
         $this->excludeBWMobilityForSACSubscriber = null;
+        return $this;
+    }
+
+    /**
+     * Getter for enableHoldoverOfHighwaterSessionCounts
+     *
+     * @return bool
+     */
+    public function getEnableHoldoverOfHighwaterSessionCounts()
+    {
+        return $this->enableHoldoverOfHighwaterSessionCounts instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableHoldoverOfHighwaterSessionCounts;
+    }
+
+    /**
+     * Setter for enableHoldoverOfHighwaterSessionCounts
+     *
+     * @param bool $enableHoldoverOfHighwaterSessionCounts
+     * @return $this
+     */
+    public function setEnableHoldoverOfHighwaterSessionCounts($enableHoldoverOfHighwaterSessionCounts)
+    {
+        $this->enableHoldoverOfHighwaterSessionCounts = $enableHoldoverOfHighwaterSessionCounts;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetEnableHoldoverOfHighwaterSessionCounts()
+    {
+        $this->enableHoldoverOfHighwaterSessionCounts = null;
+        return $this;
+    }
+
+    /**
+     * Getter for holdoverPeriodMinutes
+     *
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SessionAdmissionControlHighwaterSessionCountHoldoverPeriodMinutes
+     */
+    public function getHoldoverPeriodMinutes()
+    {
+        return $this->holdoverPeriodMinutes instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->holdoverPeriodMinutes;
+    }
+
+    /**
+     * Setter for holdoverPeriodMinutes
+     *
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SessionAdmissionControlHighwaterSessionCountHoldoverPeriodMinutes $holdoverPeriodMinutes
+     * @return $this
+     */
+    public function setHoldoverPeriodMinutes(\CWM\BroadWorksConnector\Ocip\Models\SessionAdmissionControlHighwaterSessionCountHoldoverPeriodMinutes $holdoverPeriodMinutes)
+    {
+        $this->holdoverPeriodMinutes = $holdoverPeriodMinutes;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetHoldoverPeriodMinutes()
+    {
+        $this->holdoverPeriodMinutes = null;
+        return $this;
+    }
+
+    /**
+     * Getter for timeZoneOffsetMinutes
+     *
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SessionAdmissionControlTimeZoneOffsetMinutes
+     */
+    public function getTimeZoneOffsetMinutes()
+    {
+        return $this->timeZoneOffsetMinutes instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->timeZoneOffsetMinutes;
+    }
+
+    /**
+     * Setter for timeZoneOffsetMinutes
+     *
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SessionAdmissionControlTimeZoneOffsetMinutes $timeZoneOffsetMinutes
+     * @return $this
+     */
+    public function setTimeZoneOffsetMinutes(\CWM\BroadWorksConnector\Ocip\Models\SessionAdmissionControlTimeZoneOffsetMinutes $timeZoneOffsetMinutes)
+    {
+        $this->timeZoneOffsetMinutes = $timeZoneOffsetMinutes;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetTimeZoneOffsetMinutes()
+    {
+        $this->timeZoneOffsetMinutes = null;
         return $this;
     }
 

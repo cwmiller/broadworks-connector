@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to UserMusicOnHoldGetRequest.
  *
  * @see UserMusicOnHoldGetRequest
- * @Groups [{"id":"66fe518a637c74cc4b2c97aa7f68fc49:254","type":"sequence"}]
+ * @Groups [{"id":"66fe518a637c74cc4b2c97aa7f68fc49:261","type":"sequence"}]
  */
 class UserMusicOnHoldGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class UserMusicOnHoldGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group 66fe518a637c74cc4b2c97aa7f68fc49:254
+     * @Group 66fe518a637c74cc4b2c97aa7f68fc49:261
      * @var bool|null
      */
     private $isActive = null;

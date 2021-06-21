@@ -2,36 +2,57 @@
 
 namespace CWM\BroadWorksConnector\Ocip\Traits;
 
-use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceAddRequest14;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceAddRequest22V2;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceCustomTagAddOrModifyListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceCustomTagAddRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceCustomTagDeleteListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceCustomTagGetListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceCustomTagGetListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceCustomTagModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceDeleteRequest;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceDeviceActivationGetRequest;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceDeviceActivationGetResponse;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceDeviceActivationModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceFileGetListRequest14sp8;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceFileGetListResponse14sp8;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceFileGetRequest20;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceFileGetResponse20;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceFileModifyRequest14sp8;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceGenerateActivationCodeRequest;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceGetAvailableCustomTagListRequest;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceGetAvailableCustomTagListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceGetEnhancedConfigurationTypeListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceGetEnhancedConfigurationTypeListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceGetEnhancedConfigurationTypeRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceGetEnhancedConfigurationTypeResponse;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceGetLinkedLeafDeviceListRequest;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceGetLinkedLeafDeviceListResponse;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceGetLinkedTreeDeviceRequest;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceGetLinkedTreeDeviceResponse;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceGetListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceGetListResponse;
-use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceGetRequest18sp1;
-use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceGetResponse18sp1;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceGetNativeTagsWithLogicListRequest;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceGetNativeTagsWithLogicListResponse;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceGetPagedSortedListRequest;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceGetPagedSortedListResponse;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceGetRequest24;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceGetResponse24;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceGetUserListRequest21sp1;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceGetUserListResponse21sp1;
-use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceModifyRequest14;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceLinkDeviceListRequest;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceModifyRequest22;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceModifyUserRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceResetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceTagSetGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceTagSetGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceTagSetModifyRequest;
-use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAddRequest13mp2;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceUnlinkDeviceListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminAddRequest14;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminAlternateIdAddRequest;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminAlternateIdDeleteRequest;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminAlternateIdGetListRequest;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminAlternateIdGetListResponse;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminAlternateIdModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminDeleteRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminGetListRequest14;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminGetListResponse14;
@@ -39,8 +60,8 @@ use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminGetPagedSortedListRe
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminGetPagedSortedListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminGetPolicyRequest20;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminGetPolicyResponse20;
-use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminGetRequest21sp1;
-use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminGetResponse21sp1;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminGetRequest22;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminGetResponse22;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdministratorPasswordRulesGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdministratorPasswordRulesGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminModifyPolicyRequest14;
@@ -51,8 +72,8 @@ use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAnswerConfirmationModifyR
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderApplicationServerSetGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderApplicationServerSetGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderApplicationServerSetModifyRequest;
-use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCallProcessingGetPolicyRequest22V2;
-use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCallProcessingGetPolicyResponse22V2;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCallProcessingGetPolicyRequest22V3;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCallProcessingGetPolicyResponse22V3;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCallProcessingModifyPolicyRequest15;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCommunicationBarringCriteriaAssignListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCommunicationBarringCriteriaGetAssignedListRequest;
@@ -76,17 +97,18 @@ use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCommunicationBarringProfi
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCommunicationBarringProfileGetAssignedGroupListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCommunicationBarringProfileGetAssignedGroupListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCommunicationBarringProfileGetCriteriaUsageListRequest;
-use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCommunicationBarringProfileGetCriteriaUsageListResponse;
+use CWM\BroadWorksConnector\Ocip\Models\ProfileGetCriteriaUsageListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCommunicationBarringProfileGetDigitPatternCriteriaUsageListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCommunicationBarringProfileGetDigitPatternCriteriaUsageListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCommunicationBarringProfileGetIncomingCriteriaUsageListRequest;
-use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCommunicationBarringProfileGetIncomingCriteriaUsageListResponse;
+use CWM\BroadWorksConnector\Ocip\Models\ProfileGetIncomingCriteriaUsageListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCommunicationBarringProfileGetListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCommunicationBarringProfileGetListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCommunicationBarringProfileGetRequest19sp1V2;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCommunicationBarringProfileGetResponse19sp1V2;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCommunicationBarringProfileModifyDefaultRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCommunicationBarringProfileModifyRequest;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderConsolidatedAddRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCPEConfigRebuildConfigFileRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCPEConfigRebuildDeviceConfigFileRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCPEConfigReorderDeviceLinePortsRequest;
@@ -94,6 +116,9 @@ use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCPEConfigResetDeviceReque
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCPEConfigResetDeviceTypeRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCPEConfigSetConfigFileRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDeleteRequest;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDeviceActivationPolicyGetRequest;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDeviceActivationPolicyGetResponse;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDeviceActivationPolicyModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDeviceManagementEventGetListRequest22;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDeviceManagementEventGetListResponse22;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDeviceManagementGetAccessDeviceCountForDeviceTypeServiceProviderRequest;
@@ -129,8 +154,8 @@ use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDialPlanPolicyGetAccessCo
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDialPlanPolicyGetAccessCodeListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDialPlanPolicyGetAccessCodeRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDialPlanPolicyGetAccessCodeResponse;
-use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDialPlanPolicyGetRequest17;
-use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDialPlanPolicyGetResponse17;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDialPlanPolicyGetRequest22;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDialPlanPolicyGetResponse22;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDialPlanPolicyModifyAccessCodeRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDialPlanPolicyModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDigitCollectionGetRequest13mp4;
@@ -140,13 +165,13 @@ use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDnAddListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDnDeleteListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDnGetAvailableListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDnGetAvailableListResponse;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDnGetStatusListRequest;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDnGetStatusListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDnGetSummaryListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDnGetSummaryListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDomainAssignListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDomainGetAssignedGroupListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDomainGetAssignedGroupListResponse;
-use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDomainGetAssignedListRequest;
-use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDomainGetAssignedListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDomainGetAssignedListRequest22;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDomainGetAssignedListResponse22;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDomainUnassignListRequest;
@@ -155,6 +180,9 @@ use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderEmergencyCallNotification
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderEmergencyCallNotificationModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderEndpointGetListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderEndpointGetListResponse;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderExtensionLengthGetRequest;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderExtensionLengthGetResponse;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderExtensionLengthModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderFeatureAccessCodeGetListRequest21;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderFeatureAccessCodeGetListResponse21;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderFeatureAccessCodeModifyListRequest21;
@@ -163,14 +191,18 @@ use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderFileRepositoryDeviceUserD
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderFileRepositoryDeviceUserGetListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderFileRepositoryDeviceUserGetListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderFileRepositoryDeviceUserModifyRequest;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderGetAvailableLeafDeviceListRequest;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderGetAvailableLeafDeviceListResponse;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderGetAvailableTreeDeviceListRequest;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderGetAvailableTreeDeviceListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderGetDefaultRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderGetDefaultResponse;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderGetListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderGetListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderGetPagedSortedListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderGetPagedSortedListResponse;
-use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderGetRequest22V2;
-use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderGetResponse22V2;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderGetRequest22V4;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderGetResponse22V4;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderHPBXAlternateCarrierSelectionGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderHPBXAlternateCarrierSelectionGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderHPBXAlternateCarrierSelectionModifyRequest;
@@ -208,8 +240,8 @@ use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderOfficeZoneUnassignListReq
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderPasswordRulesGetRequest22;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderPasswordRulesGetResponse22;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderPasswordRulesModifyRequest14sp3;
-use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderPortalPasscodeRulesGetRequest19;
-use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderPortalPasscodeRulesGetResponse19;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderPortalPasscodeRulesGetRequest22;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderPortalPasscodeRulesGetResponse22;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderPortalPasscodeRulesModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderRoutePointExternalSystemAssignListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderRoutePointExternalSystemGetAssignedGroupListRequest;
@@ -256,7 +288,7 @@ use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderServicePackMigrationTaskA
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderServicePackMigrationTaskCopyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderServicePackMigrationTaskDeleteRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderServicePackMigrationTaskGetAvailableGroupListRequest;
-use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderServicePackMigrationTaskGetAvailableGroupListResponse;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderServicePackMigrationTaskGetAvailabeGroupListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderServicePackMigrationTaskGetListRequest21;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderServicePackMigrationTaskGetListResponse21;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderServicePackMigrationTaskGetRequest21;
@@ -279,6 +311,24 @@ use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderSessionAdmissionControlWh
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderSIPAuthenticationPasswordRulesGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderSIPAuthenticationPasswordRulesGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderSIPAuthenticationPasswordRulesModifyRequest;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderStirShakenGetRequest;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderStirShakenGetResponse;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderStirShakenModifyRequest;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderStirShakenModifyResponse;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderTemplateOnlyDeviceFileGetListRequest;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderTemplateOnlyDeviceFileGetListResponse;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderThirdPartyEmergencyCallingGetRequest;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderThirdPartyEmergencyCallingGetResponse;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderThirdPartyEmergencyCallingModifyRequest;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderVisualDeviceManagementGetDeviceInfoRequest;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderVisualDeviceManagementGetDeviceInfoResponse;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderXsiPolicyProfileAssignListRequest;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderXsiPolicyProfileGetAssignedGroupListRequest;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderXsiPolicyProfileGetAssignedGroupListResponse;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderXsiPolicyProfileGetAssignedListRequest;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderXsiPolicyProfileGetAssignedListResponse;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderXsiPolicyProfileModifyDefaultRequest;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderXsiPolicyProfileUnassignListRequest;
 use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
 use CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
@@ -287,12 +337,23 @@ trait OCISchemaServiceProvider
 {
 
     /**
-     * @param ServiceProviderAccessDeviceAddRequest14 $request
+     * @param ServiceProviderAccessDeviceAddRequest22V2 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function serviceProviderAccessDeviceAddRequest14(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceAddRequest14 $request)
+    public function serviceProviderAccessDeviceAddRequest22V2(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceAddRequest22V2 $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param ServiceProviderAccessDeviceCustomTagAddOrModifyListRequest $request
+     * @return SuccessResponse
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function serviceProviderAccessDeviceCustomTagAddOrModifyListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceCustomTagAddOrModifyListRequest $request)
     {
         return $this->call($request);
     }
@@ -353,6 +414,28 @@ trait OCISchemaServiceProvider
     }
 
     /**
+     * @param ServiceProviderAccessDeviceDeviceActivationGetRequest $request
+     * @return ServiceProviderAccessDeviceDeviceActivationGetResponse
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function serviceProviderAccessDeviceDeviceActivationGetRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceDeviceActivationGetRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param ServiceProviderAccessDeviceDeviceActivationModifyRequest $request
+     * @return SuccessResponse
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function serviceProviderAccessDeviceDeviceActivationModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceDeviceActivationModifyRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
      * @param ServiceProviderAccessDeviceFileGetListRequest14sp8 $request
      * @return ServiceProviderAccessDeviceFileGetListResponse14sp8
      * @throws ErrorResponseException
@@ -386,6 +469,28 @@ trait OCISchemaServiceProvider
     }
 
     /**
+     * @param ServiceProviderAccessDeviceGenerateActivationCodeRequest $request
+     * @return SuccessResponse
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function serviceProviderAccessDeviceGenerateActivationCodeRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceGenerateActivationCodeRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param ServiceProviderAccessDeviceGetAvailableCustomTagListRequest $request
+     * @return ServiceProviderAccessDeviceGetAvailableCustomTagListResponse
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function serviceProviderAccessDeviceGetAvailableCustomTagListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceGetAvailableCustomTagListRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
      * @param ServiceProviderAccessDeviceGetEnhancedConfigurationTypeListRequest $request
      * @return ServiceProviderAccessDeviceGetEnhancedConfigurationTypeListResponse
      * @throws ErrorResponseException
@@ -408,6 +513,28 @@ trait OCISchemaServiceProvider
     }
 
     /**
+     * @param ServiceProviderAccessDeviceGetLinkedLeafDeviceListRequest $request
+     * @return ServiceProviderAccessDeviceGetLinkedLeafDeviceListResponse
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function serviceProviderAccessDeviceGetLinkedLeafDeviceListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceGetLinkedLeafDeviceListRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param ServiceProviderAccessDeviceGetLinkedTreeDeviceRequest $request
+     * @return ServiceProviderAccessDeviceGetLinkedTreeDeviceResponse
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function serviceProviderAccessDeviceGetLinkedTreeDeviceRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceGetLinkedTreeDeviceRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
      * @param ServiceProviderAccessDeviceGetListRequest $request
      * @return ServiceProviderAccessDeviceGetListResponse
      * @throws ErrorResponseException
@@ -419,12 +546,34 @@ trait OCISchemaServiceProvider
     }
 
     /**
-     * @param ServiceProviderAccessDeviceGetRequest18sp1 $request
-     * @return ServiceProviderAccessDeviceGetResponse18sp1
+     * @param ServiceProviderAccessDeviceGetNativeTagsWithLogicListRequest $request
+     * @return ServiceProviderAccessDeviceGetNativeTagsWithLogicListResponse
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function serviceProviderAccessDeviceGetRequest18sp1(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceGetRequest18sp1 $request)
+    public function serviceProviderAccessDeviceGetNativeTagsWithLogicListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceGetNativeTagsWithLogicListRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param ServiceProviderAccessDeviceGetPagedSortedListRequest $request
+     * @return ServiceProviderAccessDeviceGetPagedSortedListResponse
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function serviceProviderAccessDeviceGetPagedSortedListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceGetPagedSortedListRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param ServiceProviderAccessDeviceGetRequest24 $request
+     * @return ServiceProviderAccessDeviceGetResponse24
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function serviceProviderAccessDeviceGetRequest24(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceGetRequest24 $request)
     {
         return $this->call($request);
     }
@@ -441,12 +590,23 @@ trait OCISchemaServiceProvider
     }
 
     /**
-     * @param ServiceProviderAccessDeviceModifyRequest14 $request
+     * @param ServiceProviderAccessDeviceLinkDeviceListRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function serviceProviderAccessDeviceModifyRequest14(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceModifyRequest14 $request)
+    public function serviceProviderAccessDeviceLinkDeviceListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceLinkDeviceListRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param ServiceProviderAccessDeviceModifyRequest22 $request
+     * @return SuccessResponse
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function serviceProviderAccessDeviceModifyRequest22(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceModifyRequest22 $request)
     {
         return $this->call($request);
     }
@@ -496,12 +656,12 @@ trait OCISchemaServiceProvider
     }
 
     /**
-     * @param ServiceProviderAddRequest13mp2 $request
+     * @param ServiceProviderAccessDeviceUnlinkDeviceListRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function serviceProviderAddRequest13mp2(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAddRequest13mp2 $request)
+    public function serviceProviderAccessDeviceUnlinkDeviceListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceUnlinkDeviceListRequest $request)
     {
         return $this->call($request);
     }
@@ -513,6 +673,50 @@ trait OCISchemaServiceProvider
      * @throws ValidationException
      */
     public function serviceProviderAdminAddRequest14(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminAddRequest14 $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param ServiceProviderAdminAlternateIdAddRequest $request
+     * @return SuccessResponse
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function serviceProviderAdminAlternateIdAddRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminAlternateIdAddRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param ServiceProviderAdminAlternateIdDeleteRequest $request
+     * @return SuccessResponse
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function serviceProviderAdminAlternateIdDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminAlternateIdDeleteRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param ServiceProviderAdminAlternateIdGetListRequest $request
+     * @return ServiceProviderAdminAlternateIdGetListResponse
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function serviceProviderAdminAlternateIdGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminAlternateIdGetListRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param ServiceProviderAdminAlternateIdModifyRequest $request
+     * @return SuccessResponse
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function serviceProviderAdminAlternateIdModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminAlternateIdModifyRequest $request)
     {
         return $this->call($request);
     }
@@ -562,12 +766,12 @@ trait OCISchemaServiceProvider
     }
 
     /**
-     * @param ServiceProviderAdminGetRequest21sp1 $request
-     * @return ServiceProviderAdminGetResponse21sp1
+     * @param ServiceProviderAdminGetRequest22 $request
+     * @return ServiceProviderAdminGetResponse22
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function serviceProviderAdminGetRequest21sp1(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminGetRequest21sp1 $request)
+    public function serviceProviderAdminGetRequest22(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminGetRequest22 $request)
     {
         return $this->call($request);
     }
@@ -650,12 +854,12 @@ trait OCISchemaServiceProvider
     }
 
     /**
-     * @param ServiceProviderCallProcessingGetPolicyRequest22V2 $request
-     * @return ServiceProviderCallProcessingGetPolicyResponse22V2
+     * @param ServiceProviderCallProcessingGetPolicyRequest22V3 $request
+     * @return ServiceProviderCallProcessingGetPolicyResponse22V3
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function serviceProviderCallProcessingGetPolicyRequest22V2(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCallProcessingGetPolicyRequest22V2 $request)
+    public function serviceProviderCallProcessingGetPolicyRequest22V3(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCallProcessingGetPolicyRequest22V3 $request)
     {
         return $this->call($request);
     }
@@ -838,7 +1042,7 @@ trait OCISchemaServiceProvider
 
     /**
      * @param ServiceProviderCommunicationBarringProfileGetCriteriaUsageListRequest $request
-     * @return ServiceProviderCommunicationBarringProfileGetCriteriaUsageListResponse
+     * @return ProfileGetCriteriaUsageListResponse
      * @throws ErrorResponseException
      * @throws ValidationException
      */
@@ -860,7 +1064,7 @@ trait OCISchemaServiceProvider
 
     /**
      * @param ServiceProviderCommunicationBarringProfileGetIncomingCriteriaUsageListRequest $request
-     * @return ServiceProviderCommunicationBarringProfileGetIncomingCriteriaUsageListResponse
+     * @return ProfileGetIncomingCriteriaUsageListResponse
      * @throws ErrorResponseException
      * @throws ValidationException
      */
@@ -909,6 +1113,17 @@ trait OCISchemaServiceProvider
      * @throws ValidationException
      */
     public function serviceProviderCommunicationBarringProfileModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCommunicationBarringProfileModifyRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param ServiceProviderConsolidatedAddRequest $request
+     * @return SuccessResponse
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function serviceProviderConsolidatedAddRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderConsolidatedAddRequest $request)
     {
         return $this->call($request);
     }
@@ -986,6 +1201,28 @@ trait OCISchemaServiceProvider
      * @throws ValidationException
      */
     public function serviceProviderDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDeleteRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param ServiceProviderDeviceActivationPolicyGetRequest $request
+     * @return ServiceProviderDeviceActivationPolicyGetResponse
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function serviceProviderDeviceActivationPolicyGetRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDeviceActivationPolicyGetRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param ServiceProviderDeviceActivationPolicyModifyRequest $request
+     * @return SuccessResponse
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function serviceProviderDeviceActivationPolicyModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDeviceActivationPolicyModifyRequest $request)
     {
         return $this->call($request);
     }
@@ -1255,12 +1492,12 @@ trait OCISchemaServiceProvider
     }
 
     /**
-     * @param ServiceProviderDialPlanPolicyGetRequest17 $request
-     * @return ServiceProviderDialPlanPolicyGetResponse17
+     * @param ServiceProviderDialPlanPolicyGetRequest22 $request
+     * @return ServiceProviderDialPlanPolicyGetResponse22
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function serviceProviderDialPlanPolicyGetRequest17(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDialPlanPolicyGetRequest17 $request)
+    public function serviceProviderDialPlanPolicyGetRequest22(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDialPlanPolicyGetRequest22 $request)
     {
         return $this->call($request);
     }
@@ -1343,6 +1580,17 @@ trait OCISchemaServiceProvider
     }
 
     /**
+     * @param ServiceProviderDnGetStatusListRequest $request
+     * @return ServiceProviderDnGetStatusListResponse
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function serviceProviderDnGetStatusListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDnGetStatusListRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
      * @param ServiceProviderDnGetSummaryListRequest $request
      * @return ServiceProviderDnGetSummaryListResponse
      * @throws ErrorResponseException
@@ -1371,17 +1619,6 @@ trait OCISchemaServiceProvider
      * @throws ValidationException
      */
     public function serviceProviderDomainGetAssignedGroupListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDomainGetAssignedGroupListRequest $request)
-    {
-        return $this->call($request);
-    }
-
-    /**
-     * @param ServiceProviderDomainGetAssignedListRequest $request
-     * @return ServiceProviderDomainGetAssignedListResponse
-     * @throws ErrorResponseException
-     * @throws ValidationException
-     */
-    public function serviceProviderDomainGetAssignedListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDomainGetAssignedListRequest $request)
     {
         return $this->call($request);
     }
@@ -1437,6 +1674,28 @@ trait OCISchemaServiceProvider
      * @throws ValidationException
      */
     public function serviceProviderEndpointGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderEndpointGetListRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param ServiceProviderExtensionLengthGetRequest $request
+     * @return ServiceProviderExtensionLengthGetResponse
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function serviceProviderExtensionLengthGetRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderExtensionLengthGetRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param ServiceProviderExtensionLengthModifyRequest $request
+     * @return SuccessResponse
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function serviceProviderExtensionLengthModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderExtensionLengthModifyRequest $request)
     {
         return $this->call($request);
     }
@@ -1508,6 +1767,28 @@ trait OCISchemaServiceProvider
     }
 
     /**
+     * @param ServiceProviderGetAvailableLeafDeviceListRequest $request
+     * @return ServiceProviderGetAvailableLeafDeviceListResponse
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function serviceProviderGetAvailableLeafDeviceListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderGetAvailableLeafDeviceListRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param ServiceProviderGetAvailableTreeDeviceListRequest $request
+     * @return ServiceProviderGetAvailableTreeDeviceListResponse
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function serviceProviderGetAvailableTreeDeviceListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderGetAvailableTreeDeviceListRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
      * @param ServiceProviderGetDefaultRequest $request
      * @return ServiceProviderGetDefaultResponse
      * @throws ErrorResponseException
@@ -1541,12 +1822,12 @@ trait OCISchemaServiceProvider
     }
 
     /**
-     * @param ServiceProviderGetRequest22V2 $request
-     * @return ServiceProviderGetResponse22V2
+     * @param ServiceProviderGetRequest22V4 $request
+     * @return ServiceProviderGetResponse22V4
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function serviceProviderGetRequest22V2(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderGetRequest22V2 $request)
+    public function serviceProviderGetRequest22V4(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderGetRequest22V4 $request)
     {
         return $this->call($request);
     }
@@ -1849,12 +2130,12 @@ trait OCISchemaServiceProvider
     }
 
     /**
-     * @param ServiceProviderPortalPasscodeRulesGetRequest19 $request
-     * @return ServiceProviderPortalPasscodeRulesGetResponse19
+     * @param ServiceProviderPortalPasscodeRulesGetRequest22 $request
+     * @return ServiceProviderPortalPasscodeRulesGetResponse22
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function serviceProviderPortalPasscodeRulesGetRequest19(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderPortalPasscodeRulesGetRequest19 $request)
+    public function serviceProviderPortalPasscodeRulesGetRequest22(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderPortalPasscodeRulesGetRequest22 $request)
     {
         return $this->call($request);
     }
@@ -2202,7 +2483,7 @@ trait OCISchemaServiceProvider
 
     /**
      * @param ServiceProviderServicePackMigrationTaskGetAvailableGroupListRequest $request
-     * @return ServiceProviderServicePackMigrationTaskGetAvailableGroupListResponse
+     * @return ServiceProviderServicePackMigrationTaskGetAvailabeGroupListResponse
      * @throws ErrorResponseException
      * @throws ValidationException
      */
@@ -2383,6 +2664,127 @@ trait OCISchemaServiceProvider
      * @throws ValidationException
      */
     public function serviceProviderSIPAuthenticationPasswordRulesModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderSIPAuthenticationPasswordRulesModifyRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param ServiceProviderStirShakenGetRequest $request
+     * @return ServiceProviderStirShakenGetResponse
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function serviceProviderStirShakenGetRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderStirShakenGetRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param ServiceProviderStirShakenModifyRequest $request
+     * @return ServiceProviderStirShakenModifyResponse
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function serviceProviderStirShakenModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderStirShakenModifyRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param ServiceProviderTemplateOnlyDeviceFileGetListRequest $request
+     * @return ServiceProviderTemplateOnlyDeviceFileGetListResponse
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function serviceProviderTemplateOnlyDeviceFileGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderTemplateOnlyDeviceFileGetListRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param ServiceProviderThirdPartyEmergencyCallingGetRequest $request
+     * @return ServiceProviderThirdPartyEmergencyCallingGetResponse
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function serviceProviderThirdPartyEmergencyCallingGetRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderThirdPartyEmergencyCallingGetRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param ServiceProviderThirdPartyEmergencyCallingModifyRequest $request
+     * @return SuccessResponse
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function serviceProviderThirdPartyEmergencyCallingModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderThirdPartyEmergencyCallingModifyRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param ServiceProviderVisualDeviceManagementGetDeviceInfoRequest $request
+     * @return ServiceProviderVisualDeviceManagementGetDeviceInfoResponse
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function serviceProviderVisualDeviceManagementGetDeviceInfoRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderVisualDeviceManagementGetDeviceInfoRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param ServiceProviderXsiPolicyProfileAssignListRequest $request
+     * @return SuccessResponse
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function serviceProviderXsiPolicyProfileAssignListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderXsiPolicyProfileAssignListRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param ServiceProviderXsiPolicyProfileGetAssignedGroupListRequest $request
+     * @return ServiceProviderXsiPolicyProfileGetAssignedGroupListResponse
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function serviceProviderXsiPolicyProfileGetAssignedGroupListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderXsiPolicyProfileGetAssignedGroupListRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param ServiceProviderXsiPolicyProfileGetAssignedListRequest $request
+     * @return ServiceProviderXsiPolicyProfileGetAssignedListResponse
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function serviceProviderXsiPolicyProfileGetAssignedListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderXsiPolicyProfileGetAssignedListRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param ServiceProviderXsiPolicyProfileModifyDefaultRequest $request
+     * @return SuccessResponse
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function serviceProviderXsiPolicyProfileModifyDefaultRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderXsiPolicyProfileModifyDefaultRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param ServiceProviderXsiPolicyProfileUnassignListRequest $request
+     * @return SuccessResponse
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function serviceProviderXsiPolicyProfileUnassignListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderXsiPolicyProfileUnassignListRequest $request)
     {
         return $this->call($request);
     }

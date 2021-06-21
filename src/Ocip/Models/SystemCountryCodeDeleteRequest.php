@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:6544","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:6888","type":"sequence"}]
  */
 class SystemCountryCodeDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class SystemCountryCodeDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName countryCode
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6544
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6888
      * @MaxLength 3
      * @Pattern [0-9]|[1-9][0-9]{1,2}
      * @var string|null

@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * The service policy attributes name and value pair.
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:3756","type":"sequence"}]
+ * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:4421","type":"sequence"}]
  */
 class ServicePolicyAttributeEntry
 {
@@ -15,7 +15,7 @@ class ServicePolicyAttributeEntry
     /**
      * @ElementName name
      * @Type string
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3756
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:4421
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -26,7 +26,7 @@ class ServicePolicyAttributeEntry
      * @ElementName value
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3756
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:4421
      * @MinLength 1
      * @MaxLength 2048
      * @var string|null

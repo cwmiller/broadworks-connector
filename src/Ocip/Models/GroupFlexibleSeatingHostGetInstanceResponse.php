@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains the service profile and access device information.
  *
  * @see GroupFlexibleSeatingHostGetInstanceRequest
- * @Groups [{"id":"43afb2158d313a1d1a148124d7caba1e:220","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:9907","type":"sequence"}]
  */
 class GroupFlexibleSeatingHostGetInstanceResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class GroupFlexibleSeatingHostGetInstanceResponse extends \CWM\BroadWorksConnect
     /**
      * @ElementName serviceInstanceProfile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile19sp1
-     * @Group 43afb2158d313a1d1a148124d7caba1e:220
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:9907
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile19sp1|null
      */
     private $serviceInstanceProfile = null;
@@ -25,7 +25,7 @@ class GroupFlexibleSeatingHostGetInstanceResponse extends \CWM\BroadWorksConnect
     /**
      * @ElementName defaultAlias
      * @Type string
-     * @Group 43afb2158d313a1d1a148124d7caba1e:220
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:9907
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -36,7 +36,7 @@ class GroupFlexibleSeatingHostGetInstanceResponse extends \CWM\BroadWorksConnect
      * @ElementName accessDeviceEndpoint
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceMultipleContactEndpointRead20
      * @Optional
-     * @Group 43afb2158d313a1d1a148124d7caba1e:220
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:9907
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceMultipleContactEndpointRead20|null
      */
     private $accessDeviceEndpoint = null;
@@ -45,7 +45,7 @@ class GroupFlexibleSeatingHostGetInstanceResponse extends \CWM\BroadWorksConnect
      * @ElementName networkClassOfService
      * @Type string
      * @Optional
-     * @Group 43afb2158d313a1d1a148124d7caba1e:220
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:9907
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

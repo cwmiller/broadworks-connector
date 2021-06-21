@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:8123","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:9184","type":"sequence"}]
  */
 class SystemDialPlanPolicyModifyAccessCodeRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemDialPlanPolicyModifyAccessCodeRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName accessCode
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8123
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9184
      * @MinLength 1
      * @MaxLength 5
      * @var string|null
@@ -29,7 +29,7 @@ class SystemDialPlanPolicyModifyAccessCodeRequest extends \CWM\BroadWorksConnect
      * @ElementName includeCodeForNetworkTranslationsAndRouting
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8123
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9184
      * @var bool|null
      */
     private $includeCodeForNetworkTranslationsAndRouting = null;
@@ -38,7 +38,7 @@ class SystemDialPlanPolicyModifyAccessCodeRequest extends \CWM\BroadWorksConnect
      * @ElementName includeCodeForScreeningServices
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8123
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9184
      * @var bool|null
      */
     private $includeCodeForScreeningServices = null;
@@ -47,7 +47,7 @@ class SystemDialPlanPolicyModifyAccessCodeRequest extends \CWM\BroadWorksConnect
      * @ElementName enableSecondaryDialTone
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8123
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9184
      * @var bool|null
      */
     private $enableSecondaryDialTone = null;
@@ -57,7 +57,7 @@ class SystemDialPlanPolicyModifyAccessCodeRequest extends \CWM\BroadWorksConnect
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8123
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9184
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil

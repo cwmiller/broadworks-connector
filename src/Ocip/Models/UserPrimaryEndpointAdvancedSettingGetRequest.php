@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserPrimaryEndpointAdvancedSettingGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:3323","type":"sequence"}]
+ * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:3361","type":"sequence"}]
  */
 class UserPrimaryEndpointAdvancedSettingGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserPrimaryEndpointAdvancedSettingGetRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName userId
      * @Type string
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:3323
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:3361
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

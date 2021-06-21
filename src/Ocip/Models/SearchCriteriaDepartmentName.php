@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Criteria for searching for a user's department.
  *
- * @Groups [{"id":"f0ada2681ca347fa83b464734259b304:365","type":"sequence"}]
+ * @Groups [{"id":"f0ada2681ca347fa83b464734259b304:424","type":"sequence"}]
  */
 class SearchCriteriaDepartmentName extends SearchCriteria
 {
@@ -15,7 +15,7 @@ class SearchCriteriaDepartmentName extends SearchCriteria
     /**
      * @ElementName mode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchMode
-     * @Group f0ada2681ca347fa83b464734259b304:365
+     * @Group f0ada2681ca347fa83b464734259b304:424
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchMode|null
      */
     private $mode = null;
@@ -23,7 +23,7 @@ class SearchCriteriaDepartmentName extends SearchCriteria
     /**
      * @ElementName value
      * @Type string
-     * @Group f0ada2681ca347fa83b464734259b304:365
+     * @Group f0ada2681ca347fa83b464734259b304:424
      * @MinLength 1
      * @MaxLength 50
      * @var string|null
@@ -33,7 +33,7 @@ class SearchCriteriaDepartmentName extends SearchCriteria
     /**
      * @ElementName isCaseInsensitive
      * @Type bool
-     * @Group f0ada2681ca347fa83b464734259b304:365
+     * @Group f0ada2681ca347fa83b464734259b304:424
      * @var bool|null
      */
     private $isCaseInsensitive = null;

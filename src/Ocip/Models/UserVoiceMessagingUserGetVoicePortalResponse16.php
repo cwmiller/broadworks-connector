@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to UserVoiceMessagingUserGetVoicePortalRequest16.
  *
  * @see UserVoiceMessagingUserGetVoicePortalRequest16
- * @Groups [{"id":"a8b2edcd7d6936a8b76653949ae59623:473","type":"sequence"}]
+ * @Groups [{"id":"a8b2edcd7d6936a8b76653949ae59623:500","type":"sequence"}]
  */
 class UserVoiceMessagingUserGetVoicePortalResponse16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class UserVoiceMessagingUserGetVoicePortalResponse16 extends \CWM\BroadWorksConn
     /**
      * @ElementName usePersonalizedName
      * @Type bool
-     * @Group a8b2edcd7d6936a8b76653949ae59623:473
+     * @Group a8b2edcd7d6936a8b76653949ae59623:500
      * @var bool|null
      */
     private $usePersonalizedName = null;
@@ -24,7 +24,7 @@ class UserVoiceMessagingUserGetVoicePortalResponse16 extends \CWM\BroadWorksConn
     /**
      * @ElementName voicePortalAutoLogin
      * @Type bool
-     * @Group a8b2edcd7d6936a8b76653949ae59623:473
+     * @Group a8b2edcd7d6936a8b76653949ae59623:500
      * @var bool|null
      */
     private $voicePortalAutoLogin = null;
@@ -33,7 +33,7 @@ class UserVoiceMessagingUserGetVoicePortalResponse16 extends \CWM\BroadWorksConn
      * @ElementName personalizedNameAudioFileDescription
      * @Type string
      * @Optional
-     * @Group a8b2edcd7d6936a8b76653949ae59623:473
+     * @Group a8b2edcd7d6936a8b76653949ae59623:500
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -44,7 +44,7 @@ class UserVoiceMessagingUserGetVoicePortalResponse16 extends \CWM\BroadWorksConn
      * @ElementName personalizedNameMediaType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MediaFileType
      * @Optional
-     * @Group a8b2edcd7d6936a8b76653949ae59623:473
+     * @Group a8b2edcd7d6936a8b76653949ae59623:500
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     private $personalizedNameMediaType = null;

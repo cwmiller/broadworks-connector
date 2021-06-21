@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"5395c7df0157d44aa22f3351d1a5f3da:89","type":"sequence"}]
+ * @Groups [{"id":"5395c7df0157d44aa22f3351d1a5f3da:90","type":"sequence"}]
  */
 class EnterpriseBroadWorksMobileManagerActivationRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class EnterpriseBroadWorksMobileManagerActivationRequest extends \CWM\BroadWorks
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:89
+     * @Group 5395c7df0157d44aa22f3351d1a5f3da:90
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -29,7 +29,7 @@ class EnterpriseBroadWorksMobileManagerActivationRequest extends \CWM\BroadWorks
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:89
+     * @Group 5395c7df0157d44aa22f3351d1a5f3da:90
      * @var bool|null
      */
     private $isActive = null;
@@ -38,7 +38,7 @@ class EnterpriseBroadWorksMobileManagerActivationRequest extends \CWM\BroadWorks
      * @ElementName deactivationReason
      * @Type string
      * @Optional
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:89
+     * @Group 5395c7df0157d44aa22f3351d1a5f3da:90
      * @MinLength 1
      * @MaxLength 100
      * @var string|null

@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupRoutePointGetFailoverPolicyResponse
  * @see ErrorResponse
- * @Groups [{"id":"a27224a048c30ff69eab9209dec841cc:580","type":"sequence"}]
+ * @Groups [{"id":"a27224a048c30ff69eab9209dec841cc:525","type":"sequence"}]
  */
 class GroupRoutePointGetFailoverPolicyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupRoutePointGetFailoverPolicyRequest extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group a27224a048c30ff69eab9209dec841cc:580
+     * @Group a27224a048c30ff69eab9209dec841cc:525
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

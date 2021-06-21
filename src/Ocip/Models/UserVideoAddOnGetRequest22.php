@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserVideoAddOnGetResponse22
  * @see ErrorResponse
- * @Groups [{"id":"a7ae3767516578250f020b627d8fe972:74","type":"sequence"}]
+ * @Groups [{"id":"a7ae3767516578250f020b627d8fe972:41","type":"sequence"}]
  */
 class UserVideoAddOnGetRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserVideoAddOnGetRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * @ElementName userId
      * @Type string
-     * @Group a7ae3767516578250f020b627d8fe972:74
+     * @Group a7ae3767516578250f020b627d8fe972:41
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

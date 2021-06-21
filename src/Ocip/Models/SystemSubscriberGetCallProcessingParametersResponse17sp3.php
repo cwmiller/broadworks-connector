@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the SystemSubscriberGetCallProcessingParametersRequest17sp3.
  *
  * @see SystemSubscriberGetCallProcessingParametersRequest17sp3
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:22610","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:35215","type":"sequence"}]
  */
 class SystemSubscriberGetCallProcessingParametersResponse17sp3 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class SystemSubscriberGetCallProcessingParametersResponse17sp3 extends \CWM\Broa
     /**
      * @ElementName isExtendedCallingLineIdActive
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:22610
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:35215
      * @var bool|null
      */
     private $isExtendedCallingLineIdActive = null;
@@ -24,7 +24,7 @@ class SystemSubscriberGetCallProcessingParametersResponse17sp3 extends \CWM\Broa
     /**
      * @ElementName isRingTimeOutActive
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:22610
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:35215
      * @var bool|null
      */
     private $isRingTimeOutActive = null;
@@ -32,7 +32,7 @@ class SystemSubscriberGetCallProcessingParametersResponse17sp3 extends \CWM\Broa
     /**
      * @ElementName ringTimeoutSeconds
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:22610
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:35215
      * @MinInclusive 1
      * @MaxInclusive 180
      * @var int|null
@@ -42,7 +42,7 @@ class SystemSubscriberGetCallProcessingParametersResponse17sp3 extends \CWM\Broa
     /**
      * @ElementName allowEmergencyRemoteOfficeOriginations
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:22610
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:35215
      * @var bool|null
      */
     private $allowEmergencyRemoteOfficeOriginations = null;
@@ -50,7 +50,7 @@ class SystemSubscriberGetCallProcessingParametersResponse17sp3 extends \CWM\Broa
     /**
      * @ElementName maxNoAnswerNumberOfRings
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:22610
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:35215
      * @MinInclusive 6
      * @MaxInclusive 20
      * @var int|null
@@ -60,7 +60,7 @@ class SystemSubscriberGetCallProcessingParametersResponse17sp3 extends \CWM\Broa
     /**
      * @ElementName incomingCallToUserAliasMode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\IncomingCallToUserAliasMode
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:22610
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:35215
      * @var \CWM\BroadWorksConnector\Ocip\Models\IncomingCallToUserAliasMode|null
      */
     private $incomingCallToUserAliasMode = null;
@@ -68,7 +68,7 @@ class SystemSubscriberGetCallProcessingParametersResponse17sp3 extends \CWM\Broa
     /**
      * @ElementName bypassTerminationLoopDetection
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:22610
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:35215
      * @var bool|null
      */
     private $bypassTerminationLoopDetection = null;

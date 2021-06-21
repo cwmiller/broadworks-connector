@@ -16,7 +16,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemAlternateUserIdGetListResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:1822","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:2270","type":"sequence"}]
  */
 class SystemAlternateUserIdGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -25,7 +25,7 @@ class SystemAlternateUserIdGetListRequest extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1822
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2270
      * @MinInclusive 1
      * @var int|null
      */
@@ -36,7 +36,7 @@ class SystemAlternateUserIdGetListRequest extends \CWM\BroadWorksConnector\Ocip\
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaAlternateUserId
      * @Array
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1822
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2270
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaAlternateUserId[]
      */
     private $searchCriteriaAlternateUserId = array(
@@ -48,7 +48,7 @@ class SystemAlternateUserIdGetListRequest extends \CWM\BroadWorksConnector\Ocip\
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId
      * @Array
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1822
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2270
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId[]
      */
     private $searchCriteriaUserId = array(
@@ -60,7 +60,7 @@ class SystemAlternateUserIdGetListRequest extends \CWM\BroadWorksConnector\Ocip\
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId
      * @Array
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1822
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2270
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId[]
      */
     private $searchCriteriaGroupId = array(
@@ -72,7 +72,7 @@ class SystemAlternateUserIdGetListRequest extends \CWM\BroadWorksConnector\Ocip\
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderId
      * @Array
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1822
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2270
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderId[]
      */
     private $searchCriteriaServiceProviderId = array(
@@ -84,7 +84,7 @@ class SystemAlternateUserIdGetListRequest extends \CWM\BroadWorksConnector\Ocip\
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaResellerId
      * @Array
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1822
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2270
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaResellerId[]
      */
     private $searchCriteriaResellerId = array(

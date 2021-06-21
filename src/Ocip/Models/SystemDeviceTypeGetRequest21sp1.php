@@ -6,14 +6,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemDeviceTypeGetRequest21sp1
  *
  * Requests the information about the specified device type without regard to whether the
- *                 type is SIP or MGCP.
- *                 The response is either SystemDeviceTypeGetResponse21sp1 or ErrorResponse.
- *                 Note: The elements deviceTypeConfigurationOption and staticLineOrdering apply to SIP device types only.
- *                 Therefore, only present in the response when the device type is SIP.
+ *         type is SIP or MGCP.
+ *         The response is either SystemDeviceTypeGetResponse21sp1 or ErrorResponse.
+ *     Note: The elements deviceTypeConfigurationOption and staticLineOrdering apply to SIP device types only. Therefore, only present in the response when the device type is SIP.
  *
  * @see SystemDeviceTypeGetResponse21sp1
  * @see ErrorResponse
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:41846","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:26075","type":"sequence"}]
  */
 class SystemDeviceTypeGetRequest21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,7 +20,7 @@ class SystemDeviceTypeGetRequest21sp1 extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName deviceType
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:41846
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:26075
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

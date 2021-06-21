@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"b009175f2a2a9d38115e319a6ad64d7f:266","type":"sequence"}]
+ * @Groups [{"id":"b009175f2a2a9d38115e319a6ad64d7f:427","type":"sequence","children":[{"id":"b009175f2a2a9d38115e319a6ad64d7f:428","type":"choice"}]}]
  */
 class ResellerDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,12 +18,21 @@ class ResellerDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRe
     /**
      * @ElementName resellerId
      * @Type string
-     * @Group b009175f2a2a9d38115e319a6ad64d7f:266
+     * @Group b009175f2a2a9d38115e319a6ad64d7f:428
      * @MinLength 1
-     * @MaxLength 30
+     * @MaxLength 36
      * @var string|null
      */
     private $resellerId = null;
+
+    /**
+     * @ElementName resellerExternalId
+     * @Type string
+     * @Group b009175f2a2a9d38115e319a6ad64d7f:428
+     * @MaxLength 36
+     * @var string|null
+     */
+    private $resellerExternalId = null;
 
     /**
      * Getter for resellerId
@@ -53,6 +62,37 @@ class ResellerDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRe
     public function unsetResellerId()
     {
         $this->resellerId = null;
+        return $this;
+    }
+
+    /**
+     * Getter for resellerExternalId
+     *
+     * @return string
+     */
+    public function getResellerExternalId()
+    {
+        return $this->resellerExternalId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->resellerExternalId;
+    }
+
+    /**
+     * Setter for resellerExternalId
+     *
+     * @param string $resellerExternalId
+     * @return $this
+     */
+    public function setResellerExternalId($resellerExternalId)
+    {
+        $this->resellerExternalId = $resellerExternalId;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetResellerExternalId()
+    {
+        $this->resellerExternalId = null;
         return $this;
     }
 

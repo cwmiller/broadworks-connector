@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupCallCenterGetAnnouncementRequest
  *
  * Get a call center's announcement settings.
- *                 The response is either a GroupCallCenterGetAnnouncementResponse or an ErrorResponse.
+ *         The response is either a GroupCallCenterGetAnnouncementResponse or an ErrorResponse.
  *
  * @see GroupCallCenterGetAnnouncementResponse
  * @see ErrorResponse
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:849","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:5040","type":"sequence"}]
  */
 class GroupCallCenterGetAnnouncementRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupCallCenterGetAnnouncementRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:849
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:5040
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

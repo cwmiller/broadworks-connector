@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemInCallServiceActivationGetResponse
  *
  * Response to SystemInCallServiceActivationGetRequest.
- *                 Replaced by: SystemInCallServiceActivationGetResponse17
+ *           Replaced by: SystemInCallServiceActivationGetResponse17
  *
  * @see SystemInCallServiceActivationGetRequest
  * @see SystemInCallServiceActivationGetResponse17
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:15564","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:27319","type":"sequence"}]
  */
 class SystemInCallServiceActivationGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class SystemInCallServiceActivationGetResponse extends \CWM\BroadWorksConnector\
     /**
      * @ElementName defaultActivationDigits
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:15564
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:27319
      * @MinLength 1
      * @MaxLength 8
      * @var string|null

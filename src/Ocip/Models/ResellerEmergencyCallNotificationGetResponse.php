@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to ResellerEmergencyCallNotificationGetRequest.
  *
  * @see ResellerEmergencyCallNotificationGetRequest
- * @Groups [{"id":"b009175f2a2a9d38115e319a6ad64d7f:298","type":"sequence"}]
+ * @Groups [{"id":"b009175f2a2a9d38115e319a6ad64d7f:514","type":"sequence"}]
  */
 class ResellerEmergencyCallNotificationGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class ResellerEmergencyCallNotificationGetResponse extends \CWM\BroadWorksConnec
      * @ElementName defaultFromAddress
      * @Type string
      * @Optional
-     * @Group b009175f2a2a9d38115e319a6ad64d7f:298
+     * @Group b009175f2a2a9d38115e319a6ad64d7f:514
      * @MinLength 1
      * @MaxLength 80
      * @var string|null

@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupRoutePointHolidayServiceGetResponse20
  * @see ErrorResponse
- * @Groups [{"id":"a27224a048c30ff69eab9209dec841cc:703","type":"sequence"}]
+ * @Groups [{"id":"a27224a048c30ff69eab9209dec841cc:654","type":"sequence"}]
  */
 class GroupRoutePointHolidayServiceGetRequest20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupRoutePointHolidayServiceGetRequest20 extends \CWM\BroadWorksConnector
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group a27224a048c30ff69eab9209dec841cc:703
+     * @Group a27224a048c30ff69eab9209dec841cc:654
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

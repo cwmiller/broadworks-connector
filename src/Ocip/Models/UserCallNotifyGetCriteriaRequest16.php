@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see UserCallNotifyGetCriteriaResponse16
  * @see ErrorResponse
  * @see UserCallNotifyGetCriteriaRequest21
- * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:3457","type":"sequence"}]
+ * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:12689","type":"sequence"}]
  */
 class UserCallNotifyGetCriteriaRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class UserCallNotifyGetCriteriaRequest16 extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName userId
      * @Type string
-     * @Group de4d76f01f337fe4694212ec9f771753:3457
+     * @Group de4d76f01f337fe4694212ec9f771753:12689
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -30,7 +30,7 @@ class UserCallNotifyGetCriteriaRequest16 extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName criteriaName
      * @Type string
-     * @Group de4d76f01f337fe4694212ec9f771753:3457
+     * @Group de4d76f01f337fe4694212ec9f771753:12689
      * @MinLength 1
      * @MaxLength 50
      * @var string|null

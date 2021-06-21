@@ -7,9 +7,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to UserMeetMeConferencingAddConferenceRequest19.
  *         Contains the information of a conference.
+ *         
+ *         Replaced by: UserMeetMeConferencingAddConferenceResponse23
  *
  * @see UserMeetMeConferencingAddConferenceRequest19
- * @Groups [{"id":"0fd24121d16995c994d40bc408dbcfa5:539","type":"sequence"}]
+ * @see UserMeetMeConferencingAddConferenceResponse23
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:45052","type":"sequence"}]
  */
 class UserMeetMeConferencingAddConferenceResponse19 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +20,7 @@ class UserMeetMeConferencingAddConferenceResponse19 extends \CWM\BroadWorksConne
     /**
      * @ElementName conferenceId
      * @Type string
-     * @Group 0fd24121d16995c994d40bc408dbcfa5:539
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:45052
      * @MinLength 6
      * @MaxLength 12
      * @var string|null
@@ -27,7 +30,7 @@ class UserMeetMeConferencingAddConferenceResponse19 extends \CWM\BroadWorksConne
     /**
      * @ElementName moderatorPin
      * @Type string
-     * @Group 0fd24121d16995c994d40bc408dbcfa5:539
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:45052
      * @MinLength 6
      * @MaxLength 12
      * @var string|null
@@ -38,7 +41,7 @@ class UserMeetMeConferencingAddConferenceResponse19 extends \CWM\BroadWorksConne
      * @ElementName securityPin
      * @Type string
      * @Optional
-     * @Group 0fd24121d16995c994d40bc408dbcfa5:539
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:45052
      * @MinLength 4
      * @MaxLength 12
      * @var string|null

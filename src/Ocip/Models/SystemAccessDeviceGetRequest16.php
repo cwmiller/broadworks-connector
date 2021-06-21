@@ -6,14 +6,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemAccessDeviceGetRequest16
  *
  * Requests the configuration of a specified system access device.
- *                 The response is either SystemAccessDeviceGetResponse16 or ErrorResponse.
- *
- *                 Replaced by: SystemAccessDeviceGetRequest19
+ *         The response is either SystemAccessDeviceGetResponse16 or ErrorResponse.
+ *         
+ *         Replaced by: SystemAccessDeviceGetRequest19
  *
  * @see SystemAccessDeviceGetResponse16
  * @see ErrorResponse
  * @see SystemAccessDeviceGetRequest19
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:25846","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:19587","type":"sequence"}]
  */
 class SystemAccessDeviceGetRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,7 +21,7 @@ class SystemAccessDeviceGetRequest16 extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName deviceName
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:25846
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:19587
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

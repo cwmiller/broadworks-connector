@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see ResellerCallAdmissionControlPoliciesGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"b009175f2a2a9d38115e319a6ad64d7f:205","type":"sequence"}]
+ * @Groups [{"id":"b009175f2a2a9d38115e319a6ad64d7f:311","type":"sequence"}]
  */
 class ResellerCallAdmissionControlPoliciesGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,9 +18,9 @@ class ResellerCallAdmissionControlPoliciesGetRequest extends \CWM\BroadWorksConn
     /**
      * @ElementName resellerId
      * @Type string
-     * @Group b009175f2a2a9d38115e319a6ad64d7f:205
+     * @Group b009175f2a2a9d38115e319a6ad64d7f:311
      * @MinLength 1
-     * @MaxLength 30
+     * @MaxLength 36
      * @var string|null
      */
     private $resellerId = null;

@@ -6,9 +6,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupExtensionLengthGetResponse17
  *
  * Response to GroupExtensionLengthGetRequest17.
+ *         
+ *         Replaced by: GroupExtensionLengthGetResponse22 in AS data mode
  *
  * @see GroupExtensionLengthGetRequest17
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:4855","type":"sequence"}]
+ * @see GroupExtensionLengthGetResponse22
+ * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:2285","type":"sequence"}]
  */
 class GroupExtensionLengthGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +19,7 @@ class GroupExtensionLengthGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName minExtensionLength
      * @Type int
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4855
+     * @Group de4d76f01f337fe4694212ec9f771753:2285
      * @MinInclusive 2
      * @MaxInclusive 20
      * @var int|null
@@ -26,7 +29,7 @@ class GroupExtensionLengthGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName maxExtensionLength
      * @Type int
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4855
+     * @Group de4d76f01f337fe4694212ec9f771753:2285
      * @MinInclusive 2
      * @MaxInclusive 20
      * @var int|null
@@ -36,7 +39,7 @@ class GroupExtensionLengthGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName defaultExtensionLength
      * @Type int
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4855
+     * @Group de4d76f01f337fe4694212ec9f771753:2285
      * @MinInclusive 2
      * @MaxInclusive 20
      * @var int|null

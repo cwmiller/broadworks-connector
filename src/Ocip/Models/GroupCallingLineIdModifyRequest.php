@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupCallingLineIdModifyRequest
  *
  * Modify the calling line id settings for a group.
- *                 The response is either a SuccessResponse or an ErrorResponse.
+ *         The response is either a SuccessResponse or an ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:1183","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:7365","type":"sequence"}]
  */
 class GroupCallingLineIdModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupCallingLineIdModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:1183
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:7365
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +28,7 @@ class GroupCallingLineIdModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName groupId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:1183
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:7365
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -39,7 +39,7 @@ class GroupCallingLineIdModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName useGroupNumber
      * @Type bool
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:1183
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:7365
      * @var bool|null
      */
     private $useGroupNumber = null;
@@ -48,7 +48,7 @@ class GroupCallingLineIdModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName useGroupName
      * @Type bool
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:1183
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:7365
      * @var bool|null
      */
     private $useGroupName = null;
@@ -58,7 +58,7 @@ class GroupCallingLineIdModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Type string
      * @Nillable
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:1183
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:7365
      * @MinLength 1
      * @MaxLength 23
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil

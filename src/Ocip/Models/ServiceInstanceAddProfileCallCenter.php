@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Service Profile Information for a call center.
  *         Password is required.
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:3538","type":"sequence"}]
+ * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:4188","type":"sequence"}]
  */
 class ServiceInstanceAddProfileCallCenter
 {
@@ -16,7 +16,7 @@ class ServiceInstanceAddProfileCallCenter
     /**
      * @ElementName name
      * @Type string
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3538
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:4188
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -26,7 +26,7 @@ class ServiceInstanceAddProfileCallCenter
     /**
      * @ElementName callingLineIdLastName
      * @Type string
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3538
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:4188
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -36,7 +36,7 @@ class ServiceInstanceAddProfileCallCenter
     /**
      * @ElementName callingLineIdFirstName
      * @Type string
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3538
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:4188
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -47,7 +47,7 @@ class ServiceInstanceAddProfileCallCenter
      * @ElementName hiraganaLastName
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3538
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:4188
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -58,7 +58,7 @@ class ServiceInstanceAddProfileCallCenter
      * @ElementName hiraganaFirstName
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3538
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:4188
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -69,7 +69,7 @@ class ServiceInstanceAddProfileCallCenter
      * @ElementName phoneNumber
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3538
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:4188
      * @MinLength 1
      * @MaxLength 23
      * @var string|null
@@ -80,7 +80,7 @@ class ServiceInstanceAddProfileCallCenter
      * @ElementName extension
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3538
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:4188
      * @MinLength 2
      * @MaxLength 20
      * @var string|null
@@ -90,7 +90,7 @@ class ServiceInstanceAddProfileCallCenter
     /**
      * @ElementName password
      * @Type string
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3538
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:4188
      * @MinLength 1
      * @MaxLength 60
      * @var string|null
@@ -102,7 +102,7 @@ class ServiceInstanceAddProfileCallCenter
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey
      * @Abstract \CWM\BroadWorksConnector\Ocip\Models\EnterpriseDepartmentKey,\CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentKey
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3538
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:4188
      * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null
      */
     private $department = null;
@@ -111,7 +111,7 @@ class ServiceInstanceAddProfileCallCenter
      * @ElementName language
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3538
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:4188
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -122,7 +122,7 @@ class ServiceInstanceAddProfileCallCenter
      * @ElementName timeZone
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3538
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:4188
      * @MinLength 1
      * @MaxLength 127
      * @var string|null
@@ -134,7 +134,7 @@ class ServiceInstanceAddProfileCallCenter
      * @Type string
      * @Array
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3538
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:4188
      * @MinLength 1
      * @MaxLength 161
      * @var string[]
@@ -147,7 +147,7 @@ class ServiceInstanceAddProfileCallCenter
      * @ElementName publicUserIdentity
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3538
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:4188
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -158,7 +158,7 @@ class ServiceInstanceAddProfileCallCenter
      * @ElementName callingLineIdPhoneNumber
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3538
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:4188
      * @MinLength 1
      * @MaxLength 23
      * @var string|null

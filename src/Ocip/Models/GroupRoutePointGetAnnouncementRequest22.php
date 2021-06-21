@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupRoutePointGetAnnouncementResponse22
  * @see ErrorResponse
- * @Groups [{"id":"a27224a048c30ff69eab9209dec841cc:381","type":"sequence"}]
+ * @Groups [{"id":"a27224a048c30ff69eab9209dec841cc:357","type":"sequence"}]
  */
 class GroupRoutePointGetAnnouncementRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupRoutePointGetAnnouncementRequest22 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group a27224a048c30ff69eab9209dec841cc:381
+     * @Group a27224a048c30ff69eab9209dec841cc:357
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

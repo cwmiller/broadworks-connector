@@ -7,10 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Request to modify a specified service provider access device.
  *         The response is either SuccessResponse or ErrorResponse.
+ *         The following elements are only used in AS data mode and ignored in XS data mode: 
+ *          useHotline          
+ *          hotlineContact
+ *          deviceExternalId
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:697","type":"sequence"}]
+ * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:4980","type":"sequence","children":[{"id":"de4d76f01f337fe4694212ec9f771753:4981","type":"choice","children":[{"id":"de4d76f01f337fe4694212ec9f771753:4982","type":"sequence"}]}]}]
  */
 class ServiceProviderAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +22,7 @@ class ServiceProviderAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnecto
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:697
+     * @Group de4d76f01f337fe4694212ec9f771753:4982
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +32,7 @@ class ServiceProviderAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnecto
     /**
      * @ElementName deviceName
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:697
+     * @Group de4d76f01f337fe4694212ec9f771753:4982
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -36,10 +40,19 @@ class ServiceProviderAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnecto
     private $deviceName = null;
 
     /**
+     * @ElementName deviceExternalId
+     * @Type string
+     * @Group de4d76f01f337fe4694212ec9f771753:4981
+     * @MaxLength 36
+     * @var string|null
+     */
+    private $deviceExternalId = null;
+
+    /**
      * @ElementName protocol
      * @Type string
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:697
+     * @Group de4d76f01f337fe4694212ec9f771753:4980
      * @MinLength 1
      * @MaxLength 20
      * @var string|null
@@ -51,7 +64,7 @@ class ServiceProviderAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnecto
      * @Type string
      * @Nillable
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:697
+     * @Group de4d76f01f337fe4694212ec9f771753:4980
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -63,7 +76,7 @@ class ServiceProviderAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnecto
      * @Type int
      * @Nillable
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:697
+     * @Group de4d76f01f337fe4694212ec9f771753:4980
      * @MinInclusive 1025
      * @MaxInclusive 65535
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -75,7 +88,7 @@ class ServiceProviderAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnecto
      * @Type string
      * @Nillable
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:697
+     * @Group de4d76f01f337fe4694212ec9f771753:4980
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -87,7 +100,7 @@ class ServiceProviderAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnecto
      * @Type string
      * @Nillable
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:697
+     * @Group de4d76f01f337fe4694212ec9f771753:4980
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -99,7 +112,7 @@ class ServiceProviderAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnecto
      * @Type string
      * @Nillable
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:697
+     * @Group de4d76f01f337fe4694212ec9f771753:4980
      * @MinLength 1
      * @MaxLength 12
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -111,7 +124,7 @@ class ServiceProviderAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnecto
      * @Type string
      * @Nillable
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:697
+     * @Group de4d76f01f337fe4694212ec9f771753:4980
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -123,7 +136,7 @@ class ServiceProviderAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnecto
      * @Type string
      * @Nillable
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:697
+     * @Group de4d76f01f337fe4694212ec9f771753:4980
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -135,7 +148,7 @@ class ServiceProviderAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnecto
      * @Type string
      * @Nillable
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:697
+     * @Group de4d76f01f337fe4694212ec9f771753:4980
      * @MinLength 1
      * @MaxLength 1024
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -144,10 +157,10 @@ class ServiceProviderAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnecto
 
     /**
      * @ElementName transportProtocol
-     * @Type \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedTransportProtocol
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:697
-     * @var \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol|null
+     * @Group de4d76f01f337fe4694212ec9f771753:4980
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedTransportProtocol|null
      */
     private $transportProtocol = null;
 
@@ -155,7 +168,7 @@ class ServiceProviderAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnecto
      * @ElementName mobilityManagerProvisioningURL
      * @Type string
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:697
+     * @Group de4d76f01f337fe4694212ec9f771753:4980
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -166,7 +179,7 @@ class ServiceProviderAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnecto
      * @ElementName mobilityManagerProvisioningUserName
      * @Type string
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:697
+     * @Group de4d76f01f337fe4694212ec9f771753:4980
      * @MinLength 1
      * @MaxLength 15
      * @var string|null
@@ -177,7 +190,7 @@ class ServiceProviderAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnecto
      * @ElementName mobilityManagerProvisioningPassword
      * @Type string
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:697
+     * @Group de4d76f01f337fe4694212ec9f771753:4980
      * @MinLength 1
      * @MaxLength 15
      * @var string|null
@@ -189,7 +202,7 @@ class ServiceProviderAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnecto
      * @Type int
      * @Nillable
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:697
+     * @Group de4d76f01f337fe4694212ec9f771753:4980
      * @MinInclusive 0
      * @MaxInclusive 999
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -201,7 +214,7 @@ class ServiceProviderAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnecto
      * @Type int
      * @Nillable
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:697
+     * @Group de4d76f01f337fe4694212ec9f771753:4980
      * @MinInclusive 0
      * @MaxInclusive 999
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -212,7 +225,7 @@ class ServiceProviderAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnecto
      * @ElementName useCustomUserNamePassword
      * @Type bool
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:697
+     * @Group de4d76f01f337fe4694212ec9f771753:4980
      * @var bool|null
      */
     private $useCustomUserNamePassword = null;
@@ -222,10 +235,31 @@ class ServiceProviderAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnecto
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementUserNamePassword16
      * @Nillable
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:697
+     * @Group de4d76f01f337fe4694212ec9f771753:4980
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementUserNamePassword16|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $accessDeviceCredentials = null;
+
+    /**
+     * @ElementName useHotline
+     * @Type bool
+     * @Optional
+     * @Group de4d76f01f337fe4694212ec9f771753:4980
+     * @var bool|null
+     */
+    private $useHotline = null;
+
+    /**
+     * @ElementName hotlineContact
+     * @Type string
+     * @Nillable
+     * @Optional
+     * @Group de4d76f01f337fe4694212ec9f771753:4980
+     * @MinLength 1
+     * @MaxLength 161
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     */
+    private $hotlineContact = null;
 
     /**
      * Getter for serviceProviderId
@@ -286,6 +320,37 @@ class ServiceProviderAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnecto
     public function unsetDeviceName()
     {
         $this->deviceName = null;
+        return $this;
+    }
+
+    /**
+     * Getter for deviceExternalId
+     *
+     * @return string
+     */
+    public function getDeviceExternalId()
+    {
+        return $this->deviceExternalId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->deviceExternalId;
+    }
+
+    /**
+     * Setter for deviceExternalId
+     *
+     * @param string $deviceExternalId
+     * @return $this
+     */
+    public function setDeviceExternalId($deviceExternalId)
+    {
+        $this->deviceExternalId = $deviceExternalId;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDeviceExternalId()
+    {
+        $this->deviceExternalId = null;
         return $this;
     }
 
@@ -603,7 +668,7 @@ class ServiceProviderAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnecto
     /**
      * Getter for transportProtocol
      *
-     * @return \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ExtendedTransportProtocol
      */
     public function getTransportProtocol()
     {
@@ -613,10 +678,10 @@ class ServiceProviderAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnecto
     /**
      * Setter for transportProtocol
      *
-     * @param \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol $transportProtocol
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ExtendedTransportProtocol $transportProtocol
      * @return $this
      */
-    public function setTransportProtocol(\CWM\BroadWorksConnector\Ocip\Models\TransportProtocol $transportProtocol)
+    public function setTransportProtocol(\CWM\BroadWorksConnector\Ocip\Models\ExtendedTransportProtocol $transportProtocol)
     {
         $this->transportProtocol = $transportProtocol;
         return $this;
@@ -857,6 +922,72 @@ class ServiceProviderAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnecto
     public function unsetAccessDeviceCredentials()
     {
         $this->accessDeviceCredentials = null;
+        return $this;
+    }
+
+    /**
+     * Getter for useHotline
+     *
+     * @return bool
+     */
+    public function getUseHotline()
+    {
+        return $this->useHotline instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->useHotline;
+    }
+
+    /**
+     * Setter for useHotline
+     *
+     * @param bool $useHotline
+     * @return $this
+     */
+    public function setUseHotline($useHotline)
+    {
+        $this->useHotline = $useHotline;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetUseHotline()
+    {
+        $this->useHotline = null;
+        return $this;
+    }
+
+    /**
+     * Getter for hotlineContact
+     *
+     * @return string|null
+     */
+    public function getHotlineContact()
+    {
+        return $this->hotlineContact instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->hotlineContact;
+    }
+
+    /**
+     * Setter for hotlineContact
+     *
+     * @param string|null $hotlineContact
+     * @return $this
+     */
+    public function setHotlineContact($hotlineContact = null)
+    {
+        if ($hotlineContact === null) {
+            $this->hotlineContact = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->hotlineContact = $hotlineContact;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetHotlineContact()
+    {
+        $this->hotlineContact = null;
         return $this;
     }
 

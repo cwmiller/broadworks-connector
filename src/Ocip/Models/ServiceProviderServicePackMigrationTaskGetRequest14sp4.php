@@ -14,7 +14,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see ServiceProviderServicePackMigrationTaskGetResponse14sp4
  * @see ErrorResponse
  * @see ServiceProviderServicePackMigrationTaskGetRequest21
- * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:2874","type":"sequence"}]
+ * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:6272","type":"sequence"}]
  */
 class ServiceProviderServicePackMigrationTaskGetRequest14sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -22,7 +22,7 @@ class ServiceProviderServicePackMigrationTaskGetRequest14sp4 extends \CWM\BroadW
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group de4d76f01f337fe4694212ec9f771753:2874
+     * @Group de4d76f01f337fe4694212ec9f771753:6272
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -32,7 +32,7 @@ class ServiceProviderServicePackMigrationTaskGetRequest14sp4 extends \CWM\BroadW
     /**
      * @ElementName taskName
      * @Type string
-     * @Group de4d76f01f337fe4694212ec9f771753:2874
+     * @Group de4d76f01f337fe4694212ec9f771753:6272
      * @MinLength 1
      * @MaxLength 80
      * @var string|null

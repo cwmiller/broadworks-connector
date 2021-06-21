@@ -8,10 +8,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request to get the configuration for a call processing policy profile Flexible Seating Host subscriber type profile.
  *         The response is either a SystemCallProcessingPolicyProfileFlexibleSeatingHostProfileGetResponse or an
  *         ErrorResponse.
+ *         
+ *         Replaced by: SystemCallProcessingPolicyProfileFlexibleSeatingHostProfileGetRequest22V2
  *
  * @see SystemCallProcessingPolicyProfileFlexibleSeatingHostProfileGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:3411","type":"sequence"}]
+ * @see SystemCallProcessingPolicyProfileFlexibleSeatingHostProfileGetRequest22V2
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:22864","type":"sequence"}]
  */
 class SystemCallProcessingPolicyProfileFlexibleSeatingHostProfileGetRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +22,7 @@ class SystemCallProcessingPolicyProfileFlexibleSeatingHostProfileGetRequest22 ex
     /**
      * @ElementName callProcessingPolicyProfileName
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:3411
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:22864
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

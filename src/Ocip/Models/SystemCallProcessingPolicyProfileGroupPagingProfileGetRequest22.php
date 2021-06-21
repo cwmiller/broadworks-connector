@@ -6,12 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemCallProcessingPolicyProfileGroupPagingProfileGetRequest22
  *
  * Request to get the configuration for a call processing policy profile Group Paging subscriber type profile.
- *         The response is either a SystemCallProcessingPolicyProfileGroupPagingProfileGetResponse22 or an
- *         ErrorResponse.
+ *         The response is either a SystemCallProcessingPolicyProfileGroupPagingProfileGetResponse22 or an ErrorResponse.
  *
  * @see SystemCallProcessingPolicyProfileGroupPagingProfileGetResponse22
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:3619","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:4042","type":"sequence"}]
  */
 class SystemCallProcessingPolicyProfileGroupPagingProfileGetRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +18,7 @@ class SystemCallProcessingPolicyProfileGroupPagingProfileGetRequest22 extends \C
     /**
      * @ElementName callProcessingPolicyProfileName
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:3619
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:4042
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

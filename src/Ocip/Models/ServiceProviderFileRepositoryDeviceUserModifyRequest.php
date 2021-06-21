@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:3613","type":"sequence"}]
+ * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:4325","type":"sequence"}]
  */
 class ServiceProviderFileRepositoryDeviceUserModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class ServiceProviderFileRepositoryDeviceUserModifyRequest extends \CWM\BroadWor
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3613
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4325
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +28,7 @@ class ServiceProviderFileRepositoryDeviceUserModifyRequest extends \CWM\BroadWor
     /**
      * @ElementName fileRepositoryName
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3613
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4325
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -38,7 +38,7 @@ class ServiceProviderFileRepositoryDeviceUserModifyRequest extends \CWM\BroadWor
     /**
      * @ElementName userName
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3613
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4325
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -49,7 +49,7 @@ class ServiceProviderFileRepositoryDeviceUserModifyRequest extends \CWM\BroadWor
      * @ElementName password
      * @Type string
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3613
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4325
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -60,7 +60,7 @@ class ServiceProviderFileRepositoryDeviceUserModifyRequest extends \CWM\BroadWor
      * @ElementName allowPut
      * @Type bool
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3613
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4325
      * @var bool|null
      */
     private $allowPut = null;
@@ -69,7 +69,7 @@ class ServiceProviderFileRepositoryDeviceUserModifyRequest extends \CWM\BroadWor
      * @ElementName allowDelete
      * @Type bool
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3613
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4325
      * @var bool|null
      */
     private $allowDelete = null;
@@ -78,7 +78,7 @@ class ServiceProviderFileRepositoryDeviceUserModifyRequest extends \CWM\BroadWor
      * @ElementName allowGet
      * @Type bool
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3613
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4325
      * @var bool|null
      */
     private $allowGet = null;

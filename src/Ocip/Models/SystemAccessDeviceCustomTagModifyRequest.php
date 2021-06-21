@@ -14,7 +14,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:749","type":"sequence","children":[{"id":"7f663d5135470c33ca64b0eed3c3aa0c:752","type":"choice"}]}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:844","type":"sequence","children":[{"id":"7f663d5135470c33ca64b0eed3c3aa0c:847","type":"choice"}]}]
  */
 class SystemAccessDeviceCustomTagModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -22,7 +22,7 @@ class SystemAccessDeviceCustomTagModifyRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName deviceName
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:749
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:844
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -32,7 +32,7 @@ class SystemAccessDeviceCustomTagModifyRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName tagName
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:749
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:844
      * @MinLength 1
      * @MaxLength 64
      * @var string|null
@@ -44,7 +44,7 @@ class SystemAccessDeviceCustomTagModifyRequest extends \CWM\BroadWorksConnector\
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:752
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:847
      * @MinLength 1
      * @MaxLength 256
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -56,7 +56,7 @@ class SystemAccessDeviceCustomTagModifyRequest extends \CWM\BroadWorksConnector\
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:752
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:847
      * @MinLength 1
      * @MaxLength 256
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil

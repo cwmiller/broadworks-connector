@@ -20,7 +20,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see macInNonRequest
  * @see macFormatInNonRequest
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:2034","type":"sequence"}]
+ * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:2242","type":"sequence"}]
  */
 class DeviceManagementDeviceTypeOptionsRead22V2
 {
@@ -28,7 +28,7 @@ class DeviceManagementDeviceTypeOptionsRead22V2
     /**
      * @ElementName deviceAccessProtocol
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DeviceAccessProtocol22
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:2034
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:2242
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceAccessProtocol22|null
      */
     private $deviceAccessProtocol = null;
@@ -36,7 +36,7 @@ class DeviceManagementDeviceTypeOptionsRead22V2
     /**
      * @ElementName tagMode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementTagMode
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:2034
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:2242
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementTagMode|null
      */
     private $tagMode = null;
@@ -45,7 +45,7 @@ class DeviceManagementDeviceTypeOptionsRead22V2
      * @ElementName tagSet
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:2034
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:2242
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -55,7 +55,7 @@ class DeviceManagementDeviceTypeOptionsRead22V2
     /**
      * @ElementName allowDeviceProfileCustomTagSet
      * @Type bool
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:2034
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:2242
      * @var bool|null
      */
     private $allowDeviceProfileCustomTagSet = null;
@@ -63,7 +63,7 @@ class DeviceManagementDeviceTypeOptionsRead22V2
     /**
      * @ElementName allowGroupCustomTagSet
      * @Type bool
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:2034
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:2242
      * @var bool|null
      */
     private $allowGroupCustomTagSet = null;
@@ -71,7 +71,7 @@ class DeviceManagementDeviceTypeOptionsRead22V2
     /**
      * @ElementName allowSpCustomTagSet
      * @Type bool
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:2034
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:2242
      * @var bool|null
      */
     private $allowSpCustomTagSet = null;
@@ -79,7 +79,7 @@ class DeviceManagementDeviceTypeOptionsRead22V2
     /**
      * @ElementName sendEmailUponResetFailure
      * @Type bool
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:2034
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:2242
      * @var bool|null
      */
     private $sendEmailUponResetFailure = null;
@@ -88,7 +88,7 @@ class DeviceManagementDeviceTypeOptionsRead22V2
      * @ElementName deviceAccessNetAddress
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:2034
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:2242
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -99,7 +99,7 @@ class DeviceManagementDeviceTypeOptionsRead22V2
      * @ElementName deviceAccessPort
      * @Type int
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:2034
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:2242
      * @MinInclusive 1
      * @MaxInclusive 65535
      * @var int|null
@@ -110,7 +110,7 @@ class DeviceManagementDeviceTypeOptionsRead22V2
      * @ElementName deviceAccessContext
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:2034
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:2242
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -121,7 +121,7 @@ class DeviceManagementDeviceTypeOptionsRead22V2
      * @ElementName deviceAccessURI
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:2034
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:2242
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -132,7 +132,7 @@ class DeviceManagementDeviceTypeOptionsRead22V2
      * @ElementName defaultDeviceLanguage
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:2034
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:2242
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -143,7 +143,7 @@ class DeviceManagementDeviceTypeOptionsRead22V2
      * @ElementName defaultDeviceEncoding
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:2034
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:2242
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -154,7 +154,7 @@ class DeviceManagementDeviceTypeOptionsRead22V2
      * @ElementName accessDeviceCredentials
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:2034
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:2242
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -164,7 +164,7 @@ class DeviceManagementDeviceTypeOptionsRead22V2
     /**
      * @ElementName useHttpDigestAuthentication
      * @Type bool
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:2034
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:2242
      * @var bool|null
      */
     private $useHttpDigestAuthentication = null;
@@ -172,7 +172,7 @@ class DeviceManagementDeviceTypeOptionsRead22V2
     /**
      * @ElementName macBasedFileAuthentication
      * @Type bool
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:2034
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:2242
      * @var bool|null
      */
     private $macBasedFileAuthentication = null;
@@ -180,7 +180,7 @@ class DeviceManagementDeviceTypeOptionsRead22V2
     /**
      * @ElementName userNamePasswordFileAuthentication
      * @Type bool
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:2034
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:2242
      * @var bool|null
      */
     private $userNamePasswordFileAuthentication = null;
@@ -188,7 +188,7 @@ class DeviceManagementDeviceTypeOptionsRead22V2
     /**
      * @ElementName macInNonRequestURI
      * @Type bool
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:2034
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:2242
      * @var bool|null
      */
     private $macInNonRequestURI = null;
@@ -196,7 +196,7 @@ class DeviceManagementDeviceTypeOptionsRead22V2
     /**
      * @ElementName macInCert
      * @Type bool
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:2034
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:2242
      * @var bool|null
      */
     private $macInCert = null;
@@ -205,7 +205,7 @@ class DeviceManagementDeviceTypeOptionsRead22V2
      * @ElementName macFormatInNonRequestURI
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:2034
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:2242
      * @MinLength 1
      * @MaxLength 256
      * @var string|null

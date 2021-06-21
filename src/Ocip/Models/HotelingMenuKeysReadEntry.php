@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * The voice portal hoteling menu keys.
  *
- * @Groups [{"id":"3347d430e0d5c93a9ff8dcf0e3b60d6c:2763","type":"sequence"}]
+ * @Groups [{"id":"3347d430e0d5c93a9ff8dcf0e3b60d6c:2691","type":"sequence"}]
  */
 class HotelingMenuKeysReadEntry
 {
@@ -16,7 +16,7 @@ class HotelingMenuKeysReadEntry
      * @ElementName checkHostStatus
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2763
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2691
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -27,7 +27,7 @@ class HotelingMenuKeysReadEntry
      * @ElementName associateWithHost
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2763
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2691
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -38,7 +38,7 @@ class HotelingMenuKeysReadEntry
      * @ElementName disassociateFromHost
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2763
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2691
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -49,7 +49,7 @@ class HotelingMenuKeysReadEntry
      * @ElementName disassociateFromRemoteHost
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2763
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2691
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -59,7 +59,7 @@ class HotelingMenuKeysReadEntry
     /**
      * @ElementName returnToPreviousMenu
      * @Type string
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2763
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2691
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -70,7 +70,7 @@ class HotelingMenuKeysReadEntry
      * @ElementName repeatMenu
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2763
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2691
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null

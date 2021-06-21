@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Criteria for searching for a particular announcement file type.
  *
- * @Groups [{"id":"f0ada2681ca347fa83b464734259b304:637","type":"sequence"}]
+ * @Groups [{"id":"f0ada2681ca347fa83b464734259b304:696","type":"sequence"}]
  */
 class SearchCriteriaExactAnnouncementFileType extends SearchCriteria
 {
@@ -15,7 +15,7 @@ class SearchCriteriaExactAnnouncementFileType extends SearchCriteria
     /**
      * @ElementName type
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileType
-     * @Group f0ada2681ca347fa83b464734259b304:637
+     * @Group f0ada2681ca347fa83b464734259b304:696
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileType|null
      */
     private $type = null;

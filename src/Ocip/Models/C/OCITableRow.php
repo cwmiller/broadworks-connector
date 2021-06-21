@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models\C;
  *         revisions of the protocol may move or add columns. See the OCITable data type
  *         for more information.
  *
- * @Groups [{"id":"77f32f6c8e214eb5c1a80dedfce1cb56:230","type":"sequence"}]
+ * @Groups [{"id":"77f32f6c8e214eb5c1a80dedfce1cb56:253","type":"sequence"}]
  */
 class OCITableRow
 {
@@ -20,7 +20,7 @@ class OCITableRow
      * @ElementName col
      * @Type string
      * @Array
-     * @Group 77f32f6c8e214eb5c1a80dedfce1cb56:230
+     * @Group 77f32f6c8e214eb5c1a80dedfce1cb56:253
      * @var string[]
      */
     private $col = array(

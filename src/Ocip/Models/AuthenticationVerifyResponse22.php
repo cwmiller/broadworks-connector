@@ -6,12 +6,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * AuthenticationVerifyResponse22
  *
  * Response to AuthenticationVerifyRequest22
- *                 If a phoneNumber is returned, it will be the primary DN of the user
- *                 Replaced by AuthenticationVerifyResponse22V2.
+ *         If a phoneNumber is returned, it will be the primary DN of the user
+ *         Replaced by AuthenticationVerifyResponse22V2.
  *
  * @see AuthenticationVerifyRequest22
  * @see AuthenticationVerifyResponse22V2
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:40782","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:1312","type":"sequence"}]
  */
 class AuthenticationVerifyResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,7 +19,7 @@ class AuthenticationVerifyResponse22 extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName loginType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LoginType22
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:40782
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:1312
      * @var \CWM\BroadWorksConnector\Ocip\Models\LoginType22|null
      */
     private $loginType = null;
@@ -27,7 +27,7 @@ class AuthenticationVerifyResponse22 extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName locale
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:40782
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:1312
      * @MaxLength 5
      * @var string|null
      */
@@ -36,7 +36,7 @@ class AuthenticationVerifyResponse22 extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName encoding
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:40782
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:1312
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -47,7 +47,7 @@ class AuthenticationVerifyResponse22 extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName groupId
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:40782
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:1312
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -58,7 +58,7 @@ class AuthenticationVerifyResponse22 extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName serviceProviderId
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:40782
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:1312
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -68,7 +68,7 @@ class AuthenticationVerifyResponse22 extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName isEnterprise
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:40782
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:1312
      * @var bool|null
      */
     private $isEnterprise = null;
@@ -77,7 +77,7 @@ class AuthenticationVerifyResponse22 extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName passwordExpiresDays
      * @Type int
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:40782
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:1312
      * @var int|null
      */
     private $passwordExpiresDays = null;
@@ -86,7 +86,7 @@ class AuthenticationVerifyResponse22 extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName lastName
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:40782
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:1312
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -97,7 +97,7 @@ class AuthenticationVerifyResponse22 extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName firstName
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:40782
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:1312
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -107,7 +107,7 @@ class AuthenticationVerifyResponse22 extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName userId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:40782
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:1312
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -118,7 +118,7 @@ class AuthenticationVerifyResponse22 extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName phoneNumber
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:40782
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:1312
      * @MinLength 1
      * @MaxLength 23
      * @var string|null
@@ -129,7 +129,7 @@ class AuthenticationVerifyResponse22 extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName resellerId
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:40782
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:1312
      * @MinLength 1
      * @MaxLength 30
      * @var string|null

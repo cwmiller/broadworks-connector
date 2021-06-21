@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"6f793dfca9bd3d121bb35e0f9cf1cb2e:596","type":"sequence"}]
+ * @Groups [{"id":"6f793dfca9bd3d121bb35e0f9cf1cb2e:597","type":"sequence"}]
  */
 class GroupOutgoingCallingPlanPinholeDigitPlanCallMeNowModifyListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupOutgoingCallingPlanPinholeDigitPlanCallMeNowModifyListRequest extends
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:596
+     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:597
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +28,7 @@ class GroupOutgoingCallingPlanPinholeDigitPlanCallMeNowModifyListRequest extends
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:596
+     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:597
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -39,7 +39,7 @@ class GroupOutgoingCallingPlanPinholeDigitPlanCallMeNowModifyListRequest extends
      * @ElementName groupPermissions
      * @Type \CWM\BroadWorksConnector\Ocip\Models\OutgoingPinholeDigitPlanDigitPatternCallMeNowPermissions
      * @Optional
-     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:596
+     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:597
      * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingPinholeDigitPlanDigitPatternCallMeNowPermissions|null
      */
     private $groupPermissions = null;
@@ -49,7 +49,7 @@ class GroupOutgoingCallingPlanPinholeDigitPlanCallMeNowModifyListRequest extends
      * @Type \CWM\BroadWorksConnector\Ocip\Models\OutgoingPinholeDigitPlanDigitPatternCallMeNowDepartmentPermissionsModify
      * @Array
      * @Optional
-     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:596
+     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:597
      * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingPinholeDigitPlanDigitPatternCallMeNowDepartmentPermissionsModify[]
      */
     private $departmentPermissions = array(

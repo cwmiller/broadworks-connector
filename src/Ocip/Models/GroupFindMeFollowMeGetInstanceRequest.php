@@ -6,13 +6,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupFindMeFollowMeGetInstanceRequest
  *
  * Request to get all the information of a Find-me/Follow-me instance.
- *                 The response is either GroupFindMeFollowMeGetInstanceResponse or ErrorResponse.
- *                 Replaced by: GroupFindMeFollowMeGetInstanceRequest19sp1
+ *         The response is either GroupFindMeFollowMeGetInstanceResponse or ErrorResponse.
+ *         Replaced by: GroupFindMeFollowMeGetInstanceRequest19sp1
  *
  * @see GroupFindMeFollowMeGetInstanceResponse
  * @see ErrorResponse
  * @see GroupFindMeFollowMeGetInstanceRequest19sp1
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:30054","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:9831","type":"sequence"}]
  */
 class GroupFindMeFollowMeGetInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class GroupFindMeFollowMeGetInstanceRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:30054
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:9831
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

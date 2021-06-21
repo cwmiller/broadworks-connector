@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:14468","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:15613","type":"sequence"}]
  */
 class SystemRuntimeDataPublicationModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -22,7 +22,7 @@ class SystemRuntimeDataPublicationModifyRequest extends \CWM\BroadWorksConnector
      * @ElementName enableRuntimeDataSync
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14468
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:15613
      * @var bool|null
      */
     private $enableRuntimeDataSync = null;
@@ -31,7 +31,7 @@ class SystemRuntimeDataPublicationModifyRequest extends \CWM\BroadWorksConnector
      * @ElementName runtimeDataSyncIntervalInMilliSeconds
      * @Type int
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14468
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:15613
      * @MinInclusive 500
      * @MaxInclusive 360000
      * @var int|null

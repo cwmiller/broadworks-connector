@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         a previously configured list. By convention, an element of this type
  *         may be set nill to clear the list.
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:3206","type":"sequence"}]
+ * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:3821","type":"sequence"}]
  */
 class ReplacementCommunicationBarringAlternateCallIndicatorList
 {
@@ -18,7 +18,7 @@ class ReplacementCommunicationBarringAlternateCallIndicatorList
      * @ElementName alternateCallIndicator
      * @Type string
      * @Array
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3206
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:3821
      * @MinLength 1
      * @MaxLength 40
      * @var string[]

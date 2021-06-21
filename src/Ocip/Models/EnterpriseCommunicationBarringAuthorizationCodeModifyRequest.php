@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"5395c7df0157d44aa22f3351d1a5f3da:613","type":"sequence"}]
+ * @Groups [{"id":"5395c7df0157d44aa22f3351d1a5f3da:614","type":"sequence"}]
  */
 class EnterpriseCommunicationBarringAuthorizationCodeModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class EnterpriseCommunicationBarringAuthorizationCodeModifyRequest extends \CWM\
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:613
+     * @Group 5395c7df0157d44aa22f3351d1a5f3da:614
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +28,7 @@ class EnterpriseCommunicationBarringAuthorizationCodeModifyRequest extends \CWM\
     /**
      * @ElementName code
      * @Type string
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:613
+     * @Group 5395c7df0157d44aa22f3351d1a5f3da:614
      * @MinLength 2
      * @MaxLength 14
      * @var string|null
@@ -40,7 +40,7 @@ class EnterpriseCommunicationBarringAuthorizationCodeModifyRequest extends \CWM\
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:613
+     * @Group 5395c7df0157d44aa22f3351d1a5f3da:614
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -52,7 +52,7 @@ class EnterpriseCommunicationBarringAuthorizationCodeModifyRequest extends \CWM\
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:613
+     * @Group 5395c7df0157d44aa22f3351d1a5f3da:614
      * @MinLength 1
      * @MaxLength 40
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil

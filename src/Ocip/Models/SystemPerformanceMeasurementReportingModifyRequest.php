@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:13319","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:14417","type":"sequence"}]
  */
 class SystemPerformanceMeasurementReportingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class SystemPerformanceMeasurementReportingModifyRequest extends \CWM\BroadWorks
      * @ElementName isActive
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:13319
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14417
      * @var bool|null
      */
     private $isActive = null;
@@ -28,7 +28,7 @@ class SystemPerformanceMeasurementReportingModifyRequest extends \CWM\BroadWorks
      * @ElementName reportingInterval
      * @Type int
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:13319
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14417
      * @MinInclusive 5
      * @MaxInclusive 45000
      * @var int|null
@@ -39,7 +39,7 @@ class SystemPerformanceMeasurementReportingModifyRequest extends \CWM\BroadWorks
      * @ElementName resetMeasurementsAfterEachReport
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:13319
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14417
      * @var bool|null
      */
     private $resetMeasurementsAfterEachReport = null;
@@ -48,7 +48,7 @@ class SystemPerformanceMeasurementReportingModifyRequest extends \CWM\BroadWorks
      * @ElementName reportEnterprise
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:13319
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14417
      * @var bool|null
      */
     private $reportEnterprise = null;
@@ -57,7 +57,7 @@ class SystemPerformanceMeasurementReportingModifyRequest extends \CWM\BroadWorks
      * @ElementName reportServiceProvider
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:13319
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14417
      * @var bool|null
      */
     private $reportServiceProvider = null;
@@ -66,7 +66,7 @@ class SystemPerformanceMeasurementReportingModifyRequest extends \CWM\BroadWorks
      * @ElementName reportDevice
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:13319
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14417
      * @var bool|null
      */
     private $reportDevice = null;
@@ -75,10 +75,19 @@ class SystemPerformanceMeasurementReportingModifyRequest extends \CWM\BroadWorks
      * @ElementName reportTable
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:13319
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14417
      * @var bool|null
      */
     private $reportTable = null;
+
+    /**
+     * @ElementName reportEncoding
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\PerformanceMeasurementReportingEncoding
+     * @Optional
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14417
+     * @var \CWM\BroadWorksConnector\Ocip\Models\PerformanceMeasurementReportingEncoding|null
+     */
+    private $reportEncoding = null;
 
     /**
      * Getter for isActive
@@ -294,6 +303,37 @@ class SystemPerformanceMeasurementReportingModifyRequest extends \CWM\BroadWorks
     public function unsetReportTable()
     {
         $this->reportTable = null;
+        return $this;
+    }
+
+    /**
+     * Getter for reportEncoding
+     *
+     * @return \CWM\BroadWorksConnector\Ocip\Models\PerformanceMeasurementReportingEncoding
+     */
+    public function getReportEncoding()
+    {
+        return $this->reportEncoding instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->reportEncoding;
+    }
+
+    /**
+     * Setter for reportEncoding
+     *
+     * @param \CWM\BroadWorksConnector\Ocip\Models\PerformanceMeasurementReportingEncoding $reportEncoding
+     * @return $this
+     */
+    public function setReportEncoding(\CWM\BroadWorksConnector\Ocip\Models\PerformanceMeasurementReportingEncoding $reportEncoding)
+    {
+        $this->reportEncoding = $reportEncoding;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetReportEncoding()
+    {
+        $this->reportEncoding = null;
         return $this;
     }
 

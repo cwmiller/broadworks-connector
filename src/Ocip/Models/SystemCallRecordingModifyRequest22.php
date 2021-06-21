@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"9741e074fbfeb4c7312bfa4dfbaee3d3:364","type":"sequence"}]
+ * @Groups [{"id":"9741e074fbfeb4c7312bfa4dfbaee3d3:391","type":"sequence"}]
  */
 class SystemCallRecordingModifyRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class SystemCallRecordingModifyRequest22 extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName continueCallAfterRecordingFailure
      * @Type bool
      * @Optional
-     * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:364
+     * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:391
      * @var bool|null
      */
     private $continueCallAfterRecordingFailure = null;
@@ -28,8 +28,8 @@ class SystemCallRecordingModifyRequest22 extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName maxResponseWaitTimeMilliseconds
      * @Type int
      * @Optional
-     * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:364
-     * @MinInclusive 1000
+     * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:391
+     * @MinInclusive 50
      * @MaxInclusive 10000
      * @var int|null
      */
@@ -39,7 +39,7 @@ class SystemCallRecordingModifyRequest22 extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName continueCallAfterVideoRecordingFailure
      * @Type bool
      * @Optional
-     * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:364
+     * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:391
      * @var bool|null
      */
     private $continueCallAfterVideoRecordingFailure = null;
@@ -48,7 +48,7 @@ class SystemCallRecordingModifyRequest22 extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName useContinueCallAfterRecordingFailureForOnDemandMode
      * @Type bool
      * @Optional
-     * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:364
+     * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:391
      * @var bool|null
      */
     private $useContinueCallAfterRecordingFailureForOnDemandMode = null;
@@ -57,7 +57,7 @@ class SystemCallRecordingModifyRequest22 extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName useContinueCallAfterRecordingFailureForOnDemandUserInitiatedStartMode
      * @Type bool
      * @Optional
-     * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:364
+     * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:391
      * @var bool|null
      */
     private $useContinueCallAfterRecordingFailureForOnDemandUserInitiatedStartMode = null;
@@ -66,7 +66,7 @@ class SystemCallRecordingModifyRequest22 extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName restrictCallRecordingProvisioningAccess
      * @Type bool
      * @Optional
-     * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:364
+     * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:391
      * @var bool|null
      */
     private $restrictCallRecordingProvisioningAccess = null;

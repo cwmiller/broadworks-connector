@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:1762","type":"sequence","children":[{"id":"e2c537e3e39483b96620673a7012ffdd:1776","type":"choice","optional":true}]}]
+ * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:1773","type":"sequence","children":[{"id":"e2c537e3e39483b96620673a7012ffdd:1787","type":"choice","optional":true}]}]
  */
 class EnterpriseCallCenterEnhancedReportingScheduledReportModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class EnterpriseCallCenterEnhancedReportingScheduledReportModifyRequest extends 
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group e2c537e3e39483b96620673a7012ffdd:1762
+     * @Group e2c537e3e39483b96620673a7012ffdd:1773
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -29,7 +29,7 @@ class EnterpriseCallCenterEnhancedReportingScheduledReportModifyRequest extends 
     /**
      * @ElementName name
      * @Type string
-     * @Group e2c537e3e39483b96620673a7012ffdd:1762
+     * @Group e2c537e3e39483b96620673a7012ffdd:1773
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -40,7 +40,7 @@ class EnterpriseCallCenterEnhancedReportingScheduledReportModifyRequest extends 
      * @ElementName newName
      * @Type string
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:1762
+     * @Group e2c537e3e39483b96620673a7012ffdd:1773
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -52,7 +52,7 @@ class EnterpriseCallCenterEnhancedReportingScheduledReportModifyRequest extends 
      * @Type string
      * @Nillable
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:1762
+     * @Group e2c537e3e39483b96620673a7012ffdd:1773
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -63,7 +63,7 @@ class EnterpriseCallCenterEnhancedReportingScheduledReportModifyRequest extends 
      * @ElementName schedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportSchedule
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:1762
+     * @Group e2c537e3e39483b96620673a7012ffdd:1773
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportSchedule|null
      */
     private $schedule = null;
@@ -72,7 +72,7 @@ class EnterpriseCallCenterEnhancedReportingScheduledReportModifyRequest extends 
      * @ElementName samplingPeriod
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportSamplingPeriod
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:1762
+     * @Group e2c537e3e39483b96620673a7012ffdd:1773
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportSamplingPeriod|null
      */
     private $samplingPeriod = null;
@@ -81,7 +81,7 @@ class EnterpriseCallCenterEnhancedReportingScheduledReportModifyRequest extends 
      * @ElementName startDayOfWeek
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DayOfWeek
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:1762
+     * @Group e2c537e3e39483b96620673a7012ffdd:1773
      * @var \CWM\BroadWorksConnector\Ocip\Models\DayOfWeek|null
      */
     private $startDayOfWeek = null;
@@ -90,7 +90,7 @@ class EnterpriseCallCenterEnhancedReportingScheduledReportModifyRequest extends 
      * @ElementName reportTimeZone
      * @Type string
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:1762
+     * @Group e2c537e3e39483b96620673a7012ffdd:1773
      * @MinLength 1
      * @MaxLength 127
      * @var string|null
@@ -101,7 +101,7 @@ class EnterpriseCallCenterEnhancedReportingScheduledReportModifyRequest extends 
      * @ElementName reportDateFormat
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportDateFormat
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:1762
+     * @Group e2c537e3e39483b96620673a7012ffdd:1773
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportDateFormat|null
      */
     private $reportDateFormat = null;
@@ -110,7 +110,7 @@ class EnterpriseCallCenterEnhancedReportingScheduledReportModifyRequest extends 
      * @ElementName reportTimeFormat
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportTimeFormat
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:1762
+     * @Group e2c537e3e39483b96620673a7012ffdd:1773
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportTimeFormat|null
      */
     private $reportTimeFormat = null;
@@ -119,7 +119,7 @@ class EnterpriseCallCenterEnhancedReportingScheduledReportModifyRequest extends 
      * @ElementName reportInterval
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportInterval
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:1762
+     * @Group e2c537e3e39483b96620673a7012ffdd:1773
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportInterval|null
      */
     private $reportInterval = null;
@@ -128,7 +128,7 @@ class EnterpriseCallCenterEnhancedReportingScheduledReportModifyRequest extends 
      * @ElementName reportFormat
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportFileFormat
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:1762
+     * @Group e2c537e3e39483b96620673a7012ffdd:1773
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportFileFormat|null
      */
     private $reportFormat = null;
@@ -137,7 +137,7 @@ class EnterpriseCallCenterEnhancedReportingScheduledReportModifyRequest extends 
      * @ElementName agent
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterScheduledReportAgentSelection
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:1762
+     * @Group e2c537e3e39483b96620673a7012ffdd:1773
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterScheduledReportAgentSelection|null
      */
     private $agent = null;
@@ -145,7 +145,7 @@ class EnterpriseCallCenterEnhancedReportingScheduledReportModifyRequest extends 
     /**
      * @ElementName callCenter
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterScheduledReportCallCenterSelection
-     * @Group e2c537e3e39483b96620673a7012ffdd:1776
+     * @Group e2c537e3e39483b96620673a7012ffdd:1787
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterScheduledReportCallCenterSelection|null
      */
     private $callCenter = null;
@@ -153,7 +153,7 @@ class EnterpriseCallCenterEnhancedReportingScheduledReportModifyRequest extends 
     /**
      * @ElementName dnis
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterScheduledReportDNISSelection
-     * @Group e2c537e3e39483b96620673a7012ffdd:1776
+     * @Group e2c537e3e39483b96620673a7012ffdd:1787
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterScheduledReportDNISSelection|null
      */
     private $dnis = null;
@@ -162,7 +162,7 @@ class EnterpriseCallCenterEnhancedReportingScheduledReportModifyRequest extends 
      * @ElementName callCompletionThresholdSeconds
      * @Type int
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:1762
+     * @Group e2c537e3e39483b96620673a7012ffdd:1773
      * @MinInclusive 1
      * @MaxInclusive 7200
      * @var int|null
@@ -173,7 +173,7 @@ class EnterpriseCallCenterEnhancedReportingScheduledReportModifyRequest extends 
      * @ElementName shortDurationThresholdSeconds
      * @Type int
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:1762
+     * @Group e2c537e3e39483b96620673a7012ffdd:1773
      * @MinInclusive 1
      * @MaxInclusive 7200
      * @var int|null
@@ -184,7 +184,7 @@ class EnterpriseCallCenterEnhancedReportingScheduledReportModifyRequest extends 
      * @ElementName serviceLevelThresholdSeconds
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportServiceLevelThresholdReplacementList
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:1762
+     * @Group e2c537e3e39483b96620673a7012ffdd:1773
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportServiceLevelThresholdReplacementList|null
      */
     private $serviceLevelThresholdSeconds = null;
@@ -193,7 +193,7 @@ class EnterpriseCallCenterEnhancedReportingScheduledReportModifyRequest extends 
      * @ElementName serviceLevelInclusions
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterScheduledReportServiceLevelInclusionsModify
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:1762
+     * @Group e2c537e3e39483b96620673a7012ffdd:1773
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterScheduledReportServiceLevelInclusionsModify|null
      */
     private $serviceLevelInclusions = null;
@@ -203,7 +203,7 @@ class EnterpriseCallCenterEnhancedReportingScheduledReportModifyRequest extends 
      * @Type int
      * @Nillable
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:1762
+     * @Group e2c537e3e39483b96620673a7012ffdd:1773
      * @MinInclusive 0
      * @MaxInclusive 100
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -214,7 +214,7 @@ class EnterpriseCallCenterEnhancedReportingScheduledReportModifyRequest extends 
      * @ElementName abandonedCallThresholdSeconds
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportAbandonedCallThresholdReplacementList
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:1762
+     * @Group e2c537e3e39483b96620673a7012ffdd:1773
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportAbandonedCallThresholdReplacementList|null
      */
     private $abandonedCallThresholdSeconds = null;
@@ -223,7 +223,7 @@ class EnterpriseCallCenterEnhancedReportingScheduledReportModifyRequest extends 
      * @ElementName emailAddress
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportReplacementEmailList
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:1762
+     * @Group e2c537e3e39483b96620673a7012ffdd:1773
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportReplacementEmailList|null
      */
     private $emailAddress = null;

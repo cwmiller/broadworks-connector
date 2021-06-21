@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Criteria for searching for a RegistrationURI.
  *
- * @Groups [{"id":"f0ada2681ca347fa83b464734259b304:1833","type":"sequence"}]
+ * @Groups [{"id":"f0ada2681ca347fa83b464734259b304:1938","type":"sequence"}]
  */
 class SearchCriteriaRegistrationURI extends SearchCriteria
 {
@@ -15,7 +15,7 @@ class SearchCriteriaRegistrationURI extends SearchCriteria
     /**
      * @ElementName mode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchMode
-     * @Group f0ada2681ca347fa83b464734259b304:1833
+     * @Group f0ada2681ca347fa83b464734259b304:1938
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchMode|null
      */
     private $mode = null;
@@ -23,7 +23,7 @@ class SearchCriteriaRegistrationURI extends SearchCriteria
     /**
      * @ElementName value
      * @Type string
-     * @Group f0ada2681ca347fa83b464734259b304:1833
+     * @Group f0ada2681ca347fa83b464734259b304:1938
      * @MinLength 1
      * @MaxLength 1024
      * @var string|null
@@ -33,7 +33,7 @@ class SearchCriteriaRegistrationURI extends SearchCriteria
     /**
      * @ElementName isCaseInsensitive
      * @Type bool
-     * @Group f0ada2681ca347fa83b464734259b304:1833
+     * @Group f0ada2681ca347fa83b464734259b304:1938
      * @var bool|null
      */
     private $isCaseInsensitive = null;

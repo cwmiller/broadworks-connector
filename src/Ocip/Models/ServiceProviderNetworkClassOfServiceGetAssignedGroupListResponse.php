@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         assigned. The column headings are: "Group Id" and "Group Name".
  *
  * @see ServiceProviderNetworkClassOfServiceGetAssignedGroupListRequest
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:4193","type":"sequence"}]
+ * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:5013","type":"sequence"}]
  */
 class ServiceProviderNetworkClassOfServiceGetAssignedGroupListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class ServiceProviderNetworkClassOfServiceGetAssignedGroupListResponse extends \
     /**
      * @ElementName groupTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4193
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5013
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $groupTable = null;

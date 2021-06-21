@@ -7,9 +7,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to the GroupAdminGetRequest21sp1.
  *         The response contains the group administrators  profile information.
+ *         Replaced by: GroupAdminGetResponse22.
  *
  * @see GroupAdminGetRequest21sp1
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:1252","type":"sequence"}]
+ * @see GroupAdminGetResponse22
+ * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:1146","type":"sequence"}]
  */
 class GroupAdminGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +19,7 @@ class GroupAdminGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1252
+     * @Group de4d76f01f337fe4694212ec9f771753:1146
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -27,7 +29,7 @@ class GroupAdminGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1252
+     * @Group de4d76f01f337fe4694212ec9f771753:1146
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -38,7 +40,7 @@ class GroupAdminGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @ElementName firstName
      * @Type string
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1252
+     * @Group de4d76f01f337fe4694212ec9f771753:1146
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -49,7 +51,7 @@ class GroupAdminGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @ElementName lastName
      * @Type string
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1252
+     * @Group de4d76f01f337fe4694212ec9f771753:1146
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -59,7 +61,7 @@ class GroupAdminGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * @ElementName language
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1252
+     * @Group de4d76f01f337fe4694212ec9f771753:1146
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -69,7 +71,7 @@ class GroupAdminGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * @ElementName locale
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1252
+     * @Group de4d76f01f337fe4694212ec9f771753:1146
      * @MaxLength 5
      * @var string|null
      */
@@ -78,7 +80,7 @@ class GroupAdminGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * @ElementName encoding
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1252
+     * @Group de4d76f01f337fe4694212ec9f771753:1146
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

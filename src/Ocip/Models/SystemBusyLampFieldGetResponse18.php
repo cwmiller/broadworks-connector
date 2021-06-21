@@ -6,12 +6,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemBusyLampFieldGetResponse18
  *
  * Response to SystemBusyLampFieldGetRequest18.
- *
+ *         
  *         The following elements are only used in AS data mode:
- *         forceUseOfTCP
+ *          forceUseOfTCP
+ *          
+ *         Replaced by: SystemBusyLampFieldGetResponse23 in AS data mode.
  *
  * @see SystemBusyLampFieldGetRequest18
- * @Groups [{"id":"4faeca417998d23ce2ff6b0b43212aa6:61","type":"sequence"}]
+ * @see SystemBusyLampFieldGetResponse23
+ * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:6986","type":"sequence"}]
  */
 class SystemBusyLampFieldGetResponse18 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,7 +22,7 @@ class SystemBusyLampFieldGetResponse18 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName displayLocalUserIdentityLastNameFirst
      * @Type bool
-     * @Group 4faeca417998d23ce2ff6b0b43212aa6:61
+     * @Group de4d76f01f337fe4694212ec9f771753:6986
      * @var bool|null
      */
     private $displayLocalUserIdentityLastNameFirst = null;
@@ -27,7 +30,7 @@ class SystemBusyLampFieldGetResponse18 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName forceUseOfTCP
      * @Type bool
-     * @Group 4faeca417998d23ce2ff6b0b43212aa6:61
+     * @Group de4d76f01f337fe4694212ec9f771753:6986
      * @var bool|null
      */
     private $forceUseOfTCP = null;

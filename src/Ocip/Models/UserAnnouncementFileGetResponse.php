@@ -14,9 +14,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         For Call Center and Route Point users the "Instance Name" column contains the instance id and 
  *         when the announcement is being used by a DNIS, "Intance Name" column contans the instance id and the DNIS id.
  *         For Auto Attendants with submenus and the announcement is used by a submenu the "Instance Name" column will contain the submenu name
+ *         
+ *         Replaced by: UserAnnouncementFileGetResponse22.
  *
  * @see UserAnnouncementFileGetRequest
- * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:684","type":"sequence"}]
+ * @see UserAnnouncementFileGetResponse22
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:39511","type":"sequence"}]
  */
 class UserAnnouncementFileGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -24,7 +27,7 @@ class UserAnnouncementFileGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName description
      * @Type string
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:684
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:39511
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -34,7 +37,7 @@ class UserAnnouncementFileGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName filesize
      * @Type int
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:684
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:39511
      * @var int|null
      */
     private $filesize = null;
@@ -42,7 +45,7 @@ class UserAnnouncementFileGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName lastUploaded
      * @Type string
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:684
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:39511
      * @var string|null
      */
     private $lastUploaded = null;
@@ -50,7 +53,7 @@ class UserAnnouncementFileGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName usageTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:684
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:39511
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $usageTable = null;

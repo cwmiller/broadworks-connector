@@ -6,13 +6,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupCustomContactDirectoryGetRequest
  *
  * Gets a Custom Contact Directory in a group.
- *                 The response is either GroupCustomContactDirectoryGetResponse or ErrorResponse.
- *                 Replace by: GroupCustomContactDirectoryGetRequest17
+ *         The response is either GroupCustomContactDirectoryGetResponse or ErrorResponse.
+ *         Replace by: GroupCustomContactDirectoryGetRequest17
  *
  * @see GroupCustomContactDirectoryGetResponse
  * @see ErrorResponse
  * @see GroupCustomContactDirectoryGetRequest17
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:13464","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:8916","type":"sequence"}]
  */
 class GroupCustomContactDirectoryGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class GroupCustomContactDirectoryGetRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:13464
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:8916
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -30,7 +30,7 @@ class GroupCustomContactDirectoryGetRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName groupId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:13464
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:8916
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -40,7 +40,7 @@ class GroupCustomContactDirectoryGetRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName name
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:13464
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:8916
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

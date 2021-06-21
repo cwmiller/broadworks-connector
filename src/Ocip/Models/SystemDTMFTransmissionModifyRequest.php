@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:8598","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:9630","type":"sequence"}]
  */
 class SystemDTMFTransmissionModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class SystemDTMFTransmissionModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName transmissionMethod
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DTMFTransmissionMethod
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8598
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9630
      * @var \CWM\BroadWorksConnector\Ocip\Models\DTMFTransmissionMethod|null
      */
     private $transmissionMethod = null;
@@ -28,7 +28,7 @@ class SystemDTMFTransmissionModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName signalingContentType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DtmfTransmissionSignalingContentType
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8598
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9630
      * @var \CWM\BroadWorksConnector\Ocip\Models\DtmfTransmissionSignalingContentType|null
      */
     private $signalingContentType = null;

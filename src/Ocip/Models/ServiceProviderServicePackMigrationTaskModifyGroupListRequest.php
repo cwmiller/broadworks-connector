@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:5636","type":"sequence","children":[{"id":"f1088f4c5ceb30d524d2ba0f8097c393:5639","type":"choice"}]}]
+ * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:6469","type":"sequence","children":[{"id":"f1088f4c5ceb30d524d2ba0f8097c393:6472","type":"choice"}]}]
  */
 class ServiceProviderServicePackMigrationTaskModifyGroupListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class ServiceProviderServicePackMigrationTaskModifyGroupListRequest extends \CWM
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5636
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:6469
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -29,7 +29,7 @@ class ServiceProviderServicePackMigrationTaskModifyGroupListRequest extends \CWM
     /**
      * @ElementName taskName
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5636
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:6469
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -39,7 +39,7 @@ class ServiceProviderServicePackMigrationTaskModifyGroupListRequest extends \CWM
     /**
      * @ElementName migrateAllGroups
      * @Type bool
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5639
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:6472
      * @var bool|null
      */
     private $migrateAllGroups = null;
@@ -49,7 +49,7 @@ class ServiceProviderServicePackMigrationTaskModifyGroupListRequest extends \CWM
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderServicePackMigrationTaskModifyGroupListRequestGroupIdList
      * @Nillable
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5639
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:6472
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderServicePackMigrationTaskModifyGroupListRequestGroupIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $groupIdList = null;

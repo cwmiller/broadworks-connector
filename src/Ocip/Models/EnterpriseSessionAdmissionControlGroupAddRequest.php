@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * EnterpriseSessionAdmissionControlGroupAddRequest
  *
  * Request to add a session admission control group for the enterprise.
- *                 The response is either a SuccessResponse or an ErrorResponse.
+ *         The response is either a SuccessResponse or an ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:29233","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:2629","type":"sequence"}]
  */
 class EnterpriseSessionAdmissionControlGroupAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class EnterpriseSessionAdmissionControlGroupAddRequest extends \CWM\BroadWorksCo
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:29233
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:2629
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +28,7 @@ class EnterpriseSessionAdmissionControlGroupAddRequest extends \CWM\BroadWorksCo
     /**
      * @ElementName name
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:29233
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:2629
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -38,7 +38,7 @@ class EnterpriseSessionAdmissionControlGroupAddRequest extends \CWM\BroadWorksCo
     /**
      * @ElementName maxSession
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:29233
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:2629
      * @MinInclusive 0
      * @var int|null
      */
@@ -48,7 +48,7 @@ class EnterpriseSessionAdmissionControlGroupAddRequest extends \CWM\BroadWorksCo
      * @ElementName maxUserOriginatingSessions
      * @Type int
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:29233
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:2629
      * @MinInclusive 0
      * @var int|null
      */
@@ -58,7 +58,7 @@ class EnterpriseSessionAdmissionControlGroupAddRequest extends \CWM\BroadWorksCo
      * @ElementName maxUserTerminatingSessions
      * @Type int
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:29233
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:2629
      * @MinInclusive 0
      * @var int|null
      */
@@ -67,7 +67,7 @@ class EnterpriseSessionAdmissionControlGroupAddRequest extends \CWM\BroadWorksCo
     /**
      * @ElementName reservedSession
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:29233
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:2629
      * @MinInclusive 0
      * @var int|null
      */
@@ -77,7 +77,7 @@ class EnterpriseSessionAdmissionControlGroupAddRequest extends \CWM\BroadWorksCo
      * @ElementName reservedUserOriginatingSessions
      * @Type int
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:29233
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:2629
      * @MinInclusive 0
      * @var int|null
      */
@@ -87,7 +87,7 @@ class EnterpriseSessionAdmissionControlGroupAddRequest extends \CWM\BroadWorksCo
      * @ElementName reservedUserTerminatingSessions
      * @Type int
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:29233
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:2629
      * @MinInclusive 0
      * @var int|null
      */
@@ -96,7 +96,7 @@ class EnterpriseSessionAdmissionControlGroupAddRequest extends \CWM\BroadWorksCo
     /**
      * @ElementName becomeDefaultGroup
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:29233
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:2629
      * @var bool|null
      */
     private $becomeDefaultGroup = null;
@@ -104,7 +104,7 @@ class EnterpriseSessionAdmissionControlGroupAddRequest extends \CWM\BroadWorksCo
     /**
      * @ElementName countIntraSACGroupSessions
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:29233
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:2629
      * @var bool|null
      */
     private $countIntraSACGroupSessions = null;
@@ -114,7 +114,7 @@ class EnterpriseSessionAdmissionControlGroupAddRequest extends \CWM\BroadWorksCo
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EnterpriseAccessDevice
      * @Array
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:29233
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:2629
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseAccessDevice[]
      */
     private $devices = array(

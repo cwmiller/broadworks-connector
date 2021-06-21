@@ -6,14 +6,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * EnterpriseSessionAdmissionControlGroupGetRequest19sp1
  *
  * Request to get a session admission control group for the enterprise.
- *                 The response is either an EnterpriseSessionAdmissionControlGroupGetResponse19sp1 or an ErrorResponse.
- *
- *                 Replaced by: EnterpriseSessionAdmissionControlGroupGetRequest21sp1
+ *         The response is either an EnterpriseSessionAdmissionControlGroupGetResponse19sp1 or an ErrorResponse.
+ *         
+ *         Replaced by: EnterpriseSessionAdmissionControlGroupGetRequest21sp1
  *
  * @see EnterpriseSessionAdmissionControlGroupGetResponse19sp1
  * @see ErrorResponse
  * @see EnterpriseSessionAdmissionControlGroupGetRequest21sp1
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:402","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:2674","type":"sequence"}]
  */
 class EnterpriseSessionAdmissionControlGroupGetRequest19sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,7 +21,7 @@ class EnterpriseSessionAdmissionControlGroupGetRequest19sp1 extends \CWM\BroadWo
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:402
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:2674
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -31,7 +31,7 @@ class EnterpriseSessionAdmissionControlGroupGetRequest19sp1 extends \CWM\BroadWo
     /**
      * @ElementName name
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:402
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:2674
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

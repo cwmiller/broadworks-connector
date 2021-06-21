@@ -6,10 +6,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupAdminGetPolicyResponse14sp1
  *
  * Response to GroupAdminGetPolicyRequest14sp1.
- *                 Contains the policy settings for the group administrator.
+ *         Contains the policy settings for the group administrator.
  *
  * @see GroupAdminGetPolicyRequest14sp1
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:12436","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:3443","type":"sequence"}]
  */
 class GroupAdminGetPolicyResponse14sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class GroupAdminGetPolicyResponse14sp1 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName profileAccess
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupAdminProfileAccess
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:12436
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:3443
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupAdminProfileAccess|null
      */
     private $profileAccess = null;
@@ -25,7 +25,7 @@ class GroupAdminGetPolicyResponse14sp1 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName userAccess
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupAdminUserAccess
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:12436
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:3443
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupAdminUserAccess|null
      */
     private $userAccess = null;
@@ -33,7 +33,7 @@ class GroupAdminGetPolicyResponse14sp1 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName adminAccess
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupAdminAdminAccess
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:12436
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:3443
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupAdminAdminAccess|null
      */
     private $adminAccess = null;
@@ -41,7 +41,7 @@ class GroupAdminGetPolicyResponse14sp1 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName departmentAccess
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupAdminDepartmentAccess
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:12436
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:3443
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupAdminDepartmentAccess|null
      */
     private $departmentAccess = null;
@@ -49,7 +49,7 @@ class GroupAdminGetPolicyResponse14sp1 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName accessDeviceAccess
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupAdminAccessDeviceAccess
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:12436
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:3443
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupAdminAccessDeviceAccess|null
      */
     private $accessDeviceAccess = null;
@@ -57,7 +57,7 @@ class GroupAdminGetPolicyResponse14sp1 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName enhancedServiceInstanceAccess
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupAdminEnhancedServiceInstanceAccess
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:12436
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:3443
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupAdminEnhancedServiceInstanceAccess|null
      */
     private $enhancedServiceInstanceAccess = null;
@@ -65,7 +65,7 @@ class GroupAdminGetPolicyResponse14sp1 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName featureAccessCodeAccess
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupAdminFeatureAccessCodeAccess
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:12436
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:3443
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupAdminFeatureAccessCodeAccess|null
      */
     private $featureAccessCodeAccess = null;
@@ -73,7 +73,7 @@ class GroupAdminGetPolicyResponse14sp1 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName phoneNumberExtensionAccess
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupAdminPhoneNumberExtensionAccess
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:12436
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:3443
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupAdminPhoneNumberExtensionAccess|null
      */
     private $phoneNumberExtensionAccess = null;
@@ -81,7 +81,7 @@ class GroupAdminGetPolicyResponse14sp1 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName serviceAccess
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupAdminServiceAccess
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:12436
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:3443
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupAdminServiceAccess|null
      */
     private $serviceAccess = null;
@@ -89,7 +89,7 @@ class GroupAdminGetPolicyResponse14sp1 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName trunkGroupAccess
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupAdminTrunkGroupAccess
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:12436
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:3443
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupAdminTrunkGroupAccess|null
      */
     private $trunkGroupAccess = null;

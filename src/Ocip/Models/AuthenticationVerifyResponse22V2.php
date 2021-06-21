@@ -8,17 +8,17 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to AuthenticationVerifyRequest22V2
  *         
  *         The following data elements are only returned in AS data mode:
- *           resellerId
  *           tokenRevocationTime
  *           
  *         If a phoneNumber is returned, it will be the primary DN of the user. 
- *
  *         The parameter tokenRevocationTime is represented in the number of milliseconds
  *         since January 1, 1970, 00:00:00 GMT, and it is set to the more current time between 
  *         the system level token revocation time and user level token revocation time.
+ *         Replaced by AuthenticationVerifyResponse22V3
  *
  * @see AuthenticationVerifyRequest22V2
- * @Groups [{"id":"6b27fcc79475236456fc113a42b75543:105","type":"sequence"}]
+ * @see AuthenticationVerifyResponse22V3
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:1347","type":"sequence"}]
  */
 class AuthenticationVerifyResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -26,7 +26,7 @@ class AuthenticationVerifyResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName loginType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LoginType22
-     * @Group 6b27fcc79475236456fc113a42b75543:105
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:1347
      * @var \CWM\BroadWorksConnector\Ocip\Models\LoginType22|null
      */
     private $loginType = null;
@@ -34,7 +34,7 @@ class AuthenticationVerifyResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName locale
      * @Type string
-     * @Group 6b27fcc79475236456fc113a42b75543:105
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:1347
      * @MaxLength 5
      * @var string|null
      */
@@ -43,7 +43,7 @@ class AuthenticationVerifyResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName encoding
      * @Type string
-     * @Group 6b27fcc79475236456fc113a42b75543:105
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:1347
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -54,7 +54,7 @@ class AuthenticationVerifyResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName groupId
      * @Type string
      * @Optional
-     * @Group 6b27fcc79475236456fc113a42b75543:105
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:1347
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -65,7 +65,7 @@ class AuthenticationVerifyResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName serviceProviderId
      * @Type string
      * @Optional
-     * @Group 6b27fcc79475236456fc113a42b75543:105
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:1347
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -75,7 +75,7 @@ class AuthenticationVerifyResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName isEnterprise
      * @Type bool
-     * @Group 6b27fcc79475236456fc113a42b75543:105
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:1347
      * @var bool|null
      */
     private $isEnterprise = null;
@@ -84,7 +84,7 @@ class AuthenticationVerifyResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName passwordExpiresDays
      * @Type int
      * @Optional
-     * @Group 6b27fcc79475236456fc113a42b75543:105
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:1347
      * @var int|null
      */
     private $passwordExpiresDays = null;
@@ -93,7 +93,7 @@ class AuthenticationVerifyResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName lastName
      * @Type string
      * @Optional
-     * @Group 6b27fcc79475236456fc113a42b75543:105
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:1347
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -104,7 +104,7 @@ class AuthenticationVerifyResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName firstName
      * @Type string
      * @Optional
-     * @Group 6b27fcc79475236456fc113a42b75543:105
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:1347
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -114,7 +114,7 @@ class AuthenticationVerifyResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName userId
      * @Type string
-     * @Group 6b27fcc79475236456fc113a42b75543:105
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:1347
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -125,7 +125,7 @@ class AuthenticationVerifyResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName phoneNumber
      * @Type string
      * @Optional
-     * @Group 6b27fcc79475236456fc113a42b75543:105
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:1347
      * @MinLength 1
      * @MaxLength 23
      * @var string|null
@@ -136,7 +136,7 @@ class AuthenticationVerifyResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName resellerId
      * @Type string
      * @Optional
-     * @Group 6b27fcc79475236456fc113a42b75543:105
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:1347
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -147,7 +147,7 @@ class AuthenticationVerifyResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName tokenRevocationTime
      * @Type string
      * @Optional
-     * @Group 6b27fcc79475236456fc113a42b75543:105
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:1347
      * @var string|null
      */
     private $tokenRevocationTime = null;

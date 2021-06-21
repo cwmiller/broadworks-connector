@@ -6,13 +6,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupCustomContactDirectoryModifyRequest
  *
  * Adds a Custom Contact Directory to a group.
- *                 The response is either SuccessResponse or ErrorResponse.
- *                 Replace by: GroupCustomContactDirectoryModifyRequest17
+ *         The response is either SuccessResponse or ErrorResponse.
+ *         Replace by: GroupCustomContactDirectoryModifyRequest17
  *
  * @see SuccessResponse
  * @see ErrorResponse
  * @see GroupCustomContactDirectoryModifyRequest17
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:13502","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:8953","type":"sequence"}]
  */
 class GroupCustomContactDirectoryModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class GroupCustomContactDirectoryModifyRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:13502
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:8953
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -30,7 +30,7 @@ class GroupCustomContactDirectoryModifyRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName groupId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:13502
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:8953
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -40,7 +40,7 @@ class GroupCustomContactDirectoryModifyRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName name
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:13502
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:8953
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -51,7 +51,7 @@ class GroupCustomContactDirectoryModifyRequest extends \CWM\BroadWorksConnector\
      * @ElementName newName
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:13502
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:8953
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -63,7 +63,7 @@ class GroupCustomContactDirectoryModifyRequest extends \CWM\BroadWorksConnector\
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList
      * @Nillable
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:13502
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:8953
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $userIdList = null;

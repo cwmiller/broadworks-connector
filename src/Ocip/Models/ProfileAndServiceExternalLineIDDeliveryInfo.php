@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * This is the configuration parameters for External Line ID Delivery service
  *
- * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:4249","type":"sequence"}]
+ * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:4433","type":"sequence"}]
  */
 class ProfileAndServiceExternalLineIDDeliveryInfo
 {
@@ -15,7 +15,7 @@ class ProfileAndServiceExternalLineIDDeliveryInfo
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:4249
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:4433
      * @var bool|null
      */
     private $isActive = null;

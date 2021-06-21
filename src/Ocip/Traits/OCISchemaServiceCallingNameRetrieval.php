@@ -2,8 +2,8 @@
 
 namespace CWM\BroadWorksConnector\Ocip\Traits;
 
-use CWM\BroadWorksConnector\Ocip\Models\SystemCallingNameRetrievalGetRequest20;
-use CWM\BroadWorksConnector\Ocip\Models\SystemCallingNameRetrievalGetResponse20;
+use CWM\BroadWorksConnector\Ocip\Models\SystemCallingNameRetrievalGetRequest24;
+use CWM\BroadWorksConnector\Ocip\Models\SystemCallingNameRetrievalGetResponse24;
 use CWM\BroadWorksConnector\Ocip\Models\SystemCallingNameRetrievalModifyRequest20;
 use CWM\BroadWorksConnector\Ocip\Models\UserCallingNameRetrievalGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserCallingNameRetrievalGetResponse;
@@ -16,12 +16,12 @@ trait OCISchemaServiceCallingNameRetrieval
 {
 
     /**
-     * @param SystemCallingNameRetrievalGetRequest20 $request
-     * @return SystemCallingNameRetrievalGetResponse20
+     * @param SystemCallingNameRetrievalGetRequest24 $request
+     * @return SystemCallingNameRetrievalGetResponse24
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function systemCallingNameRetrievalGetRequest20(\CWM\BroadWorksConnector\Ocip\Models\SystemCallingNameRetrievalGetRequest20 $request)
+    public function systemCallingNameRetrievalGetRequest24(\CWM\BroadWorksConnector\Ocip\Models\SystemCallingNameRetrievalGetRequest24 $request)
     {
         return $this->call($request);
     }

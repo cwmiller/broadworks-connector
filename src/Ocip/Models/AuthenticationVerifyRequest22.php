@@ -5,23 +5,21 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * AuthenticationVerifyRequest22
  *
- * AuthenticationVerifyRequest22 is used to authenticate a user either by userId/password, userId/sip
- *                 username/sip password,
- *                 dn/passcode, lineport/password or a token previously authorized with the
- *                 ExternalAuthenticationAuthorizeTokenRequest.
- *                 The phone number may be any DN associated with a user.
- *                 The lineport may be any lineport associated with a user.
- *                 The password used for the lineport is the user's password associated with userId.
- *
- *                 The response is a AuthenticationVerifyResponse22 or an ErrorResponse
- *                 Replaced by AuthenticationVerifyRequest22V2.
+ * AuthenticationVerifyRequest22 is used to authenticate a user either by userId/password, userId/sip username/sip password,
+ *         dn/passcode, lineport/password or a token previously authorized with the ExternalAuthenticationAuthorizeTokenRequest. 
+ *         The phone number may be any DN associated with a user.
+ *         The lineport may be any lineport associated with a user.
+ *         The password used for the lineport is the user's password associated with userId.
+ *           
+ *         The response is a AuthenticationVerifyResponse22 or an ErrorResponse
+ *         Replaced by AuthenticationVerifyRequest22V2.
  *
  * @see AuthenticationVerifyRequest22
  * @see ExternalAuthenticationAuthorizeTokenRequest
  * @see AuthenticationVerifyResponse22
  * @see ErrorResponse
  * @see AuthenticationVerifyRequest22V2
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:40686","type":"choice","children":[{"id":"ab0042aa512abc10edb3c55e4b416b0b:40687","type":"sequence"},{"id":"ab0042aa512abc10edb3c55e4b416b0b:40691","type":"sequence"},{"id":"ab0042aa512abc10edb3c55e4b416b0b:40695","type":"sequence"},{"id":"ab0042aa512abc10edb3c55e4b416b0b:40699","type":"sequence"},{"id":"ab0042aa512abc10edb3c55e4b416b0b:40702","type":"sequence"}]}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:1109","type":"choice","children":[{"id":"ab0042aa512abc10edb3c55e4b416b0b:1110","type":"sequence"},{"id":"ab0042aa512abc10edb3c55e4b416b0b:1114","type":"sequence"},{"id":"ab0042aa512abc10edb3c55e4b416b0b:1118","type":"sequence"},{"id":"ab0042aa512abc10edb3c55e4b416b0b:1122","type":"sequence"},{"id":"ab0042aa512abc10edb3c55e4b416b0b:1125","type":"sequence"}]}]
  */
 class AuthenticationVerifyRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -29,7 +27,7 @@ class AuthenticationVerifyRequest22 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName userId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:40702
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:1125
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -39,7 +37,7 @@ class AuthenticationVerifyRequest22 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName password
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:40695
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:1118
      * @MinLength 1
      * @MaxLength 60
      * @var string|null
@@ -49,7 +47,7 @@ class AuthenticationVerifyRequest22 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName phoneNumber
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:40691
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:1114
      * @MinLength 1
      * @MaxLength 23
      * @var string|null
@@ -59,7 +57,7 @@ class AuthenticationVerifyRequest22 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName passcode
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:40691
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:1114
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -69,7 +67,7 @@ class AuthenticationVerifyRequest22 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName linePort
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:40695
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:1118
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -79,7 +77,7 @@ class AuthenticationVerifyRequest22 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName loginToken
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:40699
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:1122
      * @MinLength 1
      * @var string|null
      */
@@ -88,7 +86,7 @@ class AuthenticationVerifyRequest22 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName sipAuthenticationUserName
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:40702
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:1125
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -98,7 +96,7 @@ class AuthenticationVerifyRequest22 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName sipAuthenticationPassword
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:40702
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:1125
      * @MinLength 1
      * @MaxLength 60
      * @var string|null

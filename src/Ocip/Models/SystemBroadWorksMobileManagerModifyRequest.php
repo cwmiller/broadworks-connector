@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:2180","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:2596","type":"sequence"}]
  */
 class SystemBroadWorksMobileManagerModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class SystemBroadWorksMobileManagerModifyRequest extends \CWM\BroadWorksConnecto
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2180
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2596
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -32,7 +32,7 @@ class SystemBroadWorksMobileManagerModifyRequest extends \CWM\BroadWorksConnecto
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2180
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2596
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -44,7 +44,7 @@ class SystemBroadWorksMobileManagerModifyRequest extends \CWM\BroadWorksConnecto
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2180
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2596
      * @MinLength 1
      * @MaxLength 32
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -56,7 +56,7 @@ class SystemBroadWorksMobileManagerModifyRequest extends \CWM\BroadWorksConnecto
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2180
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2596
      * @MinLength 1
      * @MaxLength 128
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -68,7 +68,7 @@ class SystemBroadWorksMobileManagerModifyRequest extends \CWM\BroadWorksConnecto
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2180
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2596
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -79,7 +79,7 @@ class SystemBroadWorksMobileManagerModifyRequest extends \CWM\BroadWorksConnecto
      * @ElementName scfIMSOnly
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2180
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2596
      * @var bool|null
      */
     private $scfIMSOnly = null;
@@ -89,7 +89,7 @@ class SystemBroadWorksMobileManagerModifyRequest extends \CWM\BroadWorksConnecto
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2180
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2596
      * @MinLength 1
      * @MaxLength 39
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -101,7 +101,7 @@ class SystemBroadWorksMobileManagerModifyRequest extends \CWM\BroadWorksConnecto
      * @Type int
      * @Nillable
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2180
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2596
      * @MinInclusive 1
      * @MaxInclusive 65535
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil

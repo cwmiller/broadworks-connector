@@ -12,9 +12,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The "Mobile Network" column contains the Mobile Network the number belongs to.
  *         The "Mobile Country Code" column indicates the dialing prefix for the mobile number.
  *         The "Mobile National Prefix" column indicates the digit sequence to be dialed before the mobile number.
+ *         Replaced by: EnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAvailablePagedSortedListResponse22
  *
  * @see EnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAvailablePagedSortedListRequest
- * @Groups [{"id":"f7ae3539fd471e995b07dc1bf8836e2d:268","type":"sequence"}]
+ * @see EnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAvailablePagedSortedListResponse22
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:2049","type":"sequence"}]
  */
 class EnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAvailablePagedSortedListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -22,7 +24,7 @@ class EnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAvailablePag
     /**
      * @ElementName availableMobileSubscriberDirectoryNumberTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group f7ae3539fd471e995b07dc1bf8836e2d:268
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:2049
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $availableMobileSubscriberDirectoryNumberTable = null;

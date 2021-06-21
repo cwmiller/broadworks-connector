@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         In XS data mode, the column headings are: "Tag Name", "Tag Value", "Is Encrypted", "Actual Tag Value".
  *
  * @see SystemAccessDeviceCustomTagGetListRequest
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:729","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:824","type":"sequence"}]
  */
 class SystemAccessDeviceCustomTagGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -20,7 +20,7 @@ class SystemAccessDeviceCustomTagGetListResponse extends \CWM\BroadWorksConnecto
     /**
      * @ElementName deviceCustomTagsTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:729
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:824
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $deviceCustomTagsTable = null;

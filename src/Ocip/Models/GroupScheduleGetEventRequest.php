@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupScheduleGetEventResponse
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:6457","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:7475","type":"sequence"}]
  */
 class GroupScheduleGetEventRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupScheduleGetEventRequest extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6457
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:7475
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +28,7 @@ class GroupScheduleGetEventRequest extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6457
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:7475
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -38,7 +38,7 @@ class GroupScheduleGetEventRequest extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName scheduleKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ScheduleKey
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6457
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:7475
      * @var \CWM\BroadWorksConnector\Ocip\Models\ScheduleKey|null
      */
     private $scheduleKey = null;
@@ -46,7 +46,7 @@ class GroupScheduleGetEventRequest extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName eventName
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6457
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:7475
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

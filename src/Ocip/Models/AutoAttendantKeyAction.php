@@ -6,11 +6,6 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * AutoAttendantKeyAction
  *
  * The action of Auto Attendant key.
- *         The following data elements are only used in AS data mode and ignored in XS data mode:
- *           Transfer To Mailbox
- *           Play Announcement
- *           Transfer To Submenu
- *           Return to Previous Menu
  *         The following data elements are only valid for Standard Auto
  *         Attendants:
  *           Transfer To Submenu

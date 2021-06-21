@@ -7,10 +7,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Add a Music on Hold Instance to a department.
  *         The response is either SuccessResponse or ErrorResponse.
+ *         Replaced by GroupMusicOnHoldAddInstanceRequest23.
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"66fe518a637c74cc4b2c97aa7f68fc49:50","type":"sequence"}]
+ * @see GroupMusicOnHoldAddInstanceRequest23
+ * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:2970","type":"sequence"}]
  */
 class GroupMusicOnHoldAddInstanceRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +20,7 @@ class GroupMusicOnHoldAddInstanceRequest22 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 66fe518a637c74cc4b2c97aa7f68fc49:50
+     * @Group de4d76f01f337fe4694212ec9f771753:2970
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +30,7 @@ class GroupMusicOnHoldAddInstanceRequest22 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 66fe518a637c74cc4b2c97aa7f68fc49:50
+     * @Group de4d76f01f337fe4694212ec9f771753:2970
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -39,7 +41,7 @@ class GroupMusicOnHoldAddInstanceRequest22 extends \CWM\BroadWorksConnector\Ocip
      * @ElementName department
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey
      * @Abstract \CWM\BroadWorksConnector\Ocip\Models\EnterpriseDepartmentKey,\CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentKey
-     * @Group 66fe518a637c74cc4b2c97aa7f68fc49:50
+     * @Group de4d76f01f337fe4694212ec9f771753:2970
      * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null
      */
     private $department = null;
@@ -47,7 +49,7 @@ class GroupMusicOnHoldAddInstanceRequest22 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName isActiveDuringCallHold
      * @Type bool
-     * @Group 66fe518a637c74cc4b2c97aa7f68fc49:50
+     * @Group de4d76f01f337fe4694212ec9f771753:2970
      * @var bool|null
      */
     private $isActiveDuringCallHold = null;
@@ -55,7 +57,7 @@ class GroupMusicOnHoldAddInstanceRequest22 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName isActiveDuringCallPark
      * @Type bool
-     * @Group 66fe518a637c74cc4b2c97aa7f68fc49:50
+     * @Group de4d76f01f337fe4694212ec9f771753:2970
      * @var bool|null
      */
     private $isActiveDuringCallPark = null;
@@ -63,7 +65,7 @@ class GroupMusicOnHoldAddInstanceRequest22 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName isActiveDuringBusyCampOn
      * @Type bool
-     * @Group 66fe518a637c74cc4b2c97aa7f68fc49:50
+     * @Group de4d76f01f337fe4694212ec9f771753:2970
      * @var bool|null
      */
     private $isActiveDuringBusyCampOn = null;
@@ -71,7 +73,7 @@ class GroupMusicOnHoldAddInstanceRequest22 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName source
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceAdd22
-     * @Group 66fe518a637c74cc4b2c97aa7f68fc49:50
+     * @Group de4d76f01f337fe4694212ec9f771753:2970
      * @var \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceAdd22|null
      */
     private $source = null;
@@ -79,7 +81,7 @@ class GroupMusicOnHoldAddInstanceRequest22 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName useAlternateSourceForInternalCalls
      * @Type bool
-     * @Group 66fe518a637c74cc4b2c97aa7f68fc49:50
+     * @Group de4d76f01f337fe4694212ec9f771753:2970
      * @var bool|null
      */
     private $useAlternateSourceForInternalCalls = null;
@@ -88,7 +90,7 @@ class GroupMusicOnHoldAddInstanceRequest22 extends \CWM\BroadWorksConnector\Ocip
      * @ElementName internalSource
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceAdd22
      * @Optional
-     * @Group 66fe518a637c74cc4b2c97aa7f68fc49:50
+     * @Group de4d76f01f337fe4694212ec9f771753:2970
      * @var \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceAdd22|null
      */
     private $internalSource = null;

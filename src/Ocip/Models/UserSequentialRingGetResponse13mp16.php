@@ -6,12 +6,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserSequentialRingGetResponse13mp16
  *
  * Response to the UserSequentialRingGetRequest13mp16. The criteria table's column headings are:
- *                 "Is Active", "Criteria Name", "Time Schedule" and "Calls From".
- *                 Replaced By: UserSequentialRingGetResponse14sp4
+ *         "Is Active", "Criteria Name", "Time Schedule" and "Calls From".
+ *         Replaced By: UserSequentialRingGetResponse14sp4
  *
  * @see UserSequentialRingGetRequest13mp16
  * @see UserSequentialRingGetResponse14sp4
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:7612","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:46005","type":"sequence"}]
  */
 class UserSequentialRingGetResponse13mp16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,7 +19,7 @@ class UserSequentialRingGetResponse13mp16 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName ringBaseLocationFirst
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:7612
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:46005
      * @var bool|null
      */
     private $ringBaseLocationFirst = null;
@@ -27,7 +27,7 @@ class UserSequentialRingGetResponse13mp16 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName baseLocationNumberOfRings
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SequentialRingNumberOfRings
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:7612
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:46005
      * @var \CWM\BroadWorksConnector\Ocip\Models\SequentialRingNumberOfRings|null
      */
     private $baseLocationNumberOfRings = null;
@@ -35,7 +35,7 @@ class UserSequentialRingGetResponse13mp16 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName continueIfBaseLocationIsBusy
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:7612
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:46005
      * @var bool|null
      */
     private $continueIfBaseLocationIsBusy = null;
@@ -43,7 +43,7 @@ class UserSequentialRingGetResponse13mp16 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName callerMayStopSearch
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:7612
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:46005
      * @var bool|null
      */
     private $callerMayStopSearch = null;
@@ -51,7 +51,7 @@ class UserSequentialRingGetResponse13mp16 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName Location01
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SequentialRingLocation
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:7612
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:46005
      * @var \CWM\BroadWorksConnector\Ocip\Models\SequentialRingLocation|null
      */
     private $Location01 = null;
@@ -59,7 +59,7 @@ class UserSequentialRingGetResponse13mp16 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName Location02
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SequentialRingLocation
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:7612
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:46005
      * @var \CWM\BroadWorksConnector\Ocip\Models\SequentialRingLocation|null
      */
     private $Location02 = null;
@@ -67,7 +67,7 @@ class UserSequentialRingGetResponse13mp16 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName Location03
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SequentialRingLocation
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:7612
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:46005
      * @var \CWM\BroadWorksConnector\Ocip\Models\SequentialRingLocation|null
      */
     private $Location03 = null;
@@ -75,7 +75,7 @@ class UserSequentialRingGetResponse13mp16 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName Location04
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SequentialRingLocation
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:7612
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:46005
      * @var \CWM\BroadWorksConnector\Ocip\Models\SequentialRingLocation|null
      */
     private $Location04 = null;
@@ -83,7 +83,7 @@ class UserSequentialRingGetResponse13mp16 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName Location05
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SequentialRingLocation
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:7612
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:46005
      * @var \CWM\BroadWorksConnector\Ocip\Models\SequentialRingLocation|null
      */
     private $Location05 = null;
@@ -91,7 +91,7 @@ class UserSequentialRingGetResponse13mp16 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName criteriaTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:7612
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:46005
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $criteriaTable = null;

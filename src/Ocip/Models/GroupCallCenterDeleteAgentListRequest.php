@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:3142","type":"sequence"}]
+ * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:3157","type":"sequence"}]
  */
 class GroupCallCenterDeleteAgentListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupCallCenterDeleteAgentListRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group e2c537e3e39483b96620673a7012ffdd:3142
+     * @Group e2c537e3e39483b96620673a7012ffdd:3157
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -29,7 +29,7 @@ class GroupCallCenterDeleteAgentListRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName agentUserId
      * @Type string
      * @Array
-     * @Group e2c537e3e39483b96620673a7012ffdd:3142
+     * @Group e2c537e3e39483b96620673a7012ffdd:3157
      * @MinLength 1
      * @MaxLength 161
      * @var string[]

@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           caliingLineIdPhoneNumber
  *
  * @see GroupDepartmentGetRequest
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:3202","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:3998","type":"sequence"}]
  */
 class GroupDepartmentGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -21,7 +21,7 @@ class GroupDepartmentGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey
      * @Abstract \CWM\BroadWorksConnector\Ocip\Models\EnterpriseDepartmentKey,\CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentKey
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:3202
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:3998
      * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null
      */
     private $parentDepartmentKey = null;
@@ -30,7 +30,7 @@ class GroupDepartmentGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @ElementName callingLineIdName
      * @Type string
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:3202
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:3998
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -41,7 +41,7 @@ class GroupDepartmentGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @ElementName callingLineIdPhoneNumber
      * @Type string
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:3202
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:3998
      * @MinLength 1
      * @MaxLength 23
      * @var string|null

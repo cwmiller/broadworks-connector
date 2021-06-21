@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserSimultaneousRingFamilyDeletePhoneNumberRequest
  *
  * Delete the phone number specified.
- *                 The response is either a SuccessResponse or an ErrorResponse.
+ *         The response is either a SuccessResponse or an ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:17491","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:46206","type":"sequence"}]
  */
 class UserSimultaneousRingFamilyDeletePhoneNumberRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserSimultaneousRingFamilyDeletePhoneNumberRequest extends \CWM\BroadWorks
     /**
      * @ElementName userId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:17491
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:46206
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -28,7 +28,7 @@ class UserSimultaneousRingFamilyDeletePhoneNumberRequest extends \CWM\BroadWorks
     /**
      * @ElementName phoneNumber
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:17491
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:46206
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

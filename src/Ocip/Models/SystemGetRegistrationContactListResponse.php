@@ -5,16 +5,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemGetRegistrationContactListResponse
  *
- * Response to SystemGetRegistrationContactListRequest. The table columns are: "Service Provider Id",
- *                 "Group Id", "User Id", "Line/Port",
- *                 "Endpoint Type", "Order", "URI", "Expiration", "Contact", "Device Level", "Device Name", "Public Net
- *                 Address",
- *                 "Public Port", "Private Net Address", "Private Port", "User Agent", "Reseller Id".
- *                 The following columns are only returned in AS data mode:
- *                 "Reseller Id"
+ * Response to SystemGetRegistrationContactListRequest. The table columns are: "Service Provider Id", "Group Id", "User Id", "Line/Port", 
+ *         "Endpoint Type", "Order", "URI", "Expiration", "Contact", "Device Level", "Device Name", "Public Net Address", 
+ *         "Public Port", "Private Net Address", "Private Port", "User Agent", "Reseller Id".
+ *         The following columns are only returned in AS data mode:       
+ *           "Reseller Id"
  *
  * @see SystemGetRegistrationContactListRequest
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:38822","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:27085","type":"sequence"}]
  */
 class SystemGetRegistrationContactListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -22,7 +20,7 @@ class SystemGetRegistrationContactListResponse extends \CWM\BroadWorksConnector\
     /**
      * @ElementName registrationTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:38822
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:27085
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $registrationTable = null;

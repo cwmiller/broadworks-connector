@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:3407","type":"sequence"}]
+ * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:3446","type":"sequence"}]
  */
 class UserPushNotificationModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserPushNotificationModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName userId
      * @Type string
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:3407
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:3446
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -29,10 +29,19 @@ class UserPushNotificationModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName sendPushNotificationForClickToDial
      * @Type bool
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:3407
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:3446
      * @var bool|null
      */
     private $sendPushNotificationForClickToDial = null;
+
+    /**
+     * @ElementName sendPushNotificationForGroupPaging
+     * @Type bool
+     * @Optional
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:3446
+     * @var bool|null
+     */
+    private $sendPushNotificationForGroupPaging = null;
 
     /**
      * Getter for userId
@@ -93,6 +102,37 @@ class UserPushNotificationModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     public function unsetSendPushNotificationForClickToDial()
     {
         $this->sendPushNotificationForClickToDial = null;
+        return $this;
+    }
+
+    /**
+     * Getter for sendPushNotificationForGroupPaging
+     *
+     * @return bool
+     */
+    public function getSendPushNotificationForGroupPaging()
+    {
+        return $this->sendPushNotificationForGroupPaging instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->sendPushNotificationForGroupPaging;
+    }
+
+    /**
+     * Setter for sendPushNotificationForGroupPaging
+     *
+     * @param bool $sendPushNotificationForGroupPaging
+     * @return $this
+     */
+    public function setSendPushNotificationForGroupPaging($sendPushNotificationForGroupPaging)
+    {
+        $this->sendPushNotificationForGroupPaging = $sendPushNotificationForGroupPaging;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetSendPushNotificationForGroupPaging()
+    {
+        $this->sendPushNotificationForGroupPaging = null;
         return $this;
     }
 

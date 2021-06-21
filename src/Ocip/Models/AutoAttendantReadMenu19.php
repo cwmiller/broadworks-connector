@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         after business
  *         hours.
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:795","type":"sequence"}]
+ * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:901","type":"sequence"}]
  */
 class AutoAttendantReadMenu19
 {
@@ -19,7 +19,7 @@ class AutoAttendantReadMenu19
     /**
      * @ElementName announcementSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:795
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:901
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection|null
      */
     private $announcementSelection = null;
@@ -28,7 +28,7 @@ class AutoAttendantReadMenu19
      * @ElementName audioFileDescription
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:795
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:901
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -39,7 +39,7 @@ class AutoAttendantReadMenu19
      * @ElementName audioMediaType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MediaFileType
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:795
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:901
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     private $audioMediaType = null;
@@ -48,7 +48,7 @@ class AutoAttendantReadMenu19
      * @ElementName videoFileDescription
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:795
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:901
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -59,7 +59,7 @@ class AutoAttendantReadMenu19
      * @ElementName videoMediaType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MediaFileType
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:795
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:901
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     private $videoMediaType = null;
@@ -67,7 +67,7 @@ class AutoAttendantReadMenu19
     /**
      * @ElementName enableFirstMenuLevelExtensionDialing
      * @Type bool
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:795
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:901
      * @var bool|null
      */
     private $enableFirstMenuLevelExtensionDialing = null;
@@ -77,7 +77,7 @@ class AutoAttendantReadMenu19
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantKeyReadConfiguration19
      * @Array
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:795
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:901
      * @var \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantKeyReadConfiguration19[]
      */
     private $keyConfiguration = array(

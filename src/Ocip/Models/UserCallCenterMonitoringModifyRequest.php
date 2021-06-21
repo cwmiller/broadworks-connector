@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"41b968f87257b8dd553215179161ccb4:74","type":"sequence"}]
+ * @Groups [{"id":"41b968f87257b8dd553215179161ccb4:181","type":"sequence"}]
  */
 class UserCallCenterMonitoringModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserCallCenterMonitoringModifyRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName userId
      * @Type string
-     * @Group 41b968f87257b8dd553215179161ccb4:74
+     * @Group 41b968f87257b8dd553215179161ccb4:181
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -29,10 +29,19 @@ class UserCallCenterMonitoringModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName playToneToAgentForSilentMonitoring
      * @Type bool
      * @Optional
-     * @Group 41b968f87257b8dd553215179161ccb4:74
+     * @Group 41b968f87257b8dd553215179161ccb4:181
      * @var bool|null
      */
     private $playToneToAgentForSilentMonitoring = null;
+
+    /**
+     * @ElementName playToneToAgentForSupervisorCoaching
+     * @Type bool
+     * @Optional
+     * @Group 41b968f87257b8dd553215179161ccb4:181
+     * @var bool|null
+     */
+    private $playToneToAgentForSupervisorCoaching = null;
 
     /**
      * Getter for userId
@@ -93,6 +102,37 @@ class UserCallCenterMonitoringModifyRequest extends \CWM\BroadWorksConnector\Oci
     public function unsetPlayToneToAgentForSilentMonitoring()
     {
         $this->playToneToAgentForSilentMonitoring = null;
+        return $this;
+    }
+
+    /**
+     * Getter for playToneToAgentForSupervisorCoaching
+     *
+     * @return bool
+     */
+    public function getPlayToneToAgentForSupervisorCoaching()
+    {
+        return $this->playToneToAgentForSupervisorCoaching instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->playToneToAgentForSupervisorCoaching;
+    }
+
+    /**
+     * Setter for playToneToAgentForSupervisorCoaching
+     *
+     * @param bool $playToneToAgentForSupervisorCoaching
+     * @return $this
+     */
+    public function setPlayToneToAgentForSupervisorCoaching($playToneToAgentForSupervisorCoaching)
+    {
+        $this->playToneToAgentForSupervisorCoaching = $playToneToAgentForSupervisorCoaching;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetPlayToneToAgentForSupervisorCoaching()
+    {
+        $this->playToneToAgentForSupervisorCoaching = null;
         return $this;
     }
 

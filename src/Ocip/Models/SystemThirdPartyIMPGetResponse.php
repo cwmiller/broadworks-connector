@@ -6,13 +6,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemThirdPartyIMPGetResponse
  *
  * Response to the SystemThirdPartyIMPGetRequest.
- *                 The response contains the system Third-Party IMP service attributes.
- *
- *                 Replaced by SystemThirdPartyIMPGetResponse19.
+ *         The response contains the system Third-Party IMP service attributes.
+ *         
+ *         Replaced by SystemThirdPartyIMPGetResponse19.
  *
  * @see SystemThirdPartyIMPGetRequest
  * @see SystemThirdPartyIMPGetResponse19
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:27017","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:35509","type":"sequence"}]
  */
 class SystemThirdPartyIMPGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -21,7 +21,7 @@ class SystemThirdPartyIMPGetResponse extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName serviceNetAddress
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:27017
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:35509
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -32,7 +32,7 @@ class SystemThirdPartyIMPGetResponse extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName servicePort
      * @Type int
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:27017
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:35509
      * @MinInclusive 1
      * @MaxInclusive 65535
      * @var int|null

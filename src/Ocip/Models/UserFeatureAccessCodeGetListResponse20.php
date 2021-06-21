@@ -6,13 +6,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserFeatureAccessCodeGetListResponse20
  *
  * Response to the UserFeatureAccessCodeGetListRequest20.
- *                 In release 20 the "Call Recording" FAC name is changed to
- *                 "Call Recording Start".
- *                 Replaced by: UserFeatureAccessCodeGetListResponse21
+ *         In release 20 the "Call Recording" FAC name is changed to
+ *         "Call Recording Start".
+ *         Replaced by: UserFeatureAccessCodeGetListResponse21
  *
  * @see UserFeatureAccessCodeGetListRequest20
  * @see UserFeatureAccessCodeGetListResponse21
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:35880","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:42930","type":"sequence"}]
  */
 class UserFeatureAccessCodeGetListResponse20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -22,7 +22,7 @@ class UserFeatureAccessCodeGetListResponse20 extends \CWM\BroadWorksConnector\Oc
      * @Type \CWM\BroadWorksConnector\Ocip\Models\FeatureAccessCodeEntry
      * @Array
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:35880
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:42930
      * @var \CWM\BroadWorksConnector\Ocip\Models\FeatureAccessCodeEntry[]
      */
     private $featureAccessCode = array(

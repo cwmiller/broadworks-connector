@@ -15,7 +15,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see ServiceProviderDnGetSummaryListResponse
  * @see ErrorResponse
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:3204","type":"sequence"}]
+ * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:3896","type":"sequence"}]
  */
 class ServiceProviderDnGetSummaryListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -23,7 +23,7 @@ class ServiceProviderDnGetSummaryListRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3204
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3896
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -35,7 +35,7 @@ class ServiceProviderDnGetSummaryListRequest extends \CWM\BroadWorksConnector\Oc
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId
      * @Array
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3204
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3896
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId[]
      */
     private $searchCriteriaGroupId = array(
@@ -47,7 +47,7 @@ class ServiceProviderDnGetSummaryListRequest extends \CWM\BroadWorksConnector\Oc
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn
      * @Array
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3204
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3896
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[]
      */
     private $searchCriteriaDn = array(

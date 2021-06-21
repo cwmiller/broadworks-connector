@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to GroupExchangeIntegrationGetRequest.
  *
  * @see GroupExchangeIntegrationGetRequest
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:4757","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:5656","type":"sequence"}]
  */
 class GroupExchangeIntegrationGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class GroupExchangeIntegrationGetResponse extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName enableExchangeIntegration
      * @Type bool
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4757
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:5656
      * @var bool|null
      */
     private $enableExchangeIntegration = null;
@@ -25,7 +25,7 @@ class GroupExchangeIntegrationGetResponse extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName exchangeURL
      * @Type string
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4757
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:5656
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -36,7 +36,7 @@ class GroupExchangeIntegrationGetResponse extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName exchangeUserName
      * @Type string
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4757
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:5656
      * @MinLength 1
      * @MaxLength 64
      * @var string|null

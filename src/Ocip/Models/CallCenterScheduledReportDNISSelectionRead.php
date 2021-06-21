@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Either all DNIS under the specified Call Center or 2 lists of DNIS, one for current one for past (deleted).
  *
- * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:7632","type":"sequence","children":[{"id":"e2c537e3e39483b96620673a7012ffdd:7635","type":"choice","children":[{"id":"e2c537e3e39483b96620673a7012ffdd:7637","type":"sequence"}]}]}]
+ * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:7665","type":"sequence","children":[{"id":"e2c537e3e39483b96620673a7012ffdd:7668","type":"choice","children":[{"id":"e2c537e3e39483b96620673a7012ffdd:7670","type":"sequence"}]}]}]
  */
 class CallCenterScheduledReportDNISSelectionRead
 {
@@ -15,7 +15,7 @@ class CallCenterScheduledReportDNISSelectionRead
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group e2c537e3e39483b96620673a7012ffdd:7632
+     * @Group e2c537e3e39483b96620673a7012ffdd:7665
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -26,7 +26,7 @@ class CallCenterScheduledReportDNISSelectionRead
      * @ElementName deleted
      * @Type bool
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:7632
+     * @Group e2c537e3e39483b96620673a7012ffdd:7665
      * @var bool|null
      */
     private $deleted = null;
@@ -34,7 +34,7 @@ class CallCenterScheduledReportDNISSelectionRead
     /**
      * @ElementName allDNIS
      * @Type bool
-     * @Group e2c537e3e39483b96620673a7012ffdd:7635
+     * @Group e2c537e3e39483b96620673a7012ffdd:7668
      * @var bool|null
      */
     private $allDNIS = null;
@@ -44,7 +44,7 @@ class CallCenterScheduledReportDNISSelectionRead
      * @Type string
      * @Array
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:7637
+     * @Group e2c537e3e39483b96620673a7012ffdd:7670
      * @MinLength 1
      * @MaxLength 40
      * @var string[]
@@ -58,7 +58,7 @@ class CallCenterScheduledReportDNISSelectionRead
      * @Type string
      * @Array
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:7637
+     * @Group e2c537e3e39483b96620673a7012ffdd:7670
      * @MinLength 1
      * @MaxLength 40
      * @var string[]

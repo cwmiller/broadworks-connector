@@ -6,13 +6,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserBroadWorksAnywhereGetRequest
  *
  * Get the list of all the BroadWorks Anywhere phone numbers for the user.
- *                 The response is either a UserBroadWorksAnywhereGetResponse or an ErrorResponse.
- *                 Replaced by: UserBroadWorksAnywhereGetRequest16sp2
+ *         The response is either a UserBroadWorksAnywhereGetResponse or an ErrorResponse.
+ *         Replaced by: UserBroadWorksAnywhereGetRequest16sp2
  *
  * @see UserBroadWorksAnywhereGetResponse
  * @see ErrorResponse
  * @see UserBroadWorksAnywhereGetRequest16sp2
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:16861","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:39588","type":"sequence"}]
  */
 class UserBroadWorksAnywhereGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class UserBroadWorksAnywhereGetRequest extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName userId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:16861
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:39588
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

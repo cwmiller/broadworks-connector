@@ -6,13 +6,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupGroupPagingGetInstanceRequest
  *
  * Replaced by: GroupGroupPagingGetInstanceRequest17sp3
- *                 Request to get all the information of a Group Paging instance.
- *                 The response is either GroupGroupPagingGetInstanceResponse or ErrorResponse.
+ *         Request to get all the information of a Group Paging instance.
+ *         The response is either GroupGroupPagingGetInstanceResponse or ErrorResponse.
  *
  * @see GroupGroupPagingGetInstanceRequest17sp3
  * @see GroupGroupPagingGetInstanceResponse
  * @see ErrorResponse
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:19514","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:10036","type":"sequence"}]
  */
 class GroupGroupPagingGetInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class GroupGroupPagingGetInstanceRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:19514
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:10036
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

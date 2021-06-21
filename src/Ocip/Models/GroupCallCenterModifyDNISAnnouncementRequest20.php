@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:5118","type":"sequence"}]
+ * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:5078","type":"sequence"}]
  */
 class GroupCallCenterModifyDNISAnnouncementRequest20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupCallCenterModifyDNISAnnouncementRequest20 extends \CWM\BroadWorksConn
     /**
      * @ElementName dnisKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DNISKey
-     * @Group e2c537e3e39483b96620673a7012ffdd:5118
+     * @Group e2c537e3e39483b96620673a7012ffdd:5078
      * @var \CWM\BroadWorksConnector\Ocip\Models\DNISKey|null
      */
     private $dnisKey = null;
@@ -27,7 +27,7 @@ class GroupCallCenterModifyDNISAnnouncementRequest20 extends \CWM\BroadWorksConn
      * @ElementName playEntranceMessage
      * @Type bool
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:5118
+     * @Group e2c537e3e39483b96620673a7012ffdd:5078
      * @var bool|null
      */
     private $playEntranceMessage = null;
@@ -36,7 +36,7 @@ class GroupCallCenterModifyDNISAnnouncementRequest20 extends \CWM\BroadWorksConn
      * @ElementName mandatoryEntranceMessage
      * @Type bool
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:5118
+     * @Group e2c537e3e39483b96620673a7012ffdd:5078
      * @var bool|null
      */
     private $mandatoryEntranceMessage = null;
@@ -45,7 +45,7 @@ class GroupCallCenterModifyDNISAnnouncementRequest20 extends \CWM\BroadWorksConn
      * @ElementName entranceAudioMessageSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:5118
+     * @Group e2c537e3e39483b96620673a7012ffdd:5078
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     private $entranceAudioMessageSelection = null;
@@ -54,7 +54,7 @@ class GroupCallCenterModifyDNISAnnouncementRequest20 extends \CWM\BroadWorksConn
      * @ElementName entranceMessageAudioUrlList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLListModify
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:5118
+     * @Group e2c537e3e39483b96620673a7012ffdd:5078
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLListModify|null
      */
     private $entranceMessageAudioUrlList = null;
@@ -63,7 +63,7 @@ class GroupCallCenterModifyDNISAnnouncementRequest20 extends \CWM\BroadWorksConn
      * @ElementName entranceMessageAudioFileList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListModify20
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:5118
+     * @Group e2c537e3e39483b96620673a7012ffdd:5078
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListModify20|null
      */
     private $entranceMessageAudioFileList = null;
@@ -72,7 +72,7 @@ class GroupCallCenterModifyDNISAnnouncementRequest20 extends \CWM\BroadWorksConn
      * @ElementName entranceVideoMessageSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:5118
+     * @Group e2c537e3e39483b96620673a7012ffdd:5078
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     private $entranceVideoMessageSelection = null;
@@ -81,7 +81,7 @@ class GroupCallCenterModifyDNISAnnouncementRequest20 extends \CWM\BroadWorksConn
      * @ElementName entranceMessageVideoUrlList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLListModify
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:5118
+     * @Group e2c537e3e39483b96620673a7012ffdd:5078
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLListModify|null
      */
     private $entranceMessageVideoUrlList = null;
@@ -90,7 +90,7 @@ class GroupCallCenterModifyDNISAnnouncementRequest20 extends \CWM\BroadWorksConn
      * @ElementName entranceMessageVideoFileList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListModify20
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:5118
+     * @Group e2c537e3e39483b96620673a7012ffdd:5078
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListModify20|null
      */
     private $entranceMessageVideoFileList = null;
@@ -99,7 +99,7 @@ class GroupCallCenterModifyDNISAnnouncementRequest20 extends \CWM\BroadWorksConn
      * @ElementName playPeriodicComfortMessage
      * @Type bool
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:5118
+     * @Group e2c537e3e39483b96620673a7012ffdd:5078
      * @var bool|null
      */
     private $playPeriodicComfortMessage = null;
@@ -108,7 +108,7 @@ class GroupCallCenterModifyDNISAnnouncementRequest20 extends \CWM\BroadWorksConn
      * @ElementName timeBetweenComfortMessagesSeconds
      * @Type int
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:5118
+     * @Group e2c537e3e39483b96620673a7012ffdd:5078
      * @MinInclusive 10
      * @MaxInclusive 600
      * @var int|null
@@ -119,7 +119,7 @@ class GroupCallCenterModifyDNISAnnouncementRequest20 extends \CWM\BroadWorksConn
      * @ElementName periodicComfortAudioMessageSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:5118
+     * @Group e2c537e3e39483b96620673a7012ffdd:5078
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     private $periodicComfortAudioMessageSelection = null;
@@ -128,7 +128,7 @@ class GroupCallCenterModifyDNISAnnouncementRequest20 extends \CWM\BroadWorksConn
      * @ElementName periodicComfortMessageAudioUrlList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLListModify
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:5118
+     * @Group e2c537e3e39483b96620673a7012ffdd:5078
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLListModify|null
      */
     private $periodicComfortMessageAudioUrlList = null;
@@ -137,7 +137,7 @@ class GroupCallCenterModifyDNISAnnouncementRequest20 extends \CWM\BroadWorksConn
      * @ElementName periodicComfortMessageAudioFileList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListModify20
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:5118
+     * @Group e2c537e3e39483b96620673a7012ffdd:5078
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListModify20|null
      */
     private $periodicComfortMessageAudioFileList = null;
@@ -146,7 +146,7 @@ class GroupCallCenterModifyDNISAnnouncementRequest20 extends \CWM\BroadWorksConn
      * @ElementName periodicComfortVideoMessageSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:5118
+     * @Group e2c537e3e39483b96620673a7012ffdd:5078
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     private $periodicComfortVideoMessageSelection = null;
@@ -155,7 +155,7 @@ class GroupCallCenterModifyDNISAnnouncementRequest20 extends \CWM\BroadWorksConn
      * @ElementName periodicComfortMessageVideoUrlList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLListModify
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:5118
+     * @Group e2c537e3e39483b96620673a7012ffdd:5078
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLListModify|null
      */
     private $periodicComfortMessageVideoUrlList = null;
@@ -164,7 +164,7 @@ class GroupCallCenterModifyDNISAnnouncementRequest20 extends \CWM\BroadWorksConn
      * @ElementName periodicComfortMessageVideoFileList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListModify20
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:5118
+     * @Group e2c537e3e39483b96620673a7012ffdd:5078
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListModify20|null
      */
     private $periodicComfortMessageVideoFileList = null;
@@ -173,7 +173,7 @@ class GroupCallCenterModifyDNISAnnouncementRequest20 extends \CWM\BroadWorksConn
      * @ElementName enableMediaOnHoldForQueuedCalls
      * @Type bool
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:5118
+     * @Group e2c537e3e39483b96620673a7012ffdd:5078
      * @var bool|null
      */
     private $enableMediaOnHoldForQueuedCalls = null;
@@ -182,7 +182,7 @@ class GroupCallCenterModifyDNISAnnouncementRequest20 extends \CWM\BroadWorksConn
      * @ElementName mediaOnHoldSource
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterMediaOnHoldSourceModify20
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:5118
+     * @Group e2c537e3e39483b96620673a7012ffdd:5078
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterMediaOnHoldSourceModify20|null
      */
     private $mediaOnHoldSource = null;
@@ -191,7 +191,7 @@ class GroupCallCenterModifyDNISAnnouncementRequest20 extends \CWM\BroadWorksConn
      * @ElementName playWhisperMessage
      * @Type bool
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:5118
+     * @Group e2c537e3e39483b96620673a7012ffdd:5078
      * @var bool|null
      */
     private $playWhisperMessage = null;
@@ -200,7 +200,7 @@ class GroupCallCenterModifyDNISAnnouncementRequest20 extends \CWM\BroadWorksConn
      * @ElementName whisperAudioMessageSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:5118
+     * @Group e2c537e3e39483b96620673a7012ffdd:5078
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     private $whisperAudioMessageSelection = null;
@@ -209,7 +209,7 @@ class GroupCallCenterModifyDNISAnnouncementRequest20 extends \CWM\BroadWorksConn
      * @ElementName whisperMessageAudioUrlList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLListModify
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:5118
+     * @Group e2c537e3e39483b96620673a7012ffdd:5078
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLListModify|null
      */
     private $whisperMessageAudioUrlList = null;
@@ -218,7 +218,7 @@ class GroupCallCenterModifyDNISAnnouncementRequest20 extends \CWM\BroadWorksConn
      * @ElementName whisperMessageAudioFileList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListModify20
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:5118
+     * @Group e2c537e3e39483b96620673a7012ffdd:5078
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListModify20|null
      */
     private $whisperMessageAudioFileList = null;
@@ -227,7 +227,7 @@ class GroupCallCenterModifyDNISAnnouncementRequest20 extends \CWM\BroadWorksConn
      * @ElementName whisperVideoMessageSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:5118
+     * @Group e2c537e3e39483b96620673a7012ffdd:5078
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     private $whisperVideoMessageSelection = null;
@@ -236,7 +236,7 @@ class GroupCallCenterModifyDNISAnnouncementRequest20 extends \CWM\BroadWorksConn
      * @ElementName whisperMessageVideoUrlList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLListModify
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:5118
+     * @Group e2c537e3e39483b96620673a7012ffdd:5078
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLListModify|null
      */
     private $whisperMessageVideoUrlList = null;
@@ -245,7 +245,7 @@ class GroupCallCenterModifyDNISAnnouncementRequest20 extends \CWM\BroadWorksConn
      * @ElementName whisperMessageVideoFileList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListModify20
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:5118
+     * @Group e2c537e3e39483b96620673a7012ffdd:5078
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListModify20|null
      */
     private $whisperMessageVideoFileList = null;
@@ -254,7 +254,7 @@ class GroupCallCenterModifyDNISAnnouncementRequest20 extends \CWM\BroadWorksConn
      * @ElementName estimatedWaitMessageOptionsModify
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EstimatedWaitMessageOptionsModify
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:5118
+     * @Group e2c537e3e39483b96620673a7012ffdd:5078
      * @var \CWM\BroadWorksConnector\Ocip\Models\EstimatedWaitMessageOptionsModify|null
      */
     private $estimatedWaitMessageOptionsModify = null;

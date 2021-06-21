@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The password must be hashed. The password hashing algorithm is:
  *         1) The message digest of the user's plain password is calculated using the SHA algorithm.
  *         2) For every four bits in the 160-bit digest, starting from the first bit, it is
- *         converted into a character in ASCII Hex format (0 through 9, a through f).
- *         The result is a 40-character string, for example, f7a9e24777ec23212c54d7a350bc5bea5477fdbb.
+ *            converted into a character in ASCII Hex format (0 through 9, a through f).
+ *            The result is a 40-character string, for example, f7a9e24777ec23212c54d7a350bc5bea5477fdbb.
  *         3) The above string then is used to populate the password field in the request.
  *         The response is either SuccessResponse or ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"a8b2edcd7d6936a8b76653949ae59623:35","type":"sequence"}]
+ * @Groups [{"id":"a8b2edcd7d6936a8b76653949ae59623:62","type":"sequence"}]
  */
 class ExternalAuthenticationAuthorizeTokenRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -25,7 +25,7 @@ class ExternalAuthenticationAuthorizeTokenRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName userId
      * @Type string
-     * @Group a8b2edcd7d6936a8b76653949ae59623:35
+     * @Group a8b2edcd7d6936a8b76653949ae59623:62
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -36,7 +36,7 @@ class ExternalAuthenticationAuthorizeTokenRequest extends \CWM\BroadWorksConnect
      * @ElementName password
      * @Type string
      * @Optional
-     * @Group a8b2edcd7d6936a8b76653949ae59623:35
+     * @Group a8b2edcd7d6936a8b76653949ae59623:62
      * @MinLength 1
      * @MaxLength 60
      * @var string|null
@@ -46,7 +46,7 @@ class ExternalAuthenticationAuthorizeTokenRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName loginToken
      * @Type string
-     * @Group a8b2edcd7d6936a8b76653949ae59623:35
+     * @Group a8b2edcd7d6936a8b76653949ae59623:62
      * @MinLength 1
      * @var string|null
      */

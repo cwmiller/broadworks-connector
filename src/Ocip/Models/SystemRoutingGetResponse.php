@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemRoutingGetRequest.
  *
  * @see SystemRoutingGetRequest
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:14225","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:15324","type":"sequence"}]
  */
 class SystemRoutingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class SystemRoutingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
     /**
      * @ElementName isRouteRoundRobin
      * @Type bool
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14225
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:15324
      * @var bool|null
      */
     private $isRouteRoundRobin = null;
@@ -24,7 +24,7 @@ class SystemRoutingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
     /**
      * @ElementName routeTimerSeconds
      * @Type int
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14225
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:15324
      * @MinInclusive 1
      * @MaxInclusive 25
      * @var int|null
@@ -34,7 +34,7 @@ class SystemRoutingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
     /**
      * @ElementName dnsResolvedAddressSelectionPolicy
      * @Type \CWM\BroadWorksConnector\Ocip\Models\RoutingDNSResolvedAddressSelectionPolicy
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14225
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:15324
      * @var \CWM\BroadWorksConnector\Ocip\Models\RoutingDNSResolvedAddressSelectionPolicy|null
      */
     private $dnsResolvedAddressSelectionPolicy = null;
@@ -42,7 +42,7 @@ class SystemRoutingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
     /**
      * @ElementName statefulExpirationMinutes
      * @Type int
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14225
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:15324
      * @MinInclusive 0
      * @MaxInclusive 1440
      * @var int|null
@@ -52,7 +52,7 @@ class SystemRoutingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
     /**
      * @ElementName maxAddressesPerHostname
      * @Type int
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14225
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:15324
      * @MinInclusive 1
      * @MaxInclusive 50
      * @var int|null
@@ -62,7 +62,7 @@ class SystemRoutingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
     /**
      * @ElementName maxAddressesDuringSetup
      * @Type int
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14225
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:15324
      * @MinInclusive 1
      * @MaxInclusive 50
      * @var int|null

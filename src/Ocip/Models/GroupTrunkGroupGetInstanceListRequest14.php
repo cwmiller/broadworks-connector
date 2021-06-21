@@ -6,13 +6,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupTrunkGroupGetInstanceListRequest14
  *
  * Get a list of Trunk Groups for the group or enterprise.
- *                 It is possible to restrict the results to a particular department, or expand the list to the entire
- *                 enterprise.
- *                 The response is either a GroupTrunkGroupGetInstanceListResponse14 or an ErrorResponse.
+ *         It is possible to restrict the results to a particular department, or expand the list to the entire enterprise.
+ *         The response is either a GroupTrunkGroupGetInstanceListResponse14 or an ErrorResponse.
  *
  * @see GroupTrunkGroupGetInstanceListResponse14
  * @see ErrorResponse
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:2335","type":"sequence","children":[{"id":"ab0042aa512abc10edb3c55e4b416b0b:2338","type":"choice","optional":true}]}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:14023","type":"sequence","children":[{"id":"ab0042aa512abc10edb3c55e4b416b0b:14026","type":"choice","optional":true}]}]
  */
 class GroupTrunkGroupGetInstanceListRequest14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +19,7 @@ class GroupTrunkGroupGetInstanceListRequest14 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:2335
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:14023
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -30,7 +29,7 @@ class GroupTrunkGroupGetInstanceListRequest14 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName groupId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:2335
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:14023
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -40,7 +39,7 @@ class GroupTrunkGroupGetInstanceListRequest14 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName groupDepartmentName
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:2338
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:14026
      * @MinLength 1
      * @MaxLength 50
      * @var string|null
@@ -50,7 +49,7 @@ class GroupTrunkGroupGetInstanceListRequest14 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName includeEnterpriseTrunkGroups
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:2338
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:14026
      * @var bool|null
      */
     private $includeEnterpriseTrunkGroups = null;
@@ -59,7 +58,7 @@ class GroupTrunkGroupGetInstanceListRequest14 extends \CWM\BroadWorksConnector\O
      * @ElementName onlyTrunkGroupsWithDevice
      * @Type bool
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:2335
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:14023
      * @var bool|null
      */
     private $onlyTrunkGroupsWithDevice = null;

@@ -7,10 +7,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Request to update a System  Voice portal instance.
  *         The response is either SuccessResponse or ErrorResponse.
+ *         
+ *         The following elements are only used in AS data mode and ignored in XS data mode:
+ *             networkClassOfService
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:17479","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:18466","type":"sequence"}]
  */
 class SystemSystemVoicePortalModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +21,7 @@ class SystemSystemVoicePortalModifyRequest extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName systemVoicePortalId
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17479
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18466
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -29,7 +32,7 @@ class SystemSystemVoicePortalModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @ElementName newSystemVoicePortalId
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17479
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18466
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -40,7 +43,7 @@ class SystemSystemVoicePortalModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @ElementName name
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17479
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18466
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -51,7 +54,7 @@ class SystemSystemVoicePortalModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @ElementName callingLineIdName
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17479
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18466
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -62,7 +65,7 @@ class SystemSystemVoicePortalModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @ElementName language
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17479
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18466
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -73,7 +76,7 @@ class SystemSystemVoicePortalModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @ElementName timeZone
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17479
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18466
      * @MinLength 1
      * @MaxLength 127
      * @var string|null
@@ -85,7 +88,7 @@ class SystemSystemVoicePortalModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17479
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18466
      * @MinLength 1
      * @MaxLength 23
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -97,7 +100,7 @@ class SystemSystemVoicePortalModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17479
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18466
      * @MinLength 1
      * @MaxLength 161
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -109,7 +112,7 @@ class SystemSystemVoicePortalModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17479
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18466
      * @MinLength 1
      * @MaxLength 23
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -120,7 +123,7 @@ class SystemSystemVoicePortalModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @ElementName allowIdentificationByPhoneNumberOrVoiceMailAliasesOnLogin
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17479
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18466
      * @var bool|null
      */
     private $allowIdentificationByPhoneNumberOrVoiceMailAliasesOnLogin = null;
@@ -129,7 +132,7 @@ class SystemSystemVoicePortalModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @ElementName useVoicePortalWizard
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17479
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18466
      * @var bool|null
      */
     private $useVoicePortalWizard = null;
@@ -138,7 +141,7 @@ class SystemSystemVoicePortalModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @ElementName becomeDefaultSystemVoicePortal
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17479
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18466
      * @var bool|null
      */
     private $becomeDefaultSystemVoicePortal = null;
@@ -147,7 +150,7 @@ class SystemSystemVoicePortalModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @ElementName useVoicePortalDefaultGreeting
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17479
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18466
      * @var bool|null
      */
     private $useVoicePortalDefaultGreeting = null;
@@ -156,7 +159,7 @@ class SystemSystemVoicePortalModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @ElementName voicePortalGreetingFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17479
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18466
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null
      */
     private $voicePortalGreetingFile = null;
@@ -165,7 +168,7 @@ class SystemSystemVoicePortalModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @ElementName useVoiceMessagingDefaultGreeting
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17479
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18466
      * @var bool|null
      */
     private $useVoiceMessagingDefaultGreeting = null;
@@ -174,7 +177,7 @@ class SystemSystemVoicePortalModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @ElementName voiceMessagingGreetingFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17479
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18466
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null
      */
     private $voiceMessagingGreetingFile = null;
@@ -183,10 +186,21 @@ class SystemSystemVoicePortalModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @ElementName expressMode
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17479
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18466
      * @var bool|null
      */
     private $expressMode = null;
+
+    /**
+     * @ElementName networkClassOfService
+     * @Type string
+     * @Optional
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18466
+     * @MinLength 1
+     * @MaxLength 40
+     * @var string|null
+     */
+    private $networkClassOfService = null;
 
     /**
      * Getter for systemVoicePortalId
@@ -724,6 +738,37 @@ class SystemSystemVoicePortalModifyRequest extends \CWM\BroadWorksConnector\Ocip
     public function unsetExpressMode()
     {
         $this->expressMode = null;
+        return $this;
+    }
+
+    /**
+     * Getter for networkClassOfService
+     *
+     * @return string
+     */
+    public function getNetworkClassOfService()
+    {
+        return $this->networkClassOfService instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->networkClassOfService;
+    }
+
+    /**
+     * Setter for networkClassOfService
+     *
+     * @param string $networkClassOfService
+     * @return $this
+     */
+    public function setNetworkClassOfService($networkClassOfService)
+    {
+        $this->networkClassOfService = $networkClassOfService;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetNetworkClassOfService()
+    {
+        $this->networkClassOfService = null;
         return $this;
     }
 

@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         headings are: "Address", "Extended Net Address", "Type", "Description".
  *
  * @see SystemAccountingGetChargingFunctionElementServerListRequest
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:1461","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:1909","type":"sequence"}]
  */
 class SystemAccountingGetChargingFunctionElementServerListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class SystemAccountingGetChargingFunctionElementServerListResponse extends \CWM\
     /**
      * @ElementName chargingFunctionElementServerTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1461
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1909
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $chargingFunctionElementServerTable = null;

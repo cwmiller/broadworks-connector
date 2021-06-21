@@ -6,16 +6,16 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupTrunkGroupGetInstanceRequest17sp3
  *
  * Get a Trunk Group Instance's profile.
- *                 The response is either a GroupTrunkGroupGetInstanceResponse17sp3 or an ErrorResponse.
- *                 The response contains a hosted user table with column headings: "User Id", "Last Name",
- *                 "First Name", "Hiragana Last Name", "Hiragana First Name".
- *
- *                 Replaced by: GroupTrunkGroupGetInstanceRequest17sp4
+ *         The response is either a GroupTrunkGroupGetInstanceResponse17sp3 or an ErrorResponse.
+ *         The response contains a hosted user table with column headings: "User Id", "Last Name",
+ *         "First Name", "Hiragana Last Name", "Hiragana First Name".
+ *         
+ *         Replaced by: GroupTrunkGroupGetInstanceRequest17sp4
  *
  * @see GroupTrunkGroupGetInstanceResponse17sp3
  * @see ErrorResponse
  * @see GroupTrunkGroupGetInstanceRequest17sp4
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:20406","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:14223","type":"sequence"}]
  */
 class GroupTrunkGroupGetInstanceRequest17sp3 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -23,7 +23,7 @@ class GroupTrunkGroupGetInstanceRequest17sp3 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName trunkGroupKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:20406
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:14223
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey|null
      */
     private $trunkGroupKey = null;

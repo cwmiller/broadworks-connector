@@ -6,7 +6,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserAnnouncementFileGetPagedSortedListResponse
  *
  * Response to UserAnnouncementFileGetPagedSortedListRequest.
- *         The response contains a table with columns: "Name", "Media Type", and "File Size".
+ *         The response contains a table with columns: "Name", "Media Type", "File Size", and "Announcement File External Id".
  *         The "Name" column contains the name of the announcement file.
  *         The "Media Type" column contains the media type of the announcement.
  *         File with the possible values:
@@ -17,7 +17,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The "File Size" column contains the file size (KB) of the announcement file.
  *
  * @see UserAnnouncementFileGetPagedSortedListRequest
- * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:644","type":"sequence"}]
+ * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:688","type":"sequence"}]
  */
 class UserAnnouncementFileGetPagedSortedListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -26,7 +26,7 @@ class UserAnnouncementFileGetPagedSortedListResponse extends \CWM\BroadWorksConn
      * @ElementName announcementTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:644
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:688
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $announcementTable = null;

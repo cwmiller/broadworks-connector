@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see EnterpriseVoiceVPNGetPolicyListResponse
  * @see ErrorResponse
- * @Groups [{"id":"5395c7df0157d44aa22f3351d1a5f3da:1424","type":"sequence"}]
+ * @Groups [{"id":"5395c7df0157d44aa22f3351d1a5f3da:1425","type":"sequence"}]
  */
 class EnterpriseVoiceVPNGetPolicyListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class EnterpriseVoiceVPNGetPolicyListRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1424
+     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1425
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -31,7 +31,7 @@ class EnterpriseVoiceVPNGetPolicyListRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1424
+     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1425
      * @MinInclusive 1
      * @var int|null
      */
@@ -42,7 +42,7 @@ class EnterpriseVoiceVPNGetPolicyListRequest extends \CWM\BroadWorksConnector\Oc
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupLocationCode
      * @Array
      * @Optional
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1424
+     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1425
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupLocationCode[]
      */
     private $searchCriteriaGroupLocationCode = array(
@@ -53,7 +53,7 @@ class EnterpriseVoiceVPNGetPolicyListRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName searchCriteriaExactPolicySelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactPolicySelection
      * @Optional
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1424
+     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1425
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactPolicySelection|null
      */
     private $searchCriteriaExactPolicySelection = null;

@@ -10,8 +10,6 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static DeviceAccessProtocol16 HTTP()
  * @method static DeviceAccessProtocol16 HTTPS()
  * @method static DeviceAccessProtocol16 FTP()
- * @method static DeviceAccessProtocol16 FTPS()
- * @method static DeviceAccessProtocol16 SFTP()
  * @method static DeviceAccessProtocol16 TFTP()
  * @EnumValueType string
  */
@@ -23,10 +21,6 @@ class DeviceAccessProtocol16 extends \MyCLabs\Enum\Enum
     const HTTPS = 'Https';
 
     const FTP = 'FTP';
-
-    const FTPS = 'FTPS';
-
-    const SFTP = 'SFTP';
 
     const TFTP = 'TFTP';
 

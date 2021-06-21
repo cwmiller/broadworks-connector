@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:4487","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:5386","type":"sequence"}]
  */
 class GroupDnListAssignDepartmentRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class GroupDnListAssignDepartmentRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4487
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:5386
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -29,7 +29,7 @@ class GroupDnListAssignDepartmentRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4487
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:5386
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -41,7 +41,7 @@ class GroupDnListAssignDepartmentRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey
      * @Abstract \CWM\BroadWorksConnector\Ocip\Models\EnterpriseDepartmentKey,\CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentKey
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4487
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:5386
      * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null
      */
     private $departmentKey = null;
@@ -51,7 +51,7 @@ class GroupDnListAssignDepartmentRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @Type string
      * @Array
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4487
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:5386
      * @MinLength 1
      * @MaxLength 23
      * @var string[]
@@ -65,7 +65,7 @@ class GroupDnListAssignDepartmentRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DNRange
      * @Array
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4487
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:5386
      * @var \CWM\BroadWorksConnector\Ocip\Models\DNRange[]
      */
     private $dnRange = array(

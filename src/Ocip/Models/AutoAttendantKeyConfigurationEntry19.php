@@ -7,17 +7,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * The configuration entry of a key for Auto
  *         Attendant.
- *         The following data elements are only used in
- *         AS data
- *         mode:
- *         audioFile
- *         videoFile
- *         submenuId
  *         The following data elements are only valid for Standard Auto
  *         Attendants:
  *         submenuId
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:597","type":"sequence"}]
+ * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:717","type":"sequence"}]
  */
 class AutoAttendantKeyConfigurationEntry19
 {
@@ -26,7 +20,7 @@ class AutoAttendantKeyConfigurationEntry19
      * @ElementName description
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:597
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:717
      * @MinLength 1
      * @MaxLength 20
      * @var string|null
@@ -36,7 +30,7 @@ class AutoAttendantKeyConfigurationEntry19
     /**
      * @ElementName action
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantKeyAction
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:597
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:717
      * @var \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantKeyAction|null
      */
     private $action = null;
@@ -45,7 +39,7 @@ class AutoAttendantKeyConfigurationEntry19
      * @ElementName phoneNumber
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:597
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:717
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -56,7 +50,7 @@ class AutoAttendantKeyConfigurationEntry19
      * @ElementName audioFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:597
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:717
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null
      */
     private $audioFile = null;
@@ -65,7 +59,7 @@ class AutoAttendantKeyConfigurationEntry19
      * @ElementName videoFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:597
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:717
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null
      */
     private $videoFile = null;
@@ -74,7 +68,7 @@ class AutoAttendantKeyConfigurationEntry19
      * @ElementName submenuId
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:597
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:717
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

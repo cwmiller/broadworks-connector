@@ -6,13 +6,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupDeviceTypeFileGetRequest14sp8
  *
  * Request to get a group device type file.
- *                 The response is either GroupDeviceTypeFileGetResponse14sp8 or ErrorResponse.
- *                 Replaced by: GroupDeviceTypeFileGetRequest16sp1
+ *         The response is either GroupDeviceTypeFileGetResponse14sp8 or ErrorResponse.
+ *         Replaced by: GroupDeviceTypeFileGetRequest16sp1
  *
  * @see GroupDeviceTypeFileGetResponse14sp8
  * @see ErrorResponse
  * @see GroupDeviceTypeFileGetRequest16sp1
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:13523","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:9254","type":"sequence"}]
  */
 class GroupDeviceTypeFileGetRequest14sp8 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class GroupDeviceTypeFileGetRequest14sp8 extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:13523
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:9254
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -30,7 +30,7 @@ class GroupDeviceTypeFileGetRequest14sp8 extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName groupId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:13523
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:9254
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -40,7 +40,7 @@ class GroupDeviceTypeFileGetRequest14sp8 extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName deviceType
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:13523
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:9254
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -50,7 +50,7 @@ class GroupDeviceTypeFileGetRequest14sp8 extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName fileFormat
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:13523
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:9254
      * @MinLength 1
      * @MaxLength 128
      * @var string|null

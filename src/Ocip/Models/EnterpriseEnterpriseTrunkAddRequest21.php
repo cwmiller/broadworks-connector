@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"b9c14e2d80e4e7749688ca13ba233b44:84","type":"sequence","children":[{"id":"b9c14e2d80e4e7749688ca13ba233b44:90","type":"choice"}]}]
+ * @Groups [{"id":"b9c14e2d80e4e7749688ca13ba233b44:89","type":"sequence","children":[{"id":"b9c14e2d80e4e7749688ca13ba233b44:95","type":"choice"}]}]
  */
 class EnterpriseEnterpriseTrunkAddRequest21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class EnterpriseEnterpriseTrunkAddRequest21 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group b9c14e2d80e4e7749688ca13ba233b44:84
+     * @Group b9c14e2d80e4e7749688ca13ba233b44:89
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +28,7 @@ class EnterpriseEnterpriseTrunkAddRequest21 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName enterpriseTrunkName
      * @Type string
-     * @Group b9c14e2d80e4e7749688ca13ba233b44:84
+     * @Group b9c14e2d80e4e7749688ca13ba233b44:89
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -38,7 +38,7 @@ class EnterpriseEnterpriseTrunkAddRequest21 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName maximumRerouteAttempts
      * @Type int
-     * @Group b9c14e2d80e4e7749688ca13ba233b44:84
+     * @Group b9c14e2d80e4e7749688ca13ba233b44:89
      * @MinInclusive 1
      * @MaxInclusive 10
      * @var int|null
@@ -48,7 +48,7 @@ class EnterpriseEnterpriseTrunkAddRequest21 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName routeExhaustionAction
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EnterpriseTrunkRouteExhaustionAction
-     * @Group b9c14e2d80e4e7749688ca13ba233b44:84
+     * @Group b9c14e2d80e4e7749688ca13ba233b44:89
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseTrunkRouteExhaustionAction|null
      */
     private $routeExhaustionAction = null;
@@ -57,7 +57,7 @@ class EnterpriseEnterpriseTrunkAddRequest21 extends \CWM\BroadWorksConnector\Oci
      * @ElementName routeExhaustionForwardAddress
      * @Type string
      * @Optional
-     * @Group b9c14e2d80e4e7749688ca13ba233b44:84
+     * @Group b9c14e2d80e4e7749688ca13ba233b44:89
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -67,7 +67,7 @@ class EnterpriseEnterpriseTrunkAddRequest21 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName orderedRouting
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EnterpriseEnterpriseTrunkAddRequest21OrderedRouting
-     * @Group b9c14e2d80e4e7749688ca13ba233b44:90
+     * @Group b9c14e2d80e4e7749688ca13ba233b44:95
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseEnterpriseTrunkAddRequest21OrderedRouting|null
      */
     private $orderedRouting = null;
@@ -75,7 +75,7 @@ class EnterpriseEnterpriseTrunkAddRequest21 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName priorityWeightedRouting
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EnterpriseEnterpriseTrunkAddRequest21PriorityWeightedRouting
-     * @Group b9c14e2d80e4e7749688ca13ba233b44:90
+     * @Group b9c14e2d80e4e7749688ca13ba233b44:95
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseEnterpriseTrunkAddRequest21PriorityWeightedRouting|null
      */
     private $priorityWeightedRouting = null;
@@ -83,7 +83,7 @@ class EnterpriseEnterpriseTrunkAddRequest21 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName enableCapacityManagement
      * @Type bool
-     * @Group b9c14e2d80e4e7749688ca13ba233b44:84
+     * @Group b9c14e2d80e4e7749688ca13ba233b44:89
      * @var bool|null
      */
     private $enableCapacityManagement = null;
@@ -92,7 +92,7 @@ class EnterpriseEnterpriseTrunkAddRequest21 extends \CWM\BroadWorksConnector\Oci
      * @ElementName maxActiveCalls
      * @Type int
      * @Optional
-     * @Group b9c14e2d80e4e7749688ca13ba233b44:84
+     * @Group b9c14e2d80e4e7749688ca13ba233b44:89
      * @MinInclusive 1
      * @var int|null
      */
@@ -102,7 +102,7 @@ class EnterpriseEnterpriseTrunkAddRequest21 extends \CWM\BroadWorksConnector\Oci
      * @ElementName capacityExceededTrapInitialCalls
      * @Type int
      * @Optional
-     * @Group b9c14e2d80e4e7749688ca13ba233b44:84
+     * @Group b9c14e2d80e4e7749688ca13ba233b44:89
      * @MinInclusive 0
      * @var int|null
      */
@@ -112,11 +112,41 @@ class EnterpriseEnterpriseTrunkAddRequest21 extends \CWM\BroadWorksConnector\Oci
      * @ElementName capacityExceededTrapOffsetCalls
      * @Type int
      * @Optional
-     * @Group b9c14e2d80e4e7749688ca13ba233b44:84
+     * @Group b9c14e2d80e4e7749688ca13ba233b44:89
      * @MinInclusive 0
      * @var int|null
      */
     private $capacityExceededTrapOffsetCalls = null;
+
+    /**
+     * @ElementName maximumActiveIncomingCallsAllowed
+     * @Type int
+     * @Optional
+     * @Group b9c14e2d80e4e7749688ca13ba233b44:89
+     * @MinInclusive 0
+     * @var int|null
+     */
+    private $maximumActiveIncomingCallsAllowed = null;
+
+    /**
+     * @ElementName maximumActiveOutgoingCallsAllowed
+     * @Type int
+     * @Optional
+     * @Group b9c14e2d80e4e7749688ca13ba233b44:89
+     * @MinInclusive 0
+     * @var int|null
+     */
+    private $maximumActiveOutgoingCallsAllowed = null;
+
+    /**
+     * @ElementName minimumActiveCallsReserved
+     * @Type int
+     * @Optional
+     * @Group b9c14e2d80e4e7749688ca13ba233b44:89
+     * @MinInclusive 0
+     * @var int|null
+     */
+    private $minimumActiveCallsReserved = null;
 
     /**
      * Getter for serviceProviderId
@@ -456,6 +486,99 @@ class EnterpriseEnterpriseTrunkAddRequest21 extends \CWM\BroadWorksConnector\Oci
     public function unsetCapacityExceededTrapOffsetCalls()
     {
         $this->capacityExceededTrapOffsetCalls = null;
+        return $this;
+    }
+
+    /**
+     * Getter for maximumActiveIncomingCallsAllowed
+     *
+     * @return int
+     */
+    public function getMaximumActiveIncomingCallsAllowed()
+    {
+        return $this->maximumActiveIncomingCallsAllowed instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->maximumActiveIncomingCallsAllowed;
+    }
+
+    /**
+     * Setter for maximumActiveIncomingCallsAllowed
+     *
+     * @param int $maximumActiveIncomingCallsAllowed
+     * @return $this
+     */
+    public function setMaximumActiveIncomingCallsAllowed($maximumActiveIncomingCallsAllowed)
+    {
+        $this->maximumActiveIncomingCallsAllowed = $maximumActiveIncomingCallsAllowed;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetMaximumActiveIncomingCallsAllowed()
+    {
+        $this->maximumActiveIncomingCallsAllowed = null;
+        return $this;
+    }
+
+    /**
+     * Getter for maximumActiveOutgoingCallsAllowed
+     *
+     * @return int
+     */
+    public function getMaximumActiveOutgoingCallsAllowed()
+    {
+        return $this->maximumActiveOutgoingCallsAllowed instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->maximumActiveOutgoingCallsAllowed;
+    }
+
+    /**
+     * Setter for maximumActiveOutgoingCallsAllowed
+     *
+     * @param int $maximumActiveOutgoingCallsAllowed
+     * @return $this
+     */
+    public function setMaximumActiveOutgoingCallsAllowed($maximumActiveOutgoingCallsAllowed)
+    {
+        $this->maximumActiveOutgoingCallsAllowed = $maximumActiveOutgoingCallsAllowed;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetMaximumActiveOutgoingCallsAllowed()
+    {
+        $this->maximumActiveOutgoingCallsAllowed = null;
+        return $this;
+    }
+
+    /**
+     * Getter for minimumActiveCallsReserved
+     *
+     * @return int
+     */
+    public function getMinimumActiveCallsReserved()
+    {
+        return $this->minimumActiveCallsReserved instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->minimumActiveCallsReserved;
+    }
+
+    /**
+     * Setter for minimumActiveCallsReserved
+     *
+     * @param int $minimumActiveCallsReserved
+     * @return $this
+     */
+    public function setMinimumActiveCallsReserved($minimumActiveCallsReserved)
+    {
+        $this->minimumActiveCallsReserved = $minimumActiveCallsReserved;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetMinimumActiveCallsReserved()
+    {
+        $this->minimumActiveCallsReserved = null;
         return $this;
     }
 

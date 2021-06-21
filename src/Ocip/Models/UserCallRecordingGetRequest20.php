@@ -13,10 +13,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           - enableCallRecordingAnnouncement
  *           - enableRecordCallRepeatWarningTone
  *           - recordCallRepeatWarningToneTimerSeconds
+ *           
+ *           Replaced by: UserCallRecordingGetRequest23.
  *
  * @see UserCallRecordingGetResponse20
  * @see ErrorResponse
- * @Groups [{"id":"9741e074fbfeb4c7312bfa4dfbaee3d3:391","type":"sequence"}]
+ * @see UserCallRecordingGetRequest23
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:41650","type":"sequence"}]
  */
 class UserCallRecordingGetRequest20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -24,7 +27,7 @@ class UserCallRecordingGetRequest20 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName userId
      * @Type string
-     * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:391
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:41650
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

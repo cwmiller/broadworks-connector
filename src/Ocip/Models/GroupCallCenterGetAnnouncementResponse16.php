@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the GroupCallCenterGetAnnouncementRequest16.
  *
  * @see GroupCallCenterGetAnnouncementRequest16
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:12822","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:5171","type":"sequence"}]
  */
 class GroupCallCenterGetAnnouncementResponse16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class GroupCallCenterGetAnnouncementResponse16 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName playEntranceMessage
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:12822
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:5171
      * @var bool|null
      */
     private $playEntranceMessage = null;
@@ -24,7 +24,7 @@ class GroupCallCenterGetAnnouncementResponse16 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName mandatoryEntranceMessage
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:12822
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:5171
      * @var bool|null
      */
     private $mandatoryEntranceMessage = null;
@@ -32,7 +32,7 @@ class GroupCallCenterGetAnnouncementResponse16 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName entranceAudioMessageSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:12822
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:5171
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     private $entranceAudioMessageSelection = null;
@@ -41,7 +41,7 @@ class GroupCallCenterGetAnnouncementResponse16 extends \CWM\BroadWorksConnector\
      * @ElementName entranceAudioFileUrl
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:12822
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:5171
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -52,7 +52,7 @@ class GroupCallCenterGetAnnouncementResponse16 extends \CWM\BroadWorksConnector\
      * @ElementName entranceMessageAudioFileDescription
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:12822
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:5171
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -63,7 +63,7 @@ class GroupCallCenterGetAnnouncementResponse16 extends \CWM\BroadWorksConnector\
      * @ElementName entranceAudioFileMediaType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MediaFileType
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:12822
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:5171
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     private $entranceAudioFileMediaType = null;
@@ -72,7 +72,7 @@ class GroupCallCenterGetAnnouncementResponse16 extends \CWM\BroadWorksConnector\
      * @ElementName entranceVideoMessageSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:12822
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:5171
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     private $entranceVideoMessageSelection = null;
@@ -81,7 +81,7 @@ class GroupCallCenterGetAnnouncementResponse16 extends \CWM\BroadWorksConnector\
      * @ElementName entranceVideoFileUrl
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:12822
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:5171
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -92,7 +92,7 @@ class GroupCallCenterGetAnnouncementResponse16 extends \CWM\BroadWorksConnector\
      * @ElementName entranceMessageVideoFileDescription
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:12822
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:5171
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -103,7 +103,7 @@ class GroupCallCenterGetAnnouncementResponse16 extends \CWM\BroadWorksConnector\
      * @ElementName entranceVideoFileMediaType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MediaFileType
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:12822
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:5171
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     private $entranceVideoFileMediaType = null;
@@ -111,7 +111,7 @@ class GroupCallCenterGetAnnouncementResponse16 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName playPeriodicComfortMessage
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:12822
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:5171
      * @var bool|null
      */
     private $playPeriodicComfortMessage = null;
@@ -119,7 +119,7 @@ class GroupCallCenterGetAnnouncementResponse16 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName timeBetweenComfortMessagesSeconds
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:12822
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:5171
      * @MinInclusive 10
      * @MaxInclusive 600
      * @var int|null
@@ -129,7 +129,7 @@ class GroupCallCenterGetAnnouncementResponse16 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName periodicComfortAudioMessageSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:12822
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:5171
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     private $periodicComfortAudioMessageSelection = null;
@@ -138,7 +138,7 @@ class GroupCallCenterGetAnnouncementResponse16 extends \CWM\BroadWorksConnector\
      * @ElementName periodicComfortAudioFileUrl
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:12822
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:5171
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -149,7 +149,7 @@ class GroupCallCenterGetAnnouncementResponse16 extends \CWM\BroadWorksConnector\
      * @ElementName periodicComfortMessageAudioFileDescription
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:12822
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:5171
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -160,7 +160,7 @@ class GroupCallCenterGetAnnouncementResponse16 extends \CWM\BroadWorksConnector\
      * @ElementName periodicComfortAudioFileMediaType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MediaFileType
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:12822
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:5171
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     private $periodicComfortAudioFileMediaType = null;
@@ -169,7 +169,7 @@ class GroupCallCenterGetAnnouncementResponse16 extends \CWM\BroadWorksConnector\
      * @ElementName periodicComfortVideoMessageSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:12822
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:5171
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     private $periodicComfortVideoMessageSelection = null;
@@ -178,7 +178,7 @@ class GroupCallCenterGetAnnouncementResponse16 extends \CWM\BroadWorksConnector\
      * @ElementName periodicComfortVideoFileUrl
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:12822
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:5171
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -189,7 +189,7 @@ class GroupCallCenterGetAnnouncementResponse16 extends \CWM\BroadWorksConnector\
      * @ElementName periodicComfortMessageVideoFileDescription
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:12822
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:5171
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -200,7 +200,7 @@ class GroupCallCenterGetAnnouncementResponse16 extends \CWM\BroadWorksConnector\
      * @ElementName periodicComfortVideoFileMediaType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MediaFileType
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:12822
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:5171
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     private $periodicComfortVideoFileMediaType = null;
@@ -208,7 +208,7 @@ class GroupCallCenterGetAnnouncementResponse16 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName enableMediaOnHoldForQueuedCalls
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:12822
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:5171
      * @var bool|null
      */
     private $enableMediaOnHoldForQueuedCalls = null;
@@ -216,7 +216,7 @@ class GroupCallCenterGetAnnouncementResponse16 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName mediaOnHoldSource
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterMediaOnHoldSourceRead16
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:12822
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:5171
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterMediaOnHoldSourceRead16|null
      */
     private $mediaOnHoldSource = null;
@@ -225,7 +225,7 @@ class GroupCallCenterGetAnnouncementResponse16 extends \CWM\BroadWorksConnector\
      * @ElementName mediaOnHoldUseAlternateSourceForInternalCalls
      * @Type bool
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:12822
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:5171
      * @var bool|null
      */
     private $mediaOnHoldUseAlternateSourceForInternalCalls = null;
@@ -234,7 +234,7 @@ class GroupCallCenterGetAnnouncementResponse16 extends \CWM\BroadWorksConnector\
      * @ElementName mediaOnHoldInternalSource
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterMediaOnHoldSourceRead16
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:12822
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:5171
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterMediaOnHoldSourceRead16|null
      */
     private $mediaOnHoldInternalSource = null;

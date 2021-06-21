@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response contains the system or provisioning administrators profile information.
  *
  * @see SystemAdminGetRequest
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:1712","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:2160","type":"sequence"}]
  */
 class SystemAdminGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class SystemAdminGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCID
      * @ElementName firstName
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1712
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2160
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -29,7 +29,7 @@ class SystemAdminGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCID
      * @ElementName lastName
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1712
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2160
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -39,7 +39,7 @@ class SystemAdminGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCID
     /**
      * @ElementName language
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1712
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2160
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -49,7 +49,7 @@ class SystemAdminGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCID
     /**
      * @ElementName adminType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemAdminType
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1712
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2160
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemAdminType|null
      */
     private $adminType = null;
@@ -57,7 +57,7 @@ class SystemAdminGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCID
     /**
      * @ElementName readOnly
      * @Type bool
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1712
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2160
      * @var bool|null
      */
     private $readOnly = null;

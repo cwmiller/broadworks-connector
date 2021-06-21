@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemAccessDeviceMonitorGetDeviceTypeListResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:1173","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:1603","type":"sequence"}]
  */
 class SystemAccessDeviceMonitorGetDeviceTypeListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

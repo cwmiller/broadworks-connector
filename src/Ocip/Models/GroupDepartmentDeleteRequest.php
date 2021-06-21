@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:3088","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:3884","type":"sequence"}]
  */
 class GroupDepartmentDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupDepartmentDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:3088
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:3884
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +28,7 @@ class GroupDepartmentDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:3088
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:3884
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -38,7 +38,7 @@ class GroupDepartmentDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName departmentName
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:3088
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:3884
      * @MinLength 1
      * @MaxLength 50
      * @var string|null

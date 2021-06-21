@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         	
  *         	The "Calls From" column is a string containing call numbers
  *
- * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:4140","type":"sequence"}]
+ * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:4324","type":"sequence"}]
  */
 class ProfileAndServiceCallNotifyInfo
 {
@@ -21,7 +21,7 @@ class ProfileAndServiceCallNotifyInfo
      * @ElementName callNotifyEmailAddress
      * @Type string
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:4140
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:4324
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -31,7 +31,7 @@ class ProfileAndServiceCallNotifyInfo
     /**
      * @ElementName criteriaTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:4140
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:4324
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $criteriaTable = null;

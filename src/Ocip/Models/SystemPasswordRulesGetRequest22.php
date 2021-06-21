@@ -9,10 +9,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         System administrator, Provisioning Administrator,
  *         and/or Service Provider Administrator, Group Administrator, Department Administrator, user.
  *         The response is either SystemPasswordRulesGetResponse22 or ErrorResponse.
+ *         
+ *         Replaced by: SystemPasswordRulesGetRequest23 in AS data mode.
  *
  * @see SystemPasswordRulesGetResponse22
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:12964","type":"sequence"}]
+ * @see SystemPasswordRulesGetRequest23
+ * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:8811","type":"sequence"}]
  */
 class SystemPasswordRulesGetRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

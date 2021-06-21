@@ -5,7 +5,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * RecurrenceRecurMonthlyByDay
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:3023","type":"sequence"}]
+ * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:3638","type":"sequence"}]
  */
 class RecurrenceRecurMonthlyByDay
 {
@@ -14,7 +14,7 @@ class RecurrenceRecurMonthlyByDay
      * @ElementName recurInterval
      * @Type int
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3023
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:3638
      * @MinInclusive 1
      * @MaxInclusive 99
      * @var int|null
@@ -24,7 +24,7 @@ class RecurrenceRecurMonthlyByDay
     /**
      * @ElementName dayOfMonth
      * @Type int
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3023
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:3638
      * @MinInclusive 1
      * @MaxInclusive 31
      * @var int|null

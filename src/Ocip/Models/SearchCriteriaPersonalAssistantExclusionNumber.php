@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Criteria for searching for Personal Assistant Exclusion Number.
  *
- * @Groups [{"id":"f0ada2681ca347fa83b464734259b304:1731","type":"sequence"}]
+ * @Groups [{"id":"f0ada2681ca347fa83b464734259b304:1836","type":"sequence"}]
  */
 class SearchCriteriaPersonalAssistantExclusionNumber extends SearchCriteria
 {
@@ -15,7 +15,7 @@ class SearchCriteriaPersonalAssistantExclusionNumber extends SearchCriteria
     /**
      * @ElementName mode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchMode
-     * @Group f0ada2681ca347fa83b464734259b304:1731
+     * @Group f0ada2681ca347fa83b464734259b304:1836
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchMode|null
      */
     private $mode = null;
@@ -23,7 +23,7 @@ class SearchCriteriaPersonalAssistantExclusionNumber extends SearchCriteria
     /**
      * @ElementName value
      * @Type string
-     * @Group f0ada2681ca347fa83b464734259b304:1731
+     * @Group f0ada2681ca347fa83b464734259b304:1836
      * @MinLength 1
      * @MaxLength 23
      * @var string|null
@@ -33,7 +33,7 @@ class SearchCriteriaPersonalAssistantExclusionNumber extends SearchCriteria
     /**
      * @ElementName isCaseInsensitive
      * @Type bool
-     * @Group f0ada2681ca347fa83b464734259b304:1731
+     * @Group f0ada2681ca347fa83b464734259b304:1836
      * @var bool|null
      */
     private $isCaseInsensitive = null;

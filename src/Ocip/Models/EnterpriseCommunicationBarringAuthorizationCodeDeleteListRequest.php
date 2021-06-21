@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"5395c7df0157d44aa22f3351d1a5f3da:527","type":"sequence"}]
+ * @Groups [{"id":"5395c7df0157d44aa22f3351d1a5f3da:528","type":"sequence"}]
  */
 class EnterpriseCommunicationBarringAuthorizationCodeDeleteListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class EnterpriseCommunicationBarringAuthorizationCodeDeleteListRequest extends \
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:527
+     * @Group 5395c7df0157d44aa22f3351d1a5f3da:528
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -30,7 +30,7 @@ class EnterpriseCommunicationBarringAuthorizationCodeDeleteListRequest extends \
      * @Type string
      * @Array
      * @Optional
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:527
+     * @Group 5395c7df0157d44aa22f3351d1a5f3da:528
      * @MinLength 2
      * @MaxLength 14
      * @var string[]

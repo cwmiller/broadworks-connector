@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * A list of service packs that replaces a previously configured list.
  *         By convention, an element of this type may be set nill to clear the list.
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:3354","type":"sequence"}]
+ * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:3992","type":"sequence"}]
  */
 class ReplacementServicePackNameList
 {
@@ -17,7 +17,7 @@ class ReplacementServicePackNameList
      * @ElementName servicePackName
      * @Type string
      * @Array
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3354
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:3992
      * @MinLength 1
      * @MaxLength 80
      * @var string[]

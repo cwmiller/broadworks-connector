@@ -4,23 +4,34 @@ namespace CWM\BroadWorksConnector\Ocip\Traits;
 
 use CWM\BroadWorksConnector\Ocip\Models\ResellerAddRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ResellerAdminAddRequest;
+use CWM\BroadWorksConnector\Ocip\Models\ResellerAdminAlternateIdAddRequest;
+use CWM\BroadWorksConnector\Ocip\Models\ResellerAdminAlternateIdDeleteRequest;
+use CWM\BroadWorksConnector\Ocip\Models\ResellerAdminAlternateIdGetListRequest;
+use CWM\BroadWorksConnector\Ocip\Models\ResellerAdminAlternateIdGetListResponse;
+use CWM\BroadWorksConnector\Ocip\Models\ResellerAdminAlternateIdModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ResellerAdminDeleteRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ResellerAdminGetListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ResellerAdminGetListResponse;
-use CWM\BroadWorksConnector\Ocip\Models\ResellerAdminGetRequest;
-use CWM\BroadWorksConnector\Ocip\Models\ResellerAdminGetResponse;
+use CWM\BroadWorksConnector\Ocip\Models\ResellerAdminGetRequest22;
+use CWM\BroadWorksConnector\Ocip\Models\ResellerAdminGetResponse22;
 use CWM\BroadWorksConnector\Ocip\Models\ResellerAdminModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ResellerCallAdmissionControlPoliciesGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ResellerCallAdmissionControlPoliciesGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\ResellerCallAdmissionControlPoliciesModifyRequest;
+use CWM\BroadWorksConnector\Ocip\Models\ResellerCallPoliciesGetRequest22;
+use CWM\BroadWorksConnector\Ocip\Models\ResellerCallPoliciesGetResponse22;
+use CWM\BroadWorksConnector\Ocip\Models\ResellerCallPoliciesModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ResellerDeleteRequest;
+use CWM\BroadWorksConnector\Ocip\Models\ResellerDeviceActivationPolicyGetRequest;
+use CWM\BroadWorksConnector\Ocip\Models\ResellerDeviceActivationPolicyGetResponse;
+use CWM\BroadWorksConnector\Ocip\Models\ResellerDeviceActivationPolicyModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ResellerEmergencyCallNotificationGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ResellerEmergencyCallNotificationGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\ResellerEmergencyCallNotificationModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ResellerGetListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ResellerGetListResponse;
-use CWM\BroadWorksConnector\Ocip\Models\ResellerGetRequest;
-use CWM\BroadWorksConnector\Ocip\Models\ResellerGetResponse;
+use CWM\BroadWorksConnector\Ocip\Models\ResellerGetRequest22V2;
+use CWM\BroadWorksConnector\Ocip\Models\ResellerGetResponse22V2;
 use CWM\BroadWorksConnector\Ocip\Models\ResellerMailParametersGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ResellerMailParametersGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\ResellerMailParametersModifyRequest;
@@ -35,6 +46,17 @@ use CWM\BroadWorksConnector\Ocip\Models\ResellerNetworkClassOfServiceUnassignLis
 use CWM\BroadWorksConnector\Ocip\Models\ResellerServiceAuthorizationGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ResellerServiceAuthorizationGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\ResellerServiceAuthorizationModifyRequest;
+use CWM\BroadWorksConnector\Ocip\Models\ResellerStirShakenGetRequest;
+use CWM\BroadWorksConnector\Ocip\Models\ResellerStirShakenGetResponse;
+use CWM\BroadWorksConnector\Ocip\Models\ResellerStirShakenModifyRequest;
+use CWM\BroadWorksConnector\Ocip\Models\ResellerStirShakenModifyResponse;
+use CWM\BroadWorksConnector\Ocip\Models\ResellerXsiPolicyProfileAssignListRequest;
+use CWM\BroadWorksConnector\Ocip\Models\ResellerXsiPolicyProfileGetAssignedListRequest;
+use CWM\BroadWorksConnector\Ocip\Models\XsiPolicyProfileGetAssignedListResponse;
+use CWM\BroadWorksConnector\Ocip\Models\ResellerXsiPolicyProfileGetAssignedServiceProviderListRequest;
+use CWM\BroadWorksConnector\Ocip\Models\ResellerXsiPolichProfileGetAssignedServiceProviderListResponse;
+use CWM\BroadWorksConnector\Ocip\Models\ResellerXsiPolicyProfileModifyDefaultRequest;
+use CWM\BroadWorksConnector\Ocip\Models\ResellerXsiPolicyProfileUnassignListRequest;
 use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
 use CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
@@ -65,6 +87,50 @@ trait OCISchemaReseller
     }
 
     /**
+     * @param ResellerAdminAlternateIdAddRequest $request
+     * @return SuccessResponse
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function resellerAdminAlternateIdAddRequest(\CWM\BroadWorksConnector\Ocip\Models\ResellerAdminAlternateIdAddRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param ResellerAdminAlternateIdDeleteRequest $request
+     * @return SuccessResponse
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function resellerAdminAlternateIdDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\ResellerAdminAlternateIdDeleteRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param ResellerAdminAlternateIdGetListRequest $request
+     * @return ResellerAdminAlternateIdGetListResponse
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function resellerAdminAlternateIdGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\ResellerAdminAlternateIdGetListRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param ResellerAdminAlternateIdModifyRequest $request
+     * @return SuccessResponse
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function resellerAdminAlternateIdModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\ResellerAdminAlternateIdModifyRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
      * @param ResellerAdminDeleteRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
@@ -87,12 +153,12 @@ trait OCISchemaReseller
     }
 
     /**
-     * @param ResellerAdminGetRequest $request
-     * @return ResellerAdminGetResponse
+     * @param ResellerAdminGetRequest22 $request
+     * @return ResellerAdminGetResponse22
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function resellerAdminGetRequest(\CWM\BroadWorksConnector\Ocip\Models\ResellerAdminGetRequest $request)
+    public function resellerAdminGetRequest22(\CWM\BroadWorksConnector\Ocip\Models\ResellerAdminGetRequest22 $request)
     {
         return $this->call($request);
     }
@@ -131,12 +197,56 @@ trait OCISchemaReseller
     }
 
     /**
+     * @param ResellerCallPoliciesGetRequest22 $request
+     * @return ResellerCallPoliciesGetResponse22
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function resellerCallPoliciesGetRequest22(\CWM\BroadWorksConnector\Ocip\Models\ResellerCallPoliciesGetRequest22 $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param ResellerCallPoliciesModifyRequest $request
+     * @return SuccessResponse
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function resellerCallPoliciesModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\ResellerCallPoliciesModifyRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
      * @param ResellerDeleteRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
      * @throws ValidationException
      */
     public function resellerDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\ResellerDeleteRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param ResellerDeviceActivationPolicyGetRequest $request
+     * @return ResellerDeviceActivationPolicyGetResponse
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function resellerDeviceActivationPolicyGetRequest(\CWM\BroadWorksConnector\Ocip\Models\ResellerDeviceActivationPolicyGetRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param ResellerDeviceActivationPolicyModifyRequest $request
+     * @return SuccessResponse
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function resellerDeviceActivationPolicyModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\ResellerDeviceActivationPolicyModifyRequest $request)
     {
         return $this->call($request);
     }
@@ -175,12 +285,12 @@ trait OCISchemaReseller
     }
 
     /**
-     * @param ResellerGetRequest $request
-     * @return ResellerGetResponse
+     * @param ResellerGetRequest22V2 $request
+     * @return ResellerGetResponse22V2
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function resellerGetRequest(\CWM\BroadWorksConnector\Ocip\Models\ResellerGetRequest $request)
+    public function resellerGetRequest22V2(\CWM\BroadWorksConnector\Ocip\Models\ResellerGetRequest22V2 $request)
     {
         return $this->call($request);
     }
@@ -291,6 +401,83 @@ trait OCISchemaReseller
      * @throws ValidationException
      */
     public function resellerServiceAuthorizationModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\ResellerServiceAuthorizationModifyRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param ResellerStirShakenGetRequest $request
+     * @return ResellerStirShakenGetResponse
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function resellerStirShakenGetRequest(\CWM\BroadWorksConnector\Ocip\Models\ResellerStirShakenGetRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param ResellerStirShakenModifyRequest $request
+     * @return ResellerStirShakenModifyResponse
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function resellerStirShakenModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\ResellerStirShakenModifyRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param ResellerXsiPolicyProfileAssignListRequest $request
+     * @return SuccessResponse
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function resellerXsiPolicyProfileAssignListRequest(\CWM\BroadWorksConnector\Ocip\Models\ResellerXsiPolicyProfileAssignListRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param ResellerXsiPolicyProfileGetAssignedListRequest $request
+     * @return XsiPolicyProfileGetAssignedListResponse
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function resellerXsiPolicyProfileGetAssignedListRequest(\CWM\BroadWorksConnector\Ocip\Models\ResellerXsiPolicyProfileGetAssignedListRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param ResellerXsiPolicyProfileGetAssignedServiceProviderListRequest $request
+     * @return ResellerXsiPolichProfileGetAssignedServiceProviderListResponse
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function resellerXsiPolicyProfileGetAssignedServiceProviderListRequest(\CWM\BroadWorksConnector\Ocip\Models\ResellerXsiPolicyProfileGetAssignedServiceProviderListRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param ResellerXsiPolicyProfileModifyDefaultRequest $request
+     * @return SuccessResponse
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function resellerXsiPolicyProfileModifyDefaultRequest(\CWM\BroadWorksConnector\Ocip\Models\ResellerXsiPolicyProfileModifyDefaultRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param ResellerXsiPolicyProfileUnassignListRequest $request
+     * @return SuccessResponse
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function resellerXsiPolicyProfileUnassignListRequest(\CWM\BroadWorksConnector\Ocip\Models\ResellerXsiPolicyProfileUnassignListRequest $request)
     {
         return $this->call($request);
     }

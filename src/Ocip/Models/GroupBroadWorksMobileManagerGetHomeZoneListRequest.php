@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupBroadWorksMobileManagerGetHomeZoneListResponse
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:1842","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:2347","type":"sequence"}]
  */
 class GroupBroadWorksMobileManagerGetHomeZoneListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupBroadWorksMobileManagerGetHomeZoneListRequest extends \CWM\BroadWorks
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1842
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:2347
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +28,7 @@ class GroupBroadWorksMobileManagerGetHomeZoneListRequest extends \CWM\BroadWorks
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1842
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:2347
      * @MinLength 1
      * @MaxLength 30
      * @var string|null

@@ -1,0 +1,225 @@
+<?php
+
+namespace CWM\BroadWorksConnector\Ocip\Models;
+
+/**
+ * DialPlanPolicyAccessCode
+ *
+ * Dial Plan Access Code attributes.
+ *
+ * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:2448","type":"sequence"}]
+ */
+class DialPlanPolicyAccessCode
+{
+
+    /**
+     * @ElementName accessCode
+     * @Type string
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:2448
+     * @MinLength 1
+     * @MaxLength 5
+     * @var string|null
+     */
+    private $accessCode = null;
+
+    /**
+     * @ElementName description
+     * @Type string
+     * @Nillable
+     * @Optional
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:2448
+     * @MinLength 1
+     * @MaxLength 80
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     */
+    private $description = null;
+
+    /**
+     * @ElementName includeCodeForNetworkTranslationsAndRouting
+     * @Type bool
+     * @Optional
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:2448
+     * @var bool|null
+     */
+    private $includeCodeForNetworkTranslationsAndRouting = null;
+
+    /**
+     * @ElementName includeCodeForScreeningServices
+     * @Type bool
+     * @Optional
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:2448
+     * @var bool|null
+     */
+    private $includeCodeForScreeningServices = null;
+
+    /**
+     * @ElementName enableSecondaryDialTone
+     * @Type bool
+     * @Optional
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:2448
+     * @var bool|null
+     */
+    private $enableSecondaryDialTone = null;
+
+    /**
+     * Getter for accessCode
+     *
+     * @return string
+     */
+    public function getAccessCode()
+    {
+        return $this->accessCode instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->accessCode;
+    }
+
+    /**
+     * Setter for accessCode
+     *
+     * @param string $accessCode
+     * @return $this
+     */
+    public function setAccessCode($accessCode)
+    {
+        $this->accessCode = $accessCode;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAccessCode()
+    {
+        $this->accessCode = null;
+        return $this;
+    }
+
+    /**
+     * Getter for description
+     *
+     * @return string|null
+     */
+    public function getDescription()
+    {
+        return $this->description instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->description;
+    }
+
+    /**
+     * Setter for description
+     *
+     * @param string|null $description
+     * @return $this
+     */
+    public function setDescription($description = null)
+    {
+        if ($description === null) {
+            $this->description = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->description = $description;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDescription()
+    {
+        $this->description = null;
+        return $this;
+    }
+
+    /**
+     * Getter for includeCodeForNetworkTranslationsAndRouting
+     *
+     * @return bool
+     */
+    public function getIncludeCodeForNetworkTranslationsAndRouting()
+    {
+        return $this->includeCodeForNetworkTranslationsAndRouting instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->includeCodeForNetworkTranslationsAndRouting;
+    }
+
+    /**
+     * Setter for includeCodeForNetworkTranslationsAndRouting
+     *
+     * @param bool $includeCodeForNetworkTranslationsAndRouting
+     * @return $this
+     */
+    public function setIncludeCodeForNetworkTranslationsAndRouting($includeCodeForNetworkTranslationsAndRouting)
+    {
+        $this->includeCodeForNetworkTranslationsAndRouting = $includeCodeForNetworkTranslationsAndRouting;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetIncludeCodeForNetworkTranslationsAndRouting()
+    {
+        $this->includeCodeForNetworkTranslationsAndRouting = null;
+        return $this;
+    }
+
+    /**
+     * Getter for includeCodeForScreeningServices
+     *
+     * @return bool
+     */
+    public function getIncludeCodeForScreeningServices()
+    {
+        return $this->includeCodeForScreeningServices instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->includeCodeForScreeningServices;
+    }
+
+    /**
+     * Setter for includeCodeForScreeningServices
+     *
+     * @param bool $includeCodeForScreeningServices
+     * @return $this
+     */
+    public function setIncludeCodeForScreeningServices($includeCodeForScreeningServices)
+    {
+        $this->includeCodeForScreeningServices = $includeCodeForScreeningServices;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetIncludeCodeForScreeningServices()
+    {
+        $this->includeCodeForScreeningServices = null;
+        return $this;
+    }
+
+    /**
+     * Getter for enableSecondaryDialTone
+     *
+     * @return bool
+     */
+    public function getEnableSecondaryDialTone()
+    {
+        return $this->enableSecondaryDialTone instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableSecondaryDialTone;
+    }
+
+    /**
+     * Setter for enableSecondaryDialTone
+     *
+     * @param bool $enableSecondaryDialTone
+     * @return $this
+     */
+    public function setEnableSecondaryDialTone($enableSecondaryDialTone)
+    {
+        $this->enableSecondaryDialTone = $enableSecondaryDialTone;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetEnableSecondaryDialTone()
+    {
+        $this->enableSecondaryDialTone = null;
+        return $this;
+    }
+
+
+}
+

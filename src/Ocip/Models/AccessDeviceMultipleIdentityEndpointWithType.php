@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *       The endpoint is identified by its linePort (public Identity) and possibly a private Identity.
  *       Port numbers are only used by devices with static line ordering.
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:418","type":"sequence"}]
+ * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:507","type":"sequence"}]
  */
 class AccessDeviceMultipleIdentityEndpointWithType
 {
@@ -17,7 +17,7 @@ class AccessDeviceMultipleIdentityEndpointWithType
     /**
      * @ElementName accessDevice
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDevice
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:418
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:507
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDevice|null
      */
     private $accessDevice = null;
@@ -25,7 +25,7 @@ class AccessDeviceMultipleIdentityEndpointWithType
     /**
      * @ElementName deviceType
      * @Type string
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:418
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:507
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -35,7 +35,7 @@ class AccessDeviceMultipleIdentityEndpointWithType
     /**
      * @ElementName linePort
      * @Type string
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:418
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:507
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -46,7 +46,7 @@ class AccessDeviceMultipleIdentityEndpointWithType
      * @ElementName privateIdentity
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:418
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:507
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -57,7 +57,7 @@ class AccessDeviceMultipleIdentityEndpointWithType
      * @ElementName contact
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:418
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:507
      * @MinLength 1
      * @MaxLength 1020
      * @var string|null
@@ -68,7 +68,7 @@ class AccessDeviceMultipleIdentityEndpointWithType
      * @ElementName portNumber
      * @Type int
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:418
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:507
      * @MinInclusive 1
      * @MaxInclusive 1024
      * @var int|null
@@ -79,7 +79,7 @@ class AccessDeviceMultipleIdentityEndpointWithType
      * @ElementName macAddress
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:418
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:507
      * @MinLength 1
      * @MaxLength 12
      * @var string|null

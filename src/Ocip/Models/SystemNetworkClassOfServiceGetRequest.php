@@ -6,14 +6,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemNetworkClassOfServiceGetRequest
  *
  * Get an existing Network Class of Service.
- *                 The response is either a SystemNetworkClassOfServiceGetResponse
- *                 or an ErrorResponse.
- *                 Replaced by: SystemNetworkClassOfServiceGetRequest17
+ *         The response is either a SystemNetworkClassOfServiceGetResponse
+ *         or an ErrorResponse.
+ *         Replaced by: SystemNetworkClassOfServiceGetRequest17
  *
  * @see SystemNetworkClassOfServiceGetResponse
  * @see ErrorResponse
  * @see SystemNetworkClassOfServiceGetRequest17
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:15634","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:27788","type":"sequence"}]
  */
 class SystemNetworkClassOfServiceGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,7 +21,7 @@ class SystemNetworkClassOfServiceGetRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName name
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:15634
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:27788
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

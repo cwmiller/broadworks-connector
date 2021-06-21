@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f7ae3539fd471e995b07dc1bf8836e2d:1036","type":"sequence"}]
+ * @Groups [{"id":"f7ae3539fd471e995b07dc1bf8836e2d:1280","type":"sequence"}]
  */
 class SystemBroadWorksMobilityServiceAccessCodeAddRequest21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemBroadWorksMobilityServiceAccessCodeAddRequest21 extends \CWM\BroadWo
     /**
      * @ElementName serviceAccessCodeListName
      * @Type string
-     * @Group f7ae3539fd471e995b07dc1bf8836e2d:1036
+     * @Group f7ae3539fd471e995b07dc1bf8836e2d:1280
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -28,7 +28,7 @@ class SystemBroadWorksMobilityServiceAccessCodeAddRequest21 extends \CWM\BroadWo
     /**
      * @ElementName countryCode
      * @Type string
-     * @Group f7ae3539fd471e995b07dc1bf8836e2d:1036
+     * @Group f7ae3539fd471e995b07dc1bf8836e2d:1280
      * @MaxLength 3
      * @Pattern [0-9]|[1-9][0-9]{1,2}
      * @var string|null
@@ -38,7 +38,7 @@ class SystemBroadWorksMobilityServiceAccessCodeAddRequest21 extends \CWM\BroadWo
     /**
      * @ElementName serviceAccessCode
      * @Type string
-     * @Group f7ae3539fd471e995b07dc1bf8836e2d:1036
+     * @Group f7ae3539fd471e995b07dc1bf8836e2d:1280
      * @MinLength 1
      * @MaxLength 10
      * @var string|null
@@ -49,7 +49,7 @@ class SystemBroadWorksMobilityServiceAccessCodeAddRequest21 extends \CWM\BroadWo
      * @ElementName description
      * @Type string
      * @Optional
-     * @Group f7ae3539fd471e995b07dc1bf8836e2d:1036
+     * @Group f7ae3539fd471e995b07dc1bf8836e2d:1280
      * @MinLength 1
      * @MaxLength 80
      * @var string|null

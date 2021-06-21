@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see EnterpriseEnterpriseTrunkGetResponse21
  * @see ErrorResponse
- * @Groups [{"id":"b9c14e2d80e4e7749688ca13ba233b44:313","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:2296","type":"sequence"}]
  */
 class EnterpriseEnterpriseTrunkGetRequest21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class EnterpriseEnterpriseTrunkGetRequest21 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group b9c14e2d80e4e7749688ca13ba233b44:313
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:2296
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +28,7 @@ class EnterpriseEnterpriseTrunkGetRequest21 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName enterpriseTrunkName
      * @Type string
-     * @Group b9c14e2d80e4e7749688ca13ba233b44:313
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:2296
      * @MinLength 1
      * @MaxLength 30
      * @var string|null

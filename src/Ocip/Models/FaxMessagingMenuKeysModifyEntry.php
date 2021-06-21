@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * The voice portal fax messaging menu keys modify entry.
  *
- * @Groups [{"id":"3347d430e0d5c93a9ff8dcf0e3b60d6c:2625","type":"sequence"}]
+ * @Groups [{"id":"3347d430e0d5c93a9ff8dcf0e3b60d6c:2553","type":"sequence"}]
  */
 class FaxMessagingMenuKeysModifyEntry
 {
@@ -17,7 +17,7 @@ class FaxMessagingMenuKeysModifyEntry
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2625
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2553
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -29,7 +29,7 @@ class FaxMessagingMenuKeysModifyEntry
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2625
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2553
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -41,7 +41,7 @@ class FaxMessagingMenuKeysModifyEntry
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2625
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2553
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -53,7 +53,7 @@ class FaxMessagingMenuKeysModifyEntry
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2625
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2553
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -65,7 +65,7 @@ class FaxMessagingMenuKeysModifyEntry
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2625
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2553
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -77,7 +77,7 @@ class FaxMessagingMenuKeysModifyEntry
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2625
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2553
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -89,7 +89,7 @@ class FaxMessagingMenuKeysModifyEntry
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2625
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2553
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil

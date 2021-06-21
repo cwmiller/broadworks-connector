@@ -24,12 +24,12 @@ use CWM\BroadWorksConnector\Ocip\Models\GroupGroupPagingModifyActiveInstanceList
 use CWM\BroadWorksConnector\Ocip\Models\GroupGroupPagingModifyInstanceRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupGroupPagingModifyOriginatorListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupGroupPagingModifyTargetListRequest;
-use CWM\BroadWorksConnector\Ocip\Models\GroupGroupPagingTargetsCapacityGetRequest;
-use CWM\BroadWorksConnector\Ocip\Models\GroupGroupPagingTargetsCapacityGetResponse;
-use CWM\BroadWorksConnector\Ocip\Models\GroupGroupPagingTargetsCapacityModifyRequest;
-use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderGroupPagingTargetsCapacityGetRequest;
-use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderGroupPagingTargetsCapacityGetResponse;
-use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderGroupPagingTargetsCapacityModifyRequest;
+use CWM\BroadWorksConnector\Ocip\Models\GroupGroupPagingTargetsCapacityGetRequest22;
+use CWM\BroadWorksConnector\Ocip\Models\GroupGroupPagingTargetsCapacityGetResponse22;
+use CWM\BroadWorksConnector\Ocip\Models\GroupGroupPagingTargetsCapacityModifyRequest22;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderGroupPagingTargetsCapacityGetRequest22;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderGroupPagingTargetsCapacityGetResponse22;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderGroupPagingTargetsCapacityModifyRequest22;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserGroupPagingGetListRequest;
 use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
@@ -216,45 +216,45 @@ trait OCISchemaServiceGroupPaging
     }
 
     /**
-     * @param GroupGroupPagingTargetsCapacityGetRequest $request
-     * @return GroupGroupPagingTargetsCapacityGetResponse
+     * @param GroupGroupPagingTargetsCapacityGetRequest22 $request
+     * @return GroupGroupPagingTargetsCapacityGetResponse22
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function groupGroupPagingTargetsCapacityGetRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupGroupPagingTargetsCapacityGetRequest $request)
+    public function groupGroupPagingTargetsCapacityGetRequest22(\CWM\BroadWorksConnector\Ocip\Models\GroupGroupPagingTargetsCapacityGetRequest22 $request)
     {
         return $this->call($request);
     }
 
     /**
-     * @param GroupGroupPagingTargetsCapacityModifyRequest $request
+     * @param GroupGroupPagingTargetsCapacityModifyRequest22 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function groupGroupPagingTargetsCapacityModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupGroupPagingTargetsCapacityModifyRequest $request)
+    public function groupGroupPagingTargetsCapacityModifyRequest22(\CWM\BroadWorksConnector\Ocip\Models\GroupGroupPagingTargetsCapacityModifyRequest22 $request)
     {
         return $this->call($request);
     }
 
     /**
-     * @param ServiceProviderGroupPagingTargetsCapacityGetRequest $request
-     * @return ServiceProviderGroupPagingTargetsCapacityGetResponse
+     * @param ServiceProviderGroupPagingTargetsCapacityGetRequest22 $request
+     * @return ServiceProviderGroupPagingTargetsCapacityGetResponse22
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function serviceProviderGroupPagingTargetsCapacityGetRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderGroupPagingTargetsCapacityGetRequest $request)
+    public function serviceProviderGroupPagingTargetsCapacityGetRequest22(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderGroupPagingTargetsCapacityGetRequest22 $request)
     {
         return $this->call($request);
     }
 
     /**
-     * @param ServiceProviderGroupPagingTargetsCapacityModifyRequest $request
+     * @param ServiceProviderGroupPagingTargetsCapacityModifyRequest22 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function serviceProviderGroupPagingTargetsCapacityModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderGroupPagingTargetsCapacityModifyRequest $request)
+    public function serviceProviderGroupPagingTargetsCapacityModifyRequest22(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderGroupPagingTargetsCapacityModifyRequest22 $request)
     {
         return $this->call($request);
     }

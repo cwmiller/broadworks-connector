@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Time Interval.
  *
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:43910","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:49374","type":"sequence"}]
  */
 class TimeInterval
 {
@@ -15,7 +15,7 @@ class TimeInterval
     /**
      * @ElementName startDayOfWeek
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DayOfWeek
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:43910
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:49374
      * @var \CWM\BroadWorksConnector\Ocip\Models\DayOfWeek|null
      */
     private $startDayOfWeek = null;
@@ -23,7 +23,7 @@ class TimeInterval
     /**
      * @ElementName startHour
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:43910
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:49374
      * @MinInclusive 0
      * @MaxInclusive 23
      * @var int|null
@@ -33,7 +33,7 @@ class TimeInterval
     /**
      * @ElementName startMinute
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:43910
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:49374
      * @MinInclusive 0
      * @MaxInclusive 59
      * @var int|null
@@ -43,7 +43,7 @@ class TimeInterval
     /**
      * @ElementName endDayOfWeek
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DayOfWeek
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:43910
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:49374
      * @var \CWM\BroadWorksConnector\Ocip\Models\DayOfWeek|null
      */
     private $endDayOfWeek = null;
@@ -51,7 +51,7 @@ class TimeInterval
     /**
      * @ElementName endHour
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:43910
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:49374
      * @MinInclusive 0
      * @MaxInclusive 23
      * @var int|null
@@ -61,7 +61,7 @@ class TimeInterval
     /**
      * @ElementName endMinute
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:43910
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:49374
      * @MinInclusive 0
      * @MaxInclusive 59
      * @var int|null

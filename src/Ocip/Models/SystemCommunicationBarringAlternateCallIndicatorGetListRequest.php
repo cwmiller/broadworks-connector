@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemCommunicationBarringAlternateCallIndicatorGetListResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:5231","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:5572","type":"sequence"}]
  */
 class SystemCommunicationBarringAlternateCallIndicatorGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         	
  *         	The "Calls From" column is a string containing call numbers
  *
- * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:4359","type":"sequence"}]
+ * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:4543","type":"sequence"}]
  */
 class ProfileAndServiceSimultaneousRingPersonalInfo
 {
@@ -19,7 +19,7 @@ class ProfileAndServiceSimultaneousRingPersonalInfo
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:4359
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:4543
      * @var bool|null
      */
     private $isActive = null;
@@ -27,7 +27,7 @@ class ProfileAndServiceSimultaneousRingPersonalInfo
     /**
      * @ElementName doNotRingIfOnCall
      * @Type bool
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:4359
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:4543
      * @var bool|null
      */
     private $doNotRingIfOnCall = null;
@@ -37,7 +37,7 @@ class ProfileAndServiceSimultaneousRingPersonalInfo
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SimultaneousRingNumber
      * @Array
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:4359
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:4543
      * @var \CWM\BroadWorksConnector\Ocip\Models\SimultaneousRingNumber[]
      */
     private $simultaneousRingNumber = array(
@@ -47,7 +47,7 @@ class ProfileAndServiceSimultaneousRingPersonalInfo
     /**
      * @ElementName criteriaTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:4359
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:4543
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $criteriaTable = null;

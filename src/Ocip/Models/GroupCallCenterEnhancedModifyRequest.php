@@ -6,15 +6,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupCallCenterEnhancedModifyRequest
  *
  * Modify the Call Center Enhanced configuration data for a Call
- *                 Center.
- *                 The response is either a SuccessResponse or an ErrorResponse.
- *
- *                 Replaced By: GroupCallCenterModifyInstanceRequest16
+ *         Center.
+ *         The response is either a SuccessResponse or an ErrorResponse.
+ *         
+ *         Replaced By: GroupCallCenterModifyInstanceRequest16
  *
  * @see SuccessResponse
  * @see ErrorResponse
  * @see GroupCallCenterModifyInstanceRequest16
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:8326","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:4856","type":"sequence"}]
  */
 class GroupCallCenterEnhancedModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -22,7 +22,7 @@ class GroupCallCenterEnhancedModifyRequest extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:8326
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:4856
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -33,7 +33,7 @@ class GroupCallCenterEnhancedModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @ElementName overrideAgentWrapUpTime
      * @Type bool
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:8326
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:4856
      * @var bool|null
      */
     private $overrideAgentWrapUpTime = null;
@@ -43,7 +43,7 @@ class GroupCallCenterEnhancedModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @Type int
      * @Nillable
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:8326
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:4856
      * @MinInclusive 1
      * @MaxInclusive 3600
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil

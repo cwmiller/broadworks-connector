@@ -6,26 +6,22 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupCallProcessingGetPolicyRequest16
  *
  * Request the group level data associated with Call Processing Policy.
- *                 The response is either a GroupCallProcessingGetPolicyResponse16 or an
- *                 ErrorResponse.
- *                 The useGroupCLIDSetting attribute controls the CLID settings
- *                 (clidPolicy, emergencyClidPolicy, allowAlternateNumbersForRedirectingIdentity, useGroupName)
- *                 The useGroupMediaSetting attribute controls the Media settings
- *                 (medisPolicySelection, supportedMediaSetName)
- *                 The useGroupCallLimitsSetting attribute controls the Call Limits settings
- *                 (useMaxSimultaneousCalls, maxSimultaneousCalls,
- *                 useMaxSimultaneousVideoCalls, maxSimultaneousVideoCalls, useMaxCallTimeForAnsweredCalls,
- *                 maxCallTimeForAnsweredCallsMinutes, useMaxCallTimeForUnansweredCalls,
- *                 maxCallTimeForUnansweredCallsMinutes, useMaxConcurrentRedirectedCalls, useMaxFindMeFollowMeDepth,
- *                 maxRedirectionDepth, useMaxConcurrentFindMeFollowMeInvocations, maxConcurrentFindMeFollowMeInvocations)
- *                 The useGroupTranslationRoutingSetting attribute controls the routing and translation settings
- *                 (networkUsageSelection, enforceGroupCallingLineIdentityRestriction,
- *                 allowEnterpriseGroupCallTypingForPrivateDialingPlan, allowEnterpriseGroupCallTypingForPublicDialingPlan,
- *                 overrideCLIDRestrictionForExternalCallsViaPrivateDialingPlan, enableEnterpriseExtensionDialing)
+ *           The response is either a GroupCallProcessingGetPolicyResponse16 or an
+ *           ErrorResponse.
+ *           The useGroupCLIDSetting attribute controls the CLID settings 
+ *           (clidPolicy, emergencyClidPolicy, allowAlternateNumbersForRedirectingIdentity, useGroupName)
+ *           The useGroupMediaSetting attribute controls the Media settings 
+ *           (medisPolicySelection, supportedMediaSetName)
+ *          The useGroupCallLimitsSetting attribute controls the Call Limits settings 
+ *          (useMaxSimultaneousCalls, maxSimultaneousCalls, 
+ *          useMaxSimultaneousVideoCalls, maxSimultaneousVideoCalls, useMaxCallTimeForAnsweredCalls, maxCallTimeForAnsweredCallsMinutes, useMaxCallTimeForUnansweredCalls, maxCallTimeForUnansweredCallsMinutes, useMaxConcurrentRedirectedCalls, useMaxFindMeFollowMeDepth, maxRedirectionDepth, useMaxConcurrentFindMeFollowMeInvocations, maxConcurrentFindMeFollowMeInvocations)
+ *          The useGroupTranslationRoutingSetting attribute controls the routing and translation settings 
+ *          (networkUsageSelection, enforceGroupCallingLineIdentityRestriction, 
+ *          allowEnterpriseGroupCallTypingForPrivateDialingPlan, allowEnterpriseGroupCallTypingForPublicDialingPlan, overrideCLIDRestrictionForExternalCallsViaPrivateDialingPlan, enableEnterpriseExtensionDialing)
  *
  * @see GroupCallProcessingGetPolicyResponse16
  * @see ErrorResponse
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:13249","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:7616","type":"sequence"}]
  */
 class GroupCallProcessingGetPolicyRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -33,7 +29,7 @@ class GroupCallProcessingGetPolicyRequest16 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:13249
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:7616
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -43,7 +39,7 @@ class GroupCallProcessingGetPolicyRequest16 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName groupId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:13249
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:7616
      * @MinLength 1
      * @MaxLength 30
      * @var string|null

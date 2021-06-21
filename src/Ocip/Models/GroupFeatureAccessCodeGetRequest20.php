@@ -6,18 +6,18 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupFeatureAccessCodeGetRequest20
  *
  * Get group FAC code level and the list of feature access codes for a group.
- *                 The response is either a GroupFeatureAccessCodeGetResponse20 or an
- *                 ErrorResponse.
- *                 Returned Feature Access Codes may be group specific, or Service Provider
- *                 Feature Access Codes, depending on FAC code level.
- *                 In release 20 the "Call Recording" FAC name is changed to
- *                 "Call Recording - Start".
- *                 Replaced by: GroupFeatureAccessCodeGetRequest21
+ *         The response is either a GroupFeatureAccessCodeGetResponse20 or an
+ *         ErrorResponse.
+ *         Returned Feature Access Codes may be group specific, or Service Provider
+ *         Feature Access Codes, depending on FAC code level.
+ *         In release 20 the "Call Recording" FAC name is changed to
+ *         "Call Recording - Start".
+ *         Replaced by: GroupFeatureAccessCodeGetRequest21
  *
  * @see GroupFeatureAccessCodeGetResponse20
  * @see ErrorResponse
  * @see GroupFeatureAccessCodeGetRequest21
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:33267","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:9705","type":"sequence"}]
  */
 class GroupFeatureAccessCodeGetRequest20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -25,7 +25,7 @@ class GroupFeatureAccessCodeGetRequest20 extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:33267
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:9705
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -35,7 +35,7 @@ class GroupFeatureAccessCodeGetRequest20 extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName groupId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:33267
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:9705
      * @MinLength 1
      * @MaxLength 30
      * @var string|null

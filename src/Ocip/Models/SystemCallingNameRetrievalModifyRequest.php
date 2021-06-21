@@ -6,14 +6,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemCallingNameRetrievalModifyRequest
  *
  * Modifies the system's calling name retrieval attributes.
- *                 The response is either a SuccessResponse or an ErrorResponse.
- *
- *                 Replaced by: SystemCallingNameRetrievalModifyRequest16sp1
+ *         The response is either a SuccessResponse or an ErrorResponse.
+ *         
+ *         Replaced by: SystemCallingNameRetrievalModifyRequest16sp1
  *
  * @see SuccessResponse
  * @see ErrorResponse
  * @see SystemCallingNameRetrievalModifyRequest16sp1
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:14913","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:21165","type":"sequence"}]
  */
 class SystemCallingNameRetrievalModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -22,7 +22,7 @@ class SystemCallingNameRetrievalModifyRequest extends \CWM\BroadWorksConnector\O
      * @ElementName queryTimerMilliSeconds
      * @Type int
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:14913
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:21165
      * @MinInclusive 500
      * @MaxInclusive 5000
      * @var int|null
@@ -34,7 +34,7 @@ class SystemCallingNameRetrievalModifyRequest extends \CWM\BroadWorksConnector\O
      * @Type string
      * @Nillable
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:14913
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:21165
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -46,7 +46,7 @@ class SystemCallingNameRetrievalModifyRequest extends \CWM\BroadWorksConnector\O
      * @Type int
      * @Nillable
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:14913
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:21165
      * @MinInclusive 1025
      * @MaxInclusive 65535
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -57,7 +57,7 @@ class SystemCallingNameRetrievalModifyRequest extends \CWM\BroadWorksConnector\O
      * @ElementName serverTransportProtocol
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:14913
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:21165
      * @var \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol|null
      */
     private $serverTransportProtocol = null;

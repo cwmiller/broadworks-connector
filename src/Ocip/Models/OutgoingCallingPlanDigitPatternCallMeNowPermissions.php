@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Outgoing Calling Plan Call Me Now call permissions for specified digit patterns.
  *
- * @Groups [{"id":"6f793dfca9bd3d121bb35e0f9cf1cb2e:1896","type":"sequence"}]
+ * @Groups [{"id":"6f793dfca9bd3d121bb35e0f9cf1cb2e:1897","type":"sequence"}]
  */
 class OutgoingCallingPlanDigitPatternCallMeNowPermissions
 {
@@ -16,7 +16,7 @@ class OutgoingCallingPlanDigitPatternCallMeNowPermissions
      * @ElementName digitPatternPermissions
      * @Type \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanDigitPatternCallMeNowPermission
      * @Array
-     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:1896
+     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:1897
      * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanDigitPatternCallMeNowPermission[]
      */
     private $digitPatternPermissions = array(

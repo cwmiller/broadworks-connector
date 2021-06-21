@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupHolidayScheduleGetListRequest
  *
  * Get a holiday schedule in a group.
- *                 The response is either a GroupHolidayScheduleGetListResponse or an ErrorResponse.
+ *         The response is either a GroupHolidayScheduleGetListResponse or an ErrorResponse.
  *
  * @see GroupHolidayScheduleGetListResponse
  * @see ErrorResponse
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:13705","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:10167","type":"sequence"}]
  */
 class GroupHolidayScheduleGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupHolidayScheduleGetListRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:13705
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:10167
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +28,7 @@ class GroupHolidayScheduleGetListRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName groupId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:13705
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:10167
      * @MinLength 1
      * @MaxLength 30
      * @var string|null

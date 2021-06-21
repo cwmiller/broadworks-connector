@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserSimultaneousRingPersonalGetPhoneNumberRequest
  *
  * Get the answer confirmation setting for the phone number specified.
- *                 The response is either a UserSimultaneousRingPersonalGetPhoneNumberResponse or an ErrorResponse.
+ *         The response is either a UserSimultaneousRingPersonalGetPhoneNumberResponse or an ErrorResponse.
  *
  * @see UserSimultaneousRingPersonalGetPhoneNumberResponse
  * @see ErrorResponse
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:17645","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:46415","type":"sequence"}]
  */
 class UserSimultaneousRingPersonalGetPhoneNumberRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserSimultaneousRingPersonalGetPhoneNumberRequest extends \CWM\BroadWorksC
     /**
      * @ElementName userId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:17645
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:46415
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -28,7 +28,7 @@ class UserSimultaneousRingPersonalGetPhoneNumberRequest extends \CWM\BroadWorksC
     /**
      * @ElementName phoneNumber
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:17645
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:46415
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

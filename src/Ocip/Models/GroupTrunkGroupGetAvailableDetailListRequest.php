@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupTrunkGroupGetAvailableDetailListResponse
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:7285","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:8468","type":"sequence"}]
  */
 class GroupTrunkGroupGetAvailableDetailListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class GroupTrunkGroupGetAvailableDetailListRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:7285
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:8468
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -29,7 +29,7 @@ class GroupTrunkGroupGetAvailableDetailListRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:7285
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:8468
      * @MinLength 1
      * @MaxLength 30
      * @var string|null

@@ -6,19 +6,19 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupFeatureAccessCodeModifyRequest20
  *
  * Modify group FAC code level and the list of feature access codes for a
- *                 group.
- *                 The response is either a SuccessResponse or an ErrorResponse.
- *                 Note: choice element is only valid when useFeatureAccessCodeLevel is set
- *                 to "Group", otherwise an ErrorResponse will be returned.
- *                 In release 20 the "Call Recording" FAC name is changed to
- *                 "Call Recording - Start".
- *                 Replaced by: GroupFeatureAccessCodeModifyRequest21
+ *         group.
+ *         The response is either a SuccessResponse or an ErrorResponse.
+ *         Note: choice element is only valid when useFeatureAccessCodeLevel is set
+ *         to "Group", otherwise an ErrorResponse will be returned.
+ *         In release 20 the "Call Recording" FAC name is changed to
+ *         "Call Recording - Start".
+ *         Replaced by: GroupFeatureAccessCodeModifyRequest21
  *
  * @see SuccessResponse
  * @see ErrorResponse
  * @see ErrorResponse
  * @see GroupFeatureAccessCodeModifyRequest21
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:33310","type":"sequence","children":[{"id":"ab0042aa512abc10edb3c55e4b416b0b:33314","type":"choice"}]}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:9769","type":"sequence","children":[{"id":"ab0042aa512abc10edb3c55e4b416b0b:9773","type":"choice"}]}]
  */
 class GroupFeatureAccessCodeModifyRequest20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -26,7 +26,7 @@ class GroupFeatureAccessCodeModifyRequest20 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:33310
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:9769
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -36,7 +36,7 @@ class GroupFeatureAccessCodeModifyRequest20 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName groupId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:33310
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:9769
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -47,7 +47,7 @@ class GroupFeatureAccessCodeModifyRequest20 extends \CWM\BroadWorksConnector\Oci
      * @ElementName useFeatureAccessCodeLevel
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupFeatureAccessCodeLevel
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:33310
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:9769
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupFeatureAccessCodeLevel|null
      */
     private $useFeatureAccessCodeLevel = null;
@@ -56,7 +56,7 @@ class GroupFeatureAccessCodeModifyRequest20 extends \CWM\BroadWorksConnector\Oci
      * @ElementName restoreDefaultCodes
      * @Type bool
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:33314
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:9773
      * @var bool|null
      */
     private $restoreDefaultCodes = null;
@@ -66,7 +66,7 @@ class GroupFeatureAccessCodeModifyRequest20 extends \CWM\BroadWorksConnector\Oci
      * @Type \CWM\BroadWorksConnector\Ocip\Models\FeatureAccessCodeEntry
      * @Array
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:33314
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:9773
      * @var \CWM\BroadWorksConnector\Ocip\Models\FeatureAccessCodeEntry[]
      */
     private $featureAccessCode = array(

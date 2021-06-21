@@ -6,14 +6,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemBroadWorksMobilityModifyRequest
  *
  * Modify the BroadWorks Mobility system parameters.
- *                 The response is either a SuccessResponse or an ErrorResponse.
- *
- *                 Replaced by: SystemBroadWorksMobilityModifyRequest17sp4.
+ *         The response is either a SuccessResponse or an ErrorResponse.
+ *         
+ *         Replaced by: SystemBroadWorksMobilityModifyRequest17sp4.
  *
  * @see SuccessResponse
  * @see ErrorResponse
  * @see SystemBroadWorksMobilityModifyRequest17sp4
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:21091","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:20422","type":"sequence"}]
  */
 class SystemBroadWorksMobilityModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -22,7 +22,7 @@ class SystemBroadWorksMobilityModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName enableLocationServices
      * @Type bool
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:21091
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:20422
      * @var bool|null
      */
     private $enableLocationServices = null;
@@ -31,7 +31,7 @@ class SystemBroadWorksMobilityModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName enableMSRNLookup
      * @Type bool
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:21091
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:20422
      * @var bool|null
      */
     private $enableMSRNLookup = null;
@@ -40,7 +40,7 @@ class SystemBroadWorksMobilityModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName enableMobileStateChecking
      * @Type bool
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:21091
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:20422
      * @var bool|null
      */
     private $enableMobileStateChecking = null;
@@ -49,7 +49,7 @@ class SystemBroadWorksMobilityModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName denyCallOriginations
      * @Type bool
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:21091
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:20422
      * @var bool|null
      */
     private $denyCallOriginations = null;
@@ -58,7 +58,7 @@ class SystemBroadWorksMobilityModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName denyCallTerminations
      * @Type bool
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:21091
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:20422
      * @var bool|null
      */
     private $denyCallTerminations = null;
@@ -67,7 +67,7 @@ class SystemBroadWorksMobilityModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName imrnTimeoutMilliseconds
      * @Type int
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:21091
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:20422
      * @MinInclusive 100
      * @MaxInclusive 60000
      * @var int|null
@@ -79,7 +79,7 @@ class SystemBroadWorksMobilityModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @Type string
      * @Nillable
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:21091
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:20422
      * @MinLength 1
      * @MaxLength 39
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -91,7 +91,7 @@ class SystemBroadWorksMobilityModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @Type int
      * @Nillable
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:21091
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:20422
      * @MinInclusive 1
      * @MaxInclusive 65535
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil

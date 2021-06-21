@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemCallingNameRetrievalGetRequest14.
  *
  * @see SystemCallingNameRetrievalGetRequest14
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:14892","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:21066","type":"sequence"}]
  */
 class SystemCallingNameRetrievalGetResponse14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class SystemCallingNameRetrievalGetResponse14 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName queryTimerMilliSeconds
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:14892
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:21066
      * @MinInclusive 500
      * @MaxInclusive 5000
      * @var int|null
@@ -27,7 +27,7 @@ class SystemCallingNameRetrievalGetResponse14 extends \CWM\BroadWorksConnector\O
      * @ElementName serverNetAddress
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:14892
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:21066
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -38,7 +38,7 @@ class SystemCallingNameRetrievalGetResponse14 extends \CWM\BroadWorksConnector\O
      * @ElementName serverPort
      * @Type int
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:14892
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:21066
      * @MinInclusive 1025
      * @MaxInclusive 65535
      * @var int|null
@@ -48,7 +48,7 @@ class SystemCallingNameRetrievalGetResponse14 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName serverTransportProtocol
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:14892
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:21066
      * @var \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol|null
      */
     private $serverTransportProtocol = null;

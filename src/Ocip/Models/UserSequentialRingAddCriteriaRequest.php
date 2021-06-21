@@ -5,12 +5,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * UserSequentialRingAddCriteriaRequest
  *
- * Add a criteria to the user's sequential ring service.
- *                 The response is either a SuccessResponse or an ErrorResponse.
+ * Add a criteria to the user's sequential ring service.        
+ *          The response is either a SuccessResponse or an ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:11797","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:45935","type":"sequence"}]
  */
 class UserSequentialRingAddCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserSequentialRingAddCriteriaRequest extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName userId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:11797
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:45935
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -28,7 +28,7 @@ class UserSequentialRingAddCriteriaRequest extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName criteriaName
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:11797
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:45935
      * @MinLength 1
      * @MaxLength 50
      * @var string|null
@@ -39,7 +39,7 @@ class UserSequentialRingAddCriteriaRequest extends \CWM\BroadWorksConnector\Ocip
      * @ElementName timeSchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:11797
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:45935
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null
      */
     private $timeSchedule = null;
@@ -47,7 +47,7 @@ class UserSequentialRingAddCriteriaRequest extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName fromDnCriteria
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDn
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:11797
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:45935
      * @var \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDn|null
      */
     private $fromDnCriteria = null;

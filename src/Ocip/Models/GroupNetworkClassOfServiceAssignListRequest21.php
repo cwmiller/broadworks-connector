@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:5451","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:6469","type":"sequence"}]
  */
 class GroupNetworkClassOfServiceAssignListRequest21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class GroupNetworkClassOfServiceAssignListRequest21 extends \CWM\BroadWorksConne
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:5451
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:6469
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -29,7 +29,7 @@ class GroupNetworkClassOfServiceAssignListRequest21 extends \CWM\BroadWorksConne
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:5451
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:6469
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -41,7 +41,7 @@ class GroupNetworkClassOfServiceAssignListRequest21 extends \CWM\BroadWorksConne
      * @Type string
      * @Array
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:5451
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:6469
      * @MinLength 1
      * @MaxLength 40
      * @var string[]
@@ -53,7 +53,7 @@ class GroupNetworkClassOfServiceAssignListRequest21 extends \CWM\BroadWorksConne
     /**
      * @ElementName defaultNetworkClassOfService
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DefaultNetworkClassOfService
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:5451
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:6469
      * @var \CWM\BroadWorksConnector\Ocip\Models\DefaultNetworkClassOfService|null
      */
     private $defaultNetworkClassOfService = null;

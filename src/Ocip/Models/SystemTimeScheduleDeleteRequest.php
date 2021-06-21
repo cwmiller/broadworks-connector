@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemTimeScheduleDeleteRequest
  *
  * Delete a system time schedule.
- *                 The response is either a SuccessResponse or an ErrorResponse.
+ *         The response is either a SuccessResponse or an ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:16469","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:35596","type":"sequence"}]
  */
 class SystemTimeScheduleDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemTimeScheduleDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName timeScheduleName
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:16469
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:35596
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

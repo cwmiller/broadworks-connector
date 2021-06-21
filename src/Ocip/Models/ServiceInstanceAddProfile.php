@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Service Profile Information for group service.
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:3511","type":"sequence"}]
+ * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:4161","type":"sequence"}]
  */
 class ServiceInstanceAddProfile
 {
@@ -15,7 +15,7 @@ class ServiceInstanceAddProfile
     /**
      * @ElementName name
      * @Type string
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3511
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:4161
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -25,7 +25,7 @@ class ServiceInstanceAddProfile
     /**
      * @ElementName callingLineIdLastName
      * @Type string
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3511
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:4161
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -35,7 +35,7 @@ class ServiceInstanceAddProfile
     /**
      * @ElementName callingLineIdFirstName
      * @Type string
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3511
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:4161
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -46,7 +46,7 @@ class ServiceInstanceAddProfile
      * @ElementName hiraganaLastName
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3511
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:4161
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -57,7 +57,7 @@ class ServiceInstanceAddProfile
      * @ElementName hiraganaFirstName
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3511
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:4161
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -68,7 +68,7 @@ class ServiceInstanceAddProfile
      * @ElementName phoneNumber
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3511
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:4161
      * @MinLength 1
      * @MaxLength 23
      * @var string|null
@@ -79,7 +79,7 @@ class ServiceInstanceAddProfile
      * @ElementName extension
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3511
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:4161
      * @MinLength 2
      * @MaxLength 20
      * @var string|null
@@ -90,7 +90,7 @@ class ServiceInstanceAddProfile
      * @ElementName password
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3511
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:4161
      * @MinLength 1
      * @MaxLength 60
      * @var string|null
@@ -102,7 +102,7 @@ class ServiceInstanceAddProfile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey
      * @Abstract \CWM\BroadWorksConnector\Ocip\Models\EnterpriseDepartmentKey,\CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentKey
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3511
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:4161
      * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null
      */
     private $department = null;
@@ -111,7 +111,7 @@ class ServiceInstanceAddProfile
      * @ElementName language
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3511
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:4161
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -122,7 +122,7 @@ class ServiceInstanceAddProfile
      * @ElementName timeZone
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3511
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:4161
      * @MinLength 1
      * @MaxLength 127
      * @var string|null
@@ -134,7 +134,7 @@ class ServiceInstanceAddProfile
      * @Type string
      * @Array
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3511
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:4161
      * @MinLength 1
      * @MaxLength 161
      * @var string[]
@@ -147,7 +147,7 @@ class ServiceInstanceAddProfile
      * @ElementName publicUserIdentity
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3511
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:4161
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -158,7 +158,7 @@ class ServiceInstanceAddProfile
      * @ElementName callingLineIdPhoneNumber
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3511
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:4161
      * @MinLength 1
      * @MaxLength 23
      * @var string|null

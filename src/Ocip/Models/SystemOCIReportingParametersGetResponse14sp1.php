@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains a list of system OCI Reporting parameters.
  *
  * @see SystemOCIReportingParametersGetRequest14sp1
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:12694","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:28126","type":"sequence"}]
  */
 class SystemOCIReportingParametersGetResponse14sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class SystemOCIReportingParametersGetResponse14sp1 extends \CWM\BroadWorksConnec
     /**
      * @ElementName serverPort
      * @Type int
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12694
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:28126
      * @MinInclusive 1025
      * @MaxInclusive 65535
      * @var int|null
@@ -27,7 +27,7 @@ class SystemOCIReportingParametersGetResponse14sp1 extends \CWM\BroadWorksConnec
     /**
      * @ElementName enableConnectionPing
      * @Type bool
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12694
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:28126
      * @var bool|null
      */
     private $enableConnectionPing = null;
@@ -35,7 +35,7 @@ class SystemOCIReportingParametersGetResponse14sp1 extends \CWM\BroadWorksConnec
     /**
      * @ElementName connectionPingIntervalSeconds
      * @Type int
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12694
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:28126
      * @MinInclusive 1
      * @MaxInclusive 86400
      * @var int|null
@@ -45,7 +45,7 @@ class SystemOCIReportingParametersGetResponse14sp1 extends \CWM\BroadWorksConnec
     /**
      * @ElementName alterPasswords
      * @Type bool
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12694
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:28126
      * @var bool|null
      */
     private $alterPasswords = null;
@@ -53,7 +53,7 @@ class SystemOCIReportingParametersGetResponse14sp1 extends \CWM\BroadWorksConnec
     /**
      * @ElementName enablePublicIdentityReporting
      * @Type bool
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12694
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:28126
      * @var bool|null
      */
     private $enablePublicIdentityReporting = null;

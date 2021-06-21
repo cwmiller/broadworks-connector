@@ -13,9 +13,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *          redundancyTaskDelayMilliseconds, value "10000" is returned in Amplify and XS data mode
  *          redundancyTaskIntervalMilliseconds, value of "1000" is returned in Amplify and XS data mode
  *          maxNumberOfSubscriptionsPerRedundancyTaskInterval, value of "50" is returned in Amplify and XS data mode
+ *         Replaced by: SystemBusyLampFieldGetResponse23V2 in AS data mode.
  *
  * @see SystemBusyLampFieldGetRequest23
- * @Groups [{"id":"4faeca417998d23ce2ff6b0b43212aa6:98","type":"sequence"}]
+ * @see SystemBusyLampFieldGetResponse23V2
+ * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:7030","type":"sequence"}]
  */
 class SystemBusyLampFieldGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -23,7 +25,7 @@ class SystemBusyLampFieldGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName displayLocalUserIdentityLastNameFirst
      * @Type bool
-     * @Group 4faeca417998d23ce2ff6b0b43212aa6:98
+     * @Group de4d76f01f337fe4694212ec9f771753:7030
      * @var bool|null
      */
     private $displayLocalUserIdentityLastNameFirst = null;
@@ -31,7 +33,7 @@ class SystemBusyLampFieldGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName forceUseOfTCP
      * @Type bool
-     * @Group 4faeca417998d23ce2ff6b0b43212aa6:98
+     * @Group de4d76f01f337fe4694212ec9f771753:7030
      * @var bool|null
      */
     private $forceUseOfTCP = null;
@@ -39,7 +41,7 @@ class SystemBusyLampFieldGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName enableRedundancy
      * @Type bool
-     * @Group 4faeca417998d23ce2ff6b0b43212aa6:98
+     * @Group de4d76f01f337fe4694212ec9f771753:7030
      * @var bool|null
      */
     private $enableRedundancy = null;
@@ -47,7 +49,7 @@ class SystemBusyLampFieldGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName redundancyTaskDelayMilliseconds
      * @Type int
-     * @Group 4faeca417998d23ce2ff6b0b43212aa6:98
+     * @Group de4d76f01f337fe4694212ec9f771753:7030
      * @MinInclusive 10000
      * @MaxInclusive 180000
      * @var int|null
@@ -57,7 +59,7 @@ class SystemBusyLampFieldGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName redundancyTaskIntervalMilliseconds
      * @Type int
-     * @Group 4faeca417998d23ce2ff6b0b43212aa6:98
+     * @Group de4d76f01f337fe4694212ec9f771753:7030
      * @MinInclusive 50
      * @MaxInclusive 20000
      * @var int|null
@@ -67,7 +69,7 @@ class SystemBusyLampFieldGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName maxNumberOfSubscriptionsPerRedundancyTaskInterval
      * @Type int
-     * @Group 4faeca417998d23ce2ff6b0b43212aa6:98
+     * @Group de4d76f01f337fe4694212ec9f771753:7030
      * @MinInclusive 1
      * @MaxInclusive 50000
      * @var int|null

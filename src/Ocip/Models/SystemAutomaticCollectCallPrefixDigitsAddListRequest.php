@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"af1b47d7cab3335a81456e64e42371b0:94","type":"sequence"}]
+ * @Groups [{"id":"af1b47d7cab3335a81456e64e42371b0:96","type":"sequence"}]
  */
 class SystemAutomaticCollectCallPrefixDigitsAddListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class SystemAutomaticCollectCallPrefixDigitsAddListRequest extends \CWM\BroadWor
      * @ElementName prefixDigitsEntry
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AutomaticCollectCallPrefixDigitsEntry
      * @Array
-     * @Group af1b47d7cab3335a81456e64e42371b0:94
+     * @Group af1b47d7cab3335a81456e64e42371b0:96
      * @var \CWM\BroadWorksConnector\Ocip\Models\AutomaticCollectCallPrefixDigitsEntry[]
      */
     private $prefixDigitsEntry = array(

@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:4045","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:4911","type":"sequence"}]
  */
 class GroupDigitCollectionModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupDigitCollectionModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4045
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:4911
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +28,7 @@ class GroupDigitCollectionModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4045
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:4911
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -39,7 +39,7 @@ class GroupDigitCollectionModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName useSetting
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupDigitCollectionSettingLevel
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4045
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:4911
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupDigitCollectionSettingLevel|null
      */
     private $useSetting = null;
@@ -49,7 +49,7 @@ class GroupDigitCollectionModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Type string
      * @Nillable
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4045
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:4911
      * @MinLength 1
      * @MaxLength 1
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -61,7 +61,7 @@ class GroupDigitCollectionModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Type string
      * @Nillable
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4045
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:4911
      * @MinLength 1
      * @MaxLength 2048
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -73,7 +73,7 @@ class GroupDigitCollectionModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Type string
      * @Nillable
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4045
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:4911
      * @MinLength 1
      * @MaxLength 2048
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil

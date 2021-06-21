@@ -5,13 +5,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * ServiceProviderEnhancedCallLogsSchemaInstanceGetRequest
  *
- * Get the enhanced call log database schema instance associated with this
- *         service provider.
- *         The response is either a ServiceProviderEnhancedCallLogsSchemaInstanceGetResponse or an ErrorResponse.
+ * Get the enhanced call log database schema instance associated with this 
+ *       service provider.
+ *       The response is either a ServiceProviderEnhancedCallLogsSchemaInstanceGetResponse or an ErrorResponse.
  *
  * @see ServiceProviderEnhancedCallLogsSchemaInstanceGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"f6b3702edb5f67fa12c2c426d98657db:97","type":"sequence"}]
+ * @Groups [{"id":"f6b3702edb5f67fa12c2c426d98657db:157","type":"sequence"}]
  */
 class ServiceProviderEnhancedCallLogsSchemaInstanceGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class ServiceProviderEnhancedCallLogsSchemaInstanceGetRequest extends \CWM\Broad
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f6b3702edb5f67fa12c2c426d98657db:97
+     * @Group f6b3702edb5f67fa12c2c426d98657db:157
      * @MinLength 1
      * @MaxLength 30
      * @var string|null

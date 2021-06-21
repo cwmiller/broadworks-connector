@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains a list of system push notification parameters.
  *
  * @see SystemPushNotificationParametersGetRequest
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:13753","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:14852","type":"sequence"}]
  */
 class SystemPushNotificationParametersGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -21,7 +21,7 @@ class SystemPushNotificationParametersGetResponse extends \CWM\BroadWorksConnect
     /**
      * @ElementName enforceAllowedApplicationList
      * @Type bool
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:13753
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14852
      * @var bool|null
      */
     private $enforceAllowedApplicationList = null;
@@ -29,7 +29,7 @@ class SystemPushNotificationParametersGetResponse extends \CWM\BroadWorksConnect
     /**
      * @ElementName maximumRegistrationsPerUser
      * @Type int
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:13753
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14852
      * @MinInclusive 1
      * @MaxInclusive 100
      * @var int|null
@@ -39,7 +39,7 @@ class SystemPushNotificationParametersGetResponse extends \CWM\BroadWorksConnect
     /**
      * @ElementName maximumRegistrationAgeDays
      * @Type int
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:13753
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14852
      * @MinInclusive 30
      * @MaxInclusive 120
      * @var int|null
@@ -49,7 +49,7 @@ class SystemPushNotificationParametersGetResponse extends \CWM\BroadWorksConnect
     /**
      * @ElementName newCallTimeout
      * @Type int
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:13753
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14852
      * @MinInclusive 30
      * @MaxInclusive 600
      * @var int|null
@@ -59,7 +59,7 @@ class SystemPushNotificationParametersGetResponse extends \CWM\BroadWorksConnect
     /**
      * @ElementName subscriptionEventsPerSecond
      * @Type int
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:13753
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14852
      * @MinInclusive 1
      * @MaxInclusive 5000
      * @var int|null

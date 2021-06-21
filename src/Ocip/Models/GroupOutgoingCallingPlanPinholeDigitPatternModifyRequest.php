@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"6f793dfca9bd3d121bb35e0f9cf1cb2e:544","type":"sequence"}]
+ * @Groups [{"id":"6f793dfca9bd3d121bb35e0f9cf1cb2e:545","type":"sequence"}]
  */
 class GroupOutgoingCallingPlanPinholeDigitPatternModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupOutgoingCallingPlanPinholeDigitPatternModifyRequest extends \CWM\Broa
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:544
+     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:545
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +28,7 @@ class GroupOutgoingCallingPlanPinholeDigitPatternModifyRequest extends \CWM\Broa
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:544
+     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:545
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -38,7 +38,7 @@ class GroupOutgoingCallingPlanPinholeDigitPatternModifyRequest extends \CWM\Broa
     /**
      * @ElementName name
      * @Type string
-     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:544
+     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:545
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -49,7 +49,7 @@ class GroupOutgoingCallingPlanPinholeDigitPatternModifyRequest extends \CWM\Broa
      * @ElementName digitPattern
      * @Type string
      * @Optional
-     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:544
+     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:545
      * @MinLength 1
      * @MaxLength 160
      * @var string|null

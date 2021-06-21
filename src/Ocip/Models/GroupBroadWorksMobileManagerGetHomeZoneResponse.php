@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the GroupBroadWorksMobileManagerGetHomeZoneRequest
  *
  * @see GroupBroadWorksMobileManagerGetHomeZoneRequest
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:1894","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:2399","type":"sequence"}]
  */
 class GroupBroadWorksMobileManagerGetHomeZoneResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class GroupBroadWorksMobileManagerGetHomeZoneResponse extends \CWM\BroadWorksCon
     /**
      * @ElementName homeZoneDomainName
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1894
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:2399
      * @MinLength 1
      * @MaxLength 100
      * @var string|null
@@ -26,7 +26,7 @@ class GroupBroadWorksMobileManagerGetHomeZoneResponse extends \CWM\BroadWorksCon
     /**
      * @ElementName mobileCountryCode
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1894
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:2399
      * @MinLength 1
      * @MaxLength 3
      * @var string|null
@@ -36,7 +36,7 @@ class GroupBroadWorksMobileManagerGetHomeZoneResponse extends \CWM\BroadWorksCon
     /**
      * @ElementName mobileNetworkCode
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1894
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:2399
      * @MinLength 1
      * @MaxLength 3
      * @var string|null
@@ -46,7 +46,7 @@ class GroupBroadWorksMobileManagerGetHomeZoneResponse extends \CWM\BroadWorksCon
     /**
      * @ElementName locationAreaCode
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1894
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:2399
      * @MinLength 1
      * @MaxLength 5
      * @var string|null
@@ -56,7 +56,7 @@ class GroupBroadWorksMobileManagerGetHomeZoneResponse extends \CWM\BroadWorksCon
     /**
      * @ElementName cellIdentity
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1894
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:2399
      * @MinLength 1
      * @MaxLength 5
      * @var string|null

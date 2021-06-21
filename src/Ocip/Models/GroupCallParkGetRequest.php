@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupCallParkGetRequest
  *
  * Gets the Call Park Group settings.
- *                 The response is either GroupCallParkGetResponse or ErrorResponse.
+ *         The response is either GroupCallParkGetResponse or ErrorResponse.
  *
  * @see GroupCallParkGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:19106","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:7439","type":"sequence"}]
  */
 class GroupCallParkGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupCallParkGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:19106
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:7439
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +28,7 @@ class GroupCallParkGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
     /**
      * @ElementName groupId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:19106
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:7439
      * @MinLength 1
      * @MaxLength 30
      * @var string|null

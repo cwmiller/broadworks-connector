@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupExtensionLengthGetRequest
  *
  * Request the group's extension length.
- *                 The response is either a GroupExtensionLengthGetResponse or an ErrorResponse.
+ *         The response is either a GroupExtensionLengthGetResponse or an ErrorResponse.
  *
  * @see GroupExtensionLengthGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:13599","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:9615","type":"sequence"}]
  */
 class GroupExtensionLengthGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupExtensionLengthGetRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:13599
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:9615
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +28,7 @@ class GroupExtensionLengthGetRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName groupId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:13599
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:9615
      * @MinLength 1
      * @MaxLength 30
      * @var string|null

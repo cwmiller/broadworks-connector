@@ -6,13 +6,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupCustomContactDirectoryAddRequest
  *
  * Adds a Custom Contact Directory to a group.
- *                 The response is either SuccessResponse or ErrorResponse.
- *                 Replace by: GroupCustomContactDirectoryAddRequest17
+ *         The response is either SuccessResponse or ErrorResponse.
+ *         Replace by: GroupCustomContactDirectoryAddRequest17
  *
  * @see SuccessResponse
  * @see ErrorResponse
  * @see GroupCustomContactDirectoryAddRequest17
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:13400","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:8855","type":"sequence"}]
  */
 class GroupCustomContactDirectoryAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class GroupCustomContactDirectoryAddRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:13400
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:8855
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -30,7 +30,7 @@ class GroupCustomContactDirectoryAddRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName groupId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:13400
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:8855
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -40,7 +40,7 @@ class GroupCustomContactDirectoryAddRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName name
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:13400
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:8855
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -52,7 +52,7 @@ class GroupCustomContactDirectoryAddRequest extends \CWM\BroadWorksConnector\Oci
      * @Type string
      * @Array
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:13400
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:8855
      * @MinLength 1
      * @MaxLength 161
      * @var string[]

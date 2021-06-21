@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupScheduleGetListRequest
  *
  * Get the list of a group schedules. The list can be filtered by schedule type.
- *                 The response is either a GroupScheduleGetListResponse or an ErrorResponse.
+ *         The response is either a GroupScheduleGetListResponse or an ErrorResponse.
  *
  * @see GroupScheduleGetListResponse
  * @see ErrorResponse
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:20149","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:12716","type":"sequence"}]
  */
 class GroupScheduleGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupScheduleGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:20149
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:12716
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +28,7 @@ class GroupScheduleGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName groupId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:20149
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:12716
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -39,7 +39,7 @@ class GroupScheduleGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @ElementName scheduleType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ScheduleType
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:20149
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:12716
      * @var \CWM\BroadWorksConnector\Ocip\Models\ScheduleType|null
      */
     private $scheduleType = null;

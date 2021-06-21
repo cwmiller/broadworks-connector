@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to ServiceProviderEnhancedCallLogsSchemaInstanceGetRequest.
  *
  * @see ServiceProviderEnhancedCallLogsSchemaInstanceGetRequest
- * @Groups [{"id":"f6b3702edb5f67fa12c2c426d98657db:112","type":"sequence"}]
+ * @Groups [{"id":"f6b3702edb5f67fa12c2c426d98657db:172","type":"sequence"}]
  */
 class ServiceProviderEnhancedCallLogsSchemaInstanceGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class ServiceProviderEnhancedCallLogsSchemaInstanceGetResponse extends \CWM\Broa
      * @ElementName name
      * @Type string
      * @Optional
-     * @Group f6b3702edb5f67fa12c2c426d98657db:112
+     * @Group f6b3702edb5f67fa12c2c426d98657db:172
      * @MinLength 1
      * @MaxLength 80
      * @var string|null

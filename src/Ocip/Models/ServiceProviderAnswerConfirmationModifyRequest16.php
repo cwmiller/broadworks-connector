@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:1233","type":"sequence"}]
+ * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:1700","type":"sequence"}]
  */
 class ServiceProviderAnswerConfirmationModifyRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class ServiceProviderAnswerConfirmationModifyRequest16 extends \CWM\BroadWorksCo
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1233
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1700
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -29,7 +29,7 @@ class ServiceProviderAnswerConfirmationModifyRequest16 extends \CWM\BroadWorksCo
      * @ElementName announcementMessageSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnswerConfirmationAnnouncementSelection
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1233
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1700
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnswerConfirmationAnnouncementSelection|null
      */
     private $announcementMessageSelection = null;
@@ -38,7 +38,7 @@ class ServiceProviderAnswerConfirmationModifyRequest16 extends \CWM\BroadWorksCo
      * @ElementName confirmationMessageAudioFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1233
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1700
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null
      */
     private $confirmationMessageAudioFile = null;
@@ -47,7 +47,7 @@ class ServiceProviderAnswerConfirmationModifyRequest16 extends \CWM\BroadWorksCo
      * @ElementName confirmationTimoutSeconds
      * @Type int
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1233
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1700
      * @MinInclusive 2
      * @MaxInclusive 30
      * @var int|null

@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"af1b47d7cab3335a81456e64e42371b0:110","type":"sequence"}]
+ * @Groups [{"id":"af1b47d7cab3335a81456e64e42371b0:112","type":"sequence"}]
  */
 class SystemAutomaticCollectCallPrefixDigitsDeleteListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class SystemAutomaticCollectCallPrefixDigitsDeleteListRequest extends \CWM\Broad
      * @ElementName prefixDigitsEntry
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AutomaticCollectCallPrefixDigitsEntry
      * @Array
-     * @Group af1b47d7cab3335a81456e64e42371b0:110
+     * @Group af1b47d7cab3335a81456e64e42371b0:112
      * @var \CWM\BroadWorksConnector\Ocip\Models\AutomaticCollectCallPrefixDigitsEntry[]
      */
     private $prefixDigitsEntry = array(

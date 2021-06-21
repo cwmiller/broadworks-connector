@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupDialableCallerIDCriteriaGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:3686","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:4541","type":"sequence"}]
  */
 class GroupDialableCallerIDCriteriaGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupDialableCallerIDCriteriaGetRequest extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:3686
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:4541
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +28,7 @@ class GroupDialableCallerIDCriteriaGetRequest extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:3686
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:4541
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -38,7 +38,7 @@ class GroupDialableCallerIDCriteriaGetRequest extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName name
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:3686
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:4541
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

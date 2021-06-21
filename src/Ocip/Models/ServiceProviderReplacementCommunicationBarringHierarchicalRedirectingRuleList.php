@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * A list of Service Provider Communication Barring Hierarchical Redirecting Rules that replaces a previously configured list. By convention, an element of this type 
  *         may be set nill to clear the list.
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:3852","type":"sequence"}]
+ * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:4533","type":"sequence"}]
  */
 class ServiceProviderReplacementCommunicationBarringHierarchicalRedirectingRuleList
 {
@@ -17,7 +17,7 @@ class ServiceProviderReplacementCommunicationBarringHierarchicalRedirectingRuleL
      * @ElementName rule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCommunicationBarringHierarchicalRedirectingRule
      * @Array
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3852
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:4533
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCommunicationBarringHierarchicalRedirectingRule[]
      */
     private $rule = array(

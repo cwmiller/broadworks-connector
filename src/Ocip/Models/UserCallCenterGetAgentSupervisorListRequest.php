@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserCallCenterGetAgentSupervisorListResponse
  * @see ErrorResponse
- * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:6892","type":"sequence"}]
+ * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:6917","type":"sequence"}]
  */
 class UserCallCenterGetAgentSupervisorListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class UserCallCenterGetAgentSupervisorListRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName agentUserId
      * @Type string
-     * @Group e2c537e3e39483b96620673a7012ffdd:6892
+     * @Group e2c537e3e39483b96620673a7012ffdd:6917
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -29,7 +29,7 @@ class UserCallCenterGetAgentSupervisorListRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group e2c537e3e39483b96620673a7012ffdd:6892
+     * @Group e2c537e3e39483b96620673a7012ffdd:6917
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

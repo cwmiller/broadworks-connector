@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupCallCenterCurrentAndPastDNISGetListResponse
  * @see ErrorResponse
- * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:3108","type":"sequence"}]
+ * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:3123","type":"sequence"}]
  */
 class GroupCallCenterCurrentAndPastDNISGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupCallCenterCurrentAndPastDNISGetListRequest extends \CWM\BroadWorksCon
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group e2c537e3e39483b96620673a7012ffdd:3108
+     * @Group e2c537e3e39483b96620673a7012ffdd:3123
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +28,7 @@ class GroupCallCenterCurrentAndPastDNISGetListRequest extends \CWM\BroadWorksCon
     /**
      * @ElementName groupId
      * @Type string
-     * @Group e2c537e3e39483b96620673a7012ffdd:3108
+     * @Group e2c537e3e39483b96620673a7012ffdd:3123
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -38,7 +38,7 @@ class GroupCallCenterCurrentAndPastDNISGetListRequest extends \CWM\BroadWorksCon
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group e2c537e3e39483b96620673a7012ffdd:3108
+     * @Group e2c537e3e39483b96620673a7012ffdd:3123
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

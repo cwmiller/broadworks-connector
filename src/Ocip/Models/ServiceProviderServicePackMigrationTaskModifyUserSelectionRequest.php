@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:5713","type":"sequence"}]
+ * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:6546","type":"sequence"}]
  */
 class ServiceProviderServicePackMigrationTaskModifyUserSelectionRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class ServiceProviderServicePackMigrationTaskModifyUserSelectionRequest extends 
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5713
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:6546
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -29,7 +29,7 @@ class ServiceProviderServicePackMigrationTaskModifyUserSelectionRequest extends 
     /**
      * @ElementName taskName
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5713
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:6546
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -40,7 +40,7 @@ class ServiceProviderServicePackMigrationTaskModifyUserSelectionRequest extends 
      * @ElementName userSelectionType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServicePackMigrationTaskUserSelectionType
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5713
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:6546
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServicePackMigrationTaskUserSelectionType|null
      */
     private $userSelectionType = null;
@@ -50,7 +50,7 @@ class ServiceProviderServicePackMigrationTaskModifyUserSelectionRequest extends 
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserServiceList
      * @Nillable
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5713
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:6546
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserServiceList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $userServiceNameList = null;
@@ -60,7 +60,7 @@ class ServiceProviderServicePackMigrationTaskModifyUserSelectionRequest extends 
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementServicePackNameList
      * @Nillable
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5713
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:6546
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementServicePackNameList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $servicePackNameList = null;

@@ -7,10 +7,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Modify the user's Portal passcode
  *         The response is either a SuccessResponse or an ErrorResponse.
+ *         The following elements are only used in XS data mode and ignored in AS data mode:
+ *           oldPasscode
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:3250","type":"sequence"}]
+ * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:3288","type":"sequence"}]
  */
 class UserPortalPasscodeModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +20,7 @@ class UserPortalPasscodeModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName userId
      * @Type string
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:3250
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:3288
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -29,7 +31,7 @@ class UserPortalPasscodeModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName oldPasscode
      * @Type string
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:3250
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:3288
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -39,7 +41,7 @@ class UserPortalPasscodeModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName newPasscode
      * @Type string
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:3250
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:3288
      * @MinLength 1
      * @MaxLength 30
      * @var string|null

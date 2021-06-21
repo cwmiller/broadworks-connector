@@ -6,12 +6,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupMeetMeConferencingAddInstanceRequest
  *
  * Add a Meet-Me Conferencing bridge to a group.
- *                 The domain is required in the serviceUserId.
- *                 The response is either SuccessResponse or ErrorResponse.
+ *         The domain is required in the serviceUserId.
+ *         The response is either SuccessResponse or ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:19701","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:10899","type":"sequence"}]
  */
 class GroupMeetMeConferencingAddInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class GroupMeetMeConferencingAddInstanceRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:19701
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:10899
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -29,7 +29,7 @@ class GroupMeetMeConferencingAddInstanceRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName groupId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:19701
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:10899
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -39,7 +39,7 @@ class GroupMeetMeConferencingAddInstanceRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:19701
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:10899
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -49,7 +49,7 @@ class GroupMeetMeConferencingAddInstanceRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName serviceInstanceProfile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceAddProfile
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:19701
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:10899
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceAddProfile|null
      */
     private $serviceInstanceProfile = null;
@@ -57,7 +57,7 @@ class GroupMeetMeConferencingAddInstanceRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName allocatedPorts
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferencePorts
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:19701
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:10899
      * @var \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferencePorts|null
      */
     private $allocatedPorts = null;
@@ -66,7 +66,7 @@ class GroupMeetMeConferencingAddInstanceRequest extends \CWM\BroadWorksConnector
      * @ElementName networkClassOfService
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:19701
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:10899
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -76,7 +76,7 @@ class GroupMeetMeConferencingAddInstanceRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName allowIndividualOutDial
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:19701
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:10899
      * @var bool|null
      */
     private $allowIndividualOutDial = null;
@@ -85,7 +85,7 @@ class GroupMeetMeConferencingAddInstanceRequest extends \CWM\BroadWorksConnector
      * @ElementName operatorNumber
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:19701
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:10899
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -97,7 +97,7 @@ class GroupMeetMeConferencingAddInstanceRequest extends \CWM\BroadWorksConnector
      * @Type string
      * @Array
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:19701
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:10899
      * @MinLength 1
      * @MaxLength 161
      * @var string[]

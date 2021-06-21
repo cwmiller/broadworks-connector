@@ -11,11 +11,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         First Name + ' ' + Last Name
  *         Last Name + ' ' + First Name
  *         Last Name + ', ' + First Name
- *         Hiragana Last Name + Hiragana First Name
+ *         Hiragana Last Name + ' ' + Hiragana First Name
  *
  *         Note that when specific conditions are met, VON users will be included in the search results.
  *
- * @Groups [{"id":"f0ada2681ca347fa83b464734259b304:2183","type":"sequence"}]
+ * @Groups [{"id":"f0ada2681ca347fa83b464734259b304:2321","type":"sequence"}]
  */
 class SearchCriteriaUserName extends SearchCriteria
 {
@@ -23,7 +23,7 @@ class SearchCriteriaUserName extends SearchCriteria
     /**
      * @ElementName mode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchMode
-     * @Group f0ada2681ca347fa83b464734259b304:2183
+     * @Group f0ada2681ca347fa83b464734259b304:2321
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchMode|null
      */
     private $mode = null;
@@ -31,7 +31,7 @@ class SearchCriteriaUserName extends SearchCriteria
     /**
      * @ElementName value
      * @Type string
-     * @Group f0ada2681ca347fa83b464734259b304:2183
+     * @Group f0ada2681ca347fa83b464734259b304:2321
      * @MinLength 1
      * @MaxLength 62
      * @var string|null
@@ -41,7 +41,7 @@ class SearchCriteriaUserName extends SearchCriteria
     /**
      * @ElementName isCaseInsensitive
      * @Type bool
-     * @Group f0ada2681ca347fa83b464734259b304:2183
+     * @Group f0ada2681ca347fa83b464734259b304:2321
      * @var bool|null
      */
     private $isCaseInsensitive = null;

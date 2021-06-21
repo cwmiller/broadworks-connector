@@ -7,10 +7,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Request the group's extension length.
  *         The response is either a GroupExtensionLengthGetResponse17 or an ErrorResponse.
+ *         
+ *         Replaced by: GroupExtensionLengthGetRequest22 in AS data mode
  *
  * @see GroupExtensionLengthGetResponse17
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:4839","type":"sequence"}]
+ * @see GroupExtensionLengthGetRequest22
+ * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:2267","type":"sequence"}]
  */
 class GroupExtensionLengthGetRequest17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +21,7 @@ class GroupExtensionLengthGetRequest17 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4839
+     * @Group de4d76f01f337fe4694212ec9f771753:2267
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +31,7 @@ class GroupExtensionLengthGetRequest17 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4839
+     * @Group de4d76f01f337fe4694212ec9f771753:2267
      * @MinLength 1
      * @MaxLength 30
      * @var string|null

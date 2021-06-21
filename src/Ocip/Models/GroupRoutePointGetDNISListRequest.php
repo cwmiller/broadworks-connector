@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupRoutePointGetDNISListResponse
  * @see ErrorResponse
- * @Groups [{"id":"a27224a048c30ff69eab9209dec841cc:508","type":"sequence"}]
+ * @Groups [{"id":"a27224a048c30ff69eab9209dec841cc:453","type":"sequence"}]
  */
 class GroupRoutePointGetDNISListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupRoutePointGetDNISListRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group a27224a048c30ff69eab9209dec841cc:508
+     * @Group a27224a048c30ff69eab9209dec841cc:453
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

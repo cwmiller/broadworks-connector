@@ -5,20 +5,23 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemDomainGetListRequest22
  *
- * Requests the list of all system-level domains and all reseller level domains.
- *         If excludeReseller is specified, returns all the system-level domain names only.
- *         If resellerId is specified, returns all the system-level domain names and the given reseller's domains.
+ * Requests the list of all matching system-level domains and all matching reseller level domains. 
+ *         If excludeReseller is specified, returns all matching system-level domain names only. 
+ *         If resellerId is specified, returns all matching system-level domain names and the given reseller's domains. 
  *         If reseller administrator sends the request and resellerId is not specified, the administrator's resellerId is used.
- *
+ *         
  *         The response is either SystemDomainGetListResponse22 or ErrorResponse.
- *
+ *         
  *         The following elements are only used in AS data mode:
- *         includeReseller
- *         resellerId
+ *           includeReseller
+ *           resellerId
+ *           
+ *           Replaced by SystemDomainGetListRequest22V2 in AS data mode.
  *
  * @see SystemDomainGetListResponse22
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:8422","type":"choice"}]
+ * @see SystemDomainGetListRequest22V2
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:26413","type":"choice"}]
  */
 class SystemDomainGetListRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -27,7 +30,7 @@ class SystemDomainGetListRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\
      * @ElementName excludeReseller
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8422
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:26413
      * @var bool|null
      */
     private $excludeReseller = null;
@@ -36,7 +39,7 @@ class SystemDomainGetListRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\
      * @ElementName resellerId
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8422
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:26413
      * @MinLength 1
      * @MaxLength 30
      * @var string|null

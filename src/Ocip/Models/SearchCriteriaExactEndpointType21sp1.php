@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Criteria for searching for a particular endpoint type.
  *
- * @Groups [{"id":"f0ada2681ca347fa83b464734259b304:925","type":"sequence"}]
+ * @Groups [{"id":"f0ada2681ca347fa83b464734259b304:1014","type":"sequence"}]
  */
 class SearchCriteriaExactEndpointType21sp1 extends SearchCriteria
 {
@@ -15,7 +15,7 @@ class SearchCriteriaExactEndpointType21sp1 extends SearchCriteria
     /**
      * @ElementName endpointType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EndpointType21sp1
-     * @Group f0ada2681ca347fa83b464734259b304:925
+     * @Group f0ada2681ca347fa83b464734259b304:1014
      * @var \CWM\BroadWorksConnector\Ocip\Models\EndpointType21sp1|null
      */
     private $endpointType = null;

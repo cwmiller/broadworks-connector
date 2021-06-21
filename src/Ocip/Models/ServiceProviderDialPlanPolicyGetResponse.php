@@ -6,12 +6,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ServiceProviderDialPlanPolicyGetResponse
  *
  * Response to ServiceProviderDialPlanPolicyGetRequest
- *
- *                 Replaced by: ServiceProviderDialPlanPolicyGetResponse17
+ *         
+ *         Replaced by: ServiceProviderDialPlanPolicyGetResponse17
  *
  * @see ServiceProviderDialPlanPolicyGetRequest
  * @see ServiceProviderDialPlanPolicyGetResponse17
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:14695","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:18669","type":"sequence"}]
  */
 class ServiceProviderDialPlanPolicyGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,7 +19,7 @@ class ServiceProviderDialPlanPolicyGetResponse extends \CWM\BroadWorksConnector\
     /**
      * @ElementName requiresAccessCodeForPublicCalls
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:14695
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:18669
      * @var bool|null
      */
     private $requiresAccessCodeForPublicCalls = null;
@@ -27,7 +27,7 @@ class ServiceProviderDialPlanPolicyGetResponse extends \CWM\BroadWorksConnector\
     /**
      * @ElementName allowE164PublicCalls
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:14695
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:18669
      * @var bool|null
      */
     private $allowE164PublicCalls = null;
@@ -36,7 +36,7 @@ class ServiceProviderDialPlanPolicyGetResponse extends \CWM\BroadWorksConnector\
      * @ElementName publicDigitMap
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:14695
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:18669
      * @MinLength 1
      * @MaxLength 2048
      * @var string|null
@@ -47,7 +47,7 @@ class ServiceProviderDialPlanPolicyGetResponse extends \CWM\BroadWorksConnector\
      * @ElementName privateDigitMap
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:14695
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:18669
      * @MinLength 1
      * @MaxLength 2048
      * @var string|null

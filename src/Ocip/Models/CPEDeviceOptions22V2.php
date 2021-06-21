@@ -16,7 +16,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * 		It is not allowed to add a device type with device configuration option set to Device Management or Legacy when the configType
  * 		is not set.
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:1718","type":"sequence"}]
+ * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:1872","type":"sequence"}]
  */
 class CPEDeviceOptions22V2
 {
@@ -24,7 +24,7 @@ class CPEDeviceOptions22V2
     /**
      * @ElementName enableMonitoring
      * @Type bool
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1718
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:1872
      * @var bool|null
      */
     private $enableMonitoring = null;
@@ -33,7 +33,7 @@ class CPEDeviceOptions22V2
      * @ElementName configType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationType14
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1718
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:1872
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationType14|null
      */
     private $configType = null;
@@ -42,7 +42,7 @@ class CPEDeviceOptions22V2
      * @ElementName systemFileName
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1718
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:1872
      * @MinLength 1
      * @MaxLength 265
      * @var string|null
@@ -53,7 +53,7 @@ class CPEDeviceOptions22V2
      * @ElementName deviceFileFormat
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1718
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:1872
      * @MinLength 1
      * @MaxLength 265
      * @var string|null
@@ -64,7 +64,7 @@ class CPEDeviceOptions22V2
      * @ElementName deviceManagementDeviceTypeOptions
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementDeviceTypeOptions22V2
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1718
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:1872
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementDeviceTypeOptions22V2|null
      */
     private $deviceManagementDeviceTypeOptions = null;

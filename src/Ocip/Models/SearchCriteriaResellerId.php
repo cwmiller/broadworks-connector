@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Criteria for searching for a reseller ID.
  *
- * @Groups [{"id":"f0ada2681ca347fa83b464734259b304:1850","type":"sequence"}]
+ * @Groups [{"id":"f0ada2681ca347fa83b464734259b304:1955","type":"sequence"}]
  */
 class SearchCriteriaResellerId extends SearchCriteria
 {
@@ -15,7 +15,7 @@ class SearchCriteriaResellerId extends SearchCriteria
     /**
      * @ElementName mode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchMode
-     * @Group f0ada2681ca347fa83b464734259b304:1850
+     * @Group f0ada2681ca347fa83b464734259b304:1955
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchMode|null
      */
     private $mode = null;
@@ -23,9 +23,9 @@ class SearchCriteriaResellerId extends SearchCriteria
     /**
      * @ElementName value
      * @Type string
-     * @Group f0ada2681ca347fa83b464734259b304:1850
+     * @Group f0ada2681ca347fa83b464734259b304:1955
      * @MinLength 1
-     * @MaxLength 30
+     * @MaxLength 36
      * @var string|null
      */
     private $value = null;
@@ -33,7 +33,7 @@ class SearchCriteriaResellerId extends SearchCriteria
     /**
      * @ElementName isCaseInsensitive
      * @Type bool
-     * @Group f0ada2681ca347fa83b464734259b304:1850
+     * @Group f0ada2681ca347fa83b464734259b304:1955
      * @var bool|null
      */
     private $isCaseInsensitive = null;

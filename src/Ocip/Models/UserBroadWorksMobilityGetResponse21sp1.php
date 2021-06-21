@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *          Columns for the mobileIdentity table are as follows: "Mobile Number", "Description", "Country Code", "National Prefix", "Is Primary", "Enable Alerting".
  *
  * @see UserBroadWorksMobilityGetRequest21sp1
- * @Groups [{"id":"f7ae3539fd471e995b07dc1bf8836e2d:1293","type":"sequence"}]
+ * @Groups [{"id":"f7ae3539fd471e995b07dc1bf8836e2d:1543","type":"sequence"}]
  */
 class UserBroadWorksMobilityGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class UserBroadWorksMobilityGetResponse21sp1 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group f7ae3539fd471e995b07dc1bf8836e2d:1293
+     * @Group f7ae3539fd471e995b07dc1bf8836e2d:1543
      * @var bool|null
      */
     private $isActive = null;
@@ -26,7 +26,7 @@ class UserBroadWorksMobilityGetResponse21sp1 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName useMobileIdentityCallAnchoring
      * @Type bool
-     * @Group f7ae3539fd471e995b07dc1bf8836e2d:1293
+     * @Group f7ae3539fd471e995b07dc1bf8836e2d:1543
      * @var bool|null
      */
     private $useMobileIdentityCallAnchoring = null;
@@ -34,7 +34,7 @@ class UserBroadWorksMobilityGetResponse21sp1 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName preventCallsToOwnMobiles
      * @Type bool
-     * @Group f7ae3539fd471e995b07dc1bf8836e2d:1293
+     * @Group f7ae3539fd471e995b07dc1bf8836e2d:1543
      * @var bool|null
      */
     private $preventCallsToOwnMobiles = null;
@@ -42,7 +42,7 @@ class UserBroadWorksMobilityGetResponse21sp1 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName profileIdentityDevicesToRing
      * @Type \CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityPhoneToRing
-     * @Group f7ae3539fd471e995b07dc1bf8836e2d:1293
+     * @Group f7ae3539fd471e995b07dc1bf8836e2d:1543
      * @var \CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityPhoneToRing|null
      */
     private $profileIdentityDevicesToRing = null;
@@ -50,7 +50,7 @@ class UserBroadWorksMobilityGetResponse21sp1 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName profileIdentityIncludeSharedCallAppearance
      * @Type bool
-     * @Group f7ae3539fd471e995b07dc1bf8836e2d:1293
+     * @Group f7ae3539fd471e995b07dc1bf8836e2d:1543
      * @var bool|null
      */
     private $profileIdentityIncludeSharedCallAppearance = null;
@@ -58,7 +58,7 @@ class UserBroadWorksMobilityGetResponse21sp1 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName profileIdentityIncludeBroadworksAnywhere
      * @Type bool
-     * @Group f7ae3539fd471e995b07dc1bf8836e2d:1293
+     * @Group f7ae3539fd471e995b07dc1bf8836e2d:1543
      * @var bool|null
      */
     private $profileIdentityIncludeBroadworksAnywhere = null;
@@ -66,7 +66,7 @@ class UserBroadWorksMobilityGetResponse21sp1 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName profileIdentityIncludeExecutiveAssistant
      * @Type bool
-     * @Group f7ae3539fd471e995b07dc1bf8836e2d:1293
+     * @Group f7ae3539fd471e995b07dc1bf8836e2d:1543
      * @var bool|null
      */
     private $profileIdentityIncludeExecutiveAssistant = null;
@@ -74,7 +74,7 @@ class UserBroadWorksMobilityGetResponse21sp1 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName profileIdentityMobileNumberAlertedTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group f7ae3539fd471e995b07dc1bf8836e2d:1293
+     * @Group f7ae3539fd471e995b07dc1bf8836e2d:1543
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $profileIdentityMobileNumberAlertedTable = null;
@@ -82,7 +82,7 @@ class UserBroadWorksMobilityGetResponse21sp1 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName mobileIdentityTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group f7ae3539fd471e995b07dc1bf8836e2d:1293
+     * @Group f7ae3539fd471e995b07dc1bf8836e2d:1543
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $mobileIdentityTable = null;

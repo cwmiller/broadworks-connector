@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to UserPortalPasscodeGetInfoRequest.
  *
  * @see UserPortalPasscodeGetInfoRequest
- * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:3229","type":"sequence","children":[{"id":"53d18cc797d03d802cbc411ad821f1d4:3231","type":"choice"}]}]
+ * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:3265","type":"sequence","children":[{"id":"53d18cc797d03d802cbc411ad821f1d4:3267","type":"choice"}]}]
  */
 class UserPortalPasscodeGetInfoResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class UserPortalPasscodeGetInfoResponse extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName isLoginDisabled
      * @Type bool
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:3229
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:3265
      * @var bool|null
      */
     private $isLoginDisabled = null;
@@ -24,7 +24,7 @@ class UserPortalPasscodeGetInfoResponse extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName expirationDays
      * @Type int
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:3231
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:3267
      * @var int|null
      */
     private $expirationDays = null;
@@ -32,7 +32,7 @@ class UserPortalPasscodeGetInfoResponse extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName doesNotExpire
      * @Type bool
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:3231
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:3267
      * @var bool|null
      */
     private $doesNotExpire = null;
@@ -40,7 +40,7 @@ class UserPortalPasscodeGetInfoResponse extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName passcode
      * @Type string
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:3229
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:3265
      * @MinLength 1
      * @MaxLength 30
      * @var string|null

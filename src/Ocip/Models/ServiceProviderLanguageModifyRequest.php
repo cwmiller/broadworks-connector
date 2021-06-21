@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:4049","type":"sequence"}]
+ * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:4841","type":"sequence"}]
  */
 class ServiceProviderLanguageModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class ServiceProviderLanguageModifyRequest extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4049
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4841
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -30,7 +30,7 @@ class ServiceProviderLanguageModifyRequest extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName language
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4049
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4841
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -41,7 +41,7 @@ class ServiceProviderLanguageModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @ElementName becomeDefaultLanguage
      * @Type bool
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4049
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4841
      * @var bool|null
      */
     private $becomeDefaultLanguage = null;

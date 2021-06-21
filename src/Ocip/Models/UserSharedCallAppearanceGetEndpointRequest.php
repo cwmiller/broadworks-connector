@@ -7,10 +7,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Get the user's Shared Call Appearance endpoint setting.
  *         The response is either a UserSharedCallAppearanceGetEndpointResponse or an ErrorResponse.
+ *         Replaced by: UserSharedCallAppearanceGetEndpointRequest21 in XS data mode
  *
  * @see UserSharedCallAppearanceGetEndpointResponse
  * @see ErrorResponse
- * @Groups [{"id":"524e0d071a229a44af2f953d6b50db35:84","type":"sequence"}]
+ * @see UserSharedCallAppearanceGetEndpointRequest21
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:46070","type":"sequence"}]
  */
 class UserSharedCallAppearanceGetEndpointRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +20,7 @@ class UserSharedCallAppearanceGetEndpointRequest extends \CWM\BroadWorksConnecto
     /**
      * @ElementName userId
      * @Type string
-     * @Group 524e0d071a229a44af2f953d6b50db35:84
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:46070
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -28,7 +30,7 @@ class UserSharedCallAppearanceGetEndpointRequest extends \CWM\BroadWorksConnecto
     /**
      * @ElementName accessDeviceEndpoint
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointKey
-     * @Group 524e0d071a229a44af2f953d6b50db35:84
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:46070
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointKey|null
      */
     private $accessDeviceEndpoint = null;

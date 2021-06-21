@@ -6,12 +6,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupGetResponse
  *
  * Response to the GroupGetRequest.
- *                 The response contains the group's profile information.
- *                 Replaced By: GroupGetResponse14sp7
+ *         The response contains the group's profile information.
+ *         Replaced By: GroupGetResponse14sp7
  *
  * @see GroupGetRequest
  * @see GroupGetResponse14sp7
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:1609","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:9983","type":"sequence"}]
  */
 class GroupGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,7 +19,7 @@ class GroupGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRes
     /**
      * @ElementName defaultDomain
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:1609
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:9983
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -29,7 +29,7 @@ class GroupGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRes
     /**
      * @ElementName userLimit
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:1609
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:9983
      * @MinInclusive 1
      * @MaxInclusive 999999
      * @var int|null
@@ -39,7 +39,7 @@ class GroupGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRes
     /**
      * @ElementName userCount
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:1609
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:9983
      * @var int|null
      */
     private $userCount = null;
@@ -48,7 +48,7 @@ class GroupGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRes
      * @ElementName groupName
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:1609
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:9983
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -59,7 +59,7 @@ class GroupGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRes
      * @ElementName callingLineIdName
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:1609
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:9983
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -69,7 +69,7 @@ class GroupGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRes
     /**
      * @ElementName timeZone
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:1609
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:9983
      * @MinLength 1
      * @MaxLength 127
      * @var string|null
@@ -79,7 +79,7 @@ class GroupGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRes
     /**
      * @ElementName timeZoneDisplayName
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:1609
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:9983
      * @MinLength 1
      * @MaxLength 127
      * @var string|null
@@ -90,7 +90,7 @@ class GroupGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRes
      * @ElementName locationDialingCode
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:1609
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:9983
      * @MinLength 1
      * @MaxLength 15
      * @var string|null
@@ -101,7 +101,7 @@ class GroupGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRes
      * @ElementName contact
      * @Type \CWM\BroadWorksConnector\Ocip\Models\Contact
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:1609
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:9983
      * @var \CWM\BroadWorksConnector\Ocip\Models\Contact|null
      */
     private $contact = null;
@@ -110,7 +110,7 @@ class GroupGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRes
      * @ElementName address
      * @Type \CWM\BroadWorksConnector\Ocip\Models\StreetAddress
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:1609
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:9983
      * @var \CWM\BroadWorksConnector\Ocip\Models\StreetAddress|null
      */
     private $address = null;

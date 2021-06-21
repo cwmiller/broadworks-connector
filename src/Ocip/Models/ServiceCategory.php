@@ -7,12 +7,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * List of supported Service Categories that have configurable default attributes entries.
  *       The following elements are ignored in AS data mode:
+ *          Basic Call Logs
  *          OMA Presence
+ *          Push to Talk
  *       The following elements are ignored in XS data mode:
  *          ChargeNumber
  *          Integrated IMP
  *          Voice Portal Calling
  *
+ * @method static ServiceCategory BASIC_CALL_LOGS()
  * @method static ServiceCategory CALL_TRANSFER()
  * @method static ServiceCategory CALL_WAITING()
  * @method static ServiceCategory CALLING_NAME_RETRIEVAL()
@@ -25,6 +28,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static ServiceCategory MUSIC_ON_HOLD()
  * @method static ServiceCategory OMA_PRESENCE()
  * @method static ServiceCategory PREPAID()
+ * @method static ServiceCategory PUSH_TO_TALK()
  * @method static ServiceCategory SHARED_CALL_APPEARANCE()
  * @method static ServiceCategory THIRD_PARTY_VOICE_MAIL_SUPPORT()
  * @method static ServiceCategory USER()
@@ -33,6 +37,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class ServiceCategory extends \MyCLabs\Enum\Enum
 {
+
+    const BASIC_CALL_LOGS = 'Basic Call Logs';
 
     const CALL_TRANSFER = 'Call Transfer';
 
@@ -57,6 +63,8 @@ class ServiceCategory extends \MyCLabs\Enum\Enum
     const OMA_PRESENCE = 'OMA Presence';
 
     const PREPAID = 'Prepaid';
+
+    const PUSH_TO_TALK = 'Push to Talk';
 
     const SHARED_CALL_APPEARANCE = 'Shared Call Appearance';
 

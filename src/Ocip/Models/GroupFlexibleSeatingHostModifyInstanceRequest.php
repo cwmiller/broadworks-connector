@@ -7,10 +7,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Request to modify a flexible seating host instance.
  *         The response is either SuccessResponse or ErrorResponse.
+ *         
+ *         Replaced by: GroupFlexibleSeatingHostModifyInstanceRequest22.
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"43afb2158d313a1d1a148124d7caba1e:351","type":"sequence"}]
+ * @see GroupFlexibleSeatingHostModifyInstanceRequest22
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:9928","type":"sequence"}]
  */
 class GroupFlexibleSeatingHostModifyInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +21,7 @@ class GroupFlexibleSeatingHostModifyInstanceRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group 43afb2158d313a1d1a148124d7caba1e:351
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:9928
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -29,7 +32,7 @@ class GroupFlexibleSeatingHostModifyInstanceRequest extends \CWM\BroadWorksConne
      * @ElementName serviceInstanceProfile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceModifyProfileFlexibleSeatingHost
      * @Optional
-     * @Group 43afb2158d313a1d1a148124d7caba1e:351
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:9928
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceModifyProfileFlexibleSeatingHost|null
      */
     private $serviceInstanceProfile = null;
@@ -39,7 +42,7 @@ class GroupFlexibleSeatingHostModifyInstanceRequest extends \CWM\BroadWorksConne
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceMultipleContactEndpointModify
      * @Nillable
      * @Optional
-     * @Group 43afb2158d313a1d1a148124d7caba1e:351
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:9928
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceMultipleContactEndpointModify|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $accessDeviceEndpoint = null;
@@ -48,7 +51,7 @@ class GroupFlexibleSeatingHostModifyInstanceRequest extends \CWM\BroadWorksConne
      * @ElementName networkClassOfService
      * @Type string
      * @Optional
-     * @Group 43afb2158d313a1d1a148124d7caba1e:351
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:9928
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

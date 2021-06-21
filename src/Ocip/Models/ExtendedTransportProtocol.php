@@ -6,6 +6,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ExtendedTransportProtocol
  *
  * Network Transport Protocol.
+ *         
+ *         The following values are only used in AS data mode and will fail in XS data mode:
+ *           TLS
  *
  * @method static ExtendedTransportProtocol UDP()
  * @method static ExtendedTransportProtocol TCP()

@@ -21,7 +21,7 @@ class ResellerCollaborateGetRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @Type string
      * @Group 939fd5846dfae8bdf58308d6cb9ebb12:463
      * @MinLength 1
-     * @MaxLength 30
+     * @MaxLength 36
      * @var string|null
      */
     private $resellerId = null;

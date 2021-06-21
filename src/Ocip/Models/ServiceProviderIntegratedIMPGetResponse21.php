@@ -14,7 +14,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see ServiceProviderIntegratedIMPGetRequest21
  * @see ServiceProviderIntegratedIMPGetResponse21sp1
- * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:5720","type":"sequence"}]
+ * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:6020","type":"sequence"}]
  */
 class ServiceProviderIntegratedIMPGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -22,7 +22,7 @@ class ServiceProviderIntegratedIMPGetResponse21 extends \CWM\BroadWorksConnector
     /**
      * @ElementName useSystemServiceDomain
      * @Type bool
-     * @Group de4d76f01f337fe4694212ec9f771753:5720
+     * @Group de4d76f01f337fe4694212ec9f771753:6020
      * @var bool|null
      */
     private $useSystemServiceDomain = null;
@@ -31,7 +31,7 @@ class ServiceProviderIntegratedIMPGetResponse21 extends \CWM\BroadWorksConnector
      * @ElementName serviceDomain
      * @Type string
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:5720
+     * @Group de4d76f01f337fe4694212ec9f771753:6020
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -42,7 +42,7 @@ class ServiceProviderIntegratedIMPGetResponse21 extends \CWM\BroadWorksConnector
      * @ElementName servicePort
      * @Type int
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:5720
+     * @Group de4d76f01f337fe4694212ec9f771753:6020
      * @MinInclusive 1
      * @MaxInclusive 65535
      * @var int|null
@@ -52,7 +52,7 @@ class ServiceProviderIntegratedIMPGetResponse21 extends \CWM\BroadWorksConnector
     /**
      * @ElementName useSystemMessagingServer
      * @Type bool
-     * @Group de4d76f01f337fe4694212ec9f771753:5720
+     * @Group de4d76f01f337fe4694212ec9f771753:6020
      * @var bool|null
      */
     private $useSystemMessagingServer = null;
@@ -61,7 +61,7 @@ class ServiceProviderIntegratedIMPGetResponse21 extends \CWM\BroadWorksConnector
      * @ElementName provisioningUrl
      * @Type string
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:5720
+     * @Group de4d76f01f337fe4694212ec9f771753:6020
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -72,7 +72,7 @@ class ServiceProviderIntegratedIMPGetResponse21 extends \CWM\BroadWorksConnector
      * @ElementName provisioningUserId
      * @Type string
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:5720
+     * @Group de4d76f01f337fe4694212ec9f771753:6020
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -83,7 +83,7 @@ class ServiceProviderIntegratedIMPGetResponse21 extends \CWM\BroadWorksConnector
      * @ElementName boshURL
      * @Type string
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:5720
+     * @Group de4d76f01f337fe4694212ec9f771753:6020
      * @MinLength 1
      * @MaxLength 256
      * @var string|null

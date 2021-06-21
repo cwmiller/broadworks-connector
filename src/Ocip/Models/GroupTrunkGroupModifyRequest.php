@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupTrunkGroupModifyRequest
  *
  * Modify the maximum and bursting maximum permissible active Trunk Group calls for the group.
- *                 The response is either a SuccessResponse or an ErrorResponse.
+ *         The response is either a SuccessResponse or an ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:3039","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:15952","type":"sequence"}]
  */
 class GroupTrunkGroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupTrunkGroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:3039
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:15952
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +28,7 @@ class GroupTrunkGroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName groupId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:3039
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:15952
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -39,7 +39,7 @@ class GroupTrunkGroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @ElementName maxActiveCalls
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:3039
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:15952
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt|null
      */
     private $maxActiveCalls = null;
@@ -48,7 +48,7 @@ class GroupTrunkGroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @ElementName burstingMaxActiveCalls
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:3039
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:15952
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt|null
      */
     private $burstingMaxActiveCalls = null;

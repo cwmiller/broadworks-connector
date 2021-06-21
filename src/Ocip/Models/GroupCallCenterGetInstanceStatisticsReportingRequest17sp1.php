@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupCallCenterGetInstanceStatisticsReportingResponse17sp1
  * @see ErrorResponse
- * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:4723","type":"sequence"}]
+ * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:4681","type":"sequence"}]
  */
 class GroupCallCenterGetInstanceStatisticsReportingRequest17sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupCallCenterGetInstanceStatisticsReportingRequest17sp1 extends \CWM\Bro
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group e2c537e3e39483b96620673a7012ffdd:4723
+     * @Group e2c537e3e39483b96620673a7012ffdd:4681
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

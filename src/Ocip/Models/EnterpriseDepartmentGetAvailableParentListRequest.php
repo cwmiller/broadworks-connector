@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see EnterpriseDepartmentGetAvailableParentListResponse
  * @see ErrorResponse
- * @Groups [{"id":"5395c7df0157d44aa22f3351d1a5f3da:669","type":"sequence"}]
+ * @Groups [{"id":"5395c7df0157d44aa22f3351d1a5f3da:670","type":"sequence"}]
  */
 class EnterpriseDepartmentGetAvailableParentListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class EnterpriseDepartmentGetAvailableParentListRequest extends \CWM\BroadWorksC
     /**
      * @ElementName enterpriseId
      * @Type string
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:669
+     * @Group 5395c7df0157d44aa22f3351d1a5f3da:670
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -30,7 +30,7 @@ class EnterpriseDepartmentGetAvailableParentListRequest extends \CWM\BroadWorksC
     /**
      * @ElementName departmentName
      * @Type string
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:669
+     * @Group 5395c7df0157d44aa22f3351d1a5f3da:670
      * @MinLength 1
      * @MaxLength 50
      * @var string|null

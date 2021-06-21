@@ -11,11 +11,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The "Assigned" column contains a boolean flag indicating if the DN(s) are
  *         currently assigned to a user or service instance.
  *         The "Activated" column indicates if the DN or DN range has been activated.  
- *         Only has a value if the DN(s) is assigned to a user or if "Group Enable Activation
- *         Mode" is enabled.
+ *         Only has a value if the DN(s) is assigned to a user or if either “User Enable Activation mode “ 
+ *         or "Group and User Enable Activation Mode" is enabled.
  *
  * @see GroupDnGetSummaryListRequest
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:4470","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:5369","type":"sequence"}]
  */
 class GroupDnGetSummaryListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -23,7 +23,7 @@ class GroupDnGetSummaryListResponse extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName dnTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4470
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:5369
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $dnTable = null;

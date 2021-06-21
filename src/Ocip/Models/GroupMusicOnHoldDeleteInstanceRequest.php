@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"66fe518a637c74cc4b2c97aa7f68fc49:74","type":"sequence"}]
+ * @Groups [{"id":"66fe518a637c74cc4b2c97aa7f68fc49:78","type":"sequence"}]
  */
 class GroupMusicOnHoldDeleteInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupMusicOnHoldDeleteInstanceRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 66fe518a637c74cc4b2c97aa7f68fc49:74
+     * @Group 66fe518a637c74cc4b2c97aa7f68fc49:78
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +28,7 @@ class GroupMusicOnHoldDeleteInstanceRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 66fe518a637c74cc4b2c97aa7f68fc49:74
+     * @Group 66fe518a637c74cc4b2c97aa7f68fc49:78
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -39,7 +39,7 @@ class GroupMusicOnHoldDeleteInstanceRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName department
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey
      * @Abstract \CWM\BroadWorksConnector\Ocip\Models\EnterpriseDepartmentKey,\CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentKey
-     * @Group 66fe518a637c74cc4b2c97aa7f68fc49:74
+     * @Group 66fe518a637c74cc4b2c97aa7f68fc49:78
      * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null
      */
     private $department = null;

@@ -6,13 +6,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemBroadWorksMobilityServiceAccessCodeAddRequest
  *
  * Add a system service access code.
- *                 The response is either SuccessResponse or ErrorResponse.
- *                 Replaced by SystemBroadWorksMobilityServiceAccessCodeAddRequest21.
+ *         The response is either SuccessResponse or ErrorResponse.
+ *         Replaced by SystemBroadWorksMobilityServiceAccessCodeAddRequest21.
  *
  * @see SuccessResponse
  * @see ErrorResponse
  * @see SystemBroadWorksMobilityServiceAccessCodeAddRequest21
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:34232","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:20474","type":"sequence"}]
  */
 class SystemBroadWorksMobilityServiceAccessCodeAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class SystemBroadWorksMobilityServiceAccessCodeAddRequest extends \CWM\BroadWork
     /**
      * @ElementName serviceAccessCode
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:34232
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:20474
      * @MinLength 1
      * @MaxLength 10
      * @var string|null
@@ -30,7 +30,7 @@ class SystemBroadWorksMobilityServiceAccessCodeAddRequest extends \CWM\BroadWork
     /**
      * @ElementName countryCode
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:34232
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:20474
      * @MaxLength 3
      * @Pattern [0-9]|[1-9][0-9]{1,2}
      * @var string|null
@@ -41,7 +41,7 @@ class SystemBroadWorksMobilityServiceAccessCodeAddRequest extends \CWM\BroadWork
      * @ElementName description
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:34232
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:20474
      * @MinLength 1
      * @MaxLength 80
      * @var string|null

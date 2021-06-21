@@ -6,36 +6,31 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupCallProcessingGetPolicyRequest18
  *
  * Request the group level data associated with Call Processing Policy.
- *                 The response is either a GroupCallProcessingGetPolicyResponse18 or an
- *                 ErrorResponse.
- *
- *                 The useGroupCLIDSetting attribute controls the CLID settings
- *                 (clidPolicy, emergencyClidPolicy, allowAlternateNumbersForRedirectingIdentity, useGroupName,
- *                 allowDepartmentCLIDNameOverride)
- *
- *                 The useGroupMediaSetting attribute controls the Media settings
- *                 (medisPolicySelection, supportedMediaSetName)
- *                 The useGroupCallLimitsSetting attribute controls the Call Limits settings
- *                 (useMaxSimultaneousCalls, maxSimultaneousCalls,
- *                 useMaxSimultaneousVideoCalls, maxSimultaneousVideoCalls, useMaxCallTimeForAnsweredCalls,
- *                 maxCallTimeForAnsweredCallsMinutes, useMaxCallTimeForUnansweredCalls,
- *                 maxCallTimeForUnansweredCallsMinutes, useMaxConcurrentRedirectedCalls, useMaxFindMeFollowMeDepth,
- *                 maxRedirectionDepth, useMaxConcurrentFindMeFollowMeInvocations, maxConcurrentFindMeFollowMeInvocations)
- *                 The useGroupTranslationRoutingSetting attribute controls the routing and translation settings
- *                 (networkUsageSelection, enforceGroupCallingLineIdentityRestriction,
- *                 allowEnterpriseGroupCallTypingForPrivateDialingPlan, allowEnterpriseGroupCallTypingForPublicDialingPlan,
- *                 overrideCLIDRestrictionForExternalCallsViaPrivateDialingPlan, enableEnterpriseExtensionDialing)
- *                 The following elements are only used in AS data mode:
- *                 useGroupDCLIDSetting
- *                 enableDialableCallerID
- *                 allowDepartmentCLIDNameOverride
- *
- *                 Replaced By : GroupCallProcessingGetPolicyRequest18sp1
+ *         The response is either a GroupCallProcessingGetPolicyResponse18 or an
+ *         ErrorResponse.
+ *   
+ *         The useGroupCLIDSetting attribute controls the CLID settings 
+ *         (clidPolicy, emergencyClidPolicy, allowAlternateNumbersForRedirectingIdentity, useGroupName, allowDepartmentCLIDNameOverride)
+ *   
+ *         The useGroupMediaSetting attribute controls the Media settings 
+ *         (medisPolicySelection, supportedMediaSetName)
+ *         The useGroupCallLimitsSetting attribute controls the Call Limits settings 
+ *         (useMaxSimultaneousCalls, maxSimultaneousCalls, 
+ *         useMaxSimultaneousVideoCalls, maxSimultaneousVideoCalls, useMaxCallTimeForAnsweredCalls, maxCallTimeForAnsweredCallsMinutes, useMaxCallTimeForUnansweredCalls, maxCallTimeForUnansweredCallsMinutes, useMaxConcurrentRedirectedCalls, useMaxFindMeFollowMeDepth, maxRedirectionDepth, useMaxConcurrentFindMeFollowMeInvocations, maxConcurrentFindMeFollowMeInvocations)
+ *         The useGroupTranslationRoutingSetting attribute controls the routing and translation settings 
+ *         (networkUsageSelection, enforceGroupCallingLineIdentityRestriction, 
+ *         allowEnterpriseGroupCallTypingForPrivateDialingPlan, allowEnterpriseGroupCallTypingForPublicDialingPlan, overrideCLIDRestrictionForExternalCallsViaPrivateDialingPlan, enableEnterpriseExtensionDialing)
+ *         The following elements are only used in AS data mode:
+ *           useGroupDCLIDSetting
+ *           enableDialableCallerID
+ *           allowDepartmentCLIDNameOverride
+ *  
+ *        Replaced By : GroupCallProcessingGetPolicyRequest18sp1
  *
  * @see GroupCallProcessingGetPolicyResponse18
  * @see ErrorResponse
  * @see GroupCallProcessingGetPolicyRequest18sp1
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:36232","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:7777","type":"sequence"}]
  */
 class GroupCallProcessingGetPolicyRequest18 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -43,7 +38,7 @@ class GroupCallProcessingGetPolicyRequest18 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:36232
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:7777
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -53,7 +48,7 @@ class GroupCallProcessingGetPolicyRequest18 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName groupId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:36232
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:7777
      * @MinLength 1
      * @MaxLength 30
      * @var string|null

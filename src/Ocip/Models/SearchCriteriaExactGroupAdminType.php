@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Criteria for searching for a particular group administrator type.
  *
- * @Groups [{"id":"f0ada2681ca347fa83b464734259b304:940","type":"sequence"}]
+ * @Groups [{"id":"f0ada2681ca347fa83b464734259b304:1029","type":"sequence"}]
  */
 class SearchCriteriaExactGroupAdminType extends SearchCriteria
 {
@@ -15,7 +15,7 @@ class SearchCriteriaExactGroupAdminType extends SearchCriteria
     /**
      * @ElementName type
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupAdminType
-     * @Group f0ada2681ca347fa83b464734259b304:940
+     * @Group f0ada2681ca347fa83b464734259b304:1029
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupAdminType|null
      */
     private $type = null;

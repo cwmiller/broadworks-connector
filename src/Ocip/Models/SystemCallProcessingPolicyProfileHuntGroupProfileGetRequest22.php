@@ -8,10 +8,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request to get the configuration for a call processing policy profile Hunt Group subscriber type profile.
  *         The response is either a SystemCallProcessingPolicyProfileHuntGroupProfileGetResponse22 or an
  *         ErrorResponse.
+ *         
+ *         Replaced by: SystemCallProcessingPolicyProfileHuntGroupProfileGetRequest22V2.
  *
  * @see SystemCallProcessingPolicyProfileHuntGroupProfileGetResponse22
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:3723","type":"sequence"}]
+ * @see SystemCallProcessingPolicyProfileHuntGroupProfileGetRequest22V2
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:23121","type":"sequence"}]
  */
 class SystemCallProcessingPolicyProfileHuntGroupProfileGetRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +22,7 @@ class SystemCallProcessingPolicyProfileHuntGroupProfileGetRequest22 extends \CWM
     /**
      * @ElementName callProcessingPolicyProfileName
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:3723
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:23121
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

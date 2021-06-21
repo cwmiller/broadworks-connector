@@ -14,7 +14,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SuccessResponse
  * @see ErrorResponse
  * @see GroupAutoAttendantSubmenuModifyRequest20
- * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:484","type":"sequence"}]
+ * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:1421","type":"sequence"}]
  */
 class GroupAutoAttendantSubmenuModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -22,7 +22,7 @@ class GroupAutoAttendantSubmenuModifyRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group de4d76f01f337fe4694212ec9f771753:484
+     * @Group de4d76f01f337fe4694212ec9f771753:1421
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -32,7 +32,7 @@ class GroupAutoAttendantSubmenuModifyRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName submenuId
      * @Type string
-     * @Group de4d76f01f337fe4694212ec9f771753:484
+     * @Group de4d76f01f337fe4694212ec9f771753:1421
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -43,7 +43,7 @@ class GroupAutoAttendantSubmenuModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName newSubmenuId
      * @Type string
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:484
+     * @Group de4d76f01f337fe4694212ec9f771753:1421
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -54,7 +54,7 @@ class GroupAutoAttendantSubmenuModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName announcementSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:484
+     * @Group de4d76f01f337fe4694212ec9f771753:1421
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection|null
      */
     private $announcementSelection = null;
@@ -63,7 +63,7 @@ class GroupAutoAttendantSubmenuModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName audioFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:484
+     * @Group de4d76f01f337fe4694212ec9f771753:1421
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null
      */
     private $audioFile = null;
@@ -72,7 +72,7 @@ class GroupAutoAttendantSubmenuModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName videoFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:484
+     * @Group de4d76f01f337fe4694212ec9f771753:1421
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null
      */
     private $videoFile = null;
@@ -81,7 +81,7 @@ class GroupAutoAttendantSubmenuModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName enableLevelExtensionDialing
      * @Type bool
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:484
+     * @Group de4d76f01f337fe4694212ec9f771753:1421
      * @var bool|null
      */
     private $enableLevelExtensionDialing = null;
@@ -91,7 +91,7 @@ class GroupAutoAttendantSubmenuModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantKeyModifyConfiguration
      * @Array
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:484
+     * @Group de4d76f01f337fe4694212ec9f771753:1421
      * @var \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantKeyModifyConfiguration[]
      */
     private $keyConfiguration = array(

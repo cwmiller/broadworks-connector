@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the GroupCallCenterGetAnnouncementRequest.
  *
  * @see GroupCallCenterGetAnnouncementRequest
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:864","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:5125","type":"sequence"}]
  */
 class GroupCallCenterGetAnnouncementResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class GroupCallCenterGetAnnouncementResponse extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName entranceMessageSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementSelection
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:864
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:5125
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementSelection|null
      */
     private $entranceMessageSelection = null;
@@ -25,7 +25,7 @@ class GroupCallCenterGetAnnouncementResponse extends \CWM\BroadWorksConnector\Oc
      * @ElementName entranceMessageAudioFileDescription
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:864
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:5125
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -36,7 +36,7 @@ class GroupCallCenterGetAnnouncementResponse extends \CWM\BroadWorksConnector\Oc
      * @ElementName entranceMessageVideoFileDescription
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:864
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:5125
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -46,7 +46,7 @@ class GroupCallCenterGetAnnouncementResponse extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName periodicComfortMessageSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementSelection
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:864
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:5125
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementSelection|null
      */
     private $periodicComfortMessageSelection = null;
@@ -55,7 +55,7 @@ class GroupCallCenterGetAnnouncementResponse extends \CWM\BroadWorksConnector\Oc
      * @ElementName periodicComfortMessageAudioFileDescription
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:864
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:5125
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -66,7 +66,7 @@ class GroupCallCenterGetAnnouncementResponse extends \CWM\BroadWorksConnector\Oc
      * @ElementName periodicComfortMessageVideoFileDescription
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:864
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:5125
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -76,7 +76,7 @@ class GroupCallCenterGetAnnouncementResponse extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName onHoldMessageSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementSelection
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:864
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:5125
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementSelection|null
      */
     private $onHoldMessageSelection = null;
@@ -85,7 +85,7 @@ class GroupCallCenterGetAnnouncementResponse extends \CWM\BroadWorksConnector\Oc
      * @ElementName onHoldMessageAudioFileDescription
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:864
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:5125
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -96,7 +96,7 @@ class GroupCallCenterGetAnnouncementResponse extends \CWM\BroadWorksConnector\Oc
      * @ElementName onHoldMessageVideoFileDescription
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:864
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:5125
      * @MinLength 1
      * @MaxLength 256
      * @var string|null

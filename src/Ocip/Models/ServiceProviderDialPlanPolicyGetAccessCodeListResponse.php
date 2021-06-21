@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "Enable Secondary Dial Tone", "Description".
  *
  * @see ServiceProviderDialPlanPolicyGetAccessCodeListRequest
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:2947","type":"sequence"}]
+ * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:3597","type":"sequence"}]
  */
 class ServiceProviderDialPlanPolicyGetAccessCodeListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class ServiceProviderDialPlanPolicyGetAccessCodeListResponse extends \CWM\BroadW
     /**
      * @ElementName accessCodeTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2947
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3597
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $accessCodeTable = null;

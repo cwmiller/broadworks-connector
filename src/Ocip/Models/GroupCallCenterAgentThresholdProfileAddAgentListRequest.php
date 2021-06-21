@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:2121","type":"sequence"}]
+ * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:2136","type":"sequence"}]
  */
 class GroupCallCenterAgentThresholdProfileAddAgentListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class GroupCallCenterAgentThresholdProfileAddAgentListRequest extends \CWM\Broad
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group e2c537e3e39483b96620673a7012ffdd:2121
+     * @Group e2c537e3e39483b96620673a7012ffdd:2136
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -29,7 +29,7 @@ class GroupCallCenterAgentThresholdProfileAddAgentListRequest extends \CWM\Broad
     /**
      * @ElementName groupId
      * @Type string
-     * @Group e2c537e3e39483b96620673a7012ffdd:2121
+     * @Group e2c537e3e39483b96620673a7012ffdd:2136
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -39,7 +39,7 @@ class GroupCallCenterAgentThresholdProfileAddAgentListRequest extends \CWM\Broad
     /**
      * @ElementName profileName
      * @Type string
-     * @Group e2c537e3e39483b96620673a7012ffdd:2121
+     * @Group e2c537e3e39483b96620673a7012ffdd:2136
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -50,7 +50,7 @@ class GroupCallCenterAgentThresholdProfileAddAgentListRequest extends \CWM\Broad
      * @ElementName agentUserId
      * @Type string
      * @Array
-     * @Group e2c537e3e39483b96620673a7012ffdd:2121
+     * @Group e2c537e3e39483b96620673a7012ffdd:2136
      * @MinLength 1
      * @MaxLength 161
      * @var string[]

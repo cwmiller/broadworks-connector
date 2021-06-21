@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Identifier for conference.
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:2542","type":"sequence"}]
+ * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:3011","type":"sequence"}]
  */
 class MeetMeConferencingConferenceKey
 {
@@ -15,7 +15,7 @@ class MeetMeConferencingConferenceKey
     /**
      * @ElementName bridgeId
      * @Type string
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:2542
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:3011
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -25,7 +25,7 @@ class MeetMeConferencingConferenceKey
     /**
      * @ElementName conferenceId
      * @Type string
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:2542
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:3011
      * @MinLength 6
      * @MaxLength 12
      * @var string|null

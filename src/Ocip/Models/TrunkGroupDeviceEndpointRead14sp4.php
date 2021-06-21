@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Trunk group device endpoint.
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:4298","type":"sequence"}]
+ * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:4994","type":"sequence"}]
  */
 class TrunkGroupDeviceEndpointRead14sp4
 {
@@ -15,7 +15,7 @@ class TrunkGroupDeviceEndpointRead14sp4
     /**
      * @ElementName name
      * @Type string
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4298
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:4994
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -25,7 +25,7 @@ class TrunkGroupDeviceEndpointRead14sp4
     /**
      * @ElementName linePort
      * @Type string
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4298
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:4994
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -36,7 +36,7 @@ class TrunkGroupDeviceEndpointRead14sp4
      * @ElementName contact
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4298
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:4994
      * @MinLength 1
      * @MaxLength 1020
      * @var string|null
@@ -46,7 +46,7 @@ class TrunkGroupDeviceEndpointRead14sp4
     /**
      * @ElementName staticRegistrationCapable
      * @Type bool
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4298
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:4994
      * @var bool|null
      */
     private $staticRegistrationCapable = null;
@@ -54,7 +54,7 @@ class TrunkGroupDeviceEndpointRead14sp4
     /**
      * @ElementName useDomain
      * @Type bool
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4298
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:4994
      * @var bool|null
      */
     private $useDomain = null;
@@ -62,7 +62,7 @@ class TrunkGroupDeviceEndpointRead14sp4
     /**
      * @ElementName isPilotUser
      * @Type bool
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4298
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:4994
      * @var bool|null
      */
     private $isPilotUser = null;

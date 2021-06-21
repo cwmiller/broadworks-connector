@@ -6,12 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemCallProcessingPolicyProfileGetAssignedNCOSListRequest
  *
  * Request a list of NCOSs that have a given CallP Policy Profile assigned.
- *         The response is either a SystemCallProcessingPolicyProfileGetAssignedNCOSListResponse or
- *         ErrorResponse.
+ *         The response is either a SystemCallProcessingPolicyProfileGetAssignedNCOSListResponse or ErrorResponse.
  *
  * @see SystemCallProcessingPolicyProfileGetAssignedNCOSListResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:3519","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:3944","type":"sequence"}]
  */
 class SystemCallProcessingPolicyProfileGetAssignedNCOSListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +18,7 @@ class SystemCallProcessingPolicyProfileGetAssignedNCOSListRequest extends \CWM\B
     /**
      * @ElementName profileName
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:3519
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:3944
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

@@ -6,11 +6,16 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserSharedCallAppearanceModifyEndpointRequest
  *
  * Associate/Disassociate an access device instance to the user's Shared Call Appearance.
+ *          
+ *         The following elements are only used in AS data mode and ignored in XS data mode:
+ *           useHotline
+ *           hotlineContact
+ *          
  *          The response is either a SuccessResponse or an ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"524e0d071a229a44af2f953d6b50db35:164","type":"sequence"}]
+ * @Groups [{"id":"524e0d071a229a44af2f953d6b50db35:183","type":"sequence"}]
  */
 class UserSharedCallAppearanceModifyEndpointRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +23,7 @@ class UserSharedCallAppearanceModifyEndpointRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName userId
      * @Type string
-     * @Group 524e0d071a229a44af2f953d6b50db35:164
+     * @Group 524e0d071a229a44af2f953d6b50db35:183
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -28,7 +33,7 @@ class UserSharedCallAppearanceModifyEndpointRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName accessDeviceEndpoint
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointKey
-     * @Group 524e0d071a229a44af2f953d6b50db35:164
+     * @Group 524e0d071a229a44af2f953d6b50db35:183
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointKey|null
      */
     private $accessDeviceEndpoint = null;
@@ -37,7 +42,7 @@ class UserSharedCallAppearanceModifyEndpointRequest extends \CWM\BroadWorksConne
      * @ElementName isActive
      * @Type bool
      * @Optional
-     * @Group 524e0d071a229a44af2f953d6b50db35:164
+     * @Group 524e0d071a229a44af2f953d6b50db35:183
      * @var bool|null
      */
     private $isActive = null;
@@ -46,7 +51,7 @@ class UserSharedCallAppearanceModifyEndpointRequest extends \CWM\BroadWorksConne
      * @ElementName allowOrigination
      * @Type bool
      * @Optional
-     * @Group 524e0d071a229a44af2f953d6b50db35:164
+     * @Group 524e0d071a229a44af2f953d6b50db35:183
      * @var bool|null
      */
     private $allowOrigination = null;
@@ -55,10 +60,31 @@ class UserSharedCallAppearanceModifyEndpointRequest extends \CWM\BroadWorksConne
      * @ElementName allowTermination
      * @Type bool
      * @Optional
-     * @Group 524e0d071a229a44af2f953d6b50db35:164
+     * @Group 524e0d071a229a44af2f953d6b50db35:183
      * @var bool|null
      */
     private $allowTermination = null;
+
+    /**
+     * @ElementName useHotline
+     * @Type bool
+     * @Optional
+     * @Group 524e0d071a229a44af2f953d6b50db35:183
+     * @var bool|null
+     */
+    private $useHotline = null;
+
+    /**
+     * @ElementName hotlineContact
+     * @Type string
+     * @Nillable
+     * @Optional
+     * @Group 524e0d071a229a44af2f953d6b50db35:183
+     * @MinLength 1
+     * @MaxLength 161
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     */
+    private $hotlineContact = null;
 
     /**
      * Getter for userId
@@ -212,6 +238,72 @@ class UserSharedCallAppearanceModifyEndpointRequest extends \CWM\BroadWorksConne
     public function unsetAllowTermination()
     {
         $this->allowTermination = null;
+        return $this;
+    }
+
+    /**
+     * Getter for useHotline
+     *
+     * @return bool
+     */
+    public function getUseHotline()
+    {
+        return $this->useHotline instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->useHotline;
+    }
+
+    /**
+     * Setter for useHotline
+     *
+     * @param bool $useHotline
+     * @return $this
+     */
+    public function setUseHotline($useHotline)
+    {
+        $this->useHotline = $useHotline;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetUseHotline()
+    {
+        $this->useHotline = null;
+        return $this;
+    }
+
+    /**
+     * Getter for hotlineContact
+     *
+     * @return string|null
+     */
+    public function getHotlineContact()
+    {
+        return $this->hotlineContact instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->hotlineContact;
+    }
+
+    /**
+     * Setter for hotlineContact
+     *
+     * @param string|null $hotlineContact
+     * @return $this
+     */
+    public function setHotlineContact($hotlineContact = null)
+    {
+        if ($hotlineContact === null) {
+            $this->hotlineContact = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->hotlineContact = $hotlineContact;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetHotlineContact()
+    {
+        $this->hotlineContact = null;
         return $this;
     }
 

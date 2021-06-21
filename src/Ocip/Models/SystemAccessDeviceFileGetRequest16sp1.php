@@ -6,14 +6,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemAccessDeviceFileGetRequest16sp1
  *
  * Request to get a device profile file.
- *                 The response is either SystemAccessDeviceFileGetResponse16sp1 or ErrorResponse.
- *
- *                 Replaced by: SystemAccessDeviceFileGetRequest20
+ *         The response is either SystemAccessDeviceFileGetResponse16sp1 or ErrorResponse.
+ *         
+ *         Replaced by: SystemAccessDeviceFileGetRequest20
  *
  * @see SystemAccessDeviceFileGetResponse16sp1
  * @see ErrorResponse
  * @see SystemAccessDeviceFileGetRequest20
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:41516","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:19442","type":"sequence"}]
  */
 class SystemAccessDeviceFileGetRequest16sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,7 +21,7 @@ class SystemAccessDeviceFileGetRequest16sp1 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName deviceName
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:41516
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:19442
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -31,7 +31,7 @@ class SystemAccessDeviceFileGetRequest16sp1 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName fileFormat
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:41516
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:19442
      * @MinLength 1
      * @MaxLength 128
      * @var string|null

@@ -6,12 +6,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupCallCenterStrandedCallModifyRequest17
  *
  * Modify a call center's stranded call settings.
- *                 The response is either a SuccessResponse or an
- *                 ErrorResponse.
+ *         The response is either a SuccessResponse or an
+ *         ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:29914","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:7176","type":"sequence"}]
  */
 class GroupCallCenterStrandedCallModifyRequest17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class GroupCallCenterStrandedCallModifyRequest17 extends \CWM\BroadWorksConnecto
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:29914
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:7176
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -30,7 +30,7 @@ class GroupCallCenterStrandedCallModifyRequest17 extends \CWM\BroadWorksConnecto
      * @ElementName action
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterStrandedCallProcessingAction
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:29914
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:7176
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterStrandedCallProcessingAction|null
      */
     private $action = null;
@@ -40,7 +40,7 @@ class GroupCallCenterStrandedCallModifyRequest17 extends \CWM\BroadWorksConnecto
      * @Type string
      * @Nillable
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:29914
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:7176
      * @MinLength 1
      * @MaxLength 161
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -51,7 +51,7 @@ class GroupCallCenterStrandedCallModifyRequest17 extends \CWM\BroadWorksConnecto
      * @ElementName audioMessageSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:29914
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:7176
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     private $audioMessageSelection = null;
@@ -60,7 +60,7 @@ class GroupCallCenterStrandedCallModifyRequest17 extends \CWM\BroadWorksConnecto
      * @ElementName audioUrlList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLListModify
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:29914
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:7176
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLListModify|null
      */
     private $audioUrlList = null;
@@ -69,7 +69,7 @@ class GroupCallCenterStrandedCallModifyRequest17 extends \CWM\BroadWorksConnecto
      * @ElementName audioFileList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListModify
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:29914
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:7176
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListModify|null
      */
     private $audioFileList = null;
@@ -78,7 +78,7 @@ class GroupCallCenterStrandedCallModifyRequest17 extends \CWM\BroadWorksConnecto
      * @ElementName videoMessageSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:29914
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:7176
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     private $videoMessageSelection = null;
@@ -87,7 +87,7 @@ class GroupCallCenterStrandedCallModifyRequest17 extends \CWM\BroadWorksConnecto
      * @ElementName videoUrlList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLListModify
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:29914
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:7176
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLListModify|null
      */
     private $videoUrlList = null;
@@ -96,7 +96,7 @@ class GroupCallCenterStrandedCallModifyRequest17 extends \CWM\BroadWorksConnecto
      * @ElementName videoFileList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListModify
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:29914
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:7176
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListModify|null
      */
     private $videoFileList = null;

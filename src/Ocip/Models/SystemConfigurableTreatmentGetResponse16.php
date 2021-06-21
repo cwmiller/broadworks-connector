@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response contains the treatment configurable information.
  *
  * @see SystemConfigurableTreatmentGetRequest16
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:6446","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:6790","type":"sequence"}]
  */
 class SystemConfigurableTreatmentGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class SystemConfigurableTreatmentGetResponse16 extends \CWM\BroadWorksConnector\
      * @ElementName description
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6446
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6790
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -28,7 +28,7 @@ class SystemConfigurableTreatmentGetResponse16 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName chargeIndicator
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ChargeIndicator
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6446
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6790
      * @var \CWM\BroadWorksConnector\Ocip\Models\ChargeIndicator|null
      */
     private $chargeIndicator = null;
@@ -37,7 +37,7 @@ class SystemConfigurableTreatmentGetResponse16 extends \CWM\BroadWorksConnector\
      * @ElementName accessSIPStatusCode
      * @Type int
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6446
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6790
      * @MinInclusive 400
      * @MaxInclusive 699
      * @var int|null
@@ -48,7 +48,7 @@ class SystemConfigurableTreatmentGetResponse16 extends \CWM\BroadWorksConnector\
      * @ElementName accessSIPStatusMessage
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6446
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6790
      * @MinLength 1
      * @MaxLength 50
      * @var string|null
@@ -59,7 +59,7 @@ class SystemConfigurableTreatmentGetResponse16 extends \CWM\BroadWorksConnector\
      * @ElementName networkSIPStatusCode
      * @Type int
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6446
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6790
      * @MinInclusive 400
      * @MaxInclusive 699
      * @var int|null
@@ -70,7 +70,7 @@ class SystemConfigurableTreatmentGetResponse16 extends \CWM\BroadWorksConnector\
      * @ElementName networkSIPStatusMessage
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6446
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6790
      * @MinLength 1
      * @MaxLength 50
      * @var string|null
@@ -81,7 +81,7 @@ class SystemConfigurableTreatmentGetResponse16 extends \CWM\BroadWorksConnector\
      * @ElementName q850CauseValue
      * @Type int
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6446
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6790
      * @MinInclusive 1
      * @MaxInclusive 256
      * @var int|null
@@ -92,7 +92,7 @@ class SystemConfigurableTreatmentGetResponse16 extends \CWM\BroadWorksConnector\
      * @ElementName q850Text
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6446
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6790
      * @MinLength 1
      * @MaxLength 50
      * @var string|null
@@ -103,7 +103,7 @@ class SystemConfigurableTreatmentGetResponse16 extends \CWM\BroadWorksConnector\
      * @ElementName accessTreatmentAudioFile
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6446
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6790
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -114,7 +114,7 @@ class SystemConfigurableTreatmentGetResponse16 extends \CWM\BroadWorksConnector\
      * @ElementName accessTreatmentVideoFile
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6446
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6790
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -125,7 +125,7 @@ class SystemConfigurableTreatmentGetResponse16 extends \CWM\BroadWorksConnector\
      * @ElementName networkTreatmentAudioFile
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6446
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6790
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -136,7 +136,7 @@ class SystemConfigurableTreatmentGetResponse16 extends \CWM\BroadWorksConnector\
      * @ElementName networkTreatmentVideoFile
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6446
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6790
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -147,7 +147,7 @@ class SystemConfigurableTreatmentGetResponse16 extends \CWM\BroadWorksConnector\
      * @ElementName cdrTerminationCause
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6446
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6790
      * @MinLength 1
      * @MaxLength 3
      * @var string|null
@@ -157,7 +157,7 @@ class SystemConfigurableTreatmentGetResponse16 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName routeAdvance
      * @Type bool
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6446
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6790
      * @var bool|null
      */
     private $routeAdvance = null;
@@ -166,7 +166,7 @@ class SystemConfigurableTreatmentGetResponse16 extends \CWM\BroadWorksConnector\
      * @ElementName internalReleaseCause
      * @Type \CWM\BroadWorksConnector\Ocip\Models\InternalReleaseCause16
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6446
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6790
      * @var \CWM\BroadWorksConnector\Ocip\Models\InternalReleaseCause16|null
      */
     private $internalReleaseCause = null;
@@ -174,7 +174,7 @@ class SystemConfigurableTreatmentGetResponse16 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName accessSendReasonHeader
      * @Type bool
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6446
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6790
      * @var bool|null
      */
     private $accessSendReasonHeader = null;
@@ -182,7 +182,7 @@ class SystemConfigurableTreatmentGetResponse16 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName networkSendReasonHeader
      * @Type bool
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6446
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6790
      * @var bool|null
      */
     private $networkSendReasonHeader = null;

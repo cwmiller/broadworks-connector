@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserRoutePointCallDispositionCodeGetAvailableListResponse
  * @see ErrorResponse
- * @Groups [{"id":"a27224a048c30ff69eab9209dec841cc:1261","type":"sequence"}]
+ * @Groups [{"id":"a27224a048c30ff69eab9209dec841cc:1218","type":"sequence"}]
  */
 class UserRoutePointCallDispositionCodeGetAvailableListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserRoutePointCallDispositionCodeGetAvailableListRequest extends \CWM\Broa
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group a27224a048c30ff69eab9209dec841cc:1261
+     * @Group a27224a048c30ff69eab9209dec841cc:1218
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

@@ -6,14 +6,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemCallProcessingPolicyProfileAddRequest
  *
  * Add a call processing policy profile to system.
- *                 The response is either a SuccessResponse or an ErrorResponse.
- *
- *                 Replaced by SystemCallProcessingPolicyProfileAddRequest20.
+ *         The response is either a SuccessResponse or an ErrorResponse.
+ *         
+ *         Replaced by SystemCallProcessingPolicyProfileAddRequest20.
  *
  * @see SuccessResponse
  * @see ErrorResponse
  * @see SystemCallProcessingPolicyProfileAddRequest20
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:31489","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:22120","type":"sequence"}]
  */
 class SystemCallProcessingPolicyProfileAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,7 +21,7 @@ class SystemCallProcessingPolicyProfileAddRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName name
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:31489
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:22120
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -32,7 +32,7 @@ class SystemCallProcessingPolicyProfileAddRequest extends \CWM\BroadWorksConnect
      * @ElementName description
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:31489
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:22120
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -44,7 +44,7 @@ class SystemCallProcessingPolicyProfileAddRequest extends \CWM\BroadWorksConnect
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallProcessingPolicyProfileSubscriberType
      * @Array
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:31489
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:22120
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallProcessingPolicyProfileSubscriberType[]
      */
     private $assignedSubscriberType = array(

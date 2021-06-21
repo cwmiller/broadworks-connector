@@ -6,13 +6,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemCPEConfigParametersGetResponse14sp6
  *
  * Response to SystemCPEConfigParametersGetListRequest14sp6.
- *                 Contains a list of system CPE Config parameters.
- *
- *                 Replaced by: SystemCPEConfigParametersGetResponse20
+ *         Contains a list of system CPE Config parameters.
+ *         
+ *         Replaced by: SystemCPEConfigParametersGetResponse20
  *
  * @see SystemCPEConfigParametersGetListRequest14sp6
  * @see SystemCPEConfigParametersGetResponse20
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:34520","type":"sequence","children":[{"id":"ab0042aa512abc10edb3c55e4b416b0b:34529","type":"choice"}]}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:25495","type":"sequence","children":[{"id":"ab0042aa512abc10edb3c55e4b416b0b:25502","type":"choice"}]}]
  */
 class SystemCPEConfigParametersGetResponse14sp6 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -20,7 +20,7 @@ class SystemCPEConfigParametersGetResponse14sp6 extends \CWM\BroadWorksConnector
     /**
      * @ElementName enableIPDeviceManagement
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:34520
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:25495
      * @var bool|null
      */
     private $enableIPDeviceManagement = null;
@@ -28,7 +28,7 @@ class SystemCPEConfigParametersGetResponse14sp6 extends \CWM\BroadWorksConnector
     /**
      * @ElementName ftpConnectTimeoutSeconds
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:34520
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:25495
      * @MinInclusive 1
      * @MaxInclusive 600
      * @var int|null
@@ -38,7 +38,7 @@ class SystemCPEConfigParametersGetResponse14sp6 extends \CWM\BroadWorksConnector
     /**
      * @ElementName ftpFileTransferTimeoutSeconds
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:34520
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:25495
      * @MinInclusive 1
      * @MaxInclusive 600
      * @var int|null
@@ -48,7 +48,7 @@ class SystemCPEConfigParametersGetResponse14sp6 extends \CWM\BroadWorksConnector
     /**
      * @ElementName pauseBetweenFileRebuildMilliseconds
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:34520
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:25495
      * @MinInclusive 0
      * @MaxInclusive 10000
      * @var int|null
@@ -58,7 +58,7 @@ class SystemCPEConfigParametersGetResponse14sp6 extends \CWM\BroadWorksConnector
     /**
      * @ElementName maxBusyTimeMinutes
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:34520
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:25495
      * @MinInclusive 1
      * @MaxInclusive 1440
      * @var int|null
@@ -69,7 +69,7 @@ class SystemCPEConfigParametersGetResponse14sp6 extends \CWM\BroadWorksConnector
      * @ElementName deviceAccessAppServerClusterName
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:34520
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:25495
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -79,7 +79,7 @@ class SystemCPEConfigParametersGetResponse14sp6 extends \CWM\BroadWorksConnector
     /**
      * @ElementName fileRebuildImmediate
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:34529
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:25502
      * @var string|null
      */
     private $fileRebuildImmediate = null;
@@ -87,7 +87,7 @@ class SystemCPEConfigParametersGetResponse14sp6 extends \CWM\BroadWorksConnector
     /**
      * @ElementName fileRebuildDaily
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemCPEConfigParametersGetResponse14sp6FileRebuildDaily
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:34529
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:25502
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemCPEConfigParametersGetResponse14sp6FileRebuildDaily|null
      */
     private $fileRebuildDaily = null;
@@ -95,7 +95,7 @@ class SystemCPEConfigParametersGetResponse14sp6 extends \CWM\BroadWorksConnector
     /**
      * @ElementName fileRebuildHourly
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemCPEConfigParametersGetResponse14sp6FileRebuildHourly
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:34529
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:25502
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemCPEConfigParametersGetResponse14sp6FileRebuildHourly|null
      */
     private $fileRebuildHourly = null;

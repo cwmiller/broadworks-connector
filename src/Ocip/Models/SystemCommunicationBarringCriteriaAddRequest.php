@@ -6,13 +6,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemCommunicationBarringCriteriaAddRequest
  *
  * Add a new Communication Barring Criteria.
- *                 The response is either a SuccessResponse or an ErrorResponse.
- *                 Replaced by: SystemCommunicationBarringCriteriaAddRequest17
+ *         The response is either a SuccessResponse or an ErrorResponse.
+ *         Replaced by: SystemCommunicationBarringCriteriaAddRequest17
  *
  * @see SuccessResponse
  * @see ErrorResponse
  * @see SystemCommunicationBarringCriteriaAddRequest17
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:15059","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:24945","type":"sequence"}]
  */
 class SystemCommunicationBarringCriteriaAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class SystemCommunicationBarringCriteriaAddRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName name
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:15059
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:24945
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -31,7 +31,7 @@ class SystemCommunicationBarringCriteriaAddRequest extends \CWM\BroadWorksConnec
      * @ElementName description
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:15059
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:24945
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -43,7 +43,7 @@ class SystemCommunicationBarringCriteriaAddRequest extends \CWM\BroadWorksConnec
      * @Type string
      * @Array
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:15059
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:24945
      * @MinLength 1
      * @MaxLength 40
      * @var string[]
@@ -57,7 +57,7 @@ class SystemCommunicationBarringCriteriaAddRequest extends \CWM\BroadWorksConnec
      * @Type string
      * @Array
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:15059
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:24945
      * @MinLength 1
      * @MaxLength 40
      * @var string[]
@@ -71,7 +71,7 @@ class SystemCommunicationBarringCriteriaAddRequest extends \CWM\BroadWorksConnec
      * @Type string
      * @Array
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:15059
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:24945
      * @MinLength 1
      * @MaxLength 40
      * @var string[]
@@ -83,7 +83,7 @@ class SystemCommunicationBarringCriteriaAddRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName matchPublicNetwork
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:15059
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:24945
      * @var bool|null
      */
     private $matchPublicNetwork = null;
@@ -91,7 +91,7 @@ class SystemCommunicationBarringCriteriaAddRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName matchPrivateNetwork
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:15059
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:24945
      * @var bool|null
      */
     private $matchPrivateNetwork = null;
@@ -99,7 +99,7 @@ class SystemCommunicationBarringCriteriaAddRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName matchLocalCategory
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:15059
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:24945
      * @var bool|null
      */
     private $matchLocalCategory = null;
@@ -107,7 +107,7 @@ class SystemCommunicationBarringCriteriaAddRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName matchNationalCategory
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:15059
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:24945
      * @var bool|null
      */
     private $matchNationalCategory = null;
@@ -115,7 +115,7 @@ class SystemCommunicationBarringCriteriaAddRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName matchInterlataCategory
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:15059
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:24945
      * @var bool|null
      */
     private $matchInterlataCategory = null;
@@ -123,7 +123,7 @@ class SystemCommunicationBarringCriteriaAddRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName matchIntralataCategory
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:15059
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:24945
      * @var bool|null
      */
     private $matchIntralataCategory = null;
@@ -131,7 +131,7 @@ class SystemCommunicationBarringCriteriaAddRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName matchInternationalCategory
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:15059
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:24945
      * @var bool|null
      */
     private $matchInternationalCategory = null;
@@ -139,7 +139,7 @@ class SystemCommunicationBarringCriteriaAddRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName matchPrivateCategory
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:15059
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:24945
      * @var bool|null
      */
     private $matchPrivateCategory = null;
@@ -147,7 +147,7 @@ class SystemCommunicationBarringCriteriaAddRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName matchEmergencyCategory
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:15059
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:24945
      * @var bool|null
      */
     private $matchEmergencyCategory = null;
@@ -155,7 +155,7 @@ class SystemCommunicationBarringCriteriaAddRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName matchOtherCategory
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:15059
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:24945
      * @var bool|null
      */
     private $matchOtherCategory = null;
@@ -163,7 +163,7 @@ class SystemCommunicationBarringCriteriaAddRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName matchInterNetwork
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:15059
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:24945
      * @var bool|null
      */
     private $matchInterNetwork = null;
@@ -171,7 +171,7 @@ class SystemCommunicationBarringCriteriaAddRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName matchInterHostingNE
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:15059
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:24945
      * @var bool|null
      */
     private $matchInterHostingNE = null;
@@ -179,7 +179,7 @@ class SystemCommunicationBarringCriteriaAddRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName matchInterAS
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:15059
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:24945
      * @var bool|null
      */
     private $matchInterAS = null;
@@ -187,7 +187,7 @@ class SystemCommunicationBarringCriteriaAddRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName matchIntraAS
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:15059
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:24945
      * @var bool|null
      */
     private $matchIntraAS = null;
@@ -195,7 +195,7 @@ class SystemCommunicationBarringCriteriaAddRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName matchChargeCalls
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:15059
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:24945
      * @var bool|null
      */
     private $matchChargeCalls = null;
@@ -203,7 +203,7 @@ class SystemCommunicationBarringCriteriaAddRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName matchNoChargeCalls
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:15059
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:24945
      * @var bool|null
      */
     private $matchNoChargeCalls = null;
@@ -211,7 +211,7 @@ class SystemCommunicationBarringCriteriaAddRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName matchGroupCalls
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:15059
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:24945
      * @var bool|null
      */
     private $matchGroupCalls = null;
@@ -219,7 +219,7 @@ class SystemCommunicationBarringCriteriaAddRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName matchEnterpriseCalls
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:15059
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:24945
      * @var bool|null
      */
     private $matchEnterpriseCalls = null;
@@ -227,7 +227,7 @@ class SystemCommunicationBarringCriteriaAddRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName matchNetworkCalls
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:15059
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:24945
      * @var bool|null
      */
     private $matchNetworkCalls = null;
@@ -235,7 +235,7 @@ class SystemCommunicationBarringCriteriaAddRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName matchNetworkURLCalls
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:15059
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:24945
      * @var bool|null
      */
     private $matchNetworkURLCalls = null;
@@ -243,7 +243,7 @@ class SystemCommunicationBarringCriteriaAddRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName matchRepairCalls
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:15059
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:24945
      * @var bool|null
      */
     private $matchRepairCalls = null;
@@ -251,7 +251,7 @@ class SystemCommunicationBarringCriteriaAddRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName matchEmergencyCalls
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:15059
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:24945
      * @var bool|null
      */
     private $matchEmergencyCalls = null;
@@ -259,7 +259,7 @@ class SystemCommunicationBarringCriteriaAddRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName matchInternalCalls
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:15059
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:24945
      * @var bool|null
      */
     private $matchInternalCalls = null;
@@ -268,7 +268,7 @@ class SystemCommunicationBarringCriteriaAddRequest extends \CWM\BroadWorksConnec
      * @ElementName timeSchedule
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:15059
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:24945
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -279,7 +279,7 @@ class SystemCommunicationBarringCriteriaAddRequest extends \CWM\BroadWorksConnec
      * @ElementName holidaySchedule
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:15059
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:24945
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

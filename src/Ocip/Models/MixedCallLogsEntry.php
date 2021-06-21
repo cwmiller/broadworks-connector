@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Call Log entry describing a placed, received, or missed call.
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:2554","type":"sequence"}]
+ * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:3043","type":"sequence"}]
  */
 class MixedCallLogsEntry
 {
@@ -15,7 +15,7 @@ class MixedCallLogsEntry
     /**
      * @ElementName callLogType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallLogsType
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:2554
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:3043
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallLogsType|null
      */
     private $callLogType = null;
@@ -24,7 +24,7 @@ class MixedCallLogsEntry
      * @ElementName countryCode
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:2554
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:3043
      * @MaxLength 3
      * @Pattern [0-9]|[1-9][0-9]{1,2}
      * @var string|null
@@ -34,7 +34,7 @@ class MixedCallLogsEntry
     /**
      * @ElementName callLogId
      * @Type string
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:2554
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:3043
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -44,7 +44,7 @@ class MixedCallLogsEntry
     /**
      * @ElementName phoneNumber
      * @Type string
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:2554
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:3043
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -54,7 +54,7 @@ class MixedCallLogsEntry
     /**
      * @ElementName name
      * @Type string
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:2554
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:3043
      * @MinLength 1
      * @MaxLength 62
      * @var string|null
@@ -64,7 +64,7 @@ class MixedCallLogsEntry
     /**
      * @ElementName time
      * @Type string
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:2554
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:3043
      * @var string|null
      */
     private $time = null;

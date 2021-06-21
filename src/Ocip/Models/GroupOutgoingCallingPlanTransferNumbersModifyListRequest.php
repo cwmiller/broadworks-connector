@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"6f793dfca9bd3d121bb35e0f9cf1cb2e:856","type":"sequence"}]
+ * @Groups [{"id":"6f793dfca9bd3d121bb35e0f9cf1cb2e:857","type":"sequence"}]
  */
 class GroupOutgoingCallingPlanTransferNumbersModifyListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupOutgoingCallingPlanTransferNumbersModifyListRequest extends \CWM\Broa
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:856
+     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:857
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +28,7 @@ class GroupOutgoingCallingPlanTransferNumbersModifyListRequest extends \CWM\Broa
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:856
+     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:857
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -39,7 +39,7 @@ class GroupOutgoingCallingPlanTransferNumbersModifyListRequest extends \CWM\Broa
      * @ElementName groupNumbers
      * @Type \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanTransferNumbersModify
      * @Optional
-     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:856
+     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:857
      * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanTransferNumbersModify|null
      */
     private $groupNumbers = null;
@@ -49,7 +49,7 @@ class GroupOutgoingCallingPlanTransferNumbersModifyListRequest extends \CWM\Broa
      * @Type \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanDepartmentTransferNumbersModify
      * @Array
      * @Optional
-     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:856
+     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:857
      * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanDepartmentTransferNumbersModify[]
      */
     private $departmentNumbers = array(

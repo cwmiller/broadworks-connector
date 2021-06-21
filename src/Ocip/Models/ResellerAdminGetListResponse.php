@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "Last Name", "First Name", "Language".
  *
  * @see ResellerAdminGetListRequest
- * @Groups [{"id":"b009175f2a2a9d38115e319a6ad64d7f:133","type":"sequence"}]
+ * @Groups [{"id":"b009175f2a2a9d38115e319a6ad64d7f:239","type":"sequence"}]
  */
 class ResellerAdminGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class ResellerAdminGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName resellerAdminTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group b009175f2a2a9d38115e319a6ad64d7f:133
+     * @Group b009175f2a2a9d38115e319a6ad64d7f:239
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $resellerAdminTable = null;

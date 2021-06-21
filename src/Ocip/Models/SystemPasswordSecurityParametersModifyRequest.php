@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:13089","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:14268","type":"sequence"}]
  */
 class SystemPasswordSecurityParametersModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class SystemPasswordSecurityParametersModifyRequest extends \CWM\BroadWorksConne
      * @ElementName useExistingHashing
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:13089
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14268
      * @var bool|null
      */
     private $useExistingHashing = null;
@@ -28,7 +28,7 @@ class SystemPasswordSecurityParametersModifyRequest extends \CWM\BroadWorksConne
      * @ElementName enforcePasswordChangeOnExpiry
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:13089
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14268
      * @var bool|null
      */
     private $enforcePasswordChangeOnExpiry = null;

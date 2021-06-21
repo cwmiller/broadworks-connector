@@ -6,16 +6,16 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupAccessDeviceGetAvailableDetailListRequest14
  *
  * Requests the list of available access devices for assignment to a user
- *                 within a group. The list includes devices created at the system, service provider, and group levels.
- *                 The response is either GroupAccessDeviceGetAvailableDetailListResponse14 or
- *                 ErrorResponse.
- *
- *                 Replaced by: GroupAccessDeviceGetAvailableDetailListRequest19.
+ *         within a group. The list includes devices created at the system, service provider, and group levels.
+ *         The response is either GroupAccessDeviceGetAvailableDetailListResponse14 or
+ *         ErrorResponse.
+ *     
+ *         Replaced by: GroupAccessDeviceGetAvailableDetailListRequest19.
  *
  * @see GroupAccessDeviceGetAvailableDetailListResponse14
  * @see ErrorResponse
  * @see GroupAccessDeviceGetAvailableDetailListRequest19
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:24275","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:2999","type":"sequence"}]
  */
 class GroupAccessDeviceGetAvailableDetailListRequest14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -23,7 +23,7 @@ class GroupAccessDeviceGetAvailableDetailListRequest14 extends \CWM\BroadWorksCo
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:24275
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:2999
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -33,7 +33,7 @@ class GroupAccessDeviceGetAvailableDetailListRequest14 extends \CWM\BroadWorksCo
     /**
      * @ElementName groupId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:24275
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:2999
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -43,7 +43,7 @@ class GroupAccessDeviceGetAvailableDetailListRequest14 extends \CWM\BroadWorksCo
     /**
      * @ElementName isMusicOnHold
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:24275
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:2999
      * @var bool|null
      */
     private $isMusicOnHold = null;
@@ -51,7 +51,7 @@ class GroupAccessDeviceGetAvailableDetailListRequest14 extends \CWM\BroadWorksCo
     /**
      * @ElementName onlyVideoCapable
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:24275
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:2999
      * @var bool|null
      */
     private $onlyVideoCapable = null;

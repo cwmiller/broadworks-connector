@@ -8,10 +8,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request a table containing all of the push notification registrations for a user by 
  *         either registration id or user id.
  *         The response is either UserPushNotificationRegistrationGetListResponse or ErrorResponse.
+ *         
+ *         Replaced by: UserPushNotificationRegistrationGetListRequest21sp1
  *
  * @see UserPushNotificationRegistrationGetListResponse
  * @see ErrorResponse
- * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:3441","type":"sequence","children":[{"id":"53d18cc797d03d802cbc411ad821f1d4:3442","type":"choice"}]}]
+ * @see UserPushNotificationRegistrationGetListRequest21sp1
+ * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:14159","type":"sequence","children":[{"id":"de4d76f01f337fe4694212ec9f771753:14160","type":"choice"}]}]
  */
 class UserPushNotificationRegistrationGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +22,7 @@ class UserPushNotificationRegistrationGetListRequest extends \CWM\BroadWorksConn
     /**
      * @ElementName registrationId
      * @Type string
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:3442
+     * @Group de4d76f01f337fe4694212ec9f771753:14160
      * @MinLength 1
      * @MaxLength 1024
      * @var string|null
@@ -29,7 +32,7 @@ class UserPushNotificationRegistrationGetListRequest extends \CWM\BroadWorksConn
     /**
      * @ElementName userId
      * @Type string
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:3442
+     * @Group de4d76f01f337fe4694212ec9f771753:14160
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

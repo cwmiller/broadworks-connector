@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"b009175f2a2a9d38115e319a6ad64d7f:185","type":"sequence"}]
+ * @Groups [{"id":"b009175f2a2a9d38115e319a6ad64d7f:291","type":"sequence"}]
  */
 class ResellerAdminModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class ResellerAdminModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * @ElementName userId
      * @Type string
-     * @Group b009175f2a2a9d38115e319a6ad64d7f:185
+     * @Group b009175f2a2a9d38115e319a6ad64d7f:291
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -31,7 +31,7 @@ class ResellerAdminModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @Type string
      * @Nillable
      * @Optional
-     * @Group b009175f2a2a9d38115e319a6ad64d7f:185
+     * @Group b009175f2a2a9d38115e319a6ad64d7f:291
      * @MinLength 1
      * @MaxLength 30
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -43,7 +43,7 @@ class ResellerAdminModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @Type string
      * @Nillable
      * @Optional
-     * @Group b009175f2a2a9d38115e319a6ad64d7f:185
+     * @Group b009175f2a2a9d38115e319a6ad64d7f:291
      * @MinLength 1
      * @MaxLength 30
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -55,7 +55,7 @@ class ResellerAdminModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @Type string
      * @Nillable
      * @Optional
-     * @Group b009175f2a2a9d38115e319a6ad64d7f:185
+     * @Group b009175f2a2a9d38115e319a6ad64d7f:291
      * @MinLength 1
      * @MaxLength 60
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -66,7 +66,7 @@ class ResellerAdminModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @ElementName language
      * @Type string
      * @Optional
-     * @Group b009175f2a2a9d38115e319a6ad64d7f:185
+     * @Group b009175f2a2a9d38115e319a6ad64d7f:291
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

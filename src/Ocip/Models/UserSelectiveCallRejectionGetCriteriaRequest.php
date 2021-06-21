@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserSelectiveCallRejectionGetCriteriaRequest
  *
  * Get a criteria for the user's selective call rejection service.
- *                 The response is either a UserSelectiveCallRejectionGetCriteriaResponse or an ErrorResponse.
+ *         The response is either a UserSelectiveCallRejectionGetCriteriaResponse or an ErrorResponse.
  *
  * @see UserSelectiveCallRejectionGetCriteriaResponse
  * @see ErrorResponse
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:11742","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:45843","type":"sequence"}]
  */
 class UserSelectiveCallRejectionGetCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserSelectiveCallRejectionGetCriteriaRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName userId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:11742
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:45843
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -28,7 +28,7 @@ class UserSelectiveCallRejectionGetCriteriaRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName criteriaName
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:11742
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:45843
      * @MinLength 1
      * @MaxLength 50
      * @var string|null

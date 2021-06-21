@@ -12,10 +12,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Multiple search criteria are logically ANDed together unless the searchCriteriaModeOr option is included.
  *         Then the search criteria are logically ORed together.
  *         The response is either EnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAvailablePagedSortedListResponse or ErrorResponse.
+ *         Replaced by: EnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAvailablePagedSortedListRequest22
  *
  * @see EnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAvailablePagedSortedListResponse
  * @see ErrorResponse
- * @Groups [{"id":"f7ae3539fd471e995b07dc1bf8836e2d:243","type":"sequence"}]
+ * @see EnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAvailablePagedSortedListRequest22
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:2023","type":"sequence"}]
  */
 class EnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAvailablePagedSortedListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -23,7 +25,7 @@ class EnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAvailablePag
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f7ae3539fd471e995b07dc1bf8836e2d:243
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:2023
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -34,7 +36,7 @@ class EnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAvailablePag
      * @ElementName responsePagingControl
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl
      * @Optional
-     * @Group f7ae3539fd471e995b07dc1bf8836e2d:243
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:2023
      * @var \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl|null
      */
     private $responsePagingControl = null;
@@ -43,7 +45,7 @@ class EnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAvailablePag
      * @ElementName sortByMobileDirectoryNumber
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByMobileDirectoryNumber
      * @Optional
-     * @Group f7ae3539fd471e995b07dc1bf8836e2d:243
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:2023
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByMobileDirectoryNumber|null
      */
     private $sortByMobileDirectoryNumber = null;
@@ -53,7 +55,7 @@ class EnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAvailablePag
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaMobileSubscriberDirectoryNumber
      * @Array
      * @Optional
-     * @Group f7ae3539fd471e995b07dc1bf8836e2d:243
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:2023
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaMobileSubscriberDirectoryNumber[]
      */
     private $searchCriteriaMobileSubscriberDirectoryNumber = array(
@@ -64,7 +66,7 @@ class EnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAvailablePag
      * @ElementName searchCriteriaModeOr
      * @Type bool
      * @Optional
-     * @Group f7ae3539fd471e995b07dc1bf8836e2d:243
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:2023
      * @var bool|null
      */
     private $searchCriteriaModeOr = null;

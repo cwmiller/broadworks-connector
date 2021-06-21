@@ -6,12 +6,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemDialPlanPolicyGetResponse
  *
  * Response to SystemDialPlanPolicyGetRequest
- *
- *                 Replaced by: SystemDialPlanPolicyGetResponse17
+ *         
+ *         Replaced by: SystemDialPlanPolicyGetResponse17
  *
  * @see SystemDialPlanPolicyGetRequest
  * @see SystemDialPlanPolicyGetResponse17
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:15294","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:26347","type":"sequence"}]
  */
 class SystemDialPlanPolicyGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,7 +19,7 @@ class SystemDialPlanPolicyGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName requiresAccessCodeForPublicCalls
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:15294
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:26347
      * @var bool|null
      */
     private $requiresAccessCodeForPublicCalls = null;
@@ -27,7 +27,7 @@ class SystemDialPlanPolicyGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName allowE164PublicCalls
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:15294
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:26347
      * @var bool|null
      */
     private $allowE164PublicCalls = null;
@@ -35,7 +35,7 @@ class SystemDialPlanPolicyGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName publicDigitMap
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:15294
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:26347
      * @MinLength 1
      * @MaxLength 2048
      * @var string|null
@@ -46,7 +46,7 @@ class SystemDialPlanPolicyGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName privateDigitMap
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:15294
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:26347
      * @MinLength 1
      * @MaxLength 2048
      * @var string|null

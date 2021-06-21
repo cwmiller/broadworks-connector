@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Criteria for searching for a system Home Network Msc Address.
  *
- * @Groups [{"id":"f0ada2681ca347fa83b464734259b304:1452","type":"sequence"}]
+ * @Groups [{"id":"f0ada2681ca347fa83b464734259b304:1557","type":"sequence"}]
  */
 class SearchCriteriaHomeMscAddress extends SearchCriteria
 {
@@ -15,7 +15,7 @@ class SearchCriteriaHomeMscAddress extends SearchCriteria
     /**
      * @ElementName mode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchMode
-     * @Group f0ada2681ca347fa83b464734259b304:1452
+     * @Group f0ada2681ca347fa83b464734259b304:1557
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchMode|null
      */
     private $mode = null;
@@ -23,7 +23,7 @@ class SearchCriteriaHomeMscAddress extends SearchCriteria
     /**
      * @ElementName value
      * @Type string
-     * @Group f0ada2681ca347fa83b464734259b304:1452
+     * @Group f0ada2681ca347fa83b464734259b304:1557
      * @MinLength 1
      * @MaxLength 23
      * @var string|null
@@ -33,7 +33,7 @@ class SearchCriteriaHomeMscAddress extends SearchCriteria
     /**
      * @ElementName isCaseInsensitive
      * @Type bool
-     * @Group f0ada2681ca347fa83b464734259b304:1452
+     * @Group f0ada2681ca347fa83b464734259b304:1557
      * @var bool|null
      */
     private $isCaseInsensitive = null;

@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see ServiceProviderAccessDeviceTagSetGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:770","type":"sequence"}]
+ * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:1177","type":"sequence"}]
  */
 class ServiceProviderAccessDeviceTagSetGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class ServiceProviderAccessDeviceTagSetGetRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:770
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1177
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +28,7 @@ class ServiceProviderAccessDeviceTagSetGetRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName deviceName
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:770
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1177
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

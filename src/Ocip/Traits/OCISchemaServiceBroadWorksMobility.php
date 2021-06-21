@@ -4,14 +4,14 @@ namespace CWM\BroadWorksConnector\Ocip\Traits;
 
 use CWM\BroadWorksConnector\Ocip\Models\EnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAssignmentListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\EnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAssignmentListResponse;
-use CWM\BroadWorksConnector\Ocip\Models\EnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAssignmentPagedSortedListRequest;
-use CWM\BroadWorksConnector\Ocip\Models\EnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAssignmentPagedSortedListResponse;
-use CWM\BroadWorksConnector\Ocip\Models\EnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAvailableListRequest;
-use CWM\BroadWorksConnector\Ocip\Models\EnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAvailableListResponse;
-use CWM\BroadWorksConnector\Ocip\Models\EnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAvailablePagedSortedListRequest;
-use CWM\BroadWorksConnector\Ocip\Models\EnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAvailablePagedSortedListResponse;
-use CWM\BroadWorksConnector\Ocip\Models\GroupBroadWorksMobilityGetRequest22V3;
-use CWM\BroadWorksConnector\Ocip\Models\GroupBroadWorksMobilityGetResponse22V3;
+use CWM\BroadWorksConnector\Ocip\Models\EnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAssignmentPagedSortedListRequest22;
+use CWM\BroadWorksConnector\Ocip\Models\EnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAssignmentPagedSortedListResponse22;
+use CWM\BroadWorksConnector\Ocip\Models\EnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAvailableListRequest22;
+use CWM\BroadWorksConnector\Ocip\Models\EnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAvailableListResponse22;
+use CWM\BroadWorksConnector\Ocip\Models\EnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAvailablePagedSortedListRequest22;
+use CWM\BroadWorksConnector\Ocip\Models\EnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAvailablePagedSortedListResponse22;
+use CWM\BroadWorksConnector\Ocip\Models\GroupBroadWorksMobilityGetRequest22V4;
+use CWM\BroadWorksConnector\Ocip\Models\GroupBroadWorksMobilityGetResponse22V4;
 use CWM\BroadWorksConnector\Ocip\Models\GroupBroadWorksMobilityMobileSubscriberDirectoryNumberAssignListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupBroadWorksMobilityMobileSubscriberDirectoryNumberGetAssignmentListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupBroadWorksMobilityMobileSubscriberDirectoryNumberGetAssignmentListResponse;
@@ -32,6 +32,19 @@ use CWM\BroadWorksConnector\Ocip\Models\SystemBroadWorksMobilityAddIMRNListReque
 use CWM\BroadWorksConnector\Ocip\Models\SystemBroadWorksMobilityAddMobileNetworkIMRNListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemBroadWorksMobilityDeleteIMRNListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemBroadWorksMobilityDeleteMobileNetworkIMRNListRequest;
+use CWM\BroadWorksConnector\Ocip\Models\SystemBroadWorksMobilityGeographicalPoolAddRequest;
+use CWM\BroadWorksConnector\Ocip\Models\SystemBroadWorksMobilityGeographicalPoolDeleteRequest;
+use CWM\BroadWorksConnector\Ocip\Models\SystemBroadWorksMobilityGeographicalPoolGetListRequest;
+use CWM\BroadWorksConnector\Ocip\Models\SystemBroadWorksMobilityGeographicalPoolGetListResponse;
+use CWM\BroadWorksConnector\Ocip\Models\SystemBroadWorksMobilityGeographicalPoolIMRNAddListRequest;
+use CWM\BroadWorksConnector\Ocip\Models\SystemBroadWorksMobilityGeographicalPoolIMRNDeleteListRequest;
+use CWM\BroadWorksConnector\Ocip\Models\SystemBroadWorksMobilityGeographicalPoolIMRNGetListRequest;
+use CWM\BroadWorksConnector\Ocip\Models\SystemBroadWorksMobilityGeographicalPoolIMRNGetListResponse;
+use CWM\BroadWorksConnector\Ocip\Models\SystemBroadWorksMobilityGeographicalPoolModifyRequest;
+use CWM\BroadWorksConnector\Ocip\Models\SystemBroadWorksMobilityGeographicalPoolPrefixAddListRequest;
+use CWM\BroadWorksConnector\Ocip\Models\SystemBroadWorksMobilityGeographicalPoolPrefixDeleteListRequest;
+use CWM\BroadWorksConnector\Ocip\Models\SystemBroadWorksMobilityGeographicalPoolPrefixGetListRequest;
+use CWM\BroadWorksConnector\Ocip\Models\SystemBroadWorksMobilityGeographicalPoolPrefixGetListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\SystemBroadWorksMobilityGetIMRNListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemBroadWorksMobilityGetIMRNListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\SystemBroadWorksMobilityGetMobileNetworkIMRNListRequest;
@@ -60,19 +73,16 @@ use CWM\BroadWorksConnector\Ocip\Models\SystemBroadWorksMobilityServiceAccessCod
 use CWM\BroadWorksConnector\Ocip\Models\SystemBroadWorksMobilityServiceAccessCodeListUsageGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemBroadWorksMobilityServiceAccessCodeListUsageGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\SystemBroadWorksMobilityServiceAccessCodeModifyRequest21;
-use CWM\BroadWorksConnector\Ocip\Models\UserBroadworksMobilityAddMobileIdentityUsingSharedCallAppearanceRequest;
+use CWM\BroadWorksConnector\Ocip\Models\UserBroadworksMobilityAddMobileIdentityUsingSharedCallAppearanceRequest22;
 use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksMobilityGetRequest21sp1;
 use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksMobilityGetResponse21sp1;
-use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksMobilityMobileIdentityAddRequest21sp1;
-use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksMobilityMobileIdentityAddRequest22;
-use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksMobilityMobileIdentityConsolidatedAddRequest;
+use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksMobilityMobileIdentityAddRequest22V2;
+use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksMobilityMobileIdentityConsolidatedAddRequest22;
 use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksMobilityMobileIdentityConsolidatedDeleteRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksMobilityMobileIdentityConsolidatedModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksMobilityMobileIdentityDeleteRequest;
-use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksMobilityMobileIdentityGetRequest21sp1V2;
-use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksMobilityMobileIdentityGetResponse21sp1V2;
-use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksMobilityMobileIdentityGetRequest22V2;
-use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksMobilityMobileIdentityGetResponse22V2;
+use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksMobilityMobileIdentityGetRequest22V3;
+use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksMobilityMobileIdentityGetResponse22V3;
 use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksMobilityMobileIdentityModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksMobilityModifyRequest21;
 use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
@@ -94,45 +104,45 @@ trait OCISchemaServiceBroadWorksMobility
     }
 
     /**
-     * @param EnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAssignmentPagedSortedListRequest $request
-     * @return EnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAssignmentPagedSortedListResponse
+     * @param EnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAssignmentPagedSortedListRequest22 $request
+     * @return EnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAssignmentPagedSortedListResponse22
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function enterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAssignmentPagedSortedListRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAssignmentPagedSortedListRequest $request)
+    public function enterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAssignmentPagedSortedListRequest22(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAssignmentPagedSortedListRequest22 $request)
     {
         return $this->call($request);
     }
 
     /**
-     * @param EnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAvailableListRequest $request
-     * @return EnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAvailableListResponse
+     * @param EnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAvailableListRequest22 $request
+     * @return EnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAvailableListResponse22
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function enterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAvailableListRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAvailableListRequest $request)
+    public function enterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAvailableListRequest22(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAvailableListRequest22 $request)
     {
         return $this->call($request);
     }
 
     /**
-     * @param EnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAvailablePagedSortedListRequest $request
-     * @return EnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAvailablePagedSortedListResponse
+     * @param EnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAvailablePagedSortedListRequest22 $request
+     * @return EnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAvailablePagedSortedListResponse22
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function enterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAvailablePagedSortedListRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAvailablePagedSortedListRequest $request)
+    public function enterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAvailablePagedSortedListRequest22(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAvailablePagedSortedListRequest22 $request)
     {
         return $this->call($request);
     }
 
     /**
-     * @param GroupBroadWorksMobilityGetRequest22V3 $request
-     * @return GroupBroadWorksMobilityGetResponse22V3
+     * @param GroupBroadWorksMobilityGetRequest22V4 $request
+     * @return GroupBroadWorksMobilityGetResponse22V4
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function groupBroadWorksMobilityGetRequest22V3(\CWM\BroadWorksConnector\Ocip\Models\GroupBroadWorksMobilityGetRequest22V3 $request)
+    public function groupBroadWorksMobilityGetRequest22V4(\CWM\BroadWorksConnector\Ocip\Models\GroupBroadWorksMobilityGetRequest22V4 $request)
     {
         return $this->call($request);
     }
@@ -298,6 +308,116 @@ trait OCISchemaServiceBroadWorksMobility
      * @throws ValidationException
      */
     public function systemBroadWorksMobilityDeleteMobileNetworkIMRNListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemBroadWorksMobilityDeleteMobileNetworkIMRNListRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param SystemBroadWorksMobilityGeographicalPoolAddRequest $request
+     * @return SuccessResponse
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function systemBroadWorksMobilityGeographicalPoolAddRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemBroadWorksMobilityGeographicalPoolAddRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param SystemBroadWorksMobilityGeographicalPoolDeleteRequest $request
+     * @return SuccessResponse
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function systemBroadWorksMobilityGeographicalPoolDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemBroadWorksMobilityGeographicalPoolDeleteRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param SystemBroadWorksMobilityGeographicalPoolGetListRequest $request
+     * @return SystemBroadWorksMobilityGeographicalPoolGetListResponse
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function systemBroadWorksMobilityGeographicalPoolGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemBroadWorksMobilityGeographicalPoolGetListRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param SystemBroadWorksMobilityGeographicalPoolIMRNAddListRequest $request
+     * @return SuccessResponse
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function systemBroadWorksMobilityGeographicalPoolIMRNAddListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemBroadWorksMobilityGeographicalPoolIMRNAddListRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param SystemBroadWorksMobilityGeographicalPoolIMRNDeleteListRequest $request
+     * @return SuccessResponse
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function systemBroadWorksMobilityGeographicalPoolIMRNDeleteListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemBroadWorksMobilityGeographicalPoolIMRNDeleteListRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param SystemBroadWorksMobilityGeographicalPoolIMRNGetListRequest $request
+     * @return SystemBroadWorksMobilityGeographicalPoolIMRNGetListResponse
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function systemBroadWorksMobilityGeographicalPoolIMRNGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemBroadWorksMobilityGeographicalPoolIMRNGetListRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param SystemBroadWorksMobilityGeographicalPoolModifyRequest $request
+     * @return SuccessResponse
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function systemBroadWorksMobilityGeographicalPoolModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemBroadWorksMobilityGeographicalPoolModifyRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param SystemBroadWorksMobilityGeographicalPoolPrefixAddListRequest $request
+     * @return SuccessResponse
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function systemBroadWorksMobilityGeographicalPoolPrefixAddListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemBroadWorksMobilityGeographicalPoolPrefixAddListRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param SystemBroadWorksMobilityGeographicalPoolPrefixDeleteListRequest $request
+     * @return SuccessResponse
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function systemBroadWorksMobilityGeographicalPoolPrefixDeleteListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemBroadWorksMobilityGeographicalPoolPrefixDeleteListRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param SystemBroadWorksMobilityGeographicalPoolPrefixGetListRequest $request
+     * @return SystemBroadWorksMobilityGeographicalPoolPrefixGetListResponse
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function systemBroadWorksMobilityGeographicalPoolPrefixGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemBroadWorksMobilityGeographicalPoolPrefixGetListRequest $request)
     {
         return $this->call($request);
     }
@@ -512,12 +632,12 @@ trait OCISchemaServiceBroadWorksMobility
     }
 
     /**
-     * @param UserBroadworksMobilityAddMobileIdentityUsingSharedCallAppearanceRequest $request
+     * @param UserBroadworksMobilityAddMobileIdentityUsingSharedCallAppearanceRequest22 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function userBroadworksMobilityAddMobileIdentityUsingSharedCallAppearanceRequest(\CWM\BroadWorksConnector\Ocip\Models\UserBroadworksMobilityAddMobileIdentityUsingSharedCallAppearanceRequest $request)
+    public function userBroadworksMobilityAddMobileIdentityUsingSharedCallAppearanceRequest22(\CWM\BroadWorksConnector\Ocip\Models\UserBroadworksMobilityAddMobileIdentityUsingSharedCallAppearanceRequest22 $request)
     {
         return $this->call($request);
     }
@@ -534,34 +654,23 @@ trait OCISchemaServiceBroadWorksMobility
     }
 
     /**
-     * @param UserBroadWorksMobilityMobileIdentityAddRequest21sp1 $request
+     * @param UserBroadWorksMobilityMobileIdentityAddRequest22V2 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function userBroadWorksMobilityMobileIdentityAddRequest21sp1(\CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksMobilityMobileIdentityAddRequest21sp1 $request)
+    public function userBroadWorksMobilityMobileIdentityAddRequest22V2(\CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksMobilityMobileIdentityAddRequest22V2 $request)
     {
         return $this->call($request);
     }
 
     /**
-     * @param UserBroadWorksMobilityMobileIdentityAddRequest22 $request
+     * @param UserBroadWorksMobilityMobileIdentityConsolidatedAddRequest22 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function userBroadWorksMobilityMobileIdentityAddRequest22(\CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksMobilityMobileIdentityAddRequest22 $request)
-    {
-        return $this->call($request);
-    }
-
-    /**
-     * @param UserBroadWorksMobilityMobileIdentityConsolidatedAddRequest $request
-     * @return SuccessResponse
-     * @throws ErrorResponseException
-     * @throws ValidationException
-     */
-    public function userBroadWorksMobilityMobileIdentityConsolidatedAddRequest(\CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksMobilityMobileIdentityConsolidatedAddRequest $request)
+    public function userBroadWorksMobilityMobileIdentityConsolidatedAddRequest22(\CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksMobilityMobileIdentityConsolidatedAddRequest22 $request)
     {
         return $this->call($request);
     }
@@ -600,23 +709,12 @@ trait OCISchemaServiceBroadWorksMobility
     }
 
     /**
-     * @param UserBroadWorksMobilityMobileIdentityGetRequest21sp1V2 $request
-     * @return UserBroadWorksMobilityMobileIdentityGetResponse21sp1V2
+     * @param UserBroadWorksMobilityMobileIdentityGetRequest22V3 $request
+     * @return UserBroadWorksMobilityMobileIdentityGetResponse22V3
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function userBroadWorksMobilityMobileIdentityGetRequest21sp1V2(\CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksMobilityMobileIdentityGetRequest21sp1V2 $request)
-    {
-        return $this->call($request);
-    }
-
-    /**
-     * @param UserBroadWorksMobilityMobileIdentityGetRequest22V2 $request
-     * @return UserBroadWorksMobilityMobileIdentityGetResponse22V2
-     * @throws ErrorResponseException
-     * @throws ValidationException
-     */
-    public function userBroadWorksMobilityMobileIdentityGetRequest22V2(\CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksMobilityMobileIdentityGetRequest22V2 $request)
+    public function userBroadWorksMobilityMobileIdentityGetRequest22V3(\CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksMobilityMobileIdentityGetRequest22V3 $request)
     {
         return $this->call($request);
     }

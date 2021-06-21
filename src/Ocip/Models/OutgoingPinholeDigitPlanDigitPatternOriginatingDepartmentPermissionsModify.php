@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Modify Outgoing Pinhole Digit Plan originating call permissions for specified digit patterns.
  *
- * @Groups [{"id":"6f793dfca9bd3d121bb35e0f9cf1cb2e:2294","type":"sequence"}]
+ * @Groups [{"id":"6f793dfca9bd3d121bb35e0f9cf1cb2e:2295","type":"sequence"}]
  */
 class OutgoingPinholeDigitPlanDigitPatternOriginatingDepartmentPermissionsModify
 {
@@ -16,7 +16,7 @@ class OutgoingPinholeDigitPlanDigitPatternOriginatingDepartmentPermissionsModify
      * @ElementName departmentKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey
      * @Abstract \CWM\BroadWorksConnector\Ocip\Models\EnterpriseDepartmentKey,\CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentKey
-     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:2294
+     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:2295
      * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null
      */
     private $departmentKey = null;
@@ -24,7 +24,7 @@ class OutgoingPinholeDigitPlanDigitPatternOriginatingDepartmentPermissionsModify
     /**
      * @ElementName digitPatternPermissions
      * @Type \CWM\BroadWorksConnector\Ocip\Models\OutgoingPinholeDigitPlanDigitPatternOriginatingPermissions
-     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:2294
+     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:2295
      * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingPinholeDigitPlanDigitPatternOriginatingPermissions|null
      */
     private $digitPatternPermissions = null;

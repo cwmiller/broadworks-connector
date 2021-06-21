@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupCallCenterGetUnlicensedAgentListResponse
  * @see ErrorResponse
- * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:4912","type":"sequence"}]
+ * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:4872","type":"sequence"}]
  */
 class GroupCallCenterGetUnlicensedAgentListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupCallCenterGetUnlicensedAgentListRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group e2c537e3e39483b96620673a7012ffdd:4912
+     * @Group e2c537e3e39483b96620673a7012ffdd:4872
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -28,7 +28,7 @@ class GroupCallCenterGetUnlicensedAgentListRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName callCenterType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterType
-     * @Group e2c537e3e39483b96620673a7012ffdd:4912
+     * @Group e2c537e3e39483b96620673a7012ffdd:4872
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterType|null
      */
     private $callCenterType = null;

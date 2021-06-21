@@ -15,7 +15,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           defaultDomain
  *
  * @see SystemDomainParametersGetRequest
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:8528","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:9560","type":"sequence"}]
  */
 class SystemDomainParametersGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -23,7 +23,7 @@ class SystemDomainParametersGetResponse extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName useAliasForDomain
      * @Type bool
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8528
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9560
      * @var bool|null
      */
     private $useAliasForDomain = null;
@@ -32,7 +32,7 @@ class SystemDomainParametersGetResponse extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName defaultDomain
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8528
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9560
      * @MinLength 1
      * @MaxLength 80
      * @var string|null

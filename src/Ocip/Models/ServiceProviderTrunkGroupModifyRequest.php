@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"b9c14e2d80e4e7749688ca13ba233b44:1625","type":"sequence"}]
+ * @Groups [{"id":"b9c14e2d80e4e7749688ca13ba233b44:1648","type":"sequence"}]
  */
 class ServiceProviderTrunkGroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class ServiceProviderTrunkGroupModifyRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group b9c14e2d80e4e7749688ca13ba233b44:1625
+     * @Group b9c14e2d80e4e7749688ca13ba233b44:1648
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -29,7 +29,7 @@ class ServiceProviderTrunkGroupModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName maxActiveCalls
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt
      * @Optional
-     * @Group b9c14e2d80e4e7749688ca13ba233b44:1625
+     * @Group b9c14e2d80e4e7749688ca13ba233b44:1648
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt|null
      */
     private $maxActiveCalls = null;
@@ -38,10 +38,19 @@ class ServiceProviderTrunkGroupModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName burstingMaxActiveCalls
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt
      * @Optional
-     * @Group b9c14e2d80e4e7749688ca13ba233b44:1625
+     * @Group b9c14e2d80e4e7749688ca13ba233b44:1648
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt|null
      */
     private $burstingMaxActiveCalls = null;
+
+    /**
+     * @ElementName numberOfBurstingBTLUs
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt
+     * @Optional
+     * @Group b9c14e2d80e4e7749688ca13ba233b44:1648
+     * @var \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt|null
+     */
+    private $numberOfBurstingBTLUs = null;
 
     /**
      * Getter for serviceProviderId
@@ -133,6 +142,37 @@ class ServiceProviderTrunkGroupModifyRequest extends \CWM\BroadWorksConnector\Oc
     public function unsetBurstingMaxActiveCalls()
     {
         $this->burstingMaxActiveCalls = null;
+        return $this;
+    }
+
+    /**
+     * Getter for numberOfBurstingBTLUs
+     *
+     * @return \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt
+     */
+    public function getNumberOfBurstingBTLUs()
+    {
+        return $this->numberOfBurstingBTLUs instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->numberOfBurstingBTLUs;
+    }
+
+    /**
+     * Setter for numberOfBurstingBTLUs
+     *
+     * @param \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt $numberOfBurstingBTLUs
+     * @return $this
+     */
+    public function setNumberOfBurstingBTLUs(\CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt $numberOfBurstingBTLUs)
+    {
+        $this->numberOfBurstingBTLUs = $numberOfBurstingBTLUs;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetNumberOfBurstingBTLUs()
+    {
+        $this->numberOfBurstingBTLUs = null;
         return $this;
     }
 

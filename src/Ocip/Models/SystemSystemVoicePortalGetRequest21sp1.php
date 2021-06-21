@@ -7,10 +7,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Request to get a system voice portal instance.
  *         The response is either SystemSystemVoicePortalGetResponse21sp1 or ErrorResponse.
+ *         
+ *         Replaced by: SystemSystemVoicePortalGetRequest23.
  *
  * @see SystemSystemVoicePortalGetResponse21sp1
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:17432","type":"sequence"}]
+ * @see SystemSystemVoicePortalGetRequest23
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:35374","type":"sequence"}]
  */
 class SystemSystemVoicePortalGetRequest21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +21,7 @@ class SystemSystemVoicePortalGetRequest21sp1 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName systemVoicePortalId
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17432
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:35374
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

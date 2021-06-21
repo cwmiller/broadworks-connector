@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupRouteListEnterpriseTrunkNumberRangeGetAvailableListResponse
  * @see ErrorResponse
- * @Groups [{"id":"3f28429898a57a7f7846d3877b22df9f:339","type":"sequence"}]
+ * @Groups [{"id":"3f28429898a57a7f7846d3877b22df9f:346","type":"sequence"}]
  */
 class GroupRouteListEnterpriseTrunkNumberRangeGetAvailableListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupRouteListEnterpriseTrunkNumberRangeGetAvailableListRequest extends \C
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 3f28429898a57a7f7846d3877b22df9f:339
+     * @Group 3f28429898a57a7f7846d3877b22df9f:346
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +28,7 @@ class GroupRouteListEnterpriseTrunkNumberRangeGetAvailableListRequest extends \C
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 3f28429898a57a7f7846d3877b22df9f:339
+     * @Group 3f28429898a57a7f7846d3877b22df9f:346
      * @MinLength 1
      * @MaxLength 30
      * @var string|null

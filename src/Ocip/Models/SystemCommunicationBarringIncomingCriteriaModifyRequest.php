@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:5868","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:6211","type":"sequence"}]
  */
 class SystemCommunicationBarringIncomingCriteriaModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemCommunicationBarringIncomingCriteriaModifyRequest extends \CWM\Broad
     /**
      * @ElementName name
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:5868
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6211
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -29,7 +29,7 @@ class SystemCommunicationBarringIncomingCriteriaModifyRequest extends \CWM\Broad
      * @ElementName newName
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:5868
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6211
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -41,7 +41,7 @@ class SystemCommunicationBarringIncomingCriteriaModifyRequest extends \CWM\Broad
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:5868
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6211
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -53,7 +53,7 @@ class SystemCommunicationBarringIncomingCriteriaModifyRequest extends \CWM\Broad
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:5868
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6211
      * @MinLength 1
      * @MaxLength 40
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -65,7 +65,7 @@ class SystemCommunicationBarringIncomingCriteriaModifyRequest extends \CWM\Broad
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:5868
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6211
      * @MinLength 1
      * @MaxLength 40
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -77,10 +77,19 @@ class SystemCommunicationBarringIncomingCriteriaModifyRequest extends \CWM\Broad
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementNumberPortabilityStatusList
      * @Nillable
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:5868
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6211
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementNumberPortabilityStatusList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $matchNumberPortabilityStatus = null;
+
+    /**
+     * @ElementName callTaggedAsSpam
+     * @Type bool
+     * @Optional
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6211
+     * @var bool|null
+     */
+    private $callTaggedAsSpam = null;
 
     /**
      * Getter for name
@@ -281,6 +290,37 @@ class SystemCommunicationBarringIncomingCriteriaModifyRequest extends \CWM\Broad
     public function unsetMatchNumberPortabilityStatus()
     {
         $this->matchNumberPortabilityStatus = null;
+        return $this;
+    }
+
+    /**
+     * Getter for callTaggedAsSpam
+     *
+     * @return bool
+     */
+    public function getCallTaggedAsSpam()
+    {
+        return $this->callTaggedAsSpam instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->callTaggedAsSpam;
+    }
+
+    /**
+     * Setter for callTaggedAsSpam
+     *
+     * @param bool $callTaggedAsSpam
+     * @return $this
+     */
+    public function setCallTaggedAsSpam($callTaggedAsSpam)
+    {
+        $this->callTaggedAsSpam = $callTaggedAsSpam;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetCallTaggedAsSpam()
+    {
+        $this->callTaggedAsSpam = null;
         return $this;
     }
 

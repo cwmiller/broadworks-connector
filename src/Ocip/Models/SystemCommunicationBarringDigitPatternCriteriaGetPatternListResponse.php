@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response contains the Digit Pattern Criteria information.
  *
  * @see SystemCommunicationBarringDigitPatternCriteriaGetPatternListRequest
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:5666","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:6007","type":"sequence"}]
  */
 class SystemCommunicationBarringDigitPatternCriteriaGetPatternListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,7 +19,7 @@ class SystemCommunicationBarringDigitPatternCriteriaGetPatternListResponse exten
      * @Type string
      * @Array
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:5666
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6007
      * @MinLength 1
      * @MaxLength 160
      * @var string[]

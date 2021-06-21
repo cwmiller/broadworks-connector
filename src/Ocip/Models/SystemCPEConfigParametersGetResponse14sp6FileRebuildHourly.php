@@ -5,7 +5,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemCPEConfigParametersGetResponse14sp6FileRebuildHourly
  *
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:34543","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:25516","type":"sequence"}]
  */
 class SystemCPEConfigParametersGetResponse14sp6FileRebuildHourly
 {
@@ -13,7 +13,7 @@ class SystemCPEConfigParametersGetResponse14sp6FileRebuildHourly
     /**
      * @ElementName startMinute
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:34543
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:25516
      * @MinInclusive 0
      * @MaxInclusive 59
      * @var int|null

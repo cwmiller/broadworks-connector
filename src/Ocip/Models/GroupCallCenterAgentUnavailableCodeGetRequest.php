@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupCallCenterAgentUnavailableCodeGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:2587","type":"sequence"}]
+ * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:2602","type":"sequence"}]
  */
 class GroupCallCenterAgentUnavailableCodeGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupCallCenterAgentUnavailableCodeGetRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group e2c537e3e39483b96620673a7012ffdd:2587
+     * @Group e2c537e3e39483b96620673a7012ffdd:2602
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +28,7 @@ class GroupCallCenterAgentUnavailableCodeGetRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName groupId
      * @Type string
-     * @Group e2c537e3e39483b96620673a7012ffdd:2587
+     * @Group e2c537e3e39483b96620673a7012ffdd:2602
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -38,7 +38,7 @@ class GroupCallCenterAgentUnavailableCodeGetRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName code
      * @Type string
-     * @Group e2c537e3e39483b96620673a7012ffdd:2587
+     * @Group e2c537e3e39483b96620673a7012ffdd:2602
      * @MinLength 1
      * @MaxLength 10
      * @var string|null

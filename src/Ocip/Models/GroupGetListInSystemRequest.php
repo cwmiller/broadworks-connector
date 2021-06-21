@@ -18,7 +18,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupGetListInSystemResponse
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:5185","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:6169","type":"sequence"}]
  */
 class GroupGetListInSystemRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -27,7 +27,7 @@ class GroupGetListInSystemRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:5185
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:6169
      * @MinInclusive 1
      * @var int|null
      */
@@ -38,7 +38,7 @@ class GroupGetListInSystemRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId
      * @Array
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:5185
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:6169
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId[]
      */
     private $searchCriteriaGroupId = array(
@@ -50,7 +50,7 @@ class GroupGetListInSystemRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupName
      * @Array
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:5185
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:6169
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupName[]
      */
     private $searchCriteriaGroupName = array(
@@ -61,7 +61,7 @@ class GroupGetListInSystemRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @ElementName searchCriteriaExactServiceProvider
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactServiceProvider
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:5185
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:6169
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactServiceProvider|null
      */
     private $searchCriteriaExactServiceProvider = null;
@@ -71,7 +71,7 @@ class GroupGetListInSystemRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderId
      * @Array
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:5185
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:6169
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderId[]
      */
     private $searchCriteriaServiceProviderId = array(
@@ -83,7 +83,7 @@ class GroupGetListInSystemRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaResellerId
      * @Array
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:5185
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:6169
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaResellerId[]
      */
     private $searchCriteriaResellerId = array(

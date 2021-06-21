@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:8816","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:9848","type":"sequence"}]
  */
 class SystemExpensiveCallTypeAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemExpensiveCallTypeAddRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName alternateCallIndicator
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8816
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9848
      * @MinLength 1
      * @MaxLength 64
      * @var string|null
@@ -29,7 +29,7 @@ class SystemExpensiveCallTypeAddRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName treatmentAudioFile
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8816
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9848
      * @MinLength 1
      * @MaxLength 256
      * @var string|null

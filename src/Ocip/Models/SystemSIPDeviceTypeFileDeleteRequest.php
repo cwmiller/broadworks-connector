@@ -6,13 +6,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemSIPDeviceTypeFileDeleteRequest
  *
  * Request to delete a sip device type file.
- *                 The response is either SuccessResponse or ErrorResponse.
- *                 Replaced By: SystemSIPDeviceTypeFileDeleteRequest14sp8
+ *             The response is either SuccessResponse or ErrorResponse.
+ *             Replaced By: SystemSIPDeviceTypeFileDeleteRequest14sp8
  *
  * @see SuccessResponse
  * @see ErrorResponse
  * @see SystemSIPDeviceTypeFileDeleteRequest14sp8
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:5967","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:31420","type":"sequence"}]
  */
 class SystemSIPDeviceTypeFileDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class SystemSIPDeviceTypeFileDeleteRequest extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName deviceType
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:5967
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:31420
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -30,7 +30,7 @@ class SystemSIPDeviceTypeFileDeleteRequest extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName fileType
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:5967
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:31420
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

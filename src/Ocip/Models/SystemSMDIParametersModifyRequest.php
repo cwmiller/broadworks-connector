@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:16843","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:17737","type":"sequence"}]
  */
 class SystemSMDIParametersModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class SystemSMDIParametersModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName enableSMDI
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16843
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17737
      * @var bool|null
      */
     private $enableSMDI = null;
@@ -28,7 +28,7 @@ class SystemSMDIParametersModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName listeningPort
      * @Type int
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16843
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17737
      * @MinInclusive 1025
      * @MaxInclusive 65535
      * @var int|null
@@ -39,7 +39,7 @@ class SystemSMDIParametersModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName maxConnections
      * @Type int
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16843
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17737
      * @MinInclusive 0
      * @MaxInclusive 64
      * @var int|null

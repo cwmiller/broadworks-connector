@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Service Provider Communication Barring Hierarchical Call Me Now Rule
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:3768","type":"sequence","children":[{"id":"c0d21ef9ba207c335d8347e5172fce1d:3769","type":"choice"}]}]
+ * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:4449","type":"sequence","children":[{"id":"c0d21ef9ba207c335d8347e5172fce1d:4450","type":"choice"}]}]
  */
 class ServiceProviderCommunicationBarringHierarchicalCallMeNowRule
 {
@@ -15,7 +15,7 @@ class ServiceProviderCommunicationBarringHierarchicalCallMeNowRule
     /**
      * @ElementName criteria
      * @Type string
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3769
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:4450
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -25,7 +25,7 @@ class ServiceProviderCommunicationBarringHierarchicalCallMeNowRule
     /**
      * @ElementName digitPatternCriteria
      * @Type string
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3769
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:4450
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -35,7 +35,7 @@ class ServiceProviderCommunicationBarringHierarchicalCallMeNowRule
     /**
      * @ElementName action
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringCallMeNowAction
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3768
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:4449
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringCallMeNowAction|null
      */
     private $action = null;
@@ -44,7 +44,7 @@ class ServiceProviderCommunicationBarringHierarchicalCallMeNowRule
      * @ElementName callTimeoutSeconds
      * @Type int
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3768
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:4449
      * @MinInclusive 60
      * @MaxInclusive 86400
      * @var int|null
@@ -55,7 +55,7 @@ class ServiceProviderCommunicationBarringHierarchicalCallMeNowRule
      * @ElementName timeSchedule
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3768
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:4449
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -66,7 +66,7 @@ class ServiceProviderCommunicationBarringHierarchicalCallMeNowRule
      * @ElementName holidaySchedule
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3768
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:4449
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -76,7 +76,7 @@ class ServiceProviderCommunicationBarringHierarchicalCallMeNowRule
     /**
      * @ElementName priority
      * @Type float
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3768
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:4449
      * @MinInclusive 0.0
      * @MaxInclusive 1000000.0
      * @var float|null

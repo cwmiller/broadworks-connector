@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserHolidayScheduleGetListRequest
  *
  * Get a holiday schedule list for a user.
- *                 The response is either a UserHolidayScheduleGetListResponse or an ErrorResponse.
+ *         The response is either a UserHolidayScheduleGetListResponse or an ErrorResponse.
  *
  * @see UserHolidayScheduleGetListResponse
  * @see ErrorResponse
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:17273","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:44583","type":"sequence"}]
  */
 class UserHolidayScheduleGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserHolidayScheduleGetListRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName userId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:17273
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:44583
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

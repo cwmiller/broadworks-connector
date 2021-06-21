@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to ServiceProviderAdministratorPasswordRulesGetRequest.
  *
  * @see ServiceProviderAdministratorPasswordRulesGetRequest
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:1098","type":"sequence","children":[{"id":"f1088f4c5ceb30d524d2ba0f8097c393:1099","type":"choice","children":[{"id":"f1088f4c5ceb30d524d2ba0f8097c393:1100","type":"sequence"},{"id":"f1088f4c5ceb30d524d2ba0f8097c393:1104","type":"sequence"}]}]}]
+ * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:1565","type":"sequence","children":[{"id":"f1088f4c5ceb30d524d2ba0f8097c393:1566","type":"choice","children":[{"id":"f1088f4c5ceb30d524d2ba0f8097c393:1567","type":"sequence"},{"id":"f1088f4c5ceb30d524d2ba0f8097c393:1571","type":"sequence"}]}]}]
  */
 class ServiceProviderAdministratorPasswordRulesGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class ServiceProviderAdministratorPasswordRulesGetResponse extends \CWM\BroadWor
     /**
      * @ElementName useExternalAuthentication
      * @Type bool
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1100
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1567
      * @var bool|null
      */
     private $useExternalAuthentication = null;
@@ -24,7 +24,7 @@ class ServiceProviderAdministratorPasswordRulesGetResponse extends \CWM\BroadWor
     /**
      * @ElementName allowWebAddExternalAuthenticationUsers
      * @Type bool
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1100
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1567
      * @var bool|null
      */
     private $allowWebAddExternalAuthenticationUsers = null;
@@ -32,7 +32,7 @@ class ServiceProviderAdministratorPasswordRulesGetResponse extends \CWM\BroadWor
     /**
      * @ElementName disallowUserId
      * @Type bool
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1104
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1571
      * @var bool|null
      */
     private $disallowUserId = null;
@@ -40,7 +40,7 @@ class ServiceProviderAdministratorPasswordRulesGetResponse extends \CWM\BroadWor
     /**
      * @ElementName disallowOldPassword
      * @Type bool
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1104
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1571
      * @var bool|null
      */
     private $disallowOldPassword = null;
@@ -48,7 +48,7 @@ class ServiceProviderAdministratorPasswordRulesGetResponse extends \CWM\BroadWor
     /**
      * @ElementName disallowReversedOldPassword
      * @Type bool
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1104
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1571
      * @var bool|null
      */
     private $disallowReversedOldPassword = null;
@@ -56,7 +56,7 @@ class ServiceProviderAdministratorPasswordRulesGetResponse extends \CWM\BroadWor
     /**
      * @ElementName restrictMinDigits
      * @Type bool
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1104
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1571
      * @var bool|null
      */
     private $restrictMinDigits = null;
@@ -64,7 +64,7 @@ class ServiceProviderAdministratorPasswordRulesGetResponse extends \CWM\BroadWor
     /**
      * @ElementName minDigits
      * @Type int
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1104
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1571
      * @MinInclusive 1
      * @MaxInclusive 10
      * @var int|null
@@ -74,7 +74,7 @@ class ServiceProviderAdministratorPasswordRulesGetResponse extends \CWM\BroadWor
     /**
      * @ElementName restrictMinUpperCaseLetters
      * @Type bool
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1104
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1571
      * @var bool|null
      */
     private $restrictMinUpperCaseLetters = null;
@@ -82,7 +82,7 @@ class ServiceProviderAdministratorPasswordRulesGetResponse extends \CWM\BroadWor
     /**
      * @ElementName minUpperCaseLetters
      * @Type int
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1104
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1571
      * @MinInclusive 1
      * @MaxInclusive 10
      * @var int|null
@@ -92,7 +92,7 @@ class ServiceProviderAdministratorPasswordRulesGetResponse extends \CWM\BroadWor
     /**
      * @ElementName restrictMinLowerCaseLetters
      * @Type bool
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1104
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1571
      * @var bool|null
      */
     private $restrictMinLowerCaseLetters = null;
@@ -100,7 +100,7 @@ class ServiceProviderAdministratorPasswordRulesGetResponse extends \CWM\BroadWor
     /**
      * @ElementName minLowerCaseLetters
      * @Type int
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1104
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1571
      * @MinInclusive 1
      * @MaxInclusive 10
      * @var int|null
@@ -110,7 +110,7 @@ class ServiceProviderAdministratorPasswordRulesGetResponse extends \CWM\BroadWor
     /**
      * @ElementName restrictMinNonAlphanumericCharacters
      * @Type bool
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1104
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1571
      * @var bool|null
      */
     private $restrictMinNonAlphanumericCharacters = null;
@@ -118,7 +118,7 @@ class ServiceProviderAdministratorPasswordRulesGetResponse extends \CWM\BroadWor
     /**
      * @ElementName minNonAlphanumericCharacters
      * @Type int
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1104
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1571
      * @MinInclusive 1
      * @MaxInclusive 10
      * @var int|null
@@ -128,7 +128,7 @@ class ServiceProviderAdministratorPasswordRulesGetResponse extends \CWM\BroadWor
     /**
      * @ElementName minLength
      * @Type int
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1104
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1571
      * @MinInclusive 3
      * @MaxInclusive 40
      * @var int|null
@@ -138,7 +138,7 @@ class ServiceProviderAdministratorPasswordRulesGetResponse extends \CWM\BroadWor
     /**
      * @ElementName maxFailedLoginAttempts
      * @Type int
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1104
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1571
      * @MinInclusive 0
      * @MaxInclusive 10
      * @var int|null
@@ -148,7 +148,7 @@ class ServiceProviderAdministratorPasswordRulesGetResponse extends \CWM\BroadWor
     /**
      * @ElementName passwordExpiresDays
      * @Type int
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1104
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1571
      * @MinInclusive 0
      * @MaxInclusive 199
      * @var int|null
@@ -158,7 +158,7 @@ class ServiceProviderAdministratorPasswordRulesGetResponse extends \CWM\BroadWor
     /**
      * @ElementName sendLoginDisabledNotifyEmail
      * @Type bool
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1104
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1571
      * @var bool|null
      */
     private $sendLoginDisabledNotifyEmail = null;
@@ -167,7 +167,7 @@ class ServiceProviderAdministratorPasswordRulesGetResponse extends \CWM\BroadWor
      * @ElementName loginDisabledNotifyEmailAddress
      * @Type string
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1104
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1571
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -177,7 +177,7 @@ class ServiceProviderAdministratorPasswordRulesGetResponse extends \CWM\BroadWor
     /**
      * @ElementName disallowPreviousPasswords
      * @Type bool
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1104
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1571
      * @var bool|null
      */
     private $disallowPreviousPasswords = null;
@@ -185,7 +185,7 @@ class ServiceProviderAdministratorPasswordRulesGetResponse extends \CWM\BroadWor
     /**
      * @ElementName numberOfPreviousPasswords
      * @Type int
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1104
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1571
      * @MinInclusive 1
      * @MaxInclusive 10
      * @var int|null

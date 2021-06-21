@@ -9,11 +9,11 @@ use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterNightServiceGetResponse17
 use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterNightServiceModifyRequest17sp1;
 use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksMobilityGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksMobilityGetResponse;
+use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksMobilityModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksMobilityModifyRequest20;
 use CWM\BroadWorksConnector\Ocip\Models\UserCustomRingbackUserAddCriteriaRequest16;
 use CWM\BroadWorksConnector\Ocip\Models\UserCustomRingbackUserGetCriteriaRequest16;
 use CWM\BroadWorksConnector\Ocip\Models\UserCustomRingbackUserGetCriteriaResponse16;
-use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksMobilityModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserCustomRingbackUserModifyCriteriaRequest16;
 use CWM\BroadWorksConnector\Ocip\Models\UserVoiceMessagingUserGetGreetingRequest18sp1;
 use CWM\BroadWorksConnector\Ocip\Models\UserVoiceMessagingUserGetGreetingResponse18sp1;
@@ -84,6 +84,17 @@ trait OCISchemaASDeprecatedSpecialExceptions
     }
 
     /**
+     * @param UserBroadWorksMobilityModifyRequest $request
+     * @return SuccessResponse
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function userBroadWorksMobilityModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksMobilityModifyRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
      * @param UserBroadWorksMobilityModifyRequest20 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
@@ -112,17 +123,6 @@ trait OCISchemaASDeprecatedSpecialExceptions
      * @throws ValidationException
      */
     public function userCustomRingbackUserGetCriteriaRequest16(\CWM\BroadWorksConnector\Ocip\Models\UserCustomRingbackUserGetCriteriaRequest16 $request)
-    {
-        return $this->call($request);
-    }
-
-    /**
-     * @param UserBroadWorksMobilityModifyRequest $request
-     * @return SuccessResponse
-     * @throws ErrorResponseException
-     * @throws ValidationException
-     */
-    public function userBroadWorksMobilityModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksMobilityModifyRequest $request)
     {
         return $this->call($request);
     }

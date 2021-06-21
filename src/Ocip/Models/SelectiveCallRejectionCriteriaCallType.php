@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * The call type criteria used within an add/get request.
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:3485","type":"sequence"}]
+ * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:4135","type":"sequence"}]
  */
 class SelectiveCallRejectionCriteriaCallType
 {
@@ -15,7 +15,7 @@ class SelectiveCallRejectionCriteriaCallType
     /**
      * @ElementName fromDnCriteriaSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SelectiveCallRejectionCriteriaCallTypeSelection
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3485
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:4135
      * @var \CWM\BroadWorksConnector\Ocip\Models\SelectiveCallRejectionCriteriaCallTypeSelection|null
      */
     private $fromDnCriteriaSelection = null;
@@ -23,7 +23,7 @@ class SelectiveCallRejectionCriteriaCallType
     /**
      * @ElementName includeAnonymousCallers
      * @Type bool
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3485
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:4135
      * @var bool|null
      */
     private $includeAnonymousCallers = null;
@@ -31,7 +31,7 @@ class SelectiveCallRejectionCriteriaCallType
     /**
      * @ElementName includeUnavailableCallers
      * @Type bool
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3485
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:4135
      * @var bool|null
      */
     private $includeUnavailableCallers = null;
@@ -41,7 +41,7 @@ class SelectiveCallRejectionCriteriaCallType
      * @Type string
      * @Array
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3485
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:4135
      * @MinLength 1
      * @MaxLength 23
      * @var string[]

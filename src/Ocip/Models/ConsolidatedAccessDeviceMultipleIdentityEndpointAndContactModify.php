@@ -21,8 +21,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         stunServerNetAddress, macAddress, serialNumber, description, physicalLocation, transportProtocol,
  *         useCustomUserNamePassword and accessDeviceCredentials will be ignored if the access device already
  *         exists.
+ *         
+ *         The following elements are only used in AS data mode and ignored in XS data mode:
+ *           useHotline
+ *           hotlineContact
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:1493","type":"sequence"}]
+ * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:1632","type":"sequence"}]
  */
 class ConsolidatedAccessDeviceMultipleIdentityEndpointAndContactModify
 {
@@ -31,7 +35,7 @@ class ConsolidatedAccessDeviceMultipleIdentityEndpointAndContactModify
      * @ElementName accessDevice
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDevice
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1493
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:1632
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDevice|null
      */
     private $accessDevice = null;
@@ -40,7 +44,7 @@ class ConsolidatedAccessDeviceMultipleIdentityEndpointAndContactModify
      * @ElementName linePort
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1493
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:1632
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -52,7 +56,7 @@ class ConsolidatedAccessDeviceMultipleIdentityEndpointAndContactModify
      * @Type string
      * @Nillable
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1493
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:1632
      * @MinLength 1
      * @MaxLength 161
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -64,7 +68,7 @@ class ConsolidatedAccessDeviceMultipleIdentityEndpointAndContactModify
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementContactList
      * @Nillable
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1493
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:1632
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementContactList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $contactList = null;
@@ -73,7 +77,7 @@ class ConsolidatedAccessDeviceMultipleIdentityEndpointAndContactModify
      * @ElementName portNumber
      * @Type int
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1493
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:1632
      * @MinInclusive 1
      * @MaxInclusive 1024
      * @var int|null
@@ -84,7 +88,7 @@ class ConsolidatedAccessDeviceMultipleIdentityEndpointAndContactModify
      * @ElementName deviceType
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1493
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:1632
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -95,7 +99,7 @@ class ConsolidatedAccessDeviceMultipleIdentityEndpointAndContactModify
      * @ElementName protocol
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1493
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:1632
      * @MinLength 1
      * @MaxLength 20
      * @var string|null
@@ -106,7 +110,7 @@ class ConsolidatedAccessDeviceMultipleIdentityEndpointAndContactModify
      * @ElementName netAddress
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1493
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:1632
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -117,7 +121,7 @@ class ConsolidatedAccessDeviceMultipleIdentityEndpointAndContactModify
      * @ElementName port
      * @Type int
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1493
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:1632
      * @MinInclusive 1025
      * @MaxInclusive 65535
      * @var int|null
@@ -128,7 +132,7 @@ class ConsolidatedAccessDeviceMultipleIdentityEndpointAndContactModify
      * @ElementName outboundProxyServerNetAddress
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1493
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:1632
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -139,7 +143,7 @@ class ConsolidatedAccessDeviceMultipleIdentityEndpointAndContactModify
      * @ElementName stunServerNetAddress
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1493
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:1632
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -150,7 +154,7 @@ class ConsolidatedAccessDeviceMultipleIdentityEndpointAndContactModify
      * @ElementName macAddress
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1493
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:1632
      * @MinLength 1
      * @MaxLength 12
      * @var string|null
@@ -161,7 +165,7 @@ class ConsolidatedAccessDeviceMultipleIdentityEndpointAndContactModify
      * @ElementName serialNumber
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1493
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:1632
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -172,7 +176,7 @@ class ConsolidatedAccessDeviceMultipleIdentityEndpointAndContactModify
      * @ElementName description
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1493
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:1632
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -183,7 +187,7 @@ class ConsolidatedAccessDeviceMultipleIdentityEndpointAndContactModify
      * @ElementName physicalLocation
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1493
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:1632
      * @MinLength 1
      * @MaxLength 1024
      * @var string|null
@@ -192,10 +196,10 @@ class ConsolidatedAccessDeviceMultipleIdentityEndpointAndContactModify
 
     /**
      * @ElementName transportProtocol
-     * @Type \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedTransportProtocol
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1493
-     * @var \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol|null
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:1632
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedTransportProtocol|null
      */
     private $transportProtocol = null;
 
@@ -203,7 +207,7 @@ class ConsolidatedAccessDeviceMultipleIdentityEndpointAndContactModify
      * @ElementName useCustomUserNamePassword
      * @Type bool
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1493
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:1632
      * @var bool|null
      */
     private $useCustomUserNamePassword = null;
@@ -212,10 +216,31 @@ class ConsolidatedAccessDeviceMultipleIdentityEndpointAndContactModify
      * @ElementName accessDeviceCredentials
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementUserNamePassword16
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1493
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:1632
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementUserNamePassword16|null
      */
     private $accessDeviceCredentials = null;
+
+    /**
+     * @ElementName useHotline
+     * @Type bool
+     * @Optional
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:1632
+     * @var bool|null
+     */
+    private $useHotline = null;
+
+    /**
+     * @ElementName hotlineContact
+     * @Type string
+     * @Nillable
+     * @Optional
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:1632
+     * @MinLength 1
+     * @MaxLength 161
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     */
+    private $hotlineContact = null;
 
     /**
      * Getter for accessDevice
@@ -693,7 +718,7 @@ class ConsolidatedAccessDeviceMultipleIdentityEndpointAndContactModify
     /**
      * Getter for transportProtocol
      *
-     * @return \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ExtendedTransportProtocol
      */
     public function getTransportProtocol()
     {
@@ -703,10 +728,10 @@ class ConsolidatedAccessDeviceMultipleIdentityEndpointAndContactModify
     /**
      * Setter for transportProtocol
      *
-     * @param \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol $transportProtocol
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ExtendedTransportProtocol $transportProtocol
      * @return $this
      */
-    public function setTransportProtocol(\CWM\BroadWorksConnector\Ocip\Models\TransportProtocol $transportProtocol)
+    public function setTransportProtocol(\CWM\BroadWorksConnector\Ocip\Models\ExtendedTransportProtocol $transportProtocol)
     {
         $this->transportProtocol = $transportProtocol;
         return $this;
@@ -780,6 +805,72 @@ class ConsolidatedAccessDeviceMultipleIdentityEndpointAndContactModify
     public function unsetAccessDeviceCredentials()
     {
         $this->accessDeviceCredentials = null;
+        return $this;
+    }
+
+    /**
+     * Getter for useHotline
+     *
+     * @return bool
+     */
+    public function getUseHotline()
+    {
+        return $this->useHotline instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->useHotline;
+    }
+
+    /**
+     * Setter for useHotline
+     *
+     * @param bool $useHotline
+     * @return $this
+     */
+    public function setUseHotline($useHotline)
+    {
+        $this->useHotline = $useHotline;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetUseHotline()
+    {
+        $this->useHotline = null;
+        return $this;
+    }
+
+    /**
+     * Getter for hotlineContact
+     *
+     * @return string|null
+     */
+    public function getHotlineContact()
+    {
+        return $this->hotlineContact instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->hotlineContact;
+    }
+
+    /**
+     * Setter for hotlineContact
+     *
+     * @param string|null $hotlineContact
+     * @return $this
+     */
+    public function setHotlineContact($hotlineContact = null)
+    {
+        if ($hotlineContact === null) {
+            $this->hotlineContact = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->hotlineContact = $hotlineContact;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetHotlineContact()
+    {
+        $this->hotlineContact = null;
         return $this;
     }
 

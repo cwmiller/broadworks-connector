@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemAdminGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:1696","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:2144","type":"sequence"}]
  */
 class SystemAdminGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemAdminGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRe
     /**
      * @ElementName userId
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1696
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2144
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Indicates whether Call Me Now calls using specified Pinhole digit patterns are permitted.
  *
- * @Groups [{"id":"6f793dfca9bd3d121bb35e0f9cf1cb2e:2258","type":"sequence"}]
+ * @Groups [{"id":"6f793dfca9bd3d121bb35e0f9cf1cb2e:2259","type":"sequence"}]
  */
 class OutgoingPinholeDigitPlanDigitPatternCallMeNowPermission
 {
@@ -15,7 +15,7 @@ class OutgoingPinholeDigitPlanDigitPatternCallMeNowPermission
     /**
      * @ElementName digitPatternName
      * @Type string
-     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:2258
+     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:2259
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -25,7 +25,7 @@ class OutgoingPinholeDigitPlanDigitPatternCallMeNowPermission
     /**
      * @ElementName permission
      * @Type \CWM\BroadWorksConnector\Ocip\Models\OutgoingPinholeDigitPlanCallMeNowPermission
-     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:2258
+     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:2259
      * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingPinholeDigitPlanCallMeNowPermission|null
      */
     private $permission = null;

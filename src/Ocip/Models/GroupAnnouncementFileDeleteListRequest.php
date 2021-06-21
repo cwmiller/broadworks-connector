@@ -6,11 +6,16 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupAnnouncementFileDeleteListRequest
  *
  * Delete one or more announcements from the group announcement repository
+ *
+ *         The following elements are only used in AS data mode and ignored in XS data mode:
+ *           groupExternalId
+ *           announcementFileExternalId
+ *
  *         The response is either a SuccessResponse or an ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:1410","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:1855","type":"sequence","children":[{"id":"f3a93cf15de4abd7903673e44ee3e07b:1856","type":"choice","children":[{"id":"f3a93cf15de4abd7903673e44ee3e07b:1857","type":"sequence"},{"id":"f3a93cf15de4abd7903673e44ee3e07b:1862","type":"sequence"}]}]}]
  */
 class GroupAnnouncementFileDeleteListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +23,7 @@ class GroupAnnouncementFileDeleteListRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1410
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:1857
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +33,7 @@ class GroupAnnouncementFileDeleteListRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1410
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:1857
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -39,10 +44,31 @@ class GroupAnnouncementFileDeleteListRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName announcementFileKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey
      * @Array
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1410
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:1857
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey[]
      */
     private $announcementFileKey = array(
+        
+    );
+
+    /**
+     * @ElementName groupExternalId
+     * @Type string
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:1862
+     * @MaxLength 36
+     * @var string|null
+     */
+    private $groupExternalId = null;
+
+    /**
+     * @ElementName announcementFileExternalId
+     * @Type string
+     * @Array
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:1862
+     * @MaxLength 36
+     * @var string[]
+     */
+    private $announcementFileExternalId = array(
         
     );
 
@@ -148,6 +174,80 @@ class GroupAnnouncementFileDeleteListRequest extends \CWM\BroadWorksConnector\Oc
     public function addAnnouncementFileKey($announcementFileKey)
     {
         $this->announcementFileKey[] = $announcementFileKey;
+        return $this;
+    }
+
+    /**
+     * Getter for groupExternalId
+     *
+     * @return string
+     */
+    public function getGroupExternalId()
+    {
+        return $this->groupExternalId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupExternalId;
+    }
+
+    /**
+     * Setter for groupExternalId
+     *
+     * @param string $groupExternalId
+     * @return $this
+     */
+    public function setGroupExternalId($groupExternalId)
+    {
+        $this->groupExternalId = $groupExternalId;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetGroupExternalId()
+    {
+        $this->groupExternalId = null;
+        return $this;
+    }
+
+    /**
+     * Getter for announcementFileExternalId
+     *
+     * @return string[]
+     */
+    public function getAnnouncementFileExternalId()
+    {
+        return $this->announcementFileExternalId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->announcementFileExternalId;
+    }
+
+    /**
+     * Setter for announcementFileExternalId
+     *
+     * @param string[] $announcementFileExternalId
+     * @return $this
+     */
+    public function setAnnouncementFileExternalId(array $announcementFileExternalId)
+    {
+        $this->announcementFileExternalId = $announcementFileExternalId;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAnnouncementFileExternalId()
+    {
+        $this->announcementFileExternalId = null;
+        return $this;
+    }
+
+    /**
+     * Adder for announcementFileExternalId
+     *
+     * @param string $announcementFileExternalId
+     * @return $this
+     */
+    public function addAnnouncementFileExternalId(string $announcementFileExternalId)
+    {
+        $this->announcementFileExternalId[] = $announcementFileExternalId;
         return $this;
     }
 

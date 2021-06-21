@@ -6,12 +6,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ServiceProviderCommunicationBarringProfileGetCriteriaUsageListRequest
  *
  * Get a list of Communication Barring profiles within a service provider that have a given Communication Barring Criteria assigned.
- *         The response is either a ServiceProviderCommunicationBarringProfileGetCriteriaUsageListResponse
+ *         The response is either a ServiceProviderCommunicationBarring ProfileGetCriteriaUsageListResponse 
  *         or an ErrorResponse.
  *
- * @see ServiceProviderCommunicationBarringProfileGetCriteriaUsageListResponse
+ * @see ProfileGetCriteriaUsageListResponse
  * @see ErrorResponse
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:1862","type":"sequence"}]
+ * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:2364","type":"sequence"}]
  */
 class ServiceProviderCommunicationBarringProfileGetCriteriaUsageListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class ServiceProviderCommunicationBarringProfileGetCriteriaUsageListRequest exte
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1862
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2364
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -29,7 +29,7 @@ class ServiceProviderCommunicationBarringProfileGetCriteriaUsageListRequest exte
     /**
      * @ElementName criteriaName
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1862
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2364
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

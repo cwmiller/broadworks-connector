@@ -20,7 +20,7 @@ class ResellerEmergencyZonesModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @Type string
      * @Group e71c2205fb31894f87810b330a85ede2:243
      * @MinLength 1
-     * @MaxLength 30
+     * @MaxLength 36
      * @var string|null
      */
     private $resellerId = null;

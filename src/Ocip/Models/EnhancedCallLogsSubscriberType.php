@@ -5,8 +5,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * EnhancedCallLogsSubscriberType
  *
- * Subscriber type
- *                 Replaced by EnhancedCallLogsSubscriberType19sp1.
+ * Subscriber type       
+ *         Replaced by EnhancedCallLogsSubscriberType19sp1.
  *
  * @method static EnhancedCallLogsSubscriberType AUTO_ATTENDANT()
  * @method static EnhancedCallLogsSubscriberType BROADWORKS_ANYWHERE_PORTAL()

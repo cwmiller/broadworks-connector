@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Access device end point.
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:105","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:47301","type":"sequence"}]
  */
 class AccessDeviceEndpointRead14
 {
@@ -15,7 +15,7 @@ class AccessDeviceEndpointRead14
     /**
      * @ElementName accessDevice
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDevice
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:105
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:47301
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDevice|null
      */
     private $accessDevice = null;
@@ -23,7 +23,7 @@ class AccessDeviceEndpointRead14
     /**
      * @ElementName linePort
      * @Type string
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:105
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:47301
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -34,7 +34,7 @@ class AccessDeviceEndpointRead14
      * @ElementName contact
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:105
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:47301
      * @MinLength 1
      * @MaxLength 1020
      * @var string|null
@@ -44,7 +44,7 @@ class AccessDeviceEndpointRead14
     /**
      * @ElementName staticRegistrationCapable
      * @Type bool
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:105
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:47301
      * @var bool|null
      */
     private $staticRegistrationCapable = null;
@@ -52,7 +52,7 @@ class AccessDeviceEndpointRead14
     /**
      * @ElementName useDomain
      * @Type bool
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:105
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:47301
      * @var bool|null
      */
     private $useDomain = null;

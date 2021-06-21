@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemMultimediaPolicyGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:11249","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:12293","type":"sequence"}]
  */
 class SystemMultimediaPolicyGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

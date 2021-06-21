@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:2872","type":"sequence"}]
+ * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:3523","type":"sequence"}]
  */
 class ServiceProviderDialableCallerIDModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class ServiceProviderDialableCallerIDModifyRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2872
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3523
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -29,7 +29,7 @@ class ServiceProviderDialableCallerIDModifyRequest extends \CWM\BroadWorksConnec
      * @ElementName useServiceProviderCriteria
      * @Type bool
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2872
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3523
      * @var bool|null
      */
     private $useServiceProviderCriteria = null;
@@ -38,7 +38,7 @@ class ServiceProviderDialableCallerIDModifyRequest extends \CWM\BroadWorksConnec
      * @ElementName nsScreeningFailurePolicy
      * @Type \CWM\BroadWorksConnector\Ocip\Models\NsScreeningFailurePolicy
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2872
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3523
      * @var \CWM\BroadWorksConnector\Ocip\Models\NsScreeningFailurePolicy|null
      */
     private $nsScreeningFailurePolicy = null;
@@ -48,7 +48,7 @@ class ServiceProviderDialableCallerIDModifyRequest extends \CWM\BroadWorksConnec
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DialableCallerIDCriteriaPriorityOrder
      * @Array
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2872
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3523
      * @var \CWM\BroadWorksConnector\Ocip\Models\DialableCallerIDCriteriaPriorityOrder[]
      */
     private $criteriaPriorityOrder = array(

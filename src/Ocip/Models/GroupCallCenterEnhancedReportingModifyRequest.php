@@ -6,14 +6,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupCallCenterEnhancedReportingModifyRequest
  *
  * Request to modify group level call center enhanced reporting settings.
- *                 The response is either a SuccessResponse or an ErrorResponse.
- *
- *                 Replaced by GroupCallCenterEnhancedReportingModifyRequest19
+ *         The response is either a SuccessResponse or an ErrorResponse.
+ *         
+ *         Replaced by GroupCallCenterEnhancedReportingModifyRequest19
  *
  * @see SuccessResponse
  * @see ErrorResponse
  * @see GroupCallCenterEnhancedReportingModifyRequest19
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:24576","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:4913","type":"sequence"}]
  */
 class GroupCallCenterEnhancedReportingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,7 +21,7 @@ class GroupCallCenterEnhancedReportingModifyRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:24576
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:4913
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -31,7 +31,7 @@ class GroupCallCenterEnhancedReportingModifyRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName groupId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:24576
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:4913
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -42,7 +42,7 @@ class GroupCallCenterEnhancedReportingModifyRequest extends \CWM\BroadWorksConne
      * @ElementName reportingServer
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportServerChoice
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:24576
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:4913
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportServerChoice|null
      */
     private $reportingServer = null;
@@ -51,7 +51,7 @@ class GroupCallCenterEnhancedReportingModifyRequest extends \CWM\BroadWorksConne
      * @ElementName webStatisticSource
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportWebStatisticsSource
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:24576
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:4913
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportWebStatisticsSource|null
      */
     private $webStatisticSource = null;

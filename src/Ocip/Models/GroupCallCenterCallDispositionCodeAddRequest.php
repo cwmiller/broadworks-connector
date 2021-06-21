@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:2787","type":"sequence"}]
+ * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:2802","type":"sequence"}]
  */
 class GroupCallCenterCallDispositionCodeAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupCallCenterCallDispositionCodeAddRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group e2c537e3e39483b96620673a7012ffdd:2787
+     * @Group e2c537e3e39483b96620673a7012ffdd:2802
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +28,7 @@ class GroupCallCenterCallDispositionCodeAddRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName groupId
      * @Type string
-     * @Group e2c537e3e39483b96620673a7012ffdd:2787
+     * @Group e2c537e3e39483b96620673a7012ffdd:2802
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -38,7 +38,7 @@ class GroupCallCenterCallDispositionCodeAddRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName code
      * @Type string
-     * @Group e2c537e3e39483b96620673a7012ffdd:2787
+     * @Group e2c537e3e39483b96620673a7012ffdd:2802
      * @MinLength 1
      * @MaxLength 10
      * @var string|null
@@ -48,7 +48,7 @@ class GroupCallCenterCallDispositionCodeAddRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group e2c537e3e39483b96620673a7012ffdd:2787
+     * @Group e2c537e3e39483b96620673a7012ffdd:2802
      * @var bool|null
      */
     private $isActive = null;
@@ -57,7 +57,7 @@ class GroupCallCenterCallDispositionCodeAddRequest extends \CWM\BroadWorksConnec
      * @ElementName description
      * @Type string
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:2787
+     * @Group e2c537e3e39483b96620673a7012ffdd:2802
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

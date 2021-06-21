@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupRoutePointForcedForwardingGetResponse20
  * @see ErrorResponse
- * @Groups [{"id":"a27224a048c30ff69eab9209dec841cc:286","type":"sequence"}]
+ * @Groups [{"id":"a27224a048c30ff69eab9209dec841cc:293","type":"sequence"}]
  */
 class GroupRoutePointForcedForwardingGetRequest20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupRoutePointForcedForwardingGetRequest20 extends \CWM\BroadWorksConnect
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group a27224a048c30ff69eab9209dec841cc:286
+     * @Group a27224a048c30ff69eab9209dec841cc:293
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

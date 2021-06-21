@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         for creating a Verify Translation and Routing request from
  *         parameters.
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:4592","type":"sequence"}]
+ * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:5301","type":"sequence"}]
  */
 class VerifyTranslationAndRoutingParameters
 {
@@ -17,7 +17,7 @@ class VerifyTranslationAndRoutingParameters
     /**
      * @ElementName origination
      * @Type \CWM\BroadWorksConnector\Ocip\Models\VerifyTranslationAndRoutingOrigination
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4592
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:5301
      * @var \CWM\BroadWorksConnector\Ocip\Models\VerifyTranslationAndRoutingOrigination|null
      */
     private $origination = null;
@@ -25,7 +25,7 @@ class VerifyTranslationAndRoutingParameters
     /**
      * @ElementName destination
      * @Type string
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4592
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:5301
      * @MinLength 1
      * @MaxLength 500
      * @var string|null
@@ -36,7 +36,7 @@ class VerifyTranslationAndRoutingParameters
      * @ElementName contact
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4592
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:5301
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -47,7 +47,7 @@ class VerifyTranslationAndRoutingParameters
      * @ElementName diversion
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4592
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:5301
      * @MinLength 1
      * @MaxLength 256
      * @var string|null

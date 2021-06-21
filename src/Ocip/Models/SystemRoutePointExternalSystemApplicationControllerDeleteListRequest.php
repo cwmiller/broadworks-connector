@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:13963","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:15062","type":"sequence"}]
  */
 class SystemRoutePointExternalSystemApplicationControllerDeleteListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemRoutePointExternalSystemApplicationControllerDeleteListRequest exten
     /**
      * @ElementName name
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:13963
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:15062
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -30,7 +30,7 @@ class SystemRoutePointExternalSystemApplicationControllerDeleteListRequest exten
      * @Type string
      * @Array
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:13963
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:15062
      * @MinLength 1
      * @MaxLength 40
      * @var string[]

@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the EnterpriseBroadWorksMobileManagerGetHomeZoneRequest
  *
  * @see EnterpriseBroadWorksMobileManagerGetHomeZoneRequest
- * @Groups [{"id":"5395c7df0157d44aa22f3351d1a5f3da:289","type":"sequence"}]
+ * @Groups [{"id":"5395c7df0157d44aa22f3351d1a5f3da:290","type":"sequence"}]
  */
 class EnterpriseBroadWorksMobileManagerGetHomeZoneResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class EnterpriseBroadWorksMobileManagerGetHomeZoneResponse extends \CWM\BroadWor
     /**
      * @ElementName homeZoneDomainName
      * @Type string
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:289
+     * @Group 5395c7df0157d44aa22f3351d1a5f3da:290
      * @MinLength 1
      * @MaxLength 100
      * @var string|null
@@ -26,7 +26,7 @@ class EnterpriseBroadWorksMobileManagerGetHomeZoneResponse extends \CWM\BroadWor
     /**
      * @ElementName mobileCountryCode
      * @Type string
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:289
+     * @Group 5395c7df0157d44aa22f3351d1a5f3da:290
      * @MinLength 1
      * @MaxLength 3
      * @var string|null
@@ -36,7 +36,7 @@ class EnterpriseBroadWorksMobileManagerGetHomeZoneResponse extends \CWM\BroadWor
     /**
      * @ElementName mobileNetworkCode
      * @Type string
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:289
+     * @Group 5395c7df0157d44aa22f3351d1a5f3da:290
      * @MinLength 1
      * @MaxLength 3
      * @var string|null
@@ -46,7 +46,7 @@ class EnterpriseBroadWorksMobileManagerGetHomeZoneResponse extends \CWM\BroadWor
     /**
      * @ElementName locationAreaCode
      * @Type string
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:289
+     * @Group 5395c7df0157d44aa22f3351d1a5f3da:290
      * @MinLength 1
      * @MaxLength 5
      * @var string|null
@@ -56,7 +56,7 @@ class EnterpriseBroadWorksMobileManagerGetHomeZoneResponse extends \CWM\BroadWor
     /**
      * @ElementName cellIdentity
      * @Type string
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:289
+     * @Group 5395c7df0157d44aa22f3351d1a5f3da:290
      * @MinLength 1
      * @MaxLength 5
      * @var string|null

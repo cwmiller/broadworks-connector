@@ -11,9 +11,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The usage table has columns "Service Name", and "Instance Name".
  *         The Service Name values correspond to string values of the GroupService and UserService data types.
  *         With the exception of the string "Voice Portal" which is returned when the announcement is being used by Voice Portal Personalized Name.
+ *         
+ *         Replaced by: GroupAnnouncementFileGetResponse22.
  *
  * @see GroupAnnouncementFileGetRequest
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:1558","type":"sequence"}]
+ * @see GroupAnnouncementFileGetResponse22
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:3608","type":"sequence"}]
  */
 class GroupAnnouncementFileGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -21,7 +24,7 @@ class GroupAnnouncementFileGetResponse extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName description
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1558
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:3608
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -31,7 +34,7 @@ class GroupAnnouncementFileGetResponse extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName filesize
      * @Type int
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1558
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:3608
      * @var int|null
      */
     private $filesize = null;
@@ -39,7 +42,7 @@ class GroupAnnouncementFileGetResponse extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName lastUploaded
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1558
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:3608
      * @var string|null
      */
     private $lastUploaded = null;
@@ -47,7 +50,7 @@ class GroupAnnouncementFileGetResponse extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName usageTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1558
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:3608
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $usageTable = null;

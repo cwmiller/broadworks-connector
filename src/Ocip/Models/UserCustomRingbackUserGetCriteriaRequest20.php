@@ -6,13 +6,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserCustomRingbackUserGetCriteriaRequest20
  *
  * Get a criteria for the user's custom ringback service.
- *                 The response is either a UserCustomRingbackUserGetCriteriaResponse20 or an ErrorResponse.
- *                 Replaced by: UserCustomRingbackUserGetCriteriaRequest21
+ *         The response is either a UserCustomRingbackUserGetCriteriaResponse20 or an ErrorResponse.
+ *         Replaced by: UserCustomRingbackUserGetCriteriaRequest21
  *
  * @see UserCustomRingbackUserGetCriteriaResponse20
  * @see ErrorResponse
  * @see UserCustomRingbackUserGetCriteriaRequest21
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:35647","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:42029","type":"sequence"}]
  */
 class UserCustomRingbackUserGetCriteriaRequest20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class UserCustomRingbackUserGetCriteriaRequest20 extends \CWM\BroadWorksConnecto
     /**
      * @ElementName userId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:35647
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:42029
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -30,7 +30,7 @@ class UserCustomRingbackUserGetCriteriaRequest20 extends \CWM\BroadWorksConnecto
     /**
      * @ElementName criteriaName
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:35647
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:42029
      * @MinLength 1
      * @MaxLength 50
      * @var string|null

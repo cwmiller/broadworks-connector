@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemEnhancedCallLogsGetRequest.
  *
  * @see SystemEnhancedCallLogsGetRequest
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:21596","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:26507","type":"sequence"}]
  */
 class SystemEnhancedCallLogsGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class SystemEnhancedCallLogsGetResponse extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName isSendEnabled
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:21596
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:26507
      * @var bool|null
      */
     private $isSendEnabled = null;
@@ -25,7 +25,7 @@ class SystemEnhancedCallLogsGetResponse extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName server1NetAddress
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:21596
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:26507
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -35,7 +35,7 @@ class SystemEnhancedCallLogsGetResponse extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName server1SendPort
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:21596
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:26507
      * @MinInclusive 1025
      * @MaxInclusive 65535
      * @var int|null
@@ -45,7 +45,7 @@ class SystemEnhancedCallLogsGetResponse extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName server1RetrievePort
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:21596
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:26507
      * @MinInclusive 1
      * @MaxInclusive 65535
      * @var int|null
@@ -56,7 +56,7 @@ class SystemEnhancedCallLogsGetResponse extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName server2NetAddress
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:21596
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:26507
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -66,7 +66,7 @@ class SystemEnhancedCallLogsGetResponse extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName server2SendPort
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:21596
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:26507
      * @MinInclusive 1025
      * @MaxInclusive 65535
      * @var int|null
@@ -76,7 +76,7 @@ class SystemEnhancedCallLogsGetResponse extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName server2RetrievePort
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:21596
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:26507
      * @MinInclusive 1
      * @MaxInclusive 65535
      * @var int|null
@@ -87,7 +87,7 @@ class SystemEnhancedCallLogsGetResponse extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName sharedSecret
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:21596
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:26507
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -97,7 +97,7 @@ class SystemEnhancedCallLogsGetResponse extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName retransmissionDelayMilliSeconds
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:21596
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:26507
      * @MinInclusive 200
      * @MaxInclusive 5000
      * @var int|null
@@ -107,7 +107,7 @@ class SystemEnhancedCallLogsGetResponse extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName maxTransmissions
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:21596
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:26507
      * @MinInclusive 1
      * @MaxInclusive 5
      * @var int|null
@@ -117,7 +117,7 @@ class SystemEnhancedCallLogsGetResponse extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName soapTimeoutSeconds
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:21596
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:26507
      * @MinInclusive 1
      * @MaxInclusive 120
      * @var int|null

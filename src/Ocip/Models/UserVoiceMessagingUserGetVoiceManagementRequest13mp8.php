@@ -6,13 +6,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserVoiceMessagingUserGetVoiceManagementRequest13mp8
  *
  * Get the user's voice messaging voice management service settings.
- *                 The response is either a UserVoiceMessagingUserGetVoiceManagementResponse13mp8 or an ErrorResponse.
- *                 Replaced by: UserVoiceMessagingUserGetVoiceManagementRequest17
+ *         The response is either a UserVoiceMessagingUserGetVoiceManagementResponse13mp8 or an ErrorResponse.
+ *         Replaced by: UserVoiceMessagingUserGetVoiceManagementRequest17
  *
  * @see UserVoiceMessagingUserGetVoiceManagementResponse13mp8
  * @see ErrorResponse
  * @see UserVoiceMessagingUserGetVoiceManagementRequest17
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:17969","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:47038","type":"sequence"}]
  */
 class UserVoiceMessagingUserGetVoiceManagementRequest13mp8 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class UserVoiceMessagingUserGetVoiceManagementRequest13mp8 extends \CWM\BroadWor
     /**
      * @ElementName userId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:17969
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:47038
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

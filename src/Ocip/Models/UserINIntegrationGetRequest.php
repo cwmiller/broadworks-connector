@@ -5,8 +5,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * UserINIntegrationGetRequest
  *
- * Request to get the user level IN Integration service attributes
- *         The response is either UserINIntegrationGetResponse or ErrorResponse
+ * Request to get the user level IN Integration service attributes The response is either UserINIntegrationGetResponse or ErrorResponse
  *
  * @see UserINIntegrationGetResponse
  * @see ErrorResponse

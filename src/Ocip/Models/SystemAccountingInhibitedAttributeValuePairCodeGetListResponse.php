@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         table with column headings "Attribute Value Pair Code" and "Vendor Id".
  *
  * @see SystemAccountingInhibitedAttributeValuePairCodeGetListRequest
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:1557","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:2005","type":"sequence"}]
  */
 class SystemAccountingInhibitedAttributeValuePairCodeGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class SystemAccountingInhibitedAttributeValuePairCodeGetListResponse extends \CW
     /**
      * @ElementName inhibitedAttributeValuePairCodeTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1557
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2005
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $inhibitedAttributeValuePairCodeTable = null;

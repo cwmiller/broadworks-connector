@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupFileRepositoryDeviceUserGetListResponse
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:5005","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:5914","type":"sequence"}]
  */
 class GroupFileRepositoryDeviceUserGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupFileRepositoryDeviceUserGetListRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:5005
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:5914
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +28,7 @@ class GroupFileRepositoryDeviceUserGetListRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:5005
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:5914
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -38,7 +38,7 @@ class GroupFileRepositoryDeviceUserGetListRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName fileRepositoryName
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:5005
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:5914
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         group.  The column headings are: "Name" and "Description".
  *
  * @see GroupRoutePointExternalSystemGetAssignedListRequest
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:6179","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:7197","type":"sequence"}]
  */
 class GroupRoutePointExternalSystemGetAssignedListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class GroupRoutePointExternalSystemGetAssignedListResponse extends \CWM\BroadWor
     /**
      * @ElementName externalSystemTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6179
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:7197
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $externalSystemTable = null;

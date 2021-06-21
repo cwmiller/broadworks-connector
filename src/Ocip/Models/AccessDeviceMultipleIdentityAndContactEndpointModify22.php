@@ -11,8 +11,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Port numbers are only used by devices with static line ordering.
  *         The following elements are only used in XS data mode and ignored in AS data mode:
  *           privateIdentity
+ *         The following elements are only used in AS data mode and ignored in XS data mode:
+ *           useHotline
+ *           hotlineContact
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:318","type":"sequence"}]
+ * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:376","type":"sequence"}]
  */
 class AccessDeviceMultipleIdentityAndContactEndpointModify22
 {
@@ -21,7 +24,7 @@ class AccessDeviceMultipleIdentityAndContactEndpointModify22
      * @ElementName accessDevice
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDevice
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:318
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:376
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDevice|null
      */
     private $accessDevice = null;
@@ -30,7 +33,7 @@ class AccessDeviceMultipleIdentityAndContactEndpointModify22
      * @ElementName linePort
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:318
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:376
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -42,7 +45,7 @@ class AccessDeviceMultipleIdentityAndContactEndpointModify22
      * @Type string
      * @Nillable
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:318
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:376
      * @MinLength 1
      * @MaxLength 161
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -54,7 +57,7 @@ class AccessDeviceMultipleIdentityAndContactEndpointModify22
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementContactList22
      * @Nillable
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:318
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:376
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementContactList22|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $contactList = null;
@@ -63,12 +66,33 @@ class AccessDeviceMultipleIdentityAndContactEndpointModify22
      * @ElementName portNumber
      * @Type int
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:318
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:376
      * @MinInclusive 1
      * @MaxInclusive 1024
      * @var int|null
      */
     private $portNumber = null;
+
+    /**
+     * @ElementName useHotline
+     * @Type bool
+     * @Optional
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:376
+     * @var bool|null
+     */
+    private $useHotline = null;
+
+    /**
+     * @ElementName hotlineContact
+     * @Type string
+     * @Nillable
+     * @Optional
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:376
+     * @MinLength 1
+     * @MaxLength 161
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     */
+    private $hotlineContact = null;
 
     /**
      * Getter for accessDevice
@@ -230,6 +254,72 @@ class AccessDeviceMultipleIdentityAndContactEndpointModify22
     public function unsetPortNumber()
     {
         $this->portNumber = null;
+        return $this;
+    }
+
+    /**
+     * Getter for useHotline
+     *
+     * @return bool
+     */
+    public function getUseHotline()
+    {
+        return $this->useHotline instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->useHotline;
+    }
+
+    /**
+     * Setter for useHotline
+     *
+     * @param bool $useHotline
+     * @return $this
+     */
+    public function setUseHotline($useHotline)
+    {
+        $this->useHotline = $useHotline;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetUseHotline()
+    {
+        $this->useHotline = null;
+        return $this;
+    }
+
+    /**
+     * Getter for hotlineContact
+     *
+     * @return string|null
+     */
+    public function getHotlineContact()
+    {
+        return $this->hotlineContact instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->hotlineContact;
+    }
+
+    /**
+     * Setter for hotlineContact
+     *
+     * @param string|null $hotlineContact
+     * @return $this
+     */
+    public function setHotlineContact($hotlineContact = null)
+    {
+        if ($hotlineContact === null) {
+            $this->hotlineContact = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->hotlineContact = $hotlineContact;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetHotlineContact()
+    {
+        $this->hotlineContact = null;
         return $this;
     }
 

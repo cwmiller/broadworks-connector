@@ -6,12 +6,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * TrunkAddressingMultipleContactAdd
  *
  * Trunk group endpoint that can have multiple contacts.
- *         alternateTrunkIdentityDomain is only used in XS mode and the AS when deployed in IMS mode. 
+ *         alternateTrunkIdentityDomain is only used in XS mode and the AS when deployed in IMS mode.  
  *         Both alternateTrunkIdentity and AlternateTrunkIdentityDomain should be set at the same time if one is set in XS mode.
  *         The following elements are only used in AS data mode and are ignored in XS data mode:        
  *          physicalLocation
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:4134","type":"sequence"}]
+ * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:4830","type":"sequence"}]
  */
 class TrunkAddressingMultipleContactAdd
 {
@@ -20,7 +20,7 @@ class TrunkAddressingMultipleContactAdd
      * @ElementName trunkGroupDeviceEndpoint
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupDeviceMultipleContactEndpointAdd
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4134
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:4830
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupDeviceMultipleContactEndpointAdd|null
      */
     private $trunkGroupDeviceEndpoint = null;
@@ -29,7 +29,7 @@ class TrunkAddressingMultipleContactAdd
      * @ElementName enterpriseTrunkName
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4134
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:4830
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -40,7 +40,7 @@ class TrunkAddressingMultipleContactAdd
      * @ElementName alternateTrunkIdentity
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4134
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:4830
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -51,7 +51,7 @@ class TrunkAddressingMultipleContactAdd
      * @ElementName alternateTrunkIdentityDomain
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4134
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:4830
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -62,7 +62,7 @@ class TrunkAddressingMultipleContactAdd
      * @ElementName physicalLocation
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4134
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:4830
      * @MinLength 1
      * @MaxLength 1024
      * @var string|null

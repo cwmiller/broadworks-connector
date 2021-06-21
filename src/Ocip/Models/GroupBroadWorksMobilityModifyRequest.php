@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f7ae3539fd471e995b07dc1bf8836e2d:447","type":"sequence"}]
+ * @Groups [{"id":"f7ae3539fd471e995b07dc1bf8836e2d:467","type":"sequence"}]
  */
 class GroupBroadWorksMobilityModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupBroadWorksMobilityModifyRequest extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f7ae3539fd471e995b07dc1bf8836e2d:447
+     * @Group f7ae3539fd471e995b07dc1bf8836e2d:467
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +28,7 @@ class GroupBroadWorksMobilityModifyRequest extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f7ae3539fd471e995b07dc1bf8836e2d:447
+     * @Group f7ae3539fd471e995b07dc1bf8836e2d:467
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -39,7 +39,7 @@ class GroupBroadWorksMobilityModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @ElementName useSettingLevel
      * @Type \CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityGroupSettingLevel
      * @Optional
-     * @Group f7ae3539fd471e995b07dc1bf8836e2d:447
+     * @Group f7ae3539fd471e995b07dc1bf8836e2d:467
      * @var \CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityGroupSettingLevel|null
      */
     private $useSettingLevel = null;
@@ -48,7 +48,7 @@ class GroupBroadWorksMobilityModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @ElementName enableLocationServices
      * @Type bool
      * @Optional
-     * @Group f7ae3539fd471e995b07dc1bf8836e2d:447
+     * @Group f7ae3539fd471e995b07dc1bf8836e2d:467
      * @var bool|null
      */
     private $enableLocationServices = null;
@@ -57,7 +57,7 @@ class GroupBroadWorksMobilityModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @ElementName enableMSRNLookup
      * @Type bool
      * @Optional
-     * @Group f7ae3539fd471e995b07dc1bf8836e2d:447
+     * @Group f7ae3539fd471e995b07dc1bf8836e2d:467
      * @var bool|null
      */
     private $enableMSRNLookup = null;
@@ -66,7 +66,7 @@ class GroupBroadWorksMobilityModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @ElementName enableMobileStateChecking
      * @Type bool
      * @Optional
-     * @Group f7ae3539fd471e995b07dc1bf8836e2d:447
+     * @Group f7ae3539fd471e995b07dc1bf8836e2d:467
      * @var bool|null
      */
     private $enableMobileStateChecking = null;
@@ -75,7 +75,7 @@ class GroupBroadWorksMobilityModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @ElementName denyCallOriginations
      * @Type bool
      * @Optional
-     * @Group f7ae3539fd471e995b07dc1bf8836e2d:447
+     * @Group f7ae3539fd471e995b07dc1bf8836e2d:467
      * @var bool|null
      */
     private $denyCallOriginations = null;
@@ -84,7 +84,7 @@ class GroupBroadWorksMobilityModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @ElementName denyCallTerminations
      * @Type bool
      * @Optional
-     * @Group f7ae3539fd471e995b07dc1bf8836e2d:447
+     * @Group f7ae3539fd471e995b07dc1bf8836e2d:467
      * @var bool|null
      */
     private $denyCallTerminations = null;
@@ -93,7 +93,7 @@ class GroupBroadWorksMobilityModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @ElementName enableAnnouncementSuppression
      * @Type bool
      * @Optional
-     * @Group f7ae3539fd471e995b07dc1bf8836e2d:447
+     * @Group f7ae3539fd471e995b07dc1bf8836e2d:467
      * @var bool|null
      */
     private $enableAnnouncementSuppression = null;
@@ -102,7 +102,7 @@ class GroupBroadWorksMobilityModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @ElementName enableInternalCLIDDelivery
      * @Type bool
      * @Optional
-     * @Group f7ae3539fd471e995b07dc1bf8836e2d:447
+     * @Group f7ae3539fd471e995b07dc1bf8836e2d:467
      * @var bool|null
      */
     private $enableInternalCLIDDelivery = null;
@@ -111,7 +111,7 @@ class GroupBroadWorksMobilityModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @ElementName enableInternalCLIDDeliveryAccessLocations
      * @Type bool
      * @Optional
-     * @Group f7ae3539fd471e995b07dc1bf8836e2d:447
+     * @Group f7ae3539fd471e995b07dc1bf8836e2d:467
      * @var bool|null
      */
     private $enableInternalCLIDDeliveryAccessLocations = null;
@@ -120,7 +120,7 @@ class GroupBroadWorksMobilityModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @ElementName enableEnhancedUnreachableStateChecking
      * @Type bool
      * @Optional
-     * @Group f7ae3539fd471e995b07dc1bf8836e2d:447
+     * @Group f7ae3539fd471e995b07dc1bf8836e2d:467
      * @var bool|null
      */
     private $enableEnhancedUnreachableStateChecking = null;
@@ -129,7 +129,7 @@ class GroupBroadWorksMobilityModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @ElementName enableNetworkCallBarringStatusCheck
      * @Type bool
      * @Optional
-     * @Group f7ae3539fd471e995b07dc1bf8836e2d:447
+     * @Group f7ae3539fd471e995b07dc1bf8836e2d:467
      * @var bool|null
      */
     private $enableNetworkCallBarringStatusCheck = null;
@@ -139,12 +139,31 @@ class GroupBroadWorksMobilityModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @Type string
      * @Nillable
      * @Optional
-     * @Group f7ae3539fd471e995b07dc1bf8836e2d:447
+     * @Group f7ae3539fd471e995b07dc1bf8836e2d:467
      * @MinLength 1
      * @MaxLength 128
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $networkTranslationIndex = null;
+
+    /**
+     * @ElementName enablePBXRoutePolicy
+     * @Type bool
+     * @Optional
+     * @Group f7ae3539fd471e995b07dc1bf8836e2d:467
+     * @var bool|null
+     */
+    private $enablePBXRoutePolicy = null;
+
+    /**
+     * @ElementName pbxRouteIdentity
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey
+     * @Nillable
+     * @Optional
+     * @Group f7ae3539fd471e995b07dc1bf8836e2d:467
+     * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey|null|\CWM\BroadWorksConnector\Ocip\Nil
+     */
+    private $pbxRouteIdentity = null;
 
     /**
      * Getter for serviceProviderId
@@ -581,6 +600,72 @@ class GroupBroadWorksMobilityModifyRequest extends \CWM\BroadWorksConnector\Ocip
     public function unsetNetworkTranslationIndex()
     {
         $this->networkTranslationIndex = null;
+        return $this;
+    }
+
+    /**
+     * Getter for enablePBXRoutePolicy
+     *
+     * @return bool
+     */
+    public function getEnablePBXRoutePolicy()
+    {
+        return $this->enablePBXRoutePolicy instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enablePBXRoutePolicy;
+    }
+
+    /**
+     * Setter for enablePBXRoutePolicy
+     *
+     * @param bool $enablePBXRoutePolicy
+     * @return $this
+     */
+    public function setEnablePBXRoutePolicy($enablePBXRoutePolicy)
+    {
+        $this->enablePBXRoutePolicy = $enablePBXRoutePolicy;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetEnablePBXRoutePolicy()
+    {
+        $this->enablePBXRoutePolicy = null;
+        return $this;
+    }
+
+    /**
+     * Getter for pbxRouteIdentity
+     *
+     * @return \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey|null
+     */
+    public function getPbxRouteIdentity()
+    {
+        return $this->pbxRouteIdentity instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->pbxRouteIdentity;
+    }
+
+    /**
+     * Setter for pbxRouteIdentity
+     *
+     * @param \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey|null $pbxRouteIdentity
+     * @return $this
+     */
+    public function setPbxRouteIdentity(\CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey $pbxRouteIdentity = null)
+    {
+        if ($pbxRouteIdentity === null) {
+            $this->pbxRouteIdentity = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->pbxRouteIdentity = $pbxRouteIdentity;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetPbxRouteIdentity()
+    {
+        $this->pbxRouteIdentity = null;
         return $this;
     }
 

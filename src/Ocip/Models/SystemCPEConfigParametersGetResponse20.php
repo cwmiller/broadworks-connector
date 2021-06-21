@@ -6,12 +6,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemCPEConfigParametersGetResponse20
  *
  * Response to SystemCPEConfigParametersGetListRequest20.
- *                 Contains a list of system CPE Config parameters.
- *                 Replaced by: SystemCPEConfigParametersGetResponse21
+ *         Contains a list of system CPE Config parameters.
+ *         Replaced by: SystemCPEConfigParametersGetResponse21
  *
  * @see SystemCPEConfigParametersGetListRequest20
  * @see SystemCPEConfigParametersGetResponse21
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:34564","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:25537","type":"sequence"}]
  */
 class SystemCPEConfigParametersGetResponse20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,7 +19,7 @@ class SystemCPEConfigParametersGetResponse20 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName enableIPDeviceManagement
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:34564
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:25537
      * @var bool|null
      */
     private $enableIPDeviceManagement = null;
@@ -27,7 +27,7 @@ class SystemCPEConfigParametersGetResponse20 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName ftpConnectTimeoutSeconds
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:34564
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:25537
      * @MinInclusive 1
      * @MaxInclusive 600
      * @var int|null
@@ -37,7 +37,7 @@ class SystemCPEConfigParametersGetResponse20 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName ftpFileTransferTimeoutSeconds
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:34564
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:25537
      * @MinInclusive 1
      * @MaxInclusive 600
      * @var int|null
@@ -47,7 +47,7 @@ class SystemCPEConfigParametersGetResponse20 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName pauseBetweenFileRebuildMilliseconds
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:34564
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:25537
      * @MinInclusive 0
      * @MaxInclusive 10000
      * @var int|null
@@ -57,7 +57,7 @@ class SystemCPEConfigParametersGetResponse20 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName maxBusyTimeMinutes
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:34564
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:25537
      * @MinInclusive 1
      * @MaxInclusive 1440
      * @var int|null
@@ -68,7 +68,7 @@ class SystemCPEConfigParametersGetResponse20 extends \CWM\BroadWorksConnector\Oc
      * @ElementName deviceAccessAppServerClusterName
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:34564
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:25537
      * @MinLength 1
      * @MaxLength 80
      * @var string|null

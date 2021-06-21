@@ -7,10 +7,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Get the group's BroadWorks Mobility settings.
  *         The response is either a GroupBroadWorksMobilityGetResponse22V3 or an ErrorResponse.
+ *         
+ *         Replaced by GroupBroadWorksMobilityGetRequest22V4.
  *
  * @see GroupBroadWorksMobilityGetResponse22V3
  * @see ErrorResponse
- * @Groups [{"id":"f7ae3539fd471e995b07dc1bf8836e2d:284","type":"sequence"}]
+ * @see GroupBroadWorksMobilityGetRequest22V4
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:4076","type":"sequence"}]
  */
 class GroupBroadWorksMobilityGetRequest22V3 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +21,7 @@ class GroupBroadWorksMobilityGetRequest22V3 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f7ae3539fd471e995b07dc1bf8836e2d:284
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:4076
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +31,7 @@ class GroupBroadWorksMobilityGetRequest22V3 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f7ae3539fd471e995b07dc1bf8836e2d:284
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:4076
      * @MinLength 1
      * @MaxLength 30
      * @var string|null

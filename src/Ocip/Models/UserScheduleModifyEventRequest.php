@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:3714","type":"sequence","children":[{"id":"53d18cc797d03d802cbc411ad821f1d4:3720","type":"choice","optional":true,"children":[{"id":"53d18cc797d03d802cbc411ad821f1d4:3722","type":"sequence"}]}]}]
+ * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:3800","type":"sequence","children":[{"id":"53d18cc797d03d802cbc411ad821f1d4:3806","type":"choice","optional":true,"children":[{"id":"53d18cc797d03d802cbc411ad821f1d4:3808","type":"sequence"}]}]}]
  */
 class UserScheduleModifyEventRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class UserScheduleModifyEventRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName userId
      * @Type string
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:3714
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:3800
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -30,7 +30,7 @@ class UserScheduleModifyEventRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName scheduleKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ScheduleKey
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:3714
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:3800
      * @var \CWM\BroadWorksConnector\Ocip\Models\ScheduleKey|null
      */
     private $scheduleKey = null;
@@ -38,7 +38,7 @@ class UserScheduleModifyEventRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName eventName
      * @Type string
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:3714
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:3800
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -49,7 +49,7 @@ class UserScheduleModifyEventRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName newEventName
      * @Type string
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:3714
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:3800
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -60,7 +60,7 @@ class UserScheduleModifyEventRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName startDate
      * @Type string
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:3714
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:3800
      * @var string|null
      */
     private $startDate = null;
@@ -68,7 +68,7 @@ class UserScheduleModifyEventRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName allDayEvent
      * @Type bool
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:3720
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:3806
      * @var bool|null
      */
     private $allDayEvent = null;
@@ -76,7 +76,7 @@ class UserScheduleModifyEventRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName startTime
      * @Type \CWM\BroadWorksConnector\Ocip\Models\HourMinute
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:3722
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:3808
      * @var \CWM\BroadWorksConnector\Ocip\Models\HourMinute|null
      */
     private $startTime = null;
@@ -84,7 +84,7 @@ class UserScheduleModifyEventRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName endTime
      * @Type \CWM\BroadWorksConnector\Ocip\Models\HourMinute
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:3722
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:3808
      * @var \CWM\BroadWorksConnector\Ocip\Models\HourMinute|null
      */
     private $endTime = null;
@@ -93,7 +93,7 @@ class UserScheduleModifyEventRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName endDate
      * @Type string
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:3714
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:3800
      * @var string|null
      */
     private $endDate = null;
@@ -103,7 +103,7 @@ class UserScheduleModifyEventRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @Type \CWM\BroadWorksConnector\Ocip\Models\Recurrence
      * @Nillable
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:3714
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:3800
      * @var \CWM\BroadWorksConnector\Ocip\Models\Recurrence|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $recurrence = null;

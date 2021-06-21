@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Specifies an agent's login state (availability) for a particular Call Center.
  *
- * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:246","type":"sequence"}]
+ * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:251","type":"sequence"}]
  */
 class CallCenterAgentAvailability
 {
@@ -15,7 +15,7 @@ class CallCenterAgentAvailability
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group e2c537e3e39483b96620673a7012ffdd:246
+     * @Group e2c537e3e39483b96620673a7012ffdd:251
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -25,7 +25,7 @@ class CallCenterAgentAvailability
     /**
      * @ElementName available
      * @Type bool
-     * @Group e2c537e3e39483b96620673a7012ffdd:246
+     * @Group e2c537e3e39483b96620673a7012ffdd:251
      * @var bool|null
      */
     private $available = null;

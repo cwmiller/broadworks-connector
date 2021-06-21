@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * A list of Service Provider Communication Barring Hierarchical Call Me Now Rules that replaces a previously configured list. By convention, an element of this type 
  *         may be set nill to clear the list.
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:3828","type":"sequence"}]
+ * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:4509","type":"sequence"}]
  */
 class ServiceProviderReplacementCommunicationBarringHierarchicalCallMeNowRuleList
 {
@@ -17,7 +17,7 @@ class ServiceProviderReplacementCommunicationBarringHierarchicalCallMeNowRuleLis
      * @ElementName rule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCommunicationBarringHierarchicalCallMeNowRule
      * @Array
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3828
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:4509
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCommunicationBarringHierarchicalCallMeNowRule[]
      */
     private $rule = array(

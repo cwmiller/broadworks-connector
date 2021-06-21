@@ -6,7 +6,6 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * EnterpriseCallCenterGetResponse17sp4
  *
  * Response to EnterpriseCallCenterGetRequest17sp4.
- *
  *         The following elements are only used in AS data mode and not returned in XS data mode:
  *           useSystemDefaultUnavailableSettings
  *           forceAgentUnavailableOnDNDActivation
@@ -14,9 +13,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           forceAgentUnavailableOnBouncedCallLimit
  *           numberConsecutiveBouncedCallsToForceAgentUnavailable
  *           forceAgentUnavailableOnNotReachable
+ *         
+ *         Replaced by: EnterpriseCallCenterGetResponse23 in AS data mode
  *
  * @see EnterpriseCallCenterGetRequest17sp4
- * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:1825","type":"sequence"}]
+ * @see EnterpriseCallCenterGetResponse23
+ * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:384","type":"sequence"}]
  */
 class EnterpriseCallCenterGetResponse17sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -24,7 +26,7 @@ class EnterpriseCallCenterGetResponse17sp4 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName useSystemDefaultGuardTimer
      * @Type bool
-     * @Group e2c537e3e39483b96620673a7012ffdd:1825
+     * @Group de4d76f01f337fe4694212ec9f771753:384
      * @var bool|null
      */
     private $useSystemDefaultGuardTimer = null;
@@ -32,7 +34,7 @@ class EnterpriseCallCenterGetResponse17sp4 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName enableGuardTimer
      * @Type bool
-     * @Group e2c537e3e39483b96620673a7012ffdd:1825
+     * @Group de4d76f01f337fe4694212ec9f771753:384
      * @var bool|null
      */
     private $enableGuardTimer = null;
@@ -40,7 +42,7 @@ class EnterpriseCallCenterGetResponse17sp4 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName guardTimerSeconds
      * @Type int
-     * @Group e2c537e3e39483b96620673a7012ffdd:1825
+     * @Group de4d76f01f337fe4694212ec9f771753:384
      * @MinInclusive 1
      * @MaxInclusive 25
      * @var int|null
@@ -51,7 +53,7 @@ class EnterpriseCallCenterGetResponse17sp4 extends \CWM\BroadWorksConnector\Ocip
      * @ElementName useSystemDefaultUnavailableSettings
      * @Type bool
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:1825
+     * @Group de4d76f01f337fe4694212ec9f771753:384
      * @var bool|null
      */
     private $useSystemDefaultUnavailableSettings = null;
@@ -60,7 +62,7 @@ class EnterpriseCallCenterGetResponse17sp4 extends \CWM\BroadWorksConnector\Ocip
      * @ElementName forceAgentUnavailableOnDNDActivation
      * @Type bool
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:1825
+     * @Group de4d76f01f337fe4694212ec9f771753:384
      * @var bool|null
      */
     private $forceAgentUnavailableOnDNDActivation = null;
@@ -69,7 +71,7 @@ class EnterpriseCallCenterGetResponse17sp4 extends \CWM\BroadWorksConnector\Ocip
      * @ElementName forceAgentUnavailableOnPersonalCalls
      * @Type bool
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:1825
+     * @Group de4d76f01f337fe4694212ec9f771753:384
      * @var bool|null
      */
     private $forceAgentUnavailableOnPersonalCalls = null;
@@ -78,7 +80,7 @@ class EnterpriseCallCenterGetResponse17sp4 extends \CWM\BroadWorksConnector\Ocip
      * @ElementName forceAgentUnavailableOnBouncedCallLimit
      * @Type bool
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:1825
+     * @Group de4d76f01f337fe4694212ec9f771753:384
      * @var bool|null
      */
     private $forceAgentUnavailableOnBouncedCallLimit = null;
@@ -87,7 +89,7 @@ class EnterpriseCallCenterGetResponse17sp4 extends \CWM\BroadWorksConnector\Ocip
      * @ElementName numberConsecutiveBouncedCallsToForceAgentUnavailable
      * @Type int
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:1825
+     * @Group de4d76f01f337fe4694212ec9f771753:384
      * @MinInclusive 1
      * @MaxInclusive 5
      * @var int|null
@@ -98,7 +100,7 @@ class EnterpriseCallCenterGetResponse17sp4 extends \CWM\BroadWorksConnector\Ocip
      * @ElementName forceAgentUnavailableOnNotReachable
      * @Type bool
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:1825
+     * @Group de4d76f01f337fe4694212ec9f771753:384
      * @var bool|null
      */
     private $forceAgentUnavailableOnNotReachable = null;

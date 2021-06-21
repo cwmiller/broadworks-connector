@@ -6,11 +6,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupAccessDeviceDeleteRequest
  *
  * Request to delete a specified group access device.
+ *
+ *         The following elements are only used in AS data mode and ignored in XS data mode:
+ *           deviceExternalId
+ *
  *         The response is either SuccessResponse or ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:440","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:509","type":"sequence","children":[{"id":"f3a93cf15de4abd7903673e44ee3e07b:510","type":"choice","children":[{"id":"f3a93cf15de4abd7903673e44ee3e07b:511","type":"sequence"}]}]}]
  */
 class GroupAccessDeviceDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +22,7 @@ class GroupAccessDeviceDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:440
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:511
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +32,7 @@ class GroupAccessDeviceDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:440
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:511
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -38,12 +42,21 @@ class GroupAccessDeviceDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName deviceName
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:440
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:511
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
      */
     private $deviceName = null;
+
+    /**
+     * @ElementName deviceExternalId
+     * @Type string
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:510
+     * @MaxLength 36
+     * @var string|null
+     */
+    private $deviceExternalId = null;
 
     /**
      * Getter for serviceProviderId
@@ -135,6 +148,37 @@ class GroupAccessDeviceDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Model
     public function unsetDeviceName()
     {
         $this->deviceName = null;
+        return $this;
+    }
+
+    /**
+     * Getter for deviceExternalId
+     *
+     * @return string
+     */
+    public function getDeviceExternalId()
+    {
+        return $this->deviceExternalId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->deviceExternalId;
+    }
+
+    /**
+     * Setter for deviceExternalId
+     *
+     * @param string $deviceExternalId
+     * @return $this
+     */
+    public function setDeviceExternalId($deviceExternalId)
+    {
+        $this->deviceExternalId = $deviceExternalId;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDeviceExternalId()
+    {
+        $this->deviceExternalId = null;
         return $this;
     }
 

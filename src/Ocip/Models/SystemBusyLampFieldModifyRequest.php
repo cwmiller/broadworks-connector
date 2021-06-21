@@ -17,10 +17,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *          redundancyTaskDelayMilliseconds
  *          redundancyTaskIntervalMilliseconds
  *          maxNumberOfSubscriptionsPerRedundancyTaskInterval
+ *          
+ *         The following elements are only used in AS data mode and ignored in XS data mode:
+ *          ignoreUnansweredTerminatingCalls
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"4faeca417998d23ce2ff6b0b43212aa6:129","type":"sequence"}]
+ * @Groups [{"id":"4faeca417998d23ce2ff6b0b43212aa6:102","type":"sequence"}]
  */
 class SystemBusyLampFieldModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -29,7 +32,7 @@ class SystemBusyLampFieldModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName displayLocalUserIdentityLastNameFirst
      * @Type bool
      * @Optional
-     * @Group 4faeca417998d23ce2ff6b0b43212aa6:129
+     * @Group 4faeca417998d23ce2ff6b0b43212aa6:102
      * @var bool|null
      */
     private $displayLocalUserIdentityLastNameFirst = null;
@@ -38,7 +41,7 @@ class SystemBusyLampFieldModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName forceUseOfTCP
      * @Type bool
      * @Optional
-     * @Group 4faeca417998d23ce2ff6b0b43212aa6:129
+     * @Group 4faeca417998d23ce2ff6b0b43212aa6:102
      * @var bool|null
      */
     private $forceUseOfTCP = null;
@@ -47,7 +50,7 @@ class SystemBusyLampFieldModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName enableRedundancy
      * @Type bool
      * @Optional
-     * @Group 4faeca417998d23ce2ff6b0b43212aa6:129
+     * @Group 4faeca417998d23ce2ff6b0b43212aa6:102
      * @var bool|null
      */
     private $enableRedundancy = null;
@@ -56,7 +59,7 @@ class SystemBusyLampFieldModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName redundancyTaskDelayMilliseconds
      * @Type int
      * @Optional
-     * @Group 4faeca417998d23ce2ff6b0b43212aa6:129
+     * @Group 4faeca417998d23ce2ff6b0b43212aa6:102
      * @MinInclusive 10000
      * @MaxInclusive 180000
      * @var int|null
@@ -67,7 +70,7 @@ class SystemBusyLampFieldModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName redundancyTaskIntervalMilliseconds
      * @Type int
      * @Optional
-     * @Group 4faeca417998d23ce2ff6b0b43212aa6:129
+     * @Group 4faeca417998d23ce2ff6b0b43212aa6:102
      * @MinInclusive 50
      * @MaxInclusive 20000
      * @var int|null
@@ -78,12 +81,21 @@ class SystemBusyLampFieldModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName maxNumberOfSubscriptionsPerRedundancyTaskInterval
      * @Type int
      * @Optional
-     * @Group 4faeca417998d23ce2ff6b0b43212aa6:129
+     * @Group 4faeca417998d23ce2ff6b0b43212aa6:102
      * @MinInclusive 1
      * @MaxInclusive 50000
      * @var int|null
      */
     private $maxNumberOfSubscriptionsPerRedundancyTaskInterval = null;
+
+    /**
+     * @ElementName ignoreUnansweredTerminatingCalls
+     * @Type bool
+     * @Optional
+     * @Group 4faeca417998d23ce2ff6b0b43212aa6:102
+     * @var bool|null
+     */
+    private $ignoreUnansweredTerminatingCalls = null;
 
     /**
      * Getter for displayLocalUserIdentityLastNameFirst
@@ -268,6 +280,37 @@ class SystemBusyLampFieldModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
     public function unsetMaxNumberOfSubscriptionsPerRedundancyTaskInterval()
     {
         $this->maxNumberOfSubscriptionsPerRedundancyTaskInterval = null;
+        return $this;
+    }
+
+    /**
+     * Getter for ignoreUnansweredTerminatingCalls
+     *
+     * @return bool
+     */
+    public function getIgnoreUnansweredTerminatingCalls()
+    {
+        return $this->ignoreUnansweredTerminatingCalls instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->ignoreUnansweredTerminatingCalls;
+    }
+
+    /**
+     * Setter for ignoreUnansweredTerminatingCalls
+     *
+     * @param bool $ignoreUnansweredTerminatingCalls
+     * @return $this
+     */
+    public function setIgnoreUnansweredTerminatingCalls($ignoreUnansweredTerminatingCalls)
+    {
+        $this->ignoreUnansweredTerminatingCalls = $ignoreUnansweredTerminatingCalls;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetIgnoreUnansweredTerminatingCalls()
+    {
+        $this->ignoreUnansweredTerminatingCalls = null;
         return $this;
     }
 

@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models\C;
  * A message contains a list of requests or responses. The server processes all the requests
  *         and returns a message with a corresponding list of responses.
  *
- * @Groups [{"id":"77f32f6c8e214eb5c1a80dedfce1cb56:28","type":"sequence","children":[{"id":"77f32f6c8e214eb5c1a80dedfce1cb56:29","type":"choice"}]}]
+ * @Groups [{"id":"77f32f6c8e214eb5c1a80dedfce1cb56:37","type":"sequence","children":[{"id":"77f32f6c8e214eb5c1a80dedfce1cb56:38","type":"choice"}]}]
  */
 class OCIMessage
 {
@@ -16,7 +16,7 @@ class OCIMessage
     /**
      * @ElementName sessionId
      * @Type string
-     * @Group 77f32f6c8e214eb5c1a80dedfce1cb56:29
+     * @Group 77f32f6c8e214eb5c1a80dedfce1cb56:38
      * @var string|null
      */
     private $sessionId = null;
@@ -24,7 +24,7 @@ class OCIMessage
     /**
      * @ElementName userId
      * @Type string
-     * @Group 77f32f6c8e214eb5c1a80dedfce1cb56:29
+     * @Group 77f32f6c8e214eb5c1a80dedfce1cb56:38
      * @var string|null
      */
     private $userId = null;
@@ -32,7 +32,7 @@ class OCIMessage
     /**
      * @ElementName phoneNumber
      * @Type string
-     * @Group 77f32f6c8e214eb5c1a80dedfce1cb56:29
+     * @Group 77f32f6c8e214eb5c1a80dedfce1cb56:38
      * @var string|null
      */
     private $phoneNumber = null;
@@ -40,17 +40,35 @@ class OCIMessage
     /**
      * @ElementName linePort
      * @Type string
-     * @Group 77f32f6c8e214eb5c1a80dedfce1cb56:29
+     * @Group 77f32f6c8e214eb5c1a80dedfce1cb56:38
      * @var string|null
      */
     private $linePort = null;
+
+    /**
+     * @ElementName externalUserIdentity
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\ExternalUserIdentity
+     * @Group 77f32f6c8e214eb5c1a80dedfce1cb56:38
+     * @var \CWM\BroadWorksConnector\Ocip\Models\C\ExternalUserIdentity|null
+     */
+    private $externalUserIdentity = null;
+
+    /**
+     * @ElementName trackingId
+     * @Type string
+     * @Optional
+     * @Group 77f32f6c8e214eb5c1a80dedfce1cb56:37
+     * @MinLength 1
+     * @var string|null
+     */
+    private $trackingId = null;
 
     /**
      * @ElementName command
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCICommand
      * @Array
      * @Abstract \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest,\CWM\BroadWorksConnector\Ocip\Models\C\OCIResponse
-     * @Group 77f32f6c8e214eb5c1a80dedfce1cb56:28
+     * @Group 77f32f6c8e214eb5c1a80dedfce1cb56:37
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCICommand[]
      */
     private $command = array(
@@ -222,6 +240,84 @@ class OCIMessage
     public function unsetLinePort()
     {
         $this->linePort = null;
+        return $this;
+    }
+
+    /**
+     * Getter for externalUserIdentity
+     *
+     *
+     *               The external user identity identifies a preauthenticated user/admin performing a session-less OCI request. The source of the request must have a valid CI access token.
+     *             
+     *
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\ExternalUserIdentity
+     */
+    public function getExternalUserIdentity()
+    {
+        return $this->externalUserIdentity instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->externalUserIdentity;
+    }
+
+    /**
+     * Setter for externalUserIdentity
+     *
+     *
+     *               The external user identity identifies a preauthenticated user/admin performing a session-less OCI request. The source of the request must have a valid CI access token.
+     *             
+     *
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\ExternalUserIdentity $externalUserIdentity
+     * @return $this
+     */
+    public function setExternalUserIdentity(\CWM\BroadWorksConnector\Ocip\Models\C\ExternalUserIdentity $externalUserIdentity)
+    {
+        $this->externalUserIdentity = $externalUserIdentity;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetExternalUserIdentity()
+    {
+        $this->externalUserIdentity = null;
+        return $this;
+    }
+
+    /**
+     * Getter for trackingId
+     *
+     *
+     *        The client can send the trackingId attribute in any request and the server will return the trackingId attribute in the response.
+     *        
+     *
+     * @return string
+     */
+    public function getTrackingId()
+    {
+        return $this->trackingId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->trackingId;
+    }
+
+    /**
+     * Setter for trackingId
+     *
+     *
+     *        The client can send the trackingId attribute in any request and the server will return the trackingId attribute in the response.
+     *        
+     *
+     * @param string $trackingId
+     * @return $this
+     */
+    public function setTrackingId($trackingId)
+    {
+        $this->trackingId = $trackingId;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetTrackingId()
+    {
+        $this->trackingId = null;
         return $this;
     }
 

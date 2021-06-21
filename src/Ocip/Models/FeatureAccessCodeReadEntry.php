@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Feature Access Code Entry to be used in all GET commands.
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:2359","type":"sequence"}]
+ * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:2785","type":"sequence"}]
  */
 class FeatureAccessCodeReadEntry
 {
@@ -15,7 +15,7 @@ class FeatureAccessCodeReadEntry
     /**
      * @ElementName featureAccessCodeName
      * @Type string
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:2359
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:2785
      * @MinLength 1
      * @var string|null
      */
@@ -25,7 +25,7 @@ class FeatureAccessCodeReadEntry
      * @ElementName mainCode
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:2359
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:2785
      * @MinLength 1
      * @MaxLength 5
      * @var string|null
@@ -36,7 +36,7 @@ class FeatureAccessCodeReadEntry
      * @ElementName alternateCode
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:2359
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:2785
      * @MinLength 1
      * @MaxLength 5
      * @var string|null
@@ -47,7 +47,7 @@ class FeatureAccessCodeReadEntry
      * @ElementName enableFAC
      * @Type bool
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:2359
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:2785
      * @var bool|null
      */
     private $enableFAC = null;

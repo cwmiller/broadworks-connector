@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see ServiceProviderHPBXAlternateCarrierSelectionGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:3825","type":"sequence"}]
+ * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:4618","type":"sequence"}]
  */
 class ServiceProviderHPBXAlternateCarrierSelectionGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class ServiceProviderHPBXAlternateCarrierSelectionGetRequest extends \CWM\BroadW
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3825
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4618
      * @MinLength 1
      * @MaxLength 30
      * @var string|null

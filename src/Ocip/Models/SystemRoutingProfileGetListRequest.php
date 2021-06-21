@@ -14,7 +14,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemRoutingProfileGetListResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:14399","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:15498","type":"sequence"}]
  */
 class SystemRoutingProfileGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -23,9 +23,9 @@ class SystemRoutingProfileGetListRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName resellerId
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14399
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:15498
      * @MinLength 1
-     * @MaxLength 30
+     * @MaxLength 36
      * @var string|null
      */
     private $resellerId = null;

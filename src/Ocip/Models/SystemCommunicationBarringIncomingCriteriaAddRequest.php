@@ -7,10 +7,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Add a new Communication Barring Incoming Criteria.
  *         The response is either a SuccessResponse or an ErrorResponse.
+ *         
+ *         Replaced by: SystemCommunicationBarringIncomingCriteriaAddRequest22
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:5766","type":"sequence"}]
+ * @see SystemCommunicationBarringIncomingCriteriaAddRequest22
+ * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:7541","type":"sequence"}]
  */
 class SystemCommunicationBarringIncomingCriteriaAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +21,7 @@ class SystemCommunicationBarringIncomingCriteriaAddRequest extends \CWM\BroadWor
     /**
      * @ElementName name
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:5766
+     * @Group de4d76f01f337fe4694212ec9f771753:7541
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -29,7 +32,7 @@ class SystemCommunicationBarringIncomingCriteriaAddRequest extends \CWM\BroadWor
      * @ElementName description
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:5766
+     * @Group de4d76f01f337fe4694212ec9f771753:7541
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -40,7 +43,7 @@ class SystemCommunicationBarringIncomingCriteriaAddRequest extends \CWM\BroadWor
      * @ElementName timeSchedule
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:5766
+     * @Group de4d76f01f337fe4694212ec9f771753:7541
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -51,7 +54,7 @@ class SystemCommunicationBarringIncomingCriteriaAddRequest extends \CWM\BroadWor
      * @ElementName holidaySchedule
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:5766
+     * @Group de4d76f01f337fe4694212ec9f771753:7541
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -63,7 +66,7 @@ class SystemCommunicationBarringIncomingCriteriaAddRequest extends \CWM\BroadWor
      * @Type string
      * @Array
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:5766
+     * @Group de4d76f01f337fe4694212ec9f771753:7541
      * @MinLength 1
      * @MaxLength 40
      * @var string[]

@@ -6,14 +6,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemVoiceMessagingGroupGetVoicePortalMenusRequest19sp1
  *
  * Requests the system voice portal Menus setting.
- *                 The response is either SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1 or ErrorResponse.
- *
- *                 Replaced by SystemVoiceMessagingGroupGetVoicePortalMenusRequest20
+ *         The response is either SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1 or ErrorResponse.
+ *         
+ *         Replaced by SystemVoiceMessagingGroupGetVoicePortalMenusRequest20
  *
  * @see SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1
  * @see ErrorResponse
  * @see SystemVoiceMessagingGroupGetVoicePortalMenusRequest20
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:32026","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:36333","type":"sequence"}]
  */
 class SystemVoiceMessagingGroupGetVoicePortalMenusRequest19sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,7 +21,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusRequest19sp1 extends \CWM\Broa
     /**
      * @ElementName getDefaultMenuKeys
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:32026
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:36333
      * @var bool|null
      */
     private $getDefaultMenuKeys = null;

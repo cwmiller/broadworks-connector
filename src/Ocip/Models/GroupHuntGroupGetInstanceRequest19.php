@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see GroupHuntGroupGetInstanceResponse19
  * @see ErrorResponse
  * @see GroupHuntGroupGetInstanceRequest19sp1
- * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:658","type":"sequence"}]
+ * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:2738","type":"sequence"}]
  */
 class GroupHuntGroupGetInstanceRequest19 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,7 +21,7 @@ class GroupHuntGroupGetInstanceRequest19 extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group de4d76f01f337fe4694212ec9f771753:658
+     * @Group de4d76f01f337fe4694212ec9f771753:2738
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

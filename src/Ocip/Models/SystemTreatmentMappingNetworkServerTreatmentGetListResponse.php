@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The table columns are: "NS Treatment", "Treatment Id".
  *
  * @see SystemTreatmentMappingNetworkServerTreatmentGetListRequest
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:17837","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:18914","type":"sequence"}]
  */
 class SystemTreatmentMappingNetworkServerTreatmentGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class SystemTreatmentMappingNetworkServerTreatmentGetListResponse extends \CWM\B
     /**
      * @ElementName treatmentMappingTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17837
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18914
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $treatmentMappingTable = null;

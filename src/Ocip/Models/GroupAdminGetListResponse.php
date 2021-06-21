@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           "Locale" and "Encoding"
  *
  * @see GroupAdminGetListRequest
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:1114","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:1541","type":"sequence"}]
  */
 class GroupAdminGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -21,7 +21,7 @@ class GroupAdminGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\O
     /**
      * @ElementName groupAdminTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1114
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:1541
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $groupAdminTable = null;

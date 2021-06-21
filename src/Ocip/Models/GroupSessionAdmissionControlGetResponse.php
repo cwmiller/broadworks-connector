@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response contains the session admission control capacity allocated for the group.
  *
  * @see GroupSessionAdmissionControlGetRequest
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:7008","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:8025","type":"sequence"}]
  */
 class GroupSessionAdmissionControlGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class GroupSessionAdmissionControlGetResponse extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName restrictAggregateSessions
      * @Type bool
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:7008
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:8025
      * @var bool|null
      */
     private $restrictAggregateSessions = null;
@@ -26,7 +26,7 @@ class GroupSessionAdmissionControlGetResponse extends \CWM\BroadWorksConnector\O
      * @ElementName maxSessions
      * @Type int
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:7008
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:8025
      * @MinInclusive 0
      * @var int|null
      */
@@ -36,7 +36,7 @@ class GroupSessionAdmissionControlGetResponse extends \CWM\BroadWorksConnector\O
      * @ElementName maxUserOriginatingSessions
      * @Type int
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:7008
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:8025
      * @MinInclusive 0
      * @var int|null
      */
@@ -46,7 +46,7 @@ class GroupSessionAdmissionControlGetResponse extends \CWM\BroadWorksConnector\O
      * @ElementName maxUserTerminatingSessions
      * @Type int
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:7008
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:8025
      * @MinInclusive 0
      * @var int|null
      */
@@ -55,7 +55,7 @@ class GroupSessionAdmissionControlGetResponse extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName countIntraGroupSessions
      * @Type bool
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:7008
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:8025
      * @var bool|null
      */
     private $countIntraGroupSessions = null;

@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Communication Barring Redirecting Rule
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:1426","type":"sequence"}]
+ * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:1514","type":"sequence"}]
  */
 class CommunicationBarringRedirectingRule
 {
@@ -15,7 +15,7 @@ class CommunicationBarringRedirectingRule
     /**
      * @ElementName criteria
      * @Type string
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1426
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:1514
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -25,7 +25,7 @@ class CommunicationBarringRedirectingRule
     /**
      * @ElementName action
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringRedirectingAction
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1426
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:1514
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringRedirectingAction|null
      */
     private $action = null;
@@ -35,7 +35,7 @@ class CommunicationBarringRedirectingRule
      * @Type int
      * @Nillable
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1426
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:1514
      * @MinInclusive 60
      * @MaxInclusive 86400
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil

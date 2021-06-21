@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemMigratedUsersGetListResponse22
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:11214","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:12258","type":"sequence"}]
  */
 class SystemMigratedUsersGetListRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class SystemMigratedUsersGetListRequest22 extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName userListSizeLimit
      * @Type int
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11214
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12258
      * @MinInclusive 1
      * @MaxInclusive 10000
      * @var int|null

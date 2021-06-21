@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupRoutePointBouncedCallGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"a27224a048c30ff69eab9209dec841cc:144","type":"sequence"}]
+ * @Groups [{"id":"a27224a048c30ff69eab9209dec841cc:151","type":"sequence"}]
  */
 class GroupRoutePointBouncedCallGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupRoutePointBouncedCallGetRequest extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group a27224a048c30ff69eab9209dec841cc:144
+     * @Group a27224a048c30ff69eab9209dec841cc:151
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

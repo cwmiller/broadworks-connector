@@ -16,7 +16,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:2075","type":"sequence"}]
+ * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:2576","type":"sequence"}]
  */
 class ServiceProviderCommunicationBarringProfileModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -24,7 +24,7 @@ class ServiceProviderCommunicationBarringProfileModifyRequest extends \CWM\Broad
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2075
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2576
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -34,7 +34,7 @@ class ServiceProviderCommunicationBarringProfileModifyRequest extends \CWM\Broad
     /**
      * @ElementName name
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2075
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2576
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -45,7 +45,7 @@ class ServiceProviderCommunicationBarringProfileModifyRequest extends \CWM\Broad
      * @ElementName newName
      * @Type string
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2075
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2576
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -57,7 +57,7 @@ class ServiceProviderCommunicationBarringProfileModifyRequest extends \CWM\Broad
      * @Type string
      * @Nillable
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2075
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2576
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -68,7 +68,7 @@ class ServiceProviderCommunicationBarringProfileModifyRequest extends \CWM\Broad
      * @ElementName originatingDefaultAction
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringOriginatingAction
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2075
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2576
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringOriginatingAction|null
      */
     private $originatingDefaultAction = null;
@@ -78,7 +78,7 @@ class ServiceProviderCommunicationBarringProfileModifyRequest extends \CWM\Broad
      * @Type string
      * @Nillable
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2075
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2576
      * @MinLength 1
      * @MaxLength 40
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -90,7 +90,7 @@ class ServiceProviderCommunicationBarringProfileModifyRequest extends \CWM\Broad
      * @Type string
      * @Nillable
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2075
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2576
      * @MinLength 1
      * @MaxLength 30
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -102,7 +102,7 @@ class ServiceProviderCommunicationBarringProfileModifyRequest extends \CWM\Broad
      * @Type int
      * @Nillable
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2075
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2576
      * @MinInclusive 60
      * @MaxInclusive 86400
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -114,7 +114,7 @@ class ServiceProviderCommunicationBarringProfileModifyRequest extends \CWM\Broad
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderReplacementCommunicationBarringHierarchicalOriginatingRuleList
      * @Nillable
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2075
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2576
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderReplacementCommunicationBarringHierarchicalOriginatingRuleList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $originatingRule = null;
@@ -123,7 +123,7 @@ class ServiceProviderCommunicationBarringProfileModifyRequest extends \CWM\Broad
      * @ElementName redirectingDefaultAction
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringRedirectingAction
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2075
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2576
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringRedirectingAction|null
      */
     private $redirectingDefaultAction = null;
@@ -133,7 +133,7 @@ class ServiceProviderCommunicationBarringProfileModifyRequest extends \CWM\Broad
      * @Type int
      * @Nillable
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2075
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2576
      * @MinInclusive 60
      * @MaxInclusive 86400
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -145,7 +145,7 @@ class ServiceProviderCommunicationBarringProfileModifyRequest extends \CWM\Broad
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderReplacementCommunicationBarringHierarchicalRedirectingRuleList
      * @Nillable
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2075
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2576
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderReplacementCommunicationBarringHierarchicalRedirectingRuleList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $redirectingRule = null;
@@ -154,7 +154,7 @@ class ServiceProviderCommunicationBarringProfileModifyRequest extends \CWM\Broad
      * @ElementName callMeNowDefaultAction
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringCallMeNowAction
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2075
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2576
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringCallMeNowAction|null
      */
     private $callMeNowDefaultAction = null;
@@ -164,7 +164,7 @@ class ServiceProviderCommunicationBarringProfileModifyRequest extends \CWM\Broad
      * @Type int
      * @Nillable
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2075
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2576
      * @MinInclusive 60
      * @MaxInclusive 86400
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -176,7 +176,7 @@ class ServiceProviderCommunicationBarringProfileModifyRequest extends \CWM\Broad
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderReplacementCommunicationBarringHierarchicalCallMeNowRuleList
      * @Nillable
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2075
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2576
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderReplacementCommunicationBarringHierarchicalCallMeNowRuleList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $callMeNowRule = null;
@@ -185,7 +185,7 @@ class ServiceProviderCommunicationBarringProfileModifyRequest extends \CWM\Broad
      * @ElementName incomingDefaultAction
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringIncomingAction
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2075
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2576
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringIncomingAction|null
      */
     private $incomingDefaultAction = null;
@@ -195,7 +195,7 @@ class ServiceProviderCommunicationBarringProfileModifyRequest extends \CWM\Broad
      * @Type int
      * @Nillable
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2075
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2576
      * @MinInclusive 60
      * @MaxInclusive 86400
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -207,7 +207,7 @@ class ServiceProviderCommunicationBarringProfileModifyRequest extends \CWM\Broad
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringIncomingRuleList19sp1
      * @Nillable
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2075
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2576
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringIncomingRuleList19sp1|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $incomingRule = null;
@@ -216,7 +216,7 @@ class ServiceProviderCommunicationBarringProfileModifyRequest extends \CWM\Broad
      * @ElementName becomeDefault
      * @Type bool
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2075
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2576
      * @var bool|null
      */
     private $becomeDefault = null;
@@ -225,7 +225,7 @@ class ServiceProviderCommunicationBarringProfileModifyRequest extends \CWM\Broad
      * @ElementName applyToAttendedCallTransfers
      * @Type bool
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2075
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2576
      * @var bool|null
      */
     private $applyToAttendedCallTransfers = null;

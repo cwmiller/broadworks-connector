@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see ServiceProviderFeatureAccessCodeGetListResponse
  * @see ErrorResponse
  * @see ServiceProviderFeatureAccessCodeGetListRequest20
- * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:1326","type":"sequence"}]
+ * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:5709","type":"sequence"}]
  */
 class ServiceProviderFeatureAccessCodeGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,7 +21,7 @@ class ServiceProviderFeatureAccessCodeGetListRequest extends \CWM\BroadWorksConn
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group de4d76f01f337fe4694212ec9f771753:1326
+     * @Group de4d76f01f337fe4694212ec9f771753:5709
      * @MinLength 1
      * @MaxLength 30
      * @var string|null

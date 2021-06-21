@@ -7,7 +7,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Device Management System device type options during a modify request.
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:1871","type":"sequence"}]
+ *         The following data elements are only used in AS data mode and ignored in XS data mode:
+ *           enableDeviceActivation
+ *           deviceModel
+ *
+ * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:2063","type":"sequence"}]
  */
 class DeviceManagementDeviceTypeModifyOptions22
 {
@@ -16,7 +20,7 @@ class DeviceManagementDeviceTypeModifyOptions22
      * @ElementName deviceAccessProtocol
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DeviceAccessProtocol22
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1871
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:2063
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceAccessProtocol22|null
      */
     private $deviceAccessProtocol = null;
@@ -25,7 +29,7 @@ class DeviceManagementDeviceTypeModifyOptions22
      * @ElementName tagMode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementTagMode
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1871
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:2063
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementTagMode|null
      */
     private $tagMode = null;
@@ -35,7 +39,7 @@ class DeviceManagementDeviceTypeModifyOptions22
      * @Type string
      * @Nillable
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1871
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:2063
      * @MinLength 1
      * @MaxLength 30
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -46,7 +50,7 @@ class DeviceManagementDeviceTypeModifyOptions22
      * @ElementName allowDeviceProfileCustomTagSet
      * @Type bool
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1871
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:2063
      * @var bool|null
      */
     private $allowDeviceProfileCustomTagSet = null;
@@ -55,7 +59,7 @@ class DeviceManagementDeviceTypeModifyOptions22
      * @ElementName allowGroupCustomTagSet
      * @Type bool
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1871
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:2063
      * @var bool|null
      */
     private $allowGroupCustomTagSet = null;
@@ -64,7 +68,7 @@ class DeviceManagementDeviceTypeModifyOptions22
      * @ElementName allowSpCustomTagSet
      * @Type bool
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1871
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:2063
      * @var bool|null
      */
     private $allowSpCustomTagSet = null;
@@ -73,7 +77,7 @@ class DeviceManagementDeviceTypeModifyOptions22
      * @ElementName sendEmailUponResetFailure
      * @Type bool
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1871
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:2063
      * @var bool|null
      */
     private $sendEmailUponResetFailure = null;
@@ -83,7 +87,7 @@ class DeviceManagementDeviceTypeModifyOptions22
      * @Type string
      * @Nillable
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1871
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:2063
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -95,7 +99,7 @@ class DeviceManagementDeviceTypeModifyOptions22
      * @Type int
      * @Nillable
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1871
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:2063
      * @MinInclusive 1
      * @MaxInclusive 65535
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -107,7 +111,7 @@ class DeviceManagementDeviceTypeModifyOptions22
      * @Type string
      * @Nillable
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1871
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:2063
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -119,7 +123,7 @@ class DeviceManagementDeviceTypeModifyOptions22
      * @Type string
      * @Nillable
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1871
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:2063
      * @MinLength 1
      * @MaxLength 40
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -131,7 +135,7 @@ class DeviceManagementDeviceTypeModifyOptions22
      * @Type string
      * @Nillable
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1871
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:2063
      * @MinLength 1
      * @MaxLength 40
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -143,7 +147,7 @@ class DeviceManagementDeviceTypeModifyOptions22
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementUserNamePassword16
      * @Nillable
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1871
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:2063
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementUserNamePassword16|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $accessDeviceCredentials = null;
@@ -152,7 +156,7 @@ class DeviceManagementDeviceTypeModifyOptions22
      * @ElementName useHttpDigestAuthentication
      * @Type bool
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1871
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:2063
      * @var bool|null
      */
     private $useHttpDigestAuthentication = null;
@@ -161,7 +165,7 @@ class DeviceManagementDeviceTypeModifyOptions22
      * @ElementName macBasedFileAuthentication
      * @Type bool
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1871
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:2063
      * @var bool|null
      */
     private $macBasedFileAuthentication = null;
@@ -170,7 +174,7 @@ class DeviceManagementDeviceTypeModifyOptions22
      * @ElementName userNamePasswordFileAuthentication
      * @Type bool
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1871
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:2063
      * @var bool|null
      */
     private $userNamePasswordFileAuthentication = null;
@@ -179,7 +183,7 @@ class DeviceManagementDeviceTypeModifyOptions22
      * @ElementName macInNonRequestURI
      * @Type bool
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1871
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:2063
      * @var bool|null
      */
     private $macInNonRequestURI = null;
@@ -188,7 +192,7 @@ class DeviceManagementDeviceTypeModifyOptions22
      * @ElementName macInCert
      * @Type bool
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1871
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:2063
      * @var bool|null
      */
     private $macInCert = null;
@@ -198,12 +202,33 @@ class DeviceManagementDeviceTypeModifyOptions22
      * @Type string
      * @Nillable
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1871
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:2063
      * @MinLength 1
      * @MaxLength 256
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $macFormatInNonRequestURI = null;
+
+    /**
+     * @ElementName enableDeviceActivation
+     * @Type bool
+     * @Optional
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:2063
+     * @var bool|null
+     */
+    private $enableDeviceActivation = null;
+
+    /**
+     * @ElementName deviceModel
+     * @Type string
+     * @Nillable
+     * @Optional
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:2063
+     * @MinLength 1
+     * @MaxLength 40
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     */
+    private $deviceModel = null;
 
     /**
      * Getter for deviceAccessProtocol
@@ -823,6 +848,72 @@ class DeviceManagementDeviceTypeModifyOptions22
     public function unsetMacFormatInNonRequestURI()
     {
         $this->macFormatInNonRequestURI = null;
+        return $this;
+    }
+
+    /**
+     * Getter for enableDeviceActivation
+     *
+     * @return bool
+     */
+    public function getEnableDeviceActivation()
+    {
+        return $this->enableDeviceActivation instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableDeviceActivation;
+    }
+
+    /**
+     * Setter for enableDeviceActivation
+     *
+     * @param bool $enableDeviceActivation
+     * @return $this
+     */
+    public function setEnableDeviceActivation($enableDeviceActivation)
+    {
+        $this->enableDeviceActivation = $enableDeviceActivation;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetEnableDeviceActivation()
+    {
+        $this->enableDeviceActivation = null;
+        return $this;
+    }
+
+    /**
+     * Getter for deviceModel
+     *
+     * @return string|null
+     */
+    public function getDeviceModel()
+    {
+        return $this->deviceModel instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->deviceModel;
+    }
+
+    /**
+     * Setter for deviceModel
+     *
+     * @param string|null $deviceModel
+     * @return $this
+     */
+    public function setDeviceModel($deviceModel = null)
+    {
+        if ($deviceModel === null) {
+            $this->deviceModel = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->deviceModel = $deviceModel;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDeviceModel()
+    {
+        $this->deviceModel = null;
         return $this;
     }
 

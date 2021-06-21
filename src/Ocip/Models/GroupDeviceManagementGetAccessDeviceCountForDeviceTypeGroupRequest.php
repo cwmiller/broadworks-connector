@@ -14,7 +14,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupDeviceManagementGetAccessDeviceCountForDeviceTypeGroupResponse
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:3331","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:4186","type":"sequence"}]
  */
 class GroupDeviceManagementGetAccessDeviceCountForDeviceTypeGroupRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -22,7 +22,7 @@ class GroupDeviceManagementGetAccessDeviceCountForDeviceTypeGroupRequest extends
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:3331
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:4186
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -32,7 +32,7 @@ class GroupDeviceManagementGetAccessDeviceCountForDeviceTypeGroupRequest extends
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:3331
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:4186
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -42,7 +42,7 @@ class GroupDeviceManagementGetAccessDeviceCountForDeviceTypeGroupRequest extends
     /**
      * @ElementName deviceType
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:3331
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:4186
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -53,7 +53,7 @@ class GroupDeviceManagementGetAccessDeviceCountForDeviceTypeGroupRequest extends
      * @ElementName countOnlyResetSupportedDevice
      * @Type bool
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:3331
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:4186
      * @var bool|null
      */
     private $countOnlyResetSupportedDevice = null;
@@ -62,7 +62,7 @@ class GroupDeviceManagementGetAccessDeviceCountForDeviceTypeGroupRequest extends
      * @ElementName allowUnmanagedDeviceType
      * @Type bool
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:3331
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:4186
      * @var bool|null
      */
     private $allowUnmanagedDeviceType = null;

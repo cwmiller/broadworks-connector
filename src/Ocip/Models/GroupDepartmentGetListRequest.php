@@ -6,17 +6,17 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupDepartmentGetListRequest
  *
  * Request a list of departments in a group. You may request only the
- *                 list of departments defined at the group-level, or you may request
- *                 the list of all departments in the group including all the departments
- *                 defined within the enterprise the group belongs to.
- *                 The response is either GroupDepartmentGetListResponse or ErrorResponse.
- *
- *                 Replaced by: GroupDepartmentGetListRequest18
+ *         list of departments defined at the group-level, or you may request
+ *         the list of all departments in the group including all the departments
+ *         defined within the enterprise the group belongs to.
+ *         The response is either GroupDepartmentGetListResponse or ErrorResponse.
+ *         
+ *         Replaced by: GroupDepartmentGetListRequest18
  *
  * @see GroupDepartmentGetListResponse
  * @see ErrorResponse
  * @see GroupDepartmentGetListRequest18
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:19421","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:9041","type":"sequence"}]
  */
 class GroupDepartmentGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -24,7 +24,7 @@ class GroupDepartmentGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:19421
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:9041
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -34,7 +34,7 @@ class GroupDepartmentGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName groupId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:19421
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:9041
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -44,7 +44,7 @@ class GroupDepartmentGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName includeEnterpriseDepartments
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:19421
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:9041
      * @var bool|null
      */
     private $includeEnterpriseDepartments = null;

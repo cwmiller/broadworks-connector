@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         headings are: "Net Address", "Port", "Transport", "Poll", "OpState", "Description".
  *
  * @see SystemNetworkRoutingServerGetListRequest
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:11671","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:12750","type":"sequence"}]
  */
 class SystemNetworkRoutingServerGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class SystemNetworkRoutingServerGetListResponse extends \CWM\BroadWorksConnector
     /**
      * @ElementName networkRoutingServerTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11671
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12750
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $networkRoutingServerTable = null;

@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * TrunkAddressingMultipleContactRead21
  *
  * Trunk group endpoint that can have multiple contacts.
- *         alternateTrunkIdentityDomain is only used in XS mode and the AS when deployed in IMS mode.
+ *         alternateTrunkIdentityDomain is only used in XS mode and the AS when deployed in IMS mode. 
  *         The following elements are only used in AS data mode and ignored in XS data mode:
  *           alternateTrunkIdentityDomain
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:4209","type":"sequence"}]
+ * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:4905","type":"sequence"}]
  */
 class TrunkAddressingMultipleContactRead21
 {
@@ -19,7 +19,7 @@ class TrunkAddressingMultipleContactRead21
      * @ElementName trunkGroupDeviceEndpoint
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupDeviceMultipleContactEndpointRead
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4209
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:4905
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupDeviceMultipleContactEndpointRead|null
      */
     private $trunkGroupDeviceEndpoint = null;
@@ -28,7 +28,7 @@ class TrunkAddressingMultipleContactRead21
      * @ElementName enterpriseTrunkName
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4209
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:4905
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -39,7 +39,7 @@ class TrunkAddressingMultipleContactRead21
      * @ElementName alternateTrunkIdentity
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4209
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:4905
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -50,7 +50,7 @@ class TrunkAddressingMultipleContactRead21
      * @ElementName alternateTrunkIdentityDomain
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4209
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:4905
      * @MinLength 1
      * @MaxLength 80
      * @var string|null

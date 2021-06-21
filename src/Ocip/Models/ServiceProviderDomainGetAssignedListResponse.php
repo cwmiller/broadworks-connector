@@ -5,9 +5,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * ServiceProviderDomainGetAssignedListResponse
  *
- * Contains a simple list of all service provider domain names.
+ * Contains a simple list of service provider domain names.
+ *         
+ *         Replaced by ServiceProviderDomainGetAssignedListResponse22
  *
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:3309","type":"sequence"}]
+ * @see ServiceProviderDomainGetAssignedListResponse22
+ * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:5690","type":"sequence"}]
  */
 class ServiceProviderDomainGetAssignedListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -15,7 +18,7 @@ class ServiceProviderDomainGetAssignedListResponse extends \CWM\BroadWorksConnec
     /**
      * @ElementName serviceProviderDefaultDomain
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3309
+     * @Group de4d76f01f337fe4694212ec9f771753:5690
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -27,7 +30,7 @@ class ServiceProviderDomainGetAssignedListResponse extends \CWM\BroadWorksConnec
      * @Type string
      * @Array
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3309
+     * @Group de4d76f01f337fe4694212ec9f771753:5690
      * @MinLength 1
      * @MaxLength 80
      * @var string[]

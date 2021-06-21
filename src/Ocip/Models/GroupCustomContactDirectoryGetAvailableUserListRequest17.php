@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupCustomContactDirectoryGetAvailableUserListResponse17
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:2740","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:3536","type":"sequence"}]
  */
 class GroupCustomContactDirectoryGetAvailableUserListRequest17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupCustomContactDirectoryGetAvailableUserListRequest17 extends \CWM\Broa
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:2740
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:3536
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +28,7 @@ class GroupCustomContactDirectoryGetAvailableUserListRequest17 extends \CWM\Broa
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:2740
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:3536
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -39,7 +39,7 @@ class GroupCustomContactDirectoryGetAvailableUserListRequest17 extends \CWM\Broa
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:2740
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:3536
      * @MinInclusive 1
      * @var int|null
      */
@@ -50,7 +50,7 @@ class GroupCustomContactDirectoryGetAvailableUserListRequest17 extends \CWM\Broa
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName
      * @Array
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:2740
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:3536
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[]
      */
     private $searchCriteriaUserLastName = array(
@@ -62,7 +62,7 @@ class GroupCustomContactDirectoryGetAvailableUserListRequest17 extends \CWM\Broa
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName
      * @Array
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:2740
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:3536
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName[]
      */
     private $searchCriteriaUserFirstName = array(
@@ -73,7 +73,7 @@ class GroupCustomContactDirectoryGetAvailableUserListRequest17 extends \CWM\Broa
      * @ElementName searchCriteriaExactUserDepartment
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:2740
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:3536
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment|null
      */
     private $searchCriteriaExactUserDepartment = null;
@@ -82,7 +82,7 @@ class GroupCustomContactDirectoryGetAvailableUserListRequest17 extends \CWM\Broa
      * @ElementName searchCriteriaExactUserGroup
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserGroup
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:2740
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:3536
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserGroup|null
      */
     private $searchCriteriaExactUserGroup = null;
@@ -92,7 +92,7 @@ class GroupCustomContactDirectoryGetAvailableUserListRequest17 extends \CWM\Broa
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId
      * @Array
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:2740
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:3536
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId[]
      */
     private $searchCriteriaUserId = array(
@@ -104,7 +104,7 @@ class GroupCustomContactDirectoryGetAvailableUserListRequest17 extends \CWM\Broa
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn
      * @Array
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:2740
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:3536
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[]
      */
     private $searchCriteriaDn = array(
@@ -116,7 +116,7 @@ class GroupCustomContactDirectoryGetAvailableUserListRequest17 extends \CWM\Broa
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension
      * @Array
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:2740
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:3536
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension[]
      */
     private $searchCriteriaExtension = array(

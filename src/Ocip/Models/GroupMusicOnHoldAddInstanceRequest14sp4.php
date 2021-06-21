@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupMusicOnHoldAddInstanceRequest14sp4
  *
  * Add a Music On Hold Instance to a department.
- *                 The response is either SuccessResponse or ErrorResponse.
+ *         The response is either SuccessResponse or ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:1686","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:11183","type":"sequence"}]
  */
 class GroupMusicOnHoldAddInstanceRequest14sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupMusicOnHoldAddInstanceRequest14sp4 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:1686
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:11183
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +28,7 @@ class GroupMusicOnHoldAddInstanceRequest14sp4 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName groupId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:1686
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:11183
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -39,7 +39,7 @@ class GroupMusicOnHoldAddInstanceRequest14sp4 extends \CWM\BroadWorksConnector\O
      * @ElementName department
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey
      * @Abstract \CWM\BroadWorksConnector\Ocip\Models\EnterpriseDepartmentKey,\CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentKey
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:1686
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:11183
      * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null
      */
     private $department = null;
@@ -47,7 +47,7 @@ class GroupMusicOnHoldAddInstanceRequest14sp4 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName isActiveDuringCallHold
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:1686
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:11183
      * @var bool|null
      */
     private $isActiveDuringCallHold = null;
@@ -55,7 +55,7 @@ class GroupMusicOnHoldAddInstanceRequest14sp4 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName isActiveDuringCallPark
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:1686
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:11183
      * @var bool|null
      */
     private $isActiveDuringCallPark = null;
@@ -63,7 +63,7 @@ class GroupMusicOnHoldAddInstanceRequest14sp4 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName isActiveDuringBusyCampOn
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:1686
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:11183
      * @var bool|null
      */
     private $isActiveDuringBusyCampOn = null;
@@ -71,7 +71,7 @@ class GroupMusicOnHoldAddInstanceRequest14sp4 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName messageSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldMessageSelection
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:1686
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:11183
      * @var \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldMessageSelection|null
      */
     private $messageSelection = null;
@@ -80,7 +80,7 @@ class GroupMusicOnHoldAddInstanceRequest14sp4 extends \CWM\BroadWorksConnector\O
      * @ElementName accessDeviceEndpoint
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointAdd
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:1686
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:11183
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointAdd|null
      */
     private $accessDeviceEndpoint = null;
@@ -89,7 +89,7 @@ class GroupMusicOnHoldAddInstanceRequest14sp4 extends \CWM\BroadWorksConnector\O
      * @ElementName audioFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:1686
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:11183
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource|null
      */
     private $audioFile = null;
@@ -98,7 +98,7 @@ class GroupMusicOnHoldAddInstanceRequest14sp4 extends \CWM\BroadWorksConnector\O
      * @ElementName videoFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:1686
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:11183
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource|null
      */
     private $videoFile = null;

@@ -7,12 +7,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Get the list of Office Zones that contain a specific
  *         Zone.
- *         The response is either a SystemOfficeZoneGetZoneUsageListResponse
- *         or an ErrorResponse.
+ *         The response is either a SystemOfficeZoneGetZoneUsageListResponse or an ErrorResponse.
  *
  * @see SystemOfficeZoneGetZoneUsageListResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:12908","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:13998","type":"sequence"}]
  */
 class SystemOfficeZoneGetZoneUsageListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +19,7 @@ class SystemOfficeZoneGetZoneUsageListRequest extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName zoneName
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12908
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:13998
      * @MinLength 1
      * @MaxLength 80
      * @var string|null

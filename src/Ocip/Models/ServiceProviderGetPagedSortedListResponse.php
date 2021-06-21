@@ -6,11 +6,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ServiceProviderGetPagedSortedListResponse
  *
  * Response to ServiceProviderGetPagedSortedListRequest.
- *         Contains a 3 column table with column headings 'Service Provider Id', 'Service Provider Name'
- *         and 'Is Enterprise' and a row for each service provider or enterprise.
+ *         Contains a table with column headings "Service Provider Id", "Service Provider Name"
+ *         and "Is Enterprise", "Reseller Id" and "Service Provider External Id" and a row for each service provider or enterprise.
+ *         
+ *         The following columns are only populated in AS data mode:
+ *           "Reseller Id",
+ *           "Service Provider External Id
  *
  * @see ServiceProviderGetPagedSortedListRequest
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:3747","type":"sequence"}]
+ * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:4531","type":"sequence"}]
  */
 class ServiceProviderGetPagedSortedListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +22,7 @@ class ServiceProviderGetPagedSortedListResponse extends \CWM\BroadWorksConnector
     /**
      * @ElementName serviceProviderTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3747
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4531
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $serviceProviderTable = null;

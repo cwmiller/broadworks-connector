@@ -6,14 +6,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ServiceProviderServicePackMigrationTaskGetRequest
  *
  * Requests the details of a specified service pack migration task.
- *                 The response is either ServiceProviderServicePackMigrationTaskGetResponse
- *                 or ErrorResponse.
- *                 Replaced By: ServiceProviderServicePackMigrationTaskGetRequest14sp4
+ *         The response is either ServiceProviderServicePackMigrationTaskGetResponse
+ *         or ErrorResponse.
+ *         Replaced By: ServiceProviderServicePackMigrationTaskGetRequest14sp4
  *
  * @see ServiceProviderServicePackMigrationTaskGetResponse
  * @see ErrorResponse
  * @see ServiceProviderServicePackMigrationTaskGetRequest14sp4
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:3816","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:19112","type":"sequence"}]
  */
 class ServiceProviderServicePackMigrationTaskGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,7 +21,7 @@ class ServiceProviderServicePackMigrationTaskGetRequest extends \CWM\BroadWorksC
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:3816
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:19112
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -31,7 +31,7 @@ class ServiceProviderServicePackMigrationTaskGetRequest extends \CWM\BroadWorksC
     /**
      * @ElementName taskName
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:3816
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:19112
      * @MinLength 1
      * @MaxLength 80
      * @var string|null

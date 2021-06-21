@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:16333","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:17311","type":"sequence"}]
  */
 class SystemSIPDeviceTypeLanguageMappingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemSIPDeviceTypeLanguageMappingModifyRequest extends \CWM\BroadWorksCon
     /**
      * @ElementName deviceType
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16333
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17311
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -30,7 +30,7 @@ class SystemSIPDeviceTypeLanguageMappingModifyRequest extends \CWM\BroadWorksCon
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementLanguageMapping
      * @Array
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16333
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17311
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementLanguageMapping[]
      */
     private $languageMapping = array(

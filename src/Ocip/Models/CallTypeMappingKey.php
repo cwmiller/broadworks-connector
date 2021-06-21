@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * The call type mapping Key.
  *
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:18497","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:19889","type":"sequence"}]
  */
 class CallTypeMappingKey
 {
@@ -15,7 +15,7 @@ class CallTypeMappingKey
     /**
      * @ElementName countryCode
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18497
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:19889
      * @MaxLength 3
      * @Pattern [0-9]|[1-9][0-9]{1,2}
      * @var string|null
@@ -25,7 +25,7 @@ class CallTypeMappingKey
     /**
      * @ElementName digitMap
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18497
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:19889
      * @MinLength 1
      * @MaxLength 30
      * @var string|null

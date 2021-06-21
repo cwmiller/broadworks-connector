@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupCallCenterAgentThresholdProfileGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:2430","type":"sequence"}]
+ * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:2445","type":"sequence"}]
  */
 class GroupCallCenterAgentThresholdProfileGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupCallCenterAgentThresholdProfileGetRequest extends \CWM\BroadWorksConn
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group e2c537e3e39483b96620673a7012ffdd:2430
+     * @Group e2c537e3e39483b96620673a7012ffdd:2445
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +28,7 @@ class GroupCallCenterAgentThresholdProfileGetRequest extends \CWM\BroadWorksConn
     /**
      * @ElementName groupId
      * @Type string
-     * @Group e2c537e3e39483b96620673a7012ffdd:2430
+     * @Group e2c537e3e39483b96620673a7012ffdd:2445
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -38,7 +38,7 @@ class GroupCallCenterAgentThresholdProfileGetRequest extends \CWM\BroadWorksConn
     /**
      * @ElementName profileName
      * @Type string
-     * @Group e2c537e3e39483b96620673a7012ffdd:2430
+     * @Group e2c537e3e39483b96620673a7012ffdd:2445
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

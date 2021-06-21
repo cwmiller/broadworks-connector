@@ -7,10 +7,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Get a reseller administrators profile.
  *         The response is either a ResellerAdminGetResponse or an ErrorResponse.
+ *         Replaced by ResellerAdminGetRequest22
  *
  * @see ResellerAdminGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"b009175f2a2a9d38115e319a6ad64d7f:149","type":"sequence"}]
+ * @see ResellerAdminGetRequest22
+ * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:4427","type":"sequence"}]
  */
 class ResellerAdminGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +20,7 @@ class ResellerAdminGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
     /**
      * @ElementName userId
      * @Type string
-     * @Group b009175f2a2a9d38115e319a6ad64d7f:149
+     * @Group de4d76f01f337fe4694212ec9f771753:4427
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

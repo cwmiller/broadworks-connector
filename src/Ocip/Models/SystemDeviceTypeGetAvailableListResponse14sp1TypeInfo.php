@@ -5,7 +5,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemDeviceTypeGetAvailableListResponse14sp1TypeInfo
  *
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:5010","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:25890","type":"sequence"}]
  */
 class SystemDeviceTypeGetAvailableListResponse14sp1TypeInfo
 {
@@ -13,7 +13,7 @@ class SystemDeviceTypeGetAvailableListResponse14sp1TypeInfo
     /**
      * @ElementName profile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SignalingAddressType
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:5010
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:25890
      * @var \CWM\BroadWorksConnector\Ocip\Models\SignalingAddressType|null
      */
     private $profile = null;
@@ -21,7 +21,7 @@ class SystemDeviceTypeGetAvailableListResponse14sp1TypeInfo
     /**
      * @ElementName staticRegistrationCapable
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:5010
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:25890
      * @var bool|null
      */
     private $staticRegistrationCapable = null;
@@ -30,7 +30,7 @@ class SystemDeviceTypeGetAvailableListResponse14sp1TypeInfo
      * @ElementName configType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationType14
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:5010
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:25890
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationType14|null
      */
     private $configType = null;
@@ -39,7 +39,7 @@ class SystemDeviceTypeGetAvailableListResponse14sp1TypeInfo
      * @ElementName protocolChoice
      * @Type string
      * @Array
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:5010
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:25890
      * @MinLength 1
      * @MaxLength 20
      * @var string[]
@@ -51,7 +51,7 @@ class SystemDeviceTypeGetAvailableListResponse14sp1TypeInfo
     /**
      * @ElementName isIpAddressOptional
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:5010
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:25890
      * @var bool|null
      */
     private $isIpAddressOptional = null;
@@ -59,7 +59,7 @@ class SystemDeviceTypeGetAvailableListResponse14sp1TypeInfo
     /**
      * @ElementName useDomain
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:5010
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:25890
      * @var bool|null
      */
     private $useDomain = null;

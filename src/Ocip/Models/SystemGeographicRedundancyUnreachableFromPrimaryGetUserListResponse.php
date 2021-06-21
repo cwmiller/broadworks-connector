@@ -5,15 +5,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemGeographicRedundancyUnreachableFromPrimaryGetUserListResponse
  *
- * Response to SystemGeographicRedundancyUnreachableFromPrimaryGetUserListRequest. The Unreachable From
- *                 Primary User table column
- *                 headings are: "User ID", "Lineport".
- *
- *                 Replaced by: SystemGeographicRedundancyUnreachableFromPrimaryGetUserListResponse22 in AS data mode
+ * Response to SystemGeographicRedundancyUnreachableFromPrimaryGetUserListRequest. The Unreachable From Primary User table column
+ *         headings are: "User ID", "Lineport".
+ *         
+ *         Replaced by: SystemGeographicRedundancyUnreachableFromPrimaryGetUserListResponse22 in AS data mode
  *
  * @see SystemGeographicRedundancyUnreachableFromPrimaryGetUserListRequest
  * @see SystemGeographicRedundancyUnreachableFromPrimaryGetUserListResponse22
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:38749","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:27020","type":"sequence"}]
  */
 class SystemGeographicRedundancyUnreachableFromPrimaryGetUserListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -21,7 +20,7 @@ class SystemGeographicRedundancyUnreachableFromPrimaryGetUserListResponse extend
     /**
      * @ElementName unreachableFromPrimaryUserTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:38749
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:27020
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $unreachableFromPrimaryUserTable = null;

@@ -8,10 +8,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Add a Group Paging instance to a group.
  *         The domain is required in the serviceUserId.
  *         The response is either SuccessResponse or ErrorResponse.
+ *         
+ *         The following element is only used in AS data mode and ignored in XS data mode:
+ *            networkClassOfService
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"0d36df8c109e3ea7324f79031368c661:62","type":"sequence"}]
+ * @Groups [{"id":"0d36df8c109e3ea7324f79031368c661:67","type":"sequence"}]
  */
 class GroupGroupPagingAddInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +22,7 @@ class GroupGroupPagingAddInstanceRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 0d36df8c109e3ea7324f79031368c661:62
+     * @Group 0d36df8c109e3ea7324f79031368c661:67
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -29,7 +32,7 @@ class GroupGroupPagingAddInstanceRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 0d36df8c109e3ea7324f79031368c661:62
+     * @Group 0d36df8c109e3ea7324f79031368c661:67
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -39,7 +42,7 @@ class GroupGroupPagingAddInstanceRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group 0d36df8c109e3ea7324f79031368c661:62
+     * @Group 0d36df8c109e3ea7324f79031368c661:67
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -49,7 +52,7 @@ class GroupGroupPagingAddInstanceRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName serviceInstanceProfile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceAddProfile
-     * @Group 0d36df8c109e3ea7324f79031368c661:62
+     * @Group 0d36df8c109e3ea7324f79031368c661:67
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceAddProfile|null
      */
     private $serviceInstanceProfile = null;
@@ -57,7 +60,7 @@ class GroupGroupPagingAddInstanceRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName confirmationToneTimeoutSeconds
      * @Type int
-     * @Group 0d36df8c109e3ea7324f79031368c661:62
+     * @Group 0d36df8c109e3ea7324f79031368c661:67
      * @MinInclusive 1
      * @MaxInclusive 20
      * @var int|null
@@ -67,7 +70,7 @@ class GroupGroupPagingAddInstanceRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName deliverOriginatorCLIDInstead
      * @Type bool
-     * @Group 0d36df8c109e3ea7324f79031368c661:62
+     * @Group 0d36df8c109e3ea7324f79031368c661:67
      * @var bool|null
      */
     private $deliverOriginatorCLIDInstead = null;
@@ -76,7 +79,7 @@ class GroupGroupPagingAddInstanceRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName originatorCLIDPrefix
      * @Type string
      * @Optional
-     * @Group 0d36df8c109e3ea7324f79031368c661:62
+     * @Group 0d36df8c109e3ea7324f79031368c661:67
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -87,7 +90,7 @@ class GroupGroupPagingAddInstanceRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName networkClassOfService
      * @Type string
      * @Optional
-     * @Group 0d36df8c109e3ea7324f79031368c661:62
+     * @Group 0d36df8c109e3ea7324f79031368c661:67
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

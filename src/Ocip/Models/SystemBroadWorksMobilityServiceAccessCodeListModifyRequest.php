@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f7ae3539fd471e995b07dc1bf8836e2d:1166","type":"sequence"}]
+ * @Groups [{"id":"f7ae3539fd471e995b07dc1bf8836e2d:1410","type":"sequence"}]
  */
 class SystemBroadWorksMobilityServiceAccessCodeListModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemBroadWorksMobilityServiceAccessCodeListModifyRequest extends \CWM\Br
     /**
      * @ElementName name
      * @Type string
-     * @Group f7ae3539fd471e995b07dc1bf8836e2d:1166
+     * @Group f7ae3539fd471e995b07dc1bf8836e2d:1410
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -29,7 +29,7 @@ class SystemBroadWorksMobilityServiceAccessCodeListModifyRequest extends \CWM\Br
      * @ElementName newName
      * @Type string
      * @Optional
-     * @Group f7ae3539fd471e995b07dc1bf8836e2d:1166
+     * @Group f7ae3539fd471e995b07dc1bf8836e2d:1410
      * @MinLength 1
      * @MaxLength 80
      * @var string|null

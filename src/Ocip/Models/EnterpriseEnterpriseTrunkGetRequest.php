@@ -6,13 +6,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * EnterpriseEnterpriseTrunkGetRequest
  *
  * Request to get an enterprise trunk
- *                 The response is either an EnterpriseEnterpriseTrunkGetResponse or an ErrorResponse.
- *                 Replaced by: EnterpriseEnterpriseTrunkGetRequest21
+ *         The response is either an EnterpriseEnterpriseTrunkGetResponse or an ErrorResponse.
+ *         Replaced by: EnterpriseEnterpriseTrunkGetRequest21
  *
  * @see EnterpriseEnterpriseTrunkGetResponse
  * @see ErrorResponse
  * @see EnterpriseEnterpriseTrunkGetRequest21
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:33096","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:2279","type":"sequence"}]
  */
 class EnterpriseEnterpriseTrunkGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class EnterpriseEnterpriseTrunkGetRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:33096
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:2279
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -30,7 +30,7 @@ class EnterpriseEnterpriseTrunkGetRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName enterpriseTrunkName
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:33096
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:2279
      * @MinLength 1
      * @MaxLength 30
      * @var string|null

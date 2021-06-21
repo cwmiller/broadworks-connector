@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:857","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:1017","type":"sequence"}]
  */
 class SystemAccessDeviceFileModifyRequest14sp8 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemAccessDeviceFileModifyRequest14sp8 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName deviceName
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:857
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1017
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -28,7 +28,7 @@ class SystemAccessDeviceFileModifyRequest14sp8 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName fileFormat
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:857
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1017
      * @MinLength 1
      * @MaxLength 128
      * @var string|null
@@ -39,7 +39,7 @@ class SystemAccessDeviceFileModifyRequest14sp8 extends \CWM\BroadWorksConnector\
      * @ElementName fileSource
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationMode
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:857
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1017
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationMode|null
      */
     private $fileSource = null;
@@ -48,7 +48,7 @@ class SystemAccessDeviceFileModifyRequest14sp8 extends \CWM\BroadWorksConnector\
      * @ElementName uploadFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\FileResource
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:857
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1017
      * @var \CWM\BroadWorksConnector\Ocip\Models\FileResource|null
      */
     private $uploadFile = null;
@@ -57,7 +57,7 @@ class SystemAccessDeviceFileModifyRequest14sp8 extends \CWM\BroadWorksConnector\
      * @ElementName extendedCaptureEnabled
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:857
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1017
      * @var bool|null
      */
     private $extendedCaptureEnabled = null;

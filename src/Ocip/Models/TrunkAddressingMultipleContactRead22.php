@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * TrunkAddressingMultipleContactRead22
  *
  * Trunk group endpoint that can have multiple contacts.
- *         alternateTrunkIdentityDomain is only used in XS mode and the AS when deployed in IMS mode.
+ *         alternateTrunkIdentityDomain is only used in XS mode and the AS when deployed in IMS mode. 
  *         The following elements are only used in AS data mode and are ignored in XS data mode:
  *           physicalLocation
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:4244","type":"sequence"}]
+ * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:4940","type":"sequence"}]
  */
 class TrunkAddressingMultipleContactRead22
 {
@@ -19,7 +19,7 @@ class TrunkAddressingMultipleContactRead22
      * @ElementName trunkGroupDeviceEndpoint
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupDeviceMultipleContactEndpointRead22
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4244
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:4940
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupDeviceMultipleContactEndpointRead22|null
      */
     private $trunkGroupDeviceEndpoint = null;
@@ -28,7 +28,7 @@ class TrunkAddressingMultipleContactRead22
      * @ElementName enterpriseTrunkName
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4244
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:4940
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -39,7 +39,7 @@ class TrunkAddressingMultipleContactRead22
      * @ElementName alternateTrunkIdentity
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4244
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:4940
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -50,7 +50,7 @@ class TrunkAddressingMultipleContactRead22
      * @ElementName alternateTrunkIdentityDomain
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4244
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:4940
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -61,7 +61,7 @@ class TrunkAddressingMultipleContactRead22
      * @ElementName physicalLocation
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4244
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:4940
      * @MinLength 1
      * @MaxLength 1024
      * @var string|null

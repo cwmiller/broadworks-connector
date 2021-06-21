@@ -6,15 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupCallProcessingGetPolicyRequest22V2
  *
  * Request the group level data associated with Call Processing Policy.
- *         The response is either a GroupCallProcessingGetPolicyResponse22V2 or an
- *         ErrorResponse.
- *
+ *         The response is either a GroupCallProcessingGetPolicyResponse22V2 or an ErrorResponse.
  *         The useGroupCLIDSetting attribute controls the CLID settings 
  *         (clidPolicy,enterpriseCallsCLIDPolicy, groupCallsCLIDPolicy, emergencyClidPolicy, allowAlternateNumbersForRedirectingIdentity, useGroupName, allowDepartmentCLIDNameOverride)
- *
  *         The useGroupMediaSetting attribute controls the Media settings 
  *         (medisPolicySelection, supportedMediaSetName)
- *
  *         The useGroupCallLimitsSetting attribute controls the Call Limits settings 
  *         (useMaxSimultaneousCalls, maxSimultaneousCalls, 
  *         useMaxSimultaneousVideoCalls, maxSimultaneousVideoCalls, useMaxCallTimeForAnsweredCalls, 
@@ -22,16 +18,17 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         useMaxConcurrentRedirectedCalls, useMaxFindMeFollowMeDepth, maxRedirectionDepth, 
  *         useMaxConcurrentFindMeFollowMeInvocations, maxConcurrentFindMeFollowMeInvocations, 
  *         useMaxConcurrentTerminatingAlertingRequests, maxConcurrentTerminatingAlertingRequests)
- *
  *         The useGroupTranslationRoutingSetting attribute controls the routing and translation settings 
  *         (networkUsageSelection, enforceGroupCallingLineIdentityRestriction, 
  *         allowEnterpriseGroupCallTypingForPrivateDialingPlan, allowEnterpriseGroupCallTypingForPublicDialingPlan, overrideCLIDRestrictionForExternalCallsViaPrivateDialingPlan, enableEnterpriseExtensionDialing)
+ *         Replaced by: GroupCallProcessingGetPolicyRequest22V3 in AS data mode.
  *
  * @see GroupCallProcessingGetPolicyResponse22V2
  * @see ErrorResponse
  * @see useMaxConcurrentTerminatingAlertingRequests
  * @see maxConcurrentTerminatingAlertingRequests
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:2043","type":"sequence"}]
+ * @see GroupCallProcessingGetPolicyRequest22V3
+ * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:1848","type":"sequence"}]
  */
 class GroupCallProcessingGetPolicyRequest22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -39,7 +36,7 @@ class GroupCallProcessingGetPolicyRequest22V2 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:2043
+     * @Group de4d76f01f337fe4694212ec9f771753:1848
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -49,7 +46,7 @@ class GroupCallProcessingGetPolicyRequest22V2 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:2043
+     * @Group de4d76f01f337fe4694212ec9f771753:1848
      * @MinLength 1
      * @MaxLength 30
      * @var string|null

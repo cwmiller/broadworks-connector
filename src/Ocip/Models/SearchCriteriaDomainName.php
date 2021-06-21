@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Criteria for searching for Domain Names.
  *
- * @Groups [{"id":"f0ada2681ca347fa83b464734259b304:535","type":"sequence"}]
+ * @Groups [{"id":"f0ada2681ca347fa83b464734259b304:594","type":"sequence"}]
  */
 class SearchCriteriaDomainName extends SearchCriteria
 {
@@ -15,7 +15,7 @@ class SearchCriteriaDomainName extends SearchCriteria
     /**
      * @ElementName mode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchMode
-     * @Group f0ada2681ca347fa83b464734259b304:535
+     * @Group f0ada2681ca347fa83b464734259b304:594
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchMode|null
      */
     private $mode = null;
@@ -23,7 +23,7 @@ class SearchCriteriaDomainName extends SearchCriteria
     /**
      * @ElementName value
      * @Type string
-     * @Group f0ada2681ca347fa83b464734259b304:535
+     * @Group f0ada2681ca347fa83b464734259b304:594
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -33,7 +33,7 @@ class SearchCriteriaDomainName extends SearchCriteria
     /**
      * @ElementName isCaseInsensitive
      * @Type bool
-     * @Group f0ada2681ca347fa83b464734259b304:535
+     * @Group f0ada2681ca347fa83b464734259b304:594
      * @var bool|null
      */
     private $isCaseInsensitive = null;

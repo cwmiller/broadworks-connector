@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemSecurityClassificationGetResponse
  *
  * Response to the SystemSecurityClassificationGetRequest.
- *                 Contains a table with column headings:
- *                 "Name", "Priority".
+ *         Contains a table with column headings:
+ *         "Name", "Priority".
  *
  * @see SystemSecurityClassificationGetRequest
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:34732","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:29066","type":"sequence"}]
  */
 class SystemSecurityClassificationGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class SystemSecurityClassificationGetResponse extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName meetMeAnncThreshold
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:34732
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:29066
      * @MinInclusive 1
      * @MaxInclusive 30
      * @var int|null
@@ -28,7 +28,7 @@ class SystemSecurityClassificationGetResponse extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName SecurityClassificationTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:34732
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:29066
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $SecurityClassificationTable = null;

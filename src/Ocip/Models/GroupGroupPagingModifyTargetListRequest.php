@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"0d36df8c109e3ea7324f79031368c661:449","type":"sequence"}]
+ * @Groups [{"id":"0d36df8c109e3ea7324f79031368c661:461","type":"sequence"}]
  */
 class GroupGroupPagingModifyTargetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupGroupPagingModifyTargetListRequest extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group 0d36df8c109e3ea7324f79031368c661:449
+     * @Group 0d36df8c109e3ea7324f79031368c661:461
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -30,7 +30,7 @@ class GroupGroupPagingModifyTargetListRequest extends \CWM\BroadWorksConnector\O
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList
      * @Nillable
      * @Optional
-     * @Group 0d36df8c109e3ea7324f79031368c661:449
+     * @Group 0d36df8c109e3ea7324f79031368c661:461
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $targetUserIdList = null;

@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Criteria for searching for device type.
  *
- * @Groups [{"id":"f0ada2681ca347fa83b464734259b304:484","type":"sequence"}]
+ * @Groups [{"id":"f0ada2681ca347fa83b464734259b304:543","type":"sequence"}]
  */
 class SearchCriteriaDeviceType extends SearchCriteria
 {
@@ -15,7 +15,7 @@ class SearchCriteriaDeviceType extends SearchCriteria
     /**
      * @ElementName mode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchMode
-     * @Group f0ada2681ca347fa83b464734259b304:484
+     * @Group f0ada2681ca347fa83b464734259b304:543
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchMode|null
      */
     private $mode = null;
@@ -23,7 +23,7 @@ class SearchCriteriaDeviceType extends SearchCriteria
     /**
      * @ElementName value
      * @Type string
-     * @Group f0ada2681ca347fa83b464734259b304:484
+     * @Group f0ada2681ca347fa83b464734259b304:543
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -33,7 +33,7 @@ class SearchCriteriaDeviceType extends SearchCriteria
     /**
      * @ElementName isCaseInsensitive
      * @Type bool
-     * @Group f0ada2681ca347fa83b464734259b304:484
+     * @Group f0ada2681ca347fa83b464734259b304:543
      * @var bool|null
      */
     private $isCaseInsensitive = null;

@@ -18,7 +18,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:6106","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:7124","type":"sequence"}]
  */
 class GroupPortalPasscodeRulesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -26,7 +26,7 @@ class GroupPortalPasscodeRulesModifyRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6106
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:7124
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -36,7 +36,7 @@ class GroupPortalPasscodeRulesModifyRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6106
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:7124
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -47,7 +47,7 @@ class GroupPortalPasscodeRulesModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName useRuleLevel
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupPasscodeRulesLevel
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6106
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:7124
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupPasscodeRulesLevel|null
      */
     private $useRuleLevel = null;
@@ -56,7 +56,7 @@ class GroupPortalPasscodeRulesModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName disallowRepeatedDigits
      * @Type bool
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6106
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:7124
      * @var bool|null
      */
     private $disallowRepeatedDigits = null;
@@ -65,7 +65,7 @@ class GroupPortalPasscodeRulesModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName numberOfRepeatedDigits
      * @Type int
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6106
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:7124
      * @MinInclusive 1
      * @MaxInclusive 6
      * @var int|null
@@ -76,7 +76,7 @@ class GroupPortalPasscodeRulesModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName disallowRepeatedPatterns
      * @Type bool
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6106
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:7124
      * @var bool|null
      */
     private $disallowRepeatedPatterns = null;
@@ -85,7 +85,7 @@ class GroupPortalPasscodeRulesModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName disallowContiguousSequences
      * @Type bool
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6106
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:7124
      * @var bool|null
      */
     private $disallowContiguousSequences = null;
@@ -94,7 +94,7 @@ class GroupPortalPasscodeRulesModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName numberOfAscendingDigits
      * @Type int
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6106
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:7124
      * @MinInclusive 2
      * @MaxInclusive 5
      * @var int|null
@@ -105,7 +105,7 @@ class GroupPortalPasscodeRulesModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName numberOfDescendingDigits
      * @Type int
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6106
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:7124
      * @MinInclusive 2
      * @MaxInclusive 5
      * @var int|null
@@ -116,7 +116,7 @@ class GroupPortalPasscodeRulesModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName disallowUserNumber
      * @Type bool
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6106
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:7124
      * @var bool|null
      */
     private $disallowUserNumber = null;
@@ -125,7 +125,7 @@ class GroupPortalPasscodeRulesModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName disallowReversedUserNumber
      * @Type bool
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6106
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:7124
      * @var bool|null
      */
     private $disallowReversedUserNumber = null;
@@ -134,7 +134,7 @@ class GroupPortalPasscodeRulesModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName disallowOldPasscode
      * @Type bool
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6106
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:7124
      * @var bool|null
      */
     private $disallowOldPasscode = null;
@@ -143,7 +143,7 @@ class GroupPortalPasscodeRulesModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName numberOfPreviousPasscodes
      * @Type int
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6106
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:7124
      * @MinInclusive 1
      * @MaxInclusive 10
      * @var int|null
@@ -154,7 +154,7 @@ class GroupPortalPasscodeRulesModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName disallowReversedOldPasscode
      * @Type bool
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6106
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:7124
      * @var bool|null
      */
     private $disallowReversedOldPasscode = null;
@@ -163,7 +163,7 @@ class GroupPortalPasscodeRulesModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName minCodeLength
      * @Type int
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6106
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:7124
      * @MinInclusive 2
      * @MaxInclusive 15
      * @var int|null
@@ -174,7 +174,7 @@ class GroupPortalPasscodeRulesModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName maxCodeLength
      * @Type int
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6106
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:7124
      * @MinInclusive 3
      * @MaxInclusive 30
      * @var int|null
@@ -185,7 +185,7 @@ class GroupPortalPasscodeRulesModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName disableLoginAfterMaxFailedLoginAttempts
      * @Type bool
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6106
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:7124
      * @var bool|null
      */
     private $disableLoginAfterMaxFailedLoginAttempts = null;
@@ -194,7 +194,7 @@ class GroupPortalPasscodeRulesModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName maxFailedLoginAttempts
      * @Type int
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6106
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:7124
      * @MinInclusive 2
      * @MaxInclusive 10
      * @var int|null
@@ -205,7 +205,7 @@ class GroupPortalPasscodeRulesModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName expirePassword
      * @Type bool
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6106
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:7124
      * @var bool|null
      */
     private $expirePassword = null;
@@ -214,7 +214,7 @@ class GroupPortalPasscodeRulesModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName passcodeExpiresDays
      * @Type int
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6106
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:7124
      * @MinInclusive 15
      * @MaxInclusive 180
      * @var int|null
@@ -225,7 +225,7 @@ class GroupPortalPasscodeRulesModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName sendLoginDisabledNotifyEmail
      * @Type bool
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6106
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:7124
      * @var bool|null
      */
     private $sendLoginDisabledNotifyEmail = null;
@@ -235,7 +235,7 @@ class GroupPortalPasscodeRulesModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @Type string
      * @Nillable
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6106
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:7124
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil

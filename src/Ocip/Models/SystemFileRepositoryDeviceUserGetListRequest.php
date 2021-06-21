@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemFileRepositoryDeviceUserGetListResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:9447","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:10421","type":"sequence"}]
  */
 class SystemFileRepositoryDeviceUserGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemFileRepositoryDeviceUserGetListRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName fileRepositoryName
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9447
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10421
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

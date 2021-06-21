@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserTerminatingAlternateTrunkIdentityGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:3976","type":"sequence"}]
+ * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:4062","type":"sequence"}]
  */
 class UserTerminatingAlternateTrunkIdentityGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class UserTerminatingAlternateTrunkIdentityGetRequest extends \CWM\BroadWorksCon
     /**
      * @ElementName userId
      * @Type string
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:3976
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:4062
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

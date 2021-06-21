@@ -6,14 +6,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupMusicOnHoldGetInstanceRequest16
  *
  * Get a Music On Hold data for a group or department instance.
- *                 The response is either GroupMusicOnHoldGetInstanceResponse16 or ErrorResponse.
- *
- *                 Replaced by: GroupMusicOnHoldGetInstanceRequest19.
+ *         The response is either GroupMusicOnHoldGetInstanceResponse16 or ErrorResponse.
+ *     
+ *       Replaced by: GroupMusicOnHoldGetInstanceRequest19.
  *
  * @see GroupMusicOnHoldGetInstanceResponse16
  * @see ErrorResponse
  * @see GroupMusicOnHoldGetInstanceRequest19
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:25318","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:11316","type":"sequence"}]
  */
 class GroupMusicOnHoldGetInstanceRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,7 +21,7 @@ class GroupMusicOnHoldGetInstanceRequest16 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:25318
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:11316
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -31,7 +31,7 @@ class GroupMusicOnHoldGetInstanceRequest16 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName groupId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:25318
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:11316
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -43,7 +43,7 @@ class GroupMusicOnHoldGetInstanceRequest16 extends \CWM\BroadWorksConnector\Ocip
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey
      * @Abstract \CWM\BroadWorksConnector\Ocip\Models\EnterpriseDepartmentKey,\CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentKey
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:25318
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:11316
      * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null
      */
     private $department = null;

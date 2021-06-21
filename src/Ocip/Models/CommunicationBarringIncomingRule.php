@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Communication Barring Incoming Rule
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:1364","type":"sequence"}]
+ * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:1452","type":"sequence"}]
  */
 class CommunicationBarringIncomingRule
 {
@@ -15,7 +15,7 @@ class CommunicationBarringIncomingRule
     /**
      * @ElementName digitPatternCriteria
      * @Type string
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1364
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:1452
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -25,7 +25,7 @@ class CommunicationBarringIncomingRule
     /**
      * @ElementName action
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringIncomingAction
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1364
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:1452
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringIncomingAction|null
      */
     private $action = null;
@@ -34,7 +34,7 @@ class CommunicationBarringIncomingRule
      * @ElementName callTimeoutSeconds
      * @Type int
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1364
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:1452
      * @MinInclusive 60
      * @MaxInclusive 86400
      * @var int|null
@@ -45,7 +45,7 @@ class CommunicationBarringIncomingRule
      * @ElementName timeSchedule
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1364
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:1452
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -56,7 +56,7 @@ class CommunicationBarringIncomingRule
      * @ElementName holidaySchedule
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1364
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:1452
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -66,7 +66,7 @@ class CommunicationBarringIncomingRule
     /**
      * @ElementName priority
      * @Type float
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1364
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:1452
      * @MinInclusive 0.0
      * @MaxInclusive 1000000.0
      * @var float|null

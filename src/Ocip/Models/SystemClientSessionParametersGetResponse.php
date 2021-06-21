@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains a list of system Client Session (web and CLI) parameters.
  *
  * @see SystemClientSessionParametersGetRequest
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:5101","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:5442","type":"sequence"}]
  */
 class SystemClientSessionParametersGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class SystemClientSessionParametersGetResponse extends \CWM\BroadWorksConnector\
     /**
      * @ElementName enableInactivityTimeout
      * @Type bool
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:5101
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:5442
      * @var bool|null
      */
     private $enableInactivityTimeout = null;
@@ -25,7 +25,7 @@ class SystemClientSessionParametersGetResponse extends \CWM\BroadWorksConnector\
     /**
      * @ElementName inactivityTimeoutMinutes
      * @Type int
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:5101
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:5442
      * @MinInclusive 10
      * @MaxInclusive 360
      * @var int|null

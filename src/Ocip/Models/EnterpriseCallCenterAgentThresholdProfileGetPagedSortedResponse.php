@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "Phone Number", "Extension", "Department", "Email Address";
  *
  * @see EnterpriseCallCenterAgentThresholdProfileGetPagedSortedRequest
- * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:619","type":"sequence"}]
+ * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:630","type":"sequence"}]
  */
 class EnterpriseCallCenterAgentThresholdProfileGetPagedSortedResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -20,7 +20,7 @@ class EnterpriseCallCenterAgentThresholdProfileGetPagedSortedResponse extends \C
      * @ElementName profileDescription
      * @Type string
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:619
+     * @Group e2c537e3e39483b96620673a7012ffdd:630
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -31,7 +31,7 @@ class EnterpriseCallCenterAgentThresholdProfileGetPagedSortedResponse extends \C
      * @ElementName thresholdCurrentCallStateIdleTimeYellow
      * @Type int
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:619
+     * @Group e2c537e3e39483b96620673a7012ffdd:630
      * @MinInclusive 1
      * @MaxInclusive 86400
      * @var int|null
@@ -42,7 +42,7 @@ class EnterpriseCallCenterAgentThresholdProfileGetPagedSortedResponse extends \C
      * @ElementName thresholdCurrentCallStateIdleTimeRed
      * @Type int
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:619
+     * @Group e2c537e3e39483b96620673a7012ffdd:630
      * @MinInclusive 1
      * @MaxInclusive 86400
      * @var int|null
@@ -53,7 +53,7 @@ class EnterpriseCallCenterAgentThresholdProfileGetPagedSortedResponse extends \C
      * @ElementName thresholdCurrentCallStateOnCallTimeYellow
      * @Type int
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:619
+     * @Group e2c537e3e39483b96620673a7012ffdd:630
      * @MinInclusive 1
      * @MaxInclusive 86400
      * @var int|null
@@ -64,7 +64,7 @@ class EnterpriseCallCenterAgentThresholdProfileGetPagedSortedResponse extends \C
      * @ElementName thresholdCurrentCallStateOnCallTimeRed
      * @Type int
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:619
+     * @Group e2c537e3e39483b96620673a7012ffdd:630
      * @MinInclusive 1
      * @MaxInclusive 86400
      * @var int|null
@@ -75,7 +75,7 @@ class EnterpriseCallCenterAgentThresholdProfileGetPagedSortedResponse extends \C
      * @ElementName thresholdCurrentAgentStateUnavailableTimeYellow
      * @Type int
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:619
+     * @Group e2c537e3e39483b96620673a7012ffdd:630
      * @MinInclusive 1
      * @MaxInclusive 86400
      * @var int|null
@@ -86,7 +86,7 @@ class EnterpriseCallCenterAgentThresholdProfileGetPagedSortedResponse extends \C
      * @ElementName thresholdCurrentAgentStateUnavailableTimeRed
      * @Type int
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:619
+     * @Group e2c537e3e39483b96620673a7012ffdd:630
      * @MinInclusive 1
      * @MaxInclusive 86400
      * @var int|null
@@ -97,7 +97,7 @@ class EnterpriseCallCenterAgentThresholdProfileGetPagedSortedResponse extends \C
      * @ElementName thresholdAverageBusyInTimeYellow
      * @Type int
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:619
+     * @Group e2c537e3e39483b96620673a7012ffdd:630
      * @MinInclusive 1
      * @MaxInclusive 86400
      * @var int|null
@@ -108,7 +108,7 @@ class EnterpriseCallCenterAgentThresholdProfileGetPagedSortedResponse extends \C
      * @ElementName thresholdAverageBusyInTimeRed
      * @Type int
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:619
+     * @Group e2c537e3e39483b96620673a7012ffdd:630
      * @MinInclusive 1
      * @MaxInclusive 86400
      * @var int|null
@@ -119,7 +119,7 @@ class EnterpriseCallCenterAgentThresholdProfileGetPagedSortedResponse extends \C
      * @ElementName thresholdAverageBusyOutTimeYellow
      * @Type int
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:619
+     * @Group e2c537e3e39483b96620673a7012ffdd:630
      * @MinInclusive 1
      * @MaxInclusive 86400
      * @var int|null
@@ -130,7 +130,7 @@ class EnterpriseCallCenterAgentThresholdProfileGetPagedSortedResponse extends \C
      * @ElementName thresholdAverageBusyOutTimeRed
      * @Type int
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:619
+     * @Group e2c537e3e39483b96620673a7012ffdd:630
      * @MinInclusive 1
      * @MaxInclusive 86400
      * @var int|null
@@ -141,7 +141,7 @@ class EnterpriseCallCenterAgentThresholdProfileGetPagedSortedResponse extends \C
      * @ElementName thresholdAverageWrapUpTimeYellow
      * @Type int
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:619
+     * @Group e2c537e3e39483b96620673a7012ffdd:630
      * @MinInclusive 1
      * @MaxInclusive 86400
      * @var int|null
@@ -152,7 +152,7 @@ class EnterpriseCallCenterAgentThresholdProfileGetPagedSortedResponse extends \C
      * @ElementName thresholdAverageWrapUpTimeRed
      * @Type int
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:619
+     * @Group e2c537e3e39483b96620673a7012ffdd:630
      * @MinInclusive 1
      * @MaxInclusive 86400
      * @var int|null
@@ -162,7 +162,7 @@ class EnterpriseCallCenterAgentThresholdProfileGetPagedSortedResponse extends \C
     /**
      * @ElementName enableNotificationEmail
      * @Type bool
-     * @Group e2c537e3e39483b96620673a7012ffdd:619
+     * @Group e2c537e3e39483b96620673a7012ffdd:630
      * @var bool|null
      */
     private $enableNotificationEmail = null;
@@ -172,7 +172,7 @@ class EnterpriseCallCenterAgentThresholdProfileGetPagedSortedResponse extends \C
      * @Type string
      * @Array
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:619
+     * @Group e2c537e3e39483b96620673a7012ffdd:630
      * @MinLength 1
      * @MaxLength 80
      * @var string[]
@@ -184,7 +184,7 @@ class EnterpriseCallCenterAgentThresholdProfileGetPagedSortedResponse extends \C
     /**
      * @ElementName agentTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group e2c537e3e39483b96620673a7012ffdd:619
+     * @Group e2c537e3e39483b96620673a7012ffdd:630
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $agentTable = null;

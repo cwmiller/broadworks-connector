@@ -6,15 +6,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ServiceProviderAdminGetPolicyResponse17sp3
  *
  * Response to ServiceProviderAdminGetPolicyRequest17sp3.
- *                 Contains the policy settings for the service provider administrator.
- *                 The networkPolicyAccess is returned only for the enterprise administrator.
- *                 The following elements are only used in AS data mode:
- *                 dialableCallerIDAccess
- *                 The following elements are only used in XS data mode:
- *                 communicationBarringAccess
+ *         Contains the policy settings for the service provider administrator.
+ *         The networkPolicyAccess is returned only for the enterprise administrator.
+ *         The following elements are only used in AS data mode:
+ *             dialableCallerIDAccess
+ *         The following elements are only used in XS data mode:
+ *             communicationBarringAccess
  *
  * @see ServiceProviderAdminGetPolicyRequest17sp3
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:20709","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:17206","type":"sequence"}]
  */
 class ServiceProviderAdminGetPolicyResponse17sp3 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -22,7 +22,7 @@ class ServiceProviderAdminGetPolicyResponse17sp3 extends \CWM\BroadWorksConnecto
     /**
      * @ElementName profileAccess
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminProfileAccess
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:20709
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:17206
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminProfileAccess|null
      */
     private $profileAccess = null;
@@ -30,7 +30,7 @@ class ServiceProviderAdminGetPolicyResponse17sp3 extends \CWM\BroadWorksConnecto
     /**
      * @ElementName groupAccess
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminGroupAccess
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:20709
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:17206
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminGroupAccess|null
      */
     private $groupAccess = null;
@@ -38,7 +38,7 @@ class ServiceProviderAdminGetPolicyResponse17sp3 extends \CWM\BroadWorksConnecto
     /**
      * @ElementName userAccess
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminUserAccess
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:20709
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:17206
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminUserAccess|null
      */
     private $userAccess = null;
@@ -46,7 +46,7 @@ class ServiceProviderAdminGetPolicyResponse17sp3 extends \CWM\BroadWorksConnecto
     /**
      * @ElementName adminAccess
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminAdminAccess
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:20709
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:17206
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminAdminAccess|null
      */
     private $adminAccess = null;
@@ -54,7 +54,7 @@ class ServiceProviderAdminGetPolicyResponse17sp3 extends \CWM\BroadWorksConnecto
     /**
      * @ElementName departmentAccess
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminDepartmentAccess
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:20709
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:17206
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminDepartmentAccess|null
      */
     private $departmentAccess = null;
@@ -62,7 +62,7 @@ class ServiceProviderAdminGetPolicyResponse17sp3 extends \CWM\BroadWorksConnecto
     /**
      * @ElementName accessDeviceAccess
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminAccessDeviceAccess
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:20709
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:17206
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminAccessDeviceAccess|null
      */
     private $accessDeviceAccess = null;
@@ -70,7 +70,7 @@ class ServiceProviderAdminGetPolicyResponse17sp3 extends \CWM\BroadWorksConnecto
     /**
      * @ElementName phoneNumberExtensionAccess
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminPhoneNumberExtensionAccess
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:20709
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:17206
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminPhoneNumberExtensionAccess|null
      */
     private $phoneNumberExtensionAccess = null;
@@ -78,7 +78,7 @@ class ServiceProviderAdminGetPolicyResponse17sp3 extends \CWM\BroadWorksConnecto
     /**
      * @ElementName callingLineIdNumberAccess
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminCallingLineIdNumberAccess
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:20709
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:17206
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminCallingLineIdNumberAccess|null
      */
     private $callingLineIdNumberAccess = null;
@@ -86,7 +86,7 @@ class ServiceProviderAdminGetPolicyResponse17sp3 extends \CWM\BroadWorksConnecto
     /**
      * @ElementName serviceAccess
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminServiceAccess
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:20709
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:17206
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminServiceAccess|null
      */
     private $serviceAccess = null;
@@ -94,7 +94,7 @@ class ServiceProviderAdminGetPolicyResponse17sp3 extends \CWM\BroadWorksConnecto
     /**
      * @ElementName servicePackAccess
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminServicePackAccess
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:20709
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:17206
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminServicePackAccess|null
      */
     private $servicePackAccess = null;
@@ -102,7 +102,7 @@ class ServiceProviderAdminGetPolicyResponse17sp3 extends \CWM\BroadWorksConnecto
     /**
      * @ElementName sessionAdmissionControlAccess
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminSessionAdmissionControlAccess
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:20709
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:17206
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminSessionAdmissionControlAccess|null
      */
     private $sessionAdmissionControlAccess = null;
@@ -110,7 +110,7 @@ class ServiceProviderAdminGetPolicyResponse17sp3 extends \CWM\BroadWorksConnecto
     /**
      * @ElementName webBrandingAccess
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminWebBrandingAccess
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:20709
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:17206
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminWebBrandingAccess|null
      */
     private $webBrandingAccess = null;
@@ -118,7 +118,7 @@ class ServiceProviderAdminGetPolicyResponse17sp3 extends \CWM\BroadWorksConnecto
     /**
      * @ElementName officeZoneAccess
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminOfficeZoneAccess
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:20709
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:17206
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminOfficeZoneAccess|null
      */
     private $officeZoneAccess = null;
@@ -126,7 +126,7 @@ class ServiceProviderAdminGetPolicyResponse17sp3 extends \CWM\BroadWorksConnecto
     /**
      * @ElementName communicationBarringAccess
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminCommunicationBarringAccess
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:20709
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:17206
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminCommunicationBarringAccess|null
      */
     private $communicationBarringAccess = null;
@@ -135,7 +135,7 @@ class ServiceProviderAdminGetPolicyResponse17sp3 extends \CWM\BroadWorksConnecto
      * @ElementName networkPolicyAccess
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EnterpriseAdminNetworkPolicyAccess
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:20709
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:17206
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseAdminNetworkPolicyAccess|null
      */
     private $networkPolicyAccess = null;
@@ -143,7 +143,7 @@ class ServiceProviderAdminGetPolicyResponse17sp3 extends \CWM\BroadWorksConnecto
     /**
      * @ElementName dialableCallerIDAccess
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminDialableCallerIDAccess
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:20709
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:17206
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminDialableCallerIDAccess|null
      */
     private $dialableCallerIDAccess = null;

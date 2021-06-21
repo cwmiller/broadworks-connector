@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SystemPolicyGetDefaultResponse18
  * @see ErrorResponse
  * @see SystemPolicyGetDefaultRequest20
- * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:1636","type":"sequence"}]
+ * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:8906","type":"sequence"}]
  */
 class SystemPolicyGetDefaultRequest18 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

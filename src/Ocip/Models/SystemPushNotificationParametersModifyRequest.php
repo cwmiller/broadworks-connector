@@ -14,7 +14,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:13777","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:14876","type":"sequence"}]
  */
 class SystemPushNotificationParametersModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -23,7 +23,7 @@ class SystemPushNotificationParametersModifyRequest extends \CWM\BroadWorksConne
      * @ElementName enforceAllowedApplicationList
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:13777
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14876
      * @var bool|null
      */
     private $enforceAllowedApplicationList = null;
@@ -32,7 +32,7 @@ class SystemPushNotificationParametersModifyRequest extends \CWM\BroadWorksConne
      * @ElementName maximumRegistrationsPerUser
      * @Type int
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:13777
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14876
      * @MinInclusive 1
      * @MaxInclusive 100
      * @var int|null
@@ -43,7 +43,7 @@ class SystemPushNotificationParametersModifyRequest extends \CWM\BroadWorksConne
      * @ElementName maximumRegistrationAgeDays
      * @Type int
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:13777
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14876
      * @MinInclusive 30
      * @MaxInclusive 120
      * @var int|null
@@ -54,7 +54,7 @@ class SystemPushNotificationParametersModifyRequest extends \CWM\BroadWorksConne
      * @ElementName newCallTimeout
      * @Type int
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:13777
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14876
      * @MinInclusive 30
      * @MaxInclusive 600
      * @var int|null
@@ -65,7 +65,7 @@ class SystemPushNotificationParametersModifyRequest extends \CWM\BroadWorksConne
      * @ElementName subscriptionEventsPerSecond
      * @Type int
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:13777
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14876
      * @MinInclusive 1
      * @MaxInclusive 5000
      * @var int|null

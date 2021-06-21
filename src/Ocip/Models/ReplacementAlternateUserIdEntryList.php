@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * A list of alternate user ids that that replaces a previously configured list.
  *         By convention, an element of this type may be set nill to clear the list.
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:3088","type":"sequence"}]
+ * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:3703","type":"sequence"}]
  */
 class ReplacementAlternateUserIdEntryList
 {
@@ -17,7 +17,7 @@ class ReplacementAlternateUserIdEntryList
      * @ElementName alternateUserId
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AlternateUserIdEntry
      * @Array
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3088
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:3703
      * @var \CWM\BroadWorksConnector\Ocip\Models\AlternateUserIdEntry[]
      */
     private $alternateUserId = array(

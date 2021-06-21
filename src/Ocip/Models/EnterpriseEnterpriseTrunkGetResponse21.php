@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to EnterpriseEnterpriseTrunkGetRequest21.
  *
  * @see EnterpriseEnterpriseTrunkGetRequest21
- * @Groups [{"id":"b9c14e2d80e4e7749688ca13ba233b44:329","type":"sequence","children":[{"id":"b9c14e2d80e4e7749688ca13ba233b44:333","type":"choice"}]}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:2350","type":"sequence","children":[{"id":"ab0042aa512abc10edb3c55e4b416b0b:2354","type":"choice"}]}]
  */
 class EnterpriseEnterpriseTrunkGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class EnterpriseEnterpriseTrunkGetResponse21 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName maximumRerouteAttempts
      * @Type int
-     * @Group b9c14e2d80e4e7749688ca13ba233b44:329
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:2350
      * @MinInclusive 1
      * @MaxInclusive 10
      * @var int|null
@@ -26,7 +26,7 @@ class EnterpriseEnterpriseTrunkGetResponse21 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName routeExhaustionAction
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EnterpriseTrunkRouteExhaustionAction
-     * @Group b9c14e2d80e4e7749688ca13ba233b44:329
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:2350
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseTrunkRouteExhaustionAction|null
      */
     private $routeExhaustionAction = null;
@@ -35,7 +35,7 @@ class EnterpriseEnterpriseTrunkGetResponse21 extends \CWM\BroadWorksConnector\Oc
      * @ElementName routeExhaustionForwardAddress
      * @Type string
      * @Optional
-     * @Group b9c14e2d80e4e7749688ca13ba233b44:329
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:2350
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -45,7 +45,7 @@ class EnterpriseEnterpriseTrunkGetResponse21 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName orderedRouting
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EnterpriseEnterpriseTrunkGetResponse21OrderedRouting
-     * @Group b9c14e2d80e4e7749688ca13ba233b44:333
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:2354
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseEnterpriseTrunkGetResponse21OrderedRouting|null
      */
     private $orderedRouting = null;
@@ -53,7 +53,7 @@ class EnterpriseEnterpriseTrunkGetResponse21 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName priorityWeightedRouting
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EnterpriseEnterpriseTrunkGetResponse21PriorityWeightedRouting
-     * @Group b9c14e2d80e4e7749688ca13ba233b44:333
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:2354
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseEnterpriseTrunkGetResponse21PriorityWeightedRouting|null
      */
     private $priorityWeightedRouting = null;
@@ -61,7 +61,7 @@ class EnterpriseEnterpriseTrunkGetResponse21 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName enableCapacityManagement
      * @Type bool
-     * @Group b9c14e2d80e4e7749688ca13ba233b44:329
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:2350
      * @var bool|null
      */
     private $enableCapacityManagement = null;
@@ -70,7 +70,7 @@ class EnterpriseEnterpriseTrunkGetResponse21 extends \CWM\BroadWorksConnector\Oc
      * @ElementName maxActiveCalls
      * @Type int
      * @Optional
-     * @Group b9c14e2d80e4e7749688ca13ba233b44:329
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:2350
      * @MinInclusive 1
      * @var int|null
      */
@@ -80,7 +80,7 @@ class EnterpriseEnterpriseTrunkGetResponse21 extends \CWM\BroadWorksConnector\Oc
      * @ElementName capacityExceededTrapInitialCalls
      * @Type int
      * @Optional
-     * @Group b9c14e2d80e4e7749688ca13ba233b44:329
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:2350
      * @MinInclusive 0
      * @var int|null
      */
@@ -90,7 +90,7 @@ class EnterpriseEnterpriseTrunkGetResponse21 extends \CWM\BroadWorksConnector\Oc
      * @ElementName capacityExceededTrapOffsetCalls
      * @Type int
      * @Optional
-     * @Group b9c14e2d80e4e7749688ca13ba233b44:329
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:2350
      * @MinInclusive 0
      * @var int|null
      */

@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains a list of available DNIS for agent to select.
  *
  * @see UserCallCenterGetAvailableDNISListRequest
- * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:7024","type":"sequence"}]
+ * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:7049","type":"sequence"}]
  */
 class UserCallCenterGetAvailableDNISListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,7 +19,7 @@ class UserCallCenterGetAvailableDNISListResponse extends \CWM\BroadWorksConnecto
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DNISKey
      * @Array
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:7024
+     * @Group e2c537e3e39483b96620673a7012ffdd:7049
      * @var \CWM\BroadWorksConnector\Ocip\Models\DNISKey[]
      */
     private $availableDNIS = array(

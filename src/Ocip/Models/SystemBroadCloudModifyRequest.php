@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:2126","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:2542","type":"sequence"}]
  */
 class SystemBroadCloudModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class SystemBroadCloudModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2126
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2542
      * @MinLength 1
      * @MaxLength 256
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -32,7 +32,7 @@ class SystemBroadCloudModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2126
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2542
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -44,7 +44,7 @@ class SystemBroadCloudModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2126
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2542
      * @MinLength 1
      * @MaxLength 20
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -55,7 +55,7 @@ class SystemBroadCloudModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName enableSynchronization
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2126
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2542
      * @var bool|null
      */
     private $enableSynchronization = null;

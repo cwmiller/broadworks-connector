@@ -5,17 +5,16 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemCallProcessingPolicyProfileVoicePortalProfileGetRequest
  *
- * Request to get the configuration for a call processing policy profile Voice Portal subscriber type
- *                 profile.
- *                 The response is either a SystemCallProcessingPolicyProfileVoicePortalProfileGetResponse or an
- *                 ErrorResponse.
- *
- *                 Replaced by: SystemCallProcessingPolicyProfileVoicePortalProfileGetRequest22
+ * Request to get the configuration for a call processing policy profile Voice Portal subscriber type profile.
+ *         The response is either a SystemCallProcessingPolicyProfileVoicePortalProfileGetResponse or an
+ *         ErrorResponse.
+ *         
+ *         Replaced by: SystemCallProcessingPolicyProfileVoicePortalProfileGetRequest22
  *
  * @see SystemCallProcessingPolicyProfileVoicePortalProfileGetResponse
  * @see ErrorResponse
  * @see SystemCallProcessingPolicyProfileVoicePortalProfileGetRequest22
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:38491","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:24184","type":"sequence"}]
  */
 class SystemCallProcessingPolicyProfileVoicePortalProfileGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -23,7 +22,7 @@ class SystemCallProcessingPolicyProfileVoicePortalProfileGetRequest extends \CWM
     /**
      * @ElementName callProcessingPolicyProfileName
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:38491
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:24184
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

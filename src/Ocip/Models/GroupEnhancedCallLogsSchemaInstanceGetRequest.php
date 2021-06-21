@@ -5,13 +5,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * GroupEnhancedCallLogsSchemaInstanceGetRequest
  *
- * Get the enhanced call log database schema instance associated with a group of
- *         a service provider.
- *         The response is either a GroupEnhancedCallLogsSchemaInstanceGetResponse or an ErrorResponse.
+ * Get the enhanced call log database schema instance associated with a group of  
+ *       a service provider.
+ *       The response is either a GroupEnhancedCallLogsSchemaInstanceGetResponse or an ErrorResponse.
  *
  * @see GroupEnhancedCallLogsSchemaInstanceGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"f6b3702edb5f67fa12c2c426d98657db:46","type":"sequence"}]
+ * @Groups [{"id":"f6b3702edb5f67fa12c2c426d98657db:53","type":"sequence"}]
  */
 class GroupEnhancedCallLogsSchemaInstanceGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class GroupEnhancedCallLogsSchemaInstanceGetRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f6b3702edb5f67fa12c2c426d98657db:46
+     * @Group f6b3702edb5f67fa12c2c426d98657db:53
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -29,7 +29,7 @@ class GroupEnhancedCallLogsSchemaInstanceGetRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f6b3702edb5f67fa12c2c426d98657db:46
+     * @Group f6b3702edb5f67fa12c2c426d98657db:53
      * @MinLength 1
      * @MaxLength 30
      * @var string|null

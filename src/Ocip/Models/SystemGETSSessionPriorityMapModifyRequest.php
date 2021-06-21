@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:10157","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:11198","type":"sequence"}]
  */
 class SystemGETSSessionPriorityMapModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemGETSSessionPriorityMapModifyRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName priorityLevel
      * @Type int
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10157
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11198
      * @MinInclusive 1
      * @MaxInclusive 5
      * @var int|null
@@ -29,7 +29,7 @@ class SystemGETSSessionPriorityMapModifyRequest extends \CWM\BroadWorksConnector
      * @ElementName sessionPriority
      * @Type int
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10157
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11198
      * @MinInclusive 0
      * @MaxInclusive 4
      * @var int|null

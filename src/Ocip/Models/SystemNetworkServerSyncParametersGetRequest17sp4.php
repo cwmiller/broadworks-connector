@@ -7,10 +7,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Request to get the list of Network Server Sync system parameters.
  *         The response is either SystemNetworkServerSyncParametersGetResponse17sp4 or ErrorResponse.
+ *         
+ *         Replaced by: SystemNetworkServerSyncParametersGetRequest24
  *
  * @see SystemNetworkServerSyncParametersGetResponse17sp4
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:11707","type":"sequence"}]
+ * @see SystemNetworkServerSyncParametersGetRequest24
+ * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:8619","type":"sequence"}]
  */
 class SystemNetworkServerSyncParametersGetRequest17sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

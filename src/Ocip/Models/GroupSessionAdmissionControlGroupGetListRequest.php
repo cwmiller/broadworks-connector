@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupSessionAdmissionControlGroupGetListResponse
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:7116","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:8133","type":"sequence"}]
  */
 class GroupSessionAdmissionControlGroupGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupSessionAdmissionControlGroupGetListRequest extends \CWM\BroadWorksCon
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:7116
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:8133
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +28,7 @@ class GroupSessionAdmissionControlGroupGetListRequest extends \CWM\BroadWorksCon
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:7116
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:8133
      * @MinLength 1
      * @MaxLength 30
      * @var string|null

@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"6f793dfca9bd3d121bb35e0f9cf1cb2e:173","type":"sequence"}]
+ * @Groups [{"id":"6f793dfca9bd3d121bb35e0f9cf1cb2e:174","type":"sequence"}]
  */
 class GroupOutgoingCallingPlanCallMeNowModifyListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupOutgoingCallingPlanCallMeNowModifyListRequest extends \CWM\BroadWorks
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:173
+     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:174
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +28,7 @@ class GroupOutgoingCallingPlanCallMeNowModifyListRequest extends \CWM\BroadWorks
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:173
+     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:174
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -39,7 +39,7 @@ class GroupOutgoingCallingPlanCallMeNowModifyListRequest extends \CWM\BroadWorks
      * @ElementName groupPermissions
      * @Type \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanCallMeNowPermissionsModify
      * @Optional
-     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:173
+     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:174
      * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanCallMeNowPermissionsModify|null
      */
     private $groupPermissions = null;
@@ -49,7 +49,7 @@ class GroupOutgoingCallingPlanCallMeNowModifyListRequest extends \CWM\BroadWorks
      * @Type \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanCallMeNowDepartmentPermissionsModify
      * @Array
      * @Optional
-     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:173
+     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:174
      * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanCallMeNowDepartmentPermissionsModify[]
      */
     private $departmentPermissions = array(

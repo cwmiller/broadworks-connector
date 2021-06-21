@@ -5,15 +5,17 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * DeviceManagementFileAuthLocationGetRequest21sp1
  *
- * Get the address and credentials of the File Repository hosting the requested access device file.
- *         Also get the file name and path on the File Repository.
+ * Get the address and credentials of the File Repository hosting the requested access device file. 
+ *         Also get the file name and path on the File Repository. 
  *         The response is either DeviceManagementFileAuthLocationGetResponse21sp1 or ErrorResponse.
  *         The following elements are only used in AS data mode and will fail in XS data mode:
- *         deviceToken
+ *           deviceToken
+ *         Replaced by DeviceManagementFileAuthLocationGetRequest22
  *
  * @see DeviceManagementFileAuthLocationGetResponse21sp1
  * @see ErrorResponse
- * @Groups [{"id":"6b27fcc79475236456fc113a42b75543:150","type":"sequence"}]
+ * @see DeviceManagementFileAuthLocationGetRequest22
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:1552","type":"sequence"}]
  */
 class DeviceManagementFileAuthLocationGetRequest21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,7 +23,7 @@ class DeviceManagementFileAuthLocationGetRequest21sp1 extends \CWM\BroadWorksCon
     /**
      * @ElementName deviceAccessProtocol
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DeviceAccessProtocol16
-     * @Group 6b27fcc79475236456fc113a42b75543:150
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:1552
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceAccessProtocol16|null
      */
     private $deviceAccessProtocol = null;
@@ -29,7 +31,7 @@ class DeviceManagementFileAuthLocationGetRequest21sp1 extends \CWM\BroadWorksCon
     /**
      * @ElementName deviceAccessMethod
      * @Type string
-     * @Group 6b27fcc79475236456fc113a42b75543:150
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:1552
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -39,7 +41,7 @@ class DeviceManagementFileAuthLocationGetRequest21sp1 extends \CWM\BroadWorksCon
     /**
      * @ElementName deviceAccessURI
      * @Type string
-     * @Group 6b27fcc79475236456fc113a42b75543:150
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:1552
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -50,7 +52,7 @@ class DeviceManagementFileAuthLocationGetRequest21sp1 extends \CWM\BroadWorksCon
      * @ElementName accessDeviceUserName
      * @Type string
      * @Optional
-     * @Group 6b27fcc79475236456fc113a42b75543:150
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:1552
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -61,7 +63,7 @@ class DeviceManagementFileAuthLocationGetRequest21sp1 extends \CWM\BroadWorksCon
      * @ElementName accessDeviceUserPassword
      * @Type string
      * @Optional
-     * @Group 6b27fcc79475236456fc113a42b75543:150
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:1552
      * @MinLength 1
      * @MaxLength 60
      * @var string|null
@@ -72,7 +74,7 @@ class DeviceManagementFileAuthLocationGetRequest21sp1 extends \CWM\BroadWorksCon
      * @ElementName deviceToken
      * @Type string
      * @Optional
-     * @Group 6b27fcc79475236456fc113a42b75543:150
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:1552
      * @MinLength 1
      * @var string|null
      */
@@ -82,7 +84,7 @@ class DeviceManagementFileAuthLocationGetRequest21sp1 extends \CWM\BroadWorksCon
      * @ElementName signedPassword
      * @Type string
      * @Optional
-     * @Group 6b27fcc79475236456fc113a42b75543:150
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:1552
      * @MinLength 1
      * @var string|null
      */
@@ -92,7 +94,7 @@ class DeviceManagementFileAuthLocationGetRequest21sp1 extends \CWM\BroadWorksCon
      * @ElementName macAddress
      * @Type string
      * @Optional
-     * @Group 6b27fcc79475236456fc113a42b75543:150
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:1552
      * @MinLength 1
      * @MaxLength 12
      * @var string|null
@@ -103,7 +105,7 @@ class DeviceManagementFileAuthLocationGetRequest21sp1 extends \CWM\BroadWorksCon
      * @ElementName realmName
      * @Type string
      * @Optional
-     * @Group 6b27fcc79475236456fc113a42b75543:150
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:1552
      * @MinLength 1
      * @MaxLength 265
      * @var string|null
@@ -114,7 +116,7 @@ class DeviceManagementFileAuthLocationGetRequest21sp1 extends \CWM\BroadWorksCon
      * @ElementName digestHa1Complement
      * @Type string
      * @Optional
-     * @Group 6b27fcc79475236456fc113a42b75543:150
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:1552
      * @MinLength 32
      * @MaxLength 256
      * @var string|null
@@ -125,7 +127,7 @@ class DeviceManagementFileAuthLocationGetRequest21sp1 extends \CWM\BroadWorksCon
      * @ElementName digestResponse
      * @Type string
      * @Optional
-     * @Group 6b27fcc79475236456fc113a42b75543:150
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:1552
      * @MinLength 32
      * @MaxLength 32
      * @var string|null

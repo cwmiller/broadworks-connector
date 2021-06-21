@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"bc829065f9d696d3ca7084121d57f8c0:563","type":"sequence"}]
+ * @Groups [{"id":"bc829065f9d696d3ca7084121d57f8c0:566","type":"sequence"}]
  */
 class GroupHuntGroupModifyInstanceWeightedCallDistributionRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,7 +21,7 @@ class GroupHuntGroupModifyInstanceWeightedCallDistributionRequest extends \CWM\B
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group bc829065f9d696d3ca7084121d57f8c0:563
+     * @Group bc829065f9d696d3ca7084121d57f8c0:566
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -33,7 +33,7 @@ class GroupHuntGroupModifyInstanceWeightedCallDistributionRequest extends \CWM\B
      * @Type \CWM\BroadWorksConnector\Ocip\Models\HuntAgentWeight
      * @Array
      * @Optional
-     * @Group bc829065f9d696d3ca7084121d57f8c0:563
+     * @Group bc829065f9d696d3ca7084121d57f8c0:566
      * @var \CWM\BroadWorksConnector\Ocip\Models\HuntAgentWeight[]
      */
     private $agentWeight = array(

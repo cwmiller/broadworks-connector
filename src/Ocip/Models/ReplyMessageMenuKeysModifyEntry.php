@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * The voice portal reply message menu keys modify entry.
  *
- * @Groups [{"id":"3347d430e0d5c93a9ff8dcf0e3b60d6c:3039","type":"sequence"}]
+ * @Groups [{"id":"3347d430e0d5c93a9ff8dcf0e3b60d6c:2967","type":"sequence"}]
  */
 class ReplyMessageMenuKeysModifyEntry
 {
@@ -16,7 +16,7 @@ class ReplyMessageMenuKeysModifyEntry
      * @ElementName sendReplyToCaller
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:3039
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2967
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -28,7 +28,7 @@ class ReplyMessageMenuKeysModifyEntry
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:3039
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2967
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -40,7 +40,7 @@ class ReplyMessageMenuKeysModifyEntry
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:3039
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2967
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -52,7 +52,7 @@ class ReplyMessageMenuKeysModifyEntry
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:3039
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2967
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -64,7 +64,7 @@ class ReplyMessageMenuKeysModifyEntry
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:3039
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2967
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -75,7 +75,7 @@ class ReplyMessageMenuKeysModifyEntry
      * @ElementName returnToPreviousMenu
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:3039
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2967
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -87,7 +87,7 @@ class ReplyMessageMenuKeysModifyEntry
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:3039
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2967
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil

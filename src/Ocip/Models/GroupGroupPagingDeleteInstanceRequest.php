@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"0d36df8c109e3ea7324f79031368c661:119","type":"sequence"}]
+ * @Groups [{"id":"0d36df8c109e3ea7324f79031368c661:124","type":"sequence"}]
  */
 class GroupGroupPagingDeleteInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupGroupPagingDeleteInstanceRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group 0d36df8c109e3ea7324f79031368c661:119
+     * @Group 0d36df8c109e3ea7324f79031368c661:124
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

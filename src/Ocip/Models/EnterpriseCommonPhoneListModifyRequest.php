@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"5395c7df0157d44aa22f3351d1a5f3da:491","type":"sequence"}]
+ * @Groups [{"id":"5395c7df0157d44aa22f3351d1a5f3da:492","type":"sequence"}]
  */
 class EnterpriseCommonPhoneListModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class EnterpriseCommonPhoneListModifyRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:491
+     * @Group 5395c7df0157d44aa22f3351d1a5f3da:492
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +28,7 @@ class EnterpriseCommonPhoneListModifyRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName entryName
      * @Type string
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:491
+     * @Group 5395c7df0157d44aa22f3351d1a5f3da:492
      * @MinLength 1
      * @MaxLength 50
      * @var string|null
@@ -39,7 +39,7 @@ class EnterpriseCommonPhoneListModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName newEntryName
      * @Type string
      * @Optional
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:491
+     * @Group 5395c7df0157d44aa22f3351d1a5f3da:492
      * @MinLength 1
      * @MaxLength 50
      * @var string|null
@@ -50,7 +50,7 @@ class EnterpriseCommonPhoneListModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName phoneNumber
      * @Type string
      * @Optional
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:491
+     * @Group 5395c7df0157d44aa22f3351d1a5f3da:492
      * @MinLength 1
      * @MaxLength 30
      * @var string|null

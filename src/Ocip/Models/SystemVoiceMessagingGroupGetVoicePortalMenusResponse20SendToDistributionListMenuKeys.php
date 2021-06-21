@@ -5,7 +5,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemVoiceMessagingGroupGetVoicePortalMenusResponse20SendToDistributionListMenuKeys
  *
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:35512","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:38552","type":"sequence"}]
  */
 class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20SendToDistributionListMenuKeys
 {
@@ -13,7 +13,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20SendToDistributionLi
     /**
      * @ElementName sendMessageToSelectedDistributionList
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:35512
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:38552
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -24,7 +24,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20SendToDistributionLi
      * @ElementName selectDistributionList
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:35512
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:38552
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -35,7 +35,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20SendToDistributionLi
      * @ElementName reviewSelectedDistributionList
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:35512
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:38552
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -45,7 +45,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20SendToDistributionLi
     /**
      * @ElementName returnToPreviousMenu
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:35512
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:38552
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -56,7 +56,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20SendToDistributionLi
      * @ElementName repeatMenu
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:35512
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:38552
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null

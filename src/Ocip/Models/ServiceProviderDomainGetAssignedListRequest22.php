@@ -11,10 +11,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The following elements are only used in AS data mode and will be ignored in XS data mode:
  *           responseSizeLimit
  *           searchCriteriaDomainName
+ *           searchCriteriaExactDomainLevel
  *
  * @see ServiceProviderDomainGetAssignedListResponse22
  * @see ErrorResponse
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:3330","type":"sequence"}]
+ * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:3991","type":"sequence"}]
  */
 class ServiceProviderDomainGetAssignedListRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -22,7 +23,7 @@ class ServiceProviderDomainGetAssignedListRequest22 extends \CWM\BroadWorksConne
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3330
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3991
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -33,7 +34,7 @@ class ServiceProviderDomainGetAssignedListRequest22 extends \CWM\BroadWorksConne
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3330
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3991
      * @MinInclusive 1
      * @var int|null
      */
@@ -44,12 +45,21 @@ class ServiceProviderDomainGetAssignedListRequest22 extends \CWM\BroadWorksConne
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDomainName
      * @Array
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3330
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3991
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDomainName[]
      */
     private $searchCriteriaDomainName = array(
         
     );
+
+    /**
+     * @ElementName searchCriteriaExactDomainLevel
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDomainLevel
+     * @Optional
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3991
+     * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDomainLevel|null
+     */
+    private $searchCriteriaExactDomainLevel = null;
 
     /**
      * Getter for serviceProviderId
@@ -153,6 +163,37 @@ class ServiceProviderDomainGetAssignedListRequest22 extends \CWM\BroadWorksConne
     public function addSearchCriteriaDomainName($searchCriteriaDomainName)
     {
         $this->searchCriteriaDomainName[] = $searchCriteriaDomainName;
+        return $this;
+    }
+
+    /**
+     * Getter for searchCriteriaExactDomainLevel
+     *
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDomainLevel
+     */
+    public function getSearchCriteriaExactDomainLevel()
+    {
+        return $this->searchCriteriaExactDomainLevel instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->searchCriteriaExactDomainLevel;
+    }
+
+    /**
+     * Setter for searchCriteriaExactDomainLevel
+     *
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDomainLevel $searchCriteriaExactDomainLevel
+     * @return $this
+     */
+    public function setSearchCriteriaExactDomainLevel(\CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDomainLevel $searchCriteriaExactDomainLevel)
+    {
+        $this->searchCriteriaExactDomainLevel = $searchCriteriaExactDomainLevel;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetSearchCriteriaExactDomainLevel()
+    {
+        $this->searchCriteriaExactDomainLevel = null;
         return $this;
     }
 

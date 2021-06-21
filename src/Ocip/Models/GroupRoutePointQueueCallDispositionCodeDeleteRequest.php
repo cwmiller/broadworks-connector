@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"a27224a048c30ff69eab9209dec841cc:1103","type":"sequence"}]
+ * @Groups [{"id":"a27224a048c30ff69eab9209dec841cc:1060","type":"sequence"}]
  */
 class GroupRoutePointQueueCallDispositionCodeDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupRoutePointQueueCallDispositionCodeDeleteRequest extends \CWM\BroadWor
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group a27224a048c30ff69eab9209dec841cc:1103
+     * @Group a27224a048c30ff69eab9209dec841cc:1060
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -28,7 +28,7 @@ class GroupRoutePointQueueCallDispositionCodeDeleteRequest extends \CWM\BroadWor
     /**
      * @ElementName code
      * @Type string
-     * @Group a27224a048c30ff69eab9209dec841cc:1103
+     * @Group a27224a048c30ff69eab9209dec841cc:1060
      * @MinLength 1
      * @MaxLength 10
      * @var string|null

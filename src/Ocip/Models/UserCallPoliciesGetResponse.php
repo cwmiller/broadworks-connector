@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to UserCallPoliciesGetRequest.
  *
  * @see UserCallPoliciesGetRequest
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:16958","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:40845","type":"sequence"}]
  */
 class UserCallPoliciesGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class UserCallPoliciesGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName redirectedCallsCOLPPrivacy
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ConnectedLineIdentificationPrivacyOnRedirectedCalls
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:16958
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:40845
      * @var \CWM\BroadWorksConnector\Ocip\Models\ConnectedLineIdentificationPrivacyOnRedirectedCalls|null
      */
     private $redirectedCallsCOLPPrivacy = null;

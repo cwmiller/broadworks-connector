@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:2351","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:2891","type":"sequence"}]
  */
 class GroupCommunicationBarringAuthorizationCodeAddListRequest21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupCommunicationBarringAuthorizationCodeAddListRequest21sp1 extends \CWM
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:2351
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:2891
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +28,7 @@ class GroupCommunicationBarringAuthorizationCodeAddListRequest21sp1 extends \CWM
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:2351
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:2891
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -39,7 +39,7 @@ class GroupCommunicationBarringAuthorizationCodeAddListRequest21sp1 extends \CWM
      * @ElementName code
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringAuthorizationCodeConfiguration
      * @Array
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:2351
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:2891
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringAuthorizationCodeConfiguration[]
      */
     private $code = array(

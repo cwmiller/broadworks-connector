@@ -8,10 +8,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request to get the configuration for a call processing policy profile Trunk Group Pilot user subscriber type profile.
  *         The response is either a SystemCallProcessingPolicyProfileTrunkGroupPilotProfileGetResponse22V2 or an
  *         ErrorResponse.
+ *         
+ *         Replaced by: SystemCallProcessingPolicyProfileTrunkGroupPilotProfileGetRequest22V3 in AS data mode.
  *
  * @see SystemCallProcessingPolicyProfileTrunkGroupPilotProfileGetResponse22V2
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:4285","type":"sequence"}]
+ * @see SystemCallProcessingPolicyProfileTrunkGroupPilotProfileGetRequest22V3
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:23666","type":"sequence"}]
  */
 class SystemCallProcessingPolicyProfileTrunkGroupPilotProfileGetRequest22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +22,7 @@ class SystemCallProcessingPolicyProfileTrunkGroupPilotProfileGetRequest22V2 exte
     /**
      * @ElementName callProcessingPolicyProfileName
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:4285
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:23666
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

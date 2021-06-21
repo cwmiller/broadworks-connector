@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Outgoing Pinhole Digit Plan Call Me Now call permissions for a department.
  *
- * @Groups [{"id":"6f793dfca9bd3d121bb35e0f9cf1cb2e:2233","type":"sequence"}]
+ * @Groups [{"id":"6f793dfca9bd3d121bb35e0f9cf1cb2e:2234","type":"sequence"}]
  */
 class OutgoingPinholeDigitPlanDigitPatternCallMeNowDepartmentPermissions
 {
@@ -16,7 +16,7 @@ class OutgoingPinholeDigitPlanDigitPatternCallMeNowDepartmentPermissions
      * @ElementName departmentKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey
      * @Abstract \CWM\BroadWorksConnector\Ocip\Models\EnterpriseDepartmentKey,\CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentKey
-     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:2233
+     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:2234
      * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null
      */
     private $departmentKey = null;
@@ -24,7 +24,7 @@ class OutgoingPinholeDigitPlanDigitPatternCallMeNowDepartmentPermissions
     /**
      * @ElementName departmentName
      * @Type string
-     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:2233
+     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:2234
      * @MinLength 1
      * @var string|null
      */
@@ -33,7 +33,7 @@ class OutgoingPinholeDigitPlanDigitPatternCallMeNowDepartmentPermissions
     /**
      * @ElementName permissions
      * @Type \CWM\BroadWorksConnector\Ocip\Models\OutgoingPinholeDigitPlanDigitPatternCallMeNowPermissions
-     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:2233
+     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:2234
      * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingPinholeDigitPlanDigitPatternCallMeNowPermissions|null
      */
     private $permissions = null;

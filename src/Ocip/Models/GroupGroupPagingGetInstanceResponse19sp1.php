@@ -7,9 +7,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to GroupGroupPagingGetInstanceRequest19sp1.
  *         Contains the service profile information.
+ *         
+ *         The following element is only used in AS data mode and not returned in XS data mode :
+ *            networkClassOfService
  *
  * @see GroupGroupPagingGetInstanceRequest19sp1
- * @Groups [{"id":"0d36df8c109e3ea7324f79031368c661:307","type":"sequence"}]
+ * @Groups [{"id":"0d36df8c109e3ea7324f79031368c661:316","type":"sequence"}]
  */
 class GroupGroupPagingGetInstanceResponse19sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +20,7 @@ class GroupGroupPagingGetInstanceResponse19sp1 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName serviceInstanceProfile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile19sp1
-     * @Group 0d36df8c109e3ea7324f79031368c661:307
+     * @Group 0d36df8c109e3ea7324f79031368c661:316
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile19sp1|null
      */
     private $serviceInstanceProfile = null;
@@ -25,7 +28,7 @@ class GroupGroupPagingGetInstanceResponse19sp1 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName confirmationToneTimeoutSeconds
      * @Type int
-     * @Group 0d36df8c109e3ea7324f79031368c661:307
+     * @Group 0d36df8c109e3ea7324f79031368c661:316
      * @MinInclusive 1
      * @MaxInclusive 20
      * @var int|null
@@ -35,7 +38,7 @@ class GroupGroupPagingGetInstanceResponse19sp1 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName deliverOriginatorCLIDInstead
      * @Type bool
-     * @Group 0d36df8c109e3ea7324f79031368c661:307
+     * @Group 0d36df8c109e3ea7324f79031368c661:316
      * @var bool|null
      */
     private $deliverOriginatorCLIDInstead = null;
@@ -44,7 +47,7 @@ class GroupGroupPagingGetInstanceResponse19sp1 extends \CWM\BroadWorksConnector\
      * @ElementName originatorCLIDPrefix
      * @Type string
      * @Optional
-     * @Group 0d36df8c109e3ea7324f79031368c661:307
+     * @Group 0d36df8c109e3ea7324f79031368c661:316
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -55,7 +58,7 @@ class GroupGroupPagingGetInstanceResponse19sp1 extends \CWM\BroadWorksConnector\
      * @ElementName networkClassOfService
      * @Type string
      * @Optional
-     * @Group 0d36df8c109e3ea7324f79031368c661:307
+     * @Group 0d36df8c109e3ea7324f79031368c661:316
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

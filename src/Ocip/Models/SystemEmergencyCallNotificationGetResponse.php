@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemEmergencyCallNotificationGetResponse.
  *
  * @see SystemEmergencyCallNotificationGetResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:8680","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:9712","type":"sequence"}]
  */
 class SystemEmergencyCallNotificationGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class SystemEmergencyCallNotificationGetResponse extends \CWM\BroadWorksConnecto
     /**
      * @ElementName defaultFromAddress
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8680
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9712
      * @MinLength 1
      * @MaxLength 80
      * @var string|null

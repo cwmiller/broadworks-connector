@@ -21,10 +21,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The enableVoiceMailRecording parameter is only applicable 
  *         if the Voice Messaging User service is assigned to the user.
  *         This applies to both users and service instances.
+ *         The following elements are only used in AS data mode and ignored in XS data mode:
+ *           mediaStream
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"9741e074fbfeb4c7312bfa4dfbaee3d3:457","type":"sequence"}]
+ * @Groups [{"id":"9741e074fbfeb4c7312bfa4dfbaee3d3:489","type":"sequence"}]
  */
 class UserCallRecordingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -32,7 +34,7 @@ class UserCallRecordingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName userId
      * @Type string
-     * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:457
+     * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:489
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -43,7 +45,7 @@ class UserCallRecordingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName recordingOption
      * @Type \CWM\BroadWorksConnector\Ocip\Models\RecordingOption20
      * @Optional
-     * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:457
+     * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:489
      * @var \CWM\BroadWorksConnector\Ocip\Models\RecordingOption20|null
      */
     private $recordingOption = null;
@@ -52,7 +54,7 @@ class UserCallRecordingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName pauseResumeNotification
      * @Type \CWM\BroadWorksConnector\Ocip\Models\RecordingPauseResumeNotificationType
      * @Optional
-     * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:457
+     * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:489
      * @var \CWM\BroadWorksConnector\Ocip\Models\RecordingPauseResumeNotificationType|null
      */
     private $pauseResumeNotification = null;
@@ -61,7 +63,7 @@ class UserCallRecordingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName enableCallRecordingAnnouncement
      * @Type bool
      * @Optional
-     * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:457
+     * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:489
      * @var bool|null
      */
     private $enableCallRecordingAnnouncement = null;
@@ -70,7 +72,7 @@ class UserCallRecordingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName enableRecordCallRepeatWarningTone
      * @Type bool
      * @Optional
-     * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:457
+     * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:489
      * @var bool|null
      */
     private $enableRecordCallRepeatWarningTone = null;
@@ -79,7 +81,7 @@ class UserCallRecordingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName recordCallRepeatWarningToneTimerSeconds
      * @Type int
      * @Optional
-     * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:457
+     * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:489
      * @MinInclusive 10
      * @MaxInclusive 1800
      * @var int|null
@@ -90,10 +92,19 @@ class UserCallRecordingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName enableVoiceMailRecording
      * @Type bool
      * @Optional
-     * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:457
+     * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:489
      * @var bool|null
      */
     private $enableVoiceMailRecording = null;
+
+    /**
+     * @ElementName mediaStream
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\MediaStream
+     * @Optional
+     * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:489
+     * @var \CWM\BroadWorksConnector\Ocip\Models\MediaStream|null
+     */
+    private $mediaStream = null;
 
     /**
      * Getter for userId
@@ -309,6 +320,37 @@ class UserCallRecordingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
     public function unsetEnableVoiceMailRecording()
     {
         $this->enableVoiceMailRecording = null;
+        return $this;
+    }
+
+    /**
+     * Getter for mediaStream
+     *
+     * @return \CWM\BroadWorksConnector\Ocip\Models\MediaStream
+     */
+    public function getMediaStream()
+    {
+        return $this->mediaStream instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->mediaStream;
+    }
+
+    /**
+     * Setter for mediaStream
+     *
+     * @param \CWM\BroadWorksConnector\Ocip\Models\MediaStream $mediaStream
+     * @return $this
+     */
+    public function setMediaStream(\CWM\BroadWorksConnector\Ocip\Models\MediaStream $mediaStream)
+    {
+        $this->mediaStream = $mediaStream;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetMediaStream()
+    {
+        $this->mediaStream = null;
         return $this;
     }
 

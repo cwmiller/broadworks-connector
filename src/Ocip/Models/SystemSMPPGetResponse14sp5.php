@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemSMPPGetRequest14sp5
  * @see SystemSMPPGetResponse21
- * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:3312","type":"sequence"}]
+ * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:11545","type":"sequence"}]
  */
 class SystemSMPPGetResponse14sp5 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -20,7 +20,7 @@ class SystemSMPPGetResponse14sp5 extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @ElementName primarySMPPServerNetAddress
      * @Type string
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:3312
+     * @Group de4d76f01f337fe4694212ec9f771753:11545
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -30,7 +30,7 @@ class SystemSMPPGetResponse14sp5 extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * @ElementName primarySMPPPort
      * @Type int
-     * @Group de4d76f01f337fe4694212ec9f771753:3312
+     * @Group de4d76f01f337fe4694212ec9f771753:11545
      * @MinInclusive 1
      * @MaxInclusive 65535
      * @var int|null
@@ -41,7 +41,7 @@ class SystemSMPPGetResponse14sp5 extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @ElementName secondarySMPPServerNetAddress
      * @Type string
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:3312
+     * @Group de4d76f01f337fe4694212ec9f771753:11545
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -51,7 +51,7 @@ class SystemSMPPGetResponse14sp5 extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * @ElementName secondarySMPPPort
      * @Type int
-     * @Group de4d76f01f337fe4694212ec9f771753:3312
+     * @Group de4d76f01f337fe4694212ec9f771753:11545
      * @MinInclusive 1
      * @MaxInclusive 65535
      * @var int|null
@@ -62,7 +62,7 @@ class SystemSMPPGetResponse14sp5 extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @ElementName systemId
      * @Type string
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:3312
+     * @Group de4d76f01f337fe4694212ec9f771753:11545
      * @MinLength 1
      * @MaxLength 16
      * @var string|null
@@ -73,7 +73,7 @@ class SystemSMPPGetResponse14sp5 extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @ElementName password
      * @Type string
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:3312
+     * @Group de4d76f01f337fe4694212ec9f771753:11545
      * @MinLength 1
      * @MaxLength 8
      * @var string|null
@@ -83,7 +83,7 @@ class SystemSMPPGetResponse14sp5 extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * @ElementName version
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SMPPVersion
-     * @Group de4d76f01f337fe4694212ec9f771753:3312
+     * @Group de4d76f01f337fe4694212ec9f771753:11545
      * @var \CWM\BroadWorksConnector\Ocip\Models\SMPPVersion|null
      */
     private $version = null;
@@ -92,7 +92,7 @@ class SystemSMPPGetResponse14sp5 extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @ElementName systemType
      * @Type string
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:3312
+     * @Group de4d76f01f337fe4694212ec9f771753:11545
      * @MinLength 1
      * @MaxLength 12
      * @var string|null

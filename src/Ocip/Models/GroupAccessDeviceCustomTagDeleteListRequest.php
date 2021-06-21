@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:353","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:418","type":"sequence"}]
  */
 class GroupAccessDeviceCustomTagDeleteListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupAccessDeviceCustomTagDeleteListRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:353
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:418
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +28,7 @@ class GroupAccessDeviceCustomTagDeleteListRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:353
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:418
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -38,7 +38,7 @@ class GroupAccessDeviceCustomTagDeleteListRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName deviceName
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:353
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:418
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -49,7 +49,7 @@ class GroupAccessDeviceCustomTagDeleteListRequest extends \CWM\BroadWorksConnect
      * @ElementName tagName
      * @Type string
      * @Array
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:353
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:418
      * @MinLength 1
      * @MaxLength 64
      * @var string[]

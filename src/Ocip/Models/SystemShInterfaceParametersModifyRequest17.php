@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:15274","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:16425","type":"sequence"}]
  */
 class SystemShInterfaceParametersModifyRequest17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class SystemShInterfaceParametersModifyRequest17 extends \CWM\BroadWorksConnecto
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:15274
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16425
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -31,7 +31,7 @@ class SystemShInterfaceParametersModifyRequest17 extends \CWM\BroadWorksConnecto
      * @ElementName publicIdentityRefreshDelaySeconds
      * @Type int
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:15274
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16425
      * @MinInclusive 0
      * @MaxInclusive 30
      * @var int|null

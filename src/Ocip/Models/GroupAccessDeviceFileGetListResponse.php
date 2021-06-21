@@ -6,13 +6,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupAccessDeviceFileGetListResponse
  *
  * Response to GroupAccessDeviceFileGetListRequest.
- *                 Contains a table of device files managed by the Device Management System on a per-device profile basis.
- *                 The column headings are: "File Type", "File Format", "Is Authenticated".
- *                 Replaced By: GroupAccessDeviceFileGetListResponse14sp8
+ *           Contains a table of device files managed by the Device Management System on a per-device profile basis.
+ *           The column headings are: "File Type", "File Format", "Is Authenticated".
+ *           Replaced By: GroupAccessDeviceFileGetListResponse14sp8
  *
  * @see GroupAccessDeviceFileGetListRequest
  * @see GroupAccessDeviceFileGetListResponse14sp8
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:546","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:2841","type":"sequence"}]
  */
 class GroupAccessDeviceFileGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -20,7 +20,7 @@ class GroupAccessDeviceFileGetListResponse extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName deviceFilesTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:546
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:2841
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $deviceFilesTable = null;

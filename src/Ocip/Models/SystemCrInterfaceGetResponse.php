@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the SystemCrInterfaceGetRequest.
  *
  * @see SystemCrInterfaceGetRequest
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:38709","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:25637","type":"sequence"}]
  */
 class SystemCrInterfaceGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class SystemCrInterfaceGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName crAuditEnabled
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:38709
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:25637
      * @var bool|null
      */
     private $crAuditEnabled = null;
@@ -24,7 +24,7 @@ class SystemCrInterfaceGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName crAuditIntervalMilliseconds
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:38709
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:25637
      * @MinInclusive 500
      * @MaxInclusive 60000
      * @var int|null
@@ -34,7 +34,7 @@ class SystemCrInterfaceGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName crAuditTimeoutMilliseconds
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:38709
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:25637
      * @MinInclusive 500
      * @MaxInclusive 10000
      * @var int|null
@@ -44,7 +44,7 @@ class SystemCrInterfaceGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName crConnectionEnabled
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:38709
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:25637
      * @var bool|null
      */
     private $crConnectionEnabled = null;
@@ -52,7 +52,7 @@ class SystemCrInterfaceGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName crConnectionTimeoutMilliseconds
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:38709
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:25637
      * @MinInclusive 1000
      * @MaxInclusive 32000
      * @var int|null

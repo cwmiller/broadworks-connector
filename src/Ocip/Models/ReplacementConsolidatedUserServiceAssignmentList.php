@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         If a service is not authorized to the group, the service will be authorized. The authorizedQuantity will be used if provided; otherwise, the service quantity will be set to unlimited. The command will fail if the authorized Quantity set at the service provider is insufficient. 
  *         If a service is already authorized to the group, the service quantity will be ignored if included.
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:3269","type":"sequence"}]
+ * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:3895","type":"sequence"}]
  */
 class ReplacementConsolidatedUserServiceAssignmentList
 {
@@ -18,7 +18,7 @@ class ReplacementConsolidatedUserServiceAssignmentList
      * @ElementName userServiceServiceName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ConsolidatedUserServiceAssignment
      * @Array
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3269
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:3895
      * @var \CWM\BroadWorksConnector\Ocip\Models\ConsolidatedUserServiceAssignment[]
      */
     private $userServiceServiceName = array(

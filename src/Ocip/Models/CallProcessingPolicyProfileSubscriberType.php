@@ -5,8 +5,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * CallProcessingPolicyProfileSubscriberType
  *
- * Different type of user and virtual subscriber which could have a set of call processing policy profile
- *                 defined in BroadWorks.
+ * Different type of user and virtual subscriber which could have a set of call processing policy profile defined in BroadWorks.
  *
  * @method static CallProcessingPolicyProfileSubscriberType USER()
  * @method static CallProcessingPolicyProfileSubscriberType TRUNK_GROUP_PILOT_USER()

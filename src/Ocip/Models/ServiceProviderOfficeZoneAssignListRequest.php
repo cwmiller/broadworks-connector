@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:4357","type":"sequence"}]
+ * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:5177","type":"sequence"}]
  */
 class ServiceProviderOfficeZoneAssignListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class ServiceProviderOfficeZoneAssignListRequest extends \CWM\BroadWorksConnecto
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4357
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5177
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -32,7 +32,7 @@ class ServiceProviderOfficeZoneAssignListRequest extends \CWM\BroadWorksConnecto
      * @Type string
      * @Array
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4357
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5177
      * @MinLength 1
      * @MaxLength 40
      * @var string[]
@@ -45,7 +45,7 @@ class ServiceProviderOfficeZoneAssignListRequest extends \CWM\BroadWorksConnecto
      * @ElementName defaultOfficeZoneName
      * @Type string
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4357
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5177
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

@@ -14,7 +14,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:13633","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:14732","type":"sequence"}]
  */
 class SystemProvisioningValidationModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -23,7 +23,7 @@ class SystemProvisioningValidationModifyRequest extends \CWM\BroadWorksConnector
      * @ElementName isActive
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:13633
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14732
      * @var bool|null
      */
     private $isActive = null;
@@ -32,7 +32,7 @@ class SystemProvisioningValidationModifyRequest extends \CWM\BroadWorksConnector
      * @ElementName isNetworkServerQueryActive
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:13633
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14732
      * @var bool|null
      */
     private $isNetworkServerQueryActive = null;
@@ -41,7 +41,7 @@ class SystemProvisioningValidationModifyRequest extends \CWM\BroadWorksConnector
      * @ElementName timeoutSeconds
      * @Type int
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:13633
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14732
      * @MinInclusive 1
      * @MaxInclusive 30
      * @var int|null
@@ -52,7 +52,7 @@ class SystemProvisioningValidationModifyRequest extends \CWM\BroadWorksConnector
      * @ElementName denyMobilityNumberAsRedirectionDestination
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:13633
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14732
      * @var bool|null
      */
     private $denyMobilityNumberAsRedirectionDestination = null;
@@ -61,7 +61,7 @@ class SystemProvisioningValidationModifyRequest extends \CWM\BroadWorksConnector
      * @ElementName denyEnterpriseNumberAsNetworkLocationDestination
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:13633
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14732
      * @var bool|null
      */
     private $denyEnterpriseNumberAsNetworkLocationDestination = null;

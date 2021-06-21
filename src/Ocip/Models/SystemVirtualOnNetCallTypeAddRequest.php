@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"179b744b0183abe614e8c32c17c96b7e:245","type":"sequence"}]
+ * @Groups [{"id":"179b744b0183abe614e8c32c17c96b7e:244","type":"sequence"}]
  */
 class SystemVirtualOnNetCallTypeAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemVirtualOnNetCallTypeAddRequest extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName virtualOnNetCallTypeName
      * @Type string
-     * @Group 179b744b0183abe614e8c32c17c96b7e:245
+     * @Group 179b744b0183abe614e8c32c17c96b7e:244
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -28,7 +28,7 @@ class SystemVirtualOnNetCallTypeAddRequest extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName virtualOnNetCallTypeCdrValue
      * @Type string
-     * @Group 179b744b0183abe614e8c32c17c96b7e:245
+     * @Group 179b744b0183abe614e8c32c17c96b7e:244
      * @MinLength 1
      * @MaxLength 6
      * @var string|null

@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The following elements are only used in XS data mode and ignored in AS data mode:
  *           privateIdentity
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:278","type":"sequence"}]
+ * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:306","type":"sequence"}]
  */
 class AccessDeviceMultipleIdentityAndContactEndpointAdd22
 {
@@ -20,7 +20,7 @@ class AccessDeviceMultipleIdentityAndContactEndpointAdd22
     /**
      * @ElementName accessDevice
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDevice
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:278
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:306
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDevice|null
      */
     private $accessDevice = null;
@@ -28,7 +28,7 @@ class AccessDeviceMultipleIdentityAndContactEndpointAdd22
     /**
      * @ElementName linePort
      * @Type string
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:278
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:306
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -39,7 +39,7 @@ class AccessDeviceMultipleIdentityAndContactEndpointAdd22
      * @ElementName privateIdentity
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:278
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:306
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -51,7 +51,7 @@ class AccessDeviceMultipleIdentityAndContactEndpointAdd22
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SIPContactInfo
      * @Array
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:278
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:306
      * @var \CWM\BroadWorksConnector\Ocip\Models\SIPContactInfo[]
      */
     private $contact = array(
@@ -62,7 +62,7 @@ class AccessDeviceMultipleIdentityAndContactEndpointAdd22
      * @ElementName portNumber
      * @Type int
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:278
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:306
      * @MinInclusive 1
      * @MaxInclusive 1024
      * @var int|null

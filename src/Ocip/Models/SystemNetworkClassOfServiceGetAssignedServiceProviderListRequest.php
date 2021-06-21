@@ -7,12 +7,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Request a list of service providers that have a given Network Class
  *         of Service assigned.
- *         The response is either a SystemNetworkClassOfServiceGetAssignedServiceProviderListResponse or
- *         ErrorResponse.
+ *         The response is either a SystemNetworkClassOfServiceGetAssignedServiceProviderListResponse or ErrorResponse.
  *
  * @see SystemNetworkClassOfServiceGetAssignedServiceProviderListResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:11344","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:12387","type":"sequence"}]
  */
 class SystemNetworkClassOfServiceGetAssignedServiceProviderListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +19,7 @@ class SystemNetworkClassOfServiceGetAssignedServiceProviderListRequest extends \
     /**
      * @ElementName name
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11344
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12387
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

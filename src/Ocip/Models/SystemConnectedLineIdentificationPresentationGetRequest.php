@@ -6,8 +6,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemConnectedLineIdentificationPresentationGetRequest
  *
  * Request the system level data associated with the COLP service.
- *         The response is either a SystemConnectedLineIdentificationPresentationGetResponse or an
- *         ErrorResponse.
+ *         The response is either a SystemConnectedLineIdentificationPresentationGetResponse or an ErrorResponse.
  *
  * @see SystemConnectedLineIdentificationPresentationGetResponse
  * @see ErrorResponse

@@ -6,12 +6,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserTimeScheduleGetListRequest
  *
  * Get all time schedules for a user. This includes the user's personal schedules and user's group's
- *                 schedules.
- *                 The response is either a UserTimeScheduleGetListResponse or an ErrorResponse.
+ *         schedules.
+ *         The response is either a UserTimeScheduleGetListResponse or an ErrorResponse.
  *
  * @see UserTimeScheduleGetListResponse
  * @see ErrorResponse
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:17844","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:46705","type":"sequence"}]
  */
 class UserTimeScheduleGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class UserTimeScheduleGetListRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName userId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:17844
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:46705
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

@@ -6,6 +6,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ServiceInvocationDisposition21sp1
  *
  * Indicates the type of service invocation that caused the call to be detached.
+ *         Deprecated by ServiceInvocationDisposition23
  *
  * @method static ServiceInvocationDisposition21sp1 AUTOMATIC_HOLD_RETRIEVE()
  * @method static ServiceInvocationDisposition21sp1 CALL_FORWARD_ALWAYS()

@@ -6,12 +6,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ServiceProviderAccessDeviceFileGetResponse16sp1
  *
  * Response to ServiceProviderAccessDeviceFileGetRequest16sp1.
- *
- *                 Replaced by: ServiceProviderAccessDeviceFileGetResponse20
+ *         
+ *         Replaced by: ServiceProviderAccessDeviceFileGetResponse20
  *
  * @see ServiceProviderAccessDeviceFileGetRequest16sp1
  * @see ServiceProviderAccessDeviceFileGetResponse20
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:41173","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:16710","type":"sequence"}]
  */
 class ServiceProviderAccessDeviceFileGetResponse16sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,7 +19,7 @@ class ServiceProviderAccessDeviceFileGetResponse16sp1 extends \CWM\BroadWorksCon
     /**
      * @ElementName fileSource
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationMode
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:41173
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:16710
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationMode|null
      */
     private $fileSource = null;
@@ -28,7 +28,7 @@ class ServiceProviderAccessDeviceFileGetResponse16sp1 extends \CWM\BroadWorksCon
      * @ElementName configurationFileName
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:41173
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:16710
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -38,7 +38,7 @@ class ServiceProviderAccessDeviceFileGetResponse16sp1 extends \CWM\BroadWorksCon
     /**
      * @ElementName accessUrl
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:41173
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:16710
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -49,7 +49,7 @@ class ServiceProviderAccessDeviceFileGetResponse16sp1 extends \CWM\BroadWorksCon
      * @ElementName repositoryUrl
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:41173
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:16710
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -60,7 +60,7 @@ class ServiceProviderAccessDeviceFileGetResponse16sp1 extends \CWM\BroadWorksCon
      * @ElementName templateUrl
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:41173
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:16710
      * @MinLength 1
      * @MaxLength 256
      * @var string|null

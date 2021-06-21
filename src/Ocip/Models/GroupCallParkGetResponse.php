@@ -6,10 +6,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupCallParkGetResponse
  *
  * Response to the GroupCallParkGetRequest.
- *                 Contains the settings that apply to the whole group for Call Park.
+ *         Contains the settings that apply to the whole group for Call Park.
  *
  * @see GroupCallParkGetRequest
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:19123","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:7456","type":"sequence"}]
  */
 class GroupCallParkGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class GroupCallParkGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
     /**
      * @ElementName recallTimerSeconds
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:19123
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:7456
      * @MinInclusive 30
      * @MaxInclusive 600
      * @var int|null
@@ -27,7 +27,7 @@ class GroupCallParkGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
     /**
      * @ElementName displayTimerSeconds
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:19123
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:7456
      * @MinInclusive 2
      * @MaxInclusive 15
      * @var int|null
@@ -37,7 +37,7 @@ class GroupCallParkGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
     /**
      * @ElementName enableDestinationAnnouncement
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:19123
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:7456
      * @var bool|null
      */
     private $enableDestinationAnnouncement = null;

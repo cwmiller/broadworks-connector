@@ -6,10 +6,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemASRParametersGetResponse14sp5
  *
  * Response to SystemASRParametersGetRequest14sp5.
- *                 Contains a list of system Application Server Registration parameters.
+ *         Contains a list of system Application Server Registration parameters.
  *
  * @see SystemASRParametersGetRequest14sp5
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:4227","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:19838","type":"sequence"}]
  */
 class SystemASRParametersGetResponse14sp5 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class SystemASRParametersGetResponse14sp5 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName maxTransmissions
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:4227
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:19838
      * @MinInclusive 1
      * @MaxInclusive 10
      * @var int|null
@@ -27,7 +27,7 @@ class SystemASRParametersGetResponse14sp5 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName retransmissionDelayMilliSeconds
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:4227
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:19838
      * @MinInclusive 100
      * @MaxInclusive 2000
      * @var int|null
@@ -37,7 +37,7 @@ class SystemASRParametersGetResponse14sp5 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName listeningPort
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:4227
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:19838
      * @MinInclusive 1025
      * @MaxInclusive 65535
      * @var int|null
@@ -48,7 +48,7 @@ class SystemASRParametersGetResponse14sp5 extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName sourceAddress
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:4227
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:19838
      * @MinLength 1
      * @MaxLength 80
      * @var string|null

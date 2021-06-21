@@ -7,9 +7,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to the SystemAutomaticCollectCallGetRequest.
  *         Returns system Automatic Collect Call service settings.
+ *         
+ *         Replaced by SystemAutomaticCollectCallGetResponse22 in AS mode.
  *
  * @see SystemAutomaticCollectCallGetRequest
- * @Groups [{"id":"af1b47d7cab3335a81456e64e42371b0:60","type":"sequence"}]
+ * @see SystemAutomaticCollectCallGetResponse22
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:20019","type":"sequence"}]
  */
 class SystemAutomaticCollectCallGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +20,7 @@ class SystemAutomaticCollectCallGetResponse extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName enableAutomaticCollectCall
      * @Type bool
-     * @Group af1b47d7cab3335a81456e64e42371b0:60
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:20019
      * @var bool|null
      */
     private $enableAutomaticCollectCall = null;
@@ -25,7 +28,7 @@ class SystemAutomaticCollectCallGetResponse extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName enableConnectTone
      * @Type bool
-     * @Group af1b47d7cab3335a81456e64e42371b0:60
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:20019
      * @var bool|null
      */
     private $enableConnectTone = null;

@@ -6,13 +6,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ServiceProviderAccessDeviceFileModifyRequest
  *
  * Request to modify a specified service provider/enterprise access device file.
- *                 The response is either a SuccessResponse or an ErrorResponse.
- *                 Replaced By: ServiceProviderAccessDeviceFileModifyRequest14sp8
+ *           The response is either a SuccessResponse or an ErrorResponse.
+ *           Replaced By: ServiceProviderAccessDeviceFileModifyRequest14sp8
  *
  * @see SuccessResponse
  * @see ErrorResponse
  * @see ServiceProviderAccessDeviceFileModifyRequest14sp8
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:3437","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:16731","type":"sequence"}]
  */
 class ServiceProviderAccessDeviceFileModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class ServiceProviderAccessDeviceFileModifyRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:3437
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:16731
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -30,7 +30,7 @@ class ServiceProviderAccessDeviceFileModifyRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName deviceName
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:3437
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:16731
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -40,7 +40,7 @@ class ServiceProviderAccessDeviceFileModifyRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName fileType
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:3437
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:16731
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -51,7 +51,7 @@ class ServiceProviderAccessDeviceFileModifyRequest extends \CWM\BroadWorksConnec
      * @ElementName fileSource
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationMode
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:3437
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:16731
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationMode|null
      */
     private $fileSource = null;
@@ -60,7 +60,7 @@ class ServiceProviderAccessDeviceFileModifyRequest extends \CWM\BroadWorksConnec
      * @ElementName uploadFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\FileResource
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:3437
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:16731
      * @var \CWM\BroadWorksConnector\Ocip\Models\FileResource|null
      */
     private $uploadFile = null;

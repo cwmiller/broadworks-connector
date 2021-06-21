@@ -6,13 +6,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupInterceptGroupModifyRequest
  *
  * Modify the group's intercept group service settings.
- *                 The response is either a SuccessResponse or an ErrorResponse.
- *                 Replaced By: GroupInterceptGroupModifyRequest16
+ *         The response is either a SuccessResponse or an ErrorResponse.
+ *         Replaced By: GroupInterceptGroupModifyRequest16
  *
  * @see SuccessResponse
  * @see ErrorResponse
  * @see GroupInterceptGroupModifyRequest16
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:9145","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:10873","type":"sequence"}]
  */
 class GroupInterceptGroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class GroupInterceptGroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:9145
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:10873
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -30,7 +30,7 @@ class GroupInterceptGroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName groupId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:9145
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:10873
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -41,7 +41,7 @@ class GroupInterceptGroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName isActive
      * @Type bool
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:9145
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:10873
      * @var bool|null
      */
     private $isActive = null;
@@ -50,7 +50,7 @@ class GroupInterceptGroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName announcementSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:9145
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:10873
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection|null
      */
     private $announcementSelection = null;
@@ -59,7 +59,7 @@ class GroupInterceptGroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName audioFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:9145
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:10873
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource|null
      */
     private $audioFile = null;
@@ -68,7 +68,7 @@ class GroupInterceptGroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName videoFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:9145
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:10873
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource|null
      */
     private $videoFile = null;
@@ -77,7 +77,7 @@ class GroupInterceptGroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName playNewPhoneNumber
      * @Type bool
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:9145
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:10873
      * @var bool|null
      */
     private $playNewPhoneNumber = null;
@@ -87,7 +87,7 @@ class GroupInterceptGroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Type string
      * @Nillable
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:9145
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:10873
      * @MinLength 1
      * @MaxLength 23
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -98,7 +98,7 @@ class GroupInterceptGroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName transferOnZeroToPhoneNumber
      * @Type bool
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:9145
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:10873
      * @var bool|null
      */
     private $transferOnZeroToPhoneNumber = null;
@@ -108,7 +108,7 @@ class GroupInterceptGroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Type string
      * @Nillable
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:9145
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:10873
      * @MinLength 1
      * @MaxLength 30
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil

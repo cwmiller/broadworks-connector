@@ -24,7 +24,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see UserEnterpriseCommonPhoneListGetPagedSortedListResponse
  * @see ErrorResponse
  * @see ErrorResponse
- * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:1627","type":"sequence","children":[{"id":"53d18cc797d03d802cbc411ad821f1d4:1630","type":"choice"}]}]
+ * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:1735","type":"sequence","children":[{"id":"53d18cc797d03d802cbc411ad821f1d4:1738","type":"choice"}]}]
  */
 class UserEnterpriseCommonPhoneListGetPagedSortedListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -32,7 +32,7 @@ class UserEnterpriseCommonPhoneListGetPagedSortedListRequest extends \CWM\BroadW
     /**
      * @ElementName userId
      * @Type string
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:1627
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:1735
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -42,7 +42,7 @@ class UserEnterpriseCommonPhoneListGetPagedSortedListRequest extends \CWM\BroadW
     /**
      * @ElementName responsePagingControl
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:1627
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:1735
      * @var \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl|null
      */
     private $responsePagingControl = null;
@@ -50,7 +50,7 @@ class UserEnterpriseCommonPhoneListGetPagedSortedListRequest extends \CWM\BroadW
     /**
      * @ElementName sortByEnterpriseCommonPhoneListNumber
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByEnterpriseCommonPhoneListNumber
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:1630
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:1738
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByEnterpriseCommonPhoneListNumber|null
      */
     private $sortByEnterpriseCommonPhoneListNumber = null;
@@ -58,7 +58,7 @@ class UserEnterpriseCommonPhoneListGetPagedSortedListRequest extends \CWM\BroadW
     /**
      * @ElementName sortByEnterpriseCommonPhoneListName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByEnterpriseCommonPhoneListName
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:1630
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:1738
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByEnterpriseCommonPhoneListName|null
      */
     private $sortByEnterpriseCommonPhoneListName = null;
@@ -67,7 +67,7 @@ class UserEnterpriseCommonPhoneListGetPagedSortedListRequest extends \CWM\BroadW
      * @ElementName searchCriteriaModeOr
      * @Type bool
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:1627
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:1735
      * @var bool|null
      */
     private $searchCriteriaModeOr = null;
@@ -77,7 +77,7 @@ class UserEnterpriseCommonPhoneListGetPagedSortedListRequest extends \CWM\BroadW
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaEnterpriseCommonPhoneListName
      * @Array
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:1627
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:1735
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaEnterpriseCommonPhoneListName[]
      */
     private $searchCriteriaEnterpriseCommonPhoneListName = array(
@@ -89,7 +89,7 @@ class UserEnterpriseCommonPhoneListGetPagedSortedListRequest extends \CWM\BroadW
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaEnterpriseCommonPhoneListNumber
      * @Array
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:1627
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:1735
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaEnterpriseCommonPhoneListNumber[]
      */
     private $searchCriteriaEnterpriseCommonPhoneListNumber = array(
@@ -101,7 +101,7 @@ class UserEnterpriseCommonPhoneListGetPagedSortedListRequest extends \CWM\BroadW
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaEnterpriseCommonMultiPartPhoneListName
      * @Array
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:1627
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:1735
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaEnterpriseCommonMultiPartPhoneListName[]
      */
     private $searchCriteriaEnterpriseCommonMultiPartPhoneListName = array(

@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response contains a table with columns: "Tag Name", and "Tag Value".
  *
  * @see UserAccessDeviceTagsGetRequest
- * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:254","type":"sequence"}]
+ * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:325","type":"sequence"}]
  */
 class UserAccessDeviceTagsGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class UserAccessDeviceTagsGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName deviceTagsTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:254
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:325
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $deviceTagsTable = null;

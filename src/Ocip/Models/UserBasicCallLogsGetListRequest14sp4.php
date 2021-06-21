@@ -6,8 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserBasicCallLogsGetListRequest14sp4
  *
  * Request user's call logs.
- *           If the callLogType is not specified, all types of calls are returned.
- *           The response is either a UserBasicCallLogsGetListResponse14sp4 or an ErrorResponse.
+ *         If the callLogType is not specified, all types of calls are returned.
+ *         The response is either a UserBasicCallLogsGetListResponse14sp4 or an ErrorResponse.
  *
  * @see UserBasicCallLogsGetListResponse14sp4
  * @see ErrorResponse
@@ -34,6 +34,15 @@ class UserBasicCallLogsGetListRequest14sp4 extends \CWM\BroadWorksConnector\Ocip
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallLogsType|null
      */
     private $callLogType = null;
+
+    /**
+     * @ElementName formatNameAndNumber
+     * @Type bool
+     * @Optional
+     * @Group f8236d2e87356bf980f5d808d1d0ceb3:41
+     * @var bool|null
+     */
+    private $formatNameAndNumber = null;
 
     /**
      * Getter for userId
@@ -94,6 +103,37 @@ class UserBasicCallLogsGetListRequest14sp4 extends \CWM\BroadWorksConnector\Ocip
     public function unsetCallLogType()
     {
         $this->callLogType = null;
+        return $this;
+    }
+
+    /**
+     * Getter for formatNameAndNumber
+     *
+     * @return bool
+     */
+    public function getFormatNameAndNumber()
+    {
+        return $this->formatNameAndNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->formatNameAndNumber;
+    }
+
+    /**
+     * Setter for formatNameAndNumber
+     *
+     * @param bool $formatNameAndNumber
+     * @return $this
+     */
+    public function setFormatNameAndNumber($formatNameAndNumber)
+    {
+        $this->formatNameAndNumber = $formatNameAndNumber;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetFormatNameAndNumber()
+    {
+        $this->formatNameAndNumber = null;
         return $this;
     }
 

@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to UserPortalPasscodeRulesGetRequest.
  *
  * @see UserPortalPasscodeRulesGetRequest
- * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:3289","type":"sequence"}]
+ * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:3327","type":"sequence"}]
  */
 class UserPortalPasscodeRulesGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class UserPortalPasscodeRulesGetResponse extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName disallowRepeatedDigits
      * @Type bool
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:3289
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:3327
      * @var bool|null
      */
     private $disallowRepeatedDigits = null;
@@ -24,7 +24,7 @@ class UserPortalPasscodeRulesGetResponse extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName numberOfRepeatedDigits
      * @Type int
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:3289
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:3327
      * @MinInclusive 1
      * @MaxInclusive 6
      * @var int|null
@@ -34,7 +34,7 @@ class UserPortalPasscodeRulesGetResponse extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName disallowRepeatedPatterns
      * @Type bool
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:3289
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:3327
      * @var bool|null
      */
     private $disallowRepeatedPatterns = null;
@@ -42,7 +42,7 @@ class UserPortalPasscodeRulesGetResponse extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName disallowContiguousSequences
      * @Type bool
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:3289
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:3327
      * @var bool|null
      */
     private $disallowContiguousSequences = null;
@@ -50,7 +50,7 @@ class UserPortalPasscodeRulesGetResponse extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName numberOfAscendingDigits
      * @Type int
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:3289
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:3327
      * @MinInclusive 2
      * @MaxInclusive 5
      * @var int|null
@@ -60,7 +60,7 @@ class UserPortalPasscodeRulesGetResponse extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName numberOfDescendingDigits
      * @Type int
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:3289
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:3327
      * @MinInclusive 2
      * @MaxInclusive 5
      * @var int|null
@@ -70,7 +70,7 @@ class UserPortalPasscodeRulesGetResponse extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName disallowUserNumber
      * @Type bool
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:3289
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:3327
      * @var bool|null
      */
     private $disallowUserNumber = null;
@@ -78,7 +78,7 @@ class UserPortalPasscodeRulesGetResponse extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName disallowReversedUserNumber
      * @Type bool
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:3289
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:3327
      * @var bool|null
      */
     private $disallowReversedUserNumber = null;
@@ -86,7 +86,7 @@ class UserPortalPasscodeRulesGetResponse extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName disallowOldPasscode
      * @Type bool
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:3289
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:3327
      * @var bool|null
      */
     private $disallowOldPasscode = null;
@@ -94,7 +94,7 @@ class UserPortalPasscodeRulesGetResponse extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName numberOfPreviousPasscodes
      * @Type int
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:3289
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:3327
      * @MinInclusive 1
      * @MaxInclusive 10
      * @var int|null
@@ -104,7 +104,7 @@ class UserPortalPasscodeRulesGetResponse extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName disallowReversedOldPasscode
      * @Type bool
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:3289
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:3327
      * @var bool|null
      */
     private $disallowReversedOldPasscode = null;
@@ -112,7 +112,7 @@ class UserPortalPasscodeRulesGetResponse extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName minCodeLength
      * @Type int
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:3289
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:3327
      * @MinInclusive 2
      * @MaxInclusive 15
      * @var int|null
@@ -122,7 +122,7 @@ class UserPortalPasscodeRulesGetResponse extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName maxCodeLength
      * @Type int
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:3289
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:3327
      * @MinInclusive 3
      * @MaxInclusive 30
      * @var int|null
@@ -132,7 +132,7 @@ class UserPortalPasscodeRulesGetResponse extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName disableLoginAfterMaxFailedLoginAttempts
      * @Type bool
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:3289
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:3327
      * @var bool|null
      */
     private $disableLoginAfterMaxFailedLoginAttempts = null;
@@ -141,7 +141,7 @@ class UserPortalPasscodeRulesGetResponse extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName maxFailedLoginAttempts
      * @Type int
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:3289
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:3327
      * @MinInclusive 2
      * @MaxInclusive 10
      * @var int|null
@@ -151,7 +151,7 @@ class UserPortalPasscodeRulesGetResponse extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName expirePassword
      * @Type bool
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:3289
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:3327
      * @var bool|null
      */
     private $expirePassword = null;
@@ -160,7 +160,7 @@ class UserPortalPasscodeRulesGetResponse extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName passcodeExpiresDays
      * @Type int
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:3289
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:3327
      * @MinInclusive 15
      * @MaxInclusive 180
      * @var int|null
@@ -170,7 +170,7 @@ class UserPortalPasscodeRulesGetResponse extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName sendLoginDisabledNotifyEmail
      * @Type bool
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:3289
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:3327
      * @var bool|null
      */
     private $sendLoginDisabledNotifyEmail = null;
@@ -179,7 +179,7 @@ class UserPortalPasscodeRulesGetResponse extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName loginDisabledNotifyEmailAddress
      * @Type string
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:3289
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:3327
      * @MinLength 1
      * @MaxLength 80
      * @var string|null

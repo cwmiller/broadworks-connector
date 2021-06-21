@@ -6,13 +6,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupAccessDeviceFileModifyRequest
  *
  * Request to modify a specified group access device file.
- *                 The response is either a SuccessResponse or an ErrorResponse.
- *                 Replaced By: GroupAccessDeviceFileModifyRequest14sp8
+ *           The response is either a SuccessResponse or an ErrorResponse.
+ *           Replaced By: GroupAccessDeviceFileModifyRequest14sp8
  *
  * @see SuccessResponse
  * @see ErrorResponse
  * @see GroupAccessDeviceFileModifyRequest14sp8
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:601","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:2974","type":"sequence"}]
  */
 class GroupAccessDeviceFileModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class GroupAccessDeviceFileModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:601
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:2974
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -30,7 +30,7 @@ class GroupAccessDeviceFileModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName groupId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:601
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:2974
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -40,7 +40,7 @@ class GroupAccessDeviceFileModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName deviceName
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:601
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:2974
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -50,7 +50,7 @@ class GroupAccessDeviceFileModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName fileType
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:601
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:2974
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -61,7 +61,7 @@ class GroupAccessDeviceFileModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName fileSource
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationMode
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:601
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:2974
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationMode|null
      */
     private $fileSource = null;
@@ -70,7 +70,7 @@ class GroupAccessDeviceFileModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName uploadFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\FileResource
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:601
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:2974
      * @var \CWM\BroadWorksConnector\Ocip\Models\FileResource|null
      */
     private $uploadFile = null;

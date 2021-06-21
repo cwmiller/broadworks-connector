@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserBusyLampFieldGetAvailableUserListResponse
  * @see ErrorResponse
- * @Groups [{"id":"4faeca417998d23ce2ff6b0b43212aa6:150","type":"sequence"}]
+ * @Groups [{"id":"4faeca417998d23ce2ff6b0b43212aa6:124","type":"sequence"}]
  */
 class UserBusyLampFieldGetAvailableUserListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserBusyLampFieldGetAvailableUserListRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName userId
      * @Type string
-     * @Group 4faeca417998d23ce2ff6b0b43212aa6:150
+     * @Group 4faeca417998d23ce2ff6b0b43212aa6:124
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -29,7 +29,7 @@ class UserBusyLampFieldGetAvailableUserListRequest extends \CWM\BroadWorksConnec
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group 4faeca417998d23ce2ff6b0b43212aa6:150
+     * @Group 4faeca417998d23ce2ff6b0b43212aa6:124
      * @MinInclusive 1
      * @var int|null
      */
@@ -40,7 +40,7 @@ class UserBusyLampFieldGetAvailableUserListRequest extends \CWM\BroadWorksConnec
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName
      * @Array
      * @Optional
-     * @Group 4faeca417998d23ce2ff6b0b43212aa6:150
+     * @Group 4faeca417998d23ce2ff6b0b43212aa6:124
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[]
      */
     private $searchCriteriaUserLastName = array(
@@ -52,7 +52,7 @@ class UserBusyLampFieldGetAvailableUserListRequest extends \CWM\BroadWorksConnec
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName
      * @Array
      * @Optional
-     * @Group 4faeca417998d23ce2ff6b0b43212aa6:150
+     * @Group 4faeca417998d23ce2ff6b0b43212aa6:124
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName[]
      */
     private $searchCriteriaUserFirstName = array(
@@ -63,7 +63,7 @@ class UserBusyLampFieldGetAvailableUserListRequest extends \CWM\BroadWorksConnec
      * @ElementName searchCriteriaExactUserDepartment
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment
      * @Optional
-     * @Group 4faeca417998d23ce2ff6b0b43212aa6:150
+     * @Group 4faeca417998d23ce2ff6b0b43212aa6:124
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment|null
      */
     private $searchCriteriaExactUserDepartment = null;
@@ -72,7 +72,7 @@ class UserBusyLampFieldGetAvailableUserListRequest extends \CWM\BroadWorksConnec
      * @ElementName searchCriteriaExactUserGroup
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserGroup
      * @Optional
-     * @Group 4faeca417998d23ce2ff6b0b43212aa6:150
+     * @Group 4faeca417998d23ce2ff6b0b43212aa6:124
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserGroup|null
      */
     private $searchCriteriaExactUserGroup = null;
@@ -82,7 +82,7 @@ class UserBusyLampFieldGetAvailableUserListRequest extends \CWM\BroadWorksConnec
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId
      * @Array
      * @Optional
-     * @Group 4faeca417998d23ce2ff6b0b43212aa6:150
+     * @Group 4faeca417998d23ce2ff6b0b43212aa6:124
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId[]
      */
     private $searchCriteriaUserId = array(
@@ -94,7 +94,7 @@ class UserBusyLampFieldGetAvailableUserListRequest extends \CWM\BroadWorksConnec
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn
      * @Array
      * @Optional
-     * @Group 4faeca417998d23ce2ff6b0b43212aa6:150
+     * @Group 4faeca417998d23ce2ff6b0b43212aa6:124
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[]
      */
     private $searchCriteriaDn = array(
@@ -106,7 +106,7 @@ class UserBusyLampFieldGetAvailableUserListRequest extends \CWM\BroadWorksConnec
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension
      * @Array
      * @Optional
-     * @Group 4faeca417998d23ce2ff6b0b43212aa6:150
+     * @Group 4faeca417998d23ce2ff6b0b43212aa6:124
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension[]
      */
     private $searchCriteriaExtension = array(
@@ -118,7 +118,7 @@ class UserBusyLampFieldGetAvailableUserListRequest extends \CWM\BroadWorksConnec
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaImpId
      * @Array
      * @Optional
-     * @Group 4faeca417998d23ce2ff6b0b43212aa6:150
+     * @Group 4faeca417998d23ce2ff6b0b43212aa6:124
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaImpId[]
      */
     private $searchCriteriaImpId = array(

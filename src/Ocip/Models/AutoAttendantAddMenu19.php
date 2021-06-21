@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         after business
  *         hours.
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:532","type":"sequence"}]
+ * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:658","type":"sequence"}]
  */
 class AutoAttendantAddMenu19
 {
@@ -19,7 +19,7 @@ class AutoAttendantAddMenu19
     /**
      * @ElementName announcementSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:532
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:658
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection|null
      */
     private $announcementSelection = null;
@@ -28,7 +28,7 @@ class AutoAttendantAddMenu19
      * @ElementName audioFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:532
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:658
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null
      */
     private $audioFile = null;
@@ -37,7 +37,7 @@ class AutoAttendantAddMenu19
      * @ElementName videoFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:532
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:658
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null
      */
     private $videoFile = null;
@@ -45,7 +45,7 @@ class AutoAttendantAddMenu19
     /**
      * @ElementName enableFirstMenuLevelExtensionDialing
      * @Type bool
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:532
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:658
      * @var bool|null
      */
     private $enableFirstMenuLevelExtensionDialing = null;
@@ -55,7 +55,7 @@ class AutoAttendantAddMenu19
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantKeyConfiguration19
      * @Array
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:532
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:658
      * @var \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantKeyConfiguration19[]
      */
     private $keyConfiguration = array(

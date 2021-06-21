@@ -6,11 +6,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupAnnouncementRepositoryGetSettingsRequest
  *
  * Return the disk space being used.
+ *
  *         The response is either a GroupAnnouncementRepositoryGetSettingsResponse or an ErrorResponse.
  *
  * @see GroupAnnouncementRepositoryGetSettingsResponse
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:1597","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:2102","type":"sequence"}]
  */
 class GroupAnnouncementRepositoryGetSettingsRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +19,7 @@ class GroupAnnouncementRepositoryGetSettingsRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1597
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:2102
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +29,7 @@ class GroupAnnouncementRepositoryGetSettingsRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1597
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:2102
      * @MinLength 1
      * @MaxLength 30
      * @var string|null

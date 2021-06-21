@@ -6,10 +6,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemMailParametersGetResponse
  *
  * Response to SystemMailParametersGetListRequest.
- *                 Contains a list of system Mail parameters.
+ *         Contains a list of system Mail parameters.
  *
  * @see SystemMailParametersGetListRequest
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:38852","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:27555","type":"sequence"}]
  */
 class SystemMailParametersGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class SystemMailParametersGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName primaryServerNetAddress
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:38852
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:27555
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -29,7 +29,7 @@ class SystemMailParametersGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName secondaryServerNetAddress
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:38852
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:27555
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -39,7 +39,7 @@ class SystemMailParametersGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName defaultFromAddress
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:38852
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:27555
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -50,7 +50,7 @@ class SystemMailParametersGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName defaultSubject
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:38852
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:27555
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -60,7 +60,7 @@ class SystemMailParametersGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName supportDNSSRVForMailServerAccess
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:38852
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:27555
      * @var bool|null
      */
     private $supportDNSSRVForMailServerAccess = null;

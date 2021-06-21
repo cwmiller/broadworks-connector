@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * The response to a SystemBroadWorksMobilityGetRequest17sp4.
  *
  * @see SystemBroadWorksMobilityGetRequest17sp4
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:31395","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:20246","type":"sequence"}]
  */
 class SystemBroadWorksMobilityGetResponse17sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class SystemBroadWorksMobilityGetResponse17sp4 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName enableLocationServices
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:31395
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:20246
      * @var bool|null
      */
     private $enableLocationServices = null;
@@ -24,7 +24,7 @@ class SystemBroadWorksMobilityGetResponse17sp4 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName enableMSRNLookup
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:31395
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:20246
      * @var bool|null
      */
     private $enableMSRNLookup = null;
@@ -32,7 +32,7 @@ class SystemBroadWorksMobilityGetResponse17sp4 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName enableMobileStateChecking
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:31395
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:20246
      * @var bool|null
      */
     private $enableMobileStateChecking = null;
@@ -40,7 +40,7 @@ class SystemBroadWorksMobilityGetResponse17sp4 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName denyCallOriginations
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:31395
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:20246
      * @var bool|null
      */
     private $denyCallOriginations = null;
@@ -48,7 +48,7 @@ class SystemBroadWorksMobilityGetResponse17sp4 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName denyCallTerminations
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:31395
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:20246
      * @var bool|null
      */
     private $denyCallTerminations = null;
@@ -56,7 +56,7 @@ class SystemBroadWorksMobilityGetResponse17sp4 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName imrnTimeoutMillisecnds
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:31395
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:20246
      * @MinInclusive 100
      * @MaxInclusive 60000
      * @var int|null
@@ -67,7 +67,7 @@ class SystemBroadWorksMobilityGetResponse17sp4 extends \CWM\BroadWorksConnector\
      * @ElementName scfSignalingNetAddress
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:31395
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:20246
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -78,7 +78,7 @@ class SystemBroadWorksMobilityGetResponse17sp4 extends \CWM\BroadWorksConnector\
      * @ElementName scfSignalingPort
      * @Type int
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:31395
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:20246
      * @MinInclusive 1
      * @MaxInclusive 65535
      * @var int|null
@@ -88,7 +88,7 @@ class SystemBroadWorksMobilityGetResponse17sp4 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName refreshPeriodSeconds
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:31395
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:20246
      * @MinInclusive 10
      * @MaxInclusive 1800
      * @var int|null
@@ -98,7 +98,7 @@ class SystemBroadWorksMobilityGetResponse17sp4 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName maxConsecutiveFailures
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:31395
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:20246
      * @MinInclusive 1
      * @MaxInclusive 10
      * @var int|null
@@ -108,7 +108,7 @@ class SystemBroadWorksMobilityGetResponse17sp4 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName maxResponseWaitTimeMilliseconds
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:31395
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:20246
      * @MinInclusive 100
      * @MaxInclusive 10000
      * @var int|null

@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:1675","type":"sequence"}]
+ * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:2177","type":"sequence"}]
  */
 class ServiceProviderCommunicationBarringDigitPatternCriteriaModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class ServiceProviderCommunicationBarringDigitPatternCriteriaModifyRequest exten
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1675
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2177
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +28,7 @@ class ServiceProviderCommunicationBarringDigitPatternCriteriaModifyRequest exten
     /**
      * @ElementName name
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1675
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2177
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -39,7 +39,7 @@ class ServiceProviderCommunicationBarringDigitPatternCriteriaModifyRequest exten
      * @ElementName newName
      * @Type string
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1675
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2177
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -51,7 +51,7 @@ class ServiceProviderCommunicationBarringDigitPatternCriteriaModifyRequest exten
      * @Type string
      * @Nillable
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1675
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2177
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -63,7 +63,7 @@ class ServiceProviderCommunicationBarringDigitPatternCriteriaModifyRequest exten
      * @Type string
      * @Array
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1675
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2177
      * @MinLength 1
      * @MaxLength 160
      * @var string[]
@@ -77,7 +77,7 @@ class ServiceProviderCommunicationBarringDigitPatternCriteriaModifyRequest exten
      * @Type string
      * @Array
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1675
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2177
      * @MinLength 1
      * @MaxLength 160
      * @var string[]

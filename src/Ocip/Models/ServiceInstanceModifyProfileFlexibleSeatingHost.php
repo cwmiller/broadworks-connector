@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Service Profile Information for a flexible seating host
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:3638","type":"sequence"}]
+ * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:4288","type":"sequence"}]
  */
 class ServiceInstanceModifyProfileFlexibleSeatingHost
 {
@@ -16,7 +16,7 @@ class ServiceInstanceModifyProfileFlexibleSeatingHost
      * @ElementName name
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3638
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:4288
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -27,7 +27,7 @@ class ServiceInstanceModifyProfileFlexibleSeatingHost
      * @ElementName callingLineIdLastName
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3638
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:4288
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -38,7 +38,7 @@ class ServiceInstanceModifyProfileFlexibleSeatingHost
      * @ElementName callingLineIdFirstName
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3638
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:4288
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -49,7 +49,7 @@ class ServiceInstanceModifyProfileFlexibleSeatingHost
      * @ElementName hiraganaLastName
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3638
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:4288
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -60,7 +60,7 @@ class ServiceInstanceModifyProfileFlexibleSeatingHost
      * @ElementName hiraganaFirstName
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3638
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:4288
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -72,7 +72,7 @@ class ServiceInstanceModifyProfileFlexibleSeatingHost
      * @Type string
      * @Nillable
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3638
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:4288
      * @MinLength 1
      * @MaxLength 23
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -84,7 +84,7 @@ class ServiceInstanceModifyProfileFlexibleSeatingHost
      * @Type string
      * @Nillable
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3638
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:4288
      * @MinLength 2
      * @MaxLength 20
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -95,7 +95,7 @@ class ServiceInstanceModifyProfileFlexibleSeatingHost
      * @ElementName password
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3638
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:4288
      * @MinLength 1
      * @MaxLength 60
      * @var string|null
@@ -108,7 +108,7 @@ class ServiceInstanceModifyProfileFlexibleSeatingHost
      * @Nillable
      * @Abstract \CWM\BroadWorksConnector\Ocip\Models\EnterpriseDepartmentKey,\CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentKey
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3638
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:4288
      * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $department = null;
@@ -117,7 +117,7 @@ class ServiceInstanceModifyProfileFlexibleSeatingHost
      * @ElementName language
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3638
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:4288
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -128,7 +128,7 @@ class ServiceInstanceModifyProfileFlexibleSeatingHost
      * @ElementName timeZone
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3638
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:4288
      * @MinLength 1
      * @MaxLength 127
      * @var string|null
@@ -140,7 +140,7 @@ class ServiceInstanceModifyProfileFlexibleSeatingHost
      * @Type string
      * @Nillable
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3638
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:4288
      * @MinLength 1
      * @MaxLength 23
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil

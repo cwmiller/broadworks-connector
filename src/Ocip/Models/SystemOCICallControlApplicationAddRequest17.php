@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SuccessResponse
  * @see ErrorResponse
  * @see SystemOCICallControlApplicationAddRequest22
- * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:6316","type":"sequence"}]
+ * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:8769","type":"sequence"}]
  */
 class SystemOCICallControlApplicationAddRequest17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,7 +21,7 @@ class SystemOCICallControlApplicationAddRequest17 extends \CWM\BroadWorksConnect
     /**
      * @ElementName applicationId
      * @Type string
-     * @Group de4d76f01f337fe4694212ec9f771753:6316
+     * @Group de4d76f01f337fe4694212ec9f771753:8769
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -31,7 +31,7 @@ class SystemOCICallControlApplicationAddRequest17 extends \CWM\BroadWorksConnect
     /**
      * @ElementName enableSystemWide
      * @Type bool
-     * @Group de4d76f01f337fe4694212ec9f771753:6316
+     * @Group de4d76f01f337fe4694212ec9f771753:8769
      * @var bool|null
      */
     private $enableSystemWide = null;
@@ -39,7 +39,7 @@ class SystemOCICallControlApplicationAddRequest17 extends \CWM\BroadWorksConnect
     /**
      * @ElementName notificationTimeoutSeconds
      * @Type int
-     * @Group de4d76f01f337fe4694212ec9f771753:6316
+     * @Group de4d76f01f337fe4694212ec9f771753:8769
      * @MinInclusive 2
      * @MaxInclusive 30
      * @var int|null
@@ -50,7 +50,7 @@ class SystemOCICallControlApplicationAddRequest17 extends \CWM\BroadWorksConnect
      * @ElementName description
      * @Type string
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:6316
+     * @Group de4d76f01f337fe4694212ec9f771753:8769
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -60,7 +60,7 @@ class SystemOCICallControlApplicationAddRequest17 extends \CWM\BroadWorksConnect
     /**
      * @ElementName maxEventChannelsPerSet
      * @Type int
-     * @Group de4d76f01f337fe4694212ec9f771753:6316
+     * @Group de4d76f01f337fe4694212ec9f771753:8769
      * @MinInclusive 1
      * @MaxInclusive 100
      * @var int|null

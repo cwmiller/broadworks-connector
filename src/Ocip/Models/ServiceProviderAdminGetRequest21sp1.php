@@ -7,10 +7,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Get a service provider administrators profile.
  *         The response is either a ServiceProviderAdminGetResponse21sp1 or an ErrorResponse.
+ *         Replaced by: ServiceProviderAdminGetRequest22.
  *
  * @see ServiceProviderAdminGetResponse21sp1
  * @see ErrorResponse
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:1044","type":"sequence"}]
+ * @see ServiceProviderAdminGetRequest22
+ * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:5142","type":"sequence"}]
  */
 class ServiceProviderAdminGetRequest21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +20,7 @@ class ServiceProviderAdminGetRequest21sp1 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName userId
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1044
+     * @Group de4d76f01f337fe4694212ec9f771753:5142
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

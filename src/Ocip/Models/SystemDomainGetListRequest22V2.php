@@ -12,15 +12,17 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         
  *         The response is either SystemDomainGetListResponse22V2 or ErrorResponse.
  *         
- *         The following elements are only used in AS data mode and will be ignored in XS data mode:
+ *         The following elements are only used in AS data mode and will be ingored in XS data mode:
  *           includeReseller
  *           resellerId
  *           responseSizeLimit
  *           searchCriteriaDomainName
+ *           searchCriteriaResellerId
+ *           searchCriteriaExactDomainLevel
  *
  * @see SystemDomainGetListResponse22V2
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:8468","type":"sequence","children":[{"id":"7f663d5135470c33ca64b0eed3c3aa0c:8469","type":"choice"}]}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:9498","type":"sequence","children":[{"id":"7f663d5135470c33ca64b0eed3c3aa0c:9499","type":"choice"}]}]
  */
 class SystemDomainGetListRequest22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -29,7 +31,7 @@ class SystemDomainGetListRequest22V2 extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName excludeReseller
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8469
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9499
      * @var bool|null
      */
     private $excludeReseller = null;
@@ -38,9 +40,9 @@ class SystemDomainGetListRequest22V2 extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName resellerId
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8469
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9499
      * @MinLength 1
-     * @MaxLength 30
+     * @MaxLength 36
      * @var string|null
      */
     private $resellerId = null;
@@ -49,7 +51,7 @@ class SystemDomainGetListRequest22V2 extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8468
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9498
      * @MinInclusive 1
      * @var int|null
      */
@@ -60,10 +62,34 @@ class SystemDomainGetListRequest22V2 extends \CWM\BroadWorksConnector\Ocip\Model
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDomainName
      * @Array
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8468
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9498
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDomainName[]
      */
     private $searchCriteriaDomainName = array(
+        
+    );
+
+    /**
+     * @ElementName searchCriteriaResellerId
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaResellerId
+     * @Array
+     * @Optional
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9498
+     * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaResellerId[]
+     */
+    private $searchCriteriaResellerId = array(
+        
+    );
+
+    /**
+     * @ElementName searchCriteriaExactDomainLevel
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDomainLevel
+     * @Array
+     * @Optional
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9498
+     * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDomainLevel[]
+     */
+    private $searchCriteriaExactDomainLevel = array(
         
     );
 
@@ -200,6 +226,92 @@ class SystemDomainGetListRequest22V2 extends \CWM\BroadWorksConnector\Ocip\Model
     public function addSearchCriteriaDomainName($searchCriteriaDomainName)
     {
         $this->searchCriteriaDomainName[] = $searchCriteriaDomainName;
+        return $this;
+    }
+
+    /**
+     * Getter for searchCriteriaResellerId
+     *
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaResellerId[]
+     */
+    public function getSearchCriteriaResellerId()
+    {
+        return $this->searchCriteriaResellerId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->searchCriteriaResellerId;
+    }
+
+    /**
+     * Setter for searchCriteriaResellerId
+     *
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaResellerId[] $searchCriteriaResellerId
+     * @return $this
+     */
+    public function setSearchCriteriaResellerId(array $searchCriteriaResellerId)
+    {
+        $this->searchCriteriaResellerId = $searchCriteriaResellerId;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetSearchCriteriaResellerId()
+    {
+        $this->searchCriteriaResellerId = null;
+        return $this;
+    }
+
+    /**
+     * Adder for searchCriteriaResellerId
+     *
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaResellerId $searchCriteriaResellerId
+     * @return $this
+     */
+    public function addSearchCriteriaResellerId($searchCriteriaResellerId)
+    {
+        $this->searchCriteriaResellerId[] = $searchCriteriaResellerId;
+        return $this;
+    }
+
+    /**
+     * Getter for searchCriteriaExactDomainLevel
+     *
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDomainLevel[]
+     */
+    public function getSearchCriteriaExactDomainLevel()
+    {
+        return $this->searchCriteriaExactDomainLevel instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->searchCriteriaExactDomainLevel;
+    }
+
+    /**
+     * Setter for searchCriteriaExactDomainLevel
+     *
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDomainLevel[] $searchCriteriaExactDomainLevel
+     * @return $this
+     */
+    public function setSearchCriteriaExactDomainLevel(array $searchCriteriaExactDomainLevel)
+    {
+        $this->searchCriteriaExactDomainLevel = $searchCriteriaExactDomainLevel;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetSearchCriteriaExactDomainLevel()
+    {
+        $this->searchCriteriaExactDomainLevel = null;
+        return $this;
+    }
+
+    /**
+     * Adder for searchCriteriaExactDomainLevel
+     *
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDomainLevel $searchCriteriaExactDomainLevel
+     * @return $this
+     */
+    public function addSearchCriteriaExactDomainLevel($searchCriteriaExactDomainLevel)
+    {
+        $this->searchCriteriaExactDomainLevel[] = $searchCriteriaExactDomainLevel;
         return $this;
     }
 

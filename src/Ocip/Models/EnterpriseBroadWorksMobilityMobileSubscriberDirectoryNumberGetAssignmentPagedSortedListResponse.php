@@ -5,7 +5,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * EnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAssignmentPagedSortedListResponse
  *
- * Response to EnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAssignmentListRequest.
+ * Response to EnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAssignmentPagedSortedListRequest.
  *         The response contains a table with columns: "Mobile Number", "User Id", "Last Name", "First Name", "Phone Number", "Extension", 
  *         "Group Id", "Department", "Department Type", "Parent Department", "Parent Department Type", "Mobile Network", "Country Code", 
  *         "National Prefix", "Available", "Mobile Country Code", "Mobile National Prefix".
@@ -23,9 +23,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The "Available" column indicates if the Mobile Number is available.
  *         The "Mobile Country Code" column indicates the dialing prefix for the mobile number.
  *         The "Mobile National Prefix" column indicates the digit sequence to be dialed before the mobile number.
+ *         Replaced by: EnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAssignmentPagedSortedListResponse22
  *
- * @see EnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAssignmentListRequest
- * @Groups [{"id":"f7ae3539fd471e995b07dc1bf8836e2d:190","type":"sequence"}]
+ * @see EnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAssignmentPagedSortedListRequest
+ * @see EnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAssignmentPagedSortedListResponse22
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:1968","type":"sequence"}]
  */
 class EnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAssignmentPagedSortedListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -33,7 +35,7 @@ class EnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAssignmentPa
     /**
      * @ElementName mobileSubscriberDirectoryNumbersAssignmentTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group f7ae3539fd471e995b07dc1bf8836e2d:190
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:1968
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $mobileSubscriberDirectoryNumbersAssignmentTable = null;

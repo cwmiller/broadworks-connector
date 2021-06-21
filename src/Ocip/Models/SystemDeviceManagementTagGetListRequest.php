@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemDeviceManagementTagGetListResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:7298","type":"sequence","children":[{"id":"7f663d5135470c33ca64b0eed3c3aa0c:7299","type":"choice"}]}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:8003","type":"sequence","children":[{"id":"7f663d5135470c33ca64b0eed3c3aa0c:8004","type":"choice"}]}]
  */
 class SystemDeviceManagementTagGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemDeviceManagementTagGetListRequest extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName systemDefaultTagSet
      * @Type bool
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7299
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8004
      * @var bool|null
      */
     private $systemDefaultTagSet = null;
@@ -26,7 +26,7 @@ class SystemDeviceManagementTagGetListRequest extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName tagSetName
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7299
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8004
      * @MinLength 1
      * @MaxLength 30
      * @var string|null

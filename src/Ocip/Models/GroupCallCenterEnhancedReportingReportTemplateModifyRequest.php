@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:3547","type":"sequence"}]
+ * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:3562","type":"sequence"}]
  */
 class GroupCallCenterEnhancedReportingReportTemplateModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupCallCenterEnhancedReportingReportTemplateModifyRequest extends \CWM\B
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group e2c537e3e39483b96620673a7012ffdd:3547
+     * @Group e2c537e3e39483b96620673a7012ffdd:3562
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +28,7 @@ class GroupCallCenterEnhancedReportingReportTemplateModifyRequest extends \CWM\B
     /**
      * @ElementName groupId
      * @Type string
-     * @Group e2c537e3e39483b96620673a7012ffdd:3547
+     * @Group e2c537e3e39483b96620673a7012ffdd:3562
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -38,7 +38,7 @@ class GroupCallCenterEnhancedReportingReportTemplateModifyRequest extends \CWM\B
     /**
      * @ElementName name
      * @Type string
-     * @Group e2c537e3e39483b96620673a7012ffdd:3547
+     * @Group e2c537e3e39483b96620673a7012ffdd:3562
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -49,7 +49,7 @@ class GroupCallCenterEnhancedReportingReportTemplateModifyRequest extends \CWM\B
      * @ElementName newName
      * @Type string
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:3547
+     * @Group e2c537e3e39483b96620673a7012ffdd:3562
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -61,7 +61,7 @@ class GroupCallCenterEnhancedReportingReportTemplateModifyRequest extends \CWM\B
      * @Type string
      * @Nillable
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:3547
+     * @Group e2c537e3e39483b96620673a7012ffdd:3562
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -72,7 +72,7 @@ class GroupCallCenterEnhancedReportingReportTemplateModifyRequest extends \CWM\B
      * @ElementName xsltTemplate
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:3547
+     * @Group e2c537e3e39483b96620673a7012ffdd:3562
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource|null
      */
     private $xsltTemplate = null;
@@ -81,7 +81,7 @@ class GroupCallCenterEnhancedReportingReportTemplateModifyRequest extends \CWM\B
      * @ElementName scope
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportTemplateAccessOption
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:3547
+     * @Group e2c537e3e39483b96620673a7012ffdd:3562
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportTemplateAccessOption|null
      */
     private $scope = null;
@@ -90,7 +90,7 @@ class GroupCallCenterEnhancedReportingReportTemplateModifyRequest extends \CWM\B
      * @ElementName isEnabled
      * @Type bool
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:3547
+     * @Group e2c537e3e39483b96620673a7012ffdd:3562
      * @var bool|null
      */
     private $isEnabled = null;
@@ -99,7 +99,7 @@ class GroupCallCenterEnhancedReportingReportTemplateModifyRequest extends \CWM\B
      * @ElementName isRealtimeReport
      * @Type bool
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:3547
+     * @Group e2c537e3e39483b96620673a7012ffdd:3562
      * @var bool|null
      */
     private $isRealtimeReport = null;
@@ -109,7 +109,7 @@ class GroupCallCenterEnhancedReportingReportTemplateModifyRequest extends \CWM\B
      * @Type int
      * @Nillable
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:3547
+     * @Group e2c537e3e39483b96620673a7012ffdd:3562
      * @MinInclusive 1
      * @MaxInclusive 999
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -121,7 +121,7 @@ class GroupCallCenterEnhancedReportingReportTemplateModifyRequest extends \CWM\B
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportDataTemplateQueryFilterValueReplacementList
      * @Nillable
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:3547
+     * @Group e2c537e3e39483b96620673a7012ffdd:3562
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportDataTemplateQueryFilterValueReplacementList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $filterValue = null;

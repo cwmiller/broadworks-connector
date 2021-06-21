@@ -15,7 +15,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:7369","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:8074","type":"sequence"}]
  */
 class SystemDeviceManagementTagSetAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -23,7 +23,7 @@ class SystemDeviceManagementTagSetAddRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName tagSetName
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7369
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8074
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -34,9 +34,9 @@ class SystemDeviceManagementTagSetAddRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName resellerId
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7369
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8074
      * @MinLength 1
-     * @MaxLength 30
+     * @MaxLength 36
      * @var string|null
      */
     private $resellerId = null;

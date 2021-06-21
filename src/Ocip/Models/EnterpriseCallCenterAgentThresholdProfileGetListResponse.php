@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The column headings are: "Default", "Name", "Description".
  *
  * @see EnterpriseCallCenterAgentThresholdProfileGetListRequest
- * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:558","type":"sequence"}]
+ * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:569","type":"sequence"}]
  */
 class EnterpriseCallCenterAgentThresholdProfileGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class EnterpriseCallCenterAgentThresholdProfileGetListResponse extends \CWM\Broa
     /**
      * @ElementName profilesTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group e2c537e3e39483b96620673a7012ffdd:558
+     * @Group e2c537e3e39483b96620673a7012ffdd:569
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $profilesTable = null;

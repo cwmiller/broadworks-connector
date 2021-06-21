@@ -9,9 +9,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           contact[2]-contact[5]
  *         The following elements are only used in AS data mode and will fail in XS data mode:
  *           trunkAddressing
+ *           newUserExternalId
  *         The following elements are only used in AS data mode and ignored in XS data mode:
  *           nameDialingName
  *           alternateUserIdList
+ *           newUserExternalId
+ *
  *         The following elements are only used in XS data mode and ignored in AS data mode:
  *           allowVideo
  *         
@@ -20,11 +23,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The impId and impPassword are accepted when the Third-Party IMP service is assigned to the user; 
  *         when Integrated IMP service is assigned to the user and active, only the impPassword is accepted; 
  *         all other cases, the request fails if either field is changed.
- *         The response is either SuccessResponse or ErrorResponse
+ *
+ *         The response is either SuccessResponse or ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:2565","type":"sequence"}]
+ * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:2551","type":"sequence"}]
  */
 class UserModifyRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -32,7 +36,7 @@ class UserModifyRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
     /**
      * @ElementName userId
      * @Type string
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:2565
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:2551
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -43,7 +47,7 @@ class UserModifyRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
      * @ElementName lastName
      * @Type string
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:2565
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:2551
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -54,7 +58,7 @@ class UserModifyRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
      * @ElementName firstName
      * @Type string
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:2565
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:2551
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -65,7 +69,7 @@ class UserModifyRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
      * @ElementName callingLineIdLastName
      * @Type string
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:2565
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:2551
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -76,7 +80,7 @@ class UserModifyRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
      * @ElementName callingLineIdFirstName
      * @Type string
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:2565
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:2551
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -88,7 +92,7 @@ class UserModifyRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
      * @Type \CWM\BroadWorksConnector\Ocip\Models\NameDialingName
      * @Nillable
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:2565
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:2551
      * @var \CWM\BroadWorksConnector\Ocip\Models\NameDialingName|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $nameDialingName = null;
@@ -97,7 +101,7 @@ class UserModifyRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
      * @ElementName hiraganaLastName
      * @Type string
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:2565
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:2551
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -108,7 +112,7 @@ class UserModifyRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
      * @ElementName hiraganaFirstName
      * @Type string
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:2565
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:2551
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -120,7 +124,7 @@ class UserModifyRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:2565
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:2551
      * @MinLength 1
      * @MaxLength 23
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -132,7 +136,7 @@ class UserModifyRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:2565
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:2551
      * @MinLength 2
      * @MaxLength 20
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -144,7 +148,7 @@ class UserModifyRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:2565
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:2551
      * @MinLength 1
      * @MaxLength 23
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -155,7 +159,7 @@ class UserModifyRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
      * @ElementName oldPassword
      * @Type string
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:2565
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:2551
      * @MinLength 1
      * @MaxLength 60
      * @var string|null
@@ -167,7 +171,7 @@ class UserModifyRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:2565
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:2551
      * @MinLength 1
      * @MaxLength 60
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -180,7 +184,7 @@ class UserModifyRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
      * @Nillable
      * @Abstract \CWM\BroadWorksConnector\Ocip\Models\EnterpriseDepartmentKey,\CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentKey
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:2565
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:2551
      * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $department = null;
@@ -189,7 +193,7 @@ class UserModifyRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
      * @ElementName language
      * @Type string
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:2565
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:2551
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -200,7 +204,7 @@ class UserModifyRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
      * @ElementName timeZone
      * @Type string
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:2565
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:2551
      * @MinLength 1
      * @MaxLength 127
      * @var string|null
@@ -212,7 +216,7 @@ class UserModifyRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementSIPAliasList
      * @Nillable
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:2565
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:2551
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementSIPAliasList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $sipAliasList = null;
@@ -222,7 +226,7 @@ class UserModifyRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UserModifyRequest22Endpoint
      * @Nillable
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:2565
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:2551
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserModifyRequest22Endpoint|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $endpoint = null;
@@ -232,7 +236,7 @@ class UserModifyRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:2565
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:2551
      * @MinLength 1
      * @MaxLength 50
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -244,7 +248,7 @@ class UserModifyRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:2565
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:2551
      * @MinLength 1
      * @MaxLength 30
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -256,7 +260,7 @@ class UserModifyRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:2565
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:2551
      * @MinLength 1
      * @MaxLength 30
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -268,7 +272,7 @@ class UserModifyRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:2565
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:2551
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -280,7 +284,7 @@ class UserModifyRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:2565
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:2551
      * @MinLength 1
      * @MaxLength 50
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -292,7 +296,7 @@ class UserModifyRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:2565
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:2551
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -303,7 +307,7 @@ class UserModifyRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
      * @ElementName address
      * @Type \CWM\BroadWorksConnector\Ocip\Models\StreetAddress
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:2565
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:2551
      * @var \CWM\BroadWorksConnector\Ocip\Models\StreetAddress|null
      */
     private $address = null;
@@ -312,7 +316,7 @@ class UserModifyRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
      * @ElementName networkClassOfService
      * @Type string
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:2565
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:2551
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -323,7 +327,7 @@ class UserModifyRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
      * @ElementName officeZoneName
      * @Type string
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:2565
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:2551
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -334,7 +338,7 @@ class UserModifyRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
      * @ElementName primaryZoneName
      * @Type string
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:2565
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:2551
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -346,7 +350,7 @@ class UserModifyRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:2565
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:2551
      * @MinLength 1
      * @MaxLength 196
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -358,7 +362,7 @@ class UserModifyRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:2565
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:2551
      * @MinLength 1
      * @MaxLength 60
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -370,7 +374,7 @@ class UserModifyRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementAlternateUserIdEntryList
      * @Nillable
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:2565
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:2551
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementAlternateUserIdEntryList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $alternateUserIdList = null;
@@ -379,10 +383,20 @@ class UserModifyRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
      * @ElementName allowVideo
      * @Type bool
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:2565
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:2551
      * @var bool|null
      */
     private $allowVideo = null;
+
+    /**
+     * @ElementName newUserExternalId
+     * @Type string
+     * @Optional
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:2551
+     * @MaxLength 36
+     * @var string|null
+     */
+    private $newUserExternalId = null;
 
     /**
      * Getter for userId
@@ -1441,6 +1455,37 @@ class UserModifyRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
     public function unsetAllowVideo()
     {
         $this->allowVideo = null;
+        return $this;
+    }
+
+    /**
+     * Getter for newUserExternalId
+     *
+     * @return string
+     */
+    public function getNewUserExternalId()
+    {
+        return $this->newUserExternalId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->newUserExternalId;
+    }
+
+    /**
+     * Setter for newUserExternalId
+     *
+     * @param string $newUserExternalId
+     * @return $this
+     */
+    public function setNewUserExternalId($newUserExternalId)
+    {
+        $this->newUserExternalId = $newUserExternalId;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetNewUserExternalId()
+    {
+        $this->newUserExternalId = null;
         return $this;
     }
 

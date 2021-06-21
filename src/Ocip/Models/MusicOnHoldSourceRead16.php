@@ -6,10 +6,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * MusicOnHoldSourceRead16
  *
  * Contains the music on hold source configuration.
+ *     
+ *       Replaced by: MusicOnHoldSourceRead19.
  *
- *                 Replaced by: MusicOnHoldSourceRead19.
- *
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:44398","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:49146","type":"sequence"}]
  */
 class MusicOnHoldSourceRead16
 {
@@ -17,7 +17,7 @@ class MusicOnHoldSourceRead16
     /**
      * @ElementName audioFilePreferredCodec
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AudioFileCodec
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:44398
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:49146
      * @var \CWM\BroadWorksConnector\Ocip\Models\AudioFileCodec|null
      */
     private $audioFilePreferredCodec = null;
@@ -25,7 +25,7 @@ class MusicOnHoldSourceRead16
     /**
      * @ElementName messageSourceSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldMessageSelection
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:44398
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:49146
      * @var \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldMessageSelection|null
      */
     private $messageSourceSelection = null;
@@ -34,7 +34,7 @@ class MusicOnHoldSourceRead16
      * @ElementName customSource
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceRead16CustomSource
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:44398
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:49146
      * @var \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceRead16CustomSource|null
      */
     private $customSource = null;
@@ -43,7 +43,7 @@ class MusicOnHoldSourceRead16
      * @ElementName externalSource
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceRead16ExternalSource
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:44398
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:49146
      * @var \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceRead16ExternalSource|null
      */
     private $externalSource = null;

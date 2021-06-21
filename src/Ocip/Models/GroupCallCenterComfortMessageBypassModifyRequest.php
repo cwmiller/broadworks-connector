@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupCallCenterComfortMessageBypassModifyRequest
  *
  * Modify a call center's comfort message bypass settings.
- *                 The response is either a SuccessResponse or an ErrorResponse.
+ *         The response is either a SuccessResponse or an ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:12714","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:4764","type":"sequence"}]
  */
 class GroupCallCenterComfortMessageBypassModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupCallCenterComfortMessageBypassModifyRequest extends \CWM\BroadWorksCo
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:12714
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:4764
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -29,7 +29,7 @@ class GroupCallCenterComfortMessageBypassModifyRequest extends \CWM\BroadWorksCo
      * @ElementName isActive
      * @Type bool
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:12714
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:4764
      * @var bool|null
      */
     private $isActive = null;
@@ -38,7 +38,7 @@ class GroupCallCenterComfortMessageBypassModifyRequest extends \CWM\BroadWorksCo
      * @ElementName callWaitingAgeThresholdSeconds
      * @Type int
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:12714
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:4764
      * @MinInclusive 1
      * @MaxInclusive 120
      * @var int|null
@@ -49,7 +49,7 @@ class GroupCallCenterComfortMessageBypassModifyRequest extends \CWM\BroadWorksCo
      * @ElementName playAnnouncementAfterRinging
      * @Type bool
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:12714
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:4764
      * @var bool|null
      */
     private $playAnnouncementAfterRinging = null;
@@ -58,7 +58,7 @@ class GroupCallCenterComfortMessageBypassModifyRequest extends \CWM\BroadWorksCo
      * @ElementName ringTimeBeforePlayingAnnouncementSeconds
      * @Type int
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:12714
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:4764
      * @MinInclusive 0
      * @MaxInclusive 120
      * @var int|null
@@ -69,7 +69,7 @@ class GroupCallCenterComfortMessageBypassModifyRequest extends \CWM\BroadWorksCo
      * @ElementName audioMessageSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:12714
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:4764
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     private $audioMessageSelection = null;
@@ -78,7 +78,7 @@ class GroupCallCenterComfortMessageBypassModifyRequest extends \CWM\BroadWorksCo
      * @ElementName audioFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileResource
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:12714
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:4764
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileResource|null
      */
     private $audioFile = null;
@@ -87,7 +87,7 @@ class GroupCallCenterComfortMessageBypassModifyRequest extends \CWM\BroadWorksCo
      * @ElementName videoMessageSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:12714
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:4764
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     private $videoMessageSelection = null;
@@ -96,7 +96,7 @@ class GroupCallCenterComfortMessageBypassModifyRequest extends \CWM\BroadWorksCo
      * @ElementName videoFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileResource
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:12714
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:4764
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileResource|null
      */
     private $videoFile = null;

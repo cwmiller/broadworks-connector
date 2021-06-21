@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupUserHotelingGuestSettingsGetListResponse
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:7505","type":"sequence","children":[{"id":"f3a93cf15de4abd7903673e44ee3e07b:7509","type":"choice"}]}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:8757","type":"sequence","children":[{"id":"f3a93cf15de4abd7903673e44ee3e07b:8761","type":"choice"}]}]
  */
 class GroupUserHotelingGuestSettingsGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class GroupUserHotelingGuestSettingsGetListRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:7505
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:8757
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -30,7 +30,7 @@ class GroupUserHotelingGuestSettingsGetListRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:7505
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:8757
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -40,7 +40,7 @@ class GroupUserHotelingGuestSettingsGetListRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName responsePagingControl
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:7505
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:8757
      * @var \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl|null
      */
     private $responsePagingControl = null;
@@ -48,7 +48,7 @@ class GroupUserHotelingGuestSettingsGetListRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName sortByUserLastName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByUserLastName
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:7509
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:8761
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByUserLastName|null
      */
     private $sortByUserLastName = null;
@@ -56,7 +56,7 @@ class GroupUserHotelingGuestSettingsGetListRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName sortByUserFirstName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByUserFirstName
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:7509
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:8761
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByUserFirstName|null
      */
     private $sortByUserFirstName = null;
@@ -64,7 +64,7 @@ class GroupUserHotelingGuestSettingsGetListRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName sortByUserDepartment
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByUserDepartment
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:7509
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:8761
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByUserDepartment|null
      */
     private $sortByUserDepartment = null;
@@ -72,7 +72,7 @@ class GroupUserHotelingGuestSettingsGetListRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName sortByDn
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByDn
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:7509
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:8761
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByDn|null
      */
     private $sortByDn = null;
@@ -80,7 +80,7 @@ class GroupUserHotelingGuestSettingsGetListRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName sortByExtension
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByExtension
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:7509
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:8761
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByExtension|null
      */
     private $sortByExtension = null;
@@ -88,7 +88,7 @@ class GroupUserHotelingGuestSettingsGetListRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName sortByServiceStatus
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByServiceStatus
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:7509
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:8761
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByServiceStatus|null
      */
     private $sortByServiceStatus = null;
@@ -97,7 +97,7 @@ class GroupUserHotelingGuestSettingsGetListRequest extends \CWM\BroadWorksConnec
      * @ElementName includeVirtualUsers
      * @Type bool
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:7505
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:8757
      * @var bool|null
      */
     private $includeVirtualUsers = null;
@@ -107,7 +107,7 @@ class GroupUserHotelingGuestSettingsGetListRequest extends \CWM\BroadWorksConnec
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName
      * @Array
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:7505
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:8757
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[]
      */
     private $searchCriteriaUserLastName = array(
@@ -119,7 +119,7 @@ class GroupUserHotelingGuestSettingsGetListRequest extends \CWM\BroadWorksConnec
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName
      * @Array
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:7505
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:8757
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName[]
      */
     private $searchCriteriaUserFirstName = array(
@@ -131,7 +131,7 @@ class GroupUserHotelingGuestSettingsGetListRequest extends \CWM\BroadWorksConnec
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId
      * @Array
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:7505
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:8757
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId[]
      */
     private $searchCriteriaUserId = array(
@@ -143,7 +143,7 @@ class GroupUserHotelingGuestSettingsGetListRequest extends \CWM\BroadWorksConnec
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn
      * @Array
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:7505
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:8757
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[]
      */
     private $searchCriteriaDn = array(
@@ -155,7 +155,7 @@ class GroupUserHotelingGuestSettingsGetListRequest extends \CWM\BroadWorksConnec
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension
      * @Array
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:7505
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:8757
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension[]
      */
     private $searchCriteriaExtension = array(
@@ -167,7 +167,7 @@ class GroupUserHotelingGuestSettingsGetListRequest extends \CWM\BroadWorksConnec
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaEmailAddress
      * @Array
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:7505
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:8757
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaEmailAddress[]
      */
     private $searchCriteriaEmailAddress = array(
@@ -178,7 +178,7 @@ class GroupUserHotelingGuestSettingsGetListRequest extends \CWM\BroadWorksConnec
      * @ElementName searchCriteriaExactUserDepartment
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:7505
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:8757
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment|null
      */
     private $searchCriteriaExactUserDepartment = null;
@@ -187,7 +187,7 @@ class GroupUserHotelingGuestSettingsGetListRequest extends \CWM\BroadWorksConnec
      * @ElementName searchCriteriaExactUserInTrunkGroup
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserInTrunkGroup
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:7505
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:8757
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserInTrunkGroup|null
      */
     private $searchCriteriaExactUserInTrunkGroup = null;

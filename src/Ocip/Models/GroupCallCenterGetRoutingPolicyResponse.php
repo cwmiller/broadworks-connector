@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "Priority".
  *
  * @see GroupCallCenterGetRoutingPolicyRequest
- * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:4861","type":"sequence"}]
+ * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:4821","type":"sequence"}]
  */
 class GroupCallCenterGetRoutingPolicyResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class GroupCallCenterGetRoutingPolicyResponse extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName routingPolicy
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterRoutingPolicy
-     * @Group e2c537e3e39483b96620673a7012ffdd:4861
+     * @Group e2c537e3e39483b96620673a7012ffdd:4821
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterRoutingPolicy|null
      */
     private $routingPolicy = null;
@@ -26,7 +26,7 @@ class GroupCallCenterGetRoutingPolicyResponse extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName callCenterTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group e2c537e3e39483b96620673a7012ffdd:4861
+     * @Group e2c537e3e39483b96620673a7012ffdd:4821
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $callCenterTable = null;

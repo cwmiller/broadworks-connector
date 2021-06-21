@@ -6,11 +6,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserAnnouncementFileAddRequest
  *
  * Add an announcement to the user announcement repository
+ *
+ *         The following elements are only used in AS data mode and ignored in XS data mode:
+ *           announcementFileExternalId
+ *
  *         The response is either a SuccessResponse or an ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:477","type":"sequence"}]
+ * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:501","type":"sequence","children":[{"id":"53d18cc797d03d802cbc411ad821f1d4:503","type":"choice"}]}]
  */
 class UserAnnouncementFileAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +22,7 @@ class UserAnnouncementFileAddRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName userId
      * @Type string
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:477
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:501
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -28,7 +32,7 @@ class UserAnnouncementFileAddRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName announcementFileName
      * @Type string
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:477
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:503
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -36,9 +40,18 @@ class UserAnnouncementFileAddRequest extends \CWM\BroadWorksConnector\Ocip\Model
     private $announcementFileName = null;
 
     /**
+     * @ElementName announcementFileExternalId
+     * @Type string
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:503
+     * @MaxLength 36
+     * @var string|null
+     */
+    private $announcementFileExternalId = null;
+
+    /**
      * @ElementName announcementFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:477
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:501
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null
      */
     private $announcementFile = null;
@@ -102,6 +115,37 @@ class UserAnnouncementFileAddRequest extends \CWM\BroadWorksConnector\Ocip\Model
     public function unsetAnnouncementFileName()
     {
         $this->announcementFileName = null;
+        return $this;
+    }
+
+    /**
+     * Getter for announcementFileExternalId
+     *
+     * @return string
+     */
+    public function getAnnouncementFileExternalId()
+    {
+        return $this->announcementFileExternalId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->announcementFileExternalId;
+    }
+
+    /**
+     * Setter for announcementFileExternalId
+     *
+     * @param string $announcementFileExternalId
+     * @return $this
+     */
+    public function setAnnouncementFileExternalId($announcementFileExternalId)
+    {
+        $this->announcementFileExternalId = $announcementFileExternalId;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAnnouncementFileExternalId()
+    {
+        $this->announcementFileExternalId = null;
         return $this;
     }
 

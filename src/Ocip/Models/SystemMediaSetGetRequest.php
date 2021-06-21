@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemMediaSetGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:11080","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:12124","type":"sequence"}]
  */
 class SystemMediaSetGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemMediaSetGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
     /**
      * @ElementName setName
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11080
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12124
      * @MinLength 1
      * @MaxLength 80
      * @var string|null

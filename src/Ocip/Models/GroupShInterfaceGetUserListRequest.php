@@ -5,15 +5,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * GroupShInterfaceGetUserListRequest
  *
- * Returns a list of all Public User Identities and associated data in a group.
- *         The response is either a GroupShInterfaceGetUserListResponse or an ErrorResponse.
+ * Returns a list of all Public User Identities and associated data in a group. The response is either a GroupShInterfaceGetUserListResponse or an ErrorResponse.
  *         
  *         Replaced by: GroupShInterfaceGetUserListRequest21sp1 in AS data mode.
  *
  * @see GroupShInterfaceGetUserListResponse
  * @see ErrorResponse
  * @see GroupShInterfaceGetUserListRequest21sp1
- * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:5061","type":"sequence"}]
+ * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:3964","type":"sequence"}]
  */
 class GroupShInterfaceGetUserListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,7 +20,7 @@ class GroupShInterfaceGetUserListRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group de4d76f01f337fe4694212ec9f771753:5061
+     * @Group de4d76f01f337fe4694212ec9f771753:3964
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -31,7 +30,7 @@ class GroupShInterfaceGetUserListRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName groupId
      * @Type string
-     * @Group de4d76f01f337fe4694212ec9f771753:5061
+     * @Group de4d76f01f337fe4694212ec9f771753:3964
      * @MinLength 1
      * @MaxLength 30
      * @var string|null

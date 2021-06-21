@@ -6,14 +6,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * EnhancedCallLogsRedirectedCallSelection
  *
  * Redirected call selection.
- *                 When " redirectedCall " is set to true, all call logs with redirected call are returned. When it
- *                 set to false, all call logs without redirected call are returned.
- *                 The redirected call can be defined by including a subset of Service Invocation Disposition here.
- *                 If none included, any call has a ServiceInvocationDisposition value defined in
- *                 ServiceInvocationDisposition
- *                 is considered as a redirected call.
+ *       When " redirectedCall " is set to true, all call logs with redirected call are returned. When it
+ *       set to false, all call logs without redirected call are returned.
+ *       The redirected call can be defined by including a subset of Service Invocation Disposition here.
+ *       If none included, any call has a ServiceInvocationDisposition  value defined in ServiceInvocationDisposition
+ *       is considered as a redirected call.
  *
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:44857","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:48377","type":"sequence"}]
  */
 class EnhancedCallLogsRedirectedCallSelection
 {
@@ -21,7 +20,7 @@ class EnhancedCallLogsRedirectedCallSelection
     /**
      * @ElementName redirectedCall
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:44857
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:48377
      * @var bool|null
      */
     private $redirectedCall = null;
@@ -31,7 +30,7 @@ class EnhancedCallLogsRedirectedCallSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceInvocationDisposition
      * @Array
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:44857
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:48377
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInvocationDisposition[]
      */
     private $redirectType = array(

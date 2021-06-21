@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"5395c7df0157d44aa22f3351d1a5f3da:397","type":"sequence"}]
+ * @Groups [{"id":"5395c7df0157d44aa22f3351d1a5f3da:398","type":"sequence"}]
  */
 class EnterpriseBroadWorksMobileManagerSendCarrierFilesRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class EnterpriseBroadWorksMobileManagerSendCarrierFilesRequest extends \CWM\Broa
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:397
+     * @Group 5395c7df0157d44aa22f3351d1a5f3da:398
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +28,7 @@ class EnterpriseBroadWorksMobileManagerSendCarrierFilesRequest extends \CWM\Broa
     /**
      * @ElementName emailTo
      * @Type string
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:397
+     * @Group 5395c7df0157d44aa22f3351d1a5f3da:398
      * @MinLength 1
      * @MaxLength 80
      * @var string|null

@@ -16,7 +16,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Note that when specific conditions are met, VON users will be included in the search results.
  *         Note: For this search criterion, the searchMode is always ‘Contains’ and the multi-part search criteria are always AND’ed.
  *
- * @Groups [{"id":"f0ada2681ca347fa83b464734259b304:1639","type":"sequence"}]
+ * @Groups [{"id":"f0ada2681ca347fa83b464734259b304:1744","type":"sequence"}]
  */
 class SearchCriteriaMultiPartUserName extends SearchCriteria
 {
@@ -25,7 +25,7 @@ class SearchCriteriaMultiPartUserName extends SearchCriteria
      * @ElementName value
      * @Type string
      * @Array
-     * @Group f0ada2681ca347fa83b464734259b304:1639
+     * @Group f0ada2681ca347fa83b464734259b304:1744
      * @MinLength 1
      * @MaxLength 62
      * @var string[]
@@ -37,7 +37,7 @@ class SearchCriteriaMultiPartUserName extends SearchCriteria
     /**
      * @ElementName isCaseInsensitive
      * @Type bool
-     * @Group f0ada2681ca347fa83b464734259b304:1639
+     * @Group f0ada2681ca347fa83b464734259b304:1744
      * @var bool|null
      */
     private $isCaseInsensitive = null;

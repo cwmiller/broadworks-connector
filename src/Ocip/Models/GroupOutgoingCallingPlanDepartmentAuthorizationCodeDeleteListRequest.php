@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"6f793dfca9bd3d121bb35e0f9cf1cb2e:213","type":"sequence"}]
+ * @Groups [{"id":"6f793dfca9bd3d121bb35e0f9cf1cb2e:214","type":"sequence"}]
  */
 class GroupOutgoingCallingPlanDepartmentAuthorizationCodeDeleteListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class GroupOutgoingCallingPlanDepartmentAuthorizationCodeDeleteListRequest exten
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:213
+     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:214
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -29,7 +29,7 @@ class GroupOutgoingCallingPlanDepartmentAuthorizationCodeDeleteListRequest exten
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:213
+     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:214
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -41,7 +41,7 @@ class GroupOutgoingCallingPlanDepartmentAuthorizationCodeDeleteListRequest exten
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey
      * @Abstract \CWM\BroadWorksConnector\Ocip\Models\EnterpriseDepartmentKey,\CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentKey
      * @Optional
-     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:213
+     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:214
      * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null
      */
     private $departmentKey = null;
@@ -50,7 +50,7 @@ class GroupOutgoingCallingPlanDepartmentAuthorizationCodeDeleteListRequest exten
      * @ElementName code
      * @Type string
      * @Array
-     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:213
+     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:214
      * @MinLength 2
      * @MaxLength 14
      * @var string[]

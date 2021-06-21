@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see EnterpriseSessionAdmissionControlGroupGetResponse21sp1V2
  * @see ErrorResponse
- * @Groups [{"id":"5395c7df0157d44aa22f3351d1a5f3da:1033","type":"sequence"}]
+ * @Groups [{"id":"5395c7df0157d44aa22f3351d1a5f3da:1034","type":"sequence"}]
  */
 class EnterpriseSessionAdmissionControlGroupGetRequest21sp1V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class EnterpriseSessionAdmissionControlGroupGetRequest21sp1V2 extends \CWM\Broad
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1033
+     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1034
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +28,7 @@ class EnterpriseSessionAdmissionControlGroupGetRequest21sp1V2 extends \CWM\Broad
     /**
      * @ElementName name
      * @Type string
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1033
+     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1034
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

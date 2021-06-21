@@ -5,12 +5,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemDomainGetListResponse22
  *
- * Contains a table of all system-level domain names and all reseller level domains.
+ * Contains a table of all matching system-level domain names and all matching reseller level domains.
  *         The column headings are: "Domain Name" and "Reseller Id".
  *         The following elements are only used in AS and XS data mode and not returned in Amplify data mode:
- *         systemDefaultDomain
+ *           systemDefaultDomain
+ *           
+ *         Replaced by SystemDomainGetListResponse22V2 in AS data mode.
  *
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:8441","type":"sequence"}]
+ * @see SystemDomainGetListResponse22V2
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:26434","type":"sequence"}]
  */
 class SystemDomainGetListResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,7 +22,7 @@ class SystemDomainGetListResponse22 extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName systemDefaultDomain
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8441
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:26434
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -29,7 +32,7 @@ class SystemDomainGetListResponse22 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName domainTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8441
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:26434
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $domainTable = null;

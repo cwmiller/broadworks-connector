@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserHolidayScheduleAddRequest
  *
  * Add a holiday schedule to a user.
- *                 The response is either a SuccessResponse or an ErrorResponse.
+ *         The response is either a SuccessResponse or an ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:17219","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:44529","type":"sequence"}]
  */
 class UserHolidayScheduleAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserHolidayScheduleAddRequest extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName userId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:17219
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:44529
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -28,7 +28,7 @@ class UserHolidayScheduleAddRequest extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName holidayScheduleName
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:17219
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:44529
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -39,7 +39,7 @@ class UserHolidayScheduleAddRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName holiday01
      * @Type \CWM\BroadWorksConnector\Ocip\Models\Holiday
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:17219
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:44529
      * @var \CWM\BroadWorksConnector\Ocip\Models\Holiday|null
      */
     private $holiday01 = null;
@@ -48,7 +48,7 @@ class UserHolidayScheduleAddRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName holiday02
      * @Type \CWM\BroadWorksConnector\Ocip\Models\Holiday
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:17219
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:44529
      * @var \CWM\BroadWorksConnector\Ocip\Models\Holiday|null
      */
     private $holiday02 = null;
@@ -57,7 +57,7 @@ class UserHolidayScheduleAddRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName holiday03
      * @Type \CWM\BroadWorksConnector\Ocip\Models\Holiday
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:17219
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:44529
      * @var \CWM\BroadWorksConnector\Ocip\Models\Holiday|null
      */
     private $holiday03 = null;
@@ -66,7 +66,7 @@ class UserHolidayScheduleAddRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName holiday04
      * @Type \CWM\BroadWorksConnector\Ocip\Models\Holiday
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:17219
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:44529
      * @var \CWM\BroadWorksConnector\Ocip\Models\Holiday|null
      */
     private $holiday04 = null;
@@ -75,7 +75,7 @@ class UserHolidayScheduleAddRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName holiday05
      * @Type \CWM\BroadWorksConnector\Ocip\Models\Holiday
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:17219
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:44529
      * @var \CWM\BroadWorksConnector\Ocip\Models\Holiday|null
      */
     private $holiday05 = null;
@@ -84,7 +84,7 @@ class UserHolidayScheduleAddRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName holiday06
      * @Type \CWM\BroadWorksConnector\Ocip\Models\Holiday
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:17219
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:44529
      * @var \CWM\BroadWorksConnector\Ocip\Models\Holiday|null
      */
     private $holiday06 = null;
@@ -93,7 +93,7 @@ class UserHolidayScheduleAddRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName holiday07
      * @Type \CWM\BroadWorksConnector\Ocip\Models\Holiday
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:17219
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:44529
      * @var \CWM\BroadWorksConnector\Ocip\Models\Holiday|null
      */
     private $holiday07 = null;
@@ -102,7 +102,7 @@ class UserHolidayScheduleAddRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName holiday08
      * @Type \CWM\BroadWorksConnector\Ocip\Models\Holiday
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:17219
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:44529
      * @var \CWM\BroadWorksConnector\Ocip\Models\Holiday|null
      */
     private $holiday08 = null;
@@ -111,7 +111,7 @@ class UserHolidayScheduleAddRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName holiday09
      * @Type \CWM\BroadWorksConnector\Ocip\Models\Holiday
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:17219
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:44529
      * @var \CWM\BroadWorksConnector\Ocip\Models\Holiday|null
      */
     private $holiday09 = null;
@@ -120,7 +120,7 @@ class UserHolidayScheduleAddRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName holiday10
      * @Type \CWM\BroadWorksConnector\Ocip\Models\Holiday
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:17219
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:44529
      * @var \CWM\BroadWorksConnector\Ocip\Models\Holiday|null
      */
     private $holiday10 = null;
@@ -129,7 +129,7 @@ class UserHolidayScheduleAddRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName holiday11
      * @Type \CWM\BroadWorksConnector\Ocip\Models\Holiday
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:17219
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:44529
      * @var \CWM\BroadWorksConnector\Ocip\Models\Holiday|null
      */
     private $holiday11 = null;
@@ -138,7 +138,7 @@ class UserHolidayScheduleAddRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName holiday12
      * @Type \CWM\BroadWorksConnector\Ocip\Models\Holiday
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:17219
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:44529
      * @var \CWM\BroadWorksConnector\Ocip\Models\Holiday|null
      */
     private $holiday12 = null;
@@ -147,7 +147,7 @@ class UserHolidayScheduleAddRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName holiday13
      * @Type \CWM\BroadWorksConnector\Ocip\Models\Holiday
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:17219
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:44529
      * @var \CWM\BroadWorksConnector\Ocip\Models\Holiday|null
      */
     private $holiday13 = null;
@@ -156,7 +156,7 @@ class UserHolidayScheduleAddRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName holiday14
      * @Type \CWM\BroadWorksConnector\Ocip\Models\Holiday
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:17219
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:44529
      * @var \CWM\BroadWorksConnector\Ocip\Models\Holiday|null
      */
     private $holiday14 = null;
@@ -165,7 +165,7 @@ class UserHolidayScheduleAddRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName holiday15
      * @Type \CWM\BroadWorksConnector\Ocip\Models\Holiday
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:17219
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:44529
      * @var \CWM\BroadWorksConnector\Ocip\Models\Holiday|null
      */
     private $holiday15 = null;
@@ -174,7 +174,7 @@ class UserHolidayScheduleAddRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName holiday16
      * @Type \CWM\BroadWorksConnector\Ocip\Models\Holiday
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:17219
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:44529
      * @var \CWM\BroadWorksConnector\Ocip\Models\Holiday|null
      */
     private $holiday16 = null;
@@ -183,7 +183,7 @@ class UserHolidayScheduleAddRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName holiday17
      * @Type \CWM\BroadWorksConnector\Ocip\Models\Holiday
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:17219
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:44529
      * @var \CWM\BroadWorksConnector\Ocip\Models\Holiday|null
      */
     private $holiday17 = null;
@@ -192,7 +192,7 @@ class UserHolidayScheduleAddRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName holiday18
      * @Type \CWM\BroadWorksConnector\Ocip\Models\Holiday
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:17219
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:44529
      * @var \CWM\BroadWorksConnector\Ocip\Models\Holiday|null
      */
     private $holiday18 = null;
@@ -201,7 +201,7 @@ class UserHolidayScheduleAddRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName holiday19
      * @Type \CWM\BroadWorksConnector\Ocip\Models\Holiday
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:17219
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:44529
      * @var \CWM\BroadWorksConnector\Ocip\Models\Holiday|null
      */
     private $holiday19 = null;
@@ -210,7 +210,7 @@ class UserHolidayScheduleAddRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName holiday20
      * @Type \CWM\BroadWorksConnector\Ocip\Models\Holiday
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:17219
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:44529
      * @var \CWM\BroadWorksConnector\Ocip\Models\Holiday|null
      */
     private $holiday20 = null;

@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * The configuration of a alternate no answer greeting.
  *         It is used when geting a user's voice messaging greeting.
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:4638","type":"sequence"}]
+ * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:5347","type":"sequence"}]
  */
 class VoiceMessagingAlternateNoAnswerGreetingRead16
 {
@@ -16,7 +16,7 @@ class VoiceMessagingAlternateNoAnswerGreetingRead16
     /**
      * @ElementName name
      * @Type string
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4638
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:5347
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -27,7 +27,7 @@ class VoiceMessagingAlternateNoAnswerGreetingRead16
      * @ElementName audioFile
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4638
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:5347
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -38,7 +38,7 @@ class VoiceMessagingAlternateNoAnswerGreetingRead16
      * @ElementName audioMediaType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MediaFileType
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4638
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:5347
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     private $audioMediaType = null;
@@ -47,7 +47,7 @@ class VoiceMessagingAlternateNoAnswerGreetingRead16
      * @ElementName videoFile
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4638
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:5347
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -58,7 +58,7 @@ class VoiceMessagingAlternateNoAnswerGreetingRead16
      * @ElementName videoMediaType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MediaFileType
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4638
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:5347
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     private $videoMediaType = null;

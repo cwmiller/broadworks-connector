@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           "Reseller Id"
  *
  * @see SystemEndpointGetListRequest
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:8753","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:9785","type":"sequence"}]
  */
 class SystemEndpointGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -21,7 +21,7 @@ class SystemEndpointGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName endpointTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8753
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9785
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $endpointTable = null;

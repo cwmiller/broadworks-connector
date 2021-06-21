@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemAutomaticCallbackGetResponse
  *
  * Response to SystemAutomaticCallbackGetRequest.
- *                 Replaced By: SystemAutomaticCallbackGetResponse15
+ *         Replaced By: SystemAutomaticCallbackGetResponse15
  *
  * @see SystemAutomaticCallbackGetRequest
  * @see SystemAutomaticCallbackGetResponse15
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:4281","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:19921","type":"sequence"}]
  */
 class SystemAutomaticCallbackGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class SystemAutomaticCallbackGetResponse extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName monitorMinutes
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:4281
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:19921
      * @MinInclusive 5
      * @MaxInclusive 180
      * @var int|null
@@ -28,7 +28,7 @@ class SystemAutomaticCallbackGetResponse extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName waitBetweenRetryOriginatorMinutes
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:4281
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:19921
      * @MinInclusive 1
      * @MaxInclusive 15
      * @var int|null
@@ -38,7 +38,7 @@ class SystemAutomaticCallbackGetResponse extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName maxMonitorsPerOriginator
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:4281
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:19921
      * @MinInclusive 1
      * @MaxInclusive 30
      * @var int|null
@@ -48,7 +48,7 @@ class SystemAutomaticCallbackGetResponse extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName maxCallbackRings
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:4281
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:19921
      * @MinInclusive 3
      * @MaxInclusive 8
      * @var int|null
@@ -58,7 +58,7 @@ class SystemAutomaticCallbackGetResponse extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName maxRetryOriginatorMinutes
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:4281
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:19921
      * @MinInclusive 180
      * @MaxInclusive 360
      * @var int|null

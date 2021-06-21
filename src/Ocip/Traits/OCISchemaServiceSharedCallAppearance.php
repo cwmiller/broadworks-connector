@@ -2,10 +2,10 @@
 
 namespace CWM\BroadWorksConnector\Ocip\Traits;
 
-use CWM\BroadWorksConnector\Ocip\Models\UserSharedCallAppearanceAddEndpointRequest14sp2;
+use CWM\BroadWorksConnector\Ocip\Models\UserSharedCallAppearanceAddEndpointRequest22;
 use CWM\BroadWorksConnector\Ocip\Models\UserSharedCallAppearanceDeleteEndpointListRequest14;
-use CWM\BroadWorksConnector\Ocip\Models\UserSharedCallAppearanceGetEndpointRequest;
-use CWM\BroadWorksConnector\Ocip\Models\UserSharedCallAppearanceGetEndpointResponse;
+use CWM\BroadWorksConnector\Ocip\Models\UserSharedCallAppearanceGetEndpointRequest22;
+use CWM\BroadWorksConnector\Ocip\Models\UserSharedCallAppearanceGetEndpointResponse22;
 use CWM\BroadWorksConnector\Ocip\Models\UserSharedCallAppearanceGetRequest21sp1;
 use CWM\BroadWorksConnector\Ocip\Models\UserSharedCallAppearanceGetResponse21sp1;
 use CWM\BroadWorksConnector\Ocip\Models\UserSharedCallAppearanceModifyEndpointRequest;
@@ -18,12 +18,12 @@ trait OCISchemaServiceSharedCallAppearance
 {
 
     /**
-     * @param UserSharedCallAppearanceAddEndpointRequest14sp2 $request
+     * @param UserSharedCallAppearanceAddEndpointRequest22 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function userSharedCallAppearanceAddEndpointRequest14sp2(\CWM\BroadWorksConnector\Ocip\Models\UserSharedCallAppearanceAddEndpointRequest14sp2 $request)
+    public function userSharedCallAppearanceAddEndpointRequest22(\CWM\BroadWorksConnector\Ocip\Models\UserSharedCallAppearanceAddEndpointRequest22 $request)
     {
         return $this->call($request);
     }
@@ -40,12 +40,12 @@ trait OCISchemaServiceSharedCallAppearance
     }
 
     /**
-     * @param UserSharedCallAppearanceGetEndpointRequest $request
-     * @return UserSharedCallAppearanceGetEndpointResponse
+     * @param UserSharedCallAppearanceGetEndpointRequest22 $request
+     * @return UserSharedCallAppearanceGetEndpointResponse22
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function userSharedCallAppearanceGetEndpointRequest(\CWM\BroadWorksConnector\Ocip\Models\UserSharedCallAppearanceGetEndpointRequest $request)
+    public function userSharedCallAppearanceGetEndpointRequest22(\CWM\BroadWorksConnector\Ocip\Models\UserSharedCallAppearanceGetEndpointRequest22 $request)
     {
         return $this->call($request);
     }

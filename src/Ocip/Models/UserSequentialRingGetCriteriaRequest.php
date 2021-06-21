@@ -5,12 +5,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * UserSequentialRingGetCriteriaRequest
  *
- * Get a criteria for the user's sequential ring service.
- *                 The response is either a UserSequentialRingGetCriteriaResponse or an ErrorResponse.
+ * Get a criteria for the user's sequential ring service.        
+ *          The response is either a UserSequentialRingGetCriteriaResponse or an ErrorResponse.
  *
  * @see UserSequentialRingGetCriteriaResponse
  * @see ErrorResponse
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:11816","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:45954","type":"sequence"}]
  */
 class UserSequentialRingGetCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserSequentialRingGetCriteriaRequest extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName userId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:11816
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:45954
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -28,7 +28,7 @@ class UserSequentialRingGetCriteriaRequest extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName criteriaName
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:11816
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:45954
      * @MinLength 1
      * @MaxLength 50
      * @var string|null

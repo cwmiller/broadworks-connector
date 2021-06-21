@@ -6,13 +6,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupGetRequest
  *
  * Get the profile for a group.
- *                 The response is either a GroupGetResponse or an ErrorResponse.
- *                 Replaced By: GroupGetRequest14sp7
+ *         The response is either a GroupGetResponse or an ErrorResponse.
+ *         Replaced By: GroupGetRequest14sp7
  *
  * @see GroupGetResponse
  * @see ErrorResponse
  * @see GroupGetRequest14sp7
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:1574","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:9948","type":"sequence"}]
  */
 class GroupGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class GroupGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:1574
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:9948
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -30,7 +30,7 @@ class GroupGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
     /**
      * @ElementName groupId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:1574
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:9948
      * @MinLength 1
      * @MaxLength 30
      * @var string|null

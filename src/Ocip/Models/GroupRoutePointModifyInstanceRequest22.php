@@ -7,10 +7,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Request to modify a Route Point instance.
  *         The response is either SuccessResponse or ErrorResponse.
+ *         The Following elements are only used in AS data mode and ignored in XS data mode:
+ * 	    - sendCallAdmissionNotification, use value ‘false’ in XS data mode.
+ * 	    - callAdmissionTimerSeconds, use value ‘3’ in XS data mode.
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"a27224a048c30ff69eab9209dec841cc:902","type":"sequence"}]
+ * @Groups [{"id":"a27224a048c30ff69eab9209dec841cc:856","type":"sequence"}]
  */
 class GroupRoutePointModifyInstanceRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +21,7 @@ class GroupRoutePointModifyInstanceRequest22 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group a27224a048c30ff69eab9209dec841cc:902
+     * @Group a27224a048c30ff69eab9209dec841cc:856
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -29,7 +32,7 @@ class GroupRoutePointModifyInstanceRequest22 extends \CWM\BroadWorksConnector\Oc
      * @ElementName serviceInstanceProfile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceModifyProfile
      * @Optional
-     * @Group a27224a048c30ff69eab9209dec841cc:902
+     * @Group a27224a048c30ff69eab9209dec841cc:856
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceModifyProfile|null
      */
     private $serviceInstanceProfile = null;
@@ -38,7 +41,7 @@ class GroupRoutePointModifyInstanceRequest22 extends \CWM\BroadWorksConnector\Oc
      * @ElementName networkClassOfService
      * @Type string
      * @Optional
-     * @Group a27224a048c30ff69eab9209dec841cc:902
+     * @Group a27224a048c30ff69eab9209dec841cc:856
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -49,7 +52,7 @@ class GroupRoutePointModifyInstanceRequest22 extends \CWM\BroadWorksConnector\Oc
      * @ElementName externalPreferredAudioCodec
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AudioFileCodec22
      * @Optional
-     * @Group a27224a048c30ff69eab9209dec841cc:902
+     * @Group a27224a048c30ff69eab9209dec841cc:856
      * @var \CWM\BroadWorksConnector\Ocip\Models\AudioFileCodec22|null
      */
     private $externalPreferredAudioCodec = null;
@@ -58,7 +61,7 @@ class GroupRoutePointModifyInstanceRequest22 extends \CWM\BroadWorksConnector\Oc
      * @ElementName internalPreferredAudioCodec
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AudioFileCodec22
      * @Optional
-     * @Group a27224a048c30ff69eab9209dec841cc:902
+     * @Group a27224a048c30ff69eab9209dec841cc:856
      * @var \CWM\BroadWorksConnector\Ocip\Models\AudioFileCodec22|null
      */
     private $internalPreferredAudioCodec = null;
@@ -67,7 +70,7 @@ class GroupRoutePointModifyInstanceRequest22 extends \CWM\BroadWorksConnector\Oc
      * @ElementName queueLength
      * @Type int
      * @Optional
-     * @Group a27224a048c30ff69eab9209dec841cc:902
+     * @Group a27224a048c30ff69eab9209dec841cc:856
      * @MinInclusive 0
      * @MaxInclusive 525
      * @var int|null
@@ -78,7 +81,7 @@ class GroupRoutePointModifyInstanceRequest22 extends \CWM\BroadWorksConnector\Oc
      * @ElementName noAnswerTimeoutRings
      * @Type int
      * @Optional
-     * @Group a27224a048c30ff69eab9209dec841cc:902
+     * @Group a27224a048c30ff69eab9209dec841cc:856
      * @MinInclusive 2
      * @MaxInclusive 20
      * @var int|null
@@ -89,7 +92,7 @@ class GroupRoutePointModifyInstanceRequest22 extends \CWM\BroadWorksConnector\Oc
      * @ElementName enableVideo
      * @Type bool
      * @Optional
-     * @Group a27224a048c30ff69eab9209dec841cc:902
+     * @Group a27224a048c30ff69eab9209dec841cc:856
      * @var bool|null
      */
     private $enableVideo = null;
@@ -98,7 +101,7 @@ class GroupRoutePointModifyInstanceRequest22 extends \CWM\BroadWorksConnector\Oc
      * @ElementName playRingingWhenOfferingCall
      * @Type bool
      * @Optional
-     * @Group a27224a048c30ff69eab9209dec841cc:902
+     * @Group a27224a048c30ff69eab9209dec841cc:856
      * @var bool|null
      */
     private $playRingingWhenOfferingCall = null;
@@ -107,7 +110,7 @@ class GroupRoutePointModifyInstanceRequest22 extends \CWM\BroadWorksConnector\Oc
      * @ElementName overrideAgentWrapUpTime
      * @Type bool
      * @Optional
-     * @Group a27224a048c30ff69eab9209dec841cc:902
+     * @Group a27224a048c30ff69eab9209dec841cc:856
      * @var bool|null
      */
     private $overrideAgentWrapUpTime = null;
@@ -117,7 +120,7 @@ class GroupRoutePointModifyInstanceRequest22 extends \CWM\BroadWorksConnector\Oc
      * @Type int
      * @Nillable
      * @Optional
-     * @Group a27224a048c30ff69eab9209dec841cc:902
+     * @Group a27224a048c30ff69eab9209dec841cc:856
      * @MinInclusive 1
      * @MaxInclusive 3600
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -128,7 +131,7 @@ class GroupRoutePointModifyInstanceRequest22 extends \CWM\BroadWorksConnector\Oc
      * @ElementName enableAutomaticStateChangeForAgents
      * @Type bool
      * @Optional
-     * @Group a27224a048c30ff69eab9209dec841cc:902
+     * @Group a27224a048c30ff69eab9209dec841cc:856
      * @var bool|null
      */
     private $enableAutomaticStateChangeForAgents = null;
@@ -137,7 +140,7 @@ class GroupRoutePointModifyInstanceRequest22 extends \CWM\BroadWorksConnector\Oc
      * @ElementName agentStateAfterCall
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AgentACDAutomaticState
      * @Optional
-     * @Group a27224a048c30ff69eab9209dec841cc:902
+     * @Group a27224a048c30ff69eab9209dec841cc:856
      * @var \CWM\BroadWorksConnector\Ocip\Models\AgentACDAutomaticState|null
      */
     private $agentStateAfterCall = null;
@@ -147,7 +150,7 @@ class GroupRoutePointModifyInstanceRequest22 extends \CWM\BroadWorksConnector\Oc
      * @Type string
      * @Nillable
      * @Optional
-     * @Group a27224a048c30ff69eab9209dec841cc:902
+     * @Group a27224a048c30ff69eab9209dec841cc:856
      * @MinLength 1
      * @MaxLength 10
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -158,7 +161,7 @@ class GroupRoutePointModifyInstanceRequest22 extends \CWM\BroadWorksConnector\Oc
      * @ElementName forceDeliveryOfCalls
      * @Type bool
      * @Optional
-     * @Group a27224a048c30ff69eab9209dec841cc:902
+     * @Group a27224a048c30ff69eab9209dec841cc:856
      * @var bool|null
      */
     private $forceDeliveryOfCalls = null;
@@ -168,12 +171,41 @@ class GroupRoutePointModifyInstanceRequest22 extends \CWM\BroadWorksConnector\Oc
      * @Type int
      * @Nillable
      * @Optional
-     * @Group a27224a048c30ff69eab9209dec841cc:902
+     * @Group a27224a048c30ff69eab9209dec841cc:856
      * @MinInclusive 1
      * @MaxInclusive 10
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $forceDeliveryWaitTimeSeconds = null;
+
+    /**
+     * @ElementName sendCallAdmissionNotification
+     * @Type bool
+     * @Optional
+     * @Group a27224a048c30ff69eab9209dec841cc:856
+     * @var bool|null
+     */
+    private $sendCallAdmissionNotification = null;
+
+    /**
+     * @ElementName callAdmissionTimerSeconds
+     * @Type int
+     * @Optional
+     * @Group a27224a048c30ff69eab9209dec841cc:856
+     * @MinInclusive 1
+     * @MaxInclusive 60
+     * @var int|null
+     */
+    private $callAdmissionTimerSeconds = null;
+
+    /**
+     * @ElementName enableUnlimitedQueueLength
+     * @Type bool
+     * @Optional
+     * @Group a27224a048c30ff69eab9209dec841cc:856
+     * @var bool|null
+     */
+    private $enableUnlimitedQueueLength = null;
 
     /**
      * Getter for serviceUserId
@@ -680,6 +712,99 @@ class GroupRoutePointModifyInstanceRequest22 extends \CWM\BroadWorksConnector\Oc
     public function unsetForceDeliveryWaitTimeSeconds()
     {
         $this->forceDeliveryWaitTimeSeconds = null;
+        return $this;
+    }
+
+    /**
+     * Getter for sendCallAdmissionNotification
+     *
+     * @return bool
+     */
+    public function getSendCallAdmissionNotification()
+    {
+        return $this->sendCallAdmissionNotification instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->sendCallAdmissionNotification;
+    }
+
+    /**
+     * Setter for sendCallAdmissionNotification
+     *
+     * @param bool $sendCallAdmissionNotification
+     * @return $this
+     */
+    public function setSendCallAdmissionNotification($sendCallAdmissionNotification)
+    {
+        $this->sendCallAdmissionNotification = $sendCallAdmissionNotification;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetSendCallAdmissionNotification()
+    {
+        $this->sendCallAdmissionNotification = null;
+        return $this;
+    }
+
+    /**
+     * Getter for callAdmissionTimerSeconds
+     *
+     * @return int
+     */
+    public function getCallAdmissionTimerSeconds()
+    {
+        return $this->callAdmissionTimerSeconds instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->callAdmissionTimerSeconds;
+    }
+
+    /**
+     * Setter for callAdmissionTimerSeconds
+     *
+     * @param int $callAdmissionTimerSeconds
+     * @return $this
+     */
+    public function setCallAdmissionTimerSeconds($callAdmissionTimerSeconds)
+    {
+        $this->callAdmissionTimerSeconds = $callAdmissionTimerSeconds;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetCallAdmissionTimerSeconds()
+    {
+        $this->callAdmissionTimerSeconds = null;
+        return $this;
+    }
+
+    /**
+     * Getter for enableUnlimitedQueueLength
+     *
+     * @return bool
+     */
+    public function getEnableUnlimitedQueueLength()
+    {
+        return $this->enableUnlimitedQueueLength instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableUnlimitedQueueLength;
+    }
+
+    /**
+     * Setter for enableUnlimitedQueueLength
+     *
+     * @param bool $enableUnlimitedQueueLength
+     * @return $this
+     */
+    public function setEnableUnlimitedQueueLength($enableUnlimitedQueueLength)
+    {
+        $this->enableUnlimitedQueueLength = $enableUnlimitedQueueLength;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetEnableUnlimitedQueueLength()
+    {
+        $this->enableUnlimitedQueueLength = null;
         return $this;
     }
 

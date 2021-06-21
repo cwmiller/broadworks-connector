@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The following elements are only used in XS data mode and ignored in AS data mode:
  *           privateIdentity
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:437","type":"sequence"}]
+ * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:526","type":"sequence"}]
  */
 class AccessDeviceReorderEndpointIdentity
 {
@@ -17,7 +17,7 @@ class AccessDeviceReorderEndpointIdentity
     /**
      * @ElementName linePort
      * @Type string
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:437
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:526
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -28,7 +28,7 @@ class AccessDeviceReorderEndpointIdentity
      * @ElementName privateIdentity
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:437
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:526
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

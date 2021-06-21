@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Feature Access Code Entry
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:2334","type":"sequence"}]
+ * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:2760","type":"sequence"}]
  */
 class FeatureAccessCodeEntry
 {
@@ -15,7 +15,7 @@ class FeatureAccessCodeEntry
     /**
      * @ElementName featureAccessCodeName
      * @Type string
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:2334
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:2760
      * @MinLength 1
      * @var string|null
      */
@@ -25,7 +25,7 @@ class FeatureAccessCodeEntry
      * @ElementName mainCode
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:2334
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:2760
      * @MinLength 1
      * @MaxLength 5
      * @var string|null
@@ -37,7 +37,7 @@ class FeatureAccessCodeEntry
      * @Type string
      * @Nillable
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:2334
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:2760
      * @MinLength 1
      * @MaxLength 5
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil

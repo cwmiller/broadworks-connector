@@ -5,7 +5,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1HotelingMenuKeys
  *
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:32218","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:38016","type":"sequence"}]
  */
 class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1HotelingMenuKeys
 {
@@ -14,7 +14,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1HotelingMenuKeys
      * @ElementName checkHostStatus
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:32218
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:38016
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -25,7 +25,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1HotelingMenuKeys
      * @ElementName associateWithHost
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:32218
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:38016
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -36,7 +36,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1HotelingMenuKeys
      * @ElementName disassociateFromHost
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:32218
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:38016
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -47,7 +47,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1HotelingMenuKeys
      * @ElementName disassociateFromRemoteHost
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:32218
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:38016
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -57,7 +57,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1HotelingMenuKeys
     /**
      * @ElementName returnToPreviousMenu
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:32218
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:38016
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -68,7 +68,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1HotelingMenuKeys
      * @ElementName repeatMenu
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:32218
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:38016
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null

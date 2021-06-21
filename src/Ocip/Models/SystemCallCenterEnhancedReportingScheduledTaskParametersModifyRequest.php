@@ -7,10 +7,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Modify the system settings for the call center enhanced reporting scheduling tasks.
  *         The response is either a SuccessResponse or an ErrorResponse.
+ *         
+ *         The following elements are only used in AS data mode:
+ *           callCenterEventMode, value “Legacy ECCR" is returned in Amplify data mode
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:6486","type":"sequence"}]
+ * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:6455","type":"sequence"}]
  */
 class SystemCallCenterEnhancedReportingScheduledTaskParametersModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +22,7 @@ class SystemCallCenterEnhancedReportingScheduledTaskParametersModifyRequest exte
      * @ElementName scheduledReportSearchIntervalMinutes
      * @Type int
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:6486
+     * @Group e2c537e3e39483b96620673a7012ffdd:6455
      * @MinInclusive 1
      * @MaxInclusive 1440
      * @var int|null
@@ -30,7 +33,7 @@ class SystemCallCenterEnhancedReportingScheduledTaskParametersModifyRequest exte
      * @ElementName maximumScheduledReportsPerInterval
      * @Type int
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:6486
+     * @Group e2c537e3e39483b96620673a7012ffdd:6455
      * @MinInclusive 1
      * @MaxInclusive 100000
      * @var int|null
@@ -41,12 +44,21 @@ class SystemCallCenterEnhancedReportingScheduledTaskParametersModifyRequest exte
      * @ElementName deleteScheduledReportDaysAfterCompletion
      * @Type int
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:6486
+     * @Group e2c537e3e39483b96620673a7012ffdd:6455
      * @MinInclusive 1
      * @MaxInclusive 366
      * @var int|null
      */
     private $deleteScheduledReportDaysAfterCompletion = null;
+
+    /**
+     * @ElementName callCenterEventMode
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterEventRecordingCallCenterEventMode
+     * @Optional
+     * @Group e2c537e3e39483b96620673a7012ffdd:6455
+     * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterEventRecordingCallCenterEventMode|null
+     */
+    private $callCenterEventMode = null;
 
     /**
      * Getter for scheduledReportSearchIntervalMinutes
@@ -138,6 +150,37 @@ class SystemCallCenterEnhancedReportingScheduledTaskParametersModifyRequest exte
     public function unsetDeleteScheduledReportDaysAfterCompletion()
     {
         $this->deleteScheduledReportDaysAfterCompletion = null;
+        return $this;
+    }
+
+    /**
+     * Getter for callCenterEventMode
+     *
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterEventRecordingCallCenterEventMode
+     */
+    public function getCallCenterEventMode()
+    {
+        return $this->callCenterEventMode instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->callCenterEventMode;
+    }
+
+    /**
+     * Setter for callCenterEventMode
+     *
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterEventRecordingCallCenterEventMode $callCenterEventMode
+     * @return $this
+     */
+    public function setCallCenterEventMode(\CWM\BroadWorksConnector\Ocip\Models\CallCenterEventRecordingCallCenterEventMode $callCenterEventMode)
+    {
+        $this->callCenterEventMode = $callCenterEventMode;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetCallCenterEventMode()
+    {
+        $this->callCenterEventMode = null;
         return $this;
     }
 

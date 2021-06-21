@@ -9,10 +9,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         If the becomeDefaultLanguage element is present, the language in this request becomes
  *         the default language for the system.
  *         The response is either a SuccessResponse or an ErrorResponse.
+ *         Replaced by: SystemLanguageModifyRequest22.
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:10436","type":"sequence"}]
+ * @see SystemLanguageModifyRequest22
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:27407","type":"sequence"}]
  */
 class SystemLanguageModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +22,7 @@ class SystemLanguageModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName language
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10436
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:27407
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -31,7 +33,7 @@ class SystemLanguageModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @ElementName becomeDefaultLanguage
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10436
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:27407
      * @var bool|null
      */
     private $becomeDefaultLanguage = null;
@@ -40,7 +42,7 @@ class SystemLanguageModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @ElementName locale
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10436
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:27407
      * @MaxLength 5
      * @var string|null
      */
@@ -50,7 +52,7 @@ class SystemLanguageModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @ElementName encoding
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10436
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:27407
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

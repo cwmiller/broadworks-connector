@@ -15,10 +15,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           forceAgentUnavailableOnBouncedCallLimit
  *           numberConsecutiveBouncedCallsToForceAgentUnavailable
  *           forceAgentUnavailableOnNotReachable
+ *           wrapUpDestination
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:1892","type":"sequence"}]
+ * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:1906","type":"sequence"}]
  */
 class EnterpriseCallCenterModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -26,7 +27,7 @@ class EnterpriseCallCenterModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group e2c537e3e39483b96620673a7012ffdd:1892
+     * @Group e2c537e3e39483b96620673a7012ffdd:1906
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -37,7 +38,7 @@ class EnterpriseCallCenterModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName useSystemDefaultGuardTimer
      * @Type bool
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:1892
+     * @Group e2c537e3e39483b96620673a7012ffdd:1906
      * @var bool|null
      */
     private $useSystemDefaultGuardTimer = null;
@@ -46,7 +47,7 @@ class EnterpriseCallCenterModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName enableGuardTimer
      * @Type bool
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:1892
+     * @Group e2c537e3e39483b96620673a7012ffdd:1906
      * @var bool|null
      */
     private $enableGuardTimer = null;
@@ -55,7 +56,7 @@ class EnterpriseCallCenterModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName guardTimerSeconds
      * @Type int
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:1892
+     * @Group e2c537e3e39483b96620673a7012ffdd:1906
      * @MinInclusive 1
      * @MaxInclusive 25
      * @var int|null
@@ -66,7 +67,7 @@ class EnterpriseCallCenterModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName useSystemDefaultUnavailableSettings
      * @Type bool
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:1892
+     * @Group e2c537e3e39483b96620673a7012ffdd:1906
      * @var bool|null
      */
     private $useSystemDefaultUnavailableSettings = null;
@@ -75,7 +76,7 @@ class EnterpriseCallCenterModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName forceAgentUnavailableOnDNDActivation
      * @Type bool
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:1892
+     * @Group e2c537e3e39483b96620673a7012ffdd:1906
      * @var bool|null
      */
     private $forceAgentUnavailableOnDNDActivation = null;
@@ -84,7 +85,7 @@ class EnterpriseCallCenterModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName forceAgentUnavailableOnPersonalCalls
      * @Type bool
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:1892
+     * @Group e2c537e3e39483b96620673a7012ffdd:1906
      * @var bool|null
      */
     private $forceAgentUnavailableOnPersonalCalls = null;
@@ -93,7 +94,7 @@ class EnterpriseCallCenterModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName forceAgentUnavailableOnBouncedCallLimit
      * @Type bool
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:1892
+     * @Group e2c537e3e39483b96620673a7012ffdd:1906
      * @var bool|null
      */
     private $forceAgentUnavailableOnBouncedCallLimit = null;
@@ -102,7 +103,7 @@ class EnterpriseCallCenterModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName numberConsecutiveBouncedCallsToForceAgentUnavailable
      * @Type int
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:1892
+     * @Group e2c537e3e39483b96620673a7012ffdd:1906
      * @MinInclusive 1
      * @MaxInclusive 5
      * @var int|null
@@ -113,10 +114,22 @@ class EnterpriseCallCenterModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName forceAgentUnavailableOnNotReachable
      * @Type bool
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:1892
+     * @Group e2c537e3e39483b96620673a7012ffdd:1906
      * @var bool|null
      */
     private $forceAgentUnavailableOnNotReachable = null;
+
+    /**
+     * @ElementName wrapUpDestination
+     * @Type string
+     * @Nillable
+     * @Optional
+     * @Group e2c537e3e39483b96620673a7012ffdd:1906
+     * @MinLength 1
+     * @MaxLength 161
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     */
+    private $wrapUpDestination = null;
 
     /**
      * Getter for serviceProviderId
@@ -425,6 +438,41 @@ class EnterpriseCallCenterModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     public function unsetForceAgentUnavailableOnNotReachable()
     {
         $this->forceAgentUnavailableOnNotReachable = null;
+        return $this;
+    }
+
+    /**
+     * Getter for wrapUpDestination
+     *
+     * @return string|null
+     */
+    public function getWrapUpDestination()
+    {
+        return $this->wrapUpDestination instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->wrapUpDestination;
+    }
+
+    /**
+     * Setter for wrapUpDestination
+     *
+     * @param string|null $wrapUpDestination
+     * @return $this
+     */
+    public function setWrapUpDestination($wrapUpDestination = null)
+    {
+        if ($wrapUpDestination === null) {
+            $this->wrapUpDestination = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->wrapUpDestination = $wrapUpDestination;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetWrapUpDestination()
+    {
+        $this->wrapUpDestination = null;
         return $this;
     }
 

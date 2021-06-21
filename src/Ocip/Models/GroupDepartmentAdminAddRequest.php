@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:2960","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:3756","type":"sequence"}]
  */
 class GroupDepartmentAdminAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupDepartmentAdminAddRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName departmentKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentKey
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:2960
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:3756
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentKey|null
      */
     private $departmentKey = null;
@@ -26,7 +26,7 @@ class GroupDepartmentAdminAddRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName userId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:2960
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:3756
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -37,7 +37,7 @@ class GroupDepartmentAdminAddRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName firstName
      * @Type string
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:2960
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:3756
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -48,7 +48,7 @@ class GroupDepartmentAdminAddRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName lastName
      * @Type string
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:2960
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:3756
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -59,7 +59,7 @@ class GroupDepartmentAdminAddRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName password
      * @Type string
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:2960
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:3756
      * @MinLength 1
      * @MaxLength 60
      * @var string|null
@@ -70,7 +70,7 @@ class GroupDepartmentAdminAddRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName language
      * @Type string
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:2960
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:3756
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

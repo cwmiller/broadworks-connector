@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserModifyGroupIdResponse
  * @see ErrorResponse
- * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:2515","type":"sequence"}]
+ * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:2497","type":"sequence"}]
  */
 class UserModifyGroupIdRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class UserModifyGroupIdRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
     /**
      * @ElementName userId
      * @Type string
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:2515
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:2497
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -29,7 +29,7 @@ class UserModifyGroupIdRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
     /**
      * @ElementName newGroupId
      * @Type string
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:2515
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:2497
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -40,7 +40,7 @@ class UserModifyGroupIdRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @ElementName evaluateOnly
      * @Type bool
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:2515
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:2497
      * @var bool|null
      */
     private $evaluateOnly = null;

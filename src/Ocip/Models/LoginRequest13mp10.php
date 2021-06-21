@@ -6,13 +6,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * LoginRequest13mp10
  *
  * LoginRequest13mp10 is 2nd stage of the 2 stage OCI login process.
- *                 The signedPassword is not required for external authentication login from a trusted host (ACL).
- *                 The response is either LoginResponse13mp10 or ErrorResponse
+ *         The signedPassword is not required for external authentication login from a trusted host (ACL).
+ *
+ *         The response is either a LoginResponse13mp10 or an ErrorResponse.
  *
  * @see LoginRequest13mp10
  * @see LoginResponse13mp10
  * @see ErrorResponse
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:3328","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:16377","type":"sequence"}]
  */
 class LoginRequest13mp10 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +21,7 @@ class LoginRequest13mp10 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReque
     /**
      * @ElementName userId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:3328
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:16377
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -31,7 +32,7 @@ class LoginRequest13mp10 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReque
      * @ElementName signedPassword
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:3328
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:16377
      * @MinLength 1
      * @var string|null
      */

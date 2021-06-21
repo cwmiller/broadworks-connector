@@ -6,10 +6,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserCollaborateMyRoomGetRequest
  *
  * Request collaborate room settings for MyRoom.
- *         The response is either UserCollaborateMyRoomGetResponse or
+ *         The response is either UserCollaboratMyRoomGetResponse or 
  *         ErrorResponse.
  *
- * @see UserCollaborateMyRoomGetResponse
+ * @see UserCollaboratMyRoomGetResponse
  * @see ErrorResponse
  * @Groups [{"id":"939fd5846dfae8bdf58308d6cb9ebb12:756","type":"sequence"}]
  */

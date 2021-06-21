@@ -7,14 +7,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to UserGetListInSystemRequest.
  *         Contains a table with column headings : "User Id", "Group Id", "Service Provider Id", "Last Name", "First Name",
- *         "Department", "Phone Number", "Phone Number Activated", "Email Address",  "Hiragana Last Name", "Hiragana First Name", "In Trunk Group", "Extension", "Reseller Id" 
+ *         "Department", "Phone Number", "Phone Number Activated", "Email Address",  "Hiragana Last Name", "Hiragana First Name", "In Trunk Group", "Extension", "Reseller Id", "User External Id"
  *         in a row for each user.
  *
  *         The following columns are only returned in AS data mode:       
- *           "Reseller Id"
+ *           "Reseller Id"        
+ *           "User External Id"
  *
  * @see UserGetListInSystemRequest
- * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:1928","type":"sequence"}]
+ * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:2057","type":"sequence"}]
  */
 class UserGetListInSystemResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -22,7 +23,7 @@ class UserGetListInSystemResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName userTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:1928
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:2057
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $userTable = null;

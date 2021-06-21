@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * The voice portal play message menu keys.
  *
- * @Groups [{"id":"3347d430e0d5c93a9ff8dcf0e3b60d6c:2952","type":"sequence"}]
+ * @Groups [{"id":"3347d430e0d5c93a9ff8dcf0e3b60d6c:2880","type":"sequence"}]
  */
 class PlayMessageMenuKeysReadEntry
 {
@@ -16,7 +16,7 @@ class PlayMessageMenuKeysReadEntry
      * @ElementName skipBackward
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2952
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2880
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -27,7 +27,7 @@ class PlayMessageMenuKeysReadEntry
      * @ElementName pauseOrResume
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2952
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2880
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -38,7 +38,7 @@ class PlayMessageMenuKeysReadEntry
      * @ElementName skipForward
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2952
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2880
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -49,7 +49,7 @@ class PlayMessageMenuKeysReadEntry
      * @ElementName jumpToBegin
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2952
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2880
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -60,7 +60,7 @@ class PlayMessageMenuKeysReadEntry
      * @ElementName jumpToEnd
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2952
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2880
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null

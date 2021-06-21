@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:3364","type":"sequence"}]
+ * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:4026","type":"sequence"}]
  */
 class ServiceProviderDomainUnassignListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class ServiceProviderDomainUnassignListRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3364
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4026
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -29,7 +29,7 @@ class ServiceProviderDomainUnassignListRequest extends \CWM\BroadWorksConnector\
      * @ElementName domain
      * @Type string
      * @Array
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3364
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4026
      * @MinLength 1
      * @MaxLength 80
      * @var string[]

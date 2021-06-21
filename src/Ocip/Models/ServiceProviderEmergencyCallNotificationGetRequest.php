@@ -6,12 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ServiceProviderEmergencyCallNotificationGetRequest
  *
  * Request the service provider level data associated with Emergency Call Notification.
- *         The response is either a ServiceProviderEmergencyCallNotificationGetResponse
- *         or an ErrorResponse.
+ *         The response is either a ServiceProviderEmergencyCallNotificationGetResponse or an ErrorResponse.
  *
  * @see ServiceProviderEmergencyCallNotificationGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:3382","type":"sequence"}]
+ * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:4043","type":"sequence"}]
  */
 class ServiceProviderEmergencyCallNotificationGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +18,7 @@ class ServiceProviderEmergencyCallNotificationGetRequest extends \CWM\BroadWorks
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3382
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4043
      * @MinLength 1
      * @MaxLength 30
      * @var string|null

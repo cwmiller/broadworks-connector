@@ -5,21 +5,20 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * AuthenticationVerifyRequest14sp8
  *
- * AuthenticationVerifyRequest14sp8 is used to authenticate a user either by userId/password, userId/sip
- *                 username/sip password,
- *                 dn/passcode or a token previously authorized with the ExternalAuthenticationAuthorizeTokenRequest.
- *                 The phone number may be any DN associated with a user.
- *
- *                 The response is a AuthenticationVerifyResponse14sp8 or an ErrorResponse
- *
- *                 Replaced by AuthenticationVerifyRequest22.
+ * AuthenticationVerifyRequest14sp8 is used to authenticate a user either by userId/password, userId/sip username/sip password,
+ *         dn/passcode or a token previously authorized with the ExternalAuthenticationAuthorizeTokenRequest. 
+ *         The phone number may be any DN associated with a user.
+ *           
+ *         The response is a AuthenticationVerifyResponse14sp8 or an ErrorResponse
+ *         
+ *         Replaced by AuthenticationVerifyRequest22.
  *
  * @see AuthenticationVerifyRequest14sp8
  * @see ExternalAuthenticationAuthorizeTokenRequest
  * @see AuthenticationVerifyResponse14sp8
  * @see ErrorResponse
  * @see AuthenticationVerifyRequest22
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:40604","type":"choice","children":[{"id":"ab0042aa512abc10edb3c55e4b416b0b:40605","type":"sequence"},{"id":"ab0042aa512abc10edb3c55e4b416b0b:40609","type":"sequence"},{"id":"ab0042aa512abc10edb3c55e4b416b0b:40613","type":"sequence"},{"id":"ab0042aa512abc10edb3c55e4b416b0b:40616","type":"sequence"}]}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:1031","type":"choice","children":[{"id":"ab0042aa512abc10edb3c55e4b416b0b:1032","type":"sequence"},{"id":"ab0042aa512abc10edb3c55e4b416b0b:1036","type":"sequence"},{"id":"ab0042aa512abc10edb3c55e4b416b0b:1040","type":"sequence"},{"id":"ab0042aa512abc10edb3c55e4b416b0b:1043","type":"sequence"}]}]
  */
 class AuthenticationVerifyRequest14sp8 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -27,7 +26,7 @@ class AuthenticationVerifyRequest14sp8 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName userId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:40616
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:1043
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -37,7 +36,7 @@ class AuthenticationVerifyRequest14sp8 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName password
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:40605
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:1032
      * @MinLength 1
      * @MaxLength 60
      * @var string|null
@@ -47,7 +46,7 @@ class AuthenticationVerifyRequest14sp8 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName phoneNumber
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:40609
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:1036
      * @MinLength 1
      * @MaxLength 23
      * @var string|null
@@ -57,7 +56,7 @@ class AuthenticationVerifyRequest14sp8 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName passcode
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:40609
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:1036
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -67,7 +66,7 @@ class AuthenticationVerifyRequest14sp8 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName loginToken
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:40613
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:1040
      * @MinLength 1
      * @var string|null
      */
@@ -76,7 +75,7 @@ class AuthenticationVerifyRequest14sp8 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName sipAuthenticationUserName
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:40616
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:1043
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -86,7 +85,7 @@ class AuthenticationVerifyRequest14sp8 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName sipAuthenticationPassword
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:40616
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:1043
      * @MinLength 1
      * @MaxLength 60
      * @var string|null

@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"a27224a048c30ff69eab9209dec841cc:1240","type":"sequence"}]
+ * @Groups [{"id":"a27224a048c30ff69eab9209dec841cc:1197","type":"sequence"}]
  */
 class GroupRoutePointQueueCallDispositionCodeSettingsModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupRoutePointQueueCallDispositionCodeSettingsModifyRequest extends \CWM\
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group a27224a048c30ff69eab9209dec841cc:1240
+     * @Group a27224a048c30ff69eab9209dec841cc:1197
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -29,7 +29,7 @@ class GroupRoutePointQueueCallDispositionCodeSettingsModifyRequest extends \CWM\
      * @ElementName enableCallDispositionCodes
      * @Type bool
      * @Optional
-     * @Group a27224a048c30ff69eab9209dec841cc:1240
+     * @Group a27224a048c30ff69eab9209dec841cc:1197
      * @var bool|null
      */
     private $enableCallDispositionCodes = null;
@@ -38,7 +38,7 @@ class GroupRoutePointQueueCallDispositionCodeSettingsModifyRequest extends \CWM\
      * @ElementName includeOrganizationCodes
      * @Type bool
      * @Optional
-     * @Group a27224a048c30ff69eab9209dec841cc:1240
+     * @Group a27224a048c30ff69eab9209dec841cc:1197
      * @var bool|null
      */
     private $includeOrganizationCodes = null;
@@ -47,7 +47,7 @@ class GroupRoutePointQueueCallDispositionCodeSettingsModifyRequest extends \CWM\
      * @ElementName forceUseOfCallDispositionCodes
      * @Type bool
      * @Optional
-     * @Group a27224a048c30ff69eab9209dec841cc:1240
+     * @Group a27224a048c30ff69eab9209dec841cc:1197
      * @var bool|null
      */
     private $forceUseOfCallDispositionCodes = null;
@@ -57,7 +57,7 @@ class GroupRoutePointQueueCallDispositionCodeSettingsModifyRequest extends \CWM\
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallDispositionCodeWithLevel
      * @Nillable
      * @Optional
-     * @Group a27224a048c30ff69eab9209dec841cc:1240
+     * @Group a27224a048c30ff69eab9209dec841cc:1197
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallDispositionCodeWithLevel|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $defaultCallDispositionCode = null;
@@ -67,7 +67,7 @@ class GroupRoutePointQueueCallDispositionCodeSettingsModifyRequest extends \CWM\
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallDispositionCodeActivation
      * @Array
      * @Optional
-     * @Group a27224a048c30ff69eab9209dec841cc:1240
+     * @Group a27224a048c30ff69eab9209dec841cc:1197
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallDispositionCodeActivation[]
      */
     private $callDispositionCodeActivation = array(

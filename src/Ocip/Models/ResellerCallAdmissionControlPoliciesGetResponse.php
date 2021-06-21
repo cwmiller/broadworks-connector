@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response contains the reseller call admission control policies information.
  *
  * @see ResellerCallAdmissionControlPoliciesGetRequest
- * @Groups [{"id":"b009175f2a2a9d38115e319a6ad64d7f:221","type":"sequence"}]
+ * @Groups [{"id":"b009175f2a2a9d38115e319a6ad64d7f:327","type":"sequence"}]
  */
 class ResellerCallAdmissionControlPoliciesGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class ResellerCallAdmissionControlPoliciesGetResponse extends \CWM\BroadWorksCon
     /**
      * @ElementName enableCallAdmissionControl
      * @Type bool
-     * @Group b009175f2a2a9d38115e319a6ad64d7f:221
+     * @Group b009175f2a2a9d38115e319a6ad64d7f:327
      * @var bool|null
      */
     private $enableCallAdmissionControl = null;
@@ -25,7 +25,7 @@ class ResellerCallAdmissionControlPoliciesGetResponse extends \CWM\BroadWorksCon
     /**
      * @ElementName maxConcurrentNetworkSessions
      * @Type int
-     * @Group b009175f2a2a9d38115e319a6ad64d7f:221
+     * @Group b009175f2a2a9d38115e319a6ad64d7f:327
      * @MinInclusive 0
      * @MaxInclusive 2147483647
      * @var int|null
@@ -36,7 +36,7 @@ class ResellerCallAdmissionControlPoliciesGetResponse extends \CWM\BroadWorksCon
      * @ElementName maxConcurrentNetworkSessionsThreshold
      * @Type int
      * @Optional
-     * @Group b009175f2a2a9d38115e319a6ad64d7f:221
+     * @Group b009175f2a2a9d38115e319a6ad64d7f:327
      * @MinInclusive 1
      * @MaxInclusive 2147483647
      * @var int|null
@@ -46,7 +46,7 @@ class ResellerCallAdmissionControlPoliciesGetResponse extends \CWM\BroadWorksCon
     /**
      * @ElementName maxNetworkCallsPerSecond
      * @Type int
-     * @Group b009175f2a2a9d38115e319a6ad64d7f:221
+     * @Group b009175f2a2a9d38115e319a6ad64d7f:327
      * @MinInclusive 0
      * @MaxInclusive 2147483647
      * @var int|null
@@ -57,7 +57,7 @@ class ResellerCallAdmissionControlPoliciesGetResponse extends \CWM\BroadWorksCon
      * @ElementName maxNetworkCallsPerSecondThreshold
      * @Type int
      * @Optional
-     * @Group b009175f2a2a9d38115e319a6ad64d7f:221
+     * @Group b009175f2a2a9d38115e319a6ad64d7f:327
      * @MinInclusive 1
      * @MaxInclusive 2147483647
      * @var int|null
@@ -67,7 +67,7 @@ class ResellerCallAdmissionControlPoliciesGetResponse extends \CWM\BroadWorksCon
     /**
      * @ElementName maxConcurrentExternalSIPRECSessions
      * @Type int
-     * @Group b009175f2a2a9d38115e319a6ad64d7f:221
+     * @Group b009175f2a2a9d38115e319a6ad64d7f:327
      * @MinInclusive 0
      * @MaxInclusive 2147483647
      * @var int|null
@@ -78,7 +78,7 @@ class ResellerCallAdmissionControlPoliciesGetResponse extends \CWM\BroadWorksCon
      * @ElementName maxConcurrentExternalSIPRECSessionsThreshold
      * @Type int
      * @Optional
-     * @Group b009175f2a2a9d38115e319a6ad64d7f:221
+     * @Group b009175f2a2a9d38115e319a6ad64d7f:327
      * @MinInclusive 1
      * @MaxInclusive 2147483647
      * @var int|null

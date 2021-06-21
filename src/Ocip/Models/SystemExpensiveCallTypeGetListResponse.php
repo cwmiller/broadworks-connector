@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemExpensiveCallTypeGetListResponse
  *
  * Response to SystemExpensiveCallTypeGetListRequest.
- *                 Replaced by: SystemExpensiveCallTypeGetListResponse16sp1
+ *         Replaced by: SystemExpensiveCallTypeGetListResponse16sp1
  *
  * @see SystemExpensiveCallTypeGetListRequest
  * @see SystemExpensiveCallTypeGetListResponse16sp1
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:15328","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:26697","type":"sequence"}]
  */
 class SystemExpensiveCallTypeGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -20,7 +20,7 @@ class SystemExpensiveCallTypeGetListResponse extends \CWM\BroadWorksConnector\Oc
      * @Type string
      * @Array
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:15328
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:26697
      * @MinLength 1
      * @MaxLength 64
      * @var string[]

@@ -6,12 +6,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * TrunkAddressingMultipleContactModify
  *
  * Trunk group endpoint that can have multiple contacts. 
- *         alternateTrunkIdentityDomain is only used in XS mode and the AS when deployed in IMS mode.
+ *         alternateTrunkIdentityDomain is only used in XS mode and the AS when deployed in IMS mode. 
  *         Setting alternateTrunkIdentity or alternateTrunkIdentityDomain to nil in XS mode, the other one paremter should be set to nil at the same time.
  *         The following elements are only used in AS data mode and are ignored in XS data mode:        
  *          physicalLocation
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:4172","type":"sequence"}]
+ * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:4868","type":"sequence"}]
  */
 class TrunkAddressingMultipleContactModify
 {
@@ -21,7 +21,7 @@ class TrunkAddressingMultipleContactModify
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupDeviceMultipleContactEndpointModify
      * @Nillable
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4172
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:4868
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupDeviceMultipleContactEndpointModify|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $trunkGroupDeviceEndpoint = null;
@@ -31,7 +31,7 @@ class TrunkAddressingMultipleContactModify
      * @Type string
      * @Nillable
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4172
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:4868
      * @MinLength 1
      * @MaxLength 30
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -43,7 +43,7 @@ class TrunkAddressingMultipleContactModify
      * @Type string
      * @Nillable
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4172
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:4868
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -55,7 +55,7 @@ class TrunkAddressingMultipleContactModify
      * @Type string
      * @Nillable
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4172
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:4868
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -67,7 +67,7 @@ class TrunkAddressingMultipleContactModify
      * @Type string
      * @Nillable
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4172
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:4868
      * @MinLength 1
      * @MaxLength 1024
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil

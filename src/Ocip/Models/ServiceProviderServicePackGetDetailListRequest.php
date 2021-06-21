@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see ServiceProviderServicePackGetDetailListResponse
  * @see ErrorResponse
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:5277","type":"sequence"}]
+ * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:6110","type":"sequence"}]
  */
 class ServiceProviderServicePackGetDetailListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class ServiceProviderServicePackGetDetailListRequest extends \CWM\BroadWorksConn
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5277
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:6110
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +28,7 @@ class ServiceProviderServicePackGetDetailListRequest extends \CWM\BroadWorksConn
     /**
      * @ElementName servicePackName
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5277
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:6110
      * @MinLength 1
      * @MaxLength 80
      * @var string|null

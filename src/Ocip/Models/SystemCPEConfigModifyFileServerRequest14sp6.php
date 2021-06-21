@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:6697","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:7040","type":"sequence"}]
  */
 class SystemCPEConfigModifyFileServerRequest14sp6 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class SystemCPEConfigModifyFileServerRequest14sp6 extends \CWM\BroadWorksConnect
     /**
      * @ElementName deviceType
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6697
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7040
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -30,7 +30,7 @@ class SystemCPEConfigModifyFileServerRequest14sp6 extends \CWM\BroadWorksConnect
      * @ElementName fileRepositoryName
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6697
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7040
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -42,7 +42,7 @@ class SystemCPEConfigModifyFileServerRequest14sp6 extends \CWM\BroadWorksConnect
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6697
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7040
      * @MinLength 1
      * @MaxLength 256
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -54,7 +54,7 @@ class SystemCPEConfigModifyFileServerRequest14sp6 extends \CWM\BroadWorksConnect
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6697
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7040
      * @MinLength 1
      * @MaxLength 40
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil

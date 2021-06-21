@@ -15,9 +15,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains a table with a row for each registration and token with column headings :
  *         "User Id",  "Registration Id",  "Application Id",  "Application Version",  "Device Os Type",  
  *         "Device Os Version",  "Registration Date",  "Token",  "Events"
+ *         
+ *         Replaced by: UserPushNotificationRegistrationGetListResponse21sp1
  *
  * @see UserPushNotificationRegistrationGetListRequest
- * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:3468","type":"sequence"}]
+ * @see UserPushNotificationRegistrationGetListResponse21sp1
+ * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:14188","type":"sequence"}]
  */
 class UserPushNotificationRegistrationGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -25,7 +28,7 @@ class UserPushNotificationRegistrationGetListResponse extends \CWM\BroadWorksCon
     /**
      * @ElementName registrationsTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:3468
+     * @Group de4d76f01f337fe4694212ec9f771753:14188
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $registrationsTable = null;

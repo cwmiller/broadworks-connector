@@ -6,14 +6,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupCallCenterGetSupervisorListResponse
  *
  * Response to the GroupCallCenterGetSupervisorListRequest.
- *                 Contains a table with column headings: "User Id", "Last Name",
- *                 "First Name", "Hiragana Last Name", "Hiragana First Name".
- *                 Element "reportingServerURL"" will always be blank.
- *                 Replaced By: GroupCallCenterSupervisorReportingGetResponse
+ *         Contains a table with column headings: "User Id", "Last Name",
+ *         "First Name", "Hiragana Last Name", "Hiragana First Name".
+ *         Element "reportingServerURL"" will always be blank.        
+ *         Replaced By: GroupCallCenterSupervisorReportingGetResponse
  *
  * @see GroupCallCenterGetSupervisorListRequest
  * @see GroupCallCenterSupervisorReportingGetResponse
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:1060","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:6264","type":"sequence"}]
  */
 class GroupCallCenterGetSupervisorListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -22,7 +22,7 @@ class GroupCallCenterGetSupervisorListResponse extends \CWM\BroadWorksConnector\
      * @ElementName reportingServerURL
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:1060
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:6264
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -32,7 +32,7 @@ class GroupCallCenterGetSupervisorListResponse extends \CWM\BroadWorksConnector\
     /**
      * @ElementName supervisorTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:1060
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:6264
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $supervisorTable = null;

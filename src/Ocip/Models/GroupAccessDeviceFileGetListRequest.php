@@ -5,15 +5,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * GroupAccessDeviceFileGetListRequest
  *
- * Request to get the list of device files managed by the Device Management System, on a per-device profile
- *                 basis.
- *                 The response is either GroupAccessDeviceFileGetListResponse or ErrorResponse.
- *                 Replaced By: GroupAccessDeviceFileGetListRequest14sp8
+ * Request to get the list of device files managed by the Device Management System, on a per-device profile basis.
+ *           The response is either GroupAccessDeviceFileGetListResponse or ErrorResponse.
+ *           Replaced By: GroupAccessDeviceFileGetListRequest14sp8
  *
  * @see GroupAccessDeviceFileGetListResponse
  * @see ErrorResponse
  * @see GroupAccessDeviceFileGetListRequest14sp8
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:526","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:2821","type":"sequence"}]
  */
 class GroupAccessDeviceFileGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,7 +20,7 @@ class GroupAccessDeviceFileGetListRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:526
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:2821
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -31,7 +30,7 @@ class GroupAccessDeviceFileGetListRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName groupId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:526
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:2821
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -41,7 +40,7 @@ class GroupAccessDeviceFileGetListRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName deviceName
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:526
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:2821
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

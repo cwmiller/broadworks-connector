@@ -16,7 +16,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           "Disable National Prefix for OffNet Calls"
  *
  * @see SystemCountryCodeGetListRequest
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:6582","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:6925","type":"sequence"}]
  */
 class SystemCountryCodeGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -24,7 +24,7 @@ class SystemCountryCodeGetListResponse extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName defaultCountryCode
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6582
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6925
      * @MaxLength 3
      * @Pattern [0-9]|[1-9][0-9]{1,2}
      * @var string|null
@@ -34,7 +34,7 @@ class SystemCountryCodeGetListResponse extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName countryCodeTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6582
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6925
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $countryCodeTable = null;

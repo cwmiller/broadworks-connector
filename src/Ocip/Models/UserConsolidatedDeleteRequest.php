@@ -15,13 +15,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           When set to 'Service Provider', they will be un-assigned from the group and service provider if the command is executed by a provisioning administrator or above.
  *           When omitted, the number(s) will be left assigned to the group.
  *          An ErrorResponse will be returned if any number cannot be unassigned because of insufficient privilege.
- *         The response is either SuccessResponse or ErrorResponse
+ *
+ *         The response is either SuccessResponse or ErrorResponse.
  *
  * @see ErrorResponse
  * @see ErrorResponse
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:1337","type":"sequence"}]
+ * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:1411","type":"sequence"}]
  */
 class UserConsolidatedDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -29,7 +30,7 @@ class UserConsolidatedDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName userId
      * @Type string
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:1337
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:1411
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -40,7 +41,7 @@ class UserConsolidatedDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName deleteExistingDevices
      * @Type bool
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:1337
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:1411
      * @var bool|null
      */
     private $deleteExistingDevices = null;
@@ -49,7 +50,7 @@ class UserConsolidatedDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName unassignPhoneNumbers
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UnassignPhoneNumbersLevel
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:1337
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:1411
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnassignPhoneNumbersLevel|null
      */
     private $unassignPhoneNumbers = null;

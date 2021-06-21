@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Criteria for searching for a name in a user personal phone list.
  *
- * @Groups [{"id":"f0ada2681ca347fa83b464734259b304:2225","type":"sequence"}]
+ * @Groups [{"id":"f0ada2681ca347fa83b464734259b304:2363","type":"sequence"}]
  */
 class SearchCriteriaUserPersonalPhoneListName extends SearchCriteria
 {
@@ -15,7 +15,7 @@ class SearchCriteriaUserPersonalPhoneListName extends SearchCriteria
     /**
      * @ElementName mode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchMode
-     * @Group f0ada2681ca347fa83b464734259b304:2225
+     * @Group f0ada2681ca347fa83b464734259b304:2363
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchMode|null
      */
     private $mode = null;
@@ -23,7 +23,7 @@ class SearchCriteriaUserPersonalPhoneListName extends SearchCriteria
     /**
      * @ElementName value
      * @Type string
-     * @Group f0ada2681ca347fa83b464734259b304:2225
+     * @Group f0ada2681ca347fa83b464734259b304:2363
      * @MinLength 1
      * @MaxLength 50
      * @var string|null
@@ -33,7 +33,7 @@ class SearchCriteriaUserPersonalPhoneListName extends SearchCriteria
     /**
      * @ElementName isCaseInsensitive
      * @Type bool
-     * @Group f0ada2681ca347fa83b464734259b304:2225
+     * @Group f0ada2681ca347fa83b464734259b304:2363
      * @var bool|null
      */
     private $isCaseInsensitive = null;

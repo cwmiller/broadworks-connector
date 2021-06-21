@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:5407","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:5748","type":"sequence"}]
  */
 class SystemCommunicationBarringCriteriaDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemCommunicationBarringCriteriaDeleteRequest extends \CWM\BroadWorksCon
     /**
      * @ElementName name
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:5407
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:5748
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

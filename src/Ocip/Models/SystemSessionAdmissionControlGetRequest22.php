@@ -7,10 +7,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Get the session admission control settings for the system.
  *         The response is either a SystemSessionAdmissionControlGetResponse22 or an ErrorResponse.
+ *         
+ *         Replaced by: SystemSessionAdmissionControlGetRequest22V2.
  *
  * @see SystemSessionAdmissionControlGetResponse22
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:15097","type":"sequence"}]
+ * @see SystemSessionAdmissionControlGetRequest22V2
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:29177","type":"sequence"}]
  */
 class SystemSessionAdmissionControlGetRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

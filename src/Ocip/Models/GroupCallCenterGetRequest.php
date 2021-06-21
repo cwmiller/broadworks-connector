@@ -6,15 +6,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupCallCenterGetRequest
  *
  * Request the Group level data associated with Call Center.
- *                 The response is either a GroupCallCenterGetResponse or an
- *                 ErrorResponse.
- *
- *                 Replaced by GroupCallCenterGetRequest17sp4.
+ *         The response is either a GroupCallCenterGetResponse or an
+ *         ErrorResponse.
+ *         
+ *         Replaced by GroupCallCenterGetRequest17sp4.
  *
  * @see GroupCallCenterGetResponse
  * @see ErrorResponse
  * @see GroupCallCenterGetRequest17sp4
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:24989","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:6200","type":"sequence"}]
  */
 class GroupCallCenterGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -22,7 +22,7 @@ class GroupCallCenterGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\O
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:24989
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:6200
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -32,7 +32,7 @@ class GroupCallCenterGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\O
     /**
      * @ElementName groupId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:24989
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:6200
      * @MinLength 1
      * @MaxLength 30
      * @var string|null

@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Contact information.
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:1624","type":"sequence"}]
+ * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:1818","type":"sequence"}]
  */
 class Contact
 {
@@ -17,7 +17,7 @@ class Contact
      * @Type string
      * @Nillable
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1624
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:1818
      * @MinLength 1
      * @MaxLength 30
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -29,7 +29,7 @@ class Contact
      * @Type string
      * @Nillable
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1624
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:1818
      * @MinLength 1
      * @MaxLength 30
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -41,7 +41,7 @@ class Contact
      * @Type string
      * @Nillable
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1624
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:1818
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil

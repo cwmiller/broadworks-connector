@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the ServiceProviderAnswerConfirmationGetRequest16.
  *
  * @see ServiceProviderAnswerConfirmationGetRequest16
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:1214","type":"sequence"}]
+ * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:1681","type":"sequence"}]
  */
 class ServiceProviderAnswerConfirmationGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class ServiceProviderAnswerConfirmationGetResponse16 extends \CWM\BroadWorksConn
     /**
      * @ElementName announcementMessageSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnswerConfirmationAnnouncementSelection
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1214
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1681
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnswerConfirmationAnnouncementSelection|null
      */
     private $announcementMessageSelection = null;
@@ -25,7 +25,7 @@ class ServiceProviderAnswerConfirmationGetResponse16 extends \CWM\BroadWorksConn
      * @ElementName confirmationMessageAudioFileDescription
      * @Type string
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1214
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1681
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -36,7 +36,7 @@ class ServiceProviderAnswerConfirmationGetResponse16 extends \CWM\BroadWorksConn
      * @ElementName confirmationMessageMediaType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MediaFileType
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1214
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1681
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     private $confirmationMessageMediaType = null;
@@ -44,7 +44,7 @@ class ServiceProviderAnswerConfirmationGetResponse16 extends \CWM\BroadWorksConn
     /**
      * @ElementName confirmationTimoutSeconds
      * @Type int
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1214
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1681
      * @MinInclusive 2
      * @MaxInclusive 30
      * @var int|null

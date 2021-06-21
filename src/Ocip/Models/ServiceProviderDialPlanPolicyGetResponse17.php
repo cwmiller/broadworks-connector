@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to ServiceProviderDialPlanPolicyGetRequest17
  *
  * @see ServiceProviderDialPlanPolicyGetRequest17
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:3014","type":"sequence"}]
+ * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:5651","type":"sequence"}]
  */
 class ServiceProviderDialPlanPolicyGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class ServiceProviderDialPlanPolicyGetResponse17 extends \CWM\BroadWorksConnecto
     /**
      * @ElementName requiresAccessCodeForPublicCalls
      * @Type bool
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3014
+     * @Group de4d76f01f337fe4694212ec9f771753:5651
      * @var bool|null
      */
     private $requiresAccessCodeForPublicCalls = null;
@@ -24,7 +24,7 @@ class ServiceProviderDialPlanPolicyGetResponse17 extends \CWM\BroadWorksConnecto
     /**
      * @ElementName allowE164PublicCalls
      * @Type bool
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3014
+     * @Group de4d76f01f337fe4694212ec9f771753:5651
      * @var bool|null
      */
     private $allowE164PublicCalls = null;
@@ -32,7 +32,7 @@ class ServiceProviderDialPlanPolicyGetResponse17 extends \CWM\BroadWorksConnecto
     /**
      * @ElementName preferE164NumberFormatForCallbackServices
      * @Type bool
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3014
+     * @Group de4d76f01f337fe4694212ec9f771753:5651
      * @var bool|null
      */
     private $preferE164NumberFormatForCallbackServices = null;
@@ -41,7 +41,7 @@ class ServiceProviderDialPlanPolicyGetResponse17 extends \CWM\BroadWorksConnecto
      * @ElementName publicDigitMap
      * @Type string
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3014
+     * @Group de4d76f01f337fe4694212ec9f771753:5651
      * @MinLength 1
      * @MaxLength 2048
      * @var string|null
@@ -52,7 +52,7 @@ class ServiceProviderDialPlanPolicyGetResponse17 extends \CWM\BroadWorksConnecto
      * @ElementName privateDigitMap
      * @Type string
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3014
+     * @Group de4d76f01f337fe4694212ec9f771753:5651
      * @MinLength 1
      * @MaxLength 2048
      * @var string|null

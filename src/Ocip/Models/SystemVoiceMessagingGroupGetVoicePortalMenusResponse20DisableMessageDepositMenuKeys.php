@@ -5,7 +5,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemVoiceMessagingGroupGetVoicePortalMenusResponse20DisableMessageDepositMenuKeys
  *
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:35615","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:38652","type":"sequence"}]
  */
 class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20DisableMessageDepositMenuKeys
 {
@@ -14,7 +14,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20DisableMessageDeposi
      * @ElementName disconnectAfterGreeting
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:35615
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:38652
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -25,7 +25,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20DisableMessageDeposi
      * @ElementName forwardAfterGreeting
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:35615
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:38652
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -36,7 +36,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20DisableMessageDeposi
      * @ElementName changeForwardingDestination
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:35615
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:38652
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -46,7 +46,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20DisableMessageDeposi
     /**
      * @ElementName returnToPreviousMenu
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:35615
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:38652
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -57,7 +57,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20DisableMessageDeposi
      * @ElementName repeatMenu
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:35615
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:38652
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null

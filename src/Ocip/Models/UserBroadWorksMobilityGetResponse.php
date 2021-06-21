@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to a UserBroadWorksMobilityGetRequest.
  *
  * @see UserBroadWorksMobilityGetRequest
- * @Groups [{"id":"a8b2edcd7d6936a8b76653949ae59623:186","type":"sequence"}]
+ * @Groups [{"id":"a8b2edcd7d6936a8b76653949ae59623:213","type":"sequence"}]
  */
 class UserBroadWorksMobilityGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class UserBroadWorksMobilityGetResponse extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group a8b2edcd7d6936a8b76653949ae59623:186
+     * @Group a8b2edcd7d6936a8b76653949ae59623:213
      * @var bool|null
      */
     private $isActive = null;
@@ -24,7 +24,7 @@ class UserBroadWorksMobilityGetResponse extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName phonesToRing
      * @Type \CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityPhoneToRing
-     * @Group a8b2edcd7d6936a8b76653949ae59623:186
+     * @Group a8b2edcd7d6936a8b76653949ae59623:213
      * @var \CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityPhoneToRing|null
      */
     private $phonesToRing = null;
@@ -33,7 +33,7 @@ class UserBroadWorksMobilityGetResponse extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName mobilePhoneNumber
      * @Type string
      * @Optional
-     * @Group a8b2edcd7d6936a8b76653949ae59623:186
+     * @Group a8b2edcd7d6936a8b76653949ae59623:213
      * @MinLength 1
      * @MaxLength 23
      * @var string|null
@@ -43,7 +43,7 @@ class UserBroadWorksMobilityGetResponse extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName alertClickToDialCalls
      * @Type bool
-     * @Group a8b2edcd7d6936a8b76653949ae59623:186
+     * @Group a8b2edcd7d6936a8b76653949ae59623:213
      * @var bool|null
      */
     private $alertClickToDialCalls = null;
@@ -51,7 +51,7 @@ class UserBroadWorksMobilityGetResponse extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName alertGroupPagingCalls
      * @Type bool
-     * @Group a8b2edcd7d6936a8b76653949ae59623:186
+     * @Group a8b2edcd7d6936a8b76653949ae59623:213
      * @var bool|null
      */
     private $alertGroupPagingCalls = null;
@@ -59,7 +59,7 @@ class UserBroadWorksMobilityGetResponse extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName enableDiversionInhibitor
      * @Type bool
-     * @Group a8b2edcd7d6936a8b76653949ae59623:186
+     * @Group a8b2edcd7d6936a8b76653949ae59623:213
      * @var bool|null
      */
     private $enableDiversionInhibitor = null;
@@ -67,7 +67,7 @@ class UserBroadWorksMobilityGetResponse extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName requireAnswerConfirmation
      * @Type bool
-     * @Group a8b2edcd7d6936a8b76653949ae59623:186
+     * @Group a8b2edcd7d6936a8b76653949ae59623:213
      * @var bool|null
      */
     private $requireAnswerConfirmation = null;
@@ -75,7 +75,7 @@ class UserBroadWorksMobilityGetResponse extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName broadworksCallControl
      * @Type bool
-     * @Group a8b2edcd7d6936a8b76653949ae59623:186
+     * @Group a8b2edcd7d6936a8b76653949ae59623:213
      * @var bool|null
      */
     private $broadworksCallControl = null;
@@ -83,7 +83,7 @@ class UserBroadWorksMobilityGetResponse extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName useSettingLevel
      * @Type \CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityUserSettingLevel
-     * @Group a8b2edcd7d6936a8b76653949ae59623:186
+     * @Group a8b2edcd7d6936a8b76653949ae59623:213
      * @var \CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityUserSettingLevel|null
      */
     private $useSettingLevel = null;
@@ -91,7 +91,7 @@ class UserBroadWorksMobilityGetResponse extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName denyCallOriginations
      * @Type bool
-     * @Group a8b2edcd7d6936a8b76653949ae59623:186
+     * @Group a8b2edcd7d6936a8b76653949ae59623:213
      * @var bool|null
      */
     private $denyCallOriginations = null;
@@ -99,7 +99,7 @@ class UserBroadWorksMobilityGetResponse extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName denyCallTerminations
      * @Type bool
-     * @Group a8b2edcd7d6936a8b76653949ae59623:186
+     * @Group a8b2edcd7d6936a8b76653949ae59623:213
      * @var bool|null
      */
     private $denyCallTerminations = null;

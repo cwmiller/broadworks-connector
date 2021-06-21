@@ -6,12 +6,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserDevicePoliciesGetRequest
  *
  * Request the user level data associated with Device Policy.
- *                 The response is either a UserDevicePoliciesGetResponse or an
- *                 ErrorResponse.
+ *           The response is either a UserDevicePoliciesGetResponse or an
+ *           ErrorResponse.
  *
  * @see UserDevicePoliciesGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:32489","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:42158","type":"sequence"}]
  */
 class UserDevicePoliciesGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class UserDevicePoliciesGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName userId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:32489
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:42158
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

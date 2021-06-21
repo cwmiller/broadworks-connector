@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * A list of communication barring profiles that replaces a previously configured list.
  *         By convention, an element of this type may be set nil to clear the list.
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:1415","type":"sequence"}]
+ * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:1503","type":"sequence"}]
  */
 class CommunicationBarringProfileReplacementList
 {
@@ -17,7 +17,7 @@ class CommunicationBarringProfileReplacementList
      * @ElementName profileName
      * @Type string
      * @Array
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1415
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:1503
      * @MinLength 1
      * @MaxLength 40
      * @var string[]

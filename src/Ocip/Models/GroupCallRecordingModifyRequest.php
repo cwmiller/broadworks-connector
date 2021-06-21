@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"9741e074fbfeb4c7312bfa4dfbaee3d3:83","type":"sequence"}]
+ * @Groups [{"id":"9741e074fbfeb4c7312bfa4dfbaee3d3:140","type":"sequence"}]
  */
 class GroupCallRecordingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupCallRecordingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:83
+     * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:140
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +28,7 @@ class GroupCallRecordingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:83
+     * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:140
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -39,7 +39,7 @@ class GroupCallRecordingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName name
      * @Type string
      * @Optional
-     * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:83
+     * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:140
      * @MinLength 1
      * @MaxLength 80
      * @var string|null

@@ -6,16 +6,16 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserEnhancedCallLogsGetListRequest14sp4
  *
  * Request user's call logs. It is possible to get a subset of the total list of calls
- *                 by specifying a starting offset and the number of calls to get.
- *                 If the callLogType is not specified, all types of calls are returned.
- *                 The response is either a UserEnhancedCallLogsGetListResponse14sp4 or an ErrorResponse.
- *                 Replaced by:
- *                 UserEnhancedCallLogsGetListRequest16
+ *             by specifying a starting offset and the number of calls to get.
+ *             If the callLogType is not specified, all types of calls are returned.
+ *             The response is either a UserEnhancedCallLogsGetListResponse14sp4 or an ErrorResponse.
+ *             Replaced by: 
+ *             UserEnhancedCallLogsGetListRequest16
  *
  * @see UserEnhancedCallLogsGetListResponse14sp4
  * @see ErrorResponse
  * @see UserEnhancedCallLogsGetListRequest16
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:11307","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:42330","type":"sequence"}]
  */
 class UserEnhancedCallLogsGetListRequest14sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -23,7 +23,7 @@ class UserEnhancedCallLogsGetListRequest14sp4 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName userId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:11307
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:42330
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -34,7 +34,7 @@ class UserEnhancedCallLogsGetListRequest14sp4 extends \CWM\BroadWorksConnector\O
      * @ElementName callLogType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallLogsType
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:11307
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:42330
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallLogsType|null
      */
     private $callLogType = null;
@@ -42,7 +42,7 @@ class UserEnhancedCallLogsGetListRequest14sp4 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName startingOffset
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:11307
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:42330
      * @MinInclusive 0
      * @MaxInclusive 9999
      * @var int|null
@@ -52,7 +52,7 @@ class UserEnhancedCallLogsGetListRequest14sp4 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName numCalls
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:11307
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:42330
      * @MinInclusive 1
      * @MaxInclusive 10000
      * @var int|null

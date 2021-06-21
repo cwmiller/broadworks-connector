@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f6b3702edb5f67fa12c2c426d98657db:228","type":"sequence"}]
+ * @Groups [{"id":"f6b3702edb5f67fa12c2c426d98657db:268","type":"sequence"}]
  */
 class SystemEnhancedCallLogsModifyRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class SystemEnhancedCallLogsModifyRequest22 extends \CWM\BroadWorksConnector\Oci
      * @ElementName maxNonPagedResponseSize
      * @Type int
      * @Optional
-     * @Group f6b3702edb5f67fa12c2c426d98657db:228
+     * @Group f6b3702edb5f67fa12c2c426d98657db:268
      * @MinInclusive 100
      * @MaxInclusive 1000
      * @var int|null
@@ -31,7 +31,7 @@ class SystemEnhancedCallLogsModifyRequest22 extends \CWM\BroadWorksConnector\Oci
      * @Type string
      * @Nillable
      * @Optional
-     * @Group f6b3702edb5f67fa12c2c426d98657db:228
+     * @Group f6b3702edb5f67fa12c2c426d98657db:268
      * @MinLength 1
      * @MaxLength 256
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -43,12 +43,24 @@ class SystemEnhancedCallLogsModifyRequest22 extends \CWM\BroadWorksConnector\Oci
      * @Type string
      * @Nillable
      * @Optional
-     * @Group f6b3702edb5f67fa12c2c426d98657db:228
+     * @Group f6b3702edb5f67fa12c2c426d98657db:268
      * @MinLength 1
      * @MaxLength 256
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $eclQueryDataRepositoryURL = null;
+
+    /**
+     * @ElementName defaultSchema
+     * @Type string
+     * @Nillable
+     * @Optional
+     * @Group f6b3702edb5f67fa12c2c426d98657db:268
+     * @MinLength 1
+     * @MaxLength 80
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     */
+    private $defaultSchema = null;
 
     /**
      * Getter for maxNonPagedResponseSize
@@ -148,6 +160,41 @@ class SystemEnhancedCallLogsModifyRequest22 extends \CWM\BroadWorksConnector\Oci
     public function unsetEclQueryDataRepositoryURL()
     {
         $this->eclQueryDataRepositoryURL = null;
+        return $this;
+    }
+
+    /**
+     * Getter for defaultSchema
+     *
+     * @return string|null
+     */
+    public function getDefaultSchema()
+    {
+        return $this->defaultSchema instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->defaultSchema;
+    }
+
+    /**
+     * Setter for defaultSchema
+     *
+     * @param string|null $defaultSchema
+     * @return $this
+     */
+    public function setDefaultSchema($defaultSchema = null)
+    {
+        if ($defaultSchema === null) {
+            $this->defaultSchema = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->defaultSchema = $defaultSchema;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDefaultSchema()
+    {
+        $this->defaultSchema = null;
         return $this;
     }
 

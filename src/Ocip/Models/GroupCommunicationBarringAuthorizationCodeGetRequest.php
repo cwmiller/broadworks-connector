@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupCommunicationBarringAuthorizationCodeGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:2424","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:2964","type":"sequence"}]
  */
 class GroupCommunicationBarringAuthorizationCodeGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupCommunicationBarringAuthorizationCodeGetRequest extends \CWM\BroadWor
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:2424
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:2964
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +28,7 @@ class GroupCommunicationBarringAuthorizationCodeGetRequest extends \CWM\BroadWor
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:2424
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:2964
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -38,7 +38,7 @@ class GroupCommunicationBarringAuthorizationCodeGetRequest extends \CWM\BroadWor
     /**
      * @ElementName code
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:2424
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:2964
      * @MinLength 2
      * @MaxLength 14
      * @var string|null

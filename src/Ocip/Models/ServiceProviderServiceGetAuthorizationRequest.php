@@ -7,10 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Requests the service provider's service authorization information for a specific service or service pack.
  *         The response is either ServiceProviderServiceGetAuthorizationResponse or ErrorResponse.
+ *         
+ *         The following element is used in AS mode and triggers an ErrorResponse in XS data mode:
+ *           servicePackName
  *
  * @see ServiceProviderServiceGetAuthorizationResponse
  * @see ErrorResponse
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:5128","type":"sequence","children":[{"id":"f1088f4c5ceb30d524d2ba0f8097c393:5130","type":"choice"}]}]
+ * @see ErrorResponse
+ * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:5961","type":"sequence","children":[{"id":"f1088f4c5ceb30d524d2ba0f8097c393:5963","type":"choice"}]}]
  */
 class ServiceProviderServiceGetAuthorizationRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +22,7 @@ class ServiceProviderServiceGetAuthorizationRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5128
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5961
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +32,7 @@ class ServiceProviderServiceGetAuthorizationRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName userServiceName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UserService
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5130
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5963
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserService|null
      */
     private $userServiceName = null;
@@ -36,7 +40,7 @@ class ServiceProviderServiceGetAuthorizationRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName groupServiceName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupService
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5130
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5963
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupService|null
      */
     private $groupServiceName = null;
@@ -44,7 +48,7 @@ class ServiceProviderServiceGetAuthorizationRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName servicePackName
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5130
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5963
      * @MinLength 1
      * @MaxLength 80
      * @var string|null

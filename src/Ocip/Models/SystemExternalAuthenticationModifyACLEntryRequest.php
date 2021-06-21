@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemExternalAuthenticationModifyACLEntryRequest
  *
  * Modify an entry from the external authentication access control list.
- *                 The response is either SuccessResponse or ErrorResponse.
+ *         The response is either SuccessResponse or ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:5188","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:26746","type":"sequence"}]
  */
 class SystemExternalAuthenticationModifyACLEntryRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemExternalAuthenticationModifyACLEntryRequest extends \CWM\BroadWorksC
     /**
      * @ElementName netAddress
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:5188
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:26746
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -30,7 +30,7 @@ class SystemExternalAuthenticationModifyACLEntryRequest extends \CWM\BroadWorksC
      * @Type string
      * @Nillable
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:5188
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:26746
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil

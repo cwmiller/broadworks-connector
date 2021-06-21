@@ -6,13 +6,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserSimultaneousRingPersonalModifyRequest
  *
  * Modify the user's simultaneous ring personal service setting.
- *                 The response is either a SuccessResponse or an ErrorResponse.
- *                 Replaced By: UserSimultaneousRingPersonalModifyRequest14sp4
+ *         The response is either a SuccessResponse or an ErrorResponse.
+ *         Replaced By: UserSimultaneousRingPersonalModifyRequest14sp4
  *
  * @see SuccessResponse
  * @see ErrorResponse
  * @see UserSimultaneousRingPersonalModifyRequest14sp4
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:7790","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:46535","type":"sequence"}]
  */
 class UserSimultaneousRingPersonalModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class UserSimultaneousRingPersonalModifyRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName userId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:7790
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:46535
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -31,7 +31,7 @@ class UserSimultaneousRingPersonalModifyRequest extends \CWM\BroadWorksConnector
      * @ElementName isActive
      * @Type bool
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:7790
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:46535
      * @var bool|null
      */
     private $isActive = null;
@@ -40,7 +40,7 @@ class UserSimultaneousRingPersonalModifyRequest extends \CWM\BroadWorksConnector
      * @ElementName incomingCalls
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SimultaneousRingSelection
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:7790
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:46535
      * @var \CWM\BroadWorksConnector\Ocip\Models\SimultaneousRingSelection|null
      */
     private $incomingCalls = null;
@@ -50,7 +50,7 @@ class UserSimultaneousRingPersonalModifyRequest extends \CWM\BroadWorksConnector
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementOutgoingDNorSIPURIList
      * @Nillable
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:7790
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:46535
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementOutgoingDNorSIPURIList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $simRingPhoneNumberList = null;

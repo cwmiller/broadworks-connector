@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "Locale" and "Encoding".
  *
  * @see GroupAdminGetPagedSortedListRequest
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:1166","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:1593","type":"sequence"}]
  */
 class GroupAdminGetPagedSortedListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -21,7 +21,7 @@ class GroupAdminGetPagedSortedListResponse extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName groupAdminTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1166
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:1593
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $groupAdminTable = null;

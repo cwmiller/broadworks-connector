@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupRoutePointQueueCallDispositionCodeSettingsGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"a27224a048c30ff69eab9209dec841cc:1206","type":"sequence"}]
+ * @Groups [{"id":"a27224a048c30ff69eab9209dec841cc:1163","type":"sequence"}]
  */
 class GroupRoutePointQueueCallDispositionCodeSettingsGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class GroupRoutePointQueueCallDispositionCodeSettingsGetRequest extends \CWM\Bro
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group a27224a048c30ff69eab9209dec841cc:1206
+     * @Group a27224a048c30ff69eab9209dec841cc:1163
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

@@ -14,12 +14,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         If no sortOrder is included, the response is sorted by Name ascending by default.
  *         Multiple search criteria are logically ANDed together unless the searchCriteriaModeOr option is included.
  *         Then the search criteria are logically ORed together.
- *         The response is either a GroupAnnouncementFileGetPagedSortedListResponse or an
- *         ErrorResponse.
+ *         
+ *         The following elements are only used in AS data mode and ignored in XS data mode:
+ *           groupExternalId
+ *         
+ *         The response is either a GroupAnnouncementFileGetPagedSortedListResponse or an ErrorResponse.
  *
  * @see GroupAnnouncementFileGetPagedSortedListResponse
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:1486","type":"sequence","children":[{"id":"f3a93cf15de4abd7903673e44ee3e07b:1490","type":"choice","optional":true}]}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:1955","type":"sequence","children":[{"id":"f3a93cf15de4abd7903673e44ee3e07b:1956","type":"choice","children":[{"id":"f3a93cf15de4abd7903673e44ee3e07b:1957","type":"sequence"},{"id":"f3a93cf15de4abd7903673e44ee3e07b:1961","type":"sequence"}]},{"id":"f3a93cf15de4abd7903673e44ee3e07b:1966","type":"choice","optional":true}]}]
  */
 class GroupAnnouncementFileGetPagedSortedListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -27,7 +30,7 @@ class GroupAnnouncementFileGetPagedSortedListRequest extends \CWM\BroadWorksConn
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1486
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:1957
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -37,7 +40,7 @@ class GroupAnnouncementFileGetPagedSortedListRequest extends \CWM\BroadWorksConn
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1486
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:1957
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -45,10 +48,19 @@ class GroupAnnouncementFileGetPagedSortedListRequest extends \CWM\BroadWorksConn
     private $groupId = null;
 
     /**
+     * @ElementName groupExternalId
+     * @Type string
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:1961
+     * @MaxLength 36
+     * @var string|null
+     */
+    private $groupExternalId = null;
+
+    /**
      * @ElementName responsePagingControl
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1486
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:1955
      * @var \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl|null
      */
     private $responsePagingControl = null;
@@ -56,7 +68,7 @@ class GroupAnnouncementFileGetPagedSortedListRequest extends \CWM\BroadWorksConn
     /**
      * @ElementName sortByAnnouncementFileName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByAnnouncementFileName
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1490
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:1966
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByAnnouncementFileName|null
      */
     private $sortByAnnouncementFileName = null;
@@ -64,7 +76,7 @@ class GroupAnnouncementFileGetPagedSortedListRequest extends \CWM\BroadWorksConn
     /**
      * @ElementName sortByAnnouncementFileSize
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByAnnouncementFileSize
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1490
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:1966
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByAnnouncementFileSize|null
      */
     private $sortByAnnouncementFileSize = null;
@@ -74,7 +86,7 @@ class GroupAnnouncementFileGetPagedSortedListRequest extends \CWM\BroadWorksConn
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaAnnouncementFileName
      * @Array
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1486
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:1955
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaAnnouncementFileName[]
      */
     private $searchCriteriaAnnouncementFileName = array(
@@ -85,7 +97,7 @@ class GroupAnnouncementFileGetPagedSortedListRequest extends \CWM\BroadWorksConn
      * @ElementName searchCriteriaExactAnnouncementFileType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactAnnouncementFileType
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1486
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:1955
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactAnnouncementFileType|null
      */
     private $searchCriteriaExactAnnouncementFileType = null;
@@ -95,7 +107,7 @@ class GroupAnnouncementFileGetPagedSortedListRequest extends \CWM\BroadWorksConn
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactMediaFileType
      * @Array
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1486
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:1955
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactMediaFileType[]
      */
     private $searchCriteriaExactMediaFileType = array(
@@ -106,7 +118,7 @@ class GroupAnnouncementFileGetPagedSortedListRequest extends \CWM\BroadWorksConn
      * @ElementName searchCriteriaModeOr
      * @Type bool
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1486
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:1955
      * @var bool|null
      */
     private $searchCriteriaModeOr = null;
@@ -170,6 +182,37 @@ class GroupAnnouncementFileGetPagedSortedListRequest extends \CWM\BroadWorksConn
     public function unsetGroupId()
     {
         $this->groupId = null;
+        return $this;
+    }
+
+    /**
+     * Getter for groupExternalId
+     *
+     * @return string
+     */
+    public function getGroupExternalId()
+    {
+        return $this->groupExternalId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupExternalId;
+    }
+
+    /**
+     * Setter for groupExternalId
+     *
+     * @param string $groupExternalId
+     * @return $this
+     */
+    public function setGroupExternalId($groupExternalId)
+    {
+        $this->groupExternalId = $groupExternalId;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetGroupExternalId()
+    {
+        $this->groupExternalId = null;
         return $this;
     }
 

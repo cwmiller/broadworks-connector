@@ -5,7 +5,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemVoiceMessagingGroupGetVoicePortalMenusResponse18PasscodeMenuKeys
  *
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:27272","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:36838","type":"sequence"}]
  */
 class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18PasscodeMenuKeys
 {
@@ -13,7 +13,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18PasscodeMenuKeys
     /**
      * @ElementName finishEnteringOrReenteringPasscode
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:27272
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:36838
      * @Length 1
      * @Pattern \*|#
      * @var string|null
@@ -23,7 +23,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18PasscodeMenuKeys
     /**
      * @ElementName returnToPreviousMenu
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:27272
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:36838
      * @Length 1
      * @Pattern \*|#
      * @var string|null

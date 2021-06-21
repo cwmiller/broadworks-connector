@@ -5,12 +5,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * ServiceProviderDomainGetAssignedListRequest
  *
- * Requests the list of all domains assigned to a service provider.
+ * Requests the list of all matching domains assigned to a service provider .
  *         The response is either ServiceProviderDomainGetAssignedListResponse or ErrorResponse.
+ *         
+ *         Replaced by ServiceProviderDomainGetAssignedListRequest22.
  *
  * @see ServiceProviderDomainGetAssignedListResponse
  * @see ErrorResponse
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:3294","type":"sequence"}]
+ * @see ServiceProviderDomainGetAssignedListRequest22
+ * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:5673","type":"sequence"}]
  */
 class ServiceProviderDomainGetAssignedListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +21,7 @@ class ServiceProviderDomainGetAssignedListRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3294
+     * @Group de4d76f01f337fe4694212ec9f771753:5673
      * @MinLength 1
      * @MaxLength 30
      * @var string|null

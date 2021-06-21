@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         ascending or descending.
  *         Sort order defaults to ascending.
  *
- * @Groups [{"id":"58293b6da8bb02a6430b3eb1beb91194:737","type":"sequence"}]
+ * @Groups [{"id":"58293b6da8bb02a6430b3eb1beb91194:751","type":"sequence"}]
  */
 abstract class SortCriteriaNumeric
 {
@@ -17,7 +17,7 @@ abstract class SortCriteriaNumeric
     /**
      * @ElementName isAscending
      * @Type bool
-     * @Group 58293b6da8bb02a6430b3eb1beb91194:737
+     * @Group 58293b6da8bb02a6430b3eb1beb91194:751
      * @var bool|null
      */
     private $isAscending = null;

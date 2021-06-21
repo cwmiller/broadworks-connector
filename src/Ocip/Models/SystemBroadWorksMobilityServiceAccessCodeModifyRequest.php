@@ -6,13 +6,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemBroadWorksMobilityServiceAccessCodeModifyRequest
  *
  * Modify a system service access code.
- *                 The response is either SuccessResponse or ErrorResponse.
- *                 Replaced by SystemBroadWorksMobilityServiceAccessCodeModifyRequest21.
+ *         The response is either SuccessResponse or ErrorResponse.
+ *         Replaced by SystemBroadWorksMobilityServiceAccessCodeModifyRequest21.
  *
  * @see SuccessResponse
  * @see ErrorResponse
  * @see SystemBroadWorksMobilityServiceAccessCodeModifyRequest21
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:34301","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:20543","type":"sequence"}]
  */
 class SystemBroadWorksMobilityServiceAccessCodeModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class SystemBroadWorksMobilityServiceAccessCodeModifyRequest extends \CWM\BroadW
     /**
      * @ElementName countryCode
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:34301
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:20543
      * @MaxLength 3
      * @Pattern [0-9]|[1-9][0-9]{1,2}
      * @var string|null
@@ -30,7 +30,7 @@ class SystemBroadWorksMobilityServiceAccessCodeModifyRequest extends \CWM\BroadW
     /**
      * @ElementName serviceAccessCode
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:34301
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:20543
      * @MinLength 1
      * @MaxLength 10
      * @var string|null
@@ -42,7 +42,7 @@ class SystemBroadWorksMobilityServiceAccessCodeModifyRequest extends \CWM\BroadW
      * @Type string
      * @Nillable
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:34301
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:20543
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil

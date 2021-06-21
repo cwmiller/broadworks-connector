@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:9113","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:10145","type":"sequence"}]
  */
 class SystemExternalEmergencyRoutingParametersModifyRequest13mp13 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class SystemExternalEmergencyRoutingParametersModifyRequest13mp13 extends \CWM\B
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9113
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10145
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -32,7 +32,7 @@ class SystemExternalEmergencyRoutingParametersModifyRequest13mp13 extends \CWM\B
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9113
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10145
      * @MinLength 1
      * @MaxLength 30
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -43,7 +43,7 @@ class SystemExternalEmergencyRoutingParametersModifyRequest13mp13 extends \CWM\B
      * @ElementName isActive
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9113
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10145
      * @var bool|null
      */
     private $isActive = null;
@@ -52,7 +52,7 @@ class SystemExternalEmergencyRoutingParametersModifyRequest13mp13 extends \CWM\B
      * @ElementName supportsDNSSRV
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9113
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10145
      * @var bool|null
      */
     private $supportsDNSSRV = null;
@@ -61,7 +61,7 @@ class SystemExternalEmergencyRoutingParametersModifyRequest13mp13 extends \CWM\B
      * @ElementName connectionTimeoutSeconds
      * @Type int
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9113
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10145
      * @MinInclusive 1
      * @MaxInclusive 10
      * @var int|null

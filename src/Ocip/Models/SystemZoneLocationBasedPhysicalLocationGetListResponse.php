@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemZoneLocationBasedPhysicalLocationGetListRequest.
  *
  * @see SystemZoneLocationBasedPhysicalLocationGetListRequest
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:18369","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:19761","type":"sequence"}]
  */
 class SystemZoneLocationBasedPhysicalLocationGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class SystemZoneLocationBasedPhysicalLocationGetListResponse extends \CWM\BroadW
      * @Type string
      * @Array
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18369
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:19761
      * @MinLength 1
      * @MaxLength 1024
      * @var string[]

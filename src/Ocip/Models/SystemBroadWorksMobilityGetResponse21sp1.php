@@ -6,12 +6,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemBroadWorksMobilityGetResponse21sp1
  *
  * The response to a SystemBroadWorksMobilityGetRequest21sp1.
- *
- *                 Replaced by SystemBroadWorksMobilityGetResponse22V2.
+ *         
+ *         Replaced by SystemBroadWorksMobilityGetResponse22V2.
  *
  * @see SystemBroadWorksMobilityGetRequest21sp1
  * @see SystemBroadWorksMobilityGetResponse22V2
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:41604","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:20322","type":"sequence"}]
  */
 class SystemBroadWorksMobilityGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,7 +19,7 @@ class SystemBroadWorksMobilityGetResponse21sp1 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName enableLocationServices
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:41604
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:20322
      * @var bool|null
      */
     private $enableLocationServices = null;
@@ -27,7 +27,7 @@ class SystemBroadWorksMobilityGetResponse21sp1 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName enableMSRNLookup
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:41604
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:20322
      * @var bool|null
      */
     private $enableMSRNLookup = null;
@@ -35,7 +35,7 @@ class SystemBroadWorksMobilityGetResponse21sp1 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName enableMobileStateChecking
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:41604
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:20322
      * @var bool|null
      */
     private $enableMobileStateChecking = null;
@@ -43,7 +43,7 @@ class SystemBroadWorksMobilityGetResponse21sp1 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName denyCallOriginations
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:41604
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:20322
      * @var bool|null
      */
     private $denyCallOriginations = null;
@@ -51,7 +51,7 @@ class SystemBroadWorksMobilityGetResponse21sp1 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName denyCallTerminations
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:41604
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:20322
      * @var bool|null
      */
     private $denyCallTerminations = null;
@@ -59,7 +59,7 @@ class SystemBroadWorksMobilityGetResponse21sp1 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName imrnTimeoutMillisecnds
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:41604
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:20322
      * @MinInclusive 100
      * @MaxInclusive 60000
      * @var int|null
@@ -69,7 +69,7 @@ class SystemBroadWorksMobilityGetResponse21sp1 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName enableInternalCLIDDeliveryAccessLocations
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:41604
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:20322
      * @var bool|null
      */
     private $enableInternalCLIDDeliveryAccessLocations = null;

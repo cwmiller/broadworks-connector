@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:17153","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:18128","type":"sequence"}]
  */
 class SystemSubscriberModifyProvisioningParametersRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,10 +19,19 @@ class SystemSubscriberModifyProvisioningParametersRequest extends \CWM\BroadWork
      * @ElementName configurableCLIDNormalization
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17153
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18128
      * @var bool|null
      */
     private $configurableCLIDNormalization = null;
+
+    /**
+     * @ElementName includeDefaultDomain
+     * @Type bool
+     * @Optional
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18128
+     * @var bool|null
+     */
+    private $includeDefaultDomain = null;
 
     /**
      * Getter for configurableCLIDNormalization
@@ -52,6 +61,37 @@ class SystemSubscriberModifyProvisioningParametersRequest extends \CWM\BroadWork
     public function unsetConfigurableCLIDNormalization()
     {
         $this->configurableCLIDNormalization = null;
+        return $this;
+    }
+
+    /**
+     * Getter for includeDefaultDomain
+     *
+     * @return bool
+     */
+    public function getIncludeDefaultDomain()
+    {
+        return $this->includeDefaultDomain instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->includeDefaultDomain;
+    }
+
+    /**
+     * Setter for includeDefaultDomain
+     *
+     * @param bool $includeDefaultDomain
+     * @return $this
+     */
+    public function setIncludeDefaultDomain($includeDefaultDomain)
+    {
+        $this->includeDefaultDomain = $includeDefaultDomain;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetIncludeDefaultDomain()
+    {
+        $this->includeDefaultDomain = null;
         return $this;
     }
 

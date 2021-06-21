@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see ServiceProviderAccessDeviceGetRequest
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:2148","type":"sequence"}]
+ * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:2742","type":"sequence"}]
  */
 class ServiceProviderCPEConfigReorderDeviceLinePortsRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,7 +21,7 @@ class ServiceProviderCPEConfigReorderDeviceLinePortsRequest extends \CWM\BroadWo
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2148
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2742
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -31,7 +31,7 @@ class ServiceProviderCPEConfigReorderDeviceLinePortsRequest extends \CWM\BroadWo
     /**
      * @ElementName deviceName
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2148
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2742
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -42,7 +42,7 @@ class ServiceProviderCPEConfigReorderDeviceLinePortsRequest extends \CWM\BroadWo
      * @ElementName orderedLinePortList
      * @Type string
      * @Array
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2148
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2742
      * @MinLength 1
      * @MaxLength 161
      * @var string[]

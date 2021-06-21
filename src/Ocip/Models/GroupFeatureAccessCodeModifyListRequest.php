@@ -6,13 +6,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupFeatureAccessCodeModifyListRequest
  *
  * Modify a list of feature access codes for a group.
- *                 The response is either a SuccessResponse or an ErrorResponse.
- *                 Replaced by: GroupFeatureAccessCodeModifyRequest
+ *         The response is either a SuccessResponse or an ErrorResponse.
+ *         Replaced by: GroupFeatureAccessCodeModifyRequest
  *
  * @see SuccessResponse
  * @see ErrorResponse
  * @see GroupFeatureAccessCodeModifyRequest
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:1551","type":"sequence","children":[{"id":"ab0042aa512abc10edb3c55e4b416b0b:1554","type":"choice"}]}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:9742","type":"sequence","children":[{"id":"ab0042aa512abc10edb3c55e4b416b0b:9745","type":"choice"}]}]
  */
 class GroupFeatureAccessCodeModifyListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class GroupFeatureAccessCodeModifyListRequest extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:1551
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:9742
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -30,7 +30,7 @@ class GroupFeatureAccessCodeModifyListRequest extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName groupId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:1551
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:9742
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -42,7 +42,7 @@ class GroupFeatureAccessCodeModifyListRequest extends \CWM\BroadWorksConnector\O
      * @Type \CWM\BroadWorksConnector\Ocip\Models\FeatureAccessCodeEntry
      * @Array
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:1554
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:9745
      * @var \CWM\BroadWorksConnector\Ocip\Models\FeatureAccessCodeEntry[]
      */
     private $featureAccessCode = array(
@@ -53,7 +53,7 @@ class GroupFeatureAccessCodeModifyListRequest extends \CWM\BroadWorksConnector\O
      * @ElementName restoreDefaultCodes
      * @Type bool
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:1554
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:9745
      * @var bool|null
      */
     private $restoreDefaultCodes = null;

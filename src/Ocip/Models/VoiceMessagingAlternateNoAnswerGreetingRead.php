@@ -6,9 +6,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * VoiceMessagingAlternateNoAnswerGreetingRead
  *
  * The configuration of a alternate no answer greeting.
- *                 It is used when geting a user's voice messaging greeting.
+ *         It is used when geting a user's voice messaging greeting.
  *
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:44160","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:49446","type":"sequence"}]
  */
 class VoiceMessagingAlternateNoAnswerGreetingRead
 {
@@ -16,7 +16,7 @@ class VoiceMessagingAlternateNoAnswerGreetingRead
     /**
      * @ElementName name
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:44160
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:49446
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -27,7 +27,7 @@ class VoiceMessagingAlternateNoAnswerGreetingRead
      * @ElementName audioFile
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:44160
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:49446
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -38,7 +38,7 @@ class VoiceMessagingAlternateNoAnswerGreetingRead
      * @ElementName videoFile
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:44160
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:49446
      * @MinLength 1
      * @MaxLength 256
      * @var string|null

@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains the SIP authentication password rules for the service provider.
  *
  * @see ServiceProviderSIPAuthenticationPasswordRulesGetRequest
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:5933","type":"sequence"}]
+ * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:6766","type":"sequence"}]
  */
 class ServiceProviderSIPAuthenticationPasswordRulesGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class ServiceProviderSIPAuthenticationPasswordRulesGetResponse extends \CWM\Broa
     /**
      * @ElementName useServiceProviderSettings
      * @Type bool
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5933
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:6766
      * @var bool|null
      */
     private $useServiceProviderSettings = null;
@@ -25,7 +25,7 @@ class ServiceProviderSIPAuthenticationPasswordRulesGetResponse extends \CWM\Broa
     /**
      * @ElementName disallowAuthenticationName
      * @Type bool
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5933
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:6766
      * @var bool|null
      */
     private $disallowAuthenticationName = null;
@@ -33,7 +33,7 @@ class ServiceProviderSIPAuthenticationPasswordRulesGetResponse extends \CWM\Broa
     /**
      * @ElementName disallowOldPassword
      * @Type bool
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5933
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:6766
      * @var bool|null
      */
     private $disallowOldPassword = null;
@@ -41,7 +41,7 @@ class ServiceProviderSIPAuthenticationPasswordRulesGetResponse extends \CWM\Broa
     /**
      * @ElementName disallowReversedOldPassword
      * @Type bool
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5933
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:6766
      * @var bool|null
      */
     private $disallowReversedOldPassword = null;
@@ -49,7 +49,7 @@ class ServiceProviderSIPAuthenticationPasswordRulesGetResponse extends \CWM\Broa
     /**
      * @ElementName restrictMinDigits
      * @Type bool
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5933
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:6766
      * @var bool|null
      */
     private $restrictMinDigits = null;
@@ -57,7 +57,7 @@ class ServiceProviderSIPAuthenticationPasswordRulesGetResponse extends \CWM\Broa
     /**
      * @ElementName minDigits
      * @Type int
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5933
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:6766
      * @MinInclusive 1
      * @MaxInclusive 10
      * @var int|null
@@ -67,7 +67,7 @@ class ServiceProviderSIPAuthenticationPasswordRulesGetResponse extends \CWM\Broa
     /**
      * @ElementName restrictMinUpperCaseLetters
      * @Type bool
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5933
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:6766
      * @var bool|null
      */
     private $restrictMinUpperCaseLetters = null;
@@ -75,7 +75,7 @@ class ServiceProviderSIPAuthenticationPasswordRulesGetResponse extends \CWM\Broa
     /**
      * @ElementName minUpperCaseLetters
      * @Type int
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5933
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:6766
      * @MinInclusive 1
      * @MaxInclusive 10
      * @var int|null
@@ -85,7 +85,7 @@ class ServiceProviderSIPAuthenticationPasswordRulesGetResponse extends \CWM\Broa
     /**
      * @ElementName restrictMinLowerCaseLetters
      * @Type bool
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5933
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:6766
      * @var bool|null
      */
     private $restrictMinLowerCaseLetters = null;
@@ -93,7 +93,7 @@ class ServiceProviderSIPAuthenticationPasswordRulesGetResponse extends \CWM\Broa
     /**
      * @ElementName minLowerCaseLetters
      * @Type int
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5933
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:6766
      * @MinInclusive 1
      * @MaxInclusive 10
      * @var int|null
@@ -103,7 +103,7 @@ class ServiceProviderSIPAuthenticationPasswordRulesGetResponse extends \CWM\Broa
     /**
      * @ElementName restrictMinNonAlphanumericCharacters
      * @Type bool
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5933
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:6766
      * @var bool|null
      */
     private $restrictMinNonAlphanumericCharacters = null;
@@ -111,7 +111,7 @@ class ServiceProviderSIPAuthenticationPasswordRulesGetResponse extends \CWM\Broa
     /**
      * @ElementName minNonAlphanumericCharacters
      * @Type int
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5933
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:6766
      * @MinInclusive 1
      * @MaxInclusive 10
      * @var int|null
@@ -121,7 +121,7 @@ class ServiceProviderSIPAuthenticationPasswordRulesGetResponse extends \CWM\Broa
     /**
      * @ElementName minLength
      * @Type int
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5933
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:6766
      * @MinInclusive 3
      * @MaxInclusive 40
      * @var int|null
@@ -131,7 +131,7 @@ class ServiceProviderSIPAuthenticationPasswordRulesGetResponse extends \CWM\Broa
     /**
      * @ElementName sendPermanentLockoutNotification
      * @Type bool
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5933
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:6766
      * @var bool|null
      */
     private $sendPermanentLockoutNotification = null;
@@ -140,7 +140,7 @@ class ServiceProviderSIPAuthenticationPasswordRulesGetResponse extends \CWM\Broa
      * @ElementName permanentLockoutNotifyEmailAddress
      * @Type string
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5933
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:6766
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -150,7 +150,7 @@ class ServiceProviderSIPAuthenticationPasswordRulesGetResponse extends \CWM\Broa
     /**
      * @ElementName endpointAuthenticationLockoutType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutType
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5933
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:6766
      * @var \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutType|null
      */
     private $endpointAuthenticationLockoutType = null;
@@ -158,7 +158,7 @@ class ServiceProviderSIPAuthenticationPasswordRulesGetResponse extends \CWM\Broa
     /**
      * @ElementName endpointTemporaryLockoutThreshold
      * @Type int
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5933
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:6766
      * @MinInclusive 1
      * @MaxInclusive 10
      * @var int|null
@@ -168,7 +168,7 @@ class ServiceProviderSIPAuthenticationPasswordRulesGetResponse extends \CWM\Broa
     /**
      * @ElementName endpointWaitAlgorithm
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutWaitAlgorithmType
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5933
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:6766
      * @var \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutWaitAlgorithmType|null
      */
     private $endpointWaitAlgorithm = null;
@@ -176,7 +176,7 @@ class ServiceProviderSIPAuthenticationPasswordRulesGetResponse extends \CWM\Broa
     /**
      * @ElementName endpointLockoutFixedMinutes
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutFixedWaitTimeMinutes
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5933
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:6766
      * @var \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutFixedWaitTimeMinutes|null
      */
     private $endpointLockoutFixedMinutes = null;
@@ -184,7 +184,7 @@ class ServiceProviderSIPAuthenticationPasswordRulesGetResponse extends \CWM\Broa
     /**
      * @ElementName endpointPermanentLockoutThreshold
      * @Type int
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5933
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:6766
      * @MinInclusive 2
      * @MaxInclusive 10
      * @var int|null
@@ -194,7 +194,7 @@ class ServiceProviderSIPAuthenticationPasswordRulesGetResponse extends \CWM\Broa
     /**
      * @ElementName trunkGroupTemporaryLockoutThreshold
      * @Type int
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5933
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:6766
      * @MinInclusive 1
      * @MaxInclusive 10
      * @var int|null
@@ -204,7 +204,7 @@ class ServiceProviderSIPAuthenticationPasswordRulesGetResponse extends \CWM\Broa
     /**
      * @ElementName trunkGroupAuthenticationLockoutType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutType
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5933
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:6766
      * @var \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutType|null
      */
     private $trunkGroupAuthenticationLockoutType = null;
@@ -212,7 +212,7 @@ class ServiceProviderSIPAuthenticationPasswordRulesGetResponse extends \CWM\Broa
     /**
      * @ElementName trunkGroupWaitAlgorithm
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutWaitAlgorithmType
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5933
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:6766
      * @var \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutWaitAlgorithmType|null
      */
     private $trunkGroupWaitAlgorithm = null;
@@ -220,7 +220,7 @@ class ServiceProviderSIPAuthenticationPasswordRulesGetResponse extends \CWM\Broa
     /**
      * @ElementName trunkGroupLockoutFixedMinutes
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutFixedWaitTimeMinutes
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5933
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:6766
      * @var \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutFixedWaitTimeMinutes|null
      */
     private $trunkGroupLockoutFixedMinutes = null;
@@ -228,7 +228,7 @@ class ServiceProviderSIPAuthenticationPasswordRulesGetResponse extends \CWM\Broa
     /**
      * @ElementName trunkGroupPermanentLockoutThreshold
      * @Type int
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5933
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:6766
      * @MinInclusive 2
      * @MaxInclusive 10
      * @var int|null

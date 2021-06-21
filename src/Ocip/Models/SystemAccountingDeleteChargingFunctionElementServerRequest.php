@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:1413","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:1861","type":"sequence"}]
  */
 class SystemAccountingDeleteChargingFunctionElementServerRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemAccountingDeleteChargingFunctionElementServerRequest extends \CWM\Br
     /**
      * @ElementName address
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1413
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1861
      * @MinLength 1
      * @MaxLength 256
      * @var string|null

@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Returns the profile information for the session admission control group.
  *
  * @see EnterpriseSessionAdmissionControlGroupGetRequest21sp1V2
- * @Groups [{"id":"5395c7df0157d44aa22f3351d1a5f3da:1050","type":"sequence"}]
+ * @Groups [{"id":"5395c7df0157d44aa22f3351d1a5f3da:1051","type":"sequence"}]
  */
 class EnterpriseSessionAdmissionControlGroupGetResponse21sp1V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class EnterpriseSessionAdmissionControlGroupGetResponse21sp1V2 extends \CWM\Broa
     /**
      * @ElementName maxSession
      * @Type int
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1050
+     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1051
      * @MinInclusive 0
      * @var int|null
      */
@@ -27,7 +27,7 @@ class EnterpriseSessionAdmissionControlGroupGetResponse21sp1V2 extends \CWM\Broa
      * @ElementName maxUserOriginatingSessions
      * @Type int
      * @Optional
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1050
+     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1051
      * @MinInclusive 0
      * @var int|null
      */
@@ -37,7 +37,7 @@ class EnterpriseSessionAdmissionControlGroupGetResponse21sp1V2 extends \CWM\Broa
      * @ElementName maxUserTerminatingSessions
      * @Type int
      * @Optional
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1050
+     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1051
      * @MinInclusive 0
      * @var int|null
      */
@@ -46,7 +46,7 @@ class EnterpriseSessionAdmissionControlGroupGetResponse21sp1V2 extends \CWM\Broa
     /**
      * @ElementName reservedSession
      * @Type int
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1050
+     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1051
      * @MinInclusive 0
      * @var int|null
      */
@@ -56,7 +56,7 @@ class EnterpriseSessionAdmissionControlGroupGetResponse21sp1V2 extends \CWM\Broa
      * @ElementName reservedUserOriginatingSessions
      * @Type int
      * @Optional
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1050
+     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1051
      * @MinInclusive 0
      * @var int|null
      */
@@ -66,7 +66,7 @@ class EnterpriseSessionAdmissionControlGroupGetResponse21sp1V2 extends \CWM\Broa
      * @ElementName reservedUserTerminatingSessions
      * @Type int
      * @Optional
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1050
+     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1051
      * @MinInclusive 0
      * @var int|null
      */
@@ -75,7 +75,7 @@ class EnterpriseSessionAdmissionControlGroupGetResponse21sp1V2 extends \CWM\Broa
     /**
      * @ElementName defaultGroup
      * @Type bool
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1050
+     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1051
      * @var bool|null
      */
     private $defaultGroup = null;
@@ -83,7 +83,7 @@ class EnterpriseSessionAdmissionControlGroupGetResponse21sp1V2 extends \CWM\Broa
     /**
      * @ElementName countIntraSACGroupSessions
      * @Type bool
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1050
+     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1051
      * @var bool|null
      */
     private $countIntraSACGroupSessions = null;
@@ -93,7 +93,7 @@ class EnterpriseSessionAdmissionControlGroupGetResponse21sp1V2 extends \CWM\Broa
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EnterpriseAccessDevice
      * @Array
      * @Optional
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1050
+     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1051
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseAccessDevice[]
      */
     private $devices = array(
@@ -103,7 +103,7 @@ class EnterpriseSessionAdmissionControlGroupGetResponse21sp1V2 extends \CWM\Broa
     /**
      * @ElementName blockEmergencyAndRepairCallsDueToSACLimits
      * @Type bool
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1050
+     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1051
      * @var bool|null
      */
     private $blockEmergencyAndRepairCallsDueToSACLimits = null;
@@ -112,7 +112,7 @@ class EnterpriseSessionAdmissionControlGroupGetResponse21sp1V2 extends \CWM\Broa
      * @ElementName mediaGroupName
      * @Type string
      * @Optional
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1050
+     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1051
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -123,7 +123,7 @@ class EnterpriseSessionAdmissionControlGroupGetResponse21sp1V2 extends \CWM\Broa
      * @ElementName accessInfoPattern
      * @Type string
      * @Optional
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1050
+     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1051
      * @MinLength 1
      * @MaxLength 1024
      * @var string|null

@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:4004","type":"sequence"}]
+ * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:4685","type":"sequence"}]
  */
 class SpeedDial8Entry
 {
@@ -18,7 +18,7 @@ class SpeedDial8Entry
     /**
      * @ElementName speedCode
      * @Type int
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4004
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:4685
      * @MinInclusive 2
      * @MaxInclusive 9
      * @var int|null
@@ -30,7 +30,7 @@ class SpeedDial8Entry
      * @Type string
      * @Nillable
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4004
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:4685
      * @MinLength 1
      * @MaxLength 161
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -42,7 +42,7 @@ class SpeedDial8Entry
      * @Type string
      * @Nillable
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4004
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:4685
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil

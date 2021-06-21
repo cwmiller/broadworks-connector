@@ -23,21 +23,23 @@ use CWM\BroadWorksConnector\Ocip\Models\GroupRouteListEnterpriseTrunkNumberRange
 use CWM\BroadWorksConnector\Ocip\Models\GroupRouteListEnterpriseTrunkNumberRangeGetSummaryListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupRouteListEnterpriseTrunkNumberRangeUnassignListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderRouteListEnterpriseTrunkNumberPrefixActivateListRequest;
-use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderRouteListEnterpriseTrunkNumberPrefixAddListRequest;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderRouteListEnterpriseTrunkNumberPrefixAddListRequest22;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderRouteListEnterpriseTrunkNumberPrefixDeactivateListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderRouteListEnterpriseTrunkNumberPrefixDeleteListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderRouteListEnterpriseTrunkNumberPrefixGetAvailableListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderRouteListEnterpriseTrunkNumberPrefixGetAvailableListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderRouteListEnterpriseTrunkNumberPrefixGetSummaryListRequest;
-use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderRouteListEnterpriseTrunkNumberPrefixGetSummaryListResponse;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderRouteListEnterpriseTrunkPrefixGetSummaryListResponse;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderRouteListEnterpriseTrunkNumberPrefixModifyListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderRouteListEnterpriseTrunkNumberRangeActivateListRequest;
-use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderRouteListEnterpriseTrunkNumberRangeAddListRequest;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderRouteListEnterpriseTrunkNumberRangeAddListRequest22;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderRouteListEnterpriseTrunkNumberRangeDeactivateListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderRouteListEnterpriseTrunkNumberRangeDeleteListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderRouteListEnterpriseTrunkNumberRangeGetAvailableListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderRouteListEnterpriseTrunkNumberRangeGetAvailableListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderRouteListEnterpriseTrunkNumberRangeGetSummaryListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderRouteListEnterpriseTrunkNumberRangeGetSummaryListResponse;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderRouteListEnterpriseTrunkNumberRangeModifyListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemRouteListEnterpriseTrunkNumberPrefixGetSummaryListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemRouteListEnterpriseTrunkNumberPrefixGetSummaryListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\SystemRouteListEnterpriseTrunkNumberRangeGetSummaryListRequest;
@@ -196,12 +198,12 @@ trait OCISchemaServiceRouteList
     }
 
     /**
-     * @param ServiceProviderRouteListEnterpriseTrunkNumberPrefixAddListRequest $request
+     * @param ServiceProviderRouteListEnterpriseTrunkNumberPrefixAddListRequest22 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function serviceProviderRouteListEnterpriseTrunkNumberPrefixAddListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderRouteListEnterpriseTrunkNumberPrefixAddListRequest $request)
+    public function serviceProviderRouteListEnterpriseTrunkNumberPrefixAddListRequest22(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderRouteListEnterpriseTrunkNumberPrefixAddListRequest22 $request)
     {
         return $this->call($request);
     }
@@ -241,11 +243,22 @@ trait OCISchemaServiceRouteList
 
     /**
      * @param ServiceProviderRouteListEnterpriseTrunkNumberPrefixGetSummaryListRequest $request
-     * @return ServiceProviderRouteListEnterpriseTrunkNumberPrefixGetSummaryListResponse
+     * @return ServiceProviderRouteListEnterpriseTrunkPrefixGetSummaryListResponse
      * @throws ErrorResponseException
      * @throws ValidationException
      */
     public function serviceProviderRouteListEnterpriseTrunkNumberPrefixGetSummaryListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderRouteListEnterpriseTrunkNumberPrefixGetSummaryListRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param ServiceProviderRouteListEnterpriseTrunkNumberPrefixModifyListRequest $request
+     * @return SuccessResponse
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function serviceProviderRouteListEnterpriseTrunkNumberPrefixModifyListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderRouteListEnterpriseTrunkNumberPrefixModifyListRequest $request)
     {
         return $this->call($request);
     }
@@ -262,12 +275,12 @@ trait OCISchemaServiceRouteList
     }
 
     /**
-     * @param ServiceProviderRouteListEnterpriseTrunkNumberRangeAddListRequest $request
+     * @param ServiceProviderRouteListEnterpriseTrunkNumberRangeAddListRequest22 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function serviceProviderRouteListEnterpriseTrunkNumberRangeAddListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderRouteListEnterpriseTrunkNumberRangeAddListRequest $request)
+    public function serviceProviderRouteListEnterpriseTrunkNumberRangeAddListRequest22(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderRouteListEnterpriseTrunkNumberRangeAddListRequest22 $request)
     {
         return $this->call($request);
     }
@@ -312,6 +325,17 @@ trait OCISchemaServiceRouteList
      * @throws ValidationException
      */
     public function serviceProviderRouteListEnterpriseTrunkNumberRangeGetSummaryListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderRouteListEnterpriseTrunkNumberRangeGetSummaryListRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param ServiceProviderRouteListEnterpriseTrunkNumberRangeModifyListRequest $request
+     * @return SuccessResponse
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function serviceProviderRouteListEnterpriseTrunkNumberRangeModifyListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderRouteListEnterpriseTrunkNumberRangeModifyListRequest $request)
     {
         return $this->call($request);
     }

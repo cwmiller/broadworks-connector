@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupPolicyGetRequest14sp4
  *
  * Requests the Group's policy settings.
- *                 The response is either GroupPolicyGetResponse14sp4 or ErrorResponse.
+ *         The response is either GroupPolicyGetResponse14sp4 or ErrorResponse.
  *
  * @see GroupPolicyGetResponse14sp4
  * @see ErrorResponse
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:13978","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:11857","type":"sequence"}]
  */
 class GroupPolicyGetRequest14sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupPolicyGetRequest14sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:13978
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:11857
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +28,7 @@ class GroupPolicyGetRequest14sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * @ElementName groupId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:13978
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:11857
      * @MinLength 1
      * @MaxLength 30
      * @var string|null

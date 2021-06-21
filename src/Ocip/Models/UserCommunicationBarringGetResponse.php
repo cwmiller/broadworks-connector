@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         This command only applies to users in an Enterprise.
  *
  * @see UserCommunicationBarringGetRequest
- * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:1170","type":"sequence"}]
+ * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:1236","type":"sequence"}]
  */
 class UserCommunicationBarringGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class UserCommunicationBarringGetResponse extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName useGroupSetting
      * @Type bool
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:1170
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:1236
      * @var bool|null
      */
     private $useGroupSetting = null;
@@ -26,7 +26,7 @@ class UserCommunicationBarringGetResponse extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName profileName
      * @Type string
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:1170
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:1236
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

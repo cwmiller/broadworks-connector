@@ -20,7 +20,7 @@ class ResellerVoiceMessagingGroupModifyRequest extends \CWM\BroadWorksConnector\
      * @Type string
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:354
      * @MinLength 1
-     * @MaxLength 30
+     * @MaxLength 36
      * @var string|null
      */
     private $resellerId = null;

@@ -53,7 +53,6 @@ use CWM\BroadWorksConnector\Ocip\Models\UserVoiceMessagingUserModifyAdvancedVoic
 use CWM\BroadWorksConnector\Ocip\Models\UserVoiceMessagingUserModifyDistributionListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserVoiceMessagingUserModifyGreetingRequest20;
 use CWM\BroadWorksConnector\Ocip\Models\UserVoiceMessagingUserModifyOutgoingSMDIMWIRequest;
-use CWM\BroadWorksConnector\Ocip\Models\UserVoiceMessagingUserModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserVoiceMessagingUserModifyRequest23;
 use CWM\BroadWorksConnector\Ocip\Models\UserVoiceMessagingUserModifyVoiceManagementRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserVoiceMessagingUserModifyVoicePortalRequest20;
@@ -434,17 +433,6 @@ trait OCISchemaServiceVoiceMessaging
      * @throws ValidationException
      */
     public function userVoiceMessagingUserModifyOutgoingSMDIMWIRequest(\CWM\BroadWorksConnector\Ocip\Models\UserVoiceMessagingUserModifyOutgoingSMDIMWIRequest $request)
-    {
-        return $this->call($request);
-    }
-
-    /**
-     * @param UserVoiceMessagingUserModifyRequest $request
-     * @return SuccessResponse
-     * @throws ErrorResponseException
-     * @throws ValidationException
-     */
-    public function userVoiceMessagingUserModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\UserVoiceMessagingUserModifyRequest $request)
     {
         return $this->call($request);
     }

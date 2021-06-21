@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserSimultaneousRingPersonalModifyPhoneNumberRequest
  *
  * Modify the require confirmation setting for the destination.
- *                 The response is either a SuccessResponse or an ErrorResponse.
+ *         The response is either a SuccessResponse or an ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:17711","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:46516","type":"sequence"}]
  */
 class UserSimultaneousRingPersonalModifyPhoneNumberRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserSimultaneousRingPersonalModifyPhoneNumberRequest extends \CWM\BroadWor
     /**
      * @ElementName userId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:17711
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:46516
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -28,7 +28,7 @@ class UserSimultaneousRingPersonalModifyPhoneNumberRequest extends \CWM\BroadWor
     /**
      * @ElementName phoneNumber
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:17711
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:46516
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -39,7 +39,7 @@ class UserSimultaneousRingPersonalModifyPhoneNumberRequest extends \CWM\BroadWor
      * @ElementName answerConfirmationRequired
      * @Type bool
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:17711
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:46516
      * @var bool|null
      */
     private $answerConfirmationRequired = null;

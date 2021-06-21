@@ -11,11 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The lineport may be any lineport associated with a user.
  *         
  *         The response is a UserGetLoginInfoResponse22V2 or an ErrorResponse
+ *         
+ *         Replaced by UserGetLoginInfoRequest22V3.
  *
  * @see UserGetLoginInfoRequest22V2
  * @see UserGetLoginInfoResponse22V2
  * @see ErrorResponse
- * @Groups [{"id":"6b27fcc79475236456fc113a42b75543:652","type":"sequence","children":[{"id":"6b27fcc79475236456fc113a42b75543:653","type":"choice"}]}]
+ * @see UserGetLoginInfoRequest22V3
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:43098","type":"sequence","children":[{"id":"ab0042aa512abc10edb3c55e4b416b0b:43099","type":"choice"}]}]
  */
 class UserGetLoginInfoRequest22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -23,7 +26,7 @@ class UserGetLoginInfoRequest22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName userId
      * @Type string
-     * @Group 6b27fcc79475236456fc113a42b75543:653
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:43099
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -33,7 +36,7 @@ class UserGetLoginInfoRequest22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName phoneNumber
      * @Type string
-     * @Group 6b27fcc79475236456fc113a42b75543:653
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:43099
      * @MinLength 1
      * @MaxLength 23
      * @var string|null
@@ -43,7 +46,7 @@ class UserGetLoginInfoRequest22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName linePort
      * @Type string
-     * @Group 6b27fcc79475236456fc113a42b75543:653
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:43099
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

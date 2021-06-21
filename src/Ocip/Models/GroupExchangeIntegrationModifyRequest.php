@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:4775","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:5674","type":"sequence"}]
  */
 class GroupExchangeIntegrationModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupExchangeIntegrationModifyRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4775
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:5674
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +28,7 @@ class GroupExchangeIntegrationModifyRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4775
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:5674
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -39,7 +39,7 @@ class GroupExchangeIntegrationModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName enableExchangeIntegration
      * @Type bool
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4775
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:5674
      * @var bool|null
      */
     private $enableExchangeIntegration = null;
@@ -49,7 +49,7 @@ class GroupExchangeIntegrationModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @Type string
      * @Nillable
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4775
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:5674
      * @MinLength 1
      * @MaxLength 256
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -61,7 +61,7 @@ class GroupExchangeIntegrationModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExchangeUserNamePassword
      * @Nillable
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4775
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:5674
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExchangeUserNamePassword|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $exchangeCredentials = null;

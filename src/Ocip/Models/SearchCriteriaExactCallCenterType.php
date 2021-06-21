@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Criteria for searching for a particular fully specified call center type.
  *
- * @Groups [{"id":"f0ada2681ca347fa83b464734259b304:730","type":"sequence"}]
+ * @Groups [{"id":"f0ada2681ca347fa83b464734259b304:789","type":"sequence"}]
  */
 class SearchCriteriaExactCallCenterType extends SearchCriteria
 {
@@ -15,7 +15,7 @@ class SearchCriteriaExactCallCenterType extends SearchCriteria
     /**
      * @ElementName callCenterType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterType
-     * @Group f0ada2681ca347fa83b464734259b304:730
+     * @Group f0ada2681ca347fa83b464734259b304:789
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterType|null
      */
     private $callCenterType = null;

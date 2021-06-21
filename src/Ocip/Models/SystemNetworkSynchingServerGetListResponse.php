@@ -6,14 +6,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemNetworkSynchingServerGetListResponse
  *
  * Response to SystemNetworkSynchingServerGetListRequest. The Network Server table column
- *         headings are: "Net Address", "Port", "Description", "Order".
+ *         headings are: "Net Address", "Port", "Secure", "Description", "Order".
  *         The following columns are only used in XS data mode and not returned in AS data mode:
  *           Order
  *         The following elements are only used in AS data mode and not returned in XS data mode:
  *           preferredNetworkServerNetAddress
  *
  * @see SystemNetworkSynchingServerGetListRequest
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:11820","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:12904","type":"sequence"}]
  */
 class SystemNetworkSynchingServerGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -22,7 +22,7 @@ class SystemNetworkSynchingServerGetListResponse extends \CWM\BroadWorksConnecto
      * @ElementName preferredNetworkServerNetAddress
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11820
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12904
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -32,7 +32,7 @@ class SystemNetworkSynchingServerGetListResponse extends \CWM\BroadWorksConnecto
     /**
      * @ElementName networkSynchingServerTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11820
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12904
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $networkSynchingServerTable = null;

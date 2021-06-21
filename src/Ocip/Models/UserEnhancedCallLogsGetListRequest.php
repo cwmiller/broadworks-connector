@@ -6,15 +6,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserEnhancedCallLogsGetListRequest
  *
  * Request user's call logs. It is possible to get a subset of the total list of calls
- *                 by specifying a starting offset and the number of calls to get.
- *                 If the callLogType is not specified, all types of calls are returned.
- *                 The response is either a UserEnhancedCallLogsGetListResponse or an ErrorResponse.
- *                 Replaced By: UserEnhancedCallLogsGetListRequest14sp4
+ *         by specifying a starting offset and the number of calls to get.
+ *         If the callLogType is not specified, all types of calls are returned.
+ *         The response is either a UserEnhancedCallLogsGetListResponse or an ErrorResponse.
+ *         Replaced By: UserEnhancedCallLogsGetListRequest14sp4
  *
  * @see UserEnhancedCallLogsGetListResponse
  * @see ErrorResponse
  * @see UserEnhancedCallLogsGetListRequest14sp4
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:7163","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:42307","type":"sequence"}]
  */
 class UserEnhancedCallLogsGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -22,7 +22,7 @@ class UserEnhancedCallLogsGetListRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName userId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:7163
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:42307
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -33,7 +33,7 @@ class UserEnhancedCallLogsGetListRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName callLogType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EnhancedCallLogsType
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:7163
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:42307
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnhancedCallLogsType|null
      */
     private $callLogType = null;
@@ -41,7 +41,7 @@ class UserEnhancedCallLogsGetListRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName startingOffset
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:7163
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:42307
      * @MinInclusive 0
      * @MaxInclusive 9999
      * @var int|null
@@ -51,7 +51,7 @@ class UserEnhancedCallLogsGetListRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName numCalls
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:7163
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:42307
      * @MinInclusive 1
      * @MaxInclusive 10000
      * @var int|null

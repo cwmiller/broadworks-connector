@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The column headings are "Phone Number", "Group Id" and "Mobile Network".
  *
  * @see ServiceProviderBroadWorksMobilityMobileSubscriberDirectoryNumberGetSummaryListRequest
- * @Groups [{"id":"f7ae3539fd471e995b07dc1bf8836e2d:607","type":"sequence"}]
+ * @Groups [{"id":"f7ae3539fd471e995b07dc1bf8836e2d:629","type":"sequence"}]
  */
 class ServiceProviderBroadWorksMobilityMobileSubscriberDirectoryNumberGetSummaryListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class ServiceProviderBroadWorksMobilityMobileSubscriberDirectoryNumberGetSummary
     /**
      * @ElementName mobileSubscriberDirectoryNumbersSummaryTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group f7ae3539fd471e995b07dc1bf8836e2d:607
+     * @Group f7ae3539fd471e995b07dc1bf8836e2d:629
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $mobileSubscriberDirectoryNumbersSummaryTable = null;

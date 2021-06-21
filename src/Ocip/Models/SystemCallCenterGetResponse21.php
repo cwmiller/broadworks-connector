@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           thresholdCrossingNotificationEmailGuardTimerSeconds, value "5" is returned in Amplify mode
  *
  * @see SystemCallCenterGetRequest21
- * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:6523","type":"sequence"}]
+ * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:6548","type":"sequence"}]
  */
 class SystemCallCenterGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -21,7 +21,7 @@ class SystemCallCenterGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName defaultFromAddress
      * @Type string
-     * @Group e2c537e3e39483b96620673a7012ffdd:6523
+     * @Group e2c537e3e39483b96620673a7012ffdd:6548
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -31,7 +31,7 @@ class SystemCallCenterGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName statisticsSamplingPeriodMinutes
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterStatisticsSamplingPeriodMinutes
-     * @Group e2c537e3e39483b96620673a7012ffdd:6523
+     * @Group e2c537e3e39483b96620673a7012ffdd:6548
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterStatisticsSamplingPeriodMinutes|null
      */
     private $statisticsSamplingPeriodMinutes = null;
@@ -39,7 +39,7 @@ class SystemCallCenterGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName defaultEnableGuardTimer
      * @Type bool
-     * @Group e2c537e3e39483b96620673a7012ffdd:6523
+     * @Group e2c537e3e39483b96620673a7012ffdd:6548
      * @var bool|null
      */
     private $defaultEnableGuardTimer = null;
@@ -47,7 +47,7 @@ class SystemCallCenterGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName defaultGuardTimerSeconds
      * @Type int
-     * @Group e2c537e3e39483b96620673a7012ffdd:6523
+     * @Group e2c537e3e39483b96620673a7012ffdd:6548
      * @MinInclusive 1
      * @MaxInclusive 25
      * @var int|null
@@ -57,7 +57,7 @@ class SystemCallCenterGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName forceAgentUnavailableOnDNDActivation
      * @Type bool
-     * @Group e2c537e3e39483b96620673a7012ffdd:6523
+     * @Group e2c537e3e39483b96620673a7012ffdd:6548
      * @var bool|null
      */
     private $forceAgentUnavailableOnDNDActivation = null;
@@ -65,7 +65,7 @@ class SystemCallCenterGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName forceAgentUnavailableOnPersonalCalls
      * @Type bool
-     * @Group e2c537e3e39483b96620673a7012ffdd:6523
+     * @Group e2c537e3e39483b96620673a7012ffdd:6548
      * @var bool|null
      */
     private $forceAgentUnavailableOnPersonalCalls = null;
@@ -73,7 +73,7 @@ class SystemCallCenterGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName forceAgentUnavailableOnBouncedCallLimit
      * @Type bool
-     * @Group e2c537e3e39483b96620673a7012ffdd:6523
+     * @Group e2c537e3e39483b96620673a7012ffdd:6548
      * @var bool|null
      */
     private $forceAgentUnavailableOnBouncedCallLimit = null;
@@ -81,7 +81,7 @@ class SystemCallCenterGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName numberConsecutiveBouncedCallsToForceAgentUnavailable
      * @Type int
-     * @Group e2c537e3e39483b96620673a7012ffdd:6523
+     * @Group e2c537e3e39483b96620673a7012ffdd:6548
      * @MinInclusive 1
      * @MaxInclusive 5
      * @var int|null
@@ -91,7 +91,7 @@ class SystemCallCenterGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName forceAgentUnavailableOnNotReachable
      * @Type bool
-     * @Group e2c537e3e39483b96620673a7012ffdd:6523
+     * @Group e2c537e3e39483b96620673a7012ffdd:6548
      * @var bool|null
      */
     private $forceAgentUnavailableOnNotReachable = null;
@@ -99,7 +99,7 @@ class SystemCallCenterGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName defaultPlayRingWhenOfferCall
      * @Type bool
-     * @Group e2c537e3e39483b96620673a7012ffdd:6523
+     * @Group e2c537e3e39483b96620673a7012ffdd:6548
      * @var bool|null
      */
     private $defaultPlayRingWhenOfferCall = null;
@@ -107,7 +107,7 @@ class SystemCallCenterGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName uniformCallDistributionPolicyScope
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterUniformCallDistributionPolicyScope
-     * @Group e2c537e3e39483b96620673a7012ffdd:6523
+     * @Group e2c537e3e39483b96620673a7012ffdd:6548
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterUniformCallDistributionPolicyScope|null
      */
     private $uniformCallDistributionPolicyScope = null;
@@ -115,7 +115,7 @@ class SystemCallCenterGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName callHandlingSamplingPeriodMinutes
      * @Type int
-     * @Group e2c537e3e39483b96620673a7012ffdd:6523
+     * @Group e2c537e3e39483b96620673a7012ffdd:6548
      * @MinInclusive 5
      * @MaxInclusive 30
      * @var int|null
@@ -125,7 +125,7 @@ class SystemCallCenterGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName callHandlingMinimumSamplingSize
      * @Type int
-     * @Group e2c537e3e39483b96620673a7012ffdd:6523
+     * @Group e2c537e3e39483b96620673a7012ffdd:6548
      * @MinInclusive 1
      * @MaxInclusive 100
      * @var int|null
@@ -135,7 +135,7 @@ class SystemCallCenterGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName playToneToAgentForEmergencyCall
      * @Type bool
-     * @Group e2c537e3e39483b96620673a7012ffdd:6523
+     * @Group e2c537e3e39483b96620673a7012ffdd:6548
      * @var bool|null
      */
     private $playToneToAgentForEmergencyCall = null;
@@ -143,7 +143,7 @@ class SystemCallCenterGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName emergencyCallCLIDPrefix
      * @Type string
-     * @Group e2c537e3e39483b96620673a7012ffdd:6523
+     * @Group e2c537e3e39483b96620673a7012ffdd:6548
      * @MinLength 1
      * @MaxLength 10
      * @var string|null
@@ -153,7 +153,7 @@ class SystemCallCenterGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName thresholdCrossingNotificationEmailGuardTimerSeconds
      * @Type int
-     * @Group e2c537e3e39483b96620673a7012ffdd:6523
+     * @Group e2c537e3e39483b96620673a7012ffdd:6548
      * @MinInclusive 3
      * @MaxInclusive 60
      * @var int|null
@@ -163,7 +163,7 @@ class SystemCallCenterGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName allowAgentDeviceInitiatedForward
      * @Type bool
-     * @Group e2c537e3e39483b96620673a7012ffdd:6523
+     * @Group e2c537e3e39483b96620673a7012ffdd:6548
      * @var bool|null
      */
     private $allowAgentDeviceInitiatedForward = null;

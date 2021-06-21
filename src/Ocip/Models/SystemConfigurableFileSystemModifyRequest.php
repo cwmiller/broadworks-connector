@@ -7,10 +7,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Request to modify File System parameters.
  *         The response is either SuccessResponse or ErrorResponse.
+ *         The following elements are only used in AS data mode and ignored in XS data mode:
+ *             protocolFile-secure
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:6314","type":"sequence","children":[{"id":"7f663d5135470c33ca64b0eed3c3aa0c:6316","type":"choice","optional":true}]}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:6657","type":"sequence","children":[{"id":"7f663d5135470c33ca64b0eed3c3aa0c:6659","type":"choice","optional":true}]}]
  */
 class SystemConfigurableFileSystemModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +21,7 @@ class SystemConfigurableFileSystemModifyRequest extends \CWM\BroadWorksConnector
      * @ElementName mediaDirectory
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6314
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6657
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -29,7 +31,7 @@ class SystemConfigurableFileSystemModifyRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName protocolFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemConfigurableFileSystemModifyRequestProtocolFile
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6316
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6659
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemConfigurableFileSystemModifyRequestProtocolFile|null
      */
     private $protocolFile = null;
@@ -37,7 +39,7 @@ class SystemConfigurableFileSystemModifyRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName protocolWebDAV
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemConfigurableFileSystemModifyRequestProtocolWebDAV
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6316
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6659
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemConfigurableFileSystemModifyRequestProtocolWebDAV|null
      */
     private $protocolWebDAV = null;

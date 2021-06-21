@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupCallCenterAgentUnavailableCodeSettingsGetResponse17sp4
  * @see ErrorResponse
- * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:2642","type":"sequence"}]
+ * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:2657","type":"sequence"}]
  */
 class GroupCallCenterAgentUnavailableCodeSettingsGetRequest17sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class GroupCallCenterAgentUnavailableCodeSettingsGetRequest17sp4 extends \CWM\Br
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group e2c537e3e39483b96620673a7012ffdd:2642
+     * @Group e2c537e3e39483b96620673a7012ffdd:2657
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -29,7 +29,7 @@ class GroupCallCenterAgentUnavailableCodeSettingsGetRequest17sp4 extends \CWM\Br
     /**
      * @ElementName groupId
      * @Type string
-     * @Group e2c537e3e39483b96620673a7012ffdd:2642
+     * @Group e2c537e3e39483b96620673a7012ffdd:2657
      * @MinLength 1
      * @MaxLength 30
      * @var string|null

@@ -26,7 +26,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupDnGetAssignmentPagedSortedListResponse
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:4241","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:5107","type":"sequence"}]
  */
 class GroupDnGetAssignmentPagedSortedListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -34,7 +34,7 @@ class GroupDnGetAssignmentPagedSortedListRequest extends \CWM\BroadWorksConnecto
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4241
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:5107
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -44,7 +44,7 @@ class GroupDnGetAssignmentPagedSortedListRequest extends \CWM\BroadWorksConnecto
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4241
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:5107
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -55,7 +55,7 @@ class GroupDnGetAssignmentPagedSortedListRequest extends \CWM\BroadWorksConnecto
      * @ElementName responsePagingControl
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4241
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:5107
      * @var \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl|null
      */
     private $responsePagingControl = null;
@@ -65,7 +65,7 @@ class GroupDnGetAssignmentPagedSortedListRequest extends \CWM\BroadWorksConnecto
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortOrderGroupDnGetAssignmentPagedSortedList
      * @Array
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4241
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:5107
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortOrderGroupDnGetAssignmentPagedSortedList[]
      */
     private $sortOrder = array(
@@ -77,7 +77,7 @@ class GroupDnGetAssignmentPagedSortedListRequest extends \CWM\BroadWorksConnecto
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn
      * @Array
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4241
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:5107
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[]
      */
     private $searchCriteriaDn = array(
@@ -89,7 +89,7 @@ class GroupDnGetAssignmentPagedSortedListRequest extends \CWM\BroadWorksConnecto
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDepartmentName
      * @Array
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4241
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:5107
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDepartmentName[]
      */
     private $searchCriteriaDepartmentName = array(
@@ -100,7 +100,7 @@ class GroupDnGetAssignmentPagedSortedListRequest extends \CWM\BroadWorksConnecto
      * @ElementName searchCriteriaExactDnActivation
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDnActivation
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4241
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:5107
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDnActivation|null
      */
     private $searchCriteriaExactDnActivation = null;
@@ -109,7 +109,7 @@ class GroupDnGetAssignmentPagedSortedListRequest extends \CWM\BroadWorksConnecto
      * @ElementName searchCriteriaExactDnAvailability
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDnAvailability
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4241
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:5107
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDnAvailability|null
      */
     private $searchCriteriaExactDnAvailability = null;
@@ -119,7 +119,7 @@ class GroupDnGetAssignmentPagedSortedListRequest extends \CWM\BroadWorksConnecto
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId
      * @Array
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4241
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:5107
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId[]
      */
     private $searchCriteriaUserId = array(
@@ -131,7 +131,7 @@ class GroupDnGetAssignmentPagedSortedListRequest extends \CWM\BroadWorksConnecto
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName
      * @Array
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4241
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:5107
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName[]
      */
     private $searchCriteriaUserFirstName = array(
@@ -143,7 +143,7 @@ class GroupDnGetAssignmentPagedSortedListRequest extends \CWM\BroadWorksConnecto
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName
      * @Array
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4241
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:5107
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[]
      */
     private $searchCriteriaUserLastName = array(
@@ -155,7 +155,7 @@ class GroupDnGetAssignmentPagedSortedListRequest extends \CWM\BroadWorksConnecto
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserType
      * @Array
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4241
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:5107
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserType[]
      */
     private $searchCriteriaExactUserType = array(
@@ -167,7 +167,7 @@ class GroupDnGetAssignmentPagedSortedListRequest extends \CWM\BroadWorksConnecto
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension
      * @Array
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4241
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:5107
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension[]
      */
     private $searchCriteriaExtension = array(
@@ -179,7 +179,7 @@ class GroupDnGetAssignmentPagedSortedListRequest extends \CWM\BroadWorksConnecto
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaEmailAddress
      * @Array
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4241
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:5107
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaEmailAddress[]
      */
     private $searchCriteriaEmailAddress = array(
@@ -190,7 +190,7 @@ class GroupDnGetAssignmentPagedSortedListRequest extends \CWM\BroadWorksConnecto
      * @ElementName searchCriteriaModeOr
      * @Type bool
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4241
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:5107
      * @var bool|null
      */
     private $searchCriteriaModeOr = null;

@@ -6,13 +6,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemRedundancyParametersGetResponse
  *
  * Replaced by: SystemRedundancyParametersGetResponse16sp2
- *
- *                 Response to SystemRedundancyParametersGetRequest.
- *                 Contains a list of system Redundancy parameters.
+ *       
+ *         Response to SystemRedundancyParametersGetRequest.
+ *         Contains a list of system Redundancy parameters.
  *
  * @see SystemRedundancyParametersGetResponse16sp2
  * @see SystemRedundancyParametersGetRequest
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:22167","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:29037","type":"sequence"}]
  */
 class SystemRedundancyParametersGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -20,7 +20,7 @@ class SystemRedundancyParametersGetResponse extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName rollBackTimerMinutes
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:22167
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:29037
      * @MinInclusive 0
      * @MaxInclusive 3600
      * @var int|null

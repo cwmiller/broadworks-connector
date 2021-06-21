@@ -6,15 +6,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * EnterpriseCallCenterGetRequest
  *
  * Request the enterprise level data associated with Call Center.
- *                 The response is either an EnterpriseCallCenterGetResponse or an
- *                 ErrorResponse.
- *
- *                 Replaced by EnterpriseCallCenterGetRequest17sp4.
+ *         The response is either an EnterpriseCallCenterGetResponse or an
+ *         ErrorResponse.
+ *         
+ *         Replaced by EnterpriseCallCenterGetRequest17sp4.
  *
  * @see EnterpriseCallCenterGetResponse
  * @see ErrorResponse
  * @see EnterpriseCallCenterGetRequest17sp4
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:24230","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:2165","type":"sequence"}]
  */
 class EnterpriseCallCenterGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -22,7 +22,7 @@ class EnterpriseCallCenterGetRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:24230
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:2165
      * @MinLength 1
      * @MaxLength 30
      * @var string|null

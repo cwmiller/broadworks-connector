@@ -6,14 +6,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupCollaborateBridgeGetInstanceRequest
  *
  * Request to get all the information of a collaborate bridge.
- *                 The response is either GroupCollaborateBridgeGetInstanceResponse or ErrorResponse.
- *
- *                 Replaced by: GroupCollaborateBridgeGetInstanceRequest20sp1
+ *         The response is either GroupCollaborateBridgeGetInstanceResponse or ErrorResponse.
+ *         
+ *         Replaced by: GroupCollaborateBridgeGetInstanceRequest20sp1
  *
  * @see GroupCollaborateBridgeGetInstanceResponse
  * @see ErrorResponse
  * @see GroupCollaborateBridgeGetInstanceRequest20sp1
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:36644","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:8783","type":"sequence"}]
  */
 class GroupCollaborateBridgeGetInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,7 +21,7 @@ class GroupCollaborateBridgeGetInstanceRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:36644
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:8783
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

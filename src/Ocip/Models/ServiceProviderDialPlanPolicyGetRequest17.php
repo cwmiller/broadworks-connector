@@ -8,10 +8,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request the Service Provider level data associated with Dial Plan Policy.
  *         The response is either a ServiceProviderDialPlanPolicyGetResponse17
  *         or an ErrorResponse.
+ *         
+ *         Replaced by: ServiceProviderDialPlanPolicyGetRequest22 in AS data mode.
  *
  * @see ServiceProviderDialPlanPolicyGetResponse17
  * @see ErrorResponse
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:2999","type":"sequence"}]
+ * @see ServiceProviderDialPlanPolicyGetRequest22
+ * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:5636","type":"sequence"}]
  */
 class ServiceProviderDialPlanPolicyGetRequest17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +22,7 @@ class ServiceProviderDialPlanPolicyGetRequest17 extends \CWM\BroadWorksConnector
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2999
+     * @Group de4d76f01f337fe4694212ec9f771753:5636
      * @MinLength 1
      * @MaxLength 30
      * @var string|null

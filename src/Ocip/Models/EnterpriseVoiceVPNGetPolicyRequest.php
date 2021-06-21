@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see EnterpriseVoiceVPNGetPolicyResponse
  * @see ErrorResponse
- * @Groups [{"id":"5395c7df0157d44aa22f3351d1a5f3da:1460","type":"sequence"}]
+ * @Groups [{"id":"5395c7df0157d44aa22f3351d1a5f3da:1461","type":"sequence"}]
  */
 class EnterpriseVoiceVPNGetPolicyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class EnterpriseVoiceVPNGetPolicyRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1460
+     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1461
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +28,7 @@ class EnterpriseVoiceVPNGetPolicyRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName locationDialingCode
      * @Type string
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1460
+     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1461
      * @MinLength 1
      * @MaxLength 22
      * @var string|null

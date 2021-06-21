@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemRoutePointExternalSystemApplicationControllerGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:13980","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:15079","type":"sequence"}]
  */
 class SystemRoutePointExternalSystemApplicationControllerGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemRoutePointExternalSystemApplicationControllerGetRequest extends \CWM
     /**
      * @ElementName externalSystem
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:13980
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:15079
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

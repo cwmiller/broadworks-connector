@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Criteria for searching for a group location dialing code.
  *
- * @Groups [{"id":"f0ada2681ca347fa83b464734259b304:1418","type":"sequence"}]
+ * @Groups [{"id":"f0ada2681ca347fa83b464734259b304:1523","type":"sequence"}]
  */
 class SearchCriteriaGroupLocationCode extends SearchCriteria
 {
@@ -15,7 +15,7 @@ class SearchCriteriaGroupLocationCode extends SearchCriteria
     /**
      * @ElementName mode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchMode
-     * @Group f0ada2681ca347fa83b464734259b304:1418
+     * @Group f0ada2681ca347fa83b464734259b304:1523
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchMode|null
      */
     private $mode = null;
@@ -23,7 +23,7 @@ class SearchCriteriaGroupLocationCode extends SearchCriteria
     /**
      * @ElementName value
      * @Type string
-     * @Group f0ada2681ca347fa83b464734259b304:1418
+     * @Group f0ada2681ca347fa83b464734259b304:1523
      * @MinLength 1
      * @MaxLength 15
      * @var string|null
@@ -33,7 +33,7 @@ class SearchCriteriaGroupLocationCode extends SearchCriteria
     /**
      * @ElementName isCaseInsensitive
      * @Type bool
-     * @Group f0ada2681ca347fa83b464734259b304:1418
+     * @Group f0ada2681ca347fa83b464734259b304:1523
      * @var bool|null
      */
     private $isCaseInsensitive = null;

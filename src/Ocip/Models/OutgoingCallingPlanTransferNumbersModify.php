@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Outgoing Calling Plan transfer numbers.
  *
- * @Groups [{"id":"6f793dfca9bd3d121bb35e0f9cf1cb2e:2220","type":"sequence"}]
+ * @Groups [{"id":"6f793dfca9bd3d121bb35e0f9cf1cb2e:2221","type":"sequence"}]
  */
 class OutgoingCallingPlanTransferNumbersModify
 {
@@ -17,7 +17,7 @@ class OutgoingCallingPlanTransferNumbersModify
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:2220
+     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:2221
      * @MinLength 1
      * @MaxLength 30
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -29,7 +29,7 @@ class OutgoingCallingPlanTransferNumbersModify
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:2220
+     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:2221
      * @MinLength 1
      * @MaxLength 30
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -41,7 +41,7 @@ class OutgoingCallingPlanTransferNumbersModify
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:2220
+     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:2221
      * @MinLength 1
      * @MaxLength 30
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil

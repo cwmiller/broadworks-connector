@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * The parts of a user's display name that a client can display in whatever way is appropriate
  *         for the client application.
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:4522","type":"sequence"}]
+ * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:5218","type":"sequence"}]
  */
 class UserDisplayNames
 {
@@ -16,7 +16,7 @@ class UserDisplayNames
     /**
      * @ElementName lastName
      * @Type string
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4522
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:5218
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -26,7 +26,7 @@ class UserDisplayNames
     /**
      * @ElementName firstName
      * @Type string
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4522
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:5218
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -37,7 +37,7 @@ class UserDisplayNames
      * @ElementName hiraganaLastName
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4522
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:5218
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -48,7 +48,7 @@ class UserDisplayNames
      * @ElementName hiraganaFirstName
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4522
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:5218
      * @MinLength 1
      * @MaxLength 30
      * @var string|null

@@ -171,6 +171,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static UserService OMA_PRESENCE()
  * @method static UserService OUTLOOK_INTEGRATION()
  * @method static UserService OFFICE_COMMUNICATOR_TAB()
+ * @method static UserService PBX_INTEGRATION()
  * @method static UserService PERSONAL_ASSISTANT()
  * @method static UserService PHYSICAL_LOCATION()
  * @method static UserService POLYCOM_PHONE_SERVICES()
@@ -204,6 +205,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static UserService SPEED_DIAL_100()
  * @method static UserService SPEED_DIAL_8()
  * @method static UserService TERMINATING_ALTERNATE_TRUNK_IDENTITY()
+ * @method static UserService TERMINATING_CLOSED_USER_GROUP()
  * @method static UserService THIRD_PARTY_IMP()
  * @method static UserService THIRD_PARTY_MWI_CONTROL()
  * @method static UserService THIRD_PARTY_VOICE_MAIL_SUPPORT()
@@ -549,6 +551,8 @@ class UserService extends \MyCLabs\Enum\Enum
 
     const OFFICE_COMMUNICATOR_TAB = 'Office Communicator Tab';
 
+    const PBX_INTEGRATION = 'PBX Integration';
+
     const PERSONAL_ASSISTANT = 'Personal Assistant';
 
     const PHYSICAL_LOCATION = 'Physical Location';
@@ -614,6 +618,8 @@ class UserService extends \MyCLabs\Enum\Enum
     const SPEED_DIAL_8 = 'Speed Dial 8';
 
     const TERMINATING_ALTERNATE_TRUNK_IDENTITY = 'Terminating Alternate Trunk Identity';
+
+    const TERMINATING_CLOSED_USER_GROUP = 'Terminating Closed User Group';
 
     const THIRD_PARTY_IMP = 'Third-Party IMP';
 

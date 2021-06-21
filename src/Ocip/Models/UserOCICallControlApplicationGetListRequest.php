@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserOCICallControlApplicationGetListResponse
  * @see ErrorResponse
- * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:2669","type":"sequence"}]
+ * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:2656","type":"sequence"}]
  */
 class UserOCICallControlApplicationGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserOCICallControlApplicationGetListRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName userId
      * @Type string
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:2669
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:2656
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

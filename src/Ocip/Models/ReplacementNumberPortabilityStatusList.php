@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         configured list. By convention, an element of this type may be set 
  *         to nill to clear the list.
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:3318","type":"sequence"}]
+ * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:3956","type":"sequence"}]
  */
 class ReplacementNumberPortabilityStatusList
 {
@@ -18,7 +18,7 @@ class ReplacementNumberPortabilityStatusList
      * @ElementName status
      * @Type string
      * @Array
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3318
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:3956
      * @MinLength 1
      * @MaxLength 40
      * @var string[]

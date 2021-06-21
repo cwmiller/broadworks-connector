@@ -5,17 +5,16 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemCallProcessingPolicyProfileHuntGroupProfileGetRequest
  *
- * Request to get the configuration for a call processing policy profile Hunt Group subscriber type
- *                 profile.
- *                 The response is either a SystemCallProcessingPolicyProfileHuntGroupProfileGetResponse or an
- *                 ErrorResponse.
- *
- *                 Replaced by: SystemCallProcessingPolicyProfileHuntGroupProfileGetRequest22
+ * Request to get the configuration for a call processing policy profile Hunt Group subscriber type profile.
+ *         The response is either a SystemCallProcessingPolicyProfileHuntGroupProfileGetResponse or an
+ *         ErrorResponse.
+ *         
+ *         Replaced by: SystemCallProcessingPolicyProfileHuntGroupProfileGetRequest22
  *
  * @see SystemCallProcessingPolicyProfileHuntGroupProfileGetResponse
  * @see ErrorResponse
  * @see SystemCallProcessingPolicyProfileHuntGroupProfileGetRequest22
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:37958","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:23102","type":"sequence"}]
  */
 class SystemCallProcessingPolicyProfileHuntGroupProfileGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -23,7 +22,7 @@ class SystemCallProcessingPolicyProfileHuntGroupProfileGetRequest extends \CWM\B
     /**
      * @ElementName callProcessingPolicyProfileName
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:37958
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:23102
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

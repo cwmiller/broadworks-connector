@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Alternate user id.
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:463","type":"sequence"}]
+ * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:589","type":"sequence"}]
  */
 class AlternateUserIdEntry
 {
@@ -15,7 +15,7 @@ class AlternateUserIdEntry
     /**
      * @ElementName alternateUserId
      * @Type string
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:463
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:589
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -26,7 +26,7 @@ class AlternateUserIdEntry
      * @ElementName description
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:463
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:589
      * @MinLength 1
      * @MaxLength 80
      * @var string|null

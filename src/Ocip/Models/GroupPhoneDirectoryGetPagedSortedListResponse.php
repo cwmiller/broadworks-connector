@@ -26,7 +26,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           "IMP Id"
  *
  * @see GroupPhoneDirectoryGetPagedSortedListRequest
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:5945","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:6963","type":"sequence"}]
  */
 class GroupPhoneDirectoryGetPagedSortedListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -34,7 +34,7 @@ class GroupPhoneDirectoryGetPagedSortedListResponse extends \CWM\BroadWorksConne
     /**
      * @ElementName totalNumberOfRows
      * @Type int
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:5945
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:6963
      * @var int|null
      */
     private $totalNumberOfRows = null;
@@ -42,7 +42,7 @@ class GroupPhoneDirectoryGetPagedSortedListResponse extends \CWM\BroadWorksConne
     /**
      * @ElementName directoryTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:5945
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:6963
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $directoryTable = null;

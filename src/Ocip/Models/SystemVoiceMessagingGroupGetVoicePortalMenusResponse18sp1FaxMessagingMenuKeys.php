@@ -5,7 +5,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemVoiceMessagingGroupGetVoicePortalMenusResponse18sp1FaxMessagingMenuKeys
  *
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:27829","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:37388","type":"sequence"}]
  */
 class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18sp1FaxMessagingMenuKeys
 {
@@ -14,7 +14,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18sp1FaxMessagingMenuK
      * @ElementName saveFaxMessageAndSkipToNext
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:27829
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:37388
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -25,7 +25,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18sp1FaxMessagingMenuK
      * @ElementName previousFaxMessage
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:27829
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:37388
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -36,7 +36,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18sp1FaxMessagingMenuK
      * @ElementName playEnvelope
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:27829
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:37388
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -47,7 +47,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18sp1FaxMessagingMenuK
      * @ElementName nextFaxMessage
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:27829
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:37388
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -58,7 +58,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18sp1FaxMessagingMenuK
      * @ElementName deleteFaxMessage
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:27829
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:37388
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -69,7 +69,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18sp1FaxMessagingMenuK
      * @ElementName printFaxMessage
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:27829
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:37388
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -80,7 +80,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18sp1FaxMessagingMenuK
      * @ElementName returnToPreviousMenu
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:27829
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:37388
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null

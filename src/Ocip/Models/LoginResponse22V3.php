@@ -14,8 +14,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The parameter tokenRevocationTime is represented in the number of milliseconds
  *         since January 1, 1970, 00:00:00 GMT, and it is set to the more current time between 
  *         the system level token revocation time and user level token revocation time.
+ *         
+ *         Replaced by LoginRequest22V4 in AS data mode.
  *
- * @Groups [{"id":"6b27fcc79475236456fc113a42b75543:377","type":"sequence"}]
+ * @see LoginRequest22V4
+ * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:4401","type":"sequence"}]
  */
 class LoginResponse22V3 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -23,7 +26,7 @@ class LoginResponse22V3 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRe
     /**
      * @ElementName loginType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LoginType22
-     * @Group 6b27fcc79475236456fc113a42b75543:377
+     * @Group de4d76f01f337fe4694212ec9f771753:4401
      * @var \CWM\BroadWorksConnector\Ocip\Models\LoginType22|null
      */
     private $loginType = null;
@@ -31,7 +34,7 @@ class LoginResponse22V3 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRe
     /**
      * @ElementName locale
      * @Type string
-     * @Group 6b27fcc79475236456fc113a42b75543:377
+     * @Group de4d76f01f337fe4694212ec9f771753:4401
      * @MaxLength 5
      * @var string|null
      */
@@ -40,7 +43,7 @@ class LoginResponse22V3 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRe
     /**
      * @ElementName encoding
      * @Type string
-     * @Group 6b27fcc79475236456fc113a42b75543:377
+     * @Group de4d76f01f337fe4694212ec9f771753:4401
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -51,7 +54,7 @@ class LoginResponse22V3 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRe
      * @ElementName groupId
      * @Type string
      * @Optional
-     * @Group 6b27fcc79475236456fc113a42b75543:377
+     * @Group de4d76f01f337fe4694212ec9f771753:4401
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -62,7 +65,7 @@ class LoginResponse22V3 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRe
      * @ElementName serviceProviderId
      * @Type string
      * @Optional
-     * @Group 6b27fcc79475236456fc113a42b75543:377
+     * @Group de4d76f01f337fe4694212ec9f771753:4401
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -72,7 +75,7 @@ class LoginResponse22V3 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRe
     /**
      * @ElementName isEnterprise
      * @Type bool
-     * @Group 6b27fcc79475236456fc113a42b75543:377
+     * @Group de4d76f01f337fe4694212ec9f771753:4401
      * @var bool|null
      */
     private $isEnterprise = null;
@@ -81,7 +84,7 @@ class LoginResponse22V3 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRe
      * @ElementName passwordExpiresDays
      * @Type int
      * @Optional
-     * @Group 6b27fcc79475236456fc113a42b75543:377
+     * @Group de4d76f01f337fe4694212ec9f771753:4401
      * @var int|null
      */
     private $passwordExpiresDays = null;
@@ -89,7 +92,7 @@ class LoginResponse22V3 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRe
     /**
      * @ElementName userDomain
      * @Type string
-     * @Group 6b27fcc79475236456fc113a42b75543:377
+     * @Group de4d76f01f337fe4694212ec9f771753:4401
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -100,7 +103,7 @@ class LoginResponse22V3 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRe
      * @ElementName resellerId
      * @Type string
      * @Optional
-     * @Group 6b27fcc79475236456fc113a42b75543:377
+     * @Group de4d76f01f337fe4694212ec9f771753:4401
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -111,7 +114,7 @@ class LoginResponse22V3 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRe
      * @ElementName tokenRevocationTime
      * @Type string
      * @Optional
-     * @Group 6b27fcc79475236456fc113a42b75543:377
+     * @Group de4d76f01f337fe4694212ec9f771753:4401
      * @var string|null
      */
     private $tokenRevocationTime = null;

@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to EnterpriseVoiceVPNGetPolicyRequest.
  *
  * @see EnterpriseVoiceVPNGetPolicyRequest
- * @Groups [{"id":"5395c7df0157d44aa22f3351d1a5f3da:1476","type":"sequence","children":[{"id":"5395c7df0157d44aa22f3351d1a5f3da:1482","type":"choice"}]}]
+ * @Groups [{"id":"5395c7df0157d44aa22f3351d1a5f3da:1477","type":"sequence","children":[{"id":"5395c7df0157d44aa22f3351d1a5f3da:1483","type":"choice"}]}]
  */
 class EnterpriseVoiceVPNGetPolicyResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class EnterpriseVoiceVPNGetPolicyResponse extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName minExtensionLength
      * @Type int
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1476
+     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1477
      * @MinInclusive 0
      * @MaxInclusive 100
      * @var int|null
@@ -26,7 +26,7 @@ class EnterpriseVoiceVPNGetPolicyResponse extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName maxExtensionLength
      * @Type int
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1476
+     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1477
      * @MinInclusive 0
      * @MaxInclusive 100
      * @var int|null
@@ -37,7 +37,7 @@ class EnterpriseVoiceVPNGetPolicyResponse extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName description
      * @Type string
      * @Optional
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1476
+     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1477
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -48,7 +48,7 @@ class EnterpriseVoiceVPNGetPolicyResponse extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName routeGroupId
      * @Type string
      * @Optional
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1476
+     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1477
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -58,7 +58,7 @@ class EnterpriseVoiceVPNGetPolicyResponse extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName policySelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNPolicySelection
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1476
+     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1477
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNPolicySelection|null
      */
     private $policySelection = null;
@@ -69,7 +69,7 @@ class EnterpriseVoiceVPNGetPolicyResponse extends \CWM\BroadWorksConnector\Ocip\
      * @Array
      * @Abstract \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNDigitManipulationNoValue,\CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNDigitManipulationOptionalValue,\CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNDigitManipulationRequiredValue
      * @Optional
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1482
+     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1483
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNDigitManipulation[]
      */
     private $digitManipulation = array(
@@ -80,7 +80,7 @@ class EnterpriseVoiceVPNGetPolicyResponse extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName treatmentId
      * @Type string
      * @Optional
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1482
+     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1483
      * @MinLength 1
      * @MaxLength 30
      * @var string|null

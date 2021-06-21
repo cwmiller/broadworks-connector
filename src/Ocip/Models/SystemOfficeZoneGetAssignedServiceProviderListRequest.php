@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemOfficeZoneGetAssignedServiceProviderListResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:12805","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:13899","type":"sequence"}]
  */
 class SystemOfficeZoneGetAssignedServiceProviderListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,7 +17,7 @@ class SystemOfficeZoneGetAssignedServiceProviderListRequest extends \CWM\BroadWo
     /**
      * @ElementName officeZoneName
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12805
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:13899
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

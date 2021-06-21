@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"5395c7df0157d44aa22f3351d1a5f3da:431","type":"sequence"}]
+ * @Groups [{"id":"5395c7df0157d44aa22f3351d1a5f3da:432","type":"sequence"}]
  */
 class EnterpriseCommonPhoneListDeleteListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class EnterpriseCommonPhoneListDeleteListRequest extends \CWM\BroadWorksConnecto
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:431
+     * @Group 5395c7df0157d44aa22f3351d1a5f3da:432
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -29,7 +29,7 @@ class EnterpriseCommonPhoneListDeleteListRequest extends \CWM\BroadWorksConnecto
      * @ElementName entryName
      * @Type string
      * @Array
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:431
+     * @Group 5395c7df0157d44aa22f3351d1a5f3da:432
      * @MinLength 1
      * @MaxLength 50
      * @var string[]

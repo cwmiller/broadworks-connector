@@ -19,7 +19,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see ErrorResponse
  * @see ErrorResponse
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:2294","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:2834","type":"sequence"}]
  */
 class GroupCommonPhoneListGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -27,7 +27,7 @@ class GroupCommonPhoneListGetListRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:2294
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:2834
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -37,7 +37,7 @@ class GroupCommonPhoneListGetListRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:2294
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:2834
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -48,7 +48,7 @@ class GroupCommonPhoneListGetListRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:2294
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:2834
      * @MinInclusive 1
      * @var int|null
      */
@@ -58,7 +58,7 @@ class GroupCommonPhoneListGetListRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName searchCriteriaModeOr
      * @Type bool
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:2294
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:2834
      * @var bool|null
      */
     private $searchCriteriaModeOr = null;
@@ -68,7 +68,7 @@ class GroupCommonPhoneListGetListRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupCommonPhoneListName
      * @Array
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:2294
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:2834
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupCommonPhoneListName[]
      */
     private $searchCriteriaGroupCommonPhoneListName = array(
@@ -80,7 +80,7 @@ class GroupCommonPhoneListGetListRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupCommonPhoneListNumber
      * @Array
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:2294
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:2834
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupCommonPhoneListNumber[]
      */
     private $searchCriteriaGroupCommonPhoneListNumber = array(

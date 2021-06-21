@@ -6,16 +6,16 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ServiceProviderAccessDeviceGetUserListRequest
  *
  * Requests the list of users on a specified device.
- *         The response is either ServiceProviderAccessDeviceGetUserListResponse or ErrorResponse.
+ *         The response is either ServiceProviderAccessDeviceGetResponse or ErrorResponse.
  *         The following elements are only used in XS data mode and ignored in AS data mode:
  *           searchCriteriaAccessDeviceEndpointPrivateIdentity
  *           
  *         Replaced by: ServiceProviderAccessDeviceGetUserListRequest21sp1 in AS data mode.
  *
- * @see ServiceProviderAccessDeviceGetUserListResponse
+ * @see ServiceProviderAccessDeviceGetResponse
  * @see ErrorResponse
  * @see ServiceProviderAccessDeviceGetUserListRequest21sp1
- * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:5411","type":"sequence"}]
+ * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:4920","type":"sequence"}]
  */
 class ServiceProviderAccessDeviceGetUserListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -23,7 +23,7 @@ class ServiceProviderAccessDeviceGetUserListRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group de4d76f01f337fe4694212ec9f771753:5411
+     * @Group de4d76f01f337fe4694212ec9f771753:4920
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -33,7 +33,7 @@ class ServiceProviderAccessDeviceGetUserListRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName deviceName
      * @Type string
-     * @Group de4d76f01f337fe4694212ec9f771753:5411
+     * @Group de4d76f01f337fe4694212ec9f771753:4920
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -44,7 +44,7 @@ class ServiceProviderAccessDeviceGetUserListRequest extends \CWM\BroadWorksConne
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:5411
+     * @Group de4d76f01f337fe4694212ec9f771753:4920
      * @MinInclusive 1
      * @var int|null
      */
@@ -55,7 +55,7 @@ class ServiceProviderAccessDeviceGetUserListRequest extends \CWM\BroadWorksConne
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaLinePortUserPart
      * @Array
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:5411
+     * @Group de4d76f01f337fe4694212ec9f771753:4920
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaLinePortUserPart[]
      */
     private $searchCriteriaLinePortUserPart = array(
@@ -67,7 +67,7 @@ class ServiceProviderAccessDeviceGetUserListRequest extends \CWM\BroadWorksConne
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaLinePortDomain
      * @Array
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:5411
+     * @Group de4d76f01f337fe4694212ec9f771753:4920
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaLinePortDomain[]
      */
     private $searchCriteriaLinePortDomain = array(
@@ -79,7 +79,7 @@ class ServiceProviderAccessDeviceGetUserListRequest extends \CWM\BroadWorksConne
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName
      * @Array
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:5411
+     * @Group de4d76f01f337fe4694212ec9f771753:4920
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[]
      */
     private $searchCriteriaUserLastName = array(
@@ -91,7 +91,7 @@ class ServiceProviderAccessDeviceGetUserListRequest extends \CWM\BroadWorksConne
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName
      * @Array
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:5411
+     * @Group de4d76f01f337fe4694212ec9f771753:4920
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName[]
      */
     private $searchCriteriaUserFirstName = array(
@@ -103,7 +103,7 @@ class ServiceProviderAccessDeviceGetUserListRequest extends \CWM\BroadWorksConne
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn
      * @Array
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:5411
+     * @Group de4d76f01f337fe4694212ec9f771753:4920
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[]
      */
     private $searchCriteriaDn = array(
@@ -115,7 +115,7 @@ class ServiceProviderAccessDeviceGetUserListRequest extends \CWM\BroadWorksConne
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId
      * @Array
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:5411
+     * @Group de4d76f01f337fe4694212ec9f771753:4920
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId[]
      */
     private $searchCriteriaUserId = array(
@@ -127,7 +127,7 @@ class ServiceProviderAccessDeviceGetUserListRequest extends \CWM\BroadWorksConne
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId
      * @Array
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:5411
+     * @Group de4d76f01f337fe4694212ec9f771753:4920
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId[]
      */
     private $searchCriteriaGroupId = array(
@@ -138,7 +138,7 @@ class ServiceProviderAccessDeviceGetUserListRequest extends \CWM\BroadWorksConne
      * @ElementName searchCriteriaExactEndpointType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactEndpointType
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:5411
+     * @Group de4d76f01f337fe4694212ec9f771753:4920
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactEndpointType|null
      */
     private $searchCriteriaExactEndpointType = null;
@@ -147,7 +147,7 @@ class ServiceProviderAccessDeviceGetUserListRequest extends \CWM\BroadWorksConne
      * @ElementName searchCriteriaExactUserType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserType
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:5411
+     * @Group de4d76f01f337fe4694212ec9f771753:4920
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserType|null
      */
     private $searchCriteriaExactUserType = null;
@@ -157,7 +157,7 @@ class ServiceProviderAccessDeviceGetUserListRequest extends \CWM\BroadWorksConne
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension
      * @Array
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:5411
+     * @Group de4d76f01f337fe4694212ec9f771753:4920
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension[]
      */
     private $searchCriteriaExtension = array(
@@ -168,7 +168,7 @@ class ServiceProviderAccessDeviceGetUserListRequest extends \CWM\BroadWorksConne
      * @ElementName searchCriteriaExactUserDepartment
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:5411
+     * @Group de4d76f01f337fe4694212ec9f771753:4920
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment|null
      */
     private $searchCriteriaExactUserDepartment = null;
@@ -177,7 +177,7 @@ class ServiceProviderAccessDeviceGetUserListRequest extends \CWM\BroadWorksConne
      * @ElementName searchCriteriaExactPortNumber
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactPortNumber
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:5411
+     * @Group de4d76f01f337fe4694212ec9f771753:4920
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactPortNumber|null
      */
     private $searchCriteriaExactPortNumber = null;
@@ -187,7 +187,7 @@ class ServiceProviderAccessDeviceGetUserListRequest extends \CWM\BroadWorksConne
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaAccessDeviceEndpointPrivateIdentity
      * @Array
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:5411
+     * @Group de4d76f01f337fe4694212ec9f771753:4920
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaAccessDeviceEndpointPrivateIdentity[]
      */
     private $searchCriteriaAccessDeviceEndpointPrivateIdentity = array(

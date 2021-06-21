@@ -7,10 +7,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Get the profile for a service provider or enterprise.
  *         The response is either a ServiceProviderGetResponse22V2 or an ErrorResponse.
+ *         Replaced by ServiceProviderGetRequest22V3.
  *
  * @see ServiceProviderGetResponse22V2
  * @see ErrorResponse
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:3763","type":"sequence"}]
+ * @see ServiceProviderGetRequest22V3
+ * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:5761","type":"sequence"}]
  */
 class ServiceProviderGetRequest22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +20,7 @@ class ServiceProviderGetRequest22V2 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3763
+     * @Group de4d76f01f337fe4694212ec9f771753:5761
      * @MinLength 1
      * @MaxLength 30
      * @var string|null

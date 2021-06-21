@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Criteria for searching for digit pattern.
  *
- * @Groups [{"id":"f0ada2681ca347fa83b464734259b304:501","type":"sequence"}]
+ * @Groups [{"id":"f0ada2681ca347fa83b464734259b304:560","type":"sequence"}]
  */
 class SearchCriteriaDigitPattern extends SearchCriteria
 {
@@ -15,7 +15,7 @@ class SearchCriteriaDigitPattern extends SearchCriteria
     /**
      * @ElementName mode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchMode
-     * @Group f0ada2681ca347fa83b464734259b304:501
+     * @Group f0ada2681ca347fa83b464734259b304:560
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchMode|null
      */
     private $mode = null;
@@ -23,7 +23,7 @@ class SearchCriteriaDigitPattern extends SearchCriteria
     /**
      * @ElementName value
      * @Type string
-     * @Group f0ada2681ca347fa83b464734259b304:501
+     * @Group f0ada2681ca347fa83b464734259b304:560
      * @MinLength 1
      * @MaxLength 160
      * @var string|null
@@ -33,7 +33,7 @@ class SearchCriteriaDigitPattern extends SearchCriteria
     /**
      * @ElementName isCaseInsensitive
      * @Type bool
-     * @Group f0ada2681ca347fa83b464734259b304:501
+     * @Group f0ada2681ca347fa83b464734259b304:560
      * @var bool|null
      */
     private $isCaseInsensitive = null;

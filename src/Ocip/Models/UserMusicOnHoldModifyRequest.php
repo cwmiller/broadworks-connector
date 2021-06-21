@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"66fe518a637c74cc4b2c97aa7f68fc49:270","type":"sequence"}]
+ * @Groups [{"id":"66fe518a637c74cc4b2c97aa7f68fc49:277","type":"sequence"}]
  */
 class UserMusicOnHoldModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserMusicOnHoldModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName userId
      * @Type string
-     * @Group 66fe518a637c74cc4b2c97aa7f68fc49:270
+     * @Group 66fe518a637c74cc4b2c97aa7f68fc49:277
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -29,7 +29,7 @@ class UserMusicOnHoldModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @ElementName isActive
      * @Type bool
      * @Optional
-     * @Group 66fe518a637c74cc4b2c97aa7f68fc49:270
+     * @Group 66fe518a637c74cc4b2c97aa7f68fc49:277
      * @var bool|null
      */
     private $isActive = null;

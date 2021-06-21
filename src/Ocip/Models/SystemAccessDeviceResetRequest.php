@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:1248","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:1678","type":"sequence"}]
  */
 class SystemAccessDeviceResetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemAccessDeviceResetRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName deviceName
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1248
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1678
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

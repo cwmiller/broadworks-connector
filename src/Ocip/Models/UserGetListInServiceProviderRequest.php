@@ -8,11 +8,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request the list of users in a service provider or enterprise.
  *         It is possible to search by various criteria to restrict the number of rows returned.
  *         Multiple search criteria are logically ANDed together.
+ *
+ *         The following elements are only used in AS data mode and ignored in XS data mode:
+ *            serviceProviderExternalId
+ *         
  *         The response is either a UserGetListInServiceProviderResponse or an ErrorResponse.
  *
  * @see UserGetListInServiceProviderResponse
  * @see ErrorResponse
- * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:1844","type":"sequence"}]
+ * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:1967","type":"sequence","children":[{"id":"53d18cc797d03d802cbc411ad821f1d4:1968","type":"choice"}]}]
  */
 class UserGetListInServiceProviderRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +24,7 @@ class UserGetListInServiceProviderRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:1844
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:1968
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,10 +32,19 @@ class UserGetListInServiceProviderRequest extends \CWM\BroadWorksConnector\Ocip\
     private $serviceProviderId = null;
 
     /**
+     * @ElementName serviceProviderExternalId
+     * @Type string
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:1968
+     * @MaxLength 36
+     * @var string|null
+     */
+    private $serviceProviderExternalId = null;
+
+    /**
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:1844
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:1967
      * @MinInclusive 1
      * @var int|null
      */
@@ -42,7 +55,7 @@ class UserGetListInServiceProviderRequest extends \CWM\BroadWorksConnector\Ocip\
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName
      * @Array
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:1844
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:1967
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[]
      */
     private $searchCriteriaUserLastName = array(
@@ -54,7 +67,7 @@ class UserGetListInServiceProviderRequest extends \CWM\BroadWorksConnector\Ocip\
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName
      * @Array
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:1844
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:1967
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName[]
      */
     private $searchCriteriaUserFirstName = array(
@@ -66,7 +79,7 @@ class UserGetListInServiceProviderRequest extends \CWM\BroadWorksConnector\Ocip\
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn
      * @Array
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:1844
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:1967
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[]
      */
     private $searchCriteriaDn = array(
@@ -78,7 +91,7 @@ class UserGetListInServiceProviderRequest extends \CWM\BroadWorksConnector\Ocip\
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaEmailAddress
      * @Array
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:1844
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:1967
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaEmailAddress[]
      */
     private $searchCriteriaEmailAddress = array(
@@ -89,7 +102,7 @@ class UserGetListInServiceProviderRequest extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName searchCriteriaExactUserInTrunkGroup
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserInTrunkGroup
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:1844
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:1967
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserInTrunkGroup|null
      */
     private $searchCriteriaExactUserInTrunkGroup = null;
@@ -99,7 +112,7 @@ class UserGetListInServiceProviderRequest extends \CWM\BroadWorksConnector\Ocip\
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId
      * @Array
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:1844
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:1967
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId[]
      */
     private $searchCriteriaUserId = array(
@@ -111,7 +124,7 @@ class UserGetListInServiceProviderRequest extends \CWM\BroadWorksConnector\Ocip\
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension
      * @Array
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:1844
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:1967
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension[]
      */
     private $searchCriteriaExtension = array(
@@ -123,7 +136,7 @@ class UserGetListInServiceProviderRequest extends \CWM\BroadWorksConnector\Ocip\
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment
      * @Array
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:1844
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:1967
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment[]
      */
     private $searchCriteriaExactUserDepartment = array(
@@ -158,6 +171,37 @@ class UserGetListInServiceProviderRequest extends \CWM\BroadWorksConnector\Ocip\
     public function unsetServiceProviderId()
     {
         $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
+     * Getter for serviceProviderExternalId
+     *
+     * @return string
+     */
+    public function getServiceProviderExternalId()
+    {
+        return $this->serviceProviderExternalId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderExternalId;
+    }
+
+    /**
+     * Setter for serviceProviderExternalId
+     *
+     * @param string $serviceProviderExternalId
+     * @return $this
+     */
+    public function setServiceProviderExternalId($serviceProviderExternalId)
+    {
+        $this->serviceProviderExternalId = $serviceProviderExternalId;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetServiceProviderExternalId()
+    {
+        $this->serviceProviderExternalId = null;
         return $this;
     }
 

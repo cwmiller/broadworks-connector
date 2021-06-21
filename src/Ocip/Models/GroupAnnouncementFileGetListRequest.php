@@ -6,11 +6,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupAnnouncementFileGetListRequest
  *
  * Get the list of available announcement files for a Group.
+ *         
+ *         The following elements are only used in AS data mode and ignored in XS data mode:
+ *           groupExternalId
+ *         
  *         The response is either a GroupAnnouncementFileGetListResponse or an ErrorResponse.
  *
  * @see GroupAnnouncementFileGetListResponse
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:1428","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:1885","type":"sequence","children":[{"id":"f3a93cf15de4abd7903673e44ee3e07b:1886","type":"choice","children":[{"id":"f3a93cf15de4abd7903673e44ee3e07b:1887","type":"sequence"}]}]}]
  */
 class GroupAnnouncementFileGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +22,7 @@ class GroupAnnouncementFileGetListRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1428
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:1887
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +32,7 @@ class GroupAnnouncementFileGetListRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1428
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:1887
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -36,10 +40,19 @@ class GroupAnnouncementFileGetListRequest extends \CWM\BroadWorksConnector\Ocip\
     private $groupId = null;
 
     /**
+     * @ElementName groupExternalId
+     * @Type string
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:1886
+     * @MaxLength 36
+     * @var string|null
+     */
+    private $groupExternalId = null;
+
+    /**
      * @ElementName announcementFileType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileType
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1428
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:1885
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileType|null
      */
     private $announcementFileType = null;
@@ -47,7 +60,7 @@ class GroupAnnouncementFileGetListRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName includeAnnouncementTable
      * @Type bool
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1428
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:1885
      * @var bool|null
      */
     private $includeAnnouncementTable = null;
@@ -56,7 +69,7 @@ class GroupAnnouncementFileGetListRequest extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1428
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:1885
      * @MinInclusive 1
      * @var int|null
      */
@@ -67,7 +80,7 @@ class GroupAnnouncementFileGetListRequest extends \CWM\BroadWorksConnector\Ocip\
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaAnnouncementFileName
      * @Array
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1428
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:1885
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaAnnouncementFileName[]
      */
     private $searchCriteriaAnnouncementFileName = array(
@@ -133,6 +146,37 @@ class GroupAnnouncementFileGetListRequest extends \CWM\BroadWorksConnector\Ocip\
     public function unsetGroupId()
     {
         $this->groupId = null;
+        return $this;
+    }
+
+    /**
+     * Getter for groupExternalId
+     *
+     * @return string
+     */
+    public function getGroupExternalId()
+    {
+        return $this->groupExternalId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupExternalId;
+    }
+
+    /**
+     * Setter for groupExternalId
+     *
+     * @param string $groupExternalId
+     * @return $this
+     */
+    public function setGroupExternalId($groupExternalId)
+    {
+        $this->groupExternalId = $groupExternalId;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetGroupExternalId()
+    {
+        $this->groupExternalId = null;
         return $this;
     }
 

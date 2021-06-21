@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Criteria for searching for a schedule name.
  *
- * @Groups [{"id":"f0ada2681ca347fa83b464734259b304:1918","type":"sequence"}]
+ * @Groups [{"id":"f0ada2681ca347fa83b464734259b304:2023","type":"sequence"}]
  */
 class SearchCriteriaScheduleName extends SearchCriteria
 {
@@ -15,7 +15,7 @@ class SearchCriteriaScheduleName extends SearchCriteria
     /**
      * @ElementName mode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchMode
-     * @Group f0ada2681ca347fa83b464734259b304:1918
+     * @Group f0ada2681ca347fa83b464734259b304:2023
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchMode|null
      */
     private $mode = null;
@@ -23,7 +23,7 @@ class SearchCriteriaScheduleName extends SearchCriteria
     /**
      * @ElementName value
      * @Type string
-     * @Group f0ada2681ca347fa83b464734259b304:1918
+     * @Group f0ada2681ca347fa83b464734259b304:2023
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -33,7 +33,7 @@ class SearchCriteriaScheduleName extends SearchCriteria
     /**
      * @ElementName isCaseInsensitive
      * @Type bool
-     * @Group f0ada2681ca347fa83b464734259b304:1918
+     * @Group f0ada2681ca347fa83b464734259b304:2023
      * @var bool|null
      */
     private $isCaseInsensitive = null;

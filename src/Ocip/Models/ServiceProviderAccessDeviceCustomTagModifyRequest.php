@@ -16,7 +16,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:345","type":"sequence","children":[{"id":"f1088f4c5ceb30d524d2ba0f8097c393:349","type":"choice"}]}]
+ * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:403","type":"sequence","children":[{"id":"f1088f4c5ceb30d524d2ba0f8097c393:407","type":"choice"}]}]
  */
 class ServiceProviderAccessDeviceCustomTagModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -24,7 +24,7 @@ class ServiceProviderAccessDeviceCustomTagModifyRequest extends \CWM\BroadWorksC
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:345
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:403
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -34,7 +34,7 @@ class ServiceProviderAccessDeviceCustomTagModifyRequest extends \CWM\BroadWorksC
     /**
      * @ElementName deviceName
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:345
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:403
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -44,7 +44,7 @@ class ServiceProviderAccessDeviceCustomTagModifyRequest extends \CWM\BroadWorksC
     /**
      * @ElementName tagName
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:345
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:403
      * @MinLength 1
      * @MaxLength 64
      * @var string|null
@@ -56,7 +56,7 @@ class ServiceProviderAccessDeviceCustomTagModifyRequest extends \CWM\BroadWorksC
      * @Type string
      * @Nillable
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:349
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:407
      * @MinLength 1
      * @MaxLength 256
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -68,7 +68,7 @@ class ServiceProviderAccessDeviceCustomTagModifyRequest extends \CWM\BroadWorksC
      * @Type string
      * @Nillable
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:349
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:407
      * @MinLength 1
      * @MaxLength 256
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil

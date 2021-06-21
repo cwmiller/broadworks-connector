@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to GroupDeviceTypeFileGetRequest16sp1.
  *
  * @see GroupDeviceTypeFileGetRequest16sp1
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:3546","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:4401","type":"sequence"}]
  */
 class GroupDeviceTypeFileGetResponse16sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class GroupDeviceTypeFileGetResponse16sp1 extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName fileSource
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationMode
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:3546
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:4401
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationMode|null
      */
     private $fileSource = null;
@@ -26,7 +26,7 @@ class GroupDeviceTypeFileGetResponse16sp1 extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName configurationFileName
      * @Type string
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:3546
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:4401
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -36,7 +36,7 @@ class GroupDeviceTypeFileGetResponse16sp1 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName accessUrl
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:3546
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:4401
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -47,7 +47,7 @@ class GroupDeviceTypeFileGetResponse16sp1 extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName repositoryUrl
      * @Type string
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:3546
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:4401
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -58,7 +58,7 @@ class GroupDeviceTypeFileGetResponse16sp1 extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName templateUrl
      * @Type string
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:3546
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:4401
      * @MinLength 1
      * @MaxLength 256
      * @var string|null

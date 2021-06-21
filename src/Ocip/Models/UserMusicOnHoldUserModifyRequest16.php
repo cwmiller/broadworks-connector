@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SuccessResponse
  * @see ErrorResponse
  * @see UserMusicOnHoldUserModifyRequest20
- * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:2183","type":"sequence"}]
+ * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:13993","type":"sequence"}]
  */
 class UserMusicOnHoldUserModifyRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,7 +21,7 @@ class UserMusicOnHoldUserModifyRequest16 extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName userId
      * @Type string
-     * @Group de4d76f01f337fe4694212ec9f771753:2183
+     * @Group de4d76f01f337fe4694212ec9f771753:13993
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -32,7 +32,7 @@ class UserMusicOnHoldUserModifyRequest16 extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName source
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserSourceModify16
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:2183
+     * @Group de4d76f01f337fe4694212ec9f771753:13993
      * @var \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserSourceModify16|null
      */
     private $source = null;
@@ -41,7 +41,7 @@ class UserMusicOnHoldUserModifyRequest16 extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName useAlternateSourceForInternalCalls
      * @Type bool
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:2183
+     * @Group de4d76f01f337fe4694212ec9f771753:13993
      * @var bool|null
      */
     private $useAlternateSourceForInternalCalls = null;
@@ -50,7 +50,7 @@ class UserMusicOnHoldUserModifyRequest16 extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName internalSource
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserSourceModify16
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:2183
+     * @Group de4d76f01f337fe4694212ec9f771753:13993
      * @var \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserSourceModify16|null
      */
     private $internalSource = null;

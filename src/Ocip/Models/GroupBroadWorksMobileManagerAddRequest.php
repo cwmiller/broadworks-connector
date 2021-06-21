@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:1729","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:2234","type":"sequence"}]
  */
 class GroupBroadWorksMobileManagerAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class GroupBroadWorksMobileManagerAddRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1729
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:2234
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -29,7 +29,7 @@ class GroupBroadWorksMobileManagerAddRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1729
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:2234
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -39,7 +39,7 @@ class GroupBroadWorksMobileManagerAddRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName informationFile
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1729
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:2234
      * @MinLength 1
      * @var string|null
      */
@@ -48,7 +48,7 @@ class GroupBroadWorksMobileManagerAddRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName certificateFile
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1729
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:2234
      * @MinLength 1
      * @var string|null
      */
@@ -57,7 +57,7 @@ class GroupBroadWorksMobileManagerAddRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1729
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:2234
      * @var bool|null
      */
     private $isActive = null;
@@ -65,7 +65,7 @@ class GroupBroadWorksMobileManagerAddRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName localToCarrier
      * @Type bool
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1729
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:2234
      * @var bool|null
      */
     private $localToCarrier = null;
@@ -73,7 +73,7 @@ class GroupBroadWorksMobileManagerAddRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName maxTxPerSecondEnabled
      * @Type bool
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1729
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:2234
      * @var bool|null
      */
     private $maxTxPerSecondEnabled = null;
@@ -82,7 +82,7 @@ class GroupBroadWorksMobileManagerAddRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName maxTxPerSecond
      * @Type int
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1729
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:2234
      * @MinInclusive 1
      * @MaxInclusive 1000
      * @var int|null
@@ -92,7 +92,7 @@ class GroupBroadWorksMobileManagerAddRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName tldnEnabled
      * @Type bool
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1729
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:2234
      * @var bool|null
      */
     private $tldnEnabled = null;
@@ -100,7 +100,7 @@ class GroupBroadWorksMobileManagerAddRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName genericNumberEnabled
      * @Type bool
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1729
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:2234
      * @var bool|null
      */
     private $genericNumberEnabled = null;
@@ -108,7 +108,7 @@ class GroupBroadWorksMobileManagerAddRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName mobileStateCheckEnabled
      * @Type bool
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1729
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:2234
      * @var bool|null
      */
     private $mobileStateCheckEnabled = null;
@@ -116,7 +116,7 @@ class GroupBroadWorksMobileManagerAddRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName locationBasedServicesEnabled
      * @Type bool
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1729
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:2234
      * @var bool|null
      */
     private $locationBasedServicesEnabled = null;

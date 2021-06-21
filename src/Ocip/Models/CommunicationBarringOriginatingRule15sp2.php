@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Communication Barring Originating Rule
  *
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:43485","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:47744","type":"sequence"}]
  */
 class CommunicationBarringOriginatingRule15sp2
 {
@@ -15,7 +15,7 @@ class CommunicationBarringOriginatingRule15sp2
     /**
      * @ElementName criteria
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:43485
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:47744
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -25,7 +25,7 @@ class CommunicationBarringOriginatingRule15sp2
     /**
      * @ElementName action
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringOriginatingAction15sp2
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:43485
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:47744
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringOriginatingAction15sp2|null
      */
     private $action = null;
@@ -35,7 +35,7 @@ class CommunicationBarringOriginatingRule15sp2
      * @Type string
      * @Nillable
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:43485
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:47744
      * @MinLength 1
      * @MaxLength 40
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -47,7 +47,7 @@ class CommunicationBarringOriginatingRule15sp2
      * @Type string
      * @Nillable
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:43485
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:47744
      * @MinLength 1
      * @MaxLength 30
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil

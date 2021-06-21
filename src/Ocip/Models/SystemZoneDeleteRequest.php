@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:18273","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:19665","type":"sequence"}]
  */
 class SystemZoneDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemZoneDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
     /**
      * @ElementName zoneName
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18273
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:19665
      * @MinLength 1
      * @MaxLength 80
      * @var string|null

@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:3385","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:4240","type":"sequence"}]
  */
 class GroupDeviceTypeCustomTagAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupDeviceTypeCustomTagAddRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:3385
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:4240
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +28,7 @@ class GroupDeviceTypeCustomTagAddRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:3385
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:4240
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -38,7 +38,7 @@ class GroupDeviceTypeCustomTagAddRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName deviceType
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:3385
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:4240
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -48,7 +48,7 @@ class GroupDeviceTypeCustomTagAddRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName tagName
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:3385
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:4240
      * @MinLength 1
      * @MaxLength 64
      * @var string|null
@@ -59,7 +59,7 @@ class GroupDeviceTypeCustomTagAddRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName tagValue
      * @Type string
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:3385
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:4240
      * @MinLength 1
      * @MaxLength 256
      * @var string|null

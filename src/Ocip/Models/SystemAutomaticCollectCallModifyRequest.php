@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"af1b47d7cab3335a81456e64e42371b0:77","type":"sequence"}]
+ * @Groups [{"id":"af1b47d7cab3335a81456e64e42371b0:78","type":"sequence"}]
  */
 class SystemAutomaticCollectCallModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class SystemAutomaticCollectCallModifyRequest extends \CWM\BroadWorksConnector\O
      * @ElementName enableAutomaticCollectCall
      * @Type bool
      * @Optional
-     * @Group af1b47d7cab3335a81456e64e42371b0:77
+     * @Group af1b47d7cab3335a81456e64e42371b0:78
      * @var bool|null
      */
     private $enableAutomaticCollectCall = null;
@@ -28,10 +28,19 @@ class SystemAutomaticCollectCallModifyRequest extends \CWM\BroadWorksConnector\O
      * @ElementName enableConnectTone
      * @Type bool
      * @Optional
-     * @Group af1b47d7cab3335a81456e64e42371b0:77
+     * @Group af1b47d7cab3335a81456e64e42371b0:78
      * @var bool|null
      */
     private $enableConnectTone = null;
+
+    /**
+     * @ElementName includeCountryCodeInCic
+     * @Type bool
+     * @Optional
+     * @Group af1b47d7cab3335a81456e64e42371b0:78
+     * @var bool|null
+     */
+    private $includeCountryCodeInCic = null;
 
     /**
      * Getter for enableAutomaticCollectCall
@@ -92,6 +101,37 @@ class SystemAutomaticCollectCallModifyRequest extends \CWM\BroadWorksConnector\O
     public function unsetEnableConnectTone()
     {
         $this->enableConnectTone = null;
+        return $this;
+    }
+
+    /**
+     * Getter for includeCountryCodeInCic
+     *
+     * @return bool
+     */
+    public function getIncludeCountryCodeInCic()
+    {
+        return $this->includeCountryCodeInCic instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->includeCountryCodeInCic;
+    }
+
+    /**
+     * Setter for includeCountryCodeInCic
+     *
+     * @param bool $includeCountryCodeInCic
+     * @return $this
+     */
+    public function setIncludeCountryCodeInCic($includeCountryCodeInCic)
+    {
+        $this->includeCountryCodeInCic = $includeCountryCodeInCic;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetIncludeCountryCodeInCic()
+    {
+        $this->includeCountryCodeInCic = null;
         return $this;
     }
 

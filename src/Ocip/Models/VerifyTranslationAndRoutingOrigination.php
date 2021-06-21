@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Verification Translation and Routing origination
  *         value.
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:4576","type":"choice"}]
+ * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:5285","type":"choice"}]
  */
 class VerifyTranslationAndRoutingOrigination
 {
@@ -16,7 +16,7 @@ class VerifyTranslationAndRoutingOrigination
     /**
      * @ElementName linePort
      * @Type string
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4576
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:5285
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -26,7 +26,7 @@ class VerifyTranslationAndRoutingOrigination
     /**
      * @ElementName phone
      * @Type string
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4576
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:5285
      * @MinLength 1
      * @MaxLength 23
      * @var string|null
@@ -36,7 +36,7 @@ class VerifyTranslationAndRoutingOrigination
     /**
      * @ElementName userId
      * @Type string
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4576
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:5285
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -46,7 +46,7 @@ class VerifyTranslationAndRoutingOrigination
     /**
      * @ElementName url
      * @Type string
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4576
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:5285
      * @MinLength 1
      * @MaxLength 256
      * @var string|null

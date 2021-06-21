@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "Phone Number", "Extension", "Department", "Email Address", "Agent Threshold Profile";
  *
  * @see EnterpriseCallCenterAgentThresholdProfileGetAvailableAgentPagedSortedListRequest
- * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:525","type":"sequence"}]
+ * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:536","type":"sequence"}]
  */
 class EnterpriseCallCenterAgentThresholdProfileGetAvailableAgentPagedSortedListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,7 +19,7 @@ class EnterpriseCallCenterAgentThresholdProfileGetAvailableAgentPagedSortedListR
     /**
      * @ElementName agentTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group e2c537e3e39483b96620673a7012ffdd:525
+     * @Group e2c537e3e39483b96620673a7012ffdd:536
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $agentTable = null;

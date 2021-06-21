@@ -6,13 +6,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupAccessDeviceGetRequest14sp6
  *
  * Requests the configuration of a specified group access device.
- *                 The response is either GroupAccessDeviceGetResponse14sp6 or ErrorResponse.
- *                 Replaced by: GroupAccessDeviceGetRequest16
+ *         The response is either GroupAccessDeviceGetResponse14sp6 or ErrorResponse.
+ *         Replaced by: GroupAccessDeviceGetRequest16
  *
  * @see GroupAccessDeviceGetResponse14sp6
  * @see ErrorResponse
  * @see GroupAccessDeviceGetRequest16
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:8086","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:3145","type":"sequence"}]
  */
 class GroupAccessDeviceGetRequest14sp6 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class GroupAccessDeviceGetRequest14sp6 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:8086
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:3145
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -30,7 +30,7 @@ class GroupAccessDeviceGetRequest14sp6 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName groupId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:8086
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:3145
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -40,7 +40,7 @@ class GroupAccessDeviceGetRequest14sp6 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName deviceName
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:8086
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:3145
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

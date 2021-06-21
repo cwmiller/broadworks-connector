@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ServiceProviderPortalPasscodeRulesGetRequest
  *
  * Requests the service provider's passcode rules setting.
- *                 The response is either ServiceProviderPortalPasscodeRulesGetResponse or ErrorResponse.
+ *         The response is either ServiceProviderPortalPasscodeRulesGetResponse or ErrorResponse.
  *
  * @see ServiceProviderPortalPasscodeRulesGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:25800","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:19066","type":"sequence"}]
  */
 class ServiceProviderPortalPasscodeRulesGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class ServiceProviderPortalPasscodeRulesGetRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:25800
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:19066
      * @MinLength 1
      * @MaxLength 30
      * @var string|null

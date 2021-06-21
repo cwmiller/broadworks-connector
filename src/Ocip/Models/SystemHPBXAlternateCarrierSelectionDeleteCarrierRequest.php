@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:10257","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:11298","type":"sequence"}]
  */
 class SystemHPBXAlternateCarrierSelectionDeleteCarrierRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemHPBXAlternateCarrierSelectionDeleteCarrierRequest extends \CWM\Broad
     /**
      * @ElementName name
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10257
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11298
      * @MinLength 1
      * @MaxLength 80
      * @var string|null

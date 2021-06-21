@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Criteria for searching for device network address.
  *
- * @Groups [{"id":"f0ada2681ca347fa83b464734259b304:450","type":"sequence"}]
+ * @Groups [{"id":"f0ada2681ca347fa83b464734259b304:509","type":"sequence"}]
  */
 class SearchCriteriaDeviceNetAddress extends SearchCriteria
 {
@@ -15,7 +15,7 @@ class SearchCriteriaDeviceNetAddress extends SearchCriteria
     /**
      * @ElementName mode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchMode
-     * @Group f0ada2681ca347fa83b464734259b304:450
+     * @Group f0ada2681ca347fa83b464734259b304:509
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchMode|null
      */
     private $mode = null;
@@ -23,7 +23,7 @@ class SearchCriteriaDeviceNetAddress extends SearchCriteria
     /**
      * @ElementName value
      * @Type string
-     * @Group f0ada2681ca347fa83b464734259b304:450
+     * @Group f0ada2681ca347fa83b464734259b304:509
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -33,7 +33,7 @@ class SearchCriteriaDeviceNetAddress extends SearchCriteria
     /**
      * @ElementName isCaseInsensitive
      * @Type bool
-     * @Group f0ada2681ca347fa83b464734259b304:450
+     * @Group f0ada2681ca347fa83b464734259b304:509
      * @var bool|null
      */
     private $isCaseInsensitive = null;

@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response contains the group department administrators profile information.
  *
  * @see GroupDepartmentAdminGetRequest
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:3046","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:3842","type":"sequence"}]
  */
 class GroupDepartmentAdminGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class GroupDepartmentAdminGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName departmentKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentKey
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:3046
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:3842
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentKey|null
      */
     private $departmentKey = null;
@@ -25,7 +25,7 @@ class GroupDepartmentAdminGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName departmentFullPath
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:3046
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:3842
      * @MinLength 1
      * @MaxLength 50
      * @var string|null
@@ -36,7 +36,7 @@ class GroupDepartmentAdminGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName firstName
      * @Type string
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:3046
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:3842
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -47,7 +47,7 @@ class GroupDepartmentAdminGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName lastName
      * @Type string
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:3046
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:3842
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -57,7 +57,7 @@ class GroupDepartmentAdminGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName language
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:3046
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:3842
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

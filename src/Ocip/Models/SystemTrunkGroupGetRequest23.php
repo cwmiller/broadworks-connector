@@ -7,10 +7,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Request the system level data associated with the Trunk Group service. 
  *         The response is either SystemTrunkGroupGetResponse23 or ErrorResponse.
+ *         
+ *         Replaced by: SystemTrunkGroupGetRequest24
  *
  * @see SystemTrunkGroupGetResponse23
  * @see ErrorResponse
- * @Groups [{"id":"b9c14e2d80e4e7749688ca13ba233b44:1643","type":"sequence"}]
+ * @see SystemTrunkGroupGetRequest24
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:35834","type":"sequence"}]
  */
 class SystemTrunkGroupGetRequest23 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

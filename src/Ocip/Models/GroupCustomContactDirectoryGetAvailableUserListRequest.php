@@ -6,13 +6,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupCustomContactDirectoryGetAvailableUserListRequest
  *
  * Get a list of users that can be part of a custom contact directory.
- *                 The response is either GroupCustomContactDirectoryGetAvailableUserListResponse or ErrorResponse.
- *                 Replace by: GroupCustomContactDirectoryGetAvailableUserListRequest17
+ *         The response is either GroupCustomContactDirectoryGetAvailableUserListResponse or ErrorResponse.
+ *         Replace by: GroupCustomContactDirectoryGetAvailableUserListRequest17
  *
  * @see GroupCustomContactDirectoryGetAvailableUserListResponse
  * @see ErrorResponse
  * @see GroupCustomContactDirectoryGetAvailableUserListRequest17
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:13420","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:8875","type":"sequence"}]
  */
 class GroupCustomContactDirectoryGetAvailableUserListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class GroupCustomContactDirectoryGetAvailableUserListRequest extends \CWM\BroadW
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:13420
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:8875
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -30,7 +30,7 @@ class GroupCustomContactDirectoryGetAvailableUserListRequest extends \CWM\BroadW
     /**
      * @ElementName groupId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:13420
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:8875
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -41,7 +41,7 @@ class GroupCustomContactDirectoryGetAvailableUserListRequest extends \CWM\BroadW
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:13420
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:8875
      * @MinInclusive 1
      * @var int|null
      */
@@ -52,7 +52,7 @@ class GroupCustomContactDirectoryGetAvailableUserListRequest extends \CWM\BroadW
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName
      * @Array
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:13420
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:8875
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[]
      */
     private $searchCriteriaUserLastName = array(
@@ -64,7 +64,7 @@ class GroupCustomContactDirectoryGetAvailableUserListRequest extends \CWM\BroadW
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName
      * @Array
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:13420
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:8875
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName[]
      */
     private $searchCriteriaUserFirstName = array(
@@ -75,7 +75,7 @@ class GroupCustomContactDirectoryGetAvailableUserListRequest extends \CWM\BroadW
      * @ElementName searchCriteriaExactUserDepartment
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:13420
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:8875
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment|null
      */
     private $searchCriteriaExactUserDepartment = null;
@@ -84,7 +84,7 @@ class GroupCustomContactDirectoryGetAvailableUserListRequest extends \CWM\BroadW
      * @ElementName searchCriteriaExactUserGroup
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserGroup
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:13420
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:8875
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserGroup|null
      */
     private $searchCriteriaExactUserGroup = null;

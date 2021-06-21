@@ -7,10 +7,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Request to get all the information of a flexible seating host instance.
  *         The response is either GroupFlexibleSeatingHostGetInstanceResponse or ErrorResponse.
+ *         
+ *         Replaced by: GroupFlexibleSeatingHostGetInstanceRequest22.
  *
  * @see GroupFlexibleSeatingHostGetInstanceResponse
  * @see ErrorResponse
- * @Groups [{"id":"43afb2158d313a1d1a148124d7caba1e:204","type":"sequence"}]
+ * @see GroupFlexibleSeatingHostGetInstanceRequest22
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:9891","type":"sequence"}]
  */
 class GroupFlexibleSeatingHostGetInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +21,7 @@ class GroupFlexibleSeatingHostGetInstanceRequest extends \CWM\BroadWorksConnecto
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group 43afb2158d313a1d1a148124d7caba1e:204
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:9891
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

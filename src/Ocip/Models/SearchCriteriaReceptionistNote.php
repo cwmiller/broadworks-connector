@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Criteria for searching for Receptionist Notes.
  *
- * @Groups [{"id":"f0ada2681ca347fa83b464734259b304:1816","type":"sequence"}]
+ * @Groups [{"id":"f0ada2681ca347fa83b464734259b304:1921","type":"sequence"}]
  */
 class SearchCriteriaReceptionistNote extends SearchCriteria
 {
@@ -15,7 +15,7 @@ class SearchCriteriaReceptionistNote extends SearchCriteria
     /**
      * @ElementName mode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchMode
-     * @Group f0ada2681ca347fa83b464734259b304:1816
+     * @Group f0ada2681ca347fa83b464734259b304:1921
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchMode|null
      */
     private $mode = null;
@@ -23,7 +23,7 @@ class SearchCriteriaReceptionistNote extends SearchCriteria
     /**
      * @ElementName value
      * @Type string
-     * @Group f0ada2681ca347fa83b464734259b304:1816
+     * @Group f0ada2681ca347fa83b464734259b304:1921
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -33,7 +33,7 @@ class SearchCriteriaReceptionistNote extends SearchCriteria
     /**
      * @ElementName isCaseInsensitive
      * @Type bool
-     * @Group f0ada2681ca347fa83b464734259b304:1816
+     * @Group f0ada2681ca347fa83b464734259b304:1921
      * @var bool|null
      */
     private $isCaseInsensitive = null;

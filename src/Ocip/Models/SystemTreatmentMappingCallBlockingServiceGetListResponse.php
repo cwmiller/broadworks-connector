@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemTreatmentMappingCallBlockingServiceGetListRequest
  * @see SystemTreatmentMappingCallBlockingServiceGetListResponse19sp1
- * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:6671","type":"sequence"}]
+ * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:11933","type":"sequence"}]
  */
 class SystemTreatmentMappingCallBlockingServiceGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -20,7 +20,7 @@ class SystemTreatmentMappingCallBlockingServiceGetListResponse extends \CWM\Broa
     /**
      * @ElementName treatmentMappingTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group de4d76f01f337fe4694212ec9f771753:6671
+     * @Group de4d76f01f337fe4694212ec9f771753:11933
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $treatmentMappingTable = null;

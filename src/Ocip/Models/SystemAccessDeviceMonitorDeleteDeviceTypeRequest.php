@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:1154","type":"sequence","children":[{"id":"7f663d5135470c33ca64b0eed3c3aa0c:1155","type":"choice"}]}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:1584","type":"sequence","children":[{"id":"7f663d5135470c33ca64b0eed3c3aa0c:1585","type":"choice"}]}]
  */
 class SystemAccessDeviceMonitorDeleteDeviceTypeRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemAccessDeviceMonitorDeleteDeviceTypeRequest extends \CWM\BroadWorksCo
     /**
      * @ElementName deleteAllDeviceTypes
      * @Type bool
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1155
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1585
      * @var bool|null
      */
     private $deleteAllDeviceTypes = null;
@@ -26,7 +26,7 @@ class SystemAccessDeviceMonitorDeleteDeviceTypeRequest extends \CWM\BroadWorksCo
     /**
      * @ElementName deviceType
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1155
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1585
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

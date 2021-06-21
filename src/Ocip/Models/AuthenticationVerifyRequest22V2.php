@@ -12,12 +12,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The password used for the lineport is the user's password associated with userId.
  *           
  *         The response is a AuthenticationVerifyResponse22V2 or an ErrorResponse
+ *         Replaced by AuthenticationVerifyRequest22V3
  *
  * @see AuthenticationVerifyRequest22V2
  * @see ExternalAuthenticationAuthorizeTokenRequest
  * @see AuthenticationVerifyResponse22V2
  * @see ErrorResponse
- * @Groups [{"id":"6b27fcc79475236456fc113a42b75543:60","type":"choice","children":[{"id":"6b27fcc79475236456fc113a42b75543:61","type":"sequence"},{"id":"6b27fcc79475236456fc113a42b75543:65","type":"sequence"},{"id":"6b27fcc79475236456fc113a42b75543:69","type":"sequence"},{"id":"6b27fcc79475236456fc113a42b75543:73","type":"sequence"},{"id":"6b27fcc79475236456fc113a42b75543:76","type":"sequence"}]}]
+ * @see AuthenticationVerifyRequest22V3
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:1150","type":"choice","children":[{"id":"ab0042aa512abc10edb3c55e4b416b0b:1151","type":"sequence"},{"id":"ab0042aa512abc10edb3c55e4b416b0b:1155","type":"sequence"},{"id":"ab0042aa512abc10edb3c55e4b416b0b:1159","type":"sequence"},{"id":"ab0042aa512abc10edb3c55e4b416b0b:1163","type":"sequence"},{"id":"ab0042aa512abc10edb3c55e4b416b0b:1166","type":"sequence"}]}]
  */
 class AuthenticationVerifyRequest22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -25,7 +27,7 @@ class AuthenticationVerifyRequest22V2 extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName userId
      * @Type string
-     * @Group 6b27fcc79475236456fc113a42b75543:76
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:1166
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -35,7 +37,7 @@ class AuthenticationVerifyRequest22V2 extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName password
      * @Type string
-     * @Group 6b27fcc79475236456fc113a42b75543:69
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:1159
      * @MinLength 1
      * @MaxLength 60
      * @var string|null
@@ -45,7 +47,7 @@ class AuthenticationVerifyRequest22V2 extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName phoneNumber
      * @Type string
-     * @Group 6b27fcc79475236456fc113a42b75543:65
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:1155
      * @MinLength 1
      * @MaxLength 23
      * @var string|null
@@ -55,7 +57,7 @@ class AuthenticationVerifyRequest22V2 extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName passcode
      * @Type string
-     * @Group 6b27fcc79475236456fc113a42b75543:65
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:1155
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -65,7 +67,7 @@ class AuthenticationVerifyRequest22V2 extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName linePort
      * @Type string
-     * @Group 6b27fcc79475236456fc113a42b75543:69
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:1159
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -75,7 +77,7 @@ class AuthenticationVerifyRequest22V2 extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName loginToken
      * @Type string
-     * @Group 6b27fcc79475236456fc113a42b75543:73
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:1163
      * @MinLength 1
      * @var string|null
      */
@@ -84,7 +86,7 @@ class AuthenticationVerifyRequest22V2 extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName sipAuthenticationUserName
      * @Type string
-     * @Group 6b27fcc79475236456fc113a42b75543:76
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:1166
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -94,7 +96,7 @@ class AuthenticationVerifyRequest22V2 extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName sipAuthenticationPassword
      * @Type string
-     * @Group 6b27fcc79475236456fc113a42b75543:76
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:1166
      * @MinLength 1
      * @MaxLength 60
      * @var string|null

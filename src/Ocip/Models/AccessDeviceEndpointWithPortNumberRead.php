@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Access device end point.
  * 		Port numbers are only used by devices with static line ordering.
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:89","type":"sequence"}]
+ * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:140","type":"sequence"}]
  */
 class AccessDeviceEndpointWithPortNumberRead
 {
@@ -16,7 +16,7 @@ class AccessDeviceEndpointWithPortNumberRead
     /**
      * @ElementName accessDevice
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDevice
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:89
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:140
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDevice|null
      */
     private $accessDevice = null;
@@ -24,7 +24,7 @@ class AccessDeviceEndpointWithPortNumberRead
     /**
      * @ElementName linePort
      * @Type string
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:89
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:140
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -35,7 +35,7 @@ class AccessDeviceEndpointWithPortNumberRead
      * @ElementName contact
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:89
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:140
      * @MinLength 1
      * @MaxLength 1020
      * @var string|null
@@ -45,7 +45,7 @@ class AccessDeviceEndpointWithPortNumberRead
     /**
      * @ElementName staticRegistrationCapable
      * @Type bool
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:89
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:140
      * @var bool|null
      */
     private $staticRegistrationCapable = null;
@@ -53,7 +53,7 @@ class AccessDeviceEndpointWithPortNumberRead
     /**
      * @ElementName useDomain
      * @Type bool
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:89
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:140
      * @var bool|null
      */
     private $useDomain = null;
@@ -62,7 +62,7 @@ class AccessDeviceEndpointWithPortNumberRead
      * @ElementName portNumber
      * @Type int
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:89
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:140
      * @MinInclusive 1
      * @MaxInclusive 1024
      * @var int|null

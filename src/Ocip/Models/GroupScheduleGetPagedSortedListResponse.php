@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         and a row for each schedule.
  *
  * @see GroupScheduleGetPagedSortedListRequest
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:6566","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:7584","type":"sequence"}]
  */
 class GroupScheduleGetPagedSortedListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class GroupScheduleGetPagedSortedListResponse extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName scheduleTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6566
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:7584
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $scheduleTable = null;

@@ -6,13 +6,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemZoneCallingRestrictionsZoneDeleteRequest
  *
  * Deletes a zone from the system
- *                 The response is either a SuccessResponse or an ErrorResponse.
- *                 Replaced by: SystemZoneDeleteRequest
+ *         The response is either a SuccessResponse or an ErrorResponse.
+ *         Replaced by: SystemZoneDeleteRequest
  *
  * @see SuccessResponse
  * @see ErrorResponse
  * @see SystemZoneDeleteRequest
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:16697","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:39226","type":"sequence"}]
  */
 class SystemZoneCallingRestrictionsZoneDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class SystemZoneCallingRestrictionsZoneDeleteRequest extends \CWM\BroadWorksConn
     /**
      * @ElementName zoneName
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:16697
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:39226
      * @MinLength 1
      * @MaxLength 80
      * @var string|null

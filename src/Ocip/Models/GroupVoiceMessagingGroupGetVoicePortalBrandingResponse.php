@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupVoiceMessagingGroupGetVoicePortalBrandingResponse
  *
  * Response to the GroupVoiceMessagingGroupGetVoicePortalBrandingRequest.
- *                 Replaced By: GroupVoiceMessagingGroupGetVoicePortalBrandingResponse16
+ *         Replaced By: GroupVoiceMessagingGroupGetVoicePortalBrandingResponse16
  *
  * @see GroupVoiceMessagingGroupGetVoicePortalBrandingRequest
  * @see GroupVoiceMessagingGroupGetVoicePortalBrandingResponse16
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:9434","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:16181","type":"sequence"}]
  */
 class GroupVoiceMessagingGroupGetVoicePortalBrandingResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class GroupVoiceMessagingGroupGetVoicePortalBrandingResponse extends \CWM\BroadW
     /**
      * @ElementName voicePortalGreetingSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingBrandingSelection
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:9434
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:16181
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingBrandingSelection|null
      */
     private $voicePortalGreetingSelection = null;
@@ -27,7 +27,7 @@ class GroupVoiceMessagingGroupGetVoicePortalBrandingResponse extends \CWM\BroadW
      * @ElementName voicePortalGreetingFileDescription
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:9434
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:16181
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -37,7 +37,7 @@ class GroupVoiceMessagingGroupGetVoicePortalBrandingResponse extends \CWM\BroadW
     /**
      * @ElementName voiceMessagingGreetingSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingBrandingSelection
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:9434
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:16181
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingBrandingSelection|null
      */
     private $voiceMessagingGreetingSelection = null;
@@ -46,7 +46,7 @@ class GroupVoiceMessagingGroupGetVoicePortalBrandingResponse extends \CWM\BroadW
      * @ElementName voiceMessagingGreetingFileDescription
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:9434
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:16181
      * @MinLength 1
      * @MaxLength 256
      * @var string|null

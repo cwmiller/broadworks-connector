@@ -16,10 +16,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           forceAgentUnavailableOnBouncedCallLimit
  *           numberConsecutiveBouncedCallsToForceAgentUnavailable
  *           forceAgentUnavailableOnNotReachable
+ *           wrapUpDestination
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:5311","type":"sequence"}]
+ * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:5272","type":"sequence"}]
  */
 class GroupCallCenterModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -27,7 +28,7 @@ class GroupCallCenterModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group e2c537e3e39483b96620673a7012ffdd:5311
+     * @Group e2c537e3e39483b96620673a7012ffdd:5272
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -37,7 +38,7 @@ class GroupCallCenterModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName groupId
      * @Type string
-     * @Group e2c537e3e39483b96620673a7012ffdd:5311
+     * @Group e2c537e3e39483b96620673a7012ffdd:5272
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -48,7 +49,7 @@ class GroupCallCenterModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @ElementName useSystemDefaultGuardTimer
      * @Type bool
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:5311
+     * @Group e2c537e3e39483b96620673a7012ffdd:5272
      * @var bool|null
      */
     private $useSystemDefaultGuardTimer = null;
@@ -57,7 +58,7 @@ class GroupCallCenterModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @ElementName enableGuardTimer
      * @Type bool
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:5311
+     * @Group e2c537e3e39483b96620673a7012ffdd:5272
      * @var bool|null
      */
     private $enableGuardTimer = null;
@@ -66,7 +67,7 @@ class GroupCallCenterModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @ElementName guardTimerSeconds
      * @Type int
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:5311
+     * @Group e2c537e3e39483b96620673a7012ffdd:5272
      * @MinInclusive 1
      * @MaxInclusive 25
      * @var int|null
@@ -77,7 +78,7 @@ class GroupCallCenterModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @ElementName useSystemDefaultUnavailableSettings
      * @Type bool
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:5311
+     * @Group e2c537e3e39483b96620673a7012ffdd:5272
      * @var bool|null
      */
     private $useSystemDefaultUnavailableSettings = null;
@@ -86,7 +87,7 @@ class GroupCallCenterModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @ElementName forceAgentUnavailableOnDNDActivation
      * @Type bool
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:5311
+     * @Group e2c537e3e39483b96620673a7012ffdd:5272
      * @var bool|null
      */
     private $forceAgentUnavailableOnDNDActivation = null;
@@ -95,7 +96,7 @@ class GroupCallCenterModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @ElementName forceAgentUnavailableOnPersonalCalls
      * @Type bool
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:5311
+     * @Group e2c537e3e39483b96620673a7012ffdd:5272
      * @var bool|null
      */
     private $forceAgentUnavailableOnPersonalCalls = null;
@@ -104,7 +105,7 @@ class GroupCallCenterModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @ElementName forceAgentUnavailableOnBouncedCallLimit
      * @Type bool
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:5311
+     * @Group e2c537e3e39483b96620673a7012ffdd:5272
      * @var bool|null
      */
     private $forceAgentUnavailableOnBouncedCallLimit = null;
@@ -113,7 +114,7 @@ class GroupCallCenterModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @ElementName numberConsecutiveBouncedCallsToForceAgentUnavailable
      * @Type int
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:5311
+     * @Group e2c537e3e39483b96620673a7012ffdd:5272
      * @MinInclusive 1
      * @MaxInclusive 5
      * @var int|null
@@ -124,10 +125,22 @@ class GroupCallCenterModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @ElementName forceAgentUnavailableOnNotReachable
      * @Type bool
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:5311
+     * @Group e2c537e3e39483b96620673a7012ffdd:5272
      * @var bool|null
      */
     private $forceAgentUnavailableOnNotReachable = null;
+
+    /**
+     * @ElementName wrapUpDestination
+     * @Type string
+     * @Nillable
+     * @Optional
+     * @Group e2c537e3e39483b96620673a7012ffdd:5272
+     * @MinLength 1
+     * @MaxLength 161
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     */
+    private $wrapUpDestination = null;
 
     /**
      * Getter for serviceProviderId
@@ -467,6 +480,41 @@ class GroupCallCenterModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
     public function unsetForceAgentUnavailableOnNotReachable()
     {
         $this->forceAgentUnavailableOnNotReachable = null;
+        return $this;
+    }
+
+    /**
+     * Getter for wrapUpDestination
+     *
+     * @return string|null
+     */
+    public function getWrapUpDestination()
+    {
+        return $this->wrapUpDestination instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->wrapUpDestination;
+    }
+
+    /**
+     * Setter for wrapUpDestination
+     *
+     * @param string|null $wrapUpDestination
+     * @return $this
+     */
+    public function setWrapUpDestination($wrapUpDestination = null)
+    {
+        if ($wrapUpDestination === null) {
+            $this->wrapUpDestination = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->wrapUpDestination = $wrapUpDestination;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetWrapUpDestination()
+    {
+        $this->wrapUpDestination = null;
         return $this;
     }
 

@@ -9,10 +9,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either SuccessResponse or ErrorResponse.
  *         The following elements are only used in AS data mode:
  *           syncTrunkGroups
+ *           syncConnectionTimeoutSeconds
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:11744","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:12826","type":"sequence"}]
  */
 class SystemNetworkServerSyncParametersModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,7 +22,7 @@ class SystemNetworkServerSyncParametersModifyRequest extends \CWM\BroadWorksConn
      * @ElementName enableSync
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11744
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12826
      * @var bool|null
      */
     private $enableSync = null;
@@ -30,7 +31,7 @@ class SystemNetworkServerSyncParametersModifyRequest extends \CWM\BroadWorksConn
      * @ElementName syncLinePorts
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11744
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12826
      * @var bool|null
      */
     private $syncLinePorts = null;
@@ -39,7 +40,7 @@ class SystemNetworkServerSyncParametersModifyRequest extends \CWM\BroadWorksConn
      * @ElementName syncDeviceManagementInfo
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11744
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12826
      * @var bool|null
      */
     private $syncDeviceManagementInfo = null;
@@ -48,10 +49,30 @@ class SystemNetworkServerSyncParametersModifyRequest extends \CWM\BroadWorksConn
      * @ElementName syncTrunkGroups
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11744
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12826
      * @var bool|null
      */
     private $syncTrunkGroups = null;
+
+    /**
+     * @ElementName syncConnectionTimeoutSeconds
+     * @Type int
+     * @Optional
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12826
+     * @MinInclusive 1
+     * @MaxInclusive 30
+     * @var int|null
+     */
+    private $syncConnectionTimeoutSeconds = null;
+
+    /**
+     * @ElementName syncEnterpriseNumbers
+     * @Type bool
+     * @Optional
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12826
+     * @var bool|null
+     */
+    private $syncEnterpriseNumbers = null;
 
     /**
      * Getter for enableSync
@@ -174,6 +195,68 @@ class SystemNetworkServerSyncParametersModifyRequest extends \CWM\BroadWorksConn
     public function unsetSyncTrunkGroups()
     {
         $this->syncTrunkGroups = null;
+        return $this;
+    }
+
+    /**
+     * Getter for syncConnectionTimeoutSeconds
+     *
+     * @return int
+     */
+    public function getSyncConnectionTimeoutSeconds()
+    {
+        return $this->syncConnectionTimeoutSeconds instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->syncConnectionTimeoutSeconds;
+    }
+
+    /**
+     * Setter for syncConnectionTimeoutSeconds
+     *
+     * @param int $syncConnectionTimeoutSeconds
+     * @return $this
+     */
+    public function setSyncConnectionTimeoutSeconds($syncConnectionTimeoutSeconds)
+    {
+        $this->syncConnectionTimeoutSeconds = $syncConnectionTimeoutSeconds;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetSyncConnectionTimeoutSeconds()
+    {
+        $this->syncConnectionTimeoutSeconds = null;
+        return $this;
+    }
+
+    /**
+     * Getter for syncEnterpriseNumbers
+     *
+     * @return bool
+     */
+    public function getSyncEnterpriseNumbers()
+    {
+        return $this->syncEnterpriseNumbers instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->syncEnterpriseNumbers;
+    }
+
+    /**
+     * Setter for syncEnterpriseNumbers
+     *
+     * @param bool $syncEnterpriseNumbers
+     * @return $this
+     */
+    public function setSyncEnterpriseNumbers($syncEnterpriseNumbers)
+    {
+        $this->syncEnterpriseNumbers = $syncEnterpriseNumbers;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetSyncEnterpriseNumbers()
+    {
+        $this->syncEnterpriseNumbers = null;
         return $this;
     }
 

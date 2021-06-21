@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupAccessDeviceFileGetResponse14sp8
  *
  * Response to GroupAccessDeviceFileGetRequest14sp8.
- *                 Replaced by: GroupAccessDeviceFileGetResponse16sp1
+ *         Replaced by: GroupAccessDeviceFileGetResponse16sp1
  *
  * @see GroupAccessDeviceFileGetRequest14sp8
  * @see GroupAccessDeviceFileGetResponse16sp1
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:12369","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:2935","type":"sequence"}]
  */
 class GroupAccessDeviceFileGetResponse14sp8 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class GroupAccessDeviceFileGetResponse14sp8 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName fileSource
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationMode
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:12369
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:2935
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationMode|null
      */
     private $fileSource = null;
@@ -27,7 +27,7 @@ class GroupAccessDeviceFileGetResponse14sp8 extends \CWM\BroadWorksConnector\Oci
      * @ElementName configurationFileName
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:12369
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:2935
      * @MinLength 1
      * @MaxLength 256
      * @var string|null

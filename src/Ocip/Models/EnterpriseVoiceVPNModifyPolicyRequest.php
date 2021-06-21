@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"5395c7df0157d44aa22f3351d1a5f3da:1534","type":"sequence","children":[{"id":"5395c7df0157d44aa22f3351d1a5f3da:1542","type":"choice"}]}]
+ * @Groups [{"id":"5395c7df0157d44aa22f3351d1a5f3da:1535","type":"sequence","children":[{"id":"5395c7df0157d44aa22f3351d1a5f3da:1543","type":"choice"}]}]
  */
 class EnterpriseVoiceVPNModifyPolicyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class EnterpriseVoiceVPNModifyPolicyRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1534
+     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1535
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +28,7 @@ class EnterpriseVoiceVPNModifyPolicyRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName locationDialingCode
      * @Type string
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1534
+     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1535
      * @MinLength 1
      * @MaxLength 22
      * @var string|null
@@ -39,7 +39,7 @@ class EnterpriseVoiceVPNModifyPolicyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName minExtensionLength
      * @Type int
      * @Optional
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1534
+     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1535
      * @MinInclusive 0
      * @MaxInclusive 100
      * @var int|null
@@ -50,7 +50,7 @@ class EnterpriseVoiceVPNModifyPolicyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName maxExtensionLength
      * @Type int
      * @Optional
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1534
+     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1535
      * @MinInclusive 0
      * @MaxInclusive 100
      * @var int|null
@@ -62,7 +62,7 @@ class EnterpriseVoiceVPNModifyPolicyRequest extends \CWM\BroadWorksConnector\Oci
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1534
+     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1535
      * @MinLength 1
      * @MaxLength 40
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -73,7 +73,7 @@ class EnterpriseVoiceVPNModifyPolicyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName routeGroupId
      * @Type string
      * @Optional
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1534
+     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1535
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -84,7 +84,7 @@ class EnterpriseVoiceVPNModifyPolicyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName policySelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNPolicySelection
      * @Optional
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1534
+     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1535
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNPolicySelection|null
      */
     private $policySelection = null;
@@ -95,7 +95,7 @@ class EnterpriseVoiceVPNModifyPolicyRequest extends \CWM\BroadWorksConnector\Oci
      * @Array
      * @Abstract \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNDigitManipulationNoValue,\CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNDigitManipulationOptionalValue,\CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNDigitManipulationRequiredValue
      * @Optional
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1542
+     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1543
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNDigitManipulation[]
      */
     private $digitManipulation = array(
@@ -106,7 +106,7 @@ class EnterpriseVoiceVPNModifyPolicyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName treatmentId
      * @Type string
      * @Optional
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1542
+     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1543
      * @MinLength 1
      * @MaxLength 30
      * @var string|null

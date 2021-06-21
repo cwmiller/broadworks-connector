@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see ServiceProviderOfficeZoneGetAssignedGroupListResponse
  * @see ErrorResponse
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:4376","type":"sequence"}]
+ * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:5196","type":"sequence"}]
  */
 class ServiceProviderOfficeZoneGetAssignedGroupListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class ServiceProviderOfficeZoneGetAssignedGroupListRequest extends \CWM\BroadWor
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4376
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5196
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -29,7 +29,7 @@ class ServiceProviderOfficeZoneGetAssignedGroupListRequest extends \CWM\BroadWor
     /**
      * @ElementName officeZoneName
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4376
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5196
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -40,7 +40,7 @@ class ServiceProviderOfficeZoneGetAssignedGroupListRequest extends \CWM\BroadWor
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4376
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5196
      * @MinInclusive 1
      * @var int|null
      */
@@ -51,7 +51,7 @@ class ServiceProviderOfficeZoneGetAssignedGroupListRequest extends \CWM\BroadWor
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId
      * @Array
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4376
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5196
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId[]
      */
     private $searchCriteriaGroupId = array(
@@ -63,7 +63,7 @@ class ServiceProviderOfficeZoneGetAssignedGroupListRequest extends \CWM\BroadWor
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupName
      * @Array
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4376
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5196
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupName[]
      */
     private $searchCriteriaGroupName = array(

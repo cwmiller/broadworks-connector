@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Outgoing Calling Plan initiating call forwards/transfer permissions.
  *
- * @Groups [{"id":"6f793dfca9bd3d121bb35e0f9cf1cb2e:2159","type":"sequence"}]
+ * @Groups [{"id":"6f793dfca9bd3d121bb35e0f9cf1cb2e:2160","type":"sequence"}]
  */
 class OutgoingCallingPlanRedirectingPermissions
 {
@@ -15,7 +15,7 @@ class OutgoingCallingPlanRedirectingPermissions
     /**
      * @ElementName group
      * @Type bool
-     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:2159
+     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:2160
      * @var bool|null
      */
     private $group = null;
@@ -23,7 +23,7 @@ class OutgoingCallingPlanRedirectingPermissions
     /**
      * @ElementName local
      * @Type bool
-     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:2159
+     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:2160
      * @var bool|null
      */
     private $local = null;
@@ -31,7 +31,7 @@ class OutgoingCallingPlanRedirectingPermissions
     /**
      * @ElementName tollFree
      * @Type bool
-     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:2159
+     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:2160
      * @var bool|null
      */
     private $tollFree = null;
@@ -39,7 +39,7 @@ class OutgoingCallingPlanRedirectingPermissions
     /**
      * @ElementName toll
      * @Type bool
-     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:2159
+     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:2160
      * @var bool|null
      */
     private $toll = null;
@@ -47,7 +47,7 @@ class OutgoingCallingPlanRedirectingPermissions
     /**
      * @ElementName international
      * @Type bool
-     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:2159
+     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:2160
      * @var bool|null
      */
     private $international = null;
@@ -55,7 +55,7 @@ class OutgoingCallingPlanRedirectingPermissions
     /**
      * @ElementName operatorAssisted
      * @Type bool
-     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:2159
+     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:2160
      * @var bool|null
      */
     private $operatorAssisted = null;
@@ -63,7 +63,7 @@ class OutgoingCallingPlanRedirectingPermissions
     /**
      * @ElementName chargeableDirectoryAssisted
      * @Type bool
-     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:2159
+     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:2160
      * @var bool|null
      */
     private $chargeableDirectoryAssisted = null;
@@ -71,7 +71,7 @@ class OutgoingCallingPlanRedirectingPermissions
     /**
      * @ElementName specialServicesI
      * @Type bool
-     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:2159
+     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:2160
      * @var bool|null
      */
     private $specialServicesI = null;
@@ -79,7 +79,7 @@ class OutgoingCallingPlanRedirectingPermissions
     /**
      * @ElementName specialServicesII
      * @Type bool
-     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:2159
+     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:2160
      * @var bool|null
      */
     private $specialServicesII = null;
@@ -87,7 +87,7 @@ class OutgoingCallingPlanRedirectingPermissions
     /**
      * @ElementName premiumServicesI
      * @Type bool
-     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:2159
+     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:2160
      * @var bool|null
      */
     private $premiumServicesI = null;
@@ -95,7 +95,7 @@ class OutgoingCallingPlanRedirectingPermissions
     /**
      * @ElementName premiumServicesII
      * @Type bool
-     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:2159
+     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:2160
      * @var bool|null
      */
     private $premiumServicesII = null;
@@ -103,7 +103,7 @@ class OutgoingCallingPlanRedirectingPermissions
     /**
      * @ElementName casual
      * @Type bool
-     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:2159
+     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:2160
      * @var bool|null
      */
     private $casual = null;
@@ -111,7 +111,7 @@ class OutgoingCallingPlanRedirectingPermissions
     /**
      * @ElementName urlDialing
      * @Type bool
-     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:2159
+     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:2160
      * @var bool|null
      */
     private $urlDialing = null;
@@ -119,7 +119,7 @@ class OutgoingCallingPlanRedirectingPermissions
     /**
      * @ElementName unknown
      * @Type bool
-     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:2159
+     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:2160
      * @var bool|null
      */
     private $unknown = null;

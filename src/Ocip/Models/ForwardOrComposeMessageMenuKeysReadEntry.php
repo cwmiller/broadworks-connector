@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * The voice portal forward or compose message menu keys.
  *
- * @Groups [{"id":"3347d430e0d5c93a9ff8dcf0e3b60d6c:2678","type":"sequence"}]
+ * @Groups [{"id":"3347d430e0d5c93a9ff8dcf0e3b60d6c:2606","type":"sequence"}]
  */
 class ForwardOrComposeMessageMenuKeysReadEntry
 {
@@ -16,7 +16,7 @@ class ForwardOrComposeMessageMenuKeysReadEntry
      * @ElementName sendToPerson
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2678
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2606
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -27,7 +27,7 @@ class ForwardOrComposeMessageMenuKeysReadEntry
      * @ElementName sendToAllGroupMembers
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2678
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2606
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -38,7 +38,7 @@ class ForwardOrComposeMessageMenuKeysReadEntry
      * @ElementName sendToDistributionList
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2678
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2606
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -49,7 +49,7 @@ class ForwardOrComposeMessageMenuKeysReadEntry
      * @ElementName changeCurrentIntroductionOrMessage
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2678
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2606
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -60,7 +60,7 @@ class ForwardOrComposeMessageMenuKeysReadEntry
      * @ElementName listenToCurrentIntroductionOrMessage
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2678
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2606
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -71,7 +71,7 @@ class ForwardOrComposeMessageMenuKeysReadEntry
      * @ElementName setOrClearUrgentIndicator
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2678
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2606
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -82,7 +82,7 @@ class ForwardOrComposeMessageMenuKeysReadEntry
      * @ElementName setOrClearConfidentialIndicator
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2678
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2606
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -92,7 +92,7 @@ class ForwardOrComposeMessageMenuKeysReadEntry
     /**
      * @ElementName returnToPreviousMenu
      * @Type string
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2678
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2606
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -103,7 +103,7 @@ class ForwardOrComposeMessageMenuKeysReadEntry
      * @ElementName repeatMenu
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2678
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2606
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null

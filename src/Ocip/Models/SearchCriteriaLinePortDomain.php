@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Criteria for searching for device line/port, or SIPURI domain part.
  *
- * @Groups [{"id":"f0ada2681ca347fa83b464734259b304:1520","type":"sequence"}]
+ * @Groups [{"id":"f0ada2681ca347fa83b464734259b304:1625","type":"sequence"}]
  */
 class SearchCriteriaLinePortDomain extends SearchCriteria
 {
@@ -15,7 +15,7 @@ class SearchCriteriaLinePortDomain extends SearchCriteria
     /**
      * @ElementName mode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchMode
-     * @Group f0ada2681ca347fa83b464734259b304:1520
+     * @Group f0ada2681ca347fa83b464734259b304:1625
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchMode|null
      */
     private $mode = null;
@@ -23,7 +23,7 @@ class SearchCriteriaLinePortDomain extends SearchCriteria
     /**
      * @ElementName value
      * @Type string
-     * @Group f0ada2681ca347fa83b464734259b304:1520
+     * @Group f0ada2681ca347fa83b464734259b304:1625
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -33,7 +33,7 @@ class SearchCriteriaLinePortDomain extends SearchCriteria
     /**
      * @ElementName isCaseInsensitive
      * @Type bool
-     * @Group f0ada2681ca347fa83b464734259b304:1520
+     * @Group f0ada2681ca347fa83b464734259b304:1625
      * @var bool|null
      */
     private $isCaseInsensitive = null;

@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupEnhancedCallLogsSchemaInstanceModifyRequest
  *
  * Modify the Enhanced Call Logs schema instance associated with a group of a service provider.
- *         The response is either a SuccessResponse or an ErrorResponse.
+ *       The response is either a SuccessResponse or an ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f6b3702edb5f67fa12c2c426d98657db:78","type":"sequence"}]
+ * @Groups [{"id":"f6b3702edb5f67fa12c2c426d98657db:85","type":"sequence"}]
  */
 class GroupEnhancedCallLogsSchemaInstanceModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupEnhancedCallLogsSchemaInstanceModifyRequest extends \CWM\BroadWorksCo
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f6b3702edb5f67fa12c2c426d98657db:78
+     * @Group f6b3702edb5f67fa12c2c426d98657db:85
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +28,7 @@ class GroupEnhancedCallLogsSchemaInstanceModifyRequest extends \CWM\BroadWorksCo
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f6b3702edb5f67fa12c2c426d98657db:78
+     * @Group f6b3702edb5f67fa12c2c426d98657db:85
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -40,7 +40,7 @@ class GroupEnhancedCallLogsSchemaInstanceModifyRequest extends \CWM\BroadWorksCo
      * @Type string
      * @Nillable
      * @Optional
-     * @Group f6b3702edb5f67fa12c2c426d98657db:78
+     * @Group f6b3702edb5f67fa12c2c426d98657db:85
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil

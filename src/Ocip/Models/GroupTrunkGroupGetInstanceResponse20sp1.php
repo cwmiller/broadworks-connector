@@ -6,16 +6,16 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupTrunkGroupGetInstanceResponse20sp1
  *
  * Response to GroupTrunkGroupGetInstanceRequest20sp1.
- *                 Returns the profile information for the Trunk Group.
- *                 Contains a hosted user table with column headings: "User Id", "Last Name",
- *                 "First Name", "Hiragana Last Name", "Hiragana First Name", "Phone Number",
- *                 "Extension", "Department", "Email Address".
- *
- *                 Replaced by: GroupTrunkGroupGetInstanceResponse21
+ *         Returns the profile information for the Trunk Group.
+ *         Contains a hosted user table with column headings: "User Id", "Last Name",
+ *         "First Name", "Hiragana Last Name", "Hiragana First Name", "Phone Number", 
+ *         "Extension", "Department", "Email Address".
+ *         
+ *         Replaced by: GroupTrunkGroupGetInstanceResponse21
  *
  * @see GroupTrunkGroupGetInstanceRequest20sp1
  * @see GroupTrunkGroupGetInstanceResponse21
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:33711","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:15316","type":"sequence"}]
  */
 class GroupTrunkGroupGetInstanceResponse20sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -24,7 +24,7 @@ class GroupTrunkGroupGetInstanceResponse20sp1 extends \CWM\BroadWorksConnector\O
      * @ElementName pilotUserId
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:33711
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:15316
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -36,7 +36,7 @@ class GroupTrunkGroupGetInstanceResponse20sp1 extends \CWM\BroadWorksConnector\O
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey
      * @Abstract \CWM\BroadWorksConnector\Ocip\Models\EnterpriseDepartmentKey,\CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentKey
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:33711
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:15316
      * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null
      */
     private $department = null;
@@ -45,7 +45,7 @@ class GroupTrunkGroupGetInstanceResponse20sp1 extends \CWM\BroadWorksConnector\O
      * @ElementName accessDevice
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDevice
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:33711
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:15316
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDevice|null
      */
     private $accessDevice = null;
@@ -53,7 +53,7 @@ class GroupTrunkGroupGetInstanceResponse20sp1 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName maxActiveCalls
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:33711
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:15316
      * @MinInclusive 1
      * @var int|null
      */
@@ -63,7 +63,7 @@ class GroupTrunkGroupGetInstanceResponse20sp1 extends \CWM\BroadWorksConnector\O
      * @ElementName maxIncomingCalls
      * @Type int
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:33711
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:15316
      * @MinInclusive 0
      * @MaxInclusive 999999
      * @var int|null
@@ -74,7 +74,7 @@ class GroupTrunkGroupGetInstanceResponse20sp1 extends \CWM\BroadWorksConnector\O
      * @ElementName maxOutgoingCalls
      * @Type int
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:33711
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:15316
      * @MinInclusive 0
      * @MaxInclusive 999999
      * @var int|null
@@ -84,7 +84,7 @@ class GroupTrunkGroupGetInstanceResponse20sp1 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName enableBursting
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:33711
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:15316
      * @var bool|null
      */
     private $enableBursting = null;
@@ -93,7 +93,7 @@ class GroupTrunkGroupGetInstanceResponse20sp1 extends \CWM\BroadWorksConnector\O
      * @ElementName burstingMaxActiveCalls
      * @Type int
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:33711
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:15316
      * @MinInclusive 0
      * @MaxInclusive 999999
      * @var int|null
@@ -104,7 +104,7 @@ class GroupTrunkGroupGetInstanceResponse20sp1 extends \CWM\BroadWorksConnector\O
      * @ElementName burstingMaxIncomingCalls
      * @Type int
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:33711
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:15316
      * @MinInclusive 0
      * @MaxInclusive 999999
      * @var int|null
@@ -115,7 +115,7 @@ class GroupTrunkGroupGetInstanceResponse20sp1 extends \CWM\BroadWorksConnector\O
      * @ElementName burstingMaxOutgoingCalls
      * @Type int
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:33711
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:15316
      * @MinInclusive 0
      * @MaxInclusive 999999
      * @var int|null
@@ -126,7 +126,7 @@ class GroupTrunkGroupGetInstanceResponse20sp1 extends \CWM\BroadWorksConnector\O
      * @ElementName capacityExceededAction
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupCapacityExceededAction
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:33711
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:15316
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupCapacityExceededAction|null
      */
     private $capacityExceededAction = null;
@@ -135,7 +135,7 @@ class GroupTrunkGroupGetInstanceResponse20sp1 extends \CWM\BroadWorksConnector\O
      * @ElementName capacityExceededForwardAddress
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:33711
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:15316
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -146,7 +146,7 @@ class GroupTrunkGroupGetInstanceResponse20sp1 extends \CWM\BroadWorksConnector\O
      * @ElementName capacityExceededRerouteTrunkGroupKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:33711
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:15316
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey|null
      */
     private $capacityExceededRerouteTrunkGroupKey = null;
@@ -154,7 +154,7 @@ class GroupTrunkGroupGetInstanceResponse20sp1 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName capacityExceededTrapInitialCalls
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:33711
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:15316
      * @MinInclusive 0
      * @var int|null
      */
@@ -163,7 +163,7 @@ class GroupTrunkGroupGetInstanceResponse20sp1 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName capacityExceededTrapOffsetCalls
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:33711
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:15316
      * @MinInclusive 0
      * @var int|null
      */
@@ -173,7 +173,7 @@ class GroupTrunkGroupGetInstanceResponse20sp1 extends \CWM\BroadWorksConnector\O
      * @ElementName unreachableDestinationAction
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupUnreachableDestinationAction
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:33711
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:15316
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupUnreachableDestinationAction|null
      */
     private $unreachableDestinationAction = null;
@@ -182,7 +182,7 @@ class GroupTrunkGroupGetInstanceResponse20sp1 extends \CWM\BroadWorksConnector\O
      * @ElementName unreachableDestinationForwardAddress
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:33711
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:15316
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -193,7 +193,7 @@ class GroupTrunkGroupGetInstanceResponse20sp1 extends \CWM\BroadWorksConnector\O
      * @ElementName unreachableDestinationRerouteTrunkGroupKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:33711
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:15316
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey|null
      */
     private $unreachableDestinationRerouteTrunkGroupKey = null;
@@ -201,7 +201,7 @@ class GroupTrunkGroupGetInstanceResponse20sp1 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName invitationTimeout
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:33711
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:15316
      * @MinInclusive 1
      * @MaxInclusive 255
      * @var int|null
@@ -211,7 +211,7 @@ class GroupTrunkGroupGetInstanceResponse20sp1 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName requireAuthentication
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:33711
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:15316
      * @var bool|null
      */
     private $requireAuthentication = null;
@@ -220,7 +220,7 @@ class GroupTrunkGroupGetInstanceResponse20sp1 extends \CWM\BroadWorksConnector\O
      * @ElementName sipAuthenticationUserName
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:33711
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:15316
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -231,7 +231,7 @@ class GroupTrunkGroupGetInstanceResponse20sp1 extends \CWM\BroadWorksConnector\O
      * @ElementName hostedUserTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:33711
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:15316
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $hostedUserTable = null;
@@ -240,7 +240,7 @@ class GroupTrunkGroupGetInstanceResponse20sp1 extends \CWM\BroadWorksConnector\O
      * @ElementName trunkGroupIdentity
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:33711
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:15316
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -251,7 +251,7 @@ class GroupTrunkGroupGetInstanceResponse20sp1 extends \CWM\BroadWorksConnector\O
      * @ElementName otgDtgIdentity
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:33711
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:15316
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -261,7 +261,7 @@ class GroupTrunkGroupGetInstanceResponse20sp1 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName allowTerminationToTrunkGroupIdentity
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:33711
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:15316
      * @var bool|null
      */
     private $allowTerminationToTrunkGroupIdentity = null;
@@ -269,7 +269,7 @@ class GroupTrunkGroupGetInstanceResponse20sp1 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName allowTerminationToDtgIdentity
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:33711
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:15316
      * @var bool|null
      */
     private $allowTerminationToDtgIdentity = null;
@@ -277,7 +277,7 @@ class GroupTrunkGroupGetInstanceResponse20sp1 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName includeTrunkGroupIdentity
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:33711
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:15316
      * @var bool|null
      */
     private $includeTrunkGroupIdentity = null;
@@ -285,7 +285,7 @@ class GroupTrunkGroupGetInstanceResponse20sp1 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName includeDtgIdentity
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:33711
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:15316
      * @var bool|null
      */
     private $includeDtgIdentity = null;
@@ -293,7 +293,7 @@ class GroupTrunkGroupGetInstanceResponse20sp1 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName includeTrunkGroupIdentityForNetworkCalls
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:33711
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:15316
      * @var bool|null
      */
     private $includeTrunkGroupIdentityForNetworkCalls = null;
@@ -301,7 +301,7 @@ class GroupTrunkGroupGetInstanceResponse20sp1 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName includeOtgIdentityForNetworkCalls
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:33711
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:15316
      * @var bool|null
      */
     private $includeOtgIdentityForNetworkCalls = null;
@@ -309,7 +309,7 @@ class GroupTrunkGroupGetInstanceResponse20sp1 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName enableNetworkAddressIdentity
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:33711
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:15316
      * @var bool|null
      */
     private $enableNetworkAddressIdentity = null;
@@ -317,7 +317,7 @@ class GroupTrunkGroupGetInstanceResponse20sp1 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName allowUnscreenedCalls
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:33711
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:15316
      * @var bool|null
      */
     private $allowUnscreenedCalls = null;
@@ -325,7 +325,7 @@ class GroupTrunkGroupGetInstanceResponse20sp1 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName allowUnscreenedEmergencyCalls
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:33711
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:15316
      * @var bool|null
      */
     private $allowUnscreenedEmergencyCalls = null;
@@ -333,7 +333,7 @@ class GroupTrunkGroupGetInstanceResponse20sp1 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName pilotUserCallingLineIdentityForExternalCallsPolicy
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupPilotUserCallingLineIdentityUsagePolicy
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:33711
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:15316
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupPilotUserCallingLineIdentityUsagePolicy|null
      */
     private $pilotUserCallingLineIdentityForExternalCallsPolicy = null;
@@ -341,7 +341,7 @@ class GroupTrunkGroupGetInstanceResponse20sp1 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName pilotUserChargeNumberPolicy
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupPilotUserChargeNumberUsagePolicy
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:33711
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:15316
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupPilotUserChargeNumberUsagePolicy|null
      */
     private $pilotUserChargeNumberPolicy = null;
@@ -350,7 +350,7 @@ class GroupTrunkGroupGetInstanceResponse20sp1 extends \CWM\BroadWorksConnector\O
      * @ElementName callForwardingAlwaysAction
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupCallForwardingAlwaysAction
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:33711
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:15316
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupCallForwardingAlwaysAction|null
      */
     private $callForwardingAlwaysAction = null;
@@ -359,7 +359,7 @@ class GroupTrunkGroupGetInstanceResponse20sp1 extends \CWM\BroadWorksConnector\O
      * @ElementName callForwardingAlwaysForwardAddress
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:33711
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:15316
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -370,7 +370,7 @@ class GroupTrunkGroupGetInstanceResponse20sp1 extends \CWM\BroadWorksConnector\O
      * @ElementName callForwardingAlwaysRerouteTrunkGroupKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:33711
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:15316
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey|null
      */
     private $callForwardingAlwaysRerouteTrunkGroupKey = null;
@@ -379,7 +379,7 @@ class GroupTrunkGroupGetInstanceResponse20sp1 extends \CWM\BroadWorksConnector\O
      * @ElementName peeringDomain
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:33711
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:15316
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -389,7 +389,7 @@ class GroupTrunkGroupGetInstanceResponse20sp1 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName routeToPeeringDomain
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:33711
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:15316
      * @var bool|null
      */
     private $routeToPeeringDomain = null;
@@ -397,7 +397,7 @@ class GroupTrunkGroupGetInstanceResponse20sp1 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName prefixEnabled
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:33711
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:15316
      * @var bool|null
      */
     private $prefixEnabled = null;
@@ -406,7 +406,7 @@ class GroupTrunkGroupGetInstanceResponse20sp1 extends \CWM\BroadWorksConnector\O
      * @ElementName prefix
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:33711
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:15316
      * @MinLength 1
      * @MaxLength 15
      * @var string|null
@@ -416,7 +416,7 @@ class GroupTrunkGroupGetInstanceResponse20sp1 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName statefulReroutingEnabled
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:33711
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:15316
      * @var bool|null
      */
     private $statefulReroutingEnabled = null;
@@ -424,7 +424,7 @@ class GroupTrunkGroupGetInstanceResponse20sp1 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName sendContinuousOptionsMessage
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:33711
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:15316
      * @var bool|null
      */
     private $sendContinuousOptionsMessage = null;
@@ -432,7 +432,7 @@ class GroupTrunkGroupGetInstanceResponse20sp1 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName continuousOptionsSendingIntervalSeconds
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:33711
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:15316
      * @MinInclusive 30
      * @MaxInclusive 86400
      * @var int|null
@@ -442,7 +442,7 @@ class GroupTrunkGroupGetInstanceResponse20sp1 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName failureOptionsSendingIntervalSeconds
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:33711
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:15316
      * @MinInclusive 10
      * @MaxInclusive 86400
      * @var int|null
@@ -452,7 +452,7 @@ class GroupTrunkGroupGetInstanceResponse20sp1 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName failureThresholdCounter
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:33711
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:15316
      * @MinInclusive 1
      * @MaxInclusive 60
      * @var int|null
@@ -462,7 +462,7 @@ class GroupTrunkGroupGetInstanceResponse20sp1 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName successThresholdCounter
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:33711
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:15316
      * @MinInclusive 1
      * @MaxInclusive 60
      * @var int|null
@@ -472,7 +472,7 @@ class GroupTrunkGroupGetInstanceResponse20sp1 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName inviteFailureThresholdCounter
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:33711
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:15316
      * @MinInclusive 1
      * @MaxInclusive 60
      * @var int|null
@@ -482,7 +482,7 @@ class GroupTrunkGroupGetInstanceResponse20sp1 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName inviteFailureThresholdWindowSeconds
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:33711
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:15316
      * @MinInclusive 30
      * @MaxInclusive 240
      * @var int|null
@@ -492,7 +492,7 @@ class GroupTrunkGroupGetInstanceResponse20sp1 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName trunkGroupState
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupState
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:33711
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:15316
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupState|null
      */
     private $trunkGroupState = null;
@@ -500,7 +500,7 @@ class GroupTrunkGroupGetInstanceResponse20sp1 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName pilotUserCallingLineAssertedIdentityPolicy
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupPilotUserCallingLineAssertedIdentityUsagePolicy
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:33711
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:15316
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupPilotUserCallingLineAssertedIdentityUsagePolicy|null
      */
     private $pilotUserCallingLineAssertedIdentityPolicy = null;
@@ -508,7 +508,7 @@ class GroupTrunkGroupGetInstanceResponse20sp1 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName useSystemCallingLineAssertedIdentityPolicy
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:33711
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:15316
      * @var bool|null
      */
     private $useSystemCallingLineAssertedIdentityPolicy = null;
@@ -516,7 +516,7 @@ class GroupTrunkGroupGetInstanceResponse20sp1 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName totalActiveIncomingCalls
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:33711
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:15316
      * @var int|null
      */
     private $totalActiveIncomingCalls = null;
@@ -524,7 +524,7 @@ class GroupTrunkGroupGetInstanceResponse20sp1 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName totalActiveOutgoingCalls
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:33711
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:15316
      * @var int|null
      */
     private $totalActiveOutgoingCalls = null;
@@ -532,7 +532,7 @@ class GroupTrunkGroupGetInstanceResponse20sp1 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName pilotUserCallOptimizationPolicy
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupPilotUserCallOptimizationPolicy
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:33711
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:15316
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupPilotUserCallOptimizationPolicy|null
      */
     private $pilotUserCallOptimizationPolicy = null;
@@ -540,7 +540,7 @@ class GroupTrunkGroupGetInstanceResponse20sp1 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName clidSourceForScreenedCallsPolicy
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupCLIDSourceForScreenedCallsPolicy
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:33711
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:15316
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupCLIDSourceForScreenedCallsPolicy|null
      */
     private $clidSourceForScreenedCallsPolicy = null;
@@ -548,7 +548,7 @@ class GroupTrunkGroupGetInstanceResponse20sp1 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName useSystemCLIDSourceForScreenedCallsPolicy
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:33711
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:15316
      * @var bool|null
      */
     private $useSystemCLIDSourceForScreenedCallsPolicy = null;
@@ -556,7 +556,7 @@ class GroupTrunkGroupGetInstanceResponse20sp1 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName userLookupPolicy
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupUserLookupPolicy
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:33711
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:15316
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupUserLookupPolicy|null
      */
     private $userLookupPolicy = null;
@@ -564,7 +564,7 @@ class GroupTrunkGroupGetInstanceResponse20sp1 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName useSystemUserLookupPolicy
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:33711
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:15316
      * @var bool|null
      */
     private $useSystemUserLookupPolicy = null;
@@ -572,7 +572,7 @@ class GroupTrunkGroupGetInstanceResponse20sp1 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName pilotUserCallingLineIdentityForEmergencyCallsPolicy
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupPilotUserCallingLineIdentityUsagePolicy
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:33711
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:15316
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupPilotUserCallingLineIdentityUsagePolicy|null
      */
     private $pilotUserCallingLineIdentityForEmergencyCallsPolicy = null;

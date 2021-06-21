@@ -14,7 +14,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Attendants:
  *           submenuId
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:669","type":"sequence"}]
+ * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:783","type":"sequence"}]
  */
 class AutoAttendantKeyConfigurationModifyEntry20
 {
@@ -24,7 +24,7 @@ class AutoAttendantKeyConfigurationModifyEntry20
      * @Type string
      * @Nillable
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:669
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:783
      * @MinLength 1
      * @MaxLength 20
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -34,7 +34,7 @@ class AutoAttendantKeyConfigurationModifyEntry20
     /**
      * @ElementName action
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantKeyAction
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:669
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:783
      * @var \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantKeyAction|null
      */
     private $action = null;
@@ -44,7 +44,7 @@ class AutoAttendantKeyConfigurationModifyEntry20
      * @Type string
      * @Nillable
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:669
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:783
      * @MinLength 1
      * @MaxLength 30
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -56,7 +56,7 @@ class AutoAttendantKeyConfigurationModifyEntry20
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey
      * @Nillable
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:669
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:783
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $audioFile = null;
@@ -66,7 +66,7 @@ class AutoAttendantKeyConfigurationModifyEntry20
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey
      * @Nillable
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:669
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:783
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $videoFile = null;
@@ -76,7 +76,7 @@ class AutoAttendantKeyConfigurationModifyEntry20
      * @Type string
      * @Nillable
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:669
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:783
      * @MinLength 1
      * @MaxLength 40
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil

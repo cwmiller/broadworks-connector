@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The following element is only used in AS data mode and ignored in XS data mode:
  *           pathHeader
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:123","type":"sequence"}]
+ * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:159","type":"sequence"}]
  */
 class AccessDeviceEndpointWithPortNumberRead22
 {
@@ -18,7 +18,7 @@ class AccessDeviceEndpointWithPortNumberRead22
     /**
      * @ElementName accessDevice
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDevice
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:123
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:159
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDevice|null
      */
     private $accessDevice = null;
@@ -26,7 +26,7 @@ class AccessDeviceEndpointWithPortNumberRead22
     /**
      * @ElementName linePort
      * @Type string
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:123
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:159
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -37,7 +37,7 @@ class AccessDeviceEndpointWithPortNumberRead22
      * @ElementName contact
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:123
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:159
      * @MinLength 1
      * @MaxLength 1020
      * @var string|null
@@ -48,7 +48,7 @@ class AccessDeviceEndpointWithPortNumberRead22
      * @ElementName pathHeader
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:123
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:159
      * @MinLength 1
      * @MaxLength 1024
      * @var string|null
@@ -58,7 +58,7 @@ class AccessDeviceEndpointWithPortNumberRead22
     /**
      * @ElementName staticRegistrationCapable
      * @Type bool
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:123
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:159
      * @var bool|null
      */
     private $staticRegistrationCapable = null;
@@ -66,7 +66,7 @@ class AccessDeviceEndpointWithPortNumberRead22
     /**
      * @ElementName useDomain
      * @Type bool
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:123
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:159
      * @var bool|null
      */
     private $useDomain = null;
@@ -75,7 +75,7 @@ class AccessDeviceEndpointWithPortNumberRead22
      * @ElementName portNumber
      * @Type int
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:123
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:159
      * @MinInclusive 1
      * @MaxInclusive 1024
      * @var int|null

@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupServiceIsAssignedResponse
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:6843","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:7861","type":"sequence"}]
  */
 class GroupServiceIsAssignedRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupServiceIsAssignedRequest extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6843
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:7861
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +28,7 @@ class GroupServiceIsAssignedRequest extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6843
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:7861
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -38,7 +38,7 @@ class GroupServiceIsAssignedRequest extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName serviceName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupService
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6843
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:7861
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupService|null
      */
     private $serviceName = null;

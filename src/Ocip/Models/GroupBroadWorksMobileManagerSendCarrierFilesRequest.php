@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:2005","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:2510","type":"sequence"}]
  */
 class GroupBroadWorksMobileManagerSendCarrierFilesRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupBroadWorksMobileManagerSendCarrierFilesRequest extends \CWM\BroadWork
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:2005
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:2510
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +28,7 @@ class GroupBroadWorksMobileManagerSendCarrierFilesRequest extends \CWM\BroadWork
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:2005
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:2510
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -38,7 +38,7 @@ class GroupBroadWorksMobileManagerSendCarrierFilesRequest extends \CWM\BroadWork
     /**
      * @ElementName emailTo
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:2005
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:2510
      * @MinLength 1
      * @MaxLength 80
      * @var string|null

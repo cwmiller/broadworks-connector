@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the TutorialFlagGetRequest.
  *
  * @see TutorialFlagGetRequest
- * @Groups [{"id":"6b27fcc79475236456fc113a42b75543:615","type":"sequence"}]
+ * @Groups [{"id":"6b27fcc79475236456fc113a42b75543:552","type":"sequence"}]
  */
 class TutorialFlagGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class TutorialFlagGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
     /**
      * @ElementName enableTutorial
      * @Type bool
-     * @Group 6b27fcc79475236456fc113a42b75543:615
+     * @Group 6b27fcc79475236456fc113a42b75543:552
      * @var bool|null
      */
     private $enableTutorial = null;

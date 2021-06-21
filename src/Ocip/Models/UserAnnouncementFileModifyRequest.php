@@ -9,11 +9,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         an existing announcement in the user repository.
  *         When modifying the file type the command will fail if the media type of the new file changes 
  *         the announcement from audio to video (or vice versa).
+ *
+ *         The following elements are only used in AS data mode and ignored in XS data mode:
+ *           announcementFileExternalId
+ *
  *         The response is either a SuccessResponse or an ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:706","type":"sequence"}]
+ * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:767","type":"sequence","children":[{"id":"53d18cc797d03d802cbc411ad821f1d4:768","type":"choice","children":[{"id":"53d18cc797d03d802cbc411ad821f1d4:769","type":"sequence"}]}]}]
  */
 class UserAnnouncementFileModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,7 +25,7 @@ class UserAnnouncementFileModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName userId
      * @Type string
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:706
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:769
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -31,16 +35,25 @@ class UserAnnouncementFileModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName announcementFileKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:706
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:769
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey|null
      */
     private $announcementFileKey = null;
 
     /**
+     * @ElementName announcementFileExternalId
+     * @Type string
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:768
+     * @MaxLength 36
+     * @var string|null
+     */
+    private $announcementFileExternalId = null;
+
+    /**
      * @ElementName newAnnouncementFileName
      * @Type string
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:706
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:767
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -51,7 +64,7 @@ class UserAnnouncementFileModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName announcementFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:706
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:767
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null
      */
     private $announcementFile = null;
@@ -115,6 +128,37 @@ class UserAnnouncementFileModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     public function unsetAnnouncementFileKey()
     {
         $this->announcementFileKey = null;
+        return $this;
+    }
+
+    /**
+     * Getter for announcementFileExternalId
+     *
+     * @return string
+     */
+    public function getAnnouncementFileExternalId()
+    {
+        return $this->announcementFileExternalId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->announcementFileExternalId;
+    }
+
+    /**
+     * Setter for announcementFileExternalId
+     *
+     * @param string $announcementFileExternalId
+     * @return $this
+     */
+    public function setAnnouncementFileExternalId($announcementFileExternalId)
+    {
+        $this->announcementFileExternalId = $announcementFileExternalId;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAnnouncementFileExternalId()
+    {
+        $this->announcementFileExternalId = null;
         return $this;
     }
 

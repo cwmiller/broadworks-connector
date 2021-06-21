@@ -20,7 +20,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *       useCustomUserNamePassword and accessDeviceCredentials will be ignored if the access device already
  *       exists.
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:1264","type":"sequence"}]
+ * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:1352","type":"sequence"}]
  */
 class CombinedSharedCallAppearanceAccessDeviceMultipleIdentityEndpoint
 {
@@ -28,7 +28,7 @@ class CombinedSharedCallAppearanceAccessDeviceMultipleIdentityEndpoint
     /**
      * @ElementName accessDevice
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDevice
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1264
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:1352
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDevice|null
      */
     private $accessDevice = null;
@@ -36,7 +36,7 @@ class CombinedSharedCallAppearanceAccessDeviceMultipleIdentityEndpoint
     /**
      * @ElementName linePort
      * @Type string
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1264
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:1352
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -47,7 +47,7 @@ class CombinedSharedCallAppearanceAccessDeviceMultipleIdentityEndpoint
      * @ElementName privateIdentity
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1264
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:1352
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -58,7 +58,7 @@ class CombinedSharedCallAppearanceAccessDeviceMultipleIdentityEndpoint
      * @ElementName contact
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1264
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:1352
      * @MinLength 1
      * @MaxLength 1020
      * @var string|null
@@ -69,7 +69,7 @@ class CombinedSharedCallAppearanceAccessDeviceMultipleIdentityEndpoint
      * @ElementName portNumber
      * @Type int
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1264
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:1352
      * @MinInclusive 1
      * @MaxInclusive 1024
      * @var int|null
@@ -80,7 +80,7 @@ class CombinedSharedCallAppearanceAccessDeviceMultipleIdentityEndpoint
      * @ElementName isActive
      * @Type bool
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1264
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:1352
      * @var bool|null
      */
     private $isActive = null;
@@ -89,7 +89,7 @@ class CombinedSharedCallAppearanceAccessDeviceMultipleIdentityEndpoint
      * @ElementName allowOrigination
      * @Type bool
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1264
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:1352
      * @var bool|null
      */
     private $allowOrigination = null;
@@ -98,7 +98,7 @@ class CombinedSharedCallAppearanceAccessDeviceMultipleIdentityEndpoint
      * @ElementName allowTermination
      * @Type bool
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1264
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:1352
      * @var bool|null
      */
     private $allowTermination = null;
@@ -107,7 +107,7 @@ class CombinedSharedCallAppearanceAccessDeviceMultipleIdentityEndpoint
      * @ElementName allowVideo
      * @Type bool
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1264
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:1352
      * @var bool|null
      */
     private $allowVideo = null;
@@ -116,7 +116,7 @@ class CombinedSharedCallAppearanceAccessDeviceMultipleIdentityEndpoint
      * @ElementName deviceType
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1264
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:1352
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -127,7 +127,7 @@ class CombinedSharedCallAppearanceAccessDeviceMultipleIdentityEndpoint
      * @ElementName protocol
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1264
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:1352
      * @MinLength 1
      * @MaxLength 20
      * @var string|null
@@ -138,7 +138,7 @@ class CombinedSharedCallAppearanceAccessDeviceMultipleIdentityEndpoint
      * @ElementName netAddress
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1264
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:1352
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -149,7 +149,7 @@ class CombinedSharedCallAppearanceAccessDeviceMultipleIdentityEndpoint
      * @ElementName port
      * @Type int
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1264
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:1352
      * @MinInclusive 1025
      * @MaxInclusive 65535
      * @var int|null
@@ -160,7 +160,7 @@ class CombinedSharedCallAppearanceAccessDeviceMultipleIdentityEndpoint
      * @ElementName outboundProxyServerNetAddress
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1264
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:1352
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -171,7 +171,7 @@ class CombinedSharedCallAppearanceAccessDeviceMultipleIdentityEndpoint
      * @ElementName stunServerNetAddress
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1264
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:1352
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -182,7 +182,7 @@ class CombinedSharedCallAppearanceAccessDeviceMultipleIdentityEndpoint
      * @ElementName macAddress
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1264
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:1352
      * @MinLength 1
      * @MaxLength 12
      * @var string|null
@@ -193,7 +193,7 @@ class CombinedSharedCallAppearanceAccessDeviceMultipleIdentityEndpoint
      * @ElementName serialNumber
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1264
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:1352
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -204,7 +204,7 @@ class CombinedSharedCallAppearanceAccessDeviceMultipleIdentityEndpoint
      * @ElementName description
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1264
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:1352
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -215,7 +215,7 @@ class CombinedSharedCallAppearanceAccessDeviceMultipleIdentityEndpoint
      * @ElementName physicalLocation
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1264
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:1352
      * @MinLength 1
      * @MaxLength 1024
      * @var string|null
@@ -226,7 +226,7 @@ class CombinedSharedCallAppearanceAccessDeviceMultipleIdentityEndpoint
      * @ElementName transportProtocol
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1264
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:1352
      * @var \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol|null
      */
     private $transportProtocol = null;
@@ -235,7 +235,7 @@ class CombinedSharedCallAppearanceAccessDeviceMultipleIdentityEndpoint
      * @ElementName useCustomUserNamePassword
      * @Type bool
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1264
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:1352
      * @var bool|null
      */
     private $useCustomUserNamePassword = null;
@@ -244,7 +244,7 @@ class CombinedSharedCallAppearanceAccessDeviceMultipleIdentityEndpoint
      * @ElementName accessDeviceCredentials
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementUserNamePassword16
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1264
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:1352
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementUserNamePassword16|null
      */
     private $accessDeviceCredentials = null;

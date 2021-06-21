@@ -6,29 +6,25 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemGetRegistrationContactListRequest
  *
  * Get the list of registration contacts.
- *                 This request handles all levels of administration privileges. The content of the response will only
- *                 contain
- *                 items within the scope of the requester's login id. At the system level any of the choice parameters may
- *                 be
- *                 specified to filter the registrations listed. At the reseller level, the resellerId must be specified.
- *                 ResellerId is not valid at service provider, group or user level. At the service provider level the
- *                 serviceProviderId must be specified for the service provider and group options. When using the userId or
- *                 linePort options the specified value must be valid for that service provider login. At the group level
- *                 the servicProviderId and the groupId must be specified for the group option. When using the userId or
- *                 linePort
- *                 options the specified value must be valid for that group login.
- *                 The serviceProviderId option is not valid at the group level. At the user level when using the userId or
- *                 linePort options the specified value must be valid for that user login. The serviceProviderId and
- *                 groupId
- *                 options are not valid at the user level.
- *                 The response is either SystemGetRegistrationContactListResponse or ErrorResponse.
- *
- *                 The following elements are only used in AS data mode:
- *                 resellerId
+ *         This request handles all levels of administration privileges.  The content of the response will only contain 
+ *         items within the scope of the requester's login id.  At the system level any of the choice parameters may be 
+ *         specified to filter the registrations listed.  At the reseller level, the resellerId must be specified. 
+ *         ResellerId is not valid at service provider, group or user level. At the service provider level the 
+ *         serviceProviderId must be specified for the service provider and group options.  When using the userId or 
+ *         linePort options the specified value must be valid for that service provider login.  At the group level 
+ *         the servicProviderId and the groupId must be specified for the group option. When using the userId or linePort 
+ *         options the specified value must be valid for that group login.  
+ *         The serviceProviderId option is not valid at the group level.  At the user level when using the userId or 
+ *         linePort options the specified value must be valid for that user login.  The serviceProviderId and groupId 
+ *         options are not valid at the user level.
+ *         The response is either SystemGetRegistrationContactListResponse or ErrorResponse.
+ *         
+ *         The following elements are only used in AS data mode:
+ *           resellerId
  *
  * @see SystemGetRegistrationContactListResponse
  * @see ErrorResponse
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:38783","type":"sequence","children":[{"id":"ab0042aa512abc10edb3c55e4b416b0b:38784","type":"choice","optional":true,"children":[{"id":"ab0042aa512abc10edb3c55e4b416b0b:38787","type":"sequence"}]}]}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:27050","type":"sequence","children":[{"id":"ab0042aa512abc10edb3c55e4b416b0b:27051","type":"choice","optional":true,"children":[{"id":"ab0042aa512abc10edb3c55e4b416b0b:27054","type":"sequence"}]}]}]
  */
 class SystemGetRegistrationContactListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -36,7 +32,7 @@ class SystemGetRegistrationContactListRequest extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName resellerId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:38784
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:27051
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -46,7 +42,7 @@ class SystemGetRegistrationContactListRequest extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:38784
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:27051
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -56,7 +52,7 @@ class SystemGetRegistrationContactListRequest extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName svcProviderId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:38787
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:27054
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -66,7 +62,7 @@ class SystemGetRegistrationContactListRequest extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName groupId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:38787
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:27054
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -76,7 +72,7 @@ class SystemGetRegistrationContactListRequest extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName userId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:38784
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:27051
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -86,7 +82,7 @@ class SystemGetRegistrationContactListRequest extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName linePort
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:38784
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:27051
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -97,7 +93,7 @@ class SystemGetRegistrationContactListRequest extends \CWM\BroadWorksConnector\O
      * @ElementName deviceLevel
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceLevel
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:38783
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:27050
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceLevel|null
      */
     private $deviceLevel = null;
@@ -106,7 +102,7 @@ class SystemGetRegistrationContactListRequest extends \CWM\BroadWorksConnector\O
      * @ElementName deviceName
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:38783
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:27050
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -117,7 +113,7 @@ class SystemGetRegistrationContactListRequest extends \CWM\BroadWorksConnector\O
      * @ElementName deviceType
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:38783
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:27050
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -129,7 +125,7 @@ class SystemGetRegistrationContactListRequest extends \CWM\BroadWorksConnector\O
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaRegistrationURI
      * @Array
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:38783
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:27050
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaRegistrationURI[]
      */
     private $searchCriteriaRegistrationURI = array(
@@ -141,7 +137,7 @@ class SystemGetRegistrationContactListRequest extends \CWM\BroadWorksConnector\O
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaSIPContact
      * @Array
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:38783
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:27050
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaSIPContact[]
      */
     private $searchCriteriaSIPContact = array(
@@ -152,7 +148,7 @@ class SystemGetRegistrationContactListRequest extends \CWM\BroadWorksConnector\O
      * @ElementName endpointType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\RegistrationEndpointType
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:38783
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:27050
      * @var \CWM\BroadWorksConnector\Ocip\Models\RegistrationEndpointType|null
      */
     private $endpointType = null;
@@ -161,7 +157,7 @@ class SystemGetRegistrationContactListRequest extends \CWM\BroadWorksConnector\O
      * @ElementName expired
      * @Type bool
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:38783
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:27050
      * @var bool|null
      */
     private $expired = null;

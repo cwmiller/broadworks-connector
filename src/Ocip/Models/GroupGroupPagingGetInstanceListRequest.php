@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupGroupPagingGetInstanceListResponse
  * @see ErrorResponse
- * @Groups [{"id":"0d36df8c109e3ea7324f79031368c661:255","type":"sequence"}]
+ * @Groups [{"id":"0d36df8c109e3ea7324f79031368c661:260","type":"sequence"}]
  */
 class GroupGroupPagingGetInstanceListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class GroupGroupPagingGetInstanceListRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 0d36df8c109e3ea7324f79031368c661:255
+     * @Group 0d36df8c109e3ea7324f79031368c661:260
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -29,7 +29,7 @@ class GroupGroupPagingGetInstanceListRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 0d36df8c109e3ea7324f79031368c661:255
+     * @Group 0d36df8c109e3ea7324f79031368c661:260
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -40,7 +40,7 @@ class GroupGroupPagingGetInstanceListRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName groupDepartmentName
      * @Type string
      * @Optional
-     * @Group 0d36df8c109e3ea7324f79031368c661:255
+     * @Group 0d36df8c109e3ea7324f79031368c661:260
      * @MinLength 1
      * @MaxLength 50
      * @var string|null

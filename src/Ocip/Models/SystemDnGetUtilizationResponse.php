@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemDnGetUtilizationResponse
  *
  * Response to SystemDnGetUtilizationRequest.
- *                 Replaced By: SystemDnGetUtilizationResponse14sp3
+ *         Replaced By: SystemDnGetUtilizationResponse14sp3
  *
  * @see SystemDnGetUtilizationRequest
  * @see SystemDnGetUtilizationResponse14sp3
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:5135","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:26383","type":"sequence"}]
  */
 class SystemDnGetUtilizationResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class SystemDnGetUtilizationResponse extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:5135
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:26383
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -29,7 +29,7 @@ class SystemDnGetUtilizationResponse extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName groupId
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:5135
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:26383
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -40,7 +40,7 @@ class SystemDnGetUtilizationResponse extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName userId
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:5135
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:26383
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -51,7 +51,7 @@ class SystemDnGetUtilizationResponse extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName userType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UserType
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:5135
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:26383
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserType|null
      */
     private $userType = null;
@@ -59,7 +59,7 @@ class SystemDnGetUtilizationResponse extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName isGroupCallingLineId
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:5135
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:26383
      * @var bool|null
      */
     private $isGroupCallingLineId = null;

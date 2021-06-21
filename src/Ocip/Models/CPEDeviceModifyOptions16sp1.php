@@ -7,11 +7,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * CPE device's options when used with a modify request.
  *         The following options are not changeable:
- *         configType
- *         systemFileName
- *         deviceFileFormat
+ *           configType
+ *           systemFileName
+ *           deviceFileFormat
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:1657","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:47808","type":"sequence"}]
  */
 class CPEDeviceModifyOptions16sp1
 {
@@ -20,7 +20,7 @@ class CPEDeviceModifyOptions16sp1
      * @ElementName enableMonitoring
      * @Type bool
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1657
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:47808
      * @var bool|null
      */
     private $enableMonitoring = null;
@@ -29,7 +29,7 @@ class CPEDeviceModifyOptions16sp1
      * @ElementName deviceManagementDeviceTypeOptions
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementDeviceTypeModifyOptions16
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1657
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:47808
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementDeviceTypeModifyOptions16|null
      */
     private $deviceManagementDeviceTypeOptions = null;

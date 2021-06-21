@@ -6,9 +6,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ServiceProviderGroupPagingTargetsCapacityGetResponse
  *
  * Response to ServiceProviderGroupPagingTargetsCapacityGetRequest.
+ *         
+ *         Replaced by: ServiceProviderGroupPagingTargetsCapacityGetResponse22 in AS data mode.
  *
  * @see ServiceProviderGroupPagingTargetsCapacityGetRequest
- * @Groups [{"id":"0d36df8c109e3ea7324f79031368c661:534","type":"sequence"}]
+ * @see ServiceProviderGroupPagingTargetsCapacityGetResponse22
+ * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:5910","type":"sequence"}]
  */
 class ServiceProviderGroupPagingTargetsCapacityGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,9 +19,9 @@ class ServiceProviderGroupPagingTargetsCapacityGetResponse extends \CWM\BroadWor
     /**
      * @ElementName maximumTargetUsers
      * @Type int
-     * @Group 0d36df8c109e3ea7324f79031368c661:534
+     * @Group de4d76f01f337fe4694212ec9f771753:5910
      * @MinInclusive 1
-     * @MaxInclusive 294
+     * @MaxInclusive 149
      * @var int|null
      */
     private $maximumTargetUsers = null;

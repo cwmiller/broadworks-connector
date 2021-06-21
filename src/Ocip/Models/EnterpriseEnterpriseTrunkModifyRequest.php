@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"b9c14e2d80e4e7749688ca13ba233b44:418","type":"sequence","children":[{"id":"b9c14e2d80e4e7749688ca13ba233b44:425","type":"choice","optional":true}]}]
+ * @Groups [{"id":"b9c14e2d80e4e7749688ca13ba233b44:429","type":"sequence","children":[{"id":"b9c14e2d80e4e7749688ca13ba233b44:436","type":"choice","optional":true}]}]
  */
 class EnterpriseEnterpriseTrunkModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class EnterpriseEnterpriseTrunkModifyRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group b9c14e2d80e4e7749688ca13ba233b44:418
+     * @Group b9c14e2d80e4e7749688ca13ba233b44:429
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +28,7 @@ class EnterpriseEnterpriseTrunkModifyRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName enterpriseTrunkName
      * @Type string
-     * @Group b9c14e2d80e4e7749688ca13ba233b44:418
+     * @Group b9c14e2d80e4e7749688ca13ba233b44:429
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -39,7 +39,7 @@ class EnterpriseEnterpriseTrunkModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName newEnterpriseTrunkName
      * @Type string
      * @Optional
-     * @Group b9c14e2d80e4e7749688ca13ba233b44:418
+     * @Group b9c14e2d80e4e7749688ca13ba233b44:429
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -50,7 +50,7 @@ class EnterpriseEnterpriseTrunkModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName maximumRerouteAttempts
      * @Type int
      * @Optional
-     * @Group b9c14e2d80e4e7749688ca13ba233b44:418
+     * @Group b9c14e2d80e4e7749688ca13ba233b44:429
      * @MinInclusive 1
      * @MaxInclusive 10
      * @var int|null
@@ -61,7 +61,7 @@ class EnterpriseEnterpriseTrunkModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName routeExhaustionAction
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EnterpriseTrunkRouteExhaustionAction
      * @Optional
-     * @Group b9c14e2d80e4e7749688ca13ba233b44:418
+     * @Group b9c14e2d80e4e7749688ca13ba233b44:429
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseTrunkRouteExhaustionAction|null
      */
     private $routeExhaustionAction = null;
@@ -71,7 +71,7 @@ class EnterpriseEnterpriseTrunkModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @Type string
      * @Nillable
      * @Optional
-     * @Group b9c14e2d80e4e7749688ca13ba233b44:418
+     * @Group b9c14e2d80e4e7749688ca13ba233b44:429
      * @MinLength 1
      * @MaxLength 161
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -81,7 +81,7 @@ class EnterpriseEnterpriseTrunkModifyRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName orderedRouting
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EnterpriseEnterpriseTrunkModifyRequestOrderedRouting
-     * @Group b9c14e2d80e4e7749688ca13ba233b44:425
+     * @Group b9c14e2d80e4e7749688ca13ba233b44:436
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseEnterpriseTrunkModifyRequestOrderedRouting|null
      */
     private $orderedRouting = null;
@@ -89,7 +89,7 @@ class EnterpriseEnterpriseTrunkModifyRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName priorityWeightedRouting
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EnterpriseEnterpriseTrunkModifyRequestPriorityWeightedRouting
-     * @Group b9c14e2d80e4e7749688ca13ba233b44:425
+     * @Group b9c14e2d80e4e7749688ca13ba233b44:436
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseEnterpriseTrunkModifyRequestPriorityWeightedRouting|null
      */
     private $priorityWeightedRouting = null;
@@ -98,7 +98,7 @@ class EnterpriseEnterpriseTrunkModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName enableCapacityManagement
      * @Type bool
      * @Optional
-     * @Group b9c14e2d80e4e7749688ca13ba233b44:418
+     * @Group b9c14e2d80e4e7749688ca13ba233b44:429
      * @var bool|null
      */
     private $enableCapacityManagement = null;
@@ -108,7 +108,7 @@ class EnterpriseEnterpriseTrunkModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @Type int
      * @Nillable
      * @Optional
-     * @Group b9c14e2d80e4e7749688ca13ba233b44:418
+     * @Group b9c14e2d80e4e7749688ca13ba233b44:429
      * @MinInclusive 1
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -119,7 +119,7 @@ class EnterpriseEnterpriseTrunkModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @Type int
      * @Nillable
      * @Optional
-     * @Group b9c14e2d80e4e7749688ca13ba233b44:418
+     * @Group b9c14e2d80e4e7749688ca13ba233b44:429
      * @MinInclusive 0
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -130,11 +130,44 @@ class EnterpriseEnterpriseTrunkModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @Type int
      * @Nillable
      * @Optional
-     * @Group b9c14e2d80e4e7749688ca13ba233b44:418
+     * @Group b9c14e2d80e4e7749688ca13ba233b44:429
      * @MinInclusive 0
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $capacityExceededTrapOffsetCalls = null;
+
+    /**
+     * @ElementName maximumActiveIncomingCallsAllowed
+     * @Type int
+     * @Nillable
+     * @Optional
+     * @Group b9c14e2d80e4e7749688ca13ba233b44:429
+     * @MinInclusive 0
+     * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
+     */
+    private $maximumActiveIncomingCallsAllowed = null;
+
+    /**
+     * @ElementName maximumActiveOutgoingCallsAllowed
+     * @Type int
+     * @Nillable
+     * @Optional
+     * @Group b9c14e2d80e4e7749688ca13ba233b44:429
+     * @MinInclusive 0
+     * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
+     */
+    private $maximumActiveOutgoingCallsAllowed = null;
+
+    /**
+     * @ElementName minimumActiveCallsReserved
+     * @Type int
+     * @Nillable
+     * @Optional
+     * @Group b9c14e2d80e4e7749688ca13ba233b44:429
+     * @MinInclusive 0
+     * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
+     */
+    private $minimumActiveCallsReserved = null;
 
     /**
      * Getter for serviceProviderId
@@ -521,6 +554,111 @@ class EnterpriseEnterpriseTrunkModifyRequest extends \CWM\BroadWorksConnector\Oc
     public function unsetCapacityExceededTrapOffsetCalls()
     {
         $this->capacityExceededTrapOffsetCalls = null;
+        return $this;
+    }
+
+    /**
+     * Getter for maximumActiveIncomingCallsAllowed
+     *
+     * @return int|null
+     */
+    public function getMaximumActiveIncomingCallsAllowed()
+    {
+        return $this->maximumActiveIncomingCallsAllowed instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->maximumActiveIncomingCallsAllowed;
+    }
+
+    /**
+     * Setter for maximumActiveIncomingCallsAllowed
+     *
+     * @param int|null $maximumActiveIncomingCallsAllowed
+     * @return $this
+     */
+    public function setMaximumActiveIncomingCallsAllowed($maximumActiveIncomingCallsAllowed = null)
+    {
+        if ($maximumActiveIncomingCallsAllowed === null) {
+            $this->maximumActiveIncomingCallsAllowed = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->maximumActiveIncomingCallsAllowed = $maximumActiveIncomingCallsAllowed;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetMaximumActiveIncomingCallsAllowed()
+    {
+        $this->maximumActiveIncomingCallsAllowed = null;
+        return $this;
+    }
+
+    /**
+     * Getter for maximumActiveOutgoingCallsAllowed
+     *
+     * @return int|null
+     */
+    public function getMaximumActiveOutgoingCallsAllowed()
+    {
+        return $this->maximumActiveOutgoingCallsAllowed instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->maximumActiveOutgoingCallsAllowed;
+    }
+
+    /**
+     * Setter for maximumActiveOutgoingCallsAllowed
+     *
+     * @param int|null $maximumActiveOutgoingCallsAllowed
+     * @return $this
+     */
+    public function setMaximumActiveOutgoingCallsAllowed($maximumActiveOutgoingCallsAllowed = null)
+    {
+        if ($maximumActiveOutgoingCallsAllowed === null) {
+            $this->maximumActiveOutgoingCallsAllowed = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->maximumActiveOutgoingCallsAllowed = $maximumActiveOutgoingCallsAllowed;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetMaximumActiveOutgoingCallsAllowed()
+    {
+        $this->maximumActiveOutgoingCallsAllowed = null;
+        return $this;
+    }
+
+    /**
+     * Getter for minimumActiveCallsReserved
+     *
+     * @return int|null
+     */
+    public function getMinimumActiveCallsReserved()
+    {
+        return $this->minimumActiveCallsReserved instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->minimumActiveCallsReserved;
+    }
+
+    /**
+     * Setter for minimumActiveCallsReserved
+     *
+     * @param int|null $minimumActiveCallsReserved
+     * @return $this
+     */
+    public function setMinimumActiveCallsReserved($minimumActiveCallsReserved = null)
+    {
+        if ($minimumActiveCallsReserved === null) {
+            $this->minimumActiveCallsReserved = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->minimumActiveCallsReserved = $minimumActiveCallsReserved;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetMinimumActiveCallsReserved()
+    {
+        $this->minimumActiveCallsReserved = null;
         return $this;
     }
 

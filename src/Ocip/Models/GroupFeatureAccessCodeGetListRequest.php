@@ -6,13 +6,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupFeatureAccessCodeGetListRequest
  *
  * Get the list of feature access codes for a group.
- *                 The response is either a GroupFeatureAccessCodeGetListResponse or an ErrorResponse.
- *                 Replaced by: GroupFeatureAccessCodeGetRequest
+ *         The response is either a GroupFeatureAccessCodeGetListResponse or an ErrorResponse.
+ *         Replaced by: GroupFeatureAccessCodeGetRequest
  *
  * @see GroupFeatureAccessCodeGetListResponse
  * @see ErrorResponse
  * @see GroupFeatureAccessCodeGetRequest
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:1516","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:9666","type":"sequence"}]
  */
 class GroupFeatureAccessCodeGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class GroupFeatureAccessCodeGetListRequest extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:1516
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:9666
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -30,7 +30,7 @@ class GroupFeatureAccessCodeGetListRequest extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName groupId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:1516
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:9666
      * @MinLength 1
      * @MaxLength 30
      * @var string|null

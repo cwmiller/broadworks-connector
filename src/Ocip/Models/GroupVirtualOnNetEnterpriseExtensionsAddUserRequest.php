@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"179b744b0183abe614e8c32c17c96b7e:97","type":"sequence"}]
+ * @Groups [{"id":"179b744b0183abe614e8c32c17c96b7e:98","type":"sequence"}]
  */
 class GroupVirtualOnNetEnterpriseExtensionsAddUserRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class GroupVirtualOnNetEnterpriseExtensionsAddUserRequest extends \CWM\BroadWork
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 179b744b0183abe614e8c32c17c96b7e:97
+     * @Group 179b744b0183abe614e8c32c17c96b7e:98
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -30,7 +30,7 @@ class GroupVirtualOnNetEnterpriseExtensionsAddUserRequest extends \CWM\BroadWork
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 179b744b0183abe614e8c32c17c96b7e:97
+     * @Group 179b744b0183abe614e8c32c17c96b7e:98
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -42,7 +42,7 @@ class GroupVirtualOnNetEnterpriseExtensionsAddUserRequest extends \CWM\BroadWork
      * @Type \CWM\BroadWorksConnector\Ocip\Models\VirtualOnNetUser
      * @Array
      * @Optional
-     * @Group 179b744b0183abe614e8c32c17c96b7e:97
+     * @Group 179b744b0183abe614e8c32c17c96b7e:98
      * @var \CWM\BroadWorksConnector\Ocip\Models\VirtualOnNetUser[]
      */
     private $virtualOnNetUser = array(
@@ -54,7 +54,7 @@ class GroupVirtualOnNetEnterpriseExtensionsAddUserRequest extends \CWM\BroadWork
      * @Type \CWM\BroadWorksConnector\Ocip\Models\VirtualOnNetUserRange
      * @Array
      * @Optional
-     * @Group 179b744b0183abe614e8c32c17c96b7e:97
+     * @Group 179b744b0183abe614e8c32c17c96b7e:98
      * @var \CWM\BroadWorksConnector\Ocip\Models\VirtualOnNetUserRange[]
      */
     private $virtualOnNetUserRange = array(

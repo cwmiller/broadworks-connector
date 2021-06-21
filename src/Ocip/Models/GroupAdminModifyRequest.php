@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:1371","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:1798","type":"sequence"}]
  */
 class GroupAdminModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class GroupAdminModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
     /**
      * @ElementName userId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1371
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:1798
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -32,7 +32,7 @@ class GroupAdminModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @Type string
      * @Nillable
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1371
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:1798
      * @MinLength 1
      * @MaxLength 30
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -44,7 +44,7 @@ class GroupAdminModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @Type string
      * @Nillable
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1371
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:1798
      * @MinLength 1
      * @MaxLength 30
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -56,7 +56,7 @@ class GroupAdminModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @Type string
      * @Nillable
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1371
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:1798
      * @MinLength 1
      * @MaxLength 60
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -67,7 +67,7 @@ class GroupAdminModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @ElementName language
      * @Type string
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1371
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:1798
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Criteria for searching for a port number.
  *
- * @Groups [{"id":"f0ada2681ca347fa83b464734259b304:1060","type":"sequence"}]
+ * @Groups [{"id":"f0ada2681ca347fa83b464734259b304:1149","type":"sequence"}]
  */
 class SearchCriteriaExactPortNumber extends SearchCriteria
 {
@@ -15,7 +15,7 @@ class SearchCriteriaExactPortNumber extends SearchCriteria
     /**
      * @ElementName port
      * @Type int
-     * @Group f0ada2681ca347fa83b464734259b304:1060
+     * @Group f0ada2681ca347fa83b464734259b304:1149
      * @MinInclusive 1
      * @MaxInclusive 1024
      * @var int|null

@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * CPE device's options.
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:1733","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:48002","type":"sequence"}]
  */
 class CPEDeviceOptionsRead22
 {
@@ -15,7 +15,7 @@ class CPEDeviceOptionsRead22
     /**
      * @ElementName enableMonitoring
      * @Type bool
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1733
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:48002
      * @var bool|null
      */
     private $enableMonitoring = null;
@@ -24,7 +24,7 @@ class CPEDeviceOptionsRead22
      * @ElementName configType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationType14
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1733
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:48002
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationType14|null
      */
     private $configType = null;
@@ -33,7 +33,7 @@ class CPEDeviceOptionsRead22
      * @ElementName systemFileName
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1733
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:48002
      * @MinLength 1
      * @MaxLength 265
      * @var string|null
@@ -44,7 +44,7 @@ class CPEDeviceOptionsRead22
      * @ElementName deviceFileFormat
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1733
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:48002
      * @MinLength 1
      * @MaxLength 265
      * @var string|null
@@ -55,7 +55,7 @@ class CPEDeviceOptionsRead22
      * @ElementName deviceManagementDeviceTypeOptions
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementDeviceTypeOptionsRead22
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1733
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:48002
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementDeviceTypeOptionsRead22|null
      */
     private $deviceManagementDeviceTypeOptions = null;

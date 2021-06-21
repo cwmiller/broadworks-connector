@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:868","type":"sequence"}]
+ * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:1246","type":"sequence"}]
  */
 class ServiceProviderAdminAddRequest14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class ServiceProviderAdminAddRequest14 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:868
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1246
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +28,7 @@ class ServiceProviderAdminAddRequest14 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName userId
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:868
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1246
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -39,7 +39,7 @@ class ServiceProviderAdminAddRequest14 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName firstName
      * @Type string
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:868
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1246
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -50,7 +50,7 @@ class ServiceProviderAdminAddRequest14 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName lastName
      * @Type string
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:868
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1246
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -61,7 +61,7 @@ class ServiceProviderAdminAddRequest14 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName password
      * @Type string
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:868
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1246
      * @MinLength 1
      * @MaxLength 60
      * @var string|null
@@ -72,7 +72,7 @@ class ServiceProviderAdminAddRequest14 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName language
      * @Type string
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:868
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1246
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -82,7 +82,7 @@ class ServiceProviderAdminAddRequest14 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName administratorType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminType
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:868
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1246
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminType|null
      */
     private $administratorType = null;

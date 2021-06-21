@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Trunk group device endpoint used in the context of modify that can have multiple contacts.
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:4340","type":"sequence"}]
+ * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:5036","type":"sequence"}]
  */
 class TrunkGroupDeviceMultipleContactEndpointModify
 {
@@ -16,7 +16,7 @@ class TrunkGroupDeviceMultipleContactEndpointModify
      * @ElementName name
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4340
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:5036
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -27,7 +27,7 @@ class TrunkGroupDeviceMultipleContactEndpointModify
      * @ElementName linePort
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4340
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:5036
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -39,7 +39,7 @@ class TrunkGroupDeviceMultipleContactEndpointModify
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementContactList
      * @Nillable
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4340
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:5036
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementContactList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $contactList = null;

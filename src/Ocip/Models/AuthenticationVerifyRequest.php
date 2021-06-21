@@ -5,15 +5,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * AuthenticationVerifyRequest
  *
- * AuthenticationVerifyRequest is used to authenticate a user using the user Id and password.
- *                 The response is a AuthenticationVerifyResponse or an ErrorResponse
- *                 Replaced By: AuthenticationVerifyRequest14sp8
+ * AuthenticationVerifyRequest is used to authenticate a user using the user Id and password. The response is a AuthenticationVerifyResponse or an ErrorResponse
+ *         Replaced By: AuthenticationVerifyRequest14sp8
  *
  * @see AuthenticationVerifyRequest
  * @see AuthenticationVerifyResponse
  * @see ErrorResponse
  * @see AuthenticationVerifyRequest14sp8
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:358","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:1009","type":"sequence"}]
  */
 class AuthenticationVerifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,7 +20,7 @@ class AuthenticationVerifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName userId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:358
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:1009
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -31,7 +30,7 @@ class AuthenticationVerifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName password
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:358
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:1009
      * @MinLength 1
      * @MaxLength 60
      * @var string|null

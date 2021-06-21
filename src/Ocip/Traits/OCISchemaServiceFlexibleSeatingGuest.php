@@ -4,29 +4,22 @@ namespace CWM\BroadWorksConnector\Ocip\Traits;
 
 use CWM\BroadWorksConnector\Ocip\Models\GroupFlexibleSeatingAccessDeviceGetListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupFlexibleSeatingAccessDeviceGetListResponse;
-use CWM\BroadWorksConnector\Ocip\Models\GroupFlexibleSeatingHostAddInstanceRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupFlexibleSeatingHostAddInstanceRequest22;
 use CWM\BroadWorksConnector\Ocip\Models\GroupFlexibleSeatingHostDeleteInstanceRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupFlexibleSeatingHostGetInstanceListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupFlexibleSeatingHostGetInstanceListResponse;
-use CWM\BroadWorksConnector\Ocip\Models\GroupFlexibleSeatingHostGetInstanceRequest;
-use CWM\BroadWorksConnector\Ocip\Models\GroupFlexibleSeatingHostGetInstanceResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupFlexibleSeatingHostGetInstanceRequest22;
 use CWM\BroadWorksConnector\Ocip\Models\GroupFlexibleSeatingHostGetInstanceResponse22;
 use CWM\BroadWorksConnector\Ocip\Models\GroupFlexibleSeatingHostGuestAssociationGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupFlexibleSeatingHostGuestAssociationGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupFlexibleSeatingHostGuestAssociationModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupFlexibleSeatingHostModifyActiveInstanceListRequest;
-use CWM\BroadWorksConnector\Ocip\Models\GroupFlexibleSeatingHostModifyInstanceRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupFlexibleSeatingHostModifyInstanceRequest22;
 use CWM\BroadWorksConnector\Ocip\Models\GroupFlexibleSeatingHostRoutingPoliciesGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupFlexibleSeatingHostRoutingPoliciesGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupFlexibleSeatingHostRoutingPoliciesModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserFlexibleSeatingGuestGetAvailableHostListRequest;
-use CWM\BroadWorksConnector\Ocip\Models\UserFlexibleSeatingGuestGetAvailableHostListResponse;
-use CWM\BroadWorksConnector\Ocip\Models\UserFlexibleSeatingGuestGetRequest;
-use CWM\BroadWorksConnector\Ocip\Models\UserFlexibleSeatingGuestGetResponse;
-use CWM\BroadWorksConnector\Ocip\Models\UserFlexibleSeatingGuestModifyRequest;
+use CWM\BroadWorksConnector\Ocip\Models\UserFlexibleSeatingGuestGetAvailableUserListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserFlexibleSeatingGuestGetRequest22;
 use CWM\BroadWorksConnector\Ocip\Models\UserFlexibleSeatingGuestGetResponse22;
 use CWM\BroadWorksConnector\Ocip\Models\UserFlexibleSeatingGuestModifyRequest22;
@@ -44,17 +37,6 @@ trait OCISchemaServiceFlexibleSeatingGuest
      * @throws ValidationException
      */
     public function groupFlexibleSeatingAccessDeviceGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupFlexibleSeatingAccessDeviceGetListRequest $request)
-    {
-        return $this->call($request);
-    }
-
-    /**
-     * @param GroupFlexibleSeatingHostAddInstanceRequest $request
-     * @return SuccessResponse
-     * @throws ErrorResponseException
-     * @throws ValidationException
-     */
-    public function groupFlexibleSeatingHostAddInstanceRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupFlexibleSeatingHostAddInstanceRequest $request)
     {
         return $this->call($request);
     }
@@ -88,17 +70,6 @@ trait OCISchemaServiceFlexibleSeatingGuest
      * @throws ValidationException
      */
     public function groupFlexibleSeatingHostGetInstanceListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupFlexibleSeatingHostGetInstanceListRequest $request)
-    {
-        return $this->call($request);
-    }
-
-    /**
-     * @param GroupFlexibleSeatingHostGetInstanceRequest $request
-     * @return GroupFlexibleSeatingHostGetInstanceResponse
-     * @throws ErrorResponseException
-     * @throws ValidationException
-     */
-    public function groupFlexibleSeatingHostGetInstanceRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupFlexibleSeatingHostGetInstanceRequest $request)
     {
         return $this->call($request);
     }
@@ -148,17 +119,6 @@ trait OCISchemaServiceFlexibleSeatingGuest
     }
 
     /**
-     * @param GroupFlexibleSeatingHostModifyInstanceRequest $request
-     * @return SuccessResponse
-     * @throws ErrorResponseException
-     * @throws ValidationException
-     */
-    public function groupFlexibleSeatingHostModifyInstanceRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupFlexibleSeatingHostModifyInstanceRequest $request)
-    {
-        return $this->call($request);
-    }
-
-    /**
      * @param GroupFlexibleSeatingHostModifyInstanceRequest22 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
@@ -193,33 +153,11 @@ trait OCISchemaServiceFlexibleSeatingGuest
 
     /**
      * @param UserFlexibleSeatingGuestGetAvailableHostListRequest $request
-     * @return UserFlexibleSeatingGuestGetAvailableHostListResponse
+     * @return UserFlexibleSeatingGuestGetAvailableUserListResponse
      * @throws ErrorResponseException
      * @throws ValidationException
      */
     public function userFlexibleSeatingGuestGetAvailableHostListRequest(\CWM\BroadWorksConnector\Ocip\Models\UserFlexibleSeatingGuestGetAvailableHostListRequest $request)
-    {
-        return $this->call($request);
-    }
-
-    /**
-     * @param UserFlexibleSeatingGuestGetRequest $request
-     * @return UserFlexibleSeatingGuestGetResponse
-     * @throws ErrorResponseException
-     * @throws ValidationException
-     */
-    public function userFlexibleSeatingGuestGetRequest(\CWM\BroadWorksConnector\Ocip\Models\UserFlexibleSeatingGuestGetRequest $request)
-    {
-        return $this->call($request);
-    }
-
-    /**
-     * @param UserFlexibleSeatingGuestModifyRequest $request
-     * @return SuccessResponse
-     * @throws ErrorResponseException
-     * @throws ValidationException
-     */
-    public function userFlexibleSeatingGuestModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\UserFlexibleSeatingGuestModifyRequest $request)
     {
         return $this->call($request);
     }

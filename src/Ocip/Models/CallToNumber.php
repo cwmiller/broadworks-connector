@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Call to Number.
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:1003","type":"sequence"}]
+ * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:1091","type":"sequence"}]
  */
 class CallToNumber
 {
@@ -15,7 +15,7 @@ class CallToNumber
     /**
      * @ElementName type
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallToNumberType
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1003
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:1091
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallToNumberType|null
      */
     private $type = null;
@@ -24,7 +24,7 @@ class CallToNumber
      * @ElementName number
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1003
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:1091
      * @MinLength 1
      * @MaxLength 23
      * @var string|null
@@ -35,7 +35,7 @@ class CallToNumber
      * @ElementName extension
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1003
+     * @Group c0d21ef9ba207c335d8347e5172fce1d:1091
      * @MinLength 2
      * @MaxLength 20
      * @var string|null

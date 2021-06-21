@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:3941","type":"sequence"}]
+ * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:4027","type":"sequence"}]
  */
 class UserShInterfaceModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserShInterfaceModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName publicUserIdentity
      * @Type \CWM\BroadWorksConnector\Ocip\Models\PublicUserIdentity
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:3941
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:4027
      * @var \CWM\BroadWorksConnector\Ocip\Models\PublicUserIdentity|null
      */
     private $publicUserIdentity = null;
@@ -28,7 +28,7 @@ class UserShInterfaceModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:3941
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:4027
      * @MinLength 1
      * @MaxLength 161
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -39,7 +39,7 @@ class UserShInterfaceModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @ElementName IMSUserState
      * @Type \CWM\BroadWorksConnector\Ocip\Models\IMSUserState
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:3941
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:4027
      * @var \CWM\BroadWorksConnector\Ocip\Models\IMSUserState|null
      */
     private $IMSUserState = null;

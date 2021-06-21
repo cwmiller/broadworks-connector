@@ -6,13 +6,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupCallCenterGetInstanceStatisticsRequest13mp8
  *
  * Get Call Center queue and agent statistics.
- *                 The response is either GroupCallCenterGetInstanceStatisticsResponse13mp8 or ErrorResponse.
- *                 Replaced By: GroupCallCenterGetInstanceStatisticsRequest14sp9
+ *         The response is either GroupCallCenterGetInstanceStatisticsResponse13mp8 or ErrorResponse.
+ *         Replaced By: GroupCallCenterGetInstanceStatisticsRequest14sp9
  *
  * @see GroupCallCenterGetInstanceStatisticsResponse13mp8
  * @see ErrorResponse
  * @see GroupCallCenterGetInstanceStatisticsRequest14sp9
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:997","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:6158","type":"sequence"}]
  */
 class GroupCallCenterGetInstanceStatisticsRequest13mp8 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class GroupCallCenterGetInstanceStatisticsRequest13mp8 extends \CWM\BroadWorksCo
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:997
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:6158
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

@@ -11,16 +11,16 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "Parent Department","Parent Department Type", "Phone Number", 
  *         "Phone Number Activated", "Email Address",  "Hiragana Last Name", 
  *         "Hiragana First Name", "In Trunk Group", "Extension", "Country Code", 
- *         "National Prefix" in a row for each user.
- *         
+ *         "National Prefix", "User External Id" in a row for each user.
+ *                 
  *         The "Department Type" and "Parent Department Type" columns
  *         will contain the values "Enterprise" or "Group".
  *         
- *         The following columns are only returned in AS data mode:
- *           "Country Code", "National Prefix
+ *         The following columns are only populated in AS data mode:
+ *           "Country Code", "National Prefix", "User External Id"
  *
  * @see UserGetListInGroupPagedSortedListRequest
- * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:1777","type":"sequence"}]
+ * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:1896","type":"sequence"}]
  */
 class UserGetListInGroupPagedSortedListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -28,7 +28,7 @@ class UserGetListInGroupPagedSortedListResponse extends \CWM\BroadWorksConnector
     /**
      * @ElementName userTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:1777
+     * @Group 53d18cc797d03d802cbc411ad821f1d4:1896
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $userTable = null;

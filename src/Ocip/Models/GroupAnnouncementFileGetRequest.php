@@ -7,10 +7,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Request to get the announcement repository file information.  
  *         The response is either GroupAnnouncementFileGetResponse or ErrorResponse.
+ *         
+ *         Replaced by: GroupAnnouncementFileGetRequest22.
  *
  * @see GroupAnnouncementFileGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:1536","type":"sequence"}]
+ * @see GroupAnnouncementFileGetRequest22
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:3584","type":"sequence"}]
  */
 class GroupAnnouncementFileGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +21,7 @@ class GroupAnnouncementFileGetRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1536
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:3584
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +31,7 @@ class GroupAnnouncementFileGetRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1536
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:3584
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -38,7 +41,7 @@ class GroupAnnouncementFileGetRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName announcementFileKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1536
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:3584
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey|null
      */
     private $announcementFileKey = null;

@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:2465","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:2818","type":"sequence"}]
  */
 class SystemBwDiameterRoutingPeerDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemBwDiameterRoutingPeerDeleteRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName instance
      * @Type \CWM\BroadWorksConnector\Ocip\Models\BwDiameterPeerInstance
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2465
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2818
      * @var \CWM\BroadWorksConnector\Ocip\Models\BwDiameterPeerInstance|null
      */
     private $instance = null;
@@ -26,7 +26,7 @@ class SystemBwDiameterRoutingPeerDeleteRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName realm
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2465
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2818
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -36,7 +36,7 @@ class SystemBwDiameterRoutingPeerDeleteRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName applicationId
      * @Type \CWM\BroadWorksConnector\Ocip\Models\BwDiameterApplicationId
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2465
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2818
      * @var \CWM\BroadWorksConnector\Ocip\Models\BwDiameterApplicationId|null
      */
     private $applicationId = null;
@@ -44,7 +44,7 @@ class SystemBwDiameterRoutingPeerDeleteRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName identity
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2465
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2818
      * @MinLength 1
      * @MaxLength 80
      * @var string|null

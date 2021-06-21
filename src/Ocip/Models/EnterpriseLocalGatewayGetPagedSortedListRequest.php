@@ -17,7 +17,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see EnterpriseLocalGatewayGetPagedSortedListResponse
  * @see ErrorResponse
- * @Groups [{"id":"b9c14e2d80e4e7749688ca13ba233b44:484","type":"sequence"}]
+ * @Groups [{"id":"b9c14e2d80e4e7749688ca13ba233b44:485","type":"sequence"}]
  */
 class EnterpriseLocalGatewayGetPagedSortedListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -25,7 +25,7 @@ class EnterpriseLocalGatewayGetPagedSortedListRequest extends \CWM\BroadWorksCon
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group b9c14e2d80e4e7749688ca13ba233b44:484
+     * @Group b9c14e2d80e4e7749688ca13ba233b44:485
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -36,7 +36,7 @@ class EnterpriseLocalGatewayGetPagedSortedListRequest extends \CWM\BroadWorksCon
      * @ElementName responsePagingControl
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl
      * @Optional
-     * @Group b9c14e2d80e4e7749688ca13ba233b44:484
+     * @Group b9c14e2d80e4e7749688ca13ba233b44:485
      * @var \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl|null
      */
     private $responsePagingControl = null;
@@ -45,7 +45,7 @@ class EnterpriseLocalGatewayGetPagedSortedListRequest extends \CWM\BroadWorksCon
      * @ElementName sortByTrunkGroupName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByTrunkGroupName
      * @Optional
-     * @Group b9c14e2d80e4e7749688ca13ba233b44:484
+     * @Group b9c14e2d80e4e7749688ca13ba233b44:485
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByTrunkGroupName|null
      */
     private $sortByTrunkGroupName = null;
@@ -55,7 +55,7 @@ class EnterpriseLocalGatewayGetPagedSortedListRequest extends \CWM\BroadWorksCon
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaTrunkGroupName
      * @Array
      * @Optional
-     * @Group b9c14e2d80e4e7749688ca13ba233b44:484
+     * @Group b9c14e2d80e4e7749688ca13ba233b44:485
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaTrunkGroupName[]
      */
     private $searchCriteriaTrunkGroupName = array(
@@ -66,7 +66,7 @@ class EnterpriseLocalGatewayGetPagedSortedListRequest extends \CWM\BroadWorksCon
      * @ElementName searchCriteriaModeOr
      * @Type bool
      * @Optional
-     * @Group b9c14e2d80e4e7749688ca13ba233b44:484
+     * @Group b9c14e2d80e4e7749688ca13ba233b44:485
      * @var bool|null
      */
     private $searchCriteriaModeOr = null;

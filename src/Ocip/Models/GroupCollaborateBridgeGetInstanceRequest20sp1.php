@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupCollaborateBridgeGetInstanceResponse20sp1
  * @see ErrorResponse
- * @Groups [{"id":"939fd5846dfae8bdf58308d6cb9ebb12:393","type":"sequence"}]
+ * @Groups [{"id":"939fd5846dfae8bdf58308d6cb9ebb12:394","type":"sequence"}]
  */
 class GroupCollaborateBridgeGetInstanceRequest20sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupCollaborateBridgeGetInstanceRequest20sp1 extends \CWM\BroadWorksConne
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:393
+     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:394
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

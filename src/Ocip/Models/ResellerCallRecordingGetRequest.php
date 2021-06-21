@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see ResellerCallRecordingGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"9741e074fbfeb4c7312bfa4dfbaee3d3:158","type":"sequence"}]
+ * @Groups [{"id":"9741e074fbfeb4c7312bfa4dfbaee3d3:159","type":"sequence"}]
  */
 class ResellerCallRecordingGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class ResellerCallRecordingGetRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName resellerId
      * @Type string
-     * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:158
+     * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:159
      * @MinLength 1
      * @MaxLength 36
      * @var string|null

@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to UserCollaborateRoomIDRegenerateRequest.
  *
  * @see UserCollaborateRoomIDRegenerateRequest
- * @Groups [{"id":"939fd5846dfae8bdf58308d6cb9ebb12:977","type":"sequence"}]
+ * @Groups [{"id":"939fd5846dfae8bdf58308d6cb9ebb12:978","type":"sequence"}]
  */
 class UserCollaborateRoomIDRegenerateResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class UserCollaborateRoomIDRegenerateResponse extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName roomId
      * @Type string
-     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:977
+     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:978
      * @MinLength 4
      * @MaxLength 15
      * @var string|null

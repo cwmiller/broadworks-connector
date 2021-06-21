@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see ResellerEmergencyZonesGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"e71c2205fb31894f87810b330a85ede2:212","type":"sequence"}]
+ * @Groups [{"id":"e71c2205fb31894f87810b330a85ede2:213","type":"sequence"}]
  */
 class ResellerEmergencyZonesGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class ResellerEmergencyZonesGetRequest extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName resellerId
      * @Type string
-     * @Group e71c2205fb31894f87810b330a85ede2:212
+     * @Group e71c2205fb31894f87810b330a85ede2:213
      * @MinLength 1
      * @MaxLength 36
      * @var string|null

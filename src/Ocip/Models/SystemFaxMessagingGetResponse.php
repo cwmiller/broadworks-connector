@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *            statusAuditIntervalHours
  *
  * @see SystemFAXMessagingGetRequest
- * @Groups [{"id":"f46f967f937c7dc89ddb3db423383aa4:60","type":"sequence"}]
+ * @Groups [{"id":"f46f967f937c7dc89ddb3db423383aa4:61","type":"sequence"}]
  */
 class SystemFaxMessagingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -20,7 +20,7 @@ class SystemFaxMessagingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName statusDurationHours
      * @Type int
-     * @Group f46f967f937c7dc89ddb3db423383aa4:60
+     * @Group f46f967f937c7dc89ddb3db423383aa4:61
      * @MinInclusive 1
      * @MaxInclusive 24
      * @var int|null
@@ -30,7 +30,7 @@ class SystemFaxMessagingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName statusAuditIntervalHours
      * @Type int
-     * @Group f46f967f937c7dc89ddb3db423383aa4:60
+     * @Group f46f967f937c7dc89ddb3db423383aa4:61
      * @MinInclusive 1
      * @MaxInclusive 24
      * @var int|null
@@ -40,7 +40,7 @@ class SystemFaxMessagingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName maximumConcurrentFaxesPerUser
      * @Type int
-     * @Group f46f967f937c7dc89ddb3db423383aa4:60
+     * @Group f46f967f937c7dc89ddb3db423383aa4:61
      * @MinInclusive 1
      * @MaxInclusive 10
      * @var int|null

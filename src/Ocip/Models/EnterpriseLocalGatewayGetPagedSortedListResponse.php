@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "Group External Id"
  *
  * @see EnterpriseLocalGatewayGetPagedSortedListRequest
- * @Groups [{"id":"b9c14e2d80e4e7749688ca13ba233b44:507","type":"sequence"}]
+ * @Groups [{"id":"b9c14e2d80e4e7749688ca13ba233b44:508","type":"sequence"}]
  */
 class EnterpriseLocalGatewayGetPagedSortedListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -20,7 +20,7 @@ class EnterpriseLocalGatewayGetPagedSortedListResponse extends \CWM\BroadWorksCo
     /**
      * @ElementName localGatewayTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group b9c14e2d80e4e7749688ca13ba233b44:507
+     * @Group b9c14e2d80e4e7749688ca13ba233b44:508
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $localGatewayTable = null;

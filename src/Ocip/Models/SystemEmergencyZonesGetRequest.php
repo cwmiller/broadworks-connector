@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemEmergencyZonesGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"e71c2205fb31894f87810b330a85ede2:261","type":"sequence"}]
+ * @Groups [{"id":"e71c2205fb31894f87810b330a85ede2:262","type":"sequence"}]
  */
 class SystemEmergencyZonesGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

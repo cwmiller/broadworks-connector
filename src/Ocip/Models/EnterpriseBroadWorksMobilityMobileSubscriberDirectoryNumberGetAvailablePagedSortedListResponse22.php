@@ -14,7 +14,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The "Mobile National Prefix" column indicates the digit sequence to be dialed before the mobile number.
  *
  * @see EnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAvailablePagedSortedListRequest22
- * @Groups [{"id":"f7ae3539fd471e995b07dc1bf8836e2d:285","type":"sequence"}]
+ * @Groups [{"id":"f7ae3539fd471e995b07dc1bf8836e2d:286","type":"sequence"}]
  */
 class EnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAvailablePagedSortedListResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -23,7 +23,7 @@ class EnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAvailablePag
      * @ElementName totalNumberOfRows
      * @Type int
      * @Optional
-     * @Group f7ae3539fd471e995b07dc1bf8836e2d:285
+     * @Group f7ae3539fd471e995b07dc1bf8836e2d:286
      * @var int|null
      */
     private $totalNumberOfRows = null;
@@ -31,7 +31,7 @@ class EnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAvailablePag
     /**
      * @ElementName availableMobileSubscriberDirectoryNumberTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group f7ae3539fd471e995b07dc1bf8836e2d:285
+     * @Group f7ae3539fd471e995b07dc1bf8836e2d:286
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $availableMobileSubscriberDirectoryNumberTable = null;

@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * The voice portal greeting menu keys modify entry.
  *
- * @Groups [{"id":"3347d430e0d5c93a9ff8dcf0e3b60d6c:2647","type":"sequence"}]
+ * @Groups [{"id":"3347d430e0d5c93a9ff8dcf0e3b60d6c:2648","type":"sequence"}]
  */
 class GreetingsMenuKeysModifyEntry
 {
@@ -17,7 +17,7 @@ class GreetingsMenuKeysModifyEntry
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2647
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2648
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -29,7 +29,7 @@ class GreetingsMenuKeysModifyEntry
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2647
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2648
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -40,7 +40,7 @@ class GreetingsMenuKeysModifyEntry
      * @ElementName returnToPreviousMenu
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2647
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2648
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -52,7 +52,7 @@ class GreetingsMenuKeysModifyEntry
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2647
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2648
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil

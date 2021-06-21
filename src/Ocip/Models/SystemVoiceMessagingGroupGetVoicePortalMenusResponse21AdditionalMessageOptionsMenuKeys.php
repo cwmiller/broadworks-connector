@@ -5,7 +5,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemVoiceMessagingGroupGetVoicePortalMenusResponse21AdditionalMessageOptionsMenuKeys
  *
- * @Groups [{"id":"3347d430e0d5c93a9ff8dcf0e3b60d6c:939","type":"sequence"}]
+ * @Groups [{"id":"3347d430e0d5c93a9ff8dcf0e3b60d6c:940","type":"sequence"}]
  */
 class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21AdditionalMessageOptionsMenuKeys
 {
@@ -14,7 +14,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21AdditionalMessageOpt
      * @ElementName saveMessage
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:939
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:940
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -25,7 +25,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21AdditionalMessageOpt
      * @ElementName deleteMessage
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:939
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:940
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -36,7 +36,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21AdditionalMessageOpt
      * @ElementName playEnvelope
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:939
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:940
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -47,7 +47,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21AdditionalMessageOpt
      * @ElementName callbackCaller
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:939
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:940
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -58,7 +58,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21AdditionalMessageOpt
      * @ElementName composeMessage
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:939
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:940
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -69,7 +69,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21AdditionalMessageOpt
      * @ElementName replyMessage
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:939
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:940
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -80,7 +80,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21AdditionalMessageOpt
      * @ElementName forwardMessage
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:939
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:940
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -91,7 +91,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21AdditionalMessageOpt
      * @ElementName personalizedName
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:939
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:940
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -102,7 +102,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21AdditionalMessageOpt
      * @ElementName passcode
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:939
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:940
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -112,7 +112,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21AdditionalMessageOpt
     /**
      * @ElementName returnToPreviousMenu
      * @Type string
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:939
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:940
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -123,7 +123,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21AdditionalMessageOpt
      * @ElementName repeatMenu
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:939
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:940
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null

@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * The voice portal personalized name menu keys.
  *
- * @Groups [{"id":"3347d430e0d5c93a9ff8dcf0e3b60d6c:2820","type":"sequence"}]
+ * @Groups [{"id":"3347d430e0d5c93a9ff8dcf0e3b60d6c:2821","type":"sequence"}]
  */
 class PersonalizedNameMenuKeysReadEntry
 {
@@ -16,7 +16,7 @@ class PersonalizedNameMenuKeysReadEntry
      * @ElementName recordNewPersonalizedName
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2820
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2821
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -27,7 +27,7 @@ class PersonalizedNameMenuKeysReadEntry
      * @ElementName listenToCurrentPersonalizedName
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2820
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2821
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -38,7 +38,7 @@ class PersonalizedNameMenuKeysReadEntry
      * @ElementName deletePersonalizedName
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2820
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2821
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -48,7 +48,7 @@ class PersonalizedNameMenuKeysReadEntry
     /**
      * @ElementName returnToPreviousMenu
      * @Type string
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2820
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2821
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -59,7 +59,7 @@ class PersonalizedNameMenuKeysReadEntry
      * @ElementName repeatMenu
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2820
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2821
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null

@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"72f634ecc58842ce9d362ca629a47ea9:313","type":"sequence"}]
+ * @Groups [{"id":"72f634ecc58842ce9d362ca629a47ea9:314","type":"sequence"}]
  */
 class UserBroadWorksAnywhereDeletePhoneNumberRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserBroadWorksAnywhereDeletePhoneNumberRequest extends \CWM\BroadWorksConn
     /**
      * @ElementName userId
      * @Type string
-     * @Group 72f634ecc58842ce9d362ca629a47ea9:313
+     * @Group 72f634ecc58842ce9d362ca629a47ea9:314
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -28,7 +28,7 @@ class UserBroadWorksAnywhereDeletePhoneNumberRequest extends \CWM\BroadWorksConn
     /**
      * @ElementName phoneNumber
      * @Type string
-     * @Group 72f634ecc58842ce9d362ca629a47ea9:313
+     * @Group 72f634ecc58842ce9d362ca629a47ea9:314
      * @MinLength 1
      * @MaxLength 23
      * @var string|null

@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see ResellerIntegratedIMPGetResponse22
  * @see ErrorResponse
- * @Groups [{"id":"23389100b68cef3aa07ee12ac7a2bd16:106","type":"sequence"}]
+ * @Groups [{"id":"23389100b68cef3aa07ee12ac7a2bd16:107","type":"sequence"}]
  */
 class ResellerIntegratedIMPGetRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class ResellerIntegratedIMPGetRequest22 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName resellerId
      * @Type string
-     * @Group 23389100b68cef3aa07ee12ac7a2bd16:106
+     * @Group 23389100b68cef3aa07ee12ac7a2bd16:107
      * @MinLength 1
      * @MaxLength 36
      * @var string|null

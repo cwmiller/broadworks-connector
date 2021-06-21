@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to EnterpriseCallCenterMonitoringGetRequest23.
  *
  * @see EnterpriseCallCenterMonitoringGetRequest23
- * @Groups [{"id":"41b968f87257b8dd553215179161ccb4:63","type":"sequence"}]
+ * @Groups [{"id":"41b968f87257b8dd553215179161ccb4:64","type":"sequence"}]
  */
 class EnterpriseCallCenterMonitoringGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class EnterpriseCallCenterMonitoringGetResponse23 extends \CWM\BroadWorksConnect
     /**
      * @ElementName enableSupervisorCoaching
      * @Type bool
-     * @Group 41b968f87257b8dd553215179161ccb4:63
+     * @Group 41b968f87257b8dd553215179161ccb4:64
      * @var bool|null
      */
     private $enableSupervisorCoaching = null;
@@ -25,7 +25,7 @@ class EnterpriseCallCenterMonitoringGetResponse23 extends \CWM\BroadWorksConnect
      * @ElementName bypassEnforcementOfSupervisorAgentRelationship
      * @Type bool
      * @Optional
-     * @Group 41b968f87257b8dd553215179161ccb4:63
+     * @Group 41b968f87257b8dd553215179161ccb4:64
      * @var bool|null
      */
     private $bypassEnforcementOfSupervisorAgentRelationship = null;

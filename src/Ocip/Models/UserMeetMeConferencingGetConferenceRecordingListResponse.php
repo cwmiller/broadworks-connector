@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Start Time is in the format "yyyy-MM-dd'T'HH:mm:ss:SSSZ". Example: 2010-10-01T09:30:00:000-0400.
  *
  * @see UserMeetMeConferencingGetConferenceRecordingListRequest
- * @Groups [{"id":"0fd24121d16995c994d40bc408dbcfa5:802","type":"sequence"}]
+ * @Groups [{"id":"0fd24121d16995c994d40bc408dbcfa5:803","type":"sequence"}]
  */
 class UserMeetMeConferencingGetConferenceRecordingListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class UserMeetMeConferencingGetConferenceRecordingListResponse extends \CWM\Broa
     /**
      * @ElementName conferenceRecordingTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 0fd24121d16995c994d40bc408dbcfa5:802
+     * @Group 0fd24121d16995c994d40bc408dbcfa5:803
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $conferenceRecordingTable = null;

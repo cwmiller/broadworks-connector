@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"e71c2205fb31894f87810b330a85ede2:68","type":"sequence"}]
+ * @Groups [{"id":"e71c2205fb31894f87810b330a85ede2:69","type":"sequence"}]
  */
 class GroupEmergencyZonesDeleteHomeZoneListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupEmergencyZonesDeleteHomeZoneListRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group e71c2205fb31894f87810b330a85ede2:68
+     * @Group e71c2205fb31894f87810b330a85ede2:69
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +28,7 @@ class GroupEmergencyZonesDeleteHomeZoneListRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName groupId
      * @Type string
-     * @Group e71c2205fb31894f87810b330a85ede2:68
+     * @Group e71c2205fb31894f87810b330a85ede2:69
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -40,7 +40,7 @@ class GroupEmergencyZonesDeleteHomeZoneListRequest extends \CWM\BroadWorksConnec
      * @Type string
      * @Array
      * @Optional
-     * @Group e71c2205fb31894f87810b330a85ede2:68
+     * @Group e71c2205fb31894f87810b330a85ede2:69
      * @MinLength 1
      * @MaxLength 39
      * @var string[]
@@ -54,7 +54,7 @@ class GroupEmergencyZonesDeleteHomeZoneListRequest extends \CWM\BroadWorksConnec
      * @Type \CWM\BroadWorksConnector\Ocip\Models\IPAddressRange
      * @Array
      * @Optional
-     * @Group e71c2205fb31894f87810b330a85ede2:68
+     * @Group e71c2205fb31894f87810b330a85ede2:69
      * @var \CWM\BroadWorksConnector\Ocip\Models\IPAddressRange[]
      */
     private $homeZoneIpAddressRange = array(

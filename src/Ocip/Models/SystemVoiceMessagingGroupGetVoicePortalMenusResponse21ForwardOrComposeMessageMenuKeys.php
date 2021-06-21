@@ -5,7 +5,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemVoiceMessagingGroupGetVoicePortalMenusResponse21ForwardOrComposeMessageMenuKeys
  *
- * @Groups [{"id":"3347d430e0d5c93a9ff8dcf0e3b60d6c:957","type":"sequence"}]
+ * @Groups [{"id":"3347d430e0d5c93a9ff8dcf0e3b60d6c:958","type":"sequence"}]
  */
 class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21ForwardOrComposeMessageMenuKeys
 {
@@ -14,7 +14,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21ForwardOrComposeMess
      * @ElementName sendToPerson
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:957
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:958
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -25,7 +25,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21ForwardOrComposeMess
      * @ElementName sendToAllGroupMembers
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:957
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:958
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -36,7 +36,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21ForwardOrComposeMess
      * @ElementName sendToDistributionList
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:957
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:958
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -47,7 +47,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21ForwardOrComposeMess
      * @ElementName changeCurrentIntroductionOrMessage
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:957
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:958
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -58,7 +58,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21ForwardOrComposeMess
      * @ElementName listenToCurrentIntroductionOrMessage
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:957
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:958
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -69,7 +69,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21ForwardOrComposeMess
      * @ElementName setOrClearUrgentIndicator
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:957
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:958
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -80,7 +80,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21ForwardOrComposeMess
      * @ElementName setOrClearConfidentialIndicator
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:957
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:958
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -90,7 +90,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21ForwardOrComposeMess
     /**
      * @ElementName returnToPreviousMenu
      * @Type string
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:957
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:958
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -101,7 +101,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21ForwardOrComposeMess
      * @ElementName repeatMenu
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:957
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:958
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null

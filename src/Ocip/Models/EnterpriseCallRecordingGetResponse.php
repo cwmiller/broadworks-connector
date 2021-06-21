@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *          The response contains the enterprise's Call Recording attributes.
  *
  * @see EnterpriseCallRecordingGetRequest
- * @Groups [{"id":"9741e074fbfeb4c7312bfa4dfbaee3d3:70","type":"sequence"}]
+ * @Groups [{"id":"9741e074fbfeb4c7312bfa4dfbaee3d3:71","type":"sequence"}]
  */
 class EnterpriseCallRecordingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class EnterpriseCallRecordingGetResponse extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName useCloudPBX
      * @Type bool
-     * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:70
+     * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:71
      * @var bool|null
      */
     private $useCloudPBX = null;
@@ -26,7 +26,7 @@ class EnterpriseCallRecordingGetResponse extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName useEnterpriseSetting
      * @Type bool
      * @Optional
-     * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:70
+     * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:71
      * @var bool|null
      */
     private $useEnterpriseSetting = null;
@@ -35,7 +35,7 @@ class EnterpriseCallRecordingGetResponse extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName FQDN
      * @Type string
      * @Optional
-     * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:70
+     * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:71
      * @MinLength 1
      * @MaxLength 80
      * @var string|null

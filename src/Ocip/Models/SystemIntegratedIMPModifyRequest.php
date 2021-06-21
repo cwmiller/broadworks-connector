@@ -14,7 +14,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"23389100b68cef3aa07ee12ac7a2bd16:296","type":"sequence"}]
+ * @Groups [{"id":"23389100b68cef3aa07ee12ac7a2bd16:297","type":"sequence"}]
  */
 class SystemIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -24,7 +24,7 @@ class SystemIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 23389100b68cef3aa07ee12ac7a2bd16:296
+     * @Group 23389100b68cef3aa07ee12ac7a2bd16:297
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -36,7 +36,7 @@ class SystemIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Type int
      * @Nillable
      * @Optional
-     * @Group 23389100b68cef3aa07ee12ac7a2bd16:296
+     * @Group 23389100b68cef3aa07ee12ac7a2bd16:297
      * @MinInclusive 1
      * @MaxInclusive 65535
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -47,7 +47,7 @@ class SystemIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName addServiceProviderInIMPUserId
      * @Type bool
      * @Optional
-     * @Group 23389100b68cef3aa07ee12ac7a2bd16:296
+     * @Group 23389100b68cef3aa07ee12ac7a2bd16:297
      * @var bool|null
      */
     private $addServiceProviderInIMPUserId = null;
@@ -57,7 +57,7 @@ class SystemIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 23389100b68cef3aa07ee12ac7a2bd16:296
+     * @Group 23389100b68cef3aa07ee12ac7a2bd16:297
      * @MinLength 1
      * @MaxLength 256
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -68,7 +68,7 @@ class SystemIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName allowImpPasswordRetrieval
      * @Type bool
      * @Optional
-     * @Group 23389100b68cef3aa07ee12ac7a2bd16:296
+     * @Group 23389100b68cef3aa07ee12ac7a2bd16:297
      * @var bool|null
      */
     private $allowImpPasswordRetrieval = null;

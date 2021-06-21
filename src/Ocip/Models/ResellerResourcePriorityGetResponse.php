@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         resourcePriority will not be returned in the response.
  *
  * @see ResellerResourcePriorityGetRequest
- * @Groups [{"id":"0c61aa8506194ca714d0fe1c4a0b57ff:63","type":"sequence"}]
+ * @Groups [{"id":"0c61aa8506194ca714d0fe1c4a0b57ff:64","type":"sequence"}]
  */
 class ResellerResourcePriorityGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,7 +19,7 @@ class ResellerResourcePriorityGetResponse extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName useSystemSettings
      * @Type bool
-     * @Group 0c61aa8506194ca714d0fe1c4a0b57ff:63
+     * @Group 0c61aa8506194ca714d0fe1c4a0b57ff:64
      * @var bool|null
      */
     private $useSystemSettings = null;
@@ -27,7 +27,7 @@ class ResellerResourcePriorityGetResponse extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName sendResourcePriorityToNetwork
      * @Type bool
-     * @Group 0c61aa8506194ca714d0fe1c4a0b57ff:63
+     * @Group 0c61aa8506194ca714d0fe1c4a0b57ff:64
      * @var bool|null
      */
     private $sendResourcePriorityToNetwork = null;
@@ -35,7 +35,7 @@ class ResellerResourcePriorityGetResponse extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName resourcePriority
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ResourcePriorityValue
-     * @Group 0c61aa8506194ca714d0fe1c4a0b57ff:63
+     * @Group 0c61aa8506194ca714d0fe1c4a0b57ff:64
      * @var \CWM\BroadWorksConnector\Ocip\Models\ResourcePriorityValue|null
      */
     private $resourcePriority = null;

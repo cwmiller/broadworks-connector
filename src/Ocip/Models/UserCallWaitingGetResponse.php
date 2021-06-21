@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to UserCallWaitingGetRequest.
  *
  * @see UserCallWaitingGetRequest
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:41772","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:41826","type":"sequence"}]
  */
 class UserCallWaitingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class UserCallWaitingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:41772
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:41826
      * @var bool|null
      */
     private $isActive = null;

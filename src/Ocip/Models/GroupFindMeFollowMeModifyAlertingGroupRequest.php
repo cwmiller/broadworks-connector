@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"79f226053ee345f2ff4c37c37c8e9114:444","type":"sequence"}]
+ * @Groups [{"id":"79f226053ee345f2ff4c37c37c8e9114:445","type":"sequence"}]
  */
 class GroupFindMeFollowMeModifyAlertingGroupRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupFindMeFollowMeModifyAlertingGroupRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group 79f226053ee345f2ff4c37c37c8e9114:444
+     * @Group 79f226053ee345f2ff4c37c37c8e9114:445
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -28,7 +28,7 @@ class GroupFindMeFollowMeModifyAlertingGroupRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName alertingGroupName
      * @Type string
-     * @Group 79f226053ee345f2ff4c37c37c8e9114:444
+     * @Group 79f226053ee345f2ff4c37c37c8e9114:445
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -39,7 +39,7 @@ class GroupFindMeFollowMeModifyAlertingGroupRequest extends \CWM\BroadWorksConne
      * @ElementName newAlertingGroupName
      * @Type string
      * @Optional
-     * @Group 79f226053ee345f2ff4c37c37c8e9114:444
+     * @Group 79f226053ee345f2ff4c37c37c8e9114:445
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -51,7 +51,7 @@ class GroupFindMeFollowMeModifyAlertingGroupRequest extends \CWM\BroadWorksConne
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 79f226053ee345f2ff4c37c37c8e9114:444
+     * @Group 79f226053ee345f2ff4c37c37c8e9114:445
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -62,7 +62,7 @@ class GroupFindMeFollowMeModifyAlertingGroupRequest extends \CWM\BroadWorksConne
      * @ElementName useDiversionInhibitor
      * @Type bool
      * @Optional
-     * @Group 79f226053ee345f2ff4c37c37c8e9114:444
+     * @Group 79f226053ee345f2ff4c37c37c8e9114:445
      * @var bool|null
      */
     private $useDiversionInhibitor = null;
@@ -71,7 +71,7 @@ class GroupFindMeFollowMeModifyAlertingGroupRequest extends \CWM\BroadWorksConne
      * @ElementName answerConfirmationRequired
      * @Type bool
      * @Optional
-     * @Group 79f226053ee345f2ff4c37c37c8e9114:444
+     * @Group 79f226053ee345f2ff4c37c37c8e9114:445
      * @var bool|null
      */
     private $answerConfirmationRequired = null;
@@ -80,7 +80,7 @@ class GroupFindMeFollowMeModifyAlertingGroupRequest extends \CWM\BroadWorksConne
      * @ElementName numberOfRings
      * @Type int
      * @Optional
-     * @Group 79f226053ee345f2ff4c37c37c8e9114:444
+     * @Group 79f226053ee345f2ff4c37c37c8e9114:445
      * @MinInclusive 2
      * @MaxInclusive 20
      * @var int|null
@@ -92,7 +92,7 @@ class GroupFindMeFollowMeModifyAlertingGroupRequest extends \CWM\BroadWorksConne
      * @Type \CWM\BroadWorksConnector\Ocip\Models\FindMeFollowMeAlertingGroupReplacementOutgoingDNSIPURIorUserIdList
      * @Nillable
      * @Optional
-     * @Group 79f226053ee345f2ff4c37c37c8e9114:444
+     * @Group 79f226053ee345f2ff4c37c37c8e9114:445
      * @var \CWM\BroadWorksConnector\Ocip\Models\FindMeFollowMeAlertingGroupReplacementOutgoingDNSIPURIorUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $phoneNumberOrUserList = null;
@@ -102,7 +102,7 @@ class GroupFindMeFollowMeModifyAlertingGroupRequest extends \CWM\BroadWorksConne
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CriteriaActivation
      * @Array
      * @Optional
-     * @Group 79f226053ee345f2ff4c37c37c8e9114:444
+     * @Group 79f226053ee345f2ff4c37c37c8e9114:445
      * @var \CWM\BroadWorksConnector\Ocip\Models\CriteriaActivation[]
      */
     private $criteriaActivation = array(

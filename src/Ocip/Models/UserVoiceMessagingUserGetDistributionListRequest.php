@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserVoiceMessagingUserGetDistributionListResponse
  * @see ErrorResponse
- * @Groups [{"id":"3347d430e0d5c93a9ff8dcf0e3b60d6c:1765","type":"sequence"}]
+ * @Groups [{"id":"3347d430e0d5c93a9ff8dcf0e3b60d6c:1766","type":"sequence"}]
  */
 class UserVoiceMessagingUserGetDistributionListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserVoiceMessagingUserGetDistributionListRequest extends \CWM\BroadWorksCo
     /**
      * @ElementName userId
      * @Type string
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1765
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1766
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -28,7 +28,7 @@ class UserVoiceMessagingUserGetDistributionListRequest extends \CWM\BroadWorksCo
     /**
      * @ElementName listId
      * @Type int
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1765
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1766
      * @MinInclusive 0
      * @MaxInclusive 14
      * @var int|null

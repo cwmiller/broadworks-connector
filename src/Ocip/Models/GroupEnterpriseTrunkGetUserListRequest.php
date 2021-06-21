@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupEnterpriseTrunkGetUserListResponse
  * @see ErrorResponse
- * @Groups [{"id":"b9c14e2d80e4e7749688ca13ba233b44:867","type":"sequence"}]
+ * @Groups [{"id":"b9c14e2d80e4e7749688ca13ba233b44:868","type":"sequence"}]
  */
 class GroupEnterpriseTrunkGetUserListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class GroupEnterpriseTrunkGetUserListRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group b9c14e2d80e4e7749688ca13ba233b44:867
+     * @Group b9c14e2d80e4e7749688ca13ba233b44:868
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -30,7 +30,7 @@ class GroupEnterpriseTrunkGetUserListRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName groupId
      * @Type string
-     * @Group b9c14e2d80e4e7749688ca13ba233b44:867
+     * @Group b9c14e2d80e4e7749688ca13ba233b44:868
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -40,7 +40,7 @@ class GroupEnterpriseTrunkGetUserListRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName enterpriseTrunkName
      * @Type string
-     * @Group b9c14e2d80e4e7749688ca13ba233b44:867
+     * @Group b9c14e2d80e4e7749688ca13ba233b44:868
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -51,7 +51,7 @@ class GroupEnterpriseTrunkGetUserListRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group b9c14e2d80e4e7749688ca13ba233b44:867
+     * @Group b9c14e2d80e4e7749688ca13ba233b44:868
      * @MinInclusive 1
      * @var int|null
      */
@@ -62,7 +62,7 @@ class GroupEnterpriseTrunkGetUserListRequest extends \CWM\BroadWorksConnector\Oc
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName
      * @Array
      * @Optional
-     * @Group b9c14e2d80e4e7749688ca13ba233b44:867
+     * @Group b9c14e2d80e4e7749688ca13ba233b44:868
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[]
      */
     private $searchCriteriaUserLastName = array(
@@ -74,7 +74,7 @@ class GroupEnterpriseTrunkGetUserListRequest extends \CWM\BroadWorksConnector\Oc
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName
      * @Array
      * @Optional
-     * @Group b9c14e2d80e4e7749688ca13ba233b44:867
+     * @Group b9c14e2d80e4e7749688ca13ba233b44:868
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName[]
      */
     private $searchCriteriaUserFirstName = array(
@@ -86,7 +86,7 @@ class GroupEnterpriseTrunkGetUserListRequest extends \CWM\BroadWorksConnector\Oc
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn
      * @Array
      * @Optional
-     * @Group b9c14e2d80e4e7749688ca13ba233b44:867
+     * @Group b9c14e2d80e4e7749688ca13ba233b44:868
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[]
      */
     private $searchCriteriaDn = array(
@@ -98,7 +98,7 @@ class GroupEnterpriseTrunkGetUserListRequest extends \CWM\BroadWorksConnector\Oc
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId
      * @Array
      * @Optional
-     * @Group b9c14e2d80e4e7749688ca13ba233b44:867
+     * @Group b9c14e2d80e4e7749688ca13ba233b44:868
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId[]
      */
     private $searchCriteriaUserId = array(
@@ -110,7 +110,7 @@ class GroupEnterpriseTrunkGetUserListRequest extends \CWM\BroadWorksConnector\Oc
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId
      * @Array
      * @Optional
-     * @Group b9c14e2d80e4e7749688ca13ba233b44:867
+     * @Group b9c14e2d80e4e7749688ca13ba233b44:868
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId[]
      */
     private $searchCriteriaGroupId = array(
@@ -122,7 +122,7 @@ class GroupEnterpriseTrunkGetUserListRequest extends \CWM\BroadWorksConnector\Oc
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaAlternateTrunkIdentity
      * @Array
      * @Optional
-     * @Group b9c14e2d80e4e7749688ca13ba233b44:867
+     * @Group b9c14e2d80e4e7749688ca13ba233b44:868
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaAlternateTrunkIdentity[]
      */
     private $searchCriteriaAlternateTrunkIdentity = array(
@@ -134,7 +134,7 @@ class GroupEnterpriseTrunkGetUserListRequest extends \CWM\BroadWorksConnector\Oc
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaAlternateTrunkIdentityDomain
      * @Array
      * @Optional
-     * @Group b9c14e2d80e4e7749688ca13ba233b44:867
+     * @Group b9c14e2d80e4e7749688ca13ba233b44:868
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaAlternateTrunkIdentityDomain[]
      */
     private $searchCriteriaAlternateTrunkIdentityDomain = array(
@@ -146,7 +146,7 @@ class GroupEnterpriseTrunkGetUserListRequest extends \CWM\BroadWorksConnector\Oc
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension
      * @Array
      * @Optional
-     * @Group b9c14e2d80e4e7749688ca13ba233b44:867
+     * @Group b9c14e2d80e4e7749688ca13ba233b44:868
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension[]
      */
     private $searchCriteriaExtension = array(
@@ -158,7 +158,7 @@ class GroupEnterpriseTrunkGetUserListRequest extends \CWM\BroadWorksConnector\Oc
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment
      * @Array
      * @Optional
-     * @Group b9c14e2d80e4e7749688ca13ba233b44:867
+     * @Group b9c14e2d80e4e7749688ca13ba233b44:868
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment[]
      */
     private $searchCriteriaExactUserDepartment = array(
@@ -170,7 +170,7 @@ class GroupEnterpriseTrunkGetUserListRequest extends \CWM\BroadWorksConnector\Oc
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserRouteListAssigned
      * @Array
      * @Optional
-     * @Group b9c14e2d80e4e7749688ca13ba233b44:867
+     * @Group b9c14e2d80e4e7749688ca13ba233b44:868
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserRouteListAssigned[]
      */
     private $searchCriteriaExactUserRouteListAssigned = array(

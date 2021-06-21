@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserMeetMeConferencingGetConferenceRequest20
  * @see UserMeetMeConferencingGetConferenceResponse23
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:45219","type":"sequence","children":[{"id":"ab0042aa512abc10edb3c55e4b416b0b:45222","type":"choice"}]}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:45273","type":"sequence","children":[{"id":"ab0042aa512abc10edb3c55e4b416b0b:45276","type":"choice"}]}]
  */
 class UserMeetMeConferencingGetConferenceResponse20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -20,7 +20,7 @@ class UserMeetMeConferencingGetConferenceResponse20 extends \CWM\BroadWorksConne
     /**
      * @ElementName title
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:45219
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:45273
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -31,7 +31,7 @@ class UserMeetMeConferencingGetConferenceResponse20 extends \CWM\BroadWorksConne
      * @ElementName estimatedParticipants
      * @Type int
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:45219
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:45273
      * @MinInclusive 1
      * @MaxInclusive 294
      * @var int|null
@@ -41,7 +41,7 @@ class UserMeetMeConferencingGetConferenceResponse20 extends \CWM\BroadWorksConne
     /**
      * @ElementName restrictParticipants
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:45222
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:45276
      * @var bool|null
      */
     private $restrictParticipants = null;
@@ -49,7 +49,7 @@ class UserMeetMeConferencingGetConferenceResponse20 extends \CWM\BroadWorksConne
     /**
      * @ElementName maxParticipants
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:45222
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:45276
      * @MinInclusive 1
      * @MaxInclusive 294
      * @var int|null
@@ -60,7 +60,7 @@ class UserMeetMeConferencingGetConferenceResponse20 extends \CWM\BroadWorksConne
      * @ElementName accountCode
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:45219
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:45273
      * @MinLength 1
      * @MaxLength 50
      * @var string|null
@@ -70,7 +70,7 @@ class UserMeetMeConferencingGetConferenceResponse20 extends \CWM\BroadWorksConne
     /**
      * @ElementName muteAllAttendeesOnEntry
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:45219
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:45273
      * @var bool|null
      */
     private $muteAllAttendeesOnEntry = null;
@@ -78,7 +78,7 @@ class UserMeetMeConferencingGetConferenceResponse20 extends \CWM\BroadWorksConne
     /**
      * @ElementName endConferenceOnModeratorExit
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:45219
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:45273
      * @var bool|null
      */
     private $endConferenceOnModeratorExit = null;
@@ -86,7 +86,7 @@ class UserMeetMeConferencingGetConferenceResponse20 extends \CWM\BroadWorksConne
     /**
      * @ElementName moderatorRequired
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:45219
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:45273
      * @var bool|null
      */
     private $moderatorRequired = null;
@@ -94,7 +94,7 @@ class UserMeetMeConferencingGetConferenceResponse20 extends \CWM\BroadWorksConne
     /**
      * @ElementName requireSecurityPin
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:45219
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:45273
      * @var bool|null
      */
     private $requireSecurityPin = null;
@@ -103,7 +103,7 @@ class UserMeetMeConferencingGetConferenceResponse20 extends \CWM\BroadWorksConne
      * @ElementName securityPin
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:45219
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:45273
      * @MinLength 4
      * @MaxLength 12
      * @var string|null
@@ -113,7 +113,7 @@ class UserMeetMeConferencingGetConferenceResponse20 extends \CWM\BroadWorksConne
     /**
      * @ElementName allowUniqueIdentifier
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:45219
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:45273
      * @var bool|null
      */
     private $allowUniqueIdentifier = null;
@@ -121,7 +121,7 @@ class UserMeetMeConferencingGetConferenceResponse20 extends \CWM\BroadWorksConne
     /**
      * @ElementName attendeeNotification
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceAttendeeNotification
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:45219
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:45273
      * @var \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceAttendeeNotification|null
      */
     private $attendeeNotification = null;
@@ -129,7 +129,7 @@ class UserMeetMeConferencingGetConferenceResponse20 extends \CWM\BroadWorksConne
     /**
      * @ElementName conferenceSchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceSchedule
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:45219
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:45273
      * @var \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceSchedule|null
      */
     private $conferenceSchedule = null;
@@ -137,7 +137,7 @@ class UserMeetMeConferencingGetConferenceResponse20 extends \CWM\BroadWorksConne
     /**
      * @ElementName moderatorPin
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:45219
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:45273
      * @MinLength 6
      * @MaxLength 12
      * @var string|null
@@ -147,7 +147,7 @@ class UserMeetMeConferencingGetConferenceResponse20 extends \CWM\BroadWorksConne
     /**
      * @ElementName hostTimeZone
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:45219
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:45273
      * @MinLength 1
      * @MaxLength 127
      * @var string|null

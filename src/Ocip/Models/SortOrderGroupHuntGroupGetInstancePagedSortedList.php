@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Used to sort the GroupHuntGroupGetInstancePagedSortedListRequest request.
  *
  * @see GroupHuntGroupGetInstancePagedSortedListRequest
- * @Groups [{"id":"bc829065f9d696d3ca7084121d57f8c0:653","type":"choice"}]
+ * @Groups [{"id":"bc829065f9d696d3ca7084121d57f8c0:654","type":"choice"}]
  */
 class SortOrderGroupHuntGroupGetInstancePagedSortedList
 {
@@ -16,7 +16,7 @@ class SortOrderGroupHuntGroupGetInstancePagedSortedList
     /**
      * @ElementName sortByUserId
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByUserId
-     * @Group bc829065f9d696d3ca7084121d57f8c0:653
+     * @Group bc829065f9d696d3ca7084121d57f8c0:654
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByUserId|null
      */
     private $sortByUserId = null;
@@ -24,7 +24,7 @@ class SortOrderGroupHuntGroupGetInstancePagedSortedList
     /**
      * @ElementName sortByUserLastName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByUserLastName
-     * @Group bc829065f9d696d3ca7084121d57f8c0:653
+     * @Group bc829065f9d696d3ca7084121d57f8c0:654
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByUserLastName|null
      */
     private $sortByUserLastName = null;
@@ -32,7 +32,7 @@ class SortOrderGroupHuntGroupGetInstancePagedSortedList
     /**
      * @ElementName sortByDn
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByDn
-     * @Group bc829065f9d696d3ca7084121d57f8c0:653
+     * @Group bc829065f9d696d3ca7084121d57f8c0:654
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByDn|null
      */
     private $sortByDn = null;
@@ -40,7 +40,7 @@ class SortOrderGroupHuntGroupGetInstancePagedSortedList
     /**
      * @ElementName sortByExtension
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByExtension
-     * @Group bc829065f9d696d3ca7084121d57f8c0:653
+     * @Group bc829065f9d696d3ca7084121d57f8c0:654
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByExtension|null
      */
     private $sortByExtension = null;

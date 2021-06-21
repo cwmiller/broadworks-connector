@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemBroadWorksMobilityGetMobileNetworkIMRNListRequest.
  *
  * @see SystemBroadWorksMobilityGetMobileNetworkIMRNListRequest
- * @Groups [{"id":"f7ae3539fd471e995b07dc1bf8836e2d:1014","type":"sequence"}]
+ * @Groups [{"id":"f7ae3539fd471e995b07dc1bf8836e2d:1015","type":"sequence"}]
  */
 class SystemBroadWorksMobilityGetMobileNetworkIMRNListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class SystemBroadWorksMobilityGetMobileNetworkIMRNListResponse extends \CWM\Broa
      * @Type string
      * @Array
      * @Optional
-     * @Group f7ae3539fd471e995b07dc1bf8836e2d:1014
+     * @Group f7ae3539fd471e995b07dc1bf8836e2d:1015
      * @MinLength 1
      * @MaxLength 23
      * @var string[]

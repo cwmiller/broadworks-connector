@@ -16,7 +16,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"74a46a9bfccb54713c1d19735843f1df:298","type":"sequence"}]
+ * @Groups [{"id":"74a46a9bfccb54713c1d19735843f1df:299","type":"sequence"}]
  */
 class ServiceProviderPreferredCarrierModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -24,7 +24,7 @@ class ServiceProviderPreferredCarrierModifyRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 74a46a9bfccb54713c1d19735843f1df:298
+     * @Group 74a46a9bfccb54713c1d19735843f1df:299
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -34,7 +34,7 @@ class ServiceProviderPreferredCarrierModifyRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName countryCode
      * @Type string
-     * @Group 74a46a9bfccb54713c1d19735843f1df:298
+     * @Group 74a46a9bfccb54713c1d19735843f1df:299
      * @MaxLength 3
      * @Pattern [0-9]|[1-9][0-9]{1,2}
      * @var string|null
@@ -46,7 +46,7 @@ class ServiceProviderPreferredCarrierModifyRequest extends \CWM\BroadWorksConnec
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 74a46a9bfccb54713c1d19735843f1df:298
+     * @Group 74a46a9bfccb54713c1d19735843f1df:299
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -58,7 +58,7 @@ class ServiceProviderPreferredCarrierModifyRequest extends \CWM\BroadWorksConnec
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 74a46a9bfccb54713c1d19735843f1df:298
+     * @Group 74a46a9bfccb54713c1d19735843f1df:299
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -70,7 +70,7 @@ class ServiceProviderPreferredCarrierModifyRequest extends \CWM\BroadWorksConnec
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 74a46a9bfccb54713c1d19735843f1df:298
+     * @Group 74a46a9bfccb54713c1d19735843f1df:299
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil

@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"b9c14e2d80e4e7749688ca13ba233b44:1648","type":"sequence"}]
+ * @Groups [{"id":"b9c14e2d80e4e7749688ca13ba233b44:1649","type":"sequence"}]
  */
 class ServiceProviderTrunkGroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class ServiceProviderTrunkGroupModifyRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group b9c14e2d80e4e7749688ca13ba233b44:1648
+     * @Group b9c14e2d80e4e7749688ca13ba233b44:1649
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -29,7 +29,7 @@ class ServiceProviderTrunkGroupModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName maxActiveCalls
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt
      * @Optional
-     * @Group b9c14e2d80e4e7749688ca13ba233b44:1648
+     * @Group b9c14e2d80e4e7749688ca13ba233b44:1649
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt|null
      */
     private $maxActiveCalls = null;
@@ -38,7 +38,7 @@ class ServiceProviderTrunkGroupModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName burstingMaxActiveCalls
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt
      * @Optional
-     * @Group b9c14e2d80e4e7749688ca13ba233b44:1648
+     * @Group b9c14e2d80e4e7749688ca13ba233b44:1649
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt|null
      */
     private $burstingMaxActiveCalls = null;
@@ -47,7 +47,7 @@ class ServiceProviderTrunkGroupModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName numberOfBurstingBTLUs
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt
      * @Optional
-     * @Group b9c14e2d80e4e7749688ca13ba233b44:1648
+     * @Group b9c14e2d80e4e7749688ca13ba233b44:1649
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt|null
      */
     private $numberOfBurstingBTLUs = null;

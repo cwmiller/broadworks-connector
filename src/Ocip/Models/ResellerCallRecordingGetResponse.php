@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *          The response contains the reseller’s Call Recording attribute.
  *
  * @see ResellerCallRecordingGetRequest
- * @Groups [{"id":"9741e074fbfeb4c7312bfa4dfbaee3d3:174","type":"sequence"}]
+ * @Groups [{"id":"9741e074fbfeb4c7312bfa4dfbaee3d3:175","type":"sequence"}]
  */
 class ResellerCallRecordingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class ResellerCallRecordingGetResponse extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName FQDN
      * @Type string
      * @Optional
-     * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:174
+     * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:175
      * @MinLength 1
      * @MaxLength 80
      * @var string|null

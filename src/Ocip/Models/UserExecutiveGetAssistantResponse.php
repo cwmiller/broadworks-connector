@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The possible values for "Opt-in" column are "true" and "false".
  *
  * @see UserExecutiveGetAssistantsRequest
- * @Groups [{"id":"9a6dbade05624033cf7fe782b7c9a9a7:159","type":"sequence"}]
+ * @Groups [{"id":"9a6dbade05624033cf7fe782b7c9a9a7:160","type":"sequence"}]
  */
 class UserExecutiveGetAssistantResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -20,7 +20,7 @@ class UserExecutiveGetAssistantResponse extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName allowOptInOut
      * @Type bool
-     * @Group 9a6dbade05624033cf7fe782b7c9a9a7:159
+     * @Group 9a6dbade05624033cf7fe782b7c9a9a7:160
      * @var bool|null
      */
     private $allowOptInOut = null;
@@ -28,7 +28,7 @@ class UserExecutiveGetAssistantResponse extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName assistantUserTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 9a6dbade05624033cf7fe782b7c9a9a7:159
+     * @Group 9a6dbade05624033cf7fe782b7c9a9a7:160
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $assistantUserTable = null;

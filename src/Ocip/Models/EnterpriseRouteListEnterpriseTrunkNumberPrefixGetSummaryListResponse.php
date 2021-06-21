@@ -17,7 +17,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The “Extension Range End” column indicates the end for an extension range.
  *
  * @see EnterpriseRouteListEnterpriseTrunkNumberPrefixGetSummaryListRequest
- * @Groups [{"id":"3f28429898a57a7f7846d3877b22df9f:127","type":"sequence"}]
+ * @Groups [{"id":"3f28429898a57a7f7846d3877b22df9f:128","type":"sequence"}]
  */
 class EnterpriseRouteListEnterpriseTrunkNumberPrefixGetSummaryListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -25,7 +25,7 @@ class EnterpriseRouteListEnterpriseTrunkNumberPrefixGetSummaryListResponse exten
     /**
      * @ElementName prefixSummaryTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 3f28429898a57a7f7846d3877b22df9f:127
+     * @Group 3f28429898a57a7f7846d3877b22df9f:128
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $prefixSummaryTable = null;

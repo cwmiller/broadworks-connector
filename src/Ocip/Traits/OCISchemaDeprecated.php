@@ -1325,6 +1325,8 @@ use CWM\BroadWorksConnector\Ocip\Models\UserAnnouncementFileGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserAnnouncementFileGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserBasicCallLogsGetListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserBasicCallLogsGetListResponse;
+use CWM\BroadWorksConnector\Ocip\Models\UserAttendantConsoleGetRequest;
+use CWM\BroadWorksConnector\Ocip\Models\UserAttendantConsoleGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksAnywhereAddSelectiveCriteriaRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksAnywhereGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksAnywhereGetResponse;
@@ -10329,6 +10331,17 @@ trait OCISchemaDeprecated
      * @throws ValidationException
      */
     public function userBasicCallLogsGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\UserBasicCallLogsGetListRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param UserAttendantConsoleGetRequest $request
+     * @return UserAttendantConsoleGetResponse
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function userAttendantConsoleGetRequest(\CWM\BroadWorksConnector\Ocip\Models\UserAttendantConsoleGetRequest $request)
     {
         return $this->call($request);
     }

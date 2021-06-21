@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f7ae3539fd471e995b07dc1bf8836e2d:916","type":"sequence"}]
+ * @Groups [{"id":"f7ae3539fd471e995b07dc1bf8836e2d:917","type":"sequence"}]
  */
 class SystemBroadWorksMobilityGeographicalPoolPrefixDeleteListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemBroadWorksMobilityGeographicalPoolPrefixDeleteListRequest extends \C
     /**
      * @ElementName geographicalPoolName
      * @Type string
-     * @Group f7ae3539fd471e995b07dc1bf8836e2d:916
+     * @Group f7ae3539fd471e995b07dc1bf8836e2d:917
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -29,7 +29,7 @@ class SystemBroadWorksMobilityGeographicalPoolPrefixDeleteListRequest extends \C
      * @ElementName prefix
      * @Type string
      * @Array
-     * @Group f7ae3539fd471e995b07dc1bf8836e2d:916
+     * @Group f7ae3539fd471e995b07dc1bf8836e2d:917
      * @MinLength 2
      * @MaxLength 5
      * @var string[]

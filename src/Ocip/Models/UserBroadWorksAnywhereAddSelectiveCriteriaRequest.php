@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:39567","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:39621","type":"sequence"}]
  */
 class UserBroadWorksAnywhereAddSelectiveCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserBroadWorksAnywhereAddSelectiveCriteriaRequest extends \CWM\BroadWorksC
     /**
      * @ElementName userId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:39567
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:39621
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -28,7 +28,7 @@ class UserBroadWorksAnywhereAddSelectiveCriteriaRequest extends \CWM\BroadWorksC
     /**
      * @ElementName phoneNumber
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:39567
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:39621
      * @MinLength 1
      * @MaxLength 23
      * @var string|null
@@ -38,7 +38,7 @@ class UserBroadWorksAnywhereAddSelectiveCriteriaRequest extends \CWM\BroadWorksC
     /**
      * @ElementName criteriaName
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:39567
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:39621
      * @MinLength 1
      * @MaxLength 50
      * @var string|null
@@ -49,7 +49,7 @@ class UserBroadWorksAnywhereAddSelectiveCriteriaRequest extends \CWM\BroadWorksC
      * @ElementName timeSchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:39567
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:39621
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null
      */
     private $timeSchedule = null;
@@ -57,7 +57,7 @@ class UserBroadWorksAnywhereAddSelectiveCriteriaRequest extends \CWM\BroadWorksC
     /**
      * @ElementName fromDnCriteria
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDn
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:39567
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:39621
      * @var \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDn|null
      */
     private $fromDnCriteria = null;

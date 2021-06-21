@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to UserPrivacyGetRequest.
  *
  * @see UserPrivacyGetRequest
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:45653","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:45707","type":"sequence"}]
  */
 class UserPrivacyGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class UserPrivacyGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCID
     /**
      * @ElementName enableDirectoryPrivacy
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:45653
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:45707
      * @var bool|null
      */
     private $enableDirectoryPrivacy = null;

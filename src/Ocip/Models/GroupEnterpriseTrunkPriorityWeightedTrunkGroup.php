@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Trunk group details (order and weight) for each trunk group
  *
- * @Groups [{"id":"b9c14e2d80e4e7749688ca13ba233b44:1948","type":"sequence"}]
+ * @Groups [{"id":"b9c14e2d80e4e7749688ca13ba233b44:1949","type":"sequence"}]
  */
 class GroupEnterpriseTrunkPriorityWeightedTrunkGroup
 {
@@ -15,7 +15,7 @@ class GroupEnterpriseTrunkPriorityWeightedTrunkGroup
     /**
      * @ElementName trunkGroup
      * @Type string
-     * @Group b9c14e2d80e4e7749688ca13ba233b44:1948
+     * @Group b9c14e2d80e4e7749688ca13ba233b44:1949
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -25,7 +25,7 @@ class GroupEnterpriseTrunkPriorityWeightedTrunkGroup
     /**
      * @ElementName priority
      * @Type int
-     * @Group b9c14e2d80e4e7749688ca13ba233b44:1948
+     * @Group b9c14e2d80e4e7749688ca13ba233b44:1949
      * @MinInclusive 1
      * @MaxInclusive 10
      * @var int|null
@@ -35,7 +35,7 @@ class GroupEnterpriseTrunkPriorityWeightedTrunkGroup
     /**
      * @ElementName weight
      * @Type int
-     * @Group b9c14e2d80e4e7749688ca13ba233b44:1948
+     * @Group b9c14e2d80e4e7749688ca13ba233b44:1949
      * @MinInclusive 1
      * @MaxInclusive 65536
      * @var int|null

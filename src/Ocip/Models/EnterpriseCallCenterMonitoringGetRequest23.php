@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see EnterpriseCallCenterMonitoringGetResponse23
  * @see ErrorResponse
- * @Groups [{"id":"41b968f87257b8dd553215179161ccb4:48","type":"sequence"}]
+ * @Groups [{"id":"41b968f87257b8dd553215179161ccb4:49","type":"sequence"}]
  */
 class EnterpriseCallCenterMonitoringGetRequest23 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class EnterpriseCallCenterMonitoringGetRequest23 extends \CWM\BroadWorksConnecto
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 41b968f87257b8dd553215179161ccb4:48
+     * @Group 41b968f87257b8dd553215179161ccb4:49
      * @MinLength 1
      * @MaxLength 30
      * @var string|null

@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"939fd5846dfae8bdf58308d6cb9ebb12:494","type":"sequence"}]
+ * @Groups [{"id":"939fd5846dfae8bdf58308d6cb9ebb12:495","type":"sequence"}]
  */
 class ResellerCollaborateModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class ResellerCollaborateModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName resellerId
      * @Type string
-     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:494
+     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:495
      * @MinLength 1
      * @MaxLength 36
      * @var string|null
@@ -30,7 +30,7 @@ class ResellerCollaborateModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:494
+     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:495
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil

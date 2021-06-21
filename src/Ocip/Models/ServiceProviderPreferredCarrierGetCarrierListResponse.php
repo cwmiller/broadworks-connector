@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains the lists of carriers for a specified country code for a service provider / enterprise.
  *
  * @see ServiceProviderPreferredCarrierGetCarrierListRequest
- * @Groups [{"id":"74a46a9bfccb54713c1d19735843f1df:207","type":"sequence"}]
+ * @Groups [{"id":"74a46a9bfccb54713c1d19735843f1df:208","type":"sequence"}]
  */
 class ServiceProviderPreferredCarrierGetCarrierListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,7 +19,7 @@ class ServiceProviderPreferredCarrierGetCarrierListResponse extends \CWM\BroadWo
      * @Type string
      * @Array
      * @Optional
-     * @Group 74a46a9bfccb54713c1d19735843f1df:207
+     * @Group 74a46a9bfccb54713c1d19735843f1df:208
      * @MinLength 1
      * @MaxLength 80
      * @var string[]
@@ -33,7 +33,7 @@ class ServiceProviderPreferredCarrierGetCarrierListResponse extends \CWM\BroadWo
      * @Type string
      * @Array
      * @Optional
-     * @Group 74a46a9bfccb54713c1d19735843f1df:207
+     * @Group 74a46a9bfccb54713c1d19735843f1df:208
      * @MinLength 1
      * @MaxLength 80
      * @var string[]
@@ -47,7 +47,7 @@ class ServiceProviderPreferredCarrierGetCarrierListResponse extends \CWM\BroadWo
      * @Type string
      * @Array
      * @Optional
-     * @Group 74a46a9bfccb54713c1d19735843f1df:207
+     * @Group 74a46a9bfccb54713c1d19735843f1df:208
      * @MinLength 1
      * @MaxLength 80
      * @var string[]

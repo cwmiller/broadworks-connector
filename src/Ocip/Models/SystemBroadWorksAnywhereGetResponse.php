@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * The response to a SystemBroadWorksAnywhereGetRequest.
  *
  * @see SystemBroadWorksAnywhereGetRequest
- * @Groups [{"id":"72f634ecc58842ce9d362ca629a47ea9:231","type":"sequence"}]
+ * @Groups [{"id":"72f634ecc58842ce9d362ca629a47ea9:232","type":"sequence"}]
  */
 class SystemBroadWorksAnywhereGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class SystemBroadWorksAnywhereGetResponse extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName enableTransferNotification
      * @Type bool
-     * @Group 72f634ecc58842ce9d362ca629a47ea9:231
+     * @Group 72f634ecc58842ce9d362ca629a47ea9:232
      * @var bool|null
      */
     private $enableTransferNotification = null;

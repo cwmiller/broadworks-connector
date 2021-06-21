@@ -18,7 +18,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see UserGetLoginInfoResponse22V2
  * @see ErrorResponse
  * @see UserGetLoginInfoRequest22V3
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:43098","type":"sequence","children":[{"id":"ab0042aa512abc10edb3c55e4b416b0b:43099","type":"choice"}]}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:43152","type":"sequence","children":[{"id":"ab0042aa512abc10edb3c55e4b416b0b:43153","type":"choice"}]}]
  */
 class UserGetLoginInfoRequest22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -26,7 +26,7 @@ class UserGetLoginInfoRequest22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName userId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:43099
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:43153
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -36,7 +36,7 @@ class UserGetLoginInfoRequest22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName phoneNumber
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:43099
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:43153
      * @MinLength 1
      * @MaxLength 23
      * @var string|null
@@ -46,7 +46,7 @@ class UserGetLoginInfoRequest22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName linePort
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:43099
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:43153
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

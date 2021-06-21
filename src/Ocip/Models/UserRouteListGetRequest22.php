@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserRouteListGetResponse22
  * @see ErrorResponse
- * @Groups [{"id":"3f28429898a57a7f7846d3877b22df9f:819","type":"sequence"}]
+ * @Groups [{"id":"3f28429898a57a7f7846d3877b22df9f:820","type":"sequence"}]
  */
 class UserRouteListGetRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserRouteListGetRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\O
     /**
      * @ElementName userId
      * @Type string
-     * @Group 3f28429898a57a7f7846d3877b22df9f:819
+     * @Group 3f28429898a57a7f7846d3877b22df9f:820
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

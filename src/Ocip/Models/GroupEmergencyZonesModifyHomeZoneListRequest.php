@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"e71c2205fb31894f87810b330a85ede2:155","type":"sequence"}]
+ * @Groups [{"id":"e71c2205fb31894f87810b330a85ede2:156","type":"sequence"}]
  */
 class GroupEmergencyZonesModifyHomeZoneListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupEmergencyZonesModifyHomeZoneListRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group e71c2205fb31894f87810b330a85ede2:155
+     * @Group e71c2205fb31894f87810b330a85ede2:156
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +28,7 @@ class GroupEmergencyZonesModifyHomeZoneListRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName groupId
      * @Type string
-     * @Group e71c2205fb31894f87810b330a85ede2:155
+     * @Group e71c2205fb31894f87810b330a85ede2:156
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -40,7 +40,7 @@ class GroupEmergencyZonesModifyHomeZoneListRequest extends \CWM\BroadWorksConnec
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupEmergencyZonesModifyHomeZoneListRequestHomeZoneIpAddressList
      * @Array
      * @Optional
-     * @Group e71c2205fb31894f87810b330a85ede2:155
+     * @Group e71c2205fb31894f87810b330a85ede2:156
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupEmergencyZonesModifyHomeZoneListRequestHomeZoneIpAddressList[]
      */
     private $homeZoneIpAddressList = array(
@@ -52,7 +52,7 @@ class GroupEmergencyZonesModifyHomeZoneListRequest extends \CWM\BroadWorksConnec
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupEmergencyZonesModifyHomeZoneListRequestHomeZoneIpAddressRangeList
      * @Array
      * @Optional
-     * @Group e71c2205fb31894f87810b330a85ede2:155
+     * @Group e71c2205fb31894f87810b330a85ede2:156
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupEmergencyZonesModifyHomeZoneListRequestHomeZoneIpAddressRangeList[]
      */
     private $homeZoneIpAddressRangeList = array(

@@ -5,7 +5,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19GreetingsMenuKeys
  *
- * @Groups [{"id":"3347d430e0d5c93a9ff8dcf0e3b60d6c:1250","type":"sequence"}]
+ * @Groups [{"id":"3347d430e0d5c93a9ff8dcf0e3b60d6c:1251","type":"sequence"}]
  */
 class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19GreetingsMenuKeys
 {
@@ -15,7 +15,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19GreetingsMenuKeys
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1250
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1251
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -27,7 +27,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19GreetingsMenuKeys
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1250
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1251
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -38,7 +38,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19GreetingsMenuKeys
      * @ElementName returnToPreviousMenu
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1250
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1251
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -50,7 +50,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19GreetingsMenuKeys
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1250
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1251
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil

@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemVoiceMessageSummaryUpdateGetRequest.
  *
  * @see SystemVoiceMessageSummaryUpdateGetRequest
- * @Groups [{"id":"3347d430e0d5c93a9ff8dcf0e3b60d6c:549","type":"sequence"}]
+ * @Groups [{"id":"3347d430e0d5c93a9ff8dcf0e3b60d6c:550","type":"sequence"}]
  */
 class SystemVoiceMessageSummaryUpdateGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class SystemVoiceMessageSummaryUpdateGetResponse extends \CWM\BroadWorksConnecto
     /**
      * @ElementName sendSavedAndUrgentMWIOnNotification
      * @Type bool
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:549
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:550
      * @var bool|null
      */
     private $sendSavedAndUrgentMWIOnNotification = null;
@@ -24,7 +24,7 @@ class SystemVoiceMessageSummaryUpdateGetResponse extends \CWM\BroadWorksConnecto
     /**
      * @ElementName sendMessageSummaryUpdateOnRegister
      * @Type bool
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:549
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:550
      * @var bool|null
      */
     private $sendMessageSummaryUpdateOnRegister = null;
@@ -32,7 +32,7 @@ class SystemVoiceMessageSummaryUpdateGetResponse extends \CWM\BroadWorksConnecto
     /**
      * @ElementName minTimeBetweenMWIOnRegister
      * @Type int
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:549
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:550
      * @MinInclusive 0
      * @MaxInclusive 86400
      * @var int|null

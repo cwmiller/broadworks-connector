@@ -15,7 +15,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserCallCentersLoginGetListRequest
  * @see UserCallCenterGetResponse
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:40299","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:40353","type":"sequence"}]
  */
 class UserCallCenterGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -23,7 +23,7 @@ class UserCallCenterGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName userTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:40299
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:40353
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $userTable = null;

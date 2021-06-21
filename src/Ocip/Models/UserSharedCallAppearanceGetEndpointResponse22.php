@@ -14,7 +14,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           useHotline
  *
  * @see UserSharedCallAppearanceGetEndpointRequest
- * @Groups [{"id":"524e0d071a229a44af2f953d6b50db35:112","type":"sequence"}]
+ * @Groups [{"id":"524e0d071a229a44af2f953d6b50db35:113","type":"sequence"}]
  */
 class UserSharedCallAppearanceGetEndpointResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -22,7 +22,7 @@ class UserSharedCallAppearanceGetEndpointResponse22 extends \CWM\BroadWorksConne
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group 524e0d071a229a44af2f953d6b50db35:112
+     * @Group 524e0d071a229a44af2f953d6b50db35:113
      * @var bool|null
      */
     private $isActive = null;
@@ -30,7 +30,7 @@ class UserSharedCallAppearanceGetEndpointResponse22 extends \CWM\BroadWorksConne
     /**
      * @ElementName allowOrigination
      * @Type bool
-     * @Group 524e0d071a229a44af2f953d6b50db35:112
+     * @Group 524e0d071a229a44af2f953d6b50db35:113
      * @var bool|null
      */
     private $allowOrigination = null;
@@ -38,7 +38,7 @@ class UserSharedCallAppearanceGetEndpointResponse22 extends \CWM\BroadWorksConne
     /**
      * @ElementName allowTermination
      * @Type bool
-     * @Group 524e0d071a229a44af2f953d6b50db35:112
+     * @Group 524e0d071a229a44af2f953d6b50db35:113
      * @var bool|null
      */
     private $allowTermination = null;
@@ -46,7 +46,7 @@ class UserSharedCallAppearanceGetEndpointResponse22 extends \CWM\BroadWorksConne
     /**
      * @ElementName useHotline
      * @Type bool
-     * @Group 524e0d071a229a44af2f953d6b50db35:112
+     * @Group 524e0d071a229a44af2f953d6b50db35:113
      * @var bool|null
      */
     private $useHotline = null;
@@ -55,7 +55,7 @@ class UserSharedCallAppearanceGetEndpointResponse22 extends \CWM\BroadWorksConne
      * @ElementName hotlineContact
      * @Type string
      * @Optional
-     * @Group 524e0d071a229a44af2f953d6b50db35:112
+     * @Group 524e0d071a229a44af2f953d6b50db35:113
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SuccessResponse
  * @see ErrorResponse
  * @see UserMusicOnHoldUserModifyRequest16
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:45525","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:45579","type":"sequence"}]
  */
 class UserMusicOnHoldUserModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,7 +21,7 @@ class UserMusicOnHoldUserModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName userId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:45525
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:45579
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -32,7 +32,7 @@ class UserMusicOnHoldUserModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName source
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserSourceModify
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:45525
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:45579
      * @var \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserSourceModify|null
      */
     private $source = null;
@@ -41,7 +41,7 @@ class UserMusicOnHoldUserModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName useAlternateSourceForInternalCalls
      * @Type bool
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:45525
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:45579
      * @var bool|null
      */
     private $useAlternateSourceForInternalCalls = null;
@@ -50,7 +50,7 @@ class UserMusicOnHoldUserModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName internalSource
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserSourceModify
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:45525
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:45579
      * @var \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserSourceModify|null
      */
     private $internalSource = null;

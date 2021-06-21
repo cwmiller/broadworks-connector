@@ -14,7 +14,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"74a46a9bfccb54713c1d19735843f1df:116","type":"sequence"}]
+ * @Groups [{"id":"74a46a9bfccb54713c1d19735843f1df:117","type":"sequence"}]
  */
 class ServiceProviderPreferredCarrierAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -22,7 +22,7 @@ class ServiceProviderPreferredCarrierAddRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 74a46a9bfccb54713c1d19735843f1df:116
+     * @Group 74a46a9bfccb54713c1d19735843f1df:117
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -32,7 +32,7 @@ class ServiceProviderPreferredCarrierAddRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName countryCode
      * @Type string
-     * @Group 74a46a9bfccb54713c1d19735843f1df:116
+     * @Group 74a46a9bfccb54713c1d19735843f1df:117
      * @MaxLength 3
      * @Pattern [0-9]|[1-9][0-9]{1,2}
      * @var string|null
@@ -43,7 +43,7 @@ class ServiceProviderPreferredCarrierAddRequest extends \CWM\BroadWorksConnector
      * @ElementName intraLataCarrier
      * @Type string
      * @Optional
-     * @Group 74a46a9bfccb54713c1d19735843f1df:116
+     * @Group 74a46a9bfccb54713c1d19735843f1df:117
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -54,7 +54,7 @@ class ServiceProviderPreferredCarrierAddRequest extends \CWM\BroadWorksConnector
      * @ElementName interLataCarrier
      * @Type string
      * @Optional
-     * @Group 74a46a9bfccb54713c1d19735843f1df:116
+     * @Group 74a46a9bfccb54713c1d19735843f1df:117
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -65,7 +65,7 @@ class ServiceProviderPreferredCarrierAddRequest extends \CWM\BroadWorksConnector
      * @ElementName internationalCarrier
      * @Type string
      * @Optional
-     * @Group 74a46a9bfccb54713c1d19735843f1df:116
+     * @Group 74a46a9bfccb54713c1d19735843f1df:117
      * @MinLength 1
      * @MaxLength 80
      * @var string|null

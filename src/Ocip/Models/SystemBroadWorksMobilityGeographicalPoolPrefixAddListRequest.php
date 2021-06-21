@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f7ae3539fd471e995b07dc1bf8836e2d:899","type":"sequence"}]
+ * @Groups [{"id":"f7ae3539fd471e995b07dc1bf8836e2d:900","type":"sequence"}]
  */
 class SystemBroadWorksMobilityGeographicalPoolPrefixAddListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemBroadWorksMobilityGeographicalPoolPrefixAddListRequest extends \CWM\
     /**
      * @ElementName geographicalPoolName
      * @Type string
-     * @Group f7ae3539fd471e995b07dc1bf8836e2d:899
+     * @Group f7ae3539fd471e995b07dc1bf8836e2d:900
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -29,7 +29,7 @@ class SystemBroadWorksMobilityGeographicalPoolPrefixAddListRequest extends \CWM\
      * @ElementName prefix
      * @Type string
      * @Array
-     * @Group f7ae3539fd471e995b07dc1bf8836e2d:899
+     * @Group f7ae3539fd471e995b07dc1bf8836e2d:900
      * @MinLength 2
      * @MaxLength 5
      * @var string[]

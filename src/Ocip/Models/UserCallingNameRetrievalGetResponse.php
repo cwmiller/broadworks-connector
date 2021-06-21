@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to UserCallingNameRetrievalGetRequest.
  *
  * @see UserCallingNameRetrievalGetRequest
- * @Groups [{"id":"7abfb1e02a3465af832e0a8a8adfc741:130","type":"sequence"}]
+ * @Groups [{"id":"7abfb1e02a3465af832e0a8a8adfc741:131","type":"sequence"}]
  */
 class UserCallingNameRetrievalGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class UserCallingNameRetrievalGetResponse extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group 7abfb1e02a3465af832e0a8a8adfc741:130
+     * @Group 7abfb1e02a3465af832e0a8a8adfc741:131
      * @var bool|null
      */
     private $isActive = null;

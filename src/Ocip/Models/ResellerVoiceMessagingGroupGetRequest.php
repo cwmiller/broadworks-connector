@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see ResellerVoiceMessagingGroupGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"3347d430e0d5c93a9ff8dcf0e3b60d6c:321","type":"sequence"}]
+ * @Groups [{"id":"3347d430e0d5c93a9ff8dcf0e3b60d6c:322","type":"sequence"}]
  */
 class ResellerVoiceMessagingGroupGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class ResellerVoiceMessagingGroupGetRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName resellerId
      * @Type string
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:321
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:322
      * @MinLength 1
      * @MaxLength 36
      * @var string|null

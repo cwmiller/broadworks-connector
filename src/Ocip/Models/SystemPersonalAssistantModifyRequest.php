@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f53ece1c00394ef2d3d76f532f9a9663:81","type":"sequence"}]
+ * @Groups [{"id":"f53ece1c00394ef2d3d76f532f9a9663:82","type":"sequence"}]
  */
 class SystemPersonalAssistantModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class SystemPersonalAssistantModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @ElementName transferToAttendantKey
      * @Type string
      * @Optional
-     * @Group f53ece1c00394ef2d3d76f532f9a9663:81
+     * @Group f53ece1c00394ef2d3d76f532f9a9663:82
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -30,7 +30,7 @@ class SystemPersonalAssistantModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @ElementName transferToVoiceMessagingKey
      * @Type string
      * @Optional
-     * @Group f53ece1c00394ef2d3d76f532f9a9663:81
+     * @Group f53ece1c00394ef2d3d76f532f9a9663:82
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null

@@ -20,7 +20,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupCollaborateBridgeGetInstancePagedSortedListResponse
  * @see ErrorResponse
- * @Groups [{"id":"939fd5846dfae8bdf58308d6cb9ebb12:347","type":"sequence"}]
+ * @Groups [{"id":"939fd5846dfae8bdf58308d6cb9ebb12:348","type":"sequence"}]
  */
 class GroupCollaborateBridgeGetInstancePagedSortedListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -28,7 +28,7 @@ class GroupCollaborateBridgeGetInstancePagedSortedListRequest extends \CWM\Broad
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:347
+     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:348
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -38,7 +38,7 @@ class GroupCollaborateBridgeGetInstancePagedSortedListRequest extends \CWM\Broad
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:347
+     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:348
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -49,7 +49,7 @@ class GroupCollaborateBridgeGetInstancePagedSortedListRequest extends \CWM\Broad
      * @ElementName responsePagingControl
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl
      * @Optional
-     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:347
+     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:348
      * @var \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl|null
      */
     private $responsePagingControl = null;
@@ -59,7 +59,7 @@ class GroupCollaborateBridgeGetInstancePagedSortedListRequest extends \CWM\Broad
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortOrderGroupCollaborateBridgeGetInstancePagedSortedList
      * @Array
      * @Optional
-     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:347
+     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:348
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortOrderGroupCollaborateBridgeGetInstancePagedSortedList[]
      */
     private $sortOrder = array(
@@ -71,7 +71,7 @@ class GroupCollaborateBridgeGetInstancePagedSortedListRequest extends \CWM\Broad
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName
      * @Array
      * @Optional
-     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:347
+     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:348
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[]
      */
     private $searchCriteriaUserLastName = array(
@@ -83,7 +83,7 @@ class GroupCollaborateBridgeGetInstancePagedSortedListRequest extends \CWM\Broad
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDepartmentName
      * @Array
      * @Optional
-     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:347
+     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:348
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDepartmentName[]
      */
     private $searchCriteriaDepartmentName = array(
@@ -95,7 +95,7 @@ class GroupCollaborateBridgeGetInstancePagedSortedListRequest extends \CWM\Broad
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId
      * @Array
      * @Optional
-     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:347
+     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:348
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId[]
      */
     private $searchCriteriaUserId = array(
@@ -107,7 +107,7 @@ class GroupCollaborateBridgeGetInstancePagedSortedListRequest extends \CWM\Broad
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn
      * @Array
      * @Optional
-     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:347
+     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:348
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[]
      */
     private $searchCriteriaDn = array(
@@ -119,7 +119,7 @@ class GroupCollaborateBridgeGetInstancePagedSortedListRequest extends \CWM\Broad
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension
      * @Array
      * @Optional
-     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:347
+     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:348
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension[]
      */
     private $searchCriteriaExtension = array(
@@ -130,7 +130,7 @@ class GroupCollaborateBridgeGetInstancePagedSortedListRequest extends \CWM\Broad
      * @ElementName searchCriteriaExactDnActivation
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDnActivation
      * @Optional
-     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:347
+     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:348
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDnActivation|null
      */
     private $searchCriteriaExactDnActivation = null;
@@ -139,7 +139,7 @@ class GroupCollaborateBridgeGetInstancePagedSortedListRequest extends \CWM\Broad
      * @ElementName searchCriteriaModeOr
      * @Type bool
      * @Optional
-     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:347
+     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:348
      * @var bool|null
      */
     private $searchCriteriaModeOr = null;

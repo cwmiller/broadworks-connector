@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupCollaborateBridgeGetAvailableUserListResponse
  * @see ErrorResponse
- * @Groups [{"id":"939fd5846dfae8bdf58308d6cb9ebb12:204","type":"sequence"}]
+ * @Groups [{"id":"939fd5846dfae8bdf58308d6cb9ebb12:205","type":"sequence"}]
  */
 class GroupCollaborateBridgeGetAvailableUserListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class GroupCollaborateBridgeGetAvailableUserListRequest extends \CWM\BroadWorksC
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:204
+     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:205
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -29,7 +29,7 @@ class GroupCollaborateBridgeGetAvailableUserListRequest extends \CWM\BroadWorksC
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:204
+     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:205
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -40,7 +40,7 @@ class GroupCollaborateBridgeGetAvailableUserListRequest extends \CWM\BroadWorksC
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:204
+     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:205
      * @MinInclusive 1
      * @var int|null
      */
@@ -51,7 +51,7 @@ class GroupCollaborateBridgeGetAvailableUserListRequest extends \CWM\BroadWorksC
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName
      * @Array
      * @Optional
-     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:204
+     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:205
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[]
      */
     private $searchCriteriaUserLastName = array(
@@ -63,7 +63,7 @@ class GroupCollaborateBridgeGetAvailableUserListRequest extends \CWM\BroadWorksC
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName
      * @Array
      * @Optional
-     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:204
+     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:205
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName[]
      */
     private $searchCriteriaUserFirstName = array(
@@ -75,7 +75,7 @@ class GroupCollaborateBridgeGetAvailableUserListRequest extends \CWM\BroadWorksC
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId
      * @Array
      * @Optional
-     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:204
+     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:205
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId[]
      */
     private $searchCriteriaUserId = array(
@@ -86,7 +86,7 @@ class GroupCollaborateBridgeGetAvailableUserListRequest extends \CWM\BroadWorksC
      * @ElementName searchCriteriaExactUserDepartment
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment
      * @Optional
-     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:204
+     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:205
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment|null
      */
     private $searchCriteriaExactUserDepartment = null;
@@ -95,7 +95,7 @@ class GroupCollaborateBridgeGetAvailableUserListRequest extends \CWM\BroadWorksC
      * @ElementName searchCriteriaExactUserGroup
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserGroup
      * @Optional
-     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:204
+     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:205
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserGroup|null
      */
     private $searchCriteriaExactUserGroup = null;
@@ -105,7 +105,7 @@ class GroupCollaborateBridgeGetAvailableUserListRequest extends \CWM\BroadWorksC
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn
      * @Array
      * @Optional
-     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:204
+     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:205
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[]
      */
     private $searchCriteriaDn = array(
@@ -117,7 +117,7 @@ class GroupCollaborateBridgeGetAvailableUserListRequest extends \CWM\BroadWorksC
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension
      * @Array
      * @Optional
-     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:204
+     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:205
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension[]
      */
     private $searchCriteriaExtension = array(

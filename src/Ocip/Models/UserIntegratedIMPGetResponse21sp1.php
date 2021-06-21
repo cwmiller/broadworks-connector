@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           isAlternateImpId
  *
  * @see UserIntegratedIMPGetRequest21sp1
- * @Groups [{"id":"23389100b68cef3aa07ee12ac7a2bd16:351","type":"sequence"}]
+ * @Groups [{"id":"23389100b68cef3aa07ee12ac7a2bd16:352","type":"sequence"}]
  */
 class UserIntegratedIMPGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -20,7 +20,7 @@ class UserIntegratedIMPGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group 23389100b68cef3aa07ee12ac7a2bd16:351
+     * @Group 23389100b68cef3aa07ee12ac7a2bd16:352
      * @var bool|null
      */
     private $isActive = null;
@@ -29,7 +29,7 @@ class UserIntegratedIMPGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName impId
      * @Type string
      * @Optional
-     * @Group 23389100b68cef3aa07ee12ac7a2bd16:351
+     * @Group 23389100b68cef3aa07ee12ac7a2bd16:352
      * @MinLength 1
      * @MaxLength 196
      * @var string|null
@@ -40,7 +40,7 @@ class UserIntegratedIMPGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName isAlternateImpId
      * @Type bool
      * @Optional
-     * @Group 23389100b68cef3aa07ee12ac7a2bd16:351
+     * @Group 23389100b68cef3aa07ee12ac7a2bd16:352
      * @var bool|null
      */
     private $isAlternateImpId = null;

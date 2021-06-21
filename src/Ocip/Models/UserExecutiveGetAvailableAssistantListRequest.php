@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserExecutiveGetAvailableAssistantListResponse
  * @see ErrorResponse
- * @Groups [{"id":"9a6dbade05624033cf7fe782b7c9a9a7:177","type":"sequence"}]
+ * @Groups [{"id":"9a6dbade05624033cf7fe782b7c9a9a7:178","type":"sequence"}]
  */
 class UserExecutiveGetAvailableAssistantListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class UserExecutiveGetAvailableAssistantListRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName userId
      * @Type string
-     * @Group 9a6dbade05624033cf7fe782b7c9a9a7:177
+     * @Group 9a6dbade05624033cf7fe782b7c9a9a7:178
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -30,7 +30,7 @@ class UserExecutiveGetAvailableAssistantListRequest extends \CWM\BroadWorksConne
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group 9a6dbade05624033cf7fe782b7c9a9a7:177
+     * @Group 9a6dbade05624033cf7fe782b7c9a9a7:178
      * @MinInclusive 1
      * @var int|null
      */
@@ -41,7 +41,7 @@ class UserExecutiveGetAvailableAssistantListRequest extends \CWM\BroadWorksConne
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName
      * @Array
      * @Optional
-     * @Group 9a6dbade05624033cf7fe782b7c9a9a7:177
+     * @Group 9a6dbade05624033cf7fe782b7c9a9a7:178
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[]
      */
     private $searchCriteriaUserLastName = array(
@@ -53,7 +53,7 @@ class UserExecutiveGetAvailableAssistantListRequest extends \CWM\BroadWorksConne
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName
      * @Array
      * @Optional
-     * @Group 9a6dbade05624033cf7fe782b7c9a9a7:177
+     * @Group 9a6dbade05624033cf7fe782b7c9a9a7:178
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName[]
      */
     private $searchCriteriaUserFirstName = array(
@@ -64,7 +64,7 @@ class UserExecutiveGetAvailableAssistantListRequest extends \CWM\BroadWorksConne
      * @ElementName searchCriteriaExactUserDepartment
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment
      * @Optional
-     * @Group 9a6dbade05624033cf7fe782b7c9a9a7:177
+     * @Group 9a6dbade05624033cf7fe782b7c9a9a7:178
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment|null
      */
     private $searchCriteriaExactUserDepartment = null;
@@ -73,7 +73,7 @@ class UserExecutiveGetAvailableAssistantListRequest extends \CWM\BroadWorksConne
      * @ElementName searchCriteriaExactUserGroup
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserGroup
      * @Optional
-     * @Group 9a6dbade05624033cf7fe782b7c9a9a7:177
+     * @Group 9a6dbade05624033cf7fe782b7c9a9a7:178
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserGroup|null
      */
     private $searchCriteriaExactUserGroup = null;
@@ -83,7 +83,7 @@ class UserExecutiveGetAvailableAssistantListRequest extends \CWM\BroadWorksConne
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId
      * @Array
      * @Optional
-     * @Group 9a6dbade05624033cf7fe782b7c9a9a7:177
+     * @Group 9a6dbade05624033cf7fe782b7c9a9a7:178
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId[]
      */
     private $searchCriteriaUserId = array(
@@ -95,7 +95,7 @@ class UserExecutiveGetAvailableAssistantListRequest extends \CWM\BroadWorksConne
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn
      * @Array
      * @Optional
-     * @Group 9a6dbade05624033cf7fe782b7c9a9a7:177
+     * @Group 9a6dbade05624033cf7fe782b7c9a9a7:178
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[]
      */
     private $searchCriteriaDn = array(
@@ -107,7 +107,7 @@ class UserExecutiveGetAvailableAssistantListRequest extends \CWM\BroadWorksConne
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension
      * @Array
      * @Optional
-     * @Group 9a6dbade05624033cf7fe782b7c9a9a7:177
+     * @Group 9a6dbade05624033cf7fe782b7c9a9a7:178
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension[]
      */
     private $searchCriteriaExtension = array(

@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * The voice portal message deposit menu keys.
  *
- * @Groups [{"id":"3347d430e0d5c93a9ff8dcf0e3b60d6c:2722","type":"sequence"}]
+ * @Groups [{"id":"3347d430e0d5c93a9ff8dcf0e3b60d6c:2723","type":"sequence"}]
  */
 class MessageDepositMenuKeysReadEntry
 {
@@ -16,7 +16,7 @@ class MessageDepositMenuKeysReadEntry
      * @ElementName enableMessageDeposit
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2722
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2723
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -27,7 +27,7 @@ class MessageDepositMenuKeysReadEntry
      * @ElementName disableMessageDeposit
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2722
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2723
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -38,7 +38,7 @@ class MessageDepositMenuKeysReadEntry
      * @ElementName listenToMessageDepositStatus
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2722
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2723
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -48,7 +48,7 @@ class MessageDepositMenuKeysReadEntry
     /**
      * @ElementName returnToPreviousMenu
      * @Type string
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2722
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2723
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -59,7 +59,7 @@ class MessageDepositMenuKeysReadEntry
      * @ElementName repeatMenu
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2722
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2723
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null

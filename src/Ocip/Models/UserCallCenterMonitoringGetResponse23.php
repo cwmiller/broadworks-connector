@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to UserCallCenterMonitoringGetRequest23.
  *
  * @see UserCallCenterMonitoringGetRequest23
- * @Groups [{"id":"41b968f87257b8dd553215179161ccb4:164","type":"sequence"}]
+ * @Groups [{"id":"41b968f87257b8dd553215179161ccb4:165","type":"sequence"}]
  */
 class UserCallCenterMonitoringGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class UserCallCenterMonitoringGetResponse23 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName playToneToAgentForSilentMonitoring
      * @Type bool
-     * @Group 41b968f87257b8dd553215179161ccb4:164
+     * @Group 41b968f87257b8dd553215179161ccb4:165
      * @var bool|null
      */
     private $playToneToAgentForSilentMonitoring = null;
@@ -24,7 +24,7 @@ class UserCallCenterMonitoringGetResponse23 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName playToneToAgentForSupervisorCoaching
      * @Type bool
-     * @Group 41b968f87257b8dd553215179161ccb4:164
+     * @Group 41b968f87257b8dd553215179161ccb4:165
      * @var bool|null
      */
     private $playToneToAgentForSupervisorCoaching = null;

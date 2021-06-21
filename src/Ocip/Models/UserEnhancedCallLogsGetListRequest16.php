@@ -15,7 +15,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see UserEnhancedCallLogsGetListResponse16
  * @see ErrorResponse
  * @see UserEnhancedCallLogsGetListRequest17sp4
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:42353","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:42407","type":"sequence"}]
  */
 class UserEnhancedCallLogsGetListRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -23,7 +23,7 @@ class UserEnhancedCallLogsGetListRequest16 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName userId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:42353
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:42407
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -34,7 +34,7 @@ class UserEnhancedCallLogsGetListRequest16 extends \CWM\BroadWorksConnector\Ocip
      * @ElementName callLogType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallLogsType
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:42353
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:42407
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallLogsType|null
      */
     private $callLogType = null;
@@ -43,7 +43,7 @@ class UserEnhancedCallLogsGetListRequest16 extends \CWM\BroadWorksConnector\Ocip
      * @ElementName responsePagingControl
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:42353
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:42407
      * @var \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl|null
      */
     private $responsePagingControl = null;

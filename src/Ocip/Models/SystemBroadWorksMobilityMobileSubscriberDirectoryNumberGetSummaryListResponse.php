@@ -14,7 +14,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *              "Reseller Id"
  *
  * @see SystemBroadWorksMobilityMobileSubscriberDirectoryNumberGetSummaryListRequest
- * @Groups [{"id":"f7ae3539fd471e995b07dc1bf8836e2d:1237","type":"sequence"}]
+ * @Groups [{"id":"f7ae3539fd471e995b07dc1bf8836e2d:1238","type":"sequence"}]
  */
 class SystemBroadWorksMobilityMobileSubscriberDirectoryNumberGetSummaryListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -22,7 +22,7 @@ class SystemBroadWorksMobilityMobileSubscriberDirectoryNumberGetSummaryListRespo
     /**
      * @ElementName mobileSubscriberDirectoryNumbersSummaryTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group f7ae3539fd471e995b07dc1bf8836e2d:1237
+     * @Group f7ae3539fd471e995b07dc1bf8836e2d:1238
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $mobileSubscriberDirectoryNumbersSummaryTable = null;

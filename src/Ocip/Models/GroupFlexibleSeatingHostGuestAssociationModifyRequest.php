@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"43afb2158d313a1d1a148124d7caba1e:258","type":"sequence"}]
+ * @Groups [{"id":"43afb2158d313a1d1a148124d7caba1e:259","type":"sequence"}]
  */
 class GroupFlexibleSeatingHostGuestAssociationModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class GroupFlexibleSeatingHostGuestAssociationModifyRequest extends \CWM\BroadWo
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group 43afb2158d313a1d1a148124d7caba1e:258
+     * @Group 43afb2158d313a1d1a148124d7caba1e:259
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -30,7 +30,7 @@ class GroupFlexibleSeatingHostGuestAssociationModifyRequest extends \CWM\BroadWo
      * @ElementName enforceAssociationLimit
      * @Type bool
      * @Optional
-     * @Group 43afb2158d313a1d1a148124d7caba1e:258
+     * @Group 43afb2158d313a1d1a148124d7caba1e:259
      * @var bool|null
      */
     private $enforceAssociationLimit = null;
@@ -39,7 +39,7 @@ class GroupFlexibleSeatingHostGuestAssociationModifyRequest extends \CWM\BroadWo
      * @ElementName associationLimitHours
      * @Type int
      * @Optional
-     * @Group 43afb2158d313a1d1a148124d7caba1e:258
+     * @Group 43afb2158d313a1d1a148124d7caba1e:259
      * @MinInclusive 1
      * @MaxInclusive 999
      * @var int|null
@@ -50,7 +50,7 @@ class GroupFlexibleSeatingHostGuestAssociationModifyRequest extends \CWM\BroadWo
      * @ElementName accessLevel
      * @Type \CWM\BroadWorksConnector\Ocip\Models\FlexibleSeatingHostAccessLevel
      * @Optional
-     * @Group 43afb2158d313a1d1a148124d7caba1e:258
+     * @Group 43afb2158d313a1d1a148124d7caba1e:259
      * @var \CWM\BroadWorksConnector\Ocip\Models\FlexibleSeatingHostAccessLevel|null
      */
     private $accessLevel = null;
@@ -59,7 +59,7 @@ class GroupFlexibleSeatingHostGuestAssociationModifyRequest extends \CWM\BroadWo
      * @ElementName removeGuestAssociation
      * @Type bool
      * @Optional
-     * @Group 43afb2158d313a1d1a148124d7caba1e:258
+     * @Group 43afb2158d313a1d1a148124d7caba1e:259
      * @var bool|null
      */
     private $removeGuestAssociation = null;

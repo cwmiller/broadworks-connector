@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"41b968f87257b8dd553215179161ccb4:131","type":"sequence"}]
+ * @Groups [{"id":"41b968f87257b8dd553215179161ccb4:132","type":"sequence"}]
  */
 class GroupCallCenterMonitoringModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupCallCenterMonitoringModifyRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 41b968f87257b8dd553215179161ccb4:131
+     * @Group 41b968f87257b8dd553215179161ccb4:132
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +28,7 @@ class GroupCallCenterMonitoringModifyRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 41b968f87257b8dd553215179161ccb4:131
+     * @Group 41b968f87257b8dd553215179161ccb4:132
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -39,7 +39,7 @@ class GroupCallCenterMonitoringModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName enableSupervisorCoaching
      * @Type bool
      * @Optional
-     * @Group 41b968f87257b8dd553215179161ccb4:131
+     * @Group 41b968f87257b8dd553215179161ccb4:132
      * @var bool|null
      */
     private $enableSupervisorCoaching = null;

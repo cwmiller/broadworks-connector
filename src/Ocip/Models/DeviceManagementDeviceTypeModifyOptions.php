@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Device Management System device type options during a modify request.
  *
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:48017","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:48071","type":"sequence"}]
  */
 class DeviceManagementDeviceTypeModifyOptions
 {
@@ -16,7 +16,7 @@ class DeviceManagementDeviceTypeModifyOptions
      * @ElementName deviceAccessProtocol
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DeviceAccessProtocol
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:48017
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:48071
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceAccessProtocol|null
      */
     private $deviceAccessProtocol = null;
@@ -25,7 +25,7 @@ class DeviceManagementDeviceTypeModifyOptions
      * @ElementName tagMode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementTagMode
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:48017
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:48071
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementTagMode|null
      */
     private $tagMode = null;
@@ -35,7 +35,7 @@ class DeviceManagementDeviceTypeModifyOptions
      * @Type string
      * @Nillable
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:48017
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:48071
      * @MinLength 1
      * @MaxLength 30
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -46,7 +46,7 @@ class DeviceManagementDeviceTypeModifyOptions
      * @ElementName allowDeviceProfileCustomTagSet
      * @Type bool
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:48017
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:48071
      * @var bool|null
      */
     private $allowDeviceProfileCustomTagSet = null;
@@ -55,7 +55,7 @@ class DeviceManagementDeviceTypeModifyOptions
      * @ElementName allowGroupCustomTagSet
      * @Type bool
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:48017
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:48071
      * @var bool|null
      */
     private $allowGroupCustomTagSet = null;
@@ -64,7 +64,7 @@ class DeviceManagementDeviceTypeModifyOptions
      * @ElementName sendEmailUponResetFailure
      * @Type bool
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:48017
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:48071
      * @var bool|null
      */
     private $sendEmailUponResetFailure = null;
@@ -74,7 +74,7 @@ class DeviceManagementDeviceTypeModifyOptions
      * @Type string
      * @Nillable
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:48017
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:48071
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -86,7 +86,7 @@ class DeviceManagementDeviceTypeModifyOptions
      * @Type int
      * @Nillable
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:48017
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:48071
      * @MinInclusive 1
      * @MaxInclusive 65535
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -98,7 +98,7 @@ class DeviceManagementDeviceTypeModifyOptions
      * @Type string
      * @Nillable
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:48017
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:48071
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -110,7 +110,7 @@ class DeviceManagementDeviceTypeModifyOptions
      * @Type string
      * @Nillable
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:48017
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:48071
      * @MinLength 1
      * @MaxLength 40
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -122,7 +122,7 @@ class DeviceManagementDeviceTypeModifyOptions
      * @Type string
      * @Nillable
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:48017
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:48071
      * @MinLength 1
      * @MaxLength 40
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -134,7 +134,7 @@ class DeviceManagementDeviceTypeModifyOptions
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementUserNamePassword
      * @Nillable
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:48017
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:48071
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementUserNamePassword|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $accessDeviceCredentials = null;
@@ -143,7 +143,7 @@ class DeviceManagementDeviceTypeModifyOptions
      * @ElementName useHttpDigestAuthentication
      * @Type bool
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:48017
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:48071
      * @var bool|null
      */
     private $useHttpDigestAuthentication = null;
@@ -152,7 +152,7 @@ class DeviceManagementDeviceTypeModifyOptions
      * @ElementName macBasedFileAuthentication
      * @Type bool
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:48017
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:48071
      * @var bool|null
      */
     private $macBasedFileAuthentication = null;
@@ -161,7 +161,7 @@ class DeviceManagementDeviceTypeModifyOptions
      * @ElementName userNamePasswordFileAuthentication
      * @Type bool
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:48017
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:48071
      * @var bool|null
      */
     private $userNamePasswordFileAuthentication = null;
@@ -170,7 +170,7 @@ class DeviceManagementDeviceTypeModifyOptions
      * @ElementName macInNonRequestURI
      * @Type bool
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:48017
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:48071
      * @var bool|null
      */
     private $macInNonRequestURI = null;
@@ -180,7 +180,7 @@ class DeviceManagementDeviceTypeModifyOptions
      * @Type string
      * @Nillable
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:48017
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:48071
      * @MinLength 1
      * @MaxLength 256
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil

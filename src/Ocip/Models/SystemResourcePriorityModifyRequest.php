@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"0c61aa8506194ca714d0fe1c4a0b57ff:129","type":"sequence"}]
+ * @Groups [{"id":"0c61aa8506194ca714d0fe1c4a0b57ff:130","type":"sequence"}]
  */
 class SystemResourcePriorityModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class SystemResourcePriorityModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName sendResourcePriorityToNetwork
      * @Type bool
      * @Optional
-     * @Group 0c61aa8506194ca714d0fe1c4a0b57ff:129
+     * @Group 0c61aa8506194ca714d0fe1c4a0b57ff:130
      * @var bool|null
      */
     private $sendResourcePriorityToNetwork = null;
@@ -28,7 +28,7 @@ class SystemResourcePriorityModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName resourcePriority
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ResourcePriorityValue
      * @Optional
-     * @Group 0c61aa8506194ca714d0fe1c4a0b57ff:129
+     * @Group 0c61aa8506194ca714d0fe1c4a0b57ff:130
      * @var \CWM\BroadWorksConnector\Ocip\Models\ResourcePriorityValue|null
      */
     private $resourcePriority = null;

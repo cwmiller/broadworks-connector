@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"af1b47d7cab3335a81456e64e42371b0:192","type":"sequence"}]
+ * @Groups [{"id":"af1b47d7cab3335a81456e64e42371b0:193","type":"sequence"}]
  */
 class UserAutomaticCollectCallModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserAutomaticCollectCallModifyRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName userId
      * @Type string
-     * @Group af1b47d7cab3335a81456e64e42371b0:192
+     * @Group af1b47d7cab3335a81456e64e42371b0:193
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -29,7 +29,7 @@ class UserAutomaticCollectCallModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName enableAutomaticCollectCall
      * @Type bool
      * @Optional
-     * @Group af1b47d7cab3335a81456e64e42371b0:192
+     * @Group af1b47d7cab3335a81456e64e42371b0:193
      * @var bool|null
      */
     private $enableAutomaticCollectCall = null;

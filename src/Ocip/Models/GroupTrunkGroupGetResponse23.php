@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response contains the maximum and bursting maximum permissible active trunk group calls for the group.
  *
  * @see GroupTrunkGroupGetRequest23
- * @Groups [{"id":"b9c14e2d80e4e7749688ca13ba233b44:1319","type":"sequence"}]
+ * @Groups [{"id":"b9c14e2d80e4e7749688ca13ba233b44:1320","type":"sequence"}]
  */
 class GroupTrunkGroupGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class GroupTrunkGroupGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName maxActiveCalls
      * @Type int
-     * @Group b9c14e2d80e4e7749688ca13ba233b44:1319
+     * @Group b9c14e2d80e4e7749688ca13ba233b44:1320
      * @var int|null
      */
     private $maxActiveCalls = null;
@@ -25,7 +25,7 @@ class GroupTrunkGroupGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName maxAvailableActiveCalls
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt
-     * @Group b9c14e2d80e4e7749688ca13ba233b44:1319
+     * @Group b9c14e2d80e4e7749688ca13ba233b44:1320
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt|null
      */
     private $maxAvailableActiveCalls = null;
@@ -33,7 +33,7 @@ class GroupTrunkGroupGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName burstingMaxActiveCalls
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt
-     * @Group b9c14e2d80e4e7749688ca13ba233b44:1319
+     * @Group b9c14e2d80e4e7749688ca13ba233b44:1320
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt|null
      */
     private $burstingMaxActiveCalls = null;
@@ -41,7 +41,7 @@ class GroupTrunkGroupGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName burstingMaxAvailableActiveCalls
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt
-     * @Group b9c14e2d80e4e7749688ca13ba233b44:1319
+     * @Group b9c14e2d80e4e7749688ca13ba233b44:1320
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt|null
      */
     private $burstingMaxAvailableActiveCalls = null;
@@ -49,7 +49,7 @@ class GroupTrunkGroupGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName maxAvailableNumberOfBurstingBTLUs
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt
-     * @Group b9c14e2d80e4e7749688ca13ba233b44:1319
+     * @Group b9c14e2d80e4e7749688ca13ba233b44:1320
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt|null
      */
     private $maxAvailableNumberOfBurstingBTLUs  = null;
@@ -58,7 +58,7 @@ class GroupTrunkGroupGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Models\
      * @ElementName numberOfBurstingBTLUs
      * @Type int
      * @Optional
-     * @Group b9c14e2d80e4e7749688ca13ba233b44:1319
+     * @Group b9c14e2d80e4e7749688ca13ba233b44:1320
      * @var int|null
      */
     private $numberOfBurstingBTLUs = null;

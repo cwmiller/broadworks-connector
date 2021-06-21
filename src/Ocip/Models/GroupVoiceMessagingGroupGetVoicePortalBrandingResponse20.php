@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the GroupVoiceMessagingGroupGetVoicePortalBrandingRequest20.
  *
  * @see GroupVoiceMessagingGroupGetVoicePortalBrandingRequest20
- * @Groups [{"id":"3347d430e0d5c93a9ff8dcf0e3b60d6c:171","type":"sequence"}]
+ * @Groups [{"id":"3347d430e0d5c93a9ff8dcf0e3b60d6c:172","type":"sequence"}]
  */
 class GroupVoiceMessagingGroupGetVoicePortalBrandingResponse20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class GroupVoiceMessagingGroupGetVoicePortalBrandingResponse20 extends \CWM\Broa
     /**
      * @ElementName voicePortalGreetingSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingBrandingSelection
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:171
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:172
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingBrandingSelection|null
      */
     private $voicePortalGreetingSelection = null;
@@ -25,7 +25,7 @@ class GroupVoiceMessagingGroupGetVoicePortalBrandingResponse20 extends \CWM\Broa
      * @ElementName voicePortalGreetingFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:171
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:172
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey|null
      */
     private $voicePortalGreetingFile = null;
@@ -33,7 +33,7 @@ class GroupVoiceMessagingGroupGetVoicePortalBrandingResponse20 extends \CWM\Broa
     /**
      * @ElementName voiceMessagingGreetingSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingBrandingSelection
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:171
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:172
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingBrandingSelection|null
      */
     private $voiceMessagingGreetingSelection = null;
@@ -42,7 +42,7 @@ class GroupVoiceMessagingGroupGetVoicePortalBrandingResponse20 extends \CWM\Broa
      * @ElementName voiceMessagingGreetingFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:171
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:172
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey|null
      */
     private $voiceMessagingGreetingFile = null;

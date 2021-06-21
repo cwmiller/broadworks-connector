@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupMeetMeConferencingGetInstanceListResponse
  * @see ErrorResponse
- * @Groups [{"id":"0fd24121d16995c994d40bc408dbcfa5:159","type":"sequence"}]
+ * @Groups [{"id":"0fd24121d16995c994d40bc408dbcfa5:160","type":"sequence"}]
  */
 class GroupMeetMeConferencingGetInstanceListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class GroupMeetMeConferencingGetInstanceListRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 0fd24121d16995c994d40bc408dbcfa5:159
+     * @Group 0fd24121d16995c994d40bc408dbcfa5:160
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -29,7 +29,7 @@ class GroupMeetMeConferencingGetInstanceListRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 0fd24121d16995c994d40bc408dbcfa5:159
+     * @Group 0fd24121d16995c994d40bc408dbcfa5:160
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -40,7 +40,7 @@ class GroupMeetMeConferencingGetInstanceListRequest extends \CWM\BroadWorksConne
      * @ElementName departmentName
      * @Type string
      * @Optional
-     * @Group 0fd24121d16995c994d40bc408dbcfa5:159
+     * @Group 0fd24121d16995c994d40bc408dbcfa5:160
      * @MinLength 1
      * @MaxLength 50
      * @var string|null

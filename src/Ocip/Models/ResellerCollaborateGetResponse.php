@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to ResellerCollaborateGetRequest.
  *
  * @see ResellerCollaborateGetRequest
- * @Groups [{"id":"939fd5846dfae8bdf58308d6cb9ebb12:478","type":"sequence"}]
+ * @Groups [{"id":"939fd5846dfae8bdf58308d6cb9ebb12:479","type":"sequence"}]
  */
 class ResellerCollaborateGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class ResellerCollaborateGetResponse extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName collaborateFromAddress
      * @Type string
      * @Optional
-     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:478
+     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:479
      * @MinLength 1
      * @MaxLength 80
      * @var string|null

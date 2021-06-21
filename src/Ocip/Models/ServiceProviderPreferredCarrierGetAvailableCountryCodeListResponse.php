@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains the default country code and the list of unused country codes for a service provider / enterprise.
  *
  * @see ServiceProviderPreferredCarrierGetAvailableCountryCodeListRequest
- * @Groups [{"id":"74a46a9bfccb54713c1d19735843f1df:173","type":"sequence"}]
+ * @Groups [{"id":"74a46a9bfccb54713c1d19735843f1df:174","type":"sequence"}]
  */
 class ServiceProviderPreferredCarrierGetAvailableCountryCodeListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class ServiceProviderPreferredCarrierGetAvailableCountryCodeListResponse extends
      * @ElementName defaultCountryCode
      * @Type string
      * @Optional
-     * @Group 74a46a9bfccb54713c1d19735843f1df:173
+     * @Group 74a46a9bfccb54713c1d19735843f1df:174
      * @MaxLength 3
      * @Pattern [0-9]|[1-9][0-9]{1,2}
      * @var string|null
@@ -30,7 +30,7 @@ class ServiceProviderPreferredCarrierGetAvailableCountryCodeListResponse extends
      * @Type string
      * @Array
      * @Optional
-     * @Group 74a46a9bfccb54713c1d19735843f1df:173
+     * @Group 74a46a9bfccb54713c1d19735843f1df:174
      * @MaxLength 3
      * @Pattern [0-9]|[1-9][0-9]{1,2}
      * @var string[]

@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"79f226053ee345f2ff4c37c37c8e9114:107","type":"sequence"}]
+ * @Groups [{"id":"79f226053ee345f2ff4c37c37c8e9114:108","type":"sequence"}]
  */
 class GroupFindMeFollowMeAddInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class GroupFindMeFollowMeAddInstanceRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 79f226053ee345f2ff4c37c37c8e9114:107
+     * @Group 79f226053ee345f2ff4c37c37c8e9114:108
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -29,7 +29,7 @@ class GroupFindMeFollowMeAddInstanceRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 79f226053ee345f2ff4c37c37c8e9114:107
+     * @Group 79f226053ee345f2ff4c37c37c8e9114:108
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -39,7 +39,7 @@ class GroupFindMeFollowMeAddInstanceRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group 79f226053ee345f2ff4c37c37c8e9114:107
+     * @Group 79f226053ee345f2ff4c37c37c8e9114:108
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -49,7 +49,7 @@ class GroupFindMeFollowMeAddInstanceRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName serviceInstanceProfile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceAddProfile
-     * @Group 79f226053ee345f2ff4c37c37c8e9114:107
+     * @Group 79f226053ee345f2ff4c37c37c8e9114:108
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceAddProfile|null
      */
     private $serviceInstanceProfile = null;
@@ -58,7 +58,7 @@ class GroupFindMeFollowMeAddInstanceRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName networkClassOfService
      * @Type string
      * @Optional
-     * @Group 79f226053ee345f2ff4c37c37c8e9114:107
+     * @Group 79f226053ee345f2ff4c37c37c8e9114:108
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

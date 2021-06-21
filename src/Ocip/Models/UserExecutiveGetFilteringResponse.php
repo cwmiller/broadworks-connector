@@ -23,7 +23,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           - When no extension is available a blank space is provided instead.
  *
  * @see UserExecutiveGetFilteringRequest
- * @Groups [{"id":"9a6dbade05624033cf7fe782b7c9a9a7:249","type":"sequence"}]
+ * @Groups [{"id":"9a6dbade05624033cf7fe782b7c9a9a7:250","type":"sequence"}]
  */
 class UserExecutiveGetFilteringResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -31,7 +31,7 @@ class UserExecutiveGetFilteringResponse extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName enableFiltering
      * @Type bool
-     * @Group 9a6dbade05624033cf7fe782b7c9a9a7:249
+     * @Group 9a6dbade05624033cf7fe782b7c9a9a7:250
      * @var bool|null
      */
     private $enableFiltering = null;
@@ -39,7 +39,7 @@ class UserExecutiveGetFilteringResponse extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName filteringMode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExecutiveCallFilteringMode
-     * @Group 9a6dbade05624033cf7fe782b7c9a9a7:249
+     * @Group 9a6dbade05624033cf7fe782b7c9a9a7:250
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExecutiveCallFilteringMode|null
      */
     private $filteringMode = null;
@@ -47,7 +47,7 @@ class UserExecutiveGetFilteringResponse extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName simpleFilterType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExecutiveCallFilteringSimpleFilterType
-     * @Group 9a6dbade05624033cf7fe782b7c9a9a7:249
+     * @Group 9a6dbade05624033cf7fe782b7c9a9a7:250
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExecutiveCallFilteringSimpleFilterType|null
      */
     private $simpleFilterType = null;
@@ -55,7 +55,7 @@ class UserExecutiveGetFilteringResponse extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName criteriaTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 9a6dbade05624033cf7fe782b7c9a9a7:249
+     * @Group 9a6dbade05624033cf7fe782b7c9a9a7:250
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $criteriaTable = null;

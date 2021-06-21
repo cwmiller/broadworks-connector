@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Returns system Automatic Collect Call service settings.
  *
  * @see SystemAutomaticCollectCallGetRequest22
- * @Groups [{"id":"af1b47d7cab3335a81456e64e42371b0:60","type":"sequence"}]
+ * @Groups [{"id":"af1b47d7cab3335a81456e64e42371b0:61","type":"sequence"}]
  */
 class SystemAutomaticCollectCallGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class SystemAutomaticCollectCallGetResponse22 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName enableAutomaticCollectCall
      * @Type bool
-     * @Group af1b47d7cab3335a81456e64e42371b0:60
+     * @Group af1b47d7cab3335a81456e64e42371b0:61
      * @var bool|null
      */
     private $enableAutomaticCollectCall = null;
@@ -25,7 +25,7 @@ class SystemAutomaticCollectCallGetResponse22 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName enableConnectTone
      * @Type bool
-     * @Group af1b47d7cab3335a81456e64e42371b0:60
+     * @Group af1b47d7cab3335a81456e64e42371b0:61
      * @var bool|null
      */
     private $enableConnectTone = null;
@@ -33,7 +33,7 @@ class SystemAutomaticCollectCallGetResponse22 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName includeCountryCodeInCic
      * @Type bool
-     * @Group af1b47d7cab3335a81456e64e42371b0:60
+     * @Group af1b47d7cab3335a81456e64e42371b0:61
      * @var bool|null
      */
     private $includeCountryCodeInCic = null;

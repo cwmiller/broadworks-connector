@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The phoneNumberTable contains columns: "Phone Number", "Description", "Activated"
  *
  * @see UserBroadWorksAnywhereGetPhoneNumberPagedSortedListRequest
- * @Groups [{"id":"72f634ecc58842ce9d362ca629a47ea9:404","type":"sequence"}]
+ * @Groups [{"id":"72f634ecc58842ce9d362ca629a47ea9:405","type":"sequence"}]
  */
 class UserBroadWorksAnywhereGetPhoneNumberPagedSortedListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class UserBroadWorksAnywhereGetPhoneNumberPagedSortedListResponse extends \CWM\B
     /**
      * @ElementName phoneNumberTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 72f634ecc58842ce9d362ca629a47ea9:404
+     * @Group 72f634ecc58842ce9d362ca629a47ea9:405
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $phoneNumberTable = null;

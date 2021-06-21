@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f53ece1c00394ef2d3d76f532f9a9663:197","type":"sequence"}]
+ * @Groups [{"id":"f53ece1c00394ef2d3d76f532f9a9663:198","type":"sequence"}]
  */
 class UserPersonalAssistantExclusionNumberDeleteListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserPersonalAssistantExclusionNumberDeleteListRequest extends \CWM\BroadWo
     /**
      * @ElementName userId
      * @Type string
-     * @Group f53ece1c00394ef2d3d76f532f9a9663:197
+     * @Group f53ece1c00394ef2d3d76f532f9a9663:198
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -29,7 +29,7 @@ class UserPersonalAssistantExclusionNumberDeleteListRequest extends \CWM\BroadWo
      * @ElementName exclusionNumber
      * @Type string
      * @Array
-     * @Group f53ece1c00394ef2d3d76f532f9a9663:197
+     * @Group f53ece1c00394ef2d3d76f532f9a9663:198
      * @MinLength 1
      * @MaxLength 23
      * @var string[]

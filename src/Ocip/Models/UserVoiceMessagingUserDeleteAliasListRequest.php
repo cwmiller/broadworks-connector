@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"3347d430e0d5c93a9ff8dcf0e3b60d6c:1675","type":"sequence"}]
+ * @Groups [{"id":"3347d430e0d5c93a9ff8dcf0e3b60d6c:1676","type":"sequence"}]
  */
 class UserVoiceMessagingUserDeleteAliasListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserVoiceMessagingUserDeleteAliasListRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName userId
      * @Type string
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1675
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1676
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -29,7 +29,7 @@ class UserVoiceMessagingUserDeleteAliasListRequest extends \CWM\BroadWorksConnec
      * @ElementName phoneNumber
      * @Type string
      * @Array
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1675
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1676
      * @MinLength 1
      * @MaxLength 23
      * @var string[]

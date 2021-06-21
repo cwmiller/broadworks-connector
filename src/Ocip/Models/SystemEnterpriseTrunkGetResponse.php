@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemEnterpriseTrunkGetRequest.
  *
  * @see SystemEnterpriseTrunkGetRequest
- * @Groups [{"id":"b9c14e2d80e4e7749688ca13ba233b44:1680","type":"sequence"}]
+ * @Groups [{"id":"b9c14e2d80e4e7749688ca13ba233b44:1681","type":"sequence"}]
  */
 class SystemEnterpriseTrunkGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class SystemEnterpriseTrunkGetResponse extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName enableHoldoverOfHighwaterCallCounts
      * @Type bool
-     * @Group b9c14e2d80e4e7749688ca13ba233b44:1680
+     * @Group b9c14e2d80e4e7749688ca13ba233b44:1681
      * @var bool|null
      */
     private $enableHoldoverOfHighwaterCallCounts = null;
@@ -24,7 +24,7 @@ class SystemEnterpriseTrunkGetResponse extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName holdoverPeriod
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EnterpriseTrunkHighwateCallCountHoldoverPeriodMinutes
-     * @Group b9c14e2d80e4e7749688ca13ba233b44:1680
+     * @Group b9c14e2d80e4e7749688ca13ba233b44:1681
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseTrunkHighwateCallCountHoldoverPeriodMinutes|null
      */
     private $holdoverPeriod = null;
@@ -32,7 +32,7 @@ class SystemEnterpriseTrunkGetResponse extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName timeZoneOffsetMinutes
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EnterpriseTrunkTimeZoneOffsetMinutes
-     * @Group b9c14e2d80e4e7749688ca13ba233b44:1680
+     * @Group b9c14e2d80e4e7749688ca13ba233b44:1681
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseTrunkTimeZoneOffsetMinutes|null
      */
     private $timeZoneOffsetMinutes = null;

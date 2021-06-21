@@ -14,7 +14,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"524e0d071a229a44af2f953d6b50db35:51","type":"sequence"}]
+ * @Groups [{"id":"524e0d071a229a44af2f953d6b50db35:52","type":"sequence"}]
  */
 class UserSharedCallAppearanceAddEndpointRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -22,7 +22,7 @@ class UserSharedCallAppearanceAddEndpointRequest22 extends \CWM\BroadWorksConnec
     /**
      * @ElementName userId
      * @Type string
-     * @Group 524e0d071a229a44af2f953d6b50db35:51
+     * @Group 524e0d071a229a44af2f953d6b50db35:52
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -32,7 +32,7 @@ class UserSharedCallAppearanceAddEndpointRequest22 extends \CWM\BroadWorksConnec
     /**
      * @ElementName accessDeviceEndpoint
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointAndHotlineAdd
-     * @Group 524e0d071a229a44af2f953d6b50db35:51
+     * @Group 524e0d071a229a44af2f953d6b50db35:52
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointAndHotlineAdd|null
      */
     private $accessDeviceEndpoint = null;
@@ -40,7 +40,7 @@ class UserSharedCallAppearanceAddEndpointRequest22 extends \CWM\BroadWorksConnec
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group 524e0d071a229a44af2f953d6b50db35:51
+     * @Group 524e0d071a229a44af2f953d6b50db35:52
      * @var bool|null
      */
     private $isActive = null;
@@ -48,7 +48,7 @@ class UserSharedCallAppearanceAddEndpointRequest22 extends \CWM\BroadWorksConnec
     /**
      * @ElementName allowOrigination
      * @Type bool
-     * @Group 524e0d071a229a44af2f953d6b50db35:51
+     * @Group 524e0d071a229a44af2f953d6b50db35:52
      * @var bool|null
      */
     private $allowOrigination = null;
@@ -56,7 +56,7 @@ class UserSharedCallAppearanceAddEndpointRequest22 extends \CWM\BroadWorksConnec
     /**
      * @ElementName allowTermination
      * @Type bool
-     * @Group 524e0d071a229a44af2f953d6b50db35:51
+     * @Group 524e0d071a229a44af2f953d6b50db35:52
      * @var bool|null
      */
     private $allowTermination = null;
@@ -64,7 +64,7 @@ class UserSharedCallAppearanceAddEndpointRequest22 extends \CWM\BroadWorksConnec
     /**
      * @ElementName allowVideo
      * @Type bool
-     * @Group 524e0d071a229a44af2f953d6b50db35:51
+     * @Group 524e0d071a229a44af2f953d6b50db35:52
      * @var bool|null
      */
     private $allowVideo = null;

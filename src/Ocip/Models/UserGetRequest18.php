@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see UserGetResponse18
  * @see ErrorResponse
  * @see UserGetRequest19
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:43425","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:43479","type":"sequence"}]
  */
 class UserGetRequest18 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class UserGetRequest18 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
     /**
      * @ElementName userId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:43425
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:43479
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

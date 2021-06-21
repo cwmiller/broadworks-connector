@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"72f634ecc58842ce9d362ca629a47ea9:64","type":"sequence"}]
+ * @Groups [{"id":"72f634ecc58842ce9d362ca629a47ea9:65","type":"sequence"}]
  */
 class GroupBroadWorksAnywhereAddInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,7 +21,7 @@ class GroupBroadWorksAnywhereAddInstanceRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 72f634ecc58842ce9d362ca629a47ea9:64
+     * @Group 72f634ecc58842ce9d362ca629a47ea9:65
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -31,7 +31,7 @@ class GroupBroadWorksAnywhereAddInstanceRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 72f634ecc58842ce9d362ca629a47ea9:64
+     * @Group 72f634ecc58842ce9d362ca629a47ea9:65
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -41,7 +41,7 @@ class GroupBroadWorksAnywhereAddInstanceRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group 72f634ecc58842ce9d362ca629a47ea9:64
+     * @Group 72f634ecc58842ce9d362ca629a47ea9:65
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -51,7 +51,7 @@ class GroupBroadWorksAnywhereAddInstanceRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName serviceInstanceProfile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceAddProfile
-     * @Group 72f634ecc58842ce9d362ca629a47ea9:64
+     * @Group 72f634ecc58842ce9d362ca629a47ea9:65
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceAddProfile|null
      */
     private $serviceInstanceProfile = null;
@@ -59,7 +59,7 @@ class GroupBroadWorksAnywhereAddInstanceRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName broadWorksAnywhereScope
      * @Type \CWM\BroadWorksConnector\Ocip\Models\BroadWorksAnywhereScope
-     * @Group 72f634ecc58842ce9d362ca629a47ea9:64
+     * @Group 72f634ecc58842ce9d362ca629a47ea9:65
      * @var \CWM\BroadWorksConnector\Ocip\Models\BroadWorksAnywhereScope|null
      */
     private $broadWorksAnywhereScope = null;
@@ -67,7 +67,7 @@ class GroupBroadWorksAnywhereAddInstanceRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName promptForCLID
      * @Type \CWM\BroadWorksConnector\Ocip\Models\BroadWorksAnywhereCLIDPrompt
-     * @Group 72f634ecc58842ce9d362ca629a47ea9:64
+     * @Group 72f634ecc58842ce9d362ca629a47ea9:65
      * @var \CWM\BroadWorksConnector\Ocip\Models\BroadWorksAnywhereCLIDPrompt|null
      */
     private $promptForCLID = null;
@@ -75,7 +75,7 @@ class GroupBroadWorksAnywhereAddInstanceRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName silentPromptMode
      * @Type bool
-     * @Group 72f634ecc58842ce9d362ca629a47ea9:64
+     * @Group 72f634ecc58842ce9d362ca629a47ea9:65
      * @var bool|null
      */
     private $silentPromptMode = null;
@@ -83,7 +83,7 @@ class GroupBroadWorksAnywhereAddInstanceRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName promptForPasscode
      * @Type bool
-     * @Group 72f634ecc58842ce9d362ca629a47ea9:64
+     * @Group 72f634ecc58842ce9d362ca629a47ea9:65
      * @var bool|null
      */
     private $promptForPasscode = null;
@@ -92,7 +92,7 @@ class GroupBroadWorksAnywhereAddInstanceRequest extends \CWM\BroadWorksConnector
      * @ElementName networkClassOfService
      * @Type string
      * @Optional
-     * @Group 72f634ecc58842ce9d362ca629a47ea9:64
+     * @Group 72f634ecc58842ce9d362ca629a47ea9:65
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

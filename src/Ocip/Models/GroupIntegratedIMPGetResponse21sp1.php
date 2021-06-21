@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response contains the group Integrated IMP service attributes.
  *
  * @see GroupIntegratedIMPGetRequest21sp1
- * @Groups [{"id":"23389100b68cef3aa07ee12ac7a2bd16:67","type":"sequence"}]
+ * @Groups [{"id":"23389100b68cef3aa07ee12ac7a2bd16:68","type":"sequence"}]
  */
 class GroupIntegratedIMPGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class GroupIntegratedIMPGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName useServiceProviderSetting
      * @Type bool
-     * @Group 23389100b68cef3aa07ee12ac7a2bd16:67
+     * @Group 23389100b68cef3aa07ee12ac7a2bd16:68
      * @var bool|null
      */
     private $useServiceProviderSetting = null;
@@ -26,7 +26,7 @@ class GroupIntegratedIMPGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName serviceDomain
      * @Type string
      * @Optional
-     * @Group 23389100b68cef3aa07ee12ac7a2bd16:67
+     * @Group 23389100b68cef3aa07ee12ac7a2bd16:68
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -37,7 +37,7 @@ class GroupIntegratedIMPGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName effectiveServiceDomain
      * @Type string
      * @Optional
-     * @Group 23389100b68cef3aa07ee12ac7a2bd16:67
+     * @Group 23389100b68cef3aa07ee12ac7a2bd16:68
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -47,7 +47,7 @@ class GroupIntegratedIMPGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName addServiceProviderInIMPUserId
      * @Type bool
-     * @Group 23389100b68cef3aa07ee12ac7a2bd16:67
+     * @Group 23389100b68cef3aa07ee12ac7a2bd16:68
      * @var bool|null
      */
     private $addServiceProviderInIMPUserId = null;
@@ -55,7 +55,7 @@ class GroupIntegratedIMPGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName defaultImpIdType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\IntegratedIMPUserIDType
-     * @Group 23389100b68cef3aa07ee12ac7a2bd16:67
+     * @Group 23389100b68cef3aa07ee12ac7a2bd16:68
      * @var \CWM\BroadWorksConnector\Ocip\Models\IntegratedIMPUserIDType|null
      */
     private $defaultImpIdType = null;

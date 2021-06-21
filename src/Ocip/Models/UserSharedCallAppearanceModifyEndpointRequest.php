@@ -15,7 +15,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"524e0d071a229a44af2f953d6b50db35:183","type":"sequence"}]
+ * @Groups [{"id":"524e0d071a229a44af2f953d6b50db35:184","type":"sequence"}]
  */
 class UserSharedCallAppearanceModifyEndpointRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -23,7 +23,7 @@ class UserSharedCallAppearanceModifyEndpointRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName userId
      * @Type string
-     * @Group 524e0d071a229a44af2f953d6b50db35:183
+     * @Group 524e0d071a229a44af2f953d6b50db35:184
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -33,7 +33,7 @@ class UserSharedCallAppearanceModifyEndpointRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName accessDeviceEndpoint
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointKey
-     * @Group 524e0d071a229a44af2f953d6b50db35:183
+     * @Group 524e0d071a229a44af2f953d6b50db35:184
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointKey|null
      */
     private $accessDeviceEndpoint = null;
@@ -42,7 +42,7 @@ class UserSharedCallAppearanceModifyEndpointRequest extends \CWM\BroadWorksConne
      * @ElementName isActive
      * @Type bool
      * @Optional
-     * @Group 524e0d071a229a44af2f953d6b50db35:183
+     * @Group 524e0d071a229a44af2f953d6b50db35:184
      * @var bool|null
      */
     private $isActive = null;
@@ -51,7 +51,7 @@ class UserSharedCallAppearanceModifyEndpointRequest extends \CWM\BroadWorksConne
      * @ElementName allowOrigination
      * @Type bool
      * @Optional
-     * @Group 524e0d071a229a44af2f953d6b50db35:183
+     * @Group 524e0d071a229a44af2f953d6b50db35:184
      * @var bool|null
      */
     private $allowOrigination = null;
@@ -60,7 +60,7 @@ class UserSharedCallAppearanceModifyEndpointRequest extends \CWM\BroadWorksConne
      * @ElementName allowTermination
      * @Type bool
      * @Optional
-     * @Group 524e0d071a229a44af2f953d6b50db35:183
+     * @Group 524e0d071a229a44af2f953d6b50db35:184
      * @var bool|null
      */
     private $allowTermination = null;
@@ -69,7 +69,7 @@ class UserSharedCallAppearanceModifyEndpointRequest extends \CWM\BroadWorksConne
      * @ElementName useHotline
      * @Type bool
      * @Optional
-     * @Group 524e0d071a229a44af2f953d6b50db35:183
+     * @Group 524e0d071a229a44af2f953d6b50db35:184
      * @var bool|null
      */
     private $useHotline = null;
@@ -79,7 +79,7 @@ class UserSharedCallAppearanceModifyEndpointRequest extends \CWM\BroadWorksConne
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 524e0d071a229a44af2f953d6b50db35:183
+     * @Group 524e0d071a229a44af2f953d6b50db35:184
      * @MinLength 1
      * @MaxLength 161
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil

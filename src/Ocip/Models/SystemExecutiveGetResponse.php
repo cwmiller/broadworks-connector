@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemExecutiveGetRequest.
  *
  * @see SystemExecutiveGetRequest
- * @Groups [{"id":"9a6dbade05624033cf7fe782b7c9a9a7:66","type":"sequence"}]
+ * @Groups [{"id":"9a6dbade05624033cf7fe782b7c9a9a7:67","type":"sequence"}]
  */
 class SystemExecutiveGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class SystemExecutiveGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * @ElementName treatVirtualOnNetCallsAsInternal
      * @Type bool
-     * @Group 9a6dbade05624033cf7fe782b7c9a9a7:66
+     * @Group 9a6dbade05624033cf7fe782b7c9a9a7:67
      * @var bool|null
      */
     private $treatVirtualOnNetCallsAsInternal = null;

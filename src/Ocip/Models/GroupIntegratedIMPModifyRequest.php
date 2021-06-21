@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"23389100b68cef3aa07ee12ac7a2bd16:87","type":"sequence"}]
+ * @Groups [{"id":"23389100b68cef3aa07ee12ac7a2bd16:88","type":"sequence"}]
  */
 class GroupIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class GroupIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 23389100b68cef3aa07ee12ac7a2bd16:87
+     * @Group 23389100b68cef3aa07ee12ac7a2bd16:88
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +28,7 @@ class GroupIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 23389100b68cef3aa07ee12ac7a2bd16:87
+     * @Group 23389100b68cef3aa07ee12ac7a2bd16:88
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -39,7 +39,7 @@ class GroupIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName useServiceProviderSetting
      * @Type bool
      * @Optional
-     * @Group 23389100b68cef3aa07ee12ac7a2bd16:87
+     * @Group 23389100b68cef3aa07ee12ac7a2bd16:88
      * @var bool|null
      */
     private $useServiceProviderSetting = null;
@@ -49,7 +49,7 @@ class GroupIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 23389100b68cef3aa07ee12ac7a2bd16:87
+     * @Group 23389100b68cef3aa07ee12ac7a2bd16:88
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil

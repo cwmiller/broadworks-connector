@@ -18,7 +18,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see UserGetLoginInfoRequest22V3
  * @see UserGetLoginInfoResponse22V3
  * @see ErrorResponse
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:43125","type":"sequence","children":[{"id":"ab0042aa512abc10edb3c55e4b416b0b:43126","type":"choice","children":[{"id":"ab0042aa512abc10edb3c55e4b416b0b:43127","type":"sequence"}]}]}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:43179","type":"sequence","children":[{"id":"ab0042aa512abc10edb3c55e4b416b0b:43180","type":"choice","children":[{"id":"ab0042aa512abc10edb3c55e4b416b0b:43181","type":"sequence"}]}]}]
  */
 class UserGetLoginInfoRequest22V3 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -26,7 +26,7 @@ class UserGetLoginInfoRequest22V3 extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName userId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:43127
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:43181
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -37,7 +37,7 @@ class UserGetLoginInfoRequest22V3 extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @ElementName loginRole
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LoginRole
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:43127
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:43181
      * @var \CWM\BroadWorksConnector\Ocip\Models\LoginRole|null
      */
     private $loginRole = null;
@@ -45,7 +45,7 @@ class UserGetLoginInfoRequest22V3 extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName phoneNumber
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:43126
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:43180
      * @MinLength 1
      * @MaxLength 23
      * @var string|null
@@ -55,7 +55,7 @@ class UserGetLoginInfoRequest22V3 extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName linePort
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:43126
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:43180
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

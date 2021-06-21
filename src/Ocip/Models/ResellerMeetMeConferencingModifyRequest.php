@@ -15,7 +15,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"0fd24121d16995c994d40bc408dbcfa5:379","type":"sequence"}]
+ * @Groups [{"id":"0fd24121d16995c994d40bc408dbcfa5:380","type":"sequence"}]
  */
 class ResellerMeetMeConferencingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -23,7 +23,7 @@ class ResellerMeetMeConferencingModifyRequest extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName resellerId
      * @Type string
-     * @Group 0fd24121d16995c994d40bc408dbcfa5:379
+     * @Group 0fd24121d16995c994d40bc408dbcfa5:380
      * @MinLength 1
      * @MaxLength 36
      * @var string|null
@@ -35,7 +35,7 @@ class ResellerMeetMeConferencingModifyRequest extends \CWM\BroadWorksConnector\O
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 0fd24121d16995c994d40bc408dbcfa5:379
+     * @Group 0fd24121d16995c994d40bc408dbcfa5:380
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -46,7 +46,7 @@ class ResellerMeetMeConferencingModifyRequest extends \CWM\BroadWorksConnector\O
      * @ElementName maxAllocatedPorts
      * @Type int
      * @Optional
-     * @Group 0fd24121d16995c994d40bc408dbcfa5:379
+     * @Group 0fd24121d16995c994d40bc408dbcfa5:380
      * @MinInclusive 0
      * @MaxInclusive 999999
      * @var int|null
@@ -57,7 +57,7 @@ class ResellerMeetMeConferencingModifyRequest extends \CWM\BroadWorksConnector\O
      * @ElementName disableUnlimitedMeetMePorts
      * @Type bool
      * @Optional
-     * @Group 0fd24121d16995c994d40bc408dbcfa5:379
+     * @Group 0fd24121d16995c994d40bc408dbcfa5:380
      * @var bool|null
      */
     private $disableUnlimitedMeetMePorts = null;
@@ -66,7 +66,7 @@ class ResellerMeetMeConferencingModifyRequest extends \CWM\BroadWorksConnector\O
      * @ElementName enableMaxAllocatedPorts
      * @Type bool
      * @Optional
-     * @Group 0fd24121d16995c994d40bc408dbcfa5:379
+     * @Group 0fd24121d16995c994d40bc408dbcfa5:380
      * @var bool|null
      */
     private $enableMaxAllocatedPorts = null;

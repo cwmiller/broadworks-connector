@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f7ae3539fd471e995b07dc1bf8836e2d:710","type":"sequence"}]
+ * @Groups [{"id":"f7ae3539fd471e995b07dc1bf8836e2d:711","type":"sequence"}]
  */
 class SystemBroadWorksMobilityDeleteIMRNListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class SystemBroadWorksMobilityDeleteIMRNListRequest extends \CWM\BroadWorksConne
      * @ElementName imrnNumber
      * @Type string
      * @Array
-     * @Group f7ae3539fd471e995b07dc1bf8836e2d:710
+     * @Group f7ae3539fd471e995b07dc1bf8836e2d:711
      * @MinLength 1
      * @MaxLength 23
      * @var string[]

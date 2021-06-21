@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"3347d430e0d5c93a9ff8dcf0e3b60d6c:477","type":"sequence"}]
+ * @Groups [{"id":"3347d430e0d5c93a9ff8dcf0e3b60d6c:478","type":"sequence"}]
  */
 class ServiceProviderVoiceMessagingGroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class ServiceProviderVoiceMessagingGroupModifyRequest extends \CWM\BroadWorksCon
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:477
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:478
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -30,7 +30,7 @@ class ServiceProviderVoiceMessagingGroupModifyRequest extends \CWM\BroadWorksCon
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:477
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:478
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -42,7 +42,7 @@ class ServiceProviderVoiceMessagingGroupModifyRequest extends \CWM\BroadWorksCon
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:477
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:478
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -54,7 +54,7 @@ class ServiceProviderVoiceMessagingGroupModifyRequest extends \CWM\BroadWorksCon
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:477
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:478
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -65,7 +65,7 @@ class ServiceProviderVoiceMessagingGroupModifyRequest extends \CWM\BroadWorksCon
      * @ElementName useSystemDefaultDeliveryFromAddress
      * @Type bool
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:477
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:478
      * @var bool|null
      */
     private $useSystemDefaultDeliveryFromAddress = null;
@@ -74,7 +74,7 @@ class ServiceProviderVoiceMessagingGroupModifyRequest extends \CWM\BroadWorksCon
      * @ElementName useSystemDefaultNotificationFromAddress
      * @Type bool
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:477
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:478
      * @var bool|null
      */
     private $useSystemDefaultNotificationFromAddress = null;
@@ -83,7 +83,7 @@ class ServiceProviderVoiceMessagingGroupModifyRequest extends \CWM\BroadWorksCon
      * @ElementName useSystemDefaultVoicePortalLockoutFromAddress
      * @Type bool
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:477
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:478
      * @var bool|null
      */
     private $useSystemDefaultVoicePortalLockoutFromAddress = null;

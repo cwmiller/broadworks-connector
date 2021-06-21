@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f7ae3539fd471e995b07dc1bf8836e2d:692","type":"sequence"}]
+ * @Groups [{"id":"f7ae3539fd471e995b07dc1bf8836e2d:693","type":"sequence"}]
  */
 class SystemBroadWorksMobilityAddMobileNetworkIMRNListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class SystemBroadWorksMobilityAddMobileNetworkIMRNListRequest extends \CWM\Broad
     /**
      * @ElementName mobileNetworkName
      * @Type string
-     * @Group f7ae3539fd471e995b07dc1bf8836e2d:692
+     * @Group f7ae3539fd471e995b07dc1bf8836e2d:693
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -31,7 +31,7 @@ class SystemBroadWorksMobilityAddMobileNetworkIMRNListRequest extends \CWM\Broad
      * @Type string
      * @Array
      * @Optional
-     * @Group f7ae3539fd471e995b07dc1bf8836e2d:692
+     * @Group f7ae3539fd471e995b07dc1bf8836e2d:693
      * @MinLength 1
      * @MaxLength 23
      * @var string[]
@@ -45,7 +45,7 @@ class SystemBroadWorksMobilityAddMobileNetworkIMRNListRequest extends \CWM\Broad
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DNRange
      * @Array
      * @Optional
-     * @Group f7ae3539fd471e995b07dc1bf8836e2d:692
+     * @Group f7ae3539fd471e995b07dc1bf8836e2d:693
      * @var \CWM\BroadWorksConnector\Ocip\Models\DNRange[]
      */
     private $numberRange = array(

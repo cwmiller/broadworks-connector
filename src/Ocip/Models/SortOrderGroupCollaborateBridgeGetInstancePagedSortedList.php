@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Used to sort the GroupCollaborateBridgeGetInstancePagedSortedListRequest.
  *
  * @see GroupCollaborateBridgeGetInstancePagedSortedListRequest
- * @Groups [{"id":"939fd5846dfae8bdf58308d6cb9ebb12:1075","type":"choice"}]
+ * @Groups [{"id":"939fd5846dfae8bdf58308d6cb9ebb12:1076","type":"choice"}]
  */
 class SortOrderGroupCollaborateBridgeGetInstancePagedSortedList
 {
@@ -16,7 +16,7 @@ class SortOrderGroupCollaborateBridgeGetInstancePagedSortedList
     /**
      * @ElementName sortByUserId
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByUserId
-     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:1075
+     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:1076
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByUserId|null
      */
     private $sortByUserId = null;
@@ -24,7 +24,7 @@ class SortOrderGroupCollaborateBridgeGetInstancePagedSortedList
     /**
      * @ElementName sortByUserLastName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByUserLastName
-     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:1075
+     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:1076
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByUserLastName|null
      */
     private $sortByUserLastName = null;
@@ -32,7 +32,7 @@ class SortOrderGroupCollaborateBridgeGetInstancePagedSortedList
     /**
      * @ElementName sortByDn
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByDn
-     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:1075
+     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:1076
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByDn|null
      */
     private $sortByDn = null;
@@ -40,7 +40,7 @@ class SortOrderGroupCollaborateBridgeGetInstancePagedSortedList
     /**
      * @ElementName sortByExtension
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByExtension
-     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:1075
+     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:1076
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByExtension|null
      */
     private $sortByExtension = null;

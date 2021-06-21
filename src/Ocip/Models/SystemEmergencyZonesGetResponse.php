@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemEmergencyZonesGetRequest.
  *
  * @see SystemEmergencyZonesGetRequest
- * @Groups [{"id":"e71c2205fb31894f87810b330a85ede2:274","type":"sequence"}]
+ * @Groups [{"id":"e71c2205fb31894f87810b330a85ede2:275","type":"sequence"}]
  */
 class SystemEmergencyZonesGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class SystemEmergencyZonesGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName defaultFromAddress
      * @Type string
-     * @Group e71c2205fb31894f87810b330a85ede2:274
+     * @Group e71c2205fb31894f87810b330a85ede2:275
      * @MinLength 1
      * @MaxLength 80
      * @var string|null

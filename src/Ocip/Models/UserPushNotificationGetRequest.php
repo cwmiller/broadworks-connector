@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see UserPushNotificationGetResponse
  * @see ErrorResponse
  * @see UserPushNotificationRequest24
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:45671","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:45725","type":"sequence"}]
  */
 class UserPushNotificationGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,7 +21,7 @@ class UserPushNotificationGetRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName userId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:45671
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:45725
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

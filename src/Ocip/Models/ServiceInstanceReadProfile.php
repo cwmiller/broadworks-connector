@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         It is identical to the ServiceInstanceAddProfile, but without the password.
  *         Prior to release 14 this was called ServiceInstanceProfile.
  *
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:49351","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:49405","type":"sequence"}]
  */
 class ServiceInstanceReadProfile
 {
@@ -17,7 +17,7 @@ class ServiceInstanceReadProfile
     /**
      * @ElementName name
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:49351
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:49405
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -27,7 +27,7 @@ class ServiceInstanceReadProfile
     /**
      * @ElementName callingLineIdLastName
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:49351
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:49405
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -37,7 +37,7 @@ class ServiceInstanceReadProfile
     /**
      * @ElementName callingLineIdFirstName
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:49351
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:49405
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -48,7 +48,7 @@ class ServiceInstanceReadProfile
      * @ElementName hiraganaLastName
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:49351
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:49405
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -59,7 +59,7 @@ class ServiceInstanceReadProfile
      * @ElementName hiraganaFirstName
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:49351
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:49405
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -70,7 +70,7 @@ class ServiceInstanceReadProfile
      * @ElementName phoneNumber
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:49351
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:49405
      * @MinLength 1
      * @MaxLength 23
      * @var string|null
@@ -81,7 +81,7 @@ class ServiceInstanceReadProfile
      * @ElementName extension
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:49351
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:49405
      * @MinLength 2
      * @MaxLength 6
      * @var string|null
@@ -93,7 +93,7 @@ class ServiceInstanceReadProfile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey
      * @Abstract \CWM\BroadWorksConnector\Ocip\Models\EnterpriseDepartmentKey,\CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentKey
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:49351
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:49405
      * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null
      */
     private $department = null;
@@ -102,7 +102,7 @@ class ServiceInstanceReadProfile
      * @ElementName language
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:49351
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:49405
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -113,7 +113,7 @@ class ServiceInstanceReadProfile
      * @ElementName timeZone
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:49351
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:49405
      * @MinLength 1
      * @MaxLength 127
      * @var string|null
@@ -124,7 +124,7 @@ class ServiceInstanceReadProfile
      * @ElementName timeZoneDisplayName
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:49351
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:49405
      * @MinLength 1
      * @MaxLength 127
      * @var string|null
@@ -136,7 +136,7 @@ class ServiceInstanceReadProfile
      * @Type string
      * @Array
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:49351
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:49405
      * @MinLength 1
      * @MaxLength 161
      * @var string[]
@@ -149,7 +149,7 @@ class ServiceInstanceReadProfile
      * @ElementName publicUserIdentity
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:49351
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:49405
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

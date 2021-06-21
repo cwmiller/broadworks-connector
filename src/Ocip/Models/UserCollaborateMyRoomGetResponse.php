@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to UserCollaborateMyRoomGetRequest.
  *
  * @see UserCollaborateMyRoomGetRequest
- * @Groups [{"id":"939fd5846dfae8bdf58308d6cb9ebb12:771","type":"sequence"}]
+ * @Groups [{"id":"939fd5846dfae8bdf58308d6cb9ebb12:772","type":"sequence"}]
  */
 class UserCollaborateMyRoomGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class UserCollaborateMyRoomGetResponse extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName roomId
      * @Type string
-     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:771
+     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:772
      * @MinLength 4
      * @MaxLength 15
      * @var string|null
@@ -26,7 +26,7 @@ class UserCollaborateMyRoomGetResponse extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName roomName
      * @Type string
-     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:771
+     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:772
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -36,7 +36,7 @@ class UserCollaborateMyRoomGetResponse extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName attendeeNotification
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CollaborateRoomAttendeeNotification
-     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:771
+     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:772
      * @var \CWM\BroadWorksConnector\Ocip\Models\CollaborateRoomAttendeeNotification|null
      */
     private $attendeeNotification = null;
@@ -44,7 +44,7 @@ class UserCollaborateMyRoomGetResponse extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName endCollaborateRoomSessionOnOwnerExit
      * @Type bool
-     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:771
+     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:772
      * @var bool|null
      */
     private $endCollaborateRoomSessionOnOwnerExit = null;
@@ -52,7 +52,7 @@ class UserCollaborateMyRoomGetResponse extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName ownerRequired
      * @Type bool
-     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:771
+     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:772
      * @var bool|null
      */
     private $ownerRequired = null;

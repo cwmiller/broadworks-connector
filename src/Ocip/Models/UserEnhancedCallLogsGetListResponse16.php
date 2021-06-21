@@ -16,7 +16,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see UserEnhancedCallLogsGetListRequest16
  * @see UserEnhancedCallLogsGetListRequest16
  * @see UserEnhancedCallLogsGetListResponse17sp4
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:42584","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:42638","type":"sequence"}]
  */
 class UserEnhancedCallLogsGetListResponse16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -24,7 +24,7 @@ class UserEnhancedCallLogsGetListResponse16 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName totalNumberOfRows
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:42584
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:42638
      * @var int|null
      */
     private $totalNumberOfRows = null;
@@ -34,7 +34,7 @@ class UserEnhancedCallLogsGetListResponse16 extends \CWM\BroadWorksConnector\Oci
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MixedCallLogsEntry
      * @Array
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:42584
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:42638
      * @var \CWM\BroadWorksConnector\Ocip\Models\MixedCallLogsEntry[]
      */
     private $callLog = array(

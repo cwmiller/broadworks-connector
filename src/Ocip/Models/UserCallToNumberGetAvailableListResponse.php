@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains a list of the user available Call to Numbers".
  *
  * @see UserCallToNumberGetAvailableListRequest
- * @Groups [{"id":"f53ece1c00394ef2d3d76f532f9a9663:113","type":"sequence"}]
+ * @Groups [{"id":"f53ece1c00394ef2d3d76f532f9a9663:114","type":"sequence"}]
  */
 class UserCallToNumberGetAvailableListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,7 +19,7 @@ class UserCallToNumberGetAvailableListResponse extends \CWM\BroadWorksConnector\
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallToNumber
      * @Array
      * @Optional
-     * @Group f53ece1c00394ef2d3d76f532f9a9663:113
+     * @Group f53ece1c00394ef2d3d76f532f9a9663:114
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallToNumber[]
      */
     private $callToNumber = array(

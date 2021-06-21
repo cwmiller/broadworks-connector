@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "Name", "Priority".
  *
  * @see GroupFindMeFollowMeGetAlertingGroupListRequest
- * @Groups [{"id":"79f226053ee345f2ff4c37c37c8e9114:236","type":"sequence"}]
+ * @Groups [{"id":"79f226053ee345f2ff4c37c37c8e9114:237","type":"sequence"}]
  */
 class GroupFindMeFollowMeGetAlertingGroupListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class GroupFindMeFollowMeGetAlertingGroupListResponse extends \CWM\BroadWorksCon
     /**
      * @ElementName alertingGroupTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 79f226053ee345f2ff4c37c37c8e9114:236
+     * @Group 79f226053ee345f2ff4c37c37c8e9114:237
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $alertingGroupTable = null;

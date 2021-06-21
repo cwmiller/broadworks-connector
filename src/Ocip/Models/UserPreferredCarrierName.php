@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * User can either use it's group's preferred carrier or use it's own.
  *         The user carrier name is exposed if it was previously configured.
  *
- * @Groups [{"id":"74a46a9bfccb54713c1d19735843f1df:621","type":"sequence"}]
+ * @Groups [{"id":"74a46a9bfccb54713c1d19735843f1df:622","type":"sequence"}]
  */
 class UserPreferredCarrierName
 {
@@ -16,7 +16,7 @@ class UserPreferredCarrierName
     /**
      * @ElementName useGroupPreferredCarrier
      * @Type bool
-     * @Group 74a46a9bfccb54713c1d19735843f1df:621
+     * @Group 74a46a9bfccb54713c1d19735843f1df:622
      * @var bool|null
      */
     private $useGroupPreferredCarrier = null;
@@ -25,7 +25,7 @@ class UserPreferredCarrierName
      * @ElementName carrier
      * @Type string
      * @Optional
-     * @Group 74a46a9bfccb54713c1d19735843f1df:621
+     * @Group 74a46a9bfccb54713c1d19735843f1df:622
      * @MinLength 1
      * @MaxLength 80
      * @var string|null

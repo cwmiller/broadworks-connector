@@ -5,7 +5,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19SendToDistributionListMenuKeys
  *
- * @Groups [{"id":"3347d430e0d5c93a9ff8dcf0e3b60d6c:1508","type":"sequence"}]
+ * @Groups [{"id":"3347d430e0d5c93a9ff8dcf0e3b60d6c:1509","type":"sequence"}]
  */
 class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19SendToDistributionListMenuKeys
 {
@@ -14,7 +14,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19SendToDistribution
      * @ElementName sendMessageToSelectedDistributionList
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1508
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1509
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -26,7 +26,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19SendToDistribution
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1508
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1509
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -38,7 +38,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19SendToDistribution
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1508
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1509
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -49,7 +49,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19SendToDistribution
      * @ElementName returnToPreviousMenu
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1508
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1509
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -61,7 +61,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19SendToDistribution
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1508
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1509
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil

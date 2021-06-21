@@ -5,7 +5,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19AnnouncementRecordingMenuKeys
  *
- * @Groups [{"id":"3347d430e0d5c93a9ff8dcf0e3b60d6c:1238","type":"sequence"}]
+ * @Groups [{"id":"3347d430e0d5c93a9ff8dcf0e3b60d6c:1239","type":"sequence"}]
  */
 class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19AnnouncementRecordingMenuKeys
 {
@@ -14,7 +14,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19AnnouncementRecord
      * @ElementName acceptRecording
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1238
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1239
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -25,7 +25,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19AnnouncementRecord
      * @ElementName rejectRerecord
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1238
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1239
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -36,7 +36,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19AnnouncementRecord
      * @ElementName returnToPreviousMenu
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1238
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1239
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -48,7 +48,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19AnnouncementRecord
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1238
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1239
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -59,7 +59,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19AnnouncementRecord
      * @ElementName end
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1238
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1239
      * @MinLength 1
      * @MaxLength 3
      * @Pattern ([0-9]|\*|#){0,3}

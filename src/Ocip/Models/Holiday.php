@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Holiday entry.
  *
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:48924","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:48978","type":"sequence"}]
  */
 class Holiday
 {
@@ -15,7 +15,7 @@ class Holiday
     /**
      * @ElementName holidayName
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:48924
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:48978
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -25,7 +25,7 @@ class Holiday
     /**
      * @ElementName startDate
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:48924
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:48978
      * @var string|null
      */
     private $startDate = null;
@@ -34,7 +34,7 @@ class Holiday
      * @ElementName endDate
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:48924
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:48978
      * @var string|null
      */
     private $endDate = null;

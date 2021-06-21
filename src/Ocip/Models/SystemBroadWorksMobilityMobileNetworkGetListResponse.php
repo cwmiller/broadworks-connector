@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains a table with column headings: "Name", "SCF Signaling Net Address", "SCF Signaling Port"
  *
  * @see SystemBroadWorksMobilityMobileNetworkGetListRequest
- * @Groups [{"id":"f7ae3539fd471e995b07dc1bf8836e2d:1123","type":"sequence"}]
+ * @Groups [{"id":"f7ae3539fd471e995b07dc1bf8836e2d:1124","type":"sequence"}]
  */
 class SystemBroadWorksMobilityMobileNetworkGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class SystemBroadWorksMobilityMobileNetworkGetListResponse extends \CWM\BroadWor
     /**
      * @ElementName mobileNetworkTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group f7ae3539fd471e995b07dc1bf8836e2d:1123
+     * @Group f7ae3539fd471e995b07dc1bf8836e2d:1124
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $mobileNetworkTable = null;

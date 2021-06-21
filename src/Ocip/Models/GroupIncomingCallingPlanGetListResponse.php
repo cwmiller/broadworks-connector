@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to GroupIncomingCallingPlanGetListRequest.
  *
  * @see GroupIncomingCallingPlanGetListRequest
- * @Groups [{"id":"3dd296d55b56269ae23d86a934b8b35c:61","type":"sequence"}]
+ * @Groups [{"id":"3dd296d55b56269ae23d86a934b8b35c:62","type":"sequence"}]
  */
 class GroupIncomingCallingPlanGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class GroupIncomingCallingPlanGetListResponse extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName groupPermissions
      * @Type \CWM\BroadWorksConnector\Ocip\Models\IncomingCallingPlanPermissions
-     * @Group 3dd296d55b56269ae23d86a934b8b35c:61
+     * @Group 3dd296d55b56269ae23d86a934b8b35c:62
      * @var \CWM\BroadWorksConnector\Ocip\Models\IncomingCallingPlanPermissions|null
      */
     private $groupPermissions = null;
@@ -26,7 +26,7 @@ class GroupIncomingCallingPlanGetListResponse extends \CWM\BroadWorksConnector\O
      * @Type \CWM\BroadWorksConnector\Ocip\Models\IncomingCallingPlanDepartmentPermissions
      * @Array
      * @Optional
-     * @Group 3dd296d55b56269ae23d86a934b8b35c:61
+     * @Group 3dd296d55b56269ae23d86a934b8b35c:62
      * @var \CWM\BroadWorksConnector\Ocip\Models\IncomingCallingPlanDepartmentPermissions[]
      */
     private $departmentPermissions = array(

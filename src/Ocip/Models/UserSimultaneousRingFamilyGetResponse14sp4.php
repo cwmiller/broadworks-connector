@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains a table with column headings: "Phone Number", "Answer Confirmation Required".
  *
  * @see UserSimultaneousRingFamilyGetRequest14sp4
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:46306","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:46360","type":"sequence"}]
  */
 class UserSimultaneousRingFamilyGetResponse14sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class UserSimultaneousRingFamilyGetResponse14sp4 extends \CWM\BroadWorksConnecto
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:46306
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:46360
      * @var bool|null
      */
     private $isActive = null;
@@ -25,7 +25,7 @@ class UserSimultaneousRingFamilyGetResponse14sp4 extends \CWM\BroadWorksConnecto
     /**
      * @ElementName incomingCalls
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SimultaneousRingSelection
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:46306
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:46360
      * @var \CWM\BroadWorksConnector\Ocip\Models\SimultaneousRingSelection|null
      */
     private $incomingCalls = null;
@@ -33,7 +33,7 @@ class UserSimultaneousRingFamilyGetResponse14sp4 extends \CWM\BroadWorksConnecto
     /**
      * @ElementName phoneNumberTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:46306
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:46360
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $phoneNumberTable = null;

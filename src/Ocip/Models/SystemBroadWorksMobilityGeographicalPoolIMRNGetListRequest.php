@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemBroadWorksMobilityGeographicalPoolIMRNGetListResponse
  * @see ErrorResponse
- * @Groups [{"id":"f7ae3539fd471e995b07dc1bf8836e2d:847","type":"sequence"}]
+ * @Groups [{"id":"f7ae3539fd471e995b07dc1bf8836e2d:848","type":"sequence"}]
  */
 class SystemBroadWorksMobilityGeographicalPoolIMRNGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class SystemBroadWorksMobilityGeographicalPoolIMRNGetListRequest extends \CWM\Br
     /**
      * @ElementName geographicalPoolName
      * @Type string
-     * @Group f7ae3539fd471e995b07dc1bf8836e2d:847
+     * @Group f7ae3539fd471e995b07dc1bf8836e2d:848
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -31,7 +31,7 @@ class SystemBroadWorksMobilityGeographicalPoolIMRNGetListRequest extends \CWM\Br
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaIMRN
      * @Array
      * @Optional
-     * @Group f7ae3539fd471e995b07dc1bf8836e2d:847
+     * @Group f7ae3539fd471e995b07dc1bf8836e2d:848
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaIMRN[]
      */
     private $searchCriteriaIMRN = array(

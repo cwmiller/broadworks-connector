@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Service Profile Information for a trunk group used when modifying an existing service instance.
  *
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:49327","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:49381","type":"sequence"}]
  */
 class ServiceInstanceModifyProfileTrunkGroup
 {
@@ -16,7 +16,7 @@ class ServiceInstanceModifyProfileTrunkGroup
      * @ElementName name
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:49327
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:49381
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -27,7 +27,7 @@ class ServiceInstanceModifyProfileTrunkGroup
      * @ElementName callingLineIdLastName
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:49327
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:49381
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -38,7 +38,7 @@ class ServiceInstanceModifyProfileTrunkGroup
      * @ElementName callingLineIdFirstName
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:49327
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:49381
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -49,7 +49,7 @@ class ServiceInstanceModifyProfileTrunkGroup
      * @ElementName hiraganaLastName
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:49327
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:49381
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -60,7 +60,7 @@ class ServiceInstanceModifyProfileTrunkGroup
      * @ElementName hiraganaFirstName
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:49327
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:49381
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -72,7 +72,7 @@ class ServiceInstanceModifyProfileTrunkGroup
      * @Type string
      * @Nillable
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:49327
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:49381
      * @MinLength 1
      * @MaxLength 23
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -84,7 +84,7 @@ class ServiceInstanceModifyProfileTrunkGroup
      * @Type string
      * @Nillable
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:49327
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:49381
      * @MinLength 2
      * @MaxLength 6
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -95,7 +95,7 @@ class ServiceInstanceModifyProfileTrunkGroup
      * @ElementName password
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:49327
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:49381
      * @MinLength 1
      * @MaxLength 60
      * @var string|null
@@ -108,7 +108,7 @@ class ServiceInstanceModifyProfileTrunkGroup
      * @Nillable
      * @Abstract \CWM\BroadWorksConnector\Ocip\Models\EnterpriseDepartmentKey,\CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentKey
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:49327
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:49381
      * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $department = null;
@@ -117,7 +117,7 @@ class ServiceInstanceModifyProfileTrunkGroup
      * @ElementName language
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:49327
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:49381
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -128,7 +128,7 @@ class ServiceInstanceModifyProfileTrunkGroup
      * @ElementName timeZone
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:49327
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:49381
      * @MinLength 1
      * @MaxLength 127
      * @var string|null
@@ -140,7 +140,7 @@ class ServiceInstanceModifyProfileTrunkGroup
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementSIPAliasList
      * @Nillable
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:49327
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:49381
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementSIPAliasList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $sipAliasList = null;

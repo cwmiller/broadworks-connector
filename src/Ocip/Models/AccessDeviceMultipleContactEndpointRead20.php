@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Port numbers are only used by devices with static line ordering.
  *         Replaced by AccessDeviceMultipleContactEndpointRead22.
  *
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:47370","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:47424","type":"sequence"}]
  */
 class AccessDeviceMultipleContactEndpointRead20
 {
@@ -17,7 +17,7 @@ class AccessDeviceMultipleContactEndpointRead20
     /**
      * @ElementName accessDevice
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDevice
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:47370
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:47424
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDevice|null
      */
     private $accessDevice = null;
@@ -25,7 +25,7 @@ class AccessDeviceMultipleContactEndpointRead20
     /**
      * @ElementName linePort
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:47370
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:47424
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -37,7 +37,7 @@ class AccessDeviceMultipleContactEndpointRead20
      * @Type string
      * @Array
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:47370
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:47424
      * @MinLength 1
      * @MaxLength 1020
      * @var string[]
@@ -49,7 +49,7 @@ class AccessDeviceMultipleContactEndpointRead20
     /**
      * @ElementName staticRegistrationCapable
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:47370
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:47424
      * @var bool|null
      */
     private $staticRegistrationCapable = null;
@@ -57,7 +57,7 @@ class AccessDeviceMultipleContactEndpointRead20
     /**
      * @ElementName useDomain
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:47370
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:47424
      * @var bool|null
      */
     private $useDomain = null;
@@ -66,7 +66,7 @@ class AccessDeviceMultipleContactEndpointRead20
      * @ElementName portNumber
      * @Type int
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:47370
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:47424
      * @MinInclusive 1
      * @MaxInclusive 1024
      * @var int|null
@@ -76,7 +76,7 @@ class AccessDeviceMultipleContactEndpointRead20
     /**
      * @ElementName supportVisualDeviceManagement
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:47370
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:47424
      * @var bool|null
      */
     private $supportVisualDeviceManagement = null;

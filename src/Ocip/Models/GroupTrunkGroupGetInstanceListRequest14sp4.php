@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupTrunkGroupGetInstanceListResponse14sp4
  * @see ErrorResponse
- * @Groups [{"id":"b9c14e2d80e4e7749688ca13ba233b44:1110","type":"sequence","children":[{"id":"b9c14e2d80e4e7749688ca13ba233b44:1113","type":"choice","optional":true}]}]
+ * @Groups [{"id":"b9c14e2d80e4e7749688ca13ba233b44:1111","type":"sequence","children":[{"id":"b9c14e2d80e4e7749688ca13ba233b44:1114","type":"choice","optional":true}]}]
  */
 class GroupTrunkGroupGetInstanceListRequest14sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class GroupTrunkGroupGetInstanceListRequest14sp4 extends \CWM\BroadWorksConnecto
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group b9c14e2d80e4e7749688ca13ba233b44:1110
+     * @Group b9c14e2d80e4e7749688ca13ba233b44:1111
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -29,7 +29,7 @@ class GroupTrunkGroupGetInstanceListRequest14sp4 extends \CWM\BroadWorksConnecto
     /**
      * @ElementName groupId
      * @Type string
-     * @Group b9c14e2d80e4e7749688ca13ba233b44:1110
+     * @Group b9c14e2d80e4e7749688ca13ba233b44:1111
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -39,7 +39,7 @@ class GroupTrunkGroupGetInstanceListRequest14sp4 extends \CWM\BroadWorksConnecto
     /**
      * @ElementName groupDepartmentName
      * @Type string
-     * @Group b9c14e2d80e4e7749688ca13ba233b44:1113
+     * @Group b9c14e2d80e4e7749688ca13ba233b44:1114
      * @MinLength 1
      * @MaxLength 50
      * @var string|null
@@ -49,7 +49,7 @@ class GroupTrunkGroupGetInstanceListRequest14sp4 extends \CWM\BroadWorksConnecto
     /**
      * @ElementName includeEnterpriseTrunkGroups
      * @Type bool
-     * @Group b9c14e2d80e4e7749688ca13ba233b44:1113
+     * @Group b9c14e2d80e4e7749688ca13ba233b44:1114
      * @var bool|null
      */
     private $includeEnterpriseTrunkGroups = null;
@@ -58,7 +58,7 @@ class GroupTrunkGroupGetInstanceListRequest14sp4 extends \CWM\BroadWorksConnecto
      * @ElementName onlyTrunkGroupsWithDevice
      * @Type bool
      * @Optional
-     * @Group b9c14e2d80e4e7749688ca13ba233b44:1110
+     * @Group b9c14e2d80e4e7749688ca13ba233b44:1111
      * @var bool|null
      */
     private $onlyTrunkGroupsWithDevice = null;

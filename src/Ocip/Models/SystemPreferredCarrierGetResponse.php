@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains the attributes of a carrier.
  *
  * @see SystemPreferredCarrierGetRequest
- * @Groups [{"id":"74a46a9bfccb54713c1d19735843f1df:448","type":"sequence"}]
+ * @Groups [{"id":"74a46a9bfccb54713c1d19735843f1df:449","type":"sequence"}]
  */
 class SystemPreferredCarrierGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class SystemPreferredCarrierGetResponse extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName cic
      * @Type string
-     * @Group 74a46a9bfccb54713c1d19735843f1df:448
+     * @Group 74a46a9bfccb54713c1d19735843f1df:449
      * @MinLength 1
      * @MaxLength 6
      * @var string|null
@@ -27,7 +27,7 @@ class SystemPreferredCarrierGetResponse extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName countryCode
      * @Type string
-     * @Group 74a46a9bfccb54713c1d19735843f1df:448
+     * @Group 74a46a9bfccb54713c1d19735843f1df:449
      * @MaxLength 3
      * @Pattern [0-9]|[1-9][0-9]{1,2}
      * @var string|null
@@ -37,7 +37,7 @@ class SystemPreferredCarrierGetResponse extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName isIntraLata
      * @Type bool
-     * @Group 74a46a9bfccb54713c1d19735843f1df:448
+     * @Group 74a46a9bfccb54713c1d19735843f1df:449
      * @var bool|null
      */
     private $isIntraLata = null;
@@ -45,7 +45,7 @@ class SystemPreferredCarrierGetResponse extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName isInterLata
      * @Type bool
-     * @Group 74a46a9bfccb54713c1d19735843f1df:448
+     * @Group 74a46a9bfccb54713c1d19735843f1df:449
      * @var bool|null
      */
     private $isInterLata = null;
@@ -53,7 +53,7 @@ class SystemPreferredCarrierGetResponse extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName isInternational
      * @Type bool
-     * @Group 74a46a9bfccb54713c1d19735843f1df:448
+     * @Group 74a46a9bfccb54713c1d19735843f1df:449
      * @var bool|null
      */
     private $isInternational = null;

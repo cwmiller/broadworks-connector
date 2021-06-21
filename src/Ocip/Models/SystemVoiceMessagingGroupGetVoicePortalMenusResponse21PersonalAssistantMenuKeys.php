@@ -5,7 +5,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PersonalAssistantMenuKeys
  *
- * @Groups [{"id":"3347d430e0d5c93a9ff8dcf0e3b60d6c:1107","type":"sequence"}]
+ * @Groups [{"id":"3347d430e0d5c93a9ff8dcf0e3b60d6c:1108","type":"sequence"}]
  */
 class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PersonalAssistantMenuKeys
 {
@@ -14,7 +14,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PersonalAssistantMen
      * @ElementName setPresenceToNone
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1107
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1108
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -25,7 +25,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PersonalAssistantMen
      * @ElementName setPresenceToBusinessTrip
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1107
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1108
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -36,7 +36,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PersonalAssistantMen
      * @ElementName setPresenceToGoneForTheDay
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1107
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1108
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -47,7 +47,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PersonalAssistantMen
      * @ElementName setPresenceToLunch
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1107
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1108
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -58,7 +58,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PersonalAssistantMen
      * @ElementName setPresenceToMeeting
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1107
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1108
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -69,7 +69,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PersonalAssistantMen
      * @ElementName setPresenceToOutOfOffice
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1107
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1108
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -80,7 +80,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PersonalAssistantMen
      * @ElementName setPresenceToTemporarilyOut
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1107
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1108
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -91,7 +91,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PersonalAssistantMen
      * @ElementName setPresenceToTraining
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1107
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1108
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -102,7 +102,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PersonalAssistantMen
      * @ElementName setPresenceToUnavailable
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1107
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1108
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -113,7 +113,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PersonalAssistantMen
      * @ElementName setPresenceToVacation
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1107
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1108
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -123,7 +123,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PersonalAssistantMen
     /**
      * @ElementName returnToPreviousMenu
      * @Type string
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1107
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1108
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -134,7 +134,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PersonalAssistantMen
      * @ElementName repeatMenu
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1107
+     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1108
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null

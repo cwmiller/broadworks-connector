@@ -1,8 +1,12 @@
 # Changelog
 
+## [3.2.0] - 2021-06-22
+### Changed
+- Rebuilt models using `Rel_24.0_1.944` schema files.
+
 ## [3.1.4] - 2021-06-06
 ### Added
-- Added missing commands UserAnnouncementFileLocationGetRequest and GroupAnnouncementFileLocationGetRequest.
+- Added missing commands `UserAnnouncementFileLocationGetRequest` and `GroupAnnouncementFileLocationGetRequest`.
 
 ## [3.1.3] - 2021-02-21
 ### Fixed
@@ -110,6 +114,7 @@
 ### Added
 - `OcipClient` now exposes helper methods for every request object.
 
+[3.2.0]: https://github.com/cwmiller/broadworks-connector/compare/3.1.4...3.2.0
 [3.1.4]: https://github.com/cwmiller/broadworks-connector/compare/3.1.3...3.1.4
 [3.1.3]: https://github.com/cwmiller/broadworks-connector/compare/3.1.2...3.1.3
 [3.1.2]: https://github.com/cwmiller/broadworks-connector/compare/3.1.1...3.1.2

@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SuccessResponse
  * @see ErrorResponse
  * @see SystemCallRecordingModifyRequest22
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:24786","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:24781","type":"sequence"}]
  */
 class SystemCallRecordingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -22,7 +22,7 @@ class SystemCallRecordingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName continueCallAfterRecordingFailure
      * @Type bool
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:24786
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:24781
      * @var bool|null
      */
     private $continueCallAfterRecordingFailure = null;
@@ -31,7 +31,7 @@ class SystemCallRecordingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName refreshPeriodSeconds
      * @Type int
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:24786
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:24781
      * @MinInclusive 10
      * @MaxInclusive 300
      * @var int|null
@@ -42,7 +42,7 @@ class SystemCallRecordingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName maxConsecutiveFailures
      * @Type int
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:24786
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:24781
      * @MinInclusive 1
      * @MaxInclusive 10
      * @var int|null
@@ -53,7 +53,7 @@ class SystemCallRecordingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName maxResponseWaitTimeMilliseconds
      * @Type int
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:24786
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:24781
      * @MinInclusive 50
      * @MaxInclusive 10000
      * @var int|null
@@ -64,7 +64,7 @@ class SystemCallRecordingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName continueCallAfterVideoRecordingFailure
      * @Type bool
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:24786
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:24781
      * @var bool|null
      */
     private $continueCallAfterVideoRecordingFailure = null;

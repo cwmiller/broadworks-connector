@@ -19,7 +19,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           defaultPasscode
  *
  * @see ServiceProviderPortalPasscodeRulesGetRequest22
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:5407","type":"sequence"}]
+ * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:5405","type":"sequence"}]
  */
 class ServiceProviderPortalPasscodeRulesGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -27,7 +27,7 @@ class ServiceProviderPortalPasscodeRulesGetResponse22 extends \CWM\BroadWorksCon
     /**
      * @ElementName disallowRepeatedDigits
      * @Type bool
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5407
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5405
      * @var bool|null
      */
     private $disallowRepeatedDigits = null;
@@ -35,7 +35,7 @@ class ServiceProviderPortalPasscodeRulesGetResponse22 extends \CWM\BroadWorksCon
     /**
      * @ElementName numberOfRepeatedDigits
      * @Type int
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5407
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5405
      * @MinInclusive 1
      * @MaxInclusive 6
      * @var int|null
@@ -45,7 +45,7 @@ class ServiceProviderPortalPasscodeRulesGetResponse22 extends \CWM\BroadWorksCon
     /**
      * @ElementName disallowRepeatedPatterns
      * @Type bool
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5407
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5405
      * @var bool|null
      */
     private $disallowRepeatedPatterns = null;
@@ -53,7 +53,7 @@ class ServiceProviderPortalPasscodeRulesGetResponse22 extends \CWM\BroadWorksCon
     /**
      * @ElementName disallowContiguousSequences
      * @Type bool
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5407
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5405
      * @var bool|null
      */
     private $disallowContiguousSequences = null;
@@ -61,7 +61,7 @@ class ServiceProviderPortalPasscodeRulesGetResponse22 extends \CWM\BroadWorksCon
     /**
      * @ElementName numberOfAscendingDigits
      * @Type int
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5407
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5405
      * @MinInclusive 2
      * @MaxInclusive 5
      * @var int|null
@@ -71,7 +71,7 @@ class ServiceProviderPortalPasscodeRulesGetResponse22 extends \CWM\BroadWorksCon
     /**
      * @ElementName numberOfDescendingDigits
      * @Type int
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5407
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5405
      * @MinInclusive 2
      * @MaxInclusive 5
      * @var int|null
@@ -81,7 +81,7 @@ class ServiceProviderPortalPasscodeRulesGetResponse22 extends \CWM\BroadWorksCon
     /**
      * @ElementName disallowUserNumber
      * @Type bool
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5407
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5405
      * @var bool|null
      */
     private $disallowUserNumber = null;
@@ -89,7 +89,7 @@ class ServiceProviderPortalPasscodeRulesGetResponse22 extends \CWM\BroadWorksCon
     /**
      * @ElementName disallowReversedUserNumber
      * @Type bool
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5407
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5405
      * @var bool|null
      */
     private $disallowReversedUserNumber = null;
@@ -97,7 +97,7 @@ class ServiceProviderPortalPasscodeRulesGetResponse22 extends \CWM\BroadWorksCon
     /**
      * @ElementName disallowOldPasscode
      * @Type bool
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5407
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5405
      * @var bool|null
      */
     private $disallowOldPasscode = null;
@@ -105,7 +105,7 @@ class ServiceProviderPortalPasscodeRulesGetResponse22 extends \CWM\BroadWorksCon
     /**
      * @ElementName numberOfPreviousPasscodes
      * @Type int
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5407
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5405
      * @MinInclusive 1
      * @MaxInclusive 10
      * @var int|null
@@ -115,7 +115,7 @@ class ServiceProviderPortalPasscodeRulesGetResponse22 extends \CWM\BroadWorksCon
     /**
      * @ElementName disallowReversedOldPasscode
      * @Type bool
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5407
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5405
      * @var bool|null
      */
     private $disallowReversedOldPasscode = null;
@@ -123,7 +123,7 @@ class ServiceProviderPortalPasscodeRulesGetResponse22 extends \CWM\BroadWorksCon
     /**
      * @ElementName minCodeLength
      * @Type int
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5407
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5405
      * @MinInclusive 2
      * @MaxInclusive 15
      * @var int|null
@@ -133,7 +133,7 @@ class ServiceProviderPortalPasscodeRulesGetResponse22 extends \CWM\BroadWorksCon
     /**
      * @ElementName maxCodeLength
      * @Type int
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5407
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5405
      * @MinInclusive 3
      * @MaxInclusive 30
      * @var int|null
@@ -143,7 +143,7 @@ class ServiceProviderPortalPasscodeRulesGetResponse22 extends \CWM\BroadWorksCon
     /**
      * @ElementName disableLoginAfterMaxFailedLoginAttempts
      * @Type bool
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5407
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5405
      * @var bool|null
      */
     private $disableLoginAfterMaxFailedLoginAttempts = null;
@@ -152,7 +152,7 @@ class ServiceProviderPortalPasscodeRulesGetResponse22 extends \CWM\BroadWorksCon
      * @ElementName maxFailedLoginAttempts
      * @Type int
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5407
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5405
      * @MinInclusive 2
      * @MaxInclusive 10
      * @var int|null
@@ -162,7 +162,7 @@ class ServiceProviderPortalPasscodeRulesGetResponse22 extends \CWM\BroadWorksCon
     /**
      * @ElementName expirePassword
      * @Type bool
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5407
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5405
      * @var bool|null
      */
     private $expirePassword = null;
@@ -171,7 +171,7 @@ class ServiceProviderPortalPasscodeRulesGetResponse22 extends \CWM\BroadWorksCon
      * @ElementName passcodeExpiresDays
      * @Type int
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5407
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5405
      * @MinInclusive 15
      * @MaxInclusive 180
      * @var int|null
@@ -181,7 +181,7 @@ class ServiceProviderPortalPasscodeRulesGetResponse22 extends \CWM\BroadWorksCon
     /**
      * @ElementName sendLoginDisabledNotifyEmail
      * @Type bool
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5407
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5405
      * @var bool|null
      */
     private $sendLoginDisabledNotifyEmail = null;
@@ -190,7 +190,7 @@ class ServiceProviderPortalPasscodeRulesGetResponse22 extends \CWM\BroadWorksCon
      * @ElementName loginDisabledNotifyEmailAddress
      * @Type string
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5407
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5405
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -200,7 +200,7 @@ class ServiceProviderPortalPasscodeRulesGetResponse22 extends \CWM\BroadWorksCon
     /**
      * @ElementName enableDefaultPasscode
      * @Type bool
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5407
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5405
      * @var bool|null
      */
     private $enableDefaultPasscode = null;
@@ -209,7 +209,7 @@ class ServiceProviderPortalPasscodeRulesGetResponse22 extends \CWM\BroadWorksCon
      * @ElementName defaultPasscode
      * @Type string
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5407
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5405
      * @MinLength 1
      * @MaxLength 30
      * @var string|null

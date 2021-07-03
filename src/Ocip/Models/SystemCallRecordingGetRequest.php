@@ -14,7 +14,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SystemCallRecordingGetResponse
  * @see ErrorResponse
  * @see SystemCallRecordingGetRequest22
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:24684","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:24679","type":"sequence"}]
  */
 class SystemCallRecordingGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

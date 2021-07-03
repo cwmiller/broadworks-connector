@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:14927","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:14924","type":"sequence"}]
  */
 class SystemRedundancyParametersModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class SystemRedundancyParametersModifyRequest extends \CWM\BroadWorksConnector\O
      * @ElementName rollBackTimerMinutes
      * @Type int
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14927
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14924
      * @MinInclusive 0
      * @MaxInclusive 3600
      * @var int|null
@@ -30,7 +30,7 @@ class SystemRedundancyParametersModifyRequest extends \CWM\BroadWorksConnector\O
      * @ElementName sendSipOptionMessageUponMigration
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14927
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14924
      * @var bool|null
      */
     private $sendSipOptionMessageUponMigration = null;

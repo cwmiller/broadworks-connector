@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserMusicOnHoldUserGetRequest16
  * @see UserMusicOnHoldUserGetResponse20
- * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:13972","type":"sequence"}]
+ * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:13967","type":"sequence"}]
  */
 class UserMusicOnHoldUserGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,7 +19,7 @@ class UserMusicOnHoldUserGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName enableVideo
      * @Type bool
-     * @Group de4d76f01f337fe4694212ec9f771753:13972
+     * @Group de4d76f01f337fe4694212ec9f771753:13967
      * @var bool|null
      */
     private $enableVideo = null;
@@ -27,7 +27,7 @@ class UserMusicOnHoldUserGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName source
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserSourceRead16
-     * @Group de4d76f01f337fe4694212ec9f771753:13972
+     * @Group de4d76f01f337fe4694212ec9f771753:13967
      * @var \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserSourceRead16|null
      */
     private $source = null;
@@ -35,7 +35,7 @@ class UserMusicOnHoldUserGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName useAlternateSourceForInternalCalls
      * @Type bool
-     * @Group de4d76f01f337fe4694212ec9f771753:13972
+     * @Group de4d76f01f337fe4694212ec9f771753:13967
      * @var bool|null
      */
     private $useAlternateSourceForInternalCalls = null;
@@ -44,7 +44,7 @@ class UserMusicOnHoldUserGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName internalSource
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserSourceRead16
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:13972
+     * @Group de4d76f01f337fe4694212ec9f771753:13967
      * @var \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserSourceRead16|null
      */
     private $internalSource = null;

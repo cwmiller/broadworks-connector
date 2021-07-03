@@ -17,7 +17,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemDeviceFamilyImportDryRunResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:7533","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:7530","type":"sequence"}]
  */
 class SystemDeviceFamilyImportDryRunRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -25,7 +25,7 @@ class SystemDeviceFamilyImportDryRunRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName file
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7533
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7530
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -36,7 +36,7 @@ class SystemDeviceFamilyImportDryRunRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName resellerId
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7533
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7530
      * @MinLength 1
      * @MaxLength 36
      * @var string|null
@@ -47,7 +47,7 @@ class SystemDeviceFamilyImportDryRunRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName deviceFamilyOverride
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7533
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7530
      * @var bool|null
      */
     private $deviceFamilyOverride = null;
@@ -56,7 +56,7 @@ class SystemDeviceFamilyImportDryRunRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName tagSetOverride
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7533
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7530
      * @var bool|null
      */
     private $tagSetOverride = null;
@@ -65,7 +65,7 @@ class SystemDeviceFamilyImportDryRunRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName deviceTypeFileUpdate
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7533
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7530
      * @var bool|null
      */
     private $deviceTypeFileUpdate = null;

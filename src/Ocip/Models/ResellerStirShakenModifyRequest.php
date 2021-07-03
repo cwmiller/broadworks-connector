@@ -6,9 +6,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ResellerStirShakenModifyRequest
  *
  * Modify reseller Stir Shaken service settings.
- *         The response is either a ResellerStirShakenModifyResponse or an ErrorResponse.
+ *         The response is either a SuccessResponse or an ErrorResponse.
  *
- * @see ResellerStirShakenModifyResponse
+ * @see SuccessResponse
  * @see ErrorResponse
  * @Groups [{"id":"b009175f2a2a9d38115e319a6ad64d7f:911","type":"sequence"}]
  */

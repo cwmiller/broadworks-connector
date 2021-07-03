@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see ServiceProviderGetDefaultResponse
  * @see ErrorResponse
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:4415","type":"sequence"}]
+ * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:4413","type":"sequence"}]
  */
 class ServiceProviderGetDefaultRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

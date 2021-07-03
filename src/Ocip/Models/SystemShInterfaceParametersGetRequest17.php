@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemShInterfaceParametersGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:16395","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:16392","type":"sequence"}]
  */
 class SystemShInterfaceParametersGetRequest17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

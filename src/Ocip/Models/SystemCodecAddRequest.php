@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:5477","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:5474","type":"sequence"}]
  */
 class SystemCodecAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class SystemCodecAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRe
     /**
      * @ElementName codec
      * @Type \CWM\BroadWorksConnector\Ocip\Models\Codec
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:5477
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:5474
      * @var \CWM\BroadWorksConnector\Ocip\Models\Codec|null
      */
     private $codec = null;

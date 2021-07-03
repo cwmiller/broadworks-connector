@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * The system application Id entry.
  *
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:20132","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:20127","type":"sequence"}]
  */
 class XsiApplicationIdEntry
 {
@@ -15,7 +15,7 @@ class XsiApplicationIdEntry
     /**
      * @ElementName xsiApplicationId
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:20132
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:20127
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -26,7 +26,7 @@ class XsiApplicationIdEntry
      * @ElementName description
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:20132
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:20127
      * @MinLength 1
      * @MaxLength 80
      * @var string|null

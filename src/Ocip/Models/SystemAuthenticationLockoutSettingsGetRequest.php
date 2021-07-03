@@ -6,9 +6,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemAuthenticationLockoutSettingsGetRequest
  *
  * Request to get the authentication lockout settings in the system.
- *         The response is either a SystemAuthenticationLockoutSettingsResponse or an ErrorResponse.
+ *         The response is either a SystemAuthenticationLockoutSettingsGetResponse or an ErrorResponse.
  *
- * @see SystemAuthenticationLockoutSettingsResponse
+ * @see SystemAuthenticationLockoutSettingsGetResponse
  * @see ErrorResponse
  * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:2460","type":"sequence"}]
  */

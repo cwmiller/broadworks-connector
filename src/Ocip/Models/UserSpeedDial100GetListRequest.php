@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see UserSpeedDial100GetListResponse
  * @see ErrorResponse
  * @see UserSpeedDial100GetListRequest17Sp1
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:46628","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:46622","type":"sequence"}]
  */
 class UserSpeedDial100GetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,7 +21,7 @@ class UserSpeedDial100GetListRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName userId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:46628
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:46622
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

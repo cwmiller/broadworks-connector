@@ -5,7 +5,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemConfigurableFileSystemGetResponse23V2ProtocolFile
  *
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:6624","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:6621","type":"sequence"}]
  */
 class SystemConfigurableFileSystemGetResponse23V2ProtocolFile
 {
@@ -13,7 +13,7 @@ class SystemConfigurableFileSystemGetResponse23V2ProtocolFile
     /**
      * @ElementName replicated
      * @Type bool
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6624
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6621
      * @var bool|null
      */
     private $replicated = null;
@@ -21,7 +21,7 @@ class SystemConfigurableFileSystemGetResponse23V2ProtocolFile
     /**
      * @ElementName secure
      * @Type bool
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6624
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6621
      * @var bool|null
      */
     private $secure = null;

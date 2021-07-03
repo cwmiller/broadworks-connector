@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:9679","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:9676","type":"sequence"}]
  */
 class SystemEmergencyCallDDoSProtectionModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class SystemEmergencyCallDDoSProtectionModifyRequest extends \CWM\BroadWorksConn
      * @ElementName enabled
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9679
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9676
      * @var bool|null
      */
     private $enabled = null;
@@ -28,7 +28,7 @@ class SystemEmergencyCallDDoSProtectionModifyRequest extends \CWM\BroadWorksConn
      * @ElementName sampleIntervalSeconds
      * @Type int
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9679
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9676
      * @MinInclusive 1
      * @MaxInclusive 30
      * @var int|null
@@ -40,7 +40,7 @@ class SystemEmergencyCallDDoSProtectionModifyRequest extends \CWM\BroadWorksConn
      * @Type int
      * @Nillable
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9679
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9676
      * @MinInclusive 1
      * @MaxInclusive 10000
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -51,7 +51,7 @@ class SystemEmergencyCallDDoSProtectionModifyRequest extends \CWM\BroadWorksConn
      * @ElementName protectionAction
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ProtectionAction
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9679
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9676
      * @var \CWM\BroadWorksConnector\Ocip\Models\ProtectionAction|null
      */
     private $protectionAction = null;

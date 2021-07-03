@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemNumberPortabilityQueryStatusGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:13272","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:13269","type":"sequence"}]
  */
 class SystemNumberPortabilityQueryStatusGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemNumberPortabilityQueryStatusGetRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName status
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:13272
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:13269
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

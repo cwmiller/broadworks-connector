@@ -49,12 +49,11 @@ use CWM\BroadWorksConnector\Ocip\Models\ResellerServiceAuthorizationModifyReques
 use CWM\BroadWorksConnector\Ocip\Models\ResellerStirShakenGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ResellerStirShakenGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\ResellerStirShakenModifyRequest;
-use CWM\BroadWorksConnector\Ocip\Models\ResellerStirShakenModifyResponse;
 use CWM\BroadWorksConnector\Ocip\Models\ResellerXsiPolicyProfileAssignListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ResellerXsiPolicyProfileGetAssignedListRequest;
-use CWM\BroadWorksConnector\Ocip\Models\XsiPolicyProfileGetAssignedListResponse;
+use CWM\BroadWorksConnector\Ocip\Models\ResellerXsiPolicyProfileGetAssignedListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\ResellerXsiPolicyProfileGetAssignedServiceProviderListRequest;
-use CWM\BroadWorksConnector\Ocip\Models\ResellerXsiPolichProfileGetAssignedServiceProviderListResponse;
+use CWM\BroadWorksConnector\Ocip\Models\ResellerXsiPolicyProfileGetAssignedServiceProviderListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\ResellerXsiPolicyProfileModifyDefaultRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ResellerXsiPolicyProfileUnassignListRequest;
 use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
@@ -418,7 +417,7 @@ trait OCISchemaReseller
 
     /**
      * @param ResellerStirShakenModifyRequest $request
-     * @return ResellerStirShakenModifyResponse
+     * @return SuccessResponse
      * @throws ErrorResponseException
      * @throws ValidationException
      */
@@ -440,7 +439,7 @@ trait OCISchemaReseller
 
     /**
      * @param ResellerXsiPolicyProfileGetAssignedListRequest $request
-     * @return XsiPolicyProfileGetAssignedListResponse
+     * @return ResellerXsiPolicyProfileGetAssignedListResponse
      * @throws ErrorResponseException
      * @throws ValidationException
      */
@@ -451,7 +450,7 @@ trait OCISchemaReseller
 
     /**
      * @param ResellerXsiPolicyProfileGetAssignedServiceProviderListRequest $request
-     * @return ResellerXsiPolichProfileGetAssignedServiceProviderListResponse
+     * @return ResellerXsiPolicyProfileGetAssignedServiceProviderListResponse
      * @throws ErrorResponseException
      * @throws ValidationException
      */

@@ -17,7 +17,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemCallRecordingGetPlatformListRequest
  * @see SystemCallRecordingGetPlatformListResponse20sp1
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:24577","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:24572","type":"sequence"}]
  */
 class SystemCallRecordingGetPlatformListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -26,7 +26,7 @@ class SystemCallRecordingGetPlatformListResponse extends \CWM\BroadWorksConnecto
      * @ElementName systemDefault
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:24577
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:24572
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -36,7 +36,7 @@ class SystemCallRecordingGetPlatformListResponse extends \CWM\BroadWorksConnecto
     /**
      * @ElementName callRecordingPlatformTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:24577
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:24572
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $callRecordingPlatformTable = null;

@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:11928","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:11925","type":"sequence"}]
  */
 class SystemMediaServerAddRequest14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemMediaServerAddRequest14 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName netAddress
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11928
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11925
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -29,7 +29,7 @@ class SystemMediaServerAddRequest14 extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName port
      * @Type int
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11928
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11925
      * @MinInclusive 1025
      * @MaxInclusive 65535
      * @var int|null
@@ -39,7 +39,7 @@ class SystemMediaServerAddRequest14 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName transportProtocol
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11928
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11925
      * @var \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol|null
      */
     private $transportProtocol = null;
@@ -48,7 +48,7 @@ class SystemMediaServerAddRequest14 extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName description
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11928
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11925
      * @MinLength 1
      * @MaxLength 80
      * @var string|null

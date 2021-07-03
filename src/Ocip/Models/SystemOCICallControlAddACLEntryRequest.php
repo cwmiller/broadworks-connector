@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:13338","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:13335","type":"sequence"}]
  */
 class SystemOCICallControlAddACLEntryRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemOCICallControlAddACLEntryRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName netAddress
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:13338
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:13335
      * @MinLength 1
      * @MaxLength 39
      * @var string|null
@@ -29,7 +29,7 @@ class SystemOCICallControlAddACLEntryRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName description
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:13338
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:13335
      * @MinLength 1
      * @MaxLength 80
      * @var string|null

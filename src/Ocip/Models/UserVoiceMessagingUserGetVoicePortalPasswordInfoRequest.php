@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see UserVoiceMessagingUserGetVoicePortalPasswordInfoResponse
  * @see ErrorResponse
  * @see UserPortalPasscodeGetInfoRequest
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:47137","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:47131","type":"sequence"}]
  */
 class UserVoiceMessagingUserGetVoicePortalPasswordInfoRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class UserVoiceMessagingUserGetVoicePortalPasswordInfoRequest extends \CWM\Broad
     /**
      * @ElementName userId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:47137
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:47131
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

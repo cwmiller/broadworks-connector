@@ -26,7 +26,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserGetRequest21sp1
  * @see UserGetResponse22
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:44239","type":"sequence","children":[{"id":"ab0042aa512abc10edb3c55e4b416b0b:44259","type":"choice"}]}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:44233","type":"sequence","children":[{"id":"ab0042aa512abc10edb3c55e4b416b0b:44253","type":"choice"}]}]
  */
 class UserGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -34,7 +34,7 @@ class UserGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDat
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:44239
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:44233
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -44,7 +44,7 @@ class UserGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDat
     /**
      * @ElementName groupId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:44239
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:44233
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -54,7 +54,7 @@ class UserGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDat
     /**
      * @ElementName lastName
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:44239
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:44233
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -64,7 +64,7 @@ class UserGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDat
     /**
      * @ElementName firstName
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:44239
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:44233
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -74,7 +74,7 @@ class UserGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDat
     /**
      * @ElementName callingLineIdLastName
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:44239
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:44233
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -84,7 +84,7 @@ class UserGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDat
     /**
      * @ElementName callingLineIdFirstName
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:44239
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:44233
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -95,7 +95,7 @@ class UserGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDat
      * @ElementName nameDialingName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\NameDialingName
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:44239
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:44233
      * @var \CWM\BroadWorksConnector\Ocip\Models\NameDialingName|null
      */
     private $nameDialingName = null;
@@ -104,7 +104,7 @@ class UserGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDat
      * @ElementName hiraganaLastName
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:44239
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:44233
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -115,7 +115,7 @@ class UserGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDat
      * @ElementName hiraganaFirstName
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:44239
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:44233
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -126,7 +126,7 @@ class UserGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDat
      * @ElementName phoneNumber
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:44239
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:44233
      * @MinLength 1
      * @MaxLength 23
      * @var string|null
@@ -137,7 +137,7 @@ class UserGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDat
      * @ElementName extension
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:44239
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:44233
      * @MinLength 2
      * @MaxLength 20
      * @var string|null
@@ -148,7 +148,7 @@ class UserGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDat
      * @ElementName callingLineIdPhoneNumber
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:44239
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:44233
      * @MinLength 1
      * @MaxLength 23
      * @var string|null
@@ -160,7 +160,7 @@ class UserGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDat
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey
      * @Abstract \CWM\BroadWorksConnector\Ocip\Models\EnterpriseDepartmentKey,\CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentKey
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:44239
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:44233
      * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null
      */
     private $department = null;
@@ -169,7 +169,7 @@ class UserGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDat
      * @ElementName departmentFullPath
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:44239
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:44233
      * @MinLength 1
      * @var string|null
      */
@@ -178,7 +178,7 @@ class UserGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDat
     /**
      * @ElementName language
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:44239
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:44233
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -188,7 +188,7 @@ class UserGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDat
     /**
      * @ElementName timeZone
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:44239
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:44233
      * @MinLength 1
      * @MaxLength 127
      * @var string|null
@@ -198,7 +198,7 @@ class UserGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDat
     /**
      * @ElementName timeZoneDisplayName
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:44239
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:44233
      * @MinLength 1
      * @MaxLength 127
      * @var string|null
@@ -208,7 +208,7 @@ class UserGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDat
     /**
      * @ElementName defaultAlias
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:44239
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:44233
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -220,7 +220,7 @@ class UserGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDat
      * @Type string
      * @Array
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:44239
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:44233
      * @MinLength 1
      * @MaxLength 161
      * @var string[]
@@ -233,7 +233,7 @@ class UserGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDat
      * @ElementName accessDeviceEndpoint
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceMultipleIdentityAndContactEndpointRead
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:44259
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:44253
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceMultipleIdentityAndContactEndpointRead|null
      */
     private $accessDeviceEndpoint = null;
@@ -242,7 +242,7 @@ class UserGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDat
      * @ElementName trunkAddressing
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TrunkAddressingMultipleContactRead21
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:44259
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:44253
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkAddressingMultipleContactRead21|null
      */
     private $trunkAddressing = null;
@@ -251,7 +251,7 @@ class UserGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDat
      * @ElementName title
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:44239
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:44233
      * @MinLength 1
      * @MaxLength 50
      * @var string|null
@@ -262,7 +262,7 @@ class UserGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDat
      * @ElementName pagerPhoneNumber
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:44239
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:44233
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -273,7 +273,7 @@ class UserGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDat
      * @ElementName mobilePhoneNumber
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:44239
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:44233
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -284,7 +284,7 @@ class UserGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDat
      * @ElementName emailAddress
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:44239
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:44233
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -295,7 +295,7 @@ class UserGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDat
      * @ElementName yahooId
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:44239
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:44233
      * @MinLength 1
      * @MaxLength 50
      * @var string|null
@@ -306,7 +306,7 @@ class UserGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDat
      * @ElementName addressLocation
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:44239
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:44233
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -317,7 +317,7 @@ class UserGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDat
      * @ElementName address
      * @Type \CWM\BroadWorksConnector\Ocip\Models\StreetAddress
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:44239
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:44233
      * @var \CWM\BroadWorksConnector\Ocip\Models\StreetAddress|null
      */
     private $address = null;
@@ -325,7 +325,7 @@ class UserGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDat
     /**
      * @ElementName countryCode
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:44239
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:44233
      * @MaxLength 3
      * @Pattern [0-9]|[1-9][0-9]{1,2}
      * @var string|null
@@ -336,7 +336,7 @@ class UserGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDat
      * @ElementName nationalPrefix
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:44239
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:44233
      * @MinLength 1
      * @MaxLength 2
      * @var string|null
@@ -347,7 +347,7 @@ class UserGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDat
      * @ElementName networkClassOfService
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:44239
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:44233
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -358,7 +358,7 @@ class UserGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDat
      * @ElementName officeZoneName
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:44239
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:44233
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -369,7 +369,7 @@ class UserGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDat
      * @ElementName primaryZoneName
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:44239
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:44233
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -380,7 +380,7 @@ class UserGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDat
      * @ElementName impId
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:44239
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:44233
      * @MinLength 1
      * @MaxLength 196
      * @var string|null
@@ -392,7 +392,7 @@ class UserGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDat
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AlternateUserIdEntry
      * @Array
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:44239
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:44233
      * @var \CWM\BroadWorksConnector\Ocip\Models\AlternateUserIdEntry[]
      */
     private $alternateUserId = array(

@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to ServiceProviderExtensionLengthGetRequest.
  *
  * @see ServiceProviderExtensionLengthGetRequest
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:4158","type":"sequence"}]
+ * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:4156","type":"sequence"}]
  */
 class ServiceProviderExtensionLengthGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class ServiceProviderExtensionLengthGetResponse extends \CWM\BroadWorksConnector
      * @ElementName defaultExtensionLength
      * @Type int
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4158
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4156
      * @MinInclusive 2
      * @MaxInclusive 20
      * @var int|null
@@ -28,7 +28,7 @@ class ServiceProviderExtensionLengthGetResponse extends \CWM\BroadWorksConnector
      * @ElementName locationRoutingPrefixDigit
      * @Type int
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4158
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4156
      * @MinInclusive 0
      * @MaxInclusive 9
      * @var int|null
@@ -39,7 +39,7 @@ class ServiceProviderExtensionLengthGetResponse extends \CWM\BroadWorksConnector
      * @ElementName locationCodeLength
      * @Type int
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4158
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4156
      * @MinInclusive 1
      * @MaxInclusive 15
      * @var int|null

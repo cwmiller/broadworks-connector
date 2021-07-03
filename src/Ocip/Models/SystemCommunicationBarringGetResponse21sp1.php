@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         vmCallbackScreening, value "false" is returned in XS data mode.
  *
  * @see SystemCommunicationBarringGetRequest21sp1
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:6090","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:6087","type":"sequence"}]
  */
 class SystemCommunicationBarringGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class SystemCommunicationBarringGetResponse21sp1 extends \CWM\BroadWorksConnecto
     /**
      * @ElementName directTransferScreening
      * @Type bool
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6090
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6087
      * @var bool|null
      */
     private $directTransferScreening = null;
@@ -26,7 +26,7 @@ class SystemCommunicationBarringGetResponse21sp1 extends \CWM\BroadWorksConnecto
     /**
      * @ElementName vmCallbackScreening
      * @Type bool
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6090
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6087
      * @var bool|null
      */
     private $vmCallbackScreening = null;

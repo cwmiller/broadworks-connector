@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see ServiceProviderGetResponse22V4
  * @see ErrorResponse
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:4550","type":"sequence","children":[{"id":"f1088f4c5ceb30d524d2ba0f8097c393:4551","type":"choice"}]}]
+ * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:4548","type":"sequence","children":[{"id":"f1088f4c5ceb30d524d2ba0f8097c393:4549","type":"choice"}]}]
  */
 class ServiceProviderGetRequest22V4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,7 +21,7 @@ class ServiceProviderGetRequest22V4 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4551
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4549
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -31,7 +31,7 @@ class ServiceProviderGetRequest22V4 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName serviceProviderExternalId
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4551
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4549
      * @MaxLength 36
      * @var string|null
      */

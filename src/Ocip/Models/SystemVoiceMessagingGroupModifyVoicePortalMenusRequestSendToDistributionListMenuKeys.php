@@ -5,7 +5,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemVoiceMessagingGroupModifyVoicePortalMenusRequestSendToDistributionListMenuKeys
  *
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:39002","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:38996","type":"sequence"}]
  */
 class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestSendToDistributionListMenuKeys
 {
@@ -14,7 +14,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestSendToDistributionLi
      * @ElementName sendMessageToSelectedDistributionList
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:39002
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:38996
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -26,7 +26,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestSendToDistributionLi
      * @Type string
      * @Nillable
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:39002
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:38996
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -38,7 +38,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestSendToDistributionLi
      * @Type string
      * @Nillable
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:39002
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:38996
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -49,7 +49,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestSendToDistributionLi
      * @ElementName returnToPreviousMenu
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:39002
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:38996
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -61,7 +61,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestSendToDistributionLi
      * @Type string
      * @Nillable
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:39002
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:38996
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil

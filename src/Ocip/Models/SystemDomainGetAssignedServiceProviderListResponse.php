@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           "Reseller Id"
  *
  * @see SystemDomainGetAssignedServiceProviderListRequest
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:9470","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:9467","type":"sequence"}]
  */
 class SystemDomainGetAssignedServiceProviderListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,7 +19,7 @@ class SystemDomainGetAssignedServiceProviderListResponse extends \CWM\BroadWorks
     /**
      * @ElementName serviceProviderTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9470
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9467
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $serviceProviderTable = null;

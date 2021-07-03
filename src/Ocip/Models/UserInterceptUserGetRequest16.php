@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see UserInterceptUserGetResponse16
  * @see ErrorResponse
  * @see UserInterceptUserGetRequest16sp1
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:44935","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:44929","type":"sequence"}]
  */
 class UserInterceptUserGetRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class UserInterceptUserGetRequest16 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName userId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:44935
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:44929
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

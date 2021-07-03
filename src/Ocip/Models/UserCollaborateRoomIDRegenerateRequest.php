@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserCollaborateRoomIDRegenerateResponse
  * @see ErrorResponse
- * @Groups [{"id":"939fd5846dfae8bdf58308d6cb9ebb12:962","type":"sequence"}]
+ * @Groups [{"id":"939fd5846dfae8bdf58308d6cb9ebb12:958","type":"sequence"}]
  */
 class UserCollaborateRoomIDRegenerateRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class UserCollaborateRoomIDRegenerateRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName userId
      * @Type string
-     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:962
+     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:958
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -30,7 +30,7 @@ class UserCollaborateRoomIDRegenerateRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName roomId
      * @Type string
-     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:962
+     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:958
      * @MinLength 4
      * @MaxLength 15
      * @var string|null

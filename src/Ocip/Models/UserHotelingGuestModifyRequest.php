@@ -14,7 +14,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SuccessResponse
  * @see ErrorResponse
  * @see UserHotelingGuestModifyRequest21
- * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:13742","type":"sequence"}]
+ * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:13737","type":"sequence"}]
  */
 class UserHotelingGuestModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -22,7 +22,7 @@ class UserHotelingGuestModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName userId
      * @Type string
-     * @Group de4d76f01f337fe4694212ec9f771753:13742
+     * @Group de4d76f01f337fe4694212ec9f771753:13737
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -33,7 +33,7 @@ class UserHotelingGuestModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName isActive
      * @Type bool
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:13742
+     * @Group de4d76f01f337fe4694212ec9f771753:13737
      * @var bool|null
      */
     private $isActive = null;
@@ -42,7 +42,7 @@ class UserHotelingGuestModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName enableAssociationLimit
      * @Type bool
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:13742
+     * @Group de4d76f01f337fe4694212ec9f771753:13737
      * @var bool|null
      */
     private $enableAssociationLimit = null;
@@ -51,7 +51,7 @@ class UserHotelingGuestModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName associationLimitHours
      * @Type int
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:13742
+     * @Group de4d76f01f337fe4694212ec9f771753:13737
      * @MinInclusive 1
      * @MaxInclusive 999
      * @var int|null
@@ -63,7 +63,7 @@ class UserHotelingGuestModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @Type string
      * @Nillable
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:13742
+     * @Group de4d76f01f337fe4694212ec9f771753:13737
      * @MinLength 1
      * @MaxLength 161
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil

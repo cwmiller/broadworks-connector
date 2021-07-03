@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemCommunicationBarringProfileGetResponse17sp1
  * @see ErrorResponse
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:25206","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:25201","type":"sequence"}]
  */
 class SystemCommunicationBarringProfileGetRequest17sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class SystemCommunicationBarringProfileGetRequest17sp1 extends \CWM\BroadWorksCo
     /**
      * @ElementName name
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:25206
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:25201
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

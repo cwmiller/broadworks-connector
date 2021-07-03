@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:29423","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:29418","type":"sequence"}]
  */
 class SystemSIPDeleteACLEntryRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemSIPDeleteACLEntryRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName netAddress
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:29423
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:29418
      * @MinLength 1
      * @MaxLength 80
      * @var string|null

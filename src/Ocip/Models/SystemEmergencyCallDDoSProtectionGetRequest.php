@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemEmergencyCallDDoSProtectionGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:9647","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:9644","type":"sequence"}]
  */
 class SystemEmergencyCallDDoSProtectionGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

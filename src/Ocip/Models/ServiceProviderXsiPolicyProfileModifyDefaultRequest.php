@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:7141","type":"sequence"}]
+ * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:7138","type":"sequence"}]
  */
 class ServiceProviderXsiPolicyProfileModifyDefaultRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class ServiceProviderXsiPolicyProfileModifyDefaultRequest extends \CWM\BroadWork
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:7141
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:7138
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -29,7 +29,7 @@ class ServiceProviderXsiPolicyProfileModifyDefaultRequest extends \CWM\BroadWork
      * @ElementName groupDefaultXsiPolicyProfile
      * @Type string
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:7141
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:7138
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -40,7 +40,7 @@ class ServiceProviderXsiPolicyProfileModifyDefaultRequest extends \CWM\BroadWork
      * @ElementName userDefaultXsiPolicyProfile
      * @Type string
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:7141
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:7138
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

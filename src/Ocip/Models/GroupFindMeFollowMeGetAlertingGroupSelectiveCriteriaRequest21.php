@@ -6,9 +6,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupFindMeFollowMeGetAlertingGroupSelectiveCriteriaRequest21
  *
  * Request to get all the information of a specific Find-me/Follow-me alerting group selective criteria.
- *         The response is either GroupFindMeFollowMeGetAlertingGroupResponse21 or ErrorResponse.
+ *         The response is either GroupFindMeFollowMeGetAlertingGroupSelectiveCriteriaResponse21 or ErrorResponse.
  *
- * @see GroupFindMeFollowMeGetAlertingGroupResponse21
+ * @see GroupFindMeFollowMeGetAlertingGroupSelectiveCriteriaResponse21
  * @see ErrorResponse
  * @Groups [{"id":"79f226053ee345f2ff4c37c37c8e9114:303","type":"sequence"}]
  */

@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains a list of system External Emergency Routing parameters.
  *
  * @see SystemExternalEmergencyRoutingParametersGetRequest13mp13
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:10125","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:10122","type":"sequence"}]
  */
 class SystemExternalEmergencyRoutingParametersGetResponse13mp13 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class SystemExternalEmergencyRoutingParametersGetResponse13mp13 extends \CWM\Bro
      * @ElementName serviceURI
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10125
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10122
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -29,7 +29,7 @@ class SystemExternalEmergencyRoutingParametersGetResponse13mp13 extends \CWM\Bro
      * @ElementName defaultEmergencyNumber
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10125
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10122
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -39,7 +39,7 @@ class SystemExternalEmergencyRoutingParametersGetResponse13mp13 extends \CWM\Bro
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10125
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10122
      * @var bool|null
      */
     private $isActive = null;
@@ -47,7 +47,7 @@ class SystemExternalEmergencyRoutingParametersGetResponse13mp13 extends \CWM\Bro
     /**
      * @ElementName supportsDNSSRV
      * @Type bool
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10125
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10122
      * @var bool|null
      */
     private $supportsDNSSRV = null;
@@ -55,7 +55,7 @@ class SystemExternalEmergencyRoutingParametersGetResponse13mp13 extends \CWM\Bro
     /**
      * @ElementName connectionTimeoutSeconds
      * @Type int
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10125
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10122
      * @MinInclusive 1
      * @MaxInclusive 10
      * @var int|null

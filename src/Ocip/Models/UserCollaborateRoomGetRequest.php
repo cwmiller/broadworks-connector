@@ -11,12 +11,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *       attendeeNotification, endRoomSessionOnOwnerExit and ownerRequired.
  *       In addition, the roomSchedule is returned for Project Room and
  *       the roomStartTime and roomEndTime are returned for Instant Room. 
- *         The response is either UserCollaboratetRoomGetResponse or 
- *         ErrorResponse.
+ *         The response is either UserCollaborateRoomGetResponse or ErrorResponse.
  *
- * @see UserCollaboratetRoomGetResponse
+ * @see UserCollaborateRoomGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"939fd5846dfae8bdf58308d6cb9ebb12:915","type":"sequence"}]
+ * @Groups [{"id":"939fd5846dfae8bdf58308d6cb9ebb12:911","type":"sequence"}]
  */
 class UserCollaborateRoomGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -24,7 +23,7 @@ class UserCollaborateRoomGetRequest extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName userId
      * @Type string
-     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:915
+     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:911
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -34,7 +33,7 @@ class UserCollaborateRoomGetRequest extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName roomId
      * @Type string
-     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:915
+     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:911
      * @MinLength 4
      * @MaxLength 15
      * @var string|null

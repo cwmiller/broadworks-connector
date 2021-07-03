@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserBroadWorksAnywhereGetSelectiveCriteriaRequest16
  * @see UserBroadWorksAnywhereGetSelectiveCriteriaResponse21
- * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:12561","type":"sequence"}]
+ * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:12556","type":"sequence"}]
  */
 class UserBroadWorksAnywhereGetSelectiveCriteriaResponse16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,7 +19,7 @@ class UserBroadWorksAnywhereGetSelectiveCriteriaResponse16 extends \CWM\BroadWor
      * @ElementName timeSchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:12561
+     * @Group de4d76f01f337fe4694212ec9f771753:12556
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null
      */
     private $timeSchedule = null;
@@ -28,7 +28,7 @@ class UserBroadWorksAnywhereGetSelectiveCriteriaResponse16 extends \CWM\BroadWor
      * @ElementName holidaySchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:12561
+     * @Group de4d76f01f337fe4694212ec9f771753:12556
      * @var \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null
      */
     private $holidaySchedule = null;
@@ -36,7 +36,7 @@ class UserBroadWorksAnywhereGetSelectiveCriteriaResponse16 extends \CWM\BroadWor
     /**
      * @ElementName blacklisted
      * @Type bool
-     * @Group de4d76f01f337fe4694212ec9f771753:12561
+     * @Group de4d76f01f337fe4694212ec9f771753:12556
      * @var bool|null
      */
     private $blacklisted = null;
@@ -44,7 +44,7 @@ class UserBroadWorksAnywhereGetSelectiveCriteriaResponse16 extends \CWM\BroadWor
     /**
      * @ElementName fromDnCriteria
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDn
-     * @Group de4d76f01f337fe4694212ec9f771753:12561
+     * @Group de4d76f01f337fe4694212ec9f771753:12556
      * @var \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDn|null
      */
     private $fromDnCriteria = null;

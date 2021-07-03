@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:17807","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:17804","type":"sequence"}]
  */
 class SystemSMPPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class SystemSMPPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17807
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17804
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -31,7 +31,7 @@ class SystemSMPPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @ElementName primarySMPPPort
      * @Type int
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17807
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17804
      * @MinInclusive 1
      * @MaxInclusive 65535
      * @var int|null
@@ -43,7 +43,7 @@ class SystemSMPPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17807
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17804
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -54,7 +54,7 @@ class SystemSMPPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @ElementName secondarySMPPPort
      * @Type int
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17807
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17804
      * @MinInclusive 1
      * @MaxInclusive 65535
      * @var int|null
@@ -66,7 +66,7 @@ class SystemSMPPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17807
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17804
      * @MinLength 1
      * @MaxLength 16
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -78,7 +78,7 @@ class SystemSMPPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17807
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17804
      * @MinLength 1
      * @MaxLength 8
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -89,7 +89,7 @@ class SystemSMPPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @ElementName version
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SMPPVersion
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17807
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17804
      * @var \CWM\BroadWorksConnector\Ocip\Models\SMPPVersion|null
      */
     private $version = null;
@@ -99,7 +99,7 @@ class SystemSMPPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17807
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17804
      * @MinLength 1
      * @MaxLength 12
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -110,7 +110,7 @@ class SystemSMPPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @ElementName enableMWICustomizedMessage
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17807
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17804
      * @var bool|null
      */
     private $enableMWICustomizedMessage = null;
@@ -119,7 +119,7 @@ class SystemSMPPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @ElementName supportMessagePayload
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17807
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17804
      * @var bool|null
      */
     private $supportMessagePayload = null;
@@ -128,7 +128,7 @@ class SystemSMPPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @ElementName maxShortMessageLength
      * @Type int
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17807
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17804
      * @MinInclusive 1
      * @MaxInclusive 70
      * @var int|null
@@ -139,7 +139,7 @@ class SystemSMPPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @ElementName useGsmMwiUcs2Encoding
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17807
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17804
      * @var bool|null
      */
     private $useGsmMwiUcs2Encoding = null;
@@ -148,7 +148,7 @@ class SystemSMPPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @ElementName includeOnlyNewMessageCount
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17807
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17804
      * @var bool|null
      */
     private $includeOnlyNewMessageCount = null;

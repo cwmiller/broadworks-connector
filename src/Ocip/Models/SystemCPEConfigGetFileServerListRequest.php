@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SystemCPEConfigGetFileServerListResponse
  * @see ErrorResponse
  * @see SystemCPEConfigGetFileServerListRequest14sp6
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:25374","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:25369","type":"sequence"}]
  */
 class SystemCPEConfigGetFileServerListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

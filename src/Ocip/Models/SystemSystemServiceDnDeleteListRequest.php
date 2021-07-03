@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:18222","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:18219","type":"sequence"}]
  */
 class SystemSystemServiceDnDeleteListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -22,7 +22,7 @@ class SystemSystemServiceDnDeleteListRequest extends \CWM\BroadWorksConnector\Oc
      * @Type string
      * @Array
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18222
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18219
      * @MinLength 1
      * @MaxLength 23
      * @var string[]
@@ -36,7 +36,7 @@ class SystemSystemServiceDnDeleteListRequest extends \CWM\BroadWorksConnector\Oc
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DNRange
      * @Array
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18222
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18219
      * @var \CWM\BroadWorksConnector\Ocip\Models\DNRange[]
      */
     private $dnRange = array(

@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SuccessResponse
  * @see ErrorResponse
  * @see SystemZoneAddRequest
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:39208","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:39202","type":"sequence"}]
  */
 class SystemZoneCallingRestrictionsZoneAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class SystemZoneCallingRestrictionsZoneAddRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName zoneName
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:39208
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:39202
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -31,7 +31,7 @@ class SystemZoneCallingRestrictionsZoneAddRequest extends \CWM\BroadWorksConnect
      * @ElementName physicalLocation
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:39208
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:39202
      * @MinLength 1
      * @MaxLength 1024
      * @var string|null

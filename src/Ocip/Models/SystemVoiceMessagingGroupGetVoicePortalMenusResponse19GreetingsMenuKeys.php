@@ -5,7 +5,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemVoiceMessagingGroupGetVoicePortalMenusResponse19GreetingsMenuKeys
  *
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:37468","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:37462","type":"sequence"}]
  */
 class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19GreetingsMenuKeys
 {
@@ -14,7 +14,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19GreetingsMenuKeys
      * @ElementName personalizedName
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:37468
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:37462
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -25,7 +25,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19GreetingsMenuKeys
      * @ElementName conferenceGreeting
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:37468
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:37462
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -35,7 +35,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19GreetingsMenuKeys
     /**
      * @ElementName returnToPreviousMenu
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:37468
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:37462
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -46,7 +46,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19GreetingsMenuKeys
      * @ElementName repeatMenu
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:37468
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:37462
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null

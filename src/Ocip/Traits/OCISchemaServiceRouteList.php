@@ -29,7 +29,7 @@ use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderRouteListEnterpriseTrunkN
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderRouteListEnterpriseTrunkNumberPrefixGetAvailableListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderRouteListEnterpriseTrunkNumberPrefixGetAvailableListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderRouteListEnterpriseTrunkNumberPrefixGetSummaryListRequest;
-use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderRouteListEnterpriseTrunkPrefixGetSummaryListResponse;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderRouteListEnterpriseTrunkNumberPrefixGetSummaryListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderRouteListEnterpriseTrunkNumberPrefixModifyListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderRouteListEnterpriseTrunkNumberRangeActivateListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderRouteListEnterpriseTrunkNumberRangeAddListRequest22;
@@ -243,7 +243,7 @@ trait OCISchemaServiceRouteList
 
     /**
      * @param ServiceProviderRouteListEnterpriseTrunkNumberPrefixGetSummaryListRequest $request
-     * @return ServiceProviderRouteListEnterpriseTrunkPrefixGetSummaryListResponse
+     * @return ServiceProviderRouteListEnterpriseTrunkNumberPrefixGetSummaryListResponse
      * @throws ErrorResponseException
      * @throws ValidationException
      */

@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:8402","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:8399","type":"sequence"}]
  */
 class SystemDeviceManagementTagSetRegionModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemDeviceManagementTagSetRegionModifyRequest extends \CWM\BroadWorksCon
     /**
      * @ElementName tagSetName
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8402
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8399
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +28,7 @@ class SystemDeviceManagementTagSetRegionModifyRequest extends \CWM\BroadWorksCon
     /**
      * @ElementName regionName
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8402
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8399
      * @MinLength 1
      * @MaxLength 64
      * @var string|null
@@ -39,7 +39,7 @@ class SystemDeviceManagementTagSetRegionModifyRequest extends \CWM\BroadWorksCon
      * @ElementName newRegionName
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8402
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8399
      * @MinLength 1
      * @MaxLength 64
      * @var string|null

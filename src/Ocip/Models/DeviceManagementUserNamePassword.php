@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Access device credentials.
  *
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:48399","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:48393","type":"sequence"}]
  */
 class DeviceManagementUserNamePassword
 {
@@ -15,7 +15,7 @@ class DeviceManagementUserNamePassword
     /**
      * @ElementName userName
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:48399
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:48393
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -25,7 +25,7 @@ class DeviceManagementUserNamePassword
     /**
      * @ElementName password
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:48399
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:48393
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

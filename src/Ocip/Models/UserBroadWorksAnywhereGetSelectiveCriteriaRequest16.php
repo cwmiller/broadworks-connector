@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see UserBroadWorksAnywhereGetSelectiveCriteriaResponse16
  * @see ErrorResponse
  * @see UserBroadWorksAnywhereGetSelectiveCriteriaRequest21
- * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:12543","type":"sequence"}]
+ * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:12538","type":"sequence"}]
  */
 class UserBroadWorksAnywhereGetSelectiveCriteriaRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class UserBroadWorksAnywhereGetSelectiveCriteriaRequest16 extends \CWM\BroadWork
     /**
      * @ElementName userId
      * @Type string
-     * @Group de4d76f01f337fe4694212ec9f771753:12543
+     * @Group de4d76f01f337fe4694212ec9f771753:12538
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -30,7 +30,7 @@ class UserBroadWorksAnywhereGetSelectiveCriteriaRequest16 extends \CWM\BroadWork
     /**
      * @ElementName phoneNumber
      * @Type string
-     * @Group de4d76f01f337fe4694212ec9f771753:12543
+     * @Group de4d76f01f337fe4694212ec9f771753:12538
      * @MinLength 1
      * @MaxLength 23
      * @var string|null
@@ -40,7 +40,7 @@ class UserBroadWorksAnywhereGetSelectiveCriteriaRequest16 extends \CWM\BroadWork
     /**
      * @ElementName criteriaName
      * @Type string
-     * @Group de4d76f01f337fe4694212ec9f771753:12543
+     * @Group de4d76f01f337fe4694212ec9f771753:12538
      * @MinLength 1
      * @MaxLength 50
      * @var string|null

@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the UserBroadWorksAnywhereGetSelectiveCriteriaRequest.
  *
  * @see UserBroadWorksAnywhereGetSelectiveCriteriaRequest
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:39693","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:39687","type":"sequence"}]
  */
 class UserBroadWorksAnywhereGetSelectiveCriteriaResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class UserBroadWorksAnywhereGetSelectiveCriteriaResponse extends \CWM\BroadWorks
      * @ElementName timeSchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:39693
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:39687
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null
      */
     private $timeSchedule = null;
@@ -25,7 +25,7 @@ class UserBroadWorksAnywhereGetSelectiveCriteriaResponse extends \CWM\BroadWorks
     /**
      * @ElementName fromDnCriteria
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDn
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:39693
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:39687
      * @var \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDn|null
      */
     private $fromDnCriteria = null;

@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:29405","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:29400","type":"sequence"}]
  */
 class SystemSIPAddACLEntryRequest14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemSIPAddACLEntryRequest14 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName netAddress
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:29405
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:29400
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -28,7 +28,7 @@ class SystemSIPAddACLEntryRequest14 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName transportProtocol
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SIPACLTransportProtocol
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:29405
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:29400
      * @var \CWM\BroadWorksConnector\Ocip\Models\SIPACLTransportProtocol|null
      */
     private $transportProtocol = null;
@@ -37,7 +37,7 @@ class SystemSIPAddACLEntryRequest14 extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName description
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:29405
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:29400
      * @MinLength 1
      * @MaxLength 80
      * @var string|null

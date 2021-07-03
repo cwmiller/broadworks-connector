@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemNumberActivationGetResponse21
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:12946","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:12943","type":"sequence"}]
  */
 class SystemNumberActivationGetRequest21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

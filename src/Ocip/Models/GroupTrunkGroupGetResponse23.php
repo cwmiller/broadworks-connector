@@ -52,7 +52,7 @@ class GroupTrunkGroupGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Group b9c14e2d80e4e7749688ca13ba233b44:1320
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt|null
      */
-    private $maxAvailableNumberOfBurstingBTLUs  = null;
+    private $maxAvailableNumberOfBurstingBTLUs = null;
 
     /**
      * @ElementName numberOfBurstingBTLUs
@@ -188,33 +188,33 @@ class GroupTrunkGroupGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Models\
     }
 
     /**
-     * Getter for maxAvailableNumberOfBurstingBTLUs 
+     * Getter for maxAvailableNumberOfBurstingBTLUs
      *
      * @return \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt
      */
-    public function getMaxAvailableNumberOfBurstingBTLUs ()
+    public function getMaxAvailableNumberOfBurstingBTLUs()
     {
-        return $this->maxAvailableNumberOfBurstingBTLUs  instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->maxAvailableNumberOfBurstingBTLUs ;
+        return $this->maxAvailableNumberOfBurstingBTLUs instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->maxAvailableNumberOfBurstingBTLUs;
     }
 
     /**
-     * Setter for maxAvailableNumberOfBurstingBTLUs 
+     * Setter for maxAvailableNumberOfBurstingBTLUs
      *
-     * @param \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt $maxAvailableNumberOfBurstingBTLUs 
+     * @param \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt $maxAvailableNumberOfBurstingBTLUs
      * @return $this
      */
-    public function setMaxAvailableNumberOfBurstingBTLUs (\CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt $maxAvailableNumberOfBurstingBTLUs )
+    public function setMaxAvailableNumberOfBurstingBTLUs(\CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt $maxAvailableNumberOfBurstingBTLUs)
     {
-        $this->maxAvailableNumberOfBurstingBTLUs  = $maxAvailableNumberOfBurstingBTLUs ;
+        $this->maxAvailableNumberOfBurstingBTLUs = $maxAvailableNumberOfBurstingBTLUs;
         return $this;
     }
 
     /**
      * @return $this
      */
-    public function unsetMaxAvailableNumberOfBurstingBTLUs ()
+    public function unsetMaxAvailableNumberOfBurstingBTLUs()
     {
-        $this->maxAvailableNumberOfBurstingBTLUs  = null;
+        $this->maxAvailableNumberOfBurstingBTLUs = null;
         return $this;
     }
 

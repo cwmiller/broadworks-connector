@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:5155","type":"sequence"}]
+ * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:5153","type":"sequence"}]
  */
 class ServiceProviderNumberPortabilityQueryModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class ServiceProviderNumberPortabilityQueryModifyRequest extends \CWM\BroadWorks
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5155
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5153
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -29,7 +29,7 @@ class ServiceProviderNumberPortabilityQueryModifyRequest extends \CWM\BroadWorks
      * @ElementName enableNumberPortabilityQueryForOutgoingCalls
      * @Type bool
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5155
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5153
      * @var bool|null
      */
     private $enableNumberPortabilityQueryForOutgoingCalls = null;
@@ -38,7 +38,7 @@ class ServiceProviderNumberPortabilityQueryModifyRequest extends \CWM\BroadWorks
      * @ElementName enableNumberPortabilityQueryForIncomingCalls
      * @Type bool
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5155
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5153
      * @var bool|null
      */
     private $enableNumberPortabilityQueryForIncomingCalls = null;
@@ -47,7 +47,7 @@ class ServiceProviderNumberPortabilityQueryModifyRequest extends \CWM\BroadWorks
      * @ElementName enableNumberPortabilityQueryForNetworkCallsOnly
      * @Type bool
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5155
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5153
      * @var bool|null
      */
     private $enableNumberPortabilityQueryForNetworkCallsOnly = null;
@@ -57,7 +57,7 @@ class ServiceProviderNumberPortabilityQueryModifyRequest extends \CWM\BroadWorks
      * @Type string
      * @Array
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5155
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5153
      * @MinLength 1
      * @MaxLength 160
      * @var string[]

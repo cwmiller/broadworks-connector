@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:7366","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:7363","type":"sequence"}]
  */
 class SystemDeviceFamilyAssignDeviceTypeListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class SystemDeviceFamilyAssignDeviceTypeListRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName deviceFamilyName
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7366
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7363
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -30,7 +30,7 @@ class SystemDeviceFamilyAssignDeviceTypeListRequest extends \CWM\BroadWorksConne
      * @ElementName deviceTypeName
      * @Type string
      * @Array
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7366
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7363
      * @MinLength 1
      * @MaxLength 40
      * @var string[]

@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemCPEConfigParametersGetListRequest
  * @see SystemCPEConfigParametersGetResponse14sp6
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:25475","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:25470","type":"sequence"}]
  */
 class SystemCPEConfigParametersGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,7 +19,7 @@ class SystemCPEConfigParametersGetResponse extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName enableIPDeviceManagement
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:25475
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:25470
      * @var bool|null
      */
     private $enableIPDeviceManagement = null;
@@ -27,7 +27,7 @@ class SystemCPEConfigParametersGetResponse extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName ftpConnectTimeoutSeconds
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:25475
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:25470
      * @MinInclusive 1
      * @MaxInclusive 600
      * @var int|null
@@ -37,7 +37,7 @@ class SystemCPEConfigParametersGetResponse extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName ftpFileTransferTimeoutSeconds
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:25475
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:25470
      * @MinInclusive 1
      * @MaxInclusive 600
      * @var int|null

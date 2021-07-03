@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:19332","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:19327","type":"sequence"}]
  */
 class SystemXsiApplicationIdDeleteListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class SystemXsiApplicationIdDeleteListRequest extends \CWM\BroadWorksConnector\O
      * @ElementName xsiApplicationId
      * @Type string
      * @Array
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:19332
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:19327
      * @MinLength 1
      * @MaxLength 256
      * @var string[]

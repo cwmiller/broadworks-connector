@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserSimultaneousRingPersonalGetPhoneNumberResponse
  * @see ErrorResponse
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:46469","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:46463","type":"sequence"}]
  */
 class UserSimultaneousRingPersonalGetPhoneNumberRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserSimultaneousRingPersonalGetPhoneNumberRequest extends \CWM\BroadWorksC
     /**
      * @ElementName userId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:46469
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:46463
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -28,7 +28,7 @@ class UserSimultaneousRingPersonalGetPhoneNumberRequest extends \CWM\BroadWorksC
     /**
      * @ElementName phoneNumber
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:46469
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:46463
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

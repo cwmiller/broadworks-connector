@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemTrunkGroupUserCreationTaskGetListResponse
  * @see ErrorResponse
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:36003","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:35997","type":"sequence"}]
  */
 class SystemTrunkGroupUserCreationTaskGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -5,7 +5,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemVoiceMessagingGroupModifyVoicePortalMenusRequestFaxMessagingMenuKeys
  *
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:39076","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:39070","type":"sequence"}]
  */
 class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestFaxMessagingMenuKeys
 {
@@ -15,7 +15,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestFaxMessagingMenuKeys
      * @Type string
      * @Nillable
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:39076
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:39070
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -27,7 +27,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestFaxMessagingMenuKeys
      * @Type string
      * @Nillable
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:39076
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:39070
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -39,7 +39,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestFaxMessagingMenuKeys
      * @Type string
      * @Nillable
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:39076
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:39070
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -51,7 +51,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestFaxMessagingMenuKeys
      * @Type string
      * @Nillable
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:39076
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:39070
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -63,7 +63,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestFaxMessagingMenuKeys
      * @Type string
      * @Nillable
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:39076
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:39070
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -75,7 +75,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestFaxMessagingMenuKeys
      * @Type string
      * @Nillable
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:39076
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:39070
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -87,7 +87,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestFaxMessagingMenuKeys
      * @Type string
      * @Nillable
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:39076
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:39070
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil

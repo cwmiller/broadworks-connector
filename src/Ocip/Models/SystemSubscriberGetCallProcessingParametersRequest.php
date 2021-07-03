@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SystemSubscriberGetCallProcessingParametersResponse
  * @see ErrorResponse
  * @see SystemSubscriberGetCallProcessingParametersRequest14sp3
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:34980","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:34975","type":"sequence"}]
  */
 class SystemSubscriberGetCallProcessingParametersRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -171,7 +171,7 @@ use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceGetResponse22
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceGetRequest22V3;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceGetResponse22V3;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceGetUserListRequest;
-use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceGetResponse;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceGetUserListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceModifyRequest14;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAddRequest13mp2;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminGetPolicyRequest18;
@@ -275,7 +275,7 @@ use CWM\BroadWorksConnector\Ocip\Models\SystemConfigurableFileSystemGetResponse2
 use CWM\BroadWorksConnector\Ocip\Models\SystemDeviceManagementTagSetGetListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemDeviceManagementTagSetGetListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\SystemDeviceTypeGetAvailableListRequest19;
-use CWM\BroadWorksConnector\Ocip\Models\SystemDeviceTypeGetlAvailableListResponse19;
+use CWM\BroadWorksConnector\Ocip\Models\SystemDeviceTypeGetAvailableListResponse19;
 use CWM\BroadWorksConnector\Ocip\Models\SystemDeviceTypeGetRequest22V2;
 use CWM\BroadWorksConnector\Ocip\Models\SystemDeviceTypeGetResponse22V2;
 use CWM\BroadWorksConnector\Ocip\Models\SystemDeviceTypeGetRequest22V3;
@@ -383,15 +383,15 @@ use CWM\BroadWorksConnector\Ocip\Models\SystemTreatmentMappingCallBlockingServic
 use CWM\BroadWorksConnector\Ocip\Models\SystemTreatmentMappingCallBlockingServiceDeleteRequest23;
 use CWM\BroadWorksConnector\Ocip\Models\SystemTreatmentMappingCallBlockingServiceDeleteRequest23V2;
 use CWM\BroadWorksConnector\Ocip\Models\SystemTreatmentMappingCallBlockingServiceGetListRequest;
-use CWM\BroadWorksConnector\Ocip\Models\SystemTreatmentMappingCallBlockingServicesGetListResponse;
+use CWM\BroadWorksConnector\Ocip\Models\SystemTreatmentMappingCallBlockingServiceGetListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\SystemTreatmentMappingCallBlockingServiceGetListRequest22;
-use CWM\BroadWorksConnector\Ocip\Models\SystemTreatmentMappingCallBlockingServicesGetListResponse22;
+use CWM\BroadWorksConnector\Ocip\Models\SystemTreatmentMappingCallBlockingServiceGetListResponse22;
 use CWM\BroadWorksConnector\Ocip\Models\SystemTreatmentMappingCallBlockingServiceGetListRequest22V2;
-use CWM\BroadWorksConnector\Ocip\Models\SystemTreatmentMappingCallBlockingServicesGetListResponse22V2;
+use CWM\BroadWorksConnector\Ocip\Models\SystemTreatmentMappingCallBlockingServiceGetListResponse22V2;
 use CWM\BroadWorksConnector\Ocip\Models\SystemTreatmentMappingCallBlockingServiceGetListRequest23;
-use CWM\BroadWorksConnector\Ocip\Models\SystemTreatmentMappingCallBlockingServicesGetListResponse23;
+use CWM\BroadWorksConnector\Ocip\Models\SystemTreatmentMappingCallBlockingServiceGetListResponse23;
 use CWM\BroadWorksConnector\Ocip\Models\SystemTreatmentMappingCallBlockingServiceGetListRequest23V2;
-use CWM\BroadWorksConnector\Ocip\Models\SystemTreatmentMappingCallBlockingServicesGetListResponse23V2;
+use CWM\BroadWorksConnector\Ocip\Models\SystemTreatmentMappingCallBlockingServiceGetListResponse23V2;
 use CWM\BroadWorksConnector\Ocip\Models\SystemTreatmentMappingCallBlockingServiceModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemTreatmentMappingCallBlockingServiceModifyRequest22;
 use CWM\BroadWorksConnector\Ocip\Models\SystemTreatmentMappingCallBlockingServiceModifyRequest22V2;
@@ -409,7 +409,7 @@ use CWM\BroadWorksConnector\Ocip\Models\UserAddRequest22;
 use CWM\BroadWorksConnector\Ocip\Models\UserAlternateNumbersGetRequest17;
 use CWM\BroadWorksConnector\Ocip\Models\UserAlternateNumbersGetResponse17;
 use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksAnywhereGetAvailablePortalListRequest;
-use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksAnywhereGetAvailableListResponse;
+use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksAnywhereGetAvailablePortalListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksAnywhereGetSelectiveCriteriaRequest16;
 use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksAnywhereGetSelectiveCriteriaResponse16;
 use CWM\BroadWorksConnector\Ocip\Models\UserCallCenterGetRequest19;
@@ -443,7 +443,7 @@ use CWM\BroadWorksConnector\Ocip\Models\UserGetRequest22V7;
 use CWM\BroadWorksConnector\Ocip\Models\UserGetResponse22V7;
 use CWM\BroadWorksConnector\Ocip\Models\UserHotelingGuestModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserIntegratedIMPGetRequest;
-use CWM\BroadWorksConnector\Ocip\Models\UserIMPGetResponse;
+use CWM\BroadWorksConnector\Ocip\Models\UserIntegratedIMPGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserInterceptUserGetRequest16sp1;
 use CWM\BroadWorksConnector\Ocip\Models\UserInterceptUserGetResponse16sp1;
 use CWM\BroadWorksConnector\Ocip\Models\UserInterceptUserModifyRequest16;
@@ -1584,7 +1584,7 @@ trait OCISchemaDeprecatedAS
 
     /**
      * @param ServiceProviderAccessDeviceGetUserListRequest $request
-     * @return ServiceProviderAccessDeviceGetResponse
+     * @return ServiceProviderAccessDeviceGetUserListResponse
      * @throws ErrorResponseException
      * @throws ValidationException
      */
@@ -2244,7 +2244,7 @@ trait OCISchemaDeprecatedAS
 
     /**
      * @param SystemDeviceTypeGetAvailableListRequest19 $request
-     * @return SystemDeviceTypeGetlAvailableListResponse19
+     * @return SystemDeviceTypeGetAvailableListResponse19
      * @throws ErrorResponseException
      * @throws ValidationException
      */
@@ -2992,7 +2992,7 @@ trait OCISchemaDeprecatedAS
 
     /**
      * @param SystemTreatmentMappingCallBlockingServiceGetListRequest $request
-     * @return SystemTreatmentMappingCallBlockingServicesGetListResponse
+     * @return SystemTreatmentMappingCallBlockingServiceGetListResponse
      * @throws ErrorResponseException
      * @throws ValidationException
      */
@@ -3003,7 +3003,7 @@ trait OCISchemaDeprecatedAS
 
     /**
      * @param SystemTreatmentMappingCallBlockingServiceGetListRequest22 $request
-     * @return SystemTreatmentMappingCallBlockingServicesGetListResponse22
+     * @return SystemTreatmentMappingCallBlockingServiceGetListResponse22
      * @throws ErrorResponseException
      * @throws ValidationException
      */
@@ -3014,7 +3014,7 @@ trait OCISchemaDeprecatedAS
 
     /**
      * @param SystemTreatmentMappingCallBlockingServiceGetListRequest22V2 $request
-     * @return SystemTreatmentMappingCallBlockingServicesGetListResponse22V2
+     * @return SystemTreatmentMappingCallBlockingServiceGetListResponse22V2
      * @throws ErrorResponseException
      * @throws ValidationException
      */
@@ -3025,7 +3025,7 @@ trait OCISchemaDeprecatedAS
 
     /**
      * @param SystemTreatmentMappingCallBlockingServiceGetListRequest23 $request
-     * @return SystemTreatmentMappingCallBlockingServicesGetListResponse23
+     * @return SystemTreatmentMappingCallBlockingServiceGetListResponse23
      * @throws ErrorResponseException
      * @throws ValidationException
      */
@@ -3036,7 +3036,7 @@ trait OCISchemaDeprecatedAS
 
     /**
      * @param SystemTreatmentMappingCallBlockingServiceGetListRequest23V2 $request
-     * @return SystemTreatmentMappingCallBlockingServicesGetListResponse23V2
+     * @return SystemTreatmentMappingCallBlockingServiceGetListResponse23V2
      * @throws ErrorResponseException
      * @throws ValidationException
      */
@@ -3179,7 +3179,7 @@ trait OCISchemaDeprecatedAS
 
     /**
      * @param UserBroadWorksAnywhereGetAvailablePortalListRequest $request
-     * @return UserBroadWorksAnywhereGetAvailableListResponse
+     * @return UserBroadWorksAnywhereGetAvailablePortalListResponse
      * @throws ErrorResponseException
      * @throws ValidationException
      */
@@ -3377,7 +3377,7 @@ trait OCISchemaDeprecatedAS
 
     /**
      * @param UserIntegratedIMPGetRequest $request
-     * @return UserIMPGetResponse
+     * @return UserIntegratedIMPGetResponse
      * @throws ErrorResponseException
      * @throws ValidationException
      */

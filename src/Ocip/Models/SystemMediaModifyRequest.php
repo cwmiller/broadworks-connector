@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:11909","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:11906","type":"sequence"}]
  */
 class SystemMediaModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemMediaModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
     /**
      * @ElementName mediaName
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11909
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11906
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -29,7 +29,7 @@ class SystemMediaModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @ElementName codecName
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11909
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11906
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -40,7 +40,7 @@ class SystemMediaModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @ElementName bandwidthEnforcementType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MediaBandwidthEnforcementType
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11909
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11906
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaBandwidthEnforcementType|null
      */
     private $bandwidthEnforcementType = null;
@@ -50,7 +50,7 @@ class SystemMediaModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @Type int
      * @Nillable
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11909
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11906
      * @MinInclusive 1
      * @MaxInclusive 100000000
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil

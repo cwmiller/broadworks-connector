@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:19441","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:19436","type":"sequence"}]
  */
 class SystemXsiPolicyProfileAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemXsiPolicyProfileAddRequest extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName name
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:19441
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:19436
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -28,7 +28,7 @@ class SystemXsiPolicyProfileAddRequest extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName level
      * @Type \CWM\BroadWorksConnector\Ocip\Models\XsiPolicyProfileLevel
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:19441
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:19436
      * @var \CWM\BroadWorksConnector\Ocip\Models\XsiPolicyProfileLevel|null
      */
     private $level = null;
@@ -37,7 +37,7 @@ class SystemXsiPolicyProfileAddRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName description
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:19441
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:19436
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -47,7 +47,7 @@ class SystemXsiPolicyProfileAddRequest extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName maxTargetSubscription
      * @Type int
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:19441
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:19436
      * @MinInclusive 1
      * @MaxInclusive 2147483647
      * @var int|null

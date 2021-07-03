@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "FTP Host Net Address", "FTP User Id", "Passive FTP".
  *
  * @see SystemPerformanceMeasurementReportingGetFileServerListRequest
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:28314","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:28309","type":"sequence"}]
  */
 class SystemPerformanceMeasurementReportingGetFileServerListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class SystemPerformanceMeasurementReportingGetFileServerListResponse extends \CW
     /**
      * @ElementName fileServerTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:28314
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:28309
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $fileServerTable = null;

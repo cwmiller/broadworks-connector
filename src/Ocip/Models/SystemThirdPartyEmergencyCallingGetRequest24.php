@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemThirdPartyEmergencyCallingGetResponse24
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:18531","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:18528","type":"sequence"}]
  */
 class SystemThirdPartyEmergencyCallingGetRequest24 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         You can use the group's preferred carrier without clearing the user carrier name --
  *         in this case, the user carrier name is retained.
  *
- * @Groups [{"id":"74a46a9bfccb54713c1d19735843f1df:636","type":"sequence"}]
+ * @Groups [{"id":"74a46a9bfccb54713c1d19735843f1df:635","type":"sequence"}]
  */
 class UserPreferredCarrierNameModify
 {
@@ -17,7 +17,7 @@ class UserPreferredCarrierNameModify
     /**
      * @ElementName useGroupPreferredCarrier
      * @Type bool
-     * @Group 74a46a9bfccb54713c1d19735843f1df:636
+     * @Group 74a46a9bfccb54713c1d19735843f1df:635
      * @var bool|null
      */
     private $useGroupPreferredCarrier = null;
@@ -27,7 +27,7 @@ class UserPreferredCarrierNameModify
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 74a46a9bfccb54713c1d19735843f1df:636
+     * @Group 74a46a9bfccb54713c1d19735843f1df:635
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil

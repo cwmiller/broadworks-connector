@@ -212,7 +212,7 @@ use CWM\BroadWorksConnector\Ocip\Models\GroupDnGetAssignmentPagedSortedListRespo
 use CWM\BroadWorksConnector\Ocip\Models\GroupDnGetAvailableListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupDnGetAvailableListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupDnGetAvailableRangesListRequest;
-use CWM\BroadWorksConnector\Ocip\Models\GroupDnGetAvailableRangeListResponse;
+use CWM\BroadWorksConnector\Ocip\Models\GroupDnGetAvailableRangesListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupDnGetDetailedAvailableListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupDnGetDetailedAvailableListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupDnGetListRequest;
@@ -359,7 +359,6 @@ use CWM\BroadWorksConnector\Ocip\Models\GroupShInterfaceGetUserListResponse21sp1
 use CWM\BroadWorksConnector\Ocip\Models\GroupStirShakenGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupStirShakenGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupStirShakenModifyRequest;
-use CWM\BroadWorksConnector\Ocip\Models\GroupStirShakenModifyResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupTemplateOnlyDeviceFileGetListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupTemplateOnlyDeviceFileGetListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupThirdPartyEmergencyCallingGetRequest;
@@ -370,7 +369,6 @@ use CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupGetAvailableDetailListRes
 use CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupStirShakenGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupStirShakenGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupStirShakenModifyRequest;
-use CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupStirShakenModifyResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupUserCallForwardingSettingsGetListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupUserCallForwardingSettingsGetListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupUserCallingPlanSettingsGetListRequest;
@@ -1993,7 +1991,7 @@ trait OCISchemaGroup
 
     /**
      * @param GroupDnGetAvailableRangesListRequest $request
-     * @return GroupDnGetAvailableRangeListResponse
+     * @return GroupDnGetAvailableRangesListResponse
      * @throws ErrorResponseException
      * @throws ValidationException
      */
@@ -3049,7 +3047,7 @@ trait OCISchemaGroup
 
     /**
      * @param GroupStirShakenModifyRequest $request
-     * @return GroupStirShakenModifyResponse
+     * @return SuccessResponse
      * @throws ErrorResponseException
      * @throws ValidationException
      */
@@ -3115,7 +3113,7 @@ trait OCISchemaGroup
 
     /**
      * @param GroupTrunkGroupStirShakenModifyRequest $request
-     * @return GroupTrunkGroupStirShakenModifyResponse
+     * @return SuccessResponse
      * @throws ErrorResponseException
      * @throws ValidationException
      */

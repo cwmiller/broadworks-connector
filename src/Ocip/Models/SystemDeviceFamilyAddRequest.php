@@ -15,7 +15,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:7346","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:7343","type":"sequence"}]
  */
 class SystemDeviceFamilyAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -23,7 +23,7 @@ class SystemDeviceFamilyAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName deviceFamilyName
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7346
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7343
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -34,7 +34,7 @@ class SystemDeviceFamilyAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @ElementName resellerId
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7346
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7343
      * @MinLength 1
      * @MaxLength 36
      * @var string|null
@@ -46,7 +46,7 @@ class SystemDeviceFamilyAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Type string
      * @Array
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7346
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7343
      * @MinLength 1
      * @MaxLength 40
      * @var string[]
@@ -60,7 +60,7 @@ class SystemDeviceFamilyAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Type string
      * @Array
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7346
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7343
      * @MinLength 1
      * @MaxLength 30
      * @var string[]

@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:7161","type":"sequence"}]
+ * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:7158","type":"sequence"}]
  */
 class ServiceProviderXsiPolicyProfileUnassignListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class ServiceProviderXsiPolicyProfileUnassignListRequest extends \CWM\BroadWorks
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:7161
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:7158
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -31,7 +31,7 @@ class ServiceProviderXsiPolicyProfileUnassignListRequest extends \CWM\BroadWorks
      * @ElementName groupXsiPolicyProfile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\XsiPolicyProfileUnassignEntry
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:7161
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:7158
      * @var \CWM\BroadWorksConnector\Ocip\Models\XsiPolicyProfileUnassignEntry|null
      */
     private $groupXsiPolicyProfile = null;
@@ -40,7 +40,7 @@ class ServiceProviderXsiPolicyProfileUnassignListRequest extends \CWM\BroadWorks
      * @ElementName userXsiPolicyProfile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\XsiPolicyProfileUnassignEntry
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:7161
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:7158
      * @var \CWM\BroadWorksConnector\Ocip\Models\XsiPolicyProfileUnassignEntry|null
      */
     private $userXsiPolicyProfile = null;

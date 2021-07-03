@@ -6,9 +6,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ResellerXsiPolicyProfileGetAssignedListRequest
  *
  * Get a list of Xsi policy profile assigned.
- *         The response is either a XsiPolicyProfileGetAssignedListResponse or an ErrorResponse.
+ *         The response is either a ResellerXsiPolicyProfileGetAssignedListResponse or an ErrorResponse.
  *
- * @see XsiPolicyProfileGetAssignedListResponse
+ * @see ResellerXsiPolicyProfileGetAssignedListResponse
  * @see ErrorResponse
  * @Groups [{"id":"b009175f2a2a9d38115e319a6ad64d7f:968","type":"sequence"}]
  */

@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:16660","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:16657","type":"sequence"}]
  */
 class SystemSIPAuthenticationPasswordRulesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class SystemSIPAuthenticationPasswordRulesModifyRequest extends \CWM\BroadWorksC
      * @ElementName disallowAuthenticationName
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16660
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16657
      * @var bool|null
      */
     private $disallowAuthenticationName = null;
@@ -28,7 +28,7 @@ class SystemSIPAuthenticationPasswordRulesModifyRequest extends \CWM\BroadWorksC
      * @ElementName disallowOldPassword
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16660
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16657
      * @var bool|null
      */
     private $disallowOldPassword = null;
@@ -37,7 +37,7 @@ class SystemSIPAuthenticationPasswordRulesModifyRequest extends \CWM\BroadWorksC
      * @ElementName disallowReversedOldPassword
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16660
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16657
      * @var bool|null
      */
     private $disallowReversedOldPassword = null;
@@ -46,7 +46,7 @@ class SystemSIPAuthenticationPasswordRulesModifyRequest extends \CWM\BroadWorksC
      * @ElementName restrictMinDigits
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16660
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16657
      * @var bool|null
      */
     private $restrictMinDigits = null;
@@ -55,7 +55,7 @@ class SystemSIPAuthenticationPasswordRulesModifyRequest extends \CWM\BroadWorksC
      * @ElementName minDigits
      * @Type int
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16660
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16657
      * @MinInclusive 1
      * @MaxInclusive 10
      * @var int|null
@@ -66,7 +66,7 @@ class SystemSIPAuthenticationPasswordRulesModifyRequest extends \CWM\BroadWorksC
      * @ElementName restrictMinUpperCaseLetters
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16660
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16657
      * @var bool|null
      */
     private $restrictMinUpperCaseLetters = null;
@@ -75,7 +75,7 @@ class SystemSIPAuthenticationPasswordRulesModifyRequest extends \CWM\BroadWorksC
      * @ElementName minUpperCaseLetters
      * @Type int
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16660
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16657
      * @MinInclusive 1
      * @MaxInclusive 10
      * @var int|null
@@ -86,7 +86,7 @@ class SystemSIPAuthenticationPasswordRulesModifyRequest extends \CWM\BroadWorksC
      * @ElementName restrictMinLowerCaseLetters
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16660
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16657
      * @var bool|null
      */
     private $restrictMinLowerCaseLetters = null;
@@ -95,7 +95,7 @@ class SystemSIPAuthenticationPasswordRulesModifyRequest extends \CWM\BroadWorksC
      * @ElementName minLowerCaseLetters
      * @Type int
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16660
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16657
      * @MinInclusive 1
      * @MaxInclusive 10
      * @var int|null
@@ -106,7 +106,7 @@ class SystemSIPAuthenticationPasswordRulesModifyRequest extends \CWM\BroadWorksC
      * @ElementName restrictMinNonAlphanumericCharacters
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16660
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16657
      * @var bool|null
      */
     private $restrictMinNonAlphanumericCharacters = null;
@@ -115,7 +115,7 @@ class SystemSIPAuthenticationPasswordRulesModifyRequest extends \CWM\BroadWorksC
      * @ElementName minNonAlphanumericCharacters
      * @Type int
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16660
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16657
      * @MinInclusive 1
      * @MaxInclusive 10
      * @var int|null
@@ -126,7 +126,7 @@ class SystemSIPAuthenticationPasswordRulesModifyRequest extends \CWM\BroadWorksC
      * @ElementName minLength
      * @Type int
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16660
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16657
      * @MinInclusive 3
      * @MaxInclusive 40
      * @var int|null
@@ -137,7 +137,7 @@ class SystemSIPAuthenticationPasswordRulesModifyRequest extends \CWM\BroadWorksC
      * @ElementName sendPermanentLockoutNotification
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16660
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16657
      * @var bool|null
      */
     private $sendPermanentLockoutNotification = null;
@@ -147,7 +147,7 @@ class SystemSIPAuthenticationPasswordRulesModifyRequest extends \CWM\BroadWorksC
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16660
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16657
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -158,7 +158,7 @@ class SystemSIPAuthenticationPasswordRulesModifyRequest extends \CWM\BroadWorksC
      * @ElementName endpointAuthenticationLockoutType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutType
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16660
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16657
      * @var \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutType|null
      */
     private $endpointAuthenticationLockoutType = null;
@@ -167,7 +167,7 @@ class SystemSIPAuthenticationPasswordRulesModifyRequest extends \CWM\BroadWorksC
      * @ElementName endpointTemporaryLockoutThreshold
      * @Type int
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16660
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16657
      * @MinInclusive 1
      * @MaxInclusive 10
      * @var int|null
@@ -178,7 +178,7 @@ class SystemSIPAuthenticationPasswordRulesModifyRequest extends \CWM\BroadWorksC
      * @ElementName endpointWaitAlgorithm
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutWaitAlgorithmType
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16660
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16657
      * @var \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutWaitAlgorithmType|null
      */
     private $endpointWaitAlgorithm = null;
@@ -187,7 +187,7 @@ class SystemSIPAuthenticationPasswordRulesModifyRequest extends \CWM\BroadWorksC
      * @ElementName endpointLockoutFixedMinutes
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutFixedWaitTimeMinutes
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16660
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16657
      * @var \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutFixedWaitTimeMinutes|null
      */
     private $endpointLockoutFixedMinutes = null;
@@ -196,7 +196,7 @@ class SystemSIPAuthenticationPasswordRulesModifyRequest extends \CWM\BroadWorksC
      * @ElementName endpointPermanentLockoutThreshold
      * @Type int
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16660
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16657
      * @MinInclusive 2
      * @MaxInclusive 10
      * @var int|null
@@ -207,7 +207,7 @@ class SystemSIPAuthenticationPasswordRulesModifyRequest extends \CWM\BroadWorksC
      * @ElementName trunkGroupAuthenticationLockoutType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutType
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16660
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16657
      * @var \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutType|null
      */
     private $trunkGroupAuthenticationLockoutType = null;
@@ -216,7 +216,7 @@ class SystemSIPAuthenticationPasswordRulesModifyRequest extends \CWM\BroadWorksC
      * @ElementName trunkGroupTemporaryLockoutThreshold
      * @Type int
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16660
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16657
      * @MinInclusive 1
      * @MaxInclusive 10
      * @var int|null
@@ -227,7 +227,7 @@ class SystemSIPAuthenticationPasswordRulesModifyRequest extends \CWM\BroadWorksC
      * @ElementName trunkGroupWaitAlgorithm
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutWaitAlgorithmType
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16660
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16657
      * @var \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutWaitAlgorithmType|null
      */
     private $trunkGroupWaitAlgorithm = null;
@@ -236,7 +236,7 @@ class SystemSIPAuthenticationPasswordRulesModifyRequest extends \CWM\BroadWorksC
      * @ElementName trunkGroupLockoutFixedMinutes
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutFixedWaitTimeMinutes
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16660
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16657
      * @var \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutFixedWaitTimeMinutes|null
      */
     private $trunkGroupLockoutFixedMinutes = null;
@@ -245,7 +245,7 @@ class SystemSIPAuthenticationPasswordRulesModifyRequest extends \CWM\BroadWorksC
      * @ElementName trunkGroupPermanentLockoutThreshold
      * @Type int
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16660
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16657
      * @MinInclusive 2
      * @MaxInclusive 10
      * @var int|null

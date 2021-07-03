@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SystemSpeedDial100GetResponse
  * @see ErrorResponse
  * @see SystemSpeedDial100GetRequest17sp1
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:34948","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:34943","type":"sequence"}]
  */
 class SystemSpeedDial100GetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

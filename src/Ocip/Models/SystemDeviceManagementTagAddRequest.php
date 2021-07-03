@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SuccessResponse
  * @see ErrorResponse
  * @see SystemDeviceManagementTagAddRequest21sp2
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:25739","type":"sequence","children":[{"id":"ab0042aa512abc10edb3c55e4b416b0b:25740","type":"choice"}]}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:25734","type":"sequence","children":[{"id":"ab0042aa512abc10edb3c55e4b416b0b:25735","type":"choice"}]}]
  */
 class SystemDeviceManagementTagAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class SystemDeviceManagementTagAddRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName systemDefaultTagSet
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:25740
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:25735
      * @var bool|null
      */
     private $systemDefaultTagSet = null;
@@ -28,7 +28,7 @@ class SystemDeviceManagementTagAddRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName tagSetName
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:25740
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:25735
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -38,7 +38,7 @@ class SystemDeviceManagementTagAddRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName tagName
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:25739
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:25734
      * @MinLength 1
      * @MaxLength 64
      * @var string|null
@@ -49,7 +49,7 @@ class SystemDeviceManagementTagAddRequest extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName tagValue
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:25739
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:25734
      * @MinLength 1
      * @MaxLength 256
      * @var string|null

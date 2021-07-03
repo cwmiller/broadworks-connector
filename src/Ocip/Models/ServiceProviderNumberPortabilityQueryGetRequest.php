@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see ServiceProviderNumberPortabilityQueryGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:5117","type":"sequence"}]
+ * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:5115","type":"sequence"}]
  */
 class ServiceProviderNumberPortabilityQueryGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class ServiceProviderNumberPortabilityQueryGetRequest extends \CWM\BroadWorksCon
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5117
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5115
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +28,7 @@ class ServiceProviderNumberPortabilityQueryGetRequest extends \CWM\BroadWorksCon
     /**
      * @ElementName includeDigitPatterns
      * @Type bool
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5117
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5115
      * @var bool|null
      */
     private $includeDigitPatterns = null;
@@ -38,7 +38,7 @@ class ServiceProviderNumberPortabilityQueryGetRequest extends \CWM\BroadWorksCon
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderNumberPortabilityQueryDigitPattern
      * @Array
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5117
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5115
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderNumberPortabilityQueryDigitPattern[]
      */
     private $searchCriteriaServiceProviderNumberPortabilityQueryDigitPattern = array(
@@ -49,7 +49,7 @@ class ServiceProviderNumberPortabilityQueryGetRequest extends \CWM\BroadWorksCon
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5117
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5115
      * @MinInclusive 1
      * @var int|null
      */

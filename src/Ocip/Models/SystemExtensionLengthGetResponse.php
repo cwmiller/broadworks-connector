@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemExtensionLengthGetRequest.
  *
  * @see SystemExtensionLengthGetRequest
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:9997","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:9994","type":"sequence"}]
  */
 class SystemExtensionLengthGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class SystemExtensionLengthGetResponse extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName minExtensionLength
      * @Type int
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9997
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9994
      * @MinInclusive 2
      * @MaxInclusive 20
      * @var int|null
@@ -26,7 +26,7 @@ class SystemExtensionLengthGetResponse extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName maxExtensionLength
      * @Type int
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9997
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9994
      * @MinInclusive 2
      * @MaxInclusive 20
      * @var int|null

@@ -7,9 +7,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Get a list of service provider/enterprises within a reseller that have a given
  *         Service provider Xsi policy profile assigned.
- *         The response is either a ResellerXsiPolichProfileGetAssignedServiceProviderListResponse or an ErrorResponse.
+ *         The response is either a ResellerXsiPolicyProfileGetAssignedServiceProviderListResponse or an ErrorResponse.
  *
- * @see ResellerXsiPolichProfileGetAssignedServiceProviderListResponse
+ * @see ResellerXsiPolicyProfileGetAssignedServiceProviderListResponse
  * @see ErrorResponse
  * @Groups [{"id":"b009175f2a2a9d38115e319a6ad64d7f:1003","type":"sequence"}]
  */

@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:11038","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:11035","type":"sequence"}]
  */
 class SystemGETSReservedFeatureAccessCodeModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemGETSReservedFeatureAccessCodeModifyRequest extends \CWM\BroadWorksCo
     /**
      * @ElementName code
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11038
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11035
      * @MinLength 1
      * @MaxLength 5
      * @var string|null
@@ -29,7 +29,7 @@ class SystemGETSReservedFeatureAccessCodeModifyRequest extends \CWM\BroadWorksCo
      * @ElementName newCode
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11038
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11035
      * @MinLength 1
      * @MaxLength 5
      * @var string|null
@@ -41,7 +41,7 @@ class SystemGETSReservedFeatureAccessCodeModifyRequest extends \CWM\BroadWorksCo
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11038
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11035
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil

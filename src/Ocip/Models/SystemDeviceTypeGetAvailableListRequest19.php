@@ -9,12 +9,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         to get either all conference device types or all non-conferernce types. This command is similar
  *         to the SystemSIPDeviceTypeGetListRequest and SystemMGCPDeviceTypeGetListRequest
  *         but gets both SIP and MGCP types.
- *         The response is either SystemDeviceTypeGetlAvailableListResponse19 or ErrorResponse.
+ *         The response is either SystemDeviceTypeGetAvailableListResponse19 or ErrorResponse.
  *         Replaced by SystemDeviceTypeGetAvailableListRequest22 in AS data mode.
  *
  * @see SystemSIPDeviceTypeGetListRequest
  * @see SystemMGCPDeviceTypeGetListRequest
- * @see SystemDeviceTypeGetlAvailableListResponse19
+ * @see SystemDeviceTypeGetAvailableListResponse19
  * @see ErrorResponse
  * @see SystemDeviceTypeGetAvailableListRequest22
  * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:7952","type":"sequence"}]

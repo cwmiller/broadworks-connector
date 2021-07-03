@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains a table with column headings: "Organization ID", "Organization Name", "Organization Type" and "Reseller Id".
  *
  * @see SystemXsiPolicyProfileUsageGetListRequest
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:19497","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:19492","type":"sequence"}]
  */
 class SystemXsiPolicyProfileGetAssignedServiceProviderListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class SystemXsiPolicyProfileGetAssignedServiceProviderListResponse extends \CWM\
     /**
      * @ElementName spTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:19497
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:19492
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $spTable = null;

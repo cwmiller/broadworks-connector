@@ -19,7 +19,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:3121","type":"sequence","children":[{"id":"f1088f4c5ceb30d524d2ba0f8097c393:3126","type":"choice"}]}]
+ * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:3119","type":"sequence","children":[{"id":"f1088f4c5ceb30d524d2ba0f8097c393:3124","type":"choice"}]}]
  */
 class ServiceProviderDeviceTypeCustomTagAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -27,7 +27,7 @@ class ServiceProviderDeviceTypeCustomTagAddRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3121
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3119
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -37,7 +37,7 @@ class ServiceProviderDeviceTypeCustomTagAddRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName deviceType
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3121
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3119
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -47,7 +47,7 @@ class ServiceProviderDeviceTypeCustomTagAddRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName tagName
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3121
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3119
      * @MinLength 1
      * @MaxLength 64
      * @var string|null
@@ -57,7 +57,7 @@ class ServiceProviderDeviceTypeCustomTagAddRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName isTagValueEncrypted
      * @Type bool
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3121
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3119
      * @var bool|null
      */
     private $isTagValueEncrypted = null;
@@ -66,7 +66,7 @@ class ServiceProviderDeviceTypeCustomTagAddRequest extends \CWM\BroadWorksConnec
      * @ElementName tagValue
      * @Type string
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3126
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3124
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -77,7 +77,7 @@ class ServiceProviderDeviceTypeCustomTagAddRequest extends \CWM\BroadWorksConnec
      * @ElementName tagValueToEncrypt
      * @Type string
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3126
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3124
      * @MinLength 1
      * @MaxLength 256
      * @var string|null

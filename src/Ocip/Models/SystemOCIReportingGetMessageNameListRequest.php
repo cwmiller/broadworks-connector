@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemOCIReportingGetMessageNameListResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:13760","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:13757","type":"sequence"}]
  */
 class SystemOCIReportingGetMessageNameListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemOCIReportingGetMessageNameListRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName netAddress
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:13760
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:13757
      * @MinLength 1
      * @MaxLength 80
      * @var string|null

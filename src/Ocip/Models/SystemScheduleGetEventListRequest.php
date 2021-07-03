@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemScheduleGetEventListRequest
  *
  * Get the list of events of a system schedule.
- *         The response is either a SystemScheduleGetResponse or an ErrorResponse.
+ *         The response is either a SystemScheduleGetEventListResponse or an ErrorResponse.
  *
- * @see SystemScheduleGetResponse
+ * @see SystemScheduleGetEventListResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:15709","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:15706","type":"sequence"}]
  */
 class SystemScheduleGetEventListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemScheduleGetEventListRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName scheduleKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ScheduleKey
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:15709
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:15706
      * @var \CWM\BroadWorksConnector\Ocip\Models\ScheduleKey|null
      */
     private $scheduleKey = null;

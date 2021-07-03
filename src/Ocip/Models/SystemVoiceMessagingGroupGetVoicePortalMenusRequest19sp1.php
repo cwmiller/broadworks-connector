@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1
  * @see ErrorResponse
  * @see SystemVoiceMessagingGroupGetVoicePortalMenusRequest20
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:36333","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:36327","type":"sequence"}]
  */
 class SystemVoiceMessagingGroupGetVoicePortalMenusRequest19sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,7 +21,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusRequest19sp1 extends \CWM\Broa
     /**
      * @ElementName getDefaultMenuKeys
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:36333
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:36327
      * @var bool|null
      */
     private $getDefaultMenuKeys = null;

@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemSessionAdmissionControlGetRequest
  * @see SystemSessionAdmissionControlGetResponse21sp1
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:29193","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:29188","type":"sequence"}]
  */
 class SystemSessionAdmissionControlGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -20,7 +20,7 @@ class SystemSessionAdmissionControlGetResponse extends \CWM\BroadWorksConnector\
     /**
      * @ElementName countLongConnectionsToMediaServer
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:29193
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:29188
      * @var bool|null
      */
     private $countLongConnectionsToMediaServer = null;
@@ -28,7 +28,7 @@ class SystemSessionAdmissionControlGetResponse extends \CWM\BroadWorksConnector\
     /**
      * @ElementName sacHandlingForMoH
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SessionAdmissionControlForMusicOnHoldType
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:29193
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:29188
      * @var \CWM\BroadWorksConnector\Ocip\Models\SessionAdmissionControlForMusicOnHoldType|null
      */
     private $sacHandlingForMoH = null;
@@ -36,7 +36,7 @@ class SystemSessionAdmissionControlGetResponse extends \CWM\BroadWorksConnector\
     /**
      * @ElementName blockVMDepositDueToSACLimits
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:29193
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:29188
      * @var bool|null
      */
     private $blockVMDepositDueToSACLimits = null;

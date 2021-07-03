@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see ServiceProviderXsiPolicyProfileGetAssignedListResponse
  * @see ErrorResponse
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:7107","type":"sequence"}]
+ * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:7104","type":"sequence"}]
  */
 class ServiceProviderXsiPolicyProfileGetAssignedListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class ServiceProviderXsiPolicyProfileGetAssignedListRequest extends \CWM\BroadWo
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:7107
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:7104
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -30,7 +30,7 @@ class ServiceProviderXsiPolicyProfileGetAssignedListRequest extends \CWM\BroadWo
      * @ElementName level
      * @Type \CWM\BroadWorksConnector\Ocip\Models\XsiPolicyProfileLevel
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:7107
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:7104
      * @var \CWM\BroadWorksConnector\Ocip\Models\XsiPolicyProfileLevel|null
      */
     private $level = null;

@@ -5,7 +5,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemVoiceMessagingGroupModifyVoicePortalMenusRequestVoicePortalMainMenuKeys
  *
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:38752","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:38746","type":"sequence"}]
  */
 class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestVoicePortalMainMenuKeys
 {
@@ -15,7 +15,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestVoicePortalMainMenuK
      * @Type string
      * @Nillable
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:38752
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:38746
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -27,7 +27,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestVoicePortalMainMenuK
      * @Type string
      * @Nillable
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:38752
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:38746
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -39,7 +39,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestVoicePortalMainMenuK
      * @Type string
      * @Nillable
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:38752
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:38746
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -51,7 +51,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestVoicePortalMainMenuK
      * @Type string
      * @Nillable
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:38752
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:38746
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -63,7 +63,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestVoicePortalMainMenuK
      * @Type string
      * @Nillable
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:38752
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:38746
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -75,7 +75,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestVoicePortalMainMenuK
      * @Type string
      * @Nillable
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:38752
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:38746
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -87,7 +87,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestVoicePortalMainMenuK
      * @Type string
      * @Nillable
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:38752
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:38746
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -99,7 +99,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestVoicePortalMainMenuK
      * @Type string
      * @Nillable
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:38752
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:38746
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -111,7 +111,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestVoicePortalMainMenuK
      * @Type string
      * @Nillable
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:38752
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:38746
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -123,7 +123,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestVoicePortalMainMenuK
      * @Type string
      * @Nillable
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:38752
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:38746
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil

@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         if the total number of migrated users is greater than the value of userListSizeLimit.
  *
  * @see SystemMigratedUsersGetListRequest22
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:12275","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:12272","type":"sequence"}]
  */
 class SystemMigratedUsersGetListResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -20,7 +20,7 @@ class SystemMigratedUsersGetListResponse22 extends \CWM\BroadWorksConnector\Ocip
      * @Type string
      * @Array
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12275
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12272
      * @MinLength 1
      * @MaxLength 161
      * @var string[]
@@ -33,7 +33,7 @@ class SystemMigratedUsersGetListResponse22 extends \CWM\BroadWorksConnector\Ocip
      * @ElementName totalNumberOfMigratedUsers
      * @Type int
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12275
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12272
      * @var int|null
      */
     private $totalNumberOfMigratedUsers = null;

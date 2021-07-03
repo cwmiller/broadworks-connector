@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains a list of Routing Profile parameters.
  *
  * @see SystemRoutingProfileParametersGetRequest
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:15544","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:15541","type":"sequence"}]
  */
 class SystemRoutingProfileParametersGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class SystemRoutingProfileParametersGetResponse extends \CWM\BroadWorksConnector
     /**
      * @ElementName enablePermissiveRouting
      * @Type bool
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:15544
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:15541
      * @var bool|null
      */
     private $enablePermissiveRouting = null;

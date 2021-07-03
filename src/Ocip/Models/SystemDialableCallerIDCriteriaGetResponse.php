@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response contains the Dialable Caller ID Criteria information.
  *
  * @see SystemDialableCallerIDCriteriaGetRequest
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:8938","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:8935","type":"sequence"}]
  */
 class SystemDialableCallerIDCriteriaGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class SystemDialableCallerIDCriteriaGetResponse extends \CWM\BroadWorksConnector
      * @ElementName description
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8938
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8935
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -29,7 +29,7 @@ class SystemDialableCallerIDCriteriaGetResponse extends \CWM\BroadWorksConnector
      * @ElementName prefixDigits
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8938
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8935
      * @MinLength 1
      * @MaxLength 10
      * @var string|null
@@ -41,7 +41,7 @@ class SystemDialableCallerIDCriteriaGetResponse extends \CWM\BroadWorksConnector
      * @Type string
      * @Array
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8938
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8935
      * @MinLength 1
      * @MaxLength 40
      * @var string[]
@@ -55,7 +55,7 @@ class SystemDialableCallerIDCriteriaGetResponse extends \CWM\BroadWorksConnector
      * @Type string
      * @Array
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8938
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8935
      * @MinLength 1
      * @MaxLength 40
      * @var string[]
@@ -67,7 +67,7 @@ class SystemDialableCallerIDCriteriaGetResponse extends \CWM\BroadWorksConnector
     /**
      * @ElementName matchLocalCategory
      * @Type bool
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8938
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8935
      * @var bool|null
      */
     private $matchLocalCategory = null;
@@ -75,7 +75,7 @@ class SystemDialableCallerIDCriteriaGetResponse extends \CWM\BroadWorksConnector
     /**
      * @ElementName matchNationalCategory
      * @Type bool
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8938
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8935
      * @var bool|null
      */
     private $matchNationalCategory = null;
@@ -83,7 +83,7 @@ class SystemDialableCallerIDCriteriaGetResponse extends \CWM\BroadWorksConnector
     /**
      * @ElementName matchInterlataCategory
      * @Type bool
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8938
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8935
      * @var bool|null
      */
     private $matchInterlataCategory = null;
@@ -91,7 +91,7 @@ class SystemDialableCallerIDCriteriaGetResponse extends \CWM\BroadWorksConnector
     /**
      * @ElementName matchIntralataCategory
      * @Type bool
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8938
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8935
      * @var bool|null
      */
     private $matchIntralataCategory = null;
@@ -99,7 +99,7 @@ class SystemDialableCallerIDCriteriaGetResponse extends \CWM\BroadWorksConnector
     /**
      * @ElementName matchInternationalCategory
      * @Type bool
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8938
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8935
      * @var bool|null
      */
     private $matchInternationalCategory = null;
@@ -107,7 +107,7 @@ class SystemDialableCallerIDCriteriaGetResponse extends \CWM\BroadWorksConnector
     /**
      * @ElementName matchPrivateCategory
      * @Type bool
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8938
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8935
      * @var bool|null
      */
     private $matchPrivateCategory = null;
@@ -115,7 +115,7 @@ class SystemDialableCallerIDCriteriaGetResponse extends \CWM\BroadWorksConnector
     /**
      * @ElementName matchEmergencyCategory
      * @Type bool
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8938
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8935
      * @var bool|null
      */
     private $matchEmergencyCategory = null;
@@ -123,7 +123,7 @@ class SystemDialableCallerIDCriteriaGetResponse extends \CWM\BroadWorksConnector
     /**
      * @ElementName matchOtherCategory
      * @Type bool
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8938
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8935
      * @var bool|null
      */
     private $matchOtherCategory = null;

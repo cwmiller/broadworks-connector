@@ -14,7 +14,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemDeviceFamilyGetListResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:7453","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:7450","type":"sequence"}]
  */
 class SystemDeviceFamilyGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -23,7 +23,7 @@ class SystemDeviceFamilyGetListRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName includeSystemLevel
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7453
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7450
      * @var bool|null
      */
     private $includeSystemLevel = null;
@@ -33,7 +33,7 @@ class SystemDeviceFamilyGetListRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaResellerId
      * @Array
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7453
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7450
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaResellerId[]
      */
     private $searchCriteriaResellerId = array(

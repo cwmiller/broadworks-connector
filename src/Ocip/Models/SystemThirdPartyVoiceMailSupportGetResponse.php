@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemThirdPartyVoiceMailSupportGetRequest
  * @see SystemThirdPartyVoiceMailSupportGetResponse17sp4
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:35544","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:35539","type":"sequence"}]
  */
 class SystemThirdPartyVoiceMailSupportGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,7 +19,7 @@ class SystemThirdPartyVoiceMailSupportGetResponse extends \CWM\BroadWorksConnect
     /**
      * @ElementName overrideAltCallerIdForVMRetrieval
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:35544
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:35539
      * @var bool|null
      */
     private $overrideAltCallerIdForVMRetrieval = null;

@@ -97,11 +97,11 @@ use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCommunicationBarringProfi
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCommunicationBarringProfileGetAssignedGroupListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCommunicationBarringProfileGetAssignedGroupListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCommunicationBarringProfileGetCriteriaUsageListRequest;
-use CWM\BroadWorksConnector\Ocip\Models\ProfileGetCriteriaUsageListResponse;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCommunicationBarringProfileGetCriteriaUsageListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCommunicationBarringProfileGetDigitPatternCriteriaUsageListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCommunicationBarringProfileGetDigitPatternCriteriaUsageListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCommunicationBarringProfileGetIncomingCriteriaUsageListRequest;
-use CWM\BroadWorksConnector\Ocip\Models\ProfileGetIncomingCriteriaUsageListResponse;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCommunicationBarringProfileGetIncomingCriteriaUsageListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCommunicationBarringProfileGetListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCommunicationBarringProfileGetListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCommunicationBarringProfileGetRequest19sp1V2;
@@ -288,7 +288,7 @@ use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderServicePackMigrationTaskA
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderServicePackMigrationTaskCopyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderServicePackMigrationTaskDeleteRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderServicePackMigrationTaskGetAvailableGroupListRequest;
-use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderServicePackMigrationTaskGetAvailabeGroupListResponse;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderServicePackMigrationTaskGetAvailableGroupListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderServicePackMigrationTaskGetListRequest21;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderServicePackMigrationTaskGetListResponse21;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderServicePackMigrationTaskGetRequest21;
@@ -314,7 +314,6 @@ use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderSIPAuthenticationPassword
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderStirShakenGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderStirShakenGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderStirShakenModifyRequest;
-use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderStirShakenModifyResponse;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderTemplateOnlyDeviceFileGetListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderTemplateOnlyDeviceFileGetListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderThirdPartyEmergencyCallingGetRequest;
@@ -1042,7 +1041,7 @@ trait OCISchemaServiceProvider
 
     /**
      * @param ServiceProviderCommunicationBarringProfileGetCriteriaUsageListRequest $request
-     * @return ProfileGetCriteriaUsageListResponse
+     * @return ServiceProviderCommunicationBarringProfileGetCriteriaUsageListResponse
      * @throws ErrorResponseException
      * @throws ValidationException
      */
@@ -1064,7 +1063,7 @@ trait OCISchemaServiceProvider
 
     /**
      * @param ServiceProviderCommunicationBarringProfileGetIncomingCriteriaUsageListRequest $request
-     * @return ProfileGetIncomingCriteriaUsageListResponse
+     * @return ServiceProviderCommunicationBarringProfileGetIncomingCriteriaUsageListResponse
      * @throws ErrorResponseException
      * @throws ValidationException
      */
@@ -2483,7 +2482,7 @@ trait OCISchemaServiceProvider
 
     /**
      * @param ServiceProviderServicePackMigrationTaskGetAvailableGroupListRequest $request
-     * @return ServiceProviderServicePackMigrationTaskGetAvailabeGroupListResponse
+     * @return ServiceProviderServicePackMigrationTaskGetAvailableGroupListResponse
      * @throws ErrorResponseException
      * @throws ValidationException
      */
@@ -2681,7 +2680,7 @@ trait OCISchemaServiceProvider
 
     /**
      * @param ServiceProviderStirShakenModifyRequest $request
-     * @return ServiceProviderStirShakenModifyResponse
+     * @return SuccessResponse
      * @throws ErrorResponseException
      * @throws ValidationException
      */

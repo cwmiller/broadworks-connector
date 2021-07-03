@@ -13,7 +13,7 @@ use CWM\BroadWorksConnector\Ocip\Models\UserPersonalAssistantCallToNumberModifyL
 use CWM\BroadWorksConnector\Ocip\Models\UserPersonalAssistantExclusionNumberAddRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserPersonalAssistantExclusionNumberDeleteListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserPersonalAssistantExclusionNumberGetListRequest;
-use CWM\BroadWorksConnector\Ocip\Models\userPersonalAssistantExclusionNumberGetListResponse;
+use CWM\BroadWorksConnector\Ocip\Models\UserPersonalAssistantExclusionNumberGetListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserPersonalAssistantExclusionNumberGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserPersonalAssistantExclusionNumberGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserPersonalAssistantExclusionNumberModifyRequest;
@@ -106,7 +106,7 @@ trait OCISchemaServicePersonalAssistant
 
     /**
      * @param UserPersonalAssistantExclusionNumberGetListRequest $request
-     * @return userPersonalAssistantExclusionNumberGetListResponse
+     * @return UserPersonalAssistantExclusionNumberGetListResponse
      * @throws ErrorResponseException
      * @throws ValidationException
      */

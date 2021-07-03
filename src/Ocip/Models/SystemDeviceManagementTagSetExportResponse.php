@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemDeviceManagementTagSetExportRequest.
  *
  * @see SystemDeviceManagementTagSetExportRequest
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:8192","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:8189","type":"sequence"}]
  */
 class SystemDeviceManagementTagSetExportResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class SystemDeviceManagementTagSetExportResponse extends \CWM\BroadWorksConnecto
     /**
      * @ElementName file
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8192
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8189
      * @MinLength 1
      * @MaxLength 256
      * @var string|null

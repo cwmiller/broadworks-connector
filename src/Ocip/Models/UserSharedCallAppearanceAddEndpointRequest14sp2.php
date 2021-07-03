@@ -14,7 +14,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see ErrorResponse
  * @see UserSharedCallAppearanceAddEndpointRequest21
  * @see UserSharedCallAppearanceAddEndpointRequest22
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:46103","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:46097","type":"sequence"}]
  */
 class UserSharedCallAppearanceAddEndpointRequest14sp2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -22,7 +22,7 @@ class UserSharedCallAppearanceAddEndpointRequest14sp2 extends \CWM\BroadWorksCon
     /**
      * @ElementName userId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:46103
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:46097
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -32,7 +32,7 @@ class UserSharedCallAppearanceAddEndpointRequest14sp2 extends \CWM\BroadWorksCon
     /**
      * @ElementName accessDeviceEndpoint
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointAdd
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:46103
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:46097
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointAdd|null
      */
     private $accessDeviceEndpoint = null;
@@ -40,7 +40,7 @@ class UserSharedCallAppearanceAddEndpointRequest14sp2 extends \CWM\BroadWorksCon
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:46103
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:46097
      * @var bool|null
      */
     private $isActive = null;
@@ -48,7 +48,7 @@ class UserSharedCallAppearanceAddEndpointRequest14sp2 extends \CWM\BroadWorksCon
     /**
      * @ElementName allowOrigination
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:46103
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:46097
      * @var bool|null
      */
     private $allowOrigination = null;
@@ -56,7 +56,7 @@ class UserSharedCallAppearanceAddEndpointRequest14sp2 extends \CWM\BroadWorksCon
     /**
      * @ElementName allowTermination
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:46103
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:46097
      * @var bool|null
      */
     private $allowTermination = null;

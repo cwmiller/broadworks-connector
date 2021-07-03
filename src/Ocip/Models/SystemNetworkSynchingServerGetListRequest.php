@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemNetworkSynchingServerGetListResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:12886","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:12883","type":"sequence"}]
  */
 class SystemNetworkSynchingServerGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -19,7 +19,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserAnnouncementFileGetRequest
  * @see UserAnnouncementFileGetResponse22
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:39511","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:39505","type":"sequence"}]
  */
 class UserAnnouncementFileGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -27,7 +27,7 @@ class UserAnnouncementFileGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName description
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:39511
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:39505
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -37,7 +37,7 @@ class UserAnnouncementFileGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName filesize
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:39511
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:39505
      * @var int|null
      */
     private $filesize = null;
@@ -45,7 +45,7 @@ class UserAnnouncementFileGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName lastUploaded
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:39511
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:39505
      * @var string|null
      */
     private $lastUploaded = null;
@@ -53,7 +53,7 @@ class UserAnnouncementFileGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName usageTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:39511
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:39505
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $usageTable = null;

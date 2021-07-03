@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SystemPerformanceMeasurementReportingGetResponse
  * @see ErrorResponse
  * @see SystemPerformanceMeasurementReportingGetRequest22
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:28332","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:28327","type":"sequence"}]
  */
 class SystemPerformanceMeasurementReportingGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

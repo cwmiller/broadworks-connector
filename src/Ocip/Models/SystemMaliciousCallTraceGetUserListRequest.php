@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SystemMaliciousCallTraceGetUserListResponse
  * @see ErrorResponse
  * @see SystemMaliciousCallTraceGetRequest
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:27577","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:27572","type":"sequence"}]
  */
 class SystemMaliciousCallTraceGetUserListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SystemConfigurableTreatmentGetResponse
  * @see ErrorResponse
  * @see SystemConfigurableTreatmentGetRequest16
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:25302","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:25297","type":"sequence"}]
  */
 class SystemConfigurableTreatmentGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class SystemConfigurableTreatmentGetRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName treatmentId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:25302
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:25297
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           
  *         Replaced by: MusicOnHoldSourceModify20
  *
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:49140","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:49134","type":"sequence"}]
  */
 class MusicOnHoldSourceModify19sp1
 {
@@ -18,7 +18,7 @@ class MusicOnHoldSourceModify19sp1
      * @ElementName audioFilePreferredCodec
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AudioFileCodecExtended
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:49140
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:49134
      * @var \CWM\BroadWorksConnector\Ocip\Models\AudioFileCodecExtended|null
      */
     private $audioFilePreferredCodec = null;
@@ -27,7 +27,7 @@ class MusicOnHoldSourceModify19sp1
      * @ElementName messageSourceSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldMessageSelection
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:49140
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:49134
      * @var \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldMessageSelection|null
      */
     private $messageSourceSelection = null;
@@ -36,7 +36,7 @@ class MusicOnHoldSourceModify19sp1
      * @ElementName customSource
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceModify19sp1CustomSource
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:49140
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:49134
      * @var \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceModify19sp1CustomSource|null
      */
     private $customSource = null;
@@ -45,7 +45,7 @@ class MusicOnHoldSourceModify19sp1
      * @ElementName externalSource
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceModify19sp1ExternalSource
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:49140
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:49134
      * @var \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceModify19sp1ExternalSource|null
      */
     private $externalSource = null;

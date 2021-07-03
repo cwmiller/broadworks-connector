@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response contains all the system holiday schedule names.
  *
  * @see SystemHolidayScheduleGetListRequest
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:27167","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:27162","type":"sequence"}]
  */
 class SystemHolidayScheduleGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,7 +19,7 @@ class SystemHolidayScheduleGetListResponse extends \CWM\BroadWorksConnector\Ocip
      * @Type string
      * @Array
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:27167
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:27162
      * @MinLength 1
      * @MaxLength 40
      * @var string[]

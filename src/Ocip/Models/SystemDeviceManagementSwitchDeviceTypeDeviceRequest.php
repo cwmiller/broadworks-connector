@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:7901","type":"sequence","children":[{"id":"7f663d5135470c33ca64b0eed3c3aa0c:7902","type":"choice","optional":true,"children":[{"id":"7f663d5135470c33ca64b0eed3c3aa0c:7904","type":"sequence"}]}]}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:7898","type":"sequence","children":[{"id":"7f663d5135470c33ca64b0eed3c3aa0c:7899","type":"choice","optional":true,"children":[{"id":"7f663d5135470c33ca64b0eed3c3aa0c:7901","type":"sequence"}]}]}]
  */
 class SystemDeviceManagementSwitchDeviceTypeDeviceRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,7 +21,7 @@ class SystemDeviceManagementSwitchDeviceTypeDeviceRequest extends \CWM\BroadWork
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7902
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7899
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -31,7 +31,7 @@ class SystemDeviceManagementSwitchDeviceTypeDeviceRequest extends \CWM\BroadWork
     /**
      * @ElementName svcProviderId
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7904
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7901
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -41,7 +41,7 @@ class SystemDeviceManagementSwitchDeviceTypeDeviceRequest extends \CWM\BroadWork
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7904
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7901
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -51,7 +51,7 @@ class SystemDeviceManagementSwitchDeviceTypeDeviceRequest extends \CWM\BroadWork
     /**
      * @ElementName deviceName
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7901
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7898
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -61,7 +61,7 @@ class SystemDeviceManagementSwitchDeviceTypeDeviceRequest extends \CWM\BroadWork
     /**
      * @ElementName toDeviceType
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7901
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7898
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

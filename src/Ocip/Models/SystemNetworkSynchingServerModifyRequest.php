@@ -16,7 +16,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SuccessResponse
  * @see ErrorResponse
  * @see SystemNetworkSynchingServerModifyRequest22
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:27973","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:27968","type":"sequence"}]
  */
 class SystemNetworkSynchingServerModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -24,7 +24,7 @@ class SystemNetworkSynchingServerModifyRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName netAddress
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:27973
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:27968
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -36,7 +36,7 @@ class SystemNetworkSynchingServerModifyRequest extends \CWM\BroadWorksConnector\
      * @Type int
      * @Nillable
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:27973
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:27968
      * @MinInclusive 1025
      * @MaxInclusive 65535
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -48,7 +48,7 @@ class SystemNetworkSynchingServerModifyRequest extends \CWM\BroadWorksConnector\
      * @Type string
      * @Nillable
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:27973
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:27968
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -59,7 +59,7 @@ class SystemNetworkSynchingServerModifyRequest extends \CWM\BroadWorksConnector\
      * @ElementName becomePreferred
      * @Type bool
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:27973
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:27968
      * @var bool|null
      */
     private $becomePreferred = null;
@@ -68,7 +68,7 @@ class SystemNetworkSynchingServerModifyRequest extends \CWM\BroadWorksConnector\
      * @ElementName order
      * @Type int
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:27973
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:27968
      * @MinInclusive 1
      * @MaxInclusive 32767
      * @var int|null

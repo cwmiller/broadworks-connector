@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The table columns are: "Number", "Type" and "Description".
  *
  * @see SystemGETSNumberGetListRequest
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:10943","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:10940","type":"sequence"}]
  */
 class SystemGETSNumberGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class SystemGETSNumberGetListResponse extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName reservedNumberTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10943
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10940
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $reservedNumberTable = null;

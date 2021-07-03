@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:8109","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:8106","type":"sequence"}]
  */
 class SystemDeviceManagementTagSetCountryDeleteListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemDeviceManagementTagSetCountryDeleteListRequest extends \CWM\BroadWor
     /**
      * @ElementName tagSetName
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8109
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8106
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +28,7 @@ class SystemDeviceManagementTagSetCountryDeleteListRequest extends \CWM\BroadWor
     /**
      * @ElementName regionName
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8109
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8106
      * @MinLength 1
      * @MaxLength 64
      * @var string|null
@@ -39,7 +39,7 @@ class SystemDeviceManagementTagSetCountryDeleteListRequest extends \CWM\BroadWor
      * @ElementName countryName
      * @Type string
      * @Array
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8109
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8106
      * @MinLength 1
      * @MaxLength 80
      * @var string[]

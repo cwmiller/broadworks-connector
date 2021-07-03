@@ -6,13 +6,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ServiceProviderAccessDeviceGetUserListRequest
  *
  * Requests the list of users on a specified device.
- *         The response is either ServiceProviderAccessDeviceGetResponse or ErrorResponse.
+ *         The response is either ServiceProviderAccessDeviceGetUserListResponse or ErrorResponse.
  *         The following elements are only used in XS data mode and ignored in AS data mode:
  *           searchCriteriaAccessDeviceEndpointPrivateIdentity
  *           
  *         Replaced by: ServiceProviderAccessDeviceGetUserListRequest21sp1 in AS data mode.
  *
- * @see ServiceProviderAccessDeviceGetResponse
+ * @see ServiceProviderAccessDeviceGetUserListResponse
  * @see ErrorResponse
  * @see ServiceProviderAccessDeviceGetUserListRequest21sp1
  * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:4920","type":"sequence"}]

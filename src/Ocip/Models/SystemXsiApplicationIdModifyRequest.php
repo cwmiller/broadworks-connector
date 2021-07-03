@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:19378","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:19373","type":"sequence"}]
  */
 class SystemXsiApplicationIdModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemXsiApplicationIdModifyRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName xsiApplicationId
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:19378
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:19373
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -30,7 +30,7 @@ class SystemXsiApplicationIdModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:19378
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:19373
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil

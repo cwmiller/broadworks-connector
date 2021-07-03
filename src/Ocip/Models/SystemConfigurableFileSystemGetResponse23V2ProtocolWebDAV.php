@@ -5,7 +5,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemConfigurableFileSystemGetResponse23V2ProtocolWebDAV
  *
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:6633","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:6630","type":"sequence"}]
  */
 class SystemConfigurableFileSystemGetResponse23V2ProtocolWebDAV
 {
@@ -13,7 +13,7 @@ class SystemConfigurableFileSystemGetResponse23V2ProtocolWebDAV
     /**
      * @ElementName secure
      * @Type bool
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6633
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6630
      * @var bool|null
      */
     private $secure = null;
@@ -22,7 +22,7 @@ class SystemConfigurableFileSystemGetResponse23V2ProtocolWebDAV
      * @ElementName userName
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6633
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6630
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -32,7 +32,7 @@ class SystemConfigurableFileSystemGetResponse23V2ProtocolWebDAV
     /**
      * @ElementName fileServerFQDN
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6633
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6630
      * @MinLength 1
      * @MaxLength 80
      * @var string|null

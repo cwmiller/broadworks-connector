@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:14032","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:14029","type":"sequence"}]
  */
 class SystemOfficeZoneModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemOfficeZoneModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName officeZoneName
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14032
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14029
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -29,7 +29,7 @@ class SystemOfficeZoneModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName newOfficeZoneName
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14032
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14029
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -41,7 +41,7 @@ class SystemOfficeZoneModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14032
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14029
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -52,7 +52,7 @@ class SystemOfficeZoneModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName replacementZoneList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementZoneList
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14032
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14029
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementZoneList|null
      */
     private $replacementZoneList = null;
@@ -61,7 +61,7 @@ class SystemOfficeZoneModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName primaryZoneName
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14032
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14029
      * @MinLength 1
      * @MaxLength 80
      * @var string|null

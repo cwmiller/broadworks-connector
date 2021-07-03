@@ -17,7 +17,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           numberOfPreviousPasscodes
  *
  * @see SystemPortalPasscodeRulesGetRequest
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:14617","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:14614","type":"sequence"}]
  */
 class SystemPortalPasscodeRulesGetResponse19 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -25,7 +25,7 @@ class SystemPortalPasscodeRulesGetResponse19 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName disallowRepeatedDigits
      * @Type bool
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14617
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14614
      * @var bool|null
      */
     private $disallowRepeatedDigits = null;
@@ -33,7 +33,7 @@ class SystemPortalPasscodeRulesGetResponse19 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName numberOfRepeatedDigits
      * @Type int
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14617
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14614
      * @MinInclusive 1
      * @MaxInclusive 6
      * @var int|null
@@ -43,7 +43,7 @@ class SystemPortalPasscodeRulesGetResponse19 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName disallowRepeatedPatterns
      * @Type bool
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14617
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14614
      * @var bool|null
      */
     private $disallowRepeatedPatterns = null;
@@ -51,7 +51,7 @@ class SystemPortalPasscodeRulesGetResponse19 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName disallowContiguousSequences
      * @Type bool
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14617
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14614
      * @var bool|null
      */
     private $disallowContiguousSequences = null;
@@ -59,7 +59,7 @@ class SystemPortalPasscodeRulesGetResponse19 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName numberOfAscendingDigits
      * @Type int
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14617
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14614
      * @MinInclusive 2
      * @MaxInclusive 5
      * @var int|null
@@ -69,7 +69,7 @@ class SystemPortalPasscodeRulesGetResponse19 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName numberOfDescendingDigits
      * @Type int
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14617
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14614
      * @MinInclusive 2
      * @MaxInclusive 5
      * @var int|null
@@ -79,7 +79,7 @@ class SystemPortalPasscodeRulesGetResponse19 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName disallowUserNumber
      * @Type bool
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14617
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14614
      * @var bool|null
      */
     private $disallowUserNumber = null;
@@ -87,7 +87,7 @@ class SystemPortalPasscodeRulesGetResponse19 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName disallowReversedUserNumber
      * @Type bool
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14617
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14614
      * @var bool|null
      */
     private $disallowReversedUserNumber = null;
@@ -95,7 +95,7 @@ class SystemPortalPasscodeRulesGetResponse19 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName disallowOldPasscode
      * @Type bool
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14617
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14614
      * @var bool|null
      */
     private $disallowOldPasscode = null;
@@ -103,7 +103,7 @@ class SystemPortalPasscodeRulesGetResponse19 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName numberOfPreviousPasscodes
      * @Type int
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14617
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14614
      * @MinInclusive 1
      * @MaxInclusive 10
      * @var int|null
@@ -113,7 +113,7 @@ class SystemPortalPasscodeRulesGetResponse19 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName disallowReversedOldPasscode
      * @Type bool
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14617
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14614
      * @var bool|null
      */
     private $disallowReversedOldPasscode = null;
@@ -121,7 +121,7 @@ class SystemPortalPasscodeRulesGetResponse19 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName minCodeLength
      * @Type int
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14617
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14614
      * @MinInclusive 2
      * @MaxInclusive 15
      * @var int|null
@@ -131,7 +131,7 @@ class SystemPortalPasscodeRulesGetResponse19 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName maxCodeLength
      * @Type int
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14617
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14614
      * @MinInclusive 3
      * @MaxInclusive 30
      * @var int|null
@@ -141,7 +141,7 @@ class SystemPortalPasscodeRulesGetResponse19 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName disableLoginAfterMaxFailedLoginAttempts
      * @Type bool
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14617
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14614
      * @var bool|null
      */
     private $disableLoginAfterMaxFailedLoginAttempts = null;
@@ -150,7 +150,7 @@ class SystemPortalPasscodeRulesGetResponse19 extends \CWM\BroadWorksConnector\Oc
      * @ElementName maxFailedLoginAttempts
      * @Type int
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14617
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14614
      * @MinInclusive 2
      * @MaxInclusive 10
      * @var int|null
@@ -160,7 +160,7 @@ class SystemPortalPasscodeRulesGetResponse19 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName expirePassword
      * @Type bool
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14617
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14614
      * @var bool|null
      */
     private $expirePassword = null;
@@ -169,7 +169,7 @@ class SystemPortalPasscodeRulesGetResponse19 extends \CWM\BroadWorksConnector\Oc
      * @ElementName passcodeExpiresDays
      * @Type int
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14617
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14614
      * @MinInclusive 15
      * @MaxInclusive 180
      * @var int|null
@@ -179,7 +179,7 @@ class SystemPortalPasscodeRulesGetResponse19 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName sendLoginDisabledNotifyEmail
      * @Type bool
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14617
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14614
      * @var bool|null
      */
     private $sendLoginDisabledNotifyEmail = null;
@@ -188,7 +188,7 @@ class SystemPortalPasscodeRulesGetResponse19 extends \CWM\BroadWorksConnector\Oc
      * @ElementName loginDisabledNotifyEmailAddress
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14617
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14614
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -198,7 +198,7 @@ class SystemPortalPasscodeRulesGetResponse19 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName defaultPassword
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14617
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14614
      * @MinLength 1
      * @MaxLength 60
      * @var string|null

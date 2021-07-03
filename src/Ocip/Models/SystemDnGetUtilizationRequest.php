@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SystemDnGetUtilizationResponse
  * @see ErrorResponse
  * @see SystemDnGetUtilizationRequest14sp3
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:26367","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:26362","type":"sequence"}]
  */
 class SystemDnGetUtilizationRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class SystemDnGetUtilizationRequest extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName phoneNumber
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:26367
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:26362
      * @MinLength 1
      * @MaxLength 23
      * @var string|null

@@ -45,7 +45,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemDeviceManagementEventGetListRequest
  * @see SystemDeviceManagementEventGetListResponse22
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:25722","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:25717","type":"sequence"}]
  */
 class SystemDeviceManagementEventGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -53,7 +53,7 @@ class SystemDeviceManagementEventGetListResponse extends \CWM\BroadWorksConnecto
     /**
      * @ElementName eventTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:25722
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:25717
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $eventTable = null;

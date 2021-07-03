@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemDeviceManagementTagSetImportDryRunRequest.
  *
  * @see SystemDeviceManagementTagSetImportDryRunRequest
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:8277","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:8274","type":"sequence"}]
  */
 class SystemDeviceManagementTagSetImportDryRunResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class SystemDeviceManagementTagSetImportDryRunResponse extends \CWM\BroadWorksCo
     /**
      * @ElementName file
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8277
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8274
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -26,7 +26,7 @@ class SystemDeviceManagementTagSetImportDryRunResponse extends \CWM\BroadWorksCo
     /**
      * @ElementName differenceFound
      * @Type bool
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8277
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8274
      * @var bool|null
      */
     private $differenceFound = null;

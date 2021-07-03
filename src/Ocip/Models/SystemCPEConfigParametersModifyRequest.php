@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SuccessResponse
  * @see ErrorResponse
  * @see SystemCPEConfigParametersModifyRequest20
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:25560","type":"sequence","children":[{"id":"ab0042aa512abc10edb3c55e4b416b0b:25567","type":"choice","optional":true}]}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:25555","type":"sequence","children":[{"id":"ab0042aa512abc10edb3c55e4b416b0b:25562","type":"choice","optional":true}]}]
  */
 class SystemCPEConfigParametersModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -22,7 +22,7 @@ class SystemCPEConfigParametersModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName enableIPDeviceManagement
      * @Type bool
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:25560
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:25555
      * @var bool|null
      */
     private $enableIPDeviceManagement = null;
@@ -31,7 +31,7 @@ class SystemCPEConfigParametersModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName ftpConnectTimeoutSeconds
      * @Type int
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:25560
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:25555
      * @MinInclusive 1
      * @MaxInclusive 600
      * @var int|null
@@ -42,7 +42,7 @@ class SystemCPEConfigParametersModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName ftpFileTransferTimeoutSeconds
      * @Type int
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:25560
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:25555
      * @MinInclusive 1
      * @MaxInclusive 600
      * @var int|null
@@ -53,7 +53,7 @@ class SystemCPEConfigParametersModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName pauseBetweenFileRebuildMilliseconds
      * @Type int
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:25560
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:25555
      * @MinInclusive 0
      * @MaxInclusive 10000
      * @var int|null
@@ -64,7 +64,7 @@ class SystemCPEConfigParametersModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName maxBusyTimeMinutes
      * @Type int
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:25560
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:25555
      * @MinInclusive 1
      * @MaxInclusive 1440
      * @var int|null
@@ -76,7 +76,7 @@ class SystemCPEConfigParametersModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @Type string
      * @Nillable
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:25560
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:25555
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -86,7 +86,7 @@ class SystemCPEConfigParametersModifyRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName fileRebuildImmediate
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:25567
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:25562
      * @var string|null
      */
     private $fileRebuildImmediate = null;
@@ -94,7 +94,7 @@ class SystemCPEConfigParametersModifyRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName fileRebuildDaily
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemCPEConfigParametersModifyRequestFileRebuildDaily
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:25567
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:25562
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemCPEConfigParametersModifyRequestFileRebuildDaily|null
      */
     private $fileRebuildDaily = null;
@@ -102,7 +102,7 @@ class SystemCPEConfigParametersModifyRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName fileRebuildHourly
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemCPEConfigParametersModifyRequestFileRebuildHourly
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:25567
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:25562
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemCPEConfigParametersModifyRequestFileRebuildHourly|null
      */
     private $fileRebuildHourly = null;

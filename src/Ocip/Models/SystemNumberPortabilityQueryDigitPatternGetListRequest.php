@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemNumberPortabilityQueryDigitPatternGetListResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:13077","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:13074","type":"sequence"}]
  */
 class SystemNumberPortabilityQueryDigitPatternGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class SystemNumberPortabilityQueryDigitPatternGetListRequest extends \CWM\BroadW
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaNumberPortabilityQueryDigitPattern
      * @Array
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:13077
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:13074
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaNumberPortabilityQueryDigitPattern[]
      */
     private $searchCriteriaNumberPortabilityQueryDigitPattern = array(
@@ -32,7 +32,7 @@ class SystemNumberPortabilityQueryDigitPatternGetListRequest extends \CWM\BroadW
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaNumberPortabilityStatus
      * @Array
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:13077
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:13074
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaNumberPortabilityStatus[]
      */
     private $searchCriteriaNumberPortabilityStatus = array(
@@ -43,7 +43,7 @@ class SystemNumberPortabilityQueryDigitPatternGetListRequest extends \CWM\BroadW
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:13077
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:13074
      * @MinInclusive 1
      * @var int|null
      */

@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to a SystemCommunicationBarringAlternateCallIndicatorGetListRequest. Contains a table with one row per Communication Barring Alternate Call Indicator.  The table column headings are: "Alternate Call Indicator" and "Network Server Alternate Call Indicator".
  *
  * @see SystemCommunicationBarringAlternateCallIndicatorGetListRequest
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:5585","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:5582","type":"sequence"}]
  */
 class SystemCommunicationBarringAlternateCallIndicatorGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class SystemCommunicationBarringAlternateCallIndicatorGetListResponse extends \C
     /**
      * @ElementName alternateCallIndicatorTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:5585
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:5582
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $alternateCallIndicatorTable = null;

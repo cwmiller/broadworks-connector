@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemLicensingGetRequest
  * @see SystemLicensingGetResponse14sp3
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:27456","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:27451","type":"sequence"}]
  */
 class SystemLicensingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,7 +19,7 @@ class SystemLicensingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * @ElementName licenseStrictness
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LicenseStrictness
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:27456
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:27451
      * @var \CWM\BroadWorksConnector\Ocip\Models\LicenseStrictness|null
      */
     private $licenseStrictness = null;
@@ -27,7 +27,7 @@ class SystemLicensingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * @ElementName groupUserlimit
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:27456
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:27451
      * @MinInclusive 1
      * @var int|null
      */
@@ -37,7 +37,7 @@ class SystemLicensingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @ElementName expirationDate
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:27456
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:27451
      * @var string|null
      */
     private $expirationDate = null;
@@ -47,7 +47,7 @@ class SystemLicensingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @Type string
      * @Array
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:27456
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:27451
      * @MinLength 1
      * @var string[]
      */
@@ -60,7 +60,7 @@ class SystemLicensingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @Type string
      * @Array
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:27456
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:27451
      * @MinLength 1
      * @var string[]
      */
@@ -71,7 +71,7 @@ class SystemLicensingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * @ElementName licenseTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:27456
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:27451
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $licenseTable = null;

@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "System Voice Portal Id" and "Name".
  *
  * @see SystemNetworkClassOfServiceGetAssignedSystemVoicePortalListRequest
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:12442","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:12439","type":"sequence"}]
  */
 class SystemNetworkClassOfServiceGetAssignedSystemVoicePortalListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -20,7 +20,7 @@ class SystemNetworkClassOfServiceGetAssignedSystemVoicePortalListResponse extend
     /**
      * @ElementName systemVoicePortalTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12442
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12439
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $systemVoicePortalTable = null;

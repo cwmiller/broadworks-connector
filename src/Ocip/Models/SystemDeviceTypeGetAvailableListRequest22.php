@@ -20,13 +20,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           resellerId
  *           excludeLeafDeviceTypes
  *
- *         The response is either SystemDeviceTypeGetlAvailableListResponse22 or ErrorResponse.
+ *         The response is either SystemDeviceTypeGetAvailableListResponse22 or ErrorResponse.
  *
  * @see SystemSIPDeviceTypeGetListRequest
  * @see SystemMGCPDeviceTypeGetListRequest
- * @see SystemDeviceTypeGetlAvailableListResponse22
+ * @see SystemDeviceTypeGetAvailableListResponse22
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:8702","type":"sequence","children":[{"id":"7f663d5135470c33ca64b0eed3c3aa0c:8708","type":"choice"}]}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:8699","type":"sequence","children":[{"id":"7f663d5135470c33ca64b0eed3c3aa0c:8705","type":"choice"}]}]
  */
 class SystemDeviceTypeGetAvailableListRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -34,7 +34,7 @@ class SystemDeviceTypeGetAvailableListRequest22 extends \CWM\BroadWorksConnector
     /**
      * @ElementName allowConference
      * @Type bool
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8702
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8699
      * @var bool|null
      */
     private $allowConference = null;
@@ -42,7 +42,7 @@ class SystemDeviceTypeGetAvailableListRequest22 extends \CWM\BroadWorksConnector
     /**
      * @ElementName allowMusicOnHold
      * @Type bool
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8702
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8699
      * @var bool|null
      */
     private $allowMusicOnHold = null;
@@ -50,7 +50,7 @@ class SystemDeviceTypeGetAvailableListRequest22 extends \CWM\BroadWorksConnector
     /**
      * @ElementName onlyConference
      * @Type bool
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8702
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8699
      * @var bool|null
      */
     private $onlyConference = null;
@@ -58,7 +58,7 @@ class SystemDeviceTypeGetAvailableListRequest22 extends \CWM\BroadWorksConnector
     /**
      * @ElementName onlyVideoCapable
      * @Type bool
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8702
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8699
      * @var bool|null
      */
     private $onlyVideoCapable = null;
@@ -66,7 +66,7 @@ class SystemDeviceTypeGetAvailableListRequest22 extends \CWM\BroadWorksConnector
     /**
      * @ElementName onlyOptionalIpAddress
      * @Type bool
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8702
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8699
      * @var bool|null
      */
     private $onlyOptionalIpAddress = null;
@@ -75,7 +75,7 @@ class SystemDeviceTypeGetAvailableListRequest22 extends \CWM\BroadWorksConnector
      * @ElementName excludeReseller
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8708
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8705
      * @var bool|null
      */
     private $excludeReseller = null;
@@ -84,7 +84,7 @@ class SystemDeviceTypeGetAvailableListRequest22 extends \CWM\BroadWorksConnector
      * @ElementName resellerId
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8708
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8705
      * @MinLength 1
      * @MaxLength 36
      * @var string|null
@@ -95,7 +95,7 @@ class SystemDeviceTypeGetAvailableListRequest22 extends \CWM\BroadWorksConnector
      * @ElementName excludeLeafDeviceTypes
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8702
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8699
      * @var bool|null
      */
     private $excludeLeafDeviceTypes = null;

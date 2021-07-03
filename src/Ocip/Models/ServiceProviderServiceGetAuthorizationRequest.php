@@ -14,7 +14,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see ServiceProviderServiceGetAuthorizationResponse
  * @see ErrorResponse
  * @see ErrorResponse
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:5961","type":"sequence","children":[{"id":"f1088f4c5ceb30d524d2ba0f8097c393:5963","type":"choice"}]}]
+ * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:5959","type":"sequence","children":[{"id":"f1088f4c5ceb30d524d2ba0f8097c393:5961","type":"choice"}]}]
  */
 class ServiceProviderServiceGetAuthorizationRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -22,7 +22,7 @@ class ServiceProviderServiceGetAuthorizationRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5961
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5959
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -32,7 +32,7 @@ class ServiceProviderServiceGetAuthorizationRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName userServiceName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UserService
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5963
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5961
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserService|null
      */
     private $userServiceName = null;
@@ -40,7 +40,7 @@ class ServiceProviderServiceGetAuthorizationRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName groupServiceName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupService
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5963
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5961
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupService|null
      */
     private $groupServiceName = null;
@@ -48,7 +48,7 @@ class ServiceProviderServiceGetAuthorizationRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName servicePackName
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5963
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5961
      * @MinLength 1
      * @MaxLength 80
      * @var string|null

@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *       If none included, any call has a ServiceInvocationDisposition value defined in ServiceInvocationDisposition21
  *       is considered as a redirected call.
  *
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:48465","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:48459","type":"sequence"}]
  */
 class EnhancedCallLogsRedirectedCallSelection21
 {
@@ -20,7 +20,7 @@ class EnhancedCallLogsRedirectedCallSelection21
     /**
      * @ElementName redirectedCall
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:48465
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:48459
      * @var bool|null
      */
     private $redirectedCall = null;
@@ -30,7 +30,7 @@ class EnhancedCallLogsRedirectedCallSelection21
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceInvocationDisposition21
      * @Array
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:48465
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:48459
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInvocationDisposition21[]
      */
     private $redirectType = array(

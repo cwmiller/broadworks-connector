@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:10487","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:10484","type":"sequence"}]
  */
 class SystemFileRepositoryDeviceUserModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemFileRepositoryDeviceUserModifyRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName fileRepositoryName
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10487
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10484
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -28,7 +28,7 @@ class SystemFileRepositoryDeviceUserModifyRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName userName
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10487
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10484
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -39,7 +39,7 @@ class SystemFileRepositoryDeviceUserModifyRequest extends \CWM\BroadWorksConnect
      * @ElementName password
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10487
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10484
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -50,7 +50,7 @@ class SystemFileRepositoryDeviceUserModifyRequest extends \CWM\BroadWorksConnect
      * @ElementName allowPut
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10487
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10484
      * @var bool|null
      */
     private $allowPut = null;
@@ -59,7 +59,7 @@ class SystemFileRepositoryDeviceUserModifyRequest extends \CWM\BroadWorksConnect
      * @ElementName allowDelete
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10487
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10484
      * @var bool|null
      */
     private $allowDelete = null;
@@ -68,7 +68,7 @@ class SystemFileRepositoryDeviceUserModifyRequest extends \CWM\BroadWorksConnect
      * @ElementName allowGet
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10487
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10484
      * @var bool|null
      */
     private $allowGet = null;

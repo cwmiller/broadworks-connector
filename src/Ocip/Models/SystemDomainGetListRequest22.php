@@ -21,7 +21,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SystemDomainGetListResponse22
  * @see ErrorResponse
  * @see SystemDomainGetListRequest22V2
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:26413","type":"choice"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:26408","type":"choice"}]
  */
 class SystemDomainGetListRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -30,7 +30,7 @@ class SystemDomainGetListRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\
      * @ElementName excludeReseller
      * @Type bool
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:26413
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:26408
      * @var bool|null
      */
     private $excludeReseller = null;
@@ -39,7 +39,7 @@ class SystemDomainGetListRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\
      * @ElementName resellerId
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:26413
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:26408
      * @MinLength 1
      * @MaxLength 30
      * @var string|null

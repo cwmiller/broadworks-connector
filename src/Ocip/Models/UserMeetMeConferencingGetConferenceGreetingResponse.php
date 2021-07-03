@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains the information of a conference custom greeting.
  *
  * @see UserMeetMeConferencingGetConferenceGreetingRequest
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:45141","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:45135","type":"sequence"}]
  */
 class UserMeetMeConferencingGetConferenceGreetingResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class UserMeetMeConferencingGetConferenceGreetingResponse extends \CWM\BroadWork
     /**
      * @ElementName playEntranceGreeting
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:45141
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:45135
      * @var bool|null
      */
     private $playEntranceGreeting = null;
@@ -26,7 +26,7 @@ class UserMeetMeConferencingGetConferenceGreetingResponse extends \CWM\BroadWork
      * @ElementName entranceGreetingAudioFile
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:45141
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:45135
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -37,7 +37,7 @@ class UserMeetMeConferencingGetConferenceGreetingResponse extends \CWM\BroadWork
      * @ElementName entranceGreetingMediaType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MediaFileType
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:45141
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:45135
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     private $entranceGreetingMediaType = null;

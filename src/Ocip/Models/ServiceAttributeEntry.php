@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * The service attributes name and value pair.
  *
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:20060","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:20055","type":"sequence"}]
  */
 class ServiceAttributeEntry
 {
@@ -15,7 +15,7 @@ class ServiceAttributeEntry
     /**
      * @ElementName name
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:20060
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:20055
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -26,7 +26,7 @@ class ServiceAttributeEntry
      * @ElementName value
      * @Type string
      * @Nillable
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:20060
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:20055
      * @MinLength 1
      * @MaxLength 2048
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil

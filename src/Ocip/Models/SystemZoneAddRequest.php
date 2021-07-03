@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:19599","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:19594","type":"sequence"}]
  */
 class SystemZoneAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemZoneAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReq
     /**
      * @ElementName zoneName
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:19599
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:19594
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -30,7 +30,7 @@ class SystemZoneAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReq
      * @Type string
      * @Array
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:19599
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:19594
      * @MinLength 1
      * @MaxLength 39
      * @var string[]
@@ -44,7 +44,7 @@ class SystemZoneAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReq
      * @Type \CWM\BroadWorksConnector\Ocip\Models\IPAddressRange
      * @Array
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:19599
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:19594
      * @var \CWM\BroadWorksConnector\Ocip\Models\IPAddressRange[]
      */
     private $netAddressRange = array(
@@ -56,7 +56,7 @@ class SystemZoneAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReq
      * @Type string
      * @Array
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:19599
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:19594
      * @MinLength 1
      * @MaxLength 1024
      * @var string[]
@@ -69,7 +69,7 @@ class SystemZoneAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReq
      * @ElementName callingZonePhysicalLocation
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:19599
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:19594
      * @MinLength 1
      * @MaxLength 1024
      * @var string|null

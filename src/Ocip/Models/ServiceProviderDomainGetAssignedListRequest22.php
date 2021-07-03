@@ -15,7 +15,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see ServiceProviderDomainGetAssignedListResponse22
  * @see ErrorResponse
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:3991","type":"sequence"}]
+ * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:3989","type":"sequence"}]
  */
 class ServiceProviderDomainGetAssignedListRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -23,7 +23,7 @@ class ServiceProviderDomainGetAssignedListRequest22 extends \CWM\BroadWorksConne
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3991
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3989
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -34,7 +34,7 @@ class ServiceProviderDomainGetAssignedListRequest22 extends \CWM\BroadWorksConne
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3991
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3989
      * @MinInclusive 1
      * @var int|null
      */
@@ -45,7 +45,7 @@ class ServiceProviderDomainGetAssignedListRequest22 extends \CWM\BroadWorksConne
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDomainName
      * @Array
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3991
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3989
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDomainName[]
      */
     private $searchCriteriaDomainName = array(
@@ -56,7 +56,7 @@ class ServiceProviderDomainGetAssignedListRequest22 extends \CWM\BroadWorksConne
      * @ElementName searchCriteriaExactDomainLevel
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDomainLevel
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3991
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3989
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDomainLevel|null
      */
     private $searchCriteriaExactDomainLevel = null;

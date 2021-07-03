@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see UserVoiceMessagingUserGetAdvancedVoiceManagementResponse
  * @see ErrorResponse
  * @see UserVoiceMessagingUserGetAdvancedVoiceManagementRequest14sp3
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:46954","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:46948","type":"sequence"}]
  */
 class UserVoiceMessagingUserGetAdvancedVoiceManagementRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class UserVoiceMessagingUserGetAdvancedVoiceManagementRequest extends \CWM\Broad
     /**
      * @ElementName userId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:46954
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:46948
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

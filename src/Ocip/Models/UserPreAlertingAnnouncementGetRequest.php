@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see UserPreAlertingAnnouncementGetResponse
  * @see ErrorResponse
  * @see UserPreAlertingAnnouncementGetRequest20
- * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:14051","type":"sequence"}]
+ * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:14046","type":"sequence"}]
  */
 class UserPreAlertingAnnouncementGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,7 +21,7 @@ class UserPreAlertingAnnouncementGetRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName userId
      * @Type string
-     * @Group de4d76f01f337fe4694212ec9f771753:14051
+     * @Group de4d76f01f337fe4694212ec9f771753:14046
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

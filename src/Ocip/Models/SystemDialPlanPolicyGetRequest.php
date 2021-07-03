@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SystemDialPlanPolicyGetResponse
  * @see ErrorResponse
  * @see SystemDialPlanPolicyGetRequest17
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:26332","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:26327","type":"sequence"}]
  */
 class SystemDialPlanPolicyGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SystemSessionAdmissionControlGetResponse22
  * @see ErrorResponse
  * @see SystemSessionAdmissionControlGetRequest22V2
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:29177","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:29172","type":"sequence"}]
  */
 class SystemSessionAdmissionControlGetRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

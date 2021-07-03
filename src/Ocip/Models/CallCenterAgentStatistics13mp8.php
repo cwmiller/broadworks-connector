@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Contains Call Center statistics for a specified agent.
  *
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:47646","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:47640","type":"sequence"}]
  */
 class CallCenterAgentStatistics13mp8
 {
@@ -15,7 +15,7 @@ class CallCenterAgentStatistics13mp8
     /**
      * @ElementName agentUserId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:47646
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:47640
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -25,7 +25,7 @@ class CallCenterAgentStatistics13mp8
     /**
      * @ElementName agentDisplayNames
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UserDisplayNames
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:47646
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:47640
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserDisplayNames|null
      */
     private $agentDisplayNames = null;
@@ -33,7 +33,7 @@ class CallCenterAgentStatistics13mp8
     /**
      * @ElementName available
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:47646
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:47640
      * @var bool|null
      */
     private $available = null;
@@ -41,7 +41,7 @@ class CallCenterAgentStatistics13mp8
     /**
      * @ElementName statisticsYesterday
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAgentDailyStatistics13mp8
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:47646
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:47640
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAgentDailyStatistics13mp8|null
      */
     private $statisticsYesterday = null;
@@ -49,7 +49,7 @@ class CallCenterAgentStatistics13mp8
     /**
      * @ElementName statisticsToday
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAgentDailyStatistics13mp8
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:47646
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:47640
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAgentDailyStatistics13mp8|null
      */
     private $statisticsToday = null;

@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:11726","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:11723","type":"sequence"}]
  */
 class SystemMediaGroupCodecAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemMediaGroupCodecAddRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName name
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11726
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11723
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -28,7 +28,7 @@ class SystemMediaGroupCodecAddRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName codecName
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11726
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11723
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -38,7 +38,7 @@ class SystemMediaGroupCodecAddRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName codecWeight
      * @Type int
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11726
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11723
      * @MinInclusive 1
      * @MaxInclusive 1000
      * @var int|null

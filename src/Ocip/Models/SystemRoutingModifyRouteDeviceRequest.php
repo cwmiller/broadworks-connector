@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:15457","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:15454","type":"sequence"}]
  */
 class SystemRoutingModifyRouteDeviceRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemRoutingModifyRouteDeviceRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName routeName
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:15457
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:15454
      * @MinLength 1
      * @MaxLength 32
      * @var string|null
@@ -28,7 +28,7 @@ class SystemRoutingModifyRouteDeviceRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName netAddress
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:15457
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:15454
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -39,7 +39,7 @@ class SystemRoutingModifyRouteDeviceRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName port
      * @Type int
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:15457
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:15454
      * @MinInclusive 1025
      * @MaxInclusive 65535
      * @var int|null
@@ -50,7 +50,7 @@ class SystemRoutingModifyRouteDeviceRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName transportProtocol
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedTransportProtocol
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:15457
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:15454
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedTransportProtocol|null
      */
     private $transportProtocol = null;
@@ -60,7 +60,7 @@ class SystemRoutingModifyRouteDeviceRequest extends \CWM\BroadWorksConnector\Oci
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:15457
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:15454
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil

@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SystemCallProcessingPolicyProfileUserProfileGetResponse21sp1
  * @see ErrorResponse
  * @see SystemCallProcessingPolicyProfileUserProfileGetRequest22
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:23885","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:23880","type":"sequence"}]
  */
 class SystemCallProcessingPolicyProfileUserProfileGetRequest21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,7 +21,7 @@ class SystemCallProcessingPolicyProfileUserProfileGetRequest21sp1 extends \CWM\B
     /**
      * @ElementName callProcessingPolicyProfileName
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:23885
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:23880
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

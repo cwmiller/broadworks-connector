@@ -14,7 +14,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:12981","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:12978","type":"sequence"}]
  */
 class SystemNumberActivationModifyRequest18sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -23,7 +23,7 @@ class SystemNumberActivationModifyRequest18sp1 extends \CWM\BroadWorksConnector\
      * @ElementName numberActivationMode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\NumberActivationMode
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12981
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12978
      * @var \CWM\BroadWorksConnector\Ocip\Models\NumberActivationMode|null
      */
     private $numberActivationMode = null;
@@ -32,7 +32,7 @@ class SystemNumberActivationModifyRequest18sp1 extends \CWM\BroadWorksConnector\
      * @ElementName enableEnterpriseTrunkNumberRangeActivation
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12981
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12978
      * @var bool|null
      */
     private $enableEnterpriseTrunkNumberRangeActivation = null;

@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:5365","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:5362","type":"sequence"}]
  */
 class SystemClientIdentityAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemClientIdentityAddRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName clientIdentity
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:5365
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:5362
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

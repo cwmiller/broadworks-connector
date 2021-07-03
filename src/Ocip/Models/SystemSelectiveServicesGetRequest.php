@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemSelectiveServicesGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:29084","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:29079","type":"sequence"}]
  */
 class SystemSelectiveServicesGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

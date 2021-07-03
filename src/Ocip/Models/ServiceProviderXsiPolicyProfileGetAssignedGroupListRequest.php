@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see ServiceProviderXsiPolicyProfileGetAssignedGroupListResponse
  * @see ErrorResponse
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:7069","type":"sequence"}]
+ * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:7066","type":"sequence"}]
  */
 class ServiceProviderXsiPolicyProfileGetAssignedGroupListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class ServiceProviderXsiPolicyProfileGetAssignedGroupListRequest extends \CWM\Br
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:7069
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:7066
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -30,7 +30,7 @@ class ServiceProviderXsiPolicyProfileGetAssignedGroupListRequest extends \CWM\Br
     /**
      * @ElementName xsiPolicyProfile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\XsiPolicyProfileKey
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:7069
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:7066
      * @var \CWM\BroadWorksConnector\Ocip\Models\XsiPolicyProfileKey|null
      */
     private $xsiPolicyProfile = null;
@@ -39,7 +39,7 @@ class ServiceProviderXsiPolicyProfileGetAssignedGroupListRequest extends \CWM\Br
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:7069
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:7066
      * @MinInclusive 1
      * @var int|null
      */
@@ -50,7 +50,7 @@ class ServiceProviderXsiPolicyProfileGetAssignedGroupListRequest extends \CWM\Br
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId
      * @Array
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:7069
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:7066
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId[]
      */
     private $searchCriteriaGroupId = array(
@@ -62,7 +62,7 @@ class ServiceProviderXsiPolicyProfileGetAssignedGroupListRequest extends \CWM\Br
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupName
      * @Array
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:7069
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:7066
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupName[]
      */
     private $searchCriteriaGroupName = array(

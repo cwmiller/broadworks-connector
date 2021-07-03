@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemHolidayScheduleGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:27183","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:27178","type":"sequence"}]
  */
 class SystemHolidayScheduleGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemHolidayScheduleGetRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName holidayScheduleName
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:27183
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:27178
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

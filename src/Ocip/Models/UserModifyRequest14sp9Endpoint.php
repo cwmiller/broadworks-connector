@@ -5,7 +5,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * UserModifyRequest14sp9Endpoint
  *
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:45391","type":"choice"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:45385","type":"choice"}]
  */
 class UserModifyRequest14sp9Endpoint
 {
@@ -13,7 +13,7 @@ class UserModifyRequest14sp9Endpoint
     /**
      * @ElementName accessDeviceEndpoint
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointModify
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:45391
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:45385
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointModify|null
      */
     private $accessDeviceEndpoint = null;
@@ -21,7 +21,7 @@ class UserModifyRequest14sp9Endpoint
     /**
      * @ElementName trunkAddressing
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TrunkAddressingModify
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:45391
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:45385
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkAddressingModify|null
      */
     private $trunkAddressing = null;

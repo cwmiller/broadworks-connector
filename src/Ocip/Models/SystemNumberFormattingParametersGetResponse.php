@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains the system number formatting parameter.
  *
  * @see SystemNumberFormattingParametersGetRequest
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:13012","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:13009","type":"sequence"}]
  */
 class SystemNumberFormattingParametersGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class SystemNumberFormattingParametersGetResponse extends \CWM\BroadWorksConnect
     /**
      * @ElementName applyFormattingToE164Numbers
      * @Type bool
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:13012
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:13009
      * @var bool|null
      */
     private $applyFormattingToE164Numbers = null;

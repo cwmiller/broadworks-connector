@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemNetworkRoutingServerGetListResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:12736","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:12733","type":"sequence"}]
  */
 class SystemNetworkRoutingServerGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

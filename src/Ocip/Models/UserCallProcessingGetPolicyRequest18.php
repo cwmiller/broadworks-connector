@@ -14,7 +14,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see UserCallProcessingGetPolicyResponse18
  * @see ErrorResponse
  * @see UserCallProcessingGetPolicyRequest19sp1
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:41061","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:41055","type":"sequence"}]
  */
 class UserCallProcessingGetPolicyRequest18 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -22,7 +22,7 @@ class UserCallProcessingGetPolicyRequest18 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName userId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:41061
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:41055
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

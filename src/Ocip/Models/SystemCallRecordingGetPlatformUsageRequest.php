@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SystemCallRecordingGetPlatformUsageResponse
  * @see ErrorResponse
  * @see SystemCallRecordingGetPlatformUsageRequest22
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:24647","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:24642","type":"sequence"}]
  */
 class SystemCallRecordingGetPlatformUsageRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,7 +21,7 @@ class SystemCallRecordingGetPlatformUsageRequest extends \CWM\BroadWorksConnecto
     /**
      * @ElementName name
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:24647
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:24642
      * @MinLength 1
      * @MaxLength 80
      * @var string|null

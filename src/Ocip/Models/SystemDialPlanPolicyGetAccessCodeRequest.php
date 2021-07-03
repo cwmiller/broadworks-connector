@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemDialPlanPolicyGetAccessCodeResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:9107","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:9104","type":"sequence"}]
  */
 class SystemDialPlanPolicyGetAccessCodeRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemDialPlanPolicyGetAccessCodeRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName accessCode
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9107
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9104
      * @MinLength 1
      * @MaxLength 5
      * @var string|null

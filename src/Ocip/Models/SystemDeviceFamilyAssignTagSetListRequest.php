@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:7384","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:7381","type":"sequence"}]
  */
 class SystemDeviceFamilyAssignTagSetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class SystemDeviceFamilyAssignTagSetListRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName deviceFamilyName
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7384
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7381
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -30,7 +30,7 @@ class SystemDeviceFamilyAssignTagSetListRequest extends \CWM\BroadWorksConnector
      * @ElementName tagSetName
      * @Type string
      * @Array
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7384
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7381
      * @MinLength 1
      * @MaxLength 30
      * @var string[]

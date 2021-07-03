@@ -16,7 +16,7 @@ use CWM\BroadWorksConnector\Ocip\Models\SystemIntegratedIMPGetResponse19;
 use CWM\BroadWorksConnector\Ocip\Models\SystemIntegratedIMPModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserIntegratedIMPGeneratePasswordRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserIntegratedIMPGetRequest21sp1;
-use CWM\BroadWorksConnector\Ocip\Models\UserIMPGetResponse21sp1;
+use CWM\BroadWorksConnector\Ocip\Models\UserIntegratedIMPGetResponse21sp1;
 use CWM\BroadWorksConnector\Ocip\Models\UserIntegratedIMPModifyRequest;
 use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
 use CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
@@ -126,7 +126,7 @@ trait OCISchemaServiceIntegratedIMP
 
     /**
      * @param UserIntegratedIMPGetRequest21sp1 $request
-     * @return UserIMPGetResponse21sp1
+     * @return UserIntegratedIMPGetResponse21sp1
      * @throws ErrorResponseException
      * @throws ValidationException
      */

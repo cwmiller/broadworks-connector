@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:31804","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:31799","type":"sequence"}]
  */
 class SystemSIPDeviceTypeFileModifyRequest14sp8 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemSIPDeviceTypeFileModifyRequest14sp8 extends \CWM\BroadWorksConnector
     /**
      * @ElementName deviceType
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:31804
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:31799
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -28,7 +28,7 @@ class SystemSIPDeviceTypeFileModifyRequest14sp8 extends \CWM\BroadWorksConnector
     /**
      * @ElementName fileFormat
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:31804
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:31799
      * @MinLength 1
      * @MaxLength 128
      * @var string|null
@@ -39,7 +39,7 @@ class SystemSIPDeviceTypeFileModifyRequest14sp8 extends \CWM\BroadWorksConnector
      * @ElementName allowFileCustomization
      * @Type bool
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:31804
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:31799
      * @var bool|null
      */
     private $allowFileCustomization = null;
@@ -48,7 +48,7 @@ class SystemSIPDeviceTypeFileModifyRequest14sp8 extends \CWM\BroadWorksConnector
      * @ElementName fileSource
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DeviceTypeFileEnhancedConfigurationMode
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:31804
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:31799
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceTypeFileEnhancedConfigurationMode|null
      */
     private $fileSource = null;
@@ -57,7 +57,7 @@ class SystemSIPDeviceTypeFileModifyRequest14sp8 extends \CWM\BroadWorksConnector
      * @ElementName uploadFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\FileResource
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:31804
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:31799
      * @var \CWM\BroadWorksConnector\Ocip\Models\FileResource|null
      */
     private $uploadFile = null;
@@ -66,7 +66,7 @@ class SystemSIPDeviceTypeFileModifyRequest14sp8 extends \CWM\BroadWorksConnector
      * @ElementName useHttpDigestAuthentication
      * @Type bool
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:31804
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:31799
      * @var bool|null
      */
     private $useHttpDigestAuthentication = null;
@@ -75,7 +75,7 @@ class SystemSIPDeviceTypeFileModifyRequest14sp8 extends \CWM\BroadWorksConnector
      * @ElementName macBasedFileAuthentication
      * @Type bool
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:31804
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:31799
      * @var bool|null
      */
     private $macBasedFileAuthentication = null;
@@ -84,7 +84,7 @@ class SystemSIPDeviceTypeFileModifyRequest14sp8 extends \CWM\BroadWorksConnector
      * @ElementName userNamePasswordFileAuthentication
      * @Type bool
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:31804
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:31799
      * @var bool|null
      */
     private $userNamePasswordFileAuthentication = null;
@@ -93,7 +93,7 @@ class SystemSIPDeviceTypeFileModifyRequest14sp8 extends \CWM\BroadWorksConnector
      * @ElementName macInNonRequestURI
      * @Type bool
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:31804
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:31799
      * @var bool|null
      */
     private $macInNonRequestURI = null;
@@ -103,7 +103,7 @@ class SystemSIPDeviceTypeFileModifyRequest14sp8 extends \CWM\BroadWorksConnector
      * @Type string
      * @Nillable
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:31804
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:31799
      * @MinLength 1
      * @MaxLength 256
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil

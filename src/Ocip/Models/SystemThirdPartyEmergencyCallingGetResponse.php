@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemThirdPartyEmergencyCallingGetRequest
  * @see SystemThirdPartyEmergencyCallingGetResponse24
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:35473","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:35468","type":"sequence"}]
  */
 class SystemThirdPartyEmergencyCallingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -21,7 +21,7 @@ class SystemThirdPartyEmergencyCallingGetResponse extends \CWM\BroadWorksConnect
      * @ElementName primaryHELDServerURL
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:35473
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:35468
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -32,7 +32,7 @@ class SystemThirdPartyEmergencyCallingGetResponse extends \CWM\BroadWorksConnect
      * @ElementName secondaryHELDServerURL
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:35473
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:35468
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -43,7 +43,7 @@ class SystemThirdPartyEmergencyCallingGetResponse extends \CWM\BroadWorksConnect
      * @ElementName emergencyRouteNetAddress
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:35473
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:35468
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -54,7 +54,7 @@ class SystemThirdPartyEmergencyCallingGetResponse extends \CWM\BroadWorksConnect
      * @ElementName emergencyRoutePort
      * @Type int
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:35473
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:35468
      * @MinInclusive 1025
      * @MaxInclusive 65535
      * @var int|null
@@ -65,7 +65,7 @@ class SystemThirdPartyEmergencyCallingGetResponse extends \CWM\BroadWorksConnect
      * @ElementName emergencyRouteTransport
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:35473
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:35468
      * @var \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol|null
      */
     private $emergencyRouteTransport = null;

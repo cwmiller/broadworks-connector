@@ -20,7 +20,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserPushNotificationRegistrationGetListRequest
  * @see UserPushNotificationRegistrationGetListResponse21sp1
- * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:14188","type":"sequence"}]
+ * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:14183","type":"sequence"}]
  */
 class UserPushNotificationRegistrationGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -28,7 +28,7 @@ class UserPushNotificationRegistrationGetListResponse extends \CWM\BroadWorksCon
     /**
      * @ElementName registrationsTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group de4d76f01f337fe4694212ec9f771753:14188
+     * @Group de4d76f01f337fe4694212ec9f771753:14183
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $registrationsTable = null;

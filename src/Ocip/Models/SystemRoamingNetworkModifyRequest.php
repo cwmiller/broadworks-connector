@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:15010","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:15007","type":"sequence"}]
  */
 class SystemRoamingNetworkModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemRoamingNetworkModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName mscAddress
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:15010
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:15007
      * @MinLength 1
      * @MaxLength 23
      * @var string|null
@@ -30,7 +30,7 @@ class SystemRoamingNetworkModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:15010
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:15007
      * @MinLength 1
      * @MaxLength 128
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil

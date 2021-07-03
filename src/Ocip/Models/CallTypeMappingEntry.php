@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * The call type mapping entry.
  *
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:19876","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:19871","type":"sequence"}]
  */
 class CallTypeMappingEntry
 {
@@ -15,7 +15,7 @@ class CallTypeMappingEntry
     /**
      * @ElementName countryCode
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:19876
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:19871
      * @MaxLength 3
      * @Pattern [0-9]|[1-9][0-9]{1,2}
      * @var string|null
@@ -25,7 +25,7 @@ class CallTypeMappingEntry
     /**
      * @ElementName digitMap
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:19876
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:19871
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -35,7 +35,7 @@ class CallTypeMappingEntry
     /**
      * @ElementName callType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemCallType
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:19876
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:19871
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemCallType|null
      */
     private $callType = null;

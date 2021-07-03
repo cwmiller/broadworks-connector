@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response contains the Communication Barring Profile information.
  *
  * @see SystemCommunicationBarringProfileGetRequest16
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:25245","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:25240","type":"sequence"}]
  */
 class SystemCommunicationBarringProfileGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class SystemCommunicationBarringProfileGetResponse16 extends \CWM\BroadWorksConn
      * @ElementName description
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:25245
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:25240
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -28,7 +28,7 @@ class SystemCommunicationBarringProfileGetResponse16 extends \CWM\BroadWorksConn
     /**
      * @ElementName originatingDefaultAction
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringOriginatingAction
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:25245
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:25240
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringOriginatingAction|null
      */
     private $originatingDefaultAction = null;
@@ -37,7 +37,7 @@ class SystemCommunicationBarringProfileGetResponse16 extends \CWM\BroadWorksConn
      * @ElementName originatingDefaultTreatmentId
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:25245
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:25240
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -48,7 +48,7 @@ class SystemCommunicationBarringProfileGetResponse16 extends \CWM\BroadWorksConn
      * @ElementName originatingDefaultTransferNumber
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:25245
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:25240
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -59,7 +59,7 @@ class SystemCommunicationBarringProfileGetResponse16 extends \CWM\BroadWorksConn
      * @ElementName originatingDefaultCallTimeout
      * @Type int
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:25245
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:25240
      * @MinInclusive 60
      * @MaxInclusive 86400
      * @var int|null
@@ -71,7 +71,7 @@ class SystemCommunicationBarringProfileGetResponse16 extends \CWM\BroadWorksConn
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringOriginatingRule
      * @Array
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:25245
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:25240
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringOriginatingRule[]
      */
     private $originatingRule = array(
@@ -81,7 +81,7 @@ class SystemCommunicationBarringProfileGetResponse16 extends \CWM\BroadWorksConn
     /**
      * @ElementName redirectingDefaultAction
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringRedirectingAction
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:25245
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:25240
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringRedirectingAction|null
      */
     private $redirectingDefaultAction = null;
@@ -90,7 +90,7 @@ class SystemCommunicationBarringProfileGetResponse16 extends \CWM\BroadWorksConn
      * @ElementName redirectingDefaultCallTimeout
      * @Type int
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:25245
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:25240
      * @MinInclusive 60
      * @MaxInclusive 86400
      * @var int|null
@@ -102,7 +102,7 @@ class SystemCommunicationBarringProfileGetResponse16 extends \CWM\BroadWorksConn
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringRedirectingRule
      * @Array
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:25245
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:25240
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringRedirectingRule[]
      */
     private $redirectingRule = array(

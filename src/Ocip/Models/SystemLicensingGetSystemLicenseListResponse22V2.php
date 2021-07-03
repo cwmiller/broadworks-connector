@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemLicensingGetSystemLicenseListRequest22V2.
  *
  * @see SystemLicensingGetSystemLicenseListRequest22V2
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:11555","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:11552","type":"sequence"}]
  */
 class SystemLicensingGetSystemLicenseListResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class SystemLicensingGetSystemLicenseListResponse22V2 extends \CWM\BroadWorksCon
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemLicenseType22V2
      * @Array
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11555
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11552
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemLicenseType22V2[]
      */
     private $license = array(

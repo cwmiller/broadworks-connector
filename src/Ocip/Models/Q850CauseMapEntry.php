@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * The Q850 cause map entry.
  *
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:19987","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:19982","type":"sequence"}]
  */
 class Q850CauseMapEntry
 {
@@ -15,7 +15,7 @@ class Q850CauseMapEntry
     /**
      * @ElementName q850CauseValue
      * @Type int
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:19987
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:19982
      * @MinInclusive 1
      * @MaxInclusive 256
      * @var int|null
@@ -26,7 +26,7 @@ class Q850CauseMapEntry
      * @ElementName treatmentId
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:19987
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:19982
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

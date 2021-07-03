@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to ServiceProviderVisualDeviceManagementGetDeviceInfoRequest.
  *
  * @see ServiceProviderVisualDeviceManagementGetDeviceInfoRequest
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:7028","type":"sequence"}]
+ * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:7025","type":"sequence"}]
  */
 class ServiceProviderVisualDeviceManagementGetDeviceInfoResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class ServiceProviderVisualDeviceManagementGetDeviceInfoResponse extends \CWM\Br
     /**
      * @ElementName deviceType
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:7028
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:7025
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -26,7 +26,7 @@ class ServiceProviderVisualDeviceManagementGetDeviceInfoResponse extends \CWM\Br
     /**
      * @ElementName supportVisualDeviceManagement
      * @Type bool
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:7028
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:7025
      * @var bool|null
      */
     private $supportVisualDeviceManagement = null;
@@ -35,7 +35,7 @@ class ServiceProviderVisualDeviceManagementGetDeviceInfoResponse extends \CWM\Br
      * @ElementName macAddress
      * @Type string
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:7028
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:7025
      * @MinLength 1
      * @MaxLength 12
      * @var string|null
@@ -46,7 +46,7 @@ class ServiceProviderVisualDeviceManagementGetDeviceInfoResponse extends \CWM\Br
      * @ElementName primaryUser
      * @Type \CWM\BroadWorksConnector\Ocip\Models\PrimaryUserInfo
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:7028
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:7025
      * @var \CWM\BroadWorksConnector\Ocip\Models\PrimaryUserInfo|null
      */
     private $primaryUser = null;

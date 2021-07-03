@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:19028","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:19023","type":"sequence"}]
  */
 class SystemTreatmentMappingQ850CauseAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemTreatmentMappingQ850CauseAddRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName q850CauseValue
      * @Type int
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:19028
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:19023
      * @MinInclusive 1
      * @MaxInclusive 256
      * @var int|null
@@ -28,7 +28,7 @@ class SystemTreatmentMappingQ850CauseAddRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName treatmentId
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:19028
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:19023
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

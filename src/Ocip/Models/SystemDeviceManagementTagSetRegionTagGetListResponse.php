@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The column headings for the tagsTable are: "Tag Name", "Tag Value".
  *
  * @see SystemDeviceManagementTagSetRegionTagGetListRequest
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:8473","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:8470","type":"sequence"}]
  */
 class SystemDeviceManagementTagSetRegionTagGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class SystemDeviceManagementTagSetRegionTagGetListResponse extends \CWM\BroadWor
     /**
      * @ElementName tagsTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8473
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8470
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $tagsTable = null;

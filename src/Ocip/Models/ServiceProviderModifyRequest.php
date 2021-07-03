@@ -45,7 +45,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:4895","type":"sequence"}]
+ * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:4893","type":"sequence"}]
  */
 class ServiceProviderModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -53,7 +53,7 @@ class ServiceProviderModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4895
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4893
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -64,7 +64,7 @@ class ServiceProviderModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @ElementName defaultDomain
      * @Type string
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4895
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4893
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -76,7 +76,7 @@ class ServiceProviderModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Type string
      * @Nillable
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4895
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4893
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -88,7 +88,7 @@ class ServiceProviderModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Type string
      * @Nillable
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4895
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4893
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -99,7 +99,7 @@ class ServiceProviderModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @ElementName contact
      * @Type \CWM\BroadWorksConnector\Ocip\Models\Contact
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4895
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4893
      * @var \CWM\BroadWorksConnector\Ocip\Models\Contact|null
      */
     private $contact = null;
@@ -108,7 +108,7 @@ class ServiceProviderModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @ElementName address
      * @Type \CWM\BroadWorksConnector\Ocip\Models\StreetAddress
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4895
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4893
      * @var \CWM\BroadWorksConnector\Ocip\Models\StreetAddress|null
      */
     private $address = null;
@@ -117,7 +117,7 @@ class ServiceProviderModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @ElementName useServiceProviderLanguages
      * @Type bool
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4895
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4893
      * @var bool|null
      */
     private $useServiceProviderLanguages = null;
@@ -127,7 +127,7 @@ class ServiceProviderModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Type string
      * @Nillable
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4895
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4893
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -139,7 +139,7 @@ class ServiceProviderModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Type string
      * @Nillable
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4895
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4893
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -151,7 +151,7 @@ class ServiceProviderModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Type string
      * @Nillable
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4895
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4893
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -163,7 +163,7 @@ class ServiceProviderModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Type string
      * @Nillable
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4895
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4893
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -175,7 +175,7 @@ class ServiceProviderModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Type string
      * @Nillable
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4895
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4893
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -187,7 +187,7 @@ class ServiceProviderModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Type int
      * @Nillable
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4895
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4893
      * @MinInclusive 2
      * @MaxInclusive 20
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -199,7 +199,7 @@ class ServiceProviderModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Type int
      * @Nillable
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4895
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4893
      * @MinInclusive 0
      * @MaxInclusive 9
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -211,7 +211,7 @@ class ServiceProviderModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Type int
      * @Nillable
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4895
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4893
      * @MinInclusive 1
      * @MaxInclusive 15
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -222,7 +222,7 @@ class ServiceProviderModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @ElementName resellerId
      * @Type string
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4895
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4893
      * @MinLength 1
      * @MaxLength 36
      * @var string|null
@@ -233,7 +233,7 @@ class ServiceProviderModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @ElementName resellerName
      * @Type string
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4895
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4893
      * @MinLength 1
      * @MaxLength 320
      * @var string|null

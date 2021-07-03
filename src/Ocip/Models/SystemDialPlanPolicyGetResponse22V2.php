@@ -14,7 +14,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           permissiveOACDialing
  *
  * @see SystemDialPlanPolicyGetRequest22V2
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:9160","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:9157","type":"sequence"}]
  */
 class SystemDialPlanPolicyGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -22,7 +22,7 @@ class SystemDialPlanPolicyGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName requiresAccessCodeForPublicCalls
      * @Type bool
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9160
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9157
      * @var bool|null
      */
     private $requiresAccessCodeForPublicCalls = null;
@@ -30,7 +30,7 @@ class SystemDialPlanPolicyGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName allowE164PublicCalls
      * @Type bool
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9160
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9157
      * @var bool|null
      */
     private $allowE164PublicCalls = null;
@@ -38,7 +38,7 @@ class SystemDialPlanPolicyGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName preferE164NumberFormatForCallbackServices
      * @Type bool
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9160
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9157
      * @var bool|null
      */
     private $preferE164NumberFormatForCallbackServices = null;
@@ -46,7 +46,7 @@ class SystemDialPlanPolicyGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName publicDigitMap
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9160
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9157
      * @MinLength 1
      * @MaxLength 2048
      * @var string|null
@@ -57,7 +57,7 @@ class SystemDialPlanPolicyGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName privateDigitMap
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9160
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9157
      * @MinLength 1
      * @MaxLength 2048
      * @var string|null
@@ -67,7 +67,7 @@ class SystemDialPlanPolicyGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName overrideResolvedDeviceDigitMap
      * @Type bool
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9160
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9157
      * @var bool|null
      */
     private $overrideResolvedDeviceDigitMap = null;
@@ -76,7 +76,7 @@ class SystemDialPlanPolicyGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName deviceDigitMap
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9160
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9157
      * @MinLength 1
      * @MaxLength 2048
      * @var string|null
@@ -87,7 +87,7 @@ class SystemDialPlanPolicyGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName performInternalTranslationsWithOAC
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9160
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9157
      * @var bool|null
      */
     private $performInternalTranslationsWithOAC = null;
@@ -96,10 +96,10 @@ class SystemDialPlanPolicyGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName permissiveOACDialing
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9160
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9157
      * @var bool|null
      */
-    private $permissiveOACDialing  = null;
+    private $permissiveOACDialing = null;
 
     /**
      * Getter for requiresAccessCodeForPublicCalls
@@ -350,33 +350,33 @@ class SystemDialPlanPolicyGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\
     }
 
     /**
-     * Getter for permissiveOACDialing 
+     * Getter for permissiveOACDialing
      *
      * @return bool
      */
-    public function getPermissiveOACDialing ()
+    public function getPermissiveOACDialing()
     {
-        return $this->permissiveOACDialing  instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->permissiveOACDialing ;
+        return $this->permissiveOACDialing instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->permissiveOACDialing;
     }
 
     /**
-     * Setter for permissiveOACDialing 
+     * Setter for permissiveOACDialing
      *
-     * @param bool $permissiveOACDialing 
+     * @param bool $permissiveOACDialing
      * @return $this
      */
-    public function setPermissiveOACDialing ($permissiveOACDialing )
+    public function setPermissiveOACDialing($permissiveOACDialing)
     {
-        $this->permissiveOACDialing  = $permissiveOACDialing ;
+        $this->permissiveOACDialing = $permissiveOACDialing;
         return $this;
     }
 
     /**
      * @return $this
      */
-    public function unsetPermissiveOACDialing ()
+    public function unsetPermissiveOACDialing()
     {
-        $this->permissiveOACDialing  = null;
+        $this->permissiveOACDialing = null;
         return $this;
     }
 

@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemShInterfaceParametersGetRequest.  Contains the Sh Interface system parameters.
  *
  * @see SystemShInterfaceParametersGetRequest
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:16408","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:16405","type":"sequence"}]
  */
 class SystemShInterfaceParametersGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class SystemShInterfaceParametersGetResponse17 extends \CWM\BroadWorksConnector\
      * @ElementName hssRealm
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16408
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16405
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -27,7 +27,7 @@ class SystemShInterfaceParametersGetResponse17 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName publicIdentityRefreshDelaySeconds
      * @Type int
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16408
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16405
      * @MinInclusive 0
      * @MaxInclusive 30
      * @var int|null

@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:13865","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:13862","type":"sequence"}]
  */
 class SystemOfficeZoneAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemOfficeZoneAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * @ElementName officeZoneName
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:13865
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:13862
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -29,7 +29,7 @@ class SystemOfficeZoneAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @ElementName description
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:13865
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:13862
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -40,7 +40,7 @@ class SystemOfficeZoneAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @ElementName zoneName
      * @Type string
      * @Array
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:13865
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:13862
      * @MinLength 1
      * @MaxLength 80
      * @var string[]
@@ -52,7 +52,7 @@ class SystemOfficeZoneAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * @ElementName primaryZoneName
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:13865
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:13862
      * @MinLength 1
      * @MaxLength 80
      * @var string|null

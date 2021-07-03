@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SystemExpensiveCallTypeGetListResponse
  * @see ErrorResponse
  * @see SystemExpensiveCallTypeGetListRequest16sp1
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:26683","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:26678","type":"sequence"}]
  */
 class SystemExpensiveCallTypeGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

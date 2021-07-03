@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemGetAvailableTreeDeviceListRequest.
  *
  * @see SystemGetAvailableTreeDeviceListRequest
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:10690","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:10687","type":"sequence"}]
  */
 class SystemGetAvailableTreeDeviceListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class SystemGetAvailableTreeDeviceListResponse extends \CWM\BroadWorksConnector\
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TreeDeviceInfo
      * @Array
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10690
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10687
      * @var \CWM\BroadWorksConnector\Ocip\Models\TreeDeviceInfo[]
      */
     private $treeDeviceInfo = array(

@@ -15,7 +15,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SystemSIPDeviceTypeGetResponse22V6
  * @see ErrorResponse
  * @see SystemSIPDeviceTypeGetRequest23V2
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:32308","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:32303","type":"sequence"}]
  */
 class SystemSIPDeviceTypeGetRequest22V6 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -23,7 +23,7 @@ class SystemSIPDeviceTypeGetRequest22V6 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName deviceType
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:32308
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:32303
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

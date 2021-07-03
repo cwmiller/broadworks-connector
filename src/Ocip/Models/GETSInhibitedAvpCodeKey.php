@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * The GETS inhibited Avp code entry.
  *
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:19926","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:19921","type":"sequence"}]
  */
 class GETSInhibitedAvpCodeKey
 {
@@ -15,7 +15,7 @@ class GETSInhibitedAvpCodeKey
     /**
      * @ElementName avpCode
      * @Type int
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:19926
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:19921
      * @var int|null
      */
     private $avpCode = null;
@@ -23,7 +23,7 @@ class GETSInhibitedAvpCodeKey
     /**
      * @ElementName vendorId
      * @Type int
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:19926
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:19921
      * @var int|null
      */
     private $vendorId = null;

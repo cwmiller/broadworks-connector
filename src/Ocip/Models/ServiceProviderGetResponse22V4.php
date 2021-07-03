@@ -25,7 +25,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         serviceProviderExternalId.
  *
  * @see ServiceProviderGetRequest22V4
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:4585","type":"sequence","children":[{"id":"f1088f4c5ceb30d524d2ba0f8097c393:4586","type":"choice"}]}]
+ * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:4583","type":"sequence","children":[{"id":"f1088f4c5ceb30d524d2ba0f8097c393:4584","type":"choice"}]}]
  */
 class ServiceProviderGetResponse22V4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -33,7 +33,7 @@ class ServiceProviderGetResponse22V4 extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName isEnterprise
      * @Type bool
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4586
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4584
      * @var bool|null
      */
     private $isEnterprise = null;
@@ -41,7 +41,7 @@ class ServiceProviderGetResponse22V4 extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName useCustomRoutingProfile
      * @Type bool
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4586
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4584
      * @var bool|null
      */
     private $useCustomRoutingProfile = null;
@@ -49,7 +49,7 @@ class ServiceProviderGetResponse22V4 extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName defaultDomain
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4585
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4583
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -60,7 +60,7 @@ class ServiceProviderGetResponse22V4 extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName serviceProviderName
      * @Type string
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4585
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4583
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -71,7 +71,7 @@ class ServiceProviderGetResponse22V4 extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName supportEmail
      * @Type string
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4585
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4583
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -82,7 +82,7 @@ class ServiceProviderGetResponse22V4 extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName contact
      * @Type \CWM\BroadWorksConnector\Ocip\Models\Contact
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4585
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4583
      * @var \CWM\BroadWorksConnector\Ocip\Models\Contact|null
      */
     private $contact = null;
@@ -91,7 +91,7 @@ class ServiceProviderGetResponse22V4 extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName address
      * @Type \CWM\BroadWorksConnector\Ocip\Models\StreetAddress
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4585
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4583
      * @var \CWM\BroadWorksConnector\Ocip\Models\StreetAddress|null
      */
     private $address = null;
@@ -99,7 +99,7 @@ class ServiceProviderGetResponse22V4 extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName useServiceProviderLanguages
      * @Type bool
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4585
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4583
      * @var bool|null
      */
     private $useServiceProviderLanguages = null;
@@ -108,7 +108,7 @@ class ServiceProviderGetResponse22V4 extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName servicePolicy
      * @Type string
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4585
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4583
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -119,7 +119,7 @@ class ServiceProviderGetResponse22V4 extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName callProcessingSliceId
      * @Type string
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4585
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4583
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -130,7 +130,7 @@ class ServiceProviderGetResponse22V4 extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName provisioningSliceId
      * @Type string
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4585
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4583
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -141,7 +141,7 @@ class ServiceProviderGetResponse22V4 extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName subscriberPartition
      * @Type string
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4585
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4583
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -152,7 +152,7 @@ class ServiceProviderGetResponse22V4 extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName preferredDataCenter
      * @Type string
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4585
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4583
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -163,7 +163,7 @@ class ServiceProviderGetResponse22V4 extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName resellerId
      * @Type string
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4585
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4583
      * @MinLength 1
      * @MaxLength 36
      * @var string|null
@@ -173,7 +173,7 @@ class ServiceProviderGetResponse22V4 extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4585
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4583
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -184,7 +184,7 @@ class ServiceProviderGetResponse22V4 extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName serviceProviderExternalId
      * @Type string
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4585
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4583
      * @MaxLength 36
      * @var string|null
      */

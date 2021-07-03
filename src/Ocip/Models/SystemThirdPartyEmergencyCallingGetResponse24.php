@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response contains the third-party emergency call service settings for the system.
  *
  * @see SystemThirdPartyEmergencyCallingGetRequest24
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:18545","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:18542","type":"sequence"}]
  */
 class SystemThirdPartyEmergencyCallingGetResponse24 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class SystemThirdPartyEmergencyCallingGetResponse24 extends \CWM\BroadWorksConne
      * @ElementName primaryHELDServerURL
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18545
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18542
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -29,7 +29,7 @@ class SystemThirdPartyEmergencyCallingGetResponse24 extends \CWM\BroadWorksConne
      * @ElementName secondaryHELDServerURL
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18545
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18542
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -40,7 +40,7 @@ class SystemThirdPartyEmergencyCallingGetResponse24 extends \CWM\BroadWorksConne
      * @ElementName emergencyRouteNetAddress
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18545
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18542
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -51,7 +51,7 @@ class SystemThirdPartyEmergencyCallingGetResponse24 extends \CWM\BroadWorksConne
      * @ElementName emergencyRoutePort
      * @Type int
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18545
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18542
      * @MinInclusive 1025
      * @MaxInclusive 65535
      * @var int|null
@@ -62,7 +62,7 @@ class SystemThirdPartyEmergencyCallingGetResponse24 extends \CWM\BroadWorksConne
      * @ElementName emergencyRouteTransport
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedTransportProtocol
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18545
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18542
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedTransportProtocol|null
      */
     private $emergencyRouteTransport = null;

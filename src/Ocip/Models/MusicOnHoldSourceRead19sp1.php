@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Contains the music on hold source configuration.
  *
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:49262","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:49256","type":"sequence"}]
  */
 class MusicOnHoldSourceRead19sp1
 {
@@ -15,7 +15,7 @@ class MusicOnHoldSourceRead19sp1
     /**
      * @ElementName audioFilePreferredCodec
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AudioFileCodecExtended
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:49262
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:49256
      * @var \CWM\BroadWorksConnector\Ocip\Models\AudioFileCodecExtended|null
      */
     private $audioFilePreferredCodec = null;
@@ -23,7 +23,7 @@ class MusicOnHoldSourceRead19sp1
     /**
      * @ElementName messageSourceSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldMessageSelection
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:49262
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:49256
      * @var \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldMessageSelection|null
      */
     private $messageSourceSelection = null;
@@ -32,7 +32,7 @@ class MusicOnHoldSourceRead19sp1
      * @ElementName customSource
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceRead19sp1CustomSource
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:49262
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:49256
      * @var \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceRead19sp1CustomSource|null
      */
     private $customSource = null;
@@ -41,7 +41,7 @@ class MusicOnHoldSourceRead19sp1
      * @ElementName externalSource
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceRead19sp1ExternalSource
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:49262
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:49256
      * @var \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceRead19sp1ExternalSource|null
      */
     private $externalSource = null;

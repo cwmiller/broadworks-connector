@@ -15,7 +15,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SuccessResponse
  * @see ErrorResponse
  * @see UserCallCenterModifyRequest19
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:40610","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:40604","type":"sequence"}]
  */
 class UserCallCenterModifyRequest17sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -23,7 +23,7 @@ class UserCallCenterModifyRequest17sp4 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName userId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:40610
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:40604
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -34,7 +34,7 @@ class UserCallCenterModifyRequest17sp4 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName agentACDState
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AgentACDState
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:40610
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:40604
      * @var \CWM\BroadWorksConnector\Ocip\Models\AgentACDState|null
      */
     private $agentACDState = null;
@@ -43,7 +43,7 @@ class UserCallCenterModifyRequest17sp4 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName agentThresholdProfileName
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:40610
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:40604
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -55,7 +55,7 @@ class UserCallCenterModifyRequest17sp4 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Type string
      * @Nillable
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:40610
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:40604
      * @MinLength 1
      * @MaxLength 10
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -66,7 +66,7 @@ class UserCallCenterModifyRequest17sp4 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName useDefaultGuardTimer
      * @Type bool
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:40610
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:40604
      * @var bool|null
      */
     private $useDefaultGuardTimer = null;
@@ -75,7 +75,7 @@ class UserCallCenterModifyRequest17sp4 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName enableGuardTimer
      * @Type bool
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:40610
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:40604
      * @var bool|null
      */
     private $enableGuardTimer = null;
@@ -84,7 +84,7 @@ class UserCallCenterModifyRequest17sp4 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName guardTimerSeconds
      * @Type int
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:40610
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:40604
      * @MinInclusive 1
      * @MaxInclusive 25
      * @var int|null
@@ -95,7 +95,7 @@ class UserCallCenterModifyRequest17sp4 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName useSystemDefaultUnavailableSettings
      * @Type bool
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:40610
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:40604
      * @var bool|null
      */
     private $useSystemDefaultUnavailableSettings = null;
@@ -104,7 +104,7 @@ class UserCallCenterModifyRequest17sp4 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName forceAgentUnavailableOnDNDActivation
      * @Type bool
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:40610
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:40604
      * @var bool|null
      */
     private $forceAgentUnavailableOnDNDActivation = null;
@@ -113,7 +113,7 @@ class UserCallCenterModifyRequest17sp4 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName forceAgentUnavailableOnPersonalCalls
      * @Type bool
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:40610
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:40604
      * @var bool|null
      */
     private $forceAgentUnavailableOnPersonalCalls = null;
@@ -122,7 +122,7 @@ class UserCallCenterModifyRequest17sp4 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName forceAgentUnavailableOnBouncedCallLimit
      * @Type bool
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:40610
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:40604
      * @var bool|null
      */
     private $forceAgentUnavailableOnBouncedCallLimit = null;
@@ -131,7 +131,7 @@ class UserCallCenterModifyRequest17sp4 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName numberConsecutiveBouncedCallsToForceAgentUnavailable
      * @Type int
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:40610
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:40604
      * @MinInclusive 1
      * @MaxInclusive 5
      * @var int|null
@@ -142,7 +142,7 @@ class UserCallCenterModifyRequest17sp4 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName forceAgentUnavailableOnNotReachable
      * @Type bool
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:40610
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:40604
      * @var bool|null
      */
     private $forceAgentUnavailableOnNotReachable = null;
@@ -151,7 +151,7 @@ class UserCallCenterModifyRequest17sp4 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName makeOutgoingCallsAsCallCenter
      * @Type bool
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:40610
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:40604
      * @var bool|null
      */
     private $makeOutgoingCallsAsCallCenter = null;
@@ -161,7 +161,7 @@ class UserCallCenterModifyRequest17sp4 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DNISKey
      * @Nillable
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:40610
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:40604
      * @var \CWM\BroadWorksConnector\Ocip\Models\DNISKey|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $outgoingCallDNIS = null;
@@ -171,7 +171,7 @@ class UserCallCenterModifyRequest17sp4 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAgentAvailability
      * @Array
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:40610
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:40604
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAgentAvailability[]
      */
     private $callCenterAvailability = array(

@@ -5,9 +5,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * GroupStirShakenModifyRequest
  *
- * Modify Group Stir Shaken service settings. The response is either GroupStirShakenModifyResponse or ErrorResponse.
+ * Modify Group Stir Shaken service settings. The response is either SuccessResponse or ErrorResponse.
  *
- * @see GroupStirShakenModifyResponse
+ * @see SuccessResponse
  * @see ErrorResponse
  * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:8346","type":"sequence"}]
  */

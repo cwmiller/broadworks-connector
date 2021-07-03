@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SystemSystemVoicePortalGetResponse21sp1
  * @see ErrorResponse
  * @see SystemSystemVoicePortalGetRequest23
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:35374","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:35369","type":"sequence"}]
  */
 class SystemSystemVoicePortalGetRequest21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,7 +21,7 @@ class SystemSystemVoicePortalGetRequest21sp1 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName systemVoicePortalId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:35374
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:35369
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

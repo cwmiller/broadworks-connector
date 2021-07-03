@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response contains the session admission control capacity allocated for the service provider.
  *
  * @see ServiceProviderSessionAdmissionControlGetRequest
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:6656","type":"sequence"}]
+ * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:6653","type":"sequence"}]
  */
 class ServiceProviderSessionAdmissionControlGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class ServiceProviderSessionAdmissionControlGetResponse extends \CWM\BroadWorksC
     /**
      * @ElementName restrictAggregateSessions
      * @Type bool
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:6656
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:6653
      * @var bool|null
      */
     private $restrictAggregateSessions = null;
@@ -26,7 +26,7 @@ class ServiceProviderSessionAdmissionControlGetResponse extends \CWM\BroadWorksC
      * @ElementName maxSessions
      * @Type int
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:6656
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:6653
      * @MinInclusive 0
      * @var int|null
      */
@@ -36,7 +36,7 @@ class ServiceProviderSessionAdmissionControlGetResponse extends \CWM\BroadWorksC
      * @ElementName maxUserOriginatingSessions
      * @Type int
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:6656
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:6653
      * @MinInclusive 0
      * @var int|null
      */
@@ -46,7 +46,7 @@ class ServiceProviderSessionAdmissionControlGetResponse extends \CWM\BroadWorksC
      * @ElementName maxUserTerminatingSessions
      * @Type int
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:6656
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:6653
      * @MinInclusive 0
      * @var int|null
      */
@@ -55,7 +55,7 @@ class ServiceProviderSessionAdmissionControlGetResponse extends \CWM\BroadWorksC
     /**
      * @ElementName countIntraServiceProviderSessions
      * @Type bool
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:6656
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:6653
      * @var bool|null
      */
     private $countIntraServiceProviderSessions = null;

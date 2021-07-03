@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:6036","type":"sequence"}]
+ * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:6034","type":"sequence"}]
  */
 class ServiceProviderServiceModifyAuthorizationListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class ServiceProviderServiceModifyAuthorizationListRequest extends \CWM\BroadWor
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:6036
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:6034
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -31,7 +31,7 @@ class ServiceProviderServiceModifyAuthorizationListRequest extends \CWM\BroadWor
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupServiceAuthorization
      * @Array
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:6036
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:6034
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupServiceAuthorization[]
      */
     private $groupServiceAuthorization = array(
@@ -43,7 +43,7 @@ class ServiceProviderServiceModifyAuthorizationListRequest extends \CWM\BroadWor
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UserServiceAuthorization
      * @Array
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:6036
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:6034
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserServiceAuthorization[]
      */
     private $userServiceAuthorization = array(

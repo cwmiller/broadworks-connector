@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SuccessResponse
  * @see ErrorResponse
  * @see SystemShInterfaceParametersModifyRequest17
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:29387","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:29382","type":"sequence"}]
  */
 class SystemShInterfaceParametersModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -23,7 +23,7 @@ class SystemShInterfaceParametersModifyRequest extends \CWM\BroadWorksConnector\
      * @Type string
      * @Nillable
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:29387
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:29382
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -34,7 +34,7 @@ class SystemShInterfaceParametersModifyRequest extends \CWM\BroadWorksConnector\
      * @ElementName requestTimeoutSeconds
      * @Type int
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:29387
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:29382
      * @MinInclusive 1
      * @MaxInclusive 30
      * @var int|null
@@ -45,7 +45,7 @@ class SystemShInterfaceParametersModifyRequest extends \CWM\BroadWorksConnector\
      * @ElementName publicIdentityRefreshDelaySeconds
      * @Type int
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:29387
+     * @Group ab0042aa512abc10edb3c55e4b416b0b:29382
      * @MinInclusive 0
      * @MaxInclusive 30
      * @var int|null

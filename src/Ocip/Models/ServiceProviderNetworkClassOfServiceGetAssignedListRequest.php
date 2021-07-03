@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see ServiceProviderNetworkClassOfServiceGetAssignedListResponse
  * @see ErorResponse
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:5030","type":"sequence"}]
+ * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:5028","type":"sequence"}]
  */
 class ServiceProviderNetworkClassOfServiceGetAssignedListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class ServiceProviderNetworkClassOfServiceGetAssignedListRequest extends \CWM\Br
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5030
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5028
      * @MinLength 1
      * @MaxLength 30
      * @var string|null

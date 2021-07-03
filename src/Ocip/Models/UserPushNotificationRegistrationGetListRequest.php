@@ -14,7 +14,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see UserPushNotificationRegistrationGetListResponse
  * @see ErrorResponse
  * @see UserPushNotificationRegistrationGetListRequest21sp1
- * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:14159","type":"sequence","children":[{"id":"de4d76f01f337fe4694212ec9f771753:14160","type":"choice"}]}]
+ * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:14154","type":"sequence","children":[{"id":"de4d76f01f337fe4694212ec9f771753:14155","type":"choice"}]}]
  */
 class UserPushNotificationRegistrationGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -22,7 +22,7 @@ class UserPushNotificationRegistrationGetListRequest extends \CWM\BroadWorksConn
     /**
      * @ElementName registrationId
      * @Type string
-     * @Group de4d76f01f337fe4694212ec9f771753:14160
+     * @Group de4d76f01f337fe4694212ec9f771753:14155
      * @MinLength 1
      * @MaxLength 1024
      * @var string|null
@@ -32,7 +32,7 @@ class UserPushNotificationRegistrationGetListRequest extends \CWM\BroadWorksConn
     /**
      * @ElementName userId
      * @Type string
-     * @Group de4d76f01f337fe4694212ec9f771753:14160
+     * @Group de4d76f01f337fe4694212ec9f771753:14155
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

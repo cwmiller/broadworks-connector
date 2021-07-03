@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see ServiceProviderCommunicationBarringProfileGetDigitPatternCriteriaUsageListResponse
  * @see ErrorResponse
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:2397","type":"sequence"}]
+ * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:2396","type":"sequence"}]
  */
 class ServiceProviderCommunicationBarringProfileGetDigitPatternCriteriaUsageListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class ServiceProviderCommunicationBarringProfileGetDigitPatternCriteriaUsageList
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2397
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2396
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -29,7 +29,7 @@ class ServiceProviderCommunicationBarringProfileGetDigitPatternCriteriaUsageList
     /**
      * @ElementName name
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2397
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2396
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

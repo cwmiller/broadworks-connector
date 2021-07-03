@@ -6,9 +6,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemPreferredCarrierGetRequest
  *
  * Requests the attributes of carrier.
- *         The response is either a SystemPreferreredCarrierGetResponse or an ErrorResponse.
+ *         The response is either a SystemPreferredCarrierGetResponse or an ErrorResponse.
  *
- * @see SystemPreferreredCarrierGetResponse
+ * @see SystemPreferredCarrierGetResponse
  * @see ErrorResponse
  * @Groups [{"id":"74a46a9bfccb54713c1d19735843f1df:433","type":"sequence"}]
  */

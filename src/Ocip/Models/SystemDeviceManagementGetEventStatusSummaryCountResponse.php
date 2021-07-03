@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The column headings are "Action, "Pending", "Queued Internally", and "Completed"
  *
  * @see SystemDeviceManagementGetEventStatusSummaryCountRequest
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:7849","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:7846","type":"sequence"}]
  */
 class SystemDeviceManagementGetEventStatusSummaryCountResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class SystemDeviceManagementGetEventStatusSummaryCountResponse extends \CWM\Broa
     /**
      * @ElementName statusCountTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7849
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7846
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $statusCountTable = null;

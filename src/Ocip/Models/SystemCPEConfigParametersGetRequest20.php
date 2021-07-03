@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SystemCPEConfigParametersGetResponse20
  * @see ErrorResponse
  * @see SystemCPEConfigParametersGetRequest21
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:25460","type":"sequence"}]
+ * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:25455","type":"sequence"}]
  */
 class SystemCPEConfigParametersGetRequest20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

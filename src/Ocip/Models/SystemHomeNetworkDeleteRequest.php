@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:11231","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:11228","type":"sequence"}]
  */
 class SystemHomeNetworkDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemHomeNetworkDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName mscAddress
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11231
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11228
      * @MinLength 1
      * @MaxLength 23
      * @var string|null

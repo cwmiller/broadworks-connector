@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemCallProcessingPolicyProfileGetAssignedNCOSListResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:3944","type":"sequence"}]
+ * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:3941","type":"sequence"}]
  */
 class SystemCallProcessingPolicyProfileGetAssignedNCOSListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemCallProcessingPolicyProfileGetAssignedNCOSListRequest extends \CWM\B
     /**
      * @ElementName profileName
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:3944
+     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:3941
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

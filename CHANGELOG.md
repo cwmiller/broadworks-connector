@@ -1,5 +1,9 @@
 # Changelog
 
+## [3.2.2] - 2021-07-18
+### Fixed
+- Fixed XML deserializer not setting properties that begin with a capital character.
+
 ## [3.2.1] - 2021-07-03
 ### Fixed
 - Fixed many return types on traits due to typos and errors in `Rel_24.0_1.944` schema files.
@@ -118,6 +122,7 @@
 ### Added
 - `OcipClient` now exposes helper methods for every request object.
 
+[3.2.2]: https://github.com/cwmiller/broadworks-connector/compare/3.2.1...3.2.2
 [3.2.1]: https://github.com/cwmiller/broadworks-connector/compare/3.2.0...3.2.1
 [3.2.0]: https://github.com/cwmiller/broadworks-connector/compare/3.1.4...3.2.0
 [3.1.4]: https://github.com/cwmiller/broadworks-connector/compare/3.1.3...3.1.4

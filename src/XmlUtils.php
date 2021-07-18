@@ -64,7 +64,7 @@ abstract class XmlUtils
                 $childElement = $childElements->item($i);
                 $isNil = ($childElement instanceof DOMElement) && $childElement->getAttribute('xsi:nil') === 'true';
                 $elementName = $childElement->localName;
-                $propertyName = lcfirst($elementName);
+                $propertyName = $elementName;
 
                 if ($refClass->hasProperty($propertyName)) {
                     $refProperty = $refClass->getProperty($propertyName);
